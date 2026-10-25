@@ -52,4 +52,5 @@ jobs:
       - name: Guardar estado
         if: always()
         working-directory: herramientas
-        run: python -I sincronizar.py "Nube: resumen/vigilancia"
+        run: |
+          python -I sincronizar.py "Nube: resumen/vigilancia"

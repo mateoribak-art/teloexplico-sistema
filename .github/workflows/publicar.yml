@@ -67,8 +67,10 @@ jobs:
       - name: Guardar estado
         if: always()
         working-directory: herramientas
-        run: python -I sincronizar.py "Nube: turno del publicador"
+        run: |
+          python -I sincronizar.py "Nube: turno del publicador"
       - name: Avisar si algo falló
         if: failure()
         working-directory: herramientas
-        run: python -I avisar.py "❌ Falló el publicador en la nube" "Revisar GitHub › teloexplico-sistema › Actions. Se reintenta en el próximo turno." alta
+        run: |
+          python -I avisar.py "❌ Falló el publicador en la nube" "Revisar GitHub › teloexplico-sistema › Actions. Se reintenta en el próximo turno." alta
