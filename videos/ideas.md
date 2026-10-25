@@ -31,9 +31,9 @@ Ninguna idea de acá está verificada: cada una se investiga y se chequea antes 
 
 ## Ciencia de todos los días
 <!-- plan B: "(wiki: Artículo; Otro | claves: palabras)" al final fija qué artículos de Wikipedia leer -->
-- [descartada: plan B — chequeo rechazado] Un rayo nunca cae dos veces en el mismo lugar (wiki: Rayo | claves: mismo lugar veces Empire State edificio pararrayos)
-- [descartada: plan B — chequeo rechazado] Los perros ven en blanco y negro (wiki: Perro | claves: visión color colores dicromático ojos retina)
-- [descartada: plan B — chequeo rechazado] Los murciélagos son ciegos (wiki: Chiroptera; Ecolocalización | claves: ciegos ojos visión ecolocalización)
+- [ ] Un rayo nunca cae dos veces en el mismo lugar (wiki: Rayo | claves: mismo lugar veces Empire State edificio pararrayos)
+- [ ] Los perros ven en blanco y negro (wiki: Perro | claves: visión color colores dicromático ojos retina)
+- [ ] Los murciélagos son ciegos (wiki: Chiroptera; Ecolocalización | claves: ciegos ojos visión ecolocalización)
 - [ ] Los peces tienen memoria de tres segundos
 - [ ] La Muralla China se ve desde el espacio (wiki: Gran Muralla china | claves: espacio órbita astronauta vista)
 - [ ] El celular mojado se arregla en arroz

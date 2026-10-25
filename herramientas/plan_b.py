@@ -257,7 +257,7 @@ TEXTO FUENTE:
 """)
 
 
-def chequear(guion, caption, fuentes):
+def chequear(guion, caption, fuentes, idea=''):
     texto = '\n\n'.join(f'### {t}\n{x}' for t, x in fuentes)
     frases = '\n'.join(f"- {f['texto']}" for f in guion['frases'])
     r = gemini(f"""Sos un chequeador de datos estricto. Revisá cada afirmación FÁCTICA del guion y del caption contra el TEXTO FUENTE.
@@ -281,11 +281,13 @@ TEXTO FUENTE:
         if frase.endswith('?') or frase.startswith('¿'):
             a['estado'] = 'no_es_afirmacion'  # las preguntas del gancho no afirman nada
             continue
-        faltan = palabras_ausentes(frase, todo)
+        # las palabras del mito cuentan como presentes: para desarmarlo hay que nombrarlo ("no ven en blanco y negro")
+        faltan = palabras_ausentes(frase, todo + ' ' + idea)
         contenido = [w for w in normal(frase) if len(w) >= 5 and w not in VACIAS]
         numeros_mal = [w for w in faltan if any(c in UNIDADES or c == 'mil' for c in w.split())]
-        # paráfrasis: se tolera una palabra que no esté literal; números, nunca
-        demasiadas = numeros_mal or len(faltan) >= 2 or (contenido and len(faltan) / len(contenido) > 0.25)
+        # paráfrasis: se toleran 2 palabras que no estén literales (con cita textual real de 6+ palabras); números, nunca.
+        # Con 1 sola (hasta el 25/10) se rechazaba hasta "perciben colores igual que una persona daltónica".
+        demasiadas = numeros_mal or len(faltan) >= 3 or (contenido and len(faltan) / len(contenido) > 0.34)
         if faltan:
             a['faltan_en_fuente'] = faltan
         if a.get('estado') != 'verificada' or not cita_existe(a.get('cita', ''), todo) or demasiadas:
@@ -347,7 +349,7 @@ def producir(probar=False, revisar=False):
             g = pedir_guion(idea, fuentes, correccion)
             if g.get('descartar'):
                 break
-            afirmaciones, malas = chequear(g, g.get('caption', ''), fuentes)
+            afirmaciones, malas = chequear(g, g.get('caption', ''), fuentes, idea)
             if not malas:
                 break
             correccion = 'Sacá o reescribí estas afirmaciones que no están en el texto fuente: ' + ' | '.join(malas)
