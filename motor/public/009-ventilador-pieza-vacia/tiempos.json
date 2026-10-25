@@ -1,0 +1,1107 @@
+{
+ "duracion": 70.06,
+ "frases": [
+  {
+   "texto": "¿Te vas de la pieza y dejás el ventilador prendido para que la pieza esté fresca cuando vuelvas?",
+   "palabras": [
+    {
+     "texto": "¿Te",
+     "inicio": 0.0,
+     "fin": 0.12
+    },
+    {
+     "texto": "vas",
+     "inicio": 0.12,
+     "fin": 0.24
+    },
+    {
+     "texto": "de",
+     "inicio": 0.24,
+     "fin": 0.36
+    },
+    {
+     "texto": "la",
+     "inicio": 0.36,
+     "fin": 0.48
+    },
+    {
+     "texto": "pieza",
+     "inicio": 0.48,
+     "fin": 0.94
+    },
+    {
+     "texto": "y",
+     "inicio": 0.94,
+     "fin": 1.6
+    },
+    {
+     "texto": "dejás",
+     "inicio": 1.6,
+     "fin": 1.88
+    },
+    {
+     "texto": "el",
+     "inicio": 1.88,
+     "fin": 2.06
+    },
+    {
+     "texto": "ventilador",
+     "inicio": 2.06,
+     "fin": 2.5
+    },
+    {
+     "texto": "prendido",
+     "inicio": 2.5,
+     "fin": 3.04
+    },
+    {
+     "texto": "para",
+     "inicio": 3.04,
+     "fin": 3.76
+    },
+    {
+     "texto": "que",
+     "inicio": 3.76,
+     "fin": 4.1
+    },
+    {
+     "texto": "la",
+     "inicio": 4.1,
+     "fin": 4.22
+    },
+    {
+     "texto": "pieza",
+     "inicio": 4.22,
+     "fin": 4.52
+    },
+    {
+     "texto": "esté",
+     "inicio": 4.52,
+     "fin": 4.68
+    },
+    {
+     "texto": "fresca",
+     "inicio": 4.68,
+     "fin": 5.14
+    },
+    {
+     "texto": "cuando",
+     "inicio": 5.14,
+     "fin": 5.38
+    },
+    {
+     "texto": "vuelvas?",
+     "inicio": 5.38,
+     "fin": 5.88
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 5.88
+  },
+  {
+   "texto": "Te comiste un verso. El ventilador no enfría la pieza. Te enfría a vos.",
+   "palabras": [
+    {
+     "texto": "Te",
+     "inicio": 6.84,
+     "fin": 7.36
+    },
+    {
+     "texto": "comiste",
+     "inicio": 7.36,
+     "fin": 7.7
+    },
+    {
+     "texto": "un",
+     "inicio": 7.7,
+     "fin": 7.84
+    },
+    {
+     "texto": "verso.",
+     "inicio": 7.84,
+     "fin": 8.1
+    },
+    {
+     "texto": "El",
+     "inicio": 8.74,
+     "fin": 8.84
+    },
+    {
+     "texto": "ventilador",
+     "inicio": 8.84,
+     "fin": 9.38
+    },
+    {
+     "texto": "no",
+     "inicio": 9.38,
+     "fin": 9.64
+    },
+    {
+     "texto": "enfría",
+     "inicio": 9.64,
+     "fin": 10.0
+    },
+    {
+     "texto": "la",
+     "inicio": 10.0,
+     "fin": 10.16
+    },
+    {
+     "texto": "pieza.",
+     "inicio": 10.16,
+     "fin": 10.6
+    },
+    {
+     "texto": "Te",
+     "inicio": 11.04,
+     "fin": 11.1
+    },
+    {
+     "texto": "enfría",
+     "inicio": 11.1,
+     "fin": 11.44
+    },
+    {
+     "texto": "a",
+     "inicio": 11.44,
+     "fin": 11.66
+    },
+    {
+     "texto": "vos.",
+     "inicio": 11.66,
+     "fin": 11.86
+    }
+   ],
+   "inicio": 6.84,
+   "fin": 11.86
+  },
+  {
+   "texto": "Lo único que hace es mover el aire que ya está ahí. Y ese aire no baja ni un grado.",
+   "palabras": [
+    {
+     "texto": "Lo",
+     "inicio": 12.52,
+     "fin": 12.62
+    },
+    {
+     "texto": "único",
+     "inicio": 12.62,
+     "fin": 12.82
+    },
+    {
+     "texto": "que",
+     "inicio": 12.82,
+     "fin": 13.02
+    },
+    {
+     "texto": "hace",
+     "inicio": 13.02,
+     "fin": 13.24
+    },
+    {
+     "texto": "es",
+     "inicio": 13.24,
+     "fin": 13.44
+    },
+    {
+     "texto": "mover",
+     "inicio": 13.44,
+     "fin": 13.66
+    },
+    {
+     "texto": "el",
+     "inicio": 13.66,
+     "fin": 13.9
+    },
+    {
+     "texto": "aire",
+     "inicio": 13.9,
+     "fin": 14.06
+    },
+    {
+     "texto": "que",
+     "inicio": 14.06,
+     "fin": 14.24
+    },
+    {
+     "texto": "ya",
+     "inicio": 14.24,
+     "fin": 14.42
+    },
+    {
+     "texto": "está",
+     "inicio": 14.42,
+     "fin": 14.6
+    },
+    {
+     "texto": "ahí.",
+     "inicio": 14.6,
+     "fin": 14.86
+    },
+    {
+     "texto": "Y",
+     "inicio": 15.4,
+     "fin": 15.56
+    },
+    {
+     "texto": "ese",
+     "inicio": 15.56,
+     "fin": 15.78
+    },
+    {
+     "texto": "aire",
+     "inicio": 15.78,
+     "fin": 16.02
+    },
+    {
+     "texto": "no",
+     "inicio": 16.02,
+     "fin": 16.32
+    },
+    {
+     "texto": "baja",
+     "inicio": 16.32,
+     "fin": 16.5
+    },
+    {
+     "texto": "ni",
+     "inicio": 16.5,
+     "fin": 16.74
+    },
+    {
+     "texto": "un",
+     "inicio": 16.74,
+     "fin": 16.84
+    },
+    {
+     "texto": "grado.",
+     "inicio": 16.84,
+     "fin": 17.2
+    }
+   ],
+   "inicio": 12.52,
+   "fin": 17.2
+  },
+  {
+   "texto": "Pero sobre tu piel pasa algo distinto: el aire en movimiento se lleva el calor del cuerpo y ayuda a que el sudor se evapore.",
+   "palabras": [
+    {
+     "texto": "Pero",
+     "inicio": 17.54,
+     "fin": 17.88
+    },
+    {
+     "texto": "sobre",
+     "inicio": 17.88,
+     "fin": 18.22
+    },
+    {
+     "texto": "tu",
+     "inicio": 18.22,
+     "fin": 18.4
+    },
+    {
+     "texto": "piel",
+     "inicio": 18.4,
+     "fin": 18.82
+    },
+    {
+     "texto": "pasa",
+     "inicio": 18.82,
+     "fin": 19.3
+    },
+    {
+     "texto": "algo",
+     "inicio": 19.3,
+     "fin": 19.58
+    },
+    {
+     "texto": "distinto:",
+     "inicio": 19.58,
+     "fin": 20.18
+    },
+    {
+     "texto": "el",
+     "inicio": 20.72,
+     "fin": 20.8
+    },
+    {
+     "texto": "aire",
+     "inicio": 20.8,
+     "fin": 20.98
+    },
+    {
+     "texto": "en",
+     "inicio": 20.98,
+     "fin": 21.14
+    },
+    {
+     "texto": "movimiento",
+     "inicio": 21.14,
+     "fin": 21.5
+    },
+    {
+     "texto": "se",
+     "inicio": 21.5,
+     "fin": 21.98
+    },
+    {
+     "texto": "lleva",
+     "inicio": 21.98,
+     "fin": 22.26
+    },
+    {
+     "texto": "el",
+     "inicio": 22.26,
+     "fin": 22.4
+    },
+    {
+     "texto": "calor",
+     "inicio": 22.4,
+     "fin": 22.66
+    },
+    {
+     "texto": "del",
+     "inicio": 22.66,
+     "fin": 22.84
+    },
+    {
+     "texto": "cuerpo",
+     "inicio": 22.84,
+     "fin": 23.28
+    },
+    {
+     "texto": "y",
+     "inicio": 23.28,
+     "fin": 23.84
+    },
+    {
+     "texto": "ayuda",
+     "inicio": 23.84,
+     "fin": 24.16
+    },
+    {
+     "texto": "a",
+     "inicio": 24.16,
+     "fin": 24.46
+    },
+    {
+     "texto": "que",
+     "inicio": 24.46,
+     "fin": 24.48
+    },
+    {
+     "texto": "el",
+     "inicio": 24.48,
+     "fin": 24.64
+    },
+    {
+     "texto": "sudor",
+     "inicio": 24.64,
+     "fin": 24.92
+    },
+    {
+     "texto": "se",
+     "inicio": 24.92,
+     "fin": 25.1
+    },
+    {
+     "texto": "evapore.",
+     "inicio": 25.1,
+     "fin": 25.4
+    }
+   ],
+   "inicio": 17.54,
+   "fin": 25.4
+  },
+  {
+   "texto": "Y cuando el sudor se evapora, se lleva calor con él. Por eso sentís fresco.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 25.98,
+     "fin": 26.14
+    },
+    {
+     "texto": "cuando",
+     "inicio": 26.14,
+     "fin": 26.36
+    },
+    {
+     "texto": "el",
+     "inicio": 26.36,
+     "fin": 26.56
+    },
+    {
+     "texto": "sudor",
+     "inicio": 26.56,
+     "fin": 26.88
+    },
+    {
+     "texto": "se",
+     "inicio": 26.88,
+     "fin": 27.04
+    },
+    {
+     "texto": "evapora,",
+     "inicio": 27.04,
+     "fin": 27.46
+    },
+    {
+     "texto": "se",
+     "inicio": 27.86,
+     "fin": 28.06
+    },
+    {
+     "texto": "lleva",
+     "inicio": 28.06,
+     "fin": 28.34
+    },
+    {
+     "texto": "calor",
+     "inicio": 28.34,
+     "fin": 28.68
+    },
+    {
+     "texto": "con",
+     "inicio": 28.68,
+     "fin": 28.96
+    },
+    {
+     "texto": "él.",
+     "inicio": 28.96,
+     "fin": 29.14
+    },
+    {
+     "texto": "Por",
+     "inicio": 29.68,
+     "fin": 29.78
+    },
+    {
+     "texto": "eso",
+     "inicio": 29.78,
+     "fin": 29.94
+    },
+    {
+     "texto": "sentís",
+     "inicio": 29.94,
+     "fin": 30.28
+    },
+    {
+     "texto": "fresco.",
+     "inicio": 30.28,
+     "fin": 30.66
+    }
+   ],
+   "inicio": 25.98,
+   "fin": 30.66
+  },
+  {
+   "texto": "El Departamento de Energía de Estados Unidos lo resume así: los ventiladores enfrían a las personas, no a los ambientes.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 31.12,
+     "fin": 31.24
+    },
+    {
+     "texto": "Departamento",
+     "inicio": 31.24,
+     "fin": 31.7
+    },
+    {
+     "texto": "de",
+     "inicio": 31.7,
+     "fin": 31.84
+    },
+    {
+     "texto": "Energía",
+     "inicio": 31.84,
+     "fin": 32.24
+    },
+    {
+     "texto": "de",
+     "inicio": 32.24,
+     "fin": 32.34
+    },
+    {
+     "texto": "Estados",
+     "inicio": 32.34,
+     "fin": 32.56
+    },
+    {
+     "texto": "Unidos",
+     "inicio": 32.56,
+     "fin": 32.94
+    },
+    {
+     "texto": "lo",
+     "inicio": 32.94,
+     "fin": 33.3
+    },
+    {
+     "texto": "resume",
+     "inicio": 33.3,
+     "fin": 33.58
+    },
+    {
+     "texto": "así:",
+     "inicio": 33.58,
+     "fin": 33.86
+    },
+    {
+     "texto": "los",
+     "inicio": 34.38,
+     "fin": 34.52
+    },
+    {
+     "texto": "ventiladores",
+     "inicio": 34.52,
+     "fin": 35.14
+    },
+    {
+     "texto": "enfrían",
+     "inicio": 35.14,
+     "fin": 35.76
+    },
+    {
+     "texto": "a",
+     "inicio": 35.76,
+     "fin": 35.86
+    },
+    {
+     "texto": "las",
+     "inicio": 35.86,
+     "fin": 35.98
+    },
+    {
+     "texto": "personas,",
+     "inicio": 35.98,
+     "fin": 36.48
+    },
+    {
+     "texto": "no",
+     "inicio": 37.12,
+     "fin": 37.34
+    },
+    {
+     "texto": "a",
+     "inicio": 37.34,
+     "fin": 37.46
+    },
+    {
+     "texto": "los",
+     "inicio": 37.46,
+     "fin": 37.58
+    },
+    {
+     "texto": "ambientes.",
+     "inicio": 37.58,
+     "fin": 38.04
+    }
+   ],
+   "inicio": 31.12,
+   "fin": 38.04
+  },
+  {
+   "texto": "Entonces, si no hay nadie para refrescar, no está haciendo nada útil. Y encima el motor gasta electricidad y larga un poquito de calor.",
+   "palabras": [
+    {
+     "texto": "Entonces,",
+     "inicio": 38.52,
+     "fin": 38.86
+    },
+    {
+     "texto": "si",
+     "inicio": 39.32,
+     "fin": 39.66
+    },
+    {
+     "texto": "no",
+     "inicio": 39.66,
+     "fin": 39.78
+    },
+    {
+     "texto": "hay",
+     "inicio": 39.78,
+     "fin": 39.88
+    },
+    {
+     "texto": "nadie",
+     "inicio": 39.88,
+     "fin": 40.22
+    },
+    {
+     "texto": "para",
+     "inicio": 40.22,
+     "fin": 40.48
+    },
+    {
+     "texto": "refrescar,",
+     "inicio": 40.48,
+     "fin": 41.06
+    },
+    {
+     "texto": "no",
+     "inicio": 41.6,
+     "fin": 41.86
+    },
+    {
+     "texto": "está",
+     "inicio": 41.86,
+     "fin": 42.04
+    },
+    {
+     "texto": "haciendo",
+     "inicio": 42.04,
+     "fin": 42.34
+    },
+    {
+     "texto": "nada",
+     "inicio": 42.34,
+     "fin": 42.58
+    },
+    {
+     "texto": "útil.",
+     "inicio": 42.58,
+     "fin": 42.94
+    },
+    {
+     "texto": "Y",
+     "inicio": 43.52,
+     "fin": 43.62
+    },
+    {
+     "texto": "encima",
+     "inicio": 43.62,
+     "fin": 43.96
+    },
+    {
+     "texto": "el",
+     "inicio": 43.96,
+     "fin": 44.14
+    },
+    {
+     "texto": "motor",
+     "inicio": 44.14,
+     "fin": 44.38
+    },
+    {
+     "texto": "gasta",
+     "inicio": 44.38,
+     "fin": 44.68
+    },
+    {
+     "texto": "electricidad",
+     "inicio": 44.68,
+     "fin": 45.46
+    },
+    {
+     "texto": "y",
+     "inicio": 45.46,
+     "fin": 45.86
+    },
+    {
+     "texto": "larga",
+     "inicio": 45.86,
+     "fin": 46.24
+    },
+    {
+     "texto": "un",
+     "inicio": 46.24,
+     "fin": 46.4
+    },
+    {
+     "texto": "poquito",
+     "inicio": 46.4,
+     "fin": 46.68
+    },
+    {
+     "texto": "de",
+     "inicio": 46.68,
+     "fin": 46.9
+    },
+    {
+     "texto": "calor.",
+     "inicio": 46.9,
+     "fin": 47.14
+    }
+   ],
+   "inicio": 38.52,
+   "fin": 47.14
+  },
+  {
+   "texto": "Por eso la recomendación es apagarlo cuando salís de la habitación.",
+   "palabras": [
+    {
+     "texto": "Por",
+     "inicio": 47.6,
+     "fin": 47.78
+    },
+    {
+     "texto": "eso",
+     "inicio": 47.78,
+     "fin": 47.96
+    },
+    {
+     "texto": "la",
+     "inicio": 47.96,
+     "fin": 48.1
+    },
+    {
+     "texto": "recomendación",
+     "inicio": 48.1,
+     "fin": 48.7
+    },
+    {
+     "texto": "es",
+     "inicio": 48.7,
+     "fin": 48.88
+    },
+    {
+     "texto": "apagarlo",
+     "inicio": 48.88,
+     "fin": 49.4
+    },
+    {
+     "texto": "cuando",
+     "inicio": 49.4,
+     "fin": 49.58
+    },
+    {
+     "texto": "salís",
+     "inicio": 49.58,
+     "fin": 49.98
+    },
+    {
+     "texto": "de",
+     "inicio": 49.98,
+     "fin": 50.06
+    },
+    {
+     "texto": "la",
+     "inicio": 50.06,
+     "fin": 50.14
+    },
+    {
+     "texto": "habitación.",
+     "inicio": 50.14,
+     "fin": 50.54
+    }
+   ],
+   "inicio": 47.6,
+   "fin": 50.54
+  },
+  {
+   "texto": "Ojo: si estás vos adelante, sí sirve, y gasta mucho menos que un aire. Lo que no sirve es dejarlo andando solo.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 51.12,
+     "fin": 51.38
+    },
+    {
+     "texto": "si",
+     "inicio": 51.9,
+     "fin": 52.02
+    },
+    {
+     "texto": "estás",
+     "inicio": 52.02,
+     "fin": 52.24
+    },
+    {
+     "texto": "vos",
+     "inicio": 52.24,
+     "fin": 52.42
+    },
+    {
+     "texto": "adelante,",
+     "inicio": 52.42,
+     "fin": 52.94
+    },
+    {
+     "texto": "sí",
+     "inicio": 53.46,
+     "fin": 53.62
+    },
+    {
+     "texto": "sirve,",
+     "inicio": 53.62,
+     "fin": 54.1
+    },
+    {
+     "texto": "y",
+     "inicio": 54.56,
+     "fin": 54.62
+    },
+    {
+     "texto": "gasta",
+     "inicio": 54.62,
+     "fin": 54.86
+    },
+    {
+     "texto": "mucho",
+     "inicio": 54.86,
+     "fin": 55.22
+    },
+    {
+     "texto": "menos",
+     "inicio": 55.22,
+     "fin": 55.46
+    },
+    {
+     "texto": "que",
+     "inicio": 55.46,
+     "fin": 55.62
+    },
+    {
+     "texto": "un",
+     "inicio": 55.62,
+     "fin": 55.74
+    },
+    {
+     "texto": "aire.",
+     "inicio": 55.74,
+     "fin": 55.98
+    },
+    {
+     "texto": "Lo",
+     "inicio": 56.44,
+     "fin": 56.62
+    },
+    {
+     "texto": "que",
+     "inicio": 56.62,
+     "fin": 56.7
+    },
+    {
+     "texto": "no",
+     "inicio": 56.7,
+     "fin": 56.82
+    },
+    {
+     "texto": "sirve",
+     "inicio": 56.82,
+     "fin": 57.1
+    },
+    {
+     "texto": "es",
+     "inicio": 57.1,
+     "fin": 57.2
+    },
+    {
+     "texto": "dejarlo",
+     "inicio": 57.2,
+     "fin": 57.6
+    },
+    {
+     "texto": "andando",
+     "inicio": 57.6,
+     "fin": 57.94
+    },
+    {
+     "texto": "solo.",
+     "inicio": 57.94,
+     "fin": 58.24
+    }
+   ],
+   "inicio": 51.12,
+   "fin": 58.24
+  },
+  {
+   "texto": "Pensalo así: el ventilador es para tu piel, no para la pieza. Si no hay piel, no hay frescura.",
+   "palabras": [
+    {
+     "texto": "Pensalo",
+     "inicio": 58.74,
+     "fin": 59.1
+    },
+    {
+     "texto": "así:",
+     "inicio": 59.1,
+     "fin": 59.32
+    },
+    {
+     "texto": "el",
+     "inicio": 59.8,
+     "fin": 59.94
+    },
+    {
+     "texto": "ventilador",
+     "inicio": 59.94,
+     "fin": 60.42
+    },
+    {
+     "texto": "es",
+     "inicio": 60.42,
+     "fin": 60.56
+    },
+    {
+     "texto": "para",
+     "inicio": 60.56,
+     "fin": 60.72
+    },
+    {
+     "texto": "tu",
+     "inicio": 60.72,
+     "fin": 60.88
+    },
+    {
+     "texto": "piel,",
+     "inicio": 60.88,
+     "fin": 61.18
+    },
+    {
+     "texto": "no",
+     "inicio": 61.64,
+     "fin": 61.8
+    },
+    {
+     "texto": "para",
+     "inicio": 61.88,
+     "fin": 61.98
+    },
+    {
+     "texto": "la",
+     "inicio": 61.98,
+     "fin": 62.12
+    },
+    {
+     "texto": "pieza.",
+     "inicio": 62.12,
+     "fin": 62.48
+    },
+    {
+     "texto": "Si",
+     "inicio": 62.96,
+     "fin": 63.08
+    },
+    {
+     "texto": "no",
+     "inicio": 63.08,
+     "fin": 63.2
+    },
+    {
+     "texto": "hay",
+     "inicio": 63.2,
+     "fin": 63.28
+    },
+    {
+     "texto": "piel,",
+     "inicio": 63.28,
+     "fin": 63.54
+    },
+    {
+     "texto": "no",
+     "inicio": 64.0,
+     "fin": 64.1
+    },
+    {
+     "texto": "hay",
+     "inicio": 64.1,
+     "fin": 64.2
+    },
+    {
+     "texto": "frescura.",
+     "inicio": 64.2,
+     "fin": 64.6
+    }
+   ],
+   "inicio": 58.74,
+   "fin": 64.6
+  },
+  {
+   "texto": "Mandáselo a ese que deja el ventilador prendido en una pieza vacía, esperando que se enfríe sola.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 65.28,
+     "fin": 65.68
+    },
+    {
+     "texto": "a",
+     "inicio": 65.68,
+     "fin": 65.74
+    },
+    {
+     "texto": "ese",
+     "inicio": 65.74,
+     "fin": 65.9
+    },
+    {
+     "texto": "que",
+     "inicio": 65.9,
+     "fin": 66.08
+    },
+    {
+     "texto": "deja",
+     "inicio": 66.08,
+     "fin": 66.3
+    },
+    {
+     "texto": "el",
+     "inicio": 66.3,
+     "fin": 66.38
+    },
+    {
+     "texto": "ventilador",
+     "inicio": 66.38,
+     "fin": 66.86
+    },
+    {
+     "texto": "prendido",
+     "inicio": 66.86,
+     "fin": 67.36
+    },
+    {
+     "texto": "en",
+     "inicio": 67.36,
+     "fin": 67.44
+    },
+    {
+     "texto": "una",
+     "inicio": 67.44,
+     "fin": 67.56
+    },
+    {
+     "texto": "pieza",
+     "inicio": 67.56,
+     "fin": 67.86
+    },
+    {
+     "texto": "vacía,",
+     "inicio": 67.86,
+     "fin": 68.32
+    },
+    {
+     "texto": "esperando",
+     "inicio": 68.7,
+     "fin": 69.06
+    },
+    {
+     "texto": "que",
+     "inicio": 69.06,
+     "fin": 69.26
+    },
+    {
+     "texto": "se",
+     "inicio": 69.26,
+     "fin": 69.36
+    },
+    {
+     "texto": "enfríe",
+     "inicio": 69.36,
+     "fin": 69.68
+    },
+    {
+     "texto": "sola.",
+     "inicio": 69.68,
+     "fin": 69.88
+    }
+   ],
+   "inicio": 65.28,
+   "fin": 69.88
+  }
+ ]
+}

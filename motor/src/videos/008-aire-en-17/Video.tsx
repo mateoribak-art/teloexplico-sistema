@@ -195,10 +195,10 @@ const Anotaciones: React.FC = () => {
         <Rotulo texto="misma potencia" desde={r.w(4, "potencia")} x={ACX - 140} y={SALIDA + 150} ax={ACX} ay={SALIDA + 40} color={C.tinta} fondo={C.amarillo} tam={28} />
       ) : null}
       {entre(f, E.tiempo, E.plata) ? (
-        <Rotulo texto="trabaja más tiempo" desde={r.w(5, "compresor")} x={TX + 230} y={1150} ax={TX + 60} ay={tempY(20)} color={C.tinta} fondo={C.amarillo} tam={26} />
+        <Rotulo texto="trabaja más tiempo" desde={r.w(5, "compresor")} x={TX + 230} y={1000} ax={TX + 60} ay={tempY(20)} color={C.tinta} fondo={C.amarillo} tam={26} />
       ) : null}
       {entre(f, E.plata, E.hornalla) ? (
-        <Contador hasta={8} desde={r.w(6, "ocho")} dur={20} antes="+" despues=" %" x={760} y={760} tam={120} color={C.rojo} etiqueta="por cada grado que bajás" />
+        <Contador hasta={8} desde={r.w(6, "ocho")} dur={20} antes="+" despues=" %" x={800} y={1090} tam={120} color={C.rojo} etiqueta="por cada grado que bajás" />
       ) : null}
     </>
   );
@@ -206,8 +206,8 @@ const Anotaciones: React.FC = () => {
 
 /* ---------- Cámara ---------- */
 const TOMAS = [
-  toma(0, 540, 880, 1.0), toma(E.golpe, 600, 640, 1.08),
-  toma(E.golpe + 12, 600, 640, 1.08), toma(E.destino, TX + 120, 1040, 1.2),
+  toma(0, 540, 880, 1.0), toma(E.golpe, 540, 880, 1.04),
+  toma(E.destino - 2, 540, 880, 1.04), toma(E.destino, TX + 120, 1040, 1.2),
   toma(E.decis, TX + 150, 1000, 1.18), toma(E.potencia - 2, TX + 150, 1000, 1.18),
   toma(E.potencia, ACX, 780, 1.12), toma(E.tiempo - 2, ACX, 780, 1.12),
   toma(E.tiempo, 430, 1010, 1.04), toma(E.plata - 2, 430, 1010, 1.04),
@@ -238,7 +238,7 @@ const Diagrama: React.FC = () => {
 const Gancho: React.FC = () => (
   <>
     <Etiqueta texto="lo hacés siempre" desde={-8} />
-    <TituloHablado tiempos={tiempos} frase={0} desde={E.gancho} top={360} tam={56} />
+    <TituloHablado tiempos={tiempos} frase={0} desde={E.gancho} top={430} tam={56} />
     <Globo texto="¿para que enfríe más rápido?" desde={22} x={110} y={760} cola="der" tam={38} ancho={430} />
   </>
 );
@@ -248,8 +248,8 @@ const Golpe: React.FC = () => {
   return (
     <>
       <Etiqueta texto="la verdad" color={C.verde} />
-      <Titulo pregunta="en diecisiete no enfría…" desdeP={0} respuesta="¡más rápido!" desdeR={rap} top={380} tamR={120} />
-      <Sello texto="MITO" desde={rap + 2} x={150} y={330} rot={-8} color={C.rojo} tam={74} />
+      <Titulo pregunta="en diecisiete no enfría…" desdeP={0} respuesta="¡más rápido!" desdeR={rap} top={415} tamR={110} />
+      <Sello texto="MITO" desde={rap + 2} x={760} y={270} rot={-8} color={C.rojo} tam={74} />
     </>
   );
 };
@@ -365,8 +365,8 @@ const Reloj2: React.FC = () => {
   const giro = (f - E.tiempo) * 0.26;
   return (
     <Lienzo>
-      <Reloj cx={720} cy={980} r={120} giro={giro} />
-      <text x={720} y={1150} textAnchor="middle" fontFamily={mono} fontWeight={700} fontSize={30} fill={C.tinta}>en 17 sigue y sigue</text>
+      <Reloj cx={830} cy={880} r={90} giro={giro} />
+      <text x={830} y={1020} textAnchor="middle" fontFamily={mono} fontWeight={700} fontSize={30} fill={C.tinta}>sigue y sigue</text>
     </Lienzo>
   );
 };

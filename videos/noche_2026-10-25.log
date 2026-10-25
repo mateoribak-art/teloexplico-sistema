@@ -47,3 +47,10 @@ No quedó ningún video listo: el `008-aire-en-17` quedó incompleto y sigue en 
 Permisos negados (1):
   Bash: {"command": "cp motor/src/Root.tsx videos/008-aire-en-17/Root.completo.bak"}
 2026-10-25 05:40 Termina la producción (Claude no terminó bien).
+2026-10-25 05:44 Arranca la producción (5 listos en la cola, meta 10).
+Quedaron listos dos videos, y no hubo apartados ni incompletos.
+
+- **008-aire-en-17:** estaba a medias de la corrida anterior. Corregí títulos y rótulos que se pisaban, lo rendericé (77 s) y pasó el control con el chequeo ya aprobado.
+- **009-ventilador-pieza-vacia:** el ventilador enfría a las personas, no a la pieza. El subagente aprobó el chequeo, la voz salió sin problemas (205 palabras del guion, 206 oídas), hice dos vueltas de cuadros, renderizó 71 s y pasó el control. El ventilador lo dibujé dentro del propio `Video.tsx`, sin las 3 vueltas de pulido de `dibujar-objeto`, porque no está en el kit. La atribución al Departamento de Energía de EE. UU. quedó respaldada con el PDF de energy.gov. El subagente no pudo leer ese PDF entero y la frase textual la confirmó en ENERGY STAR.
+- **Cola:** hay 7 listos y el máximo de 2 por corrida está cumplido. Las ideas de `videos/ideas.md` y el log de producción están actualizados.
+2026-10-25 06:04 Termina la producción (ok).

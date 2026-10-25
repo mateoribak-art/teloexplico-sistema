@@ -164,7 +164,7 @@
  {
   "slug": "008-aire-en-17",
   "tema": "Poner el aire en 17 grados no enfria mas rapido; por que se recomienda 24",
-  "estado": "produccion",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -175,6 +175,33 @@
     "estado": "produccion",
     "cuando": "2026-10-25T00:32",
     "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-25T05:52",
+    "motivo": "producción nocturna"
+   }
+  ]
+ },
+ {
+  "slug": "009-ventilador-pieza-vacia",
+  "tema": "El ventilador no enfria el ambiente: te enfria a vos",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T05:52",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T05:52",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-25T06:04",
+    "motivo": "producción nocturna"
    }
   ]
  }

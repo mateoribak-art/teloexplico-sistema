@@ -1,0 +1,72 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones quedan verificadas o son consejos/humor sin dato duro. La atribución al Departamento de Energía se sostiene: la guía HVAC publicada en energy.gov (https://www.energy.gov/sites/default/files/2013/11/f5/hvac_guide.pdf) dice que los ventiladores bajan la temperatura de las personas y no la del aire, y que hay que apagarlos al salir del cuarto; ENERGY STAR (programa asociado al DOE) lo dice textual: 'Ceiling fans cool people, not rooms'. La frase del guion usa 'lo resume así' (paráfrasis, no cita entre comillas), lo cual es correcto. No pude abrir la página actual de energy.gov (404 en las URL probadas) ni leer el PDF; la verificación del contenido del PDF es por el extracto del buscador, y la frase literal 'cool people, not rooms' la confirmé en ENERGY STAR, no en energy.gov. Eso no cambia el sentido de la atribución. Sin afirmaciones de salud ni seguridad. Plata: 'gasta electricidad' y 'mucho menos que un aire' verificados con cifras de empresas de energía (ventilador de techo ~75-90 W vs aire central 1500-3500 W). Motor que libera calor: verificado por física básica (la electricidad que consume termina como calor) y TechRadar; la frase ya lo presenta como 'un poquito', matiz correcto. Ninguna afirmación falsa, dudosa ni probable presentada como firme. Sugerencia opcional, no bloqueante: si se quiere máxima precisión, citar 'según el Departamento de Energía' sin agregar la palabra literal 'ambientes' entre comillas, como ya está.",
+  "afirmaciones": [
+    {
+      "texto": "¿Te vas de la pieza y dejás el ventilador prendido para que la pieza esté fresca cuando vuelvas?",
+      "fuente": "Pregunta retórica, no es afirmación fáctica",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Te comiste un verso. El ventilador no enfría la pieza. Te enfría a vos.",
+      "fuente": "DOE hvac_guide.pdf (energy.gov); ENERGY STAR 'Ceiling Fans Made Easy'; TechRadar 'Can fans cool a room?'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Lo único que hace es mover el aire que ya está ahí. Y ese aire no baja ni un grado.",
+      "fuente": "TechRadar (https://www.techradar.com/home/air-quality/can-fans-cool-a-room); DOE hvac_guide.pdf (bajan la temperatura de las personas, no la del aire)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Pero sobre tu piel pasa algo distinto: el aire en movimiento se lleva el calor del cuerpo y ayuda a que el sudor se evapore.",
+      "fuente": "DOE hvac_guide.pdf (efecto de sensación térmica / wind chill); HomeServe citando al DOE (el aire en movimiento ayuda a evaporar el sudor); física básica",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y cuando el sudor se evapora, se lleva calor con él. Por eso sentís fresco.",
+      "fuente": "Calor latente de evaporación (física básica); HomeServe, Electronic Express blog",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El Departamento de Energía de Estados Unidos lo resume así: los ventiladores enfrían a las personas, no a los ambientes.",
+      "fuente": "https://www.energy.gov/sites/default/files/2013/11/f5/hvac_guide.pdf (ventiladores bajan la temperatura de las personas, no del aire; apagar al salir); frase literal 'Ceiling fans cool people, not rooms' en ENERGY STAR (https://www.energystar.gov/sites/default/files/asset/document/Ceiling%20Fan%20FS%20v14.pdf). No se pudo abrir la página actual de energy.gov/energysaver (404).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Entonces, si no hay nadie para refrescar, no está haciendo nada útil. Y encima el motor gasta electricidad y larga un poquito de calor.",
+      "fuente": "TechRadar (en un cuarto bien aislado puede subir levemente la temperatura); termodinámica básica (la energía eléctrica del motor termina como calor); cifras de consumo de EPB y Perch Energy (~75-90 W)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Por eso la recomendación es apagarlo cuando salís de la habitación.",
+      "fuente": "DOE hvac_guide.pdf (energy.gov): apagar los ventiladores de techo al salir del cuarto; ENERGY STAR; Energy Saver de Carolina del Sur",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: si estás vos adelante, sí sirve, y gasta mucho menos que un aire. Lo que no sirve es dejarlo andando solo.",
+      "fuente": "EPB (https://epb.com/get-connected/energy-tips/how-much-electricity-does-a-fan-use/) y Perch Energy: ventilador ~75-90 W (~US$0,01/h) vs aire central 1500-3500 W (~US$0,23/h), unas 20 a 50 veces más",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Pensalo así: el ventilador es para tu piel, no para la pieza. Si no hay piel, no hay frescura.",
+      "fuente": "Resumen de lo anterior (DOE hvac_guide.pdf; ENERGY STAR)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mandáselo a ese que deja el ventilador prendido en una pieza vacía, esperando que se enfríe sola.",
+      "fuente": "Llamado a la acción / humor, no es afirmación fáctica",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

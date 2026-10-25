@@ -1,0 +1,20 @@
+{
+  "titulo": "¿El ventilador enfría la pieza?",
+  "fuentes": [
+    "Departamento de Energía de Estados Unidos (energy.gov) — los ventiladores enfrían a las personas, no a los ambientes; conviene apagarlos al salir de la habitación",
+    "Física básica: el aire en movimiento acelera la evaporación del sudor y la pérdida de calor de la piel; el motor eléctrico libera algo de calor"
+  ],
+  "frases": [
+    {"texto": "¿Te vas de la pieza y dejás el ventilador prendido para que la pieza esté fresca cuando vuelvas?", "estilo": "Intriga, como si te agarrara en falta."},
+    {"texto": "Te comiste un verso. El ventilador no enfría la pieza. Te enfría a vos.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Lo único que hace es mover el aire que ya está ahí. Y ese aire no baja ni un grado.", "estilo": "Explicativo, tranquilo."},
+    {"texto": "Pero sobre tu piel pasa algo distinto: el aire en movimiento se lleva el calor del cuerpo y ayuda a que el sudor se evapore.", "estilo": "Mecanismo, claro."},
+    {"texto": "Y cuando el sudor se evapora, se lleva calor con él. Por eso sentís fresco.", "estilo": "Revelación, pausado."},
+    {"texto": "El Departamento de Energía de Estados Unidos lo resume así: los ventiladores enfrían a las personas, no a los ambientes.", "estilo": "Dato duro, nombrando la fuente."},
+    {"texto": "Entonces, si no hay nadie para refrescar, no está haciendo nada útil. Y encima el motor gasta electricidad y larga un poquito de calor.", "estilo": "Con énfasis, un poco de humor."},
+    {"texto": "Por eso la recomendación es apagarlo cuando salís de la habitación.", "estilo": "Consejo práctico, firme."},
+    {"texto": "Ojo: si estás vos adelante, sí sirve, y gasta mucho menos que un aire. Lo que no sirve es dejarlo andando solo.", "estilo": "Matiz honesto, señalando."},
+    {"texto": "Pensalo así: el ventilador es para tu piel, no para la pieza. Si no hay piel, no hay frescura.", "estilo": "Remate que rima con el principio."},
+    {"texto": "Mandáselo a ese que deja el ventilador prendido en una pieza vacía, esperando que se enfríe sola.", "estilo": "Cómplice, con humor."}
+  ]
+}

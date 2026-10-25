@@ -4,8 +4,8 @@ La producción nocturna toma la primera idea **sin marcar** de arriba hacia abaj
 Ninguna idea de acá está verificada: cada una se investiga y se chequea antes de hacerse.
 
 ## Verano / casa / plata (prioridad: llega el calor)
-- [ ] Poner el aire en 17 °C no enfría más rápido; por qué se recomienda 24 °C y cuánto gasta cada grado
-- [ ] El ventilador no enfría el ambiente: te enfría a vos (dejarlo prendido en una pieza vacía no sirve)
+- [usada → 008-aire-en-17] Poner el aire en 17 °C no enfría más rápido; por qué se recomienda 24 °C y cuánto gasta cada grado
+- [usada → 009-ventilador-pieza-vacia] El ventilador no enfría el ambiente: te enfría a vos (dejarlo prendido en una pieza vacía no sirve)
 - [ ] Tomar alcohol da calor: es al revés, el cuerpo pierde temperatura
 - [ ] Sandía con vino "te mata": de dónde salió el mito argentino
 - [ ] El agua del mate no tiene que hervir: qué le pasa a la yerba con el agua a 100 °C
