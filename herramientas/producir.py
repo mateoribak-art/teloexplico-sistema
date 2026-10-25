@@ -52,11 +52,29 @@ def comentarios_nuevos():
     return int(r.stdout.strip()) if r.stdout.strip().isdigit() else -1
 
 
+def resumir(crudo):
+    """De la salida stream-json de Claude: el texto final, los permisos negados y los errores (para el log)."""
+    final, negados, otros = '', [], []
+    for linea in crudo.splitlines():
+        try:
+            d = json.loads(linea)
+        except ValueError:
+            otros.append(linea)
+            continue
+        if d.get('type') == 'result':
+            final = d.get('result') or d.get('subtype', '')
+            negados = [f"{x.get('tool_name')}: {json.dumps(x.get('tool_input'), ensure_ascii=False)[:150]}" for x in d.get('permission_denials') or []]
+    texto = final.strip() or '\n'.join(otros).strip()
+    if negados:
+        texto += '\nPermisos negados (' + str(len(negados)) + '):\n  ' + '\n  '.join(negados[:15])
+    return texto
+
+
 def claude(pedido, log, minutos):
     try:
-        r = subprocess.run(['claude', '-p', pedido, '--permission-mode', 'dontAsk'], cwd=RAIZ, capture_output=True,
-                           text=True, encoding='utf-8', errors='replace', timeout=minutos * 60)
-        salida, codigo = r.stdout + r.stderr, r.returncode
+        r = subprocess.run(['claude', '-p', pedido, '--permission-mode', 'dontAsk', '--output-format', 'stream-json', '--verbose'],
+                           cwd=RAIZ, capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=minutos * 60)
+        salida, codigo = resumir(r.stdout) + r.stderr, r.returncode
     except subprocess.TimeoutExpired as e:
         salida, codigo = f'{e.stdout or ""}\nCORTADO: pasó el tiempo máximo de {minutos} min', 124
     except FileNotFoundError:
