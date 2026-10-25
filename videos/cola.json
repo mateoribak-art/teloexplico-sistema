@@ -116,7 +116,7 @@
  {
   "slug": "007-bts-13-anios",
   "tema": "¿Por qué la ARMY argentina esperó 13 años para ver a BTS?",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -132,6 +132,11 @@
     "estado": "listo",
     "cuando": "2026-10-24T21:13",
     "motivo": "producción manual (BTS 13 años)"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-25T14:04",
+    "motivo": "https://www.instagram.com/reel/De7MzHtErE_/"
    }
   ],
   "prioridad": "actualidad",
