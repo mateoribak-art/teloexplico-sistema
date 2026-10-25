@@ -54,3 +54,9 @@ Quedaron listos dos videos, y no hubo apartados ni incompletos.
 - **009-ventilador-pieza-vacia:** el ventilador enfría a las personas, no a la pieza. El subagente aprobó el chequeo, la voz salió sin problemas (205 palabras del guion, 206 oídas), hice dos vueltas de cuadros, renderizó 71 s y pasó el control. El ventilador lo dibujé dentro del propio `Video.tsx`, sin las 3 vueltas de pulido de `dibujar-objeto`, porque no está en el kit. La atribución al Departamento de Energía de EE. UU. quedó respaldada con el PDF de energy.gov. El subagente no pudo leer ese PDF entero y la frase textual la confirmó en ENERGY STAR.
 - **Cola:** hay 7 listos y el máximo de 2 por corrida está cumplido. Las ideas de `videos/ideas.md` y el log de producción están actualizados.
 2026-10-25 06:04 Termina la producción (ok).
+2026-10-25 06:07 Arranca la PRUEBA del plan B (queda apartado, no se publica).
+2026-10-25 | plan B | idea descartada: Un rayo nunca cae dos veces en el mismo lugar (En un lugar puntual la probabilidad de que vuelva a caer un rayo es muy baja debido a distintos factores, pero no es imp)
+2026-10-25 | plan B | idea descartada: Los perros ven en blanco y negro (Eso les da una vista detallada mucho más parecida a la nuestra.; No ven en blanco y negro, perciben colores igual que una persona daltónica.; Circula )
+2026-10-25 | plan B | idea descartada: Los murciélagos son ciegos (Con mil cuatrocientas especies en el planeta, todas tienen capacidad de ver.)
+resultado: None
+2026-10-25 06:32 Termina la prueba del plan B (código 0).
