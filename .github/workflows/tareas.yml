@@ -22,6 +22,7 @@ concurrency:
 
 permissions:
   contents: write
+  actions: write   # para lanzar el publicador si quedó un turno sin cubrir
 
 jobs:
   tarea:
@@ -60,6 +61,15 @@ jobs:
           fi
           python -I estado.py "$MODO"
           if [ "$MODO" = "resumen" ]; then echo "$HOY" > ../videos/ultimo_resumen.txt; fi
+      - name: ¿Quedó un turno sin publicar?
+        # red extra: si GitHub salteó los intentos del publicador, la vigilancia lo lanza a mano (eso no se demora)
+        working-directory: herramientas
+        run: |
+          if [ "$(python -I publicador.py --toca)" = "si" ]; then
+            MIN=$(python -c "import datetime as d, publicador as p; print(int((d.datetime.now(p.ARGENTINA) - p.turno_actual()).total_seconds() // 60))")
+            echo "turno sin cubrir hace $MIN min"
+            if [ "$MIN" -ge 20 ]; then gh workflow run publicar.yml -f modo=publicar && echo "publicador lanzado"; fi
+          fi
       - name: Guardar estado
         if: always()
         working-directory: herramientas
