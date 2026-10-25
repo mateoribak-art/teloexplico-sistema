@@ -1,0 +1,111 @@
+# Todo lo que usa Claude, en la nube y con la suscripción de Mateo (token de `claude setup-token`):
+# producción cada 6 h mientras falten videos, radar de actualidad y respuesta de comentarios.
+# Si Claude no tiene cuota y la cola se vacía, producir.py arranca el plan B (Gemini, sin Claude).
+name: Claude
+
+on:
+  schedule:
+    - cron: '30 3 * * *'    # 00:30 Argentina: producción
+    - cron: '30 9 * * *'    # 06:30: producción (si sobran videos, solo radar)
+    - cron: '30 13 * * *'   # 10:30: radar de actualidad
+    - cron: '50 15 * * *'   # 12:50: producción
+    - cron: '30 17 * * *'   # 14:30: comentarios
+    - cron: '50 21 * * *'   # 18:50: producción
+    - cron: '0 1 * * *'     # 22:00: comentarios
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: 'Qué correr'
+        type: choice
+        options: [produccion, radar, comentarios]
+        default: produccion
+
+# un turno de Claude a la vez (la cuota es una sola); el estado se combina al final con sincronizar.py
+concurrency:
+  group: claude
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  claude:
+    # interruptor propio: se prende cuando la producción deja la notebook
+    if: github.event_name == 'workflow_dispatch' || vars.CLAUDE_EN_NUBE == 'si'
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      TLX_NUBE: '1'
+      TZ: America/Argentina/Buenos_Aires
+      GH_TOKEN: ${{ github.token }}
+      CLAVE_ESTADO: ${{ secrets.CLAVE_ESTADO }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: herramientas/nube/requirements.txt
+      - name: Claves
+        run: bash herramientas/nube/preparar.sh
+        env:
+          META_JSON: ${{ secrets.META_JSON }}
+          AVISOS_JSON: ${{ secrets.AVISOS_JSON }}
+          TIKTOK_JSON: ${{ secrets.TIKTOK_JSON }}
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+      - name: ¿Hay trabajo?
+        id: turno
+        working-directory: herramientas
+        run: |
+          case "${{ github.event.schedule }}" in
+            '30 13 * * *') MODO=radar ;;
+            '30 17 * * *'|'0 1 * * *') MODO=comentarios ;;
+            '') MODO="${{ inputs.modo }}" ;;
+            *) MODO=produccion ;;
+          esac
+          echo "modo=$MODO" >> "$GITHUB_OUTPUT"
+          echo "trabajo=$(python -I producir.py hay-trabajo $MODO)" >> "$GITHUB_OUTPUT"
+          echo "modo $MODO"
+      - name: Node
+        if: steps.turno.outputs.trabajo == 'si'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Motor de video (caché)
+        if: steps.turno.outputs.trabajo == 'si'
+        uses: actions/cache@v4
+        with:
+          path: motor/node_modules
+          key: motor-${{ runner.os }}-${{ hashFiles('motor/package-lock.json') }}
+      - name: Instalar herramientas
+        if: steps.turno.outputs.trabajo == 'si'
+        run: |
+          command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+          sudo apt-get install -y -qq fonts-noto-color-emoji > /dev/null || true
+          [ -d motor/node_modules ] || (cd motor && npm ci --no-audit --no-fund)
+          (cd motor && npx remotion browser ensure)
+          pip install -q -r herramientas/nube/requirements.txt
+          npm install -g @anthropic-ai/claude-code > /dev/null
+          chmod +x herramientas/tlx
+      - name: Modelo de reconocimiento de voz (caché)
+        if: steps.turno.outputs.trabajo == 'si'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-small-v1
+      - name: Turno de Claude
+        if: steps.turno.outputs.trabajo == 'si'
+        working-directory: herramientas
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: python -I producir.py ${{ steps.turno.outputs.modo }}
+      - name: Guardar estado
+        if: always()
+        working-directory: herramientas
+        run: |
+          python -I sincronizar.py "Nube: turno de Claude (${{ steps.turno.outputs.modo }})"
+      - name: Avisar si algo falló
+        if: failure()
+        working-directory: herramientas
+        run: |
+          python -I avisar.py "❌ Falló un turno de Claude en la nube" "Revisar GitHub › teloexplico-sistema › Actions." alta

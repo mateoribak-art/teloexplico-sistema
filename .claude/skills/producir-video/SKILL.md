@@ -7,7 +7,7 @@ description: Producir un reel completo de @teloexplico.ar de punta a punta (tema
 
 Producís videos sin que nadie los revise antes de publicarse. **Vos sos el único freno.** Un dato falso publicado es peor que un día sin video: ante la duda, el video no sale.
 
-Todo pasa en `C:\Users\Mateo\teloexplico`. Herramientas: `./herramientas/tlx` (ver `tlx` sin argumentos). Marca: `marca/MARCA.md`. **Dirección de arte (obligatoria): `marca/DIRECCION_ARTE.md`.** Modelo a copiar: `motor/src/videos/005-granizo-calor/Video.tsx` (leelo entero antes de escribir escenas) y su hoja `marca/referencias/modelo_005_granizo_v2.png`. Los videos 001–004 son del estilo viejo: no los copies.
+Todo pasa en la carpeta del proyecto (`C:\Users\Mateo\teloexplico` en la notebook; en la nube de GitHub, la carpeta del repo: usá siempre rutas relativas). Herramientas: `./herramientas/tlx` (ver `tlx` sin argumentos). Marca: `marca/MARCA.md`. **Dirección de arte (obligatoria): `marca/DIRECCION_ARTE.md`.** Modelo a copiar: `motor/src/videos/005-granizo-calor/Video.tsx` (leelo entero antes de escribir escenas) y su hoja `marca/referencias/modelo_005_granizo_v2.png`. Los videos 001–004 son del estilo viejo: no los copies.
 
 ## 0. Elegir el tema
 0. **Primero el radar**: si en `videos/radar.log` no hay una revisión de las últimas 6 horas, usá el skill `radar-actualidad`. Si encuentra un tema del momento, ese es el video de esta corrida.
