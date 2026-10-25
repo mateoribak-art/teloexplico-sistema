@@ -19,7 +19,12 @@ Add-Type -Namespace TeLoExplico -Name Energia -MemberDefinition '[System.Runtime
 $log = Join-Path $raiz ("videos\noche_{0:yyyy-MM-dd}.log" -f (Get-Date))
 
 function Escribir($msg) { "{0:yyyy-MM-dd HH:mm} {1}" -f (Get-Date), $msg | Out-File -FilePath $log -Append -Encoding utf8 }
-function Avisar { & $py -I (Join-Path $raiz "herramientas\estado.py") noche | Out-Null }
+# el estado vive en el repo privado (la nube publica): se trae antes de producir y se sube al terminar (videos al Release)
+function Sincronizar($msg) {
+  $s = & $py -I (Join-Path $raiz "herramientas\sincronizar.py") $msg 2>&1 | Out-String
+  Escribir "Sincronización: $($s.Trim())"
+}
+function Avisar { Sincronizar "Notebook: producción"; & $py -I (Join-Path $raiz "herramientas\estado.py") noche | Out-Null }
 # la suscripción de Claude tiene límite por ventanas de 5 h y por semana: si se agotó, lo dejamos dicho para reintentar
 function RevisarLimite($salida) {
   if ($salida -match "(?i)(usage limit|limit reached|hit your limit|rate limit|out of (extra )?usage|resets? (at|in))") {
@@ -36,6 +41,7 @@ function RevisarLimite($salida) {
   }
 }
 
+Sincronizar "Notebook: antes de producir"
 if (Test-Path (Join-Path $raiz "PAUSA")) { Escribir "PAUSA activa: no se produce nada."; Avisar; exit 0 }
 
 $cola = Get-Content (Join-Path $raiz "videos\cola.json") -Raw -Encoding utf8 | ConvertFrom-Json

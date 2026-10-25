@@ -1,0 +1,55 @@
+# Tareas livianas en la nube: resumen diario (21:00) y vigilancia (cada 2 h de 8 a 24, hora de Argentina).
+name: Resumen y vigilancia
+
+on:
+  schedule:
+    - cron: '5 0 * * *'                              # 21:05 Argentina: resumen (actualiza métricas)
+    - cron: '20 1,3,11,13,15,17,19,21,23 * * *'      # 8:20 a 0:20 Argentina, cada 2 h: vigilancia
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: 'resumen o vigilar'
+        type: choice
+        options: [vigilar, resumen]
+        default: vigilar
+
+concurrency:
+  group: estado
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  tarea:
+    # interruptor: lo programado corre solo con la variable NUBE_ACTIVA=si (a mano corre siempre)
+    if: github.event_name == 'workflow_dispatch' || vars.NUBE_ACTIVA == 'si'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TLX_NUBE: '1'
+      TZ: America/Argentina/Buenos_Aires
+      GH_TOKEN: ${{ github.token }}
+      CLAVE_ESTADO: ${{ secrets.CLAVE_ESTADO }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Claves
+        run: bash herramientas/nube/preparar.sh
+        env:
+          META_JSON: ${{ secrets.META_JSON }}
+          AVISOS_JSON: ${{ secrets.AVISOS_JSON }}
+          TIKTOK_JSON: ${{ secrets.TIKTOK_JSON }}
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+      - name: Correr
+        working-directory: herramientas
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then MODO="${{ inputs.modo }}";
+          elif [ "${{ github.event.schedule }}" = "5 0 * * *" ]; then MODO=resumen; else MODO=vigilar; fi
+          python -I estado.py "$MODO"
+      - name: Guardar estado
+        if: always()
+        working-directory: herramientas
+        run: python -I sincronizar.py "Nube: resumen/vigilancia"

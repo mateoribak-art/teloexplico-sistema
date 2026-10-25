@@ -14,6 +14,7 @@ import json, os, re, shutil, sys, urllib.parse, urllib.request
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ONEDRIVE = os.path.join(os.path.expanduser('~'), 'OneDrive', 'TeLoExplico', 'para-subir')
 ONEDRIVE_WEB = 'https://onedrive.live.com/'
+RELEASE_WEB = 'https://github.com/mateoribak-art/teloexplico-sistema/releases/tag/videos'
 
 
 def tema():
@@ -52,18 +53,22 @@ def main(slug, avisar=True, tiktok_en_bandeja=False):
     open(os.path.join(carpeta, 'tiktok.txt'), 'w', encoding='utf-8').write(tiktok)
     open(os.path.join(carpeta, 'youtube.txt'), 'w', encoding='utf-8').write(f'TÍTULO:\n{titulo}\n\nDESCRIPCIÓN:\n{descripcion}')
 
-    destino = os.path.join(ONEDRIVE, slug)
-    os.makedirs(destino, exist_ok=True)
-    for archivo in (video, os.path.join(carpeta, 'tiktok.txt'), os.path.join(carpeta, 'youtube.txt'), os.path.join(carpeta, 'portada.png')):
-        if os.path.exists(archivo):
-            shutil.copy(archivo, destino)
+    if os.environ.get('TLX_NUBE'):
+        # en la nube no hay OneDrive: el video se baja del Release del repo privado
+        ruta, click = f'GitHub › teloexplico-sistema › Releases › videos › {slug}.mp4', RELEASE_WEB
+    else:
+        destino = os.path.join(ONEDRIVE, slug)
+        os.makedirs(destino, exist_ok=True)
+        for archivo in (video, os.path.join(carpeta, 'tiktok.txt'), os.path.join(carpeta, 'youtube.txt'), os.path.join(carpeta, 'portada.png')):
+            if os.path.exists(archivo):
+                shutil.copy(archivo, destino)
+        ruta, click = f'OneDrive › TeLoExplico › para-subir › {slug} › {slug}.mp4', ONEDRIVE_WEB
     if not avisar:
-        print(f'prueba sin avisar: copiado a {destino}')
+        print(f'prueba sin avisar: {ruta}')
         return
-    ruta = f'OneDrive › TeLoExplico › para-subir › {slug}'
-    notificar('📲 Subilo a TikTok', f'Video: {ruta} › {slug}.mp4\n\nTexto para pegar:\n\n{tiktok}', click=ONEDRIVE_WEB)
-    notificar('▶️ Y a YouTube Shorts', f'Mismo video ({ruta}).\n\nTÍTULO:\n{titulo}\n\nDESCRIPCIÓN:\n{descripcion}', click=ONEDRIVE_WEB)
-    print(f'paquete listo en {destino} y notificado')
+    notificar('📲 Subilo a TikTok', f'Video: {ruta}\n\nTexto para pegar:\n\n{tiktok}', click=click)
+    notificar('▶️ Y a YouTube Shorts', f'Mismo video ({ruta}).\n\nTÍTULO:\n{titulo}\n\nDESCRIPCIÓN:\n{descripcion}', click=click)
+    print(f'paquete listo ({ruta}) y notificado')
 
 
 if __name__ == '__main__':

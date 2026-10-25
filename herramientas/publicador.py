@@ -34,7 +34,19 @@ def fin():
         log(f'no se pudo actualizar el panel: {e}')
 
 
-def main():
+def bajar_video(slug):
+    """En la nube los videos no están en el repo: se bajan del Release "videos" (si no está, el control lo marca)."""
+    destino = os.path.join(RAIZ, 'videos', slug)
+    if os.path.exists(os.path.join(destino, f'{slug}.mp4')) or not os.environ.get('TLX_NUBE'):
+        return
+    os.makedirs(destino, exist_ok=True)
+    r = subprocess.run(['gh', 'release', 'download', 'videos', '--pattern', f'{slug}.mp4', '--dir', destino],
+                       capture_output=True, text=True, encoding='utf-8', errors='replace')
+    if r.returncode != 0:
+        log(f'{slug}: no se pudo bajar el video del Release: {(r.stdout + r.stderr).strip()[-200:]}')
+
+
+def main(probar=False):
     if os.path.exists(os.path.join(RAIZ, 'PAUSA')):
         log('PAUSA activa: no se publica nada.')
         return fin()
@@ -45,6 +57,13 @@ def main():
             avisar('❌ No se publicó nada', 'No hay videos listos en la cola para este turno.', 'alta')
             return fin()
         slug = v['slug']
+        bajar_video(slug)
+        if probar:  # prueba: control + subida a Instagram sin publicar; no toca la cola ni las otras redes
+            print('control:', controlar(slug) or 'OK')
+            r = subprocess.run([PY, '-I', 'publicar.py', slug, '--probar'], cwd=os.path.dirname(os.path.abspath(__file__)),
+                               capture_output=True, text=True, encoding='utf-8', errors='replace')
+            print(r.stdout[-1500:], r.stderr[-1500:])
+            return r.returncode
         problemas = controlar(slug)
         if problemas:
             cola.cambiar_estado(slug, 'apartado', '; '.join(problemas))
@@ -92,8 +111,11 @@ def main():
 if __name__ == '__main__':
     sys.stdout.reconfigure(encoding='utf-8')
     # que Windows no vuelva a suspenderse en medio de la subida (al despertar solo, se duerme a los 2 minutos)
-    import ctypes
-    ctypes.windll.kernel32.SetThreadExecutionState(0x80000001)
+    if os.name == 'nt':
+        import ctypes
+        ctypes.windll.kernel32.SetThreadExecutionState(0x80000001)
+    if '--probar' in sys.argv:
+        sys.exit(main(probar=True))
     # el 24/10 a las 19:30 se cayó sin dejar rastro: cualquier error inesperado queda en el log y avisa
     try:
         main()

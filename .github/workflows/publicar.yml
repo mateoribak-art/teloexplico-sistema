@@ -1,0 +1,74 @@
+# Publica el próximo video listo en Instagram, Facebook y la bandeja de TikTok (12:30 y 19:30 de Argentina).
+# Corre en las máquinas de GitHub: no depende de la notebook ni de su internet.
+# A mano (Actions › Publicar › Run workflow): "probar" sube a Instagram sin publicar; "publicar" hace un turno real.
+name: Publicar
+
+on:
+  schedule:
+    - cron: '30 15 * * *'   # 12:30 Argentina (UTC-3)
+    - cron: '30 22 * * *'   # 19:30 Argentina
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: 'probar = sube sin publicar · publicar = turno real'
+        type: choice
+        options: [probar, publicar]
+        default: probar
+
+# un solo trabajo a la vez toca el estado (cola, registros)
+concurrency:
+  group: estado
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    # interruptor: lo programado corre solo con la variable NUBE_ACTIVA=si (a mano corre siempre)
+    if: github.event_name == 'workflow_dispatch' || vars.NUBE_ACTIVA == 'si'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      TLX_NUBE: '1'
+      TZ: America/Argentina/Buenos_Aires
+      GH_TOKEN: ${{ github.token }}
+      CLAVE_ESTADO: ${{ secrets.CLAVE_ESTADO }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: herramientas/nube/requirements.txt
+      - name: ffmpeg
+        run: command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+      - name: Modelo de reconocimiento de voz (caché)
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-small-v1
+      - run: pip install -q -r herramientas/nube/requirements.txt
+      - name: Claves
+        run: bash herramientas/nube/preparar.sh
+        env:
+          META_JSON: ${{ secrets.META_JSON }}
+          AVISOS_JSON: ${{ secrets.AVISOS_JSON }}
+          TIKTOK_JSON: ${{ secrets.TIKTOK_JSON }}
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+      - name: Publicar
+        working-directory: herramientas
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.modo }}" = "probar" ]; then
+            python -I publicador.py --probar
+          else
+            python -I publicador.py
+          fi
+      - name: Guardar estado
+        if: always()
+        working-directory: herramientas
+        run: python -I sincronizar.py "Nube: turno del publicador"
+      - name: Avisar si algo falló
+        if: failure()
+        working-directory: herramientas
+        run: python -I avisar.py "❌ Falló el publicador en la nube" "Revisar GitHub › teloexplico-sistema › Actions. Se reintenta en el próximo turno." alta

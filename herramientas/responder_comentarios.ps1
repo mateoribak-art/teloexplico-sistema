@@ -14,6 +14,8 @@ $log = Join-Path $raiz "videos\comentarios.log"
 function Escribir($msg) { "{0:yyyy-MM-dd HH:mm} {1}" -f (Get-Date), $msg | Out-File -FilePath $log -Append -Encoding utf8 }
 
 if (Test-Path (Join-Path $raiz "PAUSA")) { Escribir "PAUSA activa: no se responden comentarios."; exit 0 }
+# el estado vive en el repo privado (la nube publica): traer antes, subir al terminar
+& "C:\Users\Mateo\AppData\Local\Programs\Python\Python312\python.exe" -I (Join-Path $raiz "herramientas\sincronizar.py") "Notebook: antes de comentarios" 2>&1 | Out-File -FilePath $log -Append -Encoding utf8
 
 $cuenta = (& $py -I (Join-Path $raiz "herramientas\comentarios.py") contar | Out-String).Trim()
 $n = 0
@@ -25,3 +27,4 @@ $salida = & claude -p "Usá el skill responder-comentarios y procesá todos los 
 $salida | Out-File -FilePath $log -Append -Encoding utf8
 if ($salida -match "(?i)(usage limit|limit reached|hit your limit|rate limit|out of (extra )?usage|resets? (at|in))") { Escribir "LIMITE CLAUDE: la suscripción no tiene cuota ahora." }
 Escribir "Termina la respuesta de comentarios (código $LASTEXITCODE)."
+& "C:\Users\Mateo\AppData\Local\Programs\Python\Python312\python.exe" -I (Join-Path $raiz "herramientas\sincronizar.py") "Notebook: comentarios" 2>&1 | Out-File -FilePath $log -Append -Encoding utf8
