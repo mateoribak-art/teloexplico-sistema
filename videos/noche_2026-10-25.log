@@ -23,3 +23,17 @@ Permission allow rule (.claude/settings.json): Write(/motor/src/**) is not match
 Permission allow rule (.claude/settings.json): Write(/videos/**) is not matched by file permission checks — only Edit(path) rules are. Use Edit(/videos/**) instead (Edit rules cover all file-editing tools).
 Permission deny rule (.claude/settings.json): Write(/secretos/**) is not matched by file permission checks — only Edit(path) rules are. Use Edit(/secretos/**) instead (Edit rules cover all file-editing tools).
 2026-10-25 05:30 Termina la producción (ok).
+2026-10-25 05:35 Arranca la producción (5 listos en la cola, meta 10).
+No pude producir el video: la corrida se frenó en el paso de voz.
+
+- **Qué pasó:** `./herramientas/tlx voz 008-aire-en-17` fue denegado por el modo "don't ask" de Claude Code. Los comandos de lectura anteriores sí habían corrido. No intenté otra vía para hacer lo mismo.
+- **Dónde quedó el slug:** `008-aire-en-17` ("poner el aire en 17 no enfría más rápido") sigue en `produccion`. Ya tiene `guion.json` y `chequeo.json` aprobado, que no escribí yo. Le faltan voz, escenas, render, caption y control.
+- **Qué necesito:** permiso para ejecutar `./herramientas/tlx` (voz, tsc, cuadros, render, control, cola) y para editar en `motor/src/**` y `videos/**`. Con eso retomo desde la voz.
+
+**Resumen:**
+1. Listos: ninguno en esta corrida.
+2. Apartados: ninguno.
+3. Incompleto: `008-aire-en-17`, por el permiso denegado en `tlx voz`. No agregué la línea de cierre a `videos/produccion.log`, porque tampoco tengo permiso de escritura, y no produje el segundo video.
+Permisos negados (1):
+  Bash: {"command": "./herramientas/tlx voz 008-aire-en-17 2>&1 | tail -15; echo code=$?"}
+2026-10-25 05:36 Termina la producción (ok).
