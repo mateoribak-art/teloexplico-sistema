@@ -11,13 +11,14 @@ Uso:
 Las credenciales salen de secretos/meta.json (token de página, que no vence). Nunca se imprimen.
 El ID de Instagram queda fijo en ese archivo: no puede publicar en otra cuenta por error.
 """
-import json, os, sys, time, urllib.parse, urllib.request
+import json, os, subprocess, sys, time, urllib.error, urllib.parse, urllib.request
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONF = json.load(open(os.path.join(RAIZ, 'secretos', 'meta.json'), encoding='utf-8'))
 API = f"https://graph.facebook.com/{CONF['graph_version']}"
 REGISTRO = os.path.join(RAIZ, 'videos', 'publicados.json')
 INTENTOS = 4  # contenedores nuevos que se prueban si la subida falla
+REPO = 'mateoribak-art/teloexplico-sistema'
 
 
 def pedir(metodo, url, datos=None, cabeceras=None, cuerpo=None):
@@ -36,6 +37,29 @@ def pedir(metodo, url, datos=None, cabeceras=None, cuerpo=None):
         if not detalle:  # la subida de bytes (rupload) devuelve otro formato: mostrarlo tal cual
             sys.exit(f"Error de la API ({e.code}) en {url.split('?')[0][:60]}: {crudo.decode(errors='replace')[:300]}")
         sys.exit(f"Error de la API ({e.code}): {detalle.get('message')} [{detalle.get('error_user_msg', '')}]")
+
+
+def link_temporal(slug):
+    """Link firmado (vence en minutos) al <slug>.mp4 del Release "videos" del repo privado. None si no se puede."""
+    try:
+        tok = os.environ.get('GH_TOKEN') or subprocess.run(['gh', 'auth', 'token'], capture_output=True, text=True).stdout.strip()
+        gh = {'Authorization': f'Bearer {tok}', 'Accept': 'application/vnd.github+json'}
+        rel = json.load(urllib.request.urlopen(urllib.request.Request(f'https://api.github.com/repos/{REPO}/releases/tags/videos', headers=gh), timeout=60))
+        asset = next((a for a in rel['assets'] if a['name'] == f'{slug}.mp4'), None)
+        if not asset:
+            return None
+
+        class SinRedireccion(urllib.request.HTTPRedirectHandler):
+            def redirect_request(self, *a, **k):
+                return None
+        try:
+            urllib.request.build_opener(SinRedireccion).open(
+                urllib.request.Request(asset['url'], headers={**gh, 'Accept': 'application/octet-stream'}), timeout=60)
+        except urllib.error.HTTPError as e:
+            return e.headers.get('Location')
+    except Exception as e:
+        print('  sin link del Release:', str(e)[:120])
+    return None
 
 
 def main():
@@ -62,18 +86,27 @@ def main():
              'share_to_feed': 'true', 'thumb_offset': str(portada), 'is_ai_generated': 'true', 'access_token': token}
     if trial:
         datos['trial_params'] = json.dumps({'graduation_strategy': 'MANUAL'})
-    bytes_video = open(video, 'rb').read()
+    bytes_video = None
     cid = None
     for intento in range(1, INTENTOS + 1):
-        cont = pedir('POST', f'{API}/{ig}/media', datos)
-        print(f'intento {intento}: contenedor {cont["id"]}')
-        try:
-            r = pedir('POST', cont['uri'], cuerpo=bytes_video,
-                      cabeceras={'Authorization': f'OAuth {token}', 'offset': '0', 'file_size': str(tam),
-                                 'Content-Type': 'application/octet-stream'})
-        except SystemExit as e:
-            r = {'aviso': str(e)}
-        print('  subida:', 'ok' if r.get('success') else 'Meta respondió error, se mira el estado igual')
+        # preferido: que Meta baje el video de un link firmado del Release privado (vence en minutos).
+        # La subida directa (rupload) devuelve ProcessingFailedError "no reintentable" muy seguido (probado el 25/10).
+        url = link_temporal(slug)
+        if url:
+            cont = pedir('POST', f'{API}/{ig}/media', {**{k: v for k, v in datos.items() if k != 'upload_type'}, 'video_url': url})
+            print(f'intento {intento}: contenedor {cont["id"]} (Meta baja el video del Release)')
+            r = {'success': True}
+        else:
+            cont = pedir('POST', f'{API}/{ig}/media', datos)
+            print(f'intento {intento}: contenedor {cont["id"]} (subida directa)')
+            bytes_video = bytes_video or open(video, 'rb').read()
+            try:
+                r = pedir('POST', cont['uri'], cuerpo=bytes_video,
+                          cabeceras={'Authorization': f'OAuth {token}', 'offset': '0', 'file_size': str(tam),
+                                     'Content-Type': 'application/octet-stream'})
+            except SystemExit as e:
+                r = {'aviso': str(e)}
+            print('  subida:', 'ok' if r.get('success') else f"Meta respondió error, se mira el estado igual ({r.get('aviso', '')[:150]})")
         # si la subida dio ok se espera hasta 5 min; si dio error, 90 s (si no arrancó en ese tiempo, no llegó)
         for _ in range(60 if r.get('success') else 18):
             estado = pedir('GET', f'{API}/{cont["id"]}?' + urllib.parse.urlencode({'fields': 'status_code,status', 'access_token': token}))

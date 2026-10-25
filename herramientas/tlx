@@ -15,6 +15,7 @@
 set -euo pipefail
 RAIZ="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 PY="/c/Users/Mateo/AppData/Local/Programs/Python/Python312/python.exe"
+[ -x "$PY" ] || PY="$(command -v python3 || command -v python)"   # en la nube (Linux)
 H="$RAIZ/herramientas"
 M="$RAIZ/motor"
 

@@ -54,6 +54,68 @@ def guardar_token_tiktok():
     print('token de TikTok renovado: guardado cifrado')
 
 
+def combinar(ruta, remoto, local):
+    """Combina un archivo de estado que cambió en las dos puntas a la vez. Nunca se pierde un "publicado"."""
+    nombre = os.path.basename(ruta)
+    if nombre == 'cola.json':
+        # por video gana el que tiene el historial más largo (el estado más avanzado)
+        r, l = json.loads(remoto), json.loads(local)
+        todos = {v['slug']: v for v in r}
+        for v in l:
+            if v['slug'] not in todos or len(v.get('historial', [])) > len(todos[v['slug']].get('historial', [])):
+                todos[v['slug']] = v
+        orden = [v['slug'] for v in r] + [v['slug'] for v in l if v['slug'] not in {x['slug'] for x in r}]
+        return json.dumps([todos[s] for s in orden], ensure_ascii=False, indent=1)
+    if nombre.startswith('publicados') and nombre.endswith('.json'):
+        r, l = json.loads(remoto), json.loads(local)
+        vistos = {json.dumps(x, sort_keys=True) for x in r}
+        return json.dumps(r + [x for x in l if json.dumps(x, sort_keys=True) not in vistos], ensure_ascii=False, indent=1)
+    if nombre == 'metricas.json':
+        r, l = json.loads(remoto), json.loads(local)
+        for k in ('cuenta', 'reels'):
+            r.setdefault(k, {}).update(l.get(k, {}))
+        return json.dumps(r, ensure_ascii=False, indent=1)
+    if nombre == 'ideas.md':
+        # gana la versión marcada ([usada → …], [descartada …]) de cada idea; las ideas nuevas se suman al final
+        clave = lambda x: x.split(']', 1)[1].strip() if x.startswith('- [') and ']' in x else None
+        lineas = remoto.splitlines()
+        donde = {clave(x): i for i, x in enumerate(lineas) if clave(x)}
+        for x in local.splitlines():
+            k = clave(x)
+            if k is None or x in lineas:
+                continue
+            if k in donde:
+                if not x.startswith('- [ ]'):
+                    lineas[donde[k]] = x
+            else:
+                lineas.append(x)
+        return '\n'.join(lineas) + '\n'
+    if nombre.endswith('.log'):
+        r = remoto.splitlines()
+        ya = set(r)
+        return '\n'.join(r + [x for x in local.splitlines() if x not in ya]) + '\n'
+    return local  # avisos, panel, guiones: vale lo último
+
+
+def resolver_conflictos():
+    """Durante un pull --rebase: :2: es lo que ya está en el repo y :3: el commit local que se está aplicando."""
+    for _ in range(20):
+        en_conflicto = correr('git', 'diff', '--name-only', '--diff-filter=U').stdout.split()
+        if not en_conflicto:
+            return True
+        for ruta in en_conflicto:
+            remoto, local = correr('git', 'show', f':2:{ruta}'), correr('git', 'show', f':3:{ruta}')
+            if remoto.returncode != 0 or local.returncode != 0:
+                return False  # borrado de un lado: no se adivina
+            open(os.path.join(RAIZ, ruta), 'w', encoding='utf-8', newline='\n').write(combinar(ruta, remoto.stdout, local.stdout))
+            correr('git', 'add', ruta)
+            print(f'combinado: {ruta}')
+        if correr('git', '-c', 'core.editor=true', 'rebase', '--continue').returncode != 0 and \
+                not correr('git', 'diff', '--name-only', '--diff-filter=U').stdout.split():
+            return False
+    return False
+
+
 def main(mensaje):
     errores = subir_videos()
     guardar_token_tiktok()
@@ -65,7 +127,7 @@ def main(mensaje):
         correr('git', 'commit', '-q', '-m', mensaje)
     for intento in range(5):
         p = correr('git', 'pull', '--rebase', '-q')
-        if p.returncode != 0:
+        if p.returncode != 0 and not resolver_conflictos():
             correr('git', 'rebase', '--abort')
             errores.append(f'no se pudo combinar con el repo: {(p.stdout + p.stderr).strip()[-200:]}')
             break
