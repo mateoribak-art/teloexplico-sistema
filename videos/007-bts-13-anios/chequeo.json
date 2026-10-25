@@ -1,0 +1,90 @@
+{
+ "veredicto": "aprobado",
+ "motivo": "Todas las afirmaciones fácticas del guion y del caption están verificadas con fuentes. 'En Latinoamérica empezaron por Brasil' es correcto: el fan meeting RWeL8 en São Paulo fue el 1/8/2014 y la primera visita a México (Music Bank, Arena CDMX) fue después, el 30/10/2014; Chile llegó en 2015. Notas sin cambio obligatorio: (1) además de Brasil también pasaron por México (2014, 2015, 2017) y Chile (2015, 2017), así que la enumeración es solo de Brasil, y la frase lo dice bien; (2) Jin ya había cantado en Argentina en 2022 como invitado de Coldplay en River, pero BTS como grupo nunca había venido: 'A la Argentina nunca le tocó' se refiere al grupo y se sostiene; (3) El Heraldo publicó un calendario previo con Buenos Aires el 23 y 24; lo que vale es la cobertura posterior de Infobae: 21, 23 y 24 de octubre en el Estadio Único de La Plata; (4) la gira de 2020 primero se postergó y la cancelación formal fue en agosto de 2021, siempre por el COVID: 'la pandemia se la llevó puesta' y 'la pandemia la canceló' están bien. | Agregado después del chequeo: el dato de Jin en River (señalado por el propio chequeo y confirmado con La Nación y Buenos Aires Times/AFP).",
+ "afirmaciones": [
+  {
+   "texto": "BTS debutó en Corea del Sur en junio de 2013.",
+   "fuente": "https://www.cronica.com.ar/elcanaldelamusica/noticias/BTS-debuta-en-Corea-del-Sur-con-No-More-Dream-el-inicio-de-una-revolucion-musical-20240612-0002.html (debut el 13/6/2013 con 'No More Dream')",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "En Latinoamérica empezaron por Brasil.",
+   "fuente": "https://billboard.com.br/bts-no-brasil-passagens-grupo-pais/ (fan meeting RWeL8, São Paulo, 1/8/2014) + https://www.chilango.com/que-hacer/musica/bts-en-mexico-por-que-su-concierto-de-2026-causa-tanta-euforia/ (primera visita a México: Music Bank, 30/10/2014, posterior)",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "Fueron a Brasil en 2014, 2015, 2017 y 2019.",
+   "fuente": "https://billboard.com.br/bts-no-brasil-passagens-grupo-pais/ (2014 fan meeting; 2015 Red Bullet; 2017 Wings Tour; 2019 Love Yourself: Speak Yourself, Allianz Parque)",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "A la Argentina nunca le tocó (antes de 2026).",
+   "fuente": "https://www.elheraldo.hn/fotogalerias/entretenimiento/bts-regresa-latinoamerica-2026-paises-fechas-gira-mundial-FC28914562 (Colombia, Perú y Argentina, primeras visitas) + Infobae 22/10/2026 (primera vez del grupo completo; Jin vino solo en 2022 como invitado de Coldplay)",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "En 2020 tenían una gira mundial enorme y la pandemia se la llevó puesta / la canceló.",
+   "fuente": "https://en.wikipedia.org/wiki/Map_of_the_Soul_Tour + https://gulfnews.com/entertainment/music/bts-officially-cancel-their-2020-map-of-the-soul-tour-1.81686439 (Map of the Soul Tour, postergada por COVID y cancelada en agosto de 2021)",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "En Corea del Sur los varones tienen que hacer entre 18 y 21 meses de servicio militar, y ni las estrellas del pop se salvan.",
+   "fuente": "CNN Español 18/10/2022 https://cnnespanol.cnn.com/2022/10/18/servicio-militar-corea-del-sur-bts-orix (Ejército e Infantería de Marina: 18 meses; Armada: 20; Fuerza Aérea: 21) + AP 20/06/2025 (los siete cumplieron el servicio)",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "Jin entró primero, a fines de 2022, y después fueron entrando los demás.",
+   "fuente": "https://m.washingtontimes.com/news/2025/jun/20/bts-members-done-mandatory-service/ (AP: empezó Jin en diciembre de 2022) + El Imparcial 11/06/2024 (Jin se alistó el 13/12/2022; J-Hope en abril de 2023; el resto en diciembre de 2023)",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "En junio de 2025 salió el último, Suga, y los siete volvieron a estar libres.",
+   "fuente": "https://m.washingtontimes.com/news/2025/jun/20/bts-members-done-mandatory-service/ (AP 20/06/2025: Suga, el último; baja oficial el 21/6/2025)",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "Con la banda completa armaron la gira ARIRANG, la primera que pasa por la Argentina.",
+   "fuente": "Infobae 22/10/2026 (BTS World Tour Arirang, los siete integrantes) + El Heraldo (primera visita a Argentina)",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "Tres noches en el Estadio Único de La Plata (21, 23 y 24 de octubre).",
+   "fuente": "https://www.infobae.com/teleshow/2026/10/22/bts-hizo-historia-en-argentina-13-anos-de-espera-una-noche-de-emocion-y-siete-artistas-frente-al-army/ (miércoles 21, viernes 23 y sábado 24, Estadio Único Diego Armando Maradona)",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "Nunca se separaron.",
+   "fuente": "https://gmanetwork.com/news/showbiz/showbizabroad/835075/jungkook-of-bts-clarifies-group-hiatus-we-are-not-disbanding/story (junio 2022: 'no nos separamos') + gira grupal de 2026",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "En esos años, varios sacaron discos solistas.",
+   "fuente": "https://www.grammy.com/news/bts-solo-acts-guide-to-releases-from-jin-suga-j-hope-rm-jimin-v-jung-kook + https://uproxx.com/pop/bts-hiatus-solo-projects-whats-next/ (Indigo de RM 2022, Face de Jimin 2023, D-Day de Agust D 2023, Golden de Jungkook 2023, Happy de Jin 2024, entre otros)",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "Trece años de espera (2013 a 2026).",
+   "fuente": "Infobae 22/10/2026 ('13 años de espera'; RM dijo que tardaron 13 años en llegar) + debut en 2013",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "Jin cantó en River en octubre de 2022 como invitado de Coldplay, justo antes de entrar al servicio militar",
+   "fuente": "La Nación (26 y 27/10/2022), Buenos Aires Times/AFP (28/10/2022): The Astronaut en el Monumental, último show antes del servicio",
+   "estado": "verificada",
+   "matiz_ok": true
+  }
+ ]
+}

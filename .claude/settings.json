@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "WebSearch",
+      "WebFetch",
+      "Skill",
+      "Agent",
+      "TodoWrite",
+      "Edit(/motor/src/**)",
+      "Write(/motor/src/**)",
+      "Edit(/videos/**)",
+      "Write(/videos/**)",
+      "Bash(./herramientas/tlx:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(mkdir:*)",
+      "Bash(date:*)",
+      "Bash(echo:*)",
+      "Bash(grep:*)"
+    ],
+    "deny": [
+      "Read(/secretos/**)",
+      "Edit(/secretos/**)",
+      "Write(/secretos/**)",
+      "Read(//c/Users/Mateo/Downloads/**)",
+      "Bash(*publicar*)",
+      "Bash(*publicador*)",
+      "Bash(*secretos*)",
+      "Bash(curl:*)",
+      "Bash(rm:*)"
+    ]
+  }
+}

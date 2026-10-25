@@ -1,0 +1,12 @@
+{
+ "veredicto": "aprobado",
+ "motivo": "Todas las afirmaciones respaldadas por fuentes primarias o secundarias confiables.",
+ "afirmaciones": [
+  {"texto": "La comida caliente puede ir directo a la heladera", "fuente": "USDA FSIS - Leftovers and Food Safety", "estado": "verificada"},
+  {"texto": "Zona de peligro entre 4 y 60 grados", "fuente": "USDA FSIS (40-140 F = 4,4-60 C); ANMAT/SENASA 5-60 C", "estado": "verificada"},
+  {"texto": "Las bacterias se pueden duplicar en apenas veinte minutos", "fuente": "USDA FSIS Danger Zone ('as little as 20 minutes')", "estado": "verificada"},
+  {"texto": "El mito viene de las heladeras a hielo", "fuente": "Indiana Public Media / AARP Myth Buster", "estado": "verificada"},
+  {"texto": "Ollas grandes: repartir en recipientes chatos", "fuente": "USDA FSIS", "estado": "verificada"},
+  {"texto": "Regla de 2 horas; con más de 32 C, 1 hora", "fuente": "USDA FSIS (90 F)", "estado": "verificada"}
+ ]
+}

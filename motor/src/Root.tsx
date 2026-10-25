@@ -1,0 +1,57 @@
+import { Composition, Folder, Still } from "remotion";
+import { ALTO, ANCHO } from "./kit/marca";
+import { PrototipoB, PrototipoC } from "./prototipos/Granizo";
+import { ArmyBomb006, DURACION as DUR_006, FPS as FPS_006, Portada006 } from "./videos/006-army-bomb/Video";
+import { Bts13Anios007, DURACION as DUR_007, FPS as FPS_007, Portada007 } from "./videos/007-bts-13-anios/Video";
+import { Taller } from "./taller/Taller";
+import { Catalogo } from "./taller/Catalogo";
+import { BannerYT, BannerYTGuia } from "./taller/BannerYT";
+import { Plantilla, PortadaPlantilla, calcularPlantilla, type PropsPlantilla } from "./plantilla/Plantilla";
+import { DURACION as DUR_001, FPS as FPS_001, Heladera001, Portada001 } from "./videos/001-heladera/Video";
+import { CorteDigestion002, DURACION as DUR_002, FPS as FPS_002, Portada002 } from "./videos/002-corte-digestion/Video";
+import { DURACION as DUR_003, FPS as FPS_003, Portada003, VueltaCarne003 } from "./videos/003-vuelta-carne/Video";
+import { DURACION as DUR_004, FPS as FPS_004, OlorALluvia004, Portada004 } from "./videos/004-olor-a-lluvia/Video";
+import { DURACION as DUR_005, FPS as FPS_005, GranizoCalor005, Portada005 } from "./videos/005-granizo-calor/Video";
+
+// Cada video nuevo suma su <Composition> (id "hNNN-slug") y su <Still> de portada (id "pNNN-slug").
+export const RemotionRoot: React.FC = () => {
+  return (
+    <>
+      <Folder name="videos">
+        <Composition id="h001-heladera" component={Heladera001} durationInFrames={DUR_001} fps={FPS_001} width={ANCHO} height={ALTO} />
+        <Composition id="h002-corte-digestion" component={CorteDigestion002} durationInFrames={DUR_002} fps={FPS_002} width={ANCHO} height={ALTO} />
+        <Composition id="h003-vuelta-carne" component={VueltaCarne003} durationInFrames={DUR_003} fps={FPS_003} width={ANCHO} height={ALTO} />
+        <Composition id="h004-olor-a-lluvia" component={OlorALluvia004} durationInFrames={DUR_004} fps={FPS_004} width={ANCHO} height={ALTO} />
+        <Composition id="h005-granizo-calor" component={GranizoCalor005} durationInFrames={DUR_005} fps={FPS_005} width={ANCHO} height={ALTO} />
+        <Composition id="h006-army-bomb" component={ArmyBomb006} durationInFrames={DUR_006} fps={FPS_006} width={ANCHO} height={ALTO} />
+        <Composition id="h007-bts-13-anios" component={Bts13Anios007} durationInFrames={DUR_007} fps={FPS_007} width={ANCHO} height={ALTO} />
+      </Folder>
+      <Folder name="portadas">
+        <Still id="p001-heladera" component={Portada001} width={ANCHO} height={ALTO} />
+        <Still id="p002-corte-digestion" component={Portada002} width={ANCHO} height={ALTO} />
+        <Still id="p003-vuelta-carne" component={Portada003} width={ANCHO} height={ALTO} />
+        <Still id="p004-olor-a-lluvia" component={Portada004} width={ANCHO} height={ALTO} />
+        <Still id="p005-granizo-calor" component={Portada005} width={ANCHO} height={ALTO} />
+        <Still id="p006-army-bomb" component={Portada006} width={ANCHO} height={ALTO} />
+        <Still id="p007-bts-13-anios" component={Portada007} width={ANCHO} height={ALTO} />
+      </Folder>
+      {/* plan B (sin Claude): herramientas/plan_b.py le pasa las escenas con --props */}
+      <Folder name="planb">
+        <Composition id="plantilla" component={Plantilla} durationInFrames={300} fps={30} width={ANCHO} height={ALTO}
+          defaultProps={{ slug: "005-granizo-calor", escenas: [] } as PropsPlantilla} calculateMetadata={calcularPlantilla} />
+        <Still id="plantillaPortada" component={PortadaPlantilla} width={ANCHO} height={ALTO}
+          defaultProps={{ slug: "", escenas: [], portada: { arriba: "¿pregunta?", grande: "respuesta", sello: "DATO", objeto: "sol" } } as PropsPlantilla} />
+      </Folder>
+      <Folder name="taller">
+        <Still id="taller" component={Taller} width={1600} height={1000} />
+        <Still id="catalogo" component={Catalogo} width={2400} height={1600} />
+        <Still id="bannerYT" component={BannerYT} width={2560} height={1440} />
+        <Still id="bannerYTGuia" component={BannerYTGuia} width={2560} height={1440} />
+      </Folder>
+      <Folder name="prototipos">
+        <Still id="protoB" component={PrototipoB} width={ANCHO} height={ALTO} />
+        <Still id="protoC" component={PrototipoC} width={ANCHO} height={ALTO} />
+      </Folder>
+    </>
+  );
+};

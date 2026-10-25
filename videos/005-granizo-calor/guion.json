@@ -1,0 +1,23 @@
+{
+  "titulo": "¿Por qué cae granizo justo cuando hace calor?",
+  "fuentes": [
+    "Servicio Meteorológico Nacional (SMN) · alertas por granizo de esta semana",
+    "El Economista: cómo se forma el granizo (2025)",
+    "National Weather Service (NOAA, EE.UU.): formación del granizo y corrientes ascendentes",
+    "iAgua: qué es y cómo se forma el granizo"
+  ],
+  "frases": [
+    { "texto": "¿Esta semana cayó granizo y encima hacía calor? Suena imposible.", "estilo": "Intriga, como arrancando una charla." },
+    { "texto": "Y es al revés de lo que pensás: el calor no lo frena, lo fabrica.", "estilo": "Golpe, seco y contundente, con media sonrisa." },
+    { "texto": "Mirá. El sol calienta el piso y el aire caliente sube como un globo.", "estilo": "Explicativo, tranquilo, le mostrás algo." },
+    { "texto": "Esa corriente empuja las gotas para arriba, bien alto, donde hace un frío bárbaro.", "estilo": "Sigue el relato, con energía." },
+    { "texto": "Ahí la gota se congela, baja un toque, se le pega más agua y vuelve a subir.", "estilo": "Como contando un ida y vuelta." },
+    { "texto": "Sube y baja un montón de veces, como una cebolla de hielo, hasta que pesa demasiado.", "estilo": "Con gracia, imagen divertida." },
+    { "texto": "En las peores tormentas, esa corriente de aire pasa los cien kilómetros por hora.", "estilo": "Dato, firme." },
+    { "texto": "Por eso el granizo más grande cae como un misil: puede pasar los ciento cincuenta por hora.", "estilo": "Impacto, un poco de asombro." },
+    { "texto": "Y por eso es cosa de primavera y verano: necesita ese calorón de abajo para armarse.", "estilo": "Cerrando la idea, cómplice." },
+    { "texto": "Ojo: el calor solo no alcanza. También tiene que haber aire muy frío allá arriba.", "estilo": "Matiz honesto, baja un cambio." },
+    { "texto": "Así que la próxima que truene con calor, ese bochorno es el que amasa las piedras.", "estilo": "Remate, canchero." },
+    { "texto": "Mandáselo a ese que miró por la ventana y gritó: ¿granizo con este calor?", "estilo": "Cierre cómplice, con humor argentino." }
+  ]
+}

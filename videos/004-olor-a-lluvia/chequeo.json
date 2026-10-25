@@ -1,0 +1,48 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones factuales del guion estan verificadas contra fuentes primarias o institucionales (Nature 1964, Nature Communications/MIT 2015, Wikipedia/revisiones sobre geosmina y Streptomyces). No hay temas de salud, seguridad ni dinero. La unica afirmacion no cerrada (hipotesis evolutiva) se presenta con el matiz correcto ('se cree que'), como version y no como hecho. Nota: 'partes por billon' es correcto porque en espanol billon = 10^12 = 'trillion' en ingles, que es la unidad del umbral de deteccion (orden de partes por trillion en ingles).",
+  "afirmaciones": [
+    {
+      "texto": "Lo que estas oliendo no es la lluvia. Son bacterias.",
+      "fuente": "Wikipedia 'Geosmin' / sciencenotes.org (Petrichor and Geosmin); geosmina producida por bacterias del suelo es el principal responsable del olor terroso",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ese olor tiene nombre: petricor. Lo bautizaron dos cientificos australianos en los anos sesenta.",
+      "fuente": "Bear & Thomas, Nature 203, 'Nature of Argillaceous Odour' (1964); Wikipedia 'Petrichor', 'Isabel Joy Bear', 'Richard Grenfell Thomas' (ambos de la CSIRO, Australia)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El que mas pega es una molecula que se llama geosmina, que fabrican unas bacterias que viven en la tierra.",
+      "fuente": "Wikipedia 'Geosmin'; geosmina producida principalmente por bacterias del suelo del genero Streptomyces (actinobacterias)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Cuando la gota choca contra el suelo seco, atrapa una burbujita de aire que estalla y manda el aroma para arriba.",
+      "fuente": "Joung & Buie, 'Aerosol generation by raindrop impact on soil', Nature Communications 6:6083 (2015), MIT; news.mit.edu/2015/rainfall-can-release-aerosols-0114",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y tu nariz es tan fina para esto que lo detecta en cantidades minimas, apenas unas partes por billon.",
+      "fuente": "Wikipedia 'Geosmin' / Odor detection threshold; umbral humano del orden de 5 partes por trillion (ingles) = partes por billon (espanol, 10^12)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Por que lo olemos tan bien? Se cree que nuestros antepasados seguian ese olor para encontrar agua.",
+      "fuente": "Wikipedia 'Geosmin' (hipotesis evolutiva, 'proposed... but this is not conclusive'); sin fuente primaria concluyente",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: el olor pega mas fuerte con la llovizna finita que con el diluvio.",
+      "fuente": "Joung & Buie, Nature Communications (2015), MIT: se generan mas aerosoles con lluvia suave o moderada que con lluvia intensa",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

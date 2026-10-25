@@ -1,0 +1,12 @@
+{
+ "veredicto": "aprobado",
+ "motivo": "Cada afirmación verificada en fuentes reales en una pasada aparte; la cifra del alcohol va con el rango conservador del CDC (no el 70 % que circula sin fuente primaria).",
+ "afirmaciones": [
+  {"texto": "No hay evidencia de que nadar después de comer cause ahogamientos (corte de digestión)", "fuente": "Cruz Roja Americana, Scientific Advisory Council (2011); Chequeado", "estado": "verificada"},
+  {"texto": "El desvío de sangre hacia el estómago es mínimo", "fuente": "Experto de UCLA citado por Washington Post/Infobae (2025); Chequeado", "estado": "verificada"},
+  {"texto": "La Cruz Roja revisó décadas de estudios y no encontró casos de ahogamiento", "fuente": "Cruz Roja Americana 2011 (revisión de la literatura)", "estado": "verificada"},
+  {"texto": "La advertencia aparece en un manual de los Boy Scouts de 1908", "fuente": "Scouting for Boys (1908), citado por Mental Floss, WBUR y CBS8 Verify", "estado": "verificada"},
+  {"texto": "Tras una comida abundante puede dar una puntada, incómodo pero no peligroso", "fuente": "Estudio australiano 2005; Mayo Clinic (vía El Colombiano)", "estado": "verificada"},
+  {"texto": "El alcohol aparece en 25-50 % de los ahogamientos de adultos", "fuente": "CDC: fact sheet archivado y MMWR 1991 (25-50 % en adolescentes y adultos)", "estado": "verificada"}
+ ]
+}

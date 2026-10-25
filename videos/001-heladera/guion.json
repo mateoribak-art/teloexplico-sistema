@@ -1,0 +1,25 @@
+{
+  "titulo": "¿Hay que dejar enfriar la comida antes de meterla en la heladera?",
+  "fuentes": [
+    "USDA FSIS — Leftovers and Food Safety: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+    "USDA FSIS — Danger Zone (40–140 °F): bacterias se duplican en apenas 20 minutos",
+    "USDA: con más de 90 °F (32 °C), no más de 1 hora fuera de la heladera",
+    "ANMAT/SENASA (vía Perfil y Unidiversidad): zona de peligro 5–60 °C, regla de las 2 horas",
+    "Origen del mito — heladeras a hielo (Indiana Public Media, AARP Myth Buster)"
+  ],
+  "frases": [
+    {"texto": "¿Dejás enfriar la comida antes de meterla en la heladera?", "estilo": "Intriga, como quien está por contar un secreto."},
+    {"texto": "Te tengo una mala noticia.", "estilo": "Intriga, bajando un poco la voz."},
+    {"texto": "Es al revés.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Mientras la olla está en la mesada, la comida pasa horas entre cuatro y sesenta grados.", "estilo": "Explicando claro."},
+    {"texto": "Ahí las bacterias se pueden duplicar en apenas veinte minutos.", "estilo": "Enfático, como revelando algo que impresiona."},
+    {"texto": "¿Y de dónde salió el mito?", "estilo": "Curioso, conversacional."},
+    {"texto": "De las heladeras a hielo: meter algo caliente derretía el hielo.", "estilo": "Contándole a un amigo, con gracia."},
+    {"texto": "Las de hoy se la bancan sin problema.", "estilo": "Canchero, tranquilizador."},
+    {"texto": "Ojo: una olla enorme tarda un montón en enfriarse, aunque esté adentro.", "estilo": "Advertencia amable."},
+    {"texto": "Lo que conviene es repartirla en tuppers chatos.", "estilo": "Claro, práctico."},
+    {"texto": "La regla: antes de las dos horas, a la heladera.", "estilo": "Firme, remate claro."},
+    {"texto": "Y si hace más de treinta y dos grados, una hora.", "estilo": "Firme, agregando un dato importante."},
+    {"texto": "Mandáselo a ese que deja el guiso toda la noche arriba de la hornalla.", "estilo": "Cómplice, con humor."}
+  ]
+}

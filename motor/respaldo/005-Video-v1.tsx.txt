@@ -1,0 +1,381 @@
+import React from "react";
+import { AbsoluteFill, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { Audio } from "@remotion/media";
+import tiemposJson from "../../../public/005-granizo-calor/tiempos.json";
+import { C } from "../../kit/marca";
+import { clamp, pop } from "../../kit/anim";
+import { reloj, type Tiempos } from "../../kit/tiempos";
+import { Escena, Etiqueta, Fondo, Fuente, Globo, Logo, Musica, Palabrota, Sello, Sfx, Subtitulos, Titulo, type Efecto } from "../../kit/piezas";
+import { DUR_SELLO_FINAL, Lienzo, SelloFinal, TituloHablado } from "../../kit/comun";
+import { Portada } from "../../kit/Portada";
+import { Gota, Nube, Piedra, Sol, Suelo, Vapor } from "../../kit/dibujos";
+
+const tiempos = tiemposJson as Tiempos;
+export const FPS = 30;
+const r = reloj(tiempos, FPS);
+
+const E = {
+  gancho: r.f(0),
+  fabrica: r.f(1),
+  sube: r.f(2),
+  frio: r.f(3),
+  congela: r.f(4),
+  cebolla: r.f(5),
+  cien: r.f(6),
+  misil: r.f(7),
+  temporada: r.f(8),
+  ojo: r.f(9),
+  remate: r.f(10),
+  cta: r.f(11),
+  sello: r.fin(11) + 2,
+};
+export const DURACION = E.sello + DUR_SELLO_FINAL;
+
+/* Flecha de "aire que sube" (contorno negro + relleno de color). */
+const FlechaArriba: React.FC<{ x: number; y: number; alto?: number; color?: string }> = ({ x, y, alto = 260, color = C.rojo }) => {
+  const tope = y - alto;
+  const cuerpo = `M${x} ${y} v-${alto}`;
+  const punta = `M${x - 36} ${tope + 42} L${x} ${tope - 8} L${x + 36} ${tope + 42}`;
+  return (
+    <g strokeLinecap="round" strokeLinejoin="round" fill="none">
+      <path d={cuerpo} stroke={C.tinta} strokeWidth={36} />
+      <path d={punta} stroke={C.tinta} strokeWidth={34} />
+      <path d={cuerpo} stroke={color} strokeWidth={22} />
+      <path d={punta} stroke={color} strokeWidth={20} />
+    </g>
+  );
+};
+
+/* Granizo cayendo: n piedritas en bucle entre yTop e yBot. */
+const GranizoCae: React.FC<{ frame: number; n?: number; x0?: number; x1?: number; yTop?: number; yBot?: number; periodo?: number; rmin?: number }> = ({
+  frame, n = 7, x0 = 180, x1 = 900, yTop = 980, yBot = 1500, periodo = 40, rmin = 16,
+}) => (
+  <g>
+    {Array.from({ length: n }).map((_, i) => {
+      const ciclo = ((frame + i * 11) % periodo) / periodo;
+      const x = x0 + (x1 - x0) * ((i + 0.5) / n) + Math.sin(i * 2.3) * 24;
+      const y = yTop + (yBot - yTop) * ciclo;
+      return <Piedra key={i} cx={x} cy={y} r={rmin + (i % 3) * 7} />;
+    })}
+  </g>
+);
+
+/* 1 · ¿Esta semana cayó granizo y encima hacía calor? Suena imposible. */
+const Gancho: React.FC = () => {
+  const frame = useCurrentFrame();
+  return (
+    <Escena entrada={false}>
+      <Etiqueta texto="lo vivís esta semana" desde={-8} />
+      <TituloHablado tiempos={tiempos} frase={0} desde={E.gancho} top={430} tam={56} />
+      <Lienzo>
+        <Suelo y={1420} />
+        <Nube cx={430} cy={880} s={0.95} t={frame} cara="preocupada" />
+        <GranizoCae frame={frame} x0={240} x1={660} yTop={1000} yBot={1420} />
+        <Sol cx={880} cy={760} r={76} t={frame} />
+      </Lienzo>
+      <Globo texto="¿con este calor?" desde={16} x={640} y={1060} cola="der" tam={42} ancho={330} />
+    </Escena>
+  );
+};
+
+/* 2 · Y es al revés: el calor no lo frena, lo fabrica. */
+const Fabrica: React.FC = () => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const fab = r.w(1, "fabrica") - E.fabrica;
+  return (
+    <Escena empuje={0.03}>
+      <Etiqueta texto="la verdad" color={C.verde} />
+      <Titulo pregunta="el calor no lo frena…" desdeP={0} respuesta="¡lo fabrica!" desdeR={fab} top={400} tamR={128} />
+      <Lienzo>
+        <g style={{ scale: pop(frame, fps, 4), transformOrigin: "540px 1200px" }}>
+          <Sol cx={540} cy={1180} r={150} t={frame} />
+        </g>
+        <GranizoCae frame={frame} n={4} x0={220} x1={860} yTop={1360} yBot={1540} rmin={15} />
+      </Lienzo>
+      {frame >= fab ? <Sello texto="AL REVÉS" desde={fab} x={130} y={860} rot={-10} color={C.rojo} tam={64} /> : null}
+      <Globo texto="¿en serio? 😳" desde={fab + 8} x={700} y={940} cola="der" tam={40} ancho={300} />
+    </Escena>
+  );
+};
+
+/* 3 · El sol calienta el piso y el aire caliente sube como un globo. */
+const Sube: React.FC = () => {
+  const frame = useCurrentFrame();
+  const sube = r.w(2, "sube") - E.sube;
+  return (
+    <Escena>
+      <Etiqueta texto="paso 1" />
+      <Lienzo>
+        <Suelo y={1460} />
+        <Sol cx={840} cy={720} r={84} t={frame} />
+        <g opacity={frame >= sube ? 1 : 0.3}>
+          <FlechaArriba x={420} y={1420} alto={interpolate(frame, [sube, sube + 16], [120, 430], clamp)} color={C.rojo} />
+        </g>
+        <Vapor x={640} y={1440} t={frame} n={3} sep={70} alto={180} opacidad={0.7} />
+      </Lienzo>
+      {frame >= sube ? <Sello texto="AIRE CALIENTE ↑" desde={sube} x={470} y={700} rot={-4} color={C.amarillo} tinta={C.tinta} tam={48} /> : null}
+      <Globo texto="sube como un globo" desde={10} x={110} y={820} cola="izq" tam={38} ancho={380} />
+    </Escena>
+  );
+};
+
+/* 4 · Esa corriente empuja las gotas para arriba, donde hace un frío bárbaro. */
+const Frio: React.FC = () => {
+  const frame = useCurrentFrame();
+  const arr = r.w(3, "arriba") - E.frio;
+  const fr = r.w(3, "frío") - E.frio;
+  const gy = (i: number) => interpolate(frame, [arr - 4 + i * 2, arr + 20 + i * 2], [1380, 760], clamp);
+  return (
+    <Escena>
+      <Etiqueta texto="paso 2" />
+      {/* franja de frío arriba */}
+      <Lienzo>
+        <rect x={-20} y={700} width={1120} height={200} fill="#CDEBFF" opacity={0.5} />
+        <FlechaArriba x={300} y={1420} alto={520} color={C.azul} />
+        <FlechaArriba x={540} y={1460} alto={560} color={C.azul} />
+        <FlechaArriba x={780} y={1420} alto={520} color={C.azul} />
+        {[0, 1, 2, 3].map((i) => (
+          <Gota key={i} cx={300 + i * 160} cy={gy(i)} s={1.2} color="#7CC3FF" />
+        ))}
+      </Lienzo>
+      {frame >= fr ? <Sello texto="BAJO CERO" desde={fr} x={330} y={620} rot={-3} color={C.azul} tam={58} /> : null}
+      <Globo texto="arriba hace un frío de locos" desde={8} x={120} y={1120} cola="izq" tam={36} ancho={440} />
+      <Fuente texto="National Weather Service (NOAA, EE.UU.)" />
+    </Escena>
+  );
+};
+
+/* 5 · La gota se congela, baja un toque, se le pega más agua y vuelve a subir. */
+const Congela: React.FC = () => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const con = r.w(4, "congela") - E.congela;
+  // la gota (azul) se vuelve piedra (celeste) y sube-baja
+  const vaiven = Math.sin((frame - con) / 9) * 220;
+  const cy = 1120 - Math.max(0, vaiven);
+  return (
+    <Escena>
+      <Etiqueta texto="paso 3" />
+      <Lienzo>
+        <rect x={-20} y={700} width={1120} height={170} fill="#CDEBFF" opacity={0.5} />
+        <FlechaArriba x={260} y={1440} alto={520} color={C.azul} />
+        <FlechaArriba x={820} y={1440} alto={520} color={C.azul} />
+        {frame < con ? (
+          <Gota cx={540} cy={cy} s={2} color="#7CC3FF" />
+        ) : (
+          <g style={{ scale: pop(frame, fps, con), transformOrigin: `540px ${cy}px` }}>
+            <Piedra cx={540} cy={cy} r={64} t={frame} cara="sorprendida" />
+          </g>
+        )}
+      </Lienzo>
+      {frame >= con ? <Sello texto="¡SE CONGELA!" desde={con} x={560} y={780} rot={6} color={C.azul} tam={54} /> : null}
+      <Globo texto="sube, baja, sube…" desde={10} x={120} y={900} cola="izq" tam={38} ancho={360} />
+    </Escena>
+  );
+};
+
+/* 6 · Sube y baja un montón, como una cebolla de hielo, hasta que pesa demasiado. */
+const Cebolla: React.FC = () => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const ceb = r.w(5, "cebolla") - E.cebolla;
+  const pesa = r.w(5, "pesa") - E.cebolla;
+  const caeY = frame >= pesa ? interpolate(frame, [pesa, pesa + 16], [1120, 1480], clamp) : 1120;
+  return (
+    <Escena>
+      <Etiqueta texto="capa sobre capa" color={C.verde} />
+      <Lienzo>
+        <g style={{ scale: pop(frame, fps, 2), transformOrigin: "540px 1120px" }}>
+          <Piedra cx={540} cy={caeY} r={150} t={frame} cara={frame >= pesa ? "preocupada" : "canchera"} capas />
+        </g>
+      </Lienzo>
+      {frame >= ceb ? <Sello texto="CEBOLLA DE HIELO" desde={ceb} x={190} y={680} rot={-5} color={C.azul} tam={54} /> : null}
+      {frame >= pesa ? <Sello texto="¡PESA!" desde={pesa} x={660} y={900} rot={8} color={C.rojo} tam={60} /> : null}
+      <Globo texto="ya no la aguanta" desde={ceb + 8} x={120} y={940} cola="izq" tam={38} ancho={360} />
+      <Fuente texto="National Weather Service (NOAA): capas de hielo" />
+    </Escena>
+  );
+};
+
+/* 7 · En las peores tormentas, esa corriente pasa los cien kilómetros por hora. */
+const Cien: React.FC = () => {
+  const cien = r.w(6, "cien") - E.cien;
+  return (
+    <Escena>
+      <Etiqueta texto="la corriente que sube" />
+      <Lienzo>
+        <Suelo y={1500} />
+        <FlechaArriba x={340} y={1480} alto={620} color={C.rojo} />
+        <FlechaArriba x={560} y={1500} alto={660} color={C.rojo} />
+        <FlechaArriba x={780} y={1480} alto={620} color={C.rojo} />
+      </Lienzo>
+      <Palabrota texto="+100 km/h" desde={cien} hasta={r.fin(6) - E.cien + 16} top={820} color={C.rojo} tam={150} />
+      <Globo texto="para arriba, fuertísimo" desde={8} x={110} y={700} cola="izq" tam={36} ancho={420} />
+      <Fuente texto="NOAA JetStream / NSSL: supercélulas" />
+    </Escena>
+  );
+};
+
+/* 8 · Por eso el granizo más grande cae como un misil: puede pasar los 150 por hora. */
+const Misil: React.FC = () => {
+  const frame = useCurrentFrame();
+  const mis = r.w(7, "ciento") - E.misil;
+  const caeY = interpolate(frame, [0, 26], [720, 1480], clamp);
+  return (
+    <Escena>
+      <Etiqueta texto="y cuando cae…" color={C.rojo} />
+      <Lienzo>
+        <Suelo y={1520} />
+        {/* estela */}
+        <path d={`M540 ${caeY - 150} v-120`} stroke={C.azul} strokeWidth={10} strokeLinecap="round" opacity={0.4} />
+        <Piedra cx={540} cy={caeY} r={92} t={frame} cara="canchera" />
+      </Lienzo>
+      <Palabrota texto="+150 km/h" desde={mis} hasta={r.fin(7) - E.misil + 16} top={860} color={C.rojo} tam={150} />
+      <Globo texto="¡como un misil!" desde={6} x={660} y={640} cola="der" tam={40} ancho={320} />
+      <Fuente texto="NSSL/NWS: el granizo más grande (>4″)" />
+    </Escena>
+  );
+};
+
+/* 9 · Y por eso es cosa de primavera y verano: necesita ese calorón de abajo. */
+const Temporada: React.FC = () => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const prim = r.w(8, "primavera") - E.temporada;
+  const ver = r.w(8, "verano") - E.temporada;
+  return (
+    <Escena>
+      <Etiqueta texto="¿cuándo?" />
+      <Lienzo>
+        <g style={{ scale: pop(frame, fps, 2), transformOrigin: "540px 1160px" }}>
+          <Sol cx={540} cy={1160} r={150} t={frame} />
+        </g>
+        <Vapor x={300} y={1420} t={frame} n={3} sep={70} alto={160} opacidad={0.7} />
+        <Vapor x={780} y={1420} t={frame + 20} n={3} sep={70} alto={160} opacidad={0.7} />
+      </Lienzo>
+      {frame >= prim ? <Sello texto="PRIMAVERA" desde={prim} x={140} y={760} rot={-6} color={C.verde} tinta={C.tinta} tam={56} /> : null}
+      {frame >= ver ? <Sello texto="VERANO" desde={ver} x={640} y={820} rot={6} color={C.amarillo} tinta={C.tinta} tam={56} /> : null}
+      <Globo texto="necesita el calorón de abajo" desde={10} x={150} y={560} cola="izq" tam={34} ancho={440} />
+    </Escena>
+  );
+};
+
+/* 10 · Ojo: el calor solo no alcanza. También tiene que haber aire muy frío arriba. */
+const Ojo: React.FC = () => {
+  const frame = useCurrentFrame();
+  const fr = r.w(9, "frío") - E.ojo;
+  return (
+    <Escena>
+      <Sello texto="OJO" desde={0} x={450} y={360} rot={-8} color={C.amarillo} tinta={C.tinta} tam={90} />
+      <Lienzo>
+        {/* frío arriba */}
+        <rect x={-20} y={720} width={1120} height={260} fill="#CDEBFF" opacity={frame >= fr ? 0.7 : 0.25} />
+        {/* calor abajo */}
+        <Suelo y={1460} />
+        <Sol cx={540} cy={1300} r={96} t={frame} />
+      </Lienzo>
+      {frame >= fr ? <Sello texto="FRÍO ARRIBA" desde={fr} x={320} y={780} rot={-3} color={C.azul} tam={54} /> : null}
+      <Sello texto="CALOR ABAJO" desde={8} x={330} y={1120} rot={3} color={C.rojo} tam={50} />
+      <Globo texto="hacen falta los dos" desde={fr + 6} x={150} y={940} cola="izq" tam={38} ancho={380} />
+    </Escena>
+  );
+};
+
+/* 11 · La próxima que truene con calor, ese bochorno es el que amasa las piedras. */
+const Remate: React.FC = () => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const am = r.w(10, "amasa") - E.remate;
+  return (
+    <Escena>
+      <Etiqueta texto="en criollo" />
+      <Titulo pregunta="truena con calor…" desdeP={0} respuesta="¡se amasan!" desdeR={am} top={400} tamR={120} />
+      <Lienzo>
+        <g style={{ scale: pop(frame, fps, 4), transformOrigin: "540px 1200px" }}>
+          <Sol cx={380} cy={1200} r={120} t={frame} />
+          <Piedra cx={720} cy={1200} r={96} t={frame} cara="canchera" capas />
+        </g>
+      </Lienzo>
+      <Globo texto="el bochorno las arma" desde={am + 6} x={150} y={940} cola="izq" tam={38} ancho={380} />
+    </Escena>
+  );
+};
+
+/* 12 · Mandáselo a ese que miró por la ventana y gritó: ¿granizo con este calor? */
+const Cta: React.FC = () => {
+  const frame = useCurrentFrame();
+  const ventana = r.w(11, "ventana") - E.cta;
+  return (
+    <Escena>
+      <Titulo pregunta="mandáselo a ese que…" desdeP={0} top={360} />
+      <Lienzo>
+        {/* ventana */}
+        <rect x={240 + 12} y={820 + 12} width={600} height={560} rx={16} fill={C.tinta} />
+        <rect x={240} y={820} width={600} height={560} rx={16} fill="#DDEBFF" stroke={C.tinta} strokeWidth={9} />
+        <line x1={540} y1={820} x2={540} y2={1380} stroke={C.tinta} strokeWidth={9} />
+        <line x1={240} y1={1100} x2={840} y2={1100} stroke={C.tinta} strokeWidth={9} />
+        <GranizoCae frame={frame} n={6} x0={300} x1={780} yTop={840} yBot={1360} periodo={34} rmin={14} />
+        <rect x={210} y={1380} width={660} height={30} rx={12} fill="#8A5A2B" />
+      </Lienzo>
+      <Globo texto="¿granizo con este calor?" desde={ventana} x={520} y={640} cola="der" tam={40} ancho={420} />
+    </Escena>
+  );
+};
+
+export const GranizoCalor005: React.FC = () => {
+  const efectos: Efecto[] = [
+    [E.gancho, "whoosh", 0.4], [E.gancho + 16, "burbuja", 0.35],
+    [r.w(1, "fabrica") - 2, "scratch", 0.55], [r.w(1, "fabrica"), "boing", 0.5], [r.w(1, "fabrica") + 2, "sello", 0.55], [r.w(1, "fabrica") + 8, "burbuja", 0.35],
+    [E.sube - 3, "latigo", 0.5], [E.sube, "pop"], [r.w(2, "sube"), "whoosh", 0.4], [E.sube + 10, "burbuja", 0.35],
+    [E.frio - 3, "latigo", 0.5], [E.frio + 4, "whoosh", 0.4], [r.w(3, "frío"), "sello", 0.5], [E.frio + 8, "burbuja", 0.35],
+    [E.congela - 3, "latigo", 0.5], [E.congela, "pop"], [r.w(4, "congela"), "ding", 0.45], [E.congela + 10, "burbuja", 0.35],
+    [E.cebolla - 3, "latigo", 0.5], [E.cebolla, "pop"], [r.w(5, "cebolla"), "sello", 0.5], [r.w(5, "pesa"), "boing", 0.5], [r.w(5, "pesa") + 2, "sello", 0.5],
+    [E.cien - 3, "latigo", 0.5], [E.cien, "whoosh", 0.4], [r.w(6, "cien"), "ding", 0.45], [E.cien + 8, "burbuja", 0.35],
+    [E.misil - 3, "latigo", 0.5], [E.misil, "whoosh", 0.4], [r.w(7, "ciento"), "boing", 0.5], [r.w(7, "ciento") + 2, "ding", 0.45],
+    [E.temporada - 3, "latigo", 0.5], [E.temporada, "pop"], [r.w(8, "primavera"), "sello", 0.5], [r.w(8, "verano"), "sello", 0.5],
+    [E.ojo - 3, "latigo", 0.5], [E.ojo, "sello", 0.6], [E.ojo + 8, "sello", 0.45], [r.w(9, "frío"), "sello", 0.45],
+    [E.remate - 3, "latigo", 0.5], [E.remate, "pop"], [r.w(10, "amasa"), "scratch", 0.5], [r.w(10, "amasa") + 2, "sello", 0.5],
+    [E.cta - 3, "latigo", 0.5], [E.cta, "pop"], [r.w(11, "ventana"), "burbuja", 0.4],
+    [E.sello, "sello", 0.7], [E.sello + 6, "ding", 0.4],
+  ];
+
+  return (
+    <AbsoluteFill style={{ backgroundColor: C.papel }}>
+      <Fondo />
+      <Sequence from={0} durationInFrames={E.sello} layout="none" name="Logo">
+        <Logo />
+      </Sequence>
+
+      <Sequence name="1 · gancho" from={E.gancho} durationInFrames={E.fabrica - E.gancho}><Gancho /></Sequence>
+      <Sequence name="2 · fabrica" from={E.fabrica} durationInFrames={E.sube - E.fabrica}><Fabrica /></Sequence>
+      <Sequence name="3 · sube" from={E.sube} durationInFrames={E.frio - E.sube}><Sube /></Sequence>
+      <Sequence name="4 · frío" from={E.frio} durationInFrames={E.congela - E.frio}><Frio /></Sequence>
+      <Sequence name="5 · congela" from={E.congela} durationInFrames={E.cebolla - E.congela}><Congela /></Sequence>
+      <Sequence name="6 · cebolla" from={E.cebolla} durationInFrames={E.cien - E.cebolla}><Cebolla /></Sequence>
+      <Sequence name="7 · cien" from={E.cien} durationInFrames={E.misil - E.cien}><Cien /></Sequence>
+      <Sequence name="8 · misil" from={E.misil} durationInFrames={E.temporada - E.misil}><Misil /></Sequence>
+      <Sequence name="9 · temporada" from={E.temporada} durationInFrames={E.ojo - E.temporada}><Temporada /></Sequence>
+      <Sequence name="10 · ojo" from={E.ojo} durationInFrames={E.remate - E.ojo}><Ojo /></Sequence>
+      <Sequence name="11 · remate" from={E.remate} durationInFrames={E.cta - E.remate}><Remate /></Sequence>
+      <Sequence name="12 · cta" from={E.cta} durationInFrames={DURACION - E.cta}><Cta /></Sequence>
+      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal /></Sequence>
+
+      <Subtitulos tiempos={tiempos} hasta={E.sello} />
+      <Audio src={staticFile("005-granizo-calor/voz.wav")} volume={1} />
+      <Musica hasta={DURACION} />
+      <Sfx efectos={efectos} />
+    </AbsoluteFill>
+  );
+};
+
+export const Portada005: React.FC = () => (
+  <Portada arriba="¿por qué cae granizo cuando hace calor?" grande="el calor" sello="CIENCIA" colorSello={C.verde} numero={5}>
+    <Lienzo>
+      <Suelo y={1420} />
+      <Nube cx={360} cy={1060} s={0.8} t={20} cara="preocupada" />
+      <Sol cx={820} cy={1120} r={96} t={12} />
+      <GranizoCae frame={24} n={5} x0={240} x1={620} yTop={1180} yBot={1400} />
+    </Lienzo>
+  </Portada>
+);

@@ -1,0 +1,24 @@
+[
+ {
+  "slug": "001-heladera",
+  "publish_id": "v_inbox_file~v2.7700235976224294918",
+  "enviado": "2026-10-24T11:09:30"
+ },
+ {
+  "slug": "004-olor-a-lluvia",
+  "publish_id": "v_inbox_file~v2.7700307484255569972",
+  "enviado": "2026-10-24T15:47:59"
+ },
+ {
+  "slug": "002-corte-digestion",
+  "publish_id": "v_pub_file~v2-1.7700328532462864436",
+  "enviado": "2026-10-24T17:09:16",
+  "directo": true,
+  "privacidad": "SELF_ONLY"
+ },
+ {
+  "slug": "006-army-bomb",
+  "publish_id": "v_inbox_file~v2.7700391359630395410",
+  "enviado": "2026-10-24T21:13:17"
+ }
+]

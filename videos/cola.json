@@ -1,0 +1,164 @@
+[
+ {
+  "slug": "001-heladera",
+  "tema": "¿Dejar enfriar la comida antes de la heladera?",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-24T00:34",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-24T00:34",
+    "motivo": "producido y chequeado en sesión"
+   }
+  ]
+ },
+ {
+  "slug": "002-corte-digestion",
+  "tema": "¿Hay que esperar 2 horas para nadar después de comer?",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-24T00:53",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-24T00:53",
+    "motivo": "producido en sesión, control OK"
+   }
+  ]
+ },
+ {
+  "slug": "003-vuelta-carne",
+  "tema": "¿A la carne se la da vuelta una sola vez?",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-24T00:53",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-24T00:53",
+    "motivo": "voz en regeneración"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-24T05:02",
+    "motivo": "producción nocturna"
+   }
+  ]
+ },
+ {
+  "slug": "004-olor-a-lluvia",
+  "tema": "¿Por qué la tierra huele así cuando llueve?",
+  "estado": "publicado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-24T04:31",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-24T04:31",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-24T04:51",
+    "motivo": "producción nocturna"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-24T15:46",
+    "motivo": "https://www.instagram.com/reel/De4zrTQiWpr/"
+   }
+  ],
+  "prioridad": "actualidad",
+  "creado": "2026-10-24T04:31"
+ },
+ {
+  "slug": "006-army-bomb",
+  "tema": "¿Las ARMY eligen el color de su varita?",
+  "estado": "publicado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-24T17:17",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-24T17:17",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-24T17:28",
+    "motivo": "producción manual (BTS en La Plata)"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-24T21:11",
+    "motivo": "https://www.instagram.com/reel/De5Y2I2ju9H/"
+   }
+  ],
+  "prioridad": "actualidad",
+  "creado": "2026-10-24T17:17"
+ },
+ {
+  "slug": "007-bts-13-anios",
+  "tema": "¿Por qué la ARMY argentina esperó 13 años para ver a BTS?",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-24T17:43",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-24T17:43",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-24T21:13",
+    "motivo": "producción manual (BTS 13 años)"
+   }
+  ],
+  "prioridad": "actualidad",
+  "creado": "2026-10-24T17:43"
+ },
+ {
+  "slug": "005-granizo-calor",
+  "tema": "¿Por qué cae granizo justo cuando hace calor?",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-24T10:31",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-24T10:31",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-24T10:52",
+    "motivo": "produccion por radar media manana"
+   }
+  ],
+  "prioridad": "actualidad",
+  "creado": "2026-10-24T10:31"
+ }
+]

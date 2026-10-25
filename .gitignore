@@ -1,0 +1,20 @@
+# claves: en la nube salen de los secretos cifrados de GitHub
+secretos/
+# la web pública es otro repo (mateoribak-art/teloexplico)
+web/
+# dependencias y salidas del motor
+motor/node_modules/
+motor/out/
+motor/build/
+motor/.remotion/
+# audio por video que copia el render (se regenera)
+motor/public/0*/
+# pesados: los videos terminados viven en el Release "videos" del repo
+*.mp4
+*.wav
+*.mov
+videos/*/cuadros/
+# generados
+PANEL.html
+__pycache__/
+*.pyc

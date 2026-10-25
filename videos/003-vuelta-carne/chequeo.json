@@ -1,0 +1,42 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones factuales del guion estan verificadas contra fuentes primarias (Harold McGee, 'The Virtual Cook: Modeling Heat Transfer in the Kitchen', Physics Today 1999) y fuentes reputadas (America's Test Kitchen / Cook's Illustrated, ThermoWorks). Dar vuelta seguido cocina mas pareja y mas rapido, con mejor costra: confirmado por el modelo de transferencia de calor de McGee y por el experimento de ATK (dar vuelta cada minuto). La perdida de jugo esta dominada por el exceso de coccion (temperatura/tiempo) y no por el acto de dar vuelta: confirmado por los datos de ThermoWorks (sobrepasar 5-10 F pierde mas humedad que el pinchado/manipuleo). El beneficio es mas marcado en bifes finos a fuego fuerte y la diferencia es chica en cortes gruesos / asado lento: confirmado. Los matices del guion ('ojo: esto es para bifes y churrascos a fuego fuerte', 'en el asado lento con cortes gruesos la diferencia es chica, y el que manda es el fuego') estan correctamente puestos. Ninguna afirmacion es falsa, exagerada ni mal atribuida; ninguna cae en estado probable o dudoso.",
+  "afirmaciones": [
+    {
+      "texto": "Si la das vuelta seguido, cada lado se calienta un poco y despues descansa un poco.",
+      "fuente": "Harold McGee, 'The Virtual Cook: Modeling Heat Transfer in the Kitchen', Physics Today (1999); America's Test Kitchen / Cook's Illustrated (https://www.americastestkitchen.com/cooksillustrated/how_tos/6362-the-effect-of-flipping-on-a-crisp-burger-and-steak-crust)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Asi el calor entra mas parejo, y la carne se cocina mas pareja y hasta mas rapido.",
+      "fuente": "Harold McGee, Physics Today (1999) - el modelado de transferencia de calor muestra coccion mas pareja y mas rapida al dar vuelta seguido (reportado por Gear Patrol, Food Republic); America's Test Kitchen confirma coccion mas pareja y mejor costra",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Lo calculo Harold McGee, un genio de la ciencia de la cocina, y lo probo America's Test Kitchen: dando vuelta el bife cada minuto, salio mas parejo y con mejor costra.",
+      "fuente": "Harold McGee, 'The Virtual Cook', Physics Today (1999, https://physicstoday.aip.org/features/the-virtual-cook-modeling-heat-transfer-in-the-kitchen); America's Test Kitchen (https://www.americastestkitchen.com/cooksillustrated/how_tos/6362-the-effect-of-flipping-on-a-crisp-burger-and-steak-crust) - dar vuelta cada minuto da costra mas crocante y coccion mas pareja",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Lo que mas lo hace perder jugo es pasarla de coccion, no darla vuelta.",
+      "fuente": "ThermoWorks, 'Temping a Steak Doesn't Make It Dry' (https://blog.thermoworks.com/temping-a-steak-doesnt-make-it-dry-debunking-a-kitchen-myth/) - sobrepasar 5-10 F pierde mas humedad (16.03 g a +5 F vs 13.51-14.71 g bien cocido) que el pinchado/manipuleo, que es estadisticamente insignificante; America's Test Kitchen confirma que dar vuelta seguido no arruina ni seca",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: esto es para bifes y churrascos a fuego fuerte.",
+      "fuente": "America's Test Kitchen y consenso culinario (Food Republic, Serious Eats/Kenji Lopez-Alt): el beneficio del volteo frecuente es mas marcado en bifes finos a fuego alto",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En el asado lento, con cortes gruesos, la diferencia es chica, y el que manda es el fuego.",
+      "fuente": "Consenso culinario (America's Test Kitchen, amazingribs, mychicagosteak): en cortes gruesos / low and slow la diferencia por el volteo se reduce y el control de calor y temperatura es lo determinante",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

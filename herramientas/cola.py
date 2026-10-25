@@ -1,0 +1,102 @@
+r"""Cola de videos de @teloexplico.ar: qué hay, en qué estado y qué sale después.
+
+Estados: idea -> produccion -> listo -> publicado
+                          \-> apartado (falló el chequeo de datos o el control técnico: nunca se publica solo)
+
+Uso:
+  python -I cola.py                      muestra la cola
+  python -I cola.py estado <slug> <estado> [motivo]
+  python -I cola.py agregar <slug> "<tema>" [--actualidad]   (--actualidad: pasa adelante, vence a las 48 h, avisa al celular)
+"""
+import json, os, sys, datetime
+
+RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ARCHIVO = os.path.join(RAIZ, 'videos', 'cola.json')
+ESTADOS = ('idea', 'produccion', 'listo', 'publicado', 'apartado')
+
+
+def cargar():
+    if not os.path.exists(ARCHIVO):
+        return []
+    return json.load(open(ARCHIVO, encoding='utf-8'))
+
+
+def guardar(cola):
+    tmp = ARCHIVO + '.tmp'
+    json.dump(cola, open(tmp, 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
+    os.replace(tmp, ARCHIVO)
+
+
+def ahora():
+    return datetime.datetime.now().isoformat(timespec='minutes')
+
+
+def buscar(cola, slug):
+    return next((v for v in cola if v['slug'] == slug), None)
+
+
+def cambiar_estado(slug, estado, motivo=''):
+    assert estado in ESTADOS, estado
+    cola = cargar()
+    v = buscar(cola, slug)
+    if v is None:
+        sys.exit(f'No está {slug} en la cola')
+    v['estado'] = estado
+    v['historial'] = v.get('historial', []) + [{'estado': estado, 'cuando': ahora(), 'motivo': motivo}]
+    guardar(cola)
+
+
+VIGENCIA_ACTUALIDAD_H = 48  # un tema del momento que no salió en 48 h ya no rinde
+
+
+def agregar(slug, tema, estado='idea', actualidad=False):
+    cola = cargar()
+    if buscar(cola, slug):
+        sys.exit(f'{slug} ya está en la cola')
+    v = {'slug': slug, 'tema': tema, 'estado': estado,
+         'historial': [{'estado': estado, 'cuando': ahora(), 'motivo': ''}]}
+    if actualidad:
+        v['prioridad'] = 'actualidad'
+        v['creado'] = ahora()
+    cola.append(v)
+    guardar(cola)
+
+
+def vencido(v):
+    if v.get('prioridad') != 'actualidad':
+        return False
+    creado = datetime.datetime.fromisoformat(v.get('creado') or v['historial'][0]['cuando'])
+    return datetime.datetime.now() - creado > datetime.timedelta(hours=VIGENCIA_ACTUALIDAD_H)
+
+
+def proximo_listo():
+    """Primero los temas del momento (todavía vigentes); después el listo más viejo."""
+    listos = [v for v in cargar() if v['estado'] == 'listo']
+    for v in listos:
+        if vencido(v):
+            cambiar_estado(v['slug'], 'apartado', f'tema de actualidad vencido (más de {VIGENCIA_ACTUALIDAD_H} h)')
+    listos = [v for v in cargar() if v['estado'] == 'listo']
+    return next((v for v in listos if v.get('prioridad') == 'actualidad'), None) or (listos[0] if listos else None)
+
+
+def mostrar():
+    for v in cargar():
+        marca = '🔥' if v.get('prioridad') == 'actualidad' else '  '
+        print(f"{v['estado']:<11} {marca} {v['slug']:<28} {v.get('tema', '')}")
+
+
+if __name__ == '__main__':
+    sys.stdout.reconfigure(encoding='utf-8')
+    a = sys.argv[1:]
+    if not a:
+        mostrar()
+    elif a[0] == 'estado':
+        cambiar_estado(a[1], a[2], ' '.join(a[3:]))
+    elif a[0] == 'agregar':
+        agregar(a[1], a[2], actualidad='--actualidad' in a)
+        if '--actualidad' in a:
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            from avisar import avisar
+            avisar('🔥 Tema del momento detectado', f'{a[2]}\nSe está produciendo y sale en el próximo turno.', 'default')
+    else:
+        sys.exit(__doc__)

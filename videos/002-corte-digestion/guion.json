@@ -1,0 +1,24 @@
+{
+  "titulo": "¿Hay que esperar dos horas para meterse al agua después de comer?",
+  "fuentes": [
+    "Cruz Roja Americana, Scientific Advisory Council (2011): revisión de la literatura, sin casos de ahogamiento atribuidos a nadar después de comer",
+    "Chequeado — ¿Hay que esperar una hora para meterse al agua después de comer?: https://chequeado.com/mitos-y-enganos/hay-que-esperar-una-hora-para-meterse-al-agua-despues-de-comer/",
+    "Infobae/Washington Post (2025): el desvío de sangre al estómago es mínimo (experto de UCLA)",
+    "Origen: Scouting for Boys (1908), advertencia de no bañarse 'muy poco después de comer' (Mental Floss, WBUR, CBS8 Verify)",
+    "Estudio australiano 2005: más riesgo de puntada (flato) con menos de 2 h tras comida abundante, sin peligro grave",
+    "CDC (fact sheet archivado y MMWR 1991): alcohol presente en 25–50% de las muertes de adolescentes y adultos en recreación acuática"
+  ],
+  "frases": [
+    {"texto": "¿Esperás dos horas después de comer para meterte a la pileta?", "estilo": "Intriga, como quien está por desarmar algo que todos creen."},
+    {"texto": "Te comiste un verso.", "estilo": "Canchero y seco, con media sonrisa."},
+    {"texto": "El corte de digestión, así como te lo contaron, no existe.", "estilo": "Firme, revelando algo."},
+    {"texto": "La idea era que, al comer, la sangre se va toda a la panza y los músculos se quedan sin nada.", "estilo": "Explicando claro, con un poco de ironía."},
+    {"texto": "Pero lo que se desvía es poquito: los brazos y las piernas siguen funcionando perfecto.", "estilo": "Tranquilizador, claro."},
+    {"texto": "La Cruz Roja de Estados Unidos revisó décadas de estudios, y no encontró ni un solo ahogado por nadar después de comer.", "estilo": "Enfático, como revelando un dato fuerte."},
+    {"texto": "¿Y de dónde salió? Ya aparece en un manual de los Boy Scouts de mil novecientos ocho.", "estilo": "Curioso, conversacional, con gracia."},
+    {"texto": "Ojo: después de un asado tremendo, te puede dar una puntada al costado.", "estilo": "Advertencia amable."},
+    {"texto": "Es incómodo, no peligroso. Nadá tranqui y listo.", "estilo": "Canchero, tranquilizador."},
+    {"texto": "Lo que sí es peligroso de verdad es el alcohol: aparece en una buena parte de los ahogamientos de adultos.", "estilo": "Serio, firme, sin dramatizar."},
+    {"texto": "Mandáselo a ese que te tenía dos horas en la reposera mirando el agua.", "estilo": "Cómplice, con humor."}
+  ]
+}

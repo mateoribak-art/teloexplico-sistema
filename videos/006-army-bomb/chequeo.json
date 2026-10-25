@@ -1,0 +1,78 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segunda revisión, después de los cambios. El registro de asiento ahora es una práctica general ('En muchos shows'). Que en esta gira alcanzaba con prender la varita se apoya en Lima (Infobae Perú 06/10/2026, RPP) y en lightstick.shop: en muchas fechas ARIRANG en estadio, el lugar controla cada Ver.4 apenas se prende, sin emparejar. La frase del píxel quedó condicionada. No hay nada falso y lo probable está dicho con matiz. Opcional, no bloquea: (a) en esta gira solo la ARMY Bomb Ver.4 se sincroniza, así que 'cada varita' simplifica un poco. (b) En el caption, 'Resultado: ... cada fan es un píxel' viene justo después del registro de asiento, así que se lee como consecuencia de ese método y está bien así. (c) La fuente de 'varios estadios' es lightstick.shop; Infobae Perú y RPP cubren solo Lima. Se puede sumar a fuentes, pero no es obligatorio.",
+  "afirmaciones": [
+    {
+      "texto": "Fueron tres noches de BTS en el Estadio Único de La Plata (caption: 'las tres noches').",
+      "fuente": "Notife 22/10/2026 ('el primero de los tres shows de BTS en el Estadio Único de La Plata'); 0221.com.ar (21, 23 y 24 de octubre); Examedia (el sábado 24 es el 'tercer y último concierto'); Infobae 22/10/2026.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Las ARMY Bomb iluminaron tribunas y campo y cambiaron de color todas juntas en esos shows.",
+      "fuente": "Infobae 22/10/2026 y Notife ('las Army Bomb iluminaban las tribunas y el campo'; con 'Please' e 'Into the Sun' 'cambiaron de color'); TodoJujuy 22/10/2026; La Tecla Patagonia 20/10/2026 (en La Plata 'se sincronizan automáticamente', con un sistema 'controlado por la producción del concierto').",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Esa varita no la maneja nadie de la tribuna / el color no lo elegiste vos: te lo mandó una consola.",
+      "fuente": "Infobae Perú 06/10/2026: la sincronización es automática y sigue secuencias programadas. Los cambios manuales del fan no se vinculan al show. Excélsior 08/05/2026: 'una consola central de control lumínico toma el mando de cada dispositivo'. Lo demás es remate humorístico.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En muchos shows, antes de empezar, cada fan carga en una aplicación su sección, su fila y su asiento (caption: 'En muchos shows, cada fan registra en una app...').",
+      "fuente": "Excélsior 29/04/2026 ('Al ingresar su sección, fila y asiento en la app, el sistema sabe exactamente dónde se encuentra cada dispositivo') y 08/05/2026 (fila y asiento). Arirang Tour Merch y lightstick.shop: en algunas fechas se vincula la varita al asiento por app o en un stand del estadio. Ahora está dicho como práctica general, no como algo que pasó en La Plata.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Así el sistema arma un mapa del estadio y sabe dónde está cada varita.",
+      "fuente": "Excélsior 29/04/2026, para el método con asiento registrado. Como viene después de 'En muchos shows...', queda dentro de ese caso.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En esta gira, en varios estadios alcanzaba con prenderla: la producción la toma sola (caption: paréntesis equivalente).",
+      "fuente": "lightstick.shop (actualizado 22/10/2026): 'at many ARIRANG stadium dates, the venue drives every Ver.4 once it's switched on, with no pairing needed'. RPP e Infobae Perú: en Lima 'no será necesario realizar un emparejamiento individual por asiento' y alcanza con encenderla. La Tecla Patagonia: en La Plata, sistema 'controlado por la producción'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Durante el show, una consola central manda las órdenes a todas a la vez (caption: 'por señal inalámbrica').",
+      "fuente": "Excélsior 08/05/2026 ('una consola central de control lumínico toma el mando de cada dispositivo'); Excélsior 29/04/2026 ('un sistema centralizado', transmisores que mandan paquetes a todos a la vez); La Tecla Patagonia ('sistema inalámbrico controlado por la producción').",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Cada varita tiene un receptor inalámbrico que obedece en milisegundos.",
+      "fuente": "Excélsior 08/05/2026: RF y BLE, con antenas de 2,4 GHz que 'reciben órdenes en milisegundos'. Detalle: en esta gira solo la Ver.4 se sincroniza (Infobae Perú; e-consulta 05/02/2026).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y cuando el sistema sabe dónde está cada una, la tribuna entera se vuelve una pantalla gigante: cada fan es un píxel.",
+      "fuente": "Excélsior 29/04/2026 ('una pantalla gigante de pixeles humanos') y 08/05/2026 ('pixeles humanos'). Ahora está condicionada correctamente.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Así arman olas de color, figuras y hasta palabras escritas con el público.",
+      "fuente": "Excélsior 08/05/2026 ('olas de colores, patrones geométricos e incluso escribiendo mensajes masivos'); Excélsior 29/04/2026 ('escribir el nombre del grupo con luces en las gradas'); La Tecla Patagonia (olas, degradados y figuras en La Plata). Se presenta como capacidad general.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: con miles de celulares juntos, el Bluetooth se puede trabar. Por eso muchas producciones usan señales de radio propias (caption: frecuencias que no interfieren con el wifi ni los celulares).",
+      "fuente": "Excélsior 29/04/2026: 'la saturación de señales Bluetooth en un espacio cerrado puede causar retrasos o fallos en la conexión'; algunos ingenieros prefieren radio porque sus frecuencias 'no interfieren con el Wi-Fi o los celulares'. Viene de una sola nota de divulgación, pero está dicho con matiz ('se puede', 'muchas').",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El violeta como color de BTS (cierre en broma).",
+      "fuente": "Excélsior, '¿Por qué el morado representa a BTS?'; 'borahae / I purple you', frase de V (2016). Es un chiste, pero no dice nada falso.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

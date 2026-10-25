@@ -1,0 +1,48 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones factuales del guion y del caption quedaron verificadas contra fuentes externas (NSSL/NOAA National Weather Service, National Geographic, SMN y cobertura de la temporada de tormentas convectivas en Argentina). No hay afirmaciones falsas. La objecion del chequeo anterior (la velocidad de caida presentada como regla general firme) quedo resuelta: la frase 7 ahora dice 'el granizo mas grande cae como un misil: puede pasar los ciento cincuenta por hora', con el calificador 'el mas grande' y el modal 'puede', lo que coincide con la fuente (NSSL/NWS: granizo mayor a 4 pulgadas puede caer a mas de 100 mph / ~160 km/h). La cifra de updrafts que pasan los 100 km/h en las peores tormentas tambien esta dentro de lo que reportan NSSL/NOAA (supercelulas superiores a 100 mph / ~160 km/h). El matiz honesto (el calor solo no alcanza, tambien hace falta aire muy frio en altura) esta presente tanto en el guion como en el caption. Se cumplen todas las reglas.",
+  "afirmaciones": [
+    {
+      "texto": "El calor no frena el granizo, lo fabrica: el calor en superficie favorece su formacion (conveccion e inestabilidad).",
+      "fuente": "NSSL/NOAA Severe Weather 101: Hail Basics (https://www.nssl.noaa.gov/education/svrwx101/hail/)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El sol calienta el piso, el aire caliente sube como un globo (conveccion) y esa corriente empuja las gotas bien alto, donde hace un frio bajo cero.",
+      "fuente": "NSSL/NOAA Severe Weather 101: Hail Basics; National Geographic Education: Hail (https://education.nationalgeographic.org/resource/hail-ee/)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La gota se congela, baja un toque, se le pega mas agua (superenfriada) y vuelve a subir; sube y baja varias veces sumando capas, como una cebolla de hielo, hasta que pesa demasiado y cae.",
+      "fuente": "NSSL/NOAA Severe Weather 101: Hail Basics (capas tipo cebolla por ciclos de ascenso/descenso y accrecion de gotas superenfriadas)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En las peores tormentas (supercelulas) la corriente de aire ascendente pasa los cien kilometros por hora.",
+      "fuente": "NOAA JetStream Types of Thunderstorms y NSSL: updrafts de supercelda superiores a 100 mph (~160 km/h) (https://www.noaa.gov/jetstream/tstrmtypes)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El granizo mas grande cae como un misil: puede pasar los ciento cincuenta kilometros por hora.",
+      "fuente": "NSSL/NOAA Severe Weather 101 y NWS: el granizo mayor a 4 pulgadas puede caer a mas de 100 mph (~160 km/h); los mas grandes registrados cerca de 100 mph (https://www.nssl.noaa.gov/education/svrwx101/hail/)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El granizo es cosa de primavera y verano: necesita ese calor de abajo para armarse.",
+      "fuente": "SMN (temporada de tormentas convectivas con granizo en primavera-verano en el centro/litoral de Argentina); cobertura de la temporada 2026 (https://climaar.com.ar/temporada-tormentas-granizo-2026/)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El calor solo no alcanza: tambien tiene que haber aire muy frio en altura.",
+      "fuente": "NSSL/NOAA Severe Weather 101: Hail Basics (el crecimiento del granizo requiere la zona de -10 a -25 C sostenida por el updraft)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

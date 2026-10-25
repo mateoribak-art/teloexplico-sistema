@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=JetBrains+Mono:wght@500;700&family=Instrument+Sans:wght@500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #222; }
+  .frame { width: 1080px; height: 1920px; position: relative; overflow: hidden; display: none; }
+  body.a #a, body.b #b, body.c #c, body.d #d { display: block; }
+
+  .logo { position: absolute; top: 230px; left: 0; right: 0; text-align: center; font-size: 46px; letter-spacing: -1px; }
+  .logo svg { width: 40px; height: 40px; vertical-align: -6px; margin-left: 4px; }
+  .label { position: absolute; top: 320px; left: 0; right: 0; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 26px; letter-spacing: 3px; text-transform: uppercase; }
+  .title { position: absolute; top: 400px; left: 90px; right: 90px; text-align: center; line-height: 1.02; }
+  .title .q { font-size: 64px; display: block; margin-bottom: 18px; }
+  .title .a { font-size: 132px; display: block; letter-spacing: -4px; }
+  .scene { position: absolute; top: 760px; left: 140px; width: 800px; height: 560px; }
+  .cap { position: absolute; top: 1420px; left: 80px; right: 80px; text-align: center; font-size: 60px; }
+  .src { position: absolute; top: 1520px; left: 0; right: 0; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 22px; opacity: .55; }
+
+  /* A · Pizarrón */
+  #a { background: radial-gradient(ellipse at 50% 40%, #1A4238 0%, #102A24 70%); color: #F3EBDD; font-family: 'Bricolage Grotesque', sans-serif; }
+  #a .logo { font-weight: 800; }
+  #a .label { color: #9FC9B5; }
+  #a .q { color: #9FC9B5; font-weight: 500; }
+  #a .a { color: #FF7A59; font-weight: 800; }
+  #a .cap { font-weight: 800; }
+  #a .cap em { font-style: normal; color: #FF7A59; }
+
+  /* B · Cuaderno */
+  #b { background-color: #F5F0E6; color: #161616; font-family: 'Bricolage Grotesque', sans-serif;
+       background-image: linear-gradient(#E3DCCB 2px, transparent 2px), linear-gradient(90deg, #E3DCCB 2px, transparent 2px);
+       background-size: 60px 60px; background-position: -2px -2px; }
+  #b .logo { font-weight: 800; }
+  #b .label { color: #2F5BFF; }
+  #b .q { color: #555; font-weight: 500; }
+  #b .a { color: #161616; font-weight: 800; }
+  #b .a span { background: linear-gradient(transparent 55%, #FFD84D 55%, #FFD84D 92%, transparent 92%); padding: 0 10px; }
+  #b .cap { font-weight: 800; }
+  #b .cap em { font-style: normal; color: #2F5BFF; }
+
+  /* C · Celeste */
+  #c { background: radial-gradient(ellipse at 50% 35%, #12233A 0%, #08111E 75%); color: #EAF2FF; font-family: 'Space Grotesk', sans-serif; }
+  #c .logo { font-weight: 700; }
+  #c .label { color: #74C7FF; }
+  #c .q { color: #9DB3CC; font-weight: 500; }
+  #c .a { color: #74C7FF; font-weight: 700; }
+  #c .cap { font-weight: 700; }
+  #c .cap em { font-style: normal; color: #74C7FF; }
+
+  /* D · Cuaderno pop: la B llevada al máximo de estímulo */
+  #d { background-color: #FFF6E5; color: #111; font-family: 'Bricolage Grotesque', sans-serif;
+       background-image: linear-gradient(#F0E3C8 2px, transparent 2px), linear-gradient(90deg, #F0E3C8 2px, transparent 2px);
+       background-size: 60px 60px; background-position: -2px -2px; }
+  #d .logo { font-weight: 800; font-size: 50px; }
+  #d .label { top: 318px; }
+  #d .label span { display: inline-block; background: #2E4BFF; color: #fff; padding: 8px 18px; border: 4px solid #111; border-radius: 12px; box-shadow: 5px 5px 0 #111; font-weight: 700; }
+  #d .title { top: 410px; }
+  #d .q { color: #111; font-weight: 800; font-size: 70px; }
+  #d .a { font-weight: 800; font-size: 160px; transform: rotate(-2.5deg); }
+  #d .a span { background: linear-gradient(transparent 50%, #FFE14D 50%, #FFE14D 94%, transparent 94%); padding: 0 12px; }
+  #d .sello { position: absolute; top: 760px; right: 70px; transform: rotate(12deg); background: #FF4D2E; color: #fff; font-weight: 800; font-size: 54px;
+              padding: 10px 26px; border: 5px solid #111; border-radius: 18px; box-shadow: 7px 7px 0 #111; letter-spacing: 2px; }
+  #d .cap { top: 1430px; }
+  #d .cap b { display: inline-block; background: #fff; border: 5px solid #111; border-radius: 22px; box-shadow: 8px 8px 0 #111; padding: 14px 28px; font-weight: 800; font-size: 62px; }
+  #d .cap em { font-style: normal; background: #2E4BFF; color: #fff; border-radius: 12px; padding: 0 12px; }
+  #d .src { top: 1580px; opacity: .7; }
+</style>
+</head>
+<body>
+
+<!-- burbuja de diálogo: el "signo" de la marca, reemplaza al punto final -->
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="burbuja" viewBox="0 0 40 40"><path d="M6 4h28a4 4 0 0 1 4 4v18a4 4 0 0 1-4 4H17l-9 7v-7H6a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4z" fill="currentColor"/></symbol>
+</svg>
+
+<!-- A · PIZARRÓN -->
+<div class="frame" id="a">
+  <div class="logo">te lo explico<svg style="color:#FF7A59"><use href="#burbuja"/></svg></div>
+  <div class="label">// el mito</div>
+  <div class="title"><span class="q">¿dejás enfriar la comida?</span><span class="a">es al revés.</span></div>
+  <svg class="scene" viewBox="0 0 800 560">
+    <!-- heladera -->
+    <rect x="470" y="40" width="230" height="460" rx="26" fill="none" stroke="#F3EBDD" stroke-width="8"/>
+    <line x1="470" y1="200" x2="700" y2="200" stroke="#F3EBDD" stroke-width="8"/>
+    <rect x="490" y="110" width="10" height="60" rx="5" fill="#F3EBDD"/><rect x="490" y="230" width="10" height="90" rx="5" fill="#F3EBDD"/>
+    <!-- olla con vapor -->
+    <rect x="110" y="330" width="230" height="140" rx="20" fill="#FF7A59"/>
+    <rect x="90" y="315" width="270" height="26" rx="13" fill="#F3EBDD"/>
+    <path d="M160 290c-20-30 20-40 0-70M225 290c-20-30 20-40 0-70M290 290c-20-30 20-40 0-70" stroke="#9FC9B5" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- cara -->
+    <circle cx="190" cy="400" r="10" fill="#102A24"/><circle cx="260" cy="400" r="10" fill="#102A24"/>
+    <path d="M200 435q25 18 50 0" stroke="#102A24" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <!-- mesada -->
+    <line x1="40" y1="500" x2="420" y2="500" stroke="#9FC9B5" stroke-width="6" stroke-dasharray="14 12"/>
+    <text x="230" y="545" text-anchor="middle" font-family="JetBrains Mono" font-size="24" fill="#9FC9B5">3 horas en la mesada</text>
+  </svg>
+  <div class="cap">las bacterias se <em>duplican</em></div>
+  <div class="src">fuente: ANMAT · USDA</div>
+</div>
+
+<!-- B · CUADERNO -->
+<div class="frame" id="b">
+  <div class="logo">te lo explico<svg style="color:#2F5BFF"><use href="#burbuja"/></svg></div>
+  <div class="label">// el mito</div>
+  <div class="title"><span class="q">¿dejás enfriar la comida?</span><span class="a"><span>es al revés.</span></span></div>
+  <svg class="scene" viewBox="0 0 800 560">
+    <rect x="470" y="40" width="230" height="460" rx="26" fill="#fff" stroke="#161616" stroke-width="8"/>
+    <line x1="470" y1="200" x2="700" y2="200" stroke="#161616" stroke-width="8"/>
+    <rect x="490" y="110" width="10" height="60" rx="5" fill="#161616"/><rect x="490" y="230" width="10" height="90" rx="5" fill="#161616"/>
+    <rect x="110" y="330" width="230" height="140" rx="20" fill="#2F5BFF" stroke="#161616" stroke-width="8"/>
+    <rect x="90" y="315" width="270" height="26" rx="13" fill="#161616"/>
+    <path d="M160 290c-20-30 20-40 0-70M225 290c-20-30 20-40 0-70M290 290c-20-30 20-40 0-70" stroke="#161616" stroke-width="7" fill="none" stroke-linecap="round" opacity=".5"/>
+    <circle cx="190" cy="400" r="10" fill="#fff"/><circle cx="260" cy="400" r="10" fill="#fff"/>
+    <path d="M200 435q25 18 50 0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <line x1="40" y1="500" x2="420" y2="500" stroke="#161616" stroke-width="6"/>
+    <rect x="70" y="518" width="320" height="38" fill="#FFD84D"/>
+    <text x="230" y="545" text-anchor="middle" font-family="JetBrains Mono" font-size="24" font-weight="700" fill="#161616">3 horas en la mesada</text>
+  </svg>
+  <div class="cap">las bacterias se <em>duplican</em></div>
+  <div class="src">fuente: ANMAT · USDA</div>
+</div>
+
+<!-- C · CELESTE -->
+<div class="frame" id="c">
+  <div class="logo">te lo explico<svg style="color:#74C7FF"><use href="#burbuja"/></svg></div>
+  <div class="label">// el mito</div>
+  <div class="title"><span class="q">¿dejás enfriar la comida?</span><span class="a">es al revés.</span></div>
+  <svg class="scene" viewBox="0 0 800 560">
+    <rect x="470" y="40" width="230" height="460" rx="26" fill="#12233A" stroke="#EAF2FF" stroke-width="6"/>
+    <line x1="470" y1="200" x2="700" y2="200" stroke="#EAF2FF" stroke-width="6"/>
+    <rect x="490" y="110" width="10" height="60" rx="5" fill="#EAF2FF"/><rect x="490" y="230" width="10" height="90" rx="5" fill="#EAF2FF"/>
+    <rect x="110" y="330" width="230" height="140" rx="20" fill="#74C7FF"/>
+    <rect x="90" y="315" width="270" height="26" rx="13" fill="#EAF2FF"/>
+    <path d="M160 290c-20-30 20-40 0-70M225 290c-20-30 20-40 0-70M290 290c-20-30 20-40 0-70" stroke="#9DB3CC" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <circle cx="190" cy="400" r="10" fill="#08111E"/><circle cx="260" cy="400" r="10" fill="#08111E"/>
+    <path d="M200 435q25 18 50 0" stroke="#08111E" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <line x1="40" y1="500" x2="420" y2="500" stroke="#9DB3CC" stroke-width="5" stroke-dasharray="14 12"/>
+    <text x="230" y="545" text-anchor="middle" font-family="JetBrains Mono" font-size="24" fill="#9DB3CC">3 horas en la mesada</text>
+  </svg>
+  <div class="cap">las bacterias se <em>duplican</em></div>
+  <div class="src">fuente: ANMAT · USDA</div>
+</div>
+
+<!-- D · CUADERNO POP -->
+<div class="frame" id="d">
+  <div class="logo">te lo explico<svg style="color:#2E4BFF"><use href="#burbuja"/></svg></div>
+  <div class="label"><span>// el mito</span></div>
+  <div class="title"><span class="q">¿dejás enfriar la comida?</span><span class="a"><span>es al revés.</span></span></div>
+  <div class="sello">MITO</div>
+  <svg class="scene" viewBox="0 0 800 560" style="top:820px">
+    <!-- rayos de "sorpresa" -->
+    <g stroke="#111" stroke-width="7" stroke-linecap="round">
+      <line x1="225" y1="150" x2="225" y2="105"/><line x1="140" y1="180" x2="110" y2="148"/><line x1="310" y1="180" x2="340" y2="148"/>
+    </g>
+    <!-- heladera con sombra dura -->
+    <rect x="482" y="52" width="230" height="460" rx="26" fill="#111"/>
+    <rect x="470" y="40" width="230" height="460" rx="26" fill="#fff" stroke="#111" stroke-width="9"/>
+    <line x1="470" y1="200" x2="700" y2="200" stroke="#111" stroke-width="9"/>
+    <rect x="490" y="110" width="12" height="60" rx="6" fill="#111"/><rect x="490" y="230" width="12" height="90" rx="6" fill="#111"/>
+    <!-- olla roja con cara de preocupada -->
+    <rect x="122" y="342" width="230" height="140" rx="20" fill="#111"/>
+    <rect x="110" y="330" width="230" height="140" rx="20" fill="#FF4D2E" stroke="#111" stroke-width="9"/>
+    <rect x="90" y="312" width="270" height="30" rx="15" fill="#111"/>
+    <path d="M160 290c-20-30 20-40 0-70M225 290c-20-30 20-40 0-70M290 290c-20-30 20-40 0-70" stroke="#111" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <circle cx="190" cy="395" r="16" fill="#fff" stroke="#111" stroke-width="5"/><circle cx="260" cy="395" r="16" fill="#fff" stroke="#111" stroke-width="5"/>
+    <circle cx="193" cy="398" r="6" fill="#111"/><circle cx="263" cy="398" r="6" fill="#111"/>
+    <path d="M200 445q25 -16 50 0" stroke="#111" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <line x1="40" y1="500" x2="420" y2="500" stroke="#111" stroke-width="7"/>
+    <!-- etiqueta del reloj -->
+    <rect x="60" y="516" width="340" height="42" rx="10" fill="#FFE14D" stroke="#111" stroke-width="4"/>
+    <text x="230" y="545" text-anchor="middle" font-family="JetBrains Mono" font-size="24" font-weight="700" fill="#111">⏱ 3 horas en la mesada</text>
+  </svg>
+  <div class="cap"><b>las bacterias se <em>duplican</em></b></div>
+  <div class="src">fuente: ANMAT · USDA</div>
+</div>
+
+<script>document.body.className = (location.hash || '#a').slice(1);</script>
+</body>
+</html>

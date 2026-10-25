@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1080px; height: 1080px; overflow: hidden; }
+  .foto { width: 1080px; height: 1080px; position: relative; }
+  /* a: amarillo + burbuja azul · b: papel + burbuja azul · c: azul + burbuja blanca */
+  body.a .foto { background: #FFE14D; --cuerpo: #2E4BFF; }
+  body.b .foto { background-color: #FFF6E5; --cuerpo: #2E4BFF;
+       background-image: linear-gradient(#F0E3C8 4px, transparent 4px), linear-gradient(90deg, #F0E3C8 4px, transparent 4px);
+       background-size: 108px 108px; background-position: -2px -2px; }
+  body.c .foto { background: #2E4BFF; --cuerpo: #FFFFFF; }
+  .cuerpo { fill: var(--cuerpo); }
+
+  /* vista previa: cómo se ve en círculo y a tamaño real */
+  body.prev { width: 1200px; height: 520px; background: #fff; display: flex; flex-wrap: wrap; gap: 40px; padding: 30px; align-items: center; }
+  body.prev .foto { display: none; }
+  .circ { border-radius: 50%; overflow: hidden; border: 1px solid #ddd; }
+</style>
+</head>
+<body class="a">
+<div class="foto">
+  <svg viewBox="0 0 1080 1080" width="1080" height="1080">
+    <!-- sombra dura -->
+    <path transform="translate(36 36)" d="M250 230h580a90 90 0 0 1 90 90v330a90 90 0 0 1-90 90H520l-190 150v-150h-80a90 90 0 0 1-90-90V320a90 90 0 0 1 90-90z" fill="#111"/>
+    <path class="cuerpo" d="M250 230h580a90 90 0 0 1 90 90v330a90 90 0 0 1-90 90H520l-190 150v-150h-80a90 90 0 0 1-90-90V320a90 90 0 0 1 90-90z" stroke="#111" stroke-width="26" stroke-linejoin="round"/>
+    <!-- ojos -->
+    <circle cx="430" cy="440" r="72" fill="#fff" stroke="#111" stroke-width="20"/>
+    <circle cx="650" cy="440" r="72" fill="#fff" stroke="#111" stroke-width="20"/>
+    <circle cx="448" cy="452" r="30" fill="#111"/>
+    <circle cx="668" cy="452" r="30" fill="#111"/>
+    <!-- ceja levantada: cara de "te lo explico" -->
+    <path d="M590 335 q60 -40 120 -8" fill="none" stroke="#111" stroke-width="20" stroke-linecap="round"/>
+    <!-- sonrisa canchera -->
+    <path d="M440 590 q120 70 210 -20" fill="none" stroke="#111" stroke-width="22" stroke-linecap="round"/>
+  </svg>
+</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=JetBrains+Mono:wght@700&display=block" rel="stylesheet">
+<style>
+  /* portada de la página de Facebook: 1640×624. En el celular se recortan los costados: lo importante va al centro */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1640px; height: 624px; overflow: hidden; background-color: #FFF6E5;
+         background-image: linear-gradient(#F0E3C8 2px, transparent 2px), linear-gradient(90deg, #F0E3C8 2px, transparent 2px);
+         background-size: 60px 60px; font-family: 'Bricolage Grotesque', sans-serif; color: #111; position: relative; }
+  .centro { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; gap: 44px; }
+  .textos { display: flex; flex-direction: column; align-items: flex-start; gap: 22px; }
+  .logo { font-weight: 800; font-size: 112px; line-height: 1; letter-spacing: -4px; white-space: nowrap; }
+  .resaltado { background: linear-gradient(transparent 52%, #FFE14D 52%, #FFE14D 92%, transparent 92%); padding: 0 8px; }
+  .bajada { font-weight: 800; font-size: 40px; white-space: nowrap; }
+  .pastilla { font-family: 'JetBrains Mono', monospace; font-size: 26px; white-space: nowrap; background: #2E4BFF; color: #fff;
+              border: 5px solid #111; border-radius: 40px; padding: 10px 24px; box-shadow: 7px 7px 0 #111; }
+  .sello { position: absolute; font-weight: 800; font-size: 46px; border: 7px solid #111; border-radius: 16px; padding: 6px 22px;
+           box-shadow: 8px 8px 0 #111; letter-spacing: 2px; }
+  .mito { background: #FF4D2E; color: #fff; left: 70px; top: 90px; transform: rotate(-9deg); }
+  .dato { background: #2BD67B; left: 150px; bottom: 100px; transform: rotate(6deg); }
+  .ojo  { background: #FFE14D; right: 90px; top: 110px; transform: rotate(8deg); }
+  .preg { position: absolute; right: 150px; bottom: 70px; font-weight: 800; font-size: 170px; color: #2E4BFF;
+          -webkit-text-stroke: 7px #111; text-shadow: 9px 9px 0 #111; transform: rotate(-10deg); }
+</style>
+</head>
+<body>
+  <div class="sello mito">MITO</div>
+  <div class="sello dato">DATO</div>
+  <div class="sello ojo">OJO</div>
+  <div class="preg">?</div>
+  <div class="centro">
+    <svg viewBox="150 220 810 790" width="230" height="224">
+      <path transform="translate(36 36)" d="M250 230h580a90 90 0 0 1 90 90v330a90 90 0 0 1-90 90H520l-190 150v-150h-80a90 90 0 0 1-90-90V320a90 90 0 0 1 90-90z" fill="#111"/>
+      <path d="M250 230h580a90 90 0 0 1 90 90v330a90 90 0 0 1-90 90H520l-190 150v-150h-80a90 90 0 0 1-90-90V320a90 90 0 0 1 90-90z" fill="#2E4BFF" stroke="#111" stroke-width="26" stroke-linejoin="round"/>
+      <circle cx="430" cy="440" r="72" fill="#fff" stroke="#111" stroke-width="20"/>
+      <circle cx="650" cy="440" r="72" fill="#fff" stroke="#111" stroke-width="20"/>
+      <circle cx="448" cy="452" r="30" fill="#111"/>
+      <circle cx="668" cy="452" r="30" fill="#111"/>
+      <path d="M590 335 q60 -40 120 -8" fill="none" stroke="#111" stroke-width="20" stroke-linecap="round"/>
+      <path d="M440 590 q120 70 210 -20" fill="none" stroke="#111" stroke-width="22" stroke-linecap="round"/>
+    </svg>
+    <div class="textos">
+      <div class="logo">te lo <span class="resaltado">explico</span></div>
+      <div class="bajada">Lo que todos creen… y no es así.</div>
+      <div class="pastilla">// un mito argentino por día, con fuentes</div>
+    </div>
+  </div>
+</body>
+</html>

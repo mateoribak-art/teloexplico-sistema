@@ -1,0 +1,44 @@
+{
+ "cuenta": {
+  "2026-10-24": {
+   "seguidores": 16,
+   "posts": 2
+  }
+ },
+ "reels": {
+  "18136292677646121": {
+   "slug": "004-olor-a-lluvia",
+   "publicado": "2026-10-24T18:46:20+0000",
+   "duracion": 58.7,
+   "ultimo": {
+    "views": 168,
+    "reach": 130,
+    "likes": 6,
+    "comments": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 7,
+    "ig_reels_avg_watch_time": 8666,
+    "ig_reels_video_view_total_time": 1187374,
+    "cuando": "2026-10-24T23:04"
+   }
+  },
+  "18567516820079365": {
+   "slug": "006-army-bomb",
+   "publicado": "2026-10-25T00:10:51+0000",
+   "duracion": 66.7,
+   "ultimo": {
+    "views": 1318,
+    "reach": 967,
+    "likes": 89,
+    "comments": 0,
+    "shares": 0,
+    "saved": 3,
+    "total_interactions": 96,
+    "ig_reels_avg_watch_time": 23985,
+    "ig_reels_video_view_total_time": 24105362,
+    "cuando": "2026-10-24T23:04"
+   }
+  }
+ }
+}

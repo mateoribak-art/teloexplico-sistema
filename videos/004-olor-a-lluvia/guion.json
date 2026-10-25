@@ -1,0 +1,21 @@
+{
+  "titulo": "¿Por qué la tierra huele así cuando llueve?",
+  "fuentes": [
+    "Bear & Thomas, Nature (1964): acuñan el término 'petrichor' para el olor de la lluvia sobre tierra seca",
+    "Geosmina: molécula producida por bacterias del suelo (sobre todo Streptomyces); el olfato humano la detecta en concentraciones mínimas, del orden de partes por billón",
+    "MIT — Joung & Buie, Nature Communications (2015): al impactar, la gota atrapa burbujas de aire que estallan y liberan aerosoles con el aroma; se generan más con lluvia suave o moderada que con lluvia intensa",
+    "Hipótesis evolutiva sobre la sensibilidad humana a la geosmina (seguir el olor a agua): presentada como versión, sin fuente primaria concluyente"
+  ],
+  "frases": [
+    {"texto": "¿Sentiste esta semana ese olor a tierra mojada cada vez que se larga a llover?", "estilo": "Intriga, como quien va a revelar algo que todos viven y nadie se explica."},
+    {"texto": "Lo que estás oliendo no es la lluvia. Son bacterias.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Ese olor tiene nombre: petricor. Lo bautizaron dos científicos australianos en los años sesenta.", "estilo": "Dato, conversacional, con un dejo de dato curioso."},
+    {"texto": "El que más pega es una molécula que se llama geosmina, que fabrican unas bacterias que viven en la tierra.", "estilo": "Explicando simple, como contándole a un amigo."},
+    {"texto": "Cuando la gota choca contra el suelo seco, atrapa una burbujita de aire que estalla y manda el aroma para arriba.", "estilo": "Mecanismo, claro y visual."},
+    {"texto": "Y tu nariz es tan fina para esto que lo detecta en cantidades mínimas, apenas unas partes por billón.", "estilo": "Enfático, revelando un dato fuerte."},
+    {"texto": "¿Por qué lo olemos tan bien? Se cree que nuestros antepasados seguían ese olor para encontrar agua.", "estilo": "Curioso, con matiz de versión, no de certeza."},
+    {"texto": "Ojo: el olor pega más fuerte con la llovizna finita que con el diluvio.", "estilo": "Advertencia divertida, dato que sorprende."},
+    {"texto": "Así que la próxima que digas qué lindo olor a lluvia, pensá que estás oliendo bacterias de la tierra.", "estilo": "Remate canchero, con gracia."},
+    {"texto": "Mandáselo a ese que sale al balcón, respira hondo y dice: ah, olor a lluvia.", "estilo": "Cómplice, con humor argentino."}
+  ]
+}

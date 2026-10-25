@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Publicar en TikTok · Te lo explico</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root { --papel:#FFF6E5; --cuad:#F0E3C8; --tinta:#111; --azul:#2E4BFF; --rojo:#FF4D2E; --amarillo:#FFE14D; --verde:#2BD67B; --gris:#8A8A8A; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:'Bricolage Grotesque',system-ui,sans-serif; color:var(--tinta); background:var(--papel);
+         background-image:linear-gradient(var(--cuad) 2px,transparent 2px),linear-gradient(90deg,var(--cuad) 2px,transparent 2px); background-size:48px 48px; }
+  header { display:flex; align-items:center; gap:14px; padding:18px 28px; }
+  header h1 { margin:0; font-size:30px; font-weight:800; }
+  header .sub { font-family:'JetBrains Mono',monospace; font-size:14px; background:var(--azul); color:#fff; border:3px solid var(--tinta); border-radius:10px; padding:4px 10px; box-shadow:3px 3px 0 var(--tinta); }
+  main { display:grid; grid-template-columns:320px 1fr; gap:24px; padding:0 28px 40px; max-width:1240px; }
+  .tarjeta { background:#fff; border:4px solid var(--tinta); border-radius:18px; box-shadow:6px 6px 0 var(--tinta); padding:18px; }
+  .lista { display:flex; flex-direction:column; gap:12px; }
+  .item { cursor:pointer; padding:12px 14px; border:3px solid var(--tinta); border-radius:14px; background:#fff; box-shadow:4px 4px 0 var(--tinta); font-weight:800; font-size:17px; }
+  .item.activo { background:var(--amarillo); }
+  .item small { display:block; font-family:'JetBrains Mono',monospace; font-weight:700; font-size:12px; color:#555; margin-top:4px; }
+  .chip { display:inline-block; font-family:'JetBrains Mono',monospace; font-size:11px; background:var(--verde); border:2px solid var(--tinta); border-radius:8px; padding:1px 6px; margin-left:6px; }
+  .cuenta { display:flex; align-items:center; gap:12px; margin-bottom:16px; }
+  .cuenta img { width:52px; height:52px; border-radius:50%; border:3px solid var(--tinta); object-fit:cover; background:var(--cuad); }
+  .cuenta b { font-size:20px; } .cuenta span { font-family:'JetBrains Mono',monospace; font-size:13px; color:#444; }
+  .panel { display:grid; grid-template-columns:300px 1fr; gap:22px; }
+  video { width:300px; aspect-ratio:9/16; border:4px solid var(--tinta); border-radius:16px; background:#000; }
+  label.tit { display:block; font-weight:800; font-size:16px; margin:14px 0 6px; }
+  textarea { width:100%; min-height:150px; font:500 15px 'Bricolage Grotesque',sans-serif; border:3px solid var(--tinta); border-radius:12px; padding:10px; resize:vertical; }
+  .contador { text-align:right; font-family:'JetBrains Mono',monospace; font-size:12px; color:#555; }
+  select { width:100%; font:800 16px 'Bricolage Grotesque',sans-serif; border:3px solid var(--tinta); border-radius:12px; padding:10px; background:#fff; }
+  .fila { display:flex; gap:18px; flex-wrap:wrap; }
+  .check { display:flex; align-items:center; gap:8px; font-weight:800; }
+  .check input { width:20px; height:20px; accent-color:var(--azul); }
+  .check.off { color:var(--gris); }
+  .ayuda { font-size:13px; color:#555; margin:4px 0 0; }
+  .aviso { font-size:14px; background:#FFF2C2; border:2px solid var(--tinta); border-radius:10px; padding:8px 10px; margin-top:8px; }
+  .error { background:#FFD9D2; }
+  .switch { display:flex; align-items:center; justify-content:space-between; gap:10px; font-weight:800; }
+  .legal { font-size:13px; color:#333; margin:16px 0 10px; }
+  .legal a { color:var(--azul); font-weight:800; }
+  button.publicar { width:100%; font:800 22px 'Bricolage Grotesque',sans-serif; color:#fff; background:var(--rojo); border:4px solid var(--tinta); border-radius:16px;
+                    padding:14px; box-shadow:6px 6px 0 var(--tinta); cursor:pointer; }
+  button.publicar:disabled { background:#C9C9C9; color:#666; cursor:not-allowed; box-shadow:3px 3px 0 var(--tinta); }
+  button.sec { font:800 18px 'Bricolage Grotesque',sans-serif; background:var(--azul); color:#fff; border:4px solid var(--tinta); border-radius:14px; padding:12px 18px; box-shadow:5px 5px 0 var(--tinta); cursor:pointer; }
+  .estado { font-family:'JetBrains Mono',monospace; font-size:14px; margin-top:12px; }
+  .oculto { display:none; }
+  @media (max-width: 900px) { main, .panel { grid-template-columns: 1fr; } video { width:100%; } }
+</style>
+</head>
+<body>
+<header>
+  <svg width="46" height="46" viewBox="0 0 40 40"><path d="M6 4h28a4 4 0 0 1 4 4v18a4 4 0 0 1-4 4H17l-9 7v-7H6a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4z" fill="#2E4BFF" stroke="#111" stroke-width="2.5"/></svg>
+  <h1>te lo explico</h1><span class="sub">// publicar en TikTok</span>
+</header>
+
+<main>
+  <section id="conectar" class="tarjeta oculto" style="grid-column:1/-1">
+    <h2 style="margin-top:0">Conectá tu cuenta de TikTok</h2>
+    <p id="conectar-texto">Para publicar, autorizá a <b>Te lo explico publicador</b> a acceder a tu información básica y a publicar videos en tu cuenta.</p>
+    <button class="sec" onclick="location.href='/login'">Conectar con TikTok</button>
+  </section>
+
+  <aside id="col-videos" class="oculto">
+    <div class="lista" id="lista"></div>
+  </aside>
+
+  <section id="col-publicar" class="tarjeta oculto">
+    <div class="cuenta">
+      <img id="avatar" alt="">
+      <div style="flex:1"><b id="nombre">…</b><br><span id="usuario"></span></div>
+      <a href="/logout" style="font-family:'JetBrains Mono',monospace;font-size:13px;color:#111">desconectar cuenta</a>
+    </div>
+    <div id="creador-error" class="aviso error oculto"></div>
+
+    <div class="panel">
+      <div>
+        <video id="previa" controls playsinline></video>
+        <div id="duracion-error" class="aviso error oculto"></div>
+      </div>
+      <div>
+        <label class="tit" for="titulo">Texto de la publicación</label>
+        <textarea id="titulo" maxlength="2200"></textarea>
+        <div class="contador"><span id="cuenta-car">0</span>/2200</div>
+
+        <label class="tit" for="privacidad">¿Quién puede ver este video?</label>
+        <select id="privacidad"><option value="" disabled selected>Elegí quién puede verlo</option></select>
+        <div id="priv-ayuda" class="ayuda oculto">El contenido de marca no puede ser privado.</div>
+
+        <label class="tit">Permitir que los usuarios…</label>
+        <div class="fila">
+          <label class="check" id="c-com"><input type="checkbox" id="comentarios"> Comenten</label>
+          <label class="check" id="c-duo"><input type="checkbox" id="duo"> Hagan dúo</label>
+          <label class="check" id="c-sti"><input type="checkbox" id="stitch"> Hagan stitch</label>
+        </div>
+
+        <label class="tit">Declaración de contenido</label>
+        <div class="switch">
+          <span>Este video promociona una marca, un producto o un servicio</span>
+          <input type="checkbox" id="divulgar" style="width:22px;height:22px">
+        </div>
+        <div id="opciones-marca" class="oculto">
+          <p class="ayuda">Si activás esto, tu video va a mostrar una etiqueta de contenido comercial.</p>
+          <label class="check"><input type="checkbox" id="tu-marca"> Tu marca <span class="ayuda">(promocionás tu propio negocio o producto)</span></label>
+          <div id="aviso-tu-marca" class="aviso oculto">Tu video se va a etiquetar como "Contenido promocional".</div>
+          <label class="check" style="margin-top:8px"><input type="checkbox" id="de-marca"> Contenido de marca <span class="ayuda">(promocionás a otra marca o a un tercero)</span></label>
+          <div id="aviso-de-marca" class="aviso oculto">Tu video se va a etiquetar como "Colaboración pagada".</div>
+          <div id="aviso-elegir" class="aviso error oculto">Tenés que indicar si el video promociona tu marca, a un tercero o ambos.</div>
+        </div>
+
+        <div class="aviso">Se publica con la etiqueta de TikTok de <b>contenido generado con IA</b> (la voz es sintética).</div>
+
+        <p class="legal" id="legal">Al publicar, aceptás la <a href="https://www.tiktok.com/legal/page/global/music-usage-confirmation/en" target="_blank">Confirmación de uso de música</a> de TikTok.</p>
+        <button class="publicar" id="btn" disabled>Publicar en TikTok</button>
+        <div class="estado" id="estado"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const NOMBRES = { PUBLIC_TO_EVERYONE: "Todos", MUTUAL_FOLLOW_FRIENDS: "Amigos", FOLLOWER_OF_CREATOR: "Seguidores", SELF_ONLY: "Solo yo" };
+let creador = null, videos = [], actual = null, duracionOk = true;
+
+async function api(ruta, opciones) {
+  const r = await fetch(ruta, opciones);
+  return r.json();
+}
+
+async function iniciar() {
+  const s = await api("/api/sesion");
+  if (!s.conectado || !s.puede_publicar) {
+    $("conectar").classList.remove("oculto");
+    if (s.conectado) $("conectar-texto").innerHTML = "Para publicar directo hace falta un permiso más: volvé a conectar la cuenta y aceptá <b>publicar videos</b>.";
+    return;
+  }
+  $("col-videos").classList.remove("oculto");
+  $("col-publicar").classList.remove("oculto");
+  await cargarCreador();
+  videos = await api("/api/videos");
+  $("lista").innerHTML = "";
+  videos.forEach((v, i) => {
+    const d = document.createElement("div");
+    d.className = "item";
+    d.innerHTML = `${v.tema}${v.publicado_tiktok ? '<span class="chip">ya en TikTok</span>' : ""}<small>${v.slug}</small>`;
+    d.onclick = () => elegir(i, d);
+    $("lista").appendChild(d);
+    if (i === 0) elegir(0, d);
+  });
+}
+
+async function cargarCreador() {
+  // se pide cada vez que se abre la pantalla: la cuenta, la privacidad y los permisos pueden cambiar
+  const r = await api("/api/creador");
+  if (!r.data || (r.error && r.error.code !== "ok")) {
+    const motivo = (r.error && (r.error.message || r.error.code)) || "sin respuesta";
+    $("creador-error").textContent = "Ahora TikTok no deja publicar desde esta cuenta (" + motivo + "). Probá de nuevo más tarde.";
+    $("creador-error").classList.remove("oculto");
+    creador = null;
+    validar();
+    return;
+  }
+  creador = r.data;
+  $("avatar").src = creador.creator_avatar_url || "";
+  $("nombre").textContent = creador.creator_nickname || "";
+  $("usuario").textContent = "Publicás en @" + (creador.creator_username || "");
+  const sel = $("privacidad");
+  sel.innerHTML = '<option value="" disabled selected>Elegí quién puede verlo</option>';
+  (creador.privacy_level_options || []).forEach((p) => {
+    const o = document.createElement("option");
+    o.value = p; o.textContent = NOMBRES[p] || p; sel.appendChild(o);
+  });
+  [["comentarios", "c-com", creador.comment_disabled], ["duo", "c-duo", creador.duet_disabled], ["stitch", "c-sti", creador.stitch_disabled]].forEach(([id, caja, off]) => {
+    $(id).checked = false; $(id).disabled = !!off; $(caja).classList.toggle("off", !!off);
+    $(caja).title = off ? "Desactivado en la configuración de tu cuenta de TikTok" : "";
+  });
+}
+
+function elegir(i, nodo) {
+  document.querySelectorAll(".item").forEach((x) => x.classList.remove("activo"));
+  nodo.classList.add("activo");
+  actual = videos[i];
+  $("previa").src = "/video/" + actual.slug;
+  $("titulo").value = actual.texto;
+  $("cuenta-car").textContent = actual.texto.length;
+  $("privacidad").value = "";
+  $("estado").textContent = "";
+  validar();
+}
+
+$("previa").addEventListener("loadedmetadata", () => {
+  const max = creador ? creador.max_video_post_duration_sec : 600;
+  duracionOk = $("previa").duration <= max;
+  $("duracion-error").textContent = duracionOk ? "" : `El video dura ${Math.round($("previa").duration)} s y tu cuenta permite hasta ${max} s.`;
+  $("duracion-error").classList.toggle("oculto", duracionOk);
+  validar();
+});
+$("titulo").addEventListener("input", () => { $("cuenta-car").textContent = $("titulo").value.length; validar(); });
+["privacidad", "divulgar", "tu-marca", "de-marca", "comentarios", "duo", "stitch"].forEach((id) => $(id).addEventListener("change", validar));
+
+function validar() {
+  const divulga = $("divulgar").checked;
+  $("opciones-marca").classList.toggle("oculto", !divulga);
+  if (!divulga) { $("tu-marca").checked = false; $("de-marca").checked = false; }
+  const tuMarca = $("tu-marca").checked, deMarca = $("de-marca").checked;
+  $("aviso-tu-marca").classList.toggle("oculto", !(tuMarca && !deMarca));
+  $("aviso-de-marca").classList.toggle("oculto", !deMarca);
+  $("aviso-elegir").classList.toggle("oculto", !(divulga && !tuMarca && !deMarca));
+  // el contenido de marca no puede ser "Solo yo"
+  const soloYo = [...$("privacidad").options].find((o) => o.value === "SELF_ONLY");
+  if (soloYo) {
+    soloYo.disabled = deMarca;
+    if (deMarca && $("privacidad").value === "SELF_ONLY") $("privacidad").value = "";
+  }
+  $("priv-ayuda").classList.toggle("oculto", !deMarca);
+  $("legal").innerHTML = deMarca
+    ? 'Al publicar, aceptás la <a href="https://www.tiktok.com/legal/page/global/bc-policy/en" target="_blank">Política de contenido de marca</a> y la <a href="https://www.tiktok.com/legal/page/global/music-usage-confirmation/en" target="_blank">Confirmación de uso de música</a> de TikTok.'
+    : 'Al publicar, aceptás la <a href="https://www.tiktok.com/legal/page/global/music-usage-confirmation/en" target="_blank">Confirmación de uso de música</a> de TikTok.';
+  const ok = creador && actual && duracionOk && $("privacidad").value && (!divulga || tuMarca || deMarca) && $("titulo").value.trim();
+  $("btn").disabled = !ok;
+  $("btn").title = !$("privacidad").value ? "Elegí quién puede ver el video" : (divulga && !tuMarca && !deMarca) ? "Tenés que indicar si el video promociona tu marca, a un tercero o ambos." : "";
+}
+
+$("btn").addEventListener("click", async () => {
+  $("btn").disabled = true;
+  $("estado").textContent = "Subiendo el video a TikTok…";
+  const r = await api("/api/publicar", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({
+    slug: actual.slug, titulo: $("titulo").value, privacidad: $("privacidad").value,
+    comentarios: $("comentarios").checked, duo: $("duo").checked, stitch: $("stitch").checked,
+    tu_marca: $("tu-marca").checked, contenido_marca: $("de-marca").checked, portada_ms: actual.portada_ms,
+  }) });
+  if (!r.publish_id) {
+    const txt = JSON.stringify(r.error || r);
+    $("estado").textContent = txt.includes("unaudited_client_can_only_post_to_private_accounts")
+      ? "TikTok todavía no aprobó esta app: mientras tanto solo puede publicar en cuentas privadas. Poné la cuenta en privado para probar."
+      : txt.includes("spam_risk") ? "TikTok frenó la publicación por demasiados posteos seguidos. Probá más tarde."
+      : "No se pudo publicar: " + txt;
+    validar(); return;
+  }
+  $("estado").textContent = "Video enviado. TikTok lo está procesando: puede tardar unos minutos en aparecer en tu perfil.";
+  const vigilar = setInterval(async () => {
+    const e = await api("/api/estado?id=" + encodeURIComponent(r.publish_id));
+    if (e.status === "PUBLISH_COMPLETE") { clearInterval(vigilar); $("estado").textContent = "✅ Publicado en TikTok. Ya debería verse en tu perfil."; }
+    else if (e.status === "FAILED") { clearInterval(vigilar); $("estado").textContent = "❌ TikTok no pudo publicarlo: " + (e.fail_reason || "motivo desconocido"); }
+    else $("estado").textContent = "Procesando en TikTok… (" + (e.status || "esperando") + "). Puede tardar unos minutos en aparecer en tu perfil.";
+  }, 3000);
+});
+
+iniciar();
+</script>
+</body>
+</html>

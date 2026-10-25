@@ -1,0 +1,19 @@
+﻿2026-10-24 10:30 Arranca el radar.
+Listo. Producción completa de punta a punta.
+
+## Qué hice
+
+**Radar (chequeo de media mañana):** el clima sigue siendo lo que vive todo el país, pero hoy **escaló**: alerta **naranja del SMN** por tormentas severas con **granizo** y ráfagas ~90 km/h en Misiones, Corrientes, Chaco y Formosa (hasta 150 mm), granizo ya caído en Misiones y Santa Fe, y Zonda en Salta. El video de la lluvia (`004-olor-a-lluvia`) ya se había hecho esta madrugada, así que busqué un ángulo nuevo.
+
+**Candidatos:**
+- **Granizo → ELEGIDO.** Cumple todo: lo vive/comenta mucha gente hoy, es noticia nacional, se chequea con SMN/NOAA, tiene giro fuerte ("cae hielo justo cuando hace calor… y el calor es el motor"), no es tragedia con víctimas humanas, y no estaba en la cola.
+- Viento Zonda en Salta → regional/nicho, descartado.
+- Tormentas eléctricas/rayos → es idea evergreen del banco, no actualidad pura, se guarda.
+
+**Producción (`005-granizo-calor`, prioridad actualidad):** investigación con fuentes → guion de 12 frases → **chequeo de datos por subagente** (rechazó la cifra "granizo grande a 150 km/h"; corregí a "el granizo **más grande** puede pasar los 150"; segunda pasada **aprobada**) → voz (61 s, 178/179 palabras) → escenas Remotion (agregué el dibujo `Piedra` al kit) → `tsc` limpio → revisión visual de 12 cuadros (corregí un globo que pisaba el subtítulo) → render 62,4 s → **control OK** → cola en `listo`. No publiqué nada (lo hace el publicador). Logs `radar.log` y `produccion.log` actualizados.
+
+---
+
+**Decidí producir el video de actualidad `005-granizo-calor` ("¿por qué cae granizo justo cuando hace calor?"), con el ángulo propio de que el calor es el motor que lo fabrica; quedó renderizado, chequeado y en estado `listo`.**
+
+2026-10-24 10:52 Termina el radar (código 0).
