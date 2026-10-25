@@ -16,3 +16,8 @@ portada: ok
 Error de la API de Facebook (400): Unsupported get request. Object with ID '1127120516567688' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api []
 2026-10-25 14:05 007-bts-13-anios en la bandeja de TikTok
 2026-10-25 14:05 007-bts-13-anios paquete para TikTok/YouTube enviado
+2026-10-25 19:32 005-granizo-calor apartado: la voz no coincide con el guion (88%)
+2026-10-25 19:34 001-heladera publicado: https://www.instagram.com/reel/De7yip0ExZI/
+2026-10-25 19:35 001-heladera publicado en Facebook: https://www.facebook.com/reel/1141016905051639/
+2026-10-25 19:35 001-heladera en la bandeja de TikTok
+2026-10-25 19:36 001-heladera no se pudo armar el paquete para TikTok/YouTube: <urlopen error [Errno 101] Network is unreachable>

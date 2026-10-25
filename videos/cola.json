@@ -2,7 +2,7 @@
  {
   "slug": "001-heladera",
   "tema": "¿Dejar enfriar la comida antes de la heladera?",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -13,6 +13,11 @@
     "estado": "listo",
     "cuando": "2026-10-24T00:34",
     "motivo": "producido y chequeado en sesión"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-25T19:34",
+    "motivo": "https://www.instagram.com/reel/De7yip0ExZI/"
    }
   ]
  },
@@ -145,7 +150,7 @@
  {
   "slug": "005-granizo-calor",
   "tema": "¿Por qué cae granizo justo cuando hace calor?",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -161,6 +166,11 @@
     "estado": "listo",
     "cuando": "2026-10-24T10:52",
     "motivo": "produccion por radar media manana"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-25T19:32",
+    "motivo": "la voz no coincide con el guion (88%)"
    }
   ],
   "prioridad": "actualidad",

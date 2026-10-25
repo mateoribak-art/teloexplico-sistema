@@ -1,0 +1,20 @@
+[
+ {
+  "titulo": "⚠️ Video apartado",
+  "mensaje": "005-granizo-calor no pasó el control y no se publica: la voz no coincide con el guion (88%)",
+  "prioridad": "default",
+  "link": null
+ },
+ {
+  "titulo": "✅ Publicado",
+  "mensaje": "¿Dejar enfriar la comida antes de la heladera?",
+  "prioridad": "baja",
+  "link": "https://www.instagram.com/reel/De7yip0ExZI/"
+ },
+ {
+  "titulo": "⚠️ Paquete TikTok/YouTube",
+  "mensaje": "No se pudo armar el de 001-heladera: <urlopen error [Errno 101] Network is unreachable>",
+  "prioridad": "default",
+  "link": null
+ }
+]
