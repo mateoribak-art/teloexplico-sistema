@@ -23,14 +23,23 @@ PLAN_B = 3   # con esto o menos listos y sin Claude, produce el plan B
 LIMITE = re.compile(r'(?i)(usage limit|limit reached|hit your (session |weekly |daily )?limit|session limit|weekly limit|rate limit|out of (extra )?usage|resets? (at|in|\d))')
 AHORA = datetime.datetime.now()
 
-PEDIDO = f"""Producción automática. Usá el skill producir-video y seguilo al pie de la letra (incluida la dirección de arte de marca/DIRECCION_ARTE.md).
+# en modo dontAsk solo corren los comandos de .claude/settings.json: un "| tail" o "; echo" de más hace que se niegue todo el comando
+TERMINAL = """REGLAS DE TERMINAL (corrida automática, nadie aprueba permisos):
+- Corré cada comando SOLO, tal cual: `./herramientas/tlx voz <slug>`, `./herramientas/tlx render <slug>`, etc.
+  Nada de `2>&1`, `| tail`, `| head`, `; echo`, `&&` ni `cd`: cualquier agregado hace que se niegue el comando entero.
+- Permitidos: ./herramientas/tlx (todos sus subcomandos), ls, cat, grep, mkdir, date, echo. Para leer archivos usá Read, Glob y Grep.
+- Podés crear y editar archivos en videos/** y motor/src/** con Write y Edit (incluidos los logs de videos/)."""
+
+PEDIDO = f"""{TERMINAL}
+
+Producción automática. Usá el skill producir-video y seguilo al pie de la letra (incluida la dirección de arte de marca/DIRECCION_ARTE.md).
 Producí 1 video completo. Si al terminar quedan menos de {META} videos listos en la cola y la cuota de Gemini no se agotó, producí otro (máximo 2 en total).
 Recordá el criterio de veracidad del skill: nada inventado, lo probable con matiz, salud/seguridad/plata solo verificado; el chequeo lo hace un subagente aparte.
 Al final escribí un resumen de 3 líneas: qué slugs quedaron listos, apartados o incompletos y por qué."""
-RADAR = ('Usá el skill radar-actualidad. Si encontrás un tema del momento que cumpla todos los criterios, producilo completo '
+RADAR = (TERMINAL + '\n\nUsá el skill radar-actualidad. Si encontrás un tema del momento que cumpla todos los criterios, producilo completo '
          'con el skill producir-video (prioridad actualidad). Si no, anotá los candidatos descartados y terminá. '
          'Al final, una línea con lo que decidiste.')
-COMENTARIOS = ('Usá el skill responder-comentarios y procesá todos los comentarios pendientes. '
+COMENTARIOS = (TERMINAL + '\n\nUsá el skill responder-comentarios y procesá todos los comentarios pendientes. '
                'Al final, una línea con cuántos respondiste, salteaste y alertaste.')
 
 
@@ -83,7 +92,7 @@ def claude(pedido, log, minutos):
         f.write(salida.strip()[-6000:] + '\n')
     if LIMITE.search(salida):
         escribir(log, 'LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.')
-    return codigo == 0 and not LIMITE.search(salida)
+    return codigo == 0 and not LIMITE.search(salida) and 'Permisos negados' not in salida
 
 
 def plan_b(log):
