@@ -208,7 +208,7 @@
  {
   "slug": "010-rayo-mismo-lugar",
   "tema": "¿Un rayo nunca cae dos veces en el mismo lugar?",
-  "estado": "apartado",
+  "estado": "produccion",
   "historial": [
    {
     "estado": "idea",
@@ -224,6 +224,11 @@
     "estado": "apartado",
     "cuando": "2026-10-25T06:43",
     "motivo": "prueba del plan B: revisar antes de publicar"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T06:44",
+    "motivo": "se repite la prueba del plan B (el video apartado no se había guardado)"
    }
   ]
  }

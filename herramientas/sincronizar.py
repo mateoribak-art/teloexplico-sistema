@@ -33,16 +33,16 @@ def subir_videos():
     for v in json.load(open(os.path.join(RAIZ, 'videos', 'cola.json'), encoding='utf-8')):
         subir = []
         video = os.path.join(RAIZ, 'videos', v['slug'], f"{v['slug']}.mp4")
-        if v['estado'] == 'listo' and f"{v['slug']}.mp4" not in en_release and os.path.exists(video):
+        if v['estado'] in ('listo', 'apartado') and f"{v['slug']}.mp4" not in en_release and os.path.exists(video):  # apartado: para poder revisarlo
             subir.append((video, f"{v['slug']}.mp4"))
         # la voz de un video a medias: así el próximo turno (en otra máquina) sigue sin gastar otro pedido de Gemini
         voz = os.path.join(RAIZ, 'motor', 'public', v['slug'], 'voz.wav')
-        if v['estado'] == 'produccion' and os.path.exists(voz) and en_release.get(f"{v['slug']}.voz.wav") != str(os.path.getsize(voz)):
+        if v['estado'] in ('produccion', 'apartado') and os.path.exists(voz) and en_release.get(f"{v['slug']}.voz.wav") != str(os.path.getsize(voz)):
             # gh sube con el nombre del archivo (todas se llaman voz.wav): se copia con el nombre final
             copia = os.path.join(tempfile.gettempdir(), f"{v['slug']}.voz.wav")
             shutil.copy(voz, copia)
             subir.append((copia, f"{v['slug']}.voz.wav"))
-        if v['estado'] != 'produccion' and f"{v['slug']}.voz.wav" in en_release:  # ya terminado: la voz suelta sobra
+        if v['estado'] in ('listo', 'publicado') and f"{v['slug']}.voz.wav" in en_release:  # ya terminado: la voz suelta sobra
             correr('gh', 'release', 'delete-asset', 'videos', f"{v['slug']}.voz.wav", '--yes')
         for local, nombre in subir:
             s = correr('gh', 'release', 'upload', 'videos', local, '--clobber')
