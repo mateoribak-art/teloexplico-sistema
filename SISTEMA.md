@@ -14,9 +14,9 @@ La notebook puede estar apagada o sin internet: solo hace falta para trabajar en
 |---|---|---|
 | 00:30, 06:30, 12:50 y 18:50 | Si hay menos de **10 videos listos** (5 días de colchón), Claude produce hasta 2 nuevos con el estilo de `marca/DIRECCION_ARTE.md`: elige tema, investiga, escribe, **chequea cada dato con fuentes en una pasada aparte**, genera la voz, anima, renderiza y controla. Si Claude no tiene cuota, el próximo turno (6 h después, otra ventana de cuota) lo reintenta; si además quedan 3 o menos listos, arranca el plan B. Si no hay nada que hacer, el turno termina en segundos. | Claude |
 | 10:30 | Radar de actualidad (temas del momento). | Claude |
-| 12:30 y 19:30 | Publica el próximo video listo en Instagram, en la página de Facebook y en la bandeja de TikTok. | Publicar |
+| 12:30 y 19:30 | Publica el próximo video listo en Instagram, en la página de Facebook y en la bandeja de TikTok. GitHub a veces arranca lo programado tarde o lo saltea (el 25/10 salteó el de las 12:30), así que cada turno tiene **5 intentos** (12:30, 12:47, 13:13, 13:41, 14:09 y lo mismo desde las 19:30): publica el primero que corre y los demás ven el turno cubierto. Además, la vigilancia lanza el publicador si un turno sigue sin cubrir 20 minutos después. | Publicar |
 | 14:30 y 22:00 | Si hay comentarios nuevos, Claude los responde (skill `responder-comentarios`); los pedidos de temas van a `videos/ideas.md`; si alguien marca un error, te avisa al celular sin responder. | Claude |
-| 21:05 | Resumen al celular con seguidores ganados en el día y el mejor reel (lee las métricas). | Resumen y vigilancia |
+| 21:05 (reintenta 21:35 y 22:05) | Resumen al celular con seguidores ganados en el día y el mejor reel (lee las métricas). | Resumen y vigilancia |
 | cada 2 h de 8 a 24 | Vigilancia: avisa si se perdió un turno, si la cola se vacía o si algo falló. | Resumen y vigilancia |
 
 Para correr algo a mano: *Actions* › elegir el flujo › *Run workflow* (Publicar tiene modo "probar": sube sin publicar).
