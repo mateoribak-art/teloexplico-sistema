@@ -1,5 +1,5 @@
 import React, { useId } from "react";
-import { C } from "./marca";
+import { C, display, mono } from "./marca";
 
 // Biblioteca "premium" de objetos (dirección de arte: marca/DIRECCION_ARTE.md).
 // Reglas comunes para que todo parezca dibujado por la misma mano:
@@ -679,6 +679,61 @@ export const Auto: React.FC<{ x: number; y: number; s?: number; color?: string; 
       </g>
       {rueda(-112)}
       {rueda(120)}
+    </Pos>
+  );
+};
+
+/* ===================================================================================== */
+/* AIRE ACONDICIONADO SPLIT (de pared) · origen: centro del cuerpo. Ancho base 460.        */
+/* Explica: tiene una aleta abajo por donde sale el aire (frío) y un display con el número  */
+/* elegido (17/24). `soplando` 0→1 abre la aleta; `temp` el número; `encendido` el LED.      */
+/* ===================================================================================== */
+export const AireSplit: React.FC<{
+  x: number; y: number; s?: number; t?: number; temp?: number; encendido?: boolean; soplando?: number; colorTemp?: string;
+}> = ({ x, y, s = 1, t = 0, temp, encendido = true, soplando = 1, colorTemp = C.verde }) => {
+  const u = useUid();
+  const W = 460;
+  const H = 160;
+  const aleteo = Math.sin(t / 9) * 1.5 * soplando;
+  const body = `M${-W / 2} ${-H / 2 + 20} Q${-W / 2} ${-H / 2} ${-W / 2 + 20} ${-H / 2} L${W / 2 - 20} ${-H / 2} Q${W / 2} ${-H / 2} ${W / 2} ${-H / 2 + 20} L${W / 2} ${H / 2 - 24} Q${W / 2} ${H / 2} ${W / 2 - 28} ${H / 2} L${-W / 2 + 28} ${H / 2} Q${-W / 2} ${H / 2} ${-W / 2} ${H / 2 - 24} Z`;
+  const slotX = -150, slotW = 300, slotY = H / 2 - 24;
+  return (
+    <Pos x={x} y={y} s={s}>
+      <defs>
+        <linearGradient id={`${u}b`} x1="0.15" y1="0" x2="0.85" y2="1">
+          <stop offset="0" stopColor="#FFFFFF" />
+          <stop offset="0.55" stopColor="#EAF0FF" />
+          <stop offset="1" stopColor={oscuro("#EAF0FF", 0.14)} />
+        </linearGradient>
+      </defs>
+      {/* sombra dura */}
+      <path d={body} fill={C.tinta} transform={`translate(${SOMBRA_D} ${SOMBRA_D})`} />
+      {/* cuerpo */}
+      <path d={body} fill={`url(#${u}b)`} stroke={C.tinta} strokeWidth={LINEA} strokeLinejoin="round" />
+      {/* rejilla superior (louvers decorativos) */}
+      <g stroke={oscuro("#EAF0FF", 0.18)} strokeWidth={6} strokeLinecap="round">
+        {[-42, -24, -6].map((ly) => (
+          <line key={ly} x1={-W / 2 + 34} y1={ly} x2={W / 2 - 150} y2={ly} />
+        ))}
+      </g>
+      {/* ranura de salida: slot oscuro con una aleta (louver) horizontal contenida adentro */}
+      <rect x={slotX} y={slotY - 16} width={slotW} height={38} rx={16} fill="#1A1E33" stroke={C.tinta} strokeWidth={5} />
+      <g transform={`translate(0 ${slotY + 2}) rotate(${soplando * 5 + aleteo})`}>
+        <rect x={slotX + 16} y={-6} width={slotW - 32} height={15} rx={7} fill={MAT.metal} stroke={C.tinta} strokeWidth={4} />
+        <line x1={slotX + 28} y1={-1} x2={slotX + slotW - 28} y2={-1} stroke="#FFFFFF" strokeWidth={3} opacity={0.75} />
+      </g>
+      {/* display con el número elegido */}
+      <g transform={`translate(${W / 2 - 92} ${-6})`}>
+        <rect x={-6} y={-40} width={96} height={80} rx={12} fill="#1A1E33" stroke={C.tinta} strokeWidth={5} />
+        {temp !== undefined ? (
+          <text x={42} y={26} textAnchor="middle" fontFamily={display} fontWeight={800} fontSize={58} fill={colorTemp}>{temp}</text>
+        ) : null}
+        <text x={76} y={-16} textAnchor="middle" fontFamily={mono} fontWeight={700} fontSize={18} fill={colorTemp} opacity={0.9}>°C</text>
+      </g>
+      {/* LED de encendido */}
+      <circle cx={-W / 2 + 40} cy={H / 2 - 40} r={9} fill={encendido ? C.verde : MAT.metalOscuro} stroke={C.tinta} strokeWidth={4} />
+      {/* brillo arriba a la izquierda */}
+      <path d={`M${-W / 2 + 30} ${-H / 2 + 22} q60 -16 150 -10`} fill="none" stroke="#FFFFFF" strokeWidth={8} strokeLinecap="round" opacity={0.8} />
     </Pos>
   );
 };

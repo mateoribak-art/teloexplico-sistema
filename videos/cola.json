@@ -160,5 +160,22 @@
   ],
   "prioridad": "actualidad",
   "creado": "2026-10-24T10:31"
+ },
+ {
+  "slug": "008-aire-en-17",
+  "tema": "Poner el aire en 17 grados no enfria mas rapido; por que se recomienda 24",
+  "estado": "produccion",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T00:32",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T00:32",
+    "motivo": ""
+   }
+  ]
  }
 ]

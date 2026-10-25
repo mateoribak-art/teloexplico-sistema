@@ -1,0 +1,54 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones factuales estan verificadas con fuentes oficiales argentinas (Secretaria de Energia de la Nacion y ENRE) y fuentes tecnicas de climatizacion (HVAC). El punto central (poner el aire mas bajo NO enfria mas rapido) esta confirmado tanto por la Secretaria de Energia como por multiples fuentes HVAC. La cifra de plata (cada grado por debajo de 24 = ~8% de consumo) y la recomendacion de 24 C provienen del sitio oficial argentina.gob.ar (Secretaria de Energia) y coinciden con el ENRE; la frase cita la fuente y usa 'como un ocho por ciento' (matiz de aproximacion correcto). La afirmacion de que el equipo arranca a toda potencia y enfria al mismo ritmo esta verificada: el ritmo inicial de enfriamiento es el mismo sin importar el setpoint; lo unico que cambia es cuanto tiempo trabaja el compresor. No hay afirmaciones falsas ni inventadas, y no hay datos de plata o salud dichos como hecho sin fuente.",
+  "afirmaciones": [
+    {
+      "texto": "En diecisiete no enfria ni un segundo mas rapido que en veinticuatro.",
+      "fuente": "Secretaria de Energia de la Nacion (argentina.gob.ar): 'los ambientes no se enfriaran mas rapido aunque bajemos mas la temperatura'; multiples fuentes HVAC (griffithenergyservices.com, aireserv.com) confirman que el equipo enfria a ritmo fijo",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El termostato no es el acelerador. Es el destino. Vos le decis hasta que temperatura tiene que llegar. No a que velocidad llega.",
+      "fuente": "Fuentes HVAC (dauenhauerplumbing.com, halcrohc.com): el termostato fija la temperatura objetivo, no la velocidad de enfriamiento; el sistema sigue funcionando hasta llegar al objetivo",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El equipo arranca a toda potencia igual, le pidas diecisiete o veinticuatro. Enfria al mismo ritmo.",
+      "fuente": "Fuentes HVAC (consumerreports.org, acdirect.com): el compresor (inverter) arranca a maxima velocidad para enfriar rapido sin importar el setpoint; el ritmo de enfriamiento inicial es el mismo. Los equipos convencionales tambien enfrian a ritmo fijo mientras estan encendidos",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Lo unico que cambia es cuanto tiempo trabaja: en diecisiete el compresor sigue a full mucho mas, buscando un frio que ni querias.",
+      "fuente": "Fuentes HVAC (acdirect.com, midea.com): cuanto mas bajo el setpoint, mas tiempo opera el compresor a alta capacidad; un setpoint mas alto permite pasar antes a baja velocidad. Lo que cambia es el tiempo de funcionamiento, no la velocidad",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La Secretaria de Energia dice que cada grado que bajas de veinticuatro suma como un ocho por ciento de consumo.",
+      "fuente": "Secretaria de Energia de la Nacion (argentina.gob.ar, pagina de aire acondicionado): 'Cada grado de diferencia supone una reduccion del consumo energetico de un 8%'. El ENRE coincide: cada grado por debajo de 24-25 C aumenta el consumo cerca de un 8%",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Lo pensamos como la hornalla: mas numero, mas fuerza. Pero el aire no va asi.",
+      "fuente": "Explicacion de origen del mito (framing). El contraste mecanico es correcto: a diferencia de una hornalla, el setpoint del aire no regula potencia sino temperatura objetivo (fuentes HVAC dauenhauerplumbing.com, halcrohc.com)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si dejas una ventana abierta o entra el sol, no llega a ningun numero. Ahi si tenes un problema, pero no es el termostato.",
+      "fuente": "ENRE y Secretaria de Energia (argentina.gob.ar): recomiendan mantener puertas y ventanas cerradas y proteger del sol (toldos, persianas) para que el equipo alcance la temperatura; el ingreso de calor externo impide llegar al objetivo",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ponelo en veinticuatro y cerra puertas y ventanas. Enfria igual de rapido y gastas bastante menos.",
+      "fuente": "Secretaria de Energia de la Nacion y ENRE (argentina.gob.ar): recomiendan 24 C y mantener puertas y ventanas cerradas para un uso eficiente; bajar mas no enfria mas rapido y aumenta el consumo (~8% por grado)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

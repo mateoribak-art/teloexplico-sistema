@@ -2,18 +2,16 @@ import React from "react";
 import { AbsoluteFill } from "remotion";
 import { C, display, mono } from "../kit/marca";
 import { Fondo } from "../kit/piezas";
-import { MapaSudamerica, Pin, PINES } from "../kit/mapa";
+import { AireSplit } from "../kit/biblioteca";
 
 // Taller de dibujo (skill dibujar-objeto): poné acá el objeto que estás haciendo.
 // Izquierda: grande, para ver detalles. Derecha: como se verá en un celular (chico) y sobre el fondo real.
 // Reemplazá <Objeto /> por tu dibujo; `tlx taller` lo renderiza en videos/_taller/taller.png.
 
-const Objeto: React.FC<{ t: number }> = () => (
+const Objeto: React.FC<{ t: number }> = ({ t }) => (
   <g>
-    <MapaSudamerica x={60} y={60} s={1.25} brasil={C.amarillo} argentina="#9A55C8">
-      <Pin x={PINES.brasil[0]} y={PINES.brasil[1]} color={C.rojo} />
-      <Pin x={PINES.argentina[0]} y={PINES.argentina[1]} color="#9A55C8" />
-    </MapaSudamerica>
+    <AireSplit x={300} y={240} s={1.0} t={t} temp={17} soplando={1} />
+    <AireSplit x={300} y={620} s={0.9} t={t} temp={24} soplando={0.2} colorTemp={C.azul} />
   </g>
 );
 

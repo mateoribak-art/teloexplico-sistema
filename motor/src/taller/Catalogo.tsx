@@ -2,7 +2,7 @@ import React from "react";
 import { AbsoluteFill } from "remotion";
 import { C, mono } from "../kit/marca";
 import { Fondo } from "../kit/piezas";
-import { Anafe, Auto, Barrio, Bife, Heladera, Nube, Olla, Persona, Sarten, Sol, Termometro, Vaso } from "../kit/biblioteca";
+import { AireSplit, Anafe, Auto, Barrio, Bife, Heladera, Nube, Olla, Persona, Sarten, Sol, Termometro, Vaso } from "../kit/biblioteca";
 
 // Lámina de la biblioteca: todos los objetos juntos para revisar que parezcan de la misma mano.
 const Celda: React.FC<{ i: number; nombre: string; children: React.ReactNode }> = ({ i, nombre, children }) => {
@@ -38,6 +38,7 @@ export const Catalogo: React.FC = () => (
         <g transform="translate(20 0) scale(0.52)"><Barrio suelo={960} t={10} /><rect x={0} y={960} width={1080} height={24} fill={C.verde} stroke={C.tinta} strokeWidth={6} /></g>
       </Celda>
       <Celda i={11} nombre="auto"><Auto x={300} y={380} s={1.1} color={C.rojo} t={10} /></Celda>
+      <Celda i={12} nombre="aire split"><AireSplit x={300} y={300} s={1.0} t={10} temp={24} /></Celda>
     </svg>
   </AbsoluteFill>
 );
