@@ -127,6 +127,15 @@ def comentarios():
     escribir(log, f'Termina la respuesta de comentarios ({"ok" if ok else "con problemas"}).')
 
 
+def diagnostico():
+    """Pedido mínimo con el detalle de cada herramienta que intenta Claude y cada permiso negado (videos/diagnostico.jsonl)."""
+    r = subprocess.run(['claude', '-p', 'Corré exactamente `./herramientas/tlx cola` y copiá la salida. Nada más.',
+                        '--permission-mode', 'dontAsk', '--output-format', 'stream-json', '--verbose'],
+                       cwd=RAIZ, capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=600)
+    open(os.path.join(V, 'diagnostico.jsonl'), 'w', encoding='utf-8').write(r.stdout + '\n' + r.stderr)
+    print(r.stdout[-3000:], r.stderr[-2000:])
+
+
 def hay_trabajo(modo):
     if os.path.exists(os.path.join(RAIZ, 'PAUSA')):
         return False
@@ -142,7 +151,7 @@ if __name__ == '__main__':
     modo = sys.argv[1] if len(sys.argv) > 1 else ''
     if modo == 'hay-trabajo':
         print('si' if hay_trabajo(sys.argv[2]) else 'no')
-    elif modo in ('produccion', 'radar', 'comentarios'):
+    elif modo in ('produccion', 'radar', 'comentarios', 'diagnostico'):
         globals()[modo]()
     else:
         sys.exit(__doc__)

@@ -17,7 +17,7 @@ on:
       modo:
         description: 'Qué correr'
         type: choice
-        options: [produccion, radar, comentarios]
+        options: [produccion, radar, comentarios, diagnostico]
         default: produccion
 
 # un turno de Claude a la vez (la cuota es una sola); el estado se combina al final con sincronizar.py
