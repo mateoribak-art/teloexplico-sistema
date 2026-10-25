@@ -1,0 +1,877 @@
+{
+ "duracion": 53.1,
+ "frases": [
+  {
+   "texto": "¿Sacás la carne del freezer a la mañana y la dejás en la mesada?",
+   "palabras": [
+    {
+     "texto": "¿Sacás",
+     "inicio": 0.0,
+     "fin": 0.6
+    },
+    {
+     "texto": "la",
+     "inicio": 0.6,
+     "fin": 1.08
+    },
+    {
+     "texto": "carne",
+     "inicio": 1.08,
+     "fin": 1.36
+    },
+    {
+     "texto": "del",
+     "inicio": 1.36,
+     "fin": 1.58
+    },
+    {
+     "texto": "freezer",
+     "inicio": 1.58,
+     "fin": 1.94
+    },
+    {
+     "texto": "a",
+     "inicio": 1.94,
+     "fin": 2.12
+    },
+    {
+     "texto": "la",
+     "inicio": 2.12,
+     "fin": 2.2
+    },
+    {
+     "texto": "mañana",
+     "inicio": 2.2,
+     "fin": 2.56
+    },
+    {
+     "texto": "y",
+     "inicio": 2.56,
+     "fin": 3.12
+    },
+    {
+     "texto": "la",
+     "inicio": 3.12,
+     "fin": 3.24
+    },
+    {
+     "texto": "dejás",
+     "inicio": 3.24,
+     "fin": 3.46
+    },
+    {
+     "texto": "en",
+     "inicio": 3.46,
+     "fin": 3.62
+    },
+    {
+     "texto": "la",
+     "inicio": 3.62,
+     "fin": 3.72
+    },
+    {
+     "texto": "mesada?",
+     "inicio": 3.72,
+     "fin": 4.12
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.12
+  },
+  {
+   "texto": "Es justo lo que no hay que hacer.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 4.62,
+     "fin": 4.86
+    },
+    {
+     "texto": "justo",
+     "inicio": 4.86,
+     "fin": 5.38
+    },
+    {
+     "texto": "lo",
+     "inicio": 5.38,
+     "fin": 5.84
+    },
+    {
+     "texto": "que",
+     "inicio": 5.84,
+     "fin": 5.96
+    },
+    {
+     "texto": "no",
+     "inicio": 5.96,
+     "fin": 6.12
+    },
+    {
+     "texto": "hay",
+     "inicio": 6.12,
+     "fin": 6.24
+    },
+    {
+     "texto": "que",
+     "inicio": 6.24,
+     "fin": 6.28
+    },
+    {
+     "texto": "hacer.",
+     "inicio": 6.28,
+     "fin": 6.58
+    }
+   ],
+   "inicio": 4.62,
+   "fin": 6.58
+  },
+  {
+   "texto": "Por fuera se descongela rápido, mientras el centro sigue duro.",
+   "palabras": [
+    {
+     "texto": "Por",
+     "inicio": 7.04,
+     "fin": 7.28
+    },
+    {
+     "texto": "fuera",
+     "inicio": 7.28,
+     "fin": 7.6
+    },
+    {
+     "texto": "se",
+     "inicio": 7.6,
+     "fin": 8.28
+    },
+    {
+     "texto": "descongela",
+     "inicio": 8.28,
+     "fin": 8.72
+    },
+    {
+     "texto": "rápido,",
+     "inicio": 8.72,
+     "fin": 9.08
+    },
+    {
+     "texto": "mientras",
+     "inicio": 9.56,
+     "fin": 9.86
+    },
+    {
+     "texto": "el",
+     "inicio": 9.86,
+     "fin": 10.1
+    },
+    {
+     "texto": "centro",
+     "inicio": 10.1,
+     "fin": 10.36
+    },
+    {
+     "texto": "sigue",
+     "inicio": 10.36,
+     "fin": 10.66
+    },
+    {
+     "texto": "duro.",
+     "inicio": 10.66,
+     "fin": 11.1
+    }
+   ],
+   "inicio": 7.04,
+   "fin": 11.1
+  },
+  {
+   "texto": "Y esa capa de afuera puede quedar entre unos cuatro y sesenta grados, que es donde las bacterias se multiplican rápido.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 11.6,
+     "fin": 11.64
+    },
+    {
+     "texto": "esa",
+     "inicio": 11.64,
+     "fin": 11.84
+    },
+    {
+     "texto": "capa",
+     "inicio": 11.84,
+     "fin": 12.14
+    },
+    {
+     "texto": "de",
+     "inicio": 12.14,
+     "fin": 12.24
+    },
+    {
+     "texto": "afuera",
+     "inicio": 12.24,
+     "fin": 12.56
+    },
+    {
+     "texto": "puede",
+     "inicio": 12.56,
+     "fin": 13.16
+    },
+    {
+     "texto": "quedar",
+     "inicio": 13.16,
+     "fin": 13.5
+    },
+    {
+     "texto": "entre",
+     "inicio": 13.5,
+     "fin": 13.94
+    },
+    {
+     "texto": "unos",
+     "inicio": 13.94,
+     "fin": 14.18
+    },
+    {
+     "texto": "cuatro",
+     "inicio": 14.18,
+     "fin": 14.6
+    },
+    {
+     "texto": "y",
+     "inicio": 14.6,
+     "fin": 15.06
+    },
+    {
+     "texto": "sesenta",
+     "inicio": 15.06,
+     "fin": 15.44
+    },
+    {
+     "texto": "grados,",
+     "inicio": 15.44,
+     "fin": 15.96
+    },
+    {
+     "texto": "que",
+     "inicio": 16.18,
+     "fin": 16.5
+    },
+    {
+     "texto": "es",
+     "inicio": 16.5,
+     "fin": 16.6
+    },
+    {
+     "texto": "donde",
+     "inicio": 16.6,
+     "fin": 16.74
+    },
+    {
+     "texto": "las",
+     "inicio": 16.74,
+     "fin": 16.94
+    },
+    {
+     "texto": "bacterias",
+     "inicio": 16.94,
+     "fin": 17.42
+    },
+    {
+     "texto": "se",
+     "inicio": 17.42,
+     "fin": 17.6
+    },
+    {
+     "texto": "multiplican",
+     "inicio": 17.6,
+     "fin": 18.3
+    },
+    {
+     "texto": "rápido.",
+     "inicio": 18.3,
+     "fin": 18.88
+    }
+   ],
+   "inicio": 11.6,
+   "fin": 18.88
+  },
+  {
+   "texto": "Lo dice el Departamento de Agricultura de Estados Unidos: la carne no se descongela en la mesada.",
+   "palabras": [
+    {
+     "texto": "Lo",
+     "inicio": 19.36,
+     "fin": 19.56
+    },
+    {
+     "texto": "dice",
+     "inicio": 19.56,
+     "fin": 19.74
+    },
+    {
+     "texto": "el",
+     "inicio": 19.74,
+     "fin": 19.88
+    },
+    {
+     "texto": "Departamento",
+     "inicio": 19.88,
+     "fin": 20.32
+    },
+    {
+     "texto": "de",
+     "inicio": 20.32,
+     "fin": 20.52
+    },
+    {
+     "texto": "Agricultura",
+     "inicio": 20.52,
+     "fin": 20.96
+    },
+    {
+     "texto": "de",
+     "inicio": 20.96,
+     "fin": 21.1
+    },
+    {
+     "texto": "Estados",
+     "inicio": 21.1,
+     "fin": 21.26
+    },
+    {
+     "texto": "Unidos:",
+     "inicio": 21.26,
+     "fin": 21.66
+    },
+    {
+     "texto": "la",
+     "inicio": 22.26,
+     "fin": 22.34
+    },
+    {
+     "texto": "carne",
+     "inicio": 22.34,
+     "fin": 22.62
+    },
+    {
+     "texto": "no",
+     "inicio": 22.62,
+     "fin": 22.96
+    },
+    {
+     "texto": "se",
+     "inicio": 22.96,
+     "fin": 23.14
+    },
+    {
+     "texto": "descongela",
+     "inicio": 23.14,
+     "fin": 23.68
+    },
+    {
+     "texto": "en",
+     "inicio": 23.68,
+     "fin": 23.78
+    },
+    {
+     "texto": "la",
+     "inicio": 23.78,
+     "fin": 23.86
+    },
+    {
+     "texto": "mesada.",
+     "inicio": 23.86,
+     "fin": 24.24
+    }
+   ],
+   "inicio": 19.36,
+   "fin": 24.24
+  },
+  {
+   "texto": "Tiene tres formas seguras. Una: en la heladera. Es la más segura, pero hay que planear.",
+   "palabras": [
+    {
+     "texto": "Tiene",
+     "inicio": 24.68,
+     "fin": 24.96
+    },
+    {
+     "texto": "tres",
+     "inicio": 24.96,
+     "fin": 25.26
+    },
+    {
+     "texto": "formas",
+     "inicio": 25.26,
+     "fin": 25.62
+    },
+    {
+     "texto": "seguras.",
+     "inicio": 25.62,
+     "fin": 26.02
+    },
+    {
+     "texto": "Una:",
+     "inicio": 26.6,
+     "fin": 26.88
+    },
+    {
+     "texto": "en",
+     "inicio": 26.88,
+     "fin": 27.42
+    },
+    {
+     "texto": "la",
+     "inicio": 27.42,
+     "fin": 27.5
+    },
+    {
+     "texto": "heladera.",
+     "inicio": 27.5,
+     "fin": 27.84
+    },
+    {
+     "texto": "Es",
+     "inicio": 28.3,
+     "fin": 28.48
+    },
+    {
+     "texto": "la",
+     "inicio": 28.48,
+     "fin": 28.56
+    },
+    {
+     "texto": "más",
+     "inicio": 28.56,
+     "fin": 28.68
+    },
+    {
+     "texto": "segura,",
+     "inicio": 28.68,
+     "fin": 29.02
+    },
+    {
+     "texto": "pero",
+     "inicio": 29.2,
+     "fin": 29.26
+    },
+    {
+     "texto": "hay",
+     "inicio": 29.26,
+     "fin": 29.44
+    },
+    {
+     "texto": "que",
+     "inicio": 29.44,
+     "fin": 29.5
+    },
+    {
+     "texto": "planear.",
+     "inicio": 29.5,
+     "fin": 29.94
+    }
+   ],
+   "inicio": 24.68,
+   "fin": 29.94
+  },
+  {
+   "texto": "Dos: en agua fría, en una bolsa que no pierda, cambiando el agua cada treinta minutos.",
+   "palabras": [
+    {
+     "texto": "Dos:",
+     "inicio": 30.48,
+     "fin": 30.54
+    },
+    {
+     "texto": "en",
+     "inicio": 31.04,
+     "fin": 31.1
+    },
+    {
+     "texto": "agua",
+     "inicio": 31.1,
+     "fin": 31.24
+    },
+    {
+     "texto": "fría,",
+     "inicio": 31.24,
+     "fin": 31.6
+    },
+    {
+     "texto": "en",
+     "inicio": 31.86,
+     "fin": 31.94
+    },
+    {
+     "texto": "una",
+     "inicio": 31.94,
+     "fin": 32.06
+    },
+    {
+     "texto": "bolsa",
+     "inicio": 32.06,
+     "fin": 32.36
+    },
+    {
+     "texto": "que",
+     "inicio": 32.36,
+     "fin": 32.48
+    },
+    {
+     "texto": "no",
+     "inicio": 32.48,
+     "fin": 32.58
+    },
+    {
+     "texto": "pierda,",
+     "inicio": 32.58,
+     "fin": 32.96
+    },
+    {
+     "texto": "cambiando",
+     "inicio": 33.36,
+     "fin": 33.72
+    },
+    {
+     "texto": "el",
+     "inicio": 33.72,
+     "fin": 33.82
+    },
+    {
+     "texto": "agua",
+     "inicio": 33.82,
+     "fin": 34.0
+    },
+    {
+     "texto": "cada",
+     "inicio": 34.0,
+     "fin": 34.2
+    },
+    {
+     "texto": "treinta",
+     "inicio": 34.2,
+     "fin": 34.66
+    },
+    {
+     "texto": "minutos.",
+     "inicio": 34.66,
+     "fin": 35.0
+    }
+   ],
+   "inicio": 30.48,
+   "fin": 35.0
+  },
+  {
+   "texto": "Tres: en el microondas, y la cocinás enseguida.",
+   "palabras": [
+    {
+     "texto": "Tres:",
+     "inicio": 35.7,
+     "fin": 35.94
+    },
+    {
+     "texto": "en",
+     "inicio": 36.38,
+     "fin": 36.48
+    },
+    {
+     "texto": "el",
+     "inicio": 36.48,
+     "fin": 36.56
+    },
+    {
+     "texto": "microondas,",
+     "inicio": 36.56,
+     "fin": 37.16
+    },
+    {
+     "texto": "y",
+     "inicio": 37.54,
+     "fin": 37.6
+    },
+    {
+     "texto": "la",
+     "inicio": 37.6,
+     "fin": 37.72
+    },
+    {
+     "texto": "cocinás",
+     "inicio": 37.72,
+     "fin": 38.12
+    },
+    {
+     "texto": "enseguida.",
+     "inicio": 38.12,
+     "fin": 38.7
+    }
+   ],
+   "inicio": 35.7,
+   "fin": 38.7
+  },
+  {
+   "texto": "Ojo: no la dejes más de dos horas a temperatura ambiente, y solo una hora si hace más de treinta y dos grados.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 39.26,
+     "fin": 39.52
+    },
+    {
+     "texto": "no",
+     "inicio": 39.92,
+     "fin": 40.02
+    },
+    {
+     "texto": "la",
+     "inicio": 40.02,
+     "fin": 40.14
+    },
+    {
+     "texto": "dejes",
+     "inicio": 40.14,
+     "fin": 40.4
+    },
+    {
+     "texto": "más",
+     "inicio": 40.4,
+     "fin": 40.58
+    },
+    {
+     "texto": "de",
+     "inicio": 40.58,
+     "fin": 40.72
+    },
+    {
+     "texto": "dos",
+     "inicio": 40.72,
+     "fin": 40.9
+    },
+    {
+     "texto": "horas",
+     "inicio": 40.9,
+     "fin": 41.1
+    },
+    {
+     "texto": "a",
+     "inicio": 41.1,
+     "fin": 41.26
+    },
+    {
+     "texto": "temperatura",
+     "inicio": 41.26,
+     "fin": 41.5
+    },
+    {
+     "texto": "ambiente,",
+     "inicio": 41.5,
+     "fin": 42.1
+    },
+    {
+     "texto": "y",
+     "inicio": 42.6,
+     "fin": 42.68
+    },
+    {
+     "texto": "solo",
+     "inicio": 42.68,
+     "fin": 42.88
+    },
+    {
+     "texto": "una",
+     "inicio": 42.88,
+     "fin": 43.22
+    },
+    {
+     "texto": "hora",
+     "inicio": 43.22,
+     "fin": 43.5
+    },
+    {
+     "texto": "si",
+     "inicio": 43.5,
+     "fin": 43.7
+    },
+    {
+     "texto": "hace",
+     "inicio": 43.7,
+     "fin": 43.9
+    },
+    {
+     "texto": "más",
+     "inicio": 43.9,
+     "fin": 44.04
+    },
+    {
+     "texto": "de",
+     "inicio": 44.04,
+     "fin": 44.2
+    },
+    {
+     "texto": "treinta",
+     "inicio": 44.2,
+     "fin": 44.58
+    },
+    {
+     "texto": "y",
+     "inicio": 44.58,
+     "fin": 44.68
+    },
+    {
+     "texto": "dos",
+     "inicio": 44.68,
+     "fin": 44.86
+    },
+    {
+     "texto": "grados.",
+     "inicio": 44.86,
+     "fin": 45.36
+    }
+   ],
+   "inicio": 39.26,
+   "fin": 45.36
+  },
+  {
+   "texto": "Entonces, a la noche, pasá la carne del freezer a la heladera. Listo.",
+   "palabras": [
+    {
+     "texto": "Entonces,",
+     "inicio": 45.76,
+     "fin": 46.16
+    },
+    {
+     "texto": "a",
+     "inicio": 46.36,
+     "fin": 46.44
+    },
+    {
+     "texto": "la",
+     "inicio": 46.44,
+     "fin": 46.52
+    },
+    {
+     "texto": "noche,",
+     "inicio": 46.52,
+     "fin": 46.74
+    },
+    {
+     "texto": "pasá",
+     "inicio": 47.0,
+     "fin": 47.26
+    },
+    {
+     "texto": "la",
+     "inicio": 47.26,
+     "fin": 47.32
+    },
+    {
+     "texto": "carne",
+     "inicio": 47.32,
+     "fin": 47.58
+    },
+    {
+     "texto": "del",
+     "inicio": 47.58,
+     "fin": 47.78
+    },
+    {
+     "texto": "freezer",
+     "inicio": 47.78,
+     "fin": 48.12
+    },
+    {
+     "texto": "a",
+     "inicio": 48.12,
+     "fin": 48.42
+    },
+    {
+     "texto": "la",
+     "inicio": 48.42,
+     "fin": 48.5
+    },
+    {
+     "texto": "heladera.",
+     "inicio": 48.5,
+     "fin": 48.86
+    },
+    {
+     "texto": "Listo.",
+     "inicio": 49.3,
+     "fin": 49.52
+    }
+   ],
+   "inicio": 45.76,
+   "fin": 49.52
+  },
+  {
+   "texto": "Mandáselo a ese que deja el asado en la mesada desde la mañana.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 50.16,
+     "fin": 50.6
+    },
+    {
+     "texto": "a",
+     "inicio": 50.6,
+     "fin": 50.66
+    },
+    {
+     "texto": "ese",
+     "inicio": 50.66,
+     "fin": 50.84
+    },
+    {
+     "texto": "que",
+     "inicio": 50.84,
+     "fin": 50.98
+    },
+    {
+     "texto": "deja",
+     "inicio": 50.98,
+     "fin": 51.24
+    },
+    {
+     "texto": "el",
+     "inicio": 51.24,
+     "fin": 51.34
+    },
+    {
+     "texto": "asado",
+     "inicio": 51.34,
+     "fin": 51.66
+    },
+    {
+     "texto": "en",
+     "inicio": 51.66,
+     "fin": 51.74
+    },
+    {
+     "texto": "la",
+     "inicio": 51.74,
+     "fin": 51.82
+    },
+    {
+     "texto": "mesada",
+     "inicio": 51.82,
+     "fin": 52.22
+    },
+    {
+     "texto": "desde",
+     "inicio": 52.22,
+     "fin": 52.4
+    },
+    {
+     "texto": "la",
+     "inicio": 52.4,
+     "fin": 52.6
+    },
+    {
+     "texto": "mañana.",
+     "inicio": 52.6,
+     "fin": 52.84
+    }
+   ],
+   "inicio": 50.16,
+   "fin": 52.84
+  }
+ ]
+}

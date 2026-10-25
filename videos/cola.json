@@ -285,5 +285,66 @@
     "motivo": "producción nocturna"
    }
   ]
+ },
+ {
+  "slug": "013-alcohol-calor",
+  "tema": "Tomar alcohol da calor: es al revés, el cuerpo pierde temperatura",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T15:35",
+    "motivo": ""
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-25T15:38",
+    "motivo": "Chequeo rechazado 2 veces: mecanismo de pérdida de calor solo probable en tema de salud (evidencia mixta)"
+   }
+  ]
+ },
+ {
+  "slug": "014-celular-arroz",
+  "tema": "El celular mojado se arregla en arroz: Apple dice que no",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T15:39",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T15:39",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-25T15:51",
+    "motivo": "producción nocturna"
+   }
+  ]
+ },
+ {
+  "slug": "015-descongelar-mesada",
+  "tema": "Descongelar la carne arriba de la mesada: por qué no y cómo hacerlo seguro (USDA)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T15:51",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T15:53",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-25T16:03",
+    "motivo": "producción nocturna"
+   }
+  ]
  }
 ]

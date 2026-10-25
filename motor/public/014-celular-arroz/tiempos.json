@@ -1,0 +1,852 @@
+{
+ "duracion": 58.28,
+ "frases": [
+  {
+   "texto": "Se te cayó el celular al agua. ¿Y qué hacés? ¿Al arroz?",
+   "palabras": [
+    {
+     "texto": "Se",
+     "inicio": 0.0,
+     "fin": 0.22
+    },
+    {
+     "texto": "te",
+     "inicio": 0.22,
+     "fin": 0.36
+    },
+    {
+     "texto": "cayó",
+     "inicio": 0.36,
+     "fin": 0.64
+    },
+    {
+     "texto": "el",
+     "inicio": 0.64,
+     "fin": 0.74
+    },
+    {
+     "texto": "celular",
+     "inicio": 0.74,
+     "fin": 1.06
+    },
+    {
+     "texto": "al",
+     "inicio": 1.06,
+     "fin": 1.28
+    },
+    {
+     "texto": "agua.",
+     "inicio": 1.28,
+     "fin": 1.58
+    },
+    {
+     "texto": "¿Y",
+     "inicio": 1.84,
+     "fin": 2.14
+    },
+    {
+     "texto": "qué",
+     "inicio": 2.14,
+     "fin": 2.28
+    },
+    {
+     "texto": "hacés?",
+     "inicio": 2.28,
+     "fin": 2.52
+    },
+    {
+     "texto": "¿Al",
+     "inicio": 3.18,
+     "fin": 3.64
+    },
+    {
+     "texto": "arroz?",
+     "inicio": 3.64,
+     "fin": 3.94
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.94
+  },
+  {
+   "texto": "Pará. Apple dice que no.",
+   "palabras": [
+    {
+     "texto": "Pará.",
+     "inicio": 4.54,
+     "fin": 4.96
+    },
+    {
+     "texto": "Apple",
+     "inicio": 5.5,
+     "fin": 5.8
+    },
+    {
+     "texto": "dice",
+     "inicio": 5.8,
+     "fin": 6.0
+    },
+    {
+     "texto": "que",
+     "inicio": 6.0,
+     "fin": 6.16
+    },
+    {
+     "texto": "no.",
+     "inicio": 6.16,
+     "fin": 6.32
+    }
+   ],
+   "inicio": 4.54,
+   "fin": 6.32
+  },
+  {
+   "texto": "La idea del truco es que el arroz chupa la humedad. Suena lógico.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 6.9,
+     "fin": 7.18
+    },
+    {
+     "texto": "idea",
+     "inicio": 7.18,
+     "fin": 7.42
+    },
+    {
+     "texto": "del",
+     "inicio": 7.42,
+     "fin": 7.66
+    },
+    {
+     "texto": "truco",
+     "inicio": 7.66,
+     "fin": 8.0
+    },
+    {
+     "texto": "es",
+     "inicio": 8.0,
+     "fin": 8.2
+    },
+    {
+     "texto": "que",
+     "inicio": 8.2,
+     "fin": 8.32
+    },
+    {
+     "texto": "el",
+     "inicio": 8.32,
+     "fin": 8.44
+    },
+    {
+     "texto": "arroz",
+     "inicio": 8.44,
+     "fin": 8.68
+    },
+    {
+     "texto": "chupa",
+     "inicio": 8.68,
+     "fin": 9.5
+    },
+    {
+     "texto": "la",
+     "inicio": 9.5,
+     "fin": 9.66
+    },
+    {
+     "texto": "humedad.",
+     "inicio": 9.66,
+     "fin": 10.06
+    },
+    {
+     "texto": "Suena",
+     "inicio": 10.64,
+     "fin": 10.94
+    },
+    {
+     "texto": "lógico.",
+     "inicio": 10.94,
+     "fin": 11.38
+    }
+   ],
+   "inicio": 6.9,
+   "fin": 11.38
+  },
+  {
+   "texto": "Pero el soporte de Apple lo dice textual: no pongas el iPhone en una bolsa de arroz.",
+   "palabras": [
+    {
+     "texto": "Pero",
+     "inicio": 11.86,
+     "fin": 12.06
+    },
+    {
+     "texto": "el",
+     "inicio": 12.06,
+     "fin": 12.2
+    },
+    {
+     "texto": "soporte",
+     "inicio": 12.2,
+     "fin": 12.48
+    },
+    {
+     "texto": "de",
+     "inicio": 12.48,
+     "fin": 12.68
+    },
+    {
+     "texto": "Apple",
+     "inicio": 12.68,
+     "fin": 12.88
+    },
+    {
+     "texto": "lo",
+     "inicio": 12.88,
+     "fin": 13.1
+    },
+    {
+     "texto": "dice",
+     "inicio": 13.1,
+     "fin": 13.32
+    },
+    {
+     "texto": "textual:",
+     "inicio": 13.32,
+     "fin": 14.04
+    },
+    {
+     "texto": "no",
+     "inicio": 14.6,
+     "fin": 14.76
+    },
+    {
+     "texto": "pongas",
+     "inicio": 14.76,
+     "fin": 15.16
+    },
+    {
+     "texto": "el",
+     "inicio": 15.16,
+     "fin": 15.3
+    },
+    {
+     "texto": "iPhone",
+     "inicio": 15.3,
+     "fin": 15.52
+    },
+    {
+     "texto": "en",
+     "inicio": 15.52,
+     "fin": 15.8
+    },
+    {
+     "texto": "una",
+     "inicio": 15.8,
+     "fin": 15.98
+    },
+    {
+     "texto": "bolsa",
+     "inicio": 15.98,
+     "fin": 16.38
+    },
+    {
+     "texto": "de",
+     "inicio": 16.38,
+     "fin": 16.52
+    },
+    {
+     "texto": "arroz.",
+     "inicio": 16.52,
+     "fin": 16.8
+    }
+   ],
+   "inicio": 11.86,
+   "fin": 16.8
+  },
+  {
+   "texto": "El motivo: pueden meterse partículas de arroz adentro y dañarlo.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 17.54,
+     "fin": 17.76
+    },
+    {
+     "texto": "motivo:",
+     "inicio": 17.76,
+     "fin": 18.14
+    },
+    {
+     "texto": "pueden",
+     "inicio": 18.74,
+     "fin": 18.98
+    },
+    {
+     "texto": "meterse",
+     "inicio": 18.98,
+     "fin": 19.38
+    },
+    {
+     "texto": "partículas",
+     "inicio": 19.38,
+     "fin": 20.1
+    },
+    {
+     "texto": "de",
+     "inicio": 20.1,
+     "fin": 20.18
+    },
+    {
+     "texto": "arroz",
+     "inicio": 20.18,
+     "fin": 20.42
+    },
+    {
+     "texto": "adentro",
+     "inicio": 20.42,
+     "fin": 21.02
+    },
+    {
+     "texto": "y",
+     "inicio": 21.02,
+     "fin": 21.58
+    },
+    {
+     "texto": "dañarlo.",
+     "inicio": 21.58,
+     "fin": 22.04
+    }
+   ],
+   "inicio": 17.54,
+   "fin": 22.04
+  },
+  {
+   "texto": "Entonces, ¿qué sí? Paso uno: sacalo del cargador y de los cables.",
+   "palabras": [
+    {
+     "texto": "Entonces,",
+     "inicio": 22.66,
+     "fin": 23.12
+    },
+    {
+     "texto": "¿qué",
+     "inicio": 23.64,
+     "fin": 23.84
+    },
+    {
+     "texto": "sí?",
+     "inicio": 23.84,
+     "fin": 24.06
+    },
+    {
+     "texto": "Paso",
+     "inicio": 24.58,
+     "fin": 24.92
+    },
+    {
+     "texto": "uno:",
+     "inicio": 24.92,
+     "fin": 25.12
+    },
+    {
+     "texto": "sacalo",
+     "inicio": 25.7,
+     "fin": 26.08
+    },
+    {
+     "texto": "del",
+     "inicio": 26.08,
+     "fin": 26.28
+    },
+    {
+     "texto": "cargador",
+     "inicio": 26.28,
+     "fin": 26.76
+    },
+    {
+     "texto": "y",
+     "inicio": 26.76,
+     "fin": 27.3
+    },
+    {
+     "texto": "de",
+     "inicio": 27.3,
+     "fin": 27.42
+    },
+    {
+     "texto": "los",
+     "inicio": 27.42,
+     "fin": 27.56
+    },
+    {
+     "texto": "cables.",
+     "inicio": 27.56,
+     "fin": 27.82
+    }
+   ],
+   "inicio": 22.66,
+   "fin": 27.82
+  },
+  {
+   "texto": "Paso dos: golpealo despacito contra la palma, con el conector hacia abajo, para que salga el agua.",
+   "palabras": [
+    {
+     "texto": "Paso",
+     "inicio": 28.52,
+     "fin": 29.04
+    },
+    {
+     "texto": "dos:",
+     "inicio": 29.04,
+     "fin": 29.2
+    },
+    {
+     "texto": "golpealo",
+     "inicio": 29.86,
+     "fin": 30.38
+    },
+    {
+     "texto": "despacito",
+     "inicio": 30.38,
+     "fin": 31.08
+    },
+    {
+     "texto": "contra",
+     "inicio": 31.08,
+     "fin": 31.5
+    },
+    {
+     "texto": "la",
+     "inicio": 31.5,
+     "fin": 31.66
+    },
+    {
+     "texto": "palma,",
+     "inicio": 31.66,
+     "fin": 32.2
+    },
+    {
+     "texto": "con",
+     "inicio": 32.32,
+     "fin": 32.72
+    },
+    {
+     "texto": "el",
+     "inicio": 32.72,
+     "fin": 32.84
+    },
+    {
+     "texto": "conector",
+     "inicio": 32.84,
+     "fin": 33.24
+    },
+    {
+     "texto": "hacia",
+     "inicio": 33.24,
+     "fin": 33.5
+    },
+    {
+     "texto": "abajo,",
+     "inicio": 33.5,
+     "fin": 33.78
+    },
+    {
+     "texto": "para",
+     "inicio": 33.78,
+     "fin": 34.16
+    },
+    {
+     "texto": "que",
+     "inicio": 34.16,
+     "fin": 34.28
+    },
+    {
+     "texto": "salga",
+     "inicio": 34.28,
+     "fin": 34.54
+    },
+    {
+     "texto": "el",
+     "inicio": 34.54,
+     "fin": 34.64
+    },
+    {
+     "texto": "agua.",
+     "inicio": 34.64,
+     "fin": 34.84
+    }
+   ],
+   "inicio": 28.52,
+   "fin": 34.84
+  },
+  {
+   "texto": "Paso tres: dejalo en un lugar seco, con algo de aire. Sin secador y sin aire comprimido.",
+   "palabras": [
+    {
+     "texto": "Paso",
+     "inicio": 35.62,
+     "fin": 36.14
+    },
+    {
+     "texto": "tres:",
+     "inicio": 36.14,
+     "fin": 36.42
+    },
+    {
+     "texto": "dejalo",
+     "inicio": 37.08,
+     "fin": 37.44
+    },
+    {
+     "texto": "en",
+     "inicio": 37.44,
+     "fin": 37.56
+    },
+    {
+     "texto": "un",
+     "inicio": 37.56,
+     "fin": 37.66
+    },
+    {
+     "texto": "lugar",
+     "inicio": 37.66,
+     "fin": 37.9
+    },
+    {
+     "texto": "seco,",
+     "inicio": 37.9,
+     "fin": 38.44
+    },
+    {
+     "texto": "con",
+     "inicio": 38.52,
+     "fin": 38.76
+    },
+    {
+     "texto": "algo",
+     "inicio": 38.76,
+     "fin": 38.92
+    },
+    {
+     "texto": "de",
+     "inicio": 38.92,
+     "fin": 39.12
+    },
+    {
+     "texto": "aire.",
+     "inicio": 39.12,
+     "fin": 39.34
+    },
+    {
+     "texto": "Sin",
+     "inicio": 39.78,
+     "fin": 40.1
+    },
+    {
+     "texto": "secador",
+     "inicio": 40.1,
+     "fin": 40.6
+    },
+    {
+     "texto": "y",
+     "inicio": 40.6,
+     "fin": 41.04
+    },
+    {
+     "texto": "sin",
+     "inicio": 41.04,
+     "fin": 41.36
+    },
+    {
+     "texto": "aire",
+     "inicio": 41.36,
+     "fin": 41.58
+    },
+    {
+     "texto": "comprimido.",
+     "inicio": 41.58,
+     "fin": 42.16
+    }
+   ],
+   "inicio": 35.62,
+   "fin": 42.16
+  },
+  {
+   "texto": "Y esperá al menos treinta minutos antes de cargarlo. Si sigue la alerta, puede tardar hasta un día en secarse.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 42.66,
+     "fin": 42.76
+    },
+    {
+     "texto": "esperá",
+     "inicio": 42.76,
+     "fin": 43.06
+    },
+    {
+     "texto": "al",
+     "inicio": 43.06,
+     "fin": 43.16
+    },
+    {
+     "texto": "menos",
+     "inicio": 43.16,
+     "fin": 43.34
+    },
+    {
+     "texto": "treinta",
+     "inicio": 43.34,
+     "fin": 44.02
+    },
+    {
+     "texto": "minutos",
+     "inicio": 44.02,
+     "fin": 44.44
+    },
+    {
+     "texto": "antes",
+     "inicio": 44.44,
+     "fin": 44.86
+    },
+    {
+     "texto": "de",
+     "inicio": 44.86,
+     "fin": 45.02
+    },
+    {
+     "texto": "cargarlo.",
+     "inicio": 45.02,
+     "fin": 45.48
+    },
+    {
+     "texto": "Si",
+     "inicio": 45.9,
+     "fin": 46.1
+    },
+    {
+     "texto": "sigue",
+     "inicio": 46.1,
+     "fin": 46.36
+    },
+    {
+     "texto": "la",
+     "inicio": 46.36,
+     "fin": 46.52
+    },
+    {
+     "texto": "alerta,",
+     "inicio": 46.52,
+     "fin": 46.9
+    },
+    {
+     "texto": "puede",
+     "inicio": 47.36,
+     "fin": 47.44
+    },
+    {
+     "texto": "tardar",
+     "inicio": 47.44,
+     "fin": 47.9
+    },
+    {
+     "texto": "hasta",
+     "inicio": 47.9,
+     "fin": 48.12
+    },
+    {
+     "texto": "un",
+     "inicio": 48.12,
+     "fin": 48.52
+    },
+    {
+     "texto": "día",
+     "inicio": 48.52,
+     "fin": 48.78
+    },
+    {
+     "texto": "en",
+     "inicio": 48.78,
+     "fin": 48.96
+    },
+    {
+     "texto": "secarse.",
+     "inicio": 48.96,
+     "fin": 49.3
+    }
+   ],
+   "inicio": 42.66,
+   "fin": 49.3
+  },
+  {
+   "texto": "Ojo: esto es lo que recomienda Apple para el iPhone. Para otras marcas, mirá lo que dice el fabricante.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 49.8,
+     "fin": 50.14
+    },
+    {
+     "texto": "esto",
+     "inicio": 50.56,
+     "fin": 50.76
+    },
+    {
+     "texto": "es",
+     "inicio": 50.76,
+     "fin": 50.82
+    },
+    {
+     "texto": "lo",
+     "inicio": 50.82,
+     "fin": 50.94
+    },
+    {
+     "texto": "que",
+     "inicio": 50.94,
+     "fin": 51.04
+    },
+    {
+     "texto": "recomienda",
+     "inicio": 51.04,
+     "fin": 51.56
+    },
+    {
+     "texto": "Apple",
+     "inicio": 51.56,
+     "fin": 51.88
+    },
+    {
+     "texto": "para",
+     "inicio": 51.88,
+     "fin": 52.12
+    },
+    {
+     "texto": "el",
+     "inicio": 52.12,
+     "fin": 52.26
+    },
+    {
+     "texto": "iPhone.",
+     "inicio": 52.26,
+     "fin": 52.52
+    },
+    {
+     "texto": "Para",
+     "inicio": 53.0,
+     "fin": 53.26
+    },
+    {
+     "texto": "otras",
+     "inicio": 53.26,
+     "fin": 53.46
+    },
+    {
+     "texto": "marcas,",
+     "inicio": 53.46,
+     "fin": 53.84
+    },
+    {
+     "texto": "mirá",
+     "inicio": 54.2,
+     "fin": 54.34
+    },
+    {
+     "texto": "lo",
+     "inicio": 54.34,
+     "fin": 54.44
+    },
+    {
+     "texto": "que",
+     "inicio": 54.44,
+     "fin": 54.52
+    },
+    {
+     "texto": "dice",
+     "inicio": 54.52,
+     "fin": 54.68
+    },
+    {
+     "texto": "el",
+     "inicio": 54.68,
+     "fin": 54.78
+    },
+    {
+     "texto": "fabricante.",
+     "inicio": 54.78,
+     "fin": 55.24
+    }
+   ],
+   "inicio": 49.8,
+   "fin": 55.24
+  },
+  {
+   "texto": "Mandáselo a ese que ya tiene el arroz listo en la alacena.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 55.72,
+     "fin": 56.22
+    },
+    {
+     "texto": "a",
+     "inicio": 56.22,
+     "fin": 56.28
+    },
+    {
+     "texto": "ese",
+     "inicio": 56.28,
+     "fin": 56.4
+    },
+    {
+     "texto": "que",
+     "inicio": 56.4,
+     "fin": 56.56
+    },
+    {
+     "texto": "ya",
+     "inicio": 56.56,
+     "fin": 56.74
+    },
+    {
+     "texto": "tiene",
+     "inicio": 56.74,
+     "fin": 56.96
+    },
+    {
+     "texto": "el",
+     "inicio": 56.96,
+     "fin": 57.12
+    },
+    {
+     "texto": "arroz",
+     "inicio": 57.12,
+     "fin": 57.32
+    },
+    {
+     "texto": "listo",
+     "inicio": 57.32,
+     "fin": 57.68
+    },
+    {
+     "texto": "en",
+     "inicio": 57.68,
+     "fin": 57.76
+    },
+    {
+     "texto": "la",
+     "inicio": 57.76,
+     "fin": 57.84
+    },
+    {
+     "texto": "alacena.",
+     "inicio": 57.84,
+     "fin": 58.18
+    }
+   ],
+   "inicio": 55.72,
+   "fin": 58.18
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+  "titulo": "¿Se puede descongelar la carne en la mesada?",
+  "fuentes": [
+    "USDA FSIS (Departamento de Agricultura de EE. UU.): The Big Thaw, safe defrosting methods"
+  ],
+  "frases": [
+    {"texto": "¿Sacás la carne del freezer a la mañana y la dejás en la mesada?", "estilo": "Intriga, como quien confiesa algo."},
+    {"texto": "Es justo lo que no hay que hacer.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Por fuera se descongela rápido, mientras el centro sigue duro.", "estilo": "Didáctico, claro."},
+    {"texto": "Y esa capa de afuera puede quedar entre unos cuatro y sesenta grados, que es donde las bacterias se multiplican rápido.", "estilo": "Con un toque de misterio."},
+    {"texto": "Lo dice el Departamento de Agricultura de Estados Unidos: la carne no se descongela en la mesada.", "estilo": "Informativo, firme."},
+    {"texto": "Tiene tres formas seguras. Una: en la heladera. Es la más segura, pero hay que planear.", "estilo": "Paso uno, práctico."},
+    {"texto": "Dos: en agua fría, en una bolsa que no pierda, cambiando el agua cada treinta minutos.", "estilo": "Paso dos, claro."},
+    {"texto": "Tres: en el microondas, y la cocinás enseguida.", "estilo": "Paso tres, rápido."},
+    {"texto": "Ojo: no la dejes más de dos horas a temperatura ambiente, y solo una hora si hace más de treinta y dos grados.", "estilo": "Matiz honesto, serio pero amable."},
+    {"texto": "Entonces, a la noche, pasá la carne del freezer a la heladera. Listo.", "estilo": "Remate práctico."},
+    {"texto": "Mandáselo a ese que deja el asado en la mesada desde la mañana.", "estilo": "Cómplice, con humor."}
+  ]
+}

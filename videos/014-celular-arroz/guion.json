@@ -1,0 +1,19 @@
+{
+  "titulo": "¿El celular mojado se arregla con arroz?",
+  "fuentes": [
+    "Apple Support: If you see a liquid-detection alert on your iPhone"
+  ],
+  "frases": [
+    {"texto": "Se te cayó el celular al agua. ¿Y qué hacés? ¿Al arroz?", "estilo": "Intriga, como en pánico."},
+    {"texto": "Pará. Apple dice que no.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "La idea del truco es que el arroz chupa la humedad. Suena lógico.", "estilo": "Didáctico, entendiendo al que lo cree."},
+    {"texto": "Pero el soporte de Apple lo dice textual: no pongas el iPhone en una bolsa de arroz.", "estilo": "Informativo, claro."},
+    {"texto": "El motivo: pueden meterse partículas de arroz adentro y dañarlo.", "estilo": "Con un toque de ironía."},
+    {"texto": "Entonces, ¿qué sí? Paso uno: sacalo del cargador y de los cables.", "estilo": "Práctico, paso uno."},
+    {"texto": "Paso dos: golpealo despacito contra la palma, con el conector hacia abajo, para que salga el agua.", "estilo": "Paso dos, claro."},
+    {"texto": "Paso tres: dejalo en un lugar seco, con algo de aire. Sin secador y sin aire comprimido.", "estilo": "Paso tres, firme."},
+    {"texto": "Y esperá al menos treinta minutos antes de cargarlo. Si sigue la alerta, puede tardar hasta un día en secarse.", "estilo": "Paso cuatro, paciente."},
+    {"texto": "Ojo: esto es lo que recomienda Apple para el iPhone. Para otras marcas, mirá lo que dice el fabricante.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Mandáselo a ese que ya tiene el arroz listo en la alacena.", "estilo": "Cómplice, con humor."}
+  ]
+}

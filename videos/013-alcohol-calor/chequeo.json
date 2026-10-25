@@ -1,0 +1,70 @@
+{
+  "veredicto": "rechazado",
+  "motivo": "La atribución al Ministerio de Sanidad de España (PNSD) está verificada y las frases que la citan están bien (el PNSD dice literalmente: 'sensación momentánea de calor al dilatar los vasos sanguíneos... en poco tiempo la temperatura interior del cuerpo disminuye y se siente más frío'). El guion mejoró mucho respecto de la primera versión (ya no usa la revisión de 2024 ni 'el alcohol te enfría'). Queda un problema: la frase 5 ('Pero esa sangre cede su calor al aire, y la temperatura de adentro baja.') y el mismo texto en el caption afirman en voz propia, como hecho categórico, un mecanismo de salud cuya evidencia experimental es mixta (revisión de PubMed 6144116: mayor pérdida de calor por vasodilatación cutánea en frío, sobre todo a dosis altas; el estudio controlado de PubMed 497899 con dosis moderada en agua a 10 C no halló diferencia significativa en el enfriamiento central). Es 'probable' presentada como verificada, y en salud solo se admite verificada. Además 'Por dentro, no te calienta' y 'Lo que no es real es que te estés calentando' son correctas como negación, pero la frase 5 es la que sobrepasa lo respaldado. No pude reabrir esos dos abstracts de PubMed en esta pasada (bloqueo de cookies); el criterio se apoya en la revisión anterior y en el resumen de búsqueda.",
+  "cambios_pedidos": [
+    "Frase 5 y caption: atribuir o matizar, p. ej. 'Pero esa sangre puede ceder su calor al aire, y la temperatura de adentro puede bajar.' o 'Pero esa sangre cede calor al aire, y según Sanidad la temperatura de adentro baja.' (la frase 6 ya lo atribuye bien; basta con quitar el tono categórico de la 5).",
+    "Opcional: en la frase 8 ('abrigate igual') está bien; el PNSD recomienda abrigar a la persona que bebió."
+  ],
+  "afirmaciones": [
+    {
+      "texto": "¿Un traguito para entrar en calor? (pregunta; presupone el mito de que el alcohol da calor)",
+      "fuente": "PNSD, Mitos y realidades del alcohol: mito 'El alcohol hace entrar en calor y combate el frío'. https://pnsd.sanidad.gob.es/ciudadanos/informacion/alcohol/menuAlcohol/mitosRealidades.htm",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Es una sensación. Por dentro, no te calienta.",
+      "fuente": "PNSD Sanidad ('sensación momentánea de calor'; la temperatura interior disminuye); Maldita Ciencia https://maldita.es/malditaciencia/20200827/alcohol-entrar-calor-cuerpo-mito",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El alcohol dilata los vasos de la piel, y la sangre tibia sube hasta la superficie.",
+      "fuente": "PNSD Sanidad ('al dilatar los vasos sanguíneos'); Xataka; PubMed 6144116 (vasodilatación cutánea por etanol)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Por eso te ponés colorado y sentís calor.",
+      "fuente": "PNSD Sanidad (sensación de calor por vasodilatación); Maldita/Xataka",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Pero esa sangre cede su calor al aire, y la temperatura de adentro baja.",
+      "fuente": "PNSD Sanidad respalda 'la temperatura interior disminuye'; el mecanismo de pérdida de calor lo describe PubMed 6144116, pero estudios controlados a dosis moderada son inconsistentes (PubMed 497899: sin diferencia significativa)",
+      "estado": "probable",
+      "matiz_ok": false
+    },
+    {
+      "texto": "El Ministerio de Sanidad de España lo dice así: la sensación de calor es momentánea, y después la temperatura interior baja.",
+      "fuente": "PNSD Sanidad, página de Mitos y realidades del alcohol (cita literal confirmada: 'sensación momentánea de calor... en poco tiempo la temperatura interior del cuerpo disminuye')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: la sensación de calor es real. Lo que no es real es que te estés calentando.",
+      "fuente": "PNSD Sanidad ('sensación momentánea de calor'; temperatura interior disminuye)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si hace frío y tomaste, abrigate igual.",
+      "fuente": "PNSD Sanidad (ante embriaguez 'hay que abrigar y proporcionar calor'); Xataka; recomendación prudente",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mandáselo a ese que dice que el fernet lo abriga. / ¿Vos con qué 'entrabas en calor'? (humor y pregunta, sin afirmación fáctica)",
+      "fuente": "sin fuente primaria (no es afirmación fáctica)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'Fuentes: Plan Nacional sobre Drogas, Ministerio de Sanidad de España.'",
+      "fuente": "https://pnsd.sanidad.gob.es/ciudadanos/informacion/alcohol/menuAlcohol/mitosRealidades.htm (existe y trata el tema)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

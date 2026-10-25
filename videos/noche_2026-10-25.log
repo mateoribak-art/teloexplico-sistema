@@ -101,3 +101,9 @@ Dejé listo el 012 y aparté el 011; no hice un tercer intento porque ya usé lo
 Permisos negados (1):
   Bash: {"command": "sed -i \\\n -e 's|^const SX = 850, SY = 1300;.*|const SX = 940, SY = 1300; // sartén|' \\\n -e 's|^const TX = 110, TY = 1295;.*|const TX
 2026-10-25 11:07 Termina la producción (Claude no terminó bien).
+2026-10-25 15:35 Arranca la producción (7 listos en la cola, meta 10).
+Quedaron listos dos videos, `014-celular-arroz` y `015-descongelar-mesada`, y se apartó uno, `013-alcohol-calor`. No quedó nada incompleto.
+- **Listos:** `014-celular-arroz` (Apple dice que el arroz no sirve para un celular mojado) y `015-descongelar-mesada` (por qué no descongelar la carne en la mesada, con las tres formas seguras del USDA). Los dos pasaron el chequeo de datos de un subagente aparte, la voz, dos vueltas de cuadros, el render y el control.
+- **Apartado:** `013-alcohol-calor` ("el alcohol da calor") fue rechazado dos veces porque que el cuerpo pierda calor es solo probable y es tema de salud. Ya está anotado en `videos/ideas.md` y en `videos/produccion.log`.
+- **Cola y cuota:** hay 9 videos listos, todavía menos de 10, pero no produje un tercero porque el máximo por corrida es 2. La cuota de Gemini no se agotó. Para el 015 el USDA bloqueó la lectura directa de su página, así que el chequeo se apoyó en fragmentos del buscador y en guías de universidades.
+2026-10-25 16:04 Termina la producción (ok).

@@ -1,0 +1,84 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones fácticas (pasos, cifras, prohibiciones y la cita sobre el arroz) están en la página de Apple Support 102643 y se cotejaron además con cobertura periodística de febrero de 2024 (PetaPixel, PopSci, Euronews). No hay afirmaciones probables, dudosas ni falsas. Los temas de salud/seguridad/plata (no cargar mojado, no usar calor externo ni aire comprimido) están verificados. El guion limita el alcance a iPhone y Apple, así que no generaliza a otras marcas. Observaciones menores, sin obligar a cambios: (1) 'secador' es un ejemplo de 'external heat source' que Apple no nombra literalmente; es una lectura correcta y segura. (2) La página se leyó con un resumidor y no se pudo confirmar su fecha de última revisión.",
+  "afirmaciones": [
+    {
+      "texto": "Apple dice que no (poner el celular mojado en arroz) / 'Don't put your iPhone in a bag of rice'",
+      "fuente": "https://support.apple.com/en-us/102643 ('Don't put your iPhone in a bag of rice')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La idea del truco es que el arroz chupa la humedad.",
+      "fuente": "Describe la creencia popular, no afirma que funcione; sin fuente primaria necesaria. Apple no la respalda.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El soporte de Apple lo dice textual: no pongas el iPhone en una bolsa de arroz.",
+      "fuente": "https://support.apple.com/en-us/102643 (cita textual, también en el caption)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El motivo: pueden meterse partículas de arroz adentro y dañarlo.",
+      "fuente": "https://support.apple.com/en-us/102643 ('could allow small particles of rice to damage your iPhone'). 'Pueden' respeta el condicional de Apple.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Paso uno: sacalo del cargador y de los cables.",
+      "fuente": "https://support.apple.com/en-us/102643 ('Unplug the cable from your iPhone...')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Paso dos: golpealo despacito contra la palma, con el conector hacia abajo, para que salga el agua.",
+      "fuente": "https://support.apple.com/en-us/102643 ('Tap your iPhone gently against your hand with the connector facing down to remove excess liquid')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Paso tres: dejalo en un lugar seco, con algo de aire.",
+      "fuente": "https://support.apple.com/en-us/102643 ('Leave your iPhone in a dry area with some airflow')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sin secador y sin aire comprimido.",
+      "fuente": "https://support.apple.com/en-us/102643 ('Don't dry your iPhone using an external heat source or compressed air'). El secador es un caso de fuente externa de calor.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Esperá al menos treinta minutos antes de cargarlo.",
+      "fuente": "https://support.apple.com/en-us/102643 ('After at least 30 minutes, try charging...')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si sigue la alerta, puede tardar hasta un día en secarse.",
+      "fuente": "https://support.apple.com/en-us/102643 ('It might take up to 24 hours to fully dry'). 'Puede' y 'hasta' respetan el matiz de Apple.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Esto es lo que recomienda Apple para el iPhone. Para otras marcas, mirá lo que dice el fabricante.",
+      "fuente": "https://support.apple.com/en-us/102643 (alcance: iPhone). Acota correctamente el alcance.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Lo que sí recomienda Apple: desenchufarlo, golpearlo despacito contra la palma con el conector hacia abajo, dejarlo en un lugar seco con algo de aire (sin secador ni aire comprimido) y esperar al menos treinta minutos antes de cargarlo.",
+      "fuente": "https://support.apple.com/en-us/102643, mismos pasos que el guion.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Fuentes: Apple Support (liquid-detection alert on your iPhone).",
+      "fuente": "https://support.apple.com/en-us/102643 (título coincide)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

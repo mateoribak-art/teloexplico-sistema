@@ -22,4 +22,7 @@
 2026-10-25 | plan B | 010-rayo-mismo-lugar: se retoma (plan B a medias)
 2026-10-25 | plan B | 010-rayo-mismo-lugar: terminado (prueba, queda apartado para revisar)
 2026-10-25 | 011-sal-agua-hierve | apartado | Chequeo rechazado 2 veces (atribución a Live Science no verificable: artículo ilegible, solo resúmenes de búsqueda).
+2026-10-25 | 013-alcohol-calor | apartado | Chequeo rechazado 2 veces (subagente): salud, mecanismo de pérdida de calor solo probable, evidencia mixta. Sin voz ni render.
+2026-10-25 | 014-celular-arroz | listo | Reemplazo de 013. Chequeo aprobado (subagente; fuente Apple Support 102643). Voz 154/154 (58 s), tsc OK, 2 vueltas de cuadros, render 59 s, control OK.
+2026-10-25 | 015-descongelar-mesada | listo | Chequeo aprobado en 2.º intento (subagente; fuente USDA FSIS vía fragmentos y extensiones, página 403). Voz 159/159 (53 s), tsc OK, 2 vueltas de cuadros, render 54 s, control OK.
 2026-10-25 | 012-lavar-pollo | listo | Chequeo aprobado en 2.º intento (subagente; páginas USDA/FSIS dan 403, cifra 60 % confirmada vía NC State/CDC/resúmenes). Voz 150/151 (52 s), tsc OK, 2 vueltas de cuadros, render 53 s, control OK.

@@ -1,0 +1,78 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segunda revisión. Todas las afirmaciones de seguridad alimentaria están verificadas y ninguna es falsa. Se corrigieron los tres problemas del rechazo anterior: la capa externa ahora 'puede quedar' en la zona de peligro (FSIS: 'could be'), la heladera es 'la más segura, pero hay que planear' (sin 'más fácil'), y las dos horas / una hora sobre 32 °C se presentan como lo que dice el USDA, sin 'tirar'. Nota: fsis.usda.gov dio 403 al leer directo; verifiqué con fragmentos del buscador que citan la página Big Thaw y el comunicado FSIS 'Keep clear of the Danger Zone', más extensiones universitarias (Clemson HGIC, MSU Extension E3259, Kansas State).",
+  "afirmaciones": [
+    {
+      "texto": "Es justo lo que no hay que hacer (descongelar la carne en la mesada).",
+      "fuente": "USDA FSIS, The Big Thaw (https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/big-thaw-safe-defrosting-methods): perishable food should never be thawed on the counter. Clemson HGIC: room temperature thawing leaves food in the danger zone too long.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Por fuera se descongela rápido, mientras el centro sigue duro.",
+      "fuente": "USDA FSIS, The Big Thaw: el paquete puede seguir congelado en el centro mientras la capa externa está en la zona de peligro.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Esa capa de afuera puede quedar entre unos cuatro y sesenta grados, donde las bacterias se multiplican rápido (caption: 'zona de peligro', entre unos 4 y 60 grados).",
+      "fuente": "USDA FSIS, The Big Thaw: 'the outer layer of the food could be in the Danger Zone, between 40 and 140 °F'. 40-140 °F = 4,4-60 °C. Clemson HGIC: las bacterias crecen rápido en ese rango.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Lo dice el Departamento de Agricultura de EE. UU. (USDA): la carne no se descongela en la mesada.",
+      "fuente": "USDA FSIS, The Big Thaw (perishable foods should never be thawed on the counter).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Tiene tres formas seguras: heladera, agua fría y microondas.",
+      "fuente": "USDA FSIS, The Big Thaw (refrigerator, cold water, microwave); Clemson HGIC; ACL.gov 'Three Safe Ways to Defrost Food'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heladera: es la más segura, pero hay que planear.",
+      "fuente": "USDA FSIS, The Big Thaw (plan ahead; se mantiene a 40 °F o menos); Clemson HGIC: 'safest', requiere planificar por los tiempos largos.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Agua fría, en una bolsa que no pierda, cambiando el agua cada treinta minutos.",
+      "fuente": "USDA FSIS, The Big Thaw (leak-proof bag, cold water, change every 30 minutes); confirmado en Clemson HGIC y MSU Extension E3259.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Microondas, y la cocinás enseguida.",
+      "fuente": "USDA FSIS, The Big Thaw; Clemson HGIC ('crucial to cook the food immediately after thawing'); MSU Extension E3259; Kansas State Extension.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "No la dejes más de dos horas a temperatura ambiente.",
+      "fuente": "USDA FSIS, The Big Thaw: perishable food must not be left at room temperature for more than 2 hours. Fichas FSIS sobre la zona de peligro: mismo límite de 2 horas.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Solo una hora si hace más de 32 grados (90 °F).",
+      "fuente": "USDA FSIS, comunicado 'USDA urges consumers to keep clear of the Danger Zone this summer' (https://www.fsis.usda.gov/news-events/news-press-releases/usda-urges-consumers-keep-clear-danger-zone-summer): una hora en la zona de peligro con más de 90 °F, dos horas por debajo. 90 °F = 32,2 °C.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "A la noche, pasá la carne del freezer a la heladera.",
+      "fuente": "Consejo práctico derivado del método de heladera de USDA FSIS; no es afirmación fáctica independiente.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: fuente 'USDA FSIS, The Big Thaw: safe defrosting methods'.",
+      "fuente": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/big-thaw-safe-defrosting-methods (la página existe y aparece en el buscador).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

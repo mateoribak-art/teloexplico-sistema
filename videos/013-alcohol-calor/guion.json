@@ -1,0 +1,17 @@
+{
+  "titulo": "¿Tomar alcohol te da calor?",
+  "fuentes": [
+    "Plan Nacional sobre Drogas, Ministerio de Sanidad de España (mitos y realidades del alcohol)"
+  ],
+  "frases": [
+    {"texto": "¿Un traguito para entrar en calor?", "estilo": "Intriga, como quien ofrece una copa."},
+    {"texto": "Es una sensación. Por dentro, no te calienta.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "El alcohol dilata los vasos de la piel, y la sangre tibia sube hasta la superficie.", "estilo": "Didáctico, claro, paso uno."},
+    {"texto": "Por eso te ponés colorado y sentís calor.", "estilo": "Cómplice."},
+    {"texto": "Pero esa sangre cede su calor al aire, y la temperatura de adentro baja.", "estilo": "Paso dos, con un toque de misterio."},
+    {"texto": "El Ministerio de Sanidad de España lo dice así: la sensación de calor es momentánea, y después la temperatura interior baja.", "estilo": "Informativo, tranquilo."},
+    {"texto": "Ojo: la sensación de calor es real. Lo que no es real es que te estés calentando.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Si hace frío y tomaste, abrigate igual.", "estilo": "Práctico, firme pero amable."},
+    {"texto": "Mandáselo a ese que dice que el fernet lo abriga.", "estilo": "Cómplice, con humor."}
+  ]
+}
