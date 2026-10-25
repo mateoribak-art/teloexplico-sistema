@@ -1,0 +1,1122 @@
+{
+ "duracion": 76.48,
+ "frases": [
+  {
+   "texto": "¿Entrás a tu casa muerto de calor y ponés el aire en diecisiete para que enfríe más rápido?",
+   "palabras": [
+    {
+     "texto": "¿Entrás",
+     "inicio": 0.0,
+     "fin": 0.34
+    },
+    {
+     "texto": "a",
+     "inicio": 0.34,
+     "fin": 0.5
+    },
+    {
+     "texto": "tu",
+     "inicio": 0.5,
+     "fin": 0.62
+    },
+    {
+     "texto": "casa",
+     "inicio": 0.62,
+     "fin": 0.88
+    },
+    {
+     "texto": "muerto",
+     "inicio": 0.88,
+     "fin": 1.92
+    },
+    {
+     "texto": "de",
+     "inicio": 1.92,
+     "fin": 2.14
+    },
+    {
+     "texto": "calor",
+     "inicio": 2.14,
+     "fin": 2.48
+    },
+    {
+     "texto": "y",
+     "inicio": 2.48,
+     "fin": 3.18
+    },
+    {
+     "texto": "ponés",
+     "inicio": 3.18,
+     "fin": 3.4
+    },
+    {
+     "texto": "el",
+     "inicio": 3.4,
+     "fin": 3.62
+    },
+    {
+     "texto": "aire",
+     "inicio": 3.62,
+     "fin": 3.82
+    },
+    {
+     "texto": "en",
+     "inicio": 3.82,
+     "fin": 4.02
+    },
+    {
+     "texto": "diecisiete",
+     "inicio": 4.02,
+     "fin": 4.7
+    },
+    {
+     "texto": "para",
+     "inicio": 4.7,
+     "fin": 4.96
+    },
+    {
+     "texto": "que",
+     "inicio": 4.96,
+     "fin": 5.08
+    },
+    {
+     "texto": "enfríe",
+     "inicio": 5.08,
+     "fin": 5.38
+    },
+    {
+     "texto": "más",
+     "inicio": 5.38,
+     "fin": 5.54
+    },
+    {
+     "texto": "rápido?",
+     "inicio": 5.54,
+     "fin": 5.88
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 5.88
+  },
+  {
+   "texto": "Te comiste un verso. En diecisiete no enfría ni un segundo más rápido que en veinticuatro.",
+   "palabras": [
+    {
+     "texto": "Te",
+     "inicio": 6.58,
+     "fin": 6.86
+    },
+    {
+     "texto": "comiste",
+     "inicio": 6.86,
+     "fin": 7.18
+    },
+    {
+     "texto": "un",
+     "inicio": 7.18,
+     "fin": 7.34
+    },
+    {
+     "texto": "verso.",
+     "inicio": 7.34,
+     "fin": 7.62
+    },
+    {
+     "texto": "En",
+     "inicio": 8.18,
+     "fin": 8.32
+    },
+    {
+     "texto": "diecisiete",
+     "inicio": 8.32,
+     "fin": 9.02
+    },
+    {
+     "texto": "no",
+     "inicio": 9.02,
+     "fin": 9.42
+    },
+    {
+     "texto": "enfría",
+     "inicio": 9.42,
+     "fin": 9.84
+    },
+    {
+     "texto": "ni",
+     "inicio": 9.84,
+     "fin": 10.12
+    },
+    {
+     "texto": "un",
+     "inicio": 10.12,
+     "fin": 10.34
+    },
+    {
+     "texto": "segundo",
+     "inicio": 10.34,
+     "fin": 10.78
+    },
+    {
+     "texto": "más",
+     "inicio": 10.78,
+     "fin": 10.98
+    },
+    {
+     "texto": "rápido",
+     "inicio": 10.98,
+     "fin": 11.4
+    },
+    {
+     "texto": "que",
+     "inicio": 11.4,
+     "fin": 11.72
+    },
+    {
+     "texto": "en",
+     "inicio": 11.72,
+     "fin": 11.82
+    },
+    {
+     "texto": "veinticuatro.",
+     "inicio": 11.82,
+     "fin": 12.32
+    }
+   ],
+   "inicio": 6.58,
+   "fin": 12.32
+  },
+  {
+   "texto": "El termostato no es el acelerador. Es el destino.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 12.92,
+     "fin": 13.02
+    },
+    {
+     "texto": "termostato",
+     "inicio": 13.02,
+     "fin": 13.52
+    },
+    {
+     "texto": "no",
+     "inicio": 13.52,
+     "fin": 13.8
+    },
+    {
+     "texto": "es",
+     "inicio": 13.8,
+     "fin": 14.0
+    },
+    {
+     "texto": "el",
+     "inicio": 14.0,
+     "fin": 14.14
+    },
+    {
+     "texto": "acelerador.",
+     "inicio": 14.14,
+     "fin": 14.72
+    },
+    {
+     "texto": "Es",
+     "inicio": 15.14,
+     "fin": 15.36
+    },
+    {
+     "texto": "el",
+     "inicio": 15.36,
+     "fin": 15.5
+    },
+    {
+     "texto": "destino.",
+     "inicio": 15.5,
+     "fin": 15.94
+    }
+   ],
+   "inicio": 12.92,
+   "fin": 15.94
+  },
+  {
+   "texto": "Vos le decís hasta qué temperatura tiene que llegar. No a qué velocidad llega.",
+   "palabras": [
+    {
+     "texto": "Vos",
+     "inicio": 16.56,
+     "fin": 16.7
+    },
+    {
+     "texto": "le",
+     "inicio": 16.7,
+     "fin": 16.84
+    },
+    {
+     "texto": "decís",
+     "inicio": 16.84,
+     "fin": 17.24
+    },
+    {
+     "texto": "hasta",
+     "inicio": 17.24,
+     "fin": 17.58
+    },
+    {
+     "texto": "qué",
+     "inicio": 17.58,
+     "fin": 17.84
+    },
+    {
+     "texto": "temperatura",
+     "inicio": 17.84,
+     "fin": 18.42
+    },
+    {
+     "texto": "tiene",
+     "inicio": 18.42,
+     "fin": 18.74
+    },
+    {
+     "texto": "que",
+     "inicio": 18.74,
+     "fin": 18.86
+    },
+    {
+     "texto": "llegar.",
+     "inicio": 18.86,
+     "fin": 19.16
+    },
+    {
+     "texto": "No",
+     "inicio": 19.72,
+     "fin": 19.84
+    },
+    {
+     "texto": "a",
+     "inicio": 19.84,
+     "fin": 20.04
+    },
+    {
+     "texto": "qué",
+     "inicio": 20.04,
+     "fin": 20.18
+    },
+    {
+     "texto": "velocidad",
+     "inicio": 20.18,
+     "fin": 20.5
+    },
+    {
+     "texto": "llega.",
+     "inicio": 20.5,
+     "fin": 21.06
+    }
+   ],
+   "inicio": 16.56,
+   "fin": 21.06
+  },
+  {
+   "texto": "El equipo arranca a toda potencia igual, le pidas diecisiete o veinticuatro. Enfría al mismo ritmo.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 21.6,
+     "fin": 21.72
+    },
+    {
+     "texto": "equipo",
+     "inicio": 21.72,
+     "fin": 21.94
+    },
+    {
+     "texto": "arranca",
+     "inicio": 21.94,
+     "fin": 22.38
+    },
+    {
+     "texto": "a",
+     "inicio": 22.38,
+     "fin": 22.5
+    },
+    {
+     "texto": "toda",
+     "inicio": 22.5,
+     "fin": 22.66
+    },
+    {
+     "texto": "potencia",
+     "inicio": 22.66,
+     "fin": 23.2
+    },
+    {
+     "texto": "igual,",
+     "inicio": 23.2,
+     "fin": 23.52
+    },
+    {
+     "texto": "le",
+     "inicio": 24.06,
+     "fin": 24.24
+    },
+    {
+     "texto": "pidas",
+     "inicio": 24.24,
+     "fin": 24.48
+    },
+    {
+     "texto": "diecisiete",
+     "inicio": 24.48,
+     "fin": 25.16
+    },
+    {
+     "texto": "o",
+     "inicio": 25.16,
+     "fin": 25.4
+    },
+    {
+     "texto": "veinticuatro.",
+     "inicio": 25.4,
+     "fin": 25.98
+    },
+    {
+     "texto": "Enfría",
+     "inicio": 26.44,
+     "fin": 26.92
+    },
+    {
+     "texto": "al",
+     "inicio": 26.92,
+     "fin": 27.08
+    },
+    {
+     "texto": "mismo",
+     "inicio": 27.08,
+     "fin": 27.28
+    },
+    {
+     "texto": "ritmo.",
+     "inicio": 27.28,
+     "fin": 27.7
+    }
+   ],
+   "inicio": 21.6,
+   "fin": 27.7
+  },
+  {
+   "texto": "Lo único que cambia es cuánto tiempo trabaja: en diecisiete el compresor sigue a full mucho más, buscando un frío que ni querías.",
+   "palabras": [
+    {
+     "texto": "Lo",
+     "inicio": 27.7,
+     "fin": 28.32
+    },
+    {
+     "texto": "único",
+     "inicio": 28.32,
+     "fin": 28.54
+    },
+    {
+     "texto": "que",
+     "inicio": 28.54,
+     "fin": 28.76
+    },
+    {
+     "texto": "cambia",
+     "inicio": 28.76,
+     "fin": 29.2
+    },
+    {
+     "texto": "es",
+     "inicio": 29.2,
+     "fin": 29.54
+    },
+    {
+     "texto": "cuánto",
+     "inicio": 29.54,
+     "fin": 30.06
+    },
+    {
+     "texto": "tiempo",
+     "inicio": 30.06,
+     "fin": 30.3
+    },
+    {
+     "texto": "trabaja:",
+     "inicio": 30.3,
+     "fin": 30.94
+    },
+    {
+     "texto": "en",
+     "inicio": 31.26,
+     "fin": 31.5
+    },
+    {
+     "texto": "diecisiete",
+     "inicio": 31.5,
+     "fin": 32.1
+    },
+    {
+     "texto": "el",
+     "inicio": 32.1,
+     "fin": 32.42
+    },
+    {
+     "texto": "compresor",
+     "inicio": 32.42,
+     "fin": 32.92
+    },
+    {
+     "texto": "sigue",
+     "inicio": 32.92,
+     "fin": 33.18
+    },
+    {
+     "texto": "a",
+     "inicio": 33.18,
+     "fin": 33.32
+    },
+    {
+     "texto": "full",
+     "inicio": 33.32,
+     "fin": 33.48
+    },
+    {
+     "texto": "mucho",
+     "inicio": 33.48,
+     "fin": 34.0
+    },
+    {
+     "texto": "más,",
+     "inicio": 34.0,
+     "fin": 34.26
+    },
+    {
+     "texto": "buscando",
+     "inicio": 34.74,
+     "fin": 35.1
+    },
+    {
+     "texto": "un",
+     "inicio": 35.1,
+     "fin": 35.34
+    },
+    {
+     "texto": "frío",
+     "inicio": 35.34,
+     "fin": 35.62
+    },
+    {
+     "texto": "que",
+     "inicio": 35.62,
+     "fin": 35.8
+    },
+    {
+     "texto": "ni",
+     "inicio": 35.8,
+     "fin": 35.94
+    },
+    {
+     "texto": "querías.",
+     "inicio": 35.94,
+     "fin": 36.36
+    }
+   ],
+   "inicio": 27.7,
+   "fin": 36.36
+  },
+  {
+   "texto": "Y ese ratito de más se paga: la Secretaría de Energía dice que cada grado que bajás de veinticuatro suma como un ocho por ciento de consumo.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 36.86,
+     "fin": 37.1
+    },
+    {
+     "texto": "ese",
+     "inicio": 37.1,
+     "fin": 37.32
+    },
+    {
+     "texto": "ratito",
+     "inicio": 37.32,
+     "fin": 37.74
+    },
+    {
+     "texto": "de",
+     "inicio": 37.74,
+     "fin": 37.876
+    },
+    {
+     "texto": "más",
+     "inicio": 37.876,
+     "fin": 38.08
+    },
+    {
+     "texto": "se",
+     "inicio": 38.08,
+     "fin": 38.54
+    },
+    {
+     "texto": "paga:",
+     "inicio": 38.54,
+     "fin": 38.86
+    },
+    {
+     "texto": "la",
+     "inicio": 39.34,
+     "fin": 39.54
+    },
+    {
+     "texto": "Secretaría",
+     "inicio": 39.54,
+     "fin": 40.08
+    },
+    {
+     "texto": "de",
+     "inicio": 40.08,
+     "fin": 40.22
+    },
+    {
+     "texto": "Energía",
+     "inicio": 40.22,
+     "fin": 40.62
+    },
+    {
+     "texto": "dice",
+     "inicio": 40.62,
+     "fin": 40.94
+    },
+    {
+     "texto": "que",
+     "inicio": 40.94,
+     "fin": 41.16
+    },
+    {
+     "texto": "cada",
+     "inicio": 41.16,
+     "fin": 41.5
+    },
+    {
+     "texto": "grado",
+     "inicio": 41.5,
+     "fin": 41.88
+    },
+    {
+     "texto": "que",
+     "inicio": 41.88,
+     "fin": 42.06
+    },
+    {
+     "texto": "bajás",
+     "inicio": 42.06,
+     "fin": 42.34
+    },
+    {
+     "texto": "de",
+     "inicio": 42.34,
+     "fin": 42.46
+    },
+    {
+     "texto": "veinticuatro",
+     "inicio": 42.46,
+     "fin": 43.12
+    },
+    {
+     "texto": "suma",
+     "inicio": 43.12,
+     "fin": 44.02
+    },
+    {
+     "texto": "como",
+     "inicio": 44.02,
+     "fin": 44.3
+    },
+    {
+     "texto": "un",
+     "inicio": 44.3,
+     "fin": 44.58
+    },
+    {
+     "texto": "ocho",
+     "inicio": 44.58,
+     "fin": 45.02
+    },
+    {
+     "texto": "por",
+     "inicio": 45.02,
+     "fin": 45.22
+    },
+    {
+     "texto": "ciento",
+     "inicio": 45.22,
+     "fin": 45.46
+    },
+    {
+     "texto": "de",
+     "inicio": 45.46,
+     "fin": 45.66
+    },
+    {
+     "texto": "consumo.",
+     "inicio": 45.66,
+     "fin": 46.08
+    }
+   ],
+   "inicio": 36.86,
+   "fin": 46.08
+  },
+  {
+   "texto": "¿Por qué caemos? Lo pensamos como la hornalla: más número, más fuerza. Pero el aire no va así.",
+   "palabras": [
+    {
+     "texto": "¿Por",
+     "inicio": 46.6,
+     "fin": 46.76
+    },
+    {
+     "texto": "qué",
+     "inicio": 46.76,
+     "fin": 46.88
+    },
+    {
+     "texto": "caemos?",
+     "inicio": 46.88,
+     "fin": 47.22
+    },
+    {
+     "texto": "Lo",
+     "inicio": 47.84,
+     "fin": 48.02
+    },
+    {
+     "texto": "pensamos",
+     "inicio": 48.02,
+     "fin": 48.36
+    },
+    {
+     "texto": "como",
+     "inicio": 48.36,
+     "fin": 48.6
+    },
+    {
+     "texto": "la",
+     "inicio": 48.6,
+     "fin": 48.74
+    },
+    {
+     "texto": "hornalla:",
+     "inicio": 48.74,
+     "fin": 49.2
+    },
+    {
+     "texto": "más",
+     "inicio": 49.68,
+     "fin": 49.96
+    },
+    {
+     "texto": "número,",
+     "inicio": 49.96,
+     "fin": 50.32
+    },
+    {
+     "texto": "más",
+     "inicio": 50.8,
+     "fin": 50.9
+    },
+    {
+     "texto": "fuerza.",
+     "inicio": 50.9,
+     "fin": 51.22
+    },
+    {
+     "texto": "Pero",
+     "inicio": 51.76,
+     "fin": 51.98
+    },
+    {
+     "texto": "el",
+     "inicio": 51.98,
+     "fin": 52.14
+    },
+    {
+     "texto": "aire",
+     "inicio": 52.14,
+     "fin": 52.28
+    },
+    {
+     "texto": "no",
+     "inicio": 52.28,
+     "fin": 52.52
+    },
+    {
+     "texto": "va",
+     "inicio": 52.52,
+     "fin": 52.64
+    },
+    {
+     "texto": "así.",
+     "inicio": 52.64,
+     "fin": 52.92
+    }
+   ],
+   "inicio": 46.6,
+   "fin": 52.92
+  },
+  {
+   "texto": "Ojo: si dejás una ventana abierta o entra el sol, no llega a ningún número. Ahí sí tenés un problema, pero no es el termostato.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 52.92,
+     "fin": 53.7
+    },
+    {
+     "texto": "si",
+     "inicio": 54.06,
+     "fin": 54.18
+    },
+    {
+     "texto": "dejás",
+     "inicio": 54.18,
+     "fin": 54.48
+    },
+    {
+     "texto": "una",
+     "inicio": 54.48,
+     "fin": 54.66
+    },
+    {
+     "texto": "ventana",
+     "inicio": 54.66,
+     "fin": 55.04
+    },
+    {
+     "texto": "abierta",
+     "inicio": 55.04,
+     "fin": 55.7
+    },
+    {
+     "texto": "o",
+     "inicio": 55.7,
+     "fin": 56.02
+    },
+    {
+     "texto": "entra",
+     "inicio": 56.02,
+     "fin": 56.26
+    },
+    {
+     "texto": "el",
+     "inicio": 56.26,
+     "fin": 56.42
+    },
+    {
+     "texto": "sol,",
+     "inicio": 56.42,
+     "fin": 56.7
+    },
+    {
+     "texto": "no",
+     "inicio": 56.96,
+     "fin": 57.16
+    },
+    {
+     "texto": "llega",
+     "inicio": 57.16,
+     "fin": 57.4
+    },
+    {
+     "texto": "a",
+     "inicio": 57.4,
+     "fin": 57.56
+    },
+    {
+     "texto": "ningún",
+     "inicio": 57.56,
+     "fin": 57.8
+    },
+    {
+     "texto": "número.",
+     "inicio": 57.8,
+     "fin": 58.2
+    },
+    {
+     "texto": "Ahí",
+     "inicio": 58.72,
+     "fin": 58.86
+    },
+    {
+     "texto": "sí",
+     "inicio": 58.86,
+     "fin": 58.98
+    },
+    {
+     "texto": "tenés",
+     "inicio": 58.98,
+     "fin": 59.26
+    },
+    {
+     "texto": "un",
+     "inicio": 59.26,
+     "fin": 59.36
+    },
+    {
+     "texto": "problema,",
+     "inicio": 59.36,
+     "fin": 59.76
+    },
+    {
+     "texto": "pero",
+     "inicio": 60.02,
+     "fin": 60.2
+    },
+    {
+     "texto": "no",
+     "inicio": 60.2,
+     "fin": 60.34
+    },
+    {
+     "texto": "es",
+     "inicio": 60.34,
+     "fin": 60.44
+    },
+    {
+     "texto": "el",
+     "inicio": 60.44,
+     "fin": 60.56
+    },
+    {
+     "texto": "termostato.",
+     "inicio": 60.56,
+     "fin": 61.08
+    }
+   ],
+   "inicio": 52.92,
+   "fin": 61.08
+  },
+  {
+   "texto": "La regla: ponelo en veinticuatro y cerrá puertas y ventanas. Enfría igual de rápido y gastás bastante menos.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 61.6,
+     "fin": 61.78
+    },
+    {
+     "texto": "regla:",
+     "inicio": 61.78,
+     "fin": 62.12
+    },
+    {
+     "texto": "ponelo",
+     "inicio": 62.6,
+     "fin": 62.96
+    },
+    {
+     "texto": "en",
+     "inicio": 62.96,
+     "fin": 63.06
+    },
+    {
+     "texto": "veinticuatro",
+     "inicio": 63.06,
+     "fin": 63.72
+    },
+    {
+     "texto": "y",
+     "inicio": 63.72,
+     "fin": 64.02
+    },
+    {
+     "texto": "cerrá",
+     "inicio": 64.02,
+     "fin": 64.3
+    },
+    {
+     "texto": "puertas",
+     "inicio": 64.3,
+     "fin": 64.68
+    },
+    {
+     "texto": "y",
+     "inicio": 64.68,
+     "fin": 64.86
+    },
+    {
+     "texto": "ventanas.",
+     "inicio": 64.86,
+     "fin": 65.28
+    },
+    {
+     "texto": "Enfría",
+     "inicio": 65.84,
+     "fin": 66.26
+    },
+    {
+     "texto": "igual",
+     "inicio": 66.26,
+     "fin": 66.5
+    },
+    {
+     "texto": "de",
+     "inicio": 66.5,
+     "fin": 66.7
+    },
+    {
+     "texto": "rápido",
+     "inicio": 66.7,
+     "fin": 67.02
+    },
+    {
+     "texto": "y",
+     "inicio": 67.02,
+     "fin": 67.52
+    },
+    {
+     "texto": "gastás",
+     "inicio": 67.52,
+     "fin": 68.22
+    },
+    {
+     "texto": "bastante",
+     "inicio": 68.22,
+     "fin": 68.22
+    },
+    {
+     "texto": "menos.",
+     "inicio": 68.22,
+     "fin": 68.52
+    }
+   ],
+   "inicio": 61.6,
+   "fin": 68.52
+  },
+  {
+   "texto": "Así que bajale el numerito… al verso que te vendieron. Mandáselo a ese que pone el aire en diecisiete para que enfríe más rápido.",
+   "palabras": [
+    {
+     "texto": "Así",
+     "inicio": 69.14,
+     "fin": 69.36
+    },
+    {
+     "texto": "que",
+     "inicio": 69.36,
+     "fin": 69.52
+    },
+    {
+     "texto": "bajale",
+     "inicio": 69.52,
+     "fin": 69.92
+    },
+    {
+     "texto": "el",
+     "inicio": 69.92,
+     "fin": 70.04
+    },
+    {
+     "texto": "numerito…",
+     "inicio": 70.04,
+     "fin": 70.58
+    },
+    {
+     "texto": "al",
+     "inicio": 70.58,
+     "fin": 71.24
+    },
+    {
+     "texto": "verso",
+     "inicio": 71.24,
+     "fin": 71.48
+    },
+    {
+     "texto": "que",
+     "inicio": 71.48,
+     "fin": 71.66
+    },
+    {
+     "texto": "te",
+     "inicio": 71.66,
+     "fin": 71.78
+    },
+    {
+     "texto": "vendieron.",
+     "inicio": 71.78,
+     "fin": 72.2
+    },
+    {
+     "texto": "Mandáselo",
+     "inicio": 72.74,
+     "fin": 73.28
+    },
+    {
+     "texto": "a",
+     "inicio": 73.28,
+     "fin": 73.36
+    },
+    {
+     "texto": "ese",
+     "inicio": 73.36,
+     "fin": 73.52
+    },
+    {
+     "texto": "que",
+     "inicio": 73.52,
+     "fin": 73.68
+    },
+    {
+     "texto": "pone",
+     "inicio": 73.68,
+     "fin": 73.92
+    },
+    {
+     "texto": "el",
+     "inicio": 73.92,
+     "fin": 74.06
+    },
+    {
+     "texto": "aire",
+     "inicio": 74.06,
+     "fin": 74.18
+    },
+    {
+     "texto": "en",
+     "inicio": 74.18,
+     "fin": 74.32
+    },
+    {
+     "texto": "diecisiete",
+     "inicio": 74.32,
+     "fin": 74.9
+    },
+    {
+     "texto": "para",
+     "inicio": 74.9,
+     "fin": 75.42
+    },
+    {
+     "texto": "que",
+     "inicio": 75.42,
+     "fin": 75.56
+    },
+    {
+     "texto": "enfríe",
+     "inicio": 75.56,
+     "fin": 75.88
+    },
+    {
+     "texto": "más",
+     "inicio": 75.88,
+     "fin": 76.0
+    },
+    {
+     "texto": "rápido.",
+     "inicio": 76.0,
+     "fin": 76.34
+    }
+   ],
+   "inicio": 69.14,
+   "fin": 76.34
+  }
+ ]
+}

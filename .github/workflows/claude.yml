@@ -87,6 +87,7 @@ jobs:
           pip install -q -r herramientas/nube/requirements.txt
           npm install -g @anthropic-ai/claude-code > /dev/null
           chmod +x herramientas/tlx
+          python -I herramientas/sincronizar.py bajar-voces   # videos a medias: se sigue sin regenerar la voz
           # sin "confianza" en la carpeta, Claude ignora los permisos de .claude/settings.json y no puede usar las herramientas
           python - <<'EOF'
           import json, os

@@ -1,0 +1,1175 @@
+{
+ "duracion": 81.96,
+ "frases": [
+  {
+   "texto": "La ARMY argentina esperó trece años para ver a BTS. ¿Por qué tardaron tanto?",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 0.0,
+     "fin": 0.26
+    },
+    {
+     "texto": "ARMY",
+     "inicio": 0.26,
+     "fin": 0.6
+    },
+    {
+     "texto": "argentina",
+     "inicio": 0.6,
+     "fin": 1.22
+    },
+    {
+     "texto": "esperó",
+     "inicio": 1.22,
+     "fin": 2.08
+    },
+    {
+     "texto": "trece",
+     "inicio": 2.08,
+     "fin": 2.78
+    },
+    {
+     "texto": "años",
+     "inicio": 2.78,
+     "fin": 3.2
+    },
+    {
+     "texto": "para",
+     "inicio": 3.2,
+     "fin": 3.66
+    },
+    {
+     "texto": "ver",
+     "inicio": 3.66,
+     "fin": 3.86
+    },
+    {
+     "texto": "a",
+     "inicio": 3.86,
+     "fin": 3.94
+    },
+    {
+     "texto": "BTS.",
+     "inicio": 3.94,
+     "fin": 4.2
+    },
+    {
+     "texto": "¿Por",
+     "inicio": 4.96,
+     "fin": 5.1
+    },
+    {
+     "texto": "qué",
+     "inicio": 5.1,
+     "fin": 5.24
+    },
+    {
+     "texto": "tardaron",
+     "inicio": 5.24,
+     "fin": 5.68
+    },
+    {
+     "texto": "tanto?",
+     "inicio": 5.68,
+     "fin": 6.0
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 6.0
+  },
+  {
+   "texto": "Y no, no fue por falta de fans.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 6.6,
+     "fin": 7.22
+    },
+    {
+     "texto": "no,",
+     "inicio": 7.22,
+     "fin": 7.36
+    },
+    {
+     "texto": "no",
+     "inicio": 7.72,
+     "fin": 7.96
+    },
+    {
+     "texto": "fue",
+     "inicio": 7.96,
+     "fin": 8.14
+    },
+    {
+     "texto": "por",
+     "inicio": 8.14,
+     "fin": 8.3
+    },
+    {
+     "texto": "falta",
+     "inicio": 8.3,
+     "fin": 8.54
+    },
+    {
+     "texto": "de",
+     "inicio": 8.54,
+     "fin": 8.7
+    },
+    {
+     "texto": "fans.",
+     "inicio": 8.7,
+     "fin": 8.9
+    }
+   ],
+   "inicio": 6.6,
+   "fin": 8.9
+  },
+  {
+   "texto": "BTS debutó en Corea del Sur en junio de dos mil trece.",
+   "palabras": [
+    {
+     "texto": "BTS",
+     "inicio": 9.46,
+     "fin": 9.88
+    },
+    {
+     "texto": "debutó",
+     "inicio": 9.88,
+     "fin": 10.58
+    },
+    {
+     "texto": "en",
+     "inicio": 10.58,
+     "fin": 10.68
+    },
+    {
+     "texto": "Corea",
+     "inicio": 10.68,
+     "fin": 11.06
+    },
+    {
+     "texto": "del",
+     "inicio": 11.06,
+     "fin": 11.24
+    },
+    {
+     "texto": "Sur",
+     "inicio": 11.24,
+     "fin": 11.54
+    },
+    {
+     "texto": "en",
+     "inicio": 11.54,
+     "fin": 12.1
+    },
+    {
+     "texto": "junio",
+     "inicio": 12.1,
+     "fin": 12.62
+    },
+    {
+     "texto": "de",
+     "inicio": 12.62,
+     "fin": 12.74
+    },
+    {
+     "texto": "dos",
+     "inicio": 12.74,
+     "fin": 12.88
+    },
+    {
+     "texto": "mil",
+     "inicio": 12.88,
+     "fin": 13.06
+    },
+    {
+     "texto": "trece.",
+     "inicio": 13.06,
+     "fin": 13.46
+    }
+   ],
+   "inicio": 9.46,
+   "fin": 13.46
+  },
+  {
+   "texto": "En Latinoamérica empezaron por Brasil: fueron en dos mil catorce, quince, diecisiete y diecinueve.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 13.92,
+     "fin": 14.06
+    },
+    {
+     "texto": "Latinoamérica",
+     "inicio": 14.06,
+     "fin": 14.78
+    },
+    {
+     "texto": "empezaron",
+     "inicio": 14.78,
+     "fin": 15.52
+    },
+    {
+     "texto": "por",
+     "inicio": 15.52,
+     "fin": 15.72
+    },
+    {
+     "texto": "Brasil:",
+     "inicio": 15.72,
+     "fin": 16.08
+    },
+    {
+     "texto": "fueron",
+     "inicio": 16.62,
+     "fin": 16.92
+    },
+    {
+     "texto": "en",
+     "inicio": 16.92,
+     "fin": 17.04
+    },
+    {
+     "texto": "dos",
+     "inicio": 17.04,
+     "fin": 17.24
+    },
+    {
+     "texto": "mil",
+     "inicio": 17.24,
+     "fin": 17.36
+    },
+    {
+     "texto": "catorce,",
+     "inicio": 17.36,
+     "fin": 18.02
+    },
+    {
+     "texto": "quince,",
+     "inicio": 18.62,
+     "fin": 19.04
+    },
+    {
+     "texto": "diecisiete",
+     "inicio": 19.62,
+     "fin": 20.22
+    },
+    {
+     "texto": "y",
+     "inicio": 20.22,
+     "fin": 20.76
+    },
+    {
+     "texto": "diecinueve.",
+     "inicio": 20.76,
+     "fin": 21.38
+    }
+   ],
+   "inicio": 13.92,
+   "fin": 21.38
+  },
+  {
+   "texto": "A la Argentina, en cambio, nunca le tocó.",
+   "palabras": [
+    {
+     "texto": "A",
+     "inicio": 21.84,
+     "fin": 21.873
+    },
+    {
+     "texto": "la",
+     "inicio": 21.873,
+     "fin": 21.94
+    },
+    {
+     "texto": "Argentina,",
+     "inicio": 21.94,
+     "fin": 22.38
+    },
+    {
+     "texto": "en",
+     "inicio": 22.38,
+     "fin": 22.525
+    },
+    {
+     "texto": "cambio,",
+     "inicio": 22.525,
+     "fin": 22.96
+    },
+    {
+     "texto": "nunca",
+     "inicio": 23.5,
+     "fin": 23.94
+    },
+    {
+     "texto": "le",
+     "inicio": 23.94,
+     "fin": 24.06
+    },
+    {
+     "texto": "tocó.",
+     "inicio": 24.06,
+     "fin": 24.36
+    }
+   ],
+   "inicio": 21.84,
+   "fin": 24.36
+  },
+  {
+   "texto": "En dos mil veinte tenían una gira mundial enorme, y la pandemia se la llevó puesta.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 24.84,
+     "fin": 24.92
+    },
+    {
+     "texto": "dos",
+     "inicio": 24.92,
+     "fin": 25.06
+    },
+    {
+     "texto": "mil",
+     "inicio": 25.06,
+     "fin": 25.22
+    },
+    {
+     "texto": "veinte",
+     "inicio": 25.22,
+     "fin": 25.54
+    },
+    {
+     "texto": "tenían",
+     "inicio": 25.54,
+     "fin": 25.92
+    },
+    {
+     "texto": "una",
+     "inicio": 25.92,
+     "fin": 26.12
+    },
+    {
+     "texto": "gira",
+     "inicio": 26.12,
+     "fin": 26.42
+    },
+    {
+     "texto": "mundial",
+     "inicio": 26.42,
+     "fin": 26.98
+    },
+    {
+     "texto": "enorme,",
+     "inicio": 26.98,
+     "fin": 27.72
+    },
+    {
+     "texto": "y",
+     "inicio": 28.2,
+     "fin": 28.5
+    },
+    {
+     "texto": "la",
+     "inicio": 28.5,
+     "fin": 28.6
+    },
+    {
+     "texto": "pandemia",
+     "inicio": 28.6,
+     "fin": 29.0
+    },
+    {
+     "texto": "se",
+     "inicio": 29.0,
+     "fin": 29.8
+    },
+    {
+     "texto": "la",
+     "inicio": 29.8,
+     "fin": 29.92
+    },
+    {
+     "texto": "llevó",
+     "inicio": 29.92,
+     "fin": 30.2
+    },
+    {
+     "texto": "puesta.",
+     "inicio": 30.2,
+     "fin": 30.56
+    }
+   ],
+   "inicio": 24.84,
+   "fin": 30.56
+  },
+  {
+   "texto": "Después llegó el obstáculo más grande: el servicio militar obligatorio.",
+   "palabras": [
+    {
+     "texto": "Después",
+     "inicio": 31.0,
+     "fin": 31.4
+    },
+    {
+     "texto": "llegó",
+     "inicio": 31.4,
+     "fin": 32.08
+    },
+    {
+     "texto": "el",
+     "inicio": 32.08,
+     "fin": 32.22
+    },
+    {
+     "texto": "obstáculo",
+     "inicio": 32.22,
+     "fin": 32.62
+    },
+    {
+     "texto": "más",
+     "inicio": 32.62,
+     "fin": 32.98
+    },
+    {
+     "texto": "grande:",
+     "inicio": 32.98,
+     "fin": 33.4
+    },
+    {
+     "texto": "el",
+     "inicio": 33.98,
+     "fin": 34.08
+    },
+    {
+     "texto": "servicio",
+     "inicio": 34.08,
+     "fin": 34.42
+    },
+    {
+     "texto": "militar",
+     "inicio": 34.42,
+     "fin": 35.08
+    },
+    {
+     "texto": "obligatorio.",
+     "inicio": 35.08,
+     "fin": 35.96
+    }
+   ],
+   "inicio": 31.0,
+   "fin": 35.96
+  },
+  {
+   "texto": "En Corea del Sur, los varones tienen que servir entre dieciocho y veintiún meses, y ni las estrellas del pop se salvan.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 36.5,
+     "fin": 36.62
+    },
+    {
+     "texto": "Corea",
+     "inicio": 36.62,
+     "fin": 36.92
+    },
+    {
+     "texto": "del",
+     "inicio": 36.92,
+     "fin": 37.08
+    },
+    {
+     "texto": "Sur,",
+     "inicio": 37.08,
+     "fin": 37.34
+    },
+    {
+     "texto": "los",
+     "inicio": 37.8,
+     "fin": 37.92
+    },
+    {
+     "texto": "varones",
+     "inicio": 37.92,
+     "fin": 38.22
+    },
+    {
+     "texto": "tienen",
+     "inicio": 38.22,
+     "fin": 38.5
+    },
+    {
+     "texto": "que",
+     "inicio": 38.5,
+     "fin": 38.66
+    },
+    {
+     "texto": "servir",
+     "inicio": 38.66,
+     "fin": 38.92
+    },
+    {
+     "texto": "entre",
+     "inicio": 38.92,
+     "fin": 39.28
+    },
+    {
+     "texto": "dieciocho",
+     "inicio": 39.28,
+     "fin": 40.12
+    },
+    {
+     "texto": "y",
+     "inicio": 40.12,
+     "fin": 40.5
+    },
+    {
+     "texto": "veintiún",
+     "inicio": 40.5,
+     "fin": 40.96
+    },
+    {
+     "texto": "meses,",
+     "inicio": 40.96,
+     "fin": 41.32
+    },
+    {
+     "texto": "y",
+     "inicio": 41.82,
+     "fin": 42.04
+    },
+    {
+     "texto": "ni",
+     "inicio": 42.04,
+     "fin": 42.1
+    },
+    {
+     "texto": "las",
+     "inicio": 42.1,
+     "fin": 42.28
+    },
+    {
+     "texto": "estrellas",
+     "inicio": 42.28,
+     "fin": 42.68
+    },
+    {
+     "texto": "del",
+     "inicio": 42.68,
+     "fin": 42.8
+    },
+    {
+     "texto": "pop",
+     "inicio": 42.8,
+     "fin": 42.96
+    },
+    {
+     "texto": "se",
+     "inicio": 42.96,
+     "fin": 43.14
+    },
+    {
+     "texto": "salvan.",
+     "inicio": 43.14,
+     "fin": 43.5
+    }
+   ],
+   "inicio": 36.5,
+   "fin": 43.5
+  },
+  {
+   "texto": "Jin entró primero, a fines de dos mil veintidós, y después fueron entrando los demás.",
+   "palabras": [
+    {
+     "texto": "Jin",
+     "inicio": 43.96,
+     "fin": 44.26
+    },
+    {
+     "texto": "entró",
+     "inicio": 44.26,
+     "fin": 44.52
+    },
+    {
+     "texto": "primero,",
+     "inicio": 44.52,
+     "fin": 44.84
+    },
+    {
+     "texto": "a",
+     "inicio": 45.26,
+     "fin": 45.36
+    },
+    {
+     "texto": "fines",
+     "inicio": 45.36,
+     "fin": 45.52
+    },
+    {
+     "texto": "de",
+     "inicio": 45.52,
+     "fin": 45.7
+    },
+    {
+     "texto": "dos",
+     "inicio": 45.7,
+     "fin": 45.812
+    },
+    {
+     "texto": "mil",
+     "inicio": 45.812,
+     "fin": 45.924
+    },
+    {
+     "texto": "veintidós,",
+     "inicio": 45.924,
+     "fin": 46.26
+    },
+    {
+     "texto": "y",
+     "inicio": 46.82,
+     "fin": 47.1
+    },
+    {
+     "texto": "después",
+     "inicio": 47.1,
+     "fin": 47.28
+    },
+    {
+     "texto": "fueron",
+     "inicio": 47.28,
+     "fin": 47.56
+    },
+    {
+     "texto": "entrando",
+     "inicio": 47.56,
+     "fin": 47.84
+    },
+    {
+     "texto": "los",
+     "inicio": 47.84,
+     "fin": 48.06
+    },
+    {
+     "texto": "demás.",
+     "inicio": 48.06,
+     "fin": 48.26
+    }
+   ],
+   "inicio": 43.96,
+   "fin": 48.26
+  },
+  {
+   "texto": "Recién en junio de dos mil veinticinco salió el último, Suga, y los siete volvieron a estar libres.",
+   "palabras": [
+    {
+     "texto": "Recién",
+     "inicio": 48.82,
+     "fin": 49.26
+    },
+    {
+     "texto": "en",
+     "inicio": 49.26,
+     "fin": 49.38
+    },
+    {
+     "texto": "junio",
+     "inicio": 49.38,
+     "fin": 49.82
+    },
+    {
+     "texto": "de",
+     "inicio": 49.82,
+     "fin": 49.92
+    },
+    {
+     "texto": "dos",
+     "inicio": 49.92,
+     "fin": 50.04
+    },
+    {
+     "texto": "mil",
+     "inicio": 50.04,
+     "fin": 50.16
+    },
+    {
+     "texto": "veinticinco",
+     "inicio": 50.16,
+     "fin": 50.6
+    },
+    {
+     "texto": "salió",
+     "inicio": 50.6,
+     "fin": 51.18
+    },
+    {
+     "texto": "el",
+     "inicio": 51.18,
+     "fin": 51.28
+    },
+    {
+     "texto": "último,",
+     "inicio": 51.28,
+     "fin": 51.56
+    },
+    {
+     "texto": "Suga,",
+     "inicio": 51.94,
+     "fin": 52.18
+    },
+    {
+     "texto": "y",
+     "inicio": 52.18,
+     "fin": 52.82
+    },
+    {
+     "texto": "los",
+     "inicio": 52.82,
+     "fin": 52.94
+    },
+    {
+     "texto": "siete",
+     "inicio": 52.94,
+     "fin": 53.28
+    },
+    {
+     "texto": "volvieron",
+     "inicio": 53.28,
+     "fin": 53.88
+    },
+    {
+     "texto": "a",
+     "inicio": 53.88,
+     "fin": 54.04
+    },
+    {
+     "texto": "estar",
+     "inicio": 54.04,
+     "fin": 54.18
+    },
+    {
+     "texto": "libres.",
+     "inicio": 54.18,
+     "fin": 54.56
+    }
+   ],
+   "inicio": 48.82,
+   "fin": 54.56
+  },
+  {
+   "texto": "Con la banda completa armaron la gira ARIRANG, y por primera vez la Argentina entró en el mapa.",
+   "palabras": [
+    {
+     "texto": "Con",
+     "inicio": 54.98,
+     "fin": 55.2
+    },
+    {
+     "texto": "la",
+     "inicio": 55.2,
+     "fin": 55.32
+    },
+    {
+     "texto": "banda",
+     "inicio": 55.32,
+     "fin": 55.52
+    },
+    {
+     "texto": "completa",
+     "inicio": 55.52,
+     "fin": 56.0
+    },
+    {
+     "texto": "armaron",
+     "inicio": 56.0,
+     "fin": 56.52
+    },
+    {
+     "texto": "la",
+     "inicio": 56.52,
+     "fin": 56.68
+    },
+    {
+     "texto": "gira",
+     "inicio": 56.68,
+     "fin": 56.92
+    },
+    {
+     "texto": "ARIRANG,",
+     "inicio": 56.92,
+     "fin": 57.64
+    },
+    {
+     "texto": "y",
+     "inicio": 58.02,
+     "fin": 58.3
+    },
+    {
+     "texto": "por",
+     "inicio": 58.3,
+     "fin": 58.52
+    },
+    {
+     "texto": "primera",
+     "inicio": 58.52,
+     "fin": 58.9
+    },
+    {
+     "texto": "vez",
+     "inicio": 58.9,
+     "fin": 59.14
+    },
+    {
+     "texto": "la",
+     "inicio": 59.14,
+     "fin": 59.28
+    },
+    {
+     "texto": "Argentina",
+     "inicio": 59.28,
+     "fin": 59.62
+    },
+    {
+     "texto": "entró",
+     "inicio": 59.62,
+     "fin": 59.94
+    },
+    {
+     "texto": "en",
+     "inicio": 59.94,
+     "fin": 60.04
+    },
+    {
+     "texto": "el",
+     "inicio": 60.04,
+     "fin": 60.14
+    },
+    {
+     "texto": "mapa.",
+     "inicio": 60.14,
+     "fin": 60.34
+    }
+   ],
+   "inicio": 54.98,
+   "fin": 60.34
+  },
+  {
+   "texto": "Tres noches en el Estadio Único de La Plata.",
+   "palabras": [
+    {
+     "texto": "Tres",
+     "inicio": 60.76,
+     "fin": 61.1
+    },
+    {
+     "texto": "noches",
+     "inicio": 61.1,
+     "fin": 61.56
+    },
+    {
+     "texto": "en",
+     "inicio": 61.56,
+     "fin": 61.72
+    },
+    {
+     "texto": "el",
+     "inicio": 61.72,
+     "fin": 61.84
+    },
+    {
+     "texto": "Estadio",
+     "inicio": 61.84,
+     "fin": 62.24
+    },
+    {
+     "texto": "Único",
+     "inicio": 62.24,
+     "fin": 62.5
+    },
+    {
+     "texto": "de",
+     "inicio": 62.5,
+     "fin": 62.7
+    },
+    {
+     "texto": "La",
+     "inicio": 62.7,
+     "fin": 62.82
+    },
+    {
+     "texto": "Plata.",
+     "inicio": 62.82,
+     "fin": 63.1
+    }
+   ],
+   "inicio": 60.76,
+   "fin": 63.1
+  },
+  {
+   "texto": "Ojo: Jin ya había pisado River en octubre de dos mil veintidós, como invitado de Coldplay, justo antes de entrar al servicio. Pero los siete juntos, nunca.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 63.64,
+     "fin": 63.94
+    },
+    {
+     "texto": "Jin",
+     "inicio": 64.5,
+     "fin": 64.72
+    },
+    {
+     "texto": "ya",
+     "inicio": 64.72,
+     "fin": 65.2
+    },
+    {
+     "texto": "había",
+     "inicio": 65.2,
+     "fin": 65.34
+    },
+    {
+     "texto": "pisado",
+     "inicio": 65.34,
+     "fin": 65.72
+    },
+    {
+     "texto": "River",
+     "inicio": 65.72,
+     "fin": 66.0
+    },
+    {
+     "texto": "en",
+     "inicio": 66.0,
+     "fin": 66.2
+    },
+    {
+     "texto": "octubre",
+     "inicio": 66.2,
+     "fin": 66.62
+    },
+    {
+     "texto": "de",
+     "inicio": 66.62,
+     "fin": 66.76
+    },
+    {
+     "texto": "dos",
+     "inicio": 66.76,
+     "fin": 66.888
+    },
+    {
+     "texto": "mil",
+     "inicio": 66.888,
+     "fin": 67.016
+    },
+    {
+     "texto": "veintidós,",
+     "inicio": 67.016,
+     "fin": 67.4
+    },
+    {
+     "texto": "como",
+     "inicio": 67.72,
+     "fin": 67.96
+    },
+    {
+     "texto": "invitado",
+     "inicio": 67.96,
+     "fin": 68.34
+    },
+    {
+     "texto": "de",
+     "inicio": 68.34,
+     "fin": 68.52
+    },
+    {
+     "texto": "Coldplay,",
+     "inicio": 68.52,
+     "fin": 68.88
+    },
+    {
+     "texto": "justo",
+     "inicio": 69.34,
+     "fin": 69.62
+    },
+    {
+     "texto": "antes",
+     "inicio": 69.62,
+     "fin": 70.1
+    },
+    {
+     "texto": "de",
+     "inicio": 70.1,
+     "fin": 70.22
+    },
+    {
+     "texto": "entrar",
+     "inicio": 70.22,
+     "fin": 70.44
+    },
+    {
+     "texto": "al",
+     "inicio": 70.44,
+     "fin": 70.62
+    },
+    {
+     "texto": "servicio.",
+     "inicio": 70.62,
+     "fin": 71.02
+    },
+    {
+     "texto": "Pero",
+     "inicio": 71.54,
+     "fin": 71.8
+    },
+    {
+     "texto": "los",
+     "inicio": 71.8,
+     "fin": 71.92
+    },
+    {
+     "texto": "siete",
+     "inicio": 71.92,
+     "fin": 72.08
+    },
+    {
+     "texto": "juntos,",
+     "inicio": 72.08,
+     "fin": 72.42
+    },
+    {
+     "texto": "nunca.",
+     "inicio": 72.42,
+     "fin": 73.2
+    }
+   ],
+   "inicio": 63.64,
+   "fin": 73.2
+  },
+  {
+   "texto": "Trece años de espera para tres noches: valió cada día.",
+   "palabras": [
+    {
+     "texto": "Trece",
+     "inicio": 73.8,
+     "fin": 74.32
+    },
+    {
+     "texto": "años",
+     "inicio": 74.32,
+     "fin": 74.68
+    },
+    {
+     "texto": "de",
+     "inicio": 74.68,
+     "fin": 74.9
+    },
+    {
+     "texto": "espera",
+     "inicio": 74.9,
+     "fin": 75.28
+    },
+    {
+     "texto": "para",
+     "inicio": 75.28,
+     "fin": 76.04
+    },
+    {
+     "texto": "tres",
+     "inicio": 76.04,
+     "fin": 76.36
+    },
+    {
+     "texto": "noches:",
+     "inicio": 76.36,
+     "fin": 76.86
+    },
+    {
+     "texto": "valió",
+     "inicio": 77.36,
+     "fin": 77.74
+    },
+    {
+     "texto": "cada",
+     "inicio": 77.74,
+     "fin": 78.12
+    },
+    {
+     "texto": "día.",
+     "inicio": 78.12,
+     "fin": 78.44
+    }
+   ],
+   "inicio": 73.8,
+   "fin": 78.44
+  },
+  {
+   "texto": "Mandáselo a esa ARMY que contó los días desde dos mil trece.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 78.94,
+     "fin": 79.48
+    },
+    {
+     "texto": "a",
+     "inicio": 79.48,
+     "fin": 79.56
+    },
+    {
+     "texto": "esa",
+     "inicio": 79.56,
+     "fin": 79.7
+    },
+    {
+     "texto": "ARMY",
+     "inicio": 79.7,
+     "fin": 80.04
+    },
+    {
+     "texto": "que",
+     "inicio": 80.04,
+     "fin": 80.18
+    },
+    {
+     "texto": "contó",
+     "inicio": 80.18,
+     "fin": 80.5
+    },
+    {
+     "texto": "los",
+     "inicio": 80.5,
+     "fin": 80.62
+    },
+    {
+     "texto": "días",
+     "inicio": 80.62,
+     "fin": 80.86
+    },
+    {
+     "texto": "desde",
+     "inicio": 80.86,
+     "fin": 81.08
+    },
+    {
+     "texto": "dos",
+     "inicio": 81.08,
+     "fin": 81.189
+    },
+    {
+     "texto": "mil",
+     "inicio": 81.189,
+     "fin": 81.298
+    },
+    {
+     "texto": "trece.",
+     "inicio": 81.298,
+     "fin": 81.48
+    }
+   ],
+   "inicio": 78.94,
+   "fin": 81.48
+  }
+ ]
+}

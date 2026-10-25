@@ -1,0 +1,716 @@
+{
+ "duracion": 38.34,
+ "frases": [
+  {
+   "texto": "¿Dejás enfriar la comida antes de meterla en la heladera?",
+   "palabras": [
+    {
+     "texto": "¿Dejás",
+     "inicio": 0.0,
+     "fin": 0.38
+    },
+    {
+     "texto": "enfriar",
+     "inicio": 0.38,
+     "fin": 0.68
+    },
+    {
+     "texto": "la",
+     "inicio": 0.68,
+     "fin": 0.8
+    },
+    {
+     "texto": "comida",
+     "inicio": 0.8,
+     "fin": 1.02
+    },
+    {
+     "texto": "antes",
+     "inicio": 1.02,
+     "fin": 1.42
+    },
+    {
+     "texto": "de",
+     "inicio": 1.42,
+     "fin": 1.56
+    },
+    {
+     "texto": "meterla",
+     "inicio": 1.56,
+     "fin": 1.92
+    },
+    {
+     "texto": "en",
+     "inicio": 1.92,
+     "fin": 2.0
+    },
+    {
+     "texto": "la",
+     "inicio": 2.0,
+     "fin": 2.08
+    },
+    {
+     "texto": "heladera?",
+     "inicio": 2.08,
+     "fin": 2.44
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.44
+  },
+  {
+   "texto": "Te tengo una mala noticia.",
+   "palabras": [
+    {
+     "texto": "Te",
+     "inicio": 2.88,
+     "fin": 3.1
+    },
+    {
+     "texto": "tengo",
+     "inicio": 3.1,
+     "fin": 3.36
+    },
+    {
+     "texto": "una",
+     "inicio": 3.36,
+     "fin": 3.52
+    },
+    {
+     "texto": "mala",
+     "inicio": 3.52,
+     "fin": 3.66
+    },
+    {
+     "texto": "noticia.",
+     "inicio": 3.66,
+     "fin": 4.12
+    }
+   ],
+   "inicio": 2.88,
+   "fin": 4.12
+  },
+  {
+   "texto": "Es al revés.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 4.68,
+     "fin": 4.82
+    },
+    {
+     "texto": "al",
+     "inicio": 4.82,
+     "fin": 4.98
+    },
+    {
+     "texto": "revés.",
+     "inicio": 4.98,
+     "fin": 5.46
+    }
+   ],
+   "inicio": 4.68,
+   "fin": 5.46
+  },
+  {
+   "texto": "Mientras la olla está en la mesada, la comida pasa horas entre cuatro y sesenta grados.",
+   "palabras": [
+    {
+     "texto": "Mientras",
+     "inicio": 6.04,
+     "fin": 6.34
+    },
+    {
+     "texto": "la",
+     "inicio": 6.34,
+     "fin": 6.52
+    },
+    {
+     "texto": "olla",
+     "inicio": 6.52,
+     "fin": 6.68
+    },
+    {
+     "texto": "está",
+     "inicio": 6.68,
+     "fin": 6.88
+    },
+    {
+     "texto": "en",
+     "inicio": 6.88,
+     "fin": 6.96
+    },
+    {
+     "texto": "la",
+     "inicio": 6.96,
+     "fin": 7.04
+    },
+    {
+     "texto": "mesada,",
+     "inicio": 7.04,
+     "fin": 7.42
+    },
+    {
+     "texto": "la",
+     "inicio": 7.86,
+     "fin": 7.94
+    },
+    {
+     "texto": "comida",
+     "inicio": 7.94,
+     "fin": 8.14
+    },
+    {
+     "texto": "pasa",
+     "inicio": 8.14,
+     "fin": 8.5
+    },
+    {
+     "texto": "horas",
+     "inicio": 8.5,
+     "fin": 8.9
+    },
+    {
+     "texto": "entre",
+     "inicio": 8.9,
+     "fin": 9.34
+    },
+    {
+     "texto": "cuatro",
+     "inicio": 9.34,
+     "fin": 9.68
+    },
+    {
+     "texto": "y",
+     "inicio": 9.68,
+     "fin": 9.98
+    },
+    {
+     "texto": "sesenta",
+     "inicio": 9.98,
+     "fin": 10.36
+    },
+    {
+     "texto": "grados.",
+     "inicio": 10.36,
+     "fin": 10.82
+    }
+   ],
+   "inicio": 6.04,
+   "fin": 10.82
+  },
+  {
+   "texto": "Ahí las bacterias se pueden duplicar en apenas veinte minutos.",
+   "palabras": [
+    {
+     "texto": "Ahí",
+     "inicio": 11.3,
+     "fin": 11.46
+    },
+    {
+     "texto": "las",
+     "inicio": 11.46,
+     "fin": 11.58
+    },
+    {
+     "texto": "bacterias",
+     "inicio": 11.58,
+     "fin": 12.06
+    },
+    {
+     "texto": "se",
+     "inicio": 12.06,
+     "fin": 12.22
+    },
+    {
+     "texto": "pueden",
+     "inicio": 12.22,
+     "fin": 12.38
+    },
+    {
+     "texto": "duplicar",
+     "inicio": 12.38,
+     "fin": 12.9
+    },
+    {
+     "texto": "en",
+     "inicio": 12.9,
+     "fin": 13.02
+    },
+    {
+     "texto": "apenas",
+     "inicio": 13.02,
+     "fin": 13.26
+    },
+    {
+     "texto": "veinte",
+     "inicio": 13.26,
+     "fin": 13.66
+    },
+    {
+     "texto": "minutos.",
+     "inicio": 13.66,
+     "fin": 14.06
+    }
+   ],
+   "inicio": 11.3,
+   "fin": 14.06
+  },
+  {
+   "texto": "¿Y de dónde salió el mito?",
+   "palabras": [
+    {
+     "texto": "¿Y",
+     "inicio": 14.56,
+     "fin": 14.8
+    },
+    {
+     "texto": "de",
+     "inicio": 14.8,
+     "fin": 14.88
+    },
+    {
+     "texto": "dónde",
+     "inicio": 14.88,
+     "fin": 15.02
+    },
+    {
+     "texto": "salió",
+     "inicio": 15.02,
+     "fin": 15.36
+    },
+    {
+     "texto": "el",
+     "inicio": 15.36,
+     "fin": 15.46
+    },
+    {
+     "texto": "mito?",
+     "inicio": 15.46,
+     "fin": 15.68
+    }
+   ],
+   "inicio": 14.56,
+   "fin": 15.68
+  },
+  {
+   "texto": "De las heladeras a hielo: meter algo caliente derretía el hielo.",
+   "palabras": [
+    {
+     "texto": "De",
+     "inicio": 16.18,
+     "fin": 16.26
+    },
+    {
+     "texto": "las",
+     "inicio": 16.26,
+     "fin": 16.4
+    },
+    {
+     "texto": "heladeras",
+     "inicio": 16.4,
+     "fin": 16.76
+    },
+    {
+     "texto": "a",
+     "inicio": 16.76,
+     "fin": 16.92
+    },
+    {
+     "texto": "hielo:",
+     "inicio": 16.92,
+     "fin": 17.24
+    },
+    {
+     "texto": "meter",
+     "inicio": 17.62,
+     "fin": 17.82
+    },
+    {
+     "texto": "algo",
+     "inicio": 17.82,
+     "fin": 18.08
+    },
+    {
+     "texto": "caliente",
+     "inicio": 18.08,
+     "fin": 18.48
+    },
+    {
+     "texto": "derretía",
+     "inicio": 18.48,
+     "fin": 19.0
+    },
+    {
+     "texto": "el",
+     "inicio": 19.0,
+     "fin": 19.12
+    },
+    {
+     "texto": "hielo.",
+     "inicio": 19.12,
+     "fin": 19.42
+    }
+   ],
+   "inicio": 16.18,
+   "fin": 19.42
+  },
+  {
+   "texto": "Las de hoy se la bancan sin problema.",
+   "palabras": [
+    {
+     "texto": "Las",
+     "inicio": 19.84,
+     "fin": 19.96
+    },
+    {
+     "texto": "de",
+     "inicio": 19.96,
+     "fin": 20.06
+    },
+    {
+     "texto": "hoy",
+     "inicio": 20.06,
+     "fin": 20.18
+    },
+    {
+     "texto": "se",
+     "inicio": 20.18,
+     "fin": 20.32
+    },
+    {
+     "texto": "la",
+     "inicio": 20.32,
+     "fin": 20.4
+    },
+    {
+     "texto": "bancan",
+     "inicio": 20.4,
+     "fin": 20.72
+    },
+    {
+     "texto": "sin",
+     "inicio": 20.72,
+     "fin": 20.94
+    },
+    {
+     "texto": "problema.",
+     "inicio": 20.94,
+     "fin": 21.26
+    }
+   ],
+   "inicio": 19.84,
+   "fin": 21.26
+  },
+  {
+   "texto": "Ojo: una olla enorme tarda un montón en enfriarse, aunque esté adentro.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 21.88,
+     "fin": 22.16
+    },
+    {
+     "texto": "una",
+     "inicio": 22.6,
+     "fin": 22.8
+    },
+    {
+     "texto": "olla",
+     "inicio": 22.8,
+     "fin": 23.06
+    },
+    {
+     "texto": "enorme",
+     "inicio": 23.06,
+     "fin": 23.42
+    },
+    {
+     "texto": "tarda",
+     "inicio": 23.42,
+     "fin": 23.7
+    },
+    {
+     "texto": "un",
+     "inicio": 23.7,
+     "fin": 23.86
+    },
+    {
+     "texto": "montón",
+     "inicio": 23.86,
+     "fin": 24.22
+    },
+    {
+     "texto": "en",
+     "inicio": 24.22,
+     "fin": 24.38
+    },
+    {
+     "texto": "enfriarse,",
+     "inicio": 24.38,
+     "fin": 24.86
+    },
+    {
+     "texto": "aunque",
+     "inicio": 25.1,
+     "fin": 25.24
+    },
+    {
+     "texto": "esté",
+     "inicio": 25.24,
+     "fin": 25.44
+    },
+    {
+     "texto": "adentro.",
+     "inicio": 25.44,
+     "fin": 25.86
+    }
+   ],
+   "inicio": 21.88,
+   "fin": 25.86
+  },
+  {
+   "texto": "Lo que conviene es repartirla en tuppers chatos.",
+   "palabras": [
+    {
+     "texto": "Lo",
+     "inicio": 26.38,
+     "fin": 26.48
+    },
+    {
+     "texto": "que",
+     "inicio": 26.48,
+     "fin": 26.6
+    },
+    {
+     "texto": "conviene",
+     "inicio": 26.6,
+     "fin": 26.9
+    },
+    {
+     "texto": "es",
+     "inicio": 26.9,
+     "fin": 27.08
+    },
+    {
+     "texto": "repartirla",
+     "inicio": 27.08,
+     "fin": 27.66
+    },
+    {
+     "texto": "en",
+     "inicio": 27.66,
+     "fin": 27.76
+    },
+    {
+     "texto": "tuppers",
+     "inicio": 27.76,
+     "fin": 28.1
+    },
+    {
+     "texto": "chatos.",
+     "inicio": 28.1,
+     "fin": 28.82
+    }
+   ],
+   "inicio": 26.38,
+   "fin": 28.82
+  },
+  {
+   "texto": "La regla: antes de las dos horas, a la heladera.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 29.16,
+     "fin": 29.24
+    },
+    {
+     "texto": "regla:",
+     "inicio": 29.24,
+     "fin": 29.62
+    },
+    {
+     "texto": "antes",
+     "inicio": 30.06,
+     "fin": 30.42
+    },
+    {
+     "texto": "de",
+     "inicio": 30.42,
+     "fin": 30.56
+    },
+    {
+     "texto": "las",
+     "inicio": 30.56,
+     "fin": 30.68
+    },
+    {
+     "texto": "dos",
+     "inicio": 30.68,
+     "fin": 30.8
+    },
+    {
+     "texto": "horas,",
+     "inicio": 30.8,
+     "fin": 31.08
+    },
+    {
+     "texto": "a",
+     "inicio": 31.46,
+     "fin": 31.6
+    },
+    {
+     "texto": "la",
+     "inicio": 31.6,
+     "fin": 31.7
+    },
+    {
+     "texto": "heladera.",
+     "inicio": 31.7,
+     "fin": 32.08
+    }
+   ],
+   "inicio": 29.16,
+   "fin": 32.08
+  },
+  {
+   "texto": "Y si hace más de treinta y dos grados, una hora.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 32.6,
+     "fin": 32.7
+    },
+    {
+     "texto": "si",
+     "inicio": 32.7,
+     "fin": 32.78
+    },
+    {
+     "texto": "hace",
+     "inicio": 32.78,
+     "fin": 32.92
+    },
+    {
+     "texto": "más",
+     "inicio": 32.92,
+     "fin": 33.1
+    },
+    {
+     "texto": "de",
+     "inicio": 33.1,
+     "fin": 33.22
+    },
+    {
+     "texto": "treinta",
+     "inicio": 33.22,
+     "fin": 33.48
+    },
+    {
+     "texto": "y",
+     "inicio": 33.48,
+     "fin": 33.54
+    },
+    {
+     "texto": "dos",
+     "inicio": 33.54,
+     "fin": 33.66
+    },
+    {
+     "texto": "grados,",
+     "inicio": 33.66,
+     "fin": 34.12
+    },
+    {
+     "texto": "una",
+     "inicio": 34.32,
+     "fin": 34.48
+    },
+    {
+     "texto": "hora.",
+     "inicio": 34.48,
+     "fin": 34.74
+    }
+   ],
+   "inicio": 32.6,
+   "fin": 34.74
+  },
+  {
+   "texto": "Mandáselo a ese que deja el guiso toda la noche arriba de la hornalla.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 35.4,
+     "fin": 35.76
+    },
+    {
+     "texto": "a",
+     "inicio": 35.76,
+     "fin": 35.82
+    },
+    {
+     "texto": "ese",
+     "inicio": 35.82,
+     "fin": 35.94
+    },
+    {
+     "texto": "que",
+     "inicio": 35.94,
+     "fin": 36.08
+    },
+    {
+     "texto": "deja",
+     "inicio": 36.08,
+     "fin": 36.3
+    },
+    {
+     "texto": "el",
+     "inicio": 36.3,
+     "fin": 36.44
+    },
+    {
+     "texto": "guiso",
+     "inicio": 36.44,
+     "fin": 36.68
+    },
+    {
+     "texto": "toda",
+     "inicio": 36.68,
+     "fin": 37.02
+    },
+    {
+     "texto": "la",
+     "inicio": 37.02,
+     "fin": 37.16
+    },
+    {
+     "texto": "noche",
+     "inicio": 37.16,
+     "fin": 37.38
+    },
+    {
+     "texto": "arriba",
+     "inicio": 37.38,
+     "fin": 37.66
+    },
+    {
+     "texto": "de",
+     "inicio": 37.66,
+     "fin": 37.8
+    },
+    {
+     "texto": "la",
+     "inicio": 37.8,
+     "fin": 37.88
+    },
+    {
+     "texto": "hornalla.",
+     "inicio": 37.88,
+     "fin": 38.2
+    }
+   ],
+   "inicio": 35.4,
+   "fin": 38.2
+  }
+ ]
+}

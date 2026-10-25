@@ -7,8 +7,8 @@ motor/node_modules/
 motor/out/
 motor/build/
 motor/.remotion/
-# audio por video que copia el render (se regenera)
-motor/public/0*/
+# voz por video: va al Release como <slug>.voz.wav (sincronizar.py); los tiempos.json sí van al repo
+motor/public/0*/*.wav
 # pesados: los videos terminados viven en el Release "videos" del repo
 *.mp4
 *.wav
@@ -18,3 +18,6 @@ videos/*/cuadros/
 PANEL.html
 __pycache__/
 *.pyc
+# la música y los efectos sí (los usa el render en la nube)
+!motor/public/musica/*.wav
+!motor/public/sfx/*.wav

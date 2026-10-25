@@ -1,0 +1,862 @@
+{
+ "duracion": 46.74,
+ "frases": [
+  {
+   "texto": "¿Esperás dos horas después de comer para meterte a la pileta?",
+   "palabras": [
+    {
+     "texto": "¿Esperás",
+     "inicio": 0.0,
+     "fin": 0.4
+    },
+    {
+     "texto": "dos",
+     "inicio": 0.4,
+     "fin": 0.64
+    },
+    {
+     "texto": "horas",
+     "inicio": 0.64,
+     "fin": 0.92
+    },
+    {
+     "texto": "después",
+     "inicio": 0.92,
+     "fin": 1.16
+    },
+    {
+     "texto": "de",
+     "inicio": 1.16,
+     "fin": 1.34
+    },
+    {
+     "texto": "comer",
+     "inicio": 1.34,
+     "fin": 1.6
+    },
+    {
+     "texto": "para",
+     "inicio": 1.6,
+     "fin": 1.82
+    },
+    {
+     "texto": "meterte",
+     "inicio": 1.82,
+     "fin": 2.16
+    },
+    {
+     "texto": "a",
+     "inicio": 2.16,
+     "fin": 2.28
+    },
+    {
+     "texto": "la",
+     "inicio": 2.28,
+     "fin": 2.36
+    },
+    {
+     "texto": "pileta?",
+     "inicio": 2.36,
+     "fin": 2.72
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.72
+  },
+  {
+   "texto": "Te comiste un verso.",
+   "palabras": [
+    {
+     "texto": "Te",
+     "inicio": 3.28,
+     "fin": 3.44
+    },
+    {
+     "texto": "comiste",
+     "inicio": 3.44,
+     "fin": 3.72
+    },
+    {
+     "texto": "un",
+     "inicio": 3.72,
+     "fin": 3.84
+    },
+    {
+     "texto": "verso.",
+     "inicio": 3.84,
+     "fin": 4.14
+    }
+   ],
+   "inicio": 3.28,
+   "fin": 4.14
+  },
+  {
+   "texto": "El corte de digestión, así como te lo contaron, no existe.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 4.72,
+     "fin": 4.9
+    },
+    {
+     "texto": "corte",
+     "inicio": 4.9,
+     "fin": 5.2
+    },
+    {
+     "texto": "de",
+     "inicio": 5.2,
+     "fin": 5.3
+    },
+    {
+     "texto": "digestión,",
+     "inicio": 5.3,
+     "fin": 5.88
+    },
+    {
+     "texto": "así",
+     "inicio": 6.04,
+     "fin": 6.24
+    },
+    {
+     "texto": "como",
+     "inicio": 6.24,
+     "fin": 6.42
+    },
+    {
+     "texto": "te",
+     "inicio": 6.42,
+     "fin": 6.56
+    },
+    {
+     "texto": "lo",
+     "inicio": 6.56,
+     "fin": 6.66
+    },
+    {
+     "texto": "contaron,",
+     "inicio": 6.66,
+     "fin": 7.06
+    },
+    {
+     "texto": "no",
+     "inicio": 7.36,
+     "fin": 7.44
+    },
+    {
+     "texto": "existe.",
+     "inicio": 7.44,
+     "fin": 7.68
+    }
+   ],
+   "inicio": 4.72,
+   "fin": 7.68
+  },
+  {
+   "texto": "La idea era que, al comer, la sangre se va toda a la panza y los músculos se quedan sin nada.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 8.3,
+     "fin": 8.46
+    },
+    {
+     "texto": "idea",
+     "inicio": 8.46,
+     "fin": 8.68
+    },
+    {
+     "texto": "era",
+     "inicio": 8.68,
+     "fin": 9.1
+    },
+    {
+     "texto": "que,",
+     "inicio": 9.1,
+     "fin": 9.26
+    },
+    {
+     "texto": "al",
+     "inicio": 9.32,
+     "fin": 9.38
+    },
+    {
+     "texto": "comer,",
+     "inicio": 9.38,
+     "fin": 9.6
+    },
+    {
+     "texto": "la",
+     "inicio": 9.94,
+     "fin": 10.02
+    },
+    {
+     "texto": "sangre",
+     "inicio": 10.02,
+     "fin": 10.26
+    },
+    {
+     "texto": "se",
+     "inicio": 10.26,
+     "fin": 10.44
+    },
+    {
+     "texto": "va",
+     "inicio": 10.44,
+     "fin": 10.58
+    },
+    {
+     "texto": "toda",
+     "inicio": 10.58,
+     "fin": 10.82
+    },
+    {
+     "texto": "a",
+     "inicio": 10.82,
+     "fin": 10.92
+    },
+    {
+     "texto": "la",
+     "inicio": 10.92,
+     "fin": 11.0
+    },
+    {
+     "texto": "panza",
+     "inicio": 11.0,
+     "fin": 11.42
+    },
+    {
+     "texto": "y",
+     "inicio": 11.42,
+     "fin": 11.82
+    },
+    {
+     "texto": "los",
+     "inicio": 11.82,
+     "fin": 11.94
+    },
+    {
+     "texto": "músculos",
+     "inicio": 11.94,
+     "fin": 12.28
+    },
+    {
+     "texto": "se",
+     "inicio": 12.28,
+     "fin": 12.48
+    },
+    {
+     "texto": "quedan",
+     "inicio": 12.48,
+     "fin": 12.68
+    },
+    {
+     "texto": "sin",
+     "inicio": 12.68,
+     "fin": 12.84
+    },
+    {
+     "texto": "nada.",
+     "inicio": 12.84,
+     "fin": 13.16
+    }
+   ],
+   "inicio": 8.3,
+   "fin": 13.16
+  },
+  {
+   "texto": "Pero lo que se desvía es poquito: los brazos y las piernas siguen funcionando perfecto.",
+   "palabras": [
+    {
+     "texto": "Pero",
+     "inicio": 13.54,
+     "fin": 13.82
+    },
+    {
+     "texto": "lo",
+     "inicio": 13.82,
+     "fin": 14.04
+    },
+    {
+     "texto": "que",
+     "inicio": 14.04,
+     "fin": 14.16
+    },
+    {
+     "texto": "se",
+     "inicio": 14.16,
+     "fin": 14.3
+    },
+    {
+     "texto": "desvía",
+     "inicio": 14.3,
+     "fin": 14.62
+    },
+    {
+     "texto": "es",
+     "inicio": 14.62,
+     "fin": 14.76
+    },
+    {
+     "texto": "poquito:",
+     "inicio": 14.76,
+     "fin": 15.04
+    },
+    {
+     "texto": "los",
+     "inicio": 15.58,
+     "fin": 15.7
+    },
+    {
+     "texto": "brazos",
+     "inicio": 15.7,
+     "fin": 15.98
+    },
+    {
+     "texto": "y",
+     "inicio": 15.98,
+     "fin": 16.12
+    },
+    {
+     "texto": "las",
+     "inicio": 16.12,
+     "fin": 16.24
+    },
+    {
+     "texto": "piernas",
+     "inicio": 16.24,
+     "fin": 16.58
+    },
+    {
+     "texto": "siguen",
+     "inicio": 16.58,
+     "fin": 16.88
+    },
+    {
+     "texto": "funcionando",
+     "inicio": 16.88,
+     "fin": 17.4
+    },
+    {
+     "texto": "perfecto.",
+     "inicio": 17.4,
+     "fin": 18.02
+    }
+   ],
+   "inicio": 13.54,
+   "fin": 18.02
+  },
+  {
+   "texto": "La Cruz Roja de Estados Unidos revisó décadas de estudios, y no encontró ni un solo ahogado por nadar después de comer.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 18.46,
+     "fin": 18.58
+    },
+    {
+     "texto": "Cruz",
+     "inicio": 18.58,
+     "fin": 18.74
+    },
+    {
+     "texto": "Roja",
+     "inicio": 18.74,
+     "fin": 19.04
+    },
+    {
+     "texto": "de",
+     "inicio": 19.04,
+     "fin": 19.14
+    },
+    {
+     "texto": "Estados",
+     "inicio": 19.14,
+     "fin": 19.28
+    },
+    {
+     "texto": "Unidos",
+     "inicio": 19.28,
+     "fin": 19.76
+    },
+    {
+     "texto": "revisó",
+     "inicio": 19.76,
+     "fin": 20.34
+    },
+    {
+     "texto": "décadas",
+     "inicio": 20.34,
+     "fin": 20.74
+    },
+    {
+     "texto": "de",
+     "inicio": 20.74,
+     "fin": 20.92
+    },
+    {
+     "texto": "estudios,",
+     "inicio": 20.92,
+     "fin": 21.36
+    },
+    {
+     "texto": "y",
+     "inicio": 21.36,
+     "fin": 21.64
+    },
+    {
+     "texto": "no",
+     "inicio": 21.64,
+     "fin": 21.74
+    },
+    {
+     "texto": "encontró",
+     "inicio": 21.74,
+     "fin": 22.12
+    },
+    {
+     "texto": "ni",
+     "inicio": 22.12,
+     "fin": 22.28
+    },
+    {
+     "texto": "un",
+     "inicio": 22.28,
+     "fin": 22.46
+    },
+    {
+     "texto": "solo",
+     "inicio": 22.46,
+     "fin": 22.72
+    },
+    {
+     "texto": "ahogado",
+     "inicio": 22.72,
+     "fin": 23.14
+    },
+    {
+     "texto": "por",
+     "inicio": 23.14,
+     "fin": 23.4
+    },
+    {
+     "texto": "nadar",
+     "inicio": 23.4,
+     "fin": 23.7
+    },
+    {
+     "texto": "después",
+     "inicio": 23.7,
+     "fin": 23.94
+    },
+    {
+     "texto": "de",
+     "inicio": 23.94,
+     "fin": 24.12
+    },
+    {
+     "texto": "comer.",
+     "inicio": 24.12,
+     "fin": 24.4
+    }
+   ],
+   "inicio": 18.46,
+   "fin": 24.4
+  },
+  {
+   "texto": "¿Y de dónde salió? Ya aparece en un manual de los Boy Scouts de mil novecientos ocho.",
+   "palabras": [
+    {
+     "texto": "¿Y",
+     "inicio": 24.4,
+     "fin": 25.04
+    },
+    {
+     "texto": "de",
+     "inicio": 25.04,
+     "fin": 25.18
+    },
+    {
+     "texto": "dónde",
+     "inicio": 25.18,
+     "fin": 25.3
+    },
+    {
+     "texto": "salió?",
+     "inicio": 25.3,
+     "fin": 25.76
+    },
+    {
+     "texto": "Ya",
+     "inicio": 26.28,
+     "fin": 26.44
+    },
+    {
+     "texto": "aparece",
+     "inicio": 26.44,
+     "fin": 26.689
+    },
+    {
+     "texto": "en",
+     "inicio": 26.689,
+     "fin": 26.76
+    },
+    {
+     "texto": "un",
+     "inicio": 26.76,
+     "fin": 26.88
+    },
+    {
+     "texto": "manual",
+     "inicio": 26.88,
+     "fin": 27.1
+    },
+    {
+     "texto": "de",
+     "inicio": 27.1,
+     "fin": 27.28
+    },
+    {
+     "texto": "los",
+     "inicio": 27.28,
+     "fin": 27.38
+    },
+    {
+     "texto": "Boy",
+     "inicio": 27.38,
+     "fin": 27.54
+    },
+    {
+     "texto": "Scouts",
+     "inicio": 27.54,
+     "fin": 27.92
+    },
+    {
+     "texto": "de",
+     "inicio": 27.92,
+     "fin": 28.14
+    },
+    {
+     "texto": "mil",
+     "inicio": 28.14,
+     "fin": 28.307
+    },
+    {
+     "texto": "novecientos",
+     "inicio": 28.307,
+     "fin": 28.918
+    },
+    {
+     "texto": "ocho.",
+     "inicio": 28.918,
+     "fin": 29.14
+    }
+   ],
+   "inicio": 24.4,
+   "fin": 29.14
+  },
+  {
+   "texto": "Ojo: después de un asado tremendo, te puede dar una puntada al costado.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 29.7,
+     "fin": 30.04
+    },
+    {
+     "texto": "después",
+     "inicio": 30.48,
+     "fin": 30.56
+    },
+    {
+     "texto": "de",
+     "inicio": 30.56,
+     "fin": 30.7
+    },
+    {
+     "texto": "un",
+     "inicio": 30.7,
+     "fin": 30.78
+    },
+    {
+     "texto": "asado",
+     "inicio": 30.78,
+     "fin": 31.08
+    },
+    {
+     "texto": "tremendo,",
+     "inicio": 31.08,
+     "fin": 31.58
+    },
+    {
+     "texto": "te",
+     "inicio": 31.88,
+     "fin": 31.98
+    },
+    {
+     "texto": "puede",
+     "inicio": 31.98,
+     "fin": 32.16
+    },
+    {
+     "texto": "dar",
+     "inicio": 32.16,
+     "fin": 32.38
+    },
+    {
+     "texto": "una",
+     "inicio": 32.38,
+     "fin": 32.56
+    },
+    {
+     "texto": "puntada",
+     "inicio": 32.56,
+     "fin": 32.94
+    },
+    {
+     "texto": "al",
+     "inicio": 32.94,
+     "fin": 33.08
+    },
+    {
+     "texto": "costado.",
+     "inicio": 33.08,
+     "fin": 33.52
+    }
+   ],
+   "inicio": 29.7,
+   "fin": 33.52
+  },
+  {
+   "texto": "Es incómodo, no peligroso. Nadá tranqui y listo.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 34.04,
+     "fin": 34.16
+    },
+    {
+     "texto": "incómodo,",
+     "inicio": 34.16,
+     "fin": 34.78
+    },
+    {
+     "texto": "no",
+     "inicio": 35.12,
+     "fin": 35.26
+    },
+    {
+     "texto": "peligroso.",
+     "inicio": 35.26,
+     "fin": 35.92
+    },
+    {
+     "texto": "Nadá",
+     "inicio": 36.36,
+     "fin": 36.62
+    },
+    {
+     "texto": "tranqui",
+     "inicio": 36.62,
+     "fin": 36.96
+    },
+    {
+     "texto": "y",
+     "inicio": 36.96,
+     "fin": 37.06
+    },
+    {
+     "texto": "listo.",
+     "inicio": 37.06,
+     "fin": 37.42
+    }
+   ],
+   "inicio": 34.04,
+   "fin": 37.42
+  },
+  {
+   "texto": "Lo que sí es peligroso de verdad es el alcohol: aparece en una buena parte de los ahogamientos de adultos.",
+   "palabras": [
+    {
+     "texto": "Lo",
+     "inicio": 37.82,
+     "fin": 37.92
+    },
+    {
+     "texto": "que",
+     "inicio": 37.92,
+     "fin": 38.04
+    },
+    {
+     "texto": "sí",
+     "inicio": 38.04,
+     "fin": 38.22
+    },
+    {
+     "texto": "es",
+     "inicio": 38.22,
+     "fin": 38.34
+    },
+    {
+     "texto": "peligroso",
+     "inicio": 38.34,
+     "fin": 38.8
+    },
+    {
+     "texto": "de",
+     "inicio": 38.8,
+     "fin": 38.88
+    },
+    {
+     "texto": "verdad",
+     "inicio": 38.88,
+     "fin": 39.12
+    },
+    {
+     "texto": "es",
+     "inicio": 39.12,
+     "fin": 39.48
+    },
+    {
+     "texto": "el",
+     "inicio": 39.48,
+     "fin": 39.62
+    },
+    {
+     "texto": "alcohol:",
+     "inicio": 39.62,
+     "fin": 39.9
+    },
+    {
+     "texto": "aparece",
+     "inicio": 40.4,
+     "fin": 40.742
+    },
+    {
+     "texto": "en",
+     "inicio": 40.742,
+     "fin": 40.84
+    },
+    {
+     "texto": "una",
+     "inicio": 40.84,
+     "fin": 41.0
+    },
+    {
+     "texto": "buena",
+     "inicio": 41.0,
+     "fin": 41.22
+    },
+    {
+     "texto": "parte",
+     "inicio": 41.22,
+     "fin": 41.5
+    },
+    {
+     "texto": "de",
+     "inicio": 41.5,
+     "fin": 41.68
+    },
+    {
+     "texto": "los",
+     "inicio": 41.68,
+     "fin": 41.78
+    },
+    {
+     "texto": "ahogamientos",
+     "inicio": 41.78,
+     "fin": 42.24
+    },
+    {
+     "texto": "de",
+     "inicio": 42.24,
+     "fin": 42.4
+    },
+    {
+     "texto": "adultos.",
+     "inicio": 42.4,
+     "fin": 42.92
+    }
+   ],
+   "inicio": 37.82,
+   "fin": 42.92
+  },
+  {
+   "texto": "Mandáselo a ese que te tenía dos horas en la reposera mirando el agua.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 43.54,
+     "fin": 43.98
+    },
+    {
+     "texto": "a",
+     "inicio": 43.98,
+     "fin": 44.04
+    },
+    {
+     "texto": "ese",
+     "inicio": 44.04,
+     "fin": 44.16
+    },
+    {
+     "texto": "que",
+     "inicio": 44.16,
+     "fin": 44.28
+    },
+    {
+     "texto": "te",
+     "inicio": 44.28,
+     "fin": 44.42
+    },
+    {
+     "texto": "tenía",
+     "inicio": 44.42,
+     "fin": 44.72
+    },
+    {
+     "texto": "dos",
+     "inicio": 44.72,
+     "fin": 44.9
+    },
+    {
+     "texto": "horas",
+     "inicio": 44.9,
+     "fin": 45.18
+    },
+    {
+     "texto": "en",
+     "inicio": 45.18,
+     "fin": 45.36
+    },
+    {
+     "texto": "la",
+     "inicio": 45.36,
+     "fin": 45.44
+    },
+    {
+     "texto": "reposera",
+     "inicio": 45.44,
+     "fin": 45.94
+    },
+    {
+     "texto": "mirando",
+     "inicio": 45.94,
+     "fin": 46.28
+    },
+    {
+     "texto": "el",
+     "inicio": 46.28,
+     "fin": 46.4
+    },
+    {
+     "texto": "agua.",
+     "inicio": 46.4,
+     "fin": 46.6
+    }
+   ],
+   "inicio": 43.54,
+   "fin": 46.6
+  }
+ ]
+}

@@ -5,10 +5,12 @@ Lo usan la notebook (antes y después de producir) y la nube (al final de cada t
 2. En la nube: si el token de TikTok se renovó, lo vuelve a guardar cifrado en estado/tiktok_token.enc.
 3. Guarda los cambios (cola, registros, guiones, logs) en un commit, trae lo de la otra punta y sube.
 
-Uso: python -I sincronizar.py ["mensaje del commit"]
+También sube al Release la voz de los videos a medias (<slug>.voz.wav) y, con `bajar-voces`, la nube las baja.
+
+Uso: python -I sincronizar.py ["mensaje del commit"] | bajar-voces
 Sale con código 1 si no pudo subir (y avisa al celular).
 """
-import hashlib, json, os, subprocess, sys, time
+import hashlib, json, os, shutil, subprocess, sys, tempfile, time
 
 H = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(H)
@@ -23,20 +25,42 @@ def correr(*args, **kw):
 
 
 def subir_videos():
-    r = correr('gh', 'release', 'view', 'videos', '--json', 'assets', '--jq', '.assets[].name')
+    r = correr('gh', 'release', 'view', 'videos', '--json', 'assets', '--jq', '.assets[] | .name + " " + (.size | tostring)')
     if r.returncode != 0:
         return [f'no se pudo leer el Release: {r.stderr.strip()[-200:]}']
-    en_release = set(r.stdout.split())
+    en_release = dict(linea.rsplit(' ', 1) for linea in r.stdout.splitlines() if ' ' in linea)  # nombre → tamaño
     errores = []
     for v in json.load(open(os.path.join(RAIZ, 'videos', 'cola.json'), encoding='utf-8')):
-        nombre = f"{v['slug']}.mp4"
-        local = os.path.join(RAIZ, 'videos', v['slug'], nombre)
-        if v['estado'] == 'listo' and nombre not in en_release and os.path.exists(local):
+        subir = []
+        video = os.path.join(RAIZ, 'videos', v['slug'], f"{v['slug']}.mp4")
+        if v['estado'] == 'listo' and f"{v['slug']}.mp4" not in en_release and os.path.exists(video):
+            subir.append((video, f"{v['slug']}.mp4"))
+        # la voz de un video a medias: así el próximo turno (en otra máquina) sigue sin gastar otro pedido de Gemini
+        voz = os.path.join(RAIZ, 'motor', 'public', v['slug'], 'voz.wav')
+        if v['estado'] == 'produccion' and os.path.exists(voz) and en_release.get(f"{v['slug']}.voz.wav") != str(os.path.getsize(voz)):
+            # gh sube con el nombre del archivo (todas se llaman voz.wav): se copia con el nombre final
+            copia = os.path.join(tempfile.gettempdir(), f"{v['slug']}.voz.wav")
+            shutil.copy(voz, copia)
+            subir.append((copia, f"{v['slug']}.voz.wav"))
+        for local, nombre in subir:
             s = correr('gh', 'release', 'upload', 'videos', local, '--clobber')
             print(('subido ' if s.returncode == 0 else 'NO se pudo subir ') + nombre)
             if s.returncode != 0:
                 errores.append(f'{nombre}: {s.stderr.strip()[-150:]}')
     return errores
+
+
+def bajar_voces():
+    """En la nube: baja la voz de los videos que quedaron a medias para seguirlos sin regenerarla."""
+    for v in json.load(open(os.path.join(RAIZ, 'videos', 'cola.json'), encoding='utf-8')):
+        destino = os.path.join(RAIZ, 'motor', 'public', v['slug'])
+        if v['estado'] != 'produccion' or os.path.exists(os.path.join(destino, 'voz.wav')):
+            continue
+        os.makedirs(destino, exist_ok=True)
+        r = correr('gh', 'release', 'download', 'videos', '--pattern', f"{v['slug']}.voz.wav", '--dir', destino, '--clobber')
+        if r.returncode == 0:
+            os.replace(os.path.join(destino, f"{v['slug']}.voz.wav"), os.path.join(destino, 'voz.wav'))
+            print(f"voz de {v['slug']} bajada del Release")
 
 
 def guardar_token_tiktok():
@@ -147,4 +171,6 @@ def main(mensaje):
 
 if __name__ == '__main__':
     sys.stdout.reconfigure(encoding='utf-8')
+    if sys.argv[1:2] == ['bajar-voces']:
+        sys.exit(bajar_voces())
     sys.exit(main(sys.argv[1] if len(sys.argv) > 1 else 'Estado actualizado'))

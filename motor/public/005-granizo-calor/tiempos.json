@@ -1,0 +1,979 @@
+{
+ "duracion": 61.67,
+ "frases": [
+  {
+   "texto": "¿Esta semana cayó granizo y encima hacía calor? Suena imposible.",
+   "palabras": [
+    {
+     "texto": "¿Esta",
+     "inicio": 0.0,
+     "fin": 0.2
+    },
+    {
+     "texto": "semana",
+     "inicio": 0.2,
+     "fin": 0.54
+    },
+    {
+     "texto": "cayó",
+     "inicio": 0.54,
+     "fin": 1.0
+    },
+    {
+     "texto": "granizo",
+     "inicio": 1.0,
+     "fin": 1.58
+    },
+    {
+     "texto": "y",
+     "inicio": 1.58,
+     "fin": 2.3
+    },
+    {
+     "texto": "encima",
+     "inicio": 2.3,
+     "fin": 2.72
+    },
+    {
+     "texto": "hacía",
+     "inicio": 2.72,
+     "fin": 2.9
+    },
+    {
+     "texto": "calor?",
+     "inicio": 2.9,
+     "fin": 3.24
+    },
+    {
+     "texto": "Suena",
+     "inicio": 3.74,
+     "fin": 4.0
+    },
+    {
+     "texto": "imposible.",
+     "inicio": 4.0,
+     "fin": 4.56
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.56
+  },
+  {
+   "texto": "Y es al revés de lo que pensás: el calor no lo frena, lo fabrica.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 4.82,
+     "fin": 5.18
+    },
+    {
+     "texto": "es",
+     "inicio": 5.18,
+     "fin": 5.32
+    },
+    {
+     "texto": "al",
+     "inicio": 5.32,
+     "fin": 5.44
+    },
+    {
+     "texto": "revés",
+     "inicio": 5.44,
+     "fin": 5.66
+    },
+    {
+     "texto": "de",
+     "inicio": 5.66,
+     "fin": 5.74
+    },
+    {
+     "texto": "lo",
+     "inicio": 5.74,
+     "fin": 5.82
+    },
+    {
+     "texto": "que",
+     "inicio": 5.82,
+     "fin": 5.9
+    },
+    {
+     "texto": "pensás:",
+     "inicio": 5.9,
+     "fin": 6.32
+    },
+    {
+     "texto": "el",
+     "inicio": 6.8,
+     "fin": 7.02
+    },
+    {
+     "texto": "calor",
+     "inicio": 7.02,
+     "fin": 7.2
+    },
+    {
+     "texto": "no",
+     "inicio": 7.2,
+     "fin": 7.4
+    },
+    {
+     "texto": "lo",
+     "inicio": 7.4,
+     "fin": 7.5
+    },
+    {
+     "texto": "frena,",
+     "inicio": 7.5,
+     "fin": 7.86
+    },
+    {
+     "texto": "lo",
+     "inicio": 8.36,
+     "fin": 8.52
+    },
+    {
+     "texto": "fabrica.",
+     "inicio": 8.52,
+     "fin": 9.08
+    }
+   ],
+   "inicio": 4.82,
+   "fin": 9.08
+  },
+  {
+   "texto": "Mirá. El sol calienta el piso y el aire caliente sube como un globo.",
+   "palabras": [
+    {
+     "texto": "Mirá.",
+     "inicio": 9.7,
+     "fin": 9.8
+    },
+    {
+     "texto": "El",
+     "inicio": 10.36,
+     "fin": 10.54
+    },
+    {
+     "texto": "sol",
+     "inicio": 10.54,
+     "fin": 10.74
+    },
+    {
+     "texto": "calienta",
+     "inicio": 10.74,
+     "fin": 11.124
+    },
+    {
+     "texto": "el",
+     "inicio": 11.124,
+     "fin": 11.22
+    },
+    {
+     "texto": "piso",
+     "inicio": 11.22,
+     "fin": 11.52
+    },
+    {
+     "texto": "y",
+     "inicio": 11.52,
+     "fin": 12.16
+    },
+    {
+     "texto": "el",
+     "inicio": 12.16,
+     "fin": 12.26
+    },
+    {
+     "texto": "aire",
+     "inicio": 12.26,
+     "fin": 12.4
+    },
+    {
+     "texto": "caliente",
+     "inicio": 12.4,
+     "fin": 12.88
+    },
+    {
+     "texto": "sube",
+     "inicio": 12.88,
+     "fin": 13.56
+    },
+    {
+     "texto": "como",
+     "inicio": 13.88,
+     "fin": 14.18
+    },
+    {
+     "texto": "un",
+     "inicio": 14.18,
+     "fin": 14.32
+    },
+    {
+     "texto": "globo.",
+     "inicio": 14.32,
+     "fin": 14.66
+    }
+   ],
+   "inicio": 9.7,
+   "fin": 14.66
+  },
+  {
+   "texto": "Esa corriente empuja las gotas para arriba, bien alto, donde hace un frío bárbaro.",
+   "palabras": [
+    {
+     "texto": "Esa",
+     "inicio": 15.1,
+     "fin": 15.32
+    },
+    {
+     "texto": "corriente",
+     "inicio": 15.32,
+     "fin": 15.76
+    },
+    {
+     "texto": "empuja",
+     "inicio": 15.76,
+     "fin": 16.28
+    },
+    {
+     "texto": "las",
+     "inicio": 16.28,
+     "fin": 16.44
+    },
+    {
+     "texto": "gotas",
+     "inicio": 16.44,
+     "fin": 16.72
+    },
+    {
+     "texto": "para",
+     "inicio": 16.72,
+     "fin": 16.92
+    },
+    {
+     "texto": "arriba,",
+     "inicio": 16.92,
+     "fin": 17.2
+    },
+    {
+     "texto": "bien",
+     "inicio": 17.7,
+     "fin": 17.92
+    },
+    {
+     "texto": "alto,",
+     "inicio": 17.92,
+     "fin": 18.24
+    },
+    {
+     "texto": "donde",
+     "inicio": 18.62,
+     "fin": 18.78
+    },
+    {
+     "texto": "hace",
+     "inicio": 18.78,
+     "fin": 19.06
+    },
+    {
+     "texto": "un",
+     "inicio": 19.06,
+     "fin": 19.24
+    },
+    {
+     "texto": "frío",
+     "inicio": 19.24,
+     "fin": 19.58
+    },
+    {
+     "texto": "bárbaro.",
+     "inicio": 19.58,
+     "fin": 20.14
+    }
+   ],
+   "inicio": 15.1,
+   "fin": 20.14
+  },
+  {
+   "texto": "Ahí la gota se congela, baja un toque, se le pega más agua y vuelve a subir.",
+   "palabras": [
+    {
+     "texto": "Ahí",
+     "inicio": 20.52,
+     "fin": 20.74
+    },
+    {
+     "texto": "la",
+     "inicio": 20.74,
+     "fin": 21.36
+    },
+    {
+     "texto": "gota",
+     "inicio": 21.36,
+     "fin": 21.62
+    },
+    {
+     "texto": "se",
+     "inicio": 21.62,
+     "fin": 21.72
+    },
+    {
+     "texto": "congela,",
+     "inicio": 21.72,
+     "fin": 22.16
+    },
+    {
+     "texto": "baja",
+     "inicio": 22.66,
+     "fin": 22.9
+    },
+    {
+     "texto": "un",
+     "inicio": 22.9,
+     "fin": 23.06
+    },
+    {
+     "texto": "toque,",
+     "inicio": 23.06,
+     "fin": 23.3
+    },
+    {
+     "texto": "se",
+     "inicio": 23.72,
+     "fin": 23.84
+    },
+    {
+     "texto": "le",
+     "inicio": 23.84,
+     "fin": 23.94
+    },
+    {
+     "texto": "pega",
+     "inicio": 23.94,
+     "fin": 24.06
+    },
+    {
+     "texto": "más",
+     "inicio": 24.06,
+     "fin": 24.28
+    },
+    {
+     "texto": "agua",
+     "inicio": 24.28,
+     "fin": 24.56
+    },
+    {
+     "texto": "y",
+     "inicio": 24.56,
+     "fin": 25.18
+    },
+    {
+     "texto": "vuelve",
+     "inicio": 25.18,
+     "fin": 25.5
+    },
+    {
+     "texto": "a",
+     "inicio": 25.5,
+     "fin": 25.58
+    },
+    {
+     "texto": "subir.",
+     "inicio": 25.58,
+     "fin": 25.82
+    }
+   ],
+   "inicio": 20.52,
+   "fin": 25.82
+  },
+  {
+   "texto": "Sube y baja un montón de veces, como una cebolla de hielo, hasta que pesa demasiado.",
+   "palabras": [
+    {
+     "texto": "Sube",
+     "inicio": 26.22,
+     "fin": 26.64
+    },
+    {
+     "texto": "y",
+     "inicio": 26.64,
+     "fin": 26.78
+    },
+    {
+     "texto": "baja",
+     "inicio": 26.78,
+     "fin": 26.98
+    },
+    {
+     "texto": "un",
+     "inicio": 26.98,
+     "fin": 27.18
+    },
+    {
+     "texto": "montón",
+     "inicio": 27.18,
+     "fin": 27.54
+    },
+    {
+     "texto": "de",
+     "inicio": 27.54,
+     "fin": 27.78
+    },
+    {
+     "texto": "veces,",
+     "inicio": 27.78,
+     "fin": 28.06
+    },
+    {
+     "texto": "como",
+     "inicio": 28.48,
+     "fin": 28.76
+    },
+    {
+     "texto": "una",
+     "inicio": 28.76,
+     "fin": 28.92
+    },
+    {
+     "texto": "cebolla",
+     "inicio": 28.92,
+     "fin": 29.4
+    },
+    {
+     "texto": "de",
+     "inicio": 29.4,
+     "fin": 29.54
+    },
+    {
+     "texto": "hielo,",
+     "inicio": 29.54,
+     "fin": 30.28
+    },
+    {
+     "texto": "hasta",
+     "inicio": 30.38,
+     "fin": 30.62
+    },
+    {
+     "texto": "que",
+     "inicio": 30.62,
+     "fin": 30.84
+    },
+    {
+     "texto": "pesa",
+     "inicio": 30.84,
+     "fin": 31.22
+    },
+    {
+     "texto": "demasiado.",
+     "inicio": 31.22,
+     "fin": 31.62
+    }
+   ],
+   "inicio": 26.22,
+   "fin": 31.62
+  },
+  {
+   "texto": "En las peores tormentas, esa corriente de aire pasa los cien kilómetros por hora.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 32.12,
+     "fin": 32.3
+    },
+    {
+     "texto": "las",
+     "inicio": 32.3,
+     "fin": 32.4
+    },
+    {
+     "texto": "peores",
+     "inicio": 32.4,
+     "fin": 32.62
+    },
+    {
+     "texto": "tormentas,",
+     "inicio": 32.62,
+     "fin": 33.26
+    },
+    {
+     "texto": "esa",
+     "inicio": 33.78,
+     "fin": 34.04
+    },
+    {
+     "texto": "corriente",
+     "inicio": 34.04,
+     "fin": 34.48
+    },
+    {
+     "texto": "de",
+     "inicio": 34.48,
+     "fin": 34.66
+    },
+    {
+     "texto": "aire",
+     "inicio": 34.66,
+     "fin": 34.84
+    },
+    {
+     "texto": "pasa",
+     "inicio": 34.84,
+     "fin": 35.12
+    },
+    {
+     "texto": "los",
+     "inicio": 35.12,
+     "fin": 35.3
+    },
+    {
+     "texto": "cien",
+     "inicio": 35.3,
+     "fin": 35.6
+    },
+    {
+     "texto": "kilómetros",
+     "inicio": 35.6,
+     "fin": 36.16
+    },
+    {
+     "texto": "por",
+     "inicio": 36.16,
+     "fin": 36.4
+    },
+    {
+     "texto": "hora.",
+     "inicio": 36.4,
+     "fin": 36.58
+    }
+   ],
+   "inicio": 32.12,
+   "fin": 36.58
+  },
+  {
+   "texto": "Por eso el granizo más grande cae como un misil: puede pasar los ciento cincuenta por hora.",
+   "palabras": [
+    {
+     "texto": "Por",
+     "inicio": 37.0,
+     "fin": 37.24
+    },
+    {
+     "texto": "eso",
+     "inicio": 37.24,
+     "fin": 37.5
+    },
+    {
+     "texto": "el",
+     "inicio": 37.5,
+     "fin": 37.7
+    },
+    {
+     "texto": "granizo",
+     "inicio": 37.7,
+     "fin": 38.06
+    },
+    {
+     "texto": "más",
+     "inicio": 38.06,
+     "fin": 38.3
+    },
+    {
+     "texto": "grande",
+     "inicio": 38.3,
+     "fin": 38.6
+    },
+    {
+     "texto": "cae",
+     "inicio": 38.6,
+     "fin": 38.94
+    },
+    {
+     "texto": "como",
+     "inicio": 38.94,
+     "fin": 39.16
+    },
+    {
+     "texto": "un",
+     "inicio": 39.16,
+     "fin": 39.34
+    },
+    {
+     "texto": "misil:",
+     "inicio": 39.34,
+     "fin": 39.88
+    },
+    {
+     "texto": "puede",
+     "inicio": 40.28,
+     "fin": 40.54
+    },
+    {
+     "texto": "pasar",
+     "inicio": 40.54,
+     "fin": 40.76
+    },
+    {
+     "texto": "los",
+     "inicio": 40.76,
+     "fin": 40.96
+    },
+    {
+     "texto": "ciento",
+     "inicio": 40.96,
+     "fin": 41.18
+    },
+    {
+     "texto": "cincuenta",
+     "inicio": 41.18,
+     "fin": 41.68
+    },
+    {
+     "texto": "por",
+     "inicio": 41.68,
+     "fin": 41.92
+    },
+    {
+     "texto": "hora.",
+     "inicio": 41.92,
+     "fin": 42.12
+    }
+   ],
+   "inicio": 37.0,
+   "fin": 42.12
+  },
+  {
+   "texto": "Y por eso es cosa de primavera y verano: necesita ese calorón de abajo para armarse.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 42.54,
+     "fin": 42.7
+    },
+    {
+     "texto": "por",
+     "inicio": 42.7,
+     "fin": 42.86
+    },
+    {
+     "texto": "eso",
+     "inicio": 42.86,
+     "fin": 43.02
+    },
+    {
+     "texto": "es",
+     "inicio": 43.02,
+     "fin": 43.14
+    },
+    {
+     "texto": "cosa",
+     "inicio": 43.14,
+     "fin": 43.26
+    },
+    {
+     "texto": "de",
+     "inicio": 43.26,
+     "fin": 43.46
+    },
+    {
+     "texto": "primavera",
+     "inicio": 43.46,
+     "fin": 43.96
+    },
+    {
+     "texto": "y",
+     "inicio": 43.96,
+     "fin": 44.04
+    },
+    {
+     "texto": "verano:",
+     "inicio": 44.04,
+     "fin": 44.44
+    },
+    {
+     "texto": "necesita",
+     "inicio": 44.96,
+     "fin": 45.44
+    },
+    {
+     "texto": "ese",
+     "inicio": 45.44,
+     "fin": 45.6
+    },
+    {
+     "texto": "calorón",
+     "inicio": 45.6,
+     "fin": 46.32
+    },
+    {
+     "texto": "de",
+     "inicio": 46.32,
+     "fin": 46.48
+    },
+    {
+     "texto": "abajo",
+     "inicio": 46.48,
+     "fin": 46.74
+    },
+    {
+     "texto": "para",
+     "inicio": 46.74,
+     "fin": 46.96
+    },
+    {
+     "texto": "armarse.",
+     "inicio": 46.96,
+     "fin": 47.38
+    }
+   ],
+   "inicio": 42.54,
+   "fin": 47.38
+  },
+  {
+   "texto": "Ojo: el calor solo no alcanza. También tiene que haber aire muy frío allá arriba.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 47.9,
+     "fin": 48.16
+    },
+    {
+     "texto": "el",
+     "inicio": 48.6,
+     "fin": 48.7
+    },
+    {
+     "texto": "calor",
+     "inicio": 48.7,
+     "fin": 48.9
+    },
+    {
+     "texto": "solo",
+     "inicio": 48.9,
+     "fin": 49.12
+    },
+    {
+     "texto": "no",
+     "inicio": 49.12,
+     "fin": 49.3
+    },
+    {
+     "texto": "alcanza.",
+     "inicio": 49.3,
+     "fin": 49.74
+    },
+    {
+     "texto": "También",
+     "inicio": 50.18,
+     "fin": 50.52
+    },
+    {
+     "texto": "tiene",
+     "inicio": 50.52,
+     "fin": 50.76
+    },
+    {
+     "texto": "que",
+     "inicio": 50.76,
+     "fin": 50.86
+    },
+    {
+     "texto": "haber",
+     "inicio": 50.86,
+     "fin": 51.04
+    },
+    {
+     "texto": "aire",
+     "inicio": 51.04,
+     "fin": 51.24
+    },
+    {
+     "texto": "muy",
+     "inicio": 51.24,
+     "fin": 51.54
+    },
+    {
+     "texto": "frío",
+     "inicio": 51.54,
+     "fin": 51.9
+    },
+    {
+     "texto": "allá",
+     "inicio": 51.9,
+     "fin": 52.06
+    },
+    {
+     "texto": "arriba.",
+     "inicio": 52.06,
+     "fin": 52.42
+    }
+   ],
+   "inicio": 47.9,
+   "fin": 52.42
+  },
+  {
+   "texto": "Así que la próxima que truene con calor, ese bochorno es el que amasa las piedras.",
+   "palabras": [
+    {
+     "texto": "Así",
+     "inicio": 52.42,
+     "fin": 53.1
+    },
+    {
+     "texto": "que",
+     "inicio": 53.1,
+     "fin": 53.26
+    },
+    {
+     "texto": "la",
+     "inicio": 53.26,
+     "fin": 53.38
+    },
+    {
+     "texto": "próxima",
+     "inicio": 53.38,
+     "fin": 53.64
+    },
+    {
+     "texto": "que",
+     "inicio": 53.64,
+     "fin": 53.88
+    },
+    {
+     "texto": "truene",
+     "inicio": 53.88,
+     "fin": 54.14
+    },
+    {
+     "texto": "con",
+     "inicio": 54.14,
+     "fin": 54.3
+    },
+    {
+     "texto": "calor,",
+     "inicio": 54.3,
+     "fin": 54.6
+    },
+    {
+     "texto": "ese",
+     "inicio": 55.18,
+     "fin": 55.36
+    },
+    {
+     "texto": "bochorno",
+     "inicio": 55.36,
+     "fin": 56.02
+    },
+    {
+     "texto": "es",
+     "inicio": 56.02,
+     "fin": 56.22
+    },
+    {
+     "texto": "el",
+     "inicio": 56.22,
+     "fin": 56.32
+    },
+    {
+     "texto": "que",
+     "inicio": 56.32,
+     "fin": 56.42
+    },
+    {
+     "texto": "amasa",
+     "inicio": 56.42,
+     "fin": 56.68
+    },
+    {
+     "texto": "las",
+     "inicio": 56.68,
+     "fin": 56.78
+    },
+    {
+     "texto": "piedras.",
+     "inicio": 56.78,
+     "fin": 57.22
+    }
+   ],
+   "inicio": 52.42,
+   "fin": 57.22
+  },
+  {
+   "texto": "Mandáselo a ese que miró por la ventana y gritó: ¿granizo con este calor?",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 57.9,
+     "fin": 58.3
+    },
+    {
+     "texto": "a",
+     "inicio": 58.3,
+     "fin": 58.36
+    },
+    {
+     "texto": "ese",
+     "inicio": 58.36,
+     "fin": 58.48
+    },
+    {
+     "texto": "que",
+     "inicio": 58.48,
+     "fin": 58.64
+    },
+    {
+     "texto": "miró",
+     "inicio": 58.64,
+     "fin": 58.88
+    },
+    {
+     "texto": "por",
+     "inicio": 58.88,
+     "fin": 58.98
+    },
+    {
+     "texto": "la",
+     "inicio": 58.98,
+     "fin": 59.08
+    },
+    {
+     "texto": "ventana",
+     "inicio": 59.08,
+     "fin": 59.38
+    },
+    {
+     "texto": "y",
+     "inicio": 59.38,
+     "fin": 59.46
+    },
+    {
+     "texto": "gritó:",
+     "inicio": 59.46,
+     "fin": 59.8
+    },
+    {
+     "texto": "¿granizo",
+     "inicio": 60.3,
+     "fin": 60.78
+    },
+    {
+     "texto": "con",
+     "inicio": 60.78,
+     "fin": 60.98
+    },
+    {
+     "texto": "este",
+     "inicio": 60.98,
+     "fin": 61.14
+    },
+    {
+     "texto": "calor?",
+     "inicio": 61.14,
+     "fin": 61.44
+    }
+   ],
+   "inicio": 57.9,
+   "fin": 61.44
+  }
+ ]
+}
