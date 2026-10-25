@@ -12,6 +12,7 @@ import { CorteDigestion002, DURACION as DUR_002, FPS as FPS_002, Portada002 } fr
 import { DURACION as DUR_003, FPS as FPS_003, Portada003, VueltaCarne003 } from "./videos/003-vuelta-carne/Video";
 import { DURACION as DUR_004, FPS as FPS_004, OlorALluvia004, Portada004 } from "./videos/004-olor-a-lluvia/Video";
 import { DURACION as DUR_005, FPS as FPS_005, GranizoCalor005, Portada005 } from "./videos/005-granizo-calor/Video";
+import { AireEn17008, DURACION as DUR_008, FPS as FPS_008, Portada008 } from "./videos/008-aire-en-17/Video";
 
 // Cada video nuevo suma su <Composition> (id "hNNN-slug") y su <Still> de portada (id "pNNN-slug").
 export const RemotionRoot: React.FC = () => {
@@ -25,6 +26,7 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="h005-granizo-calor" component={GranizoCalor005} durationInFrames={DUR_005} fps={FPS_005} width={ANCHO} height={ALTO} />
         <Composition id="h006-army-bomb" component={ArmyBomb006} durationInFrames={DUR_006} fps={FPS_006} width={ANCHO} height={ALTO} />
         <Composition id="h007-bts-13-anios" component={Bts13Anios007} durationInFrames={DUR_007} fps={FPS_007} width={ANCHO} height={ALTO} />
+        <Composition id="h008-aire-en-17" component={AireEn17008} durationInFrames={DUR_008} fps={FPS_008} width={ANCHO} height={ALTO} />
       </Folder>
       <Folder name="portadas">
         <Still id="p001-heladera" component={Portada001} width={ANCHO} height={ALTO} />
@@ -34,6 +36,7 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p005-granizo-calor" component={Portada005} width={ANCHO} height={ALTO} />
         <Still id="p006-army-bomb" component={Portada006} width={ANCHO} height={ALTO} />
         <Still id="p007-bts-13-anios" component={Portada007} width={ANCHO} height={ALTO} />
+        <Still id="p008-aire-en-17" component={Portada008} width={ANCHO} height={ALTO} />
       </Folder>
       {/* plan B (sin Claude): herramientas/plan_b.py le pasa las escenas con --props */}
       <Folder name="planb">

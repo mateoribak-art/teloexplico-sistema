@@ -3,13 +3,13 @@ import { AbsoluteFill, Sequence, interpolate, staticFile, useCurrentFrame, useVi
 import { Audio } from "@remotion/media";
 import tiemposJson from "../../../public/008-aire-en-17/tiempos.json";
 import { C, display, mono } from "../../kit/marca";
-import { clamp, entre, golpe, pop, resorte, suave } from "../../kit/anim";
+import { clamp, entre, golpe, pop, suave } from "../../kit/anim";
 import { reloj, type Tiempos } from "../../kit/tiempos";
 import { Etiqueta, Fondo, Fuente, Globo, Logo, Musica, Sello, Sfx, Subtitulos, Titulo, type Efecto } from "../../kit/piezas";
 import { DUR_SELLO_FINAL, Lienzo, SelloFinal, TituloHablado } from "../../kit/comun";
 import { Portada } from "../../kit/Portada";
-import { AireSplit, Anafe, Vaso, oscuro, claro, MAT, SOMBRA_D, LINEA } from "../../kit/biblioteca";
-import { Camara, Contador, Flujo, OndasCalor, Rotulo, SolVolumen, TONO, Velocidad, Vecino, toma } from "../../kit/diagrama";
+import { AireSplit, Anafe, oscuro, claro, MAT, SOMBRA_D, LINEA } from "../../kit/biblioteca";
+import { Camara, Contador, Flujo, OndasCalor, Rotulo, SolVolumen, TONO, Vecino, toma } from "../../kit/diagrama";
 
 // Mundo único: una habitación en corte. En la pared, un aire split que sopla aire frío hacia abajo.
 // A la izquierda, un termómetro con dos "destinos" (24 cómodo, 17 de más): la temperatura baja al mismo
@@ -129,7 +129,6 @@ const Reloj: React.FC<{ cx: number; cy: number; r: number; giro: number }> = ({ 
 const Mundo: React.FC = () => {
   const f = useCurrentFrame();
   const caliente = f < E.tiempo || entre(f, E.ojo, E.regla);
-  const tempActual = tempPieza(f);
   const temp17 = f < E.regla; // el display muestra 17 hasta "la regla"
   const sopla = entre(f, E.gancho, E.sello) ? 1 : 0;
   const ventanaAbierta = entre(f, E.ojo, E.regla) ? suave(f, E.ojo + 6, 14) * (1 - suave(f, r.w(9, "cerrá"), 12)) : 0;

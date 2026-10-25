@@ -37,3 +37,13 @@ No pude producir el video: la corrida se frenó en el paso de voz.
 Permisos negados (1):
   Bash: {"command": "./herramientas/tlx voz 008-aire-en-17 2>&1 | tail -15; echo code=$?"}
 2026-10-25 05:36 Termina la producción (ok).
+2026-10-25 05:38 Arranca la producción (5 listos en la cola, meta 10).
+No quedó ningún video listo: el `008-aire-en-17` quedó incompleto y sigue en `produccion`.
+
+- **Avanzado:** el chequeo de datos ya estaba aprobado por el subagente. Generé la voz (72,7 s, 208 de 208 palabras), completé el `Video.tsx` y lo registré en `Root.tsx` (`h008` y `p008`). `tlx tsc` ya no da errores propios del 008; los que quedan son de los videos 001–007, por el mismo problema de archivos que bloquea el render.
+- **Bloqueo:** el checkout de la nube no tiene los audios de `motor/public` (música y sonidos) ni los `tiempos.json` de 001–007. Por eso `tlx cuadros` falla. Sin eso no hice la revisión visual, el render, el `caption.txt`, el `meta.json` ni el control. Crear esos archivos queda fuera de lo que puedo escribir.
+- **Segundo video:** no produje el segundo. Ya había 4 videos listos en la cola (menos de 10) y la cuota de Gemini no se agotó, pero el mismo bloqueo habría frenado cualquier otro.
+- **Qué quedó:** `Root.tsx` volvió a su versión completa, con el 008 sumado. Lo anoté en `videos/produccion.log`. Cuando corra donde estén los audios, hay que seguir desde la revisión visual (`tlx cuadros 008-aire-en-17 …`), sin repetir la voz.
+Permisos negados (1):
+  Bash: {"command": "cp motor/src/Root.tsx videos/008-aire-en-17/Root.completo.bak"}
+2026-10-25 05:40 Termina la producción (Claude no terminó bien).
