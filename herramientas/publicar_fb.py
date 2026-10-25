@@ -13,6 +13,8 @@ Registro: videos/publicados_fb.json
 import json, os, sys, time, urllib.parse, urllib.request
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # con python -I no se agrega solo
+from publicar import link_temporal  # noqa: E402
 CONF = json.load(open(os.path.join(RAIZ, 'secretos', 'meta.json'), encoding='utf-8'))
 VERSION = CONF['graph_version']
 API = f'https://graph.facebook.com/{VERSION}'
@@ -52,12 +54,17 @@ def main():
     vid = ini['video_id']
     print('reel creado:', vid)
 
-    # 2. subir los bytes
-    with open(video, 'rb') as f:
-        r = pedir('POST', f'https://rupload.facebook.com/video-upload/{VERSION}/{vid}', cuerpo=f.read(),
-                  cabeceras={'Authorization': f'OAuth {token}', 'offset': '0', 'file_size': str(tam),
-                           'Content-Type': 'application/octet-stream'})  # sin esto Meta rechaza la subida (ProcessingFailedError)
-    print('subida:', 'ok' if r.get('success') else r)
+    # 2. subir: preferido, que Meta baje el video de un link firmado del Release (como en Instagram); si no, los bytes
+    url = link_temporal(slug)
+    if url:
+        r = pedir('POST', f'https://rupload.facebook.com/video-upload/{VERSION}/{vid}',
+                  cabeceras={'Authorization': f'OAuth {token}', 'file_url': url})
+    else:
+        with open(video, 'rb') as f:
+            r = pedir('POST', f'https://rupload.facebook.com/video-upload/{VERSION}/{vid}', cuerpo=f.read(),
+                      cabeceras={'Authorization': f'OAuth {token}', 'offset': '0', 'file_size': str(tam),
+                               'Content-Type': 'application/octet-stream'})  # sin esto Meta rechaza la subida (ProcessingFailedError)
+    print('subida:', ('ok' if r.get('success') else r), '(del Release)' if url else '(directa)')
 
     # 3. portada (si falla, Facebook elige un cuadro: no frena la publicación)
     portada = os.path.join(carpeta, 'portada.png')
