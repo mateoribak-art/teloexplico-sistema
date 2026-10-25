@@ -28,6 +28,7 @@ MODELOS = ['gemini-flash-latest', 'gemini-3.5-flash', 'gemini-3-flash-preview', 
 SECCIONES_SEGURAS = ['Ciencia de todos los días', 'Plan B']
 OBJETOS = ['nube', 'sol', 'heladera', 'olla', 'sarten', 'bife', 'persona', 'anafe', 'termometro', 'vaso', 'barrio', 'auto', 'ninguno']
 TIPOS = ['gancho', 'golpe', 'objeto', 'dato', 'comparacion', 'ojo', 'cta']
+NPX = 'npx.cmd' if os.name == 'nt' else 'npx'
 UA = {'User-Agent': 'TeLoExplicoPlanB/1.0 (teloexplicoar@gmail.com)'}
 
 
@@ -326,6 +327,12 @@ def correr(args, **kw):
 
 
 def producir(probar=False, revisar=False):
+    # primero, un video del plan B que haya quedado a medias (por ejemplo, cortado en el render)
+    for v in cola.cargar():
+        g = os.path.join(V, v['slug'], 'guion.json')
+        if not probar and v['estado'] == 'produccion' and os.path.exists(g) and json.load(open(g, encoding='utf-8')).get('plan_b'):
+            log(f"{v['slug']}: se retoma (plan B a medias)")
+            return terminar(v['slug'], v['tema'], revisar)
     for _ in range(3):
         i, idea = tomar_idea()
         if idea is None:
@@ -379,6 +386,16 @@ def producir(probar=False, revisar=False):
 
         cola.agregar(slug, g['titulo'])
         cola.cambiar_estado(slug, 'produccion', 'plan B')
+        return terminar(slug, g['titulo'], revisar)
+    return None
+
+
+def terminar(slug, titulo, revisar=False):
+    """Voz, render con la plantilla, control y cola. También retoma un video del plan B que quedó a medias."""
+    carpeta = os.path.join(V, slug)
+    publico = os.path.join(RAIZ, 'motor', 'public', slug)
+    # si la voz ya existe (la nube la baja del Release), no se gasta otro pedido de Gemini
+    if not (os.path.exists(os.path.join(publico, 'voz.wav')) and os.path.exists(os.path.join(publico, 'tiempos.json'))):
         r = correr([PY, '-I', 'voz.py', slug], cwd=H)
         if r.returncode == 3:
             log(f'{slug}: cuota de voz de Gemini agotada, queda en producción')
@@ -387,40 +404,39 @@ def producir(probar=False, revisar=False):
             cola.cambiar_estado(slug, 'apartado', 'plan B: falló la voz')
             log(f'{slug}: falló la voz: {(r.stdout + r.stderr)[-200:]}')
             return None
-        # render con la plantilla + portada + volumen a -14 LUFS (igual que tlx render)
-        m = os.path.join(RAIZ, 'motor')
-        bruto = os.path.join(carpeta, 'render.mp4')
-        pasos = [
-            ['npx.cmd', 'remotion', 'render', 'plantilla', bruto, f'--props={os.path.join(carpeta, "escenas.json")}', '--codec=h264', '--crf=18', '--audio-codec=aac', '--log=error'],
-            ['npx.cmd', 'remotion', 'still', 'plantillaPortada', os.path.join(carpeta, 'portada.png'), f'--props={os.path.join(carpeta, "escenas.json")}', '--log=error'],
-        ]
-        for p in pasos:
-            r = correr(p, cwd=m)
-            if r.returncode != 0:
-                cola.cambiar_estado(slug, 'apartado', 'plan B: falló el render')
-                log(f'{slug}: falló el render: {(r.stdout + r.stderr)[-300:]}')
-                return None
-        r = correr(['ffmpeg', '-v', 'error', '-y', '-i', bruto, '-c:v', 'copy', '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11', '-ar', '48000',
-                    '-c:a', 'aac', '-b:a', '256k', '-movflags', '+faststart', os.path.join(carpeta, f'{slug}.mp4')])
-        os.remove(bruto)
-        tiempos = json.load(open(os.path.join(RAIZ, 'motor', 'public', slug, 'tiempos.json'), encoding='utf-8'))
-        json.dump({'portada_ms': int(tiempos['frases'][1]['inicio'] * 1000 + 900)}, open(os.path.join(carpeta, 'meta.json'), 'w'))
-        from control import controlar
-        problemas = controlar(slug)
-        if problemas:
-            cola.cambiar_estado(slug, 'apartado', 'plan B: ' + '; '.join(problemas))
-            log(f'{slug}: apartado en el control: {"; ".join(problemas)}')
+    # render con la plantilla + portada + volumen a -14 LUFS (igual que tlx render)
+    m = os.path.join(RAIZ, 'motor')
+    bruto = os.path.join(carpeta, 'render.mp4')
+    pasos = [
+        [NPX, 'remotion', 'render', 'plantilla', bruto, f'--props={os.path.join(carpeta, "escenas.json")}', '--codec=h264', '--crf=18', '--audio-codec=aac', '--log=error'],
+        [NPX, 'remotion', 'still', 'plantillaPortada', os.path.join(carpeta, 'portada.png'), f'--props={os.path.join(carpeta, "escenas.json")}', '--log=error'],
+    ]
+    for p in pasos:
+        r = correr(p, cwd=m)
+        if r.returncode != 0:
+            cola.cambiar_estado(slug, 'apartado', 'plan B: falló el render')
+            log(f'{slug}: falló el render: {(r.stdout + r.stderr)[-300:]}')
             return None
-        if revisar:  # prueba: queda apartado hasta que alguien lo mire
-            cola.cambiar_estado(slug, 'apartado', 'prueba del plan B: revisar antes de publicar')
-            log(f'{slug}: terminado (prueba, queda apartado para revisar)')
-            avisar('🅱️ Prueba del plan B lista', f'{slug}: {g["titulo"]}\nQuedó apartado para revisarlo.', 'baja')
-            return slug
-        cola.cambiar_estado(slug, 'listo', 'plan B (sin Claude)')
-        log(f'{slug}: listo (plan B)')
-        avisar('🅱️ Plan B: video listo sin Claude', f'{slug}: {g["titulo"]}\nGuion de Gemini chequeado contra Wikipedia, con plantilla.', 'baja')
+    r = correr(['ffmpeg', '-v', 'error', '-y', '-i', bruto, '-c:v', 'copy', '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11', '-ar', '48000',
+                '-c:a', 'aac', '-b:a', '256k', '-movflags', '+faststart', os.path.join(carpeta, f'{slug}.mp4')])
+    os.remove(bruto)
+    tiempos = json.load(open(os.path.join(publico, 'tiempos.json'), encoding='utf-8'))
+    json.dump({'portada_ms': int(tiempos['frases'][1]['inicio'] * 1000 + 900)}, open(os.path.join(carpeta, 'meta.json'), 'w'))
+    from control import controlar
+    problemas = controlar(slug)
+    if problemas:
+        cola.cambiar_estado(slug, 'apartado', 'plan B: ' + '; '.join(problemas))
+        log(f'{slug}: apartado en el control: {"; ".join(problemas)}')
+        return None
+    if revisar:  # prueba: queda apartado hasta que alguien lo mire
+        cola.cambiar_estado(slug, 'apartado', 'prueba del plan B: revisar antes de publicar')
+        log(f'{slug}: terminado (prueba, queda apartado para revisar)')
+        avisar('🅱️ Prueba del plan B lista', f'{slug}: {titulo}\nQuedó apartado para revisarlo.', 'baja')
         return slug
-    return None
+    cola.cambiar_estado(slug, 'listo', 'plan B (sin Claude)')
+    log(f'{slug}: listo (plan B)')
+    avisar('🅱️ Plan B: video listo sin Claude', f'{slug}: {titulo}\nGuion de Gemini chequeado contra Wikipedia, con plantilla.', 'baja')
+    return slug
 
 
 if __name__ == '__main__':
