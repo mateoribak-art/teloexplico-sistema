@@ -1,6 +1,8 @@
 ﻿# Conecta el bot de Telegram que te manda cada video al celular (para subirlo a YouTube Shorts).
 # Antes: en Telegram, @BotFather › /newbot › nombre › usuario terminado en "bot" › copiar el token. Abrir el bot y mandarle "hola".
 $ErrorActionPreference = 'Continue'
+# PowerShell 5.1 no usa TLS 1.2 por defecto y Telegram lo exige
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $repo = 'mateoribak-art/teloexplico-sistema'
 Write-Host ''
 Write-Host 'Pegá el TOKEN que te dio @BotFather (clic derecho) y apretá Enter:' -ForegroundColor Cyan
@@ -8,7 +10,9 @@ $token = (Read-Host).Trim()
 try {
     $upd = Invoke-RestMethod "https://api.telegram.org/bot$token/getUpdates"
 } catch {
-    Write-Host 'Ese token no funciona. Revisalo en @BotFather y volvé a probar.' -ForegroundColor Red; Read-Host 'Enter para cerrar'; exit 1
+    Write-Host "No pude conectar con Telegram: $($_.Exception.Message)" -ForegroundColor Red
+    Write-Host '(Si dice 401 o 404, el token está mal copiado: copialo de nuevo de @BotFather.)'
+    Read-Host 'Enter para cerrar'; exit 1
 }
 $chat = ($upd.result | ForEach-Object { $_.message.chat.id } | Select-Object -Last 1)
 if (-not $chat) {

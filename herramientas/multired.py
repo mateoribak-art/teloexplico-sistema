@@ -35,8 +35,13 @@ def telegram(metodo, campos, archivo=None):
 
 
 def mandar_telegram(slug, video, tiktok, titulo, descripcion):
+    # sin medidas Telegram lo muestra aplastado como horizontal (25/10): se mandan las del reel vertical
+    import subprocess
+    dur = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', video],
+                         capture_output=True, text=True).stdout.strip() or '0'
     telegram('sendVideo', {'caption': f'▶️ YouTube Shorts · {slug}\n\nTÍTULO (tocá para copiar):\n{titulo}'[:1000],
-                           'supports_streaming': 'true'}, ('video', video))
+                           'supports_streaming': 'true', 'width': '1080', 'height': '1920',
+                           'duration': str(round(float(dur)))}, ('video', video))
     telegram('sendMessage', {'text': f'DESCRIPCIÓN para YouTube:\n\n{descripcion}'[:4000]})
     telegram('sendMessage', {'text': f'Texto para TikTok:\n\n{tiktok}'[:4000]})
 
