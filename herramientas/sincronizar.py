@@ -42,6 +42,8 @@ def subir_videos():
             copia = os.path.join(tempfile.gettempdir(), f"{v['slug']}.voz.wav")
             shutil.copy(voz, copia)
             subir.append((copia, f"{v['slug']}.voz.wav"))
+        if v['estado'] != 'produccion' and f"{v['slug']}.voz.wav" in en_release:  # ya terminado: la voz suelta sobra
+            correr('gh', 'release', 'delete-asset', 'videos', f"{v['slug']}.voz.wav", '--yes')
         for local, nombre in subir:
             s = correr('gh', 'release', 'upload', 'videos', local, '--clobber')
             print(('subido ' if s.returncode == 0 else 'NO se pudo subir ') + nombre)

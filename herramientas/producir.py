@@ -163,6 +163,16 @@ def diagnostico():
     print(r.stdout[-3000:], r.stderr[-2000:])
 
 
+def prueba_plan_b():
+    """Plan B de prueba: produce sin Claude pero deja el video apartado para revisarlo (no se publica)."""
+    log = f'noche_{AHORA:%Y-%m-%d}.log'
+    escribir(log, 'Arranca la PRUEBA del plan B (queda apartado, no se publica).')
+    r = subprocess.run([PY, '-I', 'plan_b.py', '--revisar'], cwd=H, capture_output=True, text=True, encoding='utf-8', errors='replace')
+    with open(os.path.join(V, log), 'a', encoding='utf-8') as f:
+        f.write((r.stdout + r.stderr).strip()[-3000:] + '\n')
+    escribir(log, f'Termina la prueba del plan B (código {r.returncode}).')
+
+
 def hay_trabajo(modo):
     if os.path.exists(os.path.join(RAIZ, 'PAUSA')):
         return False
@@ -178,6 +188,8 @@ if __name__ == '__main__':
     modo = sys.argv[1] if len(sys.argv) > 1 else ''
     if modo == 'hay-trabajo':
         print('si' if hay_trabajo(sys.argv[2]) else 'no')
+    elif modo == 'plan_b':
+        prueba_plan_b()
     elif modo in ('produccion', 'radar', 'comentarios', 'diagnostico'):
         globals()[modo]()
     else:
