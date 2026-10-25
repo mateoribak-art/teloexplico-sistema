@@ -1,16 +1,28 @@
-# Publica el próximo video listo en Instagram, Facebook y la bandeja de TikTok (12:30 y 19:30 de Argentina).
+# Publica el próximo video listo en Instagram, Facebook y la bandeja de TikTok (turnos de 12:30 y 19:30 de Argentina).
 # Corre en las máquinas de GitHub: no depende de la notebook ni de su internet.
-# A mano (Actions › Publicar › Run workflow): "probar" sube a Instagram sin publicar; "publicar" hace un turno real.
+# GitHub arranca lo programado tarde o lo saltea (el 25/10 no corrió el de las 12:30): por eso hay 5 intentos por turno.
+# El primero que corre publica; los demás ven el turno cubierto (publicador.py --toca) y terminan en segundos.
+# A mano (Actions › Publicar › Run workflow): "probar" sube a Instagram sin publicar; "publicar" cubre el turno si falta.
 name: Publicar
 
 on:
   schedule:
-    - cron: '30 15 * * *'   # 12:30 Argentina (UTC-3)
-    - cron: '30 22 * * *'   # 19:30 Argentina
+    # turno 12:30 Argentina (UTC-3): 12:30, 12:47, 13:13, 13:41, 14:09
+    - cron: '30 15 * * *'
+    - cron: '47 15 * * *'
+    - cron: '13 16 * * *'
+    - cron: '41 16 * * *'
+    - cron: '9 17 * * *'
+    # turno 19:30 Argentina: 19:30, 19:47, 20:13, 20:41, 21:09
+    - cron: '30 22 * * *'
+    - cron: '47 22 * * *'
+    - cron: '13 23 * * *'
+    - cron: '41 23 * * *'
+    - cron: '9 0 * * *'
   workflow_dispatch:
     inputs:
       modo:
-        description: 'probar = sube sin publicar · publicar = turno real'
+        description: 'probar = sube sin publicar · publicar = cubre el turno si falta'
         type: choice
         options: [probar, publicar]
         default: probar
@@ -39,16 +51,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: pip
-          cache-dependency-path: herramientas/nube/requirements.txt
-      - name: ffmpeg
-        run: command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
-      - name: Modelo de reconocimiento de voz (caché)
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/huggingface
-          key: whisper-small-v1
-      - run: pip install -q -r herramientas/nube/requirements.txt
       - name: Claves
         run: bash herramientas/nube/preparar.sh
         env:
@@ -56,16 +58,36 @@ jobs:
           AVISOS_JSON: ${{ secrets.AVISOS_JSON }}
           TIKTOK_JSON: ${{ secrets.TIKTOK_JSON }}
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
-      - name: Publicar
+      - name: ¿Toca publicar?
+        id: turno
         working-directory: herramientas
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.modo }}" = "probar" ]; then
+          if [ "${{ inputs.modo }}" = "probar" ]; then TOCA=si; else TOCA=$(python -I publicador.py --toca); fi
+          echo "toca=$TOCA" >> "$GITHUB_OUTPUT"
+          echo "toca publicar: $TOCA"
+      - name: ffmpeg
+        if: steps.turno.outputs.toca == 'si'
+        run: command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+      - name: Modelo de reconocimiento de voz (caché)
+        if: steps.turno.outputs.toca == 'si'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-small-v1
+      - name: Dependencias
+        if: steps.turno.outputs.toca == 'si'
+        run: pip install -q -r herramientas/nube/requirements.txt
+      - name: Publicar
+        if: steps.turno.outputs.toca == 'si'
+        working-directory: herramientas
+        run: |
+          if [ "${{ inputs.modo }}" = "probar" ]; then
             python -I publicador.py --probar
           else
             python -I publicador.py
           fi
       - name: Guardar estado
-        if: always()
+        if: always() && steps.turno.outputs.toca == 'si'
         working-directory: herramientas
         run: |
           python -I sincronizar.py "Nube: turno del publicador"
@@ -73,4 +95,4 @@ jobs:
         if: failure()
         working-directory: herramientas
         run: |
-          python -I avisar.py "❌ Falló el publicador en la nube" "Revisar GitHub › teloexplico-sistema › Actions. Se reintenta en el próximo turno." alta
+          python -I avisar.py "❌ Falló el publicador en la nube" "Revisar GitHub › teloexplico-sistema › Actions. Hay otro intento en menos de media hora." alta

@@ -46,7 +46,36 @@ def bajar_video(slug):
         log(f'{slug}: no se pudo bajar el video del Release: {(r.stdout + r.stderr).strip()[-200:]}')
 
 
+TURNOS = ((12, 30), (19, 30))  # hora de Argentina
+ARGENTINA = datetime.timezone(datetime.timedelta(hours=-3))
+
+
+def turno_actual(ahora=None):
+    """Inicio del último turno que ya empezó (hoy 12:30 o 19:30, o el de ayer a las 19:30 si es temprano)."""
+    ahora = ahora or datetime.datetime.now(ARGENTINA)
+    inicios = [ahora.replace(hour=h, minute=m, second=0, microsecond=0) for h, m in TURNOS]
+    pasados = [t for t in inicios if t <= ahora]
+    return max(pasados) if pasados else inicios[-1] - datetime.timedelta(days=1)
+
+
+def turno_cubierto():
+    """GitHub arranca los turnos programados tarde o los saltea: hay varios intentos por turno y el primero publica.
+    Un turno está cubierto si ya se publicó algo desde que empezó."""
+    reg = os.path.join(RAIZ, 'videos', 'publicados.json')
+    inicio = turno_actual()
+    for p in (json.load(open(reg, encoding='utf-8')) if os.path.exists(reg) else []):
+        try:
+            if datetime.datetime.strptime(p['publicado'], '%Y-%m-%dT%H:%M:%S%z') >= inicio:
+                return True
+        except (KeyError, ValueError):
+            continue
+    return False
+
+
 def main(probar=False):
+    if not probar and turno_cubierto():
+        print(f'El turno de las {turno_actual():%H:%M} ya está cubierto: no se publica de nuevo.')
+        return
     if os.path.exists(os.path.join(RAIZ, 'PAUSA')):
         log('PAUSA activa: no se publica nada.')
         return fin()
@@ -116,6 +145,9 @@ if __name__ == '__main__':
         ctypes.windll.kernel32.SetThreadExecutionState(0x80000001)
     if '--probar' in sys.argv:
         sys.exit(main(probar=True))
+    if '--toca' in sys.argv:  # para la nube: "si" si este turno todavía no se publicó (así no instala nada al divino botón)
+        print('no' if turno_cubierto() or os.path.exists(os.path.join(RAIZ, 'PAUSA')) else 'si')
+        sys.exit(0)
     # el 24/10 a las 19:30 se cayó sin dejar rastro: cualquier error inesperado queda en el log y avisa
     try:
         main()
