@@ -17,3 +17,6 @@ Listo. Producción completa de punta a punta.
 **Decidí producir el video de actualidad `005-granizo-calor` ("¿por qué cae granizo justo cuando hace calor?"), con el ángulo propio de que el calor es el motor que lo fabrica; quedó renderizado, chequeado y en estado `listo`.**
 
 2026-10-24 10:52 Termina el radar (código 0).
+2026-10-25 14:09 Arranca el radar.
+Decidí no producir un video de actualidad hoy. Las búsquedas no devolvieron nada fechado de hoy que se pueda chequear con fuentes del día. Los candidatos de la revisión anterior (frío en primavera, paraguas dado vuelta, un tercer video de clima) siguen descartados por falta de giro propio, por veracidad o por saturación. Anoté la decisión en `videos/radar.log` y sigo con la cola normal.
+2026-10-25 14:09 Termina el radar (ok).
