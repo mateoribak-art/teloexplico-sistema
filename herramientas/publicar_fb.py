@@ -89,8 +89,15 @@ def main():
         sys.exit(f'Facebook no aceptó el cierre de la subida: {fin}')
 
     # 5. esperar a que termine de procesar
-    for _ in range(60):
-        st = pedir('GET', f'{API}/{vid}?' + urllib.parse.urlencode({'fields': 'status', 'access_token': token}))['status']
+    for intento in range(60):
+        # recién cerrada la subida, Facebook a veces contesta "el objeto no existe" unos segundos (25/10): se reintenta
+        try:
+            st = pedir('GET', f'{API}/{vid}?' + urllib.parse.urlencode({'fields': 'status', 'access_token': token}))['status']
+        except SystemExit:
+            if intento >= 12:
+                raise
+            time.sleep(5)
+            continue
         if st.get('video_status') == 'error' or st.get('processing_phase', {}).get('status') == 'error':
             sys.exit(f'Facebook rechazó el video: {st}')
         if st.get('video_status') == 'ready' and (borrador or st.get('publishing_phase', {}).get('status') == 'complete'):
