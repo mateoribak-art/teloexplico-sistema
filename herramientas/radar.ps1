@@ -20,6 +20,6 @@ Escribir "Arranca el radar."
 $pedido = "Usá el skill radar-actualidad. Si encontrás un tema del momento que cumpla todos los criterios, producilo completo con el skill producir-video (prioridad actualidad). Si no, anotá los candidatos descartados y terminá. Al final, una línea con lo que decidiste."
 $salida = & claude -p $pedido --permission-mode dontAsk 2>&1 | Out-String
 $salida | Out-File -FilePath $log -Append -Encoding utf8
-if ($salida -match "(?i)(usage limit|limit reached|hit your limit|rate limit|out of (extra )?usage|resets? (at|in))") { Escribir "LIMITE CLAUDE: la suscripción no tiene cuota ahora." }
+if ($salida -match "(?i)(usage limit|limit reached|hit your (session |weekly |daily )?limit|session limit|weekly limit|rate limit|out of (extra )?usage|resets? (at|in|\d))") { Escribir "LIMITE CLAUDE: la suscripción no tiene cuota ahora." }
 Escribir "Termina el radar (código $LASTEXITCODE)."
 & "C:\Users\Mateo\AppData\Local\Programs\Python\Python312\python.exe" -I (Join-Path $raiz "herramientas\sincronizar.py") "Notebook: radar" 2>&1 | Out-File -FilePath $log -Append -Encoding utf8

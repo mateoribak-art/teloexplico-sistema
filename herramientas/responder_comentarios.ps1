@@ -25,6 +25,6 @@ if ($n -eq 0) { Escribir "Sin comentarios nuevos."; exit 0 }
 Escribir "Hay $n comentarios nuevos: arranca la respuesta."
 $salida = & claude -p "Usá el skill responder-comentarios y procesá todos los comentarios pendientes. Al final, una línea con cuántos respondiste, salteaste y alertaste." --permission-mode dontAsk 2>&1 | Out-String
 $salida | Out-File -FilePath $log -Append -Encoding utf8
-if ($salida -match "(?i)(usage limit|limit reached|hit your limit|rate limit|out of (extra )?usage|resets? (at|in))") { Escribir "LIMITE CLAUDE: la suscripción no tiene cuota ahora." }
+if ($salida -match "(?i)(usage limit|limit reached|hit your (session |weekly |daily )?limit|session limit|weekly limit|rate limit|out of (extra )?usage|resets? (at|in|\d))") { Escribir "LIMITE CLAUDE: la suscripción no tiene cuota ahora." }
 Escribir "Termina la respuesta de comentarios (código $LASTEXITCODE)."
 & "C:\Users\Mateo\AppData\Local\Programs\Python\Python312\python.exe" -I (Join-Path $raiz "herramientas\sincronizar.py") "Notebook: comentarios" 2>&1 | Out-File -FilePath $log -Append -Encoding utf8

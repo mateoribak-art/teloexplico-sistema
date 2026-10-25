@@ -27,7 +27,7 @@ function Sincronizar($msg) {
 function Avisar { Sincronizar "Notebook: producción"; & $py -I (Join-Path $raiz "herramientas\estado.py") noche | Out-Null }
 # la suscripción de Claude tiene límite por ventanas de 5 h y por semana: si se agotó, lo dejamos dicho para reintentar
 function RevisarLimite($salida) {
-  if ($salida -match "(?i)(usage limit|limit reached|hit your limit|rate limit|out of (extra )?usage|resets? (at|in))") {
+  if ($salida -match "(?i)(usage limit|limit reached|hit your (session |weekly |daily )?limit|session limit|weekly limit|rate limit|out of (extra )?usage|resets? (at|in|\d))") {
     Escribir "LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en la próxima corrida."
     # si además la cola se está vaciando, el plan B produce un video sin Claude (Gemini + Wikipedia + plantilla)
     $c = Get-Content (Join-Path $raiz "videos\cola.json") -Raw -Encoding utf8 | ConvertFrom-Json

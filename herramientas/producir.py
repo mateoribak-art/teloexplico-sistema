@@ -20,7 +20,7 @@ V = os.path.join(RAIZ, 'videos')
 PY = sys.executable
 META = 10    # colchón: 5 días de publicaciones (2 por día)
 PLAN_B = 3   # con esto o menos listos y sin Claude, produce el plan B
-LIMITE = re.compile(r'(?i)(usage limit|limit reached|hit your limit|rate limit|out of (extra )?usage|resets? (at|in))')
+LIMITE = re.compile(r'(?i)(usage limit|limit reached|hit your (session |weekly |daily )?limit|session limit|weekly limit|rate limit|out of (extra )?usage|resets? (at|in|\d))')
 AHORA = datetime.datetime.now()
 
 PEDIDO = f"""Producción automática. Usá el skill producir-video y seguilo al pie de la letra (incluida la dirección de arte de marca/DIRECCION_ARTE.md).
