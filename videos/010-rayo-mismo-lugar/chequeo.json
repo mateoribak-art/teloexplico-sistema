@@ -1,0 +1,37 @@
+{
+ "veredicto": "aprobado",
+ "motivo": "plan B: cada afirmación tiene cita textual verificada en Wikipedia",
+ "afirmaciones": [
+  {
+   "texto": "Las construcciones elevadas tienden a recibir muchas más descargas eléctricas.",
+   "cita": "Las construcciones elevadas tienden a recibir más descargas.",
+   "estado": "verificada"
+  },
+  {
+   "texto": "Se usan varillas de metal como pararrayos para atraerlos a puntos seguros.",
+   "cita": "atraerlas a un punto en el que no habría peligro, lo que se conoce como pararrayos.",
+   "estado": "verificada",
+   "faltan_en_fuente": [
+    "seguros"
+   ]
+  },
+  {
+   "texto": "El edificio Empire State en Nueva York recibe una veintena de descargas cada año.",
+   "cita": "el Empire State Building en Nueva York es golpeado una veintena de veces al año",
+   "estado": "verificada",
+   "faltan_en_fuente": [
+    "edificio"
+   ]
+  },
+  {
+   "texto": "La estatua del Cristo Redentor en Río de Janeiro recibe una media de seis rayos al año.",
+   "cita": "La estatua del Cristo Redentor en la ciudad de Río de Janeiro recibe una media de seis rayos todos a lo largo del año.",
+   "estado": "verificada"
+  },
+  {
+   "texto": "Los rayos repetidos en un lugar tienen una probabilidad baja, pero no imposible.",
+   "cita": "los rayos repetidos tienen una probabilidad muy baja (pero no imposible).",
+   "estado": "verificada"
+  }
+ ]
+}

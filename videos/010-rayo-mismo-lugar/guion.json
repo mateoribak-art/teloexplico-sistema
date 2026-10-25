@@ -1,0 +1,45 @@
+{
+ "titulo": "¿Un rayo nunca cae dos veces en el mismo lugar?",
+ "fuentes": [
+  "Wikipedia: Rayo"
+ ],
+ "frases": [
+  {
+   "texto": "¿De verdad creés que un rayo nunca cae dos veces en el mismo lugar?",
+   "estilo": "misterioso"
+  },
+  {
+   "texto": "Te comiste un re verso.",
+   "estilo": "directo"
+  },
+  {
+   "texto": "Las construcciones elevadas tienden a recibir muchas más descargas eléctricas.",
+   "estilo": "explicativo"
+  },
+  {
+   "texto": "De hecho, se usan varillas de metal como pararrayos para atraerlos a puntos seguros.",
+   "estilo": "informativo"
+  },
+  {
+   "texto": "El edificio Empire State en Nueva York recibe una veintena de descargas cada año.",
+   "estilo": "asombrado"
+  },
+  {
+   "texto": "Y la estatua del Cristo Redentor en Río de Janeiro recibe una media de seis rayos al año.",
+   "estilo": "descriptivo"
+  },
+  {
+   "texto": "Ojo: los rayos repetidos en un lugar cualquiera tienen probabilidad baja, pero no imposible.",
+   "estilo": "cauteloso"
+  },
+  {
+   "texto": "Así que en estructuras altas cae una y otra vez sin problemas.",
+   "estilo": "concluyente"
+  },
+  {
+   "texto": "Mandáselo a ese que se siente seguro cerca de una torre.",
+   "estilo": "cómplice"
+  }
+ ],
+ "plan_b": true
+}

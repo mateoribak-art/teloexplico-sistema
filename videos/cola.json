@@ -204,5 +204,22 @@
     "motivo": "producción nocturna"
    }
   ]
+ },
+ {
+  "slug": "010-rayo-mismo-lugar",
+  "tema": "¿Un rayo nunca cae dos veces en el mismo lugar?",
+  "estado": "produccion",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T06:35",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T06:35",
+    "motivo": "plan B"
+   }
+  ]
  }
 ]

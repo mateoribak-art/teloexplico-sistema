@@ -1,0 +1,69 @@
+{
+ "slug": "010-rayo-mismo-lugar",
+ "escenas": [
+  {
+   "tipo": "gancho",
+   "etiqueta": "el mito",
+   "objeto": "nube",
+   "sello": "¿MITO?"
+  },
+  {
+   "tipo": "golpe",
+   "etiqueta": "la verdad",
+   "titulo": "cae varias veces",
+   "respuesta": "repite lugar",
+   "objeto": "nube",
+   "sello": "MITO"
+  },
+  {
+   "tipo": "objeto",
+   "etiqueta": "alturas",
+   "objeto": "ninguno",
+   "rotulo": "las alturas reciben más descargas"
+  },
+  {
+   "tipo": "comparacion",
+   "etiqueta": "frecuencia",
+   "izquierda": "creencia de un solo impacto",
+   "derecha": "múltiples impactos en alturas",
+   "objeto": "ninguno"
+  },
+  {
+   "tipo": "objeto",
+   "etiqueta": "empire state",
+   "antes": "",
+   "despues": " rayos al año",
+   "rotulo": "impactos anuales en empire state",
+   "objeto": "ninguno",
+   "fuente": "Wikipedia"
+  },
+  {
+   "tipo": "objeto",
+   "etiqueta": "cristo redentor",
+   "objeto": "ninguno",
+   "rotulo": "seis rayos por año"
+  },
+  {
+   "tipo": "ojo",
+   "texto": "los rayos repetidos en un punto tienen probabilidad baja pero no imposible",
+   "objeto": "ninguno"
+  },
+  {
+   "tipo": "objeto",
+   "etiqueta": "conclusion",
+   "objeto": "nube",
+   "rotulo": "caen muchas veces"
+  },
+  {
+   "tipo": "cta",
+   "globo": "¡Cayeron veinte veces en el mismo!"
+  }
+ ],
+ "portada": {
+  "arriba": "¿Cae dos veces?",
+  "grande": "RAYO REPETIDO",
+  "sello": "MITO",
+  "objeto": "nube",
+  "numero": 10
+ }
+}

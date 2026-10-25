@@ -31,7 +31,7 @@ Ninguna idea de acá está verificada: cada una se investiga y se chequea antes 
 
 ## Ciencia de todos los días
 <!-- plan B: "(wiki: Artículo; Otro | claves: palabras)" al final fija qué artículos de Wikipedia leer -->
-- [ ] Un rayo nunca cae dos veces en el mismo lugar (wiki: Rayo | claves: mismo lugar veces Empire State edificio pararrayos)
+- [usada → 010-rayo-mismo-lugar (plan B)] Un rayo nunca cae dos veces en el mismo lugar (wiki: Rayo | claves: mismo lugar veces Empire State edificio pararrayos)
 - [ ] Los perros ven en blanco y negro (wiki: Perro | claves: visión color colores dicromático ojos retina)
 - [ ] Los murciélagos son ciegos (wiki: Chiroptera; Ecolocalización | claves: ciegos ojos visión ecolocalización)
 - [ ] Los peces tienen memoria de tres segundos
