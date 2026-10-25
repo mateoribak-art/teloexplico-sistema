@@ -4,3 +4,8 @@ You've hit your session limit · resets 1:30am (America/Buenos_Aires)
 
 2026-10-25 00:46 Termina la producción (código 1).
 2026-10-25 00:46 Sincronización: sincronizado
+2026-10-25 04:40 Arranca la producción (5 listos en la cola, meta 10).
+Failed to authenticate. API Error: 401 Invalid bearer token
+Ignoring 19 permissions.allow entries from .claude/settings.json: this workspace has not been trusted. Run Claude Code interactively here once and accept the trust dialog, or set projects["/home/runner/work/teloexplico-sistema/teloexplico-sistema"].hasTrustDialogAccepted: true in /home/runner/.claude.json.
+Permission deny rule (.claude/settings.json): Write(/secretos/**) is not matched by file permission checks — only Edit(path) rules are. Use Edit(/secretos/**) instead (Edit rules cover all file-editing tools).
+2026-10-25 04:40 Termina la producción (Claude no terminó bien).
