@@ -9,3 +9,17 @@ Failed to authenticate. API Error: 401 Invalid bearer token
 Ignoring 19 permissions.allow entries from .claude/settings.json: this workspace has not been trusted. Run Claude Code interactively here once and accept the trust dialog, or set projects["/home/runner/work/teloexplico-sistema/teloexplico-sistema"].hasTrustDialogAccepted: true in /home/runner/.claude.json.
 Permission deny rule (.claude/settings.json): Write(/secretos/**) is not matched by file permission checks — only Edit(path) rules are. Use Edit(/secretos/**) instead (Edit rules cover all file-editing tools).
 2026-10-25 04:40 Termina la producción (Claude no terminó bien).
+2026-10-25 05:30 Arranca la producción (5 listos en la cola, meta 10).
+No pude producir ningún video: el permiso para ejecutar comandos en la terminal (Bash) fue denegado. Esta corrida automática corre en modo "don't ask", que bloquea Bash.
+
+El skill depende de `./herramientas/tlx` para la cola, la voz, el render y el control, así que no hay forma de hacerlo sin Bash. No intenté ningún rodeo.
+
+- **Listos:** ninguno.
+- **Apartados:** ninguno. No se creó ningún slug ni se tocó la cola.
+- **Incompletos:** ninguno. Se frenó antes de empezar, así que tampoco hay segundo video. No escribí nada en `videos/produccion.log`.
+
+Para que funcione, habilitá Bash en esta corrida. Podés permitir `./herramientas/tlx` y los comandos de lectura de archivos en `.claude/settings.json`, o correr en un modo que los permita.
+Permission allow rule (.claude/settings.json): Write(/motor/src/**) is not matched by file permission checks — only Edit(path) rules are. Use Edit(/motor/src/**) instead (Edit rules cover all file-editing tools).
+Permission allow rule (.claude/settings.json): Write(/videos/**) is not matched by file permission checks — only Edit(path) rules are. Use Edit(/videos/**) instead (Edit rules cover all file-editing tools).
+Permission deny rule (.claude/settings.json): Write(/secretos/**) is not matched by file permission checks — only Edit(path) rules are. Use Edit(/secretos/**) instead (Edit rules cover all file-editing tools).
+2026-10-25 05:30 Termina la producción (ok).
