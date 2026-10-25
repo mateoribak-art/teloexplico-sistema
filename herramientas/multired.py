@@ -15,6 +15,30 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ONEDRIVE = os.path.join(os.path.expanduser('~'), 'OneDrive', 'TeLoExplico', 'para-subir')
 ONEDRIVE_WEB = 'https://onedrive.live.com/'
 RELEASE_WEB = 'https://github.com/mateoribak-art/teloexplico-sistema/releases/tag/videos'
+TELEGRAM = os.path.join(RAIZ, 'secretos', 'telegram.json')  # {"token": ..., "chat_id": ...} (conectar_telegram.cmd)
+
+
+def telegram(metodo, campos, archivo=None):
+    """Bot de Telegram propio: manda el video entero al celular (la API acepta hasta 50 MB; ntfy gratis, 2 MB)."""
+    conf = json.load(open(TELEGRAM, encoding='utf-8'))
+    limite = '----teloexplico'
+    cuerpo = b''.join(f'--{limite}\r\nContent-Disposition: form-data; name="{k}"\r\n\r\n{v}\r\n'.encode('utf-8')
+                      for k, v in {**campos, 'chat_id': conf['chat_id']}.items())
+    if archivo:
+        campo, ruta = archivo
+        cuerpo += (f'--{limite}\r\nContent-Disposition: form-data; name="{campo}"; filename="{os.path.basename(ruta)}"\r\n'
+                   f'Content-Type: video/mp4\r\n\r\n').encode() + open(ruta, 'rb').read() + b'\r\n'
+    cuerpo += f'--{limite}--\r\n'.encode()
+    req = urllib.request.Request(f"https://api.telegram.org/bot{conf['token']}/{metodo}", data=cuerpo,
+                                 headers={'Content-Type': f'multipart/form-data; boundary={limite}'})
+    return json.load(urllib.request.urlopen(req, timeout=300))
+
+
+def mandar_telegram(slug, video, tiktok, titulo, descripcion):
+    telegram('sendVideo', {'caption': f'▶️ YouTube Shorts · {slug}\n\nTÍTULO (tocá para copiar):\n{titulo}'[:1000],
+                           'supports_streaming': 'true'}, ('video', video))
+    telegram('sendMessage', {'text': f'DESCRIPCIÓN para YouTube:\n\n{descripcion}'[:4000]})
+    telegram('sendMessage', {'text': f'Texto para TikTok:\n\n{tiktok}'[:4000]})
 
 
 def tema():
@@ -66,6 +90,12 @@ def main(slug, avisar=True, tiktok_en_bandeja=False):
     if not avisar:
         print(f'prueba sin avisar: {ruta}')
         return
+    if os.path.exists(TELEGRAM) and os.path.exists(video):
+        try:
+            mandar_telegram(slug, video, tiktok, titulo, descripcion)
+            ruta, click = 'te llegó por Telegram (chat del bot)', 'https://t.me/'
+        except Exception as e:  # si Telegram falla, queda el camino de siempre
+            print('Telegram falló:', str(e)[:200])
     notificar('📲 Subilo a TikTok', f'Video: {ruta}\n\nTexto para pegar:\n\n{tiktok}', click=click)
     notificar('▶️ Y a YouTube Shorts', f'Mismo video ({ruta}).\n\nTÍTULO:\n{titulo}\n\nDESCRIPCIÓN:\n{descripcion}', click=click)
     print(f'paquete listo ({ruta}) y notificado')
