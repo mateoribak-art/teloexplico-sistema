@@ -1,0 +1,66 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Las 10 afirmaciones fácticas están verificadas; no hay probables, dudosas ni falsas, así que no hace falta matiz especial. Aviso: las páginas de usda.gov y fsis.usda.gov devolvieron 403; la cifra de 'seis de cada diez' (60%) se confirmó en resúmenes que citan al USDA/FSIS (usda.gov/article/washing-raw-poultry-our-science-your-choice según la búsqueda, y notas de prensa), no leyendo la página primaria. El resto se apoya en CDC, NC State y Journal of Food Protection.",
+  "afirmaciones": [
+    {
+      "texto": "El agua no mata las bacterias del pollo. Solo las reparte.",
+      "fuente": "CDC (cdc.gov/food-safety/foods/chicken.html): el pollo crudo no necesita lavarse; resúmenes de extensión universitaria que citan al USDA: lavar/enjuagar aumenta la dispersión de gérmenes y la cocción es lo que elimina las bacterias.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Con el chorro, las gotitas salpican la pileta, la mesada y lo que haya cerca.",
+      "fuente": "CDC y extensión universitaria (jugos del pollo se esparcen y contaminan alimentos, utensilios y mesadas); NC State news.ncsu.edu/2022/04/raw-chicken-and-food-safety/ (contaminación de la cocina medida con hisopados).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El Departamento de Agricultura de Estados Unidos hizo un estudio en una cocina de prueba, con unas trescientas personas.",
+      "fuente": "NC State news.ncsu.edu/2022/04/raw-chicken-and-food-safety/ : 300 cocineros en cocinas de prueba, con apoyo del USDA FSIS y un coautor de FSIS (lo hizo con NC State). Estudio observacional de FSIS citado en CDC. Paper: J Food Prot 2022;85(4):615-625 (PubMed 35051277). 'Unas' cubre la aproximación; la participación de NC State es un detalle menor que no vuelve falsa la frase.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Entre quienes lavaron el pollo, a seis de cada diez les quedaron bacterias en la pileta.",
+      "fuente": "USDA/FSIS, 'Washing raw poultry: our science, your choice' (usda.gov), vía búsqueda web y notas de prensa que citan el 60% de quienes lavaron con bacterias en la pileta (y 14% aún tras limpiarla). Página primaria no legible (403). CDC cita del mismo estudio '1 de cada 7' con gérmenes tras limpiar la pileta (coherente con el 14%).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y las bacterias que quedan en la pileta pueden pasar a lo que toques después.",
+      "fuente": "NC State/J Food Prot 2022: alrededor de 25-26% contaminó la ensalada con bacterias trazadoras del pollo; CDC recomienda limpiar y desinfectar la pileta. 'Pueden' ya es el matiz correcto.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Lo que sí mata las bacterias es la cocción: el pollo tiene que llegar a setenta y cuatro grados por dentro.",
+      "fuente": "CDC (cdc.gov/food-safety/foods/chicken.html): 165 °F de temperatura interna, confirmar con termómetro. 165 °F = 73,9 °C, redondeado a 74 °C.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: lo que hay que lavarse bien son las manos, con agua y jabón, después de tocar el pollo crudo.",
+      "fuente": "CDC (cdc.gov/food-safety/foods/chicken.html): lavarse las manos con agua y jabón al menos 20 segundos antes y después de manipular pollo crudo.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Así que sacalo del envase, cocinalo y listo.",
+      "fuente": "CDC: 'raw chicken is ready to cook. It doesn't need to be washed first'. La frase anterior ya aclara el lavado de manos.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "¿Lavás el pollo crudo antes de cocinarlo para dejarlo limpito?",
+      "fuente": "Pregunta retórica, no afirma un hecho. Es una práctica real: NC State reclutó a 300 cocineros que decían lavar el pollo.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Es al revés. / Mandáselo a ese que enjuaga el pollo como si lo estuviera bañando.",
+      "fuente": "Recurso retórico y llamado a compartir; no son afirmaciones fácticas. 'Es al revés' queda respaldada por las frases 3 y 4.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

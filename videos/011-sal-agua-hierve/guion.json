@@ -1,0 +1,20 @@
+{
+  "titulo": "¿Ponerle sal al agua hace que hierva más rápido?",
+  "fuentes": [
+    "Live Science: Does salt make water boil faster?",
+    "Mental Floss: Does Adding Salt to Water Make It Boil Sooner?",
+    "Thermtest: Does Adding Salt to Water Help it Boil Faster?"
+  ],
+  "frases": [
+    {"texto": "¿Le tirás sal al agua para que hierva más rápido?", "estilo": "Intriga, como quien descubre algo."},
+    {"texto": "Te comiste un verso.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "La sal en el agua hace que hierva a una temperatura un poquito más alta, no más rápido.", "estilo": "Claro y tranquilo."},
+    {"texto": "Es decir: tiene que calentarse más para empezar a hervir.", "estilo": "Explicativo, simple."},
+    {"texto": "Con la cantidad que le ponés a los fideos, la subida es una fracción de grado.", "estilo": "Seco, con precisión."},
+    {"texto": "Una química consultada por Live Science calculó que, con una cucharadita por litro, la diferencia es de segundos como mucho.", "estilo": "Dato firme, con la fuente."},
+    {"texto": "Para subir un grado entero harían falta como sesenta gramos de sal por litro, y eso ya no se podría comer.", "estilo": "Con humor, sorprendido."},
+    {"texto": "Ojo: la sal igual va, pero para que los fideos tengan gusto, no para ganar tiempo.", "estilo": "Cálido, con matiz."},
+    {"texto": "Si querés que hierva antes, ponele tapa a la olla.", "estilo": "Práctico, cómplice."},
+    {"texto": "Mandáselo a ese que se queda mirando la olla esperando que la sal haga magia.", "estilo": "Cómplice, con humor."}
+  ]
+}

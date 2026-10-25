@@ -1,0 +1,20 @@
+{
+  "titulo": "¿Hay que lavar el pollo crudo antes de cocinarlo?",
+  "fuentes": [
+    "USDA (Departamento de Agricultura de EE. UU.), Servicio de Inocuidad e Inspección de Alimentos: no lavar el pollo crudo",
+    "USDA FSIS, estudio de lavado de pollo, 2019"
+  ],
+  "frases": [
+    {"texto": "¿Lavás el pollo crudo antes de cocinarlo para dejarlo limpito?", "estilo": "Intriga, como quien pregunta lo obvio."},
+    {"texto": "Es al revés.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "El agua no mata las bacterias del pollo. Solo las reparte.", "estilo": "Claro y firme."},
+    {"texto": "Con el chorro, las gotitas salpican la pileta, la mesada y lo que haya cerca.", "estilo": "Explicativo, simple."},
+    {"texto": "El Departamento de Agricultura de Estados Unidos hizo un estudio en una cocina de prueba, con unas trescientas personas.", "estilo": "Dato firme, con la fuente."},
+    {"texto": "Entre quienes lavaron el pollo, a seis de cada diez les quedaron bacterias en la pileta.", "estilo": "Sorprendido."},
+    {"texto": "Y las bacterias que quedan en la pileta pueden pasar a lo que toques después.", "estilo": "Con asombro, claro."},
+    {"texto": "Lo que sí mata las bacterias es la cocción: el pollo tiene que llegar a setenta y cuatro grados por dentro.", "estilo": "Serio, práctico."},
+    {"texto": "Ojo: lo que hay que lavarse bien son las manos, con agua y jabón, después de tocar el pollo crudo.", "estilo": "Cálido, con matiz."},
+    {"texto": "Así que sacalo del envase, cocinalo y listo.", "estilo": "Práctico, cómplice."},
+    {"texto": "Mandáselo a ese que enjuaga el pollo como si lo estuviera bañando.", "estilo": "Cómplice, con humor."}
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "veredicto": "rechazado",
+  "motivo": "La atribucion a Live Science no se pudo verificar contra el articulo original: livescience.com/56214-does-salt-make-water-boil-faster.html devolvio solo el titulo en dos intentos de lectura. Solo hay resumenes secundarios de busqueda (coinciden entre si) que dicen que una quimica, Lesley-Ann Giddings (Middlebury College), afirma que una cucharadita de sal por litro cambia el tiempo en 'mere seconds, if even that'. Eso deja la frase 6 en estado 'probable', y la frase la presenta como firme (estilo 'Dato firme, con la fuente') y ademas usa el verbo 'calculo', que no esta respaldado (el articulo parece citar una opinion, no un calculo). Por la regla, probable solo se admite si la frase lo presenta como tal. Correccion sugerida: leer el articulo completo (o pegar su texto) y reformular sin 'calculo', por ejemplo 'Segun una quimica consultada por Live Science, con una cucharadita por litro la diferencia es de segundos, si llega'. El resto de las frases esta verificado y no tiene problemas.",
+  "afirmaciones": [
+    {
+      "texto": "¿Le tirás sal al agua para que hierva más rápido? / Te comiste un verso. (la idea de que la sal acelera el hervor es un mito)",
+      "fuente": "Mental Floss (mentalfloss.com/article/60046/does-adding-salt-water-make-it-boil-sooner); Thermtest (thermtest.com/does-adding-salt-to-water-help-it-boil-faster); Live Science (via resumen secundario)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La sal en el agua hace que hierva a una temperatura un poquito más alta, no más rápido.",
+      "fuente": "Elevacion del punto de ebullicion (propiedad coligativa): chemteam.info/Solutions/BP-elevation.html y sciencenotes.org/boiling-point-elevation-definition-and-example/; Mental Floss (216 F vs 212 F, y que no acelera). Nota: Live Science menciona que la menor capacidad calorica podria acelerar el calentamiento, pero el efecto neto es de segundos.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Es decir: tiene que calentarse más para empezar a hervir.",
+      "fuente": "Mental Floss (el agua salada necesita mas calor para llegar a su punto de ebullicion mas alto); chemteam.info/Solutions/BP-elevation.html",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Con la cantidad que le ponés a los fideos, la subida es una fracción de grado.",
+      "fuente": "Calculo con dTb = i*Kb*m (i=2, Kb=0,512 C*kg/mol): una cucharadita (~6 g) por litro da ~0,1 C. Fuentes de la formula: chemteam.info, sciencenotes.org. Calculo propio, sin fuente primaria que cite ese caso.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Una química consultada por Live Science calculó que, con una cucharadita por litro, la diferencia es de segundos como mucho.",
+      "fuente": "Live Science, 'Does salt make water boil faster?' (livescience.com/56214-does-salt-make-water-boil-faster.html). No se pudo leer el articulo (la lectura devolvio solo el titulo). Resumenes de busqueda atribuyen la cita a Lesley-Ann Giddings, profesora de quimica en Middlebury College: una cucharadita por litro, 'mere seconds, if even that'. 'Calculo' no esta confirmado.",
+      "estado": "probable",
+      "matiz_ok": false
+    },
+    {
+      "texto": "Para subir un grado entero harían falta como sesenta gramos de sal por litro, y eso ya no se podría comer.",
+      "fuente": "Calculo: 58 g/L de NaCl = ~1 mol/L, molalidad ~1,0 mol/kg, dTb = 2 x 0,512 x 1,0 = ~1,0 C (chemteam.info/Solutions/BP-elevation.html, sciencenotes.org). La no idealidad a esa concentracion lo deja en ~0,9-1,0 C, coherente con 'como sesenta'. 60 g/L (6 %) es casi el doble que el agua de mar (~3,5 %), por lo que 'no se podria comer' es razonable.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: la sal igual va, pero para que los fideos tengan gusto, no para ganar tiempo.",
+      "fuente": "Mental Floss (la sal puede agregarse por sabor, no acelera); consejo culinario general, sin cifra ni riesgo",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si querés que hierva antes, ponele tapa a la olla.",
+      "fuente": "Cook's Country / America's Test Kitchen, 'Boiling Water Faster in a Covered Pot' (americastestkitchen.com/how_tos/6437-boiling-water-faster-in-a-covered-pot): 2 qt, 10:30 con tapa vs 13:20 sin tapa (~25 %); 2 gal, 26:20 vs 34:42 (~30 %). Mecanismo: el vapor se condensa en la tapa y devuelve energia, y se pierde menos calor.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mandáselo a ese que se queda mirando la olla esperando que la sal haga magia. (llamado a compartir, sin afirmacion factica)",
+      "fuente": "No aplica",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

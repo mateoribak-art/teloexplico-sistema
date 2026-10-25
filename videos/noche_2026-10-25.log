@@ -92,3 +92,12 @@ resultado: 010-rayo-mismo-lugar
 2026-10-25 | plan B | 010-rayo-mismo-lugar: terminado (prueba, queda apartado para revisar)
 resultado: 010-rayo-mismo-lugar
 2026-10-25 06:52 Termina la prueba del plan B (código 0).
+2026-10-25 10:50 Arranca la producción (7 listos en la cola, meta 10).
+Dejé listo el 012 y aparté el 011; no hice un tercer intento porque ya usé los dos tópicos que permite la corrida.
+
+- **Listo:** `012-lavar-pollo` (¿hay que lavar el pollo crudo?). El segundo chequeo salió aprobado. Voz de 52 s, `tsc` sin errores, dos vueltas de cuadros, render de 53 s y control OK. Una salvedad: las páginas del USDA daban error 403, así que la cifra de "seis de cada diez" la confirmaron en fuentes secundarias (NC State, CDC), no en la página primaria.
+- **Apartado:** `011-sal-agua-hierve` (sal y hervor). El chequeo lo rechazó dos veces porque no se pudo verificar lo que dice Live Science sobre "segundos de diferencia": el artículo no se podía leer. Quedó descartado en `ideas.md`.
+- **Cola:** quedan 8 videos listos, menos de los 10 deseados, y la cuota de Gemini no se agotó. Como el 011 ya había gastado uno de los dos tópicos, no empecé otro.
+Permisos negados (1):
+  Bash: {"command": "sed -i \\\n -e 's|^const SX = 850, SY = 1300;.*|const SX = 940, SY = 1300; // sartén|' \\\n -e 's|^const TX = 110, TY = 1295;.*|const TX
+2026-10-25 11:07 Termina la producción (Claude no terminó bien).

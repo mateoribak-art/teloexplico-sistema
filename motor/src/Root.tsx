@@ -15,6 +15,8 @@ import { DURACION as DUR_005, FPS as FPS_005, GranizoCalor005, Portada005 } from
 import { AireEn17008, DURACION as DUR_008, FPS as FPS_008, Portada008 } from "./videos/008-aire-en-17/Video";
 import { Ventilador009, DURACION as DUR_009, FPS as FPS_009, Portada009 } from "./videos/009-ventilador-pieza-vacia/Video";
 
+import { DURACION as DUR_012, FPS as FPS_012, LavarPollo012, Portada012 } from "./videos/012-lavar-pollo/Video";
+
 // Cada video nuevo suma su <Composition> (id "hNNN-slug") y su <Still> de portada (id "pNNN-slug").
 export const RemotionRoot: React.FC = () => {
   return (
@@ -29,6 +31,7 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="h007-bts-13-anios" component={Bts13Anios007} durationInFrames={DUR_007} fps={FPS_007} width={ANCHO} height={ALTO} />
         <Composition id="h008-aire-en-17" component={AireEn17008} durationInFrames={DUR_008} fps={FPS_008} width={ANCHO} height={ALTO} />
         <Composition id="h009-ventilador-pieza-vacia" component={Ventilador009} durationInFrames={DUR_009} fps={FPS_009} width={ANCHO} height={ALTO} />
+        <Composition id="h012-lavar-pollo" component={LavarPollo012} durationInFrames={DUR_012} fps={FPS_012} width={ANCHO} height={ALTO} />
       </Folder>
       <Folder name="portadas">
         <Still id="p001-heladera" component={Portada001} width={ANCHO} height={ALTO} />
@@ -40,6 +43,7 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p007-bts-13-anios" component={Portada007} width={ANCHO} height={ALTO} />
         <Still id="p008-aire-en-17" component={Portada008} width={ANCHO} height={ALTO} />
         <Still id="p009-ventilador-pieza-vacia" component={Portada009} width={ANCHO} height={ALTO} />
+        <Still id="p012-lavar-pollo" component={Portada012} width={ANCHO} height={ALTO} />
       </Folder>
       {/* plan B (sin Claude): herramientas/plan_b.py le pasa las escenas con --props */}
       <Folder name="planb">

@@ -14,8 +14,8 @@ Ninguna idea de acá está verificada: cada una se investiga y se chequea antes 
 
 ## Cocina
 - [usada → 003-vuelta-carne] A la carne se la da vuelta una sola vez
-- [ ] Ponerle sal al agua hace que hierva más rápido
-- [ ] Hay que lavar el pollo crudo antes de cocinarlo
+- [descartada: chequeo rechazado 2 veces por atribución no verificable a Live Science; el mito es falso (011-sal-agua-hierve apartado)] Ponerle sal al agua hace que hierva más rápido
+- [usada → 012-lavar-pollo] Hay que lavar el pollo crudo antes de cocinarlo
 - [ ] Descongelar la carne arriba de la mesada
 - [ ] El microondas le saca los nutrientes a la comida
 - [ ] Tirar los fideos contra la pared para ver si están

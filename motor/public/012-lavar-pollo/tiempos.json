@@ -1,0 +1,832 @@
+{
+ "duracion": 52.21,
+ "frases": [
+  {
+   "texto": "¿Lavás el pollo crudo antes de cocinarlo para dejarlo limpito?",
+   "palabras": [
+    {
+     "texto": "¿Lavás",
+     "inicio": 0.0,
+     "fin": 0.414
+    },
+    {
+     "texto": "el",
+     "inicio": 0.414,
+     "fin": 0.58
+    },
+    {
+     "texto": "pollo",
+     "inicio": 0.58,
+     "fin": 0.86
+    },
+    {
+     "texto": "crudo",
+     "inicio": 0.86,
+     "fin": 1.28
+    },
+    {
+     "texto": "antes",
+     "inicio": 1.28,
+     "fin": 1.58
+    },
+    {
+     "texto": "de",
+     "inicio": 1.58,
+     "fin": 1.76
+    },
+    {
+     "texto": "cocinarlo",
+     "inicio": 1.76,
+     "fin": 2.44
+    },
+    {
+     "texto": "para",
+     "inicio": 2.44,
+     "fin": 2.74
+    },
+    {
+     "texto": "dejarlo",
+     "inicio": 2.74,
+     "fin": 3.28
+    },
+    {
+     "texto": "limpito?",
+     "inicio": 3.28,
+     "fin": 3.98
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.98
+  },
+  {
+   "texto": "Es al revés.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 4.58,
+     "fin": 4.82
+    },
+    {
+     "texto": "al",
+     "inicio": 4.82,
+     "fin": 4.96
+    },
+    {
+     "texto": "revés.",
+     "inicio": 4.96,
+     "fin": 5.42
+    }
+   ],
+   "inicio": 4.58,
+   "fin": 5.42
+  },
+  {
+   "texto": "El agua no mata las bacterias del pollo. Solo las reparte.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 5.94,
+     "fin": 6.06
+    },
+    {
+     "texto": "agua",
+     "inicio": 6.06,
+     "fin": 6.26
+    },
+    {
+     "texto": "no",
+     "inicio": 6.26,
+     "fin": 6.52
+    },
+    {
+     "texto": "mata",
+     "inicio": 6.52,
+     "fin": 6.78
+    },
+    {
+     "texto": "las",
+     "inicio": 6.78,
+     "fin": 6.96
+    },
+    {
+     "texto": "bacterias",
+     "inicio": 6.96,
+     "fin": 7.36
+    },
+    {
+     "texto": "del",
+     "inicio": 7.36,
+     "fin": 7.5
+    },
+    {
+     "texto": "pollo.",
+     "inicio": 7.5,
+     "fin": 7.86
+    },
+    {
+     "texto": "Solo",
+     "inicio": 8.28,
+     "fin": 8.68
+    },
+    {
+     "texto": "las",
+     "inicio": 8.68,
+     "fin": 8.9
+    },
+    {
+     "texto": "reparte.",
+     "inicio": 8.9,
+     "fin": 9.36
+    }
+   ],
+   "inicio": 5.94,
+   "fin": 9.36
+  },
+  {
+   "texto": "Con el chorro, las gotitas salpican la pileta, la mesada y lo que haya cerca.",
+   "palabras": [
+    {
+     "texto": "Con",
+     "inicio": 9.88,
+     "fin": 10.06
+    },
+    {
+     "texto": "el",
+     "inicio": 10.06,
+     "fin": 10.16
+    },
+    {
+     "texto": "chorro,",
+     "inicio": 10.16,
+     "fin": 10.56
+    },
+    {
+     "texto": "las",
+     "inicio": 10.9,
+     "fin": 10.98
+    },
+    {
+     "texto": "gotitas",
+     "inicio": 10.98,
+     "fin": 11.42
+    },
+    {
+     "texto": "salpican",
+     "inicio": 11.42,
+     "fin": 11.86
+    },
+    {
+     "texto": "la",
+     "inicio": 11.86,
+     "fin": 12.02
+    },
+    {
+     "texto": "pileta,",
+     "inicio": 12.02,
+     "fin": 12.5
+    },
+    {
+     "texto": "la",
+     "inicio": 12.92,
+     "fin": 13.0
+    },
+    {
+     "texto": "mesada",
+     "inicio": 13.0,
+     "fin": 13.52
+    },
+    {
+     "texto": "y",
+     "inicio": 13.52,
+     "fin": 14.18
+    },
+    {
+     "texto": "lo",
+     "inicio": 14.18,
+     "fin": 14.3
+    },
+    {
+     "texto": "que",
+     "inicio": 14.3,
+     "fin": 14.4
+    },
+    {
+     "texto": "haya",
+     "inicio": 14.4,
+     "fin": 14.56
+    },
+    {
+     "texto": "cerca.",
+     "inicio": 14.56,
+     "fin": 14.9
+    }
+   ],
+   "inicio": 9.88,
+   "fin": 14.9
+  },
+  {
+   "texto": "El Departamento de Agricultura de Estados Unidos hizo un estudio en una cocina de prueba, con unas trescientas personas.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 15.46,
+     "fin": 15.66
+    },
+    {
+     "texto": "Departamento",
+     "inicio": 15.66,
+     "fin": 16.1
+    },
+    {
+     "texto": "de",
+     "inicio": 16.1,
+     "fin": 16.32
+    },
+    {
+     "texto": "Agricultura",
+     "inicio": 16.32,
+     "fin": 16.82
+    },
+    {
+     "texto": "de",
+     "inicio": 16.82,
+     "fin": 16.98
+    },
+    {
+     "texto": "Estados",
+     "inicio": 16.98,
+     "fin": 17.2
+    },
+    {
+     "texto": "Unidos",
+     "inicio": 17.2,
+     "fin": 17.64
+    },
+    {
+     "texto": "hizo",
+     "inicio": 17.64,
+     "fin": 18.12
+    },
+    {
+     "texto": "un",
+     "inicio": 18.12,
+     "fin": 18.26
+    },
+    {
+     "texto": "estudio",
+     "inicio": 18.26,
+     "fin": 18.56
+    },
+    {
+     "texto": "en",
+     "inicio": 18.56,
+     "fin": 18.72
+    },
+    {
+     "texto": "una",
+     "inicio": 18.72,
+     "fin": 18.84
+    },
+    {
+     "texto": "cocina",
+     "inicio": 18.84,
+     "fin": 19.18
+    },
+    {
+     "texto": "de",
+     "inicio": 19.18,
+     "fin": 19.32
+    },
+    {
+     "texto": "prueba,",
+     "inicio": 19.32,
+     "fin": 19.64
+    },
+    {
+     "texto": "con",
+     "inicio": 20.06,
+     "fin": 20.36
+    },
+    {
+     "texto": "unas",
+     "inicio": 20.36,
+     "fin": 20.58
+    },
+    {
+     "texto": "trescientas",
+     "inicio": 20.58,
+     "fin": 21.2
+    },
+    {
+     "texto": "personas.",
+     "inicio": 21.2,
+     "fin": 21.64
+    }
+   ],
+   "inicio": 15.46,
+   "fin": 21.64
+  },
+  {
+   "texto": "Entre quienes lavaron el pollo, a seis de cada diez les quedaron bacterias en la pileta.",
+   "palabras": [
+    {
+     "texto": "Entre",
+     "inicio": 22.24,
+     "fin": 22.54
+    },
+    {
+     "texto": "quienes",
+     "inicio": 22.54,
+     "fin": 22.76
+    },
+    {
+     "texto": "lavaron",
+     "inicio": 22.76,
+     "fin": 23.14
+    },
+    {
+     "texto": "el",
+     "inicio": 23.14,
+     "fin": 23.34
+    },
+    {
+     "texto": "pollo,",
+     "inicio": 23.34,
+     "fin": 23.66
+    },
+    {
+     "texto": "a",
+     "inicio": 24.02,
+     "fin": 24.36
+    },
+    {
+     "texto": "seis",
+     "inicio": 24.36,
+     "fin": 24.7
+    },
+    {
+     "texto": "de",
+     "inicio": 24.7,
+     "fin": 24.9
+    },
+    {
+     "texto": "cada",
+     "inicio": 24.9,
+     "fin": 25.06
+    },
+    {
+     "texto": "diez",
+     "inicio": 25.06,
+     "fin": 25.46
+    },
+    {
+     "texto": "les",
+     "inicio": 25.46,
+     "fin": 25.88
+    },
+    {
+     "texto": "quedaron",
+     "inicio": 25.88,
+     "fin": 26.22
+    },
+    {
+     "texto": "bacterias",
+     "inicio": 26.22,
+     "fin": 26.8
+    },
+    {
+     "texto": "en",
+     "inicio": 26.8,
+     "fin": 26.96
+    },
+    {
+     "texto": "la",
+     "inicio": 26.96,
+     "fin": 27.08
+    },
+    {
+     "texto": "pileta.",
+     "inicio": 27.08,
+     "fin": 27.48
+    }
+   ],
+   "inicio": 22.24,
+   "fin": 27.48
+  },
+  {
+   "texto": "Y las bacterias que quedan en la pileta pueden pasar a lo que toques después.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 27.48,
+     "fin": 28.08
+    },
+    {
+     "texto": "las",
+     "inicio": 28.08,
+     "fin": 28.26
+    },
+    {
+     "texto": "bacterias",
+     "inicio": 28.26,
+     "fin": 28.74
+    },
+    {
+     "texto": "que",
+     "inicio": 28.74,
+     "fin": 28.84
+    },
+    {
+     "texto": "quedan",
+     "inicio": 28.84,
+     "fin": 29.16
+    },
+    {
+     "texto": "en",
+     "inicio": 29.16,
+     "fin": 29.24
+    },
+    {
+     "texto": "la",
+     "inicio": 29.24,
+     "fin": 29.34
+    },
+    {
+     "texto": "pileta",
+     "inicio": 29.34,
+     "fin": 29.76
+    },
+    {
+     "texto": "pueden",
+     "inicio": 29.76,
+     "fin": 30.46
+    },
+    {
+     "texto": "pasar",
+     "inicio": 30.46,
+     "fin": 30.84
+    },
+    {
+     "texto": "a",
+     "inicio": 30.84,
+     "fin": 30.98
+    },
+    {
+     "texto": "lo",
+     "inicio": 30.98,
+     "fin": 31.1
+    },
+    {
+     "texto": "que",
+     "inicio": 31.1,
+     "fin": 31.22
+    },
+    {
+     "texto": "toques",
+     "inicio": 31.22,
+     "fin": 31.46
+    },
+    {
+     "texto": "después.",
+     "inicio": 31.46,
+     "fin": 31.82
+    }
+   ],
+   "inicio": 27.48,
+   "fin": 31.82
+  },
+  {
+   "texto": "Lo que sí mata las bacterias es la cocción: el pollo tiene que llegar a setenta y cuatro grados por dentro.",
+   "palabras": [
+    {
+     "texto": "Lo",
+     "inicio": 32.38,
+     "fin": 32.64
+    },
+    {
+     "texto": "que",
+     "inicio": 32.64,
+     "fin": 32.78
+    },
+    {
+     "texto": "sí",
+     "inicio": 32.78,
+     "fin": 33.02
+    },
+    {
+     "texto": "mata",
+     "inicio": 33.02,
+     "fin": 33.22
+    },
+    {
+     "texto": "las",
+     "inicio": 33.22,
+     "fin": 33.38
+    },
+    {
+     "texto": "bacterias",
+     "inicio": 33.38,
+     "fin": 33.98
+    },
+    {
+     "texto": "es",
+     "inicio": 33.98,
+     "fin": 34.34
+    },
+    {
+     "texto": "la",
+     "inicio": 34.34,
+     "fin": 34.44
+    },
+    {
+     "texto": "cocción:",
+     "inicio": 34.44,
+     "fin": 34.84
+    },
+    {
+     "texto": "el",
+     "inicio": 35.38,
+     "fin": 35.5
+    },
+    {
+     "texto": "pollo",
+     "inicio": 35.5,
+     "fin": 35.78
+    },
+    {
+     "texto": "tiene",
+     "inicio": 35.78,
+     "fin": 36.04
+    },
+    {
+     "texto": "que",
+     "inicio": 36.04,
+     "fin": 36.18
+    },
+    {
+     "texto": "llegar",
+     "inicio": 36.18,
+     "fin": 36.44
+    },
+    {
+     "texto": "a",
+     "inicio": 36.44,
+     "fin": 36.58
+    },
+    {
+     "texto": "setenta",
+     "inicio": 36.58,
+     "fin": 37.06
+    },
+    {
+     "texto": "y",
+     "inicio": 37.06,
+     "fin": 37.12
+    },
+    {
+     "texto": "cuatro",
+     "inicio": 37.12,
+     "fin": 37.36
+    },
+    {
+     "texto": "grados",
+     "inicio": 37.36,
+     "fin": 37.82
+    },
+    {
+     "texto": "por",
+     "inicio": 37.82,
+     "fin": 37.96
+    },
+    {
+     "texto": "dentro.",
+     "inicio": 37.96,
+     "fin": 38.26
+    }
+   ],
+   "inicio": 32.38,
+   "fin": 38.26
+  },
+  {
+   "texto": "Ojo: lo que hay que lavarse bien son las manos, con agua y jabón, después de tocar el pollo crudo.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 38.82,
+     "fin": 39.04
+    },
+    {
+     "texto": "lo",
+     "inicio": 39.56,
+     "fin": 39.66
+    },
+    {
+     "texto": "que",
+     "inicio": 39.66,
+     "fin": 39.74
+    },
+    {
+     "texto": "hay",
+     "inicio": 39.74,
+     "fin": 39.82
+    },
+    {
+     "texto": "que",
+     "inicio": 39.82,
+     "fin": 39.9
+    },
+    {
+     "texto": "lavarse",
+     "inicio": 39.9,
+     "fin": 40.3
+    },
+    {
+     "texto": "bien",
+     "inicio": 40.3,
+     "fin": 40.58
+    },
+    {
+     "texto": "son",
+     "inicio": 40.58,
+     "fin": 41.06
+    },
+    {
+     "texto": "las",
+     "inicio": 41.06,
+     "fin": 41.18
+    },
+    {
+     "texto": "manos,",
+     "inicio": 41.18,
+     "fin": 41.5
+    },
+    {
+     "texto": "con",
+     "inicio": 41.98,
+     "fin": 42.2
+    },
+    {
+     "texto": "agua",
+     "inicio": 42.2,
+     "fin": 42.38
+    },
+    {
+     "texto": "y",
+     "inicio": 42.38,
+     "fin": 42.5
+    },
+    {
+     "texto": "jabón,",
+     "inicio": 42.5,
+     "fin": 42.9
+    },
+    {
+     "texto": "después",
+     "inicio": 43.3,
+     "fin": 43.54
+    },
+    {
+     "texto": "de",
+     "inicio": 43.54,
+     "fin": 43.68
+    },
+    {
+     "texto": "tocar",
+     "inicio": 43.68,
+     "fin": 43.88
+    },
+    {
+     "texto": "el",
+     "inicio": 43.88,
+     "fin": 44.02
+    },
+    {
+     "texto": "pollo",
+     "inicio": 44.02,
+     "fin": 44.22
+    },
+    {
+     "texto": "crudo.",
+     "inicio": 44.22,
+     "fin": 44.58
+    }
+   ],
+   "inicio": 38.82,
+   "fin": 44.58
+  },
+  {
+   "texto": "Así que sacalo del envase, cocinalo y listo.",
+   "palabras": [
+    {
+     "texto": "Así",
+     "inicio": 45.04,
+     "fin": 45.24
+    },
+    {
+     "texto": "que",
+     "inicio": 45.24,
+     "fin": 45.46
+    },
+    {
+     "texto": "sacalo",
+     "inicio": 45.46,
+     "fin": 46.24
+    },
+    {
+     "texto": "del",
+     "inicio": 46.24,
+     "fin": 46.42
+    },
+    {
+     "texto": "envase,",
+     "inicio": 46.42,
+     "fin": 46.82
+    },
+    {
+     "texto": "cocinalo",
+     "inicio": 47.38,
+     "fin": 48.18
+    },
+    {
+     "texto": "y",
+     "inicio": 48.18,
+     "fin": 48.54
+    },
+    {
+     "texto": "listo.",
+     "inicio": 48.54,
+     "fin": 48.96
+    }
+   ],
+   "inicio": 45.04,
+   "fin": 48.96
+  },
+  {
+   "texto": "Mandáselo a ese que enjuaga el pollo como si lo estuviera bañando.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 49.34,
+     "fin": 49.82
+    },
+    {
+     "texto": "a",
+     "inicio": 49.82,
+     "fin": 49.9
+    },
+    {
+     "texto": "ese",
+     "inicio": 49.9,
+     "fin": 50.0
+    },
+    {
+     "texto": "que",
+     "inicio": 50.0,
+     "fin": 50.16
+    },
+    {
+     "texto": "enjuaga",
+     "inicio": 50.16,
+     "fin": 50.5
+    },
+    {
+     "texto": "el",
+     "inicio": 50.5,
+     "fin": 50.62
+    },
+    {
+     "texto": "pollo",
+     "inicio": 50.62,
+     "fin": 50.86
+    },
+    {
+     "texto": "como",
+     "inicio": 50.86,
+     "fin": 51.06
+    },
+    {
+     "texto": "si",
+     "inicio": 51.06,
+     "fin": 51.2
+    },
+    {
+     "texto": "lo",
+     "inicio": 51.2,
+     "fin": 51.32
+    },
+    {
+     "texto": "estuviera",
+     "inicio": 51.32,
+     "fin": 51.6
+    },
+    {
+     "texto": "bañando.",
+     "inicio": 51.6,
+     "fin": 52.1
+    }
+   ],
+   "inicio": 49.34,
+   "fin": 52.1
+  }
+ ]
+}
