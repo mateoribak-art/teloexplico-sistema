@@ -82,3 +82,8 @@ Traceback (most recent call last):
     raise child_exception_type(errno_num, err_msg, err_filename)
 FileNotFoundError: [Errno 2] No such file or directory: 'npx.cmd'
 2026-10-25 06:36 Termina la prueba del plan B (código 1).
+2026-10-25 06:39 Arranca la PRUEBA del plan B (queda apartado, no se publica).
+2026-10-25 | plan B | 010-rayo-mismo-lugar: se retoma (plan B a medias)
+2026-10-25 | plan B | 010-rayo-mismo-lugar: terminado (prueba, queda apartado para revisar)
+resultado: 010-rayo-mismo-lugar
+2026-10-25 06:43 Termina la prueba del plan B (código 0).
