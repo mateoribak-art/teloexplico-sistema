@@ -43,7 +43,9 @@ def voz_coincide(slug, video):
     audio = np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(np.float32) / 32768
     w.close()
     texto = ' '.join(f['texto'] for f in guion['frases'])
-    segs, _ = WhisperModel('small', device='cpu', compute_type='int8').transcribe(audio, language='es', initial_prompt=texto)
+    # en los procesadores de GitHub el modo int8 transcribe basura ("la parrilla se precauce…", 26/10): allá, precisión completa
+    calculo = 'int8' if os.name == 'nt' else 'float32'
+    segs, _ = WhisperModel('small', device='cpu', compute_type=calculo).transcribe(audio, language='es', initial_prompt=texto)
     segs = list(segs)
     oido = ''.join(norm(x) for s in segs for x in a_cifras(s.text).split())
     os.remove(tmp)
