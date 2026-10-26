@@ -35,6 +35,12 @@ def subir_videos():
         video = os.path.join(RAIZ, 'videos', v['slug'], f"{v['slug']}.mp4")
         if v['estado'] in ('listo', 'apartado') and f"{v['slug']}.mp4" not in en_release and os.path.exists(video):  # apartado: para poder revisarlo
             subir.append((video, f"{v['slug']}.mp4"))
+        portada = os.path.join(RAIZ, 'videos', v['slug'], 'portada.png')
+        if v['estado'] == 'listo' and os.path.exists(portada) and en_release.get(f"{v['slug']}.portada.png") != str(os.path.getsize(portada)):
+            # Instagram la toma como portada (cover_url) con un link firmado, igual que el video
+            copia_p = os.path.join(tempfile.gettempdir(), f"{v['slug']}.portada.png")
+            shutil.copy(portada, copia_p)
+            subir.append((copia_p, f"{v['slug']}.portada.png"))
         # la voz de un video a medias: así el próximo turno (en otra máquina) sigue sin gastar otro pedido de Gemini
         voz = os.path.join(RAIZ, 'motor', 'public', v['slug'], 'voz.wav')
         if v['estado'] in ('produccion', 'apartado') and os.path.exists(voz) and en_release.get(f"{v['slug']}.voz.wav") != str(os.path.getsize(voz)):

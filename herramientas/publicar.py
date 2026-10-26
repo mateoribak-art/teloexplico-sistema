@@ -39,13 +39,13 @@ def pedir(metodo, url, datos=None, cabeceras=None, cuerpo=None):
         sys.exit(f"Error de la API ({e.code}): {detalle.get('message')} [{detalle.get('error_user_msg', '')}]")
 
 
-def link_temporal(slug):
-    """Link firmado (vence en minutos) al <slug>.mp4 del Release "videos" del repo privado. None si no se puede."""
+def link_temporal(slug, archivo=None):
+    """Link firmado (vence en minutos) a <slug>.mp4 (o al archivo pedido) del Release "videos" del repo privado. None si no se puede."""
     try:
         tok = os.environ.get('GH_TOKEN') or subprocess.run(['gh', 'auth', 'token'], capture_output=True, text=True).stdout.strip()
         gh = {'Authorization': f'Bearer {tok}', 'Accept': 'application/vnd.github+json'}
         rel = json.load(urllib.request.urlopen(urllib.request.Request(f'https://api.github.com/repos/{REPO}/releases/tags/videos', headers=gh), timeout=60))
-        asset = next((a for a in rel['assets'] if a['name'] == f'{slug}.mp4'), None)
+        asset = next((a for a in rel['assets'] if a['name'] == (archivo or f'{slug}.mp4')), None)
         if not asset:
             return None
 
@@ -92,8 +92,10 @@ def main():
         # preferido: que Meta baje el video de un link firmado del Release privado (vence en minutos).
         # La subida directa (rupload) devuelve ProcessingFailedError "no reintentable" muy seguido (probado el 25/10).
         url = link_temporal(slug)
+        # portada diseñada (kit/Portada.tsx) en vez de un cuadro del video: la grilla queda pareja (26/10)
+        tapa = link_temporal(slug, f'{slug}.portada.png') if url else None
         if url:
-            cont = pedir('POST', f'{API}/{ig}/media', {**{k: v for k, v in datos.items() if k != 'upload_type'}, 'video_url': url})
+            cont = pedir('POST', f'{API}/{ig}/media', {**{k: v for k, v in datos.items() if k != 'upload_type'}, 'video_url': url, **({'cover_url': tapa} if tapa else {})})
             print(f'intento {intento}: contenedor {cont["id"]} (Meta baja el video del Release)')
             r = {'success': True}
         else:
