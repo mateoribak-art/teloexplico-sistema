@@ -31,7 +31,19 @@ def telegram(metodo, campos, archivo=None):
     cuerpo += f'--{limite}--\r\n'.encode()
     req = urllib.request.Request(f"https://api.telegram.org/bot{conf['token']}/{metodo}", data=cuerpo,
                                  headers={'Content-Type': f'multipart/form-data; boundary={limite}'})
-    return json.load(urllib.request.urlopen(req, timeout=300))
+    return reintentar(lambda: json.load(urllib.request.urlopen(req, timeout=300)))
+
+
+def reintentar(hacer, veces=4):
+    """La máquina de GitHub a veces pierde la red unos segundos ("Network is unreachable", 25/10 19:36): se reintenta."""
+    import time
+    for i in range(veces):
+        try:
+            return hacer()
+        except Exception:
+            if i == veces - 1:
+                raise
+            time.sleep(15 * (i + 1))
 
 
 def mandar_telegram(slug, video, tiktok, titulo, descripcion):
@@ -72,7 +84,7 @@ def notificar(titulo, mensaje, click=None, prioridad='4'):
     if click:
         params['click'] = click
     url = f'https://ntfy.sh/{tema()}?' + urllib.parse.urlencode(params)
-    urllib.request.urlopen(urllib.request.Request(url, data=b'', method='POST'), timeout=60).read()
+    reintentar(lambda: urllib.request.urlopen(urllib.request.Request(url, data=b'', method='POST'), timeout=60).read())
 
 
 def main(slug, avisar=True, tiktok_en_bandeja=False):
