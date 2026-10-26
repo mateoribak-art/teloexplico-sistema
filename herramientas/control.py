@@ -44,11 +44,16 @@ def voz_coincide(slug, video):
     w.close()
     texto = ' '.join(f['texto'] for f in guion['frases'])
     segs, _ = WhisperModel('small', device='cpu', compute_type='int8').transcribe(audio, language='es', initial_prompt=texto)
+    segs = list(segs)
     oido = ''.join(norm(x) for s in segs for x in a_cifras(s.text).split())
     os.remove(tmp)
     # comparación letra por letra: "ari rang" / "arirang" o "armi" / "army" casi no restan; una frase cambiada sí
     sm = difflib.SequenceMatcher(a=esperado, b=oido, autojunk=False)
-    return sum(b.size for b in sm.get_matching_blocks()) / max(1, len(esperado))
+    parecido = sum(b.size for b in sm.get_matching_blocks()) / max(1, len(esperado))
+    if parecido < 0.92:  # para entender el porqué en el registro (la nube daba distinto que la PC, 26/10)
+        print(f'control de voz {parecido:.0%}: esperado {len(esperado)} letras, oído {len(oido)}')
+        print('  oído:', ' '.join(s.text.strip() for s in segs)[:500] if isinstance(segs, list) else oido[:500])
+    return parecido
 
 
 def controlar(slug, voz=True):
