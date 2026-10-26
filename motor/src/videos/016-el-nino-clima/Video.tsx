@@ -180,7 +180,7 @@ const Gancho: React.FC = () => (
 const Pacifico: React.FC = () => (
   <>
     <Etiqueta texto="la explicación" color={C.verde} />
-    <Titulo pregunta="no es tu imaginación…" desdeP={0} respuesta="¡el Pacífico!" desdeR={r.w(1, "Pacífico") - E.pacifico} top={400} tamR={120} />
+    <Titulo pregunta="una parte de la explicación…" desdeP={0} respuesta="¡el Pacífico!" desdeR={r.w(1, "Pacífico") - E.pacifico} top={370} tamR={100} />
   </>
 );
 

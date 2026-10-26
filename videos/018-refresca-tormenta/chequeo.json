@@ -1,0 +1,48 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones quedan verificadas contra páginas del NWS leídas en esta pasada (Binghamton y glosario). El heat burst figura como fenómeno real y raro en páginas del NWS. 'Frente frío en miniatura' lleva 'más o menos' y coincide con 'similar in effect to a cold front'. No hay cifras, ni afirmaciones de salud, seguridad o plata, ni falsas, ni dudosas. Observación menor: la ficha de fuentes cita un 'Central Region Technical Attachment' que no se abrió directamente; el heat burst se verificó en páginas del NWS (Wilmington, Boise, Albuquerque). Conviene que el nombre de esa fuente en guion/caption sea genérico ('NWS') si no se confirma el documento exacto.",
+  "afirmaciones": [
+    {
+      "texto": "Termina la tormenta y, de golpe, refresca.",
+      "fuente": "NWS glosario, outflow boundary: el paso se marca por cambio de viento y 'usually a drop in temperature'; puede persistir 24 h o más tras la tormenta",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Te lo trae la propia lluvia / las gotas se evaporan y al evaporarse le sacan calor al aire (adentro de la nube).",
+      "fuente": "https://www.weather.gov/bgm/WeatherInActionDownburst: aire 'rapidly cooled by evaporating raindrops'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ese aire enfriado pesa más que el de alrededor y se cae hacia el suelo.",
+      "fuente": "NWS Binghamton: 'Since cold air is more dense than warm air, this rain-cooled air begins to descend toward the ground'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El Servicio Meteorológico de Estados Unidos lo compara con un vaso de agua derramado en el piso: al llegar abajo, se desparrama para todos lados.",
+      "fuente": "NWS Binghamton: 'it moves out in all directions much like a glass of water that is spilled on pavement' (atribución correcta; 'piso' por 'pavement' es traducción razonable)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Es, más o menos, un frente frío en miniatura. / En su glosario, ese borde de aire frío tiene un efecto parecido al de un frente frío.",
+      "fuente": "NWS glosario, outflow boundary: 'similar in effect to a cold front, with passage marked by a wind shift and usually a drop in temperature'; escala 'storm-scale or mesoscale'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: no siempre. Muy de vez en cuando, el aire que baja llega caliente (heat burst).",
+      "fuente": "NWS Wilmington (weather.gov/ilm/GeorgetownHeatBurst), NWS Boise, NWS Albuquerque: heat bursts son raros, ocurren con tormentas en decaimiento, y el aire descendente llega caliente y seco",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes: NWS Binghamton; glosario del NWS (outflow boundary); NWS Central Region (heat bursts).",
+      "fuente": "Binghamton y glosario confirmados. Heat bursts confirmado en otras páginas del NWS; el documento 'Central Region' no se abrió directamente",
+      "estado": "probable",
+      "matiz_ok": true
+    }
+  ]
+}

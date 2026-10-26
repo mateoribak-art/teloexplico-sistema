@@ -11,3 +11,10 @@ Quedaron listos `016-el-nino-clima` (video de actualidad, 70 s) y `017-paradoja-
 Sin apartados ni incompletos en esta corrida. Es el máximo de 2 videos, y la cola queda con 8 listos y la cuota de Gemini sin agotar.
 En `016` el subagente no pudo abrir el PDF del SMN (error 403). La confirmación de El Niño activo y el pronóstico trimestral los contrastó con medios que citan al SMN, la ficha del SMN y La Gaceta; las cifras de NOAA sí vinieron de su discusión original del 8 de octubre. En `017` el subagente no pudo recalcular las cifras con un script; las comparó con la tabla de Wikipedia.
 2026-10-26 16:43 Termina la producción (ok).
+2026-10-26 17:34 Arranca la producción (8 listos en la cola, meta 10).
+Quedaron listos `016-el-nino-clima` y `018-refresca-tormenta`. No hubo apartados ni incompletos, y la cola pasó de 8 a 9 listos, así que el `016` no sumó. Los dos pasaron el chequeo de un subagente, `tlx tsc`, las vueltas de cuadros, el render y `tlx control`.
+- **016 (versión corta, 34 s):** el primer chequeo lo rechazó por "no es tu imaginación", "gran parte de la explicación" y por no decir que los dos grados son sobre el ecuador. Corregí esas frases y el segundo chequeo lo aprobó. Reemplaza al render largo de 70 s; el subagente no pudo abrir el PDF del SMN (403) y lo contrastó con medios que lo citan.
+- **018 (¿por qué refresca después de la tormenta?, 41 s):** chequeo aprobado a la primera, con fuentes del Servicio Meteorológico de EE.UU. (NWS). El guion no tiene ninguna cifra, porque no encontré una verificada; el video muestra el termómetro bajando, sin un número que cuente. Quedan rótulos cortándose un poco en los bordes durante el paneo de cámara, y en algunos cuadros con zoom la nube roza el logo.
+
+Anoté los dos en `videos/produccion.log` y marqué la idea como usada en `videos/ideas.md`.
+2026-10-26 17:51 Termina la producción (ok).

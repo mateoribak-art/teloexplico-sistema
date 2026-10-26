@@ -391,6 +391,16 @@
     "estado": "listo",
     "cuando": "2026-10-26T17:22",
     "motivo": "versión corta (34 s) hecha en sesión"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-26T17:34",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T17:41",
+    "motivo": "versión corta 34 s, producción nocturna"
    }
   ],
   "prioridad": "actualidad",
@@ -414,6 +424,28 @@
    {
     "estado": "listo",
     "cuando": "2026-10-26T16:43",
+    "motivo": "producción nocturna"
+   }
+  ]
+ },
+ {
+  "slug": "018-refresca-tormenta",
+  "tema": "¿Por qué después de la tormenta refresca de golpe? (corriente descendente)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-26T17:41",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-26T17:42",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T17:51",
     "motivo": "producción nocturna"
    }
   ]

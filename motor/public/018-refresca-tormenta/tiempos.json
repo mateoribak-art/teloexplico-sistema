@@ -1,0 +1,611 @@
+{
+ "duracion": 41.57,
+ "frases": [
+  {
+   "texto": "Termina la tormenta y, de golpe, refresca. ¿De dónde sale ese frío?",
+   "palabras": [
+    {
+     "texto": "Termina",
+     "inicio": 0.0,
+     "fin": 0.32
+    },
+    {
+     "texto": "la",
+     "inicio": 0.32,
+     "fin": 0.46
+    },
+    {
+     "texto": "tormenta",
+     "inicio": 0.46,
+     "fin": 1.12
+    },
+    {
+     "texto": "y,",
+     "inicio": 1.12,
+     "fin": 1.64
+    },
+    {
+     "texto": "de",
+     "inicio": 1.76,
+     "fin": 1.78
+    },
+    {
+     "texto": "golpe,",
+     "inicio": 1.78,
+     "fin": 2.08
+    },
+    {
+     "texto": "refresca.",
+     "inicio": 2.5,
+     "fin": 3.18
+    },
+    {
+     "texto": "¿De",
+     "inicio": 3.66,
+     "fin": 3.8
+    },
+    {
+     "texto": "dónde",
+     "inicio": 3.8,
+     "fin": 3.94
+    },
+    {
+     "texto": "sale",
+     "inicio": 3.94,
+     "fin": 4.24
+    },
+    {
+     "texto": "ese",
+     "inicio": 4.24,
+     "fin": 4.46
+    },
+    {
+     "texto": "frío?",
+     "inicio": 4.46,
+     "fin": 4.76
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.76
+  },
+  {
+   "texto": "No viene de ningún lado raro: te lo trae la propia lluvia.",
+   "palabras": [
+    {
+     "texto": "No",
+     "inicio": 5.66,
+     "fin": 5.92
+    },
+    {
+     "texto": "viene",
+     "inicio": 5.92,
+     "fin": 6.1
+    },
+    {
+     "texto": "de",
+     "inicio": 6.1,
+     "fin": 6.26
+    },
+    {
+     "texto": "ningún",
+     "inicio": 6.26,
+     "fin": 6.56
+    },
+    {
+     "texto": "lado",
+     "inicio": 6.56,
+     "fin": 6.76
+    },
+    {
+     "texto": "raro:",
+     "inicio": 6.76,
+     "fin": 7.16
+    },
+    {
+     "texto": "te",
+     "inicio": 7.62,
+     "fin": 7.72
+    },
+    {
+     "texto": "lo",
+     "inicio": 7.72,
+     "fin": 7.84
+    },
+    {
+     "texto": "trae",
+     "inicio": 7.84,
+     "fin": 8.08
+    },
+    {
+     "texto": "la",
+     "inicio": 8.08,
+     "fin": 8.22
+    },
+    {
+     "texto": "propia",
+     "inicio": 8.22,
+     "fin": 8.44
+    },
+    {
+     "texto": "lluvia.",
+     "inicio": 8.44,
+     "fin": 8.92
+    }
+   ],
+   "inicio": 5.66,
+   "fin": 8.92
+  },
+  {
+   "texto": "Adentro de la nube, las gotas se evaporan, y al evaporarse le sacan calor al aire.",
+   "palabras": [
+    {
+     "texto": "Adentro",
+     "inicio": 9.4,
+     "fin": 9.76
+    },
+    {
+     "texto": "de",
+     "inicio": 9.76,
+     "fin": 9.86
+    },
+    {
+     "texto": "la",
+     "inicio": 9.86,
+     "fin": 9.96
+    },
+    {
+     "texto": "nube,",
+     "inicio": 9.96,
+     "fin": 10.28
+    },
+    {
+     "texto": "las",
+     "inicio": 10.78,
+     "fin": 10.88
+    },
+    {
+     "texto": "gotas",
+     "inicio": 10.88,
+     "fin": 11.18
+    },
+    {
+     "texto": "se",
+     "inicio": 11.18,
+     "fin": 11.34
+    },
+    {
+     "texto": "evaporan,",
+     "inicio": 11.34,
+     "fin": 11.9
+    },
+    {
+     "texto": "y",
+     "inicio": 12.34,
+     "fin": 12.38
+    },
+    {
+     "texto": "al",
+     "inicio": 12.38,
+     "fin": 12.46
+    },
+    {
+     "texto": "evaporarse",
+     "inicio": 12.46,
+     "fin": 13.1
+    },
+    {
+     "texto": "le",
+     "inicio": 13.1,
+     "fin": 13.56
+    },
+    {
+     "texto": "sacan",
+     "inicio": 13.56,
+     "fin": 13.92
+    },
+    {
+     "texto": "calor",
+     "inicio": 13.92,
+     "fin": 14.32
+    },
+    {
+     "texto": "al",
+     "inicio": 14.32,
+     "fin": 14.54
+    },
+    {
+     "texto": "aire.",
+     "inicio": 14.54,
+     "fin": 14.82
+    }
+   ],
+   "inicio": 9.4,
+   "fin": 14.82
+  },
+  {
+   "texto": "Ese aire enfriado pesa más que el de alrededor, y se cae hacia el suelo.",
+   "palabras": [
+    {
+     "texto": "Ese",
+     "inicio": 15.36,
+     "fin": 15.58
+    },
+    {
+     "texto": "aire",
+     "inicio": 15.58,
+     "fin": 15.86
+    },
+    {
+     "texto": "enfriado",
+     "inicio": 15.86,
+     "fin": 16.52
+    },
+    {
+     "texto": "pesa",
+     "inicio": 16.52,
+     "fin": 16.88
+    },
+    {
+     "texto": "más",
+     "inicio": 16.88,
+     "fin": 17.06
+    },
+    {
+     "texto": "que",
+     "inicio": 17.06,
+     "fin": 17.2
+    },
+    {
+     "texto": "el",
+     "inicio": 17.2,
+     "fin": 17.32
+    },
+    {
+     "texto": "de",
+     "inicio": 17.32,
+     "fin": 17.38
+    },
+    {
+     "texto": "alrededor,",
+     "inicio": 17.38,
+     "fin": 17.84
+    },
+    {
+     "texto": "y",
+     "inicio": 18.26,
+     "fin": 18.5
+    },
+    {
+     "texto": "se",
+     "inicio": 18.5,
+     "fin": 18.62
+    },
+    {
+     "texto": "cae",
+     "inicio": 18.62,
+     "fin": 19.04
+    },
+    {
+     "texto": "hacia",
+     "inicio": 19.04,
+     "fin": 19.32
+    },
+    {
+     "texto": "el",
+     "inicio": 19.32,
+     "fin": 19.52
+    },
+    {
+     "texto": "suelo.",
+     "inicio": 19.52,
+     "fin": 19.82
+    }
+   ],
+   "inicio": 15.36,
+   "fin": 19.82
+  },
+  {
+   "texto": "El Servicio Meteorológico de Estados Unidos lo compara con un vaso de agua derramado en el piso: al llegar abajo, se desparrama para todos lados.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 20.34,
+     "fin": 20.5
+    },
+    {
+     "texto": "Servicio",
+     "inicio": 20.5,
+     "fin": 20.84
+    },
+    {
+     "texto": "Meteorológico",
+     "inicio": 20.84,
+     "fin": 21.56
+    },
+    {
+     "texto": "de",
+     "inicio": 21.56,
+     "fin": 21.74
+    },
+    {
+     "texto": "Estados",
+     "inicio": 21.74,
+     "fin": 21.96
+    },
+    {
+     "texto": "Unidos",
+     "inicio": 21.96,
+     "fin": 22.42
+    },
+    {
+     "texto": "lo",
+     "inicio": 22.42,
+     "fin": 23.0
+    },
+    {
+     "texto": "compara",
+     "inicio": 23.0,
+     "fin": 23.32
+    },
+    {
+     "texto": "con",
+     "inicio": 23.32,
+     "fin": 23.5
+    },
+    {
+     "texto": "un",
+     "inicio": 23.5,
+     "fin": 23.62
+    },
+    {
+     "texto": "vaso",
+     "inicio": 23.62,
+     "fin": 23.88
+    },
+    {
+     "texto": "de",
+     "inicio": 23.88,
+     "fin": 24.0
+    },
+    {
+     "texto": "agua",
+     "inicio": 24.0,
+     "fin": 24.16
+    },
+    {
+     "texto": "derramado",
+     "inicio": 24.16,
+     "fin": 24.66
+    },
+    {
+     "texto": "en",
+     "inicio": 24.66,
+     "fin": 24.78
+    },
+    {
+     "texto": "el",
+     "inicio": 24.78,
+     "fin": 24.88
+    },
+    {
+     "texto": "piso:",
+     "inicio": 24.88,
+     "fin": 25.24
+    },
+    {
+     "texto": "al",
+     "inicio": 25.66,
+     "fin": 25.84
+    },
+    {
+     "texto": "llegar",
+     "inicio": 25.84,
+     "fin": 26.1
+    },
+    {
+     "texto": "abajo,",
+     "inicio": 26.1,
+     "fin": 26.44
+    },
+    {
+     "texto": "se",
+     "inicio": 26.82,
+     "fin": 27.08
+    },
+    {
+     "texto": "desparrama",
+     "inicio": 27.08,
+     "fin": 27.64
+    },
+    {
+     "texto": "para",
+     "inicio": 27.64,
+     "fin": 27.86
+    },
+    {
+     "texto": "todos",
+     "inicio": 27.86,
+     "fin": 28.08
+    },
+    {
+     "texto": "lados.",
+     "inicio": 28.08,
+     "fin": 28.4
+    }
+   ],
+   "inicio": 20.34,
+   "fin": 28.4
+  },
+  {
+   "texto": "Es, más o menos, un frente frío en miniatura.",
+   "palabras": [
+    {
+     "texto": "Es,",
+     "inicio": 28.96,
+     "fin": 29.28
+    },
+    {
+     "texto": "más",
+     "inicio": 29.38,
+     "fin": 29.58
+    },
+    {
+     "texto": "o",
+     "inicio": 29.58,
+     "fin": 29.7
+    },
+    {
+     "texto": "menos,",
+     "inicio": 29.7,
+     "fin": 29.88
+    },
+    {
+     "texto": "un",
+     "inicio": 30.1,
+     "fin": 30.18
+    },
+    {
+     "texto": "frente",
+     "inicio": 30.18,
+     "fin": 30.58
+    },
+    {
+     "texto": "frío",
+     "inicio": 30.58,
+     "fin": 31.02
+    },
+    {
+     "texto": "en",
+     "inicio": 31.02,
+     "fin": 31.12
+    },
+    {
+     "texto": "miniatura.",
+     "inicio": 31.12,
+     "fin": 31.68
+    }
+   ],
+   "inicio": 28.96,
+   "fin": 31.68
+  },
+  {
+   "texto": "Ojo: no siempre. Muy de vez en cuando, el aire que baja llega caliente.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 32.26,
+     "fin": 32.46
+    },
+    {
+     "texto": "no",
+     "inicio": 32.98,
+     "fin": 33.06
+    },
+    {
+     "texto": "siempre.",
+     "inicio": 33.06,
+     "fin": 33.4
+    },
+    {
+     "texto": "Muy",
+     "inicio": 33.86,
+     "fin": 34.18
+    },
+    {
+     "texto": "de",
+     "inicio": 34.18,
+     "fin": 34.36
+    },
+    {
+     "texto": "vez",
+     "inicio": 34.36,
+     "fin": 34.5
+    },
+    {
+     "texto": "en",
+     "inicio": 34.5,
+     "fin": 34.66
+    },
+    {
+     "texto": "cuando,",
+     "inicio": 34.66,
+     "fin": 35.0
+    },
+    {
+     "texto": "el",
+     "inicio": 35.3,
+     "fin": 35.42
+    },
+    {
+     "texto": "aire",
+     "inicio": 35.42,
+     "fin": 35.58
+    },
+    {
+     "texto": "que",
+     "inicio": 35.58,
+     "fin": 35.74
+    },
+    {
+     "texto": "baja",
+     "inicio": 35.74,
+     "fin": 36.04
+    },
+    {
+     "texto": "llega",
+     "inicio": 36.04,
+     "fin": 36.56
+    },
+    {
+     "texto": "caliente.",
+     "inicio": 36.56,
+     "fin": 37.24
+    }
+   ],
+   "inicio": 32.26,
+   "fin": 37.24
+  },
+  {
+   "texto": "Mandáselo a ese que dice: ya refrescó.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 37.84,
+     "fin": 38.36
+    },
+    {
+     "texto": "a",
+     "inicio": 38.36,
+     "fin": 38.46
+    },
+    {
+     "texto": "ese",
+     "inicio": 38.46,
+     "fin": 38.56
+    },
+    {
+     "texto": "que",
+     "inicio": 38.56,
+     "fin": 38.74
+    },
+    {
+     "texto": "dice:",
+     "inicio": 38.74,
+     "fin": 38.98
+    },
+    {
+     "texto": "ya",
+     "inicio": 39.44,
+     "fin": 39.64
+    },
+    {
+     "texto": "refrescó.",
+     "inicio": 39.64,
+     "fin": 40.4
+    }
+   ],
+   "inicio": 37.84,
+   "fin": 40.4
+  }
+ ]
+}

@@ -11,7 +11,7 @@ Ninguna idea de acá está verificada: cada una se investiga y se chequea antes 
   (30–45 s, una idea, un dato; momento cotidiano + "¿por qué?" contraintuitivo; ver AUDITORIA_REFERENCIAS.md: lo que tracciona en clima, 26/10)
 - [ ] ¿Por qué la sensación térmica es más alta que la temperatura? La humedad no deja que el sudor se evapore y el cuerpo no se enfría (lo que publica el SMN en verano). Un termómetro que marca 32 y un "se siente como" que sube. Cierre: "mandáselo a ese que dice 'no hace tanto calor, son 30'".
   (30–45 s, una idea, un dato; momento cotidiano + "¿por qué?" contraintuitivo; ver AUDITORIA_REFERENCIAS.md: lo que tracciona en clima, 26/10)
-- [ ] ¿Por qué después de la tormenta refresca de golpe? El aire frío que baja de la nube con la lluvia y se desparrama (la "corriente descendente"). Una ciudad agobiada, la nube, la bajada de aire frío y el termómetro que cae varios grados en minutos (solo cifras verificadas). Cierre: "mandáselo al que dice 'ya refrescó'".
+- [usada → 018-refresca-tormenta] ¿Por qué después de la tormenta refresca de golpe? El aire frío que baja de la nube con la lluvia y se desparrama (la "corriente descendente"). Una ciudad agobiada, la nube, la bajada de aire frío y el termómetro que cae varios grados en minutos (solo cifras verificadas). Cierre: "mandáselo al que dice 'ya refrescó'".
   (30–45 s, una idea, un dato; momento cotidiano + "¿por qué?" contraintuitivo; ver AUDITORIA_REFERENCIAS.md: lo que tracciona en clima, 26/10)
 
 ## Verano / casa / plata (prioridad: llega el calor)

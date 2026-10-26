@@ -1,0 +1,42 @@
+{
+ "titulo": "¿Por qué refresca de golpe después de la tormenta?",
+ "fuentes": [
+  "Servicio Meteorológico Nacional de Estados Unidos (NWS), Binghamton: 'Weather in Action: Downburst' (aire enfriado por la lluvia que desciende y se abre en todas direcciones)",
+  "NWS, glosario: outflow boundary ('similar en efecto a un frente frío, marcado por un cambio de viento y por lo general una caída de temperatura')",
+  "NWS, páginas sobre 'heat bursts' (casos raros en que la corriente descendente calienta)"
+ ],
+ "frases": [
+  {
+   "texto": "Termina la tormenta y, de golpe, refresca. ¿De dónde sale ese frío?",
+   "estilo": "pregunta cómplice, intriga"
+  },
+  {
+   "texto": "No viene de ningún lado raro: te lo trae la propia lluvia.",
+   "estilo": "seco y contundente, con media sonrisa"
+  },
+  {
+   "texto": "Adentro de la nube, las gotas se evaporan, y al evaporarse le sacan calor al aire.",
+   "estilo": "ritmo ágil, explicando simple"
+  },
+  {
+   "texto": "Ese aire enfriado pesa más que el de alrededor, y se cae hacia el suelo.",
+   "estilo": "ritmo ágil, explicando simple"
+  },
+  {
+   "texto": "El Servicio Meteorológico de Estados Unidos lo compara con un vaso de agua derramado en el piso: al llegar abajo, se desparrama para todos lados.",
+   "estilo": "ritmo ágil, con energía"
+  },
+  {
+   "texto": "Es, más o menos, un frente frío en miniatura.",
+   "estilo": "seco y contundente, con media sonrisa"
+  },
+  {
+   "texto": "Ojo: no siempre. Muy de vez en cuando, el aire que baja llega caliente.",
+   "estilo": "aclaración tranquila, con humor"
+  },
+  {
+   "texto": "Mandáselo a ese que dice: ya refrescó.",
+   "estilo": "cierre cómplice y gracioso"
+  }
+ ]
+}

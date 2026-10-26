@@ -1,536 +1,521 @@
 {
- "duracion": 33.97,
+ "duracion": 33.75,
  "frases": [
   {
-   "texto": "¿Sentís que este año llueve más que nunca?",
+   "texto": "¿Te parece que esta primavera llueve mucho?",
    "palabras": [
     {
-     "texto": "¿Sentís",
+     "texto": "¿Te",
      "inicio": 0.0,
-     "fin": 0.5
+     "fin": 0.12
+    },
+    {
+     "texto": "parece",
+     "inicio": 0.12,
+     "fin": 0.38
     },
     {
      "texto": "que",
-     "inicio": 0.5,
-     "fin": 0.6
+     "inicio": 0.38,
+     "fin": 0.58
     },
     {
-     "texto": "este",
-     "inicio": 0.6,
-     "fin": 0.78
+     "texto": "esta",
+     "inicio": 0.58,
+     "fin": 0.74
     },
     {
-     "texto": "año",
-     "inicio": 0.78,
-     "fin": 1.06
+     "texto": "primavera",
+     "inicio": 0.74,
+     "fin": 1.22
     },
     {
      "texto": "llueve",
-     "inicio": 1.06,
-     "fin": 1.68
+     "inicio": 1.22,
+     "fin": 1.52
     },
     {
-     "texto": "más",
-     "inicio": 1.68,
+     "texto": "mucho?",
+     "inicio": 1.52,
      "fin": 1.9
-    },
-    {
-     "texto": "que",
-     "inicio": 1.9,
-     "fin": 2.04
-    },
-    {
-     "texto": "nunca?",
-     "inicio": 2.04,
-     "fin": 2.36
     }
    ],
    "inicio": 0.0,
-   "fin": 2.36
+   "fin": 1.9
   },
   {
-   "texto": "No es tu imaginación, y gran parte de la explicación está en el océano Pacífico.",
+   "texto": "Una parte de la explicación está en el océano Pacífico.",
    "palabras": [
     {
-     "texto": "No",
-     "inicio": 2.9,
-     "fin": 3.18
-    },
-    {
-     "texto": "es",
-     "inicio": 3.18,
-     "fin": 3.34
-    },
-    {
-     "texto": "tu",
-     "inicio": 3.34,
-     "fin": 3.38
-    },
-    {
-     "texto": "imaginación,",
-     "inicio": 3.38,
-     "fin": 4.0
-    },
-    {
-     "texto": "y",
-     "inicio": 4.4,
-     "fin": 4.76
-    },
-    {
-     "texto": "gran",
-     "inicio": 4.76,
-     "fin": 5.0
+     "texto": "Una",
+     "inicio": 2.34,
+     "fin": 2.64
     },
     {
      "texto": "parte",
-     "inicio": 5.0,
-     "fin": 5.4
+     "inicio": 2.64,
+     "fin": 2.92
     },
     {
      "texto": "de",
-     "inicio": 5.4,
-     "fin": 5.58
+     "inicio": 2.92,
+     "fin": 3.1
     },
     {
      "texto": "la",
-     "inicio": 5.58,
-     "fin": 5.68
+     "inicio": 3.1,
+     "fin": 3.2
     },
     {
      "texto": "explicación",
-     "inicio": 5.68,
-     "fin": 6.26
+     "inicio": 3.2,
+     "fin": 3.84
     },
     {
      "texto": "está",
-     "inicio": 6.26,
-     "fin": 6.54
+     "inicio": 3.84,
+     "fin": 4.46
     },
     {
      "texto": "en",
-     "inicio": 6.54,
-     "fin": 6.68
+     "inicio": 4.46,
+     "fin": 4.6
     },
     {
      "texto": "el",
-     "inicio": 6.68,
-     "fin": 6.78
+     "inicio": 4.6,
+     "fin": 4.7
     },
     {
      "texto": "océano",
-     "inicio": 6.78,
-     "fin": 7.18
+     "inicio": 4.7,
+     "fin": 5.12
     },
     {
      "texto": "Pacífico.",
-     "inicio": 7.18,
-     "fin": 7.88
+     "inicio": 5.12,
+     "fin": 5.94
     }
    ],
-   "inicio": 2.9,
-   "fin": 7.88
+   "inicio": 2.34,
+   "fin": 5.94
   },
   {
-   "texto": "Allá, el agua está dos grados más caliente de lo normal.",
+   "texto": "Sobre el ecuador, el agua está unos dos grados más caliente de lo normal.",
    "palabras": [
     {
-     "texto": "Allá,",
-     "inicio": 8.32,
-     "fin": 8.72
+     "texto": "Sobre",
+     "inicio": 6.48,
+     "fin": 6.86
     },
     {
      "texto": "el",
-     "inicio": 8.84,
-     "fin": 8.9
+     "inicio": 6.86,
+     "fin": 6.94
+    },
+    {
+     "texto": "ecuador,",
+     "inicio": 6.94,
+     "fin": 7.36
+    },
+    {
+     "texto": "el",
+     "inicio": 7.88,
+     "fin": 8.0
     },
     {
      "texto": "agua",
-     "inicio": 8.9,
-     "fin": 9.06
+     "inicio": 8.0,
+     "fin": 8.18
     },
     {
      "texto": "está",
-     "inicio": 9.06,
-     "fin": 9.32
+     "inicio": 8.18,
+     "fin": 8.4
+    },
+    {
+     "texto": "unos",
+     "inicio": 8.4,
+     "fin": 8.64
     },
     {
      "texto": "dos",
-     "inicio": 9.32,
-     "fin": 9.68
+     "inicio": 8.64,
+     "fin": 9.0
     },
     {
      "texto": "grados",
-     "inicio": 9.68,
-     "fin": 10.06
+     "inicio": 9.0,
+     "fin": 9.38
     },
     {
      "texto": "más",
-     "inicio": 10.06,
-     "fin": 10.3
+     "inicio": 9.38,
+     "fin": 9.62
     },
     {
      "texto": "caliente",
-     "inicio": 10.3,
-     "fin": 10.68
+     "inicio": 9.62,
+     "fin": 10.04
     },
     {
      "texto": "de",
-     "inicio": 10.68,
-     "fin": 10.88
+     "inicio": 10.04,
+     "fin": 10.24
     },
     {
      "texto": "lo",
-     "inicio": 10.88,
-     "fin": 10.98
+     "inicio": 10.24,
+     "fin": 10.34
     },
     {
      "texto": "normal.",
-     "inicio": 10.98,
-     "fin": 11.26
+     "inicio": 10.34,
+     "fin": 10.66
     }
    ],
-   "inicio": 8.32,
-   "fin": 11.26
+   "inicio": 6.48,
+   "fin": 10.66
   },
   {
    "texto": "Eso es El Niño, y cambia por dónde viaja la lluvia.",
    "palabras": [
     {
      "texto": "Eso",
-     "inicio": 11.86,
-     "fin": 12.06
+     "inicio": 11.32,
+     "fin": 11.58
     },
     {
      "texto": "es",
-     "inicio": 12.06,
-     "fin": 12.3
+     "inicio": 11.58,
+     "fin": 11.82
     },
     {
      "texto": "El",
-     "inicio": 12.3,
-     "fin": 12.72
+     "inicio": 11.82,
+     "fin": 12.16
     },
     {
      "texto": "Niño,",
-     "inicio": 12.72,
-     "fin": 13.16
+     "inicio": 12.16,
+     "fin": 12.62
     },
     {
      "texto": "y",
-     "inicio": 13.56,
-     "fin": 13.72
+     "inicio": 13.1,
+     "fin": 13.2
     },
     {
      "texto": "cambia",
-     "inicio": 13.72,
-     "fin": 14.12
+     "inicio": 13.2,
+     "fin": 13.64
     },
     {
      "texto": "por",
-     "inicio": 14.12,
-     "fin": 14.36
+     "inicio": 13.64,
+     "fin": 13.84
     },
     {
      "texto": "dónde",
-     "inicio": 14.36,
-     "fin": 14.6
+     "inicio": 13.84,
+     "fin": 14.08
     },
     {
      "texto": "viaja",
-     "inicio": 14.6,
-     "fin": 14.9
+     "inicio": 14.08,
+     "fin": 14.46
     },
     {
      "texto": "la",
-     "inicio": 14.9,
-     "fin": 15.02
+     "inicio": 14.46,
+     "fin": 14.58
     },
     {
      "texto": "lluvia.",
-     "inicio": 15.02,
-     "fin": 15.36
+     "inicio": 14.58,
+     "fin": 15.02
     }
    ],
-   "inicio": 11.86,
-   "fin": 15.36
+   "inicio": 11.32,
+   "fin": 15.02
   },
   {
    "texto": "El pronóstico: más lluvia de lo normal en el Litoral, Córdoba, La Pampa y el oeste bonaerense.",
    "palabras": [
     {
      "texto": "El",
-     "inicio": 15.84,
-     "fin": 16.0
+     "inicio": 15.48,
+     "fin": 15.6
     },
     {
      "texto": "pronóstico:",
-     "inicio": 16.0,
-     "fin": 16.52
+     "inicio": 15.6,
+     "fin": 16.1
     },
     {
      "texto": "más",
-     "inicio": 17.16,
-     "fin": 17.28
+     "inicio": 16.64,
+     "fin": 16.9
     },
     {
      "texto": "lluvia",
-     "inicio": 17.28,
-     "fin": 17.62
+     "inicio": 16.9,
+     "fin": 17.24
     },
     {
      "texto": "de",
-     "inicio": 17.62,
-     "fin": 17.72
+     "inicio": 17.24,
+     "fin": 17.34
     },
     {
      "texto": "lo",
-     "inicio": 17.72,
-     "fin": 17.82
+     "inicio": 17.34,
+     "fin": 17.44
     },
     {
      "texto": "normal",
-     "inicio": 17.82,
-     "fin": 18.12
+     "inicio": 17.44,
+     "fin": 17.76
     },
     {
      "texto": "en",
-     "inicio": 18.12,
-     "fin": 18.36
+     "inicio": 17.76,
+     "fin": 17.98
     },
     {
      "texto": "el",
-     "inicio": 18.36,
-     "fin": 18.48
+     "inicio": 17.98,
+     "fin": 18.1
     },
     {
      "texto": "Litoral,",
-     "inicio": 18.48,
-     "fin": 18.94
+     "inicio": 18.1,
+     "fin": 18.64
     },
     {
      "texto": "Córdoba,",
-     "inicio": 19.12,
-     "fin": 19.5
+     "inicio": 19.02,
+     "fin": 19.58
     },
     {
      "texto": "La",
-     "inicio": 19.86,
-     "fin": 19.96
+     "inicio": 20.08,
+     "fin": 20.16
     },
     {
      "texto": "Pampa",
-     "inicio": 19.96,
-     "fin": 20.3
-    },
-    {
-     "texto": "y",
-     "inicio": 20.3,
+     "inicio": 20.16,
      "fin": 20.56
     },
     {
-     "texto": "el",
+     "texto": "y",
      "inicio": 20.56,
-     "fin": 20.68
+     "fin": 21.14
+    },
+    {
+     "texto": "el",
+     "inicio": 21.14,
+     "fin": 21.24
     },
     {
      "texto": "oeste",
-     "inicio": 20.68,
-     "fin": 20.96
+     "inicio": 21.24,
+     "fin": 21.44
     },
     {
      "texto": "bonaerense.",
-     "inicio": 20.96,
-     "fin": 21.6
+     "inicio": 21.44,
+     "fin": 22.08
     }
    ],
-   "inicio": 15.84,
-   "fin": 21.6
+   "inicio": 15.48,
+   "fin": 22.08
   },
   {
    "texto": "Y probablemente siga fuerte hasta el verano.",
    "palabras": [
     {
      "texto": "Y",
-     "inicio": 22.16,
-     "fin": 22.3
+     "inicio": 22.74,
+     "fin": 23.18
     },
     {
      "texto": "probablemente",
-     "inicio": 22.3,
-     "fin": 23.04
+     "inicio": 23.18,
+     "fin": 23.78
     },
     {
      "texto": "siga",
-     "inicio": 23.04,
-     "fin": 23.32
+     "inicio": 23.78,
+     "fin": 24.06
     },
     {
      "texto": "fuerte",
-     "inicio": 23.32,
-     "fin": 23.7
+     "inicio": 24.06,
+     "fin": 24.28
     },
     {
      "texto": "hasta",
-     "inicio": 23.7,
-     "fin": 23.84
+     "inicio": 24.28,
+     "fin": 24.48
     },
     {
      "texto": "el",
-     "inicio": 23.84,
-     "fin": 23.96
+     "inicio": 24.48,
+     "fin": 24.58
     },
     {
      "texto": "verano.",
-     "inicio": 23.96,
-     "fin": 24.28
+     "inicio": 24.58,
+     "fin": 24.9
     }
    ],
-   "inicio": 22.16,
-   "fin": 24.28
+   "inicio": 22.74,
+   "fin": 24.9
   },
   {
    "texto": "Ojo: no es el clima loco. El Niño vuelve cada dos a siete años, en promedio.",
    "palabras": [
     {
      "texto": "Ojo:",
-     "inicio": 24.74,
-     "fin": 25.16
+     "inicio": 25.38,
+     "fin": 25.78
     },
     {
      "texto": "no",
-     "inicio": 25.66,
-     "fin": 25.88
+     "inicio": 26.24,
+     "fin": 26.4
     },
     {
      "texto": "es",
-     "inicio": 25.88,
-     "fin": 26.1
+     "inicio": 26.4,
+     "fin": 26.6
     },
     {
      "texto": "el",
-     "inicio": 26.1,
-     "fin": 26.22
+     "inicio": 26.6,
+     "fin": 26.72
     },
     {
      "texto": "clima",
-     "inicio": 26.22,
-     "fin": 26.48
+     "inicio": 26.72,
+     "fin": 27.06
     },
     {
      "texto": "loco.",
-     "inicio": 26.48,
-     "fin": 26.82
+     "inicio": 27.06,
+     "fin": 27.48
     },
     {
      "texto": "El",
-     "inicio": 27.38,
-     "fin": 27.54
+     "inicio": 28.02,
+     "fin": 28.12
     },
     {
      "texto": "Niño",
-     "inicio": 27.54,
-     "fin": 27.82
+     "inicio": 28.12,
+     "fin": 28.56
     },
     {
      "texto": "vuelve",
-     "inicio": 27.82,
-     "fin": 28.18
+     "inicio": 28.56,
+     "fin": 29.02
     },
     {
      "texto": "cada",
-     "inicio": 28.18,
-     "fin": 28.48
+     "inicio": 29.02,
+     "fin": 29.2
     },
     {
      "texto": "dos",
-     "inicio": 28.48,
-     "fin": 29.06
+     "inicio": 29.2,
+     "fin": 29.52
     },
     {
      "texto": "a",
-     "inicio": 29.06,
-     "fin": 29.26
+     "inicio": 29.52,
+     "fin": 29.7
     },
     {
      "texto": "siete",
-     "inicio": 29.26,
-     "fin": 29.54
-    },
-    {
-     "texto": "años,",
-     "inicio": 29.54,
+     "inicio": 29.7,
      "fin": 29.92
     },
     {
+     "texto": "años,",
+     "inicio": 29.92,
+     "fin": 30.36
+    },
+    {
      "texto": "en",
-     "inicio": 30.36,
-     "fin": 30.44
+     "inicio": 30.56,
+     "fin": 30.62
     },
     {
      "texto": "promedio.",
-     "inicio": 30.44,
-     "fin": 31.06
+     "inicio": 30.62,
+     "fin": 31.14
     }
    ],
-   "inicio": 24.74,
-   "fin": 31.06
+   "inicio": 25.38,
+   "fin": 31.14
   },
   {
    "texto": "Mandáselo a ese que dice que el clima está loco.",
    "palabras": [
     {
      "texto": "Mandáselo",
-     "inicio": 31.52,
-     "fin": 32.04
+     "inicio": 31.74,
+     "fin": 32.14
     },
     {
      "texto": "a",
-     "inicio": 32.04,
-     "fin": 32.1
+     "inicio": 32.14,
+     "fin": 32.2
     },
     {
      "texto": "ese",
-     "inicio": 32.1,
-     "fin": 32.28
+     "inicio": 32.2,
+     "fin": 32.34
     },
     {
      "texto": "que",
-     "inicio": 32.28,
-     "fin": 32.46
+     "inicio": 32.34,
+     "fin": 32.48
     },
     {
      "texto": "dice",
-     "inicio": 32.46,
-     "fin": 32.7
+     "inicio": 32.48,
+     "fin": 32.66
     },
     {
      "texto": "que",
-     "inicio": 32.7,
-     "fin": 32.9
+     "inicio": 32.66,
+     "fin": 32.84
     },
     {
      "texto": "el",
-     "inicio": 32.9,
-     "fin": 33.0
+     "inicio": 32.84,
+     "fin": 32.94
     },
     {
      "texto": "clima",
-     "inicio": 33.0,
-     "fin": 33.34
+     "inicio": 32.94,
+     "fin": 33.18
     },
     {
      "texto": "está",
-     "inicio": 33.34,
-     "fin": 33.52
+     "inicio": 33.18,
+     "fin": 33.32
     },
     {
      "texto": "loco.",
-     "inicio": 33.52,
-     "fin": 33.88
+     "inicio": 33.32,
+     "fin": 33.66
     }
    ],
-   "inicio": 31.52,
-   "fin": 33.88
+   "inicio": 31.74,
+   "fin": 33.66
   }
  ]
 }
