@@ -66,8 +66,9 @@ def actualizar():
 
 
 def puntaje(m):
+    # los enviados pesan más que todo: es lo que más empuja el alcance en Instagram (el 001 explotó por eso, 26/10)
     alcance = max(1, m.get('reach', 0))
-    return (m.get('shares', 0) * 3 + m.get('saved', 0) * 2 + m.get('comments', 0) + m.get('likes', 0) * 0.5) / alcance * 1000
+    return (m.get('shares', 0) * 5 + m.get('saved', 0) * 2 + m.get('comments', 0) + m.get('likes', 0) * 0.5) / alcance * 1000
 
 
 def ranking(base=None):

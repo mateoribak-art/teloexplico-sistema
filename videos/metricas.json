@@ -5,8 +5,8 @@
    "posts": 2
   },
   "2026-10-26": {
-   "seguidores": 39,
-   "posts": 4
+   "seguidores": 120,
+   "posts": 5
   }
  },
  "reels": {
@@ -15,16 +15,16 @@
    "publicado": "2026-10-24T18:46:20+0000",
    "duracion": 58.7,
    "ultimo": {
-    "views": 231,
-    "reach": 177,
+    "views": 264,
+    "reach": 198,
     "likes": 8,
     "comments": 0,
     "shares": 0,
     "saved": 0,
     "total_interactions": 9,
-    "ig_reels_avg_watch_time": 9232,
-    "ig_reels_video_view_total_time": 1781867,
-    "cuando": "2026-10-26T01:36"
+    "ig_reels_avg_watch_time": 9611,
+    "ig_reels_video_view_total_time": 2105022,
+    "cuando": "2026-10-26T16:19"
    }
   },
   "18567516820079365": {
@@ -32,16 +32,16 @@
    "publicado": "2026-10-25T00:10:51+0000",
    "duracion": 66.7,
    "ultimo": {
-    "views": 7104,
-    "reach": 5905,
-    "likes": 383,
+    "views": 7299,
+    "reach": 6028,
+    "likes": 397,
     "comments": 0,
-    "shares": 31,
-    "saved": 21,
-    "total_interactions": 449,
-    "ig_reels_avg_watch_time": 28367,
-    "ig_reels_video_view_total_time": 168303454,
-    "cuando": "2026-10-26T01:36"
+    "shares": 32,
+    "saved": 26,
+    "total_interactions": 470,
+    "ig_reels_avg_watch_time": 28500,
+    "ig_reels_video_view_total_time": 173681494,
+    "cuando": "2026-10-26T16:19"
    }
   },
   "18098154005560390": {
@@ -49,16 +49,16 @@
    "publicado": "2026-10-25T17:04:17+0000",
    "duracion": null,
    "ultimo": {
-    "views": 12121,
-    "reach": 8588,
-    "likes": 943,
-    "comments": 13,
-    "shares": 151,
-    "saved": 98,
-    "total_interactions": 1254,
-    "ig_reels_avg_watch_time": 36581,
-    "ig_reels_video_view_total_time": 330369734,
-    "cuando": "2026-10-26T01:36"
+    "views": 19733,
+    "reach": 13515,
+    "likes": 1526,
+    "comments": 22,
+    "shares": 331,
+    "saved": 194,
+    "total_interactions": 2168,
+    "ig_reels_avg_watch_time": 37792,
+    "ig_reels_video_view_total_time": 554530679,
+    "cuando": "2026-10-26T16:19"
    }
   },
   "18121053625743851": {
@@ -66,16 +66,33 @@
    "publicado": "2026-10-25T22:34:02+0000",
    "duracion": null,
    "ultimo": {
-    "views": 6205,
-    "reach": 4597,
-    "likes": 131,
-    "comments": 1,
-    "shares": 73,
-    "saved": 23,
-    "total_interactions": 231,
-    "ig_reels_avg_watch_time": 16486,
-    "ig_reels_video_view_total_time": 76728798,
-    "cuando": "2026-10-26T01:36"
+    "views": 44148,
+    "reach": 31673,
+    "likes": 720,
+    "comments": 5,
+    "shares": 1266,
+    "saved": 292,
+    "total_interactions": 2317,
+    "ig_reels_avg_watch_time": 21076,
+    "ig_reels_video_view_total_time": 670348532,
+    "cuando": "2026-10-26T16:19"
+   }
+  },
+  "18077279345737569": {
+   "slug": "002-corte-digestion",
+   "publicado": "2026-10-26T15:33:55+0000",
+   "duracion": 47.6,
+   "ultimo": {
+    "views": 1393,
+    "reach": 1102,
+    "likes": 23,
+    "comments": 0,
+    "shares": 1,
+    "saved": 0,
+    "total_interactions": 25,
+    "ig_reels_avg_watch_time": 16233,
+    "ig_reels_video_view_total_time": 18522027,
+    "cuando": "2026-10-26T16:19"
    }
   }
  }
