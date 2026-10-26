@@ -30,3 +30,12 @@ Lámina con cuadros de sus reels más vistos: `referencias/cuentas_referencia.pn
 - Nueva sección de ideas "Matemática y estrategia de todos los días" (videos/ideas.md).
 - Pregunta final del caption: concreta y fácil de contestar en una palabra.
 - No hacemos "comentá X y te mando…" (es venta de cursos, no es nuestra cuenta).
+
+## Reel de El Niño de @posta.explica (~1 M de reproducciones, 124 mil ♥) — 26/10/2026
+Lo que lo hizo funcionar (para usar con nuestro estilo, sin copiar su estética ni su analogía):
+1. **Formato de misterio:** "rueda de sospechosos": se acusa a uno (El Niño) y el culpable directo es otro (un bloqueo atmosférico). Engancha hasta el final porque querés saber quién fue.
+2. **"Vos" en la pantalla:** un pin "VOS" en el mapa y una pregunta que todos vivieron esos días ("¿y el sol?").
+3. **Una analogía cotidiana** para el mecanismo (ellos: canilla y tapón). Buscar la nuestra en cada tema.
+4. **Personajes con cara solo para las fuerzas invisibles** (la corriente cálida, la alta presión): vuelven entendible lo abstracto.
+5. **El "Ojo" da vuelta lo que creías** ("en octubre llueve el doble que en julio") y el cierre "mandáselo a ese que…" apunta a alguien concreto.
+Nuestro 016 (versión corta) tomó el pin "VOS". Cuidado con los datos: según ellos y un meteorólogo, El Niño es cómplice, no el único culpable: nunca decir "la culpa es de El Niño" a secas.
