@@ -26,7 +26,7 @@ Lámina con cuadros de sus reels más vistos: `referencias/cuentas_referencia.pn
 
 ## Qué cambia en nuestro sistema
 - Pasos numerados arriba a la izquierda en las escenas de mecanismo (pieza `Paso` del kit, ver DIRECCION_ARTE).
-- Duración: 45–75 s normal, hasta 90 s si el mecanismo lo pide.
+- Duración: **30–45 s** (corregido el 26/10 con datos propios: el más enviado, 001-heladera, dura 39 s; el de 70 s aburrió). Una idea, un dato.
 - Nueva sección de ideas "Matemática y estrategia de todos los días" (videos/ideas.md).
 - Pregunta final del caption: concreta y fácil de contestar en una palabra.
 - No hacemos "comentá X y te mando…" (es venta de cursos, no es nuestra cuenta).

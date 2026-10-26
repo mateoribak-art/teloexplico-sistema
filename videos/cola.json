@@ -365,7 +365,7 @@
  {
   "slug": "016-el-nino-clima",
   "tema": "¿Por qué este año llueve así? El Niño y el pronóstico oficial para el verano",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -381,6 +381,11 @@
     "estado": "listo",
     "cuando": "2026-10-26T16:34",
     "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-26T17:09",
+    "motivo": "Mateo: muy largo (70 s) y con mucha data; se rehace en versión corta"
    }
   ],
   "prioridad": "actualidad",
