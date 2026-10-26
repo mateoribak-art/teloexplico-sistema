@@ -361,5 +361,51 @@
     "motivo": "producción nocturna"
    }
   ]
+ },
+ {
+  "slug": "016-el-nino-clima",
+  "tema": "¿Por qué este año llueve así? El Niño y el pronóstico oficial para el verano",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-26T16:22",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-26T16:23",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T16:34",
+    "motivo": "producción nocturna"
+   }
+  ],
+  "prioridad": "actualidad",
+  "creado": "2026-10-26T16:22"
+ },
+ {
+  "slug": "017-paradoja-cumpleanos",
+  "tema": "¿Cuánta gente hace falta en una juntada para que dos cumplan el mismo día? (paradoja del cumpleaños)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-26T16:35",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-26T16:35",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T16:43",
+    "motivo": "producción nocturna"
+   }
+  ]
  }
 ]

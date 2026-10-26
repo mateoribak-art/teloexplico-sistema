@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Las 8 afirmaciones fácticas están verificadas con fuente (Wikipedia 'Birthday problem' con su tabla y el cálculo de 253 parejas; Harvey Mudd y Parabola/UNSW como apoyo). Cifras recalculadas con la fórmula 1 - 365!/((365-n)! 365^n): 23 -> 50,73 %, 40 -> 89,12 %, 70 -> 99,916 %; 23x22/2 = 253. (Nota: el cálculo se contrastó con la tabla de Wikipedia, 50,7297 % / 89,1 % / 99,9 %, porque Bash estaba denegado y no se pudo ejecutar el script; los valores coinciden con los conocidos.) La afirmación de que la distribución no uniforme aumenta la probabilidad tiene respaldo: la uniforme minimiza la probabilidad (suma de cuadrados de las probabilidades mínima), según Wikipedia, Parabola vol. 61 n.3 (UNSW) y Fadnavis arXiv 1105.0698; el guion dice 'apenas más probable', consistente con 'no lo bastante desigual como para cambiar mucho'. No hay frases probables, dudosas ni falsas. No hay cambios obligatorios. Sugerencia opcional: ninguna necesaria.",
+  "afirmaciones": [
+    {
+      "texto": "Parece que hacen falta muchísimos. Pero son menos de lo que creés: veintitrés.",
+      "fuente": "https://en.wikipedia.org/wiki/Birthday_problem (23 personas -> 50,7 %); https://math.hmc.edu/funfacts/?p=206. 'Parece que hacen falta muchísimos' es intuición común, no dato.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Con veintitrés personas, la probabilidad de que haya un cumpleaños repetido ya pasa el cincuenta por ciento.",
+      "fuente": "https://en.wikipedia.org/wiki/Birthday_problem; recálculo propio 50,73 % (365 días uniformes)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El truco es que no importa cuánta gente hay, sino cuántas parejas se pueden armar.",
+      "fuente": "https://en.wikipedia.org/wiki/Birthday_problem (explica el resultado por el número de pares). Es una simplificación explicativa, no una afirmación numérica; el número de parejas crece cuadráticamente con el grupo.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Con veintitrés personas hay doscientas cincuenta y tres parejas posibles. Y cada una es una chance de coincidir.",
+      "fuente": "https://en.wikipedia.org/wiki/Birthday_problem ('23 x 22 / 2 = 253 pairs'); recálculo propio 253",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Los matemáticos lo calculan al revés: la chance de que nadie coincida, y esa chance se desploma rapidísimo.",
+      "fuente": "https://en.wikipedia.org/wiki/Birthday_problem (método del complemento: P = 1 - P(ninguna coincidencia)). 'Se desploma rapidísimo' es énfasis coloquial: 49,3 % con 23, 10,9 % con 40, 0,08 % con 70.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Con setenta personas, la probabilidad de coincidencia supera el noventa y nueve por ciento.",
+      "fuente": "https://en.wikipedia.org/wiki/Birthday_problem (tabla: 70 -> 99,9 %); recálculo propio 99,916 %",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y en un grupo de cuarenta, ya es de casi nueve de cada diez.",
+      "fuente": "https://en.wikipedia.org/wiki/Birthday_problem (tabla: 40 -> 89,1 %); recálculo propio 89,12 %",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: la cuenta supone que todos los días del año son igual de probables. En la realidad no lo son, y eso hace la coincidencia apenas más probable.",
+      "fuente": "https://en.wikipedia.org/wiki/Birthday_problem (la uniforme minimiza la probabilidad; la desigualdad real no cambia mucho); https://www.parabola.unsw.edu.au/sites/default/files/2025-12/vol61_no3_7.pdf; https://arxiv.org/abs/1105.0698",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y no hace falta que coincida con el tuyo: alcanza con que dos cualesquiera del grupo cumplan el mismo día.",
+      "fuente": "https://en.wikipedia.org/wiki/Birthday_problem (el problema considera cualquier par, no uno fijo; coincidir con una fecha dada necesita 253 personas para ~50 %)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

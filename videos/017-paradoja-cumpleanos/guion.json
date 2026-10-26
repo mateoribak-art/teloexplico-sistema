@@ -1,0 +1,22 @@
+{
+  "titulo": "¿Cuánta gente hace falta para que dos cumplan el mismo día?",
+  "fuentes": [
+    "Paradoja del cumpleaños: con 23 personas la probabilidad de al menos un cumpleaños compartido es de alrededor de 50,7 % (365 días, distribución uniforme)",
+    "Con 70 personas la probabilidad supera el 99,9 %; con 40, ronda el 89 %",
+    "Con 23 personas hay 253 parejas posibles (23 x 22 / 2)",
+    "Los nacimientos no se reparten parejo en el año: eso aumenta levemente la probabilidad de coincidencia"
+  ],
+  "frases": [
+    {"texto": "¿Cuánta gente hace falta en una juntada para que dos cumplan el mismo día?", "estilo": "Intriga, pregunta cercana."},
+    {"texto": "Parece que hacen falta muchísimos. Pero son menos de lo que creés: veintitrés.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Con veintitrés personas, la probabilidad de que haya un cumpleaños repetido ya pasa el cincuenta por ciento.", "estilo": "Dato fuerte, enfático."},
+    {"texto": "El truco es que no importa cuánta gente hay, sino cuántas parejas se pueden armar.", "estilo": "Explicando simple, como a un amigo."},
+    {"texto": "Con veintitrés personas hay doscientas cincuenta y tres parejas posibles. Y cada una es una chance de coincidir.", "estilo": "Mecanismo, claro, con ritmo."},
+    {"texto": "Los matemáticos lo calculan al revés: la chance de que nadie coincida, y esa chance se desploma rapidísimo.", "estilo": "Curioso, ritmo medio."},
+    {"texto": "Con setenta personas, la probabilidad de coincidencia supera el noventa y nueve por ciento.", "estilo": "Enfático, revelando un dato fuerte."},
+    {"texto": "Y en un grupo de cuarenta, ya es de casi nueve de cada diez.", "estilo": "Cercano, con humor."},
+    {"texto": "Ojo: la cuenta supone que todos los días del año son igual de probables. En la realidad no lo son, y eso hace la coincidencia apenas más probable.", "estilo": "Advertencia honesta, tono amable."},
+    {"texto": "Y no hace falta que coincida con el tuyo: alcanza con que dos cualesquiera del grupo cumplan el mismo día.", "estilo": "Aclaración divertida."},
+    {"texto": "Mandáselo a ese que jura que en su grupo nunca coinciden los cumpleaños.", "estilo": "Cómplice, con humor argentino."}
+  ]
+}

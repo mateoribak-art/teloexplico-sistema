@@ -18,6 +18,8 @@ import { Ventilador009, DURACION as DUR_009, FPS as FPS_009, Portada009 } from "
 import { DURACION as DUR_012, FPS as FPS_012, LavarPollo012, Portada012 } from "./videos/012-lavar-pollo/Video";
 import { CelularArroz014, DURACION as DUR_014, FPS as FPS_014, Portada014 } from "./videos/014-celular-arroz/Video";
 import { DescongelarMesada015, DURACION as DUR_015, FPS as FPS_015, Portada015 } from "./videos/015-descongelar-mesada/Video";
+import { DURACION as DUR_016, ElNinoClima016, FPS as FPS_016, Portada016 } from "./videos/016-el-nino-clima/Video";
+import { DURACION as DUR_017, FPS as FPS_017, ParadojaCumpleanos017, Portada017 } from "./videos/017-paradoja-cumpleanos/Video";
 
 // Cada video nuevo suma su <Composition> (id "hNNN-slug") y su <Still> de portada (id "pNNN-slug").
 export const RemotionRoot: React.FC = () => {
@@ -36,6 +38,8 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="h012-lavar-pollo" component={LavarPollo012} durationInFrames={DUR_012} fps={FPS_012} width={ANCHO} height={ALTO} />
         <Composition id="h014-celular-arroz" component={CelularArroz014} durationInFrames={DUR_014} fps={FPS_014} width={ANCHO} height={ALTO} />
         <Composition id="h015-descongelar-mesada" component={DescongelarMesada015} durationInFrames={DUR_015} fps={FPS_015} width={ANCHO} height={ALTO} />
+        <Composition id="h016-el-nino-clima" component={ElNinoClima016} durationInFrames={DUR_016} fps={FPS_016} width={ANCHO} height={ALTO} />
+        <Composition id="h017-paradoja-cumpleanos" component={ParadojaCumpleanos017} durationInFrames={DUR_017} fps={FPS_017} width={ANCHO} height={ALTO} />
       </Folder>
       <Folder name="portadas">
         <Still id="p001-heladera" component={Portada001} width={ANCHO} height={ALTO} />
@@ -50,6 +54,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p012-lavar-pollo" component={Portada012} width={ANCHO} height={ALTO} />
         <Still id="p014-celular-arroz" component={Portada014} width={ANCHO} height={ALTO} />
         <Still id="p015-descongelar-mesada" component={Portada015} width={ANCHO} height={ALTO} />
+        <Still id="p016-el-nino-clima" component={Portada016} width={ANCHO} height={ALTO} />
+        <Still id="p017-paradoja-cumpleanos" component={Portada017} width={ANCHO} height={ALTO} />
       </Folder>
       {/* plan B (sin Claude): herramientas/plan_b.py le pasa las escenas con --props */}
       <Folder name="planb">

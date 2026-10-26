@@ -6,3 +6,8 @@ You've hit your weekly limit · resets 3pm (America/Argentina/Buenos_Aires)
 You've hit your weekly limit · resets 3pm (America/Argentina/Buenos_Aires)
 2026-10-26 13:53 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.
 2026-10-26 13:53 Termina la producción (Claude no terminó bien).
+2026-10-26 16:21 Arranca la producción (6 listos en la cola, meta 10).
+Quedaron listos `016-el-nino-clima` (video de actualidad, 70 s) y `017-paradoja-cumpleanos` (66,8 s). Los dos pasaron el chequeo de datos del subagente, `tlx tsc`, dos vueltas de cuadros, el render y `tlx control`.
+Sin apartados ni incompletos en esta corrida. Es el máximo de 2 videos, y la cola queda con 8 listos y la cuota de Gemini sin agotar.
+En `016` el subagente no pudo abrir el PDF del SMN (error 403). La confirmación de El Niño activo y el pronóstico trimestral los contrastó con medios que citan al SMN, la ficha del SMN y La Gaceta; las cifras de NOAA sí vinieron de su discusión original del 8 de octubre. En `017` el subagente no pudo recalcular las cifras con un script; las comparó con la tabla de Wikipedia.
+2026-10-26 16:43 Termina la producción (ok).

@@ -1,0 +1,1002 @@
+{
+ "duracion": 65.97,
+ "frases": [
+  {
+   "texto": "¿Cuánta gente hace falta en una juntada para que dos cumplan el mismo día?",
+   "palabras": [
+    {
+     "texto": "¿Cuánta",
+     "inicio": 0.0,
+     "fin": 0.34
+    },
+    {
+     "texto": "gente",
+     "inicio": 0.34,
+     "fin": 0.62
+    },
+    {
+     "texto": "hace",
+     "inicio": 0.62,
+     "fin": 0.84
+    },
+    {
+     "texto": "falta",
+     "inicio": 0.84,
+     "fin": 1.26
+    },
+    {
+     "texto": "en",
+     "inicio": 1.26,
+     "fin": 1.7
+    },
+    {
+     "texto": "una",
+     "inicio": 1.7,
+     "fin": 1.86
+    },
+    {
+     "texto": "juntada",
+     "inicio": 1.86,
+     "fin": 2.46
+    },
+    {
+     "texto": "para",
+     "inicio": 2.46,
+     "fin": 2.92
+    },
+    {
+     "texto": "que",
+     "inicio": 2.92,
+     "fin": 3.12
+    },
+    {
+     "texto": "dos",
+     "inicio": 3.12,
+     "fin": 3.34
+    },
+    {
+     "texto": "cumplan",
+     "inicio": 3.34,
+     "fin": 3.8
+    },
+    {
+     "texto": "el",
+     "inicio": 3.8,
+     "fin": 4.0
+    },
+    {
+     "texto": "mismo",
+     "inicio": 4.0,
+     "fin": 4.26
+    },
+    {
+     "texto": "día?",
+     "inicio": 4.26,
+     "fin": 4.58
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.58
+  },
+  {
+   "texto": "Parece que hacen falta muchísimos. Pero son menos de lo que creés: veintitrés.",
+   "palabras": [
+    {
+     "texto": "Parece",
+     "inicio": 5.06,
+     "fin": 5.34
+    },
+    {
+     "texto": "que",
+     "inicio": 5.34,
+     "fin": 5.52
+    },
+    {
+     "texto": "hacen",
+     "inicio": 5.52,
+     "fin": 5.68
+    },
+    {
+     "texto": "falta",
+     "inicio": 5.68,
+     "fin": 5.88
+    },
+    {
+     "texto": "muchísimos.",
+     "inicio": 5.88,
+     "fin": 6.58
+    },
+    {
+     "texto": "Pero",
+     "inicio": 6.96,
+     "fin": 7.3
+    },
+    {
+     "texto": "son",
+     "inicio": 7.3,
+     "fin": 7.46
+    },
+    {
+     "texto": "menos",
+     "inicio": 7.46,
+     "fin": 7.72
+    },
+    {
+     "texto": "de",
+     "inicio": 7.72,
+     "fin": 7.88
+    },
+    {
+     "texto": "lo",
+     "inicio": 7.88,
+     "fin": 7.96
+    },
+    {
+     "texto": "que",
+     "inicio": 7.96,
+     "fin": 8.08
+    },
+    {
+     "texto": "creés:",
+     "inicio": 8.08,
+     "fin": 8.56
+    },
+    {
+     "texto": "veintitrés.",
+     "inicio": 9.1,
+     "fin": 9.74
+    }
+   ],
+   "inicio": 5.06,
+   "fin": 9.74
+  },
+  {
+   "texto": "Con veintitrés personas, la probabilidad de que haya un cumpleaños repetido ya pasa el cincuenta por ciento.",
+   "palabras": [
+    {
+     "texto": "Con",
+     "inicio": 10.36,
+     "fin": 10.52
+    },
+    {
+     "texto": "veintitrés",
+     "inicio": 10.52,
+     "fin": 10.98
+    },
+    {
+     "texto": "personas,",
+     "inicio": 10.98,
+     "fin": 11.5
+    },
+    {
+     "texto": "la",
+     "inicio": 11.96,
+     "fin": 12.18
+    },
+    {
+     "texto": "probabilidad",
+     "inicio": 12.18,
+     "fin": 12.8
+    },
+    {
+     "texto": "de",
+     "inicio": 12.8,
+     "fin": 12.96
+    },
+    {
+     "texto": "que",
+     "inicio": 12.96,
+     "fin": 13.06
+    },
+    {
+     "texto": "haya",
+     "inicio": 13.06,
+     "fin": 13.22
+    },
+    {
+     "texto": "un",
+     "inicio": 13.22,
+     "fin": 13.38
+    },
+    {
+     "texto": "cumpleaños",
+     "inicio": 13.38,
+     "fin": 13.94
+    },
+    {
+     "texto": "repetido",
+     "inicio": 13.94,
+     "fin": 14.56
+    },
+    {
+     "texto": "ya",
+     "inicio": 14.56,
+     "fin": 14.94
+    },
+    {
+     "texto": "pasa",
+     "inicio": 14.94,
+     "fin": 15.18
+    },
+    {
+     "texto": "el",
+     "inicio": 15.18,
+     "fin": 15.34
+    },
+    {
+     "texto": "cincuenta",
+     "inicio": 15.34,
+     "fin": 15.84
+    },
+    {
+     "texto": "por",
+     "inicio": 15.84,
+     "fin": 16.06
+    },
+    {
+     "texto": "ciento.",
+     "inicio": 16.06,
+     "fin": 16.34
+    }
+   ],
+   "inicio": 10.36,
+   "fin": 16.34
+  },
+  {
+   "texto": "El truco es que no importa cuánta gente hay, sino cuántas parejas se pueden armar.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 16.84,
+     "fin": 17.06
+    },
+    {
+     "texto": "truco",
+     "inicio": 17.06,
+     "fin": 17.42
+    },
+    {
+     "texto": "es",
+     "inicio": 17.42,
+     "fin": 17.82
+    },
+    {
+     "texto": "que",
+     "inicio": 17.82,
+     "fin": 17.92
+    },
+    {
+     "texto": "no",
+     "inicio": 17.92,
+     "fin": 18.06
+    },
+    {
+     "texto": "importa",
+     "inicio": 18.06,
+     "fin": 18.48
+    },
+    {
+     "texto": "cuánta",
+     "inicio": 18.48,
+     "fin": 18.9
+    },
+    {
+     "texto": "gente",
+     "inicio": 18.9,
+     "fin": 19.22
+    },
+    {
+     "texto": "hay,",
+     "inicio": 19.22,
+     "fin": 19.54
+    },
+    {
+     "texto": "sino",
+     "inicio": 19.88,
+     "fin": 20.12
+    },
+    {
+     "texto": "cuántas",
+     "inicio": 20.12,
+     "fin": 20.66
+    },
+    {
+     "texto": "parejas",
+     "inicio": 20.66,
+     "fin": 21.14
+    },
+    {
+     "texto": "se",
+     "inicio": 21.14,
+     "fin": 21.34
+    },
+    {
+     "texto": "pueden",
+     "inicio": 21.34,
+     "fin": 21.56
+    },
+    {
+     "texto": "armar.",
+     "inicio": 21.56,
+     "fin": 21.98
+    }
+   ],
+   "inicio": 16.84,
+   "fin": 21.98
+  },
+  {
+   "texto": "Con veintitrés personas hay doscientas cincuenta y tres parejas posibles. Y cada una es una chance de coincidir.",
+   "palabras": [
+    {
+     "texto": "Con",
+     "inicio": 22.42,
+     "fin": 22.58
+    },
+    {
+     "texto": "veintitrés",
+     "inicio": 22.58,
+     "fin": 23.0
+    },
+    {
+     "texto": "personas",
+     "inicio": 23.0,
+     "fin": 23.42
+    },
+    {
+     "texto": "hay",
+     "inicio": 23.92,
+     "fin": 24.2
+    },
+    {
+     "texto": "doscientas",
+     "inicio": 24.2,
+     "fin": 24.88
+    },
+    {
+     "texto": "cincuenta",
+     "inicio": 24.88,
+     "fin": 25.3
+    },
+    {
+     "texto": "y",
+     "inicio": 25.3,
+     "fin": 25.38
+    },
+    {
+     "texto": "tres",
+     "inicio": 25.38,
+     "fin": 25.56
+    },
+    {
+     "texto": "parejas",
+     "inicio": 25.56,
+     "fin": 25.88
+    },
+    {
+     "texto": "posibles.",
+     "inicio": 25.88,
+     "fin": 26.42
+    },
+    {
+     "texto": "Y",
+     "inicio": 26.86,
+     "fin": 27.12
+    },
+    {
+     "texto": "cada",
+     "inicio": 27.12,
+     "fin": 27.28
+    },
+    {
+     "texto": "una",
+     "inicio": 27.28,
+     "fin": 27.56
+    },
+    {
+     "texto": "es",
+     "inicio": 27.56,
+     "fin": 27.86
+    },
+    {
+     "texto": "una",
+     "inicio": 27.86,
+     "fin": 28.02
+    },
+    {
+     "texto": "chance",
+     "inicio": 28.02,
+     "fin": 28.26
+    },
+    {
+     "texto": "de",
+     "inicio": 28.26,
+     "fin": 28.5
+    },
+    {
+     "texto": "coincidir.",
+     "inicio": 28.5,
+     "fin": 28.98
+    }
+   ],
+   "inicio": 22.42,
+   "fin": 28.98
+  },
+  {
+   "texto": "Los matemáticos lo calculan al revés: la chance de que nadie coincida, y esa chance se desploma rapidísimo.",
+   "palabras": [
+    {
+     "texto": "Los",
+     "inicio": 29.5,
+     "fin": 29.62
+    },
+    {
+     "texto": "matemáticos",
+     "inicio": 29.62,
+     "fin": 30.12
+    },
+    {
+     "texto": "lo",
+     "inicio": 30.12,
+     "fin": 30.3
+    },
+    {
+     "texto": "calculan",
+     "inicio": 30.3,
+     "fin": 30.76
+    },
+    {
+     "texto": "al",
+     "inicio": 30.76,
+     "fin": 30.92
+    },
+    {
+     "texto": "revés:",
+     "inicio": 30.92,
+     "fin": 31.28
+    },
+    {
+     "texto": "la",
+     "inicio": 31.78,
+     "fin": 31.92
+    },
+    {
+     "texto": "chance",
+     "inicio": 31.92,
+     "fin": 32.16
+    },
+    {
+     "texto": "de",
+     "inicio": 32.16,
+     "fin": 32.42
+    },
+    {
+     "texto": "que",
+     "inicio": 32.42,
+     "fin": 32.54
+    },
+    {
+     "texto": "nadie",
+     "inicio": 32.54,
+     "fin": 32.84
+    },
+    {
+     "texto": "coincida,",
+     "inicio": 32.84,
+     "fin": 33.52
+    },
+    {
+     "texto": "y",
+     "inicio": 34.06,
+     "fin": 34.12
+    },
+    {
+     "texto": "esa",
+     "inicio": 34.12,
+     "fin": 34.28
+    },
+    {
+     "texto": "chance",
+     "inicio": 34.28,
+     "fin": 34.62
+    },
+    {
+     "texto": "se",
+     "inicio": 34.62,
+     "fin": 34.86
+    },
+    {
+     "texto": "desploma",
+     "inicio": 34.86,
+     "fin": 35.28
+    },
+    {
+     "texto": "rapidísimo.",
+     "inicio": 35.28,
+     "fin": 36.02
+    }
+   ],
+   "inicio": 29.5,
+   "fin": 36.02
+  },
+  {
+   "texto": "Con setenta personas, la probabilidad de coincidencia supera el noventa y nueve por ciento.",
+   "palabras": [
+    {
+     "texto": "Con",
+     "inicio": 36.54,
+     "fin": 36.72
+    },
+    {
+     "texto": "setenta",
+     "inicio": 36.72,
+     "fin": 37.24
+    },
+    {
+     "texto": "personas,",
+     "inicio": 37.24,
+     "fin": 37.76
+    },
+    {
+     "texto": "la",
+     "inicio": 38.34,
+     "fin": 38.54
+    },
+    {
+     "texto": "probabilidad",
+     "inicio": 38.54,
+     "fin": 39.22
+    },
+    {
+     "texto": "de",
+     "inicio": 39.22,
+     "fin": 39.3
+    },
+    {
+     "texto": "coincidencia",
+     "inicio": 39.3,
+     "fin": 39.9
+    },
+    {
+     "texto": "supera",
+     "inicio": 39.9,
+     "fin": 40.38
+    },
+    {
+     "texto": "el",
+     "inicio": 40.38,
+     "fin": 40.5
+    },
+    {
+     "texto": "noventa",
+     "inicio": 40.5,
+     "fin": 41.0
+    },
+    {
+     "texto": "y",
+     "inicio": 41.0,
+     "fin": 41.12
+    },
+    {
+     "texto": "nueve",
+     "inicio": 41.12,
+     "fin": 41.44
+    },
+    {
+     "texto": "por",
+     "inicio": 41.44,
+     "fin": 41.66
+    },
+    {
+     "texto": "ciento.",
+     "inicio": 41.66,
+     "fin": 41.98
+    }
+   ],
+   "inicio": 36.54,
+   "fin": 41.98
+  },
+  {
+   "texto": "Y en un grupo de cuarenta, ya es de casi nueve de cada diez.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 42.5,
+     "fin": 42.7
+    },
+    {
+     "texto": "en",
+     "inicio": 42.7,
+     "fin": 42.78
+    },
+    {
+     "texto": "un",
+     "inicio": 42.78,
+     "fin": 42.88
+    },
+    {
+     "texto": "grupo",
+     "inicio": 42.88,
+     "fin": 43.06
+    },
+    {
+     "texto": "de",
+     "inicio": 43.06,
+     "fin": 43.26
+    },
+    {
+     "texto": "cuarenta,",
+     "inicio": 43.26,
+     "fin": 43.8
+    },
+    {
+     "texto": "ya",
+     "inicio": 44.14,
+     "fin": 44.34
+    },
+    {
+     "texto": "es",
+     "inicio": 44.34,
+     "fin": 44.44
+    },
+    {
+     "texto": "de",
+     "inicio": 44.44,
+     "fin": 44.52
+    },
+    {
+     "texto": "casi",
+     "inicio": 44.52,
+     "fin": 44.66
+    },
+    {
+     "texto": "nueve",
+     "inicio": 44.66,
+     "fin": 45.22
+    },
+    {
+     "texto": "de",
+     "inicio": 45.22,
+     "fin": 45.36
+    },
+    {
+     "texto": "cada",
+     "inicio": 45.36,
+     "fin": 45.54
+    },
+    {
+     "texto": "diez.",
+     "inicio": 45.54,
+     "fin": 45.8
+    }
+   ],
+   "inicio": 42.5,
+   "fin": 45.8
+  },
+  {
+   "texto": "Ojo: la cuenta supone que todos los días del año son igual de probables. En la realidad no lo son, y eso hace la coincidencia apenas más probable.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 46.4,
+     "fin": 46.72
+    },
+    {
+     "texto": "la",
+     "inicio": 47.2,
+     "fin": 47.4
+    },
+    {
+     "texto": "cuenta",
+     "inicio": 47.4,
+     "fin": 47.68
+    },
+    {
+     "texto": "supone",
+     "inicio": 47.68,
+     "fin": 48.08
+    },
+    {
+     "texto": "que",
+     "inicio": 48.08,
+     "fin": 48.24
+    },
+    {
+     "texto": "todos",
+     "inicio": 48.24,
+     "fin": 48.54
+    },
+    {
+     "texto": "los",
+     "inicio": 48.54,
+     "fin": 48.74
+    },
+    {
+     "texto": "días",
+     "inicio": 48.74,
+     "fin": 48.94
+    },
+    {
+     "texto": "del",
+     "inicio": 48.94,
+     "fin": 49.14
+    },
+    {
+     "texto": "año",
+     "inicio": 49.14,
+     "fin": 49.36
+    },
+    {
+     "texto": "son",
+     "inicio": 49.36,
+     "fin": 49.58
+    },
+    {
+     "texto": "igual",
+     "inicio": 49.58,
+     "fin": 49.86
+    },
+    {
+     "texto": "de",
+     "inicio": 49.86,
+     "fin": 50.0
+    },
+    {
+     "texto": "probables.",
+     "inicio": 50.0,
+     "fin": 50.48
+    },
+    {
+     "texto": "En",
+     "inicio": 51.14,
+     "fin": 51.3
+    },
+    {
+     "texto": "la",
+     "inicio": 51.3,
+     "fin": 51.4
+    },
+    {
+     "texto": "realidad",
+     "inicio": 51.4,
+     "fin": 51.8
+    },
+    {
+     "texto": "no",
+     "inicio": 51.8,
+     "fin": 52.18
+    },
+    {
+     "texto": "lo",
+     "inicio": 52.18,
+     "fin": 52.28
+    },
+    {
+     "texto": "son,",
+     "inicio": 52.28,
+     "fin": 52.54
+    },
+    {
+     "texto": "y",
+     "inicio": 53.1,
+     "fin": 53.24
+    },
+    {
+     "texto": "eso",
+     "inicio": 53.24,
+     "fin": 53.44
+    },
+    {
+     "texto": "hace",
+     "inicio": 53.44,
+     "fin": 53.62
+    },
+    {
+     "texto": "la",
+     "inicio": 53.62,
+     "fin": 53.76
+    },
+    {
+     "texto": "coincidencia",
+     "inicio": 53.76,
+     "fin": 54.48
+    },
+    {
+     "texto": "apenas",
+     "inicio": 54.48,
+     "fin": 55.12
+    },
+    {
+     "texto": "más",
+     "inicio": 55.12,
+     "fin": 55.44
+    },
+    {
+     "texto": "probable.",
+     "inicio": 55.44,
+     "fin": 55.86
+    }
+   ],
+   "inicio": 46.4,
+   "fin": 55.86
+  },
+  {
+   "texto": "Y no hace falta que coincida con el tuyo: alcanza con que dos cualesquiera del grupo cumplan el mismo día.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 56.38,
+     "fin": 56.54
+    },
+    {
+     "texto": "no",
+     "inicio": 56.54,
+     "fin": 56.66
+    },
+    {
+     "texto": "hace",
+     "inicio": 56.66,
+     "fin": 56.78
+    },
+    {
+     "texto": "falta",
+     "inicio": 56.78,
+     "fin": 57.04
+    },
+    {
+     "texto": "que",
+     "inicio": 57.04,
+     "fin": 57.22
+    },
+    {
+     "texto": "coincida",
+     "inicio": 57.22,
+     "fin": 57.6
+    },
+    {
+     "texto": "con",
+     "inicio": 57.6,
+     "fin": 57.78
+    },
+    {
+     "texto": "el",
+     "inicio": 57.78,
+     "fin": 57.88
+    },
+    {
+     "texto": "tuyo:",
+     "inicio": 57.88,
+     "fin": 58.22
+    },
+    {
+     "texto": "alcanza",
+     "inicio": 58.72,
+     "fin": 59.2
+    },
+    {
+     "texto": "con",
+     "inicio": 59.2,
+     "fin": 59.38
+    },
+    {
+     "texto": "que",
+     "inicio": 59.38,
+     "fin": 59.52
+    },
+    {
+     "texto": "dos",
+     "inicio": 59.52,
+     "fin": 59.74
+    },
+    {
+     "texto": "cualesquiera",
+     "inicio": 59.74,
+     "fin": 60.28
+    },
+    {
+     "texto": "del",
+     "inicio": 60.28,
+     "fin": 60.42
+    },
+    {
+     "texto": "grupo",
+     "inicio": 60.42,
+     "fin": 60.68
+    },
+    {
+     "texto": "cumplan",
+     "inicio": 60.68,
+     "fin": 61.08
+    },
+    {
+     "texto": "el",
+     "inicio": 61.08,
+     "fin": 61.24
+    },
+    {
+     "texto": "mismo",
+     "inicio": 61.24,
+     "fin": 61.44
+    },
+    {
+     "texto": "día.",
+     "inicio": 61.44,
+     "fin": 61.7
+    }
+   ],
+   "inicio": 56.38,
+   "fin": 61.7
+  },
+  {
+   "texto": "Mandáselo a ese que jura que en su grupo nunca coinciden los cumpleaños.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 62.26,
+     "fin": 62.74
+    },
+    {
+     "texto": "a",
+     "inicio": 62.74,
+     "fin": 62.8
+    },
+    {
+     "texto": "ese",
+     "inicio": 62.8,
+     "fin": 62.92
+    },
+    {
+     "texto": "que",
+     "inicio": 62.92,
+     "fin": 63.08
+    },
+    {
+     "texto": "jura",
+     "inicio": 63.08,
+     "fin": 63.38
+    },
+    {
+     "texto": "que",
+     "inicio": 63.38,
+     "fin": 63.5
+    },
+    {
+     "texto": "en",
+     "inicio": 63.5,
+     "fin": 63.64
+    },
+    {
+     "texto": "su",
+     "inicio": 63.64,
+     "fin": 63.76
+    },
+    {
+     "texto": "grupo",
+     "inicio": 63.76,
+     "fin": 64.04
+    },
+    {
+     "texto": "nunca",
+     "inicio": 64.04,
+     "fin": 64.4
+    },
+    {
+     "texto": "coinciden",
+     "inicio": 64.4,
+     "fin": 65.06
+    },
+    {
+     "texto": "los",
+     "inicio": 65.06,
+     "fin": 65.2
+    },
+    {
+     "texto": "cumpleaños.",
+     "inicio": 65.2,
+     "fin": 65.76
+    }
+   ],
+   "inicio": 62.26,
+   "fin": 65.76
+  }
+ ]
+}
