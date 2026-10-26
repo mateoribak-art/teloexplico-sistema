@@ -1,1022 +1,536 @@
 {
- "duracion": 69.06,
+ "duracion": 33.97,
  "frases": [
   {
-   "texto": "¿Te parece que esta primavera llueve más que otros años?",
+   "texto": "¿Sentís que este año llueve más que nunca?",
    "palabras": [
     {
-     "texto": "¿Te",
+     "texto": "¿Sentís",
      "inicio": 0.0,
-     "fin": 0.12
-    },
-    {
-     "texto": "parece",
-     "inicio": 0.12,
-     "fin": 0.36
+     "fin": 0.5
     },
     {
      "texto": "que",
-     "inicio": 0.36,
-     "fin": 0.8
-    },
-    {
-     "texto": "esta",
-     "inicio": 0.8,
-     "fin": 1.08
-    },
-    {
-     "texto": "primavera",
-     "inicio": 1.08,
-     "fin": 1.76
-    },
-    {
-     "texto": "llueve",
-     "inicio": 1.76,
-     "fin": 2.34
-    },
-    {
-     "texto": "más",
-     "inicio": 2.34,
-     "fin": 2.68
-    },
-    {
-     "texto": "que",
-     "inicio": 2.68,
-     "fin": 2.88
-    },
-    {
-     "texto": "otros",
-     "inicio": 2.88,
-     "fin": 3.08
-    },
-    {
-     "texto": "años?",
-     "inicio": 3.08,
-     "fin": 3.44
-    }
-   ],
-   "inicio": 0.0,
-   "fin": 3.44
-  },
-  {
-   "texto": "Una parte de la explicación no está en tu ciudad. Está en el océano Pacífico.",
-   "palabras": [
-    {
-     "texto": "Una",
-     "inicio": 4.08,
-     "fin": 4.6
-    },
-    {
-     "texto": "parte",
-     "inicio": 4.6,
-     "fin": 4.88
-    },
-    {
-     "texto": "de",
-     "inicio": 4.88,
-     "fin": 5.06
-    },
-    {
-     "texto": "la",
-     "inicio": 5.06,
-     "fin": 5.16
-    },
-    {
-     "texto": "explicación",
-     "inicio": 5.16,
-     "fin": 5.76
-    },
-    {
-     "texto": "no",
-     "inicio": 5.76,
-     "fin": 6.24
-    },
-    {
-     "texto": "está",
-     "inicio": 6.24,
-     "fin": 6.5
-    },
-    {
-     "texto": "en",
-     "inicio": 6.5,
-     "fin": 6.68
-    },
-    {
-     "texto": "tu",
-     "inicio": 6.68,
-     "fin": 6.74
-    },
-    {
-     "texto": "ciudad.",
-     "inicio": 6.74,
-     "fin": 7.08
-    },
-    {
-     "texto": "Está",
-     "inicio": 7.4,
-     "fin": 7.82
-    },
-    {
-     "texto": "en",
-     "inicio": 7.82,
-     "fin": 8.44
-    },
-    {
-     "texto": "el",
-     "inicio": 8.44,
-     "fin": 8.58
-    },
-    {
-     "texto": "océano",
-     "inicio": 8.58,
-     "fin": 9.0
-    },
-    {
-     "texto": "Pacífico.",
-     "inicio": 9.0,
-     "fin": 9.74
-    }
-   ],
-   "inicio": 4.08,
-   "fin": 9.74
-  },
-  {
-   "texto": "Se llama El Niño: el agua del Pacífico, sobre el ecuador, se calienta más de lo normal.",
-   "palabras": [
-    {
-     "texto": "Se",
-     "inicio": 10.08,
-     "fin": 10.42
-    },
-    {
-     "texto": "llama",
-     "inicio": 10.42,
-     "fin": 10.68
-    },
-    {
-     "texto": "El",
-     "inicio": 10.68,
-     "fin": 11.18
-    },
-    {
-     "texto": "Niño:",
-     "inicio": 11.18,
-     "fin": 11.64
-    },
-    {
-     "texto": "el",
-     "inicio": 12.12,
-     "fin": 12.3
-    },
-    {
-     "texto": "agua",
-     "inicio": 12.3,
-     "fin": 12.46
-    },
-    {
-     "texto": "del",
-     "inicio": 12.46,
-     "fin": 12.6
-    },
-    {
-     "texto": "Pacífico,",
-     "inicio": 12.6,
-     "fin": 13.2
-    },
-    {
-     "texto": "sobre",
-     "inicio": 13.28,
-     "fin": 13.5
-    },
-    {
-     "texto": "el",
-     "inicio": 13.5,
-     "fin": 13.66
-    },
-    {
-     "texto": "ecuador,",
-     "inicio": 13.66,
-     "fin": 13.9
-    },
-    {
-     "texto": "se",
-     "inicio": 14.4,
-     "fin": 14.5
-    },
-    {
-     "texto": "calienta",
-     "inicio": 14.5,
-     "fin": 14.98
-    },
-    {
-     "texto": "más",
-     "inicio": 14.98,
-     "fin": 15.3
-    },
-    {
-     "texto": "de",
-     "inicio": 15.3,
-     "fin": 15.44
-    },
-    {
-     "texto": "lo",
-     "inicio": 15.44,
-     "fin": 15.52
-    },
-    {
-     "texto": "normal.",
-     "inicio": 15.52,
-     "fin": 15.84
-    }
-   ],
-   "inicio": 10.08,
-   "fin": 15.84
-  },
-  {
-   "texto": "Y ese calor cambia cómo circula la atmósfera, y con eso, dónde llueve más y dónde menos.",
-   "palabras": [
-    {
-     "texto": "Y",
-     "inicio": 16.36,
-     "fin": 16.46
-    },
-    {
-     "texto": "ese",
-     "inicio": 16.46,
-     "fin": 16.62
-    },
-    {
-     "texto": "calor",
-     "inicio": 16.62,
-     "fin": 16.86
-    },
-    {
-     "texto": "cambia",
-     "inicio": 16.86,
-     "fin": 17.34
-    },
-    {
-     "texto": "cómo",
-     "inicio": 17.34,
-     "fin": 17.64
-    },
-    {
-     "texto": "circula",
-     "inicio": 17.64,
-     "fin": 18.06
-    },
-    {
-     "texto": "la",
-     "inicio": 18.06,
-     "fin": 18.18
-    },
-    {
-     "texto": "atmósfera,",
-     "inicio": 18.18,
-     "fin": 18.58
-    },
-    {
-     "texto": "y",
-     "inicio": 19.04,
-     "fin": 19.2
-    },
-    {
-     "texto": "con",
-     "inicio": 19.2,
-     "fin": 19.34
-    },
-    {
-     "texto": "eso,",
-     "inicio": 19.34,
-     "fin": 19.56
-    },
-    {
-     "texto": "dónde",
-     "inicio": 20.0,
-     "fin": 20.32
-    },
-    {
-     "texto": "llueve",
-     "inicio": 20.32,
-     "fin": 20.64
-    },
-    {
-     "texto": "más",
-     "inicio": 20.64,
-     "fin": 20.9
-    },
-    {
-     "texto": "y",
-     "inicio": 20.9,
-     "fin": 21.38
-    },
-    {
-     "texto": "dónde",
-     "inicio": 21.38,
-     "fin": 21.54
-    },
-    {
-     "texto": "menos.",
-     "inicio": 21.54,
-     "fin": 21.82
-    }
-   ],
-   "inicio": 16.36,
-   "fin": 21.82
-  },
-  {
-   "texto": "El Centro de Predicción del Clima de Estados Unidos midió hace poco unos dos grados de más en la zona clave del Pacífico.",
-   "palabras": [
-    {
-     "texto": "El",
-     "inicio": 22.52,
-     "fin": 22.84
-    },
-    {
-     "texto": "Centro",
-     "inicio": 22.84,
-     "fin": 23.16
-    },
-    {
-     "texto": "de",
-     "inicio": 23.16,
-     "fin": 23.3
-    },
-    {
-     "texto": "Predicción",
-     "inicio": 23.3,
-     "fin": 23.8
-    },
-    {
-     "texto": "del",
-     "inicio": 23.8,
-     "fin": 23.96
-    },
-    {
-     "texto": "Clima",
-     "inicio": 23.96,
-     "fin": 24.32
-    },
-    {
-     "texto": "de",
-     "inicio": 24.32,
-     "fin": 24.44
-    },
-    {
-     "texto": "Estados",
-     "inicio": 24.44,
-     "fin": 24.62
-    },
-    {
-     "texto": "Unidos",
-     "inicio": 24.62,
-     "fin": 25.08
-    },
-    {
-     "texto": "midió",
-     "inicio": 25.08,
-     "fin": 25.86
-    },
-    {
-     "texto": "hace",
-     "inicio": 25.86,
-     "fin": 26.06
-    },
-    {
-     "texto": "poco",
-     "inicio": 26.06,
-     "fin": 26.38
-    },
-    {
-     "texto": "unos",
-     "inicio": 26.38,
-     "fin": 26.8
-    },
-    {
-     "texto": "dos",
-     "inicio": 26.8,
-     "fin": 27.26
-    },
-    {
-     "texto": "grados",
-     "inicio": 27.26,
-     "fin": 27.76
-    },
-    {
-     "texto": "de",
-     "inicio": 27.76,
-     "fin": 27.88
-    },
-    {
-     "texto": "más",
-     "inicio": 27.88,
-     "fin": 28.16
-    },
-    {
-     "texto": "en",
-     "inicio": 28.16,
-     "fin": 28.66
-    },
-    {
-     "texto": "la",
-     "inicio": 28.66,
-     "fin": 28.78
-    },
-    {
-     "texto": "zona",
-     "inicio": 28.78,
-     "fin": 29.0
-    },
-    {
-     "texto": "clave",
-     "inicio": 29.0,
-     "fin": 29.5
-    },
-    {
-     "texto": "del",
-     "inicio": 29.5,
-     "fin": 29.7
-    },
-    {
-     "texto": "Pacífico.",
-     "inicio": 29.7,
-     "fin": 30.5
-    }
-   ],
-   "inicio": 22.52,
-   "fin": 30.5
-  },
-  {
-   "texto": "Y calcula que este El Niño seguirá de fuerte a muy fuerte, probablemente, hasta el verano.",
-   "palabras": [
-    {
-     "texto": "Y",
-     "inicio": 30.58,
-     "fin": 30.8
-    },
-    {
-     "texto": "calcula",
-     "inicio": 30.8,
-     "fin": 31.24
-    },
-    {
-     "texto": "que",
-     "inicio": 31.24,
-     "fin": 31.4
+     "inicio": 0.5,
+     "fin": 0.6
     },
     {
      "texto": "este",
-     "inicio": 31.4,
-     "fin": 31.7
+     "inicio": 0.6,
+     "fin": 0.78
     },
     {
-     "texto": "El",
-     "inicio": 31.7,
-     "fin": 32.16
+     "texto": "año",
+     "inicio": 0.78,
+     "fin": 1.06
     },
     {
-     "texto": "Niño",
-     "inicio": 32.16,
-     "fin": 32.6
-    },
-    {
-     "texto": "seguirá",
-     "inicio": 32.6,
-     "fin": 33.32
-    },
-    {
-     "texto": "de",
-     "inicio": 33.32,
-     "fin": 33.42
-    },
-    {
-     "texto": "fuerte",
-     "inicio": 33.42,
-     "fin": 33.84
-    },
-    {
-     "texto": "a",
-     "inicio": 33.84,
-     "fin": 34.18
-    },
-    {
-     "texto": "muy",
-     "inicio": 34.18,
-     "fin": 34.5
-    },
-    {
-     "texto": "fuerte,",
-     "inicio": 34.5,
-     "fin": 34.92
-    },
-    {
-     "texto": "probablemente,",
-     "inicio": 35.32,
-     "fin": 35.94
-    },
-    {
-     "texto": "hasta",
-     "inicio": 36.32,
-     "fin": 36.56
-    },
-    {
-     "texto": "el",
-     "inicio": 36.56,
-     "fin": 36.68
-    },
-    {
-     "texto": "verano.",
-     "inicio": 36.68,
-     "fin": 36.98
-    }
-   ],
-   "inicio": 30.58,
-   "fin": 36.98
-  },
-  {
-   "texto": "Acá, el Servicio Meteorológico Nacional confirmó que ya está activo.",
-   "palabras": [
-    {
-     "texto": "Acá,",
-     "inicio": 37.36,
-     "fin": 37.8
-    },
-    {
-     "texto": "el",
-     "inicio": 37.8,
-     "fin": 38.16
-    },
-    {
-     "texto": "Servicio",
-     "inicio": 38.16,
-     "fin": 38.56
-    },
-    {
-     "texto": "Meteorológico",
-     "inicio": 38.56,
-     "fin": 39.22
-    },
-    {
-     "texto": "Nacional",
-     "inicio": 39.22,
-     "fin": 39.66
-    },
-    {
-     "texto": "confirmó",
-     "inicio": 39.66,
-     "fin": 40.54
-    },
-    {
-     "texto": "que",
-     "inicio": 40.54,
-     "fin": 40.66
-    },
-    {
-     "texto": "ya",
-     "inicio": 40.66,
-     "fin": 40.86
-    },
-    {
-     "texto": "está",
-     "inicio": 40.86,
-     "fin": 40.98
-    },
-    {
-     "texto": "activo.",
-     "inicio": 40.98,
-     "fin": 41.48
-    }
-   ],
-   "inicio": 37.36,
-   "fin": 41.48
-  },
-  {
-   "texto": "Y para octubre, noviembre y diciembre pronostica más lluvia que lo normal en el Litoral, Córdoba, La Pampa y el oeste de Buenos Aires.",
-   "palabras": [
-    {
-     "texto": "Y",
-     "inicio": 41.84,
-     "fin": 42.02
-    },
-    {
-     "texto": "para",
-     "inicio": 42.02,
-     "fin": 42.22
-    },
-    {
-     "texto": "octubre,",
-     "inicio": 42.22,
-     "fin": 42.8
-    },
-    {
-     "texto": "noviembre",
-     "inicio": 42.94,
-     "fin": 43.44
-    },
-    {
-     "texto": "y",
-     "inicio": 43.44,
-     "fin": 43.62
-    },
-    {
-     "texto": "diciembre",
-     "inicio": 43.62,
-     "fin": 44.1
-    },
-    {
-     "texto": "pronostica",
-     "inicio": 44.1,
-     "fin": 45.14
+     "texto": "llueve",
+     "inicio": 1.06,
+     "fin": 1.68
     },
     {
      "texto": "más",
-     "inicio": 45.14,
-     "fin": 45.48
-    },
-    {
-     "texto": "lluvia",
-     "inicio": 45.48,
-     "fin": 45.78
+     "inicio": 1.68,
+     "fin": 1.9
     },
     {
      "texto": "que",
-     "inicio": 45.78,
-     "fin": 45.88
+     "inicio": 1.9,
+     "fin": 2.04
     },
     {
-     "texto": "lo",
-     "inicio": 45.88,
-     "fin": 45.98
-    },
-    {
-     "texto": "normal",
-     "inicio": 45.98,
-     "fin": 46.26
-    },
-    {
-     "texto": "en",
-     "inicio": 46.26,
-     "fin": 46.46
-    },
-    {
-     "texto": "el",
-     "inicio": 46.46,
-     "fin": 46.56
-    },
-    {
-     "texto": "Litoral,",
-     "inicio": 46.56,
-     "fin": 47.0
-    },
-    {
-     "texto": "Córdoba,",
-     "inicio": 47.3,
-     "fin": 47.84
-    },
-    {
-     "texto": "La",
-     "inicio": 48.24,
-     "fin": 48.3
-    },
-    {
-     "texto": "Pampa",
-     "inicio": 48.3,
-     "fin": 48.64
-    },
-    {
-     "texto": "y",
-     "inicio": 48.64,
-     "fin": 49.28
-    },
-    {
-     "texto": "el",
-     "inicio": 49.28,
-     "fin": 49.4
-    },
-    {
-     "texto": "oeste",
-     "inicio": 49.4,
-     "fin": 49.6
-    },
-    {
-     "texto": "de",
-     "inicio": 49.6,
-     "fin": 49.76
-    },
-    {
-     "texto": "Buenos",
-     "inicio": 49.76,
-     "fin": 49.92
-    },
-    {
-     "texto": "Aires.",
-     "inicio": 49.92,
-     "fin": 50.22
+     "texto": "nunca?",
+     "inicio": 2.04,
+     "fin": 2.36
     }
    ],
-   "inicio": 41.84,
-   "fin": 50.22
+   "inicio": 0.0,
+   "fin": 2.36
   },
   {
-   "texto": "Ojo: es una probabilidad, no una garantía. No te dice cuánta agua cae en tu ciudad ni que llueva todos los días.",
+   "texto": "No es tu imaginación, y gran parte de la explicación está en el océano Pacífico.",
    "palabras": [
     {
-     "texto": "Ojo:",
-     "inicio": 50.76,
-     "fin": 51.16
+     "texto": "No",
+     "inicio": 2.9,
+     "fin": 3.18
     },
     {
      "texto": "es",
-     "inicio": 51.6,
-     "fin": 51.68
-    },
-    {
-     "texto": "una",
-     "inicio": 51.68,
-     "fin": 51.82
-    },
-    {
-     "texto": "probabilidad,",
-     "inicio": 51.82,
-     "fin": 52.56
-    },
-    {
-     "texto": "no",
-     "inicio": 52.88,
-     "fin": 53.08
-    },
-    {
-     "texto": "una",
-     "inicio": 53.08,
-     "fin": 53.26
-    },
-    {
-     "texto": "garantía.",
-     "inicio": 53.26,
-     "fin": 53.76
-    },
-    {
-     "texto": "No",
-     "inicio": 54.2,
-     "fin": 54.38
-    },
-    {
-     "texto": "te",
-     "inicio": 54.38,
-     "fin": 54.5
-    },
-    {
-     "texto": "dice",
-     "inicio": 54.5,
-     "fin": 54.74
-    },
-    {
-     "texto": "cuánta",
-     "inicio": 54.74,
-     "fin": 55.38
-    },
-    {
-     "texto": "agua",
-     "inicio": 55.38,
-     "fin": 55.62
-    },
-    {
-     "texto": "cae",
-     "inicio": 55.62,
-     "fin": 55.94
-    },
-    {
-     "texto": "en",
-     "inicio": 55.94,
-     "fin": 56.04
+     "inicio": 3.18,
+     "fin": 3.34
     },
     {
      "texto": "tu",
-     "inicio": 56.04,
-     "fin": 56.16
+     "inicio": 3.34,
+     "fin": 3.38
     },
     {
-     "texto": "ciudad",
-     "inicio": 56.16,
-     "fin": 56.52
+     "texto": "imaginación,",
+     "inicio": 3.38,
+     "fin": 4.0
     },
     {
-     "texto": "ni",
-     "inicio": 56.52,
-     "fin": 57.08
+     "texto": "y",
+     "inicio": 4.4,
+     "fin": 4.76
     },
     {
-     "texto": "que",
-     "inicio": 57.08,
-     "fin": 57.24
+     "texto": "gran",
+     "inicio": 4.76,
+     "fin": 5.0
     },
     {
-     "texto": "llueva",
-     "inicio": 57.24,
-     "fin": 57.6
-    },
-    {
-     "texto": "todos",
-     "inicio": 57.6,
-     "fin": 57.8
-    },
-    {
-     "texto": "los",
-     "inicio": 57.8,
-     "fin": 58.02
-    },
-    {
-     "texto": "días.",
-     "inicio": 58.02,
-     "fin": 58.24
-    }
-   ],
-   "inicio": 50.76,
-   "fin": 58.24
-  },
-  {
-   "texto": "Y no es un clima loco: según la agencia del clima de Estados Unidos, El Niño vuelve, en promedio, cada dos a siete años.",
-   "palabras": [
-    {
-     "texto": "Y",
-     "inicio": 58.82,
-     "fin": 58.98
-    },
-    {
-     "texto": "no",
-     "inicio": 58.98,
-     "fin": 59.14
-    },
-    {
-     "texto": "es",
-     "inicio": 59.14,
-     "fin": 59.34
-    },
-    {
-     "texto": "un",
-     "inicio": 59.34,
-     "fin": 59.5
-    },
-    {
-     "texto": "clima",
-     "inicio": 59.5,
-     "fin": 59.84
-    },
-    {
-     "texto": "loco:",
-     "inicio": 59.84,
-     "fin": 60.24
-    },
-    {
-     "texto": "según",
-     "inicio": 60.72,
-     "fin": 61.08
-    },
-    {
-     "texto": "la",
-     "inicio": 61.08,
-     "fin": 61.18
-    },
-    {
-     "texto": "agencia",
-     "inicio": 61.18,
-     "fin": 61.44
-    },
-    {
-     "texto": "del",
-     "inicio": 61.44,
-     "fin": 61.62
-    },
-    {
-     "texto": "clima",
-     "inicio": 61.62,
-     "fin": 61.96
+     "texto": "parte",
+     "inicio": 5.0,
+     "fin": 5.4
     },
     {
      "texto": "de",
-     "inicio": 61.96,
-     "fin": 62.06
+     "inicio": 5.4,
+     "fin": 5.58
     },
     {
-     "texto": "Estados",
-     "inicio": 62.06,
-     "fin": 62.26
+     "texto": "la",
+     "inicio": 5.58,
+     "fin": 5.68
     },
     {
-     "texto": "Unidos,",
-     "inicio": 62.26,
-     "fin": 62.66
+     "texto": "explicación",
+     "inicio": 5.68,
+     "fin": 6.26
     },
     {
-     "texto": "El",
-     "inicio": 63.32,
-     "fin": 63.4
-    },
-    {
-     "texto": "Niño",
-     "inicio": 63.4,
-     "fin": 63.72
-    },
-    {
-     "texto": "vuelve,",
-     "inicio": 63.72,
-     "fin": 64.12
+     "texto": "está",
+     "inicio": 6.26,
+     "fin": 6.54
     },
     {
      "texto": "en",
-     "inicio": 64.12,
-     "fin": 64.18
+     "inicio": 6.54,
+     "fin": 6.68
     },
     {
-     "texto": "promedio,",
-     "inicio": 64.18,
-     "fin": 64.7
+     "texto": "el",
+     "inicio": 6.68,
+     "fin": 6.78
     },
     {
-     "texto": "cada",
-     "inicio": 64.7,
-     "fin": 65.04
+     "texto": "océano",
+     "inicio": 6.78,
+     "fin": 7.18
+    },
+    {
+     "texto": "Pacífico.",
+     "inicio": 7.18,
+     "fin": 7.88
+    }
+   ],
+   "inicio": 2.9,
+   "fin": 7.88
+  },
+  {
+   "texto": "Allá, el agua está dos grados más caliente de lo normal.",
+   "palabras": [
+    {
+     "texto": "Allá,",
+     "inicio": 8.32,
+     "fin": 8.72
+    },
+    {
+     "texto": "el",
+     "inicio": 8.84,
+     "fin": 8.9
+    },
+    {
+     "texto": "agua",
+     "inicio": 8.9,
+     "fin": 9.06
+    },
+    {
+     "texto": "está",
+     "inicio": 9.06,
+     "fin": 9.32
     },
     {
      "texto": "dos",
-     "inicio": 65.04,
-     "fin": 65.44
+     "inicio": 9.32,
+     "fin": 9.68
+    },
+    {
+     "texto": "grados",
+     "inicio": 9.68,
+     "fin": 10.06
+    },
+    {
+     "texto": "más",
+     "inicio": 10.06,
+     "fin": 10.3
+    },
+    {
+     "texto": "caliente",
+     "inicio": 10.3,
+     "fin": 10.68
+    },
+    {
+     "texto": "de",
+     "inicio": 10.68,
+     "fin": 10.88
+    },
+    {
+     "texto": "lo",
+     "inicio": 10.88,
+     "fin": 10.98
+    },
+    {
+     "texto": "normal.",
+     "inicio": 10.98,
+     "fin": 11.26
+    }
+   ],
+   "inicio": 8.32,
+   "fin": 11.26
+  },
+  {
+   "texto": "Eso es El Niño, y cambia por dónde viaja la lluvia.",
+   "palabras": [
+    {
+     "texto": "Eso",
+     "inicio": 11.86,
+     "fin": 12.06
+    },
+    {
+     "texto": "es",
+     "inicio": 12.06,
+     "fin": 12.3
+    },
+    {
+     "texto": "El",
+     "inicio": 12.3,
+     "fin": 12.72
+    },
+    {
+     "texto": "Niño,",
+     "inicio": 12.72,
+     "fin": 13.16
+    },
+    {
+     "texto": "y",
+     "inicio": 13.56,
+     "fin": 13.72
+    },
+    {
+     "texto": "cambia",
+     "inicio": 13.72,
+     "fin": 14.12
+    },
+    {
+     "texto": "por",
+     "inicio": 14.12,
+     "fin": 14.36
+    },
+    {
+     "texto": "dónde",
+     "inicio": 14.36,
+     "fin": 14.6
+    },
+    {
+     "texto": "viaja",
+     "inicio": 14.6,
+     "fin": 14.9
+    },
+    {
+     "texto": "la",
+     "inicio": 14.9,
+     "fin": 15.02
+    },
+    {
+     "texto": "lluvia.",
+     "inicio": 15.02,
+     "fin": 15.36
+    }
+   ],
+   "inicio": 11.86,
+   "fin": 15.36
+  },
+  {
+   "texto": "El pronóstico: más lluvia de lo normal en el Litoral, Córdoba, La Pampa y el oeste bonaerense.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 15.84,
+     "fin": 16.0
+    },
+    {
+     "texto": "pronóstico:",
+     "inicio": 16.0,
+     "fin": 16.52
+    },
+    {
+     "texto": "más",
+     "inicio": 17.16,
+     "fin": 17.28
+    },
+    {
+     "texto": "lluvia",
+     "inicio": 17.28,
+     "fin": 17.62
+    },
+    {
+     "texto": "de",
+     "inicio": 17.62,
+     "fin": 17.72
+    },
+    {
+     "texto": "lo",
+     "inicio": 17.72,
+     "fin": 17.82
+    },
+    {
+     "texto": "normal",
+     "inicio": 17.82,
+     "fin": 18.12
+    },
+    {
+     "texto": "en",
+     "inicio": 18.12,
+     "fin": 18.36
+    },
+    {
+     "texto": "el",
+     "inicio": 18.36,
+     "fin": 18.48
+    },
+    {
+     "texto": "Litoral,",
+     "inicio": 18.48,
+     "fin": 18.94
+    },
+    {
+     "texto": "Córdoba,",
+     "inicio": 19.12,
+     "fin": 19.5
+    },
+    {
+     "texto": "La",
+     "inicio": 19.86,
+     "fin": 19.96
+    },
+    {
+     "texto": "Pampa",
+     "inicio": 19.96,
+     "fin": 20.3
+    },
+    {
+     "texto": "y",
+     "inicio": 20.3,
+     "fin": 20.56
+    },
+    {
+     "texto": "el",
+     "inicio": 20.56,
+     "fin": 20.68
+    },
+    {
+     "texto": "oeste",
+     "inicio": 20.68,
+     "fin": 20.96
+    },
+    {
+     "texto": "bonaerense.",
+     "inicio": 20.96,
+     "fin": 21.6
+    }
+   ],
+   "inicio": 15.84,
+   "fin": 21.6
+  },
+  {
+   "texto": "Y probablemente siga fuerte hasta el verano.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 22.16,
+     "fin": 22.3
+    },
+    {
+     "texto": "probablemente",
+     "inicio": 22.3,
+     "fin": 23.04
+    },
+    {
+     "texto": "siga",
+     "inicio": 23.04,
+     "fin": 23.32
+    },
+    {
+     "texto": "fuerte",
+     "inicio": 23.32,
+     "fin": 23.7
+    },
+    {
+     "texto": "hasta",
+     "inicio": 23.7,
+     "fin": 23.84
+    },
+    {
+     "texto": "el",
+     "inicio": 23.84,
+     "fin": 23.96
+    },
+    {
+     "texto": "verano.",
+     "inicio": 23.96,
+     "fin": 24.28
+    }
+   ],
+   "inicio": 22.16,
+   "fin": 24.28
+  },
+  {
+   "texto": "Ojo: no es el clima loco. El Niño vuelve cada dos a siete años, en promedio.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 24.74,
+     "fin": 25.16
+    },
+    {
+     "texto": "no",
+     "inicio": 25.66,
+     "fin": 25.88
+    },
+    {
+     "texto": "es",
+     "inicio": 25.88,
+     "fin": 26.1
+    },
+    {
+     "texto": "el",
+     "inicio": 26.1,
+     "fin": 26.22
+    },
+    {
+     "texto": "clima",
+     "inicio": 26.22,
+     "fin": 26.48
+    },
+    {
+     "texto": "loco.",
+     "inicio": 26.48,
+     "fin": 26.82
+    },
+    {
+     "texto": "El",
+     "inicio": 27.38,
+     "fin": 27.54
+    },
+    {
+     "texto": "Niño",
+     "inicio": 27.54,
+     "fin": 27.82
+    },
+    {
+     "texto": "vuelve",
+     "inicio": 27.82,
+     "fin": 28.18
+    },
+    {
+     "texto": "cada",
+     "inicio": 28.18,
+     "fin": 28.48
+    },
+    {
+     "texto": "dos",
+     "inicio": 28.48,
+     "fin": 29.06
     },
     {
      "texto": "a",
-     "inicio": 65.44,
-     "fin": 65.68
+     "inicio": 29.06,
+     "fin": 29.26
     },
     {
      "texto": "siete",
-     "inicio": 65.68,
-     "fin": 65.92
+     "inicio": 29.26,
+     "fin": 29.54
     },
     {
-     "texto": "años.",
-     "inicio": 65.92,
-     "fin": 66.28
+     "texto": "años,",
+     "inicio": 29.54,
+     "fin": 29.92
+    },
+    {
+     "texto": "en",
+     "inicio": 30.36,
+     "fin": 30.44
+    },
+    {
+     "texto": "promedio.",
+     "inicio": 30.44,
+     "fin": 31.06
     }
    ],
-   "inicio": 58.82,
-   "fin": 66.28
+   "inicio": 24.74,
+   "fin": 31.06
   },
   {
    "texto": "Mandáselo a ese que dice que el clima está loco.",
    "palabras": [
     {
      "texto": "Mandáselo",
-     "inicio": 66.94,
-     "fin": 67.42
+     "inicio": 31.52,
+     "fin": 32.04
     },
     {
      "texto": "a",
-     "inicio": 67.42,
-     "fin": 67.48
+     "inicio": 32.04,
+     "fin": 32.1
     },
     {
      "texto": "ese",
-     "inicio": 67.48,
-     "fin": 67.66
+     "inicio": 32.1,
+     "fin": 32.28
     },
     {
      "texto": "que",
-     "inicio": 67.66,
-     "fin": 67.82
+     "inicio": 32.28,
+     "fin": 32.46
     },
     {
      "texto": "dice",
-     "inicio": 67.82,
-     "fin": 68.04
+     "inicio": 32.46,
+     "fin": 32.7
     },
     {
      "texto": "que",
-     "inicio": 68.04,
-     "fin": 68.22
+     "inicio": 32.7,
+     "fin": 32.9
     },
     {
      "texto": "el",
-     "inicio": 68.22,
-     "fin": 68.32
+     "inicio": 32.9,
+     "fin": 33.0
     },
     {
      "texto": "clima",
-     "inicio": 68.32,
-     "fin": 68.58
+     "inicio": 33.0,
+     "fin": 33.34
     },
     {
      "texto": "está",
-     "inicio": 68.58,
-     "fin": 68.66
+     "inicio": 33.34,
+     "fin": 33.52
     },
     {
      "texto": "loco.",
-     "inicio": 68.66,
-     "fin": 68.98
+     "inicio": 33.52,
+     "fin": 33.88
     }
    ],
-   "inicio": 66.94,
-   "fin": 68.98
+   "inicio": 31.52,
+   "fin": 33.88
   }
  ]
 }

@@ -4,7 +4,7 @@ La producción nocturna toma la primera idea **sin marcar** de arriba hacia abaj
 Ninguna idea de acá está verificada: cada una se investiga y se chequea antes de hacerse.
 
 ## Pedidos de Mateo (prioridad máxima: van antes que todo, salvo un 🔥 del radar)
-- [ ] El Niño, VERSIÓN CORTA (rehacer el 016, que quedó apartado por largo y aburrido): 30–40 s, UNA sola idea ("el Pacífico se calienta → llueve más acá"), un solo dato con número, todo a la vista en un mapa que se transforma, golpes de zoom y cortes cada 1–2 s. Se puede reusar el chequeo de datos del 016. Cierre para enviar: "mandáselo a ese que dice que el clima está loco".
+- [usada → 016-el-nino-clima (versión corta)] El Niño, VERSIÓN CORTA (rehacer el 016, que quedó apartado por largo y aburrido): 30–40 s, UNA sola idea ("el Pacífico se calienta → llueve más acá"), un solo dato con número, todo a la vista en un mapa que se transforma, golpes de zoom y cortes cada 1–2 s. Se puede reusar el chequeo de datos del 016. Cierre para enviar: "mandáselo a ese que dice que el clima está loco".
 - [usada → 016-el-nino-clima] El Niño en Argentina y cómo viene el clima: qué es (el Pacífico más caliente cambia los vientos), por qué trae más lluvia y tormentas al Litoral, el NEA y Buenos Aires, y qué dice el pronóstico oficial para este verano. Verificar primero el estado ACTUAL (SMN / NOAA, último informe ENSO): si no hay El Niño activo o previsto, el video es "¿viene El Niño o La Niña?" con lo que diga el informe. Ángulo propio y cercano ("¿por qué este año llueve así en tu ciudad?"), no el de @posta.explica, que ya hizo El Niño. Cierre pensado para que lo manden: "mandáselo a ese que dice que el clima está loco".
 
 ## Verano / casa / plata (prioridad: llega el calor)

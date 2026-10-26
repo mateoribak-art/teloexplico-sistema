@@ -1,22 +1,44 @@
 {
-  "titulo": "¿Por qué este año llueve así? El Niño",
-  "fuentes": [
-    "Servicio Meteorológico Nacional (SMN): informe de El Niño, fase cálida activa, intensidad fuerte o muy fuerte esperada",
-    "Centro de Predicción del Clima de EE.UU. (NOAA CPC), discusión ENSO del 8 de octubre de 2026: +2,1 °C en Niño-3.4; El Niño fuerte a muy fuerte probable hasta enero-marzo de 2027",
-    "SMN: pronóstico trimestral octubre-noviembre-diciembre 2026 (lluvias superiores a lo normal en Litoral, Córdoba, La Pampa y oeste de Buenos Aires)",
-    "NOAA: El Niño ocurre cada dos a siete años"
-  ],
-  "frases": [
-    {"texto": "¿Te parece que esta primavera llueve más que otros años?", "estilo": "Intriga, como quien va a revelar algo que todos viven."},
-    {"texto": "Una parte de la explicación no está en tu ciudad. Está en el océano Pacífico.", "estilo": "Seco y contundente, con media sonrisa."},
-    {"texto": "Se llama El Niño: el agua del Pacífico, sobre el ecuador, se calienta más de lo normal.", "estilo": "Explicando simple, como contándole a un amigo."},
-    {"texto": "Y ese calor cambia cómo circula la atmósfera, y con eso, dónde llueve más y dónde menos.", "estilo": "Mecanismo, claro y visual."},
-    {"texto": "El Centro de Predicción del Clima de Estados Unidos midió hace poco unos dos grados de más en la zona clave del Pacífico.", "estilo": "Dato fuerte, enfático."},
-    {"texto": "Y calcula que este El Niño seguirá de fuerte a muy fuerte, probablemente, hasta el verano.", "estilo": "Informativo, con peso."},
-    {"texto": "Acá, el Servicio Meteorológico Nacional confirmó que ya está activo.", "estilo": "Directo, cercano."},
-    {"texto": "Y para octubre, noviembre y diciembre pronostica más lluvia que lo normal en el Litoral, Córdoba, La Pampa y el oeste de Buenos Aires.", "estilo": "Informativo, con ritmo."},
-    {"texto": "Ojo: es una probabilidad, no una garantía. No te dice cuánta agua cae en tu ciudad ni que llueva todos los días.", "estilo": "Advertencia honesta, tono serio pero amable."},
-    {"texto": "Y no es un clima loco: según la agencia del clima de Estados Unidos, El Niño vuelve, en promedio, cada dos a siete años.", "estilo": "Remate que desarma el mito, con media sonrisa."},
-    {"texto": "Mandáselo a ese que dice que el clima está loco.", "estilo": "Cómplice, con humor argentino."}
-  ]
+ "titulo": "¿Por qué este año llueve así? El Niño",
+ "fuentes": [
+  "Servicio Meteorológico Nacional (SMN): informe de El Niño, fase cálida activa, intensidad fuerte o muy fuerte esperada",
+  "Centro de Predicción del Clima de EE.UU. (NOAA CPC), discusión ENSO del 8 de octubre de 2026: +2,1 °C en Niño-3.4; El Niño fuerte a muy fuerte probable hasta enero-marzo de 2027",
+  "SMN: pronóstico trimestral octubre-noviembre-diciembre 2026 (lluvias superiores a lo normal en Litoral, Córdoba, La Pampa y oeste de Buenos Aires)",
+  "NOAA: El Niño ocurre cada dos a siete años"
+ ],
+ "frases": [
+  {
+   "texto": "¿Sentís que este año llueve más que nunca?",
+   "estilo": "pregunta cómplice, intrigante"
+  },
+  {
+   "texto": "No es tu imaginación, y gran parte de la explicación está en el océano Pacífico.",
+   "estilo": "revelación con sorpresa"
+  },
+  {
+   "texto": "Allá, el agua está dos grados más caliente de lo normal.",
+   "estilo": "ritmo ágil y con energía, como contándole algo increíble a un amigo"
+  },
+  {
+   "texto": "Eso es El Niño, y cambia por dónde viaja la lluvia.",
+   "estilo": "ritmo ágil y con energía, como contándole algo increíble a un amigo"
+  },
+  {
+   "texto": "El pronóstico: más lluvia de lo normal en el Litoral, Córdoba, La Pampa y el oeste bonaerense.",
+   "estilo": "ritmo ágil y con energía, como contándole algo increíble a un amigo"
+  },
+  {
+   "texto": "Y probablemente siga fuerte hasta el verano.",
+   "estilo": "ritmo ágil y con energía, como contándole algo increíble a un amigo"
+  },
+  {
+   "texto": "Ojo: no es el clima loco. El Niño vuelve cada dos a siete años, en promedio.",
+   "estilo": "aclaración tranquila, con humor"
+  },
+  {
+   "texto": "Mandáselo a ese que dice que el clima está loco.",
+   "estilo": "cierre cómplice y gracioso"
+  }
+ ],
+ "version": "corta (26/10): la de 70 s aburrió"
 }

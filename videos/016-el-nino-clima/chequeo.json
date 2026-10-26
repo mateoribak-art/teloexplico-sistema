@@ -1,72 +1,73 @@
 {
-  "veredicto": "aprobado",
-  "motivo": "Todas las cifras y atribuciones coinciden con las fuentes: NOAA CPC (discusión del 8-oct-2026: +2,1 °C en Niño-3.4; fuerte a muy fuerte probable hasta ene-mar 2027), SMN (El Niño activo; pronóstico trimestral OND 2026 del 30-sep con lluvias superiores a lo normal en Litoral, Córdoba, La Pampa y oeste bonaerense, entre otras regiones) y NOAA (El Niño ocurre en promedio cada dos a siete años). No hay afirmaciones falsas ni dudosas, y ninguna cifra queda sin fuente. Salvedades: (1) no pude abrir el PDF del SMN (403), así que el pronóstico trimestral y la confirmación se contrastaron con la ficha del repositorio del SMN y con varios medios que citan al SMN (Perfil, La Capital MDP, Diario Panorama, La Gaceta); (2) sugerencia opcional, no bloqueante: NOAA dice 'en promedio', y la frase 'vuelve cada dos a siete años' suena a calendario fijo; conviene 'vuelve, en promedio, cada dos a siete años' o 'cada dos a siete años, más o menos'.",
-  "afirmaciones": [
-    {
-      "texto": "¿Te parece que esta primavera llueve más que otros años?",
-      "fuente": "Pregunta retórica, no afirma un hecho. El pronóstico del SMN (OND 2026) respalda lluvias superiores a lo normal en varias regiones.",
-      "estado": "verificada",
-      "matiz_ok": true
-    },
-    {
-      "texto": "Una parte de la explicación no está en tu ciudad. Está en el océano Pacífico.",
-      "fuente": "SMN, informes ENOS 2026; NOAA CPC. El Niño es un factor que sostiene el escenario de lluvias; 'una parte' ya limita el alcance.",
-      "estado": "verificada",
-      "matiz_ok": true
-    },
-    {
-      "texto": "Se llama El Niño: el agua del Pacífico, sobre el ecuador, se calienta más de lo normal.",
-      "fuente": "NOAA, 'Understanding El Niño' (https://www.noaa.gov/node/244) y NOAA CPC: calentamiento de la superficie del Pacífico ecuatorial central y este.",
-      "estado": "verificada",
-      "matiz_ok": true
-    },
-    {
-      "texto": "Y ese calor cambia cómo circula la atmósfera, y con eso, dónde llueve más y dónde menos.",
-      "fuente": "NOAA CPC / NOAA ENSO 101 (https://www.psl.noaa.gov/enso/enso_101.html): el acoplamiento océano-atmósfera altera la circulación y los patrones de lluvia.",
-      "estado": "verificada",
-      "matiz_ok": true
-    },
-    {
-      "texto": "El Centro de Predicción del Clima de Estados Unidos midió hace poco unos dos grados de más en la zona clave del Pacífico.",
-      "fuente": "NOAA CPC, discusión ENSO del 8-oct-2026 (https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml): anomalía de +2,1 °C en Niño-3.4. 'Unos dos grados' es redondeo correcto; 'hace poco' es válido (18 días).",
-      "estado": "verificada",
-      "matiz_ok": true
-    },
-    {
-      "texto": "Y calcula que este El Niño seguirá de fuerte a muy fuerte, probablemente, hasta el verano.",
-      "fuente": "NOAA CPC, 8-oct-2026: 'a strong-to-very strong El Niño likely through January-March 2027' (más de 83% de probabilidad de persistencia). Ene-mar es verano austral. 'Probablemente' conserva el matiz.",
-      "estado": "verificada",
-      "matiz_ok": true
-    },
-    {
-      "texto": "Acá, el Servicio Meteorológico Nacional confirmó que ya está activo.",
-      "fuente": "SMN, boletines ENOS de agosto, septiembre (nro. 1, 4-sep) y octubre 2026 (repositorio.smn.gob.ar: fase cálida de fuerte intensidad); La Gaceta: 'Confirmado: comenzó El Niño'. No se pudo abrir el PDF del SMN.",
-      "estado": "verificada",
-      "matiz_ok": true
-    },
-    {
-      "texto": "Y para octubre, noviembre y diciembre pronostica más lluvia que lo normal en el Litoral, Córdoba, La Pampa y el oeste de Buenos Aires.",
-      "fuente": "SMN, Pronóstico Climático Trimestral OND 2026, elaborado el 30-sep-2026 (https://www.smn.gob.ar/sites/default/files/pronostico_climatico_trimestral_102026.pdf, 403 al abrirlo). Perfil, La Capital MDP y Diario Panorama coinciden: Litoral (mayor probabilidad), oeste de Santa Fe, Córdoba, centro-sur de Cuyo, La Pampa, oeste bonaerense y noreste patagónico. La frase cita un subconjunto correcto.",
-      "estado": "verificada",
-      "matiz_ok": true
-    },
-    {
-      "texto": "Ojo: es una probabilidad, no una garantía. No te dice cuánta agua cae en tu ciudad ni que llueva todos los días.",
-      "fuente": "SMN: un pronóstico trimestral indica la categoría más probable, no días ni cantidades puntuales.",
-      "estado": "verificada",
-      "matiz_ok": true
-    },
-    {
-      "texto": "Y no es un clima loco: según la agencia del clima de Estados Unidos, El Niño vuelve cada dos a siete años.",
-      "fuente": "NOAA, 'Understanding El Niño' (https://www.noaa.gov/node/244): 'occurs on average every two to seven years'. La atribución es correcta. La frase omite 'en promedio'; mejora opcional.",
-      "estado": "verificada",
-      "matiz_ok": true
-    },
-    {
-      "texto": "Mandáselo a ese que dice que el clima está loco.",
-      "fuente": "No es una afirmación fáctica (llamado a compartir).",
-      "estado": "verificada",
-      "matiz_ok": true
-    }
-  ]
+ "veredicto": "aprobado",
+ "motivo": "Todas las cifras y atribuciones coinciden con las fuentes: NOAA CPC (discusión del 8-oct-2026: +2,1 °C en Niño-3.4; fuerte a muy fuerte probable hasta ene-mar 2027), SMN (El Niño activo; pronóstico trimestral OND 2026 del 30-sep con lluvias superiores a lo normal en Litoral, Córdoba, La Pampa y oeste bonaerense, entre otras regiones) y NOAA (El Niño ocurre en promedio cada dos a siete años). No hay afirmaciones falsas ni dudosas, y ninguna cifra queda sin fuente. Salvedades: (1) no pude abrir el PDF del SMN (403), así que el pronóstico trimestral y la confirmación se contrastaron con la ficha del repositorio del SMN y con varios medios que citan al SMN (Perfil, La Capital MDP, Diario Panorama, La Gaceta); (2) sugerencia opcional, no bloqueante: NOAA dice 'en promedio', y la frase 'vuelve cada dos a siete años' suena a calendario fijo; conviene 'vuelve, en promedio, cada dos a siete años' o 'cada dos a siete años, más o menos'.",
+ "afirmaciones": [
+  {
+   "texto": "¿Te parece que esta primavera llueve más que otros años?",
+   "fuente": "Pregunta retórica, no afirma un hecho. El pronóstico del SMN (OND 2026) respalda lluvias superiores a lo normal en varias regiones.",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "Una parte de la explicación no está en tu ciudad. Está en el océano Pacífico.",
+   "fuente": "SMN, informes ENOS 2026; NOAA CPC. El Niño es un factor que sostiene el escenario de lluvias; 'una parte' ya limita el alcance.",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "Se llama El Niño: el agua del Pacífico, sobre el ecuador, se calienta más de lo normal.",
+   "fuente": "NOAA, 'Understanding El Niño' (https://www.noaa.gov/node/244) y NOAA CPC: calentamiento de la superficie del Pacífico ecuatorial central y este.",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "Y ese calor cambia cómo circula la atmósfera, y con eso, dónde llueve más y dónde menos.",
+   "fuente": "NOAA CPC / NOAA ENSO 101 (https://www.psl.noaa.gov/enso/enso_101.html): el acoplamiento océano-atmósfera altera la circulación y los patrones de lluvia.",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "El Centro de Predicción del Clima de Estados Unidos midió hace poco unos dos grados de más en la zona clave del Pacífico.",
+   "fuente": "NOAA CPC, discusión ENSO del 8-oct-2026 (https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml): anomalía de +2,1 °C en Niño-3.4. 'Unos dos grados' es redondeo correcto; 'hace poco' es válido (18 días).",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "Y calcula que este El Niño seguirá de fuerte a muy fuerte, probablemente, hasta el verano.",
+   "fuente": "NOAA CPC, 8-oct-2026: 'a strong-to-very strong El Niño likely through January-March 2027' (más de 83% de probabilidad de persistencia). Ene-mar es verano austral. 'Probablemente' conserva el matiz.",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "Acá, el Servicio Meteorológico Nacional confirmó que ya está activo.",
+   "fuente": "SMN, boletines ENOS de agosto, septiembre (nro. 1, 4-sep) y octubre 2026 (repositorio.smn.gob.ar: fase cálida de fuerte intensidad); La Gaceta: 'Confirmado: comenzó El Niño'. No se pudo abrir el PDF del SMN.",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "Y para octubre, noviembre y diciembre pronostica más lluvia que lo normal en el Litoral, Córdoba, La Pampa y el oeste de Buenos Aires.",
+   "fuente": "SMN, Pronóstico Climático Trimestral OND 2026, elaborado el 30-sep-2026 (https://www.smn.gob.ar/sites/default/files/pronostico_climatico_trimestral_102026.pdf, 403 al abrirlo). Perfil, La Capital MDP y Diario Panorama coinciden: Litoral (mayor probabilidad), oeste de Santa Fe, Córdoba, centro-sur de Cuyo, La Pampa, oeste bonaerense y noreste patagónico. La frase cita un subconjunto correcto.",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "Ojo: es una probabilidad, no una garantía. No te dice cuánta agua cae en tu ciudad ni que llueva todos los días.",
+   "fuente": "SMN: un pronóstico trimestral indica la categoría más probable, no días ni cantidades puntuales.",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "Y no es un clima loco: según la agencia del clima de Estados Unidos, El Niño vuelve cada dos a siete años.",
+   "fuente": "NOAA, 'Understanding El Niño' (https://www.noaa.gov/node/244): 'occurs on average every two to seven years'. La atribución es correcta. La frase omite 'en promedio'; mejora opcional.",
+   "estado": "verificada",
+   "matiz_ok": true
+  },
+  {
+   "texto": "Mandáselo a ese que dice que el clima está loco.",
+   "fuente": "No es una afirmación fáctica (llamado a compartir).",
+   "estado": "verificada",
+   "matiz_ok": true
+  }
+ ],
+ "version_corta": "26/10: guion reducido a 8 frases con datos ya aprobados en este chequeo (+2 °C, pronóstico trimestral SMN, fuerte hasta el verano, cada 2 a 7 años en promedio). Frase 2 corregida: \"gran parte de la explicación\" (El Niño no es el único factor: también influyen bloqueos atmosféricos)."
 }

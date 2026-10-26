@@ -2,7 +2,7 @@ import React from "react";
 import { AbsoluteFill, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { Audio } from "@remotion/media";
 import tiemposJson from "../../../public/016-el-nino-clima/tiempos.json";
-import { C } from "../../kit/marca";
+import { C, display } from "../../kit/marca";
 import { clamp, entre, golpe, pop } from "../../kit/anim";
 import { reloj, type Tiempos } from "../../kit/tiempos";
 import { Etiqueta, Fondo, Fuente, Globo, Logo, Musica, Sello, Sfx, Subtitulos, Titulo, type Efecto } from "../../kit/piezas";
@@ -11,9 +11,9 @@ import { Portada } from "../../kit/Portada";
 import { Nube, Sol, Termometro } from "../../kit/biblioteca";
 import { Camara, Contador, Flujo, OndasCalor, Rotulo, TONO, Trazo, Vecino, toma } from "../../kit/diagrama";
 
+// Versión corta (26/10): la de 70 s y 11 frases aburría. 8 frases, 34 s, una idea: el Pacífico se calienta -> llueve más acá.
 // Mundo: un corte de costa. A la izquierda el océano Pacífico con una mancha de agua que se calienta (El Niño);
-// a la derecha tierra argentina con nubes. Mecanismo: agua más caliente -> aire que sube y cambia la circulación
-// -> más lluvia en el Litoral, Córdoba, La Pampa y oeste bonaerense (pronóstico trimestral del SMN, probabilidad).
+// a la derecha tierra argentina con nubes y un pin "VOS" (lo personal retiene: idea tomada de los reels que más funcionan).
 
 const tiempos = tiemposJson as Tiempos;
 export const FPS = 30;
@@ -24,14 +24,11 @@ const E = {
   pacifico: r.f(1),
   calienta: r.f(2),
   circula: r.f(3),
-  grados: r.f(4),
+  regiones: r.f(4),
   fuerte: r.f(5),
-  smn: r.f(6),
-  regiones: r.f(7),
-  ojo: r.f(8),
-  vuelve: r.f(9),
-  cta: r.f(10),
-  sello: r.fin(10) + 2,
+  vuelve: r.f(6),
+  cta: r.f(7),
+  sello: r.fin(7) + 2,
 };
 export const DURACION = E.sello + DUR_SELLO_FINAL;
 
@@ -51,14 +48,30 @@ const Lluvia: React.FC<{ f: number; n: number; x0: number; x1: number; y0: numbe
   </g>
 );
 
+/* Pin "VOS" clavado en la tierra: rebota al aparecer. */
+const PinVos: React.FC<{ f: number; desde: number }> = ({ f, desde }) => {
+  const { fps } = useVideoConfig();
+  const s = pop(f - desde, fps, 0);
+  return (
+    <g style={{ scale: s, transformOrigin: `880px ${MAR}px` }}>
+      <path d={`M880 ${MAR} C850 ${MAR - 60} 830 ${MAR - 80} 830 ${MAR - 110} a50 50 0 1 1 100 0 C930 ${MAR - 80} 910 ${MAR - 60} 880 ${MAR} Z`}
+        fill={C.rojo} stroke={C.tinta} strokeWidth={8} />
+      <circle cx={880} cy={MAR - 112} r={20} fill={C.blanco} stroke={C.tinta} strokeWidth={6} />
+      <rect x={820} y={MAR - 230} width={120} height={58} rx={14} fill={C.tinta} />
+      <text x={880} y={MAR - 189} textAnchor="middle" fontFamily={display} fontWeight={800} fontSize={38} fill={C.amarillo}>VOS</text>
+    </g>
+  );
+};
+
 const Mundo: React.FC = () => {
   const f = useCurrentFrame();
-  // la mancha caliente: aparece con "calienta", crece con "fuerte", late en "vuelve"
-  const cal = interpolate(f, [E.calienta, r.w(2, "calienta") + 24, E.fuerte, r.w(5, "muy") + 20], [0, 0.55, 0.55, 1], clamp);
+  // la mancha caliente: aparece con "caliente", crece con "fuerte", late en "vuelve"
+  const cal = interpolate(f, [E.calienta, r.w(2, "caliente") + 20, E.fuerte, r.w(5, "fuerte") + 16], [0, 0.6, 0.6, 1], clamp);
   const late = entre(f, E.vuelve, E.cta) ? 0.55 + 0.45 * Math.sin((f - E.vuelve) / 6) ** 2 : 1;
   const calor = cal * late;
-  const tormenta = interpolate(f, [E.circula, r.w(3, "llueve") + 20, E.regiones, E.regiones + 30], [0.1, 0.5, 0.5, 1], clamp);
-  const lluvia = f < E.gancho + 90 ? 6 : f >= E.circula + 40 ? (f >= E.regiones ? 16 : 8) : 0;
+  const tormenta = interpolate(f, [E.circula, r.w(3, "lluvia") + 16, E.regiones, E.regiones + 24], [0.1, 0.5, 0.5, 1], clamp);
+  const lluvia = f < E.pacifico ? 10 : f >= E.circula + 24 ? (f >= E.regiones ? 18 : 9) : 0;
+  const vos = f < E.pacifico || entre(f, E.regiones, E.cta);
   const ola = (x: number) => MAR + Math.sin(x / 55 + f / 9) * 9;
   const olas = Array.from({ length: 24 }, (_, i) => `${i ? "L" : "M"}${-300 + i * 40} ${ola(-300 + i * 40)}`).join(" ") + ` L${COSTA} ${MAR + 30} L-300 ${MAR + 30} Z`;
   return (
@@ -91,15 +104,16 @@ const Mundo: React.FC = () => {
         <Flujo x0={150} x1={400} yAbajo={MAR - 20} yArriba={900} n={12} color={C.rojo} tam={9} t={f} opacidad={Math.min(1, calor * 1.2)} />
       ) : null}
 
-      {/* aire que viaja hacia la tierra */}
-      <Trazo d="M330 780 C470 640 620 600 760 640" desde={E.circula + 6} dur={28} color={C.rojo} ancho={12} flecha />
-      <Trazo d="M330 880 C470 760 640 740 820 790" desde={r.w(3, "llueve") - 14} dur={26} color={C.rojo} ancho={10} punteado="22 16" flecha />
+      {/* el aire que viaja hacia la tierra */}
+      <Trazo d="M330 880 C470 760 620 740 740 800" desde={r.w(3, "cambia")} dur={20} color={C.rojo} ancho={12} flecha />
+      <Trazo d="M330 960 C470 860 640 850 800 900" desde={r.w(3, "lluvia") - 6} dur={18} color={C.rojo} ancho={10} punteado="22 16" flecha />
 
       {/* nubes y lluvia sobre la tierra */}
-      <Nube x={760} y={680} s={1.4} t={f} tormenta={tormenta} />
-      <Nube x={950} y={760} s={1.05} t={f + 30} tormenta={tormenta * 0.9} />
-      {lluvia > 0 ? <Lluvia f={f} n={lluvia} x0={660} x1={1040} y0={820} /> : null}
+      <Nube x={760} y={830} s={1.3} t={f} tormenta={f < E.pacifico ? 0.8 : tormenta} />
+      <Nube x={950} y={890} s={1.0} t={f + 30} tormenta={f < E.pacifico ? 0.7 : tormenta * 0.9} />
+      {lluvia > 0 ? <Lluvia f={f} n={lluvia} x0={660} x1={1040} y0={930} /> : null}
       <rect x={COSTA - 6} y={MAR - 4} width={10} height={20} fill={C.tinta} />
+      {vos ? <PinVos f={f} desde={f < E.pacifico ? 14 : E.regiones} /> : null}
     </svg>
   );
 };
@@ -109,47 +123,40 @@ const Anotaciones: React.FC = () => {
   const f = useCurrentFrame();
   return (
     <>
-      {entre(f, E.pacifico, E.calienta) ? <Rotulo texto="océano Pacífico" desde={r.w(1, "Pacífico") - 4} x={230} y={1255} ax={260} ay={1190} tam={30} /> : null}
+      {entre(f, E.pacifico, E.calienta) ? <Rotulo texto="océano Pacífico" desde={r.w(1, "Pacífico") - 4} x={230} y={1255} ax={260} ay={1190} tam={32} /> : null}
       {entre(f, E.calienta, E.circula) ? (
-        <Rotulo texto="agua más caliente de lo normal" desde={r.w(2, "calienta")} x={340} y={1250} ax={290} ay={1190} color={C.blanco} fondo={C.rojo} tam={22} />
+        <Contador hasta={2} antes="+" despues=" °C" desde={r.w(2, "dos") - 12} dur={16} x={300} y={1140} tam={120} etiqueta="más caliente de lo normal" />
       ) : null}
-      {entre(f, E.circula, E.grados) ? <Rotulo texto="el aire cambia de camino" desde={r.w(3, "circula")} x={540} y={900} ax={500} ay={730} tam={26} /> : null}
-      {entre(f, E.grados, E.fuerte) ? (
-        <Contador hasta={2} antes="+" despues=" °C" desde={r.w(4, "grados") - 14} dur={20} x={280} y={1230} tam={110} etiqueta="más de lo normal" />
-      ) : null}
-      {entre(f, E.fuerte, E.smn) ? (
+      {entre(f, E.circula, E.regiones) ? <Rotulo texto="la lluvia cambia de camino" desde={r.w(3, "cambia")} x={700} y={1030} ax={640} ay={880} tam={28} /> : null}
+      {entre(f, E.regiones, E.fuerte) ? (
         <>
-          <Rotulo texto="fuerte" desde={r.w(5, "fuerte")} x={150} y={1235} ax={200} ay={1190} color={C.blanco} fondo={C.rojo} tam={26} />
-          <Rotulo texto="muy fuerte" desde={r.w(5, "muy")} x={420} y={1290} ax={340} ay={1210} color={C.blanco} fondo={C.rojo} tam={30} />
+          <Rotulo texto="Litoral" desde={r.w(4, "Litoral")} x={950} y={1220} ax={950} ay={1130} tam={28} />
+          <Rotulo texto="Córdoba" desde={r.w(4, "Córdoba")} x={700} y={1250} ax={720} ay={1130} tam={28} />
+          <Rotulo texto="La Pampa" desde={r.w(4, "Pampa")} x={880} y={1290} ax={850} ay={1140} tam={28} />
+          <Rotulo texto="oeste bonaerense" desde={r.w(4, "oeste")} x={790} y={1345} ax={780} ay={1150} tam={26} />
         </>
       ) : null}
-      {entre(f, E.smn, E.regiones) ? <Rotulo texto="El Niño: activo ✓" desde={r.w(6, "activo") - 6} x={840} y={1260} ax={840} ay={1130} color={C.blanco} fondo={C.verde} tam={28} /> : null}
-      {entre(f, E.regiones, E.ojo) ? (
-        <>
-          <Rotulo texto="Litoral" desde={r.w(7, "Litoral")} x={950} y={1220} ax={950} ay={1130} tam={26} />
-          <Rotulo texto="Córdoba" desde={r.w(7, "Córdoba")} x={700} y={1250} ax={720} ay={1130} tam={26} />
-          <Rotulo texto="La Pampa" desde={r.w(7, "Pampa")} x={880} y={1280} ax={850} ay={1140} tam={26} />
-          <Rotulo texto="oeste de Buenos Aires" desde={r.w(7, "oeste")} x={800} y={1335} ax={780} ay={1150} tam={24} />
-        </>
+      {entre(f, E.fuerte, E.vuelve) ? (
+        <Rotulo texto="fuerte hasta el verano" desde={r.w(5, "fuerte")} x={300} y={1260} ax={270} ay={1190} color={C.blanco} fondo={C.rojo} tam={30} />
       ) : null}
     </>
   );
 };
 
+// la cámara cambia en cada frase y a mitad de las largas: algo se mueve cada 1–2 s
 const TOMAS = [
-  toma(0, 640, 830, 1.0), toma(E.pacifico, 320, 930, 1.2),
-  toma(E.calienta, 300, 920, 1.25), toma(E.circula - 4, 540, 830, 1.0),
-  toma(E.grados, 300, 1000, 1.35), toma(E.fuerte, 300, 960, 1.2),
-  toma(E.smn, 780, 930, 1.2), toma(E.regiones, 780, 880, 1.05),
-  toma(E.ojo, 640, 880, 0.95), toma(E.vuelve, 400, 920, 0.9),
-  toma(E.cta - 2, 540, 880, 0.95),
+  toma(0, 800, 760, 1.1), toma(E.pacifico, 540, 800, 0.95), toma(r.w(1, "Pacífico") - 4, 320, 900, 1.2),
+  toma(E.calienta, 300, 990, 1.4), toma(E.circula - 4, 540, 820, 1.0), toma(r.w(3, "lluvia"), 760, 860, 1.15),
+  toma(E.regiones, 820, 900, 1.1), toma(r.w(4, "Pampa"), 860, 920, 1.2), toma(E.fuerte, 320, 960, 1.25),
+  toma(E.vuelve, 540, 900, 0.95), toma(E.cta - 2, 540, 880, 0.95),
 ];
-const GOLPES = [r.w(1, "Pacífico"), r.w(2, "calienta"), r.w(3, "llueve"), r.w(4, "grados"), r.w(5, "fuerte"), r.w(6, "activo"), r.w(7, "Litoral"), r.w(8, "garantía"), r.w(9, "siete")];
+const GOLPES = [r.w(1, "Pacífico"), r.w(2, "caliente"), r.w(3, "Niño"), r.w(3, "lluvia"), r.w(4, "Litoral"), r.w(4, "Córdoba"),
+  r.w(4, "Pampa"), r.w(5, "fuerte"), r.w(6, "loco"), r.w(6, "siete")];
 
 const Diagrama: React.FC = () => {
   const f = useCurrentFrame();
   if (f >= E.cta) return null;
-  const g = GOLPES.reduce((m, k) => m * golpe(f, k, 1.05, 12), 1);
+  const g = GOLPES.reduce((m, k) => m * golpe(f, k, 1.06, 10), 1);
   return (
     <AbsoluteFill style={{ scale: g }}>
       <Camara tomas={TOMAS}>
@@ -165,36 +172,39 @@ const Diagrama: React.FC = () => {
 const Gancho: React.FC = () => (
   <>
     <Etiqueta texto="lo vivís esta primavera" desde={-8} />
-    <TituloHablado tiempos={tiempos} frase={0} desde={E.gancho} top={420} tam={60} />
-    <Globo texto="¿otra vez lluvia?" desde={24} x={90} y={640} cola="izq" tam={42} ancho={380} />
+    <TituloHablado tiempos={tiempos} frase={0} desde={E.gancho} top={420} tam={62} />
+    <Globo texto="¿otra vez lluvia?" desde={16} x={90} y={640} cola="izq" tam={44} ancho={380} />
   </>
 );
 
 const Pacifico: React.FC = () => (
   <>
-    <Etiqueta texto="la verdad" color={C.verde} />
-    <Titulo pregunta="la explicación está en…" desdeP={0} respuesta="¡el Pacífico!" desdeR={r.w(1, "Pacífico") - E.pacifico} top={400} tamR={120} />
+    <Etiqueta texto="la explicación" color={C.verde} />
+    <Titulo pregunta="no es tu imaginación…" desdeP={0} respuesta="¡el Pacífico!" desdeR={r.w(1, "Pacífico") - E.pacifico} top={400} tamR={120} />
   </>
 );
 
 const Vuelve: React.FC = () => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const dos = r.w(9, "dos") - E.vuelve;
-  const siete = r.w(9, "siete") - E.vuelve;
+  const loco = r.w(6, "loco") - E.vuelve;
+  const dos = r.w(6, "dos") - E.vuelve;
+  const siete = r.w(6, "siete") - E.vuelve;
   return (
     <>
-      <Etiqueta texto="no es un clima loco" color={C.verde} />
-      <Lienzo>
-        <g style={{ scale: pop(f, fps, 0), transformOrigin: "540px 860px" }}>
-          <rect x={70 + 10} y={700 + 10} width={940} height={260} rx={28} fill={C.tinta} />
-          <rect x={70} y={700} width={940} height={260} rx={28} fill={C.blanco} stroke={C.tinta} strokeWidth={8} />
-          <text x={540} y={800} textAnchor="middle" fontFamily="inherit" fontWeight={800} fontSize={52} fill={C.tinta}>El Niño vuelve</text>
-          <text x={540} y={880} textAnchor="middle" fontFamily="inherit" fontWeight={800} fontSize={44} fill={C.rojo}>en promedio, cada 2 a 7 años</text>
-        </g>
-      </Lienzo>
-      {f >= dos ? <Sello texto="NORMAL" desde={dos} x={130} y={580} rot={-6} color={C.verde} tinta={C.tinta} tam={56} /> : null}
-      {f >= siete ? <Sello texto="CLIMA" desde={siete} x={650} y={1010} rot={5} color={C.amarillo} tinta={C.tinta} tam={52} /> : null}
+      <Sello texto="OJO" desde={0} x={420} y={430} rot={-8} color={C.amarillo} tinta={C.tinta} tam={84} />
+      {f >= loco ? <Etiqueta texto="no es un clima loco" color={C.verde} desde={loco} /> : null}
+      {f >= dos ? (
+        <Lienzo>
+          <g style={{ scale: pop(f - dos, fps, 0), transformOrigin: "540px 860px" }}>
+            <rect x={70 + 10} y={700 + 10} width={940} height={260} rx={28} fill={C.tinta} />
+            <rect x={70} y={700} width={940} height={260} rx={28} fill={C.blanco} stroke={C.tinta} strokeWidth={8} />
+            <text x={540} y={800} textAnchor="middle" fontFamily={display} fontWeight={800} fontSize={52} fill={C.tinta}>El Niño vuelve</text>
+            <text x={540} y={880} textAnchor="middle" fontFamily={display} fontWeight={800} fontSize={44} fill={C.rojo}>en promedio, cada 2 a 7 años</text>
+          </g>
+        </Lienzo>
+      ) : null}
+      {f >= siete ? <Sello texto="NORMAL" desde={siete} x={600} y={1010} rot={5} color={C.verde} tinta={C.tinta} tam={56} /> : null}
     </>
   );
 };
@@ -202,7 +212,7 @@ const Vuelve: React.FC = () => {
 const Cta: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const grito = r.w(10, "clima") - E.cta;
+  const grito = r.w(7, "clima") - E.cta;
   return (
     <>
       <Titulo pregunta="mandáselo a ese que…" desdeP={0} top={360} />
@@ -225,17 +235,14 @@ const Cta: React.FC = () => {
 
 export const ElNinoClima016: React.FC = () => {
   const efectos: Efecto[] = [
-    [E.gancho, "whoosh", 0.4], [24, "burbuja", 0.35],
+    [E.gancho, "whoosh", 0.4], [14, "pop"], [16, "burbuja", 0.35],
     [E.pacifico, "whoosh", 0.35], [r.w(1, "Pacífico") - 2, "scratch", 0.55], [r.w(1, "Pacífico"), "boing", 0.5],
-    [E.calienta, "whoosh", 0.35], [r.w(2, "calienta"), "pop"],
-    [E.circula, "whoosh", 0.35], [r.w(3, "llueve"), "burbuja", 0.35],
-    [E.grados, "whoosh", 0.35], [r.w(4, "grados") - 14, "tic", 0.4], [r.w(4, "grados") + 6, "ding", 0.45],
-    [E.fuerte, "whoosh", 0.35], [r.w(5, "fuerte"), "sello", 0.4], [r.w(5, "muy"), "sello", 0.45],
-    [E.smn, "whoosh", 0.35], [r.w(6, "activo"), "ding", 0.45],
-    [E.regiones, "whoosh", 0.35], [r.w(7, "Litoral"), "pop"], [r.w(7, "Córdoba"), "pop"], [r.w(7, "Pampa"), "pop"],
-    [E.ojo, "sello", 0.55], [E.ojo + 8, "pop"],
-    [E.vuelve, "whoosh", 0.35], [r.w(9, "dos"), "sello", 0.5], [r.w(9, "siete"), "sello", 0.5],
-    [E.cta, "pop"], [r.w(10, "clima"), "burbuja", 0.4],
+    [E.calienta, "whoosh", 0.35], [r.w(2, "dos") - 12, "tic", 0.4], [r.w(2, "dos") + 4, "ding", 0.45],
+    [E.circula, "whoosh", 0.35], [r.w(3, "Niño"), "sello", 0.45], [r.w(3, "lluvia"), "latigo", 0.35],
+    [E.regiones, "whoosh", 0.35], [r.w(4, "Litoral"), "pop"], [r.w(4, "Córdoba"), "pop"], [r.w(4, "Pampa"), "pop"], [r.w(4, "oeste"), "pop"],
+    [E.fuerte, "whoosh", 0.35], [r.w(5, "fuerte"), "sello", 0.45],
+    [E.vuelve, "sello", 0.55], [r.w(6, "dos"), "pop"], [r.w(6, "siete"), "sello", 0.5],
+    [E.cta, "pop"], [r.w(7, "clima"), "burbuja", 0.4],
     [E.sello, "sello", 0.7], [E.sello + 6, "ding", 0.4],
   ];
 
@@ -249,28 +256,20 @@ export const ElNinoClima016: React.FC = () => {
 
       <Sequence name="1 · gancho" from={E.gancho} durationInFrames={E.pacifico - E.gancho} layout="none"><Gancho /></Sequence>
       <Sequence name="2 · pacifico" from={E.pacifico} durationInFrames={E.calienta - E.pacifico} layout="none"><Pacifico /></Sequence>
-      <Sequence name="3 · calienta" from={E.calienta} durationInFrames={E.circula - E.calienta} layout="none"><Etiqueta texto="paso 1 · el agua se calienta" /></Sequence>
-      <Sequence name="4 · circula" from={E.circula} durationInFrames={E.grados - E.circula} layout="none"><Etiqueta texto="paso 2 · cambia el aire" /></Sequence>
-      <Sequence name="5 · grados" from={E.grados} durationInFrames={E.fuerte - E.grados} layout="none">
-        <Etiqueta texto="lo que midieron" /><Fuente texto="Centro de Predicción del Clima (NOAA), octubre" />
+      <Sequence name="3 · calienta" from={E.calienta} durationInFrames={E.circula - E.calienta} layout="none">
+        <Etiqueta texto="paso 1 · el agua se calienta" /><Fuente texto="Centro de Predicción del Clima (NOAA), octubre" />
       </Sequence>
-      <Sequence name="6 · fuerte" from={E.fuerte} durationInFrames={E.smn - E.fuerte} layout="none">
+      <Sequence name="4 · el niño" from={E.circula} durationInFrames={E.regiones - E.circula} layout="none"><Etiqueta texto="paso 2 · eso es El Niño" /></Sequence>
+      <Sequence name="5 · regiones" from={E.regiones} durationInFrames={E.fuerte - E.regiones} layout="none">
+        <Etiqueta texto="paso 3 · llueve más acá" /><Fuente texto="SMN, pronóstico trimestral" />
+      </Sequence>
+      <Sequence name="6 · fuerte" from={E.fuerte} durationInFrames={E.vuelve - E.fuerte} layout="none">
         <Etiqueta texto="lo que calculan" /><Fuente texto="Centro de Predicción del Clima (NOAA)" />
       </Sequence>
-      <Sequence name="7 · smn" from={E.smn} durationInFrames={E.regiones - E.smn} layout="none">
-        <Etiqueta texto="acá" color={C.verde} /><Fuente texto="Servicio Meteorológico Nacional" />
-      </Sequence>
-      <Sequence name="8 · regiones" from={E.regiones} durationInFrames={E.ojo - E.regiones} layout="none">
-        <Etiqueta texto="octubre · noviembre · diciembre" /><Fuente texto="SMN, pronóstico trimestral" />
-      </Sequence>
-      <Sequence name="9 · ojo" from={E.ojo} durationInFrames={E.vuelve - E.ojo} layout="none">
-        <Sello texto="OJO" desde={0} x={440} y={450} rot={-8} color={C.amarillo} tinta={C.tinta} tam={84} />
-        <Etiqueta texto="probabilidad ≠ garantía" color={C.rojo} />
-      </Sequence>
-      <Sequence name="10 · vuelve" from={E.vuelve} durationInFrames={E.cta - E.vuelve} layout="none">
+      <Sequence name="7 · ojo" from={E.vuelve} durationInFrames={E.cta - E.vuelve} layout="none">
         <Vuelve /><Fuente texto="NOAA" />
       </Sequence>
-      <Sequence name="11 · cta" from={E.cta} durationInFrames={DURACION - E.cta} layout="none"><Cta /></Sequence>
+      <Sequence name="8 · cta" from={E.cta} durationInFrames={DURACION - E.cta} layout="none"><Cta /></Sequence>
       <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal /></Sequence>
 
       <Subtitulos tiempos={tiempos} hasta={E.sello} />
