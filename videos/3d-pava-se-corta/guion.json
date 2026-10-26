@@ -1,0 +1,21 @@
+{
+  "titulo": "¿Por qué la pava eléctrica se corta sola?",
+  "fuentes": [
+    "Ingenia (Royal Academy of Engineering), 'How do kettles know when to switch off?': el vapor del agua hirviendo viaja por un tubo hasta un disco bimetálico del control, que corta la corriente; se usa el vapor porque el punto de ebullición cambia con la altura",
+    "Patente de Strix GB2213646 (inventor John Crawshaw Taylor): disco bimetálico abombado en una cámara de vapor que salta de golpe y, mediante varillas, abre los contactos y mueve el botón",
+    "Wikipedia 'Kettle': el sistema funciona en la altura, donde el agua hierve a menos temperatura",
+    "Russell Hobbs K1 (1955): primera pava con corte automático al hervir, por vapor y lámina bimetálica (Wikipedia 'Russell Hobbs' y 'Kettle'; Grace's Guide)",
+    "Manuales de pavas (Dualit Studio Kettle; Essentials C17JKW17): con la tapa abierta la pava puede no cortarse"
+  ],
+  "frases": [
+    {"texto": "¿Por qué la pava eléctrica se corta sola cuando hierve?", "estilo": "Intriga, pregunta cercana."},
+    {"texto": "Porque no mide el agua. Mide el vapor.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Cuando hierve, el vapor viaja por un tubito escondido hasta un disco de metal.", "estilo": "Explicando simple, como a un amigo."},
+    {"texto": "Ese disco son dos metales pegados que se estiran distinto con el calor.", "estilo": "Curioso, ritmo medio."},
+    {"texto": "Se calienta, se dobla de golpe, empuja una varilla y salta el botón: clac.", "estilo": "Con ritmo creciente, enfático al final."},
+    {"texto": "¿Por qué no un termómetro? Porque en la altura el agua hierve a menos de cien grados.", "estilo": "Revelando un dato, enfático."},
+    {"texto": "La primera que se cortaba sola al hervir salió en Inglaterra en mil novecientos cincuenta y cinco.", "estilo": "Dato, claro."},
+    {"texto": "Ojo: con la tapa abierta, el vapor se escapa y puede no cortarse.", "estilo": "Advertencia honesta, tono amable."},
+    {"texto": "Mandáselo al que siempre deja la tapa abierta.", "estilo": "Cómplice, con humor argentino."}
+  ]
+}

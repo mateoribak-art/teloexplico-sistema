@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Versión final del guion, recortada y sin John Taylor. Las 9 frases están verificadas con fuentes y tienen el matiz correcto. Lo de seguridad (tapa abierta) está verificado en los manuales Essentials C17JKW17 y Dualit Studio, y dice 'puede no cortarse'. La frase 7 ahora dice 'al hervir': así coincide con lo que confirman las fuentes, que la Russell Hobbs K1 (Croydon, Inglaterra, 1955) fue la primera pava que se cortaba sola al hervir. Las simplificaciones (disco que se dobla de golpe, varilla, el 'clac') no dicen nada técnicamente falso. No hay frases probables, dudosas ni falsas.",
+  "afirmaciones": [
+    {
+      "texto": "¿Por qué la pava eléctrica se corta sola cuando hierve?",
+      "fuente": "Gancho; que la pava se corta sola al hervir está en el manual Essentials C17JKW17 ('The kettle will automatically switch off') y en el manual Dualit Studio ('The kettle will automatically turn off after the water has boiled').",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Porque no mide el agua. Mide el vapor.",
+      "fuente": "Ingenia (Royal Academy of Engineering), 'How do kettles know when to switch off?': el termostato está fuera del agua y lo dispara el vapor. La página dio 403; esto sale del resumen del buscador. También Wikipedia 'Kettle' (la lámina bimetálica la calienta el vapor que llega por un tubo) y la patente GB2213646 de Strix ('heated by steam entering ... through inlet opening 15').",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Cuando hierve, el vapor viaja por un tubito escondido hasta un disco de metal.",
+      "fuente": "Wikipedia 'Kettle' ('heated through a pipe by the steam'); patente GB2213646 de Strix (cámara de vapor en el asa, con un disco bimetálico abombado); manual Dualit Studio (habla del 'steam tube').",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ese disco son dos metales pegados que se estiran distinto con el calor.",
+      "fuente": "Process Engineering e Isle of Man Post Office, 2017 ('two metals bonded together as a thin strip expand by different amounts when heated'); Ingenia (disco bimetálico de dos capas que se dilatan distinto).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Se calienta, se dobla de golpe, empuja una varilla y salta el botón: clac.",
+      "fuente": "Patente GB2213646 de Strix ('dished snap acting bimetallic actuating member', 'push rod', 'sprung over-centre lever mechanism' que abre los contactos y mueve el botón). Es una simplificación aceptada.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "¿Por qué no un termómetro? Porque en la altura el agua hierve a menos de cien grados.",
+      "fuente": "Wikipedia 'Kettle' ('this design works even at higher altitudes where the boiling point is significantly lower'); Ingenia (el punto de ebullición baja unos 0,5 °C cada 150 m, así que no sirve cortar a una temperatura fija del agua).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La primera que se cortaba sola al hervir salió en Inglaterra en mil novecientos cincuenta y cinco.",
+      "fuente": "Wikipedia 'Russell Hobbs': en 1955 'introduced the K1, the first electric kettle that switched itself off as soon as the water boiled', 'a world first'; la empresa estaba en Croydon, Surrey (Inglaterra); cita a ApplianceMagazine, 2005. Grace's Guide: la K1 se diseñó en octubre de 1955. Wikipedia 'Kettle': 'first fully automatic kettle', 1955. 'Al hervir' es necesario: la General Electric 'Magnet' (Inglaterra, 1929-1935, Science Museum Group) ya tenía un corte de seguridad con un tapón que se derrite, pero no se cortaba al hervir. Mad About the House la fecha en 1956; la mayoría de las fuentes dicen 1955.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: con la tapa abierta, el vapor se escapa y puede no cortarse.",
+      "fuente": "Manual Essentials C17JKW17 ('The kettle will not turn off if the switch is obstructed or if the lid is open'); manual Dualit Studio ('Ensure that the lid is fully closed before switching the kettle on, otherwise it may not properly switch off'); preguntas frecuentes de Logik ('If heat is allowed to escape, the kettle will keep on boiling').",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mandáselo al que siempre deja la tapa abierta.",
+      "fuente": "Llamado a la acción, sin dato que chequear.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

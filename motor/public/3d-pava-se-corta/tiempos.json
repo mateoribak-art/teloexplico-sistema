@@ -1,0 +1,638 @@
+{
+ "duracion": 38.73,
+ "frases": [
+  {
+   "texto": "¿Por qué la pava eléctrica se corta sola cuando hierve?",
+   "palabras": [
+    {
+     "texto": "¿Por",
+     "inicio": 0.0,
+     "fin": 0.16
+    },
+    {
+     "texto": "qué",
+     "inicio": 0.16,
+     "fin": 0.3
+    },
+    {
+     "texto": "la",
+     "inicio": 0.3,
+     "fin": 0.44
+    },
+    {
+     "texto": "pava",
+     "inicio": 0.44,
+     "fin": 0.64
+    },
+    {
+     "texto": "eléctrica",
+     "inicio": 0.64,
+     "fin": 1.2
+    },
+    {
+     "texto": "se",
+     "inicio": 1.2,
+     "fin": 1.42
+    },
+    {
+     "texto": "corta",
+     "inicio": 1.42,
+     "fin": 1.78
+    },
+    {
+     "texto": "sola",
+     "inicio": 1.78,
+     "fin": 2.1
+    },
+    {
+     "texto": "cuando",
+     "inicio": 2.1,
+     "fin": 2.38
+    },
+    {
+     "texto": "hierve?",
+     "inicio": 2.38,
+     "fin": 2.84
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.84
+  },
+  {
+   "texto": "Porque no mide el agua. Mide el vapor.",
+   "palabras": [
+    {
+     "texto": "Porque",
+     "inicio": 3.36,
+     "fin": 3.56
+    },
+    {
+     "texto": "no",
+     "inicio": 3.56,
+     "fin": 3.68
+    },
+    {
+     "texto": "mide",
+     "inicio": 3.68,
+     "fin": 3.84
+    },
+    {
+     "texto": "el",
+     "inicio": 3.84,
+     "fin": 3.98
+    },
+    {
+     "texto": "agua.",
+     "inicio": 3.98,
+     "fin": 4.2
+    },
+    {
+     "texto": "Mide",
+     "inicio": 4.68,
+     "fin": 4.94
+    },
+    {
+     "texto": "el",
+     "inicio": 4.94,
+     "fin": 5.06
+    },
+    {
+     "texto": "vapor.",
+     "inicio": 5.06,
+     "fin": 5.24
+    }
+   ],
+   "inicio": 3.36,
+   "fin": 5.24
+  },
+  {
+   "texto": "Cuando hierve, el vapor viaja por un tubito escondido hasta un disco de metal.",
+   "palabras": [
+    {
+     "texto": "Cuando",
+     "inicio": 5.84,
+     "fin": 6.06
+    },
+    {
+     "texto": "hierve,",
+     "inicio": 6.06,
+     "fin": 6.5
+    },
+    {
+     "texto": "el",
+     "inicio": 6.92,
+     "fin": 7.04
+    },
+    {
+     "texto": "vapor",
+     "inicio": 7.04,
+     "fin": 7.2
+    },
+    {
+     "texto": "viaja",
+     "inicio": 7.2,
+     "fin": 7.6
+    },
+    {
+     "texto": "por",
+     "inicio": 7.6,
+     "fin": 7.8
+    },
+    {
+     "texto": "un",
+     "inicio": 7.8,
+     "fin": 7.92
+    },
+    {
+     "texto": "tubito",
+     "inicio": 7.92,
+     "fin": 8.3
+    },
+    {
+     "texto": "escondido",
+     "inicio": 8.3,
+     "fin": 8.9
+    },
+    {
+     "texto": "hasta",
+     "inicio": 8.9,
+     "fin": 9.28
+    },
+    {
+     "texto": "un",
+     "inicio": 9.28,
+     "fin": 9.46
+    },
+    {
+     "texto": "disco",
+     "inicio": 9.46,
+     "fin": 9.64
+    },
+    {
+     "texto": "de",
+     "inicio": 9.64,
+     "fin": 9.8
+    },
+    {
+     "texto": "metal.",
+     "inicio": 9.8,
+     "fin": 10.06
+    }
+   ],
+   "inicio": 5.84,
+   "fin": 10.06
+  },
+  {
+   "texto": "Ese disco son dos metales pegados que se estiran distinto con el calor.",
+   "palabras": [
+    {
+     "texto": "Ese",
+     "inicio": 10.58,
+     "fin": 10.74
+    },
+    {
+     "texto": "disco",
+     "inicio": 10.74,
+     "fin": 10.98
+    },
+    {
+     "texto": "son",
+     "inicio": 10.98,
+     "fin": 11.2
+    },
+    {
+     "texto": "dos",
+     "inicio": 11.2,
+     "fin": 11.34
+    },
+    {
+     "texto": "metales",
+     "inicio": 11.34,
+     "fin": 11.62
+    },
+    {
+     "texto": "pegados",
+     "inicio": 11.62,
+     "fin": 12.08
+    },
+    {
+     "texto": "que",
+     "inicio": 12.08,
+     "fin": 12.26
+    },
+    {
+     "texto": "se",
+     "inicio": 12.26,
+     "fin": 12.38
+    },
+    {
+     "texto": "estiran",
+     "inicio": 12.38,
+     "fin": 12.66
+    },
+    {
+     "texto": "distinto",
+     "inicio": 12.66,
+     "fin": 13.14
+    },
+    {
+     "texto": "con",
+     "inicio": 13.14,
+     "fin": 13.32
+    },
+    {
+     "texto": "el",
+     "inicio": 13.32,
+     "fin": 13.46
+    },
+    {
+     "texto": "calor.",
+     "inicio": 13.46,
+     "fin": 13.7
+    }
+   ],
+   "inicio": 10.58,
+   "fin": 13.7
+  },
+  {
+   "texto": "Se calienta, se dobla de golpe, empuja una varilla y salta el botón: clac.",
+   "palabras": [
+    {
+     "texto": "Se",
+     "inicio": 14.2,
+     "fin": 14.36
+    },
+    {
+     "texto": "calienta,",
+     "inicio": 14.36,
+     "fin": 14.9
+    },
+    {
+     "texto": "se",
+     "inicio": 15.36,
+     "fin": 15.56
+    },
+    {
+     "texto": "dobla",
+     "inicio": 15.56,
+     "fin": 15.8
+    },
+    {
+     "texto": "de",
+     "inicio": 15.8,
+     "fin": 15.94
+    },
+    {
+     "texto": "golpe,",
+     "inicio": 15.94,
+     "fin": 16.18
+    },
+    {
+     "texto": "empuja",
+     "inicio": 16.82,
+     "fin": 17.22
+    },
+    {
+     "texto": "una",
+     "inicio": 17.22,
+     "fin": 17.4
+    },
+    {
+     "texto": "varilla",
+     "inicio": 17.4,
+     "fin": 17.82
+    },
+    {
+     "texto": "y",
+     "inicio": 17.82,
+     "fin": 18.42
+    },
+    {
+     "texto": "salta",
+     "inicio": 18.42,
+     "fin": 18.68
+    },
+    {
+     "texto": "el",
+     "inicio": 18.68,
+     "fin": 18.74
+    },
+    {
+     "texto": "botón:",
+     "inicio": 18.74,
+     "fin": 19.04
+    },
+    {
+     "texto": "clac.",
+     "inicio": 19.54,
+     "fin": 19.82
+    }
+   ],
+   "inicio": 14.2,
+   "fin": 19.82
+  },
+  {
+   "texto": "¿Por qué no un termómetro? Porque en la altura el agua hierve a menos de cien grados.",
+   "palabras": [
+    {
+     "texto": "¿Por",
+     "inicio": 20.34,
+     "fin": 20.52
+    },
+    {
+     "texto": "qué",
+     "inicio": 20.52,
+     "fin": 20.62
+    },
+    {
+     "texto": "no",
+     "inicio": 20.62,
+     "fin": 20.72
+    },
+    {
+     "texto": "un",
+     "inicio": 20.72,
+     "fin": 20.82
+    },
+    {
+     "texto": "termómetro?",
+     "inicio": 20.82,
+     "fin": 21.28
+    },
+    {
+     "texto": "Porque",
+     "inicio": 21.76,
+     "fin": 22.02
+    },
+    {
+     "texto": "en",
+     "inicio": 22.02,
+     "fin": 22.16
+    },
+    {
+     "texto": "la",
+     "inicio": 22.16,
+     "fin": 22.24
+    },
+    {
+     "texto": "altura",
+     "inicio": 22.24,
+     "fin": 22.48
+    },
+    {
+     "texto": "el",
+     "inicio": 22.48,
+     "fin": 22.96
+    },
+    {
+     "texto": "agua",
+     "inicio": 22.96,
+     "fin": 23.14
+    },
+    {
+     "texto": "hierve",
+     "inicio": 23.14,
+     "fin": 23.52
+    },
+    {
+     "texto": "a",
+     "inicio": 23.52,
+     "fin": 23.62
+    },
+    {
+     "texto": "menos",
+     "inicio": 23.62,
+     "fin": 23.8
+    },
+    {
+     "texto": "de",
+     "inicio": 23.8,
+     "fin": 23.96
+    },
+    {
+     "texto": "cien",
+     "inicio": 23.96,
+     "fin": 24.14
+    },
+    {
+     "texto": "grados.",
+     "inicio": 24.14,
+     "fin": 24.62
+    }
+   ],
+   "inicio": 20.34,
+   "fin": 24.62
+  },
+  {
+   "texto": "La primera que se cortaba sola al hervir salió en Inglaterra en mil novecientos cincuenta y cinco.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 25.04,
+     "fin": 25.24
+    },
+    {
+     "texto": "primera",
+     "inicio": 25.24,
+     "fin": 25.58
+    },
+    {
+     "texto": "que",
+     "inicio": 25.58,
+     "fin": 25.8
+    },
+    {
+     "texto": "se",
+     "inicio": 25.8,
+     "fin": 25.92
+    },
+    {
+     "texto": "cortaba",
+     "inicio": 25.92,
+     "fin": 26.34
+    },
+    {
+     "texto": "sola",
+     "inicio": 26.34,
+     "fin": 26.66
+    },
+    {
+     "texto": "al",
+     "inicio": 26.66,
+     "fin": 26.86
+    },
+    {
+     "texto": "hervir",
+     "inicio": 26.86,
+     "fin": 27.12
+    },
+    {
+     "texto": "salió",
+     "inicio": 27.12,
+     "fin": 27.92
+    },
+    {
+     "texto": "en",
+     "inicio": 27.92,
+     "fin": 28.04
+    },
+    {
+     "texto": "Inglaterra",
+     "inicio": 28.04,
+     "fin": 28.54
+    },
+    {
+     "texto": "en",
+     "inicio": 28.54,
+     "fin": 28.64
+    },
+    {
+     "texto": "mil",
+     "inicio": 28.64,
+     "fin": 28.78
+    },
+    {
+     "texto": "novecientos",
+     "inicio": 28.78,
+     "fin": 29.4
+    },
+    {
+     "texto": "cincuenta",
+     "inicio": 29.4,
+     "fin": 29.78
+    },
+    {
+     "texto": "y",
+     "inicio": 29.78,
+     "fin": 29.88
+    },
+    {
+     "texto": "cinco.",
+     "inicio": 29.88,
+     "fin": 30.24
+    }
+   ],
+   "inicio": 25.04,
+   "fin": 30.24
+  },
+  {
+   "texto": "Ojo: con la tapa abierta, el vapor se escapa y puede no cortarse.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 30.74,
+     "fin": 31.1
+    },
+    {
+     "texto": "con",
+     "inicio": 31.42,
+     "fin": 31.52
+    },
+    {
+     "texto": "la",
+     "inicio": 31.52,
+     "fin": 31.68
+    },
+    {
+     "texto": "tapa",
+     "inicio": 31.68,
+     "fin": 31.94
+    },
+    {
+     "texto": "abierta,",
+     "inicio": 31.94,
+     "fin": 32.5
+    },
+    {
+     "texto": "el",
+     "inicio": 33.06,
+     "fin": 33.16
+    },
+    {
+     "texto": "vapor",
+     "inicio": 33.16,
+     "fin": 33.4
+    },
+    {
+     "texto": "se",
+     "inicio": 33.4,
+     "fin": 33.62
+    },
+    {
+     "texto": "escapa",
+     "inicio": 33.62,
+     "fin": 34.1
+    },
+    {
+     "texto": "y",
+     "inicio": 34.1,
+     "fin": 34.4
+    },
+    {
+     "texto": "puede",
+     "inicio": 34.4,
+     "fin": 34.8
+    },
+    {
+     "texto": "no",
+     "inicio": 34.8,
+     "fin": 34.98
+    },
+    {
+     "texto": "cortarse.",
+     "inicio": 34.98,
+     "fin": 35.54
+    }
+   ],
+   "inicio": 30.74,
+   "fin": 35.54
+  },
+  {
+   "texto": "Mandáselo al que siempre deja la tapa abierta.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 36.02,
+     "fin": 36.64
+    },
+    {
+     "texto": "al",
+     "inicio": 36.64,
+     "fin": 36.72
+    },
+    {
+     "texto": "que",
+     "inicio": 36.72,
+     "fin": 36.9
+    },
+    {
+     "texto": "siempre",
+     "inicio": 36.9,
+     "fin": 37.5
+    },
+    {
+     "texto": "deja",
+     "inicio": 37.5,
+     "fin": 37.92
+    },
+    {
+     "texto": "la",
+     "inicio": 37.92,
+     "fin": 38.04
+    },
+    {
+     "texto": "tapa",
+     "inicio": 38.04,
+     "fin": 38.22
+    },
+    {
+     "texto": "abierta.",
+     "inicio": 38.22,
+     "fin": 38.68
+    }
+   ],
+   "inicio": 36.02,
+   "fin": 38.68
+  }
+ ]
+}

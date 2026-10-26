@@ -22,6 +22,7 @@ import { DURACION as DUR_016, ElNinoClima016, FPS as FPS_016, Portada016 } from 
 import { DURACION as DUR_017, FPS as FPS_017, ParadojaCumpleanos017, Portada017 } from "./videos/017-paradoja-cumpleanos/Video";
 import { DURACION as DUR_018, FPS as FPS_018, Portada018, RayoTrueno018 } from "./videos/018-rayo-trueno/Video";
 import { DURACION as DUR_019, FPS as FPS_019, Portada019, SensacionTermica019 } from "./videos/019-sensacion-termica/Video";
+import { DURACION as DUR_3D_PAVA, FPS as FPS_3D_PAVA, PavaSeCorta3D } from "./videos/3d-pava-se-corta/Video";
 
 // Cada video nuevo suma su <Composition> (id "hNNN-slug") y su <Still> de portada (id "pNNN-slug").
 export const RemotionRoot: React.FC = () => {
@@ -44,6 +45,7 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="h017-paradoja-cumpleanos" component={ParadojaCumpleanos017} durationInFrames={DUR_017} fps={FPS_017} width={ANCHO} height={ALTO} />
         <Composition id="h018-rayo-trueno" component={RayoTrueno018} durationInFrames={DUR_018} fps={FPS_018} width={ANCHO} height={ALTO} />
         <Composition id="h019-sensacion-termica" component={SensacionTermica019} durationInFrames={DUR_019} fps={FPS_019} width={ANCHO} height={ALTO} />
+        <Composition id="h3d-pava-se-corta" component={PavaSeCorta3D} durationInFrames={DUR_3D_PAVA} fps={FPS_3D_PAVA} width={ANCHO} height={ALTO} />
       </Folder>
       <Folder name="portadas">
         <Still id="p001-heladera" component={Portada001} width={ANCHO} height={ALTO} />
