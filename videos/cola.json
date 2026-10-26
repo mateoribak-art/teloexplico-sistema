@@ -46,7 +46,7 @@
  {
   "slug": "003-vuelta-carne",
   "tema": "¿A la carne se la da vuelta una sola vez?",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -62,6 +62,11 @@
     "estado": "listo",
     "cuando": "2026-10-24T05:02",
     "motivo": "producción nocturna"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-26T19:34",
+    "motivo": "https://www.instagram.com/reel/De-XT1miA1a/"
    }
   ]
  },
@@ -365,7 +370,7 @@
  {
   "slug": "016-el-nino-clima",
   "tema": "¿Por qué este año llueve así? El Niño y el pronóstico oficial para el verano",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -401,6 +406,11 @@
     "estado": "listo",
     "cuando": "2026-10-26T17:41",
     "motivo": "versión corta 34 s, producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-26T19:32",
+    "motivo": "la voz no coincide con el guion (91%)"
    }
   ],
   "prioridad": "actualidad",
