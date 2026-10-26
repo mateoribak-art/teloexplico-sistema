@@ -135,8 +135,8 @@ export const curvaVapor = new THREE.CatmullRomCurve3([
   new THREE.Vector3(-1.3, 1.97, 0),
   new THREE.Vector3(-1.62, 1.62, 0),
   new THREE.Vector3(-1.62, 0.9, 0),
-  new THREE.Vector3(-1.5, 0.45, 0),
-  new THREE.Vector3(-1.4, 0.3, 0),
+  new THREE.Vector3(-1.52, 0.5, 0),
+  new THREE.Vector3(-1.5, 0.33, 0),
 ]);
 
 /* ---------- materiales ---------- */
@@ -424,17 +424,18 @@ export const Pava: React.FC<{ e: EstadoPava }> = ({ e }) => {
 
       {/* disco bimetálico, varilla */}
       <group position={P.disco} scale={tam}>
-        <mesh geometry={discos.a} position={[-discos.sep, 0, 0]} castShadow>
+        <mesh geometry={discos.a} position={[-discos.sep, 0, 0]}>
           <meshPhysicalMaterial
             color="#d0784a"
-            metalness={0.65}
-            roughness={0.42}
+            metalness={0.55}
+            roughness={0.55}
+            envMapIntensity={0.5}
             emissive="#ff5a1a"
             emissiveIntensity={1.4 * e.discoCalor}
           />
         </mesh>
-        <mesh geometry={discos.b} position={[discos.sep, 0, 0]} castShadow>
-          <meshPhysicalMaterial color="#c5ccd6" metalness={0.95} roughness={0.25} emissive="#ff5a1a" emissiveIntensity={0.9 * e.discoCalor} />
+        <mesh geometry={discos.b} position={[discos.sep, 0, 0]}>
+          <meshPhysicalMaterial color="#c5ccd6" metalness={0.9} roughness={0.4} envMapIntensity={0.6} emissive="#ff5a1a" emissiveIntensity={0.9 * e.discoCalor} />
         </mesh>
       </group>
       <mesh position={[(varillaDesde + varillaHasta) / 2 + 0.02, P.disco[1], 0]} rotation={[0, 0, Math.PI / 2]}>

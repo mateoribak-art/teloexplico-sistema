@@ -175,7 +175,11 @@ const estado = (frame: number): EstadoPava => ({
   ]),
 });
 
-const DESTACAR = ["sola", "vapor", "tubito", "metales", "estiran", "clac", "termómetro", "altura", "cien", "1955", "cincuenta", "Inglaterra", "abierta", "escapa", "Mandáselo"];
+const DESTACAR = ["sola", "vapor", "tubito", "metales", "estiran", "clac", "termómetro", "altura", "100 °C", "1955", "abierta", "escapa", "Mandáselo"];
+const CIFRAS: [string, string][] = [
+  ["cien grados", "100 °C"],
+  ["mil novecientos cincuenta y cinco", "1955"],
+];
 
 const Anio: React.FC = () => {
   const frame = useCurrentFrame();
@@ -222,7 +226,7 @@ export const PavaSeCorta3D: React.FC = () => {
       <Chip desde={E.ojo + 14} hasta={E.cta + 4} x={540} y={330} color="#ff5a4a">
         Tapa abierta: <span style={{ color: "#ff8a7a" }}>puede no cortarse</span>
       </Chip>
-      <Subtitulo3D tiempos={tiempos} destacar={DESTACAR} />
+      <Subtitulo3D tiempos={tiempos} destacar={DESTACAR} cifras={CIFRAS} />
       <Marco3D total={DURACION} />
       <Audio src={staticFile("3d-pava-se-corta/voz.wav")} volume={1} />
       <Musica hasta={DURACION} volumen={0.12} />

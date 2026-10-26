@@ -18,6 +18,24 @@ const norm = (s: string) =>
 
 type Trozo = { palabras: string[]; inicio: number; fin: number };
 
+/** Junta palabras dichas en una sola escrita ("mil novecientos cincuenta y cinco" → "1955"), con el tiempo del grupo. */
+const enCifras = (t: Tiempos, cifras: [string, string][]): Tiempos => ({
+  ...t,
+  frases: t.frases.map((fr) => {
+    const pals = [...fr.palabras];
+    for (const [dicho, escrito] of cifras) {
+      const n = dicho.split(" ").length;
+      for (let i = 0; i + n <= pals.length; i++) {
+        const tramo = pals.slice(i, i + n);
+        if (norm(tramo.map((p) => p.texto).join(" ")) !== norm(dicho)) continue;
+        const cola = tramo[n - 1].texto.match(/[.,:;?!…]+$/)?.[0] ?? "";
+        pals.splice(i, n, { texto: escrito + cola, inicio: tramo[0].inicio, fin: tramo[n - 1].fin });
+      }
+    }
+    return { ...fr, palabras: pals };
+  }),
+});
+
 /** Corta la voz en trozos de hasta `max` palabras; corta también después de un signo de puntuación. */
 export const trozar = (t: Tiempos, max = 3): Trozo[] => {
   const trozos: Trozo[] = [];
@@ -38,12 +56,18 @@ export const trozar = (t: Tiempos, max = 3): Trozo[] => {
   return trozos.map((tr, i) => ({ ...tr, fin: Math.min(trozos[i + 1]?.inicio ?? tr.fin + 0.4, tr.fin + 0.4) }));
 };
 
-/** `destacar`: palabras (o pedazos de palabra) que van en color. Se pinta como máximo una por trozo. */
-export const Subtitulo3D: React.FC<{ tiempos: Tiempos; destacar: string[]; y?: number }> = ({ tiempos, destacar, y = 1400 }) => {
+/** `destacar`: palabras enteras que van en color (se pinta como máximo una por trozo).
+ *  `cifras`: lo que la voz dice en palabras y en pantalla va en números, p. ej. ["cien grados", "100 °C"]. */
+export const Subtitulo3D: React.FC<{ tiempos: Tiempos; destacar: string[]; cifras?: [string, string][]; y?: number }> = ({
+  tiempos,
+  destacar,
+  cifras = [],
+  y = 1400,
+}) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
-  const trozos = React.useMemo(() => trozar(tiempos), [tiempos]);
+  const trozos = React.useMemo(() => trozar(enCifras(tiempos, cifras)), [tiempos, cifras]);
   const tr = trozos.find((x) => t >= x.inicio - 0.05 && t < x.fin);
   if (!tr) return null;
   const entrada = interpolate(t, [tr.inicio - 0.05, tr.inicio + 0.12], [0, 1], clamp);
@@ -71,7 +95,8 @@ export const Subtitulo3D: React.FC<{ tiempos: Tiempos; destacar: string[]; y?: n
       >
         {tr.palabras.map((p, i) => {
           const n = norm(p);
-          const es = !pintada && claves.some((c) => c && n.includes(c));
+          // palabra entera: "cien" no tiene que pintar "novecientos"
+          const es = !pintada && claves.some((c) => c && n === c);
           if (es) pintada = true;
           return (
             <span key={i} style={{ color: es ? ACENTO : undefined }}>
