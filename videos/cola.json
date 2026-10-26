@@ -24,7 +24,7 @@
  {
   "slug": "002-corte-digestion",
   "tema": "¿Hay que esperar 2 horas para nadar después de comer?",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -35,6 +35,11 @@
     "estado": "listo",
     "cuando": "2026-10-24T00:53",
     "motivo": "producido en sesión, control OK"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-26T12:34",
+    "motivo": "https://www.instagram.com/reel/De9nQDYCaey/"
    }
   ]
  },
