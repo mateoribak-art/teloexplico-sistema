@@ -39,7 +39,7 @@ export const SelloFinal: React.FC = () => {
   const { fps } = useVideoConfig();
   const r = resorte(frame, fps, 0, 320);
   return (
-    <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", background: `rgba(255,246,229,${Math.min(0.85, frame / 4)})` }}>
+    <AbsoluteFill style={{ flexDirection: "column", justifyContent: "center", alignItems: "center", background: `rgba(255,246,229,${Math.min(0.85, frame / 4)})` }}>
       <div
         style={{
           scale: interpolate(r, [0, 1], [2.2, 1]), rotate: "-4deg", display: "flex", alignItems: "center", gap: 14,
@@ -49,9 +49,19 @@ export const SelloFinal: React.FC = () => {
       >
         te lo explico <Burbuja tam={70} />
       </div>
+      {/* 26/10: 80 mil vistas y 132 seguidores: el cierre invita a seguir la serie (corto, para no romper el loop) */}
+      <div
+        style={{
+          marginTop: 34, opacity: interpolate(frame, [6, 12], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
+          background: C.tinta, color: C.amarillo, fontFamily: display, fontWeight: 800, fontSize: 50, padding: "10px 30px",
+          borderRadius: 999, rotate: "2deg",
+        }}
+      >
+        seguí @teloexplico.ar · un dato por día
+      </div>
     </AbsoluteFill>
   );
 };
 
 /** Dura lo que dura el sello final. */
-export const DUR_SELLO_FINAL = 26;
+export const DUR_SELLO_FINAL = 42;
