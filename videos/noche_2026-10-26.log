@@ -18,3 +18,10 @@ Quedaron listos `016-el-nino-clima` y `018-refresca-tormenta`. No hubo apartados
 
 Anoté los dos en `videos/produccion.log` y marqué la idea como usada en `videos/ideas.md`.
 2026-10-26 17:51 Termina la producción (ok).
+2026-10-26 17:52 Arranca la producción (8 listos en la cola, meta 10).
+Quedaron listos los dos videos que produje, `018-rayo-trueno` y `019-sensacion-termica`; no quedó nada apartado ni incompleto.
+- **`018-rayo-trueno`** (34 s): contar los segundos entre el rayo y el trueno, unos tres por kilómetro. El chequeo de datos lo rechazó una vez porque la frase del Servicio Meteorológico de Estados Unidos no decía "probablemente"; lo agregué y pasó. Control OK.
+- **`019-sensacion-termica`** (46 s): por qué la humedad hace que el calor se sienta más que el termómetro, con las cifras del Servicio Meteorológico de Estados Unidos pasadas a Celsius. El chequeo lo aprobó a la primera. Control OK.
+- No hice un tercero porque el máximo era dos. Con estos dos, la cola tiene 10 videos listos. La cuota de Gemini no se agotó (usé 2 de 10 pedidos de voz).
+Además, `videos/ideas.md` y `videos/produccion.log` quedan actualizados con los dos videos.
+2026-10-26 18:14 Termina la producción (ok).

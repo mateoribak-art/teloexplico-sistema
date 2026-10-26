@@ -1,0 +1,72 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones fácticas quedaron verificadas con fuente (NWS, SMN vía Télam/Forbes Argentina, MIT). Cifras: 100°F=37,8°C≈38; 96°F=35,6°C≈36; 124°F=51,1°C≈51, así que 'unos' alcanza. La frase de la sombra está en la fuente y la caption atribuye la fórmula al SMN. Sin afirmaciones probables, dudosas ni falsas; no hay afirmaciones de salud ni de plata.",
+  "afirmaciones": [
+    {
+      "texto": "El termómetro marca 38 grados, pero se siente como mucho más (apertura, con humedad alta)",
+      "fuente": "https://www.weather.gov/ama/heatindex (100°F con 55 % de humedad da 124°F, unos 51°C)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sudar te enfría solo si el sudor se evapora",
+      "fuente": "MIT Engineering, 'Ask an Engineer': https://engineering.mit.edu/ask-an-engineer/why-do-we-sweat-more-in-high-humidity (el sudor enfría al evaporarse, por el calor latente del agua)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Con aire seco el sudor se evapora rápido y te enfría",
+      "fuente": "MIT Engineering (mismo enlace): la velocidad de evaporación depende de la humedad que ya hay en el aire",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Con aire húmedo casi no se evapora",
+      "fuente": "MIT Engineering y NWS: con humedad muy alta el sudor se evapora muy lento, si es que lo hace. 'Casi' es el matiz correcto",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El Servicio Meteorológico de Estados Unidos lo calculó para 38 °C (100 °F)",
+      "fuente": "https://www.weather.gov/ama/heatindex (NWS, tabla del índice de calor, en °F). 100°F = 37,8°C ≈ 38°C",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Con 15 % de humedad se siente como unos 36 °C",
+      "fuente": "https://www.weather.gov/ama/heatindex: 100°F con 15 % da 96°F. 96°F = 35,6°C ≈ 36°C. 'Unos' cubre el redondeo",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Con 55 % de humedad se siente como unos 51 °C",
+      "fuente": "https://www.weather.gov/ama/heatindex: 100°F con 55 % da 124°F. 124°F = 51,1°C ≈ 51°C. 'Unos' cubre el redondeo y el error de ±1,3°F de la ecuación",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La sensación térmica no se mide con un aparato, se calcula con una fórmula",
+      "fuente": "SMN vía Télam (Cindy Fernández): https://www.forbesargentina.com/today/la-humedad-responsable-sensacion-calor-agobiante-amba-informa-smn-n30270 ('no es un valor que se mida con un instrumento'; 'se establece a través de una fórmula matemática'). La caption lo atribuye al SMN; NWS también publica la ecuación de regresión",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Esos valores son a la sombra: al sol se siente todavía más",
+      "fuente": "https://www.weather.gov/ama/heatindex: los valores son para lugares a la sombra; con luz solar directa el índice puede aumentar hasta 15°F. No se da cifra, así que no hay imprecisión",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Con la misma temperatura, la humedad cambia todo (remate)",
+      "fuente": "https://www.weather.gov/ama/heatindex: mismos 100°F dan 96°F o 124°F según la humedad. Es una síntesis retórica del ejemplo anterior",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mandáselo a ese que dice: no hace tanto calor, son treinta (llamado a compartir)",
+      "fuente": "No es una afirmación fáctica, es un gancho humorístico. Sin fuente primaria necesaria",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

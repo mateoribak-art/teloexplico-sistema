@@ -1,0 +1,16 @@
+{
+  "titulo": "¿A qué distancia está la tormenta? Contá entre el rayo y el trueno",
+  "fuentes": ["National Weather Service (NOAA): Lightning Safety", "Live Science: How far away is lightning?"],
+  "frases": [
+    {"texto": "Viste el rayo. ¿Cuánto falta para que llegue la tormenta?", "estilo": "Intriga, rápido, mirando por la ventana."},
+    {"texto": "Contá los segundos hasta el trueno.", "estilo": "Seco y claro, como una orden."},
+    {"texto": "La luz del rayo llega casi al instante.", "estilo": "Explicativo, ágil."},
+    {"texto": "El sonido, en cambio, tarda.", "estilo": "Con una pausa antes de 'tarda'."},
+    {"texto": "Más o menos tres segundos por cada kilómetro.", "estilo": "Contundente, dato clave."},
+    {"texto": "Si contaste seis, el rayo cayó a unos dos kilómetros.", "estilo": "Cálido, haciendo la cuenta."},
+    {"texto": "Es una estimación, no una medida exacta.", "estilo": "Honesto, tranquilo."},
+    {"texto": "Ojo: si ya escuchás el trueno, para el Servicio Meteorológico de Estados Unidos, probablemente ya estés al alcance de un rayo.", "estilo": "Serio, con peso."},
+    {"texto": "La cuenta sirve para curiosear. Si truena, adentro.", "estilo": "Directo, contundente."},
+    {"texto": "Mandáselo a ese que sale al balcón a filmar los rayos.", "estilo": "Cómplice, con humor."}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "titulo": "¿Por qué la sensación térmica es mayor que la temperatura? La humedad y el sudor",
+  "fuentes": ["National Weather Service (NOAA): Heat Index", "Servicio Meteorológico Nacional (Argentina), vía Télam: la sensación térmica se calcula con una fórmula"],
+  "frases": [
+    {"texto": "El termómetro marca treinta y ocho grados, pero se siente como mucho más. ¿Por qué?", "estilo": "Intriga, rápido."},
+    {"texto": "No exagerás. Es el sudor.", "estilo": "Seco, con media sonrisa."},
+    {"texto": "Sudar te enfría solo si el sudor se evapora.", "estilo": "Explicativo, ágil."},
+    {"texto": "Con aire seco, se evapora rápido y te enfría.", "estilo": "Tranquilo."},
+    {"texto": "Con aire húmedo, casi no se evapora y te quedás cocinando.", "estilo": "Con humor."},
+    {"texto": "El Servicio Meteorológico de Estados Unidos lo calculó para treinta y ocho grados: con quince por ciento de humedad, se siente como unos treinta y seis; con cincuenta y cinco, como unos cincuenta y uno.", "estilo": "Contundente, dato clave."},
+    {"texto": "Ojo: la sensación térmica no se mide con un aparato, se calcula con una fórmula.", "estilo": "Honesto, tranquilo."},
+    {"texto": "Y esos valores son a la sombra: al sol, se siente todavía más.", "estilo": "Serio."},
+    {"texto": "Con la misma temperatura, la humedad cambia todo.", "estilo": "Remate, firme."},
+    {"texto": "Mandáselo a ese que dice: no hace tanto calor, son treinta.", "estilo": "Cómplice, con humor."}
+  ]
+}

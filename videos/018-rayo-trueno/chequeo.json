@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones están verificadas con fuente. La frase de seguridad (8) ahora lleva 'probablemente' y coincide con el NWS ('likely within striking distance'); la regla de contar segundos es presentada como estimación. Sin afirmaciones falsas ni dudosas.",
+  "afirmaciones": [
+    {
+      "texto": "La luz del rayo llega casi al instante.",
+      "fuente": "https://www.livescience.com/37734-how-far-away-is-lightning-distance.html",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El sonido tarda más que la luz (trueno llega después del rayo).",
+      "fuente": "https://www.livescience.com/37734-how-far-away-is-lightning-distance.html",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Más o menos tres segundos por cada kilómetro.",
+      "fuente": "https://www.livescience.com/37734-how-far-away-is-lightning-distance.html; https://sciencenotes.org/time-between-lightning-and-thunder-how-far-away-is-lightning/",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si contaste seis segundos, el rayo cayó a unos dos kilómetros.",
+      "fuente": "https://www.livescience.com/37734-how-far-away-is-lightning-distance.html (6 s / 3 = 2 km; con 343 m/s da 2,06 km)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Es una estimación, no una medida exacta (la velocidad del sonido varía con la temperatura).",
+      "fuente": "https://omnicalculator.com/physics/lightning-distance; https://sciencenotes.org/time-between-lightning-and-thunder-how-far-away-is-lightning/",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La velocidad del sonido ronda los 340 metros por segundo (caption).",
+      "fuente": "https://omnicalculator.com/physics/lightning-distance (343 m/s a ~20 °C; rango aprox. 320-340 según temperatura)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si ya escuchás el trueno, para el Servicio Meteorológico de Estados Unidos, probablemente ya estés al alcance de un rayo.",
+      "fuente": "https://www.weather.gov/safety/lightning-safety-overview ('If you hear thunder, you are likely within striking distance of the storm')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si truena, adentro / lo mejor es resguardarte adentro.",
+      "fuente": "https://www.weather.gov/safety/lightning-safety-overview ('When Thunder Roars, Go Indoors!')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Atribución: fuentes National Weather Service (NOAA) Lightning Safety y Live Science 'How far away is lightning?' (caption y guion).",
+      "fuente": "https://www.weather.gov/safety/lightning-safety-overview; https://www.livescience.com/37734-how-far-away-is-lightning-distance.html",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

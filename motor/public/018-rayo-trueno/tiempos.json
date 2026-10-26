@@ -1,0 +1,545 @@
+{
+ "duracion": 34.21,
+ "frases": [
+  {
+   "texto": "Viste el rayo. ¿Cuánto falta para que llegue la tormenta?",
+   "palabras": [
+    {
+     "texto": "Viste",
+     "inicio": 0.0,
+     "fin": 0.16
+    },
+    {
+     "texto": "el",
+     "inicio": 0.16,
+     "fin": 0.34
+    },
+    {
+     "texto": "rayo.",
+     "inicio": 0.34,
+     "fin": 0.58
+    },
+    {
+     "texto": "¿Cuánto",
+     "inicio": 1.1,
+     "fin": 1.34
+    },
+    {
+     "texto": "falta",
+     "inicio": 1.34,
+     "fin": 1.54
+    },
+    {
+     "texto": "para",
+     "inicio": 1.54,
+     "fin": 1.76
+    },
+    {
+     "texto": "que",
+     "inicio": 1.76,
+     "fin": 1.88
+    },
+    {
+     "texto": "llegue",
+     "inicio": 1.88,
+     "fin": 2.08
+    },
+    {
+     "texto": "la",
+     "inicio": 2.08,
+     "fin": 2.18
+    },
+    {
+     "texto": "tormenta?",
+     "inicio": 2.18,
+     "fin": 2.62
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.62
+  },
+  {
+   "texto": "Contá los segundos hasta el trueno.",
+   "palabras": [
+    {
+     "texto": "Contá",
+     "inicio": 3.04,
+     "fin": 3.36
+    },
+    {
+     "texto": "los",
+     "inicio": 3.36,
+     "fin": 3.48
+    },
+    {
+     "texto": "segundos",
+     "inicio": 3.48,
+     "fin": 3.76
+    },
+    {
+     "texto": "hasta",
+     "inicio": 3.76,
+     "fin": 4.0
+    },
+    {
+     "texto": "el",
+     "inicio": 4.0,
+     "fin": 4.12
+    },
+    {
+     "texto": "trueno.",
+     "inicio": 4.12,
+     "fin": 4.36
+    }
+   ],
+   "inicio": 3.04,
+   "fin": 4.36
+  },
+  {
+   "texto": "La luz del rayo llega casi al instante.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 4.9,
+     "fin": 5.02
+    },
+    {
+     "texto": "luz",
+     "inicio": 5.02,
+     "fin": 5.18
+    },
+    {
+     "texto": "del",
+     "inicio": 5.18,
+     "fin": 5.32
+    },
+    {
+     "texto": "rayo",
+     "inicio": 5.32,
+     "fin": 5.6
+    },
+    {
+     "texto": "llega",
+     "inicio": 5.6,
+     "fin": 5.86
+    },
+    {
+     "texto": "casi",
+     "inicio": 5.86,
+     "fin": 6.08
+    },
+    {
+     "texto": "al",
+     "inicio": 6.08,
+     "fin": 6.2
+    },
+    {
+     "texto": "instante.",
+     "inicio": 6.2,
+     "fin": 6.54
+    }
+   ],
+   "inicio": 4.9,
+   "fin": 6.54
+  },
+  {
+   "texto": "El sonido, en cambio, tarda.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 7.12,
+     "fin": 7.24
+    },
+    {
+     "texto": "sonido,",
+     "inicio": 7.24,
+     "fin": 7.58
+    },
+    {
+     "texto": "en",
+     "inicio": 7.7,
+     "fin": 7.7
+    },
+    {
+     "texto": "cambio,",
+     "inicio": 7.7,
+     "fin": 7.94
+    },
+    {
+     "texto": "tarda.",
+     "inicio": 8.46,
+     "fin": 8.66
+    }
+   ],
+   "inicio": 7.12,
+   "fin": 8.66
+  },
+  {
+   "texto": "Más o menos tres segundos por cada kilómetro.",
+   "palabras": [
+    {
+     "texto": "Más",
+     "inicio": 9.16,
+     "fin": 9.36
+    },
+    {
+     "texto": "o",
+     "inicio": 9.36,
+     "fin": 9.46
+    },
+    {
+     "texto": "menos",
+     "inicio": 9.46,
+     "fin": 9.56
+    },
+    {
+     "texto": "tres",
+     "inicio": 9.56,
+     "fin": 9.8
+    },
+    {
+     "texto": "segundos",
+     "inicio": 9.8,
+     "fin": 10.1
+    },
+    {
+     "texto": "por",
+     "inicio": 10.1,
+     "fin": 10.34
+    },
+    {
+     "texto": "cada",
+     "inicio": 10.34,
+     "fin": 10.52
+    },
+    {
+     "texto": "kilómetro.",
+     "inicio": 10.52,
+     "fin": 11.02
+    }
+   ],
+   "inicio": 9.16,
+   "fin": 11.02
+  },
+  {
+   "texto": "Si contaste seis, el rayo cayó a unos dos kilómetros.",
+   "palabras": [
+    {
+     "texto": "Si",
+     "inicio": 11.54,
+     "fin": 11.68
+    },
+    {
+     "texto": "contaste",
+     "inicio": 11.68,
+     "fin": 12.0
+    },
+    {
+     "texto": "seis,",
+     "inicio": 12.0,
+     "fin": 12.32
+    },
+    {
+     "texto": "el",
+     "inicio": 12.8,
+     "fin": 12.94
+    },
+    {
+     "texto": "rayo",
+     "inicio": 12.94,
+     "fin": 13.18
+    },
+    {
+     "texto": "cayó",
+     "inicio": 13.18,
+     "fin": 13.44
+    },
+    {
+     "texto": "a",
+     "inicio": 13.44,
+     "fin": 13.48
+    },
+    {
+     "texto": "unos",
+     "inicio": 13.48,
+     "fin": 13.64
+    },
+    {
+     "texto": "dos",
+     "inicio": 13.64,
+     "fin": 13.9
+    },
+    {
+     "texto": "kilómetros.",
+     "inicio": 13.9,
+     "fin": 14.44
+    }
+   ],
+   "inicio": 11.54,
+   "fin": 14.44
+  },
+  {
+   "texto": "Es una estimación, no una medida exacta.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 14.96,
+     "fin": 15.24
+    },
+    {
+     "texto": "una",
+     "inicio": 15.24,
+     "fin": 15.44
+    },
+    {
+     "texto": "estimación,",
+     "inicio": 15.44,
+     "fin": 16.02
+    },
+    {
+     "texto": "no",
+     "inicio": 16.34,
+     "fin": 16.56
+    },
+    {
+     "texto": "una",
+     "inicio": 16.56,
+     "fin": 16.78
+    },
+    {
+     "texto": "medida",
+     "inicio": 16.78,
+     "fin": 17.08
+    },
+    {
+     "texto": "exacta.",
+     "inicio": 17.08,
+     "fin": 17.64
+    }
+   ],
+   "inicio": 14.96,
+   "fin": 17.64
+  },
+  {
+   "texto": "Ojo: si ya escuchás el trueno, para el Servicio Meteorológico de Estados Unidos, probablemente ya estés al alcance de un rayo.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 18.08,
+     "fin": 18.38
+    },
+    {
+     "texto": "si",
+     "inicio": 18.92,
+     "fin": 19.04
+    },
+    {
+     "texto": "ya",
+     "inicio": 19.04,
+     "fin": 19.28
+    },
+    {
+     "texto": "escuchás",
+     "inicio": 19.28,
+     "fin": 19.7
+    },
+    {
+     "texto": "el",
+     "inicio": 19.7,
+     "fin": 19.88
+    },
+    {
+     "texto": "trueno,",
+     "inicio": 19.88,
+     "fin": 20.26
+    },
+    {
+     "texto": "para",
+     "inicio": 20.54,
+     "fin": 20.88
+    },
+    {
+     "texto": "el",
+     "inicio": 20.88,
+     "fin": 21.0
+    },
+    {
+     "texto": "Servicio",
+     "inicio": 21.0,
+     "fin": 21.4
+    },
+    {
+     "texto": "Meteorológico",
+     "inicio": 21.4,
+     "fin": 22.22
+    },
+    {
+     "texto": "de",
+     "inicio": 22.22,
+     "fin": 22.34
+    },
+    {
+     "texto": "Estados",
+     "inicio": 22.34,
+     "fin": 22.54
+    },
+    {
+     "texto": "Unidos,",
+     "inicio": 22.54,
+     "fin": 23.02
+    },
+    {
+     "texto": "probablemente",
+     "inicio": 23.52,
+     "fin": 24.38
+    },
+    {
+     "texto": "ya",
+     "inicio": 24.38,
+     "fin": 24.56
+    },
+    {
+     "texto": "estés",
+     "inicio": 24.56,
+     "fin": 24.8
+    },
+    {
+     "texto": "al",
+     "inicio": 24.8,
+     "fin": 24.98
+    },
+    {
+     "texto": "alcance",
+     "inicio": 24.98,
+     "fin": 25.4
+    },
+    {
+     "texto": "de",
+     "inicio": 25.4,
+     "fin": 25.58
+    },
+    {
+     "texto": "un",
+     "inicio": 25.58,
+     "fin": 25.72
+    },
+    {
+     "texto": "rayo.",
+     "inicio": 25.72,
+     "fin": 26.14
+    }
+   ],
+   "inicio": 18.08,
+   "fin": 26.14
+  },
+  {
+   "texto": "La cuenta sirve para curiosear. Si truena, adentro.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 26.14,
+     "fin": 26.68
+    },
+    {
+     "texto": "cuenta",
+     "inicio": 26.68,
+     "fin": 26.92
+    },
+    {
+     "texto": "sirve",
+     "inicio": 26.92,
+     "fin": 27.42
+    },
+    {
+     "texto": "para",
+     "inicio": 27.42,
+     "fin": 27.68
+    },
+    {
+     "texto": "curiosear.",
+     "inicio": 27.68,
+     "fin": 28.66
+    },
+    {
+     "texto": "Si",
+     "inicio": 29.14,
+     "fin": 29.26
+    },
+    {
+     "texto": "truena,",
+     "inicio": 29.26,
+     "fin": 29.68
+    },
+    {
+     "texto": "adentro.",
+     "inicio": 30.1,
+     "fin": 30.8
+    }
+   ],
+   "inicio": 26.14,
+   "fin": 30.8
+  },
+  {
+   "texto": "Mandáselo a ese que sale al balcón a filmar los rayos.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 31.3,
+     "fin": 31.82
+    },
+    {
+     "texto": "a",
+     "inicio": 31.82,
+     "fin": 31.92
+    },
+    {
+     "texto": "ese",
+     "inicio": 31.92,
+     "fin": 32.1
+    },
+    {
+     "texto": "que",
+     "inicio": 32.1,
+     "fin": 32.28
+    },
+    {
+     "texto": "sale",
+     "inicio": 32.28,
+     "fin": 32.52
+    },
+    {
+     "texto": "al",
+     "inicio": 32.52,
+     "fin": 32.68
+    },
+    {
+     "texto": "balcón",
+     "inicio": 32.68,
+     "fin": 33.06
+    },
+    {
+     "texto": "a",
+     "inicio": 33.06,
+     "fin": 33.2
+    },
+    {
+     "texto": "filmar",
+     "inicio": 33.2,
+     "fin": 33.64
+    },
+    {
+     "texto": "los",
+     "inicio": 33.64,
+     "fin": 33.74
+    },
+    {
+     "texto": "rayos.",
+     "inicio": 33.74,
+     "fin": 34.12
+    }
+   ],
+   "inicio": 31.3,
+   "fin": 34.12
+  }
+ ]
+}
