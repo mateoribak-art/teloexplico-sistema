@@ -39,3 +39,8 @@ Lo que lo hizo funcionar (para usar con nuestro estilo, sin copiar su estética 
 4. **Personajes con cara solo para las fuerzas invisibles** (la corriente cálida, la alta presión): vuelven entendible lo abstracto.
 5. **El "Ojo" da vuelta lo que creías** ("en octubre llueve el doble que en julio") y el cierre "mandáselo a ese que…" apunta a alguien concreto.
 Nuestro 016 (versión corta) tomó el pin "VOS". Cuidado con los datos: según ellos y un meteorólogo, El Niño es cómplice, no el único culpable: nunca decir "la culpa es de El Niño" a secas.
+
+## Clima: lo que tracciona en las cuentas de referencia (Business Discovery, 26/10/2026)
+- @1action1reaction "¿Te mojás menos si corrés bajo la lluvia?" 211 mil ♥ (×29 su mediana) · @posta.explica El Niño 125 mil ♥ (×47) · @proyecto_atom "¿por qué hace más frío en la montaña si estás más cerca del sol?" 12 mil ♥ (×52) · @posta.explica metal vs madera 17 mil ♥ (×7).
+- Patrón: un MOMENTO que todos vivieron + un "¿por qué?" que parece obvio y no lo es. No "el clima" en general. Las cuentas prácticas de la vida diaria (1bit1pixel) también explotan.
+- Para mirar de nuevo: `herramientas` no tiene script; se hizo con la API de Instagram (business_discovery.username(...){media{caption,like_count}}), no da vistas.
