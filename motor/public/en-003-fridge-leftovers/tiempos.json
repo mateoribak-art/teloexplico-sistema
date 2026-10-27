@@ -1,0 +1,664 @@
+{
+ "duracion": 41.0,
+ "frases": [
+  {
+   "texto": "You let your leftovers cool on the counter before they go in the fridge.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.22
+    },
+    {
+     "texto": "let",
+     "inicio": 0.22,
+     "fin": 0.52
+    },
+    {
+     "texto": "your",
+     "inicio": 0.52,
+     "fin": 0.68
+    },
+    {
+     "texto": "leftovers",
+     "inicio": 0.68,
+     "fin": 1.22
+    },
+    {
+     "texto": "cool",
+     "inicio": 1.22,
+     "fin": 1.6
+    },
+    {
+     "texto": "on",
+     "inicio": 1.6,
+     "fin": 1.78
+    },
+    {
+     "texto": "the",
+     "inicio": 1.78,
+     "fin": 1.96
+    },
+    {
+     "texto": "counter",
+     "inicio": 1.96,
+     "fin": 2.28
+    },
+    {
+     "texto": "before",
+     "inicio": 2.28,
+     "fin": 2.6
+    },
+    {
+     "texto": "they",
+     "inicio": 2.6,
+     "fin": 2.78
+    },
+    {
+     "texto": "go",
+     "inicio": 2.78,
+     "fin": 2.9
+    },
+    {
+     "texto": "in",
+     "inicio": 2.9,
+     "fin": 2.98
+    },
+    {
+     "texto": "the",
+     "inicio": 2.98,
+     "fin": 3.06
+    },
+    {
+     "texto": "fridge.",
+     "inicio": 3.06,
+     "fin": 3.24
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.24
+  },
+  {
+   "texto": "That's backwards.",
+   "palabras": [
+    {
+     "texto": "That's",
+     "inicio": 3.78,
+     "fin": 4.16
+    },
+    {
+     "texto": "backwards.",
+     "inicio": 4.16,
+     "fin": 4.72
+    }
+   ],
+   "inicio": 3.78,
+   "fin": 4.72
+  },
+  {
+   "texto": "On the counter, hot food can spend hours between forty and one hundred forty degrees.",
+   "palabras": [
+    {
+     "texto": "On",
+     "inicio": 5.4,
+     "fin": 5.58
+    },
+    {
+     "texto": "the",
+     "inicio": 5.58,
+     "fin": 5.7
+    },
+    {
+     "texto": "counter,",
+     "inicio": 5.7,
+     "fin": 5.98
+    },
+    {
+     "texto": "hot",
+     "inicio": 6.32,
+     "fin": 6.6
+    },
+    {
+     "texto": "food",
+     "inicio": 6.6,
+     "fin": 6.8
+    },
+    {
+     "texto": "can",
+     "inicio": 6.8,
+     "fin": 6.96
+    },
+    {
+     "texto": "spend",
+     "inicio": 6.96,
+     "fin": 7.24
+    },
+    {
+     "texto": "hours",
+     "inicio": 7.24,
+     "fin": 7.8
+    },
+    {
+     "texto": "between",
+     "inicio": 7.8,
+     "fin": 8.16
+    },
+    {
+     "texto": "forty",
+     "inicio": 8.16,
+     "fin": 8.64
+    },
+    {
+     "texto": "and",
+     "inicio": 8.64,
+     "fin": 8.86
+    },
+    {
+     "texto": "one",
+     "inicio": 8.86,
+     "fin": 9.0
+    },
+    {
+     "texto": "hundred",
+     "inicio": 9.0,
+     "fin": 9.18
+    },
+    {
+     "texto": "forty",
+     "inicio": 9.18,
+     "fin": 9.46
+    },
+    {
+     "texto": "degrees.",
+     "inicio": 9.46,
+     "fin": 9.74
+    }
+   ],
+   "inicio": 5.4,
+   "fin": 9.74
+  },
+  {
+   "texto": "In that zone, bacteria can double in as little as twenty minutes.",
+   "palabras": [
+    {
+     "texto": "In",
+     "inicio": 10.54,
+     "fin": 10.66
+    },
+    {
+     "texto": "that",
+     "inicio": 10.66,
+     "fin": 10.94
+    },
+    {
+     "texto": "zone,",
+     "inicio": 10.94,
+     "fin": 11.26
+    },
+    {
+     "texto": "bacteria",
+     "inicio": 11.82,
+     "fin": 12.22
+    },
+    {
+     "texto": "can",
+     "inicio": 12.22,
+     "fin": 12.58
+    },
+    {
+     "texto": "double",
+     "inicio": 12.58,
+     "fin": 12.9
+    },
+    {
+     "texto": "in",
+     "inicio": 12.9,
+     "fin": 13.18
+    },
+    {
+     "texto": "as",
+     "inicio": 13.18,
+     "fin": 13.3
+    },
+    {
+     "texto": "little",
+     "inicio": 13.3,
+     "fin": 13.5
+    },
+    {
+     "texto": "as",
+     "inicio": 13.5,
+     "fin": 13.68
+    },
+    {
+     "texto": "twenty",
+     "inicio": 13.68,
+     "fin": 14.04
+    },
+    {
+     "texto": "minutes.",
+     "inicio": 14.04,
+     "fin": 14.38
+    }
+   ],
+   "inicio": 10.54,
+   "fin": 14.38
+  },
+  {
+   "texto": "So where'd the myth come from?",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 15.02,
+     "fin": 15.22
+    },
+    {
+     "texto": "where'd",
+     "inicio": 15.22,
+     "fin": 15.58
+    },
+    {
+     "texto": "the",
+     "inicio": 15.58,
+     "fin": 15.62
+    },
+    {
+     "texto": "myth",
+     "inicio": 15.62,
+     "fin": 15.76
+    },
+    {
+     "texto": "come",
+     "inicio": 15.76,
+     "fin": 15.94
+    },
+    {
+     "texto": "from?",
+     "inicio": 15.94,
+     "fin": 16.12
+    }
+   ],
+   "inicio": 15.02,
+   "fin": 16.12
+  },
+  {
+   "texto": "Probably old iceboxes, where hot food melted the ice.",
+   "palabras": [
+    {
+     "texto": "Probably",
+     "inicio": 16.6,
+     "fin": 17.0
+    },
+    {
+     "texto": "old",
+     "inicio": 17.0,
+     "fin": 17.5
+    },
+    {
+     "texto": "iceboxes,",
+     "inicio": 17.5,
+     "fin": 18.42
+    },
+    {
+     "texto": "where",
+     "inicio": 18.44,
+     "fin": 18.68
+    },
+    {
+     "texto": "hot",
+     "inicio": 18.68,
+     "fin": 18.98
+    },
+    {
+     "texto": "food",
+     "inicio": 18.98,
+     "fin": 19.12
+    },
+    {
+     "texto": "melted",
+     "inicio": 19.12,
+     "fin": 19.4
+    },
+    {
+     "texto": "the",
+     "inicio": 19.4,
+     "fin": 19.6
+    },
+    {
+     "texto": "ice.",
+     "inicio": 19.6,
+     "fin": 19.82
+    }
+   ],
+   "inicio": 16.6,
+   "fin": 19.82
+  },
+  {
+   "texto": "Today's fridges can handle it just fine.",
+   "palabras": [
+    {
+     "texto": "Today's",
+     "inicio": 20.4,
+     "fin": 20.72
+    },
+    {
+     "texto": "fridges",
+     "inicio": 20.72,
+     "fin": 20.98
+    },
+    {
+     "texto": "can",
+     "inicio": 20.98,
+     "fin": 21.48
+    },
+    {
+     "texto": "handle",
+     "inicio": 21.48,
+     "fin": 21.74
+    },
+    {
+     "texto": "it",
+     "inicio": 21.74,
+     "fin": 21.9
+    },
+    {
+     "texto": "just",
+     "inicio": 21.9,
+     "fin": 22.0
+    },
+    {
+     "texto": "fine.",
+     "inicio": 22.0,
+     "fin": 22.24
+    }
+   ],
+   "inicio": 20.4,
+   "fin": 22.24
+  },
+  {
+   "texto": "Heads up: a giant pot takes forever to cool, even inside the fridge.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 22.74,
+     "fin": 22.98
+    },
+    {
+     "texto": "up:",
+     "inicio": 22.98,
+     "fin": 23.16
+    },
+    {
+     "texto": "a",
+     "inicio": 23.56,
+     "fin": 23.64
+    },
+    {
+     "texto": "giant",
+     "inicio": 23.64,
+     "fin": 24.2
+    },
+    {
+     "texto": "pot",
+     "inicio": 24.2,
+     "fin": 24.64
+    },
+    {
+     "texto": "takes",
+     "inicio": 24.64,
+     "fin": 25.16
+    },
+    {
+     "texto": "forever",
+     "inicio": 25.16,
+     "fin": 26.06
+    },
+    {
+     "texto": "to",
+     "inicio": 26.06,
+     "fin": 26.68
+    },
+    {
+     "texto": "cool,",
+     "inicio": 26.68,
+     "fin": 26.98
+    },
+    {
+     "texto": "even",
+     "inicio": 26.98,
+     "fin": 27.5
+    },
+    {
+     "texto": "inside",
+     "inicio": 27.5,
+     "fin": 27.98
+    },
+    {
+     "texto": "the",
+     "inicio": 27.98,
+     "fin": 28.2
+    },
+    {
+     "texto": "fridge.",
+     "inicio": 28.2,
+     "fin": 28.46
+    }
+   ],
+   "inicio": 22.74,
+   "fin": 28.46
+  },
+  {
+   "texto": "So split it into shallow containers.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 28.98,
+     "fin": 29.36
+    },
+    {
+     "texto": "split",
+     "inicio": 29.36,
+     "fin": 29.98
+    },
+    {
+     "texto": "it",
+     "inicio": 29.98,
+     "fin": 30.12
+    },
+    {
+     "texto": "into",
+     "inicio": 30.12,
+     "fin": 30.28
+    },
+    {
+     "texto": "shallow",
+     "inicio": 30.28,
+     "fin": 30.58
+    },
+    {
+     "texto": "containers.",
+     "inicio": 30.58,
+     "fin": 31.02
+    }
+   ],
+   "inicio": 28.98,
+   "fin": 31.02
+  },
+  {
+   "texto": "The rule: in the fridge within two hours.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 31.68,
+     "fin": 31.82
+    },
+    {
+     "texto": "rule:",
+     "inicio": 31.82,
+     "fin": 32.08
+    },
+    {
+     "texto": "in",
+     "inicio": 32.66,
+     "fin": 32.82
+    },
+    {
+     "texto": "the",
+     "inicio": 32.82,
+     "fin": 32.94
+    },
+    {
+     "texto": "fridge",
+     "inicio": 32.94,
+     "fin": 33.22
+    },
+    {
+     "texto": "within",
+     "inicio": 33.22,
+     "fin": 33.66
+    },
+    {
+     "texto": "two",
+     "inicio": 33.66,
+     "fin": 34.0
+    },
+    {
+     "texto": "hours.",
+     "inicio": 34.0,
+     "fin": 34.24
+    }
+   ],
+   "inicio": 31.68,
+   "fin": 34.24
+  },
+  {
+   "texto": "And if it's over ninety degrees out, one hour.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 34.88,
+     "fin": 35.06
+    },
+    {
+     "texto": "if",
+     "inicio": 35.06,
+     "fin": 35.18
+    },
+    {
+     "texto": "it's",
+     "inicio": 35.18,
+     "fin": 35.32
+    },
+    {
+     "texto": "over",
+     "inicio": 35.32,
+     "fin": 35.48
+    },
+    {
+     "texto": "ninety",
+     "inicio": 35.48,
+     "fin": 35.78
+    },
+    {
+     "texto": "degrees",
+     "inicio": 35.78,
+     "fin": 36.04
+    },
+    {
+     "texto": "out,",
+     "inicio": 36.04,
+     "fin": 36.36
+    },
+    {
+     "texto": "one",
+     "inicio": 36.8,
+     "fin": 37.0
+    },
+    {
+     "texto": "hour.",
+     "inicio": 37.0,
+     "fin": 37.46
+    }
+   ],
+   "inicio": 34.88,
+   "fin": 37.46
+  },
+  {
+   "texto": "Send this to the friend who leaves the chili on the stove all night.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 38.0,
+     "fin": 38.24
+    },
+    {
+     "texto": "this",
+     "inicio": 38.24,
+     "fin": 38.42
+    },
+    {
+     "texto": "to",
+     "inicio": 38.42,
+     "fin": 38.56
+    },
+    {
+     "texto": "the",
+     "inicio": 38.56,
+     "fin": 38.66
+    },
+    {
+     "texto": "friend",
+     "inicio": 38.66,
+     "fin": 38.88
+    },
+    {
+     "texto": "who",
+     "inicio": 38.88,
+     "fin": 39.04
+    },
+    {
+     "texto": "leaves",
+     "inicio": 39.04,
+     "fin": 39.26
+    },
+    {
+     "texto": "the",
+     "inicio": 39.26,
+     "fin": 39.46
+    },
+    {
+     "texto": "chili",
+     "inicio": 39.46,
+     "fin": 39.74
+    },
+    {
+     "texto": "on",
+     "inicio": 39.74,
+     "fin": 39.96
+    },
+    {
+     "texto": "the",
+     "inicio": 39.96,
+     "fin": 40.06
+    },
+    {
+     "texto": "stove",
+     "inicio": 40.06,
+     "fin": 40.4
+    },
+    {
+     "texto": "all",
+     "inicio": 40.4,
+     "fin": 40.7
+    },
+    {
+     "texto": "night.",
+     "inicio": 40.7,
+     "fin": 40.92
+    }
+   ],
+   "inicio": 38.0,
+   "fin": 40.92
+  }
+ ]
+}

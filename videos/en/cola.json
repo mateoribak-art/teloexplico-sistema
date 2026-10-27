@@ -54,5 +54,27 @@
   ],
   "prioridad": "actualidad",
   "creado": "2026-10-27T12:40"
+ },
+ {
+  "slug": "en-003-fridge-leftovers",
+  "tema": "Do leftovers need to cool before the fridge? (adapted from 001)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-27T17:30",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-27T17:30",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T17:39",
+    "motivo": "producción nocturna"
+   }
+  ]
  }
 ]

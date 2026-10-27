@@ -1,0 +1,23 @@
+{
+  "titulo": "Do you have to let leftovers cool before putting them in the fridge?",
+  "fuentes": [
+    "USDA FSIS — Leftovers and Food Safety: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+    "USDA FSIS — Danger Zone (40–140 °F): bacteria can double in as little as 20 minutes",
+    "USDA FSIS: above 90 °F, no more than 1 hour out of the fridge",
+    "Origen del mito — iceboxes (Indiana Public Media, AARP Myth Buster)"
+  ],
+  "frases": [
+    {"texto": "You let your leftovers cool on the counter before they go in the fridge.", "estilo": "Intrigue, like you're about to share a secret."},
+    {"texto": "That's backwards.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "On the counter, hot food can spend hours between forty and one hundred forty degrees.", "estilo": "Explaining it clearly."},
+    {"texto": "In that zone, bacteria can double in as little as twenty minutes.", "estilo": "Emphatic, like revealing something startling."},
+    {"texto": "So where'd the myth come from?", "estilo": "Curious, conversational."},
+    {"texto": "Probably old iceboxes, where hot food melted the ice.", "estilo": "Telling a friend, with a grin."},
+    {"texto": "Today's fridges can handle it just fine.", "estilo": "Cool and reassuring."},
+    {"texto": "Heads up: a giant pot takes forever to cool, even inside the fridge.", "estilo": "Friendly warning."},
+    {"texto": "So split it into shallow containers.", "estilo": "Clear and practical."},
+    {"texto": "The rule: in the fridge within two hours.", "estilo": "Firm, a clear punchline."},
+    {"texto": "And if it's over ninety degrees out, one hour.", "estilo": "Firm, adding an important detail."},
+    {"texto": "Send this to the friend who leaves the chili on the stove all night.", "estilo": "Playful, with humor."}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "titulo": "¿Los perros ven en blanco y negro?",
+  "fuentes": [
+    "Colegio Americano de Oftalmólogos Veterinarios (ACVO): Vision in Pets",
+    "VCA Animal Hospitals: Do dogs see color?"
+  ],
+  "frases": [
+    {"texto": "Tu perro no ve el mundo en blanco y negro.", "estilo": "Seco y contundente, como quien desarma un verso."},
+    {"texto": "Te comiste un verso.", "estilo": "Golpe corto, con media sonrisa."},
+    {"texto": "Vos tenés tres tipos de conos en los ojos, las células que detectan el color.", "estilo": "Explicando simple, ritmo ágil."},
+    {"texto": "Él tiene dos.", "estilo": "Pausa antes, dicho con fuerza."},
+    {"texto": "Los oftalmólogos veterinarios de Estados Unidos explican que con esos dos conos ve azules y amarillos.", "estilo": "Informativo, claro."},
+    {"texto": "Lo que le cuesta es distinguir el rojo del verde, parecido a una persona daltónica.", "estilo": "Curioso, tono de revelación."},
+    {"texto": "Ojo: no es que no vea colores. Ve menos colores que vos.", "estilo": "Aclarando, tono de matiz honesto."},
+    {"texto": "Probá hoy con una pelota azul o amarilla: en el pasto, a él le debería resultar más fácil de ver que una roja.", "estilo": "Práctico, entusiasta."},
+    {"texto": "Mandáselo al que le compró a su perro la pelota roja.", "estilo": "Cómplice, con humor."}
+  ]
+}

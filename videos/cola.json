@@ -574,5 +574,27 @@
     "motivo": "producción nocturna"
    }
   ]
+ },
+ {
+  "slug": "023-perros-colores",
+  "tema": "¿Los perros ven en blanco y negro?",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-27T17:18",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-27T17:18",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T17:28",
+    "motivo": "producción nocturna"
+   }
+  ]
  }
 ]

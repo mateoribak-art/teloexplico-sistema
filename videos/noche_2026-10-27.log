@@ -17,3 +17,17 @@ Uso: 34 pasos · 39,509 tokens nuevos · 2,168,189 de caché · 21,540 escritos 
 Permisos negados (1):
   Bash: {"command": "sed -i 's/tam={26} \\/>/tam={34} \\/>/; s/CALLE - 290/CALLE - 340/g; s/VEREDA - 290/VEREDA - 330/g' motor/src/videos/022-colectivo-de-a-d
 2026-10-27 12:40 Termina la producción (Claude no terminó bien).
+2026-10-27 17:17 Arranca la producción (13 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Terminé. Dejo el resumen.
+
+- **Listo:** `023-perros-colores` (¿Los perros ven en blanco y negro?, serie Ciencia cotidiana #1, 37,8 s). El chequeo lo rechazó una vez por la frase de la pelota azul o amarilla, que era una inferencia sin matiz. La reescribí con "debería… aunque también influyen el movimiento y el olor" y la segunda pasada lo aprobó. Pasaron la voz (109 palabras del guion, 109 oídas), `tlx tsc`, el render y `tlx control`, y quedó en la cola como `listo`. Solo revisé los cuadros una vez, no las dos vueltas mínimas que pide el skill para 2D.
+- **Apartados o incompletos:** ninguno. Descarté la idea de nieve en primavera porque no encontré una alerta del SMN de octubre de 2026 ni un dato con número; solo estaba el mecanismo de la isoterma cero, con fuentes chilenas.
+- **Segundo video:** no lo hice. La cola ya tiene más de 14 listos, así que no se cumplía la condición de menos de 10.
+
+Ya registré la corrida en `videos/produccion.log`.
+Uso: 25 pasos · 29,309 tokens nuevos · 1,318,164 de caché · 18,497 escritos · equivale a US$ 1.26 de API
+2026-10-27 17:28 Termina la producción (ok).
+2026-10-27 17:28 Arranca el carrusel (1 listos, meta 2).
+`army-bomb`: quedó listo (9 placas, control OK, origen `006-army-bomb`).
+Uso: 23 pasos · 29,611 tokens nuevos · 371,171 de caché · 3,962 escritos · equivale a US$ 0.20 de API
+2026-10-27 17:29 Termina el carrusel (ok; quedan 2 listos).

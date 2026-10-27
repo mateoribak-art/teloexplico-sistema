@@ -36,5 +36,24 @@
     "motivo": "control OK"
    }
   ]
+ },
+ {
+  "clave": "army-bomb",
+  "estado": "listo",
+  "origen": [
+   "006-army-bomb"
+  ],
+  "historial": [
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T17:29",
+    "motivo": "dato demasiado largo (12 > 10): \"milisegundos…\"; números que no están en el chequeo de los reels de origen: 1 (etiqueta), 2 (etiqueta)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T17:29",
+    "motivo": "control OK"
+   }
+  ]
  }
 ]

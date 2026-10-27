@@ -1,0 +1,10 @@
+{"origen": ["006-army-bomb"], "placas": [
+ {"tipo": "tapa", "arriba": "¿Las ARMY eligen el color de su varita?", "grande": "una consola", "promesa": "deslizá y mirá cómo"},
+ {"tipo": "paso", "etiqueta": "// spoiler", "titulo": "Nadie en la tribuna maneja su varita", "cuerpo": "Las ARMY Bomb cambiaron de color todas juntas en La Plata. No fue coordinación entre fans.", "fuente": "Infobae · Notife"},
+ {"tipo": "paso", "etiqueta": "// el mapa", "titulo": "En muchos shows, primero se registra el asiento", "cuerpo": "Cada fan carga sección, fila y asiento en una app. Así el sistema arma un mapa del estadio.", "fuente": "Excélsior"},
+ {"tipo": "paso", "etiqueta": "// en esta gira", "titulo": "En varios estadios alcanzaba con prenderla", "cuerpo": "La producción la toma sola, sin emparejar. En La Plata el sistema estaba controlado por la producción.", "fuente": "La Tecla Patagonia"},
+ {"tipo": "paso", "etiqueta": "// la señal", "titulo": "Una consola central manda las órdenes a todas", "cuerpo": "Cada varita tiene un receptor inalámbrico que obedece en milisegundos.", "fuente": "Excélsior"},
+ {"tipo": "paso", "etiqueta": "// el resultado", "titulo": "La tribuna se vuelve una pantalla gigante", "cuerpo": "Cada fan es un píxel. Se arman olas de color, figuras y hasta palabras.", "fuente": "Excélsior"},
+ {"tipo": "paso", "etiqueta": "// ojo", "titulo": "Con miles de celulares, el Bluetooth se puede trabar", "cuerpo": "Por eso muchas producciones usan señales de radio propias, que no interfieren con el wifi.", "fuente": "Excélsior"},
+ {"tipo": "resumen", "titulo": "La varita de la ARMY, en 4 ideas", "items": [[false, "El color no lo elige cada fan"], [true, "Una consola central manda las órdenes"], [true, "Cada varita recibe la señal al instante"], [true, "Cada fan es un píxel de la pantalla"]]},
+ {"tipo": "cierre", "texto": "Mandáselo a esa ARMY que jura que el violeta lo prendió ella"}]}

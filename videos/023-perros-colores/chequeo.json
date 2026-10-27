@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de salud/seguridad/plata: ninguna presente. Las afirmaciones centrales (conos, azul/amarillo, rojo/verde, comparación con daltonismo, no ven en blanco y negro) están verificadas en fuentes primarias (ACVO y VCA, leídas directamente). La única afirmación no verificada de forma directa (pelota azul/amarilla más visible que roja en el pasto, más la influencia de movimiento y olor) está marcada como 'probable' y la frase la presenta con matiz ('debería', 'aunque también influyen el movimiento y el olor'). No hay afirmaciones falsas ni dudosas. Observación: el matiz de movimiento y olor está solo en caption.txt; en guion.json la frase conserva 'debería' pero no menciona movimiento ni olor (aceptable, sigue siendo hedged). VCA confirma que el olfato ayuda al perro a encontrar su pelota; el rol del movimiento no figura en ACVO/VCA (se apoya solo en fuentes secundarias de visión canina).",
+  "afirmaciones": [
+    {
+      "texto": "Tu perro no ve el mundo en blanco y negro. / Te comiste un verso.",
+      "fuente": "VCA Animal Hospitals, 'Do dogs see color?' (https://vcahospitals.com/know-your-pet/do-dogs-see-color) y 'Pets don't just see in black and white'; ACVO, 'Vision in Pets' (https://www.acvo.org/tips-treatments-tricks/vision-in-pets)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Vos tenés tres tipos de conos en los ojos, las células que detectan el color.",
+      "fuente": "ACVO, 'Vision in Pets' (humanos tricromáticos, tres tipos de conos); VCA, 'Do dogs see color?'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Él tiene dos. / Los perros tienen dos [tipos de conos].",
+      "fuente": "ACVO, 'Vision in Pets' (dos tipos de conos, visión dicromática); VCA; AKC 'Can dogs see color?'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Los oftalmólogos veterinarios de Estados Unidos explican que con esos dos conos ve azules y amarillos.",
+      "fuente": "ACVO (American College of Veterinary Ophthalmologists), 'Vision in Pets': 'dogs can see blues and yellows the best'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Lo que le cuesta es distinguir el rojo del verde, parecido a una persona daltónica.",
+      "fuente": "ACVO, 'Vision in Pets': 'difficulty distinguishing reds from green... similar to what a human sees who has red-green color-blindness'; VCA: 'most like a person who has red-green color blindness'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "No es que no vea colores. Ve menos colores que vos.",
+      "fuente": "ACVO y VCA (dicromáticos, ven azul y amarillo y distinguen rojos de azules; menos rango que la visión tricromática humana)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Probá hoy con una pelota azul o amarilla: en el pasto, a él le debería resultar más fácil de ver que una roja (aunque también influyen el movimiento y el olor).",
+      "fuente": "AKC, 'Can dogs see color?' (https://www.akc.org/expert-advice/health/can-dogs-see-color/): recomienda juguetes azules/amarillos y evitar rojos sobre pasto; VCA confirma que el olfato ayuda a encontrar la pelota. ACVO y VCA no mencionan pasto; el rol del movimiento solo en fuentes secundarias.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mandáselo al que le compró a su perro la pelota roja. / Mandáselo a ese que le compró a su perro la pelota roja.",
+      "fuente": "No es afirmación fáctica (llamado a la acción con humor)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes: Colegio Americano de Oftalmólogos Veterinarios (ACVO); VCA Animal Hospitals. (atribución del caption)",
+      "fuente": "Ambas páginas existen y respaldan el contenido atribuido (ACVO 'Vision in Pets'; VCA 'Do dogs see color?')",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

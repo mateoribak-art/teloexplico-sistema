@@ -1,0 +1,613 @@
+{
+ "duracion": 37.82,
+ "frases": [
+  {
+   "texto": "Tu perro no ve el mundo en blanco y negro.",
+   "palabras": [
+    {
+     "texto": "Tu",
+     "inicio": 0.0,
+     "fin": 0.12
+    },
+    {
+     "texto": "perro",
+     "inicio": 0.12,
+     "fin": 0.46
+    },
+    {
+     "texto": "no",
+     "inicio": 0.46,
+     "fin": 0.98
+    },
+    {
+     "texto": "ve",
+     "inicio": 0.98,
+     "fin": 1.14
+    },
+    {
+     "texto": "el",
+     "inicio": 1.14,
+     "fin": 1.28
+    },
+    {
+     "texto": "mundo",
+     "inicio": 1.28,
+     "fin": 1.54
+    },
+    {
+     "texto": "en",
+     "inicio": 1.54,
+     "fin": 1.74
+    },
+    {
+     "texto": "blanco",
+     "inicio": 1.74,
+     "fin": 2.04
+    },
+    {
+     "texto": "y",
+     "inicio": 2.04,
+     "fin": 2.16
+    },
+    {
+     "texto": "negro.",
+     "inicio": 2.16,
+     "fin": 2.48
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.48
+  },
+  {
+   "texto": "Te comiste un verso.",
+   "palabras": [
+    {
+     "texto": "Te",
+     "inicio": 2.94,
+     "fin": 3.18
+    },
+    {
+     "texto": "comiste",
+     "inicio": 3.18,
+     "fin": 3.46
+    },
+    {
+     "texto": "un",
+     "inicio": 3.46,
+     "fin": 3.58
+    },
+    {
+     "texto": "verso.",
+     "inicio": 3.58,
+     "fin": 3.8
+    }
+   ],
+   "inicio": 2.94,
+   "fin": 3.8
+  },
+  {
+   "texto": "Vos tenés tres tipos de conos en los ojos, las células que detectan el color.",
+   "palabras": [
+    {
+     "texto": "Vos",
+     "inicio": 4.54,
+     "fin": 4.64
+    },
+    {
+     "texto": "tenés",
+     "inicio": 4.64,
+     "fin": 4.98
+    },
+    {
+     "texto": "tres",
+     "inicio": 4.98,
+     "fin": 5.44
+    },
+    {
+     "texto": "tipos",
+     "inicio": 5.44,
+     "fin": 5.86
+    },
+    {
+     "texto": "de",
+     "inicio": 5.86,
+     "fin": 5.98
+    },
+    {
+     "texto": "conos",
+     "inicio": 5.98,
+     "fin": 6.2
+    },
+    {
+     "texto": "en",
+     "inicio": 6.2,
+     "fin": 6.4
+    },
+    {
+     "texto": "los",
+     "inicio": 6.4,
+     "fin": 6.52
+    },
+    {
+     "texto": "ojos,",
+     "inicio": 6.52,
+     "fin": 6.8
+    },
+    {
+     "texto": "las",
+     "inicio": 7.36,
+     "fin": 7.48
+    },
+    {
+     "texto": "células",
+     "inicio": 7.48,
+     "fin": 7.7
+    },
+    {
+     "texto": "que",
+     "inicio": 7.7,
+     "fin": 7.9
+    },
+    {
+     "texto": "detectan",
+     "inicio": 7.9,
+     "fin": 8.3
+    },
+    {
+     "texto": "el",
+     "inicio": 8.3,
+     "fin": 8.44
+    },
+    {
+     "texto": "color.",
+     "inicio": 8.44,
+     "fin": 8.68
+    }
+   ],
+   "inicio": 4.54,
+   "fin": 8.68
+  },
+  {
+   "texto": "Él tiene dos.",
+   "palabras": [
+    {
+     "texto": "Él",
+     "inicio": 9.24,
+     "fin": 9.44
+    },
+    {
+     "texto": "tiene",
+     "inicio": 9.44,
+     "fin": 9.96
+    },
+    {
+     "texto": "dos.",
+     "inicio": 9.96,
+     "fin": 10.2
+    }
+   ],
+   "inicio": 9.24,
+   "fin": 10.2
+  },
+  {
+   "texto": "Los oftalmólogos veterinarios de Estados Unidos explican que con esos dos conos ve azules y amarillos.",
+   "palabras": [
+    {
+     "texto": "Los",
+     "inicio": 10.88,
+     "fin": 10.96
+    },
+    {
+     "texto": "oftalmólogos",
+     "inicio": 10.96,
+     "fin": 11.66
+    },
+    {
+     "texto": "veterinarios",
+     "inicio": 11.66,
+     "fin": 12.28
+    },
+    {
+     "texto": "de",
+     "inicio": 12.28,
+     "fin": 12.4
+    },
+    {
+     "texto": "Estados",
+     "inicio": 12.4,
+     "fin": 12.6
+    },
+    {
+     "texto": "Unidos",
+     "inicio": 12.6,
+     "fin": 13.06
+    },
+    {
+     "texto": "explican",
+     "inicio": 13.06,
+     "fin": 14.16
+    },
+    {
+     "texto": "que",
+     "inicio": 14.16,
+     "fin": 14.38
+    },
+    {
+     "texto": "con",
+     "inicio": 14.38,
+     "fin": 14.66
+    },
+    {
+     "texto": "esos",
+     "inicio": 14.66,
+     "fin": 14.86
+    },
+    {
+     "texto": "dos",
+     "inicio": 14.86,
+     "fin": 15.06
+    },
+    {
+     "texto": "conos",
+     "inicio": 15.06,
+     "fin": 15.42
+    },
+    {
+     "texto": "ve",
+     "inicio": 15.42,
+     "fin": 16.14
+    },
+    {
+     "texto": "azules",
+     "inicio": 16.14,
+     "fin": 16.44
+    },
+    {
+     "texto": "y",
+     "inicio": 16.83,
+     "fin": 17.1
+    },
+    {
+     "texto": "amarillos.",
+     "inicio": 17.1,
+     "fin": 17.46
+    }
+   ],
+   "inicio": 10.88,
+   "fin": 17.46
+  },
+  {
+   "texto": "Lo que le cuesta es distinguir el rojo del verde, parecido a una persona daltónica.",
+   "palabras": [
+    {
+     "texto": "Lo",
+     "inicio": 18.1,
+     "fin": 18.26
+    },
+    {
+     "texto": "que",
+     "inicio": 18.26,
+     "fin": 18.34
+    },
+    {
+     "texto": "le",
+     "inicio": 18.34,
+     "fin": 18.44
+    },
+    {
+     "texto": "cuesta",
+     "inicio": 18.44,
+     "fin": 18.74
+    },
+    {
+     "texto": "es",
+     "inicio": 18.74,
+     "fin": 18.9
+    },
+    {
+     "texto": "distinguir",
+     "inicio": 18.9,
+     "fin": 19.36
+    },
+    {
+     "texto": "el",
+     "inicio": 19.36,
+     "fin": 19.56
+    },
+    {
+     "texto": "rojo",
+     "inicio": 19.56,
+     "fin": 19.88
+    },
+    {
+     "texto": "del",
+     "inicio": 19.88,
+     "fin": 20.08
+    },
+    {
+     "texto": "verde,",
+     "inicio": 20.08,
+     "fin": 20.44
+    },
+    {
+     "texto": "parecido",
+     "inicio": 20.78,
+     "fin": 21.26
+    },
+    {
+     "texto": "a",
+     "inicio": 21.26,
+     "fin": 21.4
+    },
+    {
+     "texto": "una",
+     "inicio": 21.4,
+     "fin": 21.5
+    },
+    {
+     "texto": "persona",
+     "inicio": 21.5,
+     "fin": 21.78
+    },
+    {
+     "texto": "daltónica.",
+     "inicio": 21.78,
+     "fin": 22.36
+    }
+   ],
+   "inicio": 18.1,
+   "fin": 22.36
+  },
+  {
+   "texto": "Ojo: no es que no vea colores. Ve menos colores que vos.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 22.88,
+     "fin": 23.16
+    },
+    {
+     "texto": "no",
+     "inicio": 23.62,
+     "fin": 23.74
+    },
+    {
+     "texto": "es",
+     "inicio": 23.74,
+     "fin": 23.84
+    },
+    {
+     "texto": "que",
+     "inicio": 23.84,
+     "fin": 23.94
+    },
+    {
+     "texto": "no",
+     "inicio": 23.94,
+     "fin": 24.1
+    },
+    {
+     "texto": "vea",
+     "inicio": 24.1,
+     "fin": 24.36
+    },
+    {
+     "texto": "colores.",
+     "inicio": 24.36,
+     "fin": 24.78
+    },
+    {
+     "texto": "Ve",
+     "inicio": 25.38,
+     "fin": 25.56
+    },
+    {
+     "texto": "menos",
+     "inicio": 25.56,
+     "fin": 25.96
+    },
+    {
+     "texto": "colores",
+     "inicio": 25.96,
+     "fin": 26.32
+    },
+    {
+     "texto": "que",
+     "inicio": 26.32,
+     "fin": 26.48
+    },
+    {
+     "texto": "vos.",
+     "inicio": 26.48,
+     "fin": 26.66
+    }
+   ],
+   "inicio": 22.88,
+   "fin": 26.66
+  },
+  {
+   "texto": "Probá hoy con una pelota azul o amarilla: en el pasto, a él le debería resultar más fácil de ver que una roja.",
+   "palabras": [
+    {
+     "texto": "Probá",
+     "inicio": 26.66,
+     "fin": 27.58
+    },
+    {
+     "texto": "hoy",
+     "inicio": 27.58,
+     "fin": 27.84
+    },
+    {
+     "texto": "con",
+     "inicio": 27.84,
+     "fin": 28.12
+    },
+    {
+     "texto": "una",
+     "inicio": 28.12,
+     "fin": 28.3
+    },
+    {
+     "texto": "pelota",
+     "inicio": 28.3,
+     "fin": 28.72
+    },
+    {
+     "texto": "azul",
+     "inicio": 28.72,
+     "fin": 29.12
+    },
+    {
+     "texto": "o",
+     "inicio": 29.12,
+     "fin": 29.48
+    },
+    {
+     "texto": "amarilla:",
+     "inicio": 29.48,
+     "fin": 29.98
+    },
+    {
+     "texto": "en",
+     "inicio": 30.52,
+     "fin": 30.62
+    },
+    {
+     "texto": "el",
+     "inicio": 30.62,
+     "fin": 30.74
+    },
+    {
+     "texto": "pasto,",
+     "inicio": 30.74,
+     "fin": 31.42
+    },
+    {
+     "texto": "a",
+     "inicio": 31.54,
+     "fin": 31.6
+    },
+    {
+     "texto": "él",
+     "inicio": 31.6,
+     "fin": 31.74
+    },
+    {
+     "texto": "le",
+     "inicio": 31.74,
+     "fin": 31.82
+    },
+    {
+     "texto": "debería",
+     "inicio": 31.82,
+     "fin": 32.2
+    },
+    {
+     "texto": "resultar",
+     "inicio": 32.2,
+     "fin": 32.74
+    },
+    {
+     "texto": "más",
+     "inicio": 32.74,
+     "fin": 32.88
+    },
+    {
+     "texto": "fácil",
+     "inicio": 32.88,
+     "fin": 33.24
+    },
+    {
+     "texto": "de",
+     "inicio": 33.24,
+     "fin": 33.4
+    },
+    {
+     "texto": "ver",
+     "inicio": 33.4,
+     "fin": 33.56
+    },
+    {
+     "texto": "que",
+     "inicio": 33.56,
+     "fin": 33.68
+    },
+    {
+     "texto": "una",
+     "inicio": 33.68,
+     "fin": 33.82
+    },
+    {
+     "texto": "roja.",
+     "inicio": 33.82,
+     "fin": 34.2
+    }
+   ],
+   "inicio": 26.66,
+   "fin": 34.2
+  },
+  {
+   "texto": "Mandáselo al que le compró a su perro la pelota roja.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 35.06,
+     "fin": 35.62
+    },
+    {
+     "texto": "al",
+     "inicio": 35.62,
+     "fin": 35.9
+    },
+    {
+     "texto": "que",
+     "inicio": 35.9,
+     "fin": 36.06
+    },
+    {
+     "texto": "le",
+     "inicio": 36.06,
+     "fin": 36.18
+    },
+    {
+     "texto": "compró",
+     "inicio": 36.18,
+     "fin": 36.58
+    },
+    {
+     "texto": "a",
+     "inicio": 36.58,
+     "fin": 36.62
+    },
+    {
+     "texto": "su",
+     "inicio": 36.62,
+     "fin": 36.7
+    },
+    {
+     "texto": "perro",
+     "inicio": 36.7,
+     "fin": 36.98
+    },
+    {
+     "texto": "la",
+     "inicio": 36.98,
+     "fin": 37.08
+    },
+    {
+     "texto": "pelota",
+     "inicio": 37.08,
+     "fin": 37.4
+    },
+    {
+     "texto": "roja.",
+     "inicio": 37.4,
+     "fin": 37.8
+    }
+   ],
+   "inicio": 35.06,
+   "fin": 37.8
+  }
+ ]
+}
