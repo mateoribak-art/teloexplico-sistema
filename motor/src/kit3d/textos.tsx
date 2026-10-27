@@ -177,13 +177,53 @@ export const Chip: React.FC<{ desde: number; hasta: number; x: number; y: number
   );
 };
 
-/** Cierre: invita a seguir la serie (mismo texto que el cierre 2D del kit, 26/10), corto para no romper el loop. */
+/** Avioncito de "compartir" de Instagram. */
+const Avion: React.FC<{ tam: number }> = ({ tam }) => (
+  <svg width={tam} height={tam} viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth={2.2} strokeLinejoin="round">
+    <path d="M22 3 9.2 10.1M22 3l-7 18-5.8-10.9L2 7.5z" />
+  </svg>
+);
+
+/** Cierre: invita a seguir la serie (mismo texto que el cierre 2D del kit, 26/10), corto para no romper el loop.
+ *  `mandar` (27/10, referentes): repite en pantalla el "Mandáselo al que…" del guion, con un toque al avioncito de compartir. */
 export const DUR_CIERRE_3D = 42;
-export const Cierre3D: React.FC<{ desde: number }> = ({ desde }) => {
+export const Cierre3D: React.FC<{ desde: number; mandar?: string }> = ({ desde, mandar }) => {
   const frame = useCurrentFrame();
   const cap = useCapitulo();
   const v = interpolate(frame, [desde, desde + 8], [0, 1], clamp);
   if (v <= 0) return null;
+  if (mandar) {
+    // toque: el avioncito se hunde y suelta una onda
+    const toque = frame - (desde + 14);
+    const hundido = interpolate(toque, [0, 3, 8], [1, 0.82, 1], clamp);
+    const onda = interpolate(toque, [0, 16], [0, 1], clamp);
+    const [primera, ...resto] = mandar.split(" ");
+    return (
+      <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", background: `rgba(5,8,16,${0.82 * v})`, pointerEvents: "none" }}>
+        <div style={{ opacity: v, transform: `scale(${0.9 + 0.1 * v})`, display: "flex", flexDirection: "column", alignItems: "center", gap: 34 }}>
+          <div style={{ position: "relative", width: 150, height: 150 }}>
+            {toque >= 0 && onda < 1 && (
+              <div style={{ position: "absolute", inset: 0, borderRadius: "50%", border: `5px solid ${ACENTO}`, opacity: 1 - onda, transform: `scale(${1 + onda * 0.9})` }} />
+            )}
+            <div
+              style={{
+                position: "absolute", inset: 0, borderRadius: "50%", background: ACENTO, display: "flex", justifyContent: "center", alignItems: "center",
+                transform: `scale(${hundido})`, boxShadow: `0 0 50px ${ACENTO}66`,
+              }}
+            >
+              <Avion tam={78} />
+            </div>
+          </div>
+          <div style={{ maxWidth: 900, textAlign: "center", fontFamily: display, fontWeight: 800, fontSize: 62, lineHeight: 1.12, letterSpacing: -1, color: "#fff", textShadow: "0 4px 18px rgba(0,0,0,0.65)" }}>
+            <span style={{ color: ACENTO }}>{primera}</span> {resto.join(" ")}
+          </div>
+          <div style={{ fontFamily: mono, fontSize: 30, letterSpacing: 1, color: "rgba(255,255,255,0.75)" }}>
+            {cap ? `seguí @teloexplico.ar para el #${cap.n + 1}` : "@teloexplico.ar · un dato por día"}
+          </div>
+        </div>
+      </AbsoluteFill>
+    );
+  }
   return (
     <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", background: `rgba(5,8,16,${0.55 * v})`, pointerEvents: "none" }}>
       <div

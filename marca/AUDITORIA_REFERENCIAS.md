@@ -44,3 +44,23 @@ Nuestro 016 (versión corta) tomó el pin "VOS". Cuidado con los datos: según e
 - @1action1reaction "¿Te mojás menos si corrés bajo la lluvia?" 211 mil ♥ (×29 su mediana) · @posta.explica El Niño 125 mil ♥ (×47) · @proyecto_atom "¿por qué hace más frío en la montaña si estás más cerca del sol?" 12 mil ♥ (×52) · @posta.explica metal vs madera 17 mil ♥ (×7).
 - Patrón: un MOMENTO que todos vivieron + un "¿por qué?" que parece obvio y no lo es. No "el clima" en general. Las cuentas prácticas de la vida diaria (1bit1pixel) también explotan.
 - Para mirar de nuevo: `herramientas` no tiene script; se hizo con la API de Instagram (business_discovery.username(...){media{caption,like_count}}), no da vistas.
+
+## Segunda tanda (27/10/2026): reels que le aparecieron a Mateo
+
+| Cuenta | Reel | ♥ / comentarios | Duración |
+|---|---|---|---|
+| @nandomovie | Frenar en el radar de tramo no te salva de la multa | **182 mil** / 892 | 87 s, 3D low-poly de noche |
+| @porquetuperro | Tu perro tira de la correa porque vos lo premiás | **147 mil** / 274 | 34 s, 2D con gráfico tensión vs pasos |
+| @javiersimo.es | Llegar a casa sin acordarte del camino (hipnosis de carretera) | 20 mil / 41 | 70 s, 3D isométrico; termina vendiendo su negocio |
+| @resultaaquee | "La IA hackeó Instagram" (vende el kit con que se hacen estos videos) | 4,8 mil | 38 s |
+| @smartshot_col | Dos pastelerías y las redes (agencia) | 1,8 mil | 66 s |
+
+Casi todos salen del mismo kit de IA (palabra destacada con recuadro de selección tipo Figma): ese look se va a saturar, hay que mantener el nuestro y lo argentino.
+
+Lo que tienen los dos que explotaron:
+1. **Primera frase que contradice algo que vos hacés**, en 2.ª persona y afirmada, no preguntada.
+2. **Una revelación nueva cada ~5 s** (por eso el de 87 s retiene: es un misterio que se va resolviendo).
+3. **Un consejo para hacer hoy** antes del cierre → se guarda.
+4. **Cierre que nombra a quién mandárselo** ("Envíaselo a ese amigo que clava los frenos en cada radar") con el gesto de compartir en pantalla → se manda.
+5. Lo que termina vendiendo algo no se comparte.
+

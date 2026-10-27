@@ -230,7 +230,7 @@ export const PavaSeCorta3D: React.FC = () => {
       </Chip>
       <Subtitulo3D tiempos={tiempos} destacar={DESTACAR} cifras={CIFRAS} />
       <Marco3D total={DURACION} />
-      <Cierre3D desde={E.fin + 4} />
+      <Cierre3D desde={E.fin + 4} mandar="mandáselo al que deja la tapa abierta" />
       <Audio src={staticFile("020-pava-se-corta/voz.wav")} volume={1} />
       <Musica hasta={DURACION} volumen={0.12} />
       <Sfx efectos={efectos} />
