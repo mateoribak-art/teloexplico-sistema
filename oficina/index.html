@@ -264,13 +264,20 @@ function enVivo(id) {
     ultima: mias.find(r => r.status === 'completed' && r.conclusion !== 'skipped' && r.conclusion !== 'cancelled'),
   };
 }
+// ---------- el técnico (arreglar.yml): arreglos pedidos desde la oficina
+let enviados = {};  // pedidos recién mandados que todavía no aparecen en GitHub: {"es/jefe": hora}
+const arreglosDe = (clave, id) => (datos && datos.arreglos || []).filter(a => a.empleado === clave + '/' + id);
+const corridaArreglo = (clave, id) => corridas.find(r => (r.path || '').endsWith('/arreglar.yml') && (r.status === 'in_progress' || r.status === 'queued')
+  && (r.display_title || '').includes(`(${clave}/${id})`));
+const arreglandose = (clave, id) => corridaArreglo(clave, id) || (enviados[clave + '/' + id] && Date.now() - enviados[clave + '/' + id] < 3 * 60000);
 function estadoReal(e) {
   const {ahora, ultima} = enVivo(e.id);
-  if (ahora) return 'trabajando';
+  if (ahora || arreglandose(actual, e.id)) return 'trabajando';
   if (ultima && ultima.conclusion === 'failure' && new Date(ultima.updated_at) > fecha(datos.actualizado)) return 'falla';
   return e.estado;
 }
 const oficinaActual = () => datos && datos.oficinas.find(o => o.clave === actual);
+const propuestos = of => (datos.arreglos || []).filter(a => a.estado === 'propuesto' && (a.empleado || '').startsWith(of.clave + '/'));
 
 // ================= 3D: escena
 const lienzo = $('#mundo');
@@ -736,9 +743,10 @@ function pintar() {
   aplicarEstados(of);
   pintarTele(of);
   const pend = (of.pausa ? ['El sistema está en pausa: nadie produce ni publica hasta que lo reanudes.'] : []).concat(of.pendientes || []);
-  $('#paravos').style.display = pend.length ? 'inline-flex' : 'none';
-  $('#paravos').querySelector('b').textContent = pend.length;
-  $('#paravos').querySelector('span').textContent = pend.length === 1 ? 'te toca 1 cosa' : `te tocan ${pend.length} cosas`;
+  const total = pend.length + propuestos(of).length;
+  $('#paravos').style.display = total ? 'inline-flex' : 'none';
+  $('#paravos').querySelector('b').textContent = total;
+  $('#paravos').querySelector('span').textContent = total === 1 ? 'te toca 1 cosa' : `te tocan ${total} cosas`;
   $('#produccion').innerHTML = `<h2>En producción <span>${(of.linea || []).length}</span></h2>${tarjetaLinea(of, 6)}`;
   $('#dock').innerHTML = of.empleados.map(e => {
     const st = estadoReal(e);
@@ -768,6 +776,8 @@ function abrirVista(cual) {
     const pend = (of.pausa ? ['El sistema está en pausa: nadie produce ni publica hasta que lo reanudes.'] : []).concat(of.pendientes || []);
     const ojo = of.empleados.filter(e => ['falla', 'aviso'].includes(estadoReal(e)));
     abrirPanel(`<h2>Para vos</h2><p class="nota">Lo que necesita tu "va" o tu mirada en la oficina de ${esc(of.ciudad)}.</p>
+      ${propuestos(of).length ? `<h3>Arreglos esperando tu OK</h3><ul>${propuestos(of).map(a => { const e = of.empleados.find(x => of.clave + '/' + x.id === a.empleado) || {};
+        return `<li><a class="link" href="#${a.empleado}" data-id="${esc(e.id)}">${esc(e.nombre || a.empleado)}</a>: ${esc(a.titulo)}</li>`; }).join('')}</ul>` : ''}
       <h3>Te toca</h3><ul>${pend.map(p => `<li>${esc(p)}</li>`).join('') || '<li>Nada: todo en orden ✓</li>'}</ul>
       <h3>Quién está con problemas</h3><ul>${ojo.map(e => `<li><a class="link" href="#${of.clave}/${e.id}" data-id="${e.id}">${esc(e.nombre)}</a> (${esc(e.puesto)}): ${esc(e.resumen)}</li>`).join('') || '<li>Nadie ✓</li>'}</ul>`);
   }
@@ -795,6 +805,7 @@ function abrir(id, refresco) {
     <span class="pill c-${st}">${PALABRA[st]}</span> <span style="font-size:13px;color:var(--suave)">· último movimiento ${hace(fecha(e.cuando))}</span>
     <p class="res">${esc(st === 'trabajando' && e.estado !== 'trabajando' ? 'Trabajando ahora en GitHub. ' + e.resumen : e.resumen)}</p>
     ${e.arreglo ? `<div class="arreglo"><b>Cómo se arregla:</b> ${esc(e.arreglo)}</div>` : ''}
+    ${seccionArreglo(e, of, st)}
     <h3>En GitHub</h3><div class="gh">${gh}</div>
     <div class="acciones"><button class="btn primario" id="b-relanzar" ${token ? '' : 'disabled'}>↻ Relanzar</button>
       <a class="btn" href="https://github.com/${REPO}/actions/workflows/${flujo}" target="_blank" rel="noopener" style="text-decoration:none">Ver corridas</a></div>
@@ -806,6 +817,9 @@ function abrir(id, refresco) {
     <p class="nota">Trabaja: ${esc(e.horario)} (hora de Argentina salvo que diga otra cosa).</p>`);
   if (refresco) { $('#panel').scrollTop = scroll; if ($('#t-pedido')) $('#t-pedido').value = texto; }
   $('#b-relanzar').onclick = () => relanzar(e, of);
+  if ($('#b-copiar')) $('#b-copiar').onclick = ev => { ev.preventDefault(); copiarParaClaude(e, of, st); };
+  if ($('#b-arreglar')) $('#b-arreglar').onclick = () => pedirArreglo(e, of, st);
+  document.querySelectorAll('[data-arreglo]').forEach(b => { b.onclick = () => decidirArreglo(b.dataset.accion, b.dataset.arreglo, e, of); });
   if ($('#b-pedido')) $('#b-pedido').onclick = () => mandarPedido(of);
 }
 function cerrar() {
@@ -816,6 +830,67 @@ function cerrar() {
 }
 
 // ================= acciones
+// lo que ve Mateo en el panel: pedir el arreglo, esperar, y decidir sobre lo que propone Claude
+function seccionArreglo(e, of, st) {
+  const ult = arreglosDe(of.clave, e.id).slice(-1)[0];
+  const corriendo = corridaArreglo(of.clave, e.id);
+  const problema = st === 'aviso' || st === 'falla';
+  const caja = (titulo, cuerpo) => `<h3>Arreglarlo</h3><div class="arreglo" style="background:#F7F3EA">${titulo}${cuerpo}</div>`;
+  if (corriendo || arreglandose(of.clave, e.id))
+    return caja('<b>🔧 Claude está buscando la causa…</b>', `<div class="nota">${corriendo ? 'Arrancó ' + hace(new Date(corriendo.run_started_at || corriendo.created_at)) + '. ' : 'Arrancando. '}
+      Tarda unos minutos (si hay una producción en curso, espera a que termine). Cuando tenga el arreglo te aparece acá y en "Para vos".</div>`);
+  if (ult && ult.estado === 'propuesto')
+    return caja(`<b>Claude propone: ${esc(ult.titulo)}</b>`, `<p style="margin:6px 0">${esc(ult.resumen)}</p>
+      <div class="nota">Cambia: ${esc((ult.archivos || []).join(', '))} · <a class="link" href="https://github.com/${REPO}/compare/main...${esc(ult.rama)}" target="_blank" rel="noopener">ver los cambios</a></div>
+      <div class="acciones"><button class="btn primario" data-arreglo="${esc(ult.id)}" data-accion="aplicar">✅ Aplicar</button><button class="btn" data-arreglo="${esc(ult.id)}" data-accion="descartar">Descartar</button></div>
+      <div class="nota">No se aplica nada sin tu OK. Si lo aplicás, rige desde el próximo turno.</div>`);
+  if (ult && ult.estado === 'explicado' && problema)
+    return caja(`<b>Claude lo revisó: ${esc(ult.titulo)}</b>`, `<p style="margin:6px 0">${esc(ult.resumen)}</p>
+      <div class="nota">No hacía falta cambiar el sistema.</div>
+      <div class="acciones"><button class="btn" data-arreglo="${esc(ult.id)}" data-accion="descartar">Entendido</button><button class="btn" id="b-arreglar">Pedir de nuevo</button></div>`);
+  const previo = ult && ['fallo', 'conflicto'].includes(ult.estado) ? `<p style="margin:6px 0">⚠️ El último intento no salió: ${esc(ult.error || ult.resumen || ult.titulo)}</p>`
+    : ult && ult.estado === 'aplicado' ? `<p style="margin:6px 0">✅ Último arreglo aplicado ${hace(fecha(ult.actualizado))}: ${esc(ult.titulo)}</p>` : '';
+  if (!problema) return previo ? caja('', previo) : '';
+  return caja(previo + `<b>🛠 Que lo arregle Claude</b>`, `<div class="nota" style="margin:4px 0 8px">Claude lee el problema y su registro, busca la causa y te propone el arreglo para que lo apruebes.</div>
+    <textarea id="t-nota" placeholder="¿Algo más que tenga que saber? (opcional)" style="min-height:60px"></textarea>
+    <div class="acciones"><button class="btn primario" id="b-arreglar" ${token ? '' : 'disabled'}>🛠 Arreglar con Claude</button></div>
+    <div class="nota"><a class="link" href="#" id="b-copiar">o copiar el problema</a> para pegarlo en Claude Code.</div>`);
+}
+async function pedirArreglo(e, of, st) {
+  const nota = $('#t-nota') ? $('#t-nota').value.trim() : '';
+  const id = Date.now().toString(36) + '-' + e.id;
+  const problema = textoProblema(e, of, st) + (nota ? '\nNota de Mateo: ' + nota : '');
+  try {
+    await gh('/actions/workflows/arreglar.yml/dispatches', {method: 'POST', body: JSON.stringify({ref: 'main', inputs: {accion: 'proponer', id, empleado: of.clave + '/' + e.id, problema: problema.slice(0, 6000)}})});
+    enviados[of.clave + '/' + e.id] = Date.now();
+    toast(`Listo: Claude arranca con ${e.nombre}. Te aviso acá cuando tenga el arreglo.`);
+    pintar(); setTimeout(cargar, 15000);
+  } catch (err) { toast('No se pudo pedir el arreglo: ' + err.message); }
+}
+async function decidirArreglo(accion, id, e, of) {
+  if (accion === 'aplicar' && !confirm(`¿Aplicar el arreglo de ${e.nombre}? Rige desde el próximo turno.`)) return;
+  try {
+    await gh('/actions/workflows/arreglar.yml/dispatches', {method: 'POST', body: JSON.stringify({ref: 'main', inputs: {accion, id, empleado: of.clave + '/' + e.id}})});
+    const a = (datos.arreglos || []).find(x => x.id === id);
+    if (a) { a.estado = accion === 'aplicar' ? 'aplicado' : 'descartado'; a.actualizado = new Date().toISOString(); }
+    toast(accion === 'aplicar' ? 'Aplicando el arreglo: en un minuto queda en el sistema.' : 'Listo, descartado.');
+    pintar(); setTimeout(cargar, 20000);
+  } catch (err) { toast('No se pudo: ' + err.message); }
+}
+function textoProblema(e, of, st) {
+  return [
+    `En la oficina de ${of.ciudad} (@${of.usuario}), ${e.nombre} (${e.puesto}) está en "${PALABRA[st]}": ${e.resumen}`,
+    e.arreglo ? 'Lo que sugiere la oficina: ' + e.arreglo : '',
+    e.tareas.length ? 'Tareas:\n' + e.tareas.join('\n') : '',
+    e.detalle.length ? 'Registro:\n' + e.detalle.slice(-10).join('\n') : '',
+    '\nRevisalo en C:\\Users\\Mateo\\teloexplico (sistema de teloexplico / letmeexplain) y arreglalo.',
+  ].filter(Boolean).join('\n');
+}
+async function copiarParaClaude(e, of, st) {
+  const texto = textoProblema(e, of, st);
+  try { await navigator.clipboard.writeText(texto); toast('Copiado: pegalo en Claude Code.'); }
+  catch (err) { prompt('Copiá este texto y pegalo en Claude Code:', texto); }
+}
 async function relanzar(e, of) {
   const {flujo, inputs} = e.relanzar;
   if (!confirm(`¿Relanzar a ${e.nombre}? Corre «${FLUJO[flujo]}»${inputs.modo ? ' (' + inputs.modo + ')' : ''} en GitHub.`)) return;

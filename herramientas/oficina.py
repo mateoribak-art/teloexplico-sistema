@@ -357,6 +357,14 @@ def oficina(clave):
 def main():
     datos = {'actualizado': AHORA.isoformat(timespec='minutes'), 'oficinas': [oficina(c) for c in cuenta.CUENTAS
                                                                              if os.path.exists(os.path.join(cuenta.CUENTAS[c]['videos'], 'cola.json'))]}
+    # arreglos del técnico (arreglar.py): el empleado con uno aplicado figura arreglado hasta que su próximo turno lo confirme
+    arreglos = leer(os.path.join(RAIZ, 'estado', 'arreglos.json'), []) or []
+    datos['arreglos'] = arreglos[-15:]
+    for o in datos['oficinas']:
+        for e in o['empleados']:
+            hecho = [x for x in arreglos if x.get('empleado') == f"{o['clave']}/{e['id']}" and x.get('estado') == 'aplicado']
+            if hecho and e['estado'] in ('aviso', 'falla') and (not e['cuando'] or hecho[-1]['actualizado'] > e['cuando']):
+                e.update(estado='ok', resumen=f"Arreglado desde la oficina: {hecho[-1].get('titulo', '')}. Se confirma en su próximo turno.", arreglo=None)
     os.makedirs(os.path.dirname(SALIDA), exist_ok=True)
     json.dump(datos, open(SALIDA, 'w', encoding='utf-8', newline='\n'), ensure_ascii=False, indent=1)
     if '--html' in sys.argv:

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T14:38",
+ "actualizado": "2026-10-27T14:51",
  "oficinas": [
   {
    "clave": "es",
@@ -119,7 +119,7 @@
      "estado": "aviso",
      "resumen": "El video salió, pero Claude intentó un comando que no tiene permitido (por eso figura \"no terminó bien\" y se saltea el carrusel).",
      "cuando": "2026-10-27T12:40",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "Uso: 34 pasos · 39,509 tokens nuevos · 2,168,189 de caché · 21,540 escritos · equivale a US$ 1.14 de API",
       "2026-10-27 12:30 Arranca la producción (12 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -153,7 +153,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsqueda web (alertas SMN, clima, tendencias): sin resultados fechados de hoy, solo notas viejas (feb, dic, finde largo 9-10 oct) o sin fecha. C",
      "cuando": "2026-10-26T16:44",
-     "hace": "hace 21 h",
+     "hace": "hace 22 h",
      "detalle": [
       "25/10 00:00 (2da pasada) | Nueva búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy, solo notas viejas o sin fecha; nada nuevo que cumpla los criterios ni se pueda chequear con fuentes del día. Sin cambios respecto a la revisión anterior de hoy. No se produce video de actualidad; sigue la cola normal.",
       "26/10 00:00 | Revisión radar. Sin alerta SMN nueva del día encontrada en la búsqueda. Tema vigente: El Niño muy fuerte (NOAA CPC 10-sep: advisory activo, >90% de evento muy fuerte) y SMN prevé más lluvia en Litoral/Córdoba/La Pampa/oeste BA oct-dic; es idea prioritaria del banco -> ELEGIDO, ángulo cercano 'por qué este año llueve así'. Slug: 016-el-nino-clima.",
@@ -185,7 +185,7 @@
      "estado": "aviso",
      "resumen": "Frenó 1 video(s): 013-alcohol-calor.",
      "cuando": "2026-10-27T12:39",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "018-refresca-tormenta: aprobado — Todas las afirmaciones quedan verificadas contra páginas del NWS leídas en esta pasada (Binghamton y glosario). El heat burst figura como fe",
       "014-celular-arroz: aprobado — Todas las afirmaciones fácticas (pasos, cifras, prohibiciones y la cita sobre el arroz) están en la página de Apple Support 102643 y se cote",
@@ -218,7 +218,7 @@
      "estado": "aviso",
      "resumen": "La voz no coincidió con el guion en 005-granizo-calor.",
      "cuando": "2026-10-27T12:39",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [
       "005-granizo-calor: la voz no coincide con el guion (88%)"
@@ -242,7 +242,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-27 12:39.",
      "cuando": "2026-10-27T12:39",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null
@@ -264,7 +264,7 @@
      "estado": "ok",
      "resumen": "12 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-10-27T12:39",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null
@@ -445,7 +445,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-27T14:38",
+     "cuando": "2026-10-27T14:51",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -528,7 +528,7 @@
      "estado": "aviso",
      "resumen": "El video salió, pero Claude intentó un comando que no tiene permitido (por eso figura \"no terminó bien\").",
      "cuando": "2026-10-27T12:49",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "Uso: 63 pasos · 81,516 tokens nuevos · 2,147,253 de caché · 23,201 escritos · equivale a US$ 1.02 de API",
       "2026-10-27 12:40 Arranca la producción (1 listos en la cola, meta 6).",
@@ -586,7 +586,7 @@
      "estado": "ok",
      "resumen": "Aprobó 2 de los últimos 2 guiones.",
      "cuando": "2026-10-27T12:49",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "en-001-phone-rice: aprobado — Chequeado el 27/10/2026 contra la página de Apple Support (support.apple.com/en-us/102643, 'If you see a liquid-detection alert on your iPho",
       "en-002-dst-farmers: aprobado — Todas las afirmaciones fácticas tienen fuente (National Archives, History.com, Library of Congress, U.S. DOT/CRS) y las fechas coinciden. No"
@@ -611,7 +611,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-10-27T12:49",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null
@@ -633,7 +633,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-27 12:49.",
      "cuando": "2026-10-27T12:49",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null
@@ -655,7 +655,7 @@
      "estado": "ok",
      "resumen": "1 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-10-27T12:49",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null
@@ -774,7 +774,7 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 1 videos listos: alcanza para 0.5 día(s).",
-     "cuando": "2026-10-27T14:38",
+     "cuando": "2026-10-27T14:51",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s)."
@@ -784,5 +784,6 @@
     }
    ]
   }
- ]
+ ],
+ "arreglos": []
 }

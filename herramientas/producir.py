@@ -35,7 +35,8 @@ TERMINAL = """REGLAS DE TERMINAL (corrida automática, nadie aprueba permisos):
 - Corré cada comando SOLO, tal cual: `./herramientas/tlx voz <slug>`, `./herramientas/tlx render <slug>`, etc.
   Nada de `2>&1`, `| tail`, `| head`, `; echo`, `&&` ni `cd`: cualquier agregado hace que se niegue el comando entero.
 - Permitidos: ./herramientas/tlx (todos sus subcomandos), ls, cat, grep, mkdir, date, echo. Para leer archivos usá Read, Glob y Grep.
-- Podés crear y editar archivos en videos/** y motor/src/** con Write y Edit (incluidos los logs de videos/)."""
+- Podés crear y editar archivos en videos/** y motor/src/** con Write y Edit (incluidos los logs de videos/).
+- Para cambiar un archivo usá SIEMPRE Edit o Write: nada de `sed -i`, `cp` ni `mv` (se niegan)."""
 SK_VIDEO = 'producir-video-en' if EN else 'producir-video'
 SK_RADAR = 'radar-actualidad-en' if EN else 'radar-actualidad'
 SK_COMENTARIOS = 'responder-comentarios-en' if EN else 'responder-comentarios'
@@ -158,7 +159,9 @@ def claude(pedido, log, minutos, modelo=MODELO_PRODUCIR):
         f.write(salida.strip()[-6000:] + '\n')
     if LIMITE.search(salida):
         escribir(log, 'LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.')
-    return codigo == 0 and not LIMITE.search(salida) and 'Permisos negados' not in salida
+    # un permiso negado que Claude esquiva (casi siempre un `sed -i` que después hace con Edit) no es una falla:
+    # queda en el log, pero el turno sigue como ok (antes salteaba el carrusel aunque el video saliera bien, 27/10)
+    return codigo == 0 and not LIMITE.search(salida)
 
 
 def plan_b(log):

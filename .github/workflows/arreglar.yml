@@ -1,0 +1,92 @@
+# El técnico de la oficina (herramientas/arreglar.py): lo disparan los botones de oficina/index.html.
+# proponer: Claude busca la causa del problema de un empleado y deja el arreglo en la rama arreglo/<id> (no toca main).
+# aplicar / descartar: Mateo decide desde la oficina. Nada cambia en el sistema sin su "va".
+name: Arreglar
+run-name: "${{ inputs.accion }} ${{ inputs.id }} (${{ inputs.empleado }})"
+
+on:
+  workflow_dispatch:
+    inputs:
+      accion:
+        description: 'proponer · aplicar · descartar'
+        type: choice
+        options: [proponer, aplicar, descartar]
+        default: proponer
+      id:
+        description: 'id del arreglo (lo arma la oficina)'
+        required: true
+      empleado:
+        description: 'cuenta/empleado, ej. es/jefe'
+        default: ''
+      problema:
+        description: 'el problema, con su registro (solo para proponer)'
+        default: ''
+
+# proponer usa la cuota de Claude: espera su turno junto con la producción; aplicar y descartar van aparte
+concurrency:
+  group: ${{ inputs.accion == 'proponer' && 'claude' || 'arreglos' }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  arreglar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      TLX_NUBE: '1'
+      TZ: America/Argentina/Buenos_Aires
+      GH_TOKEN: ${{ github.token }}
+      CLAVE_ESTADO: ${{ secrets.CLAVE_ESTADO }}
+      ARREGLO_ACCION: ${{ inputs.accion }}
+      ARREGLO_ID: ${{ inputs.id }}
+      ARREGLO_EMPLEADO: ${{ inputs.empleado }}
+      ARREGLO_PROBLEMA: ${{ inputs.problema }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Claves
+        run: bash herramientas/nube/preparar.sh
+        env:
+          META_JSON: ${{ secrets.META_JSON }}
+          META_EN_JSON: ${{ secrets.META_EN_JSON }}
+          AVISOS_JSON: ${{ secrets.AVISOS_JSON }}
+          TIKTOK_JSON: ${{ secrets.TIKTOK_JSON }}
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+      - name: Claude
+        if: inputs.accion == 'proponer'
+        run: |
+          npm install -g @anthropic-ai/claude-code > /dev/null
+          git config user.name teloexplico-nube
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          # sin "confianza" en la carpeta, Claude ignora los permisos de .claude/settings.json
+          python - <<'EOF'
+          import json, os
+          p = os.path.expanduser('~/.claude.json')
+          d = json.load(open(p)) if os.path.exists(p) else {}
+          d.setdefault('projects', {}).setdefault(os.environ['GITHUB_WORKSPACE'], {})['hasTrustDialogAccepted'] = True
+          d['hasCompletedOnboarding'] = True
+          json.dump(d, open(p, 'w'))
+          EOF
+      - name: Técnico
+        working-directory: herramientas
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          git config user.name teloexplico-nube
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          python -I arreglar.py "$ARREGLO_ACCION"
+      - name: Guardar estado
+        if: always()
+        working-directory: herramientas
+        run: |
+          python -I sincronizar.py "Oficina: arreglo ${ARREGLO_ID} (${ARREGLO_ACCION})"
+      - name: Borrar la propuesta
+        if: success() && inputs.accion != 'proponer'
+        run: |
+          git push -q origin --delete "arreglo/${ARREGLO_ID}" || true
