@@ -121,6 +121,11 @@ def main(probar=False):
                                 capture_output=True, text=True, encoding='utf-8', errors='replace')
             en_bandeja = rt.returncode == 0 and 'EN BANDEJA:' in rt.stdout
             log(f'{slug} ' + ('en la bandeja de TikTok' if en_bandeja else f'falló TikTok: {(rt.stdout + rt.stderr).strip()[-300:]}'))
+            # YouTube Shorts por API: se prende creando estado/youtube_activo (sin auditoría de Google, puede quedar privado)
+            if os.path.exists(os.path.join(RAIZ, 'estado', 'youtube_activo')) and os.path.exists(os.path.join(RAIZ, 'secretos', 'youtube_token.json')):
+                ry = subprocess.run([PY, '-I', 'publicar_youtube.py', slug], cwd=os.path.dirname(os.path.abspath(__file__)),
+                                    capture_output=True, text=True, encoding='utf-8', errors='replace')
+                log(f'{slug} ' + (ry.stdout.split('SUBIDO:')[-1].strip() if 'SUBIDO:' in ry.stdout else f'falló YouTube: {(ry.stdout + ry.stderr).strip()[-300:]}'))
             # paquete para TikTok y YouTube Shorts (subida desde el celular hasta que aprueben sus APIs)
             try:
                 import multired

@@ -59,6 +59,8 @@ jobs:
           TIKTOK_JSON: ${{ secrets.TIKTOK_JSON }}
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
           TELEGRAM_JSON: ${{ secrets.TELEGRAM_JSON }}
+          YOUTUBE_JSON: ${{ secrets.YOUTUBE_JSON }}
+          YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
       - name: ¿Toca publicar?
         id: turno
         working-directory: herramientas
