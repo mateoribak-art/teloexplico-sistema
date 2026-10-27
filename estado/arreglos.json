@@ -53,5 +53,14 @@
   "actualizado": "2026-10-27T20:01",
   "titulo": "El video del granizo se apartó solo por vencido; no cambié nada.",
   "resumen": "El video 005-granizo-calor era un tema del momento, y esos tienen 48 horas para salir. Pasó el plazo (se había frenado antes por un falso rechazo del control de voz, que ya se corrigió), así que el sistema lo apartó solo para no publicar algo viejo. Es el comportamiento esperado, no un error de código. Además, el video ya no tiene su .mp4. Los demás videos listos siguen saliendo normalmente en cada turno."
+ },
+ {
+  "id": "mvrbwmc3-carruseles",
+  "creado": "2026-10-27T20:41",
+  "estado": "fallo",
+  "firma": null,
+  "titulo": "Claude no pudo trabajar ahora",
+  "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
+  "actualizado": "2026-10-27T20:41"
  }
 ]
