@@ -132,6 +132,11 @@ def main(modo):
             if top:
                 pt, slug, m, ver = top[0]
                 mejor = f"Mejor reel: {slug} · {m.get('views', 0)} vistas, {m.get('shares', 0)} compartidos, {m.get('saved', 0)} guardados"
+            car = sorted((r for r in base.get('carruseles', {}).values() if r.get('ultimo')), key=lambda r: r['publicado'])
+            if car:
+                m = car[-1]['ultimo']
+                mejor += (f"\nÚltimo carrusel: {car[-1]['clave']} · alcance {m.get('reach', 0)}, {m.get('shares', 0)} compartidos, "
+                          f"{m.get('saved', 0)} guardados, {m.get('follows', 0)} seguidores nuevos")
         except Exception as e:
             mejor = f'(no se pudieron leer las métricas: {str(e)[:80]})'
         lineas = [f"Hoy: {len(hoy)} publicado(s)." + (' ' + ', '.join(x['slug'] for x in hoy) if hoy else ''),

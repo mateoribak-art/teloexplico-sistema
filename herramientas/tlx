@@ -12,6 +12,7 @@
 #   tlx taller                      dibuja el objeto de motor/src/taller/Taller.tsx (grande + chico)
 #   tlx catalogo                    lámina con toda la biblioteca de objetos
 #   tlx metricas [actualizar]       ranking de reels por rendimiento (actualizar baja datos nuevos)
+#   tlx metricas carruseles         tabla de carruseles (alcance, compartidos, visitas al perfil)
 #   tlx comentarios pendientes      comentarios nuevos sin responder
 #   tlx comentarios responder|saltear|alerta <id> "<texto o motivo>"
 set -euo pipefail

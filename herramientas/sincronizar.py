@@ -105,7 +105,7 @@ def combinar(ruta, remoto, local):
         return json.dumps(r + [x for x in l if json.dumps(x, sort_keys=True) not in vistos], ensure_ascii=False, indent=1)
     if nombre == 'metricas.json':
         r, l = json.loads(remoto), json.loads(local)
-        for k in ('cuenta', 'reels'):
+        for k in ('cuenta', 'reels', 'carruseles'):
             r.setdefault(k, {}).update(l.get(k, {}))
         return json.dumps(r, ensure_ascii=False, indent=1)
     if nombre == 'ideas.md':
