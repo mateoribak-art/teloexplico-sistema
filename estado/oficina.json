@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T16:20",
+ "actualizado": "2026-10-27T16:27",
  "oficinas": [
   {
    "clave": "es",
@@ -12,7 +12,9 @@
    "proximo": "018-rayo-trueno",
    "publicados": 7,
    "pausa": false,
-   "pendientes": [],
+   "pendientes": [
+    "Revisar apartado: 005-granizo-calor — la voz no coincide con el guion (88%)"
+   ],
    "ultimas": [
     {
      "slug": "016-el-nino-clima",
@@ -106,8 +108,8 @@
        "cuenta": "es"
       }
      },
-     "estado": "ok",
-     "resumen": "Revisado por el técnico: Ya está corregido: un permiso negado no frena más el turno",
+     "estado": "aviso",
+     "resumen": "El video salió, pero Claude intentó un comando que no tiene permitido (por eso figura \"no terminó bien\" y se saltea el carrusel).",
      "cuando": "2026-10-27T12:40",
      "hace": "hace 3 h",
      "detalle": [
@@ -124,9 +126,7 @@
       "2026-10-27 12:40 Termina la producción (Claude no terminó bien)."
      ],
      "tareas": [],
-     "arreglo": null,
-     "solo": false,
-     "firma": "ecd496c70df0"
+     "arreglo": "Ajustar las reglas de terminal del pedido (producir.py) o sumar ese comando a los permisos del proyecto."
     },
     {
      "id": "radar",
@@ -143,13 +143,13 @@
       }
      },
      "estado": "ok",
-     "resumen": "Revisión radar. Búsqueda web (alertas SMN, clima, tendencias): sin resultados fechados de hoy, solo notas viejas (feb, dic, finde largo 9-10 oct) o sin fecha. C",
-     "cuando": "2026-10-26T16:44",
-     "hace": "hace 23 h",
+     "resumen": "Revisión radar. Búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy (solo notas de feb/2023/2025 o sin fecha; tendencias genéricas: Ipsos pre",
+     "cuando": "2026-10-27T16:26",
+     "hace": "hace 1 min",
      "detalle": [
-      "25/10 00:00 (2da pasada) | Nueva búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy, solo notas viejas o sin fecha; nada nuevo que cumpla los criterios ni se pueda chequear con fuentes del día. Sin cambios respecto a la revisión anterior de hoy. No se produce video de actualidad; sigue la cola normal.",
       "26/10 00:00 | Revisión radar. Sin alerta SMN nueva del día encontrada en la búsqueda. Tema vigente: El Niño muy fuerte (NOAA CPC 10-sep: advisory activo, >90% de evento muy fuerte) y SMN prevé más lluvia en Litoral/Córdoba/La Pampa/oeste BA oct-dic; es idea prioritaria del banco -> ELEGIDO, ángulo cercano 'por qué este año llueve así'. Slug: 016-el-nino-clima.",
-      "26/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, clima, tendencias): sin resultados fechados de hoy, solo notas viejas (feb, dic, finde largo 9-10 oct) o sin fecha. Candidatos: (1) El Niño/clima de la semana -> ángulo ya tomado por posta y clima saturado con 004 y 005 -> descartado; (2) alertas por tormentas -> sin fuente fechada de hoy, no verificable -> descartado; (3) tendencias/redes -> sin evidencia. No se produce video de actualidad; sigue la cola normal."
+      "26/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, clima, tendencias): sin resultados fechados de hoy, solo notas viejas (feb, dic, finde largo 9-10 oct) o sin fecha. Candidatos: (1) El Niño/clima de la semana -> ángulo ya tomado por posta y clima saturado con 004 y 005 -> descartado; (2) alertas por tormentas -> sin fuente fechada de hoy, no verificable -> descartado; (3) tendencias/redes -> sin evidencia. No se produce video de actualidad; sigue la cola normal.",
+      "27/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy (solo notas de feb/2023/2025 o sin fecha; tendencias genéricas: Ipsos preocupaciones, Mundial). Candidatos: (1) clima/alertas SMN -> sin fuente del día, y ya hay 004, 005 y 016 -> descartado; (2) calor extremo de primavera -> sin alerta fechada que lo confirme -> descartado; (3) tendencias/redes -> sin evidencia de un tema que todos vivan hoy. No se produce video de actualidad; sigue la cola normal."
      ],
      "tareas": [
       "🔥 004-olor-a-lluvia — ¿Por qué la tierra huele así cuando llueve?",
@@ -158,9 +158,7 @@
       "🔥 005-granizo-calor — ¿Por qué cae granizo justo cuando hace calor?",
       "🔥 016-el-nino-clima — ¿Por qué este año llueve así? El Niño y el pronóstico oficial para el verano"
      ],
-     "arreglo": null,
-     "solo": false,
-     "firma": "b1152b6b225e"
+     "arreglo": null
     },
     {
      "id": "chequeo",
@@ -191,9 +189,7 @@
       "022-colectivo-de-a-dos: aprobado — Todas las afirmaciones fácticas están verificadas con fuentes académicas o institucionales; ninguna es falsa ni dudosa, y no hay cifras de s"
      ],
      "tareas": [],
-     "arreglo": null,
-     "solo": false,
-     "firma": "f021dae776ff"
+     "arreglo": null
     },
     {
      "id": "voz",
@@ -209,17 +205,15 @@
        "cuenta": "es"
       }
      },
-     "estado": "ok",
-     "resumen": "Revisado por el técnico: Falso rechazo del control de voz en 005-granizo-calor: no hace falta tocar código",
+     "estado": "aviso",
+     "resumen": "La voz no coincidió con el guion en 005-granizo-calor.",
      "cuando": "2026-10-27T12:39",
      "hace": "hace 3 h",
      "detalle": [],
      "tareas": [
       "005-granizo-calor: la voz no coincide con el guion (88%)"
      ],
-     "arreglo": null,
-     "solo": false,
-     "firma": "4985204fec50"
+     "arreglo": "Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo."
     },
     {
      "id": "animador",
@@ -241,9 +235,7 @@
      "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
-     "arreglo": null,
-     "solo": false,
-     "firma": "fbf93a71a0c3"
+     "arreglo": null
     },
     {
      "id": "control",
@@ -265,9 +257,7 @@
      "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
-     "arreglo": null,
-     "solo": false,
-     "firma": "7db9ff85dd57"
+     "arreglo": null
     },
     {
      "id": "publicador",
@@ -302,9 +292,7 @@
      "tareas": [
       "Próximo: 018-rayo-trueno — ¿A qué distancia está la tormenta? Contar segundos entre rayo y trueno"
      ],
-     "arreglo": null,
-     "solo": false,
-     "firma": "2616f2f4839e"
+     "arreglo": null
     },
     {
      "id": "redes",
@@ -337,9 +325,7 @@
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
      ],
-     "arreglo": null,
-     "solo": false,
-     "firma": "30d12406c8e5"
+     "arreglo": null
     },
     {
      "id": "carruseles",
@@ -355,7 +341,7 @@
      "estado": "ok",
      "resumen": "1 listo(s) para las 16:00.",
      "cuando": "2026-10-26T23:24",
-     "hace": "hace 16 h",
+     "hace": "hace 17 h",
      "detalle": [
       "2026-10-26 23:00 bts: listo hecho en sesión",
       "2026-10-26 23:00 heladera: listo hecho en sesión",
@@ -365,9 +351,7 @@
      "tareas": [
       "heladera"
      ],
-     "arreglo": null,
-     "solo": false,
-     "firma": "10b66f0c49b3"
+     "arreglo": null
     },
     {
      "id": "comentarios",
@@ -403,9 +387,7 @@
       "3 salteado",
       "⚠️ maribibirios: \"También fueron a Chile cuando fueron a Brasil... información por favor\" — el video dice que en Latinoamér"
      ],
-     "arreglo": null,
-     "solo": false,
-     "firma": "4d07da3b8e13"
+     "arreglo": null
     },
     {
      "id": "analista",
@@ -423,7 +405,7 @@
      "estado": "ok",
      "resumen": "27/10: 235 seguidores",
      "cuando": "2026-10-27T10:21",
-     "hace": "hace 5 h",
+     "hace": "hace 6 h",
      "detalle": [
       "24/10: 16 seguidores",
       "26/10: 179 seguidores",
@@ -436,9 +418,7 @@
       "003-vuelta-carne: 2.162 vistas · 18 enviados · 52 ♥",
       "002-corte-digestion: 1.493 vistas · 2 enviados · 24 ♥"
      ],
-     "arreglo": null,
-     "solo": false,
-     "firma": "00caba5e3ddb"
+     "arreglo": null
     },
     {
      "id": "vigilante",
@@ -455,13 +435,11 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-27T16:20",
+     "cuando": "2026-10-27T16:27",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
-     "arreglo": null,
-     "solo": false,
-     "firma": "cf3a22f5d39c"
+     "arreglo": null
     },
     {
      "id": "planb",
@@ -483,9 +461,7 @@
      "hace": "nunca",
      "detalle": [],
      "tareas": [],
-     "arreglo": null,
-     "solo": false,
-     "firma": "8fbe2a9375b3"
+     "arreglo": null
     }
    ]
   },
@@ -539,8 +515,8 @@
        "cuenta": "en"
       }
      },
-     "estado": "ok",
-     "resumen": "Revisado por el técnico: Ya está corregido: un permiso negado no frena más el turno",
+     "estado": "aviso",
+     "resumen": "El video salió, pero Claude intentó un comando que no tiene permitido (por eso figura \"no terminó bien\").",
      "cuando": "2026-10-27T12:49",
      "hace": "hace 3 h",
      "detalle": [
@@ -555,9 +531,7 @@
       "2026-10-27 12:49 Termina la producción (Claude no terminó bien)."
      ],
      "tareas": [],
-     "arreglo": null,
-     "solo": false,
-     "firma": "323ed93883ba"
+     "arreglo": "Ajustar las reglas de terminal del pedido (producir.py) o sumar ese comando a los permisos del proyecto."
     },
     {
      "id": "radar",
@@ -574,18 +548,17 @@
       }
      },
      "estado": "ok",
-     "resumen": "Radar: tema elegido = cambio de hora (fall back domingo 1/11/2026, 2 a.m.), ángulo \"no se inventó para los granjeros\" (mito). Es noticia de la semana en EE. UU.",
-     "cuando": "2026-10-27T00:00",
-     "hace": "hace 16 h",
+     "resumen": "Segunda pasada del radar: no se produce otro tema. en-002-dst-farmers (🔥, listo) ya cubre la actualidad del día; no se fuerza un segundo video.",
+     "cuando": "2026-10-27T16:27",
+     "hace": "recién",
      "detalle": [
-      "27/10 00:00 Radar: tema elegido = cambio de hora (fall back domingo 1/11/2026, 2 a.m.), ángulo \"no se inventó para los granjeros\" (mito). Es noticia de la semana en EE. UU. y se chequea con fuentes oficiales. Slug: en-002-dst-farmers."
+      "27/10 00:00 Radar: tema elegido = cambio de hora (fall back domingo 1/11/2026, 2 a.m.), ángulo \"no se inventó para los granjeros\" (mito). Es noticia de la semana en EE. UU. y se chequea con fuentes oficiales. Slug: en-002-dst-farmers.",
+      "27/10 00:00 Segunda pasada del radar: no se produce otro tema. en-002-dst-farmers (🔥, listo) ya cubre la actualidad del día; no se fuerza un segundo video."
      ],
      "tareas": [
       "🔥 en-002-dst-farmers — Is daylight saving time for farmers? (fall back Nov 1)"
      ],
-     "arreglo": null,
-     "solo": false,
-     "firma": "6c5f372a0e29"
+     "arreglo": null
     },
     {
      "id": "chequeo",
@@ -610,9 +583,7 @@
       "en-002-dst-farmers: aprobado — Todas las afirmaciones fácticas tienen fuente (National Archives, History.com, Library of Congress, U.S. DOT/CRS) y las fechas coinciden. No"
      ],
      "tareas": [],
-     "arreglo": null,
-     "solo": false,
-     "firma": "1aa8d2a98fab"
+     "arreglo": null
     },
     {
      "id": "voz",
@@ -634,9 +605,7 @@
      "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
-     "arreglo": null,
-     "solo": false,
-     "firma": "c766d204df67"
+     "arreglo": null
     },
     {
      "id": "animador",
@@ -658,9 +627,7 @@
      "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
-     "arreglo": null,
-     "solo": false,
-     "firma": "3d79898f9cb1"
+     "arreglo": null
     },
     {
      "id": "control",
@@ -682,9 +649,7 @@
      "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
-     "arreglo": null,
-     "solo": false,
-     "firma": "ede091eebd83"
+     "arreglo": null
     },
     {
      "id": "publicador",
@@ -713,9 +678,7 @@
      "tareas": [
       "Próximo: en-002-dst-farmers — Is daylight saving time for farmers? (fall back Nov 1)"
      ],
-     "arreglo": null,
-     "solo": false,
-     "firma": "1d8d778be559"
+     "arreglo": null
     },
     {
      "id": "redes",
@@ -742,9 +705,7 @@
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
      ],
-     "arreglo": null,
-     "solo": false,
-     "firma": "2b5c8a3d7b9a"
+     "arreglo": null
     },
     {
      "id": "comentarios",
@@ -766,9 +727,7 @@
      "hace": "nunca",
      "detalle": [],
      "tareas": [],
-     "arreglo": null,
-     "solo": false,
-     "firma": "897c92944d11"
+     "arreglo": null
     },
     {
      "id": "analista",
@@ -789,9 +748,7 @@
      "hace": "nunca",
      "detalle": [],
      "tareas": [],
-     "arreglo": null,
-     "solo": false,
-     "firma": "0d0b4c799b09"
+     "arreglo": null
     },
     {
      "id": "vigilante",
@@ -808,15 +765,13 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 1 videos listos: alcanza para 0.5 día(s).",
-     "cuando": "2026-10-27T16:20",
+     "cuando": "2026-10-27T16:27",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s)."
      ],
      "tareas": [],
-     "arreglo": null,
-     "solo": true,
-     "firma": "d68cc7d78ae0"
+     "arreglo": null
     }
    ]
   }
@@ -830,28 +785,7 @@
    "creado": "2026-10-27T14:52",
    "actualizado": "2026-10-27T14:59",
    "titulo": "Falso rechazo del control de voz en 005-granizo-calor: no hace falta tocar código",
-   "resumen": "El video se apartó el 25/10 a las 19:32 porque el control de voz dio 88 %. El guion está bien. Ese día el control escuchaba mal en la nube: transcribía palabras sueltas mal con el modo rápido (int8). Ya está corregido en `herramientas/control.py` desde el 26/10, así que no cambié nada. Con las otras dos pruebas de esta semana pasó lo mismo (el video 91 % de `cola.json` también fue un falso rechazo).\nQué hacer: el .mp4 ya no está en la carpeta del video, así que no pude volver a correr el control. Si querés publicarlo, pasalo a \"listo\" a mano. Si preferís asegurarte, mandalo a producir de nuevo: el control nuevo lo va a revisar bien. Ojo: es un video de actualidad (granizo de esa semana) y ya pasaron unos días.",
-   "firma": "4985204fec50"
-  },
-  {
-   "id": "manual-es-jefe",
-   "empleado": "es/jefe",
-   "firma": "ecd496c70df0",
-   "estado": "explicado",
-   "titulo": "Ya está corregido: un permiso negado no frena más el turno",
-   "resumen": "Claude intentaba editar archivos con un comando prohibido; lo hacía igual por el camino permitido, pero el turno quedaba como fallado y se salteaba el carrusel. Se corrigió en producir.py el 27/10: desde el próximo turno de producción vuelve a verde.",
-   "creado": "2026-10-27T15:01",
-   "actualizado": "2026-10-27T15:01"
-  },
-  {
-   "id": "manual-en-jefe",
-   "empleado": "en/jefe",
-   "firma": "323ed93883ba",
-   "estado": "explicado",
-   "titulo": "Ya está corregido: un permiso negado no frena más el turno",
-   "resumen": "Claude intentaba editar archivos con un comando prohibido; lo hacía igual por el camino permitido, pero el turno quedaba como fallado y se salteaba el carrusel. Se corrigió en producir.py el 27/10: desde el próximo turno de producción vuelve a verde.",
-   "creado": "2026-10-27T15:01",
-   "actualizado": "2026-10-27T15:01"
+   "resumen": "El video se apartó el 25/10 a las 19:32 porque el control de voz dio 88 %. El guion está bien. Ese día el control escuchaba mal en la nube: transcribía palabras sueltas mal con el modo rápido (int8). Ya está corregido en `herramientas/control.py` desde el 26/10, así que no cambié nada. Con las otras dos pruebas de esta semana pasó lo mismo (el video 91 % de `cola.json` también fue un falso rechazo).\nQué hacer: el .mp4 ya no está en la carpeta del video, así que no pude volver a correr el control. Si querés publicarlo, pasalo a \"listo\" a mano. Si preferís asegurarte, mandalo a producir de nuevo: el control nuevo lo va a revisar bien. Ojo: es un video de actualidad (granizo de esa semana) y ya pasaron unos días."
   }
  ]
 }
