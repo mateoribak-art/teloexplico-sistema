@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T18:23",
+ "actualizado": "2026-10-27T18:27",
  "oficinas": [
   {
    "clave": "es",
@@ -102,7 +102,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-27T17:29",
-     "hace": "hace 54 min",
+     "hace": "hace 58 min",
      "detalle": [
       "Uso: 25 pasos · 29,309 tokens nuevos · 1,318,164 de caché · 18,497 escritos · equivale a US$ 1.26 de API",
       "2026-10-27 17:17 Arranca la producción (13 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -140,7 +140,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy (solo notas de feb/2023/2025 o sin fecha; tendencias genéricas: Ipsos pre",
      "cuando": "2026-10-27T16:26",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "26/10 00:00 | Revisión radar. Sin alerta SMN nueva del día encontrada en la búsqueda. Tema vigente: El Niño muy fuerte (NOAA CPC 10-sep: advisory activo, >90% de evento muy fuerte) y SMN prevé más lluvia en Litoral/Córdoba/La Pampa/oeste BA oct-dic; es idea prioritaria del banco -> ELEGIDO, ángulo cercano 'por qué este año llueve así'. Slug: 016-el-nino-clima.",
       "26/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, clima, tendencias): sin resultados fechados de hoy, solo notas viejas (feb, dic, finde largo 9-10 oct) o sin fecha. Candidatos: (1) El Niño/clima de la semana -> ángulo ya tomado por posta y clima saturado con 004 y 005 -> descartado; (2) alertas por tormentas -> sin fuente fechada de hoy, no verificable -> descartado; (3) tendencias/redes -> sin evidencia. No se produce video de actualidad; sigue la cola normal.",
@@ -174,7 +174,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-10-27T17:28",
-     "hace": "hace 55 min",
+     "hace": "hace 59 min",
      "detalle": [
       "014-celular-arroz: aprobado — Todas las afirmaciones fácticas (pasos, cifras, prohibiciones y la cita sobre el arroz) están en la página de Apple Support 102643 y se cote",
       "020-pava-se-corta: aprobado — Versión final del guion, recortada y sin John Taylor. Las 9 frases están verificadas con fuentes y tienen el matiz correcto. Lo de seguridad",
@@ -207,7 +207,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-10-27T17:28",
-     "hace": "hace 55 min",
+     "hace": "hace 59 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -231,7 +231,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-27 17:28.",
      "cuando": "2026-10-27T17:28",
-     "hace": "hace 55 min",
+     "hace": "hace 59 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -255,7 +255,7 @@
      "estado": "ok",
      "resumen": "14 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-10-27T17:28",
-     "hace": "hace 55 min",
+     "hace": "hace 59 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -348,7 +348,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-10-27T17:29",
-     "hace": "hace 54 min",
+     "hace": "hace 58 min",
      "detalle": [
       "2026-10-26 23:00 bts: listo hecho en sesión",
       "2026-10-26 23:00 heladera: listo hecho en sesión",
@@ -451,7 +451,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-27T18:23",
+     "cuando": "2026-10-27T18:27",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -545,7 +545,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-27T17:39",
-     "hace": "hace 44 min",
+     "hace": "hace 48 min",
      "detalle": [
       "Uso: 17 pasos · 13,404 tokens nuevos · 977,132 de caché · 2,458 escritos · equivale a US$ 0.96 de API",
       "2026-10-27 17:29 Arranca la producción (1 listos en la cola, meta 6).",
@@ -577,7 +577,7 @@
      "estado": "ok",
      "resumen": "Segunda pasada del radar: no se produce otro tema. en-002-dst-farmers (🔥, listo) ya cubre la actualidad del día; no se fuerza un segundo video.",
      "cuando": "2026-10-27T16:27",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "27/10 00:00 Radar: tema elegido = cambio de hora (fall back domingo 1/11/2026, 2 a.m.), ángulo \"no se inventó para los granjeros\" (mito). Es noticia de la semana en EE. UU. y se chequea con fuentes oficiales. Slug: en-002-dst-farmers.",
       "27/10 00:00 Segunda pasada del radar: no se produce otro tema. en-002-dst-farmers (🔥, listo) ya cubre la actualidad del día; no se fuerza un segundo video."
@@ -606,7 +606,7 @@
      "estado": "ok",
      "resumen": "Aprobó 3 de los últimos 3 guiones.",
      "cuando": "2026-10-27T17:39",
-     "hace": "hace 44 min",
+     "hace": "hace 48 min",
      "detalle": [
       "en-001-phone-rice: aprobado — Chequeado el 27/10/2026 contra la página de Apple Support (support.apple.com/en-us/102643, 'If you see a liquid-detection alert on your iPho",
       "en-002-dst-farmers: aprobado — Todas las afirmaciones fácticas tienen fuente (National Archives, History.com, Library of Congress, U.S. DOT/CRS) y las fechas coinciden. No",
@@ -634,7 +634,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-10-27T17:39",
-     "hace": "hace 44 min",
+     "hace": "hace 48 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -658,7 +658,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-27 17:39.",
      "cuando": "2026-10-27T17:39",
-     "hace": "hace 44 min",
+     "hace": "hace 48 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -682,7 +682,7 @@
      "estado": "ok",
      "resumen": "2 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-10-27T17:39",
-     "hace": "hace 44 min",
+     "hace": "hace 48 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -811,7 +811,7 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 2 videos listos: alcanza para 1 día(s).",
-     "cuando": "2026-10-27T18:23",
+     "cuando": "2026-10-27T18:27",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 2 videos listos: alcanza para 1 día(s)."
