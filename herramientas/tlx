@@ -7,6 +7,7 @@
 #   tlx control <slug>              control técnico (formato, volumen, voz = guion, chequeo de datos)
 #   tlx cola [estado <slug> <estado> [motivo] | agregar <slug> "<tema>"]
 #   tlx serie [asignar <slug> <serie> | textos <slug>]   capítulo de la serie (portada, cierre y caption)
+#   tlx carrusel <clave> | controlar <clave> | cola     placas JPG + control + listo (videos/carruseles/<clave>/)
 #   tlx tsc                         chequeo de tipos del motor
 #   tlx taller                      dibuja el objeto de motor/src/taller/Taller.tsx (grande + chico)
 #   tlx catalogo                    lámina con toda la biblioteca de objetos
@@ -29,6 +30,7 @@ case "$cmd" in
   control) cd "$H" && "$PY" -I control.py "$@" ;;
   cola)    cd "$H" && "$PY" -I cola.py "$@" ;;
   serie)   cd "$H" && "$PY" -I series.py "$@" ;;
+  carrusel) cd "$H" && "$PY" -I carrusel.py "$@" ;;
   metricas) cd "$H" && "$PY" -I metricas.py "$@" ;;
   comentarios) cd "$H" && "$PY" -I comentarios.py "$@" ;;
   tsc)     cd "$M" && npx tsc --noEmit ;;

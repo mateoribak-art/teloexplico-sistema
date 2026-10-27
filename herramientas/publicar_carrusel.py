@@ -2,19 +2,25 @@ r"""Publica un carrusel en @teloexplico.ar con la API oficial de Instagram (27/1
 
 Uso:
   python -I publicar_carrusel.py <clave> [--probar]
+  python -I publicar_carrusel.py --toca      "si" si el turno de las 16:00 de hoy no está cubierto (lo usa carrusel.yml)
+  python -I publicar_carrusel.py --turno     publica el próximo carrusel listo (registro: videos/carruseles/carruseles.json)
 
   <clave>    carpeta en videos/carruseles/ (usa 01.jpg, 02.jpg… y caption.txt; las arma carrusel.py)
   --probar   arma el carrusel en Instagram pero NO lo publica
 
 Las placas se suben al Release "videos" del repo privado (carrusel-<clave>-NN.jpg) y Meta las baja de ahí con un link firmado,
-igual que los reels. No es parte del publicador automático: un carrusel sale solo cuando Mateo lo pide.
+igual que los reels. Desde el 27/10 sale uno por día a las 16:00 (GitHub Actions, carrusel.yml), entre los reels de 12:30 y 19:30.
 """
-import glob, json, os, subprocess, sys, time, urllib.parse
+import datetime, glob, json, os, subprocess, sys, time, urllib.parse, zoneinfo
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from publicar import API, CONF, REPO, RAIZ, link_temporal, pedir  # noqa: E402
+import carrusel  # noqa: E402
+from avisar import avisar  # noqa: E402
 
 REGISTRO = os.path.join(RAIZ, 'videos', 'carruseles', 'publicados.json')
+ARGENTINA = zoneinfo.ZoneInfo('America/Argentina/Buenos_Aires')
+TURNO = (16, 0)
 
 
 def esperar(cid, token):
@@ -26,9 +32,7 @@ def esperar(cid, token):
     return 'IN_PROGRESS'
 
 
-def main():
-    args = sys.argv[1:]
-    clave, probar = args[0], '--probar' in args
+def publicar(clave, probar=False):
     carpeta = os.path.join(RAIZ, 'videos', 'carruseles', clave)
     placas = sorted(glob.glob(os.path.join(carpeta, '[0-9][0-9].jpg')))
     if not 2 <= len(placas) <= 20:
@@ -61,7 +65,7 @@ def main():
         sys.exit('Instagram no terminó de armar el carrusel.')
     if probar:
         print('Modo prueba: NO se publicó. Contenedor listo:', cont['id'])
-        return
+        return None
 
     pub = pedir('POST', f'{API}/{ig}/media_publish', {'creation_id': cont['id'], 'access_token': token})
     info = pedir('GET', f'{API}/{pub["id"]}?' + urllib.parse.urlencode({'fields': 'permalink,timestamp', 'access_token': token}))
@@ -69,11 +73,54 @@ def main():
     registro = json.load(open(REGISTRO, encoding='utf-8')) if os.path.exists(REGISTRO) else []
     registro.append({'clave': clave, 'media_id': pub['id'], 'permalink': info.get('permalink'), 'publicado': info.get('timestamp')})
     json.dump(registro, open(REGISTRO, 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
+    return info.get('permalink')
+
+
+def turno_cubierto():
+    """GitHub arranca tarde o saltea lo programado: hay varios intentos y el primero que corre publica."""
+    ahora = datetime.datetime.now(ARGENTINA)
+    inicio = ahora.replace(hour=TURNO[0], minute=TURNO[1], second=0, microsecond=0)
+    if ahora < inicio:
+        return True  # todavía no es la hora
+    for p in (json.load(open(REGISTRO, encoding='utf-8')) if os.path.exists(REGISTRO) else []):
+        try:
+            if datetime.datetime.strptime(p['publicado'], '%Y-%m-%dT%H:%M:%S%z') >= inicio:
+                return True
+        except (KeyError, ValueError):
+            continue
+    return False
+
+
+def turno():
+    if os.path.exists(os.path.join(RAIZ, 'PAUSA')):
+        print('PAUSA activa: no se publica el carrusel.')
+        return
+    if turno_cubierto():
+        print('El turno del carrusel ya está cubierto.')
+        return
+    for v in carrusel.listos():
+        problemas = carrusel.controlar(v['clave'])
+        if problemas:
+            carrusel.cambiar_estado(v['clave'], 'apartado', '; '.join(problemas)[:500])
+            avisar('⚠️ Carrusel apartado', f"{v['clave']}: {'; '.join(problemas)[:300]}")
+            continue
+        link = publicar(v['clave'])
+        carrusel.cambiar_estado(v['clave'], 'publicado', link or '')
+        avisar('✅ Carrusel publicado', v['clave'], 'baja', link=link)
+        return
+    print('No hay carruseles listos: hoy no sale ninguno.')
+    avisar('ℹ️ Sin carrusel hoy', 'No había carruseles listos para las 16:00. La producción arma uno en el próximo turno.', 'baja')
 
 
 if __name__ == '__main__':
     sys.stdout.reconfigure(encoding='utf-8')
     sys.stderr.reconfigure(encoding='utf-8')
-    if not sys.argv[1:]:
+    a = sys.argv[1:]
+    if a == ['--toca']:
+        print('no' if turno_cubierto() or os.path.exists(os.path.join(RAIZ, 'PAUSA')) else 'si')
+    elif a == ['--turno']:
+        turno()
+    elif a and not a[0].startswith('--'):
+        publicar(a[0], '--probar' in a)
+    else:
         sys.exit(__doc__)
-    main()

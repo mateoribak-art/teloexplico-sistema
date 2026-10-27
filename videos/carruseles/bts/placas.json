@@ -1,0 +1,96 @@
+{
+ "origen": [
+  "007-bts-13-anios"
+ ],
+ "placas": [
+  {
+   "tipo": "tapa",
+   "arriba": "¿por qué la ARMY argentina esperó",
+   "grande": "13 años?",
+   "promesa": "deslizá: la línea de tiempo"
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// spoiler",
+   "titulo": "No fue por falta de fans",
+   "cuerpo": "Fue una cadena de cosas, una atrás de la otra."
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// junio de 2013",
+   "titulo": "BTS debuta en Corea del Sur",
+   "dato": "2013",
+   "colorDato": "azul",
+   "fuente": "Infobae"
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// 2014 a 2019",
+   "titulo": "Latinoamérica sí, Argentina no",
+   "cuerpo": "Pasaron por Brasil en 2014, 2015, 2017 y 2019. A la Argentina nunca le tocó.",
+   "dato": "0 shows",
+   "colorDato": "rojo",
+   "fuente": "Billboard Brasil · El Heraldo"
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// 2020",
+   "titulo": "La pandemia se llevó puesta la gira mundial",
+   "dato": "2020",
+   "colorDato": "rojo"
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// 2022 a 2025",
+   "titulo": "El servicio militar obligatorio",
+   "cuerpo": "En Corea del Sur los varones sirven entre 18 y 21 meses. Jin entró primero, a fines de 2022; Suga salió último, en junio de 2025.",
+   "fuente": "Associated Press"
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// ojo",
+   "titulo": "Jin ya había pisado River",
+   "cuerpo": "El 28 de octubre de 2022, como invitado de Coldplay, antes del servicio. Pero los siete juntos, nunca.",
+   "fuente": "La Nación · Buenos Aires Times"
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// 2026",
+   "titulo": "Gira ARIRANG: por fin, Argentina",
+   "cuerpo": "Tres noches en el Estadio Único de La Plata: 21, 23 y 24 de octubre.",
+   "dato": "3 noches",
+   "colorDato": "azul",
+   "fuente": "Infobae"
+  },
+  {
+   "tipo": "resumen",
+   "titulo": "13 años, en 5 pasos",
+   "items": [
+    [
+     true,
+     "2013 · debutan en Corea"
+    ],
+    [
+     false,
+     "2014–2019 · Brasil sí, Argentina no"
+    ],
+    [
+     false,
+     "2020 · la pandemia cancela la gira"
+    ],
+    [
+     false,
+     "2022–2025 · servicio militar"
+    ],
+    [
+     true,
+     "2026 · tres noches en La Plata"
+    ]
+   ]
+  },
+  {
+   "tipo": "cierre",
+   "texto": "Mandáselo a esa ARMY que contó los días desde 2013"
+  }
+ ]
+}

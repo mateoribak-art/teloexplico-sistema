@@ -89,14 +89,15 @@ def guardar_token_tiktok():
 def combinar(ruta, remoto, local):
     """Combina un archivo de estado que cambió en las dos puntas a la vez. Nunca se pierde un "publicado"."""
     nombre = os.path.basename(ruta)
-    if nombre == 'cola.json':
-        # por video gana el que tiene el historial más largo (el estado más avanzado)
+    if nombre in ('cola.json', 'carruseles.json'):
+        # por video (o carrusel) gana el que tiene el historial más largo (el estado más avanzado)
+        id_ = 'slug' if nombre == 'cola.json' else 'clave'
         r, l = json.loads(remoto), json.loads(local)
-        todos = {v['slug']: v for v in r}
+        todos = {v[id_]: v for v in r}
         for v in l:
-            if v['slug'] not in todos or len(v.get('historial', [])) > len(todos[v['slug']].get('historial', [])):
-                todos[v['slug']] = v
-        orden = [v['slug'] for v in r] + [v['slug'] for v in l if v['slug'] not in {x['slug'] for x in r}]
+            if v[id_] not in todos or len(v.get('historial', [])) > len(todos[v[id_]].get('historial', [])):
+                todos[v[id_]] = v
+        orden = [v[id_] for v in r] + [v[id_] for v in l if v[id_] not in {x[id_] for x in r}]
         return json.dumps([todos[s] for s in orden], ensure_ascii=False, indent=1)
     if nombre.startswith('publicados') and nombre.endswith('.json'):
         r, l = json.loads(remoto), json.loads(local)

@@ -39,6 +39,10 @@ Al final escribí un resumen de 3 líneas: qué slugs quedaron listos, apartados
 RADAR = (TERMINAL + '\n\nUsá el skill radar-actualidad. Si encontrás un tema del momento que cumpla todos los criterios, producilo completo '
          'con el skill producir-video (prioridad actualidad). Si no, anotá los candidatos descartados y terminá. '
          'Al final, una línea con lo que decidiste.')
+CARRUSEL = (TERMINAL + '\n\nUsá el skill producir-carrusel y armá 1 carrusel con datos ya chequeados de reels publicados. '
+            'Si no hay de dónde sacarlo sin repetir, no hagas nada y decilo. Al final, una línea con la clave y si quedó listo o apartado.')
+CARRUSELES_META = 2      # carruseles listos de colchón (sale uno por día a las 16:00)
+CARRUSEL_CADA_H = 12     # como mucho un intento de Claude cada 12 h, para no gastar cuota si no hay de dónde sacar
 COMENTARIOS = (TERMINAL + '\n\nUsá el skill responder-comentarios y procesá todos los comentarios pendientes. '
                'Al final, una línea con cuántos respondiste, salteaste y alertaste.')
 
@@ -54,6 +58,32 @@ def listos():
 
 def manana():
     return 5 <= AHORA.hour < 12
+
+
+def carruseles_listos():
+    ruta = os.path.join(V, 'carruseles', 'carruseles.json')
+    return sum(1 for c in json.load(open(ruta, encoding='utf-8')) if c['estado'] == 'listo') if os.path.exists(ruta) else 0
+
+
+def toca_carrusel():
+    ultimo = os.path.join(V, 'carruseles', 'ultimo_intento.txt')
+    if carruseles_listos() >= CARRUSELES_META:
+        return False
+    try:
+        antes = datetime.datetime.fromisoformat(open(ultimo, encoding='utf-8').read().strip())
+        return AHORA - antes >= datetime.timedelta(hours=CARRUSEL_CADA_H)
+    except (OSError, ValueError):
+        return True
+
+
+def producir_carrusel(log):
+    """Después de los reels: si faltan carruseles, Claude arma uno (datos ya chequeados, sin voz ni render de video: gasta poco)."""
+    if not toca_carrusel():
+        return
+    open(os.path.join(V, 'carruseles', 'ultimo_intento.txt'), 'w', encoding='utf-8').write(AHORA.isoformat(timespec='minutes'))
+    escribir(log, f'Arranca el carrusel ({carruseles_listos()} listos, meta {CARRUSELES_META}).')
+    ok = claude(CARRUSEL, log, 30)
+    escribir(log, f'Termina el carrusel ({"ok" if ok else "con problemas"}; quedan {carruseles_listos()} listos).')
 
 
 def pedido_pendiente():
@@ -168,11 +198,12 @@ def produccion():
     if n >= META and not pedido:
         if not manana():
             escribir(log, f'Hay {n} videos listos (meta {META}): no hace falta producir ahora.')
-            return
+            return producir_carrusel(log)
         # sobran videos comunes, pero el tema del momento no espera: solo se corre el radar
         escribir(log, f'Hay {n} videos listos: no hace falta producir hoy. Corre solo el radar de actualidad.')
         ok = claude(RADAR, log, 90, MODELO_RADAR)
         escribir(log, f'Termina el radar ({"ok" if ok else "con problemas"}).')
+        producir_carrusel(log)
         return aviso_noche()
     escribir(log, f'Arranca la producción ({n} listos en la cola, meta {META}' + ('; hay un pedido de Mateo sin hacer' if n >= META else '') + ').')
     renderizar_pendientes(log)  # quedó alguno de un turno anterior
@@ -181,6 +212,8 @@ def produccion():
     if not ok:
         plan_b(log)
     escribir(log, f'Termina la producción ({"ok" if ok else "Claude no terminó bien"}).')
+    if ok:  # si Claude no anduvo (límite), el carrusel también fallaría
+        producir_carrusel(log)
     aviso_noche()
 
 
@@ -228,7 +261,7 @@ def hay_trabajo(modo):
     if os.path.exists(os.path.join(RAIZ, 'PAUSA')):
         return False
     if modo == 'produccion':
-        return listos() < META or manana() or pedido_pendiente()
+        return listos() < META or manana() or pedido_pendiente() or toca_carrusel()
     if modo == 'comentarios':
         return comentarios_nuevos() != 0
     return True

@@ -34,9 +34,11 @@ Motivo: 80 mil vistas trajeron 179 seguidores; la serie le da a la gente una raz
 ## Pedidos de Mateo
 Una idea sin hacer en la sección "Pedidos de Mateo" de `videos/ideas.md` se produce en el próximo turno **aunque haya 10 listos** (uno por turno).
 
-## Carruseles (a mano, no automáticos)
-`motor/src/carruseles/Carrusel.tsx` (texto de cada placa, solo datos ya chequeados) → `python -I herramientas/carrusel.py <clave>` (placas JPG en `videos/carruseles/<clave>/` y `hoja.png`) →
-`python -I herramientas/publicar_carrusel.py <clave> --probar` (lo arma en Instagram sin publicar) → sin `--probar`, lo publica. Hechos: `heladera` (8 placas) y `bts` (10).
+## Carruseles (automáticos desde el 27/10/2026: uno por día a las 16:00)
+- **Producción:** en cada turno de Claude, si quedan menos de 2 carruseles listos (y como mucho una vez cada 12 h), Claude (Sonnet) arma uno con el skill `producir-carrusel`: sale de reels ya publicados (el que más se compartió, una recopilación de serie o una regla práctica), **sin investigar nada nuevo**. Escribe `videos/carruseles/<clave>/placas.json` y `caption.txt`, y `tlx carrusel <clave>` hace las placas JPG, el control y lo deja listo.
+- **Control:** los reels de origen tienen que estar publicados y con el chequeo aprobado, y cada número de las placas y del caption tiene que estar en su chequeo, guion o caption. Si falla, queda apartado y no sale.
+- **Publicación:** flujo *Carrusel* de GitHub (16:00, 16:17, 16:43, 17:11 y 17:39; el primero que corre publica). Solo Instagram. Llega ✅ al celular; si no había ninguno listo, un aviso suave.
+- Registro: `videos/carruseles/carruseles.json` (`tlx carrusel cola`); publicados en `videos/carruseles/publicados.json`. A mano: `python -I herramientas/publicar_carrusel.py <clave> [--probar]`.
 
 ## TikTok (@teloexplico.ar)
 Después de publicar en Instagram, `publicar_tiktok.py` manda el video a la **bandeja de TikTok como borrador** (app "Te lo explico publicador", modo sandbox).

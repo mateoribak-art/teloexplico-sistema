@@ -1,0 +1,40 @@
+[
+ {
+  "clave": "bts",
+  "estado": "publicado",
+  "origen": [
+   "007-bts-13-anios"
+  ],
+  "historial": [
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T23:00",
+    "motivo": "hecho en sesión"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-26T23:10",
+    "motivo": "https://www.instagram.com/p/De-xIusFk44/"
+   }
+  ]
+ },
+ {
+  "clave": "heladera",
+  "estado": "listo",
+  "origen": [
+   "001-heladera"
+  ],
+  "historial": [
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T23:00",
+    "motivo": "hecho en sesión"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T23:24",
+    "motivo": "control OK"
+   }
+  ]
+ }
+]

@@ -1,0 +1,136 @@
+{
+ "origen": [
+  "001-heladera"
+ ],
+ "serie": "mitos de cocina",
+ "placas": [
+  {
+   "tipo": "tapa",
+   "arriba": "¿dejás enfriar la comida antes de la heladera?",
+   "grande": "es al revés",
+   "promesa": "deslizá y guardalo",
+   "dibujo": [
+    {
+     "objeto": "Heladera",
+     "x": 330,
+     "y": 1180,
+     "s": 0.62,
+     "abierta": 1
+    },
+    {
+     "objeto": "Olla",
+     "x": 760,
+     "y": 1150,
+     "s": 0.85
+    }
+   ]
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// el problema",
+   "titulo": "En la mesada, la comida pasa horas en la zona de peligro",
+   "dato": "4 a 60 °C",
+   "colorDato": "rojo",
+   "fuente": "USDA FSIS · ANMAT/SENASA",
+   "dibujo": [
+    {
+     "objeto": "Olla",
+     "x": 420,
+     "y": 1170,
+     "s": 0.75
+    },
+    {
+     "objeto": "Termometro",
+     "x": 800,
+     "y": 1180,
+     "s": 0.62,
+     "valor": 0.6
+    }
+   ]
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// por qué importa",
+   "titulo": "Ahí las bacterias se pueden duplicar en apenas",
+   "dato": "20 minutos",
+   "colorDato": "rojo",
+   "cuerpo": "Por eso no conviene dejarla horas afuera.",
+   "fuente": "USDA FSIS"
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// el origen del mito",
+   "titulo": "Viene de las heladeras a hielo",
+   "cuerpo": "Meter algo caliente derretía el hielo. Las heladeras de hoy se la bancan sin problema.",
+   "dibujo": [
+    {
+     "objeto": "Heladera",
+     "x": 540,
+     "y": 1250,
+     "s": 0.55
+    }
+   ],
+   "fuente": "Indiana Public Media · AARP"
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// ojo",
+   "titulo": "La olla gigante tarda un montón en enfriarse, aunque esté adentro",
+   "cuerpo": "Repartila en tuppers chatos: se enfría más rápido.",
+   "fuente": "USDA FSIS",
+   "dibujo": [
+    {
+     "objeto": "Tupper",
+     "x": 280,
+     "y": 1085
+    },
+    {
+     "objeto": "Tupper",
+     "x": 540,
+     "y": 1085
+    },
+    {
+     "objeto": "Tupper",
+     "x": 800,
+     "y": 1085
+    }
+   ]
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// la regla",
+   "titulo": "Antes de las 2 horas, a la heladera",
+   "dato": "2 h",
+   "colorDato": "azul",
+   "cuerpo": "Si hace más de 32 °C: antes de 1 hora.",
+   "fuente": "USDA FSIS"
+  },
+  {
+   "tipo": "resumen",
+   "titulo": "La heladera, en 4 reglas",
+   "items": [
+    [
+     true,
+     "La comida caliente puede ir directo"
+    ],
+    [
+     true,
+     "Máximo 2 h afuera (1 h con más de 32 °C)"
+    ],
+    [
+     true,
+     "Ollas grandes: en tuppers chatos"
+    ],
+    [
+     false,
+     "Dejar el guiso toda la noche en la hornalla"
+    ]
+   ]
+  },
+  {
+   "tipo": "cierre",
+   "texto": "Mandáselo a ese que deja el guiso toda la noche arriba de la hornalla",
+   "serie": "mitos de cocina"
+  }
+ ]
+}

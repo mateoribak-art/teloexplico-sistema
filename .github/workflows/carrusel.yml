@@ -1,0 +1,69 @@
+# Publica el próximo carrusel listo en Instagram (turno de las 16:00 de Argentina, entre los reels de 12:30 y 19:30). Desde el 27/10/2026.
+# Igual que Publicar: GitHub arranca lo programado tarde o lo saltea, así que hay 5 intentos y el primero que corre publica.
+# Los carruseles los arma la producción (claude.yml, skill producir-carrusel) y quedan en videos/carruseles/.
+name: Carrusel
+
+on:
+  schedule:
+    # 16:00 Argentina (UTC-3): 16:00, 16:17, 16:43, 17:11, 17:39
+    - cron: '0 19 * * *'
+    - cron: '17 19 * * *'
+    - cron: '43 19 * * *'
+    - cron: '11 20 * * *'
+    - cron: '39 20 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: estado
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  carrusel:
+    if: github.event_name == 'workflow_dispatch' || vars.NUBE_ACTIVA == 'si'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TLX_NUBE: '1'
+      TZ: America/Argentina/Buenos_Aires
+      GH_TOKEN: ${{ github.token }}
+      CLAVE_ESTADO: ${{ secrets.CLAVE_ESTADO }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Claves
+        run: bash herramientas/nube/preparar.sh
+        env:
+          META_JSON: ${{ secrets.META_JSON }}
+          AVISOS_JSON: ${{ secrets.AVISOS_JSON }}
+          TIKTOK_JSON: ${{ secrets.TIKTOK_JSON }}
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+          TELEGRAM_JSON: ${{ secrets.TELEGRAM_JSON }}
+          YOUTUBE_JSON: ${{ secrets.YOUTUBE_JSON }}
+          YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
+      - name: ¿Toca publicar?
+        id: turno
+        working-directory: herramientas
+        run: |
+          TOCA=$(python -I publicar_carrusel.py --toca)
+          echo "toca=$TOCA" >> "$GITHUB_OUTPUT"
+          echo "toca publicar carrusel: $TOCA"
+      - name: Publicar
+        if: steps.turno.outputs.toca == 'si'
+        working-directory: herramientas
+        run: |
+          python -I publicar_carrusel.py --turno
+      - name: Guardar estado
+        if: always() && steps.turno.outputs.toca == 'si'
+        working-directory: herramientas
+        run: |
+          python -I sincronizar.py "Nube: turno del carrusel"
+      - name: Avisar si algo falló
+        if: failure()
+        working-directory: herramientas
+        run: |
+          python -I avisar.py "❌ Falló el carrusel en la nube" "Revisar GitHub › teloexplico-sistema › Actions. Hay otro intento en menos de media hora." alta
