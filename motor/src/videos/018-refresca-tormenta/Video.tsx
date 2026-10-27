@@ -316,10 +316,10 @@ export const RefrescaTormenta018: React.FC = () => {
 export const Portada018: React.FC = () => (
   <Portada arriba="¿por qué refresca después de la tormenta?" grande="aire frío" sello="CIENCIA" colorSello={C.verde} numero={18}>
     <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
-      <g transform="translate(0 80)">
+      <g transform="translate(0 300)">
         <rect x={0} y={1200} width={1080} height={300} fill={TONO.tierra} stroke={C.tinta} strokeWidth={8} />
         <ellipse cx={540} cy={1150} rx={460} ry={70} fill="#8CC8F7" stroke={C.tinta} strokeWidth={8} />
-        <Nube x={540} y={820} s={2.2} t={10} tormenta={1} />
+        <Nube x={500} y={830} s={1.45} t={10} tormenta={1} />
         <Termometro x={860} y={1190} s={1.1} valor={0.2} color={C.azul} />
       </g>
     </svg>

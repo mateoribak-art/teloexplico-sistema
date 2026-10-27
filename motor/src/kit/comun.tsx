@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { ALTO, ANCHO, C, display, sombra } from "./marca";
+import { useCapitulo } from "./series";
 import { resorte } from "./anim";
 import { Burbuja } from "./piezas";
 import type { Tiempos } from "./tiempos";
@@ -38,6 +39,7 @@ export const SelloFinal: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const r = resorte(frame, fps, 0, 320);
+  const cap = useCapitulo();
   return (
     <AbsoluteFill style={{ flexDirection: "column", justifyContent: "center", alignItems: "center", background: `rgba(255,246,229,${Math.min(0.85, frame / 4)})` }}>
       <div
@@ -49,7 +51,7 @@ export const SelloFinal: React.FC = () => {
       >
         te lo explico <Burbuja tam={70} />
       </div>
-      {/* 26/10: 80 mil vistas y 132 seguidores: el cierre invita a seguir la serie (corto, para no romper el loop) */}
+      {/* 26/10: 80 mil vistas y 132 seguidores: el cierre invita a seguir; desde el 27/10 nombra la serie y el capítulo que viene */}
       <div
         style={{
           marginTop: 34, opacity: interpolate(frame, [6, 12], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
@@ -57,8 +59,19 @@ export const SelloFinal: React.FC = () => {
           borderRadius: 999, rotate: "2deg",
         }}
       >
-        seguí @teloexplico.ar · un dato por día
+        {cap ? `seguí @teloexplico.ar para el #${cap.n + 1}` : "seguí @teloexplico.ar · un dato por día"}
       </div>
+      {cap ? (
+        <div
+          style={{
+            marginTop: 22, opacity: interpolate(frame, [3, 9], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
+            background: C.amarillo, color: C.tinta, border: `5px solid ${C.tinta}`, boxShadow: sombra(7), fontFamily: display,
+            fontWeight: 800, fontSize: 46, padding: "6px 26px", borderRadius: 16, rotate: "-2deg",
+          }}
+        >
+          {cap.nombre.toLowerCase()} #{cap.n}
+        </div>
+      ) : null}
     </AbsoluteFill>
   );
 };

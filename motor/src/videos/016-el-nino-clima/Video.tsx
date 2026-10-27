@@ -283,13 +283,13 @@ export const ElNinoClima016: React.FC = () => {
 export const Portada016: React.FC = () => (
   <Portada arriba="¿por qué este año llueve así?" grande="El Niño" sello="CIENCIA" colorSello={C.verde} numero={16}>
     <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
-      <g transform="translate(0 80)">
+      <g transform="translate(0 400)">
         <rect x={0} y={1000} width={620} height={500} fill="#4C86EE" stroke={C.tinta} strokeWidth={8} />
         <ellipse cx={300} cy={1100} rx={300} ry={80} fill={C.rojo} opacity={0.85} />
         <rect x={620} y={1000} width={500} height={500} fill={TONO.tierra} stroke={C.tinta} strokeWidth={8} />
-        <Sol x={200} y={620} s={1.2} t={10} fuerza={1.4} />
-        <Nube x={800} y={650} s={1.8} t={10} tormenta={1} />
-        <Termometro x={470} y={760} s={1.4} valor={0.85} />
+        <Sol x={190} y={560} s={0.85} t={10} fuerza={1.4} />
+        <Nube x={820} y={600} s={1.25} t={10} tormenta={1} />
+        <Termometro x={480} y={760} s={1.0} valor={0.85} />
       </g>
     </svg>
   </Portada>

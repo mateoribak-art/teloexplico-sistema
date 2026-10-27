@@ -77,7 +77,25 @@ def proximo_listo():
         if vencido(v):
             cambiar_estado(v['slug'], 'apartado', f'tema de actualidad vencido (más de {VIGENCIA_ACTUALIDAD_H} h)')
     listos = [v for v in cargar() if v['estado'] == 'listo']
-    return next((v for v in listos if v.get('prioridad') == 'actualidad'), None) or (listos[0] if listos else None)
+    v = next((v for v in listos if v.get('prioridad') == 'actualidad'), None) or (listos[0] if listos else None)
+    return primero_de_su_serie(v, listos)
+
+
+def primero_de_su_serie(v, listos):
+    """Si el elegido es el capítulo #4 de una serie y el #3 todavía no salió, sale antes el #3 (series.json, 27/10)."""
+    if v is None:
+        return None
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import series
+        cap = series.capitulo(v['slug'])
+        if not cap:
+            return v
+        anteriores = [(c[2], w) for w in listos if (c := series.capitulo(w['slug'])) and c[0] == cap[0] and c[2] < cap[2]]
+        return min(anteriores, key=lambda x: x[0])[1] if anteriores else v
+    except Exception as e:  # la serie nunca frena una publicación
+        print('series:', str(e)[:120])
+        return v
 
 
 def mostrar():

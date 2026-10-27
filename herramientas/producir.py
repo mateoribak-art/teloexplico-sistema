@@ -56,6 +56,16 @@ def manana():
     return 5 <= AHORA.hour < 12
 
 
+def pedido_pendiente():
+    """Hay una idea sin hacer en "## Pedidos de Mateo" de ideas.md: se produce aunque sobren listos (uno por turno, 27/10)."""
+    try:
+        texto = open(os.path.join(V, 'ideas.md'), encoding='utf-8').read()
+    except OSError:
+        return False
+    seccion = re.search(r'^## Pedidos de Mateo.*?(?=^## |\Z)', texto, re.M | re.S)
+    return bool(seccion and re.search(r'^- \[ \]', seccion.group(0), re.M))
+
+
 def comentarios_nuevos():
     r = subprocess.run([PY, '-I', 'comentarios.py', 'contar'], cwd=H, capture_output=True, text=True, encoding='utf-8', errors='replace')
     return int(r.stdout.strip()) if r.stdout.strip().isdigit() else -1
@@ -154,7 +164,8 @@ def produccion():
         escribir(log, 'PAUSA activa: no se produce nada.')
         return
     n = listos()
-    if n >= META:
+    pedido = pedido_pendiente()
+    if n >= META and not pedido:
         if not manana():
             escribir(log, f'Hay {n} videos listos (meta {META}): no hace falta producir ahora.')
             return
@@ -163,7 +174,7 @@ def produccion():
         ok = claude(RADAR, log, 90, MODELO_RADAR)
         escribir(log, f'Termina el radar ({"ok" if ok else "con problemas"}).')
         return aviso_noche()
-    escribir(log, f'Arranca la producción ({n} listos en la cola, meta {META}).')
+    escribir(log, f'Arranca la producción ({n} listos en la cola, meta {META}' + ('; hay un pedido de Mateo sin hacer' if n >= META else '') + ').')
     renderizar_pendientes(log)  # quedó alguno de un turno anterior
     ok = claude(PEDIDO, log, 110)
     renderizar_pendientes(log)
@@ -217,7 +228,7 @@ def hay_trabajo(modo):
     if os.path.exists(os.path.join(RAIZ, 'PAUSA')):
         return False
     if modo == 'produccion':
-        return listos() < META or manana()
+        return listos() < META or manana() or pedido_pendiente()
     if modo == 'comentarios':
         return comentarios_nuevos() != 0
     return True

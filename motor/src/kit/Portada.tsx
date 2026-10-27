@@ -2,6 +2,7 @@ import React from "react";
 import { AbsoluteFill } from "remotion";
 import { C, display, sombra } from "./marca";
 import { Burbuja, Fondo } from "./piezas";
+import { useCapitulo } from "./series";
 
 // Portada del reel para la grilla. Instagram la muestra recortada a 3:4 (franja central de 1080×1440,
 // de y=240 a y=1680): todo lo importante va ahí, en pocas palabras y grande.
@@ -12,14 +13,16 @@ export type PortadaProps = {
   grande: string;       // la respuesta, enorme y resaltada (2–3 palabras)
   sello?: string;       // "MITO", "DATO", etc.
   colorSello?: string;
-  numero?: number;      // número de dato, ayuda a ver la serie en la grilla
+  numero?: number;      // ya no se muestra (27/10): la franja lleva la serie y el capítulo de series.json
   children?: React.ReactNode; // dibujo (svg 1080×1920)
 };
 
 const tamArriba = (t: string) => (t.length <= 26 ? 96 : t.length <= 44 ? 84 : t.length <= 64 ? 74 : 64);
 const tamGrande = (t: string) => (t.length <= 3 ? 170 : t.length <= 6 ? 160 : t.length <= 10 ? 140 : t.length <= 14 ? 124 : 104);
 
-export const Portada: React.FC<PortadaProps> = ({ arriba, grande, sello, colorSello = C.rojo, numero, children }) => (
+export const Portada: React.FC<PortadaProps> = ({ arriba, grande, sello, colorSello = C.rojo, children }) => {
+  const cap = useCapitulo();
+  return (
   <AbsoluteFill style={{ backgroundColor: C.papel }}>
     <Fondo />
     {children}
@@ -32,7 +35,7 @@ export const Portada: React.FC<PortadaProps> = ({ arriba, grande, sello, colorSe
         }}
       >
         te lo explico <Burbuja tam={42} />
-        {numero !== undefined ? <span style={{ color: C.amarillo }}>#{String(numero).padStart(3, "0")}</span> : null}
+        {cap ? <span style={{ color: C.amarillo, fontSize: 40 }}>{cap.nombre.toLowerCase()} #{cap.n}</span> : null}
       </div>
     </div>
     <div style={{ position: "absolute", top: 352, left: 70, right: 70, textAlign: "center", fontFamily: display, color: C.tinta }}>
@@ -55,4 +58,5 @@ export const Portada: React.FC<PortadaProps> = ({ arriba, grande, sello, colorSe
       </div>
     ) : null}
   </AbsoluteFill>
-);
+  );
+};

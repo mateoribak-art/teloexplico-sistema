@@ -23,6 +23,21 @@ La notebook puede estar apagada o sin internet: solo hace falta para trabajar en
 Para correr algo a mano: *Actions* › elegir el flujo › *Run workflow* (Publicar tiene modo "probar": sube sin publicar).
 GitHub puede arrancar los turnos programados entre 5 y 30 minutos tarde: es normal.
 
+## Series (desde el 27/10/2026)
+Cada video es un capítulo de una serie: **Mitos de cocina, El clima explicado, Mitos de casa, Mitos del cuerpo, Ciencia cotidiana, Matemática cotidiana y Por dentro** (los 3D).
+Motivo: 80 mil vistas trajeron 179 seguidores; la serie le da a la gente una razón para seguir la cuenta.
+- El registro está en `motor/src/kit/series.json`. `tlx serie` lo muestra; `tlx serie asignar <slug> <serie>` le da a un video el capítulo siguiente.
+- La portada (franja de arriba) y el cierre del reel ("seguí @teloexplico.ar para el #4") lo toman solos; el caption y el texto de TikTok llevan el renglón "📚 Mitos de cocina #3 · Seguí…".
+- El publicador respeta el orden: si el próximo de la cola es el #4 de una serie y el #3 todavía no salió, sale primero el #3.
+- Los videos producidos antes del 27/10 tienen la serie en la portada y en el caption, pero no en el cierre (sus voces ya no están para volver a renderizarlos).
+
+## Pedidos de Mateo
+Una idea sin hacer en la sección "Pedidos de Mateo" de `videos/ideas.md` se produce en el próximo turno **aunque haya 10 listos** (uno por turno).
+
+## Carruseles (a mano, no automáticos)
+`motor/src/carruseles/Carrusel.tsx` (texto de cada placa, solo datos ya chequeados) → `python -I herramientas/carrusel.py <clave>` (placas JPG en `videos/carruseles/<clave>/` y `hoja.png`) →
+`python -I herramientas/publicar_carrusel.py <clave> --probar` (lo arma en Instagram sin publicar) → sin `--probar`, lo publica. Hechos: `heladera` (8 placas) y `bts` (10).
+
 ## TikTok (@teloexplico.ar)
 Después de publicar en Instagram, `publicar_tiktok.py` manda el video a la **bandeja de TikTok como borrador** (app "Te lo explico publicador", modo sandbox).
 Llega una notificación con el texto listo para pegar: abrir la notificación de TikTok, pegar y publicar (~20 s).

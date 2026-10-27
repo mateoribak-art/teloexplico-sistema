@@ -4,6 +4,7 @@ import { PrototipoB, PrototipoC } from "./prototipos/Granizo";
 import { ArmyBomb006, DURACION as DUR_006, FPS as FPS_006, Portada006 } from "./videos/006-army-bomb/Video";
 import { Bts13Anios007, DURACION as DUR_007, FPS as FPS_007, Portada007 } from "./videos/007-bts-13-anios/Video";
 import { Taller } from "./taller/Taller";
+import { ALTO_C, ANCHO_C, CarruselPlaca } from "./carruseles/Carrusel";
 import { Catalogo } from "./taller/Catalogo";
 import { BannerYT, BannerYTGuia } from "./taller/BannerYT";
 import { Plantilla, PortadaPlantilla, calcularPlantilla, type PropsPlantilla } from "./plantilla/Plantilla";
@@ -21,6 +22,7 @@ import { DescongelarMesada015, DURACION as DUR_015, FPS as FPS_015, Portada015 }
 import { DURACION as DUR_016, ElNinoClima016, FPS as FPS_016, Portada016 } from "./videos/016-el-nino-clima/Video";
 import { DURACION as DUR_017, FPS as FPS_017, ParadojaCumpleanos017, Portada017 } from "./videos/017-paradoja-cumpleanos/Video";
 import { DURACION as DUR_018, FPS as FPS_018, Portada018, RayoTrueno018 } from "./videos/018-rayo-trueno/Video";
+import { DURACION as DUR_018R, FPS as FPS_018R, Portada018 as Portada018R, RefrescaTormenta018 } from "./videos/018-refresca-tormenta/Video";
 import { DURACION as DUR_019, FPS as FPS_019, Portada019, SensacionTermica019 } from "./videos/019-sensacion-termica/Video";
 import { DURACION as DUR_020, FPS as FPS_020, PavaSeCorta3D, Portada020 } from "./videos/020-pava-se-corta/Video";
 
@@ -44,8 +46,12 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="h016-el-nino-clima" component={ElNinoClima016} durationInFrames={DUR_016} fps={FPS_016} width={ANCHO} height={ALTO} />
         <Composition id="h017-paradoja-cumpleanos" component={ParadojaCumpleanos017} durationInFrames={DUR_017} fps={FPS_017} width={ANCHO} height={ALTO} />
         <Composition id="h018-rayo-trueno" component={RayoTrueno018} durationInFrames={DUR_018} fps={FPS_018} width={ANCHO} height={ALTO} />
+        <Composition id="h018-refresca-tormenta" component={RefrescaTormenta018} durationInFrames={DUR_018R} fps={FPS_018R} width={ANCHO} height={ALTO} />
         <Composition id="h019-sensacion-termica" component={SensacionTermica019} durationInFrames={DUR_019} fps={FPS_019} width={ANCHO} height={ALTO} />
         <Composition id="h020-pava-se-corta" component={PavaSeCorta3D} durationInFrames={DUR_020} fps={FPS_020} width={ANCHO} height={ALTO} />
+      </Folder>
+      <Folder name="carruseles">
+        <Still id="carrusel" component={CarruselPlaca} width={ANCHO_C} height={ALTO_C} defaultProps={{ clave: "heladera", i: 0 }} />
       </Folder>
       <Folder name="portadas">
         <Still id="p001-heladera" component={Portada001} width={ANCHO} height={ALTO} />
@@ -63,6 +69,7 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p016-el-nino-clima" component={Portada016} width={ANCHO} height={ALTO} />
         <Still id="p017-paradoja-cumpleanos" component={Portada017} width={ANCHO} height={ALTO} />
         <Still id="p018-rayo-trueno" component={Portada018} width={ANCHO} height={ALTO} />
+        <Still id="p018-refresca-tormenta" component={Portada018R} width={ANCHO} height={ALTO} />
         <Still id="p019-sensacion-termica" component={Portada019} width={ANCHO} height={ALTO} />
         <Still id="p020-pava-se-corta" component={Portada020} width={ANCHO} height={ALTO} />
       </Folder>

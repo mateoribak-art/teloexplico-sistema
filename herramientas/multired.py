@@ -74,11 +74,13 @@ def textos(caption):
     c = caption  # Instagram y TikTok comparten usuario (@teloexplico.ar); solo YouTube va sin punto
     parrafos = [p.strip() for p in c.split('\n\n') if p.strip()]
     gancho = parrafos[0]
-    hashtags = ' '.join(re.findall(r'#\w+', c)[:4])
+    hashtags = ' '.join(re.findall(r'#[^\W\d]\w*', c)[:4])  # con letra adelante: "#3" de la serie no es hashtag
     mandaselo = next((p for p in parrafos if 'Mandáselo' in p), '')
     fuentes = next((p.split('\n')[0] for p in parrafos if p.startswith('Fuentes')), '')
     # TikTok: corto y al grano (la gente no lee captions largos ahí)
-    tiktok = '\n\n'.join(x for x in [gancho, mandaselo, fuentes, 'Seguí a @teloexplico.ar: un dato por día.',
+    # el renglón de la serie ("📚 Mitos de cocina #3 · Seguí…") sale del caption; si no está, el de siempre
+    seguir = next((l for l in c.splitlines() if l.startswith('📚')), 'Seguí a @teloexplico.ar: un dato por día.')
+    tiktok = '\n\n'.join(x for x in [gancho, mandaselo, fuentes, seguir,
                                      hashtags + ' #aprendeentiktok'] if x)
     # YouTube Shorts: título ≤100 caracteres con la pregunta del gancho, descripción completa
     primera = re.split(r'(?<=[?.!])\s', gancho.split('\n')[0])[0]
