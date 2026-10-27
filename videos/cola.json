@@ -160,7 +160,7 @@
  {
   "slug": "005-granizo-calor",
   "tema": "¿Por qué cae granizo justo cuando hace calor?",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -186,6 +186,11 @@
     "estado": "listo",
     "cuando": "2026-10-27T16:36",
     "motivo": "falso-rechazo-de-voz-corregido"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T19:31",
+    "motivo": "tema de actualidad vencido (más de 48 h)"
    }
   ],
   "prioridad": "actualidad",
@@ -324,7 +329,7 @@
  {
   "slug": "018-rayo-trueno",
   "tema": "¿A qué distancia está la tormenta? Contar segundos entre rayo y trueno",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -340,6 +345,11 @@
     "estado": "listo",
     "cuando": "2026-10-26T18:03",
     "motivo": "producción nocturna"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-27T19:32",
+    "motivo": "https://www.instagram.com/reel/DfA7-2QE5f7/"
    }
   ]
  },
