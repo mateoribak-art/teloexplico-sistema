@@ -13,6 +13,7 @@
 #   tlx catalogo                    lámina con toda la biblioteca de objetos
 #   tlx metricas [actualizar]       ranking de reels por rendimiento (actualizar baja datos nuevos)
 #   tlx metricas carruseles         tabla de carruseles (alcance, compartidos, visitas al perfil)
+#   tlx metricas-es                 ranking de @teloexplico.ar aunque corra con TLX_CUENTA=en (qué adaptar al inglés)
 #   tlx comentarios pendientes      comentarios nuevos sin responder
 #   tlx comentarios responder|saltear|alerta <id> "<texto o motivo>"
 #
@@ -38,6 +39,7 @@ case "$cmd" in
   serie)   cd "$H" && "$PY" -I series.py "$@" ;;
   carrusel) cd "$H" && "$PY" -I carrusel.py "$@" ;;
   metricas) cd "$H" && "$PY" -I metricas.py "$@" ;;
+  metricas-es) cd "$H" && TLX_CUENTA=es "$PY" -I metricas.py "$@" ;;   # ranking de @teloexplico.ar desde la producción en inglés
   comentarios) cd "$H" && "$PY" -I comentarios.py "$@" ;;
   tsc)     cd "$M" && npx tsc --noEmit ;;
   cuadros)
@@ -80,5 +82,5 @@ case "$cmd" in
     cd "$M" && npx remotion still catalogo "$RAIZ/videos/_taller/catalogo.png" --log=error
     echo "catálogo: videos/_taller/catalogo.png"
     ;;
-  *) sed -n '2,19p' "$0"; exit 1 ;;
+  *) sed -n '2,20p' "$0"; exit 1 ;;
 esac

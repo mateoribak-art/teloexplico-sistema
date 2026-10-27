@@ -165,7 +165,7 @@ def main(modo):
         firma = hashlib.md5(json.dumps(p).encode()).hexdigest()
         ultima = os.path.join(V, 'ultimo_aviso.txt')
         if not os.path.exists(ultima) or open(ultima).read() != firma:
-            avisar('⚠️ Te lo explico necesita atención', '\n'.join(m for _, m in p), 'alta' if graves else 'default')
+            avisar(f"⚠️ {'Let me explain' if cuenta.CUENTA == 'en' else 'Te lo explico'} necesita atención", '\n'.join(m for _, m in p), 'alta' if graves else 'default')
             open(ultima, 'w').write(firma)
     print('problemas:', p or 'ninguno')
 

@@ -6,6 +6,7 @@ Uso:
   python -I comentarios.py saltear <id> "<motivo>"    lo marca como visto sin responder (spam, insulto, emoji solo)
   python -I comentarios.py alerta <id> "<motivo>"     lo marca y te avisa al celular (ej.: dicen que un dato está mal)
 
+Con TLX_CUENTA=en, los de @letmeexplain.us (videos/en/, meta_en.json; cuenta.py).
 Registro: videos/comentarios.json  {comment_id: {"estado": "respondido|salteado|alerta", "texto", "respuesta", "cuando"}}
 """
 import datetime, json, os, sys, urllib.parse, urllib.request
@@ -13,10 +14,11 @@ import datetime, json, os, sys, urllib.parse, urllib.request
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from avisar import avisar  # noqa: E402
+import cuenta  # noqa: E402
 
-V = os.path.join(RAIZ, 'videos')
+V = cuenta.ACTUAL['videos']
 REGISTRO = os.path.join(V, 'comentarios.json')
-CONF = json.load(open(os.path.join(RAIZ, 'secretos', 'meta.json'), encoding='utf-8'))
+CONF = json.load(open(cuenta.ACTUAL['meta'], encoding='utf-8-sig'))
 API = f"https://graph.facebook.com/{CONF['graph_version']}"
 MAX_RESPUESTA = 300
 

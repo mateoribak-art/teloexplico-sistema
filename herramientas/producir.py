@@ -11,14 +11,21 @@ Uso: python -I producir.py produccion | radar | comentarios | hay-trabajo <modo>
 Si Claude no responde (límite de la suscripción o cualquier error) y quedan PLAN_B o menos videos listos,
 produce el plan B sin Claude (Gemini + Wikipedia + plantilla). Se frena con el archivo PAUSA.
 Logs: videos/noche_<fecha>.log (producción), videos/radar_corridas.log, videos/comentarios.log.
+
+Con TLX_CUENTA=en trabaja para @letmeexplain.us (27/10): sus skills (producir-video-en, radar-actualidad-en,
+responder-comentarios-en), su carpeta videos/en/, colchón de 6 y un video por turno; sin plan B ni carruseles todavía.
+Claude hereda TLX_CUENTA, así que sus `tlx cola`, `tlx metricas`, etc. ya son de la cuenta en inglés.
 """
 import datetime, json, os, re, subprocess, sys
 
 H = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(H)
-V = os.path.join(RAIZ, 'videos')
+sys.path.insert(0, H)
+import cuenta  # noqa: E402
+EN = cuenta.CUENTA == 'en'
+V = cuenta.ACTUAL['videos']
 PY = sys.executable
-META = 10    # colchón: 5 días de publicaciones (2 por día)
+META = 6 if EN else 10    # colchón: 5 días de publicaciones (2 por día); inglés, 3 días (la cuota de Claude y de Gemini es compartida)
 PLAN_B = 3   # con esto o menos listos y sin Claude, produce el plan B
 LIMITE = re.compile(r'(?i)(usage limit|limit reached|hit your (session |weekly |daily )?limit|session limit|weekly limit|rate limit|out of (extra )?usage|resets? (at|in|\d))')
 AHORA = datetime.datetime.now()
@@ -29,21 +36,24 @@ TERMINAL = """REGLAS DE TERMINAL (corrida automática, nadie aprueba permisos):
   Nada de `2>&1`, `| tail`, `| head`, `; echo`, `&&` ni `cd`: cualquier agregado hace que se niegue el comando entero.
 - Permitidos: ./herramientas/tlx (todos sus subcomandos), ls, cat, grep, mkdir, date, echo. Para leer archivos usá Read, Glob y Grep.
 - Podés crear y editar archivos en videos/** y motor/src/** con Write y Edit (incluidos los logs de videos/)."""
+SK_VIDEO = 'producir-video-en' if EN else 'producir-video'
+SK_RADAR = 'radar-actualidad-en' if EN else 'radar-actualidad'
+SK_COMENTARIOS = 'responder-comentarios-en' if EN else 'responder-comentarios'
 
 PEDIDO = f"""{TERMINAL}
 
-Producción automática. Usá el skill producir-video y seguilo al pie de la letra (incluida la dirección de arte de marca/DIRECCION_ARTE.md).
-Producí 1 video completo. Si al terminar quedan menos de {META} videos listos en la cola y la cuota de Gemini no se agotó, producí otro (máximo 2 en total).
+Producción automática. Usá el skill {SK_VIDEO} y seguilo al pie de la letra (incluida la dirección de arte de marca/DIRECCION_ARTE.md).
+{'Producí 1 solo video completo.' if EN else f'Producí 1 video completo. Si al terminar quedan menos de {META} videos listos en la cola y la cuota de Gemini no se agotó, producí otro (máximo 2 en total).'}
 Recordá el criterio de veracidad del skill: nada inventado, lo probable con matiz, salud/seguridad/plata solo verificado; el chequeo lo hace un subagente aparte.
 Al final escribí un resumen de 3 líneas: qué slugs quedaron listos, apartados o incompletos y por qué."""
-RADAR = (TERMINAL + '\n\nUsá el skill radar-actualidad. Si encontrás un tema del momento que cumpla todos los criterios, producilo completo '
-         'con el skill producir-video (prioridad actualidad). Si no, anotá los candidatos descartados y terminá. '
+RADAR = (TERMINAL + f'\n\nUsá el skill {SK_RADAR}. Si encontrás un tema del momento que cumpla todos los criterios, producilo completo '
+         f'con el skill {SK_VIDEO} (prioridad actualidad). Si no, anotá los candidatos descartados y terminá. '
          'Al final, una línea con lo que decidiste.')
 CARRUSEL = (TERMINAL + '\n\nUsá el skill producir-carrusel y armá 1 carrusel con datos ya chequeados de reels publicados. '
             'Si no hay de dónde sacarlo sin repetir, no hagas nada y decilo. Al final, una línea con la clave y si quedó listo o apartado.')
 CARRUSELES_META = 2      # carruseles listos de colchón (sale uno por día a las 16:00)
 CARRUSEL_CADA_H = 12     # como mucho un intento de Claude cada 12 h, para no gastar cuota si no hay de dónde sacar
-COMENTARIOS = (TERMINAL + '\n\nUsá el skill responder-comentarios y procesá todos los comentarios pendientes. '
+COMENTARIOS = (TERMINAL + f'\n\nUsá el skill {SK_COMENTARIOS} y procesá todos los comentarios pendientes. '
                'Al final, una línea con cuántos respondiste, salteaste y alertaste.')
 
 
@@ -53,7 +63,8 @@ def escribir(log, msg):
 
 
 def listos():
-    return sum(1 for v in json.load(open(os.path.join(V, 'cola.json'), encoding='utf-8')) if v['estado'] == 'listo')
+    ruta = os.path.join(V, 'cola.json')
+    return sum(1 for v in json.load(open(ruta, encoding='utf-8')) if v['estado'] == 'listo') if os.path.exists(ruta) else 0
 
 
 def manana():
@@ -67,7 +78,7 @@ def carruseles_listos():
 
 def toca_carrusel():
     ultimo = os.path.join(V, 'carruseles', 'ultimo_intento.txt')
-    if carruseles_listos() >= CARRUSELES_META:
+    if EN or carruseles_listos() >= CARRUSELES_META:  # carruseles: solo español por ahora
         return False
     try:
         antes = datetime.datetime.fromisoformat(open(ultimo, encoding='utf-8').read().strip())
@@ -152,7 +163,7 @@ def claude(pedido, log, minutos, modelo=MODELO_PRODUCIR):
 
 def plan_b(log):
     quedan = listos()
-    if quedan > PLAN_B:
+    if EN or quedan > PLAN_B:  # el plan B (Gemini + Wikipedia + plantilla) es solo de español
         return
     escribir(log, f'Quedan {quedan} listos y Claude no respondió: arranca el PLAN B (sin Claude).')
     r = subprocess.run([PY, '-I', 'plan_b.py'], cwd=H, capture_output=True, text=True, encoding='utf-8', errors='replace')
@@ -162,12 +173,14 @@ def plan_b(log):
 
 
 def aviso_noche():
-    subprocess.run([PY, '-I', 'estado.py', 'noche'], cwd=H, capture_output=True)
+    subprocess.run([PY, '-I', 'estado.py', 'noche'], cwd=H, capture_output=True)  # hereda TLX_CUENTA
 
 
 def renderizar_pendientes(log):
     """Videos en estado `render` (escenas 3D listas): render + control sin Claude. En la nube el 3D va por software
     (~20 min por video): Claude no espera ese render, que además pasa el límite de 10 min de sus comandos."""
+    if not os.path.exists(os.path.join(V, 'cola.json')):
+        return
     cola = json.load(open(os.path.join(V, 'cola.json'), encoding='utf-8'))
     for v in (cola if isinstance(cola, list) else cola['videos']):
         if v['estado'] != 'render':

@@ -1,4 +1,5 @@
 # Tareas livianas en la nube: resumen diario (21:00) y vigilancia (cada 2 h de 8 a 24, hora de Argentina).
+# Desde el 27/10 también para @letmeexplain.us (TLX_CUENTA=en, avisos con [EN]), si ya están sus claves.
 name: Resumen y vigilancia
 
 on:
@@ -44,6 +45,7 @@ jobs:
         run: bash herramientas/nube/preparar.sh
         env:
           META_JSON: ${{ secrets.META_JSON }}
+          META_EN_JSON: ${{ secrets.META_EN_JSON }}
           AVISOS_JSON: ${{ secrets.AVISOS_JSON }}
           TIKTOK_JSON: ${{ secrets.TIKTOK_JSON }}
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
@@ -56,20 +58,30 @@ jobs:
             *) MODO=vigilar ;;
           esac
           HOY=$(date +%F)
-          if [ "$MODO" = "resumen" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ] && [ "$(cat ../videos/ultimo_resumen.txt 2>/dev/null)" = "$HOY" ]; then
-            echo "el resumen de hoy ya salió"; exit 0
-          fi
-          python -I estado.py "$MODO"
-          if [ "$MODO" = "resumen" ]; then echo "$HOY" > ../videos/ultimo_resumen.txt; fi
+          # cada cuenta con su marca de "el resumen de hoy ya salió" (videos/ y videos/en/)
+          correr() {
+            local CARPETA="$1"
+            if [ "$MODO" = "resumen" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ] && [ "$(cat "$CARPETA/ultimo_resumen.txt" 2>/dev/null)" = "$HOY" ]; then
+              echo "el resumen de hoy ya salió ($CARPETA)"; return 0
+            fi
+            python -I estado.py "$MODO"
+            if [ "$MODO" = "resumen" ]; then echo "$HOY" > "$CARPETA/ultimo_resumen.txt"; fi
+          }
+          correr ../videos
+          if [ -s ../secretos/meta_en.json ]; then TLX_CUENTA=en correr ../videos/en; fi
       - name: ¿Quedó un turno sin publicar?
         # red extra: si GitHub salteó los intentos del publicador, la vigilancia lo lanza a mano (eso no se demora)
         working-directory: herramientas
         run: |
-          if [ "$(python -I publicador.py --toca)" = "si" ]; then
-            MIN=$(python -c "import datetime as d, publicador as p; print(int((d.datetime.now(p.ZONA) - p.turno_actual()).total_seconds() // 60))")
-            echo "turno sin cubrir hace $MIN min"
-            if [ "$MIN" -ge 20 ]; then gh workflow run publicar.yml -f modo=publicar && echo "publicador lanzado"; fi
-          fi
+          revisar() {   # $1: cuenta (es | en)
+            if [ "$(TLX_CUENTA=$1 python -I publicador.py --toca)" = "si" ]; then
+              MIN=$(TLX_CUENTA=$1 python -c "import datetime as d, publicador as p; print(int((d.datetime.now(p.ZONA) - p.turno_actual()).total_seconds() // 60))")
+              echo "turno de $1 sin cubrir hace $MIN min"
+              if [ "$MIN" -ge 20 ]; then gh workflow run publicar.yml -f modo=publicar -f cuenta=$1 && echo "publicador lanzado ($1)"; fi
+            fi
+          }
+          revisar es
+          if [ -s ../secretos/meta_en.json ]; then revisar en; fi
       - name: Guardar estado
         if: always()
         working-directory: herramientas

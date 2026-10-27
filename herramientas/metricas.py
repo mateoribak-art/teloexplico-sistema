@@ -13,9 +13,12 @@ Puntaje = (compartidos*3 + guardados*2 + comentarios + me gusta*0,5) / alcance *
 import datetime, json, os, subprocess, sys, urllib.parse, urllib.request
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-V = os.path.join(RAIZ, 'videos')
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # con python -I no se agrega solo
+import cuenta  # noqa: E402
+# cada cuenta con sus métricas (TLX_CUENTA=en: videos/en/metricas.json con meta_en.json)
+V = cuenta.ACTUAL['videos']
 ARCHIVO = os.path.join(V, 'metricas.json')
-CONF = json.load(open(os.path.join(RAIZ, 'secretos', 'meta.json'), encoding='utf-8'))
+CONF = json.load(open(cuenta.ACTUAL['meta'], encoding='utf-8-sig'))
 API = f"https://graph.facebook.com/{CONF['graph_version']}"
 METRICAS = ['views', 'reach', 'likes', 'comments', 'shares', 'saved', 'total_interactions',
             'ig_reels_avg_watch_time', 'ig_reels_video_view_total_time']

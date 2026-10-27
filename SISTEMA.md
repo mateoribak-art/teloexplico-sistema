@@ -23,6 +23,14 @@ La notebook puede estar apagada o sin internet: solo hace falta para trabajar en
 Para correr algo a mano: *Actions* › elegir el flujo › *Run workflow* (Publicar tiene modo "probar": sube sin publicar).
 GitHub puede arrancar los turnos programados entre 5 y 30 minutos tarde: es normal.
 
+## Let me explain (@letmeexplain.us, cuenta en inglés para EE. UU., desde el 27/10/2026)
+Mismo sistema y mismos flujos de GitHub: cada turno trabaja primero para español y después para inglés (`TLX_CUENTA=en`). Detalle en `marca/en/PLAN.md`.
+- **Producción**: en los mismos 4 turnos, Claude hace 1 video en inglés si hay menos de 6 listos (3 días). Alterna entre adaptar un video que funcionó en español y un tema propio de EE. UU.; si el radar de EE. UU. encuentra algo del momento, va primero. Skills `producir-video-en`, `radar-actualidad-en`, `responder-comentarios-en`; ideas en `videos/en/ideas.md` (sección "Pedidos de Mateo" igual que en español).
+- **Publicación**: 11:30 y 19:00 de Nueva York en Instagram y Facebook; TikTok a la bandeja de @letmeexplain.us más Telegram. Sin YouTube todavía.
+- **Comentarios, resumen y vigilancia**: los mismos horarios; los avisos de inglés llegan con `[EN]`.
+- Todo lo de inglés vive en `videos/en/` y sus slugs empiezan con `en-`. Para mirar a mano: `TLX_CUENTA=en ./herramientas/tlx cola`.
+- Sin plan B ni carruseles en inglés por ahora. La cuota de Claude y la de Gemini (10 voces por día) son compartidas: español va primero.
+
 ## Series (desde el 27/10/2026)
 Cada video es un capítulo de una serie: **Mitos de cocina, El clima explicado, Mitos de casa, Mitos del cuerpo, Ciencia cotidiana, Matemática cotidiana y Por dentro** (los 3D).
 Motivo: 80 mil vistas trajeron 179 seguidores; la serie le da a la gente una razón para seguir la cuenta.

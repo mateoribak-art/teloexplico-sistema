@@ -48,7 +48,14 @@ def textos(slug):
     if not os.path.exists(ruta):
         return
     c = open(ruta, encoding='utf-8').read()
-    nuevo = SEGUI.sub(renglon(slug), c, count=1) if SEGUI.search(c) else c.rstrip() + '\n\n' + renglon(slug) + '\n'
+    if SEGUI.search(c):
+        nuevo = SEGUI.sub(renglon(slug), c, count=1)
+    else:  # sin renglón todavía: va antes del párrafo de hashtags (si lo hay), como en los captions hechos a mano
+        partes = c.rstrip().split('\n\n')
+        if len(partes) > 1 and partes[-1].lstrip().startswith('#'):
+            nuevo = '\n\n'.join(partes[:-1]) + '\n' + renglon(slug) + '\n\n' + partes[-1] + '\n'
+        else:
+            nuevo = c.rstrip() + '\n\n' + renglon(slug) + '\n'
     if nuevo != c:
         open(ruta, 'w', encoding='utf-8').write(nuevo)
 

@@ -1,6 +1,8 @@
 # Todo lo que usa Claude, en la nube y con la suscripción de Mateo (token de `claude setup-token`):
 # producción cada 6 h mientras falten videos, radar de actualidad y respuesta de comentarios.
 # Si Claude no tiene cuota y la cola se vacía, producir.py arranca el plan B (Gemini, sin Claude).
+# Desde el 27/10 cada turno hace lo mismo para @letmeexplain.us (TLX_CUENTA=en) después de español: primero español,
+# que es la cuenta que ya rinde; si la cuota se agota, el inglés espera al próximo turno.
 name: Claude
 
 on:
@@ -19,6 +21,11 @@ on:
         type: choice
         options: [produccion, radar, comentarios, plan_b, diagnostico]
         default: produccion
+      cuenta:
+        description: 'todas · es (@teloexplico.ar) · en (@letmeexplain.us)'
+        type: choice
+        options: [todas, es, en]
+        default: todas
 
 # un turno de Claude a la vez (la cuota es una sola); el estado se combina al final con sincronizar.py
 concurrency:
@@ -33,7 +40,7 @@ jobs:
     # interruptor propio: se prende cuando la producción deja la notebook
     if: github.event_name == 'workflow_dispatch' || vars.CLAUDE_EN_NUBE == 'si'
     runs-on: ubuntu-latest
-    timeout-minutes: 230  # 110 de Claude + hasta 2 renders 3D por software (~25 min c/u)
+    timeout-minutes: 350  # español: 110 de Claude + hasta 2 renders 3D (~25 min c/u); inglés: lo mismo con 1 video
     env:
       TLX_NUBE: '1'
       TZ: America/Argentina/Buenos_Aires
@@ -50,6 +57,7 @@ jobs:
         run: bash herramientas/nube/preparar.sh
         env:
           META_JSON: ${{ secrets.META_JSON }}
+          META_EN_JSON: ${{ secrets.META_EN_JSON }}
           AVISOS_JSON: ${{ secrets.AVISOS_JSON }}
           TIKTOK_JSON: ${{ secrets.TIKTOK_JSON }}
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
@@ -63,9 +71,16 @@ jobs:
             '') MODO="${{ inputs.modo }}" ;;
             *) MODO=produccion ;;
           esac
-          echo "modo=$MODO" >> "$GITHUB_OUTPUT"
-          echo "trabajo=$(python -I producir.py hay-trabajo $MODO)" >> "$GITHUB_OUTPUT"
-          echo "modo $MODO"
+          CUENTA="${{ inputs.cuenta }}"; CUENTA="${CUENTA:-todas}"   # lo programado no trae inputs: las dos cuentas
+          ES=no; EN=no
+          if [ "$CUENTA" != en ]; then ES=$(python -I producir.py hay-trabajo $MODO); fi
+          # plan B y diagnóstico son solo de español; inglés solo si ya están sus claves
+          if [ "$CUENTA" != es ] && [ -s ../secretos/meta_en.json ] && [ "$MODO" != plan_b ] && [ "$MODO" != diagnostico ]; then
+            EN=$(TLX_CUENTA=en python -I producir.py hay-trabajo $MODO)
+          fi
+          if [ "$ES" = si ] || [ "$EN" = si ]; then TRABAJO=si; else TRABAJO=no; fi
+          { echo "modo=$MODO"; echo "trabajo=$TRABAJO"; echo "es=$ES"; echo "en=$EN"; } >> "$GITHUB_OUTPUT"
+          echo "modo $MODO · español $ES · inglés $EN"
       - name: Node
         if: steps.turno.outputs.trabajo == 'si'
         uses: actions/setup-node@v4
@@ -104,10 +119,18 @@ jobs:
           path: ~/.cache/huggingface
           key: whisper-small-v2
       - name: Turno de Claude
-        if: steps.turno.outputs.trabajo == 'si'
+        if: steps.turno.outputs.es == 'si'
         working-directory: herramientas
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: python -I producir.py ${{ steps.turno.outputs.modo }}
+      - name: Turno de Claude (inglés)
+        # aunque el de español falle: son cuentas independientes (Claude hereda TLX_CUENTA en sus comandos)
+        if: ${{ !cancelled() && steps.turno.outputs.en == 'si' }}
+        working-directory: herramientas
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          TLX_CUENTA: en
         run: python -I producir.py ${{ steps.turno.outputs.modo }}
       - name: Guardar estado
         if: always()
