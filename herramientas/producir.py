@@ -78,7 +78,10 @@ def resumir(crudo):
                          f"{u.get('cache_read_input_tokens', 0):,} de caché · {u.get('output_tokens', 0):,} escritos"
                          + (f" · equivale a US$ {d['total_cost_usd']:.2f} de API" if d.get('total_cost_usd') is not None else ''))
             negados = [f"{x.get('tool_name')}: {json.dumps(x.get('tool_input'), ensure_ascii=False)[:150]}" for x in d.get('permission_denials') or []]
-    texto = final.strip() or '\n'.join(otros).strip()
+    uso = [x for x in otros if x.startswith('Uso: ')]
+    texto = final.strip() or '\n'.join(x for x in otros if not x.startswith('Uso: ')).strip()
+    if uso:
+        texto += '\n' + uso[-1]
     if negados:
         texto += '\nPermisos negados (' + str(len(negados)) + '):\n  ' + '\n  '.join(negados[:15])
     return texto
