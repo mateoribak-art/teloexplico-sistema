@@ -40,7 +40,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [ ] Does leaving the lights on use less power than switching them on and off? (DOE)
 
 ## Temas de EE. UU. — serie: clima (Weather explained)
-- [ ] Why do we "fall back"? What Daylight Saving Time actually does (cambio de hora: domingo 1/11/2026; NIST/DOT) — actualidad, antes del 1/11
+- [usada → en-002-dst-farmers] Why do we "fall back"? What Daylight Saving Time actually does (cambio de hora: domingo 1/11/2026; NIST/DOT) — actualidad, antes del 1/11
 - [ ] Can it be too cold to snow? (NWS)
 - [ ] What is lake-effect snow? (NWS) — invierno
 - [ ] Why do leaves change color in fall? (USDA Forest Service)

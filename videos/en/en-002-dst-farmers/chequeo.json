@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones fácticas tienen fuente (National Archives, History.com, Library of Congress, U.S. DOT/CRS) y las fechas coinciden. No hay afirmaciones de salud, seguridad ni plata. Ninguna es falsa ni dudosa. 'First big country' se sostiene: el National Archives dice que Alemania fue el primer país (Austria-Hungary la siguió o fue simultánea, y Port Arthur, Ontario, lo probó a escala local en 1908), así que el 'big' ya cubre ese matiz. Observación menor de publicación: el reloj cambia en la madrugada del domingo, así que 'Tonight' solo es exacto si el video sale el sábado 31/10; si sale antes, usar 'Saturday night'.",
+  "afirmaciones": [
+    {
+      "texto": "You've heard that daylight saving time was invented for farmers. / That's a myth.",
+      "fuente": "History.com, 'Daylight Savings Time: Start, Dates & Origins' (https://www.history.com/articles/why-do-we-have-daylight-savings-time): la idea de que se hizo para los agricultores es un mito; las razones reales fueron ahorro de energía y ajustar la luz a las horas de actividad.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Germany was the first big country to try it, in nineteen sixteen, to save fuel during World War One.",
+      "fuente": "National Archives (text-message.blogs.archives.gov, 'Daylight Saving Time: The Early Experiences I: Germany'): Imperial Germany fue el primer país en instituirlo, orden del Bundesrat del 6/4/1916, vigente desde el 30/4 o 1/5/1916; Library of Congress (blogs.loc.gov/teachers, 'World War I and Daylight Savings Time'): para conservar combustible en la Primera Guerra. History.com: Alemania y Austria fueron los primeros. Antecedente local: Port Arthur, Ontario, 1908 (timeanddate.com), por eso 'big country' es correcto.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The U.S. followed in nineteen eighteen, for the same war reason.",
+      "fuente": "Standard Time Act del 19/3/1918 (National Archives; Library of Congress blog sobre la guerra y el DST; History.com): adoptado en la guerra, con el horario de verano desde el 31/3/1918.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "And farmers hated it. Cows don't read clocks, and the work followed the sun.",
+      "fuente": "History.com: los agricultores esperaban una hora más a que se evaporara el rocío, y las vacas no estaban listas para ordeñarse una hora antes. Frase de tono irónico que resume esa explicación.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "They pushed so hard that Congress repealed it in nineteen nineteen.",
+      "fuente": "History.com: los intereses agrarios lideraron la lucha por la derogación de 1919; el Congreso la aprobó pasando por encima del veto del presidente Wilson. Library of Congress: derogada el 20/8/1919.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: it did come back later, and a federal law has set the dates since nineteen sixty-six.",
+      "fuente": "U.S. DOT (transportation.gov/regulations/time-act) y CRS: Uniform Time Act of 1966 (P.L. 89-387, 13/4/1966) fijó fechas federales uniformes; volvió antes, en 1942, por la Segunda Guerra. Las fechas exactas se modificaron después (2007), pero la ley federal las fija desde 1966, y la frase no da fechas concretas.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "This Sunday, November first, at two a.m., we fall back one hour.",
+      "fuente": "Regla vigente (primer domingo de noviembre, 2 a.m., según DOT/CRS): el domingo 1/11/2026 a las 2 a.m. Farmers' Almanac y otras fuentes lo confirman; la Sunshine Protection Act pasó por la Cámara pero no es ley, así que el cambio sigue. 'We' no incluye a Hawaii ni a la mayor parte de Arizona; es una simplificación aceptable.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Tonight, fix the clocks your phone won't: the oven, the microwave, the car.",
+      "fuente": "Consejo práctico, no afirmación fáctica. Los teléfonos se actualizan solos y los aparatos mencionados normalmente no. Revisar que 'Tonight' coincida con la fecha de publicación (ver motivo).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Send this to the friend whose microwave has been wrong since March.",
+      "fuente": "Chiste, sin afirmación fáctica. El horario de verano de 2026 empezó el 8/3/2026 (segundo domingo de marzo, regla DOT/CRS).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

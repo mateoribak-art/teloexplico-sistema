@@ -1,0 +1,667 @@
+{
+ "duracion": 43.6,
+ "frases": [
+  {
+   "texto": "Esperás el colectivo veinte minutos y vienen dos juntos.",
+   "palabras": [
+    {
+     "texto": "Esperás",
+     "inicio": 0.0,
+     "fin": 0.46
+    },
+    {
+     "texto": "el",
+     "inicio": 0.46,
+     "fin": 0.6
+    },
+    {
+     "texto": "colectivo",
+     "inicio": 0.6,
+     "fin": 1.12
+    },
+    {
+     "texto": "veinte",
+     "inicio": 1.12,
+     "fin": 1.54
+    },
+    {
+     "texto": "minutos",
+     "inicio": 1.54,
+     "fin": 2.02
+    },
+    {
+     "texto": "y",
+     "inicio": 2.02,
+     "fin": 2.32
+    },
+    {
+     "texto": "vienen",
+     "inicio": 2.32,
+     "fin": 2.54
+    },
+    {
+     "texto": "dos",
+     "inicio": 2.54,
+     "fin": 2.8
+    },
+    {
+     "texto": "juntos.",
+     "inicio": 2.8,
+     "fin": 3.24
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.24
+  },
+  {
+   "texto": "No es mala suerte. Es matemática.",
+   "palabras": [
+    {
+     "texto": "No",
+     "inicio": 3.8,
+     "fin": 4.06
+    },
+    {
+     "texto": "es",
+     "inicio": 4.06,
+     "fin": 4.22
+    },
+    {
+     "texto": "mala",
+     "inicio": 4.22,
+     "fin": 4.3
+    },
+    {
+     "texto": "suerte.",
+     "inicio": 4.3,
+     "fin": 4.8
+    },
+    {
+     "texto": "Es",
+     "inicio": 5.28,
+     "fin": 5.4
+    },
+    {
+     "texto": "matemática.",
+     "inicio": 5.4,
+     "fin": 5.92
+    }
+   ],
+   "inicio": 3.8,
+   "fin": 5.92
+  },
+  {
+   "texto": "Salen separados, a la misma distancia.",
+   "palabras": [
+    {
+     "texto": "Salen",
+     "inicio": 6.54,
+     "fin": 6.88
+    },
+    {
+     "texto": "separados,",
+     "inicio": 6.88,
+     "fin": 7.46
+    },
+    {
+     "texto": "a",
+     "inicio": 7.96,
+     "fin": 8.16
+    },
+    {
+     "texto": "la",
+     "inicio": 8.16,
+     "fin": 8.22
+    },
+    {
+     "texto": "misma",
+     "inicio": 8.22,
+     "fin": 8.42
+    },
+    {
+     "texto": "distancia.",
+     "inicio": 8.42,
+     "fin": 9.0
+    }
+   ],
+   "inicio": 6.54,
+   "fin": 9.0
+  },
+  {
+   "texto": "Pero uno se atrasa un poquito.",
+   "palabras": [
+    {
+     "texto": "Pero",
+     "inicio": 9.46,
+     "fin": 9.74
+    },
+    {
+     "texto": "uno",
+     "inicio": 9.74,
+     "fin": 9.98
+    },
+    {
+     "texto": "se",
+     "inicio": 9.98,
+     "fin": 10.2
+    },
+    {
+     "texto": "atrasa",
+     "inicio": 10.2,
+     "fin": 10.52
+    },
+    {
+     "texto": "un",
+     "inicio": 10.52,
+     "fin": 10.62
+    },
+    {
+     "texto": "poquito.",
+     "inicio": 10.62,
+     "fin": 10.88
+    }
+   ],
+   "inicio": 9.46,
+   "fin": 10.88
+  },
+  {
+   "texto": "Entonces encuentra más gente esperando en cada parada, y tarda más en subirla.",
+   "palabras": [
+    {
+     "texto": "Entonces",
+     "inicio": 11.56,
+     "fin": 11.98
+    },
+    {
+     "texto": "encuentra",
+     "inicio": 11.98,
+     "fin": 12.38
+    },
+    {
+     "texto": "más",
+     "inicio": 12.38,
+     "fin": 12.74
+    },
+    {
+     "texto": "gente",
+     "inicio": 12.74,
+     "fin": 12.94
+    },
+    {
+     "texto": "esperando",
+     "inicio": 12.94,
+     "fin": 13.3
+    },
+    {
+     "texto": "en",
+     "inicio": 13.3,
+     "fin": 13.54
+    },
+    {
+     "texto": "cada",
+     "inicio": 13.54,
+     "fin": 13.72
+    },
+    {
+     "texto": "parada,",
+     "inicio": 13.72,
+     "fin": 14.24
+    },
+    {
+     "texto": "y",
+     "inicio": 14.68,
+     "fin": 14.74
+    },
+    {
+     "texto": "tarda",
+     "inicio": 14.74,
+     "fin": 14.94
+    },
+    {
+     "texto": "más",
+     "inicio": 14.94,
+     "fin": 15.18
+    },
+    {
+     "texto": "en",
+     "inicio": 15.18,
+     "fin": 15.34
+    },
+    {
+     "texto": "subirla.",
+     "inicio": 15.34,
+     "fin": 15.88
+    }
+   ],
+   "inicio": 11.56,
+   "fin": 15.88
+  },
+  {
+   "texto": "Y cuanto más se atrasa, más gente junta. Cada vez peor.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 16.36,
+     "fin": 16.54
+    },
+    {
+     "texto": "cuanto",
+     "inicio": 16.54,
+     "fin": 16.8
+    },
+    {
+     "texto": "más",
+     "inicio": 16.8,
+     "fin": 17.08
+    },
+    {
+     "texto": "se",
+     "inicio": 17.08,
+     "fin": 17.22
+    },
+    {
+     "texto": "atrasa,",
+     "inicio": 17.22,
+     "fin": 17.62
+    },
+    {
+     "texto": "más",
+     "inicio": 17.7,
+     "fin": 17.84
+    },
+    {
+     "texto": "gente",
+     "inicio": 17.84,
+     "fin": 18.06
+    },
+    {
+     "texto": "junta.",
+     "inicio": 18.06,
+     "fin": 18.5
+    },
+    {
+     "texto": "Cada",
+     "inicio": 19.08,
+     "fin": 19.34
+    },
+    {
+     "texto": "vez",
+     "inicio": 19.34,
+     "fin": 19.54
+    },
+    {
+     "texto": "peor.",
+     "inicio": 19.54,
+     "fin": 19.84
+    }
+   ],
+   "inicio": 16.36,
+   "fin": 19.84
+  },
+  {
+   "texto": "El de atrás, en cambio, encuentra las paradas casi vacías y lo alcanza.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 20.36,
+     "fin": 20.46
+    },
+    {
+     "texto": "de",
+     "inicio": 20.46,
+     "fin": 20.56
+    },
+    {
+     "texto": "atrás,",
+     "inicio": 20.56,
+     "fin": 20.84
+    },
+    {
+     "texto": "en",
+     "inicio": 20.98,
+     "fin": 21.02
+    },
+    {
+     "texto": "cambio,",
+     "inicio": 21.02,
+     "fin": 21.26
+    },
+    {
+     "texto": "encuentra",
+     "inicio": 21.42,
+     "fin": 21.66
+    },
+    {
+     "texto": "las",
+     "inicio": 21.66,
+     "fin": 21.84
+    },
+    {
+     "texto": "paradas",
+     "inicio": 21.84,
+     "fin": 22.18
+    },
+    {
+     "texto": "casi",
+     "inicio": 22.18,
+     "fin": 22.42
+    },
+    {
+     "texto": "vacías",
+     "inicio": 22.42,
+     "fin": 22.88
+    },
+    {
+     "texto": "y",
+     "inicio": 22.88,
+     "fin": 23.04
+    },
+    {
+     "texto": "lo",
+     "inicio": 23.04,
+     "fin": 23.14
+    },
+    {
+     "texto": "alcanza.",
+     "inicio": 23.14,
+     "fin": 23.6
+    }
+   ],
+   "inicio": 20.36,
+   "fin": 23.6
+  },
+  {
+   "texto": "Los investigadores Newell y Potts lo describieron en mil novecientos sesenta y cuatro.",
+   "palabras": [
+    {
+     "texto": "Los",
+     "inicio": 24.08,
+     "fin": 24.28
+    },
+    {
+     "texto": "investigadores",
+     "inicio": 24.28,
+     "fin": 24.94
+    },
+    {
+     "texto": "Newell",
+     "inicio": 24.94,
+     "fin": 25.44
+    },
+    {
+     "texto": "y",
+     "inicio": 25.44,
+     "fin": 25.64
+    },
+    {
+     "texto": "Potts",
+     "inicio": 25.64,
+     "fin": 25.98
+    },
+    {
+     "texto": "lo",
+     "inicio": 25.98,
+     "fin": 26.14
+    },
+    {
+     "texto": "describieron",
+     "inicio": 26.14,
+     "fin": 26.66
+    },
+    {
+     "texto": "en",
+     "inicio": 26.66,
+     "fin": 26.86
+    },
+    {
+     "texto": "mil",
+     "inicio": 26.86,
+     "fin": 27.0
+    },
+    {
+     "texto": "novecientos",
+     "inicio": 27.0,
+     "fin": 27.66
+    },
+    {
+     "texto": "sesenta",
+     "inicio": 27.66,
+     "fin": 27.98
+    },
+    {
+     "texto": "y",
+     "inicio": 27.98,
+     "fin": 28.08
+    },
+    {
+     "texto": "cuatro.",
+     "inicio": 28.08,
+     "fin": 28.34
+    }
+   ],
+   "inicio": 24.08,
+   "fin": 28.34
+  },
+  {
+   "texto": "Ojo: no pasa siempre. Si la gente sube rápido, el atraso se corrige solo.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 28.34,
+     "fin": 29.14
+    },
+    {
+     "texto": "no",
+     "inicio": 29.62,
+     "fin": 29.88
+    },
+    {
+     "texto": "pasa",
+     "inicio": 29.88,
+     "fin": 30.2
+    },
+    {
+     "texto": "siempre.",
+     "inicio": 30.2,
+     "fin": 30.62
+    },
+    {
+     "texto": "Si",
+     "inicio": 31.2,
+     "fin": 31.36
+    },
+    {
+     "texto": "la",
+     "inicio": 31.36,
+     "fin": 31.48
+    },
+    {
+     "texto": "gente",
+     "inicio": 31.48,
+     "fin": 31.68
+    },
+    {
+     "texto": "sube",
+     "inicio": 31.68,
+     "fin": 32.0
+    },
+    {
+     "texto": "rápido,",
+     "inicio": 32.0,
+     "fin": 32.34
+    },
+    {
+     "texto": "el",
+     "inicio": 32.86,
+     "fin": 32.98
+    },
+    {
+     "texto": "atraso",
+     "inicio": 32.98,
+     "fin": 33.34
+    },
+    {
+     "texto": "se",
+     "inicio": 33.34,
+     "fin": 33.44
+    },
+    {
+     "texto": "corrige",
+     "inicio": 33.44,
+     "fin": 33.78
+    },
+    {
+     "texto": "solo.",
+     "inicio": 33.78,
+     "fin": 34.06
+    }
+   ],
+   "inicio": 28.34,
+   "fin": 34.06
+  },
+  {
+   "texto": "La próxima vez que veas dos juntos, fijate: el primero va lleno y el segundo, casi vacío.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 34.56,
+     "fin": 34.78
+    },
+    {
+     "texto": "próxima",
+     "inicio": 34.78,
+     "fin": 35.0
+    },
+    {
+     "texto": "vez",
+     "inicio": 35.0,
+     "fin": 35.24
+    },
+    {
+     "texto": "que",
+     "inicio": 35.24,
+     "fin": 35.38
+    },
+    {
+     "texto": "veas",
+     "inicio": 35.38,
+     "fin": 35.58
+    },
+    {
+     "texto": "dos",
+     "inicio": 35.58,
+     "fin": 35.7
+    },
+    {
+     "texto": "juntos,",
+     "inicio": 35.7,
+     "fin": 35.98
+    },
+    {
+     "texto": "fijate:",
+     "inicio": 36.58,
+     "fin": 36.94
+    },
+    {
+     "texto": "el",
+     "inicio": 37.48,
+     "fin": 37.58
+    },
+    {
+     "texto": "primero",
+     "inicio": 37.58,
+     "fin": 37.9
+    },
+    {
+     "texto": "va",
+     "inicio": 37.9,
+     "fin": 38.08
+    },
+    {
+     "texto": "lleno",
+     "inicio": 38.08,
+     "fin": 38.44
+    },
+    {
+     "texto": "y",
+     "inicio": 38.44,
+     "fin": 38.96
+    },
+    {
+     "texto": "el",
+     "inicio": 38.96,
+     "fin": 39.06
+    },
+    {
+     "texto": "segundo,",
+     "inicio": 39.06,
+     "fin": 39.42
+    },
+    {
+     "texto": "casi",
+     "inicio": 39.42,
+     "fin": 40.1
+    },
+    {
+     "texto": "vacío.",
+     "inicio": 40.1,
+     "fin": 40.58
+    }
+   ],
+   "inicio": 34.56,
+   "fin": 40.58
+  },
+  {
+   "texto": "Mandáselo al que dice que el colectivo lo odia.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 41.44,
+     "fin": 42.02
+    },
+    {
+     "texto": "al",
+     "inicio": 42.02,
+     "fin": 42.08
+    },
+    {
+     "texto": "que",
+     "inicio": 42.08,
+     "fin": 42.2
+    },
+    {
+     "texto": "dice",
+     "inicio": 42.2,
+     "fin": 42.42
+    },
+    {
+     "texto": "que",
+     "inicio": 42.42,
+     "fin": 42.58
+    },
+    {
+     "texto": "el",
+     "inicio": 42.58,
+     "fin": 42.68
+    },
+    {
+     "texto": "colectivo",
+     "inicio": 42.68,
+     "fin": 43.06
+    },
+    {
+     "texto": "lo",
+     "inicio": 43.06,
+     "fin": 43.22
+    },
+    {
+     "texto": "odia.",
+     "inicio": 43.22,
+     "fin": 43.52
+    }
+   ],
+   "inicio": 41.44,
+   "fin": 43.52
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+  "titulo": "Was daylight saving time made for farmers?",
+  "fuentes": [
+    "History.com: Why do we have daylight saving time",
+    "U.S. Department of Transportation: Daylight Saving Time (Uniform Time Act of 1966)",
+    "Library of Congress / National Archives: Standard Time Act of 1918 and its 1919 repeal"
+  ],
+  "frases": [
+    {"texto": "You've heard that daylight saving time was invented for farmers.", "estilo": "Intrigue, like catching a friend repeating a fact."},
+    {"texto": "That's a myth.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "Germany was the first big country to try it, in nineteen sixteen, to save fuel during World War One.", "estilo": "Informative, clear, storytelling."},
+    {"texto": "The U.S. followed in nineteen eighteen, for the same war reason.", "estilo": "Informative, quick."},
+    {"texto": "And farmers hated it. Cows don't read clocks, and the work followed the sun.", "estilo": "With a touch of irony."},
+    {"texto": "They pushed so hard that Congress repealed it in nineteen nineteen.", "estilo": "Surprised, firm."},
+    {"texto": "Heads up: it did come back later, and a federal law has set the dates since nineteen sixty-six.", "estilo": "Honest caveat, calm."},
+    {"texto": "This Sunday, November first, at two a.m., we fall back one hour.", "estilo": "Practical, clear."},
+    {"texto": "Saturday night, fix the clocks your phone won't: the oven, the microwave, the car.", "estilo": "Practical tip, friendly."},
+    {"texto": "Send this to the friend whose microwave has been wrong since March.", "estilo": "Playful, conspiratorial, with humor."}
+  ]
+}

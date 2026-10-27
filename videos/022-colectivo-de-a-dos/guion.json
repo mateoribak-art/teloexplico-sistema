@@ -1,0 +1,17 @@
+{
+  "titulo": "Por qué el colectivo viene siempre de a dos",
+  "fuentes": ["Newell y Potts, 'Maintaining a bus schedule', 1964", "Revisión académica del problema del apelotonamiento de colectivos (bus bunching)"],
+  "frases": [
+    {"texto": "Esperás el colectivo veinte minutos y vienen dos juntos.", "estilo": "Seco, con media sonrisa."},
+    {"texto": "No es mala suerte. Es matemática.", "estilo": "Contundente."},
+    {"texto": "Salen separados, a la misma distancia.", "estilo": "Tranquilo, explicando."},
+    {"texto": "Pero uno se atrasa un poquito.", "estilo": "Intriga."},
+    {"texto": "Entonces encuentra más gente esperando en cada parada, y tarda más en subirla.", "estilo": "Claro y pausado."},
+    {"texto": "Y cuanto más se atrasa, más gente junta. Cada vez peor.", "estilo": "Creciendo en intensidad."},
+    {"texto": "El de atrás, en cambio, encuentra las paradas casi vacías y lo alcanza.", "estilo": "Con sorpresa."},
+    {"texto": "Los investigadores Newell y Potts lo describieron en mil novecientos sesenta y cuatro.", "estilo": "Informativo."},
+    {"texto": "Ojo: no pasa siempre. Si la gente sube rápido, el atraso se corrige solo.", "estilo": "Aclarando."},
+    {"texto": "La próxima vez que veas dos juntos, fijate: el primero va lleno y el segundo, casi vacío.", "estilo": "Consejo, cómplice."},
+    {"texto": "Mandáselo al que dice que el colectivo lo odia.", "estilo": "Cómplice, con humor."}
+  ]
+}

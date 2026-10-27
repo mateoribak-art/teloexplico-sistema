@@ -1,0 +1,8 @@
+2026-10-27 12:40 Arranca la producción (1 listos en la cola, meta 6).
+**Listo:** `en-002-dst-farmers` («¿El cambio de hora se hizo para los granjeros?», serie Weather explained #1, tema de actualidad por el cambio de hora del domingo 1/11). Pasó el chequeo de datos del subagente aparte, el render de 44,6 s y `tlx control`, y quedó en estado `listo`.
+**Apartados o incompletos:** ninguno. La frase de la voz era «Tonight» y el chequeo marcó que solo vale si sale el sábado, así que la cambié a «Saturday night».
+**Para tener en cuenta:** el video dice «this Sunday», así que tiene que publicarse antes del sábado 31/10. Dejé el `produccion.log` y el `radar.log` en `videos/en/` (no existían), y marqué la idea como usada en `ideas.md`.
+Uso: 63 pasos · 81,516 tokens nuevos · 2,147,253 de caché · 23,201 escritos · equivale a US$ 1.02 de API
+Permisos negados (1):
+  Bash: {"command": "sed -i 's/const horas = 2 + f \\* 0.004 + adelante - atras - (f >= E.deroga ? 0 : 0);/const horas = 1 + f * 0.0008 + adelante - atras;/;
+2026-10-27 12:49 Termina la producción (Claude no terminó bien).

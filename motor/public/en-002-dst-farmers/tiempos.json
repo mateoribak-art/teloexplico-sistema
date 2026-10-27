@@ -1,0 +1,695 @@
+{
+ "duracion": 43.33,
+ "frases": [
+  {
+   "texto": "You've heard that daylight saving time was invented for farmers.",
+   "palabras": [
+    {
+     "texto": "You've",
+     "inicio": 0.0,
+     "fin": 0.32
+    },
+    {
+     "texto": "heard",
+     "inicio": 0.32,
+     "fin": 0.58
+    },
+    {
+     "texto": "that",
+     "inicio": 0.58,
+     "fin": 0.82
+    },
+    {
+     "texto": "daylight",
+     "inicio": 0.82,
+     "fin": 1.22
+    },
+    {
+     "texto": "saving",
+     "inicio": 1.22,
+     "fin": 1.64
+    },
+    {
+     "texto": "time",
+     "inicio": 1.64,
+     "fin": 2.1
+    },
+    {
+     "texto": "was",
+     "inicio": 2.1,
+     "fin": 2.26
+    },
+    {
+     "texto": "invented",
+     "inicio": 2.26,
+     "fin": 2.64
+    },
+    {
+     "texto": "for",
+     "inicio": 2.64,
+     "fin": 2.9
+    },
+    {
+     "texto": "farmers.",
+     "inicio": 2.9,
+     "fin": 3.24
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.24
+  },
+  {
+   "texto": "That's a myth.",
+   "palabras": [
+    {
+     "texto": "That's",
+     "inicio": 3.94,
+     "fin": 4.22
+    },
+    {
+     "texto": "a",
+     "inicio": 4.22,
+     "fin": 4.3
+    },
+    {
+     "texto": "myth.",
+     "inicio": 4.3,
+     "fin": 4.46
+    }
+   ],
+   "inicio": 3.94,
+   "fin": 4.46
+  },
+  {
+   "texto": "Germany was the first big country to try it, in nineteen sixteen, to save fuel during World War One.",
+   "palabras": [
+    {
+     "texto": "Germany",
+     "inicio": 5.16,
+     "fin": 5.36
+    },
+    {
+     "texto": "was",
+     "inicio": 5.36,
+     "fin": 5.68
+    },
+    {
+     "texto": "the",
+     "inicio": 5.68,
+     "fin": 5.82
+    },
+    {
+     "texto": "first",
+     "inicio": 5.82,
+     "fin": 6.1
+    },
+    {
+     "texto": "big",
+     "inicio": 6.1,
+     "fin": 6.42
+    },
+    {
+     "texto": "country",
+     "inicio": 6.42,
+     "fin": 6.78
+    },
+    {
+     "texto": "to",
+     "inicio": 6.78,
+     "fin": 6.94
+    },
+    {
+     "texto": "try",
+     "inicio": 6.94,
+     "fin": 7.26
+    },
+    {
+     "texto": "it,",
+     "inicio": 7.26,
+     "fin": 7.48
+    },
+    {
+     "texto": "in",
+     "inicio": 7.9,
+     "fin": 8.02
+    },
+    {
+     "texto": "nineteen",
+     "inicio": 8.02,
+     "fin": 8.18
+    },
+    {
+     "texto": "sixteen,",
+     "inicio": 8.18,
+     "fin": 8.7
+    },
+    {
+     "texto": "to",
+     "inicio": 9.26,
+     "fin": 9.38
+    },
+    {
+     "texto": "save",
+     "inicio": 9.38,
+     "fin": 9.56
+    },
+    {
+     "texto": "fuel",
+     "inicio": 9.56,
+     "fin": 9.94
+    },
+    {
+     "texto": "during",
+     "inicio": 9.94,
+     "fin": 10.22
+    },
+    {
+     "texto": "World",
+     "inicio": 10.22,
+     "fin": 10.44
+    },
+    {
+     "texto": "War",
+     "inicio": 10.44,
+     "fin": 10.64
+    },
+    {
+     "texto": "One.",
+     "inicio": 10.64,
+     "fin": 10.96
+    }
+   ],
+   "inicio": 5.16,
+   "fin": 10.96
+  },
+  {
+   "texto": "The U.S. followed in nineteen eighteen, for the same war reason.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 11.36,
+     "fin": 11.5
+    },
+    {
+     "texto": "U.S.",
+     "inicio": 11.5,
+     "fin": 11.82
+    },
+    {
+     "texto": "followed",
+     "inicio": 11.98,
+     "fin": 12.16
+    },
+    {
+     "texto": "in",
+     "inicio": 12.16,
+     "fin": 12.4
+    },
+    {
+     "texto": "nineteen",
+     "inicio": 12.4,
+     "fin": 12.66
+    },
+    {
+     "texto": "eighteen,",
+     "inicio": 12.66,
+     "fin": 13.06
+    },
+    {
+     "texto": "for",
+     "inicio": 13.32,
+     "fin": 13.58
+    },
+    {
+     "texto": "the",
+     "inicio": 13.58,
+     "fin": 13.7
+    },
+    {
+     "texto": "same",
+     "inicio": 13.7,
+     "fin": 13.98
+    },
+    {
+     "texto": "war",
+     "inicio": 13.98,
+     "fin": 14.3
+    },
+    {
+     "texto": "reason.",
+     "inicio": 14.3,
+     "fin": 14.72
+    }
+   ],
+   "inicio": 11.36,
+   "fin": 14.72
+  },
+  {
+   "texto": "And farmers hated it. Cows don't read clocks, and the work followed the sun.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 15.18,
+     "fin": 15.26
+    },
+    {
+     "texto": "farmers",
+     "inicio": 15.26,
+     "fin": 15.68
+    },
+    {
+     "texto": "hated",
+     "inicio": 15.68,
+     "fin": 16.46
+    },
+    {
+     "texto": "it.",
+     "inicio": 16.46,
+     "fin": 16.72
+    },
+    {
+     "texto": "Cows",
+     "inicio": 17.28,
+     "fin": 17.44
+    },
+    {
+     "texto": "don't",
+     "inicio": 17.44,
+     "fin": 17.7
+    },
+    {
+     "texto": "read",
+     "inicio": 17.7,
+     "fin": 17.86
+    },
+    {
+     "texto": "clocks,",
+     "inicio": 17.86,
+     "fin": 18.28
+    },
+    {
+     "texto": "and",
+     "inicio": 18.8,
+     "fin": 19.04
+    },
+    {
+     "texto": "the",
+     "inicio": 19.04,
+     "fin": 19.12
+    },
+    {
+     "texto": "work",
+     "inicio": 19.12,
+     "fin": 19.32
+    },
+    {
+     "texto": "followed",
+     "inicio": 19.32,
+     "fin": 19.64
+    },
+    {
+     "texto": "the",
+     "inicio": 19.64,
+     "fin": 19.84
+    },
+    {
+     "texto": "sun.",
+     "inicio": 19.84,
+     "fin": 20.12
+    }
+   ],
+   "inicio": 15.18,
+   "fin": 20.12
+  },
+  {
+   "texto": "They pushed so hard that Congress repealed it in nineteen nineteen.",
+   "palabras": [
+    {
+     "texto": "They",
+     "inicio": 20.66,
+     "fin": 20.78
+    },
+    {
+     "texto": "pushed",
+     "inicio": 20.78,
+     "fin": 20.98
+    },
+    {
+     "texto": "so",
+     "inicio": 20.98,
+     "fin": 21.38
+    },
+    {
+     "texto": "hard",
+     "inicio": 21.38,
+     "fin": 21.82
+    },
+    {
+     "texto": "that",
+     "inicio": 22.1,
+     "fin": 22.3
+    },
+    {
+     "texto": "Congress",
+     "inicio": 22.3,
+     "fin": 22.64
+    },
+    {
+     "texto": "repealed",
+     "inicio": 22.64,
+     "fin": 23.26
+    },
+    {
+     "texto": "it",
+     "inicio": 23.26,
+     "fin": 23.42
+    },
+    {
+     "texto": "in",
+     "inicio": 23.42,
+     "fin": 23.72
+    },
+    {
+     "texto": "nineteen",
+     "inicio": 23.72,
+     "fin": 24.0
+    },
+    {
+     "texto": "nineteen.",
+     "inicio": 24.0,
+     "fin": 24.44
+    }
+   ],
+   "inicio": 20.66,
+   "fin": 24.44
+  },
+  {
+   "texto": "Heads up: it did come back later, and a federal law has set the dates since nineteen sixty-six.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 24.98,
+     "fin": 25.2
+    },
+    {
+     "texto": "up:",
+     "inicio": 25.2,
+     "fin": 25.34
+    },
+    {
+     "texto": "it",
+     "inicio": 25.42,
+     "fin": 25.52
+    },
+    {
+     "texto": "did",
+     "inicio": 25.52,
+     "fin": 25.7
+    },
+    {
+     "texto": "come",
+     "inicio": 25.7,
+     "fin": 25.92
+    },
+    {
+     "texto": "back",
+     "inicio": 25.92,
+     "fin": 26.08
+    },
+    {
+     "texto": "later,",
+     "inicio": 26.08,
+     "fin": 26.42
+    },
+    {
+     "texto": "and",
+     "inicio": 26.42,
+     "fin": 27.0
+    },
+    {
+     "texto": "a",
+     "inicio": 27.0,
+     "fin": 27.12
+    },
+    {
+     "texto": "federal",
+     "inicio": 27.12,
+     "fin": 27.32
+    },
+    {
+     "texto": "law",
+     "inicio": 27.32,
+     "fin": 27.66
+    },
+    {
+     "texto": "has",
+     "inicio": 27.66,
+     "fin": 27.88
+    },
+    {
+     "texto": "set",
+     "inicio": 27.88,
+     "fin": 28.1
+    },
+    {
+     "texto": "the",
+     "inicio": 28.1,
+     "fin": 28.22
+    },
+    {
+     "texto": "dates",
+     "inicio": 28.22,
+     "fin": 28.52
+    },
+    {
+     "texto": "since",
+     "inicio": 28.52,
+     "fin": 28.7
+    },
+    {
+     "texto": "nineteen",
+     "inicio": 28.7,
+     "fin": 28.98
+    },
+    {
+     "texto": "sixty-six.",
+     "inicio": 28.98,
+     "fin": 29.72
+    }
+   ],
+   "inicio": 24.98,
+   "fin": 29.72
+  },
+  {
+   "texto": "This Sunday, November first, at two a.m., we fall back one hour.",
+   "palabras": [
+    {
+     "texto": "This",
+     "inicio": 30.4,
+     "fin": 30.48
+    },
+    {
+     "texto": "Sunday,",
+     "inicio": 30.48,
+     "fin": 30.84
+    },
+    {
+     "texto": "November",
+     "inicio": 31.02,
+     "fin": 31.2
+    },
+    {
+     "texto": "first,",
+     "inicio": 31.2,
+     "fin": 31.68
+    },
+    {
+     "texto": "at",
+     "inicio": 31.94,
+     "fin": 32.06
+    },
+    {
+     "texto": "two",
+     "inicio": 32.06,
+     "fin": 32.42
+    },
+    {
+     "texto": "a.m.,",
+     "inicio": 32.42,
+     "fin": 33.1
+    },
+    {
+     "texto": "we",
+     "inicio": 33.1,
+     "fin": 33.28
+    },
+    {
+     "texto": "fall",
+     "inicio": 33.28,
+     "fin": 33.62
+    },
+    {
+     "texto": "back",
+     "inicio": 33.62,
+     "fin": 33.92
+    },
+    {
+     "texto": "one",
+     "inicio": 33.92,
+     "fin": 34.38
+    },
+    {
+     "texto": "hour.",
+     "inicio": 34.38,
+     "fin": 34.76
+    }
+   ],
+   "inicio": 30.4,
+   "fin": 34.76
+  },
+  {
+   "texto": "Saturday night, fix the clocks your phone won't: the oven, the microwave, the car.",
+   "palabras": [
+    {
+     "texto": "Saturday",
+     "inicio": 35.36,
+     "fin": 35.6
+    },
+    {
+     "texto": "night,",
+     "inicio": 35.6,
+     "fin": 35.94
+    },
+    {
+     "texto": "fix",
+     "inicio": 36.3,
+     "fin": 36.5
+    },
+    {
+     "texto": "the",
+     "inicio": 36.5,
+     "fin": 36.68
+    },
+    {
+     "texto": "clocks",
+     "inicio": 36.68,
+     "fin": 36.92
+    },
+    {
+     "texto": "your",
+     "inicio": 36.92,
+     "fin": 37.1
+    },
+    {
+     "texto": "phone",
+     "inicio": 37.1,
+     "fin": 37.32
+    },
+    {
+     "texto": "won't:",
+     "inicio": 37.32,
+     "fin": 37.62
+    },
+    {
+     "texto": "the",
+     "inicio": 37.88,
+     "fin": 37.96
+    },
+    {
+     "texto": "oven,",
+     "inicio": 37.96,
+     "fin": 38.16
+    },
+    {
+     "texto": "the",
+     "inicio": 38.58,
+     "fin": 38.64
+    },
+    {
+     "texto": "microwave,",
+     "inicio": 38.64,
+     "fin": 39.02
+    },
+    {
+     "texto": "the",
+     "inicio": 39.48,
+     "fin": 39.58
+    },
+    {
+     "texto": "car.",
+     "inicio": 39.58,
+     "fin": 39.8
+    }
+   ],
+   "inicio": 35.36,
+   "fin": 39.8
+  },
+  {
+   "texto": "Send this to the friend whose microwave has been wrong since March.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 40.44,
+     "fin": 40.56
+    },
+    {
+     "texto": "this",
+     "inicio": 40.56,
+     "fin": 40.72
+    },
+    {
+     "texto": "to",
+     "inicio": 40.72,
+     "fin": 40.88
+    },
+    {
+     "texto": "the",
+     "inicio": 40.88,
+     "fin": 41.0
+    },
+    {
+     "texto": "friend",
+     "inicio": 41.0,
+     "fin": 41.2
+    },
+    {
+     "texto": "whose",
+     "inicio": 41.2,
+     "fin": 41.38
+    },
+    {
+     "texto": "microwave",
+     "inicio": 41.38,
+     "fin": 41.82
+    },
+    {
+     "texto": "has",
+     "inicio": 41.82,
+     "fin": 42.08
+    },
+    {
+     "texto": "been",
+     "inicio": 42.08,
+     "fin": 42.2
+    },
+    {
+     "texto": "wrong",
+     "inicio": 42.2,
+     "fin": 42.44
+    },
+    {
+     "texto": "since",
+     "inicio": 42.44,
+     "fin": 42.7
+    },
+    {
+     "texto": "March.",
+     "inicio": 42.7,
+     "fin": 43.06
+    }
+   ],
+   "inicio": 40.44,
+   "fin": 43.06
+  }
+ ]
+}

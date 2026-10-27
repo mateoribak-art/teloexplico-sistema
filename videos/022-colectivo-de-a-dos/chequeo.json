@@ -1,0 +1,78 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones fácticas están verificadas con fuentes académicas o institucionales; ninguna es falsa ni dudosa, y no hay cifras de salud, seguridad o plata. La salvedad sobre cuándo el atraso se corrige solo (Newell y Potts, k < 1/2) ya está en el guion y en el caption. Limitación: las fuentes se leyeron a través de resultados de búsqueda, no del paper original (ARRB 1964), que no está online en abierto.",
+  "afirmaciones": [
+    {
+      "texto": "Esperás el colectivo veinte minutos y vienen dos juntos. (escena cotidiana)",
+      "fuente": "Sin fuente primaria: es una situación ilustrativa en segunda persona, no una cifra ni un dato; el fenómeno de bus bunching está documentado (Cornell Tech, https://www.pi.tech.cornell.edu/spotlight/what-causes-bus-bunching-in-nyc-and-how-can-we-combat-it)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "No es mala suerte. Es matemática.",
+      "fuente": "Newell y Potts (1964), modelo matemático de inestabilidad; revisión Kyoto Univ. https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/252360/1/j.trb.2016.07.005.pdf",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Salen separados, a la misma distancia.",
+      "fuente": "Supuesto de partida del modelo de Newell y Potts (intervalos regulares, corredor idealizado); el guion lo presenta como la situación inicial ideal.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Pero uno se atrasa un poquito. / Entonces encuentra más gente esperando en cada parada, y tarda más en subirla.",
+      "fuente": "Cornell Tech (bucle de retroalimentación positiva); Kyoto Univ. review (Transportation Research Part B); TriMet, TRID https://trid.trb.org/View/1093497",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y cuanto más se atrasa, más gente junta. Cada vez peor.",
+      "fuente": "Kyoto Univ. review y Cornell Tech: el retraso se amplifica parada tras parada (retroalimentación positiva). Newell y Potts: inestable cuando 1/2 < k < 1; el guion aclara después que no siempre pasa.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El de atrás, en cambio, encuentra las paradas casi vacías y lo alcanza.",
+      "fuente": "Cornell Tech; TriMet ruta 15 (TRID 1093497, https://trid.trb.org/View/1093497): el colectivo que sigue tiene menos tiempo de espera/ascenso y se acerca al de adelante; escholarship.mcgill.ca/downloads/1v53k246n",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Los investigadores Newell y Potts lo describieron en mil novecientos sesenta y cuatro.",
+      "fuente": "G. F. Newell y R. B. Potts, 'Maintaining a Bus Schedule', 2nd Australian Road Research Board (ARRB) Conference, Melbourne, 1964, pp. 388-393 (citado en arXiv 2004.13022 y en Kyoto Univ. review)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: no pasa siempre. Si la gente sube rápido, el atraso se corrige solo.",
+      "fuente": "Modelo de Newell y Potts: con k (llegada de pasajeros / velocidad de ascenso) < 1/2 el sistema vuelve al horario; inestable solo entre 1/2 y 1 (arXiv 2004.13022 y revisiones)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La próxima vez que veas dos juntos, fijate: el primero va lleno y el segundo, casi vacío.",
+      "fuente": "Boston (Commonwealth Beacon) y TriMet (TRID 1093497): el primero absorbe a los pasajeros acumulados, el segundo corre con poca carga; coherente con el mecanismo de Cornell Tech. Es la tendencia típica, no una garantía, y el guion ya dijo que no siempre pasa.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mandáselo al que dice que el colectivo lo odia. (humor / llamado a la acción)",
+      "fuente": "No es afirmación fáctica.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'Lo describieron Newell y Potts en 1964' y fuentes citadas 'Newell y Potts, Maintaining a bus schedule (1964); revisiones académicas sobre bus bunching'.",
+      "fuente": "Mismo paper ARRB 1964; la cita del caption coincide con los datos reales.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'Si la gente sube rápido, el atraso se corrige solo' / 'no pasa siempre'.",
+      "fuente": "Newell y Potts, caso k < 1/2.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

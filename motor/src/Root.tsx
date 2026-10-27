@@ -25,8 +25,10 @@ import { DURACION as DUR_018, FPS as FPS_018, Portada018, RayoTrueno018 } from "
 import { DURACION as DUR_018R, FPS as FPS_018R, Portada018 as Portada018R, RefrescaTormenta018 } from "./videos/018-refresca-tormenta/Video";
 import { DURACION as DUR_019, FPS as FPS_019, Portada019, SensacionTermica019 } from "./videos/019-sensacion-termica/Video";
 import { DURACION as DUR_021, FPS as FPS_021, HeladeraParte2_021, Portada021 } from "./videos/021-heladera-parte-2/Video";
+import { DURACION as DUR_022, FPS as FPS_022, Colectivo022, Portada022 } from "./videos/022-colectivo-de-a-dos/Video";
 import { DURACION as DUR_020, FPS as FPS_020, PavaSeCorta3D, Portada020 } from "./videos/020-pava-se-corta/Video";
 // @letmeexplain.us: slugs con "en-" (logo, cierre y serie salen solos en inglés: kit/cuenta.ts)
+import { DURACION as DUR_EN002, FPS as FPS_EN002, DstFarmersEn002, PortadaEn002 } from "./videos/en-002-dst-farmers/Video";
 import { DURACION as DUR_EN001, FPS as FPS_EN001, PhoneRiceEn001, PortadaEn001 } from "./videos/en-001-phone-rice/Video";
 
 // Cada video nuevo suma su <Composition> (id "hNNN-slug") y su <Still> de portada (id "pNNN-slug").
@@ -52,11 +54,14 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="h018-refresca-tormenta" component={RefrescaTormenta018} durationInFrames={DUR_018R} fps={FPS_018R} width={ANCHO} height={ALTO} />
         <Composition id="h019-sensacion-termica" component={SensacionTermica019} durationInFrames={DUR_019} fps={FPS_019} width={ANCHO} height={ALTO} />
         <Composition id="h021-heladera-parte-2" component={HeladeraParte2_021} durationInFrames={DUR_021} fps={FPS_021} width={ANCHO} height={ALTO} />
+        <Composition id="h022-colectivo-de-a-dos" component={Colectivo022} durationInFrames={DUR_022} fps={FPS_022} width={ANCHO} height={ALTO} />
         <Composition id="h020-pava-se-corta" component={PavaSeCorta3D} durationInFrames={DUR_020} fps={FPS_020} width={ANCHO} height={ALTO} />
       </Folder>
       <Folder name="en">
         <Composition id="hen-001-phone-rice" component={PhoneRiceEn001} durationInFrames={DUR_EN001} fps={FPS_EN001} width={ANCHO} height={ALTO} />
         <Still id="pen-001-phone-rice" component={PortadaEn001} width={ANCHO} height={ALTO} />
+        <Composition id="hen-002-dst-farmers" component={DstFarmersEn002} durationInFrames={DUR_EN002} fps={FPS_EN002} width={ANCHO} height={ALTO} />
+        <Still id="pen-002-dst-farmers" component={PortadaEn002} width={ANCHO} height={ALTO} />
       </Folder>
       <Folder name="carruseles">
         <Still id="carrusel" component={CarruselPlaca} width={ANCHO_C} height={ALTO_C} defaultProps={{ datos: { origen: [], placas: [{ tipo: "cierre", texto: "placa de prueba" }] }, i: 0 }} />
@@ -80,6 +85,7 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p018-refresca-tormenta" component={Portada018R} width={ANCHO} height={ALTO} />
         <Still id="p019-sensacion-termica" component={Portada019} width={ANCHO} height={ALTO} />
         <Still id="p021-heladera-parte-2" component={Portada021} width={ANCHO} height={ALTO} />
+        <Still id="p022-colectivo-de-a-dos" component={Portada022} width={ANCHO} height={ALTO} />
         <Still id="p020-pava-se-corta" component={Portada020} width={ANCHO} height={ALTO} />
       </Folder>
       {/* plan B (sin Claude): herramientas/plan_b.py le pasa las escenas con --props */}

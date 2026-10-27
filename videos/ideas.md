@@ -64,7 +64,7 @@ Cada sección dice a qué serie van sus videos (`tlx serie asignar <slug> <serie
 - [ ] ¿Conviene cambiarte de fila en el súper? Qué dice la matemática de las colas
 - [ ] ¿Sirve cambiar de carril en la autopista o en la General Paz?
 - [ ] ¿Cuántos días de tu vida pasás esperando el colectivo?
-- [ ] ¿Por qué el colectivo que esperás viene siempre lleno y de a dos? (el "apelotonamiento")
+- [usada → 022-colectivo-de-a-dos] ¿Por qué el colectivo que esperás viene siempre lleno y de a dos? (el "apelotonamiento")
 - [ ] Partir la pizza en partes iguales con cortes que no pasan por el centro
 - [ ] ¿Cuánta gente tiene que haber en una juntada para que dos cumplan el mismo día? (paradoja del cumpleaños)
 - [ ] El truco para no perder en el piedra, papel o tijera

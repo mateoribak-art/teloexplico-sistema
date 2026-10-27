@@ -30,5 +30,29 @@
     "motivo": "https://www.instagram.com/reel/DfAMRQ9E1qI/"
    }
   ]
+ },
+ {
+  "slug": "en-002-dst-farmers",
+  "tema": "Is daylight saving time for farmers? (fall back Nov 1)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-27T12:40",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-27T12:41",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T12:49",
+    "motivo": "producción nocturna"
+   }
+  ],
+  "prioridad": "actualidad",
+  "creado": "2026-10-27T12:40"
  }
 ]

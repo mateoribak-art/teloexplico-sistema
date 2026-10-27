@@ -552,5 +552,22 @@
     "motivo": "producción nocturna"
    }
   ]
+ },
+ {
+  "slug": "022-colectivo-de-a-dos",
+  "tema": "¿Por qué el colectivo viene siempre de a dos? (apelotonamiento)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-27T12:30",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T12:39",
+    "motivo": "producción nocturna"
+   }
+  ]
  }
 ]
