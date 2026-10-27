@@ -30,6 +30,7 @@ Ninguna idea de acá está verificada: cada una se investiga y se chequea antes 
 - [usada → 015-descongelar-mesada] Descongelar la carne arriba de la mesada
 - [ ] El microondas le saca los nutrientes a la comida
 - [ ] Tirar los fideos contra la pared para ver si están
+- [ ] ¿Hay que tapar la comida caliente antes de meterla en la heladera? (pedido por @martin_whisky99)
 
 ## Cuerpo
 - [ ] Salir con el pelo mojado te resfría
