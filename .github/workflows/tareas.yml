@@ -66,7 +66,7 @@ jobs:
         working-directory: herramientas
         run: |
           if [ "$(python -I publicador.py --toca)" = "si" ]; then
-            MIN=$(python -c "import datetime as d, publicador as p; print(int((d.datetime.now(p.ARGENTINA) - p.turno_actual()).total_seconds() // 60))")
+            MIN=$(python -c "import datetime as d, publicador as p; print(int((d.datetime.now(p.ZONA) - p.turno_actual()).total_seconds() // 60))")
             echo "turno sin cubrir hace $MIN min"
             if [ "$MIN" -ge 20 ]; then gh workflow run publicar.yml -f modo=publicar && echo "publicador lanzado"; fi
           fi
