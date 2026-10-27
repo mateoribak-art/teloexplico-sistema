@@ -187,6 +187,263 @@
   "creado": "2026-10-24T10:31"
  },
  {
+  "slug": "010-rayo-mismo-lugar",
+  "tema": "¿Un rayo nunca cae dos veces en el mismo lugar?",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T06:35",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T06:35",
+    "motivo": "plan B"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-25T06:43",
+    "motivo": "prueba del plan B: revisar antes de publicar"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T06:44",
+    "motivo": "se repite la prueba del plan B (el video apartado no se había guardado)"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-25T06:52",
+    "motivo": "prueba del plan B: revisar antes de publicar"
+   }
+  ]
+ },
+ {
+  "slug": "011-sal-agua-hierve",
+  "tema": "¿Ponerle sal al agua hace que hierva más rápido?",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T10:51",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T10:51",
+    "motivo": ""
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-25T10:53",
+    "motivo": "chequeo rechazado 2 veces: atribución a Live Science no verificable (artículo ilegible)"
+   }
+  ]
+ },
+ {
+  "slug": "013-alcohol-calor",
+  "tema": "Tomar alcohol da calor: es al revés, el cuerpo pierde temperatura",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T15:35",
+    "motivo": ""
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-25T15:38",
+    "motivo": "Chequeo rechazado 2 veces: mecanismo de pérdida de calor solo probable en tema de salud (evidencia mixta)"
+   }
+  ]
+ },
+ {
+  "slug": "016-el-nino-clima",
+  "tema": "¿Por qué este año llueve así? El Niño y el pronóstico oficial para el verano",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-26T16:22",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-26T16:23",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T16:34",
+    "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-26T17:09",
+    "motivo": "Mateo: muy largo (70 s) y con mucha data; se rehace en versión corta"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T17:22",
+    "motivo": "versión corta (34 s) hecha en sesión"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-26T17:34",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T17:41",
+    "motivo": "versión corta 34 s, producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-26T19:32",
+    "motivo": "la voz no coincide con el guion (91%)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T21:46",
+    "motivo": "el control de voz de la nube lo apartó por 91 % (era un falso rechazo; ahora la voz se controla solo al producir)"
+   }
+  ],
+  "prioridad": "actualidad",
+  "creado": "2026-10-26T16:22"
+ },
+ {
+  "slug": "018-rayo-trueno",
+  "tema": "¿A qué distancia está la tormenta? Contar segundos entre rayo y trueno",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-26T17:52",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-26T17:52",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T18:03",
+    "motivo": "producción nocturna"
+   }
+  ]
+ },
+ {
+  "slug": "012-lavar-pollo",
+  "tema": "¿Hay que lavar el pollo crudo antes de cocinarlo?",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T10:54",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T10:54",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-25T11:06",
+    "motivo": "producción nocturna"
+   }
+  ]
+ },
+ {
+  "slug": "019-sensacion-termica",
+  "tema": "¿Por qué la sensación térmica es más alta que la temperatura? Humedad y sudor",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-26T18:03",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-26T18:03",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T18:14",
+    "motivo": "producción nocturna"
+   }
+  ]
+ },
+ {
+  "slug": "015-descongelar-mesada",
+  "tema": "Descongelar la carne arriba de la mesada: por qué no y cómo hacerlo seguro (USDA)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T15:51",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T15:53",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-25T16:03",
+    "motivo": "producción nocturna"
+   }
+  ]
+ },
+ {
+  "slug": "018-refresca-tormenta",
+  "tema": "¿Por qué después de la tormenta refresca de golpe? (corriente descendente)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-26T17:41",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-26T17:42",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T17:51",
+    "motivo": "producción nocturna"
+   }
+  ]
+ },
+ {
+  "slug": "014-celular-arroz",
+  "tema": "El celular mojado se arregla en arroz: Apple dice que no",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T15:39",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T15:39",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-25T15:51",
+    "motivo": "producción nocturna"
+   }
+  ]
+ },
+ {
   "slug": "020-pava-se-corta",
   "tema": "¿Por qué la pava eléctrica se corta sola? (piloto 3D)",
   "estado": "listo",
@@ -248,197 +505,6 @@
   ]
  },
  {
-  "slug": "010-rayo-mismo-lugar",
-  "tema": "¿Un rayo nunca cae dos veces en el mismo lugar?",
-  "estado": "apartado",
-  "historial": [
-   {
-    "estado": "idea",
-    "cuando": "2026-10-25T06:35",
-    "motivo": ""
-   },
-   {
-    "estado": "produccion",
-    "cuando": "2026-10-25T06:35",
-    "motivo": "plan B"
-   },
-   {
-    "estado": "apartado",
-    "cuando": "2026-10-25T06:43",
-    "motivo": "prueba del plan B: revisar antes de publicar"
-   },
-   {
-    "estado": "produccion",
-    "cuando": "2026-10-25T06:44",
-    "motivo": "se repite la prueba del plan B (el video apartado no se había guardado)"
-   },
-   {
-    "estado": "apartado",
-    "cuando": "2026-10-25T06:52",
-    "motivo": "prueba del plan B: revisar antes de publicar"
-   }
-  ]
- },
- {
-  "slug": "011-sal-agua-hierve",
-  "tema": "¿Ponerle sal al agua hace que hierva más rápido?",
-  "estado": "apartado",
-  "historial": [
-   {
-    "estado": "idea",
-    "cuando": "2026-10-25T10:51",
-    "motivo": ""
-   },
-   {
-    "estado": "produccion",
-    "cuando": "2026-10-25T10:51",
-    "motivo": ""
-   },
-   {
-    "estado": "apartado",
-    "cuando": "2026-10-25T10:53",
-    "motivo": "chequeo rechazado 2 veces: atribución a Live Science no verificable (artículo ilegible)"
-   }
-  ]
- },
- {
-  "slug": "012-lavar-pollo",
-  "tema": "¿Hay que lavar el pollo crudo antes de cocinarlo?",
-  "estado": "listo",
-  "historial": [
-   {
-    "estado": "idea",
-    "cuando": "2026-10-25T10:54",
-    "motivo": ""
-   },
-   {
-    "estado": "produccion",
-    "cuando": "2026-10-25T10:54",
-    "motivo": ""
-   },
-   {
-    "estado": "listo",
-    "cuando": "2026-10-25T11:06",
-    "motivo": "producción nocturna"
-   }
-  ]
- },
- {
-  "slug": "013-alcohol-calor",
-  "tema": "Tomar alcohol da calor: es al revés, el cuerpo pierde temperatura",
-  "estado": "apartado",
-  "historial": [
-   {
-    "estado": "idea",
-    "cuando": "2026-10-25T15:35",
-    "motivo": ""
-   },
-   {
-    "estado": "apartado",
-    "cuando": "2026-10-25T15:38",
-    "motivo": "Chequeo rechazado 2 veces: mecanismo de pérdida de calor solo probable en tema de salud (evidencia mixta)"
-   }
-  ]
- },
- {
-  "slug": "014-celular-arroz",
-  "tema": "El celular mojado se arregla en arroz: Apple dice que no",
-  "estado": "listo",
-  "historial": [
-   {
-    "estado": "idea",
-    "cuando": "2026-10-25T15:39",
-    "motivo": ""
-   },
-   {
-    "estado": "produccion",
-    "cuando": "2026-10-25T15:39",
-    "motivo": ""
-   },
-   {
-    "estado": "listo",
-    "cuando": "2026-10-25T15:51",
-    "motivo": "producción nocturna"
-   }
-  ]
- },
- {
-  "slug": "015-descongelar-mesada",
-  "tema": "Descongelar la carne arriba de la mesada: por qué no y cómo hacerlo seguro (USDA)",
-  "estado": "listo",
-  "historial": [
-   {
-    "estado": "idea",
-    "cuando": "2026-10-25T15:51",
-    "motivo": ""
-   },
-   {
-    "estado": "produccion",
-    "cuando": "2026-10-25T15:53",
-    "motivo": ""
-   },
-   {
-    "estado": "listo",
-    "cuando": "2026-10-25T16:03",
-    "motivo": "producción nocturna"
-   }
-  ]
- },
- {
-  "slug": "016-el-nino-clima",
-  "tema": "¿Por qué este año llueve así? El Niño y el pronóstico oficial para el verano",
-  "estado": "listo",
-  "historial": [
-   {
-    "estado": "idea",
-    "cuando": "2026-10-26T16:22",
-    "motivo": ""
-   },
-   {
-    "estado": "produccion",
-    "cuando": "2026-10-26T16:23",
-    "motivo": ""
-   },
-   {
-    "estado": "listo",
-    "cuando": "2026-10-26T16:34",
-    "motivo": "producción nocturna"
-   },
-   {
-    "estado": "apartado",
-    "cuando": "2026-10-26T17:09",
-    "motivo": "Mateo: muy largo (70 s) y con mucha data; se rehace en versión corta"
-   },
-   {
-    "estado": "listo",
-    "cuando": "2026-10-26T17:22",
-    "motivo": "versión corta (34 s) hecha en sesión"
-   },
-   {
-    "estado": "produccion",
-    "cuando": "2026-10-26T17:34",
-    "motivo": ""
-   },
-   {
-    "estado": "listo",
-    "cuando": "2026-10-26T17:41",
-    "motivo": "versión corta 34 s, producción nocturna"
-   },
-   {
-    "estado": "apartado",
-    "cuando": "2026-10-26T19:32",
-    "motivo": "la voz no coincide con el guion (91%)"
-   },
-   {
-    "estado": "listo",
-    "cuando": "2026-10-26T21:46",
-    "motivo": "el control de voz de la nube lo apartó por 91 % (era un falso rechazo; ahora la voz se controla solo al producir)"
-   }
-  ],
-  "prioridad": "actualidad",
-  "creado": "2026-10-26T16:22"
- },
- {
   "slug": "017-paradoja-cumpleanos",
   "tema": "¿Cuánta gente hace falta en una juntada para que dos cumplan el mismo día? (paradoja del cumpleaños)",
   "estado": "listo",
@@ -456,72 +522,6 @@
    {
     "estado": "listo",
     "cuando": "2026-10-26T16:43",
-    "motivo": "producción nocturna"
-   }
-  ]
- },
- {
-  "slug": "018-refresca-tormenta",
-  "tema": "¿Por qué después de la tormenta refresca de golpe? (corriente descendente)",
-  "estado": "listo",
-  "historial": [
-   {
-    "estado": "idea",
-    "cuando": "2026-10-26T17:41",
-    "motivo": ""
-   },
-   {
-    "estado": "produccion",
-    "cuando": "2026-10-26T17:42",
-    "motivo": ""
-   },
-   {
-    "estado": "listo",
-    "cuando": "2026-10-26T17:51",
-    "motivo": "producción nocturna"
-   }
-  ]
- },
- {
-  "slug": "018-rayo-trueno",
-  "tema": "¿A qué distancia está la tormenta? Contar segundos entre rayo y trueno",
-  "estado": "listo",
-  "historial": [
-   {
-    "estado": "idea",
-    "cuando": "2026-10-26T17:52",
-    "motivo": ""
-   },
-   {
-    "estado": "produccion",
-    "cuando": "2026-10-26T17:52",
-    "motivo": ""
-   },
-   {
-    "estado": "listo",
-    "cuando": "2026-10-26T18:03",
-    "motivo": "producción nocturna"
-   }
-  ]
- },
- {
-  "slug": "019-sensacion-termica",
-  "tema": "¿Por qué la sensación térmica es más alta que la temperatura? Humedad y sudor",
-  "estado": "listo",
-  "historial": [
-   {
-    "estado": "idea",
-    "cuando": "2026-10-26T18:03",
-    "motivo": ""
-   },
-   {
-    "estado": "produccion",
-    "cuando": "2026-10-26T18:03",
-    "motivo": ""
-   },
-   {
-    "estado": "listo",
-    "cuando": "2026-10-26T18:14",
     "motivo": "producción nocturna"
    }
   ]
