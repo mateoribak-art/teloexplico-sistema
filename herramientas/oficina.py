@@ -345,6 +345,11 @@ def oficina(clave):
         'seguidores': seguidores, 'listos': len(listos), 'dias': len(listos) / 2, 'proximo': listos[0]['slug'] if listos else None,
         'publicados': len(publicados), 'pausa': pausa, 'pendientes': pendientes,
         'ultimas': [{'slug': p['slug'], 'link': p.get('permalink'), 'cuando': p['publicado'][:16]} for p in publicados[-5:]][::-1],
+        # la línea de producción (tarjeta "En producción"): lo que está en camino, lo apartado y lo último publicado
+        'linea': [{'slug': v['slug'], 'tema': v.get('tema', ''), 'estado': v['estado'], 'cuando': (v.get('historial') or [{}])[-1].get('cuando'),
+                   'motivo': ((v.get('historial') or [{}])[-1].get('motivo') or '')[:160]}
+                  for v in [v for v in cola if v['estado'] not in ('listo', 'publicado', 'apartado')] + listos[:4]
+                  + [v for v, _ in apartados] + [v for v in cola if v['estado'] == 'publicado'][-2:]],
         'empleados': list(gente.values()),
     }
 

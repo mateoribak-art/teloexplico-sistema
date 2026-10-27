@@ -9,185 +9,203 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 <!--
-  La oficina de Te lo explico / Let me explain: cada parte del sistema es un empleado.
+  La oficina de Te lo explico / Let me explain, en 3D: cada parte del sistema es un empleado en su escritorio.
   Datos: estado/oficina.json del repo privado (lo escribe herramientas/oficina.py en cada turno de la nube),
   leídos con el token de Mateo (queda solo en este navegador), más las corridas de GitHub Actions en vivo.
   Abierta como OFICINA.html (python -I oficina.py --html) trae los datos adentro y anda sin token.
+  Link directo a un empleado: #es/jefe, #en/publicador…
 -->
 <!--DATOS-->
+<script type="importmap">
+{"imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+}}
+</script>
 <style>
 :root{
-  --papel:#FFF6E5;--grilla:#F0E3C8;--tinta:#111;--azul:#2E4BFF;--rojo:#FF4D2E;--amarillo:#FFE14D;--verde:#2BD67B;--blanco:#fff;
+  --papel:#EFE8D8;--tinta:#111;--azul:#2E4BFF;--rojo:#FF4D2E;--amarillo:#FFE14D;--verde:#2BD67B;--blanco:#fff;
   --gris:#CFC6B4;--suave:#6B6253;--marca:var(--azul);--acento:var(--amarillo);
   --t:'Bricolage Grotesque',system-ui,sans-serif;--m:'JetBrains Mono',ui-monospace,monospace;
+  --sombra:0 10px 30px rgba(40,30,10,.18),0 2px 6px rgba(40,30,10,.12);
 }
 body[data-of="en"]{--marca:var(--rojo);--acento:#7FD3FF}
 *{box-sizing:border-box}
-html,body{margin:0}
-body{font-family:var(--t);color:var(--tinta);background:var(--papel);
-  background-image:linear-gradient(var(--grilla) 2px,transparent 2px),linear-gradient(90deg,var(--grilla) 2px,transparent 2px);
-  background-size:40px 40px;min-height:100vh}
+html,body{margin:0;height:100%;overflow:hidden}
+body{font-family:var(--t);color:var(--tinta);background:var(--papel);-webkit-tap-highlight-color:transparent}
 button,textarea,input{font:inherit;color:inherit}
-.caja{max-width:1180px;margin:0 auto;padding:20px 16px 80px}
-.sticker{background:var(--blanco);border:3px solid var(--tinta);border-radius:16px;box-shadow:5px 5px 0 var(--tinta)}
-header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-bottom:16px}
-h1{font-size:clamp(28px,5vw,44px);line-height:1;margin:0;letter-spacing:-.02em}
-h1 span{background:var(--acento);padding:0 .15em;border-radius:6px}
-.sub{font-family:var(--m);font-size:12px;color:var(--suave);margin-top:6px}
-.botones{display:flex;gap:8px;flex-wrap:wrap}
-.btn{border:3px solid var(--tinta);background:var(--blanco);border-radius:12px;padding:8px 14px;font-weight:800;cursor:pointer;box-shadow:3px 3px 0 var(--tinta);transition:transform .08s,box-shadow .08s}
-.btn:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 var(--tinta)}
-.btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--tinta)}
+#mundo{position:fixed;inset:0;width:100%;height:100%;display:block;touch-action:none;outline:none}
+.hud{position:fixed;z-index:3}
+.tarj{background:rgba(255,255,255,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-radius:16px;box-shadow:var(--sombra)}
+/* arriba */
+#arriba{top:max(12px,env(safe-area-inset-top));left:12px;right:12px;display:flex;gap:10px;align-items:flex-start;justify-content:space-between;pointer-events:none}
+#arriba>*{pointer-events:auto}
+.marca{padding:10px 14px}
+.marca h1{margin:0;font-size:22px;line-height:1;letter-spacing:-.02em;display:flex;align-items:center;gap:8px}
+.marca h1 i{width:12px;height:12px;border-radius:50%;background:var(--marca);display:inline-block}
+.marca .sub{font-family:var(--m);font-size:11px;color:var(--suave);margin-top:5px}
+.selector{display:flex;gap:4px;margin-top:9px;background:#F1ECE1;border-radius:12px;padding:3px}
+.selector button{border:0;background:transparent;border-radius:9px;padding:6px 10px;font-weight:800;font-size:14px;cursor:pointer;display:flex;align-items:center;gap:6px;white-space:nowrap}
+.selector button[aria-selected="true"]{background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.15)}
+.selector .pt{width:9px;height:9px;border-radius:50%}
+.botones{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.btn{border:0;background:#fff;border-radius:12px;padding:9px 13px;font-weight:800;font-size:14px;cursor:pointer;box-shadow:var(--sombra);transition:transform .1s}
+.btn:hover{transform:translateY(-1px)}
+.btn:active{transform:translateY(1px)}
 .btn.primario{background:var(--marca);color:#fff}
-.btn.peligro{background:var(--rojo);color:#fff}
 .btn:disabled{opacity:.45;cursor:not-allowed;transform:none}
-.pestanas{display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap}
-.pestana{flex:1 1 240px;text-align:left;padding:12px 16px;cursor:pointer;display:flex;align-items:center;gap:12px}
-.pestana[aria-selected="true"]{background:var(--acento)}
-.pestana b{display:block;font-size:20px}
-.pestana small{font-family:var(--m);font-size:12px;color:var(--suave)}
-.pestana>span{min-width:0}
-.pestana .pts{margin-left:auto;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:4px;max-width:120px}
-.pts i{width:10px;height:10px;border-radius:50%;border:2px solid var(--tinta);display:block}
-.resumen{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:16px}
-.dato{padding:12px 14px}
-.dato small{font-family:var(--m);font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--suave)}
-.dato b{display:block;font-size:26px;line-height:1.1;margin-top:2px}
-.dato span{font-size:13px;color:var(--suave)}
-.paravos{padding:12px 16px;margin-bottom:16px;background:#FFF0EC}
-.paravos h2{font-size:18px;margin:0 0 6px}
-.paravos ul{margin:0;padding-left:20px}
-.paravos li{margin:3px 0}
-.escena{padding:8px;overflow:hidden;position:relative}
-.escena svg{display:block;width:100%;height:auto}
-.etq{font-family:var(--m);font-weight:700;font-size:12px;letter-spacing:.04em;position:absolute;left:16px;top:12px;background:var(--acento);border:2px solid var(--tinta);border-radius:8px;padding:2px 8px}
-.puesto{cursor:pointer;outline:none}
-.puesto:focus-visible .mesa-top{stroke:var(--marca);stroke-width:5}
-.puesto:hover .cuerpo{transform:translateY(-4px)}
-.cuerpo{transition:transform .15s;transform-box:fill-box}
-.ojo{transform-box:fill-box;transform-origin:center;animation:parpadeo 4.5s infinite}
-@keyframes parpadeo{0%,93%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
-.st-trabajando .respira{animation:tecleo .5s ease-in-out infinite alternate}
-.st-ok .respira,.st-aviso .respira{animation:respira 3.2s ease-in-out infinite}
-.st-falla .respira{animation:tiembla .35s linear infinite}
-.respira{transform-box:fill-box;transform-origin:50% 100%}
-@keyframes respira{50%{transform:scaleY(1.035)}}
-@keyframes tecleo{to{transform:translateY(-3px)}}
-@keyframes tiembla{25%{transform:translateX(-1.5px)}75%{transform:translateX(1.5px)}}
-.renglon{animation:escribe 1.4s linear infinite}
-@keyframes escribe{from{transform:translateY(0)}to{transform:translateY(-8px)}}
-.zz{animation:zz 2.6s ease-in-out infinite;font-family:var(--m);font-weight:700}
-@keyframes zz{0%{opacity:0;transform:translate(0,0)}30%{opacity:1}100%{opacity:0;transform:translate(10px,-18px)}}
-.alarma{animation:alarma 1.1s ease-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes alarma{from{opacity:.75;transform:scale(.7)}to{opacity:0;transform:scale(1.5)}}
-.equipo{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin-top:18px}
-.tarjeta{display:flex;gap:12px;align-items:flex-start;padding:12px;cursor:pointer;text-align:left;width:100%}
-.tarjeta:hover{transform:translate(-1px,-1px);box-shadow:6px 6px 0 var(--tinta)}
-.avatar{flex:none;width:46px;height:46px;border-radius:50%;border:3px solid var(--tinta);background:var(--marca);display:grid;place-items:center;font-size:22px;position:relative}
-.avatar .pt{position:absolute;right:-4px;bottom:-4px;width:16px;height:16px;border-radius:50%;border:2.5px solid var(--tinta)}
-.tarjeta b{font-size:17px}
-.tarjeta small{display:block;font-family:var(--m);font-size:11px;color:var(--suave);margin-bottom:4px}
-.tarjeta p{margin:0;font-size:14px;line-height:1.3}
-.pill{display:inline-block;font-family:var(--m);font-weight:700;font-size:11px;padding:2px 8px;border-radius:999px;border:2px solid var(--tinta);text-transform:uppercase;letter-spacing:.04em}
-.c-ok{background:var(--verde)}.c-trabajando{background:var(--azul);color:#fff}.c-aviso{background:var(--amarillo)}
-.c-falla{background:var(--rojo);color:#fff}.c-descanso,.c-pausa{background:var(--gris)}
-.ultimas{margin-top:18px;padding:12px 16px}
-.ultimas h2{font-size:18px;margin:0 0 6px}
-.ultimas a{color:var(--marca);font-weight:800}
-.ultimas li{font-family:var(--m);font-size:13px;margin:3px 0}
-/* panel del empleado */
-.velo{position:fixed;inset:0;background:rgba(17,17,17,.35);opacity:0;pointer-events:none;transition:opacity .2s}
+#paravos{display:none;margin-top:8px;background:var(--rojo);color:#fff;border:0;border-radius:999px;padding:7px 14px 7px 8px;font-weight:800;font-size:14px;cursor:pointer;box-shadow:var(--sombra);align-items:center;gap:8px}
+#paravos b{background:#fff;color:var(--rojo);border-radius:50%;width:22px;height:22px;display:grid;place-items:center;font-size:14px}
+/* tarjeta "En producción" */
+#produccion{top:170px;left:12px;width:300px;padding:12px 14px;max-height:calc(100vh - 300px);overflow:auto}
+#produccion h2{margin:0 0 8px;font-size:16px;display:flex;justify-content:space-between;align-items:center}
+#produccion h2 span{font-family:var(--m);font-size:11px;color:var(--suave);background:#F1ECE1;border-radius:999px;padding:1px 8px}
+.paso{padding:8px 0;border-top:1px solid #EEE7DA}
+.paso:first-of-type{border-top:0}
+.paso b{font-size:13.5px;line-height:1.25;display:block}
+.barra{display:flex;gap:3px;margin:6px 0 4px}
+.barra i{flex:1;height:5px;border-radius:3px;background:#E6DFD0}
+.barra i.si{background:var(--marca)}
+.barra.rojo i.si{background:var(--rojo)}
+.barra.verde i.si{background:var(--verde)}
+.paso small{font-family:var(--m);font-size:10.5px;color:var(--suave)}
+/* etiquetas sobre las cabezas */
+#etiquetas{position:fixed;inset:0;pointer-events:none;z-index:2;overflow:hidden}
+.chip{position:absolute;left:0;top:0;transform:translate(-50%,-100%);display:flex;align-items:center;gap:5px;pointer-events:auto;cursor:pointer;white-space:nowrap;will-change:transform}
+.globo{background:#111;color:#fff;border-radius:999px;font-family:var(--m);font-weight:700;font-size:12px;padding:3px 9px;line-height:1.3;box-shadow:0 3px 8px rgba(0,0,0,.25);display:flex;align-items:center;gap:3px}
+.globo.ojo{background:var(--amarillo);color:#111}
+.globo.falla{background:var(--rojo);animation:late 1s ease-in-out infinite}
+.globo.ok{background:#fff;color:#1a8f4c}
+.globo.zz{background:#fff;color:#777}
+.globo .d{width:4px;height:4px;border-radius:50%;background:#fff;animation:punto 1.2s infinite}
+.globo .d:nth-child(2){animation-delay:.2s}.globo .d:nth-child(3){animation-delay:.4s}
+@keyframes punto{0%,60%,100%{opacity:.35;transform:none}30%{opacity:1;transform:translateY(-2px)}}
+@keyframes late{50%{transform:scale(1.15)}}
+.nombre{background:rgba(255,255,255,.95);border-radius:999px;font-weight:800;font-size:12.5px;padding:2px 9px;box-shadow:0 2px 6px rgba(0,0,0,.18)}
+.chip.sel .nombre{background:var(--marca);color:#fff}
+/* barra de abajo (el equipo) */
+#dock{bottom:max(12px,env(safe-area-inset-bottom));left:0;right:0;margin:0 auto;width:max-content;max-width:calc(100vw - 24px);display:flex;align-items:center;gap:4px;padding:8px 10px;overflow-x:auto;scrollbar-width:none}
+#dock::-webkit-scrollbar{display:none}
+.av{border:0;background:transparent;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:3px;padding:2px 5px;border-radius:12px;flex:none}
+.av:hover,.av.sel{background:#F1ECE1}
+.av .cara{width:40px;height:40px;border-radius:50%;background:var(--marca);display:grid;place-items:center;font-size:19px;position:relative;box-shadow:inset 0 -3px 0 rgba(0,0,0,.18)}
+.av .pt{position:absolute;right:-2px;bottom:-2px;width:14px;height:14px;border-radius:50%;border:2.5px solid #fff}
+.av small{font-size:10.5px;font-weight:800;max-width:62px;overflow:hidden;text-overflow:ellipsis}
+.sep{width:1px;align-self:stretch;background:#E6DFD0;margin:4px 4px;flex:none}
+.av.txt .cara{background:#F1ECE1;font-size:18px}
+/* panel lateral */
+.velo{position:fixed;inset:0;background:rgba(17,17,17,.18);opacity:0;pointer-events:none;transition:opacity .2s;z-index:4}
 .velo.abierto{opacity:1;pointer-events:auto}
-.panel{position:fixed;top:12px;right:12px;bottom:12px;width:min(460px,calc(100vw - 24px));overflow:auto;padding:18px;transform:translateX(110%);transition:transform .25s cubic-bezier(.2,.8,.2,1);z-index:5}
+.panel{position:fixed;top:12px;right:12px;bottom:12px;width:min(440px,calc(100vw - 24px));overflow:auto;padding:18px;transform:translateX(115%);transition:transform .28s cubic-bezier(.2,.8,.2,1);z-index:5;background:#fff;border-radius:20px;box-shadow:var(--sombra)}
 .panel.abierto{transform:none}
-.panel h2{margin:0;font-size:26px;line-height:1.05}
-.panel h3{font-family:var(--m);font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:18px 0 6px;color:var(--suave)}
-.panel .cab{display:flex;gap:12px;align-items:center;margin-bottom:10px}
-.panel .avatar{width:64px;height:64px;font-size:30px}
-.panel .cerrar{position:absolute;top:12px;right:12px;padding:4px 10px}
+.panel h2{margin:0;font-size:25px;line-height:1.05}
+.panel h3{font-family:var(--m);font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;margin:18px 0 6px;color:var(--suave)}
+.panel .cab{display:flex;gap:12px;align-items:center;margin-bottom:10px;padding-right:40px}
+.panel .cara{width:56px;height:56px;border-radius:50%;background:var(--marca);display:grid;place-items:center;font-size:27px;position:relative;flex:none}
+.panel .cara .pt{position:absolute;right:-2px;bottom:-2px;width:18px;height:18px;border-radius:50%;border:3px solid #fff}
+.panel .cerrar{position:absolute;top:14px;right:14px;padding:6px 11px;box-shadow:none;background:#F1ECE1}
 .panel .res{font-size:17px;line-height:1.35;margin:8px 0}
 .panel ul{margin:0;padding-left:18px}
 .panel li{margin:3px 0;font-size:14px}
-.registro{font-family:var(--m);font-size:11.5px;line-height:1.45;background:#FBF4E4;border:2px solid var(--tinta);border-radius:10px;padding:10px;white-space:pre-wrap;word-break:break-word;max-height:260px;overflow:auto;margin:0}
-.arreglo{background:var(--acento);border:2px solid var(--tinta);border-radius:10px;padding:10px 12px;font-size:14px}
+.pill{display:inline-block;font-family:var(--m);font-weight:700;font-size:11px;padding:2px 9px;border-radius:999px;text-transform:uppercase;letter-spacing:.04em}
+.c-ok{background:var(--verde)}.c-trabajando{background:var(--azul);color:#fff}.c-aviso{background:var(--amarillo)}
+.c-falla{background:var(--rojo);color:#fff}.c-descanso,.c-pausa{background:var(--gris)}
+.registro{font-family:var(--m);font-size:11.5px;line-height:1.45;background:#F7F3EA;border-radius:12px;padding:10px;white-space:pre-wrap;word-break:break-word;max-height:240px;overflow:auto;margin:0}
+.arreglo{background:var(--acento);border-radius:12px;padding:10px 12px;font-size:14px}
 .gh{font-size:14px}
-.gh a{color:var(--marca);font-weight:800}
-.panel textarea{width:100%;min-height:90px;border:3px solid var(--tinta);border-radius:12px;padding:10px;background:#fff;resize:vertical}
+.gh a,.panel a.link{color:var(--marca);font-weight:800}
+.panel textarea{width:100%;min-height:86px;border:2px solid #E6DFD0;border-radius:12px;padding:10px;background:#fff;resize:vertical}
 .acciones{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.acciones .btn{box-shadow:none;border:2px solid #E6DFD0}
+.acciones .btn.primario{border-color:var(--marca)}
 .nota{font-size:12.5px;color:var(--suave);margin-top:6px}
-.aviso-conectar{padding:16px;margin-bottom:16px}
-.aviso-conectar ol{padding-left:20px;margin:8px 0}
-.aviso-conectar input{width:100%;border:3px solid var(--tinta);border-radius:12px;padding:10px;font-family:var(--m);font-size:13px;margin:8px 0}
-.toast{position:fixed;left:50%;bottom:18px;transform:translate(-50%,150%);transition:transform .25s;padding:10px 16px;z-index:9;max-width:calc(100vw - 32px)}
+.datos{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:6px}
+.datos div{background:#F7F3EA;border-radius:12px;padding:8px 10px}
+.datos small{font-family:var(--m);font-size:10.5px;color:var(--suave);text-transform:uppercase}
+.datos b{display:block;font-size:20px}
+#conectar{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);width:min(460px,calc(100vw - 24px));padding:18px;z-index:6;display:none;background:#fff;border-radius:20px;box-shadow:var(--sombra)}
+#conectar ol{padding-left:20px;margin:8px 0;font-size:14px}
+#conectar input{width:100%;border:2px solid #E6DFD0;border-radius:12px;padding:10px;font-family:var(--m);font-size:13px;margin:8px 0}
+.toast{position:fixed;left:50%;top:14px;transform:translate(-50%,-160%);transition:transform .25s;padding:10px 16px;z-index:9;max-width:calc(100vw - 32px);background:#111;color:#fff;border-radius:12px;font-weight:800;font-size:14px}
 .toast.ver{transform:translate(-50%,0)}
+#cargando{position:fixed;inset:0;display:grid;place-items:center;z-index:1;font-family:var(--m);color:var(--suave);pointer-events:none}
 .oculto{display:none!important}
-@media (max-width:640px){
-  .panel{top:auto;left:8px;right:8px;bottom:8px;width:auto;max-height:86vh;transform:translateY(110%)}
+body.con-panel #produccion{opacity:0;pointer-events:none}
+#produccion{transition:opacity .2s}
+@media (max-width:760px){
+  #produccion{display:none}
+  .marca h1{font-size:19px}
+  .chip .nombre{display:none}
+  .chip.sel .nombre{display:block}
+  .panel{top:auto;left:8px;right:8px;bottom:8px;width:auto;max-height:58vh;transform:translateY(115%)}
   .panel.abierto{transform:none}
-  .pestana b{font-size:17px}
-  .pestana .pts{max-width:62px}
-  .escena{overflow-x:auto}
-  .escena svg{min-width:640px}
+  .btn{padding:8px 10px;font-size:13px}
+  .btn .t{display:none}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
 <body data-of="es">
-<div class="caja">
-  <header>
-    <div>
-      <h1>La <span>oficina</span></h1>
+<canvas id="mundo" tabindex="0" aria-label="La oficina en 3D: tocá a un empleado para ver qué está haciendo"></canvas>
+<div id="cargando">armando la oficina…</div>
+<div id="etiquetas"></div>
+
+<div class="hud" id="arriba">
+  <div>
+    <div class="tarj marca">
+      <h1><i></i>La oficina</h1>
       <div class="sub" id="sub">cargando…</div>
+      <div class="selector" role="tablist" id="selector"></div>
     </div>
-    <div class="botones">
-      <button class="btn" id="b-actualizar" title="Volver a leer el estado">↻ Actualizar</button>
-      <button class="btn" id="b-pausa">⏸ Pausar todo</button>
-      <button class="btn" id="b-token">🔑 Conectar</button>
-    </div>
-  </header>
+    <button id="paravos"><b>!</b><span></span></button>
+  </div>
+  <div class="botones">
+    <button class="btn" id="b-actualizar" title="Volver a leer el estado">↻<span class="t"> Actualizar</span></button>
+    <button class="btn" id="b-vista" title="Volver a ver toda la oficina">⌂<span class="t"> Vista</span></button>
+    <button class="btn" id="b-pausa">⏸<span class="t"> Pausar todo</span></button>
+    <button class="btn" id="b-token">🔑<span class="t"> Conectar</span></button>
+  </div>
+</div>
 
-  <section class="sticker aviso-conectar oculto" id="conectar">
-    <b style="font-size:19px">Conectá la oficina con GitHub</b>
-    <p style="margin:6px 0">La oficina lee el estado del repo privado <code>teloexplico-sistema</code>. La clave queda guardada solo en este navegador y solo se manda a GitHub.</p>
-    <ol>
-      <li>Abrí <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com → Fine-grained token nuevo</a>.</li>
-      <li>Nombre: <b>oficina</b> · Vencimiento: 1 año · Repository access: <b>Only select repositories → teloexplico-sistema</b>.</li>
-      <li>Permissions → Repository: <b>Contents: Read and write</b> y <b>Actions: Read and write</b> (para leer el estado, dejar pedidos, pausar y relanzar).</li>
-      <li>Generá el token, copialo y pegalo acá:</li>
-    </ol>
-    <input id="i-token" type="password" autocomplete="off" placeholder="github_pat_…" aria-label="Token de GitHub">
-    <div class="acciones"><button class="btn primario" id="b-guardar">Conectar</button><button class="btn" id="b-cancelar">Cancelar</button></div>
-  </section>
+<section class="hud tarj" id="produccion" aria-label="En producción"></section>
+<nav class="hud tarj" id="dock" aria-label="El equipo"></nav>
 
-  <div class="pestanas" role="tablist" id="pestanas"></div>
-  <div class="sticker paravos oculto" id="paravos"></div>
-  <div class="resumen" id="resumen"></div>
-  <div class="sticker escena"><div class="etq" id="etq"></div><svg id="escena" role="img" aria-label="La oficina con cada empleado en su escritorio"></svg></div>
-  <div class="equipo" id="equipo"></div>
-  <section class="sticker ultimas" id="ultimas"></section>
+<div id="conectar">
+  <b style="font-size:19px">Conectá la oficina con GitHub</b>
+  <p style="margin:6px 0;font-size:14px">La oficina lee el estado del repo privado <code>teloexplico-sistema</code>. La clave queda guardada solo en este navegador y solo se manda a GitHub.</p>
+  <ol>
+    <li>Abrí <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com → Fine-grained token nuevo</a>.</li>
+    <li>Nombre: <b>oficina</b> · Vencimiento: 1 año · Repository access: <b>Only select repositories → teloexplico-sistema</b>.</li>
+    <li>Permissions: <b>Contents</b> y <b>Actions</b> en <b>Read and write</b>.</li>
+    <li>Generá el token, copialo y pegalo acá:</li>
+  </ol>
+  <input id="i-token" type="password" autocomplete="off" placeholder="github_pat_…" aria-label="Token de GitHub">
+  <div class="acciones"><button class="btn primario" id="b-guardar">Conectar</button><button class="btn" id="b-cancelar">Cancelar</button></div>
 </div>
 
 <div class="velo" id="velo"></div>
-<aside class="sticker panel" id="panel" aria-live="polite"></aside>
-<div class="sticker toast" id="toast" role="status"></div>
+<aside class="panel" id="panel" aria-live="polite"></aside>
+<div class="toast" id="toast" role="status"></div>
 
-<script>
+<script type="module">
+import * as THREE from 'three';
+import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
+
 const REPO = 'mateoribak-art/teloexplico-sistema';
 const COLOR = {ok: '#2BD67B', trabajando: '#2E4BFF', aviso: '#FFE14D', falla: '#FF4D2E', descanso: '#CFC6B4', pausa: '#CFC6B4'};
 const PALABRA = {ok: 'al día', trabajando: 'trabajando', aviso: 'ojo', falla: 'falló', descanso: 'descansa', pausa: 'en pausa'};
 const FLUJO = {'claude.yml': 'Claude (producción, radar, comentarios)', 'publicar.yml': 'Publicar', 'carrusel.yml': 'Carrusel', 'tareas.yml': 'Tareas (vigilancia y resumen)'};
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
+const guardado = (k, v) => { try { if (v === undefined) return localStorage.getItem(k) || ''; v ? localStorage.setItem(k, v) : localStorage.removeItem(k); } catch (e) { return ''; } };
 
-let token = '';
-try { token = localStorage.getItem('oficina_token') || ''; } catch (e) {}
-let datos = window.DATOS || null, corridas = [], fuente = window.DATOS ? 'copia local' : '', actual = 'es', abierto = null, pausado = null;
-try { actual = localStorage.getItem('oficina_actual') || 'es'; } catch (e) {}
-// link directo a un empleado: …/oficina/#es/jefe (sirve para los avisos al celular)
-let desdeLink = null;
+let token = guardado('oficina_token');
+let datos = window.DATOS || null, corridas = [], fuente = window.DATOS ? 'copia local' : '', pausado = null;
+let actual = guardado('oficina_actual') || 'es', abierto = null, desdeLink = null;
 { const [o, id] = decodeURIComponent(location.hash.slice(1)).split('/'); if (o === 'es' || o === 'en') { actual = o; desdeLink = id || null; } }
 
-// ---------- GitHub
+// ================= GitHub
 async function gh(ruta, opciones = {}, aceptar = 'application/vnd.github+json') {
   const r = await fetch('https://api.github.com/repos/' + REPO + ruta, {
     cache: 'no-store', ...opciones,
@@ -201,22 +219,20 @@ const a64 = s => { let b = ''; for (const x of new TextEncoder().encode(s)) b +=
 const de64 = s => new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\n/g, '')), c => c.charCodeAt(0)));
 
 async function cargar() {
-  if (!token) { pintar(); return; }
-  try {
-    const [crudo, runs, pausa] = await Promise.all([
-      gh('/contents/estado/oficina.json?ref=main', {}, 'application/vnd.github.raw+json'),
-      gh('/actions/runs?per_page=40').catch(() => ({workflow_runs: []})),
-      gh('/contents/PAUSA?ref=main', {permitir404: true}).catch(() => null),
-    ]);
-    datos = JSON.parse(crudo); corridas = runs.workflow_runs || []; pausado = pausa; fuente = 'GitHub en vivo';
-  } catch (e) {
-    toast('No pude leer GitHub: ' + e.message);
-    if (!datos) fuente = 'sin datos';
+  if (token) {
+    try {
+      const [crudo, runs, pausa] = await Promise.all([
+        gh('/contents/estado/oficina.json?ref=main', {}, 'application/vnd.github.raw+json'),
+        gh('/actions/runs?per_page=40').catch(() => ({workflow_runs: []})),
+        gh('/contents/PAUSA?ref=main', {permitir404: true}).catch(() => null),
+      ]);
+      datos = JSON.parse(crudo); corridas = runs.workflow_runs || []; pausado = pausa; fuente = 'GitHub en vivo';
+    } catch (e) { toast('No pude leer GitHub: ' + e.message); }
   }
   pintar();
 }
 
-// ---------- tiempo (los registros se escriben en hora de Argentina)
+// ================= tiempo (los registros se escriben en hora de Argentina)
 const fecha = c => c ? new Date(c.length <= 16 ? c + ':00-03:00' : c) : null;
 function hace(d) {
   if (!d) return 'nunca';
@@ -227,7 +243,7 @@ function hace(d) {
   return 'hace ' + Math.round(m / 1440) + ' días';
 }
 
-// ---------- corridas de GitHub Actions → empleados
+// ================= corridas de GitHub Actions → empleados
 function empleadosDe(run) {
   const f = (run.path || '').split('/').pop();
   if (f === 'publicar.yml') return ['publicador', 'redes'];
@@ -243,9 +259,10 @@ function empleadosDe(run) {
 }
 function enVivo(id) {
   const mias = corridas.filter(r => empleadosDe(r).includes(id));
-  const ahora = mias.find(r => r.status === 'in_progress' || r.status === 'queued');
-  const ultima = mias.find(r => r.status === 'completed' && r.conclusion !== 'skipped' && r.conclusion !== 'cancelled');
-  return {ahora, ultima};
+  return {
+    ahora: mias.find(r => r.status === 'in_progress' || r.status === 'queued'),
+    ultima: mias.find(r => r.status === 'completed' && r.conclusion !== 'skipped' && r.conclusion !== 'cancelled'),
+  };
 }
 function estadoReal(e) {
   const {ahora, ultima} = enVivo(e.id);
@@ -253,123 +270,530 @@ function estadoReal(e) {
   if (ultima && ultima.conclusion === 'failure' && new Date(ultima.updated_at) > fecha(datos.actualizado)) return 'falla';
   return e.estado;
 }
+const oficinaActual = () => datos && datos.oficinas.find(o => o.clave === actual);
 
-// ---------- dibujo de la oficina (isométrica)
-const TW = 250, TH = 125;
-function persona(e, st, x, y) {
-  const c = COLOR[st];
-  const ojos = st === 'descanso' || st === 'pausa'
-    ? `<path d="M-11 -6 q4 3 8 0 M3 -6 q4 3 8 0" stroke="#111" stroke-width="2.6" fill="none" stroke-linecap="round"/>`
-    : `<ellipse class="ojo" cx="-7" cy="-6" rx="3.2" ry="4.6" fill="#111"/><ellipse class="ojo" cx="7" cy="-6" rx="3.2" ry="4.6" fill="#111"/>`;
-  const boca = {ok: 'M-7 4 q7 7 14 0', trabajando: 'M-5 5 q5 4 10 0', aviso: 'M-6 6 h12', falla: 'M-7 8 q7 -7 14 0', descanso: 'M-3 5 q3 2 6 0', pausa: 'M-4 5 h8'}[st];
-  const pantalla = st === 'trabajando'
-    ? `<clipPath id="cp-${e.id}"><rect x="-24" y="-20" width="44" height="28" rx="3"/></clipPath><rect x="-24" y="-20" width="44" height="28" rx="3" fill="#0E1A66"/><g clip-path="url(#cp-${e.id})"><g class="renglon">${[0, 1, 2, 3, 4, 5].map(i => `<rect x="-19" y="${-15 + i * 8}" width="${16 + (i * 13) % 20}" height="3" rx="1.5" fill="#7FD3FF"/>`).join('')}</g></g>`
-    : st === 'descanso' || st === 'pausa' ? `<rect x="-24" y="-20" width="44" height="28" rx="3" fill="#2a2a2a"/>`
-    : `<rect x="-24" y="-20" width="44" height="28" rx="3" fill="${c}"/><text x="-2" y="1" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="17" fill="${st === 'falla' ? '#fff' : '#111'}">${st === 'ok' ? '✓' : '!'}</text>`;
-  const zz = st === 'descanso' ? `<text class="zz" x="40" y="-96" font-size="15">z</text><text class="zz" x="48" y="-106" font-size="12" style="animation-delay:.9s">z</text>` : '';
-  const ancho = Math.max(96, e.nombre.length * 10.5 + 52);
-  const icono = st === 'pausa' ? `<path d="M-4 -5v10M4 -5v10" stroke="#111" stroke-width="3"/>`
-    : `<text y="5" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="13" fill="${st === 'falla' || st === 'trabajando' ? '#fff' : '#111'}">${{ok: '✓', trabajando: '…', aviso: '!', falla: '✕', descanso: 'z'}[st]}</text>`;
-  const cartel = `<g transform="translate(14,-142)"><rect x="${-ancho / 2}" y="-14" width="${ancho}" height="28" rx="9" fill="#fff" stroke="#111" stroke-width="2.5"/>
-      <text x="${-ancho / 2 + 12}" y="5" font-family="Bricolage Grotesque" font-weight="800" font-size="15">${esc(e.nombre)}</text>
-      <g transform="translate(${ancho / 2 - 15},0)"><circle r="10" fill="${c}" stroke="#111" stroke-width="2.2"/>${icono}</g></g>`;
-  const tx = 64, ty = 32, h = 30, g = 12;
-  return `<g class="puesto st-${st}" data-id="${e.id}" tabindex="0" role="button" aria-label="${esc(e.nombre + ', ' + e.puesto + ': ' + PALABRA[st])}" transform="translate(${x},${y})">
-    <ellipse cx="0" cy="6" rx="${tx * 1.25}" ry="${ty * 1.2}" fill="rgba(17,17,17,.10)"/>
-    ${st === 'falla' ? `<ellipse class="alarma" cx="0" cy="2" rx="${tx * 1.2}" ry="${ty * 1.1}" fill="none" stroke="#FF4D2E" stroke-width="5"/>` : ''}
-    <g class="cuerpo"><g class="respira" transform="translate(14,${-h - 50})">
-      <path d="M-26 0 a26 26 0 1 1 18 24.7 l-14 9 l4 -13 a26 26 0 0 1 -8 -20.7z" fill="var(--marca)" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
-      <circle cx="0" cy="0" r="17" fill="#fff" stroke="#111" stroke-width="2.5"/>
-      <g transform="translate(0,1)">${ojos}<path d="${boca}" stroke="#111" stroke-width="2.6" fill="none" stroke-linecap="round"/></g>
-    </g></g>
-    <path class="mesa-top" d="M0 ${-ty - h} L${tx} ${-h} L0 ${ty - h} L${-tx} ${-h}Z" fill="#fff" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M${-tx} ${-h} L0 ${ty - h} L0 ${ty - h + g} L${-tx} ${-h + g}Z" fill="#F3E6CC" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M0 ${ty - h} L${tx} ${-h} L${tx} ${-h + g} L0 ${ty - h + g}Z" fill="#E2D0AE" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M${-tx + 8} ${-h + g} v${h - g + 4} M${tx - 8} ${-h + g} v${h - g + 4} M0 ${ty - h + g} v${h - g + 2}" stroke="#111" stroke-width="3"/>
-    <g transform="translate(-26,${-h - 18})"><rect x="-27" y="-23" width="50" height="34" rx="5" fill="#fff" stroke="#111" stroke-width="3"/>${pantalla}<path d="M-6 11 v6 h-8 h20" stroke="#111" stroke-width="3" fill="none"/></g>
-    <text x="34" y="${-h + 2}" font-size="20" text-anchor="middle">${e.emoji}</text>
-    ${zz}${cartel}
-  </g>`;
+// ================= 3D: escena
+const lienzo = $('#mundo');
+const renderer = new THREE.WebGLRenderer({canvas: lienzo, antialias: true});
+const MOVIL = matchMedia('(max-width:760px)').matches;
+renderer.setPixelRatio(Math.min(devicePixelRatio, MOVIL ? 1.75 : 2));
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.05;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+const escena = new THREE.Scene();
+escena.background = new THREE.Color('#EFE8D8');
+const pmrem = new THREE.PMREMGenerator(renderer);
+escena.environment = pmrem.fromScene(new RoomEnvironment(), .04).texture;
+escena.add(new THREE.HemisphereLight(0xffffff, 0xC9B994, .55));
+const sol = new THREE.DirectionalLight(0xffffff, 1.9);
+sol.position.set(9, 16, 7);
+sol.castShadow = true;
+sol.shadow.mapSize.set(MOVIL ? 1024 : 2048, MOVIL ? 1024 : 2048);
+Object.assign(sol.shadow.camera, {left: -17, right: 17, top: 14, bottom: -14, near: 1, far: 50});
+sol.shadow.bias = -0.0004; sol.shadow.normalBias = .03;
+escena.add(sol);
+
+const camara = new THREE.PerspectiveCamera(32, 1, .1, 300);
+const controles = new OrbitControls(camara, lienzo);
+controles.enableDamping = true; controles.dampingFactor = .08;
+controles.maxPolarAngle = 1.32; controles.minPolarAngle = .35;
+controles.minDistance = 4; controles.maxDistance = 80;
+controles.screenSpacePanning = false;
+
+const mats = new Map();
+const plastico = (c, extra = {}) => {
+  const k = c + JSON.stringify(extra);
+  if (!mats.has(k)) mats.set(k, new THREE.MeshStandardMaterial({color: c, roughness: .42, metalness: 0, envMapIntensity: .7, ...extra}));
+  return mats.get(k);
+};
+function caja(w, h, d, color, x = 0, y = 0, z = 0, padre, sombra = true) {
+  const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), typeof color === 'string' ? plastico(color) : color);
+  m.position.set(x, y, z); m.castShadow = sombra; m.receiveShadow = true;
+  if (padre) padre.add(m);
+  return m;
+}
+function cilindro(rt, rb, h, color, x = 0, y = 0, z = 0, padre, seg = 20) {
+  const m = new THREE.Mesh(new THREE.CylinderGeometry(rt, rb, h, seg), typeof color === 'string' ? plastico(color) : color);
+  m.position.set(x, y, z); m.castShadow = true; m.receiveShadow = true;
+  if (padre) padre.add(m);
+  return m;
+}
+// bloquecitos de una superficie, en una sola malla
+function bloquecitos(lista, color, padre, r = .12) {
+  const im = new THREE.InstancedMesh(new THREE.CylinderGeometry(r, r, .08, 12), plastico(color), lista.length);
+  const m = new THREE.Matrix4();
+  lista.forEach(([x, y, z], i) => im.setMatrixAt(i, m.makeTranslation(x, y, z)));
+  im.receiveShadow = true;
+  padre.add(im);
+  return im;
 }
 
-function escena(of) {
-  const gente = of.empleados, cols = 4, filas = Math.ceil(gente.length / cols);
-  const pos = (c, r) => [(c - r) * TW / 2, (c + r) * TH / 2];
-  const esquinas = [pos(-.6, -.6), pos(cols - .4, -.6), pos(cols - .4, filas - .4), pos(-.6, filas - .4)];
-  const xs = esquinas.map(p => p[0]), ys = esquinas.map(p => p[1]);
-  const minx = Math.min(...xs) - 10, maxx = Math.max(...xs) + 10, miny = Math.min(...ys) - 100, maxy = Math.max(...ys) + 12;
-  let lineas = '';
-  for (let i = 0; i <= cols * 2; i++) { const a = pos(-.6 + i / 2, -.6), b = pos(-.6 + i / 2, filas - .4); lineas += `M${a[0]} ${a[1]}L${b[0]} ${b[1]}`; }
-  for (let j = 0; j <= filas * 2; j++) { const a = pos(-.6, -.6 + j / 2), b = pos(cols - .4, -.6 + j / 2); lineas += `M${a[0]} ${a[1]}L${b[0]} ${b[1]}`; }
-  const piso = `<path d="M${esquinas.map(p => p.join(' ')).join('L')}Z" fill="#FBF0D9" stroke="#111" stroke-width="3"/><path d="${lineas}" stroke="#EADBBB" stroke-width="2"/>`;
-  const pared = (a, b) => `<path d="M${a[0]} ${a[1]}L${b[0]} ${b[1]}L${b[0]} ${b[1] - 80}L${a[0]} ${a[1] - 80}Z" fill="#fff" stroke="#111" stroke-width="3" stroke-linejoin="round"/>`;
-  const planta = `<g transform="translate(${esquinas[1][0] - 46},${esquinas[1][1] + 4})"><path d="M-10 0 L10 0 L7 18 L-7 18Z" fill="#FF4D2E" stroke="#111" stroke-width="2.5"/><path d="M0 0 C-14 -10 -16 -26 -4 -30 M0 0 C10 -14 18 -20 12 -32 M0 0 C2 -16 -2 -24 2 -36" stroke="#1d9a55" stroke-width="5" fill="none" stroke-linecap="round"/></g>`;
-  const puestos = gente.map((e, i) => [e, i % cols, Math.floor(i / cols)]).sort((a, b) => (a[1] + a[2]) - (b[1] + b[2]) || a[1] - b[1])
-    .map(([e, c, r]) => { const [x, y] = pos(c, r); return persona(e, estadoReal(e), x, y); }).join('');
-  const svg = $('#escena');
-  svg.setAttribute('viewBox', `${minx} ${miny} ${maxx - minx} ${maxy - miny}`);
-  svg.innerHTML = piso + pared(esquinas[3], esquinas[0]) + pared(esquinas[0], esquinas[1]) + planta + puestos;
+// ---------- caras (textura en el cilindro de la cabeza)
+const PIEL = '#F6C342';
+const caras = {};
+function cara(st, parpadeo) {
+  const k = st + (parpadeo ? '-p' : '');
+  if (caras[k]) return caras[k];
+  const c = document.createElement('canvas'); c.width = 512; c.height = 140;
+  const g = c.getContext('2d');
+  g.fillStyle = PIEL; g.fillRect(0, 0, 512, 140);
+  g.fillStyle = g.strokeStyle = '#1b1b1b'; g.lineCap = 'round';
+  const cx = 256, ey = 56;
+  const cerrados = parpadeo || st === 'descanso' || st === 'pausa';
+  for (const dx of [-27, 27]) {
+    if (cerrados) { g.lineWidth = 6; g.beginPath(); g.arc(cx + dx, ey - 4, 9, .15 * Math.PI, .85 * Math.PI); g.stroke(); }
+    else {
+      g.beginPath(); g.ellipse(cx + dx, ey, 8, 11, 0, 0, 7); g.fill();
+      g.fillStyle = '#fff'; g.beginPath(); g.arc(cx + dx + 3, ey - 4, 3, 0, 7); g.fill(); g.fillStyle = '#1b1b1b';
+    }
+  }
+  g.lineWidth = 5;
+  if (st === 'aviso') { g.beginPath(); g.moveTo(cx - 38, ey - 22); g.lineTo(cx - 16, ey - 19); g.moveTo(cx + 16, ey - 25); g.lineTo(cx + 38, ey - 19); g.stroke(); }
+  if (st === 'falla') { g.beginPath(); g.moveTo(cx - 38, ey - 17); g.lineTo(cx - 16, ey - 25); g.moveTo(cx + 16, ey - 25); g.lineTo(cx + 38, ey - 17); g.stroke(); }
+  g.lineWidth = 6; g.beginPath();
+  if (st === 'ok') g.arc(cx, 80, 22, .15 * Math.PI, .85 * Math.PI);
+  else if (st === 'trabajando') g.arc(cx, 84, 13, .2 * Math.PI, .8 * Math.PI);
+  else if (st === 'aviso') { g.moveTo(cx - 13, 98); g.quadraticCurveTo(cx, 92, cx + 13, 98); }
+  else if (st === 'falla') { g.ellipse(cx, 100, 10, 13, 0, 0, 7); g.fill(); }
+  else { g.moveTo(cx - 8, 96); g.lineTo(cx + 8, 96); }
+  g.stroke();
+  if (st === 'ok' || st === 'trabajando') { g.fillStyle = 'rgba(255,120,90,.35)'; for (const dx of [-50, 50]) { g.beginPath(); g.ellipse(cx + dx, 80, 11, 7, 0, 0, 7); g.fill(); } }
+  const t = new THREE.CanvasTexture(c);
+  t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 4;
+  return caras[k] = new THREE.MeshStandardMaterial({map: t, roughness: .35, envMapIntensity: .6});
 }
 
-// ---------- pantalla
+// ---------- pinta de cada empleado: [pelo, color de pelo, remera, pantalón]
+const LOOK = {
+  es: {jefe: ['rodete', '#5B3A1E', '#1F2A44', '#1F2A44'], radar: ['gorra', '#2E4BFF', '#3DA35D', '#3b3b46'], chequeo: ['largo', '#C0392B', '#F2EDE2', '#2C3E50'],
+       voz: ['rulos', '#2A1B12', '#FF8A3D', '#2b2f3a'], animador: ['flequillo', '#E8C15A', '#8E44AD', '#1d1d1d'], control: ['corto', '#3A2A1E', '#16A085', '#33363d'],
+       publicador: ['largo', '#2A1B12', '#FF5FA2', '#2C3E50'], redes: ['corto', '#111', '#111', '#4A6FA5'], carruseles: ['rulos', '#D35400', '#FFD23F', '#2E4BFF'],
+       comentarios: ['rodete', '#8E5A2B', '#7FD3FF', '#2b2f3a'], analista: ['pelado', '#000', '#95A5A6', '#2C3E50'], vigilante: ['gorra', '#1F2A44', '#1F2A44', '#1F2A44'],
+       planb: ['flequillo', '#6D4C41', '#FF4D2E', '#2b2f3a']},
+  en: {jefe: ['largo', '#E8C15A', '#7A1F2B', '#1d1d1d'], radar: ['gorra', '#FF4D2E', '#2E4BFF', '#3b3b46'], chequeo: ['rodete', '#2A1B12', '#F2EDE2', '#2C3E50'],
+       voz: ['corto', '#8E5A2B', '#3DA35D', '#2b2f3a'], animador: ['rulos', '#111', '#FFD23F', '#1d1d1d'], control: ['flequillo', '#C0392B', '#16A085', '#33363d'],
+       publicador: ['largo', '#5B3A1E', '#7FD3FF', '#2C3E50'], redes: ['gorra', '#111', '#111', '#4A6FA5'], comentarios: ['rulos', '#D35400', '#FF5FA2', '#2b2f3a'],
+       analista: ['corto', '#3A2A1E', '#95A5A6', '#2C3E50'], vigilante: ['pelado', '#000', '#1F2A44', '#1F2A44']},
+};
+// dónde se sienta cada uno [x, z]: la jefa en su oficina de vidrio y la vigilancia en su puesto de control
+const LUGAR = {jefe: [-9.6, -5.4], radar: [-3.4, -5.8], chequeo: [.6, -5.8], voz: [4.6, -5.8], animador: [8.6, -5.8],
+  control: [-3.4, -1.4], publicador: [.6, -1.4], redes: [4.6, -1.4], carruseles: [8.6, -1.4],
+  comentarios: [-3.4, 3.0], analista: [.6, 3.0], planb: [4.6, 3.0], vigilante: [-9.6, 3.2]};
+
+function pelo(tipo, color, cabeza) {
+  if (tipo === 'pelado') return;
+  const m = plastico(color);
+  const g = new THREE.Group(); cabeza.add(g);
+  const bola = (r, x, y, z, ws = 16) => { const b = new THREE.Mesh(new THREE.SphereGeometry(r, ws, 12), m); b.position.set(x, y, z); b.castShadow = true; g.add(b); return b; };
+  const casco = new THREE.Mesh(new THREE.SphereGeometry(.215, 24, 12, 0, Math.PI * 2, 0, Math.PI / 2), m);
+  casco.position.y = .13; casco.scale.y = .9; casco.castShadow = true; g.add(casco);
+  if (tipo === 'flequillo') { const f = caja(.36, .09, .1, color, 0, .17, .15, g); f.rotation.x = -.35; }
+  if (tipo === 'largo') { caja(.42, .5, .14, color, 0, -.05, -.13, g); caja(.08, .38, .3, color, -.19, 0, -.02, g); caja(.08, .38, .3, color, .19, 0, -.02, g); }
+  if (tipo === 'rodete') bola(.11, 0, .3, -.1);
+  if (tipo === 'rulos') for (let i = 0; i < 9; i++) { const a = i / 9 * Math.PI * 2; bola(.085, Math.sin(a) * .19, .17 + (i % 2) * .05, Math.cos(a) * .19 - .02, 12); }
+  if (tipo === 'gorra') { cilindro(.225, .225, .1, color, 0, .2, 0, g); const v = caja(.3, .03, .2, color, 0, .17, .2, g); v.rotation.x = .1; }
+  if (tipo === 'corto') { const f = caja(.3, .06, .08, color, .04, .2, .16, g); f.rotation.z = -.2; }
+}
+
+function figura(id, look) {
+  const [tipoPelo, cPelo, cRemera, cPantalon] = look;
+  const raiz = new THREE.Group();
+  const cuerpo = new THREE.Group(); raiz.add(cuerpo);
+  // sentado: muslos hacia adelante, pantorrillas al piso
+  for (const sx of [-.125, .125]) { caja(.23, .2, .5, cPantalon, sx, .55, .22, raiz); caja(.23, .5, .22, cPantalon, sx, .27, .42, raiz); }
+  caja(.5, .14, .3, cPantalon, 0, .6, 0, cuerpo);
+  const torso = new THREE.Mesh(new THREE.CylinderGeometry(.24, .3, .56, 4, 1), plastico(cRemera));
+  torso.rotation.y = Math.PI / 4; torso.scale.set(1.05, 1, .58); torso.position.y = .95; torso.castShadow = true; cuerpo.add(torso);
+  const brazos = [];
+  for (const sx of [-1, 1]) {
+    const hombro = new THREE.Group(); hombro.position.set(sx * .32, 1.14, 0); cuerpo.add(hombro);
+    cilindro(.075, .085, .44, cRemera, 0, -.2, 0, hombro, 14);
+    cilindro(.07, .07, .1, PIEL, 0, -.45, 0, hombro, 14);
+    hombro.rotation.x = -1.05; hombro.rotation.z = sx * .08;
+    brazos.push(hombro);
+  }
+  cilindro(.08, .08, .08, PIEL, 0, 1.27, 0, cuerpo, 12);
+  const cabeza = new THREE.Group(); cabeza.position.y = 1.47; cuerpo.add(cabeza);
+  // thetaStart -π: la mitad de la textura (la cara) queda mirando hacia adelante (+z)
+  const craneo = new THREE.Mesh(new THREE.CylinderGeometry(.19, .19, .32, 32, 1, false, -Math.PI, Math.PI * 2), [cara('ok'), plastico(PIEL), plastico(PIEL)]);
+  craneo.castShadow = true; cabeza.add(craneo);
+  cilindro(.1, .1, .07, PIEL, 0, .19, 0, cabeza, 16);
+  pelo(tipoPelo, cPelo, cabeza);
+  return {raiz, cuerpo, brazos, cabeza, craneo};
+}
+
+function silla(padre, x, z) {
+  const g = new THREE.Group(); g.position.set(x, 0, z); padre.add(g);
+  caja(.58, .08, .56, '#2D2F36', 0, .44, 0, g);
+  caja(.58, .66, .08, '#2D2F36', 0, .8, -.3, g);
+  cilindro(.04, .04, .38, '#888', 0, .22, 0, g, 8);
+  for (let i = 0; i < 5; i++) { const p = caja(.32, .04, .05, '#555', 0, .04, 0, g, false); p.rotation.y = i / 5 * Math.PI * 2; p.translateX(.16); }
+}
+function monitor(padre, x, z, rotY = 0) {
+  const g = new THREE.Group(); g.position.set(x, .84, z); g.rotation.y = rotY; padre.add(g);
+  caja(.3, .03, .2, '#333', 0, .015, 0, g);
+  caja(.05, .26, .05, '#333', 0, .14, -.02, g);
+  caja(.86, .52, .05, '#1E1F24', 0, .5, 0, g);
+  // la pantalla mira al empleado; atrás, una luz chica con el color del estado
+  const pantalla = new THREE.Mesh(new THREE.PlaneGeometry(.78, .44), new THREE.MeshBasicMaterial({color: '#2a2d35'}));
+  pantalla.position.set(0, .5, -.027); pantalla.rotation.y = Math.PI; g.add(pantalla);
+  const luz = new THREE.Mesh(new THREE.CircleGeometry(.05, 16), new THREE.MeshBasicMaterial({color: '#2BD67B'}));
+  luz.position.set(.3, .32, .027); g.add(luz);
+  return [pantalla, luz];
+}
+function planta(padre, x, z, s = 1) {
+  const g = new THREE.Group(); g.position.set(x, 0, z); g.scale.setScalar(s); padre.add(g);
+  cilindro(.28, .22, .5, '#C0583A', 0, .25, 0, g);
+  for (let i = 0; i < 6; i++) { const h = new THREE.Mesh(new THREE.SphereGeometry(.22 + (i % 3) * .05, 12, 10), plastico('#2E9E5B')); h.position.set(Math.sin(i) * .18, .65 + i * .12, Math.cos(i * 1.7) * .16); h.castShadow = true; g.add(h); }
+}
+// lo que tiene cada uno sobre el escritorio
+function utileria(id, g) {
+  if (id === 'radar') { cilindro(.02, .02, .3, '#777', .7, .99, .1, g, 8); const d = new THREE.Mesh(new THREE.SphereGeometry(.2, 16, 8, 0, Math.PI * 2, 0, Math.PI / 2.6), plastico('#E8E8E8', {side: THREE.DoubleSide})); d.position.set(.7, 1.16, .1); d.rotation.x = -2.3; d.castShadow = true; g.add(d); }
+  if (id === 'chequeo') { const r = new THREE.Mesh(new THREE.TorusGeometry(.12, .025, 8, 24), plastico('#333')); r.position.set(.7, .99, .15); r.rotation.x = -1.2; g.add(r); caja(.3, .04, .4, '#FFFFFF', .35, .87, .2, g); }
+  if (id === 'voz') { cilindro(.05, .07, .3, '#333', .7, 1.01, .1, g, 12); const s = new THREE.Mesh(new THREE.SphereGeometry(.09, 16, 12), plastico('#888', {metalness: .6, roughness: .3})); s.position.set(.7, 1.21, .1); g.add(s); }
+  if (id === 'animador') { caja(.36, .22, .04, '#111', .68, .97, .15, g); for (let i = 0; i < 4; i++) caja(.07, .05, .045, '#fff', .55 + i * .09, 1.1, .15, g); }
+  if (id === 'control') { cilindro(.015, .015, .5, '#777', .75, 1.09, .1, g, 8); caja(.25, .16, .02, '#2BD67B', .87, 1.24, .1, g); }
+  if (id === 'publicador' || id === 'redes') { const t = caja(.16, .02, .3, '#111', .62, .87, .2, g); t.rotation.y = .4; }
+  if (id === 'carruseles') ['#FF4D2E', '#FFE14D', '#2E4BFF'].forEach((c, i) => { const f = caja(.32, .22, .02, c, .55 + i * .08, .99 + i * .03, .05 + i * .05, g); f.rotation.y = -.3; });
+  if (id === 'comentarios') { const b = new THREE.Mesh(new THREE.SphereGeometry(.13, 16, 12), plastico('#fff')); b.scale.set(1.3, .9, .4); b.position.set(.7, 1.09, .1); g.add(b); }
+  if (id === 'analista') [.18, .3, .44].forEach((h, i) => caja(.09, h, .09, ['#2E4BFF', '#FFE14D', '#2BD67B'][i], .55 + i * .12, .86 + h / 2, .15, g));
+  if (id === 'planb') { const r = new THREE.Mesh(new THREE.TorusGeometry(.17, .06, 10, 24), plastico('#FF4D2E')); r.position.set(.72, 1.02, .1); r.rotation.y = -.4; r.castShadow = true; g.add(r); }
+}
+
+// ---------- la oficina entera
+let mundo = null, gente = {}, tele = null;
+function construir(of) {
+  if (mundo) { escena.remove(mundo); mundo.traverse(o => { if (o.geometry) o.geometry.dispose(); }); }
+  mundo = new THREE.Group(); escena.add(mundo); gente = {};
+  const en = of.clave === 'en';
+  const marca = en ? '#FF4D2E' : '#2E4BFF';
+  const W = 13, D = 9;
+  // placa base con bloquecitos
+  caja(W * 2 + .6, .2, D * 2 + .6, '#A7ACAE', 0, -.1, 0, mundo, false);
+  const st = [];
+  for (let x = -W + .25; x < W; x += .5) for (let z = -D + .25; z < D; z += .5) {
+    if (x < -6 && z < -2) continue;              // piso de madera de la oficina de la jefa
+    if (x > 6.5 && z > 4.2) continue;            // alfombra del rincón del café
+    st.push([x, .04, z]);
+  }
+  bloquecitos(st, '#A7ACAE', mundo);
+  caja(7, .06, 7, '#C68E5A', -9.5, .03, -5.5, mundo, false);
+  caja(6.5, .06, 4.8, en ? '#7FD3FF' : '#FFE14D', 9.75, .03, 6.6, mundo, false);
+  // paredes: blancas en Buenos Aires, de ladrillo en Nueva York (loft)
+  const cPared = en ? '#B5563C' : '#F3F1EA';
+  caja(W * 2, 2.4, .4, cPared, 0, 1.2, -D - .2, mundo);
+  caja(.4, 2.4, D * 2, cPared, -W - .2, 1.2, 0, mundo);
+  const tope = [];
+  for (let x = -W + .25; x < W; x += .5) tope.push([x, 2.44, -D - .2]);
+  for (let z = -D + .25; z < D; z += .5) tope.push([-W - .2, 2.44, z]);
+  bloquecitos(tope, cPared, mundo, .1);
+  if (en) for (let y = .3; y < 2.4; y += .3) { caja(W * 2, .025, .02, '#8E3F2B', 0, y, -D + .01, mundo, false); caja(.02, .025, D * 2, '#8E3F2B', -W + .01, y, 0, mundo, false); }
+  caja(W * 2, .25, .05, marca, 0, .125, -D + .02, mundo, false);
+  caja(.05, .25, D * 2, marca, -W + .02, .125, 0, mundo, false);
+  // ventanas
+  for (const x of [-.5, 4.5, 9.5]) { caja(3, 1.3, .05, '#BFE3FF', x, 1.35, -D + .03, mundo, false); caja(3.15, .1, .1, '#fff', x, .72, -D + .05, mundo); caja(.08, 1.3, .08, '#fff', x, 1.35, -D + .06, mundo); }
+  // cartel con la marca (pared izquierda) y la tele con los números (pared del fondo)
+  const cartel = document.createElement('canvas'); cartel.width = 512; cartel.height = 128;
+  const cg = cartel.getContext('2d');
+  const tc = new THREE.CanvasTexture(cartel); tc.colorSpace = THREE.SRGBColorSpace;
+  const dibujarCartel = () => {
+    cg.clearRect(0, 0, 512, 128);
+    cg.fillStyle = marca; cg.beginPath(); cg.roundRect(0, 0, 512, 128, 28); cg.fill();
+    cg.fillStyle = '#fff'; cg.font = '800 62px "Bricolage Grotesque", sans-serif'; cg.textAlign = 'center'; cg.textBaseline = 'middle';
+    cg.fillText(en ? 'let me explain.' : 'te lo explico.', 256, 66); tc.needsUpdate = true;
+  };
+  dibujarCartel(); document.fonts && document.fonts.ready.then(dibujarCartel);
+  const pc = new THREE.Mesh(new THREE.PlaneGeometry(3.2, .8), new THREE.MeshBasicMaterial({map: tc, transparent: true}));
+  pc.position.set(-W + .03, 1.6, 4.5); pc.rotation.y = Math.PI / 2; mundo.add(pc);
+  const tv = document.createElement('canvas'); tv.width = 512; tv.height = 288;
+  const tt = new THREE.CanvasTexture(tv); tt.colorSpace = THREE.SRGBColorSpace;
+  caja(2.7, 1.55, .08, '#111', -3.9, 1.45, -D + .06, mundo);
+  const pt = new THREE.Mesh(new THREE.PlaneGeometry(2.55, 1.43), new THREE.MeshBasicMaterial({map: tt}));
+  pt.position.set(-3.9, 1.45, -D + .11); mundo.add(pt);
+  tele = {canvas: tv, tex: tt};
+  // oficina de vidrio de la jefa
+  const vidrio = new THREE.MeshStandardMaterial({color: '#CFEFFF', transparent: true, opacity: .28, roughness: .05, depthWrite: false});
+  caja(.06, 2.2, 5.2, vidrio, -6, 1.1, -6.4, mundo, false);
+  caja(7, 2.2, .06, vidrio, -9.5, 1.1, -2, mundo, false);
+  caja(.1, .1, 5.2, '#555', -6, 2.2, -6.4, mundo); caja(7, .1, .1, '#555', -9.5, 2.2, -2, mundo);
+  caja(.1, 2.2, .1, '#555', -6, 1.1, -2, mundo); caja(.1, 2.2, .1, '#555', -6, 1.1, -3.8, mundo);
+  caja(.06, 1.1, 2.2, '#fff', -W + .05, 1.4, -6.6, mundo);  // pizarrón
+  planta(mundo, -12.2, -8.2); planta(mundo, -6.6, -2.6, .8); planta(mundo, 12.2, -8.2, 1.1); planta(mundo, -12.2, 8.2); planta(mundo, 6.4, 8.2, .8);
+  // rincón del café
+  caja(3.4, .9, .8, '#F3F1EA', 10.8, .45, 8.3, mundo); caja(3.5, .06, .85, '#2D2F36', 10.8, .93, 8.3, mundo);
+  caja(.45, .55, .4, '#333', 9.9, 1.24, 8.3, mundo); cilindro(.08, .07, .14, '#fff', 10.3, 1.03, 8.2, mundo, 12);
+  cilindro(.25, .25, 1.1, '#E8E8E8', 12.4, .55, 6.2, mundo); cilindro(.24, .24, .55, plastico('#9FDBFF', {transparent: true, opacity: .8}), 12.4, 1.38, 6.2, mundo);
+  caja(2.6, .45, 1, '#3C5A99', 8.6, .3, 7.2, mundo); caja(2.6, .6, .25, '#3C5A99', 8.6, .7, 7.6, mundo);
+  caja(.9, .5, .7, '#E9E9E4', 12.2, .25, -3.5, mundo); caja(.7, .04, .3, '#fff', 12.2, .52, -3.3, mundo);  // impresora
+
+  // escritorios y gente
+  for (const e of of.empleados) {
+    const [x, z] = LUGAR[e.id] || [0, 0];
+    const puesto = new THREE.Group(); puesto.position.set(x, 0, z); mundo.add(puesto);
+    const vig = e.id === 'vigilante';
+    const madera = e.id === 'jefe' ? '#6E4A2E' : '#D9A066';
+    caja(vig ? 2.8 : 2, .08, 1, madera, 0, .8, 0, puesto);
+    caja(.08, .76, .9, madera, vig ? -1.32 : -.92, .38, 0, puesto); caja(.08, .76, .9, madera, vig ? 1.32 : .92, .38, 0, puesto);
+    caja(vig ? 2.7 : 1.9, .5, .05, madera, 0, .5, .38, puesto);
+    if (e.id !== 'jefe') {
+      caja(2.3 + (vig ? .8 : 0), 1.35, .07, '#7F8C99', 0, .68, -1.45, puesto);
+      caja(.07, 1.35, 1.5, '#7F8C99', vig ? -1.6 : -1.16, .68, -.72, puesto);
+      caja(2.32 + (vig ? .8 : 0), .06, .1, '#5C6773', 0, 1.38, -1.45, puesto);
+    }
+    caja(.7, .03, .22, '#E8E8E8', 0, .855, -.18, puesto);
+    const pantallas = [monitor(puesto, -.45, .12, -.25)];
+    if (vig) { pantallas.push(monitor(puesto, .45, .12, .25)); pantallas.push(monitor(puesto, -1.15, .1, -.6)); }
+    if (e.id === 'jefe') planta(puesto, .8, .1, .45);
+    utileria(e.id, puesto);
+    silla(puesto, 0, -.78);
+    const f = figura(e.id, (LOOK[of.clave] || LOOK.es)[e.id] || ['corto', '#333', '#888', '#333']);
+    f.raiz.position.set(0, 0, -.78);
+    puesto.add(f.raiz);
+    const anillo = new THREE.Mesh(new THREE.RingGeometry(1.1, 1.35, 40), new THREE.MeshBasicMaterial({color: '#FF4D2E', transparent: true, opacity: 0, depthWrite: false}));
+    anillo.rotation.x = -Math.PI / 2; anillo.position.set(0, .1, -.3); puesto.add(anillo);
+    puesto.traverse(o => { o.userData.id = e.id; });
+    gente[e.id] = {...f, puesto, pantallas, anillo, fase: Math.random() * 10, proximoParpadeo: 2 + Math.random() * 4, parpadeo: 0, st: null};
+  }
+  $('#etiquetas').innerHTML = of.empleados.map(e => `<div class="chip" data-id="${e.id}"><span class="globo"></span><span class="nombre">${esc(e.nombre)}</span></div>`).join('');
+  vistaGeneral(true);
+}
+
+function pintarTele(of) {
+  if (!tele) return;
+  const g = tele.canvas.getContext('2d');
+  g.fillStyle = '#0E1430'; g.fillRect(0, 0, 512, 288);
+  g.fillStyle = '#7FD3FF'; g.font = '700 22px "JetBrains Mono", monospace'; g.fillText('@' + of.usuario, 28, 46);
+  g.fillStyle = '#fff'; g.font = '800 86px "Bricolage Grotesque", sans-serif'; g.fillText(String(of.seguidores ?? '—'), 28, 150);
+  g.font = '700 22px "JetBrains Mono", monospace'; g.fillStyle = '#9aa3c7'; g.fillText('seguidores', 30, 184);
+  g.fillStyle = of.listos > 2 ? '#2BD67B' : '#FFE14D'; g.fillText(`${of.listos} videos listos · ${String(of.dias).replace('.', ',')} días`, 28, 236);
+  tele.tex.needsUpdate = true;
+}
+
+function aplicarEstados(of) {
+  for (const e of of.empleados) {
+    const p = gente[e.id]; if (!p) continue;
+    const st = estadoReal(e);
+    p.st = st;
+    p.craneo.material[0] = cara(st);
+    for (const [pantalla, luz] of p.pantallas) {
+      pantalla.material.color.set(st === 'descanso' || st === 'pausa' ? '#2a2d35' : '#BFE3FF');
+      luz.material.color.set(COLOR[st]);
+    }
+    const globo = document.querySelector(`.chip[data-id="${e.id}"] .globo`);
+    if (!globo) continue;
+    globo.className = 'globo' + ({aviso: ' ojo', falla: ' falla', ok: ' ok', descanso: ' zz', pausa: ' zz'}[st] || '');
+    globo.innerHTML = st === 'trabajando' ? '<i class="d"></i><i class="d"></i><i class="d"></i>' : {falla: '!', aviso: '!', ok: '✓', pausa: '⏸'}[st] || 'z z';
+  }
+}
+
+// ---------- cámara
+let viaje = null;
+const casa = () => {
+  const a = innerWidth / innerHeight;
+  const d = a > 1.25 ? 40 : a > .8 ? 48 : 68;
+  return {pos: new THREE.Vector3(.62, .66, .78).normalize().multiplyScalar(d).add(new THREE.Vector3(0, 0, 1)), mira: new THREE.Vector3(a > .8 ? 0 : -1.6, 0, 1)};
+};
+function volar(pos, mira, rapido) {
+  if (rapido) { camara.position.copy(pos); controles.target.copy(mira); controles.update(); viaje = null; return; }
+  viaje = {t0: performance.now(), p0: camara.position.clone(), m0: controles.target.clone(), p1: pos, m1: mira};
+}
+function vistaGeneral(rapido) { const c = casa(); volar(c.pos, c.mira, rapido); }
+function enfocar(id) {
+  const p = gente[id]; if (!p) return;
+  const base = new THREE.Vector3(); p.puesto.getWorldPosition(base);
+  const mira = base.clone().add(new THREE.Vector3(0, 1.1, -.4));
+  const a = innerWidth / innerHeight;
+  volar(mira.clone().add(new THREE.Vector3(.55, .55, 1).normalize().multiplyScalar(a < .8 ? 9 : 7)), mira);
+}
+
+// ---------- animación
+const reloj = new THREE.Clock();
+const v = new THREE.Vector3();
+function cuadro() {
+  requestAnimationFrame(cuadro);
+  const dt = Math.min(reloj.getDelta(), .05), t = reloj.elapsedTime;
+  if (viaje) {  // por reloj real: si el celular va lento, igual llega en 0,9 s
+    const u = Math.min(1, (performance.now() - viaje.t0) / 900), k = 1 - Math.pow(1 - u, 3);
+    camara.position.lerpVectors(viaje.p0, viaje.p1, k); controles.target.lerpVectors(viaje.m0, viaje.m1, k);
+    if (u >= 1) viaje = null;
+  }
+  correrVista(dt);
+  controles.update();
+  for (const id in gente) {
+    const p = gente[id], st = p.st, f = t + p.fase;
+    const [bi, bd] = p.brazos;
+    p.cuerpo.position.x = 0; p.cuerpo.rotation.x = 0; p.cabeza.rotation.set(0, 0, 0);
+    if (st === 'trabajando') {          // tipea
+      bi.rotation.x = -1.15 + Math.sin(f * 18) * .12; bd.rotation.x = -1.15 + Math.sin(f * 18 + 1.6) * .12;
+      p.cabeza.rotation.x = .12 + Math.sin(f * 2) * .03; p.cabeza.rotation.y = -.25;
+    } else if (st === 'falla') {        // brazos arriba, pide ayuda
+      bi.rotation.x = -2.9 + Math.sin(f * 9) * .25; bd.rotation.x = -2.9 + Math.sin(f * 9 + 2) * .25;
+      p.cuerpo.position.x = Math.sin(f * 30) * .015; p.cabeza.rotation.z = Math.sin(f * 4) * .12;
+    } else if (st === 'aviso') {        // se rasca la cabeza
+      bi.rotation.x = -1.05; bd.rotation.x = -2.6 + Math.sin(f * 6) * .08;
+      p.cabeza.rotation.z = .16; p.cabeza.rotation.y = Math.sin(f * .7) * .3;
+    } else if (st === 'descanso' || st === 'pausa') {   // tirado para atrás
+      bi.rotation.x = -.15; bd.rotation.x = -.15;
+      p.cuerpo.rotation.x = -.18 + Math.sin(f * 1.2) * .02; p.cabeza.rotation.x = .3;
+    } else {                            // al día: mira alrededor
+      bi.rotation.x = -1.05; bd.rotation.x = -1.05 + Math.sin(f * .9) * .05;
+      p.cabeza.rotation.y = Math.sin(f * .45) * .45; p.cabeza.rotation.x = Math.sin(f * .3) * .05;
+    }
+    p.anillo.material.opacity = st === 'falla' ? .25 + .3 * (.5 + .5 * Math.sin(t * 5)) : 0;
+    p.proximoParpadeo -= dt;
+    if (p.proximoParpadeo <= 0 && st !== 'descanso' && st !== 'pausa') { p.parpadeo = .12; p.proximoParpadeo = 2.5 + Math.random() * 4; p.craneo.material[0] = cara(st, true); }
+    if (p.parpadeo > 0) { p.parpadeo -= dt; if (p.parpadeo <= 0) p.craneo.material[0] = cara(st); }
+  }
+  renderer.render(escena, camara);
+  for (const el of document.querySelectorAll('.chip')) {
+    const p = gente[el.dataset.id]; if (!p) continue;
+    p.cabeza.getWorldPosition(v); v.y += .5; v.project(camara);
+    const fuera = v.z > 1 || Math.abs(v.x) > 1.1 || Math.abs(v.y) > 1.1;
+    el.style.display = fuera ? 'none' : '';
+    if (!fuera) el.style.transform = `translate(${(v.x + 1) / 2 * innerWidth}px,${(1 - v.y) / 2 * innerHeight}px) translate(-50%,-100%)`;
+    el.classList.toggle('sel', el.dataset.id === abierto);
+  }
+}
+
+// corrimiento de la vista: la oficina se corre para no quedar tapada por la tarjeta "En producción" (izquierda)
+// o por el panel abierto (derecha en la compu, abajo en el celular)
+const corrido = {x: 0, y: 0};
+function correrVista(dt) {
+  const ancho = innerWidth > 760, panel = $('#panel').classList.contains('abierto');
+  const x = ancho ? (panel ? 230 : -150) : 0, y = !ancho && panel ? innerHeight * .3 : 0;
+  const k = dt === undefined ? 1 : Math.min(1, dt * 6);
+  corrido.x += (x - corrido.x) * k; corrido.y += (y - corrido.y) * k;
+  camara.setViewOffset(innerWidth, innerHeight, corrido.x, corrido.y, innerWidth, innerHeight);
+  camara.updateProjectionMatrix();
+}
+function medir() {
+  renderer.setSize(innerWidth, innerHeight, false);
+  camara.aspect = innerWidth / innerHeight;
+  correrVista();
+}
+addEventListener('resize', () => { medir(); if (!abierto) vistaGeneral(true); });
+
+// tocar a alguien en 3D (un toque, no un arrastre)
+const rayo = new THREE.Raycaster(), puntero = new THREE.Vector2();
+let apretado = null;
+lienzo.addEventListener('pointerdown', ev => { apretado = [ev.clientX, ev.clientY]; });
+lienzo.addEventListener('pointerup', ev => {
+  if (!apretado || Math.hypot(ev.clientX - apretado[0], ev.clientY - apretado[1]) > 6) return;
+  const id = quienEsta(ev);
+  if (id) abrir(id); else if (abierto) cerrar();
+});
+lienzo.addEventListener('pointermove', ev => { if (ev.pointerType === 'mouse' && !ev.buttons) lienzo.style.cursor = quienEsta(ev) ? 'pointer' : 'grab'; });
+function quienEsta(ev) {
+  if (!mundo) return null;
+  puntero.set(ev.clientX / innerWidth * 2 - 1, -(ev.clientY / innerHeight) * 2 + 1);
+  rayo.setFromCamera(puntero, camara);
+  const h = rayo.intersectObjects(mundo.children, true).find(x => x.object.userData.id);
+  return h ? h.object.userData.id : null;
+}
+
+// ================= pantalla (HUD)
+const PASOS = ['Idea', 'Guion y chequeo', 'Voz', 'Render', 'Listo', 'Publicado'];
+function lineaDe(item, of) {
+  const N = id => (of.empleados.find(e => e.id === id) || {}).nombre || id;
+  return {
+    idea: [1, `elegido · espera el turno de ${N('jefe')}`],
+    produccion: [2, `${N('jefe')} lo produce con ${N('chequeo')} y ${N('voz')}`],
+    render: [4, `${N('animador')} lo renderiza`],
+    listo: [5, `${N('publicador')} lo publica en el próximo turno`],
+    publicado: [6, `publicado por ${N('publicador')}`],
+    apartado: [3, `frenado: ${item.motivo || 'revisar'}`],
+  }[item.estado] || [1, item.estado];
+}
+function tarjetaLinea(of, cuantos = 99) {
+  return (of.linea || []).slice(0, cuantos).map(it => {
+    const [n, txt] = lineaDe(it, of);
+    const tono = it.estado === 'apartado' ? ' rojo' : it.estado === 'publicado' ? ' verde' : '';
+    return `<div class="paso"><b>${esc(it.tema || it.slug)}</b><div class="barra${tono}">${PASOS.map((_, i) => `<i class="${i < n ? 'si' : ''}"></i>`).join('')}</div>
+      <small>Paso ${n} de ${PASOS.length} · ${esc(txt)}</small></div>`;
+  }).join('') || '<div class="paso"><small>Nada en la línea por ahora.</small></div>';
+}
+
+let construida = null;
 function pintar() {
   const hay = datos && datos.oficinas && datos.oficinas.length;
-  $('#conectar').classList.toggle('oculto', !!hay || !!token);
-  $('#b-token').textContent = token ? '🔑 Clave' : '🔑 Conectar';
   $('#b-pausa').disabled = !token;
-  $('#b-pausa').textContent = pausado ? '▶ Reanudar todo' : '⏸ Pausar todo';
-  if (!hay) { $('#sub').textContent = token ? 'cargando…' : 'falta conectar con GitHub'; if (!token) $('#conectar').classList.remove('oculto'); return; }
+  $('#b-pausa').innerHTML = pausado ? '▶<span class="t"> Reanudar</span>' : '⏸<span class="t"> Pausar todo</span>';
+  $('#b-token').innerHTML = '🔑<span class="t"> ' + (token ? 'Clave' : 'Conectar') + '</span>';
+  if (!hay) { $('#sub').textContent = token ? 'cargando…' : 'falta conectar con GitHub'; $('#cargando').textContent = token ? 'cargando…' : 'conectá la oficina con 🔑'; if (!token) $('#conectar').style.display = 'block'; return; }
+  $('#cargando').classList.add('oculto');
   if (!datos.oficinas.some(o => o.clave === actual)) actual = datos.oficinas[0].clave;
-  const of = datos.oficinas.find(o => o.clave === actual);
+  const of = oficinaActual();
   document.body.dataset.of = actual;
-  $('#sub').textContent = `estado de ${hace(fecha(datos.actualizado))} · ${fuente}` + (corridas.length ? ' · corridas de GitHub en vivo' : '');
-  $('#pestanas').innerHTML = datos.oficinas.map(o => {
-    const sts = o.empleados.map(e => estadoReal(e));
-    const peor = ['falla', 'aviso', 'trabajando'].map(s => sts.filter(x => x === s).length);
-    return `<button class="sticker pestana" role="tab" aria-selected="${o.clave === actual}" data-of="${o.clave}">
-      <span class="avatar" style="background:${o.clave === 'es' ? 'var(--azul)' : 'var(--rojo)'};color:#fff;font-family:var(--m);font-weight:700;font-size:15px">${o.clave.toUpperCase()}</span>
-      <span><b>Oficina ${esc(o.ciudad)}</b><small>@${esc(o.usuario)} · ${o.empleados.length} empleados</small></span>
-      <span class="pts" title="${peor[0]} fallas · ${peor[1]} avisos · ${peor[2]} trabajando">${sts.map(s => `<i style="background:${COLOR[s]}"></i>`).join('')}</span></button>`;
+  $('#sub').textContent = `@${of.usuario} · estado de ${hace(fecha(datos.actualizado))} · ${fuente}`;
+  $('#selector').innerHTML = datos.oficinas.map(o => {
+    const sts = o.empleados.map(estadoReal);
+    const peor = sts.includes('falla') ? 'falla' : sts.includes('aviso') ? 'aviso' : sts.includes('trabajando') ? 'trabajando' : 'ok';
+    return `<button role="tab" aria-selected="${o.clave === actual}" data-of="${o.clave}"><span class="pt" style="background:${COLOR[peor]}"></span>${esc(o.ciudad)}</button>`;
   }).join('');
-  const pend = (of.pendientes || []);
-  $('#paravos').classList.toggle('oculto', !pend.length && !of.pausa);
-  $('#paravos').innerHTML = `<h2>📌 Para vos</h2><ul>${of.pausa ? '<li><b>El sistema está en pausa</b>: nadie produce ni publica hasta que lo reanudes.</li>' : ''}${pend.map(p => `<li>${esc(p)}</li>`).join('')}</ul>`;
-  $('#resumen').innerHTML = [
-    ['Seguidores', of.seguidores ?? '—', 'en Instagram'],
-    ['Videos listos', of.listos, `≈ ${String(of.dias).replace('.', ',')} días de colchón`],
-    ['Próximo', of.proximo || '—', 'sale en el próximo turno'],
-    ['Publicados', of.publicados, 'reels desde el arranque'],
-  ].map(([a, b, c]) => `<div class="sticker dato"><small>${a}</small><b style="${String(b).length > 12 ? 'font-size:16px;word-break:break-all' : ''}">${esc(b)}</b><span>${c}</span></div>`).join('');
-  $('#etq').textContent = '// oficina ' + of.ciudad.toLowerCase();
-  escena(of);
-  $('#equipo').innerHTML = of.empleados.map(e => {
+  if (construida !== of.clave) { construir(of); construida = of.clave; }
+  aplicarEstados(of);
+  pintarTele(of);
+  const pend = (of.pausa ? ['El sistema está en pausa: nadie produce ni publica hasta que lo reanudes.'] : []).concat(of.pendientes || []);
+  $('#paravos').style.display = pend.length ? 'inline-flex' : 'none';
+  $('#paravos').querySelector('b').textContent = pend.length;
+  $('#paravos').querySelector('span').textContent = pend.length === 1 ? 'te toca 1 cosa' : `te tocan ${pend.length} cosas`;
+  $('#produccion').innerHTML = `<h2>En producción <span>${(of.linea || []).length}</span></h2>${tarjetaLinea(of, 6)}`;
+  $('#dock').innerHTML = of.empleados.map(e => {
     const st = estadoReal(e);
-    return `<button class="sticker tarjeta" data-id="${e.id}"><span class="avatar">${e.emoji}<span class="pt" style="background:${COLOR[st]}"></span></span>
-      <span><b>${esc(e.nombre)}</b> <span class="pill c-${st}">${PALABRA[st]}</span><small>${esc(e.puesto)} · ${hace(fecha(e.cuando))}</small><p>${esc(st === 'trabajando' && e.estado !== 'trabajando' ? 'Trabajando ahora en GitHub.' : e.resumen)}</p></span></button>`;
-  }).join('');
-  $('#ultimas').innerHTML = `<h2>Últimas publicaciones</h2><ul>${(of.ultimas || []).map(u => `<li>${esc(u.cuando.replace('T', ' '))} UTC · ${u.link ? `<a href="${esc(u.link)}" target="_blank" rel="noopener">${esc(u.slug)}</a>` : esc(u.slug)}</li>`).join('') || '<li>Todavía nada</li>'}</ul>`;
+    return `<button class="av${abierto === e.id ? ' sel' : ''}" data-id="${e.id}" title="${esc(e.nombre + ' · ' + e.puesto + ' · ' + PALABRA[st])}"><span class="cara">${e.emoji}<span class="pt" style="background:${COLOR[st]}"></span></span><small>${esc(e.nombre)}</small></button>`;
+  }).join('') + `<span class="sep"></span><button class="av txt" data-vista="tareas"><span class="cara">📋</span><small>Tareas</small></button><button class="av txt" data-vista="paravos"><span class="cara">📌</span><small>Para vos</small></button>`;
   if (abierto) abrir(abierto, true);
-  else if (desdeLink) { const id = desdeLink; desdeLink = null; abrir(id); }
+  else if (desdeLink) { const id = desdeLink; desdeLink = null; setTimeout(() => abrir(id), 500); }
+}
+
+function abrirPanel(html) {
+  $('#panel').innerHTML = `<button class="btn cerrar" id="b-cerrar" aria-label="Cerrar">✕</button>` + html;
+  $('#panel').classList.add('abierto'); document.body.classList.add('con-panel');
+  if (innerWidth <= 760) $('#velo').classList.add('abierto');
+  $('#b-cerrar').onclick = cerrar;
+}
+function abrirVista(cual) {
+  const of = oficinaActual(); if (!of) return;
+  abierto = null; vistaGeneral();
+  document.querySelectorAll('.av').forEach(b => b.classList.toggle('sel', b.dataset.vista === cual));
+  if (cual === 'tareas') {
+    abrirPanel(`<h2>Tareas</h2><p class="nota">La línea de producción de @${esc(of.usuario)}: en qué paso va cada video y quién lo tiene.</p>
+      <div class="datos"><div><small>listos</small><b>${of.listos}</b></div><div><small>colchón</small><b>${String(of.dias).replace('.', ',')} días</b></div>
+      <div><small>publicados</small><b>${of.publicados}</b></div><div><small>seguidores</small><b>${of.seguidores ?? '—'}</b></div></div>
+      <h3>En producción</h3>${tarjetaLinea(of)}
+      <h3>Últimas publicaciones</h3><ul>${(of.ultimas || []).map(u => `<li>${u.link ? `<a class="link" href="${esc(u.link)}" target="_blank" rel="noopener">${esc(u.slug)}</a>` : esc(u.slug)} · ${esc(u.cuando.replace('T', ' '))} UTC</li>`).join('') || '<li>Todavía nada</li>'}</ul>`);
+  } else {
+    const pend = (of.pausa ? ['El sistema está en pausa: nadie produce ni publica hasta que lo reanudes.'] : []).concat(of.pendientes || []);
+    const ojo = of.empleados.filter(e => ['falla', 'aviso'].includes(estadoReal(e)));
+    abrirPanel(`<h2>Para vos</h2><p class="nota">Lo que necesita tu "va" o tu mirada en la oficina de ${esc(of.ciudad)}.</p>
+      <h3>Te toca</h3><ul>${pend.map(p => `<li>${esc(p)}</li>`).join('') || '<li>Nada: todo en orden ✓</li>'}</ul>
+      <h3>Quién está con problemas</h3><ul>${ojo.map(e => `<li><a class="link" href="#${of.clave}/${e.id}" data-id="${e.id}">${esc(e.nombre)}</a> (${esc(e.puesto)}): ${esc(e.resumen)}</li>`).join('') || '<li>Nadie ✓</li>'}</ul>`);
+  }
 }
 
 function abrir(id, refresco) {
-  const of = datos.oficinas.find(o => o.clave === actual), e = of && of.empleados.find(x => x.id === id);
+  const of = oficinaActual(), e = of && of.empleados.find(x => x.id === id);
   if (!e) return cerrar();
+  if (abierto !== id || !refresco) enfocar(id);
   abierto = id;
+  document.querySelectorAll('.av').forEach(b => b.classList.toggle('sel', b.dataset.id === id));
   const st = estadoReal(e), {ahora, ultima} = enVivo(e.id);
   const flujo = e.relanzar.flujo;
   const gh = ahora ? `🔵 Trabajando ahora: <a href="${esc(ahora.html_url)}" target="_blank" rel="noopener">ver la corrida</a> (arrancó ${hace(new Date(ahora.run_started_at || ahora.created_at))}).`
     : ultima ? `${ultima.conclusion === 'success' ? '✅' : '❌'} Última corrida en GitHub ${ultima.conclusion === 'success' ? 'bien' : 'falló'}, ${hace(new Date(ultima.updated_at))}: <a href="${esc(ultima.html_url)}" target="_blank" rel="noopener">ver</a>.`
     : token ? 'Sin corridas recientes en GitHub.' : 'Conectá la clave para ver las corridas en vivo.';
   const pedido = e.id === 'jefe' ? `<h3>Dejale un pedido</h3>
-    <textarea id="t-pedido" placeholder="${actual === 'es' ? 'Ej.: un video sobre por qué se empañan los anteojos con el barbijo…' : 'Ej.: a video on why your ears pop on a plane…'}"></textarea>
+    <textarea id="t-pedido" placeholder="${actual === 'es' ? 'Ej.: un video sobre por qué se empañan los anteojos…' : 'Ej.: a video on why your ears pop on a plane…'}"></textarea>
     <div class="nota">Va a "Pedidos de Mateo" de ${actual === 'es' ? 'videos/ideas.md' : 'videos/en/ideas.md'}: tiene prioridad y se produce en el próximo turno aunque sobren videos.</div>
-    <div class="acciones"><button class="btn primario" id="b-pedido" ${token ? '' : 'disabled'}>Mandar pedido</button></div>` : '';
-  $('#panel').innerHTML = `<button class="btn cerrar" id="b-cerrar" aria-label="Cerrar">✕</button>
-    <div class="cab"><span class="avatar">${e.emoji}<span class="pt" style="background:${COLOR[st]}"></span></span>
+    <div class="acciones"><button class="btn primario" id="b-pedido" ${token ? '' : 'disabled'}>Mandar pedido</button></div>
+    <h3>En producción</h3>${tarjetaLinea(of, 5)}` : '';
+  const scroll = $('#panel').scrollTop, texto = $('#t-pedido') ? $('#t-pedido').value : '';
+  abrirPanel(`<div class="cab"><span class="cara">${e.emoji}<span class="pt" style="background:${COLOR[st]}"></span></span>
       <div><h2>${esc(e.nombre)}</h2><div style="font-family:var(--m);font-size:12px;color:var(--suave)">${esc(e.puesto)}</div></div></div>
     <span class="pill c-${st}">${PALABRA[st]}</span> <span style="font-size:13px;color:var(--suave)">· último movimiento ${hace(fecha(e.cuando))}</span>
-    <p class="res">${esc(e.resumen)}</p>
+    <p class="res">${esc(st === 'trabajando' && e.estado !== 'trabajando' ? 'Trabajando ahora en GitHub. ' + e.resumen : e.resumen)}</p>
     ${e.arreglo ? `<div class="arreglo"><b>Cómo se arregla:</b> ${esc(e.arreglo)}</div>` : ''}
     <h3>En GitHub</h3><div class="gh">${gh}</div>
     <div class="acciones"><button class="btn primario" id="b-relanzar" ${token ? '' : 'disabled'}>↻ Relanzar</button>
@@ -379,16 +803,19 @@ function abrir(id, refresco) {
     ${e.detalle.length ? `<h3>Registro</h3><pre class="registro">${esc(e.detalle.join('\n'))}</pre>` : ''}
     ${pedido}
     <h3>Qué hace</h3><p style="margin:0;font-size:14px">${esc(e.hace_que)}</p>
-    <p class="nota">Trabaja: ${esc(e.horario)} (hora de Argentina salvo que diga otra cosa).</p>`;
-  $('#panel').classList.add('abierto'); $('#velo').classList.add('abierto');
-  $('#b-cerrar').onclick = cerrar;
+    <p class="nota">Trabaja: ${esc(e.horario)} (hora de Argentina salvo que diga otra cosa).</p>`);
+  if (refresco) { $('#panel').scrollTop = scroll; if ($('#t-pedido')) $('#t-pedido').value = texto; }
   $('#b-relanzar').onclick = () => relanzar(e, of);
   if ($('#b-pedido')) $('#b-pedido').onclick = () => mandarPedido(of);
-  if (!refresco) $('#b-cerrar').focus();
 }
-function cerrar() { abierto = null; $('#panel').classList.remove('abierto'); $('#velo').classList.remove('abierto'); }
+function cerrar() {
+  const habia = abierto; abierto = null;
+  $('#panel').classList.remove('abierto'); $('#velo').classList.remove('abierto'); document.body.classList.remove('con-panel');
+  document.querySelectorAll('.av').forEach(b => b.classList.remove('sel'));
+  if (habia) vistaGeneral();
+}
 
-// ---------- acciones
+// ================= acciones
 async function relanzar(e, of) {
   const {flujo, inputs} = e.relanzar;
   if (!confirm(`¿Relanzar a ${e.nombre}? Corre «${FLUJO[flujo]}»${inputs.modo ? ' (' + inputs.modo + ')' : ''} en GitHub.`)) return;
@@ -429,34 +856,34 @@ async function alternarPausa() {
     cargar();
   } catch (err) { toast('No se pudo: ' + err.message); }
 }
+let relojToast;
+function toast(t) { const el = $('#toast'); el.textContent = t; el.classList.add('ver'); clearTimeout(relojToast); relojToast = setTimeout(() => el.classList.remove('ver'), 4500); }
 
-let reloj;
-function toast(t) { const el = $('#toast'); el.textContent = t; el.classList.add('ver'); clearTimeout(reloj); reloj = setTimeout(() => el.classList.remove('ver'), 4500); }
-
-// ---------- eventos
+// ================= eventos
 document.addEventListener('click', ev => {
-  const p = ev.target.closest('[data-of]');
-  if (p && p.classList.contains('pestana')) { actual = p.dataset.of; try { localStorage.setItem('oficina_actual', actual); } catch (e) {} cerrar(); pintar(); return; }
-  const q = ev.target.closest('.puesto,.tarjeta');
-  if (q) abrir(q.dataset.id);
+  const s = ev.target.closest('#selector [data-of]');
+  if (s) { actual = s.dataset.of; guardado('oficina_actual', actual); cerrar(); pintar(); return; }
+  const vista = ev.target.closest('[data-vista]');
+  if (vista) return abrirVista(vista.dataset.vista);
+  const q = ev.target.closest('.chip,.av,a[data-id]');
+  if (q && q.dataset.id) { ev.preventDefault(); abrir(q.dataset.id); }
 });
-document.addEventListener('keydown', ev => {
-  if (ev.key === 'Escape') cerrar();
-  const q = ev.target.closest && ev.target.closest('.puesto');
-  if (q && (ev.key === 'Enter' || ev.key === ' ')) { ev.preventDefault(); abrir(q.dataset.id); }
-});
+document.addEventListener('keydown', ev => { if (ev.key === 'Escape') cerrar(); });
 $('#velo').onclick = cerrar;
+$('#paravos').onclick = () => abrirVista('paravos');
+$('#b-vista').onclick = () => { cerrar(); vistaGeneral(); };
 $('#b-actualizar').onclick = () => { toast('Actualizando…'); cargar(); };
 $('#b-pausa').onclick = alternarPausa;
-$('#b-token').onclick = () => { $('#conectar').classList.toggle('oculto'); $('#i-token').focus(); };
-$('#b-cancelar').onclick = () => $('#conectar').classList.add('oculto');
+$('#b-token').onclick = () => { const c = $('#conectar'); c.style.display = c.style.display === 'block' ? 'none' : 'block'; $('#i-token').focus(); };
+$('#b-cancelar').onclick = () => { $('#conectar').style.display = 'none'; };
 $('#b-guardar').onclick = () => {
-  token = $('#i-token').value.trim();
-  try { token ? localStorage.setItem('oficina_token', token) : localStorage.removeItem('oficina_token'); } catch (e) {}
-  $('#i-token').value = '';
-  $('#conectar').classList.add('oculto');
+  token = $('#i-token').value.trim(); guardado('oficina_token', token);
+  $('#i-token').value = ''; $('#conectar').style.display = 'none';
   cargar();
 };
+
+medir();
+cuadro();
 cargar();
 setInterval(() => { if (token && !document.hidden) cargar(); else if (datos) pintar(); }, 60000);
 </script>

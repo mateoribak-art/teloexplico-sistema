@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T14:21",
+ "actualizado": "2026-10-27T14:38",
  "oficinas": [
   {
    "clave": "es",
@@ -41,6 +41,64 @@
      "slug": "007-bts-13-anios",
      "link": "https://www.instagram.com/reel/De7MzHtErE_/",
      "cuando": "2026-10-25T17:04"
+    }
+   ],
+   "linea": [
+    {
+     "slug": "018-rayo-trueno",
+     "tema": "¿A qué distancia está la tormenta? Contar segundos entre rayo y trueno",
+     "estado": "listo",
+     "cuando": "2026-10-26T18:03",
+     "motivo": "producción nocturna"
+    },
+    {
+     "slug": "012-lavar-pollo",
+     "tema": "¿Hay que lavar el pollo crudo antes de cocinarlo?",
+     "estado": "listo",
+     "cuando": "2026-10-25T11:06",
+     "motivo": "producción nocturna"
+    },
+    {
+     "slug": "019-sensacion-termica",
+     "tema": "¿Por qué la sensación térmica es más alta que la temperatura? Humedad y sudor",
+     "estado": "listo",
+     "cuando": "2026-10-26T18:14",
+     "motivo": "producción nocturna"
+    },
+    {
+     "slug": "015-descongelar-mesada",
+     "tema": "Descongelar la carne arriba de la mesada: por qué no y cómo hacerlo seguro (USDA)",
+     "estado": "listo",
+     "cuando": "2026-10-25T16:03",
+     "motivo": "producción nocturna"
+    },
+    {
+     "slug": "005-granizo-calor",
+     "tema": "¿Por qué cae granizo justo cuando hace calor?",
+     "estado": "apartado",
+     "cuando": "2026-10-25T19:32",
+     "motivo": "la voz no coincide con el guion (88%)"
+    },
+    {
+     "slug": "013-alcohol-calor",
+     "tema": "Tomar alcohol da calor: es al revés, el cuerpo pierde temperatura",
+     "estado": "apartado",
+     "cuando": "2026-10-25T15:38",
+     "motivo": "Chequeo rechazado 2 veces: mecanismo de pérdida de calor solo probable en tema de salud (evidencia mixta)"
+    },
+    {
+     "slug": "007-bts-13-anios",
+     "tema": "¿Por qué la ARMY argentina esperó 13 años para ver a BTS?",
+     "estado": "publicado",
+     "cuando": "2026-10-25T14:04",
+     "motivo": "https://www.instagram.com/reel/De7MzHtErE_/"
+    },
+    {
+     "slug": "016-el-nino-clima",
+     "tema": "¿Por qué este año llueve así? El Niño y el pronóstico oficial para el verano",
+     "estado": "publicado",
+     "cuando": "2026-10-27T12:32",
+     "motivo": "https://www.instagram.com/reel/DfAL7kFCkeY/"
     }
    ],
    "empleados": [
@@ -228,7 +286,7 @@
      "estado": "ok",
      "resumen": "Último: 016-el-nino-clima.",
      "cuando": "2026-10-27T12:34",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "26/10 19:32 016-el-nino-clima apartado: la voz no coincide con el guion (91%)",
       "26/10 19:34 003-vuelta-carne publicado: https://www.instagram.com/reel/De-XT1miA1a/",
@@ -263,7 +321,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-27T12:34",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "25/10 19:36 001-heladera no se pudo armar el paquete para TikTok/YouTube: <urlopen error [Errno 101] Network is unreachable>",
       "26/10 12:35 002-corte-digestion en la bandeja de TikTok",
@@ -293,7 +351,7 @@
      "estado": "ok",
      "resumen": "1 listo(s) para las 16:00.",
      "cuando": "2026-10-26T23:24",
-     "hace": "hace 14 h",
+     "hace": "hace 15 h",
      "detalle": [
       "2026-10-26 23:00 bts: listo hecho en sesión",
       "2026-10-26 23:00 heladera: listo hecho en sesión",
@@ -387,7 +445,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-27T14:21",
+     "cuando": "2026-10-27T14:38",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -434,6 +492,22 @@
      "slug": "en-001-phone-rice",
      "link": "https://www.instagram.com/reel/DfAMRQ9E1qI/",
      "cuando": "2026-10-27T15:35"
+    }
+   ],
+   "linea": [
+    {
+     "slug": "en-002-dst-farmers",
+     "tema": "Is daylight saving time for farmers? (fall back Nov 1)",
+     "estado": "listo",
+     "cuando": "2026-10-27T12:49",
+     "motivo": "producción nocturna"
+    },
+    {
+     "slug": "en-001-phone-rice",
+     "tema": "Does rice fix a wet phone? (adapted from 014)",
+     "estado": "publicado",
+     "cuando": "2026-10-27T12:36",
+     "motivo": "https://www.instagram.com/reel/DfAMRQ9E1qI/"
     }
    ],
    "empleados": [
@@ -603,7 +677,7 @@
      "estado": "ok",
      "resumen": "Último: en-001-phone-rice.",
      "cuando": "2026-10-27T12:37",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "27/10 12:36 en-001-phone-rice publicado: https://www.instagram.com/reel/DfAMRQ9E1qI/",
       "27/10 12:36 en-001-phone-rice publicado en Facebook: https://www.facebook.com/reel/2081850989112386/",
@@ -632,7 +706,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-27T12:37",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "27/10 12:37 en-001-phone-rice en la bandeja de TikTok",
       "27/10 12:37 en-001-phone-rice paquete para TikTok/YouTube enviado"
@@ -700,7 +774,7 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 1 videos listos: alcanza para 0.5 día(s).",
-     "cuando": "2026-10-27T14:21",
+     "cuando": "2026-10-27T14:38",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s)."
