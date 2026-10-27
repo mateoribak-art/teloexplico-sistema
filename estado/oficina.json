@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T14:53",
+ "actualizado": "2026-10-27T14:59",
  "oficinas": [
   {
    "clave": "es",
@@ -380,7 +380,7 @@
      "estado": "ok",
      "resumen": "(sesión con Mateo): 14 respondidos, 3 salteados, 1 alerta",
      "cuando": "2026-10-26T21:56",
-     "hace": "hace 16 h",
+     "hace": "hace 17 h",
      "detalle": [
       "25/10 17:18 Termina la respuesta de comentarios (ok).",
       "26/10 02:50 Hay 5 comentarios nuevos: arranca la respuesta.",
@@ -445,7 +445,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-27T14:53",
+     "cuando": "2026-10-27T14:59",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -774,7 +774,7 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 1 videos listos: alcanza para 0.5 día(s).",
-     "cuando": "2026-10-27T14:53",
+     "cuando": "2026-10-27T14:59",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s)."
@@ -789,10 +789,10 @@
   {
    "id": "prueba1-voz",
    "empleado": "es/voz",
-   "estado": "explicado",
+   "estado": "descartado",
    "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Nacho (Locutor) está en 'ojo': La voz no coincidió con el guion en 005-granizo-calor.\r\nLo que sugiere la oficina: Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.\r\nTareas:\r\n005-granizo-calor: la voz no coincide con el guion (88%)",
    "creado": "2026-10-27T14:52",
-   "actualizado": "2026-10-27T14:53",
+   "actualizado": "2026-10-27T14:59",
    "titulo": "Falso rechazo del control de voz en 005-granizo-calor: no hace falta tocar código",
    "resumen": "El video se apartó el 25/10 a las 19:32 porque el control de voz dio 88 %. El guion está bien. Ese día el control escuchaba mal en la nube: transcribía palabras sueltas mal con el modo rápido (int8). Ya está corregido en `herramientas/control.py` desde el 26/10, así que no cambié nada. Con las otras dos pruebas de esta semana pasó lo mismo (el video 91 % de `cola.json` también fue un falso rechazo).\nQué hacer: el .mp4 ya no está en la carpeta del video, así que no pude volver a correr el control. Si querés publicarlo, pasalo a \"listo\" a mano. Si preferís asegurarte, mandalo a producir de nuevo: el control nuevo lo va a revisar bien. Ojo: es un video de actualidad (granizo de esa semana) y ya pasaron unos días."
   }
