@@ -3,6 +3,7 @@
 Uso:
   python -I publicar_youtube.py autorizar      una sola vez, en la notebook: abre el navegador, entrás con la cuenta del canal
   python -I publicar_youtube.py <slug>         sube videos/<slug>/<slug>.mp4 con los textos de youtube.txt (multired.py)
+  python -I publicar_youtube.py portada <slug> le pone videos/<slug>/portada.png a un Short ya subido (está en el registro)
 
 Credenciales: secretos/youtube.json (cliente "App de escritorio" de Google Cloud, proyecto "Te lo explico publicador")
 y secretos/youtube_token.json (refresh token; no vence porque la app está "En producción"). Nunca se imprimen.
@@ -82,6 +83,20 @@ def acceso():
     return json.loads(crudo)['access_token']
 
 
+def poner_portada(video_id, slug, token=None):
+    """Portada diseñada (la misma de Instagram). Si Google la rechaza (p. ej. canal sin verificar), el Short queda igual."""
+    portada = os.path.join(RAIZ, 'videos', slug, 'portada.png')
+    if not os.path.exists(portada):
+        print('portada: no hay portada.png')
+        return
+    try:
+        pedir(f'https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={video_id}', cuerpo=open(portada, 'rb').read(),
+              metodo='POST', cabeceras={'Authorization': f'Bearer {token or acceso()}', 'Content-Type': 'image/png'})
+        print('portada: ok')
+    except SystemExit as e:
+        print('portada: no se pudo (', str(e)[:200], ')')
+
+
 def subir(slug):
     carpeta = os.path.join(RAIZ, 'videos', slug)
     video = os.path.join(carpeta, f'{slug}.mp4')
@@ -115,10 +130,17 @@ def subir(slug):
     registro.append({'slug': slug, 'video_id': v['id'], 'link': link, 'privacidad': v.get('status', {}).get('privacyStatus')})
     json.dump(registro, open(REGISTRO, 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
     print('SUBIDO:', link, '| privacidad:', v.get('status', {}).get('privacyStatus'))
+    poner_portada(v['id'], slug, token)
 
 
 if __name__ == '__main__':
     sys.stdout.reconfigure(encoding='utf-8')
     if len(sys.argv) < 2:
         sys.exit(__doc__)
-    autorizar() if sys.argv[1] == 'autorizar' else subir(sys.argv[1])
+    if sys.argv[1] == 'autorizar':
+        autorizar()
+    elif sys.argv[1] == 'portada':
+        hecho = [x for x in json.load(open(REGISTRO, encoding='utf-8')) if x['slug'] == sys.argv[2]]
+        poner_portada(hecho[-1]['video_id'], sys.argv[2]) if hecho else sys.exit('Ese slug no está en el registro de YouTube.')
+    else:
+        subir(sys.argv[1])
