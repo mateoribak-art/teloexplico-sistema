@@ -168,6 +168,10 @@ def main(mensaje):
     if NUBE:
         correr('git', 'config', 'user.name', 'teloexplico-nube')
         correr('git', 'config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com')
+    # la oficina (estado/oficina.json) queda al día con lo que hizo este turno; si falla, no frena la sincronización
+    o = correr(sys.executable, '-I', os.path.join(H, 'oficina.py'))
+    if o.returncode != 0:
+        print('oficina:', (o.stdout + o.stderr).strip()[-300:])
     correr('git', 'add', '-A')
     if correr('git', 'diff', '--cached', '--quiet').returncode != 0:
         correr('git', 'commit', '-q', '-m', mensaje)

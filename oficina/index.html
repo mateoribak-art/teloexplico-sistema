@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>La oficina</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<!--
+  La oficina de Te lo explico / Let me explain: cada parte del sistema es un empleado.
+  Datos: estado/oficina.json del repo privado (lo escribe herramientas/oficina.py en cada turno de la nube),
+  leídos con el token de Mateo (queda solo en este navegador), más las corridas de GitHub Actions en vivo.
+  Abierta como OFICINA.html (python -I oficina.py --html) trae los datos adentro y anda sin token.
+-->
+<!--DATOS-->
+<style>
+:root{
+  --papel:#FFF6E5;--grilla:#F0E3C8;--tinta:#111;--azul:#2E4BFF;--rojo:#FF4D2E;--amarillo:#FFE14D;--verde:#2BD67B;--blanco:#fff;
+  --gris:#CFC6B4;--suave:#6B6253;--marca:var(--azul);--acento:var(--amarillo);
+  --t:'Bricolage Grotesque',system-ui,sans-serif;--m:'JetBrains Mono',ui-monospace,monospace;
+}
+body[data-of="en"]{--marca:var(--rojo);--acento:#7FD3FF}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:var(--t);color:var(--tinta);background:var(--papel);
+  background-image:linear-gradient(var(--grilla) 2px,transparent 2px),linear-gradient(90deg,var(--grilla) 2px,transparent 2px);
+  background-size:40px 40px;min-height:100vh}
+button,textarea,input{font:inherit;color:inherit}
+.caja{max-width:1180px;margin:0 auto;padding:20px 16px 80px}
+.sticker{background:var(--blanco);border:3px solid var(--tinta);border-radius:16px;box-shadow:5px 5px 0 var(--tinta)}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-bottom:16px}
+h1{font-size:clamp(28px,5vw,44px);line-height:1;margin:0;letter-spacing:-.02em}
+h1 span{background:var(--acento);padding:0 .15em;border-radius:6px}
+.sub{font-family:var(--m);font-size:12px;color:var(--suave);margin-top:6px}
+.botones{display:flex;gap:8px;flex-wrap:wrap}
+.btn{border:3px solid var(--tinta);background:var(--blanco);border-radius:12px;padding:8px 14px;font-weight:800;cursor:pointer;box-shadow:3px 3px 0 var(--tinta);transition:transform .08s,box-shadow .08s}
+.btn:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 var(--tinta)}
+.btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--tinta)}
+.btn.primario{background:var(--marca);color:#fff}
+.btn.peligro{background:var(--rojo);color:#fff}
+.btn:disabled{opacity:.45;cursor:not-allowed;transform:none}
+.pestanas{display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap}
+.pestana{flex:1 1 240px;text-align:left;padding:12px 16px;cursor:pointer;display:flex;align-items:center;gap:12px}
+.pestana[aria-selected="true"]{background:var(--acento)}
+.pestana b{display:block;font-size:20px}
+.pestana small{font-family:var(--m);font-size:12px;color:var(--suave)}
+.pestana>span{min-width:0}
+.pestana .pts{margin-left:auto;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:4px;max-width:120px}
+.pts i{width:10px;height:10px;border-radius:50%;border:2px solid var(--tinta);display:block}
+.resumen{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:16px}
+.dato{padding:12px 14px}
+.dato small{font-family:var(--m);font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--suave)}
+.dato b{display:block;font-size:26px;line-height:1.1;margin-top:2px}
+.dato span{font-size:13px;color:var(--suave)}
+.paravos{padding:12px 16px;margin-bottom:16px;background:#FFF0EC}
+.paravos h2{font-size:18px;margin:0 0 6px}
+.paravos ul{margin:0;padding-left:20px}
+.paravos li{margin:3px 0}
+.escena{padding:8px;overflow:hidden;position:relative}
+.escena svg{display:block;width:100%;height:auto}
+.etq{font-family:var(--m);font-weight:700;font-size:12px;letter-spacing:.04em;position:absolute;left:16px;top:12px;background:var(--acento);border:2px solid var(--tinta);border-radius:8px;padding:2px 8px}
+.puesto{cursor:pointer;outline:none}
+.puesto:focus-visible .mesa-top{stroke:var(--marca);stroke-width:5}
+.puesto:hover .cuerpo{transform:translateY(-4px)}
+.cuerpo{transition:transform .15s;transform-box:fill-box}
+.ojo{transform-box:fill-box;transform-origin:center;animation:parpadeo 4.5s infinite}
+@keyframes parpadeo{0%,93%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+.st-trabajando .respira{animation:tecleo .5s ease-in-out infinite alternate}
+.st-ok .respira,.st-aviso .respira{animation:respira 3.2s ease-in-out infinite}
+.st-falla .respira{animation:tiembla .35s linear infinite}
+.respira{transform-box:fill-box;transform-origin:50% 100%}
+@keyframes respira{50%{transform:scaleY(1.035)}}
+@keyframes tecleo{to{transform:translateY(-3px)}}
+@keyframes tiembla{25%{transform:translateX(-1.5px)}75%{transform:translateX(1.5px)}}
+.renglon{animation:escribe 1.4s linear infinite}
+@keyframes escribe{from{transform:translateY(0)}to{transform:translateY(-8px)}}
+.zz{animation:zz 2.6s ease-in-out infinite;font-family:var(--m);font-weight:700}
+@keyframes zz{0%{opacity:0;transform:translate(0,0)}30%{opacity:1}100%{opacity:0;transform:translate(10px,-18px)}}
+.alarma{animation:alarma 1.1s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes alarma{from{opacity:.75;transform:scale(.7)}to{opacity:0;transform:scale(1.5)}}
+.equipo{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin-top:18px}
+.tarjeta{display:flex;gap:12px;align-items:flex-start;padding:12px;cursor:pointer;text-align:left;width:100%}
+.tarjeta:hover{transform:translate(-1px,-1px);box-shadow:6px 6px 0 var(--tinta)}
+.avatar{flex:none;width:46px;height:46px;border-radius:50%;border:3px solid var(--tinta);background:var(--marca);display:grid;place-items:center;font-size:22px;position:relative}
+.avatar .pt{position:absolute;right:-4px;bottom:-4px;width:16px;height:16px;border-radius:50%;border:2.5px solid var(--tinta)}
+.tarjeta b{font-size:17px}
+.tarjeta small{display:block;font-family:var(--m);font-size:11px;color:var(--suave);margin-bottom:4px}
+.tarjeta p{margin:0;font-size:14px;line-height:1.3}
+.pill{display:inline-block;font-family:var(--m);font-weight:700;font-size:11px;padding:2px 8px;border-radius:999px;border:2px solid var(--tinta);text-transform:uppercase;letter-spacing:.04em}
+.c-ok{background:var(--verde)}.c-trabajando{background:var(--azul);color:#fff}.c-aviso{background:var(--amarillo)}
+.c-falla{background:var(--rojo);color:#fff}.c-descanso,.c-pausa{background:var(--gris)}
+.ultimas{margin-top:18px;padding:12px 16px}
+.ultimas h2{font-size:18px;margin:0 0 6px}
+.ultimas a{color:var(--marca);font-weight:800}
+.ultimas li{font-family:var(--m);font-size:13px;margin:3px 0}
+/* panel del empleado */
+.velo{position:fixed;inset:0;background:rgba(17,17,17,.35);opacity:0;pointer-events:none;transition:opacity .2s}
+.velo.abierto{opacity:1;pointer-events:auto}
+.panel{position:fixed;top:12px;right:12px;bottom:12px;width:min(460px,calc(100vw - 24px));overflow:auto;padding:18px;transform:translateX(110%);transition:transform .25s cubic-bezier(.2,.8,.2,1);z-index:5}
+.panel.abierto{transform:none}
+.panel h2{margin:0;font-size:26px;line-height:1.05}
+.panel h3{font-family:var(--m);font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:18px 0 6px;color:var(--suave)}
+.panel .cab{display:flex;gap:12px;align-items:center;margin-bottom:10px}
+.panel .avatar{width:64px;height:64px;font-size:30px}
+.panel .cerrar{position:absolute;top:12px;right:12px;padding:4px 10px}
+.panel .res{font-size:17px;line-height:1.35;margin:8px 0}
+.panel ul{margin:0;padding-left:18px}
+.panel li{margin:3px 0;font-size:14px}
+.registro{font-family:var(--m);font-size:11.5px;line-height:1.45;background:#FBF4E4;border:2px solid var(--tinta);border-radius:10px;padding:10px;white-space:pre-wrap;word-break:break-word;max-height:260px;overflow:auto;margin:0}
+.arreglo{background:var(--acento);border:2px solid var(--tinta);border-radius:10px;padding:10px 12px;font-size:14px}
+.gh{font-size:14px}
+.gh a{color:var(--marca);font-weight:800}
+.panel textarea{width:100%;min-height:90px;border:3px solid var(--tinta);border-radius:12px;padding:10px;background:#fff;resize:vertical}
+.acciones{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.nota{font-size:12.5px;color:var(--suave);margin-top:6px}
+.aviso-conectar{padding:16px;margin-bottom:16px}
+.aviso-conectar ol{padding-left:20px;margin:8px 0}
+.aviso-conectar input{width:100%;border:3px solid var(--tinta);border-radius:12px;padding:10px;font-family:var(--m);font-size:13px;margin:8px 0}
+.toast{position:fixed;left:50%;bottom:18px;transform:translate(-50%,150%);transition:transform .25s;padding:10px 16px;z-index:9;max-width:calc(100vw - 32px)}
+.toast.ver{transform:translate(-50%,0)}
+.oculto{display:none!important}
+@media (max-width:640px){
+  .panel{top:auto;left:8px;right:8px;bottom:8px;width:auto;max-height:86vh;transform:translateY(110%)}
+  .panel.abierto{transform:none}
+  .pestana b{font-size:17px}
+  .pestana .pts{max-width:62px}
+  .escena{overflow-x:auto}
+  .escena svg{min-width:640px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body data-of="es">
+<div class="caja">
+  <header>
+    <div>
+      <h1>La <span>oficina</span></h1>
+      <div class="sub" id="sub">cargando…</div>
+    </div>
+    <div class="botones">
+      <button class="btn" id="b-actualizar" title="Volver a leer el estado">↻ Actualizar</button>
+      <button class="btn" id="b-pausa">⏸ Pausar todo</button>
+      <button class="btn" id="b-token">🔑 Conectar</button>
+    </div>
+  </header>
+
+  <section class="sticker aviso-conectar oculto" id="conectar">
+    <b style="font-size:19px">Conectá la oficina con GitHub</b>
+    <p style="margin:6px 0">La oficina lee el estado del repo privado <code>teloexplico-sistema</code>. La clave queda guardada solo en este navegador y solo se manda a GitHub.</p>
+    <ol>
+      <li>Abrí <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com → Fine-grained token nuevo</a>.</li>
+      <li>Nombre: <b>oficina</b> · Vencimiento: 1 año · Repository access: <b>Only select repositories → teloexplico-sistema</b>.</li>
+      <li>Permissions → Repository: <b>Contents: Read and write</b> y <b>Actions: Read and write</b> (para leer el estado, dejar pedidos, pausar y relanzar).</li>
+      <li>Generá el token, copialo y pegalo acá:</li>
+    </ol>
+    <input id="i-token" type="password" autocomplete="off" placeholder="github_pat_…" aria-label="Token de GitHub">
+    <div class="acciones"><button class="btn primario" id="b-guardar">Conectar</button><button class="btn" id="b-cancelar">Cancelar</button></div>
+  </section>
+
+  <div class="pestanas" role="tablist" id="pestanas"></div>
+  <div class="sticker paravos oculto" id="paravos"></div>
+  <div class="resumen" id="resumen"></div>
+  <div class="sticker escena"><div class="etq" id="etq"></div><svg id="escena" role="img" aria-label="La oficina con cada empleado en su escritorio"></svg></div>
+  <div class="equipo" id="equipo"></div>
+  <section class="sticker ultimas" id="ultimas"></section>
+</div>
+
+<div class="velo" id="velo"></div>
+<aside class="sticker panel" id="panel" aria-live="polite"></aside>
+<div class="sticker toast" id="toast" role="status"></div>
+
+<script>
+const REPO = 'mateoribak-art/teloexplico-sistema';
+const COLOR = {ok: '#2BD67B', trabajando: '#2E4BFF', aviso: '#FFE14D', falla: '#FF4D2E', descanso: '#CFC6B4', pausa: '#CFC6B4'};
+const PALABRA = {ok: 'al día', trabajando: 'trabajando', aviso: 'ojo', falla: 'falló', descanso: 'descansa', pausa: 'en pausa'};
+const FLUJO = {'claude.yml': 'Claude (producción, radar, comentarios)', 'publicar.yml': 'Publicar', 'carrusel.yml': 'Carrusel', 'tareas.yml': 'Tareas (vigilancia y resumen)'};
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
+
+let token = '';
+try { token = localStorage.getItem('oficina_token') || ''; } catch (e) {}
+let datos = window.DATOS || null, corridas = [], fuente = window.DATOS ? 'copia local' : '', actual = 'es', abierto = null, pausado = null;
+try { actual = localStorage.getItem('oficina_actual') || 'es'; } catch (e) {}
+// link directo a un empleado: …/oficina/#es/jefe (sirve para los avisos al celular)
+let desdeLink = null;
+{ const [o, id] = decodeURIComponent(location.hash.slice(1)).split('/'); if (o === 'es' || o === 'en') { actual = o; desdeLink = id || null; } }
+
+// ---------- GitHub
+async function gh(ruta, opciones = {}, aceptar = 'application/vnd.github+json') {
+  const r = await fetch('https://api.github.com/repos/' + REPO + ruta, {
+    cache: 'no-store', ...opciones,
+    headers: {Authorization: 'Bearer ' + token, Accept: aceptar, 'X-GitHub-Api-Version': '2022-11-28', ...(opciones.body ? {'Content-Type': 'application/json'} : {})},
+  });
+  if (r.status === 404 && opciones.permitir404) return null;
+  if (!r.ok) throw new Error((r.status === 401 ? 'la clave no sirve o venció' : r.status === 403 ? 'a la clave le faltan permisos' : 'GitHub respondió ' + r.status) + ' (' + ruta.split('?')[0] + ')');
+  return r.status === 204 ? true : aceptar.includes('raw') ? r.text() : r.json();
+}
+const a64 = s => { let b = ''; for (const x of new TextEncoder().encode(s)) b += String.fromCharCode(x); return btoa(b); };
+const de64 = s => new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\n/g, '')), c => c.charCodeAt(0)));
+
+async function cargar() {
+  if (!token) { pintar(); return; }
+  try {
+    const [crudo, runs, pausa] = await Promise.all([
+      gh('/contents/estado/oficina.json?ref=main', {}, 'application/vnd.github.raw+json'),
+      gh('/actions/runs?per_page=40').catch(() => ({workflow_runs: []})),
+      gh('/contents/PAUSA?ref=main', {permitir404: true}).catch(() => null),
+    ]);
+    datos = JSON.parse(crudo); corridas = runs.workflow_runs || []; pausado = pausa; fuente = 'GitHub en vivo';
+  } catch (e) {
+    toast('No pude leer GitHub: ' + e.message);
+    if (!datos) fuente = 'sin datos';
+  }
+  pintar();
+}
+
+// ---------- tiempo (los registros se escriben en hora de Argentina)
+const fecha = c => c ? new Date(c.length <= 16 ? c + ':00-03:00' : c) : null;
+function hace(d) {
+  if (!d) return 'nunca';
+  const m = Math.round((Date.now() - d) / 60000);
+  if (m < 1) return 'recién';
+  if (m < 60) return 'hace ' + m + ' min';
+  if (m < 2880) return 'hace ' + Math.round(m / 60) + ' h';
+  return 'hace ' + Math.round(m / 1440) + ' días';
+}
+
+// ---------- corridas de GitHub Actions → empleados
+function empleadosDe(run) {
+  const f = (run.path || '').split('/').pop();
+  if (f === 'publicar.yml') return ['publicador', 'redes'];
+  if (f === 'carrusel.yml') return ['carruseles'];
+  if (f === 'tareas.yml') return ['vigilante', 'analista'];
+  if (f === 'claude.yml') {
+    const h = new Date(run.run_started_at || run.created_at).getUTCHours();
+    if (run.event === 'schedule' && h === 13) return ['radar'];
+    if (run.event === 'schedule' && (h === 17 || h === 1)) return ['comentarios'];
+    return ['jefe', 'chequeo', 'voz', 'animador', 'control'];  // un turno de producción los pone a todos a trabajar
+  }
+  return [];
+}
+function enVivo(id) {
+  const mias = corridas.filter(r => empleadosDe(r).includes(id));
+  const ahora = mias.find(r => r.status === 'in_progress' || r.status === 'queued');
+  const ultima = mias.find(r => r.status === 'completed' && r.conclusion !== 'skipped' && r.conclusion !== 'cancelled');
+  return {ahora, ultima};
+}
+function estadoReal(e) {
+  const {ahora, ultima} = enVivo(e.id);
+  if (ahora) return 'trabajando';
+  if (ultima && ultima.conclusion === 'failure' && new Date(ultima.updated_at) > fecha(datos.actualizado)) return 'falla';
+  return e.estado;
+}
+
+// ---------- dibujo de la oficina (isométrica)
+const TW = 250, TH = 125;
+function persona(e, st, x, y) {
+  const c = COLOR[st];
+  const ojos = st === 'descanso' || st === 'pausa'
+    ? `<path d="M-11 -6 q4 3 8 0 M3 -6 q4 3 8 0" stroke="#111" stroke-width="2.6" fill="none" stroke-linecap="round"/>`
+    : `<ellipse class="ojo" cx="-7" cy="-6" rx="3.2" ry="4.6" fill="#111"/><ellipse class="ojo" cx="7" cy="-6" rx="3.2" ry="4.6" fill="#111"/>`;
+  const boca = {ok: 'M-7 4 q7 7 14 0', trabajando: 'M-5 5 q5 4 10 0', aviso: 'M-6 6 h12', falla: 'M-7 8 q7 -7 14 0', descanso: 'M-3 5 q3 2 6 0', pausa: 'M-4 5 h8'}[st];
+  const pantalla = st === 'trabajando'
+    ? `<clipPath id="cp-${e.id}"><rect x="-24" y="-20" width="44" height="28" rx="3"/></clipPath><rect x="-24" y="-20" width="44" height="28" rx="3" fill="#0E1A66"/><g clip-path="url(#cp-${e.id})"><g class="renglon">${[0, 1, 2, 3, 4, 5].map(i => `<rect x="-19" y="${-15 + i * 8}" width="${16 + (i * 13) % 20}" height="3" rx="1.5" fill="#7FD3FF"/>`).join('')}</g></g>`
+    : st === 'descanso' || st === 'pausa' ? `<rect x="-24" y="-20" width="44" height="28" rx="3" fill="#2a2a2a"/>`
+    : `<rect x="-24" y="-20" width="44" height="28" rx="3" fill="${c}"/><text x="-2" y="1" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="17" fill="${st === 'falla' ? '#fff' : '#111'}">${st === 'ok' ? '✓' : '!'}</text>`;
+  const zz = st === 'descanso' ? `<text class="zz" x="40" y="-96" font-size="15">z</text><text class="zz" x="48" y="-106" font-size="12" style="animation-delay:.9s">z</text>` : '';
+  const ancho = Math.max(96, e.nombre.length * 10.5 + 52);
+  const icono = st === 'pausa' ? `<path d="M-4 -5v10M4 -5v10" stroke="#111" stroke-width="3"/>`
+    : `<text y="5" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="13" fill="${st === 'falla' || st === 'trabajando' ? '#fff' : '#111'}">${{ok: '✓', trabajando: '…', aviso: '!', falla: '✕', descanso: 'z'}[st]}</text>`;
+  const cartel = `<g transform="translate(14,-142)"><rect x="${-ancho / 2}" y="-14" width="${ancho}" height="28" rx="9" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <text x="${-ancho / 2 + 12}" y="5" font-family="Bricolage Grotesque" font-weight="800" font-size="15">${esc(e.nombre)}</text>
+      <g transform="translate(${ancho / 2 - 15},0)"><circle r="10" fill="${c}" stroke="#111" stroke-width="2.2"/>${icono}</g></g>`;
+  const tx = 64, ty = 32, h = 30, g = 12;
+  return `<g class="puesto st-${st}" data-id="${e.id}" tabindex="0" role="button" aria-label="${esc(e.nombre + ', ' + e.puesto + ': ' + PALABRA[st])}" transform="translate(${x},${y})">
+    <ellipse cx="0" cy="6" rx="${tx * 1.25}" ry="${ty * 1.2}" fill="rgba(17,17,17,.10)"/>
+    ${st === 'falla' ? `<ellipse class="alarma" cx="0" cy="2" rx="${tx * 1.2}" ry="${ty * 1.1}" fill="none" stroke="#FF4D2E" stroke-width="5"/>` : ''}
+    <g class="cuerpo"><g class="respira" transform="translate(14,${-h - 50})">
+      <path d="M-26 0 a26 26 0 1 1 18 24.7 l-14 9 l4 -13 a26 26 0 0 1 -8 -20.7z" fill="var(--marca)" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+      <circle cx="0" cy="0" r="17" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <g transform="translate(0,1)">${ojos}<path d="${boca}" stroke="#111" stroke-width="2.6" fill="none" stroke-linecap="round"/></g>
+    </g></g>
+    <path class="mesa-top" d="M0 ${-ty - h} L${tx} ${-h} L0 ${ty - h} L${-tx} ${-h}Z" fill="#fff" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M${-tx} ${-h} L0 ${ty - h} L0 ${ty - h + g} L${-tx} ${-h + g}Z" fill="#F3E6CC" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M0 ${ty - h} L${tx} ${-h} L${tx} ${-h + g} L0 ${ty - h + g}Z" fill="#E2D0AE" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M${-tx + 8} ${-h + g} v${h - g + 4} M${tx - 8} ${-h + g} v${h - g + 4} M0 ${ty - h + g} v${h - g + 2}" stroke="#111" stroke-width="3"/>
+    <g transform="translate(-26,${-h - 18})"><rect x="-27" y="-23" width="50" height="34" rx="5" fill="#fff" stroke="#111" stroke-width="3"/>${pantalla}<path d="M-6 11 v6 h-8 h20" stroke="#111" stroke-width="3" fill="none"/></g>
+    <text x="34" y="${-h + 2}" font-size="20" text-anchor="middle">${e.emoji}</text>
+    ${zz}${cartel}
+  </g>`;
+}
+
+function escena(of) {
+  const gente = of.empleados, cols = 4, filas = Math.ceil(gente.length / cols);
+  const pos = (c, r) => [(c - r) * TW / 2, (c + r) * TH / 2];
+  const esquinas = [pos(-.6, -.6), pos(cols - .4, -.6), pos(cols - .4, filas - .4), pos(-.6, filas - .4)];
+  const xs = esquinas.map(p => p[0]), ys = esquinas.map(p => p[1]);
+  const minx = Math.min(...xs) - 10, maxx = Math.max(...xs) + 10, miny = Math.min(...ys) - 100, maxy = Math.max(...ys) + 12;
+  let lineas = '';
+  for (let i = 0; i <= cols * 2; i++) { const a = pos(-.6 + i / 2, -.6), b = pos(-.6 + i / 2, filas - .4); lineas += `M${a[0]} ${a[1]}L${b[0]} ${b[1]}`; }
+  for (let j = 0; j <= filas * 2; j++) { const a = pos(-.6, -.6 + j / 2), b = pos(cols - .4, -.6 + j / 2); lineas += `M${a[0]} ${a[1]}L${b[0]} ${b[1]}`; }
+  const piso = `<path d="M${esquinas.map(p => p.join(' ')).join('L')}Z" fill="#FBF0D9" stroke="#111" stroke-width="3"/><path d="${lineas}" stroke="#EADBBB" stroke-width="2"/>`;
+  const pared = (a, b) => `<path d="M${a[0]} ${a[1]}L${b[0]} ${b[1]}L${b[0]} ${b[1] - 80}L${a[0]} ${a[1] - 80}Z" fill="#fff" stroke="#111" stroke-width="3" stroke-linejoin="round"/>`;
+  const planta = `<g transform="translate(${esquinas[1][0] - 46},${esquinas[1][1] + 4})"><path d="M-10 0 L10 0 L7 18 L-7 18Z" fill="#FF4D2E" stroke="#111" stroke-width="2.5"/><path d="M0 0 C-14 -10 -16 -26 -4 -30 M0 0 C10 -14 18 -20 12 -32 M0 0 C2 -16 -2 -24 2 -36" stroke="#1d9a55" stroke-width="5" fill="none" stroke-linecap="round"/></g>`;
+  const puestos = gente.map((e, i) => [e, i % cols, Math.floor(i / cols)]).sort((a, b) => (a[1] + a[2]) - (b[1] + b[2]) || a[1] - b[1])
+    .map(([e, c, r]) => { const [x, y] = pos(c, r); return persona(e, estadoReal(e), x, y); }).join('');
+  const svg = $('#escena');
+  svg.setAttribute('viewBox', `${minx} ${miny} ${maxx - minx} ${maxy - miny}`);
+  svg.innerHTML = piso + pared(esquinas[3], esquinas[0]) + pared(esquinas[0], esquinas[1]) + planta + puestos;
+}
+
+// ---------- pantalla
+function pintar() {
+  const hay = datos && datos.oficinas && datos.oficinas.length;
+  $('#conectar').classList.toggle('oculto', !!hay || !!token);
+  $('#b-token').textContent = token ? '🔑 Clave' : '🔑 Conectar';
+  $('#b-pausa').disabled = !token;
+  $('#b-pausa').textContent = pausado ? '▶ Reanudar todo' : '⏸ Pausar todo';
+  if (!hay) { $('#sub').textContent = token ? 'cargando…' : 'falta conectar con GitHub'; if (!token) $('#conectar').classList.remove('oculto'); return; }
+  if (!datos.oficinas.some(o => o.clave === actual)) actual = datos.oficinas[0].clave;
+  const of = datos.oficinas.find(o => o.clave === actual);
+  document.body.dataset.of = actual;
+  $('#sub').textContent = `estado de ${hace(fecha(datos.actualizado))} · ${fuente}` + (corridas.length ? ' · corridas de GitHub en vivo' : '');
+  $('#pestanas').innerHTML = datos.oficinas.map(o => {
+    const sts = o.empleados.map(e => estadoReal(e));
+    const peor = ['falla', 'aviso', 'trabajando'].map(s => sts.filter(x => x === s).length);
+    return `<button class="sticker pestana" role="tab" aria-selected="${o.clave === actual}" data-of="${o.clave}">
+      <span class="avatar" style="background:${o.clave === 'es' ? 'var(--azul)' : 'var(--rojo)'};color:#fff;font-family:var(--m);font-weight:700;font-size:15px">${o.clave.toUpperCase()}</span>
+      <span><b>Oficina ${esc(o.ciudad)}</b><small>@${esc(o.usuario)} · ${o.empleados.length} empleados</small></span>
+      <span class="pts" title="${peor[0]} fallas · ${peor[1]} avisos · ${peor[2]} trabajando">${sts.map(s => `<i style="background:${COLOR[s]}"></i>`).join('')}</span></button>`;
+  }).join('');
+  const pend = (of.pendientes || []);
+  $('#paravos').classList.toggle('oculto', !pend.length && !of.pausa);
+  $('#paravos').innerHTML = `<h2>📌 Para vos</h2><ul>${of.pausa ? '<li><b>El sistema está en pausa</b>: nadie produce ni publica hasta que lo reanudes.</li>' : ''}${pend.map(p => `<li>${esc(p)}</li>`).join('')}</ul>`;
+  $('#resumen').innerHTML = [
+    ['Seguidores', of.seguidores ?? '—', 'en Instagram'],
+    ['Videos listos', of.listos, `≈ ${String(of.dias).replace('.', ',')} días de colchón`],
+    ['Próximo', of.proximo || '—', 'sale en el próximo turno'],
+    ['Publicados', of.publicados, 'reels desde el arranque'],
+  ].map(([a, b, c]) => `<div class="sticker dato"><small>${a}</small><b style="${String(b).length > 12 ? 'font-size:16px;word-break:break-all' : ''}">${esc(b)}</b><span>${c}</span></div>`).join('');
+  $('#etq').textContent = '// oficina ' + of.ciudad.toLowerCase();
+  escena(of);
+  $('#equipo').innerHTML = of.empleados.map(e => {
+    const st = estadoReal(e);
+    return `<button class="sticker tarjeta" data-id="${e.id}"><span class="avatar">${e.emoji}<span class="pt" style="background:${COLOR[st]}"></span></span>
+      <span><b>${esc(e.nombre)}</b> <span class="pill c-${st}">${PALABRA[st]}</span><small>${esc(e.puesto)} · ${hace(fecha(e.cuando))}</small><p>${esc(st === 'trabajando' && e.estado !== 'trabajando' ? 'Trabajando ahora en GitHub.' : e.resumen)}</p></span></button>`;
+  }).join('');
+  $('#ultimas').innerHTML = `<h2>Últimas publicaciones</h2><ul>${(of.ultimas || []).map(u => `<li>${esc(u.cuando.replace('T', ' '))} UTC · ${u.link ? `<a href="${esc(u.link)}" target="_blank" rel="noopener">${esc(u.slug)}</a>` : esc(u.slug)}</li>`).join('') || '<li>Todavía nada</li>'}</ul>`;
+  if (abierto) abrir(abierto, true);
+  else if (desdeLink) { const id = desdeLink; desdeLink = null; abrir(id); }
+}
+
+function abrir(id, refresco) {
+  const of = datos.oficinas.find(o => o.clave === actual), e = of && of.empleados.find(x => x.id === id);
+  if (!e) return cerrar();
+  abierto = id;
+  const st = estadoReal(e), {ahora, ultima} = enVivo(e.id);
+  const flujo = e.relanzar.flujo;
+  const gh = ahora ? `🔵 Trabajando ahora: <a href="${esc(ahora.html_url)}" target="_blank" rel="noopener">ver la corrida</a> (arrancó ${hace(new Date(ahora.run_started_at || ahora.created_at))}).`
+    : ultima ? `${ultima.conclusion === 'success' ? '✅' : '❌'} Última corrida en GitHub ${ultima.conclusion === 'success' ? 'bien' : 'falló'}, ${hace(new Date(ultima.updated_at))}: <a href="${esc(ultima.html_url)}" target="_blank" rel="noopener">ver</a>.`
+    : token ? 'Sin corridas recientes en GitHub.' : 'Conectá la clave para ver las corridas en vivo.';
+  const pedido = e.id === 'jefe' ? `<h3>Dejale un pedido</h3>
+    <textarea id="t-pedido" placeholder="${actual === 'es' ? 'Ej.: un video sobre por qué se empañan los anteojos con el barbijo…' : 'Ej.: a video on why your ears pop on a plane…'}"></textarea>
+    <div class="nota">Va a "Pedidos de Mateo" de ${actual === 'es' ? 'videos/ideas.md' : 'videos/en/ideas.md'}: tiene prioridad y se produce en el próximo turno aunque sobren videos.</div>
+    <div class="acciones"><button class="btn primario" id="b-pedido" ${token ? '' : 'disabled'}>Mandar pedido</button></div>` : '';
+  $('#panel').innerHTML = `<button class="btn cerrar" id="b-cerrar" aria-label="Cerrar">✕</button>
+    <div class="cab"><span class="avatar">${e.emoji}<span class="pt" style="background:${COLOR[st]}"></span></span>
+      <div><h2>${esc(e.nombre)}</h2><div style="font-family:var(--m);font-size:12px;color:var(--suave)">${esc(e.puesto)}</div></div></div>
+    <span class="pill c-${st}">${PALABRA[st]}</span> <span style="font-size:13px;color:var(--suave)">· último movimiento ${hace(fecha(e.cuando))}</span>
+    <p class="res">${esc(e.resumen)}</p>
+    ${e.arreglo ? `<div class="arreglo"><b>Cómo se arregla:</b> ${esc(e.arreglo)}</div>` : ''}
+    <h3>En GitHub</h3><div class="gh">${gh}</div>
+    <div class="acciones"><button class="btn primario" id="b-relanzar" ${token ? '' : 'disabled'}>↻ Relanzar</button>
+      <a class="btn" href="https://github.com/${REPO}/actions/workflows/${flujo}" target="_blank" rel="noopener" style="text-decoration:none">Ver corridas</a></div>
+    <div class="nota">Relanzar corre «${esc(FLUJO[flujo])}»${e.relanzar.inputs.modo ? ' en modo ' + esc(e.relanzar.inputs.modo) : ''}${e.relanzar.inputs.cuenta ? ' para @' + esc(of.usuario) : ''}. No publica doble ni produce de más: cada flujo se fija si hace falta.</div>
+    ${e.tareas.length ? `<h3>Tareas</h3><ul>${e.tareas.map(t => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}
+    ${e.detalle.length ? `<h3>Registro</h3><pre class="registro">${esc(e.detalle.join('\n'))}</pre>` : ''}
+    ${pedido}
+    <h3>Qué hace</h3><p style="margin:0;font-size:14px">${esc(e.hace_que)}</p>
+    <p class="nota">Trabaja: ${esc(e.horario)} (hora de Argentina salvo que diga otra cosa).</p>`;
+  $('#panel').classList.add('abierto'); $('#velo').classList.add('abierto');
+  $('#b-cerrar').onclick = cerrar;
+  $('#b-relanzar').onclick = () => relanzar(e, of);
+  if ($('#b-pedido')) $('#b-pedido').onclick = () => mandarPedido(of);
+  if (!refresco) $('#b-cerrar').focus();
+}
+function cerrar() { abierto = null; $('#panel').classList.remove('abierto'); $('#velo').classList.remove('abierto'); }
+
+// ---------- acciones
+async function relanzar(e, of) {
+  const {flujo, inputs} = e.relanzar;
+  if (!confirm(`¿Relanzar a ${e.nombre}? Corre «${FLUJO[flujo]}»${inputs.modo ? ' (' + inputs.modo + ')' : ''} en GitHub.`)) return;
+  try {
+    await gh(`/actions/workflows/${flujo}/dispatches`, {method: 'POST', body: JSON.stringify({ref: 'main', inputs})});
+    toast(`Listo: ${e.nombre} arrancó. En un minuto la vas a ver trabajando.`);
+    setTimeout(cargar, 8000);
+  } catch (err) { toast('No se pudo relanzar: ' + err.message); }
+}
+async function mandarPedido(of) {
+  const texto = $('#t-pedido').value.trim().replace(/\s+/g, ' ');
+  if (texto.length < 8) return toast('Escribí un poco más el pedido.');
+  const ruta = of.clave === 'es' ? 'videos/ideas.md' : 'videos/en/ideas.md';
+  try {
+    const f = await gh('/contents/' + ruta + '?ref=main');
+    const lineas = de64(f.content).split('\n');
+    const i = lineas.findIndex(l => l.startsWith('## Pedidos de Mateo'));
+    if (i < 0) throw new Error('no encontré la sección de pedidos en ' + ruta);
+    const hoy = new Date().toLocaleDateString('es-AR', {timeZone: 'America/Argentina/Buenos_Aires', day: '2-digit', month: '2-digit'});
+    lineas.splice(i + 1, 0, `- [ ] ${texto} (desde la oficina, ${hoy})`);
+    await gh('/contents/' + ruta, {method: 'PUT', body: JSON.stringify({message: 'Oficina: pedido de Mateo', content: a64(lineas.join('\n')), sha: f.sha, branch: 'main'})});
+    $('#t-pedido').value = '';
+    toast('Pedido anotado. Sale en el próximo turno de producción.');
+  } catch (err) { toast('No se pudo anotar: ' + err.message); }
+}
+async function alternarPausa() {
+  try {
+    const f = await gh('/contents/PAUSA?ref=main', {permitir404: true});
+    if (f) {
+      if (!confirm('¿Reanudar todo? Las dos oficinas vuelven a producir y publicar.')) return;
+      await gh('/contents/PAUSA', {method: 'DELETE', body: JSON.stringify({message: 'Oficina: se reanuda todo', sha: f.sha, branch: 'main'})});
+      toast('Reanudado: el próximo turno trabaja normal.');
+    } else {
+      if (!confirm('¿Pausar todo? Las DOS oficinas dejan de producir, publicar y responder hasta que reanudes.')) return;
+      await gh('/contents/PAUSA', {method: 'PUT', body: JSON.stringify({message: 'Oficina: pausa', content: a64('pausado desde la oficina\n'), branch: 'main'})});
+      toast('En pausa. Nadie trabaja hasta que reanudes.');
+    }
+    cargar();
+  } catch (err) { toast('No se pudo: ' + err.message); }
+}
+
+let reloj;
+function toast(t) { const el = $('#toast'); el.textContent = t; el.classList.add('ver'); clearTimeout(reloj); reloj = setTimeout(() => el.classList.remove('ver'), 4500); }
+
+// ---------- eventos
+document.addEventListener('click', ev => {
+  const p = ev.target.closest('[data-of]');
+  if (p && p.classList.contains('pestana')) { actual = p.dataset.of; try { localStorage.setItem('oficina_actual', actual); } catch (e) {} cerrar(); pintar(); return; }
+  const q = ev.target.closest('.puesto,.tarjeta');
+  if (q) abrir(q.dataset.id);
+});
+document.addEventListener('keydown', ev => {
+  if (ev.key === 'Escape') cerrar();
+  const q = ev.target.closest && ev.target.closest('.puesto');
+  if (q && (ev.key === 'Enter' || ev.key === ' ')) { ev.preventDefault(); abrir(q.dataset.id); }
+});
+$('#velo').onclick = cerrar;
+$('#b-actualizar').onclick = () => { toast('Actualizando…'); cargar(); };
+$('#b-pausa').onclick = alternarPausa;
+$('#b-token').onclick = () => { $('#conectar').classList.toggle('oculto'); $('#i-token').focus(); };
+$('#b-cancelar').onclick = () => $('#conectar').classList.add('oculto');
+$('#b-guardar').onclick = () => {
+  token = $('#i-token').value.trim();
+  try { token ? localStorage.setItem('oficina_token', token) : localStorage.removeItem('oficina_token'); } catch (e) {}
+  $('#i-token').value = '';
+  $('#conectar').classList.add('oculto');
+  cargar();
+};
+cargar();
+setInterval(() => { if (token && !document.hidden) cargar(); else if (datos) pintar(); }, 60000);
+</script>
+</body>
+</html>

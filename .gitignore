@@ -23,3 +23,5 @@ __pycache__/
 !motor/public/musica/*.wav
 !motor/public/sfx/*.wav
 PANEL_en.html
+# la oficina con los datos adentro (herramientas/oficina.py --html)
+OFICINA.html
