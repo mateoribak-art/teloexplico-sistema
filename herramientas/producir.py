@@ -72,6 +72,11 @@ def resumir(crudo):
             continue
         if d.get('type') == 'result':
             final = d.get('result') or d.get('subtype', '')
+            # cuánto gastó el turno (26/10: para ver qué tarea consume más cuota y ajustar)
+            u = d.get('usage') or {}
+            otros.append(f"Uso: {d.get('num_turns', '?')} pasos · {u.get('input_tokens', 0) + u.get('cache_creation_input_tokens', 0):,} tokens nuevos · "
+                         f"{u.get('cache_read_input_tokens', 0):,} de caché · {u.get('output_tokens', 0):,} escritos"
+                         + (f" · equivale a US$ {d['total_cost_usd']:.2f} de API" if d.get('total_cost_usd') is not None else ''))
             negados = [f"{x.get('tool_name')}: {json.dumps(x.get('tool_input'), ensure_ascii=False)[:150]}" for x in d.get('permission_denials') or []]
     texto = final.strip() or '\n'.join(otros).strip()
     if negados:
