@@ -9,20 +9,69 @@
     "pordentro": "Por dentro"
   },
   "videos": {
-    "001-heladera": ["cocina", 1],
-    "003-vuelta-carne": ["cocina", 2],
-    "012-lavar-pollo": ["cocina", 3],
-    "015-descongelar-mesada": ["cocina", 4],
-    "004-olor-a-lluvia": ["clima", 1],
-    "016-el-nino-clima": ["clima", 2],
-    "018-rayo-trueno": ["clima", 3],
-    "019-sensacion-termica": ["clima", 4],
-    "018-refresca-tormenta": ["clima", 5],
-    "014-celular-arroz": ["casa", 1],
-    "008-aire-en-17": ["casa", 2],
-    "009-ventilador-pieza-vacia": ["casa", 3],
-    "002-corte-digestion": ["cuerpo", 1],
-    "017-paradoja-cumpleanos": ["mate", 1],
-    "020-pava-se-corta": ["pordentro", 1]
+    "001-heladera": [
+      "cocina",
+      1
+    ],
+    "003-vuelta-carne": [
+      "cocina",
+      2
+    ],
+    "012-lavar-pollo": [
+      "cocina",
+      3
+    ],
+    "015-descongelar-mesada": [
+      "cocina",
+      4
+    ],
+    "004-olor-a-lluvia": [
+      "clima",
+      1
+    ],
+    "016-el-nino-clima": [
+      "clima",
+      2
+    ],
+    "018-rayo-trueno": [
+      "clima",
+      3
+    ],
+    "019-sensacion-termica": [
+      "clima",
+      4
+    ],
+    "018-refresca-tormenta": [
+      "clima",
+      5
+    ],
+    "014-celular-arroz": [
+      "casa",
+      1
+    ],
+    "008-aire-en-17": [
+      "casa",
+      2
+    ],
+    "009-ventilador-pieza-vacia": [
+      "casa",
+      3
+    ],
+    "002-corte-digestion": [
+      "cuerpo",
+      1
+    ],
+    "017-paradoja-cumpleanos": [
+      "mate",
+      1
+    ],
+    "020-pava-se-corta": [
+      "pordentro",
+      1
+    ],
+    "021-heladera-parte-2": [
+      "cocina",
+      5
+    ]
   }
 }

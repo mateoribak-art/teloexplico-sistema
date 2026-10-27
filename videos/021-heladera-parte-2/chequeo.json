@@ -1,0 +1,66 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones fácticas (salud/seguridad) están verificadas contra la página primaria del USDA FSIS 'Leftovers and Food Safety'. Ninguna es probable, dudosa ni falsa, y las atribuciones al Departamento de Agricultura de EE.UU. son correctas. La frase del plazo de dos horas ya no fija un punto de partida erróneo (el USDA lo cuenta desde la cocción o desde que se retira de un aparato que lo mantiene caliente) y no lo contradice. Observación menor, no bloqueante: el USDA indica 1 hora si la temperatura ambiente supera 32 °C (90 °F); la frase no lo menciona pero tampoco lo contradice, ya que 'antes de las dos horas' sigue siendo el tope general.",
+  "afirmaciones": [
+    {
+      "texto": "En la parte uno te dije que no dejes enfriar la comida afuera.",
+      "fuente": "Referencia al video propio 001-heladera (indicado como válido por el pedido; no se coteja). Consistente con USDA FSIS (Danger Zone 40-140 °F).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Me preguntaron: ¿y la tapo?",
+      "fuente": "Anécdota de comentarios de la cuenta; no es afirmación fáctica verificable externamente y no contiene cifras ni salud.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Tapala: según el Departamento de Agricultura de Estados Unidos, así mantiene la humedad y no agarra olores.",
+      "fuente": "USDA FSIS, Leftovers and Food Safety: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety (cubrir/sellar ayuda a retener humedad y evita que tome olores de otros alimentos en la heladera). Coincide con NC State Extension. Se confirmó vía búsqueda; el fetch directo devolvió 403.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Pero lo que más importa es otra cosa: cuántos días dura.",
+      "fuente": "Énfasis editorial; el tiempo de almacenamiento es el eje de la guía USDA FSIS.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ese guiso tiene fecha de vencimiento.",
+      "fuente": "USDA FSIS, Leftovers and Food Safety (las sobras tienen plazo máximo de 3 a 4 días en heladera). Expresión figurada.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Para el Departamento de Agricultura de Estados Unidos, tres o cuatro días en la heladera.",
+      "fuente": "USDA FSIS, Leftovers and Food Safety: 'Leftovers can be kept in the refrigerator for 3 to 4 days'. ANMAT (vía prensa) es más conservadora (3 días), pero la frase atribuye correctamente la cifra al USDA.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si no lo vas a comer, al freezer: ahí mantiene la calidad tres o cuatro meses.",
+      "fuente": "USDA FSIS, Leftovers and Food Safety: 'frozen for 3 to 4 months'; FSIS Freezing and Food Safety aclara que el plazo es por calidad, no por seguridad, igual que la frase ('mantiene la calidad'). FSIS también indica congelar dentro de los 3 a 4 días.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: para que valga, tiene que entrar a la heladera antes de las dos horas.",
+      "fuente": "USDA FSIS, Leftovers and Food Safety: refrigerar dentro de 2 horas de cocinada o de retirada de un aparato que la mantiene caliente (1 hora si hace más de 90 °F / 32 °C, según FSIS Danger Zone).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Hoy: pegale a cada tupper un papelito con la fecha.",
+      "fuente": "Consejo práctico, no afirmación fáctica; compatible con la recomendación de FSIS de controlar los días de almacenamiento.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mandáselo al que guarda la olla entera con la tapa puesta.",
+      "fuente": "Llamado a compartir, humor; sin afirmación fáctica.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

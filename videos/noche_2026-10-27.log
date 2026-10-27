@@ -1,0 +1,9 @@
+2026-10-27 06:16 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Dejé listo un video, el `021-heladera-parte-2` (el pedido de Mateo). Ya hay más de 10 videos listos en la cola, así que no hice un segundo.
+- **021-heladera-parte-2:** dura 43 s y es la serie cocina #5. El primer chequeo de datos lo rechazó por una frase sobre desde cuándo corre el plazo; la reemplacé por otra y el segundo chequeo lo aprobó. Voz, render y control dieron OK, y está en la cola como `listo`.
+- **Cambio respecto al pedido:** el pedido era "¿hay que tapar la comida caliente?", pero no encontré una regla clara. El video dice que tapar ayuda a que no se seque ni tome olores, y se centra en cuántos días dura: 3 a 4 días en la heladera y 3 a 4 meses en el freezer, según el USDA.
+- **Apartados o incompletos:** ninguno. Una limitación: la página del USDA devolvió error 403 al leerla directo, así que el chequeo se apoyó en búsquedas que la citan.
+Uso: 33 pasos · 42,357 tokens nuevos · 1,887,981 de caché · 14,697 escritos · equivale a US$ 1.27 de API
+Permisos negados (1):
+  Bash: {"command": "sed -i '26a import { DURACION as DUR_021, FPS as FPS_021, HeladeraParte2_021, Portada021 } from \"./videos/021-heladera-parte-2/Video\";'
+2026-10-27 06:30 Termina la producción (Claude no terminó bien).

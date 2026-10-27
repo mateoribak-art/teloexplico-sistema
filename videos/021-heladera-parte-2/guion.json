@@ -1,0 +1,20 @@
+{
+  "titulo": "Heladera parte 2: ¿tapo la comida? ¿y cuántos días dura?",
+  "fuentes": [
+    "USDA FSIS — Leftovers and Food Safety: restos en la heladera 3 a 4 días, en el freezer 3 a 4 meses; refrigerar dentro de 2 horas",
+    "USDA FSIS — comunicado de sobras de Acción de Gracias: tapar la comida retiene la humedad y evita que tome olores de otros alimentos",
+    "ANMAT (vía prensa): sobras no más de 3 días en la heladera"
+  ],
+  "frases": [
+    {"texto": "En la parte uno te dije que no dejes enfriar la comida afuera.", "estilo": "Cercano, retomando."},
+    {"texto": "Me preguntaron: ¿y la tapo?", "estilo": "Curioso."},
+    {"texto": "Tapala: según el Departamento de Agricultura de Estados Unidos, así mantiene la humedad y no agarra olores.", "estilo": "Explicando claro."},
+    {"texto": "Pero lo que más importa es otra cosa: cuántos días dura.", "estilo": "Intriga."},
+    {"texto": "Ese guiso tiene fecha de vencimiento.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Para el Departamento de Agricultura de Estados Unidos, tres o cuatro días en la heladera.", "estilo": "Enfático."},
+    {"texto": "Si no lo vas a comer, al freezer: ahí mantiene la calidad tres o cuatro meses.", "estilo": "Práctico."},
+    {"texto": "Ojo: para que valga, tiene que entrar a la heladera antes de las dos horas.", "estilo": "Advertencia amable."},
+    {"texto": "Hoy: pegale a cada tupper un papelito con la fecha.", "estilo": "Claro, práctico."},
+    {"texto": "Mandáselo al que guarda la olla entera con la tapa puesta.", "estilo": "Cómplice, con humor."}
+  ]
+}
