@@ -110,6 +110,29 @@ def aviso_noche():
     subprocess.run([PY, '-I', 'estado.py', 'noche'], cwd=H, capture_output=True)
 
 
+def renderizar_pendientes(log):
+    """Videos en estado `render` (escenas 3D listas): render + control sin Claude. En la nube el 3D va por software
+    (~20 min por video): Claude no espera ese render, que además pasa el límite de 10 min de sus comandos."""
+    cola = json.load(open(os.path.join(V, 'cola.json'), encoding='utf-8'))
+    for v in (cola if isinstance(cola, list) else cola['videos']):
+        if v['estado'] != 'render':
+            continue
+        slug = v['slug']
+        tlx = ['bash', os.path.join(RAIZ, 'herramientas', 'tlx')]
+        escribir(log, f'Render de {slug} (sin Claude).')
+        try:
+            r = subprocess.run(tlx + ['render', slug], cwd=RAIZ, capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=50 * 60)
+            ok, salida = r.returncode == 0, r.stdout + r.stderr
+        except subprocess.TimeoutExpired:
+            ok, salida = False, 'el render pasó los 50 min'
+        if ok:
+            c = subprocess.run(tlx + ['control', slug], cwd=RAIZ, capture_output=True, text=True, encoding='utf-8', errors='replace')
+            ok, salida = c.stdout.strip().endswith('OK'), c.stdout
+        estado, motivo = ('listo', 'render sin Claude') if ok else ('apartado', 'render/control: ' + salida.strip()[-300:])
+        subprocess.run(tlx + ['cola', 'estado', slug, estado, motivo], cwd=RAIZ)
+        escribir(log, f'{slug}: {estado} ({motivo[:200]})')
+
+
 def produccion():
     log = f'noche_{AHORA:%Y-%m-%d}.log'
     if os.path.exists(os.path.join(RAIZ, 'PAUSA')):
@@ -126,7 +149,9 @@ def produccion():
         escribir(log, f'Termina el radar ({"ok" if ok else "con problemas"}).')
         return aviso_noche()
     escribir(log, f'Arranca la producción ({n} listos en la cola, meta {META}).')
+    renderizar_pendientes(log)  # quedó alguno de un turno anterior
     ok = claude(PEDIDO, log, 110)
+    renderizar_pendientes(log)
     if not ok:
         plan_b(log)
     escribir(log, f'Termina la producción ({"ok" if ok else "Claude no terminó bien"}).')

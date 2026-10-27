@@ -48,7 +48,17 @@ Lanzá un subagente (Agent, general-purpose) que NO escribió el guion, con este
 - Si sale con código 3 (**CUOTA AGOTADA**): no sigas con este video. Dejalo en `produccion`, anotalo en `videos/produccion.log` y terminá la corrida.
 - Revisá la salida: tiene que decir "N palabras del guion, N oídas" con números parecidos.
 
-## 5. Escenas (`motor/src/videos/<slug>/Video.tsx`): diagrama ilustrado
+## 5. Escenas 3D (estilo por defecto desde el 26/10/2026)
+Mateo aprobó el piloto 3D (`020-pava-se-corta`, estilo "ver por dentro"): objeto de la vida diaria en 3D, fondo azul noche, cámara que recorre el mecanismo, piezas que se vuelven transparentes, subtítulo de 1–3 palabras con una en color. **Todo video cuyo tema tenga un objeto o mecanismo físico va en 3D.** Si el tema no tiene objeto (clima, matemática, el cuerpo por dentro), usá el diagrama 2D de la sección 5b.
+
+**Gastá poco (la cuota de Claude es de Mateo y se agota):** leé solo `motor/src/kit3d/*.tsx` y `motor/src/videos/020-pava-se-corta/Video.tsx` (y `Pava.tsx` solo si tenés que modelar un objeto nuevo); no explores otros videos; no regeneres la voz; no renderices el video entero.
+1. **Objeto**: buscá primero en `motor/src/kit3d/objetos/`. Si no está, modelalo con código como `Pava.tsx` (torno `LatheGeometry` para cuerpos redondos —perfil de abajo hacia arriba, si no las normales quedan al revés—, `tubo()` para manijas y caños, cajas redondeadas, materiales `Acero`/`Plastico` con `fantasma` para volverlos transparentes). Guardalo en `motor/src/kit3d/objetos/<Objeto>.tsx` con su tipo de estado, para que el próximo video lo reuse.
+2. **Video.tsx**: copiá la estructura del 020: `E` (momentos por frase con `r.f`/`r.w`), `TOMAS` (cámara por frase: plano entero → acercarse al mecanismo → volver al plano del principio), `estado(frame)` con `k()` por tramos, `Chip` para el dato con número, `Subtitulo3D` con `DESTACAR` (palabras enteras) y `CIFRAS` (lo que la voz dice en palabras va en números), `Marco3D`, `Cierre3D`, voz, `Musica` a 0,12 y `Sfx`. Nada de `useFrame`: todo sale de `useCurrentFrame()`.
+3. Cosas aprendidas: vapor/humo con sprites (ya en el kit), no esferas; en los primeros planos volvé transparentes la base y la caja que tapan el mecanismo; ningún tubo puede terminar delante de la pieza que se muestra (se ve un triángulo); los materiales que cambian de opaco a transparente necesitan la `key` (ya está en `Acero`/`Plastico`).
+4. **Portada** `Portada<NNN>`: el molde `Portada` de siempre (franja con número, `arriba`, `grande`, `sello`) con el objeto 3D adentro en `<Estudio fondo={false}>`, como `Portada020`.
+5. Registrá `h<slug>` y `p<slug>` en `Root.tsx` y corré `./herramientas/tlx tsc`.
+
+## 5b. Escenas 2D (`motor/src/videos/<slug>/Video.tsx`): diagrama ilustrado (solo temas sin objeto físico)
 1. **Elegí el mundo**: UN escenario donde pasa todo el video (corte de la atmósfera, cocina, parrilla, heladera abierta, panza por dentro…). Escribí arriba del archivo, en un comentario, el mundo y qué mecanismo muestra.
 2. **Planificá la cámara**: para cada frase, qué parte del mundo se ve y con qué zoom (`TOMAS` con `toma(frame, x, y, zoom)`), qué aparece y qué se mueve. Copiá la estructura del 005: `Mundo` (SVG con estado según el frame), `Anotaciones` (rótulos, contadores, lupa: se mueven con la cámara), `Diagrama` (cámara + golpes de zoom) y capas de pantalla por frase (`Etiqueta`, `Titulo`, `Sello`, `Globo`) dentro de `Sequence layout="none"`.
 3. **Objetos**: primero `kit/biblioteca.tsx` (lámina `marca/referencias/biblioteca.png`: nube, sol, heladera, olla, sartén, bife, persona, anafe, termómetro, vaso, barrio, auto) y las piezas de `kit/diagrama.tsx`. Si el objeto protagonista no existe, hacelo con el skill `dibujar-objeto` (mínimo 3 vueltas de pulido en el taller) antes de seguir.
@@ -68,7 +78,10 @@ Lanzá un subagente (Agent, general-purpose) que NO escribió el guion, con este
 11. Registrá `h<slug>` y `p<slug>` en `motor/src/Root.tsx` (patrón de los existentes). La portada usa los objetos del mundo, sin caras.
 12. `./herramientas/tlx tsc` sin errores.
 
-## 6. Revisión visual (obligatoria, mínimo 2 vueltas)
+## 6. Revisión visual
+**3D:** `./herramientas/tlx cuadros <slug> <8 frames: gancho, mecanismo, primer plano, golpe, dato, ojo, cierre…>` y mirá la hoja. **Máximo 2 vueltas.** Revisá: el mecanismo se ve y no lo tapa otra pieza, nada importante debajo de y=1350 (ahí van los subtítulos), el objeto se reconoce, no hay artefactos. Después seguí con la sección 7 (3D).
+
+**2D (mínimo 2 vueltas):**
 `./herramientas/tlx cuadros <slug> <12 frames: uno por frase, cuando ya apareció lo importante>` y mirá `videos/<slug>/cuadros/hoja.png` (grilla de 4 columnas) con Read. Compará con `marca/referencias/modelo_005_granizo_v2.png`. Corregí y repetí hasta que no haya:
 - textos que se pisan (título con nube, rótulo con sol, globo fuera de pantalla, fuente cortada),
 - cosas importantes arriba de y=220 o debajo de y=1610, bordes de rectángulos de fondo visibles al hacer zoom,
@@ -77,6 +90,9 @@ Lanzá un subagente (Agent, general-purpose) que NO escribió el guion, con este
 Si tocaste el kit: corré también `tlx cuadros 005-granizo-calor 700 1200` para confirmar que no rompiste el modelo.
 
 ## 7. Render, caption y control
+**3D: no renderices.** Escribí `caption.txt` y `meta.json` (puntos 2 y 3) y marcá `./herramientas/tlx cola estado <slug> render "escenas 3D listas"`. Al terminar tu turno, `producir.py` lo renderiza (unos 20 min por software en la nube), saca la portada, corre el control y lo pasa a `listo` o a `apartado` sin usar Claude.
+
+**2D:**
 1. `./herramientas/tlx render <slug>`.
 2. `videos/<slug>/caption.txt`: gancho + golpe con emoji en la primera línea; 2–4 párrafos cortos con el dato y su fuente; "Ojo:"; "👇 Mandáselo a ese que…"; una pregunta para comentarios concreta y fácil de contestar en una palabra o un número; "Fuentes: …"; "Seguí a @teloexplico.ar: un dato por día."; 5 hashtags (#datoscuriosos + 4 del tema). Todo dato del caption también tiene que estar en el chequeo.
 3. `videos/<slug>/meta.json`: `{"portada_ms": <ms del momento del golpe, cuando se ve el título resaltado>}`.

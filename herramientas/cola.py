@@ -12,7 +12,8 @@ import json, os, sys, datetime
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ARCHIVO = os.path.join(RAIZ, 'videos', 'cola.json')
-ESTADOS = ('idea', 'produccion', 'listo', 'publicado', 'apartado')
+# render: escenas terminadas por Claude; producir.py lo renderiza y controla después, sin Claude (videos 3D, 26/10)
+ESTADOS = ('idea', 'produccion', 'render', 'listo', 'publicado', 'apartado')
 
 
 def cargar():

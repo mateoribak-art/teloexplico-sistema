@@ -43,7 +43,7 @@ def subir_videos():
             subir.append((copia_p, f"{v['slug']}.portada.png"))
         # la voz de un video a medias: así el próximo turno (en otra máquina) sigue sin gastar otro pedido de Gemini
         voz = os.path.join(RAIZ, 'motor', 'public', v['slug'], 'voz.wav')
-        if v['estado'] in ('produccion', 'apartado') and os.path.exists(voz) and en_release.get(f"{v['slug']}.voz.wav") != str(os.path.getsize(voz)):
+        if v['estado'] in ('produccion', 'render', 'apartado') and os.path.exists(voz) and en_release.get(f"{v['slug']}.voz.wav") != str(os.path.getsize(voz)):
             # gh sube con el nombre del archivo (todas se llaman voz.wav): se copia con el nombre final
             copia = os.path.join(tempfile.gettempdir(), f"{v['slug']}.voz.wav")
             shutil.copy(voz, copia)
@@ -62,7 +62,7 @@ def bajar_voces():
     """En la nube: baja la voz de los videos que quedaron a medias para seguirlos sin regenerarla."""
     for v in json.load(open(os.path.join(RAIZ, 'videos', 'cola.json'), encoding='utf-8')):
         destino = os.path.join(RAIZ, 'motor', 'public', v['slug'])
-        if v['estado'] != 'produccion' or os.path.exists(os.path.join(destino, 'voz.wav')):
+        if v['estado'] not in ('produccion', 'render') or os.path.exists(os.path.join(destino, 'voz.wav')):
             continue
         os.makedirs(destino, exist_ok=True)
         r = correr('gh', 'release', 'download', 'videos', '--pattern', f"{v['slug']}.voz.wav", '--dir', destino, '--clobber')

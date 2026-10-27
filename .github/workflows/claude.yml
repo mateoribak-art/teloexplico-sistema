@@ -33,7 +33,7 @@ jobs:
     # interruptor propio: se prende cuando la producción deja la notebook
     if: github.event_name == 'workflow_dispatch' || vars.CLAUDE_EN_NUBE == 'si'
     runs-on: ubuntu-latest
-    timeout-minutes: 150
+    timeout-minutes: 230  # 110 de Claude + hasta 2 renders 3D por software (~25 min c/u)
     env:
       TLX_NUBE: '1'
       TZ: America/Argentina/Buenos_Aires
