@@ -88,8 +88,8 @@ export const SelloFinal: React.FC<{ mandar?: string }> = ({ mandar }) => {
         >
           <span style={{ background: C.amarillo, padding: "0 10px", borderRadius: 10 }}>{primera}</span> {resto.join(" ")}
         </div>
-        <div style={{ marginTop: 30, opacity: aparece, fontFamily: display, fontWeight: 800, fontSize: 38, color: C.tinta }}>
-          {cap ? `${cap.nombre.toLowerCase()} #${cap.n} · seguí @teloexplico.ar para el #${cap.n + 1}` : "seguí @teloexplico.ar · un dato por día"}
+        <div style={{ marginTop: 30, maxWidth: 900, textAlign: "center", opacity: aparece, fontFamily: display, fontWeight: 800, fontSize: 34, color: C.tinta }}>
+          {cap ? <>{cap.nombre.toLowerCase()} #{cap.n}<br />seguí @teloexplico.ar para el #{cap.n + 1}</> : "seguí @teloexplico.ar · un dato por día"}
         </div>
       </AbsoluteFill>
     );
