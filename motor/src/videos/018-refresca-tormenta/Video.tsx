@@ -303,7 +303,7 @@ export const RefrescaTormenta018: React.FC = () => {
         <Ojo /><Fuente texto="NWS" />
       </Sequence>
       <Sequence name="8 · cta" from={E.cta} durationInFrames={DURACION - E.cta} layout="none"><Cta /></Sequence>
-      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal /></Sequence>
+      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal mandar={`mandáselo a ese que dice "ya refrescó"`} /></Sequence>
 
       <Subtitulos tiempos={tiempos} hasta={E.sello} />
       <Audio src={staticFile("018-refresca-tormenta/voz.wav")} volume={1} />

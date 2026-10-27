@@ -227,7 +227,7 @@ export const ParadojaCumpleanos017: React.FC = () => {
         <Etiqueta texto="dos cualesquiera" color={C.verde} />
       </Sequence>
       <Sequence name="11 · cta" from={E.cta} durationInFrames={DURACION - E.cta} layout="none"><Cta /></Sequence>
-      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal /></Sequence>
+      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal mandar={`mandáselo a ese que jura que en su grupo nunca coinciden los cumpleaños`} /></Sequence>
 
       <Subtitulos tiempos={tiempos} hasta={E.sello} />
       <Audio src={staticFile("017-paradoja-cumpleanos/voz.wav")} volume={1} />

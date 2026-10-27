@@ -270,7 +270,7 @@ export const ElNinoClima016: React.FC = () => {
         <Vuelve /><Fuente texto="NOAA" />
       </Sequence>
       <Sequence name="8 · cta" from={E.cta} durationInFrames={DURACION - E.cta} layout="none"><Cta /></Sequence>
-      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal /></Sequence>
+      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal mandar={`mandáselo a ese que dice que el clima está loco`} /></Sequence>
 
       <Subtitulos tiempos={tiempos} hasta={E.sello} />
       <Audio src={staticFile("016-el-nino-clima/voz.wav")} volume={1} />

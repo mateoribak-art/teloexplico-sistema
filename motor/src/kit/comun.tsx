@@ -34,12 +34,66 @@ export const TituloHablado: React.FC<{ tiempos: Tiempos; frase: number; desde: n
   );
 };
 
-/** Final: el logo cae como sello un instante y el video vuelve a empezar (loop). */
-export const SelloFinal: React.FC = () => {
+/** Avioncito de "compartir" de Instagram. */
+const Avion: React.FC<{ tam: number }> = ({ tam }) => (
+  <svg width={tam} height={tam} viewBox="0 0 24 24" fill="none" stroke={C.tinta} strokeWidth={2.4} strokeLinejoin="round">
+    <path d="M22 3 9.2 10.1M22 3l-7 18-5.8-10.9L2 7.5z" />
+  </svg>
+);
+
+/** Final: el logo cae como sello un instante y el video vuelve a empezar (loop).
+ *  `mandar` (27/10, referentes): repite en pantalla el "Mandáselo a ese que…" del guion, con un toque al avioncito de compartir. */
+export const SelloFinal: React.FC<{ mandar?: string }> = ({ mandar }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const r = resorte(frame, fps, 0, 320);
   const cap = useCapitulo();
+  if (mandar) {
+    const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
+    const aparece = interpolate(frame, [3, 9], [0, 1], clamp);
+    // toque: el avioncito se hunde y suelta una onda
+    const toque = frame - 12;
+    const hundido = interpolate(toque, [0, 3, 8], [1, 0.82, 1], clamp);
+    const onda = interpolate(toque, [0, 16], [0, 1], clamp);
+    const [primera, ...resto] = mandar.split(" ");
+    return (
+      <AbsoluteFill style={{ flexDirection: "column", justifyContent: "center", alignItems: "center", background: `rgba(255,246,229,${Math.min(1, frame / 4)})` }}>
+        <div
+          style={{
+            scale: interpolate(r, [0, 1], [2.2, 1]), rotate: "-4deg", display: "flex", alignItems: "center", gap: 12,
+            background: C.blanco, border: `6px solid ${C.tinta}`, borderRadius: 24, boxShadow: sombra(9), padding: "12px 28px",
+            fontFamily: display, fontWeight: 800, fontSize: 64, color: C.tinta, letterSpacing: -2,
+          }}
+        >
+          te lo explico <Burbuja tam={54} />
+        </div>
+        <div style={{ position: "relative", width: 140, height: 140, marginTop: 56, opacity: aparece }}>
+          {toque >= 0 && onda < 1 && (
+            <div style={{ position: "absolute", inset: 0, borderRadius: "50%", border: `6px solid ${C.tinta}`, opacity: 1 - onda, transform: `scale(${1 + onda * 0.9})` }} />
+          )}
+          <div
+            style={{
+              position: "absolute", inset: 0, borderRadius: "50%", background: C.amarillo, border: `6px solid ${C.tinta}`, boxShadow: sombra(7),
+              display: "flex", justifyContent: "center", alignItems: "center", transform: `scale(${hundido})`,
+            }}
+          >
+            <Avion tam={70} />
+          </div>
+        </div>
+        <div
+          style={{
+            marginTop: 34, maxWidth: 920, textAlign: "center", opacity: aparece, fontFamily: display, fontWeight: 800,
+            fontSize: 64, lineHeight: 1.1, letterSpacing: -1.5, color: C.tinta,
+          }}
+        >
+          <span style={{ background: C.amarillo, padding: "0 10px", borderRadius: 10 }}>{primera}</span> {resto.join(" ")}
+        </div>
+        <div style={{ marginTop: 30, opacity: aparece, fontFamily: display, fontWeight: 800, fontSize: 38, color: C.tinta }}>
+          {cap ? `${cap.nombre.toLowerCase()} #${cap.n} · seguí @teloexplico.ar para el #${cap.n + 1}` : "seguí @teloexplico.ar · un dato por día"}
+        </div>
+      </AbsoluteFill>
+    );
+  }
   return (
     <AbsoluteFill style={{ flexDirection: "column", justifyContent: "center", alignItems: "center", background: `rgba(255,246,229,${Math.min(0.85, frame / 4)})` }}>
       <div

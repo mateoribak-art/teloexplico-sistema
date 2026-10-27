@@ -399,7 +399,7 @@ export const DescongelarMesada015: React.FC = () => {
       <Sequence name="9 · ojo" from={E.ojo} durationInFrames={E.noche - E.ojo} layout="none"><Ojo /><Fuente texto="USDA FSIS" /></Sequence>
       <Sequence name="10 · noche" from={E.noche} durationInFrames={E.manda - E.noche} layout="none"><Etiqueta texto="el plan" color={C.verde} /></Sequence>
       <Sequence name="11 · manda" from={E.manda} durationInFrames={DURACION - E.manda} layout="none"><Manda /></Sequence>
-      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal /></Sequence>
+      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal mandar={`mandáselo a ese que deja el asado en la mesada desde la mañana`} /></Sequence>
 
       <Subtitulos tiempos={tiempos} hasta={E.sello} />
       <Audio src={staticFile("015-descongelar-mesada/voz.wav")} volume={1} />

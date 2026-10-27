@@ -290,7 +290,7 @@ export const RayoTrueno018: React.FC = () => {
         <Sello texto="SI TRUENA, ADENTRO" desde={r.w(8, "truena") - E.adentro - 4} x={110} y={440} rot={-4} color={C.rojo} tam={58} />
       </Sequence>
       <Sequence name="10 · cta" from={E.cta} durationInFrames={DURACION - E.cta} layout="none"><Cta /></Sequence>
-      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal /></Sequence>
+      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal mandar={`mandáselo a ese que sale al balcón a filmar los rayos`} /></Sequence>
 
       <Subtitulos tiempos={tiempos} hasta={E.sello} />
       <Audio src={staticFile("018-rayo-trueno/voz.wav")} volume={1} />

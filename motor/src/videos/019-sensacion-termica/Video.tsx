@@ -269,7 +269,7 @@ export const SensacionTermica019: React.FC = () => {
         <Titulo pregunta="misma temperatura…" desdeP={0} respuesta="¡otra humedad!" desdeR={r.w(8, "humedad") - E.remate} top={400} tamR={96} />
       </Sequence>
       <Sequence name="10 · cta" from={E.cta} durationInFrames={DURACION - E.cta} layout="none"><Cta /></Sequence>
-      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal /></Sequence>
+      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal mandar={`mandáselo a ese que dice "no hace tanto calor, son 30"`} /></Sequence>
 
       <Subtitulos tiempos={tiempos} hasta={E.sello} />
       <Audio src={staticFile("019-sensacion-termica/voz.wav")} volume={1} />

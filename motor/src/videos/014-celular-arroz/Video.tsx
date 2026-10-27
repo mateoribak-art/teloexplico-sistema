@@ -377,7 +377,7 @@ export const CelularArroz014: React.FC = () => {
       </Sequence>
       <Sequence name="10 · ojo" from={E.ojo} durationInFrames={E.manda - E.ojo} layout="none"><Ojo /></Sequence>
       <Sequence name="11 · manda" from={E.manda} durationInFrames={DURACION - E.manda} layout="none"><Manda /></Sequence>
-      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal /></Sequence>
+      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal mandar={`mandáselo a ese que ya tiene el arroz listo en la alacena`} /></Sequence>
 
       <Subtitulos tiempos={tiempos} hasta={E.sello} />
       <Audio src={staticFile("014-celular-arroz/voz.wav")} volume={1} />

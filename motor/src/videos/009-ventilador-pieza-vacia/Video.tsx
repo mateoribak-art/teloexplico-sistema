@@ -272,7 +272,7 @@ export const Ventilador009: React.FC = () => {
       <Sequence name="9 · ojo" from={E.ojo} durationInFrames={E.remate - E.ojo} layout="none"><Ojo /></Sequence>
       <Sequence name="10 · remate" from={E.remate} durationInFrames={E.manda - E.remate} layout="none"><Remate /></Sequence>
       <Sequence name="11 · manda" from={E.manda} durationInFrames={DURACION - E.manda} layout="none"><Manda /></Sequence>
-      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal /></Sequence>
+      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal mandar={`mandáselo a ese que deja el ventilador prendido en una pieza vacía`} /></Sequence>
 
       <Subtitulos tiempos={tiempos} hasta={E.sello} />
       <Audio src={staticFile("009-ventilador-pieza-vacia/voz.wav")} volume={1} />

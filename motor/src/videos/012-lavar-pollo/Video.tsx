@@ -336,7 +336,7 @@ export const LavarPollo012: React.FC = () => {
       <Sequence name="9 · ojo" from={E.manos} durationInFrames={E.sacalo - E.manos} layout="none"><Ojo /></Sequence>
       <Sequence name="10 · sacalo" from={E.sacalo} durationInFrames={E.manda - E.sacalo} layout="none"><Sacalo /></Sequence>
       <Sequence name="11 · manda" from={E.manda} durationInFrames={DURACION - E.manda} layout="none"><Manda /></Sequence>
-      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal /></Sequence>
+      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal mandar={`mandáselo a ese que enjuaga el pollo como si lo estuviera bañando`} /></Sequence>
 
       <Subtitulos tiempos={tiempos} hasta={E.sello} />
       <Audio src={staticFile("012-lavar-pollo/voz.wav")} volume={1} />

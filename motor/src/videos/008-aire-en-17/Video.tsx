@@ -349,7 +349,7 @@ export const AireEn17008: React.FC = () => {
       </Sequence>
       <Sequence name="10 · regla" from={E.regla} durationInFrames={E.remate - E.regla} layout="none"><Regla /></Sequence>
       <Sequence name="11 · remate" from={E.remate} durationInFrames={DURACION - E.remate} layout="none"><Remate /></Sequence>
-      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal /></Sequence>
+      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal mandar={`mandáselo a ese que pone el aire en 17 para que enfríe más rápido`} /></Sequence>
 
       <Subtitulos tiempos={tiempos} hasta={E.sello} />
       <Audio src={staticFile("008-aire-en-17/voz.wav")} volume={1} />
