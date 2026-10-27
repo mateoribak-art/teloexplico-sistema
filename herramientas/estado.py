@@ -71,9 +71,10 @@ def problemas(d):
         h = v.get('historial', [])
         if v['estado'] == 'apartado' and h and h[-1]['cuando'] >= (AHORA - datetime.timedelta(days=1)).isoformat(timespec='minutes'):
             p.append(('aviso', f"Video apartado: {v['slug']} — {h[-1].get('motivo', '')[:120]}"))
-    n = d['ultima_noche']
+    # solo la última corrida del día: el log junta todos los turnos y un límite de la mañana avisaba aunque después anduviera (26/10)
+    n = d['ultima_noche'].rsplit('Arranca la producción', 1)[-1]
     if 'LIMITE CLAUDE' in n:
-        p.append(('aviso', f'Claude se quedó sin cuota en la última producción (se reintenta sola a las 00:30 y 06:00). '
+        p.append(('aviso', f'Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). '
                            f'Colchón: {len(listos)} videos listos ≈ {len(listos) / 2:g} días.'))
     if 'CUOTA AGOTADA' in n:
         p.append(('aviso', 'La producción de anoche se cortó: se agotó la cuota diaria de voz de Gemini.'))
