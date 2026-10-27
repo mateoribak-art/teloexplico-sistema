@@ -160,7 +160,7 @@
  {
   "slug": "005-granizo-calor",
   "tema": "¿Por qué cae granizo justo cuando hace calor?",
-  "estado": "apartado",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -181,6 +181,11 @@
     "estado": "apartado",
     "cuando": "2026-10-25T19:32",
     "motivo": "la voz no coincide con el guion (88%)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T16:36",
+    "motivo": "falso-rechazo-de-voz-corregido"
    }
   ],
   "prioridad": "actualidad",
