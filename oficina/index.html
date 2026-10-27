@@ -4,6 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
+<!-- instalable en el celular ("Agregar a inicio"): como app, la clave guardada no se pierde -->
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icono-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Oficina">
+<meta name="theme-color" content="#2E4BFF">
 <title>La oficina</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -934,7 +941,7 @@ async function alternarPausa() {
   } catch (err) { toast('No se pudo: ' + err.message); }
 }
 let relojToast;
-function toast(t) { const el = $('#toast'); el.textContent = t; el.classList.add('ver'); clearTimeout(relojToast); relojToast = setTimeout(() => el.classList.remove('ver'), 4500); }
+function toast(t) { const el = $('#toast'); el.textContent = t; el.classList.add('ver'); clearTimeout(relojToast); relojToast = setTimeout(() => el.classList.remove('ver'), Math.max(4500, t.length * 70)); }
 
 // ================= eventos
 document.addEventListener('click', ev => {
@@ -956,6 +963,9 @@ $('#b-cancelar').onclick = () => { $('#conectar').style.display = 'none'; };
 $('#b-guardar').onclick = () => {
   token = $('#i-token').value.trim(); guardado('oficina_token', token);
   $('#i-token').value = ''; $('#conectar').style.display = 'none';
+  // pedirle al navegador que no borre lo guardado; y avisar si no deja guardar (incógnito, cookies bloqueadas, navegador de otra app)
+  try { navigator.storage && navigator.storage.persist && navigator.storage.persist(); } catch (e) {}
+  if (token && guardado('oficina_token') !== token) setTimeout(() => toast('Ojo: este navegador no guarda la clave (¿modo privado o abierta desde WhatsApp/Instagram?). Abrila en Safari o Chrome y agregala a la pantalla de inicio.'), 600);
   cargar();
 };
 
