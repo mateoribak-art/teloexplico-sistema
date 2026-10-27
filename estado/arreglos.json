@@ -29,5 +29,21 @@
   "resumen": "Claude intentaba editar archivos con un comando prohibido; lo hacía igual por el camino permitido, pero el turno quedaba como fallado y se salteaba el carrusel. Se corrigió en producir.py el 27/10: desde el próximo turno de producción vuelve a verde.",
   "creado": "2026-10-27T15:01",
   "actualizado": "2026-10-27T15:01"
+ },
+ {
+  "id": "mvr34aw8-voz",
+  "creado": "2026-10-27T16:35",
+  "empleado": "es/voz",
+  "estado": "aplicado",
+  "auto": false,
+  "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Nacho (Locutor) está en \"ojo\": La voz no coincidió con el guion en 005-granizo-calor.\nLo que sugiere la oficina: Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.\nTareas:\n005-granizo-calor: la voz no coincide con el guion (88%)\n\nRevisalo en C:\\Users\\Mateo\\teloexplico (sistema de teloexplico / letmeexplain) y arreglalo.",
+  "firma": "4985204fec50",
+  "actualizado": "2026-10-27T16:36",
+  "titulo": "El video del granizo estaba apartado por un falso rechazo de la voz, y lo devolví a \"listo\".",
+  "resumen": "El control de voz había frenado el 005-granizo-calor el 25/10 con 88 % de coincidencia. Eso fue antes del arreglo del 26/10, que hizo que el control de voz en la nube use precisión completa. Antes confundía palabras y daba rechazos falsos. El 016-el-nino-clima tuvo el mismo problema y después se publicó bien. No cambié código. Pasé el video a \"listo\", así que el publicador lo vuelve a controlar con el control corregido y lo publica en su próximo turno. Si el control lo rechaza otra vez, queda apartado de nuevo.",
+  "commit": "21bcda45590bd991ed03ebc0da460dbeb49e54f5",
+  "archivos": [
+   "videos/cola.json"
+  ]
  }
 ]
