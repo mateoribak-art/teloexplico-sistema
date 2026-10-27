@@ -1,6 +1,6 @@
-# El técnico de la oficina (herramientas/arreglar.py): lo disparan los botones de oficina/index.html.
-# proponer: Claude busca la causa del problema de un empleado y deja el arreglo en la rama arreglo/<id> (no toca main).
-# aplicar / descartar: Mateo decide desde la oficina. Nada cambia en el sistema sin su "va".
+# El técnico de la oficina (herramientas/arreglar.py): lo lanza la vigilancia (arreglar.py revisar) o un botón de oficina/index.html.
+# arreglar: Claude busca la causa del problema de un empleado y lo resuelve solo; frena solo si necesita a Mateo.
+# deshacer: revierte un arreglo aplicado. visto: Mateo ya hizo lo que se le pedía.
 name: Arreglar
 run-name: "${{ inputs.accion }} ${{ inputs.id }} (${{ inputs.empleado }})"
 
@@ -8,10 +8,10 @@ on:
   workflow_dispatch:
     inputs:
       accion:
-        description: 'proponer · aplicar · descartar'
+        description: 'arreglar · deshacer · visto'
         type: choice
-        options: [proponer, aplicar, descartar]
-        default: proponer
+        options: [arreglar, deshacer, visto]
+        default: arreglar
       id:
         description: 'id del arreglo (lo arma la oficina)'
         required: true
@@ -19,16 +19,20 @@ on:
         description: 'cuenta/empleado, ej. es/jefe'
         default: ''
       problema:
-        description: 'el problema, con su registro (solo para proponer)'
+        description: 'el problema, con su registro (solo para arreglar)'
         default: ''
+      auto:
+        description: 'si = lo lanzó la vigilancia'
+        default: 'no'
 
-# proponer usa la cuota de Claude: espera su turno junto con la producción; aplicar y descartar van aparte
+# arreglar usa la cuota de Claude: espera su turno junto con la producción; deshacer y visto van aparte
 concurrency:
-  group: ${{ inputs.accion == 'proponer' && 'claude' || 'arreglos' }}
+  group: ${{ inputs.accion == 'arreglar' && 'claude' || 'arreglos' }}
   cancel-in-progress: false
 
 permissions:
   contents: write
+  actions: write   # el técnico puede relanzar un flujo (gh workflow run)
 
 jobs:
   arreglar:
@@ -43,6 +47,7 @@ jobs:
       ARREGLO_ID: ${{ inputs.id }}
       ARREGLO_EMPLEADO: ${{ inputs.empleado }}
       ARREGLO_PROBLEMA: ${{ inputs.problema }}
+      ARREGLO_AUTO: ${{ inputs.auto }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -59,7 +64,7 @@ jobs:
           TIKTOK_JSON: ${{ secrets.TIKTOK_JSON }}
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
       - name: Claude
-        if: inputs.accion == 'proponer'
+        if: inputs.accion == 'arreglar'
         run: |
           npm install -g @anthropic-ai/claude-code > /dev/null
           git config user.name teloexplico-nube
@@ -86,7 +91,3 @@ jobs:
         working-directory: herramientas
         run: |
           python -I sincronizar.py "Oficina: arreglo ${ARREGLO_ID} (${ARREGLO_ACCION})"
-      - name: Borrar la propuesta
-        if: success() && inputs.accion != 'proponer'
-        run: |
-          git push -q origin --delete "arreglo/${ARREGLO_ID}" || true

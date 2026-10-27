@@ -277,8 +277,6 @@ function estadoReal(e) {
   return e.estado;
 }
 const oficinaActual = () => datos && datos.oficinas.find(o => o.clave === actual);
-const propuestos = of => (datos.arreglos || []).filter(a => a.estado === 'propuesto' && (a.empleado || '').startsWith(of.clave + '/'));
-
 // ================= 3D: escena
 const lienzo = $('#mundo');
 const renderer = new THREE.WebGLRenderer({canvas: lienzo, antialias: true});
@@ -743,7 +741,7 @@ function pintar() {
   aplicarEstados(of);
   pintarTele(of);
   const pend = (of.pausa ? ['El sistema está en pausa: nadie produce ni publica hasta que lo reanudes.'] : []).concat(of.pendientes || []);
-  const total = pend.length + propuestos(of).length;
+  const total = pend.length;
   $('#paravos').style.display = total ? 'inline-flex' : 'none';
   $('#paravos').querySelector('b').textContent = total;
   $('#paravos').querySelector('span').textContent = total === 1 ? 'te toca 1 cosa' : `te tocan ${total} cosas`;
@@ -775,10 +773,11 @@ function abrirVista(cual) {
   } else {
     const pend = (of.pausa ? ['El sistema está en pausa: nadie produce ni publica hasta que lo reanudes.'] : []).concat(of.pendientes || []);
     const ojo = of.empleados.filter(e => ['falla', 'aviso'].includes(estadoReal(e)));
-    abrirPanel(`<h2>Para vos</h2><p class="nota">Lo que necesita tu "va" o tu mirada en la oficina de ${esc(of.ciudad)}.</p>
-      ${propuestos(of).length ? `<h3>Arreglos esperando tu OK</h3><ul>${propuestos(of).map(a => { const e = of.empleados.find(x => of.clave + '/' + x.id === a.empleado) || {};
-        return `<li><a class="link" href="#${a.empleado}" data-id="${esc(e.id)}">${esc(e.nombre || a.empleado)}</a>: ${esc(a.titulo)}</li>`; }).join('')}</ul>` : ''}
+    const solos = (datos.arreglos || []).filter(a => a.estado === 'aplicado' && (a.empleado || '').startsWith(of.clave + '/') && Date.now() - fecha(a.actualizado) < 3 * 86400000);
+    abrirPanel(`<h2>Para vos</h2><p class="nota">Solo lo que el equipo no puede hacer sin vos en la oficina de ${esc(of.ciudad)}. Todo lo demás lo resuelven solos.</p>
       <h3>Te toca</h3><ul>${pend.map(p => `<li>${esc(p)}</li>`).join('') || '<li>Nada: todo en orden ✓</li>'}</ul>
+      ${solos.length ? `<h3>Lo que arreglaron solos (últimos 3 días)</h3><ul>${solos.map(a => { const e = of.empleados.find(x => of.clave + '/' + x.id === a.empleado) || {};
+        return `<li><a class="link" href="#${esc(a.empleado)}" data-id="${esc(e.id)}">${esc(e.nombre || a.empleado)}</a>: ${esc(a.titulo)}</li>`; }).join('')}</ul>` : ''}
       <h3>Quién está con problemas</h3><ul>${ojo.map(e => `<li><a class="link" href="#${of.clave}/${e.id}" data-id="${e.id}">${esc(e.nombre)}</a> (${esc(e.puesto)}): ${esc(e.resumen)}</li>`).join('') || '<li>Nadie ✓</li>'}</ul>`);
   }
 }
@@ -830,30 +829,33 @@ function cerrar() {
 }
 
 // ================= acciones
-// lo que ve Mateo en el panel: pedir el arreglo, esperar, y decidir sobre lo que propone Claude
+// el técnico trabaja solo (lo lanza la vigilancia); acá Mateo ve qué hizo, lo deshace si quiere,
+// hace lo que se le pide cuando de verdad lo necesitan, o lo apura con el botón
 function seccionArreglo(e, of, st) {
   const ult = arreglosDe(of.clave, e.id).slice(-1)[0];
   const corriendo = corridaArreglo(of.clave, e.id);
   const problema = st === 'aviso' || st === 'falla';
-  const caja = (titulo, cuerpo) => `<h3>Arreglarlo</h3><div class="arreglo" style="background:#F7F3EA">${titulo}${cuerpo}</div>`;
-  if (corriendo || arreglandose(of.clave, e.id))
-    return caja('<b>🔧 Claude está buscando la causa…</b>', `<div class="nota">${corriendo ? 'Arrancó ' + hace(new Date(corriendo.run_started_at || corriendo.created_at)) + '. ' : 'Arrancando. '}
-      Tarda unos minutos (si hay una producción en curso, espera a que termine). Cuando tenga el arreglo te aparece acá y en "Para vos".</div>`);
-  if (ult && ult.estado === 'propuesto')
-    return caja(`<b>Claude propone: ${esc(ult.titulo)}</b>`, `<p style="margin:6px 0">${esc(ult.resumen)}</p>
-      <div class="nota">Cambia: ${esc((ult.archivos || []).join(', '))} · <a class="link" href="https://github.com/${REPO}/compare/main...${esc(ult.rama)}" target="_blank" rel="noopener">ver los cambios</a></div>
-      <div class="acciones"><button class="btn primario" data-arreglo="${esc(ult.id)}" data-accion="aplicar">✅ Aplicar</button><button class="btn" data-arreglo="${esc(ult.id)}" data-accion="descartar">Descartar</button></div>
-      <div class="nota">No se aplica nada sin tu OK. Si lo aplicás, rige desde el próximo turno.</div>`);
-  if (ult && ult.estado === 'explicado' && problema)
-    return caja(`<b>Claude lo revisó: ${esc(ult.titulo)}</b>`, `<p style="margin:6px 0">${esc(ult.resumen)}</p>
-      <div class="nota">No hacía falta cambiar el sistema.</div>
-      <div class="acciones"><button class="btn" data-arreglo="${esc(ult.id)}" data-accion="descartar">Entendido</button><button class="btn" id="b-arreglar">Pedir de nuevo</button></div>`);
-  const previo = ult && ['fallo', 'conflicto'].includes(ult.estado) ? `<p style="margin:6px 0">⚠️ El último intento no salió: ${esc(ult.error || ult.resumen || ult.titulo)}</p>`
-    : ult && ult.estado === 'aplicado' ? `<p style="margin:6px 0">✅ Último arreglo aplicado ${hace(fecha(ult.actualizado))}: ${esc(ult.titulo)}</p>` : '';
+  const caja = (titulo, cuerpo) => `<h3>El técnico</h3><div class="arreglo" style="background:#F7F3EA">${titulo}${cuerpo}</div>`;
+  const ver = ult && ult.commit ? ` · <a class="link" href="https://github.com/${REPO}/commit/${esc(ult.commit)}" target="_blank" rel="noopener">ver el cambio</a>` : '';
+  if (corriendo || arreglandose(of.clave, e.id) || (ult && ult.estado === 'pedido' && Date.now() - fecha(ult.actualizado) < 3 * 3600000))
+    return caja('<b>🔧 El técnico lo está arreglando…</b>', `<div class="nota">${corriendo ? 'Arrancó ' + hace(new Date(corriendo.run_started_at || corriendo.created_at)) + '. ' : ''}
+      Tarda unos minutos (si hay una producción en curso, espera a que termine). No tenés que hacer nada.</div>`);
+  if (ult && ult.estado === 'necesita')
+    return caja(`<b>🙋 Necesita algo tuyo</b>`, `<p style="margin:6px 0"><b>${esc(ult.que_hacer || ult.titulo)}</b></p><p style="margin:6px 0">${esc(ult.resumen)}</p>
+      <div class="acciones"><button class="btn primario" data-arreglo="${esc(ult.id)}" data-accion="visto" ${token ? '' : 'disabled'}>✅ Ya lo hice</button></div>`);
+  if (ult && ult.estado === 'aplicado')
+    return caja(`<b>✅ Lo arregló solo ${hace(fecha(ult.actualizado))}: ${esc(ult.titulo)}</b>`, `<p style="margin:6px 0">${esc(ult.resumen)}</p>
+      <div class="nota">Cambió: ${esc((ult.archivos || []).join(', '))}${ver}</div>
+      <div class="acciones"><button class="btn" data-arreglo="${esc(ult.id)}" data-accion="deshacer" ${token ? '' : 'disabled'}>↩ Deshacer</button></div>`);
+  if (ult && ult.estado === 'explicado' && (problema || Date.now() - fecha(ult.actualizado) < 86400000))
+    return caja(`<b>🔎 Lo revisó: ${esc(ult.titulo)}</b>`, `<p style="margin:6px 0">${esc(ult.resumen)}</p><div class="nota">No hacía falta cambiar nada.</div>`);
+  const previo = ult && ult.estado === 'fallo' ? `<p style="margin:6px 0">⚠️ El último intento no salió: ${esc(ult.error || ult.resumen || ult.titulo)}</p>`
+    : ult && ult.estado === 'deshecho' ? `<p style="margin:6px 0">↩ Deshiciste el arreglo: ${esc(ult.titulo)}</p>` : '';
   if (!problema) return previo ? caja('', previo) : '';
-  return caja(previo + `<b>🛠 Que lo arregle Claude</b>`, `<div class="nota" style="margin:4px 0 8px">Claude lee el problema y su registro, busca la causa y te propone el arreglo para que lo apruebes.</div>
-    <textarea id="t-nota" placeholder="¿Algo más que tenga que saber? (opcional)" style="min-height:60px"></textarea>
-    <div class="acciones"><button class="btn primario" id="b-arreglar" ${token ? '' : 'disabled'}>🛠 Arreglar con Claude</button></div>
+  return caja(previo + (e.solo ? '<b>⏳ Se arregla solo</b><div class="nota" style="margin:4px 0 8px">No hace falta el técnico: se resuelve en el próximo turno. Si querés, igual lo podés llamar.</div>'
+    : '<b>🔧 El técnico lo va a mirar solo</b><div class="nota" style="margin:4px 0 8px">La vigilancia lo llama en su próxima vuelta (cada 2 h). Si no querés esperar:</div>'),
+    `<textarea id="t-nota" placeholder="¿Algo más que tenga que saber? (opcional)" style="min-height:60px"></textarea>
+    <div class="acciones"><button class="btn primario" id="b-arreglar" ${token ? '' : 'disabled'}>🛠 Arreglar ahora</button></div>
     <div class="nota"><a class="link" href="#" id="b-copiar">o copiar el problema</a> para pegarlo en Claude Code.</div>`);
 }
 async function pedirArreglo(e, of, st) {
@@ -861,19 +863,19 @@ async function pedirArreglo(e, of, st) {
   const id = Date.now().toString(36) + '-' + e.id;
   const problema = textoProblema(e, of, st) + (nota ? '\nNota de Mateo: ' + nota : '');
   try {
-    await gh('/actions/workflows/arreglar.yml/dispatches', {method: 'POST', body: JSON.stringify({ref: 'main', inputs: {accion: 'proponer', id, empleado: of.clave + '/' + e.id, problema: problema.slice(0, 6000)}})});
+    await gh('/actions/workflows/arreglar.yml/dispatches', {method: 'POST', body: JSON.stringify({ref: 'main', inputs: {accion: 'arreglar', id, empleado: of.clave + '/' + e.id, problema: problema.slice(0, 6000)}})});
     enviados[of.clave + '/' + e.id] = Date.now();
-    toast(`Listo: Claude arranca con ${e.nombre}. Te aviso acá cuando tenga el arreglo.`);
+    toast(`Listo: el técnico arranca con ${e.nombre}. Si necesita algo tuyo, te avisa.`);
     pintar(); setTimeout(cargar, 15000);
   } catch (err) { toast('No se pudo pedir el arreglo: ' + err.message); }
 }
 async function decidirArreglo(accion, id, e, of) {
-  if (accion === 'aplicar' && !confirm(`¿Aplicar el arreglo de ${e.nombre}? Rige desde el próximo turno.`)) return;
+  if (accion === 'deshacer' && !confirm(`¿Deshacer el arreglo que hizo el técnico en ${e.nombre}?`)) return;
   try {
     await gh('/actions/workflows/arreglar.yml/dispatches', {method: 'POST', body: JSON.stringify({ref: 'main', inputs: {accion, id, empleado: of.clave + '/' + e.id}})});
     const a = (datos.arreglos || []).find(x => x.id === id);
-    if (a) { a.estado = accion === 'aplicar' ? 'aplicado' : 'descartado'; a.actualizado = new Date().toISOString(); }
-    toast(accion === 'aplicar' ? 'Aplicando el arreglo: en un minuto queda en el sistema.' : 'Listo, descartado.');
+    if (a) { a.estado = accion === 'deshacer' ? 'deshecho' : 'visto'; a.actualizado = new Date().toISOString(); }
+    toast(accion === 'deshacer' ? 'Deshaciendo: en un minuto vuelve a como estaba.' : 'Gracias: el equipo sigue solo.');
     pintar(); setTimeout(cargar, 20000);
   } catch (err) { toast('No se pudo: ' + err.message); }
 }

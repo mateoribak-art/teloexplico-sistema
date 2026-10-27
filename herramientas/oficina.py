@@ -8,7 +8,7 @@ No usa internet ni claves: solo archivos del repo.
 Uso: python -I oficina.py           escribe estado/oficina.json
      python -I oficina.py --html    además arma OFICINA.html (la oficina con los datos adentro, para abrir sin token)
 """
-import datetime, glob, importlib, json, os, re, sys
+import datetime, glob, hashlib, importlib, json, os, re, sys
 
 H = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(H)
@@ -50,6 +50,10 @@ PLANTEL = {
         ('vigilante', 'Walt', 'Vigilancia', '🛡️', 'Recorre todo cada 2 horas y te avisa al celular si algo se trabó.', 'cada 2 h de 8 a 24'),
     ],
 }
+
+# avisos que se resuelven solos: no hace falta despertar al técnico
+SE_ARREGLA_SOLO = ('Claude se quedó sin cuota', 'La última búsqueda terminó con problemas', 'Se agotó la cuota gratis', 'No hay videos listos',
+                   'No quedan carruseles listos', 'La última ronda terminó con problemas', 'Pausa activa')
 
 # qué botón ofrece cada empleado (lo dispara la página con el token: workflow_dispatch del flujo indicado)
 RELANZAR = {
@@ -339,7 +343,11 @@ def oficina(clave):
             empleado(gente['planb'], 'descanso', 'En reserva: entra solo si Claude no responde y quedan 3 videos listos o menos.', None)
 
     seguidores = met['cuenta'][dias[-1]].get('seguidores') if dias else None
-    pendientes = [m for tp, m in problemas if tp == 'grave'] + [f"Revisar apartado: {v['slug']} — {(h.get('motivo') or '')[:120]}" for v, h in apartados]
+    # qué se arregla solo (cuotas que se liberan, reintentos ya programados, colchón que llena el próximo turno): el técnico no sale por eso
+    for e in gente.values():
+        e['solo'] = e['estado'] in ('aviso', 'falla') and (e['resumen'].startswith(SE_ARREGLA_SOLO) or (e['id'] == 'vigilante' and not graves))
+        e['firma'] = hashlib.md5(f"{clave}/{e['id']}:{e['resumen']}".encode()).hexdigest()[:12]  # la misma que usa arreglar.py
+    pendientes = []  # lo que necesita a Mateo: lo completa main() con lo que pidió el técnico
     return {
         'clave': clave, 'usuario': CU['usuario'], 'ciudad': 'Buenos Aires' if clave == 'es' else 'Nueva York', 'zona': CU['zona'],
         'seguidores': seguidores, 'listos': len(listos), 'dias': len(listos) / 2, 'proximo': listos[0]['slug'] if listos else None,
@@ -362,9 +370,19 @@ def main():
     datos['arreglos'] = arreglos[-15:]
     for o in datos['oficinas']:
         for e in o['empleados']:
-            hecho = [x for x in arreglos if x.get('empleado') == f"{o['clave']}/{e['id']}" and x.get('estado') == 'aplicado']
-            if hecho and e['estado'] in ('aviso', 'falla') and (not e['cuando'] or hecho[-1]['actualizado'] > e['cuando']):
-                e.update(estado='ok', resumen=f"Arreglado desde la oficina: {hecho[-1].get('titulo', '')}. Se confirma en su próximo turno.", arreglo=None)
+            suyos = [x for x in arreglos if x.get('empleado') == f"{o['clave']}/{e['id']}"]
+            for x in suyos:
+                if x.get('estado') == 'necesita':
+                    o['pendientes'].append(f"{e['nombre']} ({e['puesto']}): {x.get('que_hacer') or x.get('titulo', '')}")
+            ult = suyos[-1] if suyos else {}
+            if e['estado'] not in ('aviso', 'falla') or not ult:
+                continue
+            if ult.get('estado') == 'necesita':
+                e.update(estado='aviso', solo=True, resumen=f"Necesita algo tuyo: {ult.get('que_hacer') or ult.get('titulo', '')}")
+            elif ult.get('estado') == 'aplicado' and (not e['cuando'] or ult['actualizado'] > e['cuando']):
+                e.update(estado='ok', resumen=f"El técnico lo arregló solo: {ult.get('titulo', '')}. Se confirma en su próximo turno.", arreglo=None)
+            elif ult.get('estado') == 'explicado' and ult.get('firma') == e['firma']:
+                e.update(estado='ok', resumen=f"Revisado por el técnico: {ult.get('titulo', '')}", arreglo=None)
     os.makedirs(os.path.dirname(SALIDA), exist_ok=True)
     json.dump(datos, open(SALIDA, 'w', encoding='utf-8', newline='\n'), ensure_ascii=False, indent=1)
     if '--html' in sys.argv:

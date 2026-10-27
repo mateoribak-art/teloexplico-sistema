@@ -82,6 +82,13 @@ jobs:
           }
           revisar es
           if [ -s ../secretos/meta_en.json ]; then revisar en; fi
+      - name: Técnico automático
+        # cada problema nuevo de la oficina que no se arregla solo despierta al técnico (arreglar.py; frena solo si necesita a Mateo)
+        if: always()
+        working-directory: herramientas
+        run: |
+          python -I oficina.py
+          python -I arreglar.py revisar
       - name: Guardar estado
         if: always()
         working-directory: herramientas
