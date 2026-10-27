@@ -29,8 +29,9 @@ def telegram(metodo, campos, archivo=None):
                       for k, v in {**campos, 'chat_id': conf['chat_id']}.items())
     if archivo:
         campo, ruta = archivo
+        tipo = 'image/png' if ruta.endswith('.png') else 'video/mp4'
         cuerpo += (f'--{limite}\r\nContent-Disposition: form-data; name="{campo}"; filename="{os.path.basename(ruta)}"\r\n'
-                   f'Content-Type: video/mp4\r\n\r\n').encode() + open(ruta, 'rb').read() + b'\r\n'
+                   f'Content-Type: {tipo}\r\n\r\n').encode() + open(ruta, 'rb').read() + b'\r\n'
     cuerpo += f'--{limite}--\r\n'.encode()
     req = urllib.request.Request(f"https://api.telegram.org/bot{conf['token']}/{metodo}", data=cuerpo,
                                  headers={'Content-Type': f'multipart/form-data; boundary={limite}'})
@@ -62,6 +63,13 @@ def mandar_telegram(slug, video, tiktok, titulo, descripcion, youtube=True):
         leyenda = f'▶️ YouTube Shorts · {slug}\n\nTÍTULO (tocá para copiar):\n{titulo}'
     telegram('sendVideo', {'caption': leyenda[:1000], 'supports_streaming': 'true', 'width': '1080', 'height': '1920',
                            'duration': str(round(float(dur)))}, ('video', video))
+    # la portada diseñada, para ponerla de tapa en TikTok (27/10, pedido de Mateo); si falla, siguen los textos
+    portada = os.path.join(os.path.dirname(video), 'portada.png')
+    if os.path.exists(portada):
+        try:
+            telegram('sendPhoto', {'caption': f'🖼️ Portada para TikTok · {slug}\n(guardala y elegila en "Editar portada" › "Subir")'}, ('photo', portada))
+        except Exception as e:
+            print('Telegram: no se pudo mandar la portada:', str(e)[:150])
     if youtube and not youtube_automatico():
         telegram('sendMessage', {'text': f'DESCRIPCIÓN para YouTube:\n\n{descripcion}'[:4000]})
     telegram('sendMessage', {'text': f'Texto para TikTok:\n\n{tiktok}'[:4000]})
