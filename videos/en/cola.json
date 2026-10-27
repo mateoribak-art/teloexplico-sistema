@@ -2,7 +2,7 @@
  {
   "slug": "en-001-phone-rice",
   "tema": "Does rice fix a wet phone? (adapted from 014)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -23,6 +23,11 @@
     "estado": "listo",
     "cuando": "2026-10-27T11:58",
     "motivo": "aprobado por Mateo"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-27T12:36",
+    "motivo": "https://www.instagram.com/reel/DfAMRQ9E1qI/"
    }
   ]
  }

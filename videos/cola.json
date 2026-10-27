@@ -260,7 +260,7 @@
  {
   "slug": "016-el-nino-clima",
   "tema": "¿Por qué este año llueve así? El Niño y el pronóstico oficial para el verano",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -306,6 +306,11 @@
     "estado": "listo",
     "cuando": "2026-10-26T21:46",
     "motivo": "el control de voz de la nube lo apartó por 91 % (era un falso rechazo; ahora la voz se controla solo al producir)"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-27T12:32",
+    "motivo": "https://www.instagram.com/reel/DfAL7kFCkeY/"
    }
   ],
   "prioridad": "actualidad",
