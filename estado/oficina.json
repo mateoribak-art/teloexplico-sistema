@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T20:01",
+ "actualizado": "2026-10-27T20:10",
  "oficinas": [
   {
    "clave": "es",
@@ -181,7 +181,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-10-27T19:32",
-     "hace": "hace 29 min",
+     "hace": "hace 38 min",
      "detalle": [
       "014-celular-arroz: aprobado — Todas las afirmaciones fácticas (pasos, cifras, prohibiciones y la cita sobre el arroz) están en la página de Apple Support 102643 y se cote",
       "020-pava-se-corta: aprobado — Versión final del guion, recortada y sin John Taylor. Las 9 frases están verificadas con fuentes y tienen el matiz correcto. Lo de seguridad",
@@ -214,7 +214,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-10-27T19:32",
-     "hace": "hace 29 min",
+     "hace": "hace 38 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -238,7 +238,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-27 19:32.",
      "cuando": "2026-10-27T19:32",
-     "hace": "hace 29 min",
+     "hace": "hace 38 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -262,7 +262,7 @@
      "estado": "aviso",
      "resumen": "Apartó 1 video(s) en las últimas 48 h.",
      "cuando": "2026-10-27T19:32",
-     "hace": "hace 29 min",
+     "hace": "hace 38 min",
      "detalle": [],
      "tareas": [
       "005-granizo-calor: tema de actualidad vencido (más de 48 h)"
@@ -288,7 +288,7 @@
      "estado": "ok",
      "resumen": "Último: 018-rayo-trueno.",
      "cuando": "2026-10-27T19:34",
-     "hace": "hace 27 min",
+     "hace": "hace 36 min",
      "detalle": [
       "27/10 12:32 016-el-nino-clima publicado: https://www.instagram.com/reel/DfAL7kFCkeY/",
       "27/10 12:33 016-el-nino-clima publicado en Facebook: https://www.facebook.com/reel/3047873295553584/",
@@ -325,7 +325,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-27T19:34",
-     "hace": "hace 27 min",
+     "hace": "hace 36 min",
      "detalle": [
       "26/10 19:35 003-vuelta-carne en la bandeja de TikTok",
       "26/10 19:35 003-vuelta-carne paquete para TikTok/YouTube enviado",
@@ -460,7 +460,7 @@
      },
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo se apartó solo por vencido; no cambié nada.",
-     "cuando": "2026-10-27T20:01",
+     "cuando": "2026-10-27T20:10",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 005-granizo-calor — tema de actualidad vencido (más de 48 h)"
@@ -502,13 +502,18 @@
    "ciudad": "Nueva York",
    "zona": "America/New_York",
    "seguidores": null,
-   "listos": 2,
-   "dias": 1.0,
-   "proximo": "en-002-dst-farmers",
-   "publicados": 1,
+   "listos": 1,
+   "dias": 0.5,
+   "proximo": "en-003-fridge-leftovers",
+   "publicados": 2,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "en-002-dst-farmers",
+     "link": "https://www.instagram.com/reel/DfBAOTDAlvH/",
+     "cuando": "2026-10-27T23:09"
+    },
     {
      "slug": "en-001-phone-rice",
      "link": "https://www.instagram.com/reel/DfAMRQ9E1qI/",
@@ -516,13 +521,6 @@
     }
    ],
    "linea": [
-    {
-     "slug": "en-002-dst-farmers",
-     "tema": "Is daylight saving time for farmers? (fall back Nov 1)",
-     "estado": "listo",
-     "cuando": "2026-10-27T12:49",
-     "motivo": "producción nocturna"
-    },
     {
      "slug": "en-003-fridge-leftovers",
      "tema": "Do leftovers need to cool before the fridge? (adapted from 001)",
@@ -536,6 +534,13 @@
      "estado": "publicado",
      "cuando": "2026-10-27T12:36",
      "motivo": "https://www.instagram.com/reel/DfAMRQ9E1qI/"
+    },
+    {
+     "slug": "en-002-dst-farmers",
+     "tema": "Is daylight saving time for farmers? (fall back Nov 1)",
+     "estado": "publicado",
+     "cuando": "2026-10-27T20:09",
+     "motivo": "https://www.instagram.com/reel/DfBAOTDAlvH/"
     }
    ],
    "empleados": [
@@ -616,8 +621,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 3 de los últimos 3 guiones.",
-     "cuando": "2026-10-27T17:39",
-     "hace": "hace 2 h",
+     "cuando": "2026-10-27T20:09",
+     "hace": "hace 1 min",
      "detalle": [
       "en-001-phone-rice: aprobado — Chequeado el 27/10/2026 contra la página de Apple Support (support.apple.com/en-us/102643, 'If you see a liquid-detection alert on your iPho",
       "en-002-dst-farmers: aprobado — Todas las afirmaciones fácticas tienen fuente (National Archives, History.com, Library of Congress, U.S. DOT/CRS) y las fechas coinciden. No",
@@ -644,8 +649,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-10-27T17:39",
-     "hace": "hace 2 h",
+     "cuando": "2026-10-27T20:09",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -667,14 +672,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-10-27 17:39.",
-     "cuando": "2026-10-27T17:39",
-     "hace": "hace 2 h",
+     "resumen": "Último video terminado: 2026-10-27 20:09.",
+     "cuando": "2026-10-27T20:09",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "e73abd705e0c"
+     "firma": "2952ff9535ee"
     },
     {
      "id": "control",
@@ -691,14 +696,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "2 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-10-27T17:39",
-     "hace": "hace 2 h",
+     "resumen": "1 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-10-27T20:09",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "e22b4a017672"
+     "firma": "ede091eebd83"
     },
     {
      "id": "publicador",
@@ -715,21 +720,25 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: en-001-phone-rice.",
-     "cuando": "2026-10-27T12:37",
-     "hace": "hace 7 h",
+     "resumen": "Último: en-002-dst-farmers.",
+     "cuando": "2026-10-27T20:10",
+     "hace": "recién",
      "detalle": [
       "27/10 12:36 en-001-phone-rice publicado: https://www.instagram.com/reel/DfAMRQ9E1qI/",
       "27/10 12:36 en-001-phone-rice publicado en Facebook: https://www.facebook.com/reel/2081850989112386/",
       "27/10 12:37 en-001-phone-rice en la bandeja de TikTok",
-      "27/10 12:37 en-001-phone-rice paquete para TikTok/YouTube enviado"
+      "27/10 12:37 en-001-phone-rice paquete para TikTok/YouTube enviado",
+      "27/10 20:09 en-002-dst-farmers publicado: https://www.instagram.com/reel/DfBAOTDAlvH/",
+      "27/10 20:10 en-002-dst-farmers publicado en Facebook: https://www.facebook.com/reel/1112704411403478/",
+      "27/10 20:10 en-002-dst-farmers en la bandeja de TikTok",
+      "27/10 20:10 en-002-dst-farmers paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: en-002-dst-farmers — Is daylight saving time for farmers? (fall back Nov 1)"
+      "Próximo: en-003-fridge-leftovers — Do leftovers need to cool before the fridge? (adapted from 001)"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "1d8d778be559"
+     "firma": "1e17813dcd30"
     },
     {
      "id": "redes",
@@ -747,11 +756,13 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-10-27T12:37",
-     "hace": "hace 7 h",
+     "cuando": "2026-10-27T20:10",
+     "hace": "recién",
      "detalle": [
       "27/10 12:37 en-001-phone-rice en la bandeja de TikTok",
-      "27/10 12:37 en-001-phone-rice paquete para TikTok/YouTube enviado"
+      "27/10 12:37 en-001-phone-rice paquete para TikTok/YouTube enviado",
+      "27/10 20:10 en-002-dst-farmers en la bandeja de TikTok",
+      "27/10 20:10 en-002-dst-farmers paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -820,17 +831,17 @@
        "modo": "vigilar"
       }
      },
-     "estado": "aviso",
-     "resumen": "Quedan 2 videos listos: alcanza para 1 día(s).",
-     "cuando": "2026-10-27T20:01",
+     "estado": "ok",
+     "resumen": "Revisado por el técnico: Walt avisó que quedaba 1 video en inglés; no cambié nada porque la cuenta recién arrancó.",
+     "cuando": "2026-10-27T20:10",
      "hace": "recién",
      "detalle": [
-      "⚠️ Quedan 2 videos listos: alcanza para 1 día(s)."
+      "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s)."
      ],
      "tareas": [],
      "arreglo": null,
      "solo": true,
-     "firma": "c7e4a58c48cc"
+     "firma": "d68cc7d78ae0"
     }
    ]
   }
