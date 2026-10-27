@@ -7,17 +7,17 @@ Deja  motor/public/<slug>/voz.wav      (pausas de 0,4 s como máximo, -14 LUFS)
 
 Los textos de las palabras salen del guion (no de la transcripción), así los subtítulos
 no arrastran errores del reconocedor. La transcripción solo aporta los tiempos.
+Los videos de @letmeexplain.us ("en-…") están en videos/en/ y usan su voz e idioma (cuenta.py).
 """
 import base64, difflib, json, os, re, subprocess, sys, time, unicodedata, wave
 import numpy as np
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # con python -I no se agrega solo
+import cuenta  # noqa: E402
 KEY = os.path.join(RAIZ, 'secretos', 'gemini_key.txt')
 MODELO = 'gemini-3.8-flash-tts'
-VOZ = 'es-419-assistant-7'
 PAUSA_MAX = 0.5
-# se suma al estilo de cada frase: sin esto Gemini tiende a apurarse (7 sílabas/s; posta va a 5,6)
-RITMO = ' Sin apurarte: ritmo pausado y natural, respirando entre frases.'
 
 
 def ff(*args):
@@ -51,15 +51,15 @@ def _audio_en(respuesta):
     return None
 
 
-def _gemini(frases, destino, limite=150):
+def _gemini(frases, destino, voz, ritmo, limite=150):
     """Un pedido directo a la API (sin la librería, que reintenta en silencio cuando se agota la cuota)."""
     import urllib.request, urllib.error
     cuerpo = json.dumps({
         'model': MODELO,
         'input': [{'type': 'text', 'text': f['texto'],
-                   'annotations': [{'type': 'speech_metadata', 'style': f['estilo'] + RITMO}]} for f in frases],
+                   'annotations': [{'type': 'speech_metadata', 'style': f['estilo'] + ritmo}]} for f in frases],
         'response_format': {'type': 'audio'},
-        'generation_config': {'speech_config': [{'voice': VOZ}]},
+        'generation_config': {'speech_config': [{'voice': voz}]},
     }).encode()
     req = urllib.request.Request('https://generativelanguage.googleapis.com/v1beta/interactions', data=cuerpo,
                                  headers={'x-goog-api-key': open(KEY, encoding='utf-8-sig').read().strip(),
@@ -79,10 +79,11 @@ def _gemini(frases, destino, limite=150):
 
 def generar(slug, destino, intentos=3):
     """Pide la voz a Gemini con límite de tiempo y reintentos. Si la cuota del día está agotada, corta enseguida."""
-    frases = json.load(open(os.path.join(RAIZ, 'videos', slug, 'guion.json'), encoding='utf-8'))['frases']
+    frases = json.load(open(os.path.join(cuenta.carpeta(slug), 'guion.json'), encoding='utf-8'))['frases']
+    c = cuenta.para(slug)
     for n in range(1, intentos + 1):
         try:
-            _gemini(frases, destino)
+            _gemini(frases, destino, c['voz'], c['ritmo'])
             if os.path.getsize(destino) > 10000:
                 return
         except CuotaAgotada as e:
@@ -136,14 +137,14 @@ def recortar_pausas(origen, destino, umbral_db=-40, borde=0.05):
     out.close()
 
 
-def alinear(frases, wav16):
+def alinear(frases, wav16, idioma='es'):
     """Tiempos por palabra del guion, usando la transcripción de whisper como reloj."""
     from faster_whisper import WhisperModel
     w = wave.open(wav16)
     audio = np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(np.float32) / 32768
     texto_guion = ' '.join(f['texto'] for f in frases)
     segs, _ = WhisperModel('small', device='cpu', compute_type='int8').transcribe(
-        audio, language='es', word_timestamps=True, initial_prompt=texto_guion)
+        audio, language=idioma, word_timestamps=True, initial_prompt=texto_guion)
     oidas = [(normalizar(x.word), x.start, x.end) for s in segs for x in s.words]
     oidas = [o for o in oidas if o[0]]
 
@@ -185,7 +186,7 @@ def alinear(frases, wav16):
 
 
 def main(slug):
-    carpeta = os.path.join(RAIZ, 'videos', slug)
+    carpeta = cuenta.carpeta(slug)
     publico = os.path.join(RAIZ, 'motor', 'public', slug)
     os.makedirs(publico, exist_ok=True)
     frases = json.load(open(os.path.join(carpeta, 'guion.json'), encoding='utf-8'))['frases']
@@ -203,7 +204,7 @@ def main(slug):
     wav16 = os.path.join(carpeta, 'voz_16k.wav')
     ff('-i', final, '-ar', '16000', '-ac', '1', wav16)
 
-    salida, n_oidas, n_guion = alinear(frases, wav16)
+    salida, n_oidas, n_guion = alinear(frases, wav16, cuenta.para(slug)['idioma'])
     w = wave.open(final)
     dur = w.getnframes() / w.getframerate()
     json.dump({'duracion': round(dur, 3), 'frases': salida},

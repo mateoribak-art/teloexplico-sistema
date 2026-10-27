@@ -1,4 +1,7 @@
 # Publica el próximo video listo en Instagram, Facebook y la bandeja de TikTok (turnos de 12:30 y 19:30 de Argentina).
+# Desde el 27/10 también @letmeexplain.us (TLX_CUENTA=en): turnos de 11:30 y 19:00 de Nueva York. Caen casi en los mismos
+# horarios que los de español, así que comparten estos disparos (cada corrida mira las dos cuentas) más unos pocos extra.
+# GitHub programa en UTC y Nueva York cambia de hora (UTC-4 hasta el 1/11, UTC-5 después): hay disparos para los dos horarios.
 # Corre en las máquinas de GitHub: no depende de la notebook ni de su internet.
 # GitHub arranca lo programado tarde o lo saltea (el 25/10 no corrió el de las 12:30): por eso hay 5 intentos por turno.
 # El primero que corre publica; los demás ven el turno cubierto (publicador.py --toca) y terminan en segundos.
@@ -19,6 +22,13 @@ on:
     - cron: '13 23 * * *'
     - cron: '41 23 * * *'
     - cron: '9 0 * * *'
+    # inglés, extras: 11:30 NY en invierno (16:30 y 17:35 UTC) y 19:00 NY (23:00 UTC en verano; 00:00, 00:35 y 01:05 en invierno)
+    - cron: '30 16 * * *'
+    - cron: '35 17 * * *'
+    - cron: '0 23 * * *'
+    - cron: '0 0 * * *'
+    - cron: '35 0 * * *'
+    - cron: '5 1 * * *'
   workflow_dispatch:
     inputs:
       modo:
@@ -26,6 +36,11 @@ on:
         type: choice
         options: [probar, publicar]
         default: probar
+      cuenta:
+        description: 'todas · es (@teloexplico.ar) · en (@letmeexplain.us)'
+        type: choice
+        options: [todas, es, en]
+        default: todas
 
 # un solo trabajo a la vez toca el estado (cola, registros)
 concurrency:
@@ -55,6 +70,7 @@ jobs:
         run: bash herramientas/nube/preparar.sh
         env:
           META_JSON: ${{ secrets.META_JSON }}
+          META_EN_JSON: ${{ secrets.META_EN_JSON }}
           AVISOS_JSON: ${{ secrets.AVISOS_JSON }}
           TIKTOK_JSON: ${{ secrets.TIKTOK_JSON }}
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
@@ -65,9 +81,18 @@ jobs:
         id: turno
         working-directory: herramientas
         run: |
-          if [ "${{ inputs.modo }}" = "probar" ]; then TOCA=si; else TOCA=$(python -I publicador.py --toca); fi
-          echo "toca=$TOCA" >> "$GITHUB_OUTPUT"
-          echo "toca publicar: $TOCA"
+          CUENTA="${{ inputs.cuenta }}"; CUENTA="${CUENTA:-todas}"   # lo programado no trae inputs: las dos cuentas
+          ES=no; EN=no
+          if [ "$CUENTA" != en ]; then
+            if [ "${{ inputs.modo }}" = "probar" ]; then ES=si; else ES=$(python -I publicador.py --toca); fi
+          fi
+          # inglés solo si ya están sus claves (secreto META_EN_JSON)
+          if [ "$CUENTA" != es ] && [ -s ../secretos/meta_en.json ]; then
+            if [ "${{ inputs.modo }}" = "probar" ]; then EN=si; else EN=$(TLX_CUENTA=en python -I publicador.py --toca); fi
+          fi
+          if [ "$ES" = si ] || [ "$EN" = si ]; then TOCA=si; else TOCA=no; fi
+          { echo "toca=$TOCA"; echo "es=$ES"; echo "en=$EN"; } >> "$GITHUB_OUTPUT"
+          echo "toca publicar: español $ES · inglés $EN"
       - name: ffmpeg
         if: steps.turno.outputs.toca == 'si'
         run: command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
@@ -81,8 +106,20 @@ jobs:
         if: steps.turno.outputs.toca == 'si'
         run: pip install -q -r herramientas/nube/requirements.txt
       - name: Publicar
-        if: steps.turno.outputs.toca == 'si'
+        if: steps.turno.outputs.es == 'si'
         working-directory: herramientas
+        run: |
+          if [ "${{ inputs.modo }}" = "probar" ]; then
+            python -I publicador.py --probar
+          else
+            python -I publicador.py
+          fi
+      - name: Publicar (inglés)
+        # aunque falle el de español: son cuentas independientes
+        if: ${{ !cancelled() && steps.turno.outputs.en == 'si' }}
+        working-directory: herramientas
+        env:
+          TLX_CUENTA: en
         run: |
           if [ "${{ inputs.modo }}" = "probar" ]; then
             python -I publicador.py --probar

@@ -1,0 +1,90 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Chequeado el 27/10/2026 contra la página de Apple Support (support.apple.com/en-us/102643, 'If you see a liquid-detection alert on your iPhone', fecha de publicación 30/10/2024), bajada en vivo hoy. Todas las afirmaciones fácticas del guion y del caption coinciden con lo que dice hoy la página: la cita textual ('Don't put your iPhone in a bag of rice'), el motivo ('could allow small particles of rice to damage your iPhone'), desenchufar, golpear suave contra la mano con el conector hacia abajo, lugar seco con algo de aire, nada de fuente de calor externa ni aire comprimido, 'After at least 30 minutes, try charging' y 'If you see the alert again... Leave your iPhone in a dry area with some airflow for up to a day... It might take up to 24 hours to fully dry'. El orden y la condición de 'If the alert comes back, it can take up to a day to fully dry' son los de Apple (primero los 30 minutos; el día entero solo si la alerta vuelve). Los matices 'at least', 'up to', 'can/could' y el alcance solo iPhone respetan el original. 'Hair dryer' es una lectura correcta de 'external heat source' (un secador de pelo es una fuente de calor externa). Como es seguridad de un aparato, todo quedó en estado verificada; no hay afirmaciones probables, dudosas ni falsas. Sugerencias opcionales, no bloquean: (1) Apple dice 'external heat source' en general; si se quiere no achicar la regla a un solo ejemplo, se puede decir 'No heat, like a hair dryer, and no compressed air'. (2) 'get inside' en el caption es una lectura razonable del mecanismo (partículas en el conector), pero Apple solo dice que las partículas pueden dañar el iPhone.",
+  "afirmaciones": [
+    {
+      "texto": "You just dropped your phone in water, and you're already reaching for the rice.",
+      "fuente": "No es una afirmación fáctica (gancho / situación hipotética).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Stop. Apple says don't. / Wet phone? Don't put it in rice: Apple says no.",
+      "fuente": "Apple Support, support.apple.com/en-us/102643: \"Don't put your iPhone in a bag of rice.\"",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Apple's support page says it word for word: don't put your iPhone in a bag of rice.",
+      "fuente": "Apple Support, support.apple.com/en-us/102643 (texto actual, chequeado 27/10/2026): \"Don't put your iPhone in a bag of rice.\" Cita textual idéntica.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Tiny bits of rice can get inside and damage it. / Small particles of rice could get inside and damage it (caption).",
+      "fuente": "Apple Support, support.apple.com/en-us/102643: \"Doing so could allow small particles of rice to damage your iPhone.\"",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Here's what Apple says to do instead. Step one: unplug it.",
+      "fuente": "Apple Support, support.apple.com/en-us/102643: \"Unplug the cable from your iPhone and unplug the other end of the cable from the power adapter or accessory.\"",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Step two: tap it gently against your hand, connector facing down.",
+      "fuente": "Apple Support, support.apple.com/en-us/102643: \"Tap your iPhone gently against your hand with the connector facing down to remove excess liquid.\"",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Step three: leave it somewhere dry with some airflow.",
+      "fuente": "Apple Support, support.apple.com/en-us/102643: \"Leave your iPhone in a dry area with some airflow.\"",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "No hair dryer, no compressed air.",
+      "fuente": "Apple Support, support.apple.com/en-us/102643: \"Don't dry your iPhone using an external heat source or compressed air.\" El secador de pelo es un ejemplo correcto de fuente de calor externa; Apple no lo nombra textualmente.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Then wait at least thirty minutes before you charge it.",
+      "fuente": "Apple Support, support.apple.com/en-us/102643: \"After at least 30 minutes, try charging with a Lightning or USB-C cable or connecting an accessory.\"",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "If the alert comes back, it can take up to a day to fully dry.",
+      "fuente": "Apple Support, support.apple.com/en-us/102643: \"If you see the alert again, there is still liquid in the connector... Leave your iPhone in a dry area with some airflow for up to a day... It might take up to 24 hours to fully dry.\" Mismo orden (después de los 30 minutos) y misma condición (si vuelve la alerta).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: that's Apple's advice for iPhones. Other brands? Check what your manufacturer says.",
+      "fuente": "Apple Support, support.apple.com/en-us/102643: la página se titula y aplica solo a iPhone. La segunda parte es un consejo, no un dato.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The idea behind the trick is that rice soaks up the moisture. (caption)",
+      "fuente": "Describe la creencia popular, no afirma que funcione; así la explica la cobertura de prensa del aviso de Apple (p. ej. 10news.com 'Fact or fiction: placing iPhone in rice after it gets wet a bad idea'; Business Today, 20/02/2024).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sources: Apple Support (If you see a liquid-detection alert on your iPhone). (caption)",
+      "fuente": "La página existe con ese título exacto en support.apple.com/en-us/102643.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Send this to the friend who already has the rice ready. / Ever tried the rice trick? Yes or no?",
+      "fuente": "No es una afirmación fáctica (llamado a la acción).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

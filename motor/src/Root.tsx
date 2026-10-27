@@ -26,6 +26,8 @@ import { DURACION as DUR_018R, FPS as FPS_018R, Portada018 as Portada018R, Refre
 import { DURACION as DUR_019, FPS as FPS_019, Portada019, SensacionTermica019 } from "./videos/019-sensacion-termica/Video";
 import { DURACION as DUR_021, FPS as FPS_021, HeladeraParte2_021, Portada021 } from "./videos/021-heladera-parte-2/Video";
 import { DURACION as DUR_020, FPS as FPS_020, PavaSeCorta3D, Portada020 } from "./videos/020-pava-se-corta/Video";
+// @letmeexplain.us: slugs con "en-" (logo, cierre y serie salen solos en inglés: kit/cuenta.ts)
+import { DURACION as DUR_EN001, FPS as FPS_EN001, PhoneRiceEn001, PortadaEn001 } from "./videos/en-001-phone-rice/Video";
 
 // Cada video nuevo suma su <Composition> (id "hNNN-slug") y su <Still> de portada (id "pNNN-slug").
 export const RemotionRoot: React.FC = () => {
@@ -51,6 +53,10 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="h019-sensacion-termica" component={SensacionTermica019} durationInFrames={DUR_019} fps={FPS_019} width={ANCHO} height={ALTO} />
         <Composition id="h021-heladera-parte-2" component={HeladeraParte2_021} durationInFrames={DUR_021} fps={FPS_021} width={ANCHO} height={ALTO} />
         <Composition id="h020-pava-se-corta" component={PavaSeCorta3D} durationInFrames={DUR_020} fps={FPS_020} width={ANCHO} height={ALTO} />
+      </Folder>
+      <Folder name="en">
+        <Composition id="hen-001-phone-rice" component={PhoneRiceEn001} durationInFrames={DUR_EN001} fps={FPS_EN001} width={ANCHO} height={ALTO} />
+        <Still id="pen-001-phone-rice" component={PortadaEn001} width={ANCHO} height={ALTO} />
       </Folder>
       <Folder name="carruseles">
         <Still id="carrusel" component={CarruselPlaca} width={ANCHO_C} height={ALTO_C} defaultProps={{ datos: { origen: [], placas: [{ tipo: "cierre", texto: "placa de prueba" }] }, i: 0 }} />

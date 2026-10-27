@@ -2,6 +2,7 @@ r"""Series de @teloexplico.ar: cada video es un capítulo numerado ("Mitos de co
 
 Desde el 27/10/2026: 80 mil vistas trajeron 179 seguidores. La serie le da a la gente una razón para seguir la cuenta:
 la portada, el cierre del reel ("seguí @teloexplico.ar para el #4") y el caption nombran la serie y el capítulo.
+Cada cuenta tiene su registro (cuenta.py): el de @letmeexplain.us es series_en.json y sus slugs empiezan con "en-".
 El registro vive en motor/src/kit/series.json (lo leen la portada y el cierre del motor, y la cola para publicar en orden).
 
 Uso:
@@ -12,36 +13,38 @@ Uso:
 import json, os, re, sys
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ARCHIVO = os.path.join(RAIZ, 'motor', 'src', 'kit', 'series.json')
-SEGUI = re.compile(r'^(📚 .*|Seguí a @teloexplico\.ar.*)$', re.M)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # con python -I no se agrega solo
+import cuenta  # noqa: E402
+SEGUI = re.compile(r'^(📚 .*|Seguí a @teloexplico\.ar.*|Follow @letmeexplain\.us.*)$', re.M)
 
 
-def cargar():
-    return json.load(open(ARCHIVO, encoding='utf-8'))
+def cargar(slug=None):
+    return json.load(open(cuenta.para(slug)['series'], encoding='utf-8'))
 
 
-def guardar(d):
-    tmp = ARCHIVO + '.tmp'
+def guardar(d, slug=None):
+    archivo = cuenta.para(slug)['series']
+    tmp = archivo + '.tmp'
     json.dump(d, open(tmp, 'w', encoding='utf-8'), indent=2, ensure_ascii=False)
-    os.replace(tmp, ARCHIVO)
+    os.replace(tmp, archivo)
 
 
 def capitulo(slug):
     """(clave, nombre, número) o None si el video no es de ninguna serie."""
-    d = cargar()
+    d = cargar(slug)
     v = d['videos'].get(slug)
     return (v[0], d['series'].get(v[0], v[0]), v[1]) if v else None
 
 
 def renglon(slug):
-    cap = capitulo(slug)
+    cap, c = capitulo(slug), cuenta.para(slug)
     if not cap:
-        return 'Seguí a @teloexplico.ar: un dato por día.'
-    return f'📚 {cap[1]} #{cap[2]} · Seguí a @teloexplico.ar para no perderte el #{cap[2] + 1}.'
+        return c['renglon_suelto']
+    return c['renglon_serie'].format(serie=cap[1], n=cap[2], sig=cap[2] + 1)
 
 
 def textos(slug):
-    ruta = os.path.join(RAIZ, 'videos', slug, 'caption.txt')
+    ruta = os.path.join(cuenta.carpeta(slug), 'caption.txt')
     if not os.path.exists(ruta):
         return
     c = open(ruta, encoding='utf-8').read()
@@ -51,13 +54,13 @@ def textos(slug):
 
 
 def asignar(slug, clave):
-    d = cargar()
+    d = cargar(slug)
     if clave not in d['series']:
         sys.exit(f'No existe la serie "{clave}". Series: {", ".join(d["series"])}')
     if slug not in d['videos']:
         n = max([v[1] for v in d['videos'].values() if v[0] == clave], default=0) + 1
         d['videos'][slug] = [clave, n]
-        guardar(d)
+        guardar(d, slug)
     textos(slug)
     print(f'{slug}: {d["series"][clave]} #{d["videos"][slug][1]}')
 

@@ -28,6 +28,7 @@ def _enviar(titulo, mensaje, prioridad, link):
 
 
 def avisar(titulo, mensaje, prioridad='default', link=None):
+    titulo = ('[EN] ' if os.environ.get('TLX_CUENTA') == 'en' else '') + titulo  # para distinguir las dos cuentas en el celular
     pendientes = json.load(open(PENDIENTES, encoding='utf-8')) if os.path.exists(PENDIENTES) else []
     pendientes.append({'titulo': titulo, 'mensaje': mensaje, 'prioridad': prioridad, 'link': link})
     quedan = []

@@ -6,6 +6,7 @@ Lo usan la notebook (antes y después de producir) y la nube (al final de cada t
 3. Guarda los cambios (cola, registros, guiones, logs) en un commit, trae lo de la otra punta y sube.
 
 También sube al Release la voz de los videos a medias (<slug>.voz.wav) y, con `bajar-voces`, la nube las baja.
+Recorre las colas de las dos cuentas (videos/cola.json y videos/en/cola.json, cuenta.py) y los dos tokens de TikTok.
 
 Uso: python -I sincronizar.py ["mensaje del commit"] | bajar-voces
 Sale con código 1 si no pudo subir (y avisa al celular).
@@ -16,6 +17,7 @@ H = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(H)
 sys.path.insert(0, H)
 from avisar import avisar  # noqa: E402
+import cuenta  # noqa: E402
 
 NUBE = bool(os.environ.get('TLX_NUBE'))
 
@@ -24,18 +26,28 @@ def correr(*args, **kw):
     return subprocess.run(list(args), cwd=RAIZ, capture_output=True, text=True, encoding='utf-8', errors='replace', **kw)
 
 
+def colas():
+    """Videos de las colas de todas las cuentas (los slugs de inglés empiezan con "en-": no se pisan con los de español)."""
+    todos = []
+    for c in cuenta.CUENTAS.values():
+        ruta = os.path.join(c['videos'], 'cola.json')
+        if os.path.exists(ruta):
+            todos += json.load(open(ruta, encoding='utf-8'))
+    return todos
+
+
 def subir_videos():
     r = correr('gh', 'release', 'view', 'videos', '--json', 'assets', '--jq', '.assets[] | .name + " " + (.size | tostring)')
     if r.returncode != 0:
         return [f'no se pudo leer el Release: {r.stderr.strip()[-200:]}']
     en_release = dict(linea.rsplit(' ', 1) for linea in r.stdout.splitlines() if ' ' in linea)  # nombre → tamaño
     errores = []
-    for v in json.load(open(os.path.join(RAIZ, 'videos', 'cola.json'), encoding='utf-8')):
+    for v in colas():
         subir = []
-        video = os.path.join(RAIZ, 'videos', v['slug'], f"{v['slug']}.mp4")
+        video = os.path.join(cuenta.carpeta(v['slug']), f"{v['slug']}.mp4")
         if v['estado'] in ('listo', 'apartado') and f"{v['slug']}.mp4" not in en_release and os.path.exists(video):  # apartado: para poder revisarlo
             subir.append((video, f"{v['slug']}.mp4"))
-        portada = os.path.join(RAIZ, 'videos', v['slug'], 'portada.png')
+        portada = os.path.join(cuenta.carpeta(v['slug']), 'portada.png')
         if v['estado'] == 'listo' and os.path.exists(portada) and en_release.get(f"{v['slug']}.portada.png") != str(os.path.getsize(portada)):
             # Instagram la toma como portada (cover_url) con un link firmado, igual que el video
             copia_p = os.path.join(tempfile.gettempdir(), f"{v['slug']}.portada.png")
@@ -60,7 +72,7 @@ def subir_videos():
 
 def bajar_voces():
     """En la nube: baja la voz de los videos que quedaron a medias para seguirlos sin regenerarla."""
-    for v in json.load(open(os.path.join(RAIZ, 'videos', 'cola.json'), encoding='utf-8')):
+    for v in colas():
         destino = os.path.join(RAIZ, 'motor', 'public', v['slug'])
         if v['estado'] not in ('produccion', 'render') or os.path.exists(os.path.join(destino, 'voz.wav')):
             continue
@@ -72,18 +84,19 @@ def bajar_voces():
 
 
 def guardar_token_tiktok():
-    """En la nube el token vive cifrado en el repo; si publicar_tiktok.py lo renovó, se vuelve a cifrar."""
-    plano = os.path.join(RAIZ, 'secretos', 'tiktok_token.json')
-    marca = os.path.join(RAIZ, 'secretos', '.tiktok_token.sha')
-    if not (NUBE and os.path.exists(plano)):
-        return
-    actual = hashlib.sha256(open(plano, 'rb').read()).hexdigest()
-    if os.path.exists(marca) and open(marca).read().strip() == actual:
-        return
-    os.makedirs(os.path.join(RAIZ, 'estado'), exist_ok=True)
-    correr('openssl', 'enc', '-aes-256-cbc', '-pbkdf2', '-salt', '-pass', 'env:CLAVE_ESTADO',
-           '-in', plano, '-out', os.path.join(RAIZ, 'estado', 'tiktok_token.enc'), check=True)
-    print('token de TikTok renovado: guardado cifrado')
+    """En la nube el token vive cifrado en el repo; si publicar_tiktok.py lo renovó, se vuelve a cifrar (uno por cuenta)."""
+    for c in cuenta.CUENTAS.values():
+        plano = c['tiktok_token']
+        marca = os.path.join(RAIZ, 'secretos', '.' + os.path.basename(plano).replace('.json', '.sha'))
+        if not (NUBE and os.path.exists(plano)):
+            continue
+        actual = hashlib.sha256(open(plano, 'rb').read()).hexdigest()
+        if os.path.exists(marca) and open(marca).read().strip() == actual:
+            continue
+        os.makedirs(os.path.join(RAIZ, 'estado'), exist_ok=True)
+        correr('openssl', 'enc', '-aes-256-cbc', '-pbkdf2', '-salt', '-pass', 'env:CLAVE_ESTADO',
+               '-in', plano, '-out', c['tiktok_cifrado'], check=True)
+        print(f"token de TikTok renovado (@{c['usuario']}): guardado cifrado")
 
 
 def combinar(ruta, remoto, local):

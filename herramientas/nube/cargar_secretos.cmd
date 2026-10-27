@@ -12,13 +12,18 @@ set /p CLAVE_ESTADO=<secretos\clave_estado.txt
 echo Cargando claves en GitHub...
 gh secret set CLAVE_ESTADO -R %R% --body "%CLAVE_ESTADO%" || goto error
 gh secret set META_JSON -R %R% < secretos\meta.json || goto error
+if exist secretos\meta_en.json gh secret set META_EN_JSON -R %R% < secretos\meta_en.json || goto error
 gh secret set AVISOS_JSON -R %R% < secretos\avisos.json || goto error
 gh secret set TIKTOK_JSON -R %R% < secretos\tiktok.json || goto error
 gh secret set GEMINI_KEY -R %R% < secretos\gemini_key.txt || goto error
 
 rem el token de TikTok se renueva solo: viaja cifrado dentro del repo
+rem (27/10) solo si todavía no está: la nube lo renueva y la copia de la notebook puede estar vieja; pisarlo cortaría TikTok.
+rem Si se vuelve a autorizar una cuenta, borrar antes su estado\tiktok_token*.enc.
 if not exist estado mkdir estado
-%OSSL% enc -aes-256-cbc -pbkdf2 -salt -pass env:CLAVE_ESTADO -in secretos\tiktok_token.json -out estado\tiktok_token.enc || goto error
+if not exist estado\tiktok_token.enc %OSSL% enc -aes-256-cbc -pbkdf2 -salt -pass env:CLAVE_ESTADO -in secretos\tiktok_token.json -out estado\tiktok_token.enc || goto error
+rem @letmeexplain.us: su token de TikTok, si ya se autorizó
+if exist secretos\tiktok_token_en.json if not exist estado\tiktok_token_en.enc %OSSL% enc -aes-256-cbc -pbkdf2 -salt -pass env:CLAVE_ESTADO -in secretos\tiktok_token_en.json -out estado\tiktok_token_en.enc || goto error
 
 echo.
 gh secret list -R %R%

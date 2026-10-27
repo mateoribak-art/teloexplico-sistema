@@ -2,6 +2,7 @@ import React from "react";
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { display, mono } from "../kit/marca";
 import { useCapitulo } from "../kit/series";
+import { seguirPara, useCuenta } from "../kit/cuenta";
 import type { Tiempos } from "../kit/tiempos";
 
 // Textos del estilo 3D: subtítulo limpio de 1 a 3 palabras con UNA palabra en color,
@@ -190,6 +191,7 @@ export const DUR_CIERRE_3D = 42;
 export const Cierre3D: React.FC<{ desde: number; mandar?: string }> = ({ desde, mandar }) => {
   const frame = useCurrentFrame();
   const cap = useCapitulo();
+  const cuenta = useCuenta();
   const v = interpolate(frame, [desde, desde + 8], [0, 1], clamp);
   if (v <= 0) return null;
   if (mandar) {
@@ -218,7 +220,7 @@ export const Cierre3D: React.FC<{ desde: number; mandar?: string }> = ({ desde, 
             <span style={{ color: ACENTO }}>{primera}</span> {resto.join(" ")}
           </div>
           <div style={{ fontFamily: mono, fontSize: 30, letterSpacing: 1, color: "rgba(255,255,255,0.75)" }}>
-            {cap ? `seguí @teloexplico.ar para el #${cap.n + 1}` : "@teloexplico.ar · un dato por día"}
+            {cap ? seguirPara(cuenta, cap.n + 1) : `${cuenta.usuario} · ${cuenta.lema}`}
           </div>
         </div>
       </AbsoluteFill>
@@ -247,11 +249,11 @@ export const Cierre3D: React.FC<{ desde: number; mandar?: string }> = ({ desde, 
           <>
             <span style={{ color: ACENTO }}>{cap.nombre.toLowerCase()} #{cap.n}</span>
             <br />
-            seguí @teloexplico.ar para el #{cap.n + 1}
+            {seguirPara(cuenta, "")}{cap.n + 1}
           </>
         ) : (
           <>
-            seguí <span style={{ color: ACENTO }}>@teloexplico.ar</span> · un dato por día
+            {cuenta.segui} <span style={{ color: ACENTO }}>{cuenta.usuario}</span> · {cuenta.lema}
           </>
         )}
       </div>

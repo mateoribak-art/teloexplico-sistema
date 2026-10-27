@@ -1,0 +1,18 @@
+{
+  "titulo": "Does rice fix a wet phone?",
+  "fuentes": [
+    "Apple Support: If you see a liquid-detection alert on your iPhone (support.apple.com/en-us/102643)"
+  ],
+  "frases": [
+    {"texto": "You just dropped your phone in water, and you're already reaching for the rice.", "estilo": "Intrigue, a little panicked, like catching a friend in the act."},
+    {"texto": "Stop. Apple says don't.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "Apple's support page says it word for word: don't put your iPhone in a bag of rice.", "estilo": "Informative, clear, quoting."},
+    {"texto": "Tiny bits of rice can get inside and damage it.", "estilo": "With a touch of irony."},
+    {"texto": "Here's what Apple says to do instead. Step one: unplug it.", "estilo": "Practical, step one."},
+    {"texto": "Step two: tap it gently against your hand, connector facing down.", "estilo": "Step two, clear."},
+    {"texto": "Step three: leave it somewhere dry with some airflow. No heat like a hair dryer, no compressed air.", "estilo": "Step three, firm."},
+    {"texto": "Then wait at least thirty minutes before you charge it. If the alert comes back, it can take up to a day to fully dry.", "estilo": "Step four, patient."},
+    {"texto": "Heads up: that's Apple's advice for iPhones. Other brands? Check what your manufacturer says.", "estilo": "Honest caveat, calm."},
+    {"texto": "Send this to the friend who already has the rice ready.", "estilo": "Playful, conspiratorial, with humor."}
+  ]
+}

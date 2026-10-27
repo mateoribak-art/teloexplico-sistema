@@ -8,15 +8,15 @@ Uso:
   --portada-ms   milisegundo del video que se usa de portada (por defecto 0)
   --probar       sube el video y deja el contenedor listo, pero NO publica
 
+La cuenta sale del slug (cuenta.py): los "en-…" van a @letmeexplain.us con secretos/meta_en.json.
 Las credenciales salen de secretos/meta.json (token de página, que no vence). Nunca se imprimen.
 El ID de Instagram queda fijo en ese archivo: no puede publicar en otra cuenta por error.
 """
 import json, os, subprocess, sys, time, urllib.error, urllib.parse, urllib.request
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CONF = json.load(open(os.path.join(RAIZ, 'secretos', 'meta.json'), encoding='utf-8'))
-API = f"https://graph.facebook.com/{CONF['graph_version']}"
-REGISTRO = os.path.join(RAIZ, 'videos', 'publicados.json')
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # con python -I no se agrega solo
+import cuenta  # noqa: E402
 INTENTOS = 4  # contenedores nuevos que se prueban si la subida falla
 REPO = 'mateoribak-art/teloexplico-sistema'
 
@@ -69,12 +69,18 @@ def main():
     probar = '--probar' in args
     portada = int(args[args.index('--portada-ms') + 1]) if '--portada-ms' in args else 0
 
-    carpeta = os.path.join(RAIZ, 'videos', slug)
+    c = cuenta.para(slug)
+    conf = json.load(open(c['meta'], encoding='utf-8-sig'))
+    api = f"https://graph.facebook.com/{conf['graph_version']}"
+    registro_json = os.path.join(c['videos'], 'publicados.json')
+    carpeta = cuenta.carpeta(slug)
     video = os.path.join(carpeta, f'{slug}.mp4')
     caption = open(os.path.join(carpeta, 'caption.txt'), encoding='utf-8').read().strip()
     tam = os.path.getsize(video)
-    token, ig = CONF['page_token'], CONF['ig_id']
-    print(f"Cuenta: @{CONF['ig_usuario']} | video: {slug}.mp4 ({tam / 1e6:.1f} MB) | {'TRIAL REEL' if trial else 'reel normal'}")
+    token, ig = conf['page_token'], conf['ig_id']
+    if conf['ig_usuario'] != c['usuario']:  # nunca publicar un video en la cuenta del otro idioma
+        sys.exit(f"{slug} es de @{c['usuario']} pero las credenciales son de @{conf['ig_usuario']}")
+    print(f"Cuenta: @{conf['ig_usuario']} | video: {slug}.mp4 ({tam / 1e6:.1f} MB) | {'TRIAL REEL' if trial else 'reel normal'}")
 
     # 1-3. contenedor + subida + espera, con reintentos.
     # Meta a veces contesta 400 ProcessingFailedError: a veces el video llegó igual (el contenedor termina en FINISHED)
@@ -95,11 +101,11 @@ def main():
         # portada diseñada (kit/Portada.tsx) en vez de un cuadro del video: la grilla queda pareja (26/10)
         tapa = link_temporal(slug, f'{slug}.portada.png') if url else None
         if url:
-            cont = pedir('POST', f'{API}/{ig}/media', {**{k: v for k, v in datos.items() if k != 'upload_type'}, 'video_url': url, **({'cover_url': tapa} if tapa else {})})
+            cont = pedir('POST', f'{api}/{ig}/media', {**{k: v for k, v in datos.items() if k != 'upload_type'}, 'video_url': url, **({'cover_url': tapa} if tapa else {})})
             print(f'intento {intento}: contenedor {cont["id"]} (Meta baja el video del Release)')
             r = {'success': True}
         else:
-            cont = pedir('POST', f'{API}/{ig}/media', datos)
+            cont = pedir('POST', f'{api}/{ig}/media', datos)
             print(f'intento {intento}: contenedor {cont["id"]} (subida directa)')
             bytes_video = bytes_video or open(video, 'rb').read()
             try:
@@ -111,7 +117,7 @@ def main():
             print('  subida:', 'ok' if r.get('success') else f"Meta respondió error, se mira el estado igual ({r.get('aviso', '')[:150]})")
         # si la subida dio ok se espera hasta 5 min; si dio error, 90 s (si no arrancó en ese tiempo, no llegó)
         for _ in range(60 if r.get('success') else 18):
-            estado = pedir('GET', f'{API}/{cont["id"]}?' + urllib.parse.urlencode({'fields': 'status_code,status', 'access_token': token}))
+            estado = pedir('GET', f'{api}/{cont["id"]}?' + urllib.parse.urlencode({'fields': 'status_code,status', 'access_token': token}))
             if estado.get('status_code') in ('FINISHED', 'ERROR'):
                 break
             time.sleep(5)
@@ -129,15 +135,15 @@ def main():
         return
 
     # 4. publicar
-    pub = pedir('POST', f'{API}/{ig}/media_publish', {'creation_id': cid, 'access_token': token})
+    pub = pedir('POST', f'{api}/{ig}/media_publish', {'creation_id': cid, 'access_token': token})
     mid = pub['id']
-    info = pedir('GET', f'{API}/{mid}?' + urllib.parse.urlencode({'fields': 'permalink,timestamp', 'access_token': token}))
+    info = pedir('GET', f'{api}/{mid}?' + urllib.parse.urlencode({'fields': 'permalink,timestamp', 'access_token': token}))
     print('PUBLICADO:', info.get('permalink'))
 
-    registro = json.load(open(REGISTRO, encoding='utf-8')) if os.path.exists(REGISTRO) else []
+    registro = json.load(open(registro_json, encoding='utf-8')) if os.path.exists(registro_json) else []
     registro.append({'slug': slug, 'media_id': mid, 'permalink': info.get('permalink'),
                      'publicado': info.get('timestamp'), 'trial': trial})
-    json.dump(registro, open(REGISTRO, 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
+    json.dump(registro, open(registro_json, 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
 
 
 if __name__ == '__main__':

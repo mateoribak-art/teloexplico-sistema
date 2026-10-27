@@ -2,6 +2,7 @@ import React from "react";
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { ALTO, ANCHO, C, display, sombra } from "./marca";
 import { useCapitulo } from "./series";
+import { seguirLema, seguirPara, useCuenta } from "./cuenta";
 import { resorte } from "./anim";
 import { Burbuja } from "./piezas";
 import type { Tiempos } from "./tiempos";
@@ -48,6 +49,7 @@ export const SelloFinal: React.FC<{ mandar?: string }> = ({ mandar }) => {
   const { fps } = useVideoConfig();
   const r = resorte(frame, fps, 0, 320);
   const cap = useCapitulo();
+  const cuenta = useCuenta();
   if (mandar) {
     const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
     const aparece = interpolate(frame, [3, 9], [0, 1], clamp);
@@ -65,7 +67,7 @@ export const SelloFinal: React.FC<{ mandar?: string }> = ({ mandar }) => {
             fontFamily: display, fontWeight: 800, fontSize: 64, color: C.tinta, letterSpacing: -2,
           }}
         >
-          te lo explico <Burbuja tam={54} />
+          {cuenta.nombre} <Burbuja tam={54} />
         </div>
         <div style={{ position: "relative", width: 140, height: 140, marginTop: 56, opacity: aparece }}>
           {toque >= 0 && onda < 1 && (
@@ -73,7 +75,7 @@ export const SelloFinal: React.FC<{ mandar?: string }> = ({ mandar }) => {
           )}
           <div
             style={{
-              position: "absolute", inset: 0, borderRadius: "50%", background: C.amarillo, border: `6px solid ${C.tinta}`, boxShadow: sombra(7),
+              position: "absolute", inset: 0, borderRadius: "50%", background: cuenta.resaltado, border: `6px solid ${C.tinta}`, boxShadow: sombra(7),
               display: "flex", justifyContent: "center", alignItems: "center", transform: `scale(${hundido})`,
             }}
           >
@@ -86,10 +88,10 @@ export const SelloFinal: React.FC<{ mandar?: string }> = ({ mandar }) => {
             fontSize: 64, lineHeight: 1.1, letterSpacing: -1.5, color: C.tinta,
           }}
         >
-          <span style={{ background: C.amarillo, padding: "0 10px", borderRadius: 10 }}>{primera}</span> {resto.join(" ")}
+          <span style={{ background: cuenta.resaltado, padding: "0 10px", borderRadius: 10 }}>{primera}</span> {resto.join(" ")}
         </div>
         <div style={{ marginTop: 30, maxWidth: 900, textAlign: "center", opacity: aparece, fontFamily: display, fontWeight: 800, fontSize: 34, color: C.tinta }}>
-          {cap ? <>{cap.nombre.toLowerCase()} #{cap.n}<br />seguí @teloexplico.ar para el #{cap.n + 1}</> : "seguí @teloexplico.ar · un dato por día"}
+          {cap ? <>{cap.nombre.toLowerCase()} #{cap.n}<br />{seguirPara(cuenta, "")}{cap.n + 1}</> : seguirLema(cuenta)}
         </div>
       </AbsoluteFill>
     );
@@ -103,23 +105,23 @@ export const SelloFinal: React.FC<{ mandar?: string }> = ({ mandar }) => {
           fontFamily: display, fontWeight: 800, fontSize: 84, color: C.tinta, letterSpacing: -2,
         }}
       >
-        te lo explico <Burbuja tam={70} />
+        {cuenta.nombre} <Burbuja tam={70} />
       </div>
       {/* 26/10: 80 mil vistas y 132 seguidores: el cierre invita a seguir; desde el 27/10 nombra la serie y el capítulo que viene */}
       <div
         style={{
           marginTop: 34, opacity: interpolate(frame, [6, 12], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
-          background: C.tinta, color: C.amarillo, fontFamily: display, fontWeight: 800, fontSize: 50, padding: "10px 30px",
+          background: C.tinta, color: cuenta.resaltado, fontFamily: display, fontWeight: 800, fontSize: 50, padding: "10px 30px",
           borderRadius: 999, rotate: "2deg",
         }}
       >
-        {cap ? `seguí @teloexplico.ar para el #${cap.n + 1}` : "seguí @teloexplico.ar · un dato por día"}
+        {cap ? seguirPara(cuenta, cap.n + 1) : seguirLema(cuenta)}
       </div>
       {cap ? (
         <div
           style={{
             marginTop: 22, opacity: interpolate(frame, [3, 9], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
-            background: C.amarillo, color: C.tinta, border: `5px solid ${C.tinta}`, boxShadow: sombra(7), fontFamily: display,
+            background: cuenta.resaltado, color: C.tinta, border: `5px solid ${C.tinta}`, boxShadow: sombra(7), fontFamily: display,
             fontWeight: 800, fontSize: 46, padding: "6px 26px", borderRadius: 16, rotate: "-2deg",
           }}
         >

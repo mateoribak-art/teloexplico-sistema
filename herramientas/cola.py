@@ -3,6 +3,8 @@ r"""Cola de videos de @teloexplico.ar: qué hay, en qué estado y qué sale desp
 Estados: idea -> produccion -> listo -> publicado
                           \-> apartado (falló el chequeo de datos o el control técnico: nunca se publica solo)
 
+Cada cuenta tiene su cola (TLX_CUENTA=en: videos/en/cola.json, ver cuenta.py).
+
 Uso:
   python -I cola.py                      muestra la cola
   python -I cola.py estado <slug> <estado> [motivo]
@@ -11,7 +13,9 @@ Uso:
 import json, os, sys, datetime
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ARCHIVO = os.path.join(RAIZ, 'videos', 'cola.json')
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # con python -I no se agrega solo
+import cuenta  # noqa: E402
+ARCHIVO = os.path.join(cuenta.ACTUAL['videos'], 'cola.json')
 # render: escenas terminadas por Claude; producir.py lo renderiza y controla después, sin Claude (videos 3D, 26/10)
 ESTADOS = ('idea', 'produccion', 'render', 'listo', 'publicado', 'apartado')
 
@@ -23,6 +27,7 @@ def cargar():
 
 
 def guardar(cola):
+    os.makedirs(os.path.dirname(ARCHIVO), exist_ok=True)
     tmp = ARCHIVO + '.tmp'
     json.dump(cola, open(tmp, 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
     os.replace(tmp, ARCHIVO)
@@ -51,6 +56,8 @@ VIGENCIA_ACTUALIDAD_H = 48  # un tema del momento que no salió en 48 h ya no ri
 
 
 def agregar(slug, tema, estado='idea', actualidad=False):
+    if cuenta.de_slug(slug) != cuenta.CUENTA:
+        sys.exit(f'{slug} no es de la cuenta {cuenta.CUENTA} (los de inglés empiezan con "en-" y van con TLX_CUENTA=en)')
     cola = cargar()
     if buscar(cola, slug):
         sys.exit(f'{slug} ya está en la cola')

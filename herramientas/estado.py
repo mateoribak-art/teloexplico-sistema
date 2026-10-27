@@ -5,14 +5,18 @@ Uso:
   python -I estado.py noche      después de la producción nocturna: cuántos videos quedaron listos
   python -I estado.py vigilar    solo avisa si hay problemas nuevos (no repite el mismo aviso)
   python -I estado.py panel      solo regenera PANEL.html
+
+Con TLX_CUENTA=en mira @letmeexplain.us (videos/en/, meta_en.json, PANEL_en.html).
 """
 import datetime, glob, hashlib, html, json, os, sys, urllib.parse, urllib.request
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from avisar import avisar  # noqa: E402
+import cuenta  # noqa: E402
 
-V = os.path.join(RAIZ, 'videos')
+CU = cuenta.ACTUAL
+V = CU['videos']
 AHORA = datetime.datetime.now()
 
 
@@ -25,7 +29,7 @@ def leer_json(ruta, defecto):
 
 def cuenta():
     """Seguidores y posts de @teloexplico.ar (None si la API no responde: eso también es un problema)."""
-    c = leer_json(os.path.join(RAIZ, 'secretos', 'meta.json'), {})
+    c = leer_json(CU['meta'], {})
     try:
         url = f"https://graph.facebook.com/{c['graph_version']}/{c['ig_id']}?" + urllib.parse.urlencode(
             {'fields': 'followers_count,media_count', 'access_token': c['page_token']})
@@ -56,9 +60,12 @@ def problemas(d):
     if 'error' in d['cuenta']:
         p.append(('grave', f"No responde la API de Instagram (¿token vencido?): {d['cuenta']['error']}"))
     if d['publicados']:
-        # último turno (12:30 o 19:30) que pasó hace más de 1 h: tiene que haber una publicación desde entonces
-        turnos = [datetime.datetime.combine(AHORA.date() - datetime.timedelta(days=dd), datetime.time(h, 30))
-                  for dd in (0, 1) for h in (19, 12)]
+        # último turno (12:30 o 19:30; en inglés 11:30 y 19:00 de Nueva York) que pasó hace más de 1 h: tiene que haber una publicación desde entonces
+        import zoneinfo
+        zona = zoneinfo.ZoneInfo(CU['zona'])
+        hoy = datetime.datetime.now(zona).date()
+        turnos = [datetime.datetime.combine(hoy - datetime.timedelta(days=dd), datetime.time(h, m), zona).astimezone().replace(tzinfo=None)
+                  for dd in (0, 1) for h, m in CU['turnos']]
         vencido = max((t for t in turnos if t <= AHORA - datetime.timedelta(hours=1)), default=None)
         primera = cuando(d['publicados'][0])
         if vencido and vencido > primera and cuando(d['publicados'][-1]) < vencido - datetime.timedelta(minutes=10):
@@ -100,14 +107,14 @@ def panel(d, p):
 h1{{margin:0 0 4px}}.sub{{color:#555;margin-bottom:20px}}section{{background:#fff;border:3px solid #111;border-radius:14px;box-shadow:5px 5px 0 #111;padding:14px 18px;margin-bottom:18px}}
 table{{width:100%;border-collapse:collapse}}td{{padding:6px 4px;border-bottom:1px solid #eee}}.listo{{color:#1a8f4c;font-weight:700}}.publicado{{color:#2E4BFF}}
 .apartado,.grave{{color:#d33;font-weight:700}}.aviso{{color:#b07800}}.ok{{color:#1a8f4c;font-weight:700}}pre{{white-space:pre-wrap;font-size:12px}}</style></head><body>
-<h1>Te lo explico 💬</h1><div class="sub">@teloexplico.ar · {e(seg)} · actualizado {AHORA:%d/%m %H:%M}</div>
+<h1>Te lo explico 💬</h1><div class="sub">@{e(CU['usuario'])} · {e(seg)} · actualizado {AHORA:%d/%m %H:%M}</div>
 <section><h2>Estado</h2><ul>{probs}</ul></section>
 <section><h2>Últimas publicaciones</h2><ul>{pubs or '<li>Todavía nada</li>'}</ul></section>
 <section><h2>Cola</h2><table>{filas}</table></section>
 <section><h2>Publicador (últimas líneas)</h2><pre>{e(chr(10).join(d['pub_log']))}</pre></section>
 <section><h2>Producción nocturna ({e(d['noche_archivo'] or '-')})</h2><pre>{e(d['ultima_noche'][-2500:])}</pre></section>
 </body></html>"""
-    open(os.path.join(RAIZ, 'PANEL.html'), 'w', encoding='utf-8').write(pagina)
+    open(CU['panel'], 'w', encoding='utf-8').write(pagina)
 
 
 def main(modo):

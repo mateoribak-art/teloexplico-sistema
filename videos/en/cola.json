@@ -1,0 +1,24 @@
+[
+ {
+  "slug": "en-001-phone-rice",
+  "tema": "Does rice fix a wet phone? (adapted from 014)",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-27T11:30",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-27T11:30",
+    "motivo": "piloto de Let me explain"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T11:36",
+    "motivo": "piloto: lo revisa Mateo antes de publicar"
+   }
+  ]
+ }
+]

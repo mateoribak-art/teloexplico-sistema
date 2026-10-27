@@ -1,0 +1,17 @@
+{
+  "series": {
+    "cocina": "Kitchen myths",
+    "clima": "Weather explained",
+    "casa": "Home myths",
+    "cuerpo": "Body myths",
+    "ciencia": "Everyday science",
+    "mate": "Everyday math",
+    "pordentro": "Inside look"
+  },
+  "videos": {
+    "en-001-phone-rice": [
+      "casa",
+      1
+    ]
+  }
+}

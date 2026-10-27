@@ -8,10 +8,13 @@ Uso: python -I multired.py <slug> [--sin-avisar]
 - Copia el video en calidad completa, los textos y la portada a OneDrive/TeLoExplico/para-subir/<slug>/
   (ntfy gratis no permite adjuntos de más de 2 MB; OneDrive se sincroniza solo con el celular).
 - Manda 2 notificaciones con el texto listo para pegar (TikTok; YouTube título + descripción) y un link a OneDrive.
+Los de @letmeexplain.us ("en-…", cuenta.py) llevan el texto en inglés y nada de YouTube (todavía no hay canal).
 """
 import json, os, re, shutil, sys, urllib.parse, urllib.request
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # con python -I no se agrega solo
+import cuenta  # noqa: E402
 ONEDRIVE = os.path.join(os.path.expanduser('~'), 'OneDrive', 'TeLoExplico', 'para-subir')
 ONEDRIVE_WEB = 'https://onedrive.live.com/'
 RELEASE_WEB = 'https://github.com/mateoribak-art/teloexplico-sistema/releases/tag/videos'
@@ -46,18 +49,20 @@ def reintentar(hacer, veces=4):
             time.sleep(15 * (i + 1))
 
 
-def mandar_telegram(slug, video, tiktok, titulo, descripcion):
+def mandar_telegram(slug, video, tiktok, titulo, descripcion, youtube=True):
     # sin medidas Telegram lo muestra aplastado como horizontal (25/10): se mandan las del reel vertical
     import subprocess
     dur = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', video],
                          capture_output=True, text=True).stdout.strip() or '0'
-    if youtube_automatico():  # ya lo subió publicar_youtube.py: el video queda solo para TikTok (no duplicar en YouTube)
+    if not youtube:  # cuenta sin YouTube (inglés): solo TikTok
+        leyenda = f'🎵 Para TikTok · {slug}'
+    elif youtube_automatico():  # ya lo subió publicar_youtube.py: el video queda solo para TikTok (no duplicar en YouTube)
         leyenda = f'🎵 Para TikTok · {slug}\n✅ YouTube Shorts: ya se subió solo, no lo subas de nuevo.'
     else:
         leyenda = f'▶️ YouTube Shorts · {slug}\n\nTÍTULO (tocá para copiar):\n{titulo}'
     telegram('sendVideo', {'caption': leyenda[:1000], 'supports_streaming': 'true', 'width': '1080', 'height': '1920',
                            'duration': str(round(float(dur)))}, ('video', video))
-    if not youtube_automatico():
+    if youtube and not youtube_automatico():
         telegram('sendMessage', {'text': f'DESCRIPCIÓN para YouTube:\n\n{descripcion}'[:4000]})
     telegram('sendMessage', {'text': f'Texto para TikTok:\n\n{tiktok}'[:4000]})
 
@@ -70,18 +75,19 @@ def tema():
     return json.load(open(os.path.join(RAIZ, 'secretos', 'avisos.json'), encoding='utf-8'))['ntfy_tema']
 
 
-def textos(caption):
+def textos(caption, cu=None):
+    cu = cu or cuenta.CUENTAS['es']
     c = caption  # Instagram y TikTok comparten usuario (@teloexplico.ar); solo YouTube va sin punto
     parrafos = [p.strip() for p in c.split('\n\n') if p.strip()]
     gancho = parrafos[0]
     hashtags = ' '.join(re.findall(r'#[^\W\d]\w*', c)[:4])  # con letra adelante: "#3" de la serie no es hashtag
-    mandaselo = next((p for p in parrafos if 'Mandáselo' in p), '')
-    fuentes = next((p.split('\n')[0] for p in parrafos if p.startswith('Fuentes')), '')
+    mandaselo = next((p for p in parrafos if 'Mandáselo' in p or 'Send this' in p), '')
+    fuentes = next((p.split('\n')[0] for p in parrafos if p.startswith(('Fuentes', 'Sources'))), '')
     # TikTok: corto y al grano (la gente no lee captions largos ahí)
     # el renglón de la serie ("📚 Mitos de cocina #3 · Seguí…") sale del caption; si no está, el de siempre
-    seguir = next((l for l in c.splitlines() if l.startswith('📚')), 'Seguí a @teloexplico.ar: un dato por día.')
+    seguir = next((l for l in c.splitlines() if l.startswith('📚')), cu['renglon_suelto'])
     tiktok = '\n\n'.join(x for x in [gancho, mandaselo, fuentes, seguir,
-                                     hashtags + ' #aprendeentiktok'] if x)
+                                     hashtags + ' ' + cu['tiktok_extra']] if x)
     # YouTube Shorts: título ≤100 caracteres con la pregunta del gancho, descripción completa
     primera = re.split(r'(?<=[?.!])\s', gancho.split('\n')[0])[0]
     titulo = re.sub(r'[^\w\s¿?¡!.,áéíóúñÁÉÍÓÚÑ°%-]', '', primera).strip()[:88] + ' #Shorts'
@@ -90,6 +96,7 @@ def textos(caption):
 
 
 def notificar(titulo, mensaje, click=None, prioridad='4'):
+    titulo = ('[EN] ' if cuenta.CUENTA == 'en' else '') + titulo
     params = {'title': titulo, 'message': mensaje[:3900], 'priority': prioridad, 'tags': 'iphone'}
     if click:
         params['click'] = click
@@ -98,9 +105,10 @@ def notificar(titulo, mensaje, click=None, prioridad='4'):
 
 
 def main(slug, avisar=True, tiktok_en_bandeja=False):
-    carpeta = os.path.join(RAIZ, 'videos', slug)
+    cu = cuenta.para(slug)
+    carpeta = cuenta.carpeta(slug)
     video = os.path.join(carpeta, f'{slug}.mp4')
-    tiktok, titulo, descripcion = textos(open(os.path.join(carpeta, 'caption.txt'), encoding='utf-8').read())
+    tiktok, titulo, descripcion = textos(open(os.path.join(carpeta, 'caption.txt'), encoding='utf-8').read(), cu)
     open(os.path.join(carpeta, 'tiktok.txt'), 'w', encoding='utf-8').write(tiktok)
     open(os.path.join(carpeta, 'youtube.txt'), 'w', encoding='utf-8').write(f'TÍTULO:\n{titulo}\n\nDESCRIPCIÓN:\n{descripcion}')
 
@@ -119,12 +127,12 @@ def main(slug, avisar=True, tiktok_en_bandeja=False):
         return
     if os.path.exists(TELEGRAM) and os.path.exists(video):
         try:
-            mandar_telegram(slug, video, tiktok, titulo, descripcion)
+            mandar_telegram(slug, video, tiktok, titulo, descripcion, youtube=cu['youtube'])
             ruta, click = 'te llegó por Telegram (chat del bot)', 'https://t.me/'
         except Exception as e:  # si Telegram falla, queda el camino de siempre
             print('Telegram falló:', str(e)[:200])
     notificar('📲 Subilo a TikTok', f'Video: {ruta}\n\nTexto para pegar:\n\n{tiktok}', click=click)
-    if not youtube_automatico():
+    if cu['youtube'] and not youtube_automatico():
         notificar('▶️ Y a YouTube Shorts', f'Mismo video ({ruta}).\n\nTÍTULO:\n{titulo}\n\nDESCRIPCIÓN:\n{descripcion}', click=click)
     print(f'paquete listo ({ruta}) y notificado')
 

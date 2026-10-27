@@ -3,6 +3,7 @@ import { AbsoluteFill } from "remotion";
 import { C, display, sombra } from "./marca";
 import { Burbuja, Fondo } from "./piezas";
 import { useCapitulo } from "./series";
+import { useCuenta } from "./cuenta";
 
 // Portada del reel para la grilla. Instagram la muestra recortada a 3:4 (franja central de 1080×1440,
 // de y=240 a y=1680): todo lo importante va ahí, en pocas palabras y grande.
@@ -22,6 +23,7 @@ const tamGrande = (t: string) => (t.length <= 3 ? 170 : t.length <= 6 ? 160 : t.
 
 export const Portada: React.FC<PortadaProps> = ({ arriba, grande, sello, colorSello = C.rojo, children }) => {
   const cap = useCapitulo();
+  const cuenta = useCuenta();
   return (
   <AbsoluteFill style={{ backgroundColor: C.papel }}>
     <Fondo />
@@ -34,14 +36,14 @@ export const Portada: React.FC<PortadaProps> = ({ arriba, grande, sello, colorSe
           fontWeight: 800, fontSize: 46, padding: "12px 34px", borderRadius: 999, boxShadow: sombra(7),
         }}
       >
-        te lo explico <Burbuja tam={42} />
-        {cap ? <span style={{ color: C.amarillo, fontSize: 40 }}>{cap.nombre.toLowerCase()} #{cap.n}</span> : null}
+        {cuenta.nombre} <Burbuja tam={42} />
+        {cap ? <span style={{ color: cuenta.resaltado, fontSize: 40 }}>{cap.nombre.toLowerCase()} #{cap.n}</span> : null}
       </div>
     </div>
     <div style={{ position: "absolute", top: 352, left: 70, right: 70, textAlign: "center", fontFamily: display, color: C.tinta }}>
       <div style={{ fontWeight: 800, fontSize: tamArriba(arriba), lineHeight: 1.04, marginBottom: 22 }}>{arriba}</div>
       <div style={{ fontWeight: 800, fontSize: tamGrande(grande), lineHeight: 0.95, letterSpacing: -5, rotate: "-3deg", whiteSpace: "nowrap" }}>
-        <span style={{ background: `linear-gradient(transparent 50%, ${C.amarillo} 50%, ${C.amarillo} 94%, transparent 94%)`, padding: "0 14px" }}>
+        <span style={{ background: `linear-gradient(transparent 50%, ${cuenta.resaltado} 50%, ${cuenta.resaltado} 94%, transparent 94%)`, padding: "0 14px" }}>
           {grande}
         </span>
       </div>

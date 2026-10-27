@@ -1,4 +1,4 @@
-"""Manda un reel a la bandeja de TikTok de @teloexplico.ar como borrador (Content Posting API, "Upload to TikTok").
+"""Manda un reel a la bandeja de TikTok de @teloexplico.ar (o @letmeexplain.us) como borrador (Content Posting API, "Upload to TikTok").
 
 El video aparece en las notificaciones de TikTok ("bandeja de entrada"): Mateo lo abre, pega el texto y publica.
 La API no deja publicar directo sin auditoría (sin auditoría todo queda privado), por eso va como borrador.
@@ -10,16 +10,21 @@ Uso:
 
 Credenciales: secretos/tiktok.json (client_key, client_secret, redirect_uri) y secretos/tiktok_token.json
 (refresh token: dura 365 días; el access token dura 24 h y se renueva solo en cada subida). Nunca se imprimen.
+Las dos cuentas usan la misma app: @letmeexplain.us tiene su token en secretos/tiktok_token_en.json (cuenta.py).
+Para subir, la cuenta sale del slug ("en-…"); para autorizar, de TLX_CUENTA:  TLX_CUENTA=en python -I publicar_tiktok.py autorizar
 """
 import base64, hashlib, json, math, os, secrets, sys, time, urllib.parse, urllib.request
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # con python -I no se agrega solo
+import cuenta  # noqa: E402
 SECRETOS = os.path.join(RAIZ, 'secretos')
 CONF = json.load(open(os.path.join(SECRETOS, 'tiktok.json'), encoding='utf-8'))
-TOKEN = os.path.join(SECRETOS, 'tiktok_token.json')
-PKCE = os.path.join(SECRETOS, 'tiktok_pkce.json')
+# cuenta de TLX_CUENTA (autorizar); subir() la cambia por la del slug
+TOKEN = cuenta.ACTUAL['tiktok_token']
+PKCE = os.path.join(SECRETOS, f'tiktok_pkce_{cuenta.CUENTA}.json')
 API = 'https://open.tiktokapis.com/v2'
-REGISTRO = os.path.join(RAIZ, 'videos', 'publicados_tiktok.json')
+REGISTRO = os.path.join(cuenta.ACTUAL['videos'], 'publicados_tiktok.json')
 TROZO = 10 * 1024 * 1024  # TikTok acepta trozos de 5 a 64 MB; el último puede ser más grande
 
 
@@ -72,7 +77,7 @@ def canjear(url_vuelta):
     os.remove(PKCE)
     print('Autorizado. Permisos:', t.get('scope'))
     yo = pedir('GET', f'{API}/user/info/?fields=open_id,display_name', cabeceras={'Authorization': f"Bearer {t['access_token']}"})
-    print('Cuenta:', yo.get('data', {}).get('user', {}).get('display_name'))
+    print('Cuenta:', yo.get('data', {}).get('user', {}).get('display_name'), f'(guardado como {os.path.basename(TOKEN)})')
 
 
 def token():
@@ -89,7 +94,12 @@ def token():
 
 
 def subir(slug):
-    video = os.path.join(RAIZ, 'videos', slug, f'{slug}.mp4')
+    global TOKEN, REGISTRO
+    TOKEN = cuenta.para(slug)['tiktok_token']
+    REGISTRO = os.path.join(cuenta.para(slug)['videos'], 'publicados_tiktok.json')
+    if not os.path.exists(TOKEN):
+        sys.exit(f'La cuenta de {slug} no tiene TikTok autorizado ({os.path.basename(TOKEN)}): no se manda nada')
+    video = os.path.join(cuenta.carpeta(slug), f'{slug}.mp4')
     tam = os.path.getsize(video)
     trozos = max(1, tam // TROZO)
     tam_trozo = tam if trozos == 1 else TROZO

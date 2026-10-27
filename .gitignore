@@ -14,6 +14,7 @@ motor/public/0*/*.wav
 *.wav
 *.mov
 videos/*/cuadros/
+videos/en/*/cuadros/
 # generados
 PANEL.html
 __pycache__/
@@ -21,3 +22,4 @@ __pycache__/
 # la música y los efectos sí (los usa el render en la nube)
 !motor/public/musica/*.wav
 !motor/public/sfx/*.wav
+PANEL_en.html

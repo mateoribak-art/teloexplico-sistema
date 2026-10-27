@@ -3,6 +3,7 @@ import { AbsoluteFill, Sequence, interpolate, staticFile, useCurrentFrame, useVi
 import { Audio } from "@remotion/media";
 import { C, display, mono, sombra } from "./marca";
 import { clamp, pop, resorte, suave } from "./anim";
+import { useCuenta } from "./cuenta";
 import type { Tiempos } from "./tiempos";
 
 /* ---------- Fondo: papel cuadriculado que se desliza muy lento (da vida sin distraer) ---------- */
@@ -21,12 +22,15 @@ export const Fondo: React.FC = () => {
   );
 };
 
-/* ---------- Logo: "te lo explico" + burbuja ---------- */
-export const Burbuja: React.FC<{ tam: number; color?: string }> = ({ tam, color = C.azul }) => (
-  <svg width={tam} height={tam} viewBox="0 0 40 40" style={{ display: "inline-block" }}>
-    <path d="M6 4h28a4 4 0 0 1 4 4v18a4 4 0 0 1-4 4H17l-9 7v-7H6a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4z" fill={color} />
-  </svg>
-);
+/* ---------- Logo: "te lo explico" + burbuja (en inglés: "let me explain", burbuja roja; kit/cuenta.ts) ---------- */
+export const Burbuja: React.FC<{ tam: number; color?: string }> = ({ tam, color }) => {
+  const cuenta = useCuenta();
+  return (
+    <svg width={tam} height={tam} viewBox="0 0 40 40" style={{ display: "inline-block" }}>
+      <path d="M6 4h28a4 4 0 0 1 4 4v18a4 4 0 0 1-4 4H17l-9 7v-7H6a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4z" fill={color ?? cuenta.burbuja} />
+    </svg>
+  );
+};
 
 export const Logo: React.FC<{ tam?: number; top?: number }> = ({ tam = 50, top = 230 }) => (
   <div
@@ -36,7 +40,7 @@ export const Logo: React.FC<{ tam?: number; top?: number }> = ({ tam = 50, top =
       color: C.tinta, letterSpacing: -tam * 0.02,
     }}
   >
-    te lo explico
+    {useCuenta().nombre}
     <span style={{ translate: `0 ${tam * 0.1}px` }}><Burbuja tam={tam * 0.8} /></span>
   </div>
 );
@@ -165,6 +169,7 @@ const limpiar = (s: string) => s.replace(/[.,:;]$/, "").replace(/^¿|\?$|^¡|!$/
 export const Subtitulos: React.FC<{ tiempos: Tiempos; top?: number; hasta?: number }> = ({ tiempos, top = 1440, hasta }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
+  const cuenta = useCuenta();
   const seg = frame / fps;
   if (hasta !== undefined && frame >= hasta) return null;
   const bloques = armarBloques(tiempos);
@@ -190,7 +195,7 @@ export const Subtitulos: React.FC<{ tiempos: Tiempos; top?: number; hasta?: numb
             <span
               key={i}
               style={{
-                background: activa ? C.azul : "transparent", color: activa ? C.blanco : C.tinta,
+                background: activa ? cuenta.burbuja : "transparent", color: activa ? C.blanco : C.tinta,
                 borderRadius: 12, padding: "0 8px", margin: "0 -6px", display: "inline-block", scale: salto,
                 rotate: activa ? "-2deg" : "0deg",
               }}
@@ -212,7 +217,7 @@ export const Fuente: React.FC<{ texto: string; top?: number }> = ({ texto, top =
       fontSize: 24, color: C.tinta, opacity: 0.6,
     }}
   >
-    fuente: {texto}
+    {useCuenta().fuente}: {texto}
   </div>
 );
 
@@ -310,20 +315,21 @@ export const Musica: React.FC<{ hasta: number; volumen?: number }> = ({ hasta, v
 export const Cierre: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
+  const cuenta = useCuenta();
   return (
     <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", gap: 34, fontFamily: display, color: C.tinta }}>
       <div style={{ scale: pop(frame, fps, 0), display: "flex", alignItems: "center", gap: 18, fontWeight: 800, fontSize: 118, letterSpacing: -3 }}>
-        te lo explico <Burbuja tam={100} />
+        {cuenta.nombre} <Burbuja tam={100} />
       </div>
       <div
         style={{
-          scale: pop(frame, fps, 8), background: C.amarillo, border: `5px solid ${C.tinta}`, borderRadius: 16,
+          scale: pop(frame, fps, 8), background: cuenta.resaltado, border: `5px solid ${C.tinta}`, borderRadius: 16,
           boxShadow: sombra(7), padding: "8px 28px", fontFamily: mono, fontWeight: 700, fontSize: 44,
         }}
       >
-        @teloexplico.ar
+        {cuenta.usuario}
       </div>
-      <div style={{ opacity: suave(frame, 14, 10), fontWeight: 500, fontSize: 46 }}>un dato por día</div>
+      <div style={{ opacity: suave(frame, 14, 10), fontWeight: 500, fontSize: 46 }}>{cuenta.lema}</div>
     </AbsoluteFill>
   );
 };

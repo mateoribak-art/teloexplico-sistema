@@ -5,17 +5,22 @@ Toma el próximo video 'listo' de la cola, lo vuelve a controlar y lo publica en
 - Si el control técnico falla, aparta el video y prueba con el siguiente.
 - Si no hay nada listo, lo deja anotado en el log y termina.
 Log: videos/publicador.log
+
+Con TLX_CUENTA=en publica @letmeexplain.us: su cola y registros en videos/en/, sus turnos (11:30 y 19:00 de Nueva York).
+TikTok y YouTube solo para las cuentas que los tienen conectados (cuenta.py).
 """
-import datetime, json, os, subprocess, sys
+import datetime, json, os, subprocess, sys, zoneinfo
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import cola  # noqa: E402
+import cuenta  # noqa: E402
 from control import controlar  # noqa: E402
 from avisar import avisar  # noqa: E402
 
 PY = sys.executable
-LOG = os.path.join(RAIZ, 'videos', 'publicador.log')
+C = cuenta.ACTUAL
+LOG = os.path.join(C['videos'], 'publicador.log')
 
 
 def log(msg):
@@ -36,7 +41,7 @@ def fin():
 
 def bajar_video(slug):
     """En la nube los videos no están en el repo: se bajan del Release "videos" (si no está, el control lo marca)."""
-    destino = os.path.join(RAIZ, 'videos', slug)
+    destino = cuenta.carpeta(slug)
     if os.path.exists(os.path.join(destino, f'{slug}.mp4')) or not os.environ.get('TLX_NUBE'):
         return
     os.makedirs(destino, exist_ok=True)
@@ -46,13 +51,13 @@ def bajar_video(slug):
         log(f'{slug}: no se pudo bajar el video del Release: {(r.stdout + r.stderr).strip()[-200:]}')
 
 
-TURNOS = ((12, 30), (19, 30))  # hora de Argentina
-ARGENTINA = datetime.timezone(datetime.timedelta(hours=-3))
+TURNOS = C['turnos']  # hora local de la cuenta: 12:30 y 19:30 de Argentina; 11:30 y 19:00 de Nueva York
+ZONA = zoneinfo.ZoneInfo(C['zona'])
 
 
 def turno_actual(ahora=None):
     """Inicio del último turno que ya empezó (hoy 12:30 o 19:30, o el de ayer a las 19:30 si es temprano)."""
-    ahora = ahora or datetime.datetime.now(ARGENTINA)
+    ahora = ahora or datetime.datetime.now(ZONA)
     inicios = [ahora.replace(hour=h, minute=m, second=0, microsecond=0) for h, m in TURNOS]
     pasados = [t for t in inicios if t <= ahora]
     return max(pasados) if pasados else inicios[-1] - datetime.timedelta(days=1)
@@ -61,13 +66,27 @@ def turno_actual(ahora=None):
 def turno_cubierto():
     """GitHub arranca los turnos programados tarde o los saltea: hay varios intentos por turno y el primero publica.
     Un turno está cubierto si ya se publicó algo desde que empezó."""
-    reg = os.path.join(RAIZ, 'videos', 'publicados.json')
+    reg = os.path.join(C['videos'], 'publicados.json')
     inicio = turno_actual()
     for p in (json.load(open(reg, encoding='utf-8')) if os.path.exists(reg) else []):
         try:
             if datetime.datetime.strptime(p['publicado'], '%Y-%m-%dT%H:%M:%S%z') >= inicio:
                 return True
         except (KeyError, ValueError):
+            continue
+    return False
+
+
+def vacia_avisada():
+    """La cola vacía ya se avisó en este turno: los otros intentos del turno no vuelven a avisar (ni a instalar nada)."""
+    if not os.path.exists(LOG) or any(v['estado'] == 'listo' for v in cola.cargar()):
+        return False
+    inicio = turno_actual().astimezone().replace(tzinfo=None)  # el log va en hora de la máquina
+    for linea in open(LOG, encoding='utf-8').read().splitlines()[-30:]:
+        try:
+            if 'No hay videos listos' in linea and datetime.datetime.strptime(linea[:16], '%Y-%m-%d %H:%M') >= inicio:
+                return True
+        except ValueError:
             continue
     return False
 
@@ -83,7 +102,8 @@ def main(probar=False):
         v = cola.proximo_listo()
         if v is None:
             log('No hay videos listos en la cola.')
-            avisar('❌ No se publicó nada', 'No hay videos listos en la cola para este turno.', 'alta')
+            # inglés: mientras no haya producción automática la cola vacía es lo esperable, el aviso va sin sonar
+            avisar('❌ No se publicó nada', 'No hay videos listos en la cola para este turno.', 'alta' if cuenta.CUENTA == 'es' else 'baja')
             return fin()
         slug = v['slug']
         bajar_video(slug)
@@ -100,8 +120,8 @@ def main(probar=False):
             log(f'{slug} apartado: {"; ".join(problemas)}')
             avisar('⚠️ Video apartado', f'{slug} no pasó el control y no se publica: {"; ".join(problemas)[:300]}')
             continue
-        meta = json.load(open(os.path.join(RAIZ, 'videos', slug, 'meta.json'), encoding='utf-8')) \
-            if os.path.exists(os.path.join(RAIZ, 'videos', slug, 'meta.json')) else {}
+        ruta_meta = os.path.join(cuenta.carpeta(slug), 'meta.json')
+        meta = json.load(open(ruta_meta, encoding='utf-8')) if os.path.exists(ruta_meta) else {}
         args = [PY, '-I', 'publicar.py', slug, '--portada-ms', str(meta.get('portada_ms', 0))]
         r = subprocess.run(args, cwd=os.path.dirname(os.path.abspath(__file__)), capture_output=True, text=True, encoding='utf-8', errors='replace')
         if r.returncode == 0 and 'PUBLICADO:' in r.stdout:
@@ -117,13 +137,18 @@ def main(probar=False):
             else:
                 log(f'{slug} falló Facebook: {(rf.stdout + rf.stderr).strip()[-300:]}')
                 avisar('⚠️ Facebook', f'{slug} salió en Instagram pero no en Facebook: {(rf.stdout + rf.stderr).strip()[-200:]}')
-            # TikTok: va a la bandeja como borrador (la API sin auditoría no deja publicar directo)
-            rt = subprocess.run([PY, '-I', 'publicar_tiktok.py', slug], cwd=os.path.dirname(os.path.abspath(__file__)),
-                                capture_output=True, text=True, encoding='utf-8', errors='replace')
-            en_bandeja = rt.returncode == 0 and 'EN BANDEJA:' in rt.stdout
-            log(f'{slug} ' + ('en la bandeja de TikTok' if en_bandeja else f'falló TikTok: {(rt.stdout + rt.stderr).strip()[-300:]}'))
+            # TikTok: va a la bandeja como borrador (la API sin auditoría no deja publicar directo).
+            # Cada cuenta con su token (cuenta.py): si la cuenta todavía no autorizó TikTok, se saltea.
+            en_bandeja = False
+            if os.path.exists(C['tiktok_token']):
+                rt = subprocess.run([PY, '-I', 'publicar_tiktok.py', slug], cwd=os.path.dirname(os.path.abspath(__file__)),
+                                    capture_output=True, text=True, encoding='utf-8', errors='replace')
+                en_bandeja = rt.returncode == 0 and 'EN BANDEJA:' in rt.stdout
+                log(f'{slug} ' + ('en la bandeja de TikTok' if en_bandeja else f'falló TikTok: {(rt.stdout + rt.stderr).strip()[-300:]}'))
+            else:
+                log(f'{slug} sin TikTok: la cuenta no está autorizada ({os.path.basename(C["tiktok_token"])})')
             # YouTube Shorts por API: se prende creando estado/youtube_activo (sin auditoría de Google, puede quedar privado)
-            if os.path.exists(os.path.join(RAIZ, 'estado', 'youtube_activo')) and os.path.exists(os.path.join(RAIZ, 'secretos', 'youtube_token.json')):
+            if C['youtube'] and os.path.exists(os.path.join(RAIZ, 'estado', 'youtube_activo')) and os.path.exists(os.path.join(RAIZ, 'secretos', 'youtube_token.json')):
                 ry = subprocess.run([PY, '-I', 'publicar_youtube.py', slug], cwd=os.path.dirname(os.path.abspath(__file__)),
                                     capture_output=True, text=True, encoding='utf-8', errors='replace')
                 log(f'{slug} ' + (ry.stdout.split('SUBIDO:')[-1].strip() if 'SUBIDO:' in ry.stdout else f'falló YouTube: {(ry.stdout + ry.stderr).strip()[-300:]}'))
@@ -152,7 +177,7 @@ if __name__ == '__main__':
     if '--probar' in sys.argv:
         sys.exit(main(probar=True))
     if '--toca' in sys.argv:  # para la nube: "si" si este turno todavía no se publicó (así no instala nada al divino botón)
-        print('no' if turno_cubierto() or os.path.exists(os.path.join(RAIZ, 'PAUSA')) else 'si')
+        print('no' if turno_cubierto() or os.path.exists(os.path.join(RAIZ, 'PAUSA')) or vacia_avisada() else 'si')
         sys.exit(0)
     # el 24/10 a las 19:30 se cayó sin dejar rastro: cualquier error inesperado queda en el log y avisa
     try:

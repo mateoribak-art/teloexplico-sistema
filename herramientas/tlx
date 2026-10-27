@@ -15,6 +15,9 @@
 #   tlx metricas carruseles         tabla de carruseles (alcance, compartidos, visitas al perfil)
 #   tlx comentarios pendientes      comentarios nuevos sin responder
 #   tlx comentarios responder|saltear|alerta <id> "<texto o motivo>"
+#
+# Cuentas (27/10): los slugs "en-…" son de @letmeexplain.us y viven en videos/en/ (la voz, el idioma y la carpeta salen solos).
+# Lo que trabaja sobre la cuenta entera (cola, publicador) usa TLX_CUENTA=en:  TLX_CUENTA=en ./herramientas/tlx cola
 set -euo pipefail
 RAIZ="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 PY="/c/Users/Mateo/AppData/Local/Programs/Python/Python312/python.exe"
@@ -23,6 +26,8 @@ H="$RAIZ/herramientas"
 M="$RAIZ/motor"
 # 3D: en la notebook usa la placa de video (angle); en la nube no hay, va por software (swangle)
 if [[ "$OSTYPE" == msys* || "$OSTYPE" == cygwin* ]]; then GL=angle; else GL=swangle; fi
+# carpeta de un video según su cuenta (herramientas/cuenta.py)
+carpeta() { case "$1" in en-*) echo "$RAIZ/videos/en/$1" ;; *) echo "$RAIZ/videos/$1" ;; esac; }
 
 
 cmd="${1:-}"; shift || true
@@ -37,29 +42,31 @@ case "$cmd" in
   tsc)     cd "$M" && npx tsc --noEmit ;;
   cuadros)
     slug="$1"; shift
-    mkdir -p "$RAIZ/videos/$slug/cuadros"
+    V="$(carpeta "$slug")"
+    mkdir -p "$V/cuadros"
     cd "$M"
     # se arma el proyecto una sola vez y cada cuadro sale de ahí (antes se rearmaba por cuadro: lento en 3D)
     npx remotion bundle --out-dir="$M/.bundle-cuadros" --log=error >/dev/null
     for f in "$@"; do
-      npx remotion still "$M/.bundle-cuadros" "h$slug" "$RAIZ/videos/$slug/cuadros/f$f.png" --frame="$f" --scale=0.5 --gl=$GL --log=error
+      npx remotion still "$M/.bundle-cuadros" "h$slug" "$V/cuadros/f$f.png" --frame="$f" --scale=0.5 --gl=$GL --log=error
     done
-    cd "$RAIZ/videos/$slug/cuadros"
+    cd "$V/cuadros"
     # grilla de 4 columnas: así cada cuadro se ve lo bastante grande para revisar detalles
     entradas=(); for f in "$@"; do entradas+=(-i "f$f.png"); done
     filas=$(( ($# + 3) / 4 ))
     ffmpeg -v error -y "${entradas[@]}" -filter_complex "concat=n=$#:v=1:a=0,tile=4x$filas:padding=10:color=white" -frames:v 1 hoja.png
-    echo "hoja de cuadros: videos/$slug/cuadros/hoja.png"
+    echo "hoja de cuadros: ${V#$RAIZ/}/cuadros/hoja.png"
     ;;
   render)
     slug="$1"
+    V="$(carpeta "$slug")"
     cd "$M"
-    npx remotion render "h$slug" "$RAIZ/videos/$slug/render.mp4" --codec=h264 --crf=18 --audio-codec=aac --gl=$GL --log=error
-    npx remotion still "p$slug" "$RAIZ/videos/$slug/portada.png" --gl=$GL --log=error
-    cd "$RAIZ/videos/$slug"
+    npx remotion render "h$slug" "$V/render.mp4" --codec=h264 --crf=18 --audio-codec=aac --gl=$GL --log=error
+    npx remotion still "p$slug" "$V/portada.png" --gl=$GL --log=error
+    cd "$V"
     ffmpeg -v error -y -i render.mp4 -c:v copy -af "loudnorm=I=-14:TP=-1.5:LRA=11" -ar 48000 -c:a aac -b:a 256k -movflags +faststart "$slug.mp4"
     rm -f render.mp4
-    echo "render listo: videos/$slug/$slug.mp4 ($(ffprobe -v error -show_entries format=duration -of csv=p=0 "$slug.mp4") s)"
+    echo "render listo: ${V#$RAIZ/}/$slug.mp4 ($(ffprobe -v error -show_entries format=duration -of csv=p=0 "$slug.mp4") s)"
     ;;
   taller)
     # dibuja motor/src/taller/Taller.tsx (objeto nuevo en grande y en chico) para pulirlo antes de usarlo
@@ -73,5 +80,5 @@ case "$cmd" in
     cd "$M" && npx remotion still catalogo "$RAIZ/videos/_taller/catalogo.png" --log=error
     echo "catálogo: videos/_taller/catalogo.png"
     ;;
-  *) sed -n '2,16p' "$0"; exit 1 ;;
+  *) sed -n '2,19p' "$0"; exit 1 ;;
 esac

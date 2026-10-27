@@ -5,6 +5,7 @@ set -euo pipefail
 cd "$(dirname "$0")/../.."
 mkdir -p secretos
 printf '%s' "$META_JSON" > secretos/meta.json
+if [ -n "${META_EN_JSON:-}" ]; then printf '%s' "$META_EN_JSON" > secretos/meta_en.json; fi   # @letmeexplain.us (27/10)
 printf '%s' "$AVISOS_JSON" > secretos/avisos.json
 printf '%s' "$TIKTOK_JSON" > secretos/tiktok.json
 printf '%s' "$GEMINI_KEY" > secretos/gemini_key.txt
@@ -13,5 +14,10 @@ if [ -n "${YOUTUBE_JSON:-}" ]; then printf '%s' "$YOUTUBE_JSON" > secretos/youtu
 if [ -f estado/tiktok_token.enc ]; then
   openssl enc -d -aes-256-cbc -pbkdf2 -pass env:CLAVE_ESTADO -in estado/tiktok_token.enc -out secretos/tiktok_token.json
   sha256sum secretos/tiktok_token.json | cut -d' ' -f1 > secretos/.tiktok_token.sha
+fi
+# @letmeexplain.us: mismo esquema, su propio token (solo si ya se autorizó)
+if [ -f estado/tiktok_token_en.enc ]; then
+  openssl enc -d -aes-256-cbc -pbkdf2 -pass env:CLAVE_ESTADO -in estado/tiktok_token_en.enc -out secretos/tiktok_token_en.json
+  sha256sum secretos/tiktok_token_en.json | cut -d' ' -f1 > secretos/.tiktok_token_en.sha
 fi
 echo "secretos listos"
