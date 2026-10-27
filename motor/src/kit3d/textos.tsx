@@ -175,3 +175,33 @@ export const Chip: React.FC<{ desde: number; hasta: number; x: number; y: number
     </div>
   );
 };
+
+/** Cierre: invita a seguir la serie (mismo texto que el cierre 2D del kit, 26/10), corto para no romper el loop. */
+export const DUR_CIERRE_3D = 42;
+export const Cierre3D: React.FC<{ desde: number }> = ({ desde }) => {
+  const frame = useCurrentFrame();
+  const v = interpolate(frame, [desde, desde + 8], [0, 1], clamp);
+  if (v <= 0) return null;
+  return (
+    <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", background: `rgba(5,8,16,${0.55 * v})`, pointerEvents: "none" }}>
+      <div
+        style={{
+          opacity: v,
+          transform: `scale(${0.9 + 0.1 * v})`,
+          padding: "18px 40px",
+          borderRadius: 999,
+          background: "rgba(10,16,32,0.85)",
+          border: `3px solid ${ACENTO}`,
+          boxShadow: `0 0 40px ${ACENTO}55`,
+          color: "#fff",
+          fontFamily: display,
+          fontWeight: 800,
+          fontSize: 44,
+          whiteSpace: "nowrap",
+        }}
+      >
+        seguí <span style={{ color: ACENTO }}>@teloexplico.ar</span> · un dato por día
+      </div>
+    </AbsoluteFill>
+  );
+};

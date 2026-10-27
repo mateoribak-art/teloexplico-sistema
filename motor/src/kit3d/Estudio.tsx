@@ -63,13 +63,14 @@ const Polvo: React.FC<{ cantidad?: number }> = ({ cantidad = 26 }) => {
   );
 };
 
-export const Estudio: React.FC<{ children: React.ReactNode; fov?: number }> = ({ children, fov = 28 }) => {
+/** `fondo={false}`: solo el objeto sobre transparente (portadas). */
+export const Estudio: React.FC<{ children: React.ReactNode; fov?: number; fondo?: boolean }> = ({ children, fov = 28, fondo = true }) => {
   const { width, height } = useVideoConfig();
   return (
     <AbsoluteFill
-      style={{ background: `radial-gradient(ellipse 85% 60% at 50% 42%, ${FONDO.centro} 0%, #0d1528 55%, ${FONDO.borde} 100%)` }}
+      style={fondo ? { background: `radial-gradient(ellipse 85% 60% at 50% 42%, ${FONDO.centro} 0%, #0d1528 55%, ${FONDO.borde} 100%)` } : undefined}
     >
-      <Polvo />
+      {fondo && <Polvo />}
       <ThreeCanvas
         width={width}
         height={height}
@@ -99,9 +100,11 @@ export const Estudio: React.FC<{ children: React.ReactNode; fov?: number }> = ({
         {children}
       </ThreeCanvas>
       {/* viñeta por encima de todo, como en un lente */}
-      <AbsoluteFill
-        style={{ background: "radial-gradient(ellipse 75% 65% at 50% 45%, transparent 55%, rgba(0,0,0,0.55) 100%)", pointerEvents: "none" }}
-      />
+      {fondo && (
+        <AbsoluteFill
+          style={{ background: "radial-gradient(ellipse 75% 65% at 50% 45%, transparent 55%, rgba(0,0,0,0.55) 100%)", pointerEvents: "none" }}
+        />
+      )}
     </AbsoluteFill>
   );
 };
