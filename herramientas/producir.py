@@ -79,9 +79,16 @@ def resumir(crudo):
     return texto
 
 
-def claude(pedido, log, minutos):
+# Modelo por tarea (26/10, pedido de Mateo: que gaste la menor cuota posible). Sin --model, claude usa Opus,
+# el que más cuota consume. Sonnet para lo que necesita criterio (producir, radar); Haiku para lo simple.
+MODELO_PRODUCIR = 'sonnet'
+MODELO_RADAR = 'sonnet'
+MODELO_COMENTARIOS = 'haiku'
+
+
+def claude(pedido, log, minutos, modelo=MODELO_PRODUCIR):
     try:
-        r = subprocess.run(['claude', '-p', pedido, '--permission-mode', 'dontAsk', '--output-format', 'stream-json', '--verbose'],
+        r = subprocess.run(['claude', '-p', pedido, '--model', modelo, '--permission-mode', 'dontAsk', '--output-format', 'stream-json', '--verbose'],
                            cwd=RAIZ, capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=minutos * 60)
         salida, codigo = resumir(r.stdout) + r.stderr, r.returncode
     except subprocess.TimeoutExpired as e:
@@ -145,7 +152,7 @@ def produccion():
             return
         # sobran videos comunes, pero el tema del momento no espera: solo se corre el radar
         escribir(log, f'Hay {n} videos listos: no hace falta producir hoy. Corre solo el radar de actualidad.')
-        ok = claude(RADAR, log, 90)
+        ok = claude(RADAR, log, 90, MODELO_RADAR)
         escribir(log, f'Termina el radar ({"ok" if ok else "con problemas"}).')
         return aviso_noche()
     escribir(log, f'Arranca la producción ({n} listos en la cola, meta {META}).')
@@ -163,7 +170,7 @@ def radar():
     if os.path.exists(os.path.join(RAIZ, 'PAUSA')):
         return escribir(log, 'PAUSA activa: no se corre el radar.')
     escribir(log, 'Arranca el radar.')
-    ok = claude(RADAR, log, 90)
+    ok = claude(RADAR, log, 90, MODELO_RADAR)
     escribir(log, f'Termina el radar ({"ok" if ok else "con problemas"}).')
 
 
@@ -175,13 +182,13 @@ def comentarios():
     if n <= 0:
         return escribir(log, 'Sin comentarios nuevos.' if n == 0 else 'No se pudieron leer los comentarios.')
     escribir(log, f'Hay {n} comentarios nuevos: arranca la respuesta.')
-    ok = claude(COMENTARIOS, log, 30)
+    ok = claude(COMENTARIOS, log, 30, MODELO_COMENTARIOS)
     escribir(log, f'Termina la respuesta de comentarios ({"ok" if ok else "con problemas"}).')
 
 
 def diagnostico():
     """Pedido mínimo con el detalle de cada herramienta que intenta Claude y cada permiso negado (videos/diagnostico.jsonl)."""
-    r = subprocess.run(['claude', '-p', 'Corré exactamente `./herramientas/tlx cola` y copiá la salida. Nada más.',
+    r = subprocess.run(['claude', '-p', '--model', 'haiku', 'Corré exactamente `./herramientas/tlx cola` y copiá la salida. Nada más.',
                         '--permission-mode', 'dontAsk', '--output-format', 'stream-json', '--verbose'],
                        cwd=RAIZ, capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=600)
     open(os.path.join(V, 'diagnostico.jsonl'), 'w', encoding='utf-8').write(r.stdout + '\n' + r.stderr)

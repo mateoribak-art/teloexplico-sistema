@@ -80,4 +80,5 @@ Todos los reels se publican con `is_ai_generated` (etiqueta "Info de IA" de Inst
 ## Límites a tener en cuenta
 - Gemini (voz) plan gratis: **10 pedidos por día**. Cada video usa 1. Con el plan pago (~US$0,02 por video) se saca ese límite.
 - La producción nocturna usa el plan de Claude de Mateo.
+- Para gastar la menor cuota posible cada tarea usa su modelo (`producir.py`, arriba de todo): producción y radar con **Sonnet**, comentarios con **Haiku** (sin elegir, Claude usaría Opus, el que más gasta). Los renders 3D no usan Claude.
 - Trial Reels: Instagram los habilita recién con más seguidores; cuando estén, se suma la estrategia de prueba de hooks.
