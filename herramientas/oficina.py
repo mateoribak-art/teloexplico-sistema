@@ -381,7 +381,7 @@ def main():
                 e.update(estado='aviso', solo=True, resumen=f"Necesita algo tuyo: {ult.get('que_hacer') or ult.get('titulo', '')}")
             elif ult.get('estado') == 'aplicado' and (not e['cuando'] or ult['actualizado'] > e['cuando']):
                 e.update(estado='ok', resumen=f"El técnico lo arregló solo: {ult.get('titulo', '')}. Se confirma en su próximo turno.", arreglo=None)
-            elif ult.get('estado') == 'explicado' and ult.get('firma') == e['firma']:
+            elif ult.get('estado') in ('explicado', 'visto', 'descartado') and ult.get('firma') == e['firma']:
                 e.update(estado='ok', resumen=f"Revisado por el técnico: {ult.get('titulo', '')}", arreglo=None)
     os.makedirs(os.path.dirname(SALIDA), exist_ok=True)
     json.dump(datos, open(SALIDA, 'w', encoding='utf-8', newline='\n'), ensure_ascii=False, indent=1)
