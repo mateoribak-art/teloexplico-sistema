@@ -93,7 +93,8 @@ def main(probar=False):
                                capture_output=True, text=True, encoding='utf-8', errors='replace')
             print(r.stdout[-1500:], r.stderr[-1500:])
             return r.returncode
-        problemas = controlar(slug)
+        # la voz ya se controló al producir y el archivo no cambia: repetirlo en la nube daba diferencias (El Niño 91 %, 26/10)
+        problemas = controlar(slug, voz=False)
         if problemas:
             cola.cambiar_estado(slug, 'apartado', '; '.join(problemas))
             log(f'{slug} apartado: {"; ".join(problemas)}')

@@ -51,11 +51,19 @@ def mandar_telegram(slug, video, tiktok, titulo, descripcion):
     import subprocess
     dur = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', video],
                          capture_output=True, text=True).stdout.strip() or '0'
-    telegram('sendVideo', {'caption': f'▶️ YouTube Shorts · {slug}\n\nTÍTULO (tocá para copiar):\n{titulo}'[:1000],
-                           'supports_streaming': 'true', 'width': '1080', 'height': '1920',
+    if youtube_automatico():  # ya lo subió publicar_youtube.py: el video queda solo para TikTok (no duplicar en YouTube)
+        leyenda = f'🎵 Para TikTok · {slug}\n✅ YouTube Shorts: ya se subió solo, no lo subas de nuevo.'
+    else:
+        leyenda = f'▶️ YouTube Shorts · {slug}\n\nTÍTULO (tocá para copiar):\n{titulo}'
+    telegram('sendVideo', {'caption': leyenda[:1000], 'supports_streaming': 'true', 'width': '1080', 'height': '1920',
                            'duration': str(round(float(dur)))}, ('video', video))
-    telegram('sendMessage', {'text': f'DESCRIPCIÓN para YouTube:\n\n{descripcion}'[:4000]})
+    if not youtube_automatico():
+        telegram('sendMessage', {'text': f'DESCRIPCIÓN para YouTube:\n\n{descripcion}'[:4000]})
     telegram('sendMessage', {'text': f'Texto para TikTok:\n\n{tiktok}'[:4000]})
+
+
+def youtube_automatico():
+    return os.path.exists(os.path.join(RAIZ, 'estado', 'youtube_activo')) and os.path.exists(os.path.join(RAIZ, 'secretos', 'youtube_token.json'))
 
 
 def tema():
@@ -114,7 +122,8 @@ def main(slug, avisar=True, tiktok_en_bandeja=False):
         except Exception as e:  # si Telegram falla, queda el camino de siempre
             print('Telegram falló:', str(e)[:200])
     notificar('📲 Subilo a TikTok', f'Video: {ruta}\n\nTexto para pegar:\n\n{tiktok}', click=click)
-    notificar('▶️ Y a YouTube Shorts', f'Mismo video ({ruta}).\n\nTÍTULO:\n{titulo}\n\nDESCRIPCIÓN:\n{descripcion}', click=click)
+    if not youtube_automatico():
+        notificar('▶️ Y a YouTube Shorts', f'Mismo video ({ruta}).\n\nTÍTULO:\n{titulo}\n\nDESCRIPCIÓN:\n{descripcion}', click=click)
     print(f'paquete listo ({ruta}) y notificado')
 
 
