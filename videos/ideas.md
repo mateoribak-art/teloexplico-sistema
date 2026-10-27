@@ -14,6 +14,13 @@ Ninguna idea de acá está verificada: cada una se investiga y se chequea antes 
 - [usada → 018-refresca-tormenta] ¿Por qué después de la tormenta refresca de golpe? El aire frío que baja de la nube con la lluvia y se desparrama (la "corriente descendente"). Una ciudad agobiada, la nube, la bajada de aire frío y el termómetro que cae varios grados en minutos (solo cifras verificadas). Cierre: "mandáselo al que dice 'ya refrescó'".
   (30–45 s, una idea, un dato; momento cotidiano + "¿por qué?" contraintuitivo; ver AUDITORIA_REFERENCIAS.md: lo que tracciona en clima, 26/10)
 
+- [ ] ¿Cómo puede nevar en plena primavera? (actualidad 26/10: alerta del SMN por nevadas en Mendoza, Chubut y Santa Cruz mientras en Buenos Aires hay tormentas). Mecanismo: aire frío en altura + humedad; en la cordillera y la Patagonia la nieve de octubre no es rara. Cierre: "mandáselo al que ya guardó la campera".
+  (30–45 s, una idea, un dato; momento cotidiano + "¿por qué?" contraintuitivo)
+- [ ] ¿Qué significa el "6-7" que hacen todos los pibes? (viral: lo hizo hasta el Presidente en el balcón el 26/10; NADA de política: solo el origen del meme, verificado: canción, básquet, por qué se contagia). Cierre: "mandáselo a tu viejo que no entiende nada".
+  (30–45 s, una idea, un dato; momento cotidiano + "¿por qué?" contraintuitivo)
+- [ ] Granizo con calor, VERSIÓN CORTA (rehacer el 005, que quedó apartado por un falso rechazo del control): alertas naranja por granizo en 9 provincias (22/10). Reusar su chequeo.
+  (30–45 s, una idea, un dato; momento cotidiano + "¿por qué?" contraintuitivo)
+
 ## Verano / casa / plata (prioridad: llega el calor)
 - [usada → 008-aire-en-17] Poner el aire en 17 °C no enfría más rápido; por qué se recomienda 24 °C y cuánto gasta cada grado
 - [usada → 009-ventilador-pieza-vacia] El ventilador no enfría el ambiente: te enfría a vos (dejarlo prendido en una pieza vacía no sirve)
