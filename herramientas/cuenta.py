@@ -45,8 +45,10 @@ CUENTAS = {
         'voz': 'en-us-podcaster-5',
         'idioma': 'en',
         'ritmo': ' Natural pace, like talking to a friend, short pauses between sentences.',
-        'zona': 'America/New_York',
-        'turnos': ((11, 30), (19, 0)),
+        # 27/10: mismos turnos que el español, en hora de Argentina, porque cron-job.org (el único disparo puntual)
+        # lanza a las 12:31 y 19:31 de acá. En Nueva York cae 11:30/18:30 hasta el 1/11 y 10:30/17:30 después.
+        'zona': 'America/Argentina/Buenos_Aires',
+        'turnos': ((12, 30), (19, 30)),
         'segui': 'Follow @letmeexplain.us',
         'renglon_serie': '📚 {serie} #{n} · Follow @letmeexplain.us so you don’t miss #{sig}.',
         'renglon_suelto': 'Follow @letmeexplain.us: one myth a day.',
