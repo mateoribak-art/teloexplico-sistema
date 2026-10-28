@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T14:13",
+ "actualizado": "2026-10-28T14:14",
  "oficinas": [
   {
    "clave": "es",
@@ -463,7 +463,7 @@
      },
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo se apartó solo por vencido; no cambié nada.",
-     "cuando": "2026-10-28T14:13",
+     "cuando": "2026-10-28T14:14",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 005-granizo-calor — tema de actualidad vencido (más de 48 h)",
@@ -861,7 +861,7 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 2 videos listos: alcanza para 1 día(s).",
-     "cuando": "2026-10-28T14:13",
+     "cuando": "2026-10-28T14:14",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 2 videos listos: alcanza para 1 día(s).",
@@ -990,13 +990,12 @@
   },
   {
    "id": "10281413-es-animador",
-   "creado": "2026-10-28T14:13",
-   "empleado": "es/animador",
-   "firma": "f1ec6846aefe",
-   "estado": "pedido",
-   "auto": true,
-   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Juli (Animación y render) está en \"falla\": Falló el render de 024-granizo-corto.\nLo que sugiere la oficina: Relanzá la producción: los videos en estado render se vuelven a renderizar solos.\nTareas:\n024-granizo-corto: render/control: ode:internal/process/task_queues:103:5)\u001b[39m\n\u001b[31m    at /home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/renderer/dist/render-frame-with-option-t\n",
-   "actualizado": "2026-10-28T14:13"
+   "creado": "2026-10-28T14:14",
+   "estado": "fallo",
+   "firma": null,
+   "titulo": "Claude no pudo trabajar ahora",
+   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
+   "actualizado": "2026-10-28T14:14"
   }
  ]
 }
