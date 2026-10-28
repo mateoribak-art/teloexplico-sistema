@@ -150,5 +150,32 @@
     "motivo": "producción nocturna"
    }
   ]
+ },
+ {
+  "slug": "en-006-five-second-rule",
+  "tema": "Is the five-second rule real? (Rutgers 2016)",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-28T18:40",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-28T18:42",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-10-28T18:48",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-28T19:11",
+    "motivo": "render/control: od, the more it picked up. Watermelon was the worst, gummy candy the least. The floor mattered too. Carpet passed on far less than tile or steel. Heads up, longer on the floor does mean more bacteria. Time just isn't the whole story. So today, if it\nPROBLEMAS:\n- la voz no coincide con el guion (87%)"
+   }
+  ]
  }
 ]

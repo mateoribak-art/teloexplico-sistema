@@ -3,3 +3,4 @@
 2026-10-27 en-003-fridge-leftovers · adaptado de 001-heladera · listo (chequeo aprobado en 2.º intento: origen del mito pasó a "probably"; render y control OK)
 2026-10-27 en-004-sugar-hyper · propio · listo (chequeo aprobado en 2.º intento: frase final pasó a "probably the party"; render y control OK; publicar antes de Halloween 31/10)
 2026-10-28 en-005-fridge-part-2 · adaptado de 021-heladera-parte-2 · listo (chequeo aprobado en 2.º intento: freezer pasó a "soups and stews, two to three months"; render y control OK)
+2026-10-28 en-006-five-second-rule · propio · en estado render (3D; chequeo aprobado en 2.º intento: "In some cases" en la frase de menos de un segundo; lo renderiza producir.py)

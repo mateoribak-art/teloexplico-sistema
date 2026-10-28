@@ -15,3 +15,13 @@ You've hit your 5-hour limit · resets 2:20pm (America/Argentina/Buenos_Aires)
 Uso: 1 pasos · 0 tokens nuevos · 0 de caché · 0 escritos · equivale a US$ 0.00 de API
 2026-10-28 13:13 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.
 2026-10-28 13:13 Termina la producción (Claude no terminó bien).
+2026-10-28 17:37 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+2026-10-28 17:37 Render de 024-granizo-corto (sin Claude).
+2026-10-28 18:11 024-granizo-corto: listo (render sin Claude)
+- **Listo para render:** `021-heladera-parte-2`, rehecho en 3D (heladera, olla, fichas de días, freezer, reloj y papelito), con la voz regenerada y el guion y chequeo reusados. Quedó en `render`; `producir.py` lo renderiza y corre el control. Revisé una sola hoja de cuadros y después ajusté colores (interior de la heladera y tuppers) sin volver a mirar el resultado.
+- **Ya estaba hecho:** el `024-granizo-corto` se rehízo en 3D en un turno anterior de hoy, así que solo lo marqué en `ideas.md`. No lo toqué más.
+- **Sin segundo video:** quedan 12 videos listos en cola (más de 10). Ninguno apartado ni incompleto. Faltan 5 rehechos del pedido de Mateo (`019`, `008`, `014`, `018`, `012`) para los próximos turnos.
+Uso: 46 pasos · 81,020 tokens nuevos · 1,233,679 de caché · 22,714 escritos · equivale a US$ 0.67 de API
+2026-10-28 18:17 Render de 021-heladera-parte-2 (sin Claude).
+2026-10-28 18:40 021-heladera-parte-2: listo (render sin Claude)
+2026-10-28 18:40 Termina la producción (ok).

@@ -11,3 +11,13 @@ You've hit your 5-hour limit · resets 2:20pm (America/Argentina/Buenos_Aires)
 Uso: 1 pasos · 0 tokens nuevos · 0 de caché · 0 escritos · equivale a US$ 0.00 de API
 2026-10-28 13:13 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.
 2026-10-28 13:13 Termina la producción (Claude no terminó bien).
+2026-10-28 18:40 Arranca la producción (2 listos en la cola, meta 6).
+- **Listo para render:** `en-006-five-second-rule` ("Is the five-second rule real?", propio, serie Kitchen myths #3). Quedó en estado `render` con la escena 3D terminada, y `producir.py` lo renderiza, saca la portada y corre el control. Todavía no corrí el render ni el control.
+- **Chequeo de datos:** el subagente lo rechazó en el primer intento porque faltaba el matiz "In some cases" en la frase de "menos de un segundo" (Rutgers 2016). Lo agregué al guion y al caption y la segunda pasada lo aprobó. El "toss it" del final es una inferencia prudente de los hallazgos, no una recomendación de Rutgers.
+- **Pendientes y cambios:** la revisión de cuadros dejó un subtítulo ("the food in") poco legible sobre el piso claro, y no hice una segunda vuelta. Además cambié `Marco3D` en `kit3d/textos.tsx` para que muestre el nombre de la cuenta ("LET ME EXPLAIN") en vez de "TE LO EXPLICO" fijo. Nada incompleto ni apartado.
+Uso: 59 pasos · 88,724 tokens nuevos · 1,985,448 de caché · 23,623 escritos · equivale a US$ 1.08 de API
+Permisos negados (1):
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-006-five-second-rule/ && python3 - <<'E'\nimport json\nR=\"Rutg
+2026-10-28 18:48 Render de en-006-five-second-rule (sin Claude).
+2026-10-28 19:11 en-006-five-second-rule: apartado (render/control: od, the more it picked up. Watermelon was the worst, gummy candy the least. The floor mattered too. Carpet passed on far less than tile or steel. Heads up, longer on the floor does mea)
+2026-10-28 19:11 Termina la producción (ok).

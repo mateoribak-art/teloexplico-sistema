@@ -1,0 +1,17 @@
+{
+  "titulo": "Is the five-second rule real?",
+  "fuentes": [
+    "Rutgers University (Schaffner lab), Applied and Environmental Microbiology, 2016: https://www.foodsafetymagazine.com/news/the-5-second-rule-is-bogus-say-rutgers-researchers/ (watermelon, bread, buttered bread, gummy candy on stainless steel, tile, wood, carpet; contact times under 1 s, 5, 30, 300 s; transfer in under a second; wet food picks up the most; carpet transfers much less than steel and tile)"
+  ],
+  "frases": [
+    {"texto": "You've been trusting the five-second rule.", "estilo": "Dry and confident, with a half smile."},
+    {"texto": "That's a myth.", "estilo": "Short and punchy."},
+    {"texto": "Researchers at Rutgers University dropped watermelon, bread, and gummy candy on tile, steel, wood, and carpet.", "estilo": "Curious, setting the scene."},
+    {"texto": "In some cases, bacteria got on the food in less than one second.", "estilo": "Emphatic, a little surprised."},
+    {"texto": "The wetter the food, the more it picked up. Watermelon was the worst, gummy candy the least.", "estilo": "Explaining clearly."},
+    {"texto": "The floor mattered too. Carpet passed on far less than tile or steel.", "estilo": "Matter of fact."},
+    {"texto": "Heads up: longer on the floor does mean more bacteria. Time just isn't the whole story.", "estilo": "Friendly warning."},
+    {"texto": "So today, if it's wet and it hit tile, toss it.", "estilo": "Clear and practical."},
+    {"texto": "Send this to the friend who yells five seconds before the cookie even lands.", "estilo": "Playful, with humor."}
+  ]
+}

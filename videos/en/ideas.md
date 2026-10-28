@@ -26,7 +26,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - No adaptar: 006 y 007 (BTS en Argentina), 005 (apartado), 010/011/013 (sin video o chequeo rechazado).
 
 ## Temas de EE. UU. — serie: cocina (Kitchen myths)
-- [ ] Is the 5-second rule real? (Rutgers study 2016: transfer can be instant; depends on food and surface)
+- [usada → en-006-five-second-rule] Is the 5-second rule real? (Rutgers study 2016: transfer can be instant; depends on food and surface)
 - [ ] Does searing meat "seal in the juices"? (myth)
 - [ ] Does alcohol fully cook off? (USDA retention table: it depends on time)
 - [ ] Does adding oil to pasta water stop it from sticking?

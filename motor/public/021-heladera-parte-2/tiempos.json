@@ -1,5 +1,5 @@
 {
- "duracion": 41.85,
+ "duracion": 42.12,
  "frases": [
   {
    "texto": "En la parte uno te dije que no dejes enfriar la comida afuera.",
@@ -7,587 +7,587 @@
     {
      "texto": "En",
      "inicio": 0.0,
-     "fin": 0.12
+     "fin": 0.16
     },
     {
      "texto": "la",
-     "inicio": 0.12,
-     "fin": 0.22
+     "inicio": 0.16,
+     "fin": 0.26
     },
     {
      "texto": "parte",
-     "inicio": 0.22,
-     "fin": 0.4
+     "inicio": 0.26,
+     "fin": 0.44
     },
     {
      "texto": "uno",
-     "inicio": 0.4,
-     "fin": 0.72
+     "inicio": 0.44,
+     "fin": 0.74
     },
     {
      "texto": "te",
-     "inicio": 0.72,
-     "fin": 1.24
+     "inicio": 0.74,
+     "fin": 1.22
     },
     {
      "texto": "dije",
-     "inicio": 1.24,
-     "fin": 1.5
+     "inicio": 1.22,
+     "fin": 1.48
     },
     {
      "texto": "que",
-     "inicio": 1.5,
-     "fin": 1.74
+     "inicio": 1.48,
+     "fin": 1.78
     },
     {
      "texto": "no",
-     "inicio": 1.74,
+     "inicio": 1.78,
      "fin": 2.02
     },
     {
      "texto": "dejes",
      "inicio": 2.02,
-     "fin": 2.28
+     "fin": 2.34
     },
     {
      "texto": "enfriar",
-     "inicio": 2.28,
-     "fin": 2.72
+     "inicio": 2.34,
+     "fin": 2.82
     },
     {
      "texto": "la",
-     "inicio": 2.72,
-     "fin": 2.84
+     "inicio": 2.82,
+     "fin": 2.96
     },
     {
      "texto": "comida",
-     "inicio": 2.84,
-     "fin": 3.14
+     "inicio": 2.96,
+     "fin": 3.22
     },
     {
      "texto": "afuera.",
-     "inicio": 3.14,
-     "fin": 3.68
+     "inicio": 3.22,
+     "fin": 3.96
     }
    ],
    "inicio": 0.0,
-   "fin": 3.68
+   "fin": 3.96
   },
   {
    "texto": "Me preguntaron: ¿y la tapo?",
    "palabras": [
     {
      "texto": "Me",
-     "inicio": 4.22,
-     "fin": 4.52
+     "inicio": 4.3,
+     "fin": 4.54
     },
     {
      "texto": "preguntaron:",
-     "inicio": 4.52,
+     "inicio": 4.54,
      "fin": 4.96
     },
     {
      "texto": "¿y",
      "inicio": 4.96,
-     "fin": 5.64
+     "fin": 5.62
     },
     {
      "texto": "la",
-     "inicio": 5.64,
-     "fin": 5.9
+     "inicio": 5.62,
+     "fin": 5.74
     },
     {
      "texto": "tapo?",
-     "inicio": 5.9,
-     "fin": 6.12
+     "inicio": 5.74,
+     "fin": 5.92
     }
    ],
-   "inicio": 4.22,
-   "fin": 6.12
+   "inicio": 4.3,
+   "fin": 5.92
   },
   {
    "texto": "Tapala: según el Departamento de Agricultura de Estados Unidos, así mantiene la humedad y no agarra olores.",
    "palabras": [
     {
      "texto": "Tapala:",
-     "inicio": 6.68,
-     "fin": 7.08
+     "inicio": 6.46,
+     "fin": 6.86
     },
     {
      "texto": "según",
-     "inicio": 7.64,
-     "fin": 7.86
+     "inicio": 7.44,
+     "fin": 7.76
     },
     {
      "texto": "el",
-     "inicio": 7.86,
-     "fin": 7.98
+     "inicio": 7.76,
+     "fin": 7.92
     },
     {
      "texto": "Departamento",
-     "inicio": 7.98,
-     "fin": 8.4
+     "inicio": 7.92,
+     "fin": 8.44
     },
     {
      "texto": "de",
-     "inicio": 8.4,
-     "fin": 8.6
+     "inicio": 8.44,
+     "fin": 8.66
     },
     {
      "texto": "Agricultura",
-     "inicio": 8.6,
-     "fin": 9.06
+     "inicio": 8.66,
+     "fin": 9.24
     },
     {
      "texto": "de",
-     "inicio": 9.06,
-     "fin": 9.18
+     "inicio": 9.24,
+     "fin": 9.4
     },
     {
      "texto": "Estados",
-     "inicio": 9.18,
-     "fin": 9.38
+     "inicio": 9.4,
+     "fin": 9.6
     },
     {
      "texto": "Unidos,",
-     "inicio": 9.38,
-     "fin": 9.78
+     "inicio": 9.6,
+     "fin": 10.04
     },
     {
      "texto": "así",
-     "inicio": 10.2,
-     "fin": 10.34
+     "inicio": 10.34,
+     "fin": 10.54
     },
     {
      "texto": "mantiene",
-     "inicio": 10.34,
-     "fin": 10.72
+     "inicio": 10.54,
+     "fin": 11.06
     },
     {
      "texto": "la",
-     "inicio": 10.72,
-     "fin": 10.9
+     "inicio": 11.06,
+     "fin": 11.22
     },
     {
      "texto": "humedad",
-     "inicio": 10.9,
-     "fin": 11.3
+     "inicio": 11.22,
+     "fin": 11.66
     },
     {
      "texto": "y",
-     "inicio": 11.3,
-     "fin": 11.62
+     "inicio": 11.66,
+     "fin": 12.1
     },
     {
      "texto": "no",
-     "inicio": 11.62,
-     "fin": 11.78
+     "inicio": 12.1,
+     "fin": 12.32
     },
     {
      "texto": "agarra",
-     "inicio": 11.78,
-     "fin": 12.14
+     "inicio": 12.32,
+     "fin": 12.64
     },
     {
      "texto": "olores.",
-     "inicio": 12.14,
-     "fin": 12.58
+     "inicio": 12.64,
+     "fin": 12.98
     }
    ],
-   "inicio": 6.68,
-   "fin": 12.58
+   "inicio": 6.46,
+   "fin": 12.98
   },
   {
    "texto": "Pero lo que más importa es otra cosa: cuántos días dura.",
    "palabras": [
     {
      "texto": "Pero",
-     "inicio": 13.12,
-     "fin": 13.38
+     "inicio": 13.48,
+     "fin": 13.74
     },
     {
      "texto": "lo",
-     "inicio": 13.38,
-     "fin": 13.52
+     "inicio": 13.74,
+     "fin": 14.3
     },
     {
      "texto": "que",
-     "inicio": 13.52,
-     "fin": 13.7
+     "inicio": 14.3,
+     "fin": 14.42
     },
     {
      "texto": "más",
-     "inicio": 13.7,
-     "fin": 14.0
+     "inicio": 14.42,
+     "fin": 14.64
     },
     {
      "texto": "importa",
-     "inicio": 14.0,
-     "fin": 14.56
+     "inicio": 14.64,
+     "fin": 15.08
     },
     {
      "texto": "es",
-     "inicio": 14.56,
-     "fin": 14.98
+     "inicio": 15.08,
+     "fin": 15.24
     },
     {
      "texto": "otra",
-     "inicio": 14.98,
-     "fin": 15.18
+     "inicio": 15.24,
+     "fin": 15.42
     },
     {
      "texto": "cosa:",
-     "inicio": 15.18,
-     "fin": 15.48
+     "inicio": 15.42,
+     "fin": 15.72
     },
     {
      "texto": "cuántos",
-     "inicio": 16.1,
-     "fin": 16.42
+     "inicio": 16.26,
+     "fin": 16.58
     },
     {
      "texto": "días",
-     "inicio": 16.42,
-     "fin": 16.64
+     "inicio": 16.58,
+     "fin": 16.86
     },
     {
      "texto": "dura.",
-     "inicio": 16.64,
-     "fin": 16.92
+     "inicio": 16.86,
+     "fin": 17.22
     }
    ],
-   "inicio": 13.12,
-   "fin": 16.92
+   "inicio": 13.48,
+   "fin": 17.22
   },
   {
    "texto": "Ese guiso tiene fecha de vencimiento.",
    "palabras": [
     {
      "texto": "Ese",
-     "inicio": 17.52,
-     "fin": 17.76
+     "inicio": 17.8,
+     "fin": 18.04
     },
     {
      "texto": "guiso",
-     "inicio": 17.76,
-     "fin": 17.98
+     "inicio": 18.04,
+     "fin": 18.3
     },
     {
      "texto": "tiene",
-     "inicio": 17.98,
-     "fin": 18.26
+     "inicio": 18.3,
+     "fin": 18.7
     },
     {
      "texto": "fecha",
-     "inicio": 18.26,
-     "fin": 18.68
+     "inicio": 18.7,
+     "fin": 19.08
     },
     {
      "texto": "de",
-     "inicio": 18.68,
-     "fin": 18.78
+     "inicio": 19.08,
+     "fin": 19.2
     },
     {
      "texto": "vencimiento.",
-     "inicio": 18.78,
-     "fin": 19.24
+     "inicio": 19.2,
+     "fin": 19.76
     }
    ],
-   "inicio": 17.52,
-   "fin": 19.24
+   "inicio": 17.8,
+   "fin": 19.76
   },
   {
    "texto": "Para el Departamento de Agricultura de Estados Unidos, tres o cuatro días en la heladera.",
    "palabras": [
     {
      "texto": "Para",
-     "inicio": 20.2,
-     "fin": 20.4
-    },
-    {
-     "texto": "el",
-     "inicio": 20.4,
+     "inicio": 20.26,
      "fin": 20.5
     },
     {
-     "texto": "Departamento",
+     "texto": "el",
      "inicio": 20.5,
-     "fin": 20.88
+     "fin": 20.58
     },
     {
-     "texto": "de",
-     "inicio": 20.88,
+     "texto": "Departamento",
+     "inicio": 20.58,
      "fin": 21.04
     },
     {
-     "texto": "Agricultura",
+     "texto": "de",
      "inicio": 21.04,
-     "fin": 21.42
+     "fin": 21.2
+    },
+    {
+     "texto": "Agricultura",
+     "inicio": 21.2,
+     "fin": 21.68
     },
     {
      "texto": "de",
-     "inicio": 21.42,
-     "fin": 21.6
+     "inicio": 21.68,
+     "fin": 21.84
     },
     {
      "texto": "Estados",
-     "inicio": 21.6,
-     "fin": 21.78
+     "inicio": 21.84,
+     "fin": 22.1
     },
     {
      "texto": "Unidos,",
-     "inicio": 21.78,
-     "fin": 22.18
+     "inicio": 22.1,
+     "fin": 22.48
     },
     {
      "texto": "tres",
-     "inicio": 22.82,
-     "fin": 22.96
+     "inicio": 22.92,
+     "fin": 23.26
     },
     {
      "texto": "o",
-     "inicio": 22.96,
-     "fin": 23.24
+     "inicio": 23.26,
+     "fin": 23.76
     },
     {
      "texto": "cuatro",
-     "inicio": 23.24,
-     "fin": 23.54
-    },
-    {
-     "texto": "días",
-     "inicio": 23.54,
-     "fin": 23.84
-    },
-    {
-     "texto": "en",
-     "inicio": 23.84,
-     "fin": 24.02
-    },
-    {
-     "texto": "la",
-     "inicio": 24.02,
+     "inicio": 23.76,
      "fin": 24.12
     },
     {
-     "texto": "heladera.",
+     "texto": "días",
      "inicio": 24.12,
-     "fin": 24.52
+     "fin": 24.46
+    },
+    {
+     "texto": "en",
+     "inicio": 24.46,
+     "fin": 24.66
+    },
+    {
+     "texto": "la",
+     "inicio": 24.66,
+     "fin": 24.76
+    },
+    {
+     "texto": "heladera.",
+     "inicio": 24.76,
+     "fin": 25.14
     }
    ],
-   "inicio": 20.2,
-   "fin": 24.52
+   "inicio": 20.26,
+   "fin": 25.14
   },
   {
    "texto": "Si no lo vas a comer, al freezer: ahí mantiene la calidad tres o cuatro meses.",
    "palabras": [
     {
      "texto": "Si",
-     "inicio": 25.08,
-     "fin": 25.52
+     "inicio": 25.72,
+     "fin": 25.72
     },
     {
      "texto": "no",
-     "inicio": 25.52,
-     "fin": 25.66
+     "inicio": 25.72,
+     "fin": 25.84
     },
     {
      "texto": "lo",
-     "inicio": 25.66,
-     "fin": 25.76
+     "inicio": 25.84,
+     "fin": 25.94
     },
     {
      "texto": "vas",
-     "inicio": 25.76,
-     "fin": 25.88
+     "inicio": 25.94,
+     "fin": 26.06
     },
     {
      "texto": "a",
-     "inicio": 25.88,
-     "fin": 25.98
-    },
-    {
-     "texto": "comer,",
-     "inicio": 25.98,
+     "inicio": 26.06,
      "fin": 26.14
     },
     {
+     "texto": "comer,",
+     "inicio": 26.14,
+     "fin": 26.34
+    },
+    {
      "texto": "al",
-     "inicio": 26.6,
-     "fin": 26.72
+     "inicio": 26.88,
+     "fin": 27.04
     },
     {
      "texto": "freezer:",
-     "inicio": 26.72,
-     "fin": 27.0
+     "inicio": 27.04,
+     "fin": 27.3
     },
     {
      "texto": "ahí",
-     "inicio": 27.58,
-     "fin": 27.72
-    },
-    {
-     "texto": "mantiene",
-     "inicio": 27.72,
+     "inicio": 27.92,
      "fin": 28.06
     },
     {
-     "texto": "la",
+     "texto": "mantiene",
      "inicio": 28.06,
-     "fin": 28.22
+     "fin": 28.48
+    },
+    {
+     "texto": "la",
+     "inicio": 28.48,
+     "fin": 28.62
     },
     {
      "texto": "calidad",
-     "inicio": 28.22,
-     "fin": 28.42
+     "inicio": 28.62,
+     "fin": 28.82
     },
     {
      "texto": "tres",
-     "inicio": 28.42,
-     "fin": 29.02
+     "inicio": 28.82,
+     "fin": 29.4
     },
     {
      "texto": "o",
-     "inicio": 29.02,
-     "fin": 29.14
+     "inicio": 29.4,
+     "fin": 29.56
     },
     {
      "texto": "cuatro",
-     "inicio": 29.14,
-     "fin": 29.34
+     "inicio": 29.56,
+     "fin": 29.76
     },
     {
      "texto": "meses.",
-     "inicio": 29.34,
-     "fin": 29.62
+     "inicio": 29.76,
+     "fin": 30.04
     }
    ],
-   "inicio": 25.08,
-   "fin": 29.62
+   "inicio": 25.72,
+   "fin": 30.04
   },
   {
    "texto": "Ojo: para que valga, tiene que entrar a la heladera antes de las dos horas.",
    "palabras": [
     {
      "texto": "Ojo:",
-     "inicio": 30.1,
-     "fin": 30.54
+     "inicio": 30.58,
+     "fin": 30.9
     },
     {
      "texto": "para",
-     "inicio": 31.02,
-     "fin": 31.16
+     "inicio": 31.22,
+     "fin": 31.38
     },
     {
      "texto": "que",
-     "inicio": 31.16,
-     "fin": 31.3
+     "inicio": 31.38,
+     "fin": 31.56
     },
     {
      "texto": "valga,",
-     "inicio": 31.3,
-     "fin": 31.68
+     "inicio": 31.56,
+     "fin": 31.96
     },
     {
      "texto": "tiene",
-     "inicio": 31.96,
-     "fin": 32.38
+     "inicio": 32.28,
+     "fin": 32.58
     },
     {
      "texto": "que",
-     "inicio": 32.38,
-     "fin": 32.5
+     "inicio": 32.58,
+     "fin": 32.72
     },
     {
      "texto": "entrar",
-     "inicio": 32.5,
-     "fin": 32.8
+     "inicio": 32.72,
+     "fin": 33.06
     },
     {
      "texto": "a",
-     "inicio": 32.8,
-     "fin": 33.1
+     "inicio": 33.06,
+     "fin": 33.22
     },
     {
      "texto": "la",
-     "inicio": 33.1,
-     "fin": 33.2
+     "inicio": 33.22,
+     "fin": 33.32
     },
     {
      "texto": "heladera",
-     "inicio": 33.2,
-     "fin": 33.62
+     "inicio": 33.32,
+     "fin": 33.82
     },
     {
      "texto": "antes",
-     "inicio": 33.62,
-     "fin": 34.2
+     "inicio": 33.82,
+     "fin": 34.4
     },
     {
      "texto": "de",
-     "inicio": 34.2,
-     "fin": 34.34
+     "inicio": 34.4,
+     "fin": 34.58
     },
     {
      "texto": "las",
-     "inicio": 34.34,
-     "fin": 34.46
+     "inicio": 34.58,
+     "fin": 34.7
     },
     {
      "texto": "dos",
-     "inicio": 34.46,
-     "fin": 34.56
+     "inicio": 34.7,
+     "fin": 34.86
     },
     {
      "texto": "horas.",
-     "inicio": 34.56,
-     "fin": 34.84
+     "inicio": 34.86,
+     "fin": 35.18
     }
    ],
-   "inicio": 30.1,
-   "fin": 34.84
+   "inicio": 30.58,
+   "fin": 35.18
   },
   {
    "texto": "Hoy: pegale a cada tupper un papelito con la fecha.",
    "palabras": [
     {
      "texto": "Hoy:",
-     "inicio": 35.44,
-     "fin": 35.62
+     "inicio": 35.8,
+     "fin": 35.96
     },
     {
      "texto": "pegale",
-     "inicio": 35.98,
-     "fin": 36.32
+     "inicio": 35.96,
+     "fin": 36.4
     },
     {
      "texto": "a",
-     "inicio": 36.32,
-     "fin": 36.46
+     "inicio": 36.4,
+     "fin": 36.52
     },
     {
      "texto": "cada",
-     "inicio": 36.46,
-     "fin": 36.68
+     "inicio": 36.52,
+     "fin": 36.72
     },
     {
      "texto": "tupper",
-     "inicio": 36.68,
-     "fin": 37.12
+     "inicio": 36.72,
+     "fin": 37.16
     },
     {
      "texto": "un",
-     "inicio": 37.12,
-     "fin": 37.54
+     "inicio": 37.16,
+     "fin": 37.56
     },
     {
      "texto": "papelito",
-     "inicio": 37.54,
-     "fin": 38.02
+     "inicio": 37.56,
+     "fin": 38.04
     },
     {
      "texto": "con",
-     "inicio": 38.02,
+     "inicio": 38.04,
      "fin": 38.18
     },
     {
@@ -598,73 +598,73 @@
     {
      "texto": "fecha.",
      "inicio": 38.28,
-     "fin": 38.62
+     "fin": 38.66
     }
    ],
-   "inicio": 35.44,
-   "fin": 38.62
+   "inicio": 35.8,
+   "fin": 38.66
   },
   {
    "texto": "Mandáselo al que guarda la olla entera con la tapa puesta.",
    "palabras": [
     {
      "texto": "Mandáselo",
-     "inicio": 39.14,
-     "fin": 39.58
+     "inicio": 39.38,
+     "fin": 39.78
     },
     {
      "texto": "al",
-     "inicio": 39.58,
-     "fin": 39.7
+     "inicio": 39.78,
+     "fin": 39.84
     },
     {
      "texto": "que",
-     "inicio": 39.7,
-     "fin": 39.82
+     "inicio": 39.84,
+     "fin": 39.96
     },
     {
      "texto": "guarda",
-     "inicio": 39.82,
-     "fin": 40.2
-    },
-    {
-     "texto": "la",
-     "inicio": 40.2,
+     "inicio": 39.96,
      "fin": 40.3
     },
     {
-     "texto": "olla",
+     "texto": "la",
      "inicio": 40.3,
-     "fin": 40.52
+     "fin": 40.38
+    },
+    {
+     "texto": "olla",
+     "inicio": 40.38,
+     "fin": 40.6
     },
     {
      "texto": "entera",
-     "inicio": 40.52,
-     "fin": 40.94
-    },
-    {
-     "texto": "con",
-     "inicio": 40.94,
+     "inicio": 40.6,
      "fin": 41.08
     },
     {
-     "texto": "la",
+     "texto": "con",
      "inicio": 41.08,
-     "fin": 41.2
+     "fin": 41.26
+    },
+    {
+     "texto": "la",
+     "inicio": 41.26,
+     "fin": 41.4
     },
     {
      "texto": "tapa",
-     "inicio": 41.2,
-     "fin": 41.36
+     "inicio": 41.4,
+     "fin": 41.6
     },
     {
      "texto": "puesta.",
-     "inicio": 41.36,
-     "fin": 41.76
+     "inicio": 41.6,
+     "fin": 42.0
     }
    ],
-   "inicio": 39.14,
-   "fin": 41.76
+   "inicio": 39.38,
+   "fin": 42.0
   }
  ]
 }

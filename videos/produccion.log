@@ -38,3 +38,4 @@
 2026-10-27 | 024-granizo-corto | listo | Serie clima (#6). Versión corta del 005 (idea del banco). Radar ya revisado hoy (sin tema). Chequeo aprobado a la primera (subagente; NSSL/NOAA, NWS; consejo del auto respaldado por seguros). Voz 131/131 (49,5 s), tsc OK, 2 vueltas de cuadros, render 51 s, control OK. Cola con 12+ listos: no se hizo un segundo video.
 2026-10-27 carrusel army-bomb: listo (origen 006-army-bomb)
 2026-10-28 | 024-granizo-corto | rehecho en 3D (Video.tsx + kit3d/objetos/Tormenta.tsx), reusa guion, chequeo y voz; en render | pedido de Mateo (1 de 7 rehechos)
+2026-10-28 | 021-heladera-parte-2 | rehecho en 3D (Video.tsx + kit3d/objetos/Heladera.tsx), reusa guion y chequeo (aprobado); voz regenerada 119/119 (42,1 s), tsc OK, 1 vuelta de cuadros; en render | pedido de Mateo (2 de 7 rehechos). Cola con 12 listos: no se hizo un segundo video.

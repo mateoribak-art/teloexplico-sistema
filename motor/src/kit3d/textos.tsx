@@ -114,6 +114,7 @@ export const Subtitulo3D: React.FC<{ tiempos: Tiempos; destacar: string[]; cifra
 
 export const Marco3D: React.FC<{ total: number }> = ({ total }) => {
   const frame = useCurrentFrame();
+  const cuenta = useCuenta();
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
       {/* barra de progreso, como en las historias */}
@@ -135,7 +136,7 @@ export const Marco3D: React.FC<{ total: number }> = ({ total }) => {
         }}
       >
         <div style={{ width: 22, height: 22, borderRadius: "50%", background: ACENTO, boxShadow: `0 0 14px ${ACENTO}` }} />
-        TE LO EXPLICO
+        {cuenta.nombre.toUpperCase()}
       </div>
     </AbsoluteFill>
   );

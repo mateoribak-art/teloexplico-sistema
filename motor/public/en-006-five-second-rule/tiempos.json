@@ -1,0 +1,613 @@
+{
+ "duracion": 37.9,
+ "frases": [
+  {
+   "texto": "You've been trusting the five-second rule.",
+   "palabras": [
+    {
+     "texto": "You've",
+     "inicio": 0.0,
+     "fin": 0.2
+    },
+    {
+     "texto": "been",
+     "inicio": 0.2,
+     "fin": 0.3
+    },
+    {
+     "texto": "trusting",
+     "inicio": 0.3,
+     "fin": 0.64
+    },
+    {
+     "texto": "the",
+     "inicio": 0.64,
+     "fin": 0.8
+    },
+    {
+     "texto": "five-second",
+     "inicio": 0.8,
+     "fin": 1.4
+    },
+    {
+     "texto": "rule.",
+     "inicio": 1.4,
+     "fin": 1.72
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 1.72
+  },
+  {
+   "texto": "That's a myth.",
+   "palabras": [
+    {
+     "texto": "That's",
+     "inicio": 2.18,
+     "fin": 2.4
+    },
+    {
+     "texto": "a",
+     "inicio": 2.4,
+     "fin": 2.5
+    },
+    {
+     "texto": "myth.",
+     "inicio": 2.5,
+     "fin": 2.7
+    }
+   ],
+   "inicio": 2.18,
+   "fin": 2.7
+  },
+  {
+   "texto": "Researchers at Rutgers University dropped watermelon, bread, and gummy candy on tile, steel, wood, and carpet.",
+   "palabras": [
+    {
+     "texto": "Researchers",
+     "inicio": 3.26,
+     "fin": 3.66
+    },
+    {
+     "texto": "at",
+     "inicio": 3.66,
+     "fin": 3.98
+    },
+    {
+     "texto": "Rutgers",
+     "inicio": 3.98,
+     "fin": 4.32
+    },
+    {
+     "texto": "University",
+     "inicio": 4.32,
+     "fin": 4.9
+    },
+    {
+     "texto": "dropped",
+     "inicio": 4.9,
+     "fin": 5.2
+    },
+    {
+     "texto": "watermelon,",
+     "inicio": 5.2,
+     "fin": 5.76
+    },
+    {
+     "texto": "bread,",
+     "inicio": 6.2,
+     "fin": 6.5
+    },
+    {
+     "texto": "and",
+     "inicio": 6.7,
+     "fin": 6.74
+    },
+    {
+     "texto": "gummy",
+     "inicio": 6.74,
+     "fin": 7.26
+    },
+    {
+     "texto": "candy",
+     "inicio": 7.26,
+     "fin": 7.72
+    },
+    {
+     "texto": "on",
+     "inicio": 7.72,
+     "fin": 7.9
+    },
+    {
+     "texto": "tile,",
+     "inicio": 7.9,
+     "fin": 8.66
+    },
+    {
+     "texto": "steel,",
+     "inicio": 8.82,
+     "fin": 9.02
+    },
+    {
+     "texto": "wood,",
+     "inicio": 9.36,
+     "fin": 9.64
+    },
+    {
+     "texto": "and",
+     "inicio": 9.84,
+     "fin": 9.9
+    },
+    {
+     "texto": "carpet.",
+     "inicio": 9.9,
+     "fin": 10.16
+    }
+   ],
+   "inicio": 3.26,
+   "fin": 10.16
+  },
+  {
+   "texto": "In some cases, bacteria got on the food in less than one second.",
+   "palabras": [
+    {
+     "texto": "In",
+     "inicio": 10.68,
+     "fin": 10.8
+    },
+    {
+     "texto": "some",
+     "inicio": 10.8,
+     "fin": 11.04
+    },
+    {
+     "texto": "cases,",
+     "inicio": 11.04,
+     "fin": 11.38
+    },
+    {
+     "texto": "bacteria",
+     "inicio": 11.92,
+     "fin": 12.2
+    },
+    {
+     "texto": "got",
+     "inicio": 12.2,
+     "fin": 12.52
+    },
+    {
+     "texto": "on",
+     "inicio": 12.52,
+     "fin": 12.66
+    },
+    {
+     "texto": "the",
+     "inicio": 12.66,
+     "fin": 12.72
+    },
+    {
+     "texto": "food",
+     "inicio": 12.72,
+     "fin": 13.0
+    },
+    {
+     "texto": "in",
+     "inicio": 13.0,
+     "fin": 13.16
+    },
+    {
+     "texto": "less",
+     "inicio": 13.16,
+     "fin": 13.38
+    },
+    {
+     "texto": "than",
+     "inicio": 13.38,
+     "fin": 13.56
+    },
+    {
+     "texto": "one",
+     "inicio": 13.56,
+     "fin": 13.8
+    },
+    {
+     "texto": "second.",
+     "inicio": 13.8,
+     "fin": 14.2
+    }
+   ],
+   "inicio": 10.68,
+   "fin": 14.2
+  },
+  {
+   "texto": "The wetter the food, the more it picked up. Watermelon was the worst, gummy candy the least.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 14.62,
+     "fin": 14.76
+    },
+    {
+     "texto": "wetter",
+     "inicio": 14.76,
+     "fin": 15.02
+    },
+    {
+     "texto": "the",
+     "inicio": 15.02,
+     "fin": 15.1
+    },
+    {
+     "texto": "food,",
+     "inicio": 15.1,
+     "fin": 15.4
+    },
+    {
+     "texto": "the",
+     "inicio": 15.7,
+     "fin": 15.82
+    },
+    {
+     "texto": "more",
+     "inicio": 15.82,
+     "fin": 16.1
+    },
+    {
+     "texto": "it",
+     "inicio": 16.1,
+     "fin": 16.22
+    },
+    {
+     "texto": "picked",
+     "inicio": 16.22,
+     "fin": 16.44
+    },
+    {
+     "texto": "up.",
+     "inicio": 16.44,
+     "fin": 16.68
+    },
+    {
+     "texto": "Watermelon",
+     "inicio": 17.18,
+     "fin": 17.6
+    },
+    {
+     "texto": "was",
+     "inicio": 17.6,
+     "fin": 17.8
+    },
+    {
+     "texto": "the",
+     "inicio": 17.8,
+     "fin": 17.92
+    },
+    {
+     "texto": "worst,",
+     "inicio": 17.92,
+     "fin": 18.16
+    },
+    {
+     "texto": "gummy",
+     "inicio": 18.78,
+     "fin": 18.92
+    },
+    {
+     "texto": "candy",
+     "inicio": 18.92,
+     "fin": 19.22
+    },
+    {
+     "texto": "the",
+     "inicio": 19.22,
+     "fin": 19.4
+    },
+    {
+     "texto": "least.",
+     "inicio": 19.4,
+     "fin": 19.64
+    }
+   ],
+   "inicio": 14.62,
+   "fin": 19.64
+  },
+  {
+   "texto": "The floor mattered too. Carpet passed on far less than tile or steel.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 20.2,
+     "fin": 20.32
+    },
+    {
+     "texto": "floor",
+     "inicio": 20.32,
+     "fin": 20.56
+    },
+    {
+     "texto": "mattered",
+     "inicio": 20.56,
+     "fin": 20.8
+    },
+    {
+     "texto": "too.",
+     "inicio": 20.8,
+     "fin": 21.14
+    },
+    {
+     "texto": "Carpet",
+     "inicio": 21.68,
+     "fin": 21.94
+    },
+    {
+     "texto": "passed",
+     "inicio": 21.94,
+     "fin": 22.22
+    },
+    {
+     "texto": "on",
+     "inicio": 22.22,
+     "fin": 22.48
+    },
+    {
+     "texto": "far",
+     "inicio": 22.48,
+     "fin": 22.88
+    },
+    {
+     "texto": "less",
+     "inicio": 22.88,
+     "fin": 23.16
+    },
+    {
+     "texto": "than",
+     "inicio": 23.16,
+     "fin": 23.38
+    },
+    {
+     "texto": "tile",
+     "inicio": 23.38,
+     "fin": 23.62
+    },
+    {
+     "texto": "or",
+     "inicio": 23.62,
+     "fin": 23.78
+    },
+    {
+     "texto": "steel.",
+     "inicio": 23.78,
+     "fin": 24.04
+    }
+   ],
+   "inicio": 20.2,
+   "fin": 24.04
+  },
+  {
+   "texto": "Heads up: longer on the floor does mean more bacteria. Time just isn't the whole story.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 24.58,
+     "fin": 24.78
+    },
+    {
+     "texto": "up:",
+     "inicio": 24.78,
+     "fin": 24.96
+    },
+    {
+     "texto": "longer",
+     "inicio": 25.3,
+     "fin": 25.48
+    },
+    {
+     "texto": "on",
+     "inicio": 25.48,
+     "fin": 25.7
+    },
+    {
+     "texto": "the",
+     "inicio": 25.7,
+     "fin": 25.78
+    },
+    {
+     "texto": "floor",
+     "inicio": 25.78,
+     "fin": 26.0
+    },
+    {
+     "texto": "does",
+     "inicio": 26.0,
+     "fin": 26.28
+    },
+    {
+     "texto": "mean",
+     "inicio": 26.28,
+     "fin": 26.5
+    },
+    {
+     "texto": "more",
+     "inicio": 26.5,
+     "fin": 26.72
+    },
+    {
+     "texto": "bacteria.",
+     "inicio": 26.72,
+     "fin": 27.14
+    },
+    {
+     "texto": "Time",
+     "inicio": 27.7,
+     "fin": 27.98
+    },
+    {
+     "texto": "just",
+     "inicio": 27.98,
+     "fin": 28.36
+    },
+    {
+     "texto": "isn't",
+     "inicio": 28.36,
+     "fin": 28.66
+    },
+    {
+     "texto": "the",
+     "inicio": 28.66,
+     "fin": 28.76
+    },
+    {
+     "texto": "whole",
+     "inicio": 28.76,
+     "fin": 28.9
+    },
+    {
+     "texto": "story.",
+     "inicio": 28.9,
+     "fin": 29.22
+    }
+   ],
+   "inicio": 24.58,
+   "fin": 29.22
+  },
+  {
+   "texto": "So today, if it's wet and it hit tile, toss it.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 29.22,
+     "fin": 29.9
+    },
+    {
+     "texto": "today,",
+     "inicio": 29.9,
+     "fin": 30.56
+    },
+    {
+     "texto": "if",
+     "inicio": 30.86,
+     "fin": 31.02
+    },
+    {
+     "texto": "it's",
+     "inicio": 31.02,
+     "fin": 31.22
+    },
+    {
+     "texto": "wet",
+     "inicio": 31.22,
+     "fin": 31.5
+    },
+    {
+     "texto": "and",
+     "inicio": 31.5,
+     "fin": 31.84
+    },
+    {
+     "texto": "it",
+     "inicio": 31.84,
+     "fin": 31.96
+    },
+    {
+     "texto": "hit",
+     "inicio": 31.96,
+     "fin": 32.1
+    },
+    {
+     "texto": "tile,",
+     "inicio": 32.1,
+     "fin": 32.5
+    },
+    {
+     "texto": "toss",
+     "inicio": 32.98,
+     "fin": 33.26
+    },
+    {
+     "texto": "it.",
+     "inicio": 33.26,
+     "fin": 33.44
+    }
+   ],
+   "inicio": 29.22,
+   "fin": 33.44
+  },
+  {
+   "texto": "Send this to the friend who yells five seconds before the cookie even lands.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 33.9,
+     "fin": 34.16
+    },
+    {
+     "texto": "this",
+     "inicio": 34.16,
+     "fin": 34.32
+    },
+    {
+     "texto": "to",
+     "inicio": 34.32,
+     "fin": 34.46
+    },
+    {
+     "texto": "the",
+     "inicio": 34.46,
+     "fin": 34.54
+    },
+    {
+     "texto": "friend",
+     "inicio": 34.54,
+     "fin": 34.74
+    },
+    {
+     "texto": "who",
+     "inicio": 34.74,
+     "fin": 34.9
+    },
+    {
+     "texto": "yells",
+     "inicio": 34.9,
+     "fin": 35.12
+    },
+    {
+     "texto": "five",
+     "inicio": 35.12,
+     "fin": 35.72
+    },
+    {
+     "texto": "seconds",
+     "inicio": 35.72,
+     "fin": 36.2
+    },
+    {
+     "texto": "before",
+     "inicio": 36.2,
+     "fin": 36.5
+    },
+    {
+     "texto": "the",
+     "inicio": 36.5,
+     "fin": 36.66
+    },
+    {
+     "texto": "cookie",
+     "inicio": 36.66,
+     "fin": 36.88
+    },
+    {
+     "texto": "even",
+     "inicio": 36.88,
+     "fin": 37.18
+    },
+    {
+     "texto": "lands.",
+     "inicio": 37.18,
+     "fin": 37.6
+    }
+   ],
+   "inicio": 33.9,
+   "fin": 37.6
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segunda pasada con busqueda web. Todas las afirmaciones coinciden con Miranda & Schaffner 2016 (Applied and Environmental Microbiology 82(21):6490-6496, DOI 10.1128/AEM.01838-16) y con la nota de Rutgers Today: alimentos (sandia, pan, pan con manteca, gomita), superficies (acero inoxidable, baldosa, madera, alfombra), contactos (<1, 5, 30, 300 s), mas humedad = mas transferencia, sandia la mayor y gomita la menor, alfombra con transferencia muy baja frente a baldosa y acero, mayor contacto = mas bacterias pero el alimento y la superficie son de igual o mayor importancia. El matiz 'In some cases' ya esta en guion y caption y coincide con 'In some instances, the transfer begins in less than one second'. Todas las afirmaciones de salud estan verificadas; ninguna es probable, dudosa ni falsa. Aclaraciones no contradictorias: el estudio uso Enterobacter aerogenes (sustituto de Salmonella) inoculada en las superficies, y el guion nombra 3 de los 4 alimentos (omite el pan con manteca, que el caption si incluye); no es error. El consejo de tirar la comida es una inferencia prudente de los hallazgos y coincide con la guia de extension universitaria (tirar la comida caida es la mejor practica); Rutgers no da una recomendacion explicita.",
+  "afirmaciones": [
+    {
+      "texto": "You've been trusting the five-second rule. (encuadre, sin afirmacion factica propia)",
+      "fuente": "n/a",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "That's a myth. / The five-second rule? It's a myth",
+      "fuente": "Rutgers Today: https://www.rutgers.edu/news/rutgers-researchers-debunk-five-second-rule-eating-food-floor-isnt-safe ; Miranda & Schaffner 2016, AEM 82(21):6490-6496. Schaffner: la regla es 'a significant oversimplification'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Researchers at Rutgers University dropped watermelon, bread, (buttered bread) and gummy candy on tile, steel, wood, and carpet.",
+      "fuente": "Rutgers Today (url arriba) y paper AEM 2016: 4 alimentos x acero inoxidable, baldosa, madera y alfombra; contactos <1, 5, 30 y 300 s. Se uso Enterobacter aerogenes como sustituto de Salmonella.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "In some cases, bacteria got on the food in less than one second.",
+      "fuente": "Rutgers Today: 'In some instances, the transfer begins in less than one second'; paper AEM 2016 (hubo transferencia con contacto <1 s).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The wetter the food, the more it picked up.",
+      "fuente": "Rutgers Today / paper AEM 2016: la humedad es el factor principal; 'the wetter the food, the more bacteria transferred'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Watermelon was the worst, gummy candy the least. / watermelon the most, gummy candy the least",
+      "fuente": "Paper AEM 2016 (sandia ~0,2-97% transferido, el mayor; gomita ~0,1-62%, el menor); Rutgers Today.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Carpet passed on far less than tile or steel. / carpet passed on much less than steel or tile",
+      "fuente": "Rutgers Today: alfombra con 'very low transfer rates compared with tile and stainless steel'; la madera fue variable.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Longer on the floor does mean more bacteria. Time just isn't the whole story.",
+      "fuente": "Rutgers Today: 'longer food contact times usually result in the transfer of more bacteria'; paper AEM 2016: la naturaleza del alimento y la superficie son 'of equal or greater importance'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "So today, if it's wet and it hit tile, toss it. / When in doubt, toss it.",
+      "fuente": "Inferencia directa de Rutgers (mayor transferencia con comida humeda y baldosa/acero) y guia de extension universitaria (UF/IFAS, citando a especialista de Rutgers Extension: tirar la comida caida es la mejor practica): https://blogs.ifas.ufl.edu/jacksonco/?p=536",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sources: Rutgers University study, Applied and Environmental Microbiology (2016).",
+      "fuente": "Miranda & Schaffner 2016, AEM 82(21):6490-6496, DOI 10.1128/AEM.01838-16.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

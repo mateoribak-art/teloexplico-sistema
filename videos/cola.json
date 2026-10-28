@@ -660,6 +660,16 @@
     "estado": "listo",
     "cuando": "2026-10-27T22:17",
     "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-10-28T18:17",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-28T18:40",
+    "motivo": "render sin Claude"
    }
   ]
  },
@@ -725,7 +735,7 @@
  {
   "slug": "024-granizo-corto",
   "tema": "¿Por qué cae granizo justo cuando hace calor? (versión corta)",
-  "estado": "render",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -771,6 +781,11 @@
     "estado": "render",
     "cuando": "2026-10-28T14:53",
     "motivo": "voz regenerada (la del Release se había borrado)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-28T18:11",
+    "motivo": "render sin Claude"
    }
   ]
  }
