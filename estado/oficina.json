@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T14:14",
+ "actualizado": "2026-10-28T14:54",
  "oficinas": [
   {
    "clave": "es",
@@ -42,6 +42,13 @@
    ],
    "linea": [
     {
+     "slug": "024-granizo-corto",
+     "tema": "¿Por qué cae granizo justo cuando hace calor? (versión corta)",
+     "estado": "render",
+     "cuando": "2026-10-28T14:53",
+     "motivo": "voz regenerada (la del Release se había borrado)"
+    },
+    {
      "slug": "012-lavar-pollo",
      "tema": "¿Hay que lavar el pollo crudo antes de cocinarlo?",
      "estado": "listo",
@@ -75,13 +82,6 @@
      "estado": "apartado",
      "cuando": "2026-10-27T19:31",
      "motivo": "tema de actualidad vencido (más de 48 h)"
-    },
-    {
-     "slug": "024-granizo-corto",
-     "tema": "¿Por qué cae granizo justo cuando hace calor? (versión corta)",
-     "estado": "apartado",
-     "cuando": "2026-10-28T07:05",
-     "motivo": "render/control: ode:internal/process/task_queues:103:5)\u001b[39m\n\u001b[31m    at /home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/"
     },
     {
      "slug": "018-rayo-trueno",
@@ -125,7 +125,9 @@
       "2026-10-28 13:13 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "2026-10-28 13:13 Termina la producción (Claude no terminó bien)."
      ],
-     "tareas": [],
+     "tareas": [
+      "024-granizo-corto — ¿Por qué cae granizo justo cuando hace calor? (versión corta)"
+     ],
      "arreglo": "No hace falta tocar nada. Si quedan pocos videos listos, Gemi (plan B) produce sin Claude.",
      "solo": true,
      "firma": "2279aa5097b8"
@@ -181,7 +183,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-10-28T12:32",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "020-pava-se-corta: aprobado — Versión final del guion, recortada y sin John Taylor. Las 9 frases están verificadas con fuentes y tienen el matiz correcto. Lo de seguridad",
       "008-aire-en-17: aprobado — Todas las afirmaciones factuales estan verificadas con fuentes oficiales argentinas (Secretaria de Energia de la Nacion y ENRE) y fuentes te",
@@ -214,7 +216,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-10-28T12:32",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -235,17 +237,17 @@
        "cuenta": "es"
       }
      },
-     "estado": "falla",
-     "resumen": "Falló el render de 024-granizo-corto.",
+     "estado": "trabajando",
+     "resumen": "1 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
      "cuando": "2026-10-28T12:32",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [
-      "024-granizo-corto: render/control: ode:internal/process/task_queues:103:5)\u001b[39m\n\u001b[31m    at /home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/renderer/dist/render-frame-with-option-t"
+      "024-granizo-corto"
      ],
-     "arreglo": "Relanzá la producción: los videos en estado render se vuelven a renderizar solos.",
+     "arreglo": null,
      "solo": false,
-     "firma": "f1ec6846aefe"
+     "firma": "26b16992f9f3"
     },
     {
      "id": "control",
@@ -264,7 +266,7 @@
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo (005) quedó vencido y apartado, y ya hay una versión corta lista para reemplazarlo; no cambié nada.",
      "cuando": "2026-10-28T12:32",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [
       "005-granizo-calor: tema de actualidad vencido (más de 48 h)"
@@ -290,7 +292,7 @@
      "estado": "ok",
      "resumen": "Último: 020-pava-se-corta.",
      "cuando": "2026-10-28T12:34",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "27/10 19:32 018-rayo-trueno publicado: https://www.instagram.com/reel/DfA7-2QE5f7/",
       "27/10 19:33 018-rayo-trueno publicado en Facebook: https://www.facebook.com/reel/997602049305994/",
@@ -327,7 +329,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-28T12:34",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "27/10 12:34 016-el-nino-clima https://youtube.com/shorts/2UBFTojE_oI | privacidad: public",
       "27/10 12:34 016-el-nino-clima paquete para TikTok/YouTube enviado",
@@ -359,7 +361,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-10-27T17:29",
-     "hace": "hace 20 h",
+     "hace": "hace 21 h",
      "detalle": [
       "2026-10-26 23:00 bts: listo hecho en sesión",
       "2026-10-26 23:00 heladera: listo hecho en sesión",
@@ -393,7 +395,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-10-28T03:42",
-     "hace": "hace 10 h",
+     "hace": "hace 11 h",
      "detalle": [
       "26/10 18:48 Hay 17 comentarios nuevos: arranca la respuesta.",
       "26/10 18:48 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
@@ -430,7 +432,7 @@
      "estado": "ok",
      "resumen": "28/10: 249 seguidores",
      "cuando": "2026-10-28T02:29",
-     "hace": "hace 11 h",
+     "hace": "hace 12 h",
      "detalle": [
       "24/10: 16 seguidores",
       "26/10: 179 seguidores",
@@ -463,11 +465,10 @@
      },
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo se apartó solo por vencido; no cambié nada.",
-     "cuando": "2026-10-28T14:14",
+     "cuando": "2026-10-28T14:54",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 005-granizo-calor — tema de actualidad vencido (más de 48 h)",
-      "⚠️ Video apartado: 024-granizo-corto — render/control: ode:internal/process/task_queues:103:5)\u001b[39m\n\u001b[31m    at /home/runner/work/teloexplico-sistema/teloexpli",
       "⚠️ Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 11 videos listos ≈ 5.5 días."
      ],
      "tareas": [],
@@ -609,7 +610,7 @@
      "estado": "ok",
      "resumen": "Segunda pasada del radar: no se produce otro tema. en-002-dst-farmers (🔥, listo) ya cubre la actualidad del día; no se fuerza un segundo video.",
      "cuando": "2026-10-27T16:27",
-     "hace": "hace 21 h",
+     "hace": "hace 22 h",
      "detalle": [
       "27/10 00:00 Radar: tema elegido = cambio de hora (fall back domingo 1/11/2026, 2 a.m.), ángulo \"no se inventó para los granjeros\" (mito). Es noticia de la semana en EE. UU. y se chequea con fuentes oficiales. Slug: en-002-dst-farmers.",
       "28/10 00:00 Radar: la búsqueda web no devolvió nada reciente (solo páginas viejas). Sin tema de actualidad; se sigue con un video adaptado.",
@@ -639,7 +640,7 @@
      "estado": "ok",
      "resumen": "Aprobó 5 de los últimos 5 guiones.",
      "cuando": "2026-10-28T12:35",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "en-001-phone-rice: aprobado — Chequeado el 27/10/2026 contra la página de Apple Support (support.apple.com/en-us/102643, 'If you see a liquid-detection alert on your iPho",
       "en-002-dst-farmers: aprobado — Todas las afirmaciones fácticas tienen fuente (National Archives, History.com, Library of Congress, U.S. DOT/CRS) y las fechas coinciden. No",
@@ -669,7 +670,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-10-28T12:35",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -693,7 +694,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-28 12:35.",
      "cuando": "2026-10-28T12:35",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -717,7 +718,7 @@
      "estado": "ok",
      "resumen": "2 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-10-28T12:35",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -741,7 +742,7 @@
      "estado": "ok",
      "resumen": "Último: en-003-fridge-leftovers.",
      "cuando": "2026-10-28T12:36",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "27/10 12:37 en-001-phone-rice en la bandeja de TikTok",
       "27/10 12:37 en-001-phone-rice paquete para TikTok/YouTube enviado",
@@ -778,7 +779,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-28T12:36",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "27/10 12:37 en-001-phone-rice en la bandeja de TikTok",
       "27/10 12:37 en-001-phone-rice paquete para TikTok/YouTube enviado",
@@ -834,7 +835,7 @@
      "estado": "ok",
      "resumen": "28/10: 2 seguidores",
      "cuando": "2026-10-28T02:29",
-     "hace": "hace 11 h",
+     "hace": "hace 12 h",
      "detalle": [
       "28/10: 2 seguidores"
      ],
@@ -861,7 +862,7 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 2 videos listos: alcanza para 1 día(s).",
-     "cuando": "2026-10-28T14:14",
+     "cuando": "2026-10-28T14:54",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 2 videos listos: alcanza para 1 día(s).",
