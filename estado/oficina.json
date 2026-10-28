@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T14:54",
+ "actualizado": "2026-10-28T16:00",
  "oficinas": [
   {
    "clave": "es",
@@ -116,7 +116,7 @@
      "estado": "aviso",
      "resumen": "Claude se quedó sin cuota: se reintenta sola en el próximo turno.",
      "cuando": "2026-10-28T13:13",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "Uso: 1 pasos · 0 tokens nuevos · 0 de caché · 0 escritos · equivale a US$ 0.00 de API",
       "2026-10-28 13:13 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -148,8 +148,8 @@
      },
      "estado": "ok",
      "resumen": "Revisión radar. Búsqueda web (alertas SMN): sin resultados fechados de hoy (lo más reciente es de julio). Sin tema de actualidad verificable; sigue la cola norm",
-     "cuando": "2026-10-28T00:00",
-     "hace": "hace 14 h",
+     "cuando": "2026-10-28T15:59",
+     "hace": "hace 1 min",
      "detalle": [
       "26/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, clima, tendencias): sin resultados fechados de hoy, solo notas viejas (feb, dic, finde largo 9-10 oct) o sin fecha. Candidatos: (1) El Niño/clima de la semana -> ángulo ya tomado por posta y clima saturado con 004 y 005 -> descartado; (2) alertas por tormentas -> sin fuente fechada de hoy, no verificable -> descartado; (3) tendencias/redes -> sin evidencia. No se produce video de actualidad; sigue la cola normal.",
       "27/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy (solo notas de feb/2023/2025 o sin fecha; tendencias genéricas: Ipsos preocupaciones, Mundial). Candidatos: (1) clima/alertas SMN -> sin fuente del día, y ya hay 004, 005 y 016 -> descartado; (2) calor extremo de primavera -> sin alerta fechada que lo confirme -> descartado; (3) tendencias/redes -> sin evidencia de un tema que todos vivan hoy. No se produce video de actualidad; sigue la cola normal.",
@@ -183,7 +183,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-10-28T12:32",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "020-pava-se-corta: aprobado — Versión final del guion, recortada y sin John Taylor. Las 9 frases están verificadas con fuentes y tienen el matiz correcto. Lo de seguridad",
       "008-aire-en-17: aprobado — Todas las afirmaciones factuales estan verificadas con fuentes oficiales argentinas (Secretaria de Energia de la Nacion y ENRE) y fuentes te",
@@ -216,7 +216,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-10-28T12:32",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -240,7 +240,7 @@
      "estado": "trabajando",
      "resumen": "1 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
      "cuando": "2026-10-28T12:32",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [
       "024-granizo-corto"
@@ -266,7 +266,7 @@
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo (005) quedó vencido y apartado, y ya hay una versión corta lista para reemplazarlo; no cambié nada.",
      "cuando": "2026-10-28T12:32",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [
       "005-granizo-calor: tema de actualidad vencido (más de 48 h)"
@@ -292,7 +292,7 @@
      "estado": "ok",
      "resumen": "Último: 020-pava-se-corta.",
      "cuando": "2026-10-28T12:34",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "27/10 19:32 018-rayo-trueno publicado: https://www.instagram.com/reel/DfA7-2QE5f7/",
       "27/10 19:33 018-rayo-trueno publicado en Facebook: https://www.facebook.com/reel/997602049305994/",
@@ -329,7 +329,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-28T12:34",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "27/10 12:34 016-el-nino-clima https://youtube.com/shorts/2UBFTojE_oI | privacidad: public",
       "27/10 12:34 016-el-nino-clima paquete para TikTok/YouTube enviado",
@@ -361,7 +361,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-10-27T17:29",
-     "hace": "hace 21 h",
+     "hace": "hace 22 h",
      "detalle": [
       "2026-10-26 23:00 bts: listo hecho en sesión",
       "2026-10-26 23:00 heladera: listo hecho en sesión",
@@ -395,7 +395,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-10-28T03:42",
-     "hace": "hace 11 h",
+     "hace": "hace 12 h",
      "detalle": [
       "26/10 18:48 Hay 17 comentarios nuevos: arranca la respuesta.",
       "26/10 18:48 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
@@ -432,7 +432,7 @@
      "estado": "ok",
      "resumen": "28/10: 249 seguidores",
      "cuando": "2026-10-28T02:29",
-     "hace": "hace 12 h",
+     "hace": "hace 13 h",
      "detalle": [
       "24/10: 16 seguidores",
       "26/10: 179 seguidores",
@@ -465,7 +465,7 @@
      },
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo se apartó solo por vencido; no cambié nada.",
-     "cuando": "2026-10-28T14:54",
+     "cuando": "2026-10-28T16:00",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 005-granizo-calor — tema de actualidad vencido (más de 48 h)",
@@ -579,7 +579,7 @@
      "estado": "aviso",
      "resumen": "Claude se quedó sin cuota: se reintenta sola en el próximo turno.",
      "cuando": "2026-10-28T13:13",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "Uso: 1 pasos · 0 tokens nuevos · 0 de caché · 0 escritos · equivale a US$ 0.00 de API",
       "2026-10-28 13:13 Arranca la producción (2 listos en la cola, meta 6).",
@@ -608,20 +608,20 @@
       }
      },
      "estado": "ok",
-     "resumen": "Segunda pasada del radar: no se produce otro tema. en-002-dst-farmers (🔥, listo) ya cubre la actualidad del día; no se fuerza un segundo video.",
-     "cuando": "2026-10-27T16:27",
-     "hace": "hace 22 h",
+     "resumen": "Tercera pasada del radar: sin tema nuevo. Descartados: (1) humo/incendios en el Noroeste (Spokane): evento regional, sin fuente oficial del día y con riesgo de ",
+     "cuando": "2026-10-28T16:00",
+     "hace": "recién",
      "detalle": [
-      "27/10 00:00 Radar: tema elegido = cambio de hora (fall back domingo 1/11/2026, 2 a.m.), ángulo \"no se inventó para los granjeros\" (mito). Es noticia de la semana en EE. UU. y se chequea con fuentes oficiales. Slug: en-002-dst-farmers.",
       "28/10 00:00 Radar: la búsqueda web no devolvió nada reciente (solo páginas viejas). Sin tema de actualidad; se sigue con un video adaptado.",
-      "27/10 00:00 Segunda pasada del radar: no se produce otro tema. en-002-dst-farmers (🔥, listo) ya cubre la actualidad del día; no se fuerza un segundo video."
+      "27/10 00:00 Segunda pasada del radar: no se produce otro tema. en-002-dst-farmers (🔥, listo) ya cubre la actualidad del día; no se fuerza un segundo video.",
+      "28/10 00:00 Tercera pasada del radar: sin tema nuevo. Descartados: (1) humo/incendios en el Noroeste (Spokane): evento regional, sin fuente oficial del día y con riesgo de damnificados; (2) superluna de octubre: las fuentes dicen que no hay (la próxima es el 24/11), sin gancho; (3) primera helada/nieve: nada concreto ni reciente en la búsqueda. El cambio de hora (en-002, publicado) ya cubre la actualidad; Halloween ya está en cola (en-004)."
      ],
      "tareas": [
       "🔥 en-002-dst-farmers — Is daylight saving time for farmers? (fall back Nov 1)"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "0b579682daf6"
+     "firma": "1e51ea3996c8"
     },
     {
      "id": "chequeo",
@@ -640,7 +640,7 @@
      "estado": "ok",
      "resumen": "Aprobó 5 de los últimos 5 guiones.",
      "cuando": "2026-10-28T12:35",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "en-001-phone-rice: aprobado — Chequeado el 27/10/2026 contra la página de Apple Support (support.apple.com/en-us/102643, 'If you see a liquid-detection alert on your iPho",
       "en-002-dst-farmers: aprobado — Todas las afirmaciones fácticas tienen fuente (National Archives, History.com, Library of Congress, U.S. DOT/CRS) y las fechas coinciden. No",
@@ -670,7 +670,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-10-28T12:35",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -694,7 +694,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-28 12:35.",
      "cuando": "2026-10-28T12:35",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -718,7 +718,7 @@
      "estado": "ok",
      "resumen": "2 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-10-28T12:35",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -742,7 +742,7 @@
      "estado": "ok",
      "resumen": "Último: en-003-fridge-leftovers.",
      "cuando": "2026-10-28T12:36",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "27/10 12:37 en-001-phone-rice en la bandeja de TikTok",
       "27/10 12:37 en-001-phone-rice paquete para TikTok/YouTube enviado",
@@ -779,7 +779,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-28T12:36",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "27/10 12:37 en-001-phone-rice en la bandeja de TikTok",
       "27/10 12:37 en-001-phone-rice paquete para TikTok/YouTube enviado",
@@ -835,7 +835,7 @@
      "estado": "ok",
      "resumen": "28/10: 2 seguidores",
      "cuando": "2026-10-28T02:29",
-     "hace": "hace 12 h",
+     "hace": "hace 13 h",
      "detalle": [
       "28/10: 2 seguidores"
      ],
@@ -862,7 +862,7 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 2 videos listos: alcanza para 1 día(s).",
-     "cuando": "2026-10-28T14:54",
+     "cuando": "2026-10-28T16:00",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 2 videos listos: alcanza para 1 día(s).",

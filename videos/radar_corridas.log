@@ -34,3 +34,16 @@ Sigue la cola normal.
 Decisión: no produje video de actualidad hoy (27/10). Las búsquedas no devolvieron ninguna alerta del SMN ni tendencia fechada de hoy, y el clima ya está cubierto por 004, 005 y 016. Anoté los tres candidatos descartados en `videos/radar.log` y la producción sigue con la cola normal.
 Uso: 10 pasos · 18,310 tokens nuevos · 130,179 de caché · 1,423 escritos · equivale a US$ 0.12 de API
 2026-10-27 16:26 Termina el radar (ok).
+2026-10-28 15:59 Arranca el radar.
+No produje ningún video de actualidad hoy: no encontré un tema del día que cumpla los criterios, y dejé anotados los candidatos descartados en `videos/radar.log`. La búsqueda de alertas del SMN solo devolvió notas de 2025 o de julio de 2026. Descarté tres candidatos:
+- **Alertas por tormentas:** no hay fuente fechada de hoy, y el clima ya está cubierto con los videos 004, 005 y 016.
+- **El Niño trimestral:** es un pronóstico estacional que el 016 ya cubre.
+- **Tendencias y redes:** no hay evidencia de un tema que todos estén viviendo hoy.
+
+La cola normal sigue, con el pedido de Mateo de rehacer en 3D empezando por `024-granizo-corto`.
+
+Sources:
+- [La Nación: alerta amarilla para el martes 28 de octubre (nota de 2025)](https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-tormenta-viento-y-lluvia-para-este-martes-28-de-octubre-las-provincias-nid28102025)
+- [Canal 26: alertas del SMN, 20 de julio de 2026](https://www.canal26.com/clima/2026/07/20/alerta-meteorologica-el-smn-advierte-por-tormentas-fuertes-nevadas-intensas-y-vientos-extremos-en-varias-regiones-del-pais/)
+Uso: 8 pasos · 15,966 tokens nuevos · 101,223 de caché · 1,320 escritos · equivale a US$ 0.10 de API
+2026-10-28 15:59 Termina el radar (ok).

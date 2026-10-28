@@ -2,3 +2,12 @@
 Decisión: no produje ningún video nuevo, porque el tema de actualidad de hoy (el cambio de hora, `en-002-dst-farmers`) ya está listo en la cola. Lo dejé anotado en `videos/en/radar.log`. No hice ninguna búsqueda web.
 Uso: 7 pasos · 8,766 tokens nuevos · 72,976 de caché · 783 escritos · equivale a US$ 0.05 de API
 2026-10-27 16:27 Termina el radar (ok).
+2026-10-28 15:59 Arranca el radar.
+No produje ningún video: no encontré un tema de actualidad que cumpla los criterios. Anoté los tres candidatos descartados en `videos/en/radar.log`:
+- **Humo e incendios en el Noroeste:** es un evento regional, no encontré fuente oficial del día y hay riesgo de que haya damnificados.
+- **Superluna de octubre:** las fuentes dicen que no hay; la próxima es el 24/11.
+- **Primera helada o nevada:** la búsqueda no devolvió nada concreto ni reciente.
+
+El cambio de hora (`en-002`) ya está publicado y cubre el tema del momento. El de Halloween (`en-004`) ya está en cola.
+Uso: 9 pasos · 11,628 tokens nuevos · 96,998 de caché · 1,099 escritos · equivale a US$ 0.09 de API
+2026-10-28 16:00 Termina el radar (ok).
