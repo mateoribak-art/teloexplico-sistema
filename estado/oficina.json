@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T03:40",
+ "actualizado": "2026-10-28T03:42",
  "oficinas": [
   {
    "clave": "es",
@@ -383,28 +383,28 @@
       }
      },
      "estado": "ok",
-     "resumen": "(sesión con Mateo): 14 respondidos, 3 salteados, 1 alerta",
-     "cuando": "2026-10-26T21:56",
-     "hace": "hace 29 h",
+     "resumen": "Termina la respuesta de comentarios (ok).",
+     "cuando": "2026-10-28T03:42",
+     "hace": "recién",
      "detalle": [
-      "25/10 17:18 Termina la respuesta de comentarios (ok).",
-      "26/10 02:50 Hay 5 comentarios nuevos: arranca la respuesta.",
-      "26/10 02:50 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
-      "26/10 02:50 Termina la respuesta de comentarios (con problemas).",
       "26/10 18:48 Hay 17 comentarios nuevos: arranca la respuesta.",
       "26/10 18:48 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "26/10 18:48 Termina la respuesta de comentarios (con problemas).",
-      "26/10 21:56 (sesión con Mateo): 14 respondidos, 3 salteados, 1 alerta"
+      "26/10 21:56 (sesión con Mateo): 14 respondidos, 3 salteados, 1 alerta",
+      "28/10 03:41 Hay 1 comentarios nuevos: arranca la respuesta.",
+      "28/10 00:00 Respondí 1 · salteé 0 · alerté 0.",
+      "28/10 03:41 Termina la respuesta de comentarios (ok).",
+      "28/10 03:42 Termina la respuesta de comentarios (ok)."
      ],
      "tareas": [
       "1 alerta",
-      "17 respondido",
+      "18 respondido",
       "3 salteado",
       "⚠️ maribibirios: \"También fueron a Chile cuando fueron a Brasil... información por favor\" — el video dice que en Latinoamér"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "4d07da3b8e13"
+     "firma": "75363e244848"
     },
     {
      "id": "analista",
@@ -455,7 +455,7 @@
      },
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo se apartó solo por vencido; no cambié nada.",
-     "cuando": "2026-10-28T03:40",
+     "cuando": "2026-10-28T03:42",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 005-granizo-calor — tema de actualidad vencido (más de 48 h)"
@@ -841,7 +841,7 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 2 videos listos: alcanza para 1 día(s).",
-     "cuando": "2026-10-28T03:40",
+     "cuando": "2026-10-28T03:42",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 2 videos listos: alcanza para 1 día(s)."
