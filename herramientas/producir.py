@@ -26,7 +26,7 @@ EN = cuenta.CUENTA == 'en'
 V = cuenta.ACTUAL['videos']
 PY = sys.executable
 META = 6 if EN else 10    # colchón: 5 días de publicaciones (2 por día); inglés, 3 días (la cuota de Claude y de Gemini es compartida)
-PLAN_B = -1  # apagado desde el 27/10: el plan B hace videos 2D y Mateo exige 3D (era 3)
+PLAN_B = 3   # con esto o menos listos y sin Claude, produce el plan B (2D: sale en el turno 2D, ver cola.proximo_listo)
 LIMITE = re.compile(r'(?i)(usage limit|limit reached|hit your (session |weekly |daily )?limit|session limit|weekly limit|rate limit|out of (extra )?usage|resets? (at|in|\d))')
 AHORA = datetime.datetime.now()
 

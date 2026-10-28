@@ -99,7 +99,8 @@ def main(probar=False):
         log('PAUSA activa: no se publica nada.')
         return fin()
     for _ in range(5):
-        v = cola.proximo_listo()
+        # mezcla 1 3D + 1 2D por día (Mateo, 27/10): el turno del mediodía prefiere 3D y el de la noche 2D
+        v = cola.proximo_listo(preferir_3d=turno_actual().hour < 16)
         if v is None:
             log('No hay videos listos en la cola.')
             # inglés: mientras no haya producción automática la cola vacía es lo esperable, el aviso va sin sonar

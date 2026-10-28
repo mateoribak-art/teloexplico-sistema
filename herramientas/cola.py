@@ -77,13 +77,23 @@ def vencido(v):
     return datetime.datetime.now() - creado > datetime.timedelta(hours=VIGENCIA_ACTUALIDAD_H)
 
 
-def proximo_listo():
-    """Primero los temas del momento (todavía vigentes); después el listo más viejo."""
+def es_3d(slug):
+    tsx = os.path.join(RAIZ, 'motor', 'src', 'videos', slug, 'Video.tsx')
+    return os.path.exists(tsx) and 'kit3d' in open(tsx, encoding='utf-8').read()
+
+
+def proximo_listo(preferir_3d=None):
+    """Primero los temas del momento (todavía vigentes); después el listo más viejo.
+    Mezcla de Mateo (27/10, hasta que todo sea 3D): `preferir_3d` True/False elige primero los listos de ese tipo;
+    si no hay de ese tipo, sale el otro (mejor un 2D que un turno vacío)."""
     listos = [v for v in cargar() if v['estado'] == 'listo']
     for v in listos:
         if vencido(v):
             cambiar_estado(v['slug'], 'apartado', f'tema de actualidad vencido (más de {VIGENCIA_ACTUALIDAD_H} h)')
     listos = [v for v in cargar() if v['estado'] == 'listo']
+    if preferir_3d is not None:
+        del_tipo = [v for v in listos if es_3d(v['slug']) == preferir_3d]
+        listos = del_tipo or listos
     v = next((v for v in listos if v.get('prioridad') == 'actualidad'), None) or (listos[0] if listos else None)
     return primero_de_su_serie(v, listos)
 
