@@ -6,3 +6,8 @@ Uso: 54 pasos · 70,138 tokens nuevos · 1,689,253 de caché · 19,348 escritos 
 Permisos negados (1):
   Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-005-fridge-part-2/ && cat > chequeo.json <<'EOF'\n{\n  \"veredi
 2026-10-28 07:15 Termina la producción (ok).
+2026-10-28 13:13 Arranca la producción (2 listos en la cola, meta 6).
+You've hit your 5-hour limit · resets 2:20pm (America/Argentina/Buenos_Aires)
+Uso: 1 pasos · 0 tokens nuevos · 0 de caché · 0 escritos · equivale a US$ 0.00 de API
+2026-10-28 13:13 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.
+2026-10-28 13:13 Termina la producción (Claude no terminó bien).
