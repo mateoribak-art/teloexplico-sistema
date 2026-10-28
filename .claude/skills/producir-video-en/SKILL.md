@@ -5,7 +5,7 @@ description: Producir un reel completo de @letmeexplain.us, la cuenta en inglés
 
 # Producir un video de "Let me explain" (@letmeexplain.us)
 
-**Primero leé el skill `producir-video` entero (`.claude/skills/producir-video/SKILL.md`): todas sus reglas valen acá** (veracidad, chequeo con un subagente aparte, dirección de arte, 3D o 2D, revisión de cuadros, render, control, nunca "posta"). Acá está solo lo que cambia para la cuenta en inglés.
+**Primero leé el skill `producir-video` entero (`.claude/skills/producir-video/SKILL.md`): todas sus reglas valen acá** (veracidad, chequeo con un subagente aparte, dirección de arte, **todo video nuevo en 3D** (regla de Mateo, 27/10), revisión de cuadros, render, control, nunca "posta"). Acá está solo lo que cambia para la cuenta en inglés.
 Vos sos el único freno: un dato falso publicado es peor que un día sin video.
 
 ## Cuenta, carpetas y comandos
@@ -29,13 +29,13 @@ Vos sos el único freno: un dato falso publicado es peor que un día sin video.
 1. Leé `videos/<slug-es>/guion.json`, `caption.txt` y `chequeo.json`, y `motor/src/videos/<slug-es>/Video.tsx`.
 2. **Investigá de nuevo con fuentes de EE. UU.** (USDA/FSIS, FDA, CDC, NWS/NOAA, DOE, EPA, Consumer Reports, America's Test Kitchen; fabricantes para aparatos). Los datos pueden cambiar de país a país: la regla de la heladera allá es 40 °F y 2 horas. Si el dato no se sostiene para EE. UU., descartá la adaptación en `videos/en/ideas.md` con el motivo y tomá la siguiente.
 3. Guion nuevo en inglés de EE. UU.: mismo mecanismo y misma estructura, **30–45 s (90–120 palabras)**. Unidades de allá (°F, lb, oz, miles, $) y costumbres de allá: nada de mate, asado, pava, yerba ni "la heladera de la abuela"; sí leftovers, the grill, Thanksgiving, the thermostat.
-4. Copiá el `Video.tsx` del original a `motor/src/videos/<slug>/Video.tsx` y adaptalo:
+4. **Escena 3D obligatoria.** Preferí adaptar originales que ya son 3D (usan `kit3d`, por ejemplo `020-pava-se-corta`). Si el original es 2D, NO copies su `Video.tsx`: armá la escena en 3D con el kit (`motor/src/kit3d/`: objetos, `Mapa3D`, `Estudio`, `Camara`) contando el mismo mecanismo, como en la sección 5 del skill base. Si el original es 3D, copialo a `motor/src/videos/<slug>/Video.tsx` y adaptalo:
    - import de tiempos `../../../public/<slug>/tiempos.json` y audio `staticFile("<slug>/voz.wav")`; nombres nuevos de los componentes (`…En002`, `PortadaEn002`);
    - **todo texto en pantalla en inglés** (etiquetas, rótulos, globos, sellos, pasos, contadores, `mandar` del cierre, portada) y los números con las unidades del guion nuevo;
    - las anclas `r.w(i, "palabra")` con palabras del guion en inglés y los índices de frase corregidos si cambió la cantidad de frases (un ancla que no existe rompe el render: `tlx tsc` no lo ve, `tlx cuadros` sí);
    - el mismo dibujo y la misma cámara; si una escena no tiene equivalente allá, sacala o simplificala.
    - **Ejemplo completo**: `motor/src/videos/en-001-phone-rice/Video.tsx` es la adaptación de `014-celular-arroz` (una frase menos, textos en inglés, anclas nuevas).
-5. Después, igual que siempre: chequeo con subagente, voz, cuadros (mínimo 2 vueltas en 2D), render y control. En 3D, como en el base: estado `render` y lo renderiza `producir.py`.
+5. Después, igual que siempre: chequeo con subagente, voz, cuadros, y como en el base para 3D: estado `render` y lo renderiza `producir.py`.
 
 ## Guion en inglés
 - La misma estructura que en español: **hook** en 2.ª persona que desarma algo que el que mira hace o cree, afirmado ("You've been letting your leftovers cool on the counter.") → **golpe** ("That's backwards." / "That's a myth.") → mecanismo simple → **dato con la institución** ("The USDA says…") → **"Heads up:"** el matiz honesto → consejo para hoy → **"Send this to the friend who…"** (alguien reconocible en EE. UU. por lo que hace, con humor: "…who leaves the pot on the stove overnight").
