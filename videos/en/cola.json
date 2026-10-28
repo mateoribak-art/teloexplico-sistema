@@ -123,5 +123,27 @@
     "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
    }
   ]
+ },
+ {
+  "slug": "en-005-fridge-part-2",
+  "tema": "Fridge part 2: cover leftovers? how many days? (adapted from 021)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-28T07:06",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-28T07:06",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-28T07:15",
+    "motivo": "producción nocturna"
+   }
+  ]
  }
 ]

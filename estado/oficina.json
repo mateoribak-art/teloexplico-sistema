@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T06:51",
+ "actualizado": "2026-10-28T07:15",
  "oficinas": [
   {
    "clave": "es",
@@ -7,8 +7,8 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 249,
-   "listos": 13,
-   "dias": 6.5,
+   "listos": 12,
+   "dias": 6.0,
    "proximo": "012-lavar-pollo",
    "publicados": 8,
    "pausa": false,
@@ -77,6 +77,13 @@
      "motivo": "tema de actualidad vencido (más de 48 h)"
     },
     {
+     "slug": "024-granizo-corto",
+     "tema": "¿Por qué cae granizo justo cuando hace calor? (versión corta)",
+     "estado": "apartado",
+     "cuando": "2026-10-28T07:05",
+     "motivo": "render/control: ode:internal/process/task_queues:103:5)\u001b[39m\n\u001b[31m    at /home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/"
+    },
+    {
      "slug": "016-el-nino-clima",
      "tema": "¿Por qué este año llueve así? El Niño y el pronóstico oficial para el verano",
      "estado": "publicado",
@@ -108,16 +115,21 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-10-27T21:56",
-     "hace": "hace 8 h",
+     "cuando": "2026-10-28T07:05",
+     "hace": "hace 10 min",
      "detalle": [
-      "Uso: 47 pasos · 79,421 tokens nuevos · 1,411,041 de caché · 20,278 escritos · equivale a US$ 0.88 de API",
-      "2026-10-27 21:46 Arranca la producción (12 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
-      "- **Listo:** `024-granizo-corto` (serie clima #6), una versión corta del granizo con calor (50 s). El chequeo lo aprobó un subagente a la primera, y `tsc`, el render y el control dieron OK.",
-      "- **Apartados o incompletos:** ninguno. Quedan 12 videos listos en cola, así que no hice un segundo video. Del radar de hoy no salió ningún tema nuevo.",
-      "- **A tener en cuenta:** la voz dura 49,5 s, más que el rango de 30–45 s del skill. El chequeo de \"varios kilómetros de altura\" y del consejo del auto se apoya en NOAA y NWS, en la guía de seguros de Texas (Texas SORM) y en aseguradoras. No",
-      "Uso: 47 pasos · 79,421 tokens nuevos · 1,411,041 de caché · 20,278 escritos · equivale a US$ 0.88 de API",
-      "2026-10-27 21:56 Termina la producción (ok)."
+      "Uso: 54 pasos · 88,196 tokens nuevos · 1,946,655 de caché · 24,190 escritos · equivale a US$ 0.80 de API",
+      "2026-10-28 06:57 Arranca la producción (13 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
+      "Quedó listo para render `024-granizo-corto`, rehecho en 3D. El render y el control los hace `producir.py`, así que todavía no lo vi renderizado. No quedó ningún slug listo, apartado ni incompleto.",
+      "- **Qué hice:** escribí `Video.tsx` nuevo y el objeto `kit3d/objetos/Tormenta.tsx` (nube, columna de aire caliente, piedra de granizo en capas con corte tipo cebolla, auto bajo techo). Reusé `guion.json`, `chequeo.json` y los tiempos. `tlx ",
+      "- **Cola:** había 13 videos listos (más de 10), así que no hice un segundo video. Es el primero del pedido de rehacer en 3D de `videos/ideas.md`. La marca `[ ]` sigue abierta porque faltan los otros seis.",
+      "- **Radar:** no encontré alertas del SMN fechadas hoy, solo notas de julio o sin fecha. Lo anoté en `videos/radar.log` y seguí con la cola normal.",
+      "- **Voz:** `voz.wav` de este video no está en esta máquina; los cuadros dieron 404 al buscarla. Tampoco pude correr `sincronizar.py bajar-voces`, porque solo se permite `tlx`, y no regeneré la voz. Si el render falla por falta de voz, ese e",
+      "Uso: 54 pasos · 88,196 tokens nuevos · 1,946,655 de caché · 24,190 escritos · equivale a US$ 0.80 de API",
+      "2026-10-28 07:05 Render de 024-granizo-corto (sin Claude).",
+      "2026-10-28 07:05 024-granizo-corto: apartado (render/control: ode:internal/process/task_queues:103:5)\u001b[39m",
+      "\u001b[31m    at /home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/renderer/dist/render-frame-with-option-t)",
+      "2026-10-28 07:05 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -139,13 +151,13 @@
       }
      },
      "estado": "ok",
-     "resumen": "Revisión radar. Búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy (solo notas de feb/2023/2025 o sin fecha; tendencias genéricas: Ipsos pre",
-     "cuando": "2026-10-27T16:26",
-     "hace": "hace 14 h",
+     "resumen": "Revisión radar. Búsqueda web (alertas SMN): sin resultados fechados de hoy (lo más reciente es de julio). Sin tema de actualidad verificable; sigue la cola norm",
+     "cuando": "2026-10-28T00:00",
+     "hace": "hace 7 h",
      "detalle": [
-      "26/10 00:00 | Revisión radar. Sin alerta SMN nueva del día encontrada en la búsqueda. Tema vigente: El Niño muy fuerte (NOAA CPC 10-sep: advisory activo, >90% de evento muy fuerte) y SMN prevé más lluvia en Litoral/Córdoba/La Pampa/oeste BA oct-dic; es idea prioritaria del banco -> ELEGIDO, ángulo cercano 'por qué este año llueve así'. Slug: 016-el-nino-clima.",
       "26/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, clima, tendencias): sin resultados fechados de hoy, solo notas viejas (feb, dic, finde largo 9-10 oct) o sin fecha. Candidatos: (1) El Niño/clima de la semana -> ángulo ya tomado por posta y clima saturado con 004 y 005 -> descartado; (2) alertas por tormentas -> sin fuente fechada de hoy, no verificable -> descartado; (3) tendencias/redes -> sin evidencia. No se produce video de actualidad; sigue la cola normal.",
-      "27/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy (solo notas de feb/2023/2025 o sin fecha; tendencias genéricas: Ipsos preocupaciones, Mundial). Candidatos: (1) clima/alertas SMN -> sin fuente del día, y ya hay 004, 005 y 016 -> descartado; (2) calor extremo de primavera -> sin alerta fechada que lo confirme -> descartado; (3) tendencias/redes -> sin evidencia de un tema que todos vivan hoy. No se produce video de actualidad; sigue la cola normal."
+      "27/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy (solo notas de feb/2023/2025 o sin fecha; tendencias genéricas: Ipsos preocupaciones, Mundial). Candidatos: (1) clima/alertas SMN -> sin fuente del día, y ya hay 004, 005 y 016 -> descartado; (2) calor extremo de primavera -> sin alerta fechada que lo confirme -> descartado; (3) tendencias/redes -> sin evidencia de un tema que todos vivan hoy. No se produce video de actualidad; sigue la cola normal.",
+      "28/10 00:00 | Revisión radar. Búsqueda web (alertas SMN): sin resultados fechados de hoy (lo más reciente es de julio). Sin tema de actualidad verificable; sigue la cola normal (pedido de Mateo: rehacer en 3D, empezando por 024-granizo-corto)."
      ],
      "tareas": [
       "🔥 004-olor-a-lluvia — ¿Por qué la tierra huele así cuando llueve?",
@@ -156,7 +168,7 @@
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "f7c928a57536"
+     "firma": "3e97128b72c5"
     },
     {
      "id": "chequeo",
@@ -229,15 +241,17 @@
        "cuenta": "es"
       }
      },
-     "estado": "ok",
-     "resumen": "Último video terminado: 2026-10-27 22:17.",
+     "estado": "falla",
+     "resumen": "Falló el render de 024-granizo-corto.",
      "cuando": "2026-10-27T22:17",
      "hace": "hace 8 h",
      "detalle": [],
-     "tareas": [],
-     "arreglo": null,
+     "tareas": [
+      "024-granizo-corto: render/control: ode:internal/process/task_queues:103:5)\u001b[39m\n\u001b[31m    at /home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/renderer/dist/render-frame-with-option-t"
+     ],
+     "arreglo": "Relanzá la producción: los videos en estado render se vuelven a renderizar solos.",
      "solo": false,
-     "firma": "494b9258f0e5"
+     "firma": "f1ec6846aefe"
     },
     {
      "id": "control",
@@ -455,10 +469,11 @@
      },
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo se apartó solo por vencido; no cambié nada.",
-     "cuando": "2026-10-28T06:51",
+     "cuando": "2026-10-28T07:15",
      "hace": "recién",
      "detalle": [
-      "⚠️ Video apartado: 005-granizo-calor — tema de actualidad vencido (más de 48 h)"
+      "⚠️ Video apartado: 005-granizo-calor — tema de actualidad vencido (más de 48 h)",
+      "⚠️ Video apartado: 024-granizo-corto — render/control: ode:internal/process/task_queues:103:5)\u001b[39m\n\u001b[31m    at /home/runner/work/teloexplico-sistema/teloexpli"
      ],
      "tareas": [],
      "arreglo": null,
@@ -497,8 +512,8 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 2,
-   "listos": 2,
-   "dias": 1.0,
+   "listos": 3,
+   "dias": 1.5,
    "proximo": "en-003-fridge-leftovers",
    "publicados": 2,
    "pausa": false,
@@ -529,6 +544,13 @@
      "estado": "listo",
      "cuando": "2026-10-27T22:17",
      "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
+    },
+    {
+     "slug": "en-005-fridge-part-2",
+     "tema": "Fridge part 2: cover leftovers? how many days? (adapted from 021)",
+     "estado": "listo",
+     "cuando": "2026-10-28T07:15",
+     "motivo": "producción nocturna"
     },
     {
      "slug": "en-001-phone-rice",
@@ -562,16 +584,18 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-10-27T22:06",
-     "hace": "hace 8 h",
+     "cuando": "2026-10-28T07:15",
+     "hace": "recién",
      "detalle": [
-      "Uso: 26 pasos · 26,484 tokens nuevos · 926,947 de caché · 12,672 escritos · equivale a US$ 0.93 de API",
-      "2026-10-27 21:57 Arranca la producción (1 listos en la cola, meta 6).",
-      "- **Listo:** `en-004-sugar-hyper` (\"Does sugar make kids hyper?\", propio, serie Body myths #1). Pasó el chequeo en el segundo intento, el render (38,6 s) y `tlx control` dio OK. Está en la cola como `listo`.",
-      "- **Apartados o incompletos:** ninguno. El primer chequeo rechazó la frase \"blame the party\". Quedó como \"if they're wild, it's probably the party, not the candy\", y la segunda pasada aprobó 8 afirmaciones verificadas y 1 probable.",
-      "- **Pendiente:** el caption dice Halloween, así que hay que publicarlo antes del 31/10. El chequeo no pudo leer el texto completo del estudio JAMA 1995, y los autores no descartan un efecto muy chico en algún subgrupo. El guion dice \"no eff",
-      "Uso: 26 pasos · 26,484 tokens nuevos · 926,947 de caché · 12,672 escritos · equivale a US$ 0.93 de API",
-      "2026-10-27 22:06 Termina la producción (ok)."
+      "Uso: 54 pasos · 70,138 tokens nuevos · 1,689,253 de caché · 19,348 escritos · equivale a US$ 0.88 de API",
+      "2026-10-28 07:05 Arranca la producción (2 listos en la cola, meta 6).",
+      "**Listo:** `en-005-fridge-part-2` (adaptado de 021-heladera-parte-2, Kitchen myths #2, 38,8 s). El chequeo de datos lo aprobó en el segundo intento, el render salió bien y `tlx control` dio OK. Quedó en la cola como `listo`.",
+      "**Apartados / incompletos:** ninguno. El radar no encontró tema de actualidad (la búsqueda devolvió solo páginas viejas), así que anoté eso en `radar.log` y seguí con un adaptado.",
+      "**Cambios por el chequeo:** el primer chequeo lo rechazó por dos cosas. Saqué una frase del caption sin fuente. Y el plazo de freezer pasó a \"para sopas y guisos, el USDA dice dos o tres meses\" (en vez de tres o cuatro). Es 2D, como en-003,",
+      "Uso: 54 pasos · 70,138 tokens nuevos · 1,689,253 de caché · 19,348 escritos · equivale a US$ 0.88 de API",
+      "Permisos negados (1):",
+      "  Bash: {\"command\": \"cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-005-fridge-part-2/ && cat > chequeo.json <<'EOF'\\n{\\n  \\\"veredi",
+      "2026-10-28 07:15 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -598,6 +622,7 @@
      "hace": "hace 14 h",
      "detalle": [
       "27/10 00:00 Radar: tema elegido = cambio de hora (fall back domingo 1/11/2026, 2 a.m.), ángulo \"no se inventó para los granjeros\" (mito). Es noticia de la semana en EE. UU. y se chequea con fuentes oficiales. Slug: en-002-dst-farmers.",
+      "28/10 00:00 Radar: la búsqueda web no devolvió nada reciente (solo páginas viejas). Sin tema de actualidad; se sigue con un video adaptado.",
       "27/10 00:00 Segunda pasada del radar: no se produce otro tema. en-002-dst-farmers (🔥, listo) ya cubre la actualidad del día; no se fuerza un segundo video."
      ],
      "tareas": [
@@ -622,19 +647,20 @@
       }
      },
      "estado": "ok",
-     "resumen": "Aprobó 4 de los últimos 4 guiones.",
-     "cuando": "2026-10-27T22:17",
-     "hace": "hace 8 h",
+     "resumen": "Aprobó 5 de los últimos 5 guiones.",
+     "cuando": "2026-10-28T07:15",
+     "hace": "recién",
      "detalle": [
       "en-001-phone-rice: aprobado — Chequeado el 27/10/2026 contra la página de Apple Support (support.apple.com/en-us/102643, 'If you see a liquid-detection alert on your iPho",
       "en-002-dst-farmers: aprobado — Todas las afirmaciones fácticas tienen fuente (National Archives, History.com, Library of Congress, U.S. DOT/CRS) y las fechas coinciden. No",
       "en-003-fridge-leftovers: aprobado — Texto actual revisado. Todas las cifras y unidades coinciden con USDA FSIS (Danger Zone 40-140 °F, duplicacion en 'as little as 20 minutes',",
-      "en-004-sugar-hyper: aprobado — Las afirmaciones de salud (sin efecto del azucar en la conducta infantil, caries) estan verificadas con fuentes primarias/secundarias consis"
+      "en-004-sugar-hyper: aprobado — Las afirmaciones de salud (sin efecto del azucar en la conducta infantil, caries) estan verificadas con fuentes primarias/secundarias consis",
+      "en-005-fridge-part-2: aprobado — Se corrigieron las dos observaciones: 'Not 5...' ya no esta en el caption y el freezer ahora dice 'for soups and stews ... two to three mont"
      ],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "2a3d357b0e30"
+     "firma": "e3cd395f5a43"
     },
     {
      "id": "voz",
@@ -652,8 +678,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-10-27T22:17",
-     "hace": "hace 8 h",
+     "cuando": "2026-10-28T07:15",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -675,14 +701,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-10-27 22:17.",
-     "cuando": "2026-10-27T22:17",
-     "hace": "hace 8 h",
+     "resumen": "Último video terminado: 2026-10-28 07:15.",
+     "cuando": "2026-10-28T07:15",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "a713931d5db3"
+     "firma": "2747c75f5331"
     },
     {
      "id": "control",
@@ -699,14 +725,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "2 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-10-27T22:17",
-     "hace": "hace 8 h",
+     "resumen": "3 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-10-28T07:15",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "e22b4a017672"
+     "firma": "f0cac96dce67"
     },
     {
      "id": "publicador",
@@ -725,7 +751,7 @@
      "estado": "ok",
      "resumen": "Último: en-002-dst-farmers.",
      "cuando": "2026-10-27T20:10",
-     "hace": "hace 10 h",
+     "hace": "hace 11 h",
      "detalle": [
       "27/10 12:36 en-001-phone-rice publicado: https://www.instagram.com/reel/DfAMRQ9E1qI/",
       "27/10 12:36 en-001-phone-rice publicado en Facebook: https://www.facebook.com/reel/2081850989112386/",
@@ -760,7 +786,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-27T20:10",
-     "hace": "hace 10 h",
+     "hace": "hace 11 h",
      "detalle": [
       "27/10 12:37 en-001-phone-rice en la bandeja de TikTok",
       "27/10 12:37 en-001-phone-rice paquete para TikTok/YouTube enviado",
@@ -839,17 +865,15 @@
        "modo": "vigilar"
       }
      },
-     "estado": "aviso",
-     "resumen": "Quedan 2 videos listos: alcanza para 1 día(s).",
-     "cuando": "2026-10-28T06:51",
+     "estado": "ok",
+     "resumen": "Todo en orden ✓",
+     "cuando": "2026-10-28T07:15",
      "hace": "recién",
-     "detalle": [
-      "⚠️ Quedan 2 videos listos: alcanza para 1 día(s)."
-     ],
+     "detalle": [],
      "tareas": [],
      "arreglo": null,
-     "solo": true,
-     "firma": "c7e4a58c48cc"
+     "solo": false,
+     "firma": "3e900f50565c"
     }
    ]
   }

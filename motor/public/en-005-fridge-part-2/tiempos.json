@@ -1,0 +1,680 @@
+{
+ "duracion": 37.36,
+ "frases": [
+  {
+   "texto": "In part one, I told you not to let leftovers cool on the counter.",
+   "palabras": [
+    {
+     "texto": "In",
+     "inicio": 0.0,
+     "fin": 0.18
+    },
+    {
+     "texto": "part",
+     "inicio": 0.18,
+     "fin": 0.38
+    },
+    {
+     "texto": "one,",
+     "inicio": 0.38,
+     "fin": 0.72
+    },
+    {
+     "texto": "I",
+     "inicio": 0.88,
+     "fin": 1.02
+    },
+    {
+     "texto": "told",
+     "inicio": 1.02,
+     "fin": 1.26
+    },
+    {
+     "texto": "you",
+     "inicio": 1.26,
+     "fin": 1.38
+    },
+    {
+     "texto": "not",
+     "inicio": 1.38,
+     "fin": 1.56
+    },
+    {
+     "texto": "to",
+     "inicio": 1.56,
+     "fin": 1.74
+    },
+    {
+     "texto": "let",
+     "inicio": 1.74,
+     "fin": 1.86
+    },
+    {
+     "texto": "leftovers",
+     "inicio": 1.86,
+     "fin": 2.28
+    },
+    {
+     "texto": "cool",
+     "inicio": 2.28,
+     "fin": 2.62
+    },
+    {
+     "texto": "on",
+     "inicio": 2.62,
+     "fin": 2.8
+    },
+    {
+     "texto": "the",
+     "inicio": 2.8,
+     "fin": 2.9
+    },
+    {
+     "texto": "counter.",
+     "inicio": 2.9,
+     "fin": 3.12
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.12
+  },
+  {
+   "texto": "Next question: should you cover them?",
+   "palabras": [
+    {
+     "texto": "Next",
+     "inicio": 3.56,
+     "fin": 3.84
+    },
+    {
+     "texto": "question:",
+     "inicio": 3.84,
+     "fin": 4.06
+    },
+    {
+     "texto": "should",
+     "inicio": 4.64,
+     "fin": 4.8
+    },
+    {
+     "texto": "you",
+     "inicio": 4.8,
+     "fin": 4.92
+    },
+    {
+     "texto": "cover",
+     "inicio": 4.92,
+     "fin": 5.12
+    },
+    {
+     "texto": "them?",
+     "inicio": 5.12,
+     "fin": 5.28
+    }
+   ],
+   "inicio": 3.56,
+   "fin": 5.28
+  },
+  {
+   "texto": "Yes. The USDA says covering keeps moisture in and other fridge smells out.",
+   "palabras": [
+    {
+     "texto": "Yes.",
+     "inicio": 5.8,
+     "fin": 6.0
+    },
+    {
+     "texto": "The",
+     "inicio": 6.5,
+     "fin": 6.58
+    },
+    {
+     "texto": "USDA",
+     "inicio": 6.58,
+     "fin": 6.9
+    },
+    {
+     "texto": "says",
+     "inicio": 6.9,
+     "fin": 7.26
+    },
+    {
+     "texto": "covering",
+     "inicio": 7.26,
+     "fin": 7.62
+    },
+    {
+     "texto": "keeps",
+     "inicio": 7.62,
+     "fin": 8.0
+    },
+    {
+     "texto": "moisture",
+     "inicio": 8.0,
+     "fin": 8.34
+    },
+    {
+     "texto": "in",
+     "inicio": 8.34,
+     "fin": 8.74
+    },
+    {
+     "texto": "and",
+     "inicio": 8.74,
+     "fin": 8.94
+    },
+    {
+     "texto": "other",
+     "inicio": 8.94,
+     "fin": 9.2
+    },
+    {
+     "texto": "fridge",
+     "inicio": 9.2,
+     "fin": 9.48
+    },
+    {
+     "texto": "smells",
+     "inicio": 9.48,
+     "fin": 9.72
+    },
+    {
+     "texto": "out.",
+     "inicio": 9.72,
+     "fin": 10.14
+    }
+   ],
+   "inicio": 5.8,
+   "fin": 10.14
+  },
+  {
+   "texto": "But what matters more is how many days they last.",
+   "palabras": [
+    {
+     "texto": "But",
+     "inicio": 10.66,
+     "fin": 10.86
+    },
+    {
+     "texto": "what",
+     "inicio": 10.86,
+     "fin": 11.1
+    },
+    {
+     "texto": "matters",
+     "inicio": 11.1,
+     "fin": 11.44
+    },
+    {
+     "texto": "more",
+     "inicio": 11.44,
+     "fin": 11.74
+    },
+    {
+     "texto": "is",
+     "inicio": 11.74,
+     "fin": 12.06
+    },
+    {
+     "texto": "how",
+     "inicio": 12.06,
+     "fin": 12.36
+    },
+    {
+     "texto": "many",
+     "inicio": 12.36,
+     "fin": 12.54
+    },
+    {
+     "texto": "days",
+     "inicio": 12.54,
+     "fin": 12.8
+    },
+    {
+     "texto": "they",
+     "inicio": 12.8,
+     "fin": 12.96
+    },
+    {
+     "texto": "last.",
+     "inicio": 12.96,
+     "fin": 13.22
+    }
+   ],
+   "inicio": 10.66,
+   "fin": 13.22
+  },
+  {
+   "texto": "That chili has an expiration date.",
+   "palabras": [
+    {
+     "texto": "That",
+     "inicio": 13.86,
+     "fin": 13.98
+    },
+    {
+     "texto": "chili",
+     "inicio": 13.98,
+     "fin": 14.22
+    },
+    {
+     "texto": "has",
+     "inicio": 14.22,
+     "fin": 14.66
+    },
+    {
+     "texto": "an",
+     "inicio": 14.66,
+     "fin": 14.9
+    },
+    {
+     "texto": "expiration",
+     "inicio": 14.9,
+     "fin": 15.24
+    },
+    {
+     "texto": "date.",
+     "inicio": 15.24,
+     "fin": 15.6
+    }
+   ],
+   "inicio": 13.86,
+   "fin": 15.6
+  },
+  {
+   "texto": "The USDA says three to four days in the fridge.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 16.04,
+     "fin": 16.14
+    },
+    {
+     "texto": "USDA",
+     "inicio": 16.14,
+     "fin": 16.5
+    },
+    {
+     "texto": "says",
+     "inicio": 16.5,
+     "fin": 16.88
+    },
+    {
+     "texto": "three",
+     "inicio": 16.88,
+     "fin": 17.26
+    },
+    {
+     "texto": "to",
+     "inicio": 17.26,
+     "fin": 17.4
+    },
+    {
+     "texto": "four",
+     "inicio": 17.4,
+     "fin": 17.62
+    },
+    {
+     "texto": "days",
+     "inicio": 17.62,
+     "fin": 17.86
+    },
+    {
+     "texto": "in",
+     "inicio": 17.86,
+     "fin": 18.02
+    },
+    {
+     "texto": "the",
+     "inicio": 18.02,
+     "fin": 18.1
+    },
+    {
+     "texto": "fridge.",
+     "inicio": 18.1,
+     "fin": 18.32
+    }
+   ],
+   "inicio": 16.04,
+   "fin": 18.32
+  },
+  {
+   "texto": "Won't finish it? Freeze it. For soups and stews, the USDA says quality holds two to three months.",
+   "palabras": [
+    {
+     "texto": "Won't",
+     "inicio": 18.86,
+     "fin": 19.14
+    },
+    {
+     "texto": "finish",
+     "inicio": 19.14,
+     "fin": 19.38
+    },
+    {
+     "texto": "it?",
+     "inicio": 19.38,
+     "fin": 19.58
+    },
+    {
+     "texto": "Freeze",
+     "inicio": 19.98,
+     "fin": 20.16
+    },
+    {
+     "texto": "it.",
+     "inicio": 20.16,
+     "fin": 20.32
+    },
+    {
+     "texto": "For",
+     "inicio": 20.72,
+     "fin": 20.84
+    },
+    {
+     "texto": "soups",
+     "inicio": 20.84,
+     "fin": 21.12
+    },
+    {
+     "texto": "and",
+     "inicio": 21.12,
+     "fin": 21.2
+    },
+    {
+     "texto": "stews,",
+     "inicio": 21.2,
+     "fin": 21.56
+    },
+    {
+     "texto": "the",
+     "inicio": 21.62,
+     "fin": 21.7
+    },
+    {
+     "texto": "USDA",
+     "inicio": 21.7,
+     "fin": 22.1
+    },
+    {
+     "texto": "says",
+     "inicio": 22.1,
+     "fin": 22.46
+    },
+    {
+     "texto": "quality",
+     "inicio": 22.46,
+     "fin": 22.8
+    },
+    {
+     "texto": "holds",
+     "inicio": 22.8,
+     "fin": 23.16
+    },
+    {
+     "texto": "two",
+     "inicio": 23.16,
+     "fin": 23.42
+    },
+    {
+     "texto": "to",
+     "inicio": 23.42,
+     "fin": 23.54
+    },
+    {
+     "texto": "three",
+     "inicio": 23.54,
+     "fin": 23.72
+    },
+    {
+     "texto": "months.",
+     "inicio": 23.72,
+     "fin": 23.96
+    }
+   ],
+   "inicio": 18.86,
+   "fin": 23.96
+  },
+  {
+   "texto": "Heads up: that only counts if it's in the fridge within two hours, or one hour if it's over ninety degrees out.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 24.5,
+     "fin": 24.76
+    },
+    {
+     "texto": "up:",
+     "inicio": 24.76,
+     "fin": 24.92
+    },
+    {
+     "texto": "that",
+     "inicio": 25.2,
+     "fin": 25.3
+    },
+    {
+     "texto": "only",
+     "inicio": 25.3,
+     "fin": 25.68
+    },
+    {
+     "texto": "counts",
+     "inicio": 25.68,
+     "fin": 26.06
+    },
+    {
+     "texto": "if",
+     "inicio": 26.06,
+     "fin": 26.28
+    },
+    {
+     "texto": "it's",
+     "inicio": 26.28,
+     "fin": 26.46
+    },
+    {
+     "texto": "in",
+     "inicio": 26.46,
+     "fin": 26.66
+    },
+    {
+     "texto": "the",
+     "inicio": 26.66,
+     "fin": 26.78
+    },
+    {
+     "texto": "fridge",
+     "inicio": 26.78,
+     "fin": 27.06
+    },
+    {
+     "texto": "within",
+     "inicio": 27.06,
+     "fin": 27.36
+    },
+    {
+     "texto": "two",
+     "inicio": 27.36,
+     "fin": 27.76
+    },
+    {
+     "texto": "hours,",
+     "inicio": 27.76,
+     "fin": 28.1
+    },
+    {
+     "texto": "or",
+     "inicio": 28.64,
+     "fin": 28.9
+    },
+    {
+     "texto": "one",
+     "inicio": 28.9,
+     "fin": 29.2
+    },
+    {
+     "texto": "hour",
+     "inicio": 29.2,
+     "fin": 29.46
+    },
+    {
+     "texto": "if",
+     "inicio": 29.46,
+     "fin": 29.68
+    },
+    {
+     "texto": "it's",
+     "inicio": 29.68,
+     "fin": 29.82
+    },
+    {
+     "texto": "over",
+     "inicio": 29.82,
+     "fin": 30.02
+    },
+    {
+     "texto": "ninety",
+     "inicio": 30.02,
+     "fin": 30.34
+    },
+    {
+     "texto": "degrees",
+     "inicio": 30.34,
+     "fin": 30.66
+    },
+    {
+     "texto": "out.",
+     "inicio": 30.66,
+     "fin": 30.98
+    }
+   ],
+   "inicio": 24.5,
+   "fin": 30.98
+  },
+  {
+   "texto": "Today, stick a date label on every container.",
+   "palabras": [
+    {
+     "texto": "Today,",
+     "inicio": 31.44,
+     "fin": 31.6
+    },
+    {
+     "texto": "stick",
+     "inicio": 31.96,
+     "fin": 32.3
+    },
+    {
+     "texto": "a",
+     "inicio": 32.3,
+     "fin": 32.44
+    },
+    {
+     "texto": "date",
+     "inicio": 32.44,
+     "fin": 32.66
+    },
+    {
+     "texto": "label",
+     "inicio": 32.66,
+     "fin": 33.04
+    },
+    {
+     "texto": "on",
+     "inicio": 33.04,
+     "fin": 33.3
+    },
+    {
+     "texto": "every",
+     "inicio": 33.3,
+     "fin": 33.74
+    },
+    {
+     "texto": "container.",
+     "inicio": 33.74,
+     "fin": 34.14
+    }
+   ],
+   "inicio": 31.44,
+   "fin": 34.14
+  },
+  {
+   "texto": "Send this to the friend who stores the whole pot with the lid on.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 34.58,
+     "fin": 34.86
+    },
+    {
+     "texto": "this",
+     "inicio": 34.86,
+     "fin": 35.02
+    },
+    {
+     "texto": "to",
+     "inicio": 35.02,
+     "fin": 35.16
+    },
+    {
+     "texto": "the",
+     "inicio": 35.16,
+     "fin": 35.26
+    },
+    {
+     "texto": "friend",
+     "inicio": 35.26,
+     "fin": 35.44
+    },
+    {
+     "texto": "who",
+     "inicio": 35.44,
+     "fin": 35.6
+    },
+    {
+     "texto": "stores",
+     "inicio": 35.6,
+     "fin": 35.88
+    },
+    {
+     "texto": "the",
+     "inicio": 35.88,
+     "fin": 36.1
+    },
+    {
+     "texto": "whole",
+     "inicio": 36.1,
+     "fin": 36.34
+    },
+    {
+     "texto": "pot",
+     "inicio": 36.34,
+     "fin": 36.66
+    },
+    {
+     "texto": "with",
+     "inicio": 36.66,
+     "fin": 36.88
+    },
+    {
+     "texto": "the",
+     "inicio": 36.88,
+     "fin": 37.02
+    },
+    {
+     "texto": "lid",
+     "inicio": 37.02,
+     "fin": 37.12
+    },
+    {
+     "texto": "on.",
+     "inicio": 37.12,
+     "fin": 37.28
+    }
+   ],
+   "inicio": 34.58,
+   "fin": 37.28
+  }
+ ]
+}

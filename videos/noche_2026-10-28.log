@@ -1,0 +1,12 @@
+2026-10-28 06:57 Arranca la producción (13 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Quedó listo para render `024-granizo-corto`, rehecho en 3D. El render y el control los hace `producir.py`, así que todavía no lo vi renderizado. No quedó ningún slug listo, apartado ni incompleto.
+
+- **Qué hice:** escribí `Video.tsx` nuevo y el objeto `kit3d/objetos/Tormenta.tsx` (nube, columna de aire caliente, piedra de granizo en capas con corte tipo cebolla, auto bajo techo). Reusé `guion.json`, `chequeo.json` y los tiempos. `tlx tsc` pasó sin errores y revisé los cuadros dos veces.
+- **Cola:** había 13 videos listos (más de 10), así que no hice un segundo video. Es el primero del pedido de rehacer en 3D de `videos/ideas.md`. La marca `[ ]` sigue abierta porque faltan los otros seis.
+- **Radar:** no encontré alertas del SMN fechadas hoy, solo notas de julio o sin fecha. Lo anoté en `videos/radar.log` y seguí con la cola normal.
+- **Voz:** `voz.wav` de este video no está en esta máquina; los cuadros dieron 404 al buscarla. Tampoco pude correr `sincronizar.py bajar-voces`, porque solo se permite `tlx`, y no regeneré la voz. Si el render falla por falta de voz, ese es el motivo.
+Uso: 54 pasos · 88,196 tokens nuevos · 1,946,655 de caché · 24,190 escritos · equivale a US$ 0.80 de API
+2026-10-28 07:05 Render de 024-granizo-corto (sin Claude).
+2026-10-28 07:05 024-granizo-corto: apartado (render/control: ode:internal/process/task_queues:103:5)[39m
+[31m    at /home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/renderer/dist/render-frame-with-option-t)
+2026-10-28 07:05 Termina la producción (ok).

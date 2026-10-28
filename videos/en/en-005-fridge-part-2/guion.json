@@ -1,0 +1,19 @@
+{
+  "titulo": "Fridge part 2: should you cover leftovers? And how many days do they last?",
+  "fuentes": [
+    "USDA FSIS — Leftovers and Food Safety: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety (leftovers 3 to 4 days in the fridge, 3 to 4 months in the freezer; refrigerate within 2 hours, 1 hour above 90 °F)",
+    "USDA FSIS — Cold Food Storage Chart: soups and stews 2 to 3 months in the freezer (quality)"
+  ],
+  "frases": [
+    {"texto": "In part one, I told you not to let leftovers cool on the counter.", "estilo": "Friendly, picking up where we left off."},
+    {"texto": "Next question: should you cover them?", "estilo": "Curious."},
+    {"texto": "Yes. The USDA says covering keeps moisture in and other fridge smells out.", "estilo": "Explaining clearly."},
+    {"texto": "But what matters more is how many days they last.", "estilo": "Intrigue."},
+    {"texto": "That chili has an expiration date.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "The USDA says three to four days in the fridge.", "estilo": "Emphatic."},
+    {"texto": "Won't finish it? Freeze it. For soups and stews, the USDA says quality holds two to three months.", "estilo": "Practical."},
+    {"texto": "Heads up: that only counts if it's in the fridge within two hours, or one hour if it's over ninety degrees out.", "estilo": "Friendly warning."},
+    {"texto": "Today, stick a date label on every container.", "estilo": "Clear and practical."},
+    {"texto": "Send this to the friend who stores the whole pot with the lid on.", "estilo": "Playful, with humor."}
+  ]
+}

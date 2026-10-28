@@ -1,0 +1,8 @@
+2026-10-28 07:05 Arranca la producción (2 listos en la cola, meta 6).
+**Listo:** `en-005-fridge-part-2` (adaptado de 021-heladera-parte-2, Kitchen myths #2, 38,8 s). El chequeo de datos lo aprobó en el segundo intento, el render salió bien y `tlx control` dio OK. Quedó en la cola como `listo`.
+**Apartados / incompletos:** ninguno. El radar no encontró tema de actualidad (la búsqueda devolvió solo páginas viejas), así que anoté eso en `radar.log` y seguí con un adaptado.
+**Cambios por el chequeo:** el primer chequeo lo rechazó por dos cosas. Saqué una frase del caption sin fuente. Y el plazo de freezer pasó a "para sopas y guisos, el USDA dice dos o tres meses" (en vez de tres o cuatro). Es 2D, como en-003, y no hice render ni revisión extra en 3D.
+Uso: 54 pasos · 70,138 tokens nuevos · 1,689,253 de caché · 19,348 escritos · equivale a US$ 0.88 de API
+Permisos negados (1):
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-005-fridge-part-2/ && cat > chequeo.json <<'EOF'\n{\n  \"veredi
+2026-10-28 07:15 Termina la producción (ok).
