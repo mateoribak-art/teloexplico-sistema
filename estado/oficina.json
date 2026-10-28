@@ -1,12 +1,12 @@
 {
- "actualizado": "2026-10-28T02:29",
+ "actualizado": "2026-10-28T03:13",
  "oficinas": [
   {
    "clave": "es",
    "usuario": "teloexplico.ar",
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
-   "seguidores": 235,
+   "seguidores": 249,
    "listos": 13,
    "dias": 6.5,
    "proximo": "012-lavar-pollo",
@@ -109,7 +109,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-27T21:56",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [
       "Uso: 47 pasos · 79,421 tokens nuevos · 1,411,041 de caché · 20,278 escritos · equivale a US$ 0.88 de API",
       "2026-10-27 21:46 Arranca la producción (12 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -282,7 +282,7 @@
      "estado": "ok",
      "resumen": "Último: 018-rayo-trueno.",
      "cuando": "2026-10-27T19:34",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [
       "27/10 12:32 016-el-nino-clima publicado: https://www.instagram.com/reel/DfAL7kFCkeY/",
       "27/10 12:33 016-el-nino-clima publicado en Facebook: https://www.facebook.com/reel/3047873295553584/",
@@ -319,7 +319,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-27T19:34",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [
       "26/10 19:35 003-vuelta-carne en la bandeja de TikTok",
       "26/10 19:35 003-vuelta-carne paquete para TikTok/YouTube enviado",
@@ -385,7 +385,7 @@
      "estado": "ok",
      "resumen": "(sesión con Mateo): 14 respondidos, 3 salteados, 1 alerta",
      "cuando": "2026-10-26T21:56",
-     "hace": "hace 28 h",
+     "hace": "hace 29 h",
      "detalle": [
       "25/10 17:18 Termina la respuesta de comentarios (ok).",
       "26/10 02:50 Hay 5 comentarios nuevos: arranca la respuesta.",
@@ -420,24 +420,25 @@
       }
      },
      "estado": "ok",
-     "resumen": "27/10: 235 seguidores",
-     "cuando": "2026-10-27T10:21",
-     "hace": "hace 16 h",
+     "resumen": "28/10: 249 seguidores",
+     "cuando": "2026-10-28T02:29",
+     "hace": "hace 44 min",
      "detalle": [
       "24/10: 16 seguidores",
       "26/10: 179 seguidores",
-      "27/10: 235 seguidores"
+      "27/10: 235 seguidores",
+      "28/10: 249 seguidores"
      ],
      "tareas": [
-      "001-heladera: 92.424 vistas · 2901 enviados · 1509 ♥",
-      "007-bts-13-anios: 21.910 vistas · 399 enviados · 1754 ♥",
-      "006-army-bomb: 7.489 vistas · 33 enviados · 409 ♥",
-      "003-vuelta-carne: 2.162 vistas · 18 enviados · 52 ♥",
-      "002-corte-digestion: 1.493 vistas · 2 enviados · 24 ♥"
+      "001-heladera: 98.634 vistas · 3146 enviados · 1633 ♥",
+      "007-bts-13-anios: 23.410 vistas · 448 enviados · 1956 ♥",
+      "006-army-bomb: 7.651 vistas · 34 enviados · 432 ♥",
+      "003-vuelta-carne: 3.181 vistas · 24 enviados · 75 ♥",
+      "002-corte-digestion: 1.518 vistas · 2 enviados · 25 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "00caba5e3ddb"
+     "firma": "2ce0d222618b"
     },
     {
      "id": "vigilante",
@@ -454,7 +455,7 @@
      },
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo se apartó solo por vencido; no cambié nada.",
-     "cuando": "2026-10-28T02:29",
+     "cuando": "2026-10-28T03:13",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 005-granizo-calor — tema de actualidad vencido (más de 48 h)"
@@ -495,7 +496,7 @@
    "usuario": "letmeexplain.us",
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
-   "seguidores": null,
+   "seguidores": 2,
    "listos": 2,
    "dias": 1.0,
    "proximo": "en-003-fridge-leftovers",
@@ -562,7 +563,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-27T22:06",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [
       "Uso: 26 pasos · 26,484 tokens nuevos · 926,947 de caché · 12,672 escritos · equivale a US$ 0.93 de API",
       "2026-10-27 21:57 Arranca la producción (1 listos en la cola, meta 6).",
@@ -724,7 +725,7 @@
      "estado": "ok",
      "resumen": "Último: en-002-dst-farmers.",
      "cuando": "2026-10-27T20:10",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [
       "27/10 12:36 en-001-phone-rice publicado: https://www.instagram.com/reel/DfAMRQ9E1qI/",
       "27/10 12:36 en-001-phone-rice publicado en Facebook: https://www.facebook.com/reel/2081850989112386/",
@@ -759,7 +760,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-27T20:10",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [
       "27/10 12:37 en-001-phone-rice en la bandeja de TikTok",
       "27/10 12:37 en-001-phone-rice paquete para TikTok/YouTube enviado",
@@ -810,15 +811,20 @@
        "modo": "resumen"
       }
      },
-     "estado": "descanso",
-     "resumen": "Todavía sin métricas (arrancan con el primer resumen).",
-     "cuando": null,
-     "hace": "nunca",
-     "detalle": [],
-     "tareas": [],
+     "estado": "ok",
+     "resumen": "28/10: 2 seguidores",
+     "cuando": "2026-10-28T02:29",
+     "hace": "hace 44 min",
+     "detalle": [
+      "28/10: 2 seguidores"
+     ],
+     "tareas": [
+      "en-001-phone-rice: 3.604 vistas · 16 enviados · 42 ♥",
+      "en-002-dst-farmers: 240 vistas · 0 enviados · 1 ♥"
+     ],
      "arreglo": null,
      "solo": false,
-     "firma": "0d0b4c799b09"
+     "firma": "4435e3e46556"
     },
     {
      "id": "vigilante",
@@ -835,7 +841,7 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 2 videos listos: alcanza para 1 día(s).",
-     "cuando": "2026-10-28T02:29",
+     "cuando": "2026-10-28T03:13",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 2 videos listos: alcanza para 1 día(s)."
