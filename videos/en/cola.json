@@ -100,7 +100,7 @@
  {
   "slug": "en-004-sugar-hyper",
   "tema": "Does sugar make kids hyper? (Halloween)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -126,6 +126,11 @@
     "estado": "listo",
     "cuando": "2026-10-27T22:17",
     "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-28T19:35",
+    "motivo": "https://www.instagram.com/reel/DfDhEW6kmNm/"
    }
   ]
  },
