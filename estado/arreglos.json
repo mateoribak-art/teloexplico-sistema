@@ -94,10 +94,12 @@
   "id": "10280229-es-control",
   "creado": "2026-10-28T02:29",
   "empleado": "es/control",
-  "firma": "819ca40fd239",
-  "estado": "pedido",
+  "estado": "explicado",
   "auto": true,
   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Ramiro (Control de calidad) está en \"aviso\": Apartó 1 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\n005-granizo-calor: tema de actualidad vencido (más de 48 h)\n",
-  "actualizado": "2026-10-28T02:29"
+  "firma": "819ca40fd239",
+  "actualizado": "2026-10-28T02:29",
+  "titulo": "El video del granizo (005) quedó vencido y apartado, y ya hay una versión corta lista para reemplazarlo; no cambié nada.",
+  "resumen": "Ramiro apartó el 005-granizo-calor porque era un tema de actualidad y pasaron más de 48 h sin publicarse. No es un error de código. En la cola ya está listo 024-granizo-corto, que trata el mismo tema, así que dejo el 005 apartado para que no salga fuera de tiempo. El 024 sale en su turno normal."
  }
 ]

@@ -6,7 +6,7 @@
    "usuario": "teloexplico.ar",
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
-   "seguidores": 249,
+   "seguidores": 235,
    "listos": 13,
    "dias": 6.5,
    "proximo": "012-lavar-pollo",
@@ -253,15 +253,15 @@
        "cuenta": "es"
       }
      },
-     "estado": "aviso",
-     "resumen": "Apartó 1 video(s) en las últimas 48 h.",
+     "estado": "ok",
+     "resumen": "Revisado por el técnico: El video del granizo (005) quedó vencido y apartado, y ya hay una versión corta lista para reemplazarlo; no cambié nada.",
      "cuando": "2026-10-27T22:17",
      "hace": "hace 4 h",
      "detalle": [],
      "tareas": [
       "005-granizo-calor: tema de actualidad vencido (más de 48 h)"
      ],
-     "arreglo": "Revisalo: si está bien, pasalo a listo; si no, queda apartado.",
+     "arreglo": null,
      "solo": false,
      "firma": "819ca40fd239"
     },
@@ -420,25 +420,24 @@
       }
      },
      "estado": "ok",
-     "resumen": "28/10: 249 seguidores",
-     "cuando": "2026-10-28T02:29",
-     "hace": "recién",
+     "resumen": "27/10: 235 seguidores",
+     "cuando": "2026-10-27T10:21",
+     "hace": "hace 16 h",
      "detalle": [
       "24/10: 16 seguidores",
       "26/10: 179 seguidores",
-      "27/10: 235 seguidores",
-      "28/10: 249 seguidores"
+      "27/10: 235 seguidores"
      ],
      "tareas": [
-      "001-heladera: 98.634 vistas · 3146 enviados · 1633 ♥",
-      "007-bts-13-anios: 23.410 vistas · 448 enviados · 1956 ♥",
-      "006-army-bomb: 7.651 vistas · 34 enviados · 432 ♥",
-      "003-vuelta-carne: 3.181 vistas · 24 enviados · 75 ♥",
-      "002-corte-digestion: 1.518 vistas · 2 enviados · 25 ♥"
+      "001-heladera: 92.424 vistas · 2901 enviados · 1509 ♥",
+      "007-bts-13-anios: 21.910 vistas · 399 enviados · 1754 ♥",
+      "006-army-bomb: 7.489 vistas · 33 enviados · 409 ♥",
+      "003-vuelta-carne: 2.162 vistas · 18 enviados · 52 ♥",
+      "002-corte-digestion: 1.493 vistas · 2 enviados · 24 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "2ce0d222618b"
+     "firma": "00caba5e3ddb"
     },
     {
      "id": "vigilante",
@@ -496,7 +495,7 @@
    "usuario": "letmeexplain.us",
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
-   "seguidores": 2,
+   "seguidores": null,
    "listos": 2,
    "dias": 1.0,
    "proximo": "en-003-fridge-leftovers",
@@ -811,20 +810,15 @@
        "modo": "resumen"
       }
      },
-     "estado": "ok",
-     "resumen": "28/10: 2 seguidores",
-     "cuando": "2026-10-28T02:29",
-     "hace": "recién",
-     "detalle": [
-      "28/10: 2 seguidores"
-     ],
-     "tareas": [
-      "en-001-phone-rice: 3.604 vistas · 16 enviados · 42 ♥",
-      "en-002-dst-farmers: 240 vistas · 0 enviados · 1 ♥"
-     ],
+     "estado": "descanso",
+     "resumen": "Todavía sin métricas (arrancan con el primer resumen).",
+     "cuando": null,
+     "hace": "nunca",
+     "detalle": [],
+     "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "4435e3e46556"
+     "firma": "0d0b4c799b09"
     },
     {
      "id": "vigilante",
@@ -950,11 +944,13 @@
    "id": "10280229-es-control",
    "creado": "2026-10-28T02:29",
    "empleado": "es/control",
-   "firma": "819ca40fd239",
-   "estado": "pedido",
+   "estado": "explicado",
    "auto": true,
    "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Ramiro (Control de calidad) está en \"aviso\": Apartó 1 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\n005-granizo-calor: tema de actualidad vencido (más de 48 h)\n",
-   "actualizado": "2026-10-28T02:29"
+   "firma": "819ca40fd239",
+   "actualizado": "2026-10-28T02:29",
+   "titulo": "El video del granizo (005) quedó vencido y apartado, y ya hay una versión corta lista para reemplazarlo; no cambié nada.",
+   "resumen": "Ramiro apartó el 005-granizo-calor porque era un tema de actualidad y pasaron más de 48 h sin publicarse. No es un error de código. En la cola ya está listo 024-granizo-corto, que trata el mismo tema, así que dejo el 005 apartado para que no salga fuera de tiempo. El 024 sale en su turno normal."
   }
  ]
 }
