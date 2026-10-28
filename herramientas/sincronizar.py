@@ -21,6 +21,12 @@ import cuenta  # noqa: E402
 
 NUBE = bool(os.environ.get('TLX_NUBE'))
 
+# en la notebook gh puede quedar activo en otra cuenta (grosoar, 27/10): Te lo explico usa siempre mateoribak-art
+if not os.environ.get("GH_TOKEN"):
+    _t = subprocess.run(["gh", "auth", "token", "--user", "mateoribak-art"], capture_output=True, text=True).stdout.strip()
+    if _t:
+        os.environ["GH_TOKEN"] = _t
+
 
 def correr(*args, **kw):
     return subprocess.run(list(args), cwd=RAIZ, capture_output=True, text=True, encoding='utf-8', errors='replace', **kw)

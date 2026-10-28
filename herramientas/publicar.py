@@ -20,6 +20,12 @@ import cuenta  # noqa: E402
 INTENTOS = 4  # contenedores nuevos que se prueban si la subida falla
 REPO = 'mateoribak-art/teloexplico-sistema'
 
+# en la notebook gh puede quedar activo en otra cuenta (grosoar, 27/10): Te lo explico usa siempre mateoribak-art
+if not os.environ.get("GH_TOKEN"):
+    _t = subprocess.run(["gh", "auth", "token", "--user", "mateoribak-art"], capture_output=True, text=True).stdout.strip()
+    if _t:
+        os.environ["GH_TOKEN"] = _t
+
 
 def pedir(metodo, url, datos=None, cabeceras=None, cuerpo=None):
     if datos is not None:
