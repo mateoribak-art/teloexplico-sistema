@@ -11,6 +11,10 @@
   "2026-10-27": {
    "seguidores": 235,
    "posts": 7
+  },
+  "2026-10-28": {
+   "seguidores": 249,
+   "posts": 9
   }
  },
  "reels": {
@@ -19,16 +23,16 @@
    "publicado": "2026-10-24T18:46:20+0000",
    "duracion": 58.7,
    "ultimo": {
-    "views": 303,
-    "reach": 226,
+    "views": 311,
+    "reach": 232,
     "likes": 9,
     "comments": 0,
     "shares": 0,
     "saved": 0,
     "total_interactions": 10,
-    "ig_reels_avg_watch_time": 11370,
-    "ig_reels_video_view_total_time": 2831226,
-    "cuando": "2026-10-27T10:21"
+    "ig_reels_avg_watch_time": 11421,
+    "ig_reels_video_view_total_time": 2923781,
+    "cuando": "2026-10-28T02:29"
    }
   },
   "18567516820079365": {
@@ -36,16 +40,16 @@
    "publicado": "2026-10-25T00:10:51+0000",
    "duracion": 66.7,
    "ultimo": {
-    "views": 7489,
-    "reach": 6173,
-    "likes": 409,
+    "views": 7651,
+    "reach": 6305,
+    "likes": 432,
     "comments": 0,
-    "shares": 33,
-    "saved": 29,
-    "total_interactions": 486,
-    "ig_reels_avg_watch_time": 28436,
-    "ig_reels_video_view_total_time": 177754201,
-    "cuando": "2026-10-27T10:21"
+    "shares": 34,
+    "saved": 31,
+    "total_interactions": 514,
+    "ig_reels_avg_watch_time": 28414,
+    "ig_reels_video_view_total_time": 181396534,
+    "cuando": "2026-10-28T02:29"
    }
   },
   "18098154005560390": {
@@ -53,16 +57,16 @@
    "publicado": "2026-10-25T17:04:17+0000",
    "duracion": null,
    "ultimo": {
-    "views": 21910,
-    "reach": 15157,
-    "likes": 1754,
+    "views": 23410,
+    "reach": 16222,
+    "likes": 1956,
     "comments": 33,
-    "shares": 399,
-    "saved": 225,
-    "total_interactions": 2517,
-    "ig_reels_avg_watch_time": 37875,
-    "ig_reels_video_view_total_time": 617717432,
-    "cuando": "2026-10-27T10:21"
+    "shares": 448,
+    "saved": 249,
+    "total_interactions": 2812,
+    "ig_reels_avg_watch_time": 37880,
+    "ig_reels_video_view_total_time": 659951797,
+    "cuando": "2026-10-28T02:29"
    }
   },
   "18121053625743851": {
@@ -70,16 +74,16 @@
    "publicado": "2026-10-25T22:34:02+0000",
    "duracion": null,
    "ultimo": {
-    "views": 92424,
-    "reach": 68938,
-    "likes": 1509,
-    "comments": 18,
-    "shares": 2901,
-    "saved": 661,
-    "total_interactions": 5171,
-    "ig_reels_avg_watch_time": 21462,
-    "ig_reels_video_view_total_time": 1488168482,
-    "cuando": "2026-10-27T10:21"
+    "views": 98634,
+    "reach": 73435,
+    "likes": 1633,
+    "comments": 22,
+    "shares": 3146,
+    "saved": 707,
+    "total_interactions": 5594,
+    "ig_reels_avg_watch_time": 21602,
+    "ig_reels_video_view_total_time": 1596241063,
+    "cuando": "2026-10-28T02:29"
    }
   },
   "18077279345737569": {
@@ -87,16 +91,16 @@
    "publicado": "2026-10-26T15:33:55+0000",
    "duracion": 47.6,
    "ultimo": {
-    "views": 1493,
-    "reach": 1173,
-    "likes": 24,
+    "views": 1518,
+    "reach": 1191,
+    "likes": 25,
     "comments": 0,
     "shares": 2,
     "saved": 0,
-    "total_interactions": 27,
-    "ig_reels_avg_watch_time": 16094,
-    "ig_reels_video_view_total_time": 19796162,
-    "cuando": "2026-10-27T10:21"
+    "total_interactions": 28,
+    "ig_reels_avg_watch_time": 16296,
+    "ig_reels_video_view_total_time": 20337993,
+    "cuando": "2026-10-28T02:29"
    }
   },
   "17917671888263864": {
@@ -104,16 +108,50 @@
    "publicado": "2026-10-26T22:33:52+0000",
    "duracion": 48.7,
    "ultimo": {
-    "views": 2162,
-    "reach": 1798,
-    "likes": 52,
+    "views": 3181,
+    "reach": 2630,
+    "likes": 75,
     "comments": 0,
-    "shares": 18,
-    "saved": 5,
-    "total_interactions": 77,
-    "ig_reels_avg_watch_time": 19236,
-    "ig_reels_video_view_total_time": 34779472,
-    "cuando": "2026-10-27T10:21"
+    "shares": 24,
+    "saved": 11,
+    "total_interactions": 112,
+    "ig_reels_avg_watch_time": 20429,
+    "ig_reels_video_view_total_time": 54382870,
+    "cuando": "2026-10-28T02:29"
+   }
+  },
+  "18185446939421653": {
+   "slug": "016-el-nino-clima",
+   "publicado": "2026-10-27T15:32:40+0000",
+   "duracion": null,
+   "ultimo": {
+    "views": 925,
+    "reach": 776,
+    "likes": 22,
+    "comments": 0,
+    "shares": 1,
+    "saved": 3,
+    "total_interactions": 27,
+    "ig_reels_avg_watch_time": 10123,
+    "ig_reels_video_view_total_time": 7825256,
+    "cuando": "2026-10-28T02:29"
+   }
+  },
+  "18120901102950199": {
+   "slug": "018-rayo-trueno",
+   "publicado": "2026-10-27T22:32:32+0000",
+   "duracion": null,
+   "ultimo": {
+    "views": 1436,
+    "reach": 1208,
+    "likes": 27,
+    "comments": 0,
+    "shares": 0,
+    "saved": 3,
+    "total_interactions": 31,
+    "ig_reels_avg_watch_time": 13794,
+    "ig_reels_video_view_total_time": 16691770,
+    "cuando": "2026-10-28T02:29"
    }
   }
  },
@@ -122,16 +160,16 @@
    "clave": "bts",
    "publicado": "2026-10-27T02:18:52+0000",
    "ultimo": {
-    "views": 60,
-    "reach": 16,
-    "likes": 3,
+    "views": 89,
+    "reach": 28,
+    "likes": 4,
     "comments": 0,
     "shares": 0,
     "saved": 0,
-    "total_interactions": 4,
+    "total_interactions": 5,
     "profile_visits": 3,
     "follows": 0,
-    "cuando": "2026-10-27T10:21"
+    "cuando": "2026-10-28T02:29"
    }
   }
  }

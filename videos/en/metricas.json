@@ -1,0 +1,44 @@
+{
+ "cuenta": {
+  "2026-10-28": {
+   "seguidores": 2,
+   "posts": 2
+  }
+ },
+ "reels": {
+  "18036482024888318": {
+   "slug": "en-001-phone-rice",
+   "publicado": "2026-10-27T15:35:51+0000",
+   "duracion": null,
+   "ultimo": {
+    "views": 3604,
+    "reach": 3140,
+    "likes": 42,
+    "comments": 0,
+    "shares": 16,
+    "saved": 3,
+    "total_interactions": 65,
+    "ig_reels_avg_watch_time": 19236,
+    "ig_reels_video_view_total_time": 61267809,
+    "cuando": "2026-10-28T02:29"
+   }
+  },
+  "17958040254081571": {
+   "slug": "en-002-dst-farmers",
+   "publicado": "2026-10-27T23:09:36+0000",
+   "duracion": null,
+   "ultimo": {
+    "views": 240,
+    "reach": 215,
+    "likes": 1,
+    "comments": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1,
+    "ig_reels_avg_watch_time": 9523,
+    "ig_reels_video_view_total_time": 2076158,
+    "cuando": "2026-10-28T02:29"
+   }
+  }
+ }
+}
