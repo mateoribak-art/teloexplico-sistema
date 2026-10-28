@@ -80,5 +80,14 @@
   "titulo": "Claude no pudo trabajar ahora",
   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
   "actualizado": "2026-10-27T23:25"
+ },
+ {
+  "id": "mvrlo9iu-control",
+  "creado": "2026-10-28T01:14",
+  "estado": "fallo",
+  "firma": null,
+  "titulo": "Claude no pudo trabajar ahora",
+  "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
+  "actualizado": "2026-10-28T01:14"
  }
 ]
