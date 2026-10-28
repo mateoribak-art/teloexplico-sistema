@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T13:13",
+ "actualizado": "2026-10-28T13:23",
  "oficinas": [
   {
    "clave": "es",
@@ -116,7 +116,7 @@
      "estado": "aviso",
      "resumen": "Claude se quedó sin cuota: se reintenta sola en el próximo turno.",
      "cuando": "2026-10-28T13:13",
-     "hace": "recién",
+     "hace": "hace 10 min",
      "detalle": [
       "Uso: 1 pasos · 0 tokens nuevos · 0 de caché · 0 escritos · equivale a US$ 0.00 de API",
       "2026-10-28 13:13 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -181,7 +181,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-10-28T12:32",
-     "hace": "hace 41 min",
+     "hace": "hace 51 min",
      "detalle": [
       "020-pava-se-corta: aprobado — Versión final del guion, recortada y sin John Taylor. Las 9 frases están verificadas con fuentes y tienen el matiz correcto. Lo de seguridad",
       "008-aire-en-17: aprobado — Todas las afirmaciones factuales estan verificadas con fuentes oficiales argentinas (Secretaria de Energia de la Nacion y ENRE) y fuentes te",
@@ -214,7 +214,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-10-28T12:32",
-     "hace": "hace 41 min",
+     "hace": "hace 51 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -238,7 +238,7 @@
      "estado": "falla",
      "resumen": "Falló el render de 024-granizo-corto.",
      "cuando": "2026-10-28T12:32",
-     "hace": "hace 41 min",
+     "hace": "hace 51 min",
      "detalle": [],
      "tareas": [
       "024-granizo-corto: render/control: ode:internal/process/task_queues:103:5)\u001b[39m\n\u001b[31m    at /home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/renderer/dist/render-frame-with-option-t"
@@ -264,7 +264,7 @@
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo (005) quedó vencido y apartado, y ya hay una versión corta lista para reemplazarlo; no cambié nada.",
      "cuando": "2026-10-28T12:32",
-     "hace": "hace 41 min",
+     "hace": "hace 51 min",
      "detalle": [],
      "tareas": [
       "005-granizo-calor: tema de actualidad vencido (más de 48 h)"
@@ -290,7 +290,7 @@
      "estado": "ok",
      "resumen": "Último: 020-pava-se-corta.",
      "cuando": "2026-10-28T12:34",
-     "hace": "hace 39 min",
+     "hace": "hace 49 min",
      "detalle": [
       "27/10 19:32 018-rayo-trueno publicado: https://www.instagram.com/reel/DfA7-2QE5f7/",
       "27/10 19:33 018-rayo-trueno publicado en Facebook: https://www.facebook.com/reel/997602049305994/",
@@ -327,7 +327,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-28T12:34",
-     "hace": "hace 39 min",
+     "hace": "hace 49 min",
      "detalle": [
       "27/10 12:34 016-el-nino-clima https://youtube.com/shorts/2UBFTojE_oI | privacidad: public",
       "27/10 12:34 016-el-nino-clima paquete para TikTok/YouTube enviado",
@@ -463,7 +463,7 @@
      },
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo se apartó solo por vencido; no cambié nada.",
-     "cuando": "2026-10-28T13:13",
+     "cuando": "2026-10-28T13:23",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 005-granizo-calor — tema de actualidad vencido (más de 48 h)",
@@ -578,7 +578,7 @@
      "estado": "aviso",
      "resumen": "Claude se quedó sin cuota: se reintenta sola en el próximo turno.",
      "cuando": "2026-10-28T13:13",
-     "hace": "recién",
+     "hace": "hace 10 min",
      "detalle": [
       "Uso: 1 pasos · 0 tokens nuevos · 0 de caché · 0 escritos · equivale a US$ 0.00 de API",
       "2026-10-28 13:13 Arranca la producción (2 listos en la cola, meta 6).",
@@ -639,7 +639,7 @@
      "estado": "ok",
      "resumen": "Aprobó 5 de los últimos 5 guiones.",
      "cuando": "2026-10-28T12:35",
-     "hace": "hace 38 min",
+     "hace": "hace 48 min",
      "detalle": [
       "en-001-phone-rice: aprobado — Chequeado el 27/10/2026 contra la página de Apple Support (support.apple.com/en-us/102643, 'If you see a liquid-detection alert on your iPho",
       "en-002-dst-farmers: aprobado — Todas las afirmaciones fácticas tienen fuente (National Archives, History.com, Library of Congress, U.S. DOT/CRS) y las fechas coinciden. No",
@@ -669,7 +669,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-10-28T12:35",
-     "hace": "hace 38 min",
+     "hace": "hace 48 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -693,7 +693,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-28 12:35.",
      "cuando": "2026-10-28T12:35",
-     "hace": "hace 38 min",
+     "hace": "hace 48 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -717,7 +717,7 @@
      "estado": "ok",
      "resumen": "2 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-10-28T12:35",
-     "hace": "hace 38 min",
+     "hace": "hace 48 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -741,7 +741,7 @@
      "estado": "ok",
      "resumen": "Último: en-003-fridge-leftovers.",
      "cuando": "2026-10-28T12:36",
-     "hace": "hace 37 min",
+     "hace": "hace 47 min",
      "detalle": [
       "27/10 12:37 en-001-phone-rice en la bandeja de TikTok",
       "27/10 12:37 en-001-phone-rice paquete para TikTok/YouTube enviado",
@@ -778,7 +778,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-28T12:36",
-     "hace": "hace 37 min",
+     "hace": "hace 47 min",
      "detalle": [
       "27/10 12:37 en-001-phone-rice en la bandeja de TikTok",
       "27/10 12:37 en-001-phone-rice paquete para TikTok/YouTube enviado",
@@ -861,7 +861,7 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 2 videos listos: alcanza para 1 día(s).",
-     "cuando": "2026-10-28T13:13",
+     "cuando": "2026-10-28T13:23",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 2 videos listos: alcanza para 1 día(s).",
@@ -978,6 +978,15 @@
    "actualizado": "2026-10-28T02:29",
    "titulo": "El video del granizo (005) quedó vencido y apartado, y ya hay una versión corta lista para reemplazarlo; no cambié nada.",
    "resumen": "Ramiro apartó el 005-granizo-calor porque era un tema de actualidad y pasaron más de 48 h sin publicarse. No es un error de código. En la cola ya está listo 024-granizo-corto, que trata el mismo tema, así que dejo el 005 apartado para que no salga fuera de tiempo. El 024 sale en su turno normal."
+  },
+  {
+   "id": "mvsbq20y-animador",
+   "creado": "2026-10-28T13:23",
+   "estado": "fallo",
+   "firma": null,
+   "titulo": "Claude no pudo trabajar ahora",
+   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
+   "actualizado": "2026-10-28T13:23"
   }
  ]
 }
