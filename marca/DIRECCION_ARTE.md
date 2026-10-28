@@ -1,3 +1,22 @@
+# Escenas cine (desde el 27/10/2026, elegido por Mateo) — manda sobre todo lo de abajo
+
+Vara de calidad: @miravosarg (reel de mapas con 1,1 M de vistas; hojas de cuadros auditadas el 27/10). Mateo eligió dejar el
+papel cuadriculado en los videos y pasar a escenas a pantalla completa. La marca queda en el logo, los colores de acento,
+el subtítulo, la portada y el cierre.
+
+1. **Pantalla completa, con luz y profundidad.** Un escenario que llena el cuadro (mapa, cocina, cielo, objeto en estudio),
+   luz principal cálida, contraluz, viñeta, polvo o partículas. Kit: `motor/src/kit3d/` (`Estudio`, `Camara`, `Mapa3D`).
+2. **La respuesta se ve en los primeros 3 s.** El gancho es una pregunta con la imagen que ya la contesta.
+3. **Una sola escena que escala.** Nada de cortes: la cámara se mueve y se suman 2–3 comparaciones cada vez más fuertes.
+4. **En pantalla solo el subtítulo y las cifras.** Subtítulo blanco grande, de 1 a 3 palabras, con una palabra en `ACENTO`.
+   Las cifras van grandes y pegadas al objeto. Nada de etiquetas "// PASO", rótulos chicos ni fuentes en pantalla
+   (las fuentes van en el caption).
+5. **Mapas: `Mapa3D` con geografía real** (Natural Earth): `resaltar` levanta y pinta un país; `PaisFlotante` pone
+   otro país a tamaño real encima para comparar. **Las Malvinas se pintan siempre con Argentina** (ya viene así en el kit).
+   Prueba: still `tallerMapa`.
+6. **El 2D de cuaderno queda solo para temas que todavía no tienen piezas 3D** (cielo/nubes, el cuerpo por dentro) y la plantilla
+   del plan B. Aun así, valen las reglas 2–4.
+
 # Dirección de arte: "diagrama ilustrado" (desde el 24/10/2026)
 
 La marca sigue siendo el cuaderno pop (MARCA.md: papel cuadriculado, contorno negro, sombra dura, paleta fija).

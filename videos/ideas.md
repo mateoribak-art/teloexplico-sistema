@@ -23,6 +23,14 @@ Cada sección dice a qué serie van sus videos (`tlx serie asignar <slug> <serie
 - [ ] (serie: clima) Granizo con calor, VERSIÓN CORTA (rehacer el 005, que quedó apartado por un falso rechazo del control): alertas naranja por granizo en 9 provincias (22/10). Reusar su chequeo.
   (30–45 s, una idea, un dato; momento cotidiano + "¿por qué?" contraintuitivo)
 
+## Argentina en datos — serie: argentina (desde 27/10, por la auditoría de @miravosarg: su reel de mapas comparando tamaños hizo 1,1 M; NO repetir sus temas: tamaño de Buenos Aires vs Italia, Malvinas, fernet, Río de la Plata)
+Cómo se hacen: la respuesta se VE en los primeros 3 s (mapa u objeto que se compara), una sola escena que va escalando (2–3 comparaciones cada vez más fuertes), cifras grandes pegadas al objeto. Caption: cerrar con una pregunta de identidad que se contesta en una palabra ("¿desde qué provincia nos ves?", "¿cuántos mates te tomás por día?").
+- [ ] Vivimos con la hora corrida: en buena parte del país el sol del mediodía pasa cerca de las 13:30–14 (Argentina usa UTC-3 aunque por longitud le toca UTC-4/-5). Por eso en verano en Mendoza o en el oeste hay luz pasadas las 21. Mapa con el sol cruzando y un reloj por provincia. Fuentes: INTI/Observatorio, SHN. Pregunta: "¿a qué hora se hace de noche en tu provincia?". Cierre: "mandáselo al que cena a las once y dice que es temprano".
+- [ ] ¿Cuánta yerba toma un argentino por año? Kilos por persona (INYM) convertidos a paquetes de 1 kg apilados al lado de una persona; después el total del país comparado con algo enorme. Pregunta: "¿cuántos mates te tomás por día?". Cierre: "mandáselo al que se toma un termo antes del almuerzo".
+- [ ] Cataratas del Iguazú: cuánta agua cae por segundo (caudal medio, Parque Nacional/APN) → cuántos segundos tarda en llenar una pileta olímpica, después el Obelisco lleno de agua. Pregunta: "¿fuiste a las Cataratas?". Cierre: "mandáselo al que dice que las de Brasil se ven mejor".
+- [ ] Ruta 40 de punta a punta: cuántos km tiene (Vialidad Nacional), cuántas provincias cruza y cuánto tardarías manejando sin parar; comparada con una distancia que se entienda (ej. Buenos Aires–otra capital). Pregunta: "¿qué tramo de la 40 hiciste?". Cierre: "mandáselo al que dice 'este verano hacemos la 40'".
+- [ ] ¿El colectivo es un invento argentino? (formato mito o verdad: qué se sabe del primero de 1928 en Buenos Aires y qué dicen los historiadores; si el origen es discutido, decirlo con matiz). Pregunta: "¿qué línea tomás todos los días?". Cierre: "mandáselo al que se queja del 60".
+
 ## Verano / casa / plata (prioridad: llega el calor) — serie: casa
 - [usada → 008-aire-en-17] Poner el aire en 17 °C no enfría más rápido; por qué se recomienda 24 °C y cuánto gasta cada grado
 - [usada → 009-ventilador-pieza-vacia] El ventilador no enfría el ambiente: te enfría a vos (dejarlo prendido en una pieza vacía no sirve)

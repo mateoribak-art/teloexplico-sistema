@@ -6,6 +6,7 @@ import { Bts13Anios007, DURACION as DUR_007, FPS as FPS_007, Portada007 } from "
 import { Taller } from "./taller/Taller";
 import { ALTO_C, ANCHO_C, CarruselPlaca } from "./carruseles/Carrusel";
 import { Catalogo } from "./taller/Catalogo";
+import { TallerMapa } from "./taller/TallerMapa";
 import { BannerYT, BannerYTGuia } from "./taller/BannerYT";
 import { Plantilla, PortadaPlantilla, calcularPlantilla, type PropsPlantilla } from "./plantilla/Plantilla";
 import { DURACION as DUR_001, FPS as FPS_001, Heladera001, Portada001 } from "./videos/001-heladera/Video";
@@ -104,6 +105,7 @@ export const RemotionRoot: React.FC = () => {
       <Folder name="taller">
         <Still id="taller" component={Taller} width={1600} height={1000} />
         <Still id="catalogo" component={Catalogo} width={2400} height={1600} />
+        <Still id="tallerMapa" component={TallerMapa} width={ANCHO} height={ALTO} />
         <Still id="bannerYT" component={BannerYT} width={2560} height={1440} />
         <Still id="bannerYTGuia" component={BannerYTGuia} width={2560} height={1440} />
       </Folder>
