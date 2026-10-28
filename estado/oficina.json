@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T21:33",
+ "actualizado": "2026-10-27T21:34",
  "oficinas": [
   {
    "clave": "es",
@@ -288,7 +288,7 @@
      "estado": "ok",
      "resumen": "Último: 018-rayo-trueno.",
      "cuando": "2026-10-27T19:34",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "27/10 12:32 016-el-nino-clima publicado: https://www.instagram.com/reel/DfAL7kFCkeY/",
       "27/10 12:33 016-el-nino-clima publicado en Facebook: https://www.facebook.com/reel/3047873295553584/",
@@ -325,7 +325,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-27T19:34",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "26/10 19:35 003-vuelta-carne en la bandeja de TikTok",
       "26/10 19:35 003-vuelta-carne paquete para TikTok/YouTube enviado",
@@ -460,7 +460,7 @@
      },
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo se apartó solo por vencido; no cambié nada.",
-     "cuando": "2026-10-27T21:33",
+     "cuando": "2026-10-27T21:34",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 005-granizo-calor — tema de actualidad vencido (más de 48 h)"
@@ -833,7 +833,7 @@
      },
      "estado": "ok",
      "resumen": "Revisado por el técnico: Walt avisó que quedaba 1 video en inglés; no cambié nada porque la cuenta recién arrancó.",
-     "cuando": "2026-10-27T21:33",
+     "cuando": "2026-10-27T21:34",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s)."
