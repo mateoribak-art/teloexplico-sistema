@@ -516,7 +516,7 @@
  {
   "slug": "020-pava-se-corta",
   "tema": "¿Por qué la pava eléctrica se corta sola? (piloto 3D)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -527,6 +527,11 @@
     "estado": "listo",
     "cuando": "2026-10-26T21:44",
     "motivo": "piloto 3D hecho en sesión, aprobado por Mateo"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-28T12:32",
+    "motivo": "https://www.instagram.com/reel/DfCwt0oCD_N/"
    }
   ]
  },
