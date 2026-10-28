@@ -74,12 +74,11 @@
  },
  {
   "id": "10272324-es-control",
-  "creado": "2026-10-27T23:24",
-  "empleado": "es/control",
-  "firma": "819ca40fd239",
-  "estado": "pedido",
-  "auto": true,
-  "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Ramiro (Control de calidad) está en \"aviso\": Apartó 1 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\n005-granizo-calor: tema de actualidad vencido (más de 48 h)\n",
-  "actualizado": "2026-10-27T23:24"
+  "creado": "2026-10-27T23:25",
+  "estado": "fallo",
+  "firma": null,
+  "titulo": "Claude no pudo trabajar ahora",
+  "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
+  "actualizado": "2026-10-27T23:25"
  }
 ]
