@@ -63,7 +63,7 @@
  {
   "slug": "en-003-fridge-leftovers",
   "tema": "Do leftovers need to cool before the fridge? (adapted from 001)",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -79,13 +79,18 @@
     "estado": "listo",
     "cuando": "2026-10-27T17:39",
     "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
    }
   ]
  },
  {
   "slug": "en-004-sugar-hyper",
   "tema": "Does sugar make kids hyper? (Halloween)",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -101,6 +106,11 @@
     "estado": "listo",
     "cuando": "2026-10-27T22:06",
     "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
    }
   ]
  }

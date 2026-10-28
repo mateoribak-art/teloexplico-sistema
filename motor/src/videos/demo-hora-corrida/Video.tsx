@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import { AbsoluteFill, interpolate, staticFile, useCurrentFrame } from "remotion";
 import { Audio } from "@remotion/media";
 import * as THREE from "three";
-import tiemposJson from "../../../public/024-hora-corrida/tiempos.json";
+import tiemposJson from "../../../public/demo-hora-corrida/tiempos.json";
 import { reloj, type Tiempos } from "../../kit/tiempos";
 import { Musica, Sfx, type Efecto } from "../../kit/piezas";
 import { Estudio } from "../../kit3d/Estudio";
@@ -205,7 +205,7 @@ export const HoraCorrida3D: React.FC = () => {
       <Subtitulo3D tiempos={tiempos} destacar={DESTACAR} cifras={CIFRAS} />
       <Marco3D total={DURACION} />
       <Cierre3D desde={E.fin + 4} mandar="mandáselo al que dice que almorzar a la una es tarde" />
-      <Audio src={staticFile("024-hora-corrida/voz.wav")} volume={1} />
+      <Audio src={staticFile("demo-hora-corrida/voz.wav")} volume={1} />
       <Musica hasta={DURACION} volumen={0.12} />
       <Sfx efectos={efectos} />
     </AbsoluteFill>

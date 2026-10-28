@@ -70,6 +70,11 @@ def controlar(slug, voz=True):
     if problemas:
         return problemas
 
+    # Regla de Mateo (27/10/2026): todo video que se publica va en 3D (escenas del kit3d).
+    tsx = os.path.join(RAIZ, 'motor', 'src', 'videos', slug, 'Video.tsx')
+    if not os.path.exists(tsx) or 'kit3d' not in open(tsx, encoding='utf-8').read():
+        return ['no es 3D: desde el 27/10 solo se publican videos 3D (rehacerlo con el kit3d)']
+
     chequeo = os.path.join(carpeta, 'chequeo.json')
     if not os.path.exists(chequeo):
         problemas.append('falta el chequeo de datos')

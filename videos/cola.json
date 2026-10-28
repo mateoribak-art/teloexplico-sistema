@@ -356,7 +356,7 @@
  {
   "slug": "012-lavar-pollo",
   "tema": "¿Hay que lavar el pollo crudo antes de cocinarlo?",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -372,13 +372,18 @@
     "estado": "listo",
     "cuando": "2026-10-25T11:06",
     "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
    }
   ]
  },
  {
   "slug": "019-sensacion-termica",
   "tema": "¿Por qué la sensación térmica es más alta que la temperatura? Humedad y sudor",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -394,13 +399,18 @@
     "estado": "listo",
     "cuando": "2026-10-26T18:14",
     "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
    }
   ]
  },
  {
   "slug": "015-descongelar-mesada",
   "tema": "Descongelar la carne arriba de la mesada: por qué no y cómo hacerlo seguro (USDA)",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -416,13 +426,18 @@
     "estado": "listo",
     "cuando": "2026-10-25T16:03",
     "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
    }
   ]
  },
  {
   "slug": "018-refresca-tormenta",
   "tema": "¿Por qué después de la tormenta refresca de golpe? (corriente descendente)",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -438,13 +453,18 @@
     "estado": "listo",
     "cuando": "2026-10-26T17:51",
     "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
    }
   ]
  },
  {
   "slug": "014-celular-arroz",
   "tema": "El celular mojado se arregla en arroz: Apple dice que no",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -460,6 +480,11 @@
     "estado": "listo",
     "cuando": "2026-10-25T15:51",
     "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
    }
   ]
  },
@@ -483,7 +508,7 @@
  {
   "slug": "008-aire-en-17",
   "tema": "Poner el aire en 17 grados no enfria mas rapido; por que se recomienda 24",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -499,13 +524,18 @@
     "estado": "listo",
     "cuando": "2026-10-25T05:52",
     "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
    }
   ]
  },
  {
   "slug": "009-ventilador-pieza-vacia",
   "tema": "El ventilador no enfria el ambiente: te enfria a vos",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -521,13 +551,18 @@
     "estado": "listo",
     "cuando": "2026-10-25T06:04",
     "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
    }
   ]
  },
  {
   "slug": "017-paradoja-cumpleanos",
   "tema": "¿Cuánta gente hace falta en una juntada para que dos cumplan el mismo día? (paradoja del cumpleaños)",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -543,13 +578,18 @@
     "estado": "listo",
     "cuando": "2026-10-26T16:43",
     "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
    }
   ]
  },
  {
   "slug": "021-heladera-parte-2",
   "tema": "Heladera parte 2: ¿tapo la comida? ¿cuántos días dura?",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -565,13 +605,18 @@
     "estado": "listo",
     "cuando": "2026-10-27T06:30",
     "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
    }
   ]
  },
  {
   "slug": "022-colectivo-de-a-dos",
   "tema": "¿Por qué el colectivo viene siempre de a dos? (apelotonamiento)",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -582,13 +627,18 @@
     "estado": "listo",
     "cuando": "2026-10-27T12:39",
     "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
    }
   ]
  },
  {
   "slug": "023-perros-colores",
   "tema": "¿Los perros ven en blanco y negro?",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -604,13 +654,18 @@
     "estado": "listo",
     "cuando": "2026-10-27T17:28",
     "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
    }
   ]
  },
  {
   "slug": "024-granizo-corto",
   "tema": "¿Por qué cae granizo justo cuando hace calor? (versión corta)",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -626,6 +681,11 @@
     "estado": "listo",
     "cuando": "2026-10-27T21:56",
     "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
    }
   ]
  }

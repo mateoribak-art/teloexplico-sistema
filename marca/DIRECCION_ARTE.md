@@ -14,8 +14,9 @@ el subtítulo, la portada y el cierre.
 5. **Mapas: `Mapa3D` con geografía real** (Natural Earth): `resaltar` levanta y pinta un país; `PaisFlotante` pone
    otro país a tamaño real encima para comparar. **Las Malvinas se pintan siempre con Argentina** (ya viene así en el kit).
    Prueba: still `tallerMapa`.
-6. **El 2D de cuaderno queda solo para temas que todavía no tienen piezas 3D** (cielo/nubes, el cuerpo por dentro) y la plantilla
-   del plan B. Aun así, valen las reglas 2–4.
+6. **TODO video publicado va en 3D (regla obligatoria de Mateo, 27/10).** El 2D de cuaderno ya no se publica (control.py lo rechaza)
+   y el plan B 2D quedó apagado.
+7. **Nada fijo todo el video.** Cada elemento (líneas, rótulos, cifras) entra cuando la voz lo nombra y se va cuando deja de importar.
 
 # Dirección de arte: "diagrama ilustrado" (desde el 24/10/2026)
 

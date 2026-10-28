@@ -1,0 +1,616 @@
+{
+ "duracion": 34.33,
+ "frases": [
+  {
+   "texto": "El mediodía en Argentina no es a las doce.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 0.0,
+     "fin": 0.18
+    },
+    {
+     "texto": "mediodía",
+     "inicio": 0.18,
+     "fin": 1.1
+    },
+    {
+     "texto": "en",
+     "inicio": 1.1,
+     "fin": 1.22
+    },
+    {
+     "texto": "Argentina",
+     "inicio": 1.22,
+     "fin": 1.66
+    },
+    {
+     "texto": "no",
+     "inicio": 1.66,
+     "fin": 2.42
+    },
+    {
+     "texto": "es",
+     "inicio": 2.42,
+     "fin": 2.62
+    },
+    {
+     "texto": "a",
+     "inicio": 2.62,
+     "fin": 2.72
+    },
+    {
+     "texto": "las",
+     "inicio": 2.72,
+     "fin": 2.82
+    },
+    {
+     "texto": "doce.",
+     "inicio": 2.82,
+     "fin": 3.18
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.18
+  },
+  {
+   "texto": "Para el sol, llega bastante más tarde.",
+   "palabras": [
+    {
+     "texto": "Para",
+     "inicio": 3.64,
+     "fin": 3.86
+    },
+    {
+     "texto": "el",
+     "inicio": 3.86,
+     "fin": 4.0
+    },
+    {
+     "texto": "sol,",
+     "inicio": 4.0,
+     "fin": 4.22
+    },
+    {
+     "texto": "llega",
+     "inicio": 4.48,
+     "fin": 4.86
+    },
+    {
+     "texto": "bastante",
+     "inicio": 4.86,
+     "fin": 5.36
+    },
+    {
+     "texto": "más",
+     "inicio": 5.36,
+     "fin": 5.54
+    },
+    {
+     "texto": "tarde.",
+     "inicio": 5.54,
+     "fin": 5.82
+    }
+   ],
+   "inicio": 3.64,
+   "fin": 5.82
+  },
+  {
+   "texto": "Nuestra hora oficial es la de una línea imaginaria que pasa por el mar, muy al este del país.",
+   "palabras": [
+    {
+     "texto": "Nuestra",
+     "inicio": 6.66,
+     "fin": 7.08
+    },
+    {
+     "texto": "hora",
+     "inicio": 7.08,
+     "fin": 7.28
+    },
+    {
+     "texto": "oficial",
+     "inicio": 7.28,
+     "fin": 7.76
+    },
+    {
+     "texto": "es",
+     "inicio": 7.76,
+     "fin": 8.22
+    },
+    {
+     "texto": "la",
+     "inicio": 8.22,
+     "fin": 8.32
+    },
+    {
+     "texto": "de",
+     "inicio": 8.32,
+     "fin": 8.44
+    },
+    {
+     "texto": "una",
+     "inicio": 8.44,
+     "fin": 8.58
+    },
+    {
+     "texto": "línea",
+     "inicio": 8.58,
+     "fin": 8.92
+    },
+    {
+     "texto": "imaginaria",
+     "inicio": 8.92,
+     "fin": 9.68
+    },
+    {
+     "texto": "que",
+     "inicio": 9.68,
+     "fin": 9.82
+    },
+    {
+     "texto": "pasa",
+     "inicio": 9.82,
+     "fin": 10.04
+    },
+    {
+     "texto": "por",
+     "inicio": 10.04,
+     "fin": 10.26
+    },
+    {
+     "texto": "el",
+     "inicio": 10.26,
+     "fin": 10.38
+    },
+    {
+     "texto": "mar,",
+     "inicio": 10.38,
+     "fin": 10.56
+    },
+    {
+     "texto": "muy",
+     "inicio": 11.0,
+     "fin": 11.5
+    },
+    {
+     "texto": "al",
+     "inicio": 11.5,
+     "fin": 11.76
+    },
+    {
+     "texto": "este",
+     "inicio": 11.76,
+     "fin": 11.94
+    },
+    {
+     "texto": "del",
+     "inicio": 11.94,
+     "fin": 12.1
+    },
+    {
+     "texto": "país.",
+     "inicio": 12.1,
+     "fin": 12.28
+    }
+   ],
+   "inicio": 6.66,
+   "fin": 12.28
+  },
+  {
+   "texto": "El sol cruza el país de este a oeste, y tarda más de una hora en llegar a la cordillera.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 12.9,
+     "fin": 13.06
+    },
+    {
+     "texto": "sol",
+     "inicio": 13.06,
+     "fin": 13.24
+    },
+    {
+     "texto": "cruza",
+     "inicio": 13.24,
+     "fin": 13.54
+    },
+    {
+     "texto": "el",
+     "inicio": 13.54,
+     "fin": 13.64
+    },
+    {
+     "texto": "país",
+     "inicio": 13.64,
+     "fin": 13.84
+    },
+    {
+     "texto": "de",
+     "inicio": 13.84,
+     "fin": 14.28
+    },
+    {
+     "texto": "este",
+     "inicio": 14.28,
+     "fin": 14.5
+    },
+    {
+     "texto": "a",
+     "inicio": 14.5,
+     "fin": 14.62
+    },
+    {
+     "texto": "oeste,",
+     "inicio": 14.62,
+     "fin": 14.94
+    },
+    {
+     "texto": "y",
+     "inicio": 15.58,
+     "fin": 15.64
+    },
+    {
+     "texto": "tarda",
+     "inicio": 15.64,
+     "fin": 15.9
+    },
+    {
+     "texto": "más",
+     "inicio": 15.9,
+     "fin": 16.18
+    },
+    {
+     "texto": "de",
+     "inicio": 16.18,
+     "fin": 16.32
+    },
+    {
+     "texto": "una",
+     "inicio": 16.32,
+     "fin": 16.46
+    },
+    {
+     "texto": "hora",
+     "inicio": 16.46,
+     "fin": 16.72
+    },
+    {
+     "texto": "en",
+     "inicio": 16.72,
+     "fin": 16.88
+    },
+    {
+     "texto": "llegar",
+     "inicio": 16.88,
+     "fin": 17.04
+    },
+    {
+     "texto": "a",
+     "inicio": 17.04,
+     "fin": 17.16
+    },
+    {
+     "texto": "la",
+     "inicio": 17.16,
+     "fin": 17.24
+    },
+    {
+     "texto": "cordillera.",
+     "inicio": 17.24,
+     "fin": 17.76
+    }
+   ],
+   "inicio": 12.9,
+   "fin": 17.76
+  },
+  {
+   "texto": "En Buenos Aires está en lo más alto entre las doce y media y la una.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 18.26,
+     "fin": 18.44
+    },
+    {
+     "texto": "Buenos",
+     "inicio": 18.44,
+     "fin": 18.58
+    },
+    {
+     "texto": "Aires",
+     "inicio": 18.58,
+     "fin": 18.8
+    },
+    {
+     "texto": "está",
+     "inicio": 18.8,
+     "fin": 19.08
+    },
+    {
+     "texto": "en",
+     "inicio": 19.08,
+     "fin": 19.18
+    },
+    {
+     "texto": "lo",
+     "inicio": 19.18,
+     "fin": 19.26
+    },
+    {
+     "texto": "más",
+     "inicio": 19.26,
+     "fin": 19.42
+    },
+    {
+     "texto": "alto",
+     "inicio": 19.42,
+     "fin": 19.7
+    },
+    {
+     "texto": "entre",
+     "inicio": 19.7,
+     "fin": 20.02
+    },
+    {
+     "texto": "las",
+     "inicio": 20.02,
+     "fin": 20.22
+    },
+    {
+     "texto": "doce",
+     "inicio": 20.22,
+     "fin": 20.5
+    },
+    {
+     "texto": "y",
+     "inicio": 20.5,
+     "fin": 20.64
+    },
+    {
+     "texto": "media",
+     "inicio": 20.64,
+     "fin": 21.0
+    },
+    {
+     "texto": "y",
+     "inicio": 21.0,
+     "fin": 21.26
+    },
+    {
+     "texto": "la",
+     "inicio": 21.26,
+     "fin": 21.4
+    },
+    {
+     "texto": "una.",
+     "inicio": 21.4,
+     "fin": 21.66
+    }
+   ],
+   "inicio": 18.26,
+   "fin": 21.66
+  },
+  {
+   "texto": "Y en Mendoza, cerca de la una y media.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 22.12,
+     "fin": 22.3
+    },
+    {
+     "texto": "en",
+     "inicio": 22.3,
+     "fin": 22.4
+    },
+    {
+     "texto": "Mendoza,",
+     "inicio": 22.4,
+     "fin": 22.8
+    },
+    {
+     "texto": "cerca",
+     "inicio": 23.14,
+     "fin": 23.34
+    },
+    {
+     "texto": "de",
+     "inicio": 23.34,
+     "fin": 23.52
+    },
+    {
+     "texto": "la",
+     "inicio": 23.52,
+     "fin": 23.62
+    },
+    {
+     "texto": "una",
+     "inicio": 23.62,
+     "fin": 23.78
+    },
+    {
+     "texto": "y",
+     "inicio": 23.78,
+     "fin": 23.9
+    },
+    {
+     "texto": "media.",
+     "inicio": 23.9,
+     "fin": 24.12
+    }
+   ],
+   "inicio": 22.12,
+   "fin": 24.12
+  },
+  {
+   "texto": "Ojo: el reloj no está mal. Es la hora que eligió el país, y el sol va a su ritmo.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 24.7,
+     "fin": 25.04
+    },
+    {
+     "texto": "el",
+     "inicio": 25.46,
+     "fin": 25.58
+    },
+    {
+     "texto": "reloj",
+     "inicio": 25.58,
+     "fin": 25.88
+    },
+    {
+     "texto": "no",
+     "inicio": 25.88,
+     "fin": 25.98
+    },
+    {
+     "texto": "está",
+     "inicio": 25.98,
+     "fin": 26.14
+    },
+    {
+     "texto": "mal.",
+     "inicio": 26.14,
+     "fin": 26.4
+    },
+    {
+     "texto": "Es",
+     "inicio": 26.86,
+     "fin": 27.02
+    },
+    {
+     "texto": "la",
+     "inicio": 27.02,
+     "fin": 27.12
+    },
+    {
+     "texto": "hora",
+     "inicio": 27.12,
+     "fin": 27.24
+    },
+    {
+     "texto": "que",
+     "inicio": 27.24,
+     "fin": 27.38
+    },
+    {
+     "texto": "eligió",
+     "inicio": 27.38,
+     "fin": 27.64
+    },
+    {
+     "texto": "el",
+     "inicio": 27.64,
+     "fin": 27.74
+    },
+    {
+     "texto": "país,",
+     "inicio": 27.74,
+     "fin": 27.98
+    },
+    {
+     "texto": "y",
+     "inicio": 28.56,
+     "fin": 28.64
+    },
+    {
+     "texto": "el",
+     "inicio": 28.64,
+     "fin": 28.76
+    },
+    {
+     "texto": "sol",
+     "inicio": 28.76,
+     "fin": 28.98
+    },
+    {
+     "texto": "va",
+     "inicio": 28.98,
+     "fin": 29.66
+    },
+    {
+     "texto": "a",
+     "inicio": 29.66,
+     "fin": 29.74
+    },
+    {
+     "texto": "su",
+     "inicio": 29.74,
+     "fin": 29.8
+    },
+    {
+     "texto": "ritmo.",
+     "inicio": 29.8,
+     "fin": 30.2
+    }
+   ],
+   "inicio": 24.7,
+   "fin": 30.2
+  },
+  {
+   "texto": "Mandáselo al que dice que almorzar a la una es tarde.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 31.02,
+     "fin": 31.48
+    },
+    {
+     "texto": "al",
+     "inicio": 31.48,
+     "fin": 31.88
+    },
+    {
+     "texto": "que",
+     "inicio": 31.88,
+     "fin": 32.02
+    },
+    {
+     "texto": "dice",
+     "inicio": 32.02,
+     "fin": 32.24
+    },
+    {
+     "texto": "que",
+     "inicio": 32.24,
+     "fin": 32.36
+    },
+    {
+     "texto": "almorzar",
+     "inicio": 32.36,
+     "fin": 32.78
+    },
+    {
+     "texto": "a",
+     "inicio": 32.78,
+     "fin": 32.9
+    },
+    {
+     "texto": "la",
+     "inicio": 32.9,
+     "fin": 32.96
+    },
+    {
+     "texto": "una",
+     "inicio": 32.96,
+     "fin": 33.2
+    },
+    {
+     "texto": "es",
+     "inicio": 33.2,
+     "fin": 33.72
+    },
+    {
+     "texto": "tarde.",
+     "inicio": 33.72,
+     "fin": 34.14
+    }
+   ],
+   "inicio": 31.02,
+   "fin": 34.14
+  }
+ ]
+}
