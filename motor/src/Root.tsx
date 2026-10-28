@@ -28,6 +28,7 @@ import { DURACION as DUR_019, FPS as FPS_019, Portada019, SensacionTermica019 } 
 import { DURACION as DUR_021, FPS as FPS_021, HeladeraParte2_021, Portada021 } from "./videos/021-heladera-parte-2/Video";
 import { DURACION as DUR_022, FPS as FPS_022, Colectivo022, Portada022 } from "./videos/022-colectivo-de-a-dos/Video";
 import { DURACION as DUR_020, FPS as FPS_020, PavaSeCorta3D, Portada020 } from "./videos/020-pava-se-corta/Video";
+import { DURACION as DUR_024, FPS as FPS_024, HoraCorrida3D } from "./videos/024-hora-corrida/Video";
 import { DURACION as DUR_023, FPS as FPS_023, PerrosColores023, Portada023 } from "./videos/023-perros-colores/Video";
 import { DURACION as DUR_024, FPS as FPS_024, GranizoCorto024, Portada024 } from "./videos/024-granizo-corto/Video";
 // @letmeexplain.us: slugs con "en-" (logo, cierre y serie salen solos en inglés: kit/cuenta.ts)
@@ -61,6 +62,7 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="h021-heladera-parte-2" component={HeladeraParte2_021} durationInFrames={DUR_021} fps={FPS_021} width={ANCHO} height={ALTO} />
         <Composition id="h022-colectivo-de-a-dos" component={Colectivo022} durationInFrames={DUR_022} fps={FPS_022} width={ANCHO} height={ALTO} />
         <Composition id="h020-pava-se-corta" component={PavaSeCorta3D} durationInFrames={DUR_020} fps={FPS_020} width={ANCHO} height={ALTO} />
+        <Composition id="h024-hora-corrida" component={HoraCorrida3D} durationInFrames={DUR_024} fps={FPS_024} width={ANCHO} height={ALTO} />
         <Composition id="h023-perros-colores" component={PerrosColores023} durationInFrames={DUR_023} fps={FPS_023} width={ANCHO} height={ALTO} />
         <Composition id="h024-granizo-corto" component={GranizoCorto024} durationInFrames={DUR_024} fps={FPS_024} width={ANCHO} height={ALTO} />
       </Folder>
