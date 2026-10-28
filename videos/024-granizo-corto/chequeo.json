@@ -1,0 +1,72 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Se verificaron con búsqueda web todas las afirmaciones fácticas del guion (9 frases) y del caption. Ninguna es falsa ni dudosa. Las cifras llevan su matiz: 'en las peores tormentas' para los 100 km/h (NOAA: updrafts de supercelda que pueden superar 100 mph = 160 km/h) y 'el más grande puede' para los 150 km/h (NSSL: granizo de más de 4 pulgadas puede caer a más de 100 mph = 160 km/h, con incertidumbre). 'Varios kilómetros de altura': no hay una fuente que dé una altura exacta de crecimiento, pero NWS JetStream ubica el tope de una tormenta madura en 12-18 km y la zona de crecimiento del granizo en -10 a -30 C (NWS Louisville), y el nivel de congelamiento favorable al granizo está por debajo de unos 3,4 km; 'varios km' con frío bajo cero queda dentro de eso y no es una cifra precisa. El consejo del auto bajo techo (seguridad/plata) está respaldado por Texas SORM/Travelers, Nationwide y Progressive (cochera o cobertizo es la mejor defensa); la frase lo da como consejo condicional ('si el cielo se pone negro con bochorno'). Observaciones menores no bloqueantes: (1) el caption atribuye las cifras al 'National Weather Service'; la de la caída del granizo sale de NSSL/NOAA y la de la corriente de NWS/NOAA JetStream, ambas dentro de NOAA y ambas listadas en las fuentes del caption. (2) NSSL aclara que las capas del granizo no vienen solo de un sube y baja simple, pero National Geographic Education describe el ciclo 'la gravedad los baja, la corriente los vuelve a subir' y la imagen de cebolla es de las dos fuentes. Se cumplen todas las reglas.",
+  "afirmaciones": [
+    {
+      "texto": "Cae granizo justo con un calor bárbaro. Parece imposible. (caption: no es un error del clima)",
+      "fuente": "NSSL/NOAA Severe Weather 101: Hail Basics (https://www.nssl.noaa.gov/education/svrwx101/hail/): el granizo se forma en corrientes ascendentes de tormentas convectivas, que se alimentan del calor de superficie",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Es al revés: el calor no lo frena, lo fabrica.",
+      "fuente": "NSSL/NOAA Hail Basics; NWS JetStream (https://www.noaa.gov/jetstream/hail): el calor en superficie alimenta la convección que arma las tormentas con granizo (la frase se completa con el matiz de la frase 7)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El sol calienta el piso y el aire caliente sube como un globo.",
+      "fuente": "National Weather Service / NOAA JetStream, ciclo de vida de una tormenta (https://www.weather.gov/jetstream/life): el aire cálido y húmedo asciende y forma la corriente ascendente",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Esa corriente lleva las gotas a varios kilómetros de altura, donde hay un frío bajo cero.",
+      "fuente": "NWS JetStream, ciclo de vida de una tormenta (topes de 12-18 km en tormentas maduras); NWS Louisville, tip sheet de tiempo severo (zona de crecimiento del granizo de -10 a -30 C); NSSL Hail Basics (las gotas suben a zonas extremadamente frías); National Geographic Education: Hail (https://education.nationalgeographic.org/resource/hail-ee/)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ahí se congelan, bajan, suman agua y suben otra vez, capa sobre capa, como una cebolla de hielo.",
+      "fuente": "National Geographic Education: Hail ('layered structure, like an onion'; la gravedad los baja y las corrientes los vuelven a subir, juntando agua sobreenfriada que se congela en capas nuevas); NSSL Hail Basics (capas claras y opacas según condiciones). Simplificación didáctica aceptable",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En las peores tormentas esa corriente pasa los cien kilómetros por hora.",
+      "fuente": "NOAA JetStream, tipos de tormentas (https://www.noaa.gov/jetstream/tstrmtypes): updrafts de supercelda 'can attain speeds of over 100 mph (160 km/h)'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El granizo más grande puede caer a más de ciento cincuenta (km/h).",
+      "fuente": "NSSL/NOAA Hail Basics (https://www.nssl.noaa.gov/education/svrwx101/hail/): granizo de más de 4 pulgadas 'can fall at over 100 mph' (unos 160 km/h), con incertidumbre; 2-4 pulgadas, 44-72 mph. Coincide NWS vía divulgación secundaria. Frase con 'el más grande' y 'puede'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: el calor solo no alcanza. También tiene que haber aire muy frío allá arriba. (caption: por eso no cae con cada día caluroso)",
+      "fuente": "NSSL/NOAA Hail Basics: el granizo necesita aire extremadamente frío en altura; NWS Louisville (zona de crecimiento -10 a -30 C)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si el cielo se pone negro con bochorno, ya sabés: el auto bajo techo. (consejo de seguridad y plata)",
+      "fuente": "Texas SORM / Travelers, Hail protection, preparation, response and recovery (https://www.sorm.state.tx.us/wp-content/uploads/2020/03/Travelers-hail-preparedness.pdf): mover los vehículos a cocheras o cobertizos cuando se prevé granizo; Nationwide (https://www.nationwide.com/lc/resources/emergency-preparedness/articles/hail) y Progressive (https://www.progressive.com/answers/how-to-protect-car-from-hail/): cochera o carport es la mejor protección",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes citadas en el caption: NSSL/NOAA (Hail Basics), National Weather Service (EE.UU.), National Geographic Education; cifras de 100 y 150 km/h atribuidas a NWS",
+      "fuente": "Las tres fuentes existen y contienen lo atribuido (NSSL para caída del granizo, NOAA/NWS JetStream para la corriente, NatGeo para las capas). La atribución a 'National Weather Service' es aceptable porque JetStream es de NWS y NSSL es parte de NOAA",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mandáselo al que mira por la ventana y grita '¿granizo con este calor?' / ¿Cuál fue el granizo más grande que viste? / serie 'El clima explicado #6'",
+      "fuente": "sin fuente primaria: llamado a la acción y pregunta, no afirmaciones fácticas",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

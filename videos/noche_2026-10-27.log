@@ -31,3 +31,9 @@ Uso: 25 pasos · 29,309 tokens nuevos · 1,318,164 de caché · 18,497 escritos 
 `army-bomb`: quedó listo (9 placas, control OK, origen `006-army-bomb`).
 Uso: 23 pasos · 29,611 tokens nuevos · 371,171 de caché · 3,962 escritos · equivale a US$ 0.20 de API
 2026-10-27 17:29 Termina el carrusel (ok; quedan 2 listos).
+2026-10-27 21:46 Arranca la producción (12 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo:** `024-granizo-corto` (serie clima #6), una versión corta del granizo con calor (50 s). El chequeo lo aprobó un subagente a la primera, y `tsc`, el render y el control dieron OK.
+- **Apartados o incompletos:** ninguno. Quedan 12 videos listos en cola, así que no hice un segundo video. Del radar de hoy no salió ningún tema nuevo.
+- **A tener en cuenta:** la voz dura 49,5 s, más que el rango de 30–45 s del skill. El chequeo de "varios kilómetros de altura" y del consejo del auto se apoya en NOAA y NWS, en la guía de seguros de Texas (Texas SORM) y en aseguradoras. No encontró una fuente oficial que dé la altura exacta.
+Uso: 47 pasos · 79,421 tokens nuevos · 1,411,041 de caché · 20,278 escritos · equivale a US$ 0.88 de API
+2026-10-27 21:56 Termina la producción (ok).

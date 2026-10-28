@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T21:34",
+ "actualizado": "2026-10-27T22:06",
  "oficinas": [
   {
    "clave": "es",
@@ -7,8 +7,8 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 235,
-   "listos": 12,
-   "dias": 6.0,
+   "listos": 13,
+   "dias": 6.5,
    "proximo": "012-lavar-pollo",
    "publicados": 8,
    "pausa": false,
@@ -108,22 +108,16 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-10-27T17:29",
-     "hace": "hace 4 h",
+     "cuando": "2026-10-27T21:56",
+     "hace": "hace 10 min",
      "detalle": [
-      "Uso: 25 pasos · 29,309 tokens nuevos · 1,318,164 de caché · 18,497 escritos · equivale a US$ 1.26 de API",
-      "2026-10-27 17:17 Arranca la producción (13 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
-      "Terminé. Dejo el resumen.",
-      "- **Listo:** `023-perros-colores` (¿Los perros ven en blanco y negro?, serie Ciencia cotidiana #1, 37,8 s). El chequeo lo rechazó una vez por la frase de la pelota azul o amarilla, que era una inferencia sin matiz. La reescribí con \"debería",
-      "- **Apartados o incompletos:** ninguno. Descarté la idea de nieve en primavera porque no encontré una alerta del SMN de octubre de 2026 ni un dato con número; solo estaba el mecanismo de la isoterma cero, con fuentes chilenas.",
-      "- **Segundo video:** no lo hice. La cola ya tiene más de 14 listos, así que no se cumplía la condición de menos de 10.",
-      "Ya registré la corrida en `videos/produccion.log`.",
-      "Uso: 25 pasos · 29,309 tokens nuevos · 1,318,164 de caché · 18,497 escritos · equivale a US$ 1.26 de API",
-      "2026-10-27 17:28 Termina la producción (ok).",
-      "2026-10-27 17:28 Arranca el carrusel (1 listos, meta 2).",
-      "`army-bomb`: quedó listo (9 placas, control OK, origen `006-army-bomb`).",
-      "Uso: 23 pasos · 29,611 tokens nuevos · 371,171 de caché · 3,962 escritos · equivale a US$ 0.20 de API",
-      "2026-10-27 17:29 Termina el carrusel (ok; quedan 2 listos)."
+      "Uso: 47 pasos · 79,421 tokens nuevos · 1,411,041 de caché · 20,278 escritos · equivale a US$ 0.88 de API",
+      "2026-10-27 21:46 Arranca la producción (12 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
+      "- **Listo:** `024-granizo-corto` (serie clima #6), una versión corta del granizo con calor (50 s). El chequeo lo aprobó un subagente a la primera, y `tsc`, el render y el control dieron OK.",
+      "- **Apartados o incompletos:** ninguno. Quedan 12 videos listos en cola, así que no hice un segundo video. Del radar de hoy no salió ningún tema nuevo.",
+      "- **A tener en cuenta:** la voz dura 49,5 s, más que el rango de 30–45 s del skill. El chequeo de \"varios kilómetros de altura\" y del consejo del auto se apoya en NOAA y NWS, en la guía de seguros de Texas (Texas SORM) y en aseguradoras. No",
+      "Uso: 47 pasos · 79,421 tokens nuevos · 1,411,041 de caché · 20,278 escritos · equivale a US$ 0.88 de API",
+      "2026-10-27 21:56 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -180,17 +174,17 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-10-27T19:32",
-     "hace": "hace 2 h",
+     "cuando": "2026-10-27T21:56",
+     "hace": "hace 10 min",
      "detalle": [
-      "014-celular-arroz: aprobado — Todas las afirmaciones fácticas (pasos, cifras, prohibiciones y la cita sobre el arroz) están en la página de Apple Support 102643 y se cote",
       "020-pava-se-corta: aprobado — Versión final del guion, recortada y sin John Taylor. Las 9 frases están verificadas con fuentes y tienen el matiz correcto. Lo de seguridad",
       "008-aire-en-17: aprobado — Todas las afirmaciones factuales estan verificadas con fuentes oficiales argentinas (Secretaria de Energia de la Nacion y ENRE) y fuentes te",
       "009-ventilador-pieza-vacia: aprobado — Todas las afirmaciones quedan verificadas o son consejos/humor sin dato duro. La atribución al Departamento de Energía se sostiene: la guía ",
       "017-paradoja-cumpleanos: aprobado — Las 8 afirmaciones fácticas están verificadas con fuente (Wikipedia 'Birthday problem' con su tabla y el cálculo de 253 parejas; Harvey Mudd",
       "021-heladera-parte-2: aprobado — Todas las afirmaciones fácticas (salud/seguridad) están verificadas contra la página primaria del USDA FSIS 'Leftovers and Food Safety'. Nin",
       "022-colectivo-de-a-dos: aprobado — Todas las afirmaciones fácticas están verificadas con fuentes académicas o institucionales; ninguna es falsa ni dudosa, y no hay cifras de s",
-      "023-perros-colores: aprobado — Todas las afirmaciones de salud/seguridad/plata: ninguna presente. Las afirmaciones centrales (conos, azul/amarillo, rojo/verde, comparación"
+      "023-perros-colores: aprobado — Todas las afirmaciones de salud/seguridad/plata: ninguna presente. Las afirmaciones centrales (conos, azul/amarillo, rojo/verde, comparación",
+      "024-granizo-corto: aprobado — Se verificaron con búsqueda web todas las afirmaciones fácticas del guion (9 frases) y del caption. Ninguna es falsa ni dudosa. Las cifras l"
      ],
      "tareas": [],
      "arreglo": null,
@@ -213,8 +207,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-10-27T19:32",
-     "hace": "hace 2 h",
+     "cuando": "2026-10-27T21:56",
+     "hace": "hace 10 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -236,14 +230,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-10-27 19:32.",
-     "cuando": "2026-10-27T19:32",
-     "hace": "hace 2 h",
+     "resumen": "Último video terminado: 2026-10-27 21:56.",
+     "cuando": "2026-10-27T21:56",
+     "hace": "hace 10 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "5e105e8550a8"
+     "firma": "aae7aad33abb"
     },
     {
      "id": "control",
@@ -261,8 +255,8 @@
      },
      "estado": "aviso",
      "resumen": "Apartó 1 video(s) en las últimas 48 h.",
-     "cuando": "2026-10-27T19:32",
-     "hace": "hace 2 h",
+     "cuando": "2026-10-27T21:56",
+     "hace": "hace 10 min",
      "detalle": [],
      "tareas": [
       "005-granizo-calor: tema de actualidad vencido (más de 48 h)"
@@ -391,7 +385,7 @@
      "estado": "ok",
      "resumen": "(sesión con Mateo): 14 respondidos, 3 salteados, 1 alerta",
      "cuando": "2026-10-26T21:56",
-     "hace": "hace 23 h",
+     "hace": "hace 24 h",
      "detalle": [
       "25/10 17:18 Termina la respuesta de comentarios (ok).",
       "26/10 02:50 Hay 5 comentarios nuevos: arranca la respuesta.",
@@ -460,7 +454,7 @@
      },
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo se apartó solo por vencido; no cambié nada.",
-     "cuando": "2026-10-27T21:34",
+     "cuando": "2026-10-27T22:06",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 005-granizo-calor — tema de actualidad vencido (más de 48 h)"
@@ -502,8 +496,8 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": null,
-   "listos": 1,
-   "dias": 0.5,
+   "listos": 2,
+   "dias": 1.0,
    "proximo": "en-003-fridge-leftovers",
    "publicados": 2,
    "pausa": false,
@@ -526,6 +520,13 @@
      "tema": "Do leftovers need to cool before the fridge? (adapted from 001)",
      "estado": "listo",
      "cuando": "2026-10-27T17:39",
+     "motivo": "producción nocturna"
+    },
+    {
+     "slug": "en-004-sugar-hyper",
+     "tema": "Does sugar make kids hyper? (Halloween)",
+     "estado": "listo",
+     "cuando": "2026-10-27T22:06",
      "motivo": "producción nocturna"
     },
     {
@@ -560,16 +561,16 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-10-27T17:39",
-     "hace": "hace 3 h",
+     "cuando": "2026-10-27T22:06",
+     "hace": "recién",
      "detalle": [
-      "Uso: 17 pasos · 13,404 tokens nuevos · 977,132 de caché · 2,458 escritos · equivale a US$ 0.96 de API",
-      "2026-10-27 17:29 Arranca la producción (1 listos en la cola, meta 6).",
-      "- **Listo:** `en-003-fridge-leftovers`, adaptado de `001-heladera`: \"¿Hay que dejar enfriar la comida antes de la heladera?\", serie Kitchen myths #1. Dura 42,5 s y el render y el control salieron OK.",
-      "- **Chequeo:** el primer chequeo lo rechazó porque el origen del mito (las iceboxes) estaba dicho como hecho y solo es probable. Lo reescribí con \"Probably…\" y \"likely…\" y un subagente nuevo lo aprobó. Las cifras son de USDA FSIS (40–140 °F",
-      "- **Apartados o incompletos:** ninguno. Quedó anotado en `videos/en/produccion.log`, la idea quedó marcada como usada en `videos/en/ideas.md` y la cola lo tiene en `listo`.",
-      "Uso: 17 pasos · 13,404 tokens nuevos · 977,132 de caché · 2,458 escritos · equivale a US$ 0.96 de API",
-      "2026-10-27 17:39 Termina la producción (ok)."
+      "Uso: 26 pasos · 26,484 tokens nuevos · 926,947 de caché · 12,672 escritos · equivale a US$ 0.93 de API",
+      "2026-10-27 21:57 Arranca la producción (1 listos en la cola, meta 6).",
+      "- **Listo:** `en-004-sugar-hyper` (\"Does sugar make kids hyper?\", propio, serie Body myths #1). Pasó el chequeo en el segundo intento, el render (38,6 s) y `tlx control` dio OK. Está en la cola como `listo`.",
+      "- **Apartados o incompletos:** ninguno. El primer chequeo rechazó la frase \"blame the party\". Quedó como \"if they're wild, it's probably the party, not the candy\", y la segunda pasada aprobó 8 afirmaciones verificadas y 1 probable.",
+      "- **Pendiente:** el caption dice Halloween, así que hay que publicarlo antes del 31/10. El chequeo no pudo leer el texto completo del estudio JAMA 1995, y los autores no descartan un efecto muy chico en algún subgrupo. El guion dice \"no eff",
+      "Uso: 26 pasos · 26,484 tokens nuevos · 926,947 de caché · 12,672 escritos · equivale a US$ 0.93 de API",
+      "2026-10-27 22:06 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -620,18 +621,19 @@
       }
      },
      "estado": "ok",
-     "resumen": "Aprobó 3 de los últimos 3 guiones.",
-     "cuando": "2026-10-27T20:09",
-     "hace": "hace 1 h",
+     "resumen": "Aprobó 4 de los últimos 4 guiones.",
+     "cuando": "2026-10-27T22:06",
+     "hace": "recién",
      "detalle": [
       "en-001-phone-rice: aprobado — Chequeado el 27/10/2026 contra la página de Apple Support (support.apple.com/en-us/102643, 'If you see a liquid-detection alert on your iPho",
       "en-002-dst-farmers: aprobado — Todas las afirmaciones fácticas tienen fuente (National Archives, History.com, Library of Congress, U.S. DOT/CRS) y las fechas coinciden. No",
-      "en-003-fridge-leftovers: aprobado — Texto actual revisado. Todas las cifras y unidades coinciden con USDA FSIS (Danger Zone 40-140 °F, duplicacion en 'as little as 20 minutes',"
+      "en-003-fridge-leftovers: aprobado — Texto actual revisado. Todas las cifras y unidades coinciden con USDA FSIS (Danger Zone 40-140 °F, duplicacion en 'as little as 20 minutes',",
+      "en-004-sugar-hyper: aprobado — Las afirmaciones de salud (sin efecto del azucar en la conducta infantil, caries) estan verificadas con fuentes primarias/secundarias consis"
      ],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "60db94d3459c"
+     "firma": "2a3d357b0e30"
     },
     {
      "id": "voz",
@@ -649,8 +651,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-10-27T20:09",
-     "hace": "hace 1 h",
+     "cuando": "2026-10-27T22:06",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -672,14 +674,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-10-27 20:09.",
-     "cuando": "2026-10-27T20:09",
-     "hace": "hace 1 h",
+     "resumen": "Último video terminado: 2026-10-27 22:06.",
+     "cuando": "2026-10-27T22:06",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "2952ff9535ee"
+     "firma": "2ad6fa484aa7"
     },
     {
      "id": "control",
@@ -696,14 +698,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "1 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-10-27T20:09",
-     "hace": "hace 1 h",
+     "resumen": "2 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-10-27T22:06",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "ede091eebd83"
+     "firma": "e22b4a017672"
     },
     {
      "id": "publicador",
@@ -831,17 +833,17 @@
        "modo": "vigilar"
       }
      },
-     "estado": "ok",
-     "resumen": "Revisado por el técnico: Walt avisó que quedaba 1 video en inglés; no cambié nada porque la cuenta recién arrancó.",
-     "cuando": "2026-10-27T21:34",
+     "estado": "aviso",
+     "resumen": "Quedan 2 videos listos: alcanza para 1 día(s).",
+     "cuando": "2026-10-27T22:06",
      "hace": "recién",
      "detalle": [
-      "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s)."
+      "⚠️ Quedan 2 videos listos: alcanza para 1 día(s)."
      ],
      "tareas": [],
      "arreglo": null,
      "solo": true,
-     "firma": "d68cc7d78ae0"
+     "firma": "c7e4a58c48cc"
     }
    ]
   }

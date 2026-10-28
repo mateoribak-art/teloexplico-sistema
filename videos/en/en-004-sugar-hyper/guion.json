@@ -1,0 +1,20 @@
+{
+  "titulo": "Does sugar make kids hyper?",
+  "fuentes": [
+    "Wolraich, Wilson & White (1995), JAMA 274(20):1617-1621: meta-analysis of double-blind, placebo-controlled studies; sugar did not affect children's behavior or cognition",
+    "Hoover & Milich (1994), Journal of Abnormal Child Psychology: mothers told their sons had sugar (all got a sugar-free placebo) rated them as more hyperactive",
+    "American Dental Association: sugary foods and drinks and tooth decay"
+  ],
+  "frases": [
+    {"texto": "You think sugar makes kids bounce off the walls.", "estilo": "Intrigue, like you're about to share a secret."},
+    {"texto": "That's a myth.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "In double-blind studies, nobody knew who got real sugar and who got a fake.", "estilo": "Explaining it clearly."},
+    {"texto": "A big review in the journal JAMA, in nineteen ninety-five, found no effect on kids' behavior.", "estilo": "Emphatic, like revealing something startling."},
+    {"texto": "So why does it look so real?", "estilo": "Curious, conversational."},
+    {"texto": "In one study, moms were told their sons had sugar, and they rated them as more hyper.", "estilo": "Telling a friend, with a grin."},
+    {"texto": "But every kid had gotten a sugar-free placebo.", "estilo": "Dry, with a half smile."},
+    {"texto": "Heads up: this is about behavior. Candy can still be rough on teeth.", "estilo": "Friendly warning."},
+    {"texto": "So this Halloween, if they're wild, it's probably the party, not the candy.", "estilo": "Cool and practical."},
+    {"texto": "Send this to the friend who says, no candy, they'll go crazy.", "estilo": "Playful, with humor."}
+  ]
+}

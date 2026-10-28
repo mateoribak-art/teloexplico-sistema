@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Las afirmaciones de salud (sin efecto del azucar en la conducta infantil, caries) estan verificadas con fuentes primarias/secundarias consistentes. El estudio de Hoover & Milich esta bien descripto (madres a quienes se les dijo que sus hijos varones tomaron azucar, todos recibieron placebo). La unica inferencia (la fiesta, no el dulce) esta presentada como probable ('probably'), sin afirmarla como hecho. Ninguna afirmacion falsa. Salvedad menor: los autores de Wolraich no descartan un efecto muy pequeno en una minoria; 'no effect on kids' behavior' resume la conclusion del metaanalisis y es aceptable para un reel, pero no se debe endurecer mas.",
+  "afirmaciones": [
+    {
+      "texto": "You think sugar makes kids bounce off the walls. / That's a myth.",
+      "fuente": "Wolraich, Wilson & White 1995, JAMA 274(20):1617-1621 (metaanalisis de ensayos doble ciego con placebo: el azucar no afecta la conducta ni la cognicion de los ninos); resumenes en Wing Institute, Live Science, PopSci",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "In double-blind studies, nobody knew who got real sugar and who got a fake. / Researchers pooled double-blind studies.",
+      "fuente": "Wolraich et al. 1995 (23 experimentos doble ciego, azucar vs placebo, generalmente aspartamo o sacarina)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "A big review in the journal JAMA, in nineteen ninety-five, found no effect on kids' behavior.",
+      "fuente": "JAMA 1995;274(20):1617-1621, https://jamanetwork.com/journals/jama/article-abstract/397955 (revista, ano y conclusion confirmados; el texto completo no se pudo leer, se uso el abstract y resumenes secundarios)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "In one study, moms were told their sons had sugar, and they rated them as more hyper.",
+      "fuente": "Hoover & Milich 1994, J Abnormal Child Psychology 22:501-515 (uknowledge.uky.edu/psychology_facpub/13): madres con expectativa de azucar calificaron a sus hijos como significativamente mas hiperactivos",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "But every kid had gotten a sugar-free placebo. / Every kid had actually gotten a sugar-free placebo.",
+      "fuente": "Hoover & Milich 1994: todos los ninos recibieron placebo (aspartamo)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: this is about behavior. Candy can still be rough on teeth.",
+      "fuente": "American Dental Association: los azucares alimentan bacterias que producen acido que ataca el esmalte; una dieta constante de comidas y bebidas azucaradas puede danar los dientes (adanews.ada.org, ADA a HHS feb 2025)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "So this Halloween, if they're wild, it's probably the party, not the candy.",
+      "fuente": "Inferencia razonable a partir de Wolraich 1995 (sin efecto del azucar) y Hoover & Milich 1994 (efecto de la expectativa); ninguna fuente mide directamente fiestas de Halloween",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Send this to the friend who says, no candy, they'll go crazy. / Did your kid ever 'crash' after candy? Yes or no?",
+      "fuente": "No es afirmacion factica (llamada a la accion y pregunta)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sources: Wolraich, Wilson & White, JAMA 1995; Hoover & Milich, Journal of Abnormal Child Psychology 1994; American Dental Association.",
+      "fuente": "Las tres fuentes existen y contienen lo atribuido (ver arriba)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

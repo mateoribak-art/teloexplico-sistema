@@ -606,5 +606,27 @@
     "motivo": "producción nocturna"
    }
   ]
+ },
+ {
+  "slug": "024-granizo-corto",
+  "tema": "¿Por qué cae granizo justo cuando hace calor? (versión corta)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-27T21:46",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-27T21:46",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T21:56",
+    "motivo": "producción nocturna"
+   }
+  ]
  }
 ]

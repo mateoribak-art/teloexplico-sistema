@@ -12,3 +12,9 @@ Permisos negados (1):
 - **Apartados o incompletos:** ninguno. Quedó anotado en `videos/en/produccion.log`, la idea quedó marcada como usada en `videos/en/ideas.md` y la cola lo tiene en `listo`.
 Uso: 17 pasos · 13,404 tokens nuevos · 977,132 de caché · 2,458 escritos · equivale a US$ 0.96 de API
 2026-10-27 17:39 Termina la producción (ok).
+2026-10-27 21:57 Arranca la producción (1 listos en la cola, meta 6).
+- **Listo:** `en-004-sugar-hyper` ("Does sugar make kids hyper?", propio, serie Body myths #1). Pasó el chequeo en el segundo intento, el render (38,6 s) y `tlx control` dio OK. Está en la cola como `listo`.
+- **Apartados o incompletos:** ninguno. El primer chequeo rechazó la frase "blame the party". Quedó como "if they're wild, it's probably the party, not the candy", y la segunda pasada aprobó 8 afirmaciones verificadas y 1 probable.
+- **Pendiente:** el caption dice Halloween, así que hay que publicarlo antes del 31/10. El chequeo no pudo leer el texto completo del estudio JAMA 1995, y los autores no descartan un efecto muy chico en algún subgrupo. El guion dice "no effect on kids' behavior" y el chequeo lo dio por válido.
+Uso: 26 pasos · 26,484 tokens nuevos · 926,947 de caché · 12,672 escritos · equivale a US$ 0.93 de API
+2026-10-27 22:06 Termina la producción (ok).

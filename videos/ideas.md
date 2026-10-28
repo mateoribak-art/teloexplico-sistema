@@ -20,7 +20,7 @@ Cada sección dice a qué serie van sus videos (`tlx serie asignar <slug> <serie
   (30–45 s, una idea, un dato; momento cotidiano + "¿por qué?" contraintuitivo)
 - [ ] (sin serie: actualidad) ¿Qué significa el "6-7" que hacen todos los pibes? (viral: lo hizo hasta el Presidente en el balcón el 26/10; NADA de política: solo el origen del meme, verificado: canción, básquet, por qué se contagia). Cierre: "mandáselo a tu viejo que no entiende nada".
   (30–45 s, una idea, un dato; momento cotidiano + "¿por qué?" contraintuitivo)
-- [ ] (serie: clima) Granizo con calor, VERSIÓN CORTA (rehacer el 005, que quedó apartado por un falso rechazo del control): alertas naranja por granizo en 9 provincias (22/10). Reusar su chequeo.
+- [usada → 024-granizo-corto] (serie: clima) Granizo con calor, VERSIÓN CORTA (rehacer el 005, que quedó apartado por un falso rechazo del control): alertas naranja por granizo en 9 provincias (22/10). Reusar su chequeo.
   (30–45 s, una idea, un dato; momento cotidiano + "¿por qué?" contraintuitivo)
 
 ## Argentina en datos — serie: argentina (desde 27/10, por la auditoría de @miravosarg: su reel de mapas comparando tamaños hizo 1,1 M; NO repetir sus temas: tamaño de Buenos Aires vs Italia, Malvinas, fernet, Río de la Plata)

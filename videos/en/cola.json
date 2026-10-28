@@ -81,5 +81,27 @@
     "motivo": "producción nocturna"
    }
   ]
+ },
+ {
+  "slug": "en-004-sugar-hyper",
+  "tema": "Does sugar make kids hyper? (Halloween)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-27T21:57",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-27T21:57",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T22:06",
+    "motivo": "producción nocturna"
+   }
+  ]
  }
 ]

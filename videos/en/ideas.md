@@ -49,7 +49,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 ## Temas de EE. UU. — serie: cuerpo (Body myths)
 - [ ] Does cracking your knuckles cause arthritis? (estudios)
 - [ ] Do you lose most of your heat through your head? (myth)
-- [ ] Does sugar make kids hyper? (estudios doble ciego) — Halloween
+- [usada → en-004-sugar-hyper] Does sugar make kids hyper? (estudios doble ciego) — Halloween
 - [ ] Does swallowed gum stay in your stomach for 7 years?
 
 ## Temas de EE. UU. — serie: mate (Everyday math)

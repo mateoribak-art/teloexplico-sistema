@@ -1,0 +1,19 @@
+{
+  "titulo": "¿Por qué cae granizo justo cuando hace calor?",
+  "fuentes": [
+    "NSSL/NOAA: Severe Weather 101, Hail Basics",
+    "National Weather Service (NOAA, EE.UU.): tipos de tormentas",
+    "National Geographic Education: Hail"
+  ],
+  "frases": [
+    { "texto": "Cae granizo justo con un calor bárbaro. Parece imposible.", "estilo": "Intriga, como arrancando una charla." },
+    { "texto": "Es al revés: el calor no lo frena, lo fabrica.", "estilo": "Golpe, seco y contundente, con media sonrisa." },
+    { "texto": "El sol calienta el piso y el aire caliente sube como un globo.", "estilo": "Explicativo, tranquilo." },
+    { "texto": "Esa corriente lleva las gotas a varios kilómetros de altura, donde hay un frío bajo cero.", "estilo": "Sigue el relato, con energía." },
+    { "texto": "Ahí se congelan, bajan, suman agua y suben otra vez, capa sobre capa, como una cebolla de hielo.", "estilo": "Con gracia, imagen divertida." },
+    { "texto": "En las peores tormentas esa corriente pasa los cien kilómetros por hora. El granizo más grande puede caer a más de ciento cincuenta.", "estilo": "Dato, firme y con asombro." },
+    { "texto": "Ojo: el calor solo no alcanza. También tiene que haber aire muy frío allá arriba.", "estilo": "Matiz honesto, baja un cambio." },
+    { "texto": "Si el cielo se pone negro con bochorno, ya sabés: el auto bajo techo.", "estilo": "Consejo práctico, canchero." },
+    { "texto": "Mandáselo al que mira por la ventana y grita: ¿granizo con este calor?", "estilo": "Cierre cómplice, con humor argentino." }
+  ]
+}
