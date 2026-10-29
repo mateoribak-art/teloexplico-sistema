@@ -137,7 +137,7 @@
  {
   "slug": "en-005-fridge-part-2",
   "tema": "Fridge part 2: cover leftovers? how many days? (adapted from 021)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -153,6 +153,11 @@
     "estado": "listo",
     "cuando": "2026-10-28T07:15",
     "motivo": "producción nocturna"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-29T19:34",
+    "motivo": "https://www.instagram.com/reel/DfGF09oAG5n/"
    }
   ]
  },
