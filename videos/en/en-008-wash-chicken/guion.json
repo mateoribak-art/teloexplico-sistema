@@ -1,20 +1,49 @@
 {
-  "titulo": "Should you rinse raw chicken before cooking it?",
-  "fuentes": [
-    "CDC: raw chicken doesn't need to be washed; cook to 165 °F; wash hands with soap and water",
-    "USDA FSIS / NC State study of 300 home cooks in test kitchens (J Food Prot 2022)"
-  ],
-  "frases": [
-    {"texto": "You rinse your raw chicken before cooking it.", "estilo": "Casual, like stating something obvious."},
-    {"texto": "That's backwards.", "estilo": "Dry and punchy, with a half smile."},
-    {"texto": "Water doesn't kill the bacteria. It can just spread them.", "estilo": "Clear and firm."},
-    {"texto": "The CDC says rinsing can spread germs to your sink, your counter, and other food.", "estilo": "Explaining, simple."},
-    {"texto": "A USDA-backed study put about three hundred people in test kitchens.", "estilo": "Firm, citing the source."},
-    {"texto": "Of those who washed their chicken, six in ten had bacteria in the sink afterward.", "estilo": "Surprised."},
-    {"texto": "And bacteria in the sink can end up on whatever you touch next.", "estilo": "Wary, matter of fact."},
-    {"texto": "Cooking is what kills them: chicken needs to hit one hundred sixty-five degrees inside.", "estilo": "Serious, practical."},
-    {"texto": "Heads up: wash your hands with soap and water after touching raw chicken.", "estilo": "Warm, with the caveat."},
-    {"texto": "Skip the rinse, cook it, done.", "estilo": "Practical, friendly."},
-    {"texto": "Send this to the friend who rinses chicken like they're giving it a bath.", "estilo": "Playful, with humor."}
-  ]
+ "titulo": "Should you rinse raw chicken before cooking it?",
+ "fuentes": [
+  "CDC: raw chicken doesn't need to be washed; cook to 165 °F; wash hands with soap and water",
+  "USDA FSIS / NC State study of 300 home cooks in test kitchens (J Food Prot 2022)"
+ ],
+ "frases": [
+  {
+   "texto": "You rinse your raw chicken before cooking it.",
+   "estilo": "Casual, like stating something obvious."
+  },
+  {
+   "texto": "That's backwards.",
+   "estilo": "Dry and punchy, with a half smile."
+  },
+  {
+   "texto": "Water doesn't kill the bacteria. It can just spread them.",
+   "estilo": "Clear and firm."
+  },
+  {
+   "texto": "The CDC says rinsing can spread germs to your sink, your counter, and other food.",
+   "estilo": "Explaining, simple."
+  },
+  {
+   "texto": "A USDA-backed study put about three hundred people in test kitchens.",
+   "estilo": "Firm, citing the source."
+  },
+  {
+   "texto": "Of those who washed their chicken, six in ten had bacteria in the sink afterward.",
+   "estilo": "Surprised."
+  },
+  {
+   "texto": "Cooking is what kills them: chicken needs to hit one hundred sixty-five degrees inside.",
+   "estilo": "Serious, practical."
+  },
+  {
+   "texto": "Heads up: wash your hands with soap and water after touching raw chicken.",
+   "estilo": "Warm, with the caveat."
+  },
+  {
+   "texto": "Skip the rinse, cook it, done.",
+   "estilo": "Practical, friendly."
+  },
+  {
+   "texto": "Send this to the friend who rinses chicken like they're giving it a bath.",
+   "estilo": "Playful, with humor."
+  }
+ ]
 }

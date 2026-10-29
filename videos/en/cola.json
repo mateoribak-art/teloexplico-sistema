@@ -223,7 +223,7 @@
  {
   "slug": "en-008-wash-chicken",
   "tema": "Should you rinse raw chicken? (adapted from 012)",
-  "estado": "apartado",
+  "estado": "produccion",
   "historial": [
    {
     "estado": "idea",
@@ -239,6 +239,11 @@
     "estado": "apartado",
     "cuando": "2026-10-28T23:29",
     "motivo": "chequeo rechazado 2 veces: la frase 'bacteria in the sink can end up on whatever you touch next' (seguridad) solo llega a probable"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-29T01:30",
+    "motivo": "29/10: se quitó la frase no verificable (bacteria de la pileta a lo que se toca); falta chequeo, voz y render"
    }
   ]
  },
