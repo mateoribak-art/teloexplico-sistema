@@ -119,5 +119,21 @@
   "titulo": "Claude no pudo trabajar ahora",
   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
   "actualizado": "2026-10-28T14:14"
+ },
+ {
+  "id": "mvswmo1x-voz",
+  "creado": "2026-10-28T23:23",
+  "empleado": "en/voz",
+  "estado": "aplicado",
+  "auto": false,
+  "problema": "En la oficina de Nueva York (@letmeexplain.us), Leo (Locutor) está en \"ojo\": La voz no coincidió con el guion en en-006-five-second-rule.\nLo que sugiere la oficina: Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.\nTareas:\nen-006-five-second-rule: render/control: od, the more it picked up. Watermelon was the worst, gummy candy the least. The floor mattered too. Carpet passed on far less than tile or steel\n\nRevisalo en C:\\Users\\Mateo\\teloexplico (sistema de teloexplico / letmeexplain) y arreglalo.",
+  "firma": "8180f7f4f7d4",
+  "actualizado": "2026-10-28T23:24",
+  "titulo": "El video del \"five-second rule\" (inglés) se apartó porque la voz no coincidía; lo mandé a rehacer.",
+  "resumen": "El control de voz dio 87 %, que es menos que el 91–92 % que decía la oficina, y el mínimo es 92 %. No pude saber si era un falso rechazo o una voz mal leída, porque el registro guardó solo el final de lo que escuchó el control. Además, la voz de ese video ya no existe en la nube, así que no se podía solo volver a renderizar. Lo devolví a \"produccion\" en la cola de inglés y lancé un turno de Claude en inglés. Ese turno va a generar la voz de nuevo, controlar y renderizar el video. Si el control lo vuelve a rechazar, va a quedar apartado otra vez.",
+  "commit": "5bc0248b193a89e04087f1f701e5e6963d7aac2b",
+  "archivos": [
+   "videos/en/cola.json"
+  ]
  }
 ]
