@@ -87,6 +87,7 @@ jobs:
         if: always()
         working-directory: herramientas
         run: |
+          python -I reparar.py
           python -I oficina.py
           python -I arreglar.py revisar
       - name: Guardar estado

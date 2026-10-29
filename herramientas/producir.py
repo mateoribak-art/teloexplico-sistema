@@ -46,6 +46,9 @@ PEDIDO = f"""{TERMINAL}
 Producción automática. Usá el skill {SK_VIDEO} y seguilo al pie de la letra (incluida la dirección de arte de marca/DIRECCION_ARTE.md).
 {'Producí 1 solo video completo.' if EN else f'Producí 1 video completo. Si al terminar quedan menos de {META} videos listos en la cola y la cuota de Gemini no se agotó, producí otro (máximo 2 en total).'}
 Recordá el criterio de veracidad del skill: nada inventado, lo probable con matiz, salud/seguridad/plata solo verificado; el chequeo lo hace un subagente aparte.
+ANTES de producir uno nuevo: si hay videos en estado `apartado` porque el chequeo los rechazó (motivo "chequeo rechazado"), rescatalos primero. Leé su chequeo.json,
+sacá del guion y del caption la afirmación que no se pudo verificar (o reemplazala por la versión que sí está verificada, que el chequeo sugiere), pasalo a producción con
+`./herramientas/tlx cola estado <slug> produccion`, y repetí chequeo, voz y render. Un solo intento por video: si vuelve a fallar, dejalo apartado y producí otro.
 Al final escribí un resumen de 3 líneas: qué slugs quedaron listos, apartados o incompletos y por qué."""
 RADAR = (TERMINAL + f'\n\nUsá el skill {SK_RADAR}. Si encontrás un tema del momento que cumpla todos los criterios, producilo completo '
          f'con el skill {SK_VIDEO} (prioridad actualidad). Si no, anotá los candidatos descartados y terminá. '
