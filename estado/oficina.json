@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T14:28",
+ "actualizado": "2026-10-29T16:06",
  "oficinas": [
   {
    "clave": "es",
@@ -109,7 +109,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-29T13:34",
-     "hace": "hace 54 min",
+     "hace": "hace 2 h",
      "detalle": [
       "Uso: 48 pasos · 81,100 tokens nuevos · 1,476,985 de caché · 16,093 escritos · equivale a US$ 0.63 de API",
       "2026-10-29 13:20 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -143,13 +143,13 @@
       }
      },
      "estado": "ok",
-     "resumen": "Revisión radar. Búsqueda web (alertas SMN): sin resultados fechados de hoy (lo más reciente es de julio). Sin tema de actualidad verificable; sigue la cola norm",
-     "cuando": "2026-10-28T15:59",
-     "hace": "hace 22 h",
+     "resumen": "Revisión radar. Búsqueda web (alertas SMN hoy, clima/tendencias): sin resultados fechados de hoy (lo más cercano: alerta amarilla Chubut lunes 26 oct sin año co",
+     "cuando": "2026-10-29T16:06",
+     "hace": "recién",
      "detalle": [
-      "26/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, clima, tendencias): sin resultados fechados de hoy, solo notas viejas (feb, dic, finde largo 9-10 oct) o sin fecha. Candidatos: (1) El Niño/clima de la semana -> ángulo ya tomado por posta y clima saturado con 004 y 005 -> descartado; (2) alertas por tormentas -> sin fuente fechada de hoy, no verificable -> descartado; (3) tendencias/redes -> sin evidencia. No se produce video de actualidad; sigue la cola normal.",
       "27/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy (solo notas de feb/2023/2025 o sin fecha; tendencias genéricas: Ipsos preocupaciones, Mundial). Candidatos: (1) clima/alertas SMN -> sin fuente del día, y ya hay 004, 005 y 016 -> descartado; (2) calor extremo de primavera -> sin alerta fechada que lo confirme -> descartado; (3) tendencias/redes -> sin evidencia de un tema que todos vivan hoy. No se produce video de actualidad; sigue la cola normal.",
-      "28/10 00:00 | Revisión radar. Búsqueda web (alertas SMN): sin resultados fechados de hoy (lo más reciente es de julio). Sin tema de actualidad verificable; sigue la cola normal (pedido de Mateo: rehacer en 3D, empezando por 024-granizo-corto)."
+      "28/10 00:00 | Revisión radar. Búsqueda web (alertas SMN): sin resultados fechados de hoy (lo más reciente es de julio). Sin tema de actualidad verificable; sigue la cola normal (pedido de Mateo: rehacer en 3D, empezando por 024-granizo-corto).",
+      "29/10 00:00 | Revisión radar. Búsqueda web (alertas SMN hoy, clima/tendencias): sin resultados fechados de hoy (lo más cercano: alerta amarilla Chubut lunes 26 oct sin año confirmado, regional; el resto de julio/agosto 2026 o de 2025). Candidatos: (1) tormentas/alertas -> sin fuente del día y clima saturado (004, 005, 016, 024) -> descartado; (2) alerta Chubut -> regional, sin año confirmado -> descartado; (3) tendencias/redes -> sin evidencia. No se produce video de actualidad; sigue la cola normal."
      ],
      "tareas": [
       "🔥 004-olor-a-lluvia — ¿Por qué la tierra huele así cuando llueve?",
@@ -160,7 +160,7 @@
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "3e97128b72c5"
+     "firma": "dd220328f054"
     },
     {
      "id": "chequeo",
@@ -179,7 +179,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-10-29T13:34",
-     "hace": "hace 54 min",
+     "hace": "hace 2 h",
      "detalle": [
       "020-pava-se-corta: aprobado — Versión final del guion, recortada y sin John Taylor. Las 9 frases están verificadas con fuentes y tienen el matiz correcto. Lo de seguridad",
       "008-aire-en-17: aprobado — Todas las afirmaciones factuales estan verificadas con fuentes oficiales argentinas (Secretaria de Energia de la Nacion y ENRE) y fuentes te",
@@ -212,7 +212,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-10-29T13:34",
-     "hace": "hace 54 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -236,7 +236,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-29 13:34.",
      "cuando": "2026-10-29T13:34",
-     "hace": "hace 54 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -260,7 +260,7 @@
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo (005) quedó vencido y apartado, y ya hay una versión corta lista para reemplazarlo; no cambié nada.",
      "cuando": "2026-10-29T13:34",
-     "hace": "hace 54 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [
       "005-granizo-calor: tema de actualidad vencido (más de 48 h)"
@@ -286,7 +286,7 @@
      "estado": "ok",
      "resumen": "Último: 021-heladera-parte-2.",
      "cuando": "2026-10-29T12:34",
-     "hace": "hace 1 h",
+     "hace": "hace 3 h",
      "detalle": [
       "28/10 19:32 012-lavar-pollo publicado: https://www.instagram.com/reel/DfDgxO5iMug/",
       "28/10 19:33 012-lavar-pollo publicado en Facebook: https://www.facebook.com/reel/1773103130436407/",
@@ -323,7 +323,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-29T12:34",
-     "hace": "hace 1 h",
+     "hace": "hace 3 h",
      "detalle": [
       "28/10 12:34 020-pava-se-corta https://youtube.com/shorts/aJdN6NZ2PNw | privacidad: public",
       "28/10 12:34 020-pava-se-corta paquete para TikTok/YouTube enviado",
@@ -355,7 +355,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-10-27T17:29",
-     "hace": "hace 44 h",
+     "hace": "hace 46 h",
      "detalle": [
       "2026-10-26 23:00 bts: listo hecho en sesión",
       "2026-10-26 23:00 heladera: listo hecho en sesión",
@@ -389,7 +389,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-10-29T03:50",
-     "hace": "hace 10 h",
+     "hace": "hace 12 h",
      "detalle": [
       "26/10 21:56 (sesión con Mateo): 14 respondidos, 3 salteados, 1 alerta",
       "28/10 03:41 Hay 1 comentarios nuevos: arranca la respuesta.",
@@ -426,7 +426,7 @@
      "estado": "ok",
      "resumen": "29/10: 254 seguidores",
      "cuando": "2026-10-29T02:37",
-     "hace": "hace 11 h",
+     "hace": "hace 13 h",
      "detalle": [
       "26/10: 179 seguidores",
       "27/10: 235 seguidores",
@@ -459,7 +459,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-29T14:28",
+     "cuando": "2026-10-29T16:06",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -594,7 +594,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-29T13:58",
-     "hace": "hace 30 min",
+     "hace": "hace 2 h",
      "detalle": [
       "Uso: 2 pasos · 899 tokens nuevos · 166,666 de caché · 203 escritos · equivale a US$ 0.97 de API",
       "2026-10-29 13:34 Arranca la producción (5 listos en la cola, meta 6).",
@@ -624,20 +624,20 @@
       }
      },
      "estado": "ok",
-     "resumen": "Tercera pasada del radar: sin tema nuevo. Descartados: (1) humo/incendios en el Noroeste (Spokane): evento regional, sin fuente oficial del día y con riesgo de ",
-     "cuando": "2026-10-28T16:00",
-     "hace": "hace 22 h",
+     "resumen": "Cuarta pasada del radar: la búsqueda web solo devolvió notas viejas (2013–2024) y una de septiembre 2026; nada verificable de las últimas 48 h. Descartados: (1)",
+     "cuando": "2026-10-29T16:06",
+     "hace": "recién",
      "detalle": [
-      "28/10 00:00 Radar: la búsqueda web no devolvió nada reciente (solo páginas viejas). Sin tema de actualidad; se sigue con un video adaptado.",
       "27/10 00:00 Segunda pasada del radar: no se produce otro tema. en-002-dst-farmers (🔥, listo) ya cubre la actualidad del día; no se fuerza un segundo video.",
-      "28/10 00:00 Tercera pasada del radar: sin tema nuevo. Descartados: (1) humo/incendios en el Noroeste (Spokane): evento regional, sin fuente oficial del día y con riesgo de damnificados; (2) superluna de octubre: las fuentes dicen que no hay (la próxima es el 24/11), sin gancho; (3) primera helada/nieve: nada concreto ni reciente en la búsqueda. El cambio de hora (en-002, publicado) ya cubre la actualidad; Halloween ya está en cola (en-004)."
+      "28/10 00:00 Tercera pasada del radar: sin tema nuevo. Descartados: (1) humo/incendios en el Noroeste (Spokane): evento regional, sin fuente oficial del día y con riesgo de damnificados; (2) superluna de octubre: las fuentes dicen que no hay (la próxima es el 24/11), sin gancho; (3) primera helada/nieve: nada concreto ni reciente en la búsqueda. El cambio de hora (en-002, publicado) ya cubre la actualidad; Halloween ya está en cola (en-004).",
+      "29/10 00:00 Cuarta pasada del radar: la búsqueda web solo devolvió notas viejas (2013–2024) y una de septiembre 2026; nada verificable de las últimas 48 h. Descartados: (1) nor'easter/helada: nota de hace 5 semanas, sin fuente oficial del día; (2) auroras: sin alerta del SWPC confirmada; (3) cambio de hora (1/11): ya publicado (en-002). Halloween ya cubierto (en-004). Sin tema nuevo."
      ],
      "tareas": [
       "🔥 en-002-dst-farmers — Is daylight saving time for farmers? (fall back Nov 1)"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "1e51ea3996c8"
+     "firma": "a2e503ac85ac"
     },
     {
      "id": "chequeo",
@@ -656,7 +656,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-10-29T13:58",
-     "hace": "hace 30 min",
+     "hace": "hace 2 h",
      "detalle": [
       "en-004-sugar-hyper: aprobado — Las afirmaciones de salud (sin efecto del azucar en la conducta infantil, caries) estan verificadas con fuentes primarias/secundarias consis",
       "en-005-fridge-part-2: aprobado — Se corrigieron las dos observaciones: 'Not 5...' ya no esta en el caption y el freezer ahora dice 'for soups and stews ... two to three mont",
@@ -689,7 +689,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-10-29T13:58",
-     "hace": "hace 30 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -713,7 +713,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-29 13:58.",
      "cuando": "2026-10-29T13:58",
-     "hace": "hace 30 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -737,7 +737,7 @@
      "estado": "ok",
      "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-10-29T13:58",
-     "hace": "hace 30 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -761,7 +761,7 @@
      "estado": "ok",
      "resumen": "Último: en-006-five-second-rule.",
      "cuando": "2026-10-29T12:36",
-     "hace": "hace 1 h",
+     "hace": "hace 3 h",
      "detalle": [
       "28/10 12:36 en-003-fridge-leftovers en la bandeja de TikTok",
       "28/10 12:36 en-003-fridge-leftovers paquete para TikTok/YouTube enviado",
@@ -798,7 +798,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-29T12:36",
-     "hace": "hace 1 h",
+     "hace": "hace 3 h",
      "detalle": [
       "27/10 20:10 en-002-dst-farmers en la bandeja de TikTok",
       "27/10 20:10 en-002-dst-farmers paquete para TikTok/YouTube enviado",
@@ -856,7 +856,7 @@
      "estado": "ok",
      "resumen": "29/10: 2 seguidores",
      "cuando": "2026-10-29T02:38",
-     "hace": "hace 11 h",
+     "hace": "hace 13 h",
      "detalle": [
       "28/10: 2 seguidores",
       "29/10: 2 seguidores"
@@ -886,7 +886,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-29T14:28",
+     "cuando": "2026-10-29T16:06",
      "hace": "recién",
      "detalle": [],
      "tareas": [],

@@ -47,3 +47,7 @@ Sources:
 - [Canal 26: alertas del SMN, 20 de julio de 2026](https://www.canal26.com/clima/2026/07/20/alerta-meteorologica-el-smn-advierte-por-tormentas-fuertes-nevadas-intensas-y-vientos-extremos-en-varias-regiones-del-pais/)
 Uso: 8 pasos · 15,966 tokens nuevos · 101,223 de caché · 1,320 escritos · equivale a US$ 0.10 de API
 2026-10-28 15:59 Termina el radar (ok).
+2026-10-29 16:06 Arranca el radar.
+No produje ningún video de actualidad hoy. Las búsquedas no devolvieron nada fechado de hoy. La única alerta cercana es una amarilla en Chubut del lunes 26 de octubre, de la que no pude confirmar el año y que es regional. Los otros temas de clima ya están cubiertos por los videos 004, 005, 016 y 024. Anoté los candidatos descartados en `videos/radar.log` y sigue la cola normal.
+Uso: 9 pasos · 18,662 tokens nuevos · 101,931 de caché · 1,079 escritos · equivale a US$ 0.12 de API
+2026-10-29 16:06 Termina el radar (ok).

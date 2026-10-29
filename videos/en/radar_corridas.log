@@ -11,3 +11,7 @@ No produje ningún video: no encontré un tema de actualidad que cumpla los crit
 El cambio de hora (`en-002`) ya está publicado y cubre el tema del momento. El de Halloween (`en-004`) ya está en cola.
 Uso: 9 pasos · 11,628 tokens nuevos · 96,998 de caché · 1,099 escritos · equivale a US$ 0.09 de API
 2026-10-28 16:00 Termina el radar (ok).
+2026-10-29 16:06 Arranca el radar.
+No produje ningún video. La búsqueda web no devolvió nada verificable de las últimas 48 h, y el cambio de hora y Halloween ya están cubiertos (en-002 y en-004). Anoté los candidatos descartados (nor'easter y helada, auroras) en `videos/en/radar.log`.
+Uso: 8 pasos · 10,520 tokens nuevos · 96,362 de caché · 827 escritos · equivale a US$ 0.07 de API
+2026-10-29 16:06 Termina el radar (ok).
