@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T23:31",
+ "actualizado": "2026-10-28T23:59",
  "oficinas": [
   {
    "clave": "es",
@@ -109,7 +109,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-28T22:48",
-     "hace": "hace 43 min",
+     "hace": "hace 1 h",
      "detalle": [
       "Uso: 36 pasos · 87,520 tokens nuevos · 1,176,762 de caché · 22,905 escritos · equivale a US$ 0.70 de API",
       "2026-10-28 22:16 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -143,7 +143,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsqueda web (alertas SMN): sin resultados fechados de hoy (lo más reciente es de julio). Sin tema de actualidad verificable; sigue la cola norm",
      "cuando": "2026-10-28T15:59",
-     "hace": "hace 7 h",
+     "hace": "hace 8 h",
      "detalle": [
       "26/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, clima, tendencias): sin resultados fechados de hoy, solo notas viejas (feb, dic, finde largo 9-10 oct) o sin fecha. Candidatos: (1) El Niño/clima de la semana -> ángulo ya tomado por posta y clima saturado con 004 y 005 -> descartado; (2) alertas por tormentas -> sin fuente fechada de hoy, no verificable -> descartado; (3) tendencias/redes -> sin evidencia. No se produce video de actualidad; sigue la cola normal.",
       "27/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy (solo notas de feb/2023/2025 o sin fecha; tendencias genéricas: Ipsos preocupaciones, Mundial). Candidatos: (1) clima/alertas SMN -> sin fuente del día, y ya hay 004, 005 y 016 -> descartado; (2) calor extremo de primavera -> sin alerta fechada que lo confirme -> descartado; (3) tendencias/redes -> sin evidencia de un tema que todos vivan hoy. No se produce video de actualidad; sigue la cola normal.",
@@ -177,7 +177,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-10-28T22:48",
-     "hace": "hace 43 min",
+     "hace": "hace 1 h",
      "detalle": [
       "020-pava-se-corta: aprobado — Versión final del guion, recortada y sin John Taylor. Las 9 frases están verificadas con fuentes y tienen el matiz correcto. Lo de seguridad",
       "008-aire-en-17: aprobado — Todas las afirmaciones factuales estan verificadas con fuentes oficiales argentinas (Secretaria de Energia de la Nacion y ENRE) y fuentes te",
@@ -210,7 +210,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-10-28T22:48",
-     "hace": "hace 43 min",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -234,7 +234,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-28 22:48.",
      "cuando": "2026-10-28T22:48",
-     "hace": "hace 43 min",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -258,7 +258,7 @@
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo (005) quedó vencido y apartado, y ya hay una versión corta lista para reemplazarlo; no cambié nada.",
      "cuando": "2026-10-28T22:48",
-     "hace": "hace 43 min",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [
       "005-granizo-calor: tema de actualidad vencido (más de 48 h)"
@@ -284,7 +284,7 @@
      "estado": "ok",
      "resumen": "Último: 012-lavar-pollo.",
      "cuando": "2026-10-28T19:33",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "28/10 12:32 020-pava-se-corta publicado: https://www.instagram.com/reel/DfCwt0oCD_N/",
       "28/10 12:33 020-pava-se-corta publicado en Facebook: https://www.facebook.com/reel/1862858108404608/",
@@ -321,7 +321,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-28T19:33",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "27/10 19:34 018-rayo-trueno https://youtube.com/shorts/lPzAo974Omc | privacidad: public",
       "27/10 19:34 018-rayo-trueno paquete para TikTok/YouTube enviado",
@@ -387,7 +387,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-10-28T03:42",
-     "hace": "hace 19 h",
+     "hace": "hace 20 h",
      "detalle": [
       "26/10 18:48 Hay 17 comentarios nuevos: arranca la respuesta.",
       "26/10 18:48 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
@@ -457,7 +457,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-28T23:31",
+     "cuando": "2026-10-28T23:59",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -527,13 +527,6 @@
    ],
    "linea": [
     {
-     "slug": "en-006-five-second-rule",
-     "tema": "Is the five-second rule real? (Rutgers 2016)",
-     "estado": "produccion",
-     "cuando": "2026-10-29T02:30",
-     "motivo": "rehacer: la voz dio 87 % y el audio ya no está en motor/public; regenerar con tlx voz --regenerar, revisar y pasar a render"
-    },
-    {
      "slug": "en-005-fridge-part-2",
      "tema": "Fridge part 2: cover leftovers? how many days? (adapted from 021)",
      "estado": "listo",
@@ -546,6 +539,27 @@
      "estado": "listo",
      "cuando": "2026-10-28T23:23",
      "motivo": "render sin Claude"
+    },
+    {
+     "slug": "en-006-five-second-rule",
+     "tema": "Is the five-second rule real? (Rutgers 2016)",
+     "estado": "apartado",
+     "cuando": "2026-10-28T19:11",
+     "motivo": "render/control: od, the more it picked up. Watermelon was the worst, gummy candy the least. The floor mattered too. Carpet passed on far less than tile or steel"
+    },
+    {
+     "slug": "en-008-wash-chicken",
+     "tema": "Should you rinse raw chicken? (adapted from 012)",
+     "estado": "apartado",
+     "cuando": "2026-10-28T23:29",
+     "motivo": "chequeo rechazado 2 veces: la frase 'bacteria in the sink can end up on whatever you touch next' (seguridad) solo llega a probable"
+    },
+    {
+     "slug": "en-009-ceiling-fan",
+     "tema": "Which way should your ceiling fan spin? (DOE)",
+     "estado": "apartado",
+     "cuando": "2026-10-28T23:59",
+     "motivo": "render/control: ler. In winter, flip the switch so they spin clockwise, on low. Now the fan pulls air up, and the warm air stuck near the ceiling gets pushed do"
     },
     {
      "slug": "en-003-fridge-leftovers",
@@ -579,18 +593,18 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-10-28T23:23",
-     "hace": "hace 8 min",
+     "cuando": "2026-10-28T23:59",
+     "hace": "recién",
      "detalle": [
-      "Uso: 17 pasos · 13,976 tokens nuevos · 807,974 de caché · 3,532 escritos · equivale a US$ 1.29 de API",
-      "2026-10-28 22:48 Arranca la producción (1 listos en la cola, meta 6).",
-      "- **`en-007-flip-steak` (adaptado de 003-vuelta-carne):** quedó en estado `render`, sin renderizar todavía. El chequeo del subagente lo aprobó en el 2.º intento y la voz tiene 118 palabras (36,5 s). Escena 3D con sartén y bife en capas, cap",
-      "- **Chequeo:** el 1.º intento se rechazó por tres frases sin respaldo (jugos, \"thick cut low and slow\" y \"faster\") y las reescribí con matices. Quedan dos salvedades: no se pudo leer el PDF de McGee en Physics Today (solo el resumen), y \"ov",
-      "- **Otros slugs:** `en-006-five-second-rule` figura como `apartado` en la cola. No lo toqué y no sé el motivo. Las dos chips de la comparación (flip once / flip often) son una ilustración, sin números, y el caption lo aclara.",
-      "Uso: 17 pasos · 13,976 tokens nuevos · 807,974 de caché · 3,532 escritos · equivale a US$ 1.29 de API",
-      "2026-10-28 22:59 Render de en-007-flip-steak (sin Claude).",
-      "2026-10-28 23:23 en-007-flip-steak: listo (render sin Claude)",
-      "2026-10-28 23:23 Termina la producción (ok)."
+      "Uso: 27 pasos · 28,743 tokens nuevos · 1,188,427 de caché · 15,546 escritos · equivale a US$ 1.75 de API",
+      "2026-10-28 23:25 Arranca la producción (2 listos en la cola, meta 6).",
+      "- **Listo para render:** `en-009-ceiling-fan` (propio, 3D, serie Home myths #2). El chequeo salió aprobado en el 2.º intento, la voz está generada y el estado es `render`, así que `producir.py` lo renderiza. La voz dura 41,6 s y tiene 130 p",
+      "- **Apartado:** `en-008-wash-chicken` (adaptado de 012). El chequeo lo rechazó dos veces: \"bacteria in the sink can end up on whatever you touch next\" solo llega a probable, y es un tema de seguridad. Quedó anotado en `ideas.md` cómo rehace",
+      "- **Incompleto:** ninguno. Sumé dos objetos al kit 3D para reusar (`Pollo.tsx` sin usar, `Ventilador.tsx`). El primer chequeo del ventilador también rechazó dos frases (el interruptor \"en todos\" y \"down the walls\") y se corrigieron.",
+      "Uso: 27 pasos · 28,743 tokens nuevos · 1,188,427 de caché · 15,546 escritos · equivale a US$ 1.75 de API",
+      "2026-10-28 23:39 Render de en-009-ceiling-fan (sin Claude).",
+      "2026-10-28 23:59 en-009-ceiling-fan: apartado (render/control: ler. In winter, flip the switch so they spin clockwise, on low. Now the fan pulls air up, and the warm air stuck near the ceiling gets pushed down and around the room. That's th",
+      "2026-10-28 23:59 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -641,23 +655,26 @@
        "cuenta": "en"
       }
      },
-     "estado": "ok",
-     "resumen": "Aprobó 7 de los últimos 7 guiones.",
+     "estado": "aviso",
+     "resumen": "Frenó 1 video(s): en-008-wash-chicken.",
      "cuando": "2026-10-28T23:23",
-     "hace": "hace 8 min",
+     "hace": "hace 36 min",
      "detalle": [
-      "en-001-phone-rice: aprobado — Chequeado el 27/10/2026 contra la página de Apple Support (support.apple.com/en-us/102643, 'If you see a liquid-detection alert on your iPho",
       "en-002-dst-farmers: aprobado — Todas las afirmaciones fácticas tienen fuente (National Archives, History.com, Library of Congress, U.S. DOT/CRS) y las fechas coinciden. No",
       "en-003-fridge-leftovers: aprobado — Texto actual revisado. Todas las cifras y unidades coinciden con USDA FSIS (Danger Zone 40-140 °F, duplicacion en 'as little as 20 minutes',",
       "en-004-sugar-hyper: aprobado — Las afirmaciones de salud (sin efecto del azucar en la conducta infantil, caries) estan verificadas con fuentes primarias/secundarias consis",
       "en-005-fridge-part-2: aprobado — Se corrigieron las dos observaciones: 'Not 5...' ya no esta en el caption y el freezer ahora dice 'for soups and stews ... two to three mont",
       "en-006-five-second-rule: aprobado — Segunda pasada con busqueda web. Todas las afirmaciones coinciden con Miranda & Schaffner 2016 (Applied and Environmental Microbiology 82(21",
-      "en-007-flip-steak: aprobado — Segundo intento. Se verificaron todas las frases con busqueda web. Las objeciones del chequeo previo quedaron corregidas: (1) 'the idea is',"
+      "en-007-flip-steak: aprobado — Segundo intento. Se verificaron todas las frases con busqueda web. Las objeciones del chequeo previo quedaron corregidas: (1) 'the idea is',",
+      "en-008-wash-chicken: rechazado — Casi todo queda verificado con fuentes de EE. UU. (CDC; USDA FSIS comunicado del 20/8/2019 sobre el estudio RTI/NC State; Shumaker et al., J",
+      "en-009-ceiling-fan: aprobado — Todas las afirmaciones de plata/energia y seguridad-practica (sentido de giro por estacion, velocidad baja en invierno, apagar al salir, 'en"
      ],
-     "tareas": [],
-     "arreglo": null,
+     "tareas": [
+      "en-008-wash-chicken: chequeo rechazado 2 veces: la frase 'bacteria in the sink can end up on whatever you touch next' (seguridad) solo llega a probable"
+     ],
+     "arreglo": "Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.",
      "solo": false,
-     "firma": "a9e63db409b5"
+     "firma": "ebd82d1fe7c1"
     },
     {
      "id": "voz",
@@ -673,15 +690,18 @@
        "cuenta": "en"
       }
      },
-     "estado": "ok",
-     "resumen": "Voz en-us-podcaster-5 sin problemas.",
+     "estado": "aviso",
+     "resumen": "La voz no coincidió con el guion en en-009-ceiling-fan.",
      "cuando": "2026-10-28T23:23",
-     "hace": "hace 8 min",
+     "hace": "hace 36 min",
      "detalle": [],
-     "tareas": [],
-     "arreglo": null,
+     "tareas": [
+      "en-006-five-second-rule: render/control: od, the more it picked up. Watermelon was the worst, gummy candy the least. The floor mattered too. Carpet passed on far less than tile or steel",
+      "en-009-ceiling-fan: render/control: ler. In winter, flip the switch so they spin clockwise, on low. Now the fan pulls air up, and the warm air stuck near the ceiling gets pushed do"
+     ],
+     "arreglo": "Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.",
      "solo": false,
-     "firma": "c766d204df67"
+     "firma": "5178a9ec7599"
     },
     {
      "id": "animador",
@@ -697,15 +717,18 @@
        "cuenta": "en"
       }
      },
-     "estado": "ok",
-     "resumen": "Último video terminado: 2026-10-28 23:23.",
+     "estado": "falla",
+     "resumen": "Falló el render de en-009-ceiling-fan.",
      "cuando": "2026-10-28T23:23",
-     "hace": "hace 8 min",
+     "hace": "hace 36 min",
      "detalle": [],
-     "tareas": [],
-     "arreglo": null,
+     "tareas": [
+      "en-006-five-second-rule: render/control: od, the more it picked up. Watermelon was the worst, gummy candy the least. The floor mattered too. Carpet passed on far less than tile or steel. Heads up, longer on the floor does mea",
+      "en-009-ceiling-fan: render/control: ler. In winter, flip the switch so they spin clockwise, on low. Now the fan pulls air up, and the warm air stuck near the ceiling gets pushed down and around the room. That's the advic"
+     ],
+     "arreglo": "Relanzá la producción: los videos en estado render se vuelven a renderizar solos.",
      "solo": false,
-     "firma": "d06ad2bd1c84"
+     "firma": "1cfc64411c2f"
     },
     {
      "id": "control",
@@ -724,7 +747,7 @@
      "estado": "ok",
      "resumen": "2 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-10-28T23:23",
-     "hace": "hace 8 min",
+     "hace": "hace 36 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -748,7 +771,7 @@
      "estado": "ok",
      "resumen": "Último: en-004-sugar-hyper.",
      "cuando": "2026-10-28T19:36",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "27/10 20:10 en-002-dst-farmers en la bandeja de TikTok",
       "27/10 20:10 en-002-dst-farmers paquete para TikTok/YouTube enviado",
@@ -785,7 +808,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-28T19:36",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "27/10 12:37 en-001-phone-rice en la bandeja de TikTok",
       "27/10 12:37 en-001-phone-rice paquete para TikTok/YouTube enviado",
@@ -870,10 +893,13 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 2 videos listos: alcanza para 1 día(s).",
-     "cuando": "2026-10-28T23:31",
+     "cuando": "2026-10-28T23:59",
      "hace": "recién",
      "detalle": [
-      "⚠️ Quedan 2 videos listos: alcanza para 1 día(s)."
+      "⚠️ Quedan 2 videos listos: alcanza para 1 día(s).",
+      "⚠️ Video apartado: en-006-five-second-rule — render/control: od, the more it picked up. Watermelon was the worst, gummy candy the least. The floor mattered too. Carp",
+      "⚠️ Video apartado: en-008-wash-chicken — chequeo rechazado 2 veces: la frase 'bacteria in the sink can end up on whatever you touch next' (seguridad) solo llega ",
+      "⚠️ Video apartado: en-009-ceiling-fan — render/control: ler. In winter, flip the switch so they spin clockwise, on low. Now the fan pulls air up, and the warm a"
      ],
      "tareas": [],
      "arreglo": null,
@@ -1004,22 +1030,6 @@
    "titulo": "Claude no pudo trabajar ahora",
    "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
    "actualizado": "2026-10-28T14:14"
-  },
-  {
-   "id": "mvswmo1x-voz",
-   "creado": "2026-10-28T23:23",
-   "empleado": "en/voz",
-   "estado": "aplicado",
-   "auto": false,
-   "problema": "En la oficina de Nueva York (@letmeexplain.us), Leo (Locutor) está en \"ojo\": La voz no coincidió con el guion en en-006-five-second-rule.\nLo que sugiere la oficina: Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.\nTareas:\nen-006-five-second-rule: render/control: od, the more it picked up. Watermelon was the worst, gummy candy the least. The floor mattered too. Carpet passed on far less than tile or steel\n\nRevisalo en C:\\Users\\Mateo\\teloexplico (sistema de teloexplico / letmeexplain) y arreglalo.",
-   "firma": "8180f7f4f7d4",
-   "actualizado": "2026-10-28T23:24",
-   "titulo": "El video del \"five-second rule\" (inglés) se apartó porque la voz no coincidía; lo mandé a rehacer.",
-   "resumen": "El control de voz dio 87 %, que es menos que el 91–92 % que decía la oficina, y el mínimo es 92 %. No pude saber si era un falso rechazo o una voz mal leída, porque el registro guardó solo el final de lo que escuchó el control. Además, la voz de ese video ya no existe en la nube, así que no se podía solo volver a renderizar. Lo devolví a \"produccion\" en la cola de inglés y lancé un turno de Claude en inglés. Ese turno va a generar la voz de nuevo, controlar y renderizar el video. Si el control lo vuelve a rechazar, va a quedar apartado otra vez.",
-   "commit": "5bc0248b193a89e04087f1f701e5e6963d7aac2b",
-   "archivos": [
-    "videos/en/cola.json"
-   ]
   }
  ]
 }

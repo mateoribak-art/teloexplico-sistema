@@ -5,3 +5,5 @@
 2026-10-28 en-005-fridge-part-2 · adaptado de 021-heladera-parte-2 · listo (chequeo aprobado en 2.º intento: freezer pasó a "soups and stews, two to three months"; render y control OK)
 2026-10-28 en-006-five-second-rule · propio · en estado render (3D; chequeo aprobado en 2.º intento: "In some cases" en la frase de menos de un segundo; lo renderiza producir.py)
 2026-10-28 en-007-flip-steak · adaptado de 003-vuelta-carne · en estado render (3D; chequeo aprobado en 2.º intento: matices "the idea is", "can… often faster", sondear en vez de "not flipping"; lo renderiza producir.py)
+2026-10-28 en-008-wash-chicken · adaptado de 012-lavar-pollo · apartado (chequeo rechazado 2 veces: "bacteria in the sink can end up on whatever you touch next" solo llega a probable; tema de seguridad)
+2026-10-28 en-009-ceiling-fan · propio · en estado render (3D; chequeo aprobado en 2.º intento: "Most ceiling fans have…", "down and around the room"; lo renderiza producir.py)

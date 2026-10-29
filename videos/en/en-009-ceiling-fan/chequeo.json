@@ -1,0 +1,72 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de plata/energia y seguridad-practica (sentido de giro por estacion, velocidad baja en invierno, apagar al salir, 'enfria personas, no ambientes') estan verificadas con DOE Energy Saver (guia PDF 2022, articulo de consejos de invierno), ENERGY STAR y Hunter Fan. Las dos afirmaciones no verificables con fuente primaria (que 'la mayoria' tiene interruptor y la frase de opinion 'probablemente nunca lo tocaste') estan redactadas con hedge ('Most', 'probably') y no tocan salud, seguridad ni plata. Ninguna falsa. Nota: la pagina energy.gov/energysaver/ceiling-fans devolvio 404 en esta pasada; el respaldo de DOE se tomo del PDF energy-saver-guide-2022 y del articulo '5 Tips to Help You Save on Energy Bills this Winter' (via busqueda).",
+  "afirmaciones": [
+    {
+      "texto": "Most ceiling fans have a direction switch",
+      "fuente": "Bob Vila ('nearly every ceiling fan has a switch on the motor housing'); Hunter Fan (la forma de invertir depende del modelo: interruptor, boton del control remoto o app). Sin fuente primaria de DOE para el porcentaje.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "you've probably never touched yours",
+      "fuente": "sin fuente primaria (observacion coloquial, no un dato)",
+      "estado": "dudosa",
+      "matiz_ok": true
+    },
+    {
+      "texto": "In summer, the blades should spin counterclockwise, as you look up at them",
+      "fuente": "DOE Energy Saver guide 2022 (https://www.energy.gov/sites/default/files/2022-08/energy-saver-guide-2022.pdf); Hunter Fan (https://hunterfan.com/blogs/hunter-blog/ceiling-fan-direction-for-summer-and-winter): visto desde abajo, antihorario",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "That pushes air down, and moving air on your skin makes you feel cooler",
+      "fuente": "DOE Energy Saver guide 2022 (efecto de sensacion termica / wind chill); Hunter Fan (downdraft, wind chill effect)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "In winter, flip the switch so they spin clockwise, on low",
+      "fuente": "DOE (articulo '5 Tips to Help You Save on Energy Bills this Winter', https://www.energy.gov/articles/5-tips-help-you-save-energy-bills-winter); DOE Energy Saver guide 2022; Hunter Fan: horario a velocidad baja, mas rapido se siente brisa fria",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Now the fan pulls air up, and the warm air stuck near the ceiling gets pushed down and around the room",
+      "fuente": "DOE Energy Saver guide 2022 ('force warm air down from the ceiling'); Hunter Fan (updraft en invierno)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "That's the advice from the U.S. Department of Energy",
+      "fuente": "DOE Energy Saver guide 2022 y articulo de invierno de energy.gov: cubren sentido por estacion, velocidad baja y apagar al salir",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "a fan cools people, not rooms, so turn it off when you leave",
+      "fuente": "ENERGY STAR ('Ceiling Fans Made Easy', https://www.energystar.gov/sites/default/files/asset/document/Ceiling%20Fan%20FS%20v14.pdf: 'cool people, not rooms... turn them off when leaving the room'); DOE Energy Saver guide 2022 (turn off ceiling fans when you leave a room)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Stand under it. A breeze on your head means it's pushing air down",
+      "fuente": "Hunter Fan (modo verano = downdraft); Evapolar (parararse debajo a baja velocidad y sentir brisa directa = modo verano). Deduccion fisica directa.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'pulls air up and pushes the warm air near the ceiling down and around the room' / 'counterclockwise (as you look up at them)' / 'clockwise on low' / 'cools people, not rooms'",
+      "fuente": "Mismas fuentes que las frases equivalentes del guion (DOE, ENERGY STAR, Hunter Fan)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'Sources: U.S. Department of Energy, Energy Saver.'",
+      "fuente": "DOE Energy Saver (energy.gov/energysaver); el respaldo textual viene de su guia PDF 2022 y su articulo de invierno",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

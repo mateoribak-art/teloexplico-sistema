@@ -214,5 +214,54 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-008-wash-chicken",
+  "tema": "Should you rinse raw chicken? (adapted from 012)",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-28T23:26",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-28T23:26",
+    "motivo": ""
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-28T23:29",
+    "motivo": "chequeo rechazado 2 veces: la frase 'bacteria in the sink can end up on whatever you touch next' (seguridad) solo llega a probable"
+   }
+  ]
+ },
+ {
+  "slug": "en-009-ceiling-fan",
+  "tema": "Which way should your ceiling fan spin? (DOE)",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-28T23:30",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-28T23:30",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-10-28T23:39",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-28T23:59",
+    "motivo": "render/control: ler. In winter, flip the switch so they spin clockwise, on low. Now the fan pulls air up, and the warm air stuck near the ceiling gets pushed down and around the room. That's the advice from the U.S. Department of Energy. Heads up. A fan cools peopl\nPROBLEMAS:\n- la voz no coincide con el guion (91%)"
+   }
+  ]
  }
 ]

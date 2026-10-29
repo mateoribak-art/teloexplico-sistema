@@ -29,3 +29,11 @@ Uso: 17 pasos · 13,976 tokens nuevos · 807,974 de caché · 3,532 escritos · 
 2026-10-28 22:59 Render de en-007-flip-steak (sin Claude).
 2026-10-28 23:23 en-007-flip-steak: listo (render sin Claude)
 2026-10-28 23:23 Termina la producción (ok).
+2026-10-28 23:25 Arranca la producción (2 listos en la cola, meta 6).
+- **Listo para render:** `en-009-ceiling-fan` (propio, 3D, serie Home myths #2). El chequeo salió aprobado en el 2.º intento, la voz está generada y el estado es `render`, así que `producir.py` lo renderiza. La voz dura 41,6 s y tiene 130 palabras, algo por encima del tope de 120.
+- **Apartado:** `en-008-wash-chicken` (adaptado de 012). El chequeo lo rechazó dos veces: "bacteria in the sink can end up on whatever you touch next" solo llega a probable, y es un tema de seguridad. Quedó anotado en `ideas.md` cómo rehacerlo con la frase del CDC.
+- **Incompleto:** ninguno. Sumé dos objetos al kit 3D para reusar (`Pollo.tsx` sin usar, `Ventilador.tsx`). El primer chequeo del ventilador también rechazó dos frases (el interruptor "en todos" y "down the walls") y se corrigieron.
+Uso: 27 pasos · 28,743 tokens nuevos · 1,188,427 de caché · 15,546 escritos · equivale a US$ 1.75 de API
+2026-10-28 23:39 Render de en-009-ceiling-fan (sin Claude).
+2026-10-28 23:59 en-009-ceiling-fan: apartado (render/control: ler. In winter, flip the switch so they spin clockwise, on low. Now the fan pulls air up, and the warm air stuck near the ceiling gets pushed down and around the room. That's the advic)
+2026-10-28 23:59 Termina la producción (ok).

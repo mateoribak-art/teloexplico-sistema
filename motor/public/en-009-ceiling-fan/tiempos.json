@@ -1,0 +1,725 @@
+{
+ "duracion": 41.56,
+ "frases": [
+  {
+   "texto": "Most ceiling fans have a direction switch, and you've probably never touched yours.",
+   "palabras": [
+    {
+     "texto": "Most",
+     "inicio": 0.0,
+     "fin": 0.26
+    },
+    {
+     "texto": "ceiling",
+     "inicio": 0.26,
+     "fin": 0.58
+    },
+    {
+     "texto": "fans",
+     "inicio": 0.58,
+     "fin": 1.02
+    },
+    {
+     "texto": "have",
+     "inicio": 1.02,
+     "fin": 1.28
+    },
+    {
+     "texto": "a",
+     "inicio": 1.28,
+     "fin": 1.4
+    },
+    {
+     "texto": "direction",
+     "inicio": 1.4,
+     "fin": 1.96
+    },
+    {
+     "texto": "switch,",
+     "inicio": 1.96,
+     "fin": 2.32
+    },
+    {
+     "texto": "and",
+     "inicio": 2.7,
+     "fin": 3.04
+    },
+    {
+     "texto": "you've",
+     "inicio": 3.04,
+     "fin": 3.3
+    },
+    {
+     "texto": "probably",
+     "inicio": 3.3,
+     "fin": 3.7
+    },
+    {
+     "texto": "never",
+     "inicio": 3.7,
+     "fin": 4.1
+    },
+    {
+     "texto": "touched",
+     "inicio": 4.1,
+     "fin": 4.46
+    },
+    {
+     "texto": "yours.",
+     "inicio": 4.46,
+     "fin": 4.7
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.7
+  },
+  {
+   "texto": "That's a missed trick.",
+   "palabras": [
+    {
+     "texto": "That's",
+     "inicio": 5.34,
+     "fin": 5.58
+    },
+    {
+     "texto": "a",
+     "inicio": 5.58,
+     "fin": 5.66
+    },
+    {
+     "texto": "missed",
+     "inicio": 5.66,
+     "fin": 5.82
+    },
+    {
+     "texto": "trick.",
+     "inicio": 5.82,
+     "fin": 6.24
+    }
+   ],
+   "inicio": 5.34,
+   "fin": 6.24
+  },
+  {
+   "texto": "In summer, the blades should spin counterclockwise, as you look up at them.",
+   "palabras": [
+    {
+     "texto": "In",
+     "inicio": 6.74,
+     "fin": 6.88
+    },
+    {
+     "texto": "summer,",
+     "inicio": 6.88,
+     "fin": 7.18
+    },
+    {
+     "texto": "the",
+     "inicio": 7.44,
+     "fin": 7.48
+    },
+    {
+     "texto": "blades",
+     "inicio": 7.48,
+     "fin": 7.76
+    },
+    {
+     "texto": "should",
+     "inicio": 7.76,
+     "fin": 7.96
+    },
+    {
+     "texto": "spin",
+     "inicio": 7.96,
+     "fin": 8.22
+    },
+    {
+     "texto": "counterclockwise,",
+     "inicio": 8.22,
+     "fin": 9.08
+    },
+    {
+     "texto": "as",
+     "inicio": 9.5,
+     "fin": 9.64
+    },
+    {
+     "texto": "you",
+     "inicio": 9.64,
+     "fin": 9.76
+    },
+    {
+     "texto": "look",
+     "inicio": 9.76,
+     "fin": 9.9
+    },
+    {
+     "texto": "up",
+     "inicio": 9.9,
+     "fin": 10.06
+    },
+    {
+     "texto": "at",
+     "inicio": 10.06,
+     "fin": 10.18
+    },
+    {
+     "texto": "them.",
+     "inicio": 10.18,
+     "fin": 10.3
+    }
+   ],
+   "inicio": 6.74,
+   "fin": 10.3
+  },
+  {
+   "texto": "That pushes air down, and moving air on your skin makes you feel cooler.",
+   "palabras": [
+    {
+     "texto": "That",
+     "inicio": 10.76,
+     "fin": 10.88
+    },
+    {
+     "texto": "pushes",
+     "inicio": 10.88,
+     "fin": 11.1
+    },
+    {
+     "texto": "air",
+     "inicio": 11.1,
+     "fin": 11.34
+    },
+    {
+     "texto": "down,",
+     "inicio": 11.34,
+     "fin": 11.7
+    },
+    {
+     "texto": "and",
+     "inicio": 12.08,
+     "fin": 12.34
+    },
+    {
+     "texto": "moving",
+     "inicio": 12.34,
+     "fin": 12.64
+    },
+    {
+     "texto": "air",
+     "inicio": 12.64,
+     "fin": 13.0
+    },
+    {
+     "texto": "on",
+     "inicio": 13.0,
+     "fin": 13.14
+    },
+    {
+     "texto": "your",
+     "inicio": 13.14,
+     "fin": 13.28
+    },
+    {
+     "texto": "skin",
+     "inicio": 13.28,
+     "fin": 13.62
+    },
+    {
+     "texto": "makes",
+     "inicio": 13.62,
+     "fin": 14.0
+    },
+    {
+     "texto": "you",
+     "inicio": 14.0,
+     "fin": 14.1
+    },
+    {
+     "texto": "feel",
+     "inicio": 14.1,
+     "fin": 14.26
+    },
+    {
+     "texto": "cooler.",
+     "inicio": 14.26,
+     "fin": 14.58
+    }
+   ],
+   "inicio": 10.76,
+   "fin": 14.58
+  },
+  {
+   "texto": "In winter, flip the switch so they spin clockwise, on low.",
+   "palabras": [
+    {
+     "texto": "In",
+     "inicio": 15.14,
+     "fin": 15.24
+    },
+    {
+     "texto": "winter,",
+     "inicio": 15.24,
+     "fin": 15.5
+    },
+    {
+     "texto": "flip",
+     "inicio": 15.88,
+     "fin": 16.14
+    },
+    {
+     "texto": "the",
+     "inicio": 16.14,
+     "fin": 16.32
+    },
+    {
+     "texto": "switch",
+     "inicio": 16.32,
+     "fin": 16.56
+    },
+    {
+     "texto": "so",
+     "inicio": 16.56,
+     "fin": 16.82
+    },
+    {
+     "texto": "they",
+     "inicio": 16.82,
+     "fin": 16.92
+    },
+    {
+     "texto": "spin",
+     "inicio": 16.92,
+     "fin": 17.12
+    },
+    {
+     "texto": "clockwise,",
+     "inicio": 17.12,
+     "fin": 17.58
+    },
+    {
+     "texto": "on",
+     "inicio": 18.06,
+     "fin": 18.24
+    },
+    {
+     "texto": "low.",
+     "inicio": 18.24,
+     "fin": 18.42
+    }
+   ],
+   "inicio": 15.14,
+   "fin": 18.42
+  },
+  {
+   "texto": "Now the fan pulls air up, and the warm air stuck near the ceiling gets pushed down and around the room.",
+   "palabras": [
+    {
+     "texto": "Now",
+     "inicio": 18.98,
+     "fin": 19.18
+    },
+    {
+     "texto": "the",
+     "inicio": 19.18,
+     "fin": 19.4
+    },
+    {
+     "texto": "fan",
+     "inicio": 19.4,
+     "fin": 19.64
+    },
+    {
+     "texto": "pulls",
+     "inicio": 19.64,
+     "fin": 19.82
+    },
+    {
+     "texto": "air",
+     "inicio": 19.82,
+     "fin": 20.1
+    },
+    {
+     "texto": "up,",
+     "inicio": 20.1,
+     "fin": 20.44
+    },
+    {
+     "texto": "and",
+     "inicio": 20.68,
+     "fin": 20.94
+    },
+    {
+     "texto": "the",
+     "inicio": 20.94,
+     "fin": 21.06
+    },
+    {
+     "texto": "warm",
+     "inicio": 21.06,
+     "fin": 21.28
+    },
+    {
+     "texto": "air",
+     "inicio": 21.28,
+     "fin": 21.48
+    },
+    {
+     "texto": "stuck",
+     "inicio": 21.48,
+     "fin": 21.82
+    },
+    {
+     "texto": "near",
+     "inicio": 21.82,
+     "fin": 22.04
+    },
+    {
+     "texto": "the",
+     "inicio": 22.04,
+     "fin": 22.18
+    },
+    {
+     "texto": "ceiling",
+     "inicio": 22.18,
+     "fin": 22.44
+    },
+    {
+     "texto": "gets",
+     "inicio": 22.44,
+     "fin": 22.84
+    },
+    {
+     "texto": "pushed",
+     "inicio": 22.84,
+     "fin": 23.08
+    },
+    {
+     "texto": "down",
+     "inicio": 23.08,
+     "fin": 23.54
+    },
+    {
+     "texto": "and",
+     "inicio": 23.54,
+     "fin": 23.86
+    },
+    {
+     "texto": "around",
+     "inicio": 23.86,
+     "fin": 24.08
+    },
+    {
+     "texto": "the",
+     "inicio": 24.08,
+     "fin": 24.24
+    },
+    {
+     "texto": "room.",
+     "inicio": 24.24,
+     "fin": 24.42
+    }
+   ],
+   "inicio": 18.98,
+   "fin": 24.42
+  },
+  {
+   "texto": "That's the advice from the U.S. Department of Energy.",
+   "palabras": [
+    {
+     "texto": "That's",
+     "inicio": 24.88,
+     "fin": 25.16
+    },
+    {
+     "texto": "the",
+     "inicio": 25.16,
+     "fin": 25.24
+    },
+    {
+     "texto": "advice",
+     "inicio": 25.24,
+     "fin": 25.48
+    },
+    {
+     "texto": "from",
+     "inicio": 25.48,
+     "fin": 25.66
+    },
+    {
+     "texto": "the",
+     "inicio": 25.66,
+     "fin": 25.76
+    },
+    {
+     "texto": "U.S.",
+     "inicio": 25.76,
+     "fin": 26.06
+    },
+    {
+     "texto": "Department",
+     "inicio": 26.12,
+     "fin": 26.32
+    },
+    {
+     "texto": "of",
+     "inicio": 26.32,
+     "fin": 26.52
+    },
+    {
+     "texto": "Energy.",
+     "inicio": 26.52,
+     "fin": 26.8
+    }
+   ],
+   "inicio": 24.88,
+   "fin": 26.8
+  },
+  {
+   "texto": "Heads up: a fan cools people, not rooms, so turn it off when you leave.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 27.32,
+     "fin": 27.58
+    },
+    {
+     "texto": "up:",
+     "inicio": 27.58,
+     "fin": 27.74
+    },
+    {
+     "texto": "a",
+     "inicio": 28.02,
+     "fin": 28.1
+    },
+    {
+     "texto": "fan",
+     "inicio": 28.1,
+     "fin": 28.5
+    },
+    {
+     "texto": "cools",
+     "inicio": 28.5,
+     "fin": 28.9
+    },
+    {
+     "texto": "people,",
+     "inicio": 28.9,
+     "fin": 29.42
+    },
+    {
+     "texto": "not",
+     "inicio": 29.68,
+     "fin": 29.9
+    },
+    {
+     "texto": "rooms,",
+     "inicio": 29.9,
+     "fin": 30.4
+    },
+    {
+     "texto": "so",
+     "inicio": 30.84,
+     "fin": 31.04
+    },
+    {
+     "texto": "turn",
+     "inicio": 31.04,
+     "fin": 31.42
+    },
+    {
+     "texto": "it",
+     "inicio": 31.42,
+     "fin": 31.56
+    },
+    {
+     "texto": "off",
+     "inicio": 31.56,
+     "fin": 31.72
+    },
+    {
+     "texto": "when",
+     "inicio": 31.72,
+     "fin": 31.88
+    },
+    {
+     "texto": "you",
+     "inicio": 31.88,
+     "fin": 31.98
+    },
+    {
+     "texto": "leave.",
+     "inicio": 31.98,
+     "fin": 32.22
+    }
+   ],
+   "inicio": 27.32,
+   "fin": 32.22
+  },
+  {
+   "texto": "Not sure which way yours spins? Stand under it. A breeze on your head means it's pushing air down.",
+   "palabras": [
+    {
+     "texto": "Not",
+     "inicio": 32.64,
+     "fin": 32.86
+    },
+    {
+     "texto": "sure",
+     "inicio": 32.86,
+     "fin": 33.08
+    },
+    {
+     "texto": "which",
+     "inicio": 33.08,
+     "fin": 33.22
+    },
+    {
+     "texto": "way",
+     "inicio": 33.22,
+     "fin": 33.38
+    },
+    {
+     "texto": "yours",
+     "inicio": 33.38,
+     "fin": 33.54
+    },
+    {
+     "texto": "spins?",
+     "inicio": 33.54,
+     "fin": 33.84
+    },
+    {
+     "texto": "Stand",
+     "inicio": 34.4,
+     "fin": 34.7
+    },
+    {
+     "texto": "under",
+     "inicio": 34.7,
+     "fin": 34.98
+    },
+    {
+     "texto": "it.",
+     "inicio": 34.98,
+     "fin": 35.1
+    },
+    {
+     "texto": "A",
+     "inicio": 35.54,
+     "fin": 35.64
+    },
+    {
+     "texto": "breeze",
+     "inicio": 35.64,
+     "fin": 35.88
+    },
+    {
+     "texto": "on",
+     "inicio": 35.88,
+     "fin": 36.08
+    },
+    {
+     "texto": "your",
+     "inicio": 36.08,
+     "fin": 36.2
+    },
+    {
+     "texto": "head",
+     "inicio": 36.2,
+     "fin": 36.48
+    },
+    {
+     "texto": "means",
+     "inicio": 36.48,
+     "fin": 36.86
+    },
+    {
+     "texto": "it's",
+     "inicio": 36.86,
+     "fin": 37.24
+    },
+    {
+     "texto": "pushing",
+     "inicio": 37.24,
+     "fin": 37.56
+    },
+    {
+     "texto": "air",
+     "inicio": 37.56,
+     "fin": 37.9
+    },
+    {
+     "texto": "down.",
+     "inicio": 37.9,
+     "fin": 38.26
+    }
+   ],
+   "inicio": 32.64,
+   "fin": 38.26
+  },
+  {
+   "texto": "Send this to the friend who's never looked for that switch.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 38.8,
+     "fin": 39.2
+    },
+    {
+     "texto": "this",
+     "inicio": 39.2,
+     "fin": 39.44
+    },
+    {
+     "texto": "to",
+     "inicio": 39.44,
+     "fin": 39.62
+    },
+    {
+     "texto": "the",
+     "inicio": 39.62,
+     "fin": 39.72
+    },
+    {
+     "texto": "friend",
+     "inicio": 39.72,
+     "fin": 39.94
+    },
+    {
+     "texto": "who's",
+     "inicio": 39.94,
+     "fin": 40.24
+    },
+    {
+     "texto": "never",
+     "inicio": 40.24,
+     "fin": 40.54
+    },
+    {
+     "texto": "looked",
+     "inicio": 40.54,
+     "fin": 40.84
+    },
+    {
+     "texto": "for",
+     "inicio": 40.84,
+     "fin": 40.98
+    },
+    {
+     "texto": "that",
+     "inicio": 40.98,
+     "fin": 41.14
+    },
+    {
+     "texto": "switch.",
+     "inicio": 41.14,
+     "fin": 41.36
+    }
+   ],
+   "inicio": 38.8,
+   "fin": 41.36
+  }
+ ]
+}

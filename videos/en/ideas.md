@@ -11,7 +11,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [usada → en-003-fridge-leftovers] 001-heladera · Do you have to let leftovers cool before the fridge? (USDA: 2-hour rule, shallow containers, 40 °F) — EL MÁS ENVIADO DE ESPAÑOL (2.901 compartidos) — serie: cocina
 - [usada → en-005-fridge-part-2] 021-heladera-parte-2 · Fridge part 2: cover it? and how many days do leftovers last? (USDA: 3–4 days) — hacelo después del 001, como continuación — serie: cocina
 - [usada → en-007-flip-steak] 003-vuelta-carne · Flip your steak only once? (grilling myth; fuentes de EE. UU.: USDA para temperatura interna en °F, estudios/ATK si los hay) — serie: cocina
-- [ ] 012-lavar-pollo · Should you wash raw chicken? (USDA/CDC: no) — serie: cocina
+- [descartada por ahora: chequeo rechazado 2 veces (en-008-wash-chicken); el "pasa a lo que tocás después" no tiene fuente primaria; rehacer solo con la frase del CDC y el dato de 1 de cada 4 con ensalada contaminada] 012-lavar-pollo · Should you wash raw chicken? (USDA/CDC: no) — serie: cocina
 - [ ] 015-descongelar-mesada · Can you thaw meat on the counter? (USDA: fridge, cold water, microwave) — serie: cocina
 - [ ] 002-corte-digestion · Wait 30 minutes after eating to swim? (en EE. UU. el mito es "30 minutes"; salud/seguridad: solo verificado, Red Cross) — serie: cuerpo
 - [ ] 009-ventilador-pieza-vacia · Does a fan cool the room? (turn it off when you leave; DOE) — serie: casa
@@ -36,7 +36,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 ## Temas de EE. UU. — serie: casa (Home myths)
 - [ ] Do chargers left plugged in waste electricity? (phantom load, DOE; plata: solo verificado)
 - [ ] Does turning the thermostat down at night save money? (DOE: up to ~10 % a year with 7–10 °F for 8 h; plata: solo verificado)
-- [ ] Which way should your ceiling fan spin in winter? (DOE)
+- [usada → en-009-ceiling-fan] Which way should your ceiling fan spin in winter? (DOE)
 - [ ] Does leaving the lights on use less power than switching them on and off? (DOE)
 
 ## Temas de EE. UU. — serie: clima (Weather explained)
