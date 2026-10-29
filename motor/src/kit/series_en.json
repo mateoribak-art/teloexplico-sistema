@@ -48,6 +48,10 @@
     "en-010-thermostat-night": [
       "casa",
       3
+    ],
+    "en-011-thaw-counter": [
+      "cocina",
+      6
     ]
   }
 }

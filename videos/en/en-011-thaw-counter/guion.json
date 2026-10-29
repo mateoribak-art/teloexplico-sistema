@@ -1,0 +1,53 @@
+{
+ "titulo": "Can you thaw meat on the counter?",
+ "fuentes": [
+  "USDA FSIS: The Big Thaw — Safe Defrosting Methods",
+  "USDA FSIS: Danger Zone (40 °F–140 °F) and the two-hour rule"
+ ],
+ "frases": [
+  {
+   "texto": "You thaw your meat on the counter all morning.",
+   "estilo": "Casual, like stating something obvious."
+  },
+  {
+   "texto": "That's backwards.",
+   "estilo": "Dry and punchy, with a half smile."
+  },
+  {
+   "texto": "The outside warms up while the middle can still be frozen.",
+   "estilo": "Clear, explaining."
+  },
+  {
+   "texto": "That outer layer can end up between forty and one hundred forty degrees, where bacteria multiply fast.",
+   "estilo": "A touch of mystery."
+  },
+  {
+   "texto": "The USDA says it plain: never thaw meat on the counter.",
+   "estilo": "Firm, citing the source."
+  },
+  {
+   "texto": "Three safe ways. The fridge: safest, but plan ahead.",
+   "estilo": "Step one, practical."
+  },
+  {
+   "texto": "Cold water, in a leakproof bag, changing the water every thirty minutes.",
+   "estilo": "Step two, clear."
+  },
+  {
+   "texto": "Or the microwave, then cook it right away.",
+   "estilo": "Step three, quick."
+  },
+  {
+   "texto": "Heads up: perishable food shouldn't sit out more than two hours, or one hour at ninety degrees or hotter.",
+   "estilo": "Warm, with the caveat."
+  },
+  {
+   "texto": "So tonight, move the meat from the freezer to the fridge. Done.",
+   "estilo": "Practical, friendly."
+  },
+  {
+   "texto": "Send this to the friend who leaves the chicken out on the counter all day.",
+   "estilo": "Playful, with humor."
+  }
+ ]
+}

@@ -12,7 +12,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [usada → en-005-fridge-part-2] 021-heladera-parte-2 · Fridge part 2: cover it? and how many days do leftovers last? (USDA: 3–4 days) — hacelo después del 001, como continuación — serie: cocina
 - [usada → en-007-flip-steak] 003-vuelta-carne · Flip your steak only once? (grilling myth; fuentes de EE. UU.: USDA para temperatura interna en °F, estudios/ATK si los hay) — serie: cocina
 - [usada → en-008-wash-chicken (rehecha sin la frase no verificable; chequeo aprobado 29/10)] 012-lavar-pollo · Should you wash raw chicken? (USDA/CDC: no) — serie: cocina
-- [ ] 015-descongelar-mesada · Can you thaw meat on the counter? (USDA: fridge, cold water, microwave) — serie: cocina
+- [usada → en-011-thaw-counter] 015-descongelar-mesada · Can you thaw meat on the counter? (USDA: fridge, cold water, microwave) — serie: cocina
 - [ ] 002-corte-digestion · Wait 30 minutes after eating to swim? (en EE. UU. el mito es "30 minutes"; salud/seguridad: solo verificado, Red Cross) — serie: cuerpo
 - [ ] 009-ventilador-pieza-vacia · Does a fan cool the room? (turn it off when you leave; DOE) — serie: casa
 - [ ] 008-aire-en-17 · Cranking the thermostat to 60 °F doesn't cool faster (DOE; en °F) — serie: casa

@@ -315,5 +315,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-011-thaw-counter",
+  "tema": "Can you thaw meat on the counter? (adapted from 015)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-29T13:35",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-29T13:35",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-10-29T13:41",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-29T13:58",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

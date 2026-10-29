@@ -9,13 +9,11 @@
     {"texto": "¿Entrás a tu casa muerto de calor y ponés el aire en diecisiete para que enfríe más rápido?", "estilo": "Intriga, como si te agarrara en falta."},
     {"texto": "Te comiste un verso. En diecisiete no enfría ni un segundo más rápido que en veinticuatro.", "estilo": "Seco y contundente, con media sonrisa."},
     {"texto": "El termostato no es el acelerador. Es el destino.", "estilo": "Revelación, pausado."},
-    {"texto": "Vos le decís hasta qué temperatura tiene que llegar. No a qué velocidad llega.", "estilo": "Explicativo, tranquilo."},
-    {"texto": "El equipo arranca a toda potencia igual, le pidas diecisiete o veinticuatro. Enfría al mismo ritmo.", "estilo": "Claro, marcando el dato."},
-    {"texto": "Lo único que cambia es cuánto tiempo trabaja: en diecisiete el compresor sigue a full mucho más, buscando un frío que ni querías.", "estilo": "Con énfasis en el tiempo que pasa."},
+    {"texto": "El equipo arranca a toda potencia igual, le pidas diecisiete o veinticuatro.", "estilo": "Claro, marcando el dato."},
+    {"texto": "Lo único que cambia es cuánto tiempo trabaja, buscando un frío que ni querías.", "estilo": "Con énfasis en el tiempo que pasa."},
     {"texto": "Y ese ratito de más se paga: la Secretaría de Energía dice que cada grado que bajás de veinticuatro suma como un ocho por ciento de consumo.", "estilo": "Dato duro, nombrando la fuente."},
-    {"texto": "¿Por qué caemos? Lo pensamos como la hornalla: más número, más fuerza. Pero el aire no va así.", "estilo": "Cómplice, explicando el origen."},
-    {"texto": "Ojo: si dejás una ventana abierta o entra el sol, no llega a ningún número. Ahí sí tenés un problema, pero no es el termostato.", "estilo": "Matiz honesto, señalando."},
-    {"texto": "La regla: ponelo en veinticuatro y cerrá puertas y ventanas. Enfría igual de rápido y gastás bastante menos.", "estilo": "Consejo práctico, firme."},
-    {"texto": "Así que bajale el numerito… al verso que te vendieron. Mandáselo a ese que pone el aire en diecisiete para que enfríe más rápido.", "estilo": "Cómplice, con humor, cierre que rima con el principio."}
+    {"texto": "Ojo: con una ventana abierta o el sol pegando, no llega a ningún número. Ahí el problema no es el termostato.", "estilo": "Matiz honesto, señalando."},
+    {"texto": "La regla: veinticuatro y puertas y ventanas cerradas. Enfría igual de rápido y gastás bastante menos.", "estilo": "Consejo práctico, firme."},
+    {"texto": "Mandáselo a ese que pone el aire en diecisiete para que enfríe más rápido.", "estilo": "Cómplice, con humor, cierre que rima con el principio."}
   ]
 }

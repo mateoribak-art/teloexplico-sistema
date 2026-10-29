@@ -8,4 +8,5 @@
 2026-10-28 en-008-wash-chicken · adaptado de 012-lavar-pollo · apartado (chequeo rechazado 2 veces: "bacteria in the sink can end up on whatever you touch next" solo llega a probable; tema de seguridad)
 2026-10-28 en-009-ceiling-fan · propio · en estado render (3D; chequeo aprobado en 2.º intento: "Most ceiling fans have…", "down and around the room"; lo renderiza producir.py)
 2026-10-29 en-008-wash-chicken · adaptado de 012-lavar-pollo · en estado render (rehecho en 3D con la frase no verificable sacada; chequeo aprobado, todo verificado; lo renderiza producir.py)
+2026-10-29 en-011-thaw-counter · adaptado de 015-descongelar-mesada · en estado render (3D; chequeo rechazado 1.ª vez por "no food"/"sits"/"stays frozen", aprobado en 2.º intento con "perishable food", "can end up", "can still be frozen"; lo renderiza producir.py)
 2026-10-29 en-010-thermostat-night · propio · en estado render (3D; chequeo aprobado en 1.er intento, todo verificado con DOE; lo renderiza producir.py)

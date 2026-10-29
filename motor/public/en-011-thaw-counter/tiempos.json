@@ -1,0 +1,707 @@
+{
+ "duracion": 41.2,
+ "frases": [
+  {
+   "texto": "You thaw your meat on the counter all morning.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "thaw",
+     "inicio": 0.14,
+     "fin": 0.48
+    },
+    {
+     "texto": "your",
+     "inicio": 0.48,
+     "fin": 0.58
+    },
+    {
+     "texto": "meat",
+     "inicio": 0.58,
+     "fin": 0.86
+    },
+    {
+     "texto": "on",
+     "inicio": 0.86,
+     "fin": 1.02
+    },
+    {
+     "texto": "the",
+     "inicio": 1.02,
+     "fin": 1.16
+    },
+    {
+     "texto": "counter",
+     "inicio": 1.16,
+     "fin": 1.52
+    },
+    {
+     "texto": "all",
+     "inicio": 1.52,
+     "fin": 1.78
+    },
+    {
+     "texto": "morning.",
+     "inicio": 1.78,
+     "fin": 2.12
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.12
+  },
+  {
+   "texto": "That's backwards.",
+   "palabras": [
+    {
+     "texto": "That's",
+     "inicio": 2.66,
+     "fin": 2.92
+    },
+    {
+     "texto": "backwards.",
+     "inicio": 2.92,
+     "fin": 3.3
+    }
+   ],
+   "inicio": 2.66,
+   "fin": 3.3
+  },
+  {
+   "texto": "The outside warms up while the middle can still be frozen.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 4.04,
+     "fin": 4.2
+    },
+    {
+     "texto": "outside",
+     "inicio": 4.2,
+     "fin": 4.46
+    },
+    {
+     "texto": "warms",
+     "inicio": 4.46,
+     "fin": 4.96
+    },
+    {
+     "texto": "up",
+     "inicio": 4.96,
+     "fin": 5.12
+    },
+    {
+     "texto": "while",
+     "inicio": 5.12,
+     "fin": 5.3
+    },
+    {
+     "texto": "the",
+     "inicio": 5.3,
+     "fin": 5.46
+    },
+    {
+     "texto": "middle",
+     "inicio": 5.46,
+     "fin": 6.04
+    },
+    {
+     "texto": "can",
+     "inicio": 6.04,
+     "fin": 6.28
+    },
+    {
+     "texto": "still",
+     "inicio": 6.28,
+     "fin": 6.48
+    },
+    {
+     "texto": "be",
+     "inicio": 6.48,
+     "fin": 6.6
+    },
+    {
+     "texto": "frozen.",
+     "inicio": 6.6,
+     "fin": 7.0
+    }
+   ],
+   "inicio": 4.04,
+   "fin": 7.0
+  },
+  {
+   "texto": "That outer layer can end up between forty and one hundred forty degrees, where bacteria multiply fast.",
+   "palabras": [
+    {
+     "texto": "That",
+     "inicio": 7.64,
+     "fin": 7.76
+    },
+    {
+     "texto": "outer",
+     "inicio": 7.76,
+     "fin": 8.02
+    },
+    {
+     "texto": "layer",
+     "inicio": 8.02,
+     "fin": 8.36
+    },
+    {
+     "texto": "can",
+     "inicio": 8.36,
+     "fin": 8.64
+    },
+    {
+     "texto": "end",
+     "inicio": 8.64,
+     "fin": 8.82
+    },
+    {
+     "texto": "up",
+     "inicio": 8.82,
+     "fin": 8.96
+    },
+    {
+     "texto": "between",
+     "inicio": 8.96,
+     "fin": 9.24
+    },
+    {
+     "texto": "forty",
+     "inicio": 9.24,
+     "fin": 9.74
+    },
+    {
+     "texto": "and",
+     "inicio": 9.74,
+     "fin": 9.96
+    },
+    {
+     "texto": "one",
+     "inicio": 9.96,
+     "fin": 10.12
+    },
+    {
+     "texto": "hundred",
+     "inicio": 10.12,
+     "fin": 10.34
+    },
+    {
+     "texto": "forty",
+     "inicio": 10.34,
+     "fin": 10.6
+    },
+    {
+     "texto": "degrees,",
+     "inicio": 10.6,
+     "fin": 11.0
+    },
+    {
+     "texto": "where",
+     "inicio": 11.32,
+     "fin": 11.46
+    },
+    {
+     "texto": "bacteria",
+     "inicio": 11.46,
+     "fin": 12.26
+    },
+    {
+     "texto": "multiply",
+     "inicio": 12.26,
+     "fin": 12.86
+    },
+    {
+     "texto": "fast.",
+     "inicio": 12.86,
+     "fin": 13.46
+    }
+   ],
+   "inicio": 7.64,
+   "fin": 13.46
+  },
+  {
+   "texto": "The USDA says it plain: never thaw meat on the counter.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 14.06,
+     "fin": 14.18
+    },
+    {
+     "texto": "USDA",
+     "inicio": 14.18,
+     "fin": 14.6
+    },
+    {
+     "texto": "says",
+     "inicio": 14.6,
+     "fin": 14.96
+    },
+    {
+     "texto": "it",
+     "inicio": 14.96,
+     "fin": 15.14
+    },
+    {
+     "texto": "plain:",
+     "inicio": 15.14,
+     "fin": 15.42
+    },
+    {
+     "texto": "never",
+     "inicio": 15.98,
+     "fin": 16.32
+    },
+    {
+     "texto": "thaw",
+     "inicio": 16.32,
+     "fin": 16.7
+    },
+    {
+     "texto": "meat",
+     "inicio": 16.7,
+     "fin": 16.94
+    },
+    {
+     "texto": "on",
+     "inicio": 16.94,
+     "fin": 17.14
+    },
+    {
+     "texto": "the",
+     "inicio": 17.14,
+     "fin": 17.24
+    },
+    {
+     "texto": "counter.",
+     "inicio": 17.24,
+     "fin": 17.5
+    }
+   ],
+   "inicio": 14.06,
+   "fin": 17.5
+  },
+  {
+   "texto": "Three safe ways. The fridge: safest, but plan ahead.",
+   "palabras": [
+    {
+     "texto": "Three",
+     "inicio": 17.98,
+     "fin": 18.14
+    },
+    {
+     "texto": "safe",
+     "inicio": 18.14,
+     "fin": 18.36
+    },
+    {
+     "texto": "ways.",
+     "inicio": 18.36,
+     "fin": 18.58
+    },
+    {
+     "texto": "The",
+     "inicio": 19.22,
+     "fin": 19.32
+    },
+    {
+     "texto": "fridge:",
+     "inicio": 19.32,
+     "fin": 19.6
+    },
+    {
+     "texto": "safest,",
+     "inicio": 20.08,
+     "fin": 20.66
+    },
+    {
+     "texto": "but",
+     "inicio": 20.88,
+     "fin": 20.98
+    },
+    {
+     "texto": "plan",
+     "inicio": 20.98,
+     "fin": 21.26
+    },
+    {
+     "texto": "ahead.",
+     "inicio": 21.26,
+     "fin": 21.44
+    }
+   ],
+   "inicio": 17.98,
+   "fin": 21.44
+  },
+  {
+   "texto": "Cold water, in a leakproof bag, changing the water every thirty minutes.",
+   "palabras": [
+    {
+     "texto": "Cold",
+     "inicio": 22.02,
+     "fin": 22.28
+    },
+    {
+     "texto": "water,",
+     "inicio": 22.28,
+     "fin": 22.62
+    },
+    {
+     "texto": "in",
+     "inicio": 23.14,
+     "fin": 23.24
+    },
+    {
+     "texto": "a",
+     "inicio": 23.24,
+     "fin": 23.36
+    },
+    {
+     "texto": "leakproof",
+     "inicio": 23.36,
+     "fin": 23.68
+    },
+    {
+     "texto": "bag,",
+     "inicio": 23.68,
+     "fin": 24.04
+    },
+    {
+     "texto": "changing",
+     "inicio": 24.22,
+     "fin": 24.42
+    },
+    {
+     "texto": "the",
+     "inicio": 24.42,
+     "fin": 24.64
+    },
+    {
+     "texto": "water",
+     "inicio": 24.64,
+     "fin": 24.86
+    },
+    {
+     "texto": "every",
+     "inicio": 24.86,
+     "fin": 25.12
+    },
+    {
+     "texto": "thirty",
+     "inicio": 25.12,
+     "fin": 25.36
+    },
+    {
+     "texto": "minutes.",
+     "inicio": 25.36,
+     "fin": 25.7
+    }
+   ],
+   "inicio": 22.02,
+   "fin": 25.7
+  },
+  {
+   "texto": "Or the microwave, then cook it right away.",
+   "palabras": [
+    {
+     "texto": "Or",
+     "inicio": 26.04,
+     "fin": 26.46
+    },
+    {
+     "texto": "the",
+     "inicio": 26.46,
+     "fin": 26.58
+    },
+    {
+     "texto": "microwave,",
+     "inicio": 26.58,
+     "fin": 26.98
+    },
+    {
+     "texto": "then",
+     "inicio": 27.14,
+     "fin": 27.24
+    },
+    {
+     "texto": "cook",
+     "inicio": 27.24,
+     "fin": 27.44
+    },
+    {
+     "texto": "it",
+     "inicio": 27.44,
+     "fin": 27.54
+    },
+    {
+     "texto": "right",
+     "inicio": 27.54,
+     "fin": 27.72
+    },
+    {
+     "texto": "away.",
+     "inicio": 27.72,
+     "fin": 27.98
+    }
+   ],
+   "inicio": 26.04,
+   "fin": 27.98
+  },
+  {
+   "texto": "Heads up: perishable food shouldn't sit out more than two hours, or one hour at ninety degrees or hotter.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 28.44,
+     "fin": 28.7
+    },
+    {
+     "texto": "up:",
+     "inicio": 28.7,
+     "fin": 28.9
+    },
+    {
+     "texto": "perishable",
+     "inicio": 29.14,
+     "fin": 29.56
+    },
+    {
+     "texto": "food",
+     "inicio": 29.56,
+     "fin": 29.86
+    },
+    {
+     "texto": "shouldn't",
+     "inicio": 29.86,
+     "fin": 30.36
+    },
+    {
+     "texto": "sit",
+     "inicio": 30.36,
+     "fin": 30.48
+    },
+    {
+     "texto": "out",
+     "inicio": 30.48,
+     "fin": 30.64
+    },
+    {
+     "texto": "more",
+     "inicio": 30.64,
+     "fin": 30.82
+    },
+    {
+     "texto": "than",
+     "inicio": 30.82,
+     "fin": 31.0
+    },
+    {
+     "texto": "two",
+     "inicio": 31.0,
+     "fin": 31.32
+    },
+    {
+     "texto": "hours,",
+     "inicio": 31.32,
+     "fin": 31.74
+    },
+    {
+     "texto": "or",
+     "inicio": 32.1,
+     "fin": 32.26
+    },
+    {
+     "texto": "one",
+     "inicio": 32.26,
+     "fin": 32.6
+    },
+    {
+     "texto": "hour",
+     "inicio": 32.6,
+     "fin": 32.82
+    },
+    {
+     "texto": "at",
+     "inicio": 32.82,
+     "fin": 32.98
+    },
+    {
+     "texto": "ninety",
+     "inicio": 32.98,
+     "fin": 33.24
+    },
+    {
+     "texto": "degrees",
+     "inicio": 33.24,
+     "fin": 33.48
+    },
+    {
+     "texto": "or",
+     "inicio": 33.48,
+     "fin": 33.7
+    },
+    {
+     "texto": "hotter.",
+     "inicio": 33.7,
+     "fin": 33.94
+    }
+   ],
+   "inicio": 28.44,
+   "fin": 33.94
+  },
+  {
+   "texto": "So tonight, move the meat from the freezer to the fridge. Done.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 34.54,
+     "fin": 34.64
+    },
+    {
+     "texto": "tonight,",
+     "inicio": 34.64,
+     "fin": 35.02
+    },
+    {
+     "texto": "move",
+     "inicio": 35.26,
+     "fin": 35.44
+    },
+    {
+     "texto": "the",
+     "inicio": 35.44,
+     "fin": 35.58
+    },
+    {
+     "texto": "meat",
+     "inicio": 35.58,
+     "fin": 35.74
+    },
+    {
+     "texto": "from",
+     "inicio": 35.74,
+     "fin": 35.9
+    },
+    {
+     "texto": "the",
+     "inicio": 35.9,
+     "fin": 36.0
+    },
+    {
+     "texto": "freezer",
+     "inicio": 36.0,
+     "fin": 36.22
+    },
+    {
+     "texto": "to",
+     "inicio": 36.22,
+     "fin": 36.54
+    },
+    {
+     "texto": "the",
+     "inicio": 36.54,
+     "fin": 36.64
+    },
+    {
+     "texto": "fridge.",
+     "inicio": 36.64,
+     "fin": 36.8
+    },
+    {
+     "texto": "Done.",
+     "inicio": 37.46,
+     "fin": 37.64
+    }
+   ],
+   "inicio": 34.54,
+   "fin": 37.64
+  },
+  {
+   "texto": "Send this to the friend who leaves the chicken out on the counter all day.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 38.12,
+     "fin": 38.34
+    },
+    {
+     "texto": "this",
+     "inicio": 38.34,
+     "fin": 38.5
+    },
+    {
+     "texto": "to",
+     "inicio": 38.5,
+     "fin": 38.64
+    },
+    {
+     "texto": "the",
+     "inicio": 38.64,
+     "fin": 38.74
+    },
+    {
+     "texto": "friend",
+     "inicio": 38.74,
+     "fin": 38.98
+    },
+    {
+     "texto": "who",
+     "inicio": 38.98,
+     "fin": 39.18
+    },
+    {
+     "texto": "leaves",
+     "inicio": 39.18,
+     "fin": 39.42
+    },
+    {
+     "texto": "the",
+     "inicio": 39.42,
+     "fin": 39.62
+    },
+    {
+     "texto": "chicken",
+     "inicio": 39.62,
+     "fin": 39.8
+    },
+    {
+     "texto": "out",
+     "inicio": 39.8,
+     "fin": 40.0
+    },
+    {
+     "texto": "on",
+     "inicio": 40.0,
+     "fin": 40.16
+    },
+    {
+     "texto": "the",
+     "inicio": 40.16,
+     "fin": 40.28
+    },
+    {
+     "texto": "counter",
+     "inicio": 40.28,
+     "fin": 40.5
+    },
+    {
+     "texto": "all",
+     "inicio": 40.5,
+     "fin": 40.88
+    },
+    {
+     "texto": "day.",
+     "inicio": 40.88,
+     "fin": 41.1
+    }
+   ],
+   "inicio": 38.12,
+   "fin": 41.1
+  }
+ ]
+}

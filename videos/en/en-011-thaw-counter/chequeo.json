@@ -1,0 +1,20 @@
+{
+ "veredicto": "aprobado",
+ "motivo": "Se releyeron guion.json y caption.txt con las correcciones aplicadas. Todas las frases de salud/seguridad quedan verificadas contra USDA FSIS y con el alcance correcto: 'perishable food' en la regla de 2 h / 1 h a 90 °F o más, 'can end up' para la capa externa en 40-140 °F, 'can still be frozen' para el centro, y 'meat' (perecedero) para 'never thaw on the counter'. Cifras y unidades (°F, 2 h, 1 h, 30 min) coinciden con la fuente. No hay frases dudosas ni falsas; no hay cifras presentadas como probables. Limitación: fsis.usda.gov devolvió 403 al fetch directo; el texto se confirmó por resultados de búsqueda que citan páginas de FSIS (Big Thaw incluida la copia fsis-dev, Danger Zone, Leftovers and Food Safety, Turkey Basics: Safe Thawing, Your Safe Thanksgiving Guide), no leyendo cada página completa.",
+ "afirmaciones": [
+  {"texto": "You thaw your meat on the counter all morning.", "fuente": "No es afirmación fáctica; planteo del mito", "estado": "verificada", "matiz_ok": true},
+  {"texto": "That's backwards.", "fuente": "USDA FSIS, The Big Thaw: perishable foods should never be thawed on the counter", "estado": "verificada", "matiz_ok": true},
+  {"texto": "The outside warms up while the middle can still be frozen.", "fuente": "USDA FSIS, The Big Thaw: 'Even though the center of the package may still be frozen as it thaws on the counter, the outer layer of the food could be in the Danger Zone'", "estado": "verificada", "matiz_ok": true},
+  {"texto": "That outer layer can end up between forty and one hundred forty degrees, where bacteria multiply fast.", "fuente": "USDA FSIS, The Big Thaw y Danger Zone (40 °F-140 °F): 'could be in the Danger Zone, between 40 and 140 °F, temperatures where bacteria multiply rapidly'", "estado": "verificada", "matiz_ok": true},
+  {"texto": "The USDA says it plain: never thaw meat on the counter.", "fuente": "USDA FSIS, The Big Thaw: 'Perishable foods should never be thawed on the counter, or in hot water'; la carne es perecedera", "estado": "verificada", "matiz_ok": true},
+  {"texto": "Three safe ways. The fridge: safest, but plan ahead.", "fuente": "USDA FSIS, Turkey Basics: Safe Thawing / Your Safe Thanksgiving Guide: heladera, agua fría y microondas son los tres métodos seguros; la heladera es la recomendada y requiere planificar días", "estado": "verificada", "matiz_ok": true},
+  {"texto": "Cold water, in a leakproof bag, changing the water every thirty minutes.", "fuente": "USDA FSIS, The Big Thaw: bolsa a prueba de fugas en agua fría, cambiar el agua cada 30 minutos", "estado": "verificada", "matiz_ok": true},
+  {"texto": "Or the microwave, then cook it right away.", "fuente": "USDA FSIS, The Big Thaw: cocinar de inmediato tras descongelar en microondas", "estado": "verificada", "matiz_ok": true},
+  {"texto": "Heads up: perishable food shouldn't sit out more than two hours, or one hour at ninety degrees or hotter.", "fuente": "USDA FSIS, Danger Zone (40 °F-140 °F); Leftovers and Food Safety: perecederos, 2 h, o 1 h si la temperatura es de 90 °F o más", "estado": "verificada", "matiz_ok": true},
+  {"texto": "So tonight, move the meat from the freezer to the fridge. Done.", "fuente": "Consistente con USDA FSIS (descongelar en heladera)", "estado": "verificada", "matiz_ok": true},
+  {"texto": "Caption: 'The outside of the meat warms up while the middle can still be frozen. That outer layer can end up between 40 °F and 140 °F...'", "fuente": "USDA FSIS, The Big Thaw; Danger Zone", "estado": "verificada", "matiz_ok": true},
+  {"texto": "Caption: 'The USDA says never thaw meat on the counter.'", "fuente": "USDA FSIS, The Big Thaw", "estado": "verificada", "matiz_ok": true},
+  {"texto": "Caption: 'perishable food shouldn't sit out more than 2 hours, or 1 hour at 90 °F or hotter.'", "fuente": "USDA FSIS, Danger Zone (40 °F-140 °F)", "estado": "verificada", "matiz_ok": true},
+  {"texto": "Caption: 'Three safe ways... 30 minutes... cook it right away.'", "fuente": "USDA FSIS, The Big Thaw", "estado": "verificada", "matiz_ok": true}
+ ]
+}

@@ -6,3 +6,14 @@ Uso: 53 pasos · 78,758 tokens nuevos · 1,701,107 de caché · 16,469 escritos 
 2026-10-29 07:29 Render de 011-sal-agua-hierve (sin Claude).
 2026-10-29 08:15 011-sal-agua-hierve: listo (render sin Claude)
 2026-10-29 08:15 Termina la producción (ok).
+2026-10-29 13:20 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Rehice `008-aire-en-17` en 3D y lo dejé en estado `render` (todavía no está listo). `producir.py` lo renderiza y lo pasa a `listo` al terminar el turno. En esta corrida no produje ningún video nuevo.
+
+- **Listo:** ninguno todavía. `011-sal-agua-hierve`, que rescaté antes del apartado, también quedó en render.
+- **Qué hice con el 008:** era el siguiente pedido de Mateo y no era un video nuevo, porque la cola ya tenía 11 listos. El guion bajó de 11 a 9 frases y la voz de 75 s a 50 s. Solo saqué frases que el chequeo ya había aprobado, así que no repetí el chequeo. Regeneré la voz (147 palabras del guion, 147 oídas). Escribí la escena nueva (`kit3d/objetos/Aire.tsx` y el `Video.tsx`) y pasé `tsc` sin errores. Hice 2 vueltas de cuadros; no se renderizó el video entero.
+- **Apartados sin tocar:** `013-alcohol-calor` ya falló el chequeo dos veces y es tema de salud, así que no lo rescaté. `005-granizo-calor` y `010-rayo-mismo-lugar` tampoco los toqué.
+- **Registro:** actualicé `videos/produccion.log` y la lista de rehechos en `videos/ideas.md`. Quedan 3 de los 7 rehechos pedidos: `014-celular-arroz`, `018-refresca-tormenta` y `012-lavar-pollo`.
+Uso: 48 pasos · 81,100 tokens nuevos · 1,476,985 de caché · 16,093 escritos · equivale a US$ 0.63 de API
+2026-10-29 13:26 Render de 008-aire-en-17 (sin Claude).
+2026-10-29 13:34 008-aire-en-17: listo (render sin Claude)
+2026-10-29 13:34 Termina la producción (ok).
