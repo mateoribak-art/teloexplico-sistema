@@ -1,292 +1,297 @@
 import React from "react";
-import { AbsoluteFill, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, interpolate, staticFile, useCurrentFrame } from "remotion";
 import { Audio } from "@remotion/media";
 import tiemposJson from "../../../public/019-sensacion-termica/tiempos.json";
-import { C } from "../../kit/marca";
-import { clamp, entre, golpe, pop } from "../../kit/anim";
 import { reloj, type Tiempos } from "../../kit/tiempos";
-import { Etiqueta, Fondo, Fuente, Globo, Logo, Musica, Sello, Sfx, Subtitulos, Titulo, type Efecto } from "../../kit/piezas";
-import { DUR_SELLO_FINAL, Lienzo, SelloFinal, TituloHablado } from "../../kit/comun";
+import { Musica, Sfx, type Efecto } from "../../kit/piezas";
+import { Estudio, PisoSombra } from "../../kit3d/Estudio";
+import { Camara, type Toma } from "../../kit3d/camara";
+import { ACENTO, Chip, Cierre3D, DUR_CIERRE_3D, Marco3D, Subtitulo3D } from "../../kit3d/textos";
+import { Calor, type EstadoCalor } from "../../kit3d/objetos/Calor";
 import { Portada } from "../../kit/Portada";
-import { Camara, Contador, Flujo, Piso, Rotulo, SolVolumen, TONO, toma } from "../../kit/diagrama";
-import { Persona, Termometro } from "../../kit/biblioteca";
+import { C } from "../../kit/marca";
 
-// Mundo: un patio al sol. En el medio, vos (la persona) con sudor en la cara; a la izquierda el termómetro real (siempre 38),
-// a la derecha el que "se siente como". El aire se llena de gotitas de humedad: con poca humedad el sudor se evapora (vapor que sube),
-// con mucha queda pegado y el termómetro de la sensación sube.
+// Sensación térmica, en 3D (rehecha el 28/10 desde la 2D). Una persona sin cara sudando junto a dos
+// termómetros: el real (38) y el "se siente como". Las gotas se evaporan (aire seco) o se quedan y
+// chorrean (aire húmedo); partículas azules muestran la humedad; un toldo da sombra y el sol sube todo.
 
 const tiempos = tiemposJson as Tiempos;
 export const FPS = 30;
 const r = reloj(tiempos, FPS);
 
 const E = {
-  gancho: r.f(0),
-  sudor: r.f(1),
-  evapora: r.f(2),
+  g0: r.f(0),
+  treinta: r.p(0, 3),
+  ocho: r.p(0, 5),
+  mucho: r.w(0, "mucho"),
+  porque: r.p(0, 13),
+  s1: r.f(1),
+  sudorW: r.w(1, "sudor"),
+  s2: r.f(2),
+  evaporaW: r.w(2, "evapora"),
   seco: r.f(3),
   humedo: r.f(4),
-  numeros: r.f(5),
+  cocinando: r.w(4, "cocinando"),
+  d: r.f(5),
+  quince: r.p(5, 14),
+  seis: r.p(5, 25),
+  cincuenta: r.p(5, 27),
+  uno: r.p(5, 33),
   ojo: r.f(6),
-  sol: r.f(7),
-  remate: r.f(8),
+  formula: r.w(6, "fórmula"),
+  sombra: r.f(7),
+  sombraW: r.w(7, "sombra"),
+  solW: r.w(7, "sol"),
+  misma: r.f(8),
+  humedadW: r.w(8, "humedad"),
   cta: r.f(9),
-  sello: r.fin(9) + 2,
+  fin: r.fin(9),
 };
-export const DURACION = E.sello + DUR_SELLO_FINAL;
+export const DURACION = E.fin + 4 + DUR_CIERRE_3D;
 
-const SUELO = 1330;
-const XP = 540;
-const XA = 190; // termómetro real
-const XB = 890; // termómetro "se siente como"
-const ESC = 1.25; // persona
-const ESCT = 1.2; // termómetros
-const K = ESC / 0.9;
-const CARA = SUELO - 306 * ESC / 0.9 * 0.9; // y del centro de la cara
-const val = (t: number) => (t - 20) / 31; // 20 °C → 0, 51 °C → 1
-
-/** Humedad del aire en el momento (0 seco → 1 muy húmedo). */
-const humedad = (f: number) => {
-  if (f < E.seco) return 0.4;
-  if (f < E.humedo) return 0.08;
-  if (f < r.w(5, "cincuenta")) return f < E.numeros + 4 ? 0.9 : 0.08;
-  return 0.9;
+const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
+/** interpolación por tramos que tolera frames repetidos (frases muy pegadas) */
+const k = (frame: number, pares: [number, number][]) => {
+  const xs: number[] = [];
+  const ys: number[] = [];
+  for (const [x, y] of pares) {
+    const xx = xs.length && x <= xs[xs.length - 1] ? xs[xs.length - 1] + 1 : x;
+    xs.push(xx);
+    ys.push(y);
+  }
+  return interpolate(frame, xs, ys, clamp);
 };
 
-/** Valor del termómetro "se siente como". */
-const sensacion = (f: number) => {
-  const m = r.w(0, "más");
-  if (f < r.w(0, "siente")) return val(38);
-  if (f < E.seco) return interpolate(f, [r.w(0, "siente"), m + 6], [val(38), 0.97], clamp);
-  if (f < E.humedo) return interpolate(f, [E.seco, E.seco + 24], [0.97, val(36)], clamp);
-  if (f < r.w(5, "quince")) return interpolate(f, [E.humedo, E.humedo + 40], [val(36), 0.85], clamp);
-  if (f < r.w(5, "cincuenta")) return interpolate(f, [r.w(5, "quince"), r.w(5, "quince") + 14], [0.85, val(36)], clamp);
-  return interpolate(f, [r.w(5, "cincuenta"), r.w(5, "cincuenta") + 26], [val(36), 1], clamp);
-};
-
-const Gotitas: React.FC<{ f: number; hum: number }> = ({ f, hum }) => {
-  const n = Math.round(3 + 36 * hum);
-  return (
-    <g fill={C.azul} stroke={C.tinta} strokeWidth={3}>
-      {Array.from({ length: n }).map((_, i) => {
-        const x = 90 + ((i * 397) % 900);
-        const y = 780 + ((i * 251) % 500);
-        return <circle key={i} cx={x + Math.sin(f / 9 + i) * 10} cy={y + Math.cos(f / 11 + i * 2) * 8} r={13} opacity={0.75} />;
-      })}
-    </g>
-  );
-};
-
-const Sudor: React.FC<{ f: number; n: number }> = ({ f, n }) => {
-  const OFF = [[-50, -20], [48, -30], [-30, 20], [40, 20], [0, -60], [-55, 35], [58, 5], [10, 40]];
-  return (
-    <g>
-      {OFF.slice(0, n).map(([dx, dy], i) => {
-        const d = ((f * 1.2 + i * 17) % 50) * 0.5;
-        return (
-          <path key={i} transform={`translate(${XP + dx * K} ${CARA + dy * K + d}) scale(${K})`}
-            d="M0 -16 C10 -2 10 10 0 10 C-10 10 -10 -2 0 -16 Z" fill={C.azul} stroke={C.tinta} strokeWidth={3} />
-        );
-      })}
-    </g>
-  );
-};
-
-const Mundo: React.FC = () => {
-  const f = useCurrentFrame();
-  const hum = humedad(f);
-  const ndrops = f < E.sudor ? 2 : f < E.humedo ? 4 : 8;
-  const vapor = f >= E.evapora && f < E.humedo ? 1 : 0;
-  const vaporSeco = f >= E.seco && f < E.humedo;
-  const gesto = f >= E.humedo ? "preocupada" : "sorprendida";
-  const sol = f >= E.sol;
-  return (
-    <svg width={1080} height={1920} style={{ position: "absolute", inset: 0, overflow: "visible" }}>
-      <rect x={-1500} y={-2000} width={4080} height={SUELO + 2000} fill={hum > 0.5 ? TONO.nubeMedio : "#FFF3D1"} opacity={0.45} />
-      {sol ? <SolVolumen cx={760} cy={700} r={80} t={f} intensidad={1.8} /> : null}
-
-      <Gotitas f={f} hum={hum} />
-
-      {/* vapor que se va (aire seco) o que casi no sale (aire húmedo) */}
-      {f >= E.evapora && f < E.numeros ? (
-        <Flujo x0={XP - 90} x1={XP + 90} yAbajo={CARA - 90} yArriba={CARA - 420} n={vaporSeco || vapor ? 14 : 4}
-          velocidad={vaporSeco ? 2.6 : f >= E.humedo ? 0.25 : 1.4} color={C.azul} tam={8} t={f} opacidad={f >= E.humedo ? 0.5 : 1} />
-      ) : null}
-      {f >= E.numeros && hum < 0.5 ? (
-        <Flujo x0={XP - 90} x1={XP + 90} yAbajo={CARA - 90} yArriba={CARA - 420} n={14} velocidad={2.6} color={C.azul} tam={8} t={f} />
-      ) : null}
-
-      <Persona x={XP} y={SUELO + 8} s={ESC} t={f} gesto={gesto} remera={C.amarillo} pelo="rulos" />
-      {f >= E.sudor - 6 ? <Sudor f={f} n={ndrops} /> : null}
-
-      <Termometro x={XA} y={SUELO} s={ESCT} valor={val(38)} color={C.verde} />
-      <Termometro x={XB} y={SUELO} s={ESCT} valor={sensacion(f)} color={C.rojo} />
-      <Piso y={SUELO} />
-    </svg>
-  );
-};
-
-const Anotaciones: React.FC = () => {
-  const f = useCurrentFrame();
-  return (
-    <>
-      <Contador hasta={38} despues=" °C" desde={4} dur={20} x={XA + 10} y={700} tam={84} color={C.verde} etiqueta="termómetro" />
-      {entre(f, 0, E.seco) ? (
-        <Rotulo texto="se siente como…" desde={r.w(0, "mucho")} x={XB - 10} y={690} ax={XB} ay={SUELO - 520} grande="¿?" tam={26} />
-      ) : null}
-      {entre(f, E.seco, E.humedo) ? (
-        <Rotulo texto="aire seco: se evapora" desde={E.seco + 8} x={540} y={760} ax={XP} ay={CARA - 90} color={C.blanco} fondo={C.verde} tam={32} />
-      ) : null}
-      {entre(f, E.humedo, E.numeros) ? (
-        <Rotulo texto="aire húmedo: no se va" desde={E.humedo + 8} x={540} y={760} ax={XP} ay={CARA - 90} color={C.blanco} fondo={C.azul} tam={32} />
-      ) : null}
-      {entre(f, E.numeros, E.ojo) ? (
-        <>
-          {f < r.w(5, "cincuenta") - 8 ? (
-            <>
-              <Rotulo texto="humedad 15 %" desde={r.w(5, "quince")} x={540} y={760} ax={XP} ay={CARA - 90} color={C.blanco} fondo={C.verde} tam={32} />
-              <Contador hasta={36} despues=" °C" desde={r.w(5, "treinta") + 38} dur={18} x={XB} y={700} tam={84} color={C.rojo} etiqueta="se siente" />
-            </>
-          ) : (
-            <>
-              <Rotulo texto="humedad 55 %" desde={r.w(5, "cincuenta") - 8} x={540} y={760} ax={XP} ay={CARA - 90} color={C.blanco} fondo={C.azul} tam={32} />
-              <Contador hasta={51} despues=" °C" desde={r.w(5, "cincuenta")} dur={26} x={XB} y={700} tam={84} color={C.rojo} etiqueta="se siente" />
-            </>
-          )}
-        </>
-      ) : null}
-      {entre(f, E.ojo, E.sol) ? (
-        <Rotulo texto="temperatura + humedad = fórmula" desde={E.ojo + 10} x={640} y={760} ax={XB} ay={SUELO - 480} tam={30} />
-      ) : null}
-      {entre(f, E.sol, E.remate) ? (
-        <Rotulo texto="al sol: todavía más" desde={r.w(7, "sol")} x={560} y={560} ax={760} ay={650} color={C.tinta} fondo={C.amarillo} tam={32} />
-      ) : null}
-    </>
-  );
-};
-
-const TOMAS = [
-  toma(0, 540, 1000, 1.0), toma(E.sudor - 8, 540, 1000, 1.0), toma(E.sudor + 6, 540, 1060, 1.15), toma(E.evapora, 540, 1000, 1.05),
-  toma(E.seco, 540, 1000, 1.0), toma(E.humedo, 540, 1010, 1.05), toma(E.numeros - 4, 540, 1020, 1.0),
-  toma(E.ojo - 20, 540, 1020, 1.0), toma(E.ojo, 600, 1020, 1.08), toma(E.sol - 4, 600, 1020, 1.08),
-  toma(E.sol, 600, 980, 1.0), toma(E.remate, 540, 1020, 1.0),
+const ANCHO = 34;
+const TOMAS: Toma[] = [
+  // gancho: plano entero, termómetro y persona
+  { f: 0, pos: [-0.2, 1.8, 12.5], mira: [-0.15, 1.35, 0], fov: ANCHO },
+  { f: E.mucho + 10, pos: [-0.3, 1.9, 11.2], mira: [-0.25, 1.5, 0], fov: ANCHO },
+  // "es el sudor": la persona de cerca
+  { f: E.s1 + 8, pos: [0.4, 1.9, 9.4], mira: [0.5, 1.7, 0], fov: 32 },
+  { f: E.s2 + 14, pos: [0.6, 1.9, 6.4], mira: [0.6, 1.8, 0], fov: 30 },
+  // seco / húmedo: plano abierto para ver el aire
+  { f: E.seco - 4, pos: [0.0, 1.8, 11.5], mira: [0, 1.35, 0], fov: ANCHO },
+  { f: E.humedo + 30, pos: [0.0, 1.8, 11.0], mira: [0, 1.35, 0], fov: ANCHO },
+  // el dato: los dos termómetros
+  { f: E.d, pos: [-0.4, 2.0, 9.4], mira: [-0.35, 1.6, 0], fov: 32 },
+  { f: E.uno + 20, pos: [-0.3, 2.0, 9.0], mira: [-0.3, 1.6, 0], fov: 32 },
+  // ojo: fórmula
+  { f: E.ojo + 6, pos: [-0.2, 1.9, 11.5], mira: [-0.15, 1.45, 0], fov: ANCHO },
+  // sombra / sol: se ve el toldo y el sol
+  { f: E.sombra, pos: [0.3, 2.5, 11.5], mira: [0.3, 2.0, 0], fov: ANCHO },
+  { f: E.solW + 20, pos: [0.4, 2.4, 11.5], mira: [0.4, 1.9, 0], fov: ANCHO },
+  // remate y cierre: plano entero como al principio
+  { f: E.misma, pos: [-0.2, 1.8, 12.2], mira: [-0.15, 1.35, 0], fov: ANCHO },
+  { f: DURACION, pos: [-0.2, 1.8, 12.5], mira: [-0.15, 1.35, 0], fov: ANCHO },
 ];
-const GOLPES = [r.w(0, "mucho"), r.w(1, "sudor"), r.w(2, "evapora"), r.w(3, "rápido"), r.w(4, "casi"), r.w(5, "cincuenta"), r.w(6, "Ojo"), r.w(7, "sol"), r.w(8, "humedad")];
 
-const Diagrama: React.FC = () => {
-  const f = useCurrentFrame();
-  if (f >= E.cta) return null;
-  const g = GOLPES.reduce((m, k) => m * golpe(f, k, 1.05, 12), 1);
-  return (
-    <AbsoluteFill style={{ scale: g }}>
-      <Camara tomas={TOMAS}>
-        <Mundo />
-        <Anotaciones />
-      </Camara>
-    </AbsoluteFill>
-  );
-};
+const estado = (frame: number): EstadoCalor => ({
+  frame,
+  realOn: k(frame, [
+    [0, 0],
+    [10, 1],
+  ]),
+  real: k(frame, [
+    [0, 20],
+    [E.treinta, 20],
+    [E.ocho + 6, 38],
+  ]),
+  sensOn: k(frame, [
+    [E.mucho - 6, 0],
+    [E.mucho + 8, 1],
+  ]),
+  sensacion: k(frame, [
+    [E.mucho - 6, 38],
+    [E.mucho + 30, 50],
+    [E.seco, 50],
+    [E.seco + 40, 36],
+    [E.humedo, 36],
+    [E.cocinando, 51],
+    [E.quince - 4, 51],
+    [E.quince + 16, 36],
+    [E.cincuenta - 4, 36],
+    [E.cincuenta + 16, 51],
+    [E.solW, 51],
+    [E.solW + 30, 56],
+    [E.misma, 56],
+    [E.misma + 14, 36],
+    [E.humedadW - 2, 36],
+    [E.humedadW + 14, 51],
+  ]),
+  calculado: k(frame, [
+    [E.ojo + 2, 0],
+    [E.formula + 4, 1],
+  ]),
+  humedad: k(frame, [
+    [0, 0.3],
+    [E.seco - 4, 0.3],
+    [E.seco + 8, 0.15],
+    [E.humedo, 0.15],
+    [E.humedo + 16, 0.55],
+    [E.quince - 4, 0.55],
+    [E.quince + 8, 0.15],
+    [E.cincuenta - 4, 0.15],
+    [E.cincuenta + 8, 0.55],
+    [E.misma, 0.55],
+    [E.misma + 12, 0.15],
+    [E.humedadW - 2, 0.15],
+    [E.humedadW + 14, 0.55],
+  ]),
+  sudor: k(frame, [
+    [E.s1 + 4, 0],
+    [E.s1 + 26, 1],
+  ]),
+  evap: k(frame, [
+    [0, 0.5],
+    [E.s2, 0.5],
+    [E.seco + 8, 1],
+    [E.humedo, 1],
+    [E.humedo + 16, 0],
+    [E.quince - 4, 0],
+    [E.quince + 8, 1],
+    [E.cincuenta - 4, 1],
+    [E.cincuenta + 8, 0],
+    [E.misma, 0],
+    [E.misma + 12, 1],
+    [E.humedadW - 2, 1],
+    [E.humedadW + 14, 0],
+  ]),
+  piel: k(frame, [
+    [E.mucho, 0],
+    [E.s1 + 20, 0.55],
+    [E.seco + 8, 0.2],
+    [E.humedo + 16, 0.8],
+    [E.quince + 8, 0.25],
+    [E.cincuenta + 8, 0.8],
+    [E.solW, 0.8],
+    [E.solW + 20, 1],
+    [E.misma, 1],
+    [E.misma + 12, 0.25],
+    [E.humedadW + 14, 0.85],
+  ]),
+  sol: k(frame, [
+    [E.solW - 2, 0.35],
+    [E.solW + 12, 1],
+    [E.misma, 1],
+    [E.misma + 12, 0.35],
+  ]),
+  sombra: k(frame, [
+    [E.sombraW - 4, 0],
+    [E.sombraW + 8, 1],
+    [E.solW - 8, 1],
+    [E.solW, 0],
+  ]),
+});
 
-const Cta: React.FC = () => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const dice = r.w(9, "no") - E.cta;
-  return (
-    <>
-      <Titulo pregunta="mandáselo a ese que…" desdeP={0} top={360} />
-      <Lienzo>
-        <g style={{ scale: pop(frame, fps, 0), transformOrigin: "540px 1100px" }}>
-          <rect x={150 + 14} y={760 + 14} width={780} height={640} rx={20} fill={C.tinta} />
-          <rect x={150} y={760} width={780} height={640} rx={20} fill="#FFF3D1" stroke={C.tinta} strokeWidth={10} />
-          <SolVolumen cx={780} cy={900} r={70} t={frame} intensidad={1.6} />
-          <Persona x={450} y={1380} s={1.1} t={frame} gesto="canchera" remera={C.amarillo} pelo="rulos" mira={1} />
-          {[[-60, -20], [58, -35], [-30, 25], [48, 20]].map(([dx, dy], i) => (
-            <path key={i} transform={`translate(${450 + dx * 1.1} ${1380 - 330 + dy + ((frame * 1.2 + i * 17) % 50) * 0.5})`}
-              d="M0 -18 C11 -2 11 11 0 11 C-11 11 -11 -2 0 -18 Z" fill={C.azul} stroke={C.tinta} strokeWidth={3} />
-          ))}
-        </g>
-      </Lienzo>
-      {frame >= dice ? <Globo texto="no hace tanto calor, son 30" desde={dice} x={120} y={560} cola="izq" tam={40} ancho={520} /> : null}
-    </>
-  );
-};
+const DESTACAR = ["sudor", "evapora", "seco", "húmedo", "cocinando", "fórmula", "sombra", "sol", "humedad", "Mandáselo", "mucho"];
+const CIFRAS: [string, string][] = [
+  ["treinta y ocho", "38"],
+  ["quince por ciento", "15 %"],
+  ["treinta y seis", "36"],
+  ["cincuenta y cinco", "55"],
+  ["cincuenta y uno", "51"],
+  ["treinta", "30"],
+];
+
+const efectos: Efecto[] = [
+  [E.treinta, "tic", 0.5],
+  [E.ocho + 6, "ding", 0.5],
+  [E.mucho, "whoosh", 0.4],
+  [E.sudorW, "pop", 0.4],
+  [E.seco, "whoosh", 0.3],
+  [E.humedo, "whoosh", 0.3],
+  [E.quince, "tic", 0.5],
+  [E.seis, "ding", 0.5],
+  [E.cincuenta, "tic", 0.5],
+  [E.uno, "ding", 0.55],
+  [E.formula, "sello", 0.5],
+  [E.sombraW, "pop", 0.4],
+  [E.solW, "whoosh", 0.4],
+  [E.humedadW, "tic", 0.5],
+  [E.cta, "whoosh", 0.35],
+];
 
 export const SensacionTermica019: React.FC = () => {
-  const efectos: Efecto[] = [
-    [E.gancho, "whoosh", 0.4], [4, "tic", 0.4], [24, "ding", 0.45], [r.w(0, "mucho"), "scratch", 0.45],
-    [E.sudor, "whoosh", 0.35], [r.w(1, "sudor"), "sello", 0.5],
-    [E.evapora, "whoosh", 0.35], [r.w(2, "evapora"), "pop"],
-    [E.seco, "whoosh", 0.35], [E.seco + 8, "burbuja", 0.35],
-    [E.humedo, "whoosh", 0.35], [E.humedo + 8, "burbuja", 0.35],
-    [E.numeros, "whoosh", 0.35], [r.w(5, "treinta") + 36, "tic", 0.4], [r.w(5, "treinta") + 56, "ding", 0.45],
-    [r.w(5, "cincuenta") - 2, "tic", 0.4], [r.w(5, "cincuenta") + 26, "ding", 0.5],
-    [E.ojo, "sello", 0.55], [E.ojo + 8, "pop"],
-    [E.sol, "whoosh", 0.35], [r.w(7, "sol"), "sello", 0.45],
-    [E.remate, "scratch", 0.4], [r.w(8, "humedad"), "sello", 0.5],
-    [E.cta, "pop"], [r.w(9, "no"), "burbuja", 0.4],
-    [E.sello, "sello", 0.7], [E.sello + 6, "ding", 0.4],
-  ];
-
+  const frame = useCurrentFrame();
+  const e = estado(frame);
   return (
-    <AbsoluteFill style={{ backgroundColor: C.papel }}>
-      <Fondo />
-      <Diagrama />
-      <Sequence from={0} durationInFrames={E.sello} layout="none" name="Logo"><Logo /></Sequence>
-
-      <Sequence name="1 · gancho" from={E.gancho} durationInFrames={E.sudor - E.gancho} layout="none">
-        <Etiqueta texto="calor de verano" desde={-8} />
-        <TituloHablado tiempos={tiempos} frase={0} desde={E.gancho} top={420} tam={56} />
-      </Sequence>
-      <Sequence name="2 · sudor" from={E.sudor} durationInFrames={E.evapora - E.sudor} layout="none">
-        <Etiqueta texto="la verdad" color={C.verde} />
-        <Titulo pregunta="no exagerás…" desdeP={0} respuesta="¡es el sudor!" desdeR={r.w(1, "sudor") - E.sudor} top={400} tamR={110} />
-      </Sequence>
-      <Sequence name="3 · evapora" from={E.evapora} durationInFrames={E.seco - E.evapora} layout="none">
-        <Etiqueta texto="paso 1 · el sudor" />
-        <Titulo pregunta="enfría si se…" desdeP={0} respuesta="evapora" desdeR={r.w(2, "evapora") - E.evapora} top={400} tamR={120} />
-      </Sequence>
-      <Sequence name="4 · seco" from={E.seco} durationInFrames={E.humedo - E.seco} layout="none">
-        <Etiqueta texto="paso 2 · aire seco" color={C.verde} />
-        <Titulo pregunta="aire seco" desdeP={0} respuesta="te enfría" desdeR={r.w(3, "rápido") - E.seco} top={400} tamR={100} />
-      </Sequence>
-      <Sequence name="5 · humedo" from={E.humedo} durationInFrames={E.numeros - E.humedo} layout="none">
-        <Etiqueta texto="paso 3 · aire húmedo" />
-        <Titulo pregunta="aire húmedo" desdeP={0} respuesta="te cocina" desdeR={r.w(4, "quedás") - E.humedo} top={400} tamR={100} />
-      </Sequence>
-      <Sequence name="6 · numeros" from={E.numeros} durationInFrames={E.ojo - E.numeros} layout="none">
-        <Etiqueta texto="con 38 °C de aire" color={C.verde} />
-        <Fuente texto="National Weather Service (NOAA)" />
-      </Sequence>
-      <Sequence name="7 · ojo" from={E.ojo} durationInFrames={E.sol - E.ojo} layout="none">
-        <Sello texto="OJO" desde={0} x={440} y={330} rot={-8} color={C.amarillo} tinta={C.tinta} tam={84} />
-        <Fuente texto="Servicio Meteorológico Nacional" />
-      </Sequence>
-      <Sequence name="8 · sol" from={E.sol} durationInFrames={E.remate - E.sol} layout="none">
-        <Etiqueta texto="a la sombra" color={C.verde} />
-        <Fuente texto="National Weather Service (NOAA)" />
-      </Sequence>
-      <Sequence name="9 · remate" from={E.remate} durationInFrames={E.cta - E.remate} layout="none">
-        <Etiqueta texto="la clave" />
-        <Titulo pregunta="misma temperatura…" desdeP={0} respuesta="¡otra humedad!" desdeR={r.w(8, "humedad") - E.remate} top={400} tamR={96} />
-      </Sequence>
-      <Sequence name="10 · cta" from={E.cta} durationInFrames={DURACION - E.cta} layout="none"><Cta /></Sequence>
-      <Sequence name="sello final" from={E.sello} durationInFrames={DURACION - E.sello}><SelloFinal mandar={`mandáselo a ese que dice "no hace tanto calor, son 30"`} /></Sequence>
-
-      <Subtitulos tiempos={tiempos} hasta={E.sello} />
+    <AbsoluteFill>
+      <Estudio>
+        <Camara tomas={TOMAS} />
+        <Calor e={e} />
+        <PisoSombra />
+      </Estudio>
+      <Chip desde={E.treinta} hasta={E.mucho - 2} x={540} y={270}>
+        Marca <span style={{ color: ACENTO }}>38 °C</span>
+      </Chip>
+      <Chip desde={E.mucho} hasta={E.s1} x={540} y={270} color="#ff5a4a">
+        Se siente <span style={{ color: "#ff8a7a" }}>mucho más</span>
+      </Chip>
+      <Chip desde={E.sudorW - 2} hasta={E.s2 - 2} x={540} y={270}>
+        Es el <span style={{ color: ACENTO }}>sudor</span>
+      </Chip>
+      <Chip desde={E.evaporaW - 6} hasta={E.seco - 2} x={540} y={270}>
+        Si <span style={{ color: ACENTO }}>se evapora</span>, enfría
+      </Chip>
+      <Chip desde={E.seco} hasta={E.humedo - 2} x={540} y={270} color="#5fd2ff">
+        Aire <span style={{ color: "#5fd2ff" }}>seco</span>: te enfría
+      </Chip>
+      <Chip desde={E.humedo} hasta={E.d - 2} x={540} y={270} color="#ff5a4a">
+        Aire <span style={{ color: "#ff8a7a" }}>húmedo</span>: te cocinás
+      </Chip>
+      <Chip desde={E.quince - 6} hasta={E.cincuenta - 6} x={540} y={270} color="#5fd2ff">
+        38 °C · <span style={{ color: "#5fd2ff" }}>15 %</span> humedad
+      </Chip>
+      <Chip desde={E.cincuenta - 6} hasta={E.ojo - 2} x={540} y={270} color="#ff5a4a">
+        38 °C · <span style={{ color: "#ff8a7a" }}>55 %</span> humedad
+      </Chip>
+      <Chip desde={E.ojo + 4} hasta={E.sombra - 2} x={540} y={270}>
+        Se calcula con una <span style={{ color: ACENTO }}>fórmula</span>
+      </Chip>
+      <Chip desde={E.sombraW - 4} hasta={E.solW - 6} x={540} y={270}>
+        Valores a la <span style={{ color: ACENTO }}>sombra</span>
+      </Chip>
+      <Chip desde={E.solW} hasta={E.misma - 2} x={540} y={270} color="#ff5a4a">
+        Al <span style={{ color: "#ff8a7a" }}>sol</span>: todavía más
+      </Chip>
+      <Chip desde={E.misma + 4} hasta={E.cta - 2} x={540} y={270}>
+        Misma temperatura, otra <span style={{ color: ACENTO }}>humedad</span>
+      </Chip>
+      <Subtitulo3D tiempos={tiempos} destacar={DESTACAR} cifras={CIFRAS} />
+      <Marco3D total={DURACION} />
+      <Cierre3D desde={E.fin + 4} mandar="mandáselo al que dice 'no hace tanto calor, son treinta'" />
       <Audio src={staticFile("019-sensacion-termica/voz.wav")} volume={1} />
-      <Musica hasta={DURACION} />
+      <Musica hasta={DURACION} volumen={0.12} />
       <Sfx efectos={efectos} />
     </AbsoluteFill>
   );
 };
 
+// Portada: persona sudando con los dos termómetros, aire húmedo.
+const TOMA_PORTADA: Toma[] = [{ f: 0, pos: [-0.1, 1.9, 10.5], mira: [-0.1, 1.5, 0], fov: 34 }];
 export const Portada019: React.FC = () => (
   <Portada arriba="¿por qué se siente más calor que el termómetro?" grande="la humedad" sello="CIENCIA" colorSello={C.verde} numero={19}>
-    <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
-      <g transform="translate(0 40)">
-        <SolVolumen cx={800} cy={760} r={90} t={10} />
-        <Termometro x={300} y={1400} s={1.2} valor={0.95} />
-        <Persona x={640} y={1420} s={0.9} t={0} gesto="preocupada" remera={C.amarillo} pelo="rulos" />
-      </g>
-    </svg>
+    <Estudio fondo={false}>
+      <Camara tomas={TOMA_PORTADA} deriva={0} />
+      <Calor
+        e={{
+          ...estado(0),
+          frame: 20,
+          realOn: 1,
+          sensOn: 1,
+          real: 38,
+          sensacion: 51,
+          calculado: 0,
+          humedad: 0.55,
+          sudor: 1,
+          evap: 0,
+          piel: 0.85,
+          sol: 1,
+          sombra: 0,
+        }}
+      />
+      <PisoSombra opacidad={0.25} />
+    </Estudio>
   </Portada>
 );

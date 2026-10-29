@@ -1,0 +1,19 @@
+{
+  "titulo": "Should you flip a steak only once?",
+  "fuentes": [
+    "McGee, McInerney, Harrus, 'The Virtual Cook: Modeling Heat Transfer in the Kitchen', Physics Today 52(11), 1999: https://physicstoday.aip.org/features/the-virtual-cook-modeling-heat-transfer-in-the-kitchen (computer model; flipping often cooks more evenly, probably faster)",
+    "America's Test Kitchen / Cook's Illustrated, 'The Effect of Flipping on a Crisp Burger and Steak Crust': https://www.americastestkitchen.com/cooksillustrated/how_tos/6362-the-effect-of-flipping-on-a-crisp-burger-and-steak-crust (flipping every minute: crispier crust, more evenly cooked meat; not for burgers)",
+    "ThermoWorks, 'Temping a Steak Doesn't Make It Dry': https://blog.thermoworks.com/temping-a-steak-doesnt-make-it-dry-debunking-a-kitchen-myth/ (overcooking, not probing, dries steak)"
+  ],
+  "frases": [
+    {"texto": "You've been flipping your steak only once.", "estilo": "Dry and confident, like picking a fight with the grill master."},
+    {"texto": "That's a myth.", "estilo": "Short and punchy, with a half smile."},
+    {"texto": "The idea is simple: flip it often, and each side heats up a little, then rests a little.", "estilo": "Explaining clearly."},
+    {"texto": "The heat goes in more evenly, so the steak can cook more evenly, and often faster.", "estilo": "Explaining, with enthusiasm."},
+    {"texto": "Food writer Harold McGee and colleagues modeled it, and America's Test Kitchen tested it: flipping every minute gave a crispier crust and more evenly cooked meat.", "estilo": "Emphatic, revealing a strong fact."},
+    {"texto": "And the juices? Poking a steak doesn't drain it. Overcooking is what dries it out.", "estilo": "Cool, busting another myth."},
+    {"texto": "Heads up: this is for steaks over high heat, not burgers.", "estilo": "Friendly warning."},
+    {"texto": "Want a golden crust tonight? Try flipping about every minute.", "estilo": "Practical and upbeat."},
+    {"texto": "Send this to the friend who won't let anyone near the grill.", "estilo": "Playful, with humor, as a punchline."}
+  ]
+}

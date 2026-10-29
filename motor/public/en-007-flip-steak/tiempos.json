@@ -1,0 +1,658 @@
+{
+ "duracion": 36.54,
+ "frases": [
+  {
+   "texto": "You've been flipping your steak only once.",
+   "palabras": [
+    {
+     "texto": "You've",
+     "inicio": 0.0,
+     "fin": 0.2
+    },
+    {
+     "texto": "been",
+     "inicio": 0.2,
+     "fin": 0.28
+    },
+    {
+     "texto": "flipping",
+     "inicio": 0.28,
+     "fin": 0.48
+    },
+    {
+     "texto": "your",
+     "inicio": 0.48,
+     "fin": 0.7
+    },
+    {
+     "texto": "steak",
+     "inicio": 0.7,
+     "fin": 0.96
+    },
+    {
+     "texto": "only",
+     "inicio": 0.96,
+     "fin": 1.22
+    },
+    {
+     "texto": "once.",
+     "inicio": 1.22,
+     "fin": 1.64
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 1.64
+  },
+  {
+   "texto": "That's a myth.",
+   "palabras": [
+    {
+     "texto": "That's",
+     "inicio": 2.16,
+     "fin": 2.44
+    },
+    {
+     "texto": "a",
+     "inicio": 2.44,
+     "fin": 2.5
+    },
+    {
+     "texto": "myth.",
+     "inicio": 2.5,
+     "fin": 2.7
+    }
+   ],
+   "inicio": 2.16,
+   "fin": 2.7
+  },
+  {
+   "texto": "The idea is simple: flip it often, and each side heats up a little, then rests a little.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 3.2,
+     "fin": 3.28
+    },
+    {
+     "texto": "idea",
+     "inicio": 3.28,
+     "fin": 3.54
+    },
+    {
+     "texto": "is",
+     "inicio": 3.54,
+     "fin": 3.76
+    },
+    {
+     "texto": "simple:",
+     "inicio": 3.76,
+     "fin": 3.94
+    },
+    {
+     "texto": "flip",
+     "inicio": 4.48,
+     "fin": 4.58
+    },
+    {
+     "texto": "it",
+     "inicio": 4.58,
+     "fin": 4.72
+    },
+    {
+     "texto": "often,",
+     "inicio": 4.72,
+     "fin": 5.0
+    },
+    {
+     "texto": "and",
+     "inicio": 5.3,
+     "fin": 5.5
+    },
+    {
+     "texto": "each",
+     "inicio": 5.5,
+     "fin": 5.76
+    },
+    {
+     "texto": "side",
+     "inicio": 5.76,
+     "fin": 6.0
+    },
+    {
+     "texto": "heats",
+     "inicio": 6.0,
+     "fin": 6.24
+    },
+    {
+     "texto": "up",
+     "inicio": 6.24,
+     "fin": 6.46
+    },
+    {
+     "texto": "a",
+     "inicio": 6.46,
+     "fin": 6.58
+    },
+    {
+     "texto": "little,",
+     "inicio": 6.58,
+     "fin": 6.72
+    },
+    {
+     "texto": "then",
+     "inicio": 6.96,
+     "fin": 7.14
+    },
+    {
+     "texto": "rests",
+     "inicio": 7.14,
+     "fin": 7.36
+    },
+    {
+     "texto": "a",
+     "inicio": 7.36,
+     "fin": 7.58
+    },
+    {
+     "texto": "little.",
+     "inicio": 7.58,
+     "fin": 7.7
+    }
+   ],
+   "inicio": 3.2,
+   "fin": 7.7
+  },
+  {
+   "texto": "The heat goes in more evenly, so the steak can cook more evenly, and often faster.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 8.1,
+     "fin": 8.24
+    },
+    {
+     "texto": "heat",
+     "inicio": 8.24,
+     "fin": 8.48
+    },
+    {
+     "texto": "goes",
+     "inicio": 8.48,
+     "fin": 8.74
+    },
+    {
+     "texto": "in",
+     "inicio": 8.74,
+     "fin": 8.94
+    },
+    {
+     "texto": "more",
+     "inicio": 8.94,
+     "fin": 9.12
+    },
+    {
+     "texto": "evenly,",
+     "inicio": 9.12,
+     "fin": 9.52
+    },
+    {
+     "texto": "so",
+     "inicio": 9.8,
+     "fin": 10.0
+    },
+    {
+     "texto": "the",
+     "inicio": 10.0,
+     "fin": 10.2
+    },
+    {
+     "texto": "steak",
+     "inicio": 10.2,
+     "fin": 10.4
+    },
+    {
+     "texto": "can",
+     "inicio": 10.4,
+     "fin": 10.56
+    },
+    {
+     "texto": "cook",
+     "inicio": 10.56,
+     "fin": 10.72
+    },
+    {
+     "texto": "more",
+     "inicio": 10.72,
+     "fin": 10.94
+    },
+    {
+     "texto": "evenly,",
+     "inicio": 10.94,
+     "fin": 11.28
+    },
+    {
+     "texto": "and",
+     "inicio": 11.46,
+     "fin": 11.64
+    },
+    {
+     "texto": "often",
+     "inicio": 11.64,
+     "fin": 12.02
+    },
+    {
+     "texto": "faster.",
+     "inicio": 12.02,
+     "fin": 12.4
+    }
+   ],
+   "inicio": 8.1,
+   "fin": 12.4
+  },
+  {
+   "texto": "Food writer Harold McGee and colleagues modeled it, and America's Test Kitchen tested it: flipping every minute gave a crispier crust and more evenly cooked meat.",
+   "palabras": [
+    {
+     "texto": "Food",
+     "inicio": 12.84,
+     "fin": 13.04
+    },
+    {
+     "texto": "writer",
+     "inicio": 13.04,
+     "fin": 13.24
+    },
+    {
+     "texto": "Harold",
+     "inicio": 13.24,
+     "fin": 13.56
+    },
+    {
+     "texto": "McGee",
+     "inicio": 13.56,
+     "fin": 13.94
+    },
+    {
+     "texto": "and",
+     "inicio": 13.94,
+     "fin": 14.04
+    },
+    {
+     "texto": "colleagues",
+     "inicio": 14.04,
+     "fin": 14.32
+    },
+    {
+     "texto": "modeled",
+     "inicio": 14.32,
+     "fin": 14.8
+    },
+    {
+     "texto": "it,",
+     "inicio": 14.8,
+     "fin": 15.0
+    },
+    {
+     "texto": "and",
+     "inicio": 15.26,
+     "fin": 15.48
+    },
+    {
+     "texto": "America's",
+     "inicio": 15.48,
+     "fin": 15.88
+    },
+    {
+     "texto": "Test",
+     "inicio": 15.88,
+     "fin": 16.06
+    },
+    {
+     "texto": "Kitchen",
+     "inicio": 16.06,
+     "fin": 16.26
+    },
+    {
+     "texto": "tested",
+     "inicio": 16.26,
+     "fin": 16.76
+    },
+    {
+     "texto": "it:",
+     "inicio": 16.76,
+     "fin": 16.96
+    },
+    {
+     "texto": "flipping",
+     "inicio": 17.34,
+     "fin": 17.6
+    },
+    {
+     "texto": "every",
+     "inicio": 17.6,
+     "fin": 17.82
+    },
+    {
+     "texto": "minute",
+     "inicio": 17.82,
+     "fin": 18.1
+    },
+    {
+     "texto": "gave",
+     "inicio": 18.1,
+     "fin": 18.32
+    },
+    {
+     "texto": "a",
+     "inicio": 18.32,
+     "fin": 18.48
+    },
+    {
+     "texto": "crispier",
+     "inicio": 18.48,
+     "fin": 18.98
+    },
+    {
+     "texto": "crust",
+     "inicio": 18.98,
+     "fin": 19.3
+    },
+    {
+     "texto": "and",
+     "inicio": 19.3,
+     "fin": 19.58
+    },
+    {
+     "texto": "more",
+     "inicio": 19.58,
+     "fin": 19.76
+    },
+    {
+     "texto": "evenly",
+     "inicio": 19.76,
+     "fin": 20.12
+    },
+    {
+     "texto": "cooked",
+     "inicio": 20.12,
+     "fin": 20.46
+    },
+    {
+     "texto": "meat.",
+     "inicio": 20.46,
+     "fin": 20.72
+    }
+   ],
+   "inicio": 12.84,
+   "fin": 20.72
+  },
+  {
+   "texto": "And the juices? Poking a steak doesn't drain it. Overcooking is what dries it out.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 21.12,
+     "fin": 21.26
+    },
+    {
+     "texto": "the",
+     "inicio": 21.26,
+     "fin": 21.36
+    },
+    {
+     "texto": "juices?",
+     "inicio": 21.36,
+     "fin": 21.52
+    },
+    {
+     "texto": "Poking",
+     "inicio": 22.12,
+     "fin": 22.42
+    },
+    {
+     "texto": "a",
+     "inicio": 22.42,
+     "fin": 22.62
+    },
+    {
+     "texto": "steak",
+     "inicio": 22.62,
+     "fin": 22.82
+    },
+    {
+     "texto": "doesn't",
+     "inicio": 22.82,
+     "fin": 23.2
+    },
+    {
+     "texto": "drain",
+     "inicio": 23.2,
+     "fin": 23.48
+    },
+    {
+     "texto": "it.",
+     "inicio": 23.48,
+     "fin": 23.64
+    },
+    {
+     "texto": "Overcooking",
+     "inicio": 24.16,
+     "fin": 24.64
+    },
+    {
+     "texto": "is",
+     "inicio": 24.64,
+     "fin": 24.76
+    },
+    {
+     "texto": "what",
+     "inicio": 24.76,
+     "fin": 24.86
+    },
+    {
+     "texto": "dries",
+     "inicio": 24.86,
+     "fin": 25.1
+    },
+    {
+     "texto": "it",
+     "inicio": 25.1,
+     "fin": 25.24
+    },
+    {
+     "texto": "out.",
+     "inicio": 25.24,
+     "fin": 25.38
+    }
+   ],
+   "inicio": 21.12,
+   "fin": 25.38
+  },
+  {
+   "texto": "Heads up: this is for steaks over high heat, not burgers.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 25.86,
+     "fin": 26.16
+    },
+    {
+     "texto": "up:",
+     "inicio": 26.16,
+     "fin": 26.34
+    },
+    {
+     "texto": "this",
+     "inicio": 26.6,
+     "fin": 26.6
+    },
+    {
+     "texto": "is",
+     "inicio": 26.6,
+     "fin": 26.76
+    },
+    {
+     "texto": "for",
+     "inicio": 26.76,
+     "fin": 26.92
+    },
+    {
+     "texto": "steaks",
+     "inicio": 26.92,
+     "fin": 27.36
+    },
+    {
+     "texto": "over",
+     "inicio": 27.36,
+     "fin": 27.64
+    },
+    {
+     "texto": "high",
+     "inicio": 27.64,
+     "fin": 28.1
+    },
+    {
+     "texto": "heat,",
+     "inicio": 28.1,
+     "fin": 28.42
+    },
+    {
+     "texto": "not",
+     "inicio": 28.66,
+     "fin": 28.84
+    },
+    {
+     "texto": "burgers.",
+     "inicio": 28.84,
+     "fin": 29.12
+    }
+   ],
+   "inicio": 25.86,
+   "fin": 29.12
+  },
+  {
+   "texto": "Want a golden crust tonight? Try flipping about every minute.",
+   "palabras": [
+    {
+     "texto": "Want",
+     "inicio": 29.76,
+     "fin": 30.0
+    },
+    {
+     "texto": "a",
+     "inicio": 30.0,
+     "fin": 30.16
+    },
+    {
+     "texto": "golden",
+     "inicio": 30.16,
+     "fin": 30.6
+    },
+    {
+     "texto": "crust",
+     "inicio": 30.6,
+     "fin": 30.92
+    },
+    {
+     "texto": "tonight?",
+     "inicio": 30.92,
+     "fin": 31.32
+    },
+    {
+     "texto": "Try",
+     "inicio": 31.82,
+     "fin": 32.04
+    },
+    {
+     "texto": "flipping",
+     "inicio": 32.04,
+     "fin": 32.42
+    },
+    {
+     "texto": "about",
+     "inicio": 32.42,
+     "fin": 32.7
+    },
+    {
+     "texto": "every",
+     "inicio": 32.7,
+     "fin": 32.94
+    },
+    {
+     "texto": "minute.",
+     "inicio": 32.94,
+     "fin": 33.2
+    }
+   ],
+   "inicio": 29.76,
+   "fin": 33.2
+  },
+  {
+   "texto": "Send this to the friend who won't let anyone near the grill.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 33.7,
+     "fin": 33.88
+    },
+    {
+     "texto": "this",
+     "inicio": 33.88,
+     "fin": 34.08
+    },
+    {
+     "texto": "to",
+     "inicio": 34.08,
+     "fin": 34.26
+    },
+    {
+     "texto": "the",
+     "inicio": 34.26,
+     "fin": 34.36
+    },
+    {
+     "texto": "friend",
+     "inicio": 34.36,
+     "fin": 34.58
+    },
+    {
+     "texto": "who",
+     "inicio": 34.58,
+     "fin": 34.78
+    },
+    {
+     "texto": "won't",
+     "inicio": 34.78,
+     "fin": 35.04
+    },
+    {
+     "texto": "let",
+     "inicio": 35.04,
+     "fin": 35.16
+    },
+    {
+     "texto": "anyone",
+     "inicio": 35.16,
+     "fin": 35.72
+    },
+    {
+     "texto": "near",
+     "inicio": 35.72,
+     "fin": 36.06
+    },
+    {
+     "texto": "the",
+     "inicio": 36.06,
+     "fin": 36.24
+    },
+    {
+     "texto": "grill.",
+     "inicio": 36.24,
+     "fin": 36.4
+    }
+   ],
+   "inicio": 33.7,
+   "fin": 36.4
+  }
+ ]
+}

@@ -21,3 +21,11 @@ Permisos negados (1):
 2026-10-28 18:48 Render de en-006-five-second-rule (sin Claude).
 2026-10-28 19:11 en-006-five-second-rule: apartado (render/control: od, the more it picked up. Watermelon was the worst, gummy candy the least. The floor mattered too. Carpet passed on far less than tile or steel. Heads up, longer on the floor does mea)
 2026-10-28 19:11 Termina la producción (ok).
+2026-10-28 22:48 Arranca la producción (1 listos en la cola, meta 6).
+- **`en-007-flip-steak` (adaptado de 003-vuelta-carne):** quedó en estado `render`, sin renderizar todavía. El chequeo del subagente lo aprobó en el 2.º intento y la voz tiene 118 palabras (36,5 s). Escena 3D con sartén y bife en capas, caption y meta escritos, y revisé los cuadros en 2 vueltas. `producir.py` hace el render y el control, y recién ahí pasa a `listo` o `apartado`.
+- **Chequeo:** el 1.º intento se rechazó por tres frases sin respaldo (jugos, "thick cut low and slow" y "faster") y las reescribí con matices. Quedan dos salvedades: no se pudo leer el PDF de McGee en Physics Today (solo el resumen), y "over high heat" es un alcance prudente porque ATK no menciona el calor.
+- **Otros slugs:** `en-006-five-second-rule` figura como `apartado` en la cola. No lo toqué y no sé el motivo. Las dos chips de la comparación (flip once / flip often) son una ilustración, sin números, y el caption lo aclara.
+Uso: 17 pasos · 13,976 tokens nuevos · 807,974 de caché · 3,532 escritos · equivale a US$ 1.29 de API
+2026-10-28 22:59 Render de en-007-flip-steak (sin Claude).
+2026-10-28 23:23 en-007-flip-steak: listo (render sin Claude)
+2026-10-28 23:23 Termina la producción (ok).

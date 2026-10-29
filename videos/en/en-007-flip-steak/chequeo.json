@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segundo intento. Se verificaron todas las frases con busqueda web. Las objeciones del chequeo previo quedaron corregidas: (1) 'the idea is', 'can' y 'often' aparecen en las frases del mecanismo y de la velocidad, que se apoyan en McGee citado en Gear Patrol (Q&A del New York Times, 2008: 'The more you flip, the more evenly the heat is transferred into the meat, and it's transferred much faster'; 'the cooking time is much shorter'; 'neither side has time to absorb a lot of heat when facing the fire or to lose heat when facing away'). (2) La frase de los jugos ahora dice 'poking' y 'overcooking', que es lo que prueba ThermoWorks: los bifes pinchados con sonda perdieron 13,51 g contra 14,71 g del control (dentro del error experimental) y pasarse 5 o 10 F de punto si exprimio mas jugo; ya no dice nada sobre dar vuelta. (3) El consejo de ATK de dar vuelta cada minuto esta textual en la fuente. (4) 'Not burgers' coincide con ATK: no recomienda el metodo para hamburguesas porque se desarman. No hay afirmaciones de salud, seguridad ni plata, no hay cifras dudosas y no hay nada falso. Salvedades menores, no bloqueantes: no se pudo leer el PDF de Physics Today (supera el limite de descarga), asi que 'McGee and colleagues modeled it' se apoya en el resumen oficial y en la nota secundaria; y ATK no menciona el nivel de calor, por lo que 'over high heat' funciona como limite de alcance conservador (la prueba fue en sarten) y no como dato afirmado.",
+  "afirmaciones": [
+    {
+      "texto": "You've been flipping your steak only once.",
+      "fuente": "No es afirmacion factica (apertura retorica / gancho).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "That's a myth.",
+      "fuente": "America's Test Kitchen / Cook's Illustrated (https://www.americastestkitchen.com/cooksillustrated/how_tos/6362-the-effect-of-flipping-on-a-crisp-burger-and-steak-crust): comparo bifes dados vuelta una vez contra cada minuto; los volteados seguido tuvieron corteza mas crocante y coccion mas pareja. McGee, McInerney y Harrus, Physics Today 52(11), 1999 (https://physicstoday.aip.org/features/the-virtual-cook-modeling-heat-transfer-in-the-kitchen): el modelo desafia la sabiduria convencional sobre grillar un bife.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The idea is simple: flip it often, and each side heats up a little, then rests a little.",
+      "fuente": "McGee citado en Gear Patrol (https://www.gearpatrol.com/food/how-to-cook-steak-fast-flip/), de su nota en el New York Times de 2008: 'neither side has time to absorb a lot of heat when facing the fire or to lose heat when facing away'. Presenta el mecanismo como 'la idea', no como medicion.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The heat goes in more evenly, so the steak can cook more evenly, and often faster.",
+      "fuente": "McGee via Gear Patrol: 'The more you flip, the more evenly the heat is transferred into the meat, and it's transferred much faster' y 'the cooking time is much shorter'. ATK (verificado): coccion mas pareja. El 'faster' no tiene cifra y la frase usa 'can' y 'often'; el ~20-30% de blogs no se usa.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Food writer Harold McGee and colleagues modeled it, and America's Test Kitchen tested it: flipping every minute gave a crispier crust and more evenly cooked meat.",
+      "fuente": "Physics Today 52(11), nov 1999, McGee, McInerney, Harrus, modelo computacional (resumen leido; el PDF no se pudo descargar). ATK (texto leido): bifes volteados cada minuto contra una vez; 'a drier, crispier coating'; coccion mas pareja con una banda sobrecocida mas angosta.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "And the juices? Poking a steak doesn't drain it. Overcooking is what dries it out.",
+      "fuente": "ThermoWorks (https://blog.thermoworks.com/temping-a-steak-doesnt-make-it-dry-debunking-a-kitchen-myth/): bifes pinchados con sonda perdieron 13,51 g contra 14,71 g del control (dentro del error experimental); pasarse 5 o 10 F de punto aumento la perdida (16,03 g y 15,29 g); 'the protein fibers ... continue to tighten, squeezing out more and more of their juices'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: this is for steaks over high heat, not burgers.",
+      "fuente": "ATK: no recomienda el metodo para hamburguesas porque 'repeated manipulation causes the patties to crumble in the pan'; lo sugiere para bifes si se quiere corteza dorada y crocante. La prueba fue en sarten; ATK no menciona nivel de calor, por eso 'over high heat' es un limite de alcance prudente.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Want a golden crust tonight? Try flipping about every minute.",
+      "fuente": "ATK: 'frequent flipping' para una corteza 'deep golden-brown' y crocante; la prueba fue dar vuelta cada minuto. Es un consejo ('try'), con 'about'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Send this to the friend who won't let anyone near the grill.",
+      "fuente": "No es afirmacion factica (llamado a la accion).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

@@ -37,6 +37,7 @@ import { DURACION as DUR_EN003, FPS as FPS_EN003, FridgeLeftoversEn003, PortadaE
 import { DURACION as DUR_EN004, FPS as FPS_EN004, SugarHyperEn004, PortadaEn004 } from "./videos/en-004-sugar-hyper/Video";
 import { DURACION as DUR_EN005, FPS as FPS_EN005, FridgePart2En005, PortadaEn005 } from "./videos/en-005-fridge-part-2/Video";
 import { DURACION as DUR_EN006, FPS as FPS_EN006, FiveSecondEn006, PortadaEn006 } from "./videos/en-006-five-second-rule/Video";
+import { DURACION as DUR_EN007, FPS as FPS_EN007, FlipSteakEn007, PortadaEn007 } from "./videos/en-007-flip-steak/Video";
 import { DURACION as DUR_EN001, FPS as FPS_EN001, PhoneRiceEn001, PortadaEn001 } from "./videos/en-001-phone-rice/Video";
 
 // Cada video nuevo suma su <Composition> (id "hNNN-slug") y su <Still> de portada (id "pNNN-slug").
@@ -81,6 +82,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-005-fridge-part-2" component={PortadaEn005} width={ANCHO} height={ALTO} />
         <Composition id="hen-006-five-second-rule" component={FiveSecondEn006} durationInFrames={DUR_EN006} fps={FPS_EN006} width={ANCHO} height={ALTO} />
         <Still id="pen-006-five-second-rule" component={PortadaEn006} width={ANCHO} height={ALTO} />
+        <Composition id="hen-007-flip-steak" component={FlipSteakEn007} durationInFrames={DUR_EN007} fps={FPS_EN007} width={ANCHO} height={ALTO} />
+        <Still id="pen-007-flip-steak" component={PortadaEn007} width={ANCHO} height={ALTO} />
       </Folder>
       <Folder name="carruseles">
         <Still id="carrusel" component={CarruselPlaca} width={ANCHO_C} height={ALTO_C} defaultProps={{ datos: { origen: [], placas: [{ tipo: "cierre", texto: "placa de prueba" }] }, i: 0 }} />

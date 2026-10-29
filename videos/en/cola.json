@@ -182,5 +182,32 @@
     "motivo": "render/control: od, the more it picked up. Watermelon was the worst, gummy candy the least. The floor mattered too. Carpet passed on far less than tile or steel. Heads up, longer on the floor does mean more bacteria. Time just isn't the whole story. So today, if it\nPROBLEMAS:\n- la voz no coincide con el guion (87%)"
    }
   ]
+ },
+ {
+  "slug": "en-007-flip-steak",
+  "tema": "Flip a steak only once? (adapted from 003)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-28T22:48",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-28T22:48",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-10-28T22:59",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-28T23:23",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

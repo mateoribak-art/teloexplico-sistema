@@ -25,3 +25,11 @@ Uso: 46 pasos · 81,020 tokens nuevos · 1,233,679 de caché · 22,714 escritos 
 2026-10-28 18:17 Render de 021-heladera-parte-2 (sin Claude).
 2026-10-28 18:40 021-heladera-parte-2: listo (render sin Claude)
 2026-10-28 18:40 Termina la producción (ok).
+2026-10-28 22:16 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `019-sensacion-termica`, rehecho en 3D (pedido de Mateo, 3 de 7). Está en `render`. `producir.py` lo renderiza y corre el control, así que todavía no lo vi renderizado.
+- **Lo que hice:** reusé el `guion.json`, el `chequeo.json` (aprobado) y el caption. Regeneré la voz (131/131 palabras, 51 s). Escribí el objeto nuevo `kit3d/objetos/Calor.tsx` (persona, dos termómetros, sudor, humedad, sol y toldo) y el `Video.tsx`. `tlx tsc` pasó sin errores y revisé una sola vuelta de cuadros, con dos detalles menores sin corregir: el sol tapa un poco el rótulo y en un primer plano se corta un termómetro.
+- **Sin segundo video:** quedan 11 listos en cola (más de 10) y todavía faltan 4 rehechos (`008`, `014`, `018-refresca-tormenta`, `012`) para los próximos turnos. Ningún slug apartado o incompleto. El radar de hoy ya se había revisado, sin tema de actualidad.
+Uso: 36 pasos · 87,520 tokens nuevos · 1,176,762 de caché · 22,905 escritos · equivale a US$ 0.70 de API
+2026-10-28 22:21 Render de 019-sensacion-termica (sin Claude).
+2026-10-28 22:48 019-sensacion-termica: listo (render sin Claude)
+2026-10-28 22:48 Termina la producción (ok).
