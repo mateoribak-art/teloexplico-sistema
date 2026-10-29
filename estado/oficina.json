@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T03:48",
+ "actualizado": "2026-10-29T03:50",
  "oficinas": [
   {
    "clave": "es",
@@ -386,22 +386,22 @@
      },
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
-     "cuando": "2026-10-28T03:42",
-     "hace": "hace 24 h",
+     "cuando": "2026-10-29T03:50",
+     "hace": "recién",
      "detalle": [
-      "26/10 18:48 Hay 17 comentarios nuevos: arranca la respuesta.",
-      "26/10 18:48 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
-      "26/10 18:48 Termina la respuesta de comentarios (con problemas).",
       "26/10 21:56 (sesión con Mateo): 14 respondidos, 3 salteados, 1 alerta",
       "28/10 03:41 Hay 1 comentarios nuevos: arranca la respuesta.",
       "28/10 00:00 Respondí 1 · salteé 0 · alerté 0.",
       "28/10 03:41 Termina la respuesta de comentarios (ok).",
-      "28/10 03:42 Termina la respuesta de comentarios (ok)."
+      "28/10 03:42 Termina la respuesta de comentarios (ok).",
+      "29/10 03:49 Hay 4 comentarios nuevos: arranca la respuesta.",
+      "29/10 00:00 Respondí 2 · salteé 2 · alerté 0.",
+      "29/10 03:50 Termina la respuesta de comentarios (ok)."
      ],
      "tareas": [
       "1 alerta",
-      "18 respondido",
-      "3 salteado",
+      "20 respondido",
+      "5 salteado",
       "⚠️ maribibirios: \"También fueron a Chile cuando fueron a Brasil... información por favor\" — el video dice que en Latinoamér"
      ],
      "arreglo": null,
@@ -457,7 +457,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-29T03:48",
+     "cuando": "2026-10-29T03:50",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -881,7 +881,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-29T03:48",
+     "cuando": "2026-10-29T03:50",
      "hace": "recién",
      "detalle": [],
      "tareas": [],

@@ -130,5 +130,29 @@
   "texto": "",
   "respuesta": "¡Te entiendo! Pero el USDA marca que entre 4 y 60 °C las bacterias se multiplican rápido, por eso conviene enfriarla en tuppers chatos 🙌",
   "cuando": "2026-10-28T03:42"
+ },
+ "17906477931351827": {
+  "estado": "respondido",
+  "texto": "",
+  "respuesta": "¡Gracias! Vamos a seguir con datos así 🙌",
+  "cuando": "2026-10-29T03:50"
+ },
+ "18135072760787400": {
+  "estado": "respondido",
+  "texto": "",
+  "respuesta": "¡Justo! Ese era el mito de las heladeras a hielo. Hoy la clave es enfriarla rápido, en tuppers chatos 🙌",
+  "cuando": "2026-10-29T03:50"
+ },
+ "18019815269950874": {
+  "estado": "salteado",
+  "texto": "ambiguo: sin pregunta ni dato, no se entiende si es queja o chiste",
+  "respuesta": "",
+  "cuando": "2026-10-29T03:50"
+ },
+ "18121467268748720": {
+  "estado": "salteado",
+  "texto": "comentario sexual/provocación",
+  "respuesta": "",
+  "cuando": "2026-10-29T03:50"
  }
 }
