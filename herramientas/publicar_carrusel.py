@@ -14,10 +14,14 @@ igual que los reels. Desde el 27/10 sale uno por día a las 16:00 (GitHub Action
 import datetime, glob, json, os, subprocess, sys, time, urllib.parse, zoneinfo
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from publicar import API, CONF, REPO, RAIZ, link_temporal, pedir  # noqa: E402
+from publicar import REPO, RAIZ, link_temporal, pedir  # noqa: E402
+import cuenta  # noqa: E402
 import carrusel  # noqa: E402
 from avisar import avisar  # noqa: E402
 
+# los carruseles son solo de @teloexplico.ar (publicar.py ya no exporta API/CONF desde que hay dos cuentas)
+CONF = json.load(open(cuenta.CUENTAS['es']['meta'], encoding='utf-8-sig'))
+API = f"https://graph.facebook.com/{CONF['graph_version']}"
 REGISTRO = os.path.join(RAIZ, 'videos', 'carruseles', 'publicados.json')
 ARGENTINA = zoneinfo.ZoneInfo('America/Argentina/Buenos_Aires')
 TURNO = (16, 0)
