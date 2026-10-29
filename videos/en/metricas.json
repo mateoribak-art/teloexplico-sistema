@@ -3,6 +3,10 @@
   "2026-10-28": {
    "seguidores": 2,
    "posts": 2
+  },
+  "2026-10-29": {
+   "seguidores": 2,
+   "posts": 4
   }
  },
  "reels": {
@@ -11,16 +15,16 @@
    "publicado": "2026-10-27T15:35:51+0000",
    "duracion": null,
    "ultimo": {
-    "views": 3604,
-    "reach": 3140,
-    "likes": 42,
+    "views": 3743,
+    "reach": 3240,
+    "likes": 47,
     "comments": 0,
     "shares": 16,
-    "saved": 3,
-    "total_interactions": 65,
-    "ig_reels_avg_watch_time": 19236,
-    "ig_reels_video_view_total_time": 61267809,
-    "cuando": "2026-10-28T02:29"
+    "saved": 4,
+    "total_interactions": 71,
+    "ig_reels_avg_watch_time": 19274,
+    "ig_reels_video_view_total_time": 63857536,
+    "cuando": "2026-10-29T02:38"
    }
   },
   "17958040254081571": {
@@ -28,16 +32,50 @@
    "publicado": "2026-10-27T23:09:36+0000",
    "duracion": null,
    "ultimo": {
-    "views": 240,
-    "reach": 215,
+    "views": 491,
+    "reach": 431,
+    "likes": 9,
+    "comments": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 9,
+    "ig_reels_avg_watch_time": 13207,
+    "ig_reels_video_view_total_time": 5494225,
+    "cuando": "2026-10-29T02:38"
+   }
+  },
+  "18145074805596156": {
+   "slug": "en-003-fridge-leftovers",
+   "publicado": "2026-10-28T15:35:10+0000",
+   "duracion": null,
+   "ultimo": {
+    "views": 186,
+    "reach": 169,
+    "likes": 2,
+    "comments": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 3,
+    "ig_reels_avg_watch_time": 10256,
+    "ig_reels_video_view_total_time": 1764189,
+    "cuando": "2026-10-29T02:38"
+   }
+  },
+  "18072403097773356": {
+   "slug": "en-004-sugar-hyper",
+   "publicado": "2026-10-28T22:35:02+0000",
+   "duracion": null,
+   "ultimo": {
+    "views": 208,
+    "reach": 189,
     "likes": 1,
     "comments": 0,
     "shares": 0,
     "saved": 0,
-    "total_interactions": 1,
-    "ig_reels_avg_watch_time": 9523,
-    "ig_reels_video_view_total_time": 2076158,
-    "cuando": "2026-10-28T02:29"
+    "total_interactions": 2,
+    "ig_reels_avg_watch_time": 8832,
+    "ig_reels_video_view_total_time": 1669250,
+    "cuando": "2026-10-29T02:38"
    }
   }
  }

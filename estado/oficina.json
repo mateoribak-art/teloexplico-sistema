@@ -1,12 +1,12 @@
 {
- "actualizado": "2026-10-29T01:53",
+ "actualizado": "2026-10-29T02:38",
  "oficinas": [
   {
    "clave": "es",
    "usuario": "teloexplico.ar",
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
-   "seguidores": 249,
+   "seguidores": 254,
    "listos": 11,
    "dias": 5.5,
    "proximo": "019-sensacion-termica",
@@ -143,7 +143,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsqueda web (alertas SMN): sin resultados fechados de hoy (lo más reciente es de julio). Sin tema de actualidad verificable; sigue la cola norm",
      "cuando": "2026-10-28T15:59",
-     "hace": "hace 9 h",
+     "hace": "hace 10 h",
      "detalle": [
       "26/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, clima, tendencias): sin resultados fechados de hoy, solo notas viejas (feb, dic, finde largo 9-10 oct) o sin fecha. Candidatos: (1) El Niño/clima de la semana -> ángulo ya tomado por posta y clima saturado con 004 y 005 -> descartado; (2) alertas por tormentas -> sin fuente fechada de hoy, no verificable -> descartado; (3) tendencias/redes -> sin evidencia. No se produce video de actualidad; sigue la cola normal.",
       "27/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy (solo notas de feb/2023/2025 o sin fecha; tendencias genéricas: Ipsos preocupaciones, Mundial). Candidatos: (1) clima/alertas SMN -> sin fuente del día, y ya hay 004, 005 y 016 -> descartado; (2) calor extremo de primavera -> sin alerta fechada que lo confirme -> descartado; (3) tendencias/redes -> sin evidencia de un tema que todos vivan hoy. No se produce video de actualidad; sigue la cola normal.",
@@ -284,7 +284,7 @@
      "estado": "ok",
      "resumen": "Último: 012-lavar-pollo.",
      "cuando": "2026-10-28T19:33",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [
       "28/10 12:32 020-pava-se-corta publicado: https://www.instagram.com/reel/DfCwt0oCD_N/",
       "28/10 12:33 020-pava-se-corta publicado en Facebook: https://www.facebook.com/reel/1862858108404608/",
@@ -321,7 +321,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-28T19:33",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [
       "27/10 19:34 018-rayo-trueno https://youtube.com/shorts/lPzAo974Omc | privacidad: public",
       "27/10 19:34 018-rayo-trueno paquete para TikTok/YouTube enviado",
@@ -353,7 +353,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-10-27T17:29",
-     "hace": "hace 32 h",
+     "hace": "hace 33 h",
      "detalle": [
       "2026-10-26 23:00 bts: listo hecho en sesión",
       "2026-10-26 23:00 heladera: listo hecho en sesión",
@@ -422,25 +422,25 @@
       }
      },
      "estado": "ok",
-     "resumen": "28/10: 249 seguidores",
-     "cuando": "2026-10-28T02:29",
-     "hace": "hace 23 h",
+     "resumen": "29/10: 254 seguidores",
+     "cuando": "2026-10-29T02:37",
+     "hace": "hace 1 min",
      "detalle": [
-      "24/10: 16 seguidores",
       "26/10: 179 seguidores",
       "27/10: 235 seguidores",
-      "28/10: 249 seguidores"
+      "28/10: 249 seguidores",
+      "29/10: 254 seguidores"
      ],
      "tareas": [
-      "001-heladera: 98.634 vistas · 3146 enviados · 1633 ♥",
-      "007-bts-13-anios: 23.410 vistas · 448 enviados · 1956 ♥",
-      "006-army-bomb: 7.651 vistas · 34 enviados · 432 ♥",
-      "003-vuelta-carne: 3.181 vistas · 24 enviados · 75 ♥",
-      "002-corte-digestion: 1.518 vistas · 2 enviados · 25 ♥"
+      "001-heladera: 102.362 vistas · 3390 enviados · 1722 ♥",
+      "007-bts-13-anios: 24.230 vistas · 469 enviados · 2088 ♥",
+      "006-army-bomb: 7.760 vistas · 41 enviados · 445 ♥",
+      "003-vuelta-carne: 3.495 vistas · 24 enviados · 77 ♥",
+      "020-pava-se-corta: 1.813 vistas · 2 enviados · 64 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "2ce0d222618b"
+     "firma": "b10285449b5c"
     },
     {
      "id": "vigilante",
@@ -457,7 +457,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-29T01:53",
+     "cuando": "2026-10-29T02:38",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -587,7 +587,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-29T01:53",
-     "hace": "recién",
+     "hace": "hace 45 min",
      "detalle": [
       "Uso: 23 pasos · 18,332 tokens nuevos · 930,182 de caché · 6,966 escritos · equivale a US$ 0.66 de API",
       "2026-10-29 01:33 Arranca la producción (4 listos en la cola, meta 6).",
@@ -621,7 +621,7 @@
      "estado": "ok",
      "resumen": "Tercera pasada del radar: sin tema nuevo. Descartados: (1) humo/incendios en el Noroeste (Spokane): evento regional, sin fuente oficial del día y con riesgo de ",
      "cuando": "2026-10-28T16:00",
-     "hace": "hace 9 h",
+     "hace": "hace 10 h",
      "detalle": [
       "28/10 00:00 Radar: la búsqueda web no devolvió nada reciente (solo páginas viejas). Sin tema de actualidad; se sigue con un video adaptado.",
       "27/10 00:00 Segunda pasada del radar: no se produce otro tema. en-002-dst-farmers (🔥, listo) ya cubre la actualidad del día; no se fuerza un segundo video.",
@@ -651,7 +651,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-10-29T01:53",
-     "hace": "recién",
+     "hace": "hace 45 min",
      "detalle": [
       "en-002-dst-farmers: aprobado — Todas las afirmaciones fácticas tienen fuente (National Archives, History.com, Library of Congress, U.S. DOT/CRS) y las fechas coinciden. No",
       "en-003-fridge-leftovers: aprobado — Texto actual revisado. Todas las cifras y unidades coinciden con USDA FSIS (Danger Zone 40-140 °F, duplicacion en 'as little as 20 minutes',",
@@ -684,7 +684,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-10-29T01:53",
-     "hace": "recién",
+     "hace": "hace 45 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -708,7 +708,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-29 01:53.",
      "cuando": "2026-10-29T01:53",
-     "hace": "recién",
+     "hace": "hace 45 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -732,7 +732,7 @@
      "estado": "ok",
      "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-10-29T01:53",
-     "hace": "recién",
+     "hace": "hace 45 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -756,7 +756,7 @@
      "estado": "ok",
      "resumen": "Último: en-004-sugar-hyper.",
      "cuando": "2026-10-28T19:36",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [
       "27/10 20:10 en-002-dst-farmers en la bandeja de TikTok",
       "27/10 20:10 en-002-dst-farmers paquete para TikTok/YouTube enviado",
@@ -793,7 +793,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-28T19:36",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [
       "27/10 12:37 en-001-phone-rice en la bandeja de TikTok",
       "27/10 12:37 en-001-phone-rice paquete para TikTok/YouTube enviado",
@@ -849,19 +849,22 @@
       }
      },
      "estado": "ok",
-     "resumen": "28/10: 2 seguidores",
-     "cuando": "2026-10-28T02:29",
-     "hace": "hace 23 h",
+     "resumen": "29/10: 2 seguidores",
+     "cuando": "2026-10-29T02:38",
+     "hace": "recién",
      "detalle": [
-      "28/10: 2 seguidores"
+      "28/10: 2 seguidores",
+      "29/10: 2 seguidores"
      ],
      "tareas": [
-      "en-001-phone-rice: 3.604 vistas · 16 enviados · 42 ♥",
-      "en-002-dst-farmers: 240 vistas · 0 enviados · 1 ♥"
+      "en-001-phone-rice: 3.743 vistas · 16 enviados · 47 ♥",
+      "en-002-dst-farmers: 491 vistas · 0 enviados · 9 ♥",
+      "en-004-sugar-hyper: 208 vistas · 0 enviados · 1 ♥",
+      "en-003-fridge-leftovers: 186 vistas · 0 enviados · 2 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "4435e3e46556"
+     "firma": "833be264262d"
     },
     {
      "id": "vigilante",
@@ -878,7 +881,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-29T01:53",
+     "cuando": "2026-10-29T02:38",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
