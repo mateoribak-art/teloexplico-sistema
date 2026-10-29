@@ -47,9 +47,20 @@ def voz_coincide(slug, video):
     texto = ' '.join(f['texto'] for f in guion['frases'])
     # en los procesadores de GitHub el modo int8 transcribe basura ("la parrilla se precauce…", 26/10): allá, precisión completa
     calculo = 'int8' if os.name == 'nt' else 'float32'
-    segs, _ = WhisperModel('small', device='cpu', compute_type=calculo).transcribe(audio, language=idioma, initial_prompt=texto)
-    segs = list(segs)
-    oido = ''.join(norm(x) for s in segs for x in a_cifras(s.text, idioma=idioma).split())
+    modelo = WhisperModel('small', device='cpu', compute_type=calculo)
+
+    def oir(**extra):
+        segs, _ = modelo.transcribe(audio, language=idioma, **extra)
+        segs = list(segs)
+        return segs, ''.join(norm(x) for s in segs for x in a_cifras(s.text, idioma=idioma).split())
+
+    segs, oido = oir(initial_prompt=texto)
+    # whisper a veces se "come" la última frase de un audio largo aunque se oiga (en-009, 28/10: 91 %): si no alcanza, otra pasada
+    # sin arrastrar el texto anterior y sin el filtro de silencio; vale la mejor de las dos
+    if difflib.SequenceMatcher(a=esperado, b=oido, autojunk=False).ratio() < 0.96:
+        segs2, oido2 = oir(initial_prompt=texto, condition_on_previous_text=False, no_speech_threshold=0.9, log_prob_threshold=-2.0)
+        if len(oido2) > len(oido):
+            segs, oido = segs2, oido2
     os.remove(tmp)
     # comparación letra por letra: "ari rang" / "arirang" o "armi" / "army" casi no restan; una frase cambiada sí
     sm = difflib.SequenceMatcher(a=esperado, b=oido, autojunk=False)

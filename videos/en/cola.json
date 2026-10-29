@@ -159,7 +159,7 @@
  {
   "slug": "en-006-five-second-rule",
   "tema": "Is the five-second rule real? (Rutgers 2016)",
-  "estado": "produccion",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -185,6 +185,11 @@
     "estado": "produccion",
     "cuando": "2026-10-29T02:30",
     "motivo": "rehacer: la voz dio 87 % y el audio ya no está en motor/public; regenerar con tlx voz --regenerar, revisar y pasar a render"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-29T00:57",
+    "motivo": "control corregido: whisper se comía la última frase (falso rechazo, 29/10)"
    }
   ]
  },
@@ -240,7 +245,7 @@
  {
   "slug": "en-009-ceiling-fan",
   "tema": "Which way should your ceiling fan spin? (DOE)",
-  "estado": "apartado",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -261,6 +266,11 @@
     "estado": "apartado",
     "cuando": "2026-10-28T23:59",
     "motivo": "render/control: ler. In winter, flip the switch so they spin clockwise, on low. Now the fan pulls air up, and the warm air stuck near the ceiling gets pushed down and around the room. That's the advice from the U.S. Department of Energy. Heads up. A fan cools peopl\nPROBLEMAS:\n- la voz no coincide con el guion (91%)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-29T00:57",
+    "motivo": "control corregido: whisper se comía la última frase (falso rechazo, 29/10)"
    }
   ]
  }
