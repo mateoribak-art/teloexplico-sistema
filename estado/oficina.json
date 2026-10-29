@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T08:39",
+ "actualizado": "2026-10-29T12:36",
  "oficinas": [
   {
    "clave": "es",
@@ -7,13 +7,18 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 254,
-   "listos": 12,
-   "dias": 6.0,
+   "listos": 11,
+   "dias": 5.5,
    "proximo": "011-sal-agua-hierve",
-   "publicados": 10,
+   "publicados": 11,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "021-heladera-parte-2",
+     "link": "https://www.instagram.com/reel/DfFVi-5lIRm/",
+     "cuando": "2026-10-29T15:32"
+    },
     {
      "slug": "012-lavar-pollo",
      "link": "https://www.instagram.com/reel/DfDgxO5iMug/",
@@ -33,11 +38,6 @@
      "slug": "016-el-nino-clima",
      "link": "https://www.instagram.com/reel/DfAL7kFCkeY/",
      "cuando": "2026-10-27T15:32"
-    },
-    {
-     "slug": "003-vuelta-carne",
-     "link": "https://www.instagram.com/reel/De-XT1miA1a/",
-     "cuando": "2026-10-26T22:33"
     }
    ],
    "linea": [
@@ -77,18 +77,18 @@
      "motivo": "tema de actualidad vencido (más de 48 h)"
     },
     {
-     "slug": "012-lavar-pollo",
-     "tema": "¿Hay que lavar el pollo crudo antes de cocinarlo?",
-     "estado": "publicado",
-     "cuando": "2026-10-28T19:32",
-     "motivo": "https://www.instagram.com/reel/DfDgxO5iMug/"
-    },
-    {
      "slug": "020-pava-se-corta",
      "tema": "¿Por qué la pava eléctrica se corta sola? (piloto 3D)",
      "estado": "publicado",
      "cuando": "2026-10-28T12:32",
      "motivo": "https://www.instagram.com/reel/DfCwt0oCD_N/"
+    },
+    {
+     "slug": "021-heladera-parte-2",
+     "tema": "Heladera parte 2: ¿tapo la comida? ¿cuántos días dura?",
+     "estado": "publicado",
+     "cuando": "2026-10-29T12:32",
+     "motivo": "https://www.instagram.com/reel/DfFVi-5lIRm/"
     }
    ],
    "empleados": [
@@ -109,7 +109,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-29T08:15",
-     "hace": "hace 24 min",
+     "hace": "hace 4 h",
      "detalle": [
       "Uso: 53 pasos · 78,758 tokens nuevos · 1,701,107 de caché · 16,469 escritos · equivale a US$ 0.80 de API",
       "2026-10-29 07:20 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -143,7 +143,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsqueda web (alertas SMN): sin resultados fechados de hoy (lo más reciente es de julio). Sin tema de actualidad verificable; sigue la cola norm",
      "cuando": "2026-10-28T15:59",
-     "hace": "hace 16 h",
+     "hace": "hace 20 h",
      "detalle": [
       "26/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, clima, tendencias): sin resultados fechados de hoy, solo notas viejas (feb, dic, finde largo 9-10 oct) o sin fecha. Candidatos: (1) El Niño/clima de la semana -> ángulo ya tomado por posta y clima saturado con 004 y 005 -> descartado; (2) alertas por tormentas -> sin fuente fechada de hoy, no verificable -> descartado; (3) tendencias/redes -> sin evidencia. No se produce video de actualidad; sigue la cola normal.",
       "27/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy (solo notas de feb/2023/2025 o sin fecha; tendencias genéricas: Ipsos preocupaciones, Mundial). Candidatos: (1) clima/alertas SMN -> sin fuente del día, y ya hay 004, 005 y 016 -> descartado; (2) calor extremo de primavera -> sin alerta fechada que lo confirme -> descartado; (3) tendencias/redes -> sin evidencia de un tema que todos vivan hoy. No se produce video de actualidad; sigue la cola normal.",
@@ -176,8 +176,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-10-29T08:15",
-     "hace": "hace 24 min",
+     "cuando": "2026-10-29T12:32",
+     "hace": "hace 4 min",
      "detalle": [
       "020-pava-se-corta: aprobado — Versión final del guion, recortada y sin John Taylor. Las 9 frases están verificadas con fuentes y tienen el matiz correcto. Lo de seguridad",
       "008-aire-en-17: aprobado — Todas las afirmaciones factuales estan verificadas con fuentes oficiales argentinas (Secretaria de Energia de la Nacion y ENRE) y fuentes te",
@@ -209,8 +209,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-10-29T08:15",
-     "hace": "hace 24 min",
+     "cuando": "2026-10-29T12:32",
+     "hace": "hace 4 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -232,14 +232,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-10-29 08:15.",
-     "cuando": "2026-10-29T08:15",
-     "hace": "hace 24 min",
+     "resumen": "Último video terminado: 2026-10-29 12:32.",
+     "cuando": "2026-10-29T12:32",
+     "hace": "hace 4 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "9bb9f1a65217"
+     "firma": "1f7c07517697"
     },
     {
      "id": "control",
@@ -257,8 +257,8 @@
      },
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo (005) quedó vencido y apartado, y ya hay una versión corta lista para reemplazarlo; no cambié nada.",
-     "cuando": "2026-10-29T08:15",
-     "hace": "hace 24 min",
+     "cuando": "2026-10-29T12:32",
+     "hace": "hace 4 min",
      "detalle": [],
      "tareas": [
       "005-granizo-calor: tema de actualidad vencido (más de 48 h)"
@@ -282,27 +282,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: 012-lavar-pollo.",
-     "cuando": "2026-10-28T19:33",
-     "hace": "hace 13 h",
+     "resumen": "Último: 021-heladera-parte-2.",
+     "cuando": "2026-10-29T12:34",
+     "hace": "hace 2 min",
      "detalle": [
-      "28/10 12:32 020-pava-se-corta publicado: https://www.instagram.com/reel/DfCwt0oCD_N/",
-      "28/10 12:33 020-pava-se-corta publicado en Facebook: https://www.facebook.com/reel/1862858108404608/",
-      "28/10 12:34 020-pava-se-corta en la bandeja de TikTok",
-      "28/10 12:34 020-pava-se-corta https://youtube.com/shorts/aJdN6NZ2PNw | privacidad: public",
-      "28/10 12:34 020-pava-se-corta paquete para TikTok/YouTube enviado",
       "28/10 19:32 012-lavar-pollo publicado: https://www.instagram.com/reel/DfDgxO5iMug/",
       "28/10 19:33 012-lavar-pollo publicado en Facebook: https://www.facebook.com/reel/1773103130436407/",
       "28/10 19:33 012-lavar-pollo en la bandeja de TikTok",
       "28/10 19:33 012-lavar-pollo https://youtube.com/shorts/yK63IAofoH8 | privacidad: public",
-      "28/10 19:33 012-lavar-pollo paquete para TikTok/YouTube enviado"
+      "28/10 19:33 012-lavar-pollo paquete para TikTok/YouTube enviado",
+      "29/10 12:32 021-heladera-parte-2 publicado: https://www.instagram.com/reel/DfFVi-5lIRm/",
+      "29/10 12:33 021-heladera-parte-2 publicado en Facebook: https://www.facebook.com/reel/1434365651455189/",
+      "29/10 12:34 021-heladera-parte-2 en la bandeja de TikTok",
+      "29/10 12:34 021-heladera-parte-2 https://youtube.com/shorts/ES3qhM1vLhM | privacidad: public",
+      "29/10 12:34 021-heladera-parte-2 paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "Próximo: 011-sal-agua-hierve — ¿Ponerle sal al agua hace que hierva más rápido?"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "8db2bbc01051"
+     "firma": "aebb3c0530d0"
     },
     {
      "id": "redes",
@@ -320,17 +320,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-10-28T19:33",
-     "hace": "hace 13 h",
+     "cuando": "2026-10-29T12:34",
+     "hace": "hace 2 min",
      "detalle": [
-      "27/10 19:34 018-rayo-trueno https://youtube.com/shorts/lPzAo974Omc | privacidad: public",
-      "27/10 19:34 018-rayo-trueno paquete para TikTok/YouTube enviado",
-      "28/10 12:34 020-pava-se-corta en la bandeja de TikTok",
       "28/10 12:34 020-pava-se-corta https://youtube.com/shorts/aJdN6NZ2PNw | privacidad: public",
       "28/10 12:34 020-pava-se-corta paquete para TikTok/YouTube enviado",
       "28/10 19:33 012-lavar-pollo en la bandeja de TikTok",
       "28/10 19:33 012-lavar-pollo https://youtube.com/shorts/yK63IAofoH8 | privacidad: public",
-      "28/10 19:33 012-lavar-pollo paquete para TikTok/YouTube enviado"
+      "28/10 19:33 012-lavar-pollo paquete para TikTok/YouTube enviado",
+      "29/10 12:34 021-heladera-parte-2 en la bandeja de TikTok",
+      "29/10 12:34 021-heladera-parte-2 https://youtube.com/shorts/ES3qhM1vLhM | privacidad: public",
+      "29/10 12:34 021-heladera-parte-2 paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -353,7 +353,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-10-27T17:29",
-     "hace": "hace 39 h",
+     "hace": "hace 43 h",
      "detalle": [
       "2026-10-26 23:00 bts: listo hecho en sesión",
       "2026-10-26 23:00 heladera: listo hecho en sesión",
@@ -387,7 +387,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-10-29T03:50",
-     "hace": "hace 4 h",
+     "hace": "hace 8 h",
      "detalle": [
       "26/10 21:56 (sesión con Mateo): 14 respondidos, 3 salteados, 1 alerta",
       "28/10 03:41 Hay 1 comentarios nuevos: arranca la respuesta.",
@@ -424,7 +424,7 @@
      "estado": "ok",
      "resumen": "29/10: 254 seguidores",
      "cuando": "2026-10-29T02:37",
-     "hace": "hace 6 h",
+     "hace": "hace 9 h",
      "detalle": [
       "26/10: 179 seguidores",
       "27/10: 235 seguidores",
@@ -457,7 +457,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-29T08:39",
+     "cuando": "2026-10-29T12:36",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -497,13 +497,18 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 2,
-   "listos": 6,
-   "dias": 3.0,
+   "listos": 5,
+   "dias": 2.5,
    "proximo": "en-005-fridge-part-2",
-   "publicados": 4,
+   "publicados": 5,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "en-006-five-second-rule",
+     "link": "https://www.instagram.com/reel/DfFVzyfAVP0/",
+     "cuando": "2026-10-29T15:35"
+    },
     {
      "slug": "en-004-sugar-hyper",
      "link": "https://www.instagram.com/reel/DfDhEW6kmNm/",
@@ -534,13 +539,6 @@
      "motivo": "producción nocturna"
     },
     {
-     "slug": "en-006-five-second-rule",
-     "tema": "Is the five-second rule real? (Rutgers 2016)",
-     "estado": "listo",
-     "cuando": "2026-10-29T00:57",
-     "motivo": "control corregido: whisper se comía la última frase (falso rechazo, 29/10)"
-    },
-    {
      "slug": "en-007-flip-steak",
      "tema": "Flip a steak only once? (adapted from 003)",
      "estado": "listo",
@@ -555,11 +553,11 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "en-003-fridge-leftovers",
-     "tema": "Do leftovers need to cool before the fridge? (adapted from 001)",
-     "estado": "publicado",
-     "cuando": "2026-10-28T12:35",
-     "motivo": "https://www.instagram.com/reel/DfCw_E9FFCc/"
+     "slug": "en-009-ceiling-fan",
+     "tema": "Which way should your ceiling fan spin? (DOE)",
+     "estado": "listo",
+     "cuando": "2026-10-29T00:57",
+     "motivo": "control corregido: whisper se comía la última frase (falso rechazo, 29/10)"
     },
     {
      "slug": "en-004-sugar-hyper",
@@ -567,6 +565,13 @@
      "estado": "publicado",
      "cuando": "2026-10-28T19:35",
      "motivo": "https://www.instagram.com/reel/DfDhEW6kmNm/"
+    },
+    {
+     "slug": "en-006-five-second-rule",
+     "tema": "Is the five-second rule real? (Rutgers 2016)",
+     "estado": "publicado",
+     "cuando": "2026-10-29T12:35",
+     "motivo": "https://www.instagram.com/reel/DfFVzyfAVP0/"
     }
    ],
    "empleados": [
@@ -587,7 +592,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-29T08:39",
-     "hace": "recién",
+     "hace": "hace 3 h",
      "detalle": [
       "Uso: 66 pasos · 79,532 tokens nuevos · 2,116,869 de caché · 19,587 escritos · equivale a US$ 0.90 de API",
       "2026-10-29 08:15 Arranca la producción (5 listos en la cola, meta 6).",
@@ -621,7 +626,7 @@
      "estado": "ok",
      "resumen": "Tercera pasada del radar: sin tema nuevo. Descartados: (1) humo/incendios en el Noroeste (Spokane): evento regional, sin fuente oficial del día y con riesgo de ",
      "cuando": "2026-10-28T16:00",
-     "hace": "hace 16 h",
+     "hace": "hace 20 h",
      "detalle": [
       "28/10 00:00 Radar: la búsqueda web no devolvió nada reciente (solo páginas viejas). Sin tema de actualidad; se sigue con un video adaptado.",
       "27/10 00:00 Segunda pasada del radar: no se produce otro tema. en-002-dst-farmers (🔥, listo) ya cubre la actualidad del día; no se fuerza un segundo video.",
@@ -650,8 +655,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-10-29T08:39",
-     "hace": "recién",
+     "cuando": "2026-10-29T12:35",
+     "hace": "hace 1 min",
      "detalle": [
       "en-003-fridge-leftovers: aprobado — Texto actual revisado. Todas las cifras y unidades coinciden con USDA FSIS (Danger Zone 40-140 °F, duplicacion en 'as little as 20 minutes',",
       "en-004-sugar-hyper: aprobado — Las afirmaciones de salud (sin efecto del azucar en la conducta infantil, caries) estan verificadas con fuentes primarias/secundarias consis",
@@ -683,8 +688,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-10-29T08:39",
-     "hace": "recién",
+     "cuando": "2026-10-29T12:35",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -706,14 +711,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-10-29 08:39.",
-     "cuando": "2026-10-29T08:39",
-     "hace": "recién",
+     "resumen": "Último video terminado: 2026-10-29 12:35.",
+     "cuando": "2026-10-29T12:35",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "b653279c9ee2"
+     "firma": "c3898f13acee"
     },
     {
      "id": "control",
@@ -730,14 +735,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-10-29T08:39",
-     "hace": "recién",
+     "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-10-29T12:35",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "625440fe5990"
+     "firma": "bace1412aac6"
     },
     {
      "id": "publicador",
@@ -754,27 +759,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: en-004-sugar-hyper.",
-     "cuando": "2026-10-28T19:36",
-     "hace": "hace 13 h",
+     "resumen": "Último: en-006-five-second-rule.",
+     "cuando": "2026-10-29T12:36",
+     "hace": "recién",
      "detalle": [
-      "27/10 20:10 en-002-dst-farmers en la bandeja de TikTok",
-      "27/10 20:10 en-002-dst-farmers paquete para TikTok/YouTube enviado",
-      "28/10 12:35 en-003-fridge-leftovers publicado: https://www.instagram.com/reel/DfCw_E9FFCc/",
-      "28/10 12:35 en-003-fridge-leftovers publicado en Facebook: https://www.facebook.com/reel/2543661722781524/",
       "28/10 12:36 en-003-fridge-leftovers en la bandeja de TikTok",
       "28/10 12:36 en-003-fridge-leftovers paquete para TikTok/YouTube enviado",
       "28/10 19:35 en-004-sugar-hyper publicado: https://www.instagram.com/reel/DfDhEW6kmNm/",
       "28/10 19:35 en-004-sugar-hyper publicado en Facebook: https://www.facebook.com/reel/2118299352104359/",
       "28/10 19:36 en-004-sugar-hyper en la bandeja de TikTok",
-      "28/10 19:36 en-004-sugar-hyper paquete para TikTok/YouTube enviado"
+      "28/10 19:36 en-004-sugar-hyper paquete para TikTok/YouTube enviado",
+      "29/10 12:35 en-006-five-second-rule publicado: https://www.instagram.com/reel/DfFVzyfAVP0/",
+      "29/10 12:35 en-006-five-second-rule publicado en Facebook: https://www.facebook.com/reel/1121935216975923/",
+      "29/10 12:36 en-006-five-second-rule en la bandeja de TikTok",
+      "29/10 12:36 en-006-five-second-rule paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "Próximo: en-005-fridge-part-2 — Fridge part 2: cover leftovers? how many days? (adapted from 021)"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "4d359dc85af1"
+     "firma": "c7e8acfdd47a"
     },
     {
      "id": "redes",
@@ -792,17 +797,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-10-28T19:36",
-     "hace": "hace 13 h",
+     "cuando": "2026-10-29T12:36",
+     "hace": "recién",
      "detalle": [
-      "27/10 12:37 en-001-phone-rice en la bandeja de TikTok",
-      "27/10 12:37 en-001-phone-rice paquete para TikTok/YouTube enviado",
       "27/10 20:10 en-002-dst-farmers en la bandeja de TikTok",
       "27/10 20:10 en-002-dst-farmers paquete para TikTok/YouTube enviado",
       "28/10 12:36 en-003-fridge-leftovers en la bandeja de TikTok",
       "28/10 12:36 en-003-fridge-leftovers paquete para TikTok/YouTube enviado",
       "28/10 19:36 en-004-sugar-hyper en la bandeja de TikTok",
-      "28/10 19:36 en-004-sugar-hyper paquete para TikTok/YouTube enviado"
+      "28/10 19:36 en-004-sugar-hyper paquete para TikTok/YouTube enviado",
+      "29/10 12:36 en-006-five-second-rule en la bandeja de TikTok",
+      "29/10 12:36 en-006-five-second-rule paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -851,7 +856,7 @@
      "estado": "ok",
      "resumen": "29/10: 2 seguidores",
      "cuando": "2026-10-29T02:38",
-     "hace": "hace 6 h",
+     "hace": "hace 9 h",
      "detalle": [
       "28/10: 2 seguidores",
       "29/10: 2 seguidores"
@@ -881,7 +886,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-29T08:39",
+     "cuando": "2026-10-29T12:36",
      "hace": "recién",
      "detalle": [],
      "tareas": [],

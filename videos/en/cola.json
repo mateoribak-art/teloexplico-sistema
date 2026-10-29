@@ -159,7 +159,7 @@
  {
   "slug": "en-006-five-second-rule",
   "tema": "Is the five-second rule real? (Rutgers 2016)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -190,6 +190,11 @@
     "estado": "listo",
     "cuando": "2026-10-29T00:57",
     "motivo": "control corregido: whisper se comía la última frase (falso rechazo, 29/10)"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-29T12:35",
+    "motivo": "https://www.instagram.com/reel/DfFVzyfAVP0/"
    }
   ]
  },

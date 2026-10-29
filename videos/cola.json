@@ -669,7 +669,7 @@
  {
   "slug": "021-heladera-parte-2",
   "tema": "Heladera parte 2: ¿tapo la comida? ¿cuántos días dura?",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -705,6 +705,11 @@
     "estado": "listo",
     "cuando": "2026-10-28T18:40",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-29T12:32",
+    "motivo": "https://www.instagram.com/reel/DfFVi-5lIRm/"
    }
   ]
  },
