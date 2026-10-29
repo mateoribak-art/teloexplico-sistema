@@ -20,7 +20,7 @@
  },
  {
   "clave": "heladera",
-  "estado": "listo",
+  "estado": "publicado",
   "origen": [
    "001-heladera"
   ],
@@ -34,6 +34,11 @@
     "estado": "listo",
     "cuando": "2026-10-26T23:24",
     "motivo": "control OK"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-29T20:22",
+    "motivo": "https://www.instagram.com/p/DfGLWVgmyRp/"
    }
   ]
  },
