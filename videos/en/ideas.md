@@ -35,7 +35,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 
 ## Temas de EE. UU. — serie: casa (Home myths)
 - [ ] Do chargers left plugged in waste electricity? (phantom load, DOE; plata: solo verificado)
-- [ ] Does turning the thermostat down at night save money? (DOE: up to ~10 % a year with 7–10 °F for 8 h; plata: solo verificado)
+- [usada → en-010-thermostat-night] Does turning the thermostat down at night save money? (DOE: up to ~10 % a year with 7–10 °F for 8 h; plata: solo verificado)
 - [usada → en-009-ceiling-fan] Which way should your ceiling fan spin in winter? (DOE)
 - [ ] Does leaving the lights on use less power than switching them on and off? (DOE)
 

@@ -1,0 +1,606 @@
+{
+ "duracion": 34.15,
+ "frases": [
+  {
+   "texto": "You leave the heat on all night because you think reheating the house costs more.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.2
+    },
+    {
+     "texto": "leave",
+     "inicio": 0.2,
+     "fin": 0.38
+    },
+    {
+     "texto": "the",
+     "inicio": 0.38,
+     "fin": 0.52
+    },
+    {
+     "texto": "heat",
+     "inicio": 0.52,
+     "fin": 0.72
+    },
+    {
+     "texto": "on",
+     "inicio": 0.72,
+     "fin": 0.96
+    },
+    {
+     "texto": "all",
+     "inicio": 0.96,
+     "fin": 1.32
+    },
+    {
+     "texto": "night",
+     "inicio": 1.32,
+     "fin": 1.6
+    },
+    {
+     "texto": "because",
+     "inicio": 1.6,
+     "fin": 1.96
+    },
+    {
+     "texto": "you",
+     "inicio": 1.96,
+     "fin": 2.62
+    },
+    {
+     "texto": "think",
+     "inicio": 2.62,
+     "fin": 2.8
+    },
+    {
+     "texto": "reheating",
+     "inicio": 2.8,
+     "fin": 3.28
+    },
+    {
+     "texto": "the",
+     "inicio": 3.28,
+     "fin": 3.44
+    },
+    {
+     "texto": "house",
+     "inicio": 3.44,
+     "fin": 3.64
+    },
+    {
+     "texto": "costs",
+     "inicio": 3.64,
+     "fin": 3.96
+    },
+    {
+     "texto": "more.",
+     "inicio": 3.96,
+     "fin": 4.2
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.2
+  },
+  {
+   "texto": "That's backwards.",
+   "palabras": [
+    {
+     "texto": "That's",
+     "inicio": 4.32,
+     "fin": 4.52
+    },
+    {
+     "texto": "backwards.",
+     "inicio": 4.52,
+     "fin": 5.1
+    }
+   ],
+   "inicio": 4.32,
+   "fin": 5.1
+  },
+  {
+   "texto": "A house loses heat faster when the gap between inside and outside is bigger.",
+   "palabras": [
+    {
+     "texto": "A",
+     "inicio": 5.9,
+     "fin": 6.06
+    },
+    {
+     "texto": "house",
+     "inicio": 6.06,
+     "fin": 6.28
+    },
+    {
+     "texto": "loses",
+     "inicio": 6.28,
+     "fin": 6.62
+    },
+    {
+     "texto": "heat",
+     "inicio": 6.62,
+     "fin": 6.92
+    },
+    {
+     "texto": "faster",
+     "inicio": 6.92,
+     "fin": 7.38
+    },
+    {
+     "texto": "when",
+     "inicio": 7.38,
+     "fin": 7.82
+    },
+    {
+     "texto": "the",
+     "inicio": 7.82,
+     "fin": 7.92
+    },
+    {
+     "texto": "gap",
+     "inicio": 7.92,
+     "fin": 8.14
+    },
+    {
+     "texto": "between",
+     "inicio": 8.14,
+     "fin": 8.36
+    },
+    {
+     "texto": "inside",
+     "inicio": 8.36,
+     "fin": 8.8
+    },
+    {
+     "texto": "and",
+     "inicio": 8.8,
+     "fin": 9.08
+    },
+    {
+     "texto": "outside",
+     "inicio": 9.08,
+     "fin": 9.42
+    },
+    {
+     "texto": "is",
+     "inicio": 9.42,
+     "fin": 9.74
+    },
+    {
+     "texto": "bigger.",
+     "inicio": 9.74,
+     "fin": 10.1
+    }
+   ],
+   "inicio": 5.9,
+   "fin": 10.1
+  },
+  {
+   "texto": "So a cooler house leaks less heat, all night long.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 10.64,
+     "fin": 10.72
+    },
+    {
+     "texto": "a",
+     "inicio": 10.72,
+     "fin": 10.86
+    },
+    {
+     "texto": "cooler",
+     "inicio": 10.86,
+     "fin": 10.98
+    },
+    {
+     "texto": "house",
+     "inicio": 10.98,
+     "fin": 11.32
+    },
+    {
+     "texto": "leaks",
+     "inicio": 11.32,
+     "fin": 11.68
+    },
+    {
+     "texto": "less",
+     "inicio": 11.68,
+     "fin": 11.98
+    },
+    {
+     "texto": "heat,",
+     "inicio": 11.98,
+     "fin": 12.32
+    },
+    {
+     "texto": "all",
+     "inicio": 12.7,
+     "fin": 13.16
+    },
+    {
+     "texto": "night",
+     "inicio": 13.16,
+     "fin": 13.42
+    },
+    {
+     "texto": "long.",
+     "inicio": 13.42,
+     "fin": 13.66
+    }
+   ],
+   "inicio": 10.64,
+   "fin": 13.66
+  },
+  {
+   "texto": "The U.S. Department of Energy says turning your thermostat back seven to ten degrees for eight hours a day can save as much as ten percent a year.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 14.16,
+     "fin": 14.22
+    },
+    {
+     "texto": "U.S.",
+     "inicio": 14.22,
+     "fin": 14.48
+    },
+    {
+     "texto": "Department",
+     "inicio": 14.56,
+     "fin": 14.72
+    },
+    {
+     "texto": "of",
+     "inicio": 14.72,
+     "fin": 14.92
+    },
+    {
+     "texto": "Energy",
+     "inicio": 14.92,
+     "fin": 15.14
+    },
+    {
+     "texto": "says",
+     "inicio": 15.14,
+     "fin": 15.38
+    },
+    {
+     "texto": "turning",
+     "inicio": 15.38,
+     "fin": 15.64
+    },
+    {
+     "texto": "your",
+     "inicio": 15.64,
+     "fin": 15.78
+    },
+    {
+     "texto": "thermostat",
+     "inicio": 15.78,
+     "fin": 16.22
+    },
+    {
+     "texto": "back",
+     "inicio": 16.22,
+     "fin": 16.44
+    },
+    {
+     "texto": "seven",
+     "inicio": 16.44,
+     "fin": 16.78
+    },
+    {
+     "texto": "to",
+     "inicio": 16.78,
+     "fin": 16.94
+    },
+    {
+     "texto": "ten",
+     "inicio": 16.94,
+     "fin": 17.12
+    },
+    {
+     "texto": "degrees",
+     "inicio": 17.12,
+     "fin": 17.46
+    },
+    {
+     "texto": "for",
+     "inicio": 17.46,
+     "fin": 17.74
+    },
+    {
+     "texto": "eight",
+     "inicio": 17.74,
+     "fin": 18.02
+    },
+    {
+     "texto": "hours",
+     "inicio": 18.02,
+     "fin": 18.3
+    },
+    {
+     "texto": "a",
+     "inicio": 18.3,
+     "fin": 18.46
+    },
+    {
+     "texto": "day",
+     "inicio": 18.46,
+     "fin": 18.68
+    },
+    {
+     "texto": "can",
+     "inicio": 18.68,
+     "fin": 19.18
+    },
+    {
+     "texto": "save",
+     "inicio": 19.18,
+     "fin": 19.4
+    },
+    {
+     "texto": "as",
+     "inicio": 19.4,
+     "fin": 19.54
+    },
+    {
+     "texto": "much",
+     "inicio": 19.54,
+     "fin": 19.72
+    },
+    {
+     "texto": "as",
+     "inicio": 19.72,
+     "fin": 19.86
+    },
+    {
+     "texto": "ten",
+     "inicio": 19.86,
+     "fin": 20.06
+    },
+    {
+     "texto": "percent",
+     "inicio": 20.06,
+     "fin": 20.38
+    },
+    {
+     "texto": "a",
+     "inicio": 20.38,
+     "fin": 20.66
+    },
+    {
+     "texto": "year.",
+     "inicio": 20.66,
+     "fin": 21.0
+    }
+   ],
+   "inicio": 14.16,
+   "fin": 21.0
+  },
+  {
+   "texto": "Heads up: that's an upper estimate, and heat pumps are different, so check yours first.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 21.54,
+     "fin": 21.7
+    },
+    {
+     "texto": "up:",
+     "inicio": 21.7,
+     "fin": 21.82
+    },
+    {
+     "texto": "that's",
+     "inicio": 21.92,
+     "fin": 22.08
+    },
+    {
+     "texto": "an",
+     "inicio": 22.08,
+     "fin": 22.16
+    },
+    {
+     "texto": "upper",
+     "inicio": 22.16,
+     "fin": 22.42
+    },
+    {
+     "texto": "estimate,",
+     "inicio": 22.42,
+     "fin": 22.78
+    },
+    {
+     "texto": "and",
+     "inicio": 23.0,
+     "fin": 23.28
+    },
+    {
+     "texto": "heat",
+     "inicio": 23.28,
+     "fin": 23.5
+    },
+    {
+     "texto": "pumps",
+     "inicio": 23.5,
+     "fin": 23.74
+    },
+    {
+     "texto": "are",
+     "inicio": 23.74,
+     "fin": 23.88
+    },
+    {
+     "texto": "different,",
+     "inicio": 23.88,
+     "fin": 24.2
+    },
+    {
+     "texto": "so",
+     "inicio": 24.32,
+     "fin": 24.5
+    },
+    {
+     "texto": "check",
+     "inicio": 24.5,
+     "fin": 24.9
+    },
+    {
+     "texto": "yours",
+     "inicio": 24.9,
+     "fin": 25.1
+    },
+    {
+     "texto": "first.",
+     "inicio": 25.1,
+     "fin": 25.42
+    }
+   ],
+   "inicio": 21.54,
+   "fin": 25.42
+  },
+  {
+   "texto": "Tonight, try dropping it a few degrees before bed.",
+   "palabras": [
+    {
+     "texto": "Tonight,",
+     "inicio": 26.04,
+     "fin": 26.32
+    },
+    {
+     "texto": "try",
+     "inicio": 26.32,
+     "fin": 26.86
+    },
+    {
+     "texto": "dropping",
+     "inicio": 26.86,
+     "fin": 27.2
+    },
+    {
+     "texto": "it",
+     "inicio": 27.2,
+     "fin": 27.36
+    },
+    {
+     "texto": "a",
+     "inicio": 27.36,
+     "fin": 27.42
+    },
+    {
+     "texto": "few",
+     "inicio": 27.42,
+     "fin": 27.54
+    },
+    {
+     "texto": "degrees",
+     "inicio": 27.54,
+     "fin": 27.82
+    },
+    {
+     "texto": "before",
+     "inicio": 27.82,
+     "fin": 28.04
+    },
+    {
+     "texto": "bed.",
+     "inicio": 28.04,
+     "fin": 28.32
+    }
+   ],
+   "inicio": 26.04,
+   "fin": 28.32
+  },
+  {
+   "texto": "Send this to the friend who set the thermostat to seventy-two and never touched it again.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 28.66,
+     "fin": 29.12
+    },
+    {
+     "texto": "this",
+     "inicio": 29.12,
+     "fin": 29.48
+    },
+    {
+     "texto": "to",
+     "inicio": 29.48,
+     "fin": 29.68
+    },
+    {
+     "texto": "the",
+     "inicio": 29.68,
+     "fin": 29.8
+    },
+    {
+     "texto": "friend",
+     "inicio": 29.8,
+     "fin": 30.08
+    },
+    {
+     "texto": "who",
+     "inicio": 30.08,
+     "fin": 30.34
+    },
+    {
+     "texto": "set",
+     "inicio": 30.34,
+     "fin": 30.62
+    },
+    {
+     "texto": "the",
+     "inicio": 30.62,
+     "fin": 30.8
+    },
+    {
+     "texto": "thermostat",
+     "inicio": 30.8,
+     "fin": 31.36
+    },
+    {
+     "texto": "to",
+     "inicio": 31.36,
+     "fin": 31.52
+    },
+    {
+     "texto": "seventy-two",
+     "inicio": 31.52,
+     "fin": 32.2
+    },
+    {
+     "texto": "and",
+     "inicio": 32.46,
+     "fin": 32.74
+    },
+    {
+     "texto": "never",
+     "inicio": 32.74,
+     "fin": 33.12
+    },
+    {
+     "texto": "touched",
+     "inicio": 33.12,
+     "fin": 33.54
+    },
+    {
+     "texto": "it",
+     "inicio": 33.54,
+     "fin": 33.72
+    },
+    {
+     "texto": "again.",
+     "inicio": 33.72,
+     "fin": 33.94
+    }
+   ],
+   "inicio": 28.66,
+   "fin": 33.94
+  }
+ ]
+}

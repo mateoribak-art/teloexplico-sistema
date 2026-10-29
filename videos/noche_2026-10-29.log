@@ -1,0 +1,8 @@
+2026-10-29 07:20 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `011-sal-agua-hierve`, rescatado del apartado. Saqué del guion la cita a Live Science, que no se pudo verificar, y puse el cálculo verificado: una cucharadita por litro sube el punto de ebullición como un décimo de grado. El chequeo volvió aprobado y escribí el guion, la voz (139 de 139 palabras, 43,9 s), las escenas 3D con una olla nueva, el caption (serie cocina #6) y la portada. Pasó `tlx tsc` y revisé dos hojas de cuadros. Lo renderiza `producir.py`; todavía no está en estado `listo`.
+- **Sigue apartado:** `013-alcohol-calor`. Es un tema de salud y la pérdida de calor interna solo es probable, así que no se puede rescatar. Tampoco hice un segundo video: la cola ya tenía 11 listos y los pedidos de Mateo de rehacer en 3D siguen para el próximo turno.
+- **Sin chequeo de radar:** no corrí el radar de actualidad porque era un rescate de la cola.
+Uso: 53 pasos · 78,758 tokens nuevos · 1,701,107 de caché · 16,469 escritos · equivale a US$ 0.80 de API
+2026-10-29 07:29 Render de 011-sal-agua-hierve (sin Claude).
+2026-10-29 08:15 011-sal-agua-hierve: listo (render sin Claude)
+2026-10-29 08:15 Termina la producción (ok).

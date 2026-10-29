@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T07:12",
+ "actualizado": "2026-10-29T08:39",
  "oficinas": [
   {
    "clave": "es",
@@ -7,9 +7,9 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 254,
-   "listos": 11,
-   "dias": 5.5,
-   "proximo": "019-sensacion-termica",
+   "listos": 12,
+   "dias": 6.0,
+   "proximo": "011-sal-agua-hierve",
    "publicados": 10,
    "pausa": false,
    "pendientes": [],
@@ -42,6 +42,13 @@
    ],
    "linea": [
     {
+     "slug": "011-sal-agua-hierve",
+     "tema": "¿Ponerle sal al agua hace que hierva más rápido?",
+     "estado": "listo",
+     "cuando": "2026-10-29T08:15",
+     "motivo": "render sin Claude"
+    },
+    {
      "slug": "019-sensacion-termica",
      "tema": "¿Por qué la sensación térmica es más alta que la temperatura? Humedad y sudor",
      "estado": "listo",
@@ -58,13 +65,6 @@
     {
      "slug": "018-refresca-tormenta",
      "tema": "¿Por qué después de la tormenta refresca de golpe? (corriente descendente)",
-     "estado": "listo",
-     "cuando": "2026-10-27T22:17",
-     "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
-    },
-    {
-     "slug": "014-celular-arroz",
-     "tema": "El celular mojado se arregla en arroz: Apple dice que no",
      "estado": "listo",
      "cuando": "2026-10-27T22:17",
      "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
@@ -108,18 +108,18 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-10-28T22:48",
-     "hace": "hace 8 h",
+     "cuando": "2026-10-29T08:15",
+     "hace": "hace 24 min",
      "detalle": [
-      "Uso: 36 pasos · 87,520 tokens nuevos · 1,176,762 de caché · 22,905 escritos · equivale a US$ 0.70 de API",
-      "2026-10-28 22:16 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
-      "- **Listo para render:** `019-sensacion-termica`, rehecho en 3D (pedido de Mateo, 3 de 7). Está en `render`. `producir.py` lo renderiza y corre el control, así que todavía no lo vi renderizado.",
-      "- **Lo que hice:** reusé el `guion.json`, el `chequeo.json` (aprobado) y el caption. Regeneré la voz (131/131 palabras, 51 s). Escribí el objeto nuevo `kit3d/objetos/Calor.tsx` (persona, dos termómetros, sudor, humedad, sol y toldo) y el `V",
-      "- **Sin segundo video:** quedan 11 listos en cola (más de 10) y todavía faltan 4 rehechos (`008`, `014`, `018-refresca-tormenta`, `012`) para los próximos turnos. Ningún slug apartado o incompleto. El radar de hoy ya se había revisado, sin ",
-      "Uso: 36 pasos · 87,520 tokens nuevos · 1,176,762 de caché · 22,905 escritos · equivale a US$ 0.70 de API",
-      "2026-10-28 22:21 Render de 019-sensacion-termica (sin Claude).",
-      "2026-10-28 22:48 019-sensacion-termica: listo (render sin Claude)",
-      "2026-10-28 22:48 Termina la producción (ok)."
+      "Uso: 53 pasos · 78,758 tokens nuevos · 1,701,107 de caché · 16,469 escritos · equivale a US$ 0.80 de API",
+      "2026-10-29 07:20 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
+      "- **Listo para render:** `011-sal-agua-hierve`, rescatado del apartado. Saqué del guion la cita a Live Science, que no se pudo verificar, y puse el cálculo verificado: una cucharadita por litro sube el punto de ebullición como un décimo de ",
+      "- **Sigue apartado:** `013-alcohol-calor`. Es un tema de salud y la pérdida de calor interna solo es probable, así que no se puede rescatar. Tampoco hice un segundo video: la cola ya tenía 11 listos y los pedidos de Mateo de rehacer en 3D s",
+      "- **Sin chequeo de radar:** no corrí el radar de actualidad porque era un rescate de la cola.",
+      "Uso: 53 pasos · 78,758 tokens nuevos · 1,701,107 de caché · 16,469 escritos · equivale a US$ 0.80 de API",
+      "2026-10-29 07:29 Render de 011-sal-agua-hierve (sin Claude).",
+      "2026-10-29 08:15 011-sal-agua-hierve: listo (render sin Claude)",
+      "2026-10-29 08:15 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -143,7 +143,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsqueda web (alertas SMN): sin resultados fechados de hoy (lo más reciente es de julio). Sin tema de actualidad verificable; sigue la cola norm",
      "cuando": "2026-10-28T15:59",
-     "hace": "hace 15 h",
+     "hace": "hace 16 h",
      "detalle": [
       "26/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, clima, tendencias): sin resultados fechados de hoy, solo notas viejas (feb, dic, finde largo 9-10 oct) o sin fecha. Candidatos: (1) El Niño/clima de la semana -> ángulo ya tomado por posta y clima saturado con 004 y 005 -> descartado; (2) alertas por tormentas -> sin fuente fechada de hoy, no verificable -> descartado; (3) tendencias/redes -> sin evidencia. No se produce video de actualidad; sigue la cola normal.",
       "27/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy (solo notas de feb/2023/2025 o sin fecha; tendencias genéricas: Ipsos preocupaciones, Mundial). Candidatos: (1) clima/alertas SMN -> sin fuente del día, y ya hay 004, 005 y 016 -> descartado; (2) calor extremo de primavera -> sin alerta fechada que lo confirme -> descartado; (3) tendencias/redes -> sin evidencia de un tema que todos vivan hoy. No se produce video de actualidad; sigue la cola normal.",
@@ -176,8 +176,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-10-28T22:48",
-     "hace": "hace 8 h",
+     "cuando": "2026-10-29T08:15",
+     "hace": "hace 24 min",
      "detalle": [
       "020-pava-se-corta: aprobado — Versión final del guion, recortada y sin John Taylor. Las 9 frases están verificadas con fuentes y tienen el matiz correcto. Lo de seguridad",
       "008-aire-en-17: aprobado — Todas las afirmaciones factuales estan verificadas con fuentes oficiales argentinas (Secretaria de Energia de la Nacion y ENRE) y fuentes te",
@@ -209,8 +209,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-10-28T22:48",
-     "hace": "hace 8 h",
+     "cuando": "2026-10-29T08:15",
+     "hace": "hace 24 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -232,14 +232,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-10-28 22:48.",
-     "cuando": "2026-10-28T22:48",
-     "hace": "hace 8 h",
+     "resumen": "Último video terminado: 2026-10-29 08:15.",
+     "cuando": "2026-10-29T08:15",
+     "hace": "hace 24 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "f34de24a1155"
+     "firma": "9bb9f1a65217"
     },
     {
      "id": "control",
@@ -257,8 +257,8 @@
      },
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo (005) quedó vencido y apartado, y ya hay una versión corta lista para reemplazarlo; no cambié nada.",
-     "cuando": "2026-10-28T22:48",
-     "hace": "hace 8 h",
+     "cuando": "2026-10-29T08:15",
+     "hace": "hace 24 min",
      "detalle": [],
      "tareas": [
       "005-granizo-calor: tema de actualidad vencido (más de 48 h)"
@@ -284,7 +284,7 @@
      "estado": "ok",
      "resumen": "Último: 012-lavar-pollo.",
      "cuando": "2026-10-28T19:33",
-     "hace": "hace 11 h",
+     "hace": "hace 13 h",
      "detalle": [
       "28/10 12:32 020-pava-se-corta publicado: https://www.instagram.com/reel/DfCwt0oCD_N/",
       "28/10 12:33 020-pava-se-corta publicado en Facebook: https://www.facebook.com/reel/1862858108404608/",
@@ -298,7 +298,7 @@
       "28/10 19:33 012-lavar-pollo paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: 019-sensacion-termica — ¿Por qué la sensación térmica es más alta que la temperatura? Humedad y sudor"
+      "Próximo: 011-sal-agua-hierve — ¿Ponerle sal al agua hace que hierva más rápido?"
      ],
      "arreglo": null,
      "solo": false,
@@ -321,7 +321,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-28T19:33",
-     "hace": "hace 11 h",
+     "hace": "hace 13 h",
      "detalle": [
       "27/10 19:34 018-rayo-trueno https://youtube.com/shorts/lPzAo974Omc | privacidad: public",
       "27/10 19:34 018-rayo-trueno paquete para TikTok/YouTube enviado",
@@ -353,7 +353,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-10-27T17:29",
-     "hace": "hace 37 h",
+     "hace": "hace 39 h",
      "detalle": [
       "2026-10-26 23:00 bts: listo hecho en sesión",
       "2026-10-26 23:00 heladera: listo hecho en sesión",
@@ -387,7 +387,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-10-29T03:50",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "26/10 21:56 (sesión con Mateo): 14 respondidos, 3 salteados, 1 alerta",
       "28/10 03:41 Hay 1 comentarios nuevos: arranca la respuesta.",
@@ -424,7 +424,7 @@
      "estado": "ok",
      "resumen": "29/10: 254 seguidores",
      "cuando": "2026-10-29T02:37",
-     "hace": "hace 4 h",
+     "hace": "hace 6 h",
      "detalle": [
       "26/10: 179 seguidores",
       "27/10: 235 seguidores",
@@ -457,7 +457,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-29T07:12",
+     "cuando": "2026-10-29T08:39",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -497,8 +497,8 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 2,
-   "listos": 5,
-   "dias": 2.5,
+   "listos": 6,
+   "dias": 3.0,
    "proximo": "en-005-fridge-part-2",
    "publicados": 4,
    "pausa": false,
@@ -586,18 +586,18 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-10-29T01:53",
-     "hace": "hace 5 h",
+     "cuando": "2026-10-29T08:39",
+     "hace": "recién",
      "detalle": [
-      "Uso: 23 pasos · 18,332 tokens nuevos · 930,182 de caché · 6,966 escritos · equivale a US$ 0.66 de API",
-      "2026-10-29 01:33 Arranca la producción (4 listos en la cola, meta 6).",
-      "- **Listo para render:** `en-008-wash-chicken` (Kitchen myths #5, adaptado de 012). Quité la frase de seguridad sin fuente. Un subagente nuevo aprobó el chequeo, con todas las afirmaciones verificadas. Hice la voz (34,5 s) y la escena 3D, y",
-      "- **Apartados:** ninguno.",
-      "- **Incompletos:** ninguno. Todavía no corrió el render real ni el control. En los cuadros de prueba, el termómetro de la escena de cocción se ve flotando sobre el pollo y la cámara cercana tapa el chorro de agua. Lo dejé así tras una sola ",
-      "Uso: 23 pasos · 18,332 tokens nuevos · 930,182 de caché · 6,966 escritos · equivale a US$ 0.66 de API",
-      "2026-10-29 01:37 Render de en-008-wash-chicken (sin Claude).",
-      "2026-10-29 01:53 en-008-wash-chicken: listo (render sin Claude)",
-      "2026-10-29 01:53 Termina la producción (ok)."
+      "Uso: 66 pasos · 79,532 tokens nuevos · 2,116,869 de caché · 19,587 escritos · equivale a US$ 0.90 de API",
+      "2026-10-29 08:15 Arranca la producción (5 listos en la cola, meta 6).",
+      "- **Listo para render:** `en-010-thermostat-night` (propio, serie Home myths #3, sobre si bajar el termostato de noche ahorra plata). El chequeo salió aprobado al primer intento, con las cifras de la DOE de EE. UU. La voz dura 34 s. `tsc` p",
+      "- **Rescate:** no había videos apartados por chequeo rechazado. El `en-008-wash-chicken` ya se había rescatado hoy y figura como `listo` en la cola.",
+      "- **Pendiente:** el radar no se corrió hoy; la última pasada es del 28/10 y no encontró tema. Las páginas de energy.gov devolvieron 404 al abrirlas, así que el chequeo confirmó el texto por resultados de búsqueda que lo citan.",
+      "Uso: 66 pasos · 79,532 tokens nuevos · 2,116,869 de caché · 19,587 escritos · equivale a US$ 0.90 de API",
+      "2026-10-29 08:24 Render de en-010-thermostat-night (sin Claude).",
+      "2026-10-29 08:39 en-010-thermostat-night: listo (render sin Claude)",
+      "2026-10-29 08:39 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -621,7 +621,7 @@
      "estado": "ok",
      "resumen": "Tercera pasada del radar: sin tema nuevo. Descartados: (1) humo/incendios en el Noroeste (Spokane): evento regional, sin fuente oficial del día y con riesgo de ",
      "cuando": "2026-10-28T16:00",
-     "hace": "hace 15 h",
+     "hace": "hace 16 h",
      "detalle": [
       "28/10 00:00 Radar: la búsqueda web no devolvió nada reciente (solo páginas viejas). Sin tema de actualidad; se sigue con un video adaptado.",
       "27/10 00:00 Segunda pasada del radar: no se produce otro tema. en-002-dst-farmers (🔥, listo) ya cubre la actualidad del día; no se fuerza un segundo video.",
@@ -650,17 +650,17 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-10-29T01:53",
-     "hace": "hace 5 h",
+     "cuando": "2026-10-29T08:39",
+     "hace": "recién",
      "detalle": [
-      "en-002-dst-farmers: aprobado — Todas las afirmaciones fácticas tienen fuente (National Archives, History.com, Library of Congress, U.S. DOT/CRS) y las fechas coinciden. No",
       "en-003-fridge-leftovers: aprobado — Texto actual revisado. Todas las cifras y unidades coinciden con USDA FSIS (Danger Zone 40-140 °F, duplicacion en 'as little as 20 minutes',",
       "en-004-sugar-hyper: aprobado — Las afirmaciones de salud (sin efecto del azucar en la conducta infantil, caries) estan verificadas con fuentes primarias/secundarias consis",
       "en-005-fridge-part-2: aprobado — Se corrigieron las dos observaciones: 'Not 5...' ya no esta en el caption y el freezer ahora dice 'for soups and stews ... two to three mont",
       "en-006-five-second-rule: aprobado — Segunda pasada con busqueda web. Todas las afirmaciones coinciden con Miranda & Schaffner 2016 (Applied and Environmental Microbiology 82(21",
       "en-007-flip-steak: aprobado — Segundo intento. Se verificaron todas las frases con busqueda web. Las objeciones del chequeo previo quedaron corregidas: (1) 'the idea is',",
       "en-008-wash-chicken: aprobado — Todas las afirmaciones de salud/seguridad y cifras quedaron verificadas con fuentes de EE. UU. (CDC, USDA FSIS, NC State/J Food Prot). Unida",
-      "en-009-ceiling-fan: aprobado — Todas las afirmaciones de plata/energia y seguridad-practica (sentido de giro por estacion, velocidad baja en invierno, apagar al salir, 'en"
+      "en-009-ceiling-fan: aprobado — Todas las afirmaciones de plata/energia y seguridad-practica (sentido de giro por estacion, velocidad baja en invierno, apagar al salir, 'en",
+      "en-010-thermostat-night: aprobado — Todas las cifras (7 a 10 °F, 8 horas por dia, hasta 10% por año) coinciden con Energy.gov (Energy Saver, thermostats / programmable thermost"
      ],
      "tareas": [],
      "arreglo": null,
@@ -683,8 +683,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-10-29T01:53",
-     "hace": "hace 5 h",
+     "cuando": "2026-10-29T08:39",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -706,14 +706,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-10-29 01:53.",
-     "cuando": "2026-10-29T01:53",
-     "hace": "hace 5 h",
+     "resumen": "Último video terminado: 2026-10-29 08:39.",
+     "cuando": "2026-10-29T08:39",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "78a06bbc873d"
+     "firma": "b653279c9ee2"
     },
     {
      "id": "control",
@@ -730,14 +730,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-10-29T01:53",
-     "hace": "hace 5 h",
+     "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-10-29T08:39",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "bace1412aac6"
+     "firma": "625440fe5990"
     },
     {
      "id": "publicador",
@@ -756,7 +756,7 @@
      "estado": "ok",
      "resumen": "Último: en-004-sugar-hyper.",
      "cuando": "2026-10-28T19:36",
-     "hace": "hace 11 h",
+     "hace": "hace 13 h",
      "detalle": [
       "27/10 20:10 en-002-dst-farmers en la bandeja de TikTok",
       "27/10 20:10 en-002-dst-farmers paquete para TikTok/YouTube enviado",
@@ -793,7 +793,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-28T19:36",
-     "hace": "hace 11 h",
+     "hace": "hace 13 h",
      "detalle": [
       "27/10 12:37 en-001-phone-rice en la bandeja de TikTok",
       "27/10 12:37 en-001-phone-rice paquete para TikTok/YouTube enviado",
@@ -851,7 +851,7 @@
      "estado": "ok",
      "resumen": "29/10: 2 seguidores",
      "cuando": "2026-10-29T02:38",
-     "hace": "hace 4 h",
+     "hace": "hace 6 h",
      "detalle": [
       "28/10: 2 seguidores",
       "29/10: 2 seguidores"
@@ -881,7 +881,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-29T07:12",
+     "cuando": "2026-10-29T08:39",
      "hace": "recién",
      "detalle": [],
      "tareas": [],

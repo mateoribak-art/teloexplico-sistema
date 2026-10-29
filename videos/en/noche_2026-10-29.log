@@ -6,3 +6,11 @@ Uso: 23 pasos · 18,332 tokens nuevos · 930,182 de caché · 6,966 escritos · 
 2026-10-29 01:37 Render de en-008-wash-chicken (sin Claude).
 2026-10-29 01:53 en-008-wash-chicken: listo (render sin Claude)
 2026-10-29 01:53 Termina la producción (ok).
+2026-10-29 08:15 Arranca la producción (5 listos en la cola, meta 6).
+- **Listo para render:** `en-010-thermostat-night` (propio, serie Home myths #3, sobre si bajar el termostato de noche ahorra plata). El chequeo salió aprobado al primer intento, con las cifras de la DOE de EE. UU. La voz dura 34 s. `tsc` pasa y revisé los cuadros en 2 vueltas. Quedó en estado `render` y lo renderiza `producir.py`. El último cuadro que miré fue de tres planos y no incluía el de la luna, que moví después sin volver a renderizar.
+- **Rescate:** no había videos apartados por chequeo rechazado. El `en-008-wash-chicken` ya se había rescatado hoy y figura como `listo` en la cola.
+- **Pendiente:** el radar no se corrió hoy; la última pasada es del 28/10 y no encontró tema. Las páginas de energy.gov devolvieron 404 al abrirlas, así que el chequeo confirmó el texto por resultados de búsqueda que lo citan.
+Uso: 66 pasos · 79,532 tokens nuevos · 2,116,869 de caché · 19,587 escritos · equivale a US$ 0.90 de API
+2026-10-29 08:24 Render de en-010-thermostat-night (sin Claude).
+2026-10-29 08:39 en-010-thermostat-night: listo (render sin Claude)
+2026-10-29 08:39 Termina la producción (ok).

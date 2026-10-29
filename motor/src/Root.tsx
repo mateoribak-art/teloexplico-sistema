@@ -31,6 +31,7 @@ import { DURACION as DUR_020, FPS as FPS_020, PavaSeCorta3D, Portada020 } from "
 import { DURACION as DUR_DEMO_HORA, FPS as FPS_DEMO_HORA, HoraCorrida3D } from "./videos/demo-hora-corrida/Video";
 import { DURACION as DUR_023, FPS as FPS_023, PerrosColores023, Portada023 } from "./videos/023-perros-colores/Video";
 import { DURACION as DUR_024, FPS as FPS_024, GranizoCorto024, Portada024 } from "./videos/024-granizo-corto/Video";
+import { DURACION as DUR_011, FPS as FPS_011, SalAgua011, Portada011 } from "./videos/011-sal-agua-hierve/Video";
 // @letmeexplain.us: slugs con "en-" (logo, cierre y serie salen solos en inglés: kit/cuenta.ts)
 import { DURACION as DUR_EN002, FPS as FPS_EN002, DstFarmersEn002, PortadaEn002 } from "./videos/en-002-dst-farmers/Video";
 import { DURACION as DUR_EN003, FPS as FPS_EN003, FridgeLeftoversEn003, PortadaEn003 } from "./videos/en-003-fridge-leftovers/Video";
@@ -40,6 +41,7 @@ import { DURACION as DUR_EN006, FPS as FPS_EN006, FiveSecondEn006, PortadaEn006 
 import { DURACION as DUR_EN007, FPS as FPS_EN007, FlipSteakEn007, PortadaEn007 } from "./videos/en-007-flip-steak/Video";
 import { DURACION as DUR_EN008, FPS as FPS_EN008, WashChickenEn008, PortadaEn008 } from "./videos/en-008-wash-chicken/Video";
 import { DURACION as DUR_EN009, FPS as FPS_EN009, CeilingFanEn009, PortadaEn009 } from "./videos/en-009-ceiling-fan/Video";
+import { DURACION as DUR_EN010, FPS as FPS_EN010, ThermostatNightEn010, PortadaEn010 } from "./videos/en-010-thermostat-night/Video";
 import { DURACION as DUR_EN001, FPS as FPS_EN001, PhoneRiceEn001, PortadaEn001 } from "./videos/en-001-phone-rice/Video";
 
 // Cada video nuevo suma su <Composition> (id "hNNN-slug") y su <Still> de portada (id "pNNN-slug").
@@ -70,6 +72,7 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="demo-hora-corrida" component={HoraCorrida3D} durationInFrames={DUR_DEMO_HORA} fps={FPS_DEMO_HORA} width={ANCHO} height={ALTO} />
         <Composition id="h023-perros-colores" component={PerrosColores023} durationInFrames={DUR_023} fps={FPS_023} width={ANCHO} height={ALTO} />
         <Composition id="h024-granizo-corto" component={GranizoCorto024} durationInFrames={DUR_024} fps={FPS_024} width={ANCHO} height={ALTO} />
+        <Composition id="h011-sal-agua-hierve" component={SalAgua011} durationInFrames={DUR_011} fps={FPS_011} width={ANCHO} height={ALTO} />
       </Folder>
       <Folder name="en">
         <Composition id="hen-001-phone-rice" component={PhoneRiceEn001} durationInFrames={DUR_EN001} fps={FPS_EN001} width={ANCHO} height={ALTO} />
@@ -90,6 +93,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-008-wash-chicken" component={PortadaEn008} width={ANCHO} height={ALTO} />
         <Composition id="hen-009-ceiling-fan" component={CeilingFanEn009} durationInFrames={DUR_EN009} fps={FPS_EN009} width={ANCHO} height={ALTO} />
         <Still id="pen-009-ceiling-fan" component={PortadaEn009} width={ANCHO} height={ALTO} />
+        <Composition id="hen-010-thermostat-night" component={ThermostatNightEn010} durationInFrames={DUR_EN010} fps={FPS_EN010} width={ANCHO} height={ALTO} />
+        <Still id="pen-010-thermostat-night" component={PortadaEn010} width={ANCHO} height={ALTO} />
       </Folder>
       <Folder name="carruseles">
         <Still id="carrusel" component={CarruselPlaca} width={ANCHO_C} height={ALTO_C} defaultProps={{ datos: { origen: [], placas: [{ tipo: "cierre", texto: "placa de prueba" }] }, i: 0 }} />
@@ -117,6 +122,7 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p020-pava-se-corta" component={Portada020} width={ANCHO} height={ALTO} />
         <Still id="p023-perros-colores" component={Portada023} width={ANCHO} height={ALTO} />
         <Still id="p024-granizo-corto" component={Portada024} width={ANCHO} height={ALTO} />
+        <Still id="p011-sal-agua-hierve" component={Portada011} width={ANCHO} height={ALTO} />
       </Folder>
       {/* plan B (sin Claude): herramientas/plan_b.py le pasa las escenas con --props */}
       <Folder name="planb">

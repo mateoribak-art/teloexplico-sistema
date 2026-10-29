@@ -288,5 +288,27 @@
     "motivo": "control corregido: whisper se comía la última frase (falso rechazo, 29/10)"
    }
   ]
+ },
+ {
+  "slug": "en-010-thermostat-night",
+  "tema": "Does turning the thermostat down at night save money? (DOE)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-29T08:16",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-10-29T08:24",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-29T08:39",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

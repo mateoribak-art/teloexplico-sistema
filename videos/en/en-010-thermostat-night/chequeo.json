@@ -1,0 +1,66 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las cifras (7 a 10 °F, 8 horas por dia, hasta 10% por año) coinciden con Energy.gov (Energy Saver, thermostats / programmable thermostats; tambien en energy.gov/save/home-upgrades). 'Upper estimate' respeta el 'as much as' de DOE y la advertencia sobre bombas de calor (heat pumps) tambien viene de DOE. La fisica de perdida de calor es estandar y esta reflejada en el texto de DOE. Unidades en °F consistentes. No hay anecdotas dudosas ni afirmaciones falsas. Nota menor (no bloquea): la primera linea del caption dice 'saves money' sin matiz y el caveat de bombas de calor aparece despues; si se quisiera mas prolijo, anteponer 'for most furnace/boiler homes'. Limitacion: las paginas de energy.gov devolvieron 404 al fetch directo; el texto se confirmo por resultados de busqueda que citan literalmente la pagina de DOE.",
+  "afirmaciones": [
+    {
+      "texto": "You leave the heat on all night because you think reheating the house costs more. / That's backwards.",
+      "fuente": "U.S. DOE Energy Saver (thermostats): setback saves energy; medicion de setback en estudio DOE Building America (energy.gov, ba_case_study_hydronic_setback.pdf) ~1% por grado en 8 h. Para sistemas convencionales; no aplica igual a heat pumps (matizado en la frase 6).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "A house loses heat faster when the gap between inside and outside is bigger.",
+      "fuente": "Principio de transferencia de calor (proporcional a la diferencia de temperatura); reflejado en texto de Energy.gov Energy Saver ('the lower the interior temperature, the slower the heat loss'); sin cifra",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "So a cooler house leaks less heat, all night long.",
+      "fuente": "Misma fuente: Energy.gov Energy Saver; deduccion directa de la frase anterior",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The U.S. Department of Energy says turning your thermostat back seven to ten degrees for eight hours a day can save as much as ten percent a year. (caption: 7 to 10 degrees F, 8 hours a day, as much as 10% a year on heating and cooling)",
+      "fuente": "https://www.energy.gov/energysaver/thermostats y /programmable-thermostats: 'You can save as much as 10% a year on heating and cooling by simply turning your thermostat back 7°-10°F for 8 hours a day from its normal setting.' Tambien energy.gov/save/home-upgrades",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: that's an upper estimate",
+      "fuente": "DOE usa 'as much as' (hasta); el techo es 10%, no una garantia",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "heat pumps are different, so check yours first",
+      "fuente": "Energy.gov Energy Saver (programmable thermostats): generalmente no recomendados para heat pumps; setback en modo calefaccion puede hacer trabajar ineficientemente la unidad y anular el ahorro, salvo termostatos disenados para heat pumps",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Tonight, try dropping it a few degrees before bed.",
+      "fuente": "Consejo practico dentro del rango DOE (bajar de a pocos grados; el ahorro es proporcional); no afirma cifra",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Send this to the friend who set the thermostat to seventy-two and never touched it again.",
+      "fuente": "Humor / pedido de interaccion; no es afirmacion fáctica",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Turning the heat down at night saves money. Reheating the house doesn't cancel it out.",
+      "fuente": "Energy.gov Energy Saver; vale para sistemas convencionales, y el caption lo acota mas abajo con el caveat de heat pumps",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Sources: U.S. Department of Energy (Energy Saver, thermostats).",
+      "fuente": "energy.gov/energysaver/thermostats (atribucion correcta)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

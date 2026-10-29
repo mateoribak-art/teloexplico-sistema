@@ -85,6 +85,10 @@
     "024-granizo-corto": [
       "clima",
       6
+    ],
+    "011-sal-agua-hierve": [
+      "cocina",
+      6
     ]
   }
 }

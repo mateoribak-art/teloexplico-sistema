@@ -44,6 +44,10 @@
     "en-009-ceiling-fan": [
       "casa",
       2
+    ],
+    "en-010-thermostat-night": [
+      "casa",
+      3
     ]
   }
 }
