@@ -17,3 +17,11 @@ Uso: 48 pasos · 81,100 tokens nuevos · 1,476,985 de caché · 16,093 escritos 
 2026-10-29 13:26 Render de 008-aire-en-17 (sin Claude).
 2026-10-29 13:34 008-aire-en-17: listo (render sin Claude)
 2026-10-29 13:34 Termina la producción (ok).
+2026-10-29 17:42 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Hoy no produje nada nuevo, porque la corrida de hoy ya estaba hecha según `videos/produccion.log`.
+
+- **Listo:** `011-sal-agua-hierve`. Estaba apartado por chequeo rechazado y lo rescaté: saqué la cita a Live Science y la reemplacé por el cálculo verificado de 0,1 °C. Después pasó el chequeo, la voz y las escenas 3D, y hoy figura como `listo` en la cola.
+- **Apartado:** `013-alcohol-calor`. El chequeo lo rechazó dos veces porque es un tema de salud y el mecanismo solo es probable. Ya usó sus dos intentos, así que lo dejé como está.
+- **No producido:** un segundo video. La cola tiene 11 videos `listo` (el mínimo para no producir más es 10) y el radar de hoy no encontró ningún tema de actualidad verificable.
+Uso: 7 pasos · 19,615 tokens nuevos · 87,082 de caché · 806 escritos · equivale a US$ 0.10 de API
+2026-10-29 17:42 Termina la producción (ok).
