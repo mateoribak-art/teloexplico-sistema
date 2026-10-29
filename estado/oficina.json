@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T19:35",
+ "actualizado": "2026-10-29T20:02",
  "oficinas": [
   {
    "clave": "es",
@@ -102,7 +102,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-29T17:42",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "Uso: 7 pasos · 19,615 tokens nuevos · 87,082 de caché · 806 escritos · equivale a US$ 0.10 de API",
       "2026-10-29 17:42 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -169,7 +169,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-10-29T19:32",
-     "hace": "hace 3 min",
+     "hace": "hace 30 min",
      "detalle": [
       "020-pava-se-corta: aprobado — Versión final del guion, recortada y sin John Taylor. Las 9 frases están verificadas con fuentes y tienen el matiz correcto. Lo de seguridad",
       "008-aire-en-17: aprobado — Todas las afirmaciones factuales estan verificadas con fuentes oficiales argentinas (Secretaria de Energia de la Nacion y ENRE) y fuentes te",
@@ -202,7 +202,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-10-29T19:32",
-     "hace": "hace 3 min",
+     "hace": "hace 30 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -226,7 +226,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-29 19:32.",
      "cuando": "2026-10-29T19:32",
-     "hace": "hace 3 min",
+     "hace": "hace 30 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -250,7 +250,7 @@
      "estado": "ok",
      "resumen": "10 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-10-29T19:32",
-     "hace": "hace 3 min",
+     "hace": "hace 30 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -274,7 +274,7 @@
      "estado": "ok",
      "resumen": "Último: 015-descongelar-mesada.",
      "cuando": "2026-10-29T19:34",
-     "hace": "hace 1 min",
+     "hace": "hace 28 min",
      "detalle": [
       "29/10 12:32 021-heladera-parte-2 publicado: https://www.instagram.com/reel/DfFVi-5lIRm/",
       "29/10 12:33 021-heladera-parte-2 publicado en Facebook: https://www.facebook.com/reel/1434365651455189/",
@@ -311,7 +311,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-29T19:34",
-     "hace": "hace 1 min",
+     "hace": "hace 28 min",
      "detalle": [
       "28/10 19:33 012-lavar-pollo https://youtube.com/shorts/yK63IAofoH8 | privacidad: public",
       "28/10 19:33 012-lavar-pollo paquete para TikTok/YouTube enviado",
@@ -377,7 +377,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-10-29T18:58",
-     "hace": "hace 37 min",
+     "hace": "hace 1 h",
      "detalle": [
       "28/10 03:42 Termina la respuesta de comentarios (ok).",
       "29/10 03:49 Hay 4 comentarios nuevos: arranca la respuesta.",
@@ -414,7 +414,7 @@
      "estado": "ok",
      "resumen": "29/10: 254 seguidores",
      "cuando": "2026-10-29T02:37",
-     "hace": "hace 16 h",
+     "hace": "hace 17 h",
      "detalle": [
       "26/10: 179 seguidores",
       "27/10: 235 seguidores",
@@ -447,7 +447,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-29T19:35",
+     "cuando": "2026-10-29T20:02",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -582,7 +582,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-29T13:58",
-     "hace": "hace 5 h",
+     "hace": "hace 6 h",
      "detalle": [
       "Uso: 2 pasos · 899 tokens nuevos · 166,666 de caché · 203 escritos · equivale a US$ 0.97 de API",
       "2026-10-29 13:34 Arranca la producción (5 listos en la cola, meta 6).",
@@ -644,7 +644,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-10-29T19:34",
-     "hace": "hace 1 min",
+     "hace": "hace 28 min",
      "detalle": [
       "en-004-sugar-hyper: aprobado — Las afirmaciones de salud (sin efecto del azucar en la conducta infantil, caries) estan verificadas con fuentes primarias/secundarias consis",
       "en-005-fridge-part-2: aprobado — Se corrigieron las dos observaciones: 'Not 5...' ya no esta en el caption y el freezer ahora dice 'for soups and stews ... two to three mont",
@@ -677,7 +677,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-10-29T19:34",
-     "hace": "hace 1 min",
+     "hace": "hace 28 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -701,7 +701,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-29 19:34.",
      "cuando": "2026-10-29T19:34",
-     "hace": "hace 1 min",
+     "hace": "hace 28 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -725,7 +725,7 @@
      "estado": "ok",
      "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-10-29T19:34",
-     "hace": "hace 1 min",
+     "hace": "hace 28 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -749,7 +749,7 @@
      "estado": "ok",
      "resumen": "Último: en-005-fridge-part-2.",
      "cuando": "2026-10-29T19:35",
-     "hace": "recién",
+     "hace": "hace 27 min",
      "detalle": [
       "28/10 19:36 en-004-sugar-hyper en la bandeja de TikTok",
       "28/10 19:36 en-004-sugar-hyper paquete para TikTok/YouTube enviado",
@@ -786,7 +786,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-29T19:35",
-     "hace": "recién",
+     "hace": "hace 27 min",
      "detalle": [
       "28/10 12:36 en-003-fridge-leftovers en la bandeja de TikTok",
       "28/10 12:36 en-003-fridge-leftovers paquete para TikTok/YouTube enviado",
@@ -844,7 +844,7 @@
      "estado": "ok",
      "resumen": "29/10: 2 seguidores",
      "cuando": "2026-10-29T02:38",
-     "hace": "hace 16 h",
+     "hace": "hace 17 h",
      "detalle": [
       "28/10: 2 seguidores",
       "29/10: 2 seguidores"
@@ -874,7 +874,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-29T19:35",
+     "cuando": "2026-10-29T20:02",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
