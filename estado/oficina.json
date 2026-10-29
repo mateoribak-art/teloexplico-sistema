@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T03:50",
+ "actualizado": "2026-10-29T07:12",
  "oficinas": [
   {
    "clave": "es",
@@ -109,7 +109,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-28T22:48",
-     "hace": "hace 5 h",
+     "hace": "hace 8 h",
      "detalle": [
       "Uso: 36 pasos · 87,520 tokens nuevos · 1,176,762 de caché · 22,905 escritos · equivale a US$ 0.70 de API",
       "2026-10-28 22:16 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -143,7 +143,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsqueda web (alertas SMN): sin resultados fechados de hoy (lo más reciente es de julio). Sin tema de actualidad verificable; sigue la cola norm",
      "cuando": "2026-10-28T15:59",
-     "hace": "hace 11 h",
+     "hace": "hace 15 h",
      "detalle": [
       "26/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, clima, tendencias): sin resultados fechados de hoy, solo notas viejas (feb, dic, finde largo 9-10 oct) o sin fecha. Candidatos: (1) El Niño/clima de la semana -> ángulo ya tomado por posta y clima saturado con 004 y 005 -> descartado; (2) alertas por tormentas -> sin fuente fechada de hoy, no verificable -> descartado; (3) tendencias/redes -> sin evidencia. No se produce video de actualidad; sigue la cola normal.",
       "27/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy (solo notas de feb/2023/2025 o sin fecha; tendencias genéricas: Ipsos preocupaciones, Mundial). Candidatos: (1) clima/alertas SMN -> sin fuente del día, y ya hay 004, 005 y 016 -> descartado; (2) calor extremo de primavera -> sin alerta fechada que lo confirme -> descartado; (3) tendencias/redes -> sin evidencia de un tema que todos vivan hoy. No se produce video de actualidad; sigue la cola normal.",
@@ -177,7 +177,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-10-28T22:48",
-     "hace": "hace 5 h",
+     "hace": "hace 8 h",
      "detalle": [
       "020-pava-se-corta: aprobado — Versión final del guion, recortada y sin John Taylor. Las 9 frases están verificadas con fuentes y tienen el matiz correcto. Lo de seguridad",
       "008-aire-en-17: aprobado — Todas las afirmaciones factuales estan verificadas con fuentes oficiales argentinas (Secretaria de Energia de la Nacion y ENRE) y fuentes te",
@@ -210,7 +210,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-10-28T22:48",
-     "hace": "hace 5 h",
+     "hace": "hace 8 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -234,7 +234,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-28 22:48.",
      "cuando": "2026-10-28T22:48",
-     "hace": "hace 5 h",
+     "hace": "hace 8 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -258,7 +258,7 @@
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo (005) quedó vencido y apartado, y ya hay una versión corta lista para reemplazarlo; no cambié nada.",
      "cuando": "2026-10-28T22:48",
-     "hace": "hace 5 h",
+     "hace": "hace 8 h",
      "detalle": [],
      "tareas": [
       "005-granizo-calor: tema de actualidad vencido (más de 48 h)"
@@ -284,7 +284,7 @@
      "estado": "ok",
      "resumen": "Último: 012-lavar-pollo.",
      "cuando": "2026-10-28T19:33",
-     "hace": "hace 8 h",
+     "hace": "hace 11 h",
      "detalle": [
       "28/10 12:32 020-pava-se-corta publicado: https://www.instagram.com/reel/DfCwt0oCD_N/",
       "28/10 12:33 020-pava-se-corta publicado en Facebook: https://www.facebook.com/reel/1862858108404608/",
@@ -321,7 +321,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-28T19:33",
-     "hace": "hace 8 h",
+     "hace": "hace 11 h",
      "detalle": [
       "27/10 19:34 018-rayo-trueno https://youtube.com/shorts/lPzAo974Omc | privacidad: public",
       "27/10 19:34 018-rayo-trueno paquete para TikTok/YouTube enviado",
@@ -353,7 +353,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-10-27T17:29",
-     "hace": "hace 34 h",
+     "hace": "hace 37 h",
      "detalle": [
       "2026-10-26 23:00 bts: listo hecho en sesión",
       "2026-10-26 23:00 heladera: listo hecho en sesión",
@@ -387,7 +387,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-10-29T03:50",
-     "hace": "recién",
+     "hace": "hace 3 h",
      "detalle": [
       "26/10 21:56 (sesión con Mateo): 14 respondidos, 3 salteados, 1 alerta",
       "28/10 03:41 Hay 1 comentarios nuevos: arranca la respuesta.",
@@ -424,7 +424,7 @@
      "estado": "ok",
      "resumen": "29/10: 254 seguidores",
      "cuando": "2026-10-29T02:37",
-     "hace": "hace 1 h",
+     "hace": "hace 4 h",
      "detalle": [
       "26/10: 179 seguidores",
       "27/10: 235 seguidores",
@@ -457,7 +457,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-29T03:50",
+     "cuando": "2026-10-29T07:12",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -587,7 +587,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-29T01:53",
-     "hace": "hace 1 h",
+     "hace": "hace 5 h",
      "detalle": [
       "Uso: 23 pasos · 18,332 tokens nuevos · 930,182 de caché · 6,966 escritos · equivale a US$ 0.66 de API",
       "2026-10-29 01:33 Arranca la producción (4 listos en la cola, meta 6).",
@@ -621,7 +621,7 @@
      "estado": "ok",
      "resumen": "Tercera pasada del radar: sin tema nuevo. Descartados: (1) humo/incendios en el Noroeste (Spokane): evento regional, sin fuente oficial del día y con riesgo de ",
      "cuando": "2026-10-28T16:00",
-     "hace": "hace 11 h",
+     "hace": "hace 15 h",
      "detalle": [
       "28/10 00:00 Radar: la búsqueda web no devolvió nada reciente (solo páginas viejas). Sin tema de actualidad; se sigue con un video adaptado.",
       "27/10 00:00 Segunda pasada del radar: no se produce otro tema. en-002-dst-farmers (🔥, listo) ya cubre la actualidad del día; no se fuerza un segundo video.",
@@ -651,7 +651,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-10-29T01:53",
-     "hace": "hace 1 h",
+     "hace": "hace 5 h",
      "detalle": [
       "en-002-dst-farmers: aprobado — Todas las afirmaciones fácticas tienen fuente (National Archives, History.com, Library of Congress, U.S. DOT/CRS) y las fechas coinciden. No",
       "en-003-fridge-leftovers: aprobado — Texto actual revisado. Todas las cifras y unidades coinciden con USDA FSIS (Danger Zone 40-140 °F, duplicacion en 'as little as 20 minutes',",
@@ -684,7 +684,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-10-29T01:53",
-     "hace": "hace 1 h",
+     "hace": "hace 5 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -708,7 +708,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-29 01:53.",
      "cuando": "2026-10-29T01:53",
-     "hace": "hace 1 h",
+     "hace": "hace 5 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -732,7 +732,7 @@
      "estado": "ok",
      "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-10-29T01:53",
-     "hace": "hace 1 h",
+     "hace": "hace 5 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -756,7 +756,7 @@
      "estado": "ok",
      "resumen": "Último: en-004-sugar-hyper.",
      "cuando": "2026-10-28T19:36",
-     "hace": "hace 8 h",
+     "hace": "hace 11 h",
      "detalle": [
       "27/10 20:10 en-002-dst-farmers en la bandeja de TikTok",
       "27/10 20:10 en-002-dst-farmers paquete para TikTok/YouTube enviado",
@@ -793,7 +793,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-28T19:36",
-     "hace": "hace 8 h",
+     "hace": "hace 11 h",
      "detalle": [
       "27/10 12:37 en-001-phone-rice en la bandeja de TikTok",
       "27/10 12:37 en-001-phone-rice paquete para TikTok/YouTube enviado",
@@ -851,7 +851,7 @@
      "estado": "ok",
      "resumen": "29/10: 2 seguidores",
      "cuando": "2026-10-29T02:38",
-     "hace": "hace 1 h",
+     "hace": "hace 4 h",
      "detalle": [
       "28/10: 2 seguidores",
       "29/10: 2 seguidores"
@@ -881,7 +881,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-29T03:50",
+     "cuando": "2026-10-29T07:12",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
