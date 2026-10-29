@@ -38,3 +38,15 @@ Los 4 comentarios pendientes eran todos del video 001-heladera:
 Ninguno pedía alerta a Mateo. La línea de resumen quedó en `videos/comentarios.log`.
 Uso: 12 pasos · 14,387 tokens nuevos · 144,211 de caché · 2,328 escritos · equivale a US$ 0.01 de API
 2026-10-29 03:50 Termina la respuesta de comentarios (ok).
+2026-10-29 18:58 Hay 2 comentarios nuevos: arranca la respuesta.
+2026-10-29 Respondí 0 · salteé 2 · alerté 0. (ferxrock: consejo de cubiertos fuera del guion; arletemsimon: "Bahhh!" sin contenido)
+2026-10-29 Termina la respuesta de comentarios (ok).
+Respondí 0, salteé 2, alerté 0.
+
+Los dos comentarios pendientes son del video 001-heladera:
+- **ferxrock** habla del cubierto para probar la comida. No está en el guion ni en las fuentes, así que no lo respondí.
+- **arletemsimon** dejó solo "Bahhh!", sin nada para responder.
+
+Quedó registrado en `videos/comentarios.log`.
+Uso: 10 pasos · 14,258 tokens nuevos · 121,204 de caché · 1,989 escritos · equivale a US$ 0.01 de API
+2026-10-29 18:58 Termina la respuesta de comentarios (ok).
