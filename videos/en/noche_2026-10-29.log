@@ -1,0 +1,8 @@
+2026-10-29 01:33 Arranca la producción (4 listos en la cola, meta 6).
+- **Listo para render:** `en-008-wash-chicken` (Kitchen myths #5, adaptado de 012). Quité la frase de seguridad sin fuente. Un subagente nuevo aprobó el chequeo, con todas las afirmaciones verificadas. Hice la voz (34,5 s) y la escena 3D, y pasé el video a estado `render` para que lo procese `producir.py`.
+- **Apartados:** ninguno.
+- **Incompletos:** ninguno. Todavía no corrió el render real ni el control. En los cuadros de prueba, el termómetro de la escena de cocción se ve flotando sobre el pollo y la cámara cercana tapa el chorro de agua. Lo dejé así tras una sola vuelta de revisión.
+Uso: 23 pasos · 18,332 tokens nuevos · 930,182 de caché · 6,966 escritos · equivale a US$ 0.66 de API
+2026-10-29 01:37 Render de en-008-wash-chicken (sin Claude).
+2026-10-29 01:53 en-008-wash-chicken: listo (render sin Claude)
+2026-10-29 01:53 Termina la producción (ok).

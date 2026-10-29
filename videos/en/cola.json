@@ -223,7 +223,7 @@
  {
   "slug": "en-008-wash-chicken",
   "tema": "Should you rinse raw chicken? (adapted from 012)",
-  "estado": "produccion",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -244,6 +244,16 @@
     "estado": "produccion",
     "cuando": "2026-10-29T01:30",
     "motivo": "29/10: se quitó la frase no verificable (bacteria de la pileta a lo que se toca); falta chequeo, voz y render"
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-10-29T01:37",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-29T01:53",
+    "motivo": "render sin Claude"
    }
   ]
  },

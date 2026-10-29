@@ -1,88 +1,70 @@
 {
-  "veredicto": "rechazado",
-  "motivo": "Casi todo queda verificado con fuentes de EE. UU. (CDC; USDA FSIS comunicado del 20/8/2019 sobre el estudio RTI/NC State; Shumaker et al., J Food Prot 85(4), 2022) y las cifras/unidades coinciden (about 300 people, 60% con bacterias en la pileta tras lavar, 165°F). Pero la frase 'And bacteria in the sink can end up on whatever you touch next.' es una afirmacion de seguridad que solo queda en estado probable: ninguna fuente primaria que pude abrir dice que la bacteria de la pileta pase a lo que uno toca despues. El estudio hallo 26% de lechuga contaminada, pero atribuye la transferencia sospechada a las manos, y encontro poca contaminacion en mesadas. Regla: salud/seguridad solo verificadas, por eso se rechaza. Arreglo sugerido: cambiar la frase por la formulacion del CDC (rinsing can spread germs to other food and surfaces) o por el dato verificado de que en el estudio cerca de 1 de cada 4 participantes paso bacterias de pollo crudo a su ensalada. Nota: no pude abrir las paginas fsis.usda.gov/usda.gov (403); la cifra 60% / 300 personas / 158 control + 142 tratamiento salio de resultados de busqueda que citan el comunicado y el informe final FSIS (FSCRP Year 2, ago 2019), sin lectura directa del texto.",
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de salud/seguridad y cifras quedaron verificadas con fuentes de EE. UU. (CDC, USDA FSIS, NC State/J Food Prot). Unidades y cifras coinciden (165 °F, 60% = 'six in ten', ~300 personas). No hay afirmaciones probables, dudosas ni falsas. Observaciones menores no bloqueantes: (1) el 60% proviene del reporte FSIS 2019 (la caption lo cita bien); el campo 'fuentes' del guion lo asocia al paper J Food Prot 2022, que es la publicacion del mismo estudio, sin efecto en el texto hablado. (2) La pagina CDC de pollo dice 'no hace falta lavarlo' y la de prevencion agrega 'puede esparcir germenes a otros alimentos, el fregadero y la mesada'; ambas respaldan la frase.",
   "afirmaciones": [
     {
-      "texto": "You rinse your raw chicken before cooking it. (gancho / planteo del habito)",
-      "fuente": "USDA FSIS informe final FSCRP Year 2 (ago 2019): 61% del grupo control lavaba el pollo; sin fuente primaria necesaria, es un planteo y no una cifra",
+      "texto": "You rinse your raw chicken before cooking it. (premisa del gancho, practica comun, no es afirmacion factica sobre el mundo)",
+      "fuente": "n/a (gancho retorico; USDA/NC State: 61% del grupo control lavaba el pollo)",
       "estado": "verificada",
       "matiz_ok": true
     },
     {
-      "texto": "That's backwards. (juicio: enjuagar es lo contrario de lo recomendado)",
-      "fuente": "CDC (cdc.gov, prevencion de enfermedades por alimentos): el pollo crudo no necesita lavarse; USDA: 'best practice is not to wash poultry'",
+      "texto": "That's backwards. / Skip the rinse, cook it, done. (recomendacion: no lavar el pollo crudo)",
+      "fuente": "CDC https://www.cdc.gov/food-safety/foods/chicken.html ('Raw chicken is ready to cook. It doesn't need to be washed first'); USDA FSIS 'Washing Raw Poultry: Our Science, Your Choice' (usda.gov/article/washing-raw-poultry-our-science-your-choice)",
       "estado": "verificada",
       "matiz_ok": true
     },
     {
       "texto": "Water doesn't kill the bacteria. It can just spread them.",
-      "fuente": "USDA FSIS, 'Washing Food: Does it Promote Food Safety?' y comunicado USDA 20/8/2019: lavar/enjuagar no destruye bacterias y puede esparcirlas; CDC idem",
+      "fuente": "USDA FSIS (agosto 2019): lavar/enjuagar carne y aves no destruye bacterias; CDC https://www.cdc.gov/food-safety/prevention/index.html (puede esparcir germenes). 'can' esta bien como matiz.",
       "estado": "verificada",
       "matiz_ok": true
     },
     {
       "texto": "The CDC says rinsing can spread germs to your sink, your counter, and other food.",
-      "fuente": "CDC, pagina de prevencion de alimentos (cdc.gov/food-safety/prevention): lavar puede esparcir germenes a otros alimentos, la pileta y la mesada (consultada directamente)",
+      "fuente": "CDC, Preventing Food Poisoning https://www.cdc.gov/food-safety/prevention/index.html: 'Washing these foods can spread germs to other foods, the sink, and the counter'; tambien https://www.cdc.gov/food-safety/communication-resources/washing-chicken-spreads-germs.html",
       "estado": "verificada",
       "matiz_ok": true
     },
     {
       "texto": "A USDA-backed study put about three hundred people in test kitchens.",
-      "fuente": "USDA FSIS contrato con RTI International y NC State; 300 participantes (158 control, 142 tratamiento) en 8 cocinas de prueba de Raleigh-Durham y Lillington, NC (informe FSCRP Year 2, ago 2019; comunicado USDA 20/8/2019). Unidad y cifra coinciden. Tiene 'about'.",
+      "fuente": "USDA FSIS / NC State, 300 participantes (158 control, 142 tratamiento) en cocinas de prueba; J Food Prot 2022 (Foodsafetynews 2022/04; ScienceDaily 2022-04-04). 'about' correcto.",
       "estado": "verificada",
       "matiz_ok": true
     },
     {
       "texto": "Of those who washed their chicken, six in ten had bacteria in the sink afterward.",
-      "fuente": "Comunicado USDA 'Washing Raw Poultry: Our Science, Your Choice' (20/8/2019): 'Of the participants who washed their raw poultry, 60 percent had bacteria in their sink after washing or rinsing'. Aclaracion: la bacteria usada fue un trazador no patogeno (E. coli DH5-alfa); la frase dice 'bacteria', lo cual es correcto.",
+      "fuente": "USDA FSIS, comunicado 20 ago 2019 (usda.gov/article/washing-raw-poultry-our-science-your-choice): 'Of the participants who washed their raw poultry, 60 percent had bacteria in their sink after washing or rinsing'. 60% = six in ten.",
       "estado": "verificada",
       "matiz_ok": true
     },
     {
-      "texto": "And bacteria in the sink can end up on whatever you touch next.",
-      "fuente": "sin fuente primaria que diga exactamente esto. Apoyo parcial: USDA reporta 26% de participantes que pasaron bacteria del pollo crudo a la lechuga (Shumaker et al., J Food Prot 2022, PMID 35051277), con transferencia por las manos sospechada, no por la pileta especificamente",
-      "estado": "probable",
-      "matiz_ok": false
-    },
-    {
-      "texto": "Cooking is what kills them: chicken needs to hit one hundred sixty-five degrees inside.",
-      "fuente": "CDC y USDA FSIS: temperatura interna segura de 165°F para toda el ave (consultado directamente en CDC). Unidad: el guion dice 'degrees' sin especificar F, pero el caption dice 165°F; para EE. UU. es la escala implicita.",
+      "texto": "Cooking is what kills them: chicken needs to hit one hundred sixty-five degrees inside. (caption: 165°F)",
+      "fuente": "CDC https://www.cdc.gov/food-safety/foods/chicken.html: 'safe internal temperature of 165°F'; USDA FSIS. Unidad °F coincide (el guion dice 'degrees', publico de EE. UU.).",
       "estado": "verificada",
       "matiz_ok": true
     },
     {
-      "texto": "Heads up: wash your hands with soap and water after touching raw chicken.",
-      "fuente": "CDC (consultado directamente): lavarse las manos con agua y jabon al menos 20 segundos antes, durante y despues de preparar alimentos",
+      "texto": "Wash your hands with soap and water after touching raw chicken.",
+      "fuente": "CDC https://www.cdc.gov/food-safety/foods/chicken.html: 'Wash hands with soap and water for at least 20 seconds before and after handling raw chicken'",
       "estado": "verificada",
       "matiz_ok": true
     },
     {
-      "texto": "Skip the rinse, cook it, done. (consejo / sintesis)",
-      "fuente": "CDC y USDA FSIS: no lavar y cocinar a 165°F. Nota: 'done' omite el lavado de manos, pero esta cubierto por la frase anterior",
+      "texto": "Caption: 'In a USDA-backed study with about 300 people in test kitchens, 60% of those who washed their chicken had bacteria in the sink afterward.' y 'Sources: CDC; USDA FSIS chicken-washing study (2019 report); Journal of Food Protection, 2022.'",
+      "fuente": "USDA FSIS 2019 (60%, ~300 participantes, NC State) y J Food Prot 2022 (publicacion del estudio). Atribucion correcta.",
       "estado": "verificada",
       "matiz_ok": true
     },
     {
-      "texto": "Send this to the friend who rinses chicken like they're giving it a bath. (humor / llamado a compartir)",
-      "fuente": "no es una afirmacion fáctica",
+      "texto": "Caption: 'Water doesn't kill the bacteria on chicken, and the CDC says rinsing can spread germs to your sink, your counter, and other food.'",
+      "fuente": "USDA FSIS 2019 y CDC (ver arriba)",
       "estado": "verificada",
       "matiz_ok": true
     },
     {
-      "texto": "Caption: In a USDA-backed study with about 300 people in test kitchens, 60% of those who washed their chicken had bacteria in the sink afterward.",
-      "fuente": "Comunicado USDA 20/8/2019 e informe final FSIS FSCRP Year 2 (RTI/NC State). Cifras 300 y 60% coinciden.",
-      "estado": "verificada",
-      "matiz_ok": true
-    },
-    {
-      "texto": "Caption: chicken needs to reach 165°F inside. / do wash your hands with soap and water after touching raw chicken. / Water doesn't kill the bacteria... CDC says rinsing can spread germs to your sink, your counter, and other food.",
-      "fuente": "CDC (consultado directamente) y USDA FSIS; 165°F en la unidad correcta para EE. UU.",
-      "estado": "verificada",
-      "matiz_ok": true
-    },
-    {
-      "texto": "Caption (fuentes): 'USDA Food Safety and Inspection Service chicken-washing study (2019 report); Journal of Food Protection, 2022.'",
-      "fuente": "Informe final FSIS/RTI 'FSCRP Year 2' agosto 2019; Shumaker et al., J Food Prot 85(4):615-625, 2022 (PubMed 35051277). Ambas existen. Nota: el articulo de 2022 reporta por separado cifras de lechuga y de grupos control/tratamiento; el 60% de la pileta proviene del informe/comunicado USDA 2019, no necesariamente del articulo de 2022, aunque ambos estan listados como fuentes de manera general.",
+      "texto": "Caption: 'Kitchen myths #5' (numeracion de serie)",
+      "fuente": "n/a: dato interno de la cuenta, no afirmacion factica externa",
       "estado": "verificada",
       "matiz_ok": true
     }

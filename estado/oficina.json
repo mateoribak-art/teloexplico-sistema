@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T01:39",
+ "actualizado": "2026-10-29T01:53",
  "oficinas": [
   {
    "clave": "es",
@@ -109,7 +109,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-28T22:48",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "Uso: 36 pasos · 87,520 tokens nuevos · 1,176,762 de caché · 22,905 escritos · equivale a US$ 0.70 de API",
       "2026-10-28 22:16 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -177,7 +177,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-10-28T22:48",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "020-pava-se-corta: aprobado — Versión final del guion, recortada y sin John Taylor. Las 9 frases están verificadas con fuentes y tienen el matiz correcto. Lo de seguridad",
       "008-aire-en-17: aprobado — Todas las afirmaciones factuales estan verificadas con fuentes oficiales argentinas (Secretaria de Energia de la Nacion y ENRE) y fuentes te",
@@ -210,7 +210,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-10-28T22:48",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -234,7 +234,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-28 22:48.",
      "cuando": "2026-10-28T22:48",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -258,7 +258,7 @@
      "estado": "ok",
      "resumen": "Revisado por el técnico: El video del granizo (005) quedó vencido y apartado, y ya hay una versión corta lista para reemplazarlo; no cambié nada.",
      "cuando": "2026-10-28T22:48",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [
       "005-granizo-calor: tema de actualidad vencido (más de 48 h)"
@@ -387,7 +387,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-10-28T03:42",
-     "hace": "hace 21 h",
+     "hace": "hace 22 h",
      "detalle": [
       "26/10 18:48 Hay 17 comentarios nuevos: arranca la respuesta.",
       "26/10 18:48 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
@@ -457,7 +457,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-29T01:39",
+     "cuando": "2026-10-29T01:53",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -497,8 +497,8 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 2,
-   "listos": 4,
-   "dias": 2.0,
+   "listos": 5,
+   "dias": 2.5,
    "proximo": "en-005-fridge-part-2",
    "publicados": 4,
    "pausa": false,
@@ -527,13 +527,6 @@
    ],
    "linea": [
     {
-     "slug": "en-008-wash-chicken",
-     "tema": "Should you rinse raw chicken? (adapted from 012)",
-     "estado": "produccion",
-     "cuando": "2026-10-29T01:30",
-     "motivo": "29/10: se quitó la frase no verificable (bacteria de la pileta a lo que se toca); falta chequeo, voz y render"
-    },
-    {
      "slug": "en-005-fridge-part-2",
      "tema": "Fridge part 2: cover leftovers? how many days? (adapted from 021)",
      "estado": "listo",
@@ -555,11 +548,11 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "en-009-ceiling-fan",
-     "tema": "Which way should your ceiling fan spin? (DOE)",
+     "slug": "en-008-wash-chicken",
+     "tema": "Should you rinse raw chicken? (adapted from 012)",
      "estado": "listo",
-     "cuando": "2026-10-29T00:57",
-     "motivo": "control corregido: whisper se comía la última frase (falso rechazo, 29/10)"
+     "cuando": "2026-10-29T01:53",
+     "motivo": "render sin Claude"
     },
     {
      "slug": "en-003-fridge-leftovers",
@@ -593,18 +586,18 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-10-28T23:59",
-     "hace": "hace 1 h",
+     "cuando": "2026-10-29T01:53",
+     "hace": "recién",
      "detalle": [
-      "Uso: 27 pasos · 28,743 tokens nuevos · 1,188,427 de caché · 15,546 escritos · equivale a US$ 1.75 de API",
-      "2026-10-28 23:25 Arranca la producción (2 listos en la cola, meta 6).",
-      "- **Listo para render:** `en-009-ceiling-fan` (propio, 3D, serie Home myths #2). El chequeo salió aprobado en el 2.º intento, la voz está generada y el estado es `render`, así que `producir.py` lo renderiza. La voz dura 41,6 s y tiene 130 p",
-      "- **Apartado:** `en-008-wash-chicken` (adaptado de 012). El chequeo lo rechazó dos veces: \"bacteria in the sink can end up on whatever you touch next\" solo llega a probable, y es un tema de seguridad. Quedó anotado en `ideas.md` cómo rehace",
-      "- **Incompleto:** ninguno. Sumé dos objetos al kit 3D para reusar (`Pollo.tsx` sin usar, `Ventilador.tsx`). El primer chequeo del ventilador también rechazó dos frases (el interruptor \"en todos\" y \"down the walls\") y se corrigieron.",
-      "Uso: 27 pasos · 28,743 tokens nuevos · 1,188,427 de caché · 15,546 escritos · equivale a US$ 1.75 de API",
-      "2026-10-28 23:39 Render de en-009-ceiling-fan (sin Claude).",
-      "2026-10-28 23:59 en-009-ceiling-fan: apartado (render/control: ler. In winter, flip the switch so they spin clockwise, on low. Now the fan pulls air up, and the warm air stuck near the ceiling gets pushed down and around the room. That's th",
-      "2026-10-28 23:59 Termina la producción (ok)."
+      "Uso: 23 pasos · 18,332 tokens nuevos · 930,182 de caché · 6,966 escritos · equivale a US$ 0.66 de API",
+      "2026-10-29 01:33 Arranca la producción (4 listos en la cola, meta 6).",
+      "- **Listo para render:** `en-008-wash-chicken` (Kitchen myths #5, adaptado de 012). Quité la frase de seguridad sin fuente. Un subagente nuevo aprobó el chequeo, con todas las afirmaciones verificadas. Hice la voz (34,5 s) y la escena 3D, y",
+      "- **Apartados:** ninguno.",
+      "- **Incompletos:** ninguno. Todavía no corrió el render real ni el control. En los cuadros de prueba, el termómetro de la escena de cocción se ve flotando sobre el pollo y la cámara cercana tapa el chorro de agua. Lo dejé así tras una sola ",
+      "Uso: 23 pasos · 18,332 tokens nuevos · 930,182 de caché · 6,966 escritos · equivale a US$ 0.66 de API",
+      "2026-10-29 01:37 Render de en-008-wash-chicken (sin Claude).",
+      "2026-10-29 01:53 en-008-wash-chicken: listo (render sin Claude)",
+      "2026-10-29 01:53 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -656,9 +649,9 @@
       }
      },
      "estado": "ok",
-     "resumen": "Aprobó 7 de los últimos 8 guiones.",
-     "cuando": "2026-10-29T00:57",
-     "hace": "hace 42 min",
+     "resumen": "Aprobó 8 de los últimos 8 guiones.",
+     "cuando": "2026-10-29T01:53",
+     "hace": "recién",
      "detalle": [
       "en-002-dst-farmers: aprobado — Todas las afirmaciones fácticas tienen fuente (National Archives, History.com, Library of Congress, U.S. DOT/CRS) y las fechas coinciden. No",
       "en-003-fridge-leftovers: aprobado — Texto actual revisado. Todas las cifras y unidades coinciden con USDA FSIS (Danger Zone 40-140 °F, duplicacion en 'as little as 20 minutes',",
@@ -666,13 +659,13 @@
       "en-005-fridge-part-2: aprobado — Se corrigieron las dos observaciones: 'Not 5...' ya no esta en el caption y el freezer ahora dice 'for soups and stews ... two to three mont",
       "en-006-five-second-rule: aprobado — Segunda pasada con busqueda web. Todas las afirmaciones coinciden con Miranda & Schaffner 2016 (Applied and Environmental Microbiology 82(21",
       "en-007-flip-steak: aprobado — Segundo intento. Se verificaron todas las frases con busqueda web. Las objeciones del chequeo previo quedaron corregidas: (1) 'the idea is',",
-      "en-008-wash-chicken: rechazado — Casi todo queda verificado con fuentes de EE. UU. (CDC; USDA FSIS comunicado del 20/8/2019 sobre el estudio RTI/NC State; Shumaker et al., J",
+      "en-008-wash-chicken: aprobado — Todas las afirmaciones de salud/seguridad y cifras quedaron verificadas con fuentes de EE. UU. (CDC, USDA FSIS, NC State/J Food Prot). Unida",
       "en-009-ceiling-fan: aprobado — Todas las afirmaciones de plata/energia y seguridad-practica (sentido de giro por estacion, velocidad baja en invierno, apagar al salir, 'en"
      ],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "75cff8eae58a"
+     "firma": "7d1f5d89afa4"
     },
     {
      "id": "voz",
@@ -690,8 +683,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-10-29T00:57",
-     "hace": "hace 42 min",
+     "cuando": "2026-10-29T01:53",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -713,14 +706,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-10-29 00:57.",
-     "cuando": "2026-10-29T00:57",
-     "hace": "hace 42 min",
+     "resumen": "Último video terminado: 2026-10-29 01:53.",
+     "cuando": "2026-10-29T01:53",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "1eb643c582b9"
+     "firma": "78a06bbc873d"
     },
     {
      "id": "control",
@@ -737,14 +730,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "4 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-10-29T00:57",
-     "hace": "hace 42 min",
+     "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-10-29T01:53",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "5ea1ecb0f992"
+     "firma": "bace1412aac6"
     },
     {
      "id": "publicador",
@@ -885,7 +878,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-29T01:39",
+     "cuando": "2026-10-29T01:53",
      "hace": "recién",
      "detalle": [],
      "tareas": [],

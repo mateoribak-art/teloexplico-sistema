@@ -1,0 +1,615 @@
+{
+ "duracion": 34.53,
+ "frases": [
+  {
+   "texto": "You rinse your raw chicken before cooking it.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.2
+    },
+    {
+     "texto": "rinse",
+     "inicio": 0.2,
+     "fin": 0.72
+    },
+    {
+     "texto": "your",
+     "inicio": 0.72,
+     "fin": 1.1
+    },
+    {
+     "texto": "raw",
+     "inicio": 1.1,
+     "fin": 1.48
+    },
+    {
+     "texto": "chicken",
+     "inicio": 1.48,
+     "fin": 1.88
+    },
+    {
+     "texto": "before",
+     "inicio": 1.88,
+     "fin": 2.22
+    },
+    {
+     "texto": "cooking",
+     "inicio": 2.22,
+     "fin": 2.64
+    },
+    {
+     "texto": "it.",
+     "inicio": 2.64,
+     "fin": 2.92
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.92
+  },
+  {
+   "texto": "That's backwards.",
+   "palabras": [
+    {
+     "texto": "That's",
+     "inicio": 3.44,
+     "fin": 3.96
+    },
+    {
+     "texto": "backwards.",
+     "inicio": 3.96,
+     "fin": 4.42
+    }
+   ],
+   "inicio": 3.44,
+   "fin": 4.42
+  },
+  {
+   "texto": "Water doesn't kill the bacteria. It can just spread them.",
+   "palabras": [
+    {
+     "texto": "Water",
+     "inicio": 5.18,
+     "fin": 5.48
+    },
+    {
+     "texto": "doesn't",
+     "inicio": 5.48,
+     "fin": 6.02
+    },
+    {
+     "texto": "kill",
+     "inicio": 6.02,
+     "fin": 6.28
+    },
+    {
+     "texto": "the",
+     "inicio": 6.28,
+     "fin": 6.42
+    },
+    {
+     "texto": "bacteria.",
+     "inicio": 6.42,
+     "fin": 6.82
+    },
+    {
+     "texto": "It",
+     "inicio": 7.2,
+     "fin": 7.3
+    },
+    {
+     "texto": "can",
+     "inicio": 7.3,
+     "fin": 7.38
+    },
+    {
+     "texto": "just",
+     "inicio": 7.38,
+     "fin": 7.6
+    },
+    {
+     "texto": "spread",
+     "inicio": 7.6,
+     "fin": 8.12
+    },
+    {
+     "texto": "them.",
+     "inicio": 8.12,
+     "fin": 8.3
+    }
+   ],
+   "inicio": 5.18,
+   "fin": 8.3
+  },
+  {
+   "texto": "The CDC says rinsing can spread germs to your sink, your counter, and other food.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 8.8,
+     "fin": 8.9
+    },
+    {
+     "texto": "CDC",
+     "inicio": 8.9,
+     "fin": 9.16
+    },
+    {
+     "texto": "says",
+     "inicio": 9.16,
+     "fin": 9.54
+    },
+    {
+     "texto": "rinsing",
+     "inicio": 9.54,
+     "fin": 9.96
+    },
+    {
+     "texto": "can",
+     "inicio": 9.96,
+     "fin": 10.1
+    },
+    {
+     "texto": "spread",
+     "inicio": 10.1,
+     "fin": 10.36
+    },
+    {
+     "texto": "germs",
+     "inicio": 10.54,
+     "fin": 10.74
+    },
+    {
+     "texto": "to",
+     "inicio": 10.74,
+     "fin": 10.9
+    },
+    {
+     "texto": "your",
+     "inicio": 10.9,
+     "fin": 11.02
+    },
+    {
+     "texto": "sink,",
+     "inicio": 11.02,
+     "fin": 11.38
+    },
+    {
+     "texto": "your",
+     "inicio": 11.6,
+     "fin": 11.62
+    },
+    {
+     "texto": "counter,",
+     "inicio": 11.62,
+     "fin": 11.98
+    },
+    {
+     "texto": "and",
+     "inicio": 12.12,
+     "fin": 12.22
+    },
+    {
+     "texto": "other",
+     "inicio": 12.22,
+     "fin": 12.46
+    },
+    {
+     "texto": "food.",
+     "inicio": 12.46,
+     "fin": 12.82
+    }
+   ],
+   "inicio": 8.8,
+   "fin": 12.82
+  },
+  {
+   "texto": "A USDA-backed study put about three hundred people in test kitchens.",
+   "palabras": [
+    {
+     "texto": "A",
+     "inicio": 13.3,
+     "fin": 13.4
+    },
+    {
+     "texto": "USDA-backed",
+     "inicio": 13.4,
+     "fin": 14.24
+    },
+    {
+     "texto": "study",
+     "inicio": 14.24,
+     "fin": 14.46
+    },
+    {
+     "texto": "put",
+     "inicio": 14.46,
+     "fin": 14.62
+    },
+    {
+     "texto": "about",
+     "inicio": 14.62,
+     "fin": 14.78
+    },
+    {
+     "texto": "three",
+     "inicio": 14.78,
+     "fin": 15.08
+    },
+    {
+     "texto": "hundred",
+     "inicio": 15.08,
+     "fin": 15.3
+    },
+    {
+     "texto": "people",
+     "inicio": 15.3,
+     "fin": 15.56
+    },
+    {
+     "texto": "in",
+     "inicio": 15.56,
+     "fin": 15.76
+    },
+    {
+     "texto": "test",
+     "inicio": 15.76,
+     "fin": 15.96
+    },
+    {
+     "texto": "kitchens.",
+     "inicio": 15.96,
+     "fin": 16.3
+    }
+   ],
+   "inicio": 13.3,
+   "fin": 16.3
+  },
+  {
+   "texto": "Of those who washed their chicken, six in ten had bacteria in the sink afterward.",
+   "palabras": [
+    {
+     "texto": "Of",
+     "inicio": 16.88,
+     "fin": 17.06
+    },
+    {
+     "texto": "those",
+     "inicio": 17.06,
+     "fin": 17.26
+    },
+    {
+     "texto": "who",
+     "inicio": 17.26,
+     "fin": 17.46
+    },
+    {
+     "texto": "washed",
+     "inicio": 17.46,
+     "fin": 17.76
+    },
+    {
+     "texto": "their",
+     "inicio": 17.76,
+     "fin": 17.92
+    },
+    {
+     "texto": "chicken,",
+     "inicio": 17.92,
+     "fin": 18.16
+    },
+    {
+     "texto": "six",
+     "inicio": 18.48,
+     "fin": 18.64
+    },
+    {
+     "texto": "in",
+     "inicio": 18.64,
+     "fin": 18.84
+    },
+    {
+     "texto": "ten",
+     "inicio": 18.84,
+     "fin": 19.06
+    },
+    {
+     "texto": "had",
+     "inicio": 19.06,
+     "fin": 19.28
+    },
+    {
+     "texto": "bacteria",
+     "inicio": 19.28,
+     "fin": 19.76
+    },
+    {
+     "texto": "in",
+     "inicio": 19.76,
+     "fin": 20.06
+    },
+    {
+     "texto": "the",
+     "inicio": 20.06,
+     "fin": 20.14
+    },
+    {
+     "texto": "sink",
+     "inicio": 20.14,
+     "fin": 20.42
+    },
+    {
+     "texto": "afterward.",
+     "inicio": 20.42,
+     "fin": 20.88
+    }
+   ],
+   "inicio": 16.88,
+   "fin": 20.88
+  },
+  {
+   "texto": "Cooking is what kills them: chicken needs to hit one hundred sixty-five degrees inside.",
+   "palabras": [
+    {
+     "texto": "Cooking",
+     "inicio": 21.46,
+     "fin": 21.7
+    },
+    {
+     "texto": "is",
+     "inicio": 21.7,
+     "fin": 21.94
+    },
+    {
+     "texto": "what",
+     "inicio": 21.94,
+     "fin": 22.08
+    },
+    {
+     "texto": "kills",
+     "inicio": 22.08,
+     "fin": 22.3
+    },
+    {
+     "texto": "them:",
+     "inicio": 22.3,
+     "fin": 22.44
+    },
+    {
+     "texto": "chicken",
+     "inicio": 22.82,
+     "fin": 23.0
+    },
+    {
+     "texto": "needs",
+     "inicio": 23.0,
+     "fin": 23.16
+    },
+    {
+     "texto": "to",
+     "inicio": 23.16,
+     "fin": 23.34
+    },
+    {
+     "texto": "hit",
+     "inicio": 23.34,
+     "fin": 23.46
+    },
+    {
+     "texto": "one",
+     "inicio": 23.46,
+     "fin": 23.66
+    },
+    {
+     "texto": "hundred",
+     "inicio": 23.66,
+     "fin": 23.96
+    },
+    {
+     "texto": "sixty-five",
+     "inicio": 23.96,
+     "fin": 24.52
+    },
+    {
+     "texto": "degrees",
+     "inicio": 24.52,
+     "fin": 24.78
+    },
+    {
+     "texto": "inside.",
+     "inicio": 24.78,
+     "fin": 25.16
+    }
+   ],
+   "inicio": 21.46,
+   "fin": 25.16
+  },
+  {
+   "texto": "Heads up: wash your hands with soap and water after touching raw chicken.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 25.76,
+     "fin": 26.02
+    },
+    {
+     "texto": "up:",
+     "inicio": 26.02,
+     "fin": 26.18
+    },
+    {
+     "texto": "wash",
+     "inicio": 26.56,
+     "fin": 26.74
+    },
+    {
+     "texto": "your",
+     "inicio": 26.74,
+     "fin": 26.94
+    },
+    {
+     "texto": "hands",
+     "inicio": 26.94,
+     "fin": 27.16
+    },
+    {
+     "texto": "with",
+     "inicio": 27.16,
+     "fin": 27.34
+    },
+    {
+     "texto": "soap",
+     "inicio": 27.34,
+     "fin": 27.64
+    },
+    {
+     "texto": "and",
+     "inicio": 27.64,
+     "fin": 27.78
+    },
+    {
+     "texto": "water",
+     "inicio": 27.78,
+     "fin": 28.02
+    },
+    {
+     "texto": "after",
+     "inicio": 28.02,
+     "fin": 28.3
+    },
+    {
+     "texto": "touching",
+     "inicio": 28.3,
+     "fin": 28.64
+    },
+    {
+     "texto": "raw",
+     "inicio": 28.64,
+     "fin": 28.78
+    },
+    {
+     "texto": "chicken.",
+     "inicio": 28.78,
+     "fin": 29.08
+    }
+   ],
+   "inicio": 25.76,
+   "fin": 29.08
+  },
+  {
+   "texto": "Skip the rinse, cook it, done.",
+   "palabras": [
+    {
+     "texto": "Skip",
+     "inicio": 29.08,
+     "fin": 29.7
+    },
+    {
+     "texto": "the",
+     "inicio": 29.7,
+     "fin": 29.92
+    },
+    {
+     "texto": "rinse,",
+     "inicio": 29.92,
+     "fin": 30.14
+    },
+    {
+     "texto": "cook",
+     "inicio": 30.58,
+     "fin": 30.74
+    },
+    {
+     "texto": "it,",
+     "inicio": 30.74,
+     "fin": 30.88
+    },
+    {
+     "texto": "done.",
+     "inicio": 31.14,
+     "fin": 31.38
+    }
+   ],
+   "inicio": 29.08,
+   "fin": 31.38
+  },
+  {
+   "texto": "Send this to the friend who rinses chicken like they're giving it a bath.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 31.86,
+     "fin": 32.08
+    },
+    {
+     "texto": "this",
+     "inicio": 32.08,
+     "fin": 32.22
+    },
+    {
+     "texto": "to",
+     "inicio": 32.22,
+     "fin": 32.36
+    },
+    {
+     "texto": "the",
+     "inicio": 32.36,
+     "fin": 32.44
+    },
+    {
+     "texto": "friend",
+     "inicio": 32.44,
+     "fin": 32.64
+    },
+    {
+     "texto": "who",
+     "inicio": 32.64,
+     "fin": 32.8
+    },
+    {
+     "texto": "rinses",
+     "inicio": 32.8,
+     "fin": 33.1
+    },
+    {
+     "texto": "chicken",
+     "inicio": 33.1,
+     "fin": 33.32
+    },
+    {
+     "texto": "like",
+     "inicio": 33.32,
+     "fin": 33.58
+    },
+    {
+     "texto": "they're",
+     "inicio": 33.58,
+     "fin": 33.88
+    },
+    {
+     "texto": "giving",
+     "inicio": 33.88,
+     "fin": 34.04
+    },
+    {
+     "texto": "it",
+     "inicio": 34.04,
+     "fin": 34.18
+    },
+    {
+     "texto": "a",
+     "inicio": 34.18,
+     "fin": 34.24
+    },
+    {
+     "texto": "bath.",
+     "inicio": 34.24,
+     "fin": 34.4
+    }
+   ],
+   "inicio": 31.86,
+   "fin": 34.4
+  }
+ ]
+}

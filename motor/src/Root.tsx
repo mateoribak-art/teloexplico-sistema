@@ -38,6 +38,7 @@ import { DURACION as DUR_EN004, FPS as FPS_EN004, SugarHyperEn004, PortadaEn004 
 import { DURACION as DUR_EN005, FPS as FPS_EN005, FridgePart2En005, PortadaEn005 } from "./videos/en-005-fridge-part-2/Video";
 import { DURACION as DUR_EN006, FPS as FPS_EN006, FiveSecondEn006, PortadaEn006 } from "./videos/en-006-five-second-rule/Video";
 import { DURACION as DUR_EN007, FPS as FPS_EN007, FlipSteakEn007, PortadaEn007 } from "./videos/en-007-flip-steak/Video";
+import { DURACION as DUR_EN008, FPS as FPS_EN008, WashChickenEn008, PortadaEn008 } from "./videos/en-008-wash-chicken/Video";
 import { DURACION as DUR_EN009, FPS as FPS_EN009, CeilingFanEn009, PortadaEn009 } from "./videos/en-009-ceiling-fan/Video";
 import { DURACION as DUR_EN001, FPS as FPS_EN001, PhoneRiceEn001, PortadaEn001 } from "./videos/en-001-phone-rice/Video";
 
@@ -85,6 +86,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-006-five-second-rule" component={PortadaEn006} width={ANCHO} height={ALTO} />
         <Composition id="hen-007-flip-steak" component={FlipSteakEn007} durationInFrames={DUR_EN007} fps={FPS_EN007} width={ANCHO} height={ALTO} />
         <Still id="pen-007-flip-steak" component={PortadaEn007} width={ANCHO} height={ALTO} />
+        <Composition id="hen-008-wash-chicken" component={WashChickenEn008} durationInFrames={DUR_EN008} fps={FPS_EN008} width={ANCHO} height={ALTO} />
+        <Still id="pen-008-wash-chicken" component={PortadaEn008} width={ANCHO} height={ALTO} />
         <Composition id="hen-009-ceiling-fan" component={CeilingFanEn009} durationInFrames={DUR_EN009} fps={FPS_EN009} width={ANCHO} height={ALTO} />
         <Still id="pen-009-ceiling-fan" component={PortadaEn009} width={ANCHO} height={ALTO} />
       </Folder>
