@@ -231,7 +231,7 @@
  {
   "slug": "011-sal-agua-hierve",
   "tema": "¿Ponerle sal al agua hace que hierva más rápido?",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -262,6 +262,11 @@
     "estado": "listo",
     "cuando": "2026-10-29T08:15",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-30T12:32",
+    "motivo": "https://www.instagram.com/reel/DfH6TYLjGTs/"
    }
   ]
  },

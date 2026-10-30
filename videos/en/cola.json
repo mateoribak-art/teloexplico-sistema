@@ -206,7 +206,7 @@
  {
   "slug": "en-007-flip-steak",
   "tema": "Flip a steak only once? (adapted from 003)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -227,6 +227,11 @@
     "estado": "listo",
     "cuando": "2026-10-28T23:23",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-30T12:35",
+    "motivo": "https://www.instagram.com/reel/DfH6nNcoGPm/"
    }
   ]
  },
