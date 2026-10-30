@@ -153,19 +153,12 @@
   ]
  },
  {
-  "id": "10301836-es-control",
-  "creado": "2026-10-30T18:36",
-  "empleado": "es/control",
-  "estado": "aplicado",
-  "auto": true,
-  "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Ramiro (Control de calidad) está en \"aviso\": Apartó 3 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\n015-descongelar-mesada: calidad 30/10: sin un 'mandáselo a…' claro\n018-refresca-tormenta: calidad 30/10: sin un 'mandáselo a…' claro\n024-granizo-corto: calidad 30/10: sin un 'mandáselo a…' claro\n",
-  "firma": "a42a94baf0b2",
-  "actualizado": "2026-10-30T18:37",
-  "titulo": "Revisé los 3 videos apartados por Ramiro y los pasé a \"listo\" porque sí tienen el \"mandáselo a…\".",
-  "resumen": "Ramiro apartó 015-descongelar-mesada, 018-refresca-tormenta y 024-granizo-corto por \"sin un mandáselo a… claro\". Los revisé y los tres lo tienen, con una persona reconocible: \"el que deja el asado en la mesada\", \"el que dice ya refrescó\" y \"el que grita ¿granizo con este calor?\". Está en el guion, en el video y en el caption, y el chequeo de datos de los tres figura como aprobado. Los pasé a listo con `tlx cola`, así que entran en la cola de publicación normal. No toqué código.",
-  "commit": "a51865c3cf2b1831b3126d83acf49385b41966d1",
-  "archivos": [
-   "videos/cola.json"
-  ]
+  "id": "10301836-en-chequeo",
+  "creado": "2026-10-30T18:38",
+  "estado": "fallo",
+  "firma": null,
+  "titulo": "Claude no pudo trabajar ahora",
+  "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
+  "actualizado": "2026-10-30T18:38"
  }
 ]
