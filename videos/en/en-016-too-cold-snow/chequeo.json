@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones salen de la FAQ de NOAA NSSL (verificada con fetch directo) y coinciden con NWS Central Region 'Myth Buster Monday' (nunca es demasiado frio para nevar, a lo sumo demasiado seco). La unidad (zero degrees Fahrenheit) coincide con la fuente. No hay cifras inventadas, ni afirmaciones de salud/seguridad/plata, ni anecdotas dudosas. La atribucion a NOAA/NSSL es correcta y los matices ('rarely', 'rare', 'significant snowfall can occur') respetan la fuente.",
+  "afirmaciones": [
+    {
+      "texto": "It's too cold to snow (creencia popular presentada como mito)",
+      "fuente": "NOAA NSSL Severe Weather 101 FAQ 'Can it ever be too cold to snow?' https://www.nssl.noaa.gov/education/svrwx101/winter/faq/ ; NWS Central Region Myth Buster Monday https://weather.gov/ctp/MythBusterMonday",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The National Severe Storms Laboratory says it rarely snows below zero degrees Fahrenheit.",
+      "fuente": "NOAA NSSL FAQ: 'It rarely snows when the temperature drops below zero degrees Fahrenheit because the atmosphere is too stable.' Unidad °F coincide.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "It's not because it's too cold. It's because the air is too stable.",
+      "fuente": "NOAA NSSL FAQ (atmosphere is too stable; 'too cold to snow' = not enough lifting)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Snow needs air lifting upward. Without enough lift, it never reaches the ground.",
+      "fuente": "NOAA NSSL FAQ (snow needs lifting of saturated air to form aloft and reach the surface). 'Never' es una simplificacion aceptable del mecanismo.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "When people say it's too cold to snow, what they really mean is not enough lift.",
+      "fuente": "NOAA NSSL FAQ ('too cold to snow' really means there is not enough lifting of air)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "NOAA says even at very cold surface temperatures, significant snowfall can occur.",
+      "fuente": "NOAA NSSL FAQ (strong lifting can produce significant snow at very low temperatures)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Below zero, snow really is rare. It's just not a temperature limit.",
+      "fuente": "NOAA NSSL FAQ ('rarely snows' below 0 °F; no hay limite de temperatura, solo falta de ascenso/humedad)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "When it's bitter cold and cloudy, don't write off the snow.",
+      "fuente": "Consejo derivado de la FAQ de NOAA NSSL (nieve posible con frio extremo si hay ascenso y humedad); no es afirmacion de seguridad",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: NOAA NSSL says rarely snows below 0 °F because atmosphere too stable; 'too cold to snow' means not enough lifting; significant snowfall can occur at very cold surface temperatures.",
+      "fuente": "NOAA NSSL FAQ, parafrasis fiel",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

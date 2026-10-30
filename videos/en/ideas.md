@@ -19,8 +19,8 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [usada → en-012-thunder-count] 018-rayo-trueno · How far away is the storm? Count seconds: 5 seconds ≈ 1 mile (NWS; "when thunder roars, go indoors") — serie: clima
 - [ ] 019-sensacion-termica · Why "feels like" is higher than the temperature: heat index (NWS; en °F). En invierno el ángulo es el wind chill — serie: clima
 - [ ] 018-refresca-tormenta · Why it cools down suddenly after a storm (downdraft) — serie: clima
-- [ ] 004-olor-a-lluvia · Why rain smells like that (petrichor, geosmin) — serie: ciencia
-- [ ] 017-paradoja-cumpleanos · How many people for two to share a birthday? (23 → 50 %) — serie: mate
+- [intentada → en-015-rain-smell, apartado: umbral de geosmina "a few ppt" varía por fuente (5–400 ppt); decir "parts per trillion levels"/"as little as five ppt in some studies"; el guion y Video.tsx están en videos/en/en-015-rain-smell] 004-olor-a-lluvia · Why rain smells like that (petrichor, geosmin) — serie: ciencia
+- [intentada → en-014-birthday-pairs, apartado: solo atribución de fuentes (citar solo Wikipedia "Birthday problem" para 23/40/70 y el efecto no uniforme); cifras verificadas] 017-paradoja-cumpleanos · How many people for two to share a birthday? (23 → 50 %) — serie: mate
 - [ ] 016-el-nino-clima · El Niño / La Niña: what it means for your winter in the U.S. (NOAA CPC: verificar el estado ENSO ACTUAL) — serie: clima
 - [ ] 020-pava-se-corta (3D) · Why does an electric kettle switch itself off? (las pavas eléctricas son menos comunes en EE. UU.: evaluar; si el gancho no funciona allá, descartar) — serie: pordentro
 - No adaptar: 006 y 007 (BTS en Argentina), 005 (apartado), 010/011/013 (sin video o chequeo rechazado).
@@ -41,7 +41,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 
 ## Temas de EE. UU. — serie: clima (Weather explained)
 - [usada → en-002-dst-farmers] Why do we "fall back"? What Daylight Saving Time actually does (cambio de hora: domingo 1/11/2026; NIST/DOT) — actualidad, antes del 1/11
-- [ ] Can it be too cold to snow? (NWS)
+- [usada → en-016-too-cold-snow] Can it be too cold to snow? (NWS)
 - [ ] What is lake-effect snow? (NWS) — invierno
 - [ ] Why do leaves change color in fall? (USDA Forest Service)
 - [ ] Why is the first frost a thing? / What's a "polar vortex"? (NOAA) — invierno

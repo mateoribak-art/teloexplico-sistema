@@ -1,0 +1,24 @@
+{
+  "titulo": "Why does rain smell like that?",
+  "fuentes": [
+    "Bear & Thomas, Nature (1964), 'Nature of Argillaceous Odour': coined the term 'petrichor' (CSIRO, Australia)",
+    "Geosmin: compound produced by soil bacteria (mainly Streptomyces); humans detect it at a few parts per trillion",
+    "MIT, Joung & Buie, Nature Communications (2015), 'Aerosol generation by raindrop impact on soil': drops trap air bubbles that burst and release aerosols; more with light to moderate rain than heavy rain",
+    "Evolutionary idea about human sensitivity to geosmin (finding water): a hypothesis, not conclusive"
+  ],
+  "destinatario": "se lo manda alguien a su amigo que sale al porche, respira hondo y dice 'ah, olor a lluvia'",
+  "fondo": "oscuro",
+  "receta": "experimento real con fuente en pantalla (MIT 2015)",
+  "frases": [
+    {"texto": "That smell when it starts to rain? It isn't the rain.", "estilo": "Dry and confident, with a half smile."},
+    {"texto": "A big part of it comes from the ground, including a chemical made by soil bacteria.", "estilo": "Short and punchy."},
+    {"texto": "It has a name: petrichor. Two Australian scientists coined it in nineteen sixty-four.", "estilo": "Conversational, a fun fact."},
+    {"texto": "One key ingredient is a molecule called geosmin, made by soil bacteria.", "estilo": "Explaining simply, like to a friend."},
+    {"texto": "When a raindrop hits dry ground, it traps tiny air bubbles that pop and release aerosols. MIT researchers filmed it in twenty fifteen, and think it may help carry the scent.", "estilo": "Clear mechanism, visual."},
+    {"texto": "And your nose is so sharp, it can pick up geosmin at just a few parts per trillion.", "estilo": "Emphatic, revealing a strong fact."},
+    {"texto": "Why? One idea is that our ancestors followed that smell to find water.", "estilo": "Curious, as a theory, not a certainty."},
+    {"texto": "Heads up: in MIT's tests, light to moderate rain released more aerosols than a downpour.", "estilo": "Friendly warning, a surprise."},
+    {"texto": "Next time it starts to drizzle, step outside and take a deep breath.", "estilo": "Practical and upbeat."},
+    {"texto": "Send this to the friend who steps onto the porch and says, ah, rain smell.", "estilo": "Playful, with humor, as a punchline."}
+  ]
+}

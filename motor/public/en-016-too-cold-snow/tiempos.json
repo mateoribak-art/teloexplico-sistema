@@ -1,0 +1,670 @@
+{
+ "duracion": 39.73,
+ "frases": [
+  {
+   "texto": "You've said it yourself: it's too cold to snow.",
+   "palabras": [
+    {
+     "texto": "You've",
+     "inicio": 0.0,
+     "fin": 0.22
+    },
+    {
+     "texto": "said",
+     "inicio": 0.22,
+     "fin": 0.34
+    },
+    {
+     "texto": "it",
+     "inicio": 0.34,
+     "fin": 0.42
+    },
+    {
+     "texto": "yourself:",
+     "inicio": 0.42,
+     "fin": 0.72
+    },
+    {
+     "texto": "it's",
+     "inicio": 1.22,
+     "fin": 1.42
+    },
+    {
+     "texto": "too",
+     "inicio": 1.42,
+     "fin": 1.56
+    },
+    {
+     "texto": "cold",
+     "inicio": 1.56,
+     "fin": 1.88
+    },
+    {
+     "texto": "to",
+     "inicio": 1.88,
+     "fin": 2.22
+    },
+    {
+     "texto": "snow.",
+     "inicio": 2.22,
+     "fin": 2.5
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.5
+  },
+  {
+   "texto": "That's a myth.",
+   "palabras": [
+    {
+     "texto": "That's",
+     "inicio": 3.04,
+     "fin": 3.28
+    },
+    {
+     "texto": "a",
+     "inicio": 3.28,
+     "fin": 3.32
+    },
+    {
+     "texto": "myth.",
+     "inicio": 3.32,
+     "fin": 3.52
+    }
+   ],
+   "inicio": 3.04,
+   "fin": 3.52
+  },
+  {
+   "texto": "The National Severe Storms Laboratory says it rarely snows below zero degrees Fahrenheit.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 4.04,
+     "fin": 4.12
+    },
+    {
+     "texto": "National",
+     "inicio": 4.12,
+     "fin": 4.46
+    },
+    {
+     "texto": "Severe",
+     "inicio": 4.46,
+     "fin": 4.9
+    },
+    {
+     "texto": "Storms",
+     "inicio": 4.9,
+     "fin": 5.46
+    },
+    {
+     "texto": "Laboratory",
+     "inicio": 5.46,
+     "fin": 5.74
+    },
+    {
+     "texto": "says",
+     "inicio": 5.74,
+     "fin": 6.16
+    },
+    {
+     "texto": "it",
+     "inicio": 6.16,
+     "fin": 6.34
+    },
+    {
+     "texto": "rarely",
+     "inicio": 6.34,
+     "fin": 6.76
+    },
+    {
+     "texto": "snows",
+     "inicio": 6.76,
+     "fin": 7.26
+    },
+    {
+     "texto": "below",
+     "inicio": 7.26,
+     "fin": 7.52
+    },
+    {
+     "texto": "zero",
+     "inicio": 7.52,
+     "fin": 7.94
+    },
+    {
+     "texto": "degrees",
+     "inicio": 7.94,
+     "fin": 8.3
+    },
+    {
+     "texto": "Fahrenheit.",
+     "inicio": 8.3,
+     "fin": 8.68
+    }
+   ],
+   "inicio": 4.04,
+   "fin": 8.68
+  },
+  {
+   "texto": "But not because it's too cold. It's because the air is too stable.",
+   "palabras": [
+    {
+     "texto": "But",
+     "inicio": 9.3,
+     "fin": 9.46
+    },
+    {
+     "texto": "not",
+     "inicio": 9.46,
+     "fin": 9.72
+    },
+    {
+     "texto": "because",
+     "inicio": 9.72,
+     "fin": 9.98
+    },
+    {
+     "texto": "it's",
+     "inicio": 9.98,
+     "fin": 10.2
+    },
+    {
+     "texto": "too",
+     "inicio": 10.2,
+     "fin": 10.32
+    },
+    {
+     "texto": "cold.",
+     "inicio": 10.32,
+     "fin": 10.66
+    },
+    {
+     "texto": "It's",
+     "inicio": 11.18,
+     "fin": 11.3
+    },
+    {
+     "texto": "because",
+     "inicio": 11.3,
+     "fin": 11.42
+    },
+    {
+     "texto": "the",
+     "inicio": 11.42,
+     "fin": 11.58
+    },
+    {
+     "texto": "air",
+     "inicio": 11.58,
+     "fin": 11.74
+    },
+    {
+     "texto": "is",
+     "inicio": 11.74,
+     "fin": 11.88
+    },
+    {
+     "texto": "too",
+     "inicio": 11.88,
+     "fin": 12.0
+    },
+    {
+     "texto": "stable.",
+     "inicio": 12.0,
+     "fin": 12.34
+    }
+   ],
+   "inicio": 9.3,
+   "fin": 12.34
+  },
+  {
+   "texto": "Snow needs air lifting upward. Without enough lift, it never reaches the ground.",
+   "palabras": [
+    {
+     "texto": "Snow",
+     "inicio": 13.06,
+     "fin": 13.24
+    },
+    {
+     "texto": "needs",
+     "inicio": 13.24,
+     "fin": 13.46
+    },
+    {
+     "texto": "air",
+     "inicio": 13.46,
+     "fin": 13.84
+    },
+    {
+     "texto": "lifting",
+     "inicio": 13.84,
+     "fin": 14.26
+    },
+    {
+     "texto": "upward.",
+     "inicio": 14.26,
+     "fin": 14.66
+    },
+    {
+     "texto": "Without",
+     "inicio": 15.14,
+     "fin": 15.32
+    },
+    {
+     "texto": "enough",
+     "inicio": 15.32,
+     "fin": 15.58
+    },
+    {
+     "texto": "lift,",
+     "inicio": 15.58,
+     "fin": 15.94
+    },
+    {
+     "texto": "it",
+     "inicio": 16.36,
+     "fin": 16.5
+    },
+    {
+     "texto": "never",
+     "inicio": 16.5,
+     "fin": 16.68
+    },
+    {
+     "texto": "reaches",
+     "inicio": 16.68,
+     "fin": 16.9
+    },
+    {
+     "texto": "the",
+     "inicio": 16.9,
+     "fin": 17.06
+    },
+    {
+     "texto": "ground.",
+     "inicio": 17.06,
+     "fin": 17.28
+    }
+   ],
+   "inicio": 13.06,
+   "fin": 17.28
+  },
+  {
+   "texto": "So when people say it's too cold to snow, what they really mean is not enough lift.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 17.76,
+     "fin": 17.92
+    },
+    {
+     "texto": "when",
+     "inicio": 17.92,
+     "fin": 18.04
+    },
+    {
+     "texto": "people",
+     "inicio": 18.04,
+     "fin": 18.2
+    },
+    {
+     "texto": "say",
+     "inicio": 18.2,
+     "fin": 18.4
+    },
+    {
+     "texto": "it's",
+     "inicio": 18.4,
+     "fin": 18.56
+    },
+    {
+     "texto": "too",
+     "inicio": 18.56,
+     "fin": 18.7
+    },
+    {
+     "texto": "cold",
+     "inicio": 18.7,
+     "fin": 18.92
+    },
+    {
+     "texto": "to",
+     "inicio": 18.92,
+     "fin": 19.06
+    },
+    {
+     "texto": "snow,",
+     "inicio": 19.06,
+     "fin": 19.3
+    },
+    {
+     "texto": "what",
+     "inicio": 19.74,
+     "fin": 19.9
+    },
+    {
+     "texto": "they",
+     "inicio": 19.9,
+     "fin": 20.02
+    },
+    {
+     "texto": "really",
+     "inicio": 20.02,
+     "fin": 20.32
+    },
+    {
+     "texto": "mean",
+     "inicio": 20.32,
+     "fin": 20.54
+    },
+    {
+     "texto": "is",
+     "inicio": 20.54,
+     "fin": 20.84
+    },
+    {
+     "texto": "not",
+     "inicio": 20.84,
+     "fin": 21.34
+    },
+    {
+     "texto": "enough",
+     "inicio": 21.34,
+     "fin": 21.54
+    },
+    {
+     "texto": "lift.",
+     "inicio": 21.54,
+     "fin": 21.9
+    }
+   ],
+   "inicio": 17.76,
+   "fin": 21.9
+  },
+  {
+   "texto": "NOAA says even at very cold surface temperatures, significant snowfall can occur.",
+   "palabras": [
+    {
+     "texto": "NOAA",
+     "inicio": 22.34,
+     "fin": 22.66
+    },
+    {
+     "texto": "says",
+     "inicio": 22.66,
+     "fin": 22.88
+    },
+    {
+     "texto": "even",
+     "inicio": 22.88,
+     "fin": 23.22
+    },
+    {
+     "texto": "at",
+     "inicio": 23.22,
+     "fin": 23.38
+    },
+    {
+     "texto": "very",
+     "inicio": 23.38,
+     "fin": 23.74
+    },
+    {
+     "texto": "cold",
+     "inicio": 23.74,
+     "fin": 24.02
+    },
+    {
+     "texto": "surface",
+     "inicio": 24.02,
+     "fin": 24.34
+    },
+    {
+     "texto": "temperatures,",
+     "inicio": 24.34,
+     "fin": 24.94
+    },
+    {
+     "texto": "significant",
+     "inicio": 25.22,
+     "fin": 25.62
+    },
+    {
+     "texto": "snowfall",
+     "inicio": 25.62,
+     "fin": 26.26
+    },
+    {
+     "texto": "can",
+     "inicio": 26.26,
+     "fin": 26.58
+    },
+    {
+     "texto": "occur.",
+     "inicio": 26.58,
+     "fin": 26.86
+    }
+   ],
+   "inicio": 22.34,
+   "fin": 26.86
+  },
+  {
+   "texto": "Heads up: below zero, snow really is rare. It's just not a temperature limit.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 26.86,
+     "fin": 27.66
+    },
+    {
+     "texto": "up:",
+     "inicio": 27.66,
+     "fin": 27.86
+    },
+    {
+     "texto": "below",
+     "inicio": 28.3,
+     "fin": 28.48
+    },
+    {
+     "texto": "zero,",
+     "inicio": 28.48,
+     "fin": 28.96
+    },
+    {
+     "texto": "snow",
+     "inicio": 29.48,
+     "fin": 29.76
+    },
+    {
+     "texto": "really",
+     "inicio": 29.76,
+     "fin": 30.14
+    },
+    {
+     "texto": "is",
+     "inicio": 30.14,
+     "fin": 30.5
+    },
+    {
+     "texto": "rare.",
+     "inicio": 30.5,
+     "fin": 30.74
+    },
+    {
+     "texto": "It's",
+     "inicio": 31.36,
+     "fin": 31.52
+    },
+    {
+     "texto": "just",
+     "inicio": 31.52,
+     "fin": 31.68
+    },
+    {
+     "texto": "not",
+     "inicio": 31.68,
+     "fin": 31.92
+    },
+    {
+     "texto": "a",
+     "inicio": 31.92,
+     "fin": 32.06
+    },
+    {
+     "texto": "temperature",
+     "inicio": 32.06,
+     "fin": 32.66
+    },
+    {
+     "texto": "limit.",
+     "inicio": 32.66,
+     "fin": 32.94
+    }
+   ],
+   "inicio": 26.86,
+   "fin": 32.94
+  },
+  {
+   "texto": "So next time it's bitter cold and cloudy, don't write off the snow.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 33.44,
+     "fin": 33.52
+    },
+    {
+     "texto": "next",
+     "inicio": 33.52,
+     "fin": 33.68
+    },
+    {
+     "texto": "time",
+     "inicio": 33.68,
+     "fin": 33.92
+    },
+    {
+     "texto": "it's",
+     "inicio": 33.92,
+     "fin": 34.14
+    },
+    {
+     "texto": "bitter",
+     "inicio": 34.14,
+     "fin": 34.36
+    },
+    {
+     "texto": "cold",
+     "inicio": 34.36,
+     "fin": 34.76
+    },
+    {
+     "texto": "and",
+     "inicio": 34.76,
+     "fin": 34.94
+    },
+    {
+     "texto": "cloudy,",
+     "inicio": 34.94,
+     "fin": 35.28
+    },
+    {
+     "texto": "don't",
+     "inicio": 35.86,
+     "fin": 36.12
+    },
+    {
+     "texto": "write",
+     "inicio": 36.12,
+     "fin": 36.24
+    },
+    {
+     "texto": "off",
+     "inicio": 36.24,
+     "fin": 36.46
+    },
+    {
+     "texto": "the",
+     "inicio": 36.46,
+     "fin": 36.6
+    },
+    {
+     "texto": "snow.",
+     "inicio": 36.6,
+     "fin": 36.86
+    }
+   ],
+   "inicio": 33.44,
+   "fin": 36.86
+  },
+  {
+   "texto": "Send this to the friend who says it's too cold to snow.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 37.36,
+     "fin": 37.54
+    },
+    {
+     "texto": "this",
+     "inicio": 37.54,
+     "fin": 37.72
+    },
+    {
+     "texto": "to",
+     "inicio": 37.72,
+     "fin": 37.88
+    },
+    {
+     "texto": "the",
+     "inicio": 37.88,
+     "fin": 37.98
+    },
+    {
+     "texto": "friend",
+     "inicio": 37.98,
+     "fin": 38.16
+    },
+    {
+     "texto": "who",
+     "inicio": 38.16,
+     "fin": 38.32
+    },
+    {
+     "texto": "says",
+     "inicio": 38.32,
+     "fin": 38.44
+    },
+    {
+     "texto": "it's",
+     "inicio": 38.44,
+     "fin": 38.72
+    },
+    {
+     "texto": "too",
+     "inicio": 38.72,
+     "fin": 38.94
+    },
+    {
+     "texto": "cold",
+     "inicio": 38.94,
+     "fin": 39.2
+    },
+    {
+     "texto": "to",
+     "inicio": 39.2,
+     "fin": 39.36
+    },
+    {
+     "texto": "snow.",
+     "inicio": 39.36,
+     "fin": 39.52
+    }
+   ],
+   "inicio": 37.36,
+   "fin": 39.52
+  }
+ ]
+}

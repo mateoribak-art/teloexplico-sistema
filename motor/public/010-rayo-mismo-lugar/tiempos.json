@@ -1,628 +1,826 @@
 {
- "duracion": 48.62,
+ "duracion": 56.0,
  "frases": [
   {
-   "texto": "¿De verdad creés que un rayo nunca cae dos veces en el mismo lugar?",
+   "texto": "Eso de que un rayo no cae dos veces en el mismo lugar es un verso.",
    "palabras": [
     {
-     "texto": "¿De",
+     "texto": "Eso",
      "inicio": 0.0,
-     "fin": 0.24
+     "fin": 0.28
     },
     {
-     "texto": "verdad",
-     "inicio": 0.24,
-     "fin": 0.58
-    },
-    {
-     "texto": "creés",
-     "inicio": 0.58,
-     "fin": 1.2
+     "texto": "de",
+     "inicio": 0.28,
+     "fin": 0.46
     },
     {
      "texto": "que",
-     "inicio": 1.2,
-     "fin": 1.48
+     "inicio": 0.46,
+     "fin": 0.6
     },
     {
      "texto": "un",
-     "inicio": 1.48,
-     "fin": 1.72
+     "inicio": 0.6,
+     "fin": 0.76
     },
     {
      "texto": "rayo",
-     "inicio": 1.72,
-     "fin": 2.3
-    },
-    {
-     "texto": "nunca",
-     "inicio": 2.3,
-     "fin": 2.94
-    },
-    {
-     "texto": "cae",
-     "inicio": 2.94,
-     "fin": 3.48
-    },
-    {
-     "texto": "dos",
-     "inicio": 3.48,
-     "fin": 3.7
-    },
-    {
-     "texto": "veces",
-     "inicio": 3.7,
-     "fin": 4.1
-    },
-    {
-     "texto": "en",
-     "inicio": 4.1,
-     "fin": 4.42
-    },
-    {
-     "texto": "el",
-     "inicio": 4.42,
-     "fin": 4.52
-    },
-    {
-     "texto": "mismo",
-     "inicio": 4.52,
-     "fin": 4.78
-    },
-    {
-     "texto": "lugar?",
-     "inicio": 4.78,
-     "fin": 5.14
-    }
-   ],
-   "inicio": 0.0,
-   "fin": 5.14
-  },
-  {
-   "texto": "Te comiste un re verso.",
-   "palabras": [
-    {
-     "texto": "Te",
-     "inicio": 5.62,
-     "fin": 6.32
-    },
-    {
-     "texto": "comiste",
-     "inicio": 6.32,
-     "fin": 6.62
-    },
-    {
-     "texto": "un",
-     "inicio": 6.62,
-     "fin": 6.8
-    },
-    {
-     "texto": "re",
-     "inicio": 6.8,
-     "fin": 7.02
-    },
-    {
-     "texto": "verso.",
-     "inicio": 7.02,
-     "fin": 7.52
-    }
-   ],
-   "inicio": 5.62,
-   "fin": 7.52
-  },
-  {
-   "texto": "Las construcciones elevadas tienden a recibir muchas más descargas eléctricas.",
-   "palabras": [
-    {
-     "texto": "Las",
-     "inicio": 8.08,
-     "fin": 8.26
-    },
-    {
-     "texto": "construcciones",
-     "inicio": 8.26,
-     "fin": 8.84
-    },
-    {
-     "texto": "elevadas",
-     "inicio": 8.84,
-     "fin": 9.52
-    },
-    {
-     "texto": "tienden",
-     "inicio": 9.52,
-     "fin": 10.26
-    },
-    {
-     "texto": "a",
-     "inicio": 10.26,
-     "fin": 10.38
-    },
-    {
-     "texto": "recibir",
-     "inicio": 10.38,
-     "fin": 10.68
-    },
-    {
-     "texto": "muchas",
-     "inicio": 10.68,
-     "fin": 11.42
-    },
-    {
-     "texto": "más",
-     "inicio": 11.42,
-     "fin": 11.66
-    },
-    {
-     "texto": "descargas",
-     "inicio": 11.66,
-     "fin": 12.16
-    },
-    {
-     "texto": "eléctricas.",
-     "inicio": 12.16,
-     "fin": 12.94
-    }
-   ],
-   "inicio": 8.08,
-   "fin": 12.94
-  },
-  {
-   "texto": "De hecho, se usan varillas de metal como pararrayos para atraerlos a puntos seguros.",
-   "palabras": [
-    {
-     "texto": "De",
-     "inicio": 13.32,
-     "fin": 13.58
-    },
-    {
-     "texto": "hecho,",
-     "inicio": 13.58,
-     "fin": 13.84
-    },
-    {
-     "texto": "se",
-     "inicio": 14.22,
-     "fin": 14.42
-    },
-    {
-     "texto": "usan",
-     "inicio": 14.42,
-     "fin": 14.66
-    },
-    {
-     "texto": "varillas",
-     "inicio": 14.66,
-     "fin": 15.02
-    },
-    {
-     "texto": "de",
-     "inicio": 15.02,
-     "fin": 15.2
-    },
-    {
-     "texto": "metal",
-     "inicio": 15.2,
-     "fin": 15.58
-    },
-    {
-     "texto": "como",
-     "inicio": 15.58,
-     "fin": 15.98
-    },
-    {
-     "texto": "pararrayos",
-     "inicio": 15.98,
-     "fin": 16.82
-    },
-    {
-     "texto": "para",
-     "inicio": 16.82,
-     "fin": 17.22
-    },
-    {
-     "texto": "atraerlos",
-     "inicio": 17.22,
-     "fin": 17.92
-    },
-    {
-     "texto": "a",
-     "inicio": 17.92,
-     "fin": 18.16
-    },
-    {
-     "texto": "puntos",
-     "inicio": 18.16,
-     "fin": 18.38
-    },
-    {
-     "texto": "seguros.",
-     "inicio": 18.38,
-     "fin": 18.9
-    }
-   ],
-   "inicio": 13.32,
-   "fin": 18.9
-  },
-  {
-   "texto": "El edificio Empire State en Nueva York recibe una veintena de descargas cada año.",
-   "palabras": [
-    {
-     "texto": "El",
-     "inicio": 19.5,
-     "fin": 19.66
-    },
-    {
-     "texto": "edificio",
-     "inicio": 19.66,
-     "fin": 20.22
-    },
-    {
-     "texto": "Empire",
-     "inicio": 20.22,
-     "fin": 20.7
-    },
-    {
-     "texto": "State",
-     "inicio": 20.7,
-     "fin": 21.16
-    },
-    {
-     "texto": "en",
-     "inicio": 21.16,
-     "fin": 21.58
-    },
-    {
-     "texto": "Nueva",
-     "inicio": 21.58,
-     "fin": 21.74
-    },
-    {
-     "texto": "York",
-     "inicio": 21.74,
-     "fin": 22.1
-    },
-    {
-     "texto": "recibe",
-     "inicio": 22.1,
-     "fin": 22.98
-    },
-    {
-     "texto": "una",
-     "inicio": 22.98,
-     "fin": 23.18
-    },
-    {
-     "texto": "veintena",
-     "inicio": 23.18,
-     "fin": 23.76
-    },
-    {
-     "texto": "de",
-     "inicio": 23.76,
-     "fin": 23.92
-    },
-    {
-     "texto": "descargas",
-     "inicio": 23.92,
-     "fin": 24.46
-    },
-    {
-     "texto": "cada",
-     "inicio": 24.46,
-     "fin": 24.84
-    },
-    {
-     "texto": "año.",
-     "inicio": 24.84,
-     "fin": 25.28
-    }
-   ],
-   "inicio": 19.5,
-   "fin": 25.28
-  },
-  {
-   "texto": "Y la estatua del Cristo Redentor en Río de Janeiro recibe una media de seis rayos al año.",
-   "palabras": [
-    {
-     "texto": "Y",
-     "inicio": 25.66,
-     "fin": 25.86
-    },
-    {
-     "texto": "la",
-     "inicio": 25.86,
-     "fin": 25.94
-    },
-    {
-     "texto": "estatua",
-     "inicio": 25.94,
-     "fin": 26.32
-    },
-    {
-     "texto": "del",
-     "inicio": 26.32,
-     "fin": 26.5
-    },
-    {
-     "texto": "Cristo",
-     "inicio": 26.5,
-     "fin": 26.84
-    },
-    {
-     "texto": "Redentor",
-     "inicio": 26.84,
-     "fin": 27.54
-    },
-    {
-     "texto": "en",
-     "inicio": 27.54,
-     "fin": 27.82
-    },
-    {
-     "texto": "Río",
-     "inicio": 27.82,
-     "fin": 28.04
-    },
-    {
-     "texto": "de",
-     "inicio": 28.04,
-     "fin": 28.18
-    },
-    {
-     "texto": "Janeiro",
-     "inicio": 28.18,
-     "fin": 28.52
-    },
-    {
-     "texto": "recibe",
-     "inicio": 28.52,
-     "fin": 29.5
-    },
-    {
-     "texto": "una",
-     "inicio": 29.5,
-     "fin": 29.66
-    },
-    {
-     "texto": "media",
-     "inicio": 29.66,
-     "fin": 29.88
-    },
-    {
-     "texto": "de",
-     "inicio": 29.88,
-     "fin": 30.14
-    },
-    {
-     "texto": "seis",
-     "inicio": 30.14,
-     "fin": 30.48
-    },
-    {
-     "texto": "rayos",
-     "inicio": 30.48,
-     "fin": 30.94
-    },
-    {
-     "texto": "al",
-     "inicio": 30.94,
-     "fin": 31.08
-    },
-    {
-     "texto": "año.",
-     "inicio": 31.08,
-     "fin": 31.4
-    }
-   ],
-   "inicio": 25.66,
-   "fin": 31.4
-  },
-  {
-   "texto": "Ojo: los rayos repetidos en un lugar cualquiera tienen probabilidad baja, pero no imposible.",
-   "palabras": [
-    {
-     "texto": "Ojo:",
-     "inicio": 32.0,
-     "fin": 32.2
-    },
-    {
-     "texto": "los",
-     "inicio": 32.74,
-     "fin": 32.94
-    },
-    {
-     "texto": "rayos",
-     "inicio": 32.94,
-     "fin": 33.28
-    },
-    {
-     "texto": "repetidos",
-     "inicio": 33.28,
-     "fin": 33.84
-    },
-    {
-     "texto": "en",
-     "inicio": 33.84,
-     "fin": 34.02
-    },
-    {
-     "texto": "un",
-     "inicio": 34.02,
-     "fin": 34.1
-    },
-    {
-     "texto": "lugar",
-     "inicio": 34.1,
-     "fin": 34.32
-    },
-    {
-     "texto": "cualquiera",
-     "inicio": 34.32,
-     "fin": 34.98
-    },
-    {
-     "texto": "tienen",
-     "inicio": 34.98,
-     "fin": 35.68
-    },
-    {
-     "texto": "probabilidad",
-     "inicio": 35.68,
-     "fin": 36.42
-    },
-    {
-     "texto": "baja,",
-     "inicio": 36.42,
-     "fin": 36.76
-    },
-    {
-     "texto": "pero",
-     "inicio": 37.4,
-     "fin": 37.44
+     "inicio": 0.76,
+     "fin": 1.12
     },
     {
      "texto": "no",
-     "inicio": 37.44,
-     "fin": 37.58
-    },
-    {
-     "texto": "imposible.",
-     "inicio": 37.58,
-     "fin": 38.22
-    }
-   ],
-   "inicio": 32.0,
-   "fin": 38.22
-  },
-  {
-   "texto": "Así que en estructuras altas cae una y otra vez sin problemas.",
-   "palabras": [
-    {
-     "texto": "Así",
-     "inicio": 38.66,
-     "fin": 38.92
-    },
-    {
-     "texto": "que",
-     "inicio": 38.92,
-     "fin": 39.2
-    },
-    {
-     "texto": "en",
-     "inicio": 39.2,
-     "fin": 40.12
-    },
-    {
-     "texto": "estructuras",
-     "inicio": 40.12,
-     "fin": 40.68
-    },
-    {
-     "texto": "altas",
-     "inicio": 40.68,
-     "fin": 41.36
+     "inicio": 1.12,
+     "fin": 1.28
     },
     {
      "texto": "cae",
-     "inicio": 41.36,
-     "fin": 42.18
+     "inicio": 1.28,
+     "fin": 1.56
     },
     {
-     "texto": "una",
-     "inicio": 42.18,
-     "fin": 42.78
+     "texto": "dos",
+     "inicio": 1.56,
+     "fin": 1.72
     },
     {
-     "texto": "y",
-     "inicio": 42.78,
-     "fin": 43.02
+     "texto": "veces",
+     "inicio": 1.72,
+     "fin": 2.02
     },
     {
-     "texto": "otra",
-     "inicio": 43.02,
-     "fin": 43.2
+     "texto": "en",
+     "inicio": 2.02,
+     "fin": 2.24
     },
     {
-     "texto": "vez",
-     "inicio": 43.2,
-     "fin": 43.64
+     "texto": "el",
+     "inicio": 2.24,
+     "fin": 2.34
     },
     {
-     "texto": "sin",
-     "inicio": 43.64,
-     "fin": 44.3
+     "texto": "mismo",
+     "inicio": 2.34,
+     "fin": 2.6
     },
     {
-     "texto": "problemas.",
-     "inicio": 44.3,
-     "fin": 44.78
+     "texto": "lugar",
+     "inicio": 2.6,
+     "fin": 3.0
+    },
+    {
+     "texto": "es",
+     "inicio": 3.0,
+     "fin": 3.62
+    },
+    {
+     "texto": "un",
+     "inicio": 3.62,
+     "fin": 3.74
+    },
+    {
+     "texto": "verso.",
+     "inicio": 3.74,
+     "fin": 4.02
     }
    ],
-   "inicio": 38.66,
-   "fin": 44.78
+   "inicio": 0.0,
+   "fin": 4.02
   },
   {
-   "texto": "Mandáselo a ese que se siente seguro cerca de una torre.",
+   "texto": "Al Empire State, en Nueva York, le caen más de veinte rayos por año, según las cifras más citadas.",
    "palabras": [
     {
-     "texto": "Mandáselo",
-     "inicio": 45.36,
-     "fin": 45.94
+     "texto": "Al",
+     "inicio": 4.58,
+     "fin": 4.8
     },
     {
-     "texto": "a",
-     "inicio": 45.94,
-     "fin": 46.02
+     "texto": "Empire",
+     "inicio": 4.8,
+     "fin": 5.1
     },
     {
-     "texto": "ese",
-     "inicio": 46.02,
-     "fin": 46.18
+     "texto": "State,",
+     "inicio": 5.1,
+     "fin": 5.56
     },
     {
-     "texto": "que",
-     "inicio": 46.18,
-     "fin": 46.34
+     "texto": "en",
+     "inicio": 5.84,
+     "fin": 5.9
     },
     {
-     "texto": "se",
-     "inicio": 46.34,
-     "fin": 46.48
+     "texto": "Nueva",
+     "inicio": 5.9,
+     "fin": 6.1
     },
     {
-     "texto": "siente",
-     "inicio": 46.48,
-     "fin": 46.76
+     "texto": "York,",
+     "inicio": 6.1,
+     "fin": 6.4
     },
     {
-     "texto": "seguro",
-     "inicio": 46.76,
-     "fin": 47.28
+     "texto": "le",
+     "inicio": 6.88,
+     "fin": 7.0
     },
     {
-     "texto": "cerca",
-     "inicio": 47.28,
-     "fin": 47.88
+     "texto": "caen",
+     "inicio": 7.0,
+     "fin": 7.28
+    },
+    {
+     "texto": "más",
+     "inicio": 7.28,
+     "fin": 7.5
     },
     {
      "texto": "de",
-     "inicio": 47.88,
+     "inicio": 7.5,
+     "fin": 7.7
+    },
+    {
+     "texto": "veinte",
+     "inicio": 7.7,
+     "fin": 8.06
+    },
+    {
+     "texto": "rayos",
+     "inicio": 8.06,
+     "fin": 8.48
+    },
+    {
+     "texto": "por",
+     "inicio": 8.48,
+     "fin": 8.68
+    },
+    {
+     "texto": "año,",
+     "inicio": 8.68,
+     "fin": 8.94
+    },
+    {
+     "texto": "según",
+     "inicio": 9.2,
+     "fin": 9.62
+    },
+    {
+     "texto": "las",
+     "inicio": 9.62,
+     "fin": 9.78
+    },
+    {
+     "texto": "cifras",
+     "inicio": 9.78,
+     "fin": 10.1
+    },
+    {
+     "texto": "más",
+     "inicio": 10.1,
+     "fin": 10.3
+    },
+    {
+     "texto": "citadas.",
+     "inicio": 10.3,
+     "fin": 10.68
+    }
+   ],
+   "inicio": 4.58,
+   "fin": 10.68
+  },
+  {
+   "texto": "Y al Cristo Redentor, en Río de Janeiro, según estimaciones, le caen unos seis por año, en promedio.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 11.2,
+     "fin": 11.4
+    },
+    {
+     "texto": "al",
+     "inicio": 11.4,
+     "fin": 11.5
+    },
+    {
+     "texto": "Cristo",
+     "inicio": 11.5,
+     "fin": 11.72
+    },
+    {
+     "texto": "Redentor,",
+     "inicio": 11.72,
+     "fin": 12.34
+    },
+    {
+     "texto": "en",
+     "inicio": 12.66,
+     "fin": 12.74
+    },
+    {
+     "texto": "Río",
+     "inicio": 12.74,
+     "fin": 12.92
+    },
+    {
+     "texto": "de",
+     "inicio": 12.92,
+     "fin": 13.06
+    },
+    {
+     "texto": "Janeiro,",
+     "inicio": 13.06,
+     "fin": 13.38
+    },
+    {
+     "texto": "según",
+     "inicio": 14.02,
+     "fin": 14.28
+    },
+    {
+     "texto": "estimaciones,",
+     "inicio": 14.28,
+     "fin": 14.96
+    },
+    {
+     "texto": "le",
+     "inicio": 15.58,
+     "fin": 15.66
+    },
+    {
+     "texto": "caen",
+     "inicio": 15.66,
+     "fin": 15.9
+    },
+    {
+     "texto": "unos",
+     "inicio": 15.9,
+     "fin": 16.04
+    },
+    {
+     "texto": "seis",
+     "inicio": 16.04,
+     "fin": 16.42
+    },
+    {
+     "texto": "por",
+     "inicio": 16.42,
+     "fin": 16.7
+    },
+    {
+     "texto": "año,",
+     "inicio": 16.7,
+     "fin": 17.02
+    },
+    {
+     "texto": "en",
+     "inicio": 17.38,
+     "fin": 17.58
+    },
+    {
+     "texto": "promedio.",
+     "inicio": 17.58,
+     "fin": 18.1
+    }
+   ],
+   "inicio": 11.2,
+   "fin": 18.1
+  },
+  {
+   "texto": "Es que lo más alto queda más cerca de la nube, y desde ahí suele salir la chispa que se une a la descarga.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 18.54,
+     "fin": 18.7
+    },
+    {
+     "texto": "que",
+     "inicio": 18.7,
+     "fin": 18.88
+    },
+    {
+     "texto": "lo",
+     "inicio": 18.88,
+     "fin": 19.12
+    },
+    {
+     "texto": "más",
+     "inicio": 19.12,
+     "fin": 19.34
+    },
+    {
+     "texto": "alto",
+     "inicio": 19.34,
+     "fin": 19.72
+    },
+    {
+     "texto": "queda",
+     "inicio": 19.72,
+     "fin": 20.14
+    },
+    {
+     "texto": "más",
+     "inicio": 20.14,
+     "fin": 20.36
+    },
+    {
+     "texto": "cerca",
+     "inicio": 20.36,
+     "fin": 20.66
+    },
+    {
+     "texto": "de",
+     "inicio": 20.66,
+     "fin": 20.82
+    },
+    {
+     "texto": "la",
+     "inicio": 20.82,
+     "fin": 20.94
+    },
+    {
+     "texto": "nube,",
+     "inicio": 20.94,
+     "fin": 21.18
+    },
+    {
+     "texto": "y",
+     "inicio": 21.58,
+     "fin": 21.84
+    },
+    {
+     "texto": "desde",
+     "inicio": 21.84,
+     "fin": 21.96
+    },
+    {
+     "texto": "ahí",
+     "inicio": 21.96,
+     "fin": 22.26
+    },
+    {
+     "texto": "suele",
+     "inicio": 22.26,
+     "fin": 22.64
+    },
+    {
+     "texto": "salir",
+     "inicio": 22.64,
+     "fin": 22.86
+    },
+    {
+     "texto": "la",
+     "inicio": 22.86,
+     "fin": 23.12
+    },
+    {
+     "texto": "chispa",
+     "inicio": 23.12,
+     "fin": 23.58
+    },
+    {
+     "texto": "que",
+     "inicio": 23.58,
+     "fin": 23.84
+    },
+    {
+     "texto": "se",
+     "inicio": 23.84,
+     "fin": 24.02
+    },
+    {
+     "texto": "une",
+     "inicio": 24.02,
+     "fin": 24.24
+    },
+    {
+     "texto": "a",
+     "inicio": 24.24,
+     "fin": 24.38
+    },
+    {
+     "texto": "la",
+     "inicio": 24.38,
+     "fin": 24.46
+    },
+    {
+     "texto": "descarga.",
+     "inicio": 24.46,
+     "fin": 24.96
+    }
+   ],
+   "inicio": 18.54,
+   "fin": 24.96
+  },
+  {
+   "texto": "Por eso se usan los pararrayos: le dan a la descarga un camino directo a tierra, sin pasar por el edificio.",
+   "palabras": [
+    {
+     "texto": "Por",
+     "inicio": 24.96,
+     "fin": 25.58
+    },
+    {
+     "texto": "eso",
+     "inicio": 25.58,
+     "fin": 25.84
+    },
+    {
+     "texto": "se",
+     "inicio": 25.84,
+     "fin": 26.02
+    },
+    {
+     "texto": "usan",
+     "inicio": 26.02,
+     "fin": 26.28
+    },
+    {
+     "texto": "los",
+     "inicio": 26.28,
+     "fin": 26.38
+    },
+    {
+     "texto": "pararrayos:",
+     "inicio": 26.38,
+     "fin": 27.02
+    },
+    {
+     "texto": "le",
+     "inicio": 27.4,
+     "fin": 27.64
+    },
+    {
+     "texto": "dan",
+     "inicio": 27.64,
+     "fin": 27.82
+    },
+    {
+     "texto": "a",
+     "inicio": 27.82,
+     "fin": 27.96
+    },
+    {
+     "texto": "la",
+     "inicio": 27.96,
+     "fin": 28.0
+    },
+    {
+     "texto": "descarga",
+     "inicio": 28.0,
+     "fin": 28.46
+    },
+    {
+     "texto": "un",
+     "inicio": 28.46,
+     "fin": 28.62
+    },
+    {
+     "texto": "camino",
+     "inicio": 28.62,
+     "fin": 28.92
+    },
+    {
+     "texto": "directo",
+     "inicio": 28.92,
+     "fin": 29.46
+    },
+    {
+     "texto": "a",
+     "inicio": 29.46,
+     "fin": 29.52
+    },
+    {
+     "texto": "tierra,",
+     "inicio": 29.52,
+     "fin": 29.78
+    },
+    {
+     "texto": "sin",
+     "inicio": 30.16,
+     "fin": 30.5
+    },
+    {
+     "texto": "pasar",
+     "inicio": 30.5,
+     "fin": 30.74
+    },
+    {
+     "texto": "por",
+     "inicio": 30.74,
+     "fin": 30.96
+    },
+    {
+     "texto": "el",
+     "inicio": 30.96,
+     "fin": 31.1
+    },
+    {
+     "texto": "edificio.",
+     "inicio": 31.1,
+     "fin": 31.6
+    }
+   ],
+   "inicio": 24.96,
+   "fin": 31.6
+  },
+  {
+   "texto": "Hay un caso famoso: Roy Sullivan, guardaparques de Estados Unidos, fue alcanzado por siete rayos entre mil novecientos cuarenta y dos y mil novecientos setenta y siete.",
+   "palabras": [
+    {
+     "texto": "Hay",
+     "inicio": 32.02,
+     "fin": 32.18
+    },
+    {
+     "texto": "un",
+     "inicio": 32.18,
+     "fin": 32.28
+    },
+    {
+     "texto": "caso",
+     "inicio": 32.28,
+     "fin": 32.46
+    },
+    {
+     "texto": "famoso:",
+     "inicio": 32.46,
+     "fin": 32.84
+    },
+    {
+     "texto": "Roy",
+     "inicio": 33.5,
+     "fin": 33.7
+    },
+    {
+     "texto": "Sullivan,",
+     "inicio": 33.7,
+     "fin": 34.08
+    },
+    {
+     "texto": "guardaparques",
+     "inicio": 34.64,
+     "fin": 35.24
+    },
+    {
+     "texto": "de",
+     "inicio": 35.24,
+     "fin": 35.36
+    },
+    {
+     "texto": "Estados",
+     "inicio": 35.36,
+     "fin": 35.54
+    },
+    {
+     "texto": "Unidos,",
+     "inicio": 35.54,
+     "fin": 35.96
+    },
+    {
+     "texto": "fue",
+     "inicio": 36.58,
+     "fin": 36.7
+    },
+    {
+     "texto": "alcanzado",
+     "inicio": 36.7,
+     "fin": 37.16
+    },
+    {
+     "texto": "por",
+     "inicio": 37.16,
+     "fin": 37.38
+    },
+    {
+     "texto": "siete",
+     "inicio": 37.38,
+     "fin": 37.84
+    },
+    {
+     "texto": "rayos",
+     "inicio": 37.84,
+     "fin": 38.46
+    },
+    {
+     "texto": "entre",
+     "inicio": 38.46,
+     "fin": 38.84
+    },
+    {
+     "texto": "mil",
+     "inicio": 38.84,
+     "fin": 39.02
+    },
+    {
+     "texto": "novecientos",
+     "inicio": 39.02,
+     "fin": 39.56
+    },
+    {
+     "texto": "cuarenta",
+     "inicio": 39.56,
+     "fin": 39.96
+    },
+    {
+     "texto": "y",
+     "inicio": 39.96,
+     "fin": 40.04
+    },
+    {
+     "texto": "dos",
+     "inicio": 40.04,
+     "fin": 40.24
+    },
+    {
+     "texto": "y",
+     "inicio": 40.24,
+     "fin": 40.68
+    },
+    {
+     "texto": "mil",
+     "inicio": 40.68,
+     "fin": 40.8
+    },
+    {
+     "texto": "novecientos",
+     "inicio": 40.8,
+     "fin": 41.44
+    },
+    {
+     "texto": "setenta",
+     "inicio": 41.44,
+     "fin": 41.76
+    },
+    {
+     "texto": "y",
+     "inicio": 41.76,
+     "fin": 41.88
+    },
+    {
+     "texto": "siete.",
+     "inicio": 41.88,
+     "fin": 42.14
+    }
+   ],
+   "inicio": 32.02,
+   "fin": 42.14
+  },
+  {
+   "texto": "Ojo: en un terreno llano y cualquiera, caer dos veces seguidas es muy poco probable, pero no imposible.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 42.58,
+     "fin": 43.0
+    },
+    {
+     "texto": "en",
+     "inicio": 43.54,
+     "fin": 43.68
+    },
+    {
+     "texto": "un",
+     "inicio": 43.68,
+     "fin": 43.9
+    },
+    {
+     "texto": "terreno",
+     "inicio": 43.9,
+     "fin": 44.42
+    },
+    {
+     "texto": "llano",
+     "inicio": 44.42,
+     "fin": 44.94
+    },
+    {
+     "texto": "y",
+     "inicio": 44.94,
+     "fin": 45.28
+    },
+    {
+     "texto": "cualquiera,",
+     "inicio": 45.28,
+     "fin": 45.98
+    },
+    {
+     "texto": "caer",
+     "inicio": 46.54,
+     "fin": 46.88
+    },
+    {
+     "texto": "dos",
+     "inicio": 46.88,
+     "fin": 47.2
+    },
+    {
+     "texto": "veces",
+     "inicio": 47.2,
+     "fin": 47.54
+    },
+    {
+     "texto": "seguidas",
+     "inicio": 47.54,
      "fin": 48.12
     },
     {
-     "texto": "una",
+     "texto": "es",
      "inicio": 48.12,
-     "fin": 48.24
+     "fin": 48.42
     },
     {
-     "texto": "torre.",
-     "inicio": 48.24,
-     "fin": 48.6
+     "texto": "muy",
+     "inicio": 48.42,
+     "fin": 49.22
+    },
+    {
+     "texto": "poco",
+     "inicio": 49.22,
+     "fin": 49.56
+    },
+    {
+     "texto": "probable,",
+     "inicio": 49.56,
+     "fin": 50.06
+    },
+    {
+     "texto": "pero",
+     "inicio": 50.6,
+     "fin": 50.9
+    },
+    {
+     "texto": "no",
+     "inicio": 50.9,
+     "fin": 51.72
+    },
+    {
+     "texto": "imposible.",
+     "inicio": 51.72,
+     "fin": 52.42
     }
    ],
-   "inicio": 45.36,
-   "fin": 48.6
+   "inicio": 42.58,
+   "fin": 52.42
+  },
+  {
+   "texto": "Mandáselo al que dice que eso no pasa dos veces.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 52.98,
+     "fin": 53.66
+    },
+    {
+     "texto": "al",
+     "inicio": 53.66,
+     "fin": 53.78
+    },
+    {
+     "texto": "que",
+     "inicio": 53.78,
+     "fin": 53.88
+    },
+    {
+     "texto": "dice",
+     "inicio": 53.88,
+     "fin": 54.1
+    },
+    {
+     "texto": "que",
+     "inicio": 54.1,
+     "fin": 54.28
+    },
+    {
+     "texto": "eso",
+     "inicio": 54.28,
+     "fin": 54.56
+    },
+    {
+     "texto": "no",
+     "inicio": 54.56,
+     "fin": 54.86
+    },
+    {
+     "texto": "pasa",
+     "inicio": 54.86,
+     "fin": 55.22
+    },
+    {
+     "texto": "dos",
+     "inicio": 55.22,
+     "fin": 55.44
+    },
+    {
+     "texto": "veces.",
+     "inicio": 55.44,
+     "fin": 55.72
+    }
+   ],
+   "inicio": 52.98,
+   "fin": 55.72
   }
  ]
 }

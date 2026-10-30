@@ -1,0 +1,15 @@
+{
+  "veredicto": "rechazado",
+  "motivo": "Todas las cifras coinciden con Wikipedia (23 personas 50,7297 %, 253 pares, 40 personas 89,1 %, 70 personas 99,9 %) y 23 coincide con MathWorld (0.507297). Pero en el campo `fuentes` (ultima linea) la afirmacion 'una distribucion no uniforme hace el cruce mas probable, no menos' se atribuye tambien a Wolfram MathWorld, y MathWorld no la dice. Solo menciona que los cumpleanos reales no son uniformes (p. ej. mas del 6 % sobre el promedio en septiembre en EE. UU.), sin indicar el efecto sobre la probabilidad. Esa afirmacion esta respaldada solo por Wikipedia. Correccion: dejar esa linea solo con Wikipedia, 'Birthday problem' (o citar MathWorld unicamente para que los cumpleanos no son uniformes). El caption lista ambas fuentes de forma general y es aceptable; las frases del guion y el caption tienen el matiz correcto.",
+  "afirmaciones": [
+    {"texto": "With twenty-three people, the odds of a shared birthday are already over fifty percent (caption: about 50.7%)", "fuente": "Wikipedia 'Birthday problem' (50.7297 %); Wolfram MathWorld 'Birthday Problem', ec. (9): 0.507297", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Twenty-three people make two hundred fifty-three pairs (23 x 22 / 2)", "fuente": "Wikipedia 'Birthday problem' (253 pares); aritmetica directa", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Forty people? About ninety percent (caption: about 89%)", "fuente": "Wikipedia 'Birthday problem' (89.1 %). MathWorld no trae este valor", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Seventy? Over ninety-nine (caption: over 99%)", "fuente": "Wikipedia 'Birthday problem' (99.9 %). MathWorld no trae este valor", "estado": "verificada", "matiz_ok": true},
+    {"texto": "The math assumes every day is equally likely (365 days)", "fuente": "Wikipedia 'Birthday problem'; MathWorld (modelo uniforme de 365 dias)", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Real birthdays aren't evenly spread", "fuente": "Wikipedia 'Birthday problem'; MathWorld (mas del 6 % sobre el promedio en septiembre en EE. UU.)", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Non-uniform birthdays nudge the odds up a bit / make a match slightly more likely, not less", "fuente": "Wikipedia 'Birthday problem' (cualquier desigualdad aumenta la probabilidad; efecto pequeno). MathWorld NO lo afirma, y `fuentes` se lo atribuye", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Any two people in the room count, not only you (el cruce es entre cualquier par)", "fuente": "Wikipedia 'Birthday problem' (se cuenta cualquier par entre los presentes)", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Atribucion de fuentes en caption y `fuentes` (Wikipedia + MathWorld)", "fuente": "Caption correcto en general; `fuentes` linea 7 atribuye a MathWorld algo que no trae", "estado": "probable", "matiz_ok": false}
+  ]
+}

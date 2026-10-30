@@ -1,897 +1,912 @@
 [
-  {
-    "slug": "001-heladera",
-    "tema": "¿Dejar enfriar la comida antes de la heladera?",
+ {
+  "slug": "001-heladera",
+  "tema": "¿Dejar enfriar la comida antes de la heladera?",
+  "estado": "publicado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-24T00:34",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-24T00:34",
+    "motivo": "producido y chequeado en sesión"
+   },
+   {
     "estado": "publicado",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-24T00:34",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-24T00:34",
-        "motivo": "producido y chequeado en sesión"
-      },
-      {
-        "estado": "publicado",
-        "cuando": "2026-10-25T19:34",
-        "motivo": "https://www.instagram.com/reel/De7yip0ExZI/"
-      }
-    ]
-  },
-  {
-    "slug": "002-corte-digestion",
-    "tema": "¿Hay que esperar 2 horas para nadar después de comer?",
+    "cuando": "2026-10-25T19:34",
+    "motivo": "https://www.instagram.com/reel/De7yip0ExZI/"
+   }
+  ]
+ },
+ {
+  "slug": "002-corte-digestion",
+  "tema": "¿Hay que esperar 2 horas para nadar después de comer?",
+  "estado": "publicado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-24T00:53",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-24T00:53",
+    "motivo": "producido en sesión, control OK"
+   },
+   {
     "estado": "publicado",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-24T00:53",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-24T00:53",
-        "motivo": "producido en sesión, control OK"
-      },
-      {
-        "estado": "publicado",
-        "cuando": "2026-10-26T12:34",
-        "motivo": "https://www.instagram.com/reel/De9nQDYCaey/"
-      }
-    ]
-  },
-  {
-    "slug": "003-vuelta-carne",
-    "tema": "¿A la carne se la da vuelta una sola vez?",
+    "cuando": "2026-10-26T12:34",
+    "motivo": "https://www.instagram.com/reel/De9nQDYCaey/"
+   }
+  ]
+ },
+ {
+  "slug": "003-vuelta-carne",
+  "tema": "¿A la carne se la da vuelta una sola vez?",
+  "estado": "publicado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-24T00:53",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-24T00:53",
+    "motivo": "voz en regeneración"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-24T05:02",
+    "motivo": "producción nocturna"
+   },
+   {
     "estado": "publicado",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-24T00:53",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-24T00:53",
-        "motivo": "voz en regeneración"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-24T05:02",
-        "motivo": "producción nocturna"
-      },
-      {
-        "estado": "publicado",
-        "cuando": "2026-10-26T19:34",
-        "motivo": "https://www.instagram.com/reel/De-XT1miA1a/"
-      }
-    ]
-  },
-  {
-    "slug": "004-olor-a-lluvia",
-    "tema": "¿Por qué la tierra huele así cuando llueve?",
+    "cuando": "2026-10-26T19:34",
+    "motivo": "https://www.instagram.com/reel/De-XT1miA1a/"
+   }
+  ]
+ },
+ {
+  "slug": "004-olor-a-lluvia",
+  "tema": "¿Por qué la tierra huele así cuando llueve?",
+  "estado": "publicado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-24T04:31",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-24T04:31",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-24T04:51",
+    "motivo": "producción nocturna"
+   },
+   {
     "estado": "publicado",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-24T04:31",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-24T04:31",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-24T04:51",
-        "motivo": "producción nocturna"
-      },
-      {
-        "estado": "publicado",
-        "cuando": "2026-10-24T15:46",
-        "motivo": "https://www.instagram.com/reel/De4zrTQiWpr/"
-      }
-    ],
-    "prioridad": "actualidad",
-    "creado": "2026-10-24T04:31"
-  },
-  {
-    "slug": "006-army-bomb",
-    "tema": "¿Las ARMY eligen el color de su varita?",
+    "cuando": "2026-10-24T15:46",
+    "motivo": "https://www.instagram.com/reel/De4zrTQiWpr/"
+   }
+  ],
+  "prioridad": "actualidad",
+  "creado": "2026-10-24T04:31"
+ },
+ {
+  "slug": "006-army-bomb",
+  "tema": "¿Las ARMY eligen el color de su varita?",
+  "estado": "publicado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-24T17:17",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-24T17:17",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-24T17:28",
+    "motivo": "producción manual (BTS en La Plata)"
+   },
+   {
     "estado": "publicado",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-24T17:17",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-24T17:17",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-24T17:28",
-        "motivo": "producción manual (BTS en La Plata)"
-      },
-      {
-        "estado": "publicado",
-        "cuando": "2026-10-24T21:11",
-        "motivo": "https://www.instagram.com/reel/De5Y2I2ju9H/"
-      }
-    ],
-    "prioridad": "actualidad",
-    "creado": "2026-10-24T17:17"
-  },
-  {
-    "slug": "007-bts-13-anios",
-    "tema": "¿Por qué la ARMY argentina esperó 13 años para ver a BTS?",
+    "cuando": "2026-10-24T21:11",
+    "motivo": "https://www.instagram.com/reel/De5Y2I2ju9H/"
+   }
+  ],
+  "prioridad": "actualidad",
+  "creado": "2026-10-24T17:17"
+ },
+ {
+  "slug": "007-bts-13-anios",
+  "tema": "¿Por qué la ARMY argentina esperó 13 años para ver a BTS?",
+  "estado": "publicado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-24T17:43",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-24T17:43",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-24T21:13",
+    "motivo": "producción manual (BTS 13 años)"
+   },
+   {
     "estado": "publicado",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-24T17:43",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-24T17:43",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-24T21:13",
-        "motivo": "producción manual (BTS 13 años)"
-      },
-      {
-        "estado": "publicado",
-        "cuando": "2026-10-25T14:04",
-        "motivo": "https://www.instagram.com/reel/De7MzHtErE_/"
-      }
-    ],
-    "prioridad": "actualidad",
-    "creado": "2026-10-24T17:43"
-  },
-  {
-    "slug": "005-granizo-calor",
-    "tema": "¿Por qué cae granizo justo cuando hace calor?",
+    "cuando": "2026-10-25T14:04",
+    "motivo": "https://www.instagram.com/reel/De7MzHtErE_/"
+   }
+  ],
+  "prioridad": "actualidad",
+  "creado": "2026-10-24T17:43"
+ },
+ {
+  "slug": "005-granizo-calor",
+  "tema": "¿Por qué cae granizo justo cuando hace calor?",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-24T10:31",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-24T10:31",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-24T10:52",
+    "motivo": "produccion por radar media manana"
+   },
+   {
     "estado": "apartado",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-24T10:31",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-24T10:31",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-24T10:52",
-        "motivo": "produccion por radar media manana"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-25T19:32",
-        "motivo": "la voz no coincide con el guion (88%)"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-27T16:36",
-        "motivo": "falso-rechazo-de-voz-corregido"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-27T19:31",
-        "motivo": "tema de actualidad vencido (más de 48 h)"
-      }
-    ],
-    "prioridad": "actualidad",
-    "creado": "2026-10-24T10:31"
-  },
-  {
-    "slug": "010-rayo-mismo-lugar",
-    "tema": "¿Un rayo nunca cae dos veces en el mismo lugar?",
+    "cuando": "2026-10-25T19:32",
+    "motivo": "la voz no coincide con el guion (88%)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T16:36",
+    "motivo": "falso-rechazo-de-voz-corregido"
+   },
+   {
     "estado": "apartado",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-25T06:35",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-25T06:35",
-        "motivo": "plan B"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-25T06:43",
-        "motivo": "prueba del plan B: revisar antes de publicar"
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-25T06:44",
-        "motivo": "se repite la prueba del plan B (el video apartado no se había guardado)"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-25T06:52",
-        "motivo": "prueba del plan B: revisar antes de publicar"
-      }
-    ]
-  },
-  {
-    "slug": "011-sal-agua-hierve",
-    "tema": "¿Ponerle sal al agua hace que hierva más rápido?",
-    "estado": "publicado",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-25T10:51",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-25T10:51",
-        "motivo": ""
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-25T10:53",
-        "motivo": "chequeo rechazado 2 veces: atribución a Live Science no verificable (artículo ilegible)"
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-29T07:20",
-        "motivo": ""
-      },
-      {
-        "estado": "render",
-        "cuando": "2026-10-29T07:29",
-        "motivo": "escenas 3D listas"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-29T08:15",
-        "motivo": "render sin Claude"
-      },
-      {
-        "estado": "publicado",
-        "cuando": "2026-10-30T12:32",
-        "motivo": "https://www.instagram.com/reel/DfH6TYLjGTs/"
-      }
-    ]
-  },
-  {
-    "slug": "013-alcohol-calor",
-    "tema": "Tomar alcohol da calor: es al revés, el cuerpo pierde temperatura",
+    "cuando": "2026-10-27T19:31",
+    "motivo": "tema de actualidad vencido (más de 48 h)"
+   }
+  ],
+  "prioridad": "actualidad",
+  "creado": "2026-10-24T10:31"
+ },
+ {
+  "slug": "010-rayo-mismo-lugar",
+  "tema": "¿Un rayo nunca cae dos veces en el mismo lugar?",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T06:35",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T06:35",
+    "motivo": "plan B"
+   },
+   {
     "estado": "apartado",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-25T15:35",
-        "motivo": ""
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-25T15:38",
-        "motivo": "Chequeo rechazado 2 veces: mecanismo de pérdida de calor solo probable en tema de salud (evidencia mixta)"
-      }
-    ]
-  },
-  {
-    "slug": "016-el-nino-clima",
-    "tema": "¿Por qué este año llueve así? El Niño y el pronóstico oficial para el verano",
-    "estado": "publicado",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-26T16:22",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-26T16:23",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-26T16:34",
-        "motivo": "producción nocturna"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-26T17:09",
-        "motivo": "Mateo: muy largo (70 s) y con mucha data; se rehace en versión corta"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-26T17:22",
-        "motivo": "versión corta (34 s) hecha en sesión"
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-26T17:34",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-26T17:41",
-        "motivo": "versión corta 34 s, producción nocturna"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-26T19:32",
-        "motivo": "la voz no coincide con el guion (91%)"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-26T21:46",
-        "motivo": "el control de voz de la nube lo apartó por 91 % (era un falso rechazo; ahora la voz se controla solo al producir)"
-      },
-      {
-        "estado": "publicado",
-        "cuando": "2026-10-27T12:32",
-        "motivo": "https://www.instagram.com/reel/DfAL7kFCkeY/"
-      }
-    ],
-    "prioridad": "actualidad",
-    "creado": "2026-10-26T16:22"
-  },
-  {
-    "slug": "018-rayo-trueno",
-    "tema": "¿A qué distancia está la tormenta? Contar segundos entre rayo y trueno",
-    "estado": "publicado",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-26T17:52",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-26T17:52",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-26T18:03",
-        "motivo": "producción nocturna"
-      },
-      {
-        "estado": "publicado",
-        "cuando": "2026-10-27T19:32",
-        "motivo": "https://www.instagram.com/reel/DfA7-2QE5f7/"
-      }
-    ]
-  },
-  {
-    "slug": "012-lavar-pollo",
-    "tema": "¿Hay que lavar el pollo crudo antes de cocinarlo?",
-    "estado": "publicado",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-25T10:54",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-25T10:54",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-25T11:06",
-        "motivo": "producción nocturna"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-27T22:14",
-        "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-27T22:17",
-        "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
-      },
-      {
-        "estado": "publicado",
-        "cuando": "2026-10-28T19:32",
-        "motivo": "https://www.instagram.com/reel/DfDgxO5iMug/"
-      }
-    ]
-  },
-  {
-    "slug": "022-colectivo-de-a-dos",
-    "tema": "¿Por qué el colectivo viene siempre de a dos? (apelotonamiento)",
-    "estado": "listo",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-27T12:30",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-27T12:39",
-        "motivo": "producción nocturna"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-27T22:14",
-        "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-27T22:17",
-        "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
-      }
-    ]
-  },
-  {
-    "slug": "015-descongelar-mesada",
-    "tema": "Descongelar la carne arriba de la mesada: por qué no y cómo hacerlo seguro (USDA)",
+    "cuando": "2026-10-25T06:43",
+    "motivo": "prueba del plan B: revisar antes de publicar"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T06:44",
+    "motivo": "se repite la prueba del plan B (el video apartado no se había guardado)"
+   },
+   {
     "estado": "apartado",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-25T15:51",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-25T15:53",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-25T16:03",
-        "motivo": "producción nocturna"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-27T22:14",
-        "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-27T22:17",
-        "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
-      },
-      {
-        "estado": "publicado",
-        "cuando": "2026-10-29T19:32",
-        "motivo": "https://www.instagram.com/reel/DfGFl9WFFGn/"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-30T12:50",
-        "motivo": "calidad 30/10: sin un 'mandáselo a…' claro"
-      }
-    ]
-  },
-  {
-    "slug": "018-refresca-tormenta",
-    "tema": "¿Por qué después de la tormenta refresca de golpe? (corriente descendente)",
+    "cuando": "2026-10-25T06:52",
+    "motivo": "prueba del plan B: revisar antes de publicar"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-30T13:13",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-10-30T13:21",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-30T14:06",
+    "motivo": "render sin Claude"
+   }
+  ]
+ },
+ {
+  "slug": "011-sal-agua-hierve",
+  "tema": "¿Ponerle sal al agua hace que hierva más rápido?",
+  "estado": "publicado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T10:51",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T10:51",
+    "motivo": ""
+   },
+   {
     "estado": "apartado",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-26T17:41",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-26T17:42",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-26T17:51",
-        "motivo": "producción nocturna"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-27T22:14",
-        "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-27T22:17",
-        "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-30T07:22",
-        "motivo": ""
-      },
-      {
-        "estado": "render",
-        "cuando": "2026-10-30T07:26",
-        "motivo": "escenas 3D listas"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-30T08:01",
-        "motivo": "render sin Claude"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-30T12:50",
-        "motivo": "calidad 30/10: sin un 'mandáselo a…' claro"
-      }
-    ]
-  },
-  {
-    "slug": "014-celular-arroz",
-    "tema": "El celular mojado se arregla en arroz: Apple dice que no",
+    "cuando": "2026-10-25T10:53",
+    "motivo": "chequeo rechazado 2 veces: atribución a Live Science no verificable (artículo ilegible)"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-29T07:20",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-10-29T07:29",
+    "motivo": "escenas 3D listas"
+   },
+   {
     "estado": "listo",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-25T15:39",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-25T15:39",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-25T15:51",
-        "motivo": "producción nocturna"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-27T22:14",
-        "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-27T22:17",
-        "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
-      },
-      {
-        "estado": "render",
-        "cuando": "2026-10-29T22:26",
-        "motivo": "escenas 3D listas"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-29T22:37",
-        "motivo": "render sin Claude"
-      }
-    ]
-  },
-  {
-    "slug": "020-pava-se-corta",
-    "tema": "¿Por qué la pava eléctrica se corta sola? (piloto 3D)",
+    "cuando": "2026-10-29T08:15",
+    "motivo": "render sin Claude"
+   },
+   {
     "estado": "publicado",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-26T21:44",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-26T21:44",
-        "motivo": "piloto 3D hecho en sesión, aprobado por Mateo"
-      },
-      {
-        "estado": "publicado",
-        "cuando": "2026-10-28T12:32",
-        "motivo": "https://www.instagram.com/reel/DfCwt0oCD_N/"
-      }
-    ]
-  },
-  {
-    "slug": "017-paradoja-cumpleanos",
-    "tema": "¿Cuánta gente hace falta en una juntada para que dos cumplan el mismo día? (paradoja del cumpleaños)",
-    "estado": "listo",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-26T16:35",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-26T16:35",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-26T16:43",
-        "motivo": "producción nocturna"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-27T22:14",
-        "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-27T22:17",
-        "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
-      }
-    ]
-  },
-  {
-    "slug": "008-aire-en-17",
-    "tema": "Poner el aire en 17 grados no enfria mas rapido; por que se recomienda 24",
-    "estado": "listo",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-25T00:32",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-25T00:32",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-25T05:52",
-        "motivo": "producción nocturna"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-27T22:14",
-        "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-27T22:17",
-        "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-29T13:20",
-        "motivo": ""
-      },
-      {
-        "estado": "render",
-        "cuando": "2026-10-29T13:25",
-        "motivo": "escenas 3D listas"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-29T13:34",
-        "motivo": "render sin Claude"
-      }
-    ]
-  },
-  {
-    "slug": "019-sensacion-termica",
-    "tema": "¿Por qué la sensación térmica es más alta que la temperatura? Humedad y sudor",
-    "estado": "listo",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-26T18:03",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-26T18:03",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-26T18:14",
-        "motivo": "producción nocturna"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-27T22:14",
-        "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-27T22:17",
-        "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-28T22:16",
-        "motivo": ""
-      },
-      {
-        "estado": "render",
-        "cuando": "2026-10-28T22:21",
-        "motivo": "escenas 3D listas"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-28T22:48",
-        "motivo": "render sin Claude"
-      }
-    ]
-  },
-  {
-    "slug": "021-heladera-parte-2",
-    "tema": "Heladera parte 2: ¿tapo la comida? ¿cuántos días dura?",
-    "estado": "publicado",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-27T06:17",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-27T06:17",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-27T06:30",
-        "motivo": "producción nocturna"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-27T22:14",
-        "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-27T22:17",
-        "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
-      },
-      {
-        "estado": "render",
-        "cuando": "2026-10-28T18:17",
-        "motivo": "escenas 3D listas"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-28T18:40",
-        "motivo": "render sin Claude"
-      },
-      {
-        "estado": "publicado",
-        "cuando": "2026-10-29T12:32",
-        "motivo": "https://www.instagram.com/reel/DfFVi-5lIRm/"
-      }
-    ]
-  },
-  {
-    "slug": "009-ventilador-pieza-vacia",
-    "tema": "El ventilador no enfria el ambiente: te enfria a vos",
-    "estado": "listo",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-25T05:52",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-25T05:52",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-25T06:04",
-        "motivo": "producción nocturna"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-27T22:14",
-        "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-27T22:17",
-        "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
-      }
-    ]
-  },
-  {
-    "slug": "023-perros-colores",
-    "tema": "¿Los perros ven en blanco y negro?",
-    "estado": "listo",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-27T17:18",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-27T17:18",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-27T17:28",
-        "motivo": "producción nocturna"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-27T22:14",
-        "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-27T22:17",
-        "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
-      }
-    ]
-  },
-  {
-    "slug": "024-granizo-corto",
-    "tema": "¿Por qué cae granizo justo cuando hace calor? (versión corta)",
+    "cuando": "2026-10-30T12:32",
+    "motivo": "https://www.instagram.com/reel/DfH6TYLjGTs/"
+   }
+  ]
+ },
+ {
+  "slug": "013-alcohol-calor",
+  "tema": "Tomar alcohol da calor: es al revés, el cuerpo pierde temperatura",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T15:35",
+    "motivo": ""
+   },
+   {
     "estado": "apartado",
-    "historial": [
-      {
-        "estado": "idea",
-        "cuando": "2026-10-27T21:46",
-        "motivo": ""
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-27T21:46",
-        "motivo": ""
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-27T21:56",
-        "motivo": "producción nocturna"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-27T22:14",
-        "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-27T22:17",
-        "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
-      },
-      {
-        "estado": "produccion",
-        "cuando": "2026-10-28T06:58",
-        "motivo": ""
-      },
-      {
-        "estado": "render",
-        "cuando": "2026-10-28T07:04",
-        "motivo": "escenas 3D listas"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-28T07:05",
-        "motivo": "render/control: ode:internal/process/task_queues:103:5)\u001b[39m\n\u001b[31m    at /home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/renderer/dist/render-frame-with-option-to-reject.js:223:25\u001b[39m\n\u001b[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\u001b[39m"
-      },
-      {
-        "estado": "render",
-        "cuando": "2026-10-28T14:53",
-        "motivo": "voz regenerada (la del Release se había borrado)"
-      },
-      {
-        "estado": "listo",
-        "cuando": "2026-10-28T18:11",
-        "motivo": "render sin Claude"
-      },
-      {
-        "estado": "apartado",
-        "cuando": "2026-10-30T12:50",
-        "motivo": "calidad 30/10: sin un 'mandáselo a…' claro"
-      }
-    ]
-  }
+    "cuando": "2026-10-25T15:38",
+    "motivo": "Chequeo rechazado 2 veces: mecanismo de pérdida de calor solo probable en tema de salud (evidencia mixta)"
+   }
+  ]
+ },
+ {
+  "slug": "016-el-nino-clima",
+  "tema": "¿Por qué este año llueve así? El Niño y el pronóstico oficial para el verano",
+  "estado": "publicado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-26T16:22",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-26T16:23",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T16:34",
+    "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-26T17:09",
+    "motivo": "Mateo: muy largo (70 s) y con mucha data; se rehace en versión corta"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T17:22",
+    "motivo": "versión corta (34 s) hecha en sesión"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-26T17:34",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T17:41",
+    "motivo": "versión corta 34 s, producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-26T19:32",
+    "motivo": "la voz no coincide con el guion (91%)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T21:46",
+    "motivo": "el control de voz de la nube lo apartó por 91 % (era un falso rechazo; ahora la voz se controla solo al producir)"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-27T12:32",
+    "motivo": "https://www.instagram.com/reel/DfAL7kFCkeY/"
+   }
+  ],
+  "prioridad": "actualidad",
+  "creado": "2026-10-26T16:22"
+ },
+ {
+  "slug": "018-rayo-trueno",
+  "tema": "¿A qué distancia está la tormenta? Contar segundos entre rayo y trueno",
+  "estado": "publicado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-26T17:52",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-26T17:52",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T18:03",
+    "motivo": "producción nocturna"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-27T19:32",
+    "motivo": "https://www.instagram.com/reel/DfA7-2QE5f7/"
+   }
+  ]
+ },
+ {
+  "slug": "012-lavar-pollo",
+  "tema": "¿Hay que lavar el pollo crudo antes de cocinarlo?",
+  "estado": "publicado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T10:54",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T10:54",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-25T11:06",
+    "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T22:17",
+    "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-28T19:32",
+    "motivo": "https://www.instagram.com/reel/DfDgxO5iMug/"
+   }
+  ]
+ },
+ {
+  "slug": "022-colectivo-de-a-dos",
+  "tema": "¿Por qué el colectivo viene siempre de a dos? (apelotonamiento)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-27T12:30",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T12:39",
+    "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T22:17",
+    "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
+   }
+  ]
+ },
+ {
+  "slug": "015-descongelar-mesada",
+  "tema": "Descongelar la carne arriba de la mesada: por qué no y cómo hacerlo seguro (USDA)",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T15:51",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T15:53",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-25T16:03",
+    "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T22:17",
+    "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-29T19:32",
+    "motivo": "https://www.instagram.com/reel/DfGFl9WFFGn/"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-30T12:50",
+    "motivo": "calidad 30/10: sin un 'mandáselo a…' claro"
+   }
+  ]
+ },
+ {
+  "slug": "018-refresca-tormenta",
+  "tema": "¿Por qué después de la tormenta refresca de golpe? (corriente descendente)",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-26T17:41",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-26T17:42",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T17:51",
+    "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T22:17",
+    "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-30T07:22",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-10-30T07:26",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-30T08:01",
+    "motivo": "render sin Claude"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-30T12:50",
+    "motivo": "calidad 30/10: sin un 'mandáselo a…' claro"
+   }
+  ]
+ },
+ {
+  "slug": "014-celular-arroz",
+  "tema": "El celular mojado se arregla en arroz: Apple dice que no",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T15:39",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T15:39",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-25T15:51",
+    "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T22:17",
+    "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-10-29T22:26",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-29T22:37",
+    "motivo": "render sin Claude"
+   }
+  ]
+ },
+ {
+  "slug": "020-pava-se-corta",
+  "tema": "¿Por qué la pava eléctrica se corta sola? (piloto 3D)",
+  "estado": "publicado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-26T21:44",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T21:44",
+    "motivo": "piloto 3D hecho en sesión, aprobado por Mateo"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-28T12:32",
+    "motivo": "https://www.instagram.com/reel/DfCwt0oCD_N/"
+   }
+  ]
+ },
+ {
+  "slug": "017-paradoja-cumpleanos",
+  "tema": "¿Cuánta gente hace falta en una juntada para que dos cumplan el mismo día? (paradoja del cumpleaños)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-26T16:35",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-26T16:35",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T16:43",
+    "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T22:17",
+    "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
+   }
+  ]
+ },
+ {
+  "slug": "008-aire-en-17",
+  "tema": "Poner el aire en 17 grados no enfria mas rapido; por que se recomienda 24",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T00:32",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T00:32",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-25T05:52",
+    "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T22:17",
+    "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-29T13:20",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-10-29T13:25",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-29T13:34",
+    "motivo": "render sin Claude"
+   }
+  ]
+ },
+ {
+  "slug": "019-sensacion-termica",
+  "tema": "¿Por qué la sensación térmica es más alta que la temperatura? Humedad y sudor",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-26T18:03",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-26T18:03",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-26T18:14",
+    "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T22:17",
+    "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-28T22:16",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-10-28T22:21",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-28T22:48",
+    "motivo": "render sin Claude"
+   }
+  ]
+ },
+ {
+  "slug": "021-heladera-parte-2",
+  "tema": "Heladera parte 2: ¿tapo la comida? ¿cuántos días dura?",
+  "estado": "publicado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-27T06:17",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-27T06:17",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T06:30",
+    "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T22:17",
+    "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-10-28T18:17",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-28T18:40",
+    "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-29T12:32",
+    "motivo": "https://www.instagram.com/reel/DfFVi-5lIRm/"
+   }
+  ]
+ },
+ {
+  "slug": "009-ventilador-pieza-vacia",
+  "tema": "El ventilador no enfria el ambiente: te enfria a vos",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-25T05:52",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-25T05:52",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-25T06:04",
+    "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T22:17",
+    "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
+   }
+  ]
+ },
+ {
+  "slug": "023-perros-colores",
+  "tema": "¿Los perros ven en blanco y negro?",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-27T17:18",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-27T17:18",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T17:28",
+    "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T22:17",
+    "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
+   }
+  ]
+ },
+ {
+  "slug": "024-granizo-corto",
+  "tema": "¿Por qué cae granizo justo cuando hace calor? (versión corta)",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-27T21:46",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-27T21:46",
+    "motivo": ""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T21:56",
+    "motivo": "producción nocturna"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-27T22:14",
+    "motivo": "no es 3D: rehacer en 3D reusando guion, chequeo y voz (regla 27/10)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-27T22:17",
+    "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-28T06:58",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-10-28T07:04",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-28T07:05",
+    "motivo": "render/control: ode:internal/process/task_queues:103:5)\u001b[39m\n\u001b[31m    at /home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/renderer/dist/render-frame-with-option-to-reject.js:223:25\u001b[39m\n\u001b[31m    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\u001b[39m"
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-10-28T14:53",
+    "motivo": "voz regenerada (la del Release se había borrado)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-28T18:11",
+    "motivo": "render sin Claude"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-30T12:50",
+    "motivo": "calidad 30/10: sin un 'mandáselo a…' claro"
+   }
+  ]
+ }
 ]

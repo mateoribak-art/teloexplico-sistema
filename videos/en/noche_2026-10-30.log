@@ -8,3 +8,11 @@ Uso: 9 pasos · 6,396 tokens nuevos · 379,872 de caché · 1,519 escritos · eq
 2026-10-30 08:26 Render de en-013-searing-juices (sin Claude).
 2026-10-30 08:55 en-013-searing-juices: listo (render sin Claude)
 2026-10-30 08:55 Termina la producción (ok).
+2026-10-30 14:06 Arranca la producción (5 listos en la cola, meta 6).
+- **Listo para render:** `en-016-too-cold-snow` (¿puede hacer demasiado frío para nevar?, serie clima). El chequeo salió aprobado a la primera con NOAA NSSL. La voz dio 119 de 119 palabras y los cuadros están revisados. Quedó en estado `render` y `producir.py` lo renderiza y controla.
+- **Apartados:** `en-014-birthday-pairs` quedó apartado porque el chequeo lo rechazó dos veces solo por la atribución de las fuentes; las cifras están verificadas. `en-015-rain-smell` también, porque la cifra de geosmina "a few parts per trillion" varía según la fuente (de 5 a 400). Ninguno llegó a tener voz, y dejé anotado en `ideas.md` cómo corregirlos.
+- **Rescate previo:** `en-012-thunder-count` no es un rechazo de chequeo, que está aprobado. Falló el control de voz (40 % de coincidencia), así que no lo toqué. `en-008` ya se había rehecho antes.
+Uso: 22 pasos · 14,762 tokens nuevos · 1,286,388 de caché · 4,949 escritos · equivale a US$ 1.91 de API
+2026-10-30 14:16 Render de en-016-too-cold-snow (sin Claude).
+2026-10-30 14:35 en-016-too-cold-snow: listo (render sin Claude)
+2026-10-30 14:35 Termina la producción (ok).

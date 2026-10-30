@@ -1,0 +1,24 @@
+{
+  "titulo": "How many people for two to share a birthday?",
+  "fuentes": [
+    "Wikipedia, 'Birthday problem': 23 people about 50.7%; 40 people about 89.1%; 70 people about 99.9% (365 equally likely days)",
+    "Wolfram MathWorld, 'Birthday Problem': 23 people 0.507297; non-uniform birthdays",
+    "23 people make 23 x 22 / 2 = 253 pairs",
+    "Birthdays are not evenly spread through the year; any non-uniform distribution makes a match more likely, not less (Wikipedia, 'Birthday problem'; Wolfram MathWorld)"
+  ],
+  "destinatario": "se lo manda un amigo de grupo a otro que jura que nadie en su grupo cumple el mismo día, para desafiarlo a chequear",
+  "fondo": "oscuro",
+  "receta": "A vs B con cuenta a la vista (pares)",
+  "frases": [
+    {"texto": "You think two people sharing a birthday takes a huge crowd.", "estilo": "Dry and confident, with a half smile."},
+    {"texto": "It doesn't. Twenty-three is enough.", "estilo": "Short and punchy."},
+    {"texto": "With twenty-three people, the odds of a shared birthday are already over fifty percent.", "estilo": "Emphatic, revealing a strong fact."},
+    {"texto": "The trick: it's not the people that count, it's the pairs.", "estilo": "Explaining simply, like to a friend."},
+    {"texto": "Twenty-three people make two hundred fifty-three pairs, and every pair is a chance to match.", "estilo": "Clear mechanism, good rhythm."},
+    {"texto": "Forty people? About ninety percent. Seventy? Over ninety-nine.", "estilo": "Fast, escalating."},
+    {"texto": "Heads up: the math assumes every day is equally likely. Real birthdays aren't, which nudges the odds up a bit.", "estilo": "Friendly warning."},
+    {"texto": "And it doesn't have to be your birthday. Any two people in the room count.", "estilo": "Amused clarification."},
+    {"texto": "At your next party of twenty-three or more, ask around.", "estilo": "Practical and upbeat."},
+    {"texto": "Send this to the friend who swears nobody in their group shares a birthday.", "estilo": "Playful, with humor, as a punchline."}
+  ]
+}

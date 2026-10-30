@@ -1,0 +1,13 @@
+You don't need a huge crowd for a shared birthday. Twenty-three people is enough 🎂
+
+With 23 people, the odds that at least two share a birthday are about 50.7%. The trick is pairs: 23 people make 253 different pairs, and each one is a chance to match. At 40 people it's about 89%, and at 70 it's over 99%.
+
+Heads up: the math assumes all 365 days are equally likely. Real birthdays aren't evenly spread, which makes a match slightly more likely, not less.
+
+👇 Send this to the friend who swears nobody in their group shares a birthday.
+
+Next party with 23+ people: ask around. Did you find a match? Yes or no?
+
+Sources: Wikipedia, "Birthday problem"; Wolfram MathWorld, "Birthday Problem".
+
+#funfacts #mythbusting #lifehacks #math #birthday

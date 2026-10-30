@@ -1,0 +1,21 @@
+{
+  "titulo": "Can it be too cold to snow?",
+  "fuentes": [
+    "NOAA National Severe Storms Laboratory, Severe Weather 101 - Winter Weather FAQ: https://www.nssl.noaa.gov/education/svrwx101/winter/faq/ ('It rarely snows when the temperature drops below zero degrees Fahrenheit' because 'the atmosphere is too stable'; 'it is too cold to snow' really means 'there is not enough lifting of air to cause snow to reach the surface'; 'Even at very cold surface temperatures, significant snowfall can occur.')"
+  ],
+  "destinatario": "se lo manda alguien a su amigo que dice 'hace demasiado frío para que nieve' para corregirlo",
+  "fondo": "oscuro",
+  "receta": "el que lo hace mal (mito del frío) con capa de datos",
+  "frases": [
+    {"texto": "You've said it yourself: it's too cold to snow.", "estilo": "Dry and confident, with a half smile."},
+    {"texto": "That's a myth.", "estilo": "Short and punchy."},
+    {"texto": "The National Severe Storms Laboratory says it rarely snows below zero degrees Fahrenheit.", "estilo": "Emphatic, revealing a strong fact."},
+    {"texto": "But not because it's too cold. It's because the air is too stable.", "estilo": "Explaining simply, like to a friend."},
+    {"texto": "Snow needs air lifting upward. Without enough lift, it never reaches the ground.", "estilo": "Clear mechanism, visual."},
+    {"texto": "So when people say it's too cold to snow, what they really mean is not enough lift.", "estilo": "Curious, a little amused."},
+    {"texto": "NOAA says even at very cold surface temperatures, significant snowfall can occur.", "estilo": "Cool, giving the real answer."},
+    {"texto": "Heads up: below zero, snow really is rare. It's just not a temperature limit.", "estilo": "Friendly warning."},
+    {"texto": "So next time it's bitter cold and cloudy, don't write off the snow.", "estilo": "Practical and upbeat."},
+    {"texto": "Send this to the friend who says it's too cold to snow.", "estilo": "Playful, with humor, as a punchline."}
+  ]
+}

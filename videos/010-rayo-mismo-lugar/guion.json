@@ -1,45 +1,45 @@
 {
  "titulo": "¿Un rayo nunca cae dos veces en el mismo lugar?",
  "fuentes": [
-  "Wikipedia: Rayo"
+  "Wikipedia: Rayo",
+  "Guinness World Records: Roy Sullivan"
  ],
+ "receta": "el que lo hace mal / consecuencia: creencia cotidiana desarmada con datos",
+ "fondo": "oscuro",
+ "destinatario": "se lo manda alguien que repite 'un rayo no cae dos veces' a su amigo que lo cree, para decirle que al Empire State le caen más de veinte por año",
+ "rescate": "30/10: se sacó la atribución a Live Science y el Ojo flojo; solo datos con fuente",
  "frases": [
   {
-   "texto": "¿De verdad creés que un rayo nunca cae dos veces en el mismo lugar?",
-   "estilo": "misterioso"
+   "texto": "Eso de que un rayo no cae dos veces en el mismo lugar es un verso.",
+   "estilo": "Seco y contundente, con media sonrisa."
   },
   {
-   "texto": "Te comiste un re verso.",
-   "estilo": "directo"
+   "texto": "Al Empire State, en Nueva York, le caen más de veinte rayos por año, según las cifras más citadas.",
+   "estilo": "Asombrado."
   },
   {
-   "texto": "Las construcciones elevadas tienden a recibir muchas más descargas eléctricas.",
-   "estilo": "explicativo"
+   "texto": "Y al Cristo Redentor, en Río de Janeiro, según estimaciones, le caen unos seis por año, en promedio.",
+   "estilo": "Descriptivo, con ritmo."
   },
   {
-   "texto": "De hecho, se usan varillas de metal como pararrayos para atraerlos a puntos seguros.",
-   "estilo": "informativo"
+   "texto": "Es que lo más alto queda más cerca de la nube, y desde ahí suele salir la chispa que se une a la descarga.",
+   "estilo": "Explicativo, simple."
   },
   {
-   "texto": "El edificio Empire State en Nueva York recibe una veintena de descargas cada año.",
-   "estilo": "asombrado"
+   "texto": "Por eso se usan los pararrayos: le dan a la descarga un camino directo a tierra, sin pasar por el edificio.",
+   "estilo": "Informativo."
   },
   {
-   "texto": "Y la estatua del Cristo Redentor en Río de Janeiro recibe una media de seis rayos al año.",
-   "estilo": "descriptivo"
+   "texto": "Hay un caso famoso: Roy Sullivan, guardaparques de Estados Unidos, fue alcanzado por siete rayos entre mil novecientos cuarenta y dos y mil novecientos setenta y siete.",
+   "estilo": "Intriga, y después sorpresa."
   },
   {
-   "texto": "Ojo: los rayos repetidos en un lugar cualquiera tienen probabilidad baja, pero no imposible.",
-   "estilo": "cauteloso"
+   "texto": "Ojo: en un terreno llano y cualquiera, caer dos veces seguidas es muy poco probable, pero no imposible.",
+   "estilo": "Cauteloso, claro."
   },
   {
-   "texto": "Así que en estructuras altas cae una y otra vez sin problemas.",
-   "estilo": "concluyente"
-  },
-  {
-   "texto": "Mandáselo a ese que se siente seguro cerca de una torre.",
-   "estilo": "cómplice"
+   "texto": "Mandáselo al que dice que eso no pasa dos veces.",
+   "estilo": "Cómplice, con humor."
   }
- ],
- "plan_b": true
+ ]
 }

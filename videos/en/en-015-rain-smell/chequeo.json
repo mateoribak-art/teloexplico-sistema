@@ -1,0 +1,72 @@
+{
+  "veredicto": "rechazado",
+  "motivo": "Las tres frases reescritas (origen bacteriano 'a big part... including', 'one key ingredient', aerosoles 'may help carry the scent', 'in MIT's tests') quedan bien respaldadas por Nature 1964/CSIRO, MIT News 2015 y geosmina. Pero queda una cifra sin respaldo uniforme: 'geosmin at just a few parts per trillion' (frase 6 y caption). Las fuentes dan umbrales distintos: ~5 ppt (American Chemical Society, citado en Wikipedia), ~100 ppt (John Innes Centre, citado por Smithsonian), ~400 ppt (Polak y Provasi 1992, Chemical Senses). 'A few' solo cubre el extremo mas bajo y se presenta como hecho firme, sin matiz; las cifras no pueden ser dudosas ni probables sin presentarse asi. Correccion sugerida: 'as little as five parts per trillion in some studies' o 'at parts-per-trillion levels', en guion (frase 6), caption y el campo fuentes.",
+  "afirmaciones": [
+    {
+      "texto": "That smell when it starts to rain? It isn't the rain. / That 'rain smell' isn't the rain",
+      "fuente": "MIT News 2015 (cita NYT: el olor 'no viene de la lluvia misma'); CSIRO, Bear & Thomas 1964",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "A big part of it comes from the ground, including a chemical made by soil bacteria.",
+      "fuente": "CSIRO (aceite de plantas absorbido por suelo y rocas, liberado por la humedad); geosmina producida sobre todo por Streptomyces (Wikipedia Geosmin / Smithsonian). 'A big part... including' es consistente con ambas",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "It has a name: petrichor. Two Australian scientists coined it in nineteen sixty-four. (caption: in a 1964 paper in Nature)",
+      "fuente": "https://www.csiro.au/en/news/All/Articles/2015/March/The-smell-of-rain-how-our-scientists-invented-a-new-word ; Nature 201, 993-995 (marzo 1964), Bear y Thomas, 'Nature of argillaceous odour'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "One key ingredient is a molecule called geosmin, made by soil bacteria.",
+      "fuente": "Wikipedia Geosmin (Streptomyces principal productor entre actinomicetos); Smithsonian; The Weather Network. Dice 'one key ingredient', no 'the cause'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "When a raindrop hits dry ground, it traps tiny air bubbles that pop and release aerosols.",
+      "fuente": "https://news.mit.edu/2015/rainfall-can-release-aerosols-0114 (Joung y Buie, Nature Communications 2015; ~600 experimentos, 28 superficies)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "MIT researchers filmed it in twenty fifteen, and think it may help carry the scent.",
+      "fuente": "MIT News 2015: los investigadores 'sospechan' que los aerosoles pueden transportar elementos aromaticos; Buie presenta el vinculo con el petricor como hipotesis. 'think it may help' refleja ese nivel",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Your nose... can pick up geosmin at just a few parts per trillion. / Humans can detect geosmin at just a few parts per trillion.",
+      "fuente": "Wikipedia Geosmin: 5 ppt (ACS) a 400 ppt (Polak y Provasi 1992); John Innes Centre via Smithsonian: 100 ppt. Sin consenso en la cifra",
+      "estado": "probable",
+      "matiz_ok": false
+    },
+    {
+      "texto": "Why? One idea is that our ancestors followed that smell to find water. / That's a theory, not a proven fact.",
+      "fuente": "Wikipedia Geosmin: hipotesis evolutiva, 'not conclusive'",
+      "estado": "dudosa",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: in MIT's tests, light to moderate rain released more aerosols than a downpour / heavy rain.",
+      "fuente": "https://news.mit.edu/2015/rainfall-can-release-aerosols-0114 (mas aerosoles con lluvia ligera y moderada que con fuerte; a alta velocidad de impacto no hay tiempo de formar burbujas). Acotado a 'in MIT's tests'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Next time it starts to drizzle, step outside and take a deep breath. / Do you love that smell?",
+      "fuente": "Invitacion, no afirmacion factica",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sources: Bear & Thomas, Nature (1964); Joung & Buie, Nature Communications (2015), MIT.",
+      "fuente": "Ambas existen y respaldan lo atribuido (CSIRO; news.mit.edu)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

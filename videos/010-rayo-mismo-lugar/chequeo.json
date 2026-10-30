@@ -1,37 +1,48 @@
 {
- "veredicto": "aprobado",
- "motivo": "plan B: cada afirmación tiene cita textual verificada en Wikipedia",
- "afirmaciones": [
-  {
-   "texto": "Las construcciones elevadas tienden a recibir muchas más descargas eléctricas.",
-   "cita": "Las construcciones elevadas tienden a recibir más descargas.",
-   "estado": "verificada"
-  },
-  {
-   "texto": "Se usan varillas de metal como pararrayos para atraerlos a puntos seguros.",
-   "cita": "atraerlas a un punto en el que no habría peligro, lo que se conoce como pararrayos.",
-   "estado": "verificada",
-   "faltan_en_fuente": [
-    "seguros"
-   ]
-  },
-  {
-   "texto": "El edificio Empire State en Nueva York recibe una veintena de descargas cada año.",
-   "cita": "el Empire State Building en Nueva York es golpeado una veintena de veces al año",
-   "estado": "verificada",
-   "faltan_en_fuente": [
-    "edificio"
-   ]
-  },
-  {
-   "texto": "La estatua del Cristo Redentor en Río de Janeiro recibe una media de seis rayos al año.",
-   "cita": "La estatua del Cristo Redentor en la ciudad de Río de Janeiro recibe una media de seis rayos todos a lo largo del año.",
-   "estado": "verificada"
-  },
-  {
-   "texto": "Los rayos repetidos en un lugar tienen una probabilidad baja, pero no imposible.",
-   "cita": "los rayos repetidos tienen una probabilidad muy baja (pero no imposible).",
-   "estado": "verificada"
-  }
- ]
+  "veredicto": "aprobado",
+  "motivo": "Ninguna afirmación falsa ni dudosa. Las dos cifras de edificios (Empire State, Cristo Redentor) son 'probables' (fuentes secundarias, promedios citados) pero la frase las presenta con matiz explícito ('según las cifras más citadas', 'según estimaciones'). El caso Sullivan está verificado por Guinness. No hay afirmaciones de salud, seguridad o plata que requieran verificación estricta; el consejo implícito de pararrayos es mecanismo físico estándar.",
+  "afirmaciones": [
+    {
+      "texto": "Un rayo no cae dos veces en el mismo lugar es un verso (mito).",
+      "fuente": "NOAA / National Weather Service (mito de rayos); CS Monitor 'Lightning never strikes the same place twice'; Wikipedia: Rayo",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Al Empire State, en Nueva York, le caen más de veinte rayos por año, según las cifras más citadas.",
+      "fuente": "Cifras citadas de 23 a 25 por año (atribuidas a NOAA y a la administración del edificio) en varias notas; sin fuente primaria única",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Al Cristo Redentor, en Río de Janeiro, según estimaciones, le caen unos seis rayos por año, en promedio.",
+      "fuente": "INPE / grupo ELAT (promedio de unas seis descargas por año, citado por Olhar Digital y A Gazeta); algunas notas dicen cinco; sin publicación primaria hallada",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Lo más alto queda más cerca de la nube, y desde ahí suele salir la chispa que se une a la descarga.",
+      "fuente": "NASA / NOAA; Wikipedia: Rayo (líderes ascendentes desde estructuras altas)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Los pararrayos dan a la descarga un camino directo a tierra, sin pasar por el edificio.",
+      "fuente": "NOAA / NFPA 780; Wikipedia: Pararrayos",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Roy Sullivan, guardaparques de Estados Unidos, fue alcanzado por siete rayos entre 1942 y 1977 (récord Guinness).",
+      "fuente": "https://www.guinnessworldrecords.com/world-records/most-lightning-strikes-survived ; Wikipedia: Roy Sullivan",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En un terreno llano y cualquiera, caer dos veces seguidas es muy poco probable, pero no imposible.",
+      "fuente": "Inferencia probabilística consistente con NOAA (los rayos golpean repetidamente puntos favorables; en terreno llano común la repetición es poco probable); sin fuente primaria literal",
+      "estado": "probable",
+      "matiz_ok": true
+    }
+  ]
 }
