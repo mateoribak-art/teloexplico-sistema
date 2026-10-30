@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T03:52",
+ "actualizado": "2026-10-30T04:17",
  "oficinas": [
   {
    "clave": "es",
@@ -142,7 +142,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsqueda web (alertas SMN hoy, clima/tendencias): sin resultados fechados de hoy (lo más cercano: alerta amarilla Chubut lunes 26 oct sin año co",
      "cuando": "2026-10-29T16:06",
-     "hace": "hace 11 h",
+     "hace": "hace 12 h",
      "detalle": [
       "27/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy (solo notas de feb/2023/2025 o sin fecha; tendencias genéricas: Ipsos preocupaciones, Mundial). Candidatos: (1) clima/alertas SMN -> sin fuente del día, y ya hay 004, 005 y 016 -> descartado; (2) calor extremo de primavera -> sin alerta fechada que lo confirme -> descartado; (3) tendencias/redes -> sin evidencia de un tema que todos vivan hoy. No se produce video de actualidad; sigue la cola normal.",
       "28/10 00:00 | Revisión radar. Búsqueda web (alertas SMN): sin resultados fechados de hoy (lo más reciente es de julio). Sin tema de actualidad verificable; sigue la cola normal (pedido de Mateo: rehacer en 3D, empezando por 024-granizo-corto).",
@@ -384,7 +384,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-10-30T03:52",
-     "hace": "recién",
+     "hace": "hace 25 min",
      "detalle": [
       "29/10 18:58 Hay 2 comentarios nuevos: arranca la respuesta.",
       "29/10 00:00 Respondí 0 · salteé 2 · alerté 0. (ferxrock: consejo de cubiertos fuera del guion; arletemsimon: \"Bahhh!\" sin contenido)",
@@ -454,7 +454,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-30T03:52",
+     "cuando": "2026-10-30T04:17",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -635,7 +635,7 @@
      "estado": "ok",
      "resumen": "Cuarta pasada del radar: la búsqueda web solo devolvió notas viejas (2013–2024) y una de septiembre 2026; nada verificable de las últimas 48 h. Descartados: (1)",
      "cuando": "2026-10-29T16:06",
-     "hace": "hace 11 h",
+     "hace": "hace 12 h",
      "detalle": [
       "27/10 00:00 Segunda pasada del radar: no se produce otro tema. en-002-dst-farmers (🔥, listo) ya cubre la actualidad del día; no se fuerza un segundo video.",
       "28/10 00:00 Tercera pasada del radar: sin tema nuevo. Descartados: (1) humo/incendios en el Noroeste (Spokane): evento regional, sin fuente oficial del día y con riesgo de damnificados; (2) superluna de octubre: las fuentes dicen que no hay (la próxima es el 24/11), sin gancho; (3) primera helada/nieve: nada concreto ni reciente en la búsqueda. El cambio de hora (en-002, publicado) ya cubre la actualidad; Halloween ya está en cola (en-004).",
@@ -899,7 +899,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-30T03:52",
+     "cuando": "2026-10-30T04:17",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
