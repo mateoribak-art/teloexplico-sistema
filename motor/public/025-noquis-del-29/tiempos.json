@@ -1,0 +1,765 @@
+{
+ "duracion": 49.33,
+ "frases": [
+  {
+   "texto": "Cada veintinueve ponés plata abajo del plato de ñoquis, y nadie sabe bien por qué.",
+   "palabras": [
+    {
+     "texto": "Cada",
+     "inicio": 0.0,
+     "fin": 0.18
+    },
+    {
+     "texto": "veintinueve",
+     "inicio": 0.18,
+     "fin": 0.88
+    },
+    {
+     "texto": "ponés",
+     "inicio": 1.4,
+     "fin": 1.68
+    },
+    {
+     "texto": "plata",
+     "inicio": 1.68,
+     "fin": 2.04
+    },
+    {
+     "texto": "abajo",
+     "inicio": 2.04,
+     "fin": 2.4
+    },
+    {
+     "texto": "del",
+     "inicio": 2.4,
+     "fin": 2.66
+    },
+    {
+     "texto": "plato",
+     "inicio": 2.66,
+     "fin": 2.94
+    },
+    {
+     "texto": "de",
+     "inicio": 2.94,
+     "fin": 3.06
+    },
+    {
+     "texto": "ñoquis,",
+     "inicio": 3.06,
+     "fin": 3.42
+    },
+    {
+     "texto": "y",
+     "inicio": 3.88,
+     "fin": 4.14
+    },
+    {
+     "texto": "nadie",
+     "inicio": 4.14,
+     "fin": 4.34
+    },
+    {
+     "texto": "sabe",
+     "inicio": 4.34,
+     "fin": 4.68
+    },
+    {
+     "texto": "bien",
+     "inicio": 4.68,
+     "fin": 4.9
+    },
+    {
+     "texto": "por",
+     "inicio": 4.9,
+     "fin": 5.12
+    },
+    {
+     "texto": "qué.",
+     "inicio": 5.12,
+     "fin": 5.26
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 5.26
+  },
+  {
+   "texto": "Y la historia que te contaron tiene un problema.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 5.76,
+     "fin": 5.88
+    },
+    {
+     "texto": "la",
+     "inicio": 5.88,
+     "fin": 6.0
+    },
+    {
+     "texto": "historia",
+     "inicio": 6.0,
+     "fin": 6.24
+    },
+    {
+     "texto": "que",
+     "inicio": 6.24,
+     "fin": 6.38
+    },
+    {
+     "texto": "te",
+     "inicio": 6.38,
+     "fin": 6.5
+    },
+    {
+     "texto": "contaron",
+     "inicio": 6.5,
+     "fin": 6.9
+    },
+    {
+     "texto": "tiene",
+     "inicio": 6.9,
+     "fin": 7.34
+    },
+    {
+     "texto": "un",
+     "inicio": 7.34,
+     "fin": 7.5
+    },
+    {
+     "texto": "problema.",
+     "inicio": 7.5,
+     "fin": 7.86
+    }
+   ],
+   "inicio": 5.76,
+   "fin": 7.86
+  },
+  {
+   "texto": "La leyenda dice que San Pantaleón visitó a una familia humilde del norte de Italia.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 8.44,
+     "fin": 8.56
+    },
+    {
+     "texto": "leyenda",
+     "inicio": 8.56,
+     "fin": 8.96
+    },
+    {
+     "texto": "dice",
+     "inicio": 8.96,
+     "fin": 9.24
+    },
+    {
+     "texto": "que",
+     "inicio": 9.24,
+     "fin": 9.5
+    },
+    {
+     "texto": "San",
+     "inicio": 9.5,
+     "fin": 9.7
+    },
+    {
+     "texto": "Pantaleón",
+     "inicio": 9.7,
+     "fin": 10.38
+    },
+    {
+     "texto": "visitó",
+     "inicio": 10.38,
+     "fin": 11.34
+    },
+    {
+     "texto": "a",
+     "inicio": 11.34,
+     "fin": 11.46
+    },
+    {
+     "texto": "una",
+     "inicio": 11.46,
+     "fin": 11.6
+    },
+    {
+     "texto": "familia",
+     "inicio": 11.6,
+     "fin": 11.92
+    },
+    {
+     "texto": "humilde",
+     "inicio": 11.92,
+     "fin": 12.38
+    },
+    {
+     "texto": "del",
+     "inicio": 12.38,
+     "fin": 12.6
+    },
+    {
+     "texto": "norte",
+     "inicio": 12.6,
+     "fin": 12.8
+    },
+    {
+     "texto": "de",
+     "inicio": 12.8,
+     "fin": 12.96
+    },
+    {
+     "texto": "Italia.",
+     "inicio": 12.96,
+     "fin": 13.3
+    }
+   ],
+   "inicio": 8.44,
+   "fin": 13.3
+  },
+  {
+   "texto": "Le dieron ñoquis, y cuando se fue, encontraron monedas abajo del plato.",
+   "palabras": [
+    {
+     "texto": "Le",
+     "inicio": 13.84,
+     "fin": 13.96
+    },
+    {
+     "texto": "dieron",
+     "inicio": 13.96,
+     "fin": 14.18
+    },
+    {
+     "texto": "ñoquis,",
+     "inicio": 14.18,
+     "fin": 14.62
+    },
+    {
+     "texto": "y",
+     "inicio": 15.2,
+     "fin": 15.28
+    },
+    {
+     "texto": "cuando",
+     "inicio": 15.28,
+     "fin": 15.42
+    },
+    {
+     "texto": "se",
+     "inicio": 15.42,
+     "fin": 15.62
+    },
+    {
+     "texto": "fue,",
+     "inicio": 15.62,
+     "fin": 15.84
+    },
+    {
+     "texto": "encontraron",
+     "inicio": 16.32,
+     "fin": 16.96
+    },
+    {
+     "texto": "monedas",
+     "inicio": 16.96,
+     "fin": 17.5
+    },
+    {
+     "texto": "abajo",
+     "inicio": 17.5,
+     "fin": 17.76
+    },
+    {
+     "texto": "del",
+     "inicio": 17.76,
+     "fin": 18.0
+    },
+    {
+     "texto": "plato.",
+     "inicio": 18.0,
+     "fin": 18.36
+    }
+   ],
+   "inicio": 13.84,
+   "fin": 18.36
+  },
+  {
+   "texto": "Pero no se conoce ningún registro histórico que confirme que eso haya pasado.",
+   "palabras": [
+    {
+     "texto": "Pero",
+     "inicio": 18.72,
+     "fin": 19.02
+    },
+    {
+     "texto": "no",
+     "inicio": 19.02,
+     "fin": 19.48
+    },
+    {
+     "texto": "se",
+     "inicio": 19.48,
+     "fin": 19.62
+    },
+    {
+     "texto": "conoce",
+     "inicio": 19.62,
+     "fin": 19.98
+    },
+    {
+     "texto": "ningún",
+     "inicio": 19.98,
+     "fin": 20.3
+    },
+    {
+     "texto": "registro",
+     "inicio": 20.3,
+     "fin": 20.82
+    },
+    {
+     "texto": "histórico",
+     "inicio": 20.82,
+     "fin": 21.32
+    },
+    {
+     "texto": "que",
+     "inicio": 21.32,
+     "fin": 21.56
+    },
+    {
+     "texto": "confirme",
+     "inicio": 21.56,
+     "fin": 22.3
+    },
+    {
+     "texto": "que",
+     "inicio": 22.3,
+     "fin": 22.42
+    },
+    {
+     "texto": "eso",
+     "inicio": 22.42,
+     "fin": 22.58
+    },
+    {
+     "texto": "haya",
+     "inicio": 22.58,
+     "fin": 22.74
+    },
+    {
+     "texto": "pasado.",
+     "inicio": 22.74,
+     "fin": 23.14
+    }
+   ],
+   "inicio": 18.72,
+   "fin": 23.14
+  },
+  {
+   "texto": "Hay otra explicación más terrenal: a fin de mes la plata no alcanzaba, y los ñoquis son baratos y rinden.",
+   "palabras": [
+    {
+     "texto": "Hay",
+     "inicio": 23.62,
+     "fin": 23.8
+    },
+    {
+     "texto": "otra",
+     "inicio": 23.8,
+     "fin": 23.98
+    },
+    {
+     "texto": "explicación",
+     "inicio": 23.98,
+     "fin": 24.56
+    },
+    {
+     "texto": "más",
+     "inicio": 24.56,
+     "fin": 24.84
+    },
+    {
+     "texto": "terrenal:",
+     "inicio": 24.84,
+     "fin": 25.16
+    },
+    {
+     "texto": "a",
+     "inicio": 25.74,
+     "fin": 25.84
+    },
+    {
+     "texto": "fin",
+     "inicio": 25.84,
+     "fin": 26.04
+    },
+    {
+     "texto": "de",
+     "inicio": 26.04,
+     "fin": 26.18
+    },
+    {
+     "texto": "mes",
+     "inicio": 26.18,
+     "fin": 26.42
+    },
+    {
+     "texto": "la",
+     "inicio": 26.72,
+     "fin": 26.9
+    },
+    {
+     "texto": "plata",
+     "inicio": 26.9,
+     "fin": 27.08
+    },
+    {
+     "texto": "no",
+     "inicio": 27.08,
+     "fin": 27.22
+    },
+    {
+     "texto": "alcanzaba,",
+     "inicio": 27.22,
+     "fin": 27.7
+    },
+    {
+     "texto": "y",
+     "inicio": 27.7,
+     "fin": 28.3
+    },
+    {
+     "texto": "los",
+     "inicio": 28.3,
+     "fin": 28.42
+    },
+    {
+     "texto": "ñoquis",
+     "inicio": 28.42,
+     "fin": 28.72
+    },
+    {
+     "texto": "son",
+     "inicio": 28.72,
+     "fin": 28.94
+    },
+    {
+     "texto": "baratos",
+     "inicio": 28.94,
+     "fin": 29.4
+    },
+    {
+     "texto": "y",
+     "inicio": 29.4,
+     "fin": 29.66
+    },
+    {
+     "texto": "rinden.",
+     "inicio": 29.66,
+     "fin": 29.96
+    }
+   ],
+   "inicio": 23.62,
+   "fin": 29.96
+  },
+  {
+   "texto": "Se le atribuye a la inmigración italiana haber traído la costumbre al Río de la Plata.",
+   "palabras": [
+    {
+     "texto": "Se",
+     "inicio": 30.5,
+     "fin": 30.68
+    },
+    {
+     "texto": "le",
+     "inicio": 30.68,
+     "fin": 30.78
+    },
+    {
+     "texto": "atribuye",
+     "inicio": 30.78,
+     "fin": 31.26
+    },
+    {
+     "texto": "a",
+     "inicio": 31.26,
+     "fin": 31.46
+    },
+    {
+     "texto": "la",
+     "inicio": 31.46,
+     "fin": 31.52
+    },
+    {
+     "texto": "inmigración",
+     "inicio": 31.52,
+     "fin": 32.0
+    },
+    {
+     "texto": "italiana",
+     "inicio": 32.0,
+     "fin": 32.6
+    },
+    {
+     "texto": "haber",
+     "inicio": 32.6,
+     "fin": 32.96
+    },
+    {
+     "texto": "traído",
+     "inicio": 32.96,
+     "fin": 33.34
+    },
+    {
+     "texto": "la",
+     "inicio": 33.34,
+     "fin": 33.46
+    },
+    {
+     "texto": "costumbre",
+     "inicio": 33.46,
+     "fin": 33.96
+    },
+    {
+     "texto": "al",
+     "inicio": 33.96,
+     "fin": 34.06
+    },
+    {
+     "texto": "Río",
+     "inicio": 34.06,
+     "fin": 34.22
+    },
+    {
+     "texto": "de",
+     "inicio": 34.22,
+     "fin": 34.32
+    },
+    {
+     "texto": "la",
+     "inicio": 34.32,
+     "fin": 34.42
+    },
+    {
+     "texto": "Plata.",
+     "inicio": 34.42,
+     "fin": 34.72
+    }
+   ],
+   "inicio": 30.5,
+   "fin": 34.72
+  },
+  {
+   "texto": "Ojo: es una tradición de buena suerte, no un truco para que te alcance el sueldo.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 35.18,
+     "fin": 35.56
+    },
+    {
+     "texto": "es",
+     "inicio": 35.98,
+     "fin": 36.3
+    },
+    {
+     "texto": "una",
+     "inicio": 36.3,
+     "fin": 36.48
+    },
+    {
+     "texto": "tradición",
+     "inicio": 36.48,
+     "fin": 37.06
+    },
+    {
+     "texto": "de",
+     "inicio": 37.06,
+     "fin": 37.42
+    },
+    {
+     "texto": "buena",
+     "inicio": 37.42,
+     "fin": 37.76
+    },
+    {
+     "texto": "suerte,",
+     "inicio": 37.76,
+     "fin": 38.28
+    },
+    {
+     "texto": "no",
+     "inicio": 38.9,
+     "fin": 38.98
+    },
+    {
+     "texto": "un",
+     "inicio": 38.98,
+     "fin": 39.18
+    },
+    {
+     "texto": "truco",
+     "inicio": 39.18,
+     "fin": 39.56
+    },
+    {
+     "texto": "para",
+     "inicio": 39.56,
+     "fin": 39.78
+    },
+    {
+     "texto": "que",
+     "inicio": 39.78,
+     "fin": 39.98
+    },
+    {
+     "texto": "te",
+     "inicio": 39.98,
+     "fin": 40.2
+    },
+    {
+     "texto": "alcance",
+     "inicio": 40.2,
+     "fin": 40.56
+    },
+    {
+     "texto": "el",
+     "inicio": 40.56,
+     "fin": 40.66
+    },
+    {
+     "texto": "sueldo.",
+     "inicio": 40.66,
+     "fin": 41.1
+    }
+   ],
+   "inicio": 35.18,
+   "fin": 41.1
+  },
+  {
+   "texto": "El próximo veintinueve, poné el billete abajo del plato, y después guardalo.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 41.6,
+     "fin": 41.72
+    },
+    {
+     "texto": "próximo",
+     "inicio": 41.72,
+     "fin": 42.0
+    },
+    {
+     "texto": "veintinueve,",
+     "inicio": 42.0,
+     "fin": 42.84
+    },
+    {
+     "texto": "poné",
+     "inicio": 43.32,
+     "fin": 43.58
+    },
+    {
+     "texto": "el",
+     "inicio": 43.58,
+     "fin": 43.64
+    },
+    {
+     "texto": "billete",
+     "inicio": 43.64,
+     "fin": 44.08
+    },
+    {
+     "texto": "abajo",
+     "inicio": 44.08,
+     "fin": 44.34
+    },
+    {
+     "texto": "del",
+     "inicio": 44.34,
+     "fin": 44.56
+    },
+    {
+     "texto": "plato,",
+     "inicio": 44.56,
+     "fin": 44.98
+    },
+    {
+     "texto": "y",
+     "inicio": 45.24,
+     "fin": 45.58
+    },
+    {
+     "texto": "después",
+     "inicio": 45.58,
+     "fin": 45.8
+    },
+    {
+     "texto": "guardalo.",
+     "inicio": 45.8,
+     "fin": 46.34
+    }
+   ],
+   "inicio": 41.6,
+   "fin": 46.34
+  },
+  {
+   "texto": "Mandáselo al que se olvida de los ñoquis del veintinueve.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 46.8,
+     "fin": 47.38
+    },
+    {
+     "texto": "al",
+     "inicio": 47.38,
+     "fin": 47.46
+    },
+    {
+     "texto": "que",
+     "inicio": 47.46,
+     "fin": 47.6
+    },
+    {
+     "texto": "se",
+     "inicio": 47.6,
+     "fin": 47.7
+    },
+    {
+     "texto": "olvida",
+     "inicio": 47.7,
+     "fin": 48.0
+    },
+    {
+     "texto": "de",
+     "inicio": 48.0,
+     "fin": 48.16
+    },
+    {
+     "texto": "los",
+     "inicio": 48.16,
+     "fin": 48.28
+    },
+    {
+     "texto": "ñoquis",
+     "inicio": 48.28,
+     "fin": 48.58
+    },
+    {
+     "texto": "del",
+     "inicio": 48.58,
+     "fin": 48.72
+    },
+    {
+     "texto": "veintinueve.",
+     "inicio": 48.72,
+     "fin": 49.3
+    }
+   ],
+   "inicio": 46.8,
+   "fin": 49.3
+  }
+ ]
+}

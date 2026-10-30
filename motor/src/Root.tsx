@@ -28,6 +28,7 @@ import { DURACION as DUR_019, FPS as FPS_019, Portada019, SensacionTermica019 } 
 import { DURACION as DUR_021, FPS as FPS_021, HeladeraParte2_021, Portada021 } from "./videos/021-heladera-parte-2/Video";
 import { DURACION as DUR_022, FPS as FPS_022, Colectivo022, Portada022 } from "./videos/022-colectivo-de-a-dos/Video";
 import { DURACION as DUR_020, FPS as FPS_020, PavaSeCorta3D, Portada020 } from "./videos/020-pava-se-corta/Video";
+import { DURACION as DUR_025, FPS as FPS_025, NoquisDel29, Portada025 } from "./videos/025-noquis-del-29/Video";
 import { DURACION as DUR_010, FPS as FPS_010, RayoMismoLugar3D, Portada010 } from "./videos/010-rayo-mismo-lugar/Video";
 import { DURACION as DUR_DEMO_HORA, FPS as FPS_DEMO_HORA, HoraCorrida3D } from "./videos/demo-hora-corrida/Video";
 import { DURACION as DUR_023, FPS as FPS_023, PerrosColores023, Portada023 } from "./videos/023-perros-colores/Video";
@@ -74,6 +75,7 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="h021-heladera-parte-2" component={HeladeraParte2_021} durationInFrames={DUR_021} fps={FPS_021} width={ANCHO} height={ALTO} />
         <Composition id="h022-colectivo-de-a-dos" component={Colectivo022} durationInFrames={DUR_022} fps={FPS_022} width={ANCHO} height={ALTO} />
         <Composition id="h020-pava-se-corta" component={PavaSeCorta3D} durationInFrames={DUR_020} fps={FPS_020} width={ANCHO} height={ALTO} />
+        <Composition id="h025-noquis-del-29" component={NoquisDel29} durationInFrames={DUR_025} fps={FPS_025} width={ANCHO} height={ALTO} />
         <Composition id="h010-rayo-mismo-lugar" component={RayoMismoLugar3D} durationInFrames={DUR_010} fps={FPS_010} width={ANCHO} height={ALTO} />
         <Composition id="demo-hora-corrida" component={HoraCorrida3D} durationInFrames={DUR_DEMO_HORA} fps={FPS_DEMO_HORA} width={ANCHO} height={ALTO} />
         <Composition id="h023-perros-colores" component={PerrosColores023} durationInFrames={DUR_023} fps={FPS_023} width={ANCHO} height={ALTO} />
@@ -134,6 +136,7 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p021-heladera-parte-2" component={Portada021} width={ANCHO} height={ALTO} />
         <Still id="p022-colectivo-de-a-dos" component={Portada022} width={ANCHO} height={ALTO} />
         <Still id="p020-pava-se-corta" component={Portada020} width={ANCHO} height={ALTO} />
+        <Still id="p025-noquis-del-29" component={Portada025} width={ANCHO} height={ALTO} />
         <Still id="p010-rayo-mismo-lugar" component={Portada010} width={ANCHO} height={ALTO} />
         <Still id="p023-perros-colores" component={Portada023} width={ANCHO} height={ALTO} />
         <Still id="p024-granizo-corto" component={Portada024} width={ANCHO} height={ALTO} />

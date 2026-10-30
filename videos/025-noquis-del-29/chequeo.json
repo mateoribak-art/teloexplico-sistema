@@ -1,0 +1,96 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Revisado el texto actual contra las tres fuentes citadas, consultadas en esta pasada. No hay afirmaciones falsas ni cifras. Lo no confirmado esta formulado como tal: la escena de San Pantaleon va bajo 'La leyenda dice'; la ausencia de registro se dice como 'no se conoce ningun registro... que confirme' (La Nacion: 'se desconoce si esta fue la historia'; Diario de Cuyo y ABC Color no citan registro alguno); la explicacion economica se presenta como 'otra explicacion', no como la mas aceptada ni la verdadera; la inmigracion italiana va como 'se le atribuye' (ABC Color). Las fuentes del caption existen y respaldan lo atribuido: La Nacion (dos versiones, ñoquis baratos a fin de mes, dinero bajo el plato = suerte y prosperidad), ABC Color (leyenda, economia domestica, 'se atribuye a la inmigracion italiana', se guarda hasta el proximo 29), Diario de Cuyo (dos leyendas, San Pantaleon por el norte de Italia, sin respuesta definitiva). Salud y seguridad: nada. Plata: solo un aviso correcto (no es un truco para que alcance el sueldo) y una practica popular de guardar el billete, dicha como ritual. Observacion menor no bloqueante: La Nacion ubica la leyenda en Veneto (noreste); 'norte de Italia' es compatible y coincide con Diario de Cuyo.",
+  "afirmaciones": [
+    {
+      "texto": "Cada veintinueve ponés plata abajo del plato de ñoquis, y nadie sabe bien por qué.",
+      "fuente": "La Nación (29/09/2022) https://www.lanacion.com.ar/lifestyle/comer-noquis-el-29-que-significa-poner-plata-debajo-del-plato-nid29092022/ ; Diario de Cuyo https://www.diariodecuyo.com.ar/tendencia/por-que-se-comen-noquis-los-29-de-cada-mes-1744897.html (sin respuesta definitiva)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y la historia que te contaron tiene un problema.",
+      "fuente": "Enmarque retorico; el problema se explica en la frase siguiente sobre el registro historico.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La leyenda dice que San Pantaleón visitó a una familia humilde del norte de Italia.",
+      "fuente": "Diario de Cuyo (San Pantaleon, norte de Italia, campesinos); La Nación (familia de pescadores en Veneto); ABC Color https://www.abc.com.py/gastronomia/2025/08/29/noquis-del-29-origen-y-ritual-de-la-plata/ (peregrino). Los detalles varian entre notas.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Le dieron ñoquis, y cuando se fue, encontraron monedas abajo del plato.",
+      "fuente": "La Nación; Diario de Cuyo; ABC Color. Continuacion de la leyenda, cubierta por 'La leyenda dice'.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Pero no se conoce ningún registro histórico que confirme que eso haya pasado.",
+      "fuente": "La Nación ('se desconoce si esta fue la historia'); Diario de Cuyo y ABC Color no citan registro alguno. Sin fuente primaria.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Hay otra explicación más terrenal: a fin de mes la plata no alcanzaba, y los ñoquis son baratos y rinden.",
+      "fuente": "La Nación (inmigrantes cocinaban ñoquis a fin de mes por ser un plato barato); ABC Color (ñoquis de harina y papa rinden muchas porciones a bajo costo; la costumbre 'se habria consolidado'); Diario de Cuyo. Sin fuente primaria.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Se le atribuye a la inmigración italiana haber traído la costumbre al Río de la Plata.",
+      "fuente": "ABC Color ('la tradicion se atribuye a la inmigracion italiana y a su adaptacion en el Rio de la Plata'); La Nación; Diario de Cuyo.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: es una tradición de buena suerte, no un truco para que te alcance el sueldo.",
+      "fuente": "La Nación (creencia popular: suerte y prosperidad); ABC Color (no hay regla oficial ni efecto establecido).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El próximo veintinueve, poné el billete abajo del plato, y después guardalo.",
+      "fuente": "ABC Color (creencia popular: no gastarlo hasta el proximo 29). La Nación no menciona guardarlo. Practica popular dicha como ritual, no como consejo financiero.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mandáselo al que se olvida de los ñoquis del veintinueve.",
+      "fuente": "No es afirmacion factica (llamado a la accion).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "CAPTION: 'Cada 29 ponés plata abajo del plato de ñoquis... ¿y si la leyenda no es la razón?'",
+      "fuente": "Pregunta retorica; consistente con La Nación y Diario de Cuyo (se desconoce si la leyenda dio origen).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "CAPTION: 'La leyenda dice que San Pantaleón visitó a una familia humilde del norte de Italia, comió ñoquis y dejó monedas abajo del plato. Pero no se conoce ningún registro histórico que confirme que eso haya pasado.'",
+      "fuente": "Idem frases 3 a 5.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "CAPTION: 'Hay otra explicación más terrenal: a fin de mes la plata no alcanzaba y los ñoquis son baratos y rinden. Se le atribuye a la inmigración italiana haber traído la costumbre al Río de la Plata.'",
+      "fuente": "Idem frases 6 y 7.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "CAPTION: 'Ojo: es una tradición de buena suerte, no un truco para que te alcance el sueldo.'",
+      "fuente": "Idem frase 8.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "CAPTION: 'Fuentes: La Nación (2022), ABC Color (2025), Diario de Cuyo.'",
+      "fuente": "Las tres notas existen (URLs consultadas) y respaldan lo atribuido; los titulos de guion.fuentes coinciden con las URL de La Nación y ABC Color. Diario de Cuyo se cita correctamente como 'dos leyendas, sin respuesta definitiva'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "titulo": "¿Por qué comemos ñoquis el 29 y ponemos plata abajo del plato?",
+  "receta": "El que lo hace mal / costumbre local (Argentina chica y concreta)",
+  "fondo": "oscuro",
+  "destinatario": "se lo manda un hijo a su viejo, que cada 29 se olvida de los ñoquis, para decirle que la leyenda es linda pero la razón era la plata que no alcanzaba",
+  "fuentes": [
+    "La Nación, 'Comer ñoquis el 29: qué significa poner plata debajo del plato' (2022)",
+    "ABC Color (Paraguay), 'Ñoquis del 29: origen y ritual de la plata' (2025)",
+    "Diario de Cuyo: presenta dos leyendas del origen, sin respuesta definitiva"
+  ],
+  "frases": [
+    {"texto": "Cada veintinueve ponés plata abajo del plato de ñoquis, y nadie sabe bien por qué.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Y la historia que te contaron tiene un problema.", "estilo": "Intriga, golpe corto."},
+    {"texto": "La leyenda dice que San Pantaleón visitó a una familia humilde del norte de Italia.", "estilo": "Contando un cuento, ritmo ágil."},
+    {"texto": "Le dieron ñoquis, y cuando se fue, encontraron monedas abajo del plato.", "estilo": "Con misterio, tono de relato."},
+    {"texto": "Pero no se conoce ningún registro histórico que confirme que eso haya pasado.", "estilo": "Seco, revelando el problema."},
+    {"texto": "Hay otra explicación más terrenal: a fin de mes la plata no alcanzaba, y los ñoquis son baratos y rinden.", "estilo": "Revelación, tono cercano."},
+    {"texto": "Se le atribuye a la inmigración italiana haber traído la costumbre al Río de la Plata.", "estilo": "Informativo, claro."},
+    {"texto": "Ojo: es una tradición de buena suerte, no un truco para que te alcance el sueldo.", "estilo": "Aclarando, con humor."},
+    {"texto": "El próximo veintinueve, poné el billete abajo del plato, y después guardalo.", "estilo": "Práctico, cómplice."},
+    {"texto": "Mandáselo al que se olvida de los ñoquis del veintinueve.", "estilo": "Cómplice, con humor argentino."}
+  ]
+}
