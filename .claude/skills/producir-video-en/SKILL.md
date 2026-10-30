@@ -20,9 +20,10 @@ Vos sos el único freno: un dato falso publicado es peor que un día sin video.
 0. **Radar**: si en `videos/en/radar.log` no hay una revisión de las últimas 6 h, usá el skill `radar-actualidad-en`. Si encuentra un tema del momento en EE. UU., ese es el video.
 1. `tlx cola`: si hay uno en `produccion`, seguí con ese.
 2. Una idea sin hacer en "## Pedidos de Mateo" de `videos/en/ideas.md`.
+3. **Adaptar de español con variedad:** no adaptes dos videos seguidos de la misma serie (hoy la cuenta en inglés va 5 de 9 en cocina: corregir).
 3. **Alternar**, mirando la última línea de `videos/en/produccion.log`: si el último fue adaptado, ahora uno propio, y al revés. Si en la cola hay 2 o menos listos, adaptado (sale más rápido y gasta menos cuota).
    - **Adaptado**: la primera idea sin usar de "## Adaptar de Te lo explico" (están ordenadas por cómo rindieron en español; `./herramientas/tlx metricas-es` muestra el ranking actual de @teloexplico.ar: si uno de más abajo ya rindió mucho mejor, subilo).
-   - **Propio**: de las secciones "## Temas de EE. UU.". Con 4 o más reels medidos en esta cuenta (`tlx metricas`), elegí la serie y el tipo de gancho de los 2 mejores; si no, la primera idea de la serie que hace más que no sale. Lo que tenga fecha (Thanksgiving, el cambio de hora, Halloween) va antes de su fecha o se descarta.
+   - **Propio**: de las secciones "## Temas de EE. UU.". **Regla de variedad (30/10, pedido de Mateo):** de los últimos 6 videos (publicados + listos), ninguna serie puede ser más de 2 y cocina no más de 1 de cada 5; si la serie del turno está llena, saltá a otra. Podés usar `tlx metricas` para elegir el TIPO de gancho, no para repetir la categoría del más visto. Si no hay conflicto, la primera idea de la serie que hace más que no sale. Lo que tenga fecha (Thanksgiving, el cambio de hora, Halloween) va antes de su fecha o se descarta.
 4. Temas: vida cotidiana en **EE. UU.** (casa, cocina, clima, cuerpo, plata del día a día, ciencia). Nada de política (partidos, elecciones, inmigración, armas, aborto), religión, salud grave, dietas ni consejos médicos o financieros personales. Nada que imite a otra cuenta.
 
 ## Adaptar un video de Te lo explico (adaptar, no traducir)

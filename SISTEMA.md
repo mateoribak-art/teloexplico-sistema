@@ -31,6 +31,9 @@ Mismo sistema y mismos flujos de GitHub: cada turno trabaja primero para españo
 - Todo lo de inglés vive en `videos/en/` y sus slugs empiezan con `en-`. Para mirar a mano: `TLX_CUENTA=en ./herramientas/tlx cola`.
 - Sin plan B ni carruseles en inglés por ahora. La cuota de Claude y la de Gemini (10 voces por día) son compartidas: español va primero.
 
+## Línea editorial (aclarada el 30/10/2026)
+La cuenta NO es de cocina: es de datos y mitos variados de la vida argentina que se envían o se comentan. Regla de variedad en la producción: de los últimos 6 videos, ninguna serie más de 2, cocina como mucho 1 de cada 5, y 1 de cada 3 de la sección "Argentina: lo que nos pasa a todos" (serie `costumbres`, Costumbres argentinas). Las métricas sirven para elegir el tipo de gancho, no la categoría. Motivo: el ranking premiaba la heladera y la regla vieja repetía la categoría de los 2 mejores.
+
 ## Series (desde el 27/10/2026)
 Cada video es un capítulo de una serie: **Mitos de cocina, El clima explicado, Mitos de casa, Mitos del cuerpo, Ciencia cotidiana, Matemática cotidiana y Por dentro** (los 3D).
 Motivo: 80 mil vistas trajeron 179 seguidores; la serie le da a la gente una razón para seguir la cuenta.
