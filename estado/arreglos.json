@@ -137,33 +137,19 @@
   ]
  },
  {
-  "id": "10301403-es-control",
-  "creado": "2026-10-30T14:03",
-  "empleado": "es/control",
-  "firma": "a42a94baf0b2",
-  "estado": "pedido",
-  "auto": true,
-  "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Ramiro (Control de calidad) está en \"aviso\": Apartó 3 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\n015-descongelar-mesada: calidad 30/10: sin un 'mandáselo a…' claro\n018-refresca-tormenta: calidad 30/10: sin un 'mandáselo a…' claro\n024-granizo-corto: calidad 30/10: sin un 'mandáselo a…' claro\n",
-  "actualizado": "2026-10-30T14:03"
- },
- {
-  "id": "10301403-en-voz",
-  "creado": "2026-10-30T14:03",
-  "empleado": "en/voz",
-  "firma": "953dc1971713",
-  "estado": "pedido",
-  "auto": true,
-  "problema": "En la oficina de Nueva York (@letmeexplain.us), Leo (Locutor) está en \"aviso\": La voz no coincidió con el guion en en-012-thunder-count.\nLo que sugiere la oficina: Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.\nTareas:\nen-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go \n",
-  "actualizado": "2026-10-30T14:03"
- },
- {
   "id": "10301403-en-animador",
-  "creado": "2026-10-30T14:03",
+  "creado": "2026-10-30T14:36",
   "empleado": "en/animador",
-  "firma": "f53050cb6af8",
-  "estado": "pedido",
+  "estado": "aplicado",
   "auto": true,
   "problema": "En la oficina de Nueva York (@letmeexplain.us), Ava (Animación y render) está en \"falla\": Falló el render de en-012-thunder-count.\nLo que sugiere la oficina: Relanzá la producción: los videos en estado render se vuelven a renderizar solos.\nTareas:\nen-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste\n",
-  "actualizado": "2026-10-30T14:03"
+  "firma": "f53050cb6af8",
+  "actualizado": "2026-10-30T14:39",
+  "titulo": "El video del trueno en inglés se frenaba por la voz y lo mandé a rehacer desde cero.",
+  "resumen": "El render no falló. El control de voz rechazó el video dos veces seguidas (40 % de coincidencia con el guion), y eso lo dejó apartado. La voz guardada en la nube parece mala, y volver a renderizar la reusaba, así que la oficina repetía el mismo error. Pasé `en-012-thunder-count` de \"apartado\" a \"produccion\" en `videos/en/cola.json`. Así, en el próximo turno de Claude en inglés se genera la voz de nuevo y después se renderiza y se controla. Todavía no lo comprobé: acá no pude generar la voz (falta numpy) y no pude leer el registro de la voz en la nube.",
+  "commit": "23158da8efc1001c381ee0314cb8aa9338b0daec",
+  "archivos": [
+   "videos/en/cola.json"
+  ]
  }
 ]

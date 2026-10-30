@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T14:35",
+ "actualizado": "2026-10-30T14:39",
  "oficinas": [
   {
    "clave": "es",
@@ -7,9 +7,9 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 296,
-   "listos": 8,
-   "dias": 4.0,
-   "proximo": "010-rayo-mismo-lugar",
+   "listos": 7,
+   "dias": 3.5,
+   "proximo": "022-colectivo-de-a-dos",
    "publicados": 13,
    "pausa": false,
    "pendientes": [],
@@ -42,13 +42,6 @@
    ],
    "linea": [
     {
-     "slug": "010-rayo-mismo-lugar",
-     "tema": "¿Un rayo nunca cae dos veces en el mismo lugar?",
-     "estado": "listo",
-     "cuando": "2026-10-30T14:06",
-     "motivo": "render sin Claude"
-    },
-    {
      "slug": "022-colectivo-de-a-dos",
      "tema": "¿Por qué el colectivo viene siempre de a dos? (apelotonamiento)",
      "estado": "listo",
@@ -68,6 +61,13 @@
      "estado": "listo",
      "cuando": "2026-10-27T22:17",
      "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
+    },
+    {
+     "slug": "008-aire-en-17",
+     "tema": "Poner el aire en 17 grados no enfria mas rapido; por que se recomienda 24",
+     "estado": "listo",
+     "cuando": "2026-10-29T13:34",
+     "motivo": "render sin Claude"
     },
     {
      "slug": "015-descongelar-mesada",
@@ -122,21 +122,19 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-10-30T14:06",
-     "hace": "hace 29 min",
+     "cuando": "2026-10-30T08:01",
+     "hace": "hace 6 h",
      "detalle": [
-      "Uso: 88 pasos · 101,156 tokens nuevos · 3,761,169 de caché · 29,330 escritos · equivale a US$ 1.44 de API",
-      "2026-10-30 13:09 Arranca la producción (7 listos en la cola, meta 10).",
-      "Resumen:",
-      "- **Quedó para render:** `010-rayo-mismo-lugar` (serie clima #7). Lo rescaté del apartado por chequeo rechazado: saqué la atribución a Live Science y puse las cifras con matiz. Corregí lo del mecanismo del rayo y los pararrayos. El chequeo ",
-      "- **Apartado:** `013-alcohol-calor` sigue apartado. Es un tema de salud con evidencia mixta y ya falló dos chequeos, así que no lo reintenté.",
-      "- **Pendiente:** la voz de 010 dura 56 s, más que el tope de 45 s, y no la regeneré. No produje un segundo video, porque ya hay más de 10 listos en la cola.",
-      "Uso: 88 pasos · 101,156 tokens nuevos · 3,761,169 de caché · 29,330 escritos · equivale a US$ 1.44 de API",
-      "Permisos negados (1):",
-      "  Bash: {\"command\": \"cd /tmp; for u in \\\"https://es.wikipedia.org/w/index.php?title=Rayo&action=raw\\\" \\\"https://en.wikipedia.org/w/index.php?title=Lightning&a",
-      "2026-10-30 13:21 Render de 010-rayo-mismo-lugar (sin Claude).",
-      "2026-10-30 14:06 010-rayo-mismo-lugar: listo (render sin Claude)",
-      "2026-10-30 14:06 Termina la producción (ok)."
+      "Uso: 37 pasos · 57,802 tokens nuevos · 1,214,401 de caché · 12,805 escritos · equivale a US$ 0.48 de API",
+      "2026-10-30 07:21 Arranca la producción (10 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
+      "Terminé un video, pero se me rompió una cosa: **sobrescribí `videos/produccion.log` entero** al agregar mi línea. Quedó solo la entrada de hoy y perdí las anteriores. Usé Write en vez de Edit. El archivo tiene historial en git, así que se r",
+      "- **Listo para render:** `018-refresca-tormenta`, rehecho en 3D como pedido de Mateo (6 de 7). Reusa el guion y el chequeo aprobados. La voz se regeneró y salió de 39 s, con las 110 palabras. `tsc` dio OK y miré una vuelta de cuadros. Agreg",
+      "- **Apartado:** `013-alcohol-calor` sigue así. Ya falló el chequeo dos veces (salud, solo probable) y la regla da un solo intento.",
+      "- **No producido:** no hice un segundo video porque la cola tenía 10 listos. Tampoco revisé el radar en esta corrida.",
+      "Uso: 37 pasos · 57,802 tokens nuevos · 1,214,401 de caché · 12,805 escritos · equivale a US$ 0.48 de API",
+      "2026-10-30 07:26 Render de 018-refresca-tormenta (sin Claude).",
+      "2026-10-30 08:01 018-refresca-tormenta: listo (render sin Claude)",
+      "2026-10-30 08:01 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -217,8 +215,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-10-30T14:06",
-     "hace": "hace 29 min",
+     "cuando": "2026-10-30T12:32",
+     "hace": "hace 2 h",
      "detalle": [
       "020-pava-se-corta: aprobado — Versión final del guion, recortada y sin John Taylor. Las 9 frases están verificadas con fuentes y tienen el matiz correcto. Lo de seguridad",
       "017-paradoja-cumpleanos: aprobado — Las 8 afirmaciones fácticas están verificadas con fuente (Wikipedia 'Birthday problem' con su tabla y el cálculo de 253 parejas; Harvey Mudd",
@@ -250,8 +248,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-10-30T14:06",
-     "hace": "hace 29 min",
+     "cuando": "2026-10-30T12:32",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -273,14 +271,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-10-30 14:06.",
-     "cuando": "2026-10-30T14:06",
-     "hace": "hace 29 min",
+     "resumen": "Último video terminado: 2026-10-30 12:32.",
+     "cuando": "2026-10-30T12:32",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "2700a8a9cd50"
+     "firma": "55b53ff36758"
     },
     {
      "id": "control",
@@ -298,8 +296,8 @@
      },
      "estado": "aviso",
      "resumen": "Apartó 3 video(s) en las últimas 48 h.",
-     "cuando": "2026-10-30T14:06",
-     "hace": "hace 29 min",
+     "cuando": "2026-10-30T12:32",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [
       "015-descongelar-mesada: calidad 30/10: sin un 'mandáselo a…' claro",
@@ -341,7 +339,7 @@
       "30/10 12:34 011-sal-agua-hierve paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: 010-rayo-mismo-lugar — ¿Un rayo nunca cae dos veces en el mismo lugar?"
+      "Próximo: 022-colectivo-de-a-dos — ¿Por qué el colectivo viene siempre de a dos? (apelotonamiento)"
      ],
      "arreglo": null,
      "solo": false,
@@ -396,7 +394,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-10-29T22:38",
-     "hace": "hace 15 h",
+     "hace": "hace 16 h",
      "detalle": [
       "2026-10-26 23:24 heladera: listo control OK",
       "2026-10-27 17:29 army-bomb: apartado dato demasiado largo (12 > 10): \"milisegundos…\"; números que no están en el cheq",
@@ -467,7 +465,7 @@
      "estado": "ok",
      "resumen": "30/10: 296 seguidores",
      "cuando": "2026-10-30T02:36",
-     "hace": "hace 11 h",
+     "hace": "hace 12 h",
      "detalle": [
       "27/10: 235 seguidores",
       "28/10: 249 seguidores",
@@ -500,7 +498,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 015-descongelar-mesada — calidad 30/10: sin un 'mandáselo a…' claro",
-     "cuando": "2026-10-30T14:35",
+     "cuando": "2026-10-30T14:39",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 015-descongelar-mesada — calidad 30/10: sin un 'mandáselo a…' claro",
@@ -544,8 +542,8 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 2,
-   "listos": 6,
-   "dias": 3.0,
+   "listos": 5,
+   "dias": 2.5,
    "proximo": "en-008-wash-chicken",
    "publicados": 7,
    "pausa": false,
@@ -579,6 +577,13 @@
    ],
    "linea": [
     {
+     "slug": "en-012-thunder-count",
+     "tema": "How far away is the storm? Count flash to thunder (adapted from 018)",
+     "estado": "produccion",
+     "cuando": "2026-10-30T14:50",
+     "motivo": "oficina: la voz dio 40% dos veces seguidas; se rehace la voz, el render y el control"
+    },
+    {
      "slug": "en-008-wash-chicken",
      "tema": "Should you rinse raw chicken? (adapted from 012)",
      "estado": "listo",
@@ -605,27 +610,6 @@
      "estado": "listo",
      "cuando": "2026-10-29T13:58",
      "motivo": "render sin Claude"
-    },
-    {
-     "slug": "en-012-thunder-count",
-     "tema": "How far away is the storm? Count flash to thunder (adapted from 018)",
-     "estado": "apartado",
-     "cuando": "2026-10-30T08:19",
-     "motivo": "render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go "
-    },
-    {
-     "slug": "en-014-birthday-pairs",
-     "tema": "How many people for two to share a birthday? (adapted from 017)",
-     "estado": "apartado",
-     "cuando": "2026-10-30T14:08",
-     "motivo": "chequeo rechazado 2 veces: solo atribución de fuentes (MathWorld no respalda el efecto de cumpleaños no uniformes); cifras verificadas"
-    },
-    {
-     "slug": "en-015-rain-smell",
-     "tema": "Why does rain smell like that? petrichor (adapted from 004)",
-     "estado": "apartado",
-     "cuando": "2026-10-30T14:11",
-     "motivo": "chequeo rechazado 2 veces: umbral de geosmina 'a few parts per trillion' varía por fuente (5 a 400 ppt); el resto verificado"
     },
     {
      "slug": "en-006-five-second-rule",
@@ -659,18 +643,20 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-10-30T14:35",
-     "hace": "recién",
+     "cuando": "2026-10-30T08:55",
+     "hace": "hace 5 h",
      "detalle": [
-      "Uso: 22 pasos · 14,762 tokens nuevos · 1,286,388 de caché · 4,949 escritos · equivale a US$ 1.91 de API",
-      "2026-10-30 14:06 Arranca la producción (5 listos en la cola, meta 6).",
-      "- **Listo para render:** `en-016-too-cold-snow` (¿puede hacer demasiado frío para nevar?, serie clima). El chequeo salió aprobado a la primera con NOAA NSSL. La voz dio 119 de 119 palabras y los cuadros están revisados. Quedó en estado `ren",
-      "- **Apartados:** `en-014-birthday-pairs` quedó apartado porque el chequeo lo rechazó dos veces solo por la atribución de las fuentes; las cifras están verificadas. `en-015-rain-smell` también, porque la cifra de geosmina \"a few parts per tr",
-      "- **Rescate previo:** `en-012-thunder-count` no es un rechazo de chequeo, que está aprobado. Falló el control de voz (40 % de coincidencia), así que no lo toqué. `en-008` ya se había rehecho antes.",
-      "Uso: 22 pasos · 14,762 tokens nuevos · 1,286,388 de caché · 4,949 escritos · equivale a US$ 1.91 de API",
-      "2026-10-30 14:16 Render de en-016-too-cold-snow (sin Claude).",
-      "2026-10-30 14:35 en-016-too-cold-snow: listo (render sin Claude)",
-      "2026-10-30 14:35 Termina la producción (ok)."
+      "Uso: 9 pasos · 6,396 tokens nuevos · 379,872 de caché · 1,519 escritos · equivale a US$ 0.87 de API",
+      "2026-10-30 08:01 Arranca la producción (5 listos en la cola, meta 6).",
+      "2026-10-30 08:01 Render de en-012-thunder-count (sin Claude).",
+      "2026-10-30 08:19 en-012-thunder-count: apartado (render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the frien",
+      "- **Listo para render:** `en-013-searing-juices` (¿sellar el bife sella los jugos? Mito, serie Kitchen myths #7). `producir.py` lo renderiza y lo pasa a `listo`. El chequeo lo rechazó la primera vez por la atribución a McGee y el \"sizzle\" s",
+      "- **Apartado, sin tocar:** `en-012-thunder-count` figura como apartado en la cola, pero su chequeo está aprobado. No es un caso de \"chequeo rechazado\", así que no lo rescaté y no averigüé el motivo.",
+      "- **Sin revisión de actualidad:** no corrí el radar de EE. UU. esta vez. Pasaron más de 6 h desde el último y no busqué un tema del momento.",
+      "Uso: 9 pasos · 6,396 tokens nuevos · 379,872 de caché · 1,519 escritos · equivale a US$ 0.87 de API",
+      "2026-10-30 08:26 Render de en-013-searing-juices (sin Claude).",
+      "2026-10-30 08:55 en-013-searing-juices: listo (render sin Claude)",
+      "2026-10-30 08:55 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -721,27 +707,24 @@
        "cuenta": "en"
       }
      },
-     "estado": "aviso",
-     "resumen": "Frenó 2 video(s): en-015-rain-smell.",
-     "cuando": "2026-10-30T14:35",
-     "hace": "recién",
+     "estado": "ok",
+     "resumen": "Aprobó 8 de los últimos 8 guiones.",
+     "cuando": "2026-10-30T12:35",
+     "hace": "hace 2 h",
      "detalle": [
+      "en-006-five-second-rule: aprobado — Segunda pasada con busqueda web. Todas las afirmaciones coinciden con Miranda & Schaffner 2016 (Applied and Environmental Microbiology 82(21",
+      "en-007-flip-steak: aprobado — Segundo intento. Se verificaron todas las frases con busqueda web. Las objeciones del chequeo previo quedaron corregidas: (1) 'the idea is',",
+      "en-008-wash-chicken: aprobado — Todas las afirmaciones de salud/seguridad y cifras quedaron verificadas con fuentes de EE. UU. (CDC, USDA FSIS, NC State/J Food Prot). Unida",
       "en-009-ceiling-fan: aprobado — Todas las afirmaciones de plata/energia y seguridad-practica (sentido de giro por estacion, velocidad baja en invierno, apagar al salir, 'en",
       "en-010-thermostat-night: aprobado — Todas las cifras (7 a 10 °F, 8 horas por dia, hasta 10% por año) coinciden con Energy.gov (Energy Saver, thermostats / programmable thermost",
       "en-011-thaw-counter: aprobado — Se releyeron guion.json y caption.txt con las correcciones aplicadas. Todas las frases de salud/seguridad quedan verificadas contra USDA FSI",
       "en-012-thunder-count: aprobado — Todas las afirmaciones de seguridad y cifras estan respaldadas por paginas del NWS/NOAA (weather.gov) y las unidades coinciden (millas, 5 s ",
-      "en-013-searing-juices: aprobado — Todas las afirmaciones están respaldadas por America's Test Kitchen / Cook's Illustrated (prueba con 8 rib-eyes: ambos lotes perdieron ~22% ",
-      "en-014-birthday-pairs: rechazado — Todas las cifras coinciden con Wikipedia (23 personas 50,7297 %, 253 pares, 40 personas 89,1 %, 70 personas 99,9 %) y 23 coincide con MathWo",
-      "en-015-rain-smell: rechazado — Las tres frases reescritas (origen bacteriano 'a big part... including', 'one key ingredient', aerosoles 'may help carry the scent', 'in MIT",
-      "en-016-too-cold-snow: aprobado — Todas las afirmaciones salen de la FAQ de NOAA NSSL (verificada con fetch directo) y coinciden con NWS Central Region 'Myth Buster Monday' ("
+      "en-013-searing-juices: aprobado — Todas las afirmaciones están respaldadas por America's Test Kitchen / Cook's Illustrated (prueba con 8 rib-eyes: ambos lotes perdieron ~22% "
      ],
-     "tareas": [
-      "en-014-birthday-pairs: chequeo rechazado 2 veces: solo atribución de fuentes (MathWorld no respalda el efecto de cumpleaños no uniformes); cifras verificadas",
-      "en-015-rain-smell: chequeo rechazado 2 veces: umbral de geosmina 'a few parts per trillion' varía por fuente (5 a 400 ppt); el resto verificado"
-     ],
-     "arreglo": "Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.",
+     "tareas": [],
+     "arreglo": null,
      "solo": false,
-     "firma": "a225503c948e"
+     "firma": "7d1f5d89afa4"
     },
     {
      "id": "voz",
@@ -757,17 +740,15 @@
        "cuenta": "en"
       }
      },
-     "estado": "aviso",
-     "resumen": "La voz no coincidió con el guion en en-012-thunder-count.",
-     "cuando": "2026-10-30T14:35",
-     "hace": "recién",
+     "estado": "ok",
+     "resumen": "Voz en-us-podcaster-5 sin problemas.",
+     "cuando": "2026-10-30T12:35",
+     "hace": "hace 2 h",
      "detalle": [],
-     "tareas": [
-      "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go "
-     ],
-     "arreglo": "Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.",
+     "tareas": [],
+     "arreglo": null,
      "solo": false,
-     "firma": "953dc1971713"
+     "firma": "c766d204df67"
     },
     {
      "id": "animador",
@@ -783,17 +764,15 @@
        "cuenta": "en"
       }
      },
-     "estado": "falla",
-     "resumen": "Falló el render de en-012-thunder-count.",
-     "cuando": "2026-10-30T14:35",
-     "hace": "recién",
+     "estado": "ok",
+     "resumen": "Último video terminado: 2026-10-30 12:35.",
+     "cuando": "2026-10-30T12:35",
+     "hace": "hace 2 h",
      "detalle": [],
-     "tareas": [
-      "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste"
-     ],
-     "arreglo": "Relanzá la producción: los videos en estado render se vuelven a renderizar solos.",
+     "tareas": [],
+     "arreglo": null,
      "solo": false,
-     "firma": "f53050cb6af8"
+     "firma": "916bc97d1fde"
     },
     {
      "id": "control",
@@ -810,14 +789,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-10-30T14:35",
-     "hace": "recién",
+     "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-10-30T12:35",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "625440fe5990"
+     "firma": "bace1412aac6"
     },
     {
      "id": "publicador",
@@ -836,7 +815,7 @@
      "estado": "ok",
      "resumen": "Último: en-007-flip-steak.",
      "cuando": "2026-10-30T12:36",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "29/10 12:36 en-006-five-second-rule en la bandeja de TikTok",
       "29/10 12:36 en-006-five-second-rule paquete para TikTok/YouTube enviado",
@@ -873,7 +852,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-30T12:36",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "28/10 19:36 en-004-sugar-hyper en la bandeja de TikTok",
       "28/10 19:36 en-004-sugar-hyper paquete para TikTok/YouTube enviado",
@@ -931,7 +910,7 @@
      "estado": "ok",
      "resumen": "30/10: 2 seguidores",
      "cuando": "2026-10-30T02:37",
-     "hace": "hace 11 h",
+     "hace": "hace 12 h",
      "detalle": [
       "28/10: 2 seguidores",
       "29/10: 2 seguidores",
@@ -961,19 +940,15 @@
        "modo": "vigilar"
       }
      },
-     "estado": "aviso",
-     "resumen": "Video apartado: en-012-thunder-count — render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Us",
-     "cuando": "2026-10-30T14:35",
+     "estado": "ok",
+     "resumen": "Todo en orden ✓",
+     "cuando": "2026-10-30T14:39",
      "hace": "recién",
-     "detalle": [
-      "⚠️ Video apartado: en-012-thunder-count — render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Us",
-      "⚠️ Video apartado: en-014-birthday-pairs — chequeo rechazado 2 veces: solo atribución de fuentes (MathWorld no respalda el efecto de cumpleaños no uniformes); cifr",
-      "⚠️ Video apartado: en-015-rain-smell — chequeo rechazado 2 veces: umbral de geosmina 'a few parts per trillion' varía por fuente (5 a 400 ppt); el resto verifi"
-     ],
+     "detalle": [],
      "tareas": [],
      "arreglo": null,
-     "solo": true,
-     "firma": "d9c063aa884a"
+     "solo": false,
+     "firma": "3e900f50565c"
     }
    ]
   }
@@ -1112,6 +1087,22 @@
    "titulo": "El video del \"five-second rule\" (inglés) se apartó porque la voz no coincidía; lo mandé a rehacer.",
    "resumen": "El control de voz dio 87 %, que es menos que el 91–92 % que decía la oficina, y el mínimo es 92 %. No pude saber si era un falso rechazo o una voz mal leída, porque el registro guardó solo el final de lo que escuchó el control. Además, la voz de ese video ya no existe en la nube, así que no se podía solo volver a renderizar. Lo devolví a \"produccion\" en la cola de inglés y lancé un turno de Claude en inglés. Ese turno va a generar la voz de nuevo, controlar y renderizar el video. Si el control lo vuelve a rechazar, va a quedar apartado otra vez.",
    "commit": "5bc0248b193a89e04087f1f701e5e6963d7aac2b",
+   "archivos": [
+    "videos/en/cola.json"
+   ]
+  },
+  {
+   "id": "10301403-en-animador",
+   "creado": "2026-10-30T14:36",
+   "empleado": "en/animador",
+   "estado": "aplicado",
+   "auto": true,
+   "problema": "En la oficina de Nueva York (@letmeexplain.us), Ava (Animación y render) está en \"falla\": Falló el render de en-012-thunder-count.\nLo que sugiere la oficina: Relanzá la producción: los videos en estado render se vuelven a renderizar solos.\nTareas:\nen-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste\n",
+   "firma": "f53050cb6af8",
+   "actualizado": "2026-10-30T14:39",
+   "titulo": "El video del trueno en inglés se frenaba por la voz y lo mandé a rehacer desde cero.",
+   "resumen": "El render no falló. El control de voz rechazó el video dos veces seguidas (40 % de coincidencia con el guion), y eso lo dejó apartado. La voz guardada en la nube parece mala, y volver a renderizar la reusaba, así que la oficina repetía el mismo error. Pasé `en-012-thunder-count` de \"apartado\" a \"produccion\" en `videos/en/cola.json`. Así, en el próximo turno de Claude en inglés se genera la voz de nuevo y después se renderiza y se controla. Todavía no lo comprobé: acá no pude generar la voz (falta numpy) y no pude leer el registro de la voz en la nube.",
+   "commit": "23158da8efc1001c381ee0314cb8aa9338b0daec",
    "archivos": [
     "videos/en/cola.json"
    ]
