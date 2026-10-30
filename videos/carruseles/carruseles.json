@@ -44,7 +44,7 @@
  },
  {
   "clave": "army-bomb",
-  "estado": "listo",
+  "estado": "publicado",
   "origen": [
    "006-army-bomb"
   ],
@@ -58,6 +58,11 @@
     "estado": "listo",
     "cuando": "2026-10-27T17:29",
     "motivo": "control OK"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-30T20:01",
+    "motivo": "https://www.instagram.com/p/DfItv3yF_cx/"
    }
   ]
  },
