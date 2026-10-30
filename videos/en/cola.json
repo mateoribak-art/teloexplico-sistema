@@ -238,7 +238,7 @@
  {
   "slug": "en-008-wash-chicken",
   "tema": "Should you rinse raw chicken? (adapted from 012)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -269,6 +269,11 @@
     "estado": "listo",
     "cuando": "2026-10-29T01:53",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-30T19:34",
+    "motivo": "https://www.instagram.com/reel/DfIqow-lfcG/"
    }
   ]
  },
