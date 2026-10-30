@@ -55,7 +55,10 @@ RADAR = (TERMINAL + f'\n\nUsá el skill {SK_RADAR}. Si encontrás un tema del mo
          'Al final, una línea con lo que decidiste.')
 CARRUSEL = (TERMINAL + '\n\nUsá el skill producir-carrusel y armá 1 carrusel con datos ya chequeados de reels publicados. '
             'Si no hay de dónde sacarlo sin repetir, no hagas nada y decilo. Al final, una línea con la clave y si quedó listo o apartado.')
-CARRUSELES_META = 2      # carruseles listos de colchón (sale uno por día a las 16:00)
+REFERENTES = (TERMINAL + '\n\nSos Vera, la investigadora de referentes. Usá el skill estudiar-referentes: bajá los reels de la competencia, mirá las hojas de cuadros, '
+              'actualizá videos/referentes/APRENDIZAJES.md y dejá ideas nuevas con su receta en videos/ideas.md. Al final, una línea con la lección principal.')
+REFERENTES_CADA_H = 70   # lunes y jueves, más o menos: no más de una corrida cada ~3 días
+CARRUSELES_META = 2     # carruseles listos de colchón (sale uno por día a las 16:00)
 CARRUSEL_CADA_H = 12     # como mucho un intento de Claude cada 12 h, para no gastar cuota si no hay de dónde sacar
 COMENTARIOS = (TERMINAL + f'\n\nUsá el skill {SK_COMENTARIOS} y procesá todos los comentarios pendientes. '
                'Al final, una línea con cuántos respondiste, salteaste y alertaste.')
@@ -245,6 +248,34 @@ def radar():
     escribir(log, f'Termina el radar ({"ok" if ok else "con problemas"}).')
 
 
+def referentes():
+    """Vera estudia a la competencia (solo español): baja los reels y deja videos/referentes/APRENDIZAJES.md para la producción."""
+    log = 'referentes/vera.log'
+    os.makedirs(os.path.join(V, 'referentes'), exist_ok=True)
+    if os.path.exists(os.path.join(RAIZ, 'PAUSA')):
+        return escribir(log, 'PAUSA activa: Vera no sale.')
+    escribir(log, 'Arranca Vera (referentes).')
+    r = subprocess.run([PY, '-I', 'referentes.py', 'bajar'], cwd=H, capture_output=True, text=True, encoding='utf-8', errors='replace')
+    escribir(log, f'Reels bajados (código {r.returncode}).')
+    ok = claude(REFERENTES, log, 60, MODELO_PRODUCIR)
+    escribir(log, f'Termina Vera ({"ok" if ok else "con problemas"}).')
+
+
+def referentes_toca():
+    ruta = os.path.join(V, 'referentes', 'vera.log')
+    if EN:
+        return False
+    if not os.path.exists(ruta):
+        return True
+    fin = [l for l in open(ruta, encoding='utf-8').read().splitlines() if 'Termina Vera (ok)' in l]
+    if not fin:
+        return True
+    try:
+        return (AHORA - datetime.datetime.strptime(fin[-1][:16], '%Y-%m-%d %H:%M')).total_seconds() > REFERENTES_CADA_H * 3600
+    except ValueError:
+        return True
+
+
 def comentarios():
     log = 'comentarios.log'
     if os.path.exists(os.path.join(RAIZ, 'PAUSA')):
@@ -283,6 +314,8 @@ def hay_trabajo(modo):
         return listos() < META or manana() or pedido_pendiente() or toca_carrusel()
     if modo == 'comentarios':
         return comentarios_nuevos() != 0
+    if modo == 'referentes':
+        return referentes_toca()
     return True
 
 
@@ -293,7 +326,7 @@ if __name__ == '__main__':
         print('si' if hay_trabajo(sys.argv[2]) else 'no')
     elif modo == 'plan_b':
         prueba_plan_b()
-    elif modo in ('produccion', 'radar', 'comentarios', 'diagnostico'):
+    elif modo in ('produccion', 'radar', 'comentarios', 'diagnostico', 'referentes'):
         globals()[modo]()
     else:
         sys.exit(__doc__)

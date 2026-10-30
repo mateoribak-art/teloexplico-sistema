@@ -202,7 +202,7 @@ import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
 const REPO = 'mateoribak-art/teloexplico-sistema';
 const COLOR = {ok: '#2BD67B', trabajando: '#2E4BFF', aviso: '#FFE14D', falla: '#FF4D2E', descanso: '#CFC6B4', pausa: '#CFC6B4'};
 const PALABRA = {ok: 'al día', trabajando: 'trabajando', aviso: 'ojo', falla: 'falló', descanso: 'descansa', pausa: 'en pausa'};
-const FLUJO = {'claude.yml': 'Claude (producción, radar, comentarios)', 'publicar.yml': 'Publicar', 'carrusel.yml': 'Carrusel', 'tareas.yml': 'Tareas (vigilancia y resumen)'};
+const FLUJO = {'claude.yml': 'Claude (producción, radar, comentarios, referentes)', 'publicar.yml': 'Publicar', 'carrusel.yml': 'Carrusel', 'tareas.yml': 'Tareas (vigilancia y resumen)'};
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
 const guardado = (k, v) => { try { if (v === undefined) return localStorage.getItem(k) || ''; v ? localStorage.setItem(k, v) : localStorage.removeItem(k); } catch (e) { return ''; } };
@@ -259,6 +259,7 @@ function empleadosDe(run) {
   if (f === 'claude.yml') {
     const h = new Date(run.run_started_at || run.created_at).getUTCHours();
     if (run.event === 'schedule' && h === 13) return ['radar'];
+    if (run.event === 'schedule' && h === 10) return ['referentes'];
     if (run.event === 'schedule' && (h === 17 || h === 1)) return ['comentarios'];
     return ['jefe', 'chequeo', 'voz', 'animador', 'control'];  // un turno de producción los pone a todos a trabajar
   }
@@ -383,7 +384,7 @@ const LOOK = {
        voz: ['rulos', '#2A1B12', '#FF8A3D', '#2b2f3a'], animador: ['flequillo', '#E8C15A', '#8E44AD', '#1d1d1d'], control: ['corto', '#3A2A1E', '#16A085', '#33363d'],
        publicador: ['largo', '#2A1B12', '#FF5FA2', '#2C3E50'], redes: ['corto', '#111', '#111', '#4A6FA5'], carruseles: ['rulos', '#D35400', '#FFD23F', '#2E4BFF'],
        comentarios: ['rodete', '#8E5A2B', '#7FD3FF', '#2b2f3a'], analista: ['pelado', '#000', '#95A5A6', '#2C3E50'], vigilante: ['gorra', '#1F2A44', '#1F2A44', '#1F2A44'],
-       planb: ['flequillo', '#6D4C41', '#FF4D2E', '#2b2f3a']},
+       planb: ['flequillo', '#6D4C41', '#FF4D2E', '#2b2f3a'], referentes: ['largo', '#7A3B1E', '#2E4BFF', '#2C3E50']},
   en: {jefe: ['largo', '#E8C15A', '#7A1F2B', '#1d1d1d'], radar: ['gorra', '#FF4D2E', '#2E4BFF', '#3b3b46'], chequeo: ['rodete', '#2A1B12', '#F2EDE2', '#2C3E50'],
        voz: ['corto', '#8E5A2B', '#3DA35D', '#2b2f3a'], animador: ['rulos', '#111', '#FFD23F', '#1d1d1d'], control: ['flequillo', '#C0392B', '#16A085', '#33363d'],
        publicador: ['largo', '#5B3A1E', '#7FD3FF', '#2C3E50'], redes: ['gorra', '#111', '#111', '#4A6FA5'], comentarios: ['rulos', '#D35400', '#FF5FA2', '#2b2f3a'],
@@ -392,7 +393,7 @@ const LOOK = {
 // dónde se sienta cada uno [x, z]: la jefa en su oficina de vidrio y la vigilancia en su puesto de control
 const LUGAR = {jefe: [-9.6, -5.4], radar: [-3.4, -5.8], chequeo: [.6, -5.8], voz: [4.6, -5.8], animador: [8.6, -5.8],
   control: [-3.4, -1.4], publicador: [.6, -1.4], redes: [4.6, -1.4], carruseles: [8.6, -1.4],
-  comentarios: [-3.4, 3.0], analista: [.6, 3.0], planb: [4.6, 3.0], vigilante: [-9.6, 3.2]};
+  comentarios: [-3.4, 3.0], analista: [.6, 3.0], planb: [4.6, 3.0], vigilante: [-9.6, 3.2], referentes: [8.6, 3.0]};
 
 function pelo(tipo, color, cabeza) {
   if (tipo === 'pelado') return;

@@ -23,6 +23,7 @@ LINEA = re.compile(r'^(\d{4}-\d{2}-\d{2})(?: (\d{2}:\d{2}))? (.*)$')  # algunos 
 PLANTEL = {
     'es': [
         ('jefe', 'Rocío', 'Jefa de producción', '📋', 'Arranca cada turno de producción, decide si hace falta un video y le pasa el trabajo a Claude.', '00:30 · 06:30 · 12:50 · 18:50'),
+        ('referentes', 'Vera', 'Investigadora de referentes', '🔭', 'Mira los reels de la competencia que más funcionan (contenido y visual), escribe la guía que usa la producción y deja ideas con su receta.', 'lunes y jueves 07:30'),
         ('radar', 'Tano', 'Radar de actualidad', '📡', 'Busca el tema del momento (clima, noticias, tendencias) y lo manda adelante en la cola.', '10:30 y antes de producir'),
         ('chequeo', 'Bea', 'Chequeo de datos', '🔎', 'Revisa cada dato del guion contra las fuentes. Sin su OK, el video no sigue.', 'en cada video'),
         ('voz', 'Nacho', 'Locutor', '🎙️', 'Graba la voz con Gemini (10 pedidos gratis por día, compartidos con la oficina de Nueva York).', 'en cada video'),
@@ -63,6 +64,7 @@ RELANZAR = {
     'animador': ('claude.yml', {'modo': 'produccion'}),
     'control': ('claude.yml', {'modo': 'produccion'}),
     'radar': ('claude.yml', {'modo': 'radar'}),
+    'referentes': ('claude.yml', {'modo': 'referentes'}),
     'comentarios': ('claude.yml', {'modo': 'comentarios'}),
     'publicador': ('publicar.yml', {'modo': 'publicar'}),
     'redes': ('publicar.yml', {'modo': 'publicar'}),
@@ -195,6 +197,22 @@ def oficina(clave):
                  arreglo='Se reintenta solo. Si es urgente, relanzalo.')
     else:
         empleado(gente['radar'], 'ok', decision[-1][1].lstrip('| ')[:160] if decision else 'Última búsqueda sin problemas.', max(x[0] for x in [ultima] + decision[-1:] if x), det, fuego)
+
+    # --- Vera: estudia a la competencia (solo español)
+    if 'referentes' in gente:
+        vl = leer(os.path.join(V, 'referentes', 'vera.log'), '')
+        vh = lineas_con_hora(vl)
+        apr = os.path.join(V, 'referentes', 'APRENDIZAJES.md')
+        det = [f'{d:%d/%m %H:%M} {m}' for d, m in vh[-5:]]
+        if pausa:
+            empleado(gente['referentes'], 'pausa', 'Pausa activa.', vh[-1][0] if vh else None, det)
+        elif not vh and not os.path.exists(apr):
+            empleado(gente['referentes'], 'descanso', 'Todavía no corrió: sale lunes y jueves.', None)
+        elif vh and 'con problemas' in vh[-1][1]:
+            empleado(gente['referentes'], 'aviso', 'La última corrida terminó con problemas (casi siempre: Claude sin cuota).', vh[-1][0], det,
+                     arreglo='Se reintenta en la próxima corrida. Si es urgente, relanzala.')
+        else:
+            empleado(gente['referentes'], 'ok', 'Guía de referentes al día.' if os.path.exists(apr) else 'Sin novedades.', vh[-1][0] if vh else None, det)
 
     # --- Chequeo, voz, animación y control: los videos de las últimas 48 h
     def motivo_de(*palabras):

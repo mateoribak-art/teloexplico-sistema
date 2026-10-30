@@ -9,6 +9,9 @@ Producís videos sin que nadie los revise antes de publicarse. **Vos sos el úni
 
 Todo pasa en la carpeta del proyecto (`C:\Users\Mateo\teloexplico` en la notebook; en la nube de GitHub, la carpeta del repo: usá siempre rutas relativas). Herramientas: `./herramientas/tlx` (ver `tlx` sin argumentos). Marca: `marca/MARCA.md`. **Dirección de arte (obligatoria): `marca/DIRECCION_ARTE.md`.** Modelo a copiar: `motor/src/videos/005-granizo-calor/Video.tsx` (leelo entero antes de escribir escenas) y su hoja `marca/referencias/modelo_005_granizo_v2.png`. Los videos 001–004 son del estilo viejo: no los copies.
 
+## Antes de todo: la guía de Vera (30/10, pedido de Mateo)
+Leé entero `videos/referentes/APRENDIZAJES.md` (Vera, la investigadora de referentes, lo actualiza lunes y jueves con lo que funciona en la competencia). Es **obligatorio** para contenido Y visual: el tema tiene que encajar en una de sus recetas, el guion cita fuente con año y lugar en pantalla, y cada escena lleva capa de datos (contador, chip con número, gráfico). Si choca con `DIRECCION_ARTE.md`, en lo visual gana APRENDIZAJES. **Prueba de fondo oscuro:** el 50 % de los videos 2D/3D nuevos va con fondo oscuro y un solo color de acento (como la competencia), el otro 50 % con el cuaderno actual; `tlx metricas` dice cuál rinde. Anotá cuál usaste en `guion.json` (campo `fondo`: "oscuro" o "cuaderno") y qué receta (campo `receta`).
+
 ## 0. Elegir el tema
 0. **Primero el radar**: si en `videos/radar.log` no hay una revisión de las últimas 6 horas, usá el skill `radar-actualidad`. Si encuentra un tema del momento, ese es el video de esta corrida.
 1. `./herramientas/tlx cola`. Si hay un video en `produccion` (quedó a medias), seguí con ese.

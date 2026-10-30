@@ -40,6 +40,7 @@ case "$cmd" in
   carrusel) cd "$H" && "$PY" -I carrusel.py "$@" ;;
   metricas) cd "$H" && "$PY" -I metricas.py "$@" ;;
   metricas-es) cd "$H" && TLX_CUENTA=es "$PY" -I metricas.py "$@" ;;   # ranking de @teloexplico.ar desde la producción en inglés
+  referentes) cd "$H" && "$PY" -I referentes.py "$@" ;;   # reels de la competencia + hoja de cuadros (Vera, videos/referentes/)
   comentarios) cd "$H" && "$PY" -I comentarios.py "$@" ;;
   tsc)     cd "$M" && npx tsc --noEmit ;;
   cuadros)
