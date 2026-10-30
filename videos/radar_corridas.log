@@ -51,3 +51,14 @@ Uso: 8 pasos · 15,966 tokens nuevos · 101,223 de caché · 1,320 escritos · e
 No produje ningún video de actualidad hoy. Las búsquedas no devolvieron nada fechado de hoy. La única alerta cercana es una amarilla en Chubut del lunes 26 de octubre, de la que no pude confirmar el año y que es regional. Los otros temas de clima ya están cubiertos por los videos 004, 005, 016 y 024. Anoté los candidatos descartados en `videos/radar.log` y sigue la cola normal.
 Uso: 9 pasos · 18,662 tokens nuevos · 101,931 de caché · 1,079 escritos · equivale a US$ 0.12 de API
 2026-10-29 16:06 Termina el radar (ok).
+2026-10-30 15:43 Arranca el radar.
+Terminé el radar de hoy (30/10): no encontré ningún tema de actualidad que cumpla todos los criterios, así que no produje video y seguimos con la cola normal.
+
+Descarté tres candidatos y los anoté en `videos/radar.log`:
+- **Alertas por tormentas en Mendoza, Chubut y Santa Cruz (26-27 oct):** son regionales y pasaron hace más de 3 días. Además el clima ya está cubierto en la cola (004, 005, 016, 024).
+- **Debate por cambiar el huso horario:** la fecha de la nota es dudosa y no pude confirmar que sea ley ni que la gente lo viva hoy.
+- **Halloween y el fin de semana:** no es feriado y no encontré un "¿por qué?" con giro que se pueda verificar.
+
+**Decisión: sin video de actualidad hoy; descartados alertas regionales, huso horario y Halloween, y sigue la cola normal.**
+Uso: 10 pasos · 18,730 tokens nuevos · 130,892 de caché · 1,881 escritos · equivale a US$ 0.13 de API
+2026-10-30 15:43 Termina el radar (ok).

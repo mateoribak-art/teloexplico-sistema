@@ -15,3 +15,7 @@ Uso: 9 pasos · 11,628 tokens nuevos · 96,998 de caché · 1,099 escritos · eq
 No produje ningún video. La búsqueda web no devolvió nada verificable de las últimas 48 h, y el cambio de hora y Halloween ya están cubiertos (en-002 y en-004). Anoté los candidatos descartados (nor'easter y helada, auroras) en `videos/en/radar.log`.
 Uso: 8 pasos · 10,520 tokens nuevos · 96,362 de caché · 827 escritos · equivale a US$ 0.07 de API
 2026-10-29 16:06 Termina el radar (ok).
+2026-10-30 15:43 Arranca el radar.
+Decidí no producir ningún video: la búsqueda web no devolvió nada verificable de las últimas 48 h. Descarté el clima del fin de semana, el cambio de hora (ya está publicado como en-002) y Halloween (ya cubierto en en-004). Lo anoté en `videos/en/radar.log`.
+Uso: 9 pasos · 12,032 tokens nuevos · 98,472 de caché · 887 escritos · equivale a US$ 0.09 de API
+2026-10-30 15:44 Termina el radar (ok).
