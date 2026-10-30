@@ -455,7 +455,7 @@
  {
   "slug": "015-descongelar-mesada",
   "tema": "Descongelar la carne arriba de la mesada: por qué no y cómo hacerlo seguro (USDA)",
-  "estado": "apartado",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -491,13 +491,18 @@
     "estado": "apartado",
     "cuando": "2026-10-30T12:50",
     "motivo": "calidad 30/10: sin un 'mandáselo a…' claro"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-30T18:37",
+    "motivo": ""
    }
   ]
  },
  {
   "slug": "018-refresca-tormenta",
   "tema": "¿Por qué después de la tormenta refresca de golpe? (corriente descendente)",
-  "estado": "apartado",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -543,6 +548,11 @@
     "estado": "apartado",
     "cuando": "2026-10-30T12:50",
     "motivo": "calidad 30/10: sin un 'mandáselo a…' claro"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-30T18:37",
+    "motivo": ""
    }
   ]
  },
@@ -850,7 +860,7 @@
  {
   "slug": "024-granizo-corto",
   "tema": "¿Por qué cae granizo justo cuando hace calor? (versión corta)",
-  "estado": "apartado",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -906,6 +916,11 @@
     "estado": "apartado",
     "cuando": "2026-10-30T12:50",
     "motivo": "calidad 30/10: sin un 'mandáselo a…' claro"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-30T18:37",
+    "motivo": ""
    }
   ]
  },
