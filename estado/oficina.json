@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T18:38",
+ "actualizado": "2026-10-30T18:41",
  "oficinas": [
   {
    "clave": "es",
@@ -7,8 +7,8 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 296,
-   "listos": 9,
-   "dias": 4.5,
+   "listos": 12,
+   "dias": 6.0,
    "proximo": "010-rayo-mismo-lugar",
    "publicados": 13,
    "pausa": false,
@@ -56,39 +56,18 @@
      "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
     },
     {
-     "slug": "014-celular-arroz",
-     "tema": "El celular mojado se arregla en arroz: Apple dice que no",
-     "estado": "listo",
-     "cuando": "2026-10-29T22:37",
-     "motivo": "render sin Claude"
-    },
-    {
-     "slug": "017-paradoja-cumpleanos",
-     "tema": "¿Cuánta gente hace falta en una juntada para que dos cumplan el mismo día? (paradoja del cumpleaños)",
-     "estado": "listo",
-     "cuando": "2026-10-27T22:17",
-     "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
-    },
-    {
      "slug": "015-descongelar-mesada",
      "tema": "Descongelar la carne arriba de la mesada: por qué no y cómo hacerlo seguro (USDA)",
-     "estado": "apartado",
-     "cuando": "2026-10-30T12:50",
-     "motivo": "calidad 30/10: sin un 'mandáselo a…' claro"
+     "estado": "listo",
+     "cuando": "2026-10-30T18:37",
+     "motivo": ""
     },
     {
      "slug": "018-refresca-tormenta",
      "tema": "¿Por qué después de la tormenta refresca de golpe? (corriente descendente)",
-     "estado": "apartado",
-     "cuando": "2026-10-30T12:50",
-     "motivo": "calidad 30/10: sin un 'mandáselo a…' claro"
-    },
-    {
-     "slug": "024-granizo-corto",
-     "tema": "¿Por qué cae granizo justo cuando hace calor? (versión corta)",
-     "estado": "apartado",
-     "cuando": "2026-10-30T12:50",
-     "motivo": "calidad 30/10: sin un 'mandáselo a…' claro"
+     "estado": "listo",
+     "cuando": "2026-10-30T18:37",
+     "motivo": ""
     },
     {
      "slug": "020-pava-se-corta",
@@ -123,7 +102,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-30T17:59",
-     "hace": "hace 39 min",
+     "hace": "hace 42 min",
      "detalle": [
       "Uso: 23 pasos · 20,862 tokens nuevos · 1,455,197 de caché · 10,437 escritos · equivale a US$ 1.29 de API",
       "2026-10-30 17:12 Arranca la producción (8 listos en la cola, meta 10).",
@@ -215,8 +194,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-10-30T17:59",
-     "hace": "hace 39 min",
+     "cuando": "2026-10-30T18:37",
+     "hace": "hace 4 min",
      "detalle": [
       "017-paradoja-cumpleanos: aprobado — Las 8 afirmaciones fácticas están verificadas con fuente (Wikipedia 'Birthday problem' con su tabla y el cálculo de 253 parejas; Harvey Mudd",
       "008-aire-en-17: aprobado — Todas las afirmaciones factuales estan verificadas con fuentes oficiales argentinas (Secretaria de Energia de la Nacion y ENRE) y fuentes te",
@@ -248,8 +227,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-10-30T17:59",
-     "hace": "hace 39 min",
+     "cuando": "2026-10-30T18:37",
+     "hace": "hace 4 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -271,14 +250,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-10-30 17:59.",
-     "cuando": "2026-10-30T17:59",
-     "hace": "hace 39 min",
+     "resumen": "Último video terminado: 2026-10-30 18:37.",
+     "cuando": "2026-10-30T18:37",
+     "hace": "hace 4 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "3c0e5abf68eb"
+     "firma": "8739958d70cf"
     },
     {
      "id": "control",
@@ -294,19 +273,15 @@
        "cuenta": "es"
       }
      },
-     "estado": "aviso",
-     "resumen": "Apartó 3 video(s) en las últimas 48 h.",
-     "cuando": "2026-10-30T17:59",
-     "hace": "hace 39 min",
+     "estado": "ok",
+     "resumen": "12 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-10-30T18:37",
+     "hace": "hace 4 min",
      "detalle": [],
-     "tareas": [
-      "015-descongelar-mesada: calidad 30/10: sin un 'mandáselo a…' claro",
-      "018-refresca-tormenta: calidad 30/10: sin un 'mandáselo a…' claro",
-      "024-granizo-corto: calidad 30/10: sin un 'mandáselo a…' claro"
-     ],
-     "arreglo": "Revisalo: si está bien, pasalo a listo; si no, queda apartado.",
+     "tareas": [],
+     "arreglo": null,
      "solo": false,
-     "firma": "a42a94baf0b2"
+     "firma": "7db9ff85dd57"
     },
     {
      "id": "publicador",
@@ -425,19 +400,19 @@
        "cuenta": "es"
       }
      },
-     "estado": "ok",
-     "resumen": "Termina la respuesta de comentarios (ok).",
-     "cuando": "2026-10-30T03:52",
-     "hace": "hace 14 h",
+     "estado": "aviso",
+     "resumen": "La última ronda terminó con problemas (casi siempre: Claude sin cuota).",
+     "cuando": "2026-10-30T18:41",
+     "hace": "recién",
      "detalle": [
-      "29/10 18:58 Hay 2 comentarios nuevos: arranca la respuesta.",
-      "29/10 00:00 Respondí 0 · salteé 2 · alerté 0. (ferxrock: consejo de cubiertos fuera del guion; arletemsimon: \"Bahhh!\" sin contenido)",
-      "29/10 00:00 Termina la respuesta de comentarios (ok).",
       "29/10 18:58 Termina la respuesta de comentarios (ok).",
       "30/10 03:52 Hay 1 comentarios nuevos: arranca la respuesta.",
       "30/10 00:00 Respondí 1 · salteé 0 · alerté 0. (marbe_r: anécdota de la heladera, respondido con humor)",
       "30/10 00:00 Termina la respuesta de comentarios (ok).",
-      "30/10 03:52 Termina la respuesta de comentarios (ok)."
+      "30/10 03:52 Termina la respuesta de comentarios (ok).",
+      "30/10 18:40 Hay 5 comentarios nuevos: arranca la respuesta.",
+      "30/10 18:41 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
+      "30/10 18:41 Termina la respuesta de comentarios (con problemas)."
      ],
      "tareas": [
       "1 alerta",
@@ -445,9 +420,9 @@
       "7 salteado",
       "⚠️ maribibirios: \"También fueron a Chile cuando fueron a Brasil... información por favor\" — el video dice que en Latinoamér"
      ],
-     "arreglo": null,
-     "solo": false,
-     "firma": "75363e244848"
+     "arreglo": "Se reintenta en la próxima ronda. Si hay muchos pendientes, relanzala.",
+     "solo": true,
+     "firma": "8303b1249d94"
     },
     {
      "id": "analista",
@@ -496,19 +471,15 @@
        "modo": "vigilar"
       }
      },
-     "estado": "aviso",
-     "resumen": "Video apartado: 015-descongelar-mesada — calidad 30/10: sin un 'mandáselo a…' claro",
-     "cuando": "2026-10-30T18:38",
+     "estado": "ok",
+     "resumen": "Todo en orden ✓",
+     "cuando": "2026-10-30T18:41",
      "hace": "recién",
-     "detalle": [
-      "⚠️ Video apartado: 015-descongelar-mesada — calidad 30/10: sin un 'mandáselo a…' claro",
-      "⚠️ Video apartado: 018-refresca-tormenta — calidad 30/10: sin un 'mandáselo a…' claro",
-      "⚠️ Video apartado: 024-granizo-corto — calidad 30/10: sin un 'mandáselo a…' claro"
-     ],
+     "detalle": [],
      "tareas": [],
      "arreglo": null,
-     "solo": true,
-     "firma": "910decd06316"
+     "solo": false,
+     "firma": "cf3a22f5d39c"
     },
     {
      "id": "planb",
@@ -957,7 +928,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: en-014-birthday-pairs — chequeo rechazado 2 veces: solo atribución de fuentes (MathWorld no respalda el efecto de cumpleaños no uniformes); cifr",
-     "cuando": "2026-10-30T18:38",
+     "cuando": "2026-10-30T18:41",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: en-014-birthday-pairs — chequeo rechazado 2 veces: solo atribución de fuentes (MathWorld no respalda el efecto de cumpleaños no uniformes); cifr",
