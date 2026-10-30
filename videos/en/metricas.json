@@ -7,6 +7,10 @@
   "2026-10-29": {
    "seguidores": 2,
    "posts": 4
+  },
+  "2026-10-30": {
+   "seguidores": 2,
+   "posts": 6
   }
  },
  "reels": {
@@ -15,16 +19,16 @@
    "publicado": "2026-10-27T15:35:51+0000",
    "duracion": null,
    "ultimo": {
-    "views": 3743,
-    "reach": 3240,
-    "likes": 47,
+    "views": 3797,
+    "reach": 3279,
+    "likes": 48,
     "comments": 0,
     "shares": 16,
     "saved": 4,
-    "total_interactions": 71,
-    "ig_reels_avg_watch_time": 19274,
-    "ig_reels_video_view_total_time": 63857536,
-    "cuando": "2026-10-29T02:38"
+    "total_interactions": 72,
+    "ig_reels_avg_watch_time": 19249,
+    "ig_reels_video_view_total_time": 64753985,
+    "cuando": "2026-10-30T02:36"
    }
   },
   "17958040254081571": {
@@ -32,16 +36,16 @@
    "publicado": "2026-10-27T23:09:36+0000",
    "duracion": null,
    "ultimo": {
-    "views": 491,
-    "reach": 431,
+    "views": 493,
+    "reach": 432,
     "likes": 9,
     "comments": 0,
     "shares": 0,
     "saved": 0,
     "total_interactions": 9,
-    "ig_reels_avg_watch_time": 13207,
-    "ig_reels_video_view_total_time": 5494225,
-    "cuando": "2026-10-29T02:38"
+    "ig_reels_avg_watch_time": 13186,
+    "ig_reels_video_view_total_time": 5498966,
+    "cuando": "2026-10-30T02:36"
    }
   },
   "18145074805596156": {
@@ -49,16 +53,16 @@
    "publicado": "2026-10-28T15:35:10+0000",
    "duracion": null,
    "ultimo": {
-    "views": 186,
-    "reach": 169,
+    "views": 187,
+    "reach": 170,
     "likes": 2,
     "comments": 0,
     "shares": 0,
     "saved": 0,
     "total_interactions": 3,
-    "ig_reels_avg_watch_time": 10256,
-    "ig_reels_video_view_total_time": 1764189,
-    "cuando": "2026-10-29T02:38"
+    "ig_reels_avg_watch_time": 10347,
+    "ig_reels_video_view_total_time": 1790200,
+    "cuando": "2026-10-30T02:36"
    }
   },
   "18072403097773356": {
@@ -66,16 +70,50 @@
    "publicado": "2026-10-28T22:35:02+0000",
    "duracion": null,
    "ultimo": {
-    "views": 208,
-    "reach": 189,
+    "views": 210,
+    "reach": 191,
     "likes": 1,
     "comments": 0,
     "shares": 0,
     "saved": 0,
     "total_interactions": 2,
-    "ig_reels_avg_watch_time": 8832,
-    "ig_reels_video_view_total_time": 1669250,
-    "cuando": "2026-10-29T02:38"
+    "ig_reels_avg_watch_time": 8756,
+    "ig_reels_video_view_total_time": 1672510,
+    "cuando": "2026-10-30T02:37"
+   }
+  },
+  "18136482181659197": {
+   "slug": "en-006-five-second-rule",
+   "publicado": "2026-10-29T15:35:07+0000",
+   "duracion": null,
+   "ultimo": {
+    "views": 596,
+    "reach": 494,
+    "likes": 8,
+    "comments": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 8,
+    "ig_reels_avg_watch_time": 14265,
+    "ig_reels_video_view_total_time": 6933205,
+    "cuando": "2026-10-30T02:37"
+   }
+  },
+  "17941745502390982": {
+   "slug": "en-005-fridge-part-2",
+   "publicado": "2026-10-29T22:34:40+0000",
+   "duracion": null,
+   "ultimo": {
+    "views": 195,
+    "reach": 172,
+    "likes": 1,
+    "comments": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1,
+    "ig_reels_avg_watch_time": 9597,
+    "ig_reels_video_view_total_time": 1641172,
+    "cuando": "2026-10-30T02:37"
    }
   }
  }

@@ -1,12 +1,12 @@
 {
- "actualizado": "2026-10-29T22:53",
+ "actualizado": "2026-10-30T02:37",
  "oficinas": [
   {
    "clave": "es",
    "usuario": "teloexplico.ar",
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
-   "seguidores": 254,
+   "seguidores": 296,
    "listos": 10,
    "dias": 5.0,
    "proximo": "011-sal-agua-hierve",
@@ -102,7 +102,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-29T22:38",
-     "hace": "hace 15 min",
+     "hace": "hace 3 h",
      "detalle": [
       "Uso: 39 pasos · 76,809 tokens nuevos · 1,176,180 de caché · 19,907 escritos · equivale a US$ 0.62 de API",
       "Resumen:",
@@ -142,7 +142,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsqueda web (alertas SMN hoy, clima/tendencias): sin resultados fechados de hoy (lo más cercano: alerta amarilla Chubut lunes 26 oct sin año co",
      "cuando": "2026-10-29T16:06",
-     "hace": "hace 6 h",
+     "hace": "hace 10 h",
      "detalle": [
       "27/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy (solo notas de feb/2023/2025 o sin fecha; tendencias genéricas: Ipsos preocupaciones, Mundial). Candidatos: (1) clima/alertas SMN -> sin fuente del día, y ya hay 004, 005 y 016 -> descartado; (2) calor extremo de primavera -> sin alerta fechada que lo confirme -> descartado; (3) tendencias/redes -> sin evidencia de un tema que todos vivan hoy. No se produce video de actualidad; sigue la cola normal.",
       "28/10 00:00 | Revisión radar. Búsqueda web (alertas SMN): sin resultados fechados de hoy (lo más reciente es de julio). Sin tema de actualidad verificable; sigue la cola normal (pedido de Mateo: rehacer en 3D, empezando por 024-granizo-corto).",
@@ -176,7 +176,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-10-29T22:37",
-     "hace": "hace 16 min",
+     "hace": "hace 4 h",
      "detalle": [
       "020-pava-se-corta: aprobado — Versión final del guion, recortada y sin John Taylor. Las 9 frases están verificadas con fuentes y tienen el matiz correcto. Lo de seguridad",
       "008-aire-en-17: aprobado — Todas las afirmaciones factuales estan verificadas con fuentes oficiales argentinas (Secretaria de Energia de la Nacion y ENRE) y fuentes te",
@@ -209,7 +209,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-10-29T22:37",
-     "hace": "hace 16 min",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -233,7 +233,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-29 22:37.",
      "cuando": "2026-10-29T22:37",
-     "hace": "hace 16 min",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -257,7 +257,7 @@
      "estado": "ok",
      "resumen": "10 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-10-29T22:37",
-     "hace": "hace 16 min",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -281,7 +281,7 @@
      "estado": "ok",
      "resumen": "Último: 015-descongelar-mesada.",
      "cuando": "2026-10-29T19:34",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [
       "29/10 12:32 021-heladera-parte-2 publicado: https://www.instagram.com/reel/DfFVi-5lIRm/",
       "29/10 12:33 021-heladera-parte-2 publicado en Facebook: https://www.facebook.com/reel/1434365651455189/",
@@ -318,7 +318,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-29T19:34",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [
       "28/10 19:33 012-lavar-pollo https://youtube.com/shorts/yK63IAofoH8 | privacidad: public",
       "28/10 19:33 012-lavar-pollo paquete para TikTok/YouTube enviado",
@@ -350,7 +350,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-10-29T22:38",
-     "hace": "hace 15 min",
+     "hace": "hace 3 h",
      "detalle": [
       "2026-10-26 23:24 heladera: listo control OK",
       "2026-10-27 17:29 army-bomb: apartado dato demasiado largo (12 > 10): \"milisegundos…\"; números que no están en el cheq",
@@ -384,7 +384,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-10-29T18:58",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [
       "28/10 03:42 Termina la respuesta de comentarios (ok).",
       "29/10 03:49 Hay 4 comentarios nuevos: arranca la respuesta.",
@@ -419,25 +419,25 @@
       }
      },
      "estado": "ok",
-     "resumen": "29/10: 254 seguidores",
-     "cuando": "2026-10-29T02:37",
-     "hace": "hace 20 h",
+     "resumen": "30/10: 296 seguidores",
+     "cuando": "2026-10-30T02:36",
+     "hace": "hace 1 min",
      "detalle": [
-      "26/10: 179 seguidores",
       "27/10: 235 seguidores",
       "28/10: 249 seguidores",
-      "29/10: 254 seguidores"
+      "29/10: 254 seguidores",
+      "30/10: 296 seguidores"
      ],
      "tareas": [
-      "001-heladera: 102.362 vistas · 3390 enviados · 1722 ♥",
-      "007-bts-13-anios: 24.230 vistas · 469 enviados · 2088 ♥",
-      "006-army-bomb: 7.760 vistas · 41 enviados · 445 ♥",
-      "003-vuelta-carne: 3.495 vistas · 24 enviados · 77 ♥",
-      "020-pava-se-corta: 1.813 vistas · 2 enviados · 64 ♥"
+      "001-heladera: 110.660 vistas · 3936 enviados · 1956 ♥",
+      "007-bts-13-anios: 25.187 vistas · 511 enviados · 2238 ♥",
+      "006-army-bomb: 7.890 vistas · 44 enviados · 459 ♥",
+      "003-vuelta-carne: 3.658 vistas · 24 enviados · 85 ♥",
+      "020-pava-se-corta: 1.894 vistas · 3 enviados · 65 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "b10285449b5c"
+     "firma": "11c156f80af7"
     },
     {
      "id": "vigilante",
@@ -454,7 +454,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-29T22:53",
+     "cuando": "2026-10-30T02:37",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -529,6 +529,13 @@
    ],
    "linea": [
     {
+     "slug": "en-012-thunder-count",
+     "tema": "How far away is the storm? Count flash to thunder (adapted from 018)",
+     "estado": "render",
+     "cuando": "2026-10-30T02:37",
+     "motivo": "reintento auto: apartado por render/control; se renderiza y controla de nuevo"
+    },
+    {
      "slug": "en-007-flip-steak",
      "tema": "Flip a steak only once? (adapted from 003)",
      "estado": "listo",
@@ -555,13 +562,6 @@
      "estado": "listo",
      "cuando": "2026-10-29T08:39",
      "motivo": "render sin Claude"
-    },
-    {
-     "slug": "en-012-thunder-count",
-     "tema": "How far away is the storm? Count flash to thunder (adapted from 018)",
-     "estado": "apartado",
-     "cuando": "2026-10-29T22:52",
-     "motivo": "render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go "
     },
     {
      "slug": "en-005-fridge-part-2",
@@ -596,7 +596,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-29T22:52",
-     "hace": "hace 1 min",
+     "hace": "hace 3 h",
      "detalle": [
       "Uso: 53 pasos · 78,174 tokens nuevos · 1,731,964 de caché · 18,892 escritos · equivale a US$ 0.80 de API",
       "2026-10-29 22:38 Arranca la producción (5 listos en la cola, meta 6).",
@@ -611,7 +611,9 @@
       "2026-10-29 22:52 en-012-thunder-count: apartado (render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the frien",
       "2026-10-29 22:52 Termina la producción (ok)."
      ],
-     "tareas": [],
+     "tareas": [
+      "en-012-thunder-count — How far away is the storm? Count flash to thunder (adapted from 018)"
+     ],
      "arreglo": null,
      "solo": false,
      "firma": "8b534caf15af"
@@ -633,7 +635,7 @@
      "estado": "ok",
      "resumen": "Cuarta pasada del radar: la búsqueda web solo devolvió notas viejas (2013–2024) y una de septiembre 2026; nada verificable de las últimas 48 h. Descartados: (1)",
      "cuando": "2026-10-29T16:06",
-     "hace": "hace 6 h",
+     "hace": "hace 10 h",
      "detalle": [
       "27/10 00:00 Segunda pasada del radar: no se produce otro tema. en-002-dst-farmers (🔥, listo) ya cubre la actualidad del día; no se fuerza un segundo video.",
       "28/10 00:00 Tercera pasada del radar: sin tema nuevo. Descartados: (1) humo/incendios en el Noroeste (Spokane): evento regional, sin fuente oficial del día y con riesgo de damnificados; (2) superluna de octubre: las fuentes dicen que no hay (la próxima es el 24/11), sin gancho; (3) primera helada/nieve: nada concreto ni reciente en la búsqueda. El cambio de hora (en-002, publicado) ya cubre la actualidad; Halloween ya está en cola (en-004).",
@@ -663,7 +665,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-10-29T19:34",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [
       "en-005-fridge-part-2: aprobado — Se corrigieron las dos observaciones: 'Not 5...' ya no esta en el caption y el freezer ahora dice 'for soups and stews ... two to three mont",
       "en-006-five-second-rule: aprobado — Segunda pasada con busqueda web. Todas las afirmaciones coinciden con Miranda & Schaffner 2016 (Applied and Environmental Microbiology 82(21",
@@ -693,17 +695,15 @@
        "cuenta": "en"
       }
      },
-     "estado": "aviso",
-     "resumen": "La voz no coincidió con el guion en en-012-thunder-count.",
+     "estado": "ok",
+     "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-10-29T19:34",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [],
-     "tareas": [
-      "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go "
-     ],
-     "arreglo": "Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.",
+     "tareas": [],
+     "arreglo": null,
      "solo": false,
-     "firma": "953dc1971713"
+     "firma": "c766d204df67"
     },
     {
      "id": "animador",
@@ -719,17 +719,17 @@
        "cuenta": "en"
       }
      },
-     "estado": "falla",
-     "resumen": "Falló el render de en-012-thunder-count.",
+     "estado": "trabajando",
+     "resumen": "1 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
      "cuando": "2026-10-29T19:34",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [],
      "tareas": [
-      "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste"
+      "en-012-thunder-count"
      ],
-     "arreglo": "Relanzá la producción: los videos en estado render se vuelven a renderizar solos.",
+     "arreglo": null,
      "solo": false,
-     "firma": "f53050cb6af8"
+     "firma": "d622e976d504"
     },
     {
      "id": "control",
@@ -748,7 +748,7 @@
      "estado": "ok",
      "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-10-29T19:34",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -772,7 +772,7 @@
      "estado": "ok",
      "resumen": "Último: en-005-fridge-part-2.",
      "cuando": "2026-10-29T19:35",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [
       "28/10 19:36 en-004-sugar-hyper en la bandeja de TikTok",
       "28/10 19:36 en-004-sugar-hyper paquete para TikTok/YouTube enviado",
@@ -809,7 +809,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-29T19:35",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [
       "28/10 12:36 en-003-fridge-leftovers en la bandeja de TikTok",
       "28/10 12:36 en-003-fridge-leftovers paquete para TikTok/YouTube enviado",
@@ -865,22 +865,24 @@
       }
      },
      "estado": "ok",
-     "resumen": "29/10: 2 seguidores",
-     "cuando": "2026-10-29T02:38",
-     "hace": "hace 20 h",
+     "resumen": "30/10: 2 seguidores",
+     "cuando": "2026-10-30T02:37",
+     "hace": "recién",
      "detalle": [
       "28/10: 2 seguidores",
-      "29/10: 2 seguidores"
+      "29/10: 2 seguidores",
+      "30/10: 2 seguidores"
      ],
      "tareas": [
-      "en-001-phone-rice: 3.743 vistas · 16 enviados · 47 ♥",
-      "en-002-dst-farmers: 491 vistas · 0 enviados · 9 ♥",
-      "en-004-sugar-hyper: 208 vistas · 0 enviados · 1 ♥",
-      "en-003-fridge-leftovers: 186 vistas · 0 enviados · 2 ♥"
+      "en-001-phone-rice: 3.797 vistas · 16 enviados · 48 ♥",
+      "en-006-five-second-rule: 596 vistas · 0 enviados · 8 ♥",
+      "en-002-dst-farmers: 493 vistas · 0 enviados · 9 ♥",
+      "en-004-sugar-hyper: 210 vistas · 0 enviados · 1 ♥",
+      "en-005-fridge-part-2: 195 vistas · 0 enviados · 1 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "833be264262d"
+     "firma": "d3ae726d7840"
     },
     {
      "id": "vigilante",
@@ -895,17 +897,15 @@
        "modo": "vigilar"
       }
      },
-     "estado": "aviso",
-     "resumen": "Video apartado: en-012-thunder-count — render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Us",
-     "cuando": "2026-10-29T22:53",
+     "estado": "ok",
+     "resumen": "Todo en orden ✓",
+     "cuando": "2026-10-30T02:37",
      "hace": "recién",
-     "detalle": [
-      "⚠️ Video apartado: en-012-thunder-count — render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Us"
-     ],
+     "detalle": [],
      "tareas": [],
      "arreglo": null,
-     "solo": true,
-     "firma": "d9c063aa884a"
+     "solo": false,
+     "firma": "3e900f50565c"
     }
    ]
   }

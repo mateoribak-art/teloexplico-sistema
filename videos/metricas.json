@@ -19,6 +19,10 @@
   "2026-10-29": {
    "seguidores": 254,
    "posts": 11
+  },
+  "2026-10-30": {
+   "seguidores": 296,
+   "posts": 14
   }
  },
  "reels": {
@@ -27,16 +31,16 @@
    "publicado": "2026-10-24T18:46:20+0000",
    "duracion": 58.7,
    "ultimo": {
-    "views": 322,
-    "reach": 237,
-    "likes": 9,
+    "views": 334,
+    "reach": 245,
+    "likes": 10,
     "comments": 0,
     "shares": 0,
-    "saved": 0,
-    "total_interactions": 10,
-    "ig_reels_avg_watch_time": 11497,
-    "ig_reels_video_view_total_time": 3000769,
-    "cuando": "2026-10-29T02:37"
+    "saved": 1,
+    "total_interactions": 12,
+    "ig_reels_avg_watch_time": 12008,
+    "ig_reels_video_view_total_time": 3242260,
+    "cuando": "2026-10-30T02:36"
    }
   },
   "18567516820079365": {
@@ -44,16 +48,16 @@
    "publicado": "2026-10-25T00:10:51+0000",
    "duracion": 66.7,
    "ultimo": {
-    "views": 7760,
-    "reach": 6385,
-    "likes": 445,
+    "views": 7890,
+    "reach": 6496,
+    "likes": 459,
     "comments": 0,
-    "shares": 41,
-    "saved": 32,
-    "total_interactions": 536,
-    "ig_reels_avg_watch_time": 28521,
-    "ig_reels_video_view_total_time": 184532822,
-    "cuando": "2026-10-29T02:37"
+    "shares": 44,
+    "saved": 33,
+    "total_interactions": 555,
+    "ig_reels_avg_watch_time": 28552,
+    "ig_reels_video_view_total_time": 187848820,
+    "cuando": "2026-10-30T02:36"
    }
   },
   "18098154005560390": {
@@ -61,16 +65,16 @@
    "publicado": "2026-10-25T17:04:17+0000",
    "duracion": null,
    "ultimo": {
-    "views": 24230,
-    "reach": 16781,
-    "likes": 2088,
+    "views": 25187,
+    "reach": 17386,
+    "likes": 2238,
     "comments": 33,
-    "shares": 469,
-    "saved": 265,
-    "total_interactions": 2992,
-    "ig_reels_avg_watch_time": 37991,
-    "ig_reels_video_view_total_time": 684649525,
-    "cuando": "2026-10-29T02:37"
+    "shares": 511,
+    "saved": 283,
+    "total_interactions": 3221,
+    "ig_reels_avg_watch_time": 37967,
+    "ig_reels_video_view_total_time": 710515581,
+    "cuando": "2026-10-30T02:36"
    }
   },
   "18121053625743851": {
@@ -78,16 +82,16 @@
    "publicado": "2026-10-25T22:34:02+0000",
    "duracion": null,
    "ultimo": {
-    "views": 102362,
-    "reach": 76047,
-    "likes": 1722,
-    "comments": 28,
-    "shares": 3390,
-    "saved": 747,
-    "total_interactions": 5981,
-    "ig_reels_avg_watch_time": 21671,
-    "ig_reels_video_view_total_time": 1657611346,
-    "cuando": "2026-10-29T02:37"
+    "views": 110660,
+    "reach": 81823,
+    "likes": 1956,
+    "comments": 36,
+    "shares": 3936,
+    "saved": 811,
+    "total_interactions": 6851,
+    "ig_reels_avg_watch_time": 21790,
+    "ig_reels_video_view_total_time": 1793797342,
+    "cuando": "2026-10-30T02:36"
    }
   },
   "18077279345737569": {
@@ -95,16 +99,16 @@
    "publicado": "2026-10-26T15:33:55+0000",
    "duracion": 47.6,
    "ultimo": {
-    "views": 1524,
-    "reach": 1198,
+    "views": 1540,
+    "reach": 1205,
     "likes": 25,
     "comments": 0,
     "shares": 2,
     "saved": 0,
     "total_interactions": 28,
-    "ig_reels_avg_watch_time": 16243,
-    "ig_reels_video_view_total_time": 20352685,
-    "cuando": "2026-10-29T02:37"
+    "ig_reels_avg_watch_time": 16287,
+    "ig_reels_video_view_total_time": 20603364,
+    "cuando": "2026-10-30T02:36"
    }
   },
   "17917671888263864": {
@@ -112,16 +116,16 @@
    "publicado": "2026-10-26T22:33:52+0000",
    "duracion": 48.7,
    "ultimo": {
-    "views": 3495,
-    "reach": 2896,
-    "likes": 77,
+    "views": 3658,
+    "reach": 3045,
+    "likes": 85,
     "comments": 0,
     "shares": 24,
-    "saved": 12,
-    "total_interactions": 115,
-    "ig_reels_avg_watch_time": 20741,
-    "ig_reels_video_view_total_time": 60647018,
-    "cuando": "2026-10-29T02:37"
+    "saved": 13,
+    "total_interactions": 124,
+    "ig_reels_avg_watch_time": 20843,
+    "ig_reels_video_view_total_time": 63738796,
+    "cuando": "2026-10-30T02:36"
    }
   },
   "18185446939421653": {
@@ -129,16 +133,16 @@
    "publicado": "2026-10-27T15:32:40+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1143,
-    "reach": 967,
+    "views": 1161,
+    "reach": 977,
     "likes": 31,
     "comments": 0,
     "shares": 1,
     "saved": 3,
     "total_interactions": 36,
-    "ig_reels_avg_watch_time": 9935,
-    "ig_reels_video_view_total_time": 9468480,
-    "cuando": "2026-10-29T02:37"
+    "ig_reels_avg_watch_time": 9968,
+    "ig_reels_video_view_total_time": 9609692,
+    "cuando": "2026-10-30T02:36"
    }
   },
   "18120901102950199": {
@@ -146,16 +150,16 @@
    "publicado": "2026-10-27T22:32:32+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1474,
-    "reach": 1237,
+    "views": 1486,
+    "reach": 1246,
     "likes": 28,
     "comments": 0,
     "shares": 0,
     "saved": 3,
     "total_interactions": 32,
-    "ig_reels_avg_watch_time": 13742,
-    "ig_reels_video_view_total_time": 17027519,
-    "cuando": "2026-10-29T02:37"
+    "ig_reels_avg_watch_time": 13740,
+    "ig_reels_video_view_total_time": 17148351,
+    "cuando": "2026-10-30T02:36"
    }
   },
   "18050682212811249": {
@@ -163,16 +167,16 @@
    "publicado": "2026-10-28T15:32:41+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1813,
-    "reach": 1537,
-    "likes": 64,
+    "views": 1894,
+    "reach": 1604,
+    "likes": 65,
     "comments": 0,
-    "shares": 2,
-    "saved": 3,
-    "total_interactions": 70,
-    "ig_reels_avg_watch_time": 17360,
-    "ig_reels_video_view_total_time": 27307875,
-    "cuando": "2026-10-29T02:37"
+    "shares": 3,
+    "saved": 4,
+    "total_interactions": 73,
+    "ig_reels_avg_watch_time": 17311,
+    "ig_reels_video_view_total_time": 28443166,
+    "cuando": "2026-10-30T02:36"
    }
   },
   "17953956969308125": {
@@ -180,16 +184,50 @@
    "publicado": "2026-10-28T22:32:28+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1291,
-    "reach": 1136,
-    "likes": 15,
+    "views": 1429,
+    "reach": 1249,
+    "likes": 18,
+    "comments": 0,
+    "shares": 4,
+    "saved": 3,
+    "total_interactions": 27,
+    "ig_reels_avg_watch_time": 13343,
+    "ig_reels_video_view_total_time": 16906664,
+    "cuando": "2026-10-30T02:36"
+   }
+  },
+  "18145293574514320": {
+   "slug": "021-heladera-parte-2",
+   "publicado": "2026-10-29T15:32:49+0000",
+   "duracion": null,
+   "ultimo": {
+    "views": 1789,
+    "reach": 1470,
+    "likes": 53,
     "comments": 0,
     "shares": 3,
-    "saved": 2,
-    "total_interactions": 22,
-    "ig_reels_avg_watch_time": 13094,
-    "ig_reels_video_view_total_time": 15019837,
-    "cuando": "2026-10-29T02:37"
+    "saved": 3,
+    "total_interactions": 60,
+    "ig_reels_avg_watch_time": 16010,
+    "ig_reels_video_view_total_time": 23567630,
+    "cuando": "2026-10-30T02:36"
+   }
+  },
+  "18214360234363882": {
+   "slug": "015-descongelar-mesada",
+   "publicado": "2026-10-29T22:32:38+0000",
+   "duracion": null,
+   "ultimo": {
+    "views": 1464,
+    "reach": 1260,
+    "likes": 37,
+    "comments": 0,
+    "shares": 8,
+    "saved": 4,
+    "total_interactions": 49,
+    "ig_reels_avg_watch_time": 19354,
+    "ig_reels_video_view_total_time": 24038440,
+    "cuando": "2026-10-30T02:36"
    }
   }
  },
@@ -198,8 +236,8 @@
    "clave": "bts",
    "publicado": "2026-10-27T02:18:52+0000",
    "ultimo": {
-    "views": 96,
-    "reach": 32,
+    "views": 121,
+    "reach": 36,
     "likes": 4,
     "comments": 0,
     "shares": 0,
@@ -207,7 +245,23 @@
     "total_interactions": 5,
     "profile_visits": 3,
     "follows": 0,
-    "cuando": "2026-10-29T02:38"
+    "cuando": "2026-10-30T02:36"
+   }
+  },
+  "17876194278594788": {
+   "clave": "heladera",
+   "publicado": "2026-10-29T23:22:36+0000",
+   "ultimo": {
+    "views": 49,
+    "reach": 20,
+    "likes": 1,
+    "comments": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 2,
+    "profile_visits": 0,
+    "follows": 0,
+    "cuando": "2026-10-30T02:36"
    }
   }
  }
