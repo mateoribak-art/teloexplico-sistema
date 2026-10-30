@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T02:37",
+ "actualizado": "2026-10-30T03:21",
  "oficinas": [
   {
    "clave": "es",
@@ -102,7 +102,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-29T22:38",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "Uso: 39 pasos · 76,809 tokens nuevos · 1,176,180 de caché · 19,907 escritos · equivale a US$ 0.62 de API",
       "Resumen:",
@@ -142,7 +142,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsqueda web (alertas SMN hoy, clima/tendencias): sin resultados fechados de hoy (lo más cercano: alerta amarilla Chubut lunes 26 oct sin año co",
      "cuando": "2026-10-29T16:06",
-     "hace": "hace 10 h",
+     "hace": "hace 11 h",
      "detalle": [
       "27/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy (solo notas de feb/2023/2025 o sin fecha; tendencias genéricas: Ipsos preocupaciones, Mundial). Candidatos: (1) clima/alertas SMN -> sin fuente del día, y ya hay 004, 005 y 016 -> descartado; (2) calor extremo de primavera -> sin alerta fechada que lo confirme -> descartado; (3) tendencias/redes -> sin evidencia de un tema que todos vivan hoy. No se produce video de actualidad; sigue la cola normal.",
       "28/10 00:00 | Revisión radar. Búsqueda web (alertas SMN): sin resultados fechados de hoy (lo más reciente es de julio). Sin tema de actualidad verificable; sigue la cola normal (pedido de Mateo: rehacer en 3D, empezando por 024-granizo-corto).",
@@ -350,7 +350,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-10-29T22:38",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "2026-10-26 23:24 heladera: listo control OK",
       "2026-10-27 17:29 army-bomb: apartado dato demasiado largo (12 > 10): \"milisegundos…\"; números que no están en el cheq",
@@ -384,7 +384,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-10-29T18:58",
-     "hace": "hace 7 h",
+     "hace": "hace 8 h",
      "detalle": [
       "28/10 03:42 Termina la respuesta de comentarios (ok).",
       "29/10 03:49 Hay 4 comentarios nuevos: arranca la respuesta.",
@@ -421,7 +421,7 @@
      "estado": "ok",
      "resumen": "30/10: 296 seguidores",
      "cuando": "2026-10-30T02:36",
-     "hace": "hace 1 min",
+     "hace": "hace 45 min",
      "detalle": [
       "27/10: 235 seguidores",
       "28/10: 249 seguidores",
@@ -454,7 +454,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-30T02:37",
+     "cuando": "2026-10-30T03:21",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -596,7 +596,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-10-29T22:52",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "Uso: 53 pasos · 78,174 tokens nuevos · 1,731,964 de caché · 18,892 escritos · equivale a US$ 0.80 de API",
       "2026-10-29 22:38 Arranca la producción (5 listos en la cola, meta 6).",
@@ -635,7 +635,7 @@
      "estado": "ok",
      "resumen": "Cuarta pasada del radar: la búsqueda web solo devolvió notas viejas (2013–2024) y una de septiembre 2026; nada verificable de las últimas 48 h. Descartados: (1)",
      "cuando": "2026-10-29T16:06",
-     "hace": "hace 10 h",
+     "hace": "hace 11 h",
      "detalle": [
       "27/10 00:00 Segunda pasada del radar: no se produce otro tema. en-002-dst-farmers (🔥, listo) ya cubre la actualidad del día; no se fuerza un segundo video.",
       "28/10 00:00 Tercera pasada del radar: sin tema nuevo. Descartados: (1) humo/incendios en el Noroeste (Spokane): evento regional, sin fuente oficial del día y con riesgo de damnificados; (2) superluna de octubre: las fuentes dicen que no hay (la próxima es el 24/11), sin gancho; (3) primera helada/nieve: nada concreto ni reciente en la búsqueda. El cambio de hora (en-002, publicado) ya cubre la actualidad; Halloween ya está en cola (en-004).",
@@ -867,7 +867,7 @@
      "estado": "ok",
      "resumen": "30/10: 2 seguidores",
      "cuando": "2026-10-30T02:37",
-     "hace": "recién",
+     "hace": "hace 44 min",
      "detalle": [
       "28/10: 2 seguidores",
       "29/10: 2 seguidores",
@@ -899,7 +899,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-30T02:37",
+     "cuando": "2026-10-30T03:21",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
