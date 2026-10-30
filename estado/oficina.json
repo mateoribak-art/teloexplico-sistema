@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T04:17",
+ "actualizado": "2026-10-30T08:55",
  "oficinas": [
   {
    "clave": "es",
@@ -59,8 +59,8 @@
      "slug": "018-refresca-tormenta",
      "tema": "¿Por qué después de la tormenta refresca de golpe? (corriente descendente)",
      "estado": "listo",
-     "cuando": "2026-10-27T22:17",
-     "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
+     "cuando": "2026-10-30T08:01",
+     "motivo": "render sin Claude"
     },
     {
      "slug": "014-celular-arroz",
@@ -101,24 +101,19 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-10-29T22:38",
-     "hace": "hace 5 h",
+     "cuando": "2026-10-30T08:01",
+     "hace": "hace 54 min",
      "detalle": [
-      "Uso: 39 pasos · 76,809 tokens nuevos · 1,176,180 de caché · 19,907 escritos · equivale a US$ 0.62 de API",
-      "Resumen:",
-      "- **Producido:** `014-celular-arroz`, el pedido de Mateo de rehacer en 3D (van 5 de 7), quedó en estado `render` con escenas 3D nuevas (`Celular.tsx`). Reusa el guion y el chequeo aprobado, la voz se regeneró (55,5 s) y `tsc` pasó. Hice 1 v",
-      "- **Rescates:** no había apartados por \"chequeo rechazado\" para rescatar. El 011 ya se había rescatado hoy y el 013 ya falló dos veces (salud, solo probable), así que sigue apartado.",
-      "- **Segundo video:** no lo hice. Con 10 listos en la cola (el límite del pedido es menos de 10), no correspondía.",
-      "- **Incidente:** sin querer sobrescribí `videos/produccion.log` con Write. Lo restauré completo desde `git show HEAD` y le agregué la línea de hoy. Pasé por encima de la regla de usar solo comandos de la lista. Conviene revisar el diff de e",
-      "Uso: 39 pasos · 76,809 tokens nuevos · 1,176,180 de caché · 19,907 escritos · equivale a US$ 0.62 de API",
-      "2026-10-29 22:26 Render de 014-celular-arroz (sin Claude).",
-      "2026-10-29 22:37 014-celular-arroz: listo (render sin Claude)",
-      "2026-10-29 22:37 Termina la producción (ok).",
-      "2026-10-29 22:37 Arranca el carrusel (1 listos, meta 2).",
-      "`vuelta-carne`: quedó listo. Son 7 placas hechas con el chequeo aprobado de `003-vuelta-carne`, que es el reel publicado el 26/10 con más compartidos y sin carrusel. El control dio LISTO en las dos corridas.",
-      "Corregí dos cosas después de mirar `hoja.png`: el texto grande de la tapa se cortaba, así que lo acorté a \"seguido sí\". Y cambié un renglón del resumen que tenía una cruz que no correspondía. No volví a abrir la hoja después de esos cambios",
-      "Uso: 22 pasos · 31,032 tokens nuevos · 429,034 de caché · 3,745 escritos · equivale a US$ 0.20 de API",
-      "2026-10-29 22:38 Termina el carrusel (ok; quedan 2 listos)."
+      "Uso: 37 pasos · 57,802 tokens nuevos · 1,214,401 de caché · 12,805 escritos · equivale a US$ 0.48 de API",
+      "2026-10-30 07:21 Arranca la producción (10 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
+      "Terminé un video, pero se me rompió una cosa: **sobrescribí `videos/produccion.log` entero** al agregar mi línea. Quedó solo la entrada de hoy y perdí las anteriores. Usé Write en vez de Edit. El archivo tiene historial en git, así que se r",
+      "- **Listo para render:** `018-refresca-tormenta`, rehecho en 3D como pedido de Mateo (6 de 7). Reusa el guion y el chequeo aprobados. La voz se regeneró y salió de 39 s, con las 110 palabras. `tsc` dio OK y miré una vuelta de cuadros. Agreg",
+      "- **Apartado:** `013-alcohol-calor` sigue así. Ya falló el chequeo dos veces (salud, solo probable) y la regla da un solo intento.",
+      "- **No producido:** no hice un segundo video porque la cola tenía 10 listos. Tampoco revisé el radar en esta corrida.",
+      "Uso: 37 pasos · 57,802 tokens nuevos · 1,214,401 de caché · 12,805 escritos · equivale a US$ 0.48 de API",
+      "2026-10-30 07:26 Render de 018-refresca-tormenta (sin Claude).",
+      "2026-10-30 08:01 018-refresca-tormenta: listo (render sin Claude)",
+      "2026-10-30 08:01 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -142,7 +137,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsqueda web (alertas SMN hoy, clima/tendencias): sin resultados fechados de hoy (lo más cercano: alerta amarilla Chubut lunes 26 oct sin año co",
      "cuando": "2026-10-29T16:06",
-     "hace": "hace 12 h",
+     "hace": "hace 16 h",
      "detalle": [
       "27/10 00:00 | Revisión radar. Búsqueda web (alertas SMN, tendencias): sin resultados fechados de hoy (solo notas de feb/2023/2025 o sin fecha; tendencias genéricas: Ipsos preocupaciones, Mundial). Candidatos: (1) clima/alertas SMN -> sin fuente del día, y ya hay 004, 005 y 016 -> descartado; (2) calor extremo de primavera -> sin alerta fechada que lo confirme -> descartado; (3) tendencias/redes -> sin evidencia de un tema que todos vivan hoy. No se produce video de actualidad; sigue la cola normal.",
       "28/10 00:00 | Revisión radar. Búsqueda web (alertas SMN): sin resultados fechados de hoy (lo más reciente es de julio). Sin tema de actualidad verificable; sigue la cola normal (pedido de Mateo: rehacer en 3D, empezando por 024-granizo-corto).",
@@ -175,8 +170,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-10-29T22:37",
-     "hace": "hace 5 h",
+     "cuando": "2026-10-30T08:01",
+     "hace": "hace 54 min",
      "detalle": [
       "020-pava-se-corta: aprobado — Versión final del guion, recortada y sin John Taylor. Las 9 frases están verificadas con fuentes y tienen el matiz correcto. Lo de seguridad",
       "008-aire-en-17: aprobado — Todas las afirmaciones factuales estan verificadas con fuentes oficiales argentinas (Secretaria de Energia de la Nacion y ENRE) y fuentes te",
@@ -208,8 +203,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-10-29T22:37",
-     "hace": "hace 5 h",
+     "cuando": "2026-10-30T08:01",
+     "hace": "hace 54 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -231,14 +226,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-10-29 22:37.",
-     "cuando": "2026-10-29T22:37",
-     "hace": "hace 5 h",
+     "resumen": "Último video terminado: 2026-10-30 08:01.",
+     "cuando": "2026-10-30T08:01",
+     "hace": "hace 54 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "ae22a5843e52"
+     "firma": "f3cda8ebfb53"
     },
     {
      "id": "control",
@@ -256,8 +251,8 @@
      },
      "estado": "ok",
      "resumen": "10 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-10-29T22:37",
-     "hace": "hace 5 h",
+     "cuando": "2026-10-30T08:01",
+     "hace": "hace 54 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -281,7 +276,7 @@
      "estado": "ok",
      "resumen": "Último: 015-descongelar-mesada.",
      "cuando": "2026-10-29T19:34",
-     "hace": "hace 8 h",
+     "hace": "hace 13 h",
      "detalle": [
       "29/10 12:32 021-heladera-parte-2 publicado: https://www.instagram.com/reel/DfFVi-5lIRm/",
       "29/10 12:33 021-heladera-parte-2 publicado en Facebook: https://www.facebook.com/reel/1434365651455189/",
@@ -318,7 +313,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-29T19:34",
-     "hace": "hace 8 h",
+     "hace": "hace 13 h",
      "detalle": [
       "28/10 19:33 012-lavar-pollo https://youtube.com/shorts/yK63IAofoH8 | privacidad: public",
       "28/10 19:33 012-lavar-pollo paquete para TikTok/YouTube enviado",
@@ -350,7 +345,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-10-29T22:38",
-     "hace": "hace 5 h",
+     "hace": "hace 10 h",
      "detalle": [
       "2026-10-26 23:24 heladera: listo control OK",
       "2026-10-27 17:29 army-bomb: apartado dato demasiado largo (12 > 10): \"milisegundos…\"; números que no están en el cheq",
@@ -384,7 +379,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-10-30T03:52",
-     "hace": "hace 25 min",
+     "hace": "hace 5 h",
      "detalle": [
       "29/10 18:58 Hay 2 comentarios nuevos: arranca la respuesta.",
       "29/10 00:00 Respondí 0 · salteé 2 · alerté 0. (ferxrock: consejo de cubiertos fuera del guion; arletemsimon: \"Bahhh!\" sin contenido)",
@@ -421,7 +416,7 @@
      "estado": "ok",
      "resumen": "30/10: 296 seguidores",
      "cuando": "2026-10-30T02:36",
-     "hace": "hace 1 h",
+     "hace": "hace 6 h",
      "detalle": [
       "27/10: 235 seguidores",
       "28/10: 249 seguidores",
@@ -454,7 +449,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-30T04:17",
+     "cuando": "2026-10-30T08:55",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -494,8 +489,8 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 2,
-   "listos": 5,
-   "dias": 2.5,
+   "listos": 6,
+   "dias": 3.0,
    "proximo": "en-007-flip-steak",
    "publicados": 6,
    "pausa": false,
@@ -529,13 +524,6 @@
    ],
    "linea": [
     {
-     "slug": "en-012-thunder-count",
-     "tema": "How far away is the storm? Count flash to thunder (adapted from 018)",
-     "estado": "render",
-     "cuando": "2026-10-30T02:37",
-     "motivo": "reintento auto: apartado por render/control; se renderiza y controla de nuevo"
-    },
-    {
      "slug": "en-007-flip-steak",
      "tema": "Flip a steak only once? (adapted from 003)",
      "estado": "listo",
@@ -562,6 +550,13 @@
      "estado": "listo",
      "cuando": "2026-10-29T08:39",
      "motivo": "render sin Claude"
+    },
+    {
+     "slug": "en-012-thunder-count",
+     "tema": "How far away is the storm? Count flash to thunder (adapted from 018)",
+     "estado": "apartado",
+     "cuando": "2026-10-30T08:19",
+     "motivo": "render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go "
     },
     {
      "slug": "en-005-fridge-part-2",
@@ -595,25 +590,22 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-10-29T22:52",
-     "hace": "hace 5 h",
+     "cuando": "2026-10-30T08:55",
+     "hace": "recién",
      "detalle": [
-      "Uso: 53 pasos · 78,174 tokens nuevos · 1,731,964 de caché · 18,892 escritos · equivale a US$ 0.80 de API",
-      "2026-10-29 22:38 Arranca la producción (5 listos en la cola, meta 6).",
-      "- **Listo para render:** `en-012-thunder-count`, adaptado de `018-rayo-trueno`, escena 3D nueva (`Rayo.tsx`). El chequeo lo aprobó a la primera, con todo verificado contra el NWS/NOAA (5 s por milla, 15 s ≈ 3 millas, \"likely within striking",
-      "- **Rescates:** no había videos apartados con \"chequeo rechazado\" por rescatar (`en-008` ya se había rehecho antes).",
-      "- **Pendientes y límites:**",
-      "  - La voz salió bien a la segunda tirada. La primera tenía 70 de 95 palabras oídas y los tiempos mal.",
-      "  - Hice una sola vuelta de ajuste de cuadros. El rayo y las ondas se ven bien; la nube queda a veces pegada al borde derecho.",
-      "  - No hice el control ni el render final: eso lo hace `producir.py`.",
-      "Uso: 53 pasos · 78,174 tokens nuevos · 1,731,964 de caché · 18,892 escritos · equivale a US$ 0.80 de API",
-      "2026-10-29 22:44 Render de en-012-thunder-count (sin Claude).",
-      "2026-10-29 22:52 en-012-thunder-count: apartado (render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the frien",
-      "2026-10-29 22:52 Termina la producción (ok)."
+      "Uso: 9 pasos · 6,396 tokens nuevos · 379,872 de caché · 1,519 escritos · equivale a US$ 0.87 de API",
+      "2026-10-30 08:01 Arranca la producción (5 listos en la cola, meta 6).",
+      "2026-10-30 08:01 Render de en-012-thunder-count (sin Claude).",
+      "2026-10-30 08:19 en-012-thunder-count: apartado (render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the frien",
+      "- **Listo para render:** `en-013-searing-juices` (¿sellar el bife sella los jugos? Mito, serie Kitchen myths #7). `producir.py` lo renderiza y lo pasa a `listo`. El chequeo lo rechazó la primera vez por la atribución a McGee y el \"sizzle\" s",
+      "- **Apartado, sin tocar:** `en-012-thunder-count` figura como apartado en la cola, pero su chequeo está aprobado. No es un caso de \"chequeo rechazado\", así que no lo rescaté y no averigüé el motivo.",
+      "- **Sin revisión de actualidad:** no corrí el radar de EE. UU. esta vez. Pasaron más de 6 h desde el último y no busqué un tema del momento.",
+      "Uso: 9 pasos · 6,396 tokens nuevos · 379,872 de caché · 1,519 escritos · equivale a US$ 0.87 de API",
+      "2026-10-30 08:26 Render de en-013-searing-juices (sin Claude).",
+      "2026-10-30 08:55 en-013-searing-juices: listo (render sin Claude)",
+      "2026-10-30 08:55 Termina la producción (ok)."
      ],
-     "tareas": [
-      "en-012-thunder-count — How far away is the storm? Count flash to thunder (adapted from 018)"
-     ],
+     "tareas": [],
      "arreglo": null,
      "solo": false,
      "firma": "8b534caf15af"
@@ -635,7 +627,7 @@
      "estado": "ok",
      "resumen": "Cuarta pasada del radar: la búsqueda web solo devolvió notas viejas (2013–2024) y una de septiembre 2026; nada verificable de las últimas 48 h. Descartados: (1)",
      "cuando": "2026-10-29T16:06",
-     "hace": "hace 12 h",
+     "hace": "hace 16 h",
      "detalle": [
       "27/10 00:00 Segunda pasada del radar: no se produce otro tema. en-002-dst-farmers (🔥, listo) ya cubre la actualidad del día; no se fuerza un segundo video.",
       "28/10 00:00 Tercera pasada del radar: sin tema nuevo. Descartados: (1) humo/incendios en el Noroeste (Spokane): evento regional, sin fuente oficial del día y con riesgo de damnificados; (2) superluna de octubre: las fuentes dicen que no hay (la próxima es el 24/11), sin gancho; (3) primera helada/nieve: nada concreto ni reciente en la búsqueda. El cambio de hora (en-002, publicado) ya cubre la actualidad; Halloween ya está en cola (en-004).",
@@ -664,17 +656,17 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-10-29T19:34",
-     "hace": "hace 8 h",
+     "cuando": "2026-10-30T08:55",
+     "hace": "recién",
      "detalle": [
-      "en-005-fridge-part-2: aprobado — Se corrigieron las dos observaciones: 'Not 5...' ya no esta en el caption y el freezer ahora dice 'for soups and stews ... two to three mont",
       "en-006-five-second-rule: aprobado — Segunda pasada con busqueda web. Todas las afirmaciones coinciden con Miranda & Schaffner 2016 (Applied and Environmental Microbiology 82(21",
       "en-007-flip-steak: aprobado — Segundo intento. Se verificaron todas las frases con busqueda web. Las objeciones del chequeo previo quedaron corregidas: (1) 'the idea is',",
       "en-008-wash-chicken: aprobado — Todas las afirmaciones de salud/seguridad y cifras quedaron verificadas con fuentes de EE. UU. (CDC, USDA FSIS, NC State/J Food Prot). Unida",
       "en-009-ceiling-fan: aprobado — Todas las afirmaciones de plata/energia y seguridad-practica (sentido de giro por estacion, velocidad baja en invierno, apagar al salir, 'en",
       "en-010-thermostat-night: aprobado — Todas las cifras (7 a 10 °F, 8 horas por dia, hasta 10% por año) coinciden con Energy.gov (Energy Saver, thermostats / programmable thermost",
       "en-011-thaw-counter: aprobado — Se releyeron guion.json y caption.txt con las correcciones aplicadas. Todas las frases de salud/seguridad quedan verificadas contra USDA FSI",
-      "en-012-thunder-count: aprobado — Todas las afirmaciones de seguridad y cifras estan respaldadas por paginas del NWS/NOAA (weather.gov) y las unidades coinciden (millas, 5 s "
+      "en-012-thunder-count: aprobado — Todas las afirmaciones de seguridad y cifras estan respaldadas por paginas del NWS/NOAA (weather.gov) y las unidades coinciden (millas, 5 s ",
+      "en-013-searing-juices: aprobado — Todas las afirmaciones están respaldadas por America's Test Kitchen / Cook's Illustrated (prueba con 8 rib-eyes: ambos lotes perdieron ~22% "
      ],
      "tareas": [],
      "arreglo": null,
@@ -695,15 +687,17 @@
        "cuenta": "en"
       }
      },
-     "estado": "ok",
-     "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-10-29T19:34",
-     "hace": "hace 8 h",
+     "estado": "aviso",
+     "resumen": "La voz no coincidió con el guion en en-012-thunder-count.",
+     "cuando": "2026-10-30T08:55",
+     "hace": "recién",
      "detalle": [],
-     "tareas": [],
-     "arreglo": null,
+     "tareas": [
+      "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go "
+     ],
+     "arreglo": "Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.",
      "solo": false,
-     "firma": "c766d204df67"
+     "firma": "953dc1971713"
     },
     {
      "id": "animador",
@@ -719,17 +713,17 @@
        "cuenta": "en"
       }
      },
-     "estado": "trabajando",
-     "resumen": "1 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
-     "cuando": "2026-10-29T19:34",
-     "hace": "hace 8 h",
+     "estado": "falla",
+     "resumen": "Falló el render de en-012-thunder-count.",
+     "cuando": "2026-10-30T08:55",
+     "hace": "recién",
      "detalle": [],
      "tareas": [
-      "en-012-thunder-count"
+      "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste"
      ],
-     "arreglo": null,
+     "arreglo": "Relanzá la producción: los videos en estado render se vuelven a renderizar solos.",
      "solo": false,
-     "firma": "d622e976d504"
+     "firma": "f53050cb6af8"
     },
     {
      "id": "control",
@@ -746,14 +740,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-10-29T19:34",
-     "hace": "hace 8 h",
+     "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-10-30T08:55",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "bace1412aac6"
+     "firma": "625440fe5990"
     },
     {
      "id": "publicador",
@@ -772,7 +766,7 @@
      "estado": "ok",
      "resumen": "Último: en-005-fridge-part-2.",
      "cuando": "2026-10-29T19:35",
-     "hace": "hace 8 h",
+     "hace": "hace 13 h",
      "detalle": [
       "28/10 19:36 en-004-sugar-hyper en la bandeja de TikTok",
       "28/10 19:36 en-004-sugar-hyper paquete para TikTok/YouTube enviado",
@@ -809,7 +803,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-29T19:35",
-     "hace": "hace 8 h",
+     "hace": "hace 13 h",
      "detalle": [
       "28/10 12:36 en-003-fridge-leftovers en la bandeja de TikTok",
       "28/10 12:36 en-003-fridge-leftovers paquete para TikTok/YouTube enviado",
@@ -867,7 +861,7 @@
      "estado": "ok",
      "resumen": "30/10: 2 seguidores",
      "cuando": "2026-10-30T02:37",
-     "hace": "hace 1 h",
+     "hace": "hace 6 h",
      "detalle": [
       "28/10: 2 seguidores",
       "29/10: 2 seguidores",
@@ -897,15 +891,17 @@
        "modo": "vigilar"
       }
      },
-     "estado": "ok",
-     "resumen": "Todo en orden ✓",
-     "cuando": "2026-10-30T04:17",
+     "estado": "aviso",
+     "resumen": "Video apartado: en-012-thunder-count — render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Us",
+     "cuando": "2026-10-30T08:55",
      "hace": "recién",
-     "detalle": [],
+     "detalle": [
+      "⚠️ Video apartado: en-012-thunder-count — render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Us"
+     ],
      "tareas": [],
      "arreglo": null,
-     "solo": false,
-     "firma": "3e900f50565c"
+     "solo": true,
+     "firma": "d9c063aa884a"
     }
    ]
   }

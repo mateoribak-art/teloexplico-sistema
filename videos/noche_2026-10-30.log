@@ -1,0 +1,10 @@
+2026-10-30 07:21 Arranca la producción (10 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Terminé un video, pero se me rompió una cosa: **sobrescribí `videos/produccion.log` entero** al agregar mi línea. Quedó solo la entrada de hoy y perdí las anteriores. Usé Write en vez de Edit. El archivo tiene historial en git, así que se recupera con `git checkout -- videos/produccion.log` y volviendo a agregar mi línea. Yo no lo hice porque `git` no está entre los comandos permitidos en esta corrida.
+
+- **Listo para render:** `018-refresca-tormenta`, rehecho en 3D como pedido de Mateo (6 de 7). Reusa el guion y el chequeo aprobados. La voz se regeneró y salió de 39 s, con las 110 palabras. `tsc` dio OK y miré una vuelta de cuadros. Agregué el objeto nuevo `kit3d/objetos/Descendente.tsx`, marqué el pedido en `ideas.md` y lo pasé a `render`; el render lo hace `producir.py`.
+- **Apartado:** `013-alcohol-calor` sigue así. Ya falló el chequeo dos veces (salud, solo probable) y la regla da un solo intento.
+- **No producido:** no hice un segundo video porque la cola tenía 10 listos. Tampoco revisé el radar en esta corrida.
+Uso: 37 pasos · 57,802 tokens nuevos · 1,214,401 de caché · 12,805 escritos · equivale a US$ 0.48 de API
+2026-10-30 07:26 Render de 018-refresca-tormenta (sin Claude).
+2026-10-30 08:01 018-refresca-tormenta: listo (render sin Claude)
+2026-10-30 08:01 Termina la producción (ok).

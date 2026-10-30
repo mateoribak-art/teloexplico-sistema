@@ -1,0 +1,54 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones están respaldadas por America's Test Kitchen / Cook's Illustrated (prueba con 8 rib-eyes: ambos lotes perdieron ~22% de su peso en líquido) y el mito está desmentido en NPR (Jack Bishop). No hay afirmaciones de salud, seguridad ni dinero. Ninguna falsa; ninguna solo probable. Se sacó el '22%' del guion y se usó 'about the same', que es fiel a la fuente. Nota: la página de ATK es parcialmente de acceso restringido; el dato del 22% se leyó en la página accesible (cooksillustrated.com/americastestkitchen.com how_tos/5699).",
+  "afirmaciones": [
+    {
+      "texto": "Searing a steak does not seal in the juices; it's a myth.",
+      "fuente": "America's Test Kitchen / Cook's Illustrated, https://www.americastestkitchen.com/how_tos/5699-searing-steak (lo llama 'old wives' tale'); NPR, Jack Bishop de ATK: https://www.npr.org/transcripts/163002343",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "A seared crust doesn't seal anything. Steaks lose juice as they cook, seared or not.",
+      "fuente": "ATK / Cook's Illustrated how_tos/5699: ambos lotes (seared first y seared last) perdieron ~22% de su peso en líquido",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "That sizzle is mostly water on the surface of the meat turning to steam in the hot pan.",
+      "fuente": "America's Test Kitchen, 'How to Listen to Food': https://www.americastestkitchen.com/articles/7042-how-to-listen-to-food ('the sharp sizzle we hear is water boiling, turning to steam, and escaping from the oil-slicked surface')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "America's Test Kitchen tested it with rib-eyes.",
+      "fuente": "ATK / Cook's Illustrated how_tos/5699: ocho rib-eyes de 1 1/4 pulgada",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Steaks lost about the same amount of juice whether they were seared first or last.",
+      "fuente": "ATK / Cook's Illustrated how_tos/5699: seared first (skillet y luego horno 250F a 125F) vs seared last (horno a ~110F y luego sear a 125F); ambos ~22%",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Browning adds flavor and a crust (that's why to sear).",
+      "fuente": "NPR, Jack Bishop (ATK) atribuye al searing el browning y sabor por la reacción de Maillard: https://www.npr.org/transcripts/163002343; la página how_tos/5699 menciona la costra marrón",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Searing is still worth it; it just isn't a seal. Sear for the crust and flavor, not the juice.",
+      "fuente": "Consejo derivado de lo anterior (ATK / NPR); no es una afirmación fáctica nueva",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sources: America's Test Kitchen / Cook's Illustrated (atribución en caption).",
+      "fuente": "Cook's Illustrated y ATK comparten la prueba how_tos/5699",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

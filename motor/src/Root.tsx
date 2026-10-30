@@ -44,6 +44,7 @@ import { DURACION as DUR_EN009, FPS as FPS_EN009, CeilingFanEn009, PortadaEn009 
 import { DURACION as DUR_EN010, FPS as FPS_EN010, ThermostatNightEn010, PortadaEn010 } from "./videos/en-010-thermostat-night/Video";
 import { DURACION as DUR_EN011, FPS as FPS_EN011, ThawCounterEn011, PortadaEn011 } from "./videos/en-011-thaw-counter/Video";
 import { DURACION as DUR_EN012, FPS as FPS_EN012, ThunderCountEn012, PortadaEn012 } from "./videos/en-012-thunder-count/Video";
+import { DURACION as DUR_EN013, FPS as FPS_EN013, SearingJuicesEn013, PortadaEn013 } from "./videos/en-013-searing-juices/Video";
 import { DURACION as DUR_EN001,FPS as FPS_EN001, PhoneRiceEn001, PortadaEn001 } from "./videos/en-001-phone-rice/Video";
 
 // Cada video nuevo suma su <Composition> (id "hNNN-slug") y su <Still> de portada (id "pNNN-slug").
@@ -101,6 +102,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-011-thaw-counter" component={PortadaEn011} width={ANCHO} height={ALTO} />
         <Composition id="hen-012-thunder-count" component={ThunderCountEn012} durationInFrames={DUR_EN012} fps={FPS_EN012} width={ANCHO} height={ALTO} />
         <Still id="pen-012-thunder-count" component={PortadaEn012} width={ANCHO} height={ALTO} />
+        <Composition id="hen-013-searing-juices" component={SearingJuicesEn013} durationInFrames={DUR_EN013} fps={FPS_EN013} width={ANCHO} height={ALTO} />
+        <Still id="pen-013-searing-juices" component={PortadaEn013} width={ANCHO} height={ALTO} />
       </Folder>
       <Folder name="carruseles">
         <Still id="carrusel" component={CarruselPlaca} width={ANCHO_C} height={ALTO_C} defaultProps={{ datos: { origen: [], placas: [{ tipo: "cierre", texto: "placa de prueba" }] }, i: 0 }} />

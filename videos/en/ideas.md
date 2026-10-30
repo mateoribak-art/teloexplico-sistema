@@ -27,7 +27,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 
 ## Temas de EE. UU. — serie: cocina (Kitchen myths)
 - [usada → en-006-five-second-rule] Is the 5-second rule real? (Rutgers study 2016: transfer can be instant; depends on food and surface)
-- [ ] Does searing meat "seal in the juices"? (myth)
+- [usada → en-013-searing-juices] Does searing meat "seal in the juices"? (myth)
 - [ ] Does alcohol fully cook off? (USDA retention table: it depends on time)
 - [ ] Does adding oil to pasta water stop it from sticking?
 - [ ] Thanksgiving: how long does a frozen turkey take to thaw in the fridge? (USDA: ~24 h per 4–5 lb) — publicar antes del 26/11/2026

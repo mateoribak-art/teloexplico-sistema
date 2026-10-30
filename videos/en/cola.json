@@ -351,7 +351,7 @@
  {
   "slug": "en-012-thunder-count",
   "tema": "How far away is the storm? Count flash to thunder (adapted from 018)",
-  "estado": "render",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -377,6 +377,38 @@
     "estado": "render",
     "cuando": "2026-10-30T02:37",
     "motivo": "reintento auto: apartado por render/control; se renderiza y controla de nuevo"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-10-30T08:19",
+    "motivo": "render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who steps outside to film the lightning. Count fifteen, and the thunder.\nPROBLEMAS:\n- la voz no coincide con el guion (40%)"
+   }
+  ]
+ },
+ {
+  "slug": "en-013-searing-juices",
+  "tema": "Does searing seal in the juices?",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-10-30T08:20",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-10-30T08:20",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-10-30T08:26",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-30T08:55",
+    "motivo": "render sin Claude"
    }
   ]
  }

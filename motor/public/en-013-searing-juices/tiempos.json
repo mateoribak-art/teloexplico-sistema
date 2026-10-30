@@ -1,0 +1,653 @@
+{
+ "duracion": 34.76,
+ "frases": [
+  {
+   "texto": "You sear your steak to seal in the juices.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "sear",
+     "inicio": 0.14,
+     "fin": 0.32
+    },
+    {
+     "texto": "your",
+     "inicio": 0.32,
+     "fin": 0.44
+    },
+    {
+     "texto": "steak",
+     "inicio": 0.44,
+     "fin": 0.68
+    },
+    {
+     "texto": "to",
+     "inicio": 0.68,
+     "fin": 0.88
+    },
+    {
+     "texto": "seal",
+     "inicio": 0.88,
+     "fin": 1.08
+    },
+    {
+     "texto": "in",
+     "inicio": 1.08,
+     "fin": 1.22
+    },
+    {
+     "texto": "the",
+     "inicio": 1.22,
+     "fin": 1.32
+    },
+    {
+     "texto": "juices.",
+     "inicio": 1.32,
+     "fin": 1.54
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 1.54
+  },
+  {
+   "texto": "That's a myth.",
+   "palabras": [
+    {
+     "texto": "That's",
+     "inicio": 2.12,
+     "fin": 2.44
+    },
+    {
+     "texto": "a",
+     "inicio": 2.44,
+     "fin": 2.5
+    },
+    {
+     "texto": "myth.",
+     "inicio": 2.5,
+     "fin": 2.66
+    }
+   ],
+   "inicio": 2.12,
+   "fin": 2.66
+  },
+  {
+   "texto": "A seared crust doesn't seal anything. Steaks lose juice as they cook, seared or not.",
+   "palabras": [
+    {
+     "texto": "A",
+     "inicio": 3.22,
+     "fin": 3.3
+    },
+    {
+     "texto": "seared",
+     "inicio": 3.3,
+     "fin": 3.48
+    },
+    {
+     "texto": "crust",
+     "inicio": 3.48,
+     "fin": 3.84
+    },
+    {
+     "texto": "doesn't",
+     "inicio": 3.84,
+     "fin": 4.34
+    },
+    {
+     "texto": "seal",
+     "inicio": 4.34,
+     "fin": 4.64
+    },
+    {
+     "texto": "anything.",
+     "inicio": 4.64,
+     "fin": 5.06
+    },
+    {
+     "texto": "Steaks",
+     "inicio": 5.68,
+     "fin": 5.86
+    },
+    {
+     "texto": "lose",
+     "inicio": 5.86,
+     "fin": 6.12
+    },
+    {
+     "texto": "juice",
+     "inicio": 6.12,
+     "fin": 6.44
+    },
+    {
+     "texto": "as",
+     "inicio": 6.44,
+     "fin": 6.74
+    },
+    {
+     "texto": "they",
+     "inicio": 6.74,
+     "fin": 6.9
+    },
+    {
+     "texto": "cook,",
+     "inicio": 6.9,
+     "fin": 7.1
+    },
+    {
+     "texto": "seared",
+     "inicio": 7.46,
+     "fin": 7.64
+    },
+    {
+     "texto": "or",
+     "inicio": 7.64,
+     "fin": 7.76
+    },
+    {
+     "texto": "not.",
+     "inicio": 7.76,
+     "fin": 7.92
+    }
+   ],
+   "inicio": 3.22,
+   "fin": 7.92
+  },
+  {
+   "texto": "That sizzle you love? It's mostly water on the surface of the meat turning to steam in the hot pan.",
+   "palabras": [
+    {
+     "texto": "That",
+     "inicio": 8.4,
+     "fin": 8.54
+    },
+    {
+     "texto": "sizzle",
+     "inicio": 8.54,
+     "fin": 8.9
+    },
+    {
+     "texto": "you",
+     "inicio": 8.9,
+     "fin": 9.02
+    },
+    {
+     "texto": "love?",
+     "inicio": 9.02,
+     "fin": 9.18
+    },
+    {
+     "texto": "It's",
+     "inicio": 9.68,
+     "fin": 9.82
+    },
+    {
+     "texto": "mostly",
+     "inicio": 9.82,
+     "fin": 10.04
+    },
+    {
+     "texto": "water",
+     "inicio": 10.04,
+     "fin": 10.4
+    },
+    {
+     "texto": "on",
+     "inicio": 10.4,
+     "fin": 10.56
+    },
+    {
+     "texto": "the",
+     "inicio": 10.56,
+     "fin": 10.62
+    },
+    {
+     "texto": "surface",
+     "inicio": 10.62,
+     "fin": 10.88
+    },
+    {
+     "texto": "of",
+     "inicio": 10.88,
+     "fin": 11.08
+    },
+    {
+     "texto": "the",
+     "inicio": 11.08,
+     "fin": 11.16
+    },
+    {
+     "texto": "meat",
+     "inicio": 11.16,
+     "fin": 11.34
+    },
+    {
+     "texto": "turning",
+     "inicio": 11.34,
+     "fin": 11.62
+    },
+    {
+     "texto": "to",
+     "inicio": 11.62,
+     "fin": 11.78
+    },
+    {
+     "texto": "steam",
+     "inicio": 11.78,
+     "fin": 12.16
+    },
+    {
+     "texto": "in",
+     "inicio": 12.16,
+     "fin": 12.32
+    },
+    {
+     "texto": "the",
+     "inicio": 12.32,
+     "fin": 12.4
+    },
+    {
+     "texto": "hot",
+     "inicio": 12.4,
+     "fin": 12.58
+    },
+    {
+     "texto": "pan.",
+     "inicio": 12.58,
+     "fin": 12.82
+    }
+   ],
+   "inicio": 8.4,
+   "fin": 12.82
+  },
+  {
+   "texto": "America's Test Kitchen tested it with rib-eyes, and steaks lost about the same amount of juice whether they were seared first or last.",
+   "palabras": [
+    {
+     "texto": "America's",
+     "inicio": 13.34,
+     "fin": 13.74
+    },
+    {
+     "texto": "Test",
+     "inicio": 13.74,
+     "fin": 13.98
+    },
+    {
+     "texto": "Kitchen",
+     "inicio": 13.98,
+     "fin": 14.22
+    },
+    {
+     "texto": "tested",
+     "inicio": 14.22,
+     "fin": 14.72
+    },
+    {
+     "texto": "it",
+     "inicio": 14.72,
+     "fin": 14.84
+    },
+    {
+     "texto": "with",
+     "inicio": 14.84,
+     "fin": 14.98
+    },
+    {
+     "texto": "rib-eyes,",
+     "inicio": 14.98,
+     "fin": 15.54
+    },
+    {
+     "texto": "and",
+     "inicio": 15.7,
+     "fin": 15.8
+    },
+    {
+     "texto": "steaks",
+     "inicio": 15.8,
+     "fin": 16.06
+    },
+    {
+     "texto": "lost",
+     "inicio": 16.06,
+     "fin": 16.32
+    },
+    {
+     "texto": "about",
+     "inicio": 16.32,
+     "fin": 16.56
+    },
+    {
+     "texto": "the",
+     "inicio": 16.56,
+     "fin": 16.7
+    },
+    {
+     "texto": "same",
+     "inicio": 16.7,
+     "fin": 16.94
+    },
+    {
+     "texto": "amount",
+     "inicio": 16.94,
+     "fin": 17.1
+    },
+    {
+     "texto": "of",
+     "inicio": 17.1,
+     "fin": 17.22
+    },
+    {
+     "texto": "juice",
+     "inicio": 17.22,
+     "fin": 17.42
+    },
+    {
+     "texto": "whether",
+     "inicio": 17.42,
+     "fin": 17.78
+    },
+    {
+     "texto": "they",
+     "inicio": 17.78,
+     "fin": 17.94
+    },
+    {
+     "texto": "were",
+     "inicio": 17.94,
+     "fin": 18.06
+    },
+    {
+     "texto": "seared",
+     "inicio": 18.06,
+     "fin": 18.34
+    },
+    {
+     "texto": "first",
+     "inicio": 18.34,
+     "fin": 18.58
+    },
+    {
+     "texto": "or",
+     "inicio": 18.58,
+     "fin": 19.16
+    },
+    {
+     "texto": "last.",
+     "inicio": 19.16,
+     "fin": 19.44
+    }
+   ],
+   "inicio": 13.34,
+   "fin": 19.44
+  },
+  {
+   "texto": "So why sear? Because browning adds flavor and a crust.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 19.9,
+     "fin": 20.04
+    },
+    {
+     "texto": "why",
+     "inicio": 20.04,
+     "fin": 20.2
+    },
+    {
+     "texto": "sear?",
+     "inicio": 20.2,
+     "fin": 20.48
+    },
+    {
+     "texto": "Because",
+     "inicio": 20.98,
+     "fin": 21.18
+    },
+    {
+     "texto": "browning",
+     "inicio": 21.18,
+     "fin": 21.62
+    },
+    {
+     "texto": "adds",
+     "inicio": 21.62,
+     "fin": 21.82
+    },
+    {
+     "texto": "flavor",
+     "inicio": 21.82,
+     "fin": 22.22
+    },
+    {
+     "texto": "and",
+     "inicio": 22.22,
+     "fin": 22.46
+    },
+    {
+     "texto": "a",
+     "inicio": 22.46,
+     "fin": 22.58
+    },
+    {
+     "texto": "crust.",
+     "inicio": 22.58,
+     "fin": 22.78
+    }
+   ],
+   "inicio": 19.9,
+   "fin": 22.78
+  },
+  {
+   "texto": "Heads up: searing is still worth it. It just isn't a seal.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 23.46,
+     "fin": 23.6
+    },
+    {
+     "texto": "up:",
+     "inicio": 23.6,
+     "fin": 23.74
+    },
+    {
+     "texto": "searing",
+     "inicio": 24.18,
+     "fin": 24.36
+    },
+    {
+     "texto": "is",
+     "inicio": 24.36,
+     "fin": 24.66
+    },
+    {
+     "texto": "still",
+     "inicio": 24.66,
+     "fin": 24.88
+    },
+    {
+     "texto": "worth",
+     "inicio": 24.88,
+     "fin": 25.12
+    },
+    {
+     "texto": "it.",
+     "inicio": 25.12,
+     "fin": 25.28
+    },
+    {
+     "texto": "It",
+     "inicio": 25.68,
+     "fin": 25.78
+    },
+    {
+     "texto": "just",
+     "inicio": 25.78,
+     "fin": 25.92
+    },
+    {
+     "texto": "isn't",
+     "inicio": 25.92,
+     "fin": 26.16
+    },
+    {
+     "texto": "a",
+     "inicio": 26.16,
+     "fin": 26.28
+    },
+    {
+     "texto": "seal.",
+     "inicio": 26.28,
+     "fin": 26.42
+    }
+   ],
+   "inicio": 23.46,
+   "fin": 26.42
+  },
+  {
+   "texto": "Tonight, sear for the crust and the flavor, not for the juice.",
+   "palabras": [
+    {
+     "texto": "Tonight,",
+     "inicio": 26.42,
+     "fin": 27.1
+    },
+    {
+     "texto": "sear",
+     "inicio": 27.52,
+     "fin": 27.98
+    },
+    {
+     "texto": "for",
+     "inicio": 27.98,
+     "fin": 28.14
+    },
+    {
+     "texto": "the",
+     "inicio": 28.14,
+     "fin": 28.26
+    },
+    {
+     "texto": "crust",
+     "inicio": 28.26,
+     "fin": 28.64
+    },
+    {
+     "texto": "and",
+     "inicio": 28.64,
+     "fin": 28.94
+    },
+    {
+     "texto": "the",
+     "inicio": 28.94,
+     "fin": 29.04
+    },
+    {
+     "texto": "flavor,",
+     "inicio": 29.04,
+     "fin": 29.46
+    },
+    {
+     "texto": "not",
+     "inicio": 29.68,
+     "fin": 30.12
+    },
+    {
+     "texto": "for",
+     "inicio": 30.12,
+     "fin": 30.32
+    },
+    {
+     "texto": "the",
+     "inicio": 30.32,
+     "fin": 30.44
+    },
+    {
+     "texto": "juice.",
+     "inicio": 30.44,
+     "fin": 30.64
+    }
+   ],
+   "inicio": 26.42,
+   "fin": 30.64
+  },
+  {
+   "texto": "Send this to the friend who swears the sear locks it all in.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 31.16,
+     "fin": 31.56
+    },
+    {
+     "texto": "this",
+     "inicio": 31.56,
+     "fin": 31.78
+    },
+    {
+     "texto": "to",
+     "inicio": 31.78,
+     "fin": 31.94
+    },
+    {
+     "texto": "the",
+     "inicio": 31.94,
+     "fin": 32.04
+    },
+    {
+     "texto": "friend",
+     "inicio": 32.04,
+     "fin": 32.26
+    },
+    {
+     "texto": "who",
+     "inicio": 32.26,
+     "fin": 32.48
+    },
+    {
+     "texto": "swears",
+     "inicio": 32.48,
+     "fin": 33.22
+    },
+    {
+     "texto": "the",
+     "inicio": 33.22,
+     "fin": 33.4
+    },
+    {
+     "texto": "sear",
+     "inicio": 33.4,
+     "fin": 33.74
+    },
+    {
+     "texto": "locks",
+     "inicio": 33.74,
+     "fin": 34.12
+    },
+    {
+     "texto": "it",
+     "inicio": 34.12,
+     "fin": 34.38
+    },
+    {
+     "texto": "all",
+     "inicio": 34.38,
+     "fin": 34.52
+    },
+    {
+     "texto": "in.",
+     "inicio": 34.52,
+     "fin": 34.66
+    }
+   ],
+   "inicio": 31.16,
+   "fin": 34.66
+  }
+ ]
+}

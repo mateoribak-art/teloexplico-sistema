@@ -1,0 +1,10 @@
+2026-10-30 08:01 Arranca la producción (5 listos en la cola, meta 6).
+2026-10-30 08:01 Render de en-012-thunder-count (sin Claude).
+2026-10-30 08:19 en-012-thunder-count: apartado (render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste)
+- **Listo para render:** `en-013-searing-juices` (¿sellar el bife sella los jugos? Mito, serie Kitchen myths #7). `producir.py` lo renderiza y lo pasa a `listo`. El chequeo lo rechazó la primera vez por la atribución a McGee y el "sizzle" sin matiz. Saqué a McGee, reescribí esas frases y aprobó en el segundo intento, con todo verificado contra America's Test Kitchen.
+- **Apartado, sin tocar:** `en-012-thunder-count` figura como apartado en la cola, pero su chequeo está aprobado. No es un caso de "chequeo rechazado", así que no lo rescaté y no averigüé el motivo.
+- **Sin revisión de actualidad:** no corrí el radar de EE. UU. esta vez. Pasaron más de 6 h desde el último y no busqué un tema del momento.
+Uso: 9 pasos · 6,396 tokens nuevos · 379,872 de caché · 1,519 escritos · equivale a US$ 0.87 de API
+2026-10-30 08:26 Render de en-013-searing-juices (sin Claude).
+2026-10-30 08:55 en-013-searing-juices: listo (render sin Claude)
+2026-10-30 08:55 Termina la producción (ok).

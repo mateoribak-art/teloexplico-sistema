@@ -1,0 +1,17 @@
+{
+  "titulo": "Does searing a steak seal in the juices?",
+  "fuentes": [
+    "America's Test Kitchen / Cook's Illustrated, 'Searing steak' test: https://www.americastestkitchen.com/how_tos/5699-searing-steak (8 rib-eyes; seared first vs. last; both batches lost about 22% of their weight in liquid)"
+  ],
+  "frases": [
+    {"texto": "You sear your steak to seal in the juices.", "estilo": "Dry and confident, like catching a grill master in the act."},
+    {"texto": "That's a myth.", "estilo": "Short and punchy, with a half smile."},
+    {"texto": "A seared crust doesn't seal anything. Steaks lose juice as they cook, seared or not.", "estilo": "Explaining clearly."},
+    {"texto": "That sizzle you love? It's mostly water on the surface of the meat turning to steam in the hot pan.", "estilo": "Curious, a little amused."},
+    {"texto": "America's Test Kitchen tested it with rib-eyes, and steaks lost about the same amount of juice whether they were seared first or last.", "estilo": "Emphatic, revealing a strong fact."},
+    {"texto": "So why sear? Because browning adds flavor and a crust.", "estilo": "Cool, giving the real answer."},
+    {"texto": "Heads up: searing is still worth it. It just isn't a seal.", "estilo": "Friendly warning."},
+    {"texto": "Tonight, sear for the crust and the flavor, not for the juice.", "estilo": "Practical and upbeat."},
+    {"texto": "Send this to the friend who swears the sear locks it all in.", "estilo": "Playful, with humor, as a punchline."}
+  ]
+}
