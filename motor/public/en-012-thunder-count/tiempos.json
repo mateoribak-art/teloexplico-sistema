@@ -1,0 +1,550 @@
+{
+ "duracion": 30.59,
+ "frases": [
+  {
+   "texto": "You saw the flash. How close is the storm?",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.12
+    },
+    {
+     "texto": "saw",
+     "inicio": 0.12,
+     "fin": 0.28
+    },
+    {
+     "texto": "the",
+     "inicio": 0.28,
+     "fin": 0.38
+    },
+    {
+     "texto": "flash.",
+     "inicio": 0.38,
+     "fin": 0.58
+    },
+    {
+     "texto": "How",
+     "inicio": 0.96,
+     "fin": 1.14
+    },
+    {
+     "texto": "close",
+     "inicio": 1.14,
+     "fin": 1.42
+    },
+    {
+     "texto": "is",
+     "inicio": 1.42,
+     "fin": 1.56
+    },
+    {
+     "texto": "the",
+     "inicio": 1.56,
+     "fin": 1.68
+    },
+    {
+     "texto": "storm?",
+     "inicio": 1.68,
+     "fin": 1.9
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 1.9
+  },
+  {
+   "texto": "Count the seconds until you hear the thunder.",
+   "palabras": [
+    {
+     "texto": "Count",
+     "inicio": 2.46,
+     "fin": 2.56
+    },
+    {
+     "texto": "the",
+     "inicio": 2.56,
+     "fin": 2.7
+    },
+    {
+     "texto": "seconds",
+     "inicio": 2.7,
+     "fin": 2.94
+    },
+    {
+     "texto": "until",
+     "inicio": 2.94,
+     "fin": 3.2
+    },
+    {
+     "texto": "you",
+     "inicio": 3.2,
+     "fin": 3.32
+    },
+    {
+     "texto": "hear",
+     "inicio": 3.32,
+     "fin": 3.4
+    },
+    {
+     "texto": "the",
+     "inicio": 3.4,
+     "fin": 3.54
+    },
+    {
+     "texto": "thunder.",
+     "inicio": 3.54,
+     "fin": 3.76
+    }
+   ],
+   "inicio": 2.46,
+   "fin": 3.76
+  },
+  {
+   "texto": "The light from lightning reaches you almost instantly.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 4.22,
+     "fin": 4.6
+    },
+    {
+     "texto": "light",
+     "inicio": 4.6,
+     "fin": 4.82
+    },
+    {
+     "texto": "from",
+     "inicio": 4.82,
+     "fin": 5.0
+    },
+    {
+     "texto": "lightning",
+     "inicio": 5.0,
+     "fin": 5.28
+    },
+    {
+     "texto": "reaches",
+     "inicio": 5.28,
+     "fin": 5.64
+    },
+    {
+     "texto": "you",
+     "inicio": 5.64,
+     "fin": 5.86
+    },
+    {
+     "texto": "almost",
+     "inicio": 5.86,
+     "fin": 6.04
+    },
+    {
+     "texto": "instantly.",
+     "inicio": 6.04,
+     "fin": 6.56
+    }
+   ],
+   "inicio": 4.22,
+   "fin": 6.56
+  },
+  {
+   "texto": "Sound, on the other hand, takes its time.",
+   "palabras": [
+    {
+     "texto": "Sound,",
+     "inicio": 7.06,
+     "fin": 7.46
+    },
+    {
+     "texto": "on",
+     "inicio": 7.58,
+     "fin": 7.68
+    },
+    {
+     "texto": "the",
+     "inicio": 7.68,
+     "fin": 7.74
+    },
+    {
+     "texto": "other",
+     "inicio": 7.74,
+     "fin": 7.86
+    },
+    {
+     "texto": "hand,",
+     "inicio": 7.86,
+     "fin": 8.16
+    },
+    {
+     "texto": "takes",
+     "inicio": 8.56,
+     "fin": 8.72
+    },
+    {
+     "texto": "its",
+     "inicio": 8.72,
+     "fin": 8.9
+    },
+    {
+     "texto": "time.",
+     "inicio": 8.9,
+     "fin": 9.16
+    }
+   ],
+   "inicio": 7.06,
+   "fin": 9.16
+  },
+  {
+   "texto": "About five seconds for every mile.",
+   "palabras": [
+    {
+     "texto": "About",
+     "inicio": 9.64,
+     "fin": 9.82
+    },
+    {
+     "texto": "five",
+     "inicio": 9.82,
+     "fin": 10.4
+    },
+    {
+     "texto": "seconds",
+     "inicio": 10.4,
+     "fin": 10.78
+    },
+    {
+     "texto": "for",
+     "inicio": 10.78,
+     "fin": 11.0
+    },
+    {
+     "texto": "every",
+     "inicio": 11.0,
+     "fin": 11.14
+    },
+    {
+     "texto": "mile.",
+     "inicio": 11.14,
+     "fin": 11.38
+    }
+   ],
+   "inicio": 9.64,
+   "fin": 11.38
+  },
+  {
+   "texto": "Count fifteen, and the lightning was about three miles away.",
+   "palabras": [
+    {
+     "texto": "Count",
+     "inicio": 11.96,
+     "fin": 12.06
+    },
+    {
+     "texto": "fifteen,",
+     "inicio": 12.06,
+     "fin": 12.44
+    },
+    {
+     "texto": "and",
+     "inicio": 12.66,
+     "fin": 12.88
+    },
+    {
+     "texto": "the",
+     "inicio": 12.88,
+     "fin": 13.06
+    },
+    {
+     "texto": "lightning",
+     "inicio": 13.06,
+     "fin": 13.3
+    },
+    {
+     "texto": "was",
+     "inicio": 13.3,
+     "fin": 13.54
+    },
+    {
+     "texto": "about",
+     "inicio": 13.54,
+     "fin": 13.76
+    },
+    {
+     "texto": "three",
+     "inicio": 13.76,
+     "fin": 14.12
+    },
+    {
+     "texto": "miles",
+     "inicio": 14.12,
+     "fin": 14.36
+    },
+    {
+     "texto": "away.",
+     "inicio": 14.36,
+     "fin": 14.58
+    }
+   ],
+   "inicio": 11.96,
+   "fin": 14.58
+  },
+  {
+   "texto": "It's an estimate, not an exact measurement.",
+   "palabras": [
+    {
+     "texto": "It's",
+     "inicio": 15.08,
+     "fin": 15.26
+    },
+    {
+     "texto": "an",
+     "inicio": 15.26,
+     "fin": 15.34
+    },
+    {
+     "texto": "estimate,",
+     "inicio": 15.34,
+     "fin": 15.56
+    },
+    {
+     "texto": "not",
+     "inicio": 15.74,
+     "fin": 15.88
+    },
+    {
+     "texto": "an",
+     "inicio": 15.88,
+     "fin": 16.0
+    },
+    {
+     "texto": "exact",
+     "inicio": 16.0,
+     "fin": 16.24
+    },
+    {
+     "texto": "measurement.",
+     "inicio": 16.24,
+     "fin": 16.62
+    }
+   ],
+   "inicio": 15.08,
+   "fin": 16.62
+  },
+  {
+   "texto": "Heads up: if you can hear thunder, the National Weather Service says you're likely within striking distance.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 17.04,
+     "fin": 17.22
+    },
+    {
+     "texto": "up:",
+     "inicio": 17.22,
+     "fin": 17.42
+    },
+    {
+     "texto": "if",
+     "inicio": 18.1,
+     "fin": 18.18
+    },
+    {
+     "texto": "you",
+     "inicio": 18.18,
+     "fin": 18.3
+    },
+    {
+     "texto": "can",
+     "inicio": 18.3,
+     "fin": 18.48
+    },
+    {
+     "texto": "hear",
+     "inicio": 18.48,
+     "fin": 18.78
+    },
+    {
+     "texto": "thunder,",
+     "inicio": 18.78,
+     "fin": 19.18
+    },
+    {
+     "texto": "the",
+     "inicio": 19.72,
+     "fin": 19.82
+    },
+    {
+     "texto": "National",
+     "inicio": 19.82,
+     "fin": 20.22
+    },
+    {
+     "texto": "Weather",
+     "inicio": 20.22,
+     "fin": 20.54
+    },
+    {
+     "texto": "Service",
+     "inicio": 20.54,
+     "fin": 20.98
+    },
+    {
+     "texto": "says",
+     "inicio": 20.98,
+     "fin": 21.18
+    },
+    {
+     "texto": "you're",
+     "inicio": 21.18,
+     "fin": 21.42
+    },
+    {
+     "texto": "likely",
+     "inicio": 21.42,
+     "fin": 21.8
+    },
+    {
+     "texto": "within",
+     "inicio": 21.8,
+     "fin": 22.18
+    },
+    {
+     "texto": "striking",
+     "inicio": 22.18,
+     "fin": 22.62
+    },
+    {
+     "texto": "distance.",
+     "inicio": 22.62,
+     "fin": 23.12
+    }
+   ],
+   "inicio": 17.04,
+   "fin": 23.12
+  },
+  {
+   "texto": "Use the count for fun. If it thunders, go indoors.",
+   "palabras": [
+    {
+     "texto": "Use",
+     "inicio": 23.68,
+     "fin": 23.86
+    },
+    {
+     "texto": "the",
+     "inicio": 23.86,
+     "fin": 24.04
+    },
+    {
+     "texto": "count",
+     "inicio": 24.04,
+     "fin": 24.24
+    },
+    {
+     "texto": "for",
+     "inicio": 24.24,
+     "fin": 24.46
+    },
+    {
+     "texto": "fun.",
+     "inicio": 24.46,
+     "fin": 24.7
+    },
+    {
+     "texto": "If",
+     "inicio": 25.24,
+     "fin": 25.38
+    },
+    {
+     "texto": "it",
+     "inicio": 25.38,
+     "fin": 25.5
+    },
+    {
+     "texto": "thunders,",
+     "inicio": 25.5,
+     "fin": 25.92
+    },
+    {
+     "texto": "go",
+     "inicio": 26.38,
+     "fin": 26.58
+    },
+    {
+     "texto": "indoors.",
+     "inicio": 26.58,
+     "fin": 26.92
+    }
+   ],
+   "inicio": 23.68,
+   "fin": 26.92
+  },
+  {
+   "texto": "Send this to the friend who steps outside to film the lightning.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 27.42,
+     "fin": 27.86
+    },
+    {
+     "texto": "this",
+     "inicio": 27.86,
+     "fin": 28.04
+    },
+    {
+     "texto": "to",
+     "inicio": 28.04,
+     "fin": 28.16
+    },
+    {
+     "texto": "the",
+     "inicio": 28.16,
+     "fin": 28.26
+    },
+    {
+     "texto": "friend",
+     "inicio": 28.26,
+     "fin": 28.48
+    },
+    {
+     "texto": "who",
+     "inicio": 28.48,
+     "fin": 28.64
+    },
+    {
+     "texto": "steps",
+     "inicio": 28.64,
+     "fin": 28.9
+    },
+    {
+     "texto": "outside",
+     "inicio": 28.9,
+     "fin": 29.14
+    },
+    {
+     "texto": "to",
+     "inicio": 29.14,
+     "fin": 29.64
+    },
+    {
+     "texto": "film",
+     "inicio": 29.64,
+     "fin": 30.0
+    },
+    {
+     "texto": "the",
+     "inicio": 30.0,
+     "fin": 30.18
+    },
+    {
+     "texto": "lightning.",
+     "inicio": 30.18,
+     "fin": 30.42
+    }
+   ],
+   "inicio": 27.42,
+   "fin": 30.42
+  }
+ ]
+}

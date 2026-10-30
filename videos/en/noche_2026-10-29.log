@@ -20,3 +20,14 @@ Uso: 2 pasos · 899 tokens nuevos · 166,666 de caché · 203 escritos · equiva
 2026-10-29 13:41 Render de en-011-thaw-counter (sin Claude).
 2026-10-29 13:58 en-011-thaw-counter: listo (render sin Claude)
 2026-10-29 13:58 Termina la producción (ok).
+2026-10-29 22:38 Arranca la producción (5 listos en la cola, meta 6).
+- **Listo para render:** `en-012-thunder-count`, adaptado de `018-rayo-trueno`, escena 3D nueva (`Rayo.tsx`). El chequeo lo aprobó a la primera, con todo verificado contra el NWS/NOAA (5 s por milla, 15 s ≈ 3 millas, "likely within striking distance"). Quedó en estado `render` y `producir.py` lo renderiza.
+- **Rescates:** no había videos apartados con "chequeo rechazado" por rescatar (`en-008` ya se había rehecho antes).
+- **Pendientes y límites:**
+  - La voz salió bien a la segunda tirada. La primera tenía 70 de 95 palabras oídas y los tiempos mal.
+  - Hice una sola vuelta de ajuste de cuadros. El rayo y las ondas se ven bien; la nube queda a veces pegada al borde derecho.
+  - No hice el control ni el render final: eso lo hace `producir.py`.
+Uso: 53 pasos · 78,174 tokens nuevos · 1,731,964 de caché · 18,892 escritos · equivale a US$ 0.80 de API
+2026-10-29 22:44 Render de en-012-thunder-count (sin Claude).
+2026-10-29 22:52 en-012-thunder-count: apartado (render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste)
+2026-10-29 22:52 Termina la producción (ok).

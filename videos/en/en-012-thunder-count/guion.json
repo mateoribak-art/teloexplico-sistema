@@ -1,0 +1,16 @@
+{
+  "titulo": "How far away is the storm? Count from flash to thunder",
+  "fuentes": ["National Weather Service (NOAA): Lightning Safety", "NOAA/NWS JetStream: Lightning"],
+  "frases": [
+    {"texto": "You saw the flash. How close is the storm?", "estilo": "Intrigued, quick, looking out the window."},
+    {"texto": "Count the seconds until you hear the thunder.", "estilo": "Dry and clear, like an order."},
+    {"texto": "The light from lightning reaches you almost instantly.", "estilo": "Explanatory, brisk."},
+    {"texto": "Sound, on the other hand, takes its time.", "estilo": "A short pause before 'takes its time'."},
+    {"texto": "About five seconds for every mile.", "estilo": "Punchy, the key fact."},
+    {"texto": "Count fifteen, and the lightning was about three miles away.", "estilo": "Warm, doing the math out loud."},
+    {"texto": "It's an estimate, not an exact measurement.", "estilo": "Honest, calm."},
+    {"texto": "Heads up: if you can hear thunder, the National Weather Service says you're likely within striking distance.", "estilo": "Serious, with weight."},
+    {"texto": "Use the count for fun. If it thunders, go indoors.", "estilo": "Direct, firm."},
+    {"texto": "Send this to the friend who steps outside to film the lightning.", "estilo": "Playful, with a half smile."}
+  ]
+}

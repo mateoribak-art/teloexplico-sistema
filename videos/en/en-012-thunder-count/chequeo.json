@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de seguridad y cifras estan respaldadas por paginas del NWS/NOAA (weather.gov) y las unidades coinciden (millas, 5 s por milla, 15 s = 3 millas). La frase de 'striking distance' y 'go indoors' es cita casi textual del NWS. Ninguna afirmacion falsa, dudosa ni sin matiz. Nota: el NWS no dice en la pagina de seguridad que contar sea para 'diversion'; esa es una recomendacion del guion coherente con el NWS (que manda entrar al oir un trueno), no un dato factual.",
+  "afirmaciones": [
+    {
+      "texto": "Count the seconds until you hear the thunder (flash-to-thunder count tells how far the storm is).",
+      "fuente": "NWS/NOAA, Lightning Science: Thunder, https://www.weather.gov/safety/lightning-science-thunder (cuenta los segundos entre el destello y el trueno y divide por 5 para obtener millas)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The light from lightning reaches you almost instantly.",
+      "fuente": "NWS/NOAA, Lightning Science: Thunder (dice 'you see lightning immediately'); fisica estandar de la velocidad de la luz",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sound, on the other hand, takes its time (it is much slower than light).",
+      "fuente": "NWS/NOAA, Lightning Science: Thunder ('it takes the sound of thunder about 5 seconds to travel a mile')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "About five seconds for every mile.",
+      "fuente": "NWS/NOAA, Lightning Science: Thunder, https://www.weather.gov/safety/lightning-science-thunder ('about 5 seconds to travel a mile'; unidad: millas, coincide)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Count fifteen, and the lightning was about three miles away (caption: Count 15 seconds and the lightning was roughly 3 miles away).",
+      "fuente": "NWS/NOAA, Lightning Science: Thunder (ejemplo '15 seconds = 3 miles'; coincide con 15/5 = 3)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "It's an estimate, not an exact measurement.",
+      "fuente": "NWS/NOAA, Lightning Science: Thunder usa 'about 5 seconds' y 'estimate'; la velocidad del sonido varia con la temperatura (fisica estandar). Es un matiz de cautela, no una cifra.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "If you can hear thunder, the National Weather Service says you're likely within striking distance (of the storm).",
+      "fuente": "NWS, Lightning Safety Overview, https://www.weather.gov/safety/lightning-safety-overview ('If you hear thunder, you are likely within striking distance of the storm.')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "If it thunders, go indoors (caption: When thunder roars, go indoors).",
+      "fuente": "NWS, Lightning Safety Overview ('When Thunder Roars, Go Indoors!'; 'if you hear thunder, get inside a safe place immediately')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sources: National Weather Service (NOAA), Lightning Safety (atribucion en caption y campo fuentes del guion).",
+      "fuente": "weather.gov/safety/lightning-safety y paginas hijas existen y contienen lo atribuido. Nota menor: el guion cita tambien 'NOAA/NWS JetStream: Lightning'; no se abrio esa pagina, pero toda cifra quedo respaldada por las paginas NWS confirmadas.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

@@ -60,5 +60,24 @@
     "motivo": "control OK"
    }
   ]
+ },
+ {
+  "clave": "vuelta-carne",
+  "estado": "listo",
+  "origen": [
+   "003-vuelta-carne"
+  ],
+  "historial": [
+   {
+    "estado": "listo",
+    "cuando": "2026-10-29T22:38",
+    "motivo": "control OK"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-10-29T22:38",
+    "motivo": "control OK"
+   }
+  ]
  }
 ]

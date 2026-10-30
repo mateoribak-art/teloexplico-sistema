@@ -1,0 +1,12 @@
+{
+ "origen": ["003-vuelta-carne"],
+ "placas": [
+  {"tipo": "tapa", "arriba": "¿A la carne se la da vuelta una sola vez?", "grande": "seguido sí", "promesa": "deslizá y guardalo", "dibujo": [{"objeto": "Bife", "x": 540, "y": 1180, "s": 0.8}]},
+  {"tipo": "paso", "etiqueta": "// por qué importa", "titulo": "Dar vuelta seguido cocina más parejo y hasta más rápido", "cuerpo": "Cada lado se calienta un poco y después descansa un poco. Así el calor entra más parejo.", "fuente": "Harold McGee · Physics Today"},
+  {"tipo": "paso", "etiqueta": "// la prueba", "titulo": "Lo probaron dando vuelta el bife cada minuto", "cuerpo": "Salió más parejo y con mejor costra.", "fuente": "America's Test Kitchen"},
+  {"tipo": "paso", "etiqueta": "// el jugo", "titulo": "Lo que reseca la carne es pasarse de cocción", "cuerpo": "Darla vuelta no es lo que la deja seca.", "fuente": "ThermoWorks"},
+  {"tipo": "paso", "etiqueta": "// ojo", "titulo": "Esto vale para bifes y churrascos a fuego fuerte", "cuerpo": "En el asado lento con cortes gruesos la diferencia es chica y el que manda es el fuego.", "fuente": "America's Test Kitchen"},
+  {"tipo": "resumen", "titulo": "La carne, en 4 reglas", "items": [[true, "Darla vuelta seguido cocina más parejo"], [true, "Bife fino a fuego fuerte: vuelta seguido"], [false, "Pasarse de cocción: eso la reseca"], [true, "Asado lento grueso: manda el fuego"]]},
+  {"tipo": "cierre", "texto": "Mandáselo al asador que no te deja ni acercarte a la parrilla"}
+ ]
+}

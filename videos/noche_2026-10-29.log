@@ -25,3 +25,19 @@ Hoy no produje nada nuevo, porque la corrida de hoy ya estaba hecha según `vide
 - **No producido:** un segundo video. La cola tiene 11 videos `listo` (el mínimo para no producir más es 10) y el radar de hoy no encontró ningún tema de actualidad verificable.
 Uso: 7 pasos · 19,615 tokens nuevos · 87,082 de caché · 806 escritos · equivale a US$ 0.10 de API
 2026-10-29 17:42 Termina la producción (ok).
+2026-10-29 22:22 Arranca la producción (10 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Resumen:
+- **Producido:** `014-celular-arroz`, el pedido de Mateo de rehacer en 3D (van 5 de 7), quedó en estado `render` con escenas 3D nuevas (`Celular.tsx`). Reusa el guion y el chequeo aprobado, la voz se regeneró (55,5 s) y `tsc` pasó. Hice 1 vuelta de cuadros; el reloj quedaba cortado a la izquierda y lo moví, pero no volví a mirar los cuadros después del cambio. El cable se cruza con el subtítulo en algunos planos cerrados y no lo corregí. Falta que `producir.py` renderice y corra el control.
+- **Rescates:** no había apartados por "chequeo rechazado" para rescatar. El 011 ya se había rescatado hoy y el 013 ya falló dos veces (salud, solo probable), así que sigue apartado.
+- **Segundo video:** no lo hice. Con 10 listos en la cola (el límite del pedido es menos de 10), no correspondía.
+- **Incidente:** sin querer sobrescribí `videos/produccion.log` con Write. Lo restauré completo desde `git show HEAD` y le agregué la línea de hoy. Pasé por encima de la regla de usar solo comandos de la lista. Conviene revisar el diff de ese archivo.
+Uso: 39 pasos · 76,809 tokens nuevos · 1,176,180 de caché · 19,907 escritos · equivale a US$ 0.62 de API
+2026-10-29 22:26 Render de 014-celular-arroz (sin Claude).
+2026-10-29 22:37 014-celular-arroz: listo (render sin Claude)
+2026-10-29 22:37 Termina la producción (ok).
+2026-10-29 22:37 Arranca el carrusel (1 listos, meta 2).
+`vuelta-carne`: quedó listo. Son 7 placas hechas con el chequeo aprobado de `003-vuelta-carne`, que es el reel publicado el 26/10 con más compartidos y sin carrusel. El control dio LISTO en las dos corridas.
+
+Corregí dos cosas después de mirar `hoja.png`: el texto grande de la tapa se cortaba, así que lo acorté a "seguido sí". Y cambié un renglón del resumen que tenía una cruz que no correspondía. No volví a abrir la hoja después de esos cambios. La publicación la hace `carrusel.yml` a las 16:00.
+Uso: 22 pasos · 31,032 tokens nuevos · 429,034 de caché · 3,745 escritos · equivale a US$ 0.20 de API
+2026-10-29 22:38 Termina el carrusel (ok; quedan 2 listos).

@@ -16,7 +16,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [ ] 002-corte-digestion · Wait 30 minutes after eating to swim? (en EE. UU. el mito es "30 minutes"; salud/seguridad: solo verificado, Red Cross) — serie: cuerpo
 - [ ] 009-ventilador-pieza-vacia · Does a fan cool the room? (turn it off when you leave; DOE) — serie: casa
 - [ ] 008-aire-en-17 · Cranking the thermostat to 60 °F doesn't cool faster (DOE; en °F) — serie: casa
-- [ ] 018-rayo-trueno · How far away is the storm? Count seconds: 5 seconds ≈ 1 mile (NWS; "when thunder roars, go indoors") — serie: clima
+- [usada → en-012-thunder-count] 018-rayo-trueno · How far away is the storm? Count seconds: 5 seconds ≈ 1 mile (NWS; "when thunder roars, go indoors") — serie: clima
 - [ ] 019-sensacion-termica · Why "feels like" is higher than the temperature: heat index (NWS; en °F). En invierno el ángulo es el wind chill — serie: clima
 - [ ] 018-refresca-tormenta · Why it cools down suddenly after a storm (downdraft) — serie: clima
 - [ ] 004-olor-a-lluvia · Why rain smells like that (petrichor, geosmin) — serie: ciencia
