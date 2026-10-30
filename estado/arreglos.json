@@ -135,5 +135,35 @@
   "archivos": [
    "videos/en/cola.json"
   ]
+ },
+ {
+  "id": "10301403-es-control",
+  "creado": "2026-10-30T14:03",
+  "empleado": "es/control",
+  "firma": "a42a94baf0b2",
+  "estado": "pedido",
+  "auto": true,
+  "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Ramiro (Control de calidad) está en \"aviso\": Apartó 3 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\n015-descongelar-mesada: calidad 30/10: sin un 'mandáselo a…' claro\n018-refresca-tormenta: calidad 30/10: sin un 'mandáselo a…' claro\n024-granizo-corto: calidad 30/10: sin un 'mandáselo a…' claro\n",
+  "actualizado": "2026-10-30T14:03"
+ },
+ {
+  "id": "10301403-en-voz",
+  "creado": "2026-10-30T14:03",
+  "empleado": "en/voz",
+  "firma": "953dc1971713",
+  "estado": "pedido",
+  "auto": true,
+  "problema": "En la oficina de Nueva York (@letmeexplain.us), Leo (Locutor) está en \"aviso\": La voz no coincidió con el guion en en-012-thunder-count.\nLo que sugiere la oficina: Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.\nTareas:\nen-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go \n",
+  "actualizado": "2026-10-30T14:03"
+ },
+ {
+  "id": "10301403-en-animador",
+  "creado": "2026-10-30T14:03",
+  "empleado": "en/animador",
+  "firma": "f53050cb6af8",
+  "estado": "pedido",
+  "auto": true,
+  "problema": "En la oficina de Nueva York (@letmeexplain.us), Ava (Animación y render) está en \"falla\": Falló el render de en-012-thunder-count.\nLo que sugiere la oficina: Relanzá la producción: los videos en estado render se vuelven a renderizar solos.\nTareas:\nen-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste\n",
+  "actualizado": "2026-10-30T14:03"
  }
 ]
