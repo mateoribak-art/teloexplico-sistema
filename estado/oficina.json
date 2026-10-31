@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T03:43",
+ "actualizado": "2026-10-31T03:44",
  "oficinas": [
   {
    "clave": "es",
@@ -397,17 +397,17 @@
      },
      "estado": "aviso",
      "resumen": "La última ronda terminó con problemas (casi siempre: Claude sin cuota).",
-     "cuando": "2026-10-31T03:43",
-     "hace": "recién",
+     "cuando": "2026-10-30T18:41",
+     "hace": "hace 9 h",
      "detalle": [
+      "29/10 18:58 Termina la respuesta de comentarios (ok).",
+      "30/10 03:52 Hay 1 comentarios nuevos: arranca la respuesta.",
+      "30/10 00:00 Respondí 1 · salteé 0 · alerté 0. (marbe_r: anécdota de la heladera, respondido con humor)",
       "30/10 00:00 Termina la respuesta de comentarios (ok).",
       "30/10 03:52 Termina la respuesta de comentarios (ok).",
       "30/10 18:40 Hay 5 comentarios nuevos: arranca la respuesta.",
       "30/10 18:41 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
-      "30/10 18:41 Termina la respuesta de comentarios (con problemas).",
-      "31/10 03:43 Hay 5 comentarios nuevos: arranca la respuesta.",
-      "31/10 03:43 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
-      "31/10 03:43 Termina la respuesta de comentarios (con problemas)."
+      "30/10 18:41 Termina la respuesta de comentarios (con problemas)."
      ],
      "tareas": [
       "1 alerta",
@@ -468,7 +468,7 @@
      },
      "estado": "aviso",
      "resumen": "Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 11 videos listos ≈ 5.5 días.",
-     "cuando": "2026-10-31T03:43",
+     "cuando": "2026-10-31T03:44",
      "hace": "recién",
      "detalle": [
       "⚠️ Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 11 videos listos ≈ 5.5 días."
@@ -657,7 +657,7 @@
      "estado": "ok",
      "resumen": "Quinta pasada del radar: la búsqueda web no devolvió nada verificable de las últimas 48 h (solo notas viejas, blogs sin fecha y una página del NWS de Fort Worth",
      "cuando": "2026-10-30T15:44",
-     "hace": "hace 11 h",
+     "hace": "hace 12 h",
      "detalle": [
       "28/10 00:00 Tercera pasada del radar: sin tema nuevo. Descartados: (1) humo/incendios en el Noroeste (Spokane): evento regional, sin fuente oficial del día y con riesgo de damnificados; (2) superluna de octubre: las fuentes dicen que no hay (la próxima es el 24/11), sin gancho; (3) primera helada/nieve: nada concreto ni reciente en la búsqueda. El cambio de hora (en-002, publicado) ya cubre la actualidad; Halloween ya está en cola (en-004).",
       "29/10 00:00 Cuarta pasada del radar: la búsqueda web solo devolvió notas viejas (2013–2024) y una de septiembre 2026; nada verificable de las últimas 48 h. Descartados: (1) nor'easter/helada: nota de hace 5 semanas, sin fuente oficial del día; (2) auroras: sin alerta del SWPC confirmada; (3) cambio de hora (1/11): ya publicado (en-002). Halloween ya cubierto (en-004). Sin tema nuevo.",
@@ -923,7 +923,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: en-014-birthday-pairs — chequeo rechazado 2 veces: solo atribución de fuentes (MathWorld no respalda el efecto de cumpleaños no uniformes); cifr",
-     "cuando": "2026-10-31T03:43",
+     "cuando": "2026-10-31T03:44",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: en-014-birthday-pairs — chequeo rechazado 2 veces: solo atribución de fuentes (MathWorld no respalda el efecto de cumpleaños no uniformes); cifr",
@@ -939,18 +939,6 @@
   }
  ],
  "arreglos": [
-  {
-   "id": "mvr34znp-vigilante",
-   "creado": "2026-10-27T16:36",
-   "empleado": "en/vigilante",
-   "estado": "explicado",
-   "auto": false,
-   "problema": "En la oficina de Nueva York (@letmeexplain.us), Walt (Vigilancia) está en \"ojo\": Quedan 1 videos listos: alcanza para 0.5 día(s).\nRegistro:\n⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s).\n\nRevisalo en C:\\Users\\Mateo\\teloexplico (sistema de teloexplico / letmeexplain) y arreglalo.",
-   "firma": "d68cc7d78ae0",
-   "actualizado": "2026-10-27T16:36",
-   "titulo": "Walt avisó que quedaba 1 video en inglés; no cambié nada porque la cuenta recién arrancó.",
-   "resumen": "La cuenta de Nueva York (@letmeexplain.us) empezó hoy. El primer video ya se publicó y el segundo (el del cambio de hora) quedó listo, y por eso el stock es 1. No hay ningún error de código ni de reglas. La producción automática en inglés va a ir sumando videos en sus próximas corridas (la meta es 6 listos). Ojo: el video del cambio de hora dice \"this Sunday\", así que tiene que salir antes del sábado 31/10."
-  },
   {
    "id": "mvrah53o-vigilante",
    "creado": "2026-10-27T20:01",
@@ -1096,6 +1084,15 @@
    "titulo": "Claude no pudo trabajar ahora",
    "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
    "actualizado": "2026-10-31T03:13"
+  },
+  {
+   "id": "10310342-en-chequeo",
+   "creado": "2026-10-31T03:44",
+   "estado": "fallo",
+   "firma": null,
+   "titulo": "Claude no pudo trabajar ahora",
+   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
+   "actualizado": "2026-10-31T03:44"
   }
  ]
 }
