@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T22:05",
+ "actualizado": "2026-10-30T23:31",
  "oficinas": [
   {
    "clave": "es",
@@ -102,7 +102,7 @@
      "estado": "aviso",
      "resumen": "Claude se quedó sin cuota: se reintenta sola en el próximo turno.",
      "cuando": "2026-10-30T22:05",
-     "hace": "recién",
+     "hace": "hace 1 h",
      "detalle": [
       "Uso: 1 pasos · 0 tokens nuevos · 0 de caché · 0 escritos · equivale a US$ 0.00 de API",
       "2026-10-30 22:05 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -157,7 +157,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsqueda web (alertas SMN, tendencias/cambio de hora): sin resultados fechados de hoy. Candidatos: (1) alertas amarillas tormentas Mendoza/Chubu",
      "cuando": "2026-10-30T15:43",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [
       "28/10 00:00 | Revisión radar. Búsqueda web (alertas SMN): sin resultados fechados de hoy (lo más reciente es de julio). Sin tema de actualidad verificable; sigue la cola normal (pedido de Mateo: rehacer en 3D, empezando por 024-granizo-corto).",
       "29/10 00:00 | Revisión radar. Búsqueda web (alertas SMN hoy, clima/tendencias): sin resultados fechados de hoy (lo más cercano: alerta amarilla Chubut lunes 26 oct sin año confirmado, regional; el resto de julio/agosto 2026 o de 2025). Candidatos: (1) tormentas/alertas -> sin fuente del día y clima saturado (004, 005, 016, 024) -> descartado; (2) alerta Chubut -> regional, sin año confirmado -> descartado; (3) tendencias/redes -> sin evidencia. No se produce video de actualidad; sigue la cola normal.",
@@ -191,7 +191,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-10-30T19:32",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "017-paradoja-cumpleanos: aprobado — Las 8 afirmaciones fácticas están verificadas con fuente (Wikipedia 'Birthday problem' con su tabla y el cálculo de 253 parejas; Harvey Mudd",
       "008-aire-en-17: aprobado — Todas las afirmaciones factuales estan verificadas con fuentes oficiales argentinas (Secretaria de Energia de la Nacion y ENRE) y fuentes te",
@@ -224,7 +224,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-10-30T19:32",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -248,7 +248,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-30 19:32.",
      "cuando": "2026-10-30T19:32",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -272,7 +272,7 @@
      "estado": "ok",
      "resumen": "11 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-10-30T19:32",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -296,7 +296,7 @@
      "estado": "ok",
      "resumen": "Último: 017-paradoja-cumpleanos.",
      "cuando": "2026-10-30T19:34",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "30/10 12:32 011-sal-agua-hierve publicado: https://www.instagram.com/reel/DfH6TYLjGTs/",
       "30/10 12:33 011-sal-agua-hierve publicado en Facebook: https://www.facebook.com/reel/28890219667294993/",
@@ -333,7 +333,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-30T19:34",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "29/10 19:33 015-descongelar-mesada https://youtube.com/shorts/lP2Z8A7wujk | privacidad: public",
       "29/10 19:34 015-descongelar-mesada paquete para TikTok/YouTube enviado",
@@ -365,7 +365,7 @@
      "estado": "ok",
      "resumen": "1 listo(s) para las 16:00.",
      "cuando": "2026-10-30T20:01",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "2026-10-27 17:29 army-bomb: apartado dato demasiado largo (12 > 10): \"milisegundos…\"; números que no están en el cheq",
       "2026-10-27 17:29 army-bomb: listo control OK",
@@ -398,7 +398,7 @@
      "estado": "aviso",
      "resumen": "La última ronda terminó con problemas (casi siempre: Claude sin cuota).",
      "cuando": "2026-10-30T18:41",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "29/10 18:58 Termina la respuesta de comentarios (ok).",
       "30/10 03:52 Hay 1 comentarios nuevos: arranca la respuesta.",
@@ -435,7 +435,7 @@
      "estado": "ok",
      "resumen": "30/10: 296 seguidores",
      "cuando": "2026-10-30T02:36",
-     "hace": "hace 19 h",
+     "hace": "hace 20 h",
      "detalle": [
       "27/10: 235 seguidores",
       "28/10: 249 seguidores",
@@ -468,7 +468,7 @@
      },
      "estado": "aviso",
      "resumen": "Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 11 videos listos ≈ 5.5 días.",
-     "cuando": "2026-10-30T22:05",
+     "cuando": "2026-10-30T23:31",
      "hace": "recién",
      "detalle": [
       "⚠️ Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 11 videos listos ≈ 5.5 días."
@@ -626,7 +626,7 @@
      "estado": "aviso",
      "resumen": "Claude se quedó sin cuota: se reintenta sola en el próximo turno.",
      "cuando": "2026-10-30T22:05",
-     "hace": "recién",
+     "hace": "hace 1 h",
      "detalle": [
       "Uso: 1 pasos · 0 tokens nuevos · 0 de caché · 0 escritos · equivale a US$ 0.00 de API",
       "2026-10-30 22:05 Arranca la producción (5 listos en la cola, meta 6).",
@@ -657,7 +657,7 @@
      "estado": "ok",
      "resumen": "Quinta pasada del radar: la búsqueda web no devolvió nada verificable de las últimas 48 h (solo notas viejas, blogs sin fecha y una página del NWS de Fort Worth",
      "cuando": "2026-10-30T15:44",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [
       "28/10 00:00 Tercera pasada del radar: sin tema nuevo. Descartados: (1) humo/incendios en el Noroeste (Spokane): evento regional, sin fuente oficial del día y con riesgo de damnificados; (2) superluna de octubre: las fuentes dicen que no hay (la próxima es el 24/11), sin gancho; (3) primera helada/nieve: nada concreto ni reciente en la búsqueda. El cambio de hora (en-002, publicado) ya cubre la actualidad; Halloween ya está en cola (en-004).",
       "29/10 00:00 Cuarta pasada del radar: la búsqueda web solo devolvió notas viejas (2013–2024) y una de septiembre 2026; nada verificable de las últimas 48 h. Descartados: (1) nor'easter/helada: nota de hace 5 semanas, sin fuente oficial del día; (2) auroras: sin alerta del SWPC confirmada; (3) cambio de hora (1/11): ya publicado (en-002). Halloween ya cubierto (en-004). Sin tema nuevo.",
@@ -687,7 +687,7 @@
      "estado": "aviso",
      "resumen": "Frenó 2 video(s): en-015-rain-smell.",
      "cuando": "2026-10-30T19:34",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "en-009-ceiling-fan: aprobado — Todas las afirmaciones de plata/energia y seguridad-practica (sentido de giro por estacion, velocidad baja en invierno, apagar al salir, 'en",
       "en-010-thermostat-night: aprobado — Todas las cifras (7 a 10 °F, 8 horas por dia, hasta 10% por año) coinciden con Energy.gov (Energy Saver, thermostats / programmable thermost",
@@ -723,7 +723,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-10-30T19:34",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -747,7 +747,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-10-30 19:34.",
      "cuando": "2026-10-30T19:34",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -771,7 +771,7 @@
      "estado": "ok",
      "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-10-30T19:34",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -795,7 +795,7 @@
      "estado": "ok",
      "resumen": "Último: en-008-wash-chicken.",
      "cuando": "2026-10-30T19:35",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "29/10 19:35 en-005-fridge-part-2 en la bandeja de TikTok",
       "29/10 19:35 en-005-fridge-part-2 paquete para TikTok/YouTube enviado",
@@ -832,7 +832,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-10-30T19:35",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "29/10 12:36 en-006-five-second-rule en la bandeja de TikTok",
       "29/10 12:36 en-006-five-second-rule paquete para TikTok/YouTube enviado",
@@ -890,7 +890,7 @@
      "estado": "ok",
      "resumen": "30/10: 2 seguidores",
      "cuando": "2026-10-30T02:37",
-     "hace": "hace 19 h",
+     "hace": "hace 20 h",
      "detalle": [
       "28/10: 2 seguidores",
       "29/10: 2 seguidores",
@@ -922,7 +922,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: en-014-birthday-pairs — chequeo rechazado 2 veces: solo atribución de fuentes (MathWorld no respalda el efecto de cumpleaños no uniformes); cifr",
-     "cuando": "2026-10-30T22:05",
+     "cuando": "2026-10-30T23:31",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: en-014-birthday-pairs — chequeo rechazado 2 veces: solo atribución de fuentes (MathWorld no respalda el efecto de cumpleaños no uniformes); cifr",
@@ -938,17 +938,6 @@
   }
  ],
  "arreglos": [
-  {
-   "id": "prueba1-voz",
-   "empleado": "es/voz",
-   "estado": "descartado",
-   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Nacho (Locutor) está en 'ojo': La voz no coincidió con el guion en 005-granizo-calor.\r\nLo que sugiere la oficina: Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.\r\nTareas:\r\n005-granizo-calor: la voz no coincide con el guion (88%)",
-   "creado": "2026-10-27T14:52",
-   "actualizado": "2026-10-27T14:59",
-   "titulo": "Falso rechazo del control de voz en 005-granizo-calor: no hace falta tocar código",
-   "resumen": "El video se apartó el 25/10 a las 19:32 porque el control de voz dio 88 %. El guion está bien. Ese día el control escuchaba mal en la nube: transcribía palabras sueltas mal con el modo rápido (int8). Ya está corregido en `herramientas/control.py` desde el 26/10, así que no cambié nada. Con las otras dos pruebas de esta semana pasó lo mismo (el video 91 % de `cola.json` también fue un falso rechazo).\nQué hacer: el .mp4 ya no está en la carpeta del video, así que no pude volver a correr el control. Si querés publicarlo, pasalo a \"listo\" a mano. Si preferís asegurarte, mandalo a producir de nuevo: el control nuevo lo va a revisar bien. Ojo: es un video de actualidad (granizo de esa semana) y ya pasaron unos días.",
-   "firma": "4985204fec50"
-  },
   {
    "id": "manual-es-jefe",
    "empleado": "es/jefe",
@@ -1099,6 +1088,16 @@
    "titulo": "Claude no pudo trabajar ahora",
    "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
    "actualizado": "2026-10-30T18:38"
+  },
+  {
+   "id": "10302331-en-chequeo",
+   "creado": "2026-10-30T23:31",
+   "empleado": "en/chequeo",
+   "firma": "a225503c948e",
+   "estado": "pedido",
+   "auto": true,
+   "problema": "En la oficina de Nueva York (@letmeexplain.us), Grace (Chequeo de datos) está en \"aviso\": Frenó 2 video(s): en-015-rain-smell.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\nen-014-birthday-pairs: chequeo rechazado 2 veces: solo atribución de fuentes (MathWorld no respalda el efecto de cumpleaños no uniformes); cifras verificadas\nen-015-rain-smell: chequeo rechazado 2 veces: umbral de geosmina 'a few parts per trillion' varía por fuente (5 a 400 ppt); el resto verificado\nRegistro:\nen-009-ceiling-fan: aprobado — Todas las afirmaciones de plata/energia y seguridad-practica (sentido de giro por estacion, velocidad baja en invierno, apagar al salir, 'en\nen-010-thermostat-night: aprobado — Todas las cifras (7 a 10 °F, 8 horas por dia, hasta 10% por año) coinciden con Energy.gov (Energy Saver, thermostats / programmable thermost\nen-011-thaw-counter: aprobado — Se releyeron guion.json y caption.txt con las correcciones aplicadas. Todas las frases de salud/seguridad quedan verificadas contra USDA FSI\nen-012-thunder-count: aprobado — Todas las afirmaciones de seguridad y cifras estan respaldadas por paginas del NWS/NOAA (weather.gov) y las unidades coinciden (millas, 5 s \nen-013-searing-juices: aprobado — Todas las afirmaciones están respaldadas por America's Test Kitchen / Cook's Illustrated (prueba con 8 rib-eyes: ambos lotes perdieron ~22% \nen-014-birthday-pairs: rechazado — Todas las cifras coinci",
+   "actualizado": "2026-10-30T23:31"
   }
  ]
 }
