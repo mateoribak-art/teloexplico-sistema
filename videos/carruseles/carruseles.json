@@ -68,7 +68,7 @@
  },
  {
   "clave": "vuelta-carne",
-  "estado": "listo",
+  "estado": "publicado",
   "origen": [
    "003-vuelta-carne"
   ],
@@ -82,6 +82,11 @@
     "estado": "listo",
     "cuando": "2026-10-29T22:38",
     "motivo": "control OK"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-31T19:02",
+    "motivo": "https://www.instagram.com/p/DfLLzq9I7ZT/"
    }
   ]
  }
