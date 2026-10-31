@@ -280,7 +280,7 @@
  {
   "slug": "en-009-ceiling-fan",
   "tema": "Which way should your ceiling fan spin? (DOE)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -306,6 +306,11 @@
     "estado": "listo",
     "cuando": "2026-10-29T00:57",
     "motivo": "control corregido: whisper se comía la última frase (falso rechazo, 29/10)"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-31T12:38",
+    "motivo": "https://www.instagram.com/reel/DfKfrahDQ-l/"
    }
   ]
  },

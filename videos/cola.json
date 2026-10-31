@@ -707,7 +707,7 @@
  {
   "slug": "019-sensacion-termica",
   "tema": "¿Por qué la sensación térmica es más alta que la temperatura? Humedad y sudor",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -748,6 +748,11 @@
     "estado": "listo",
     "cuando": "2026-10-28T22:48",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-10-31T12:34",
+    "motivo": "https://www.instagram.com/reel/DfKfUeWFIfH/"
    }
   ]
  },
