@@ -11,6 +11,10 @@
   "2026-10-30": {
    "seguidores": 2,
    "posts": 6
+  },
+  "2026-10-31": {
+   "seguidores": 2,
+   "posts": 8
   }
  },
  "reels": {
@@ -19,16 +23,16 @@
    "publicado": "2026-10-27T15:35:51+0000",
    "duracion": null,
    "ultimo": {
-    "views": 3797,
-    "reach": 3279,
-    "likes": 48,
+    "views": 3917,
+    "reach": 3381,
+    "likes": 50,
     "comments": 0,
-    "shares": 16,
-    "saved": 4,
-    "total_interactions": 72,
-    "ig_reels_avg_watch_time": 19249,
-    "ig_reels_video_view_total_time": 64753985,
-    "cuando": "2026-10-30T02:36"
+    "shares": 22,
+    "saved": 5,
+    "total_interactions": 81,
+    "ig_reels_avg_watch_time": 19328,
+    "ig_reels_video_view_total_time": 67012476,
+    "cuando": "2026-10-31T02:26"
    }
   },
   "17958040254081571": {
@@ -45,7 +49,7 @@
     "total_interactions": 9,
     "ig_reels_avg_watch_time": 13186,
     "ig_reels_video_view_total_time": 5498966,
-    "cuando": "2026-10-30T02:36"
+    "cuando": "2026-10-31T02:26"
    }
   },
   "18145074805596156": {
@@ -53,16 +57,16 @@
    "publicado": "2026-10-28T15:35:10+0000",
    "duracion": null,
    "ultimo": {
-    "views": 187,
-    "reach": 170,
+    "views": 188,
+    "reach": 171,
     "likes": 2,
     "comments": 0,
     "shares": 0,
     "saved": 0,
     "total_interactions": 3,
-    "ig_reels_avg_watch_time": 10347,
-    "ig_reels_video_view_total_time": 1790200,
-    "cuando": "2026-10-30T02:36"
+    "ig_reels_avg_watch_time": 10290,
+    "ig_reels_video_view_total_time": 1790546,
+    "cuando": "2026-10-31T02:26"
    }
   },
   "18072403097773356": {
@@ -70,16 +74,16 @@
    "publicado": "2026-10-28T22:35:02+0000",
    "duracion": null,
    "ultimo": {
-    "views": 210,
-    "reach": 191,
+    "views": 211,
+    "reach": 192,
     "likes": 1,
     "comments": 0,
     "shares": 0,
     "saved": 0,
     "total_interactions": 2,
-    "ig_reels_avg_watch_time": 8756,
-    "ig_reels_video_view_total_time": 1672510,
-    "cuando": "2026-10-30T02:37"
+    "ig_reels_avg_watch_time": 8722,
+    "ig_reels_video_view_total_time": 1674633,
+    "cuando": "2026-10-31T02:26"
    }
   },
   "18136482181659197": {
@@ -87,16 +91,16 @@
    "publicado": "2026-10-29T15:35:07+0000",
    "duracion": null,
    "ultimo": {
-    "views": 596,
-    "reach": 494,
-    "likes": 8,
+    "views": 2253,
+    "reach": 1870,
+    "likes": 52,
     "comments": 0,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 8,
-    "ig_reels_avg_watch_time": 14265,
-    "ig_reels_video_view_total_time": 6933205,
-    "cuando": "2026-10-30T02:37"
+    "shares": 22,
+    "saved": 1,
+    "total_interactions": 76,
+    "ig_reels_avg_watch_time": 20416,
+    "ig_reels_video_view_total_time": 37689011,
+    "cuando": "2026-10-31T02:26"
    }
   },
   "17941745502390982": {
@@ -104,16 +108,50 @@
    "publicado": "2026-10-29T22:34:40+0000",
    "duracion": null,
    "ultimo": {
-    "views": 195,
+    "views": 196,
     "reach": 172,
     "likes": 1,
     "comments": 0,
     "shares": 0,
     "saved": 0,
     "total_interactions": 1,
-    "ig_reels_avg_watch_time": 9597,
-    "ig_reels_video_view_total_time": 1641172,
-    "cuando": "2026-10-30T02:37"
+    "ig_reels_avg_watch_time": 9576,
+    "ig_reels_video_view_total_time": 1656801,
+    "cuando": "2026-10-31T02:26"
+   }
+  },
+  "18225329437338010": {
+   "slug": "en-007-flip-steak",
+   "publicado": "2026-10-30T15:35:11+0000",
+   "duracion": null,
+   "ultimo": {
+    "views": 2755,
+    "reach": 2385,
+    "likes": 30,
+    "comments": 0,
+    "shares": 18,
+    "saved": 5,
+    "total_interactions": 54,
+    "ig_reels_avg_watch_time": 15707,
+    "ig_reels_video_view_total_time": 38059718,
+    "cuando": "2026-10-31T02:27"
+   }
+  },
+  "17914954917283643": {
+   "slug": "en-008-wash-chicken",
+   "publicado": "2026-10-30T22:34:51+0000",
+   "duracion": null,
+   "ultimo": {
+    "views": 1332,
+    "reach": 1175,
+    "likes": 10,
+    "comments": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 11,
+    "ig_reels_avg_watch_time": 15286,
+    "ig_reels_video_view_total_time": 17747660,
+    "cuando": "2026-10-31T02:27"
    }
   }
  }
