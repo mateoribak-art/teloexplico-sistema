@@ -6,7 +6,7 @@
    "usuario": "teloexplico.ar",
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
-   "seguidores": 329,
+   "seguidores": 296,
    "listos": 11,
    "dias": 5.5,
    "proximo": "010-rayo-mismo-lugar",
@@ -433,25 +433,25 @@
       }
      },
      "estado": "ok",
-     "resumen": "31/10: 329 seguidores",
-     "cuando": "2026-10-31T02:26",
-     "hace": "hace 1 min",
+     "resumen": "30/10: 296 seguidores",
+     "cuando": "2026-10-30T02:36",
+     "hace": "hace 23 h",
      "detalle": [
+      "27/10: 235 seguidores",
       "28/10: 249 seguidores",
       "29/10: 254 seguidores",
-      "30/10: 296 seguidores",
-      "31/10: 329 seguidores"
+      "30/10: 296 seguidores"
      ],
      "tareas": [
-      "001-heladera: 119.278 vistas · 4416 enviados · 2193 ♥",
-      "007-bts-13-anios: 25.969 vistas · 523 enviados · 2343 ♥",
-      "006-army-bomb: 8.006 vistas · 46 enviados · 481 ♥",
-      "003-vuelta-carne: 3.787 vistas · 24 enviados · 87 ♥",
-      "020-pava-se-corta: 1.914 vistas · 3 enviados · 66 ♥"
+      "001-heladera: 110.660 vistas · 3936 enviados · 1956 ♥",
+      "007-bts-13-anios: 25.187 vistas · 511 enviados · 2238 ♥",
+      "006-army-bomb: 7.890 vistas · 44 enviados · 459 ♥",
+      "003-vuelta-carne: 3.658 vistas · 24 enviados · 85 ♥",
+      "020-pava-se-corta: 1.894 vistas · 3 enviados · 65 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "96d5db2ff09f"
+     "firma": "11c156f80af7"
     },
     {
      "id": "vigilante",
@@ -888,25 +888,24 @@
       }
      },
      "estado": "ok",
-     "resumen": "31/10: 2 seguidores",
-     "cuando": "2026-10-31T02:27",
-     "hace": "recién",
+     "resumen": "30/10: 2 seguidores",
+     "cuando": "2026-10-30T02:37",
+     "hace": "hace 23 h",
      "detalle": [
       "28/10: 2 seguidores",
       "29/10: 2 seguidores",
-      "30/10: 2 seguidores",
-      "31/10: 2 seguidores"
+      "30/10: 2 seguidores"
      ],
      "tareas": [
-      "en-001-phone-rice: 3.917 vistas · 22 enviados · 50 ♥",
-      "en-007-flip-steak: 2.755 vistas · 18 enviados · 30 ♥",
-      "en-006-five-second-rule: 2.253 vistas · 22 enviados · 52 ♥",
-      "en-008-wash-chicken: 1.332 vistas · 0 enviados · 10 ♥",
-      "en-002-dst-farmers: 493 vistas · 0 enviados · 9 ♥"
+      "en-001-phone-rice: 3.797 vistas · 16 enviados · 48 ♥",
+      "en-006-five-second-rule: 596 vistas · 0 enviados · 8 ♥",
+      "en-002-dst-farmers: 493 vistas · 0 enviados · 9 ♥",
+      "en-004-sugar-hyper: 210 vistas · 0 enviados · 1 ♥",
+      "en-005-fridge-part-2: 195 vistas · 0 enviados · 1 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "c74913311624"
+     "firma": "d3ae726d7840"
     },
     {
      "id": "vigilante",
@@ -1092,11 +1091,10 @@
   {
    "id": "10310227-en-chequeo",
    "creado": "2026-10-31T02:27",
-   "empleado": "en/chequeo",
-   "firma": "a225503c948e",
-   "estado": "pedido",
-   "auto": true,
-   "problema": "En la oficina de Nueva York (@letmeexplain.us), Grace (Chequeo de datos) está en \"aviso\": Frenó 2 video(s): en-015-rain-smell.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\nen-014-birthday-pairs: chequeo rechazado 2 veces: solo atribución de fuentes (MathWorld no respalda el efecto de cumpleaños no uniformes); cifras verificadas\nen-015-rain-smell: chequeo rechazado 2 veces: umbral de geosmina 'a few parts per trillion' varía por fuente (5 a 400 ppt); el resto verificado\nRegistro:\nen-009-ceiling-fan: aprobado — Todas las afirmaciones de plata/energia y seguridad-practica (sentido de giro por estacion, velocidad baja en invierno, apagar al salir, 'en\nen-010-thermostat-night: aprobado — Todas las cifras (7 a 10 °F, 8 horas por dia, hasta 10% por año) coinciden con Energy.gov (Energy Saver, thermostats / programmable thermost\nen-011-thaw-counter: aprobado — Se releyeron guion.json y caption.txt con las correcciones aplicadas. Todas las frases de salud/seguridad quedan verificadas contra USDA FSI\nen-012-thunder-count: aprobado — Todas las afirmaciones de seguridad y cifras estan respaldadas por paginas del NWS/NOAA (weather.gov) y las unidades coinciden (millas, 5 s \nen-013-searing-juices: aprobado — Todas las afirmaciones están respaldadas por America's Test Kitchen / Cook's Illustrated (prueba con 8 rib-eyes: ambos lotes perdieron ~22% \nen-014-birthday-pairs: rechazado — Todas las cifras coinci",
+   "estado": "fallo",
+   "firma": null,
+   "titulo": "Claude no pudo trabajar ahora",
+   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
    "actualizado": "2026-10-31T02:27"
   }
  ]
