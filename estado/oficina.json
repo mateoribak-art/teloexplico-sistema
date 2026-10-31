@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T03:42",
+ "actualizado": "2026-10-31T03:43",
  "oficinas": [
   {
    "clave": "es",
@@ -157,7 +157,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsqueda web (alertas SMN, tendencias/cambio de hora): sin resultados fechados de hoy. Candidatos: (1) alertas amarillas tormentas Mendoza/Chubu",
      "cuando": "2026-10-30T15:43",
-     "hace": "hace 11 h",
+     "hace": "hace 12 h",
      "detalle": [
       "28/10 00:00 | Revisión radar. Búsqueda web (alertas SMN): sin resultados fechados de hoy (lo más reciente es de julio). Sin tema de actualidad verificable; sigue la cola normal (pedido de Mateo: rehacer en 3D, empezando por 024-granizo-corto).",
       "29/10 00:00 | Revisión radar. Búsqueda web (alertas SMN hoy, clima/tendencias): sin resultados fechados de hoy (lo más cercano: alerta amarilla Chubut lunes 26 oct sin año confirmado, regional; el resto de julio/agosto 2026 o de 2025). Candidatos: (1) tormentas/alertas -> sin fuente del día y clima saturado (004, 005, 016, 024) -> descartado; (2) alerta Chubut -> regional, sin año confirmado -> descartado; (3) tendencias/redes -> sin evidencia. No se produce video de actualidad; sigue la cola normal.",
@@ -397,17 +397,17 @@
      },
      "estado": "aviso",
      "resumen": "La última ronda terminó con problemas (casi siempre: Claude sin cuota).",
-     "cuando": "2026-10-30T18:41",
-     "hace": "hace 9 h",
+     "cuando": "2026-10-31T03:43",
+     "hace": "recién",
      "detalle": [
-      "29/10 18:58 Termina la respuesta de comentarios (ok).",
-      "30/10 03:52 Hay 1 comentarios nuevos: arranca la respuesta.",
-      "30/10 00:00 Respondí 1 · salteé 0 · alerté 0. (marbe_r: anécdota de la heladera, respondido con humor)",
       "30/10 00:00 Termina la respuesta de comentarios (ok).",
       "30/10 03:52 Termina la respuesta de comentarios (ok).",
       "30/10 18:40 Hay 5 comentarios nuevos: arranca la respuesta.",
       "30/10 18:41 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
-      "30/10 18:41 Termina la respuesta de comentarios (con problemas)."
+      "30/10 18:41 Termina la respuesta de comentarios (con problemas).",
+      "31/10 03:43 Hay 5 comentarios nuevos: arranca la respuesta.",
+      "31/10 03:43 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
+      "31/10 03:43 Termina la respuesta de comentarios (con problemas)."
      ],
      "tareas": [
       "1 alerta",
@@ -468,7 +468,7 @@
      },
      "estado": "aviso",
      "resumen": "Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 11 videos listos ≈ 5.5 días.",
-     "cuando": "2026-10-31T03:42",
+     "cuando": "2026-10-31T03:43",
      "hace": "recién",
      "detalle": [
       "⚠️ Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 11 videos listos ≈ 5.5 días."
@@ -923,7 +923,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: en-014-birthday-pairs — chequeo rechazado 2 veces: solo atribución de fuentes (MathWorld no respalda el efecto de cumpleaños no uniformes); cifr",
-     "cuando": "2026-10-31T03:42",
+     "cuando": "2026-10-31T03:43",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: en-014-birthday-pairs — chequeo rechazado 2 veces: solo atribución de fuentes (MathWorld no respalda el efecto de cumpleaños no uniformes); cifr",
@@ -939,6 +939,18 @@
   }
  ],
  "arreglos": [
+  {
+   "id": "mvr34znp-vigilante",
+   "creado": "2026-10-27T16:36",
+   "empleado": "en/vigilante",
+   "estado": "explicado",
+   "auto": false,
+   "problema": "En la oficina de Nueva York (@letmeexplain.us), Walt (Vigilancia) está en \"ojo\": Quedan 1 videos listos: alcanza para 0.5 día(s).\nRegistro:\n⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s).\n\nRevisalo en C:\\Users\\Mateo\\teloexplico (sistema de teloexplico / letmeexplain) y arreglalo.",
+   "firma": "d68cc7d78ae0",
+   "actualizado": "2026-10-27T16:36",
+   "titulo": "Walt avisó que quedaba 1 video en inglés; no cambié nada porque la cuenta recién arrancó.",
+   "resumen": "La cuenta de Nueva York (@letmeexplain.us) empezó hoy. El primer video ya se publicó y el segundo (el del cambio de hora) quedó listo, y por eso el stock es 1. No hay ningún error de código ni de reglas. La producción automática en inglés va a ir sumando videos en sus próximas corridas (la meta es 6 listos). Ojo: el video del cambio de hora dice \"this Sunday\", así que tiene que salir antes del sábado 31/10."
+  },
   {
    "id": "mvrah53o-vigilante",
    "creado": "2026-10-27T20:01",
@@ -1084,16 +1096,6 @@
    "titulo": "Claude no pudo trabajar ahora",
    "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
    "actualizado": "2026-10-31T03:13"
-  },
-  {
-   "id": "10310342-en-chequeo",
-   "creado": "2026-10-31T03:42",
-   "empleado": "en/chequeo",
-   "firma": "a225503c948e",
-   "estado": "pedido",
-   "auto": true,
-   "problema": "En la oficina de Nueva York (@letmeexplain.us), Grace (Chequeo de datos) está en \"aviso\": Frenó 2 video(s): en-015-rain-smell.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\nen-014-birthday-pairs: chequeo rechazado 2 veces: solo atribución de fuentes (MathWorld no respalda el efecto de cumpleaños no uniformes); cifras verificadas\nen-015-rain-smell: chequeo rechazado 2 veces: umbral de geosmina 'a few parts per trillion' varía por fuente (5 a 400 ppt); el resto verificado\nRegistro:\nen-009-ceiling-fan: aprobado — Todas las afirmaciones de plata/energia y seguridad-practica (sentido de giro por estacion, velocidad baja en invierno, apagar al salir, 'en\nen-010-thermostat-night: aprobado — Todas las cifras (7 a 10 °F, 8 horas por dia, hasta 10% por año) coinciden con Energy.gov (Energy Saver, thermostats / programmable thermost\nen-011-thaw-counter: aprobado — Se releyeron guion.json y caption.txt con las correcciones aplicadas. Todas las frases de salud/seguridad quedan verificadas contra USDA FSI\nen-012-thunder-count: aprobado — Todas las afirmaciones de seguridad y cifras estan respaldadas por paginas del NWS/NOAA (weather.gov) y las unidades coinciden (millas, 5 s \nen-013-searing-juices: aprobado — Todas las afirmaciones están respaldadas por America's Test Kitchen / Cook's Illustrated (prueba con 8 rib-eyes: ambos lotes perdieron ~22% \nen-014-birthday-pairs: rechazado — Todas las cifras coinci",
-   "actualizado": "2026-10-31T03:42"
   }
  ]
 }
