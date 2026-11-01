@@ -15,6 +15,10 @@
   "2026-10-31": {
    "seguidores": 2,
    "posts": 8
+  },
+  "2026-11-01": {
+   "seguidores": 2,
+   "posts": 10
   }
  },
  "reels": {
@@ -23,16 +27,16 @@
    "publicado": "2026-10-27T15:35:51+0000",
    "duracion": null,
    "ultimo": {
-    "views": 3917,
-    "reach": 3381,
-    "likes": 50,
+    "views": 3946,
+    "reach": 3402,
+    "likes": 51,
     "comments": 0,
     "shares": 22,
     "saved": 5,
-    "total_interactions": 81,
-    "ig_reels_avg_watch_time": 19328,
-    "ig_reels_video_view_total_time": 67012476,
-    "cuando": "2026-10-31T02:26"
+    "total_interactions": 82,
+    "ig_reels_avg_watch_time": 19338,
+    "ig_reels_video_view_total_time": 67509267,
+    "cuando": "2026-11-01T02:52"
    }
   },
   "17958040254081571": {
@@ -49,7 +53,7 @@
     "total_interactions": 9,
     "ig_reels_avg_watch_time": 13186,
     "ig_reels_video_view_total_time": 5498966,
-    "cuando": "2026-10-31T02:26"
+    "cuando": "2026-11-01T02:52"
    }
   },
   "18145074805596156": {
@@ -66,7 +70,7 @@
     "total_interactions": 3,
     "ig_reels_avg_watch_time": 10290,
     "ig_reels_video_view_total_time": 1790546,
-    "cuando": "2026-10-31T02:26"
+    "cuando": "2026-11-01T02:52"
    }
   },
   "18072403097773356": {
@@ -83,7 +87,7 @@
     "total_interactions": 2,
     "ig_reels_avg_watch_time": 8722,
     "ig_reels_video_view_total_time": 1674633,
-    "cuando": "2026-10-31T02:26"
+    "cuando": "2026-11-01T02:52"
    }
   },
   "18136482181659197": {
@@ -91,16 +95,16 @@
    "publicado": "2026-10-29T15:35:07+0000",
    "duracion": null,
    "ultimo": {
-    "views": 2253,
-    "reach": 1870,
+    "views": 2254,
+    "reach": 1872,
     "likes": 52,
     "comments": 0,
     "shares": 22,
     "saved": 1,
     "total_interactions": 76,
-    "ig_reels_avg_watch_time": 20416,
-    "ig_reels_video_view_total_time": 37689011,
-    "cuando": "2026-10-31T02:26"
+    "ig_reels_avg_watch_time": 20407,
+    "ig_reels_video_view_total_time": 37693303,
+    "cuando": "2026-11-01T02:52"
    }
   },
   "17941745502390982": {
@@ -117,7 +121,7 @@
     "total_interactions": 1,
     "ig_reels_avg_watch_time": 9576,
     "ig_reels_video_view_total_time": 1656801,
-    "cuando": "2026-10-31T02:26"
+    "cuando": "2026-11-01T02:52"
    }
   },
   "18225329437338010": {
@@ -125,16 +129,16 @@
    "publicado": "2026-10-30T15:35:11+0000",
    "duracion": null,
    "ultimo": {
-    "views": 2755,
-    "reach": 2385,
-    "likes": 30,
+    "views": 3315,
+    "reach": 2917,
+    "likes": 36,
     "comments": 0,
     "shares": 18,
     "saved": 5,
-    "total_interactions": 54,
-    "ig_reels_avg_watch_time": 15707,
-    "ig_reels_video_view_total_time": 38059718,
-    "cuando": "2026-10-31T02:27"
+    "total_interactions": 60,
+    "ig_reels_avg_watch_time": 15732,
+    "ig_reels_video_view_total_time": 45843523,
+    "cuando": "2026-11-01T02:52"
    }
   },
   "17914954917283643": {
@@ -142,16 +146,50 @@
    "publicado": "2026-10-30T22:34:51+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1332,
-    "reach": 1175,
-    "likes": 10,
+    "views": 2180,
+    "reach": 1912,
+    "likes": 18,
+    "comments": 0,
+    "shares": 3,
+    "saved": 0,
+    "total_interactions": 22,
+    "ig_reels_avg_watch_time": 14584,
+    "ig_reels_video_view_total_time": 27841073,
+    "cuando": "2026-11-01T02:52"
+   }
+  },
+  "17908077690597622": {
+   "slug": "en-009-ceiling-fan",
+   "publicado": "2026-10-31T15:37:51+0000",
+   "duracion": null,
+   "ultimo": {
+    "views": 3007,
+    "reach": 2667,
+    "likes": 39,
+    "comments": 1,
+    "shares": 2,
+    "saved": 11,
+    "total_interactions": 53,
+    "ig_reels_avg_watch_time": 17237,
+    "ig_reels_video_view_total_time": 45524466,
+    "cuando": "2026-11-01T02:52"
+   }
+  },
+  "18136074751659151": {
+   "slug": "en-010-thermostat-night",
+   "publicado": "2026-10-31T22:34:48+0000",
+   "duracion": null,
+   "ultimo": {
+    "views": 806,
+    "reach": 727,
+    "likes": 8,
     "comments": 0,
     "shares": 0,
     "saved": 0,
-    "total_interactions": 11,
-    "ig_reels_avg_watch_time": 15286,
-    "ig_reels_video_view_total_time": 17747660,
-    "cuando": "2026-10-31T02:27"
+    "total_interactions": 8,
+    "ig_reels_avg_watch_time": 10464,
+    "ig_reels_video_view_total_time": 7659934,
+    "cuando": "2026-11-01T02:52"
    }
   }
  }
