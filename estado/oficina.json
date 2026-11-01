@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T04:10",
+ "actualizado": "2026-11-01T04:11",
  "oficinas": [
   {
    "clave": "es",
@@ -465,7 +465,7 @@
      },
      "estado": "aviso",
      "resumen": "Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 9 videos listos ≈ 4.5 días.",
-     "cuando": "2026-11-01T04:10",
+     "cuando": "2026-11-01T04:11",
      "hace": "recién",
      "detalle": [
       "⚠️ Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 9 videos listos ≈ 4.5 días."
@@ -920,7 +920,7 @@
      },
      "estado": "aviso",
      "resumen": "Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 3 videos listos ≈ 1.5 días.",
-     "cuando": "2026-11-01T04:10",
+     "cuando": "2026-11-01T04:11",
      "hace": "recién",
      "detalle": [
       "⚠️ Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 3 videos listos ≈ 1.5 días."
@@ -1076,13 +1076,12 @@
   },
   {
    "id": "11010410-en-chequeo",
-   "creado": "2026-11-01T04:10",
-   "empleado": "en/chequeo",
-   "firma": "a225503c948e",
-   "estado": "pedido",
-   "auto": true,
-   "problema": "En la oficina de Nueva York (@letmeexplain.us), Grace (Chequeo de datos) está en \"aviso\": Frenó 2 video(s): en-015-rain-smell.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\nen-014-birthday-pairs: chequeo rechazado 2 veces: solo atribución de fuentes (MathWorld no respalda el efecto de cumpleaños no uniformes); cifras verificadas\nen-015-rain-smell: chequeo rechazado 2 veces: umbral de geosmina 'a few parts per trillion' varía por fuente (5 a 400 ppt); el resto verificado\nRegistro:\nen-009-ceiling-fan: aprobado — Todas las afirmaciones de plata/energia y seguridad-practica (sentido de giro por estacion, velocidad baja en invierno, apagar al salir, 'en\nen-010-thermostat-night: aprobado — Todas las cifras (7 a 10 °F, 8 horas por dia, hasta 10% por año) coinciden con Energy.gov (Energy Saver, thermostats / programmable thermost\nen-011-thaw-counter: aprobado — Se releyeron guion.json y caption.txt con las correcciones aplicadas. Todas las frases de salud/seguridad quedan verificadas contra USDA FSI\nen-012-thunder-count: aprobado — Todas las afirmaciones de seguridad y cifras estan respaldadas por paginas del NWS/NOAA (weather.gov) y las unidades coinciden (millas, 5 s \nen-013-searing-juices: aprobado — Todas las afirmaciones están respaldadas por America's Test Kitchen / Cook's Illustrated (prueba con 8 rib-eyes: ambos lotes perdieron ~22% \nen-014-birthday-pairs: rechazado — Todas las cifras coinci",
-   "actualizado": "2026-11-01T04:10"
+   "creado": "2026-11-01T04:11",
+   "estado": "fallo",
+   "firma": null,
+   "titulo": "Claude no pudo trabajar ahora",
+   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
+   "actualizado": "2026-11-01T04:11"
   }
  ]
 }
