@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T04:11",
+ "actualizado": "2026-11-01T04:12",
  "oficinas": [
   {
    "clave": "es",
@@ -394,17 +394,17 @@
      },
      "estado": "aviso",
      "resumen": "La última ronda terminó con problemas (casi siempre: Claude sin cuota).",
-     "cuando": "2026-10-31T17:38",
-     "hace": "hace 10 h",
+     "cuando": "2026-11-01T04:12",
+     "hace": "recién",
      "detalle": [
-      "30/10 18:41 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
-      "30/10 18:41 Termina la respuesta de comentarios (con problemas).",
-      "31/10 03:43 Hay 5 comentarios nuevos: arranca la respuesta.",
       "31/10 03:43 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "31/10 03:43 Termina la respuesta de comentarios (con problemas).",
       "31/10 17:38 Hay 8 comentarios nuevos: arranca la respuesta.",
       "31/10 17:38 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
-      "31/10 17:38 Termina la respuesta de comentarios (con problemas)."
+      "31/10 17:38 Termina la respuesta de comentarios (con problemas).",
+      "01/11 04:12 Hay 8 comentarios nuevos: arranca la respuesta.",
+      "01/11 04:12 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
+      "01/11 04:12 Termina la respuesta de comentarios (con problemas)."
      ],
      "tareas": [
       "1 alerta",
@@ -465,7 +465,7 @@
      },
      "estado": "aviso",
      "resumen": "Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 9 videos listos ≈ 4.5 días.",
-     "cuando": "2026-11-01T04:11",
+     "cuando": "2026-11-01T04:12",
      "hace": "recién",
      "detalle": [
       "⚠️ Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 9 videos listos ≈ 4.5 días."
@@ -859,12 +859,15 @@
      },
      "estado": "aviso",
      "resumen": "La última ronda terminó con problemas (casi siempre: Claude sin cuota).",
-     "cuando": "2026-10-31T17:38",
-     "hace": "hace 10 h",
+     "cuando": "2026-11-01T04:12",
+     "hace": "recién",
      "detalle": [
       "31/10 17:38 Hay 1 comentarios nuevos: arranca la respuesta.",
       "31/10 17:38 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
-      "31/10 17:38 Termina la respuesta de comentarios (con problemas)."
+      "31/10 17:38 Termina la respuesta de comentarios (con problemas).",
+      "01/11 04:12 Hay 1 comentarios nuevos: arranca la respuesta.",
+      "01/11 04:12 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
+      "01/11 04:12 Termina la respuesta de comentarios (con problemas)."
      ],
      "tareas": [],
      "arreglo": "Se reintenta en la próxima ronda. Si hay muchos pendientes, relanzala.",
@@ -920,7 +923,7 @@
      },
      "estado": "aviso",
      "resumen": "Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 3 videos listos ≈ 1.5 días.",
-     "cuando": "2026-11-01T04:11",
+     "cuando": "2026-11-01T04:12",
      "hace": "recién",
      "detalle": [
       "⚠️ Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 3 videos listos ≈ 1.5 días."
@@ -934,6 +937,15 @@
   }
  ],
  "arreglos": [
+  {
+   "id": "mvsbq20y-animador",
+   "creado": "2026-10-28T13:23",
+   "estado": "fallo",
+   "firma": null,
+   "titulo": "Claude no pudo trabajar ahora",
+   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
+   "actualizado": "2026-10-28T13:23"
+  },
   {
    "id": "10281413-es-animador",
    "creado": "2026-10-28T14:14",
@@ -1073,15 +1085,6 @@
    "titulo": "Claude no pudo trabajar ahora",
    "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
    "actualizado": "2026-11-01T03:45"
-  },
-  {
-   "id": "11010410-en-chequeo",
-   "creado": "2026-11-01T04:11",
-   "estado": "fallo",
-   "firma": null,
-   "titulo": "Claude no pudo trabajar ahora",
-   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
-   "actualizado": "2026-11-01T04:11"
   }
  ]
 }
