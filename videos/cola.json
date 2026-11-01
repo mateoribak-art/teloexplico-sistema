@@ -507,7 +507,7 @@
  {
   "slug": "018-refresca-tormenta",
   "tema": "¿Por qué después de la tormenta refresca de golpe? (corriente descendente)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -558,6 +558,11 @@
     "estado": "listo",
     "cuando": "2026-10-30T18:37",
     "motivo": ""
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-01T12:32",
+    "motivo": "https://www.instagram.com/reel/DfND5BqDapB/"
    }
   ]
  },
