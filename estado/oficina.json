@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T19:38",
+ "actualizado": "2026-11-01T19:53",
  "oficinas": [
   {
    "clave": "es",
@@ -7,13 +7,18 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 341,
-   "listos": 8,
-   "dias": 4.0,
+   "listos": 7,
+   "dias": 3.5,
    "proximo": "010-rayo-mismo-lugar",
-   "publicados": 17,
+   "publicados": 18,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "015-descongelar-mesada",
+     "link": "https://www.instagram.com/reel/DfN0F3tCdpy/",
+     "cuando": "2026-11-01T22:33"
+    },
     {
      "slug": "018-refresca-tormenta",
      "link": "https://www.instagram.com/reel/DfND5BqDapB/",
@@ -33,11 +38,6 @@
      "slug": "017-paradoja-cumpleanos",
      "link": "https://www.instagram.com/reel/DfIqYDokk4O/",
      "cuando": "2026-10-30T22:32"
-    },
-    {
-     "slug": "011-sal-agua-hierve",
-     "link": "https://www.instagram.com/reel/DfH6TYLjGTs/",
-     "cuando": "2026-10-30T15:32"
     }
    ],
    "linea": [
@@ -47,13 +47,6 @@
      "estado": "listo",
      "cuando": "2026-10-30T14:06",
      "motivo": "render sin Claude"
-    },
-    {
-     "slug": "015-descongelar-mesada",
-     "tema": "Descongelar la carne arriba de la mesada: por qué no y cómo hacerlo seguro (USDA)",
-     "estado": "listo",
-     "cuando": "2026-10-30T18:37",
-     "motivo": ""
     },
     {
      "slug": "014-celular-arroz",
@@ -68,6 +61,13 @@
      "estado": "listo",
      "cuando": "2026-10-29T13:34",
      "motivo": "render sin Claude"
+    },
+    {
+     "slug": "009-ventilador-pieza-vacia",
+     "tema": "El ventilador no enfria el ambiente: te enfria a vos",
+     "estado": "listo",
+     "cuando": "2026-10-27T22:17",
+     "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
     },
     {
      "slug": "019-sensacion-termica",
@@ -189,8 +189,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-01T12:32",
-     "hace": "hace 7 h",
+     "cuando": "2026-11-01T19:34",
+     "hace": "hace 19 min",
      "detalle": [
       "017-paradoja-cumpleanos: aprobado — Las 8 afirmaciones fácticas están verificadas con fuente (Wikipedia 'Birthday problem' con su tabla y el cálculo de 253 parejas; Harvey Mudd",
       "008-aire-en-17: aprobado — Todas las afirmaciones factuales estan verificadas con fuentes oficiales argentinas (Secretaria de Energia de la Nacion y ENRE) y fuentes te",
@@ -222,8 +222,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-01T12:32",
-     "hace": "hace 7 h",
+     "cuando": "2026-11-01T19:34",
+     "hace": "hace 19 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -245,14 +245,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-01 12:32.",
-     "cuando": "2026-11-01T12:32",
-     "hace": "hace 7 h",
+     "resumen": "Último video terminado: 2026-11-01 19:34.",
+     "cuando": "2026-11-01T19:34",
+     "hace": "hace 19 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "15ed7390930b"
+     "firma": "bcc500bed9c7"
     },
     {
      "id": "control",
@@ -269,14 +269,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "8 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-01T12:32",
-     "hace": "hace 7 h",
+     "resumen": "7 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-01T19:34",
+     "hace": "hace 19 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "c2eed778fe27"
+     "firma": "45f87c5c43e0"
     },
     {
      "id": "publicador",
@@ -293,27 +293,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: 018-refresca-tormenta.",
-     "cuando": "2026-11-01T12:33",
-     "hace": "hace 7 h",
+     "resumen": "Último: 015-descongelar-mesada.",
+     "cuando": "2026-11-01T19:35",
+     "hace": "hace 18 min",
      "detalle": [
-      "31/10 19:32 022-colectivo-de-a-dos publicado: https://www.instagram.com/reel/DfLPKj7FS9o/",
-      "31/10 19:33 022-colectivo-de-a-dos publicado en Facebook: https://www.facebook.com/reel/39841353798843345/",
-      "31/10 19:33 022-colectivo-de-a-dos en la bandeja de TikTok",
-      "31/10 19:33 022-colectivo-de-a-dos https://youtube.com/shorts/Fdiqymx4Gxk | privacidad: public",
-      "31/10 19:34 022-colectivo-de-a-dos paquete para TikTok/YouTube enviado",
       "01/11 12:32 018-refresca-tormenta publicado: https://www.instagram.com/reel/DfND5BqDapB/",
       "01/11 12:33 018-refresca-tormenta publicado en Facebook: https://www.facebook.com/reel/4553313208216505/",
       "01/11 12:33 018-refresca-tormenta en la bandeja de TikTok",
       "01/11 12:33 018-refresca-tormenta https://youtube.com/shorts/1amuXCiZvkE | privacidad: public",
-      "01/11 12:33 018-refresca-tormenta paquete para TikTok/YouTube enviado"
+      "01/11 12:33 018-refresca-tormenta paquete para TikTok/YouTube enviado",
+      "01/11 19:34 015-descongelar-mesada publicado: https://www.instagram.com/reel/DfN0F3tCdpy/",
+      "01/11 19:34 015-descongelar-mesada publicado en Facebook: https://www.facebook.com/reel/1487435216562917/",
+      "01/11 19:35 015-descongelar-mesada en la bandeja de TikTok",
+      "01/11 19:35 015-descongelar-mesada https://youtube.com/shorts/dftdMuJefrk | privacidad: public",
+      "01/11 19:35 015-descongelar-mesada paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "Próximo: 010-rayo-mismo-lugar — ¿Un rayo nunca cae dos veces en el mismo lugar?"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "7f921ac37d6a"
+     "firma": "e3398b706972"
     },
     {
      "id": "redes",
@@ -331,17 +331,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-01T12:33",
-     "hace": "hace 7 h",
+     "cuando": "2026-11-01T19:35",
+     "hace": "hace 18 min",
      "detalle": [
-      "31/10 12:36 019-sensacion-termica https://youtube.com/shorts/d226UdXa4jM | privacidad: public",
-      "31/10 12:36 019-sensacion-termica paquete para TikTok/YouTube enviado",
-      "31/10 19:33 022-colectivo-de-a-dos en la bandeja de TikTok",
       "31/10 19:33 022-colectivo-de-a-dos https://youtube.com/shorts/Fdiqymx4Gxk | privacidad: public",
       "31/10 19:34 022-colectivo-de-a-dos paquete para TikTok/YouTube enviado",
       "01/11 12:33 018-refresca-tormenta en la bandeja de TikTok",
       "01/11 12:33 018-refresca-tormenta https://youtube.com/shorts/1amuXCiZvkE | privacidad: public",
-      "01/11 12:33 018-refresca-tormenta paquete para TikTok/YouTube enviado"
+      "01/11 12:33 018-refresca-tormenta paquete para TikTok/YouTube enviado",
+      "01/11 19:35 015-descongelar-mesada en la bandeja de TikTok",
+      "01/11 19:35 015-descongelar-mesada https://youtube.com/shorts/dftdMuJefrk | privacidad: public",
+      "01/11 19:35 015-descongelar-mesada paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -432,7 +432,7 @@
      "estado": "ok",
      "resumen": "01/11: 341 seguidores",
      "cuando": "2026-11-01T02:52",
-     "hace": "hace 16 h",
+     "hace": "hace 17 h",
      "detalle": [
       "29/10: 254 seguidores",
       "30/10: 296 seguidores",
@@ -464,16 +464,16 @@
       }
      },
      "estado": "aviso",
-     "resumen": "Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 8 videos listos ≈ 4 días.",
-     "cuando": "2026-11-01T19:38",
+     "resumen": "Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 7 videos listos ≈ 3.5 días.",
+     "cuando": "2026-11-01T19:53",
      "hace": "recién",
      "detalle": [
-      "⚠️ Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 8 videos listos ≈ 4 días."
+      "⚠️ Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 7 videos listos ≈ 3.5 días."
      ],
      "tareas": [],
      "arreglo": null,
      "solo": true,
-     "firma": "8562cfc50e8e"
+     "firma": "b85c41afd453"
     },
     {
      "id": "planb",
@@ -507,13 +507,18 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 2,
-   "listos": 2,
-   "dias": 1.0,
-   "proximo": "en-013-searing-juices",
-   "publicados": 11,
+   "listos": 1,
+   "dias": 0.5,
+   "proximo": "en-016-too-cold-snow",
+   "publicados": 12,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "en-013-searing-juices",
+     "link": "https://www.instagram.com/reel/DfN0cCYFHcE/",
+     "cuando": "2026-11-01T22:36"
+    },
     {
      "slug": "en-011-thaw-counter",
      "link": "https://www.instagram.com/reel/DfNEJTGFHlK/",
@@ -533,11 +538,6 @@
      "slug": "en-008-wash-chicken",
      "link": "https://www.instagram.com/reel/DfIqow-lfcG/",
      "cuando": "2026-10-30T22:34"
-    },
-    {
-     "slug": "en-007-flip-steak",
-     "link": "https://www.instagram.com/reel/DfH6nNcoGPm/",
-     "cuando": "2026-10-30T15:35"
     }
    ],
    "linea": [
@@ -549,13 +549,6 @@
      "motivo": "oficina: la voz dio 40% dos veces seguidas; se rehace la voz, el render y el control"
     },
     {
-     "slug": "en-013-searing-juices",
-     "tema": "Does searing seal in the juices?",
-     "estado": "listo",
-     "cuando": "2026-10-30T08:55",
-     "motivo": "render sin Claude"
-    },
-    {
      "slug": "en-016-too-cold-snow",
      "tema": "Can it be too cold to snow? (NSSL/NOAA)",
      "estado": "listo",
@@ -563,18 +556,18 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "en-010-thermostat-night",
-     "tema": "Does turning the thermostat down at night save money? (DOE)",
-     "estado": "publicado",
-     "cuando": "2026-10-31T19:34",
-     "motivo": "https://www.instagram.com/reel/DfLPaudiMLN/"
-    },
-    {
      "slug": "en-011-thaw-counter",
      "tema": "Can you thaw meat on the counter? (adapted from 015)",
      "estado": "publicado",
      "cuando": "2026-11-01T12:34",
      "motivo": "https://www.instagram.com/reel/DfNEJTGFHlK/"
+    },
+    {
+     "slug": "en-013-searing-juices",
+     "tema": "Does searing seal in the juices?",
+     "estado": "publicado",
+     "cuando": "2026-11-01T19:37",
+     "motivo": "https://www.instagram.com/reel/DfN0cCYFHcE/"
     }
    ],
    "empleados": [
@@ -658,8 +651,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 6 de los últimos 8 guiones.",
-     "cuando": "2026-11-01T12:34",
-     "hace": "hace 7 h",
+     "cuando": "2026-11-01T19:37",
+     "hace": "hace 16 min",
      "detalle": [
       "en-009-ceiling-fan: aprobado — Todas las afirmaciones de plata/energia y seguridad-practica (sentido de giro por estacion, velocidad baja en invierno, apagar al salir, 'en",
       "en-010-thermostat-night: aprobado — Todas las cifras (7 a 10 °F, 8 horas por dia, hasta 10% por año) coinciden con Energy.gov (Energy Saver, thermostats / programmable thermost",
@@ -691,8 +684,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-11-01T12:34",
-     "hace": "hace 7 h",
+     "cuando": "2026-11-01T19:37",
+     "hace": "hace 16 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -714,14 +707,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-01 12:34.",
-     "cuando": "2026-11-01T12:34",
-     "hace": "hace 7 h",
+     "resumen": "Último video terminado: 2026-11-01 19:37.",
+     "cuando": "2026-11-01T19:37",
+     "hace": "hace 16 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "cd0112ce65ca"
+     "firma": "6f225792f905"
     },
     {
      "id": "control",
@@ -738,14 +731,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "2 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-01T12:34",
-     "hace": "hace 7 h",
+     "resumen": "1 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-01T19:37",
+     "hace": "hace 16 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "e22b4a017672"
+     "firma": "ede091eebd83"
     },
     {
      "id": "publicador",
@@ -762,27 +755,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: en-011-thaw-counter.",
-     "cuando": "2026-11-01T12:35",
-     "hace": "hace 7 h",
+     "resumen": "Último: en-013-searing-juices.",
+     "cuando": "2026-11-01T19:38",
+     "hace": "hace 15 min",
      "detalle": [
-      "31/10 12:39 en-009-ceiling-fan en la bandeja de TikTok",
-      "31/10 12:39 en-009-ceiling-fan paquete para TikTok/YouTube enviado",
-      "31/10 19:34 en-010-thermostat-night publicado: https://www.instagram.com/reel/DfLPaudiMLN/",
-      "31/10 19:35 en-010-thermostat-night publicado en Facebook: https://www.facebook.com/reel/2139219350005751/",
       "31/10 19:35 en-010-thermostat-night en la bandeja de TikTok",
       "31/10 19:35 en-010-thermostat-night paquete para TikTok/YouTube enviado",
       "01/11 12:34 en-011-thaw-counter publicado: https://www.instagram.com/reel/DfNEJTGFHlK/",
       "01/11 12:35 en-011-thaw-counter publicado en Facebook: https://www.facebook.com/reel/1787430503058031/",
       "01/11 12:35 en-011-thaw-counter en la bandeja de TikTok",
-      "01/11 12:35 en-011-thaw-counter paquete para TikTok/YouTube enviado"
+      "01/11 12:35 en-011-thaw-counter paquete para TikTok/YouTube enviado",
+      "01/11 19:37 en-013-searing-juices publicado: https://www.instagram.com/reel/DfN0cCYFHcE/",
+      "01/11 19:37 en-013-searing-juices publicado en Facebook: https://www.facebook.com/reel/1433311475576501/",
+      "01/11 19:38 en-013-searing-juices en la bandeja de TikTok",
+      "01/11 19:38 en-013-searing-juices paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: en-013-searing-juices — Does searing seal in the juices?"
+      "Próximo: en-016-too-cold-snow — Can it be too cold to snow? (NSSL/NOAA)"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "c7562add6e7c"
+     "firma": "a37a191b9663"
     },
     {
      "id": "redes",
@@ -800,17 +793,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-01T12:35",
-     "hace": "hace 7 h",
+     "cuando": "2026-11-01T19:38",
+     "hace": "hace 15 min",
      "detalle": [
-      "30/10 19:35 en-008-wash-chicken en la bandeja de TikTok",
-      "30/10 19:35 en-008-wash-chicken paquete para TikTok/YouTube enviado",
       "31/10 12:39 en-009-ceiling-fan en la bandeja de TikTok",
       "31/10 12:39 en-009-ceiling-fan paquete para TikTok/YouTube enviado",
       "31/10 19:35 en-010-thermostat-night en la bandeja de TikTok",
       "31/10 19:35 en-010-thermostat-night paquete para TikTok/YouTube enviado",
       "01/11 12:35 en-011-thaw-counter en la bandeja de TikTok",
-      "01/11 12:35 en-011-thaw-counter paquete para TikTok/YouTube enviado"
+      "01/11 12:35 en-011-thaw-counter paquete para TikTok/YouTube enviado",
+      "01/11 19:38 en-013-searing-juices en la bandeja de TikTok",
+      "01/11 19:38 en-013-searing-juices paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -868,7 +861,7 @@
      "estado": "ok",
      "resumen": "01/11: 2 seguidores",
      "cuando": "2026-11-01T02:52",
-     "hace": "hace 16 h",
+     "hace": "hace 17 h",
      "detalle": [
       "29/10: 2 seguidores",
       "30/10: 2 seguidores",
@@ -899,18 +892,18 @@
        "modo": "vigilar"
       }
      },
-     "estado": "aviso",
-     "resumen": "Quedan 2 videos listos: alcanza para 1 día(s).",
-     "cuando": "2026-11-01T19:38",
+     "estado": "ok",
+     "resumen": "Revisado por el técnico: Walt avisó que quedaba 1 video en inglés; no cambié nada porque la cuenta recién arrancó.",
+     "cuando": "2026-11-01T19:53",
      "hace": "recién",
      "detalle": [
-      "⚠️ Quedan 2 videos listos: alcanza para 1 día(s).",
-      "⚠️ Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 2 videos listos ≈ 1 días."
+      "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s).",
+      "⚠️ Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 1 videos listos ≈ 0.5 días."
      ],
      "tareas": [],
      "arreglo": null,
      "solo": true,
-     "firma": "c7e4a58c48cc"
+     "firma": "d68cc7d78ae0"
     }
    ]
   }
