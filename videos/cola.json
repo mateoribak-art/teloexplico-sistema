@@ -460,7 +460,7 @@
  {
   "slug": "015-descongelar-mesada",
   "tema": "Descongelar la carne arriba de la mesada: por qué no y cómo hacerlo seguro (USDA)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -501,6 +501,11 @@
     "estado": "listo",
     "cuando": "2026-10-30T18:37",
     "motivo": ""
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-01T19:34",
+    "motivo": "https://www.instagram.com/reel/DfN0F3tCdpy/"
    }
   ]
  },

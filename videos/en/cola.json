@@ -418,7 +418,7 @@
  {
   "slug": "en-013-searing-juices",
   "tema": "Does searing seal in the juices?",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -439,6 +439,11 @@
     "estado": "listo",
     "cuando": "2026-10-30T08:55",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-01T19:37",
+    "motivo": "https://www.instagram.com/reel/DfN0cCYFHcE/"
    }
   ]
  },
