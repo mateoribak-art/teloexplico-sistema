@@ -72,3 +72,18 @@ You've hit your weekly limit · resets 3pm (America/Argentina/Buenos_Aires)
 Uso: 1 pasos · 0 tokens nuevos · 0 de caché · 0 escritos · equivale a US$ 0.00 de API
 2026-11-01 15:29 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.
 2026-11-01 15:29 Termina el radar (con problemas).
+2026-11-02 19:24 Arranca el radar.
+Decidí no producir ningún video de actualidad hoy (2026-11-02). Ninguna de las dos búsquedas devolvió una alerta del SMN ni una nota con fecha de hoy.
+
+Descarté dos candidatos:
+- **Tormentas y granizo de principios de noviembre:** el pronóstico de Meteored no tiene un año que se pueda confirmar. Además, el granizo ya está cubierto en 005 y 024.
+- **Ola de calor de fines de octubre:** no encontré ninguna fuente fechada de hoy, y la sensación térmica ya está en 019.
+
+Anoté los dos candidatos en `videos/radar.log`, en la entrada de hoy. Sigue la cola normal.
+
+Fuentes consultadas:
+- [Meteored: comienzo de noviembre inestable](https://www.meteored.com.ar/noticias/prediccion/comienzo-de-noviembre-inestable-con-lluvias-y-tormentas-calor-tiempo-pronostico-clima.html)
+- [Cadena 3: alerta por tormentas severas](https://www.cadena3.com/noticia/sociedad/alerta-por-tormentas-severas-granizo-y-fuertes-rafagas-afectaran-varias-provincias-argentinas_577556)
+- [La Nación: alertas del SMN, 31 de julio](https://www.lanacion.com.ar/sociedad/tormentas-viento-zonda-y-nevadas-las-provincias-bajo-alerta-del-smn-este-viernes-y-el-pronostico-nid31072026/)
+Uso: 9 pasos · 16,874 tokens nuevos · 101,117 de caché · 1,348 escritos · equivale a US$ 0.11 de API
+2026-11-02 19:25 Termina el radar (ok).
