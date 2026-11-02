@@ -277,5 +277,15 @@
   "titulo": "Claude no pudo trabajar ahora",
   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
   "actualizado": "2026-11-01T14:11"
+ },
+ {
+  "id": "11021750-en-vigilante",
+  "creado": "2026-11-02T17:50",
+  "empleado": "en/vigilante",
+  "firma": "4033f3ff4284",
+  "estado": "pedido",
+  "auto": true,
+  "problema": "En la oficina de Nueva York (@letmeexplain.us), Walt (Vigilancia) está en \"falla\": No hay ningún video listo en la cola: el próximo turno no va a publicar.\n\n\nRegistro:\n❗ No hay ningún video listo en la cola: el próximo turno no va a publicar.\n⚠️ Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 0 videos listos ≈ 0 días.",
+  "actualizado": "2026-11-02T17:50"
  }
 ]
