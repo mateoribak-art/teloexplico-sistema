@@ -885,7 +885,7 @@
  {
   "slug": "024-granizo-corto",
   "tema": "¿Por qué cae granizo justo cuando hace calor? (versión corta)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -946,6 +946,11 @@
     "estado": "listo",
     "cuando": "2026-10-30T18:37",
     "motivo": ""
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-02T12:32",
+    "motivo": "https://www.instagram.com/reel/DfPosDPDyiN/"
    }
   ]
  },
