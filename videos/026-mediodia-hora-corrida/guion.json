@@ -1,0 +1,24 @@
+{
+  "titulo": "¿A qué hora es el mediodía en Argentina?",
+  "serie": "argentina",
+  "receta": "Argentina en datos (c): mapa que se transforma, cuenta que se resuelve a la vista, 'vos' adentro",
+  "fondo": "oscuro",
+  "destinatario": "se lo manda alguien que almuerza a las doce a un amigo que almuerza a la una y dice que es tarde, para decirle que para el sol todavía es temprano",
+  "fuentes": [
+    "Hora oficial argentina: UTC−3 todo el año, cuyo meridiano de referencia es 45° O (Servicio de Hidrografía Naval, hora oficial; 15° de longitud por hora)",
+    "Extremos de longitud de Argentina continental: 53° 38' O (Bernardo de Irigoyen, Misiones) y 73° 34' O (Santa Cruz) — Instituto Geográfico Nacional",
+    "Mediodía solar calculado con la ecuación del tiempo (mismo método que la NOAA Solar Calculator): Buenos Aires (58,4° O) entre 12:37 y 13:08 según la fecha; Mendoza (68,8° O) entre 13:19 y 13:50",
+    "El sol recorre 1° de longitud cada 4 minutos: de 53,6° O a 73,6° O son 20° = 80 minutos"
+  ],
+  "frases": [
+    {"texto": "El mediodía en Argentina no es a las doce.", "estilo": "Afirmación que sorprende, segura y cercana."},
+    {"texto": "Para el sol, llega bastante más tarde.", "estilo": "Seco, con media sonrisa."},
+    {"texto": "Nuestra hora oficial es la de una línea imaginaria que pasa por el mar, muy al este del país.", "estilo": "Explicando simple, como a un amigo."},
+    {"texto": "El sol cruza el país de este a oeste, y tarda más de una hora en llegar a la cordillera.", "estilo": "Curioso, ritmo medio."},
+    {"texto": "En Buenos Aires está en lo más alto entre las doce y media y un poco después de la una.", "estilo": "Dato claro."},
+    {"texto": "Y en Mendoza, cerca de la una y media.", "estilo": "Remate, con énfasis."},
+    {"texto": "Ojo: el reloj no está mal. Es la hora que eligió el país, y el sol va a su ritmo.", "estilo": "Matiz tranquilo."},
+    {"texto": "Hoy, fijate: a las doce tu sombra todavía se está achicando.", "estilo": "Práctico, cómplice."},
+    {"texto": "Mandáselo al que dice que almorzar a la una es tarde.", "estilo": "Cómplice y gracioso."}
+  ]
+}

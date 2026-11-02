@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segundo chequeo. Se sacó la cifra 1883 y 'bond = bono', y lo que quedó está respaldado y matizado. La entrada DHLE (https://www.rae.es/dhle/bondi) sigue dando 403 al abrirla directo, así que se leyó solo por fragmentos del buscador. Esos fragmentos confirman: bondi se registra en español desde 1911, con documentación previa de la palabra como portuguesismo; en lunfardo designó el tranvía (hoy obsoleto en ese sentido); el DLE la da como coloquial de Argentina, Paraguay y Uruguay, del portugués brasileño bonde. Billiken confirma bonde = tranvía, del inglés bond (pasaje/boleto), la palabra que mostraban los tranvías de compañías inglesas; la llegada con inmigrantes de comienzos del siglo XX; que la versión brasileña es 'la más aceptada'; y la versión alternativa de 'albóndigas'. Infopedia confirma que bonde viene del inglés bond. Salvedad: no pude abrir el texto de E. Quesada ('Apuntes de viaje. Río de Janeiro'), que el primer chequeo leyó en el resumen del buscador; la frase 'en un texto de viaje a Río de Janeiro' se apoya en ese título y en la atribución explícita al diccionario, y ya no lleva año ni 'libro'. No hay cifras, salud, seguridad ni plata, y ninguna afirmación es falsa. Recomendación opcional: abrir la entrada DHLE en un navegador antes de publicar. Nota menor: el DHLE registra el portuguesismo antes de 1900, así que 'los inmigrantes' explica la llegada de 'bondi' al lunfardo, no la primera aparición en español; la frase ya lo presenta como 'según cuentan'.",
+  "afirmaciones": [
+    {
+      "texto": "Cada vez que decís bondi, estás usando una palabra que vino de Brasil.",
+      "fuente": "RAE, DLE 24.ª ed. (coloquial de Argentina, Paraguay y Uruguay, del portugués brasileño bonde) y DHLE 'bondi' (vía buscador); Billiken",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y al principio no hablaba de colectivos. / Hablaba del tranvía: en Brasil le decían bonde.",
+      "fuente": "DHLE 'bondi' (en lunfardo designó el tranvía; obsoleto); Billiken; Dicio e Infopedia (bonde = tranvía en Brasil)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y bonde viene del inglés bond, la palabra que figuraba en los boletos del tranvía.",
+      "fuente": "Infopedia (bonde del inglés bond); Billiken (bond = pasaje/boleto, mostrado en los tranvías de compañías inglesas); primer chequeo: DHLE (boletos con la palabra inglesa)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El diccionario histórico de la Real Academia la registra primero como palabra portuguesa, en un texto de viaje a Río de Janeiro.",
+      "fuente": "RAE, DHLE 'bondi' (https://www.rae.es/dhle/bondi, 403 al abrirla): 'si bien bondi se registra desde 1911, existe documentación previa como portuguesismo'. El texto de Quesada ('Apuntes de viaje. Río de Janeiro') no pudo abrirse",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Según cuentan, la palabra cruzó al Río de la Plata con los inmigrantes",
+      "fuente": "Billiken (corrientes inmigratorias de comienzos del siglo XX); otra fuente menor menciona inmigrantes italianos. Sin fuente primaria",
+      "estado": "dudosa",
+      "matiz_ok": true
+    },
+    {
+      "texto": "y de tranvía pasó a colectivo.",
+      "fuente": "DHLE 'bondi' (tranvía, sentido obsoleto); DLE (hoy colectivo); Billiken (los colectivos reemplazaron a los tranvías)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: hay otras versiones, pero la brasileña es la más aceptada.",
+      "fuente": "Billiken ('la más aceptada es la que ubica su inicio en Brasil'; otra versión: albóndigas); coincide con DLE/DHLE",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Hoy, cuando esperes el bondi, fijate: lo llamás como a un tranvía de Brasil.",
+      "fuente": "Deducción de las afirmaciones anteriores (bonde = tranvía en Brasil)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: mismas afirmaciones (bondi de bonde; bonde del inglés bond en los boletos; DHLE la registra primero como portuguesa en un texto de viaje a Río; inmigrantes 'según cuentan'; 'hay otras versiones, pero la brasileña es la más aceptada'). Fuentes: RAE (DHLE), Billiken",
+      "fuente": "Las mismas que las frases del guion; el caption repite los mismos matices y no agrega cifras ni afirmaciones nuevas",
+      "estado": "probable",
+      "matiz_ok": true
+    }
+  ]
+}

@@ -3,3 +3,11 @@ You've hit your weekly limit · resets 3pm (America/Argentina/Buenos_Aires)
 Uso: 1 pasos · 0 tokens nuevos · 0 de caché · 0 escritos · equivale a US$ 0.00 de API
 2026-11-02 08:34 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.
 2026-11-02 08:34 Termina la producción (Claude no terminó bien).
+2026-11-02 17:43 Arranca la producción (0 listos en la cola, meta 6).
+- **Listo para render:** `en-014-birthday-pairs`, rescatado y en estado `render`. El chequeo de datos volvió aprobado después de sacar la atribución a MathWorld de las fuentes y del caption. La voz salió bien (123 palabras en el guion, 129 oídas) y `tlx tsc` pasó. Los cuadros se leen bien, aunque el anillo de personas queda un poco recortado en los bordes en algunos planos. `producir.py` hace el render y el control.
+- **Apartado (sin tocar):** `en-015-rain-smell` sigue apartado. El chequeo lo rechazó por el umbral de geosmina "a few parts per trillion", que cambia según la fuente. Lo dejé para otra corrida porque la consigna es producir un solo video.
+- **Pendiente:** no marqué `en-014` como usada en `videos/en/ideas.md`, y `en-012-thunder-count` sigue en `produccion` en la cola.
+Uso: 8 pasos · 6,340 tokens nuevos · 335,653 de caché · 1,052 escritos · equivale a US$ 0.52 de API
+2026-11-02 17:49 Render de en-014-birthday-pairs (sin Claude).
+2026-11-02 18:20 en-014-birthday-pairs: listo (render sin Claude)
+2026-11-02 18:20 Termina la producción (ok).

@@ -450,7 +450,7 @@
  {
   "slug": "en-014-birthday-pairs",
   "tema": "How many people for two to share a birthday? (adapted from 017)",
-  "estado": "apartado",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -466,6 +466,21 @@
     "estado": "apartado",
     "cuando": "2026-10-30T14:08",
     "motivo": "chequeo rechazado 2 veces: solo atribución de fuentes (MathWorld no respalda el efecto de cumpleaños no uniformes); cifras verificadas"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-02T17:43",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-02T17:48",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-02T18:20",
+    "motivo": "render sin Claude"
    }
   ]
  },

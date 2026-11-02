@@ -980,5 +980,54 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "026-mediodia-hora-corrida",
+  "tema": "¿A qué hora es el mediodía en Argentina? La hora corrida: el sol llega más tarde que el reloj",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-02T16:43",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-02T16:43",
+    "motivo": ""
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-02T16:45",
+    "motivo": "chequeo rechazado 2 veces: atribución al IGN de los extremos de longitud no verificable (73°34' vs 73°27' O); cifras del mediodía solar sin contrastar con NOAA"
+   }
+  ]
+ },
+ {
+  "slug": "027-bondi-de-brasil",
+  "tema": "¿Por qué le decimos bondi al colectivo? La palabra vino de Brasil (bonde, tranvía)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-02T16:46",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-02T16:46",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-02T16:54",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-02T17:41",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

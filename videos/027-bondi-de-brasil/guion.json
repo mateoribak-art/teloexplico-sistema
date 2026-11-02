@@ -1,0 +1,22 @@
+{
+  "titulo": "¿Por qué le decimos bondi al colectivo?",
+  "serie": "costumbres",
+  "receta": "Argentina chica y concreta: palabra cotidiana con origen sorpresa, mapa que se transforma",
+  "fondo": "oscuro",
+  "destinatario": "se lo manda alguien que dice 'colectivo' a su amigo que dice 'bondi', para contarle que su palabra vino en tranvía desde Brasil",
+  "fuentes": [
+    "Real Academia Española, Diccionario histórico de la lengua española (DHLE), entrada 'bondi': documentada primero como portuguesismo en un texto de viaje a Río de Janeiro (E. Quesada, 'Apuntes de viaje. Río de Janeiro'); en español de Argentina, 'tranvía'; Gobello (1953): 'tranvía', del inglés bond",
+    "Billiken, '¿Por qué se le dice bondi al colectivo?': adaptación de 'bonde', que venía del inglés 'bond'; la trajeron las corrientes inmigratorias a comienzos del siglo XX"
+  ],
+  "frases": [
+    {"texto": "Cada vez que decís bondi, estás usando una palabra que vino de Brasil.", "estilo": "Afirmación que sorprende, segura y cercana."},
+    {"texto": "Y al principio no hablaba de colectivos.", "estilo": "Seco, con media sonrisa."},
+    {"texto": "Hablaba del tranvía: en Brasil le decían bonde.", "estilo": "Explicando simple, como a un amigo."},
+    {"texto": "Y bonde viene del inglés bond, la palabra que figuraba en los boletos del tranvía.", "estilo": "Curioso, ritmo medio."},
+    {"texto": "El diccionario histórico de la Real Academia la registra primero como palabra portuguesa, en un texto de viaje a Río de Janeiro.", "estilo": "Dato claro, con fuente."},
+    {"texto": "Según cuentan, la palabra cruzó al Río de la Plata con los inmigrantes, y de tranvía pasó a colectivo.", "estilo": "Contando un cuento, ritmo ágil."},
+    {"texto": "Ojo: hay otras versiones, pero la brasileña es la más aceptada.", "estilo": "Matiz tranquilo."},
+    {"texto": "Hoy, cuando esperes el bondi, fijate: lo llamás como a un tranvía de Brasil.", "estilo": "Práctico, cómplice."},
+    {"texto": "Mandáselo al que dice el bondi en vez de el colectivo.", "estilo": "Cómplice y gracioso."}
+  ]
+}

@@ -1,0 +1,690 @@
+{
+ "duracion": 45.95,
+ "frases": [
+  {
+   "texto": "You think two people sharing a birthday takes a huge crowd.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "think",
+     "inicio": 0.14,
+     "fin": 0.32
+    },
+    {
+     "texto": "two",
+     "inicio": 0.32,
+     "fin": 0.54
+    },
+    {
+     "texto": "people",
+     "inicio": 0.54,
+     "fin": 0.78
+    },
+    {
+     "texto": "sharing",
+     "inicio": 0.78,
+     "fin": 1.16
+    },
+    {
+     "texto": "a",
+     "inicio": 1.16,
+     "fin": 1.36
+    },
+    {
+     "texto": "birthday",
+     "inicio": 1.36,
+     "fin": 1.64
+    },
+    {
+     "texto": "takes",
+     "inicio": 1.64,
+     "fin": 2.14
+    },
+    {
+     "texto": "a",
+     "inicio": 2.14,
+     "fin": 2.46
+    },
+    {
+     "texto": "huge",
+     "inicio": 2.46,
+     "fin": 2.76
+    },
+    {
+     "texto": "crowd.",
+     "inicio": 2.76,
+     "fin": 3.12
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.12
+  },
+  {
+   "texto": "It doesn't. Twenty-three is enough.",
+   "palabras": [
+    {
+     "texto": "It",
+     "inicio": 3.64,
+     "fin": 3.84
+    },
+    {
+     "texto": "doesn't.",
+     "inicio": 3.84,
+     "fin": 4.18
+    },
+    {
+     "texto": "Twenty-three",
+     "inicio": 4.64,
+     "fin": 5.24
+    },
+    {
+     "texto": "is",
+     "inicio": 5.24,
+     "fin": 5.44
+    },
+    {
+     "texto": "enough.",
+     "inicio": 5.44,
+     "fin": 5.72
+    }
+   ],
+   "inicio": 3.64,
+   "fin": 5.72
+  },
+  {
+   "texto": "With twenty-three people, the odds of a shared birthday are already over fifty percent.",
+   "palabras": [
+    {
+     "texto": "With",
+     "inicio": 6.22,
+     "fin": 6.3
+    },
+    {
+     "texto": "twenty-three",
+     "inicio": 6.3,
+     "fin": 6.8
+    },
+    {
+     "texto": "people,",
+     "inicio": 6.8,
+     "fin": 7.12
+    },
+    {
+     "texto": "the",
+     "inicio": 7.54,
+     "fin": 7.68
+    },
+    {
+     "texto": "odds",
+     "inicio": 7.68,
+     "fin": 7.9
+    },
+    {
+     "texto": "of",
+     "inicio": 7.9,
+     "fin": 8.02
+    },
+    {
+     "texto": "a",
+     "inicio": 8.02,
+     "fin": 8.1
+    },
+    {
+     "texto": "shared",
+     "inicio": 8.1,
+     "fin": 8.38
+    },
+    {
+     "texto": "birthday",
+     "inicio": 8.38,
+     "fin": 8.74
+    },
+    {
+     "texto": "are",
+     "inicio": 8.74,
+     "fin": 9.22
+    },
+    {
+     "texto": "already",
+     "inicio": 9.22,
+     "fin": 9.64
+    },
+    {
+     "texto": "over",
+     "inicio": 9.64,
+     "fin": 9.98
+    },
+    {
+     "texto": "fifty",
+     "inicio": 9.98,
+     "fin": 10.4
+    },
+    {
+     "texto": "percent.",
+     "inicio": 10.4,
+     "fin": 10.88
+    }
+   ],
+   "inicio": 6.22,
+   "fin": 10.88
+  },
+  {
+   "texto": "The trick: it's not the people that count, it's the pairs.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 11.24,
+     "fin": 11.4
+    },
+    {
+     "texto": "trick:",
+     "inicio": 11.4,
+     "fin": 11.66
+    },
+    {
+     "texto": "it's",
+     "inicio": 12.24,
+     "fin": 12.34
+    },
+    {
+     "texto": "not",
+     "inicio": 12.34,
+     "fin": 12.46
+    },
+    {
+     "texto": "the",
+     "inicio": 12.46,
+     "fin": 12.62
+    },
+    {
+     "texto": "people",
+     "inicio": 12.62,
+     "fin": 12.9
+    },
+    {
+     "texto": "that",
+     "inicio": 12.9,
+     "fin": 13.06
+    },
+    {
+     "texto": "count,",
+     "inicio": 13.06,
+     "fin": 13.3
+    },
+    {
+     "texto": "it's",
+     "inicio": 13.78,
+     "fin": 13.98
+    },
+    {
+     "texto": "the",
+     "inicio": 13.98,
+     "fin": 14.1
+    },
+    {
+     "texto": "pairs.",
+     "inicio": 14.1,
+     "fin": 14.36
+    }
+   ],
+   "inicio": 11.24,
+   "fin": 14.36
+  },
+  {
+   "texto": "Twenty-three people make two hundred fifty-three pairs, and every pair is a chance to match.",
+   "palabras": [
+    {
+     "texto": "Twenty-three",
+     "inicio": 14.94,
+     "fin": 15.48
+    },
+    {
+     "texto": "people",
+     "inicio": 15.48,
+     "fin": 15.8
+    },
+    {
+     "texto": "make",
+     "inicio": 15.8,
+     "fin": 16.26
+    },
+    {
+     "texto": "two",
+     "inicio": 16.26,
+     "fin": 16.7
+    },
+    {
+     "texto": "hundred",
+     "inicio": 16.7,
+     "fin": 16.9
+    },
+    {
+     "texto": "fifty-three",
+     "inicio": 16.9,
+     "fin": 17.6
+    },
+    {
+     "texto": "pairs,",
+     "inicio": 17.6,
+     "fin": 18.14
+    },
+    {
+     "texto": "and",
+     "inicio": 18.58,
+     "fin": 18.86
+    },
+    {
+     "texto": "every",
+     "inicio": 18.86,
+     "fin": 19.04
+    },
+    {
+     "texto": "pair",
+     "inicio": 19.04,
+     "fin": 19.26
+    },
+    {
+     "texto": "is",
+     "inicio": 19.26,
+     "fin": 19.42
+    },
+    {
+     "texto": "a",
+     "inicio": 19.42,
+     "fin": 19.54
+    },
+    {
+     "texto": "chance",
+     "inicio": 19.54,
+     "fin": 19.7
+    },
+    {
+     "texto": "to",
+     "inicio": 19.7,
+     "fin": 19.88
+    },
+    {
+     "texto": "match.",
+     "inicio": 19.88,
+     "fin": 20.1
+    }
+   ],
+   "inicio": 14.94,
+   "fin": 20.1
+  },
+  {
+   "texto": "Forty people? About ninety percent. Seventy? Over ninety-nine.",
+   "palabras": [
+    {
+     "texto": "Forty",
+     "inicio": 20.6,
+     "fin": 20.92
+    },
+    {
+     "texto": "people?",
+     "inicio": 20.92,
+     "fin": 21.18
+    },
+    {
+     "texto": "About",
+     "inicio": 21.54,
+     "fin": 21.7
+    },
+    {
+     "texto": "ninety",
+     "inicio": 21.7,
+     "fin": 22.16
+    },
+    {
+     "texto": "percent.",
+     "inicio": 22.16,
+     "fin": 22.54
+    },
+    {
+     "texto": "Seventy?",
+     "inicio": 23.02,
+     "fin": 23.56
+    },
+    {
+     "texto": "Over",
+     "inicio": 23.96,
+     "fin": 24.2
+    },
+    {
+     "texto": "ninety-nine.",
+     "inicio": 24.2,
+     "fin": 25.02
+    }
+   ],
+   "inicio": 20.6,
+   "fin": 25.02
+  },
+  {
+   "texto": "Heads up: the math assumes every day is equally likely. Real birthdays aren't, which nudges the odds up a bit.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 25.5,
+     "fin": 25.7
+    },
+    {
+     "texto": "up:",
+     "inicio": 25.7,
+     "fin": 25.86
+    },
+    {
+     "texto": "the",
+     "inicio": 26.28,
+     "fin": 26.36
+    },
+    {
+     "texto": "math",
+     "inicio": 26.36,
+     "fin": 26.54
+    },
+    {
+     "texto": "assumes",
+     "inicio": 26.54,
+     "fin": 26.84
+    },
+    {
+     "texto": "every",
+     "inicio": 26.84,
+     "fin": 27.16
+    },
+    {
+     "texto": "day",
+     "inicio": 27.16,
+     "fin": 27.38
+    },
+    {
+     "texto": "is",
+     "inicio": 27.38,
+     "fin": 27.58
+    },
+    {
+     "texto": "equally",
+     "inicio": 27.58,
+     "fin": 27.92
+    },
+    {
+     "texto": "likely.",
+     "inicio": 27.92,
+     "fin": 28.3
+    },
+    {
+     "texto": "Real",
+     "inicio": 28.3,
+     "fin": 29.02
+    },
+    {
+     "texto": "birthdays",
+     "inicio": 29.02,
+     "fin": 29.4
+    },
+    {
+     "texto": "aren't,",
+     "inicio": 29.4,
+     "fin": 29.82
+    },
+    {
+     "texto": "which",
+     "inicio": 30.14,
+     "fin": 30.32
+    },
+    {
+     "texto": "nudges",
+     "inicio": 30.32,
+     "fin": 30.88
+    },
+    {
+     "texto": "the",
+     "inicio": 30.88,
+     "fin": 31.02
+    },
+    {
+     "texto": "odds",
+     "inicio": 31.02,
+     "fin": 31.22
+    },
+    {
+     "texto": "up",
+     "inicio": 31.22,
+     "fin": 31.44
+    },
+    {
+     "texto": "a",
+     "inicio": 31.44,
+     "fin": 31.56
+    },
+    {
+     "texto": "bit.",
+     "inicio": 31.56,
+     "fin": 31.68
+    }
+   ],
+   "inicio": 25.5,
+   "fin": 31.68
+  },
+  {
+   "texto": "And it doesn't have to be your birthday. Any two people in the room count.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 32.1,
+     "fin": 32.3
+    },
+    {
+     "texto": "it",
+     "inicio": 32.3,
+     "fin": 32.44
+    },
+    {
+     "texto": "doesn't",
+     "inicio": 32.44,
+     "fin": 32.72
+    },
+    {
+     "texto": "have",
+     "inicio": 32.72,
+     "fin": 32.84
+    },
+    {
+     "texto": "to",
+     "inicio": 32.84,
+     "fin": 32.94
+    },
+    {
+     "texto": "be",
+     "inicio": 32.94,
+     "fin": 33.16
+    },
+    {
+     "texto": "your",
+     "inicio": 33.16,
+     "fin": 33.86
+    },
+    {
+     "texto": "birthday.",
+     "inicio": 33.86,
+     "fin": 34.68
+    },
+    {
+     "texto": "Any",
+     "inicio": 35.1,
+     "fin": 35.42
+    },
+    {
+     "texto": "two",
+     "inicio": 35.42,
+     "fin": 35.88
+    },
+    {
+     "texto": "people",
+     "inicio": 35.88,
+     "fin": 36.14
+    },
+    {
+     "texto": "in",
+     "inicio": 36.14,
+     "fin": 36.28
+    },
+    {
+     "texto": "the",
+     "inicio": 36.28,
+     "fin": 36.36
+    },
+    {
+     "texto": "room",
+     "inicio": 36.36,
+     "fin": 36.54
+    },
+    {
+     "texto": "count.",
+     "inicio": 36.54,
+     "fin": 36.82
+    }
+   ],
+   "inicio": 32.1,
+   "fin": 36.82
+  },
+  {
+   "texto": "At your next party of twenty-three or more, ask around.",
+   "palabras": [
+    {
+     "texto": "At",
+     "inicio": 37.2,
+     "fin": 37.6
+    },
+    {
+     "texto": "your",
+     "inicio": 37.6,
+     "fin": 37.72
+    },
+    {
+     "texto": "next",
+     "inicio": 37.72,
+     "fin": 37.86
+    },
+    {
+     "texto": "party",
+     "inicio": 37.86,
+     "fin": 38.22
+    },
+    {
+     "texto": "of",
+     "inicio": 38.22,
+     "fin": 38.82
+    },
+    {
+     "texto": "twenty-three",
+     "inicio": 38.82,
+     "fin": 39.38
+    },
+    {
+     "texto": "or",
+     "inicio": 39.38,
+     "fin": 39.5
+    },
+    {
+     "texto": "more,",
+     "inicio": 39.5,
+     "fin": 39.74
+    },
+    {
+     "texto": "ask",
+     "inicio": 40.22,
+     "fin": 40.5
+    },
+    {
+     "texto": "around.",
+     "inicio": 40.5,
+     "fin": 40.94
+    }
+   ],
+   "inicio": 37.2,
+   "fin": 40.94
+  },
+  {
+   "texto": "Send this to the friend who swears nobody in their group shares a birthday.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 41.62,
+     "fin": 41.96
+    },
+    {
+     "texto": "this",
+     "inicio": 41.96,
+     "fin": 42.24
+    },
+    {
+     "texto": "to",
+     "inicio": 42.24,
+     "fin": 42.42
+    },
+    {
+     "texto": "the",
+     "inicio": 42.42,
+     "fin": 42.52
+    },
+    {
+     "texto": "friend",
+     "inicio": 42.52,
+     "fin": 42.8
+    },
+    {
+     "texto": "who",
+     "inicio": 42.8,
+     "fin": 43.32
+    },
+    {
+     "texto": "swears",
+     "inicio": 43.32,
+     "fin": 44.12
+    },
+    {
+     "texto": "nobody",
+     "inicio": 44.12,
+     "fin": 44.6
+    },
+    {
+     "texto": "in",
+     "inicio": 44.6,
+     "fin": 44.9
+    },
+    {
+     "texto": "their",
+     "inicio": 44.9,
+     "fin": 45.04
+    },
+    {
+     "texto": "group",
+     "inicio": 45.04,
+     "fin": 45.2
+    },
+    {
+     "texto": "shares",
+     "inicio": 45.2,
+     "fin": 45.42
+    },
+    {
+     "texto": "a",
+     "inicio": 45.42,
+     "fin": 45.58
+    },
+    {
+     "texto": "birthday.",
+     "inicio": 45.58,
+     "fin": 45.76
+    }
+   ],
+   "inicio": 41.62,
+   "fin": 45.76
+  }
+ ]
+}

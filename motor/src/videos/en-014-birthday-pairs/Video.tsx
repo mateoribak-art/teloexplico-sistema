@@ -2,8 +2,7 @@ import React from "react";
 import { AbsoluteFill, interpolate, staticFile, useCurrentFrame } from "remotion";
 import { Audio } from "@remotion/media";
 import * as THREE from "three";
-// APARTADO (chequeo rechazado 2 veces, sin voz): al rescatarlo, generar la voz y volver a importar ../../../public/en-014-birthday-pairs/tiempos.json
-const tiemposJson = { duracion: 0, frases: [] } as unknown;
+import tiemposJson from "../../../public/en-014-birthday-pairs/tiempos.json";
 import { reloj, type Tiempos } from "../../kit/tiempos";
 import { Musica, Sfx, type Efecto } from "../../kit/piezas";
 import { Estudio, PisoSombra } from "../../kit3d/Estudio";
@@ -51,7 +50,7 @@ const TOMAS: Toma[] = [
   { f: DURACION, pos: [0, 9.2, 6.4], mira: [0, 0, 0.3], fov: 40 },
 ];
 
-const RADIO = 2.8;
+const RADIO = 1.9;
 
 /** cantidad de personas en cada momento */
 const personas = (f: number) => {
@@ -160,9 +159,9 @@ const CIFRAS: [string, string][] = [
   ["Twenty-three", "23"],
   ["twenty-three", "23"],
   ["two hundred fifty-three", "253"],
-  ["fifty percent.", "50%."],
-  ["ninety percent.", "90%."],
-  ["ninety-nine.", "99%."],
+  ["fifty percent", "50%"],
+  ["ninety percent", "90%"],
+  ["ninety-nine", "99%"],
   ["Forty", "40"],
   ["Seventy?", "70?"],
 ];

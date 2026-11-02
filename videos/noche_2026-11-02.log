@@ -3,3 +3,18 @@ You've hit your weekly limit · resets 3pm (America/Argentina/Buenos_Aires)
 Uso: 1 pasos · 0 tokens nuevos · 0 de caché · 0 escritos · equivale a US$ 0.00 de API
 2026-11-02 08:34 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.
 2026-11-02 08:34 Termina la producción (Claude no terminó bien).
+2026-11-02 16:41 Arranca la producción (6 listos en la cola, meta 10).
+Quedó un video en cola de render y otro apartado.
+- **Listo para render:** `027-bondi-de-brasil` (costumbres #2, "bondi" viene de "bonde", el tranvía de Brasil). El segundo chequeo lo aprobó, la voz salió 119 oídas de 120 palabras (43,8 s), tsc pasó y la revisión visual se hizo en 2 vueltas. Lo dejé en `render`, que lo toma `producir.py`.
+- **Apartado:** `026-mediodia-hora-corrida` (hora corrida), con el chequeo rechazado 2 veces. La primera vez fallaron las cifras del mediodía solar, y las corregí. La segunda vez rechazó por atribuir al IGN los extremos de longitud del país, que no se pudo confirmar. No tiene voz y lo saqué de `Root.tsx`.
+- **No se tocaron:** `013-alcohol-calor` ya había fallado 2 veces, y `005-granizo-calor` no estaba apartado por "chequeo rechazado". Las entradas quedaron en `videos/produccion.log`.
+
+El chequeo de `027` quedó con un pendiente: no se pudo abrir la entrada del diccionario histórico de la RAE, solo fragmentos del buscador, así que conviene abrirla en un navegador antes de publicar. El radar no encontró ningún tema del día.
+Uso: 9 pasos · 5,552 tokens nuevos · 797,515 de caché · 1,854 escritos · equivale a US$ 2.26 de API
+2026-11-02 16:54 Render de 027-bondi-de-brasil (sin Claude).
+2026-11-02 17:41 027-bondi-de-brasil: listo (render sin Claude)
+2026-11-02 17:41 Termina la producción (ok).
+2026-11-02 17:41 Arranca el carrusel (0 listos, meta 2).
+`descongelar-mesada`: quedó listo (9 placas, sale a las 16:00). Los datos son del reel `015-descongelar-mesada`.
+Uso: 22 pasos · 22,819 tokens nuevos · 318,930 de caché · 3,948 escritos · equivale a US$ 0.16 de API
+2026-11-02 17:43 Termina el carrusel (ok; quedan 1 listos).

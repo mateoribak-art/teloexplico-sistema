@@ -1,0 +1,10 @@
+{"origen": ["015-descongelar-mesada"], "serie": "mitos de cocina", "placas": [
+ {"tipo": "tapa", "arriba": "¿Sacás la carne a la mañana y la dejás en la mesada?", "grande": "no, nunca", "promesa": "deslizá y guardalo", "dibujo": [{"objeto": "Bife", "x": 540, "y": 1180, "s": 0.8}]},
+ {"tipo": "paso", "etiqueta": "// por qué importa", "titulo": "Por fuera se descongela rápido, el centro sigue duro", "cuerpo": "Mientras el centro sigue duro, la capa de afuera ya está tibia.", "fuente": "USDA FSIS"},
+ {"tipo": "paso", "etiqueta": "// el problema", "titulo": "Ahí afuera las bacterias se multiplican rápido", "dato": "4 a 60 °C", "colorDato": "rojo", "cuerpo": "Es la zona de peligro: la capa externa puede quedar en ese rango.", "fuente": "USDA FSIS", "dibujo": [{"objeto": "Termometro", "x": 540, "y": 1250, "s": 0.5, "valor": 0.6}]},
+ {"tipo": "paso", "etiqueta": "// forma uno", "titulo": "En la heladera: la más segura", "cuerpo": "Hay que planear. A la noche, pasá la carne del freezer a la heladera.", "fuente": "USDA FSIS", "dibujo": [{"objeto": "Heladera", "x": 540, "y": 1230, "s": 0.55}]},
+ {"tipo": "paso", "etiqueta": "// forma dos", "titulo": "En agua fría, en una bolsa que no pierda", "dato": "30 min", "colorDato": "azul", "cuerpo": "Cambiá el agua cada 30 minutos.", "fuente": "USDA FSIS"},
+ {"tipo": "paso", "etiqueta": "// forma tres", "titulo": "En el microondas y la cocinás enseguida", "cuerpo": "No la dejes esperando después de descongelarla.", "fuente": "USDA FSIS"},
+ {"tipo": "paso", "etiqueta": "// ojo", "titulo": "Límite a temperatura ambiente", "dato": "2 horas", "colorDato": "rojo", "cuerpo": "Solo una hora si hace más de 32 grados.", "fuente": "USDA FSIS"},
+ {"tipo": "resumen", "titulo": "Descongelar carne, sin riesgos", "items": [[false, "Dejarla en la mesada desde la mañana"], [true, "Heladera: la más segura"], [true, "Agua fría, cambiándola cada 30 minutos"], [true, "Microondas y cocinar enseguida"]]},
+ {"tipo": "cierre", "texto": "Mandáselo a ese que deja el asado en la mesada desde la mañana", "serie": "mitos de cocina"}]}

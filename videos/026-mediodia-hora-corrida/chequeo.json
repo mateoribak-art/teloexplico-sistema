@@ -1,0 +1,84 @@
+{
+  "veredicto": "rechazado",
+  "motivo": "Segundo chequeo. Las cifras corregidas del mediodía solar quedan verificadas: fórmula 12:00 + (long. O - 45°)x4 min - EoT; extremos de la EoT confirmados (Journal of Navigation, Cambridge: más de 14 min de atraso a mediados de febrero y más de 16 min de adelanto a principios de noviembre; foro relojes-especiales: 12-feb y 3-nov). Buenos Aires (58,4° O): 12:00 + 53,6 min = 12:53,6; menos 16,4 = 12:37 (nov); más 14,2 = 13:08 (feb). Mendoza (68,8° O): 12:00 + 95,2 min = 13:35,2; menos 16,4 = 13:19 (nov); más 14,2 = 13:49,4 (con longitud 68,83° y EoT -14,26 da 13:50), por lo que '13:50' es válido con redondeo a +/-1 min. No pude correr un script (Bash denegado) ni abrir NOAA/timeanddate (la búsqueda no devolvió esas páginas); el cálculo es aritmético a mano y no contrastado contra la calculadora de la NOAA. El resto de las frases es verificable y ya tiene el matiz correcto. Motivo del rechazo: el caption (línea 'Fuentes') atribuye con certeza los extremos del país al Instituto Geográfico Nacional, y no encontré página primaria del IGN que lo confirme (educ.ar, un documento de Diputados 3558-D-2024, Billiken y Wikipedia dan 53°38' O para el extremo este; para el oeste los valores difieren: Wikipedia da 73°27' O en el cerro Agassiz, el guion usa 73°34' O). Es una atribución presentada como cierta y solo 'probable', y la regla no lo permite. Corrección mínima: en el caption quitar al IGN de 'Fuentes' (o reemplazarlo por 'extremos del país: 53°38' O a unos 73°30' O, según fuentes oficiales' tras confirmarlo con el IGN), y en la línea de fuentes del guion usar 'unos 73°30' O' o la cifra que confirme el IGN. Con eso el resultado (unos 80 minutos, más de una hora) no cambia: con 73°27' son 19,8° = 79 min. Las demás frases no necesitan cambios.",
+  "afirmaciones": [
+    {
+      "texto": "El mediodía en Argentina no es a las doce.",
+      "fuente": "Cálculo con UTC-3 (meridiano 45° O) y longitudes del país: el mediodía solar cae después de las 12:00 en todo el territorio (mínimo ~12:18 en el extremo este a principios de noviembre). Ley 26.350 (argentina.gob.ar/normativa/nacional/ley-26350-136191/texto): huso UTC-3.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Para el sol, llega bastante más tarde. / llega más tarde (caption)",
+      "fuente": "Mismo cálculo: el mediodía solar queda entre ~18 y ~128 min después de las 12:00 según lugar y fecha; en BA y Mendoza entre 37 y 110 min.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Nuestra hora oficial es la de una línea imaginaria que pasa por el mar, muy al este del país. / Nuestra hora oficial (UTC−3) es la del meridiano 45° oeste (caption)",
+      "fuente": "UTC-3 = 45° O (15° por hora). Huso horario aval, FCAGLP-UNLP (fcaglp.unlp.edu.ar/uploads/docs/huso_horario_aval.pdf) y Hora oficial de Argentina (hispanopedia): el 45° O pasa por el Atlántico sin tocar el territorio continental; el extremo este (53°38' O) queda a ~8,6° de la línea. Nota: el sector antártico reclamado por Argentina (25°-74° O) sí incluye el 45° O, pero la frase habla del país continental y 'muy al este' es correcto.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El sol cruza el país de este a oeste, y tarda más de una hora en llegar a la cordillera.",
+      "fuente": "1° cada 4 min (rotación 360°/24 h). Extremos 53°38' O (educ.ar/recursos/70373; Billiken; Diputados 3558-D-2024) y ~73°27'-73°34' O: ~20° = ~79-80 min, más de una hora.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El sol avanza un grado cada 4 minutos, así que tarda unos 80 minutos en cruzar Argentina de punta a punta (caption)",
+      "fuente": "360°/24 h = 15°/h = 1° cada 4 min. Longitud continental ~19,8°-20° = 79-80 min ('unos 80' es correcto).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En Buenos Aires está en lo más alto entre las doce y media y un poco después de la una.",
+      "fuente": "Cálculo: BA 58,4° O, rango 12:37 (nov) a 13:08 (feb). EoT: Journal of Navigation (Cambridge), relojes-especiales.com. Método equivalente al NOAA Solar Calculator (no contrastado en la calculadora).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y en Mendoza, cerca de la una y media.",
+      "fuente": "Cálculo: Mendoza 68,8° O, rango 13:19 a 13:49/13:50, promedio anual ~13:35.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Por eso el sol está en lo más alto entre las 12:37 y las 13:08 en Buenos Aires, y entre las 13:19 y las 13:50 en Mendoza (cambia según la época del año). (caption)",
+      "fuente": "Cálculo con ecuación del tiempo (BA 12:37,2 a 13:07,8; Mendoza 13:18,8 a 13:49,4-13:49,6; 13:50 con redondeo/longitud 68,83°). EoT: Journal of Navigation (Cambridge). Sin contraste directo con NOAA/timeanddate en esta corrida.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: el reloj no está mal. Es la hora que eligió el país, y el sol va a su ritmo.",
+      "fuente": "Ley 26.350 (2007) fija el huso UTC-3 por decisión política (argentina.gob.ar/normativa/nacional/ley-26350-136191/texto); se mantiene UTC-3 todo el año.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Hoy, fijate: a las doce tu sombra todavía se está achicando. / Probalo hoy (caption)",
+      "fuente": "La sombra mínima ocurre en el mediodía solar, posterior a las 12:00 oficiales en todo el país (12:18 mínimo en el este; 12:37 en BA). Sin horario de verano en Argentina, vale todo el año. Hoy (2-nov) BA ~12:37.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes: Servicio de Hidrografía Naval (hora oficial)",
+      "fuente": "Historia del SHN (journals.lib.unb.ca, International Hydrographic Review): es responsable del servicio de tiempo; no hallé la norma que lo designe expresamente en esta corrida. Atribución muy difundida, sin fuente primaria abierta en la búsqueda.",
+      "estado": "probable",
+      "matiz_ok": false
+    },
+    {
+      "texto": "Fuentes: Instituto Geográfico Nacional (extremos del país)",
+      "fuente": "sin fuente primaria: no hallé página del IGN con los extremos de longitud; 53°38' O (este) coincide en educ.ar, Billiken y Diputados 3558-D-2024; el oeste difiere (Wikipedia 73°27' O vs 73°34' O del guion).",
+      "estado": "probable",
+      "matiz_ok": false
+    },
+    {
+      "texto": "Fuentes: cálculo del mediodía solar con la ecuación del tiempo (método de la NOAA)",
+      "fuente": "Método estándar de la NOAA Solar Calculator (EoT + longitud); mi cálculo usa la misma estructura pero no se contrastó con la calculadora en línea.",
+      "estado": "probable",
+      "matiz_ok": false
+    }
+  ]
+}

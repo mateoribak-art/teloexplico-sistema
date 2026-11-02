@@ -89,5 +89,24 @@
     "motivo": "https://www.instagram.com/p/DfLLzq9I7ZT/"
    }
   ]
+ },
+ {
+  "clave": "descongelar-mesada",
+  "estado": "listo",
+  "origen": [
+   "015-descongelar-mesada"
+  ],
+  "historial": [
+   {
+    "estado": "listo",
+    "cuando": "2026-11-02T17:42",
+    "motivo": "control OK"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-02T17:43",
+    "motivo": "control OK"
+   }
+  ]
  }
 ]

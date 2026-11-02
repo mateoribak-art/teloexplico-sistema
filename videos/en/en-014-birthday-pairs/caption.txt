@@ -8,6 +8,7 @@ Heads up: the math assumes all 365 days are equally likely. Real birthdays aren'
 
 Next party with 23+ people: ask around. Did you find a match? Yes or no?
 
-Sources: Wikipedia, "Birthday problem"; Wolfram MathWorld, "Birthday Problem".
+Sources: Wikipedia, "Birthday problem".
+📚 Everyday math #1 · Follow @letmeexplain.us so you don’t miss #2.
 
 #funfacts #mythbusting #lifehacks #math #birthday

@@ -1,0 +1,668 @@
+{
+ "duracion": 43.79,
+ "frases": [
+  {
+   "texto": "Cada vez que decís bondi, estás usando una palabra que vino de Brasil.",
+   "palabras": [
+    {
+     "texto": "Cada",
+     "inicio": 0.0,
+     "fin": 0.2
+    },
+    {
+     "texto": "vez",
+     "inicio": 0.2,
+     "fin": 0.42
+    },
+    {
+     "texto": "que",
+     "inicio": 0.42,
+     "fin": 0.56
+    },
+    {
+     "texto": "decís",
+     "inicio": 0.56,
+     "fin": 0.86
+    },
+    {
+     "texto": "bondi,",
+     "inicio": 0.86,
+     "fin": 1.34
+    },
+    {
+     "texto": "estás",
+     "inicio": 1.66,
+     "fin": 1.9
+    },
+    {
+     "texto": "usando",
+     "inicio": 1.9,
+     "fin": 2.2
+    },
+    {
+     "texto": "una",
+     "inicio": 2.2,
+     "fin": 2.42
+    },
+    {
+     "texto": "palabra",
+     "inicio": 2.42,
+     "fin": 2.76
+    },
+    {
+     "texto": "que",
+     "inicio": 2.76,
+     "fin": 2.96
+    },
+    {
+     "texto": "vino",
+     "inicio": 2.96,
+     "fin": 3.14
+    },
+    {
+     "texto": "de",
+     "inicio": 3.14,
+     "fin": 3.34
+    },
+    {
+     "texto": "Brasil.",
+     "inicio": 3.34,
+     "fin": 3.68
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.68
+  },
+  {
+   "texto": "Y al principio no hablaba de colectivos.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 4.3,
+     "fin": 4.42
+    },
+    {
+     "texto": "al",
+     "inicio": 4.42,
+     "fin": 4.52
+    },
+    {
+     "texto": "principio",
+     "inicio": 4.52,
+     "fin": 4.82
+    },
+    {
+     "texto": "no",
+     "inicio": 4.82,
+     "fin": 5.04
+    },
+    {
+     "texto": "hablaba",
+     "inicio": 5.04,
+     "fin": 5.34
+    },
+    {
+     "texto": "de",
+     "inicio": 5.34,
+     "fin": 5.46
+    },
+    {
+     "texto": "colectivos.",
+     "inicio": 5.46,
+     "fin": 5.96
+    }
+   ],
+   "inicio": 4.3,
+   "fin": 5.96
+  },
+  {
+   "texto": "Hablaba del tranvía: en Brasil le decían bonde.",
+   "palabras": [
+    {
+     "texto": "Hablaba",
+     "inicio": 6.46,
+     "fin": 6.86
+    },
+    {
+     "texto": "del",
+     "inicio": 6.86,
+     "fin": 7.08
+    },
+    {
+     "texto": "tranvía:",
+     "inicio": 7.08,
+     "fin": 7.56
+    },
+    {
+     "texto": "en",
+     "inicio": 8.1,
+     "fin": 8.22
+    },
+    {
+     "texto": "Brasil",
+     "inicio": 8.22,
+     "fin": 8.52
+    },
+    {
+     "texto": "le",
+     "inicio": 8.52,
+     "fin": 8.94
+    },
+    {
+     "texto": "decían",
+     "inicio": 8.94,
+     "fin": 9.24
+    },
+    {
+     "texto": "bonde.",
+     "inicio": 9.24,
+     "fin": 9.74
+    }
+   ],
+   "inicio": 6.46,
+   "fin": 9.74
+  },
+  {
+   "texto": "Y bonde viene del inglés bond, la palabra que figuraba en los boletos del tranvía.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 10.24,
+     "fin": 10.32
+    },
+    {
+     "texto": "bonde",
+     "inicio": 10.32,
+     "fin": 10.86
+    },
+    {
+     "texto": "viene",
+     "inicio": 10.86,
+     "fin": 11.26
+    },
+    {
+     "texto": "del",
+     "inicio": 11.26,
+     "fin": 11.48
+    },
+    {
+     "texto": "inglés",
+     "inicio": 11.48,
+     "fin": 11.7
+    },
+    {
+     "texto": "bond,",
+     "inicio": 11.7,
+     "fin": 12.22
+    },
+    {
+     "texto": "la",
+     "inicio": 12.68,
+     "fin": 12.92
+    },
+    {
+     "texto": "palabra",
+     "inicio": 12.92,
+     "fin": 13.16
+    },
+    {
+     "texto": "que",
+     "inicio": 13.16,
+     "fin": 13.36
+    },
+    {
+     "texto": "figuraba",
+     "inicio": 13.36,
+     "fin": 13.78
+    },
+    {
+     "texto": "en",
+     "inicio": 13.78,
+     "fin": 13.88
+    },
+    {
+     "texto": "los",
+     "inicio": 13.88,
+     "fin": 13.96
+    },
+    {
+     "texto": "boletos",
+     "inicio": 13.96,
+     "fin": 14.26
+    },
+    {
+     "texto": "del",
+     "inicio": 14.26,
+     "fin": 14.44
+    },
+    {
+     "texto": "tranvía.",
+     "inicio": 14.44,
+     "fin": 14.86
+    }
+   ],
+   "inicio": 10.24,
+   "fin": 14.86
+  },
+  {
+   "texto": "El diccionario histórico de la Real Academia la registra primero como palabra portuguesa, en un texto de viaje a Río de Janeiro.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 15.32,
+     "fin": 15.5
+    },
+    {
+     "texto": "diccionario",
+     "inicio": 15.5,
+     "fin": 15.94
+    },
+    {
+     "texto": "histórico",
+     "inicio": 15.94,
+     "fin": 16.46
+    },
+    {
+     "texto": "de",
+     "inicio": 16.46,
+     "fin": 16.6
+    },
+    {
+     "texto": "la",
+     "inicio": 16.6,
+     "fin": 16.72
+    },
+    {
+     "texto": "Real",
+     "inicio": 16.72,
+     "fin": 16.86
+    },
+    {
+     "texto": "Academia",
+     "inicio": 16.86,
+     "fin": 17.36
+    },
+    {
+     "texto": "la",
+     "inicio": 17.36,
+     "fin": 17.7
+    },
+    {
+     "texto": "registra",
+     "inicio": 17.7,
+     "fin": 18.18
+    },
+    {
+     "texto": "primero",
+     "inicio": 18.18,
+     "fin": 18.64
+    },
+    {
+     "texto": "como",
+     "inicio": 18.64,
+     "fin": 18.9
+    },
+    {
+     "texto": "palabra",
+     "inicio": 18.9,
+     "fin": 19.2
+    },
+    {
+     "texto": "portuguesa,",
+     "inicio": 19.2,
+     "fin": 20.26
+    },
+    {
+     "texto": "en",
+     "inicio": 20.44,
+     "fin": 20.56
+    },
+    {
+     "texto": "un",
+     "inicio": 20.56,
+     "fin": 20.72
+    },
+    {
+     "texto": "texto",
+     "inicio": 20.72,
+     "fin": 21.08
+    },
+    {
+     "texto": "de",
+     "inicio": 21.08,
+     "fin": 21.16
+    },
+    {
+     "texto": "viaje",
+     "inicio": 21.16,
+     "fin": 21.42
+    },
+    {
+     "texto": "a",
+     "inicio": 21.42,
+     "fin": 21.64
+    },
+    {
+     "texto": "Río",
+     "inicio": 21.64,
+     "fin": 21.8
+    },
+    {
+     "texto": "de",
+     "inicio": 21.8,
+     "fin": 21.92
+    },
+    {
+     "texto": "Janeiro.",
+     "inicio": 21.92,
+     "fin": 22.18
+    }
+   ],
+   "inicio": 15.32,
+   "fin": 22.18
+  },
+  {
+   "texto": "Según cuentan, la palabra cruzó al Río de la Plata con los inmigrantes, y de tranvía pasó a colectivo.",
+   "palabras": [
+    {
+     "texto": "Según",
+     "inicio": 22.74,
+     "fin": 23.16
+    },
+    {
+     "texto": "cuentan,",
+     "inicio": 23.16,
+     "fin": 23.66
+    },
+    {
+     "texto": "la",
+     "inicio": 24.18,
+     "fin": 24.28
+    },
+    {
+     "texto": "palabra",
+     "inicio": 24.28,
+     "fin": 24.54
+    },
+    {
+     "texto": "cruzó",
+     "inicio": 24.54,
+     "fin": 25.08
+    },
+    {
+     "texto": "al",
+     "inicio": 25.08,
+     "fin": 25.22
+    },
+    {
+     "texto": "Río",
+     "inicio": 25.22,
+     "fin": 25.4
+    },
+    {
+     "texto": "de",
+     "inicio": 25.4,
+     "fin": 25.5
+    },
+    {
+     "texto": "la",
+     "inicio": 25.5,
+     "fin": 25.66
+    },
+    {
+     "texto": "Plata",
+     "inicio": 25.66,
+     "fin": 25.94
+    },
+    {
+     "texto": "con",
+     "inicio": 25.94,
+     "fin": 26.06
+    },
+    {
+     "texto": "los",
+     "inicio": 26.06,
+     "fin": 26.18
+    },
+    {
+     "texto": "inmigrantes,",
+     "inicio": 26.18,
+     "fin": 26.94
+    },
+    {
+     "texto": "y",
+     "inicio": 27.36,
+     "fin": 27.4
+    },
+    {
+     "texto": "de",
+     "inicio": 27.4,
+     "fin": 27.54
+    },
+    {
+     "texto": "tranvía",
+     "inicio": 27.54,
+     "fin": 28.02
+    },
+    {
+     "texto": "pasó",
+     "inicio": 28.02,
+     "fin": 28.32
+    },
+    {
+     "texto": "a",
+     "inicio": 28.32,
+     "fin": 28.44
+    },
+    {
+     "texto": "colectivo.",
+     "inicio": 28.44,
+     "fin": 28.92
+    }
+   ],
+   "inicio": 22.74,
+   "fin": 28.92
+  },
+  {
+   "texto": "Ojo: hay otras versiones, pero la brasileña es la más aceptada.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 29.4,
+     "fin": 29.7
+    },
+    {
+     "texto": "hay",
+     "inicio": 30.14,
+     "fin": 30.32
+    },
+    {
+     "texto": "otras",
+     "inicio": 30.32,
+     "fin": 30.54
+    },
+    {
+     "texto": "versiones,",
+     "inicio": 30.54,
+     "fin": 31.14
+    },
+    {
+     "texto": "pero",
+     "inicio": 31.46,
+     "fin": 31.68
+    },
+    {
+     "texto": "la",
+     "inicio": 31.68,
+     "fin": 31.84
+    },
+    {
+     "texto": "brasileña",
+     "inicio": 31.84,
+     "fin": 32.42
+    },
+    {
+     "texto": "es",
+     "inicio": 32.42,
+     "fin": 32.48
+    },
+    {
+     "texto": "la",
+     "inicio": 32.48,
+     "fin": 32.58
+    },
+    {
+     "texto": "más",
+     "inicio": 32.58,
+     "fin": 32.72
+    },
+    {
+     "texto": "aceptada.",
+     "inicio": 32.72,
+     "fin": 33.22
+    }
+   ],
+   "inicio": 29.4,
+   "fin": 33.22
+  },
+  {
+   "texto": "Hoy, cuando esperes el bondi, fijate: lo llamás como a un tranvía de Brasil.",
+   "palabras": [
+    {
+     "texto": "Hoy,",
+     "inicio": 33.72,
+     "fin": 33.94
+    },
+    {
+     "texto": "cuando",
+     "inicio": 34.26,
+     "fin": 34.5
+    },
+    {
+     "texto": "esperes",
+     "inicio": 34.5,
+     "fin": 34.94
+    },
+    {
+     "texto": "el",
+     "inicio": 34.94,
+     "fin": 35.04
+    },
+    {
+     "texto": "bondi,",
+     "inicio": 35.04,
+     "fin": 35.42
+    },
+    {
+     "texto": "fijate:",
+     "inicio": 35.78,
+     "fin": 36.22
+    },
+    {
+     "texto": "lo",
+     "inicio": 36.72,
+     "fin": 36.86
+    },
+    {
+     "texto": "llamás",
+     "inicio": 36.86,
+     "fin": 37.24
+    },
+    {
+     "texto": "como",
+     "inicio": 37.24,
+     "fin": 37.42
+    },
+    {
+     "texto": "a",
+     "inicio": 37.42,
+     "fin": 37.47
+    },
+    {
+     "texto": "un",
+     "inicio": 37.42,
+     "fin": 37.6
+    },
+    {
+     "texto": "tranvía",
+     "inicio": 37.6,
+     "fin": 38.16
+    },
+    {
+     "texto": "de",
+     "inicio": 38.16,
+     "fin": 38.26
+    },
+    {
+     "texto": "Brasil.",
+     "inicio": 38.26,
+     "fin": 38.6
+    }
+   ],
+   "inicio": 33.72,
+   "fin": 38.6
+  },
+  {
+   "texto": "Mandáselo al que dice el bondi en vez de el colectivo.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 39.78,
+     "fin": 40.34
+    },
+    {
+     "texto": "al",
+     "inicio": 40.34,
+     "fin": 40.44
+    },
+    {
+     "texto": "que",
+     "inicio": 40.44,
+     "fin": 40.54
+    },
+    {
+     "texto": "dice",
+     "inicio": 40.54,
+     "fin": 40.78
+    },
+    {
+     "texto": "el",
+     "inicio": 40.78,
+     "fin": 41.34
+    },
+    {
+     "texto": "bondi",
+     "inicio": 41.34,
+     "fin": 41.9
+    },
+    {
+     "texto": "en",
+     "inicio": 41.9,
+     "fin": 42.18
+    },
+    {
+     "texto": "vez",
+     "inicio": 42.18,
+     "fin": 42.3
+    },
+    {
+     "texto": "de",
+     "inicio": 42.3,
+     "fin": 42.52
+    },
+    {
+     "texto": "el",
+     "inicio": 42.52,
+     "fin": 43.02
+    },
+    {
+     "texto": "colectivo.",
+     "inicio": 43.02,
+     "fin": 43.7
+    }
+   ],
+   "inicio": 39.78,
+   "fin": 43.7
+  }
+ ]
+}
