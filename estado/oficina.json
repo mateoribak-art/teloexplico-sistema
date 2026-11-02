@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02T03:44",
+ "actualizado": "2026-11-02T04:21",
  "oficinas": [
   {
    "clave": "es",
@@ -102,7 +102,7 @@
      "estado": "aviso",
      "resumen": "Claude se quedó sin cuota: se reintenta sola en el próximo turno.",
      "cuando": "2026-11-01T22:03",
-     "hace": "hace 5 h",
+     "hace": "hace 6 h",
      "detalle": [
       "Uso: 1 pasos · 0 tokens nuevos · 0 de caché · 0 escritos · equivale a US$ 0.00 de API",
       "2026-11-01 22:03 Arranca la producción (7 listos en la cola, meta 10).",
@@ -364,7 +364,7 @@
      "estado": "aviso",
      "resumen": "No quedan carruseles listos: el de las 16:00 no sale.",
      "cuando": "2026-10-31T19:02",
-     "hace": "hace 32 h",
+     "hace": "hace 33 h",
      "detalle": [
       "2026-10-27 17:29 army-bomb: listo control OK",
       "2026-10-29 20:22 heladera: publicado https://www.instagram.com/p/DfGLWVgmyRp/",
@@ -432,7 +432,7 @@
      "estado": "ok",
      "resumen": "02/11: 354 seguidores",
      "cuando": "2026-11-02T02:52",
-     "hace": "hace 52 min",
+     "hace": "hace 1 h",
      "detalle": [
       "30/10: 296 seguidores",
       "31/10: 329 seguidores",
@@ -465,7 +465,7 @@
      },
      "estado": "aviso",
      "resumen": "Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 7 videos listos ≈ 3.5 días.",
-     "cuando": "2026-11-02T03:44",
+     "cuando": "2026-11-02T04:21",
      "hace": "recién",
      "detalle": [
       "⚠️ Claude se quedó sin cuota en la última producción (se reintenta sola en el próximo turno: 00:30, 06:30, 12:50 o 18:50). Colchón: 7 videos listos ≈ 3.5 días."
@@ -588,7 +588,7 @@
      "estado": "aviso",
      "resumen": "Claude se quedó sin cuota: se reintenta sola en el próximo turno.",
      "cuando": "2026-11-01T22:03",
-     "hace": "hace 5 h",
+     "hace": "hace 6 h",
      "detalle": [
       "Uso: 1 pasos · 0 tokens nuevos · 0 de caché · 0 escritos · equivale a US$ 0.00 de API",
       "2026-11-01 22:03 Arranca la producción (1 listos en la cola, meta 6).",
@@ -861,7 +861,7 @@
      "estado": "ok",
      "resumen": "02/11: 3 seguidores",
      "cuando": "2026-11-02T02:52",
-     "hace": "hace 52 min",
+     "hace": "hace 1 h",
      "detalle": [
       "30/10: 2 seguidores",
       "31/10: 2 seguidores",
@@ -894,7 +894,7 @@
      },
      "estado": "ok",
      "resumen": "Revisado por el técnico: Walt avisó que quedaba 1 video en inglés; no cambié nada porque la cuenta recién arrancó.",
-     "cuando": "2026-11-02T03:44",
+     "cuando": "2026-11-02T04:21",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s).",
