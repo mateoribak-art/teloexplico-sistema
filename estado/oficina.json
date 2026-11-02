@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02T19:25",
+ "actualizado": "2026-11-02T19:36",
  "oficinas": [
   {
    "clave": "es",
@@ -7,13 +7,18 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 354,
-   "listos": 7,
-   "dias": 3.5,
+   "listos": 6,
+   "dias": 3.0,
    "proximo": "010-rayo-mismo-lugar",
-   "publicados": 19,
+   "publicados": 20,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "009-ventilador-pieza-vacia",
+     "link": "https://www.instagram.com/reel/DfQYvyxFQot/",
+     "cuando": "2026-11-02T22:32"
+    },
     {
      "slug": "024-granizo-corto",
      "link": "https://www.instagram.com/reel/DfPosDPDyiN/",
@@ -33,11 +38,6 @@
      "slug": "022-colectivo-de-a-dos",
      "link": "https://www.instagram.com/reel/DfLPKj7FS9o/",
      "cuando": "2026-10-31T22:32"
-    },
-    {
-     "slug": "019-sensacion-termica",
-     "link": "https://www.instagram.com/reel/DfKfUeWFIfH/",
-     "cuando": "2026-10-31T15:34"
     }
    ],
    "linea": [
@@ -63,8 +63,8 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "009-ventilador-pieza-vacia",
-     "tema": "El ventilador no enfria el ambiente: te enfria a vos",
+     "slug": "023-perros-colores",
+     "tema": "¿Los perros ven en blanco y negro?",
      "estado": "listo",
      "cuando": "2026-10-27T22:17",
      "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
@@ -77,11 +77,11 @@
      "motivo": "chequeo rechazado 2 veces: atribución al IGN de los extremos de longitud no verificable (73°34' vs 73°27' O); cifras del mediodía solar sin contrastar con NOAA"
     },
     {
-     "slug": "021-heladera-parte-2",
-     "tema": "Heladera parte 2: ¿tapo la comida? ¿cuántos días dura?",
+     "slug": "009-ventilador-pieza-vacia",
+     "tema": "El ventilador no enfria el ambiente: te enfria a vos",
      "estado": "publicado",
-     "cuando": "2026-10-29T12:32",
-     "motivo": "https://www.instagram.com/reel/DfFVi-5lIRm/"
+     "cuando": "2026-11-02T19:32",
+     "motivo": "https://www.instagram.com/reel/DfQYvyxFQot/"
     },
     {
      "slug": "024-granizo-corto",
@@ -173,7 +173,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsqueda web (alertas SMN hoy): nada fechado de hoy (lo más reciente es de julio 2026). Sin tema de actualidad verificable; sigue la cola normal",
      "cuando": "2026-11-02T19:25",
-     "hace": "recién",
+     "hace": "hace 11 min",
      "detalle": [
       "24/10 00:00 | Revisión radar. Candidatos: (1) semana de lluvias/tormentas en BA y 9-10 provincias (alertas SMN 22-25 oct) -> ELEGIDO, ángulo propio \"por qué huele a lluvia\" (petricor/geosmina), posta ya hizo El Niño; (2) El Niño fuerte 2027 y cosecha de vino -> muy de nicho/futuro; (3) calor extremo oct-dic -> todavía no se vive hoy, se guarda. Slug: 004-olor-a-lluvia (--actualidad).",
       "30/10 00:00 | Revisión radar. Sin resultados fechados de hoy; no se produce video de actualidad.",
@@ -206,8 +206,8 @@
      },
      "estado": "aviso",
      "resumen": "Frenó 1 video(s): 026-mediodia-hora-corrida.",
-     "cuando": "2026-11-02T17:41",
-     "hace": "hace 1 h",
+     "cuando": "2026-11-02T19:32",
+     "hace": "hace 4 min",
      "detalle": [
       "019-sensacion-termica: aprobado — Todas las afirmaciones fácticas quedaron verificadas con fuente (NWS, SMN vía Télam/Forbes Argentina, MIT). Cifras: 100°F=37,8°C≈38; 96°F=35",
       "021-heladera-parte-2: aprobado — Todas las afirmaciones fácticas (salud/seguridad) están verificadas contra la página primaria del USDA FSIS 'Leftovers and Food Safety'. Nin",
@@ -241,8 +241,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-02T17:41",
-     "hace": "hace 1 h",
+     "cuando": "2026-11-02T19:32",
+     "hace": "hace 4 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -264,14 +264,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-02 17:41.",
-     "cuando": "2026-11-02T17:41",
-     "hace": "hace 1 h",
+     "resumen": "Último video terminado: 2026-11-02 19:32.",
+     "cuando": "2026-11-02T19:32",
+     "hace": "hace 4 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "b85fff70c78e"
+     "firma": "46b1896dfd66"
     },
     {
      "id": "control",
@@ -288,14 +288,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "7 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-02T17:41",
-     "hace": "hace 1 h",
+     "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-02T19:32",
+     "hace": "hace 4 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "45f87c5c43e0"
+     "firma": "7c6db386edd3"
     },
     {
      "id": "publicador",
@@ -312,27 +312,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: 024-granizo-corto.",
-     "cuando": "2026-11-02T12:34",
-     "hace": "hace 6 h",
+     "resumen": "Último: 009-ventilador-pieza-vacia.",
+     "cuando": "2026-11-02T19:34",
+     "hace": "hace 2 min",
      "detalle": [
-      "01/11 19:34 015-descongelar-mesada publicado: https://www.instagram.com/reel/DfN0F3tCdpy/",
-      "01/11 19:34 015-descongelar-mesada publicado en Facebook: https://www.facebook.com/reel/1487435216562917/",
-      "01/11 19:35 015-descongelar-mesada en la bandeja de TikTok",
-      "01/11 19:35 015-descongelar-mesada https://youtube.com/shorts/dftdMuJefrk | privacidad: public",
-      "01/11 19:35 015-descongelar-mesada paquete para TikTok/YouTube enviado",
       "02/11 12:32 024-granizo-corto publicado: https://www.instagram.com/reel/DfPosDPDyiN/",
       "02/11 12:33 024-granizo-corto publicado en Facebook: https://www.facebook.com/reel/2681775952237484/",
       "02/11 12:34 024-granizo-corto en la bandeja de TikTok",
       "02/11 12:34 024-granizo-corto https://youtube.com/shorts/uOV51zoj-8Q | privacidad: public",
-      "02/11 12:34 024-granizo-corto paquete para TikTok/YouTube enviado"
+      "02/11 12:34 024-granizo-corto paquete para TikTok/YouTube enviado",
+      "02/11 19:32 009-ventilador-pieza-vacia publicado: https://www.instagram.com/reel/DfQYvyxFQot/",
+      "02/11 19:33 009-ventilador-pieza-vacia publicado en Facebook: https://www.facebook.com/reel/1386922759941013/",
+      "02/11 19:34 009-ventilador-pieza-vacia en la bandeja de TikTok",
+      "02/11 19:34 009-ventilador-pieza-vacia https://youtube.com/shorts/rd1NKu3hcqk | privacidad: public",
+      "02/11 19:34 009-ventilador-pieza-vacia paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "Próximo: 010-rayo-mismo-lugar — ¿Un rayo nunca cae dos veces en el mismo lugar?"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "96dc6eb517b8"
+     "firma": "361ac879e9bc"
     },
     {
      "id": "redes",
@@ -350,17 +350,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-02T12:34",
-     "hace": "hace 6 h",
+     "cuando": "2026-11-02T19:34",
+     "hace": "hace 2 min",
      "detalle": [
-      "01/11 12:33 018-refresca-tormenta https://youtube.com/shorts/1amuXCiZvkE | privacidad: public",
-      "01/11 12:33 018-refresca-tormenta paquete para TikTok/YouTube enviado",
-      "01/11 19:35 015-descongelar-mesada en la bandeja de TikTok",
       "01/11 19:35 015-descongelar-mesada https://youtube.com/shorts/dftdMuJefrk | privacidad: public",
       "01/11 19:35 015-descongelar-mesada paquete para TikTok/YouTube enviado",
       "02/11 12:34 024-granizo-corto en la bandeja de TikTok",
       "02/11 12:34 024-granizo-corto https://youtube.com/shorts/uOV51zoj-8Q | privacidad: public",
-      "02/11 12:34 024-granizo-corto paquete para TikTok/YouTube enviado"
+      "02/11 12:34 024-granizo-corto paquete para TikTok/YouTube enviado",
+      "02/11 19:34 009-ventilador-pieza-vacia en la bandeja de TikTok",
+      "02/11 19:34 009-ventilador-pieza-vacia https://youtube.com/shorts/rd1NKu3hcqk | privacidad: public",
+      "02/11 19:34 009-ventilador-pieza-vacia paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -486,7 +486,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 026-mediodia-hora-corrida — chequeo rechazado 2 veces: atribución al IGN de los extremos de longitud no verificable (73°34' vs 73°27' O); cifras del",
-     "cuando": "2026-11-02T19:25",
+     "cuando": "2026-11-02T19:36",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 026-mediodia-hora-corrida — chequeo rechazado 2 veces: atribución al IGN de los extremos de longitud no verificable (73°34' vs 73°27' O); cifras del"
@@ -528,13 +528,18 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 3,
-   "listos": 1,
-   "dias": 0.5,
-   "proximo": "en-014-birthday-pairs",
-   "publicados": 13,
+   "listos": 0,
+   "dias": 0.0,
+   "proximo": null,
+   "publicados": 14,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "en-014-birthday-pairs",
+     "link": "https://www.instagram.com/reel/DfQZBzfjJBd/",
+     "cuando": "2026-11-02T22:34"
+    },
     {
      "slug": "en-016-too-cold-snow",
      "link": "https://www.instagram.com/reel/DfPpDHWFVPh/",
@@ -554,11 +559,6 @@
      "slug": "en-010-thermostat-night",
      "link": "https://www.instagram.com/reel/DfLPaudiMLN/",
      "cuando": "2026-10-31T22:34"
-    },
-    {
-     "slug": "en-009-ceiling-fan",
-     "link": "https://www.instagram.com/reel/DfKfrahDQ-l/",
-     "cuando": "2026-10-31T15:37"
     }
    ],
    "linea": [
@@ -572,16 +572,9 @@
     {
      "slug": "en-014-birthday-pairs",
      "tema": "How many people for two to share a birthday? (adapted from 017)",
-     "estado": "listo",
-     "cuando": "2026-11-02T18:20",
-     "motivo": "render sin Claude"
-    },
-    {
-     "slug": "en-013-searing-juices",
-     "tema": "Does searing seal in the juices?",
      "estado": "publicado",
-     "cuando": "2026-11-01T19:37",
-     "motivo": "https://www.instagram.com/reel/DfN0cCYFHcE/"
+     "cuando": "2026-11-02T19:35",
+     "motivo": "https://www.instagram.com/reel/DfQZBzfjJBd/"
     },
     {
      "slug": "en-016-too-cold-snow",
@@ -643,7 +636,7 @@
      "estado": "ok",
      "resumen": "Sexta pasada del radar: la búsqueda web no devolvió clima ni tendencias verificables de las últimas 48 h (solo blogs sin fecha y notas viejas). Descartados: (1)",
      "cuando": "2026-11-02T19:25",
-     "hace": "recién",
+     "hace": "hace 11 min",
      "detalle": [
       "29/10 00:00 Cuarta pasada del radar: la búsqueda web solo devolvió notas viejas (2013–2024) y una de septiembre 2026; nada verificable de las últimas 48 h. Descartados: (1) nor'easter/helada: nota de hace 5 semanas, sin fuente oficial del día; (2) auroras: sin alerta del SWPC confirmada; (3) cambio de hora (1/11): ya publicado (en-002). Halloween ya cubierto (en-004). Sin tema nuevo.",
       "30/10 00:00 Quinta pasada del radar: la búsqueda web no devolvió nada verificable de las últimas 48 h (solo notas viejas, blogs sin fecha y una página del NWS de Fort Worth del 23/10 con clima tranquilo). Descartados: (1) clima del fin de semana: sin alerta nacional ni fuente oficial del día; (2) cambio de hora (domingo 1/11): ya publicado (en-002); (3) Halloween: ya cubierto (en-004). Sin tema nuevo.",
@@ -672,8 +665,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 7 de los últimos 8 guiones.",
-     "cuando": "2026-11-02T18:20",
-     "hace": "hace 1 h",
+     "cuando": "2026-11-02T19:35",
+     "hace": "hace 1 min",
      "detalle": [
       "en-009-ceiling-fan: aprobado — Todas las afirmaciones de plata/energia y seguridad-practica (sentido de giro por estacion, velocidad baja en invierno, apagar al salir, 'en",
       "en-010-thermostat-night: aprobado — Todas las cifras (7 a 10 °F, 8 horas por dia, hasta 10% por año) coinciden con Energy.gov (Energy Saver, thermostats / programmable thermost",
@@ -705,8 +698,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-11-02T18:20",
-     "hace": "hace 1 h",
+     "cuando": "2026-11-02T19:35",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -728,14 +721,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-02 18:20.",
-     "cuando": "2026-11-02T18:20",
-     "hace": "hace 1 h",
+     "resumen": "Último video terminado: 2026-11-02 19:35.",
+     "cuando": "2026-11-02T19:35",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "87d491ca5fcc"
+     "firma": "7636809bd2bb"
     },
     {
      "id": "control",
@@ -752,14 +745,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "1 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-02T18:20",
-     "hace": "hace 1 h",
+     "resumen": "0 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-02T19:35",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "ede091eebd83"
+     "firma": "7bc298a2c168"
     },
     {
      "id": "publicador",
@@ -775,28 +768,26 @@
        "cuenta": "en"
       }
      },
-     "estado": "ok",
-     "resumen": "Último: en-016-too-cold-snow.",
-     "cuando": "2026-11-02T12:37",
-     "hace": "hace 6 h",
+     "estado": "aviso",
+     "resumen": "No hay videos listos: el próximo turno no va a publicar nada.",
+     "cuando": "2026-11-02T19:36",
+     "hace": "recién",
      "detalle": [
-      "01/11 12:35 en-011-thaw-counter en la bandeja de TikTok",
-      "01/11 12:35 en-011-thaw-counter paquete para TikTok/YouTube enviado",
-      "01/11 19:37 en-013-searing-juices publicado: https://www.instagram.com/reel/DfN0cCYFHcE/",
-      "01/11 19:37 en-013-searing-juices publicado en Facebook: https://www.facebook.com/reel/1433311475576501/",
       "01/11 19:38 en-013-searing-juices en la bandeja de TikTok",
       "01/11 19:38 en-013-searing-juices paquete para TikTok/YouTube enviado",
       "02/11 12:35 en-016-too-cold-snow publicado: https://www.instagram.com/reel/DfPpDHWFVPh/",
       "02/11 12:36 en-016-too-cold-snow publicado en Facebook: https://www.facebook.com/reel/1094613366729015/",
       "02/11 12:36 en-016-too-cold-snow en la bandeja de TikTok",
-      "02/11 12:37 en-016-too-cold-snow paquete para TikTok/YouTube enviado"
+      "02/11 12:37 en-016-too-cold-snow paquete para TikTok/YouTube enviado",
+      "02/11 19:35 en-014-birthday-pairs publicado: https://www.instagram.com/reel/DfQZBzfjJBd/",
+      "02/11 19:35 en-014-birthday-pairs publicado en Facebook: https://www.facebook.com/reel/3726917514152000/",
+      "02/11 19:36 en-014-birthday-pairs en la bandeja de TikTok",
+      "02/11 19:36 en-014-birthday-pairs paquete para TikTok/YouTube enviado"
      ],
-     "tareas": [
-      "Próximo: en-014-birthday-pairs — How many people for two to share a birthday? (adapted from 017)"
-     ],
-     "arreglo": null,
-     "solo": false,
-     "firma": "64fe1aba08fd"
+     "tareas": [],
+     "arreglo": "Relanzá la producción para que haga uno.",
+     "solo": true,
+     "firma": "b0e58befeaaa"
     },
     {
      "id": "redes",
@@ -814,17 +805,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-02T12:37",
-     "hace": "hace 6 h",
+     "cuando": "2026-11-02T19:36",
+     "hace": "recién",
      "detalle": [
-      "31/10 19:35 en-010-thermostat-night en la bandeja de TikTok",
-      "31/10 19:35 en-010-thermostat-night paquete para TikTok/YouTube enviado",
       "01/11 12:35 en-011-thaw-counter en la bandeja de TikTok",
       "01/11 12:35 en-011-thaw-counter paquete para TikTok/YouTube enviado",
       "01/11 19:38 en-013-searing-juices en la bandeja de TikTok",
       "01/11 19:38 en-013-searing-juices paquete para TikTok/YouTube enviado",
       "02/11 12:36 en-016-too-cold-snow en la bandeja de TikTok",
-      "02/11 12:37 en-016-too-cold-snow paquete para TikTok/YouTube enviado"
+      "02/11 12:37 en-016-too-cold-snow paquete para TikTok/YouTube enviado",
+      "02/11 19:36 en-014-birthday-pairs en la bandeja de TikTok",
+      "02/11 19:36 en-014-birthday-pairs paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -913,17 +904,17 @@
        "modo": "vigilar"
       }
      },
-     "estado": "aviso",
-     "resumen": "Quedan 1 videos listos: alcanza para 0.5 día(s).",
-     "cuando": "2026-11-02T19:25",
+     "estado": "ok",
+     "resumen": "Revisado por el técnico: Se quedó sin videos en inglés por falta de cuota de Claude, pero la cuota ya volvió y no cambié nada.",
+     "cuando": "2026-11-02T19:36",
      "hace": "recién",
      "detalle": [
-      "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s)."
+      "❗ No hay ningún video listo en la cola: el próximo turno no va a publicar."
      ],
      "tareas": [],
      "arreglo": null,
-     "solo": true,
-     "firma": "d68cc7d78ae0"
+     "solo": false,
+     "firma": "4033f3ff4284"
     }
    ]
   }

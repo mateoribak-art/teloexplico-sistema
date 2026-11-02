@@ -450,7 +450,7 @@
  {
   "slug": "en-014-birthday-pairs",
   "tema": "How many people for two to share a birthday? (adapted from 017)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -481,6 +481,11 @@
     "estado": "listo",
     "cuando": "2026-11-02T18:20",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-02T19:35",
+    "motivo": "https://www.instagram.com/reel/DfQZBzfjJBd/"
    }
   ]
  },
