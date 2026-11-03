@@ -198,10 +198,10 @@ def renderizar_pendientes(log):
         tlx = ['bash', os.path.join(RAIZ, 'herramientas', 'tlx')]
         escribir(log, f'Render de {slug} (sin Claude).')
         try:
-            r = subprocess.run(tlx + ['render', slug], cwd=RAIZ, capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=50 * 60)
+            r = subprocess.run(tlx + ['render', slug], cwd=RAIZ, capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=90 * 60)
             ok, salida = r.returncode == 0, r.stdout + r.stderr
         except subprocess.TimeoutExpired:
-            ok, salida = False, 'el render pasó los 50 min'
+            ok, salida = False, 'el render pasó los 90 min'
         if ok:
             c = subprocess.run(tlx + ['control', slug], cwd=RAIZ, capture_output=True, text=True, encoding='utf-8', errors='replace')
             ok, salida = c.stdout.strip().endswith('OK'), c.stdout
