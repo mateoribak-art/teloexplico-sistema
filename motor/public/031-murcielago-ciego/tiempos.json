@@ -1,0 +1,571 @@
+{
+ "duracion": 38.16,
+ "frases": [
+  {
+   "texto": "Decís ciego como un murciélago. Y el murciélago no es ciego.",
+   "palabras": [
+    {
+     "texto": "Decís",
+     "inicio": 0.0,
+     "fin": 0.42
+    },
+    {
+     "texto": "ciego",
+     "inicio": 0.42,
+     "fin": 1.14
+    },
+    {
+     "texto": "como",
+     "inicio": 1.14,
+     "fin": 1.4
+    },
+    {
+     "texto": "un",
+     "inicio": 1.4,
+     "fin": 1.54
+    },
+    {
+     "texto": "murciélago.",
+     "inicio": 1.54,
+     "fin": 2.08
+    },
+    {
+     "texto": "Y",
+     "inicio": 2.52,
+     "fin": 2.7
+    },
+    {
+     "texto": "el",
+     "inicio": 2.7,
+     "fin": 2.8
+    },
+    {
+     "texto": "murciélago",
+     "inicio": 2.8,
+     "fin": 3.24
+    },
+    {
+     "texto": "no",
+     "inicio": 3.24,
+     "fin": 3.46
+    },
+    {
+     "texto": "es",
+     "inicio": 3.46,
+     "fin": 3.68
+    },
+    {
+     "texto": "ciego.",
+     "inicio": 3.68,
+     "fin": 4.0
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.0
+  },
+  {
+   "texto": "Todas las especies de murciélagos ven. Tienen ojos que funcionan.",
+   "palabras": [
+    {
+     "texto": "Todas",
+     "inicio": 4.46,
+     "fin": 4.82
+    },
+    {
+     "texto": "las",
+     "inicio": 4.82,
+     "fin": 4.96
+    },
+    {
+     "texto": "especies",
+     "inicio": 4.96,
+     "fin": 5.34
+    },
+    {
+     "texto": "de",
+     "inicio": 5.34,
+     "fin": 5.46
+    },
+    {
+     "texto": "murciélagos",
+     "inicio": 5.46,
+     "fin": 5.9
+    },
+    {
+     "texto": "ven.",
+     "inicio": 5.9,
+     "fin": 6.16
+    },
+    {
+     "texto": "Tienen",
+     "inicio": 6.66,
+     "fin": 6.96
+    },
+    {
+     "texto": "ojos",
+     "inicio": 6.96,
+     "fin": 7.18
+    },
+    {
+     "texto": "que",
+     "inicio": 7.18,
+     "fin": 7.38
+    },
+    {
+     "texto": "funcionan.",
+     "inicio": 7.38,
+     "fin": 7.98
+    }
+   ],
+   "inicio": 4.46,
+   "fin": 7.98
+  },
+  {
+   "texto": "Y muchas además usan un sonar: la ecolocalización.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 8.32,
+     "fin": 8.46
+    },
+    {
+     "texto": "muchas",
+     "inicio": 8.46,
+     "fin": 8.7
+    },
+    {
+     "texto": "además",
+     "inicio": 8.7,
+     "fin": 9.18
+    },
+    {
+     "texto": "usan",
+     "inicio": 9.18,
+     "fin": 9.72
+    },
+    {
+     "texto": "un",
+     "inicio": 9.72,
+     "fin": 9.9
+    },
+    {
+     "texto": "sonar:",
+     "inicio": 9.9,
+     "fin": 10.5
+    },
+    {
+     "texto": "la",
+     "inicio": 11.04,
+     "fin": 11.14
+    },
+    {
+     "texto": "ecolocalización.",
+     "inicio": 11.14,
+     "fin": 12.48
+    }
+   ],
+   "inicio": 8.32,
+   "fin": 12.48
+  },
+  {
+   "texto": "Gritan en un tono que casi siempre no escuchamos, y el eco que vuelve les dibuja lo que tienen enfrente.",
+   "palabras": [
+    {
+     "texto": "Gritan",
+     "inicio": 13.0,
+     "fin": 13.44
+    },
+    {
+     "texto": "en",
+     "inicio": 13.44,
+     "fin": 13.64
+    },
+    {
+     "texto": "un",
+     "inicio": 13.64,
+     "fin": 13.74
+    },
+    {
+     "texto": "tono",
+     "inicio": 13.74,
+     "fin": 14.02
+    },
+    {
+     "texto": "que",
+     "inicio": 14.02,
+     "fin": 14.14
+    },
+    {
+     "texto": "casi",
+     "inicio": 14.14,
+     "fin": 14.52
+    },
+    {
+     "texto": "siempre",
+     "inicio": 14.52,
+     "fin": 14.84
+    },
+    {
+     "texto": "no",
+     "inicio": 14.84,
+     "fin": 15.04
+    },
+    {
+     "texto": "escuchamos,",
+     "inicio": 15.04,
+     "fin": 15.5
+    },
+    {
+     "texto": "y",
+     "inicio": 15.84,
+     "fin": 16.2
+    },
+    {
+     "texto": "el",
+     "inicio": 16.2,
+     "fin": 16.38
+    },
+    {
+     "texto": "eco",
+     "inicio": 16.38,
+     "fin": 16.64
+    },
+    {
+     "texto": "que",
+     "inicio": 16.64,
+     "fin": 17.02
+    },
+    {
+     "texto": "vuelve",
+     "inicio": 17.02,
+     "fin": 17.36
+    },
+    {
+     "texto": "les",
+     "inicio": 17.36,
+     "fin": 17.54
+    },
+    {
+     "texto": "dibuja",
+     "inicio": 17.54,
+     "fin": 17.96
+    },
+    {
+     "texto": "lo",
+     "inicio": 17.96,
+     "fin": 18.12
+    },
+    {
+     "texto": "que",
+     "inicio": 18.12,
+     "fin": 18.22
+    },
+    {
+     "texto": "tienen",
+     "inicio": 18.22,
+     "fin": 18.48
+    },
+    {
+     "texto": "enfrente.",
+     "inicio": 18.48,
+     "fin": 18.92
+    }
+   ],
+   "inicio": 13.0,
+   "fin": 18.92
+  },
+  {
+   "texto": "Con ese eco, un murciélago pequeño caza insectos en plena oscuridad.",
+   "palabras": [
+    {
+     "texto": "Con",
+     "inicio": 19.44,
+     "fin": 19.66
+    },
+    {
+     "texto": "ese",
+     "inicio": 19.66,
+     "fin": 19.92
+    },
+    {
+     "texto": "eco,",
+     "inicio": 19.92,
+     "fin": 20.22
+    },
+    {
+     "texto": "un",
+     "inicio": 20.68,
+     "fin": 20.9
+    },
+    {
+     "texto": "murciélago",
+     "inicio": 20.9,
+     "fin": 21.42
+    },
+    {
+     "texto": "pequeño",
+     "inicio": 21.42,
+     "fin": 21.74
+    },
+    {
+     "texto": "caza",
+     "inicio": 21.74,
+     "fin": 22.22
+    },
+    {
+     "texto": "insectos",
+     "inicio": 22.22,
+     "fin": 22.72
+    },
+    {
+     "texto": "en",
+     "inicio": 22.72,
+     "fin": 22.92
+    },
+    {
+     "texto": "plena",
+     "inicio": 22.92,
+     "fin": 23.1
+    },
+    {
+     "texto": "oscuridad.",
+     "inicio": 23.1,
+     "fin": 23.5
+    }
+   ],
+   "inicio": 19.44,
+   "fin": 23.5
+  },
+  {
+   "texto": "Ojo: no todos lo usan. La mayoría de los grandes, los que comen fruta, se guía sobre todo por la vista y el olfato.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 23.96,
+     "fin": 24.26
+    },
+    {
+     "texto": "no",
+     "inicio": 24.64,
+     "fin": 24.76
+    },
+    {
+     "texto": "todos",
+     "inicio": 24.76,
+     "fin": 25.02
+    },
+    {
+     "texto": "lo",
+     "inicio": 25.02,
+     "fin": 25.18
+    },
+    {
+     "texto": "usan.",
+     "inicio": 25.18,
+     "fin": 25.5
+    },
+    {
+     "texto": "La",
+     "inicio": 25.86,
+     "fin": 26.0
+    },
+    {
+     "texto": "mayoría",
+     "inicio": 26.0,
+     "fin": 26.22
+    },
+    {
+     "texto": "de",
+     "inicio": 26.22,
+     "fin": 26.42
+    },
+    {
+     "texto": "los",
+     "inicio": 26.42,
+     "fin": 26.52
+    },
+    {
+     "texto": "grandes,",
+     "inicio": 26.52,
+     "fin": 26.84
+    },
+    {
+     "texto": "los",
+     "inicio": 27.14,
+     "fin": 27.22
+    },
+    {
+     "texto": "que",
+     "inicio": 27.22,
+     "fin": 27.32
+    },
+    {
+     "texto": "comen",
+     "inicio": 27.32,
+     "fin": 27.48
+    },
+    {
+     "texto": "fruta,",
+     "inicio": 27.48,
+     "fin": 27.94
+    },
+    {
+     "texto": "se",
+     "inicio": 28.42,
+     "fin": 28.527
+    },
+    {
+     "texto": "guía",
+     "inicio": 28.527,
+     "fin": 28.74
+    },
+    {
+     "texto": "sobre",
+     "inicio": 28.74,
+     "fin": 28.96
+    },
+    {
+     "texto": "todo",
+     "inicio": 28.96,
+     "fin": 29.22
+    },
+    {
+     "texto": "por",
+     "inicio": 29.22,
+     "fin": 29.38
+    },
+    {
+     "texto": "la",
+     "inicio": 29.38,
+     "fin": 29.5
+    },
+    {
+     "texto": "vista",
+     "inicio": 29.5,
+     "fin": 29.72
+    },
+    {
+     "texto": "y",
+     "inicio": 29.72,
+     "fin": 29.84
+    },
+    {
+     "texto": "el",
+     "inicio": 29.84,
+     "fin": 29.94
+    },
+    {
+     "texto": "olfato.",
+     "inicio": 29.94,
+     "fin": 30.32
+    }
+   ],
+   "inicio": 23.96,
+   "fin": 30.32
+  },
+  {
+   "texto": "La próxima que alguien lo diga, contale lo del sonar.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 30.76,
+     "fin": 30.94
+    },
+    {
+     "texto": "próxima",
+     "inicio": 30.94,
+     "fin": 31.22
+    },
+    {
+     "texto": "que",
+     "inicio": 31.22,
+     "fin": 31.48
+    },
+    {
+     "texto": "alguien",
+     "inicio": 31.48,
+     "fin": 31.66
+    },
+    {
+     "texto": "lo",
+     "inicio": 31.66,
+     "fin": 31.86
+    },
+    {
+     "texto": "diga,",
+     "inicio": 31.86,
+     "fin": 32.5
+    },
+    {
+     "texto": "contale",
+     "inicio": 32.58,
+     "fin": 33.12
+    },
+    {
+     "texto": "lo",
+     "inicio": 33.12,
+     "fin": 33.28
+    },
+    {
+     "texto": "del",
+     "inicio": 33.28,
+     "fin": 33.42
+    },
+    {
+     "texto": "sonar.",
+     "inicio": 33.42,
+     "fin": 33.82
+    }
+   ],
+   "inicio": 30.76,
+   "fin": 33.82
+  },
+  {
+   "texto": "Mandáselo al que dice ciego como un murciélago.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 35.24,
+     "fin": 35.64
+    },
+    {
+     "texto": "al",
+     "inicio": 35.64,
+     "fin": 35.72
+    },
+    {
+     "texto": "que",
+     "inicio": 35.72,
+     "fin": 35.86
+    },
+    {
+     "texto": "dice",
+     "inicio": 35.86,
+     "fin": 36.12
+    },
+    {
+     "texto": "ciego",
+     "inicio": 36.12,
+     "fin": 37.02
+    },
+    {
+     "texto": "como",
+     "inicio": 37.02,
+     "fin": 37.22
+    },
+    {
+     "texto": "un",
+     "inicio": 37.22,
+     "fin": 37.38
+    },
+    {
+     "texto": "murciélago.",
+     "inicio": 37.38,
+     "fin": 38.04
+    }
+   ],
+   "inicio": 35.24,
+   "fin": 38.04
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+  "titulo": "¿Los murciélagos son ciegos?",
+  "serie": "ciencia",
+  "receta": "El error cotidiano de alguien de tu familia: la frase hecha 'ciego como un murciélago', con el sonar a la vista",
+  "fondo": "oscuro",
+  "destinatario": "se lo manda alguien a su tío que siempre dice 'ciego como un murciélago', para decirle que el murciélago ve",
+  "fuentes": [
+    "Smithsonian (National Museum of Natural History, si.edu/spotlight/bats/batfacts) y USGS: los murciélagos no son ciegos, todos ven",
+    "Ecolocalización: la usan casi todas las especies salvo la familia Pteropodidae, los frugívoros grandes, que se guían sobre todo por la vista y el olfato (Nature Communications, 2018)"
+  ],
+  "frases": [
+    {"texto": "Decís ciego como un murciélago. Y el murciélago no es ciego.", "estilo": "Afirmación cómplice, segura."},
+    {"texto": "Todas las especies de murciélagos ven. Tienen ojos que funcionan.", "estilo": "Seco y contundente."},
+    {"texto": "Y muchas además usan un sonar: la ecolocalización.", "estilo": "Intriga."},
+    {"texto": "Gritan en un tono que casi siempre no escuchamos, y el eco que vuelve les dibuja lo que tienen enfrente.", "estilo": "Explicando simple, ritmo ágil."},
+    {"texto": "Con ese eco, un murciélago pequeño caza insectos en plena oscuridad.", "estilo": "Curioso, creciendo."},
+    {"texto": "Ojo: no todos lo usan. La mayoría de los grandes, los que comen fruta, se guía sobre todo por la vista y el olfato.", "estilo": "Matiz tranquilo."},
+    {"texto": "La próxima que alguien lo diga, contale lo del sonar.", "estilo": "Práctico, cómplice."},
+    {"texto": "Mandáselo al que dice ciego como un murciélago.", "estilo": "Cómplice y gracioso."}
+  ]
+}

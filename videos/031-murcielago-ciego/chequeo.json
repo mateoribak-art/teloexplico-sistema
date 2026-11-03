@@ -1,0 +1,66 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones quedan verificadas contra las fuentes citadas, y esas fuentes respaldan lo que se les atribuye: Smithsonian (si.edu/spotlight/bats/batfacts: 'blind as a bat' es falso, los murcielagos ven, los insectivoros ecolocalizan con gritos agudos, los frugivoros del Viejo Mundo dependen mas de vista y olfato), USGS (usgs.gov/faqs/are-bats-blind: no son ciegos, ojos pequenos muy sensibles, usan llamados de ecolocalizacion para ubicar insectos) y Nature Communications 2018 (Thiagavel et al., PMC5758785: los pteropodidos no usan ecolocalizacion laringea y tienen solucion visual con ojos y bulbos olfatorios mas grandes; el resto de los subordenes son ecolocalizadores laringeos). Corregidos los problemas del chequeo anterior: se sacaron las fuentes no confirmadas (Zoo Nacional, BCI) y 'casi siempre no escuchamos' es matiz correcto (la mayoria de los llamados es ultrasonica; hay excepciones audibles como el murcielago manchado). No hay afirmaciones de salud, seguridad ni plata, no hay cifras, ninguna es falsa ni dudosa. Notas menores no bloqueantes: 'los grandes' equivale a los pteropodidos (no todos son grandes) pero la frase esta acotada con 'la mayoria' y 'sobre todo'; algunos pteropodidos (Rousettus) usan clicks de lengua, lo que el 'no todos / la mayoria' cubre. La pagina de Smithsonian devolvio 403 al fetch directo; su contenido se confirmo por resultado de busqueda que cita la pagina.",
+  "afirmaciones": [
+    {
+      "texto": "Decís ciego como un murciélago. Y el murciélago no es ciego.",
+      "fuente": "USGS https://www.usgs.gov/faqs/are-bats-blind (bats are not blind, ojos pequenos y muy sensibles); Smithsonian https://www.si.edu/spotlight/bats/batfacts (la frase 'blind as a bat' es falsa)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Todas las especies de murciélagos ven. Tienen ojos que funcionan.",
+      "fuente": "Smithsonian NMNH https://www.si.edu/spotlight/bats/batfacts (todos los murcielagos ven, aunque la vision puede ser menos importante que otros sentidos); USGS (vision muy sensible en casi oscuridad); Nature Communications 2018 (incluso los ecolocalizadores conservan ojos funcionales)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y muchas además usan un sonar: la ecolocalización.",
+      "fuente": "Nature Communications 2018 https://pmc.ncbi.nlm.nih.gov/articles/PMC5758785/ (todos los subordenes no pteropodidos son ecolocalizadores laringeos). 'Muchas' es conservador.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Gritan en un tono que casi siempre no escuchamos, y el eco que vuelve les dibuja lo que tienen enfrente.",
+      "fuente": "Smithsonian bat facts (gritos agudos y eco de insectos); referencias sobre deteccion de murcielagos: la mayoria de los llamados es ultrasonica (>20 kHz) con excepciones audibles (ej. murcielago manchado, llamados sociales). 'Casi siempre' refleja esas excepciones. 'Dibuja' es metafora.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Con ese eco, un murciélago pequeño caza insectos en plena oscuridad.",
+      "fuente": "USGS https://www.usgs.gov/faqs/are-bats-blind (llamados de ecolocalizacion para ubicar insectos, feeding buzz); Smithsonian bat facts (insectivoros ecolocalizan); Nature Communications 2018 (todos los murcielagos predadores usan ecolocalizacion laringea)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: no todos lo usan.",
+      "fuente": "Nature Communications 2018 https://pmc.ncbi.nlm.nih.gov/articles/PMC5758785/ (ningun pteropodido usa ecolocalizacion laringea; Rousettus usa clicks de lengua, otros hacen clicks de ala)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La mayoría de los grandes, los que comen fruta, se guía sobre todo por la vista y el olfato.",
+      "fuente": "Nature Communications 2018 (pteropodidos con solucion 'primarily vision-based', ojos y bulbos olfatorios mas grandes); Smithsonian bat facts (frugivoros del Viejo Mundo se apoyan mas en vista y olfato)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La próxima que alguien lo diga, contale lo del sonar. / Mandáselo al que dice ciego como un murciélago.",
+      "fuente": "Llamados a la accion, sin afirmacion factica.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'Todas las especies de murciélagos ven. Y muchas además usan ecolocalización... Ojo: no todos usan el sonar. La mayoría de los grandes, los que comen fruta, se guía sobre todo por la vista y el olfato.'",
+      "fuente": "Mismas fuentes que las frases equivalentes del guion (Smithsonian, USGS, Nature Communications 2018); coinciden con el texto del guion.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption y guion, campo fuentes: 'Smithsonian (National Museum of Natural History), USGS, Nature Communications (2018)'",
+      "fuente": "Las tres existen y respaldan lo atribuido: si.edu/spotlight/bats/batfacts, usgs.gov/faqs/are-bats-blind, Thiagavel et al. 2018 Nat Commun 9:98 (PMC5758785).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

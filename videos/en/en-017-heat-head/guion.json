@@ -1,0 +1,21 @@
+{
+  "titulo": "Do you lose most of your body heat through your head?",
+  "fondo": "oscuro",
+  "receta": "mito cotidiano con numero + destinatario",
+  "destinatario": "se lo manda alguien a su amigo que se pone gorro pero sale con la campera abierta, para decirle que tape lo que queda al aire",
+  "fuentes": [
+    "Vreeman RC, Carroll AE. Festive medical myths. BMJ 2008;337:a2769 (head heat loss myth; authors believe it likely originated in a military study with arctic survival suits and no hats; head is no more than about 10% of heat loss when body is exposed)"
+  ],
+  "frases": [
+    {"texto": "You were told you lose most of your body heat through your head.", "estilo": "Casual, a little teasing."},
+    {"texto": "That's a myth.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "Heat escapes from any bare skin, roughly in proportion to how much is showing.", "estilo": "Clear and simple."},
+    {"texto": "Your head is only about ten percent of your body's surface.", "estilo": "Explaining, simple."},
+    {"texto": "So it loses roughly ten percent of your heat at most, not half.", "estilo": "Firm, with a number."},
+    {"texto": "Doctors writing in the BMJ think the myth probably started with an old military test, where volunteers wore arctic suits but no hats.", "estilo": "Curious, telling a story."},
+    {"texto": "That would explain it: their heads were the only skin showing.", "estilo": "Playful, a light reveal."},
+    {"texto": "Heads up: a bare head in the cold still loses heat, so a hat helps. It just isn't special.", "estilo": "Warm, with the caveat."},
+    {"texto": "Today, cover whatever is bare, not just your head.", "estilo": "Practical, friendly."},
+    {"texto": "Send this to the friend who wears a hat but leaves the jacket open.", "estilo": "Playful, with humor."}
+  ]
+}

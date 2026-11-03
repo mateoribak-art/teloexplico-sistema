@@ -23,3 +23,11 @@ Uso: 11 pasos · 23,300 tokens nuevos · 227,917 de caché · 1,281 escritos · 
 2026-11-03 09:54 Render de en-012-thunder-count (sin Claude).
 2026-11-03 10:12 en-012-thunder-count: apartado (render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste)
 2026-11-03 10:12 Termina la producción (ok).
+2026-11-03 14:33 Arranca la producción (0 listos en la cola, meta 6).
+- **Listo:** `en-017-heat-head` (serie cuerpo, propio, 3D) quedó en estado `render`. El chequeo lo rechazó la primera vez y lo aprobó en el segundo intento. Falta que `producir.py` lo renderice y lo controle.
+- **Apartados:** no había ninguno por "chequeo rechazado", así que no rescaté nada. `en-012-thunder-count` está apartado por la voz y ya figura de nuevo en `render`.
+- **Incompletos:** ninguno. Paré el loop porque no queda trabajo pendiente.
+Uso: 2 pasos · 2,496 tokens nuevos · 227,610 de caché · 284 escritos · equivale a US$ 1.33 de API
+2026-11-03 14:42 Render de en-017-heat-head (sin Claude).
+2026-11-03 14:52 en-017-heat-head: listo (render sin Claude)
+2026-11-03 14:52 Termina la producción (ok).

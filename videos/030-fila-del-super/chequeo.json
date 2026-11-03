@@ -1,0 +1,66 @@
+{
+  "veredicto": "rechazado",
+  "motivo": "La frase 7 del guion ('fijate quién viene con el carrito lleno en vez de contar personas') es un consejo técnico presentado sin matiz que no tiene fuente primaria y que las fuentes consultadas (nota de ABC/GMA, notas divulgativas) discuten: el tiempo por cliente incluye un costo fijo (saludo, pago, bolsas), por lo que contar personas suele pesar tanto o más que mirar el carrito; lo que hay son heurísticas de blogs, no estudios. Las afirmaciones técnicas no pueden ser dudosas, y acá no hay forma de sostenerla como verificada. Hay que sacarla o reemplazarla por algo verificable (por ejemplo, 'si podés, elegí la fila con menos gente y menos carritos llenos' tampoco está probado; mejor cerrar con la fila única o el sesgo de percepción). El resto de las afirmaciones cumple las reglas.",
+  "afirmaciones": [
+    {
+      "texto": "Parece que la otra fila del súper siempre avanza más rápido. Y no es solo mala suerte. (guion f1 / caption)",
+      "fuente": "Qminder (https://www.qminder.com/blog/queue-management/other-queue-moves-faster): explica la sensación por percepción/memoria y por probabilidad (con 4 filas hay 75% de que otra sea más rápida); David Andrews, 'Why Does the Other Line Always Move Faster?' (Workman, 2015). Fuentes divulgativas.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si cada caja tiene su propia fila, un solo cliente lento frena a todos los que tiene atrás.",
+      "fuente": "Deducción directa de una cola FIFO por caja; consistente con teoría de colas (M/M/1). Sin fuente primaria puntual.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Con una sola fila para todas las cajas, ese mismo cliente demora a uno solo. Las otras cajas siguen atendiendo.",
+      "fuente": "Deducción directa del modelo M/M/c (fila única, varios servidores). Simplificación correcta: la caja ocupada queda tomada, las otras siguen. Sin fuente primaria puntual.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La teoría de colas arranca con un trabajo de 1909 del ingeniero danés Agner Erlang sobre llamadas en Copenhague.",
+      "fuente": "MacTutor, Universidad de St Andrews (https://mathshistory.st-andrews.ac.uk/Biographies/Erlang/) y Wikipedia: 'The Theory of Probability and Telephone Conversations', Nyt Tidsskrift for Matematik B, vol. 20, 1909, generalmente considerado el primer trabajo de teoría de colas; Erlang trabajaba en la Copenhagen Telephone Company.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Con las mismas cajas y la misma gente, una fila única da una espera media menor o igual.",
+      "fuente": "Resultado estándar de teoría de colas, M/M/c vs c x M/M/1 (mismo arribo total y misma tasa de servicio). Confirmado por simulación comparativa (Beijing Univ. of Technology, journal.bjut.edu.cn, doi 10.11936/bjutxb2015120042: la espera media de M/M/c es algo menor) y material didáctico. Fuentes secundarias; el resultado es de manual. 'Menor o igual' es el enunciado correcto y prudente.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y probablemente también influye la cabeza: notás/mirás cuando la otra fila avanza y te olvidás de cuando se frena.",
+      "fuente": "Qminder citando BBC Future (el adelantamiento 'queda más en la memoria', ilusión de correlación, saliencia) y Andrews (2015). Divulgativas, sin estudio controlado propio.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: es sobre el promedio. Con mala racha, igual te puede tocar la lenta.",
+      "fuente": "Propiedad básica de la media frente a la varianza; coherente con M/M/c vs M/M/1 (la media baja, pero cada cliente sigue sujeto al azar).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Hoy, antes de elegir fila, fijate quién viene con el carrito lleno en vez de contar personas. (guion f7)",
+      "fuente": "sin fuente primaria. Notas divulgativas y de blogs (ABC/GMA, Food Republic, Chowhound) dicen lo contrario o lo dejan abierto: contar personas suele importar más que los ítems. Tampoco figura en las fuentes del guion.",
+      "estado": "dudosa",
+      "matiz_ok": false
+    },
+    {
+      "texto": "Mandáselo al que se cambia de fila tres veces. (guion f8 / caption)",
+      "fuente": "No es afirmación fáctica (llamado a la acción).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes del caption: origen de la teoría de colas (Erlang, 1909, Copenhague); comparación M/M/c vs c x M/M/1; percepción: Qminder, D. Andrews (2015).",
+      "fuente": "Existen y respaldan lo citado (ver arriba). Nota: Qminder es una empresa de gestión de filas y su nota no menciona a Andrews; Andrews sí trata la percepción en su libro.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

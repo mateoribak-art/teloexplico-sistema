@@ -48,7 +48,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 
 ## Temas de EE. UU. — serie: cuerpo (Body myths)
 - [ ] Does cracking your knuckles cause arthritis? (estudios)
-- [ ] Do you lose most of your heat through your head? (myth)
+- [usada → en-017-heat-head] Do you lose most of your heat through your head? (myth)
 - [usada → en-004-sugar-hyper] Does sugar make kids hyper? (estudios doble ciego) — Halloween
 - [ ] Does swallowed gum stay in your stomach for 7 years?
 

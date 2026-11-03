@@ -1,0 +1,15 @@
+🛒 Parece que la otra fila siempre avanza más rápido. Y no es solo mala suerte.
+
+Si cada caja tiene su propia fila, un solo cliente lento frena a todos los que tiene atrás. Con una fila única para todas las cajas, ese cliente demora a uno solo y las otras cajas siguen atendiendo.
+
+La teoría de colas arranca con un trabajo de 1909 del ingeniero danés Agner Erlang sobre llamadas en Copenhague. Con las mismas cajas y la misma gente, una fila única da una espera media menor o igual. Y probablemente también influye la cabeza: notás cuando la otra fila avanza y te olvidás de cuando se frena.
+
+Ojo: es sobre el promedio. Con mala racha, igual te puede tocar la lenta.
+
+👇 Mandáselo al que se cambia de fila tres veces.
+
+¿Cuántas veces cambiaste de fila la última vez que fuiste al súper?
+
+Fuentes: origen de la teoría de colas: A. K. Erlang, 1909, Copenhague. Comparación de filas: modelo M/M/c vs c × M/M/1. Percepción: Qminder, D. Andrews (2015).
+
+#datoscuriosos #matematica #supermercado #teoriadecolas #argentina

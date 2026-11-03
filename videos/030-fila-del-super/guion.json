@@ -1,0 +1,22 @@
+{
+  "titulo": "¿Por qué la otra fila del súper parece avanzar más rápido?",
+  "serie": "mate",
+  "receta": "A vs B con la cuenta a la vista: cajas con una fila cada una vs una fila única",
+  "fondo": "oscuro",
+  "destinatario": "se lo manda alguien que siempre cambia de fila en el súper a su amiga que siempre elige la fila equivocada, para decirle que no es solo mala suerte",
+  "fuentes": [
+    "Teoría de colas: su primer trabajo, de 1909, es del ingeniero danés Agner Krarup Erlang, sobre llamadas telefónicas en Copenhague (MacTutor, Universidad de St Andrews)",
+    "Modelo de colas: una fila única que alimenta todas las cajas (M/M/c) da una espera media menor o igual que una fila por caja (c x M/M/1), con la misma gente y las mismas cajas",
+    "Percepción: Qminder y D. Andrews (2015), fuentes divulgativas, por eso va como probable"
+  ],
+  "frases": [
+    {"texto": "Parece que la otra fila del súper siempre avanza más rápido. Y no es solo mala suerte.", "estilo": "Afirmación cómplice, segura."},
+    {"texto": "Si cada caja tiene su propia fila, un solo cliente lento frena a todos los que tiene atrás.", "estilo": "Explicando simple, ritmo ágil."},
+    {"texto": "Con una sola fila para todas las cajas, ese mismo cliente demora a uno solo. Las otras cajas siguen atendiendo.", "estilo": "Seco, mostrando la diferencia."},
+    {"texto": "La teoría de colas, que arranca con un trabajo de mil novecientos nueve del ingeniero danés Agner Erlang sobre llamadas en Copenhague, lo muestra: con las mismas cajas y la misma gente, una fila única da una espera media menor o igual.", "estilo": "Dato claro, con fuente."},
+    {"texto": "Y probablemente también influye la cabeza: mirás cuando la otra fila avanza y te olvidás de cuando se frena.", "estilo": "Cómplice, con media sonrisa."},
+    {"texto": "Ojo: es sobre el promedio. Con mala racha, igual te puede tocar la lenta.", "estilo": "Matiz tranquilo."},
+    {"texto": "Hoy, antes de elegir fila, fijate quién viene con el carrito lleno en vez de contar personas.", "estilo": "Práctico, cómplice."},
+    {"texto": "Mandáselo al que se cambia de fila tres veces.", "estilo": "Cómplice y gracioso."}
+  ]
+}

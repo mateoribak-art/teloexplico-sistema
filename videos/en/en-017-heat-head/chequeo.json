@@ -1,0 +1,78 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Version actual revisada de nuevo con busqueda web. La cita ahora es la correcta (Vreeman & Carroll, 'Festive medical myths', BMJ 2008;337:a2769). Todas las cifras y afirmaciones de salud coinciden con las fuentes y estan verificadas; el origen militar (unica afirmacion no demostrada) esta presentado como hipotesis ('think... probably started', 'That would explain it'). Ninguna falsa. Limitacion: no pude abrir el texto completo del BMJ; el contenido se confirmo por NPR, Scientific American, ScienceDaily, Grough y el comunicado de la Facultad de Medicina de Indiana University. El 10 % de la fuente es un tope ('no more than about 10 %', escenario en traje de bano) y la frase usa 'at most', asi que coincide.",
+  "afirmaciones": [
+    {
+      "texto": "You were told you lose most of your body heat through your head.",
+      "fuente": "Creencia difundida; el manual de campo del Ejercito de EE. UU. citaba 40-45 % (NPR 2008-12-24, https://www.npr.org/2008/12/24/98453682/scientists-shed-light-on-festive-medical-myths; Scientific American 2008-12-18)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "That's a myth.",
+      "fuente": "Vreeman RC, Carroll AE. Festive medical myths. BMJ 2008;337:a2769; Scientific American https://www.scientificamerican.com/blog/news-blog/dont-be-fooled-six-holiday-health-m-2008-12-18/; NPR",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heat escapes from any bare skin, roughly in proportion to how much is showing.",
+      "fuente": "Vreeman en Scientific American/ScienceDaily: 'Heat loss is proportional to the body's surface area that is exposed... nothing special about the head'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Your head is only about ten percent of your body's surface.",
+      "fuente": "Regla de los nueves (Wallace), adultos: cabeza = 9 % (StatPearls, NCBI NBK513287; PubMed 30020659). 'About ten' redondea 9 %. En ninos es mayor, pero la frase habla de un cuerpo adulto implicito.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "So it loses roughly ten percent of your heat at most, not half.",
+      "fuente": "BMJ 2008 via Grough (https://www.grough.co.uk/magazine/2008/12/19/hats-heads-and-heat-medics-debunk-decades-old-myth) e IU School of Medicine: con traje de bano, no mas de ~10 % por la cabeza. 'At most' respeta el tope.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Doctors writing in the BMJ think the myth probably started with an old military test, where volunteers wore arctic suits but no hats.",
+      "fuente": "BMJ 2008;337:a2769; NPR y Scientific American: los autores creen que 'likely originated with an old military study' con trajes artico sin sombrero",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "That would explain it: their heads were the only skin showing.",
+      "fuente": "Misma hipotesis de origen (IU School of Medicine / Grough): la cabeza era la unica parte descubierta. Condicional ('would explain'), coherente con 'probable'.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: a bare head in the cold still loses heat, so a hat helps. It just isn't special.",
+      "fuente": "Vreeman en Scientific American/NPR: 'By all means wear a hat, but there is nothing special about the head'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Today, cover whatever is bare, not just your head.",
+      "fuente": "Consejo derivado del principio de superficie expuesta (Vreeman & Carroll, BMJ 2008); no es dato nuevo",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Send this to the friend who wears a hat but leaves the jacket open.",
+      "fuente": "Llamado a la accion, sin afirmacion factica",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'Doctors writing in the BMJ think the myth probably started with an old military test... That would explain why their heads lost the most: they were the only skin showing.'",
+      "fuente": "Igual que arriba (BMJ 2008; NPR; Scientific American). Presentado como hipotesis.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'Sources: Vreeman & Carroll, \"Festive medical myths,\" BMJ (2008).'",
+      "fuente": "BMJ 2008;337:a2769 (articulo correcto; contiene el mito de la cabeza)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

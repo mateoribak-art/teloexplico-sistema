@@ -22,3 +22,11 @@ Uso: 2 pasos · 2,460 tokens nuevos · 214,468 de caché · 215 escritos · equi
 `refresca-tormenta`: quedó listo (9 placas, salen del reel 018-refresca-tormenta).
 Uso: 21 pasos · 36,256 tokens nuevos · 479,054 de caché · 4,001 escritos · equivale a US$ 0.23 de API
 2026-11-03 09:53 Termina el carrusel (ok; quedan 1 listos).
+2026-11-03 14:15 Arranca la producción (7 listos en la cola, meta 10).
+- **Listo para render:** `031-murcielago-ciego` (ciencia #2, "los murciélagos no son ciegos"). El chequeo lo aprobó en el segundo intento, la voz salió con 101 de 102 palabras (38 s) y `tsc` pasó sin errores. Está en estado `render`, así que `producir.py` lo renderiza y lo controla después. Todavía no hay video renderizado.
+- **Apartado:** `030-fila-del-super`. El chequeo lo rechazó dos veces, y la última porque el consejo "mirá quién viene con el carrito lleno" no tiene respaldo. Quedaron guion, caption y `Filas.tsx`.
+- **Sin rescates:** `026` se apartó por tiempo de render, no por chequeo, y `013` ya falló dos veces. Tampoco hice la revisión del radar; la última fue el 2/11.
+Uso: 24 pasos · 25,193 tokens nuevos · 1,269,469 de caché · 11,373 escritos · equivale a US$ 1.84 de API
+2026-11-03 14:25 Render de 031-murcielago-ciego (sin Claude).
+2026-11-03 14:33 031-murcielago-ciego: listo (render sin Claude)
+2026-11-03 14:33 Termina la producción (ok).

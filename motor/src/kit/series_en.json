@@ -72,6 +72,10 @@
     "en-016-too-cold-snow": [
       "clima",
       3
+    ],
+    "en-017-heat-head": [
+      "cuerpo",
+      2
     ]
   }
 }
