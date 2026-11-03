@@ -591,7 +591,7 @@
  {
   "slug": "en-017-heat-head",
   "tema": "Do you lose most of your body heat through your head? (BMJ)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -612,6 +612,11 @@
     "estado": "listo",
     "cuando": "2026-11-03T14:52",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-03T19:34",
+    "motivo": "https://www.instagram.com/reel/DfS9ytKCBNs/"
    }
   ]
  }

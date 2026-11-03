@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T17:14",
+ "actualizado": "2026-11-03T19:35",
  "oficinas": [
   {
    "clave": "es",
@@ -7,13 +7,18 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 365,
-   "listos": 9,
-   "dias": 4.5,
+   "listos": 8,
+   "dias": 4.0,
    "proximo": "014-celular-arroz",
-   "publicados": 21,
+   "publicados": 22,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "023-perros-colores",
+     "link": "https://www.instagram.com/reel/DfS9jQbgQtk/",
+     "cuando": "2026-11-03T22:32"
+    },
     {
      "slug": "010-rayo-mismo-lugar",
      "link": "https://www.instagram.com/reel/DfSNhuTnfzv/",
@@ -33,11 +38,6 @@
      "slug": "015-descongelar-mesada",
      "link": "https://www.instagram.com/reel/DfN0F3tCdpy/",
      "cuando": "2026-11-01T22:33"
-    },
-    {
-     "slug": "018-refresca-tormenta",
-     "link": "https://www.instagram.com/reel/DfND5BqDapB/",
-     "cuando": "2026-11-01T15:32"
     }
    ],
    "linea": [
@@ -63,13 +63,6 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "023-perros-colores",
-     "tema": "¿Los perros ven en blanco y negro?",
-     "estado": "listo",
-     "cuando": "2026-10-27T22:17",
-     "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
-    },
-    {
      "slug": "025-noquis-del-29",
      "tema": "¿Por qué comemos ñoquis el 29 y ponemos plata abajo del plato? (leyenda vs explicación económica)",
      "estado": "listo",
@@ -77,11 +70,18 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "009-ventilador-pieza-vacia",
-     "tema": "El ventilador no enfria el ambiente: te enfria a vos",
+     "slug": "027-bondi-de-brasil",
+     "tema": "¿Por qué le decimos bondi al colectivo? La palabra vino de Brasil (bonde, tranvía)",
+     "estado": "listo",
+     "cuando": "2026-11-02T17:41",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "023-perros-colores",
+     "tema": "¿Los perros ven en blanco y negro?",
      "estado": "publicado",
-     "cuando": "2026-11-02T19:32",
-     "motivo": "https://www.instagram.com/reel/DfQYvyxFQot/"
+     "cuando": "2026-11-03T19:32",
+     "motivo": "https://www.instagram.com/reel/DfS9jQbgQtk/"
     },
     {
      "slug": "024-granizo-corto",
@@ -109,7 +109,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-03T15:48",
-     "hace": "hace 1 h",
+     "hace": "hace 3 h",
      "detalle": [
       "Uso: 51 pasos · 71,967 tokens nuevos · 1,427,252 de caché · 15,077 escritos · equivale a US$ 0.58 de API",
       "2026-11-03 15:33 Arranca la producción (8 listos en la cola, meta 10).",
@@ -169,7 +169,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y clima de la semana): solo resultados de julio 2026 o de noviembre 2025 (días de la semana que no coinciden), na",
      "cuando": "2026-11-03T17:14",
-     "hace": "recién",
+     "hace": "hace 2 h",
      "detalle": [
       "30/10 00:00 | Revisión radar. Sin resultados fechados de hoy; no se produce video de actualidad.",
       "02/11 00:00 | Revisión radar. Búsqueda web (alertas SMN hoy): nada fechado de hoy (lo más reciente es de julio 2026). Sin tema de actualidad verificable; sigue la cola normal. Segunda pasada: descartados (a) tormentas/granizo de inicio de noviembre (Meteored sin año verificable; granizo ya tiene 005 y 024), (b) ola de calor de fines de octubre (sin fuente fechada de hoy, y calor/sensación térmica ya cubiertos en 019).",
@@ -202,8 +202,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-03T15:48",
-     "hace": "hace 1 h",
+     "cuando": "2026-11-03T19:32",
+     "hace": "hace 3 min",
      "detalle": [
       "024-granizo-corto: aprobado — Se verificaron con búsqueda web todas las afirmaciones fácticas del guion (9 frases) y del caption. Ninguna es falsa ni dudosa. Las cifras l",
       "025-noquis-del-29: aprobado — Revisado el texto actual contra las tres fuentes citadas, consultadas en esta pasada. No hay afirmaciones falsas ni cifras. Lo no confirmado",
@@ -235,8 +235,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-03T15:48",
-     "hace": "hace 1 h",
+     "cuando": "2026-11-03T19:32",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -259,8 +259,8 @@
      },
      "estado": "trabajando",
      "resumen": "1 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
-     "cuando": "2026-11-03T15:48",
-     "hace": "hace 1 h",
+     "cuando": "2026-11-03T19:32",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [
       "026-mediodia-hora-corrida"
@@ -284,14 +284,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "9 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-03T15:48",
-     "hace": "hace 1 h",
+     "resumen": "8 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-03T19:32",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "91a3e95b574b"
+     "firma": "c2eed778fe27"
     },
     {
      "id": "publicador",
@@ -308,27 +308,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: 010-rayo-mismo-lugar.",
-     "cuando": "2026-11-03T12:34",
-     "hace": "hace 4 h",
+     "resumen": "Último: 023-perros-colores.",
+     "cuando": "2026-11-03T19:33",
+     "hace": "hace 2 min",
      "detalle": [
-      "02/11 19:32 009-ventilador-pieza-vacia publicado: https://www.instagram.com/reel/DfQYvyxFQot/",
-      "02/11 19:33 009-ventilador-pieza-vacia publicado en Facebook: https://www.facebook.com/reel/1386922759941013/",
-      "02/11 19:34 009-ventilador-pieza-vacia en la bandeja de TikTok",
-      "02/11 19:34 009-ventilador-pieza-vacia https://youtube.com/shorts/rd1NKu3hcqk | privacidad: public",
-      "02/11 19:34 009-ventilador-pieza-vacia paquete para TikTok/YouTube enviado",
       "03/11 12:32 010-rayo-mismo-lugar publicado: https://www.instagram.com/reel/DfSNhuTnfzv/",
       "03/11 12:33 010-rayo-mismo-lugar publicado en Facebook: https://www.facebook.com/reel/4534083626859432/",
       "03/11 12:34 010-rayo-mismo-lugar en la bandeja de TikTok",
       "03/11 12:34 010-rayo-mismo-lugar https://youtube.com/shorts/NNFjNo8lKeE | privacidad: public",
-      "03/11 12:34 010-rayo-mismo-lugar paquete para TikTok/YouTube enviado"
+      "03/11 12:34 010-rayo-mismo-lugar paquete para TikTok/YouTube enviado",
+      "03/11 19:32 023-perros-colores publicado: https://www.instagram.com/reel/DfS9jQbgQtk/",
+      "03/11 19:33 023-perros-colores publicado en Facebook: https://www.facebook.com/reel/916768048166934/",
+      "03/11 19:33 023-perros-colores en la bandeja de TikTok",
+      "03/11 19:33 023-perros-colores https://youtube.com/shorts/0B1SO2x6Q4g | privacidad: public",
+      "03/11 19:33 023-perros-colores paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "Próximo: 014-celular-arroz — El celular mojado se arregla en arroz: Apple dice que no"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "8d84d977368d"
+     "firma": "5520d00305bb"
     },
     {
      "id": "redes",
@@ -346,17 +346,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-03T12:34",
-     "hace": "hace 4 h",
+     "cuando": "2026-11-03T19:33",
+     "hace": "hace 2 min",
      "detalle": [
-      "02/11 12:34 024-granizo-corto https://youtube.com/shorts/uOV51zoj-8Q | privacidad: public",
-      "02/11 12:34 024-granizo-corto paquete para TikTok/YouTube enviado",
-      "02/11 19:34 009-ventilador-pieza-vacia en la bandeja de TikTok",
       "02/11 19:34 009-ventilador-pieza-vacia https://youtube.com/shorts/rd1NKu3hcqk | privacidad: public",
       "02/11 19:34 009-ventilador-pieza-vacia paquete para TikTok/YouTube enviado",
       "03/11 12:34 010-rayo-mismo-lugar en la bandeja de TikTok",
       "03/11 12:34 010-rayo-mismo-lugar https://youtube.com/shorts/NNFjNo8lKeE | privacidad: public",
-      "03/11 12:34 010-rayo-mismo-lugar paquete para TikTok/YouTube enviado"
+      "03/11 12:34 010-rayo-mismo-lugar paquete para TikTok/YouTube enviado",
+      "03/11 19:33 023-perros-colores en la bandeja de TikTok",
+      "03/11 19:33 023-perros-colores https://youtube.com/shorts/0B1SO2x6Q4g | privacidad: public",
+      "03/11 19:33 023-perros-colores paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -379,7 +379,7 @@
      "estado": "ok",
      "resumen": "1 listo(s) para las 16:00.",
      "cuando": "2026-11-03T09:53",
-     "hace": "hace 7 h",
+     "hace": "hace 9 h",
      "detalle": [
       "2026-10-31 19:02 vuelta-carne: publicado https://www.instagram.com/p/DfLLzq9I7ZT/",
       "2026-11-02 17:42 descongelar-mesada: listo control OK",
@@ -412,7 +412,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:15",
-     "hace": "hace 19 h",
+     "hace": "hace 22 h",
      "detalle": [
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
       "02/11 04:22 Hay 12 comentarios nuevos: arranca la respuesta.",
@@ -451,7 +451,7 @@
      "estado": "ok",
      "resumen": "03/11: 365 seguidores",
      "cuando": "2026-11-03T03:37",
-     "hace": "hace 13 h",
+     "hace": "hace 15 h",
      "detalle": [
       "31/10: 329 seguidores",
       "01/11: 341 seguidores",
@@ -484,7 +484,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-03T17:14",
+     "cuando": "2026-11-03T19:35",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -524,13 +524,18 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 3,
-   "listos": 1,
-   "dias": 0.5,
-   "proximo": "en-017-heat-head",
-   "publicados": 15,
+   "listos": 0,
+   "dias": 0.0,
+   "proximo": null,
+   "publicados": 16,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "en-017-heat-head",
+     "link": "https://www.instagram.com/reel/DfS9ytKCBNs/",
+     "cuando": "2026-11-03T22:34"
+    },
     {
      "slug": "en-015-rain-smell",
      "link": "https://www.instagram.com/reel/DfSNxZLAQrZ/",
@@ -550,21 +555,9 @@
      "slug": "en-013-searing-juices",
      "link": "https://www.instagram.com/reel/DfN0cCYFHcE/",
      "cuando": "2026-11-01T22:36"
-    },
-    {
-     "slug": "en-011-thaw-counter",
-     "link": "https://www.instagram.com/reel/DfNEJTGFHlK/",
-     "cuando": "2026-11-01T15:34"
     }
    ],
    "linea": [
-    {
-     "slug": "en-017-heat-head",
-     "tema": "Do you lose most of your body heat through your head? (BMJ)",
-     "estado": "listo",
-     "cuando": "2026-11-03T14:52",
-     "motivo": "render sin Claude"
-    },
     {
      "slug": "en-012-thunder-count",
      "tema": "How far away is the storm? Count flash to thunder (adapted from 018)",
@@ -573,18 +566,18 @@
      "motivo": "render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go "
     },
     {
-     "slug": "en-015-rain-smell",
-     "tema": "Why does rain smell like that? petrichor (adapted from 004)",
-     "estado": "publicado",
-     "cuando": "2026-11-03T12:35",
-     "motivo": "https://www.instagram.com/reel/DfSNxZLAQrZ/"
-    },
-    {
      "slug": "en-016-too-cold-snow",
      "tema": "Can it be too cold to snow? (NSSL/NOAA)",
      "estado": "publicado",
      "cuando": "2026-11-02T12:35",
      "motivo": "https://www.instagram.com/reel/DfPpDHWFVPh/"
+    },
+    {
+     "slug": "en-017-heat-head",
+     "tema": "Do you lose most of your body heat through your head? (BMJ)",
+     "estado": "publicado",
+     "cuando": "2026-11-03T19:34",
+     "motivo": "https://www.instagram.com/reel/DfS9ytKCBNs/"
     }
    ],
    "empleados": [
@@ -605,7 +598,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-03T14:52",
-     "hace": "hace 2 h",
+     "hace": "hace 4 h",
      "detalle": [
       "Uso: 2 pasos · 2,496 tokens nuevos · 227,610 de caché · 284 escritos · equivale a US$ 1.33 de API",
       "2026-11-03 14:33 Arranca la producción (0 listos en la cola, meta 6).",
@@ -639,7 +632,7 @@
      "estado": "ok",
      "resumen": "Séptima pasada del radar: la búsqueda web solo devolvió páginas de AccuWeather sin fecha clara y notas de 2025; nada verificable de las últimas 48 h. Descartado",
      "cuando": "2026-11-03T17:14",
-     "hace": "recién",
+     "hace": "hace 2 h",
      "detalle": [
       "30/10 00:00 Quinta pasada del radar: la búsqueda web no devolvió nada verificable de las últimas 48 h (solo notas viejas, blogs sin fecha y una página del NWS de Fort Worth del 23/10 con clima tranquilo). Descartados: (1) clima del fin de semana: sin alerta nacional ni fuente oficial del día; (2) cambio de hora (domingo 1/11): ya publicado (en-002); (3) Halloween: ya cubierto (en-004). Sin tema nuevo.",
       "02/11 00:00 Sexta pasada del radar: la búsqueda web no devolvió clima ni tendencias verificables de las últimas 48 h (solo blogs sin fecha y notas viejas). Descartados: (1) cambio de hora (terminó el 1/11): ya publicado (en-002), el momento pasó; (2) clima de la semana: sin alerta nacional ni fuente oficial del día; (3) Sunshine Protection Act: es política, descartado. Sin tema nuevo.",
@@ -668,8 +661,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-03T14:52",
-     "hace": "hace 2 h",
+     "cuando": "2026-11-03T19:34",
+     "hace": "hace 1 min",
      "detalle": [
       "en-010-thermostat-night: aprobado — Todas las cifras (7 a 10 °F, 8 horas por dia, hasta 10% por año) coinciden con Energy.gov (Energy Saver, thermostats / programmable thermost",
       "en-011-thaw-counter: aprobado — Se releyeron guion.json y caption.txt con las correcciones aplicadas. Todas las frases de salud/seguridad quedan verificadas contra USDA FSI",
@@ -701,8 +694,8 @@
      },
      "estado": "aviso",
      "resumen": "La voz no coincidió con el guion en en-012-thunder-count.",
-     "cuando": "2026-11-03T14:52",
-     "hace": "hace 2 h",
+     "cuando": "2026-11-03T19:34",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [
       "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go "
@@ -727,8 +720,8 @@
      },
      "estado": "falla",
      "resumen": "Falló el render de en-012-thunder-count.",
-     "cuando": "2026-11-03T14:52",
-     "hace": "hace 2 h",
+     "cuando": "2026-11-03T19:34",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [
       "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste"
@@ -752,14 +745,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "1 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-03T14:52",
-     "hace": "hace 2 h",
+     "resumen": "0 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-03T19:34",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "ede091eebd83"
+     "firma": "7bc298a2c168"
     },
     {
      "id": "publicador",
@@ -775,28 +768,26 @@
        "cuenta": "en"
       }
      },
-     "estado": "ok",
-     "resumen": "Último: en-015-rain-smell.",
-     "cuando": "2026-11-03T12:36",
-     "hace": "hace 4 h",
+     "estado": "aviso",
+     "resumen": "No hay videos listos: el próximo turno no va a publicar nada.",
+     "cuando": "2026-11-03T19:35",
+     "hace": "recién",
      "detalle": [
-      "02/11 12:36 en-016-too-cold-snow en la bandeja de TikTok",
-      "02/11 12:37 en-016-too-cold-snow paquete para TikTok/YouTube enviado",
-      "02/11 19:35 en-014-birthday-pairs publicado: https://www.instagram.com/reel/DfQZBzfjJBd/",
-      "02/11 19:35 en-014-birthday-pairs publicado en Facebook: https://www.facebook.com/reel/3726917514152000/",
       "02/11 19:36 en-014-birthday-pairs en la bandeja de TikTok",
       "02/11 19:36 en-014-birthday-pairs paquete para TikTok/YouTube enviado",
       "03/11 12:35 en-015-rain-smell publicado: https://www.instagram.com/reel/DfSNxZLAQrZ/",
       "03/11 12:35 en-015-rain-smell publicado en Facebook: https://www.facebook.com/reel/2708656459591469/",
       "03/11 12:36 en-015-rain-smell en la bandeja de TikTok",
-      "03/11 12:36 en-015-rain-smell paquete para TikTok/YouTube enviado"
+      "03/11 12:36 en-015-rain-smell paquete para TikTok/YouTube enviado",
+      "03/11 19:34 en-017-heat-head publicado: https://www.instagram.com/reel/DfS9ytKCBNs/",
+      "03/11 19:35 en-017-heat-head publicado en Facebook: https://www.facebook.com/reel/2345012759596773/",
+      "03/11 19:35 en-017-heat-head en la bandeja de TikTok",
+      "03/11 19:35 en-017-heat-head paquete para TikTok/YouTube enviado"
      ],
-     "tareas": [
-      "Próximo: en-017-heat-head — Do you lose most of your body heat through your head? (BMJ)"
-     ],
-     "arreglo": null,
-     "solo": false,
-     "firma": "25cbd2abb296"
+     "tareas": [],
+     "arreglo": "Relanzá la producción para que haga uno.",
+     "solo": true,
+     "firma": "b0e58befeaaa"
     },
     {
      "id": "redes",
@@ -814,17 +805,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-03T12:36",
-     "hace": "hace 4 h",
+     "cuando": "2026-11-03T19:35",
+     "hace": "recién",
      "detalle": [
-      "01/11 19:38 en-013-searing-juices en la bandeja de TikTok",
-      "01/11 19:38 en-013-searing-juices paquete para TikTok/YouTube enviado",
       "02/11 12:36 en-016-too-cold-snow en la bandeja de TikTok",
       "02/11 12:37 en-016-too-cold-snow paquete para TikTok/YouTube enviado",
       "02/11 19:36 en-014-birthday-pairs en la bandeja de TikTok",
       "02/11 19:36 en-014-birthday-pairs paquete para TikTok/YouTube enviado",
       "03/11 12:36 en-015-rain-smell en la bandeja de TikTok",
-      "03/11 12:36 en-015-rain-smell paquete para TikTok/YouTube enviado"
+      "03/11 12:36 en-015-rain-smell paquete para TikTok/YouTube enviado",
+      "03/11 19:35 en-017-heat-head en la bandeja de TikTok",
+      "03/11 19:35 en-017-heat-head paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -850,7 +841,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:16",
-     "hace": "hace 19 h",
+     "hace": "hace 22 h",
      "detalle": [
       "01/11 18:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
@@ -885,7 +876,7 @@
      "estado": "ok",
      "resumen": "03/11: 3 seguidores",
      "cuando": "2026-11-03T03:37",
-     "hace": "hace 13 h",
+     "hace": "hace 15 h",
      "detalle": [
       "31/10: 2 seguidores",
       "01/11: 2 seguidores",
@@ -916,18 +907,18 @@
        "modo": "vigilar"
       }
      },
-     "estado": "aviso",
-     "resumen": "Quedan 1 videos listos: alcanza para 0.5 día(s).",
-     "cuando": "2026-11-03T17:14",
+     "estado": "ok",
+     "resumen": "Revisado por el técnico: Se quedó sin videos en inglés por falta de cuota de Claude, pero la cuota ya volvió y no cambié nada.",
+     "cuando": "2026-11-03T19:35",
      "hace": "recién",
      "detalle": [
-      "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s).",
+      "❗ No hay ningún video listo en la cola: el próximo turno no va a publicar.",
       "⚠️ Video apartado: en-012-thunder-count — render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Us"
      ],
      "tareas": [],
      "arreglo": null,
-     "solo": true,
-     "firma": "d68cc7d78ae0"
+     "solo": false,
+     "firma": "4033f3ff4284"
     }
    ]
   }
