@@ -517,7 +517,7 @@
  {
   "slug": "en-015-rain-smell",
   "tema": "Why does rain smell like that? petrichor (adapted from 004)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -548,6 +548,11 @@
     "estado": "listo",
     "cuando": "2026-11-02T21:12",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-03T12:35",
+    "motivo": "https://www.instagram.com/reel/DfSNxZLAQrZ/"
    }
   ]
  },

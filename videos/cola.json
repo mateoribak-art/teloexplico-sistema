@@ -199,7 +199,7 @@
  {
   "slug": "010-rayo-mismo-lugar",
   "tema": "¿Un rayo nunca cae dos veces en el mismo lugar?",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -240,6 +240,11 @@
     "estado": "listo",
     "cuando": "2026-10-30T14:06",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-03T12:32",
+    "motivo": "https://www.instagram.com/reel/DfSNhuTnfzv/"
    }
   ]
  },
