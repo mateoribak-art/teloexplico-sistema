@@ -1,0 +1,651 @@
+{
+ "duracion": 43.41,
+ "frases": [
+  {
+   "texto": "Mientras decís Cataratas del Iguazú, ya cayó una pileta olímpica.",
+   "palabras": [
+    {
+     "texto": "Mientras",
+     "inicio": 0.0,
+     "fin": 0.34
+    },
+    {
+     "texto": "decís",
+     "inicio": 0.34,
+     "fin": 0.72
+    },
+    {
+     "texto": "Cataratas",
+     "inicio": 0.72,
+     "fin": 1.62
+    },
+    {
+     "texto": "del",
+     "inicio": 1.62,
+     "fin": 1.76
+    },
+    {
+     "texto": "Iguazú,",
+     "inicio": 1.76,
+     "fin": 2.22
+    },
+    {
+     "texto": "ya",
+     "inicio": 2.54,
+     "fin": 2.86
+    },
+    {
+     "texto": "cayó",
+     "inicio": 2.86,
+     "fin": 3.08
+    },
+    {
+     "texto": "una",
+     "inicio": 3.08,
+     "fin": 3.24
+    },
+    {
+     "texto": "pileta",
+     "inicio": 3.24,
+     "fin": 3.5
+    },
+    {
+     "texto": "olímpica.",
+     "inicio": 3.5,
+     "fin": 3.9
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.9
+  },
+  {
+   "texto": "Una pileta olímpica mide cincuenta metros por veinticinco y, como mínimo, dos de profundidad: unos dos mil quinientos metros cúbicos.",
+   "palabras": [
+    {
+     "texto": "Una",
+     "inicio": 4.44,
+     "fin": 4.6
+    },
+    {
+     "texto": "pileta",
+     "inicio": 4.6,
+     "fin": 4.9
+    },
+    {
+     "texto": "olímpica",
+     "inicio": 4.9,
+     "fin": 5.28
+    },
+    {
+     "texto": "mide",
+     "inicio": 5.28,
+     "fin": 5.56
+    },
+    {
+     "texto": "cincuenta",
+     "inicio": 5.56,
+     "fin": 6.26
+    },
+    {
+     "texto": "metros",
+     "inicio": 6.26,
+     "fin": 6.5
+    },
+    {
+     "texto": "por",
+     "inicio": 6.5,
+     "fin": 6.72
+    },
+    {
+     "texto": "veinticinco",
+     "inicio": 6.72,
+     "fin": 7.3
+    },
+    {
+     "texto": "y,",
+     "inicio": 7.3,
+     "fin": 7.7
+    },
+    {
+     "texto": "como",
+     "inicio": 7.82,
+     "fin": 7.94
+    },
+    {
+     "texto": "mínimo,",
+     "inicio": 7.94,
+     "fin": 8.34
+    },
+    {
+     "texto": "dos",
+     "inicio": 8.84,
+     "fin": 8.94
+    },
+    {
+     "texto": "de",
+     "inicio": 8.94,
+     "fin": 9.06
+    },
+    {
+     "texto": "profundidad:",
+     "inicio": 9.06,
+     "fin": 9.58
+    },
+    {
+     "texto": "unos",
+     "inicio": 10.06,
+     "fin": 10.36
+    },
+    {
+     "texto": "dos",
+     "inicio": 10.36,
+     "fin": 10.72
+    },
+    {
+     "texto": "mil",
+     "inicio": 10.72,
+     "fin": 10.9
+    },
+    {
+     "texto": "quinientos",
+     "inicio": 10.9,
+     "fin": 11.3
+    },
+    {
+     "texto": "metros",
+     "inicio": 11.3,
+     "fin": 11.52
+    },
+    {
+     "texto": "cúbicos.",
+     "inicio": 11.52,
+     "fin": 11.96
+    }
+   ],
+   "inicio": 4.44,
+   "fin": 11.96
+  },
+  {
+   "texto": "Según autoridades del Parque Nacional Iguazú, el caudal normal ronda los mil quinientos metros cúbicos por segundo.",
+   "palabras": [
+    {
+     "texto": "Según",
+     "inicio": 12.48,
+     "fin": 12.88
+    },
+    {
+     "texto": "autoridades",
+     "inicio": 12.88,
+     "fin": 13.32
+    },
+    {
+     "texto": "del",
+     "inicio": 13.32,
+     "fin": 13.6
+    },
+    {
+     "texto": "Parque",
+     "inicio": 13.6,
+     "fin": 13.86
+    },
+    {
+     "texto": "Nacional",
+     "inicio": 13.86,
+     "fin": 14.14
+    },
+    {
+     "texto": "Iguazú,",
+     "inicio": 14.14,
+     "fin": 14.66
+    },
+    {
+     "texto": "el",
+     "inicio": 15.18,
+     "fin": 15.3
+    },
+    {
+     "texto": "caudal",
+     "inicio": 15.3,
+     "fin": 15.6
+    },
+    {
+     "texto": "normal",
+     "inicio": 15.6,
+     "fin": 15.9
+    },
+    {
+     "texto": "ronda",
+     "inicio": 15.9,
+     "fin": 16.36
+    },
+    {
+     "texto": "los",
+     "inicio": 16.36,
+     "fin": 16.56
+    },
+    {
+     "texto": "mil",
+     "inicio": 16.56,
+     "fin": 16.88
+    },
+    {
+     "texto": "quinientos",
+     "inicio": 16.88,
+     "fin": 17.28
+    },
+    {
+     "texto": "metros",
+     "inicio": 17.28,
+     "fin": 17.54
+    },
+    {
+     "texto": "cúbicos",
+     "inicio": 17.54,
+     "fin": 17.98
+    },
+    {
+     "texto": "por",
+     "inicio": 17.98,
+     "fin": 18.18
+    },
+    {
+     "texto": "segundo.",
+     "inicio": 18.18,
+     "fin": 18.62
+    }
+   ],
+   "inicio": 12.48,
+   "fin": 18.62
+  },
+  {
+   "texto": "Es decir: una pileta olímpica llena en unos dos segundos.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 19.18,
+     "fin": 19.32
+    },
+    {
+     "texto": "decir:",
+     "inicio": 19.32,
+     "fin": 19.54
+    },
+    {
+     "texto": "una",
+     "inicio": 20.06,
+     "fin": 20.2
+    },
+    {
+     "texto": "pileta",
+     "inicio": 20.2,
+     "fin": 20.48
+    },
+    {
+     "texto": "olímpica",
+     "inicio": 20.48,
+     "fin": 20.92
+    },
+    {
+     "texto": "llena",
+     "inicio": 20.92,
+     "fin": 21.36
+    },
+    {
+     "texto": "en",
+     "inicio": 21.36,
+     "fin": 21.56
+    },
+    {
+     "texto": "unos",
+     "inicio": 21.56,
+     "fin": 21.72
+    },
+    {
+     "texto": "dos",
+     "inicio": 21.72,
+     "fin": 22.02
+    },
+    {
+     "texto": "segundos.",
+     "inicio": 22.02,
+     "fin": 22.44
+    }
+   ],
+   "inicio": 19.18,
+   "fin": 22.44
+  },
+  {
+   "texto": "En diez segundos, unas seis piletas. En un minuto, unas treinta y seis.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 23.02,
+     "fin": 23.18
+    },
+    {
+     "texto": "diez",
+     "inicio": 23.18,
+     "fin": 23.34
+    },
+    {
+     "texto": "segundos,",
+     "inicio": 23.34,
+     "fin": 23.68
+    },
+    {
+     "texto": "unas",
+     "inicio": 23.96,
+     "fin": 24.06
+    },
+    {
+     "texto": "seis",
+     "inicio": 24.06,
+     "fin": 24.24
+    },
+    {
+     "texto": "piletas.",
+     "inicio": 24.24,
+     "fin": 24.66
+    },
+    {
+     "texto": "En",
+     "inicio": 25.26,
+     "fin": 25.4
+    },
+    {
+     "texto": "un",
+     "inicio": 25.4,
+     "fin": 25.48
+    },
+    {
+     "texto": "minuto,",
+     "inicio": 25.48,
+     "fin": 25.92
+    },
+    {
+     "texto": "unas",
+     "inicio": 26.0,
+     "fin": 26.16
+    },
+    {
+     "texto": "treinta",
+     "inicio": 26.16,
+     "fin": 26.46
+    },
+    {
+     "texto": "y",
+     "inicio": 26.46,
+     "fin": 26.52
+    },
+    {
+     "texto": "seis.",
+     "inicio": 26.52,
+     "fin": 26.68
+    }
+   ],
+   "inicio": 23.02,
+   "fin": 26.68
+  },
+  {
+   "texto": "Ojo: el caudal cambia mucho. En la bajante de dos mil veinte fue una fracción de eso, y en las crecidas pasa varias veces el normal.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 27.24,
+     "fin": 27.58
+    },
+    {
+     "texto": "el",
+     "inicio": 28.04,
+     "fin": 28.16
+    },
+    {
+     "texto": "caudal",
+     "inicio": 28.16,
+     "fin": 28.48
+    },
+    {
+     "texto": "cambia",
+     "inicio": 28.48,
+     "fin": 28.74
+    },
+    {
+     "texto": "mucho.",
+     "inicio": 28.74,
+     "fin": 28.96
+    },
+    {
+     "texto": "En",
+     "inicio": 29.5,
+     "fin": 29.64
+    },
+    {
+     "texto": "la",
+     "inicio": 29.64,
+     "fin": 29.72
+    },
+    {
+     "texto": "bajante",
+     "inicio": 29.72,
+     "fin": 30.06
+    },
+    {
+     "texto": "de",
+     "inicio": 30.06,
+     "fin": 30.18
+    },
+    {
+     "texto": "dos",
+     "inicio": 30.18,
+     "fin": 30.3
+    },
+    {
+     "texto": "mil",
+     "inicio": 30.3,
+     "fin": 30.4
+    },
+    {
+     "texto": "veinte",
+     "inicio": 30.4,
+     "fin": 30.68
+    },
+    {
+     "texto": "fue",
+     "inicio": 30.68,
+     "fin": 30.9
+    },
+    {
+     "texto": "una",
+     "inicio": 30.9,
+     "fin": 31.04
+    },
+    {
+     "texto": "fracción",
+     "inicio": 31.04,
+     "fin": 31.54
+    },
+    {
+     "texto": "de",
+     "inicio": 31.54,
+     "fin": 31.72
+    },
+    {
+     "texto": "eso,",
+     "inicio": 31.72,
+     "fin": 31.94
+    },
+    {
+     "texto": "y",
+     "inicio": 32.38,
+     "fin": 32.44
+    },
+    {
+     "texto": "en",
+     "inicio": 32.44,
+     "fin": 32.5
+    },
+    {
+     "texto": "las",
+     "inicio": 32.5,
+     "fin": 32.58
+    },
+    {
+     "texto": "crecidas",
+     "inicio": 32.58,
+     "fin": 33.02
+    },
+    {
+     "texto": "pasa",
+     "inicio": 33.02,
+     "fin": 33.54
+    },
+    {
+     "texto": "varias",
+     "inicio": 33.54,
+     "fin": 34.0
+    },
+    {
+     "texto": "veces",
+     "inicio": 34.0,
+     "fin": 34.32
+    },
+    {
+     "texto": "el",
+     "inicio": 34.32,
+     "fin": 34.52
+    },
+    {
+     "texto": "normal.",
+     "inicio": 34.52,
+     "fin": 34.72
+    }
+   ],
+   "inicio": 27.24,
+   "fin": 34.72
+  },
+  {
+   "texto": "Por eso, si vas, mirá antes cuánta agua lleva ese día.",
+   "palabras": [
+    {
+     "texto": "Por",
+     "inicio": 35.32,
+     "fin": 35.46
+    },
+    {
+     "texto": "eso,",
+     "inicio": 35.46,
+     "fin": 35.62
+    },
+    {
+     "texto": "si",
+     "inicio": 36.16,
+     "fin": 36.36
+    },
+    {
+     "texto": "vas,",
+     "inicio": 36.36,
+     "fin": 36.58
+    },
+    {
+     "texto": "mirá",
+     "inicio": 37.14,
+     "fin": 37.54
+    },
+    {
+     "texto": "antes",
+     "inicio": 37.54,
+     "fin": 37.78
+    },
+    {
+     "texto": "cuánta",
+     "inicio": 37.78,
+     "fin": 38.42
+    },
+    {
+     "texto": "agua",
+     "inicio": 38.42,
+     "fin": 38.62
+    },
+    {
+     "texto": "lleva",
+     "inicio": 38.62,
+     "fin": 38.84
+    },
+    {
+     "texto": "ese",
+     "inicio": 38.84,
+     "fin": 39.04
+    },
+    {
+     "texto": "día.",
+     "inicio": 39.04,
+     "fin": 39.28
+    }
+   ],
+   "inicio": 35.32,
+   "fin": 39.28
+  },
+  {
+   "texto": "Mandáselo al que dice que las de Brasil se ven mejor.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 40.54,
+     "fin": 40.98
+    },
+    {
+     "texto": "al",
+     "inicio": 40.98,
+     "fin": 41.06
+    },
+    {
+     "texto": "que",
+     "inicio": 41.06,
+     "fin": 41.2
+    },
+    {
+     "texto": "dice",
+     "inicio": 41.2,
+     "fin": 41.4
+    },
+    {
+     "texto": "que",
+     "inicio": 41.4,
+     "fin": 41.6
+    },
+    {
+     "texto": "las",
+     "inicio": 41.6,
+     "fin": 41.84
+    },
+    {
+     "texto": "de",
+     "inicio": 41.84,
+     "fin": 41.96
+    },
+    {
+     "texto": "Brasil",
+     "inicio": 41.96,
+     "fin": 42.38
+    },
+    {
+     "texto": "se",
+     "inicio": 42.38,
+     "fin": 42.86
+    },
+    {
+     "texto": "ven",
+     "inicio": 42.86,
+     "fin": 42.98
+    },
+    {
+     "texto": "mejor.",
+     "inicio": 42.98,
+     "fin": 43.24
+    }
+   ],
+   "inicio": 40.54,
+   "fin": 43.24
+  }
+ ]
+}

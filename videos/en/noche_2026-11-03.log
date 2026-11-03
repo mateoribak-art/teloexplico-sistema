@@ -13,3 +13,13 @@ Uso: 4 pasos · 5,602 tokens nuevos · 124,326 de caché · 730 escritos · equi
 2026-11-03 01:05 Render de en-012-thunder-count (sin Claude).
 2026-11-03 01:27 en-012-thunder-count: apartado (render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste)
 2026-11-03 01:27 Termina la producción (ok).
+2026-11-03 09:53 Arranca la producción (1 listos en la cola, meta 6).
+Terminé 1 video: retomé `en-012-thunder-count`, que había quedado a medias en `produccion`, y lo pasé a estado `render`. No hice el render ni el control: `producir.py` los hace después.
+
+- **Listo para render:** `en-012-thunder-count`, adaptado de `018-rayo-trueno`. El chequeo de datos ya estaba aprobado, con todo verificado contra el NWS/NOAA. La voz, el caption y las escenas 3D ya estaban hechos, y `tlx tsc` dio OK.
+- **Apartados por chequeo rechazado:** no había ninguno que rescatar. `en-015-rain-smell` ya se había rescatado el 2/11 y está en `render`. Su voz dura unos 53 s, algo larga.
+- **Log:** `videos/en/produccion.log` ya tenía la línea de `en-012` de hoy (línea 19), así que no agregué otra.
+Uso: 11 pasos · 23,300 tokens nuevos · 227,917 de caché · 1,281 escritos · equivale a US$ 0.13 de API
+2026-11-03 09:54 Render de en-012-thunder-count (sin Claude).
+2026-11-03 10:12 en-012-thunder-count: apartado (render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste)
+2026-11-03 10:12 Termina la producción (ok).

@@ -1,0 +1,21 @@
+{
+  "titulo": "¿Cuánta agua cae por segundo en las Cataratas del Iguazú?",
+  "serie": "argentina",
+  "receta": "Argentina en datos: una imagen grande que se entiende en 2 s (pileta olímpica llenándose bajo la catarata) con cuenta a la vista",
+  "fondo": "oscuro",
+  "destinatario": "se lo manda alguien que fue a Iguazú a su amigo que dice que las cataratas de Brasil se ven mejor, para que vea cuánta agua cae de nuestro lado",
+  "fuentes": [
+    "Autoridades del Parque Nacional Iguazú, citadas por la prensa en 2020 (El Economista, 8/4/2020): caudal normal de unos 1.500 m³/s, según la fuente entre 1.300 y 1.800",
+    "Medidas de una pileta olímpica: 50 m x 25 m x mínimo 2 m de profundidad = unos 2.500 m³ (cuenta directa, World Aquatics)"
+  ],
+  "frases": [
+    {"texto": "Mientras decís Cataratas del Iguazú, ya cayó una pileta olímpica.", "estilo": "Afirmación que sorprende, segura y cercana."},
+    {"texto": "Una pileta olímpica mide cincuenta metros por veinticinco y, como mínimo, dos de profundidad: unos dos mil quinientos metros cúbicos.", "estilo": "Explicando simple, ritmo ágil."},
+    {"texto": "Según autoridades del Parque Nacional Iguazú, el caudal normal ronda los mil quinientos metros cúbicos por segundo.", "estilo": "Dato claro, con fuente."},
+    {"texto": "Es decir: una pileta olímpica llena en unos dos segundos.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "En diez segundos, unas seis piletas. En un minuto, unas treinta y seis.", "estilo": "Curioso, creciendo."},
+    {"texto": "Ojo: el caudal cambia mucho. En la bajante de dos mil veinte fue una fracción de eso, y en las crecidas pasa varias veces el normal.", "estilo": "Matiz tranquilo."},
+    {"texto": "Por eso, si vas, mirá antes cuánta agua lleva ese día.", "estilo": "Práctico, cómplice."},
+    {"texto": "Mandáselo al que dice que las de Brasil se ven mejor.", "estilo": "Cómplice y gracioso."}
+  ]
+}

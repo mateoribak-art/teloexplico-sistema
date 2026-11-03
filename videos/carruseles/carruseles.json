@@ -113,5 +113,24 @@
     "motivo": "https://www.instagram.com/p/DfQsmHwGg9e/"
    }
   ]
+ },
+ {
+  "clave": "refresca-tormenta",
+  "estado": "listo",
+  "origen": [
+   "018-refresca-tormenta"
+  ],
+  "historial": [
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-03T09:52",
+    "motivo": "grande demasiado largo (17 > 14): \"lo trae la lluvia…\""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-03T09:53",
+    "motivo": "control OK"
+   }
+  ]
  }
 ]

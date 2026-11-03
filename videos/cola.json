@@ -989,7 +989,7 @@
  {
   "slug": "026-mediodia-hora-corrida",
   "tema": "¿A qué hora es el mediodía en Argentina? La hora corrida: el sol llega más tarde que el reloj",
-  "estado": "render",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -1025,6 +1025,11 @@
     "estado": "render",
     "cuando": "2026-11-03T03:37",
     "motivo": "reintento auto: apartado por render/control; se renderiza y controla de nuevo"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-03T09:03",
+    "motivo": "render/control: el render pasó los 50 min"
    }
   ]
  },
@@ -1078,6 +1083,33 @@
    {
     "estado": "listo",
     "cuando": "2026-11-02T20:42",
+    "motivo": "render sin Claude"
+   }
+  ]
+ },
+ {
+  "slug": "029-cataratas-por-segundo",
+  "tema": "¿Cuánta agua cae en las Cataratas del Iguazú por segundo? Una pileta olímpica en menos de dos segundos",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-03T09:05",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-03T09:05",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-03T09:15",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-03T09:51",
     "motivo": "render sin Claude"
    }
   ]

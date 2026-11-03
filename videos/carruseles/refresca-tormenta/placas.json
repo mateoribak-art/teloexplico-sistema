@@ -1,0 +1,70 @@
+{
+ "origen": ["018-refresca-tormenta"],
+ "serie": "el clima explicado",
+ "placas": [
+  {
+   "tipo": "tapa",
+   "arriba": "¿por qué refresca de golpe después de la tormenta?",
+   "grande": "la lluvia",
+   "promesa": "deslizá y guardalo",
+   "dibujo": [{"objeto": "Nube", "x": 540, "y": 1150, "s": 0.8, "tormenta": 1}]
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// el misterio",
+   "titulo": "Termina la tormenta y, de golpe, refresca",
+   "cuerpo": "No viene de ningún lado raro: el frío te lo trae la propia lluvia.",
+   "fuente": "NWS"
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// paso uno",
+   "titulo": "Adentro de la nube, las gotas se evaporan",
+   "cuerpo": "Al evaporarse le sacan calor al aire, y el aire se enfría.",
+   "fuente": "NWS Binghamton"
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// paso dos",
+   "titulo": "Ese aire frío pesa más y cae al suelo",
+   "cuerpo": "El aire frío es más denso que el de alrededor, así que baja hacia el suelo.",
+   "fuente": "NWS Binghamton"
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// paso tres",
+   "titulo": "Al llegar abajo, se desparrama",
+   "cuerpo": "El Servicio Meteorológico de EE. UU. lo compara con un vaso de agua derramado en el piso.",
+   "fuente": "NWS Binghamton"
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// en resumen",
+   "titulo": "Es, más o menos, un frente frío en miniatura",
+   "cuerpo": "Su glosario dice que tiene un efecto parecido: cambio de viento y, por lo general, baja la temperatura.",
+   "fuente": "Glosario del NWS"
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// ojo",
+   "titulo": "No siempre: a veces el aire llega caliente",
+   "cuerpo": "Muy de vez en cuando pasa. Se llama heat burst y es raro.",
+   "fuente": "NWS"
+  },
+  {
+   "tipo": "resumen",
+   "titulo": "Por qué refresca después de llover",
+   "items": [
+    [true, "Las gotas se evaporan y enfrían el aire"],
+    [true, "El aire frío pesa más y cae al suelo"],
+    [true, "Se desparrama como un vaso derramado"],
+    [false, "No viene de ningún lado raro"]
+   ]
+  },
+  {
+   "tipo": "cierre",
+   "texto": "Mandáselo a ese que dice «ya refrescó» antes de que termine de llover",
+   "serie": "el clima explicado"
+  }
+ ]
+}

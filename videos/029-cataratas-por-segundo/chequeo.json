@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segunda pasada: todas las cifras (caudal normal ~1.500 m3/s atribuido a autoridades del Parque, pileta olímpica 50x25x2 m = 2.500 m3, cuentas de 2 s / 10 s / 1 min, bajante 2020 y crecidas) están verificadas con fuente, sin afirmaciones falsas ni dudosas. El caudal normal se presenta como atribuido ('según autoridades', 'ronda') y el rango 1.300-1.800 de las fuentes queda cubierto por el 'ronda'. No hay afirmaciones de salud, seguridad ni plata. Nota menor: la profundidad mínima de 2 m surge de fuentes secundarias (Wikipedia citando World Aquatics); no se pudo abrir el reglamento primario, pero la frase dice 'como mínimo' y coincide con lo reportado.",
+  "afirmaciones": [
+    {
+      "texto": "Mientras decís 'Cataratas del Iguazú', ya cayó una pileta olímpica (≈1,7 s de caudal normal por pileta).",
+      "fuente": "Cuenta directa: 2.500 m3 / 1.500 m3/s = 1,7 s; ver caudal y pileta abajo",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Una pileta olímpica mide 50 m por 25 m y, como mínimo, 2 m de profundidad: unos 2.500 m3.",
+      "fuente": "World Aquatics (reglas de instalaciones), según resumen en https://en.wikipedia.org/wiki/Olympic-size_swimming_pool (50 m x 25 m, 2 m mínimo, 2.500.000 L nominales); 50x25x2 = 2.500 m3",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Según autoridades del Parque Nacional Iguazú, el caudal normal ronda los 1.500 m3/s.",
+      "fuente": "El Economista (abril 2020) https://eleconomista.com.ar/sociedad-redes/en-medio-pandemia-cataratas-iguazu-registran-sequia-historica-sospechan-brasil-n33114 y La Nación https://lanacion.com.ar/sociedad/triste-postal-cataratas-del-iguazu-poquisima-agua-nid2349552 (intendente del parque: 'El caudal normal es de 1500 m3/s. Hoy andamos por los 289'); otras fuentes dan 1.500-1.800",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Una pileta olímpica llena en unos dos segundos.",
+      "fuente": "Cuenta directa: 2.500 / 1.500 = 1,7 s, redondeado a 'unos dos' (con 1.300-1.800 da 1,4-1,9 s)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En diez segundos, unas seis piletas. En un minuto, unas treinta y seis.",
+      "fuente": "Cuenta directa: 15.000/2.500 = 6; 90.000/2.500 = 36",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El caudal cambia mucho; en la bajante de 2020 fue una fracción de eso.",
+      "fuente": "El Economista y La Nación (2020): 289 m3/s registrados, ~19% del normal; bajante más fuerte desde 2006 según el intendente del parque",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En las crecidas pasa varias veces el normal.",
+      "fuente": "INA, informe junio 2014 https://www.ina.gob.ar/archivos/alerta/hidro14_06_09s.pdf (orden de 30.000 m3/s en las Cataratas); Bloomberg Línea 2023 https://www.bloomberglinea.com/2023/11/01/video-donde-estan-las-cataratas-del-iguazu-en-alerta-por-su-desbordamiento/ (24,2 millones de L/s, unas 16 veces lo normal)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'citadas por la prensa en 2020' / Fuentes: El Economista (abril de 2020); medidas de pileta olímpica (World Aquatics).",
+      "fuente": "El Economista, nota de la bajante de abril 2020 (URL arriba); World Aquatics vía Wikipedia",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Por eso, si vas, mirá antes cuánta agua lleva ese día. / Mandáselo al que dice que las de Brasil se ven mejor.",
+      "fuente": "Consejo y chiste de opinión, sin afirmación fáctica verificable",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

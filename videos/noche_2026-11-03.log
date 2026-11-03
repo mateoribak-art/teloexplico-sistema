@@ -6,3 +6,19 @@ Uso: 42 pasos · 41,869 tokens nuevos · 1,133,872 de caché · 6,435 escritos �
 2026-11-03 00:11 Render de 026-mediodia-hora-corrida (sin Claude).
 2026-11-03 01:01 026-mediodia-hora-corrida: apartado (render/control: el render pasó los 50 min)
 2026-11-03 01:01 Termina la producción (ok).
+2026-11-03 08:13 Arranca la producción (7 listos en la cola, meta 10).
+2026-11-03 08:13 Render de 026-mediodia-hora-corrida (sin Claude).
+2026-11-03 09:03 026-mediodia-hora-corrida: apartado (render/control: el render pasó los 50 min)
+Paré el loop: no queda nada pendiente de mi lado.
+
+- **Listo para render:** `029-cataratas-por-segundo`. El render lo hace `producir.py` y no lo vi terminar.
+- **Apartados, sin rescate:** `026-mediodia-hora-corrida` y `013-alcohol-calor`.
+- **No hice un segundo video:** el render 3D tarda mucho y el 026 ya se apartó por pasar los 50 minutos.
+Uso: 2 pasos · 2,460 tokens nuevos · 214,468 de caché · 215 escritos · equivale a US$ 1.32 de API
+2026-11-03 09:16 Render de 029-cataratas-por-segundo (sin Claude).
+2026-11-03 09:51 029-cataratas-por-segundo: listo (render sin Claude)
+2026-11-03 09:51 Termina la producción (ok).
+2026-11-03 09:51 Arranca el carrusel (0 listos, meta 2).
+`refresca-tormenta`: quedó listo (9 placas, salen del reel 018-refresca-tormenta).
+Uso: 21 pasos · 36,256 tokens nuevos · 479,054 de caché · 4,001 escritos · equivale a US$ 0.23 de API
+2026-11-03 09:53 Termina el carrusel (ok; quedan 1 listos).
