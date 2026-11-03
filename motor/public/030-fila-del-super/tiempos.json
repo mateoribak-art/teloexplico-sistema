@@ -1,0 +1,719 @@
+{
+ "duracion": 46.06,
+ "frases": [
+  {
+   "texto": "Parece que la otra fila del súper siempre avanza más rápido. Y no es solo mala suerte.",
+   "palabras": [
+    {
+     "texto": "Parece",
+     "inicio": 0.0,
+     "fin": 0.2
+    },
+    {
+     "texto": "que",
+     "inicio": 0.2,
+     "fin": 0.44
+    },
+    {
+     "texto": "la",
+     "inicio": 0.44,
+     "fin": 0.56
+    },
+    {
+     "texto": "otra",
+     "inicio": 0.56,
+     "fin": 0.74
+    },
+    {
+     "texto": "fila",
+     "inicio": 0.74,
+     "fin": 1.1
+    },
+    {
+     "texto": "del",
+     "inicio": 1.1,
+     "fin": 1.24
+    },
+    {
+     "texto": "súper",
+     "inicio": 1.24,
+     "fin": 1.58
+    },
+    {
+     "texto": "siempre",
+     "inicio": 1.58,
+     "fin": 2.1
+    },
+    {
+     "texto": "avanza",
+     "inicio": 2.1,
+     "fin": 2.44
+    },
+    {
+     "texto": "más",
+     "inicio": 2.44,
+     "fin": 2.64
+    },
+    {
+     "texto": "rápido.",
+     "inicio": 2.64,
+     "fin": 2.96
+    },
+    {
+     "texto": "Y",
+     "inicio": 3.48,
+     "fin": 3.72
+    },
+    {
+     "texto": "no",
+     "inicio": 3.72,
+     "fin": 3.84
+    },
+    {
+     "texto": "es",
+     "inicio": 3.84,
+     "fin": 4.06
+    },
+    {
+     "texto": "solo",
+     "inicio": 4.06,
+     "fin": 4.24
+    },
+    {
+     "texto": "mala",
+     "inicio": 4.24,
+     "fin": 4.54
+    },
+    {
+     "texto": "suerte.",
+     "inicio": 4.54,
+     "fin": 4.98
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.98
+  },
+  {
+   "texto": "Si cada caja tiene su propia fila, un solo cliente lento frena a todos los que tiene atrás.",
+   "palabras": [
+    {
+     "texto": "Si",
+     "inicio": 5.56,
+     "fin": 5.76
+    },
+    {
+     "texto": "cada",
+     "inicio": 5.76,
+     "fin": 6.0
+    },
+    {
+     "texto": "caja",
+     "inicio": 6.0,
+     "fin": 6.3
+    },
+    {
+     "texto": "tiene",
+     "inicio": 6.3,
+     "fin": 6.5
+    },
+    {
+     "texto": "su",
+     "inicio": 6.5,
+     "fin": 6.7
+    },
+    {
+     "texto": "propia",
+     "inicio": 6.7,
+     "fin": 6.92
+    },
+    {
+     "texto": "fila,",
+     "inicio": 6.92,
+     "fin": 7.4
+    },
+    {
+     "texto": "un",
+     "inicio": 7.82,
+     "fin": 8.16
+    },
+    {
+     "texto": "solo",
+     "inicio": 8.16,
+     "fin": 8.44
+    },
+    {
+     "texto": "cliente",
+     "inicio": 8.44,
+     "fin": 8.86
+    },
+    {
+     "texto": "lento",
+     "inicio": 8.86,
+     "fin": 9.16
+    },
+    {
+     "texto": "frena",
+     "inicio": 9.16,
+     "fin": 9.66
+    },
+    {
+     "texto": "a",
+     "inicio": 9.66,
+     "fin": 9.9
+    },
+    {
+     "texto": "todos",
+     "inicio": 9.9,
+     "fin": 10.16
+    },
+    {
+     "texto": "los",
+     "inicio": 10.16,
+     "fin": 10.26
+    },
+    {
+     "texto": "que",
+     "inicio": 10.26,
+     "fin": 10.36
+    },
+    {
+     "texto": "tiene",
+     "inicio": 10.36,
+     "fin": 10.52
+    },
+    {
+     "texto": "atrás.",
+     "inicio": 10.52,
+     "fin": 10.74
+    }
+   ],
+   "inicio": 5.56,
+   "fin": 10.74
+  },
+  {
+   "texto": "Con una sola fila para todas las cajas, ese mismo cliente demora a uno solo. Las otras cajas siguen atendiendo.",
+   "palabras": [
+    {
+     "texto": "Con",
+     "inicio": 11.22,
+     "fin": 11.44
+    },
+    {
+     "texto": "una",
+     "inicio": 11.44,
+     "fin": 11.66
+    },
+    {
+     "texto": "sola",
+     "inicio": 11.66,
+     "fin": 11.86
+    },
+    {
+     "texto": "fila",
+     "inicio": 11.86,
+     "fin": 12.26
+    },
+    {
+     "texto": "para",
+     "inicio": 12.26,
+     "fin": 12.44
+    },
+    {
+     "texto": "todas",
+     "inicio": 12.44,
+     "fin": 12.82
+    },
+    {
+     "texto": "las",
+     "inicio": 12.82,
+     "fin": 12.94
+    },
+    {
+     "texto": "cajas,",
+     "inicio": 12.94,
+     "fin": 13.34
+    },
+    {
+     "texto": "ese",
+     "inicio": 13.76,
+     "fin": 14.04
+    },
+    {
+     "texto": "mismo",
+     "inicio": 14.04,
+     "fin": 14.38
+    },
+    {
+     "texto": "cliente",
+     "inicio": 14.38,
+     "fin": 15.16
+    },
+    {
+     "texto": "demora",
+     "inicio": 15.16,
+     "fin": 15.64
+    },
+    {
+     "texto": "a",
+     "inicio": 15.64,
+     "fin": 15.94
+    },
+    {
+     "texto": "uno",
+     "inicio": 15.94,
+     "fin": 16.06
+    },
+    {
+     "texto": "solo.",
+     "inicio": 16.06,
+     "fin": 16.34
+    },
+    {
+     "texto": "Las",
+     "inicio": 16.86,
+     "fin": 17.02
+    },
+    {
+     "texto": "otras",
+     "inicio": 17.02,
+     "fin": 17.18
+    },
+    {
+     "texto": "cajas",
+     "inicio": 17.18,
+     "fin": 17.6
+    },
+    {
+     "texto": "siguen",
+     "inicio": 17.6,
+     "fin": 17.92
+    },
+    {
+     "texto": "atendiendo.",
+     "inicio": 17.92,
+     "fin": 18.36
+    }
+   ],
+   "inicio": 11.22,
+   "fin": 18.36
+  },
+  {
+   "texto": "La teoría de colas, que arranca en mil novecientos nueve con el ingeniero danés Agner Erlang, lo muestra: con las mismas cajas y la misma gente, una fila única da una espera media menor o igual.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 18.86,
+     "fin": 19.1
+    },
+    {
+     "texto": "teoría",
+     "inicio": 19.1,
+     "fin": 19.46
+    },
+    {
+     "texto": "de",
+     "inicio": 19.46,
+     "fin": 19.66
+    },
+    {
+     "texto": "colas,",
+     "inicio": 19.66,
+     "fin": 20.16
+    },
+    {
+     "texto": "que",
+     "inicio": 20.28,
+     "fin": 20.56
+    },
+    {
+     "texto": "arranca",
+     "inicio": 20.56,
+     "fin": 20.92
+    },
+    {
+     "texto": "en",
+     "inicio": 20.92,
+     "fin": 21.04
+    },
+    {
+     "texto": "mil",
+     "inicio": 21.04,
+     "fin": 21.14
+    },
+    {
+     "texto": "novecientos",
+     "inicio": 21.14,
+     "fin": 21.7
+    },
+    {
+     "texto": "nueve",
+     "inicio": 21.7,
+     "fin": 21.98
+    },
+    {
+     "texto": "con",
+     "inicio": 21.98,
+     "fin": 22.14
+    },
+    {
+     "texto": "el",
+     "inicio": 22.14,
+     "fin": 22.26
+    },
+    {
+     "texto": "ingeniero",
+     "inicio": 22.26,
+     "fin": 22.66
+    },
+    {
+     "texto": "danés",
+     "inicio": 22.66,
+     "fin": 23.06
+    },
+    {
+     "texto": "Agner",
+     "inicio": 23.06,
+     "fin": 23.52
+    },
+    {
+     "texto": "Erlang,",
+     "inicio": 23.52,
+     "fin": 24.04
+    },
+    {
+     "texto": "lo",
+     "inicio": 24.48,
+     "fin": 24.6
+    },
+    {
+     "texto": "muestra:",
+     "inicio": 24.6,
+     "fin": 24.9
+    },
+    {
+     "texto": "con",
+     "inicio": 24.9,
+     "fin": 25.54
+    },
+    {
+     "texto": "las",
+     "inicio": 25.54,
+     "fin": 25.72
+    },
+    {
+     "texto": "mismas",
+     "inicio": 25.72,
+     "fin": 26.14
+    },
+    {
+     "texto": "cajas",
+     "inicio": 26.14,
+     "fin": 26.62
+    },
+    {
+     "texto": "y",
+     "inicio": 26.62,
+     "fin": 26.86
+    },
+    {
+     "texto": "la",
+     "inicio": 26.86,
+     "fin": 26.96
+    },
+    {
+     "texto": "misma",
+     "inicio": 26.96,
+     "fin": 27.2
+    },
+    {
+     "texto": "gente,",
+     "inicio": 27.2,
+     "fin": 27.6
+    },
+    {
+     "texto": "una",
+     "inicio": 28.14,
+     "fin": 28.3
+    },
+    {
+     "texto": "fila",
+     "inicio": 28.3,
+     "fin": 28.56
+    },
+    {
+     "texto": "única",
+     "inicio": 28.56,
+     "fin": 28.9
+    },
+    {
+     "texto": "da",
+     "inicio": 28.9,
+     "fin": 29.28
+    },
+    {
+     "texto": "una",
+     "inicio": 29.28,
+     "fin": 29.44
+    },
+    {
+     "texto": "espera",
+     "inicio": 29.44,
+     "fin": 29.66
+    },
+    {
+     "texto": "media",
+     "inicio": 29.66,
+     "fin": 30.1
+    },
+    {
+     "texto": "menor",
+     "inicio": 30.1,
+     "fin": 30.62
+    },
+    {
+     "texto": "o",
+     "inicio": 30.62,
+     "fin": 30.88
+    },
+    {
+     "texto": "igual.",
+     "inicio": 30.88,
+     "fin": 31.18
+    }
+   ],
+   "inicio": 18.86,
+   "fin": 31.18
+  },
+  {
+   "texto": "Y probablemente también influye la cabeza: mirás cuando la otra fila avanza y te olvidás de cuando se frena.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 31.74,
+     "fin": 31.8
+    },
+    {
+     "texto": "probablemente",
+     "inicio": 31.8,
+     "fin": 32.38
+    },
+    {
+     "texto": "también",
+     "inicio": 32.38,
+     "fin": 32.58
+    },
+    {
+     "texto": "influye",
+     "inicio": 32.58,
+     "fin": 33.02
+    },
+    {
+     "texto": "la",
+     "inicio": 33.02,
+     "fin": 33.14
+    },
+    {
+     "texto": "cabeza:",
+     "inicio": 33.14,
+     "fin": 33.5
+    },
+    {
+     "texto": "mirás",
+     "inicio": 34.08,
+     "fin": 34.4
+    },
+    {
+     "texto": "cuando",
+     "inicio": 34.4,
+     "fin": 34.54
+    },
+    {
+     "texto": "la",
+     "inicio": 34.54,
+     "fin": 34.78
+    },
+    {
+     "texto": "otra",
+     "inicio": 34.78,
+     "fin": 34.96
+    },
+    {
+     "texto": "fila",
+     "inicio": 34.96,
+     "fin": 35.28
+    },
+    {
+     "texto": "avanza",
+     "inicio": 35.28,
+     "fin": 35.72
+    },
+    {
+     "texto": "y",
+     "inicio": 35.72,
+     "fin": 36.34
+    },
+    {
+     "texto": "te",
+     "inicio": 36.34,
+     "fin": 36.44
+    },
+    {
+     "texto": "olvidás",
+     "inicio": 36.44,
+     "fin": 36.96
+    },
+    {
+     "texto": "de",
+     "inicio": 36.96,
+     "fin": 37.12
+    },
+    {
+     "texto": "cuando",
+     "inicio": 37.12,
+     "fin": 37.26
+    },
+    {
+     "texto": "se",
+     "inicio": 37.26,
+     "fin": 37.48
+    },
+    {
+     "texto": "frena.",
+     "inicio": 37.48,
+     "fin": 37.78
+    }
+   ],
+   "inicio": 31.74,
+   "fin": 37.78
+  },
+  {
+   "texto": "Ojo: es sobre el promedio. Con mala racha, igual te puede tocar la lenta.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 38.24,
+     "fin": 38.56
+    },
+    {
+     "texto": "es",
+     "inicio": 39.02,
+     "fin": 39.16
+    },
+    {
+     "texto": "sobre",
+     "inicio": 39.16,
+     "fin": 39.44
+    },
+    {
+     "texto": "el",
+     "inicio": 39.44,
+     "fin": 39.6
+    },
+    {
+     "texto": "promedio.",
+     "inicio": 39.6,
+     "fin": 40.12
+    },
+    {
+     "texto": "Con",
+     "inicio": 40.62,
+     "fin": 40.74
+    },
+    {
+     "texto": "mala",
+     "inicio": 40.74,
+     "fin": 40.92
+    },
+    {
+     "texto": "racha,",
+     "inicio": 40.92,
+     "fin": 41.32
+    },
+    {
+     "texto": "igual",
+     "inicio": 41.32,
+     "fin": 41.82
+    },
+    {
+     "texto": "te",
+     "inicio": 41.82,
+     "fin": 42.08
+    },
+    {
+     "texto": "puede",
+     "inicio": 42.08,
+     "fin": 42.26
+    },
+    {
+     "texto": "tocar",
+     "inicio": 42.26,
+     "fin": 42.46
+    },
+    {
+     "texto": "la",
+     "inicio": 42.46,
+     "fin": 42.64
+    },
+    {
+     "texto": "lenta.",
+     "inicio": 42.64,
+     "fin": 42.92
+    }
+   ],
+   "inicio": 38.24,
+   "fin": 42.92
+  },
+  {
+   "texto": "Mandáselo al que se cambia de fila tres veces.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 43.5,
+     "fin": 44.08
+    },
+    {
+     "texto": "al",
+     "inicio": 44.08,
+     "fin": 44.14
+    },
+    {
+     "texto": "que",
+     "inicio": 44.14,
+     "fin": 44.26
+    },
+    {
+     "texto": "se",
+     "inicio": 44.26,
+     "fin": 44.4
+    },
+    {
+     "texto": "cambia",
+     "inicio": 44.4,
+     "fin": 44.7
+    },
+    {
+     "texto": "de",
+     "inicio": 44.7,
+     "fin": 44.82
+    },
+    {
+     "texto": "fila",
+     "inicio": 44.82,
+     "fin": 45.14
+    },
+    {
+     "texto": "tres",
+     "inicio": 45.14,
+     "fin": 45.54
+    },
+    {
+     "texto": "veces.",
+     "inicio": 45.54,
+     "fin": 45.94
+    }
+   ],
+   "inicio": 43.5,
+   "fin": 45.94
+  }
+ ]
+}

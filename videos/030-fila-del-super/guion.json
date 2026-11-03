@@ -13,10 +13,9 @@
     {"texto": "Parece que la otra fila del súper siempre avanza más rápido. Y no es solo mala suerte.", "estilo": "Afirmación cómplice, segura."},
     {"texto": "Si cada caja tiene su propia fila, un solo cliente lento frena a todos los que tiene atrás.", "estilo": "Explicando simple, ritmo ágil."},
     {"texto": "Con una sola fila para todas las cajas, ese mismo cliente demora a uno solo. Las otras cajas siguen atendiendo.", "estilo": "Seco, mostrando la diferencia."},
-    {"texto": "La teoría de colas, que arranca con un trabajo de mil novecientos nueve del ingeniero danés Agner Erlang sobre llamadas en Copenhague, lo muestra: con las mismas cajas y la misma gente, una fila única da una espera media menor o igual.", "estilo": "Dato claro, con fuente."},
+    {"texto": "La teoría de colas, que arranca en mil novecientos nueve con el ingeniero danés Agner Erlang, lo muestra: con las mismas cajas y la misma gente, una fila única da una espera media menor o igual.", "estilo": "Dato claro, con fuente."},
     {"texto": "Y probablemente también influye la cabeza: mirás cuando la otra fila avanza y te olvidás de cuando se frena.", "estilo": "Cómplice, con media sonrisa."},
     {"texto": "Ojo: es sobre el promedio. Con mala racha, igual te puede tocar la lenta.", "estilo": "Matiz tranquilo."},
-    {"texto": "Así que la próxima vez que veas que la otra fila avanza, acordate: te acordás de las que avanzan, no de las que se frenan.", "estilo": "Cómplice, con media sonrisa."},
     {"texto": "Mandáselo al que se cambia de fila tres veces.", "estilo": "Cómplice y gracioso."}
   ]
 }

@@ -30,3 +30,11 @@ Uso: 24 pasos · 25,193 tokens nuevos · 1,269,469 de caché · 11,373 escritos 
 2026-11-03 14:25 Render de 031-murcielago-ciego (sin Claude).
 2026-11-03 14:33 031-murcielago-ciego: listo (render sin Claude)
 2026-11-03 14:33 Termina la producción (ok).
+2026-11-03 15:33 Arranca la producción (8 listos en la cola, meta 10).
+- **Listo para render:** `030-fila-del-super`, serie Matemática cotidiana #3, pasado a estado `render`. El guion y el caption tienen el chequeo aprobado; la voz quedó en 46,1 s (133 palabras de 133) y `tlx tsc` dio sin errores. Revisé las escenas en dos vueltas de cuadros. El render, la portada y el control los corre `producir.py` después.
+- **Rescate:** el log lo daba por apartado, pero el `chequeo.json` ya estaba aprobado en una tercera pasada. Recorté el guion de 164 a 133 palabras, sacando solo texto, y regeneré la voz. El primer intento reusó el audio viejo porque faltaba `--regenerar`, así que gasté dos pedidos de Gemini; la cuota no se agotó. No volví a correr el chequeo con el guion recortado, y el caption conserva "sobre llamadas en Copenhague", dato ya verificado.
+- **Sin segundo video:** había 9 listos, así que correspondía producir otro, pero el render 3D es lento y el turno se fue en este rescate. `013-alcohol-calor` sigue apartado (falló dos chequeos) y `005-granizo-calor` ya está reemplazado por `024`. `026-mediodia-hora-corrida` figura apartado en la cola, aunque el log de hoy lo marca en render.
+Uso: 51 pasos · 71,967 tokens nuevos · 1,427,252 de caché · 15,077 escritos · equivale a US$ 0.58 de API
+2026-11-03 15:39 Render de 030-fila-del-super (sin Claude).
+2026-11-03 15:48 030-fila-del-super: listo (render sin Claude)
+2026-11-03 15:48 Termina la producción (ok).
