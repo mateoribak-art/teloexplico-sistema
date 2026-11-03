@@ -324,5 +324,25 @@
    "videos/en/cola.json",
    "videos/en/en-012-thunder-count/guion.json"
   ]
+ },
+ {
+  "id": "11031529-es-chequeo",
+  "creado": "2026-11-03T15:29",
+  "empleado": "es/chequeo",
+  "firma": "e9f9ff21891f",
+  "estado": "pedido",
+  "auto": true,
+  "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Bea (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): 030-fila-del-super.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\n030-fila-del-super: chequeo rechazado 2 veces: consejo del carrito lleno sin respaldo (las fuentes dicen que contar personas pesa igual o más)\nRegistro:\n024-granizo-corto: aprobado — Se verificaron con búsqueda web todas las afirmaciones fácticas del guion (9 frases) y del caption. Ninguna es falsa ni dudosa. Las cifras l\n025-noquis-del-29: aprobado — Revisado el texto actual contra las tres fuentes citadas, consultadas en esta pasada. No hay afirmaciones falsas ni cifras. Lo no confirmado\n026-mediodia-hora-corrida: aprobado — Tercera pasada (técnico): se quitaron del caption y del guion las atribuciones no verificables (Instituto Geográfico Nacional, Servicio de H\n027-bondi-de-brasil: aprobado — Segundo chequeo. Se sacó la cifra 1883 y 'bond = bono', y lo que quedó está respaldado y matizado. La entrada DHLE (https://www.rae.es/dhle/\n028-yerba-por-ano: aprobado — Segundo chequeo con búsqueda web. Las dos cifras del guion y del caption coinciden con sus fuentes: Informe Yerba Mate de la Secretaría de A\n029-cataratas-por-segundo: aprobado — Segunda pasada: todas las cifras (caudal normal ~1.500 m3/s atribuido a autoridades del Parque, pileta olímpica 50x25x2 m = 2.500 m3, cuenta\n030-fila-del-super: rechazado — La frase 7 d",
+  "actualizado": "2026-11-03T15:29"
+ },
+ {
+  "id": "11031529-es-animador",
+  "creado": "2026-11-03T15:29",
+  "empleado": "es/animador",
+  "firma": "c946a3ccbe11",
+  "estado": "pedido",
+  "auto": true,
+  "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Juli (Animación y render) está en \"falla\": Falló el render de 026-mediodia-hora-corrida.\nLo que sugiere la oficina: Relanzá la producción: los videos en estado render se vuelven a renderizar solos.\nTareas:\n026-mediodia-hora-corrida: render/control: el render pasó los 50 min\n",
+  "actualizado": "2026-11-03T15:29"
  }
 ]
