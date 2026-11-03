@@ -307,5 +307,15 @@
    "videos/026-mediodia-hora-corrida/guion.json",
    "videos/cola.json"
   ]
+ },
+ {
+  "id": "11030337-en-voz",
+  "creado": "2026-11-03T03:37",
+  "empleado": "en/voz",
+  "firma": "953dc1971713",
+  "estado": "pedido",
+  "auto": true,
+  "problema": "En la oficina de Nueva York (@letmeexplain.us), Leo (Locutor) está en \"aviso\": La voz no coincidió con el guion en en-012-thunder-count.\nLo que sugiere la oficina: Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.\nTareas:\nen-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go \n",
+  "actualizado": "2026-11-03T03:37"
  }
 ]
