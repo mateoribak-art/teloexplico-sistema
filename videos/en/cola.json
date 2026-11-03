@@ -619,5 +619,32 @@
     "motivo": "https://www.instagram.com/reel/DfS9ytKCBNs/"
    }
   ]
+ },
+ {
+  "slug": "en-018-storm-cooldown",
+  "tema": "Why does it cool off suddenly after a storm? (adapted from 018-refresca-tormenta)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-03T19:18",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-03T19:18",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-03T19:22",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-03T19:51",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

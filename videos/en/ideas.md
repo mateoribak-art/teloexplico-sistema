@@ -18,7 +18,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [ ] 008-aire-en-17 · Cranking the thermostat to 60 °F doesn't cool faster (DOE; en °F) — serie: casa
 - [usada → en-012-thunder-count] 018-rayo-trueno · How far away is the storm? Count seconds: 5 seconds ≈ 1 mile (NWS; "when thunder roars, go indoors") — serie: clima
 - [ ] 019-sensacion-termica · Why "feels like" is higher than the temperature: heat index (NWS; en °F). En invierno el ángulo es el wind chill — serie: clima
-- [ ] 018-refresca-tormenta · Why it cools down suddenly after a storm (downdraft) — serie: clima
+- [usada → en-018-storm-cooldown] 018-refresca-tormenta · Why it cools down suddenly after a storm (downdraft) — serie: clima
 - [usada → en-015-rain-smell (rescatado: "some people can pick up geosmin at as little as five ppt")] 004-olor-a-lluvia · Why rain smells like that (petrichor, geosmin) — serie: ciencia
 - [intentada → en-014-birthday-pairs, apartado: solo atribución de fuentes (citar solo Wikipedia "Birthday problem" para 23/40/70 y el efecto no uniforme); cifras verificadas] 017-paradoja-cumpleanos · How many people for two to share a birthday? (23 → 50 %) — serie: mate
 - [ ] 016-el-nino-clima · El Niño / La Niña: what it means for your winter in the U.S. (NOAA CPC: verificar el estado ENSO ACTUAL) — serie: clima

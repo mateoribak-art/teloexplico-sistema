@@ -1,0 +1,21 @@
+{
+ "titulo": "Why does it cool off suddenly after a storm?",
+ "destinatario": "se lo manda alguien a su amigo que sale al patio apenas para la lluvia y dice 'finally, it cooled off'",
+ "fondo": "oscuro",
+ "receta": "el que lo hace/dice mal",
+ "fuentes": [
+  "National Weather Service (NWS), Binghamton: 'Weather in Action: Downburst' (air cooled by evaporating raindrops sinks and spreads out in all directions, like a glass of water spilled on pavement)",
+  "NWS glossary: outflow boundary (similar in effect to a cold front, usually a drop in temperature)",
+  "NWS pages on heat bursts (rare cases where the sinking air arrives hot)"
+ ],
+ "frases": [
+  {"texto": "The storm ends and, all of a sudden, it's cooler. Where did that chill come from?", "estilo": "Curious, a little teasing."},
+  {"texto": "It didn't come from anywhere strange. The rain brought it.", "estilo": "Dry and punchy, with a half smile."},
+  {"texto": "Inside the cloud, raindrops evaporate, and evaporating pulls heat out of the air.", "estilo": "Brisk, explaining simply."},
+  {"texto": "That cooled air is heavier than the air around it, so it sinks toward the ground.", "estilo": "Brisk, explaining simply."},
+  {"texto": "The National Weather Service compares it to a glass of water spilled on pavement: when it hits the ground, it spreads out in every direction.", "estilo": "Energetic, vivid."},
+  {"texto": "So it's, more or less, a cold front in miniature.", "estilo": "Dry and punchy, with a half smile."},
+  {"texto": "Heads up: not always. Every once in a while, the air coming down arrives hot.", "estilo": "Calm, with a little humor."},
+  {"texto": "Send this to the friend who steps outside and says, finally, it cooled off.", "estilo": "Playful, conspiratorial."}
+ ]
+}

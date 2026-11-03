@@ -76,6 +76,10 @@
     "en-017-heat-head": [
       "cuerpo",
       2
+    ],
+    "en-018-storm-cooldown": [
+      "clima",
+      4
     ]
   }
 }

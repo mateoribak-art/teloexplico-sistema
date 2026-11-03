@@ -293,7 +293,7 @@
  {
   "slug": "013-alcohol-calor",
   "tema": "Tomar alcohol da calor: es al revés, el cuerpo pierde temperatura",
-  "estado": "apartado",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -304,6 +304,21 @@
     "estado": "apartado",
     "cuando": "2026-10-25T15:38",
     "motivo": "Chequeo rechazado 2 veces: mecanismo de pérdida de calor solo probable en tema de salud (evidencia mixta)"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-03T19:02",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-03T19:07",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-03T19:17",
+    "motivo": "render sin Claude"
    }
   ]
  },
@@ -999,7 +1014,7 @@
  {
   "slug": "026-mediodia-hora-corrida",
   "tema": "¿A qué hora es el mediodía en Argentina? La hora corrida: el sol llega más tarde que el reloj",
-  "estado": "render",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -1045,6 +1060,11 @@
     "estado": "render",
     "cuando": "2026-11-03T15:32",
     "motivo": "rehacer: tope de render subido a 90 min"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-03T19:01",
+    "motivo": "render sin Claude"
    }
   ]
  },

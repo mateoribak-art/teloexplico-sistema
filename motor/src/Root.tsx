@@ -37,6 +37,7 @@ import { DURACION as DUR_028, FPS as FPS_028, YerbaPorAno3D, Portada028 } from "
 import { DURACION as DUR_029, FPS as FPS_029, CataratasPorSegundo3D, Portada029 } from "./videos/029-cataratas-por-segundo/Video";
 import { DURACION as DUR_030, FPS as FPS_030, FilaDelSuper3D, Portada030 } from "./videos/030-fila-del-super/Video";
 import { DURACION as DUR_031, FPS as FPS_031, MurcielagoCiego3D, Portada031 } from "./videos/031-murcielago-ciego/Video";
+import { DURACION as DUR_013, FPS as FPS_013, AlcoholCalor3D, Portada013 } from "./videos/013-alcohol-calor/Video";
 import { DURACION as DUR_023, FPS as FPS_023, PerrosColores023, Portada023 } from "./videos/023-perros-colores/Video";
 import { DURACION as DUR_024, FPS as FPS_024, GranizoCorto024, Portada024 } from "./videos/024-granizo-corto/Video";
 import { DURACION as DUR_011, FPS as FPS_011, SalAgua011, Portada011 } from "./videos/011-sal-agua-hierve/Video";
@@ -57,6 +58,7 @@ import { DURACION as DUR_EN014, FPS as FPS_EN014, BirthdayPairsEn014, PortadaEn0
 import { DURACION as DUR_EN015, FPS as FPS_EN015, RainSmellEn015, PortadaEn015 } from "./videos/en-015-rain-smell/Video";
 import { DURACION as DUR_EN016, FPS as FPS_EN016, TooColdSnowEn016, PortadaEn016 } from "./videos/en-016-too-cold-snow/Video";
 import { DURACION as DUR_EN017, FPS as FPS_EN017, HeatHeadEn017, PortadaEn017 } from "./videos/en-017-heat-head/Video";
+import { DURACION as DUR_EN018, FPS as FPS_EN018, StormCooldownEn018, PortadaEn018 } from "./videos/en-018-storm-cooldown/Video";
 import { DURACION as DUR_EN001,FPS as FPS_EN001, PhoneRiceEn001, PortadaEn001 } from "./videos/en-001-phone-rice/Video";
 
 // Cada video nuevo suma su <Composition> (id "hNNN-slug") y su <Still> de portada (id "pNNN-slug").
@@ -91,6 +93,7 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="h029-cataratas-por-segundo" component={CataratasPorSegundo3D} durationInFrames={DUR_029} fps={FPS_029} width={ANCHO} height={ALTO} />
         <Composition id="h030-fila-del-super" component={FilaDelSuper3D} durationInFrames={DUR_030} fps={FPS_030} width={ANCHO} height={ALTO} />
         <Composition id="h031-murcielago-ciego" component={MurcielagoCiego3D} durationInFrames={DUR_031} fps={FPS_031} width={ANCHO} height={ALTO} />
+        <Composition id="h013-alcohol-calor" component={AlcoholCalor3D} durationInFrames={DUR_013} fps={FPS_013} width={ANCHO} height={ALTO} />
         <Composition id="h026-mediodia-hora-corrida" component={MediodiaHoraCorrida3D} durationInFrames={DUR_026} fps={FPS_026} width={ANCHO} height={ALTO} />
         <Composition id="demo-hora-corrida" component={HoraCorrida3D} durationInFrames={DUR_DEMO_HORA} fps={FPS_DEMO_HORA} width={ANCHO} height={ALTO} />
         <Composition id="h023-perros-colores" component={PerrosColores023} durationInFrames={DUR_023} fps={FPS_023} width={ANCHO} height={ALTO} />
@@ -132,6 +135,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-016-too-cold-snow" component={PortadaEn016} width={ANCHO} height={ALTO} />
         <Composition id="hen-017-heat-head" component={HeatHeadEn017} durationInFrames={DUR_EN017} fps={FPS_EN017} width={ANCHO} height={ALTO} />
         <Still id="pen-017-heat-head" component={PortadaEn017} width={ANCHO} height={ALTO} />
+        <Composition id="hen-018-storm-cooldown" component={StormCooldownEn018} durationInFrames={DUR_EN018} fps={FPS_EN018} width={ANCHO} height={ALTO} />
+        <Still id="pen-018-storm-cooldown" component={PortadaEn018} width={ANCHO} height={ALTO} />
       </Folder>
       <Folder name="carruseles">
         <Still id="carrusel" component={CarruselPlaca} width={ANCHO_C} height={ALTO_C} defaultProps={{ datos: { origen: [], placas: [{ tipo: "cierre", texto: "placa de prueba" }] }, i: 0 }} />
@@ -162,6 +167,7 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p029-cataratas-por-segundo" component={Portada029} width={ANCHO} height={ALTO} />
         <Still id="p030-fila-del-super" component={Portada030} width={ANCHO} height={ALTO} />
         <Still id="p031-murcielago-ciego" component={Portada031} width={ANCHO} height={ALTO} />
+        <Still id="p013-alcohol-calor" component={Portada013} width={ANCHO} height={ALTO} />
         <Still id="p026-mediodia-hora-corrida" component={Portada026} width={ANCHO} height={ALTO} />
         <Still id="p010-rayo-mismo-lugar" component={Portada010} width={ANCHO} height={ALTO} />
         <Still id="p023-perros-colores" component={Portada023} width={ANCHO} height={ALTO} />

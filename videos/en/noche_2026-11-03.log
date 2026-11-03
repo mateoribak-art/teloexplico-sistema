@@ -31,3 +31,11 @@ Uso: 2 pasos · 2,496 tokens nuevos · 227,610 de caché · 284 escritos · equi
 2026-11-03 14:42 Render de en-017-heat-head (sin Claude).
 2026-11-03 14:52 en-017-heat-head: listo (render sin Claude)
 2026-11-03 14:52 Termina la producción (ok).
+2026-11-03 19:17 Arranca la producción (1 listos en la cola, meta 6).
+- **Listo para render:** `en-018-storm-cooldown` (adaptado de 018-refresca-tormenta, serie clima, 3D). El chequeo aprobó a la primera, todo verificado con NWS. La voz salió 119/119 palabras, 42 s. `tsc` y los cuadros están bien. Quedó en estado `render` y lo renderiza `producir.py`.
+- **Apartados:** no rescaté ninguno, porque el único apartado, `en-012-thunder-count`, no fue un "chequeo rechazado". Su chequeo está aprobado, así que no le apliqué la regla de rescate.
+- **Descartado:** el ventilador (009) repetía lo que ya cubre `en-009-ceiling-fan`.
+Uso: 12 pasos · 7,825 tokens nuevos · 621,224 de caché · 1,579 escritos · equivale a US$ 0.71 de API
+2026-11-03 19:22 Render de en-018-storm-cooldown (sin Claude).
+2026-11-03 19:51 en-018-storm-cooldown: listo (render sin Claude)
+2026-11-03 19:51 Termina la producción (ok).

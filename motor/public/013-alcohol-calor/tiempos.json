@@ -1,0 +1,526 @@
+{
+ "duracion": 35.0,
+ "frases": [
+  {
+   "texto": "¿Un traguito para entrar en calor?",
+   "palabras": [
+    {
+     "texto": "¿Un",
+     "inicio": 0.0,
+     "fin": 0.16
+    },
+    {
+     "texto": "traguito",
+     "inicio": 0.16,
+     "fin": 0.62
+    },
+    {
+     "texto": "para",
+     "inicio": 0.62,
+     "fin": 1.26
+    },
+    {
+     "texto": "entrar",
+     "inicio": 1.26,
+     "fin": 1.5
+    },
+    {
+     "texto": "en",
+     "inicio": 1.5,
+     "fin": 1.66
+    },
+    {
+     "texto": "calor?",
+     "inicio": 1.66,
+     "fin": 1.88
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 1.88
+  },
+  {
+   "texto": "Es una sensación. Por dentro, no te calienta.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 2.92,
+     "fin": 3.5
+    },
+    {
+     "texto": "una",
+     "inicio": 3.5,
+     "fin": 3.66
+    },
+    {
+     "texto": "sensación.",
+     "inicio": 3.66,
+     "fin": 4.28
+    },
+    {
+     "texto": "Por",
+     "inicio": 4.78,
+     "fin": 4.98
+    },
+    {
+     "texto": "dentro,",
+     "inicio": 4.98,
+     "fin": 5.28
+    },
+    {
+     "texto": "no",
+     "inicio": 5.68,
+     "fin": 5.9
+    },
+    {
+     "texto": "te",
+     "inicio": 5.9,
+     "fin": 6.0
+    },
+    {
+     "texto": "calienta.",
+     "inicio": 6.0,
+     "fin": 6.52
+    }
+   ],
+   "inicio": 2.92,
+   "fin": 6.52
+  },
+  {
+   "texto": "El alcohol dilata los vasos de la piel, y la sangre tibia sube hasta la superficie.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 6.96,
+     "fin": 7.1
+    },
+    {
+     "texto": "alcohol",
+     "inicio": 7.1,
+     "fin": 7.4
+    },
+    {
+     "texto": "dilata",
+     "inicio": 7.4,
+     "fin": 7.98
+    },
+    {
+     "texto": "los",
+     "inicio": 7.98,
+     "fin": 8.16
+    },
+    {
+     "texto": "vasos",
+     "inicio": 8.16,
+     "fin": 8.42
+    },
+    {
+     "texto": "de",
+     "inicio": 8.42,
+     "fin": 8.56
+    },
+    {
+     "texto": "la",
+     "inicio": 8.56,
+     "fin": 8.64
+    },
+    {
+     "texto": "piel,",
+     "inicio": 8.64,
+     "fin": 8.88
+    },
+    {
+     "texto": "y",
+     "inicio": 9.24,
+     "fin": 9.52
+    },
+    {
+     "texto": "la",
+     "inicio": 9.52,
+     "fin": 9.66
+    },
+    {
+     "texto": "sangre",
+     "inicio": 9.66,
+     "fin": 9.92
+    },
+    {
+     "texto": "tibia",
+     "inicio": 9.92,
+     "fin": 10.38
+    },
+    {
+     "texto": "sube",
+     "inicio": 10.38,
+     "fin": 10.94
+    },
+    {
+     "texto": "hasta",
+     "inicio": 10.94,
+     "fin": 11.06
+    },
+    {
+     "texto": "la",
+     "inicio": 11.06,
+     "fin": 11.2
+    },
+    {
+     "texto": "superficie.",
+     "inicio": 11.2,
+     "fin": 11.84
+    }
+   ],
+   "inicio": 6.96,
+   "fin": 11.84
+  },
+  {
+   "texto": "Por eso te ponés colorado y sentís calor.",
+   "palabras": [
+    {
+     "texto": "Por",
+     "inicio": 12.3,
+     "fin": 12.44
+    },
+    {
+     "texto": "eso",
+     "inicio": 12.44,
+     "fin": 12.62
+    },
+    {
+     "texto": "te",
+     "inicio": 12.62,
+     "fin": 12.78
+    },
+    {
+     "texto": "ponés",
+     "inicio": 12.78,
+     "fin": 13.0
+    },
+    {
+     "texto": "colorado",
+     "inicio": 13.0,
+     "fin": 13.56
+    },
+    {
+     "texto": "y",
+     "inicio": 13.56,
+     "fin": 13.76
+    },
+    {
+     "texto": "sentís",
+     "inicio": 13.76,
+     "fin": 14.1
+    },
+    {
+     "texto": "calor.",
+     "inicio": 14.1,
+     "fin": 14.32
+    }
+   ],
+   "inicio": 12.3,
+   "fin": 14.32
+  },
+  {
+   "texto": "El Ministerio de Sanidad de España lo explica así: la sensación de calor es momentánea, y después la temperatura interior baja.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 14.88,
+     "fin": 15.02
+    },
+    {
+     "texto": "Ministerio",
+     "inicio": 15.02,
+     "fin": 15.5
+    },
+    {
+     "texto": "de",
+     "inicio": 15.5,
+     "fin": 15.62
+    },
+    {
+     "texto": "Sanidad",
+     "inicio": 15.62,
+     "fin": 16.02
+    },
+    {
+     "texto": "de",
+     "inicio": 16.02,
+     "fin": 16.16
+    },
+    {
+     "texto": "España",
+     "inicio": 16.16,
+     "fin": 16.52
+    },
+    {
+     "texto": "lo",
+     "inicio": 16.52,
+     "fin": 17.08
+    },
+    {
+     "texto": "explica",
+     "inicio": 17.08,
+     "fin": 17.44
+    },
+    {
+     "texto": "así:",
+     "inicio": 17.44,
+     "fin": 17.72
+    },
+    {
+     "texto": "la",
+     "inicio": 18.26,
+     "fin": 18.36
+    },
+    {
+     "texto": "sensación",
+     "inicio": 18.36,
+     "fin": 18.84
+    },
+    {
+     "texto": "de",
+     "inicio": 18.84,
+     "fin": 18.96
+    },
+    {
+     "texto": "calor",
+     "inicio": 18.96,
+     "fin": 19.24
+    },
+    {
+     "texto": "es",
+     "inicio": 19.24,
+     "fin": 19.54
+    },
+    {
+     "texto": "momentánea,",
+     "inicio": 19.54,
+     "fin": 20.2
+    },
+    {
+     "texto": "y",
+     "inicio": 20.54,
+     "fin": 20.8
+    },
+    {
+     "texto": "después",
+     "inicio": 20.8,
+     "fin": 21.16
+    },
+    {
+     "texto": "la",
+     "inicio": 21.16,
+     "fin": 21.82
+    },
+    {
+     "texto": "temperatura",
+     "inicio": 21.82,
+     "fin": 22.32
+    },
+    {
+     "texto": "interior",
+     "inicio": 22.32,
+     "fin": 22.62
+    },
+    {
+     "texto": "baja.",
+     "inicio": 22.62,
+     "fin": 23.02
+    }
+   ],
+   "inicio": 14.88,
+   "fin": 23.02
+  },
+  {
+   "texto": "Ojo: la sensación de calor es real. Lo que no es real es que te estés calentando.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 23.62,
+     "fin": 23.88
+    },
+    {
+     "texto": "la",
+     "inicio": 24.4,
+     "fin": 24.54
+    },
+    {
+     "texto": "sensación",
+     "inicio": 24.54,
+     "fin": 25.08
+    },
+    {
+     "texto": "de",
+     "inicio": 25.08,
+     "fin": 25.22
+    },
+    {
+     "texto": "calor",
+     "inicio": 25.22,
+     "fin": 25.44
+    },
+    {
+     "texto": "es",
+     "inicio": 25.44,
+     "fin": 25.62
+    },
+    {
+     "texto": "real.",
+     "inicio": 25.62,
+     "fin": 25.88
+    },
+    {
+     "texto": "Lo",
+     "inicio": 25.88,
+     "fin": 26.66
+    },
+    {
+     "texto": "que",
+     "inicio": 26.66,
+     "fin": 26.82
+    },
+    {
+     "texto": "no",
+     "inicio": 26.82,
+     "fin": 26.98
+    },
+    {
+     "texto": "es",
+     "inicio": 26.98,
+     "fin": 27.14
+    },
+    {
+     "texto": "real",
+     "inicio": 27.14,
+     "fin": 27.42
+    },
+    {
+     "texto": "es",
+     "inicio": 27.42,
+     "fin": 27.7
+    },
+    {
+     "texto": "que",
+     "inicio": 27.7,
+     "fin": 27.78
+    },
+    {
+     "texto": "te",
+     "inicio": 27.78,
+     "fin": 27.9
+    },
+    {
+     "texto": "estés",
+     "inicio": 27.9,
+     "fin": 28.08
+    },
+    {
+     "texto": "calentando.",
+     "inicio": 28.08,
+     "fin": 28.68
+    }
+   ],
+   "inicio": 23.62,
+   "fin": 28.68
+  },
+  {
+   "texto": "Si hace frío y tomaste, abrigate igual.",
+   "palabras": [
+    {
+     "texto": "Si",
+     "inicio": 29.02,
+     "fin": 29.22
+    },
+    {
+     "texto": "hace",
+     "inicio": 29.22,
+     "fin": 29.34
+    },
+    {
+     "texto": "frío",
+     "inicio": 29.34,
+     "fin": 29.76
+    },
+    {
+     "texto": "y",
+     "inicio": 29.76,
+     "fin": 29.94
+    },
+    {
+     "texto": "tomaste,",
+     "inicio": 29.94,
+     "fin": 30.34
+    },
+    {
+     "texto": "abrigate",
+     "inicio": 30.8,
+     "fin": 31.2
+    },
+    {
+     "texto": "igual.",
+     "inicio": 31.2,
+     "fin": 31.42
+    }
+   ],
+   "inicio": 29.02,
+   "fin": 31.42
+  },
+  {
+   "texto": "Mandáselo a ese que dice que el fernet lo abriga.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 32.14,
+     "fin": 32.54
+    },
+    {
+     "texto": "a",
+     "inicio": 32.54,
+     "fin": 32.62
+    },
+    {
+     "texto": "ese",
+     "inicio": 32.62,
+     "fin": 32.78
+    },
+    {
+     "texto": "que",
+     "inicio": 32.78,
+     "fin": 32.94
+    },
+    {
+     "texto": "dice",
+     "inicio": 32.94,
+     "fin": 33.14
+    },
+    {
+     "texto": "que",
+     "inicio": 33.14,
+     "fin": 33.3
+    },
+    {
+     "texto": "el",
+     "inicio": 33.3,
+     "fin": 33.4
+    },
+    {
+     "texto": "fernet",
+     "inicio": 33.4,
+     "fin": 33.8
+    },
+    {
+     "texto": "lo",
+     "inicio": 33.8,
+     "fin": 33.92
+    },
+    {
+     "texto": "abriga.",
+     "inicio": 33.92,
+     "fin": 34.42
+    }
+   ],
+   "inicio": 32.14,
+   "fin": 34.42
+  }
+ ]
+}

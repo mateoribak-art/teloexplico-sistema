@@ -1,0 +1,656 @@
+{
+ "duracion": 41.79,
+ "frases": [
+  {
+   "texto": "The storm ends and, all of a sudden, it's cooler. Where did that chill come from?",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 0.0,
+     "fin": 0.2
+    },
+    {
+     "texto": "storm",
+     "inicio": 0.2,
+     "fin": 0.4
+    },
+    {
+     "texto": "ends",
+     "inicio": 0.4,
+     "fin": 0.74
+    },
+    {
+     "texto": "and,",
+     "inicio": 1.28,
+     "fin": 1.28
+    },
+    {
+     "texto": "all",
+     "inicio": 1.64,
+     "fin": 2.04
+    },
+    {
+     "texto": "of",
+     "inicio": 2.04,
+     "fin": 2.18
+    },
+    {
+     "texto": "a",
+     "inicio": 2.18,
+     "fin": 2.26
+    },
+    {
+     "texto": "sudden,",
+     "inicio": 2.26,
+     "fin": 2.46
+    },
+    {
+     "texto": "it's",
+     "inicio": 2.66,
+     "fin": 2.74
+    },
+    {
+     "texto": "cooler.",
+     "inicio": 2.74,
+     "fin": 3.16
+    },
+    {
+     "texto": "Where",
+     "inicio": 3.76,
+     "fin": 4.0
+    },
+    {
+     "texto": "did",
+     "inicio": 4.0,
+     "fin": 4.1
+    },
+    {
+     "texto": "that",
+     "inicio": 4.1,
+     "fin": 4.28
+    },
+    {
+     "texto": "chill",
+     "inicio": 4.28,
+     "fin": 4.66
+    },
+    {
+     "texto": "come",
+     "inicio": 4.66,
+     "fin": 4.9
+    },
+    {
+     "texto": "from?",
+     "inicio": 4.9,
+     "fin": 5.14
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 5.14
+  },
+  {
+   "texto": "It didn't come from anywhere strange. The rain brought it.",
+   "palabras": [
+    {
+     "texto": "It",
+     "inicio": 5.64,
+     "fin": 5.76
+    },
+    {
+     "texto": "didn't",
+     "inicio": 5.76,
+     "fin": 5.96
+    },
+    {
+     "texto": "come",
+     "inicio": 5.96,
+     "fin": 6.14
+    },
+    {
+     "texto": "from",
+     "inicio": 6.14,
+     "fin": 6.4
+    },
+    {
+     "texto": "anywhere",
+     "inicio": 6.4,
+     "fin": 6.74
+    },
+    {
+     "texto": "strange.",
+     "inicio": 6.74,
+     "fin": 7.34
+    },
+    {
+     "texto": "The",
+     "inicio": 7.76,
+     "fin": 7.92
+    },
+    {
+     "texto": "rain",
+     "inicio": 7.92,
+     "fin": 8.1
+    },
+    {
+     "texto": "brought",
+     "inicio": 8.1,
+     "fin": 8.38
+    },
+    {
+     "texto": "it.",
+     "inicio": 8.38,
+     "fin": 8.54
+    }
+   ],
+   "inicio": 5.64,
+   "fin": 8.54
+  },
+  {
+   "texto": "Inside the cloud, raindrops evaporate, and evaporating pulls heat out of the air.",
+   "palabras": [
+    {
+     "texto": "Inside",
+     "inicio": 8.96,
+     "fin": 9.22
+    },
+    {
+     "texto": "the",
+     "inicio": 9.22,
+     "fin": 9.44
+    },
+    {
+     "texto": "cloud,",
+     "inicio": 9.44,
+     "fin": 9.78
+    },
+    {
+     "texto": "raindrops",
+     "inicio": 9.98,
+     "fin": 10.34
+    },
+    {
+     "texto": "evaporate,",
+     "inicio": 10.34,
+     "fin": 11.26
+    },
+    {
+     "texto": "and",
+     "inicio": 11.68,
+     "fin": 11.78
+    },
+    {
+     "texto": "evaporating",
+     "inicio": 11.78,
+     "fin": 12.3
+    },
+    {
+     "texto": "pulls",
+     "inicio": 12.3,
+     "fin": 12.56
+    },
+    {
+     "texto": "heat",
+     "inicio": 12.56,
+     "fin": 12.94
+    },
+    {
+     "texto": "out",
+     "inicio": 12.94,
+     "fin": 13.16
+    },
+    {
+     "texto": "of",
+     "inicio": 13.16,
+     "fin": 13.26
+    },
+    {
+     "texto": "the",
+     "inicio": 13.26,
+     "fin": 13.36
+    },
+    {
+     "texto": "air.",
+     "inicio": 13.36,
+     "fin": 13.56
+    }
+   ],
+   "inicio": 8.96,
+   "fin": 13.56
+  },
+  {
+   "texto": "That cooled air is heavier than the air around it, so it sinks toward the ground.",
+   "palabras": [
+    {
+     "texto": "That",
+     "inicio": 14.14,
+     "fin": 14.26
+    },
+    {
+     "texto": "cooled",
+     "inicio": 14.26,
+     "fin": 14.64
+    },
+    {
+     "texto": "air",
+     "inicio": 14.64,
+     "fin": 14.98
+    },
+    {
+     "texto": "is",
+     "inicio": 14.98,
+     "fin": 15.34
+    },
+    {
+     "texto": "heavier",
+     "inicio": 15.34,
+     "fin": 15.66
+    },
+    {
+     "texto": "than",
+     "inicio": 15.66,
+     "fin": 15.96
+    },
+    {
+     "texto": "the",
+     "inicio": 15.96,
+     "fin": 16.08
+    },
+    {
+     "texto": "air",
+     "inicio": 16.08,
+     "fin": 16.24
+    },
+    {
+     "texto": "around",
+     "inicio": 16.24,
+     "fin": 16.52
+    },
+    {
+     "texto": "it,",
+     "inicio": 16.52,
+     "fin": 16.7
+    },
+    {
+     "texto": "so",
+     "inicio": 16.98,
+     "fin": 17.26
+    },
+    {
+     "texto": "it",
+     "inicio": 17.26,
+     "fin": 17.38
+    },
+    {
+     "texto": "sinks",
+     "inicio": 17.38,
+     "fin": 17.62
+    },
+    {
+     "texto": "toward",
+     "inicio": 17.62,
+     "fin": 17.98
+    },
+    {
+     "texto": "the",
+     "inicio": 17.98,
+     "fin": 18.06
+    },
+    {
+     "texto": "ground.",
+     "inicio": 18.06,
+     "fin": 18.24
+    }
+   ],
+   "inicio": 14.14,
+   "fin": 18.24
+  },
+  {
+   "texto": "The National Weather Service compares it to a glass of water spilled on pavement: when it hits the ground, it spreads out in every direction.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 18.78,
+     "fin": 18.9
+    },
+    {
+     "texto": "National",
+     "inicio": 18.9,
+     "fin": 19.22
+    },
+    {
+     "texto": "Weather",
+     "inicio": 19.22,
+     "fin": 19.44
+    },
+    {
+     "texto": "Service",
+     "inicio": 19.44,
+     "fin": 19.74
+    },
+    {
+     "texto": "compares",
+     "inicio": 19.74,
+     "fin": 20.14
+    },
+    {
+     "texto": "it",
+     "inicio": 20.14,
+     "fin": 20.34
+    },
+    {
+     "texto": "to",
+     "inicio": 20.34,
+     "fin": 20.52
+    },
+    {
+     "texto": "a",
+     "inicio": 20.52,
+     "fin": 21.06
+    },
+    {
+     "texto": "glass",
+     "inicio": 21.06,
+     "fin": 21.3
+    },
+    {
+     "texto": "of",
+     "inicio": 21.3,
+     "fin": 21.54
+    },
+    {
+     "texto": "water",
+     "inicio": 21.54,
+     "fin": 21.88
+    },
+    {
+     "texto": "spilled",
+     "inicio": 21.88,
+     "fin": 22.24
+    },
+    {
+     "texto": "on",
+     "inicio": 22.24,
+     "fin": 22.44
+    },
+    {
+     "texto": "pavement:",
+     "inicio": 22.44,
+     "fin": 22.88
+    },
+    {
+     "texto": "when",
+     "inicio": 23.5,
+     "fin": 23.6
+    },
+    {
+     "texto": "it",
+     "inicio": 23.6,
+     "fin": 23.7
+    },
+    {
+     "texto": "hits",
+     "inicio": 23.7,
+     "fin": 23.86
+    },
+    {
+     "texto": "the",
+     "inicio": 23.86,
+     "fin": 24.02
+    },
+    {
+     "texto": "ground,",
+     "inicio": 24.02,
+     "fin": 24.36
+    },
+    {
+     "texto": "it",
+     "inicio": 24.58,
+     "fin": 24.7
+    },
+    {
+     "texto": "spreads",
+     "inicio": 24.7,
+     "fin": 25.1
+    },
+    {
+     "texto": "out",
+     "inicio": 25.1,
+     "fin": 25.4
+    },
+    {
+     "texto": "in",
+     "inicio": 25.4,
+     "fin": 25.62
+    },
+    {
+     "texto": "every",
+     "inicio": 25.62,
+     "fin": 25.92
+    },
+    {
+     "texto": "direction.",
+     "inicio": 25.92,
+     "fin": 26.28
+    }
+   ],
+   "inicio": 18.78,
+   "fin": 26.28
+  },
+  {
+   "texto": "So it's, more or less, a cold front in miniature.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 26.7,
+     "fin": 26.94
+    },
+    {
+     "texto": "it's,",
+     "inicio": 26.94,
+     "fin": 27.26
+    },
+    {
+     "texto": "more",
+     "inicio": 27.26,
+     "fin": 27.5
+    },
+    {
+     "texto": "or",
+     "inicio": 27.5,
+     "fin": 27.62
+    },
+    {
+     "texto": "less,",
+     "inicio": 27.62,
+     "fin": 27.92
+    },
+    {
+     "texto": "a",
+     "inicio": 27.92,
+     "fin": 28.08
+    },
+    {
+     "texto": "cold",
+     "inicio": 28.08,
+     "fin": 28.3
+    },
+    {
+     "texto": "front",
+     "inicio": 28.3,
+     "fin": 28.62
+    },
+    {
+     "texto": "in",
+     "inicio": 28.62,
+     "fin": 28.94
+    },
+    {
+     "texto": "miniature.",
+     "inicio": 28.94,
+     "fin": 29.4
+    }
+   ],
+   "inicio": 26.7,
+   "fin": 29.4
+  },
+  {
+   "texto": "Heads up: not always. Every once in a while, the air coming down arrives hot.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 30.0,
+     "fin": 30.18
+    },
+    {
+     "texto": "up:",
+     "inicio": 30.18,
+     "fin": 30.4
+    },
+    {
+     "texto": "not",
+     "inicio": 30.9,
+     "fin": 31.04
+    },
+    {
+     "texto": "always.",
+     "inicio": 31.04,
+     "fin": 31.4
+    },
+    {
+     "texto": "Every",
+     "inicio": 32.12,
+     "fin": 32.34
+    },
+    {
+     "texto": "once",
+     "inicio": 32.34,
+     "fin": 32.6
+    },
+    {
+     "texto": "in",
+     "inicio": 32.6,
+     "fin": 32.76
+    },
+    {
+     "texto": "a",
+     "inicio": 32.76,
+     "fin": 32.84
+    },
+    {
+     "texto": "while,",
+     "inicio": 32.84,
+     "fin": 33.14
+    },
+    {
+     "texto": "the",
+     "inicio": 33.4,
+     "fin": 33.46
+    },
+    {
+     "texto": "air",
+     "inicio": 33.46,
+     "fin": 33.76
+    },
+    {
+     "texto": "coming",
+     "inicio": 33.76,
+     "fin": 34.02
+    },
+    {
+     "texto": "down",
+     "inicio": 34.02,
+     "fin": 34.48
+    },
+    {
+     "texto": "arrives",
+     "inicio": 34.48,
+     "fin": 35.3
+    },
+    {
+     "texto": "hot.",
+     "inicio": 35.3,
+     "fin": 35.98
+    }
+   ],
+   "inicio": 30.0,
+   "fin": 35.98
+  },
+  {
+   "texto": "Send this to the friend who steps outside and says, finally, it cooled off.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 36.64,
+     "fin": 37.02
+    },
+    {
+     "texto": "this",
+     "inicio": 37.02,
+     "fin": 37.22
+    },
+    {
+     "texto": "to",
+     "inicio": 37.22,
+     "fin": 37.38
+    },
+    {
+     "texto": "the",
+     "inicio": 37.38,
+     "fin": 37.46
+    },
+    {
+     "texto": "friend",
+     "inicio": 37.46,
+     "fin": 37.76
+    },
+    {
+     "texto": "who",
+     "inicio": 37.76,
+     "fin": 38.0
+    },
+    {
+     "texto": "steps",
+     "inicio": 38.0,
+     "fin": 38.32
+    },
+    {
+     "texto": "outside",
+     "inicio": 38.32,
+     "fin": 38.72
+    },
+    {
+     "texto": "and",
+     "inicio": 38.72,
+     "fin": 39.1
+    },
+    {
+     "texto": "says,",
+     "inicio": 39.1,
+     "fin": 39.28
+    },
+    {
+     "texto": "finally,",
+     "inicio": 39.8,
+     "fin": 40.66
+    },
+    {
+     "texto": "it",
+     "inicio": 41.08,
+     "fin": 41.2
+    },
+    {
+     "texto": "cooled",
+     "inicio": 41.2,
+     "fin": 41.4
+    },
+    {
+     "texto": "off.",
+     "inicio": 41.4,
+     "fin": 41.66
+    }
+   ],
+   "inicio": 36.64,
+   "fin": 41.66
+  }
+ ]
+}

@@ -38,3 +38,13 @@ Uso: 51 pasos · 71,967 tokens nuevos · 1,427,252 de caché · 15,077 escritos 
 2026-11-03 15:39 Render de 030-fila-del-super (sin Claude).
 2026-11-03 15:48 030-fila-del-super: listo (render sin Claude)
 2026-11-03 15:48 Termina la producción (ok).
+2026-11-03 18:18 Arranca la producción (9 listos en la cola, meta 10).
+2026-11-03 18:18 Render de 026-mediodia-hora-corrida (sin Claude).
+2026-11-03 19:01 026-mediodia-hora-corrida: listo (render sin Claude)
+- **En render:** `013-alcohol-calor`. Lo rescaté del apartado: saqué del guion y del caption la frase que decía, en voz propia, que la temperatura interna baja. Ahora esa afirmación va solo atribuida al Ministerio de Sanidad de España. El chequeo lo repitió un subagente aparte y salió aprobado. Después hice la voz (35 s), las escenas 3D y la portada, y marqué el video como `render`. `producir.py` lo renderiza y decide si pasa a `listo` o a `apartado`.
+- **Estado de la corrida:** `tlx tsc` dio sin errores y los cuadros se vieron bien tras 2 vueltas. No hay ningún video incompleto.
+- **Segundo video no producido:** la cola tenía 10 listos, así que no se cumplió la condición de menos de 10. `005-granizo-calor` sigue apartado, pero no por un chequeo rechazado.
+Uso: 42 pasos · 50,455 tokens nuevos · 1,056,684 de caché · 9,860 escritos · equivale a US$ 0.60 de API
+2026-11-03 19:07 Render de 013-alcohol-calor (sin Claude).
+2026-11-03 19:17 013-alcohol-calor: listo (render sin Claude)
+2026-11-03 19:17 Termina la producción (ok).
