@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T04:11",
+ "actualizado": "2026-11-03T04:38",
  "oficinas": [
   {
    "clave": "es",
@@ -169,7 +169,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsqueda web (alertas SMN hoy): nada fechado de hoy (lo más reciente es de julio 2026). Sin tema de actualidad verificable; sigue la cola normal",
      "cuando": "2026-11-02T19:25",
-     "hace": "hace 8 h",
+     "hace": "hace 9 h",
      "detalle": [
       "24/10 00:00 | Revisión radar. Candidatos: (1) semana de lluvias/tormentas en BA y 9-10 provincias (alertas SMN 22-25 oct) -> ELEGIDO, ángulo propio \"por qué huele a lluvia\" (petricor/geosmina), posta ya hizo El Niño; (2) El Niño fuerte 2027 y cosecha de vino -> muy de nicho/futuro; (3) calor extremo oct-dic -> todavía no se vive hoy, se guarda. Slug: 004-olor-a-lluvia (--actualidad).",
       "30/10 00:00 | Revisión radar. Sin resultados fechados de hoy; no se produce video de actualidad.",
@@ -310,7 +310,7 @@
      "estado": "ok",
      "resumen": "Último: 009-ventilador-pieza-vacia.",
      "cuando": "2026-11-02T19:34",
-     "hace": "hace 8 h",
+     "hace": "hace 9 h",
      "detalle": [
       "02/11 12:32 024-granizo-corto publicado: https://www.instagram.com/reel/DfPosDPDyiN/",
       "02/11 12:33 024-granizo-corto publicado en Facebook: https://www.facebook.com/reel/2681775952237484/",
@@ -347,7 +347,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-02T19:34",
-     "hace": "hace 8 h",
+     "hace": "hace 9 h",
      "detalle": [
       "01/11 19:35 015-descongelar-mesada https://youtube.com/shorts/dftdMuJefrk | privacidad: public",
       "01/11 19:35 015-descongelar-mesada paquete para TikTok/YouTube enviado",
@@ -379,7 +379,7 @@
      "estado": "aviso",
      "resumen": "No quedan carruseles listos: el de las 16:00 no sale.",
      "cuando": "2026-11-02T22:25",
-     "hace": "hace 5 h",
+     "hace": "hace 6 h",
      "detalle": [
       "2026-10-29 22:38 vuelta-carne: listo control OK",
       "2026-10-30 20:01 army-bomb: publicado https://www.instagram.com/p/DfItv3yF_cx/",
@@ -410,7 +410,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:15",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
       "02/11 04:22 Hay 12 comentarios nuevos: arranca la respuesta.",
@@ -449,7 +449,7 @@
      "estado": "ok",
      "resumen": "03/11: 365 seguidores",
      "cuando": "2026-11-03T03:37",
-     "hace": "hace 34 min",
+     "hace": "hace 1 h",
      "detalle": [
       "31/10: 329 seguidores",
       "01/11: 341 seguidores",
@@ -482,7 +482,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-03T04:11",
+     "cuando": "2026-11-03T04:38",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -603,7 +603,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-03T01:27",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "Uso: 4 pasos · 5,602 tokens nuevos · 124,326 de caché · 730 escritos · equivale a US$ 0.22 de API",
       "2026-11-03 01:01 Arranca la producción (1 listos en la cola, meta 6).",
@@ -642,7 +642,7 @@
      "estado": "ok",
      "resumen": "Sexta pasada del radar: la búsqueda web no devolvió clima ni tendencias verificables de las últimas 48 h (solo blogs sin fecha y notas viejas). Descartados: (1)",
      "cuando": "2026-11-02T19:25",
-     "hace": "hace 8 h",
+     "hace": "hace 9 h",
      "detalle": [
       "29/10 00:00 Cuarta pasada del radar: la búsqueda web solo devolvió notas viejas (2013–2024) y una de septiembre 2026; nada verificable de las últimas 48 h. Descartados: (1) nor'easter/helada: nota de hace 5 semanas, sin fuente oficial del día; (2) auroras: sin alerta del SWPC confirmada; (3) cambio de hora (1/11): ya publicado (en-002). Halloween ya cubierto (en-004). Sin tema nuevo.",
       "30/10 00:00 Quinta pasada del radar: la búsqueda web no devolvió nada verificable de las últimas 48 h (solo notas viejas, blogs sin fecha y una página del NWS de Fort Worth del 23/10 con clima tranquilo). Descartados: (1) clima del fin de semana: sin alerta nacional ni fuente oficial del día; (2) cambio de hora (domingo 1/11): ya publicado (en-002); (3) Halloween: ya cubierto (en-004). Sin tema nuevo.",
@@ -672,7 +672,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-02T21:12",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [
       "en-009-ceiling-fan: aprobado — Todas las afirmaciones de plata/energia y seguridad-practica (sentido de giro por estacion, velocidad baja en invierno, apagar al salir, 'en",
       "en-010-thermostat-night: aprobado — Todas las cifras (7 a 10 °F, 8 horas por dia, hasta 10% por año) coinciden con Energy.gov (Energy Saver, thermostats / programmable thermost",
@@ -705,7 +705,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-02T21:12",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -729,7 +729,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-02 21:12.",
      "cuando": "2026-11-02T21:12",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -753,7 +753,7 @@
      "estado": "ok",
      "resumen": "1 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-02T21:12",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -777,7 +777,7 @@
      "estado": "ok",
      "resumen": "Último: en-014-birthday-pairs.",
      "cuando": "2026-11-02T19:36",
-     "hace": "hace 8 h",
+     "hace": "hace 9 h",
      "detalle": [
       "01/11 19:38 en-013-searing-juices en la bandeja de TikTok",
       "01/11 19:38 en-013-searing-juices paquete para TikTok/YouTube enviado",
@@ -814,7 +814,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-02T19:36",
-     "hace": "hace 8 h",
+     "hace": "hace 9 h",
      "detalle": [
       "01/11 12:35 en-011-thaw-counter en la bandeja de TikTok",
       "01/11 12:35 en-011-thaw-counter paquete para TikTok/YouTube enviado",
@@ -849,7 +849,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:16",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [
       "01/11 18:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
@@ -884,7 +884,7 @@
      "estado": "ok",
      "resumen": "03/11: 3 seguidores",
      "cuando": "2026-11-03T03:37",
-     "hace": "hace 34 min",
+     "hace": "hace 1 h",
      "detalle": [
       "31/10: 2 seguidores",
       "01/11: 2 seguidores",
@@ -917,7 +917,7 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 1 videos listos: alcanza para 0.5 día(s).",
-     "cuando": "2026-11-03T04:11",
+     "cuando": "2026-11-03T04:38",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s)."
