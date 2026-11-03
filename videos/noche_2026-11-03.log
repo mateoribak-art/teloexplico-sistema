@@ -1,0 +1,8 @@
+2026-11-03 00:06 Arranca la producción (7 listos en la cola, meta 10).
+- **Listo para render:** `026-mediodia-hora-corrida` (serie Argentina en datos #1). Lo rescaté: el chequeo quedó aprobado en la tercera pasada, después de sacar las fuentes que no se podían verificar (Instituto Geográfico Nacional, Hidrografía Naval, "método de la NOAA"). Generé la voz (126 palabras, 37,7 s), corregí `Video.tsx` y lo registré en `Root.tsx`. `tlx tsc` pasa y hice 2 vueltas de cuadros. Quedó en estado `render`, así que `producir.py` lo renderiza y lo pasa a `listo`; hasta ahí no lo vi terminado.
+- **Apartados:** `013-alcohol-calor` sigue apartado (ya falló 2 chequeos, salud con evidencia mixta). `005-granizo-calor` también, pero no por chequeo rechazado: lo reemplazó el 024. No toqué ninguno.
+- **Segundo video:** no lo produje. Al empezar había 7 listos (menos de 10), pero el render de cuadros 3D es muy lento (varios minutos por cuadro) y el turno se fue en el rescate. Lo dejé anotado en `videos/produccion.log`.
+Uso: 42 pasos · 41,869 tokens nuevos · 1,133,872 de caché · 6,435 escritos · equivale a US$ 0.35 de API
+2026-11-03 00:11 Render de 026-mediodia-hora-corrida (sin Claude).
+2026-11-03 01:01 026-mediodia-hora-corrida: apartado (render/control: el render pasó los 50 min)
+2026-11-03 01:01 Termina la producción (ok).

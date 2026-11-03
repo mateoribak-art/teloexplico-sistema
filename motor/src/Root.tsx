@@ -32,6 +32,7 @@ import { DURACION as DUR_025, FPS as FPS_025, NoquisDel29, Portada025 } from "./
 import { DURACION as DUR_010, FPS as FPS_010, RayoMismoLugar3D, Portada010 } from "./videos/010-rayo-mismo-lugar/Video";
 import { DURACION as DUR_DEMO_HORA, FPS as FPS_DEMO_HORA, HoraCorrida3D } from "./videos/demo-hora-corrida/Video";
 import { DURACION as DUR_027, FPS as FPS_027, BondiDeBrasil3D, Portada027 } from "./videos/027-bondi-de-brasil/Video";
+import { DURACION as DUR_026, FPS as FPS_026, MediodiaHoraCorrida3D, Portada026 } from "./videos/026-mediodia-hora-corrida/Video";
 import { DURACION as DUR_028, FPS as FPS_028, YerbaPorAno3D, Portada028 } from "./videos/028-yerba-por-ano/Video";
 import { DURACION as DUR_023, FPS as FPS_023, PerrosColores023, Portada023 } from "./videos/023-perros-colores/Video";
 import { DURACION as DUR_024, FPS as FPS_024, GranizoCorto024, Portada024 } from "./videos/024-granizo-corto/Video";
@@ -83,6 +84,7 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="h010-rayo-mismo-lugar" component={RayoMismoLugar3D} durationInFrames={DUR_010} fps={FPS_010} width={ANCHO} height={ALTO} />
         <Composition id="h027-bondi-de-brasil" component={BondiDeBrasil3D} durationInFrames={DUR_027} fps={FPS_027} width={ANCHO} height={ALTO} />
         <Composition id="h028-yerba-por-ano" component={YerbaPorAno3D} durationInFrames={DUR_028} fps={FPS_028} width={ANCHO} height={ALTO} />
+        <Composition id="h026-mediodia-hora-corrida" component={MediodiaHoraCorrida3D} durationInFrames={DUR_026} fps={FPS_026} width={ANCHO} height={ALTO} />
         <Composition id="demo-hora-corrida" component={HoraCorrida3D} durationInFrames={DUR_DEMO_HORA} fps={FPS_DEMO_HORA} width={ANCHO} height={ALTO} />
         <Composition id="h023-perros-colores" component={PerrosColores023} durationInFrames={DUR_023} fps={FPS_023} width={ANCHO} height={ALTO} />
         <Composition id="h024-granizo-corto" component={GranizoCorto024} durationInFrames={DUR_024} fps={FPS_024} width={ANCHO} height={ALTO} />
@@ -148,6 +150,7 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p020-pava-se-corta" component={Portada020} width={ANCHO} height={ALTO} />
         <Still id="p025-noquis-del-29" component={Portada025} width={ANCHO} height={ALTO} />        <Still id="p027-bondi-de-brasil" component={Portada027} width={ANCHO} height={ALTO} />
         <Still id="p028-yerba-por-ano" component={Portada028} width={ANCHO} height={ALTO} />
+        <Still id="p026-mediodia-hora-corrida" component={Portada026} width={ANCHO} height={ALTO} />
         <Still id="p010-rayo-mismo-lugar" component={Portada010} width={ANCHO} height={ALTO} />
         <Still id="p023-perros-colores" component={Portada023} width={ANCHO} height={ALTO} />
         <Still id="p024-granizo-corto" component={Portada024} width={ANCHO} height={ALTO} />

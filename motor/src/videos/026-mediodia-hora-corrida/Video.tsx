@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import { AbsoluteFill, interpolate, staticFile, useCurrentFrame } from "remotion";
 import { Audio } from "@remotion/media";
 import * as THREE from "three";
-import tiemposJson from "../../../public/demo-hora-corrida/tiempos.json";
+import tiemposJson from "../../../public/026-mediodia-hora-corrida/tiempos.json";
 import { reloj, type Tiempos } from "../../kit/tiempos";
 import { Musica, Sfx, type Efecto } from "../../kit/piezas";
 import { Estudio } from "../../kit3d/Estudio";
@@ -55,15 +55,15 @@ const [mx, my] = enMapa(MENDOZA);
 const [lx] = enMapa([-45, LAT_SOL]);
 
 const TOMAS: Toma[] = [
-  { f: 0, pos: [1.6, -3.4, 13.5], mira: [1.1, -0.3, 0], fov: 34 },
-  { f: E.tarde, pos: [1.4, -3.0, 12.4], mira: [1.0, -0.3, 0], fov: 34 },
+  { f: 0, pos: [0.6, -3.4, 14.5], mira: [0.2, -0.3, 0], fov: 34 },
+  { f: E.tarde, pos: [0.6, -3.2, 14.0], mira: [0.2, -0.3, 0], fov: 34 },
   { f: E.linea + 10, pos: [lx - 0.2, -3.2, 10.5], mira: [lx - 0.6, -0.6, 0], fov: 34 },
   { f: E.cruza + 8, pos: [1.0, -3.6, 14.5], mira: [0.6, -0.3, 0], fov: 34 },
   { f: E.bsas - 4, pos: [0.6, -3.6, 14.2], mira: [0.4, -0.3, 0], fov: 34 },
   { f: E.bsas + 10, pos: [bx + 0.4, by - 2.6, 8.6], mira: [bx - 0.2, by, 0], fov: 34 },
   { f: E.mendoza + 10, pos: [mx + 0.6, my - 2.6, 8.6], mira: [mx + 0.2, my, 0], fov: 34 },
   { f: E.ojo + 14, pos: [1.2, -3.4, 13.8], mira: [0.9, -0.3, 0], fov: 34 },
-  { f: DURACION, pos: [1.6, -3.4, 13.5], mira: [1.1, -0.3, 0], fov: 34 },
+  { f: DURACION, pos: [0.6, -3.4, 14.5], mira: [0.2, -0.3, 0], fov: 34 },
 ];
 
 const lonSol = (f: number) =>
@@ -211,7 +211,7 @@ export const MediodiaHoraCorrida3D: React.FC = () => {
   );
 };
 
-const TOMA_PORTADA: Toma[] = [{ f: 0, pos: [1.2, -3.4, 13.8], mira: [0.9, -0.3, 0], fov: 34 }];
+const TOMA_PORTADA: Toma[] = [{ f: 0, pos: [0.6, -3.4, 14.5], mira: [0.2, -0.3, 0], fov: 34 }];
 export const Portada026: React.FC = () => (
   <Portada arriba="¿a qué hora es el mediodía?" grande="no es a las 12" sello="ARGENTINA" colorSello={C.azul} numero={26}>
     <Estudio fondo={false}>

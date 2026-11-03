@@ -13,5 +13,6 @@ Probalo hoy: a las doce tu sombra todavía se está achicando.
 ¿Desde qué provincia nos estás viendo?
 
 Fuentes: Ley 26.350 (huso horario UTC−3), cálculo del mediodía solar con la ecuación del tiempo.
+📚 Argentina en datos #1 · Seguí a @teloexplico.ar para no perderte el #2.
 
 #datoscuriosos #argentina #mendoza #buenosaires #hora

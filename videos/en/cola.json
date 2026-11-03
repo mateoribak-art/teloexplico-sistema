@@ -376,7 +376,7 @@
  {
   "slug": "en-012-thunder-count",
   "tema": "How far away is the storm? Count flash to thunder (adapted from 018)",
-  "estado": "produccion",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -412,6 +412,16 @@
     "estado": "produccion",
     "cuando": "2026-10-30T14:50",
     "motivo": "oficina: la voz dio 40% dos veces seguidas; se rehace la voz, el render y el control"
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-03T01:03",
+    "motivo": "escenas 3D listas; chequeo aprobado, voz y portada hechas"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-03T01:27",
+    "motivo": "render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who steps outside to film the lightning. Count fifteen, and the thunder.\nPROBLEMAS:\n- la voz no coincide con el guion (40%)"
    }
   ]
  },

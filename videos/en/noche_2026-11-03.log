@@ -1,0 +1,15 @@
+2026-11-03 01:01 Arranca la producción (1 listos en la cola, meta 6).
+Revisé la hoja completa de cuadros de `en-012-thunder-count` y no encontré problemas.
+
+- **Escena:** la casa, la nube y el arco se reconocen, y nada tapa el mecanismo.
+- **Textos:** los chips y los subtítulos quedan dentro de la zona segura. Las cifras coinciden con el chequeo: 5 s ≈ 1 mi, 4 s ≈ 0,8 mi y 15 s ≈ 3 mi.
+- **Estado:** sigue en `render`. Lo renderiza `producir.py`, que también hace el control y lo pasa a `listo` o `apartado`. Todavía no vi el video renderizado.
+
+**Resumen:**
+1. **Listo para render:** `en-012-thunder-count`, que había quedado en `produccion` con todo hecho y chequeo aprobado (NWS). `tlx tsc` dio OK y revisé los 8 cuadros.
+2. **Apartados:** no había ninguno por "chequeo rechazado", así que no hubo rescates. `en-014` y `en-015` ya estaban rescatados y en `render`.
+3. **Incompletos:** ninguno. No armé un video nuevo, porque retomar `en-012` ya cubría el pedido de 1 video.
+Uso: 4 pasos · 5,602 tokens nuevos · 124,326 de caché · 730 escritos · equivale a US$ 0.22 de API
+2026-11-03 01:05 Render de en-012-thunder-count (sin Claude).
+2026-11-03 01:27 en-012-thunder-count: apartado (render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste)
+2026-11-03 01:27 Termina la producción (ok).
