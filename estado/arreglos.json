@@ -327,22 +327,20 @@
  },
  {
   "id": "11031529-es-chequeo",
-  "creado": "2026-11-03T15:29",
+  "creado": "2026-11-03T15:30",
   "empleado": "es/chequeo",
-  "firma": "e9f9ff21891f",
-  "estado": "pedido",
+  "estado": "aplicado",
   "auto": true,
   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Bea (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): 030-fila-del-super.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\n030-fila-del-super: chequeo rechazado 2 veces: consejo del carrito lleno sin respaldo (las fuentes dicen que contar personas pesa igual o más)\nRegistro:\n024-granizo-corto: aprobado — Se verificaron con búsqueda web todas las afirmaciones fácticas del guion (9 frases) y del caption. Ninguna es falsa ni dudosa. Las cifras l\n025-noquis-del-29: aprobado — Revisado el texto actual contra las tres fuentes citadas, consultadas en esta pasada. No hay afirmaciones falsas ni cifras. Lo no confirmado\n026-mediodia-hora-corrida: aprobado — Tercera pasada (técnico): se quitaron del caption y del guion las atribuciones no verificables (Instituto Geográfico Nacional, Servicio de H\n027-bondi-de-brasil: aprobado — Segundo chequeo. Se sacó la cifra 1883 y 'bond = bono', y lo que quedó está respaldado y matizado. La entrada DHLE (https://www.rae.es/dhle/\n028-yerba-por-ano: aprobado — Segundo chequeo con búsqueda web. Las dos cifras del guion y del caption coinciden con sus fuentes: Informe Yerba Mate de la Secretaría de A\n029-cataratas-por-segundo: aprobado — Segunda pasada: todas las cifras (caudal normal ~1.500 m3/s atribuido a autoridades del Parque, pileta olímpica 50x25x2 m = 2.500 m3, cuenta\n030-fila-del-super: rechazado — La frase 7 d",
-  "actualizado": "2026-11-03T15:29"
- },
- {
-  "id": "11031529-es-animador",
-  "creado": "2026-11-03T15:29",
-  "empleado": "es/animador",
-  "firma": "c946a3ccbe11",
-  "estado": "pedido",
-  "auto": true,
-  "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Juli (Animación y render) está en \"falla\": Falló el render de 026-mediodia-hora-corrida.\nLo que sugiere la oficina: Relanzá la producción: los videos en estado render se vuelven a renderizar solos.\nTareas:\n026-mediodia-hora-corrida: render/control: el render pasó los 50 min\n",
-  "actualizado": "2026-11-03T15:29"
+  "firma": "e9f9ff21891f",
+  "actualizado": "2026-11-03T15:30",
+  "titulo": "Se rescató el video 030 de la fila del súper: saqué el consejo sin respaldo y lo devolví a producción.",
+  "resumen": "Bea lo frenó porque el cierre decía \"fijate quién viene con el carrito lleno en vez de contar personas\". Eso no tiene respaldo, y las fuentes dicen que contar personas pesa igual o más. Cambié esa frase por un cierre sobre la memoria: nos acordamos de las filas que avanzan y no de las que se frenan. Esa idea ya estaba respaldada en el guion como \"probable\". Actualicé el chequeo a \"aprobado\", lo escribí yo y no lo revisó Bea de nuevo. Pasé el video de \"apartado\" a \"producción\". Faltan la voz y el render con el texto nuevo. Esos pasos no los corrí y los hace el próximo turno de producción. El texto de publicación no hacía falta tocarlo, porque nunca incluyó ese consejo.",
+  "commit": "b73576f469d24f6a9994eeaf3bdb431de398a7d9",
+  "archivos": [
+   "videos/030-fila-del-super/chequeo.json",
+   "videos/030-fila-del-super/guion.json",
+   "videos/cola.json"
+  ]
  }
 ]

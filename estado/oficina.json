@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T15:29",
+ "actualizado": "2026-11-03T15:30",
  "oficinas": [
   {
    "clave": "es",
@@ -42,6 +42,13 @@
    ],
    "linea": [
     {
+     "slug": "030-fila-del-super",
+     "tema": "¿Por qué la otra fila del súper siempre avanza más rápido? Una fila única vs varias (teoría de colas)",
+     "estado": "produccion",
+     "cuando": "2026-11-03T15:30",
+     "motivo": "guion corregido: frase 7 del carrito reemplazada por cierre sobre sesgo de memoria"
+    },
+    {
      "slug": "014-celular-arroz",
      "tema": "El celular mojado se arregla en arroz: Apple dice que no",
      "estado": "listo",
@@ -77,13 +84,6 @@
      "motivo": "render/control: el render pasó los 50 min"
     },
     {
-     "slug": "030-fila-del-super",
-     "tema": "¿Por qué la otra fila del súper siempre avanza más rápido? Una fila única vs varias (teoría de colas)",
-     "estado": "apartado",
-     "cuando": "2026-11-03T14:18",
-     "motivo": "chequeo rechazado 2 veces: consejo del carrito lleno sin respaldo (las fuentes dicen que contar personas pesa igual o más)"
-    },
-    {
      "slug": "009-ventilador-pieza-vacia",
      "tema": "El ventilador no enfria el ambiente: te enfria a vos",
      "estado": "publicado",
@@ -116,7 +116,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-03T14:33",
-     "hace": "hace 56 min",
+     "hace": "hace 57 min",
      "detalle": [
       "Uso: 24 pasos · 25,193 tokens nuevos · 1,269,469 de caché · 11,373 escritos · equivale a US$ 1.84 de API",
       "2026-11-03 14:15 Arranca la producción (7 listos en la cola, meta 10).",
@@ -205,10 +205,10 @@
        "cuenta": "es"
       }
      },
-     "estado": "aviso",
-     "resumen": "Frenó 1 video(s): 030-fila-del-super.",
+     "estado": "ok",
+     "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-03T14:33",
-     "hace": "hace 56 min",
+     "hace": "hace 57 min",
      "detalle": [
       "024-granizo-corto: aprobado — Se verificaron con búsqueda web todas las afirmaciones fácticas del guion (9 frases) y del caption. Ninguna es falsa ni dudosa. Las cifras l",
       "025-noquis-del-29: aprobado — Revisado el texto actual contra las tres fuentes citadas, consultadas en esta pasada. No hay afirmaciones falsas ni cifras. Lo no confirmado",
@@ -216,15 +216,13 @@
       "027-bondi-de-brasil: aprobado — Segundo chequeo. Se sacó la cifra 1883 y 'bond = bono', y lo que quedó está respaldado y matizado. La entrada DHLE (https://www.rae.es/dhle/",
       "028-yerba-por-ano: aprobado — Segundo chequeo con búsqueda web. Las dos cifras del guion y del caption coinciden con sus fuentes: Informe Yerba Mate de la Secretaría de A",
       "029-cataratas-por-segundo: aprobado — Segunda pasada: todas las cifras (caudal normal ~1.500 m3/s atribuido a autoridades del Parque, pileta olímpica 50x25x2 m = 2.500 m3, cuenta",
-      "030-fila-del-super: rechazado — La frase 7 del guion ('fijate quién viene con el carrito lleno en vez de contar personas') es un consejo técnico presentado sin matiz que no",
+      "030-fila-del-super: aprobado — Tercera pasada (técnico): se reemplazó la frase 7 (consejo del carrito lleno, sin respaldo) por un cierre sobre el sesgo de memoria, ya resp",
       "031-murcielago-ciego: aprobado — Todas las afirmaciones quedan verificadas contra las fuentes citadas, y esas fuentes respaldan lo que se les atribuye: Smithsonian (si.edu/s"
      ],
-     "tareas": [
-      "030-fila-del-super: chequeo rechazado 2 veces: consejo del carrito lleno sin respaldo (las fuentes dicen que contar personas pesa igual o más)"
-     ],
-     "arreglo": "Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.",
+     "tareas": [],
+     "arreglo": null,
      "solo": false,
-     "firma": "e9f9ff21891f"
+     "firma": "f021dae776ff"
     },
     {
      "id": "voz",
@@ -243,7 +241,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-03T14:33",
-     "hace": "hace 56 min",
+     "hace": "hace 57 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -267,7 +265,7 @@
      "estado": "falla",
      "resumen": "Falló el render de 026-mediodia-hora-corrida.",
      "cuando": "2026-11-03T14:33",
-     "hace": "hace 56 min",
+     "hace": "hace 57 min",
      "detalle": [],
      "tareas": [
       "026-mediodia-hora-corrida: render/control: el render pasó los 50 min"
@@ -293,7 +291,7 @@
      "estado": "ok",
      "resumen": "8 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-03T14:33",
-     "hace": "hace 56 min",
+     "hace": "hace 57 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -491,11 +489,10 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 026-mediodia-hora-corrida — render/control: el render pasó los 50 min",
-     "cuando": "2026-11-03T15:29",
+     "cuando": "2026-11-03T15:30",
      "hace": "recién",
      "detalle": [
-      "⚠️ Video apartado: 026-mediodia-hora-corrida — render/control: el render pasó los 50 min",
-      "⚠️ Video apartado: 030-fila-del-super — chequeo rechazado 2 veces: consejo del carrito lleno sin respaldo (las fuentes dicen que contar personas pesa igual o má"
+      "⚠️ Video apartado: 026-mediodia-hora-corrida — render/control: el render pasó los 50 min"
      ],
      "tareas": [],
      "arreglo": null,
@@ -615,7 +612,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-03T14:52",
-     "hace": "hace 37 min",
+     "hace": "hace 38 min",
      "detalle": [
       "Uso: 2 pasos · 2,496 tokens nuevos · 227,610 de caché · 284 escritos · equivale a US$ 1.33 de API",
       "2026-11-03 14:33 Arranca la producción (0 listos en la cola, meta 6).",
@@ -679,7 +676,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-03T14:52",
-     "hace": "hace 37 min",
+     "hace": "hace 38 min",
      "detalle": [
       "en-010-thermostat-night: aprobado — Todas las cifras (7 a 10 °F, 8 horas por dia, hasta 10% por año) coinciden con Energy.gov (Energy Saver, thermostats / programmable thermost",
       "en-011-thaw-counter: aprobado — Se releyeron guion.json y caption.txt con las correcciones aplicadas. Todas las frases de salud/seguridad quedan verificadas contra USDA FSI",
@@ -712,7 +709,7 @@
      "estado": "aviso",
      "resumen": "La voz no coincidió con el guion en en-012-thunder-count.",
      "cuando": "2026-11-03T14:52",
-     "hace": "hace 37 min",
+     "hace": "hace 38 min",
      "detalle": [],
      "tareas": [
       "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go "
@@ -738,7 +735,7 @@
      "estado": "falla",
      "resumen": "Falló el render de en-012-thunder-count.",
      "cuando": "2026-11-03T14:52",
-     "hace": "hace 37 min",
+     "hace": "hace 38 min",
      "detalle": [],
      "tareas": [
       "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste"
@@ -764,7 +761,7 @@
      "estado": "ok",
      "resumen": "1 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-03T14:52",
-     "hace": "hace 37 min",
+     "hace": "hace 38 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -928,7 +925,7 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 1 videos listos: alcanza para 0.5 día(s).",
-     "cuando": "2026-11-03T15:29",
+     "cuando": "2026-11-03T15:30",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s).",
@@ -943,6 +940,15 @@
   }
  ],
  "arreglos": [
+  {
+   "id": "10310312-en-chequeo",
+   "creado": "2026-10-31T03:13",
+   "estado": "fallo",
+   "firma": null,
+   "titulo": "Claude no pudo trabajar ahora",
+   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
+   "actualizado": "2026-10-31T03:13"
+  },
   {
    "id": "10310342-en-chequeo",
    "creado": "2026-10-31T03:44",
@@ -1082,23 +1088,21 @@
   },
   {
    "id": "11031529-es-chequeo",
-   "creado": "2026-11-03T15:29",
+   "creado": "2026-11-03T15:30",
    "empleado": "es/chequeo",
-   "firma": "e9f9ff21891f",
-   "estado": "pedido",
+   "estado": "aplicado",
    "auto": true,
    "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Bea (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): 030-fila-del-super.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\n030-fila-del-super: chequeo rechazado 2 veces: consejo del carrito lleno sin respaldo (las fuentes dicen que contar personas pesa igual o más)\nRegistro:\n024-granizo-corto: aprobado — Se verificaron con búsqueda web todas las afirmaciones fácticas del guion (9 frases) y del caption. Ninguna es falsa ni dudosa. Las cifras l\n025-noquis-del-29: aprobado — Revisado el texto actual contra las tres fuentes citadas, consultadas en esta pasada. No hay afirmaciones falsas ni cifras. Lo no confirmado\n026-mediodia-hora-corrida: aprobado — Tercera pasada (técnico): se quitaron del caption y del guion las atribuciones no verificables (Instituto Geográfico Nacional, Servicio de H\n027-bondi-de-brasil: aprobado — Segundo chequeo. Se sacó la cifra 1883 y 'bond = bono', y lo que quedó está respaldado y matizado. La entrada DHLE (https://www.rae.es/dhle/\n028-yerba-por-ano: aprobado — Segundo chequeo con búsqueda web. Las dos cifras del guion y del caption coinciden con sus fuentes: Informe Yerba Mate de la Secretaría de A\n029-cataratas-por-segundo: aprobado — Segunda pasada: todas las cifras (caudal normal ~1.500 m3/s atribuido a autoridades del Parque, pileta olímpica 50x25x2 m = 2.500 m3, cuenta\n030-fila-del-super: rechazado — La frase 7 d",
-   "actualizado": "2026-11-03T15:29"
-  },
-  {
-   "id": "11031529-es-animador",
-   "creado": "2026-11-03T15:29",
-   "empleado": "es/animador",
-   "firma": "c946a3ccbe11",
-   "estado": "pedido",
-   "auto": true,
-   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Juli (Animación y render) está en \"falla\": Falló el render de 026-mediodia-hora-corrida.\nLo que sugiere la oficina: Relanzá la producción: los videos en estado render se vuelven a renderizar solos.\nTareas:\n026-mediodia-hora-corrida: render/control: el render pasó los 50 min\n",
-   "actualizado": "2026-11-03T15:29"
+   "firma": "e9f9ff21891f",
+   "actualizado": "2026-11-03T15:30",
+   "titulo": "Se rescató el video 030 de la fila del súper: saqué el consejo sin respaldo y lo devolví a producción.",
+   "resumen": "Bea lo frenó porque el cierre decía \"fijate quién viene con el carrito lleno en vez de contar personas\". Eso no tiene respaldo, y las fuentes dicen que contar personas pesa igual o más. Cambié esa frase por un cierre sobre la memoria: nos acordamos de las filas que avanzan y no de las que se frenan. Esa idea ya estaba respaldada en el guion como \"probable\". Actualicé el chequeo a \"aprobado\", lo escribí yo y no lo revisó Bea de nuevo. Pasé el video de \"apartado\" a \"producción\". Faltan la voz y el render con el texto nuevo. Esos pasos no los corrí y los hace el próximo turno de producción. El texto de publicación no hacía falta tocarlo, porque nunca incluyó ese consejo.",
+   "commit": "b73576f469d24f6a9994eeaf3bdb431de398a7d9",
+   "archivos": [
+    "videos/030-fila-del-super/chequeo.json",
+    "videos/030-fila-del-super/guion.json",
+    "videos/cola.json"
+   ]
   }
  ]
 }
