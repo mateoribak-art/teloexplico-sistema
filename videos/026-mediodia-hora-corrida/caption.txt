@@ -12,6 +12,6 @@ Probalo hoy: a las doce tu sombra todavía se está achicando.
 
 ¿Desde qué provincia nos estás viendo?
 
-Fuentes: Servicio de Hidrografía Naval (hora oficial), Instituto Geográfico Nacional (extremos del país), cálculo del mediodía solar con la ecuación del tiempo (método de la NOAA).
+Fuentes: Ley 26.350 (huso horario UTC−3), extremos del país entre 53°38' O y unos 73°30' O según fuentes oficiales, cálculo propio del mediodía solar con la ecuación del tiempo.
 
 #datoscuriosos #argentina #mendoza #buenosaires #hora
