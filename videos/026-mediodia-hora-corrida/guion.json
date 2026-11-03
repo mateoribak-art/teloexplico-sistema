@@ -6,8 +6,8 @@
   "destinatario": "se lo manda alguien que almuerza a las doce a un amigo que almuerza a la una y dice que es tarde, para decirle que para el sol todavía es temprano",
   "fuentes": [
     "Hora oficial argentina: UTC−3 todo el año, cuyo meridiano de referencia es 45° O (Ley 26.350; 15° de longitud por hora)",
-    "Extremos de longitud de Argentina continental: 53° 38' O (Bernardo de Irigoyen, Misiones) y unos 73° 30' O (Santa Cruz), según fuentes oficiales",
-    "Mediodía solar calculado a mano con la ecuación del tiempo: Buenos Aires (58,4° O) entre 12:37 y 13:08 según la fecha; Mendoza (68,8° O) entre 13:19 y 13:50",
+    "Extremos de longitud de Argentina continental: unos 53°38' O (este, Misiones) y unos 73°30' O (oeste, Santa Cruz); la cifra exacta del oeste varía según la fuente (73°27' a 73°34')",
+    "Mediodía solar calculado con la ecuación del tiempo: Buenos Aires (58,4° O) entre 12:37 y 13:08 según la fecha; Mendoza (68,8° O) entre 13:19 y 13:50",
     "El sol recorre 1° de longitud cada 4 minutos: de 53,6° O a 73,5° O son unos 20° = unos 80 minutos"
   ],
   "frases": [
