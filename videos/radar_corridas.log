@@ -87,3 +87,10 @@ Fuentes consultadas:
 - [La Nación: alertas del SMN, 31 de julio](https://www.lanacion.com.ar/sociedad/tormentas-viento-zonda-y-nevadas-las-provincias-bajo-alerta-del-smn-este-viernes-y-el-pronostico-nid31072026/)
 Uso: 9 pasos · 16,874 tokens nuevos · 101,117 de caché · 1,348 escritos · equivale a US$ 0.11 de API
 2026-11-02 19:25 Termina el radar (ok).
+2026-11-03 17:13 Arranca el radar.
+Decidí no producir ningún video de actualidad hoy. Las dos búsquedas web (alertas del SMN y clima de la semana) solo devolvieron resultados de julio de 2026 o de noviembre de 2025, nada fechado de hoy. Descarté tres candidatos y los anoté en `videos/radar.log`:
+- **Ciclogénesis del "jueves 6 de noviembre":** es de 2025.
+- **Ola de calor y tormentas en AMBA:** no pude verificar la fecha, y granizo y sensación térmica ya los cubren los videos 024 y 019.
+- **El Niño y el pronóstico trimestral del SMN:** ya está en el video 016.
+Uso: 9 pasos · 18,292 tokens nuevos · 102,723 de caché · 1,113 escritos · equivale a US$ 0.12 de API
+2026-11-03 17:14 Termina el radar (ok).

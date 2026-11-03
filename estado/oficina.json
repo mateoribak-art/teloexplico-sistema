@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T15:48",
+ "actualizado": "2026-11-03T17:14",
  "oficinas": [
   {
    "clave": "es",
@@ -42,6 +42,13 @@
    ],
    "linea": [
     {
+     "slug": "026-mediodia-hora-corrida",
+     "tema": "¿A qué hora es el mediodía en Argentina? La hora corrida: el sol llega más tarde que el reloj",
+     "estado": "render",
+     "cuando": "2026-11-03T15:32",
+     "motivo": "rehacer: tope de render subido a 90 min"
+    },
+    {
      "slug": "014-celular-arroz",
      "tema": "El celular mojado se arregla en arroz: Apple dice que no",
      "estado": "listo",
@@ -68,13 +75,6 @@
      "estado": "listo",
      "cuando": "2026-10-30T17:59",
      "motivo": "render sin Claude"
-    },
-    {
-     "slug": "026-mediodia-hora-corrida",
-     "tema": "¿A qué hora es el mediodía en Argentina? La hora corrida: el sol llega más tarde que el reloj",
-     "estado": "apartado",
-     "cuando": "2026-11-03T09:03",
-     "motivo": "render/control: el render pasó los 50 min"
     },
     {
      "slug": "009-ventilador-pieza-vacia",
@@ -109,7 +109,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-03T15:48",
-     "hace": "recién",
+     "hace": "hace 1 h",
      "detalle": [
       "Uso: 51 pasos · 71,967 tokens nuevos · 1,427,252 de caché · 15,077 escritos · equivale a US$ 0.58 de API",
       "2026-11-03 15:33 Arranca la producción (8 listos en la cola, meta 10).",
@@ -121,7 +121,9 @@
       "2026-11-03 15:48 030-fila-del-super: listo (render sin Claude)",
       "2026-11-03 15:48 Termina la producción (ok)."
      ],
-     "tareas": [],
+     "tareas": [
+      "026-mediodia-hora-corrida — ¿A qué hora es el mediodía en Argentina? La hora corrida: el sol llega más tarde que el reloj"
+     ],
      "arreglo": null,
      "solo": false,
      "firma": "5e5a54942854"
@@ -165,13 +167,13 @@
       }
      },
      "estado": "ok",
-     "resumen": "Revisión radar. Búsqueda web (alertas SMN hoy): nada fechado de hoy (lo más reciente es de julio 2026). Sin tema de actualidad verificable; sigue la cola normal",
-     "cuando": "2026-11-02T19:25",
-     "hace": "hace 20 h",
+     "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y clima de la semana): solo resultados de julio 2026 o de noviembre 2025 (días de la semana que no coinciden), na",
+     "cuando": "2026-11-03T17:14",
+     "hace": "recién",
      "detalle": [
-      "24/10 00:00 | Revisión radar. Candidatos: (1) semana de lluvias/tormentas en BA y 9-10 provincias (alertas SMN 22-25 oct) -> ELEGIDO, ángulo propio \"por qué huele a lluvia\" (petricor/geosmina), posta ya hizo El Niño; (2) El Niño fuerte 2027 y cosecha de vino -> muy de nicho/futuro; (3) calor extremo oct-dic -> todavía no se vive hoy, se guarda. Slug: 004-olor-a-lluvia (--actualidad).",
       "30/10 00:00 | Revisión radar. Sin resultados fechados de hoy; no se produce video de actualidad.",
-      "02/11 00:00 | Revisión radar. Búsqueda web (alertas SMN hoy): nada fechado de hoy (lo más reciente es de julio 2026). Sin tema de actualidad verificable; sigue la cola normal. Segunda pasada: descartados (a) tormentas/granizo de inicio de noviembre (Meteored sin año verificable; granizo ya tiene 005 y 024), (b) ola de calor de fines de octubre (sin fuente fechada de hoy, y calor/sensación térmica ya cubiertos en 019)."
+      "02/11 00:00 | Revisión radar. Búsqueda web (alertas SMN hoy): nada fechado de hoy (lo más reciente es de julio 2026). Sin tema de actualidad verificable; sigue la cola normal. Segunda pasada: descartados (a) tormentas/granizo de inicio de noviembre (Meteored sin año verificable; granizo ya tiene 005 y 024), (b) ola de calor de fines de octubre (sin fuente fechada de hoy, y calor/sensación térmica ya cubiertos en 019).",
+      "03/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y clima de la semana): solo resultados de julio 2026 o de noviembre 2025 (días de la semana que no coinciden), nada fechado de hoy. Descartados: (a) tormentas/ciclogénesis del \"jueves 6 de noviembre\" (es de 2025), (b) ola de calor extrema + tormentas en AMBA (Cronista, sin fecha verificable; granizo y sensación térmica ya cubiertos), (c) El Niño/trimestral SMN (ya está 016). Sin tema verificable; sigue la cola normal."
      ],
      "tareas": [
       "🔥 004-olor-a-lluvia — ¿Por qué la tierra huele así cuando llueve?",
@@ -182,7 +184,7 @@
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "630c805935d7"
+     "firma": "a6d914fbb88a"
     },
     {
      "id": "chequeo",
@@ -201,7 +203,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-03T15:48",
-     "hace": "recién",
+     "hace": "hace 1 h",
      "detalle": [
       "024-granizo-corto: aprobado — Se verificaron con búsqueda web todas las afirmaciones fácticas del guion (9 frases) y del caption. Ninguna es falsa ni dudosa. Las cifras l",
       "025-noquis-del-29: aprobado — Revisado el texto actual contra las tres fuentes citadas, consultadas en esta pasada. No hay afirmaciones falsas ni cifras. Lo no confirmado",
@@ -234,7 +236,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-03T15:48",
-     "hace": "recién",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -255,17 +257,17 @@
        "cuenta": "es"
       }
      },
-     "estado": "falla",
-     "resumen": "Falló el render de 026-mediodia-hora-corrida.",
+     "estado": "trabajando",
+     "resumen": "1 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
      "cuando": "2026-11-03T15:48",
-     "hace": "recién",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [
-      "026-mediodia-hora-corrida: render/control: el render pasó los 50 min"
+      "026-mediodia-hora-corrida"
      ],
-     "arreglo": "Relanzá la producción: los videos en estado render se vuelven a renderizar solos.",
+     "arreglo": null,
      "solo": false,
-     "firma": "c946a3ccbe11"
+     "firma": "26b16992f9f3"
     },
     {
      "id": "control",
@@ -284,7 +286,7 @@
      "estado": "ok",
      "resumen": "9 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-03T15:48",
-     "hace": "recién",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -308,7 +310,7 @@
      "estado": "ok",
      "resumen": "Último: 010-rayo-mismo-lugar.",
      "cuando": "2026-11-03T12:34",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "02/11 19:32 009-ventilador-pieza-vacia publicado: https://www.instagram.com/reel/DfQYvyxFQot/",
       "02/11 19:33 009-ventilador-pieza-vacia publicado en Facebook: https://www.facebook.com/reel/1386922759941013/",
@@ -345,7 +347,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-03T12:34",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "02/11 12:34 024-granizo-corto https://youtube.com/shorts/uOV51zoj-8Q | privacidad: public",
       "02/11 12:34 024-granizo-corto paquete para TikTok/YouTube enviado",
@@ -377,7 +379,7 @@
      "estado": "ok",
      "resumen": "1 listo(s) para las 16:00.",
      "cuando": "2026-11-03T09:53",
-     "hace": "hace 5 h",
+     "hace": "hace 7 h",
      "detalle": [
       "2026-10-31 19:02 vuelta-carne: publicado https://www.instagram.com/p/DfLLzq9I7ZT/",
       "2026-11-02 17:42 descongelar-mesada: listo control OK",
@@ -410,7 +412,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:15",
-     "hace": "hace 18 h",
+     "hace": "hace 19 h",
      "detalle": [
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
       "02/11 04:22 Hay 12 comentarios nuevos: arranca la respuesta.",
@@ -449,7 +451,7 @@
      "estado": "ok",
      "resumen": "03/11: 365 seguidores",
      "cuando": "2026-11-03T03:37",
-     "hace": "hace 12 h",
+     "hace": "hace 13 h",
      "detalle": [
       "31/10: 329 seguidores",
       "01/11: 341 seguidores",
@@ -480,17 +482,15 @@
        "modo": "vigilar"
       }
      },
-     "estado": "aviso",
-     "resumen": "Video apartado: 026-mediodia-hora-corrida — render/control: el render pasó los 50 min",
-     "cuando": "2026-11-03T15:48",
+     "estado": "ok",
+     "resumen": "Todo en orden ✓",
+     "cuando": "2026-11-03T17:14",
      "hace": "recién",
-     "detalle": [
-      "⚠️ Video apartado: 026-mediodia-hora-corrida — render/control: el render pasó los 50 min"
-     ],
+     "detalle": [],
      "tareas": [],
      "arreglo": null,
-     "solo": true,
-     "firma": "13b3b5606fa8"
+     "solo": false,
+     "firma": "cf3a22f5d39c"
     },
     {
      "id": "planb",
@@ -605,7 +605,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-03T14:52",
-     "hace": "hace 56 min",
+     "hace": "hace 2 h",
      "detalle": [
       "Uso: 2 pasos · 2,496 tokens nuevos · 227,610 de caché · 284 escritos · equivale a US$ 1.33 de API",
       "2026-11-03 14:33 Arranca la producción (0 listos en la cola, meta 6).",
@@ -637,20 +637,20 @@
       }
      },
      "estado": "ok",
-     "resumen": "Sexta pasada del radar: la búsqueda web no devolvió clima ni tendencias verificables de las últimas 48 h (solo blogs sin fecha y notas viejas). Descartados: (1)",
-     "cuando": "2026-11-02T19:25",
-     "hace": "hace 20 h",
+     "resumen": "Séptima pasada del radar: la búsqueda web solo devolvió páginas de AccuWeather sin fecha clara y notas de 2025; nada verificable de las últimas 48 h. Descartado",
+     "cuando": "2026-11-03T17:14",
+     "hace": "recién",
      "detalle": [
-      "29/10 00:00 Cuarta pasada del radar: la búsqueda web solo devolvió notas viejas (2013–2024) y una de septiembre 2026; nada verificable de las últimas 48 h. Descartados: (1) nor'easter/helada: nota de hace 5 semanas, sin fuente oficial del día; (2) auroras: sin alerta del SWPC confirmada; (3) cambio de hora (1/11): ya publicado (en-002). Halloween ya cubierto (en-004). Sin tema nuevo.",
       "30/10 00:00 Quinta pasada del radar: la búsqueda web no devolvió nada verificable de las últimas 48 h (solo notas viejas, blogs sin fecha y una página del NWS de Fort Worth del 23/10 con clima tranquilo). Descartados: (1) clima del fin de semana: sin alerta nacional ni fuente oficial del día; (2) cambio de hora (domingo 1/11): ya publicado (en-002); (3) Halloween: ya cubierto (en-004). Sin tema nuevo.",
-      "02/11 00:00 Sexta pasada del radar: la búsqueda web no devolvió clima ni tendencias verificables de las últimas 48 h (solo blogs sin fecha y notas viejas). Descartados: (1) cambio de hora (terminó el 1/11): ya publicado (en-002), el momento pasó; (2) clima de la semana: sin alerta nacional ni fuente oficial del día; (3) Sunshine Protection Act: es política, descartado. Sin tema nuevo."
+      "02/11 00:00 Sexta pasada del radar: la búsqueda web no devolvió clima ni tendencias verificables de las últimas 48 h (solo blogs sin fecha y notas viejas). Descartados: (1) cambio de hora (terminó el 1/11): ya publicado (en-002), el momento pasó; (2) clima de la semana: sin alerta nacional ni fuente oficial del día; (3) Sunshine Protection Act: es política, descartado. Sin tema nuevo.",
+      "03/11 00:00 Séptima pasada del radar: la búsqueda web solo devolvió páginas de AccuWeather sin fecha clara y notas de 2025; nada verificable de las últimas 48 h. Descartados: (1) \"pattern flip\" de la primera semana de noviembre (AccuWeather): fecha dudosa, sin fuente oficial del día; (2) superluna del 24/11: todavía lejos; (3) cambio de hora: ya publicado (en-002), el momento pasó. Sin tema nuevo."
      ],
      "tareas": [
       "🔥 en-002-dst-farmers — Is daylight saving time for farmers? (fall back Nov 1)"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "22ac8d2afa52"
+     "firma": "078ec01d06f0"
     },
     {
      "id": "chequeo",
@@ -669,7 +669,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-03T14:52",
-     "hace": "hace 56 min",
+     "hace": "hace 2 h",
      "detalle": [
       "en-010-thermostat-night: aprobado — Todas las cifras (7 a 10 °F, 8 horas por dia, hasta 10% por año) coinciden con Energy.gov (Energy Saver, thermostats / programmable thermost",
       "en-011-thaw-counter: aprobado — Se releyeron guion.json y caption.txt con las correcciones aplicadas. Todas las frases de salud/seguridad quedan verificadas contra USDA FSI",
@@ -702,7 +702,7 @@
      "estado": "aviso",
      "resumen": "La voz no coincidió con el guion en en-012-thunder-count.",
      "cuando": "2026-11-03T14:52",
-     "hace": "hace 56 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [
       "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go "
@@ -728,7 +728,7 @@
      "estado": "falla",
      "resumen": "Falló el render de en-012-thunder-count.",
      "cuando": "2026-11-03T14:52",
-     "hace": "hace 56 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [
       "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste"
@@ -754,7 +754,7 @@
      "estado": "ok",
      "resumen": "1 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-03T14:52",
-     "hace": "hace 56 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -778,7 +778,7 @@
      "estado": "ok",
      "resumen": "Último: en-015-rain-smell.",
      "cuando": "2026-11-03T12:36",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "02/11 12:36 en-016-too-cold-snow en la bandeja de TikTok",
       "02/11 12:37 en-016-too-cold-snow paquete para TikTok/YouTube enviado",
@@ -815,7 +815,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-03T12:36",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "01/11 19:38 en-013-searing-juices en la bandeja de TikTok",
       "01/11 19:38 en-013-searing-juices paquete para TikTok/YouTube enviado",
@@ -850,7 +850,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:16",
-     "hace": "hace 18 h",
+     "hace": "hace 19 h",
      "detalle": [
       "01/11 18:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
@@ -885,7 +885,7 @@
      "estado": "ok",
      "resumen": "03/11: 3 seguidores",
      "cuando": "2026-11-03T03:37",
-     "hace": "hace 12 h",
+     "hace": "hace 13 h",
      "detalle": [
       "31/10: 2 seguidores",
       "01/11: 2 seguidores",
@@ -918,7 +918,7 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 1 videos listos: alcanza para 0.5 día(s).",
-     "cuando": "2026-11-03T15:48",
+     "cuando": "2026-11-03T17:14",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s).",
@@ -1080,20 +1080,19 @@
    ]
   },
   {
-   "id": "11031529-es-chequeo",
-   "creado": "2026-11-03T15:30",
-   "empleado": "es/chequeo",
+   "id": "11031529-es-animador",
+   "creado": "2026-11-03T15:31",
+   "empleado": "es/animador",
    "estado": "aplicado",
    "auto": true,
-   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Bea (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): 030-fila-del-super.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\n030-fila-del-super: chequeo rechazado 2 veces: consejo del carrito lleno sin respaldo (las fuentes dicen que contar personas pesa igual o más)\nRegistro:\n024-granizo-corto: aprobado — Se verificaron con búsqueda web todas las afirmaciones fácticas del guion (9 frases) y del caption. Ninguna es falsa ni dudosa. Las cifras l\n025-noquis-del-29: aprobado — Revisado el texto actual contra las tres fuentes citadas, consultadas en esta pasada. No hay afirmaciones falsas ni cifras. Lo no confirmado\n026-mediodia-hora-corrida: aprobado — Tercera pasada (técnico): se quitaron del caption y del guion las atribuciones no verificables (Instituto Geográfico Nacional, Servicio de H\n027-bondi-de-brasil: aprobado — Segundo chequeo. Se sacó la cifra 1883 y 'bond = bono', y lo que quedó está respaldado y matizado. La entrada DHLE (https://www.rae.es/dhle/\n028-yerba-por-ano: aprobado — Segundo chequeo con búsqueda web. Las dos cifras del guion y del caption coinciden con sus fuentes: Informe Yerba Mate de la Secretaría de A\n029-cataratas-por-segundo: aprobado — Segunda pasada: todas las cifras (caudal normal ~1.500 m3/s atribuido a autoridades del Parque, pileta olímpica 50x25x2 m = 2.500 m3, cuenta\n030-fila-del-super: rechazado — La frase 7 d",
-   "firma": "e9f9ff21891f",
-   "actualizado": "2026-11-03T15:30",
-   "titulo": "Se rescató el video 030 de la fila del súper: saqué el consejo sin respaldo y lo devolví a producción.",
-   "resumen": "Bea lo frenó porque el cierre decía \"fijate quién viene con el carrito lleno en vez de contar personas\". Eso no tiene respaldo, y las fuentes dicen que contar personas pesa igual o más. Cambié esa frase por un cierre sobre la memoria: nos acordamos de las filas que avanzan y no de las que se frenan. Esa idea ya estaba respaldada en el guion como \"probable\". Actualicé el chequeo a \"aprobado\", lo escribí yo y no lo revisó Bea de nuevo. Pasé el video de \"apartado\" a \"producción\". Faltan la voz y el render con el texto nuevo. Esos pasos no los corrí y los hace el próximo turno de producción. El texto de publicación no hacía falta tocarlo, porque nunca incluyó ese consejo.",
-   "commit": "b73576f469d24f6a9994eeaf3bdb431de398a7d9",
+   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Juli (Animación y render) está en \"falla\": Falló el render de 026-mediodia-hora-corrida.\nLo que sugiere la oficina: Relanzá la producción: los videos en estado render se vuelven a renderizar solos.\nTareas:\n026-mediodia-hora-corrida: render/control: el render pasó los 50 min\n",
+   "firma": "c946a3ccbe11",
+   "actualizado": "2026-11-03T15:32",
+   "titulo": "El render del 026 se cortaba a los 50 minutos; subí el tope a 90 y lo relancé",
+   "resumen": "El video 026 (mediodía y hora corrida) tiene un mapa 3D pesado y tardaba más de 50 minutos en renderizar. El sistema lo cortaba y lo apartaba, y ya pasó dos veces. Subí el tope de espera a 90 minutos en `herramientas/producir.py` (el flujo de la nube aguanta hasta 350). Devolví el video a estado \"render\" y relancé la producción. Debería renderizar solo y pasar a \"listo\". No pude renderizarlo acá porque tarda más que el límite de comandos. Si vuelve a pasar de 90 minutos, habrá que aligerar la escena.",
+   "commit": "c296e4137dcf7fdd015cd19ad63ff18421ecff30",
    "archivos": [
-    "videos/030-fila-del-super/chequeo.json",
-    "videos/030-fila-del-super/guion.json",
+    "herramientas/producir.py",
     "videos/cola.json"
    ]
   }
