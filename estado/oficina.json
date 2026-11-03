@@ -1,12 +1,12 @@
 {
- "actualizado": "2026-11-03T03:37",
+ "actualizado": "2026-11-03T03:39",
  "oficinas": [
   {
    "clave": "es",
    "usuario": "teloexplico.ar",
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
-   "seguidores": 365,
+   "seguidores": 354,
    "listos": 7,
    "dias": 3.5,
    "proximo": "010-rayo-mismo-lugar",
@@ -42,13 +42,6 @@
    ],
    "linea": [
     {
-     "slug": "026-mediodia-hora-corrida",
-     "tema": "¿A qué hora es el mediodía en Argentina? La hora corrida: el sol llega más tarde que el reloj",
-     "estado": "render",
-     "cuando": "2026-11-03T03:37",
-     "motivo": "reintento auto: apartado por render/control; se renderiza y controla de nuevo"
-    },
-    {
      "slug": "010-rayo-mismo-lugar",
      "tema": "¿Un rayo nunca cae dos veces en el mismo lugar?",
      "estado": "listo",
@@ -75,6 +68,13 @@
      "estado": "listo",
      "cuando": "2026-10-27T22:17",
      "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
+    },
+    {
+     "slug": "026-mediodia-hora-corrida",
+     "tema": "¿A qué hora es el mediodía en Argentina? La hora corrida: el sol llega más tarde que el reloj",
+     "estado": "apartado",
+     "cuando": "2026-11-03T01:01",
+     "motivo": "render/control: el render pasó los 50 min"
     },
     {
      "slug": "009-ventilador-pieza-vacia",
@@ -121,9 +121,7 @@
       "2026-11-03 01:01 026-mediodia-hora-corrida: apartado (render/control: el render pasó los 50 min)",
       "2026-11-03 01:01 Termina la producción (ok)."
      ],
-     "tareas": [
-      "026-mediodia-hora-corrida — ¿A qué hora es el mediodía en Argentina? La hora corrida: el sol llega más tarde que el reloj"
-     ],
+     "tareas": [],
      "arreglo": null,
      "solo": false,
      "firma": "5e5a54942854"
@@ -257,17 +255,17 @@
        "cuenta": "es"
       }
      },
-     "estado": "trabajando",
-     "resumen": "1 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
+     "estado": "falla",
+     "resumen": "Falló el render de 026-mediodia-hora-corrida.",
      "cuando": "2026-11-02T20:42",
      "hace": "hace 6 h",
      "detalle": [],
      "tareas": [
-      "026-mediodia-hora-corrida"
+      "026-mediodia-hora-corrida: render/control: el render pasó los 50 min"
      ],
-     "arreglo": null,
+     "arreglo": "Relanzá la producción: los videos en estado render se vuelven a renderizar solos.",
      "solo": false,
-     "firma": "26b16992f9f3"
+     "firma": "c946a3ccbe11"
     },
     {
      "id": "control",
@@ -447,25 +445,25 @@
       }
      },
      "estado": "ok",
-     "resumen": "03/11: 365 seguidores",
-     "cuando": "2026-11-03T03:37",
-     "hace": "recién",
+     "resumen": "02/11: 354 seguidores",
+     "cuando": "2026-11-02T02:52",
+     "hace": "hace 24 h",
      "detalle": [
+      "30/10: 296 seguidores",
       "31/10: 329 seguidores",
       "01/11: 341 seguidores",
-      "02/11: 354 seguidores",
-      "03/11: 365 seguidores"
+      "02/11: 354 seguidores"
      ],
      "tareas": [
-      "001-heladera: 136.732 vistas · 5303 enviados · 2598 ♥",
-      "007-bts-13-anios: 27.539 vistas · 555 enviados · 2558 ♥",
-      "006-army-bomb: 8.307 vistas · 49 enviados · 503 ♥",
-      "003-vuelta-carne: 4.016 vistas · 24 enviados · 92 ♥",
-      "020-pava-se-corta: 1.930 vistas · 3 enviados · 68 ♥"
+      "001-heladera: 132.598 vistas · 5076 enviados · 2495 ♥",
+      "007-bts-13-anios: 27.124 vistas · 544 enviados · 2500 ♥",
+      "006-army-bomb: 8.249 vistas · 49 enviados · 501 ♥",
+      "003-vuelta-carne: 3.944 vistas · 24 enviados · 91 ♥",
+      "020-pava-se-corta: 1.926 vistas · 3 enviados · 67 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "206d8c6fde6a"
+     "firma": "27f99bebd3c0"
     },
     {
      "id": "vigilante",
@@ -480,15 +478,17 @@
        "modo": "vigilar"
       }
      },
-     "estado": "ok",
-     "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-03T03:37",
+     "estado": "aviso",
+     "resumen": "Video apartado: 026-mediodia-hora-corrida — render/control: el render pasó los 50 min",
+     "cuando": "2026-11-03T03:39",
      "hace": "recién",
-     "detalle": [],
+     "detalle": [
+      "⚠️ Video apartado: 026-mediodia-hora-corrida — render/control: el render pasó los 50 min"
+     ],
      "tareas": [],
      "arreglo": null,
-     "solo": false,
-     "firma": "cf3a22f5d39c"
+     "solo": true,
+     "firma": "13b3b5606fa8"
     },
     {
      "id": "planb",
@@ -557,18 +557,18 @@
    ],
    "linea": [
     {
+     "slug": "en-012-thunder-count",
+     "tema": "How far away is the storm? Count flash to thunder (adapted from 018)",
+     "estado": "produccion",
+     "cuando": "2026-11-03T03:45",
+     "motivo": "oficina: la voz dio 40% tres veces; saqué las comillas del estilo de la frase 4 y se rehace voz, render y control"
+    },
+    {
      "slug": "en-015-rain-smell",
      "tema": "Why does rain smell like that? petrichor (adapted from 004)",
      "estado": "listo",
      "cuando": "2026-11-02T21:12",
      "motivo": "render sin Claude"
-    },
-    {
-     "slug": "en-012-thunder-count",
-     "tema": "How far away is the storm? Count flash to thunder (adapted from 018)",
-     "estado": "apartado",
-     "cuando": "2026-11-03T01:27",
-     "motivo": "render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go "
     },
     {
      "slug": "en-014-birthday-pairs",
@@ -702,17 +702,15 @@
        "cuenta": "en"
       }
      },
-     "estado": "aviso",
-     "resumen": "La voz no coincidió con el guion en en-012-thunder-count.",
+     "estado": "ok",
+     "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-02T21:12",
      "hace": "hace 6 h",
      "detalle": [],
-     "tareas": [
-      "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go "
-     ],
-     "arreglo": "Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.",
+     "tareas": [],
+     "arreglo": null,
      "solo": false,
-     "firma": "953dc1971713"
+     "firma": "c766d204df67"
     },
     {
      "id": "animador",
@@ -728,17 +726,15 @@
        "cuenta": "en"
       }
      },
-     "estado": "falla",
-     "resumen": "Falló el render de en-012-thunder-count.",
+     "estado": "ok",
+     "resumen": "Último video terminado: 2026-11-02 21:12.",
      "cuando": "2026-11-02T21:12",
      "hace": "hace 6 h",
      "detalle": [],
-     "tareas": [
-      "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste"
-     ],
-     "arreglo": "Relanzá la producción: los videos en estado render se vuelven a renderizar solos.",
+     "tareas": [],
+     "arreglo": null,
      "solo": false,
-     "firma": "f53050cb6af8"
+     "firma": "816f8967056c"
     },
     {
      "id": "control",
@@ -886,25 +882,25 @@
       }
      },
      "estado": "ok",
-     "resumen": "03/11: 3 seguidores",
-     "cuando": "2026-11-03T03:37",
-     "hace": "recién",
+     "resumen": "02/11: 3 seguidores",
+     "cuando": "2026-11-02T02:52",
+     "hace": "hace 24 h",
      "detalle": [
+      "30/10: 2 seguidores",
       "31/10: 2 seguidores",
       "01/11: 2 seguidores",
-      "02/11: 3 seguidores",
-      "03/11: 3 seguidores"
+      "02/11: 3 seguidores"
      ],
      "tareas": [
-      "en-001-phone-rice: 4.020 vistas · 22 enviados · 52 ♥",
-      "en-007-flip-steak: 3.374 vistas · 18 enviados · 36 ♥",
-      "en-009-ceiling-fan: 3.053 vistas · 2 enviados · 40 ♥",
+      "en-001-phone-rice: 4.010 vistas · 22 enviados · 52 ♥",
+      "en-007-flip-steak: 3.372 vistas · 18 enviados · 36 ♥",
+      "en-009-ceiling-fan: 3.043 vistas · 2 enviados · 40 ♥",
       "en-006-five-second-rule: 2.254 vistas · 22 enviados · 52 ♥",
-      "en-008-wash-chicken: 2.193 vistas · 3 enviados · 19 ♥"
+      "en-008-wash-chicken: 2.189 vistas · 3 enviados · 18 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "4e5526f571b8"
+     "firma": "7e4413638e20"
     },
     {
      "id": "vigilante",
@@ -921,11 +917,10 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 1 videos listos: alcanza para 0.5 día(s).",
-     "cuando": "2026-11-03T03:37",
+     "cuando": "2026-11-03T03:39",
      "hace": "recién",
      "detalle": [
-      "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s).",
-      "⚠️ Video apartado: en-012-thunder-count — render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Us"
+      "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -1076,13 +1071,20 @@
   },
   {
    "id": "11030337-en-voz",
-   "creado": "2026-11-03T03:37",
+   "creado": "2026-11-03T03:38",
    "empleado": "en/voz",
-   "firma": "953dc1971713",
-   "estado": "pedido",
+   "estado": "aplicado",
    "auto": true,
    "problema": "En la oficina de Nueva York (@letmeexplain.us), Leo (Locutor) está en \"aviso\": La voz no coincidió con el guion en en-012-thunder-count.\nLo que sugiere la oficina: Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.\nTareas:\nen-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go \n",
-   "actualizado": "2026-11-03T03:37"
+   "firma": "953dc1971713",
+   "actualizado": "2026-11-03T03:39",
+   "titulo": "El video del trueno en inglés fallaba por la voz: corregí el guion y lo mandé a rehacer.",
+   "resumen": "No era un falso rechazo. El control dio 40 % de coincidencia tres veces seguidas, y el 91–92 % que citaba la oficina corresponde a otro video. El guion de `en-012-thunder-count` es el único con comillas dentro de una indicación de estilo (\"pausa antes de 'takes its time'\"). Eso probablemente confundía a la voz de Gemini, porque recibe todas las frases juntas. No pude comprobarlo, porque el audio y el video están en la nube y no en el repositorio. Cambié esa indicación por otra sin comillas en `guion.json` y pasé el video de \"apartado\" a \"produccion\" en `videos/en/cola.json`. En el próximo turno en inglés se genera la voz de nuevo, se renderiza y se controla. Si vuelve a dar 40 %, el problema es otro y hay que mirar el audio generado.",
+   "commit": "047c5d0ba1b0de36c76f3754e5e6e4a57e29fc71",
+   "archivos": [
+    "videos/en/cola.json",
+    "videos/en/en-012-thunder-count/guion.json"
+   ]
   }
  ]
 }

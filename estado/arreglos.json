@@ -310,12 +310,19 @@
  },
  {
   "id": "11030337-en-voz",
-  "creado": "2026-11-03T03:37",
+  "creado": "2026-11-03T03:38",
   "empleado": "en/voz",
-  "firma": "953dc1971713",
-  "estado": "pedido",
+  "estado": "aplicado",
   "auto": true,
   "problema": "En la oficina de Nueva York (@letmeexplain.us), Leo (Locutor) está en \"aviso\": La voz no coincidió con el guion en en-012-thunder-count.\nLo que sugiere la oficina: Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.\nTareas:\nen-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go \n",
-  "actualizado": "2026-11-03T03:37"
+  "firma": "953dc1971713",
+  "actualizado": "2026-11-03T03:39",
+  "titulo": "El video del trueno en inglés fallaba por la voz: corregí el guion y lo mandé a rehacer.",
+  "resumen": "No era un falso rechazo. El control dio 40 % de coincidencia tres veces seguidas, y el 91–92 % que citaba la oficina corresponde a otro video. El guion de `en-012-thunder-count` es el único con comillas dentro de una indicación de estilo (\"pausa antes de 'takes its time'\"). Eso probablemente confundía a la voz de Gemini, porque recibe todas las frases juntas. No pude comprobarlo, porque el audio y el video están en la nube y no en el repositorio. Cambié esa indicación por otra sin comillas en `guion.json` y pasé el video de \"apartado\" a \"produccion\" en `videos/en/cola.json`. En el próximo turno en inglés se genera la voz de nuevo, se renderiza y se controla. Si vuelve a dar 40 %, el problema es otro y hay que mirar el audio generado.",
+  "commit": "047c5d0ba1b0de36c76f3754e5e6e4a57e29fc71",
+  "archivos": [
+   "videos/en/cola.json",
+   "videos/en/en-012-thunder-count/guion.json"
+  ]
  }
 ]
