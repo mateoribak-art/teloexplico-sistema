@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02T21:12",
+ "actualizado": "2026-11-02T21:16",
  "oficinas": [
   {
    "clave": "es",
@@ -7,8 +7,8 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 354,
-   "listos": 7,
-   "dias": 3.5,
+   "listos": 6,
+   "dias": 3.0,
    "proximo": "010-rayo-mismo-lugar",
    "publicados": 20,
    "pausa": false,
@@ -108,18 +108,24 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-02T20:42",
-     "hace": "hace 30 min",
+     "cuando": "2026-11-02T17:43",
+     "hace": "hace 3 h",
      "detalle": [
-      "Uso: 24 pasos · 18,022 tokens nuevos · 1,557,281 de caché · 4,422 escritos · equivale a US$ 1.33 de API",
-      "2026-11-02 20:14 Arranca la producción (6 listos en la cola, meta 10).",
-      "- **Listo para render:** `028-yerba-por-ano` (Argentina en datos #2, seis kilos de yerba por persona por año). El segundo chequeo lo aprobó; el primero lo rechazó, y corregí un \"seguro\" absoluto y saqué el dato de los hogares, que no se pud",
-      "- **Apartados sin tocar:** `026-mediodia-hora-corrida` y `013-alcohol-calor` ya fallaron dos chequeos cada uno, así que no tenían rescate (`005-granizo-calor` está apartado pero no por chequeo rechazado).",
-      "- **Segundo video no producido:** en la corrida de la tarde ya se habían intentado 026 y 027. La cola tiene 6 videos listos más 027 y 028 en render, por debajo de los 10 pedidos.",
-      "Uso: 24 pasos · 18,022 tokens nuevos · 1,557,281 de caché · 4,422 escritos · equivale a US$ 1.33 de API",
-      "2026-11-02 20:22 Render de 028-yerba-por-ano (sin Claude).",
-      "2026-11-02 20:42 028-yerba-por-ano: listo (render sin Claude)",
-      "2026-11-02 20:42 Termina la producción (ok)."
+      "Uso: 9 pasos · 5,552 tokens nuevos · 797,515 de caché · 1,854 escritos · equivale a US$ 2.26 de API",
+      "2026-11-02 16:41 Arranca la producción (6 listos en la cola, meta 10).",
+      "Quedó un video en cola de render y otro apartado.",
+      "- **Listo para render:** `027-bondi-de-brasil` (costumbres #2, \"bondi\" viene de \"bonde\", el tranvía de Brasil). El segundo chequeo lo aprobó, la voz salió 119 oídas de 120 palabras (43,8 s), tsc pasó y la revisión visual se hizo en 2 vuelta",
+      "- **Apartado:** `026-mediodia-hora-corrida` (hora corrida), con el chequeo rechazado 2 veces. La primera vez fallaron las cifras del mediodía solar, y las corregí. La segunda vez rechazó por atribuir al IGN los extremos de longitud del país",
+      "- **No se tocaron:** `013-alcohol-calor` ya había fallado 2 veces, y `005-granizo-calor` no estaba apartado por \"chequeo rechazado\". Las entradas quedaron en `videos/produccion.log`.",
+      "El chequeo de `027` quedó con un pendiente: no se pudo abrir la entrada del diccionario histórico de la RAE, solo fragmentos del buscador, así que conviene abrirla en un navegador antes de publicar. El radar no encontró ningún tema del día.",
+      "Uso: 9 pasos · 5,552 tokens nuevos · 797,515 de caché · 1,854 escritos · equivale a US$ 2.26 de API",
+      "2026-11-02 16:54 Render de 027-bondi-de-brasil (sin Claude).",
+      "2026-11-02 17:41 027-bondi-de-brasil: listo (render sin Claude)",
+      "2026-11-02 17:41 Termina la producción (ok).",
+      "2026-11-02 17:41 Arranca el carrusel (0 listos, meta 2).",
+      "`descongelar-mesada`: quedó listo (9 placas, sale a las 16:00). Los datos son del reel `015-descongelar-mesada`.",
+      "Uso: 22 pasos · 22,819 tokens nuevos · 318,930 de caché · 3,948 escritos · equivale a US$ 0.16 de API",
+      "2026-11-02 17:43 Termina el carrusel (ok; quedan 1 listos)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -200,17 +206,17 @@
      },
      "estado": "aviso",
      "resumen": "Frenó 1 video(s): 026-mediodia-hora-corrida.",
-     "cuando": "2026-11-02T20:42",
-     "hace": "hace 30 min",
+     "cuando": "2026-11-02T19:32",
+     "hace": "hace 1 h",
      "detalle": [
+      "019-sensacion-termica: aprobado — Todas las afirmaciones fácticas quedaron verificadas con fuente (NWS, SMN vía Télam/Forbes Argentina, MIT). Cifras: 100°F=37,8°C≈38; 96°F=35",
       "021-heladera-parte-2: aprobado — Todas las afirmaciones fácticas (salud/seguridad) están verificadas contra la página primaria del USDA FSIS 'Leftovers and Food Safety'. Nin",
       "009-ventilador-pieza-vacia: aprobado — Todas las afirmaciones quedan verificadas o son consejos/humor sin dato duro. La atribución al Departamento de Energía se sostiene: la guía ",
       "023-perros-colores: aprobado — Todas las afirmaciones de salud/seguridad/plata: ninguna presente. Las afirmaciones centrales (conos, azul/amarillo, rojo/verde, comparación",
       "024-granizo-corto: aprobado — Se verificaron con búsqueda web todas las afirmaciones fácticas del guion (9 frases) y del caption. Ninguna es falsa ni dudosa. Las cifras l",
       "025-noquis-del-29: aprobado — Revisado el texto actual contra las tres fuentes citadas, consultadas en esta pasada. No hay afirmaciones falsas ni cifras. Lo no confirmado",
       "026-mediodia-hora-corrida: rechazado — Segundo chequeo. Las cifras corregidas del mediodía solar quedan verificadas: fórmula 12:00 + (long. O - 45°)x4 min - EoT; extremos de la Eo",
-      "027-bondi-de-brasil: aprobado — Segundo chequeo. Se sacó la cifra 1883 y 'bond = bono', y lo que quedó está respaldado y matizado. La entrada DHLE (https://www.rae.es/dhle/",
-      "028-yerba-por-ano: aprobado — Segundo chequeo con búsqueda web. Las dos cifras del guion y del caption coinciden con sus fuentes: Informe Yerba Mate de la Secretaría de A"
+      "027-bondi-de-brasil: aprobado — Segundo chequeo. Se sacó la cifra 1883 y 'bond = bono', y lo que quedó está respaldado y matizado. La entrada DHLE (https://www.rae.es/dhle/"
      ],
      "tareas": [
       "026-mediodia-hora-corrida: chequeo rechazado 2 veces: atribución al IGN de los extremos de longitud no verificable (73°34' vs 73°27' O); cifras del mediodía solar sin contrastar con NOAA"
@@ -235,8 +241,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-02T20:42",
-     "hace": "hace 30 min",
+     "cuando": "2026-11-02T19:32",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -258,14 +264,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-02 20:42.",
-     "cuando": "2026-11-02T20:42",
-     "hace": "hace 30 min",
+     "resumen": "Último video terminado: 2026-11-02 19:32.",
+     "cuando": "2026-11-02T19:32",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "b67ca9201715"
+     "firma": "46b1896dfd66"
     },
     {
      "id": "control",
@@ -282,14 +288,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "7 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-02T20:42",
-     "hace": "hace 30 min",
+     "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-02T19:32",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "45f87c5c43e0"
+     "firma": "7c6db386edd3"
     },
     {
      "id": "publicador",
@@ -407,29 +413,31 @@
        "cuenta": "es"
       }
      },
-     "estado": "aviso",
-     "resumen": "La última ronda terminó con problemas (casi siempre: Claude sin cuota).",
-     "cuando": "2026-11-02T04:22",
-     "hace": "hace 16 h",
+     "estado": "ok",
+     "resumen": "Termina la respuesta de comentarios (ok).",
+     "cuando": "2026-11-02T21:15",
+     "hace": "hace 1 min",
      "detalle": [
-      "01/11 04:12 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
-      "01/11 04:12 Termina la respuesta de comentarios (con problemas).",
-      "01/11 18:22 Hay 10 comentarios nuevos: arranca la respuesta.",
-      "01/11 18:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
       "02/11 04:22 Hay 12 comentarios nuevos: arranca la respuesta.",
       "02/11 04:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
-      "02/11 04:22 Termina la respuesta de comentarios (con problemas)."
+      "02/11 04:22 Termina la respuesta de comentarios (con problemas).",
+      "02/11 21:14 Hay 14 comentarios nuevos: arranca la respuesta.",
+      "02/11 00:00 Respondí 11 · salteé 1 · alerté 2. (007-bts: 6 respondidos, incluido un pedido de tema \"Ley BTS\" que quedó en ideas.md; 001-heladera: 4 respondidos, 1 salteado (solo emoji), 2 alertas a Mateo por cuestionamientos técnicos sobre heladeras; 002-corte: 1 respondido)",
+      "02/11 21:15 Termina la respuesta de comentarios (ok).",
+      "02/11 21:15 Termina la respuesta de comentarios (ok)."
      ],
      "tareas": [
-      "1 alerta",
-      "21 respondido",
-      "7 salteado",
-      "⚠️ maribibirios: \"También fueron a Chile cuando fueron a Brasil... información por favor\" — el video dice que en Latinoamér"
+      "3 alerta",
+      "32 respondido",
+      "8 salteado",
+      "⚠️ maribibirios: \"También fueron a Chile cuando fueron a Brasil... información por favor\" — el video dice que en Latinoamér",
+      "⚠️ boninoernesto: 'Lo q dice es q hay q enfriar la comida afuera... las heladeras no se la banca mucho si metes comida cali",
+      "⚠️ juan.pablo.pavoni: 'El calor después se condensa y forma hielo por más nofrost inverter...' — Sostiene que la comida cal"
      ],
-     "arreglo": "Se reintenta en la próxima ronda. Si hay muchos pendientes, relanzala.",
-     "solo": true,
-     "firma": "8303b1249d94"
+     "arreglo": null,
+     "solo": false,
+     "firma": "75363e244848"
     },
     {
      "id": "analista",
@@ -480,7 +488,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 026-mediodia-hora-corrida — chequeo rechazado 2 veces: atribución al IGN de los extremos de longitud no verificable (73°34' vs 73°27' O); cifras del",
-     "cuando": "2026-11-02T21:12",
+     "cuando": "2026-11-02T21:16",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 026-mediodia-hora-corrida — chequeo rechazado 2 veces: atribución al IGN de los extremos de longitud no verificable (73°34' vs 73°27' O); cifras del"
@@ -522,9 +530,9 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 3,
-   "listos": 1,
-   "dias": 0.5,
-   "proximo": "en-015-rain-smell",
+   "listos": 0,
+   "dias": 0.0,
+   "proximo": null,
    "publicados": 14,
    "pausa": false,
    "pendientes": [],
@@ -564,13 +572,6 @@
      "motivo": "oficina: la voz dio 40% dos veces seguidas; se rehace la voz, el render y el control"
     },
     {
-     "slug": "en-015-rain-smell",
-     "tema": "Why does rain smell like that? petrichor (adapted from 004)",
-     "estado": "listo",
-     "cuando": "2026-11-02T21:12",
-     "motivo": "render sin Claude"
-    },
-    {
      "slug": "en-014-birthday-pairs",
      "tema": "How many people for two to share a birthday? (adapted from 017)",
      "estado": "publicado",
@@ -602,18 +603,18 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-02T21:12",
-     "hace": "recién",
+     "cuando": "2026-11-02T18:20",
+     "hace": "hace 2 h",
      "detalle": [
-      "Uso: 34 pasos · 16,371 tokens nuevos · 1,077,801 de caché · 5,511 escritos · equivale a US$ 0.62 de API",
-      "2026-11-02 20:42 Arranca la producción (0 listos en la cola, meta 6).",
-      "**Listo para render:** `en-015-rain-smell`, rescatado. Saqué del guion y del caption la cifra \"a few parts per trillion\". La reemplacé por \"some people can pick up geosmin at as little as five parts per trillion\". El chequeo aprobó la versi",
-      "**Pendiente:** `en-012-thunder-count` sigue en `produccion` en la cola, aunque su log dice que ya estaba en render. No lo toqué: esta corrida es de un solo video y el otro ya estaba hecho.",
-      "**Detalle:** la serie quedó en `ciencia` #1 y el caption coincide. Antes había intentado asignar `clima` y la herramienta respondió \"Weather explained #1\", pero el estado real es `ciencia`.",
-      "Uso: 34 pasos · 16,371 tokens nuevos · 1,077,801 de caché · 5,511 escritos · equivale a US$ 0.62 de API",
-      "2026-11-02 20:47 Render de en-015-rain-smell (sin Claude).",
-      "2026-11-02 21:12 en-015-rain-smell: listo (render sin Claude)",
-      "2026-11-02 21:12 Termina la producción (ok)."
+      "Uso: 8 pasos · 6,340 tokens nuevos · 335,653 de caché · 1,052 escritos · equivale a US$ 0.52 de API",
+      "2026-11-02 17:43 Arranca la producción (0 listos en la cola, meta 6).",
+      "- **Listo para render:** `en-014-birthday-pairs`, rescatado y en estado `render`. El chequeo de datos volvió aprobado después de sacar la atribución a MathWorld de las fuentes y del caption. La voz salió bien (123 palabras en el guion, 129 ",
+      "- **Apartado (sin tocar):** `en-015-rain-smell` sigue apartado. El chequeo lo rechazó por el umbral de geosmina \"a few parts per trillion\", que cambia según la fuente. Lo dejé para otra corrida porque la consigna es producir un solo video.",
+      "- **Pendiente:** no marqué `en-014` como usada en `videos/en/ideas.md`, y `en-012-thunder-count` sigue en `produccion` en la cola.",
+      "Uso: 8 pasos · 6,340 tokens nuevos · 335,653 de caché · 1,052 escritos · equivale a US$ 0.52 de API",
+      "2026-11-02 17:49 Render de en-014-birthday-pairs (sin Claude).",
+      "2026-11-02 18:20 en-014-birthday-pairs: listo (render sin Claude)",
+      "2026-11-02 18:20 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -665,9 +666,9 @@
       }
      },
      "estado": "ok",
-     "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-02T21:12",
-     "hace": "recién",
+     "resumen": "Aprobó 7 de los últimos 8 guiones.",
+     "cuando": "2026-11-02T19:35",
+     "hace": "hace 1 h",
      "detalle": [
       "en-009-ceiling-fan: aprobado — Todas las afirmaciones de plata/energia y seguridad-practica (sentido de giro por estacion, velocidad baja en invierno, apagar al salir, 'en",
       "en-010-thermostat-night: aprobado — Todas las cifras (7 a 10 °F, 8 horas por dia, hasta 10% por año) coinciden con Energy.gov (Energy Saver, thermostats / programmable thermost",
@@ -675,13 +676,13 @@
       "en-012-thunder-count: aprobado — Todas las afirmaciones de seguridad y cifras estan respaldadas por paginas del NWS/NOAA (weather.gov) y las unidades coinciden (millas, 5 s ",
       "en-013-searing-juices: aprobado — Todas las afirmaciones están respaldadas por America's Test Kitchen / Cook's Illustrated (prueba con 8 rib-eyes: ambos lotes perdieron ~22% ",
       "en-014-birthday-pairs: aprobado — Todas las cifras (23 personas 50,7%; 40 personas 89,1%; 70 personas 99,9%; 253 pares) coinciden con Wikipedia 'Birthday problem' y MathWorld",
-      "en-015-rain-smell: aprobado — Ninguna afirmacion es falsa ni dudosa. Las de mecanismo, fecha, autores y MIT estan verificadas con fuente primaria o institucional (CSIRO, ",
+      "en-015-rain-smell: rechazado — Las tres frases reescritas (origen bacteriano 'a big part... including', 'one key ingredient', aerosoles 'may help carry the scent', 'in MIT",
       "en-016-too-cold-snow: aprobado — Todas las afirmaciones salen de la FAQ de NOAA NSSL (verificada con fetch directo) y coinciden con NWS Central Region 'Myth Buster Monday' ("
      ],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "7d1f5d89afa4"
+     "firma": "75cff8eae58a"
     },
     {
      "id": "voz",
@@ -699,8 +700,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-11-02T21:12",
-     "hace": "recién",
+     "cuando": "2026-11-02T19:35",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -722,14 +723,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-02 21:12.",
-     "cuando": "2026-11-02T21:12",
-     "hace": "recién",
+     "resumen": "Último video terminado: 2026-11-02 19:35.",
+     "cuando": "2026-11-02T19:35",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "816f8967056c"
+     "firma": "7636809bd2bb"
     },
     {
      "id": "control",
@@ -746,14 +747,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "1 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-02T21:12",
-     "hace": "recién",
+     "resumen": "0 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-02T19:35",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "ede091eebd83"
+     "firma": "7bc298a2c168"
     },
     {
      "id": "publicador",
@@ -769,8 +770,8 @@
        "cuenta": "en"
       }
      },
-     "estado": "ok",
-     "resumen": "Último: en-014-birthday-pairs.",
+     "estado": "aviso",
+     "resumen": "No hay videos listos: el próximo turno no va a publicar nada.",
      "cuando": "2026-11-02T19:36",
      "hace": "hace 1 h",
      "detalle": [
@@ -785,12 +786,10 @@
       "02/11 19:36 en-014-birthday-pairs en la bandeja de TikTok",
       "02/11 19:36 en-014-birthday-pairs paquete para TikTok/YouTube enviado"
      ],
-     "tareas": [
-      "Próximo: en-015-rain-smell — Why does rain smell like that? petrichor (adapted from 004)"
-     ],
-     "arreglo": null,
-     "solo": false,
-     "firma": "6af7753ed7e3"
+     "tareas": [],
+     "arreglo": "Relanzá la producción para que haga uno.",
+     "solo": true,
+     "firma": "b0e58befeaaa"
     },
     {
      "id": "redes",
@@ -841,24 +840,27 @@
        "cuenta": "en"
       }
      },
-     "estado": "aviso",
-     "resumen": "La última ronda terminó con problemas (casi siempre: Claude sin cuota).",
-     "cuando": "2026-11-02T04:22",
-     "hace": "hace 16 h",
+     "estado": "ok",
+     "resumen": "Termina la respuesta de comentarios (ok).",
+     "cuando": "2026-11-02T21:16",
+     "hace": "recién",
      "detalle": [
-      "01/11 04:12 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
-      "01/11 04:12 Termina la respuesta de comentarios (con problemas).",
-      "01/11 18:22 Hay 1 comentarios nuevos: arranca la respuesta.",
       "01/11 18:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
       "02/11 04:22 Hay 1 comentarios nuevos: arranca la respuesta.",
       "02/11 04:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
-      "02/11 04:22 Termina la respuesta de comentarios (con problemas)."
+      "02/11 04:22 Termina la respuesta de comentarios (con problemas).",
+      "02/11 21:15 Hay 2 comentarios nuevos: arranca la respuesta.",
+      "02/11 21:15 Resumen: respondí 1, salteé 1, alerté 0.",
+      "02/11 21:16 Termina la respuesta de comentarios (ok)."
      ],
-     "tareas": [],
-     "arreglo": "Se reintenta en la próxima ronda. Si hay muchos pendientes, relanzala.",
-     "solo": true,
-     "firma": "ef0853833916"
+     "tareas": [
+      "1 respondido",
+      "1 salteado"
+     ],
+     "arreglo": null,
+     "solo": false,
+     "firma": "6d5d1703b7df"
     },
     {
      "id": "analista",
@@ -907,17 +909,17 @@
        "modo": "vigilar"
       }
      },
-     "estado": "aviso",
-     "resumen": "Quedan 1 videos listos: alcanza para 0.5 día(s).",
-     "cuando": "2026-11-02T21:12",
+     "estado": "ok",
+     "resumen": "Revisado por el técnico: Se quedó sin videos en inglés por falta de cuota de Claude, pero la cuota ya volvió y no cambié nada.",
+     "cuando": "2026-11-02T21:16",
      "hace": "recién",
      "detalle": [
-      "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s)."
+      "❗ No hay ningún video listo en la cola: el próximo turno no va a publicar."
      ],
      "tareas": [],
      "arreglo": null,
-     "solo": true,
-     "firma": "d68cc7d78ae0"
+     "solo": false,
+     "firma": "4033f3ff4284"
     }
    ]
   }
