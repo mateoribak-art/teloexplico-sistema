@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T04:38",
+ "actualizado": "2026-11-03T04:39",
  "oficinas": [
   {
    "clave": "es",
@@ -482,7 +482,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-03T04:38",
+     "cuando": "2026-11-03T04:39",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -917,7 +917,7 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 1 videos listos: alcanza para 0.5 día(s).",
-     "cuando": "2026-11-03T04:38",
+     "cuando": "2026-11-03T04:39",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s)."
