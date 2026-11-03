@@ -18,3 +18,11 @@ Uso: 9 pasos · 5,552 tokens nuevos · 797,515 de caché · 1,854 escritos · eq
 `descongelar-mesada`: quedó listo (9 placas, sale a las 16:00). Los datos son del reel `015-descongelar-mesada`.
 Uso: 22 pasos · 22,819 tokens nuevos · 318,930 de caché · 3,948 escritos · equivale a US$ 0.16 de API
 2026-11-02 17:43 Termina el carrusel (ok; quedan 1 listos).
+2026-11-02 20:14 Arranca la producción (6 listos en la cola, meta 10).
+- **Listo para render:** `028-yerba-por-ano` (Argentina en datos #2, seis kilos de yerba por persona por año). El segundo chequeo lo aprobó; el primero lo rechazó, y corregí un "seguro" absoluto y saqué el dato de los hogares, que no se pudo respaldar. Quedó con voz de 41,1 s (121 de 121 palabras), 3D nuevo (`Yerba.tsx`), tsc sin errores y 2 vueltas de cuadros. Está en estado `render`: `producir.py` lo renderiza.
+- **Apartados sin tocar:** `026-mediodia-hora-corrida` y `013-alcohol-calor` ya fallaron dos chequeos cada uno, así que no tenían rescate (`005-granizo-calor` está apartado pero no por chequeo rechazado).
+- **Segundo video no producido:** en la corrida de la tarde ya se habían intentado 026 y 027. La cola tiene 6 videos listos más 027 y 028 en render, por debajo de los 10 pedidos.
+Uso: 24 pasos · 18,022 tokens nuevos · 1,557,281 de caché · 4,422 escritos · equivale a US$ 1.33 de API
+2026-11-02 20:22 Render de 028-yerba-por-ano (sin Claude).
+2026-11-02 20:42 028-yerba-por-ano: listo (render sin Claude)
+2026-11-02 20:42 Termina la producción (ok).

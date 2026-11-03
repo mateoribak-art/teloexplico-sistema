@@ -32,6 +32,7 @@ import { DURACION as DUR_025, FPS as FPS_025, NoquisDel29, Portada025 } from "./
 import { DURACION as DUR_010, FPS as FPS_010, RayoMismoLugar3D, Portada010 } from "./videos/010-rayo-mismo-lugar/Video";
 import { DURACION as DUR_DEMO_HORA, FPS as FPS_DEMO_HORA, HoraCorrida3D } from "./videos/demo-hora-corrida/Video";
 import { DURACION as DUR_027, FPS as FPS_027, BondiDeBrasil3D, Portada027 } from "./videos/027-bondi-de-brasil/Video";
+import { DURACION as DUR_028, FPS as FPS_028, YerbaPorAno3D, Portada028 } from "./videos/028-yerba-por-ano/Video";
 import { DURACION as DUR_023, FPS as FPS_023, PerrosColores023, Portada023 } from "./videos/023-perros-colores/Video";
 import { DURACION as DUR_024, FPS as FPS_024, GranizoCorto024, Portada024 } from "./videos/024-granizo-corto/Video";
 import { DURACION as DUR_011, FPS as FPS_011, SalAgua011, Portada011 } from "./videos/011-sal-agua-hierve/Video";
@@ -49,6 +50,7 @@ import { DURACION as DUR_EN011, FPS as FPS_EN011, ThawCounterEn011, PortadaEn011
 import { DURACION as DUR_EN012, FPS as FPS_EN012, ThunderCountEn012, PortadaEn012 } from "./videos/en-012-thunder-count/Video";
 import { DURACION as DUR_EN013, FPS as FPS_EN013, SearingJuicesEn013, PortadaEn013 } from "./videos/en-013-searing-juices/Video";
 import { DURACION as DUR_EN014, FPS as FPS_EN014, BirthdayPairsEn014, PortadaEn014 } from "./videos/en-014-birthday-pairs/Video";
+import { DURACION as DUR_EN015, FPS as FPS_EN015, RainSmellEn015, PortadaEn015 } from "./videos/en-015-rain-smell/Video";
 import { DURACION as DUR_EN016, FPS as FPS_EN016, TooColdSnowEn016, PortadaEn016 } from "./videos/en-016-too-cold-snow/Video";
 import { DURACION as DUR_EN001,FPS as FPS_EN001, PhoneRiceEn001, PortadaEn001 } from "./videos/en-001-phone-rice/Video";
 
@@ -80,6 +82,7 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="h025-noquis-del-29" component={NoquisDel29} durationInFrames={DUR_025} fps={FPS_025} width={ANCHO} height={ALTO} />
         <Composition id="h010-rayo-mismo-lugar" component={RayoMismoLugar3D} durationInFrames={DUR_010} fps={FPS_010} width={ANCHO} height={ALTO} />
         <Composition id="h027-bondi-de-brasil" component={BondiDeBrasil3D} durationInFrames={DUR_027} fps={FPS_027} width={ANCHO} height={ALTO} />
+        <Composition id="h028-yerba-por-ano" component={YerbaPorAno3D} durationInFrames={DUR_028} fps={FPS_028} width={ANCHO} height={ALTO} />
         <Composition id="demo-hora-corrida" component={HoraCorrida3D} durationInFrames={DUR_DEMO_HORA} fps={FPS_DEMO_HORA} width={ANCHO} height={ALTO} />
         <Composition id="h023-perros-colores" component={PerrosColores023} durationInFrames={DUR_023} fps={FPS_023} width={ANCHO} height={ALTO} />
         <Composition id="h024-granizo-corto" component={GranizoCorto024} durationInFrames={DUR_024} fps={FPS_024} width={ANCHO} height={ALTO} />
@@ -114,6 +117,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-013-searing-juices" component={PortadaEn013} width={ANCHO} height={ALTO} />
         <Composition id="hen-014-birthday-pairs" component={BirthdayPairsEn014} durationInFrames={DUR_EN014} fps={FPS_EN014} width={ANCHO} height={ALTO} />
         <Still id="pen-014-birthday-pairs" component={PortadaEn014} width={ANCHO} height={ALTO} />
+        <Composition id="hen-015-rain-smell" component={RainSmellEn015} durationInFrames={DUR_EN015} fps={FPS_EN015} width={ANCHO} height={ALTO} />
+        <Still id="pen-015-rain-smell" component={PortadaEn015} width={ANCHO} height={ALTO} />
         <Composition id="hen-016-too-cold-snow" component={TooColdSnowEn016} durationInFrames={DUR_EN016} fps={FPS_EN016} width={ANCHO} height={ALTO} />
         <Still id="pen-016-too-cold-snow" component={PortadaEn016} width={ANCHO} height={ALTO} />
       </Folder>
@@ -142,6 +147,7 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p022-colectivo-de-a-dos" component={Portada022} width={ANCHO} height={ALTO} />
         <Still id="p020-pava-se-corta" component={Portada020} width={ANCHO} height={ALTO} />
         <Still id="p025-noquis-del-29" component={Portada025} width={ANCHO} height={ALTO} />        <Still id="p027-bondi-de-brasil" component={Portada027} width={ANCHO} height={ALTO} />
+        <Still id="p028-yerba-por-ano" component={Portada028} width={ANCHO} height={ALTO} />
         <Still id="p010-rayo-mismo-lugar" component={Portada010} width={ANCHO} height={ALTO} />
         <Still id="p023-perros-colores" component={Portada023} width={ANCHO} height={ALTO} />
         <Still id="p024-granizo-corto" component={Portada024} width={ANCHO} height={ALTO} />

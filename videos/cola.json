@@ -1034,5 +1034,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "028-yerba-por-ano",
+  "tema": "¿Cuánta yerba toma un argentino por año? Seis kilos por persona (INYM/MAGyP)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-02T20:15",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-02T20:15",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-02T20:22",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-02T20:42",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

@@ -1,0 +1,90 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segundo chequeo con búsqueda web. Las dos cifras del guion y del caption coinciden con sus fuentes: Informe Yerba Mate de la Secretaría de Agricultura, Ganadería y Pesca (Ministerio de Economía), promedio 2013/2022 = 6,0 kg por habitante por año; Bolsa de Comercio de Rosario, 2023 = 6,11 kg per cápita (promedio histórico 6,07 kg; población del censo INDEC, 46.651.581 personas). Los dos problemas del primer chequeo están resueltos: 'probablemente' está en la frase y se presenta como inferencia, y el dato de los hogares ya no aparece. Caveats: (1) otra versión del informe oficial (Secretaría de Bioeconomía) da 6,2 kg; el guion cita explícitamente el promedio 2013/2022 de 6,0 kg, que figura textual en el informe, y la frase de matiz ('la cifra cambia un poco según el año y la población') lo cubre. (2) El PDF original de la BCR no se pudo abrir; el 6,11 kg se confirmó en varias notas de prensa que citan el estudio, por lo que la fuente es secundaria pero consistente. (3) 'Seis paquetes de un kilo' es aritmética sobre el formato habitual de 1 kg, no un dato de ventas.",
+  "afirmaciones": [
+    {
+      "texto": "Cada argentino se toma, en promedio, seis kilos de yerba por año.",
+      "fuente": "Secretaría de Agricultura, Ganadería y Pesca (Ministerio de Economía), Informe Yerba Mate: 'En el período 2013/2022, el promedio estimado de consumo interno asciende a 6,0 kg por habitante por año' (https://alimentosargentinos.magyp.gob.ar/HomeAlimentos/economias-regionales/producciones-regionales/informes/Informe_Yerba_Mate.pdf). Coherente con BCR 2023: 6,11 kg y promedio histórico 6,07 kg.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Seis paquetes de un kilo: uno cada dos meses.",
+      "fuente": "Aritmética de la cifra anterior (6 kg / 12 meses = 1 kg cada 2 meses); supone paquetes de 1 kg, formato habitual.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y ese promedio cuenta a todos: bebés, abuelos y gente que ni prueba el mate.",
+      "fuente": "Metodología: consumo a salida de molino dividido por la población total (BCR usa el último censo del INDEC; el informe de la Secretaría dice 'por habitante').",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La Secretaría de Agricultura calculó seis kilos por habitante, en promedio, entre dos mil trece y dos mil veintidós.",
+      "fuente": "Informe Yerba Mate de la Secretaría de Agricultura, Ganadería y Pesca (URL arriba): 6,0 kg por habitante por año, período 2013/2022. Atribución y período correctos.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y la Bolsa de Comercio de Rosario, seis kilos con once para dos mil veintitrés.",
+      "fuente": "Bolsa de Comercio de Rosario, estudio de Rubies y Calzada: 6,11 kg per cápita en 2023 (285.300 t sobre 46.651.581 personas, INDEC). Disponible en https://www.bcr.com.ar/es/print/pdf/node/109365 y en notas de prensa (Infocampo, Cadena 3). PDF original no abierto; confirmado por prensa.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "O sea: si tomás mate todos los días, probablemente estés por encima del promedio.",
+      "fuente": "sin fuente primaria; inferencia lógica (el promedio incluye a bebés y a quienes no toman). Presentada como probable, no como certeza.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: la cifra cambia un poco según el año y la población que se use para dividir.",
+      "fuente": "Informe de la Secretaría: 6,0 kg (promedio 2013/2022) con serie anual que arranca en 6,2 kg en 2013; otra edición oficial da 6,2 kg; BCR: 6,11 kg (2023), 6,07 kg (promedio histórico), máximo 6,27 kg en 2010, dividido por población del censo INDEC. Variación pequeña y real.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Hoy fijate cuántos paquetes comprás al año: ¿llegás a seis?",
+      "fuente": "Consigna al espectador, sin afirmación fáctica más allá de la cifra ya verificada.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mandáselo al que se toma un termo antes del almuerzo.",
+      "fuente": "Llamado a la acción, sin afirmación fáctica.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "[caption] Cada argentino toma, en promedio, seis kilos de yerba por año. Seis paquetes.",
+      "fuente": "Mismo informe de la Secretaría (6,0 kg) más aritmética de paquetes de 1 kg.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "[caption] Según el Informe Yerba Mate de la Secretaría de Agricultura (Ministerio de Economía), el consumo interno promedio entre 2013 y 2022 fue de 6,0 kg por habitante por año. La Bolsa de Comercio de Rosario calculó 6,11 kg para 2023.",
+      "fuente": "Informe Yerba Mate de la Secretaría de Agricultura, Ganadería y Pesca (URL arriba); BCR 2023 (https://www.bcr.com.ar/es/print/pdf/node/109365).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "[caption] Ese promedio cuenta a todos, también a quienes no toman mate.",
+      "fuente": "Metodología: consumo dividido por población total (informe de la Secretaría y BCR/INDEC).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "[caption] Ojo: la cifra cambia un poco según el año y la población que se use para dividir.",
+      "fuente": "Ver el matiz del guion: 6,0 / 6,07 / 6,11 / 6,2 kg según edición, año y población.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "[caption] Fuentes: Secretaría de Agricultura, Informe Yerba Mate (2013/2022); Bolsa de Comercio de Rosario (2023).",
+      "fuente": "Ambas fuentes existen y contienen las cifras atribuidas (ver arriba).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

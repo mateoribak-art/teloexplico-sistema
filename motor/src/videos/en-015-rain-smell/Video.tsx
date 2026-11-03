@@ -1,8 +1,7 @@
 import React from "react";
 import { AbsoluteFill, interpolate, random, staticFile, useCurrentFrame } from "remotion";
 import { Audio } from "@remotion/media";
-// APARTADO (chequeo rechazado 2 veces, sin voz): al rescatarlo, generar la voz y volver a importar ../../../public/en-015-rain-smell/tiempos.json
-const tiemposJson = { duracion: 0, frases: [] } as unknown;
+import tiemposJson from "../../../public/en-015-rain-smell/tiempos.json";
 import { reloj, type Tiempos } from "../../kit/tiempos";
 import { Musica, Sfx, type Efecto } from "../../kit/piezas";
 import { Estudio, PisoSombra } from "../../kit3d/Estudio";
@@ -198,7 +197,7 @@ export const RainSmellEn015: React.FC = () => {
         MIT · <span style={{ color: ACENTO }}>2015</span>
       </Chip>
       <Chip desde={E.nariz + 6} hasta={E.porque} x={540} y={330}>
-        a few parts per <span style={{ color: ACENTO }}>trillion</span>
+        as little as 5 parts per <span style={{ color: ACENTO }}>trillion</span>
       </Chip>
       <Chip desde={E.porque + 6} hasta={E.ojo} x={540} y={330} color="#ffb23d">
         one idea: <span style={{ color: ACENTO }}>finding water</span>

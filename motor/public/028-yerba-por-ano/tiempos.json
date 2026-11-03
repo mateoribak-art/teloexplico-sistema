@@ -1,0 +1,673 @@
+{
+ "duracion": 41.1,
+ "frases": [
+  {
+   "texto": "Cada argentino se toma, en promedio, seis kilos de yerba por año.",
+   "palabras": [
+    {
+     "texto": "Cada",
+     "inicio": 0.0,
+     "fin": 0.38
+    },
+    {
+     "texto": "argentino",
+     "inicio": 0.38,
+     "fin": 1.02
+    },
+    {
+     "texto": "se",
+     "inicio": 1.02,
+     "fin": 1.22
+    },
+    {
+     "texto": "toma,",
+     "inicio": 1.22,
+     "fin": 1.48
+    },
+    {
+     "texto": "en",
+     "inicio": 1.7,
+     "fin": 1.88
+    },
+    {
+     "texto": "promedio,",
+     "inicio": 1.88,
+     "fin": 2.5
+    },
+    {
+     "texto": "seis",
+     "inicio": 2.98,
+     "fin": 3.28
+    },
+    {
+     "texto": "kilos",
+     "inicio": 3.28,
+     "fin": 3.6
+    },
+    {
+     "texto": "de",
+     "inicio": 3.6,
+     "fin": 3.78
+    },
+    {
+     "texto": "yerba",
+     "inicio": 3.78,
+     "fin": 4.08
+    },
+    {
+     "texto": "por",
+     "inicio": 4.08,
+     "fin": 4.26
+    },
+    {
+     "texto": "año.",
+     "inicio": 4.26,
+     "fin": 4.54
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.54
+  },
+  {
+   "texto": "Seis paquetes de un kilo: uno cada dos meses.",
+   "palabras": [
+    {
+     "texto": "Seis",
+     "inicio": 4.84,
+     "fin": 5.26
+    },
+    {
+     "texto": "paquetes",
+     "inicio": 5.26,
+     "fin": 5.62
+    },
+    {
+     "texto": "de",
+     "inicio": 5.62,
+     "fin": 5.68
+    },
+    {
+     "texto": "un",
+     "inicio": 5.68,
+     "fin": 5.76
+    },
+    {
+     "texto": "kilo:",
+     "inicio": 5.76,
+     "fin": 5.98
+    },
+    {
+     "texto": "uno",
+     "inicio": 6.5,
+     "fin": 6.7
+    },
+    {
+     "texto": "cada",
+     "inicio": 6.7,
+     "fin": 6.86
+    },
+    {
+     "texto": "dos",
+     "inicio": 6.86,
+     "fin": 7.06
+    },
+    {
+     "texto": "meses.",
+     "inicio": 7.06,
+     "fin": 7.34
+    }
+   ],
+   "inicio": 4.84,
+   "fin": 7.34
+  },
+  {
+   "texto": "Y ese promedio cuenta a todos: bebés, abuelos y gente que ni prueba el mate.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 7.94,
+     "fin": 8.1
+    },
+    {
+     "texto": "ese",
+     "inicio": 8.1,
+     "fin": 8.3
+    },
+    {
+     "texto": "promedio",
+     "inicio": 8.3,
+     "fin": 8.72
+    },
+    {
+     "texto": "cuenta",
+     "inicio": 8.72,
+     "fin": 8.98
+    },
+    {
+     "texto": "a",
+     "inicio": 8.98,
+     "fin": 9.18
+    },
+    {
+     "texto": "todos:",
+     "inicio": 9.18,
+     "fin": 9.62
+    },
+    {
+     "texto": "bebés,",
+     "inicio": 9.94,
+     "fin": 10.48
+    },
+    {
+     "texto": "abuelos",
+     "inicio": 10.9,
+     "fin": 11.5
+    },
+    {
+     "texto": "y",
+     "inicio": 11.5,
+     "fin": 11.84
+    },
+    {
+     "texto": "gente",
+     "inicio": 11.84,
+     "fin": 12.1
+    },
+    {
+     "texto": "que",
+     "inicio": 12.1,
+     "fin": 12.22
+    },
+    {
+     "texto": "ni",
+     "inicio": 12.22,
+     "fin": 12.32
+    },
+    {
+     "texto": "prueba",
+     "inicio": 12.32,
+     "fin": 12.5
+    },
+    {
+     "texto": "el",
+     "inicio": 12.5,
+     "fin": 12.64
+    },
+    {
+     "texto": "mate.",
+     "inicio": 12.64,
+     "fin": 12.82
+    }
+   ],
+   "inicio": 7.94,
+   "fin": 12.82
+  },
+  {
+   "texto": "La Secretaría de Agricultura calculó seis kilos por habitante, en promedio, entre dos mil trece y dos mil veintidós.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 13.36,
+     "fin": 13.48
+    },
+    {
+     "texto": "Secretaría",
+     "inicio": 13.48,
+     "fin": 13.96
+    },
+    {
+     "texto": "de",
+     "inicio": 13.96,
+     "fin": 14.12
+    },
+    {
+     "texto": "Agricultura",
+     "inicio": 14.12,
+     "fin": 14.62
+    },
+    {
+     "texto": "calculó",
+     "inicio": 14.62,
+     "fin": 15.24
+    },
+    {
+     "texto": "seis",
+     "inicio": 15.24,
+     "fin": 15.6
+    },
+    {
+     "texto": "kilos",
+     "inicio": 15.6,
+     "fin": 15.92
+    },
+    {
+     "texto": "por",
+     "inicio": 15.92,
+     "fin": 16.14
+    },
+    {
+     "texto": "habitante,",
+     "inicio": 16.14,
+     "fin": 16.62
+    },
+    {
+     "texto": "en",
+     "inicio": 17.1,
+     "fin": 17.3
+    },
+    {
+     "texto": "promedio,",
+     "inicio": 17.3,
+     "fin": 17.86
+    },
+    {
+     "texto": "entre",
+     "inicio": 18.06,
+     "fin": 18.36
+    },
+    {
+     "texto": "dos",
+     "inicio": 18.36,
+     "fin": 18.54
+    },
+    {
+     "texto": "mil",
+     "inicio": 18.54,
+     "fin": 18.68
+    },
+    {
+     "texto": "trece",
+     "inicio": 18.68,
+     "fin": 19.0
+    },
+    {
+     "texto": "y",
+     "inicio": 19.0,
+     "fin": 19.2
+    },
+    {
+     "texto": "dos",
+     "inicio": 19.2,
+     "fin": 19.3
+    },
+    {
+     "texto": "mil",
+     "inicio": 19.3,
+     "fin": 19.44
+    },
+    {
+     "texto": "veintidós.",
+     "inicio": 19.44,
+     "fin": 19.94
+    }
+   ],
+   "inicio": 13.36,
+   "fin": 19.94
+  },
+  {
+   "texto": "Y la Bolsa de Comercio de Rosario, seis kilos con once para dos mil veintitrés.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 20.34,
+     "fin": 20.54
+    },
+    {
+     "texto": "la",
+     "inicio": 20.54,
+     "fin": 20.64
+    },
+    {
+     "texto": "Bolsa",
+     "inicio": 20.64,
+     "fin": 20.9
+    },
+    {
+     "texto": "de",
+     "inicio": 20.9,
+     "fin": 21.0
+    },
+    {
+     "texto": "Comercio",
+     "inicio": 21.0,
+     "fin": 21.28
+    },
+    {
+     "texto": "de",
+     "inicio": 21.28,
+     "fin": 21.38
+    },
+    {
+     "texto": "Rosario,",
+     "inicio": 21.38,
+     "fin": 21.76
+    },
+    {
+     "texto": "seis",
+     "inicio": 22.2,
+     "fin": 22.44
+    },
+    {
+     "texto": "kilos",
+     "inicio": 22.44,
+     "fin": 22.7
+    },
+    {
+     "texto": "con",
+     "inicio": 22.7,
+     "fin": 22.92
+    },
+    {
+     "texto": "once",
+     "inicio": 22.92,
+     "fin": 23.16
+    },
+    {
+     "texto": "para",
+     "inicio": 23.16,
+     "fin": 23.68
+    },
+    {
+     "texto": "dos",
+     "inicio": 23.68,
+     "fin": 23.82
+    },
+    {
+     "texto": "mil",
+     "inicio": 23.82,
+     "fin": 23.92
+    },
+    {
+     "texto": "veintitrés.",
+     "inicio": 23.92,
+     "fin": 24.38
+    }
+   ],
+   "inicio": 20.34,
+   "fin": 24.38
+  },
+  {
+   "texto": "O sea: si tomás mate todos los días, probablemente estés por encima del promedio.",
+   "palabras": [
+    {
+     "texto": "O",
+     "inicio": 24.86,
+     "fin": 25.06
+    },
+    {
+     "texto": "sea:",
+     "inicio": 25.06,
+     "fin": 25.24
+    },
+    {
+     "texto": "si",
+     "inicio": 25.4,
+     "fin": 25.5
+    },
+    {
+     "texto": "tomás",
+     "inicio": 25.5,
+     "fin": 25.7
+    },
+    {
+     "texto": "mate",
+     "inicio": 25.7,
+     "fin": 26.02
+    },
+    {
+     "texto": "todos",
+     "inicio": 26.02,
+     "fin": 26.42
+    },
+    {
+     "texto": "los",
+     "inicio": 26.42,
+     "fin": 26.56
+    },
+    {
+     "texto": "días,",
+     "inicio": 26.56,
+     "fin": 26.78
+    },
+    {
+     "texto": "probablemente",
+     "inicio": 27.4,
+     "fin": 28.0
+    },
+    {
+     "texto": "estés",
+     "inicio": 28.0,
+     "fin": 28.22
+    },
+    {
+     "texto": "por",
+     "inicio": 28.22,
+     "fin": 28.4
+    },
+    {
+     "texto": "encima",
+     "inicio": 28.4,
+     "fin": 28.72
+    },
+    {
+     "texto": "del",
+     "inicio": 28.72,
+     "fin": 28.92
+    },
+    {
+     "texto": "promedio.",
+     "inicio": 28.92,
+     "fin": 29.42
+    }
+   ],
+   "inicio": 24.86,
+   "fin": 29.42
+  },
+  {
+   "texto": "Ojo: la cifra cambia un poco según el año y la población que se use para dividir.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 29.42,
+     "fin": 30.04
+    },
+    {
+     "texto": "la",
+     "inicio": 30.14,
+     "fin": 30.16
+    },
+    {
+     "texto": "cifra",
+     "inicio": 30.16,
+     "fin": 30.46
+    },
+    {
+     "texto": "cambia",
+     "inicio": 30.46,
+     "fin": 30.9
+    },
+    {
+     "texto": "un",
+     "inicio": 30.9,
+     "fin": 31.04
+    },
+    {
+     "texto": "poco",
+     "inicio": 31.04,
+     "fin": 31.24
+    },
+    {
+     "texto": "según",
+     "inicio": 31.24,
+     "fin": 31.74
+    },
+    {
+     "texto": "el",
+     "inicio": 31.74,
+     "fin": 31.92
+    },
+    {
+     "texto": "año",
+     "inicio": 31.92,
+     "fin": 32.16
+    },
+    {
+     "texto": "y",
+     "inicio": 32.16,
+     "fin": 32.36
+    },
+    {
+     "texto": "la",
+     "inicio": 32.36,
+     "fin": 32.48
+    },
+    {
+     "texto": "población",
+     "inicio": 32.48,
+     "fin": 32.82
+    },
+    {
+     "texto": "que",
+     "inicio": 32.82,
+     "fin": 33.0
+    },
+    {
+     "texto": "se",
+     "inicio": 33.0,
+     "fin": 33.1
+    },
+    {
+     "texto": "use",
+     "inicio": 33.1,
+     "fin": 33.26
+    },
+    {
+     "texto": "para",
+     "inicio": 33.26,
+     "fin": 33.48
+    },
+    {
+     "texto": "dividir.",
+     "inicio": 33.48,
+     "fin": 34.3
+    }
+   ],
+   "inicio": 29.42,
+   "fin": 34.3
+  },
+  {
+   "texto": "Hoy fijate cuántos paquetes comprás al año: ¿llegás a seis?",
+   "palabras": [
+    {
+     "texto": "Hoy",
+     "inicio": 34.4,
+     "fin": 34.52
+    },
+    {
+     "texto": "fijate",
+     "inicio": 34.52,
+     "fin": 34.88
+    },
+    {
+     "texto": "cuántos",
+     "inicio": 34.88,
+     "fin": 35.26
+    },
+    {
+     "texto": "paquetes",
+     "inicio": 35.26,
+     "fin": 35.66
+    },
+    {
+     "texto": "comprás",
+     "inicio": 35.66,
+     "fin": 36.06
+    },
+    {
+     "texto": "al",
+     "inicio": 36.06,
+     "fin": 36.2
+    },
+    {
+     "texto": "año:",
+     "inicio": 36.2,
+     "fin": 36.46
+    },
+    {
+     "texto": "¿llegás",
+     "inicio": 37.02,
+     "fin": 37.28
+    },
+    {
+     "texto": "a",
+     "inicio": 37.28,
+     "fin": 37.38
+    },
+    {
+     "texto": "seis?",
+     "inicio": 37.38,
+     "fin": 37.6
+    }
+   ],
+   "inicio": 34.4,
+   "fin": 37.6
+  },
+  {
+   "texto": "Mandáselo al que se toma un termo antes del almuerzo.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 38.94,
+     "fin": 39.36
+    },
+    {
+     "texto": "al",
+     "inicio": 39.36,
+     "fin": 39.38
+    },
+    {
+     "texto": "que",
+     "inicio": 39.38,
+     "fin": 39.48
+    },
+    {
+     "texto": "se",
+     "inicio": 39.48,
+     "fin": 39.58
+    },
+    {
+     "texto": "toma",
+     "inicio": 39.58,
+     "fin": 39.8
+    },
+    {
+     "texto": "un",
+     "inicio": 39.8,
+     "fin": 39.94
+    },
+    {
+     "texto": "termo",
+     "inicio": 39.94,
+     "fin": 40.24
+    },
+    {
+     "texto": "antes",
+     "inicio": 40.24,
+     "fin": 40.4
+    },
+    {
+     "texto": "del",
+     "inicio": 40.4,
+     "fin": 40.6
+    },
+    {
+     "texto": "almuerzo.",
+     "inicio": 40.6,
+     "fin": 41.04
+    }
+   ],
+   "inicio": 38.94,
+   "fin": 41.04
+  }
+ ]
+}

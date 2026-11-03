@@ -1,0 +1,860 @@
+{
+ "duracion": 53.25,
+ "frases": [
+  {
+   "texto": "That smell when it starts to rain? It isn't the rain.",
+   "palabras": [
+    {
+     "texto": "That",
+     "inicio": 0.0,
+     "fin": 0.18
+    },
+    {
+     "texto": "smell",
+     "inicio": 0.18,
+     "fin": 0.6
+    },
+    {
+     "texto": "when",
+     "inicio": 0.68,
+     "fin": 0.78
+    },
+    {
+     "texto": "it",
+     "inicio": 0.78,
+     "fin": 0.88
+    },
+    {
+     "texto": "starts",
+     "inicio": 0.88,
+     "fin": 1.08
+    },
+    {
+     "texto": "to",
+     "inicio": 1.08,
+     "fin": 1.34
+    },
+    {
+     "texto": "rain?",
+     "inicio": 1.34,
+     "fin": 1.52
+    },
+    {
+     "texto": "It",
+     "inicio": 2.1,
+     "fin": 2.22
+    },
+    {
+     "texto": "isn't",
+     "inicio": 2.22,
+     "fin": 2.46
+    },
+    {
+     "texto": "the",
+     "inicio": 2.46,
+     "fin": 2.6
+    },
+    {
+     "texto": "rain.",
+     "inicio": 2.6,
+     "fin": 2.86
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.86
+  },
+  {
+   "texto": "A big part of it comes from the ground, including a chemical made by soil bacteria.",
+   "palabras": [
+    {
+     "texto": "A",
+     "inicio": 3.28,
+     "fin": 3.4
+    },
+    {
+     "texto": "big",
+     "inicio": 3.4,
+     "fin": 3.54
+    },
+    {
+     "texto": "part",
+     "inicio": 3.54,
+     "fin": 3.76
+    },
+    {
+     "texto": "of",
+     "inicio": 3.76,
+     "fin": 3.86
+    },
+    {
+     "texto": "it",
+     "inicio": 3.86,
+     "fin": 3.94
+    },
+    {
+     "texto": "comes",
+     "inicio": 3.94,
+     "fin": 4.12
+    },
+    {
+     "texto": "from",
+     "inicio": 4.12,
+     "fin": 4.3
+    },
+    {
+     "texto": "the",
+     "inicio": 4.3,
+     "fin": 4.38
+    },
+    {
+     "texto": "ground,",
+     "inicio": 4.38,
+     "fin": 4.64
+    },
+    {
+     "texto": "including",
+     "inicio": 4.92,
+     "fin": 5.4
+    },
+    {
+     "texto": "a",
+     "inicio": 5.4,
+     "fin": 5.66
+    },
+    {
+     "texto": "chemical",
+     "inicio": 5.66,
+     "fin": 5.92
+    },
+    {
+     "texto": "made",
+     "inicio": 5.92,
+     "fin": 6.18
+    },
+    {
+     "texto": "by",
+     "inicio": 6.18,
+     "fin": 6.36
+    },
+    {
+     "texto": "soil",
+     "inicio": 6.36,
+     "fin": 6.62
+    },
+    {
+     "texto": "bacteria.",
+     "inicio": 6.62,
+     "fin": 7.0
+    }
+   ],
+   "inicio": 3.28,
+   "fin": 7.0
+  },
+  {
+   "texto": "It has a name: petrichor. Two Australian scientists coined it in nineteen sixty-four.",
+   "palabras": [
+    {
+     "texto": "It",
+     "inicio": 7.56,
+     "fin": 7.72
+    },
+    {
+     "texto": "has",
+     "inicio": 7.72,
+     "fin": 7.86
+    },
+    {
+     "texto": "a",
+     "inicio": 7.86,
+     "fin": 7.98
+    },
+    {
+     "texto": "name:",
+     "inicio": 7.98,
+     "fin": 8.16
+    },
+    {
+     "texto": "petrichor.",
+     "inicio": 8.68,
+     "fin": 9.18
+    },
+    {
+     "texto": "Two",
+     "inicio": 9.76,
+     "fin": 9.9
+    },
+    {
+     "texto": "Australian",
+     "inicio": 9.9,
+     "fin": 10.28
+    },
+    {
+     "texto": "scientists",
+     "inicio": 10.28,
+     "fin": 10.88
+    },
+    {
+     "texto": "coined",
+     "inicio": 10.88,
+     "fin": 11.26
+    },
+    {
+     "texto": "it",
+     "inicio": 11.26,
+     "fin": 11.42
+    },
+    {
+     "texto": "in",
+     "inicio": 11.42,
+     "fin": 11.54
+    },
+    {
+     "texto": "nineteen",
+     "inicio": 11.54,
+     "fin": 11.66
+    },
+    {
+     "texto": "sixty-four.",
+     "inicio": 11.66,
+     "fin": 12.48
+    }
+   ],
+   "inicio": 7.56,
+   "fin": 12.48
+  },
+  {
+   "texto": "One key ingredient is a molecule called geosmin, made by soil bacteria.",
+   "palabras": [
+    {
+     "texto": "One",
+     "inicio": 13.04,
+     "fin": 13.2
+    },
+    {
+     "texto": "key",
+     "inicio": 13.2,
+     "fin": 13.4
+    },
+    {
+     "texto": "ingredient",
+     "inicio": 13.4,
+     "fin": 13.86
+    },
+    {
+     "texto": "is",
+     "inicio": 13.86,
+     "fin": 14.04
+    },
+    {
+     "texto": "a",
+     "inicio": 14.04,
+     "fin": 14.14
+    },
+    {
+     "texto": "molecule",
+     "inicio": 14.14,
+     "fin": 14.46
+    },
+    {
+     "texto": "called",
+     "inicio": 14.46,
+     "fin": 14.78
+    },
+    {
+     "texto": "geosmin,",
+     "inicio": 14.78,
+     "fin": 15.44
+    },
+    {
+     "texto": "made",
+     "inicio": 15.72,
+     "fin": 15.92
+    },
+    {
+     "texto": "by",
+     "inicio": 15.92,
+     "fin": 16.08
+    },
+    {
+     "texto": "soil",
+     "inicio": 16.08,
+     "fin": 16.34
+    },
+    {
+     "texto": "bacteria.",
+     "inicio": 16.34,
+     "fin": 16.7
+    }
+   ],
+   "inicio": 13.04,
+   "fin": 16.7
+  },
+  {
+   "texto": "When a raindrop hits dry ground, it traps tiny air bubbles that pop and release aerosols. MIT researchers filmed it in twenty fifteen, and think it may help carry the scent.",
+   "palabras": [
+    {
+     "texto": "When",
+     "inicio": 17.3,
+     "fin": 17.36
+    },
+    {
+     "texto": "a",
+     "inicio": 17.36,
+     "fin": 17.48
+    },
+    {
+     "texto": "raindrop",
+     "inicio": 17.48,
+     "fin": 17.82
+    },
+    {
+     "texto": "hits",
+     "inicio": 17.82,
+     "fin": 18.02
+    },
+    {
+     "texto": "dry",
+     "inicio": 18.02,
+     "fin": 18.3
+    },
+    {
+     "texto": "ground,",
+     "inicio": 18.3,
+     "fin": 18.74
+    },
+    {
+     "texto": "it",
+     "inicio": 19.18,
+     "fin": 19.28
+    },
+    {
+     "texto": "traps",
+     "inicio": 19.28,
+     "fin": 19.58
+    },
+    {
+     "texto": "tiny",
+     "inicio": 19.58,
+     "fin": 19.94
+    },
+    {
+     "texto": "air",
+     "inicio": 19.94,
+     "fin": 20.28
+    },
+    {
+     "texto": "bubbles",
+     "inicio": 20.28,
+     "fin": 20.54
+    },
+    {
+     "texto": "that",
+     "inicio": 20.54,
+     "fin": 20.88
+    },
+    {
+     "texto": "pop",
+     "inicio": 20.88,
+     "fin": 21.2
+    },
+    {
+     "texto": "and",
+     "inicio": 21.2,
+     "fin": 21.4
+    },
+    {
+     "texto": "release",
+     "inicio": 21.4,
+     "fin": 21.78
+    },
+    {
+     "texto": "aerosols.",
+     "inicio": 21.78,
+     "fin": 22.36
+    },
+    {
+     "texto": "MIT",
+     "inicio": 22.86,
+     "fin": 23.18
+    },
+    {
+     "texto": "researchers",
+     "inicio": 23.18,
+     "fin": 23.62
+    },
+    {
+     "texto": "filmed",
+     "inicio": 23.62,
+     "fin": 24.06
+    },
+    {
+     "texto": "it",
+     "inicio": 24.06,
+     "fin": 24.2
+    },
+    {
+     "texto": "in",
+     "inicio": 24.2,
+     "fin": 24.3
+    },
+    {
+     "texto": "twenty",
+     "inicio": 24.3,
+     "fin": 24.48
+    },
+    {
+     "texto": "fifteen,",
+     "inicio": 24.48,
+     "fin": 24.8
+    },
+    {
+     "texto": "and",
+     "inicio": 25.22,
+     "fin": 25.36
+    },
+    {
+     "texto": "think",
+     "inicio": 25.36,
+     "fin": 25.54
+    },
+    {
+     "texto": "it",
+     "inicio": 25.54,
+     "fin": 25.66
+    },
+    {
+     "texto": "may",
+     "inicio": 25.66,
+     "fin": 25.92
+    },
+    {
+     "texto": "help",
+     "inicio": 25.92,
+     "fin": 26.2
+    },
+    {
+     "texto": "carry",
+     "inicio": 26.2,
+     "fin": 26.46
+    },
+    {
+     "texto": "the",
+     "inicio": 26.46,
+     "fin": 26.66
+    },
+    {
+     "texto": "scent.",
+     "inicio": 26.66,
+     "fin": 26.9
+    }
+   ],
+   "inicio": 17.3,
+   "fin": 26.9
+  },
+  {
+   "texto": "And noses are sharp: some people can pick up geosmin at as little as five parts per trillion.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 27.36,
+     "fin": 27.52
+    },
+    {
+     "texto": "noses",
+     "inicio": 27.52,
+     "fin": 27.86
+    },
+    {
+     "texto": "are",
+     "inicio": 27.86,
+     "fin": 27.94
+    },
+    {
+     "texto": "sharp:",
+     "inicio": 27.94,
+     "fin": 28.22
+    },
+    {
+     "texto": "some",
+     "inicio": 28.7,
+     "fin": 28.82
+    },
+    {
+     "texto": "people",
+     "inicio": 28.82,
+     "fin": 29.02
+    },
+    {
+     "texto": "can",
+     "inicio": 29.02,
+     "fin": 29.18
+    },
+    {
+     "texto": "pick",
+     "inicio": 29.18,
+     "fin": 29.34
+    },
+    {
+     "texto": "up",
+     "inicio": 29.34,
+     "fin": 29.46
+    },
+    {
+     "texto": "geosmin",
+     "inicio": 29.46,
+     "fin": 30.0
+    },
+    {
+     "texto": "at",
+     "inicio": 30.0,
+     "fin": 30.24
+    },
+    {
+     "texto": "as",
+     "inicio": 30.24,
+     "fin": 30.38
+    },
+    {
+     "texto": "little",
+     "inicio": 30.38,
+     "fin": 30.58
+    },
+    {
+     "texto": "as",
+     "inicio": 30.58,
+     "fin": 30.76
+    },
+    {
+     "texto": "five",
+     "inicio": 30.76,
+     "fin": 31.14
+    },
+    {
+     "texto": "parts",
+     "inicio": 31.14,
+     "fin": 31.54
+    },
+    {
+     "texto": "per",
+     "inicio": 31.54,
+     "fin": 31.76
+    },
+    {
+     "texto": "trillion.",
+     "inicio": 31.76,
+     "fin": 32.2
+    }
+   ],
+   "inicio": 27.36,
+   "fin": 32.2
+  },
+  {
+   "texto": "Why? One idea is that our ancestors followed that smell to find water.",
+   "palabras": [
+    {
+     "texto": "Why?",
+     "inicio": 32.64,
+     "fin": 32.94
+    },
+    {
+     "texto": "One",
+     "inicio": 33.58,
+     "fin": 33.96
+    },
+    {
+     "texto": "idea",
+     "inicio": 33.96,
+     "fin": 34.28
+    },
+    {
+     "texto": "is",
+     "inicio": 34.28,
+     "fin": 34.56
+    },
+    {
+     "texto": "that",
+     "inicio": 34.56,
+     "fin": 34.7
+    },
+    {
+     "texto": "our",
+     "inicio": 34.7,
+     "fin": 34.84
+    },
+    {
+     "texto": "ancestors",
+     "inicio": 34.84,
+     "fin": 35.4
+    },
+    {
+     "texto": "followed",
+     "inicio": 35.4,
+     "fin": 36.14
+    },
+    {
+     "texto": "that",
+     "inicio": 36.14,
+     "fin": 36.4
+    },
+    {
+     "texto": "smell",
+     "inicio": 36.4,
+     "fin": 36.66
+    },
+    {
+     "texto": "to",
+     "inicio": 36.66,
+     "fin": 36.92
+    },
+    {
+     "texto": "find",
+     "inicio": 36.92,
+     "fin": 37.18
+    },
+    {
+     "texto": "water.",
+     "inicio": 37.18,
+     "fin": 37.56
+    }
+   ],
+   "inicio": 32.64,
+   "fin": 37.56
+  },
+  {
+   "texto": "Heads up: in MIT's tests, light to moderate rain released more aerosols than a downpour.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 38.2,
+     "fin": 38.4
+    },
+    {
+     "texto": "up:",
+     "inicio": 38.4,
+     "fin": 38.6
+    },
+    {
+     "texto": "in",
+     "inicio": 39.0,
+     "fin": 39.04
+    },
+    {
+     "texto": "MIT's",
+     "inicio": 39.04,
+     "fin": 39.64
+    },
+    {
+     "texto": "tests,",
+     "inicio": 39.64,
+     "fin": 39.96
+    },
+    {
+     "texto": "light",
+     "inicio": 40.52,
+     "fin": 40.82
+    },
+    {
+     "texto": "to",
+     "inicio": 40.82,
+     "fin": 41.1
+    },
+    {
+     "texto": "moderate",
+     "inicio": 41.1,
+     "fin": 41.6
+    },
+    {
+     "texto": "rain",
+     "inicio": 41.6,
+     "fin": 41.96
+    },
+    {
+     "texto": "released",
+     "inicio": 41.96,
+     "fin": 42.28
+    },
+    {
+     "texto": "more",
+     "inicio": 42.28,
+     "fin": 42.8
+    },
+    {
+     "texto": "aerosols",
+     "inicio": 42.8,
+     "fin": 43.5
+    },
+    {
+     "texto": "than",
+     "inicio": 43.5,
+     "fin": 43.72
+    },
+    {
+     "texto": "a",
+     "inicio": 43.72,
+     "fin": 43.84
+    },
+    {
+     "texto": "downpour.",
+     "inicio": 43.84,
+     "fin": 44.32
+    }
+   ],
+   "inicio": 38.2,
+   "fin": 44.32
+  },
+  {
+   "texto": "Next time it starts to drizzle, step outside and take a deep breath.",
+   "palabras": [
+    {
+     "texto": "Next",
+     "inicio": 44.84,
+     "fin": 45.0
+    },
+    {
+     "texto": "time",
+     "inicio": 45.0,
+     "fin": 45.26
+    },
+    {
+     "texto": "it",
+     "inicio": 45.26,
+     "fin": 45.34
+    },
+    {
+     "texto": "starts",
+     "inicio": 45.34,
+     "fin": 45.52
+    },
+    {
+     "texto": "to",
+     "inicio": 45.52,
+     "fin": 45.76
+    },
+    {
+     "texto": "drizzle,",
+     "inicio": 45.76,
+     "fin": 45.98
+    },
+    {
+     "texto": "step",
+     "inicio": 46.42,
+     "fin": 46.62
+    },
+    {
+     "texto": "outside",
+     "inicio": 46.62,
+     "fin": 46.98
+    },
+    {
+     "texto": "and",
+     "inicio": 46.98,
+     "fin": 47.34
+    },
+    {
+     "texto": "take",
+     "inicio": 47.34,
+     "fin": 47.58
+    },
+    {
+     "texto": "a",
+     "inicio": 47.58,
+     "fin": 47.7
+    },
+    {
+     "texto": "deep",
+     "inicio": 47.7,
+     "fin": 47.86
+    },
+    {
+     "texto": "breath.",
+     "inicio": 47.86,
+     "fin": 48.22
+    }
+   ],
+   "inicio": 44.84,
+   "fin": 48.22
+  },
+  {
+   "texto": "Send this to the friend who steps onto the porch and says, ah, rain smell.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 48.74,
+     "fin": 48.96
+    },
+    {
+     "texto": "this",
+     "inicio": 48.96,
+     "fin": 49.12
+    },
+    {
+     "texto": "to",
+     "inicio": 49.12,
+     "fin": 49.26
+    },
+    {
+     "texto": "the",
+     "inicio": 49.26,
+     "fin": 49.36
+    },
+    {
+     "texto": "friend",
+     "inicio": 49.36,
+     "fin": 49.58
+    },
+    {
+     "texto": "who",
+     "inicio": 49.58,
+     "fin": 49.78
+    },
+    {
+     "texto": "steps",
+     "inicio": 49.78,
+     "fin": 50.0
+    },
+    {
+     "texto": "onto",
+     "inicio": 50.0,
+     "fin": 50.28
+    },
+    {
+     "texto": "the",
+     "inicio": 50.28,
+     "fin": 50.42
+    },
+    {
+     "texto": "porch",
+     "inicio": 50.42,
+     "fin": 50.64
+    },
+    {
+     "texto": "and",
+     "inicio": 50.64,
+     "fin": 50.86
+    },
+    {
+     "texto": "says,",
+     "inicio": 50.86,
+     "fin": 51.04
+    },
+    {
+     "texto": "ah,",
+     "inicio": 51.68,
+     "fin": 52.06
+    },
+    {
+     "texto": "rain",
+     "inicio": 52.52,
+     "fin": 52.7
+    },
+    {
+     "texto": "smell.",
+     "inicio": 52.7,
+     "fin": 53.02
+    }
+   ],
+   "inicio": 48.74,
+   "fin": 53.02
+  }
+ ]
+}

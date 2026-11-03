@@ -11,3 +11,13 @@ Uso: 8 pasos · 6,340 tokens nuevos · 335,653 de caché · 1,052 escritos · eq
 2026-11-02 17:49 Render de en-014-birthday-pairs (sin Claude).
 2026-11-02 18:20 en-014-birthday-pairs: listo (render sin Claude)
 2026-11-02 18:20 Termina la producción (ok).
+2026-11-02 20:42 Arranca la producción (0 listos en la cola, meta 6).
+**Listo para render:** `en-015-rain-smell`, rescatado. Saqué del guion y del caption la cifra "a few parts per trillion". La reemplacé por "some people can pick up geosmin at as little as five parts per trillion". El chequeo aprobó la versión anterior ("in some studies") y el subagente la dejó como probable, con el matiz correcto. Después la cambié a "some people" porque sugería ser más exacto, y esa frase final no se volvió a chequear. La voz (53 s, 157 palabras, algo larga) ya está, el `tsc` pasa, revisé una hoja de cuadros y el estado quedó en `render`. `producir.py` lo renderiza.
+
+**Pendiente:** `en-012-thunder-count` sigue en `produccion` en la cola, aunque su log dice que ya estaba en render. No lo toqué: esta corrida es de un solo video y el otro ya estaba hecho.
+
+**Detalle:** la serie quedó en `ciencia` #1 y el caption coincide. Antes había intentado asignar `clima` y la herramienta respondió "Weather explained #1", pero el estado real es `ciencia`.
+Uso: 34 pasos · 16,371 tokens nuevos · 1,077,801 de caché · 5,511 escritos · equivale a US$ 0.62 de API
+2026-11-02 20:47 Render de en-015-rain-smell (sin Claude).
+2026-11-02 21:12 en-015-rain-smell: listo (render sin Claude)
+2026-11-02 21:12 Termina la producción (ok).

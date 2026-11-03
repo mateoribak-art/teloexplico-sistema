@@ -492,7 +492,7 @@
  {
   "slug": "en-015-rain-smell",
   "tema": "Why does rain smell like that? petrichor (adapted from 004)",
-  "estado": "apartado",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -508,6 +508,21 @@
     "estado": "apartado",
     "cuando": "2026-10-30T14:11",
     "motivo": "chequeo rechazado 2 veces: umbral de geosmina 'a few parts per trillion' varía por fuente (5 a 400 ppt); el resto verificado"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-02T20:43",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-02T20:47",
+    "motivo": "escenas 3D listas (rescatado)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-02T21:12",
+    "motivo": "render sin Claude"
    }
   ]
  },

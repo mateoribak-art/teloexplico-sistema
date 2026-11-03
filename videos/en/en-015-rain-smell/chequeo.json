@@ -1,70 +1,64 @@
 {
-  "veredicto": "rechazado",
-  "motivo": "Las tres frases reescritas (origen bacteriano 'a big part... including', 'one key ingredient', aerosoles 'may help carry the scent', 'in MIT's tests') quedan bien respaldadas por Nature 1964/CSIRO, MIT News 2015 y geosmina. Pero queda una cifra sin respaldo uniforme: 'geosmin at just a few parts per trillion' (frase 6 y caption). Las fuentes dan umbrales distintos: ~5 ppt (American Chemical Society, citado en Wikipedia), ~100 ppt (John Innes Centre, citado por Smithsonian), ~400 ppt (Polak y Provasi 1992, Chemical Senses). 'A few' solo cubre el extremo mas bajo y se presenta como hecho firme, sin matiz; las cifras no pueden ser dudosas ni probables sin presentarse asi. Correccion sugerida: 'as little as five parts per trillion in some studies' o 'at parts-per-trillion levels', en guion (frase 6), caption y el campo fuentes.",
+  "veredicto": "aprobado",
+  "motivo": "Ninguna afirmacion es falsa ni dudosa. Las de mecanismo, fecha, autores y MIT estan verificadas con fuente primaria o institucional (CSIRO, cobertura del paper MIT 2015). Las dos afirmaciones no verificadas del todo (cifra de 5 ppt de la frase 6/caption y la hipotesis evolutiva de la frase 7/caption) estan presentadas con el matiz que corresponde ('in some studies ... as little as', 'One idea', 'theory, not a proven fact'). Ninguna es de salud, seguridad ni plata. Limitacion: no se encontro el estudio primario del 5 ppt; la cifra se sostiene como extremo inferior del rango publicado (Wikipedia/Geosmin cita a ACS ~5 ppt y a Polak y Provasi 1992 ~400 ppt; USGS ~10 ppt; Halifax Water y Scottish Water ~15 ng/L, con personas sensibles detectando 5 ng/L). Como 1 ppt equivale a 1 ng/L en agua, las unidades coinciden. Recomendacion opcional: no escribir 'studies' como si fueran varios estudios identificados si se quiere maxima prudencia; 'some people' o 'at best' tambien funcionaria, pero el matiz actual es aceptable. Nota: la sub-consulta a la pagina de MIT News fallo por un error de herramienta; las afirmaciones MIT se confirmaron con Live Science, ScienceAlert y reseñas del paper, no con el PDF del paper.",
   "afirmaciones": [
     {
-      "texto": "That smell when it starts to rain? It isn't the rain. / That 'rain smell' isn't the rain",
-      "fuente": "MIT News 2015 (cita NYT: el olor 'no viene de la lluvia misma'); CSIRO, Bear & Thomas 1964",
+      "texto": "Frase 1: That smell when it starts to rain? It isn't the rain. (caption: That 'rain smell' isn't the rain)",
+      "fuente": "CSIRO (Bear & Thomas 1964): el aroma viene de un aceite atrapado en rocas y suelo que libera la humedad; MIT/Buie: aerosoles del suelo. https://www.csiro.au/en/news/All/Articles/2015/March/The-smell-of-rain-how-our-scientists-invented-a-new-word",
       "estado": "verificada",
       "matiz_ok": true
     },
     {
-      "texto": "A big part of it comes from the ground, including a chemical made by soil bacteria.",
-      "fuente": "CSIRO (aceite de plantas absorbido por suelo y rocas, liberado por la humedad); geosmina producida sobre todo por Streptomyces (Wikipedia Geosmin / Smithsonian). 'A big part... including' es consistente con ambas",
+      "texto": "Frase 2: A big part of it comes from the ground, including a chemical made by soil bacteria. (caption: A big part of it comes from the ground)",
+      "fuente": "CSIRO (aceite del suelo y rocas); geosmin producido por bacterias del suelo (Streptomyces), Wikipedia/Geosmin; ScienceNotes. 'A big part' es cualitativo y no afirma porcentaje.",
       "estado": "verificada",
       "matiz_ok": true
     },
     {
-      "texto": "It has a name: petrichor. Two Australian scientists coined it in nineteen sixty-four. (caption: in a 1964 paper in Nature)",
-      "fuente": "https://www.csiro.au/en/news/All/Articles/2015/March/The-smell-of-rain-how-our-scientists-invented-a-new-word ; Nature 201, 993-995 (marzo 1964), Bear y Thomas, 'Nature of argillaceous odour'",
+      "texto": "Frase 3: It has a name: petrichor. Two Australian scientists coined it in nineteen sixty-four. (caption: coined by two Australian scientists in a 1964 paper in Nature)",
+      "fuente": "CSIRO: Isabel (Joy) Bear y Richard Thomas, 'Nature of Argillaceous Odour', Nature, 7 de marzo de 1964 (vol. 201, pp. 993-995). Detalle menor: segun Wikipedia, Thomas acuño la palabra; CSIRO atribuye el nombre al par. Aceptable.",
       "estado": "verificada",
       "matiz_ok": true
     },
     {
-      "texto": "One key ingredient is a molecule called geosmin, made by soil bacteria.",
-      "fuente": "Wikipedia Geosmin (Streptomyces principal productor entre actinomicetos); Smithsonian; The Weather Network. Dice 'one key ingredient', no 'the cause'",
+      "texto": "Frase 4: One key ingredient is a molecule called geosmin, made by soil bacteria. (caption igual)",
+      "fuente": "Wikipedia/Geosmin (alcohol bicíclico C12H22O, producido por Streptomyces y otros microbios del suelo); ScienceNotes; PopSci. Nota: la pagina de CSIRO no menciona geosmin (el paper de 1964 es anterior a su identificacion como componente), pero 'one key ingredient' no contradice nada.",
       "estado": "verificada",
       "matiz_ok": true
     },
     {
-      "texto": "When a raindrop hits dry ground, it traps tiny air bubbles that pop and release aerosols.",
-      "fuente": "https://news.mit.edu/2015/rainfall-can-release-aerosols-0114 (Joung y Buie, Nature Communications 2015; ~600 experimentos, 28 superficies)",
+      "texto": "Frase 5: When a raindrop hits dry ground, it traps tiny air bubbles that pop and release aerosols. MIT researchers filmed it in twenty fifteen, and think it may help carry the scent. (caption equivalente)",
+      "fuente": "Joung & Buie, Nature Communications, 14 de enero de 2015, camara de alta velocidad (~600 experimentos, 28 superficies); Buie: 'One hypothesis we have is that that smell comes from this mechanism'. Cobertura: ScienceDaily, Live Science, ScienceAlert. El 'may help carry' respeta que es hipotesis.",
       "estado": "verificada",
       "matiz_ok": true
     },
     {
-      "texto": "MIT researchers filmed it in twenty fifteen, and think it may help carry the scent.",
-      "fuente": "MIT News 2015: los investigadores 'sospechan' que los aerosoles pueden transportar elementos aromaticos; Buie presenta el vinculo con el petricor como hipotesis. 'think it may help' refleja ese nivel",
+      "texto": "Frase 6 y caption: your nose is so sharp, in some studies it picked up geosmin at as little as five parts per trillion. / In some studies, people could detect geosmin at as little as five parts per trillion.",
+      "fuente": "Wikipedia/Geosmin: rango de deteccion 400 a 5 ppt, el extremo de 5 ppt atribuido a la American Chemical Society y 400 ppt a Polak & Provasi 1992 (Chemical Senses). Soporte independiente del extremo bajo: Halifax Water (algunas personas sensibles detectan 5 ng/L; umbral general ~15 ng/L); USGS ~10 ppt; Scottish Water ~15 ppt; PopSci 4 ng/L. No se hallo el estudio primario ni el texto de la ACS, por lo que es 'sin fuente primaria' para la cifra exacta. Unidades: 1 ppt = 1 ng/L en agua, coinciden. Se sostiene como el extremo inferior publicado.",
       "estado": "probable",
       "matiz_ok": true
     },
     {
-      "texto": "Your nose... can pick up geosmin at just a few parts per trillion. / Humans can detect geosmin at just a few parts per trillion.",
-      "fuente": "Wikipedia Geosmin: 5 ppt (ACS) a 400 ppt (Polak y Provasi 1992); John Innes Centre via Smithsonian: 100 ppt. Sin consenso en la cifra",
+      "texto": "Frase 7 y caption: Why? One idea is that our ancestors followed that smell to find water. / That's a theory, not a proven fact.",
+      "fuente": "Wikipedia/Geosmin (cita a Garbeva et al. 2023): la sensibilidad 'may have evolved ... to aid them in their search for scarce water, but this is not conclusive'. Es una hipotesis, no una anecdota ni cifra; esta presentada como idea/teoria.",
       "estado": "probable",
-      "matiz_ok": false
-    },
-    {
-      "texto": "Why? One idea is that our ancestors followed that smell to find water. / That's a theory, not a proven fact.",
-      "fuente": "Wikipedia Geosmin: hipotesis evolutiva, 'not conclusive'",
-      "estado": "dudosa",
       "matiz_ok": true
     },
     {
-      "texto": "Heads up: in MIT's tests, light to moderate rain released more aerosols than a downpour / heavy rain.",
-      "fuente": "https://news.mit.edu/2015/rainfall-can-release-aerosols-0114 (mas aerosoles con lluvia ligera y moderada que con fuerte; a alta velocidad de impacto no hay tiempo de formar burbujas). Acotado a 'in MIT's tests'",
+      "texto": "Frase 8 y caption: in MIT's tests, light to moderate rain released more aerosols than a downpour / than heavy rain.",
+      "fuente": "Joung & Buie 2015 (Nature Communications): mas aerosoles con lluvia ligera a moderada, muchos menos con lluvia fuerte (velocidades de impacto ~1 m/s en adelante). Cobertura: Live Science, ScienceAlert, ScienceDaily. Dentro de los experimentos de laboratorio, como dice la frase ('in MIT's tests').",
       "estado": "verificada",
       "matiz_ok": true
     },
     {
-      "texto": "Next time it starts to drizzle, step outside and take a deep breath. / Do you love that smell?",
-      "fuente": "Invitacion, no afirmacion factica",
+      "texto": "Frase 9 y 10: Next time it starts to drizzle, step outside and take a deep breath. / Send this to the friend who steps onto the porch... (llamados a la accion, sin afirmacion fáctica)",
+      "fuente": "No aplica (no son afirmaciones fácticas).",
       "estado": "verificada",
       "matiz_ok": true
     },
     {
-      "texto": "Sources: Bear & Thomas, Nature (1964); Joung & Buie, Nature Communications (2015), MIT.",
-      "fuente": "Ambas existen y respaldan lo atribuido (CSIRO; news.mit.edu)",
+      "texto": "Caption: Sources: Bear & Thomas, Nature (1964); Joung & Buie, Nature Communications (2015), MIT.",
+      "fuente": "Ambas referencias existen y coinciden con lo descrito (CSIRO; cobertura del paper de MIT).",
       "estado": "verificada",
       "matiz_ok": true
     }

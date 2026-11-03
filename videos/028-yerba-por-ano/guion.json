@@ -1,0 +1,22 @@
+{
+  "titulo": "¿Cuánta yerba toma un argentino por año?",
+  "serie": "argentina",
+  "receta": "A vs B con cuenta a la vista: seis paquetes de un kilo en un calendario (Argentina en datos)",
+  "fondo": "oscuro",
+  "destinatario": "se lo manda alguien que toma un termo por día a su amigo que dice que casi no toma mate, para que cuente cuántos paquetes compra al año",
+  "fuentes": [
+    "Secretaría de Agricultura, Ganadería y Pesca (Ministerio de Economía), Informe Yerba Mate: consumo interno promedio 2013/2022 de 6,0 kg por habitante por año",
+    "Bolsa de Comercio de Rosario (BCR), 2023: 6,11 kg per cápita, promedio histórico 6,07 kg (población del censo del INDEC)"
+  ],
+  "frases": [
+    {"texto": "Cada argentino se toma, en promedio, seis kilos de yerba por año.", "estilo": "Afirmación que sorprende, segura y cercana."},
+    {"texto": "Seis paquetes de un kilo: uno cada dos meses.", "estilo": "Seco, con media sonrisa."},
+    {"texto": "Y ese promedio cuenta a todos: bebés, abuelos y gente que ni prueba el mate.", "estilo": "Explicando simple, como a un amigo."},
+    {"texto": "La Secretaría de Agricultura calculó seis kilos por habitante, en promedio, entre dos mil trece y dos mil veintidós.", "estilo": "Dato claro, con fuente."},
+    {"texto": "Y la Bolsa de Comercio de Rosario, seis kilos con once para dos mil veintitrés.", "estilo": "Curioso, ritmo ágil."},
+    {"texto": "O sea: si tomás mate todos los días, probablemente estés por encima del promedio.", "estilo": "Cómplice, con humor."},
+    {"texto": "Ojo: la cifra cambia un poco según el año y la población que se use para dividir.", "estilo": "Matiz tranquilo."},
+    {"texto": "Hoy fijate cuántos paquetes comprás al año: ¿llegás a seis?", "estilo": "Práctico, cómplice."},
+    {"texto": "Mandáselo al que se toma un termo antes del almuerzo.", "estilo": "Cómplice y gracioso."}
+  ]
+}
