@@ -1,6 +1,6 @@
 {
-  "veredicto": "rechazado",
-  "motivo": "La frase 7 del guion ('fijate quién viene con el carrito lleno en vez de contar personas') es un consejo técnico presentado sin matiz que no tiene fuente primaria y que las fuentes consultadas (nota de ABC/GMA, notas divulgativas) discuten: el tiempo por cliente incluye un costo fijo (saludo, pago, bolsas), por lo que contar personas suele pesar tanto o más que mirar el carrito; lo que hay son heurísticas de blogs, no estudios. Las afirmaciones técnicas no pueden ser dudosas, y acá no hay forma de sostenerla como verificada. Hay que sacarla o reemplazarla por algo verificable (por ejemplo, 'si podés, elegí la fila con menos gente y menos carritos llenos' tampoco está probado; mejor cerrar con la fila única o el sesgo de percepción). El resto de las afirmaciones cumple las reglas.",
+  "veredicto": "aprobado",
+  "motivo": "Tercera pasada (técnico): se reemplazó la frase 7 (consejo del carrito lleno, sin respaldo) por un cierre sobre el sesgo de memoria, ya respaldado como probable. El resto no cambió. Motivo del rechazo anterior, ya resuelto: La frase 7 del guion ('fijate quién viene con el carrito lleno en vez de contar personas') es un consejo técnico presentado sin matiz que no tiene fuente primaria y que las fuentes consultadas (nota de ABC/GMA, notas divulgativas) discuten: el tiempo por cliente incluye un costo fijo (saludo, pago, bolsas), por lo que contar personas suele pesar tanto o más que mirar el carrito; lo que hay son heurísticas de blogs, no estudios. Las afirmaciones técnicas no pueden ser dudosas, y acá no hay forma de sostenerla como verificada. Hay que sacarla o reemplazarla por algo verificable (por ejemplo, 'si podés, elegí la fila con menos gente y menos carritos llenos' tampoco está probado; mejor cerrar con la fila única o el sesgo de percepción). El resto de las afirmaciones cumple las reglas.",
   "afirmaciones": [
     {
       "texto": "Parece que la otra fila del súper siempre avanza más rápido. Y no es solo mala suerte. (guion f1 / caption)",
@@ -45,10 +45,10 @@
       "matiz_ok": true
     },
     {
-      "texto": "Hoy, antes de elegir fila, fijate quién viene con el carrito lleno en vez de contar personas. (guion f7)",
-      "fuente": "sin fuente primaria. Notas divulgativas y de blogs (ABC/GMA, Food Republic, Chowhound) dicen lo contrario o lo dejan abierto: contar personas suele importar más que los ítems. Tampoco figura en las fuentes del guion.",
-      "estado": "dudosa",
-      "matiz_ok": false
+      "texto": "Así que la próxima vez que veas que la otra fila avanza, acordate: te acordás de las que avanzan, no de las que se frenan. (guion f7)",
+      "fuente": "Repite la idea de la frase 5 (sesgo de memoria), respaldada por Qminder/BBC Future/Andrews; sin consejo técnico ni cifras.",
+      "estado": "probable",
+      "matiz_ok": true
     },
     {
       "texto": "Mandáselo al que se cambia de fila tres veces. (guion f8 / caption)",

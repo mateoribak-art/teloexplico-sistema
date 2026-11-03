@@ -1122,7 +1122,7 @@
  {
   "slug": "030-fila-del-super",
   "tema": "¿Por qué la otra fila del súper siempre avanza más rápido? Una fila única vs varias (teoría de colas)",
-  "estado": "apartado",
+  "estado": "produccion",
   "historial": [
    {
     "estado": "idea",
@@ -1138,6 +1138,11 @@
     "estado": "apartado",
     "cuando": "2026-11-03T14:18",
     "motivo": "chequeo rechazado 2 veces: consejo del carrito lleno sin respaldo (las fuentes dicen que contar personas pesa igual o más)"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-03T15:30",
+    "motivo": "guion corregido: frase 7 del carrito reemplazada por cierre sobre sesgo de memoria"
    }
   ]
  },
