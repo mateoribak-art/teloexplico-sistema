@@ -116,7 +116,7 @@
  },
  {
   "clave": "refresca-tormenta",
-  "estado": "listo",
+  "estado": "publicado",
   "origen": [
    "018-refresca-tormenta"
   ],
@@ -130,6 +130,11 @@
     "estado": "listo",
     "cuando": "2026-11-03T09:53",
     "motivo": "control OK"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-03T20:46",
+    "motivo": "https://www.instagram.com/p/DfTGGAbDttM/"
    }
   ]
  }
