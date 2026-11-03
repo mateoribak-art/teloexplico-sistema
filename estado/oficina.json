@@ -1,12 +1,12 @@
 {
- "actualizado": "2026-11-03T03:39",
+ "actualizado": "2026-11-03T04:11",
  "oficinas": [
   {
    "clave": "es",
    "usuario": "teloexplico.ar",
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
-   "seguidores": 354,
+   "seguidores": 365,
    "listos": 7,
    "dias": 3.5,
    "proximo": "010-rayo-mismo-lugar",
@@ -42,6 +42,13 @@
    ],
    "linea": [
     {
+     "slug": "026-mediodia-hora-corrida",
+     "tema": "¿A qué hora es el mediodía en Argentina? La hora corrida: el sol llega más tarde que el reloj",
+     "estado": "render",
+     "cuando": "2026-11-03T03:37",
+     "motivo": "reintento auto: apartado por render/control; se renderiza y controla de nuevo"
+    },
+    {
      "slug": "010-rayo-mismo-lugar",
      "tema": "¿Un rayo nunca cae dos veces en el mismo lugar?",
      "estado": "listo",
@@ -68,13 +75,6 @@
      "estado": "listo",
      "cuando": "2026-10-27T22:17",
      "motivo": "vuelve: mezcla 1 3D + 1 2D por día (27/10)"
-    },
-    {
-     "slug": "026-mediodia-hora-corrida",
-     "tema": "¿A qué hora es el mediodía en Argentina? La hora corrida: el sol llega más tarde que el reloj",
-     "estado": "apartado",
-     "cuando": "2026-11-03T01:01",
-     "motivo": "render/control: el render pasó los 50 min"
     },
     {
      "slug": "009-ventilador-pieza-vacia",
@@ -109,7 +109,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-03T01:01",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "Uso: 42 pasos · 41,869 tokens nuevos · 1,133,872 de caché · 6,435 escritos · equivale a US$ 0.35 de API",
       "2026-11-03 00:06 Arranca la producción (7 listos en la cola, meta 10).",
@@ -121,7 +121,9 @@
       "2026-11-03 01:01 026-mediodia-hora-corrida: apartado (render/control: el render pasó los 50 min)",
       "2026-11-03 01:01 Termina la producción (ok)."
      ],
-     "tareas": [],
+     "tareas": [
+      "026-mediodia-hora-corrida — ¿A qué hora es el mediodía en Argentina? La hora corrida: el sol llega más tarde que el reloj"
+     ],
      "arreglo": null,
      "solo": false,
      "firma": "5e5a54942854"
@@ -201,7 +203,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-02T20:42",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [
       "021-heladera-parte-2: aprobado — Todas las afirmaciones fácticas (salud/seguridad) están verificadas contra la página primaria del USDA FSIS 'Leftovers and Food Safety'. Nin",
       "009-ventilador-pieza-vacia: aprobado — Todas las afirmaciones quedan verificadas o son consejos/humor sin dato duro. La atribución al Departamento de Energía se sostiene: la guía ",
@@ -234,7 +236,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-02T20:42",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -255,17 +257,17 @@
        "cuenta": "es"
       }
      },
-     "estado": "falla",
-     "resumen": "Falló el render de 026-mediodia-hora-corrida.",
+     "estado": "trabajando",
+     "resumen": "1 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
      "cuando": "2026-11-02T20:42",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [],
      "tareas": [
-      "026-mediodia-hora-corrida: render/control: el render pasó los 50 min"
+      "026-mediodia-hora-corrida"
      ],
-     "arreglo": "Relanzá la producción: los videos en estado render se vuelven a renderizar solos.",
+     "arreglo": null,
      "solo": false,
-     "firma": "c946a3ccbe11"
+     "firma": "26b16992f9f3"
     },
     {
      "id": "control",
@@ -284,7 +286,7 @@
      "estado": "ok",
      "resumen": "7 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-02T20:42",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -445,25 +447,25 @@
       }
      },
      "estado": "ok",
-     "resumen": "02/11: 354 seguidores",
-     "cuando": "2026-11-02T02:52",
-     "hace": "hace 24 h",
+     "resumen": "03/11: 365 seguidores",
+     "cuando": "2026-11-03T03:37",
+     "hace": "hace 34 min",
      "detalle": [
-      "30/10: 296 seguidores",
       "31/10: 329 seguidores",
       "01/11: 341 seguidores",
-      "02/11: 354 seguidores"
+      "02/11: 354 seguidores",
+      "03/11: 365 seguidores"
      ],
      "tareas": [
-      "001-heladera: 132.598 vistas · 5076 enviados · 2495 ♥",
-      "007-bts-13-anios: 27.124 vistas · 544 enviados · 2500 ♥",
-      "006-army-bomb: 8.249 vistas · 49 enviados · 501 ♥",
-      "003-vuelta-carne: 3.944 vistas · 24 enviados · 91 ♥",
-      "020-pava-se-corta: 1.926 vistas · 3 enviados · 67 ♥"
+      "001-heladera: 136.732 vistas · 5303 enviados · 2598 ♥",
+      "007-bts-13-anios: 27.539 vistas · 555 enviados · 2558 ♥",
+      "006-army-bomb: 8.307 vistas · 49 enviados · 503 ♥",
+      "003-vuelta-carne: 4.016 vistas · 24 enviados · 92 ♥",
+      "020-pava-se-corta: 1.930 vistas · 3 enviados · 68 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "27f99bebd3c0"
+     "firma": "206d8c6fde6a"
     },
     {
      "id": "vigilante",
@@ -478,17 +480,15 @@
        "modo": "vigilar"
       }
      },
-     "estado": "aviso",
-     "resumen": "Video apartado: 026-mediodia-hora-corrida — render/control: el render pasó los 50 min",
-     "cuando": "2026-11-03T03:39",
+     "estado": "ok",
+     "resumen": "Todo en orden ✓",
+     "cuando": "2026-11-03T04:11",
      "hace": "recién",
-     "detalle": [
-      "⚠️ Video apartado: 026-mediodia-hora-corrida — render/control: el render pasó los 50 min"
-     ],
+     "detalle": [],
      "tareas": [],
      "arreglo": null,
-     "solo": true,
-     "firma": "13b3b5606fa8"
+     "solo": false,
+     "firma": "cf3a22f5d39c"
     },
     {
      "id": "planb",
@@ -882,25 +882,25 @@
       }
      },
      "estado": "ok",
-     "resumen": "02/11: 3 seguidores",
-     "cuando": "2026-11-02T02:52",
-     "hace": "hace 24 h",
+     "resumen": "03/11: 3 seguidores",
+     "cuando": "2026-11-03T03:37",
+     "hace": "hace 34 min",
      "detalle": [
-      "30/10: 2 seguidores",
       "31/10: 2 seguidores",
       "01/11: 2 seguidores",
-      "02/11: 3 seguidores"
+      "02/11: 3 seguidores",
+      "03/11: 3 seguidores"
      ],
      "tareas": [
-      "en-001-phone-rice: 4.010 vistas · 22 enviados · 52 ♥",
-      "en-007-flip-steak: 3.372 vistas · 18 enviados · 36 ♥",
-      "en-009-ceiling-fan: 3.043 vistas · 2 enviados · 40 ♥",
+      "en-001-phone-rice: 4.020 vistas · 22 enviados · 52 ♥",
+      "en-007-flip-steak: 3.374 vistas · 18 enviados · 36 ♥",
+      "en-009-ceiling-fan: 3.053 vistas · 2 enviados · 40 ♥",
       "en-006-five-second-rule: 2.254 vistas · 22 enviados · 52 ♥",
-      "en-008-wash-chicken: 2.189 vistas · 3 enviados · 18 ♥"
+      "en-008-wash-chicken: 2.193 vistas · 3 enviados · 19 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "7e4413638e20"
+     "firma": "4e5526f571b8"
     },
     {
      "id": "vigilante",
@@ -917,7 +917,7 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 1 videos listos: alcanza para 0.5 día(s).",
-     "cuando": "2026-11-03T03:39",
+     "cuando": "2026-11-03T04:11",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s)."
