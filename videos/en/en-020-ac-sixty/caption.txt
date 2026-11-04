@@ -1,8 +1,6 @@
 Setting the AC to 60 won't cool your house faster. 🥶❌
 
-A thermostat isn't a gas pedal, it's a destination. A basic AC runs at one speed, so asking for 60 won't speed it up. It just keeps running past the temperature you wanted.
-
-The U.S. Department of Energy says setting the thermostat colder than normal won't cool your home any faster, and could mean excessive cooling and unnecessary expense.
+A thermostat isn't a gas pedal, it's a destination. A basic AC runs at full capacity whenever the thermostat calls for cooling, then shuts off once it hits your temperature. A lower number only changes where it stops, not how fast it gets there.
 
 Heads up: with an open window or the sun pouring in, no number gets you there. Close the blinds first.
 
@@ -10,6 +8,6 @@ Heads up: with an open window or the sun pouring in, no number gets you there. C
 
 What's your AC set to right now? Give us the number.
 
-Sources: U.S. Department of Energy (Energy Saver).
+Sources: ENERGY STAR.
 
 #funfacts #mythbusting #lifehacks #homehacks #energysaving
