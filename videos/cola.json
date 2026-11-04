@@ -293,7 +293,7 @@
  {
   "slug": "013-alcohol-calor",
   "tema": "Tomar alcohol da calor: es al revés, el cuerpo pierde temperatura",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -319,6 +319,11 @@
     "estado": "listo",
     "cuando": "2026-11-03T19:17",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-04T12:32",
+    "motivo": "https://www.instagram.com/reel/DfUyT71CZ6M/"
    }
   ]
  },

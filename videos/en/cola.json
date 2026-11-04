@@ -623,7 +623,7 @@
  {
   "slug": "en-018-storm-cooldown",
   "tema": "Why does it cool off suddenly after a storm? (adapted from 018-refresca-tormenta)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -644,6 +644,11 @@
     "estado": "listo",
     "cuando": "2026-11-03T19:51",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-04T12:36",
+    "motivo": "https://www.instagram.com/reel/DfUyvgSj_U1/"
    }
   ]
  },
