@@ -1,0 +1,66 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones fácticas tienen respaldo en fuente primaria o institucional: la nota 'Mate Day' de argentina.travel dice textualmente que decir gracias implica que no querés más (y que te saltean en la ronda siguiente) y que la bombilla se deja donde la puso el cebador; Matador Español y Noticias del Mate coinciden. La atribución al sitio oficial de turismo es correcta (se confirmó en la nota 'Mate Day', no en la ficha genérica 'el mate'). El matiz de costumbre-no-ley está en la frase. No hay cifras, salud, seguridad ni plata. Ninguna afirmación falsa o dudosa.",
+  "afirmaciones": [
+    {
+      "texto": "En la ronda, decir gracias al devolver el mate significa que no querés más.",
+      "fuente": "https://www.argentina.travel/en/news/mate-daywhat-is-it-and-how-do-you-become-an-expert ('if you say thank you, you imply that you don't want to drink anymore'); Matador Español '13 pecados contra el mate'; noticiasdelmate.com",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Es al revés de lo que te enseñaron de chico.",
+      "fuente": "sin fuente primaria (recurso retórico sobre la cortesía general; no es dato duro)",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El gracias se guarda para cuando ya no querés más; mientras tanto, se devuelve el mate y se sigue.",
+      "fuente": "argentina.travel (nota Mate Day); noticiasdelmate.com ('Solo hay que decir gracias si ya no quieres más')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El sitio oficial de turismo de la Argentina lo explica así: terminar con gracias implica que ya no querés tomar más.",
+      "fuente": "https://www.argentina.travel/en/news/mate-daywhat-is-it-and-how-do-you-become-an-expert",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Por eso, si lo decís por educación, el cebador te saltea en la próxima vuelta.",
+      "fuente": "argentina.travel (nota Mate Day: 'you'll be skipped in the next round'); corroborado por otras guías",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y otra regla de la ronda: la bombilla no se mueve, se deja como la dispuso el cebador.",
+      "fuente": "argentina.travel (nota Mate Day, dejar la bombilla donde la puso el cebador); Matador Español; noticiasdelmate.com",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: es una costumbre, no una ley, y en algunas ruedas se dice gracias y nadie se ofende.",
+      "fuente": "sin fuente primaria; es un matiz honesto presentado como tal (las fuentes lo describen como costumbre/etiqueta, no norma legal)",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Probalo hoy: guardate el gracias hasta que no quieras más y esperá la próxima vuelta.",
+      "fuente": "Consejo práctico derivado de la regla verificada; no es afirmación fáctica nueva",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mandáselo al que dice gracias en cada vuelta de la ronda. (llamado a la acción)",
+      "fuente": "no aplica (no es afirmación fáctica)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'Fuentes: argentina.travel (Día del Mate), Matador Network en español.'",
+      "fuente": "https://www.argentina.travel/en/news/mate-daywhat-is-it-and-how-do-you-become-an-expert ; https://matadornetwork.com/es/pecados-contra-el-mate-que-no-debes-cometer-jamas/ (ambas existen y contienen la regla)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

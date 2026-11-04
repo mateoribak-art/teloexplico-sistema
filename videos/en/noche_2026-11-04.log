@@ -1,0 +1,10 @@
+2026-11-04 09:02 Arranca la producción (2 listos en la cola, meta 6).
+Corrida terminada y el loop detenido; no queda nada pendiente.
+
+- **Listo:** `en-021-other-line` (adaptado de 030-fila-del-super, serie Everyday math #2) está en estado `render`. El chequeo lo aprobó en el segundo intento y la voz está generada. `tlx tsc` pasa y los cuadros se ven bien. Lo renderiza `producir.py`.
+- **Apartado:** `en-020-ac-sixty` (el aire en 60 °F). El chequeo lo rechazó dos veces porque la cita del DOE no se pudo verificar en la fuente primaria y es un tema de plata. No tiene voz ni render.
+- **Incompleto:** nada. `en-012-thunder-count` sigue apartado por la voz, no por el chequeo, así que no se rescató.
+Uso: 2 pasos · 2,426 tokens nuevos · 195,959 de caché · 352 escritos · equivale a US$ 1.60 de API
+2026-11-04 09:12 Render de en-021-other-line (sin Claude).
+2026-11-04 09:28 en-021-other-line: listo (render sin Claude)
+2026-11-04 09:28 Termina la producción (ok).

@@ -1,0 +1,54 @@
+{
+  "veredicto": "rechazado",
+  "motivo": "Se corrigieron los puntos del primer rechazo (ya no hay 'most home systems', ni absolutos, ni 78 F; la frase 4 quedo acotada a 'a basic air conditioner'). Pero no se cumple la regla de plata: la afirmacion central, la cita del DOE ('colder than normal... will not cool the home any faster and could result in excessive cooling and unnecessary expense'), sigue en 'probable' y no en 'verificada'. No pude leer la fuente primaria: energy.gov/energysaver/thermostats (y las variantes thermostats-and-control-systems, programmable-thermostats, air-conditioning) devuelven 404 desde mi herramienta; los PDF de Energy Saver (energy-saver-guide-2022.pdf y energy_savers.pdf, 2013) se descargaron pero el texto esta comprimido y no hay pdftotext/pdftoppm ni permiso de Bash para extraerlo. La redaccion casi identica aparece atribuida al DOE en varias fuentes secundarias (Clay County Electric, Carolina Country, Dallas Express), pero la cita textual no esta confirmada en la pagina primaria. Como la frase 6 y el caption presentan la cita como dicho firme del DOE y tiene implicancia de plata ('unnecessary expense'), hace falta lectura directa. Para aprobar: abrir la pagina o el PDF del DOE con una herramienta que extraiga texto y confirmar la oracion, o reemplazar la cita por una parafrasis que el DOE respalde y que se pueda leer (p. ej. el articulo energy.gov 'Top 11 Things You Didn't Know About Saving Energy at Home: Summer Edition'). Lo demas esta bien matizado.",
+  "afirmaciones": [
+    {
+      "texto": "Sixty won't cool your house any faster than a normal setting. That's a myth.",
+      "fuente": "DOE Energy Saver (Thermostats), segun citas secundarias (claycountyelectric.com, carolinacountry.com, dallasexpress.com); pagina primaria 404 y PDF ilegible desde mi herramienta. Consistente con ENERGY STAR (equipo convencional corre a maxima capacidad cuando el termostato pide frio, sin importar el setpoint)",
+      "estado": "probable",
+      "matiz_ok": false
+    },
+    {
+      "texto": "A thermostat isn't a gas pedal. It's a destination.",
+      "fuente": "metafora, no afirmacion fáctica; coherente con el funcionamiento descripto por ENERGY STAR",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "A basic air conditioner runs at one speed, no matter how low you set it.",
+      "fuente": "ENERGY STAR (energystar.gov/products/ask-the-experts/variable-speed-means-more-savings-room-air-conditioners): las unidades convencionales de una velocidad estan 'on' a maxima capacidad cuando el termostato pide frio u 'off' al llegar a la temperatura; las de velocidad variable ajustan. Fuente centrada en aires de ventana/room; para central single-stage es la misma logica pero no encontre fuente DOE/ENERGY STAR equivalente. 'Basic' acota el alcance a equipos de una etapa",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "All it does is keep running past the temperature you wanted.",
+      "fuente": "Inferencia directa del funcionamiento on/off de equipos de una velocidad (ENERGY STAR) y de 'excessive cooling' (DOE segun citas secundarias). Esta en el contexto de 'a basic air conditioner'",
+      "estado": "probable",
+      "matiz_ok": false
+    },
+    {
+      "texto": "The U.S. Department of Energy says setting it colder than normal won't cool your home any faster, and could mean excessive cooling and unnecessary expense.",
+      "fuente": "DOE Energy Saver, 'Avoid setting your thermostat at a colder setting than normal when you turn on your air conditioner. It will not cool your home any faster and could result in excessive cooling and unnecessary expense.' Reproducida de forma casi identica por claycountyelectric.com/news/2018/04/energy-efficiency-and-safety-tip-of-the-month, carolinacountry.com/story/don-t-overtax-your-hvac y dallasexpress.com. NO confirmada en energy.gov: pagina primaria 404; energy.gov/sites/prod/files/2013/06/f2/energy_savers.pdf y energy.gov/sites/default/files/2022-08/energy-saver-guide-2022.pdf bajados pero texto no extraible",
+      "estado": "probable",
+      "matiz_ok": false
+    },
+    {
+      "texto": "If a window is open or the sun is blasting in, no number will get you there.",
+      "fuente": "Fisica de carga termica; DOE respalda cerrar cortinas/persianas contra la ganancia solar (energy.gov/indianenergy/articles/energy-saving-hacks-beat-summer-heat; energy.gov/articles/5-tips-energy-saving-renters). Frase acotada con 'Heads up' y condicional, no cifra",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Set it to a normal, comfortable temperature, and close the blinds.",
+      "fuente": "DOE: configurar el termostato lo mas alto que sea comodo en verano y cerrar persianas de dia (energy.gov/sites/prod/files/2016/06/f33/EnergyisEverywhere_webinar19.pdf y articulos Energy Saver). Es consejo, sin cifra",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Send this to the friend who sets the AC to sixty and waits. (caption: What's your AC set to right now?)",
+      "fuente": "no es afirmacion fáctica (humor / llamado a la accion)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

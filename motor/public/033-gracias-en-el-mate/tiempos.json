@@ -1,0 +1,773 @@
+{
+ "duracion": 51.35,
+ "frases": [
+  {
+   "texto": "En la ronda, decir gracias al devolver el mate significa que no querés más.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 0.0,
+     "fin": 0.16
+    },
+    {
+     "texto": "la",
+     "inicio": 0.16,
+     "fin": 0.26
+    },
+    {
+     "texto": "ronda,",
+     "inicio": 0.26,
+     "fin": 0.58
+    },
+    {
+     "texto": "decir",
+     "inicio": 1.14,
+     "fin": 1.4
+    },
+    {
+     "texto": "gracias",
+     "inicio": 1.4,
+     "fin": 1.92
+    },
+    {
+     "texto": "al",
+     "inicio": 1.92,
+     "fin": 2.64
+    },
+    {
+     "texto": "devolver",
+     "inicio": 2.64,
+     "fin": 3.02
+    },
+    {
+     "texto": "el",
+     "inicio": 3.02,
+     "fin": 3.18
+    },
+    {
+     "texto": "mate",
+     "inicio": 3.18,
+     "fin": 3.42
+    },
+    {
+     "texto": "significa",
+     "inicio": 3.42,
+     "fin": 4.3
+    },
+    {
+     "texto": "que",
+     "inicio": 4.3,
+     "fin": 4.7
+    },
+    {
+     "texto": "no",
+     "inicio": 4.7,
+     "fin": 4.84
+    },
+    {
+     "texto": "querés",
+     "inicio": 4.84,
+     "fin": 5.08
+    },
+    {
+     "texto": "más.",
+     "inicio": 5.08,
+     "fin": 5.3
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 5.3
+  },
+  {
+   "texto": "Es al revés de lo que te enseñaron de chico.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 5.68,
+     "fin": 5.98
+    },
+    {
+     "texto": "al",
+     "inicio": 5.98,
+     "fin": 6.12
+    },
+    {
+     "texto": "revés",
+     "inicio": 6.12,
+     "fin": 6.36
+    },
+    {
+     "texto": "de",
+     "inicio": 6.36,
+     "fin": 6.44
+    },
+    {
+     "texto": "lo",
+     "inicio": 6.44,
+     "fin": 6.54
+    },
+    {
+     "texto": "que",
+     "inicio": 6.54,
+     "fin": 6.64
+    },
+    {
+     "texto": "te",
+     "inicio": 6.64,
+     "fin": 6.74
+    },
+    {
+     "texto": "enseñaron",
+     "inicio": 6.74,
+     "fin": 7.14
+    },
+    {
+     "texto": "de",
+     "inicio": 7.14,
+     "fin": 7.28
+    },
+    {
+     "texto": "chico.",
+     "inicio": 7.28,
+     "fin": 7.54
+    }
+   ],
+   "inicio": 5.68,
+   "fin": 7.54
+  },
+  {
+   "texto": "El gracias se guarda para cuando ya no querés más; mientras tanto, se devuelve el mate y se sigue.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 8.54,
+     "fin": 8.7
+    },
+    {
+     "texto": "gracias",
+     "inicio": 8.7,
+     "fin": 9.12
+    },
+    {
+     "texto": "se",
+     "inicio": 9.12,
+     "fin": 10.0
+    },
+    {
+     "texto": "guarda",
+     "inicio": 10.0,
+     "fin": 10.38
+    },
+    {
+     "texto": "para",
+     "inicio": 10.38,
+     "fin": 10.56
+    },
+    {
+     "texto": "cuando",
+     "inicio": 10.56,
+     "fin": 10.88
+    },
+    {
+     "texto": "ya",
+     "inicio": 10.88,
+     "fin": 11.34
+    },
+    {
+     "texto": "no",
+     "inicio": 11.34,
+     "fin": 11.46
+    },
+    {
+     "texto": "querés",
+     "inicio": 11.46,
+     "fin": 11.7
+    },
+    {
+     "texto": "más;",
+     "inicio": 11.7,
+     "fin": 11.94
+    },
+    {
+     "texto": "mientras",
+     "inicio": 12.54,
+     "fin": 12.8
+    },
+    {
+     "texto": "tanto,",
+     "inicio": 12.8,
+     "fin": 13.18
+    },
+    {
+     "texto": "se",
+     "inicio": 13.58,
+     "fin": 13.74
+    },
+    {
+     "texto": "devuelve",
+     "inicio": 13.74,
+     "fin": 14.08
+    },
+    {
+     "texto": "el",
+     "inicio": 14.08,
+     "fin": 14.2
+    },
+    {
+     "texto": "mate",
+     "inicio": 14.2,
+     "fin": 14.44
+    },
+    {
+     "texto": "y",
+     "inicio": 14.44,
+     "fin": 14.96
+    },
+    {
+     "texto": "se",
+     "inicio": 14.96,
+     "fin": 15.08
+    },
+    {
+     "texto": "sigue.",
+     "inicio": 15.08,
+     "fin": 15.36
+    }
+   ],
+   "inicio": 8.54,
+   "fin": 15.36
+  },
+  {
+   "texto": "El sitio oficial de turismo de la Argentina lo explica así: terminar con gracias implica que ya no querés tomar más.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 15.86,
+     "fin": 16.06
+    },
+    {
+     "texto": "sitio",
+     "inicio": 16.06,
+     "fin": 16.3
+    },
+    {
+     "texto": "oficial",
+     "inicio": 16.3,
+     "fin": 16.72
+    },
+    {
+     "texto": "de",
+     "inicio": 16.72,
+     "fin": 16.94
+    },
+    {
+     "texto": "turismo",
+     "inicio": 16.94,
+     "fin": 17.3
+    },
+    {
+     "texto": "de",
+     "inicio": 17.3,
+     "fin": 17.42
+    },
+    {
+     "texto": "la",
+     "inicio": 17.42,
+     "fin": 17.5
+    },
+    {
+     "texto": "Argentina",
+     "inicio": 17.5,
+     "fin": 17.86
+    },
+    {
+     "texto": "lo",
+     "inicio": 17.86,
+     "fin": 18.08
+    },
+    {
+     "texto": "explica",
+     "inicio": 18.08,
+     "fin": 18.44
+    },
+    {
+     "texto": "así:",
+     "inicio": 18.44,
+     "fin": 18.66
+    },
+    {
+     "texto": "terminar",
+     "inicio": 19.14,
+     "fin": 19.54
+    },
+    {
+     "texto": "con",
+     "inicio": 19.54,
+     "fin": 19.76
+    },
+    {
+     "texto": "gracias",
+     "inicio": 19.76,
+     "fin": 20.18
+    },
+    {
+     "texto": "implica",
+     "inicio": 20.18,
+     "fin": 20.98
+    },
+    {
+     "texto": "que",
+     "inicio": 20.98,
+     "fin": 21.2
+    },
+    {
+     "texto": "ya",
+     "inicio": 21.2,
+     "fin": 21.62
+    },
+    {
+     "texto": "no",
+     "inicio": 21.62,
+     "fin": 21.88
+    },
+    {
+     "texto": "querés",
+     "inicio": 21.88,
+     "fin": 22.18
+    },
+    {
+     "texto": "tomar",
+     "inicio": 22.18,
+     "fin": 22.42
+    },
+    {
+     "texto": "más.",
+     "inicio": 22.42,
+     "fin": 22.62
+    }
+   ],
+   "inicio": 15.86,
+   "fin": 22.62
+  },
+  {
+   "texto": "Por eso, si lo decís por educación, el cebador te saltea en la próxima vuelta.",
+   "palabras": [
+    {
+     "texto": "Por",
+     "inicio": 23.12,
+     "fin": 23.38
+    },
+    {
+     "texto": "eso,",
+     "inicio": 23.38,
+     "fin": 23.56
+    },
+    {
+     "texto": "si",
+     "inicio": 23.62,
+     "fin": 23.72
+    },
+    {
+     "texto": "lo",
+     "inicio": 23.72,
+     "fin": 23.84
+    },
+    {
+     "texto": "decís",
+     "inicio": 23.84,
+     "fin": 24.08
+    },
+    {
+     "texto": "por",
+     "inicio": 24.08,
+     "fin": 24.22
+    },
+    {
+     "texto": "educación,",
+     "inicio": 24.22,
+     "fin": 24.6
+    },
+    {
+     "texto": "el",
+     "inicio": 25.3,
+     "fin": 25.42
+    },
+    {
+     "texto": "cebador",
+     "inicio": 25.42,
+     "fin": 25.88
+    },
+    {
+     "texto": "te",
+     "inicio": 25.88,
+     "fin": 26.42
+    },
+    {
+     "texto": "saltea",
+     "inicio": 26.42,
+     "fin": 26.86
+    },
+    {
+     "texto": "en",
+     "inicio": 26.86,
+     "fin": 26.92
+    },
+    {
+     "texto": "la",
+     "inicio": 26.92,
+     "fin": 27.0
+    },
+    {
+     "texto": "próxima",
+     "inicio": 27.0,
+     "fin": 27.24
+    },
+    {
+     "texto": "vuelta.",
+     "inicio": 27.24,
+     "fin": 27.62
+    }
+   ],
+   "inicio": 23.12,
+   "fin": 27.62
+  },
+  {
+   "texto": "Y otra regla de la ronda: la bombilla no se mueve, se deja como la dispuso el cebador.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 27.62,
+     "fin": 28.3
+    },
+    {
+     "texto": "otra",
+     "inicio": 28.3,
+     "fin": 28.48
+    },
+    {
+     "texto": "regla",
+     "inicio": 28.48,
+     "fin": 28.78
+    },
+    {
+     "texto": "de",
+     "inicio": 28.78,
+     "fin": 28.88
+    },
+    {
+     "texto": "la",
+     "inicio": 28.88,
+     "fin": 28.98
+    },
+    {
+     "texto": "ronda:",
+     "inicio": 28.98,
+     "fin": 29.26
+    },
+    {
+     "texto": "la",
+     "inicio": 29.84,
+     "fin": 29.94
+    },
+    {
+     "texto": "bombilla",
+     "inicio": 29.94,
+     "fin": 30.42
+    },
+    {
+     "texto": "no",
+     "inicio": 30.42,
+     "fin": 30.92
+    },
+    {
+     "texto": "se",
+     "inicio": 30.92,
+     "fin": 31.06
+    },
+    {
+     "texto": "mueve,",
+     "inicio": 31.06,
+     "fin": 31.42
+    },
+    {
+     "texto": "se",
+     "inicio": 31.82,
+     "fin": 32.02
+    },
+    {
+     "texto": "deja",
+     "inicio": 32.02,
+     "fin": 32.32
+    },
+    {
+     "texto": "como",
+     "inicio": 32.32,
+     "fin": 32.7
+    },
+    {
+     "texto": "la",
+     "inicio": 32.7,
+     "fin": 32.84
+    },
+    {
+     "texto": "dispuso",
+     "inicio": 32.84,
+     "fin": 33.22
+    },
+    {
+     "texto": "el",
+     "inicio": 33.22,
+     "fin": 33.36
+    },
+    {
+     "texto": "cebador.",
+     "inicio": 33.36,
+     "fin": 33.74
+    }
+   ],
+   "inicio": 27.62,
+   "fin": 33.74
+  },
+  {
+   "texto": "Ojo: es una costumbre, no una ley, y en algunas ruedas se dice gracias y nadie se ofende.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 34.26,
+     "fin": 34.6
+    },
+    {
+     "texto": "es",
+     "inicio": 35.08,
+     "fin": 35.2
+    },
+    {
+     "texto": "una",
+     "inicio": 35.2,
+     "fin": 35.32
+    },
+    {
+     "texto": "costumbre,",
+     "inicio": 35.32,
+     "fin": 35.9
+    },
+    {
+     "texto": "no",
+     "inicio": 36.32,
+     "fin": 36.42
+    },
+    {
+     "texto": "una",
+     "inicio": 36.42,
+     "fin": 36.58
+    },
+    {
+     "texto": "ley,",
+     "inicio": 36.58,
+     "fin": 36.84
+    },
+    {
+     "texto": "y",
+     "inicio": 37.32,
+     "fin": 37.42
+    },
+    {
+     "texto": "en",
+     "inicio": 37.42,
+     "fin": 37.5
+    },
+    {
+     "texto": "algunas",
+     "inicio": 37.5,
+     "fin": 37.72
+    },
+    {
+     "texto": "ruedas",
+     "inicio": 37.72,
+     "fin": 38.26
+    },
+    {
+     "texto": "se",
+     "inicio": 38.26,
+     "fin": 38.46
+    },
+    {
+     "texto": "dice",
+     "inicio": 38.46,
+     "fin": 38.68
+    },
+    {
+     "texto": "gracias",
+     "inicio": 38.68,
+     "fin": 39.06
+    },
+    {
+     "texto": "y",
+     "inicio": 39.06,
+     "fin": 39.98
+    },
+    {
+     "texto": "nadie",
+     "inicio": 39.98,
+     "fin": 40.3
+    },
+    {
+     "texto": "se",
+     "inicio": 40.3,
+     "fin": 40.46
+    },
+    {
+     "texto": "ofende.",
+     "inicio": 40.46,
+     "fin": 40.78
+    }
+   ],
+   "inicio": 34.26,
+   "fin": 40.78
+  },
+  {
+   "texto": "Probalo hoy: guardate el gracias hasta que no quieras más y esperá la próxima vuelta.",
+   "palabras": [
+    {
+     "texto": "Probalo",
+     "inicio": 41.26,
+     "fin": 41.76
+    },
+    {
+     "texto": "hoy:",
+     "inicio": 41.76,
+     "fin": 42.0
+    },
+    {
+     "texto": "guardate",
+     "inicio": 42.54,
+     "fin": 43.04
+    },
+    {
+     "texto": "el",
+     "inicio": 43.04,
+     "fin": 43.22
+    },
+    {
+     "texto": "gracias",
+     "inicio": 43.22,
+     "fin": 43.86
+    },
+    {
+     "texto": "hasta",
+     "inicio": 43.86,
+     "fin": 44.52
+    },
+    {
+     "texto": "que",
+     "inicio": 44.52,
+     "fin": 44.68
+    },
+    {
+     "texto": "no",
+     "inicio": 44.68,
+     "fin": 44.8
+    },
+    {
+     "texto": "quieras",
+     "inicio": 44.8,
+     "fin": 45.08
+    },
+    {
+     "texto": "más",
+     "inicio": 45.08,
+     "fin": 45.26
+    },
+    {
+     "texto": "y",
+     "inicio": 45.26,
+     "fin": 45.96
+    },
+    {
+     "texto": "esperá",
+     "inicio": 45.96,
+     "fin": 46.26
+    },
+    {
+     "texto": "la",
+     "inicio": 46.26,
+     "fin": 46.36
+    },
+    {
+     "texto": "próxima",
+     "inicio": 46.36,
+     "fin": 46.76
+    },
+    {
+     "texto": "vuelta.",
+     "inicio": 46.76,
+     "fin": 47.12
+    }
+   ],
+   "inicio": 41.26,
+   "fin": 47.12
+  },
+  {
+   "texto": "Mandáselo al que dice gracias en cada vuelta de la ronda.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 47.78,
+     "fin": 48.38
+    },
+    {
+     "texto": "al",
+     "inicio": 48.38,
+     "fin": 48.44
+    },
+    {
+     "texto": "que",
+     "inicio": 48.44,
+     "fin": 48.54
+    },
+    {
+     "texto": "dice",
+     "inicio": 48.54,
+     "fin": 48.8
+    },
+    {
+     "texto": "gracias",
+     "inicio": 48.8,
+     "fin": 49.3
+    },
+    {
+     "texto": "en",
+     "inicio": 49.3,
+     "fin": 49.9
+    },
+    {
+     "texto": "cada",
+     "inicio": 49.9,
+     "fin": 50.26
+    },
+    {
+     "texto": "vuelta",
+     "inicio": 50.26,
+     "fin": 50.62
+    },
+    {
+     "texto": "de",
+     "inicio": 50.62,
+     "fin": 50.8
+    },
+    {
+     "texto": "la",
+     "inicio": 50.8,
+     "fin": 50.92
+    },
+    {
+     "texto": "ronda.",
+     "inicio": 50.92,
+     "fin": 51.22
+    }
+   ],
+   "inicio": 47.78,
+   "fin": 51.22
+  }
+ ]
+}

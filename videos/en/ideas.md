@@ -15,7 +15,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [usada → en-011-thaw-counter] 015-descongelar-mesada · Can you thaw meat on the counter? (USDA: fridge, cold water, microwave) — serie: cocina
 - [ ] 002-corte-digestion · Wait 30 minutes after eating to swim? (en EE. UU. el mito es "30 minutes"; salud/seguridad: solo verificado, Red Cross) — serie: cuerpo
 - [ ] 009-ventilador-pieza-vacia · Does a fan cool the room? (turn it off when you leave; DOE) — serie: casa
-- [ ] 008-aire-en-17 · Cranking the thermostat to 60 °F doesn't cool faster (DOE; en °F) — serie: casa
+- [intentada → en-020-ac-sixty, apartado: la cita del DOE no se pudo verificar en la fuente primaria; reintentar solo con energy.gov legible] 008-aire-en-17 · Cranking the thermostat to 60 °F doesn't cool faster (DOE; en °F) — serie: casa
 - [usada → en-012-thunder-count] 018-rayo-trueno · How far away is the storm? Count seconds: 5 seconds ≈ 1 mile (NWS; "when thunder roars, go indoors") — serie: clima
 - [ ] 019-sensacion-termica · Why "feels like" is higher than the temperature: heat index (NWS; en °F). En invierno el ángulo es el wind chill — serie: clima
 - [usada → en-018-storm-cooldown] 018-refresca-tormenta · Why it cools down suddenly after a storm (downdraft) — serie: clima
@@ -55,7 +55,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 ## Temas de EE. UU. — serie: mate (Everyday math)
 - [ ] What are the real odds of winning the Powerball? (plata: solo verificado; nada de recomendar jugar)
 - [ ] How much does a daily $5 coffee add up to in a year? (cuenta simple, sin consejo financiero)
-- [ ] Why the line next to you always seems faster (math of queues)
+- [usada → en-021-other-line] Why the line next to you always seems faster (math of queues)
 
 ## Temas de EE. UU. — serie: ciencia (Everyday science)
 - [ ] Does hot water freeze faster than cold? (Mpemba effect: evidence is mixed → "scientists still argue")

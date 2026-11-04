@@ -673,5 +673,44 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-020-ac-sixty",
+  "tema": "Does setting the AC to 60 cool faster? (adapted from 008)",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-04T09:03",
+    "motivo": ""
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-04T09:07",
+    "motivo": "chequeo rechazado 2 veces: cita del DOE solo probable (fuente primaria no legible), tema de plata"
+   }
+  ]
+ },
+ {
+  "slug": "en-021-other-line",
+  "tema": "Why does the other checkout line always seem faster? (adapted from 030)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-04T09:07",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-04T09:11",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-04T09:28",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

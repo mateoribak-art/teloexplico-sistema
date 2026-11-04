@@ -1,0 +1,21 @@
+{
+  "titulo": "¿Por qué en la ronda de mate no se dice gracias?",
+  "fondo": "cuaderno",
+  "receta": "El que lo hace mal / costumbre argentina",
+  "destinatario": "se lo manda un tío cebador a su sobrino educado, el que dice gracias en cada vuelta, para decirle que así se queda sin mate",
+  "fuentes": [
+    "Sitio oficial de turismo de la Argentina (argentina.travel): nota del Día del Mate, reglas de la ronda",
+    "Matador Network en español: pecados contra el mate"
+  ],
+  "frases": [
+    {"texto": "En la ronda, decir gracias al devolver el mate significa que no querés más.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Es al revés de lo que te enseñaron de chico.", "estilo": "Intriga."},
+    {"texto": "El gracias se guarda para cuando ya no querés más; mientras tanto, se devuelve el mate y se sigue.", "estilo": "Informativo, claro."},
+    {"texto": "El sitio oficial de turismo de la Argentina lo explica así: terminar con gracias implica que ya no querés tomar más.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Por eso, si lo decís por educación, el cebador te saltea en la próxima vuelta.", "estilo": "Cómplice, con humor."},
+    {"texto": "Y otra regla de la ronda: la bombilla no se mueve, se deja como la dispuso el cebador.", "estilo": "Seco, práctico."},
+    {"texto": "Ojo: es una costumbre, no una ley, y en algunas ruedas se dice gracias y nadie se ofende.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Probalo hoy: guardate el gracias hasta que no quieras más y esperá la próxima vuelta.", "estilo": "Práctico, amable."},
+    {"texto": "Mandáselo al que dice gracias en cada vuelta de la ronda.", "estilo": "Cómplice, con humor."}
+  ]
+}

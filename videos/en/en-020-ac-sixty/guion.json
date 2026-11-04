@@ -1,0 +1,17 @@
+{
+  "titulo": "Does setting the AC to 60 cool your house faster?",
+  "fuentes": [
+    "U.S. Department of Energy (Energy Saver, thermostats): setting the thermostat colder than normal when you turn on the A/C will not cool the home any faster and could result in excessive cooling and unnecessary expense"
+  ],
+  "frases": [
+    {"texto": "You walk into a hot house and set the AC to sixty, so it cools off faster.", "estilo": "Casual, like catching you in the act."},
+    {"texto": "That's a myth. Sixty won't cool your house any faster than a normal setting.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "A thermostat isn't a gas pedal. It's a destination.", "estilo": "Reveal, slow."},
+    {"texto": "A basic air conditioner runs at one speed, no matter how low you set it.", "estilo": "Clear, stressing the fact."},
+    {"texto": "All it does is keep running past the temperature you wanted.", "estilo": "Emphasis on the time passing."},
+    {"texto": "The U.S. Department of Energy says setting it colder than normal won't cool your home any faster, and could mean excessive cooling and unnecessary expense.", "estilo": "Firm, citing the source."},
+    {"texto": "Heads up: if a window is open or the sun is blasting in, no number will get you there.", "estilo": "Warm, with the caveat."},
+    {"texto": "Set it to a normal, comfortable temperature, and close the blinds.", "estilo": "Practical, friendly."},
+    {"texto": "Send this to the friend who sets the AC to sixty and waits.", "estilo": "Playful, with humor, rhymes with the start."}
+  ]
+}

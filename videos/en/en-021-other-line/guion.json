@@ -1,0 +1,20 @@
+{
+  "titulo": "Why does the other checkout line always seem faster?",
+  "serie": "mate",
+  "fondo": "oscuro",
+  "destinatario": "se lo manda alguien que siempre cambia de fila en el súper a su amigo que siempre elige la fila equivocada, para decirle que no es solo mala suerte",
+  "fuentes": [
+    "Queueing theory: its first paper, from 1909, is by Danish engineer Agner Krarup Erlang, on telephone calls in Copenhagen (MacTutor, University of St Andrews)",
+    "Queueing model: one single line feeding all registers (M/M/c) gives an average wait less than or equal to one line per register (c x M/M/1), with the same people and the same registers",
+    "Perception: Qminder, popular source, so it is stated as 'probably'"
+  ],
+  "frases": [
+    {"texto": "It always feels like the other checkout line moves faster. And it's not just bad luck.", "estilo": "Knowing, confident."},
+    {"texto": "When every register has its own line, one slow customer holds up everyone behind them.", "estilo": "Explaining simply, brisk."},
+    {"texto": "With a single line feeding all the registers, that same customer delays just one register. The others keep going.", "estilo": "Dry, showing the difference."},
+    {"texto": "Queueing theory, which starts in nineteen oh nine with Danish engineer Agner Erlang, shows it: with the same registers and the same people, one single line gives an average wait that's shorter or equal.", "estilo": "Clear fact, citing the source."},
+    {"texto": "And your brain probably plays a part too: you notice when the other line speeds up, and forget when it stalls.", "estilo": "Playful, with a half smile."},
+    {"texto": "Heads up: that's about the average. On a bad streak, you can still get the slow one.", "estilo": "Calm caveat."},
+    {"texto": "Send this to the friend who switches lines three times.", "estilo": "Playful and funny."}
+  ]
+}

@@ -1239,5 +1239,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "033-gracias-en-el-mate",
+  "tema": "¿Por qué en la ronda de mate no se dice gracias? Gracias significa que no querés más",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-04T08:25",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-04T08:25",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-04T08:34",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-04T09:02",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

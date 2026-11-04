@@ -1,0 +1,714 @@
+{
+ "duracion": 41.34,
+ "frases": [
+  {
+   "texto": "It always feels like the other checkout line moves faster. And it's not just bad luck.",
+   "palabras": [
+    {
+     "texto": "It",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "always",
+     "inicio": 0.14,
+     "fin": 0.34
+    },
+    {
+     "texto": "feels",
+     "inicio": 0.34,
+     "fin": 0.6
+    },
+    {
+     "texto": "like",
+     "inicio": 0.6,
+     "fin": 0.84
+    },
+    {
+     "texto": "the",
+     "inicio": 0.84,
+     "fin": 0.98
+    },
+    {
+     "texto": "other",
+     "inicio": 0.98,
+     "fin": 1.38
+    },
+    {
+     "texto": "checkout",
+     "inicio": 1.38,
+     "fin": 1.68
+    },
+    {
+     "texto": "line",
+     "inicio": 1.68,
+     "fin": 2.06
+    },
+    {
+     "texto": "moves",
+     "inicio": 2.06,
+     "fin": 2.3
+    },
+    {
+     "texto": "faster.",
+     "inicio": 2.3,
+     "fin": 2.7
+    },
+    {
+     "texto": "And",
+     "inicio": 3.14,
+     "fin": 3.32
+    },
+    {
+     "texto": "it's",
+     "inicio": 3.32,
+     "fin": 3.64
+    },
+    {
+     "texto": "not",
+     "inicio": 3.64,
+     "fin": 3.88
+    },
+    {
+     "texto": "just",
+     "inicio": 3.88,
+     "fin": 4.1
+    },
+    {
+     "texto": "bad",
+     "inicio": 4.1,
+     "fin": 4.4
+    },
+    {
+     "texto": "luck.",
+     "inicio": 4.4,
+     "fin": 4.62
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.62
+  },
+  {
+   "texto": "When every register has its own line, one slow customer holds up everyone behind them.",
+   "palabras": [
+    {
+     "texto": "When",
+     "inicio": 5.18,
+     "fin": 5.34
+    },
+    {
+     "texto": "every",
+     "inicio": 5.34,
+     "fin": 5.62
+    },
+    {
+     "texto": "register",
+     "inicio": 5.62,
+     "fin": 5.98
+    },
+    {
+     "texto": "has",
+     "inicio": 5.98,
+     "fin": 6.32
+    },
+    {
+     "texto": "its",
+     "inicio": 6.32,
+     "fin": 6.46
+    },
+    {
+     "texto": "own",
+     "inicio": 6.46,
+     "fin": 6.78
+    },
+    {
+     "texto": "line,",
+     "inicio": 6.78,
+     "fin": 7.18
+    },
+    {
+     "texto": "one",
+     "inicio": 7.54,
+     "fin": 7.76
+    },
+    {
+     "texto": "slow",
+     "inicio": 7.76,
+     "fin": 8.06
+    },
+    {
+     "texto": "customer",
+     "inicio": 8.06,
+     "fin": 8.44
+    },
+    {
+     "texto": "holds",
+     "inicio": 8.44,
+     "fin": 8.8
+    },
+    {
+     "texto": "up",
+     "inicio": 8.8,
+     "fin": 8.96
+    },
+    {
+     "texto": "everyone",
+     "inicio": 8.96,
+     "fin": 9.3
+    },
+    {
+     "texto": "behind",
+     "inicio": 9.3,
+     "fin": 9.66
+    },
+    {
+     "texto": "them.",
+     "inicio": 9.66,
+     "fin": 9.88
+    }
+   ],
+   "inicio": 5.18,
+   "fin": 9.88
+  },
+  {
+   "texto": "With a single line feeding all the registers, that same customer delays just one register. The others keep going.",
+   "palabras": [
+    {
+     "texto": "With",
+     "inicio": 10.32,
+     "fin": 10.5
+    },
+    {
+     "texto": "a",
+     "inicio": 10.5,
+     "fin": 10.68
+    },
+    {
+     "texto": "single",
+     "inicio": 10.68,
+     "fin": 10.96
+    },
+    {
+     "texto": "line",
+     "inicio": 10.96,
+     "fin": 11.26
+    },
+    {
+     "texto": "feeding",
+     "inicio": 11.26,
+     "fin": 11.52
+    },
+    {
+     "texto": "all",
+     "inicio": 11.52,
+     "fin": 11.84
+    },
+    {
+     "texto": "the",
+     "inicio": 11.84,
+     "fin": 11.98
+    },
+    {
+     "texto": "registers,",
+     "inicio": 11.98,
+     "fin": 12.34
+    },
+    {
+     "texto": "that",
+     "inicio": 12.68,
+     "fin": 12.82
+    },
+    {
+     "texto": "same",
+     "inicio": 12.82,
+     "fin": 13.12
+    },
+    {
+     "texto": "customer",
+     "inicio": 13.12,
+     "fin": 13.54
+    },
+    {
+     "texto": "delays",
+     "inicio": 13.54,
+     "fin": 13.86
+    },
+    {
+     "texto": "just",
+     "inicio": 13.86,
+     "fin": 14.12
+    },
+    {
+     "texto": "one",
+     "inicio": 14.12,
+     "fin": 14.42
+    },
+    {
+     "texto": "register.",
+     "inicio": 14.42,
+     "fin": 14.86
+    },
+    {
+     "texto": "The",
+     "inicio": 15.36,
+     "fin": 15.5
+    },
+    {
+     "texto": "others",
+     "inicio": 15.5,
+     "fin": 15.64
+    },
+    {
+     "texto": "keep",
+     "inicio": 15.64,
+     "fin": 15.84
+    },
+    {
+     "texto": "going.",
+     "inicio": 15.84,
+     "fin": 16.1
+    }
+   ],
+   "inicio": 10.32,
+   "fin": 16.1
+  },
+  {
+   "texto": "Queueing theory, which starts in nineteen oh nine with Danish engineer Agner Erlang, shows it: with the same registers and the same people, one single line gives an average wait that's shorter or equal.",
+   "palabras": [
+    {
+     "texto": "Queueing",
+     "inicio": 16.62,
+     "fin": 16.94
+    },
+    {
+     "texto": "theory,",
+     "inicio": 16.94,
+     "fin": 17.32
+    },
+    {
+     "texto": "which",
+     "inicio": 17.38,
+     "fin": 17.56
+    },
+    {
+     "texto": "starts",
+     "inicio": 17.56,
+     "fin": 17.8
+    },
+    {
+     "texto": "in",
+     "inicio": 17.8,
+     "fin": 18.02
+    },
+    {
+     "texto": "nineteen",
+     "inicio": 18.02,
+     "fin": 18.2
+    },
+    {
+     "texto": "oh",
+     "inicio": 18.2,
+     "fin": 18.5
+    },
+    {
+     "texto": "nine",
+     "inicio": 18.5,
+     "fin": 18.8
+    },
+    {
+     "texto": "with",
+     "inicio": 18.8,
+     "fin": 19.02
+    },
+    {
+     "texto": "Danish",
+     "inicio": 19.02,
+     "fin": 19.3
+    },
+    {
+     "texto": "engineer",
+     "inicio": 19.3,
+     "fin": 19.68
+    },
+    {
+     "texto": "Agner",
+     "inicio": 19.68,
+     "fin": 20.22
+    },
+    {
+     "texto": "Erlang,",
+     "inicio": 20.22,
+     "fin": 20.68
+    },
+    {
+     "texto": "shows",
+     "inicio": 20.84,
+     "fin": 21.0
+    },
+    {
+     "texto": "it:",
+     "inicio": 21.0,
+     "fin": 21.22
+    },
+    {
+     "texto": "with",
+     "inicio": 21.64,
+     "fin": 21.72
+    },
+    {
+     "texto": "the",
+     "inicio": 21.72,
+     "fin": 21.88
+    },
+    {
+     "texto": "same",
+     "inicio": 21.88,
+     "fin": 22.06
+    },
+    {
+     "texto": "registers",
+     "inicio": 22.06,
+     "fin": 22.44
+    },
+    {
+     "texto": "and",
+     "inicio": 22.44,
+     "fin": 22.76
+    },
+    {
+     "texto": "the",
+     "inicio": 22.76,
+     "fin": 22.88
+    },
+    {
+     "texto": "same",
+     "inicio": 22.88,
+     "fin": 23.06
+    },
+    {
+     "texto": "people,",
+     "inicio": 23.06,
+     "fin": 23.38
+    },
+    {
+     "texto": "one",
+     "inicio": 23.76,
+     "fin": 23.92
+    },
+    {
+     "texto": "single",
+     "inicio": 23.92,
+     "fin": 24.32
+    },
+    {
+     "texto": "line",
+     "inicio": 24.32,
+     "fin": 24.7
+    },
+    {
+     "texto": "gives",
+     "inicio": 24.7,
+     "fin": 24.94
+    },
+    {
+     "texto": "an",
+     "inicio": 24.94,
+     "fin": 25.1
+    },
+    {
+     "texto": "average",
+     "inicio": 25.1,
+     "fin": 25.46
+    },
+    {
+     "texto": "wait",
+     "inicio": 25.46,
+     "fin": 25.72
+    },
+    {
+     "texto": "that's",
+     "inicio": 25.72,
+     "fin": 26.06
+    },
+    {
+     "texto": "shorter",
+     "inicio": 26.06,
+     "fin": 26.34
+    },
+    {
+     "texto": "or",
+     "inicio": 26.34,
+     "fin": 26.68
+    },
+    {
+     "texto": "equal.",
+     "inicio": 26.68,
+     "fin": 27.06
+    }
+   ],
+   "inicio": 16.62,
+   "fin": 27.06
+  },
+  {
+   "texto": "And your brain probably plays a part too: you notice when the other line speeds up, and forget when it stalls.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 27.66,
+     "fin": 27.74
+    },
+    {
+     "texto": "your",
+     "inicio": 27.74,
+     "fin": 27.84
+    },
+    {
+     "texto": "brain",
+     "inicio": 27.84,
+     "fin": 28.16
+    },
+    {
+     "texto": "probably",
+     "inicio": 28.16,
+     "fin": 28.46
+    },
+    {
+     "texto": "plays",
+     "inicio": 28.46,
+     "fin": 28.72
+    },
+    {
+     "texto": "a",
+     "inicio": 28.72,
+     "fin": 28.86
+    },
+    {
+     "texto": "part",
+     "inicio": 28.86,
+     "fin": 29.02
+    },
+    {
+     "texto": "too:",
+     "inicio": 29.02,
+     "fin": 29.26
+    },
+    {
+     "texto": "you",
+     "inicio": 29.72,
+     "fin": 29.84
+    },
+    {
+     "texto": "notice",
+     "inicio": 29.84,
+     "fin": 30.06
+    },
+    {
+     "texto": "when",
+     "inicio": 30.06,
+     "fin": 30.28
+    },
+    {
+     "texto": "the",
+     "inicio": 30.28,
+     "fin": 30.38
+    },
+    {
+     "texto": "other",
+     "inicio": 30.38,
+     "fin": 30.52
+    },
+    {
+     "texto": "line",
+     "inicio": 30.52,
+     "fin": 30.72
+    },
+    {
+     "texto": "speeds",
+     "inicio": 30.72,
+     "fin": 30.92
+    },
+    {
+     "texto": "up,",
+     "inicio": 30.92,
+     "fin": 31.28
+    },
+    {
+     "texto": "and",
+     "inicio": 31.36,
+     "fin": 31.48
+    },
+    {
+     "texto": "forget",
+     "inicio": 31.48,
+     "fin": 31.84
+    },
+    {
+     "texto": "when",
+     "inicio": 31.84,
+     "fin": 32.1
+    },
+    {
+     "texto": "it",
+     "inicio": 32.1,
+     "fin": 32.22
+    },
+    {
+     "texto": "stalls.",
+     "inicio": 32.22,
+     "fin": 32.44
+    }
+   ],
+   "inicio": 27.66,
+   "fin": 32.44
+  },
+  {
+   "texto": "Heads up: that's about the average. On a bad streak, you can still get the slow one.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 33.1,
+     "fin": 33.36
+    },
+    {
+     "texto": "up:",
+     "inicio": 33.36,
+     "fin": 33.52
+    },
+    {
+     "texto": "that's",
+     "inicio": 33.78,
+     "fin": 34.02
+    },
+    {
+     "texto": "about",
+     "inicio": 34.02,
+     "fin": 34.2
+    },
+    {
+     "texto": "the",
+     "inicio": 34.2,
+     "fin": 34.42
+    },
+    {
+     "texto": "average.",
+     "inicio": 34.42,
+     "fin": 34.86
+    },
+    {
+     "texto": "On",
+     "inicio": 35.46,
+     "fin": 35.58
+    },
+    {
+     "texto": "a",
+     "inicio": 35.58,
+     "fin": 35.66
+    },
+    {
+     "texto": "bad",
+     "inicio": 35.66,
+     "fin": 35.8
+    },
+    {
+     "texto": "streak,",
+     "inicio": 35.8,
+     "fin": 36.04
+    },
+    {
+     "texto": "you",
+     "inicio": 36.2,
+     "fin": 36.24
+    },
+    {
+     "texto": "can",
+     "inicio": 36.24,
+     "fin": 36.38
+    },
+    {
+     "texto": "still",
+     "inicio": 36.38,
+     "fin": 36.58
+    },
+    {
+     "texto": "get",
+     "inicio": 36.58,
+     "fin": 36.72
+    },
+    {
+     "texto": "the",
+     "inicio": 36.72,
+     "fin": 36.82
+    },
+    {
+     "texto": "slow",
+     "inicio": 36.82,
+     "fin": 37.04
+    },
+    {
+     "texto": "one.",
+     "inicio": 37.04,
+     "fin": 37.24
+    }
+   ],
+   "inicio": 33.1,
+   "fin": 37.24
+  },
+  {
+   "texto": "Send this to the friend who switches lines three times.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 37.64,
+     "fin": 37.96
+    },
+    {
+     "texto": "this",
+     "inicio": 37.96,
+     "fin": 38.28
+    },
+    {
+     "texto": "to",
+     "inicio": 38.28,
+     "fin": 38.5
+    },
+    {
+     "texto": "the",
+     "inicio": 38.5,
+     "fin": 38.62
+    },
+    {
+     "texto": "friend",
+     "inicio": 38.62,
+     "fin": 38.92
+    },
+    {
+     "texto": "who",
+     "inicio": 38.92,
+     "fin": 39.26
+    },
+    {
+     "texto": "switches",
+     "inicio": 39.26,
+     "fin": 39.7
+    },
+    {
+     "texto": "lines",
+     "inicio": 39.7,
+     "fin": 40.16
+    },
+    {
+     "texto": "three",
+     "inicio": 40.16,
+     "fin": 40.7
+    },
+    {
+     "texto": "times.",
+     "inicio": 40.7,
+     "fin": 41.18
+    }
+   ],
+   "inicio": 37.64,
+   "fin": 41.18
+  }
+ ]
+}

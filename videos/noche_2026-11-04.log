@@ -1,0 +1,9 @@
+2026-11-04 08:24 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Produje 1 video: `033-gracias-en-el-mate`, que queda en estado `render`. El render, el control y el paso a `listo` los hace `producir.py` al terminar mi turno.
+- **033-gracias-en-el-mate** (costumbres #3, "en la ronda de mate, gracias significa que no querés más"): el primer chequeo lo rechazó por dos frases sin matiz, las corregí y el segundo lo aprobó. La voz salió con 141 de 141 palabras, pero dura 51 s, por encima del tope de 45. Tengo hechas 2 vueltas de cuadros y `tlx tsc` sin errores.
+- **Rescates:** ninguno, porque no había videos apartados por "chequeo rechazado". El `005-granizo-calor` sigue apartado por otro motivo (lo reemplazó el `024`).
+- **Segundo video:** no lo produje, porque la cola ya tenía 11 listos.
+Uso: 20 pasos · 19,834 tokens nuevos · 822,979 de caché · 7,405 escritos · equivale a US$ 0.98 de API
+2026-11-04 08:34 Render de 033-gracias-en-el-mate (sin Claude).
+2026-11-04 09:02 033-gracias-en-el-mate: listo (render sin Claude)
+2026-11-04 09:02 Termina la producción (ok).
