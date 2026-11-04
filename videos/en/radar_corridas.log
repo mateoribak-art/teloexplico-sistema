@@ -44,3 +44,12 @@ Decidí no producir ningún video hoy. No encontré ningún tema de actualidad d
 La búsqueda web no devolvió nada verificable de las últimas 48 h. Solo salieron páginas de AccuWeather sin fecha clara y notas de 2025. Descarté tres candidatos: el "pattern flip" de la primera semana de noviembre, la superluna del 24/11 (todavía lejos) y el cambio de hora (ya publicado en en-002, y el momento pasó). Lo anoté en `videos/en/radar.log`.
 Uso: 10 pasos · 13,128 tokens nuevos · 148,982 de caché · 1,692 escritos · equivale a US$ 0.11 de API
 2026-11-03 17:14 Termina el radar (ok).
+2026-11-04 17:30 Arranca el radar.
+Decidí no producir ningún video hoy: no encontré un tema de actualidad en EE. UU. que se pueda chequear con una fuente oficial de las últimas 48 h.
+
+Descarté tres candidatos y los anoté en `videos/en/radar.log`:
+- **Nor'easter e inundaciones en California y el Suroeste:** las notas de AccuWeather no tienen fecha ni fuente oficial del día.
+- **Récord de temperatura de noviembre en Denver y ríos atmosféricos:** la nota del Guardian no tiene fecha confirmada.
+- **Pronóstico de Thanksgiving:** todavía está lejos y no tiene gancho.
+Uso: 10 pasos · 13,349 tokens nuevos · 125,794 de caché · 1,474 escritos · equivale a US$ 0.10 de API
+2026-11-04 17:30 Termina el radar (ok).

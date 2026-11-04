@@ -94,3 +94,14 @@ Decidí no producir ningún video de actualidad hoy. Las dos búsquedas web (ale
 - **El Niño y el pronóstico trimestral del SMN:** ya está en el video 016.
 Uso: 9 pasos · 18,292 tokens nuevos · 102,723 de caché · 1,113 escritos · equivale a US$ 0.12 de API
 2026-11-03 17:14 Termina el radar (ok).
+2026-11-04 17:30 Arranca el radar.
+Decidí no producir ningún video de actualidad hoy (2026-11-04). Las búsquedas de alertas del SMN y del clima de la semana no devolvieron nada con fecha verificable de hoy. Solo salieron notas de julio 2026, de noviembre 2025 o de enero y febrero de 2026.
+
+Descarté tres candidatos y los anoté en `videos/radar.log`:
+- **Tormentas y granizo en 10–12 provincias:** granizo ya está cubierto en los videos 005 y 024.
+- **Ola de calor de 40 °C:** calor ya está cubierto en 019 y 008.
+- **Ciclón con lluvias por 48 h:** lluvia ya está cubierta en 004 y 016.
+
+La producción sigue con la cola normal.
+Uso: 10 pasos · 17,533 tokens nuevos · 134,233 de caché · 1,718 escritos · equivale a US$ 0.12 de API
+2026-11-04 17:30 Termina el radar (ok).
