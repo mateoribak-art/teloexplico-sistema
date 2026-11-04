@@ -1,0 +1,656 @@
+{
+ "duracion": 44.72,
+ "frases": [
+  {
+   "texto": "Se corta la luz y abrís la heladera a cada rato, para ver si todo sigue frío.",
+   "palabras": [
+    {
+     "texto": "Se",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "corta",
+     "inicio": 0.14,
+     "fin": 0.42
+    },
+    {
+     "texto": "la",
+     "inicio": 0.42,
+     "fin": 0.52
+    },
+    {
+     "texto": "luz",
+     "inicio": 0.52,
+     "fin": 0.78
+    },
+    {
+     "texto": "y",
+     "inicio": 0.78,
+     "fin": 1.32
+    },
+    {
+     "texto": "abrís",
+     "inicio": 1.32,
+     "fin": 1.54
+    },
+    {
+     "texto": "la",
+     "inicio": 1.54,
+     "fin": 1.68
+    },
+    {
+     "texto": "heladera",
+     "inicio": 1.68,
+     "fin": 2.08
+    },
+    {
+     "texto": "a",
+     "inicio": 2.08,
+     "fin": 2.26
+    },
+    {
+     "texto": "cada",
+     "inicio": 2.26,
+     "fin": 2.42
+    },
+    {
+     "texto": "rato,",
+     "inicio": 2.42,
+     "fin": 2.84
+    },
+    {
+     "texto": "para",
+     "inicio": 3.16,
+     "fin": 3.5
+    },
+    {
+     "texto": "ver",
+     "inicio": 3.5,
+     "fin": 3.68
+    },
+    {
+     "texto": "si",
+     "inicio": 3.68,
+     "fin": 3.84
+    },
+    {
+     "texto": "todo",
+     "inicio": 3.84,
+     "fin": 4.08
+    },
+    {
+     "texto": "sigue",
+     "inicio": 4.08,
+     "fin": 4.38
+    },
+    {
+     "texto": "frío.",
+     "inicio": 4.38,
+     "fin": 4.74
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.74
+  },
+  {
+   "texto": "Cada vez que la abrís, se te escapa el frío.",
+   "palabras": [
+    {
+     "texto": "Cada",
+     "inicio": 5.22,
+     "fin": 5.4
+    },
+    {
+     "texto": "vez",
+     "inicio": 5.4,
+     "fin": 5.6
+    },
+    {
+     "texto": "que",
+     "inicio": 5.6,
+     "fin": 5.7
+    },
+    {
+     "texto": "la",
+     "inicio": 5.7,
+     "fin": 5.82
+    },
+    {
+     "texto": "abrís,",
+     "inicio": 5.82,
+     "fin": 6.16
+    },
+    {
+     "texto": "se",
+     "inicio": 6.38,
+     "fin": 6.74
+    },
+    {
+     "texto": "te",
+     "inicio": 6.74,
+     "fin": 6.86
+    },
+    {
+     "texto": "escapa",
+     "inicio": 6.86,
+     "fin": 7.2
+    },
+    {
+     "texto": "el",
+     "inicio": 7.2,
+     "fin": 7.34
+    },
+    {
+     "texto": "frío.",
+     "inicio": 7.34,
+     "fin": 7.6
+    }
+   ],
+   "inicio": 5.22,
+   "fin": 7.6
+  },
+  {
+   "texto": "Cerrada, la heladera mantiene la comida segura hasta cuatro horas, según el Departamento de Agricultura de Estados Unidos.",
+   "palabras": [
+    {
+     "texto": "Cerrada,",
+     "inicio": 8.06,
+     "fin": 8.58
+    },
+    {
+     "texto": "la",
+     "inicio": 9.12,
+     "fin": 9.28
+    },
+    {
+     "texto": "heladera",
+     "inicio": 9.28,
+     "fin": 9.66
+    },
+    {
+     "texto": "mantiene",
+     "inicio": 9.66,
+     "fin": 10.06
+    },
+    {
+     "texto": "la",
+     "inicio": 10.06,
+     "fin": 10.2
+    },
+    {
+     "texto": "comida",
+     "inicio": 10.2,
+     "fin": 10.42
+    },
+    {
+     "texto": "segura",
+     "inicio": 10.42,
+     "fin": 10.96
+    },
+    {
+     "texto": "hasta",
+     "inicio": 10.96,
+     "fin": 11.24
+    },
+    {
+     "texto": "cuatro",
+     "inicio": 11.24,
+     "fin": 11.72
+    },
+    {
+     "texto": "horas,",
+     "inicio": 11.72,
+     "fin": 12.14
+    },
+    {
+     "texto": "según",
+     "inicio": 12.56,
+     "fin": 12.84
+    },
+    {
+     "texto": "el",
+     "inicio": 12.84,
+     "fin": 13.0
+    },
+    {
+     "texto": "Departamento",
+     "inicio": 13.0,
+     "fin": 13.46
+    },
+    {
+     "texto": "de",
+     "inicio": 13.46,
+     "fin": 13.64
+    },
+    {
+     "texto": "Agricultura",
+     "inicio": 13.64,
+     "fin": 14.16
+    },
+    {
+     "texto": "de",
+     "inicio": 14.16,
+     "fin": 14.32
+    },
+    {
+     "texto": "Estados",
+     "inicio": 14.32,
+     "fin": 14.54
+    },
+    {
+     "texto": "Unidos.",
+     "inicio": 14.54,
+     "fin": 14.96
+    }
+   ],
+   "inicio": 8.06,
+   "fin": 14.96
+  },
+  {
+   "texto": "Pasadas esas cuatro horas sin luz, lo perecedero, como carne, pollo, pescado, huevos y sobras, se tira.",
+   "palabras": [
+    {
+     "texto": "Pasadas",
+     "inicio": 15.4,
+     "fin": 15.96
+    },
+    {
+     "texto": "esas",
+     "inicio": 15.96,
+     "fin": 16.24
+    },
+    {
+     "texto": "cuatro",
+     "inicio": 16.24,
+     "fin": 16.56
+    },
+    {
+     "texto": "horas",
+     "inicio": 16.56,
+     "fin": 16.86
+    },
+    {
+     "texto": "sin",
+     "inicio": 16.86,
+     "fin": 17.06
+    },
+    {
+     "texto": "luz,",
+     "inicio": 17.06,
+     "fin": 17.32
+    },
+    {
+     "texto": "lo",
+     "inicio": 17.84,
+     "fin": 18.0
+    },
+    {
+     "texto": "perecedero,",
+     "inicio": 18.0,
+     "fin": 18.64
+    },
+    {
+     "texto": "como",
+     "inicio": 18.92,
+     "fin": 19.1
+    },
+    {
+     "texto": "carne,",
+     "inicio": 19.1,
+     "fin": 19.56
+    },
+    {
+     "texto": "pollo,",
+     "inicio": 20.0,
+     "fin": 20.36
+    },
+    {
+     "texto": "pescado,",
+     "inicio": 20.52,
+     "fin": 21.06
+    },
+    {
+     "texto": "huevos",
+     "inicio": 21.34,
+     "fin": 21.76
+    },
+    {
+     "texto": "y",
+     "inicio": 21.76,
+     "fin": 22.04
+    },
+    {
+     "texto": "sobras,",
+     "inicio": 22.04,
+     "fin": 22.46
+    },
+    {
+     "texto": "se",
+     "inicio": 22.92,
+     "fin": 23.12
+    },
+    {
+     "texto": "tira.",
+     "inicio": 23.12,
+     "fin": 23.38
+    }
+   ],
+   "inicio": 15.4,
+   "fin": 23.38
+  },
+  {
+   "texto": "No importa cómo se vea o a qué huela: la regla es, ante la duda, tirala.",
+   "palabras": [
+    {
+     "texto": "No",
+     "inicio": 23.88,
+     "fin": 24.08
+    },
+    {
+     "texto": "importa",
+     "inicio": 24.08,
+     "fin": 24.52
+    },
+    {
+     "texto": "cómo",
+     "inicio": 24.52,
+     "fin": 24.84
+    },
+    {
+     "texto": "se",
+     "inicio": 24.84,
+     "fin": 25.06
+    },
+    {
+     "texto": "vea",
+     "inicio": 25.06,
+     "fin": 25.72
+    },
+    {
+     "texto": "o",
+     "inicio": 25.72,
+     "fin": 25.82
+    },
+    {
+     "texto": "a",
+     "inicio": 25.82,
+     "fin": 25.9
+    },
+    {
+     "texto": "qué",
+     "inicio": 25.9,
+     "fin": 26.02
+    },
+    {
+     "texto": "huela:",
+     "inicio": 26.02,
+     "fin": 26.36
+    },
+    {
+     "texto": "la",
+     "inicio": 26.36,
+     "fin": 26.98
+    },
+    {
+     "texto": "regla",
+     "inicio": 26.98,
+     "fin": 27.28
+    },
+    {
+     "texto": "es,",
+     "inicio": 27.28,
+     "fin": 27.54
+    },
+    {
+     "texto": "ante",
+     "inicio": 27.86,
+     "fin": 28.08
+    },
+    {
+     "texto": "la",
+     "inicio": 28.08,
+     "fin": 28.24
+    },
+    {
+     "texto": "duda,",
+     "inicio": 28.24,
+     "fin": 28.46
+    },
+    {
+     "texto": "tirala.",
+     "inicio": 29.02,
+     "fin": 29.4
+    }
+   ],
+   "inicio": 23.88,
+   "fin": 29.4
+  },
+  {
+   "texto": "Ojo: las cuatro horas valen si la puerta quedó cerrada. Si la abriste mil veces, no hay garantía.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 29.96,
+     "fin": 30.18
+    },
+    {
+     "texto": "las",
+     "inicio": 30.7,
+     "fin": 30.84
+    },
+    {
+     "texto": "cuatro",
+     "inicio": 30.84,
+     "fin": 31.2
+    },
+    {
+     "texto": "horas",
+     "inicio": 31.2,
+     "fin": 31.46
+    },
+    {
+     "texto": "valen",
+     "inicio": 31.46,
+     "fin": 31.84
+    },
+    {
+     "texto": "si",
+     "inicio": 31.84,
+     "fin": 31.96
+    },
+    {
+     "texto": "la",
+     "inicio": 31.96,
+     "fin": 32.08
+    },
+    {
+     "texto": "puerta",
+     "inicio": 32.08,
+     "fin": 32.32
+    },
+    {
+     "texto": "quedó",
+     "inicio": 32.32,
+     "fin": 32.7
+    },
+    {
+     "texto": "cerrada.",
+     "inicio": 32.7,
+     "fin": 33.16
+    },
+    {
+     "texto": "Si",
+     "inicio": 33.68,
+     "fin": 33.76
+    },
+    {
+     "texto": "la",
+     "inicio": 33.76,
+     "fin": 33.88
+    },
+    {
+     "texto": "abriste",
+     "inicio": 33.88,
+     "fin": 34.14
+    },
+    {
+     "texto": "mil",
+     "inicio": 34.14,
+     "fin": 34.32
+    },
+    {
+     "texto": "veces,",
+     "inicio": 34.32,
+     "fin": 34.66
+    },
+    {
+     "texto": "no",
+     "inicio": 35.28,
+     "fin": 35.44
+    },
+    {
+     "texto": "hay",
+     "inicio": 35.44,
+     "fin": 35.54
+    },
+    {
+     "texto": "garantía.",
+     "inicio": 35.54,
+     "fin": 36.0
+    }
+   ],
+   "inicio": 29.96,
+   "fin": 36.0
+  },
+  {
+   "texto": "Hoy, si se va la luz, anotá la hora y dejá la puerta cerrada.",
+   "palabras": [
+    {
+     "texto": "Hoy,",
+     "inicio": 36.52,
+     "fin": 36.7
+    },
+    {
+     "texto": "si",
+     "inicio": 36.94,
+     "fin": 37.08
+    },
+    {
+     "texto": "se",
+     "inicio": 37.08,
+     "fin": 37.2
+    },
+    {
+     "texto": "va",
+     "inicio": 37.2,
+     "fin": 37.34
+    },
+    {
+     "texto": "la",
+     "inicio": 37.34,
+     "fin": 37.42
+    },
+    {
+     "texto": "luz,",
+     "inicio": 37.42,
+     "fin": 37.66
+    },
+    {
+     "texto": "anotá",
+     "inicio": 38.16,
+     "fin": 38.46
+    },
+    {
+     "texto": "la",
+     "inicio": 38.46,
+     "fin": 38.52
+    },
+    {
+     "texto": "hora",
+     "inicio": 38.52,
+     "fin": 38.78
+    },
+    {
+     "texto": "y",
+     "inicio": 38.78,
+     "fin": 39.2
+    },
+    {
+     "texto": "dejá",
+     "inicio": 39.2,
+     "fin": 39.44
+    },
+    {
+     "texto": "la",
+     "inicio": 39.44,
+     "fin": 39.5
+    },
+    {
+     "texto": "puerta",
+     "inicio": 39.5,
+     "fin": 39.72
+    },
+    {
+     "texto": "cerrada.",
+     "inicio": 39.72,
+     "fin": 40.3
+    }
+   ],
+   "inicio": 36.52,
+   "fin": 40.3
+  },
+  {
+   "texto": "Mandáselo al que abre la heladera en cada apagón.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 42.18,
+     "fin": 42.66
+    },
+    {
+     "texto": "al",
+     "inicio": 42.66,
+     "fin": 42.76
+    },
+    {
+     "texto": "que",
+     "inicio": 42.76,
+     "fin": 42.92
+    },
+    {
+     "texto": "abre",
+     "inicio": 42.92,
+     "fin": 43.08
+    },
+    {
+     "texto": "la",
+     "inicio": 43.08,
+     "fin": 43.24
+    },
+    {
+     "texto": "heladera",
+     "inicio": 43.24,
+     "fin": 43.68
+    },
+    {
+     "texto": "en",
+     "inicio": 43.68,
+     "fin": 43.82
+    },
+    {
+     "texto": "cada",
+     "inicio": 43.82,
+     "fin": 44.0
+    },
+    {
+     "texto": "apagón.",
+     "inicio": 44.0,
+     "fin": 44.56
+    }
+   ],
+   "inicio": 42.18,
+   "fin": 44.56
+  }
+ ]
+}

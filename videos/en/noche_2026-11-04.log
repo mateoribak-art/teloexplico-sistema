@@ -25,3 +25,13 @@ Uso: 15 pasos · 16,021 tokens nuevos · 977,013 de caché · 2,811 escritos · 
 2026-11-04 16:44 Render de en-022-power-outage-fridge (sin Claude).
 2026-11-04 17:18 en-022-power-outage-fridge: apartado (render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it today before the next storm. Send this to th)
 2026-11-04 17:18 Termina la producción (ok).
+2026-11-04 19:20 Arranca la producción (3 listos en la cola, meta 6).
+- **Listo para render:** `en-020-ac-sixty` (3D, serie Home myths #4). Era un rescate de un video apartado por chequeo rechazado. Saqué la cita del DOE y la frase "no number will get you there", que quedó como "may never reach the number you set". El chequeo aprobó. La voz salió con 135 de 135 palabras y 41,6 s. `producir.py` hace el render y el control.
+- **Sigue apartado:** `en-008`, `en-014` y `en-015` ya habían fallado el chequeo dos veces. `en-012` está apartado por la voz, no por el chequeo. No los rescaté.
+- **Para revisar:** el termómetro del objeto Aire marca 24 °C y 17 °C. En °F son unos 75 y 63, mientras que el video dice 60 °F. Las marcas no tienen número escrito, así que no hay un dato falso en pantalla, pero la escala no coincide justo.
+
+El video en inglés ya lleva el mismo texto que el caption, con la fuente ENERGY STAR. Sumé la línea al `produccion.log`. No produje un video nuevo, porque este rescate fue el video del turno.
+Uso: 44 pasos · 57,568 tokens nuevos · 1,128,669 de caché · 10,852 escritos · equivale a US$ 0.71 de API
+2026-11-04 19:25 Render de en-020-ac-sixty (sin Claude).
+2026-11-04 19:37 en-020-ac-sixty: listo (render sin Claude)
+2026-11-04 19:37 Termina la producción (ok).

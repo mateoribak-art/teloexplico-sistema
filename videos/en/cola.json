@@ -687,7 +687,7 @@
  {
   "slug": "en-020-ac-sixty",
   "tema": "Does setting the AC to 60 cool faster? (adapted from 008)",
-  "estado": "produccion",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -698,6 +698,16 @@
     "estado": "apartado",
     "cuando": "2026-11-04T09:07",
     "motivo": "chequeo rechazado 2 veces: cita del DOE solo probable (fuente primaria no legible), tema de plata"
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-04T19:25",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-04T19:37",
+    "motivo": "render sin Claude"
    }
   ]
  },

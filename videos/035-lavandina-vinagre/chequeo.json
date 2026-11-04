@@ -1,0 +1,67 @@
+{
+  "veredicto": "rechazado",
+  "motivo": "Casi todo el guion y el caption quedó verificado con fuente primaria (CDC MMWR, CDC, ATSDR, poison.org): vinagre/ácido + lavandina = cloro gas, amoníaco + lavandina = cloraminas, síntomas (ojos, nariz, garganta, tos) y la cita textual del CDC. Se corrigieron los 4 puntos de la ronda anterior. Queda un bloqueo según la regla de seguridad que exige fuente primaria: la frase 'usada sola y como dice la etiqueta, la lavandina no larga ese gas. El gas sale de la mezcla' (guion frase 7 y caption). Ninguna fuente primaria consultada (CDC 'Cleaning and Disinfecting with Bleach', CDC 44192, CDC MMWR, poison.org) afirma eso de forma explícita: solo dicen 'seguí la etiqueta', 'nunca mezcles' y 'asegurate buena ventilación'. El CDC 44192 además dice 'Try not to breathe bleach fumes' y una hoja de Michigan (fuente estatal secundaria) dice que la lavandina sola tiene olor irritante y desprende cloro. Como afirmación de seguridad absoluta ('no larga ese gas') no está respaldada. Para aprobar: reformular a lo que sí dicen las fuentes, por ejemplo 'El gas aparece cuando se mezcla. Usala sola, como dice la etiqueta, y con buena ventilación' (CDC: 'Follow the label directions' y 'Make sure you have good ventilation while using bleach products indoors'), o conseguir una fuente primaria (ATSDR/EPA/poison.org) que diga explícitamente que usada según etiqueta no libera cloro gas.",
+  "afirmaciones": [
+    {
+      "texto": "Mezclás lavandina con vinagre para que limpie mejor, y el baño queda cerrado.",
+      "fuente": "Planteo de la situación (no afirmación fáctica). Riesgo de la mezcla: poison.org/articles/vinegar-164; CDC MMWR cdc.gov/mmwr/preview/mmwrhtml/00015111.htm",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Lo que hace es liberar gas. (caption: 'lo que hace es liberar gas')",
+      "fuente": "poison.org/articles/vinegar-164: 'Do not mix vinegar with chlorine bleach. This results in the release of chlorine gas'; CDC MMWR 00015111.htm. Ya no afirma 'no limpia mejor'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El vinagre es un ácido, y un ácido con lavandina libera cloro, un gas tóxico.",
+      "fuente": "poison.org/articles/chlorine-gas: 'Mixing bleach with an acid makes chlorine gas'; poison.org/articles/vinegar-164 (vinagre + lavandina libera cloro gas); CDC MMWR 00015111.htm: 'When sodium hypochlorite and an acid are mixed, chlorine gas and water are released' (el MMWR habla de ácido fosfórico, no vinagre; el vinagre lo cubre poison.org).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Con amoníaco, que algunos limpiadores traen, fijate en la etiqueta, se forman cloraminas, otro gas que irrita.",
+      "fuente": "CDC MMWR 00015111.htm: productos con amoníaco + lavandina forman monocloramina y dicloramina, que 'may produce tearing, respiratory tract irritation, and nausea'; poison.org/articles/chlorine-gas: 'chloramine gas'. 'Algunos limpiadores traen amoníaco' queda hedgeado ('algunos', 'fijate en la etiqueta') y el MMWR habla de productos que contienen amoníaco.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Esos gases irritan los ojos, la nariz y la garganta, y provocan tos.",
+      "fuente": "poison.org/articles/chlorine-gas: 'Chlorine gas causes burning of the eyes, nose, and throat, as well as a cough'; CDC MMWR 00015111.htm; CDC/ATSDR MMG chlorine (wwwn.cdc.gov/Tsp/MMG/MMGDetails.aspx?mmgid=198&toxid=36). Ojo: la frase dice 'provocan' sin 'pueden'; las fuentes lo describen como efecto de la exposición y depende de la concentración. Aceptable, pero 'pueden' sería más preciso.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El CDC de Estados Unidos lo dice sin vueltas: nunca mezcles lavandina con amoníaco ni con otro limpiador.",
+      "fuente": "CDC, Cleaning and Sanitizing with Bleach After an Emergency (stacks.cdc.gov/view/cdc/44192): 'Never mix bleach with ammonia or any other cleaner.' Confirmado en esta pasada. También cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html: 'Never mix household bleach (or any disinfectants) with any other cleaners or disinfectants.'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: usada sola y como dice la etiqueta, la lavandina no larga ese gas. El gas sale de la mezcla.",
+      "fuente": "Sin fuente primaria que lo afirme explícitamente. CDC (cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html) solo dice 'Follow the label directions' y 'good ventilation while using bleach products indoors'; no dice que sola no libere vapores. CDC 44192 agrega 'Try not to breathe bleach fumes'. poison.org describe gas solo al mezclar con ácidos o amoníaco, pero no afirma lo contrario para el uso solo. Una hoja de Michigan (secundaria) dice que la lavandina sola libera cloro de olor irritante.",
+      "estado": "probable",
+      "matiz_ok": false
+    },
+    {
+      "texto": "Hoy, una sola cosa por vez. / Guardalo: lavandina sola. Una sola cosa por vez.",
+      "fuente": "Consigna práctica respaldada por CDC 44192 y CDC 'Cleaning and Disinfecting with Bleach': nunca mezclar con otros limpiadores.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mandáselo al que mezcla todo para que limpie mejor. / ¿Qué producto usás vos para el baño? Contanos en un comentario. / Seguí a @teloexplico.ar",
+      "fuente": "Llamados a la acción, no afirmaciones fácticas.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes: CDC (Cleaning and Sanitizing with Bleach After an Emergency; MMWR); Poison Control (poison.org).",
+      "fuente": "Las tres existen y fueron leídas: stacks.cdc.gov/view/cdc/44192, cdc.gov/mmwr/preview/mmwrhtml/00015111.htm, poison.org/articles/vinegar-164 y /chlorine-gas.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ],
+  "confianza_general": "Media-alta. El núcleo de seguridad (mezclas, síntomas, cita del CDC) está verificado con fuente primaria. Bloquea solo la afirmación 'usada sola según etiqueta no larga ese gas', sin fuente primaria explícita."
+}

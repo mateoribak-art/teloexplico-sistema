@@ -1,5 +1,78 @@
 {
-  "veredicto": "pendiente",
-  "motivo": "Guion y caption reescritos el 2026-11-04 sin la cita del DOE (no se pudo leer la fuente primaria). Ahora se apoyan solo en ENERGY STAR (energystar.gov/products/ask-the-experts/variable-speed-means-more-savings-room-air-conditioners), leida con fetch directo: un equipo convencional de una velocidad esta 'on' a maxima capacidad cuando el termostato pide frio y 'off' al llegar a la temperatura. Sin cifras ni frase de plata. Falta rehacer el chequeo de datos.",
-  "afirmaciones": []
+  "veredicto": "aprobado",
+  "motivo": "La frase 7 y el 'Heads up' del caption ahora dicen 'may never reach the number you set': es una deducción física (si la ganancia de calor supera la capacidad del equipo, no se alcanza el setpoint) presentada como posibilidad, no como absoluto, así que el matiz coincide con el estado 'probable'. No hay afirmaciones de salud, seguridad ni plata. El mecanismo on/off a máxima capacidad está respaldado por ENERGY STAR (Ask the Experts, variable speed room air conditioners). Sobre el DOE: la página de Carolina Country (carolinacountry.com/story/don-t-overtax-your-hvac), que repliqué y releí en esta pasada, dice textualmente que poner el termostato más frío al encender 'will not cool your home any faster' y cierra con 'Source: U.S Department of Energy'. Intenté confirmarlo en energy.gov y no encontré la página primaria. Decisión: alcanza para dejar 'U.S. Department of Energy' en las fuentes del caption, porque la atribución explícita del republicador es exacta y la afirmación es de bajo riesgo (mecánica, sin cifras ni consejos de salud o dinero) y además se sostiene sola con el mecanismo de ENERGY STAR. Condición: no escribir en el caption ni en el video una cita textual ni un link a energy.gov que no pude verificar; si más adelante se quiere blindar, reemplazar por la página primaria del DOE. Alternativa más conservadora si se prefiere cero dependencia de fuente secundaria: dejar 'Sources: ENERGY STAR.'",
+  "afirmaciones": [
+    {
+      "texto": "You walk into a hot house and set the AC to sixty, so it cools off faster.",
+      "fuente": "Descripción de una creencia común, no una afirmación fáctica del video",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Here's the catch: with a basic air conditioner, sixty won't cool it any faster than a normal setting.",
+      "fuente": "ENERGY STAR (energystar.gov/products/ask-the-experts/variable-speed-means-more-savings-room-air-conditioners): compresor de una velocidad on a máxima capacidad cuando el termostato pide frío, off al llegar a la temperatura. Refuerzo: Carolina Country (carolinacountry.com/story/don-t-overtax-your-hvac), que atribuye a 'U.S Department of Energy' que un setpoint más frío al encender 'will not cool your home any faster'. Página primaria de energy.gov no hallada.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "A thermostat isn't a gas pedal. It's a destination.",
+      "fuente": "Metáfora; coincide con el mecanismo on/off de ENERGY STAR",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "A basic air conditioner runs at full blast whenever the thermostat calls for cooling, no matter how low you set it.",
+      "fuente": "ENERGY STAR, Ask the Experts: el equipo convencional de una velocidad está 'on' a máxima capacidad cuando el termostato pide frío. La fuente habla de ACs de ambiente; 'basic air conditioner' (una etapa) es consistente.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Then it shuts off once it reaches the temperature you set.",
+      "fuente": "ENERGY STAR, misma página: 'off' cuando se alcanzó la temperatura deseada",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "So a lower number only changes where it stops, not how fast it gets there.",
+      "fuente": "Conclusión lógica de las dos premisas anteriores (ENERGY STAR); consistente con DOE vía Carolina Country",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: with a window open or the sun blasting in, the AC may never reach the number you set.",
+      "fuente": "Deducción física sin cita primaria (si la ganancia de calor supera la capacidad del equipo, no alcanza el setpoint). Presentada con 'may', es decir como posibilidad, no como absoluto.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Set it to a normal, comfortable temperature, and close the blinds.",
+      "fuente": "ENERGY STAR (archivo web, 'Top 5 Ways to Chill Out This Summer') y guía del DOE: cerrar persianas/cortinas para frenar el sol. Consejo, sin cifras.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Send this to the friend who sets the AC to sixty and waits.",
+      "fuente": "Llamado a la acción, no fáctico",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Setting the AC to 60 won't cool your house faster. / A basic AC runs at full capacity whenever the thermostat calls for cooling, then shuts off once it hits your temperature. A lower number only changes where it stops, not how fast it gets there.",
+      "fuente": "ENERGY STAR (misma página) y DOE vía Carolina Country; '60' es solo un ejemplo de setpoint, sin dato numérico a verificar",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Heads up: with an open window or the sun pouring in, your AC may never reach your number. Close the blinds first.",
+      "fuente": "Deducción física presentada con 'may' (posibilidad); persianas respaldadas por ENERGY STAR (archivo) y DOE",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Sources: ENERGY STAR, U.S. Department of Energy.",
+      "fuente": "ENERGY STAR: primaria para el mecanismo. DOE: atribución explícita en Carolina Country ('Source: U.S Department of Energy') para 'a colder setting will not cool your home any faster'; no confirmada en energy.gov. Se mantiene por ser atribución exacta del republicador y afirmación de bajo riesgo.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
 }

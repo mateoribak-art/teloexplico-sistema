@@ -1,0 +1,54 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de salud/seguridad alimentaria estan respaldadas por fuente primaria de EE. UU. (USDA FSIS y FoodSafety.gov) y ninguna es falsa. Las frases atribuyen la cifra al USDA (no a Argentina) y llevan el matiz de puerta cerrada. Limitacion del chequeo: las paginas vivas de fsis.usda.gov y foodsafety.gov devolvieron 403; el texto se confirmo en el PDF archivado de FSIS (webarchive.library.unt.edu, Keep Your Food Safe During Emergencies), en la copia PDF de FoodSafety.gov 'Food Safety During Power Outage' y en comunicados FSIS. Recomendacion no bloqueante: releer una vez las paginas vivas antes de publicar. No se encontro fuente de ANMAT; por eso el video acierta en atribuir la regla al USDA.",
+  "afirmaciones": [
+    {
+      "texto": "Cada vez que la abrís, se te escapa el frío. (frase 2 / caption)",
+      "fuente": "USDA FSIS, Keep Your Food Safe During Emergencies: 'mantené las puertas de heladera y freezer cerradas lo más posible'. Mecanismo físico básico.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Cerrada, la heladera mantiene la comida segura hasta cuatro horas, según el Departamento de Agricultura de Estados Unidos. (frase 3 / caption)",
+      "fuente": "USDA FSIS, Keep Your Food Safe During Emergencies (PDF archivado, fsis.usda.gov): 'The refrigerator will keep food safe for up to 4 hours if it is unopened'. FoodSafety.gov, Food Safety During Power Outage: misma cifra.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Pasadas esas cuatro horas sin luz, lo perecedero, como carne, pollo, pescado, huevos y sobras, se tira. (frase 4 / caption)",
+      "fuente": "FoodSafety.gov, Food Safety During Power Outage (tabla de alimentos refrigerados): descartar carne, aves, pescado, huevos y sobras si estuvieron 4 horas o más por encima de 40 °F. Ademas FSIS indica evaluar cada alimento por separado; la frase es una guia general, no lista exhaustiva (usa 'como').",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ante la duda, tirala. (frase 5 / caption)",
+      "fuente": "USDA FSIS: 'When in doubt, throw it out'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "No importa cómo se vea o a qué huela (no hay que guiarse por aspecto u olor). (frase 5)",
+      "fuente": "USDA FSIS: 'After a power outage, never taste food to determine its safety'; especialista FSIS: 'You can't see, taste or smell those bacteria that can make you sick'. Nota: no ubique la formula literal 'appearance or odor' en el texto de la pagina viva (403); el contenido esta respaldado por las dos citas anteriores.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Las cuatro horas valen si la puerta quedó cerrada. Si la abriste mil veces, no hay garantía. (frase 6 / caption)",
+      "fuente": "USDA FSIS: la cifra de 4 horas es 'if it is unopened' / con puertas cerradas. 'No hay garantia' es la consecuencia logica y esta formulada como falta de garantia, no como cifra nueva (ningun numero inventado).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Hoy, si se va la luz, anotá la hora y dejá la puerta cerrada. (frase 7 / caption)",
+      "fuente": "Consejo practico derivado: FSIS pide mantener la puerta cerrada y controlar tiempo/temperatura (termometro de aparato). Anotar la hora no figura textual en la fuente; no es una afirmacion fáctica sino una sugerencia para poder aplicar la regla de 4 horas.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Se corta la luz y abrís la heladera a cada rato, para ver si todo sigue frío. (frase 1)",
+      "fuente": "Descripcion de un comportamiento, no una afirmacion fáctica verificable.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

@@ -1330,5 +1330,44 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "035-lavandina-vinagre",
+  "tema": "Lavandina con vinagre o amoníaco: el gas tóxico (CDC)",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-04T18:36",
+    "motivo": ""
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-04T18:38",
+    "motivo": "chequeo rechazado 2 veces (frase 'lavandina sola no larga gas' sin fuente primaria explícita)"
+   }
+  ]
+ },
+ {
+  "slug": "036-apagon-heladera",
+  "tema": "Apagón: cuánto aguanta la comida de la heladera cerrada (USDA, 4 horas)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-04T18:39",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-04T18:43",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-04T19:20",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

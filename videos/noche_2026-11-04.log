@@ -37,3 +37,14 @@ Terminé: el carrusel está armado y chequeado, y ya anoté la línea en `videos
 `heladera-parte-2`: listo (7 placas, origen 021-heladera-parte-2, publicado el 29/10). Salió del chequeo aprobado del reel, con los datos del USDA: 3 a 4 días en la heladera, 3 a 4 meses en el freezer y 2 horas. Lo vi en `hoja.png`. Queda para que lo publique `carrusel.yml` a las 16:00.
 Uso: 28 pasos · 23,488 tokens nuevos · 475,635 de caché · 4,272 escritos · equivale a US$ 0.18 de API
 2026-11-04 16:34 Termina el carrusel (ok; quedan 2 listos).
+2026-11-04 18:35 Arranca la producción (13 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `036-apagon-heladera` (pilar clima_accion, serie casa #4). El chequeo lo aprobó en el primer intento con fuentes de USDA FSIS y FoodSafety.gov. La voz salió bien (44,7 s, 119 de 119 palabras), `tsc` pasó y miré una hoja de cuadros. `producir.py` lo renderiza y lo pasa a `listo` o `apartado` al terminar mi turno. Las páginas vivas de USDA y FoodSafety.gov dieron 403 durante el chequeo, así que se confirmó con copias archivadas.
+- **Apartado:** `035-lavandina-vinagre` quedó apartado porque el chequeo lo rechazó dos veces. La frase "usada sola, la lavandina no larga ese gas" no tiene fuente primaria que lo diga. Para rescatarlo hay que reformularla como "el gas aparece al mezclar; usala sola, como dice la etiqueta, y con buena ventilación". Lo anoté en `videos/produccion.log`.
+- **No producí un segundo video:** la cola tenía más de 10 listos. Tampoco había videos apartados por "chequeo rechazado" para rescatar antes de empezar. El 005 está apartado por otro motivo.
+Uso: 45 pasos · 86,095 tokens nuevos · 1,490,663 de caché · 16,261 escritos · equivale a US$ 1.25 de API
+Permisos negados (2):
+  Bash: {"command": "pdftotext /home/runner/.claude/projects/-home-runner-work-teloexplico-sistema-teloexplico-sistema/a50681f0-3488-4282-bd1f-911eb29a9359/to
+  Bash: {"command": "cd /tmp && mkdir -p fc && cd fc && (pdftotext -layout /home/runner/.claude/projects/-home-runner-work-teloexplico-sistema-teloexplico-sis
+2026-11-04 18:43 Render de 036-apagon-heladera (sin Claude).
+2026-11-04 19:20 036-apagon-heladera: listo (render sin Claude)
+2026-11-04 19:20 Termina la producción (ok).

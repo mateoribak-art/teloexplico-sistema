@@ -1,0 +1,22 @@
+{
+  "titulo": "Se corta la luz y abrís la heladera a cada rato: así gastás el frío que te queda",
+  "fondo": "oscuro",
+  "receta": "El que lo hace mal / pilar clima_accion",
+  "pilar": "clima_accion",
+  "destinatario": "se lo manda alguien de la casa a su viejo o a su hermano, el que en cada apagón abre la heladera para ver si todo sigue frío, para decirle que la deje cerrada",
+  "regla_guardable": "Apagón: heladera cerrada. Aguanta hasta cuatro horas. Pasado ese tiempo, lo perecedero se tira.",
+  "fuentes": [
+    "USDA (Departamento de Agricultura de EE. UU.), FSIS: Keep Your Food Safe During Emergencies",
+    "FoodSafety.gov (gobierno de EE. UU.): Food Safety During Power Outage"
+  ],
+  "frases": [
+    {"texto": "Se corta la luz y abrís la heladera a cada rato, para ver si todo sigue frío.", "estilo": "Seco, directo, a cámara."},
+    {"texto": "Cada vez que la abrís, se te escapa el frío.", "estilo": "Contundente."},
+    {"texto": "Cerrada, la heladera mantiene la comida segura hasta cuatro horas, según el Departamento de Agricultura de Estados Unidos.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Pasadas esas cuatro horas sin luz, lo perecedero, como carne, pollo, pescado, huevos y sobras, se tira.", "estilo": "Informativo, serio."},
+    {"texto": "No importa cómo se vea o a qué huela: la regla es, ante la duda, tirala.", "estilo": "Serio, calmo."},
+    {"texto": "Ojo: las cuatro horas valen si la puerta quedó cerrada. Si la abriste mil veces, no hay garantía.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Hoy, si se va la luz, anotá la hora y dejá la puerta cerrada.", "estilo": "Práctico, amable."},
+    {"texto": "Mandáselo al que abre la heladera en cada apagón.", "estilo": "Cómplice, con humor."}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "titulo": "Mezclar lavandina con vinagre para que limpie mejor te llena el baño de gas",
+  "fondo": "oscuro",
+  "receta": "El que lo hace mal / pilar casa",
+  "pilar": "casa",
+  "destinatario": "se lo manda alguien de la casa a su vieja o a su pareja, el que mezcla lavandina con vinagre o con limpiador 'para que limpie mejor', para decirle que pare",
+  "regla_guardable": "Lavandina sola. Nunca mezclada con vinagre, amoníaco ni otro limpiador.",
+  "fuentes": [
+    "CDC (Centros para el Control y la Prevención de Enfermedades de EE. UU.): Cleaning and Sanitizing with Bleach After an Emergency (stacks.cdc.gov/view/cdc/44192)",
+    "CDC MMWR: exposiciones por mezclas de lavandina con otros productos de limpieza",
+    "Poison Control (poison.org): lavandina y vinagre"
+  ],
+  "frases": [
+    {"texto": "Mezclás lavandina con vinagre para que limpie mejor, y el baño queda cerrado.", "estilo": "Seco, directo, a cámara."},
+    {"texto": "Lo que hace es liberar gas.", "estilo": "Contundente."},
+    {"texto": "El vinagre es un ácido, y un ácido con lavandina libera cloro, un gas tóxico.", "estilo": "Intriga."},
+    {"texto": "Con amoníaco, que algunos limpiadores traen, fijate en la etiqueta, se forman cloraminas, otro gas que irrita.", "estilo": "Informativo, serio."},
+    {"texto": "Esos gases irritan los ojos, la nariz y la garganta, y provocan tos.", "estilo": "Informativo, calmo."},
+    {"texto": "El CDC de Estados Unidos lo dice sin vueltas: nunca mezcles lavandina con amoníaco ni con otro limpiador.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Ojo: usada sola y como dice la etiqueta, la lavandina no larga ese gas. El gas sale de la mezcla.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Hoy, una sola cosa por vez.", "estilo": "Práctico, amable."},
+    {"texto": "Mandáselo al que mezcla todo para que limpie mejor.", "estilo": "Cómplice, con humor."}
+  ]
+}

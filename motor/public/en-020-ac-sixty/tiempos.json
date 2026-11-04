@@ -1,0 +1,743 @@
+{
+ "duracion": 41.65,
+ "frases": [
+  {
+   "texto": "You walk into a hot house and set the AC to sixty, so it cools off faster.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "walk",
+     "inicio": 0.14,
+     "fin": 0.34
+    },
+    {
+     "texto": "into",
+     "inicio": 0.34,
+     "fin": 0.52
+    },
+    {
+     "texto": "a",
+     "inicio": 0.52,
+     "fin": 0.68
+    },
+    {
+     "texto": "hot",
+     "inicio": 0.68,
+     "fin": 0.88
+    },
+    {
+     "texto": "house",
+     "inicio": 0.88,
+     "fin": 1.22
+    },
+    {
+     "texto": "and",
+     "inicio": 1.22,
+     "fin": 1.52
+    },
+    {
+     "texto": "set",
+     "inicio": 1.52,
+     "fin": 1.72
+    },
+    {
+     "texto": "the",
+     "inicio": 1.72,
+     "fin": 1.88
+    },
+    {
+     "texto": "AC",
+     "inicio": 1.88,
+     "fin": 2.14
+    },
+    {
+     "texto": "to",
+     "inicio": 2.14,
+     "fin": 2.56
+    },
+    {
+     "texto": "sixty,",
+     "inicio": 2.56,
+     "fin": 3.0
+    },
+    {
+     "texto": "so",
+     "inicio": 3.32,
+     "fin": 3.62
+    },
+    {
+     "texto": "it",
+     "inicio": 3.62,
+     "fin": 3.76
+    },
+    {
+     "texto": "cools",
+     "inicio": 3.76,
+     "fin": 3.96
+    },
+    {
+     "texto": "off",
+     "inicio": 3.96,
+     "fin": 4.26
+    },
+    {
+     "texto": "faster.",
+     "inicio": 4.26,
+     "fin": 4.62
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.62
+  },
+  {
+   "texto": "Here's the catch: with a basic air conditioner, sixty won't cool it any faster than a normal setting.",
+   "palabras": [
+    {
+     "texto": "Here's",
+     "inicio": 5.06,
+     "fin": 5.26
+    },
+    {
+     "texto": "the",
+     "inicio": 5.26,
+     "fin": 5.36
+    },
+    {
+     "texto": "catch:",
+     "inicio": 5.36,
+     "fin": 5.56
+    },
+    {
+     "texto": "with",
+     "inicio": 6.22,
+     "fin": 6.26
+    },
+    {
+     "texto": "a",
+     "inicio": 6.26,
+     "fin": 6.36
+    },
+    {
+     "texto": "basic",
+     "inicio": 6.36,
+     "fin": 6.68
+    },
+    {
+     "texto": "air",
+     "inicio": 6.68,
+     "fin": 6.94
+    },
+    {
+     "texto": "conditioner,",
+     "inicio": 6.94,
+     "fin": 7.24
+    },
+    {
+     "texto": "sixty",
+     "inicio": 7.76,
+     "fin": 8.16
+    },
+    {
+     "texto": "won't",
+     "inicio": 8.16,
+     "fin": 8.94
+    },
+    {
+     "texto": "cool",
+     "inicio": 8.94,
+     "fin": 9.18
+    },
+    {
+     "texto": "it",
+     "inicio": 9.18,
+     "fin": 9.34
+    },
+    {
+     "texto": "any",
+     "inicio": 9.34,
+     "fin": 9.62
+    },
+    {
+     "texto": "faster",
+     "inicio": 9.62,
+     "fin": 10.0
+    },
+    {
+     "texto": "than",
+     "inicio": 10.0,
+     "fin": 10.24
+    },
+    {
+     "texto": "a",
+     "inicio": 10.24,
+     "fin": 10.34
+    },
+    {
+     "texto": "normal",
+     "inicio": 10.34,
+     "fin": 10.54
+    },
+    {
+     "texto": "setting.",
+     "inicio": 10.54,
+     "fin": 10.88
+    }
+   ],
+   "inicio": 5.06,
+   "fin": 10.88
+  },
+  {
+   "texto": "A thermostat isn't a gas pedal. It's a destination.",
+   "palabras": [
+    {
+     "texto": "A",
+     "inicio": 11.38,
+     "fin": 11.44
+    },
+    {
+     "texto": "thermostat",
+     "inicio": 11.44,
+     "fin": 11.92
+    },
+    {
+     "texto": "isn't",
+     "inicio": 11.92,
+     "fin": 12.22
+    },
+    {
+     "texto": "a",
+     "inicio": 12.22,
+     "fin": 12.3
+    },
+    {
+     "texto": "gas",
+     "inicio": 12.3,
+     "fin": 12.54
+    },
+    {
+     "texto": "pedal.",
+     "inicio": 12.54,
+     "fin": 12.8
+    },
+    {
+     "texto": "It's",
+     "inicio": 13.28,
+     "fin": 13.6
+    },
+    {
+     "texto": "a",
+     "inicio": 13.6,
+     "fin": 13.94
+    },
+    {
+     "texto": "destination.",
+     "inicio": 13.94,
+     "fin": 14.3
+    }
+   ],
+   "inicio": 11.38,
+   "fin": 14.3
+  },
+  {
+   "texto": "A basic air conditioner runs at full blast whenever the thermostat calls for cooling, no matter how low you set it.",
+   "palabras": [
+    {
+     "texto": "A",
+     "inicio": 14.98,
+     "fin": 15.04
+    },
+    {
+     "texto": "basic",
+     "inicio": 15.04,
+     "fin": 15.36
+    },
+    {
+     "texto": "air",
+     "inicio": 15.36,
+     "fin": 15.5
+    },
+    {
+     "texto": "conditioner",
+     "inicio": 15.5,
+     "fin": 15.82
+    },
+    {
+     "texto": "runs",
+     "inicio": 15.82,
+     "fin": 16.14
+    },
+    {
+     "texto": "at",
+     "inicio": 16.14,
+     "fin": 16.28
+    },
+    {
+     "texto": "full",
+     "inicio": 16.28,
+     "fin": 16.64
+    },
+    {
+     "texto": "blast",
+     "inicio": 16.64,
+     "fin": 17.06
+    },
+    {
+     "texto": "whenever",
+     "inicio": 17.06,
+     "fin": 17.56
+    },
+    {
+     "texto": "the",
+     "inicio": 17.56,
+     "fin": 17.82
+    },
+    {
+     "texto": "thermostat",
+     "inicio": 17.82,
+     "fin": 18.28
+    },
+    {
+     "texto": "calls",
+     "inicio": 18.28,
+     "fin": 18.5
+    },
+    {
+     "texto": "for",
+     "inicio": 18.5,
+     "fin": 18.68
+    },
+    {
+     "texto": "cooling,",
+     "inicio": 18.68,
+     "fin": 18.92
+    },
+    {
+     "texto": "no",
+     "inicio": 19.38,
+     "fin": 19.52
+    },
+    {
+     "texto": "matter",
+     "inicio": 19.52,
+     "fin": 19.66
+    },
+    {
+     "texto": "how",
+     "inicio": 19.66,
+     "fin": 19.92
+    },
+    {
+     "texto": "low",
+     "inicio": 19.92,
+     "fin": 20.14
+    },
+    {
+     "texto": "you",
+     "inicio": 20.14,
+     "fin": 20.28
+    },
+    {
+     "texto": "set",
+     "inicio": 20.28,
+     "fin": 20.48
+    },
+    {
+     "texto": "it.",
+     "inicio": 20.48,
+     "fin": 20.62
+    }
+   ],
+   "inicio": 14.98,
+   "fin": 20.62
+  },
+  {
+   "texto": "Then it shuts off once it reaches the temperature you set.",
+   "palabras": [
+    {
+     "texto": "Then",
+     "inicio": 21.0,
+     "fin": 21.18
+    },
+    {
+     "texto": "it",
+     "inicio": 21.18,
+     "fin": 21.34
+    },
+    {
+     "texto": "shuts",
+     "inicio": 21.34,
+     "fin": 21.52
+    },
+    {
+     "texto": "off",
+     "inicio": 21.52,
+     "fin": 21.84
+    },
+    {
+     "texto": "once",
+     "inicio": 21.84,
+     "fin": 22.02
+    },
+    {
+     "texto": "it",
+     "inicio": 22.02,
+     "fin": 22.18
+    },
+    {
+     "texto": "reaches",
+     "inicio": 22.18,
+     "fin": 22.36
+    },
+    {
+     "texto": "the",
+     "inicio": 22.36,
+     "fin": 22.54
+    },
+    {
+     "texto": "temperature",
+     "inicio": 22.54,
+     "fin": 22.8
+    },
+    {
+     "texto": "you",
+     "inicio": 22.8,
+     "fin": 23.0
+    },
+    {
+     "texto": "set.",
+     "inicio": 23.0,
+     "fin": 23.22
+    }
+   ],
+   "inicio": 21.0,
+   "fin": 23.22
+  },
+  {
+   "texto": "So a lower number only changes where it stops, not how fast it gets there.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 23.68,
+     "fin": 23.94
+    },
+    {
+     "texto": "a",
+     "inicio": 23.94,
+     "fin": 24.48
+    },
+    {
+     "texto": "lower",
+     "inicio": 24.48,
+     "fin": 24.68
+    },
+    {
+     "texto": "number",
+     "inicio": 24.68,
+     "fin": 25.04
+    },
+    {
+     "texto": "only",
+     "inicio": 25.04,
+     "fin": 25.5
+    },
+    {
+     "texto": "changes",
+     "inicio": 25.5,
+     "fin": 25.8
+    },
+    {
+     "texto": "where",
+     "inicio": 25.8,
+     "fin": 26.04
+    },
+    {
+     "texto": "it",
+     "inicio": 26.04,
+     "fin": 26.14
+    },
+    {
+     "texto": "stops,",
+     "inicio": 26.14,
+     "fin": 26.46
+    },
+    {
+     "texto": "not",
+     "inicio": 26.46,
+     "fin": 27.2
+    },
+    {
+     "texto": "how",
+     "inicio": 27.2,
+     "fin": 27.4
+    },
+    {
+     "texto": "fast",
+     "inicio": 27.4,
+     "fin": 27.66
+    },
+    {
+     "texto": "it",
+     "inicio": 27.66,
+     "fin": 27.76
+    },
+    {
+     "texto": "gets",
+     "inicio": 27.76,
+     "fin": 27.92
+    },
+    {
+     "texto": "there.",
+     "inicio": 27.92,
+     "fin": 28.14
+    }
+   ],
+   "inicio": 23.68,
+   "fin": 28.14
+  },
+  {
+   "texto": "Heads up: with a window open or the sun blasting in, the AC may never reach the number you set.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 28.5,
+     "fin": 28.74
+    },
+    {
+     "texto": "up:",
+     "inicio": 28.74,
+     "fin": 28.9
+    },
+    {
+     "texto": "with",
+     "inicio": 29.38,
+     "fin": 29.42
+    },
+    {
+     "texto": "a",
+     "inicio": 29.42,
+     "fin": 29.52
+    },
+    {
+     "texto": "window",
+     "inicio": 29.52,
+     "fin": 29.74
+    },
+    {
+     "texto": "open",
+     "inicio": 29.74,
+     "fin": 30.16
+    },
+    {
+     "texto": "or",
+     "inicio": 30.16,
+     "fin": 30.46
+    },
+    {
+     "texto": "the",
+     "inicio": 30.46,
+     "fin": 30.62
+    },
+    {
+     "texto": "sun",
+     "inicio": 30.62,
+     "fin": 30.86
+    },
+    {
+     "texto": "blasting",
+     "inicio": 30.86,
+     "fin": 31.28
+    },
+    {
+     "texto": "in,",
+     "inicio": 31.28,
+     "fin": 31.54
+    },
+    {
+     "texto": "the",
+     "inicio": 31.92,
+     "fin": 31.98
+    },
+    {
+     "texto": "AC",
+     "inicio": 31.98,
+     "fin": 32.34
+    },
+    {
+     "texto": "may",
+     "inicio": 32.34,
+     "fin": 32.66
+    },
+    {
+     "texto": "never",
+     "inicio": 32.66,
+     "fin": 33.12
+    },
+    {
+     "texto": "reach",
+     "inicio": 33.12,
+     "fin": 33.4
+    },
+    {
+     "texto": "the",
+     "inicio": 33.4,
+     "fin": 33.6
+    },
+    {
+     "texto": "number",
+     "inicio": 33.6,
+     "fin": 33.86
+    },
+    {
+     "texto": "you",
+     "inicio": 33.86,
+     "fin": 34.04
+    },
+    {
+     "texto": "set.",
+     "inicio": 34.04,
+     "fin": 34.28
+    }
+   ],
+   "inicio": 28.5,
+   "fin": 34.28
+  },
+  {
+   "texto": "Set it to a normal, comfortable temperature, and close the blinds.",
+   "palabras": [
+    {
+     "texto": "Set",
+     "inicio": 34.64,
+     "fin": 34.92
+    },
+    {
+     "texto": "it",
+     "inicio": 34.92,
+     "fin": 35.02
+    },
+    {
+     "texto": "to",
+     "inicio": 35.02,
+     "fin": 35.14
+    },
+    {
+     "texto": "a",
+     "inicio": 35.14,
+     "fin": 35.24
+    },
+    {
+     "texto": "normal,",
+     "inicio": 35.24,
+     "fin": 35.5
+    },
+    {
+     "texto": "comfortable",
+     "inicio": 35.7,
+     "fin": 36.12
+    },
+    {
+     "texto": "temperature,",
+     "inicio": 36.12,
+     "fin": 36.72
+    },
+    {
+     "texto": "and",
+     "inicio": 37.0,
+     "fin": 37.06
+    },
+    {
+     "texto": "close",
+     "inicio": 37.06,
+     "fin": 37.44
+    },
+    {
+     "texto": "the",
+     "inicio": 37.44,
+     "fin": 37.6
+    },
+    {
+     "texto": "blinds.",
+     "inicio": 37.6,
+     "fin": 38.12
+    }
+   ],
+   "inicio": 34.64,
+   "fin": 38.12
+  },
+  {
+   "texto": "Send this to the friend who sets the AC to sixty and waits.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 38.4,
+     "fin": 38.58
+    },
+    {
+     "texto": "this",
+     "inicio": 38.58,
+     "fin": 38.72
+    },
+    {
+     "texto": "to",
+     "inicio": 38.72,
+     "fin": 38.86
+    },
+    {
+     "texto": "the",
+     "inicio": 38.86,
+     "fin": 38.96
+    },
+    {
+     "texto": "friend",
+     "inicio": 38.96,
+     "fin": 39.16
+    },
+    {
+     "texto": "who",
+     "inicio": 39.16,
+     "fin": 39.36
+    },
+    {
+     "texto": "sets",
+     "inicio": 39.36,
+     "fin": 39.54
+    },
+    {
+     "texto": "the",
+     "inicio": 39.54,
+     "fin": 39.76
+    },
+    {
+     "texto": "AC",
+     "inicio": 39.76,
+     "fin": 40.04
+    },
+    {
+     "texto": "to",
+     "inicio": 40.04,
+     "fin": 40.26
+    },
+    {
+     "texto": "sixty",
+     "inicio": 40.26,
+     "fin": 40.56
+    },
+    {
+     "texto": "and",
+     "inicio": 40.56,
+     "fin": 41.02
+    },
+    {
+     "texto": "waits.",
+     "inicio": 41.02,
+     "fin": 41.32
+    }
+   ],
+   "inicio": 38.4,
+   "fin": 41.32
+  }
+ ]
+}

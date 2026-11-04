@@ -41,6 +41,7 @@ import { DURACION as DUR_013, FPS as FPS_013, AlcoholCalor3D, Portada013 } from 
 import { DURACION as DUR_032, FPS as FPS_032, PeloMojado3D, Portada032 } from "./videos/032-pelo-mojado-resfrio/Video";
 import { DURACION as DUR_033, FPS as FPS_033, GraciasMate3D, Portada033 } from "./videos/033-gracias-en-el-mate/Video";
 import { DURACION as DUR_034, FPS as FPS_034, ArrozRecalentado3D, Portada034 } from "./videos/034-arroz-recalentado/Video";
+import { DURACION as DUR_036, FPS as FPS_036, ApagonHeladera3D, Portada036 } from "./videos/036-apagon-heladera/Video";
 import { DURACION as DUR_023, FPS as FPS_023, PerrosColores023, Portada023 } from "./videos/023-perros-colores/Video";
 import { DURACION as DUR_024, FPS as FPS_024, GranizoCorto024, Portada024 } from "./videos/024-granizo-corto/Video";
 import { DURACION as DUR_011, FPS as FPS_011, SalAgua011, Portada011 } from "./videos/011-sal-agua-hierve/Video";
@@ -63,7 +64,8 @@ import { DURACION as DUR_EN016, FPS as FPS_EN016, TooColdSnowEn016, PortadaEn016
 import { DURACION as DUR_EN017, FPS as FPS_EN017, HeatHeadEn017, PortadaEn017 } from "./videos/en-017-heat-head/Video";
 import { DURACION as DUR_EN018, FPS as FPS_EN018, StormCooldownEn018, PortadaEn018 } from "./videos/en-018-storm-cooldown/Video";
 import { DURACION as DUR_EN019, FPS as FPS_EN019, KnuckleCrackEn019, PortadaEn019 } from "./videos/en-019-knuckle-crack/Video";
-import { DURACION as DUR_EN021, FPS as FPS_EN021, OtherLineEn021, PortadaEn021 } from "./videos/en-021-other-line/Video";
+import { DURACION as DUR_EN020, FPS as FPS_EN020, AcSixtyEn020, PortadaEn020 } from "./videos/en-020-ac-sixty/Video";
+import { DURACION as DUR_EN021,FPS as FPS_EN021, OtherLineEn021, PortadaEn021 } from "./videos/en-021-other-line/Video";
 import { DURACION as DUR_EN022, FPS as FPS_EN022, PowerOutageEn022, PortadaEn022 } from "./videos/en-022-power-outage-fridge/Video";
 import { DURACION as DUR_EN001,FPS as FPS_EN001, PhoneRiceEn001, PortadaEn001 } from "./videos/en-001-phone-rice/Video";
 
@@ -106,6 +108,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p033-gracias-en-el-mate" component={Portada033} width={ANCHO} height={ALTO} />
         <Composition id="h034-arroz-recalentado" component={ArrozRecalentado3D} durationInFrames={DUR_034} fps={FPS_034} width={ANCHO} height={ALTO} />
         <Still id="p034-arroz-recalentado" component={Portada034} width={ANCHO} height={ALTO} />
+        <Composition id="h036-apagon-heladera" component={ApagonHeladera3D} durationInFrames={DUR_036} fps={FPS_036} width={ANCHO} height={ALTO} />
+        <Still id="p036-apagon-heladera" component={Portada036} width={ANCHO} height={ALTO} />
         <Composition id="h026-mediodia-hora-corrida" component={MediodiaHoraCorrida3D} durationInFrames={DUR_026} fps={FPS_026} width={ANCHO} height={ALTO} />
         <Composition id="demo-hora-corrida" component={HoraCorrida3D} durationInFrames={DUR_DEMO_HORA} fps={FPS_DEMO_HORA} width={ANCHO} height={ALTO} />
         <Composition id="h023-perros-colores" component={PerrosColores023} durationInFrames={DUR_023} fps={FPS_023} width={ANCHO} height={ALTO} />
@@ -151,6 +155,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-018-storm-cooldown" component={PortadaEn018} width={ANCHO} height={ALTO} />
         <Composition id="hen-019-knuckle-crack" component={KnuckleCrackEn019} durationInFrames={DUR_EN019} fps={FPS_EN019} width={ANCHO} height={ALTO} />
         <Still id="pen-019-knuckle-crack" component={PortadaEn019} width={ANCHO} height={ALTO} />
+        <Composition id="hen-020-ac-sixty" component={AcSixtyEn020} durationInFrames={DUR_EN020} fps={FPS_EN020} width={ANCHO} height={ALTO} />
+        <Still id="pen-020-ac-sixty" component={PortadaEn020} width={ANCHO} height={ALTO} />
         <Composition id="hen-021-other-line" component={OtherLineEn021} durationInFrames={DUR_EN021} fps={FPS_EN021} width={ANCHO} height={ALTO} />
         <Still id="pen-021-other-line" component={PortadaEn021} width={ANCHO} height={ALTO} />
         <Composition id="hen-022-power-outage-fridge" component={PowerOutageEn022} durationInFrames={DUR_EN022} fps={FPS_EN022} width={ANCHO} height={ALTO} />

@@ -92,6 +92,10 @@
     "en-022-power-outage-fridge": [
       "cocina",
       8
+    ],
+    "en-020-ac-sixty": [
+      "casa",
+      4
     ]
   }
 }
