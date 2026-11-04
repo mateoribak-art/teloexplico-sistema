@@ -599,7 +599,7 @@
  {
   "slug": "014-celular-arroz",
   "tema": "El celular mojado se arregla en arroz: Apple dice que no",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -635,6 +635,11 @@
     "estado": "listo",
     "cuando": "2026-10-29T22:37",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-04T19:33",
+    "motivo": "https://www.instagram.com/reel/DfViXizDU90/"
    }
   ]
  },

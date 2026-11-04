@@ -655,7 +655,7 @@
  {
   "slug": "en-019-knuckle-crack",
   "tema": "Does cracking your knuckles cause arthritis? (deWeber 2011, Kawchuk 2015)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -676,6 +676,11 @@
     "estado": "listo",
     "cuando": "2026-11-03T23:26",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-04T19:35",
+    "motivo": "https://www.instagram.com/reel/DfVip1pCWyG/"
    }
   ]
  },
