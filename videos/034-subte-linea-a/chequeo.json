@@ -1,0 +1,72 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones tienen fuente. Las cifras y fechas (1913, 2013, Londres 1863, paseos) estan verificadas. Solo el origen del apodo 'Brujas' queda como probable y la frase ya lo presenta con 'segun cuentan' (guion y caption). No hay afirmaciones falsas ni de salud, seguridad o plata.",
+  "afirmaciones": [
+    {
+      "texto": "La linea A es la primera linea de subte de Latinoamerica.",
+      "fuente": "Billiken (La Linea A cumplio 110 anos); Canal 26 historia; Mapa-Metro: el subte porteno es el mas antiguo de America Latina y del hemisferio sur",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Se inauguro el primero de diciembre de 1913.",
+      "fuente": "Canal 26 (historia del subte), Billiken, Gobierno de la Ciudad (buenosaires.gob.ar); inauguracion de la Linea Anglo Argentina el 1/12/1913",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sus coches originales de madera siguieron andando casi cien anos, hasta 2013.",
+      "fuente": "Billiken (coches de madera circularon por cien anos); MDZ/Mapa-Metro: en servicio del 1/12/1913 a enero de 2013 (99 anos y poco, por eso 'casi')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Les dicen las Brujas.",
+      "fuente": "Gobierno de la Ciudad (buenosaires.gob.ar, noticias de paseos historicos 'en las Brujas'); C5N; MDZ",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Segun cuentan, el apodo viene de la ciudad belga donde se fabricaron (Brujas / Bruges, La Brugeoise).",
+      "fuente": "C5N y Canal 26 vinculan el apodo con la ciudad belga de Brujas y la firma La Brugeoise; ninguna fuente primaria documenta el origen exacto del apodo",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Eran coches de madera.",
+      "fuente": "Billiken (coches de madera de la Linea A); Gobierno de la Ciudad",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Hoy la linea tiene trenes nuevos.",
+      "fuente": "Billiken: el material rodante actual es de origen chino, reemplazo de los coches retirados en 2013",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La Ciudad organizo paseos para viajar otra vez en las Brujas.",
+      "fuente": "Gobierno de la Ciudad de Buenos Aires (buenosaires.gob.ar/gcaba_historico/noticias, paseos historicos 2021 a 2026, SBASE, Ley 4886)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "No es el subte mas viejo del mundo; el de Londres abrio en 1863.",
+      "fuente": "Wikipedia/Timeline of the London Underground, London Transport Museum, Science Museum Group, Guinness World Records: Metropolitan Railway abierto el 10/1/1863",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ese tunel tiene mas de cien anos.",
+      "fuente": "Inauguracion 1/12/1913 (Canal 26, Billiken, Gobierno de la Ciudad); 2026 - 1913 = 113 anos",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes: Billiken, Gobierno de la Ciudad de Buenos Aires (caption).",
+      "fuente": "Ambas existen y respaldan lo atribuido (billiken.lat; buenosaires.gob.ar)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

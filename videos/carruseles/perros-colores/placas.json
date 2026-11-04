@@ -1,0 +1,9 @@
+{"origen": ["023-perros-colores"], "serie": "ciencia cotidiana", "placas": [
+ {"tipo": "tapa", "arriba": "¿Los perros ven en blanco y negro?", "grande": "es un verso", "promesa": "deslizá y mirá"},
+ {"tipo": "paso", "etiqueta": "// por qué importa", "titulo": "Tu perro sí ve colores, solo que menos que vos", "cuerpo": "Ve menos colores que una persona, pero no ve todo gris. Así que la pelota importa.", "fuente": "ACVO"},
+ {"tipo": "paso", "etiqueta": "// vos", "titulo": "Los humanos tenemos tres tipos de conos", "dato": "tres", "colorDato": "azul", "cuerpo": "Los conos son las células de los ojos que detectan el color.", "fuente": "ACVO"},
+ {"tipo": "paso", "etiqueta": "// él", "titulo": "Los perros tienen dos tipos de conos", "dato": "dos", "colorDato": "rojo", "cuerpo": "Con esos dos conos ven azules y amarillos, según los oftalmólogos veterinarios de EE. UU.", "fuente": "ACVO"},
+ {"tipo": "paso", "etiqueta": "// lo que le cuesta", "titulo": "Distinguir el rojo del verde", "cuerpo": "Es parecido a lo que le pasa a una persona daltónica.", "fuente": "ACVO · VCA"},
+ {"tipo": "paso", "etiqueta": "// probalo hoy", "titulo": "Una pelota azul o amarilla en el pasto", "cuerpo": "Debería resultarle más fácil de ver que una roja. También influyen el movimiento y el olor.", "fuente": "AKC · VCA"},
+ {"tipo": "resumen", "titulo": "Cómo ve tu perro", "items": [[false, "Ve en blanco y negro"], [true, "Ve azules y amarillos"], [true, "Tiene dos tipos de conos"], [false, "Distingue rojo de verde"]]},
+ {"tipo": "cierre", "texto": "Mandáselo a ese que le compró a su perro la pelota roja.", "serie": "ciencia cotidiana"}]}

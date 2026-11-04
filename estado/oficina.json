@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T12:37",
+ "actualizado": "2026-11-04T15:39",
  "oficinas": [
   {
    "clave": "es",
@@ -7,8 +7,8 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 386,
-   "listos": 11,
-   "dias": 5.5,
+   "listos": 12,
+   "dias": 6.0,
    "proximo": "014-celular-arroz",
    "publicados": 23,
    "pausa": false,
@@ -101,19 +101,24 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-04T09:02",
-     "hace": "hace 3 h",
+     "cuando": "2026-11-04T15:06",
+     "hace": "hace 33 min",
      "detalle": [
-      "Uso: 20 pasos · 19,834 tokens nuevos · 822,979 de caché · 7,405 escritos · equivale a US$ 0.98 de API",
-      "2026-11-04 08:24 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
-      "Produje 1 video: `033-gracias-en-el-mate`, que queda en estado `render`. El render, el control y el paso a `listo` los hace `producir.py` al terminar mi turno.",
-      "- **033-gracias-en-el-mate** (costumbres #3, \"en la ronda de mate, gracias significa que no querés más\"): el primer chequeo lo rechazó por dos frases sin matiz, las corregí y el segundo lo aprobó. La voz salió con 141 de 141 palabras, pero ",
-      "- **Rescates:** ninguno, porque no había videos apartados por \"chequeo rechazado\". El `005-granizo-calor` sigue apartado por otro motivo (lo reemplazó el `024`).",
-      "- **Segundo video:** no lo produje, porque la cola ya tenía 11 listos.",
-      "Uso: 20 pasos · 19,834 tokens nuevos · 822,979 de caché · 7,405 escritos · equivale a US$ 0.98 de API",
-      "2026-11-04 08:34 Render de 033-gracias-en-el-mate (sin Claude).",
-      "2026-11-04 09:02 033-gracias-en-el-mate: listo (render sin Claude)",
-      "2026-11-04 09:02 Termina la producción (ok)."
+      "Uso: 35 pasos · 26,500 tokens nuevos · 1,431,038 de caché · 12,542 escritos · equivale a US$ 1.24 de API",
+      "2026-11-04 14:25 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
+      "- **Listo para render:** `034-subte-linea-a` (costumbres #4: la línea A, primera de Latinoamérica, inaugurada en 1913, con coches de madera hasta 2013). El chequeo rechazó la primera versión (materiales de los coches y origen del apodo \"Bru",
+      "- **Sin rescates:** 005-granizo-calor sigue apartado, pero no por chequeo rechazado (lo reemplazó el 024).",
+      "- **Segundo video no producido:** la cola tenía 11 listos, así que no se cumplía la condición de menos de 10. Gemini no se agotó. El radar no lo revisé: el último es del 3/11 y no cargué ninguno nuevo en esta corrida.",
+      "Uso: 35 pasos · 26,500 tokens nuevos · 1,431,038 de caché · 12,542 escritos · equivale a US$ 1.24 de API",
+      "2026-11-04 14:34 Render de 034-subte-linea-a (sin Claude).",
+      "2026-11-04 15:05 034-subte-linea-a: listo (render sin Claude)",
+      "2026-11-04 15:05 Termina la producción (ok).",
+      "2026-11-04 15:05 Arranca el carrusel (1 listos, meta 2).",
+      "`perros-colores`: quedó listo (8 placas, origen `023-perros-colores`, chequeo aprobado; lo publica `carrusel.yml` a las 16:00).",
+      "No pude confirmar que el reel tenga 2 días o más de publicado. Ni `meta.json` ni el log traen la fecha de publicación; en `tlx cola` figura como publicado. Lo elegí porque era el reel con más compartidos sin carrusel.",
+      "Escribí la línea en `videos/produccion.log` agregándola arriba de todo, no al final. Esto lo hice con Edit porque las reglas de la corrida no permiten redirecciones.",
+      "Uso: 26 pasos · 22,108 tokens nuevos · 419,750 de caché · 4,292 escritos · equivale a US$ 0.17 de API",
+      "2026-11-04 15:06 Termina el carrusel (ok; quedan 2 listos)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -161,7 +166,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y clima de la semana): solo resultados de julio 2026 o de noviembre 2025 (días de la semana que no coinciden), na",
      "cuando": "2026-11-03T17:14",
-     "hace": "hace 19 h",
+     "hace": "hace 22 h",
      "detalle": [
       "30/10 00:00 | Revisión radar. Sin resultados fechados de hoy; no se produce video de actualidad.",
       "02/11 00:00 | Revisión radar. Búsqueda web (alertas SMN hoy): nada fechado de hoy (lo más reciente es de julio 2026). Sin tema de actualidad verificable; sigue la cola normal. Segunda pasada: descartados (a) tormentas/granizo de inicio de noviembre (Meteored sin año verificable; granizo ya tiene 005 y 024), (b) ola de calor de fines de octubre (sin fuente fechada de hoy, y calor/sensación térmica ya cubiertos en 019).",
@@ -194,17 +199,17 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-04T12:32",
-     "hace": "hace 5 min",
+     "cuando": "2026-11-04T15:05",
+     "hace": "hace 34 min",
      "detalle": [
-      "026-mediodia-hora-corrida: aprobado — Tercera pasada (técnico): se quitaron del caption y del guion las atribuciones no verificables (Instituto Geográfico Nacional, Servicio de H",
       "027-bondi-de-brasil: aprobado — Segundo chequeo. Se sacó la cifra 1883 y 'bond = bono', y lo que quedó está respaldado y matizado. La entrada DHLE (https://www.rae.es/dhle/",
       "028-yerba-por-ano: aprobado — Segundo chequeo con búsqueda web. Las dos cifras del guion y del caption coinciden con sus fuentes: Informe Yerba Mate de la Secretaría de A",
       "029-cataratas-por-segundo: aprobado — Segunda pasada: todas las cifras (caudal normal ~1.500 m3/s atribuido a autoridades del Parque, pileta olímpica 50x25x2 m = 2.500 m3, cuenta",
       "030-fila-del-super: aprobado — Tercera pasada (técnico): se reemplazó la frase 7 (consejo del carrito lleno, sin respaldo) por un cierre sobre el sesgo de memoria, ya resp",
       "031-murcielago-ciego: aprobado — Todas las afirmaciones quedan verificadas contra las fuentes citadas, y esas fuentes respaldan lo que se les atribuye: Smithsonian (si.edu/s",
       "032-pelo-mojado-resfrio: aprobado — Todas las afirmaciones de salud y cifras quedaron verificadas contra fuente primaria (resumen de Johnson y Eccles en Family Practice 2005;22",
-      "033-gracias-en-el-mate: aprobado — Todas las afirmaciones fácticas tienen respaldo en fuente primaria o institucional: la nota 'Mate Day' de argentina.travel dice textualmente"
+      "033-gracias-en-el-mate: aprobado — Todas las afirmaciones fácticas tienen respaldo en fuente primaria o institucional: la nota 'Mate Day' de argentina.travel dice textualmente",
+      "034-subte-linea-a: aprobado — Todas las afirmaciones tienen fuente. Las cifras y fechas (1913, 2013, Londres 1863, paseos) estan verificadas. Solo el origen del apodo 'Br"
      ],
      "tareas": [],
      "arreglo": null,
@@ -227,8 +232,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-04T12:32",
-     "hace": "hace 5 min",
+     "cuando": "2026-11-04T15:05",
+     "hace": "hace 34 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -250,14 +255,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-04 12:32.",
-     "cuando": "2026-11-04T12:32",
-     "hace": "hace 5 min",
+     "resumen": "Último video terminado: 2026-11-04 15:05.",
+     "cuando": "2026-11-04T15:05",
+     "hace": "hace 34 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "bf4117e013e1"
+     "firma": "d749188d0b37"
     },
     {
      "id": "control",
@@ -274,14 +279,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "11 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-04T12:32",
-     "hace": "hace 5 min",
+     "resumen": "12 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-04T15:05",
+     "hace": "hace 34 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "6b8128fa726c"
+     "firma": "7db9ff85dd57"
     },
     {
      "id": "publicador",
@@ -300,7 +305,7 @@
      "estado": "ok",
      "resumen": "Último: 013-alcohol-calor.",
      "cuando": "2026-11-04T12:35",
-     "hace": "hace 2 min",
+     "hace": "hace 3 h",
      "detalle": [
       "03/11 19:32 023-perros-colores publicado: https://www.instagram.com/reel/DfS9jQbgQtk/",
       "03/11 19:33 023-perros-colores publicado en Facebook: https://www.facebook.com/reel/916768048166934/",
@@ -337,7 +342,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-04T12:35",
-     "hace": "hace 2 min",
+     "hace": "hace 3 h",
      "detalle": [
       "03/11 12:34 010-rayo-mismo-lugar https://youtube.com/shorts/NNFjNo8lKeE | privacidad: public",
       "03/11 12:34 010-rayo-mismo-lugar paquete para TikTok/YouTube enviado",
@@ -367,23 +372,24 @@
       "inputs": {}
      },
      "estado": "ok",
-     "resumen": "1 listo(s) para las 16:00.",
-     "cuando": "2026-11-03T23:06",
-     "hace": "hace 13 h",
+     "resumen": "2 listo(s) para las 16:00.",
+     "cuando": "2026-11-04T15:06",
+     "hace": "hace 33 min",
      "detalle": [
-      "2026-11-02 17:43 descongelar-mesada: listo control OK",
       "2026-11-02 22:25 descongelar-mesada: publicado https://www.instagram.com/p/DfQsmHwGg9e/",
       "2026-11-03 09:52 refresca-tormenta: apartado grande demasiado largo (17 > 14): \"lo trae la lluvia…\"",
       "2026-11-03 09:53 refresca-tormenta: listo control OK",
       "2026-11-03 20:46 refresca-tormenta: publicado https://www.instagram.com/p/DfTGGAbDttM/",
-      "2026-11-03 23:06 ventilador-pieza-vacia: listo control OK"
+      "2026-11-03 23:06 ventilador-pieza-vacia: listo control OK",
+      "2026-11-04 15:06 perros-colores: listo control OK"
      ],
      "tareas": [
-      "ventilador-pieza-vacia"
+      "ventilador-pieza-vacia",
+      "perros-colores"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "10b66f0c49b3"
+     "firma": "6791e873e9cc"
     },
     {
      "id": "comentarios",
@@ -402,7 +408,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:15",
-     "hace": "hace 39 h",
+     "hace": "hace 42 h",
      "detalle": [
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
       "02/11 04:22 Hay 12 comentarios nuevos: arranca la respuesta.",
@@ -441,7 +447,7 @@
      "estado": "ok",
      "resumen": "04/11: 386 seguidores",
      "cuando": "2026-11-04T03:04",
-     "hace": "hace 9 h",
+     "hace": "hace 12 h",
      "detalle": [
       "01/11: 341 seguidores",
       "02/11: 354 seguidores",
@@ -474,7 +480,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-04T12:37",
+     "cuando": "2026-11-04T15:39",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -514,8 +520,8 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 3,
-   "listos": 2,
-   "dias": 1.0,
+   "listos": 3,
+   "dias": 1.5,
    "proximo": "en-019-knuckle-crack",
    "publicados": 17,
    "pausa": false,
@@ -560,6 +566,13 @@
      "tema": "Why does the other checkout line always seem faster? (adapted from 030)",
      "estado": "listo",
      "cuando": "2026-11-04T09:28",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "en-022-ears-pop",
+     "tema": "Why do your ears pop on a plane?",
+     "estado": "listo",
+     "cuando": "2026-11-04T15:39",
      "motivo": "render sin Claude"
     },
     {
@@ -608,19 +621,19 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-04T09:28",
-     "hace": "hace 3 h",
+     "cuando": "2026-11-04T15:39",
+     "hace": "recién",
      "detalle": [
-      "Uso: 2 pasos · 2,426 tokens nuevos · 195,959 de caché · 352 escritos · equivale a US$ 1.60 de API",
-      "2026-11-04 09:02 Arranca la producción (2 listos en la cola, meta 6).",
-      "Corrida terminada y el loop detenido; no queda nada pendiente.",
-      "- **Listo:** `en-021-other-line` (adaptado de 030-fila-del-super, serie Everyday math #2) está en estado `render`. El chequeo lo aprobó en el segundo intento y la voz está generada. `tlx tsc` pasa y los cuadros se ven bien. Lo renderiza `pr",
-      "- **Apartado:** `en-020-ac-sixty` (el aire en 60 °F). El chequeo lo rechazó dos veces porque la cita del DOE no se pudo verificar en la fuente primaria y es un tema de plata. No tiene voz ni render.",
-      "- **Incompleto:** nada. `en-012-thunder-count` sigue apartado por la voz, no por el chequeo, así que no se rescató.",
-      "Uso: 2 pasos · 2,426 tokens nuevos · 195,959 de caché · 352 escritos · equivale a US$ 1.60 de API",
-      "2026-11-04 09:12 Render de en-021-other-line (sin Claude).",
-      "2026-11-04 09:28 en-021-other-line: listo (render sin Claude)",
-      "2026-11-04 09:28 Termina la producción (ok)."
+      "Uso: 22 pasos · 18,744 tokens nuevos · 892,842 de caché · 8,626 escritos · equivale a US$ 0.95 de API",
+      "2026-11-04 15:06 Arranca la producción (2 listos en la cola, meta 6).",
+      "Resumen:",
+      "- **Listo para render:** `en-022-ears-pop` (por qué se tapan los oídos en un avión, serie ciencia). El chequeo aprobó todo en el primer intento y la voz salió 140/140 palabras, 43 s. Está en estado `render`, con el 3D nuevo `Oido.tsx`; lo r",
+      "- **No se pudieron rescatar:** `en-020-ac-sixty` ya había fallado el chequeo dos veces: la cita del DOE no se pudo verificar y es tema de plata. `en-012-thunder-count` quedó apartado por la voz, no por el chequeo, así que no aplica el resca",
+      "- **Tema descartado:** cargadores enchufados, porque no conseguí una cifra del DOE que se pueda leer y es tema de plata. Queda sin marcar en `ideas.md`.",
+      "Uso: 22 pasos · 18,744 tokens nuevos · 892,842 de caché · 8,626 escritos · equivale a US$ 0.95 de API",
+      "2026-11-04 15:13 Render de en-022-ears-pop (sin Claude).",
+      "2026-11-04 15:39 en-022-ears-pop: listo (render sin Claude)",
+      "2026-11-04 15:39 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -644,7 +657,7 @@
      "estado": "ok",
      "resumen": "Séptima pasada del radar: la búsqueda web solo devolvió páginas de AccuWeather sin fecha clara y notas de 2025; nada verificable de las últimas 48 h. Descartado",
      "cuando": "2026-11-03T17:14",
-     "hace": "hace 19 h",
+     "hace": "hace 22 h",
      "detalle": [
       "30/10 00:00 Quinta pasada del radar: la búsqueda web no devolvió nada verificable de las últimas 48 h (solo notas viejas, blogs sin fecha y una página del NWS de Fort Worth del 23/10 con clima tranquilo). Descartados: (1) clima del fin de semana: sin alerta nacional ni fuente oficial del día; (2) cambio de hora (domingo 1/11): ya publicado (en-002); (3) Halloween: ya cubierto (en-004). Sin tema nuevo.",
       "02/11 00:00 Sexta pasada del radar: la búsqueda web no devolvió clima ni tendencias verificables de las últimas 48 h (solo blogs sin fecha y notas viejas). Descartados: (1) cambio de hora (terminó el 1/11): ya publicado (en-002), el momento pasó; (2) clima de la semana: sin alerta nacional ni fuente oficial del día; (3) Sunshine Protection Act: es política, descartado. Sin tema nuevo.",
@@ -673,17 +686,17 @@
      },
      "estado": "aviso",
      "resumen": "Frenó 1 video(s): en-020-ac-sixty.",
-     "cuando": "2026-11-04T12:36",
-     "hace": "hace 1 min",
+     "cuando": "2026-11-04T15:39",
+     "hace": "recién",
      "detalle": [
-      "en-014-birthday-pairs: aprobado — Todas las cifras (23 personas 50,7%; 40 personas 89,1%; 70 personas 99,9%; 253 pares) coinciden con Wikipedia 'Birthday problem' y MathWorld",
       "en-015-rain-smell: aprobado — Ninguna afirmacion es falsa ni dudosa. Las de mecanismo, fecha, autores y MIT estan verificadas con fuente primaria o institucional (CSIRO, ",
       "en-016-too-cold-snow: aprobado — Todas las afirmaciones salen de la FAQ de NOAA NSSL (verificada con fetch directo) y coinciden con NWS Central Region 'Myth Buster Monday' (",
       "en-017-heat-head: aprobado — Version actual revisada de nuevo con busqueda web. La cita ahora es la correcta (Vreeman & Carroll, 'Festive medical myths', BMJ 2008;337:a2",
       "en-018-storm-cooldown: aprobado — Todas las afirmaciones fácticas coinciden con páginas de NWS (Binghamton 'Weather in Action: Downburst', glosario NWS de outflow boundary, p",
       "en-019-knuckle-crack: aprobado — Cifras y unidades coinciden con las fuentes primarias: deWeber 2011 (JABFM 24(2):169-174, https://www.jabfm.org/content/24/2/169) tuvo 215 r",
       "en-020-ac-sixty: rechazado — Se corrigieron los puntos del primer rechazo (ya no hay 'most home systems', ni absolutos, ni 78 F; la frase 4 quedo acotada a 'a basic air ",
-      "en-021-other-line: aprobado — Segundo chequeo con busqueda web. El unico bloqueo del primero (caption linea 1) esta resuelto: 'Your brain probably makes it feel that way'"
+      "en-021-other-line: aprobado — Segundo chequeo con busqueda web. El unico bloqueo del primero (caption linea 1) esta resuelto: 'Your brain probably makes it feel that way'",
+      "en-022-ears-pop: aprobado — Todas las afirmaciones de salud/seguridad quedan verificadas con fuentes de EE. UU. (Cleveland Clinic, MedlinePlus/NIH, FAA, PMC/NIH). No ha"
      ],
      "tareas": [
       "en-020-ac-sixty: chequeo rechazado 2 veces: cita del DOE solo probable (fuente primaria no legible), tema de plata"
@@ -708,8 +721,8 @@
      },
      "estado": "aviso",
      "resumen": "La voz no coincidió con el guion en en-012-thunder-count.",
-     "cuando": "2026-11-04T12:36",
-     "hace": "hace 1 min",
+     "cuando": "2026-11-04T15:39",
+     "hace": "recién",
      "detalle": [],
      "tareas": [
       "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go "
@@ -734,8 +747,8 @@
      },
      "estado": "falla",
      "resumen": "Falló el render de en-012-thunder-count.",
-     "cuando": "2026-11-04T12:36",
-     "hace": "hace 1 min",
+     "cuando": "2026-11-04T15:39",
+     "hace": "recién",
      "detalle": [],
      "tareas": [
       "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste"
@@ -759,14 +772,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "2 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-04T12:36",
-     "hace": "hace 1 min",
+     "resumen": "3 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-04T15:39",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "e22b4a017672"
+     "firma": "f0cac96dce67"
     },
     {
      "id": "publicador",
@@ -785,7 +798,7 @@
      "estado": "ok",
      "resumen": "Último: en-018-storm-cooldown.",
      "cuando": "2026-11-04T12:37",
-     "hace": "recién",
+     "hace": "hace 3 h",
      "detalle": [
       "03/11 12:36 en-015-rain-smell en la bandeja de TikTok",
       "03/11 12:36 en-015-rain-smell paquete para TikTok/YouTube enviado",
@@ -822,7 +835,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-04T12:37",
-     "hace": "recién",
+     "hace": "hace 3 h",
      "detalle": [
       "02/11 19:36 en-014-birthday-pairs en la bandeja de TikTok",
       "02/11 19:36 en-014-birthday-pairs paquete para TikTok/YouTube enviado",
@@ -857,7 +870,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:16",
-     "hace": "hace 39 h",
+     "hace": "hace 42 h",
      "detalle": [
       "01/11 18:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
@@ -892,7 +905,7 @@
      "estado": "ok",
      "resumen": "04/11: 3 seguidores",
      "cuando": "2026-11-04T03:04",
-     "hace": "hace 9 h",
+     "hace": "hace 12 h",
      "detalle": [
       "01/11: 2 seguidores",
       "02/11: 3 seguidores",
@@ -924,17 +937,16 @@
       }
      },
      "estado": "aviso",
-     "resumen": "Quedan 2 videos listos: alcanza para 1 día(s).",
-     "cuando": "2026-11-04T12:37",
+     "resumen": "Video apartado: en-020-ac-sixty — chequeo rechazado 2 veces: cita del DOE solo probable (fuente primaria no legible), tema de plata",
+     "cuando": "2026-11-04T15:39",
      "hace": "recién",
      "detalle": [
-      "⚠️ Quedan 2 videos listos: alcanza para 1 día(s).",
       "⚠️ Video apartado: en-020-ac-sixty — chequeo rechazado 2 veces: cita del DOE solo probable (fuente primaria no legible), tema de plata"
      ],
      "tareas": [],
      "arreglo": null,
      "solo": true,
-     "firma": "c7e4a58c48cc"
+     "firma": "aed4f5225a94"
     }
    ]
   }

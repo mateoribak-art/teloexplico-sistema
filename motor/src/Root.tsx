@@ -40,6 +40,7 @@ import { DURACION as DUR_031, FPS as FPS_031, MurcielagoCiego3D, Portada031 } fr
 import { DURACION as DUR_013, FPS as FPS_013, AlcoholCalor3D, Portada013 } from "./videos/013-alcohol-calor/Video";
 import { DURACION as DUR_032, FPS as FPS_032, PeloMojado3D, Portada032 } from "./videos/032-pelo-mojado-resfrio/Video";
 import { DURACION as DUR_033, FPS as FPS_033, GraciasMate3D, Portada033 } from "./videos/033-gracias-en-el-mate/Video";
+import { DURACION as DUR_034, FPS as FPS_034, SubteLineaA3D, Portada034 } from "./videos/034-subte-linea-a/Video";
 import { DURACION as DUR_023, FPS as FPS_023, PerrosColores023, Portada023 } from "./videos/023-perros-colores/Video";
 import { DURACION as DUR_024, FPS as FPS_024, GranizoCorto024, Portada024 } from "./videos/024-granizo-corto/Video";
 import { DURACION as DUR_011, FPS as FPS_011, SalAgua011, Portada011 } from "./videos/011-sal-agua-hierve/Video";
@@ -63,6 +64,7 @@ import { DURACION as DUR_EN017, FPS as FPS_EN017, HeatHeadEn017, PortadaEn017 } 
 import { DURACION as DUR_EN018, FPS as FPS_EN018, StormCooldownEn018, PortadaEn018 } from "./videos/en-018-storm-cooldown/Video";
 import { DURACION as DUR_EN019, FPS as FPS_EN019, KnuckleCrackEn019, PortadaEn019 } from "./videos/en-019-knuckle-crack/Video";
 import { DURACION as DUR_EN021, FPS as FPS_EN021, OtherLineEn021, PortadaEn021 } from "./videos/en-021-other-line/Video";
+import { DURACION as DUR_EN022, FPS as FPS_EN022, EarsPopEn022, PortadaEn022 } from "./videos/en-022-ears-pop/Video";
 import { DURACION as DUR_EN001,FPS as FPS_EN001, PhoneRiceEn001, PortadaEn001 } from "./videos/en-001-phone-rice/Video";
 
 // Cada video nuevo suma su <Composition> (id "hNNN-slug") y su <Still> de portada (id "pNNN-slug").
@@ -102,6 +104,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p032-pelo-mojado-resfrio" component={Portada032} width={ANCHO} height={ALTO} />
         <Composition id="h033-gracias-en-el-mate" component={GraciasMate3D} durationInFrames={DUR_033} fps={FPS_033} width={ANCHO} height={ALTO} />
         <Still id="p033-gracias-en-el-mate" component={Portada033} width={ANCHO} height={ALTO} />
+        <Composition id="h034-subte-linea-a" component={SubteLineaA3D} durationInFrames={DUR_034} fps={FPS_034} width={ANCHO} height={ALTO} />
+        <Still id="p034-subte-linea-a" component={Portada034} width={ANCHO} height={ALTO} />
         <Composition id="h026-mediodia-hora-corrida" component={MediodiaHoraCorrida3D} durationInFrames={DUR_026} fps={FPS_026} width={ANCHO} height={ALTO} />
         <Composition id="demo-hora-corrida" component={HoraCorrida3D} durationInFrames={DUR_DEMO_HORA} fps={FPS_DEMO_HORA} width={ANCHO} height={ALTO} />
         <Composition id="h023-perros-colores" component={PerrosColores023} durationInFrames={DUR_023} fps={FPS_023} width={ANCHO} height={ALTO} />
@@ -149,6 +153,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-019-knuckle-crack" component={PortadaEn019} width={ANCHO} height={ALTO} />
         <Composition id="hen-021-other-line" component={OtherLineEn021} durationInFrames={DUR_EN021} fps={FPS_EN021} width={ANCHO} height={ALTO} />
         <Still id="pen-021-other-line" component={PortadaEn021} width={ANCHO} height={ALTO} />
+        <Composition id="hen-022-ears-pop" component={EarsPopEn022} durationInFrames={DUR_EN022} fps={FPS_EN022} width={ANCHO} height={ALTO} />
+        <Still id="pen-022-ears-pop" component={PortadaEn022} width={ANCHO} height={ALTO} />
       </Folder>
       <Folder name="carruseles">
         <Still id="carrusel" component={CarruselPlaca} width={ANCHO_C} height={ALTO_C} defaultProps={{ datos: { origen: [], placas: [{ tipo: "cierre", texto: "placa de prueba" }] }, i: 0 }} />

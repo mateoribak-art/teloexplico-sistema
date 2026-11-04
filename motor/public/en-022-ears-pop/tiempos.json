@@ -1,0 +1,761 @@
+{
+ "duracion": 42.56,
+ "frases": [
+  {
+   "texto": "Your ears don't pop because of the height. They pop because of trapped air.",
+   "palabras": [
+    {
+     "texto": "Your",
+     "inicio": 0.0,
+     "fin": 0.12
+    },
+    {
+     "texto": "ears",
+     "inicio": 0.12,
+     "fin": 0.38
+    },
+    {
+     "texto": "don't",
+     "inicio": 0.38,
+     "fin": 0.68
+    },
+    {
+     "texto": "pop",
+     "inicio": 0.68,
+     "fin": 1.1
+    },
+    {
+     "texto": "because",
+     "inicio": 1.1,
+     "fin": 1.42
+    },
+    {
+     "texto": "of",
+     "inicio": 1.42,
+     "fin": 1.6
+    },
+    {
+     "texto": "the",
+     "inicio": 1.6,
+     "fin": 1.7
+    },
+    {
+     "texto": "height.",
+     "inicio": 1.7,
+     "fin": 1.94
+    },
+    {
+     "texto": "They",
+     "inicio": 2.28,
+     "fin": 2.54
+    },
+    {
+     "texto": "pop",
+     "inicio": 2.54,
+     "fin": 2.92
+    },
+    {
+     "texto": "because",
+     "inicio": 2.92,
+     "fin": 3.42
+    },
+    {
+     "texto": "of",
+     "inicio": 3.42,
+     "fin": 3.58
+    },
+    {
+     "texto": "trapped",
+     "inicio": 3.58,
+     "fin": 4.0
+    },
+    {
+     "texto": "air.",
+     "inicio": 4.0,
+     "fin": 4.36
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.36
+  },
+  {
+   "texto": "Behind each eardrum there's a small pocket of air, linked to the back of your nose by a narrow channel called the eustachian tube.",
+   "palabras": [
+    {
+     "texto": "Behind",
+     "inicio": 4.96,
+     "fin": 5.16
+    },
+    {
+     "texto": "each",
+     "inicio": 5.16,
+     "fin": 5.38
+    },
+    {
+     "texto": "eardrum",
+     "inicio": 5.38,
+     "fin": 5.78
+    },
+    {
+     "texto": "there's",
+     "inicio": 5.78,
+     "fin": 6.2
+    },
+    {
+     "texto": "a",
+     "inicio": 6.2,
+     "fin": 6.32
+    },
+    {
+     "texto": "small",
+     "inicio": 6.32,
+     "fin": 6.6
+    },
+    {
+     "texto": "pocket",
+     "inicio": 6.6,
+     "fin": 6.98
+    },
+    {
+     "texto": "of",
+     "inicio": 6.98,
+     "fin": 7.1
+    },
+    {
+     "texto": "air,",
+     "inicio": 7.1,
+     "fin": 7.28
+    },
+    {
+     "texto": "linked",
+     "inicio": 7.54,
+     "fin": 7.8
+    },
+    {
+     "texto": "to",
+     "inicio": 7.8,
+     "fin": 7.98
+    },
+    {
+     "texto": "the",
+     "inicio": 7.98,
+     "fin": 8.02
+    },
+    {
+     "texto": "back",
+     "inicio": 8.02,
+     "fin": 8.18
+    },
+    {
+     "texto": "of",
+     "inicio": 8.18,
+     "fin": 8.32
+    },
+    {
+     "texto": "your",
+     "inicio": 8.32,
+     "fin": 8.44
+    },
+    {
+     "texto": "nose",
+     "inicio": 8.44,
+     "fin": 8.82
+    },
+    {
+     "texto": "by",
+     "inicio": 8.82,
+     "fin": 9.14
+    },
+    {
+     "texto": "a",
+     "inicio": 9.14,
+     "fin": 9.3
+    },
+    {
+     "texto": "narrow",
+     "inicio": 9.3,
+     "fin": 9.54
+    },
+    {
+     "texto": "channel",
+     "inicio": 9.54,
+     "fin": 9.92
+    },
+    {
+     "texto": "called",
+     "inicio": 9.92,
+     "fin": 10.24
+    },
+    {
+     "texto": "the",
+     "inicio": 10.24,
+     "fin": 10.48
+    },
+    {
+     "texto": "eustachian",
+     "inicio": 10.48,
+     "fin": 11.1
+    },
+    {
+     "texto": "tube.",
+     "inicio": 11.1,
+     "fin": 11.34
+    }
+   ],
+   "inicio": 4.96,
+   "fin": 11.34
+  },
+  {
+   "texto": "When the plane climbs, the pressure outside drops, and the extra air behind your eardrum squeezes out through that tube. That's the pop.",
+   "palabras": [
+    {
+     "texto": "When",
+     "inicio": 11.84,
+     "fin": 12.0
+    },
+    {
+     "texto": "the",
+     "inicio": 12.0,
+     "fin": 12.1
+    },
+    {
+     "texto": "plane",
+     "inicio": 12.1,
+     "fin": 12.3
+    },
+    {
+     "texto": "climbs,",
+     "inicio": 12.3,
+     "fin": 12.62
+    },
+    {
+     "texto": "the",
+     "inicio": 12.96,
+     "fin": 13.08
+    },
+    {
+     "texto": "pressure",
+     "inicio": 13.08,
+     "fin": 13.36
+    },
+    {
+     "texto": "outside",
+     "inicio": 13.36,
+     "fin": 13.7
+    },
+    {
+     "texto": "drops,",
+     "inicio": 13.7,
+     "fin": 14.2
+    },
+    {
+     "texto": "and",
+     "inicio": 14.5,
+     "fin": 14.74
+    },
+    {
+     "texto": "the",
+     "inicio": 14.74,
+     "fin": 14.82
+    },
+    {
+     "texto": "extra",
+     "inicio": 14.82,
+     "fin": 15.16
+    },
+    {
+     "texto": "air",
+     "inicio": 15.16,
+     "fin": 15.44
+    },
+    {
+     "texto": "behind",
+     "inicio": 15.44,
+     "fin": 15.7
+    },
+    {
+     "texto": "your",
+     "inicio": 15.7,
+     "fin": 15.9
+    },
+    {
+     "texto": "eardrum",
+     "inicio": 15.9,
+     "fin": 16.38
+    },
+    {
+     "texto": "squeezes",
+     "inicio": 16.38,
+     "fin": 17.06
+    },
+    {
+     "texto": "out",
+     "inicio": 17.06,
+     "fin": 17.24
+    },
+    {
+     "texto": "through",
+     "inicio": 17.24,
+     "fin": 17.42
+    },
+    {
+     "texto": "that",
+     "inicio": 17.42,
+     "fin": 17.6
+    },
+    {
+     "texto": "tube.",
+     "inicio": 17.6,
+     "fin": 17.86
+    },
+    {
+     "texto": "That's",
+     "inicio": 18.3,
+     "fin": 18.56
+    },
+    {
+     "texto": "the",
+     "inicio": 18.56,
+     "fin": 18.64
+    },
+    {
+     "texto": "pop.",
+     "inicio": 18.64,
+     "fin": 18.8
+    }
+   ],
+   "inicio": 11.84,
+   "fin": 18.8
+  },
+  {
+   "texto": "On the way down it's the opposite. The tube can get squeezed shut, and that's when your ears feel clogged or hurt.",
+   "palabras": [
+    {
+     "texto": "On",
+     "inicio": 19.24,
+     "fin": 19.36
+    },
+    {
+     "texto": "the",
+     "inicio": 19.36,
+     "fin": 19.44
+    },
+    {
+     "texto": "way",
+     "inicio": 19.44,
+     "fin": 19.54
+    },
+    {
+     "texto": "down",
+     "inicio": 19.54,
+     "fin": 19.74
+    },
+    {
+     "texto": "it's",
+     "inicio": 19.74,
+     "fin": 19.88
+    },
+    {
+     "texto": "the",
+     "inicio": 19.88,
+     "fin": 19.96
+    },
+    {
+     "texto": "opposite.",
+     "inicio": 19.96,
+     "fin": 20.22
+    },
+    {
+     "texto": "The",
+     "inicio": 20.6,
+     "fin": 20.72
+    },
+    {
+     "texto": "tube",
+     "inicio": 20.72,
+     "fin": 20.96
+    },
+    {
+     "texto": "can",
+     "inicio": 20.96,
+     "fin": 21.12
+    },
+    {
+     "texto": "get",
+     "inicio": 21.12,
+     "fin": 21.26
+    },
+    {
+     "texto": "squeezed",
+     "inicio": 21.26,
+     "fin": 21.52
+    },
+    {
+     "texto": "shut,",
+     "inicio": 21.52,
+     "fin": 21.96
+    },
+    {
+     "texto": "and",
+     "inicio": 22.24,
+     "fin": 22.46
+    },
+    {
+     "texto": "that's",
+     "inicio": 22.46,
+     "fin": 22.76
+    },
+    {
+     "texto": "when",
+     "inicio": 22.76,
+     "fin": 22.9
+    },
+    {
+     "texto": "your",
+     "inicio": 22.9,
+     "fin": 23.02
+    },
+    {
+     "texto": "ears",
+     "inicio": 23.02,
+     "fin": 23.3
+    },
+    {
+     "texto": "feel",
+     "inicio": 23.3,
+     "fin": 23.5
+    },
+    {
+     "texto": "clogged",
+     "inicio": 23.5,
+     "fin": 24.14
+    },
+    {
+     "texto": "or",
+     "inicio": 24.14,
+     "fin": 24.22
+    },
+    {
+     "texto": "hurt.",
+     "inicio": 24.22,
+     "fin": 24.54
+    }
+   ],
+   "inicio": 19.24,
+   "fin": 24.54
+  },
+  {
+   "texto": "The Cleveland Clinic says to swallow, yawn, or chew gum during takeoff and landing, because that helps open the tube.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 25.04,
+     "fin": 25.14
+    },
+    {
+     "texto": "Cleveland",
+     "inicio": 25.14,
+     "fin": 25.38
+    },
+    {
+     "texto": "Clinic",
+     "inicio": 25.38,
+     "fin": 25.72
+    },
+    {
+     "texto": "says",
+     "inicio": 25.72,
+     "fin": 26.1
+    },
+    {
+     "texto": "to",
+     "inicio": 26.1,
+     "fin": 26.32
+    },
+    {
+     "texto": "swallow,",
+     "inicio": 26.32,
+     "fin": 26.6
+    },
+    {
+     "texto": "yawn,",
+     "inicio": 27.1,
+     "fin": 27.48
+    },
+    {
+     "texto": "or",
+     "inicio": 27.54,
+     "fin": 27.62
+    },
+    {
+     "texto": "chew",
+     "inicio": 27.62,
+     "fin": 27.98
+    },
+    {
+     "texto": "gum",
+     "inicio": 27.98,
+     "fin": 28.26
+    },
+    {
+     "texto": "during",
+     "inicio": 28.26,
+     "fin": 28.48
+    },
+    {
+     "texto": "takeoff",
+     "inicio": 28.48,
+     "fin": 28.92
+    },
+    {
+     "texto": "and",
+     "inicio": 28.92,
+     "fin": 29.02
+    },
+    {
+     "texto": "landing,",
+     "inicio": 29.02,
+     "fin": 29.34
+    },
+    {
+     "texto": "because",
+     "inicio": 29.68,
+     "fin": 29.86
+    },
+    {
+     "texto": "that",
+     "inicio": 29.86,
+     "fin": 30.18
+    },
+    {
+     "texto": "helps",
+     "inicio": 30.18,
+     "fin": 30.44
+    },
+    {
+     "texto": "open",
+     "inicio": 30.44,
+     "fin": 30.8
+    },
+    {
+     "texto": "the",
+     "inicio": 30.8,
+     "fin": 30.96
+    },
+    {
+     "texto": "tube.",
+     "inicio": 30.96,
+     "fin": 31.22
+    }
+   ],
+   "inicio": 25.04,
+   "fin": 31.22
+  },
+  {
+   "texto": "Heads up: with a cold or a stuffy nose, the tube can swell, so it gets harder to open.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 31.64,
+     "fin": 31.92
+    },
+    {
+     "texto": "up:",
+     "inicio": 31.92,
+     "fin": 32.08
+    },
+    {
+     "texto": "with",
+     "inicio": 32.3,
+     "fin": 32.46
+    },
+    {
+     "texto": "a",
+     "inicio": 32.46,
+     "fin": 32.56
+    },
+    {
+     "texto": "cold",
+     "inicio": 32.56,
+     "fin": 32.8
+    },
+    {
+     "texto": "or",
+     "inicio": 32.8,
+     "fin": 32.96
+    },
+    {
+     "texto": "a",
+     "inicio": 32.96,
+     "fin": 33.06
+    },
+    {
+     "texto": "stuffy",
+     "inicio": 33.06,
+     "fin": 33.34
+    },
+    {
+     "texto": "nose,",
+     "inicio": 33.34,
+     "fin": 33.56
+    },
+    {
+     "texto": "the",
+     "inicio": 33.8,
+     "fin": 33.88
+    },
+    {
+     "texto": "tube",
+     "inicio": 33.88,
+     "fin": 34.1
+    },
+    {
+     "texto": "can",
+     "inicio": 34.1,
+     "fin": 34.24
+    },
+    {
+     "texto": "swell,",
+     "inicio": 34.24,
+     "fin": 34.54
+    },
+    {
+     "texto": "so",
+     "inicio": 34.98,
+     "fin": 35.1
+    },
+    {
+     "texto": "it",
+     "inicio": 35.1,
+     "fin": 35.38
+    },
+    {
+     "texto": "gets",
+     "inicio": 35.38,
+     "fin": 35.5
+    },
+    {
+     "texto": "harder",
+     "inicio": 35.5,
+     "fin": 35.7
+    },
+    {
+     "texto": "to",
+     "inicio": 35.7,
+     "fin": 35.88
+    },
+    {
+     "texto": "open.",
+     "inicio": 35.88,
+     "fin": 36.1
+    }
+   ],
+   "inicio": 31.64,
+   "fin": 36.1
+  },
+  {
+   "texto": "So next flight, start chewing before the descent.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 36.56,
+     "fin": 36.88
+    },
+    {
+     "texto": "next",
+     "inicio": 36.88,
+     "fin": 37.3
+    },
+    {
+     "texto": "flight,",
+     "inicio": 37.3,
+     "fin": 37.62
+    },
+    {
+     "texto": "start",
+     "inicio": 37.84,
+     "fin": 38.02
+    },
+    {
+     "texto": "chewing",
+     "inicio": 38.02,
+     "fin": 38.32
+    },
+    {
+     "texto": "before",
+     "inicio": 38.32,
+     "fin": 38.86
+    },
+    {
+     "texto": "the",
+     "inicio": 38.86,
+     "fin": 39.24
+    },
+    {
+     "texto": "descent.",
+     "inicio": 39.24,
+     "fin": 39.58
+    }
+   ],
+   "inicio": 36.56,
+   "fin": 39.58
+  },
+  {
+   "texto": "Send this to the friend who sleeps through every landing.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 40.08,
+     "fin": 40.24
+    },
+    {
+     "texto": "this",
+     "inicio": 40.24,
+     "fin": 40.4
+    },
+    {
+     "texto": "to",
+     "inicio": 40.4,
+     "fin": 40.56
+    },
+    {
+     "texto": "the",
+     "inicio": 40.56,
+     "fin": 40.66
+    },
+    {
+     "texto": "friend",
+     "inicio": 40.66,
+     "fin": 40.84
+    },
+    {
+     "texto": "who",
+     "inicio": 40.84,
+     "fin": 40.96
+    },
+    {
+     "texto": "sleeps",
+     "inicio": 40.96,
+     "fin": 41.18
+    },
+    {
+     "texto": "through",
+     "inicio": 41.18,
+     "fin": 41.48
+    },
+    {
+     "texto": "every",
+     "inicio": 41.48,
+     "fin": 41.9
+    },
+    {
+     "texto": "landing.",
+     "inicio": 41.9,
+     "fin": 42.34
+    }
+   ],
+   "inicio": 40.08,
+   "fin": 42.34
+  }
+ ]
+}

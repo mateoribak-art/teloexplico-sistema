@@ -8,3 +8,12 @@ Uso: 2 pasos · 2,426 tokens nuevos · 195,959 de caché · 352 escritos · equi
 2026-11-04 09:12 Render de en-021-other-line (sin Claude).
 2026-11-04 09:28 en-021-other-line: listo (render sin Claude)
 2026-11-04 09:28 Termina la producción (ok).
+2026-11-04 15:06 Arranca la producción (2 listos en la cola, meta 6).
+Resumen:
+- **Listo para render:** `en-022-ears-pop` (por qué se tapan los oídos en un avión, serie ciencia). El chequeo aprobó todo en el primer intento y la voz salió 140/140 palabras, 43 s. Está en estado `render`, con el 3D nuevo `Oido.tsx`; lo renderiza `producir.py`. No renderizé el video entero.
+- **No se pudieron rescatar:** `en-020-ac-sixty` ya había fallado el chequeo dos veces: la cita del DOE no se pudo verificar y es tema de plata. `en-012-thunder-count` quedó apartado por la voz, no por el chequeo, así que no aplica el rescate. Los dos siguen apartados.
+- **Tema descartado:** cargadores enchufados, porque no conseguí una cifra del DOE que se pueda leer y es tema de plata. Queda sin marcar en `ideas.md`.
+Uso: 22 pasos · 18,744 tokens nuevos · 892,842 de caché · 8,626 escritos · equivale a US$ 0.95 de API
+2026-11-04 15:13 Render de en-022-ears-pop (sin Claude).
+2026-11-04 15:39 en-022-ears-pop: listo (render sin Claude)
+2026-11-04 15:39 Termina la producción (ok).

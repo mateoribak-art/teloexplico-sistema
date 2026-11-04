@@ -7,3 +7,19 @@ Uso: 20 pasos · 19,834 tokens nuevos · 822,979 de caché · 7,405 escritos · 
 2026-11-04 08:34 Render de 033-gracias-en-el-mate (sin Claude).
 2026-11-04 09:02 033-gracias-en-el-mate: listo (render sin Claude)
 2026-11-04 09:02 Termina la producción (ok).
+2026-11-04 14:25 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `034-subte-linea-a` (costumbres #4: la línea A, primera de Latinoamérica, inaugurada en 1913, con coches de madera hasta 2013). El chequeo rechazó la primera versión (materiales de los coches y origen del apodo "Brujas" sin matiz). Reescribí esas dos frases y el segundo chequeo dio aprobado. Voz 133/133 (46 s), `tsc` sin errores, 2 vueltas de cuadros. Quedó en estado `render`. No lo rendericé: de eso se encarga `producir.py`, que lo pasa a `listo`.
+- **Sin rescates:** 005-granizo-calor sigue apartado, pero no por chequeo rechazado (lo reemplazó el 024).
+- **Segundo video no producido:** la cola tenía 11 listos, así que no se cumplía la condición de menos de 10. Gemini no se agotó. El radar no lo revisé: el último es del 3/11 y no cargué ninguno nuevo en esta corrida.
+Uso: 35 pasos · 26,500 tokens nuevos · 1,431,038 de caché · 12,542 escritos · equivale a US$ 1.24 de API
+2026-11-04 14:34 Render de 034-subte-linea-a (sin Claude).
+2026-11-04 15:05 034-subte-linea-a: listo (render sin Claude)
+2026-11-04 15:05 Termina la producción (ok).
+2026-11-04 15:05 Arranca el carrusel (1 listos, meta 2).
+`perros-colores`: quedó listo (8 placas, origen `023-perros-colores`, chequeo aprobado; lo publica `carrusel.yml` a las 16:00).
+
+No pude confirmar que el reel tenga 2 días o más de publicado. Ni `meta.json` ni el log traen la fecha de publicación; en `tlx cola` figura como publicado. Lo elegí porque era el reel con más compartidos sin carrusel.
+
+Escribí la línea en `videos/produccion.log` agregándola arriba de todo, no al final. Esto lo hice con Edit porque las reglas de la corrida no permiten redirecciones.
+Uso: 26 pasos · 22,108 tokens nuevos · 419,750 de caché · 4,292 escritos · equivale a US$ 0.17 de API
+2026-11-04 15:06 Termina el carrusel (ok; quedan 2 listos).

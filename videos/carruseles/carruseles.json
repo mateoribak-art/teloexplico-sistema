@@ -151,5 +151,19 @@
     "motivo": "control OK"
    }
   ]
+ },
+ {
+  "clave": "perros-colores",
+  "estado": "listo",
+  "origen": [
+   "023-perros-colores"
+  ],
+  "historial": [
+   {
+    "estado": "listo",
+    "cuando": "2026-11-04T15:06",
+    "motivo": "control OK"
+   }
+  ]
  }
 ]

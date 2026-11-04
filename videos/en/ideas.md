@@ -61,4 +61,4 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 ## Temas de EE. UU. — serie: ciencia (Everyday science)
 - [ ] Does hot water freeze faster than cold? (Mpemba effect: evidence is mixed → "scientists still argue")
 - [ ] Why is the sky blue but sunsets orange?
-- [ ] Why do your ears pop on a plane?
+- [usada → en-022-ears-pop] Why do your ears pop on a plane?

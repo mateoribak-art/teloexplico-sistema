@@ -1,0 +1,22 @@
+{
+  "titulo": "Why do your ears pop on a plane?",
+  "serie": "ciencia",
+  "fondo": "oscuro",
+  "receta": "mecanismo por dentro con un objeto cotidiano (el oído) y consejo para hoy",
+  "destinatario": "se lo manda alguien que odia el aterrizaje a su amigo que se duerme en cada descenso, para decirle que por eso le duelen los oídos",
+  "fuentes": [
+    "Cleveland Clinic: Ear Barotrauma (Airplane Ear)",
+    "MedlinePlus Medical Encyclopedia: ear pain from altitude changes",
+    "PMC (2019): 'Airplane ear: a neglected yet preventable problem'"
+  ],
+  "frases": [
+    {"texto": "Your ears don't pop because of the height. They pop because of trapped air.", "estilo": "Confident, a little intriguing."},
+    {"texto": "Behind each eardrum there's a small pocket of air, linked to the back of your nose by a narrow channel called the eustachian tube.", "estilo": "Explaining simply, brisk."},
+    {"texto": "When the plane climbs, the pressure outside drops, and the extra air behind your eardrum squeezes out through that tube. That's the pop.", "estilo": "Clear, showing the mechanism."},
+    {"texto": "On the way down it's the opposite. The tube can get squeezed shut, and that's when your ears feel clogged or hurt.", "estilo": "Dry, with a hint of sympathy."},
+    {"texto": "The Cleveland Clinic says to swallow, yawn, or chew gum during takeoff and landing, because that helps open the tube.", "estilo": "Clear fact, citing the source."},
+    {"texto": "Heads up: with a cold or a stuffy nose, the tube can swell, so it gets harder to open.", "estilo": "Calm caveat."},
+    {"texto": "So next flight, start chewing before the descent.", "estilo": "Practical, friendly."},
+    {"texto": "Send this to the friend who sleeps through every landing.", "estilo": "Playful and funny."}
+  ]
+}

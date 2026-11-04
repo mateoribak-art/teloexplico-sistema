@@ -1,0 +1,22 @@
+{
+  "titulo": "¿La línea A del subte es la primera de Latinoamérica?",
+  "fondo": "oscuro",
+  "receta": "Argentina en datos / el error cotidiano (costumbre porteña)",
+  "destinatario": "se lo manda el porteño que viaja todos los días en la A a su amigo que se queja de que el subte es viejo, para decirle que es un pedazo de historia",
+  "fuentes": [
+    "Billiken: La Línea A del Subte de Buenos Aires cumplió 110 años; coches de madera de la Línea A",
+    "Gobierno de la Ciudad de Buenos Aires (buenosaires.gob.ar): paseos en los coches históricos Las Brujas de la Línea A",
+    "Historia del subte: Anglo Argentina inaugurada el 1 de diciembre de 1913; coches Brugeoise et Nivelles, Bélgica"
+  ],
+  "frases": [
+    {"texto": "Si tomás la línea A, subís a la primera línea de subte de Latinoamérica.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Se inauguró el primero de diciembre de mil novecientos trece.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Y sus coches originales de madera siguieron andando casi cien años, hasta dos mil trece.", "estilo": "Intriga."},
+    {"texto": "Les dicen las Brujas, y según cuentan, el apodo viene de la ciudad belga donde se fabricaron.", "estilo": "Cómplice, con humor."},
+    {"texto": "Eran coches de madera, de esos que hoy te parecen de museo.", "estilo": "Informativo, claro."},
+    {"texto": "Hoy la línea tiene trenes nuevos, pero la Ciudad organizó paseos para viajar otra vez en las Brujas.", "estilo": "Informativo, calmo."},
+    {"texto": "Ojo: no es el subte más viejo del mundo; el de Londres abrió en mil ochocientos sesenta y tres.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "La próxima vez que subas a la A, acordate: ese túnel tiene más de cien años.", "estilo": "Práctico, amable."},
+    {"texto": "Mandáselo al que se queja de la línea A todos los días.", "estilo": "Cómplice, con humor."}
+  ]
+}

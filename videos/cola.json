@@ -1271,5 +1271,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "034-subte-linea-a",
+  "tema": "¿La línea A del subte es la primera de Latinoamérica? Inaugurada en 1913, coches de madera hasta 2013",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-04T14:26",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-04T14:26",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-04T14:34",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-04T15:05",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

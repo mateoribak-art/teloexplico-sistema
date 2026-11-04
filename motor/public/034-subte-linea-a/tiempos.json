@@ -1,0 +1,733 @@
+{
+ "duracion": 46.17,
+ "frases": [
+  {
+   "texto": "Si tomás la línea A, subís a la primera línea de subte de Latinoamérica.",
+   "palabras": [
+    {
+     "texto": "Si",
+     "inicio": 0.0,
+     "fin": 0.3
+    },
+    {
+     "texto": "tomás",
+     "inicio": 0.3,
+     "fin": 0.76
+    },
+    {
+     "texto": "la",
+     "inicio": 0.76,
+     "fin": 0.88
+    },
+    {
+     "texto": "línea",
+     "inicio": 0.88,
+     "fin": 1.1
+    },
+    {
+     "texto": "A,",
+     "inicio": 1.1,
+     "fin": 1.38
+    },
+    {
+     "texto": "subís",
+     "inicio": 1.8,
+     "fin": 2.24
+    },
+    {
+     "texto": "a",
+     "inicio": 2.24,
+     "fin": 2.36
+    },
+    {
+     "texto": "la",
+     "inicio": 2.36,
+     "fin": 2.52
+    },
+    {
+     "texto": "primera",
+     "inicio": 2.52,
+     "fin": 2.98
+    },
+    {
+     "texto": "línea",
+     "inicio": 2.98,
+     "fin": 3.38
+    },
+    {
+     "texto": "de",
+     "inicio": 3.38,
+     "fin": 3.56
+    },
+    {
+     "texto": "subte",
+     "inicio": 3.56,
+     "fin": 3.92
+    },
+    {
+     "texto": "de",
+     "inicio": 3.92,
+     "fin": 4.0
+    },
+    {
+     "texto": "Latinoamérica.",
+     "inicio": 4.0,
+     "fin": 4.7
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.7
+  },
+  {
+   "texto": "Se inauguró el primero de diciembre de mil novecientos trece.",
+   "palabras": [
+    {
+     "texto": "Se",
+     "inicio": 5.16,
+     "fin": 5.38
+    },
+    {
+     "texto": "inauguró",
+     "inicio": 5.38,
+     "fin": 5.88
+    },
+    {
+     "texto": "el",
+     "inicio": 5.88,
+     "fin": 6.2
+    },
+    {
+     "texto": "primero",
+     "inicio": 6.2,
+     "fin": 6.52
+    },
+    {
+     "texto": "de",
+     "inicio": 6.52,
+     "fin": 6.76
+    },
+    {
+     "texto": "diciembre",
+     "inicio": 6.76,
+     "fin": 7.2
+    },
+    {
+     "texto": "de",
+     "inicio": 7.2,
+     "fin": 7.38
+    },
+    {
+     "texto": "mil",
+     "inicio": 7.38,
+     "fin": 7.52
+    },
+    {
+     "texto": "novecientos",
+     "inicio": 7.52,
+     "fin": 8.04
+    },
+    {
+     "texto": "trece.",
+     "inicio": 8.04,
+     "fin": 8.34
+    }
+   ],
+   "inicio": 5.16,
+   "fin": 8.34
+  },
+  {
+   "texto": "Y sus coches originales de madera siguieron andando casi cien años, hasta dos mil trece.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 8.86,
+     "fin": 9.12
+    },
+    {
+     "texto": "sus",
+     "inicio": 9.12,
+     "fin": 9.36
+    },
+    {
+     "texto": "coches",
+     "inicio": 9.36,
+     "fin": 9.66
+    },
+    {
+     "texto": "originales",
+     "inicio": 9.66,
+     "fin": 10.26
+    },
+    {
+     "texto": "de",
+     "inicio": 10.26,
+     "fin": 10.34
+    },
+    {
+     "texto": "madera",
+     "inicio": 10.34,
+     "fin": 10.66
+    },
+    {
+     "texto": "siguieron",
+     "inicio": 10.66,
+     "fin": 11.56
+    },
+    {
+     "texto": "andando",
+     "inicio": 11.56,
+     "fin": 12.02
+    },
+    {
+     "texto": "casi",
+     "inicio": 12.02,
+     "fin": 12.26
+    },
+    {
+     "texto": "cien",
+     "inicio": 12.26,
+     "fin": 12.86
+    },
+    {
+     "texto": "años,",
+     "inicio": 12.86,
+     "fin": 13.26
+    },
+    {
+     "texto": "hasta",
+     "inicio": 13.66,
+     "fin": 13.98
+    },
+    {
+     "texto": "dos",
+     "inicio": 13.98,
+     "fin": 14.18
+    },
+    {
+     "texto": "mil",
+     "inicio": 14.18,
+     "fin": 14.32
+    },
+    {
+     "texto": "trece.",
+     "inicio": 14.32,
+     "fin": 14.72
+    }
+   ],
+   "inicio": 8.86,
+   "fin": 14.72
+  },
+  {
+   "texto": "Les dicen las Brujas, y según cuentan, el apodo viene de la ciudad belga donde se fabricaron.",
+   "palabras": [
+    {
+     "texto": "Les",
+     "inicio": 15.22,
+     "fin": 15.4
+    },
+    {
+     "texto": "dicen",
+     "inicio": 15.4,
+     "fin": 15.74
+    },
+    {
+     "texto": "las",
+     "inicio": 15.74,
+     "fin": 16.18
+    },
+    {
+     "texto": "Brujas,",
+     "inicio": 16.18,
+     "fin": 16.68
+    },
+    {
+     "texto": "y",
+     "inicio": 17.22,
+     "fin": 17.46
+    },
+    {
+     "texto": "según",
+     "inicio": 17.46,
+     "fin": 17.72
+    },
+    {
+     "texto": "cuentan,",
+     "inicio": 17.72,
+     "fin": 18.3
+    },
+    {
+     "texto": "el",
+     "inicio": 18.64,
+     "fin": 18.7
+    },
+    {
+     "texto": "apodo",
+     "inicio": 18.7,
+     "fin": 18.98
+    },
+    {
+     "texto": "viene",
+     "inicio": 18.98,
+     "fin": 19.22
+    },
+    {
+     "texto": "de",
+     "inicio": 19.22,
+     "fin": 19.42
+    },
+    {
+     "texto": "la",
+     "inicio": 19.42,
+     "fin": 19.54
+    },
+    {
+     "texto": "ciudad",
+     "inicio": 19.54,
+     "fin": 19.82
+    },
+    {
+     "texto": "belga",
+     "inicio": 19.82,
+     "fin": 20.26
+    },
+    {
+     "texto": "donde",
+     "inicio": 20.26,
+     "fin": 20.44
+    },
+    {
+     "texto": "se",
+     "inicio": 20.44,
+     "fin": 20.64
+    },
+    {
+     "texto": "fabricaron.",
+     "inicio": 20.64,
+     "fin": 21.14
+    }
+   ],
+   "inicio": 15.22,
+   "fin": 21.14
+  },
+  {
+   "texto": "Eran coches de madera, de esos que hoy te parecen de museo.",
+   "palabras": [
+    {
+     "texto": "Eran",
+     "inicio": 21.64,
+     "fin": 21.92
+    },
+    {
+     "texto": "coches",
+     "inicio": 21.92,
+     "fin": 22.24
+    },
+    {
+     "texto": "de",
+     "inicio": 22.24,
+     "fin": 22.4
+    },
+    {
+     "texto": "madera,",
+     "inicio": 22.4,
+     "fin": 22.76
+    },
+    {
+     "texto": "de",
+     "inicio": 23.24,
+     "fin": 23.38
+    },
+    {
+     "texto": "esos",
+     "inicio": 23.38,
+     "fin": 23.52
+    },
+    {
+     "texto": "que",
+     "inicio": 23.52,
+     "fin": 23.68
+    },
+    {
+     "texto": "hoy",
+     "inicio": 23.68,
+     "fin": 23.82
+    },
+    {
+     "texto": "te",
+     "inicio": 23.82,
+     "fin": 23.98
+    },
+    {
+     "texto": "parecen",
+     "inicio": 23.98,
+     "fin": 24.32
+    },
+    {
+     "texto": "de",
+     "inicio": 24.32,
+     "fin": 24.48
+    },
+    {
+     "texto": "museo.",
+     "inicio": 24.48,
+     "fin": 24.96
+    }
+   ],
+   "inicio": 21.64,
+   "fin": 24.96
+  },
+  {
+   "texto": "Hoy la línea tiene trenes nuevos, pero la Ciudad organizó paseos para viajar otra vez en las Brujas.",
+   "palabras": [
+    {
+     "texto": "Hoy",
+     "inicio": 25.28,
+     "fin": 25.46
+    },
+    {
+     "texto": "la",
+     "inicio": 25.46,
+     "fin": 25.56
+    },
+    {
+     "texto": "línea",
+     "inicio": 25.56,
+     "fin": 25.76
+    },
+    {
+     "texto": "tiene",
+     "inicio": 25.76,
+     "fin": 26.04
+    },
+    {
+     "texto": "trenes",
+     "inicio": 26.04,
+     "fin": 26.5
+    },
+    {
+     "texto": "nuevos,",
+     "inicio": 26.5,
+     "fin": 26.74
+    },
+    {
+     "texto": "pero",
+     "inicio": 27.3,
+     "fin": 27.58
+    },
+    {
+     "texto": "la",
+     "inicio": 27.58,
+     "fin": 27.9
+    },
+    {
+     "texto": "Ciudad",
+     "inicio": 27.9,
+     "fin": 28.2
+    },
+    {
+     "texto": "organizó",
+     "inicio": 28.2,
+     "fin": 28.66
+    },
+    {
+     "texto": "paseos",
+     "inicio": 28.66,
+     "fin": 29.08
+    },
+    {
+     "texto": "para",
+     "inicio": 29.08,
+     "fin": 29.28
+    },
+    {
+     "texto": "viajar",
+     "inicio": 29.28,
+     "fin": 29.7
+    },
+    {
+     "texto": "otra",
+     "inicio": 29.7,
+     "fin": 30.02
+    },
+    {
+     "texto": "vez",
+     "inicio": 30.02,
+     "fin": 30.26
+    },
+    {
+     "texto": "en",
+     "inicio": 30.26,
+     "fin": 30.36
+    },
+    {
+     "texto": "las",
+     "inicio": 30.36,
+     "fin": 30.48
+    },
+    {
+     "texto": "Brujas.",
+     "inicio": 30.48,
+     "fin": 30.86
+    }
+   ],
+   "inicio": 25.28,
+   "fin": 30.86
+  },
+  {
+   "texto": "Ojo: no es el subte más viejo del mundo; el de Londres abrió en mil ochocientos sesenta y tres.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 31.3,
+     "fin": 31.54
+    },
+    {
+     "texto": "no",
+     "inicio": 32.06,
+     "fin": 32.22
+    },
+    {
+     "texto": "es",
+     "inicio": 32.22,
+     "fin": 32.4
+    },
+    {
+     "texto": "el",
+     "inicio": 32.4,
+     "fin": 32.5
+    },
+    {
+     "texto": "subte",
+     "inicio": 32.5,
+     "fin": 32.8
+    },
+    {
+     "texto": "más",
+     "inicio": 32.8,
+     "fin": 32.96
+    },
+    {
+     "texto": "viejo",
+     "inicio": 32.96,
+     "fin": 33.18
+    },
+    {
+     "texto": "del",
+     "inicio": 33.18,
+     "fin": 33.3
+    },
+    {
+     "texto": "mundo;",
+     "inicio": 33.3,
+     "fin": 33.54
+    },
+    {
+     "texto": "el",
+     "inicio": 34.08,
+     "fin": 34.26
+    },
+    {
+     "texto": "de",
+     "inicio": 34.26,
+     "fin": 34.34
+    },
+    {
+     "texto": "Londres",
+     "inicio": 34.34,
+     "fin": 34.64
+    },
+    {
+     "texto": "abrió",
+     "inicio": 34.64,
+     "fin": 35.02
+    },
+    {
+     "texto": "en",
+     "inicio": 35.02,
+     "fin": 35.16
+    },
+    {
+     "texto": "mil",
+     "inicio": 35.16,
+     "fin": 35.38
+    },
+    {
+     "texto": "ochocientos",
+     "inicio": 35.38,
+     "fin": 36.04
+    },
+    {
+     "texto": "sesenta",
+     "inicio": 36.04,
+     "fin": 36.38
+    },
+    {
+     "texto": "y",
+     "inicio": 36.38,
+     "fin": 36.48
+    },
+    {
+     "texto": "tres.",
+     "inicio": 36.48,
+     "fin": 36.68
+    }
+   ],
+   "inicio": 31.3,
+   "fin": 36.68
+  },
+  {
+   "texto": "La próxima vez que subas a la A, acordate: ese túnel tiene más de cien años.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 37.06,
+     "fin": 37.3
+    },
+    {
+     "texto": "próxima",
+     "inicio": 37.3,
+     "fin": 37.56
+    },
+    {
+     "texto": "vez",
+     "inicio": 37.56,
+     "fin": 37.92
+    },
+    {
+     "texto": "que",
+     "inicio": 37.92,
+     "fin": 38.12
+    },
+    {
+     "texto": "subas",
+     "inicio": 38.12,
+     "fin": 38.5
+    },
+    {
+     "texto": "a",
+     "inicio": 38.5,
+     "fin": 38.62
+    },
+    {
+     "texto": "la",
+     "inicio": 38.62,
+     "fin": 38.72
+    },
+    {
+     "texto": "A,",
+     "inicio": 38.72,
+     "fin": 38.96
+    },
+    {
+     "texto": "acordate:",
+     "inicio": 39.52,
+     "fin": 39.98
+    },
+    {
+     "texto": "ese",
+     "inicio": 40.54,
+     "fin": 40.68
+    },
+    {
+     "texto": "túnel",
+     "inicio": 40.68,
+     "fin": 40.96
+    },
+    {
+     "texto": "tiene",
+     "inicio": 40.96,
+     "fin": 41.3
+    },
+    {
+     "texto": "más",
+     "inicio": 41.3,
+     "fin": 41.5
+    },
+    {
+     "texto": "de",
+     "inicio": 41.5,
+     "fin": 41.68
+    },
+    {
+     "texto": "cien",
+     "inicio": 41.68,
+     "fin": 42.08
+    },
+    {
+     "texto": "años.",
+     "inicio": 42.08,
+     "fin": 42.4
+    }
+   ],
+   "inicio": 37.06,
+   "fin": 42.4
+  },
+  {
+   "texto": "Mandáselo al que se queja de la línea A todos los días.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 43.3,
+     "fin": 43.78
+    },
+    {
+     "texto": "al",
+     "inicio": 43.78,
+     "fin": 43.84
+    },
+    {
+     "texto": "que",
+     "inicio": 43.84,
+     "fin": 43.98
+    },
+    {
+     "texto": "se",
+     "inicio": 43.98,
+     "fin": 44.12
+    },
+    {
+     "texto": "queja",
+     "inicio": 44.12,
+     "fin": 44.42
+    },
+    {
+     "texto": "de",
+     "inicio": 44.42,
+     "fin": 44.52
+    },
+    {
+     "texto": "la",
+     "inicio": 44.52,
+     "fin": 44.62
+    },
+    {
+     "texto": "línea",
+     "inicio": 44.62,
+     "fin": 44.86
+    },
+    {
+     "texto": "A",
+     "inicio": 44.86,
+     "fin": 45.18
+    },
+    {
+     "texto": "todos",
+     "inicio": 45.18,
+     "fin": 45.72
+    },
+    {
+     "texto": "los",
+     "inicio": 45.72,
+     "fin": 45.8
+    },
+    {
+     "texto": "días.",
+     "inicio": 45.8,
+     "fin": 46.04
+    }
+   ],
+   "inicio": 43.3,
+   "fin": 46.04
+  }
+ ]
+}

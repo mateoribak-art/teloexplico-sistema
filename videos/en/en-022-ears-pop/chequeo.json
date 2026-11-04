@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de salud/seguridad quedan verificadas con fuentes de EE. UU. (Cleveland Clinic, MedlinePlus/NIH, FAA, PMC/NIH). No hay afirmaciones probables, dudosas ni falsas, y no hay cifras. Observaciones menores no bloqueantes: (a) 'height' en el titulo es un gancho defendible porque la causa es el cambio de presion (la altura sola no importa, el cambio rapido si); (b) 'outside pressure' es la presion de la cabina alrededor del oido, no la del exterior del avion; la frase se entiende bien como 'fuera del oido'; (c) las fuentes describen la trompa como cerrada por defecto y mantenida cerrada por la diferencia de presion en el descenso, no 'aplastada'; 'squeezed shut' es una simplificacion aceptable. La nota de verificacion: no se pudo abrir la pagina de Cleveland Clinic 'ear-barotrauma' (404), se uso la de 'airplane ear' (17929); el articulo de PMC 2019 citado en 'fuentes' del guion no se pudo abrir (captcha), pero no se usa en ninguna frase ni en el caption y la busqueda confirma que existe (PMC6779601).",
+  "afirmaciones": [
+    {
+      "texto": "Your ears don't pop because of the height. They pop because of trapped air. (guion y caption)",
+      "fuente": "Cleveland Clinic, Airplane Ear (my.clevelandclinic.org/health/diseases/17929-airplane-ear): la causa es el cambio de presion que ocurre mas rapido de lo que las trompas pueden reaccionar; MedlinePlus (medlineplus.gov/ency/article/002077.htm): el cambio de presion de aire exterior crea una diferencia de presion a traves del timpano.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Behind each eardrum there's a small pocket of air, linked to the back of your nose by a narrow channel called the eustachian tube.",
+      "fuente": "MedlinePlus (002077): la trompa de Eustaquio conecta el oido medio con la parte posterior de la nariz y garganta superior. Cleveland Clinic: la trompa deja entrar aire exterior al oido medio.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "When the plane climbs, the pressure outside drops, and the extra air behind your eardrum squeezes out through that tube. That's the pop. (punto 1)",
+      "fuente": "FAA, AIM Cap. 8 Medical Facts for Pilots (faa.gov/air_traffic/publications/atpubs/aim_html/chap8_section_1.html): al bajar la presion de cabina en el ascenso, el aire expandido del oido medio empuja la trompa abierta y escapa hacia la nariz. PMC4298289 (Middle-ear pain and trauma during air travel): es relativamente facil que el aire escape del oido medio hacia la nasofaringe.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "On the way down it's the opposite. The tube can get squeezed shut, and that's when your ears feel clogged or hurt. (punto 2)",
+      "fuente": "FAA AIM Cap. 8: en el descenso la diferencia de presion puede mantener cerrada la trompa, haciendo dificil o imposible igualar. PMC4298289: el aumento de presion externa tiende a dificultar la apertura de la trompa. Cleveland Clinic / MedlinePlus: la diferencia de presion produce sensacion de taponamiento y dolor. Formula con 'can', correcta.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The Cleveland Clinic says to swallow, yawn, or chew gum during takeoff and landing, because that helps open the tube. (punto 3)",
+      "fuente": "Cleveland Clinic, Airplane Ear: 'Remember to swallow and yawn during plane takeoff and landing. This helps your eustachian tubes open.' y 'Chew gum during the flight, especially during takeoff and before the plane begins its descent.' MedlinePlus tambien recomienda chicle/tragar/bostezar.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: with a cold or a stuffy nose, the tube can swell, so it gets harder to open. (punto 4)",
+      "fuente": "Cleveland Clinic, Airplane Ear: la barotrauma ocurre con mas frecuencia con congestion por resfrio o alergias; la congestion puede bloquear o inflamar las trompas. MedlinePlus (archivo): evitar cambios de altitud durante infecciones respiratorias altas. Formula con 'can'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "So next flight, start chewing before the descent.",
+      "fuente": "Cleveland Clinic: masticar chicle 'especially during takeoff and before the plane begins its descent'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'Sources: Cleveland Clinic (Ear Barotrauma), MedlinePlus (ear pain from altitude changes).'",
+      "fuente": "Ambas instituciones existen y dicen lo atribuido. Sugerencia opcional: el titulo exacto de la pagina de Cleveland Clinic es 'Airplane Ear' (ear barotrauma es el nombre clinico y la pagina lo usa).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Send this to the friend who sleeps through every landing. / Do your ears hurt more going up or coming down? (llamado a la accion y pregunta, no afirmaciones facticas)",
+      "fuente": "No aplica.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}
