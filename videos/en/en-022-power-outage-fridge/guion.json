@@ -1,0 +1,23 @@
+{
+  "titulo": "Power's out: stop opening the fridge",
+  "serie": "cocina",
+  "fondo": "cuaderno",
+  "receta": "error cotidiano + regla con número",
+  "pilar": "cocina",
+  "destinatario": "se lo manda alguien que vivió un apagón a su amigo que abre la heladera cada diez minutos 'para ver si sigue fría', para decirle que cada vez que la abre gasta el tiempo",
+  "regla_guardable": "Door shut: fridge up to four hours, full freezer forty-eight hours.",
+  "fuentes": [
+    "CDC, Keep Food Safe After a Disaster or Emergency: up to four hours in a refrigerator if the door stays closed; full freezer forty-eight hours, half full twenty-four; appliance thermometer, forty degrees or below; never taste food to know if it is safe",
+    "USDA FSIS, Keeping Food Safe During an Emergency (same figures)"
+  ],
+  "frases": [
+    {"texto": "The power's out, and you keep opening the fridge to check on the food.", "estilo": "Knowing, with a half smile."},
+    {"texto": "Every peek lets the cold out. Keep that door shut.", "estilo": "Dry and punchy."},
+    {"texto": "The CDC says a closed fridge keeps food safe for up to four hours.", "estilo": "Clear fact, citing the source."},
+    {"texto": "A full freezer holds for about forty-eight hours. Half full, about twenty-four. Same rule: door closed.", "estilo": "Brisk, explaining."},
+    {"texto": "Heads up: past those times, never taste food to check if it's safe. Don't test it with a bite.", "estilo": "Calm caveat."},
+    {"texto": "The CDC says to keep an appliance thermometer in your fridge, so you can see if it stayed at forty degrees or below.", "estilo": "Practical, friendly."},
+    {"texto": "Do it today, before the next storm.", "estilo": "Direct."},
+    {"texto": "Send this to the friend who opens the fridge every ten minutes during a blackout.", "estilo": "Playful and funny."}
+  ]
+}

@@ -1298,5 +1298,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "034-arroz-recalentado",
+  "tema": "Arroz recalentado: a la heladera en una hora, una sola vez (NHS, Bacillus cereus)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-04T15:42",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-04T15:42",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-04T15:51",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-04T16:32",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

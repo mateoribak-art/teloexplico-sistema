@@ -17,3 +17,11 @@ Uso: 22 pasos · 18,744 tokens nuevos · 892,842 de caché · 8,626 escritos · 
 2026-11-04 15:13 Render de en-022-ears-pop (sin Claude).
 2026-11-04 15:39 en-022-ears-pop: listo (render sin Claude)
 2026-11-04 15:39 Termina la producción (ok).
+2026-11-04 16:34 Arranca la producción (2 listos en la cola, meta 6).
+- **Listo para render:** `en-022-power-outage-fridge` (pilar cocina/clima, regla de 4 h con la puerta cerrada). El chequeo se aprobó en el 2.º intento, con la fuente del CDC. La voz salió bien a la 3.ª tirada, porque las dos primeras alinearon mal. Quedó en estado `render` y `producir.py` lo renderiza y controla.
+- **Apartados sin rescatar:** `en-020-ac-sixty` ya tuvo 2 chequeos rechazados (cita del DOE sin fuente primaria legible). `en-012-thunder-count` se apartó por la voz al 40 %, no por el chequeo, así que no aplica el rescate.
+- **Pendiente:** el render y el control todavía no corrieron; no verifiqué el video renderizado. No publiqué nada.
+Uso: 15 pasos · 16,021 tokens nuevos · 977,013 de caché · 2,811 escritos · equivale a US$ 1.11 de API
+2026-11-04 16:44 Render de en-022-power-outage-fridge (sin Claude).
+2026-11-04 17:18 en-022-power-outage-fridge: apartado (render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it today before the next storm. Send this to th)
+2026-11-04 17:18 Termina la producción (ok).

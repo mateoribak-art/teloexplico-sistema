@@ -1,0 +1,22 @@
+{
+  "titulo": "El arroz que dejás afuera toda la tarde no se arregla recalentándolo",
+  "fondo": "oscuro",
+  "receta": "El que lo hace mal / pilar cocina",
+  "pilar": "cocina",
+  "destinatario": "se lo manda alguien que cocina en casa a su pareja o su viejo, el que deja la olla de arroz toda la tarde sobre la mesada, para decirle que recalentarla de noche no la arregla",
+  "regla_guardable": "Arroz cocido: a la heladera en una hora, no más de un día, y recalentalo una sola vez.",
+  "fuentes": [
+    "NHS (servicio de salud del Reino Unido): Starchy foods and carbohydrates (nhs.uk/live-well/eat-well/food-types/starchy-foods-and-carbohydrates/)"
+  ],
+  "frases": [
+    {"texto": "Dejaste la olla de arroz sobre la mesada toda la tarde, y esta noche la vas a recalentar.", "estilo": "Seco, directo, a cámara."},
+    {"texto": "Calentarla de nuevo no la arregla.", "estilo": "Contundente."},
+    {"texto": "El arroz crudo puede traer esporas de una bacteria, y esas esporas pueden sobrevivir a la cocción.", "estilo": "Intriga."},
+    {"texto": "Si el arroz queda afuera, las bacterias se multiplican y producen toxinas, y recalentar no las elimina.", "estilo": "Informativo, serio."},
+    {"texto": "El NHS, el servicio de salud del Reino Unido, dice que hay que enfriarlo dentro de la primera hora.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Después, a la heladera, comelo dentro de las veinticuatro horas y recalentalo una sola vez.", "estilo": "Práctico, claro."},
+    {"texto": "Ojo: el problema no es el recalentado en sí, sino el tiempo que el arroz pasa afuera.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Hoy mismo, lo que sobró de la olla va a la heladera, no a la mesada.", "estilo": "Práctico, amable."},
+    {"texto": "Mandáselo al que deja la olla de arroz toda la tarde sobre la mesada.", "estilo": "Cómplice, con humor."}
+  ]
+}

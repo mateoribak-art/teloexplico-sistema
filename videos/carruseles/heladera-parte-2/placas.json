@@ -1,0 +1,8 @@
+{"origen": ["021-heladera-parte-2"], "serie": "mitos de cocina", "placas": [
+ {"tipo": "tapa", "arriba": "¿Cuántos días te dura el guiso en la heladera?", "grande": "dura menos", "promesa": "deslizá y guardalo", "dibujo": [{"objeto": "Olla", "x": 540, "y": 1150, "s": 0.8}]},
+ {"tipo": "paso", "etiqueta": "// el plazo", "titulo": "Ese guiso tiene fecha de vencimiento", "dato": "3 a 4 días", "colorDato": "rojo", "cuerpo": "Restos y comidas cocidas, en la heladera.", "fuente": "USDA FSIS"},
+ {"tipo": "paso", "etiqueta": "// ¿la tapo?", "titulo": "Sí, tapala: no se seca ni agarra olores", "cuerpo": "Tapada mantiene la humedad y no toma olores de otros alimentos.", "fuente": "USDA FSIS", "dibujo": [{"objeto": "Tupper", "x": 540, "y": 1085}]},
+ {"tipo": "paso", "etiqueta": "// si no lo comés", "titulo": "Al freezer: mantiene la calidad", "dato": "3-4 meses", "colorDato": "azul", "cuerpo": "El plazo del freezer es de calidad.", "fuente": "USDA FSIS"},
+ {"tipo": "paso", "etiqueta": "// ojo", "titulo": "Para que el plazo valga, a la heladera antes de las 2 horas", "dato": "2 horas", "colorDato": "verde", "cuerpo": "Se cuenta desde que se cocinó.", "fuente": "USDA FSIS"},
+ {"tipo": "resumen", "titulo": "Las sobras, en 4 reglas", "items": [[true, "Tapadas: no se secan ni agarran olores"], [true, "Heladera: 3 a 4 días"], [true, "Freezer: calidad 3 a 4 meses"], [false, "Dejarlas más de 2 horas afuera"]]},
+ {"tipo": "cierre", "texto": "Mandáselo al que guarda la olla entera con la tapa puesta", "serie": "mitos de cocina"}]}

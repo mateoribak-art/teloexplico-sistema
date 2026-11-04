@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segundo chequeo. Leida la pagina del CDC (cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html): 'If the doors stay closed, food will stay safe up to: 4 hours in a refrigerator, 48 hours in a full freezer, 24 hours in a half-full freezer'; 'Keep appliance thermometers in your refrigerator and freezer' con heladera a 40 F o menos; 'Never taste food to know if it is safe to eat'; 'Keep refrigerator and freezer doors closed'. Todas las cifras y unidades del guion y el caption coinciden. Ya no aparece 'smell' ni se atribuye al USDA como unico emisor; las frases dicen 'The CDC says' y el caption cita CDC y USDA FSIS. Nota: fsis.usda.gov devolvio 403, asi que FSIS no se leyo directamente; ninguna frase depende de FSIS (la cita en 'Sources' es complementaria, cifras iguales segun espejos previos). Sugerencia menor no bloqueante: el CDC dice 'up to' tambien para el freezer; 'about forty-eight / about twenty-four' es aceptable pero 'up to' seria mas fiel.",
+  "afirmaciones": [
+    {
+      "texto": "Every peek lets the cold out. Keep that door shut.",
+      "fuente": "CDC: 'Keep refrigerator and freezer doors closed.' (cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html). El mecanismo (abrir deja salir el frio) es fisica basica y es la razon de la instruccion",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The CDC says a closed fridge keeps food safe for up to four hours.",
+      "fuente": "CDC: 'If the doors stay closed, food will stay safe up to: 4 hours in a refrigerator'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "A full freezer holds for about forty-eight hours. Half full, about twenty-four. Same rule: door closed.",
+      "fuente": "CDC: '48 hours in a full freezer, 24 hours in a half-full freezer' con puertas cerradas. El CDC dice 'up to'; 'about' es una suavizacion leve",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: past those times, never taste food to check if it's safe. Don't test it with a bite.",
+      "fuente": "CDC: 'Never taste food to know if it is safe to eat.'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The CDC says to keep an appliance thermometer in your fridge, so you can see if it stayed at forty degrees or below.",
+      "fuente": "CDC: 'Keep appliance thermometers in your refrigerator and freezer'; heladera 'at 40 F or below'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: A full freezer holds about forty-eight hours (about twenty-four if it's half full), as long as the door stays closed.",
+      "fuente": "CDC: 48 h full / 24 h half-full, 'if the doors stay closed'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: once that time is up, never taste food to find out if it's safe.",
+      "fuente": "CDC: 'Never taste food to know if it is safe to eat.'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sources: CDC, Keep Food Safe After a Disaster or Emergency; USDA FSIS, Keeping Food Safe During an Emergency.",
+      "fuente": "CDC leida directamente. FSIS no legible (403) pero es cita complementaria, no se le atribuye ninguna frase",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The power's out, and you keep opening the fridge to check on the food. / Do it today, before the next storm. / Send this to the friend who opens the fridge every ten minutes.",
+      "fuente": "Escenario, consejo y humor; no son afirmaciones facticas",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

@@ -744,5 +744,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-022-power-outage-fridge",
+  "tema": "Power outage: keep the fridge shut (USDA: 4 hours; pillar kitchen/weather action)",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-04T16:35",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-04T16:35",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-04T16:44",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-04T17:18",
+    "motivo": "render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it today before the next storm. Send this to the friend who opens the fridge every 10 minutes during a blackout.\nPROBLEMAS:\n- la voz no coincide con el guion (33%)"
+   }
+  ]
  }
 ]

@@ -1,0 +1,651 @@
+{
+ "duracion": 39.48,
+ "frases": [
+  {
+   "texto": "The power's out, and you keep opening the fridge to check on the food.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 0.14,
+     "fin": 0.14
+    },
+    {
+     "texto": "power's",
+     "inicio": 0.14,
+     "fin": 0.62
+    },
+    {
+     "texto": "out,",
+     "inicio": 0.62,
+     "fin": 0.84
+    },
+    {
+     "texto": "and",
+     "inicio": 1.06,
+     "fin": 1.4
+    },
+    {
+     "texto": "you",
+     "inicio": 1.4,
+     "fin": 1.54
+    },
+    {
+     "texto": "keep",
+     "inicio": 1.54,
+     "fin": 1.82
+    },
+    {
+     "texto": "opening",
+     "inicio": 1.82,
+     "fin": 2.58
+    },
+    {
+     "texto": "the",
+     "inicio": 2.58,
+     "fin": 2.86
+    },
+    {
+     "texto": "fridge",
+     "inicio": 2.86,
+     "fin": 3.18
+    },
+    {
+     "texto": "to",
+     "inicio": 3.18,
+     "fin": 3.54
+    },
+    {
+     "texto": "check",
+     "inicio": 3.54,
+     "fin": 3.72
+    },
+    {
+     "texto": "on",
+     "inicio": 3.72,
+     "fin": 3.88
+    },
+    {
+     "texto": "the",
+     "inicio": 3.88,
+     "fin": 4.0
+    },
+    {
+     "texto": "food.",
+     "inicio": 4.0,
+     "fin": 4.26
+    }
+   ],
+   "inicio": 0.14,
+   "fin": 4.26
+  },
+  {
+   "texto": "Every peek lets the cold out. Keep that door shut.",
+   "palabras": [
+    {
+     "texto": "Every",
+     "inicio": 4.72,
+     "fin": 5.02
+    },
+    {
+     "texto": "peek",
+     "inicio": 5.02,
+     "fin": 5.36
+    },
+    {
+     "texto": "lets",
+     "inicio": 5.36,
+     "fin": 5.66
+    },
+    {
+     "texto": "the",
+     "inicio": 5.66,
+     "fin": 5.86
+    },
+    {
+     "texto": "cold",
+     "inicio": 5.86,
+     "fin": 6.06
+    },
+    {
+     "texto": "out.",
+     "inicio": 6.06,
+     "fin": 6.34
+    },
+    {
+     "texto": "Keep",
+     "inicio": 6.78,
+     "fin": 6.96
+    },
+    {
+     "texto": "that",
+     "inicio": 6.96,
+     "fin": 7.12
+    },
+    {
+     "texto": "door",
+     "inicio": 7.12,
+     "fin": 7.3
+    },
+    {
+     "texto": "shut.",
+     "inicio": 7.3,
+     "fin": 7.66
+    }
+   ],
+   "inicio": 4.72,
+   "fin": 7.66
+  },
+  {
+   "texto": "The CDC says a closed fridge keeps food safe for up to four hours.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 8.16,
+     "fin": 8.22
+    },
+    {
+     "texto": "CDC",
+     "inicio": 8.22,
+     "fin": 8.5
+    },
+    {
+     "texto": "says",
+     "inicio": 8.5,
+     "fin": 9.02
+    },
+    {
+     "texto": "a",
+     "inicio": 9.02,
+     "fin": 9.56
+    },
+    {
+     "texto": "closed",
+     "inicio": 9.56,
+     "fin": 9.9
+    },
+    {
+     "texto": "fridge",
+     "inicio": 9.9,
+     "fin": 10.32
+    },
+    {
+     "texto": "keeps",
+     "inicio": 10.32,
+     "fin": 10.68
+    },
+    {
+     "texto": "food",
+     "inicio": 10.68,
+     "fin": 10.94
+    },
+    {
+     "texto": "safe",
+     "inicio": 10.94,
+     "fin": 11.26
+    },
+    {
+     "texto": "for",
+     "inicio": 11.26,
+     "fin": 11.56
+    },
+    {
+     "texto": "up",
+     "inicio": 11.56,
+     "fin": 11.7
+    },
+    {
+     "texto": "to",
+     "inicio": 11.7,
+     "fin": 11.82
+    },
+    {
+     "texto": "four",
+     "inicio": 11.82,
+     "fin": 12.2
+    },
+    {
+     "texto": "hours.",
+     "inicio": 12.2,
+     "fin": 12.68
+    }
+   ],
+   "inicio": 8.16,
+   "fin": 12.68
+  },
+  {
+   "texto": "A full freezer holds for about forty-eight hours. Half full, about twenty-four. Same rule: door closed.",
+   "palabras": [
+    {
+     "texto": "A",
+     "inicio": 13.3,
+     "fin": 13.38
+    },
+    {
+     "texto": "full",
+     "inicio": 13.38,
+     "fin": 13.58
+    },
+    {
+     "texto": "freezer",
+     "inicio": 13.58,
+     "fin": 13.92
+    },
+    {
+     "texto": "holds",
+     "inicio": 13.92,
+     "fin": 14.28
+    },
+    {
+     "texto": "for",
+     "inicio": 14.28,
+     "fin": 14.5
+    },
+    {
+     "texto": "about",
+     "inicio": 14.5,
+     "fin": 14.78
+    },
+    {
+     "texto": "forty-eight",
+     "inicio": 14.78,
+     "fin": 15.56
+    },
+    {
+     "texto": "hours.",
+     "inicio": 15.56,
+     "fin": 15.82
+    },
+    {
+     "texto": "Half",
+     "inicio": 16.32,
+     "fin": 16.48
+    },
+    {
+     "texto": "full,",
+     "inicio": 16.48,
+     "fin": 16.74
+    },
+    {
+     "texto": "about",
+     "inicio": 17.12,
+     "fin": 17.28
+    },
+    {
+     "texto": "twenty-four.",
+     "inicio": 17.28,
+     "fin": 17.76
+    },
+    {
+     "texto": "Same",
+     "inicio": 18.3,
+     "fin": 18.5
+    },
+    {
+     "texto": "rule:",
+     "inicio": 18.5,
+     "fin": 18.76
+    },
+    {
+     "texto": "door",
+     "inicio": 19.28,
+     "fin": 19.48
+    },
+    {
+     "texto": "closed.",
+     "inicio": 19.48,
+     "fin": 20.08
+    }
+   ],
+   "inicio": 13.3,
+   "fin": 20.08
+  },
+  {
+   "texto": "Heads up: past those times, never taste food to check if it's safe. Don't test it with a bite.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 20.64,
+     "fin": 20.86
+    },
+    {
+     "texto": "up:",
+     "inicio": 20.86,
+     "fin": 21.0
+    },
+    {
+     "texto": "past",
+     "inicio": 21.24,
+     "fin": 21.48
+    },
+    {
+     "texto": "those",
+     "inicio": 21.48,
+     "fin": 21.7
+    },
+    {
+     "texto": "times,",
+     "inicio": 21.7,
+     "fin": 22.02
+    },
+    {
+     "texto": "never",
+     "inicio": 22.28,
+     "fin": 22.48
+    },
+    {
+     "texto": "taste",
+     "inicio": 22.48,
+     "fin": 23.04
+    },
+    {
+     "texto": "food",
+     "inicio": 23.04,
+     "fin": 23.42
+    },
+    {
+     "texto": "to",
+     "inicio": 23.42,
+     "fin": 23.6
+    },
+    {
+     "texto": "check",
+     "inicio": 23.6,
+     "fin": 23.8
+    },
+    {
+     "texto": "if",
+     "inicio": 23.8,
+     "fin": 23.94
+    },
+    {
+     "texto": "it's",
+     "inicio": 23.94,
+     "fin": 24.14
+    },
+    {
+     "texto": "safe.",
+     "inicio": 24.14,
+     "fin": 24.34
+    },
+    {
+     "texto": "Don't",
+     "inicio": 24.76,
+     "fin": 25.0
+    },
+    {
+     "texto": "test",
+     "inicio": 25.0,
+     "fin": 25.2
+    },
+    {
+     "texto": "it",
+     "inicio": 25.2,
+     "fin": 25.32
+    },
+    {
+     "texto": "with",
+     "inicio": 25.32,
+     "fin": 25.4
+    },
+    {
+     "texto": "a",
+     "inicio": 25.4,
+     "fin": 25.52
+    },
+    {
+     "texto": "bite.",
+     "inicio": 25.52,
+     "fin": 25.66
+    }
+   ],
+   "inicio": 20.64,
+   "fin": 25.66
+  },
+  {
+   "texto": "The CDC says to keep an appliance thermometer in your fridge, so you can see if it stayed at forty degrees or below.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 25.66,
+     "fin": 26.3
+    },
+    {
+     "texto": "CDC",
+     "inicio": 26.3,
+     "fin": 26.62
+    },
+    {
+     "texto": "says",
+     "inicio": 26.62,
+     "fin": 27.06
+    },
+    {
+     "texto": "to",
+     "inicio": 27.06,
+     "fin": 27.24
+    },
+    {
+     "texto": "keep",
+     "inicio": 27.24,
+     "fin": 27.4
+    },
+    {
+     "texto": "an",
+     "inicio": 27.4,
+     "fin": 27.5
+    },
+    {
+     "texto": "appliance",
+     "inicio": 27.5,
+     "fin": 27.84
+    },
+    {
+     "texto": "thermometer",
+     "inicio": 27.84,
+     "fin": 28.38
+    },
+    {
+     "texto": "in",
+     "inicio": 28.38,
+     "fin": 28.66
+    },
+    {
+     "texto": "your",
+     "inicio": 28.66,
+     "fin": 28.78
+    },
+    {
+     "texto": "fridge,",
+     "inicio": 28.78,
+     "fin": 29.12
+    },
+    {
+     "texto": "so",
+     "inicio": 29.12,
+     "fin": 29.4
+    },
+    {
+     "texto": "you",
+     "inicio": 29.4,
+     "fin": 29.52
+    },
+    {
+     "texto": "can",
+     "inicio": 29.52,
+     "fin": 29.66
+    },
+    {
+     "texto": "see",
+     "inicio": 29.66,
+     "fin": 29.94
+    },
+    {
+     "texto": "if",
+     "inicio": 29.94,
+     "fin": 30.1
+    },
+    {
+     "texto": "it",
+     "inicio": 30.1,
+     "fin": 30.18
+    },
+    {
+     "texto": "stayed",
+     "inicio": 30.18,
+     "fin": 30.38
+    },
+    {
+     "texto": "at",
+     "inicio": 30.38,
+     "fin": 30.56
+    },
+    {
+     "texto": "forty",
+     "inicio": 30.56,
+     "fin": 30.88
+    },
+    {
+     "texto": "degrees",
+     "inicio": 30.88,
+     "fin": 31.14
+    },
+    {
+     "texto": "or",
+     "inicio": 31.14,
+     "fin": 31.4
+    },
+    {
+     "texto": "below.",
+     "inicio": 31.4,
+     "fin": 31.7
+    }
+   ],
+   "inicio": 25.66,
+   "fin": 31.7
+  },
+  {
+   "texto": "Do it today, before the next storm.",
+   "palabras": [
+    {
+     "texto": "Do",
+     "inicio": 32.28,
+     "fin": 32.34
+    },
+    {
+     "texto": "it",
+     "inicio": 32.34,
+     "fin": 32.44
+    },
+    {
+     "texto": "today,",
+     "inicio": 32.44,
+     "fin": 32.7
+    },
+    {
+     "texto": "before",
+     "inicio": 32.7,
+     "fin": 33.36
+    },
+    {
+     "texto": "the",
+     "inicio": 33.36,
+     "fin": 33.56
+    },
+    {
+     "texto": "next",
+     "inicio": 33.56,
+     "fin": 33.74
+    },
+    {
+     "texto": "storm.",
+     "inicio": 33.74,
+     "fin": 33.98
+    }
+   ],
+   "inicio": 32.28,
+   "fin": 33.98
+  },
+  {
+   "texto": "Send this to the friend who opens the fridge every ten minutes during a blackout.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 34.56,
+     "fin": 35.1
+    },
+    {
+     "texto": "this",
+     "inicio": 35.1,
+     "fin": 35.36
+    },
+    {
+     "texto": "to",
+     "inicio": 35.36,
+     "fin": 35.54
+    },
+    {
+     "texto": "the",
+     "inicio": 35.54,
+     "fin": 35.66
+    },
+    {
+     "texto": "friend",
+     "inicio": 35.66,
+     "fin": 35.94
+    },
+    {
+     "texto": "who",
+     "inicio": 35.94,
+     "fin": 36.18
+    },
+    {
+     "texto": "opens",
+     "inicio": 36.18,
+     "fin": 36.56
+    },
+    {
+     "texto": "the",
+     "inicio": 36.56,
+     "fin": 36.74
+    },
+    {
+     "texto": "fridge",
+     "inicio": 36.74,
+     "fin": 37.04
+    },
+    {
+     "texto": "every",
+     "inicio": 37.04,
+     "fin": 37.38
+    },
+    {
+     "texto": "ten",
+     "inicio": 37.38,
+     "fin": 37.76
+    },
+    {
+     "texto": "minutes",
+     "inicio": 37.76,
+     "fin": 38.06
+    },
+    {
+     "texto": "during",
+     "inicio": 38.06,
+     "fin": 38.42
+    },
+    {
+     "texto": "a",
+     "inicio": 38.42,
+     "fin": 38.52
+    },
+    {
+     "texto": "blackout.",
+     "inicio": 38.52,
+     "fin": 38.96
+    }
+   ],
+   "inicio": 34.56,
+   "fin": 38.96
+  }
+ ]
+}

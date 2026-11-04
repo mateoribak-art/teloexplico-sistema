@@ -1,0 +1,66 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de seguridad alimentaria quedan verificadas con fuente primaria: la página del NHS (starchy-foods-and-carbohydrates), leída completa con WebFetch, respalda esporas que sobreviven la cocción, multiplicación bacteriana y toxinas a temperatura ambiente, enfriar dentro de 1 hora, comer dentro de 24 horas, recalentar una sola vez y que recalentar no elimina las toxinas. La única afirmación que el NHS no dice (el arroz crudo puede traer esporas) se verificó con Food Standards Scotland. No hay probables, dudosas ni falsas, y no hay cifras sin respaldo.",
+  "afirmaciones": [
+    {
+      "texto": "Dejaste la olla de arroz sobre la mesada toda la tarde, y esta noche la vas a recalentar. (guion f1; caption: Dejaste el arroz toda la tarde afuera y lo recalentás de noche: no se arregla.)",
+      "fuente": "Planteo de situación dirigido al espectador, sin afirmación fáctica propia; la parte 'no se arregla' se verifica en la afirmación siguiente (NHS)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Calentarla de nuevo no la arregla.",
+      "fuente": "NHS, https://www.nhs.uk/live-well/eat-well/food-types/starchy-foods-and-carbohydrates/: 'Reheating food will not get rid of these toxins.'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El arroz crudo puede traer esporas de una bacteria, y esas esporas pueden sobrevivir a la cocción.",
+      "fuente": "NHS (esporas de bacterias que causan intoxicación pueden sobrevivir a la cocción) y Food Standards Scotland, https://foodstandards.gov.scot/consumers/food-safety/at-home/rice (el arroz sin cocinar puede contener esporas de Bacillus cereus que sobreviven la cocción). Redactado con 'puede', que es el matiz correcto.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si el arroz queda afuera, las bacterias se multiplican y producen toxinas, y recalentar no las elimina.",
+      "fuente": "NHS: 'The bacteria multiply and produce toxins that make you be sick (vomit) and have diarrhoea.' y 'Reheating food will not get rid of these toxins.'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El NHS, el servicio de salud del Reino Unido, dice que hay que enfriarlo dentro de la primera hora.",
+      "fuente": "NHS: enfriar el arroz 'within 1 hour of cooking' y mantenerlo refrigerado. Atribución correcta y explícita.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Después, a la heladera, comelo dentro de las veinticuatro horas y recalentalo una sola vez. (caption: comerlo dentro de las 24 horas y recalentarlo una sola vez)",
+      "fuente": "NHS: 'refrigerate it within 1 hour and eat it within 24 hours' y 'Rice should not be reheated more than once'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: el problema no es el recalentado en sí, sino el tiempo que el arroz pasa afuera.",
+      "fuente": "NHS (las bacterias se multiplican cuando el arroz queda a temperatura ambiente; recalentar una vez es aceptable si se enfrió a tiempo) y Food Standards Scotland (se puede recalentar si se enfrió rápido, estuvo en heladera hasta 24 h, queda bien caliente y se recalienta una sola vez). Síntesis fiel de las fuentes.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Hoy mismo, lo que sobró de la olla va a la heladera, no a la mesada.",
+      "fuente": "NHS: refrigerar dentro de 1 hora. Consejo práctico derivado.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mandáselo al que deja la olla de arroz toda la tarde sobre la mesada. (llamado a la acción, también en caption)",
+      "fuente": "Sin afirmación fáctica; llamado a la acción",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Fuentes: NHS (Reino Unido), 'Starchy foods and carbohydrates'.",
+      "fuente": "Existe y coincide: https://www.nhs.uk/live-well/eat-well/food-types/starchy-foods-and-carbohydrates/ (leída con WebFetch)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

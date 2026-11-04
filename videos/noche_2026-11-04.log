@@ -23,3 +23,17 @@ No pude confirmar que el reel tenga 2 días o más de publicado. Ni `meta.json` 
 Escribí la línea en `videos/produccion.log` agregándola arriba de todo, no al final. Esto lo hice con Edit porque las reglas de la corrida no permiten redirecciones.
 Uso: 26 pasos · 22,108 tokens nuevos · 419,750 de caché · 4,292 escritos · equivale a US$ 0.17 de API
 2026-11-04 15:06 Termina el carrusel (ok; quedan 2 listos).
+2026-11-04 15:41 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Corté el loop porque no queda nada pendiente de mi parte.
+- **Listo para render:** `034-arroz-recalentado` (cocina #7). `producir.py` lo renderiza y lo pasa a `listo` al terminar el turno.
+- **Apartado:** `005-granizo-calor` sigue así por un motivo que no es "chequeo rechazado", así que no lo rescaté.
+- **Incompleto:** ninguno. No produje un segundo video porque la cola ya tenía 11 listos.
+Uso: 2 pasos · 2,448 tokens nuevos · 201,676 de caché · 245 escritos · equivale a US$ 1.24 de API
+2026-11-04 15:53 Render de 034-arroz-recalentado (sin Claude).
+2026-11-04 16:32 034-arroz-recalentado: listo (render sin Claude)
+2026-11-04 16:32 Termina la producción (ok).
+2026-11-04 16:32 Arranca el carrusel (1 listos, meta 2).
+Terminé: el carrusel está armado y chequeado, y ya anoté la línea en `videos/produccion.log`. Ahora cierro con el resumen.
+`heladera-parte-2`: listo (7 placas, origen 021-heladera-parte-2, publicado el 29/10). Salió del chequeo aprobado del reel, con los datos del USDA: 3 a 4 días en la heladera, 3 a 4 meses en el freezer y 2 horas. Lo vi en `hoja.png`. Queda para que lo publique `carrusel.yml` a las 16:00.
+Uso: 28 pasos · 23,488 tokens nuevos · 475,635 de caché · 4,272 escritos · equivale a US$ 0.18 de API
+2026-11-04 16:34 Termina el carrusel (ok; quedan 2 listos).

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T15:42",
+ "actualizado": "2026-11-04T17:18",
  "oficinas": [
   {
    "clave": "es",
@@ -101,24 +101,24 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-04T15:06",
-     "hace": "hace 36 min",
+     "cuando": "2026-11-04T16:34",
+     "hace": "hace 44 min",
      "detalle": [
-      "Uso: 35 pasos · 26,500 tokens nuevos · 1,431,038 de caché · 12,542 escritos · equivale a US$ 1.24 de API",
-      "2026-11-04 14:25 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
-      "- **Listo para render:** `034-subte-linea-a` (costumbres #4: la línea A, primera de Latinoamérica, inaugurada en 1913, con coches de madera hasta 2013). El chequeo rechazó la primera versión (materiales de los coches y origen del apodo \"Bru",
-      "- **Sin rescates:** 005-granizo-calor sigue apartado, pero no por chequeo rechazado (lo reemplazó el 024).",
-      "- **Segundo video no producido:** la cola tenía 11 listos, así que no se cumplía la condición de menos de 10. Gemini no se agotó. El radar no lo revisé: el último es del 3/11 y no cargué ninguno nuevo en esta corrida.",
-      "Uso: 35 pasos · 26,500 tokens nuevos · 1,431,038 de caché · 12,542 escritos · equivale a US$ 1.24 de API",
-      "2026-11-04 14:34 Render de 034-subte-linea-a (sin Claude).",
-      "2026-11-04 15:05 034-subte-linea-a: listo (render sin Claude)",
-      "2026-11-04 15:05 Termina la producción (ok).",
-      "2026-11-04 15:05 Arranca el carrusel (1 listos, meta 2).",
-      "`perros-colores`: quedó listo (8 placas, origen `023-perros-colores`, chequeo aprobado; lo publica `carrusel.yml` a las 16:00).",
-      "No pude confirmar que el reel tenga 2 días o más de publicado. Ni `meta.json` ni el log traen la fecha de publicación; en `tlx cola` figura como publicado. Lo elegí porque era el reel con más compartidos sin carrusel.",
-      "Escribí la línea en `videos/produccion.log` agregándola arriba de todo, no al final. Esto lo hice con Edit porque las reglas de la corrida no permiten redirecciones.",
-      "Uso: 26 pasos · 22,108 tokens nuevos · 419,750 de caché · 4,292 escritos · equivale a US$ 0.17 de API",
-      "2026-11-04 15:06 Termina el carrusel (ok; quedan 2 listos)."
+      "Uso: 2 pasos · 2,448 tokens nuevos · 201,676 de caché · 245 escritos · equivale a US$ 1.24 de API",
+      "2026-11-04 15:41 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
+      "Corté el loop porque no queda nada pendiente de mi parte.",
+      "- **Listo para render:** `034-arroz-recalentado` (cocina #7). `producir.py` lo renderiza y lo pasa a `listo` al terminar el turno.",
+      "- **Apartado:** `005-granizo-calor` sigue así por un motivo que no es \"chequeo rechazado\", así que no lo rescaté.",
+      "- **Incompleto:** ninguno. No produje un segundo video porque la cola ya tenía 11 listos.",
+      "Uso: 2 pasos · 2,448 tokens nuevos · 201,676 de caché · 245 escritos · equivale a US$ 1.24 de API",
+      "2026-11-04 15:53 Render de 034-arroz-recalentado (sin Claude).",
+      "2026-11-04 16:32 034-arroz-recalentado: listo (render sin Claude)",
+      "2026-11-04 16:32 Termina la producción (ok).",
+      "2026-11-04 16:32 Arranca el carrusel (1 listos, meta 2).",
+      "Terminé: el carrusel está armado y chequeado, y ya anoté la línea en `videos/produccion.log`. Ahora cierro con el resumen.",
+      "`heladera-parte-2`: listo (7 placas, origen 021-heladera-parte-2, publicado el 29/10). Salió del chequeo aprobado del reel, con los datos del USDA: 3 a 4 días en la heladera, 3 a 4 meses en el freezer y 2 horas. Lo vi en `hoja.png`. Queda p",
+      "Uso: 28 pasos · 23,488 tokens nuevos · 475,635 de caché · 4,272 escritos · equivale a US$ 0.18 de API",
+      "2026-11-04 16:34 Termina el carrusel (ok; quedan 2 listos)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -166,7 +166,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y clima de la semana): solo resultados de julio 2026 o de noviembre 2025 (días de la semana que no coinciden), na",
      "cuando": "2026-11-03T17:14",
-     "hace": "hace 22 h",
+     "hace": "hace 24 h",
      "detalle": [
       "30/10 00:00 | Revisión radar. Sin resultados fechados de hoy; no se produce video de actualidad.",
       "02/11 00:00 | Revisión radar. Búsqueda web (alertas SMN hoy): nada fechado de hoy (lo más reciente es de julio 2026). Sin tema de actualidad verificable; sigue la cola normal. Segunda pasada: descartados (a) tormentas/granizo de inicio de noviembre (Meteored sin año verificable; granizo ya tiene 005 y 024), (b) ola de calor de fines de octubre (sin fuente fechada de hoy, y calor/sensación térmica ya cubiertos en 019).",
@@ -199,8 +199,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-04T15:05",
-     "hace": "hace 37 min",
+     "cuando": "2026-11-04T16:32",
+     "hace": "hace 46 min",
      "detalle": [
       "027-bondi-de-brasil: aprobado — Segundo chequeo. Se sacó la cifra 1883 y 'bond = bono', y lo que quedó está respaldado y matizado. La entrada DHLE (https://www.rae.es/dhle/",
       "028-yerba-por-ano: aprobado — Segundo chequeo con búsqueda web. Las dos cifras del guion y del caption coinciden con sus fuentes: Informe Yerba Mate de la Secretaría de A",
@@ -209,7 +209,7 @@
       "031-murcielago-ciego: aprobado — Todas las afirmaciones quedan verificadas contra las fuentes citadas, y esas fuentes respaldan lo que se les atribuye: Smithsonian (si.edu/s",
       "032-pelo-mojado-resfrio: aprobado — Todas las afirmaciones de salud y cifras quedaron verificadas contra fuente primaria (resumen de Johnson y Eccles en Family Practice 2005;22",
       "033-gracias-en-el-mate: aprobado — Todas las afirmaciones fácticas tienen respaldo en fuente primaria o institucional: la nota 'Mate Day' de argentina.travel dice textualmente",
-      "034-subte-linea-a: aprobado — Todas las afirmaciones tienen fuente. Las cifras y fechas (1913, 2013, Londres 1863, paseos) estan verificadas. Solo el origen del apodo 'Br"
+      "034-arroz-recalentado: aprobado — Todas las afirmaciones de seguridad alimentaria quedan verificadas con fuente primaria: la página del NHS (starchy-foods-and-carbohydrates),"
      ],
      "tareas": [],
      "arreglo": null,
@@ -232,8 +232,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-04T15:05",
-     "hace": "hace 37 min",
+     "cuando": "2026-11-04T16:32",
+     "hace": "hace 46 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -255,14 +255,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-04 15:05.",
-     "cuando": "2026-11-04T15:05",
-     "hace": "hace 37 min",
+     "resumen": "Último video terminado: 2026-11-04 16:32.",
+     "cuando": "2026-11-04T16:32",
+     "hace": "hace 46 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "d749188d0b37"
+     "firma": "90b69e880f89"
     },
     {
      "id": "control",
@@ -280,8 +280,8 @@
      },
      "estado": "ok",
      "resumen": "12 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-04T15:05",
-     "hace": "hace 37 min",
+     "cuando": "2026-11-04T16:32",
+     "hace": "hace 46 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -305,7 +305,7 @@
      "estado": "ok",
      "resumen": "Último: 013-alcohol-calor.",
      "cuando": "2026-11-04T12:35",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "03/11 19:32 023-perros-colores publicado: https://www.instagram.com/reel/DfS9jQbgQtk/",
       "03/11 19:33 023-perros-colores publicado en Facebook: https://www.facebook.com/reel/916768048166934/",
@@ -342,7 +342,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-04T12:35",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "03/11 12:34 010-rayo-mismo-lugar https://youtube.com/shorts/NNFjNo8lKeE | privacidad: public",
       "03/11 12:34 010-rayo-mismo-lugar paquete para TikTok/YouTube enviado",
@@ -373,19 +373,19 @@
      },
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
-     "cuando": "2026-11-04T15:06",
-     "hace": "hace 36 min",
+     "cuando": "2026-11-04T16:33",
+     "hace": "hace 45 min",
      "detalle": [
-      "2026-11-02 22:25 descongelar-mesada: publicado https://www.instagram.com/p/DfQsmHwGg9e/",
       "2026-11-03 09:52 refresca-tormenta: apartado grande demasiado largo (17 > 14): \"lo trae la lluvia…\"",
       "2026-11-03 09:53 refresca-tormenta: listo control OK",
       "2026-11-03 20:46 refresca-tormenta: publicado https://www.instagram.com/p/DfTGGAbDttM/",
       "2026-11-03 23:06 ventilador-pieza-vacia: listo control OK",
-      "2026-11-04 15:06 perros-colores: listo control OK"
+      "2026-11-04 16:33 heladera-parte-2: apartado grande demasiado largo (21 > 14): \"menos de lo que creés…\"; dato demasiado largo",
+      "2026-11-04 16:33 heladera-parte-2: listo control OK"
      ],
      "tareas": [
       "ventilador-pieza-vacia",
-      "perros-colores"
+      "heladera-parte-2"
      ],
      "arreglo": null,
      "solo": false,
@@ -408,7 +408,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:15",
-     "hace": "hace 42 h",
+     "hace": "hace 44 h",
      "detalle": [
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
       "02/11 04:22 Hay 12 comentarios nuevos: arranca la respuesta.",
@@ -447,7 +447,7 @@
      "estado": "ok",
      "resumen": "04/11: 386 seguidores",
      "cuando": "2026-11-04T03:04",
-     "hace": "hace 12 h",
+     "hace": "hace 14 h",
      "detalle": [
       "01/11: 341 seguidores",
       "02/11: 354 seguidores",
@@ -480,7 +480,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-04T15:42",
+     "cuando": "2026-11-04T17:18",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -520,8 +520,8 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 3,
-   "listos": 3,
-   "dias": 1.5,
+   "listos": 2,
+   "dias": 1.0,
    "proximo": "en-019-knuckle-crack",
    "publicados": 17,
    "pausa": false,
@@ -569,13 +569,6 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "en-022-ears-pop",
-     "tema": "Why do your ears pop on a plane?",
-     "estado": "listo",
-     "cuando": "2026-11-04T15:39",
-     "motivo": "render sin Claude"
-    },
-    {
      "slug": "en-012-thunder-count",
      "tema": "How far away is the storm? Count flash to thunder (adapted from 018)",
      "estado": "apartado",
@@ -588,6 +581,13 @@
      "estado": "apartado",
      "cuando": "2026-11-04T09:07",
      "motivo": "chequeo rechazado 2 veces: cita del DOE solo probable (fuente primaria no legible), tema de plata"
+    },
+    {
+     "slug": "en-022-power-outage-fridge",
+     "tema": "Power outage: keep the fridge shut (USDA: 4 hours; pillar kitchen/weather action)",
+     "estado": "apartado",
+     "cuando": "2026-11-04T17:18",
+     "motivo": "render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it toda"
     },
     {
      "slug": "en-017-heat-head",
@@ -621,19 +621,18 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-04T15:39",
-     "hace": "hace 3 min",
+     "cuando": "2026-11-04T17:18",
+     "hace": "recién",
      "detalle": [
-      "Uso: 22 pasos · 18,744 tokens nuevos · 892,842 de caché · 8,626 escritos · equivale a US$ 0.95 de API",
-      "2026-11-04 15:06 Arranca la producción (2 listos en la cola, meta 6).",
-      "Resumen:",
-      "- **Listo para render:** `en-022-ears-pop` (por qué se tapan los oídos en un avión, serie ciencia). El chequeo aprobó todo en el primer intento y la voz salió 140/140 palabras, 43 s. Está en estado `render`, con el 3D nuevo `Oido.tsx`; lo r",
-      "- **No se pudieron rescatar:** `en-020-ac-sixty` ya había fallado el chequeo dos veces: la cita del DOE no se pudo verificar y es tema de plata. `en-012-thunder-count` quedó apartado por la voz, no por el chequeo, así que no aplica el resca",
-      "- **Tema descartado:** cargadores enchufados, porque no conseguí una cifra del DOE que se pueda leer y es tema de plata. Queda sin marcar en `ideas.md`.",
-      "Uso: 22 pasos · 18,744 tokens nuevos · 892,842 de caché · 8,626 escritos · equivale a US$ 0.95 de API",
-      "2026-11-04 15:13 Render de en-022-ears-pop (sin Claude).",
-      "2026-11-04 15:39 en-022-ears-pop: listo (render sin Claude)",
-      "2026-11-04 15:39 Termina la producción (ok)."
+      "Uso: 15 pasos · 16,021 tokens nuevos · 977,013 de caché · 2,811 escritos · equivale a US$ 1.11 de API",
+      "2026-11-04 16:34 Arranca la producción (2 listos en la cola, meta 6).",
+      "- **Listo para render:** `en-022-power-outage-fridge` (pilar cocina/clima, regla de 4 h con la puerta cerrada). El chequeo se aprobó en el 2.º intento, con la fuente del CDC. La voz salió bien a la 3.ª tirada, porque las dos primeras alinea",
+      "- **Apartados sin rescatar:** `en-020-ac-sixty` ya tuvo 2 chequeos rechazados (cita del DOE sin fuente primaria legible). `en-012-thunder-count` se apartó por la voz al 40 %, no por el chequeo, así que no aplica el rescate.",
+      "- **Pendiente:** el render y el control todavía no corrieron; no verifiqué el video renderizado. No publiqué nada.",
+      "Uso: 15 pasos · 16,021 tokens nuevos · 977,013 de caché · 2,811 escritos · equivale a US$ 1.11 de API",
+      "2026-11-04 16:44 Render de en-022-power-outage-fridge (sin Claude).",
+      "2026-11-04 17:18 en-022-power-outage-fridge: apartado (render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it today before the next storm. ",
+      "2026-11-04 17:18 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -657,7 +656,7 @@
      "estado": "ok",
      "resumen": "Séptima pasada del radar: la búsqueda web solo devolvió páginas de AccuWeather sin fecha clara y notas de 2025; nada verificable de las últimas 48 h. Descartado",
      "cuando": "2026-11-03T17:14",
-     "hace": "hace 22 h",
+     "hace": "hace 24 h",
      "detalle": [
       "30/10 00:00 Quinta pasada del radar: la búsqueda web no devolvió nada verificable de las últimas 48 h (solo notas viejas, blogs sin fecha y una página del NWS de Fort Worth del 23/10 con clima tranquilo). Descartados: (1) clima del fin de semana: sin alerta nacional ni fuente oficial del día; (2) cambio de hora (domingo 1/11): ya publicado (en-002); (3) Halloween: ya cubierto (en-004). Sin tema nuevo.",
       "02/11 00:00 Sexta pasada del radar: la búsqueda web no devolvió clima ni tendencias verificables de las últimas 48 h (solo blogs sin fecha y notas viejas). Descartados: (1) cambio de hora (terminó el 1/11): ya publicado (en-002), el momento pasó; (2) clima de la semana: sin alerta nacional ni fuente oficial del día; (3) Sunshine Protection Act: es política, descartado. Sin tema nuevo.",
@@ -686,8 +685,8 @@
      },
      "estado": "aviso",
      "resumen": "Frenó 1 video(s): en-020-ac-sixty.",
-     "cuando": "2026-11-04T15:39",
-     "hace": "hace 3 min",
+     "cuando": "2026-11-04T12:36",
+     "hace": "hace 4 h",
      "detalle": [
       "en-015-rain-smell: aprobado — Ninguna afirmacion es falsa ni dudosa. Las de mecanismo, fecha, autores y MIT estan verificadas con fuente primaria o institucional (CSIRO, ",
       "en-016-too-cold-snow: aprobado — Todas las afirmaciones salen de la FAQ de NOAA NSSL (verificada con fetch directo) y coinciden con NWS Central Region 'Myth Buster Monday' (",
@@ -696,7 +695,7 @@
       "en-019-knuckle-crack: aprobado — Cifras y unidades coinciden con las fuentes primarias: deWeber 2011 (JABFM 24(2):169-174, https://www.jabfm.org/content/24/2/169) tuvo 215 r",
       "en-020-ac-sixty: rechazado — Se corrigieron los puntos del primer rechazo (ya no hay 'most home systems', ni absolutos, ni 78 F; la frase 4 quedo acotada a 'a basic air ",
       "en-021-other-line: aprobado — Segundo chequeo con busqueda web. El unico bloqueo del primero (caption linea 1) esta resuelto: 'Your brain probably makes it feel that way'",
-      "en-022-ears-pop: aprobado — Todas las afirmaciones de salud/seguridad quedan verificadas con fuentes de EE. UU. (Cleveland Clinic, MedlinePlus/NIH, FAA, PMC/NIH). No ha"
+      "en-022-power-outage-fridge: aprobado — Segundo chequeo. Leida la pagina del CDC (cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html): 'If the doors stay closed, food wi"
      ],
      "tareas": [
       "en-020-ac-sixty: chequeo rechazado 2 veces: cita del DOE solo probable (fuente primaria no legible), tema de plata"
@@ -720,16 +719,17 @@
       }
      },
      "estado": "aviso",
-     "resumen": "La voz no coincidió con el guion en en-012-thunder-count.",
-     "cuando": "2026-11-04T15:39",
-     "hace": "hace 3 min",
+     "resumen": "La voz no coincidió con el guion en en-022-power-outage-fridge.",
+     "cuando": "2026-11-04T12:36",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [
-      "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go "
+      "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go ",
+      "en-022-power-outage-fridge: render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it toda"
      ],
      "arreglo": "Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.",
      "solo": false,
-     "firma": "953dc1971713"
+     "firma": "502264f52368"
     },
     {
      "id": "animador",
@@ -746,16 +746,17 @@
       }
      },
      "estado": "falla",
-     "resumen": "Falló el render de en-012-thunder-count.",
-     "cuando": "2026-11-04T15:39",
-     "hace": "hace 3 min",
+     "resumen": "Falló el render de en-022-power-outage-fridge.",
+     "cuando": "2026-11-04T12:36",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [
-      "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste"
+      "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste",
+      "en-022-power-outage-fridge: render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it today before the next storm. Send this to th"
      ],
      "arreglo": "Relanzá la producción: los videos en estado render se vuelven a renderizar solos.",
      "solo": false,
-     "firma": "f53050cb6af8"
+     "firma": "c0e49dd73124"
     },
     {
      "id": "control",
@@ -772,14 +773,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "3 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-04T15:39",
-     "hace": "hace 3 min",
+     "resumen": "2 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-04T12:36",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "f0cac96dce67"
+     "firma": "e22b4a017672"
     },
     {
      "id": "publicador",
@@ -798,7 +799,7 @@
      "estado": "ok",
      "resumen": "Último: en-018-storm-cooldown.",
      "cuando": "2026-11-04T12:37",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "03/11 12:36 en-015-rain-smell en la bandeja de TikTok",
       "03/11 12:36 en-015-rain-smell paquete para TikTok/YouTube enviado",
@@ -835,7 +836,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-04T12:37",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "02/11 19:36 en-014-birthday-pairs en la bandeja de TikTok",
       "02/11 19:36 en-014-birthday-pairs paquete para TikTok/YouTube enviado",
@@ -870,7 +871,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:16",
-     "hace": "hace 42 h",
+     "hace": "hace 44 h",
      "detalle": [
       "01/11 18:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
@@ -905,7 +906,7 @@
      "estado": "ok",
      "resumen": "04/11: 3 seguidores",
      "cuando": "2026-11-04T03:04",
-     "hace": "hace 12 h",
+     "hace": "hace 14 h",
      "detalle": [
       "01/11: 2 seguidores",
       "02/11: 3 seguidores",
@@ -937,21 +938,32 @@
       }
      },
      "estado": "aviso",
-     "resumen": "Video apartado: en-020-ac-sixty — chequeo rechazado 2 veces: cita del DOE solo probable (fuente primaria no legible), tema de plata",
-     "cuando": "2026-11-04T15:42",
+     "resumen": "Quedan 2 videos listos: alcanza para 1 día(s).",
+     "cuando": "2026-11-04T17:18",
      "hace": "recién",
      "detalle": [
-      "⚠️ Video apartado: en-020-ac-sixty — chequeo rechazado 2 veces: cita del DOE solo probable (fuente primaria no legible), tema de plata"
+      "⚠️ Quedan 2 videos listos: alcanza para 1 día(s).",
+      "⚠️ Video apartado: en-020-ac-sixty — chequeo rechazado 2 veces: cita del DOE solo probable (fuente primaria no legible), tema de plata",
+      "⚠️ Video apartado: en-022-power-outage-fridge — render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it s"
      ],
      "tareas": [],
      "arreglo": null,
      "solo": true,
-     "firma": "aed4f5225a94"
+     "firma": "c7e4a58c48cc"
     }
    ]
   }
  ],
  "arreglos": [
+  {
+   "id": "10310312-en-chequeo",
+   "creado": "2026-10-31T03:13",
+   "estado": "fallo",
+   "firma": null,
+   "titulo": "Claude no pudo trabajar ahora",
+   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
+   "actualizado": "2026-10-31T03:13"
+  },
   {
    "id": "10310342-en-chequeo",
    "creado": "2026-10-31T03:44",
@@ -1105,16 +1117,6 @@
     "herramientas/producir.py",
     "videos/cola.json"
    ]
-  },
-  {
-   "id": "11041542-en-chequeo",
-   "creado": "2026-11-04T15:42",
-   "empleado": "en/chequeo",
-   "firma": "642380576997",
-   "estado": "pedido",
-   "auto": true,
-   "problema": "En la oficina de Nueva York (@letmeexplain.us), Grace (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): en-020-ac-sixty.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\nen-020-ac-sixty: chequeo rechazado 2 veces: cita del DOE solo probable (fuente primaria no legible), tema de plata\nRegistro:\nen-015-rain-smell: aprobado — Ninguna afirmacion es falsa ni dudosa. Las de mecanismo, fecha, autores y MIT estan verificadas con fuente primaria o institucional (CSIRO, \nen-016-too-cold-snow: aprobado — Todas las afirmaciones salen de la FAQ de NOAA NSSL (verificada con fetch directo) y coinciden con NWS Central Region 'Myth Buster Monday' (\nen-017-heat-head: aprobado — Version actual revisada de nuevo con busqueda web. La cita ahora es la correcta (Vreeman & Carroll, 'Festive medical myths', BMJ 2008;337:a2\nen-018-storm-cooldown: aprobado — Todas las afirmaciones fácticas coinciden con páginas de NWS (Binghamton 'Weather in Action: Downburst', glosario NWS de outflow boundary, p\nen-019-knuckle-crack: aprobado — Cifras y unidades coinciden con las fuentes primarias: deWeber 2011 (JABFM 24(2):169-174, https://www.jabfm.org/content/24/2/169) tuvo 215 r\nen-020-ac-sixty: rechazado — Se corrigieron los puntos del primer rechazo (ya no hay 'most home systems', ni absolutos, ni 78 F; la frase 4 quedo acotada a 'a basic air \nen-021-other-line: aprobado — Segundo chequeo con busqueda web. El unico bloqueo del",
-   "actualizado": "2026-11-04T15:42"
   }
  ]
 }

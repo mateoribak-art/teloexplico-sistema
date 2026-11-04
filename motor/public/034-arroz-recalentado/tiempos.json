@@ -1,0 +1,763 @@
+{
+ "duracion": 50.92,
+ "frases": [
+  {
+   "texto": "Dejaste la olla de arroz sobre la mesada toda la tarde, y esta noche la vas a recalentar.",
+   "palabras": [
+    {
+     "texto": "Dejaste",
+     "inicio": 0.0,
+     "fin": 0.38
+    },
+    {
+     "texto": "la",
+     "inicio": 0.38,
+     "fin": 0.56
+    },
+    {
+     "texto": "olla",
+     "inicio": 0.56,
+     "fin": 0.74
+    },
+    {
+     "texto": "de",
+     "inicio": 0.74,
+     "fin": 0.9
+    },
+    {
+     "texto": "arroz",
+     "inicio": 0.9,
+     "fin": 1.18
+    },
+    {
+     "texto": "sobre",
+     "inicio": 1.18,
+     "fin": 1.46
+    },
+    {
+     "texto": "la",
+     "inicio": 1.46,
+     "fin": 1.6
+    },
+    {
+     "texto": "mesada",
+     "inicio": 1.6,
+     "fin": 2.02
+    },
+    {
+     "texto": "toda",
+     "inicio": 2.02,
+     "fin": 2.36
+    },
+    {
+     "texto": "la",
+     "inicio": 2.36,
+     "fin": 2.58
+    },
+    {
+     "texto": "tarde,",
+     "inicio": 2.58,
+     "fin": 2.88
+    },
+    {
+     "texto": "y",
+     "inicio": 3.2,
+     "fin": 3.62
+    },
+    {
+     "texto": "esta",
+     "inicio": 3.62,
+     "fin": 3.78
+    },
+    {
+     "texto": "noche",
+     "inicio": 3.78,
+     "fin": 3.98
+    },
+    {
+     "texto": "la",
+     "inicio": 3.98,
+     "fin": 4.18
+    },
+    {
+     "texto": "vas",
+     "inicio": 4.18,
+     "fin": 4.34
+    },
+    {
+     "texto": "a",
+     "inicio": 4.34,
+     "fin": 4.44
+    },
+    {
+     "texto": "recalentar.",
+     "inicio": 4.44,
+     "fin": 4.88
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.88
+  },
+  {
+   "texto": "Calentarla de nuevo no la arregla.",
+   "palabras": [
+    {
+     "texto": "Calentarla",
+     "inicio": 5.4,
+     "fin": 6.04
+    },
+    {
+     "texto": "de",
+     "inicio": 6.04,
+     "fin": 6.16
+    },
+    {
+     "texto": "nuevo",
+     "inicio": 6.16,
+     "fin": 6.46
+    },
+    {
+     "texto": "no",
+     "inicio": 6.46,
+     "fin": 6.94
+    },
+    {
+     "texto": "la",
+     "inicio": 6.94,
+     "fin": 7.1
+    },
+    {
+     "texto": "arregla.",
+     "inicio": 7.1,
+     "fin": 7.48
+    }
+   ],
+   "inicio": 5.4,
+   "fin": 7.48
+  },
+  {
+   "texto": "El arroz crudo puede traer esporas de una bacteria, y esas esporas pueden sobrevivir a la cocción.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 8.2,
+     "fin": 8.62
+    },
+    {
+     "texto": "arroz",
+     "inicio": 8.62,
+     "fin": 8.84
+    },
+    {
+     "texto": "crudo",
+     "inicio": 8.84,
+     "fin": 9.36
+    },
+    {
+     "texto": "puede",
+     "inicio": 9.36,
+     "fin": 9.78
+    },
+    {
+     "texto": "traer",
+     "inicio": 9.78,
+     "fin": 10.14
+    },
+    {
+     "texto": "esporas",
+     "inicio": 10.14,
+     "fin": 10.58
+    },
+    {
+     "texto": "de",
+     "inicio": 10.58,
+     "fin": 10.7
+    },
+    {
+     "texto": "una",
+     "inicio": 10.7,
+     "fin": 10.82
+    },
+    {
+     "texto": "bacteria,",
+     "inicio": 10.82,
+     "fin": 11.16
+    },
+    {
+     "texto": "y",
+     "inicio": 11.76,
+     "fin": 11.92
+    },
+    {
+     "texto": "esas",
+     "inicio": 11.92,
+     "fin": 12.06
+    },
+    {
+     "texto": "esporas",
+     "inicio": 12.06,
+     "fin": 12.7
+    },
+    {
+     "texto": "pueden",
+     "inicio": 12.7,
+     "fin": 13.18
+    },
+    {
+     "texto": "sobrevivir",
+     "inicio": 13.18,
+     "fin": 13.76
+    },
+    {
+     "texto": "a",
+     "inicio": 13.76,
+     "fin": 13.84
+    },
+    {
+     "texto": "la",
+     "inicio": 13.84,
+     "fin": 13.9
+    },
+    {
+     "texto": "cocción.",
+     "inicio": 13.9,
+     "fin": 14.26
+    }
+   ],
+   "inicio": 8.2,
+   "fin": 14.26
+  },
+  {
+   "texto": "Si el arroz queda afuera, las bacterias se multiplican y producen toxinas, y recalentar no las elimina.",
+   "palabras": [
+    {
+     "texto": "Si",
+     "inicio": 15.18,
+     "fin": 15.38
+    },
+    {
+     "texto": "el",
+     "inicio": 15.38,
+     "fin": 15.5
+    },
+    {
+     "texto": "arroz",
+     "inicio": 15.5,
+     "fin": 15.7
+    },
+    {
+     "texto": "queda",
+     "inicio": 15.7,
+     "fin": 15.94
+    },
+    {
+     "texto": "afuera,",
+     "inicio": 15.94,
+     "fin": 16.44
+    },
+    {
+     "texto": "las",
+     "inicio": 16.82,
+     "fin": 16.9
+    },
+    {
+     "texto": "bacterias",
+     "inicio": 16.9,
+     "fin": 17.26
+    },
+    {
+     "texto": "se",
+     "inicio": 17.26,
+     "fin": 17.42
+    },
+    {
+     "texto": "multiplican",
+     "inicio": 17.42,
+     "fin": 18.14
+    },
+    {
+     "texto": "y",
+     "inicio": 18.14,
+     "fin": 18.42
+    },
+    {
+     "texto": "producen",
+     "inicio": 18.42,
+     "fin": 18.8
+    },
+    {
+     "texto": "toxinas,",
+     "inicio": 18.8,
+     "fin": 19.34
+    },
+    {
+     "texto": "y",
+     "inicio": 19.84,
+     "fin": 20.08
+    },
+    {
+     "texto": "recalentar",
+     "inicio": 20.08,
+     "fin": 20.68
+    },
+    {
+     "texto": "no",
+     "inicio": 20.68,
+     "fin": 21.3
+    },
+    {
+     "texto": "las",
+     "inicio": 21.3,
+     "fin": 21.46
+    },
+    {
+     "texto": "elimina.",
+     "inicio": 21.46,
+     "fin": 21.84
+    }
+   ],
+   "inicio": 15.18,
+   "fin": 21.84
+  },
+  {
+   "texto": "El NHS, el servicio de salud del Reino Unido, dice que hay que enfriarlo dentro de la primera hora.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 22.56,
+     "fin": 22.94
+    },
+    {
+     "texto": "NHS,",
+     "inicio": 22.94,
+     "fin": 23.4
+    },
+    {
+     "texto": "el",
+     "inicio": 24.1,
+     "fin": 24.22
+    },
+    {
+     "texto": "servicio",
+     "inicio": 24.22,
+     "fin": 24.54
+    },
+    {
+     "texto": "de",
+     "inicio": 24.54,
+     "fin": 24.74
+    },
+    {
+     "texto": "salud",
+     "inicio": 24.74,
+     "fin": 24.98
+    },
+    {
+     "texto": "del",
+     "inicio": 24.98,
+     "fin": 25.2
+    },
+    {
+     "texto": "Reino",
+     "inicio": 25.2,
+     "fin": 25.44
+    },
+    {
+     "texto": "Unido,",
+     "inicio": 25.44,
+     "fin": 25.82
+    },
+    {
+     "texto": "dice",
+     "inicio": 25.82,
+     "fin": 26.6
+    },
+    {
+     "texto": "que",
+     "inicio": 26.6,
+     "fin": 26.76
+    },
+    {
+     "texto": "hay",
+     "inicio": 26.76,
+     "fin": 26.84
+    },
+    {
+     "texto": "que",
+     "inicio": 26.84,
+     "fin": 26.96
+    },
+    {
+     "texto": "enfriarlo",
+     "inicio": 26.96,
+     "fin": 27.52
+    },
+    {
+     "texto": "dentro",
+     "inicio": 27.52,
+     "fin": 27.82
+    },
+    {
+     "texto": "de",
+     "inicio": 27.82,
+     "fin": 28.1
+    },
+    {
+     "texto": "la",
+     "inicio": 28.1,
+     "fin": 28.2
+    },
+    {
+     "texto": "primera",
+     "inicio": 28.2,
+     "fin": 28.5
+    },
+    {
+     "texto": "hora.",
+     "inicio": 28.5,
+     "fin": 28.86
+    }
+   ],
+   "inicio": 22.56,
+   "fin": 28.86
+  },
+  {
+   "texto": "Después, a la heladera, comelo dentro de las veinticuatro horas y recalentalo una sola vez.",
+   "palabras": [
+    {
+     "texto": "Después,",
+     "inicio": 29.38,
+     "fin": 29.58
+    },
+    {
+     "texto": "a",
+     "inicio": 29.82,
+     "fin": 29.98
+    },
+    {
+     "texto": "la",
+     "inicio": 29.98,
+     "fin": 30.08
+    },
+    {
+     "texto": "heladera,",
+     "inicio": 30.08,
+     "fin": 30.46
+    },
+    {
+     "texto": "comelo",
+     "inicio": 30.92,
+     "fin": 31.28
+    },
+    {
+     "texto": "dentro",
+     "inicio": 31.28,
+     "fin": 31.54
+    },
+    {
+     "texto": "de",
+     "inicio": 31.54,
+     "fin": 31.76
+    },
+    {
+     "texto": "las",
+     "inicio": 31.76,
+     "fin": 31.86
+    },
+    {
+     "texto": "veinticuatro",
+     "inicio": 31.86,
+     "fin": 32.5
+    },
+    {
+     "texto": "horas",
+     "inicio": 32.5,
+     "fin": 32.74
+    },
+    {
+     "texto": "y",
+     "inicio": 32.74,
+     "fin": 33.02
+    },
+    {
+     "texto": "recalentalo",
+     "inicio": 33.02,
+     "fin": 33.66
+    },
+    {
+     "texto": "una",
+     "inicio": 33.66,
+     "fin": 34.14
+    },
+    {
+     "texto": "sola",
+     "inicio": 34.14,
+     "fin": 34.38
+    },
+    {
+     "texto": "vez.",
+     "inicio": 34.38,
+     "fin": 34.66
+    }
+   ],
+   "inicio": 29.38,
+   "fin": 34.66
+  },
+  {
+   "texto": "Ojo: el problema no es el recalentado en sí, sino el tiempo que el arroz pasa afuera.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 35.22,
+     "fin": 35.5
+    },
+    {
+     "texto": "el",
+     "inicio": 36.28,
+     "fin": 36.44
+    },
+    {
+     "texto": "problema",
+     "inicio": 36.44,
+     "fin": 36.72
+    },
+    {
+     "texto": "no",
+     "inicio": 36.72,
+     "fin": 36.94
+    },
+    {
+     "texto": "es",
+     "inicio": 36.94,
+     "fin": 37.12
+    },
+    {
+     "texto": "el",
+     "inicio": 37.12,
+     "fin": 37.4
+    },
+    {
+     "texto": "recalentado",
+     "inicio": 37.4,
+     "fin": 38.12
+    },
+    {
+     "texto": "en",
+     "inicio": 38.12,
+     "fin": 38.32
+    },
+    {
+     "texto": "sí,",
+     "inicio": 38.32,
+     "fin": 38.54
+    },
+    {
+     "texto": "sino",
+     "inicio": 38.94,
+     "fin": 39.2
+    },
+    {
+     "texto": "el",
+     "inicio": 39.2,
+     "fin": 39.58
+    },
+    {
+     "texto": "tiempo",
+     "inicio": 39.58,
+     "fin": 40.06
+    },
+    {
+     "texto": "que",
+     "inicio": 40.06,
+     "fin": 40.4
+    },
+    {
+     "texto": "el",
+     "inicio": 40.4,
+     "fin": 40.56
+    },
+    {
+     "texto": "arroz",
+     "inicio": 40.56,
+     "fin": 40.82
+    },
+    {
+     "texto": "pasa",
+     "inicio": 40.82,
+     "fin": 41.24
+    },
+    {
+     "texto": "afuera.",
+     "inicio": 41.24,
+     "fin": 41.66
+    }
+   ],
+   "inicio": 35.22,
+   "fin": 41.66
+  },
+  {
+   "texto": "Hoy mismo, lo que sobró de la olla va a la heladera, no a la mesada.",
+   "palabras": [
+    {
+     "texto": "Hoy",
+     "inicio": 42.12,
+     "fin": 42.26
+    },
+    {
+     "texto": "mismo,",
+     "inicio": 42.26,
+     "fin": 42.58
+    },
+    {
+     "texto": "lo",
+     "inicio": 43.12,
+     "fin": 43.22
+    },
+    {
+     "texto": "que",
+     "inicio": 43.22,
+     "fin": 43.34
+    },
+    {
+     "texto": "sobró",
+     "inicio": 43.34,
+     "fin": 43.7
+    },
+    {
+     "texto": "de",
+     "inicio": 43.7,
+     "fin": 43.78
+    },
+    {
+     "texto": "la",
+     "inicio": 43.78,
+     "fin": 43.9
+    },
+    {
+     "texto": "olla",
+     "inicio": 43.9,
+     "fin": 44.08
+    },
+    {
+     "texto": "va",
+     "inicio": 44.08,
+     "fin": 44.8
+    },
+    {
+     "texto": "a",
+     "inicio": 44.8,
+     "fin": 44.94
+    },
+    {
+     "texto": "la",
+     "inicio": 44.94,
+     "fin": 44.98
+    },
+    {
+     "texto": "heladera,",
+     "inicio": 44.98,
+     "fin": 45.48
+    },
+    {
+     "texto": "no",
+     "inicio": 45.84,
+     "fin": 46.12
+    },
+    {
+     "texto": "a",
+     "inicio": 46.12,
+     "fin": 46.24
+    },
+    {
+     "texto": "la",
+     "inicio": 46.24,
+     "fin": 46.32
+    },
+    {
+     "texto": "mesada.",
+     "inicio": 46.32,
+     "fin": 46.74
+    }
+   ],
+   "inicio": 42.12,
+   "fin": 46.74
+  },
+  {
+   "texto": "Mandáselo al que deja la olla de arroz toda la tarde sobre la mesada.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 47.26,
+     "fin": 47.8
+    },
+    {
+     "texto": "al",
+     "inicio": 47.8,
+     "fin": 47.9
+    },
+    {
+     "texto": "que",
+     "inicio": 47.9,
+     "fin": 48.04
+    },
+    {
+     "texto": "deja",
+     "inicio": 48.04,
+     "fin": 48.26
+    },
+    {
+     "texto": "la",
+     "inicio": 48.26,
+     "fin": 48.38
+    },
+    {
+     "texto": "olla",
+     "inicio": 48.38,
+     "fin": 48.56
+    },
+    {
+     "texto": "de",
+     "inicio": 48.56,
+     "fin": 48.74
+    },
+    {
+     "texto": "arroz",
+     "inicio": 48.74,
+     "fin": 49.04
+    },
+    {
+     "texto": "toda",
+     "inicio": 49.04,
+     "fin": 49.36
+    },
+    {
+     "texto": "la",
+     "inicio": 49.36,
+     "fin": 49.6
+    },
+    {
+     "texto": "tarde",
+     "inicio": 49.6,
+     "fin": 49.86
+    },
+    {
+     "texto": "sobre",
+     "inicio": 49.86,
+     "fin": 50.16
+    },
+    {
+     "texto": "la",
+     "inicio": 50.16,
+     "fin": 50.32
+    },
+    {
+     "texto": "mesada.",
+     "inicio": 50.32,
+     "fin": 50.78
+    }
+   ],
+   "inicio": 47.26,
+   "fin": 50.78
+  }
+ ]
+}
