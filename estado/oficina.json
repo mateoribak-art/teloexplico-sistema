@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T20:46",
+ "actualizado": "2026-11-03T21:02",
  "oficinas": [
   {
    "clave": "es",
@@ -370,7 +370,7 @@
      "estado": "aviso",
      "resumen": "No quedan carruseles listos: el de las 16:00 no sale.",
      "cuando": "2026-11-03T20:46",
-     "hace": "recién",
+     "hace": "hace 16 min",
      "detalle": [
       "2026-11-02 17:42 descongelar-mesada: listo control OK",
       "2026-11-02 17:43 descongelar-mesada: listo control OK",
@@ -473,7 +473,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-03T20:46",
+     "cuando": "2026-11-03T21:02",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -594,7 +594,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-03T19:51",
-     "hace": "hace 55 min",
+     "hace": "hace 1 h",
      "detalle": [
       "Uso: 12 pasos · 7,825 tokens nuevos · 621,224 de caché · 1,579 escritos · equivale a US$ 0.71 de API",
       "2026-11-03 19:17 Arranca la producción (1 listos en la cola, meta 6).",
@@ -658,7 +658,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-03T19:51",
-     "hace": "hace 55 min",
+     "hace": "hace 1 h",
      "detalle": [
       "en-011-thaw-counter: aprobado — Se releyeron guion.json y caption.txt con las correcciones aplicadas. Todas las frases de salud/seguridad quedan verificadas contra USDA FSI",
       "en-012-thunder-count: aprobado — Todas las afirmaciones de seguridad y cifras estan respaldadas por paginas del NWS/NOAA (weather.gov) y las unidades coinciden (millas, 5 s ",
@@ -691,7 +691,7 @@
      "estado": "aviso",
      "resumen": "La voz no coincidió con el guion en en-012-thunder-count.",
      "cuando": "2026-11-03T19:51",
-     "hace": "hace 55 min",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [
       "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go "
@@ -717,7 +717,7 @@
      "estado": "falla",
      "resumen": "Falló el render de en-012-thunder-count.",
      "cuando": "2026-11-03T19:51",
-     "hace": "hace 55 min",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [
       "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste"
@@ -743,7 +743,7 @@
      "estado": "ok",
      "resumen": "1 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-03T19:51",
-     "hace": "hace 55 min",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -907,7 +907,7 @@
      },
      "estado": "aviso",
      "resumen": "Quedan 1 videos listos: alcanza para 0.5 día(s).",
-     "cuando": "2026-11-03T20:46",
+     "cuando": "2026-11-03T21:02",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s).",
