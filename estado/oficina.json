@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T15:39",
+ "actualizado": "2026-11-04T15:42",
  "oficinas": [
   {
    "clave": "es",
@@ -102,7 +102,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-04T15:06",
-     "hace": "hace 33 min",
+     "hace": "hace 36 min",
      "detalle": [
       "Uso: 35 pasos · 26,500 tokens nuevos · 1,431,038 de caché · 12,542 escritos · equivale a US$ 1.24 de API",
       "2026-11-04 14:25 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -200,7 +200,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-04T15:05",
-     "hace": "hace 34 min",
+     "hace": "hace 37 min",
      "detalle": [
       "027-bondi-de-brasil: aprobado — Segundo chequeo. Se sacó la cifra 1883 y 'bond = bono', y lo que quedó está respaldado y matizado. La entrada DHLE (https://www.rae.es/dhle/",
       "028-yerba-por-ano: aprobado — Segundo chequeo con búsqueda web. Las dos cifras del guion y del caption coinciden con sus fuentes: Informe Yerba Mate de la Secretaría de A",
@@ -233,7 +233,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-04T15:05",
-     "hace": "hace 34 min",
+     "hace": "hace 37 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -257,7 +257,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-04 15:05.",
      "cuando": "2026-11-04T15:05",
-     "hace": "hace 34 min",
+     "hace": "hace 37 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -281,7 +281,7 @@
      "estado": "ok",
      "resumen": "12 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-04T15:05",
-     "hace": "hace 34 min",
+     "hace": "hace 37 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -374,7 +374,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-04T15:06",
-     "hace": "hace 33 min",
+     "hace": "hace 36 min",
      "detalle": [
       "2026-11-02 22:25 descongelar-mesada: publicado https://www.instagram.com/p/DfQsmHwGg9e/",
       "2026-11-03 09:52 refresca-tormenta: apartado grande demasiado largo (17 > 14): \"lo trae la lluvia…\"",
@@ -480,7 +480,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-04T15:39",
+     "cuando": "2026-11-04T15:42",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -622,7 +622,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-04T15:39",
-     "hace": "recién",
+     "hace": "hace 3 min",
      "detalle": [
       "Uso: 22 pasos · 18,744 tokens nuevos · 892,842 de caché · 8,626 escritos · equivale a US$ 0.95 de API",
       "2026-11-04 15:06 Arranca la producción (2 listos en la cola, meta 6).",
@@ -687,7 +687,7 @@
      "estado": "aviso",
      "resumen": "Frenó 1 video(s): en-020-ac-sixty.",
      "cuando": "2026-11-04T15:39",
-     "hace": "recién",
+     "hace": "hace 3 min",
      "detalle": [
       "en-015-rain-smell: aprobado — Ninguna afirmacion es falsa ni dudosa. Las de mecanismo, fecha, autores y MIT estan verificadas con fuente primaria o institucional (CSIRO, ",
       "en-016-too-cold-snow: aprobado — Todas las afirmaciones salen de la FAQ de NOAA NSSL (verificada con fetch directo) y coinciden con NWS Central Region 'Myth Buster Monday' (",
@@ -722,7 +722,7 @@
      "estado": "aviso",
      "resumen": "La voz no coincidió con el guion en en-012-thunder-count.",
      "cuando": "2026-11-04T15:39",
-     "hace": "recién",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [
       "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go "
@@ -748,7 +748,7 @@
      "estado": "falla",
      "resumen": "Falló el render de en-012-thunder-count.",
      "cuando": "2026-11-04T15:39",
-     "hace": "recién",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [
       "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste"
@@ -774,7 +774,7 @@
      "estado": "ok",
      "resumen": "3 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-04T15:39",
-     "hace": "recién",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -938,7 +938,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: en-020-ac-sixty — chequeo rechazado 2 veces: cita del DOE solo probable (fuente primaria no legible), tema de plata",
-     "cuando": "2026-11-04T15:39",
+     "cuando": "2026-11-04T15:42",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: en-020-ac-sixty — chequeo rechazado 2 veces: cita del DOE solo probable (fuente primaria no legible), tema de plata"
@@ -952,15 +952,6 @@
   }
  ],
  "arreglos": [
-  {
-   "id": "10310312-en-chequeo",
-   "creado": "2026-10-31T03:13",
-   "estado": "fallo",
-   "firma": null,
-   "titulo": "Claude no pudo trabajar ahora",
-   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
-   "actualizado": "2026-10-31T03:13"
-  },
   {
    "id": "10310342-en-chequeo",
    "creado": "2026-10-31T03:44",
@@ -1114,6 +1105,16 @@
     "herramientas/producir.py",
     "videos/cola.json"
    ]
+  },
+  {
+   "id": "11041542-en-chequeo",
+   "creado": "2026-11-04T15:42",
+   "empleado": "en/chequeo",
+   "firma": "642380576997",
+   "estado": "pedido",
+   "auto": true,
+   "problema": "En la oficina de Nueva York (@letmeexplain.us), Grace (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): en-020-ac-sixty.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\nen-020-ac-sixty: chequeo rechazado 2 veces: cita del DOE solo probable (fuente primaria no legible), tema de plata\nRegistro:\nen-015-rain-smell: aprobado — Ninguna afirmacion es falsa ni dudosa. Las de mecanismo, fecha, autores y MIT estan verificadas con fuente primaria o institucional (CSIRO, \nen-016-too-cold-snow: aprobado — Todas las afirmaciones salen de la FAQ de NOAA NSSL (verificada con fetch directo) y coinciden con NWS Central Region 'Myth Buster Monday' (\nen-017-heat-head: aprobado — Version actual revisada de nuevo con busqueda web. La cita ahora es la correcta (Vreeman & Carroll, 'Festive medical myths', BMJ 2008;337:a2\nen-018-storm-cooldown: aprobado — Todas las afirmaciones fácticas coinciden con páginas de NWS (Binghamton 'Weather in Action: Downburst', glosario NWS de outflow boundary, p\nen-019-knuckle-crack: aprobado — Cifras y unidades coinciden con las fuentes primarias: deWeber 2011 (JABFM 24(2):169-174, https://www.jabfm.org/content/24/2/169) tuvo 215 r\nen-020-ac-sixty: rechazado — Se corrigieron los puntos del primer rechazo (ya no hay 'most home systems', ni absolutos, ni 78 F; la frase 4 quedo acotada a 'a basic air \nen-021-other-line: aprobado — Segundo chequeo con busqueda web. El unico bloqueo del",
+   "actualizado": "2026-11-04T15:42"
   }
  ]
 }

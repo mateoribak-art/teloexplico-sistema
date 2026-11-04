@@ -341,5 +341,15 @@
    "herramientas/producir.py",
    "videos/cola.json"
   ]
+ },
+ {
+  "id": "11041542-en-chequeo",
+  "creado": "2026-11-04T15:42",
+  "empleado": "en/chequeo",
+  "firma": "642380576997",
+  "estado": "pedido",
+  "auto": true,
+  "problema": "En la oficina de Nueva York (@letmeexplain.us), Grace (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): en-020-ac-sixty.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\nen-020-ac-sixty: chequeo rechazado 2 veces: cita del DOE solo probable (fuente primaria no legible), tema de plata\nRegistro:\nen-015-rain-smell: aprobado — Ninguna afirmacion es falsa ni dudosa. Las de mecanismo, fecha, autores y MIT estan verificadas con fuente primaria o institucional (CSIRO, \nen-016-too-cold-snow: aprobado — Todas las afirmaciones salen de la FAQ de NOAA NSSL (verificada con fetch directo) y coinciden con NWS Central Region 'Myth Buster Monday' (\nen-017-heat-head: aprobado — Version actual revisada de nuevo con busqueda web. La cita ahora es la correcta (Vreeman & Carroll, 'Festive medical myths', BMJ 2008;337:a2\nen-018-storm-cooldown: aprobado — Todas las afirmaciones fácticas coinciden con páginas de NWS (Binghamton 'Weather in Action: Downburst', glosario NWS de outflow boundary, p\nen-019-knuckle-crack: aprobado — Cifras y unidades coinciden con las fuentes primarias: deWeber 2011 (JABFM 24(2):169-174, https://www.jabfm.org/content/24/2/169) tuvo 215 r\nen-020-ac-sixty: rechazado — Se corrigieron los puntos del primer rechazo (ya no hay 'most home systems', ni absolutos, ni 78 F; la frase 4 quedo acotada a 'a basic air \nen-021-other-line: aprobado — Segundo chequeo con busqueda web. El unico bloqueo del",
+  "actualizado": "2026-11-04T15:42"
  }
 ]
