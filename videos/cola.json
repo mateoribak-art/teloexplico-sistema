@@ -1212,5 +1212,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "032-pelo-mojado-resfrio",
+  "tema": "¿Salir con el pelo mojado te resfría? Lo causan virus; estudio de Cardiff 2005",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-03T22:43",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-03T22:43",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-03T22:50",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-03T23:05",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

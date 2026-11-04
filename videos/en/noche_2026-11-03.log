@@ -39,3 +39,14 @@ Uso: 12 pasos · 7,825 tokens nuevos · 621,224 de caché · 1,579 escritos · e
 2026-11-03 19:22 Render de en-018-storm-cooldown (sin Claude).
 2026-11-03 19:51 en-018-storm-cooldown: listo (render sin Claude)
 2026-11-03 19:51 Termina la producción (ok).
+2026-11-03 23:06 Arranca la producción (1 listos en la cola, meta 6).
+Quedó 1 video producido y 1 sin rescatar.
+- **Listo para render:** `en-019-knuckle-crack` ("¿Crujir los nudillos da artritis?", serie Body myths #3, 3D nuevo `Nudillo.tsx`). El chequeo lo rechazó una vez porque "gas bubble" y "myth" no tenían matiz. Lo aprobó en el segundo intento, con "researchers think" y "studies haven't found". La voz salió 107/108 palabras (36 s). Está en estado `render` y lo renderiza `producir.py`.
+- **Apartado:** `en-012-thunder-count` sigue apartado. Lo frena la voz (40 %), no el chequeo, así que el rescate no aplica. `en-018-storm-cooldown` ya estaba listo de antes.
+- **Descartado:** "chargers left plugged in" (serie casa). No hallé una cifra primaria del DOE sobre cargadores y es un tema de plata.
+Uso: 58 pasos · 83,715 tokens nuevos · 1,960,967 de caché · 17,887 escritos · equivale a US$ 1.05 de API
+Permisos negados (1):
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-019-knuckle-crack; cat > chequeo.json <<'EOF'\n{\n  \"veredicto
+2026-11-03 23:15 Render de en-019-knuckle-crack (sin Claude).
+2026-11-03 23:26 en-019-knuckle-crack: listo (render sin Claude)
+2026-11-03 23:26 Termina la producción (ok).

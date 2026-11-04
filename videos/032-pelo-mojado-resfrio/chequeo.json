@@ -1,0 +1,78 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de salud y cifras quedaron verificadas contra fuente primaria (resumen de Johnson y Eccles en Family Practice 2005;22(6):608-613, y paginas del CDC). Ninguna falsa, ninguna dudosa. El matiz del estudio (pies, no pelo; sintomas reportados, sin medir virus; estudio chico) esta explicito en guion y caption, y la frase central no contradice el hallazgo porque se presenta con la salvedad. Observacion no bloqueante: el CDC (pagina Common Cold) no dice 'lavate las manos' en esa pagina, pero si lo recomienda en sus paginas de higiene y virus respiratorios, que es lo que se cita.",
+  "afirmaciones": [
+    {
+      "texto": "Lo que te resfría es un virus, no el pelo mojado.",
+      "fuente": "CDC, Common Cold (cdc.gov/common-cold/about): 'More than 200 respiratory viruses can cause colds'; la pagina no vincula el frio ni el pelo mojado con la causa. Johnson y Eccles 2005 (Family Practice 22(6):608-613) no probo pelo mojado.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Los CDC de Estados Unidos cuentan más de doscientos virus que pueden causar un resfrío.",
+      "fuente": "CDC, https://www.cdc.gov/common-cold/about/index.html ('More than 200 respiratory viruses can cause colds')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sin virus no hay resfrío: el pelo mojado solo no alcanza para explicarlo.",
+      "fuente": "CDC, Common Cold (causa viral); Johnson y Eccles 2005, resumen en PubMed 16286463 / Oxford Academic (sintomas sin medicion de virus, los autores piden mas estudios sobre la relacion con la infeccion respiratoria)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En dos mil cinco, en Cardiff, enfriaron los pies de noventa voluntarios. (caption: En 2005, en la Universidad de Cardiff, enfriaron los pies de noventa voluntarios)",
+      "fuente": "Johnson C, Eccles R. Acute cooling of the feet and the onset of common cold symptoms. Fam Pract 2005;22(6):608-613, doi:10.1093/fampra/cmi072 (Common Cold Centre, Universidad de Cardiff). 180 adultos sanos aleatorizados: 90 con enfriamiento de pies, 90 control.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Trece dijeron tener un resfrío a los pocos días.",
+      "fuente": "Mismo resumen: 13 de 90 del grupo enfriado reportaron un resfrio en los 4 a 5 dias siguientes (P = 0,047). Son reportes de sintomas.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "De los noventa que no, cinco. (caption: En el grupo de noventa que no se enfrió, cinco.)",
+      "fuente": "Mismo resumen: 5 de 90 controles (grupo de procedimiento control, sin enfriamiento).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: enfriaron pies, no pelo.",
+      "fuente": "Johnson y Eccles 2005 (titulo y resumen: enfriamiento agudo de los pies)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fue un estudio chico y no midió virus.",
+      "fuente": "Johnson y Eccles 2005: 180 participantes en total; el resumen mide sintomas reportados y los autores dicen que hacen falta estudios para relacionar los sintomas con una infeccion respiratoria. 'Chico' es una valoracion razonable para n=180.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Así que no es una condena al frío.",
+      "fuente": "Johnson y Eccles 2005: los autores concluyen que el enfriamiento de pies desencadeno sintomas en alrededor del 10% de los enfriados, es decir, efecto modesto y no determinante. Frase de cierre, consistente con ese resultado.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si querés cuidarte, lavate las manos: el virus se pasa por gotitas y superficies.",
+      "fuente": "CDC, Common Cold (gotitas al toser/estornudar y tocar una superficie contaminada y luego ojos, nariz o boca): https://www.cdc.gov/common-cold/about/index.html. CDC, Hygiene and Respiratory Viruses Prevention (https://www.cdc.gov/respiratory-viruses/prevention/hygiene.html) y Handwashing Facts (lavarse las manos reduce enfermedades respiratorias como el resfrio, 16-21%).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes: CDC (Estados Unidos); Johnson y Eccles, Universidad de Cardiff, Family Practice, 2005. (atribucion)",
+      "fuente": "Fam Pract 2005;22(6):608-613; ORCA Cardiff (orca.cardiff.ac.uk/id/eprint/71807)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "A tu vieja no le va a gustar, pero es así. / Mandáselo a esa madre que te persigue con el secador. / ¿Cuántas veces te dijeron 'secate el pelo'?",
+      "fuente": "No son afirmaciones fácticas: humor y llamado a compartir (el 'es así' remite a la causa viral, ya verificada).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

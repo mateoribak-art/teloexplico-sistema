@@ -48,3 +48,15 @@ Uso: 42 pasos · 50,455 tokens nuevos · 1,056,684 de caché · 9,860 escritos �
 2026-11-03 19:07 Render de 013-alcohol-calor (sin Claude).
 2026-11-03 19:17 013-alcohol-calor: listo (render sin Claude)
 2026-11-03 19:17 Termina la producción (ok).
+2026-11-03 22:42 Arranca la producción (10 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `032-pelo-mojado-resfrio` (serie cuerpo #3, fondo oscuro). El chequeo rechazó el primer intento porque la frase de apertura no tenía matiz, y aprobó el segundo. Quedó en estado `render` y `producir.py` lo renderiza y corre el control. La voz dura 45 s (122 palabras), un poco sobre el tope.
+- **No producido:** el segundo video. La cola tiene 10 listos, no menos de 10.
+- **Apartados:** no había ninguno por "chequeo rechazado" para rescatar. `005-granizo-calor` sigue apartado, pero por otro motivo, y el `024` ya lo reemplaza.
+Uso: 20 pasos · 16,082 tokens nuevos · 1,019,997 de caché · 6,114 escritos · equivale a US$ 1.09 de API
+2026-11-03 22:50 Render de 032-pelo-mojado-resfrio (sin Claude).
+2026-11-03 23:05 032-pelo-mojado-resfrio: listo (render sin Claude)
+2026-11-03 23:05 Termina la producción (ok).
+2026-11-03 23:05 Arranca el carrusel (0 listos, meta 2).
+`ventilador-pieza-vacia`: quedó listo (8 placas, origen `009-ventilador-pieza-vacia`, control OK y `hoja.png` revisada). Lo anoté en `videos/produccion.log`. Lo agregué con un `echo >>`, no con Edit, y no volví a leer el log para confirmarlo.
+Uso: 19 pasos · 20,205 tokens nuevos · 273,797 de caché · 3,228 escritos · equivale a US$ 0.14 de API
+2026-11-03 23:06 Termina el carrusel (ok; quedan 1 listos).

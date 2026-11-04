@@ -1,0 +1,603 @@
+{
+ "duracion": 35.77,
+ "frases": [
+  {
+   "texto": "You've been told that cracking your knuckles gives you arthritis.",
+   "palabras": [
+    {
+     "texto": "You've",
+     "inicio": 0.0,
+     "fin": 0.3
+    },
+    {
+     "texto": "been",
+     "inicio": 0.3,
+     "fin": 0.44
+    },
+    {
+     "texto": "told",
+     "inicio": 0.44,
+     "fin": 0.72
+    },
+    {
+     "texto": "that",
+     "inicio": 0.72,
+     "fin": 0.84
+    },
+    {
+     "texto": "cracking",
+     "inicio": 0.84,
+     "fin": 1.18
+    },
+    {
+     "texto": "your",
+     "inicio": 1.18,
+     "fin": 1.42
+    },
+    {
+     "texto": "knuckles",
+     "inicio": 1.42,
+     "fin": 1.84
+    },
+    {
+     "texto": "gives",
+     "inicio": 1.84,
+     "fin": 2.14
+    },
+    {
+     "texto": "you",
+     "inicio": 2.14,
+     "fin": 2.32
+    },
+    {
+     "texto": "arthritis.",
+     "inicio": 2.32,
+     "fin": 2.78
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.78
+  },
+  {
+   "texto": "Studies haven't found that.",
+   "palabras": [
+    {
+     "texto": "Studies",
+     "inicio": 3.46,
+     "fin": 3.84
+    },
+    {
+     "texto": "haven't",
+     "inicio": 3.84,
+     "fin": 4.28
+    },
+    {
+     "texto": "found",
+     "inicio": 4.28,
+     "fin": 4.48
+    },
+    {
+     "texto": "that.",
+     "inicio": 4.48,
+     "fin": 4.68
+    }
+   ],
+   "inicio": 3.46,
+   "fin": 4.68
+  },
+  {
+   "texto": "Researchers in a 2011 study surveyed over two hundred adults, ages fifty to eighty-nine.",
+   "palabras": [
+    {
+     "texto": "Researchers",
+     "inicio": 5.14,
+     "fin": 5.44
+    },
+    {
+     "texto": "in",
+     "inicio": 5.44,
+     "fin": 5.78
+    },
+    {
+     "texto": "a",
+     "inicio": 5.78,
+     "fin": 5.9
+    },
+    {
+     "texto": "2011",
+     "inicio": 5.9,
+     "fin": 6.38
+    },
+    {
+     "texto": "study",
+     "inicio": 6.38,
+     "fin": 7.02
+    },
+    {
+     "texto": "surveyed",
+     "inicio": 7.02,
+     "fin": 7.64
+    },
+    {
+     "texto": "over",
+     "inicio": 7.64,
+     "fin": 7.9
+    },
+    {
+     "texto": "two",
+     "inicio": 7.9,
+     "fin": 8.28
+    },
+    {
+     "texto": "hundred",
+     "inicio": 8.28,
+     "fin": 8.48
+    },
+    {
+     "texto": "adults,",
+     "inicio": 8.48,
+     "fin": 8.84
+    },
+    {
+     "texto": "ages",
+     "inicio": 9.36,
+     "fin": 9.62
+    },
+    {
+     "texto": "fifty",
+     "inicio": 9.62,
+     "fin": 10.02
+    },
+    {
+     "texto": "to",
+     "inicio": 10.02,
+     "fin": 10.18
+    },
+    {
+     "texto": "eighty-nine.",
+     "inicio": 10.18,
+     "fin": 10.6
+    }
+   ],
+   "inicio": 5.14,
+   "fin": 10.6
+  },
+  {
+   "texto": "People who cracked their knuckles had no more hand arthritis than people who didn't.",
+   "palabras": [
+    {
+     "texto": "People",
+     "inicio": 11.08,
+     "fin": 11.3
+    },
+    {
+     "texto": "who",
+     "inicio": 11.3,
+     "fin": 11.44
+    },
+    {
+     "texto": "cracked",
+     "inicio": 11.44,
+     "fin": 11.78
+    },
+    {
+     "texto": "their",
+     "inicio": 11.78,
+     "fin": 11.96
+    },
+    {
+     "texto": "knuckles",
+     "inicio": 11.96,
+     "fin": 12.28
+    },
+    {
+     "texto": "had",
+     "inicio": 12.28,
+     "fin": 12.52
+    },
+    {
+     "texto": "no",
+     "inicio": 12.52,
+     "fin": 12.84
+    },
+    {
+     "texto": "more",
+     "inicio": 12.84,
+     "fin": 13.08
+    },
+    {
+     "texto": "hand",
+     "inicio": 13.08,
+     "fin": 13.44
+    },
+    {
+     "texto": "arthritis",
+     "inicio": 13.44,
+     "fin": 13.84
+    },
+    {
+     "texto": "than",
+     "inicio": 13.84,
+     "fin": 14.16
+    },
+    {
+     "texto": "people",
+     "inicio": 14.16,
+     "fin": 14.44
+    },
+    {
+     "texto": "who",
+     "inicio": 14.44,
+     "fin": 14.6
+    },
+    {
+     "texto": "didn't.",
+     "inicio": 14.6,
+     "fin": 14.86
+    }
+   ],
+   "inicio": 11.08,
+   "fin": 14.86
+  },
+  {
+   "texto": "So what's the pop? An MRI study filmed it.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 15.28,
+     "fin": 15.54
+    },
+    {
+     "texto": "what's",
+     "inicio": 15.54,
+     "fin": 15.9
+    },
+    {
+     "texto": "the",
+     "inicio": 15.9,
+     "fin": 16.02
+    },
+    {
+     "texto": "pop?",
+     "inicio": 16.02,
+     "fin": 16.2
+    },
+    {
+     "texto": "An",
+     "inicio": 16.72,
+     "fin": 16.88
+    },
+    {
+     "texto": "MRI",
+     "inicio": 16.88,
+     "fin": 17.24
+    },
+    {
+     "texto": "study",
+     "inicio": 17.24,
+     "fin": 17.54
+    },
+    {
+     "texto": "filmed",
+     "inicio": 17.54,
+     "fin": 17.86
+    },
+    {
+     "texto": "it.",
+     "inicio": 17.86,
+     "fin": 18.04
+    }
+   ],
+   "inicio": 15.28,
+   "fin": 18.04
+  },
+  {
+   "texto": "A dark gap opens up in the joint as the sound happens. Researchers think it's a bubble of gas.",
+   "palabras": [
+    {
+     "texto": "A",
+     "inicio": 18.48,
+     "fin": 18.58
+    },
+    {
+     "texto": "dark",
+     "inicio": 18.58,
+     "fin": 18.82
+    },
+    {
+     "texto": "gap",
+     "inicio": 18.82,
+     "fin": 19.2
+    },
+    {
+     "texto": "opens",
+     "inicio": 19.2,
+     "fin": 19.56
+    },
+    {
+     "texto": "up",
+     "inicio": 19.56,
+     "fin": 19.76
+    },
+    {
+     "texto": "in",
+     "inicio": 19.76,
+     "fin": 19.84
+    },
+    {
+     "texto": "the",
+     "inicio": 19.84,
+     "fin": 19.92
+    },
+    {
+     "texto": "joint",
+     "inicio": 19.92,
+     "fin": 20.22
+    },
+    {
+     "texto": "as",
+     "inicio": 20.22,
+     "fin": 20.42
+    },
+    {
+     "texto": "the",
+     "inicio": 20.42,
+     "fin": 20.54
+    },
+    {
+     "texto": "sound",
+     "inicio": 20.54,
+     "fin": 20.84
+    },
+    {
+     "texto": "happens.",
+     "inicio": 20.84,
+     "fin": 21.18
+    },
+    {
+     "texto": "Researchers",
+     "inicio": 21.78,
+     "fin": 22.06
+    },
+    {
+     "texto": "think",
+     "inicio": 22.06,
+     "fin": 22.44
+    },
+    {
+     "texto": "it's",
+     "inicio": 22.44,
+     "fin": 22.64
+    },
+    {
+     "texto": "a",
+     "inicio": 22.64,
+     "fin": 22.76
+    },
+    {
+     "texto": "bubble",
+     "inicio": 22.76,
+     "fin": 22.98
+    },
+    {
+     "texto": "of",
+     "inicio": 22.98,
+     "fin": 23.14
+    },
+    {
+     "texto": "gas.",
+     "inicio": 23.14,
+     "fin": 23.38
+    }
+   ],
+   "inicio": 18.48,
+   "fin": 23.38
+  },
+  {
+   "texto": "Heads up: those are small studies, and a perfect one is almost impossible to run.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 23.98,
+     "fin": 24.16
+    },
+    {
+     "texto": "up:",
+     "inicio": 24.16,
+     "fin": 24.32
+    },
+    {
+     "texto": "those",
+     "inicio": 24.32,
+     "fin": 24.68
+    },
+    {
+     "texto": "are",
+     "inicio": 24.68,
+     "fin": 24.78
+    },
+    {
+     "texto": "small",
+     "inicio": 24.78,
+     "fin": 25.06
+    },
+    {
+     "texto": "studies,",
+     "inicio": 25.06,
+     "fin": 25.38
+    },
+    {
+     "texto": "and",
+     "inicio": 25.72,
+     "fin": 25.82
+    },
+    {
+     "texto": "a",
+     "inicio": 25.82,
+     "fin": 25.92
+    },
+    {
+     "texto": "perfect",
+     "inicio": 25.92,
+     "fin": 26.1
+    },
+    {
+     "texto": "one",
+     "inicio": 26.1,
+     "fin": 26.32
+    },
+    {
+     "texto": "is",
+     "inicio": 26.32,
+     "fin": 26.44
+    },
+    {
+     "texto": "almost",
+     "inicio": 26.44,
+     "fin": 26.66
+    },
+    {
+     "texto": "impossible",
+     "inicio": 26.66,
+     "fin": 27.04
+    },
+    {
+     "texto": "to",
+     "inicio": 27.04,
+     "fin": 27.32
+    },
+    {
+     "texto": "run.",
+     "inicio": 27.32,
+     "fin": 27.52
+    }
+   ],
+   "inicio": 23.98,
+   "fin": 27.52
+  },
+  {
+   "texto": "But so far, the pop alone isn't a reason to panic.",
+   "palabras": [
+    {
+     "texto": "But",
+     "inicio": 27.92,
+     "fin": 28.18
+    },
+    {
+     "texto": "so",
+     "inicio": 28.18,
+     "fin": 28.6
+    },
+    {
+     "texto": "far,",
+     "inicio": 28.6,
+     "fin": 28.94
+    },
+    {
+     "texto": "the",
+     "inicio": 29.18,
+     "fin": 29.5
+    },
+    {
+     "texto": "pop",
+     "inicio": 29.5,
+     "fin": 29.8
+    },
+    {
+     "texto": "alone",
+     "inicio": 29.8,
+     "fin": 30.18
+    },
+    {
+     "texto": "isn't",
+     "inicio": 30.18,
+     "fin": 30.98
+    },
+    {
+     "texto": "a",
+     "inicio": 30.98,
+     "fin": 31.12
+    },
+    {
+     "texto": "reason",
+     "inicio": 31.12,
+     "fin": 31.36
+    },
+    {
+     "texto": "to",
+     "inicio": 31.36,
+     "fin": 31.52
+    },
+    {
+     "texto": "panic.",
+     "inicio": 31.52,
+     "fin": 31.84
+    }
+   ],
+   "inicio": 27.92,
+   "fin": 31.84
+  },
+  {
+   "texto": "Send this to the friend who cracks every knuckle before typing.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 32.38,
+     "fin": 32.66
+    },
+    {
+     "texto": "this",
+     "inicio": 32.66,
+     "fin": 32.82
+    },
+    {
+     "texto": "to",
+     "inicio": 32.82,
+     "fin": 32.98
+    },
+    {
+     "texto": "the",
+     "inicio": 32.98,
+     "fin": 33.08
+    },
+    {
+     "texto": "friend",
+     "inicio": 33.08,
+     "fin": 33.32
+    },
+    {
+     "texto": "who",
+     "inicio": 33.32,
+     "fin": 33.6
+    },
+    {
+     "texto": "cracks",
+     "inicio": 33.6,
+     "fin": 33.92
+    },
+    {
+     "texto": "every",
+     "inicio": 33.92,
+     "fin": 34.52
+    },
+    {
+     "texto": "knuckle",
+     "inicio": 34.52,
+     "fin": 34.96
+    },
+    {
+     "texto": "before",
+     "inicio": 34.96,
+     "fin": 35.22
+    },
+    {
+     "texto": "typing.",
+     "inicio": 35.22,
+     "fin": 35.68
+    }
+   ],
+   "inicio": 32.38,
+   "fin": 35.68
+  }
+ ]
+}

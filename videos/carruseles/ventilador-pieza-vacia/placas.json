@@ -1,0 +1,9 @@
+{"origen": ["009-ventilador-pieza-vacia"], "serie": "mitos de casa", "placas": [
+ {"tipo": "tapa", "arriba": "¿Dejás el ventilador prendido en la pieza vacía?", "grande": "es un verso", "promesa": "deslizá y guardalo"},
+ {"tipo": "paso", "etiqueta": "// el mito", "titulo": "El ventilador no enfría la pieza", "cuerpo": "Lo único que hace es mover el aire que ya está ahí. Y ese aire no baja ni un grado.", "fuente": "Departamento de Energía de EE. UU."},
+ {"tipo": "paso", "etiqueta": "// qué pasa en tu piel", "titulo": "Te enfría a vos, no a la pieza", "cuerpo": "El aire en movimiento se lleva el calor del cuerpo y ayuda a que el sudor se evapore.", "fuente": "Departamento de Energía de EE. UU."},
+ {"tipo": "paso", "etiqueta": "// el truco", "titulo": "El sudor se evapora y se lleva calor", "cuerpo": "Cuando el sudor se evapora, se lleva calor con él. Por eso sentís fresco.", "fuente": "Física básica"},
+ {"tipo": "paso", "etiqueta": "// sin nadie en la pieza", "titulo": "Vacío no hace nada útil", "cuerpo": "Si no hay nadie para refrescar, el motor solo gasta electricidad y larga un poquito de calor.", "fuente": "Departamento de Energía de EE. UU."},
+ {"tipo": "paso", "etiqueta": "// ojo", "titulo": "Si estás adelante, sí sirve", "cuerpo": "Gasta mucho menos que un aire. Lo que no sirve es dejarlo andando solo.", "fuente": "EPB"},
+ {"tipo": "resumen", "titulo": "El ventilador, en resumen", "items": [[true, "Prendido con vos adelante"], [false, "Prendido en una pieza vacía"], [true, "Apagalo cuando salís"]]},
+ {"tipo": "cierre", "texto": "Mandáselo a ese que deja el ventilador prendido en una pieza vacía.", "serie": "mitos de casa"}]}

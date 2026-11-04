@@ -1,0 +1,20 @@
+{
+  "titulo": "¿Salir con el pelo mojado te resfría?",
+  "fondo": "oscuro",
+  "receta": "El que lo hace mal / experimento real (Cardiff 2005)",
+  "destinatario": "se lo manda un hijo a su vieja, la que lo persigue con el secador, para decirle que el resfrío viene de un virus y no del pelo mojado",
+  "fuentes": [
+    "CDC (Estados Unidos): resfrío común, más de 200 virus, se contagia por gotitas y superficies",
+    "Johnson C. y Eccles R., Universidad de Cardiff, Family Practice, 2005 (enfriamiento agudo de los pies y síntomas de resfrío)"
+  ],
+  "frases": [
+    {"texto": "Lo que te resfría es un virus, no el pelo mojado.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "A tu vieja no le va a gustar, pero es así.", "estilo": "Cómplice, con humor."},
+    {"texto": "Los CDC de Estados Unidos cuentan más de doscientos virus que pueden causar un resfrío.", "estilo": "Informativo, claro."},
+    {"texto": "Sin virus no hay resfrío: el pelo mojado solo no alcanza para explicarlo.", "estilo": "Seco, con humor."},
+    {"texto": "En dos mil cinco, en Cardiff, enfriaron los pies de noventa voluntarios. Trece dijeron tener un resfrío a los pocos días. De los noventa que no, cinco.", "estilo": "Intriga, como un experimento."},
+    {"texto": "Ojo: enfriaron pies, no pelo, fue un estudio chico y no midió virus. Así que no es una condena al frío.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Si querés cuidarte, lavate las manos: el virus se pasa por gotitas y superficies.", "estilo": "Práctico, amable."},
+    {"texto": "Mandáselo a esa madre que te persigue con el secador.", "estilo": "Cómplice, con humor."}
+  ]
+}

@@ -126,6 +126,10 @@
     "013-alcohol-calor": [
       "cuerpo",
       2
+    ],
+    "032-pelo-mojado-resfrio": [
+      "cuerpo",
+      3
     ]
   }
 }

@@ -47,7 +47,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [ ] Why is the first frost a thing? / What's a "polar vortex"? (NOAA) — invierno
 
 ## Temas de EE. UU. — serie: cuerpo (Body myths)
-- [ ] Does cracking your knuckles cause arthritis? (estudios)
+- [usada → en-019-knuckle-crack] Does cracking your knuckles cause arthritis? (estudios)
 - [usada → en-017-heat-head] Do you lose most of your heat through your head? (myth)
 - [usada → en-004-sugar-hyper] Does sugar make kids hyper? (estudios doble ciego) — Halloween
 - [ ] Does swallowed gum stay in your stomach for 7 years?

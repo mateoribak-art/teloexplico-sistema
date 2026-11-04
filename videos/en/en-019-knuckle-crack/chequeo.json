@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Cifras y unidades coinciden con las fuentes primarias: deWeber 2011 (JABFM 24(2):169-174, https://www.jabfm.org/content/24/2/169) tuvo 215 respondientes de 50 a 89 anios, con prevalencia de artrosis de mano similar entre los que crujen (18,1%) y los que no (21,5%), y concluye que el crujido habitual 'does not seem to be a risk factor for hand OA'. Kawchuk 2015 (PLOS ONE 10(4):e0119470, PMC4398549, Univ. de Alberta) uso MRI en tiempo real y mostro una cavidad que se forma en el momento del sonido. Las afirmaciones de salud estan verificadas y con el matiz adecuado ('so far', 'small studies'). Nada falso ni dudoso en cifras. Observacion menor, no bloqueante: Kawchuk fue un solo participante (10 articulaciones), lo que respalda la frase 'small studies'; deWeber es retrospectivo con sesgo de seleccion y autorreporte, tambien cubierto por esa advertencia.",
+  "afirmaciones": [
+    {
+      "texto": "You've been told that cracking your knuckles gives you arthritis.",
+      "fuente": "Creencia popular; deWeber 2011 la plantea como el mito que estudia (jabfm.org/content/24/2/169)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Studies haven't found that. / Cracking your knuckles gives you arthritis? Studies haven't found that",
+      "fuente": "deWeber et al., JABFM 2011;24(2):169-174: 'does not seem to be a risk factor for hand OA'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Researchers in a 2011 study surveyed over two hundred adults, ages fifty to eighty-nine. / In a 2011 study, researchers surveyed 215 adults ages 50 to 89.",
+      "fuente": "deWeber 2011, JABFM: 215 respondientes (de 329 invitados), edad 50-89, media 62",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "People who cracked their knuckles had no more hand arthritis than people who didn't.",
+      "fuente": "deWeber 2011: artrosis en 18,1% de los que crujen vs 21,5% de los que no; sin asociacion por duracion ni exposicion acumulada",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "So what's the pop? An MRI study filmed it. / A real-time MRI study from the University of Alberta filmed it",
+      "fuente": "Kawchuk et al., PLOS ONE 2015, 10(4):e0119470 (PMC4398549); cine MRI a 3,2 cuadros/s, grupo de la Univ. de Alberta",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "A dark gap opens up in the joint as the sound happens. Researchers think it's a bubble of gas.",
+      "fuente": "Kawchuk 2015: la cavidad se forma en la separacion rapida de la articulacion, al producirse el sonido; los autores la interpretan como cavidad gaseosa (tribonucleacion)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: those are small studies, and a perfect one is almost impossible to run.",
+      "fuente": "Tamanios reales: 215 personas (deWeber, retrospectivo, con limitaciones de sesgo de seleccion y autorreporte) y 1 participante (Kawchuk). 'Perfecto casi imposible' es un juicio sin fuente primaria",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "But so far, the pop alone isn't a reason to panic.",
+      "fuente": "Conclusion de deWeber 2011; 'so far' deja el matiz de evidencia limitada",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Send this to the friend who cracks every knuckle before typing.",
+      "fuente": "Llamado a la accion, no afirmacion factica",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

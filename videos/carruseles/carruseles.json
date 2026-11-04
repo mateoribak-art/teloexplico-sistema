@@ -137,5 +137,19 @@
     "motivo": "https://www.instagram.com/p/DfTGGAbDttM/"
    }
   ]
+ },
+ {
+  "clave": "ventilador-pieza-vacia",
+  "estado": "listo",
+  "origen": [
+   "009-ventilador-pieza-vacia"
+  ],
+  "historial": [
+   {
+    "estado": "listo",
+    "cuando": "2026-11-03T23:06",
+    "motivo": "control OK"
+   }
+  ]
  }
 ]

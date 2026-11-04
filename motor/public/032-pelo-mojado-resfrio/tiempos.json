@@ -1,0 +1,671 @@
+{
+ "duracion": 45.55,
+ "frases": [
+  {
+   "texto": "Lo que te resfría es un virus, no el pelo mojado.",
+   "palabras": [
+    {
+     "texto": "Lo",
+     "inicio": 0.0,
+     "fin": 0.16
+    },
+    {
+     "texto": "que",
+     "inicio": 0.16,
+     "fin": 0.32
+    },
+    {
+     "texto": "te",
+     "inicio": 0.32,
+     "fin": 0.48
+    },
+    {
+     "texto": "resfría",
+     "inicio": 0.48,
+     "fin": 1.02
+    },
+    {
+     "texto": "es",
+     "inicio": 1.02,
+     "fin": 1.7
+    },
+    {
+     "texto": "un",
+     "inicio": 1.7,
+     "fin": 1.86
+    },
+    {
+     "texto": "virus,",
+     "inicio": 1.86,
+     "fin": 2.24
+    },
+    {
+     "texto": "no",
+     "inicio": 2.8,
+     "fin": 3.1
+    },
+    {
+     "texto": "el",
+     "inicio": 3.1,
+     "fin": 3.26
+    },
+    {
+     "texto": "pelo",
+     "inicio": 3.26,
+     "fin": 3.42
+    },
+    {
+     "texto": "mojado.",
+     "inicio": 3.42,
+     "fin": 3.96
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.96
+  },
+  {
+   "texto": "A tu vieja no le va a gustar, pero es así.",
+   "palabras": [
+    {
+     "texto": "A",
+     "inicio": 4.64,
+     "fin": 4.72
+    },
+    {
+     "texto": "tu",
+     "inicio": 4.72,
+     "fin": 4.88
+    },
+    {
+     "texto": "vieja",
+     "inicio": 4.88,
+     "fin": 5.16
+    },
+    {
+     "texto": "no",
+     "inicio": 5.16,
+     "fin": 5.28
+    },
+    {
+     "texto": "le",
+     "inicio": 5.28,
+     "fin": 5.38
+    },
+    {
+     "texto": "va",
+     "inicio": 5.38,
+     "fin": 5.5
+    },
+    {
+     "texto": "a",
+     "inicio": 5.5,
+     "fin": 5.6
+    },
+    {
+     "texto": "gustar,",
+     "inicio": 5.6,
+     "fin": 5.98
+    },
+    {
+     "texto": "pero",
+     "inicio": 6.08,
+     "fin": 6.26
+    },
+    {
+     "texto": "es",
+     "inicio": 6.26,
+     "fin": 7.08
+    },
+    {
+     "texto": "así.",
+     "inicio": 7.08,
+     "fin": 7.32
+    }
+   ],
+   "inicio": 4.64,
+   "fin": 7.32
+  },
+  {
+   "texto": "Los CDC de Estados Unidos cuentan más de doscientos virus que pueden causar un resfrío.",
+   "palabras": [
+    {
+     "texto": "Los",
+     "inicio": 8.14,
+     "fin": 8.32
+    },
+    {
+     "texto": "CDC",
+     "inicio": 8.32,
+     "fin": 8.82
+    },
+    {
+     "texto": "de",
+     "inicio": 8.82,
+     "fin": 9.44
+    },
+    {
+     "texto": "Estados",
+     "inicio": 9.44,
+     "fin": 9.66
+    },
+    {
+     "texto": "Unidos",
+     "inicio": 9.66,
+     "fin": 10.08
+    },
+    {
+     "texto": "cuentan",
+     "inicio": 10.08,
+     "fin": 10.9
+    },
+    {
+     "texto": "más",
+     "inicio": 10.9,
+     "fin": 11.06
+    },
+    {
+     "texto": "de",
+     "inicio": 11.06,
+     "fin": 11.16
+    },
+    {
+     "texto": "doscientos",
+     "inicio": 11.16,
+     "fin": 11.84
+    },
+    {
+     "texto": "virus",
+     "inicio": 11.84,
+     "fin": 12.12
+    },
+    {
+     "texto": "que",
+     "inicio": 12.12,
+     "fin": 12.64
+    },
+    {
+     "texto": "pueden",
+     "inicio": 12.64,
+     "fin": 12.84
+    },
+    {
+     "texto": "causar",
+     "inicio": 12.84,
+     "fin": 13.22
+    },
+    {
+     "texto": "un",
+     "inicio": 13.22,
+     "fin": 13.32
+    },
+    {
+     "texto": "resfrío.",
+     "inicio": 13.32,
+     "fin": 13.74
+    }
+   ],
+   "inicio": 8.14,
+   "fin": 13.74
+  },
+  {
+   "texto": "Sin virus no hay resfrío: el pelo mojado solo no alcanza para explicarlo.",
+   "palabras": [
+    {
+     "texto": "Sin",
+     "inicio": 14.16,
+     "fin": 14.44
+    },
+    {
+     "texto": "virus",
+     "inicio": 14.44,
+     "fin": 14.82
+    },
+    {
+     "texto": "no",
+     "inicio": 15.41,
+     "fin": 15.7
+    },
+    {
+     "texto": "hay",
+     "inicio": 15.7,
+     "fin": 15.86
+    },
+    {
+     "texto": "resfrío:",
+     "inicio": 15.86,
+     "fin": 16.24
+    },
+    {
+     "texto": "el",
+     "inicio": 16.8,
+     "fin": 16.9
+    },
+    {
+     "texto": "pelo",
+     "inicio": 16.9,
+     "fin": 17.04
+    },
+    {
+     "texto": "mojado",
+     "inicio": 17.04,
+     "fin": 17.42
+    },
+    {
+     "texto": "solo",
+     "inicio": 17.42,
+     "fin": 17.66
+    },
+    {
+     "texto": "no",
+     "inicio": 17.66,
+     "fin": 17.84
+    },
+    {
+     "texto": "alcanza",
+     "inicio": 17.84,
+     "fin": 18.26
+    },
+    {
+     "texto": "para",
+     "inicio": 18.26,
+     "fin": 18.42
+    },
+    {
+     "texto": "explicarlo.",
+     "inicio": 18.42,
+     "fin": 19.0
+    }
+   ],
+   "inicio": 14.16,
+   "fin": 19.0
+  },
+  {
+   "texto": "En dos mil cinco, en Cardiff, enfriaron los pies de noventa voluntarios. Trece dijeron tener un resfrío a los pocos días. De los noventa que no, cinco.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 19.42,
+     "fin": 19.5
+    },
+    {
+     "texto": "dos",
+     "inicio": 19.5,
+     "fin": 19.62
+    },
+    {
+     "texto": "mil",
+     "inicio": 19.62,
+     "fin": 19.76
+    },
+    {
+     "texto": "cinco,",
+     "inicio": 19.76,
+     "fin": 20.12
+    },
+    {
+     "texto": "en",
+     "inicio": 20.5,
+     "fin": 20.56
+    },
+    {
+     "texto": "Cardiff,",
+     "inicio": 20.56,
+     "fin": 21.0
+    },
+    {
+     "texto": "enfriaron",
+     "inicio": 21.46,
+     "fin": 21.88
+    },
+    {
+     "texto": "los",
+     "inicio": 21.88,
+     "fin": 22.04
+    },
+    {
+     "texto": "pies",
+     "inicio": 22.04,
+     "fin": 22.22
+    },
+    {
+     "texto": "de",
+     "inicio": 22.22,
+     "fin": 22.36
+    },
+    {
+     "texto": "noventa",
+     "inicio": 22.36,
+     "fin": 22.8
+    },
+    {
+     "texto": "voluntarios.",
+     "inicio": 22.8,
+     "fin": 23.42
+    },
+    {
+     "texto": "Trece",
+     "inicio": 24.08,
+     "fin": 24.48
+    },
+    {
+     "texto": "dijeron",
+     "inicio": 24.48,
+     "fin": 24.88
+    },
+    {
+     "texto": "tener",
+     "inicio": 24.88,
+     "fin": 25.14
+    },
+    {
+     "texto": "un",
+     "inicio": 25.14,
+     "fin": 25.24
+    },
+    {
+     "texto": "resfrío",
+     "inicio": 25.24,
+     "fin": 25.6
+    },
+    {
+     "texto": "a",
+     "inicio": 25.6,
+     "fin": 25.66
+    },
+    {
+     "texto": "los",
+     "inicio": 25.66,
+     "fin": 25.72
+    },
+    {
+     "texto": "pocos",
+     "inicio": 25.72,
+     "fin": 26.0
+    },
+    {
+     "texto": "días.",
+     "inicio": 26.0,
+     "fin": 26.22
+    },
+    {
+     "texto": "De",
+     "inicio": 26.86,
+     "fin": 27.02
+    },
+    {
+     "texto": "los",
+     "inicio": 27.02,
+     "fin": 27.12
+    },
+    {
+     "texto": "noventa",
+     "inicio": 27.12,
+     "fin": 27.54
+    },
+    {
+     "texto": "que",
+     "inicio": 27.54,
+     "fin": 27.64
+    },
+    {
+     "texto": "no,",
+     "inicio": 27.64,
+     "fin": 27.84
+    },
+    {
+     "texto": "cinco.",
+     "inicio": 28.36,
+     "fin": 28.7
+    }
+   ],
+   "inicio": 19.42,
+   "fin": 28.7
+  },
+  {
+   "texto": "Ojo: enfriaron pies, no pelo, fue un estudio chico y no midió virus. Así que no es una condena al frío.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 29.36,
+     "fin": 29.62
+    },
+    {
+     "texto": "enfriaron",
+     "inicio": 30.08,
+     "fin": 30.48
+    },
+    {
+     "texto": "pies,",
+     "inicio": 30.48,
+     "fin": 30.76
+    },
+    {
+     "texto": "no",
+     "inicio": 31.4,
+     "fin": 31.54
+    },
+    {
+     "texto": "pelo,",
+     "inicio": 31.54,
+     "fin": 31.76
+    },
+    {
+     "texto": "fue",
+     "inicio": 32.34,
+     "fin": 32.46
+    },
+    {
+     "texto": "un",
+     "inicio": 32.46,
+     "fin": 32.56
+    },
+    {
+     "texto": "estudio",
+     "inicio": 32.56,
+     "fin": 32.78
+    },
+    {
+     "texto": "chico",
+     "inicio": 32.78,
+     "fin": 33.28
+    },
+    {
+     "texto": "y",
+     "inicio": 33.28,
+     "fin": 33.44
+    },
+    {
+     "texto": "no",
+     "inicio": 33.44,
+     "fin": 33.64
+    },
+    {
+     "texto": "midió",
+     "inicio": 33.64,
+     "fin": 33.96
+    },
+    {
+     "texto": "virus.",
+     "inicio": 33.96,
+     "fin": 34.3
+    },
+    {
+     "texto": "Así",
+     "inicio": 34.82,
+     "fin": 35.02
+    },
+    {
+     "texto": "que",
+     "inicio": 35.02,
+     "fin": 35.18
+    },
+    {
+     "texto": "no",
+     "inicio": 35.18,
+     "fin": 35.32
+    },
+    {
+     "texto": "es",
+     "inicio": 35.32,
+     "fin": 35.44
+    },
+    {
+     "texto": "una",
+     "inicio": 35.44,
+     "fin": 35.6
+    },
+    {
+     "texto": "condena",
+     "inicio": 35.6,
+     "fin": 36.06
+    },
+    {
+     "texto": "al",
+     "inicio": 36.06,
+     "fin": 36.14
+    },
+    {
+     "texto": "frío.",
+     "inicio": 36.14,
+     "fin": 36.44
+    }
+   ],
+   "inicio": 29.36,
+   "fin": 36.44
+  },
+  {
+   "texto": "Si querés cuidarte, lavate las manos: el virus se pasa por gotitas y superficies.",
+   "palabras": [
+    {
+     "texto": "Si",
+     "inicio": 36.94,
+     "fin": 37.06
+    },
+    {
+     "texto": "querés",
+     "inicio": 37.06,
+     "fin": 37.3
+    },
+    {
+     "texto": "cuidarte,",
+     "inicio": 37.3,
+     "fin": 37.8
+    },
+    {
+     "texto": "lavate",
+     "inicio": 38.36,
+     "fin": 38.62
+    },
+    {
+     "texto": "las",
+     "inicio": 38.62,
+     "fin": 38.76
+    },
+    {
+     "texto": "manos:",
+     "inicio": 38.76,
+     "fin": 38.98
+    },
+    {
+     "texto": "el",
+     "inicio": 39.6,
+     "fin": 39.7
+    },
+    {
+     "texto": "virus",
+     "inicio": 39.7,
+     "fin": 39.9
+    },
+    {
+     "texto": "se",
+     "inicio": 39.9,
+     "fin": 40.06
+    },
+    {
+     "texto": "pasa",
+     "inicio": 40.06,
+     "fin": 40.22
+    },
+    {
+     "texto": "por",
+     "inicio": 40.22,
+     "fin": 40.48
+    },
+    {
+     "texto": "gotitas",
+     "inicio": 40.48,
+     "fin": 41.06
+    },
+    {
+     "texto": "y",
+     "inicio": 41.06,
+     "fin": 41.28
+    },
+    {
+     "texto": "superficies.",
+     "inicio": 41.28,
+     "fin": 42.0
+    }
+   ],
+   "inicio": 36.94,
+   "fin": 42.0
+  },
+  {
+   "texto": "Mandáselo a esa madre que te persigue con el secador.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 43.14,
+     "fin": 43.58
+    },
+    {
+     "texto": "a",
+     "inicio": 43.58,
+     "fin": 43.64
+    },
+    {
+     "texto": "esa",
+     "inicio": 43.64,
+     "fin": 43.76
+    },
+    {
+     "texto": "madre",
+     "inicio": 43.76,
+     "fin": 44.08
+    },
+    {
+     "texto": "que",
+     "inicio": 44.08,
+     "fin": 44.24
+    },
+    {
+     "texto": "te",
+     "inicio": 44.24,
+     "fin": 44.38
+    },
+    {
+     "texto": "persigue",
+     "inicio": 44.38,
+     "fin": 44.76
+    },
+    {
+     "texto": "con",
+     "inicio": 44.76,
+     "fin": 44.94
+    },
+    {
+     "texto": "el",
+     "inicio": 44.94,
+     "fin": 45.06
+    },
+    {
+     "texto": "secador.",
+     "inicio": 45.06,
+     "fin": 45.42
+    }
+   ],
+   "inicio": 43.14,
+   "fin": 45.42
+  }
+ ]
+}

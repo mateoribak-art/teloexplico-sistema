@@ -1,0 +1,21 @@
+{
+  "titulo": "Does cracking your knuckles cause arthritis?",
+  "fuentes": [
+    "deWeber K, Olszewski M, Ortolano R. Knuckle cracking and hand osteoarthritis. Journal of the American Board of Family Medicine, 2011;24(2):169-174. https://www.jabfm.org/content/24/2/169 (215 respondents aged 50-89; habitual knuckle cracking 'does not seem to be a risk factor for hand OA')",
+    "Kawchuk GN et al. Real-Time Visualization of Joint Cavitation. PLOS ONE, 2015. (real-time MRI: a dark void appears in the joint at the time of the sound; authors interpret it as a gas bubble)"
+  ],
+  "destinatario": "se lo manda alguien a su amigo que cruje todos los nudillos antes de escribir para decirle que se quede tranquilo",
+  "fondo": "oscuro",
+  "receta": "el que lo hace mal (mito del cuerpo) con capa de datos",
+  "frases": [
+    {"texto": "You've been told that cracking your knuckles gives you arthritis.", "estilo": "Dry and confident, with a half smile."},
+    {"texto": "Studies haven't found that.", "estilo": "Short and punchy."},
+    {"texto": "Researchers in a 2011 study surveyed over two hundred adults, ages fifty to eighty-nine.", "estilo": "Matter of fact, setting up the evidence."},
+    {"texto": "People who cracked their knuckles had no more hand arthritis than people who didn't.", "estilo": "Emphatic, revealing the fact."},
+    {"texto": "So what's the pop? An MRI study filmed it.", "estilo": "Curious, leaning in."},
+    {"texto": "A dark gap opens up in the joint as the sound happens. Researchers think it's a bubble of gas.", "estilo": "Clear mechanism, visual."},
+    {"texto": "Heads up: those are small studies, and a perfect one is almost impossible to run.", "estilo": "Friendly, honest warning."},
+    {"texto": "But so far, the pop alone isn't a reason to panic.", "estilo": "Calm and reassuring."},
+    {"texto": "Send this to the friend who cracks every knuckle before typing.", "estilo": "Playful, with humor, as a punchline."}
+  ]
+}
