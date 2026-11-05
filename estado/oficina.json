@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T19:48",
+ "actualizado": "2026-11-04T21:04",
  "oficinas": [
   {
    "clave": "es",
@@ -109,7 +109,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-04T19:20",
-     "hace": "hace 28 min",
+     "hace": "hace 1 h",
      "detalle": [
       "Uso: 45 pasos · 86,095 tokens nuevos · 1,490,663 de caché · 16,261 escritos · equivale a US$ 1.25 de API",
       "2026-11-04 18:35 Arranca la producción (13 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -170,7 +170,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y clima/tendencias): solo resultados sin fecha verificable de hoy (julio 2026, noviembre 2025, ene-feb 2026). Des",
      "cuando": "2026-11-04T17:30",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "02/11 00:00 | Revisión radar. Búsqueda web (alertas SMN hoy): nada fechado de hoy (lo más reciente es de julio 2026). Sin tema de actualidad verificable; sigue la cola normal. Segunda pasada: descartados (a) tormentas/granizo de inicio de noviembre (Meteored sin año verificable; granizo ya tiene 005 y 024), (b) ola de calor de fines de octubre (sin fuente fechada de hoy, y calor/sensación térmica ya cubiertos en 019).",
       "03/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y clima de la semana): solo resultados de julio 2026 o de noviembre 2025 (días de la semana que no coinciden), nada fechado de hoy. Descartados: (a) tormentas/ciclogénesis del \"jueves 6 de noviembre\" (es de 2025), (b) ola de calor extrema + tormentas en AMBA (Cronista, sin fecha verificable; granizo y sensación térmica ya cubiertos), (c) El Niño/trimestral SMN (ya está 016). Sin tema verificable; sigue la cola normal.",
@@ -204,7 +204,7 @@
      "estado": "aviso",
      "resumen": "Frenó 1 video(s): 035-lavandina-vinagre.",
      "cuando": "2026-11-04T19:33",
-     "hace": "hace 15 min",
+     "hace": "hace 1 h",
      "detalle": [
       "030-fila-del-super: aprobado — Tercera pasada (técnico): se reemplazó la frase 7 (consejo del carrito lleno, sin respaldo) por un cierre sobre el sesgo de memoria, ya resp",
       "031-murcielago-ciego: aprobado — Todas las afirmaciones quedan verificadas contra las fuentes citadas, y esas fuentes respaldan lo que se les atribuye: Smithsonian (si.edu/s",
@@ -239,7 +239,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-04T19:33",
-     "hace": "hace 15 min",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -263,7 +263,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-04 19:33.",
      "cuando": "2026-11-04T19:33",
-     "hace": "hace 15 min",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -287,7 +287,7 @@
      "estado": "ok",
      "resumen": "13 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-04T19:33",
-     "hace": "hace 15 min",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -311,7 +311,7 @@
      "estado": "ok",
      "resumen": "Último: 014-celular-arroz.",
      "cuando": "2026-11-04T19:39",
-     "hace": "hace 9 min",
+     "hace": "hace 1 h",
      "detalle": [
       "04/11 19:33 014-celular-arroz publicado: https://www.instagram.com/reel/DfViXizDU90/",
       "04/11 19:34 014-celular-arroz publicado en Facebook: https://www.facebook.com/reel/1741550683598608/",
@@ -348,7 +348,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-04T19:39",
-     "hace": "hace 9 min",
+     "hace": "hace 1 h",
      "detalle": [
       "04/11 12:35 013-alcohol-calor https://youtube.com/shorts/CRigS9KRbXg | privacidad: public",
       "04/11 12:35 013-alcohol-calor paquete para TikTok/YouTube enviado",
@@ -380,7 +380,7 @@
      "estado": "ok",
      "resumen": "3 listo(s) para las 16:00.",
      "cuando": "2026-11-04T16:33",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "2026-11-03 09:53 refresca-tormenta: listo control OK",
       "2026-11-03 20:46 refresca-tormenta: publicado https://www.instagram.com/p/DfTGGAbDttM/",
@@ -415,7 +415,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:15",
-     "hace": "hace 46 h",
+     "hace": "hace 47 h",
      "detalle": [
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
       "02/11 04:22 Hay 12 comentarios nuevos: arranca la respuesta.",
@@ -454,7 +454,7 @@
      "estado": "ok",
      "resumen": "04/11: 386 seguidores",
      "cuando": "2026-11-04T03:04",
-     "hace": "hace 16 h",
+     "hace": "hace 18 h",
      "detalle": [
       "01/11: 341 seguidores",
       "02/11: 354 seguidores",
@@ -487,7 +487,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 035-lavandina-vinagre — chequeo rechazado 2 veces (frase 'lavandina sola no larga gas' sin fuente primaria explícita)",
-     "cuando": "2026-11-04T19:48",
+     "cuando": "2026-11-04T21:04",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 035-lavandina-vinagre — chequeo rechazado 2 veces (frase 'lavandina sola no larga gas' sin fuente primaria explícita)"
@@ -631,7 +631,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-04T19:37",
-     "hace": "hace 11 min",
+     "hace": "hace 1 h",
      "detalle": [
       "Uso: 44 pasos · 57,568 tokens nuevos · 1,128,669 de caché · 10,852 escritos · equivale a US$ 0.71 de API",
       "2026-11-04 19:20 Arranca la producción (3 listos en la cola, meta 6).",
@@ -666,7 +666,7 @@
      "estado": "ok",
      "resumen": "Octava pasada del radar: la búsqueda web no devolvió nada verificable de las últimas 48 h (NWS sin fecha del día, notas sin fecha). Descartados: (1) nor'easter ",
      "cuando": "2026-11-04T17:30",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "02/11 00:00 Sexta pasada del radar: la búsqueda web no devolvió clima ni tendencias verificables de las últimas 48 h (solo blogs sin fecha y notas viejas). Descartados: (1) cambio de hora (terminó el 1/11): ya publicado (en-002), el momento pasó; (2) clima de la semana: sin alerta nacional ni fuente oficial del día; (3) Sunshine Protection Act: es política, descartado. Sin tema nuevo.",
       "03/11 00:00 Séptima pasada del radar: la búsqueda web solo devolvió páginas de AccuWeather sin fecha clara y notas de 2025; nada verificable de las últimas 48 h. Descartados: (1) \"pattern flip\" de la primera semana de noviembre (AccuWeather): fecha dudosa, sin fuente oficial del día; (2) superluna del 24/11: todavía lejos; (3) cambio de hora: ya publicado (en-002), el momento pasó. Sin tema nuevo.",
@@ -696,7 +696,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-04T19:37",
-     "hace": "hace 11 min",
+     "hace": "hace 1 h",
      "detalle": [
       "en-016-too-cold-snow: aprobado — Todas las afirmaciones salen de la FAQ de NOAA NSSL (verificada con fetch directo) y coinciden con NWS Central Region 'Myth Buster Monday' (",
       "en-017-heat-head: aprobado — Version actual revisada de nuevo con busqueda web. La cita ahora es la correcta (Vreeman & Carroll, 'Festive medical myths', BMJ 2008;337:a2",
@@ -729,7 +729,7 @@
      "estado": "aviso",
      "resumen": "La voz no coincidió con el guion en en-022-power-outage-fridge.",
      "cuando": "2026-11-04T19:37",
-     "hace": "hace 11 min",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [
       "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go ",
@@ -756,7 +756,7 @@
      "estado": "falla",
      "resumen": "Falló el render de en-022-power-outage-fridge.",
      "cuando": "2026-11-04T19:37",
-     "hace": "hace 11 min",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [
       "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste",
@@ -783,7 +783,7 @@
      "estado": "ok",
      "resumen": "3 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-04T19:37",
-     "hace": "hace 11 min",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -807,7 +807,7 @@
      "estado": "ok",
      "resumen": "Último: en-019-knuckle-crack.",
      "cuando": "2026-11-04T19:41",
-     "hace": "hace 7 min",
+     "hace": "hace 1 h",
      "detalle": [
       "04/11 12:37 en-018-storm-cooldown en la bandeja de TikTok",
       "04/11 12:37 en-018-storm-cooldown paquete para TikTok/YouTube enviado",
@@ -844,7 +844,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-04T19:41",
-     "hace": "hace 7 min",
+     "hace": "hace 1 h",
      "detalle": [
       "03/11 19:35 en-017-heat-head en la bandeja de TikTok",
       "03/11 19:35 en-017-heat-head paquete para TikTok/YouTube enviado",
@@ -879,7 +879,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:16",
-     "hace": "hace 46 h",
+     "hace": "hace 47 h",
      "detalle": [
       "01/11 18:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
@@ -914,7 +914,7 @@
      "estado": "ok",
      "resumen": "04/11: 3 seguidores",
      "cuando": "2026-11-04T03:04",
-     "hace": "hace 16 h",
+     "hace": "hace 18 h",
      "detalle": [
       "01/11: 2 seguidores",
       "02/11: 3 seguidores",
@@ -947,7 +947,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: en-022-power-outage-fridge — render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it s",
-     "cuando": "2026-11-04T19:48",
+     "cuando": "2026-11-04T21:04",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: en-022-power-outage-fridge — render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it s"
