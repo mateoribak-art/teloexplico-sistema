@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T15:28",
+ "actualizado": "2026-11-05T15:50",
  "oficinas": [
   {
    "clave": "es",
@@ -7,8 +7,8 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 400,
-   "listos": 14,
-   "dias": 7.0,
+   "listos": 15,
+   "dias": 7.5,
    "proximo": "025-noquis-del-29",
    "publicados": 26,
    "pausa": false,
@@ -101,19 +101,18 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-05T08:39",
-     "hace": "hace 6 h",
+     "cuando": "2026-11-05T14:59",
+     "hace": "hace 51 min",
      "detalle": [
-      "Uso: 18 pasos · 15,656 tokens nuevos · 1,114,661 de caché · 5,260 escritos · equivale a US$ 1.27 de API",
-      "2026-11-05 08:22 Arranca la producción (14 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
-      "Resumen de la corrida:",
-      "- **Producido:** `037-perro-en-el-auto` (pilar mascotas, serie casa #6) quedó en estado `render`. El chequeo lo rechazó en el primer intento y lo aprobó en el segundo, después de corregir el año del estudio y de sacar \"a la sombra sube meno",
-      "- **Qué no verifiqué directamente:** no pude abrir el texto completo del estudio (Pediatrics 2005). Los 117 °F del día más fresco (47 °C) salen de resúmenes secundarios. La postura de la AVMA sobre perros en autos la confirmé solo por fuent",
-      "- **No hice:** un segundo video, porque la cola tenía 14 listos. Tampoco rescaté nada: el único apartado es `005-granizo-calor`, que no fue por chequeo rechazado.",
-      "Uso: 18 pasos · 15,656 tokens nuevos · 1,114,661 de caché · 5,260 escritos · equivale a US$ 1.27 de API",
-      "2026-11-05 08:29 Render de 037-perro-en-el-auto (sin Claude).",
-      "2026-11-05 08:39 037-perro-en-el-auto: listo (render sin Claude)",
-      "2026-11-05 08:39 Termina la producción (ok)."
+      "Uso: 16 pasos · 15,535 tokens nuevos · 867,418 de caché · 3,676 escritos · equivale a US$ 1.21 de API",
+      "2026-11-05 14:32 Arranca la producción (14 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
+      "- **En render:** `038-codigo-whatsapp` (estafa del código de WhatsApp, pilar `celular_estafas`). El chequeo lo rechazó la primera vez por dos frases: \"PIN\" (ahora WhatsApp usa contraseña) y \"nombre y foto\" (sin fuente). Las corregí, lo apro",
+      "- **Sin rescates ni segundo video:** `005-granizo-calor` está apartado por otro motivo, no por chequeo rechazado, así que no lo toqué. No produje un segundo video porque la cola ya tenía 13 listos.",
+      "- **Para confirmar a mano antes de publicar:** el chequeo no pudo leer la página de WhatsApp que respalda que quien toma la cuenta puede hacerse pasar por vos ante tus contactos (faq.whatsapp.com/1131652977717250). El video lo dice con \"pue",
+      "Uso: 16 pasos · 15,535 tokens nuevos · 867,418 de caché · 3,676 escritos · equivale a US$ 1.21 de API",
+      "2026-11-05 14:42 Render de 038-codigo-whatsapp (sin Claude).",
+      "2026-11-05 14:59 038-codigo-whatsapp: listo (render sin Claude)",
+      "2026-11-05 14:59 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -137,7 +136,7 @@
      "estado": "ok",
      "resumen": "Guía de referentes al día.",
      "cuando": "2026-11-05T15:28",
-     "hace": "recién",
+     "hace": "hace 22 min",
      "detalle": [
       "05/11 15:26 Arranca Vera (referentes).",
       "05/11 15:27 Reels bajados (código 0).",
@@ -166,7 +165,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y clima/tendencias): solo resultados sin fecha verificable de hoy (julio 2026, noviembre 2025, ene-feb 2026). Des",
      "cuando": "2026-11-04T17:30",
-     "hace": "hace 21 h",
+     "hace": "hace 22 h",
      "detalle": [
       "02/11 00:00 | Revisión radar. Búsqueda web (alertas SMN hoy): nada fechado de hoy (lo más reciente es de julio 2026). Sin tema de actualidad verificable; sigue la cola normal. Segunda pasada: descartados (a) tormentas/granizo de inicio de noviembre (Meteored sin año verificable; granizo ya tiene 005 y 024), (b) ola de calor de fines de octubre (sin fuente fechada de hoy, y calor/sensación térmica ya cubiertos en 019).",
       "03/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y clima de la semana): solo resultados de julio 2026 o de noviembre 2025 (días de la semana que no coinciden), nada fechado de hoy. Descartados: (a) tormentas/ciclogénesis del \"jueves 6 de noviembre\" (es de 2025), (b) ola de calor extrema + tormentas en AMBA (Cronista, sin fecha verificable; granizo y sensación térmica ya cubiertos), (c) El Niño/trimestral SMN (ya está 016). Sin tema verificable; sigue la cola normal.",
@@ -199,17 +198,17 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-05T12:33",
-     "hace": "hace 2 h",
+     "cuando": "2026-11-05T14:59",
+     "hace": "hace 51 min",
      "detalle": [
-      "031-murcielago-ciego: aprobado — Todas las afirmaciones quedan verificadas contra las fuentes citadas, y esas fuentes respaldan lo que se les atribuye: Smithsonian (si.edu/s",
       "032-pelo-mojado-resfrio: aprobado — Todas las afirmaciones de salud y cifras quedaron verificadas contra fuente primaria (resumen de Johnson y Eccles en Family Practice 2005;22",
       "033-gracias-en-el-mate: aprobado — Todas las afirmaciones fácticas tienen respaldo en fuente primaria o institucional: la nota 'Mate Day' de argentina.travel dice textualmente",
       "034-subte-linea-a: aprobado — Todas las afirmaciones tienen fuente. Las cifras y fechas (1913, 2013, Londres 1863, paseos) estan verificadas. Solo el origen del apodo 'Br",
       "034-arroz-recalentado: aprobado — Todas las afirmaciones de seguridad alimentaria quedan verificadas con fuente primaria: la página del NHS (starchy-foods-and-carbohydrates),",
       "035-lavandina-vinagre: aprobado — Tercera pasada (técnico): se reformuló la frase 7 y el caption a lo que dicen las fuentes primarias del CDC ('seguí la etiqueta', 'buena ven",
       "036-apagon-heladera: aprobado — Todas las afirmaciones de salud/seguridad alimentaria estan respaldadas por fuente primaria de EE. UU. (USDA FSIS y FoodSafety.gov) y ningun",
-      "037-perro-en-el-auto: aprobado — Todas las afirmaciones de salud, seguridad y cifras coinciden con McLaren, Null y Quinn (Pediatrics 2005;116:e109) y con la guía de la AVMA,"
+      "037-perro-en-el-auto: aprobado — Todas las afirmaciones de salud, seguridad y cifras coinciden con McLaren, Null y Quinn (Pediatrics 2005;116:e109) y con la guía de la AVMA,",
+      "038-codigo-whatsapp: aprobado — Segunda pasada. Las dos correcciones quedaron respaldadas por fuente primaria de WhatsApp: la verificación en dos pasos pasó de PIN de 6 díg"
      ],
      "tareas": [],
      "arreglo": null,
@@ -232,8 +231,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-05T12:33",
-     "hace": "hace 2 h",
+     "cuando": "2026-11-05T14:59",
+     "hace": "hace 51 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -255,14 +254,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-05 12:33.",
-     "cuando": "2026-11-05T12:33",
-     "hace": "hace 2 h",
+     "resumen": "Último video terminado: 2026-11-05 14:59.",
+     "cuando": "2026-11-05T14:59",
+     "hace": "hace 51 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "fc3164492363"
+     "firma": "9cae466eee90"
     },
     {
      "id": "control",
@@ -279,14 +278,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "14 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-05T12:33",
-     "hace": "hace 2 h",
+     "resumen": "15 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-05T14:59",
+     "hace": "hace 51 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "405cc6f33c60"
+     "firma": "66a55489ad81"
     },
     {
      "id": "publicador",
@@ -305,7 +304,7 @@
      "estado": "ok",
      "resumen": "Último: 008-aire-en-17.",
      "cuando": "2026-11-05T12:34",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "04/11 19:38 014-celular-arroz publicado: https://www.instagram.com/reel/DfVi8vhDV_A/",
       "04/11 19:38 014-celular-arroz publicado en Facebook: https://www.facebook.com/reel/4734653553478239/",
@@ -342,7 +341,7 @@
      "estado": "aviso",
      "resumen": "008-aire-en-17 falló TikTok: ^^^^^^^^",
      "cuando": "2026-11-05T12:34",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "04/11 19:34 014-celular-arroz https://youtube.com/shorts/qJYyuwbzT7M | privacidad: public",
       "04/11 19:34 014-celular-arroz paquete para TikTok/YouTube enviado",
@@ -406,7 +405,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-05T04:45",
-     "hace": "hace 10 h",
+     "hace": "hace 11 h",
      "detalle": [
       "02/11 04:22 Termina la respuesta de comentarios (con problemas).",
       "02/11 21:14 Hay 14 comentarios nuevos: arranca la respuesta.",
@@ -445,7 +444,7 @@
      "estado": "ok",
      "resumen": "05/11: 400 seguidores",
      "cuando": "2026-11-05T03:33",
-     "hace": "hace 11 h",
+     "hace": "hace 12 h",
      "detalle": [
       "02/11: 354 seguidores",
       "03/11: 365 seguidores",
@@ -478,7 +477,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-05T15:28",
+     "cuando": "2026-11-05T15:50",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -518,8 +517,8 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 3,
-   "listos": 5,
-   "dias": 2.5,
+   "listos": 6,
+   "dias": 3.0,
    "proximo": "en-020-ac-sixty",
    "publicados": 20,
    "pausa": false,
@@ -612,22 +611,22 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-05T09:19",
-     "hace": "hace 6 h",
+     "cuando": "2026-11-05T15:25",
+     "hace": "hace 25 min",
      "detalle": [
-      "Uso: 34 pasos · 64,411 tokens nuevos · 1,010,483 de caché · 7,914 escritos · equivale a US$ 0.44 de API",
-      "2026-11-05 08:39 Arranca la producción (3 listos en la cola, meta 6).",
-      "2026-11-05 08:39 Render de en-012-thunder-count (sin Claude).",
-      "2026-11-05 08:49 en-012-thunder-count: listo (render sin Claude)",
-      "2026-11-05 08:49 Render de en-022-power-outage-fridge (sin Claude).",
-      "2026-11-05 09:07 en-022-power-outage-fridge: listo (render sin Claude)",
-      "- **Listo para render:** `en-023-package-text` (texto falso de paquete, serie Home myths #5). El chequeo aprobó en el primer intento con la FTC de abril de 2025. La voz dura 34,9 s. Escena 3D con el Celular del kit, `tsc` sin errores y cuad",
-      "- **Apartados:** no había ninguno por \"chequeo rechazado\" para rescatar. Los que figuran apartados en el log son `en-012` (por la voz) y `en-020`, `en-008`, `en-014` y `en-015` (ya rescatados antes).",
-      "- **Sin completar:** el render y el control todavía no corrieron; los hace `producir.py` después. El log (`videos/en/produccion.log`) y las ideas (`videos/en/ideas.md`) están actualizados.",
-      "Uso: 34 pasos · 64,411 tokens nuevos · 1,010,483 de caché · 7,914 escritos · equivale a US$ 0.44 de API",
-      "2026-11-05 09:10 Render de en-023-package-text (sin Claude).",
-      "2026-11-05 09:19 en-023-package-text: listo (render sin Claude)",
-      "2026-11-05 09:19 Termina la producción (ok)."
+      "Uso: 45 pasos · 67,660 tokens nuevos · 1,464,867 de caché · 16,285 escritos · equivale a US$ 0.69 de API",
+      "2026-11-05 14:59 Arranca la producción (5 listos en la cola, meta 6).",
+      "El video de hoy es `en-024-heat-index` (heat index). Quedó en estado `render`, y `producir.py` lo renderiza después. Todavía no lo rendericé ni corrí el control.",
+      "- **Rescates:** no había videos apartados por \"chequeo rechazado\", así que no rescaté ninguno.",
+      "- **Video:** es una adaptación 3D de `019-sensacion-termica`, serie Weather explained #5, con los textos pasados a °F. El chequeo de datos lo hizo un subagente aparte y aprobó en el primer intento, con todo verificado contra fuentes del NWS",
+      "- **Radar:** no repetí la búsqueda del radar. La última pasada es del 4/11 y no encontró tema.",
+      "- **Pendiente:** el chequeo observó que la voz dice \"ninety-six\" y \"one hundred twenty-four\" sin \"about\", pero el caption sí lo tiene. Es menor y las cifras son las de la tabla del NWS.",
+      "Uso: 45 pasos · 67,660 tokens nuevos · 1,464,867 de caché · 16,285 escritos · equivale a US$ 0.69 de API",
+      "Permisos negados (1):",
+      "  Bash: {\"command\": \"cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-024-heat-index; cat > chequeo.json <<'EOF'\\n{\\n  \\\"veredicto\\\":",
+      "2026-11-05 15:04 Render de en-024-heat-index (sin Claude).",
+      "2026-11-05 15:25 en-024-heat-index: listo (render sin Claude)",
+      "2026-11-05 15:25 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -651,7 +650,7 @@
      "estado": "ok",
      "resumen": "Octava pasada del radar: la búsqueda web no devolvió nada verificable de las últimas 48 h (NWS sin fecha del día, notas sin fecha). Descartados: (1) nor'easter ",
      "cuando": "2026-11-04T17:30",
-     "hace": "hace 21 h",
+     "hace": "hace 22 h",
      "detalle": [
       "02/11 00:00 Sexta pasada del radar: la búsqueda web no devolvió clima ni tendencias verificables de las últimas 48 h (solo blogs sin fecha y notas viejas). Descartados: (1) cambio de hora (terminó el 1/11): ya publicado (en-002), el momento pasó; (2) clima de la semana: sin alerta nacional ni fuente oficial del día; (3) Sunshine Protection Act: es política, descartado. Sin tema nuevo.",
       "03/11 00:00 Séptima pasada del radar: la búsqueda web solo devolvió páginas de AccuWeather sin fecha clara y notas de 2025; nada verificable de las últimas 48 h. Descartados: (1) \"pattern flip\" de la primera semana de noviembre (AccuWeather): fecha dudosa, sin fuente oficial del día; (2) superluna del 24/11: todavía lejos; (3) cambio de hora: ya publicado (en-002), el momento pasó. Sin tema nuevo.",
@@ -680,17 +679,17 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-05T12:34",
-     "hace": "hace 2 h",
+     "cuando": "2026-11-05T15:25",
+     "hace": "hace 25 min",
      "detalle": [
-      "en-017-heat-head: aprobado — Version actual revisada de nuevo con busqueda web. La cita ahora es la correcta (Vreeman & Carroll, 'Festive medical myths', BMJ 2008;337:a2",
       "en-018-storm-cooldown: aprobado — Todas las afirmaciones fácticas coinciden con páginas de NWS (Binghamton 'Weather in Action: Downburst', glosario NWS de outflow boundary, p",
       "en-019-knuckle-crack: aprobado — Cifras y unidades coinciden con las fuentes primarias: deWeber 2011 (JABFM 24(2):169-174, https://www.jabfm.org/content/24/2/169) tuvo 215 r",
       "en-020-ac-sixty: aprobado — La frase 7 y el 'Heads up' del caption ahora dicen 'may never reach the number you set': es una deducción física (si la ganancia de calor su",
       "en-021-other-line: aprobado — Segundo chequeo con busqueda web. El unico bloqueo del primero (caption linea 1) esta resuelto: 'Your brain probably makes it feel that way'",
       "en-022-ears-pop: aprobado — Todas las afirmaciones de salud/seguridad quedan verificadas con fuentes de EE. UU. (Cleveland Clinic, MedlinePlus/NIH, FAA, PMC/NIH). No ha",
       "en-022-power-outage-fridge: aprobado — Segundo chequeo. Leida la pagina del CDC (cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html): 'If the doors stay closed, food wi",
-      "en-023-package-text: aprobado — Todas las afirmaciones fácticas salen de una única fuente primaria de EE. UU. (FTC Consumer Alert, abril 2025, consumer.ftc.gov) que la pági"
+      "en-023-package-text: aprobado — Todas las afirmaciones fácticas salen de una única fuente primaria de EE. UU. (FTC Consumer Alert, abril 2025, consumer.ftc.gov) que la pági",
+      "en-024-heat-index: aprobado — Todas las afirmaciones fácticas están respaldadas por fuentes primarias del NWS/NOAA, con unidades (°F) y cifras coincidentes (100°F: 15% HR"
      ],
      "tareas": [],
      "arreglo": null,
@@ -713,8 +712,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-11-05T12:34",
-     "hace": "hace 2 h",
+     "cuando": "2026-11-05T15:25",
+     "hace": "hace 25 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -736,14 +735,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-05 12:34.",
-     "cuando": "2026-11-05T12:34",
-     "hace": "hace 2 h",
+     "resumen": "Último video terminado: 2026-11-05 15:25.",
+     "cuando": "2026-11-05T15:25",
+     "hace": "hace 25 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "3f2b34fab74d"
+     "firma": "0736fa9ed388"
     },
     {
      "id": "control",
@@ -760,14 +759,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-05T12:34",
-     "hace": "hace 2 h",
+     "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-05T15:25",
+     "hace": "hace 25 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "bace1412aac6"
+     "firma": "625440fe5990"
     },
     {
      "id": "publicador",
@@ -786,7 +785,7 @@
      "estado": "ok",
      "resumen": "Último: en-012-thunder-count.",
      "cuando": "2026-11-05T12:36",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "04/11 19:36 en-019-knuckle-crack en la bandeja de TikTok",
       "04/11 19:36 en-019-knuckle-crack paquete para TikTok/YouTube enviado",
@@ -823,7 +822,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-05T12:36",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "04/11 12:37 en-018-storm-cooldown en la bandeja de TikTok",
       "04/11 12:37 en-018-storm-cooldown paquete para TikTok/YouTube enviado",
@@ -893,7 +892,7 @@
      "estado": "ok",
      "resumen": "05/11: 3 seguidores",
      "cuando": "2026-11-05T03:33",
-     "hace": "hace 11 h",
+     "hace": "hace 12 h",
      "detalle": [
       "02/11: 3 seguidores",
       "03/11: 3 seguidores",
@@ -926,7 +925,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-05T15:28",
+     "cuando": "2026-11-05T15:50",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -938,15 +937,6 @@
   }
  ],
  "arreglos": [
-  {
-   "id": "10311311-en-chequeo",
-   "creado": "2026-10-31T13:12",
-   "estado": "fallo",
-   "firma": null,
-   "titulo": "Claude no pudo trabajar ahora",
-   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
-   "actualizado": "2026-10-31T13:12"
-  },
   {
    "id": "10311729-en-chequeo",
    "creado": "2026-10-31T17:29",
@@ -1127,6 +1117,16 @@
    "archivos": [
     "videos/en/cola.json"
    ]
+  },
+  {
+   "id": "11051550-es-redes",
+   "creado": "2026-11-05T15:50",
+   "empleado": "es/redes",
+   "firma": "8a029ca5a5c1",
+   "estado": "pedido",
+   "auto": true,
+   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Facu (TikTok, YouTube y Telegram) está en \"aviso\": 008-aire-en-17 falló TikTok: ^^^^^^^^\nLo que sugiere la oficina: Si TikTok no recibió el borrador, el paquete igual llegó por Telegram: subilo a mano.\n\nRegistro:\n04/11 19:34 014-celular-arroz https://youtube.com/shorts/qJYyuwbzT7M | privacidad: public\n04/11 19:34 014-celular-arroz paquete para TikTok/YouTube enviado\n04/11 19:39 014-celular-arroz en la bandeja de TikTok\n04/11 19:39 014-celular-arroz https://youtube.com/shorts/3zLHm2ZioCw | privacidad: public\n04/11 19:39 014-celular-arroz paquete para TikTok/YouTube enviado\n05/11 12:33 008-aire-en-17 falló TikTok: ^^^^^^^^\n05/11 12:34 008-aire-en-17 https://youtube.com/shorts/naPBvj3IOJg | privacidad: public\n05/11 12:34 008-aire-en-17 paquete para TikTok/YouTube enviado",
+   "actualizado": "2026-11-05T15:50"
   }
  ]
 }
