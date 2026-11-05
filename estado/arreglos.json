@@ -398,12 +398,18 @@
  },
  {
   "id": "11051550-es-redes",
-  "creado": "2026-11-05T15:50",
+  "creado": "2026-11-05T15:51",
   "empleado": "es/redes",
-  "firma": "8a029ca5a5c1",
-  "estado": "pedido",
+  "estado": "aplicado",
   "auto": true,
   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Facu (TikTok, YouTube y Telegram) está en \"aviso\": 008-aire-en-17 falló TikTok: ^^^^^^^^\nLo que sugiere la oficina: Si TikTok no recibió el borrador, el paquete igual llegó por Telegram: subilo a mano.\n\nRegistro:\n04/11 19:34 014-celular-arroz https://youtube.com/shorts/qJYyuwbzT7M | privacidad: public\n04/11 19:34 014-celular-arroz paquete para TikTok/YouTube enviado\n04/11 19:39 014-celular-arroz en la bandeja de TikTok\n04/11 19:39 014-celular-arroz https://youtube.com/shorts/3zLHm2ZioCw | privacidad: public\n04/11 19:39 014-celular-arroz paquete para TikTok/YouTube enviado\n05/11 12:33 008-aire-en-17 falló TikTok: ^^^^^^^^\n05/11 12:34 008-aire-en-17 https://youtube.com/shorts/naPBvj3IOJg | privacidad: public\n05/11 12:34 008-aire-en-17 paquete para TikTok/YouTube enviado",
-  "actualizado": "2026-11-05T15:50"
+  "firma": "8a029ca5a5c1",
+  "actualizado": "2026-11-05T15:52",
+  "titulo": "TikTok no recibió el 008 porque no pudo leer el token guardado; arreglé un fallo probable en la sincronización",
+  "resumen": "Al subir el 008, `publicar_tiktok.py` encontró el token de TikTok (el archivo cifrado `tiktok_token.enc`) con bytes ilegibles. No pude confirmarlo: no tengo acceso al historial de git ni a la clave. La causa más probable es que `sincronizar.py` trataba como texto ese archivo binario cuando había un conflicto al sincronizar, y lo rompía. Cambié eso para que ese archivo se copie tal cual. Instagram, Facebook y YouTube salieron bien, y el paquete llegó por Telegram, así que el 008 se puede subir a mano a TikTok. El publicador del turno de las 19:30 va a mostrar si el token sigue roto.",
+  "commit": "1bca55477a41cc045ed019b5d43fd51f723cf6e1",
+  "archivos": [
+   "herramientas/sincronizar.py"
+  ]
  }
 ]
