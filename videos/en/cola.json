@@ -376,7 +376,7 @@
  {
   "slug": "en-012-thunder-count",
   "tema": "How far away is the storm? Count flash to thunder (adapted from 018)",
-  "estado": "apartado",
+  "estado": "render",
   "historial": [
    {
     "estado": "idea",
@@ -437,6 +437,11 @@
     "estado": "apartado",
     "cuando": "2026-11-03T10:12",
     "motivo": "render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who steps outside to film the lightning. Count fifteen, and the thunder.\nPROBLEMAS:\n- la voz no coincide con el guion (40%)"
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-05T06:40",
+    "motivo": "oficina: control.py ahora hace una pasada de Whisper sin pista; se renderiza y controla de nuevo"
    }
   ]
  },
@@ -763,7 +768,7 @@
  {
   "slug": "en-022-power-outage-fridge",
   "tema": "Power outage: keep the fridge shut (USDA: 4 hours; pillar kitchen/weather action)",
-  "estado": "apartado",
+  "estado": "render",
   "historial": [
    {
     "estado": "idea",
@@ -794,6 +799,11 @@
     "estado": "apartado",
     "cuando": "2026-11-04T23:31",
     "motivo": "render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it today before the next storm. Send this to the friend who opens the fridge every 10 minutes during a blackout.\nPROBLEMAS:\n- la voz no coincide con el guion (33%)"
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-05T06:40",
+    "motivo": "oficina: control.py ahora hace una pasada de Whisper sin pista; se renderiza y controla de nuevo"
    }
   ]
  },
