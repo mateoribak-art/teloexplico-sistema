@@ -64,7 +64,15 @@ def publicar(clave, probar=False):
         hijos.append(h['id'])
         print(f'  placa {n}: ok')
 
-    cont = pedir('POST', f'{API}/{ig}/media', {'media_type': 'CAROUSEL', 'children': ','.join(hijos), 'caption': caption, 'access_token': token})
+    for intento in range(4):  # Instagram a veces devuelve un 500 pasajero; armar el contenedor se puede repetir sin riesgo
+        try:
+            cont = pedir('POST', f'{API}/{ig}/media', {'media_type': 'CAROUSEL', 'children': ','.join(hijos), 'caption': caption, 'access_token': token})
+            break
+        except SystemExit as e:
+            if intento == 3 or '(500)' not in str(e.code):
+                raise
+            print(f'  Instagram dio 500 al armar el carrusel; reintento {intento + 1}/3')
+            time.sleep(20 * (intento + 1))
     if esperar(cont['id'], token) != 'FINISHED':
         sys.exit('Instagram no terminó de armar el carrusel.')
     if probar:
