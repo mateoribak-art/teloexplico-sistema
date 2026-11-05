@@ -156,6 +156,14 @@ def resolver_conflictos():
         if not en_conflicto:
             return True
         for ruta in en_conflicto:
+            if ruta.endswith('.enc'):  # token cifrado: es binario, pasarlo por texto lo rompe; gana el último (:3:)
+                crudo = subprocess.run(['git', 'show', f':3:{ruta}'], cwd=RAIZ, capture_output=True)
+                if crudo.returncode != 0:
+                    return False
+                open(os.path.join(RAIZ, ruta), 'wb').write(crudo.stdout)
+                correr('git', 'add', ruta)
+                print(f'combinado: {ruta}')
+                continue
             remoto, local = correr('git', 'show', f':2:{ruta}'), correr('git', 'show', f':3:{ruta}')
             if remoto.returncode != 0 or local.returncode != 0:
                 return False  # borrado de un lado: no se adivina
