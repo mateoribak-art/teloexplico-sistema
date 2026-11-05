@@ -1,0 +1,21 @@
+{
+  "titulo": "Dejás al perro en el auto un minutito con la ventana abierta: el auto se calienta mucho más rápido de lo que creés",
+  "fondo": "oscuro",
+  "receta": "El que lo hace mal / pilar mascotas",
+  "pilar": "mascotas",
+  "destinatario": "se lo manda alguien que tiene perro a su amigo o a su viejo, el que deja al perro 'un minutito' en el auto mientras entra a comprar, para decirle que no lo haga",
+  "regla_guardable": "Auto al sol: sube casi 2 grados cada 5 minutos. La ventana entreabierta no lo frena. Un minutito no existe: llevalo con vos.",
+  "fuentes": [
+    "Revista Pediatrics (Academia Estadounidense de Pediatría), 2005: McLaren, Null y Quinn, Heat Stress From Enclosed Vehicles"
+  ],
+  "frases": [
+    {"texto": "Lo dejás en el auto un minutito, con la ventana entreabierta, y creés que está bien.", "estilo": "Seco, directo, a cámara."},
+    {"texto": "Pero un auto cerrado al sol se calienta rapidísimo, y la ventana entreabierta casi no cambia nada.", "estilo": "Contundente."},
+    {"texto": "En dos mil cinco, la revista Pediatrics, de Estados Unidos, publicó un estudio que midió un auto oscuro al sol durante una hora.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Con entre veintidós y treinta y seis grados afuera, adentro subió casi dos grados cada cinco minutos.", "estilo": "Informativo, con intriga."},
+    {"texto": "Y hasta el día más fresco, con veintidós grados afuera, el auto llegó a cuarenta y siete adentro.", "estilo": "Serio, que pesa."},
+    {"texto": "Ojo: fue un auto oscuro y días de sol, y el estudio no midió a la sombra. Pero un perro adentro no puede salir, y arriesga un golpe de calor.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Hoy, si vas a bajar del auto, llevalo con vos. Un minutito se estira.", "estilo": "Práctico, amable."},
+    {"texto": "Mandáselo al que lo deja un minutito en el auto.", "estilo": "Cómplice, con humor."}
+  ]
+}

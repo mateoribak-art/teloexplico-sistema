@@ -1,0 +1,9 @@
+2026-11-05 08:22 Arranca la producción (14 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Resumen de la corrida:
+- **Producido:** `037-perro-en-el-auto` (pilar mascotas, serie casa #6) quedó en estado `render`. El chequeo lo rechazó en el primer intento y lo aprobó en el segundo, después de corregir el año del estudio y de sacar "a la sombra sube menos". Voz de 47 s, 3D nuevo (`AutoCalor.tsx`), `tsc` sin errores y 2 vueltas de cuadros. El render y el paso a `listo` los hace `producir.py`.
+- **Qué no verifiqué directamente:** no pude abrir el texto completo del estudio (Pediatrics 2005). Los 117 °F del día más fresco (47 °C) salen de resúmenes secundarios. La postura de la AVMA sobre perros en autos la confirmé solo por fuentes que la citan.
+- **No hice:** un segundo video, porque la cola tenía 14 listos. Tampoco rescaté nada: el único apartado es `005-granizo-calor`, que no fue por chequeo rechazado.
+Uso: 18 pasos · 15,656 tokens nuevos · 1,114,661 de caché · 5,260 escritos · equivale a US$ 1.27 de API
+2026-11-05 08:29 Render de 037-perro-en-el-auto (sin Claude).
+2026-11-05 08:39 037-perro-en-el-auto: listo (render sin Claude)
+2026-11-05 08:39 Termina la producción (ok).

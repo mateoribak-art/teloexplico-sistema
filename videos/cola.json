@@ -1384,5 +1384,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "037-perro-en-el-auto",
+  "tema": "Perro encerrado en el auto: cuánto sube la temperatura (Pediatrics 2005)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-05T08:23",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-05T08:23",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-05T08:29",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-05T08:39",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

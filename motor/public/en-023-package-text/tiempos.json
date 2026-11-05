@@ -1,0 +1,596 @@
+{
+ "duracion": 34.91,
+ "frases": [
+  {
+   "texto": "Your phone says a package is stuck, and you tap the link to fix it.",
+   "palabras": [
+    {
+     "texto": "Your",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "phone",
+     "inicio": 0.14,
+     "fin": 0.4
+    },
+    {
+     "texto": "says",
+     "inicio": 0.4,
+     "fin": 0.74
+    },
+    {
+     "texto": "a",
+     "inicio": 0.74,
+     "fin": 1.1
+    },
+    {
+     "texto": "package",
+     "inicio": 1.1,
+     "fin": 1.44
+    },
+    {
+     "texto": "is",
+     "inicio": 1.44,
+     "fin": 1.74
+    },
+    {
+     "texto": "stuck,",
+     "inicio": 1.74,
+     "fin": 2.12
+    },
+    {
+     "texto": "and",
+     "inicio": 2.36,
+     "fin": 2.54
+    },
+    {
+     "texto": "you",
+     "inicio": 2.54,
+     "fin": 3.18
+    },
+    {
+     "texto": "tap",
+     "inicio": 3.18,
+     "fin": 3.54
+    },
+    {
+     "texto": "the",
+     "inicio": 3.54,
+     "fin": 3.72
+    },
+    {
+     "texto": "link",
+     "inicio": 3.72,
+     "fin": 3.88
+    },
+    {
+     "texto": "to",
+     "inicio": 3.88,
+     "fin": 4.08
+    },
+    {
+     "texto": "fix",
+     "inicio": 4.08,
+     "fin": 4.28
+    },
+    {
+     "texto": "it.",
+     "inicio": 4.28,
+     "fin": 4.48
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.48
+  },
+  {
+   "texto": "That's exactly what the scammer wants.",
+   "palabras": [
+    {
+     "texto": "That's",
+     "inicio": 4.88,
+     "fin": 5.32
+    },
+    {
+     "texto": "exactly",
+     "inicio": 5.32,
+     "fin": 5.82
+    },
+    {
+     "texto": "what",
+     "inicio": 5.82,
+     "fin": 6.02
+    },
+    {
+     "texto": "the",
+     "inicio": 6.02,
+     "fin": 6.16
+    },
+    {
+     "texto": "scammer",
+     "inicio": 6.16,
+     "fin": 6.46
+    },
+    {
+     "texto": "wants.",
+     "inicio": 6.46,
+     "fin": 6.72
+    }
+   ],
+   "inicio": 4.88,
+   "fin": 6.72
+  },
+  {
+   "texto": "The FTC says these texts claim unpaid postage, a missed delivery, or a shipping update.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 7.24,
+     "fin": 7.38
+    },
+    {
+     "texto": "FTC",
+     "inicio": 7.38,
+     "fin": 7.78
+    },
+    {
+     "texto": "says",
+     "inicio": 7.78,
+     "fin": 8.18
+    },
+    {
+     "texto": "these",
+     "inicio": 8.18,
+     "fin": 8.44
+    },
+    {
+     "texto": "texts",
+     "inicio": 8.44,
+     "fin": 9.02
+    },
+    {
+     "texto": "claim",
+     "inicio": 9.02,
+     "fin": 9.26
+    },
+    {
+     "texto": "unpaid",
+     "inicio": 9.26,
+     "fin": 9.74
+    },
+    {
+     "texto": "postage,",
+     "inicio": 9.74,
+     "fin": 10.44
+    },
+    {
+     "texto": "a",
+     "inicio": 10.7,
+     "fin": 10.74
+    },
+    {
+     "texto": "missed",
+     "inicio": 10.74,
+     "fin": 10.92
+    },
+    {
+     "texto": "delivery,",
+     "inicio": 10.92,
+     "fin": 11.36
+    },
+    {
+     "texto": "or",
+     "inicio": 11.62,
+     "fin": 11.76
+    },
+    {
+     "texto": "a",
+     "inicio": 11.76,
+     "fin": 12.1
+    },
+    {
+     "texto": "shipping",
+     "inicio": 12.1,
+     "fin": 12.3
+    },
+    {
+     "texto": "update.",
+     "inicio": 12.3,
+     "fin": 12.7
+    }
+   ],
+   "inicio": 7.24,
+   "fin": 12.7
+  },
+  {
+   "texto": "The link leads to a look-alike of a real website, where you're told to enter personal or financial information.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 13.14,
+     "fin": 13.24
+    },
+    {
+     "texto": "link",
+     "inicio": 13.24,
+     "fin": 13.38
+    },
+    {
+     "texto": "leads",
+     "inicio": 13.38,
+     "fin": 13.62
+    },
+    {
+     "texto": "to",
+     "inicio": 13.62,
+     "fin": 13.86
+    },
+    {
+     "texto": "a",
+     "inicio": 13.86,
+     "fin": 13.96
+    },
+    {
+     "texto": "look-alike",
+     "inicio": 13.96,
+     "fin": 14.4
+    },
+    {
+     "texto": "of",
+     "inicio": 14.4,
+     "fin": 14.56
+    },
+    {
+     "texto": "a",
+     "inicio": 14.56,
+     "fin": 14.66
+    },
+    {
+     "texto": "real",
+     "inicio": 14.66,
+     "fin": 14.92
+    },
+    {
+     "texto": "website,",
+     "inicio": 14.92,
+     "fin": 15.44
+    },
+    {
+     "texto": "where",
+     "inicio": 15.68,
+     "fin": 15.86
+    },
+    {
+     "texto": "you're",
+     "inicio": 15.86,
+     "fin": 16.06
+    },
+    {
+     "texto": "told",
+     "inicio": 16.06,
+     "fin": 16.32
+    },
+    {
+     "texto": "to",
+     "inicio": 16.32,
+     "fin": 16.46
+    },
+    {
+     "texto": "enter",
+     "inicio": 16.46,
+     "fin": 16.62
+    },
+    {
+     "texto": "personal",
+     "inicio": 16.62,
+     "fin": 17.14
+    },
+    {
+     "texto": "or",
+     "inicio": 17.14,
+     "fin": 17.42
+    },
+    {
+     "texto": "financial",
+     "inicio": 17.42,
+     "fin": 17.8
+    },
+    {
+     "texto": "information.",
+     "inicio": 17.8,
+     "fin": 18.46
+    }
+   ],
+   "inicio": 13.14,
+   "fin": 18.46
+  },
+  {
+   "texto": "Heads up: a real package might be on its way. Just don't use the link in the text.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 19.06,
+     "fin": 19.3
+    },
+    {
+     "texto": "up:",
+     "inicio": 19.3,
+     "fin": 19.46
+    },
+    {
+     "texto": "a",
+     "inicio": 19.64,
+     "fin": 19.76
+    },
+    {
+     "texto": "real",
+     "inicio": 19.76,
+     "fin": 20.0
+    },
+    {
+     "texto": "package",
+     "inicio": 20.0,
+     "fin": 20.34
+    },
+    {
+     "texto": "might",
+     "inicio": 20.34,
+     "fin": 20.74
+    },
+    {
+     "texto": "be",
+     "inicio": 20.74,
+     "fin": 21.0
+    },
+    {
+     "texto": "on",
+     "inicio": 21.0,
+     "fin": 21.2
+    },
+    {
+     "texto": "its",
+     "inicio": 21.2,
+     "fin": 21.32
+    },
+    {
+     "texto": "way.",
+     "inicio": 21.32,
+     "fin": 21.54
+    },
+    {
+     "texto": "Just",
+     "inicio": 21.98,
+     "fin": 22.18
+    },
+    {
+     "texto": "don't",
+     "inicio": 22.18,
+     "fin": 22.62
+    },
+    {
+     "texto": "use",
+     "inicio": 22.62,
+     "fin": 22.84
+    },
+    {
+     "texto": "the",
+     "inicio": 22.84,
+     "fin": 23.0
+    },
+    {
+     "texto": "link",
+     "inicio": 23.0,
+     "fin": 23.22
+    },
+    {
+     "texto": "in",
+     "inicio": 23.22,
+     "fin": 23.34
+    },
+    {
+     "texto": "the",
+     "inicio": 23.34,
+     "fin": 23.42
+    },
+    {
+     "texto": "text.",
+     "inicio": 23.42,
+     "fin": 23.68
+    }
+   ],
+   "inicio": 19.06,
+   "fin": 23.68
+  },
+  {
+   "texto": "Instead, check tracking through the store where you ordered.",
+   "palabras": [
+    {
+     "texto": "Instead,",
+     "inicio": 24.16,
+     "fin": 24.52
+    },
+    {
+     "texto": "check",
+     "inicio": 24.94,
+     "fin": 25.1
+    },
+    {
+     "texto": "tracking",
+     "inicio": 25.1,
+     "fin": 25.46
+    },
+    {
+     "texto": "through",
+     "inicio": 25.46,
+     "fin": 25.7
+    },
+    {
+     "texto": "the",
+     "inicio": 25.7,
+     "fin": 25.84
+    },
+    {
+     "texto": "store",
+     "inicio": 25.84,
+     "fin": 26.08
+    },
+    {
+     "texto": "where",
+     "inicio": 26.08,
+     "fin": 26.26
+    },
+    {
+     "texto": "you",
+     "inicio": 26.26,
+     "fin": 26.4
+    },
+    {
+     "texto": "ordered.",
+     "inicio": 26.4,
+     "fin": 26.64
+    }
+   ],
+   "inicio": 24.16,
+   "fin": 26.64
+  },
+  {
+   "texto": "Then report the text in your messaging app, or forward it to seven seven two six.",
+   "palabras": [
+    {
+     "texto": "Then",
+     "inicio": 26.64,
+     "fin": 27.38
+    },
+    {
+     "texto": "report",
+     "inicio": 27.38,
+     "fin": 27.84
+    },
+    {
+     "texto": "the",
+     "inicio": 27.84,
+     "fin": 28.06
+    },
+    {
+     "texto": "text",
+     "inicio": 28.06,
+     "fin": 28.3
+    },
+    {
+     "texto": "in",
+     "inicio": 28.3,
+     "fin": 28.48
+    },
+    {
+     "texto": "your",
+     "inicio": 28.48,
+     "fin": 28.58
+    },
+    {
+     "texto": "messaging",
+     "inicio": 28.58,
+     "fin": 28.84
+    },
+    {
+     "texto": "app,",
+     "inicio": 28.84,
+     "fin": 29.18
+    },
+    {
+     "texto": "or",
+     "inicio": 29.36,
+     "fin": 29.52
+    },
+    {
+     "texto": "forward",
+     "inicio": 29.52,
+     "fin": 29.9
+    },
+    {
+     "texto": "it",
+     "inicio": 29.9,
+     "fin": 30.06
+    },
+    {
+     "texto": "to",
+     "inicio": 30.06,
+     "fin": 30.26
+    },
+    {
+     "texto": "seven",
+     "inicio": 30.26,
+     "fin": 30.58
+    },
+    {
+     "texto": "seven",
+     "inicio": 30.58,
+     "fin": 30.92
+    },
+    {
+     "texto": "two",
+     "inicio": 30.92,
+     "fin": 31.24
+    },
+    {
+     "texto": "six.",
+     "inicio": 31.24,
+     "fin": 31.54
+    }
+   ],
+   "inicio": 26.64,
+   "fin": 31.54
+  },
+  {
+   "texto": "Send this to the friend who taps every link.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 32.02,
+     "fin": 32.32
+    },
+    {
+     "texto": "this",
+     "inicio": 32.32,
+     "fin": 32.56
+    },
+    {
+     "texto": "to",
+     "inicio": 32.56,
+     "fin": 32.74
+    },
+    {
+     "texto": "the",
+     "inicio": 32.74,
+     "fin": 32.86
+    },
+    {
+     "texto": "friend",
+     "inicio": 32.86,
+     "fin": 33.16
+    },
+    {
+     "texto": "who",
+     "inicio": 33.16,
+     "fin": 33.42
+    },
+    {
+     "texto": "taps",
+     "inicio": 33.42,
+     "fin": 33.9
+    },
+    {
+     "texto": "every",
+     "inicio": 33.9,
+     "fin": 34.44
+    },
+    {
+     "texto": "link.",
+     "inicio": 34.44,
+     "fin": 34.72
+    }
+   ],
+   "inicio": 32.02,
+   "fin": 34.72
+  }
+ ]
+}

@@ -376,7 +376,7 @@
  {
   "slug": "en-012-thunder-count",
   "tema": "How far away is the storm? Count flash to thunder (adapted from 018)",
-  "estado": "render",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -442,6 +442,11 @@
     "estado": "render",
     "cuando": "2026-11-05T06:40",
     "motivo": "oficina: control.py ahora hace una pasada de Whisper sin pista; se renderiza y controla de nuevo"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-05T08:49",
+    "motivo": "render sin Claude"
    }
   ]
  },
@@ -768,7 +773,7 @@
  {
   "slug": "en-022-power-outage-fridge",
   "tema": "Power outage: keep the fridge shut (USDA: 4 hours; pillar kitchen/weather action)",
-  "estado": "render",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -804,13 +809,18 @@
     "estado": "render",
     "cuando": "2026-11-05T06:40",
     "motivo": "oficina: control.py ahora hace una pasada de Whisper sin pista; se renderiza y controla de nuevo"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-05T09:07",
+    "motivo": "render sin Claude"
    }
   ]
  },
  {
   "slug": "en-023-package-text",
   "tema": "Package text scam: don't tap, forward to 7726 (FTC; pillar phone scams)",
-  "estado": "produccion",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -821,6 +831,16 @@
     "estado": "produccion",
     "cuando": "2026-11-04T23:32",
     "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-05T09:10",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-05T09:19",
+    "motivo": "render sin Claude"
    }
   ]
  }

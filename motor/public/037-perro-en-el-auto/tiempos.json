@@ -1,0 +1,786 @@
+{
+ "duracion": 47.32,
+ "frases": [
+  {
+   "texto": "Lo dejás en el auto un minutito, con la ventana entreabierta, y creés que está bien.",
+   "palabras": [
+    {
+     "texto": "Lo",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "dejás",
+     "inicio": 0.14,
+     "fin": 0.4
+    },
+    {
+     "texto": "en",
+     "inicio": 0.4,
+     "fin": 0.56
+    },
+    {
+     "texto": "el",
+     "inicio": 0.56,
+     "fin": 0.68
+    },
+    {
+     "texto": "auto",
+     "inicio": 0.68,
+     "fin": 0.86
+    },
+    {
+     "texto": "un",
+     "inicio": 0.86,
+     "fin": 1.02
+    },
+    {
+     "texto": "minutito,",
+     "inicio": 1.02,
+     "fin": 1.48
+    },
+    {
+     "texto": "con",
+     "inicio": 1.9,
+     "fin": 2.08
+    },
+    {
+     "texto": "la",
+     "inicio": 2.08,
+     "fin": 2.18
+    },
+    {
+     "texto": "ventana",
+     "inicio": 2.18,
+     "fin": 2.5
+    },
+    {
+     "texto": "entreabierta,",
+     "inicio": 2.5,
+     "fin": 3.12
+    },
+    {
+     "texto": "y",
+     "inicio": 3.56,
+     "fin": 3.72
+    },
+    {
+     "texto": "creés",
+     "inicio": 3.72,
+     "fin": 3.98
+    },
+    {
+     "texto": "que",
+     "inicio": 3.98,
+     "fin": 3.98
+    },
+    {
+     "texto": "está",
+     "inicio": 3.98,
+     "fin": 4.14
+    },
+    {
+     "texto": "bien.",
+     "inicio": 4.14,
+     "fin": 4.38
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.38
+  },
+  {
+   "texto": "Pero un auto cerrado al sol se calienta rapidísimo, y la ventana entreabierta casi no cambia nada.",
+   "palabras": [
+    {
+     "texto": "Pero",
+     "inicio": 4.84,
+     "fin": 5.02
+    },
+    {
+     "texto": "un",
+     "inicio": 5.02,
+     "fin": 5.18
+    },
+    {
+     "texto": "auto",
+     "inicio": 5.18,
+     "fin": 5.36
+    },
+    {
+     "texto": "cerrado",
+     "inicio": 5.36,
+     "fin": 5.76
+    },
+    {
+     "texto": "al",
+     "inicio": 5.76,
+     "fin": 5.92
+    },
+    {
+     "texto": "sol",
+     "inicio": 5.92,
+     "fin": 6.2
+    },
+    {
+     "texto": "se",
+     "inicio": 6.2,
+     "fin": 6.88
+    },
+    {
+     "texto": "calienta",
+     "inicio": 6.88,
+     "fin": 7.22
+    },
+    {
+     "texto": "rapidísimo,",
+     "inicio": 7.22,
+     "fin": 7.86
+    },
+    {
+     "texto": "y",
+     "inicio": 8.38,
+     "fin": 8.48
+    },
+    {
+     "texto": "la",
+     "inicio": 8.48,
+     "fin": 8.58
+    },
+    {
+     "texto": "ventana",
+     "inicio": 8.58,
+     "fin": 8.9
+    },
+    {
+     "texto": "entreabierta",
+     "inicio": 8.9,
+     "fin": 9.58
+    },
+    {
+     "texto": "casi",
+     "inicio": 9.58,
+     "fin": 9.8
+    },
+    {
+     "texto": "no",
+     "inicio": 9.8,
+     "fin": 9.98
+    },
+    {
+     "texto": "cambia",
+     "inicio": 9.98,
+     "fin": 10.22
+    },
+    {
+     "texto": "nada.",
+     "inicio": 10.22,
+     "fin": 10.54
+    }
+   ],
+   "inicio": 4.84,
+   "fin": 10.54
+  },
+  {
+   "texto": "En dos mil cinco, la revista Pediatrics, de Estados Unidos, publicó un estudio que midió un auto oscuro al sol durante una hora.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 11.06,
+     "fin": 11.18
+    },
+    {
+     "texto": "dos",
+     "inicio": 11.18,
+     "fin": 11.26
+    },
+    {
+     "texto": "mil",
+     "inicio": 11.26,
+     "fin": 11.38
+    },
+    {
+     "texto": "cinco,",
+     "inicio": 11.38,
+     "fin": 11.72
+    },
+    {
+     "texto": "la",
+     "inicio": 11.88,
+     "fin": 11.92
+    },
+    {
+     "texto": "revista",
+     "inicio": 11.92,
+     "fin": 12.28
+    },
+    {
+     "texto": "Pediatrics,",
+     "inicio": 12.28,
+     "fin": 13.06
+    },
+    {
+     "texto": "de",
+     "inicio": 13.24,
+     "fin": 13.28
+    },
+    {
+     "texto": "Estados",
+     "inicio": 13.28,
+     "fin": 13.44
+    },
+    {
+     "texto": "Unidos,",
+     "inicio": 13.44,
+     "fin": 13.86
+    },
+    {
+     "texto": "publicó",
+     "inicio": 14.3,
+     "fin": 14.72
+    },
+    {
+     "texto": "un",
+     "inicio": 14.72,
+     "fin": 14.82
+    },
+    {
+     "texto": "estudio",
+     "inicio": 14.82,
+     "fin": 15.08
+    },
+    {
+     "texto": "que",
+     "inicio": 15.08,
+     "fin": 15.32
+    },
+    {
+     "texto": "midió",
+     "inicio": 15.32,
+     "fin": 15.64
+    },
+    {
+     "texto": "un",
+     "inicio": 15.64,
+     "fin": 15.92
+    },
+    {
+     "texto": "auto",
+     "inicio": 15.92,
+     "fin": 16.14
+    },
+    {
+     "texto": "oscuro",
+     "inicio": 16.14,
+     "fin": 16.54
+    },
+    {
+     "texto": "al",
+     "inicio": 16.54,
+     "fin": 16.68
+    },
+    {
+     "texto": "sol",
+     "inicio": 16.68,
+     "fin": 16.92
+    },
+    {
+     "texto": "durante",
+     "inicio": 16.92,
+     "fin": 17.2
+    },
+    {
+     "texto": "una",
+     "inicio": 17.2,
+     "fin": 17.46
+    },
+    {
+     "texto": "hora.",
+     "inicio": 17.46,
+     "fin": 17.7
+    }
+   ],
+   "inicio": 11.06,
+   "fin": 17.7
+  },
+  {
+   "texto": "Con entre veintidós y treinta y seis grados afuera, adentro subió casi dos grados cada cinco minutos.",
+   "palabras": [
+    {
+     "texto": "Con",
+     "inicio": 18.14,
+     "fin": 18.32
+    },
+    {
+     "texto": "entre",
+     "inicio": 18.32,
+     "fin": 18.58
+    },
+    {
+     "texto": "veintidós",
+     "inicio": 18.58,
+     "fin": 19.14
+    },
+    {
+     "texto": "y",
+     "inicio": 19.14,
+     "fin": 19.32
+    },
+    {
+     "texto": "treinta",
+     "inicio": 19.32,
+     "fin": 19.56
+    },
+    {
+     "texto": "y",
+     "inicio": 19.56,
+     "fin": 19.64
+    },
+    {
+     "texto": "seis",
+     "inicio": 19.64,
+     "fin": 19.8
+    },
+    {
+     "texto": "grados",
+     "inicio": 19.8,
+     "fin": 20.18
+    },
+    {
+     "texto": "afuera,",
+     "inicio": 20.18,
+     "fin": 20.54
+    },
+    {
+     "texto": "adentro",
+     "inicio": 21.06,
+     "fin": 21.58
+    },
+    {
+     "texto": "subió",
+     "inicio": 21.58,
+     "fin": 22.32
+    },
+    {
+     "texto": "casi",
+     "inicio": 22.32,
+     "fin": 22.5
+    },
+    {
+     "texto": "dos",
+     "inicio": 22.5,
+     "fin": 22.82
+    },
+    {
+     "texto": "grados",
+     "inicio": 22.82,
+     "fin": 23.18
+    },
+    {
+     "texto": "cada",
+     "inicio": 23.18,
+     "fin": 23.32
+    },
+    {
+     "texto": "cinco",
+     "inicio": 23.32,
+     "fin": 23.64
+    },
+    {
+     "texto": "minutos.",
+     "inicio": 23.64,
+     "fin": 24.04
+    }
+   ],
+   "inicio": 18.14,
+   "fin": 24.04
+  },
+  {
+   "texto": "Y hasta el día más fresco, con veintidós grados afuera, el auto llegó a cuarenta y siete adentro.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 24.04,
+     "fin": 24.78
+    },
+    {
+     "texto": "hasta",
+     "inicio": 24.78,
+     "fin": 24.94
+    },
+    {
+     "texto": "el",
+     "inicio": 24.94,
+     "fin": 25.04
+    },
+    {
+     "texto": "día",
+     "inicio": 25.04,
+     "fin": 25.16
+    },
+    {
+     "texto": "más",
+     "inicio": 25.16,
+     "fin": 25.3
+    },
+    {
+     "texto": "fresco,",
+     "inicio": 25.3,
+     "fin": 25.72
+    },
+    {
+     "texto": "con",
+     "inicio": 26.02,
+     "fin": 26.12
+    },
+    {
+     "texto": "veintidós",
+     "inicio": 26.12,
+     "fin": 26.54
+    },
+    {
+     "texto": "grados",
+     "inicio": 26.54,
+     "fin": 26.84
+    },
+    {
+     "texto": "afuera,",
+     "inicio": 26.84,
+     "fin": 27.16
+    },
+    {
+     "texto": "el",
+     "inicio": 27.72,
+     "fin": 27.8
+    },
+    {
+     "texto": "auto",
+     "inicio": 27.8,
+     "fin": 27.98
+    },
+    {
+     "texto": "llegó",
+     "inicio": 27.98,
+     "fin": 28.18
+    },
+    {
+     "texto": "a",
+     "inicio": 28.18,
+     "fin": 28.3
+    },
+    {
+     "texto": "cuarenta",
+     "inicio": 28.3,
+     "fin": 28.72
+    },
+    {
+     "texto": "y",
+     "inicio": 28.72,
+     "fin": 28.78
+    },
+    {
+     "texto": "siete",
+     "inicio": 28.78,
+     "fin": 29.08
+    },
+    {
+     "texto": "adentro.",
+     "inicio": 29.08,
+     "fin": 29.54
+    }
+   ],
+   "inicio": 24.04,
+   "fin": 29.54
+  },
+  {
+   "texto": "Ojo: fue un auto oscuro y días de sol, y el estudio no midió a la sombra. Pero un perro adentro no puede salir, y arriesga un golpe de calor.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 30.42,
+     "fin": 30.78
+    },
+    {
+     "texto": "fue",
+     "inicio": 31.04,
+     "fin": 31.24
+    },
+    {
+     "texto": "un",
+     "inicio": 31.24,
+     "fin": 31.38
+    },
+    {
+     "texto": "auto",
+     "inicio": 31.38,
+     "fin": 31.54
+    },
+    {
+     "texto": "oscuro",
+     "inicio": 31.54,
+     "fin": 32.02
+    },
+    {
+     "texto": "y",
+     "inicio": 32.02,
+     "fin": 32.24
+    },
+    {
+     "texto": "días",
+     "inicio": 32.24,
+     "fin": 32.44
+    },
+    {
+     "texto": "de",
+     "inicio": 32.44,
+     "fin": 32.56
+    },
+    {
+     "texto": "sol,",
+     "inicio": 32.56,
+     "fin": 32.8
+    },
+    {
+     "texto": "y",
+     "inicio": 33.26,
+     "fin": 33.42
+    },
+    {
+     "texto": "el",
+     "inicio": 33.42,
+     "fin": 33.52
+    },
+    {
+     "texto": "estudio",
+     "inicio": 33.52,
+     "fin": 33.76
+    },
+    {
+     "texto": "no",
+     "inicio": 33.76,
+     "fin": 33.96
+    },
+    {
+     "texto": "midió",
+     "inicio": 33.96,
+     "fin": 34.24
+    },
+    {
+     "texto": "a",
+     "inicio": 34.24,
+     "fin": 34.32
+    },
+    {
+     "texto": "la",
+     "inicio": 34.32,
+     "fin": 34.38
+    },
+    {
+     "texto": "sombra.",
+     "inicio": 34.38,
+     "fin": 34.78
+    },
+    {
+     "texto": "Pero",
+     "inicio": 35.22,
+     "fin": 35.4
+    },
+    {
+     "texto": "un",
+     "inicio": 35.4,
+     "fin": 35.52
+    },
+    {
+     "texto": "perro",
+     "inicio": 35.52,
+     "fin": 35.78
+    },
+    {
+     "texto": "adentro",
+     "inicio": 35.78,
+     "fin": 36.18
+    },
+    {
+     "texto": "no",
+     "inicio": 36.18,
+     "fin": 36.32
+    },
+    {
+     "texto": "puede",
+     "inicio": 36.32,
+     "fin": 36.54
+    },
+    {
+     "texto": "salir,",
+     "inicio": 36.54,
+     "fin": 36.84
+    },
+    {
+     "texto": "y",
+     "inicio": 37.5,
+     "fin": 37.54
+    },
+    {
+     "texto": "arriesga",
+     "inicio": 37.54,
+     "fin": 37.9
+    },
+    {
+     "texto": "un",
+     "inicio": 37.9,
+     "fin": 38.02
+    },
+    {
+     "texto": "golpe",
+     "inicio": 38.02,
+     "fin": 38.22
+    },
+    {
+     "texto": "de",
+     "inicio": 38.22,
+     "fin": 38.36
+    },
+    {
+     "texto": "calor.",
+     "inicio": 38.36,
+     "fin": 38.62
+    }
+   ],
+   "inicio": 30.42,
+   "fin": 38.62
+  },
+  {
+   "texto": "Hoy, si vas a bajar del auto, llevalo con vos. Un minutito se estira.",
+   "palabras": [
+    {
+     "texto": "Hoy,",
+     "inicio": 39.16,
+     "fin": 39.38
+    },
+    {
+     "texto": "si",
+     "inicio": 39.5,
+     "fin": 39.68
+    },
+    {
+     "texto": "vas",
+     "inicio": 39.68,
+     "fin": 39.84
+    },
+    {
+     "texto": "a",
+     "inicio": 39.84,
+     "fin": 39.96
+    },
+    {
+     "texto": "bajar",
+     "inicio": 39.96,
+     "fin": 40.24
+    },
+    {
+     "texto": "del",
+     "inicio": 40.24,
+     "fin": 40.34
+    },
+    {
+     "texto": "auto,",
+     "inicio": 40.34,
+     "fin": 40.62
+    },
+    {
+     "texto": "llevalo",
+     "inicio": 41.04,
+     "fin": 41.46
+    },
+    {
+     "texto": "con",
+     "inicio": 41.46,
+     "fin": 41.6
+    },
+    {
+     "texto": "vos.",
+     "inicio": 41.6,
+     "fin": 41.78
+    },
+    {
+     "texto": "Un",
+     "inicio": 42.38,
+     "fin": 42.56
+    },
+    {
+     "texto": "minutito",
+     "inicio": 42.56,
+     "fin": 43.14
+    },
+    {
+     "texto": "se",
+     "inicio": 43.14,
+     "fin": 43.6
+    },
+    {
+     "texto": "estira.",
+     "inicio": 43.6,
+     "fin": 43.94
+    }
+   ],
+   "inicio": 39.16,
+   "fin": 43.94
+  },
+  {
+   "texto": "Mandáselo al que lo deja un minutito en el auto.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 44.72,
+     "fin": 45.16
+    },
+    {
+     "texto": "al",
+     "inicio": 45.16,
+     "fin": 45.36
+    },
+    {
+     "texto": "que",
+     "inicio": 45.36,
+     "fin": 45.48
+    },
+    {
+     "texto": "lo",
+     "inicio": 45.48,
+     "fin": 45.62
+    },
+    {
+     "texto": "deja",
+     "inicio": 45.62,
+     "fin": 45.84
+    },
+    {
+     "texto": "un",
+     "inicio": 45.84,
+     "fin": 46.2
+    },
+    {
+     "texto": "minutito",
+     "inicio": 46.2,
+     "fin": 46.72
+    },
+    {
+     "texto": "en",
+     "inicio": 46.72,
+     "fin": 46.88
+    },
+    {
+     "texto": "el",
+     "inicio": 46.88,
+     "fin": 47.0
+    },
+    {
+     "texto": "auto.",
+     "inicio": 47.0,
+     "fin": 47.2
+    }
+   ],
+   "inicio": 44.72,
+   "fin": 47.2
+  }
+ ]
+}

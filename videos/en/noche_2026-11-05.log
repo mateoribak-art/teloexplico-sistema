@@ -1,0 +1,12 @@
+2026-11-05 08:39 Arranca la producción (3 listos en la cola, meta 6).
+2026-11-05 08:39 Render de en-012-thunder-count (sin Claude).
+2026-11-05 08:49 en-012-thunder-count: listo (render sin Claude)
+2026-11-05 08:49 Render de en-022-power-outage-fridge (sin Claude).
+2026-11-05 09:07 en-022-power-outage-fridge: listo (render sin Claude)
+- **Listo para render:** `en-023-package-text` (texto falso de paquete, serie Home myths #5). El chequeo aprobó en el primer intento con la FTC de abril de 2025. La voz dura 34,9 s. Escena 3D con el Celular del kit, `tsc` sin errores y cuadros revisados. Quedó en estado `render`, así que lo renderiza `producir.py`.
+- **Apartados:** no había ninguno por "chequeo rechazado" para rescatar. Los que figuran apartados en el log son `en-012` (por la voz) y `en-020`, `en-008`, `en-014` y `en-015` (ya rescatados antes).
+- **Sin completar:** el render y el control todavía no corrieron; los hace `producir.py` después. El log (`videos/en/produccion.log`) y las ideas (`videos/en/ideas.md`) están actualizados.
+Uso: 34 pasos · 64,411 tokens nuevos · 1,010,483 de caché · 7,914 escritos · equivale a US$ 0.44 de API
+2026-11-05 09:10 Render de en-023-package-text (sin Claude).
+2026-11-05 09:19 en-023-package-text: listo (render sin Claude)
+2026-11-05 09:19 Termina la producción (ok).
