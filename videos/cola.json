@@ -1334,7 +1334,7 @@
  {
   "slug": "035-lavandina-vinagre",
   "tema": "Lavandina con vinagre o amoníaco: el gas tóxico (CDC)",
-  "estado": "produccion",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -1350,6 +1350,16 @@
     "estado": "produccion",
     "cuando": "2026-11-04T21:28",
     "motivo": "Frase 7 reformulada con lo que dice el CDC; chequeo aprobado; falta voz, escenas y render"
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-04T22:55",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-04T23:13",
+    "motivo": "render sin Claude"
    }
   ]
  },

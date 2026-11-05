@@ -1,0 +1,22 @@
+{
+  "titulo": "That 'package problem' text is a scam",
+  "serie": "casa",
+  "fondo": "oscuro",
+  "receta": "error cotidiano + regla con número",
+  "pilar": "celular_estafas",
+  "destinatario": "se lo manda alguien que casi cae en un texto falso de paquete a su amigo que toca todos los links, para decirle que no use el link y que reenvíe el texto al 7726",
+  "regla_guardable": "Surprise package text? Don't tap. Forward it to 7726.",
+  "fuentes": [
+    "FTC Consumer Alert, April 23, 2025: Think that text message is from USPS? It could be a scam (texts claim unpaid postage, a missed delivery or a shipping update; the link leads to a look-alike of a real website that asks for personal or financial information; don't click, check tracking through the retailer or account where you ordered; report in the messaging app or forward to 7726; ReportFraud.ftc.gov)"
+  ],
+  "frases": [
+    {"texto": "Your phone says a package is stuck, and you tap the link to fix it.", "estilo": "Knowing, with a half smile."},
+    {"texto": "That's exactly what the scammer wants.", "estilo": "Dry and punchy."},
+    {"texto": "The FTC says these texts claim unpaid postage, a missed delivery, or a shipping update.", "estilo": "Clear fact, citing the source."},
+    {"texto": "The link leads to a look-alike of a real website, where you're told to enter personal or financial information.", "estilo": "Brisk, a little ominous."},
+    {"texto": "Heads up: a real package might be on its way. Just don't use the link in the text.", "estilo": "Calm caveat."},
+    {"texto": "Instead, check tracking through the store where you ordered.", "estilo": "Practical, friendly."},
+    {"texto": "Then report the text in your messaging app, or forward it to seven seven two six.", "estilo": "Direct."},
+    {"texto": "Send this to the friend who taps every link.", "estilo": "Playful and funny."}
+  ]
+}

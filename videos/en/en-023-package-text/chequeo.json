@@ -1,0 +1,15 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones fácticas salen de una única fuente primaria de EE. UU. (FTC Consumer Alert, abril 2025, consumer.ftc.gov) que la página confirma: tipos de mensaje (postage impago, entrega perdida, novedad de envío), sitio 'look-alike' que pide datos personales o financieros, chequear el tracking en la tienda o cuenta donde se compró, reportar en la app de mensajes o reenviar al 7726, y ReportFraud.ftc.gov. El número 7726 coincide con la fuente (y con otra página de ftc.gov). No hay cifras, anécdotas ni afirmaciones dudosas o falsas. Observación menor sin impacto: la FTC dice que se reenvía al 7726 si la app no tiene opción de reportar; el texto lo presenta como alternativa con 'or', compatible. El texto no afirma nada sobre cómo reconocer mensajes reales de USPS.",
+  "afirmaciones": [
+    {"texto": "Your phone says a package is stuck, and you tap the link to fix it.", "fuente": "Escenario ilustrativo, no afirmación fáctica; consistente con FTC Consumer Alert (abril 2025)", "estado": "verificada", "matiz_ok": true},
+    {"texto": "That's exactly what the scammer wants.", "fuente": "Inferencia directa del FTC Consumer Alert: el link lleva a un sitio falso que pide datos; sin cifras", "estado": "verificada", "matiz_ok": true},
+    {"texto": "The FTC says these texts claim unpaid postage, a missed delivery, or a shipping update. (caption: 'fake texts claim...')", "fuente": "https://consumer.ftc.gov/consumer-alerts/2025/04/think-text-message-usps-it-could-be-scam (FTC)", "estado": "verificada", "matiz_ok": true},
+    {"texto": "The link leads to a look-alike of a real website, where you're told to enter personal or financial information.", "fuente": "FTC Consumer Alert, abril 2025 (casi textual: 'a look-alike of a real website', 'enter personal or financial information')", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Heads up: a real package might be on its way. Just don't use the link in the text.", "fuente": "FTC Consumer Alert: ante un texto sobre un pedido real, no clickear y chequear tracking por la tienda o cuenta", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Instead, check tracking through the store where you ordered. (caption: 'store or account where you ordered')", "fuente": "FTC Consumer Alert, abril 2025 ('retailer or account where you ordered')", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Then report the text in your messaging app, or forward it to seven seven two six (7726).", "fuente": "FTC Consumer Alert, abril 2025 y https://www.ftc.gov/node/54541 (7726 = código corto para reportar spam por SMS)", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Caption: Sources: FTC Consumer Alert (April 2025), ReportFraud.ftc.gov", "fuente": "Ambas existen y la alerta remite a ReportFraud.ftc.gov", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Send this to the friend who taps every link. / Yes or no: have you gotten one of these?", "fuente": "Llamado a la acción, no afirmación fáctica", "estado": "verificada", "matiz_ok": true}
+  ]
+}

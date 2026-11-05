@@ -41,6 +41,7 @@ import { DURACION as DUR_013, FPS as FPS_013, AlcoholCalor3D, Portada013 } from 
 import { DURACION as DUR_032, FPS as FPS_032, PeloMojado3D, Portada032 } from "./videos/032-pelo-mojado-resfrio/Video";
 import { DURACION as DUR_033, FPS as FPS_033, GraciasMate3D, Portada033 } from "./videos/033-gracias-en-el-mate/Video";
 import { DURACION as DUR_034, FPS as FPS_034, ArrozRecalentado3D, Portada034 } from "./videos/034-arroz-recalentado/Video";
+import { DURACION as DUR_035, FPS as FPS_035, LavandinaVinagre3D, Portada035 } from "./videos/035-lavandina-vinagre/Video";
 import { DURACION as DUR_036, FPS as FPS_036, ApagonHeladera3D, Portada036 } from "./videos/036-apagon-heladera/Video";
 import { DURACION as DUR_023, FPS as FPS_023, PerrosColores023, Portada023 } from "./videos/023-perros-colores/Video";
 import { DURACION as DUR_024, FPS as FPS_024, GranizoCorto024, Portada024 } from "./videos/024-granizo-corto/Video";
@@ -108,6 +109,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p033-gracias-en-el-mate" component={Portada033} width={ANCHO} height={ALTO} />
         <Composition id="h034-arroz-recalentado" component={ArrozRecalentado3D} durationInFrames={DUR_034} fps={FPS_034} width={ANCHO} height={ALTO} />
         <Still id="p034-arroz-recalentado" component={Portada034} width={ANCHO} height={ALTO} />
+        <Composition id="h035-lavandina-vinagre" component={LavandinaVinagre3D} durationInFrames={DUR_035} fps={FPS_035} width={ANCHO} height={ALTO} />
+        <Still id="p035-lavandina-vinagre" component={Portada035} width={ANCHO} height={ALTO} />
         <Composition id="h036-apagon-heladera" component={ApagonHeladera3D} durationInFrames={DUR_036} fps={FPS_036} width={ANCHO} height={ALTO} />
         <Still id="p036-apagon-heladera" component={Portada036} width={ANCHO} height={ALTO} />
         <Composition id="h026-mediodia-hora-corrida" component={MediodiaHoraCorrida3D} durationInFrames={DUR_026} fps={FPS_026} width={ANCHO} height={ALTO} />

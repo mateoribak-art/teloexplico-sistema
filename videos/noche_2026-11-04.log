@@ -48,3 +48,12 @@ Permisos negados (2):
 2026-11-04 18:43 Render de 036-apagon-heladera (sin Claude).
 2026-11-04 19:20 036-apagon-heladera: listo (render sin Claude)
 2026-11-04 19:20 Termina la producción (ok).
+2026-11-04 22:51 Arranca la producción (13 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Terminé `035-lavandina-vinagre` (lavandina con vinagre) y lo dejé en estado `render`. No rendericé el video: `producir.py` lo hará al terminar mi turno. Antes de eso, `tlx tsc` pasó sin errores y revisé los cuadros en 2 vueltas.
+- **Chequeo y voz:** el chequeo de datos ya estaba aprobado y la voz salió bien (43 s, 113 palabras del guion y 114 oídas). La serie quedó asignada como "Mitos de casa #5".
+- **Apartados:** no había ningún video apartado por "chequeo rechazado" para rescatar. `005-granizo-calor` sigue apartado, pero no encontré ese motivo en él.
+- **Segundo video:** no lo produje, porque la cola ya tiene más de 10 listos.
+Uso: 43 pasos · 58,954 tokens nuevos · 1,092,951 de caché · 13,237 escritos · equivale a US$ 0.48 de API
+2026-11-04 22:55 Render de 035-lavandina-vinagre (sin Claude).
+2026-11-04 23:13 035-lavandina-vinagre: listo (render sin Claude)
+2026-11-04 23:13 Termina la producción (ok).

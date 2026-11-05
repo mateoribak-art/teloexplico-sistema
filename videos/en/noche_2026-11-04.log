@@ -35,3 +35,12 @@ Uso: 44 pasos · 57,568 tokens nuevos · 1,128,669 de caché · 10,852 escritos 
 2026-11-04 19:25 Render de en-020-ac-sixty (sin Claude).
 2026-11-04 19:37 en-020-ac-sixty: listo (render sin Claude)
 2026-11-04 19:37 Termina la producción (ok).
+2026-11-04 23:13 Arranca la producción (3 listos en la cola, meta 6).
+2026-11-04 23:13 Render de en-022-power-outage-fridge (sin Claude).
+2026-11-04 23:31 en-022-power-outage-fridge: apartado (render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it today before the next storm. Send this to th)
+No quedó ningún video listo: `en-023-package-text` quedó **incompleto** y sigue en `produccion`.
+- **Qué falta:** el guion, el caption, el `chequeo.json` (aprobado a la primera, verificado con el FTC de abril de 2025), la serie (casa #5) y el log están hechos. La voz falló por cuota agotada de Gemini (10 pedidos por día, reintento en unas 5 horas), así que faltan la voz, el `Video.tsx` en 3D, los cuadros y pasarlo a `render`.
+- **Rescate:** no había nada que rescatar. `en-012-thunder-count` y `en-022-power-outage-fridge` están apartados porque el control dio que la voz no coincidía con el guion (40 % y 33 %), no porque el chequeo los rechazara.
+- **Ya listos de antes, sin tocar:** `en-020-ac-sixty`, `en-021-other-line` y `en-022-ears-pop`.
+Uso: 5 pasos · 5,324 tokens nuevos · 374,782 de caché · 1,205 escritos · equivale a US$ 0.70 de API
+2026-11-04 23:33 Termina la producción (ok).

@@ -1,0 +1,633 @@
+{
+ "duracion": 43.25,
+ "frases": [
+  {
+   "texto": "Mezclás lavandina con vinagre para que limpie mejor, y el baño queda cerrado.",
+   "palabras": [
+    {
+     "texto": "Mezclás",
+     "inicio": 0.0,
+     "fin": 0.38
+    },
+    {
+     "texto": "lavandina",
+     "inicio": 0.38,
+     "fin": 0.8
+    },
+    {
+     "texto": "con",
+     "inicio": 0.8,
+     "fin": 1.02
+    },
+    {
+     "texto": "vinagre",
+     "inicio": 1.02,
+     "fin": 1.44
+    },
+    {
+     "texto": "para",
+     "inicio": 1.44,
+     "fin": 1.7
+    },
+    {
+     "texto": "que",
+     "inicio": 1.7,
+     "fin": 1.86
+    },
+    {
+     "texto": "limpie",
+     "inicio": 1.86,
+     "fin": 2.1
+    },
+    {
+     "texto": "mejor,",
+     "inicio": 2.1,
+     "fin": 2.44
+    },
+    {
+     "texto": "y",
+     "inicio": 2.68,
+     "fin": 2.98
+    },
+    {
+     "texto": "el",
+     "inicio": 2.98,
+     "fin": 3.08
+    },
+    {
+     "texto": "baño",
+     "inicio": 3.08,
+     "fin": 3.26
+    },
+    {
+     "texto": "queda",
+     "inicio": 3.26,
+     "fin": 3.44
+    },
+    {
+     "texto": "cerrado.",
+     "inicio": 3.44,
+     "fin": 3.96
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.96
+  },
+  {
+   "texto": "Lo que hace es liberar gas.",
+   "palabras": [
+    {
+     "texto": "Lo",
+     "inicio": 4.54,
+     "fin": 4.62
+    },
+    {
+     "texto": "que",
+     "inicio": 4.62,
+     "fin": 4.76
+    },
+    {
+     "texto": "hace",
+     "inicio": 4.76,
+     "fin": 4.98
+    },
+    {
+     "texto": "es",
+     "inicio": 4.98,
+     "fin": 5.16
+    },
+    {
+     "texto": "liberar",
+     "inicio": 5.16,
+     "fin": 5.64
+    },
+    {
+     "texto": "gas.",
+     "inicio": 5.64,
+     "fin": 5.86
+    }
+   ],
+   "inicio": 4.54,
+   "fin": 5.86
+  },
+  {
+   "texto": "El vinagre es un ácido, y un ácido con lavandina libera cloro, un gas tóxico.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 6.56,
+     "fin": 6.68
+    },
+    {
+     "texto": "vinagre",
+     "inicio": 6.68,
+     "fin": 7.04
+    },
+    {
+     "texto": "es",
+     "inicio": 7.04,
+     "fin": 7.2
+    },
+    {
+     "texto": "un",
+     "inicio": 7.2,
+     "fin": 7.32
+    },
+    {
+     "texto": "ácido,",
+     "inicio": 7.32,
+     "fin": 7.66
+    },
+    {
+     "texto": "y",
+     "inicio": 8.12,
+     "fin": 8.28
+    },
+    {
+     "texto": "un",
+     "inicio": 8.28,
+     "fin": 8.38
+    },
+    {
+     "texto": "ácido",
+     "inicio": 8.38,
+     "fin": 8.66
+    },
+    {
+     "texto": "con",
+     "inicio": 8.66,
+     "fin": 8.84
+    },
+    {
+     "texto": "lavandina",
+     "inicio": 8.84,
+     "fin": 9.4
+    },
+    {
+     "texto": "libera",
+     "inicio": 9.4,
+     "fin": 10.04
+    },
+    {
+     "texto": "cloro,",
+     "inicio": 10.04,
+     "fin": 10.36
+    },
+    {
+     "texto": "un",
+     "inicio": 10.92,
+     "fin": 11.04
+    },
+    {
+     "texto": "gas",
+     "inicio": 11.04,
+     "fin": 11.2
+    },
+    {
+     "texto": "tóxico.",
+     "inicio": 11.2,
+     "fin": 11.56
+    }
+   ],
+   "inicio": 6.56,
+   "fin": 11.56
+  },
+  {
+   "texto": "Con amoníaco, que algunos limpiadores traen, fijate en la etiqueta, se forman cloraminas, otro gas que irrita.",
+   "palabras": [
+    {
+     "texto": "Con",
+     "inicio": 12.18,
+     "fin": 12.34
+    },
+    {
+     "texto": "amoníaco,",
+     "inicio": 12.34,
+     "fin": 12.94
+    },
+    {
+     "texto": "que",
+     "inicio": 13.34,
+     "fin": 13.4
+    },
+    {
+     "texto": "algunos",
+     "inicio": 13.4,
+     "fin": 13.66
+    },
+    {
+     "texto": "limpiadores",
+     "inicio": 13.66,
+     "fin": 14.16
+    },
+    {
+     "texto": "traen,",
+     "inicio": 14.16,
+     "fin": 14.66
+    },
+    {
+     "texto": "fijate",
+     "inicio": 15.12,
+     "fin": 15.42
+    },
+    {
+     "texto": "en",
+     "inicio": 15.42,
+     "fin": 15.6
+    },
+    {
+     "texto": "la",
+     "inicio": 15.6,
+     "fin": 15.62
+    },
+    {
+     "texto": "etiqueta,",
+     "inicio": 15.62,
+     "fin": 15.98
+    },
+    {
+     "texto": "se",
+     "inicio": 16.54,
+     "fin": 16.64
+    },
+    {
+     "texto": "forman",
+     "inicio": 16.64,
+     "fin": 16.98
+    },
+    {
+     "texto": "cloraminas,",
+     "inicio": 16.98,
+     "fin": 17.74
+    },
+    {
+     "texto": "otro",
+     "inicio": 18.08,
+     "fin": 18.4
+    },
+    {
+     "texto": "gas",
+     "inicio": 18.4,
+     "fin": 18.62
+    },
+    {
+     "texto": "que",
+     "inicio": 18.62,
+     "fin": 18.76
+    },
+    {
+     "texto": "irrita.",
+     "inicio": 18.76,
+     "fin": 19.16
+    }
+   ],
+   "inicio": 12.18,
+   "fin": 19.16
+  },
+  {
+   "texto": "Esos gases irritan los ojos, la nariz y la garganta, y provocan tos.",
+   "palabras": [
+    {
+     "texto": "Esos",
+     "inicio": 19.68,
+     "fin": 19.9
+    },
+    {
+     "texto": "gases",
+     "inicio": 19.9,
+     "fin": 20.06
+    },
+    {
+     "texto": "irritan",
+     "inicio": 20.06,
+     "fin": 20.54
+    },
+    {
+     "texto": "los",
+     "inicio": 20.54,
+     "fin": 20.66
+    },
+    {
+     "texto": "ojos,",
+     "inicio": 20.66,
+     "fin": 20.92
+    },
+    {
+     "texto": "la",
+     "inicio": 21.56,
+     "fin": 21.68
+    },
+    {
+     "texto": "nariz",
+     "inicio": 21.68,
+     "fin": 22.02
+    },
+    {
+     "texto": "y",
+     "inicio": 22.02,
+     "fin": 22.44
+    },
+    {
+     "texto": "la",
+     "inicio": 22.44,
+     "fin": 22.54
+    },
+    {
+     "texto": "garganta,",
+     "inicio": 22.54,
+     "fin": 22.98
+    },
+    {
+     "texto": "y",
+     "inicio": 23.5,
+     "fin": 23.6
+    },
+    {
+     "texto": "provocan",
+     "inicio": 23.6,
+     "fin": 24.02
+    },
+    {
+     "texto": "tos.",
+     "inicio": 24.02,
+     "fin": 24.2
+    }
+   ],
+   "inicio": 19.68,
+   "fin": 24.2
+  },
+  {
+   "texto": "El CDC de Estados Unidos lo dice sin vueltas: nunca mezcles lavandina con amoníaco ni con otro limpiador.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 24.2,
+     "fin": 24.9
+    },
+    {
+     "texto": "CDC",
+     "inicio": 24.9,
+     "fin": 25.38
+    },
+    {
+     "texto": "de",
+     "inicio": 25.38,
+     "fin": 25.52
+    },
+    {
+     "texto": "Estados",
+     "inicio": 25.52,
+     "fin": 25.74
+    },
+    {
+     "texto": "Unidos",
+     "inicio": 25.74,
+     "fin": 26.18
+    },
+    {
+     "texto": "lo",
+     "inicio": 26.18,
+     "fin": 26.5
+    },
+    {
+     "texto": "dice",
+     "inicio": 26.5,
+     "fin": 26.66
+    },
+    {
+     "texto": "sin",
+     "inicio": 26.66,
+     "fin": 26.9
+    },
+    {
+     "texto": "vueltas:",
+     "inicio": 26.9,
+     "fin": 27.3
+    },
+    {
+     "texto": "nunca",
+     "inicio": 27.9,
+     "fin": 28.22
+    },
+    {
+     "texto": "mezcles",
+     "inicio": 28.22,
+     "fin": 28.56
+    },
+    {
+     "texto": "lavandina",
+     "inicio": 28.56,
+     "fin": 29.1
+    },
+    {
+     "texto": "con",
+     "inicio": 29.1,
+     "fin": 29.24
+    },
+    {
+     "texto": "amoníaco",
+     "inicio": 29.24,
+     "fin": 29.8
+    },
+    {
+     "texto": "ni",
+     "inicio": 29.8,
+     "fin": 30.36
+    },
+    {
+     "texto": "con",
+     "inicio": 30.36,
+     "fin": 30.54
+    },
+    {
+     "texto": "otro",
+     "inicio": 30.54,
+     "fin": 30.7
+    },
+    {
+     "texto": "limpiador.",
+     "inicio": 30.7,
+     "fin": 31.18
+    }
+   ],
+   "inicio": 24.2,
+   "fin": 31.18
+  },
+  {
+   "texto": "El gas aparece cuando se mezcla. Usala sola, como dice la etiqueta, y con buena ventilación.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 31.72,
+     "fin": 31.84
+    },
+    {
+     "texto": "gas",
+     "inicio": 31.84,
+     "fin": 32.08
+    },
+    {
+     "texto": "aparece",
+     "inicio": 32.08,
+     "fin": 32.4
+    },
+    {
+     "texto": "cuando",
+     "inicio": 32.4,
+     "fin": 32.7
+    },
+    {
+     "texto": "se",
+     "inicio": 32.7,
+     "fin": 32.9
+    },
+    {
+     "texto": "mezcla.",
+     "inicio": 32.9,
+     "fin": 33.24
+    },
+    {
+     "texto": "Usala",
+     "inicio": 33.74,
+     "fin": 34.0
+    },
+    {
+     "texto": "sola,",
+     "inicio": 34.0,
+     "fin": 34.28
+    },
+    {
+     "texto": "como",
+     "inicio": 34.82,
+     "fin": 34.88
+    },
+    {
+     "texto": "dice",
+     "inicio": 34.88,
+     "fin": 35.08
+    },
+    {
+     "texto": "la",
+     "inicio": 35.08,
+     "fin": 35.22
+    },
+    {
+     "texto": "etiqueta,",
+     "inicio": 35.22,
+     "fin": 35.6
+    },
+    {
+     "texto": "y",
+     "inicio": 36.12,
+     "fin": 36.16
+    },
+    {
+     "texto": "con",
+     "inicio": 36.16,
+     "fin": 36.34
+    },
+    {
+     "texto": "buena",
+     "inicio": 36.34,
+     "fin": 36.48
+    },
+    {
+     "texto": "ventilación.",
+     "inicio": 36.48,
+     "fin": 37.02
+    }
+   ],
+   "inicio": 31.72,
+   "fin": 37.02
+  },
+  {
+   "texto": "Hoy, una sola cosa por vez.",
+   "palabras": [
+    {
+     "texto": "Hoy,",
+     "inicio": 37.54,
+     "fin": 37.82
+    },
+    {
+     "texto": "una",
+     "inicio": 38.32,
+     "fin": 38.72
+    },
+    {
+     "texto": "sola",
+     "inicio": 38.72,
+     "fin": 39.08
+    },
+    {
+     "texto": "cosa",
+     "inicio": 39.08,
+     "fin": 39.4
+    },
+    {
+     "texto": "por",
+     "inicio": 39.4,
+     "fin": 39.64
+    },
+    {
+     "texto": "vez.",
+     "inicio": 39.64,
+     "fin": 39.84
+    }
+   ],
+   "inicio": 37.54,
+   "fin": 39.84
+  },
+  {
+   "texto": "Mandáselo al que mezcla todo para que limpie mejor.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 40.4,
+     "fin": 40.96
+    },
+    {
+     "texto": "al",
+     "inicio": 40.96,
+     "fin": 41.06
+    },
+    {
+     "texto": "que",
+     "inicio": 41.06,
+     "fin": 41.16
+    },
+    {
+     "texto": "mezcla",
+     "inicio": 41.16,
+     "fin": 41.46
+    },
+    {
+     "texto": "todo",
+     "inicio": 41.46,
+     "fin": 41.82
+    },
+    {
+     "texto": "para",
+     "inicio": 41.82,
+     "fin": 42.36
+    },
+    {
+     "texto": "que",
+     "inicio": 42.36,
+     "fin": 42.52
+    },
+    {
+     "texto": "limpie",
+     "inicio": 42.52,
+     "fin": 42.82
+    },
+    {
+     "texto": "mejor.",
+     "inicio": 42.82,
+     "fin": 43.06
+    }
+   ],
+   "inicio": 40.4,
+   "fin": 43.06
+  }
+ ]
+}
