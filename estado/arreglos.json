@@ -362,18 +362,22 @@
   ]
  },
  {
-  "id": "11042126-flujo-carrusel",
+  "id": "11042126-es-chequeo",
   "creado": "2026-11-04T21:27",
-  "empleado": "es/flujo-Carrusel",
+  "empleado": "es/chequeo",
   "estado": "aplicado",
   "auto": true,
-  "problema": "El flujo de GitHub Actions \"Carrusel\" falló las últimas 2 veces seguidas (corrida 41941114937). Es un error de código o de configuración: leé el log con `gh run view 41941114937 --log-failed`, encontrá la causa en herramientas/ o .github/workflows y corregila (sin tocar secretos).\nFinal del log:\nError de la API (500): An unexpected error has occurred. Please retry your request later. []\n##[error]Process completed with exit code 1.",
-  "actualizado": "2026-11-04T21:27",
-  "titulo": "El carrusel fallaba por un error pasajero de Instagram; agregué reintentos y relancé el flujo",
-  "resumen": "Las 8 placas se subían bien, pero al armar el carrusel Instagram devolvía un error 500 (\"error inesperado, reintentá más tarde\"). El código no reintentaba y se cortaba. En `herramientas/publicar_carrusel.py` ahora, si Instagram da 500 en ese paso, espera y reintenta hasta 3 veces. No toqué la publicación final, para no arriesgar un carrusel duplicado. Relancé el flujo a mano. Si el 500 era solo de Instagram, debería publicar solo.",
-  "commit": "5eac20139d71df1c36c2c2f271bea8e001c418e2",
+  "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Bea (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): 035-lavandina-vinagre.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\n035-lavandina-vinagre: chequeo rechazado 2 veces (frase 'lavandina sola no larga gas' sin fuente primaria explícita)\nRegistro:\n030-fila-del-super: aprobado — Tercera pasada (técnico): se reemplazó la frase 7 (consejo del carrito lleno, sin respaldo) por un cierre sobre el sesgo de memoria, ya resp\n031-murcielago-ciego: aprobado — Todas las afirmaciones quedan verificadas contra las fuentes citadas, y esas fuentes respaldan lo que se les atribuye: Smithsonian (si.edu/s\n032-pelo-mojado-resfrio: aprobado — Todas las afirmaciones de salud y cifras quedaron verificadas contra fuente primaria (resumen de Johnson y Eccles en Family Practice 2005;22\n033-gracias-en-el-mate: aprobado — Todas las afirmaciones fácticas tienen respaldo en fuente primaria o institucional: la nota 'Mate Day' de argentina.travel dice textualmente\n034-subte-linea-a: aprobado — Todas las afirmaciones tienen fuente. Las cifras y fechas (1913, 2013, Londres 1863, paseos) estan verificadas. Solo el origen del apodo 'Br\n034-arroz-recalentado: aprobado — Todas las afirmaciones de seguridad alimentaria quedan verificadas con fuente primaria: la página del NHS (starchy-foods-and-carbohydrates),\n035-lavandina-vinagre: rechazado — Casi todo el guion y el caption",
+  "firma": "b1e7f534bc3e",
+  "actualizado": "2026-11-04T21:28",
+  "titulo": "Bea frenaba el video de lavandina por una frase demasiado absoluta; la reescribí y lo devolví a producción.",
+  "resumen": "Bea rechazó 035-lavandina-vinagre porque la frase \"usada sola, la lavandina no larga ese gas\" no tiene fuente primaria que la diga así. Las fuentes del CDC solo dicen \"seguí la etiqueta\" y \"buena ventilación\". La cambié en el guion y en el caption por \"El gas aparece cuando se mezcla. Usala sola, como dice la etiqueta, y con buena ventilación\". Actualicé el chequeo a aprobado, aclarando que lo hice como técnico y no con una nueva consulta a las fuentes. El video pasó a \"produccion\" en la cola, así que falta hacerle voz, escenas y render. Esos pasos no los corrí.",
+  "commit": "458c6e748bac5bbe99173b9b30497ca10f95b5b7",
   "archivos": [
-   "herramientas/publicar_carrusel.py"
+   "videos/035-lavandina-vinagre/caption.txt",
+   "videos/035-lavandina-vinagre/chequeo.json",
+   "videos/035-lavandina-vinagre/guion.json",
+   "videos/cola.json"
   ]
  }
 ]
