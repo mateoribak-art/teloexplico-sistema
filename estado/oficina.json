@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T04:44",
+ "actualizado": "2026-11-05T04:45",
  "oficinas": [
   {
    "clave": "es",
@@ -402,22 +402,22 @@
      },
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
-     "cuando": "2026-11-02T21:15",
-     "hace": "hace 2 días",
+     "cuando": "2026-11-05T04:45",
+     "hace": "recién",
      "detalle": [
-      "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
-      "02/11 04:22 Hay 12 comentarios nuevos: arranca la respuesta.",
-      "02/11 04:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "02/11 04:22 Termina la respuesta de comentarios (con problemas).",
       "02/11 21:14 Hay 14 comentarios nuevos: arranca la respuesta.",
       "02/11 00:00 Respondí 11 · salteé 1 · alerté 2. (007-bts: 6 respondidos, incluido un pedido de tema \"Ley BTS\" que quedó en ideas.md; 001-heladera: 4 respondidos, 1 salteado (solo emoji), 2 alertas a Mateo por cuestionamientos técnicos sobre heladeras; 002-corte: 1 respondido)",
       "02/11 21:15 Termina la respuesta de comentarios (ok).",
-      "02/11 21:15 Termina la respuesta de comentarios (ok)."
+      "02/11 21:15 Termina la respuesta de comentarios (ok).",
+      "05/11 04:45 Hay 1 comentarios nuevos: arranca la respuesta.",
+      "05/11 00:00 Respondí 0 · salteé 1 · alerté 0. (014-celular-arroz: cardona__192, comentario sin texto, solo multimedia o emoji)",
+      "05/11 04:45 Termina la respuesta de comentarios (ok)."
      ],
      "tareas": [
       "3 alerta",
       "32 respondido",
-      "8 salteado",
+      "9 salteado",
       "⚠️ maribibirios: \"También fueron a Chile cuando fueron a Brasil... información por favor\" — el video dice que en Latinoamér",
       "⚠️ boninoernesto: 'Lo q dice es q hay q enfriar la comida afuera... las heladeras no se la banca mucho si metes comida cali",
       "⚠️ juan.pablo.pavoni: 'El calor después se condensa y forma hielo por más nofrost inverter...' — Sostiene que la comida cal"
@@ -475,7 +475,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-05T04:44",
+     "cuando": "2026-11-05T04:45",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -940,7 +940,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-05T04:44",
+     "cuando": "2026-11-05T04:45",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
