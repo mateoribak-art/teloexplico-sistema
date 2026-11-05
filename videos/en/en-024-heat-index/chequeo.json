@@ -1,0 +1,13 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones fácticas están respaldadas por fuentes primarias del NWS/NOAA, con unidades (°F) y cifras coincidentes (100°F: 15% HR -> 96°F; 55% HR -> 124°F; hasta +15°F al sol pleno). Ninguna es falsa, dudosa ni solo probable; las de cifras están verificadas. Matices correctos: el guion dice 'calculated' y 'up to'; el caption agrega 'about' y 'in the shade'. Observación menor (no bloqueante): la voz dice 'ninety-six' y 'one hundred twenty-four' sin 'about', mientras el caption sí lo tiene; el NWS publica esos valores como cifras de su tabla, así que no hay error.",
+  "afirmaciones": [
+    {"texto": "Sweating only cools you if the sweat evaporates.", "fuente": "NWS, Heat Index (https://www.weather.gov/ama/heatindex): el sudor enfría al evaporarse", "estado": "verificada", "matiz_ok": true},
+    {"texto": "In dry air, it evaporates fast and cools you down. / In humid air, it barely evaporates, and you just stew.", "fuente": "NWS, Heat Index (https://www.weather.gov/ama/heatindex): con más humedad la evaporación se enlentece y el cuerpo siente más calor; con aire seco el sudor se evapora más rápido. 'Barely' y 'stew' son simplificación coloquial", "estado": "verificada", "matiz_ok": true},
+    {"texto": "The National Weather Service calculated it for one hundred degrees: at fifteen percent humidity, ninety-six; at fifty-five percent, one hundred twenty-four.", "fuente": "NWS, Heat Index (https://www.weather.gov/ama/heatindex): 100°F con 15% HR = 96°F; con 55% HR = 124°F", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Heads up: it's not measured by a gadget. It's calculated (from temperature and humidity).", "fuente": "NWS WPC, The Heat Index Equation (https://www.wpc.ncep.noaa.gov/html/heatindex_equation.shtml): se computa con una regresión múltiple a partir de temperatura y humedad relativa", "estado": "verificada", "matiz_ok": true},
+    {"texto": "And that's in the shade. In full sun, up to fifteen degrees more.", "fuente": "NWS, Heat Index (https://www.weather.gov/ama/heatindex): valores para la sombra; con sol directo el índice 'can be increased by up to 15°F'", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Same temperature, different day. Humidity changes everything.", "fuente": "NWS, Heat Index: temperatura y humedad relativa determinan el índice", "estado": "verificada", "matiz_ok": true},
+    {"texto": "The thermometer says one hundred degrees, but it feels like way more. You're not exaggerating. It's your sweat.", "fuente": "NWS: 100°F a 55% HR se siente como 124°F. Gancho coloquial; el guion aclara luego que con 15% HR se siente menos (96°F)", "estado": "verificada", "matiz_ok": true}
+  ]
+}

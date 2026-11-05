@@ -848,5 +848,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-024-heat-index",
+  "tema": "Why does it feel hotter than the thermometer? Heat index (adapted from 019, NWS)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-05T15:00",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-05T15:00",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-05T15:04",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-05T15:25",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

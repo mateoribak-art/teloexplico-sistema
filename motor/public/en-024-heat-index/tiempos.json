@@ -1,0 +1,615 @@
+{
+ "duracion": 39.94,
+ "frases": [
+  {
+   "texto": "The thermometer says one hundred degrees, but it feels like way more. Why?",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "thermometer",
+     "inicio": 0.14,
+     "fin": 0.54
+    },
+    {
+     "texto": "says",
+     "inicio": 0.54,
+     "fin": 0.74
+    },
+    {
+     "texto": "one",
+     "inicio": 0.74,
+     "fin": 0.88
+    },
+    {
+     "texto": "hundred",
+     "inicio": 0.88,
+     "fin": 1.08
+    },
+    {
+     "texto": "degrees,",
+     "inicio": 1.08,
+     "fin": 1.34
+    },
+    {
+     "texto": "but",
+     "inicio": 1.44,
+     "fin": 1.5
+    },
+    {
+     "texto": "it",
+     "inicio": 1.5,
+     "fin": 1.62
+    },
+    {
+     "texto": "feels",
+     "inicio": 1.62,
+     "fin": 1.9
+    },
+    {
+     "texto": "like",
+     "inicio": 1.9,
+     "fin": 2.08
+    },
+    {
+     "texto": "way",
+     "inicio": 2.08,
+     "fin": 2.46
+    },
+    {
+     "texto": "more.",
+     "inicio": 2.46,
+     "fin": 2.82
+    },
+    {
+     "texto": "Why?",
+     "inicio": 3.18,
+     "fin": 3.42
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.42
+  },
+  {
+   "texto": "You're not exaggerating. It's your sweat.",
+   "palabras": [
+    {
+     "texto": "You're",
+     "inicio": 4.02,
+     "fin": 4.18
+    },
+    {
+     "texto": "not",
+     "inicio": 4.18,
+     "fin": 4.32
+    },
+    {
+     "texto": "exaggerating.",
+     "inicio": 4.32,
+     "fin": 4.9
+    },
+    {
+     "texto": "It's",
+     "inicio": 5.1,
+     "fin": 5.22
+    },
+    {
+     "texto": "your",
+     "inicio": 5.22,
+     "fin": 5.48
+    },
+    {
+     "texto": "sweat.",
+     "inicio": 5.48,
+     "fin": 5.8
+    }
+   ],
+   "inicio": 4.02,
+   "fin": 5.8
+  },
+  {
+   "texto": "Sweating only cools you if the sweat evaporates.",
+   "palabras": [
+    {
+     "texto": "Sweating",
+     "inicio": 6.5,
+     "fin": 6.7
+    },
+    {
+     "texto": "only",
+     "inicio": 6.7,
+     "fin": 6.94
+    },
+    {
+     "texto": "cools",
+     "inicio": 6.94,
+     "fin": 7.32
+    },
+    {
+     "texto": "you",
+     "inicio": 7.32,
+     "fin": 7.54
+    },
+    {
+     "texto": "if",
+     "inicio": 7.54,
+     "fin": 7.76
+    },
+    {
+     "texto": "the",
+     "inicio": 7.76,
+     "fin": 7.9
+    },
+    {
+     "texto": "sweat",
+     "inicio": 7.9,
+     "fin": 8.1
+    },
+    {
+     "texto": "evaporates.",
+     "inicio": 8.1,
+     "fin": 8.94
+    }
+   ],
+   "inicio": 6.5,
+   "fin": 8.94
+  },
+  {
+   "texto": "In dry air, it evaporates fast and cools you down.",
+   "palabras": [
+    {
+     "texto": "In",
+     "inicio": 9.6,
+     "fin": 9.62
+    },
+    {
+     "texto": "dry",
+     "inicio": 9.62,
+     "fin": 9.84
+    },
+    {
+     "texto": "air,",
+     "inicio": 9.84,
+     "fin": 10.08
+    },
+    {
+     "texto": "it",
+     "inicio": 10.2,
+     "fin": 10.22
+    },
+    {
+     "texto": "evaporates",
+     "inicio": 10.22,
+     "fin": 10.7
+    },
+    {
+     "texto": "fast",
+     "inicio": 10.7,
+     "fin": 11.1
+    },
+    {
+     "texto": "and",
+     "inicio": 11.1,
+     "fin": 11.6
+    },
+    {
+     "texto": "cools",
+     "inicio": 11.6,
+     "fin": 11.82
+    },
+    {
+     "texto": "you",
+     "inicio": 11.82,
+     "fin": 11.96
+    },
+    {
+     "texto": "down.",
+     "inicio": 11.96,
+     "fin": 12.18
+    }
+   ],
+   "inicio": 9.6,
+   "fin": 12.18
+  },
+  {
+   "texto": "In humid air, it barely evaporates, and you just stew.",
+   "palabras": [
+    {
+     "texto": "In",
+     "inicio": 12.74,
+     "fin": 12.78
+    },
+    {
+     "texto": "humid",
+     "inicio": 12.78,
+     "fin": 13.0
+    },
+    {
+     "texto": "air,",
+     "inicio": 13.0,
+     "fin": 13.24
+    },
+    {
+     "texto": "it",
+     "inicio": 13.4,
+     "fin": 13.48
+    },
+    {
+     "texto": "barely",
+     "inicio": 13.48,
+     "fin": 14.0
+    },
+    {
+     "texto": "evaporates,",
+     "inicio": 14.0,
+     "fin": 14.66
+    },
+    {
+     "texto": "and",
+     "inicio": 14.74,
+     "fin": 15.1
+    },
+    {
+     "texto": "you",
+     "inicio": 15.1,
+     "fin": 15.2
+    },
+    {
+     "texto": "just",
+     "inicio": 15.2,
+     "fin": 15.38
+    },
+    {
+     "texto": "stew.",
+     "inicio": 15.38,
+     "fin": 15.7
+    }
+   ],
+   "inicio": 12.74,
+   "fin": 15.7
+  },
+  {
+   "texto": "The National Weather Service calculated it for one hundred degrees: at fifteen percent humidity, ninety-six; at fifty-five percent, one hundred twenty-four.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 16.32,
+     "fin": 16.4
+    },
+    {
+     "texto": "National",
+     "inicio": 16.4,
+     "fin": 16.72
+    },
+    {
+     "texto": "Weather",
+     "inicio": 16.72,
+     "fin": 16.98
+    },
+    {
+     "texto": "Service",
+     "inicio": 16.98,
+     "fin": 17.36
+    },
+    {
+     "texto": "calculated",
+     "inicio": 17.36,
+     "fin": 17.88
+    },
+    {
+     "texto": "it",
+     "inicio": 17.88,
+     "fin": 18.18
+    },
+    {
+     "texto": "for",
+     "inicio": 18.18,
+     "fin": 18.34
+    },
+    {
+     "texto": "one",
+     "inicio": 18.34,
+     "fin": 18.56
+    },
+    {
+     "texto": "hundred",
+     "inicio": 18.56,
+     "fin": 18.96
+    },
+    {
+     "texto": "degrees:",
+     "inicio": 18.96,
+     "fin": 19.28
+    },
+    {
+     "texto": "at",
+     "inicio": 19.74,
+     "fin": 20.0
+    },
+    {
+     "texto": "fifteen",
+     "inicio": 20.0,
+     "fin": 20.32
+    },
+    {
+     "texto": "percent",
+     "inicio": 20.32,
+     "fin": 20.62
+    },
+    {
+     "texto": "humidity,",
+     "inicio": 20.62,
+     "fin": 20.88
+    },
+    {
+     "texto": "ninety-six;",
+     "inicio": 21.44,
+     "fin": 21.96
+    },
+    {
+     "texto": "at",
+     "inicio": 22.36,
+     "fin": 22.58
+    },
+    {
+     "texto": "fifty-five",
+     "inicio": 22.58,
+     "fin": 23.22
+    },
+    {
+     "texto": "percent,",
+     "inicio": 23.22,
+     "fin": 23.74
+    },
+    {
+     "texto": "one",
+     "inicio": 24.12,
+     "fin": 24.28
+    },
+    {
+     "texto": "hundred",
+     "inicio": 24.28,
+     "fin": 24.78
+    },
+    {
+     "texto": "twenty-four.",
+     "inicio": 24.78,
+     "fin": 25.56
+    }
+   ],
+   "inicio": 16.32,
+   "fin": 25.56
+  },
+  {
+   "texto": "Heads up: it's not measured by a gadget. It's calculated.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 26.16,
+     "fin": 26.34
+    },
+    {
+     "texto": "up:",
+     "inicio": 26.34,
+     "fin": 26.46
+    },
+    {
+     "texto": "it's",
+     "inicio": 26.68,
+     "fin": 26.84
+    },
+    {
+     "texto": "not",
+     "inicio": 26.84,
+     "fin": 27.0
+    },
+    {
+     "texto": "measured",
+     "inicio": 27.0,
+     "fin": 27.34
+    },
+    {
+     "texto": "by",
+     "inicio": 27.34,
+     "fin": 27.52
+    },
+    {
+     "texto": "a",
+     "inicio": 27.52,
+     "fin": 27.66
+    },
+    {
+     "texto": "gadget.",
+     "inicio": 27.66,
+     "fin": 27.96
+    },
+    {
+     "texto": "It's",
+     "inicio": 28.16,
+     "fin": 28.28
+    },
+    {
+     "texto": "calculated.",
+     "inicio": 28.28,
+     "fin": 28.7
+    }
+   ],
+   "inicio": 26.16,
+   "fin": 28.7
+  },
+  {
+   "texto": "And that's in the shade. In full sun, up to fifteen degrees more.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 28.7,
+     "fin": 29.42
+    },
+    {
+     "texto": "that's",
+     "inicio": 29.42,
+     "fin": 29.68
+    },
+    {
+     "texto": "in",
+     "inicio": 29.68,
+     "fin": 29.76
+    },
+    {
+     "texto": "the",
+     "inicio": 29.76,
+     "fin": 29.84
+    },
+    {
+     "texto": "shade.",
+     "inicio": 29.84,
+     "fin": 30.2
+    },
+    {
+     "texto": "In",
+     "inicio": 30.74,
+     "fin": 30.92
+    },
+    {
+     "texto": "full",
+     "inicio": 30.92,
+     "fin": 31.18
+    },
+    {
+     "texto": "sun,",
+     "inicio": 31.18,
+     "fin": 31.52
+    },
+    {
+     "texto": "up",
+     "inicio": 31.64,
+     "fin": 31.74
+    },
+    {
+     "texto": "to",
+     "inicio": 31.74,
+     "fin": 31.84
+    },
+    {
+     "texto": "fifteen",
+     "inicio": 31.84,
+     "fin": 32.3
+    },
+    {
+     "texto": "degrees",
+     "inicio": 32.3,
+     "fin": 32.64
+    },
+    {
+     "texto": "more.",
+     "inicio": 32.64,
+     "fin": 33.06
+    }
+   ],
+   "inicio": 28.7,
+   "fin": 33.06
+  },
+  {
+   "texto": "Same temperature, different day. Humidity changes everything.",
+   "palabras": [
+    {
+     "texto": "Same",
+     "inicio": 33.58,
+     "fin": 33.84
+    },
+    {
+     "texto": "temperature,",
+     "inicio": 33.84,
+     "fin": 34.38
+    },
+    {
+     "texto": "different",
+     "inicio": 34.74,
+     "fin": 35.04
+    },
+    {
+     "texto": "day.",
+     "inicio": 35.04,
+     "fin": 35.34
+    },
+    {
+     "texto": "Humidity",
+     "inicio": 35.62,
+     "fin": 36.04
+    },
+    {
+     "texto": "changes",
+     "inicio": 36.04,
+     "fin": 36.54
+    },
+    {
+     "texto": "everything.",
+     "inicio": 36.54,
+     "fin": 37.4
+    }
+   ],
+   "inicio": 33.58,
+   "fin": 37.4
+  },
+  {
+   "texto": "Send this to the friend who says, it's only ninety.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 37.64,
+     "fin": 37.8
+    },
+    {
+     "texto": "this",
+     "inicio": 37.8,
+     "fin": 37.94
+    },
+    {
+     "texto": "to",
+     "inicio": 37.94,
+     "fin": 38.08
+    },
+    {
+     "texto": "the",
+     "inicio": 38.08,
+     "fin": 38.16
+    },
+    {
+     "texto": "friend",
+     "inicio": 38.16,
+     "fin": 38.34
+    },
+    {
+     "texto": "who",
+     "inicio": 38.34,
+     "fin": 38.5
+    },
+    {
+     "texto": "says,",
+     "inicio": 38.5,
+     "fin": 38.7
+    },
+    {
+     "texto": "it's",
+     "inicio": 39.02,
+     "fin": 39.32
+    },
+    {
+     "texto": "only",
+     "inicio": 39.32,
+     "fin": 39.5
+    },
+    {
+     "texto": "ninety.",
+     "inicio": 39.5,
+     "fin": 39.78
+    }
+   ],
+   "inicio": 37.64,
+   "fin": 39.78
+  }
+ ]
+}

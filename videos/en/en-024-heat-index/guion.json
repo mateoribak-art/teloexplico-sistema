@@ -1,0 +1,21 @@
+{
+  "titulo": "Why does it feel hotter than the thermometer? The heat index: humidity and sweat",
+  "fuentes": ["National Weather Service (NOAA): Heat Index", "NWS Weather Prediction Center: The Heat Index Equation"],
+  "destinatario": "Se lo manda alguien que vive en un lugar húmedo (Florida, Houston) a quien dice 'it's only ninety' para decirle que con humedad no es lo mismo.",
+  "regla_guardable": "Same 100°F: 15% humidity feels like 96°F, 55% feels like 124°F (in the shade).",
+  "pilar": "clima_accion",
+  "receta": "dato con número que cambia con la humedad",
+  "fondo": "oscuro",
+  "frases": [
+    {"texto": "The thermometer says one hundred degrees, but it feels like way more. Why?", "estilo": "Intrigued, quick."},
+    {"texto": "You're not exaggerating. It's your sweat.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "Sweating only cools you if the sweat evaporates.", "estilo": "Explanatory, brisk."},
+    {"texto": "In dry air, it evaporates fast and cools you down.", "estilo": "Calm."},
+    {"texto": "In humid air, it barely evaporates, and you just stew.", "estilo": "With humor."},
+    {"texto": "The National Weather Service calculated it for one hundred degrees: at fifteen percent humidity, ninety-six; at fifty-five percent, one hundred twenty-four.", "estilo": "Forceful, key fact."},
+    {"texto": "Heads up: it's not measured by a gadget. It's calculated.", "estilo": "Honest, calm."},
+    {"texto": "And that's in the shade. In full sun, up to fifteen degrees more.", "estilo": "Serious."},
+    {"texto": "Same temperature, different day. Humidity changes everything.", "estilo": "Closing, firm."},
+    {"texto": "Send this to the friend who says, it's only ninety.", "estilo": "Playful, with a wink."}
+  ]
+}

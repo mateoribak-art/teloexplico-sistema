@@ -1,0 +1,66 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segunda pasada. Las dos correcciones quedaron respaldadas por fuente primaria de WhatsApp: la verificación en dos pasos pasó de PIN de 6 dígitos a contraseña (blog oficial), y la guía oficial 'Cómo recuperar una cuenta vulnerada' advierte que quien toma la cuenta puede hacerse pasar por el dueño ante sus contactos. El resto de las afirmaciones sigue verificado y ninguna es falsa ni dudosa. Limitación: el texto de varias páginas del Centro de Ayuda no se pudo leer completo con la herramienta; la verificación se apoya en los extractos del buscador y en el blog oficial. Nota menor: algunas páginas de ayuda todavía dicen 'PIN', pero el blog oficial confirma el cambio a contraseña.",
+  "afirmaciones": [
+    {
+      "texto": "Alguien te escribe diciendo que te llegó un código por error y te pide que se lo pases (modalidad de estafa)",
+      "fuente": "Centro de Ayuda de WhatsApp (faq.whatsapp.com/1131652977717250) y alertas de Trend Micro, Bitdefender y gobiernos (patrón 'código enviado por error')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ese código (de registro) es la llave de tu WhatsApp",
+      "fuente": "Centro de Ayuda de WhatsApp, 'Acerca del registro': confirmar el número con el código de registro es la única forma de activar la cuenta (faq.whatsapp.com/441163784889902)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Con tu número y ese código, el estafador abre tu cuenta en su celular y vos te quedás afuera",
+      "fuente": "Centro de Ayuda de WhatsApp, 'Cómo recuperar una cuenta vulnerada' (faq.whatsapp.com/1131652977717250): registrar con el código es lo que activa la cuenta en otro dispositivo y cierra sesión en los demás",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El Centro de Ayuda de WhatsApp dice que el código de registro no se lo des a nadie, ni a tus amigos ni a tu familia",
+      "fuente": "Centro de Ayuda de WhatsApp, 'Cómo recuperar una cuenta vulnerada' (faq.whatsapp.com/1131652977717250)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Después pueden escribirle a tus contactos haciéndose pasar por vos",
+      "fuente": "Centro de Ayuda de WhatsApp, 'Cómo recuperar una cuenta vulnerada': advierte que quien tomó la cuenta puede hacerse pasar por el dueño y recomienda avisar a los contactos. Condicional 'pueden', sin afirmar nombre ni foto",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si de verdad alguien te lo pide, no se lo escribas; llamalo por teléfono y preguntale",
+      "fuente": "Consejo práctico coherente con la guía oficial (no compartir el código ni con conocidos); no es una cifra ni un dato, es recomendación",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ajustes > Cuenta > Verificación en dos pasos (ruta para activarla)",
+      "fuente": "Centro de Ayuda de WhatsApp, 'Cómo administrar la configuración de la verificación en dos pasos' (faq.whatsapp.com/1920866721452534): Ajustes > Cuenta > Verificación en dos pasos",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La verificación en dos pasos es una contraseña que solo sabés vos / contraseña propia",
+      "fuente": "Blog oficial de WhatsApp, 'One billion people are now protected with passkeys on WhatsApp...': 'Until now it was a six-digit PIN, we've now upgraded it to a full password'. Centro de Ayuda: se puede elegir número, contraseña o correo",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Activar la verificación en dos pasos protege la cuenta (regla_guardable)",
+      "fuente": "Centro de Ayuda de WhatsApp, 'Acerca de la verificación en dos pasos' (faq.whatsapp.com/1278661612895630): capa extra de seguridad opcional",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'Después puede escribirles a tus contactos haciéndose pasar por vos' y 'poné una contraseña que solo sepas vos'",
+      "fuente": "Mismas fuentes que las frases equivalentes del guion (recuperación de cuenta vulnerada y blog oficial)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

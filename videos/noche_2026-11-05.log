@@ -7,3 +7,11 @@ Uso: 18 pasos · 15,656 tokens nuevos · 1,114,661 de caché · 5,260 escritos �
 2026-11-05 08:29 Render de 037-perro-en-el-auto (sin Claude).
 2026-11-05 08:39 037-perro-en-el-auto: listo (render sin Claude)
 2026-11-05 08:39 Termina la producción (ok).
+2026-11-05 14:32 Arranca la producción (14 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **En render:** `038-codigo-whatsapp` (estafa del código de WhatsApp, pilar `celular_estafas`). El chequeo lo rechazó la primera vez por dos frases: "PIN" (ahora WhatsApp usa contraseña) y "nombre y foto" (sin fuente). Las corregí, lo aprobó en el segundo intento y regeneré la voz (41 s). Hice 2 vueltas de cuadros y `tsc` pasó. El render, la portada y el control los hace `producir.py`.
+- **Sin rescates ni segundo video:** `005-granizo-calor` está apartado por otro motivo, no por chequeo rechazado, así que no lo toqué. No produje un segundo video porque la cola ya tenía 13 listos.
+- **Para confirmar a mano antes de publicar:** el chequeo no pudo leer la página de WhatsApp que respalda que quien toma la cuenta puede hacerse pasar por vos ante tus contactos (faq.whatsapp.com/1131652977717250). El video lo dice con "pueden". Lo anoté en `videos/produccion.log`.
+Uso: 16 pasos · 15,535 tokens nuevos · 867,418 de caché · 3,676 escritos · equivale a US$ 1.21 de API
+2026-11-05 14:42 Render de 038-codigo-whatsapp (sin Claude).
+2026-11-05 14:59 038-codigo-whatsapp: listo (render sin Claude)
+2026-11-05 14:59 Termina la producción (ok).

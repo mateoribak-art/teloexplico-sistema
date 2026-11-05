@@ -44,6 +44,7 @@ import { DURACION as DUR_034, FPS as FPS_034, ArrozRecalentado3D, Portada034 } f
 import { DURACION as DUR_035, FPS as FPS_035, LavandinaVinagre3D, Portada035 } from "./videos/035-lavandina-vinagre/Video";
 import { DURACION as DUR_036, FPS as FPS_036, ApagonHeladera3D, Portada036 } from "./videos/036-apagon-heladera/Video";
 import { DURACION as DUR_037, FPS as FPS_037, PerroEnElAuto3D, Portada037 } from "./videos/037-perro-en-el-auto/Video";
+import { DURACION as DUR_038, FPS as FPS_038, CodigoWhatsapp3D, Portada038 } from "./videos/038-codigo-whatsapp/Video";
 import { DURACION as DUR_023, FPS as FPS_023, PerrosColores023, Portada023 } from "./videos/023-perros-colores/Video";
 import { DURACION as DUR_024, FPS as FPS_024, GranizoCorto024, Portada024 } from "./videos/024-granizo-corto/Video";
 import { DURACION as DUR_011, FPS as FPS_011, SalAgua011, Portada011 } from "./videos/011-sal-agua-hierve/Video";
@@ -70,6 +71,7 @@ import { DURACION as DUR_EN020, FPS as FPS_EN020, AcSixtyEn020, PortadaEn020 } f
 import { DURACION as DUR_EN021,FPS as FPS_EN021, OtherLineEn021, PortadaEn021 } from "./videos/en-021-other-line/Video";
 import { DURACION as DUR_EN022, FPS as FPS_EN022, PowerOutageEn022, PortadaEn022 } from "./videos/en-022-power-outage-fridge/Video";
 import { DURACION as DUR_EN023, FPS as FPS_EN023, PackageTextEn023, PortadaEn023 } from "./videos/en-023-package-text/Video";
+import { DURACION as DUR_EN024, FPS as FPS_EN024, HeatIndexEn024, PortadaEn024 } from "./videos/en-024-heat-index/Video";
 import { DURACION as DUR_EN001,FPS as FPS_EN001, PhoneRiceEn001, PortadaEn001 } from "./videos/en-001-phone-rice/Video";
 
 // Cada video nuevo suma su <Composition> (id "hNNN-slug") y su <Still> de portada (id "pNNN-slug").
@@ -117,6 +119,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p036-apagon-heladera" component={Portada036} width={ANCHO} height={ALTO} />
         <Composition id="h037-perro-en-el-auto" component={PerroEnElAuto3D} durationInFrames={DUR_037} fps={FPS_037} width={ANCHO} height={ALTO} />
         <Still id="p037-perro-en-el-auto" component={Portada037} width={ANCHO} height={ALTO} />
+        <Composition id="h038-codigo-whatsapp" component={CodigoWhatsapp3D} durationInFrames={DUR_038} fps={FPS_038} width={ANCHO} height={ALTO} />
+        <Still id="p038-codigo-whatsapp" component={Portada038} width={ANCHO} height={ALTO} />
         <Composition id="h026-mediodia-hora-corrida" component={MediodiaHoraCorrida3D} durationInFrames={DUR_026} fps={FPS_026} width={ANCHO} height={ALTO} />
         <Composition id="demo-hora-corrida" component={HoraCorrida3D} durationInFrames={DUR_DEMO_HORA} fps={FPS_DEMO_HORA} width={ANCHO} height={ALTO} />
         <Composition id="h023-perros-colores" component={PerrosColores023} durationInFrames={DUR_023} fps={FPS_023} width={ANCHO} height={ALTO} />
@@ -170,6 +174,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-022-power-outage-fridge" component={PortadaEn022} width={ANCHO} height={ALTO} />
         <Composition id="hen-023-package-text" component={PackageTextEn023} durationInFrames={DUR_EN023} fps={FPS_EN023} width={ANCHO} height={ALTO} />
         <Still id="pen-023-package-text" component={PortadaEn023} width={ANCHO} height={ALTO} />
+        <Composition id="hen-024-heat-index" component={HeatIndexEn024} durationInFrames={DUR_EN024} fps={FPS_EN024} width={ANCHO} height={ALTO} />
+        <Still id="pen-024-heat-index" component={PortadaEn024} width={ANCHO} height={ALTO} />
       </Folder>
       <Folder name="carruseles">
         <Still id="carrusel" component={CarruselPlaca} width={ANCHO_C} height={ALTO_C} defaultProps={{ datos: { origen: [], placas: [{ tipo: "cierre", texto: "placa de prueba" }] }, i: 0 }} />

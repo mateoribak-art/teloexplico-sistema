@@ -1416,5 +1416,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "038-codigo-whatsapp",
+  "tema": "Estafa del código de WhatsApp: 'te lo mandé por error, pasámelo' (Centro de Ayuda de WhatsApp)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-05T14:33",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-05T14:33",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-05T14:41",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-05T14:59",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

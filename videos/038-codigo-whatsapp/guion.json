@@ -1,0 +1,21 @@
+{
+  "titulo": "Te escribe un conocido: 'te llegó un código por error, pasámelo'. Si se lo pasás, te roban el WhatsApp",
+  "fondo": "oscuro",
+  "receta": "El que lo hace mal / pilar celular_estafas",
+  "pilar": "celular_estafas",
+  "destinatario": "se lo manda alguien a su mamá, su tía o su abuelo, el que le contesta a cualquiera que le escriba 'pasame el código que te llegó por error'",
+  "regla_guardable": "El código de WhatsApp no se lo pasás a nadie. Ni a un amigo, ni a tu familia. Y activá la verificación en dos pasos (con una contraseña propia).",
+  "fuentes": [
+    "Centro de Ayuda de WhatsApp: 'Cómo recuperar una cuenta vulnerada' y 'Consejos de seguridad de la cuenta' (faq.whatsapp.com)"
+  ],
+  "frases": [
+    {"texto": "Te escribe un conocido: me llegó un código tuyo por error, pasámelo. Y se lo pasás.", "estilo": "Seco, directo, a cámara."},
+    {"texto": "Listo: ese código es la llave de tu WhatsApp.", "estilo": "Contundente."},
+    {"texto": "Con tu número y ese código, el estafador abre tu cuenta en su celular, y vos te quedás afuera.", "estilo": "Informativo, con intriga."},
+    {"texto": "El Centro de Ayuda de WhatsApp lo dice claro: el código de registro no se lo des a nadie, ni a tus amigos ni a tu familia.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Después pueden escribirle a tus contactos haciéndose pasar por vos.", "estilo": "Serio, que pesa."},
+    {"texto": "Ojo: si de verdad alguien te lo pide, no se lo escribas. Llamalo por teléfono y preguntale.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Hoy, entrá a Ajustes, Cuenta, y activá la verificación en dos pasos. Es una contraseña que solo sabés vos.", "estilo": "Práctico, amable."},
+    {"texto": "Mandáselo al que le pasa el código a cualquiera.", "estilo": "Cómplice, con humor."}
+  ]
+}

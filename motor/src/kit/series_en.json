@@ -100,6 +100,10 @@
     "en-023-package-text": [
       "casa",
       5
+    ],
+    "en-024-heat-index": [
+      "clima",
+      5
     ]
   }
 }

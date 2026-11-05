@@ -10,3 +10,16 @@ Uso: 34 pasos · 64,411 tokens nuevos · 1,010,483 de caché · 7,914 escritos �
 2026-11-05 09:10 Render de en-023-package-text (sin Claude).
 2026-11-05 09:19 en-023-package-text: listo (render sin Claude)
 2026-11-05 09:19 Termina la producción (ok).
+2026-11-05 14:59 Arranca la producción (5 listos en la cola, meta 6).
+El video de hoy es `en-024-heat-index` (heat index). Quedó en estado `render`, y `producir.py` lo renderiza después. Todavía no lo rendericé ni corrí el control.
+
+- **Rescates:** no había videos apartados por "chequeo rechazado", así que no rescaté ninguno.
+- **Video:** es una adaptación 3D de `019-sensacion-termica`, serie Weather explained #5, con los textos pasados a °F. El chequeo de datos lo hizo un subagente aparte y aprobó en el primer intento, con todo verificado contra fuentes del NWS/NOAA. La voz dura 39,9 s. `tlx tsc` dio sin errores y los cuadros se ven bien.
+- **Radar:** no repetí la búsqueda del radar. La última pasada es del 4/11 y no encontró tema.
+- **Pendiente:** el chequeo observó que la voz dice "ninety-six" y "one hundred twenty-four" sin "about", pero el caption sí lo tiene. Es menor y las cifras son las de la tabla del NWS.
+Uso: 45 pasos · 67,660 tokens nuevos · 1,464,867 de caché · 16,285 escritos · equivale a US$ 0.69 de API
+Permisos negados (1):
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-024-heat-index; cat > chequeo.json <<'EOF'\n{\n  \"veredicto\":
+2026-11-05 15:04 Render de en-024-heat-index (sin Claude).
+2026-11-05 15:25 en-024-heat-index: listo (render sin Claude)
+2026-11-05 15:25 Termina la producción (ok).

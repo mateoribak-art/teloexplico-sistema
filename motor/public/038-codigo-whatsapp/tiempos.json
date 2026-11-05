@@ -1,0 +1,691 @@
+{
+ "duracion": 41.38,
+ "frases": [
+  {
+   "texto": "Te escribe un conocido: me llegó un código tuyo por error, pasámelo. Y se lo pasás.",
+   "palabras": [
+    {
+     "texto": "Te",
+     "inicio": 0.0,
+     "fin": 0.12
+    },
+    {
+     "texto": "escribe",
+     "inicio": 0.12,
+     "fin": 0.32
+    },
+    {
+     "texto": "un",
+     "inicio": 0.32,
+     "fin": 0.48
+    },
+    {
+     "texto": "conocido:",
+     "inicio": 0.48,
+     "fin": 0.98
+    },
+    {
+     "texto": "me",
+     "inicio": 1.5,
+     "fin": 1.72
+    },
+    {
+     "texto": "llegó",
+     "inicio": 1.72,
+     "fin": 1.88
+    },
+    {
+     "texto": "un",
+     "inicio": 1.88,
+     "fin": 2.04
+    },
+    {
+     "texto": "código",
+     "inicio": 2.04,
+     "fin": 2.28
+    },
+    {
+     "texto": "tuyo",
+     "inicio": 2.28,
+     "fin": 2.62
+    },
+    {
+     "texto": "por",
+     "inicio": 2.62,
+     "fin": 2.76
+    },
+    {
+     "texto": "error,",
+     "inicio": 2.76,
+     "fin": 2.96
+    },
+    {
+     "texto": "pasámelo.",
+     "inicio": 3.12,
+     "fin": 3.5
+    },
+    {
+     "texto": "Y",
+     "inicio": 3.96,
+     "fin": 4.12
+    },
+    {
+     "texto": "se",
+     "inicio": 4.12,
+     "fin": 4.2
+    },
+    {
+     "texto": "lo",
+     "inicio": 4.2,
+     "fin": 4.28
+    },
+    {
+     "texto": "pasás.",
+     "inicio": 4.28,
+     "fin": 4.66
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.66
+  },
+  {
+   "texto": "Listo: ese código es la llave de tu WhatsApp.",
+   "palabras": [
+    {
+     "texto": "Listo:",
+     "inicio": 5.12,
+     "fin": 5.38
+    },
+    {
+     "texto": "ese",
+     "inicio": 5.94,
+     "fin": 6.14
+    },
+    {
+     "texto": "código",
+     "inicio": 6.14,
+     "fin": 6.56
+    },
+    {
+     "texto": "es",
+     "inicio": 6.56,
+     "fin": 7.06
+    },
+    {
+     "texto": "la",
+     "inicio": 7.06,
+     "fin": 7.16
+    },
+    {
+     "texto": "llave",
+     "inicio": 7.16,
+     "fin": 7.48
+    },
+    {
+     "texto": "de",
+     "inicio": 7.48,
+     "fin": 7.62
+    },
+    {
+     "texto": "tu",
+     "inicio": 7.62,
+     "fin": 7.8
+    },
+    {
+     "texto": "WhatsApp.",
+     "inicio": 7.8,
+     "fin": 8.0
+    }
+   ],
+   "inicio": 5.12,
+   "fin": 8.0
+  },
+  {
+   "texto": "Con tu número y ese código, el estafador abre tu cuenta en su celular, y vos te quedás afuera.",
+   "palabras": [
+    {
+     "texto": "Con",
+     "inicio": 8.62,
+     "fin": 8.82
+    },
+    {
+     "texto": "tu",
+     "inicio": 8.82,
+     "fin": 8.94
+    },
+    {
+     "texto": "número",
+     "inicio": 8.94,
+     "fin": 9.2
+    },
+    {
+     "texto": "y",
+     "inicio": 9.2,
+     "fin": 9.42
+    },
+    {
+     "texto": "ese",
+     "inicio": 9.42,
+     "fin": 9.56
+    },
+    {
+     "texto": "código,",
+     "inicio": 9.56,
+     "fin": 9.98
+    },
+    {
+     "texto": "el",
+     "inicio": 10.3,
+     "fin": 10.44
+    },
+    {
+     "texto": "estafador",
+     "inicio": 10.44,
+     "fin": 10.9
+    },
+    {
+     "texto": "abre",
+     "inicio": 10.9,
+     "fin": 11.18
+    },
+    {
+     "texto": "tu",
+     "inicio": 11.18,
+     "fin": 11.4
+    },
+    {
+     "texto": "cuenta",
+     "inicio": 11.4,
+     "fin": 11.66
+    },
+    {
+     "texto": "en",
+     "inicio": 11.66,
+     "fin": 11.84
+    },
+    {
+     "texto": "su",
+     "inicio": 11.84,
+     "fin": 11.96
+    },
+    {
+     "texto": "celular,",
+     "inicio": 11.96,
+     "fin": 12.36
+    },
+    {
+     "texto": "y",
+     "inicio": 12.74,
+     "fin": 13.02
+    },
+    {
+     "texto": "vos",
+     "inicio": 13.02,
+     "fin": 13.18
+    },
+    {
+     "texto": "te",
+     "inicio": 13.18,
+     "fin": 13.4
+    },
+    {
+     "texto": "quedás",
+     "inicio": 13.4,
+     "fin": 13.64
+    },
+    {
+     "texto": "afuera.",
+     "inicio": 13.64,
+     "fin": 13.92
+    }
+   ],
+   "inicio": 8.62,
+   "fin": 13.92
+  },
+  {
+   "texto": "El Centro de Ayuda de WhatsApp lo dice claro: el código de registro no se lo des a nadie, ni a tus amigos ni a tu familia.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 14.4,
+     "fin": 14.58
+    },
+    {
+     "texto": "Centro",
+     "inicio": 14.58,
+     "fin": 14.9
+    },
+    {
+     "texto": "de",
+     "inicio": 14.9,
+     "fin": 15.0
+    },
+    {
+     "texto": "Ayuda",
+     "inicio": 15.0,
+     "fin": 15.3
+    },
+    {
+     "texto": "de",
+     "inicio": 15.3,
+     "fin": 15.4
+    },
+    {
+     "texto": "WhatsApp",
+     "inicio": 15.4,
+     "fin": 15.8
+    },
+    {
+     "texto": "lo",
+     "inicio": 15.8,
+     "fin": 15.98
+    },
+    {
+     "texto": "dice",
+     "inicio": 15.98,
+     "fin": 16.16
+    },
+    {
+     "texto": "claro:",
+     "inicio": 16.16,
+     "fin": 16.5
+    },
+    {
+     "texto": "el",
+     "inicio": 17.04,
+     "fin": 17.14
+    },
+    {
+     "texto": "código",
+     "inicio": 17.14,
+     "fin": 17.52
+    },
+    {
+     "texto": "de",
+     "inicio": 17.52,
+     "fin": 17.72
+    },
+    {
+     "texto": "registro",
+     "inicio": 17.72,
+     "fin": 18.24
+    },
+    {
+     "texto": "no",
+     "inicio": 18.24,
+     "fin": 18.44
+    },
+    {
+     "texto": "se",
+     "inicio": 18.44,
+     "fin": 18.58
+    },
+    {
+     "texto": "lo",
+     "inicio": 18.58,
+     "fin": 18.68
+    },
+    {
+     "texto": "des",
+     "inicio": 18.68,
+     "fin": 18.82
+    },
+    {
+     "texto": "a",
+     "inicio": 18.82,
+     "fin": 19.06
+    },
+    {
+     "texto": "nadie,",
+     "inicio": 19.06,
+     "fin": 19.38
+    },
+    {
+     "texto": "ni",
+     "inicio": 19.94,
+     "fin": 20.14
+    },
+    {
+     "texto": "a",
+     "inicio": 20.14,
+     "fin": 20.22
+    },
+    {
+     "texto": "tus",
+     "inicio": 20.22,
+     "fin": 20.32
+    },
+    {
+     "texto": "amigos",
+     "inicio": 20.32,
+     "fin": 20.74
+    },
+    {
+     "texto": "ni",
+     "inicio": 20.74,
+     "fin": 21.1
+    },
+    {
+     "texto": "a",
+     "inicio": 21.1,
+     "fin": 21.16
+    },
+    {
+     "texto": "tu",
+     "inicio": 21.16,
+     "fin": 21.26
+    },
+    {
+     "texto": "familia.",
+     "inicio": 21.26,
+     "fin": 21.54
+    }
+   ],
+   "inicio": 14.4,
+   "fin": 21.54
+  },
+  {
+   "texto": "Después pueden escribirle a tus contactos haciéndose pasar por vos.",
+   "palabras": [
+    {
+     "texto": "Después",
+     "inicio": 22.14,
+     "fin": 22.34
+    },
+    {
+     "texto": "pueden",
+     "inicio": 22.34,
+     "fin": 22.52
+    },
+    {
+     "texto": "escribirle",
+     "inicio": 22.52,
+     "fin": 22.82
+    },
+    {
+     "texto": "a",
+     "inicio": 22.82,
+     "fin": 22.94
+    },
+    {
+     "texto": "tus",
+     "inicio": 22.94,
+     "fin": 23.02
+    },
+    {
+     "texto": "contactos",
+     "inicio": 23.02,
+     "fin": 23.66
+    },
+    {
+     "texto": "haciéndose",
+     "inicio": 23.76,
+     "fin": 24.246
+    },
+    {
+     "texto": "pasar",
+     "inicio": 24.246,
+     "fin": 24.489
+    },
+    {
+     "texto": "por",
+     "inicio": 24.489,
+     "fin": 24.634
+    },
+    {
+     "texto": "vos.",
+     "inicio": 24.634,
+     "fin": 24.78
+    }
+   ],
+   "inicio": 22.14,
+   "fin": 24.78
+  },
+  {
+   "texto": "Ojo: si de verdad alguien te lo pide, no se lo escribas. Llamalo por teléfono y preguntale.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 25.3,
+     "fin": 25.6
+    },
+    {
+     "texto": "si",
+     "inicio": 26.12,
+     "fin": 26.22
+    },
+    {
+     "texto": "de",
+     "inicio": 26.22,
+     "fin": 26.34
+    },
+    {
+     "texto": "verdad",
+     "inicio": 26.34,
+     "fin": 26.6
+    },
+    {
+     "texto": "alguien",
+     "inicio": 26.6,
+     "fin": 26.88
+    },
+    {
+     "texto": "te",
+     "inicio": 26.88,
+     "fin": 27.04
+    },
+    {
+     "texto": "lo",
+     "inicio": 27.04,
+     "fin": 27.14
+    },
+    {
+     "texto": "pide,",
+     "inicio": 27.14,
+     "fin": 27.44
+    },
+    {
+     "texto": "no",
+     "inicio": 27.78,
+     "fin": 27.94
+    },
+    {
+     "texto": "se",
+     "inicio": 27.94,
+     "fin": 28.06
+    },
+    {
+     "texto": "lo",
+     "inicio": 28.06,
+     "fin": 28.14
+    },
+    {
+     "texto": "escribas.",
+     "inicio": 28.14,
+     "fin": 28.58
+    },
+    {
+     "texto": "Llamalo",
+     "inicio": 29.08,
+     "fin": 29.48
+    },
+    {
+     "texto": "por",
+     "inicio": 29.48,
+     "fin": 29.66
+    },
+    {
+     "texto": "teléfono",
+     "inicio": 29.66,
+     "fin": 30.1
+    },
+    {
+     "texto": "y",
+     "inicio": 30.1,
+     "fin": 30.22
+    },
+    {
+     "texto": "preguntale.",
+     "inicio": 30.22,
+     "fin": 30.7
+    }
+   ],
+   "inicio": 25.3,
+   "fin": 30.7
+  },
+  {
+   "texto": "Hoy, entrá a Ajustes, Cuenta, y activá la verificación en dos pasos. Es una contraseña que solo sabés vos.",
+   "palabras": [
+    {
+     "texto": "Hoy,",
+     "inicio": 31.28,
+     "fin": 31.48
+    },
+    {
+     "texto": "entrá",
+     "inicio": 31.94,
+     "fin": 32.32
+    },
+    {
+     "texto": "a",
+     "inicio": 32.32,
+     "fin": 32.46
+    },
+    {
+     "texto": "Ajustes,",
+     "inicio": 32.46,
+     "fin": 32.96
+    },
+    {
+     "texto": "Cuenta,",
+     "inicio": 33.52,
+     "fin": 33.9
+    },
+    {
+     "texto": "y",
+     "inicio": 34.52,
+     "fin": 34.54
+    },
+    {
+     "texto": "activá",
+     "inicio": 34.54,
+     "fin": 34.9
+    },
+    {
+     "texto": "la",
+     "inicio": 34.9,
+     "fin": 34.96
+    },
+    {
+     "texto": "verificación",
+     "inicio": 34.96,
+     "fin": 35.46
+    },
+    {
+     "texto": "en",
+     "inicio": 35.46,
+     "fin": 35.72
+    },
+    {
+     "texto": "dos",
+     "inicio": 35.72,
+     "fin": 35.82
+    },
+    {
+     "texto": "pasos.",
+     "inicio": 35.82,
+     "fin": 36.26
+    },
+    {
+     "texto": "Es",
+     "inicio": 36.72,
+     "fin": 36.84
+    },
+    {
+     "texto": "una",
+     "inicio": 36.84,
+     "fin": 36.918
+    },
+    {
+     "texto": "contraseña",
+     "inicio": 36.918,
+     "fin": 37.18
+    },
+    {
+     "texto": "que",
+     "inicio": 37.18,
+     "fin": 37.4
+    },
+    {
+     "texto": "solo",
+     "inicio": 37.4,
+     "fin": 37.58
+    },
+    {
+     "texto": "sabés",
+     "inicio": 37.58,
+     "fin": 37.94
+    },
+    {
+     "texto": "vos.",
+     "inicio": 37.94,
+     "fin": 38.04
+    }
+   ],
+   "inicio": 31.28,
+   "fin": 38.04
+  },
+  {
+   "texto": "Mandáselo al que le pasa el código a cualquiera.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 39.16,
+     "fin": 39.64
+    },
+    {
+     "texto": "al",
+     "inicio": 39.64,
+     "fin": 39.76
+    },
+    {
+     "texto": "que",
+     "inicio": 39.76,
+     "fin": 39.9
+    },
+    {
+     "texto": "le",
+     "inicio": 39.9,
+     "fin": 40.02
+    },
+    {
+     "texto": "pasa",
+     "inicio": 40.02,
+     "fin": 40.22
+    },
+    {
+     "texto": "el",
+     "inicio": 40.22,
+     "fin": 40.38
+    },
+    {
+     "texto": "código",
+     "inicio": 40.38,
+     "fin": 40.66
+    },
+    {
+     "texto": "a",
+     "inicio": 40.66,
+     "fin": 40.82
+    },
+    {
+     "texto": "cualquiera.",
+     "inicio": 40.82,
+     "fin": 41.24
+    }
+   ],
+   "inicio": 39.16,
+   "fin": 41.24
+  }
+ ]
+}
