@@ -159,7 +159,7 @@
  },
  {
   "clave": "perros-colores",
-  "estado": "listo",
+  "estado": "publicado",
   "origen": [
    "023-perros-colores"
   ],
@@ -168,6 +168,11 @@
     "estado": "listo",
     "cuando": "2026-11-04T15:06",
     "motivo": "control OK"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-05T20:54",
+    "motivo": "https://www.instagram.com/p/DfYQjIEmDrT/"
    }
   ]
  },
