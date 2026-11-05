@@ -379,5 +379,25 @@
    "videos/035-lavandina-vinagre/guion.json",
    "videos/cola.json"
   ]
+ },
+ {
+  "id": "11050333-en-voz",
+  "creado": "2026-11-05T03:33",
+  "empleado": "en/voz",
+  "firma": "502264f52368",
+  "estado": "pedido",
+  "auto": true,
+  "problema": "En la oficina de Nueva York (@letmeexplain.us), Leo (Locutor) está en \"aviso\": La voz no coincidió con el guion en en-022-power-outage-fridge.\nLo que sugiere la oficina: Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.\nTareas:\nen-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go \nen-022-power-outage-fridge: render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it toda\n",
+  "actualizado": "2026-11-05T03:33"
+ },
+ {
+  "id": "11050333-en-animador",
+  "creado": "2026-11-05T03:33",
+  "empleado": "en/animador",
+  "firma": "c0e49dd73124",
+  "estado": "pedido",
+  "auto": true,
+  "problema": "En la oficina de Nueva York (@letmeexplain.us), Ava (Animación y render) está en \"falla\": Falló el render de en-022-power-outage-fridge.\nLo que sugiere la oficina: Relanzá la producción: los videos en estado render se vuelven a renderizar solos.\nTareas:\nen-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste\nen-022-power-outage-fridge: render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it today before the next storm. Send this to th\n",
+  "actualizado": "2026-11-05T03:33"
  }
 ]
