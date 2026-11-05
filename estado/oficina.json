@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T09:20",
+ "actualizado": "2026-11-05T12:36",
  "oficinas": [
   {
    "clave": "es",
@@ -7,13 +7,18 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 400,
-   "listos": 15,
-   "dias": 7.5,
-   "proximo": "008-aire-en-17",
-   "publicados": 25,
+   "listos": 14,
+   "dias": 7.0,
+   "proximo": "025-noquis-del-29",
+   "publicados": 26,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "008-aire-en-17",
+     "link": "https://www.instagram.com/reel/DfXXF1vkclo/",
+     "cuando": "2026-11-05T15:32"
+    },
     {
      "slug": "014-celular-arroz",
      "link": "https://www.instagram.com/reel/DfVi8vhDV_A/",
@@ -33,21 +38,9 @@
      "slug": "023-perros-colores",
      "link": "https://www.instagram.com/reel/DfS9jQbgQtk/",
      "cuando": "2026-11-03T22:32"
-    },
-    {
-     "slug": "010-rayo-mismo-lugar",
-     "link": "https://www.instagram.com/reel/DfSNhuTnfzv/",
-     "cuando": "2026-11-03T15:32"
     }
    ],
    "linea": [
-    {
-     "slug": "008-aire-en-17",
-     "tema": "Poner el aire en 17 grados no enfria mas rapido; por que se recomienda 24",
-     "estado": "listo",
-     "cuando": "2026-10-29T13:34",
-     "motivo": "render sin Claude"
-    },
     {
      "slug": "025-noquis-del-29",
      "tema": "¿Por qué comemos ñoquis el 29 y ponemos plata abajo del plato? (leyenda vs explicación económica)",
@@ -67,6 +60,13 @@
      "tema": "¿Por qué le decimos bondi al colectivo? La palabra vino de Brasil (bonde, tranvía)",
      "estado": "listo",
      "cuando": "2026-11-02T17:41",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "028-yerba-por-ano",
+     "tema": "¿Cuánta yerba toma un argentino por año? Seis kilos por persona (INYM/MAGyP)",
+     "estado": "listo",
+     "cuando": "2026-11-02T20:42",
      "motivo": "render sin Claude"
     },
     {
@@ -102,7 +102,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-05T08:39",
-     "hace": "hace 41 min",
+     "hace": "hace 3 h",
      "detalle": [
       "Uso: 18 pasos · 15,656 tokens nuevos · 1,114,661 de caché · 5,260 escritos · equivale a US$ 1.27 de API",
       "2026-11-05 08:22 Arranca la producción (14 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -161,7 +161,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y clima/tendencias): solo resultados sin fecha verificable de hoy (julio 2026, noviembre 2025, ene-feb 2026). Des",
      "cuando": "2026-11-04T17:30",
-     "hace": "hace 15 h",
+     "hace": "hace 19 h",
      "detalle": [
       "02/11 00:00 | Revisión radar. Búsqueda web (alertas SMN hoy): nada fechado de hoy (lo más reciente es de julio 2026). Sin tema de actualidad verificable; sigue la cola normal. Segunda pasada: descartados (a) tormentas/granizo de inicio de noviembre (Meteored sin año verificable; granizo ya tiene 005 y 024), (b) ola de calor de fines de octubre (sin fuente fechada de hoy, y calor/sensación térmica ya cubiertos en 019).",
       "03/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y clima de la semana): solo resultados de julio 2026 o de noviembre 2025 (días de la semana que no coinciden), nada fechado de hoy. Descartados: (a) tormentas/ciclogénesis del \"jueves 6 de noviembre\" (es de 2025), (b) ola de calor extrema + tormentas en AMBA (Cronista, sin fecha verificable; granizo y sensación térmica ya cubiertos), (c) El Niño/trimestral SMN (ya está 016). Sin tema verificable; sigue la cola normal.",
@@ -194,8 +194,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-05T08:39",
-     "hace": "hace 41 min",
+     "cuando": "2026-11-05T12:33",
+     "hace": "hace 3 min",
      "detalle": [
       "031-murcielago-ciego: aprobado — Todas las afirmaciones quedan verificadas contra las fuentes citadas, y esas fuentes respaldan lo que se les atribuye: Smithsonian (si.edu/s",
       "032-pelo-mojado-resfrio: aprobado — Todas las afirmaciones de salud y cifras quedaron verificadas contra fuente primaria (resumen de Johnson y Eccles en Family Practice 2005;22",
@@ -227,8 +227,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-05T08:39",
-     "hace": "hace 41 min",
+     "cuando": "2026-11-05T12:33",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -250,14 +250,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-05 08:39.",
-     "cuando": "2026-11-05T08:39",
-     "hace": "hace 41 min",
+     "resumen": "Último video terminado: 2026-11-05 12:33.",
+     "cuando": "2026-11-05T12:33",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "144a6848a43a"
+     "firma": "fc3164492363"
     },
     {
      "id": "control",
@@ -274,14 +274,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "15 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-05T08:39",
-     "hace": "hace 41 min",
+     "resumen": "14 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-05T12:33",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "66a55489ad81"
+     "firma": "405cc6f33c60"
     },
     {
      "id": "publicador",
@@ -298,27 +298,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: 014-celular-arroz.",
-     "cuando": "2026-11-04T19:39",
-     "hace": "hace 13 h",
+     "resumen": "Último: 008-aire-en-17.",
+     "cuando": "2026-11-05T12:34",
+     "hace": "hace 2 min",
      "detalle": [
-      "04/11 19:33 014-celular-arroz publicado: https://www.instagram.com/reel/DfViXizDU90/",
-      "04/11 19:34 014-celular-arroz publicado en Facebook: https://www.facebook.com/reel/1741550683598608/",
-      "04/11 19:34 014-celular-arroz en la bandeja de TikTok",
-      "04/11 19:34 014-celular-arroz https://youtube.com/shorts/qJYyuwbzT7M | privacidad: public",
-      "04/11 19:34 014-celular-arroz paquete para TikTok/YouTube enviado",
       "04/11 19:38 014-celular-arroz publicado: https://www.instagram.com/reel/DfVi8vhDV_A/",
       "04/11 19:38 014-celular-arroz publicado en Facebook: https://www.facebook.com/reel/4734653553478239/",
       "04/11 19:39 014-celular-arroz en la bandeja de TikTok",
       "04/11 19:39 014-celular-arroz https://youtube.com/shorts/3zLHm2ZioCw | privacidad: public",
-      "04/11 19:39 014-celular-arroz paquete para TikTok/YouTube enviado"
+      "04/11 19:39 014-celular-arroz paquete para TikTok/YouTube enviado",
+      "05/11 12:33 008-aire-en-17 publicado: https://www.instagram.com/reel/DfXXF1vkclo/",
+      "05/11 12:33 008-aire-en-17 publicado en Facebook: https://www.facebook.com/reel/2439580136449772/",
+      "05/11 12:33 008-aire-en-17 falló TikTok: ^^^^^^^^",
+      "05/11 12:34 008-aire-en-17 https://youtube.com/shorts/naPBvj3IOJg | privacidad: public",
+      "05/11 12:34 008-aire-en-17 paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: 008-aire-en-17 — Poner el aire en 17 grados no enfria mas rapido; por que se recomienda 24"
+      "Próximo: 025-noquis-del-29 — ¿Por qué comemos ñoquis el 29 y ponemos plata abajo del plato? (leyenda vs explicación económica)"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "92bf1fe0dde0"
+     "firma": "48802146a043"
     },
     {
      "id": "redes",
@@ -334,26 +334,24 @@
        "cuenta": "es"
       }
      },
-     "estado": "ok",
-     "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-04T19:39",
-     "hace": "hace 13 h",
+     "estado": "aviso",
+     "resumen": "008-aire-en-17 falló TikTok: ^^^^^^^^",
+     "cuando": "2026-11-05T12:34",
+     "hace": "hace 2 min",
      "detalle": [
-      "04/11 12:35 013-alcohol-calor https://youtube.com/shorts/CRigS9KRbXg | privacidad: public",
-      "04/11 12:35 013-alcohol-calor paquete para TikTok/YouTube enviado",
-      "04/11 19:34 014-celular-arroz en la bandeja de TikTok",
       "04/11 19:34 014-celular-arroz https://youtube.com/shorts/qJYyuwbzT7M | privacidad: public",
       "04/11 19:34 014-celular-arroz paquete para TikTok/YouTube enviado",
       "04/11 19:39 014-celular-arroz en la bandeja de TikTok",
       "04/11 19:39 014-celular-arroz https://youtube.com/shorts/3zLHm2ZioCw | privacidad: public",
-      "04/11 19:39 014-celular-arroz paquete para TikTok/YouTube enviado"
+      "04/11 19:39 014-celular-arroz paquete para TikTok/YouTube enviado",
+      "05/11 12:33 008-aire-en-17 falló TikTok: ^^^^^^^^",
+      "05/11 12:34 008-aire-en-17 https://youtube.com/shorts/naPBvj3IOJg | privacidad: public",
+      "05/11 12:34 008-aire-en-17 paquete para TikTok/YouTube enviado"
      ],
-     "tareas": [
-      "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
-     ],
-     "arreglo": null,
+     "tareas": [],
+     "arreglo": "Si TikTok no recibió el borrador, el paquete igual llegó por Telegram: subilo a mano.",
      "solo": false,
-     "firma": "30d12406c8e5"
+     "firma": "8a029ca5a5c1"
     },
     {
      "id": "carruseles",
@@ -369,7 +367,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-04T21:28",
-     "hace": "hace 11 h",
+     "hace": "hace 15 h",
      "detalle": [
       "2026-11-03 20:46 refresca-tormenta: publicado https://www.instagram.com/p/DfTGGAbDttM/",
       "2026-11-03 23:06 ventilador-pieza-vacia: listo control OK",
@@ -403,7 +401,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-05T04:45",
-     "hace": "hace 4 h",
+     "hace": "hace 7 h",
      "detalle": [
       "02/11 04:22 Termina la respuesta de comentarios (con problemas).",
       "02/11 21:14 Hay 14 comentarios nuevos: arranca la respuesta.",
@@ -442,7 +440,7 @@
      "estado": "ok",
      "resumen": "05/11: 400 seguidores",
      "cuando": "2026-11-05T03:33",
-     "hace": "hace 5 h",
+     "hace": "hace 9 h",
      "detalle": [
       "02/11: 354 seguidores",
       "03/11: 365 seguidores",
@@ -475,7 +473,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-05T09:20",
+     "cuando": "2026-11-05T12:36",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -515,13 +513,18 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 3,
-   "listos": 6,
-   "dias": 3.0,
-   "proximo": "en-012-thunder-count",
-   "publicados": 19,
+   "listos": 5,
+   "dias": 2.5,
+   "proximo": "en-020-ac-sixty",
+   "publicados": 20,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "en-012-thunder-count",
+     "link": "https://www.instagram.com/reel/DfXXVeEketL/",
+     "cuando": "2026-11-05T15:34"
+    },
     {
      "slug": "en-019-knuckle-crack",
      "link": "https://www.instagram.com/reel/DfVjPs2jf3l/",
@@ -541,21 +544,9 @@
      "slug": "en-017-heat-head",
      "link": "https://www.instagram.com/reel/DfS9ytKCBNs/",
      "cuando": "2026-11-03T22:34"
-    },
-    {
-     "slug": "en-015-rain-smell",
-     "link": "https://www.instagram.com/reel/DfSNxZLAQrZ/",
-     "cuando": "2026-11-03T15:35"
     }
    ],
    "linea": [
-    {
-     "slug": "en-012-thunder-count",
-     "tema": "How far away is the storm? Count flash to thunder (adapted from 018)",
-     "estado": "listo",
-     "cuando": "2026-11-05T08:49",
-     "motivo": "render sin Claude"
-    },
     {
      "slug": "en-020-ac-sixty",
      "tema": "Does setting the AC to 60 cool faster? (adapted from 008)",
@@ -575,6 +566,13 @@
      "tema": "Why do your ears pop on a plane?",
      "estado": "listo",
      "cuando": "2026-11-04T15:39",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "en-022-power-outage-fridge",
+     "tema": "Power outage: keep the fridge shut (USDA: 4 hours; pillar kitchen/weather action)",
+     "estado": "listo",
+     "cuando": "2026-11-05T09:07",
      "motivo": "render sin Claude"
     },
     {
@@ -610,7 +608,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-05T09:19",
-     "hace": "hace 1 min",
+     "hace": "hace 3 h",
      "detalle": [
       "Uso: 34 pasos · 64,411 tokens nuevos · 1,010,483 de caché · 7,914 escritos · equivale a US$ 0.44 de API",
       "2026-11-05 08:39 Arranca la producción (3 listos en la cola, meta 6).",
@@ -648,7 +646,7 @@
      "estado": "ok",
      "resumen": "Octava pasada del radar: la búsqueda web no devolvió nada verificable de las últimas 48 h (NWS sin fecha del día, notas sin fecha). Descartados: (1) nor'easter ",
      "cuando": "2026-11-04T17:30",
-     "hace": "hace 15 h",
+     "hace": "hace 19 h",
      "detalle": [
       "02/11 00:00 Sexta pasada del radar: la búsqueda web no devolvió clima ni tendencias verificables de las últimas 48 h (solo blogs sin fecha y notas viejas). Descartados: (1) cambio de hora (terminó el 1/11): ya publicado (en-002), el momento pasó; (2) clima de la semana: sin alerta nacional ni fuente oficial del día; (3) Sunshine Protection Act: es política, descartado. Sin tema nuevo.",
       "03/11 00:00 Séptima pasada del radar: la búsqueda web solo devolvió páginas de AccuWeather sin fecha clara y notas de 2025; nada verificable de las últimas 48 h. Descartados: (1) \"pattern flip\" de la primera semana de noviembre (AccuWeather): fecha dudosa, sin fuente oficial del día; (2) superluna del 24/11: todavía lejos; (3) cambio de hora: ya publicado (en-002), el momento pasó. Sin tema nuevo.",
@@ -677,8 +675,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-05T09:19",
-     "hace": "hace 1 min",
+     "cuando": "2026-11-05T12:34",
+     "hace": "hace 2 min",
      "detalle": [
       "en-017-heat-head: aprobado — Version actual revisada de nuevo con busqueda web. La cita ahora es la correcta (Vreeman & Carroll, 'Festive medical myths', BMJ 2008;337:a2",
       "en-018-storm-cooldown: aprobado — Todas las afirmaciones fácticas coinciden con páginas de NWS (Binghamton 'Weather in Action: Downburst', glosario NWS de outflow boundary, p",
@@ -710,8 +708,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-11-05T09:19",
-     "hace": "hace 1 min",
+     "cuando": "2026-11-05T12:34",
+     "hace": "hace 2 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -733,14 +731,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-05 09:19.",
-     "cuando": "2026-11-05T09:19",
-     "hace": "hace 1 min",
+     "resumen": "Último video terminado: 2026-11-05 12:34.",
+     "cuando": "2026-11-05T12:34",
+     "hace": "hace 2 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "f85311892d17"
+     "firma": "3f2b34fab74d"
     },
     {
      "id": "control",
@@ -757,14 +755,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-05T09:19",
-     "hace": "hace 1 min",
+     "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-05T12:34",
+     "hace": "hace 2 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "625440fe5990"
+     "firma": "bace1412aac6"
     },
     {
      "id": "publicador",
@@ -781,27 +779,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: en-019-knuckle-crack.",
-     "cuando": "2026-11-04T19:41",
-     "hace": "hace 13 h",
+     "resumen": "Último: en-012-thunder-count.",
+     "cuando": "2026-11-05T12:36",
+     "hace": "recién",
      "detalle": [
-      "04/11 12:37 en-018-storm-cooldown en la bandeja de TikTok",
-      "04/11 12:37 en-018-storm-cooldown paquete para TikTok/YouTube enviado",
-      "04/11 19:35 en-019-knuckle-crack publicado: https://www.instagram.com/reel/DfVip1pCWyG/",
-      "04/11 19:35 en-019-knuckle-crack publicado en Facebook: https://www.facebook.com/reel/1875910186919071/",
       "04/11 19:36 en-019-knuckle-crack en la bandeja de TikTok",
       "04/11 19:36 en-019-knuckle-crack paquete para TikTok/YouTube enviado",
       "04/11 19:40 en-019-knuckle-crack publicado: https://www.instagram.com/reel/DfVjPs2jf3l/",
       "04/11 19:41 en-019-knuckle-crack publicado en Facebook: https://www.facebook.com/reel/2230039394600126/",
       "04/11 19:41 en-019-knuckle-crack en la bandeja de TikTok",
-      "04/11 19:41 en-019-knuckle-crack paquete para TikTok/YouTube enviado"
+      "04/11 19:41 en-019-knuckle-crack paquete para TikTok/YouTube enviado",
+      "05/11 12:34 en-012-thunder-count publicado: https://www.instagram.com/reel/DfXXVeEketL/",
+      "05/11 12:35 en-012-thunder-count publicado en Facebook: https://www.facebook.com/reel/1590551579056586/",
+      "05/11 12:35 en-012-thunder-count en la bandeja de TikTok",
+      "05/11 12:36 en-012-thunder-count paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: en-012-thunder-count — How far away is the storm? Count flash to thunder (adapted from 018)"
+      "Próximo: en-020-ac-sixty — Does setting the AC to 60 cool faster? (adapted from 008)"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "376b80bcb363"
+     "firma": "3c9cbd4dc436"
     },
     {
      "id": "redes",
@@ -819,17 +817,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-04T19:41",
-     "hace": "hace 13 h",
+     "cuando": "2026-11-05T12:36",
+     "hace": "recién",
      "detalle": [
-      "03/11 19:35 en-017-heat-head en la bandeja de TikTok",
-      "03/11 19:35 en-017-heat-head paquete para TikTok/YouTube enviado",
       "04/11 12:37 en-018-storm-cooldown en la bandeja de TikTok",
       "04/11 12:37 en-018-storm-cooldown paquete para TikTok/YouTube enviado",
       "04/11 19:36 en-019-knuckle-crack en la bandeja de TikTok",
       "04/11 19:36 en-019-knuckle-crack paquete para TikTok/YouTube enviado",
       "04/11 19:41 en-019-knuckle-crack en la bandeja de TikTok",
-      "04/11 19:41 en-019-knuckle-crack paquete para TikTok/YouTube enviado"
+      "04/11 19:41 en-019-knuckle-crack paquete para TikTok/YouTube enviado",
+      "05/11 12:35 en-012-thunder-count en la bandeja de TikTok",
+      "05/11 12:36 en-012-thunder-count paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -890,7 +888,7 @@
      "estado": "ok",
      "resumen": "05/11: 3 seguidores",
      "cuando": "2026-11-05T03:33",
-     "hace": "hace 5 h",
+     "hace": "hace 9 h",
      "detalle": [
       "02/11: 3 seguidores",
       "03/11: 3 seguidores",
@@ -923,7 +921,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-05T09:20",
+     "cuando": "2026-11-05T12:36",
      "hace": "recién",
      "detalle": [],
      "tareas": [],

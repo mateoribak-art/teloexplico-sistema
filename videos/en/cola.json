@@ -376,7 +376,7 @@
  {
   "slug": "en-012-thunder-count",
   "tema": "How far away is the storm? Count flash to thunder (adapted from 018)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -447,6 +447,11 @@
     "estado": "listo",
     "cuando": "2026-11-05T08:49",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-05T12:34",
+    "motivo": "https://www.instagram.com/reel/DfXXVeEketL/"
    }
   ]
  },

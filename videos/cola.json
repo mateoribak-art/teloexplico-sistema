@@ -705,7 +705,7 @@
  {
   "slug": "008-aire-en-17",
   "tema": "Poner el aire en 17 grados no enfria mas rapido; por que se recomienda 24",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -746,6 +746,11 @@
     "estado": "listo",
     "cuando": "2026-10-29T13:34",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-05T12:33",
+    "motivo": "https://www.instagram.com/reel/DfXXF1vkclo/"
    }
   ]
  },
