@@ -381,19 +381,19 @@
   ]
  },
  {
-  "id": "11050333-en-voz",
-  "creado": "2026-11-05T03:33",
-  "empleado": "en/voz",
+  "id": "11050333-en-animador",
+  "creado": "2026-11-05T03:35",
+  "empleado": "en/animador",
   "estado": "aplicado",
   "auto": true,
-  "problema": "En la oficina de Nueva York (@letmeexplain.us), Leo (Locutor) está en \"aviso\": La voz no coincidió con el guion en en-022-power-outage-fridge.\nLo que sugiere la oficina: Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.\nTareas:\nen-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go \nen-022-power-outage-fridge: render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it toda\n",
-  "firma": "502264f52368",
-  "actualizado": "2026-11-05T03:34",
-  "titulo": "Arreglé el control de voz que rechazaba dos videos en inglés. No pude mover los dos a la cola.",
-  "resumen": "Los dos videos (en-022-power-outage-fridge y en-012-thunder-count) quedaron apartados con 33 % y 40 % de coincidencia, siempre el mismo número. Eso apunta al control y no a la voz. El control le pasa a Whisper el guion entero como pista, y Whisper repite el final y se salta el resto. En `herramientas/control.py` agregué una última pasada sin esa pista, que se queda con la transcripción más parecida al guion. No pude correr el control de nuevo ni probar el arreglo: los audios no están en el repositorio. Quise devolver los dos videos a \"render\" con `TLX_CUENTA=en ./herramientas/tlx cola estado …`, pero el permiso me lo negó. Sin esa variable, `tlx cola` mira la cola en castellano y no encuentra los slugs en inglés. Los dos siguen apartados y el reintento automático de la nube los va a volver a renderizar y controlar con el control nuevo. Si no lo hace, hay que pasarlos a \"render\" a mano en",
-  "commit": "a31a8fb57b73054db9f4674779a42c7bd04bda29",
+  "problema": "En la oficina de Nueva York (@letmeexplain.us), Ava (Animación y render) está en \"falla\": Falló el render de en-022-power-outage-fridge.\nLo que sugiere la oficina: Relanzá la producción: los videos en estado render se vuelven a renderizar solos.\nTareas:\nen-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste\nen-022-power-outage-fridge: render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it today before the next storm. Send this to th\n",
+  "firma": "c0e49dd73124",
+  "actualizado": "2026-11-05T03:36",
+  "titulo": "El control de voz rechazaba mal dos videos en inglés; los devolví a render.",
+  "resumen": "En `en-012-thunder-count` y `en-022-power-outage-fridge` no falló el render. El control de voz los rechazaba con 40 % y 33 % de coincidencia, siempre los mismos números. Otra corrida del técnico ya había cambiado `herramientas/control.py` para corregir eso (no lo vi en mi copia, así que no pude comprobarlo). Yo pasé los dos videos de \"apartado\" a \"render\" en `videos/en/cola.json`. En la próxima producción en inglés se renderizan y se controlan con el control nuevo. No pude correr el render ni el control acá, así que no sé si pasan. Si vuelven a dar ese porcentaje, el problema está en la voz que se generó.",
+  "commit": "c488ea3687ad04451d76b81cfb2f109197860e20",
   "archivos": [
-   "herramientas/control.py"
+   "videos/en/cola.json"
   ]
  }
 ]
