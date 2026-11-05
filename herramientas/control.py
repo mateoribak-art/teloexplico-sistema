@@ -57,10 +57,18 @@ def voz_coincide(slug, video):
     segs, oido = oir(initial_prompt=texto)
     # whisper a veces se "come" la última frase de un audio largo aunque se oiga (en-009, 28/10: 91 %): si no alcanza, otra pasada
     # sin arrastrar el texto anterior y sin el filtro de silencio; vale la mejor de las dos
-    if difflib.SequenceMatcher(a=esperado, b=oido, autojunk=False).ratio() < 0.96:
+    def semejanza(o):
+        return difflib.SequenceMatcher(a=esperado, b=o, autojunk=False).ratio()
+    if semejanza(oido) < 0.96:
         segs2, oido2 = oir(initial_prompt=texto, condition_on_previous_text=False, no_speech_threshold=0.9, log_prob_threshold=-2.0)
         if len(oido2) > len(oido):
             segs, oido = segs2, oido2
+    # en-012 y en-022 (nov): con el guion entero como initial_prompt, whisper repite el final del guion y se salta el resto (33-40 %
+    # aunque la voz esté bien): última pasada sin el guion como pista, y se queda la que más se parece
+    if semejanza(oido) < 0.92:
+        segs3, oido3 = oir(condition_on_previous_text=False, no_speech_threshold=0.9, log_prob_threshold=-2.0, beam_size=5)
+        if semejanza(oido3) > semejanza(oido):
+            segs, oido = segs3, oido3
     os.remove(tmp)
     # comparación letra por letra: "ari rang" / "arirang" o "armi" / "army" casi no restan; una frase cambiada sí
     sm = difflib.SequenceMatcher(a=esperado, b=oido, autojunk=False)
