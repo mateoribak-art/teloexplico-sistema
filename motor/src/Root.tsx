@@ -45,6 +45,7 @@ import { DURACION as DUR_035, FPS as FPS_035, LavandinaVinagre3D, Portada035 } f
 import { DURACION as DUR_036, FPS as FPS_036, ApagonHeladera3D, Portada036 } from "./videos/036-apagon-heladera/Video";
 import { DURACION as DUR_037, FPS as FPS_037, PerroEnElAuto3D, Portada037 } from "./videos/037-perro-en-el-auto/Video";
 import { DURACION as DUR_038, FPS as FPS_038, CodigoWhatsapp3D, Portada038 } from "./videos/038-codigo-whatsapp/Video";
+import { DURACION as DUR_039, FPS as FPS_039, SolNublado3D, Portada039 } from "./videos/039-sol-nublado/Video";
 import { DURACION as DUR_023, FPS as FPS_023, PerrosColores023, Portada023 } from "./videos/023-perros-colores/Video";
 import { DURACION as DUR_024, FPS as FPS_024, GranizoCorto024, Portada024 } from "./videos/024-granizo-corto/Video";
 import { DURACION as DUR_011, FPS as FPS_011, SalAgua011, Portada011 } from "./videos/011-sal-agua-hierve/Video";
@@ -121,6 +122,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p037-perro-en-el-auto" component={Portada037} width={ANCHO} height={ALTO} />
         <Composition id="h038-codigo-whatsapp" component={CodigoWhatsapp3D} durationInFrames={DUR_038} fps={FPS_038} width={ANCHO} height={ALTO} />
         <Still id="p038-codigo-whatsapp" component={Portada038} width={ANCHO} height={ALTO} />
+        <Composition id="h039-sol-nublado" component={SolNublado3D} durationInFrames={DUR_039} fps={FPS_039} width={ANCHO} height={ALTO} />
+        <Still id="p039-sol-nublado" component={Portada039} width={ANCHO} height={ALTO} />
         <Composition id="h026-mediodia-hora-corrida" component={MediodiaHoraCorrida3D} durationInFrames={DUR_026} fps={FPS_026} width={ANCHO} height={ALTO} />
         <Composition id="demo-hora-corrida" component={HoraCorrida3D} durationInFrames={DUR_DEMO_HORA} fps={FPS_DEMO_HORA} width={ANCHO} height={ALTO} />
         <Composition id="h023-perros-colores" component={PerrosColores023} durationInFrames={DUR_023} fps={FPS_023} width={ANCHO} height={ALTO} />

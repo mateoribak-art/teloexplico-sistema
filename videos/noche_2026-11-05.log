@@ -15,3 +15,11 @@ Uso: 16 pasos · 15,535 tokens nuevos · 867,418 de caché · 3,676 escritos · 
 2026-11-05 14:42 Render de 038-codigo-whatsapp (sin Claude).
 2026-11-05 14:59 038-codigo-whatsapp: listo (render sin Claude)
 2026-11-05 14:59 Termina la producción (ok).
+2026-11-05 19:08 Arranca la producción (15 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Producido:** `039-sol-nublado`, "Está nublado, hoy no me pongo protector". Es del pilar salud simple, serie cuerpo #4. Quedó en `render` con voz, 3D, caption y portada; el control y el paso a `listo` los hace `producir.py`. La regla para guardar es "índice UV de 3 o más: protegete".
+- **Chequeo:** rechazado en el 1.º intento por el mecanismo de las nubes y por "no se siente como calor", sin fuente. Corregí con la versión de la OMS y el 2.º intento lo aprobó. La revisión visual hizo 2 vueltas y en los planos cercanos la persona queda algo recortada a la derecha.
+- **No hubo segundo video ni rescate:** la cola ya tenía 14 listos. El único apartado, `005-granizo-calor`, no es por chequeo rechazado. El radar no encontró tema fechado de hoy.
+Uso: 50 pasos · 86,294 tokens nuevos · 1,567,811 de caché · 18,705 escritos · equivale a US$ 0.89 de API
+2026-11-05 19:16 Render de 039-sol-nublado (sin Claude).
+2026-11-05 19:38 039-sol-nublado: listo (render sin Claude)
+2026-11-05 19:38 Termina la producción (ok).

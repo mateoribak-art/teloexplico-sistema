@@ -1,0 +1,14 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segundo chequeo con lectura directa de las fuentes (OMS, hoja 'Ultraviolet radiation'; CDC, 'Skin cancer prevention'). Todas las afirmaciones de salud del guion y del caption estan verificadas y con el matiz correcto (UV 'puede ser alta' con nubes, no 'siempre'; proteccion con indice 3 o mas, no todos los dias; atribuciones a OMS y CDC correctas). Ninguna probable, dudosa ni falsa. Observacion menor: el cemento como superficie reflectante figura en el CDC (como se atribuye) y no en la OMS, y la frase lo atribuye al CDC, asi que esta bien. 'Error' y los pedidos de accion son opinion/consejo derivado de lo verificado.",
+  "afirmaciones": [
+    {"texto": "La OMS dice que la radiacion ultravioleta puede ser alta incluso con nubes (guion frases 2 y 3; caption: 'son mas altos con el cielo despejado, pero pueden ser altos incluso con nubes').", "fuente": "OMS, hoja 'Ultraviolet radiation': 'UVR levels are highest under cloudless skies but can be high even with cloud cover.'", "estado": "verificada", "matiz_ok": true},
+    {"texto": "La ultravioleta no se ve ni se siente.", "fuente": "OMS, hoja 'Ultraviolet radiation': 'UVR can neither be seen nor felt.'", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Los CDC de EE. UU. agregan que tambien rebota en el agua, el cemento y la arena (caption: y la nieve).", "fuente": "CDC, 'Skin cancer prevention': 'they reflect off of surfaces like water, cement, sand, and snow'", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Los rayos UV pueden alcanzarte en dias nublados y frescos (caption).", "fuente": "CDC, 'Skin cancer prevention': 'The sun's UV rays can reach you on cloudy and cool days'", "estado": "verificada", "matiz_ok": true},
+    {"texto": "La OMS recomienda protegerse cuando el indice ultravioleta es 3 o mas; no hace falta todos los dias.", "fuente": "OMS, hoja 'Ultraviolet radiation': 'Sun protection measures should be used when the UVI reaches 3 or above.' (CDC tambien usa el umbral 3 o mas)", "estado": "verificada", "matiz_ok": true},
+    {"texto": "La OMS dice que lo mejor es la sombra y la ropa (caption).", "fuente": "OMS, hoja 'Ultraviolet radiation': 'Sun protection is best achieved by seeking shade and wearing clothes rather than applying sunscreens.'", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Si el indice marca 3 o mas, sombra y protector, aunque haya nubes (consejo practico).", "fuente": "OMS y CDC: medidas de proteccion con UVI 3 o mas; CDC lista sombra, ropa y protector SPF 15+; OMS indica protector para la piel que la ropa no cubre", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Esta nublado, hoy no te pones protector: 'Error' (apertura).", "fuente": "Derivada de las afirmaciones OMS/CDC anteriores; es enfoque editorial, matizado luego con 'no hace falta todos los dias'", "estado": "verificada", "matiz_ok": true}
+  ]
+}

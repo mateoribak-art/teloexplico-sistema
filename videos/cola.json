@@ -1448,5 +1448,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "039-sol-nublado",
+  "tema": "Protector solar con el cielo nublado: la radiación UV puede ser alta igual (OMS, CDC; índice UV 3 o más)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-05T19:09",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-05T19:09",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-05T19:16",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-05T19:38",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

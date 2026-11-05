@@ -1,0 +1,22 @@
+{
+  "titulo": "'Está nublado, hoy no me pongo protector': la radiación ultravioleta puede ser alta igual",
+  "fondo": "oscuro",
+  "receta": "El acusado equivocado / pilar salud_simple",
+  "pilar": "salud_simple",
+  "destinatario": "se lo manda alguien a su pareja, su hermano o su amigo, el que dice 'hoy está nublado, no hace falta protector' y vuelve de la costanera, la cancha o el asado con la cara roja",
+  "regla_guardable": "Índice ultravioleta de 3 o más: protegete, aunque haya nubes.",
+  "fuentes": [
+    "Organización Mundial de la Salud: hoja informativa 'Radiación ultravioleta' (who.int): 'los niveles de radiación ultravioleta son más altos con el cielo despejado pero pueden ser altos incluso con nubes'; protección recomendada con índice ultravioleta de 3 o más; la mejor protección es sombra y ropa.",
+    "CDC (Estados Unidos), 'Skin cancer prevention': 'los rayos UV del sol te pueden alcanzar en días nublados y frescos'; se reflejan en agua, cemento, arena y nieve."
+  ],
+  "frases": [
+    {"texto": "Está nublado, así que hoy no te ponés protector. Error.", "estilo": "Seco, a cámara, con media sonrisa."},
+    {"texto": "La Organización Mundial de la Salud lo dice: la radiación ultravioleta puede ser alta incluso con nubes.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Con nubes, la ultravioleta puede seguir siendo alta.", "estilo": "Contundente."},
+    {"texto": "Y encima no te avisa: la ultravioleta no se ve ni se siente.", "estilo": "Intriga."},
+    {"texto": "Los Centros para el Control de Enfermedades de Estados Unidos agregan que también rebota en el agua, el cemento y la arena.", "estilo": "Informativo."},
+    {"texto": "Ojo: no hace falta todos los días. La Organización Mundial de la Salud lo recomienda cuando el índice ultravioleta es tres o más.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Hoy, mirá el índice ultravioleta en el pronóstico. Si marca tres o más, sombra y protector, aunque haya nubes.", "estilo": "Práctico, amable."},
+    {"texto": "Mandáselo al que dice: hoy está nublado.", "estilo": "Cómplice, con humor."}
+  ]
+}

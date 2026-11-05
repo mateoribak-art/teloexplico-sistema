@@ -1,0 +1,656 @@
+{
+ "duracion": 43.09,
+ "frases": [
+  {
+   "texto": "Está nublado, así que hoy no te ponés protector. Error.",
+   "palabras": [
+    {
+     "texto": "Está",
+     "inicio": 0.0,
+     "fin": 0.18
+    },
+    {
+     "texto": "nublado,",
+     "inicio": 0.18,
+     "fin": 0.72
+    },
+    {
+     "texto": "así",
+     "inicio": 1.06,
+     "fin": 1.44
+    },
+    {
+     "texto": "que",
+     "inicio": 1.44,
+     "fin": 1.66
+    },
+    {
+     "texto": "hoy",
+     "inicio": 1.66,
+     "fin": 1.8
+    },
+    {
+     "texto": "no",
+     "inicio": 1.8,
+     "fin": 1.92
+    },
+    {
+     "texto": "te",
+     "inicio": 1.92,
+     "fin": 2.06
+    },
+    {
+     "texto": "ponés",
+     "inicio": 2.06,
+     "fin": 2.32
+    },
+    {
+     "texto": "protector.",
+     "inicio": 2.32,
+     "fin": 2.68
+    },
+    {
+     "texto": "Error.",
+     "inicio": 3.32,
+     "fin": 3.72
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.72
+  },
+  {
+   "texto": "La Organización Mundial de la Salud lo dice: la radiación ultravioleta puede ser alta incluso con nubes.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 4.24,
+     "fin": 4.38
+    },
+    {
+     "texto": "Organización",
+     "inicio": 4.38,
+     "fin": 4.82
+    },
+    {
+     "texto": "Mundial",
+     "inicio": 4.82,
+     "fin": 5.18
+    },
+    {
+     "texto": "de",
+     "inicio": 5.18,
+     "fin": 5.28
+    },
+    {
+     "texto": "la",
+     "inicio": 5.28,
+     "fin": 5.4
+    },
+    {
+     "texto": "Salud",
+     "inicio": 5.4,
+     "fin": 5.68
+    },
+    {
+     "texto": "lo",
+     "inicio": 5.68,
+     "fin": 5.84
+    },
+    {
+     "texto": "dice:",
+     "inicio": 5.84,
+     "fin": 6.08
+    },
+    {
+     "texto": "la",
+     "inicio": 6.66,
+     "fin": 6.76
+    },
+    {
+     "texto": "radiación",
+     "inicio": 6.76,
+     "fin": 7.18
+    },
+    {
+     "texto": "ultravioleta",
+     "inicio": 7.18,
+     "fin": 7.8
+    },
+    {
+     "texto": "puede",
+     "inicio": 7.8,
+     "fin": 8.04
+    },
+    {
+     "texto": "ser",
+     "inicio": 8.04,
+     "fin": 8.3
+    },
+    {
+     "texto": "alta",
+     "inicio": 8.3,
+     "fin": 8.52
+    },
+    {
+     "texto": "incluso",
+     "inicio": 8.52,
+     "fin": 8.88
+    },
+    {
+     "texto": "con",
+     "inicio": 8.88,
+     "fin": 9.26
+    },
+    {
+     "texto": "nubes.",
+     "inicio": 9.26,
+     "fin": 9.64
+    }
+   ],
+   "inicio": 4.24,
+   "fin": 9.64
+  },
+  {
+   "texto": "Con nubes, la ultravioleta puede seguir siendo alta.",
+   "palabras": [
+    {
+     "texto": "Con",
+     "inicio": 10.04,
+     "fin": 10.26
+    },
+    {
+     "texto": "nubes,",
+     "inicio": 10.26,
+     "fin": 10.7
+    },
+    {
+     "texto": "la",
+     "inicio": 11.12,
+     "fin": 11.22
+    },
+    {
+     "texto": "ultravioleta",
+     "inicio": 11.22,
+     "fin": 11.8
+    },
+    {
+     "texto": "puede",
+     "inicio": 11.8,
+     "fin": 12.12
+    },
+    {
+     "texto": "seguir",
+     "inicio": 12.12,
+     "fin": 12.44
+    },
+    {
+     "texto": "siendo",
+     "inicio": 12.44,
+     "fin": 12.74
+    },
+    {
+     "texto": "alta.",
+     "inicio": 12.74,
+     "fin": 13.12
+    }
+   ],
+   "inicio": 10.04,
+   "fin": 13.12
+  },
+  {
+   "texto": "Y encima no te avisa: la ultravioleta no se ve ni se siente.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 13.6,
+     "fin": 13.76
+    },
+    {
+     "texto": "encima",
+     "inicio": 13.76,
+     "fin": 14.16
+    },
+    {
+     "texto": "no",
+     "inicio": 14.16,
+     "fin": 14.38
+    },
+    {
+     "texto": "te",
+     "inicio": 14.38,
+     "fin": 14.5
+    },
+    {
+     "texto": "avisa:",
+     "inicio": 14.5,
+     "fin": 14.78
+    },
+    {
+     "texto": "la",
+     "inicio": 15.28,
+     "fin": 15.44
+    },
+    {
+     "texto": "ultravioleta",
+     "inicio": 15.44,
+     "fin": 16.02
+    },
+    {
+     "texto": "no",
+     "inicio": 16.02,
+     "fin": 16.26
+    },
+    {
+     "texto": "se",
+     "inicio": 16.26,
+     "fin": 16.44
+    },
+    {
+     "texto": "ve",
+     "inicio": 16.44,
+     "fin": 16.6
+    },
+    {
+     "texto": "ni",
+     "inicio": 16.6,
+     "fin": 16.86
+    },
+    {
+     "texto": "se",
+     "inicio": 16.86,
+     "fin": 17.0
+    },
+    {
+     "texto": "siente.",
+     "inicio": 17.0,
+     "fin": 17.38
+    }
+   ],
+   "inicio": 13.6,
+   "fin": 17.38
+  },
+  {
+   "texto": "Los Centros para el Control de Enfermedades de Estados Unidos agregan que también rebota en el agua, el cemento y la arena.",
+   "palabras": [
+    {
+     "texto": "Los",
+     "inicio": 17.88,
+     "fin": 18.08
+    },
+    {
+     "texto": "Centros",
+     "inicio": 18.08,
+     "fin": 18.4
+    },
+    {
+     "texto": "para",
+     "inicio": 18.4,
+     "fin": 18.56
+    },
+    {
+     "texto": "el",
+     "inicio": 18.56,
+     "fin": 18.68
+    },
+    {
+     "texto": "Control",
+     "inicio": 18.68,
+     "fin": 18.9
+    },
+    {
+     "texto": "de",
+     "inicio": 18.9,
+     "fin": 19.06
+    },
+    {
+     "texto": "Enfermedades",
+     "inicio": 19.06,
+     "fin": 19.62
+    },
+    {
+     "texto": "de",
+     "inicio": 19.62,
+     "fin": 19.76
+    },
+    {
+     "texto": "Estados",
+     "inicio": 19.76,
+     "fin": 19.98
+    },
+    {
+     "texto": "Unidos",
+     "inicio": 19.98,
+     "fin": 20.42
+    },
+    {
+     "texto": "agregan",
+     "inicio": 20.42,
+     "fin": 21.2
+    },
+    {
+     "texto": "que",
+     "inicio": 21.2,
+     "fin": 21.32
+    },
+    {
+     "texto": "también",
+     "inicio": 21.32,
+     "fin": 21.64
+    },
+    {
+     "texto": "rebota",
+     "inicio": 21.64,
+     "fin": 22.02
+    },
+    {
+     "texto": "en",
+     "inicio": 22.02,
+     "fin": 22.2
+    },
+    {
+     "texto": "el",
+     "inicio": 22.2,
+     "fin": 22.32
+    },
+    {
+     "texto": "agua,",
+     "inicio": 22.32,
+     "fin": 22.58
+    },
+    {
+     "texto": "el",
+     "inicio": 23.02,
+     "fin": 23.06
+    },
+    {
+     "texto": "cemento",
+     "inicio": 23.06,
+     "fin": 23.58
+    },
+    {
+     "texto": "y",
+     "inicio": 23.58,
+     "fin": 23.68
+    },
+    {
+     "texto": "la",
+     "inicio": 23.68,
+     "fin": 23.8
+    },
+    {
+     "texto": "arena.",
+     "inicio": 23.8,
+     "fin": 24.02
+    }
+   ],
+   "inicio": 17.88,
+   "fin": 24.02
+  },
+  {
+   "texto": "Ojo: no hace falta todos los días. La Organización Mundial de la Salud lo recomienda cuando el índice ultravioleta es tres o más.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 24.02,
+     "fin": 24.78
+    },
+    {
+     "texto": "no",
+     "inicio": 25.26,
+     "fin": 25.44
+    },
+    {
+     "texto": "hace",
+     "inicio": 25.44,
+     "fin": 25.58
+    },
+    {
+     "texto": "falta",
+     "inicio": 25.58,
+     "fin": 25.84
+    },
+    {
+     "texto": "todos",
+     "inicio": 25.84,
+     "fin": 26.18
+    },
+    {
+     "texto": "los",
+     "inicio": 26.18,
+     "fin": 26.26
+    },
+    {
+     "texto": "días.",
+     "inicio": 26.26,
+     "fin": 26.48
+    },
+    {
+     "texto": "La",
+     "inicio": 27.06,
+     "fin": 27.16
+    },
+    {
+     "texto": "Organización",
+     "inicio": 27.16,
+     "fin": 27.64
+    },
+    {
+     "texto": "Mundial",
+     "inicio": 27.64,
+     "fin": 28.02
+    },
+    {
+     "texto": "de",
+     "inicio": 28.02,
+     "fin": 28.1
+    },
+    {
+     "texto": "la",
+     "inicio": 28.1,
+     "fin": 28.2
+    },
+    {
+     "texto": "Salud",
+     "inicio": 28.2,
+     "fin": 28.52
+    },
+    {
+     "texto": "lo",
+     "inicio": 28.52,
+     "fin": 28.66
+    },
+    {
+     "texto": "recomienda",
+     "inicio": 28.66,
+     "fin": 29.18
+    },
+    {
+     "texto": "cuando",
+     "inicio": 29.18,
+     "fin": 29.4
+    },
+    {
+     "texto": "el",
+     "inicio": 29.4,
+     "fin": 29.58
+    },
+    {
+     "texto": "índice",
+     "inicio": 29.58,
+     "fin": 29.88
+    },
+    {
+     "texto": "ultravioleta",
+     "inicio": 29.88,
+     "fin": 30.58
+    },
+    {
+     "texto": "es",
+     "inicio": 30.58,
+     "fin": 30.7
+    },
+    {
+     "texto": "tres",
+     "inicio": 30.7,
+     "fin": 31.02
+    },
+    {
+     "texto": "o",
+     "inicio": 31.02,
+     "fin": 31.28
+    },
+    {
+     "texto": "más.",
+     "inicio": 31.28,
+     "fin": 31.5
+    }
+   ],
+   "inicio": 24.02,
+   "fin": 31.5
+  },
+  {
+   "texto": "Hoy, mirá el índice ultravioleta en el pronóstico. Si marca tres o más, sombra y protector, aunque haya nubes.",
+   "palabras": [
+    {
+     "texto": "Hoy,",
+     "inicio": 32.1,
+     "fin": 32.26
+    },
+    {
+     "texto": "mirá",
+     "inicio": 32.58,
+     "fin": 32.9
+    },
+    {
+     "texto": "el",
+     "inicio": 32.9,
+     "fin": 33.02
+    },
+    {
+     "texto": "índice",
+     "inicio": 33.02,
+     "fin": 33.36
+    },
+    {
+     "texto": "ultravioleta",
+     "inicio": 33.36,
+     "fin": 34.04
+    },
+    {
+     "texto": "en",
+     "inicio": 34.04,
+     "fin": 34.12
+    },
+    {
+     "texto": "el",
+     "inicio": 34.12,
+     "fin": 34.22
+    },
+    {
+     "texto": "pronóstico.",
+     "inicio": 34.22,
+     "fin": 34.78
+    },
+    {
+     "texto": "Si",
+     "inicio": 35.3,
+     "fin": 35.42
+    },
+    {
+     "texto": "marca",
+     "inicio": 35.42,
+     "fin": 35.62
+    },
+    {
+     "texto": "tres",
+     "inicio": 35.62,
+     "fin": 35.98
+    },
+    {
+     "texto": "o",
+     "inicio": 35.98,
+     "fin": 36.12
+    },
+    {
+     "texto": "más,",
+     "inicio": 36.12,
+     "fin": 36.34
+    },
+    {
+     "texto": "sombra",
+     "inicio": 36.84,
+     "fin": 37.26
+    },
+    {
+     "texto": "y",
+     "inicio": 37.26,
+     "fin": 37.34
+    },
+    {
+     "texto": "protector,",
+     "inicio": 37.34,
+     "fin": 37.72
+    },
+    {
+     "texto": "aunque",
+     "inicio": 38.26,
+     "fin": 38.46
+    },
+    {
+     "texto": "haya",
+     "inicio": 38.46,
+     "fin": 38.68
+    },
+    {
+     "texto": "nubes.",
+     "inicio": 38.68,
+     "fin": 39.08
+    }
+   ],
+   "inicio": 32.1,
+   "fin": 39.08
+  },
+  {
+   "texto": "Mandáselo al que dice: hoy está nublado.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 39.72,
+     "fin": 40.32
+    },
+    {
+     "texto": "al",
+     "inicio": 40.32,
+     "fin": 40.42
+    },
+    {
+     "texto": "que",
+     "inicio": 40.42,
+     "fin": 40.56
+    },
+    {
+     "texto": "dice:",
+     "inicio": 40.56,
+     "fin": 40.86
+    },
+    {
+     "texto": "hoy",
+     "inicio": 41.48,
+     "fin": 41.74
+    },
+    {
+     "texto": "está",
+     "inicio": 41.74,
+     "fin": 41.98
+    },
+    {
+     "texto": "nublado.",
+     "inicio": 41.98,
+     "fin": 42.66
+    }
+   ],
+   "inicio": 39.72,
+   "fin": 42.66
+  }
+ ]
+}
