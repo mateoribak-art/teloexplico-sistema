@@ -17,7 +17,7 @@
     {"texto": "Con amoníaco, que algunos limpiadores traen, fijate en la etiqueta, se forman cloraminas, otro gas que irrita.", "estilo": "Informativo, serio."},
     {"texto": "Esos gases irritan los ojos, la nariz y la garganta, y provocan tos.", "estilo": "Informativo, calmo."},
     {"texto": "El CDC de Estados Unidos lo dice sin vueltas: nunca mezcles lavandina con amoníaco ni con otro limpiador.", "estilo": "Informativo, con autoridad."},
-    {"texto": "Ojo: usada sola y como dice la etiqueta, la lavandina no larga ese gas. El gas sale de la mezcla.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "El gas aparece cuando se mezcla. Usala sola, como dice la etiqueta, y con buena ventilación.", "estilo": "Matiz honesto, calmo."},
     {"texto": "Hoy, una sola cosa por vez.", "estilo": "Práctico, amable."},
     {"texto": "Mandáselo al que mezcla todo para que limpie mejor.", "estilo": "Cómplice, con humor."}
   ]

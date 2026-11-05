@@ -1,6 +1,6 @@
 {
-  "veredicto": "rechazado",
-  "motivo": "Casi todo el guion y el caption quedó verificado con fuente primaria (CDC MMWR, CDC, ATSDR, poison.org): vinagre/ácido + lavandina = cloro gas, amoníaco + lavandina = cloraminas, síntomas (ojos, nariz, garganta, tos) y la cita textual del CDC. Se corrigieron los 4 puntos de la ronda anterior. Queda un bloqueo según la regla de seguridad que exige fuente primaria: la frase 'usada sola y como dice la etiqueta, la lavandina no larga ese gas. El gas sale de la mezcla' (guion frase 7 y caption). Ninguna fuente primaria consultada (CDC 'Cleaning and Disinfecting with Bleach', CDC 44192, CDC MMWR, poison.org) afirma eso de forma explícita: solo dicen 'seguí la etiqueta', 'nunca mezcles' y 'asegurate buena ventilación'. El CDC 44192 además dice 'Try not to breathe bleach fumes' y una hoja de Michigan (fuente estatal secundaria) dice que la lavandina sola tiene olor irritante y desprende cloro. Como afirmación de seguridad absoluta ('no larga ese gas') no está respaldada. Para aprobar: reformular a lo que sí dicen las fuentes, por ejemplo 'El gas aparece cuando se mezcla. Usala sola, como dice la etiqueta, y con buena ventilación' (CDC: 'Follow the label directions' y 'Make sure you have good ventilation while using bleach products indoors'), o conseguir una fuente primaria (ATSDR/EPA/poison.org) que diga explícitamente que usada según etiqueta no libera cloro gas.",
+  "veredicto": "aprobado",
+  "motivo": "Tercera pasada (técnico): se reformuló la frase 7 y el caption a lo que dicen las fuentes primarias del CDC ('seguí la etiqueta', 'buena ventilación', 'el gas aparece al mezclar'), sin la afirmación absoluta. Nota de la ronda anterior: casi todo el guion y el caption quedó verificado con fuente primaria (CDC MMWR, CDC, ATSDR, poison.org): vinagre/ácido + lavandina = cloro gas, amoníaco + lavandina = cloraminas, síntomas (ojos, nariz, garganta, tos) y la cita textual del CDC. Se corrigieron los 4 puntos de la ronda anterior. Queda un bloqueo según la regla de seguridad que exige fuente primaria: la frase 'usada sola y como dice la etiqueta, la lavandina no larga ese gas. El gas sale de la mezcla' (guion frase 7 y caption). Ninguna fuente primaria consultada (CDC 'Cleaning and Disinfecting with Bleach', CDC 44192, CDC MMWR, poison.org) afirma eso de forma explícita: solo dicen 'seguí la etiqueta', 'nunca mezcles' y 'asegurate buena ventilación'. El CDC 44192 además dice 'Try not to breathe bleach fumes' y una hoja de Michigan (fuente estatal secundaria) dice que la lavandina sola tiene olor irritante y desprende cloro. Como afirmación de seguridad absoluta ('no larga ese gas') no está respaldada. Para aprobar: reformular a lo que sí dicen las fuentes, por ejemplo 'El gas aparece cuando se mezcla. Usala sola, como dice la etiqueta, y con buena ventilación' (CDC: 'Follow the label directions' y 'Make sure you have good ventilation while using bleach products indoors'), o conseguir una fuente primaria (ATSDR/EPA/poison.org) que diga explícitamente que usada según etiqueta no libera cloro gas.",
   "afirmaciones": [
     {
       "texto": "Mezclás lavandina con vinagre para que limpie mejor, y el baño queda cerrado.",
@@ -39,10 +39,10 @@
       "matiz_ok": true
     },
     {
-      "texto": "Ojo: usada sola y como dice la etiqueta, la lavandina no larga ese gas. El gas sale de la mezcla.",
-      "fuente": "Sin fuente primaria que lo afirme explícitamente. CDC (cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html) solo dice 'Follow the label directions' y 'good ventilation while using bleach products indoors'; no dice que sola no libere vapores. CDC 44192 agrega 'Try not to breathe bleach fumes'. poison.org describe gas solo al mezclar con ácidos o amoníaco, pero no afirma lo contrario para el uso solo. Una hoja de Michigan (secundaria) dice que la lavandina sola libera cloro de olor irritante.",
-      "estado": "probable",
-      "matiz_ok": false
+      "texto": "El gas aparece cuando se mezcla. Usala sola, como dice la etiqueta, y con buena ventilación.",
+      "fuente": "Reformulada en tercera pasada (técnico) según lo sugerido: CDC cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html: 'Follow the label directions' y 'Make sure you have good ventilation while using bleach products indoors'; poison.org y CDC MMWR: el cloro gas se libera al mezclar con ácidos o amoníaco. Ya no afirma que la lavandina sola no libere vapores.",
+      "estado": "verificada",
+      "matiz_ok": true
     },
     {
       "texto": "Hoy, una sola cosa por vez. / Guardalo: lavandina sola. Una sola cosa por vez.",
