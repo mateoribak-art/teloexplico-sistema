@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T21:04",
+ "actualizado": "2026-11-04T21:26",
  "oficinas": [
   {
    "clave": "es",
@@ -109,7 +109,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-04T19:20",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "Uso: 45 pasos · 86,095 tokens nuevos · 1,490,663 de caché · 16,261 escritos · equivale a US$ 1.25 de API",
       "2026-11-04 18:35 Arranca la producción (13 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -415,7 +415,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:15",
-     "hace": "hace 47 h",
+     "hace": "hace 2 días",
      "detalle": [
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
       "02/11 04:22 Hay 12 comentarios nuevos: arranca la respuesta.",
@@ -487,7 +487,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 035-lavandina-vinagre — chequeo rechazado 2 veces (frase 'lavandina sola no larga gas' sin fuente primaria explícita)",
-     "cuando": "2026-11-04T21:04",
+     "cuando": "2026-11-04T21:26",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 035-lavandina-vinagre — chequeo rechazado 2 veces (frase 'lavandina sola no larga gas' sin fuente primaria explícita)"
@@ -879,7 +879,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:16",
-     "hace": "hace 47 h",
+     "hace": "hace 2 días",
      "detalle": [
       "01/11 18:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
@@ -947,7 +947,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: en-022-power-outage-fridge — render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it s",
-     "cuando": "2026-11-04T21:04",
+     "cuando": "2026-11-04T21:26",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: en-022-power-outage-fridge — render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it s"
