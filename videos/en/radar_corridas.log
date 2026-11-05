@@ -53,3 +53,7 @@ Descarté tres candidatos y los anoté en `videos/en/radar.log`:
 - **Pronóstico de Thanksgiving:** todavía está lejos y no tiene gancho.
 Uso: 10 pasos · 13,349 tokens nuevos · 125,794 de caché · 1,474 escritos · equivale a US$ 0.10 de API
 2026-11-04 17:30 Termina el radar (ok).
+2026-11-05 17:47 Arranca el radar.
+No produje ningún video hoy. La búsqueda no devolvió nada verificable de las últimas 48 h. Descarté tres candidatos: la lluvia y la enfriada de la semana (regional, sin fuente oficial del día), el pronóstico de Thanksgiving (la fuente es el Farmers' Almanac, no una oficial, y falta mucho) y el estudio de precisión de pronósticos (sin fecha confirmada). Quedó anotado en `videos/en/radar.log`.
+Uso: 10 pasos · 14,183 tokens nuevos · 127,590 de caché · 1,506 escritos · equivale a US$ 0.11 de API
+2026-11-05 17:47 Termina el radar (ok).

@@ -105,3 +105,17 @@ Descarté tres candidatos y los anoté en `videos/radar.log`:
 La producción sigue con la cola normal.
 Uso: 10 pasos · 17,533 tokens nuevos · 134,233 de caché · 1,718 escritos · equivale a US$ 0.12 de API
 2026-11-04 17:30 Termina el radar (ok).
+2026-11-05 17:46 Arranca el radar.
+Decidí no producir ningún video de actualidad hoy. Ningún resultado de las dos búsquedas tenía fecha verificable de hoy, y descarté tres candidatos:
+
+- **Alerta amarilla por frente y lluvia en el AMBA y 10 provincias:** la nota no muestra fecha ni año, y la lluvia y las tormentas ya están cubiertas en 004, 016 y 018.
+- **Súper Niño 2026:** es un tema de fondo desde abril, no de hoy, y ya está 016.
+- **Ola de calor de 40 °C:** no tiene fecha verificable.
+
+Lo anoté en `videos/radar.log`, y la cola normal sigue sin cambios.
+
+Sources:
+- [Cronista: tormenta con lluvias torrenciales y granizo](https://www.cronista.com/informacion-gral/una-fuerte-tormenta-con-lluvias-torrenciales-y-granizo-se-aproxima-estas-son-todas-las-provincias-afectadas)
+- [Chequeado: El Niño 2026](https://chequeado.com/nota/el-nino-2026-que-puede-pasar-en-argentina-ante-la-llegada-del-fenomeno-climatico)
+Uso: 10 pasos · 18,580 tokens nuevos · 132,673 de caché · 1,833 escritos · equivale a US$ 0.13 de API
+2026-11-05 17:47 Termina el radar (ok).
