@@ -140,7 +140,7 @@
  },
  {
   "clave": "ventilador-pieza-vacia",
-  "estado": "listo",
+  "estado": "publicado",
   "origen": [
    "009-ventilador-pieza-vacia"
   ],
@@ -149,6 +149,11 @@
     "estado": "listo",
     "cuando": "2026-11-03T23:06",
     "motivo": "control OK"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-04T21:28",
+    "motivo": "https://www.instagram.com/p/DfVvpPQDgh7/"
    }
   ]
  },

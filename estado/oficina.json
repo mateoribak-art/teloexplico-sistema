@@ -42,13 +42,6 @@
    ],
    "linea": [
     {
-     "slug": "035-lavandina-vinagre",
-     "tema": "Lavandina con vinagre o amoníaco: el gas tóxico (CDC)",
-     "estado": "produccion",
-     "cuando": "2026-11-04T21:28",
-     "motivo": "Frase 7 reformulada con lo que dice el CDC; chequeo aprobado; falta voz, escenas y render"
-    },
-    {
      "slug": "008-aire-en-17",
      "tema": "Poner el aire en 17 grados no enfria mas rapido; por que se recomienda 24",
      "estado": "listo",
@@ -75,6 +68,13 @@
      "estado": "listo",
      "cuando": "2026-11-02T17:41",
      "motivo": "render sin Claude"
+    },
+    {
+     "slug": "035-lavandina-vinagre",
+     "tema": "Lavandina con vinagre o amoníaco: el gas tóxico (CDC)",
+     "estado": "apartado",
+     "cuando": "2026-11-04T18:38",
+     "motivo": "chequeo rechazado 2 veces (frase 'lavandina sola no larga gas' sin fuente primaria explícita)"
     },
     {
      "slug": "023-perros-colores",
@@ -201,8 +201,8 @@
        "cuenta": "es"
       }
      },
-     "estado": "ok",
-     "resumen": "Aprobó 8 de los últimos 8 guiones.",
+     "estado": "aviso",
+     "resumen": "Frenó 1 video(s): 035-lavandina-vinagre.",
      "cuando": "2026-11-04T19:33",
      "hace": "hace 1 h",
      "detalle": [
@@ -212,13 +212,15 @@
       "033-gracias-en-el-mate: aprobado — Todas las afirmaciones fácticas tienen respaldo en fuente primaria o institucional: la nota 'Mate Day' de argentina.travel dice textualmente",
       "034-subte-linea-a: aprobado — Todas las afirmaciones tienen fuente. Las cifras y fechas (1913, 2013, Londres 1863, paseos) estan verificadas. Solo el origen del apodo 'Br",
       "034-arroz-recalentado: aprobado — Todas las afirmaciones de seguridad alimentaria quedan verificadas con fuente primaria: la página del NHS (starchy-foods-and-carbohydrates),",
-      "035-lavandina-vinagre: aprobado — Tercera pasada (técnico): se reformuló la frase 7 y el caption a lo que dicen las fuentes primarias del CDC ('seguí la etiqueta', 'buena ven",
+      "035-lavandina-vinagre: rechazado — Casi todo el guion y el caption quedó verificado con fuente primaria (CDC MMWR, CDC, ATSDR, poison.org): vinagre/ácido + lavandina = cloro g",
       "036-apagon-heladera: aprobado — Todas las afirmaciones de salud/seguridad alimentaria estan respaldadas por fuente primaria de EE. UU. (USDA FSIS y FoodSafety.gov) y ningun"
      ],
-     "tareas": [],
-     "arreglo": null,
+     "tareas": [
+      "035-lavandina-vinagre: chequeo rechazado 2 veces (frase 'lavandina sola no larga gas' sin fuente primaria explícita)"
+     ],
+     "arreglo": "Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.",
      "solo": false,
-     "firma": "f021dae776ff"
+     "firma": "b1e7f534bc3e"
     },
     {
      "id": "voz",
@@ -376,25 +378,24 @@
       "inputs": {}
      },
      "estado": "ok",
-     "resumen": "3 listo(s) para las 16:00.",
-     "cuando": "2026-11-04T16:33",
-     "hace": "hace 4 h",
+     "resumen": "2 listo(s) para las 16:00.",
+     "cuando": "2026-11-04T21:28",
+     "hace": "recién",
      "detalle": [
-      "2026-11-03 09:53 refresca-tormenta: listo control OK",
       "2026-11-03 20:46 refresca-tormenta: publicado https://www.instagram.com/p/DfTGGAbDttM/",
       "2026-11-03 23:06 ventilador-pieza-vacia: listo control OK",
       "2026-11-04 15:06 perros-colores: listo control OK",
       "2026-11-04 16:33 heladera-parte-2: apartado grande demasiado largo (21 > 14): \"menos de lo que creés…\"; dato demasiado largo",
-      "2026-11-04 16:33 heladera-parte-2: listo control OK"
+      "2026-11-04 16:33 heladera-parte-2: listo control OK",
+      "2026-11-04 21:28 ventilador-pieza-vacia: publicado https://www.instagram.com/p/DfVvpPQDgh7/"
      ],
      "tareas": [
-      "ventilador-pieza-vacia",
       "perros-colores",
       "heladera-parte-2"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "d12b68c93c38"
+     "firma": "6791e873e9cc"
     },
     {
      "id": "comentarios",
@@ -483,15 +484,17 @@
        "modo": "vigilar"
       }
      },
-     "estado": "ok",
-     "resumen": "Todo en orden ✓",
+     "estado": "aviso",
+     "resumen": "Video apartado: 035-lavandina-vinagre — chequeo rechazado 2 veces (frase 'lavandina sola no larga gas' sin fuente primaria explícita)",
      "cuando": "2026-11-04T21:28",
      "hace": "recién",
-     "detalle": [],
+     "detalle": [
+      "⚠️ Video apartado: 035-lavandina-vinagre — chequeo rechazado 2 veces (frase 'lavandina sola no larga gas' sin fuente primaria explícita)"
+     ],
      "tareas": [],
      "arreglo": null,
-     "solo": false,
-     "firma": "cf3a22f5d39c"
+     "solo": true,
+     "firma": "765d83ed1235"
     },
     {
      "id": "planb",
@@ -560,6 +563,13 @@
    ],
    "linea": [
     {
+     "slug": "en-022-power-outage-fridge",
+     "tema": "Power outage: keep the fridge shut (USDA: 4 hours; pillar kitchen/weather action)",
+     "estado": "render",
+     "cuando": "2026-11-04T21:26",
+     "motivo": "reintento auto: apartado por render/control; se renderiza y controla de nuevo"
+    },
+    {
      "slug": "en-020-ac-sixty",
      "tema": "Does setting the AC to 60 cool faster? (adapted from 008)",
      "estado": "listo",
@@ -586,13 +596,6 @@
      "estado": "apartado",
      "cuando": "2026-11-03T10:12",
      "motivo": "render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go "
-    },
-    {
-     "slug": "en-022-power-outage-fridge",
-     "tema": "Power outage: keep the fridge shut (USDA: 4 hours; pillar kitchen/weather action)",
-     "estado": "apartado",
-     "cuando": "2026-11-04T17:18",
-     "motivo": "render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it toda"
     },
     {
      "slug": "en-018-storm-cooldown",
@@ -640,7 +643,9 @@
       "2026-11-04 19:37 en-020-ac-sixty: listo (render sin Claude)",
       "2026-11-04 19:37 Termina la producción (ok)."
      ],
-     "tareas": [],
+     "tareas": [
+      "en-022-power-outage-fridge — Power outage: keep the fridge shut (USDA: 4 hours; pillar kitchen/weather action)"
+     ],
      "arreglo": null,
      "solo": false,
      "firma": "8b534caf15af"
@@ -723,17 +728,16 @@
       }
      },
      "estado": "aviso",
-     "resumen": "La voz no coincidió con el guion en en-022-power-outage-fridge.",
+     "resumen": "La voz no coincidió con el guion en en-012-thunder-count.",
      "cuando": "2026-11-04T19:37",
      "hace": "hace 1 h",
      "detalle": [],
      "tareas": [
-      "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go ",
-      "en-022-power-outage-fridge: render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it toda"
+      "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go "
      ],
      "arreglo": "Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.",
      "solo": false,
-     "firma": "502264f52368"
+     "firma": "953dc1971713"
     },
     {
      "id": "animador",
@@ -750,17 +754,16 @@
       }
      },
      "estado": "falla",
-     "resumen": "Falló el render de en-022-power-outage-fridge.",
+     "resumen": "Falló el render de en-012-thunder-count.",
      "cuando": "2026-11-04T19:37",
      "hace": "hace 1 h",
      "detalle": [],
      "tareas": [
-      "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste",
-      "en-022-power-outage-fridge: render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it today before the next storm. Send this to th"
+      "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste"
      ],
      "arreglo": "Relanzá la producción: los videos en estado render se vuelven a renderizar solos.",
      "solo": false,
-     "firma": "c0e49dd73124"
+     "firma": "f53050cb6af8"
     },
     {
      "id": "control",
@@ -941,31 +944,20 @@
        "modo": "vigilar"
       }
      },
-     "estado": "aviso",
-     "resumen": "Video apartado: en-022-power-outage-fridge — render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it s",
+     "estado": "ok",
+     "resumen": "Todo en orden ✓",
      "cuando": "2026-11-04T21:28",
      "hace": "recién",
-     "detalle": [
-      "⚠️ Video apartado: en-022-power-outage-fridge — render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it s"
-     ],
+     "detalle": [],
      "tareas": [],
      "arreglo": null,
-     "solo": true,
-     "firma": "2cbb80eb5eb5"
+     "solo": false,
+     "firma": "3e900f50565c"
     }
    ]
   }
  ],
  "arreglos": [
-  {
-   "id": "10310648-en-chequeo",
-   "creado": "2026-10-31T06:49",
-   "estado": "fallo",
-   "firma": null,
-   "titulo": "Claude no pudo trabajar ahora",
-   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
-   "actualizado": "2026-10-31T06:49"
-  },
   {
    "id": "10311311-en-chequeo",
    "creado": "2026-10-31T13:12",
@@ -1122,23 +1114,25 @@
    ]
   },
   {
+   "id": "11042126-flujo-carrusel",
+   "creado": "2026-11-04T21:26",
+   "empleado": "es/flujo-Carrusel",
+   "firma": "e54373f0d8b7",
+   "estado": "pedido",
+   "auto": true,
+   "flujo": "Carrusel",
+   "problema": "El flujo de GitHub Actions \"Carrusel\" falló las últimas 2 veces seguidas (corrida 41941114937). Es un error de código o de configuración: leé el log con `gh run view 41941114937 --log-failed`, encontrá la causa en herramientas/ o .github/workflows y corregila (sin tocar secretos).\nFinal del log:\nError de la API (500): An unexpected error has occurred. Please retry your request later. []\n##[error]Process completed with exit code 1.",
+   "actualizado": "2026-11-04T21:26"
+  },
+  {
    "id": "11042126-es-chequeo",
-   "creado": "2026-11-04T21:27",
+   "creado": "2026-11-04T21:26",
    "empleado": "es/chequeo",
-   "estado": "aplicado",
+   "firma": "b1e7f534bc3e",
+   "estado": "pedido",
    "auto": true,
    "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Bea (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): 035-lavandina-vinagre.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\n035-lavandina-vinagre: chequeo rechazado 2 veces (frase 'lavandina sola no larga gas' sin fuente primaria explícita)\nRegistro:\n030-fila-del-super: aprobado — Tercera pasada (técnico): se reemplazó la frase 7 (consejo del carrito lleno, sin respaldo) por un cierre sobre el sesgo de memoria, ya resp\n031-murcielago-ciego: aprobado — Todas las afirmaciones quedan verificadas contra las fuentes citadas, y esas fuentes respaldan lo que se les atribuye: Smithsonian (si.edu/s\n032-pelo-mojado-resfrio: aprobado — Todas las afirmaciones de salud y cifras quedaron verificadas contra fuente primaria (resumen de Johnson y Eccles en Family Practice 2005;22\n033-gracias-en-el-mate: aprobado — Todas las afirmaciones fácticas tienen respaldo en fuente primaria o institucional: la nota 'Mate Day' de argentina.travel dice textualmente\n034-subte-linea-a: aprobado — Todas las afirmaciones tienen fuente. Las cifras y fechas (1913, 2013, Londres 1863, paseos) estan verificadas. Solo el origen del apodo 'Br\n034-arroz-recalentado: aprobado — Todas las afirmaciones de seguridad alimentaria quedan verificadas con fuente primaria: la página del NHS (starchy-foods-and-carbohydrates),\n035-lavandina-vinagre: rechazado — Casi todo el guion y el caption",
-   "firma": "b1e7f534bc3e",
-   "actualizado": "2026-11-04T21:28",
-   "titulo": "Bea frenaba el video de lavandina por una frase demasiado absoluta; la reescribí y lo devolví a producción.",
-   "resumen": "Bea rechazó 035-lavandina-vinagre porque la frase \"usada sola, la lavandina no larga ese gas\" no tiene fuente primaria que la diga así. Las fuentes del CDC solo dicen \"seguí la etiqueta\" y \"buena ventilación\". La cambié en el guion y en el caption por \"El gas aparece cuando se mezcla. Usala sola, como dice la etiqueta, y con buena ventilación\". Actualicé el chequeo a aprobado, aclarando que lo hice como técnico y no con una nueva consulta a las fuentes. El video pasó a \"produccion\" en la cola, así que falta hacerle voz, escenas y render. Esos pasos no los corrí.",
-   "commit": "458c6e748bac5bbe99173b9b30497ca10f95b5b7",
-   "archivos": [
-    "videos/035-lavandina-vinagre/caption.txt",
-    "videos/035-lavandina-vinagre/chequeo.json",
-    "videos/035-lavandina-vinagre/guion.json",
-    "videos/cola.json"
-   ]
+   "actualizado": "2026-11-04T21:26"
   }
  ]
 }
