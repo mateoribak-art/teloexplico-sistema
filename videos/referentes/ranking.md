@@ -1,5 +1,5 @@
 # Reels de la competencia que le ganaron a su propia mediana
-Actualizado 2026-10-30. Hoja de cuadros = `hoja`.
+Actualizado 2026-11-05. Hoja de cuadros = `hoja`.
 
 - **777.1x** @proyecto_atom (44803 seg.) · 463914 ♥ · ? s · 2026-10-26 · https://www.instagram.com/reel/De8JGsYNKG_/
   hoja: `videos/referentes/proyecto_atom/17941325961379581_hoja.jpg`
@@ -16,6 +16,12 @@ Actualizado 2026-10-30. Hoja de cuadros = `hoja`.
 - **115.5x** @escuela.evo (6718 seg.) · 9242 ♥ · 56 s · 2026-10-19 · https://www.instagram.com/reel/DerLxmoI4Kk/
   hoja: `videos/referentes/escuela.evo/17864046651692468_hoja.jpg`
   caption: En las tiendas Apple, todos los portátiles están inclinados 70 grados.   No es un descuido: así la pantalla queda un poco fuera de sitio, la arreglas y ya lo estás tocando.  Según un estudio de Joann 
+- **94.0x** @escuela.evo (8343 seg.) · 4983 ♥ · 71 s · 2026-10-19 · https://www.instagram.com/reel/DeqS3ZEI8W-/
+  hoja: `videos/referentes/escuela.evo/18077927315476330_hoja.jpg`
+  caption: Tesla enseña un coche volador que casi nadie podrá comprar.   Su trabajo es otro: que el coche de 50.000 $ que sí se conduce parezca razonable.  Se llama efecto anclaje, y también funciona en un negoc
+- **91.9x** @proyecto_atom (64716 seg.) · 65236 ♥ · 73 s · 2026-10-28 · https://www.instagram.com/reel/DfDiCk1uPve/
+  hoja: `videos/referentes/proyecto_atom/18179136970386853_hoja.jpg`
+  caption: ¿Por qué los brazos se levantan solos después de empujar una puerta? 🪽 Reto nivel 2  Haz el reto mientras ves el video: métete en el marco de una puerta, empuja hacia fuera con los dos brazos 30 segun
 - **81.0x** @nandomovie (5987 seg.) · 48992 ♥ · ? s · 2026-10-22 · https://www.instagram.com/reel/Dex4htMxFQi/
   hoja: `videos/referentes/nandomovie/18115066214582514_hoja.jpg`
   caption: Si el apocalipsis zombi te pilla en un noveno piso, no corras a la puerta (Ep. 1)  Lo primero que harías en un apocalipsis zombi es justo lo que te mata.  Episodio 1: el edificio. Marcos tiene una hor
@@ -25,6 +31,9 @@ Actualizado 2026-10-30. Hoja de cuadros = `hoja`.
 - **59.0x** @posta.explica (27455 seg.) · 179300 ♥ · ? s · 2026-10-14 · https://www.instagram.com/reel/DedRqbiOU0T/
   hoja: `videos/referentes/posta.explica/18178641172429006_hoja.jpg`
   caption: Frenás, avanzás dos metros, frenás… y cuando llegás adelante no hay NADA.  No es mala suerte: se llama embotellamiento fantasma. En 2008, unos científicos japoneses lo armaron a propósito: 22 autos en
+- **56.1x** @nandomovie (6152 seg.) · 35031 ♥ · 37 s · 2026-10-22 · https://www.instagram.com/reel/Dex-jxtxC6y/
+  hoja: `videos/referentes/nandomovie/18104063237382597_hoja.jpg`
+  caption: Cada vez que tu perro tira de la correa, tú le pagas (y no con comida)  # Tu perro no tira de la correa por cabezota: tira porque cada paso que das detrás de él le dice que funciona.  La próxima vez q
 - **41.6x** @posta.explica (27455 seg.) · 126409 ♥ · 83 s · 2026-10-18 · https://www.instagram.com/reel/Depva63Oe15/
   hoja: `videos/referentes/posta.explica/17916380730466671_hoja.jpg`
   caption: ¿Hace días que no ves el sol? No es la culpa de "El Niño". 🌧️  El Niño calienta el Pacífico y nos manda humedad, sí. Pero el culpable directo de estos días grises es un bloqueo atmosférico: una alta p
@@ -46,12 +55,30 @@ Actualizado 2026-10-30. Hoja de cuadros = `hoja`.
 - **15.2x** @spott.ar (1764 seg.) · 2114 ♥ · ? s · 2026-10-23 · https://www.instagram.com/reel/De0XgS6tr2b/
   hoja: `videos/referentes/spott.ar/18112801499146266_hoja.jpg`
   caption: No siempre mas cerca es mejor 😳  La proxima ya sabes, pensa primero en la retirada... 🏃  📎 Link de Spott en la Bio!
+- **14.0x** @posta.explica (36353 seg.) · 44594 ♥ · 80 s · 2026-10-15 · https://www.instagram.com/reel/DehMjliCo4o/
+  hoja: `videos/referentes/posta.explica/18179149906442733_hoja.jpg`
+  caption: El vivo que se mete al final de la fila tiene razón. 🚗  Cuando se cierra un carril, usar los dos hasta el final y entrar de a uno (el famoso cierre en cremallera) puede achicar la fila hasta un 40%. L
+- **13.4x** @1bit1pixel (326597 seg.) · 157080 ♥ · 134 s · 2026-10-10 · https://www.instagram.com/reel/DeVNQOVjIez/
+  hoja: `videos/referentes/1bit1pixel/18090138710290240_hoja.jpg`
+  caption: Un granjero tiene que cruzar un río con un zorro, una gallina y un costal de maíz, pero en su barca solo cabe una cosa. ¿Cómo lo hace?  Si el zorro se queda solo con la gallina, se la come. Si la gall
+- **13.3x** @1action1reaction (205448 seg.) · 46629 ♥ · 103 s · 2026-10-08 · https://www.instagram.com/reel/DeP3Qn2FKDc/
+  hoja: `videos/referentes/1action1reaction/17870472105647587_hoja.jpg`
+  caption: Esta hormiga cierra la boca a 230 km/h… y sale volando 🐜.  La hormiga de mandíbula trampa abre las mandíbulas 180° y las cierra en 0,13 milésimas de segundo, hasta a 230 km/h.  Lo hace como una balles
 - **7.3x** @porquetuperro (35783 seg.) · 38098 ♥ · ? s · 2026-10-22 · https://www.instagram.com/reel/DezeHhBMzPv/
   hoja: `videos/referentes/porquetuperro/17913651657508183_hoja.jpg`
   caption: Tu perro puede volver agotado del parque y aun así no poder calmarse.  No es falta de ejercicio: es falta de trabajo para su cabeza. Un perro está hecho para buscar, oler y resolver, y si no puede, su
+- **6.9x** @porquetuperro (44061 seg.) · 37429 ♥ · 52 s · 2026-10-27 · https://www.instagram.com/reel/DfAQ16rxOhY/
+  hoja: `videos/referentes/porquetuperro/18078856388679074_hoja.jpg`
+  caption: Para saber si tu perro está en su peso no necesitas báscula: necesitas tu mano.  Haz las tres pruebas hoy: 1. Costillas: si se notan como el dorso de tu mano, está en su peso. Como los nudillos del pu
+- **4.8x** @la_ciencia_dice (6324475 seg.) · 226823 ♥ · 64 s · 2026-10-29 · https://www.instagram.com/reel/DfD0BpUtFNv/
+  hoja: `videos/referentes/la_ciencia_dice/17980057028923057_hoja.jpg`
+  caption: Vista desde adentro, la Amazonia es apenas un río que serpentea entre los árboles. Pero basta con alejarse un poco para entender que cada rincón es solo un fragmento de algo que no entra en la mirada,
 - **3.7x** @la_ciencia_dice (6315100 seg.) · 190398 ♥ · ? s · 2026-10-24 · https://www.instagram.com/reel/De23Pi-uRxA/
   hoja: `videos/referentes/la_ciencia_dice/18141301684719071_hoja.jpg`
   caption: Sigue haciendo zoom.
 - **3.3x** @la_ciencia_dice (6315100 seg.) · 170702 ♥ · ? s · 2026-10-27 · https://www.instagram.com/reel/De-q5ONOaAb/
   hoja: `videos/referentes/la_ciencia_dice/17951059122312759_hoja.jpg`
   caption: Lo que pasa dentro de tu lavavajillas no es lo que crees.
+- **2.2x** @spott.ar (1871 seg.) · 143 ♥ · 69 s · 2026-10-22 · https://www.instagram.com/reel/DeziIRTogAI/
+  hoja: `videos/referentes/spott.ar/18217921330361742_hoja.jpg`
+  caption: Casi nadie entiende el sentido del parquimetro, por qué pagar por dejar el auto en la calle? 🚗  A día de hoy el problema sigue siendo el mismo, donde estacionar 🤔  📎 Link de Spott en la Bio
