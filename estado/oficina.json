@@ -1,12 +1,12 @@
 {
- "actualizado": "2026-11-05T03:33",
+ "actualizado": "2026-11-05T03:34",
  "oficinas": [
   {
    "clave": "es",
    "usuario": "teloexplico.ar",
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
-   "seguidores": 400,
+   "seguidores": 386,
    "listos": 14,
    "dias": 7.0,
    "proximo": "008-aire-en-17",
@@ -440,25 +440,25 @@
       }
      },
      "estado": "ok",
-     "resumen": "05/11: 400 seguidores",
-     "cuando": "2026-11-05T03:33",
-     "hace": "recién",
+     "resumen": "04/11: 386 seguidores",
+     "cuando": "2026-11-04T03:04",
+     "hace": "hace 24 h",
      "detalle": [
+      "01/11: 341 seguidores",
       "02/11: 354 seguidores",
       "03/11: 365 seguidores",
-      "04/11: 386 seguidores",
-      "05/11: 400 seguidores"
+      "04/11: 386 seguidores"
      ],
      "tareas": [
-      "001-heladera: 140.838 vistas · 5589 enviados · 2712 ♥",
-      "007-bts-13-anios: 27.999 vistas · 566 enviados · 2633 ♥",
-      "006-army-bomb: 8.374 vistas · 51 enviados · 512 ♥",
-      "003-vuelta-carne: 4.127 vistas · 24 enviados · 93 ♥",
-      "020-pava-se-corta: 1.936 vistas · 3 enviados · 68 ♥"
+      "001-heladera: 139.249 vistas · 5486 enviados · 2661 ♥",
+      "007-bts-13-anios: 27.749 vistas · 558 enviados · 2598 ♥",
+      "006-army-bomb: 8.331 vistas · 49 enviados · 506 ♥",
+      "003-vuelta-carne: 4.092 vistas · 24 enviados · 93 ♥",
+      "020-pava-se-corta: 1.935 vistas · 3 enviados · 68 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "d6b6976e7008"
+     "firma": "494efff00c51"
     },
     {
      "id": "vigilante",
@@ -475,7 +475,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-05T03:33",
+     "cuando": "2026-11-05T03:34",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -719,8 +719,8 @@
        "cuenta": "en"
       }
      },
-     "estado": "aviso",
-     "resumen": "La voz no coincidió con el guion en en-022-power-outage-fridge.",
+     "estado": "ok",
+     "resumen": "El técnico lo arregló solo: Arreglé el control de voz que rechazaba dos videos en inglés. No pude mover los dos a la cola.. Se confirma en su próximo turno.",
      "cuando": "2026-11-04T19:37",
      "hace": "hace 7 h",
      "detalle": [],
@@ -728,7 +728,7 @@
       "en-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go ",
       "en-022-power-outage-fridge: render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it toda"
      ],
-     "arreglo": "Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.",
+     "arreglo": null,
      "solo": false,
      "firma": "502264f52368"
     },
@@ -905,25 +905,25 @@
       }
      },
      "estado": "ok",
-     "resumen": "05/11: 3 seguidores",
-     "cuando": "2026-11-05T03:33",
-     "hace": "recién",
+     "resumen": "04/11: 3 seguidores",
+     "cuando": "2026-11-04T03:04",
+     "hace": "hace 24 h",
      "detalle": [
+      "01/11: 2 seguidores",
       "02/11: 3 seguidores",
       "03/11: 3 seguidores",
-      "04/11: 3 seguidores",
-      "05/11: 3 seguidores"
+      "04/11: 3 seguidores"
      ],
      "tareas": [
-      "en-001-phone-rice: 4.107 vistas · 22 enviados · 52 ♥",
-      "en-007-flip-steak: 3.384 vistas · 18 enviados · 36 ♥",
-      "en-009-ceiling-fan: 3.058 vistas · 2 enviados · 40 ♥",
-      "en-008-wash-chicken: 2.286 vistas · 4 enviados · 20 ♥",
-      "en-006-five-second-rule: 2.254 vistas · 22 enviados · 52 ♥"
+      "en-001-phone-rice: 4.061 vistas · 22 enviados · 52 ♥",
+      "en-007-flip-steak: 3.380 vistas · 18 enviados · 36 ♥",
+      "en-009-ceiling-fan: 3.054 vistas · 2 enviados · 40 ♥",
+      "en-006-five-second-rule: 2.254 vistas · 22 enviados · 52 ♥",
+      "en-008-wash-chicken: 2.208 vistas · 3 enviados · 19 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "2330310cf99a"
+     "firma": "1fbc976de7eb"
     },
     {
      "id": "vigilante",
@@ -940,7 +940,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: en-022-power-outage-fridge — render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it s",
-     "cuando": "2026-11-05T03:33",
+     "cuando": "2026-11-05T03:34",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: en-022-power-outage-fridge — render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it s"
@@ -954,6 +954,15 @@
   }
  ],
  "arreglos": [
+  {
+   "id": "10311311-en-chequeo",
+   "creado": "2026-10-31T13:12",
+   "estado": "fallo",
+   "firma": null,
+   "titulo": "Claude no pudo trabajar ahora",
+   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
+   "actualizado": "2026-10-31T13:12"
+  },
   {
    "id": "10311729-en-chequeo",
    "creado": "2026-10-31T17:29",
@@ -1123,21 +1132,17 @@
    "id": "11050333-en-voz",
    "creado": "2026-11-05T03:33",
    "empleado": "en/voz",
-   "firma": "502264f52368",
-   "estado": "pedido",
+   "estado": "aplicado",
    "auto": true,
    "problema": "En la oficina de Nueva York (@letmeexplain.us), Leo (Locutor) está en \"aviso\": La voz no coincidió con el guion en en-022-power-outage-fridge.\nLo que sugiere la oficina: Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.\nTareas:\nen-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go \nen-022-power-outage-fridge: render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it toda\n",
-   "actualizado": "2026-11-05T03:33"
-  },
-  {
-   "id": "11050333-en-animador",
-   "creado": "2026-11-05T03:33",
-   "empleado": "en/animador",
-   "firma": "c0e49dd73124",
-   "estado": "pedido",
-   "auto": true,
-   "problema": "En la oficina de Nueva York (@letmeexplain.us), Ava (Animación y render) está en \"falla\": Falló el render de en-022-power-outage-fridge.\nLo que sugiere la oficina: Relanzá la producción: los videos en estado render se vuelven a renderizar solos.\nTareas:\nen-012-thunder-count: render/control: o: If you can hear thunder, the National Weather Service says you're likely within striking distance. Use the count for fun. If it thunders, go indoors. Send this to the friend who ste\nen-022-power-outage-fridge: render/control: he next storm. Send this to the friend who opens the fridge every ten minutes during a blackout. if it stayed at 40 degrees or below. Do it today before the next storm. Send this to th\n",
-   "actualizado": "2026-11-05T03:33"
+   "firma": "502264f52368",
+   "actualizado": "2026-11-05T03:34",
+   "titulo": "Arreglé el control de voz que rechazaba dos videos en inglés. No pude mover los dos a la cola.",
+   "resumen": "Los dos videos (en-022-power-outage-fridge y en-012-thunder-count) quedaron apartados con 33 % y 40 % de coincidencia, siempre el mismo número. Eso apunta al control y no a la voz. El control le pasa a Whisper el guion entero como pista, y Whisper repite el final y se salta el resto. En `herramientas/control.py` agregué una última pasada sin esa pista, que se queda con la transcripción más parecida al guion. No pude correr el control de nuevo ni probar el arreglo: los audios no están en el repositorio. Quise devolver los dos videos a \"render\" con `TLX_CUENTA=en ./herramientas/tlx cola estado …`, pero el permiso me lo negó. Sin esa variable, `tlx cola` mira la cola en castellano y no encuentra los slugs en inglés. Los dos siguen apartados y el reintento automático de la nube los va a volver a renderizar y controlar con el control nuevo. Si no lo hace, hay que pasarlos a \"render\" a mano en",
+   "commit": "a31a8fb57b73054db9f4674779a42c7bd04bda29",
+   "archivos": [
+    "herramientas/control.py"
+   ]
   }
  ]
 }
