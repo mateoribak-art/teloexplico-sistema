@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T04:45",
+ "actualizado": "2026-11-05T04:58",
  "oficinas": [
   {
    "clave": "es",
@@ -403,7 +403,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-05T04:45",
-     "hace": "recién",
+     "hace": "hace 13 min",
      "detalle": [
       "02/11 04:22 Termina la respuesta de comentarios (con problemas).",
       "02/11 21:14 Hay 14 comentarios nuevos: arranca la respuesta.",
@@ -475,7 +475,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-05T04:45",
+     "cuando": "2026-11-05T04:58",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -940,7 +940,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-05T04:45",
+     "cuando": "2026-11-05T04:58",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
