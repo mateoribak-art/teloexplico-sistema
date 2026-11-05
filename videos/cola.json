@@ -1002,7 +1002,7 @@
  {
   "slug": "025-noquis-del-29",
   "tema": "¿Por qué comemos ñoquis el 29 y ponemos plata abajo del plato? (leyenda vs explicación económica)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1023,6 +1023,11 @@
     "estado": "listo",
     "cuando": "2026-10-30T17:59",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-05T19:33",
+    "motivo": "https://www.instagram.com/reel/DfYHN6FHAtL/"
    }
   ]
  },

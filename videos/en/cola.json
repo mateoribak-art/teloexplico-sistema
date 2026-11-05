@@ -702,7 +702,7 @@
  {
   "slug": "en-020-ac-sixty",
   "tema": "Does setting the AC to 60 cool faster? (adapted from 008)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -723,6 +723,11 @@
     "estado": "listo",
     "cuando": "2026-11-04T19:37",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-05T19:34",
+    "motivo": "https://www.instagram.com/reel/DfYHZlID1jx/"
    }
   ]
  },
