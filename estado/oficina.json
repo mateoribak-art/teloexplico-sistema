@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-06T04:44",
+ "actualizado": "2026-11-06T05:00",
  "oficinas": [
   {
    "clave": "es",
@@ -180,7 +180,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias de clima): resultados sin fecha verificable de hoy. Descartados: (a) alerta amarilla por frente/lluv",
      "cuando": "2026-11-05T17:47",
-     "hace": "hace 10 h",
+     "hace": "hace 11 h",
      "detalle": [
       "03/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y clima de la semana): solo resultados de julio 2026 o de noviembre 2025 (días de la semana que no coinciden), nada fechado de hoy. Descartados: (a) tormentas/ciclogénesis del \"jueves 6 de noviembre\" (es de 2025), (b) ola de calor extrema + tormentas en AMBA (Cronista, sin fecha verificable; granizo y sensación térmica ya cubiertos), (c) El Niño/trimestral SMN (ya está 016). Sin tema verificable; sigue la cola normal.",
       "04/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y clima/tendencias): solo resultados sin fecha verificable de hoy (julio 2026, noviembre 2025, ene-feb 2026). Descartados: (a) alertas de tormentas/granizo en 10-12 provincias (sin fecha ni año verificable; granizo ya tiene 005 y 024), (b) ola de calor de 40°C (sin fecha verificable; calor ya cubierto en 019/008), (c) ciclón/lluvias 48 h (sin fecha verificable; lluvia ya cubierta en 004/016). Sin tema verificable; sigue la cola normal.",
@@ -386,7 +386,7 @@
      "estado": "ok",
      "resumen": "1 listo(s) para las 16:00.",
      "cuando": "2026-11-05T20:54",
-     "hace": "hace 7 h",
+     "hace": "hace 8 h",
      "detalle": [
       "2026-11-03 23:06 ventilador-pieza-vacia: listo control OK",
       "2026-11-04 15:06 perros-colores: listo control OK",
@@ -419,7 +419,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-05T04:45",
-     "hace": "hace 23 h",
+     "hace": "hace 24 h",
      "detalle": [
       "02/11 04:22 Termina la respuesta de comentarios (con problemas).",
       "02/11 21:14 Hay 14 comentarios nuevos: arranca la respuesta.",
@@ -491,7 +491,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-06T04:44",
+     "cuando": "2026-11-06T05:00",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -665,7 +665,7 @@
      "estado": "ok",
      "resumen": "Novena pasada del radar: la búsqueda solo devolvió pronósticos locales de TV (lluvia a mitad de semana, enfriada a fin de semana) y páginas sin fecha; nada veri",
      "cuando": "2026-11-05T17:47",
-     "hace": "hace 10 h",
+     "hace": "hace 11 h",
      "detalle": [
       "03/11 00:00 Séptima pasada del radar: la búsqueda web solo devolvió páginas de AccuWeather sin fecha clara y notas de 2025; nada verificable de las últimas 48 h. Descartados: (1) \"pattern flip\" de la primera semana de noviembre (AccuWeather): fecha dudosa, sin fuente oficial del día; (2) superluna del 24/11: todavía lejos; (3) cambio de hora: ya publicado (en-002), el momento pasó. Sin tema nuevo.",
       "04/11 00:00 Octava pasada del radar: la búsqueda web no devolvió nada verificable de las últimas 48 h (NWS sin fecha del día, notas sin fecha). Descartados: (1) nor'easter / inundaciones en California y Suroeste (AccuWeather): sin fecha ni fuente oficial del día; (2) récord de temperatura de noviembre en Denver / ríos atmosféricos (Guardian): sin fecha confirmada; (3) pronóstico de Thanksgiving: todavía lejos y sin gancho. Sin tema nuevo.",
@@ -940,7 +940,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-06T04:44",
+     "cuando": "2026-11-06T05:00",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
