@@ -165,3 +165,14 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0x91 in position 1: invalid 
 2026-11-05 19:33 025-noquis-del-29 https://youtube.com/shorts/jrt7PFa_Ty4 | privacidad: public
 portada: ok
 2026-11-05 19:34 025-noquis-del-29 paquete para TikTok/YouTube enviado
+2026-11-06 12:32 026-mediodia-hora-corrida publicado: https://www.instagram.com/reel/DfZ72TOCed2/
+2026-11-06 12:33 026-mediodia-hora-corrida publicado en Facebook: https://www.facebook.com/reel/1001182309681917/
+2026-11-06 12:33 026-mediodia-hora-corrida falló TikTok: ^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+                 ^^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x91 in position 1: invalid start byte
+2026-11-06 12:33 026-mediodia-hora-corrida https://youtube.com/shorts/eLLysz1eNVc | privacidad: public
+portada: ok
+2026-11-06 12:33 026-mediodia-hora-corrida paquete para TikTok/YouTube enviado

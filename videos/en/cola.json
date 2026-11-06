@@ -734,7 +734,7 @@
  {
   "slug": "en-021-other-line",
   "tema": "Why does the other checkout line always seem faster? (adapted from 030)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -750,6 +750,11 @@
     "estado": "listo",
     "cuando": "2026-11-04T09:28",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-06T12:34",
+    "motivo": "https://www.instagram.com/reel/DfZ8EffDZHV/"
    }
   ]
  },

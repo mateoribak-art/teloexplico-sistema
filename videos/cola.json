@@ -1034,7 +1034,7 @@
  {
   "slug": "026-mediodia-hora-corrida",
   "tema": "¿A qué hora es el mediodía en Argentina? La hora corrida: el sol llega más tarde que el reloj",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1085,6 +1085,11 @@
     "estado": "listo",
     "cuando": "2026-11-03T19:01",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-06T12:32",
+    "motivo": "https://www.instagram.com/reel/DfZ72TOCed2/"
    }
   ]
  },
