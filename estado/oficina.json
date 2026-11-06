@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-06T20:36",
+ "actualizado": "2026-11-06T20:44",
  "oficinas": [
   {
    "clave": "es",
@@ -104,7 +104,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-06T20:20",
-     "hace": "hace 16 min",
+     "hace": "hace 24 min",
      "detalle": [
       "Uso: 45 pasos · 88,530 tokens nuevos · 1,517,745 de caché · 15,478 escritos · equivale a US$ 1.05 de API",
       "2026-11-06 19:25 Arranca la producción (17 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -204,7 +204,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-06T20:20",
-     "hace": "hace 16 min",
+     "hace": "hace 24 min",
      "detalle": [
       "036-apagon-heladera: aprobado — Todas las afirmaciones de salud/seguridad alimentaria estan respaldadas por fuente primaria de EE. UU. (USDA FSIS y FoodSafety.gov) y ningun",
       "037-perro-en-el-auto: aprobado — Todas las afirmaciones de salud, seguridad y cifras coinciden con McLaren, Null y Quinn (Pediatrics 2005;116:e109) y con la guía de la AVMA,",
@@ -237,7 +237,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-06T20:20",
-     "hace": "hace 16 min",
+     "hace": "hace 24 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -261,7 +261,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-06 20:20.",
      "cuando": "2026-11-06T20:20",
-     "hace": "hace 16 min",
+     "hace": "hace 24 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -285,7 +285,7 @@
      "estado": "ok",
      "resumen": "17 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-06T20:20",
-     "hace": "hace 16 min",
+     "hace": "hace 24 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -376,7 +376,7 @@
      "estado": "ok",
      "resumen": "1 listo(s) para las 16:00.",
      "cuando": "2026-11-06T20:36",
-     "hace": "recién",
+     "hace": "hace 8 min",
      "detalle": [
       "2026-11-04 16:33 heladera-parte-2: listo control OK",
       "2026-11-04 21:28 ventilador-pieza-vacia: publicado https://www.instagram.com/p/DfVvpPQDgh7/",
@@ -481,7 +481,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-06T20:36",
+     "cuando": "2026-11-06T20:44",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -616,7 +616,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-06T14:42",
-     "hace": "hace 5 h",
+     "hace": "hace 6 h",
      "detalle": [
       "Uso: 58 pasos · 92,637 tokens nuevos · 2,051,577 de caché · 19,292 escritos · equivale a US$ 0.95 de API",
       "2026-11-06 14:08 Arranca la producción (5 listos en la cola, meta 6).",
@@ -929,7 +929,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-06T20:36",
+     "cuando": "2026-11-06T20:44",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
