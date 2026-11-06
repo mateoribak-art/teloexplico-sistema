@@ -1,12 +1,12 @@
 {
- "actualizado": "2026-11-05T23:29",
+ "actualizado": "2026-11-06T03:29",
  "oficinas": [
   {
    "clave": "es",
    "usuario": "teloexplico.ar",
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
-   "seguidores": 400,
+   "seguidores": 425,
    "listos": 15,
    "dias": 7.5,
    "proximo": "026-mediodia-hora-corrida",
@@ -111,7 +111,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-05T23:23",
-     "hace": "hace 6 min",
+     "hace": "hace 4 h",
      "detalle": [
       "Uso: 4 pasos · 2,842 tokens nuevos · 255,613 de caché · 1,417 escritos · equivale a US$ 0.92 de API",
       "2026-11-05 23:18 Arranca la producción (15 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -151,7 +151,7 @@
      "estado": "ok",
      "resumen": "Guía de referentes al día.",
      "cuando": "2026-11-05T15:28",
-     "hace": "hace 8 h",
+     "hace": "hace 12 h",
      "detalle": [
       "05/11 15:26 Arranca Vera (referentes).",
       "05/11 15:27 Reels bajados (código 0).",
@@ -180,7 +180,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias de clima): resultados sin fecha verificable de hoy. Descartados: (a) alerta amarilla por frente/lluv",
      "cuando": "2026-11-05T17:47",
-     "hace": "hace 5 h",
+     "hace": "hace 9 h",
      "detalle": [
       "03/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y clima de la semana): solo resultados de julio 2026 o de noviembre 2025 (días de la semana que no coinciden), nada fechado de hoy. Descartados: (a) tormentas/ciclogénesis del \"jueves 6 de noviembre\" (es de 2025), (b) ola de calor extrema + tormentas en AMBA (Cronista, sin fecha verificable; granizo y sensación térmica ya cubiertos), (c) El Niño/trimestral SMN (ya está 016). Sin tema verificable; sigue la cola normal.",
       "04/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y clima/tendencias): solo resultados sin fecha verificable de hoy (julio 2026, noviembre 2025, ene-feb 2026). Descartados: (a) alertas de tormentas/granizo en 10-12 provincias (sin fecha ni año verificable; granizo ya tiene 005 y 024), (b) ola de calor de 40°C (sin fecha verificable; calor ya cubierto en 019/008), (c) ciclón/lluvias 48 h (sin fecha verificable; lluvia ya cubierta en 004/016). Sin tema verificable; sigue la cola normal.",
@@ -214,7 +214,7 @@
      "estado": "aviso",
      "resumen": "Frenó 1 video(s): 040-consumo-fantasma.",
      "cuando": "2026-11-05T19:38",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [
       "034-subte-linea-a: aprobado — Todas las afirmaciones tienen fuente. Las cifras y fechas (1913, 2013, Londres 1863, paseos) estan verificadas. Solo el origen del apodo 'Br",
       "034-arroz-recalentado: aprobado — Todas las afirmaciones de seguridad alimentaria quedan verificadas con fuente primaria: la página del NHS (starchy-foods-and-carbohydrates),",
@@ -249,7 +249,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-05T19:38",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -273,7 +273,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-05 19:38.",
      "cuando": "2026-11-05T19:38",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -297,7 +297,7 @@
      "estado": "ok",
      "resumen": "15 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-05T19:38",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -321,7 +321,7 @@
      "estado": "ok",
      "resumen": "Último: 025-noquis-del-29.",
      "cuando": "2026-11-05T19:34",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [
       "05/11 12:33 008-aire-en-17 publicado: https://www.instagram.com/reel/DfXXF1vkclo/",
       "05/11 12:33 008-aire-en-17 publicado en Facebook: https://www.facebook.com/reel/2439580136449772/",
@@ -358,7 +358,7 @@
      "estado": "aviso",
      "resumen": "Necesita algo tuyo: En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram.",
      "cuando": "2026-11-05T19:34",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [
       "04/11 19:39 014-celular-arroz https://youtube.com/shorts/3zLHm2ZioCw | privacidad: public",
       "04/11 19:39 014-celular-arroz paquete para TikTok/YouTube enviado",
@@ -388,7 +388,7 @@
      "estado": "ok",
      "resumen": "1 listo(s) para las 16:00.",
      "cuando": "2026-11-05T20:54",
-     "hace": "hace 2 h",
+     "hace": "hace 6 h",
      "detalle": [
       "2026-11-03 23:06 ventilador-pieza-vacia: listo control OK",
       "2026-11-04 15:06 perros-colores: listo control OK",
@@ -421,7 +421,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-05T04:45",
-     "hace": "hace 18 h",
+     "hace": "hace 22 h",
      "detalle": [
       "02/11 04:22 Termina la respuesta de comentarios (con problemas).",
       "02/11 21:14 Hay 14 comentarios nuevos: arranca la respuesta.",
@@ -458,25 +458,25 @@
       }
      },
      "estado": "ok",
-     "resumen": "05/11: 400 seguidores",
-     "cuando": "2026-11-05T03:33",
-     "hace": "hace 19 h",
+     "resumen": "06/11: 425 seguidores",
+     "cuando": "2026-11-06T03:28",
+     "hace": "hace 1 min",
      "detalle": [
-      "02/11: 354 seguidores",
       "03/11: 365 seguidores",
       "04/11: 386 seguidores",
-      "05/11: 400 seguidores"
+      "05/11: 400 seguidores",
+      "06/11: 425 seguidores"
      ],
      "tareas": [
-      "001-heladera: 140.838 vistas · 5589 enviados · 2712 ♥",
-      "007-bts-13-anios: 27.999 vistas · 566 enviados · 2633 ♥",
-      "006-army-bomb: 8.374 vistas · 51 enviados · 512 ♥",
-      "003-vuelta-carne: 4.127 vistas · 24 enviados · 93 ♥",
-      "020-pava-se-corta: 1.936 vistas · 3 enviados · 68 ♥"
+      "001-heladera: 142.430 vistas · 5682 enviados · 2759 ♥",
+      "007-bts-13-anios: 28.292 vistas · 572 enviados · 2688 ♥",
+      "006-army-bomb: 8.397 vistas · 51 enviados · 516 ♥",
+      "003-vuelta-carne: 4.173 vistas · 24 enviados · 93 ♥",
+      "020-pava-se-corta: 1.939 vistas · 3 enviados · 68 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "d6b6976e7008"
+     "firma": "a608a58f9e03"
     },
     {
      "id": "vigilante",
@@ -493,7 +493,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 040-consumo-fantasma — chequeo rechazado 2 veces: el 5 % de 1998 es solo una estimación con fuente secundaria (decir 'estimó', no 'midió'); 26 ",
-     "cuando": "2026-11-05T23:29",
+     "cuando": "2026-11-06T03:29",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 040-consumo-fantasma — chequeo rechazado 2 veces: el 5 % de 1998 es solo una estimación con fuente secundaria (decir 'estimó', no 'midió'); 26 "
@@ -637,7 +637,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-05T23:29",
-     "hace": "recién",
+     "hace": "hace 4 h",
      "detalle": [
       "Uso: 3 pasos · 2,911 tokens nuevos · 250,568 de caché · 663 escritos · equivale a US$ 0.97 de API",
       "2026-11-05 23:23 Arranca la producción (5 listos en la cola, meta 6).",
@@ -669,7 +669,7 @@
      "estado": "ok",
      "resumen": "Novena pasada del radar: la búsqueda solo devolvió pronósticos locales de TV (lluvia a mitad de semana, enfriada a fin de semana) y páginas sin fecha; nada veri",
      "cuando": "2026-11-05T17:47",
-     "hace": "hace 5 h",
+     "hace": "hace 9 h",
      "detalle": [
       "03/11 00:00 Séptima pasada del radar: la búsqueda web solo devolvió páginas de AccuWeather sin fecha clara y notas de 2025; nada verificable de las últimas 48 h. Descartados: (1) \"pattern flip\" de la primera semana de noviembre (AccuWeather): fecha dudosa, sin fuente oficial del día; (2) superluna del 24/11: todavía lejos; (3) cambio de hora: ya publicado (en-002), el momento pasó. Sin tema nuevo.",
       "04/11 00:00 Octava pasada del radar: la búsqueda web no devolvió nada verificable de las últimas 48 h (NWS sin fecha del día, notas sin fecha). Descartados: (1) nor'easter / inundaciones en California y Suroeste (AccuWeather): sin fecha ni fuente oficial del día; (2) récord de temperatura de noviembre en Denver / ríos atmosféricos (Guardian): sin fecha confirmada; (3) pronóstico de Thanksgiving: todavía lejos y sin gancho. Sin tema nuevo.",
@@ -699,7 +699,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-05T19:34",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [
       "en-019-knuckle-crack: aprobado — Cifras y unidades coinciden con las fuentes primarias: deWeber 2011 (JABFM 24(2):169-174, https://www.jabfm.org/content/24/2/169) tuvo 215 r",
       "en-020-ac-sixty: aprobado — La frase 7 y el 'Heads up' del caption ahora dicen 'may never reach the number you set': es una deducción física (si la ganancia de calor su",
@@ -732,7 +732,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-05T19:34",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -756,7 +756,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-05 19:34.",
      "cuando": "2026-11-05T19:34",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -780,7 +780,7 @@
      "estado": "ok",
      "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-05T19:34",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -804,7 +804,7 @@
      "estado": "ok",
      "resumen": "Último: en-020-ac-sixty.",
      "cuando": "2026-11-05T19:35",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [
       "04/11 19:41 en-019-knuckle-crack en la bandeja de TikTok",
       "04/11 19:41 en-019-knuckle-crack paquete para TikTok/YouTube enviado",
@@ -841,7 +841,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-05T19:35",
-     "hace": "hace 3 h",
+     "hace": "hace 7 h",
      "detalle": [
       "04/11 19:36 en-019-knuckle-crack en la bandeja de TikTok",
       "04/11 19:36 en-019-knuckle-crack paquete para TikTok/YouTube enviado",
@@ -909,25 +909,25 @@
       }
      },
      "estado": "ok",
-     "resumen": "05/11: 3 seguidores",
-     "cuando": "2026-11-05T03:33",
-     "hace": "hace 19 h",
+     "resumen": "06/11: 3 seguidores",
+     "cuando": "2026-11-06T03:28",
+     "hace": "hace 1 min",
      "detalle": [
-      "02/11: 3 seguidores",
       "03/11: 3 seguidores",
       "04/11: 3 seguidores",
-      "05/11: 3 seguidores"
+      "05/11: 3 seguidores",
+      "06/11: 3 seguidores"
      ],
      "tareas": [
-      "en-001-phone-rice: 4.107 vistas · 22 enviados · 52 ♥",
+      "en-001-phone-rice: 4.118 vistas · 22 enviados · 52 ♥",
       "en-007-flip-steak: 3.384 vistas · 18 enviados · 36 ♥",
       "en-009-ceiling-fan: 3.058 vistas · 2 enviados · 40 ♥",
-      "en-008-wash-chicken: 2.286 vistas · 4 enviados · 20 ♥",
-      "en-006-five-second-rule: 2.254 vistas · 22 enviados · 52 ♥"
+      "en-008-wash-chicken: 2.291 vistas · 4 enviados · 20 ♥",
+      "en-006-five-second-rule: 2.255 vistas · 22 enviados · 52 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "2330310cf99a"
+     "firma": "1be436d38b49"
     },
     {
      "id": "vigilante",
@@ -944,7 +944,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-05T23:29",
+     "cuando": "2026-11-06T03:29",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -956,15 +956,6 @@
   }
  ],
  "arreglos": [
-  {
-   "id": "10312113-en-chequeo",
-   "creado": "2026-10-31T21:13",
-   "estado": "fallo",
-   "firma": null,
-   "titulo": "Claude no pudo trabajar ahora",
-   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
-   "actualizado": "2026-10-31T21:13"
-  },
   {
    "id": "11010252-en-chequeo",
    "creado": "2026-11-01T02:53",
@@ -1158,6 +1149,16 @@
    "que_hacer": "En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram.",
    "commit": null,
    "archivos": []
+  },
+  {
+   "id": "11060328-es-chequeo",
+   "creado": "2026-11-06T03:29",
+   "empleado": "es/chequeo",
+   "firma": "055e2ff0855b",
+   "estado": "pedido",
+   "auto": true,
+   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Bea (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): 040-consumo-fantasma.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\n040-consumo-fantasma: chequeo rechazado 2 veces: el 5 % de 1998 es solo una estimación con fuente secundaria (decir 'estimó', no 'midió'); 26 % de 2000 verificado\nRegistro:\n034-subte-linea-a: aprobado — Todas las afirmaciones tienen fuente. Las cifras y fechas (1913, 2013, Londres 1863, paseos) estan verificadas. Solo el origen del apodo 'Br\n034-arroz-recalentado: aprobado — Todas las afirmaciones de seguridad alimentaria quedan verificadas con fuente primaria: la página del NHS (starchy-foods-and-carbohydrates),\n035-lavandina-vinagre: aprobado — Tercera pasada (técnico): se reformuló la frase 7 y el caption a lo que dicen las fuentes primarias del CDC ('seguí la etiqueta', 'buena ven\n036-apagon-heladera: aprobado — Todas las afirmaciones de salud/seguridad alimentaria estan respaldadas por fuente primaria de EE. UU. (USDA FSIS y FoodSafety.gov) y ningun\n037-perro-en-el-auto: aprobado — Todas las afirmaciones de salud, seguridad y cifras coinciden con McLaren, Null y Quinn (Pediatrics 2005;116:e109) y con la guía de la AVMA,\n038-codigo-whatsapp: aprobado — Segunda pasada. Las dos correcciones quedaron respaldadas por fuente primaria de WhatsApp: la verificación en dos pasos pasó de PIN de 6 díg\n039-sol-nublado: aprobado",
+   "actualizado": "2026-11-06T03:29"
   }
  ]
 }
