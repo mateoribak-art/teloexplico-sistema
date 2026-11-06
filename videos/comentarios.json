@@ -262,5 +262,17 @@
   "texto": "sin texto (solo multimedia o emoji), no hay nada para responder",
   "respuesta": "",
   "cuando": "2026-11-05T04:45"
+ },
+ "18109491851243292": {
+  "estado": "salteado",
+  "texto": "Chicana política sobre la hora oficial: no respondemos en público",
+  "respuesta": "",
+  "cuando": "2026-11-06T19:18"
+ },
+ "18641187121010774": {
+  "estado": "respondido",
+  "texto": "",
+  "respuesta": "Entiendo el punto, pero el reloj no está mal: es la hora que eligió el país (UTC-3, Ley 26.350). Lo que sí pasa es que el sol va a su ritmo 🌞",
+  "cuando": "2026-11-06T19:18"
  }
 }
