@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T21:25",
+ "actualizado": "2026-11-05T21:26",
  "oficinas": [
   {
    "clave": "es",
@@ -12,7 +12,9 @@
    "proximo": "026-mediodia-hora-corrida",
    "publicados": 27,
    "pausa": false,
-   "pendientes": [],
+   "pendientes": [
+    "Facu (TikTok, YouTube y Telegram): En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram."
+   ],
    "ultimas": [
     {
      "slug": "025-noquis-del-29",
@@ -339,7 +341,7 @@
       }
      },
      "estado": "aviso",
-     "resumen": "025-noquis-del-29 falló TikTok: ^^^^^^^^",
+     "resumen": "Necesita algo tuyo: En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram.",
      "cuando": "2026-11-05T19:34",
      "hace": "hace 1 h",
      "detalle": [
@@ -354,7 +356,7 @@
      ],
      "tareas": [],
      "arreglo": "Si TikTok no recibió el borrador, el paquete igual llegó por Telegram: subilo a mano.",
-     "solo": false,
+     "solo": true,
      "firma": "9c4cab21568b"
     },
     {
@@ -371,7 +373,7 @@
      "estado": "ok",
      "resumen": "1 listo(s) para las 16:00.",
      "cuando": "2026-11-05T20:54",
-     "hace": "hace 31 min",
+     "hace": "hace 32 min",
      "detalle": [
       "2026-11-03 23:06 ventilador-pieza-vacia: listo control OK",
       "2026-11-04 15:06 perros-colores: listo control OK",
@@ -476,7 +478,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-05T21:25",
+     "cuando": "2026-11-05T21:26",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -924,7 +926,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-05T21:25",
+     "cuando": "2026-11-05T21:26",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -1128,11 +1130,16 @@
    "id": "11052125-es-redes",
    "creado": "2026-11-05T21:25",
    "empleado": "es/redes",
-   "firma": "9c4cab21568b",
-   "estado": "pedido",
+   "estado": "necesita",
    "auto": true,
    "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Facu (TikTok, YouTube y Telegram) está en \"aviso\": 025-noquis-del-29 falló TikTok: ^^^^^^^^\nLo que sugiere la oficina: Si TikTok no recibió el borrador, el paquete igual llegó por Telegram: subilo a mano.\n\nRegistro:\n04/11 19:39 014-celular-arroz https://youtube.com/shorts/3zLHm2ZioCw | privacidad: public\n04/11 19:39 014-celular-arroz paquete para TikTok/YouTube enviado\n05/11 12:33 008-aire-en-17 falló TikTok: ^^^^^^^^\n05/11 12:34 008-aire-en-17 https://youtube.com/shorts/naPBvj3IOJg | privacidad: public\n05/11 12:34 008-aire-en-17 paquete para TikTok/YouTube enviado\n05/11 19:33 025-noquis-del-29 falló TikTok: ^^^^^^^^\n05/11 19:33 025-noquis-del-29 https://youtube.com/shorts/jrt7PFa_Ty4 | privacidad: public\n05/11 19:34 025-noquis-del-29 paquete para TikTok/YouTube enviado",
-   "actualizado": "2026-11-05T21:25"
+   "firma": "9c4cab21568b",
+   "actualizado": "2026-11-05T21:26",
+   "titulo": "TikTok de @teloexplico.ar no se conecta desde ayer; hace falta volver a autorizar la cuenta.",
+   "resumen": "La llave de TikTok de la cuenta en español quedó dañada el 4/11 a las 19:41. Dos procesos de la nube la guardaron a la vez. Desde entonces el publicador no la puede leer y falla en TikTok, aunque Instagram, Facebook y YouTube salen bien. Los videos de @letmeexplain.us no se vieron afectados. Esa llave no se puede reconstruir desde acá, y no pude cambiar nada que lo resuelva sin que alguien inicie sesión en TikTok. Hasta que se vuelva a autorizar, cada publicación en español va a seguir avisando que TikTok falló. El paquete con el video y el texto sigue llegando por Telegram para subirlo a mano.",
+   "que_hacer": "En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram.",
+   "commit": null,
+   "archivos": []
   }
  ]
 }
