@@ -22,7 +22,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [usada → en-018-storm-cooldown] 018-refresca-tormenta · Why it cools down suddenly after a storm (downdraft) — serie: clima
 - [usada → en-015-rain-smell (rescatado: "some people can pick up geosmin at as little as five ppt")] 004-olor-a-lluvia · Why rain smells like that (petrichor, geosmin) — serie: ciencia
 - [intentada → en-014-birthday-pairs, apartado: solo atribución de fuentes (citar solo Wikipedia "Birthday problem" para 23/40/70 y el efecto no uniforme); cifras verificadas] 017-paradoja-cumpleanos · How many people for two to share a birthday? (23 → 50 %) — serie: mate
-- [ ] 016-el-nino-clima · El Niño / La Niña: what it means for your winter in the U.S. (NOAA CPC: verificar el estado ENSO ACTUAL) — serie: clima
+- [usada → en-026-el-nino-winter] 016-el-nino-clima · El Niño / La Niña: what it means for your winter in the U.S. (NOAA CPC: verificar el estado ENSO ACTUAL) — serie: clima
 - [ ] 020-pava-se-corta (3D) · Why does an electric kettle switch itself off? (las pavas eléctricas son menos comunes en EE. UU.: evaluar; si el gancho no funciona allá, descartar) — serie: pordentro
 - No adaptar: 006 y 007 (BTS en Argentina), 005 (apartado), 010/011/013 (sin video o chequeo rechazado).
 

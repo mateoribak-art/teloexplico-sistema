@@ -912,5 +912,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-026-el-nino-winter",
+  "tema": "What El Niño means for your winter (NOAA CPC; adapted from 016)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-06T14:10",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-06T14:10",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-06T14:15",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-06T14:42",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

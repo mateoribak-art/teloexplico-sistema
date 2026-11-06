@@ -194,5 +194,27 @@
     "motivo": "control OK"
    }
   ]
+ },
+ {
+  "clave": "serie-clima-1",
+  "estado": "listo",
+  "origen": [
+   "004-olor-a-lluvia",
+   "018-rayo-trueno",
+   "010-rayo-mismo-lugar",
+   "019-sensacion-termica"
+  ],
+  "historial": [
+   {
+    "estado": "listo",
+    "cuando": "2026-11-06T14:08",
+    "motivo": "control OK"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-06T14:08",
+    "motivo": "control OK"
+   }
+  ]
  }
 ]

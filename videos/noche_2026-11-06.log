@@ -7,3 +7,21 @@ Uso: 33 pasos · 48,680 tokens nuevos · 788,103 de caché · 5,562 escritos · 
 2026-11-06 09:00 Render de 040-consumo-fantasma (sin Claude).
 2026-11-06 09:13 040-consumo-fantasma: listo (render sin Claude)
 2026-11-06 09:13 Termina la producción (ok).
+2026-11-06 13:52 Arranca la producción (15 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Quedó un video nuevo, `041-celular-arroz-v2`, en estado `render`. `producir.py` lo renderiza y corre el control después, y todavía no sé si lo pasa a `listo`.
+
+- **041-celular-arroz-v2:** es el pedido de Mateo de rehacer el 014 con guion nuevo. El chequeo lo aprobó con el soporte de Apple como fuente. La voz salió en 46,2 s con 118 palabras del guion, apenas sobre el tope de 45 s. Los estilos van sin "intriga" ni "secreto", pero no pude escuchar si la voz sigue sonando susurrada. Conviene revisarlo antes de publicar.
+- **No produje un segundo video:** hay 14 listos en la cola, más que la meta de 10.
+- **Apartados sin rescatar:** `005-granizo-calor` es el único apartado y no es por chequeo rechazado, así que no entraba en el rescate. No corrí el radar: no había revisión de las últimas 6 horas, pero el pedido de Mateo va primero.
+Uso: 45 pasos · 68,846 tokens nuevos · 1,433,936 de caché · 13,125 escritos · equivale a US$ 0.67 de API
+2026-11-06 13:57 Render de 041-celular-arroz-v2 (sin Claude).
+2026-11-06 14:06 041-celular-arroz-v2: listo (render sin Claude)
+2026-11-06 14:06 Termina la producción (ok).
+2026-11-06 14:06 Arranca el carrusel (1 listos, meta 2).
+`serie-clima-1`: quedó listo. Es una recopilación de "El clima explicado" con 4 reels publicados: olor a lluvia, rayo y trueno, rayo en el mismo lugar y sensación térmica.
+
+El render y el control dieron LISTO con 7 placas. La tapa tenía el título cortado, así que lo acorté a "Clima real" y volví a renderizar. No volví a mirar la hoja después de ese cambio.
+
+El único dato de los reels que dejé afuera fue el de los edificios (Empire State y Cristo Redentor), porque su chequeo es "probable". Anoté el resultado en `videos/produccion.log`.
+Uso: 25 pasos · 49,010 tokens nuevos · 590,077 de caché · 6,562 escritos · equivale a US$ 0.32 de API
+2026-11-06 14:08 Termina el carrusel (ok; quedan 2 listos).

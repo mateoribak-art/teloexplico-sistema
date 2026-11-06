@@ -1,0 +1,24 @@
+{
+  "titulo": "What El Niño means for your winter",
+  "serie": "clima",
+  "fondo": "oscuro",
+  "receta": "el acusado equivocado + regla con matiz (adaptado de 016-el-nino-clima)",
+  "pilar": "clima_accion",
+  "destinatario": "se lo manda alguien que sigue el clima a su amigo que ya 'sabe' cómo va a ser todo el invierno, para decirle que mire el pronóstico local",
+  "regla_guardable": "El Niño = odds, not a promise. Check your town's forecast at weather.gov.",
+  "fuentes": [
+    "NOAA Climate Prediction Center, ENSO Diagnostic Discussion, October 8, 2026: El Niño Advisory, +2.1 °C in Niño-3.4, strong-to-very strong El Niño likely through January-March 2027",
+    "NOAA Climate.gov / CPC: El Niño tends to shift the jet stream and storm track; U.S. winter impacts are tendencies, not guarantees"
+  ],
+  "frases": [
+    {"texto": "Your winter forecast is being written thousands of miles from your house.", "estilo": "Intriguing, to the camera."},
+    {"texto": "It's El Niño, and it's back.", "estilo": "Punchy."},
+    {"texto": "Right now, the central Pacific along the equator is about four degrees Fahrenheit warmer than normal.", "estilo": "Brisk, energetic."},
+    {"texto": "NOAA says a strong El Niño is likely to last through the winter, into March.", "estilo": "Informative, with authority."},
+    {"texto": "That warm water tends to shift the storm track.", "estilo": "Clear, simple."},
+    {"texto": "So the South usually ends up wetter, and the northern states usually end up warmer.", "estilo": "Explanatory, steady."},
+    {"texto": "Heads up: that's the odds, not a promise. Your town can still get a blizzard.", "estilo": "Calm, honest caveat."},
+    {"texto": "Before you plan around it, check your local forecast at weather dot gov.", "estilo": "Practical, friendly."},
+    {"texto": "Send this to the friend who already predicted the whole winter.", "estilo": "Playful and funny."}
+  ]
+}

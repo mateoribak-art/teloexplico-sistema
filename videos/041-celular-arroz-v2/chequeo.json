@@ -1,0 +1,102 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Se releyó la página de Apple Support 102643 (WebFetch, 2026-11-06) y se cotejó con cobertura de febrero de 2024 (PetaPixel, PopSci, Euronews, MacRumors). Todas las afirmaciones, incluidas las de seguridad (no cargar enseguida, no usar calor externo ni aire comprimido), están verificadas contra la fuente primaria. No hay afirmaciones probables, dudosas ni falsas, y no hay cifras sin respaldo (los 30 minutos son textuales de Apple). El guion y el caption acotan el alcance a iPhone y Apple y mandan a mirar al fabricante en otras marcas. Observaciones menores sin obligar a cambios: (1) 'secador' es un ejemplo de 'external heat source' que Apple no nombra literalmente; es una lectura correcta y segura. (2) 'Error' en la frase 1 es valoración, apoyada en que Apple advierte que el arroz puede dañar el equipo. (3) La guía de Apple es para la alerta de detección de líquido; se aplica a 'se te cayó al agua' como caso general de iPhone mojado. (4) La regla guardable 'nada de arroz, treinta minutos' es genérica pero ya viene acotada por la frase 8.",
+  "afirmaciones": [
+    {
+      "texto": "Se te cayó el celular al agua y vas corriendo al arroz. Error.",
+      "fuente": "https://support.apple.com/en-us/102643 ('Don't put your iPhone in a bag of rice. Doing so could allow small particles of rice to damage your iPhone.')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Apple lo dice textual: no pongas el iPhone en una bolsa de arroz.",
+      "fuente": "https://support.apple.com/en-us/102643 ('Don't put your iPhone in a bag of rice')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El motivo: pueden meterse partículas de arroz adentro y dañarlo.",
+      "fuente": "https://support.apple.com/en-us/102643 ('could allow small particles of rice to damage your iPhone'). 'Pueden' respeta el condicional de Apple.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Lo que sí: primero sacalo del cargador y de los cables.",
+      "fuente": "https://support.apple.com/en-us/102643 ('Unplug the cable from your iPhone and unplug the other end of the cable from the power adapter or accessory.')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Después golpealo despacito contra la palma, con el conector hacia abajo, para que salga el agua.",
+      "fuente": "https://support.apple.com/en-us/102643 ('Tap your iPhone gently against your hand with the connector facing down to remove excess liquid.')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Dejalo en un lugar seco, con algo de aire.",
+      "fuente": "https://support.apple.com/en-us/102643 ('Leave your iPhone in a dry area with some airflow.')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sin secador y sin aire comprimido.",
+      "fuente": "https://support.apple.com/en-us/102643 ('Don't dry your iPhone using an external heat source or compressed air.'). El secador es un caso de fuente externa de calor.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y esperá al menos treinta minutos antes de cargarlo.",
+      "fuente": "https://support.apple.com/en-us/102643 ('After at least 30 minutes, try charging with a Lightning or USB-C cable...')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: esto es lo que recomienda Apple para el iPhone. Con otra marca, mirá lo que dice el fabricante.",
+      "fuente": "https://support.apple.com/en-us/102643 (alcance: iPhone). Acota correctamente el alcance.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Guardate esto: nada de arroz, treinta minutos de espera.",
+      "fuente": "https://support.apple.com/en-us/102643 (resumen de las dos reglas anteriores, ya acotadas a Apple en la frase previa)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mandáselo al que ya tiene el arroz listo en la alacena.",
+      "fuente": "Llamado a la acción con humor; no es afirmación fáctica. Sin fuente primaria necesaria.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Se te mojó el celular y corrés al arroz. Apple dice que no.",
+      "fuente": "https://support.apple.com/en-us/102643",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: El soporte de Apple lo dice textual: no pongas el iPhone en una bolsa de arroz, porque pueden meterse partículas de arroz adentro y dañarlo.",
+      "fuente": "https://support.apple.com/en-us/102643",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Lo que sí recomienda Apple: desenchufarlo, golpearlo despacito contra la palma con el conector hacia abajo, dejarlo en un lugar seco con algo de aire (sin secador ni aire comprimido) y esperar al menos treinta minutos antes de cargarlo.",
+      "fuente": "https://support.apple.com/en-us/102643, mismos pasos que el guion.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Ojo: esto es lo que recomienda Apple para el iPhone. Con otra marca, mirá lo que dice el fabricante.",
+      "fuente": "https://support.apple.com/en-us/102643 (alcance: iPhone)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Fuentes: Apple Support (liquid-detection alert on your iPhone).",
+      "fuente": "https://support.apple.com/en-us/102643 (el título de la página coincide)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}
