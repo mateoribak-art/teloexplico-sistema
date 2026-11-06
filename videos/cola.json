@@ -1096,7 +1096,7 @@
  {
   "slug": "027-bondi-de-brasil",
   "tema": "¿Por qué le decimos bondi al colectivo? La palabra vino de Brasil (bonde, tranvía)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1117,6 +1117,11 @@
     "estado": "listo",
     "cuando": "2026-11-02T17:41",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-06T19:32",
+    "motivo": "https://www.instagram.com/reel/Dfar7KqCo9x/"
    }
   ]
  },

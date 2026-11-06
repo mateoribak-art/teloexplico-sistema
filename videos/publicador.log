@@ -176,3 +176,14 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0x91 in position 1: invalid 
 2026-11-06 12:33 026-mediodia-hora-corrida https://youtube.com/shorts/eLLysz1eNVc | privacidad: public
 portada: ok
 2026-11-06 12:33 026-mediodia-hora-corrida paquete para TikTok/YouTube enviado
+2026-11-06 19:32 027-bondi-de-brasil publicado: https://www.instagram.com/reel/Dfar7KqCo9x/
+2026-11-06 19:33 027-bondi-de-brasil publicado en Facebook: https://www.facebook.com/reel/1234510615570606/
+2026-11-06 19:33 027-bondi-de-brasil falló TikTok: ^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+                 ^^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x91 in position 1: invalid start byte
+2026-11-06 19:33 027-bondi-de-brasil https://youtube.com/shorts/sWsq23mw6No | privacidad: public
+portada: ok
+2026-11-06 19:33 027-bondi-de-brasil paquete para TikTok/YouTube enviado

@@ -761,7 +761,7 @@
  {
   "slug": "en-022-ears-pop",
   "tema": "Why do your ears pop on a plane?",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -782,6 +782,11 @@
     "estado": "listo",
     "cuando": "2026-11-04T15:39",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-06T19:33",
+    "motivo": "https://www.instagram.com/reel/DfasFrnj6m6/"
    }
   ]
  },
