@@ -1479,7 +1479,7 @@
  {
   "slug": "040-consumo-fantasma",
   "tema": "Consumo en espera (standby): cuánta luz gastan los aparatos apagados (LBNL)",
-  "estado": "apartado",
+  "estado": "produccion",
   "historial": [
    {
     "estado": "idea",
@@ -1495,6 +1495,11 @@
     "estado": "apartado",
     "cuando": "2026-11-05T23:22",
     "motivo": "chequeo rechazado 2 veces: el 5 % de 1998 es solo una estimación con fuente secundaria (decir 'estimó', no 'midió'); 26 % de 2000 verificado"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-06T03:29",
+    "motivo": "texto corregido a 'estimó'; chequeo aprobado, falta voz, escenas y render"
    }
   ]
  }
