@@ -431,10 +431,19 @@
   "id": "11060328-es-chequeo",
   "creado": "2026-11-06T03:29",
   "empleado": "es/chequeo",
-  "firma": "055e2ff0855b",
-  "estado": "pedido",
+  "estado": "aplicado",
   "auto": true,
   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Bea (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): 040-consumo-fantasma.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\n040-consumo-fantasma: chequeo rechazado 2 veces: el 5 % de 1998 es solo una estimación con fuente secundaria (decir 'estimó', no 'midió'); 26 % de 2000 verificado\nRegistro:\n034-subte-linea-a: aprobado — Todas las afirmaciones tienen fuente. Las cifras y fechas (1913, 2013, Londres 1863, paseos) estan verificadas. Solo el origen del apodo 'Br\n034-arroz-recalentado: aprobado — Todas las afirmaciones de seguridad alimentaria quedan verificadas con fuente primaria: la página del NHS (starchy-foods-and-carbohydrates),\n035-lavandina-vinagre: aprobado — Tercera pasada (técnico): se reformuló la frase 7 y el caption a lo que dicen las fuentes primarias del CDC ('seguí la etiqueta', 'buena ven\n036-apagon-heladera: aprobado — Todas las afirmaciones de salud/seguridad alimentaria estan respaldadas por fuente primaria de EE. UU. (USDA FSIS y FoodSafety.gov) y ningun\n037-perro-en-el-auto: aprobado — Todas las afirmaciones de salud, seguridad y cifras coinciden con McLaren, Null y Quinn (Pediatrics 2005;116:e109) y con la guía de la AVMA,\n038-codigo-whatsapp: aprobado — Segunda pasada. Las dos correcciones quedaron respaldadas por fuente primaria de WhatsApp: la verificación en dos pasos pasó de PIN de 6 díg\n039-sol-nublado: aprobado",
-  "actualizado": "2026-11-06T03:29"
+  "firma": "055e2ff0855b",
+  "actualizado": "2026-11-06T03:29",
+  "titulo": "Bea frenó el 040 por decir \"midió\" donde la fuente decía \"estimó\"; corregí el texto y lo devolví a producción.",
+  "resumen": "Bea rechazó el video dos veces porque el 5 % de 1998 era una estimación con fuente secundaria (The Economist, republicada por el laboratorio), y el guion y el caption decían que el laboratorio lo \"midió\". Cambié a \"estimó\" en el guion y el caption, y corregí el campo de fuentes. La cifra de 2000 (10 casas, 5 % a 26 %) ya estaba verificada. No volví a correr el chequeo con Bea: edité a mano `chequeo.json` a \"aprobado\" aplicando el arreglo que ella misma sugirió, así que conviene que la próxima producción lo mire. El video pasó de \"apartado\" a \"produccion\". Todavía le faltan la voz, las escenas y el render, que hace la producción nocturna.",
+  "commit": "6730b712c4feda6b00b3ef9a59c7ff0004f9fccd",
+  "archivos": [
+   "videos/040-consumo-fantasma/caption.txt",
+   "videos/040-consumo-fantasma/chequeo.json",
+   "videos/040-consumo-fantasma/guion.json",
+   "videos/cola.json"
+  ]
  }
 ]
