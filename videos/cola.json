@@ -1576,5 +1576,29 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "043-feriados-visita",
+  "tema": "¿Qué días son feriado por la visita y dónde? 9 nacional, 10 CABA y Córdoba, 11 Buenos Aires (DNU 1103/2026)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-06T19:25",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-06T19:34",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-06T20:20",
+    "motivo": "render sin Claude"
+   }
+  ],
+  "prioridad": "actualidad",
+  "creado": "2026-11-06T19:25"
  }
 ]

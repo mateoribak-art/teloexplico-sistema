@@ -1,0 +1,810 @@
+{
+ "duracion": 56.19,
+ "frases": [
+  {
+   "texto": "Este lunes no se labura, pero el martes y el miércoles depende de dónde trabajes.",
+   "palabras": [
+    {
+     "texto": "Este",
+     "inicio": 0.0,
+     "fin": 0.24
+    },
+    {
+     "texto": "lunes",
+     "inicio": 0.24,
+     "fin": 0.52
+    },
+    {
+     "texto": "no",
+     "inicio": 0.52,
+     "fin": 1.02
+    },
+    {
+     "texto": "se",
+     "inicio": 1.02,
+     "fin": 1.16
+    },
+    {
+     "texto": "labura,",
+     "inicio": 1.16,
+     "fin": 1.5
+    },
+    {
+     "texto": "pero",
+     "inicio": 1.9,
+     "fin": 2.18
+    },
+    {
+     "texto": "el",
+     "inicio": 2.18,
+     "fin": 2.3
+    },
+    {
+     "texto": "martes",
+     "inicio": 2.3,
+     "fin": 2.78
+    },
+    {
+     "texto": "y",
+     "inicio": 2.78,
+     "fin": 2.96
+    },
+    {
+     "texto": "el",
+     "inicio": 2.96,
+     "fin": 3.08
+    },
+    {
+     "texto": "miércoles",
+     "inicio": 3.08,
+     "fin": 3.44
+    },
+    {
+     "texto": "depende",
+     "inicio": 3.44,
+     "fin": 4.44
+    },
+    {
+     "texto": "de",
+     "inicio": 4.44,
+     "fin": 4.56
+    },
+    {
+     "texto": "dónde",
+     "inicio": 4.56,
+     "fin": 4.68
+    },
+    {
+     "texto": "trabajes.",
+     "inicio": 4.68,
+     "fin": 5.34
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 5.34
+  },
+  {
+   "texto": "Por la visita del Papa, el Gobierno decretó tres feriados distintos.",
+   "palabras": [
+    {
+     "texto": "Por",
+     "inicio": 5.78,
+     "fin": 5.96
+    },
+    {
+     "texto": "la",
+     "inicio": 5.96,
+     "fin": 6.06
+    },
+    {
+     "texto": "visita",
+     "inicio": 6.06,
+     "fin": 6.34
+    },
+    {
+     "texto": "del",
+     "inicio": 6.34,
+     "fin": 6.52
+    },
+    {
+     "texto": "Papa,",
+     "inicio": 6.52,
+     "fin": 6.74
+    },
+    {
+     "texto": "el",
+     "inicio": 7.18,
+     "fin": 7.22
+    },
+    {
+     "texto": "Gobierno",
+     "inicio": 7.22,
+     "fin": 7.46
+    },
+    {
+     "texto": "decretó",
+     "inicio": 7.46,
+     "fin": 8.08
+    },
+    {
+     "texto": "tres",
+     "inicio": 8.08,
+     "fin": 8.56
+    },
+    {
+     "texto": "feriados",
+     "inicio": 8.56,
+     "fin": 9.04
+    },
+    {
+     "texto": "distintos.",
+     "inicio": 9.04,
+     "fin": 9.42
+    }
+   ],
+   "inicio": 5.78,
+   "fin": 9.42
+  },
+  {
+   "texto": "El lunes nueve de noviembre es feriado en todo el país.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 10.18,
+     "fin": 10.36
+    },
+    {
+     "texto": "lunes",
+     "inicio": 10.36,
+     "fin": 10.54
+    },
+    {
+     "texto": "nueve",
+     "inicio": 10.54,
+     "fin": 10.88
+    },
+    {
+     "texto": "de",
+     "inicio": 10.88,
+     "fin": 10.96
+    },
+    {
+     "texto": "noviembre",
+     "inicio": 10.96,
+     "fin": 11.42
+    },
+    {
+     "texto": "es",
+     "inicio": 11.42,
+     "fin": 11.82
+    },
+    {
+     "texto": "feriado",
+     "inicio": 11.82,
+     "fin": 12.24
+    },
+    {
+     "texto": "en",
+     "inicio": 12.24,
+     "fin": 12.6
+    },
+    {
+     "texto": "todo",
+     "inicio": 12.6,
+     "fin": 12.84
+    },
+    {
+     "texto": "el",
+     "inicio": 12.84,
+     "fin": 12.98
+    },
+    {
+     "texto": "país.",
+     "inicio": 12.98,
+     "fin": 13.18
+    }
+   ],
+   "inicio": 10.18,
+   "fin": 13.18
+  },
+  {
+   "texto": "El martes diez, solo en la Ciudad de Buenos Aires y en Córdoba.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 13.82,
+     "fin": 13.98
+    },
+    {
+     "texto": "martes",
+     "inicio": 13.98,
+     "fin": 14.24
+    },
+    {
+     "texto": "diez,",
+     "inicio": 14.24,
+     "fin": 14.42
+    },
+    {
+     "texto": "solo",
+     "inicio": 14.9,
+     "fin": 15.22
+    },
+    {
+     "texto": "en",
+     "inicio": 15.22,
+     "fin": 15.38
+    },
+    {
+     "texto": "la",
+     "inicio": 15.38,
+     "fin": 15.48
+    },
+    {
+     "texto": "Ciudad",
+     "inicio": 15.48,
+     "fin": 15.78
+    },
+    {
+     "texto": "de",
+     "inicio": 15.78,
+     "fin": 15.9
+    },
+    {
+     "texto": "Buenos",
+     "inicio": 15.9,
+     "fin": 16.06
+    },
+    {
+     "texto": "Aires",
+     "inicio": 16.06,
+     "fin": 16.36
+    },
+    {
+     "texto": "y",
+     "inicio": 16.36,
+     "fin": 16.84
+    },
+    {
+     "texto": "en",
+     "inicio": 16.84,
+     "fin": 16.96
+    },
+    {
+     "texto": "Córdoba.",
+     "inicio": 16.96,
+     "fin": 17.34
+    }
+   ],
+   "inicio": 13.82,
+   "fin": 17.34
+  },
+  {
+   "texto": "Y el miércoles once, solo en la provincia de Buenos Aires.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 17.94,
+     "fin": 18.0
+    },
+    {
+     "texto": "el",
+     "inicio": 18.0,
+     "fin": 18.12
+    },
+    {
+     "texto": "miércoles",
+     "inicio": 18.12,
+     "fin": 18.44
+    },
+    {
+     "texto": "once,",
+     "inicio": 18.44,
+     "fin": 18.76
+    },
+    {
+     "texto": "solo",
+     "inicio": 19.24,
+     "fin": 19.42
+    },
+    {
+     "texto": "en",
+     "inicio": 19.42,
+     "fin": 19.54
+    },
+    {
+     "texto": "la",
+     "inicio": 19.54,
+     "fin": 19.64
+    },
+    {
+     "texto": "provincia",
+     "inicio": 19.64,
+     "fin": 20.06
+    },
+    {
+     "texto": "de",
+     "inicio": 20.06,
+     "fin": 20.18
+    },
+    {
+     "texto": "Buenos",
+     "inicio": 20.18,
+     "fin": 20.34
+    },
+    {
+     "texto": "Aires.",
+     "inicio": 20.34,
+     "fin": 20.64
+    }
+   ],
+   "inicio": 17.94,
+   "fin": 20.64
+  },
+  {
+   "texto": "Por este decreto no hay feriado en el resto del país esos dos días, aunque tu provincia podría sumar el suyo.",
+   "palabras": [
+    {
+     "texto": "Por",
+     "inicio": 21.24,
+     "fin": 21.48
+    },
+    {
+     "texto": "este",
+     "inicio": 21.48,
+     "fin": 21.7
+    },
+    {
+     "texto": "decreto",
+     "inicio": 21.7,
+     "fin": 22.32
+    },
+    {
+     "texto": "no",
+     "inicio": 22.32,
+     "fin": 23.06
+    },
+    {
+     "texto": "hay",
+     "inicio": 23.06,
+     "fin": 23.28
+    },
+    {
+     "texto": "feriado",
+     "inicio": 23.28,
+     "fin": 23.8
+    },
+    {
+     "texto": "en",
+     "inicio": 23.8,
+     "fin": 23.96
+    },
+    {
+     "texto": "el",
+     "inicio": 23.96,
+     "fin": 24.1
+    },
+    {
+     "texto": "resto",
+     "inicio": 24.1,
+     "fin": 24.32
+    },
+    {
+     "texto": "del",
+     "inicio": 24.32,
+     "fin": 24.54
+    },
+    {
+     "texto": "país",
+     "inicio": 24.54,
+     "fin": 24.86
+    },
+    {
+     "texto": "esos",
+     "inicio": 24.86,
+     "fin": 25.3
+    },
+    {
+     "texto": "dos",
+     "inicio": 25.3,
+     "fin": 25.54
+    },
+    {
+     "texto": "días,",
+     "inicio": 25.54,
+     "fin": 25.82
+    },
+    {
+     "texto": "aunque",
+     "inicio": 26.4,
+     "fin": 26.76
+    },
+    {
+     "texto": "tu",
+     "inicio": 26.76,
+     "fin": 27.12
+    },
+    {
+     "texto": "provincia",
+     "inicio": 27.12,
+     "fin": 27.62
+    },
+    {
+     "texto": "podría",
+     "inicio": 27.62,
+     "fin": 28.06
+    },
+    {
+     "texto": "sumar",
+     "inicio": 28.06,
+     "fin": 28.42
+    },
+    {
+     "texto": "el",
+     "inicio": 28.42,
+     "fin": 28.54
+    },
+    {
+     "texto": "suyo.",
+     "inicio": 28.54,
+     "fin": 28.9
+    }
+   ],
+   "inicio": 21.24,
+   "fin": 28.9
+  },
+  {
+   "texto": "Es el decreto de necesidad y urgencia mil ciento tres de este año, publicado en el Boletín Oficial el veintiocho de septiembre.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 29.76,
+     "fin": 30.02
+    },
+    {
+     "texto": "el",
+     "inicio": 30.02,
+     "fin": 30.14
+    },
+    {
+     "texto": "decreto",
+     "inicio": 30.14,
+     "fin": 30.52
+    },
+    {
+     "texto": "de",
+     "inicio": 30.52,
+     "fin": 30.68
+    },
+    {
+     "texto": "necesidad",
+     "inicio": 30.68,
+     "fin": 31.24
+    },
+    {
+     "texto": "y",
+     "inicio": 31.24,
+     "fin": 31.34
+    },
+    {
+     "texto": "urgencia",
+     "inicio": 31.34,
+     "fin": 31.9
+    },
+    {
+     "texto": "mil",
+     "inicio": 31.9,
+     "fin": 32.5
+    },
+    {
+     "texto": "ciento",
+     "inicio": 32.5,
+     "fin": 32.98
+    },
+    {
+     "texto": "tres",
+     "inicio": 32.98,
+     "fin": 33.34
+    },
+    {
+     "texto": "de",
+     "inicio": 33.34,
+     "fin": 33.72
+    },
+    {
+     "texto": "este",
+     "inicio": 33.72,
+     "fin": 33.98
+    },
+    {
+     "texto": "año,",
+     "inicio": 33.98,
+     "fin": 34.34
+    },
+    {
+     "texto": "publicado",
+     "inicio": 34.76,
+     "fin": 35.34
+    },
+    {
+     "texto": "en",
+     "inicio": 35.34,
+     "fin": 35.46
+    },
+    {
+     "texto": "el",
+     "inicio": 35.46,
+     "fin": 35.54
+    },
+    {
+     "texto": "Boletín",
+     "inicio": 35.54,
+     "fin": 35.88
+    },
+    {
+     "texto": "Oficial",
+     "inicio": 35.88,
+     "fin": 36.26
+    },
+    {
+     "texto": "el",
+     "inicio": 36.26,
+     "fin": 36.66
+    },
+    {
+     "texto": "veintiocho",
+     "inicio": 36.66,
+     "fin": 37.2
+    },
+    {
+     "texto": "de",
+     "inicio": 37.2,
+     "fin": 37.34
+    },
+    {
+     "texto": "septiembre.",
+     "inicio": 37.34,
+     "fin": 37.86
+    }
+   ],
+   "inicio": 29.76,
+   "fin": 37.86
+  },
+  {
+   "texto": "Ojo: el decreto marca dónde rige cada día, pero cada trabajo puede tener sus reglas, así que confirmalo con tu empresa.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 38.8,
+     "fin": 39.16
+    },
+    {
+     "texto": "el",
+     "inicio": 39.72,
+     "fin": 39.76
+    },
+    {
+     "texto": "decreto",
+     "inicio": 39.76,
+     "fin": 40.08
+    },
+    {
+     "texto": "marca",
+     "inicio": 40.08,
+     "fin": 40.3
+    },
+    {
+     "texto": "dónde",
+     "inicio": 40.3,
+     "fin": 40.7
+    },
+    {
+     "texto": "rige",
+     "inicio": 40.7,
+     "fin": 41.1
+    },
+    {
+     "texto": "cada",
+     "inicio": 41.1,
+     "fin": 41.36
+    },
+    {
+     "texto": "día,",
+     "inicio": 41.36,
+     "fin": 41.68
+    },
+    {
+     "texto": "pero",
+     "inicio": 41.84,
+     "fin": 41.98
+    },
+    {
+     "texto": "cada",
+     "inicio": 41.98,
+     "fin": 42.62
+    },
+    {
+     "texto": "trabajo",
+     "inicio": 42.62,
+     "fin": 43.02
+    },
+    {
+     "texto": "puede",
+     "inicio": 43.02,
+     "fin": 43.28
+    },
+    {
+     "texto": "tener",
+     "inicio": 43.28,
+     "fin": 43.62
+    },
+    {
+     "texto": "sus",
+     "inicio": 43.62,
+     "fin": 43.74
+    },
+    {
+     "texto": "reglas,",
+     "inicio": 43.74,
+     "fin": 44.1
+    },
+    {
+     "texto": "así",
+     "inicio": 44.3,
+     "fin": 44.46
+    },
+    {
+     "texto": "que",
+     "inicio": 44.46,
+     "fin": 44.68
+    },
+    {
+     "texto": "confirmalo",
+     "inicio": 44.68,
+     "fin": 45.38
+    },
+    {
+     "texto": "con",
+     "inicio": 45.38,
+     "fin": 45.56
+    },
+    {
+     "texto": "tu",
+     "inicio": 45.56,
+     "fin": 45.64
+    },
+    {
+     "texto": "empresa.",
+     "inicio": 45.64,
+     "fin": 45.92
+    }
+   ],
+   "inicio": 38.8,
+   "fin": 45.92
+  },
+  {
+   "texto": "Anotalo hoy: lunes todos, martes Capital y Córdoba, miércoles provincia de Buenos Aires.",
+   "palabras": [
+    {
+     "texto": "Anotalo",
+     "inicio": 46.84,
+     "fin": 47.32
+    },
+    {
+     "texto": "hoy:",
+     "inicio": 47.32,
+     "fin": 47.56
+    },
+    {
+     "texto": "lunes",
+     "inicio": 48.12,
+     "fin": 48.3
+    },
+    {
+     "texto": "todos,",
+     "inicio": 48.3,
+     "fin": 49.22
+    },
+    {
+     "texto": "martes",
+     "inicio": 49.76,
+     "fin": 50.16
+    },
+    {
+     "texto": "Capital",
+     "inicio": 50.16,
+     "fin": 50.82
+    },
+    {
+     "texto": "y",
+     "inicio": 50.82,
+     "fin": 51.1
+    },
+    {
+     "texto": "Córdoba,",
+     "inicio": 51.1,
+     "fin": 51.5
+    },
+    {
+     "texto": "miércoles",
+     "inicio": 52.08,
+     "fin": 52.42
+    },
+    {
+     "texto": "provincia",
+     "inicio": 52.42,
+     "fin": 53.12
+    },
+    {
+     "texto": "de",
+     "inicio": 53.12,
+     "fin": 53.24
+    },
+    {
+     "texto": "Buenos",
+     "inicio": 53.24,
+     "fin": 53.38
+    },
+    {
+     "texto": "Aires.",
+     "inicio": 53.38,
+     "fin": 53.7
+    }
+   ],
+   "inicio": 46.84,
+   "fin": 53.7
+  },
+  {
+   "texto": "Mandáselo al que pregunta si el martes se labura.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 54.18,
+     "fin": 54.72
+    },
+    {
+     "texto": "al",
+     "inicio": 54.72,
+     "fin": 54.8
+    },
+    {
+     "texto": "que",
+     "inicio": 54.8,
+     "fin": 54.88
+    },
+    {
+     "texto": "pregunta",
+     "inicio": 54.88,
+     "fin": 55.2
+    },
+    {
+     "texto": "si",
+     "inicio": 55.2,
+     "fin": 55.34
+    },
+    {
+     "texto": "el",
+     "inicio": 55.34,
+     "fin": 55.42
+    },
+    {
+     "texto": "martes",
+     "inicio": 55.42,
+     "fin": 55.7
+    },
+    {
+     "texto": "se",
+     "inicio": 55.7,
+     "fin": 55.79
+    },
+    {
+     "texto": "labura.",
+     "inicio": 55.79,
+     "fin": 56.06
+    }
+   ],
+   "inicio": 54.18,
+   "fin": 56.06
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+  "titulo": "Feriados por la visita: qué día y dónde",
+  "fondo": "oscuro",
+  "receta": "Argentina en datos / mapa que se transforma",
+  "pilar": "argentina",
+  "destinatario": "se lo manda una compañera de oficina a otra que pregunta en el grupo si el martes se labura, para decirle que depende de dónde esté su empleador",
+  "regla_guardable": "Lunes 9: todo el país. Martes 10: CABA y Córdoba. Miércoles 11: provincia de Buenos Aires",
+  "fuentes": [
+    "Decreto de Necesidad y Urgencia 1103/2026, Boletín Oficial, 28 de septiembre de 2026",
+    "Chequeado: Visita del papa León XIV, cuáles son los feriados del 9, 10 y 11 de noviembre y dónde rigen"
+  ],
+  "frases": [
+    {"texto": "Este lunes no se labura, pero el martes y el miércoles depende de dónde trabajes.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Por la visita del Papa, el Gobierno decretó tres feriados distintos.", "estilo": "Informativo, con ritmo."},
+    {"texto": "El lunes nueve de noviembre es feriado en todo el país.", "estilo": "Claro, con energía."},
+    {"texto": "El martes diez, solo en la Ciudad de Buenos Aires y en Córdoba.", "estilo": "Claro, con energía."},
+    {"texto": "Y el miércoles once, solo en la provincia de Buenos Aires.", "estilo": "Claro, con energía."},
+    {"texto": "Por este decreto no hay feriado en el resto del país esos dos días, aunque tu provincia podría sumar el suyo.", "estilo": "Golpe seco, con humor."},
+    {"texto": "Es el decreto de necesidad y urgencia mil ciento tres de este año, publicado en el Boletín Oficial el veintiocho de septiembre.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Ojo: el decreto marca dónde rige cada día, pero cada trabajo puede tener sus reglas, así que confirmalo con tu empresa.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Anotalo hoy: lunes todos, martes Capital y Córdoba, miércoles provincia de Buenos Aires.", "estilo": "Práctico, amable."},
+    {"texto": "Mandáselo al que pregunta si el martes se labura.", "estilo": "Cómplice, con humor."}
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segunda revisión (6/11/2026). Las dos correcciones del primer chequeo están bien resueltas: 'dónde trabajes' coincide con lo que Chequeado recoge de fuentes oficiales (el asueto corresponde a la jurisdicción del empleador) y la frase sobre el resto del país ahora dice solo lo que el decreto establece ('por este decreto no hay feriado') más una posibilidad ('podría sumar el suyo') que es cierta como hipótesis. Fechas, alcance de cada feriado, número del DNU y fecha de publicación (28/9/2026) están verificados en Chequeado, Perfil, El Cronista y otras fuentes que citan el texto de los arts. 2, 3 y 4 (no se pudo abrir el Boletín Oficial directamente en esta pasada; el chequeo previo ya había contrastado la cita textual). Único matiz delicado, el de plata/obligación laboral: Chequeado aclara que el decreto no resuelve si cuenta el domicilio o el lugar de trabajo y que el criterio del empleador es lo que informan fuentes oficiales y una interpretación razonable; el guion lo cubre con el 'Ojo' (confirmalo con tu empresa) y el caption lo repite, por lo que la afirmación queda cierta con su matiz. No se hallaron adhesiones provinciales ni un decreto posterior que cambie el esquema. Sin afirmaciones falsas ni dudosas.",
+  "afirmaciones": [
+    {
+      "texto": "Este lunes no se labura (lunes 9 de noviembre, feriado en todo el país)",
+      "fuente": "DNU 1103/2026, art. 2 (Boletín Oficial 28/9/2026); Chequeado; Perfil",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El martes y el miércoles depende de dónde trabajes",
+      "fuente": "Chequeado: fuentes oficiales indican que el asueto corresponde a la jurisdicción del empleador; el DNU no lo resuelve expresamente y el criterio del lugar de trabajo es interpretación razonable",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Por la visita del Papa, el Gobierno decretó tres feriados distintos",
+      "fuente": "DNU 1103/2026 (arts. 2, 3 y 4); Chequeado; Perfil; El Economista",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El lunes nueve de noviembre es feriado en todo el país",
+      "fuente": "DNU 1103/2026, art. 2 ('en todo el territorio de la República Argentina', según Perfil); Chequeado",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El martes diez, solo en la Ciudad de Buenos Aires y en Córdoba",
+      "fuente": "DNU 1103/2026, art. 3 ('exclusivamente en el ámbito de la Provincia de CÓRDOBA y la CIUDAD AUTÓNOMA DE BUENOS AIRES', texto citado por Perfil); Chequeado",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y el miércoles once, solo en la provincia de Buenos Aires",
+      "fuente": "DNU 1103/2026, art. 4 ('exclusivamente en el ámbito de la Provincia de BUENOS AIRES', Perfil); Chequeado",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Por este decreto no hay feriado en el resto del país esos dos días",
+      "fuente": "DNU 1103/2026 arts. 3 y 4 ('exclusivamente'); El Cronista: el resto de las provincias no tendrá esos días como feriado por la visita",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Tu provincia podría sumar el suyo",
+      "fuente": "Posibilidad formulada como hipótesis; no se hallaron adhesiones provinciales en las búsquedas, pero tampoco hay norma que lo impida (Chequeado no aborda el tema)",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Es el decreto de necesidad y urgencia mil ciento tres de este año",
+      "fuente": "Chequeado ('DNU 1103/2026'); Perfil; Contadores en Red",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Publicado en el Boletín Oficial el veintiocho de septiembre",
+      "fuente": "Chequeado ('lunes 28 de septiembre de 2026'); Perfil; Contadores en Red",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El decreto marca dónde rige cada día, pero cada trabajo puede tener sus reglas, así que confirmalo con tu empresa",
+      "fuente": "Chequeado: el DNU no define domicilio vs. lugar de trabajo; art. 17 faculta a la Jefatura de Gabinete a dictar normas aclaratorias. Es una recomendación prudente",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Anotalo hoy: lunes todos, martes Capital y Córdoba, miércoles provincia de Buenos Aires",
+      "fuente": "DNU 1103/2026, arts. 2, 3 y 4; Chequeado",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: lista Lunes 9 todo el país / Martes 10 CABA y Córdoba / Miércoles 11 provincia de Buenos Aires (DNU 1103/2026, Boletín Oficial, 28/9/2026); el 9/11/2026 es lunes",
+      "fuente": "Chequeado; Perfil; calendario 2026",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: En el resto del país el decreto no marca feriado esos dos días, aunque cada provincia podría sumar el suyo",
+      "fuente": "DNU 1103/2026 arts. 3 y 4; El Cronista",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Fuentes: DNU 1103/2026 (Boletín Oficial, 28/9/2026); Chequeado",
+      "fuente": "Ambas existen y respaldan lo atribuido (artículo de Chequeado consultado hoy)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}
