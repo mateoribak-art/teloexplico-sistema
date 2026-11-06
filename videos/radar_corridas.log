@@ -119,3 +119,9 @@ Sources:
 - [Chequeado: El Niño 2026](https://chequeado.com/nota/el-nino-2026-que-puede-pasar-en-argentina-ante-la-llegada-del-fenomeno-climatico)
 Uso: 10 pasos · 18,580 tokens nuevos · 132,673 de caché · 1,833 escritos · equivale a US$ 0.13 de API
 2026-11-05 17:47 Termina el radar (ok).
+2026-11-06 17:01 Arranca el radar.
+Estoy cerrando el radar de hoy: ya anoté los candidatos descartados en `videos/radar.log`, así que solo falta el resumen final.
+
+Decisión: no produje video de actualidad. Las búsquedas no devolvieron nada con fecha verificable de hoy. Los candidatos eran la alerta amarilla por tormentas y granizo, la ola de calor de unos 40 °C en el norte y El Niño de octubre a diciembre. Los descarté porque no tienen fecha o año verificable, o porque el tema ya está cubierto (004, 016, 019, 024). La cola normal sigue como estaba.
+Uso: 10 pasos · 19,824 tokens nuevos · 134,454 de caché · 1,476 escritos · equivale a US$ 0.13 de API
+2026-11-06 17:01 Termina el radar (ok).

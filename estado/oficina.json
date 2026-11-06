@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-06T15:07",
+ "actualizado": "2026-11-06T17:02",
  "oficinas": [
   {
    "clave": "es",
@@ -104,7 +104,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-06T14:08",
-     "hace": "hace 59 min",
+     "hace": "hace 2 h",
      "detalle": [
       "Uso: 45 pasos · 68,846 tokens nuevos · 1,433,936 de caché · 13,125 escritos · equivale a US$ 0.67 de API",
       "Quedó un video nuevo, `041-celular-arroz-v2`, en estado `render`. `producir.py` lo renderiza y corre el control después, y todavía no sé si lo pasa a `listo`.",
@@ -144,7 +144,7 @@
      "estado": "ok",
      "resumen": "Guía de referentes al día.",
      "cuando": "2026-11-05T15:28",
-     "hace": "hace 23 h",
+     "hace": "hace 25 h",
      "detalle": [
       "05/11 15:26 Arranca Vera (referentes).",
       "05/11 15:27 Reels bajados (código 0).",
@@ -171,13 +171,13 @@
       }
      },
      "estado": "ok",
-     "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias de clima): resultados sin fecha verificable de hoy. Descartados: (a) alerta amarilla por frente/lluv",
-     "cuando": "2026-11-05T17:47",
-     "hace": "hace 21 h",
+     "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y clima de la semana): sin resultados fechados de hoy verificables. Descartados: (a) alerta amarilla en 8-10 prov",
+     "cuando": "2026-11-06T17:01",
+     "hace": "hace 1 min",
      "detalle": [
-      "03/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y clima de la semana): solo resultados de julio 2026 o de noviembre 2025 (días de la semana que no coinciden), nada fechado de hoy. Descartados: (a) tormentas/ciclogénesis del \"jueves 6 de noviembre\" (es de 2025), (b) ola de calor extrema + tormentas en AMBA (Cronista, sin fecha verificable; granizo y sensación térmica ya cubiertos), (c) El Niño/trimestral SMN (ya está 016). Sin tema verificable; sigue la cola normal.",
       "04/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y clima/tendencias): solo resultados sin fecha verificable de hoy (julio 2026, noviembre 2025, ene-feb 2026). Descartados: (a) alertas de tormentas/granizo en 10-12 provincias (sin fecha ni año verificable; granizo ya tiene 005 y 024), (b) ola de calor de 40°C (sin fecha verificable; calor ya cubierto en 019/008), (c) ciclón/lluvias 48 h (sin fecha verificable; lluvia ya cubierta en 004/016). Sin tema verificable; sigue la cola normal.",
-      "05/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias de clima): resultados sin fecha verificable de hoy. Descartados: (a) alerta amarilla por frente/lluvia en AMBA y 10 provincias \"hasta el 6 de nov\" (Cronista, sin fecha ni año verificable; lluvia y tormentas ya cubiertas en 004/016/018), (b) Super Niño 2026 (tema de fondo desde abril-agosto, no de hoy; ya está 016), (c) ola de calor 40°C (sin fecha). Sin tema verificable; sigue la cola normal."
+      "05/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias de clima): resultados sin fecha verificable de hoy. Descartados: (a) alerta amarilla por frente/lluvia en AMBA y 10 provincias \"hasta el 6 de nov\" (Cronista, sin fecha ni año verificable; lluvia y tormentas ya cubiertas en 004/016/018), (b) Super Niño 2026 (tema de fondo desde abril-agosto, no de hoy; ya está 016), (c) ola de calor 40°C (sin fecha). Sin tema verificable; sigue la cola normal.",
+      "06/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y clima de la semana): sin resultados fechados de hoy verificables. Descartados: (a) alerta amarilla en 8-10 provincias \"hasta el 6 de nov\" (Cronista, sin año verificable; lluvia/granizo ya cubiertos en 004/016/024), (b) ola de calor ~40°C en el norte (sin fecha; calor ya en 019/008), (c) El Niño octubre-diciembre (ya está 016). Sin tema verificable; sigue la cola normal."
      ],
      "tareas": [
       "🔥 004-olor-a-lluvia — ¿Por qué la tierra huele así cuando llueve?",
@@ -188,7 +188,7 @@
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "e96e08243d46"
+     "firma": "a467ae63c091"
     },
     {
      "id": "chequeo",
@@ -207,7 +207,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-06T14:06",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "034-arroz-recalentado: aprobado — Todas las afirmaciones de seguridad alimentaria quedan verificadas con fuente primaria: la página del NHS (starchy-foods-and-carbohydrates),",
       "035-lavandina-vinagre: aprobado — Tercera pasada (técnico): se reformuló la frase 7 y el caption a lo que dicen las fuentes primarias del CDC ('seguí la etiqueta', 'buena ven",
@@ -240,7 +240,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-06T14:06",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -264,7 +264,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-06 14:06.",
      "cuando": "2026-11-06T14:06",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -288,7 +288,7 @@
      "estado": "ok",
      "resumen": "16 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-06T14:06",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -312,7 +312,7 @@
      "estado": "ok",
      "resumen": "Último: 026-mediodia-hora-corrida.",
      "cuando": "2026-11-06T12:33",
-     "hace": "hace 2 h",
+     "hace": "hace 4 h",
      "detalle": [
       "05/11 19:33 025-noquis-del-29 publicado: https://www.instagram.com/reel/DfYHN6FHAtL/",
       "05/11 19:33 025-noquis-del-29 publicado en Facebook: https://www.facebook.com/reel/2305200853655326/",
@@ -349,7 +349,7 @@
      "estado": "aviso",
      "resumen": "Necesita algo tuyo: En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram.",
      "cuando": "2026-11-06T12:33",
-     "hace": "hace 2 h",
+     "hace": "hace 4 h",
      "detalle": [
       "05/11 12:34 008-aire-en-17 https://youtube.com/shorts/naPBvj3IOJg | privacidad: public",
       "05/11 12:34 008-aire-en-17 paquete para TikTok/YouTube enviado",
@@ -379,7 +379,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-06T14:08",
-     "hace": "hace 59 min",
+     "hace": "hace 2 h",
      "detalle": [
       "2026-11-04 16:33 heladera-parte-2: apartado grande demasiado largo (21 > 14): \"menos de lo que creés…\"; dato demasiado largo",
       "2026-11-04 16:33 heladera-parte-2: listo control OK",
@@ -413,7 +413,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-05T04:45",
-     "hace": "hace 34 h",
+     "hace": "hace 36 h",
      "detalle": [
       "02/11 04:22 Termina la respuesta de comentarios (con problemas).",
       "02/11 21:14 Hay 14 comentarios nuevos: arranca la respuesta.",
@@ -452,7 +452,7 @@
      "estado": "ok",
      "resumen": "06/11: 425 seguidores",
      "cuando": "2026-11-06T03:28",
-     "hace": "hace 11 h",
+     "hace": "hace 13 h",
      "detalle": [
       "03/11: 365 seguidores",
       "04/11: 386 seguidores",
@@ -485,7 +485,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-06T15:07",
+     "cuando": "2026-11-06T17:02",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -620,7 +620,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-06T14:42",
-     "hace": "hace 25 min",
+     "hace": "hace 2 h",
      "detalle": [
       "Uso: 58 pasos · 92,637 tokens nuevos · 2,051,577 de caché · 19,292 escritos · equivale a US$ 0.95 de API",
       "2026-11-06 14:08 Arranca la producción (5 listos en la cola, meta 6).",
@@ -656,20 +656,20 @@
       }
      },
      "estado": "ok",
-     "resumen": "Novena pasada del radar: la búsqueda solo devolvió pronósticos locales de TV (lluvia a mitad de semana, enfriada a fin de semana) y páginas sin fecha; nada veri",
-     "cuando": "2026-11-05T17:47",
-     "hace": "hace 21 h",
+     "resumen": "Décima pasada del radar: la búsqueda web no devolvió alertas del NWS ni noticias de las últimas 48 h (páginas sin fecha, de abril o de 2025). Descartados: (1) t",
+     "cuando": "2026-11-06T17:02",
+     "hace": "recién",
      "detalle": [
-      "03/11 00:00 Séptima pasada del radar: la búsqueda web solo devolvió páginas de AccuWeather sin fecha clara y notas de 2025; nada verificable de las últimas 48 h. Descartados: (1) \"pattern flip\" de la primera semana de noviembre (AccuWeather): fecha dudosa, sin fuente oficial del día; (2) superluna del 24/11: todavía lejos; (3) cambio de hora: ya publicado (en-002), el momento pasó. Sin tema nuevo.",
       "04/11 00:00 Octava pasada del radar: la búsqueda web no devolvió nada verificable de las últimas 48 h (NWS sin fecha del día, notas sin fecha). Descartados: (1) nor'easter / inundaciones en California y Suroeste (AccuWeather): sin fecha ni fuente oficial del día; (2) récord de temperatura de noviembre en Denver / ríos atmosféricos (Guardian): sin fecha confirmada; (3) pronóstico de Thanksgiving: todavía lejos y sin gancho. Sin tema nuevo.",
-      "05/11 00:00 Novena pasada del radar: la búsqueda solo devolvió pronósticos locales de TV (lluvia a mitad de semana, enfriada a fin de semana) y páginas sin fecha; nada verificable de las últimas 48 h. Descartados: (1) lluvia/enfriada de la semana en Sureste y Nordeste: regional, sin fuente oficial del día y sin gancho; (2) pronóstico de Thanksgiving (Farmers' Almanac): no es fuente oficial y falta lejos; (3) estudio \"pronóstico a 5 días = 1 día en los 80\": sin fecha confirmada. Sin tema nuevo."
+      "05/11 00:00 Novena pasada del radar: la búsqueda solo devolvió pronósticos locales de TV (lluvia a mitad de semana, enfriada a fin de semana) y páginas sin fecha; nada verificable de las últimas 48 h. Descartados: (1) lluvia/enfriada de la semana en Sureste y Nordeste: regional, sin fuente oficial del día y sin gancho; (2) pronóstico de Thanksgiving (Farmers' Almanac): no es fuente oficial y falta lejos; (3) estudio \"pronóstico a 5 días = 1 día en los 80\": sin fecha confirmada. Sin tema nuevo.",
+      "06/11 00:00 Décima pasada del radar: la búsqueda web no devolvió alertas del NWS ni noticias de las últimas 48 h (páginas sin fecha, de abril o de 2025). Descartados: (1) tornado watch en el norte de Georgia: página sin fecha, regional y sin fuente oficial confirmada; (2) superluna del 24/11: todavía lejos; (3) ciencia de la semana: nada de noviembre 2026 en los resúmenes. Sin tema nuevo."
      ],
      "tareas": [
       "🔥 en-002-dst-farmers — Is daylight saving time for farmers? (fall back Nov 1)"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "9490105255fe"
+     "firma": "041701272f9e"
     },
     {
      "id": "chequeo",
@@ -688,7 +688,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-06T14:42",
-     "hace": "hace 25 min",
+     "hace": "hace 2 h",
      "detalle": [
       "en-020-ac-sixty: aprobado — La frase 7 y el 'Heads up' del caption ahora dicen 'may never reach the number you set': es una deducción física (si la ganancia de calor su",
       "en-021-other-line: aprobado — Segundo chequeo con busqueda web. El unico bloqueo del primero (caption linea 1) esta resuelto: 'Your brain probably makes it feel that way'",
@@ -721,7 +721,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-06T14:42",
-     "hace": "hace 25 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -745,7 +745,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-06 14:42.",
      "cuando": "2026-11-06T14:42",
-     "hace": "hace 25 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -769,7 +769,7 @@
      "estado": "ok",
      "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-06T14:42",
-     "hace": "hace 25 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -793,7 +793,7 @@
      "estado": "ok",
      "resumen": "Último: en-021-other-line.",
      "cuando": "2026-11-06T12:35",
-     "hace": "hace 2 h",
+     "hace": "hace 4 h",
      "detalle": [
       "05/11 12:35 en-012-thunder-count en la bandeja de TikTok",
       "05/11 12:36 en-012-thunder-count paquete para TikTok/YouTube enviado",
@@ -830,7 +830,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-06T12:35",
-     "hace": "hace 2 h",
+     "hace": "hace 4 h",
      "detalle": [
       "04/11 19:41 en-019-knuckle-crack en la bandeja de TikTok",
       "04/11 19:41 en-019-knuckle-crack paquete para TikTok/YouTube enviado",
@@ -900,7 +900,7 @@
      "estado": "ok",
      "resumen": "06/11: 3 seguidores",
      "cuando": "2026-11-06T03:28",
-     "hace": "hace 11 h",
+     "hace": "hace 13 h",
      "detalle": [
       "03/11: 3 seguidores",
       "04/11: 3 seguidores",
@@ -933,7 +933,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-06T15:07",
+     "cuando": "2026-11-06T17:02",
      "hace": "recién",
      "detalle": [],
      "tareas": [],

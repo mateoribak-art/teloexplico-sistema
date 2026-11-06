@@ -57,3 +57,7 @@ Uso: 10 pasos · 13,349 tokens nuevos · 125,794 de caché · 1,474 escritos · 
 No produje ningún video hoy. La búsqueda no devolvió nada verificable de las últimas 48 h. Descarté tres candidatos: la lluvia y la enfriada de la semana (regional, sin fuente oficial del día), el pronóstico de Thanksgiving (la fuente es el Farmers' Almanac, no una oficial, y falta mucho) y el estudio de precisión de pronósticos (sin fecha confirmada). Quedó anotado en `videos/en/radar.log`.
 Uso: 10 pasos · 14,183 tokens nuevos · 127,590 de caché · 1,506 escritos · equivale a US$ 0.11 de API
 2026-11-05 17:47 Termina el radar (ok).
+2026-11-06 17:01 Arranca el radar.
+No produje ningún video. La búsqueda web no devolvió nada verificable de las últimas 48 h: el tornado watch del norte de Georgia salía en una página sin fecha, la superluna del 24/11 queda lejos y no había ciencia de noviembre. Anoté los tres candidatos descartados en `videos/en/radar.log`.
+Uso: 10 pasos · 14,555 tokens nuevos · 129,397 de caché · 1,246 escritos · equivale a US$ 0.11 de API
+2026-11-06 17:02 Termina el radar (ok).
