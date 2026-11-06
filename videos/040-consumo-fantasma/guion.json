@@ -1,0 +1,22 @@
+{
+  "titulo": "Apagás la tele pero sigue gastando luz: el consumo en espera",
+  "fondo": "oscuro",
+  "receta": "El que lo hace mal / pilar plata_hogar",
+  "pilar": "plata_hogar",
+  "destinatario": "se lo manda alguien a su hermano o a su pareja, el que apaga todo con el control remoto y deja la casa llena de lucecitas rojas encendidas toda la noche",
+  "regla_guardable": "Lucecita o reloj prendido = está gastando luz.",
+  "fuentes": [
+    "Laboratorio Nacional Lawrence Berkeley (Estados Unidos), historia del laboratorio, 'Pulling the plug on standby power' (2006): estudio de 1998, el consumo en espera era cerca del cinco por ciento de la electricidad residencial de Estados Unidos; estudio de 2000 (Ross y Meier, informe LBNL-45967), medición directa en diez casas de California: entre 5 % y 26 % del consumo anual."
+  ],
+  "frases": [
+    {"texto": "Apagaste la tele con el control, así que no gasta nada. Error.", "estilo": "Seco, a cámara, con media sonrisa."},
+    {"texto": "Se apaga la pantalla, pero el aparato sigue en espera, con esa lucecita prendida.", "estilo": "Intriga."},
+    {"texto": "Y esa espera consume luz las veinticuatro horas.", "estilo": "Contundente."},
+    {"texto": "El Laboratorio Nacional Lawrence Berkeley, de Estados Unidos, lo midió en mil novecientos noventa y ocho.", "estilo": "Informativo, con autoridad."},
+    {"texto": "En las casas de allá, la espera era cerca del cinco por ciento de toda la luz.", "estilo": "Dato, claro y firme."},
+    {"texto": "Y en una medición del dos mil, en diez casas de California, fue entre el cinco y el veintiséis por ciento.", "estilo": "Sorpresa."},
+    {"texto": "Ojo: son datos de Estados Unidos y de hace más de veinte años. Tu casa puede ser distinta.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Hoy, buscá lo que tenga lucecita o reloj prendido y enchufalo a una zapatilla con tecla.", "estilo": "Práctico, amable."},
+    {"texto": "Mandáselo al que deja todo enchufado.", "estilo": "Cómplice, con humor."}
+  ]
+}

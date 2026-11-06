@@ -1,0 +1,671 @@
+{
+ "duracion": 37.68,
+ "frases": [
+  {
+   "texto": "You leave your dog in the car for just a minute, window cracked, and figure it's fine.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "leave",
+     "inicio": 0.14,
+     "fin": 0.32
+    },
+    {
+     "texto": "your",
+     "inicio": 0.32,
+     "fin": 0.46
+    },
+    {
+     "texto": "dog",
+     "inicio": 0.46,
+     "fin": 0.74
+    },
+    {
+     "texto": "in",
+     "inicio": 0.74,
+     "fin": 0.88
+    },
+    {
+     "texto": "the",
+     "inicio": 0.88,
+     "fin": 0.96
+    },
+    {
+     "texto": "car",
+     "inicio": 0.96,
+     "fin": 1.18
+    },
+    {
+     "texto": "for",
+     "inicio": 1.18,
+     "fin": 1.36
+    },
+    {
+     "texto": "just",
+     "inicio": 1.36,
+     "fin": 1.5
+    },
+    {
+     "texto": "a",
+     "inicio": 1.5,
+     "fin": 1.66
+    },
+    {
+     "texto": "minute,",
+     "inicio": 1.66,
+     "fin": 1.88
+    },
+    {
+     "texto": "window",
+     "inicio": 2.26,
+     "fin": 2.5
+    },
+    {
+     "texto": "cracked,",
+     "inicio": 2.5,
+     "fin": 2.86
+    },
+    {
+     "texto": "and",
+     "inicio": 3.24,
+     "fin": 3.48
+    },
+    {
+     "texto": "figure",
+     "inicio": 3.48,
+     "fin": 3.86
+    },
+    {
+     "texto": "it's",
+     "inicio": 3.86,
+     "fin": 4.06
+    },
+    {
+     "texto": "fine.",
+     "inicio": 4.06,
+     "fin": 4.26
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.26
+  },
+  {
+   "texto": "But a closed car in the sun heats up fast, and a cracked window barely helps.",
+   "palabras": [
+    {
+     "texto": "But",
+     "inicio": 4.66,
+     "fin": 4.84
+    },
+    {
+     "texto": "a",
+     "inicio": 4.84,
+     "fin": 5.08
+    },
+    {
+     "texto": "closed",
+     "inicio": 5.08,
+     "fin": 5.34
+    },
+    {
+     "texto": "car",
+     "inicio": 5.34,
+     "fin": 5.7
+    },
+    {
+     "texto": "in",
+     "inicio": 5.7,
+     "fin": 5.88
+    },
+    {
+     "texto": "the",
+     "inicio": 5.88,
+     "fin": 5.96
+    },
+    {
+     "texto": "sun",
+     "inicio": 5.96,
+     "fin": 6.26
+    },
+    {
+     "texto": "heats",
+     "inicio": 6.26,
+     "fin": 6.66
+    },
+    {
+     "texto": "up",
+     "inicio": 6.66,
+     "fin": 6.88
+    },
+    {
+     "texto": "fast,",
+     "inicio": 6.88,
+     "fin": 7.36
+    },
+    {
+     "texto": "and",
+     "inicio": 7.64,
+     "fin": 7.94
+    },
+    {
+     "texto": "a",
+     "inicio": 7.94,
+     "fin": 8.04
+    },
+    {
+     "texto": "cracked",
+     "inicio": 8.04,
+     "fin": 8.2
+    },
+    {
+     "texto": "window",
+     "inicio": 8.2,
+     "fin": 8.52
+    },
+    {
+     "texto": "barely",
+     "inicio": 8.52,
+     "fin": 8.84
+    },
+    {
+     "texto": "helps.",
+     "inicio": 8.84,
+     "fin": 9.2
+    }
+   ],
+   "inicio": 4.66,
+   "fin": 9.2
+  },
+  {
+   "texto": "A two thousand five Pediatrics study tracked a dark car in the sun for one hour.",
+   "palabras": [
+    {
+     "texto": "A",
+     "inicio": 9.82,
+     "fin": 9.92
+    },
+    {
+     "texto": "two",
+     "inicio": 9.92,
+     "fin": 10.04
+    },
+    {
+     "texto": "thousand",
+     "inicio": 10.04,
+     "fin": 10.28
+    },
+    {
+     "texto": "five",
+     "inicio": 10.28,
+     "fin": 10.56
+    },
+    {
+     "texto": "Pediatrics",
+     "inicio": 10.56,
+     "fin": 11.24
+    },
+    {
+     "texto": "study",
+     "inicio": 11.24,
+     "fin": 11.54
+    },
+    {
+     "texto": "tracked",
+     "inicio": 11.54,
+     "fin": 12.0
+    },
+    {
+     "texto": "a",
+     "inicio": 12.0,
+     "fin": 12.1
+    },
+    {
+     "texto": "dark",
+     "inicio": 12.1,
+     "fin": 12.36
+    },
+    {
+     "texto": "car",
+     "inicio": 12.36,
+     "fin": 12.84
+    },
+    {
+     "texto": "in",
+     "inicio": 12.84,
+     "fin": 13.12
+    },
+    {
+     "texto": "the",
+     "inicio": 13.12,
+     "fin": 13.22
+    },
+    {
+     "texto": "sun",
+     "inicio": 13.22,
+     "fin": 13.54
+    },
+    {
+     "texto": "for",
+     "inicio": 13.54,
+     "fin": 13.72
+    },
+    {
+     "texto": "one",
+     "inicio": 13.72,
+     "fin": 14.02
+    },
+    {
+     "texto": "hour.",
+     "inicio": 14.02,
+     "fin": 14.32
+    }
+   ],
+   "inicio": 9.82,
+   "fin": 14.32
+  },
+  {
+   "texto": "On days from seventy-two to ninety-six degrees outside, the inside rose about forty degrees.",
+   "palabras": [
+    {
+     "texto": "On",
+     "inicio": 14.84,
+     "fin": 14.92
+    },
+    {
+     "texto": "days",
+     "inicio": 14.92,
+     "fin": 15.1
+    },
+    {
+     "texto": "from",
+     "inicio": 15.1,
+     "fin": 15.32
+    },
+    {
+     "texto": "seventy-two",
+     "inicio": 15.32,
+     "fin": 15.94
+    },
+    {
+     "texto": "to",
+     "inicio": 15.94,
+     "fin": 16.04
+    },
+    {
+     "texto": "ninety-six",
+     "inicio": 16.04,
+     "fin": 16.62
+    },
+    {
+     "texto": "degrees",
+     "inicio": 16.62,
+     "fin": 16.92
+    },
+    {
+     "texto": "outside,",
+     "inicio": 16.92,
+     "fin": 17.26
+    },
+    {
+     "texto": "the",
+     "inicio": 17.9,
+     "fin": 18.0
+    },
+    {
+     "texto": "inside",
+     "inicio": 18.0,
+     "fin": 18.46
+    },
+    {
+     "texto": "rose",
+     "inicio": 18.46,
+     "fin": 18.76
+    },
+    {
+     "texto": "about",
+     "inicio": 18.76,
+     "fin": 19.04
+    },
+    {
+     "texto": "forty",
+     "inicio": 19.04,
+     "fin": 19.54
+    },
+    {
+     "texto": "degrees.",
+     "inicio": 19.54,
+     "fin": 19.84
+    }
+   ],
+   "inicio": 14.84,
+   "fin": 19.84
+  },
+  {
+   "texto": "And about eighty percent of that rise happened in the first thirty minutes.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 20.48,
+     "fin": 20.64
+    },
+    {
+     "texto": "about",
+     "inicio": 20.64,
+     "fin": 20.8
+    },
+    {
+     "texto": "eighty",
+     "inicio": 20.8,
+     "fin": 21.1
+    },
+    {
+     "texto": "percent",
+     "inicio": 21.1,
+     "fin": 21.44
+    },
+    {
+     "texto": "of",
+     "inicio": 21.44,
+     "fin": 21.58
+    },
+    {
+     "texto": "that",
+     "inicio": 21.58,
+     "fin": 21.68
+    },
+    {
+     "texto": "rise",
+     "inicio": 21.68,
+     "fin": 21.98
+    },
+    {
+     "texto": "happened",
+     "inicio": 21.98,
+     "fin": 22.46
+    },
+    {
+     "texto": "in",
+     "inicio": 22.46,
+     "fin": 22.6
+    },
+    {
+     "texto": "the",
+     "inicio": 22.6,
+     "fin": 22.7
+    },
+    {
+     "texto": "first",
+     "inicio": 22.7,
+     "fin": 22.9
+    },
+    {
+     "texto": "thirty",
+     "inicio": 22.9,
+     "fin": 23.22
+    },
+    {
+     "texto": "minutes.",
+     "inicio": 23.22,
+     "fin": 23.62
+    }
+   ],
+   "inicio": 20.48,
+   "fin": 23.62
+  },
+  {
+   "texto": "Heads up: that was one dark car on sunny days. But a dog locked inside can't leave, and can get heatstroke.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 24.22,
+     "fin": 24.38
+    },
+    {
+     "texto": "up:",
+     "inicio": 24.38,
+     "fin": 24.54
+    },
+    {
+     "texto": "that",
+     "inicio": 24.96,
+     "fin": 25.06
+    },
+    {
+     "texto": "was",
+     "inicio": 25.06,
+     "fin": 25.22
+    },
+    {
+     "texto": "one",
+     "inicio": 25.22,
+     "fin": 25.54
+    },
+    {
+     "texto": "dark",
+     "inicio": 25.54,
+     "fin": 25.82
+    },
+    {
+     "texto": "car",
+     "inicio": 25.82,
+     "fin": 26.16
+    },
+    {
+     "texto": "on",
+     "inicio": 26.16,
+     "fin": 26.42
+    },
+    {
+     "texto": "sunny",
+     "inicio": 26.42,
+     "fin": 26.76
+    },
+    {
+     "texto": "days.",
+     "inicio": 26.76,
+     "fin": 27.1
+    },
+    {
+     "texto": "But",
+     "inicio": 27.1,
+     "fin": 27.7
+    },
+    {
+     "texto": "a",
+     "inicio": 27.7,
+     "fin": 28.06
+    },
+    {
+     "texto": "dog",
+     "inicio": 28.06,
+     "fin": 28.24
+    },
+    {
+     "texto": "locked",
+     "inicio": 28.24,
+     "fin": 28.52
+    },
+    {
+     "texto": "inside",
+     "inicio": 28.52,
+     "fin": 28.98
+    },
+    {
+     "texto": "can't",
+     "inicio": 28.98,
+     "fin": 29.5
+    },
+    {
+     "texto": "leave,",
+     "inicio": 29.5,
+     "fin": 29.7
+    },
+    {
+     "texto": "and",
+     "inicio": 30.12,
+     "fin": 30.24
+    },
+    {
+     "texto": "can",
+     "inicio": 30.24,
+     "fin": 30.36
+    },
+    {
+     "texto": "get",
+     "inicio": 30.36,
+     "fin": 30.52
+    },
+    {
+     "texto": "heatstroke.",
+     "inicio": 30.52,
+     "fin": 30.96
+    }
+   ],
+   "inicio": 24.22,
+   "fin": 30.96
+  },
+  {
+   "texto": "If you're leaving the car, take your dog with you.",
+   "palabras": [
+    {
+     "texto": "If",
+     "inicio": 31.48,
+     "fin": 31.56
+    },
+    {
+     "texto": "you're",
+     "inicio": 31.56,
+     "fin": 31.66
+    },
+    {
+     "texto": "leaving",
+     "inicio": 31.66,
+     "fin": 31.84
+    },
+    {
+     "texto": "the",
+     "inicio": 31.84,
+     "fin": 31.98
+    },
+    {
+     "texto": "car,",
+     "inicio": 31.98,
+     "fin": 32.26
+    },
+    {
+     "texto": "take",
+     "inicio": 32.8,
+     "fin": 32.94
+    },
+    {
+     "texto": "your",
+     "inicio": 32.94,
+     "fin": 33.06
+    },
+    {
+     "texto": "dog",
+     "inicio": 33.06,
+     "fin": 33.22
+    },
+    {
+     "texto": "with",
+     "inicio": 33.22,
+     "fin": 33.44
+    },
+    {
+     "texto": "you.",
+     "inicio": 33.44,
+     "fin": 33.6
+    }
+   ],
+   "inicio": 31.48,
+   "fin": 33.6
+  },
+  {
+   "texto": "Send this to the friend who leaves the dog in the car for a minute.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 33.98,
+     "fin": 34.26
+    },
+    {
+     "texto": "this",
+     "inicio": 34.26,
+     "fin": 34.48
+    },
+    {
+     "texto": "to",
+     "inicio": 34.48,
+     "fin": 34.64
+    },
+    {
+     "texto": "the",
+     "inicio": 34.64,
+     "fin": 34.76
+    },
+    {
+     "texto": "friend",
+     "inicio": 34.76,
+     "fin": 35.0
+    },
+    {
+     "texto": "who",
+     "inicio": 35.0,
+     "fin": 35.18
+    },
+    {
+     "texto": "leaves",
+     "inicio": 35.18,
+     "fin": 35.44
+    },
+    {
+     "texto": "the",
+     "inicio": 35.44,
+     "fin": 35.68
+    },
+    {
+     "texto": "dog",
+     "inicio": 35.68,
+     "fin": 35.98
+    },
+    {
+     "texto": "in",
+     "inicio": 35.98,
+     "fin": 36.12
+    },
+    {
+     "texto": "the",
+     "inicio": 36.12,
+     "fin": 36.24
+    },
+    {
+     "texto": "car",
+     "inicio": 36.24,
+     "fin": 36.5
+    },
+    {
+     "texto": "for",
+     "inicio": 36.5,
+     "fin": 36.8
+    },
+    {
+     "texto": "a",
+     "inicio": 36.8,
+     "fin": 37.34
+    },
+    {
+     "texto": "minute.",
+     "inicio": 37.34,
+     "fin": 37.58
+    }
+   ],
+   "inicio": 33.98,
+   "fin": 37.58
+  }
+ ]
+}

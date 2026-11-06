@@ -59,6 +59,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [usada → en-021-other-line] Why the line next to you always seems faster (math of queues)
 
 ## Temas de EE. UU. — serie: ciencia (Everyday science)
+- [usada → en-025-dog-hot-car] Dog in the car for a minute with the window cracked (Pediatrics 2005, pillar pets)
 - [ ] Does hot water freeze faster than cold? (Mpemba effect: evidence is mixed → "scientists still argue")
 - [ ] Why is the sky blue but sunsets orange?
 - [usada → en-022-ears-pop] Why do your ears pop on a plane?

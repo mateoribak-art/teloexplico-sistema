@@ -1,0 +1,66 @@
+{
+  "veredicto": "rechazado",
+  "motivo": "El segundo chequeo confirma la cifra nueva y el informe LBNL-45967: Ross y Meier (junio de 2000) midieron diez casas del norte de California, con una espera de 14 a 169 W (promedio 67 W), equivalente a 5 % a 26 % del consumo anual de cada casa (https://eta.lbl.gov/publications/whole-house-measurements-standby; https://www.osti.gov/biblio/793739; la nota de prensa de Berkeley de 2001 coincide en las 10 casas y en la primavera de 2000). La frase 6 es correcta. Se rechaza por una sola cosa, que hay que corregir. (1) La frase 4 del guion y la frase del caption dicen que el Laboratorio Lawrence Berkeley 'lo midió' en 1998 ('lo midió en mil novecientos noventa y ocho' / 'lo midió: en 1998, la espera era cerca del 5 %'). La única fuente que encontré para el 5 % (history.lbl.gov, que reproduce una nota de The Economist del 9/3/2006) lo describe como 'initial estimate', una estimación inicial y no una medición. El dato es de plata/hogar, así que tiene que decir lo que dice la fuente: 'estimó', no 'midió'. Para la medición directa, en cambio, vale la de 2000. (2) El 5 % de 1998 solo se apoya en esa fuente secundaria. No pude abrir el informe primario de Meier y Huber (1997/1998): osti.gov devolvió 429 y 503. Una búsqueda secundaria lo muestra como unos 50 W continuos, 'aproximadamente 5 %' de la electricidad residencial de EE. UU. Además, el propio informe de Ross y Meier de 2000 cita estudios anteriores que hablan de 'hasta 10 %' a nivel nacional, y Meier ha dicho que no hay una estimación consensuada. Como la frase ya dice 'cerca del', el matiz de aproximación está, pero falta presentarlo como estimación de 1998. Arreglo sugerido: guion frase 4 'lo estimó en 1998' y frase 5 'calculó que la espera era cerca del cinco por ciento de toda la luz de las casas de allá'; en el caption, 'lo estimó en 1998' y 'En una medición del 2000...' como está. Si se corrige eso y se abre el informe original de 1998 o se mantiene la fuente secundaria declarada, el chequeo debería aprobar. También conviene corregir el campo 'fuentes' del guion: 'Pulling the plug on standby power' es un artículo de The Economist republicado por el laboratorio, no una publicación del laboratorio (el caption ya lo cita bien como 'página de historia del laboratorio'). No hay ninguna afirmación falsa.",
+  "afirmaciones": [
+    {
+      "texto": "Apagaste la tele con el control, así que no gasta nada. Error.",
+      "fuente": "LBNL, Ross y Meier 2000 (https://www.osti.gov/biblio/793739): televisores, decodificadores e impresoras con las mayores pérdidas en espera",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Se apaga la pantalla, pero el aparato sigue en espera, con esa lucecita prendida.",
+      "fuente": "LBNL, mediciones de consumo en espera (https://eta.lbl.gov/publications/whole-house-measurements-standby)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y esa espera consume luz las veinticuatro horas.",
+      "fuente": "LBNL-45967: consumo en espera continuo, 67 W promedio medidos en las casas; coherente con el cálculo anual de 5 % a 26 %",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El Laboratorio Nacional Lawrence Berkeley, de Estados Unidos, lo midió en mil novecientos noventa y ocho. (Caption: lo midió: en 1998...)",
+      "fuente": "https://history.lbl.gov/Publications/today/2006/Mar/14-Tue/standby.html (The Economist, 9/3/2006): en 1998 Alan Meier publicó una 'initial estimate'. Año y laboratorio correctos; era una estimación, no una medición. Informe primario de Meier y Huber no accesible.",
+      "estado": "probable",
+      "matiz_ok": false
+    },
+    {
+      "texto": "En las casas de allá, la espera era cerca del cinco por ciento de toda la luz. (Caption: cerca del 5 % de la electricidad de las casas del país)",
+      "fuente": "history.lbl.gov: 'approximately 5% of total residential electricity consumption in America'. Fuente secundaria alojada por el laboratorio; el informe primario de 1998 no se pudo abrir. Ross y Meier 2000 citan estudios previos de 'hasta 10 %' a nivel nacional.",
+      "estado": "probable",
+      "matiz_ok": false
+    },
+    {
+      "texto": "Y en una medición del dos mil, en diez casas de California, fue entre el cinco y el veintiséis por ciento. (Caption: entre el 5 % y el 26 % del consumo anual)",
+      "fuente": "Ross y Meier, LBNL-45967, junio de 2000: diez casas del norte de California, 14 a 169 W (promedio 67 W), 5 % a 26 % del consumo anual (https://eta.lbl.gov/publications/whole-house-measurements-standby; https://www.osti.gov/biblio/793739; https://newsarchive.berkeley.edu/news/media/releases/2001/02/09_energ.html)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: son datos de Estados Unidos y de hace más de veinte años. Tu casa puede ser distinta.",
+      "fuente": "Fechas 1998 y 2000 (hace 26 a 28 años); muestra de 10 casas de California",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Hoy, buscá lo que tenga lucecita o reloj prendido y enchufalo a una zapatilla con tecla.",
+      "fuente": "Consejo práctico; coherente con LBNL (cortar la espera) y ENERGY STAR. No es una cifra",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mandáselo al que deja todo enchufado. / Caption: ¿Cuántos aparatos con lucecita tenés en tu pieza?",
+      "fuente": "No es afirmación fáctica",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Fuentes: Laboratorio Nacional Lawrence Berkeley (estimación de 1998, página de historia del laboratorio); Ross y Meier, informe LBNL-45967 (2000).",
+      "fuente": "Atribución correcta: la página de historia reproduce la nota de The Economist y LBNL-45967 existe con esos autores y año. Campo 'fuentes' del guion: atribuye 'Pulling the plug on standby power' al laboratorio, cuando es de The Economist (menor).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

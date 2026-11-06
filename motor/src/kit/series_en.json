@@ -104,6 +104,10 @@
     "en-024-heat-index": [
       "clima",
       5
+    ],
+    "en-025-dog-hot-car": [
+      "ciencia",
+      2
     ]
   }
 }

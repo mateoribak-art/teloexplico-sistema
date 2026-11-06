@@ -23,3 +23,9 @@ Permisos negados (1):
 2026-11-05 15:04 Render de en-024-heat-index (sin Claude).
 2026-11-05 15:25 en-024-heat-index: listo (render sin Claude)
 2026-11-05 15:25 Termina la producción (ok).
+2026-11-05 23:23 Arranca la producción (5 listos en la cola, meta 6).
+- **Incompleto:** `en-025-dog-hot-car` (perro en el auto, Pediatrics 2005) sigue en `produccion`. El chequeo aprobó en el segundo intento, la voz está hecha (37,7 s) y el `Video.tsx` 3D está registrado en `Root.tsx`. Falta revisar los cuadros y pasarlo a `render`.
+- **Bloqueo:** `tlx cuadros` aborta porque `motor/.bundle-cuadros` quedó de un bundle fallido y no puedo borrarlo. Con esa carpeta borrada, correr `tlx cuadros` y después `tlx cola estado en-025-dog-hot-car render` lo deja listo para `producir.py`.
+- **Aparte:** `tlx tsc` falla porque a `040-consumo-fantasma` le falta su `tiempos.json`. No es de este video, pero puede romper cualquier render que pase por `Root.tsx`. No había videos apartados por chequeo para rescatar. Corté el ciclo automático porque reintentar no cambia nada.
+Uso: 3 pasos · 2,911 tokens nuevos · 250,568 de caché · 663 escritos · equivale a US$ 0.97 de API
+2026-11-05 23:29 Termina la producción (ok).

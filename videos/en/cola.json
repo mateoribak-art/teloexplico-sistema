@@ -880,5 +880,22 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-025-dog-hot-car",
+  "tema": "Dog in the car for a minute with the window cracked (Pediatrics 2005; pillar pets)",
+  "estado": "produccion",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-05T23:24",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-05T23:24",
+    "motivo": ""
+   }
+  ]
  }
 ]

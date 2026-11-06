@@ -1,0 +1,23 @@
+{
+  "titulo": "A dog in the car for just a minute with the window cracked",
+  "serie": "ciencia",
+  "fondo": "oscuro",
+  "receta": "error cotidiano + regla con número",
+  "pilar": "mascotas",
+  "destinatario": "se lo manda alguien con perro a su amigo que deja al perro 'un minuto' en el auto mientras entra a la tienda, para decirle que lo lleve con él",
+  "regla_guardable": "Car in the sun: about 40°F hotter in an hour, most of it in the first 30 minutes. Take your dog with you.",
+  "fuentes": [
+    "Pediatrics (American Academy of Pediatrics), 2005: McLaren, Null and Quinn, Heat Stress From Enclosed Vehicles: Moderate Ambient Temperatures Cause Significant Temperature Rise in Enclosed Vehicles (dark sedan, sunny days, outside highs 72-96 °F, average rise about 40 °F in one hour, about 80% of it in the first 30 minutes; cracked windows did not significantly slow the rise)",
+    "AVMA: never leave a pet alone in a parked vehicle"
+  ],
+  "frases": [
+    {"texto": "You leave your dog in the car for just a minute, window cracked, and figure it's fine.", "estilo": "Dry, direct, to the camera."},
+    {"texto": "But a closed car in the sun heats up fast, and a cracked window barely helps.", "estilo": "Punchy."},
+    {"texto": "A two thousand five Pediatrics study tracked a dark car in the sun for one hour.", "estilo": "Informative, with authority."},
+    {"texto": "On days from seventy-two to ninety-six degrees outside, the inside rose about forty degrees.", "estilo": "Informative, building intrigue."},
+    {"texto": "And about eighty percent of that rise happened in the first thirty minutes.", "estilo": "Serious, it lands."},
+    {"texto": "Heads up: that was one dark car on sunny days. But a dog locked inside can't leave, and can get heatstroke.", "estilo": "Calm, honest caveat."},
+    {"texto": "If you're leaving the car, take your dog with you.", "estilo": "Practical, friendly."},
+    {"texto": "Send this to the friend who leaves the dog in the car for a minute.", "estilo": "Playful and funny."}
+  ]
+}

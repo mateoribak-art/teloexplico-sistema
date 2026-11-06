@@ -1,0 +1,66 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segunda revision con busqueda web. Todas las cifras y unidades (F) del guion y del caption coinciden con fuentes de EE. UU.: Pediatrics 2005 (McLaren, Null, Quinn; PubMed 15995010), comunicado de Stanford Medicine/News-Medical 2005 y noheatstroke.org (Jan Null), mas AVMA citada por fuentes secundarias. La frase rechazada en la primera revision ('the study didn't test shade') ya no esta en el caption. Todas las afirmaciones de salud/seguridad estan verificadas; no hay probables, dudosas ni falsas. Limitacion: no se pudo abrir el texto completo del paper ni la pagina de avma.org; se uso el abstract y reportes que citan textual. Nota: algun boletin EMS cita 45-50 F en 1-2 horas, pero es otra diapositiva/horizonte; el guion dice 'about 40 degrees in one hour', que coincide con el estudio.",
+  "afirmaciones": [
+    {
+      "texto": "A closed car in the sun heats up fast",
+      "fuente": "Pediatrics 2005;116(1):e109-e112 (PubMed 15995010); Stanford Medicine 2005",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "A cracked window barely helps / Cracked windows did not significantly slow it down",
+      "fuente": "Abstract de Pediatrics 2005: 'leaving the windows opened slightly does not significantly slow the heating process or decrease the maximum temperature attained'; Stanford 'insignificant effect'; Null: ~2-3 F de efecto",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "A 2005 Pediatrics study tracked a dark car in the sun for one hour",
+      "fuente": "Pediatrics, julio 2005 (McLaren, Null, Quinn); noheatstroke.org (J. Null): sedan azul oscuro mediano, mediciones de 60 min",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "On days with highs from 72 to 96 F, the inside rose about 40 F",
+      "fuente": "Stanford Medicine/News-Medical 2005: 'sunny days with highs ranging from 72 to 96 degrees F... interior can heat up by an average of 40 degrees F within an hour'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "About 80% of that rise happened in the first 30 minutes",
+      "fuente": "Stanford Medicine 2005: 'Eighty percent of the temperature rise occurred within the first half-hour'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "That was one dark car on sunny days",
+      "fuente": "noheatstroke.org (J. Null): un sedan azul oscuro; Stanford: 'sunny days'. Caveat exacto",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "A dog locked inside can't leave, and can get heatstroke",
+      "fuente": "AVMA (perros en vehiculos estacionados sufren golpe de calor); Michigan State Veterinarian citando AVMA",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The AVMA says never leave a pet alone in a parked car / If you're leaving the car, take your dog with you",
+      "fuente": "AVMA: 'never leave your pet alone in a parked vehicle, whatever the outdoor temperature or how long you expect to be gone' (citado por The Farmer's Dog, Michigan MDARD, otros)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sources: Pediatrics (AAP), 2005, McLaren, Null and Quinn; AVMA",
+      "fuente": "PubMed 15995010 confirma autores, revista y ano",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Car in the sun: about 40 F hotter in an hour, most of it in the first 30 minutes (regla guardable)",
+      "fuente": "Stanford Medicine 2005; Pediatrics 2005",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

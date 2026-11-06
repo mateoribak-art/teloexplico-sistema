@@ -23,3 +23,20 @@ Uso: 50 pasos · 86,294 tokens nuevos · 1,567,811 de caché · 18,705 escritos 
 2026-11-05 19:16 Render de 039-sol-nublado (sin Claude).
 2026-11-05 19:38 039-sol-nublado: listo (render sin Claude)
 2026-11-05 19:38 Termina la producción (ok).
+2026-11-05 23:18 Arranca la producción (15 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+**040-consumo-fantasma:** quedó apartado. El chequeo lo rechazó dos veces y el skill no permite una tercera pasada.
+- **Primer rechazo:** la cifra "hasta 10 %" del 2000 venía de una nota de segunda mano. La reemplacé por el dato del estudio original (5 % a 26 % en diez casas de California), que ya está verificado.
+- **Segundo rechazo:** el 5 % de 1998 es una estimación con fuente secundaria, y el guion decía que el laboratorio "lo midió". Se rescata cambiando "lo midió" por "lo estimó" en la frase 4 y en el caption, y reformulando la frase 5 como "calculó que…".
+- **Estado:** quedan guion, caption, escena 3D (`Video.tsx`, `Espera.tsx`) y registro en `Root.tsx`. No tiene voz y no corrí `tlx tsc`.
+
+No había videos apartados por chequeo rechazado para rescatar: el 005-granizo-calor está apartado por otro motivo. No produje un segundo video porque la cola ya tiene 14 listos.
+Uso: 4 pasos · 2,842 tokens nuevos · 255,613 de caché · 1,417 escritos · equivale a US$ 0.92 de API
+2026-11-05 23:22 Termina la producción (ok).
+2026-11-05 23:22 Arranca el carrusel (1 listos, meta 2).
+`lavar-pollo`: no quedó listo ni apartado. Escribí `placas.json` (8 placas) y `caption.txt`, desde `012-lavar-pollo`. No se pudo renderizar, así que no pasó por el control.
+
+El render falla al empaquetar el motor. `motor/src/videos/040-consumo-fantasma/Video.tsx` importa `public/040-consumo-fantasma/tiempos.json`, que no existe todavía porque al video 040 le falta la voz. No toqué `Root.tsx` ni el 040, porque son trabajo en curso de otra corrida.
+
+Lo dejé anotado en `videos/produccion.log`. Cuando el 040 tenga voz, corré `./herramientas/tlx carrusel lavar-pollo`. Hasta entonces no sale nada a las 16:00.
+Uso: 27 pasos · 27,218 tokens nuevos · 603,002 de caché · 4,841 escritos · equivale a US$ 0.22 de API
+2026-11-05 23:23 Termina el carrusel (ok; quedan 1 listos).
