@@ -178,7 +178,7 @@
  },
  {
   "clave": "heladera-parte-2",
-  "estado": "listo",
+  "estado": "publicado",
   "origen": [
    "021-heladera-parte-2"
   ],
@@ -192,6 +192,11 @@
     "estado": "listo",
     "cuando": "2026-11-04T16:33",
     "motivo": "control OK"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-06T20:36",
+    "motivo": "https://www.instagram.com/p/DfazSt3lzfw/"
    }
   ]
  },
