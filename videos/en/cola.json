@@ -884,7 +884,7 @@
  {
   "slug": "en-025-dog-hot-car",
   "tema": "Dog in the car for a minute with the window cracked (Pediatrics 2005; pillar pets)",
-  "estado": "produccion",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -895,6 +895,16 @@
     "estado": "produccion",
     "cuando": "2026-11-05T23:24",
     "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-06T09:14",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-06T09:26",
+    "motivo": "render sin Claude"
    }
   ]
  }

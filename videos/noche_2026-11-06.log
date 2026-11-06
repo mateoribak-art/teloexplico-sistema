@@ -1,0 +1,9 @@
+2026-11-06 08:54 Arranca la producción (15 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `040-consumo-fantasma` (consumo en espera de la tele, pilar plata_hogar). Retomé el video que había quedado a medias. El chequeo ya estaba aprobado, con "estimó" para el dato de 1998. Generé la voz (44,5 s, 130 palabras del guion y 130 oídas). La cámara dejaba la tele cortada a la izquierda y la recentré. `tsc` pasa y revisé los cuadros en dos vueltas. Lo dejé en estado `render`, y `producir.py` lo renderiza y corre el control al terminar.
+- **No produje un segundo video:** la cola ya tenía más de 10 listos.
+- **Apartados:** `035-lavandina-vinagre` y `005-granizo-calor` siguen apartados, sin rescatar. El 035 ya agotó sus dos intentos de chequeo. Del 005 no verifiqué el motivo del apartado.
+- **Carrusel `lavar-pollo`:** ahora que existe `tiempos.json` del 040, se puede renderizar con `./herramientas/tlx carrusel lavar-pollo`. No lo corrí.
+Uso: 33 pasos · 48,680 tokens nuevos · 788,103 de caché · 5,562 escritos · equivale a US$ 0.33 de API
+2026-11-06 09:00 Render de 040-consumo-fantasma (sin Claude).
+2026-11-06 09:13 040-consumo-fantasma: listo (render sin Claude)
+2026-11-06 09:13 Termina la producción (ok).

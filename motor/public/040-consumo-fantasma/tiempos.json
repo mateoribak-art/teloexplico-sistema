@@ -1,0 +1,718 @@
+{
+ "duracion": 44.53,
+ "frases": [
+  {
+   "texto": "Apagaste la tele con el control, así que no gasta nada. Error.",
+   "palabras": [
+    {
+     "texto": "Apagaste",
+     "inicio": 0.0,
+     "fin": 0.44
+    },
+    {
+     "texto": "la",
+     "inicio": 0.44,
+     "fin": 0.66
+    },
+    {
+     "texto": "tele",
+     "inicio": 0.66,
+     "fin": 0.84
+    },
+    {
+     "texto": "con",
+     "inicio": 0.84,
+     "fin": 1.0
+    },
+    {
+     "texto": "el",
+     "inicio": 1.0,
+     "fin": 1.12
+    },
+    {
+     "texto": "control,",
+     "inicio": 1.12,
+     "fin": 1.56
+    },
+    {
+     "texto": "así",
+     "inicio": 2.1,
+     "fin": 2.34
+    },
+    {
+     "texto": "que",
+     "inicio": 2.34,
+     "fin": 2.52
+    },
+    {
+     "texto": "no",
+     "inicio": 2.52,
+     "fin": 2.62
+    },
+    {
+     "texto": "gasta",
+     "inicio": 2.62,
+     "fin": 2.8
+    },
+    {
+     "texto": "nada.",
+     "inicio": 2.8,
+     "fin": 3.08
+    },
+    {
+     "texto": "Error.",
+     "inicio": 3.64,
+     "fin": 4.04
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.04
+  },
+  {
+   "texto": "Se apaga la pantalla, pero el aparato sigue en espera, con esa lucecita prendida.",
+   "palabras": [
+    {
+     "texto": "Se",
+     "inicio": 4.5,
+     "fin": 4.72
+    },
+    {
+     "texto": "apaga",
+     "inicio": 4.72,
+     "fin": 4.9
+    },
+    {
+     "texto": "la",
+     "inicio": 4.9,
+     "fin": 5.02
+    },
+    {
+     "texto": "pantalla,",
+     "inicio": 5.02,
+     "fin": 5.46
+    },
+    {
+     "texto": "pero",
+     "inicio": 5.94,
+     "fin": 6.2
+    },
+    {
+     "texto": "el",
+     "inicio": 6.2,
+     "fin": 6.32
+    },
+    {
+     "texto": "aparato",
+     "inicio": 6.32,
+     "fin": 6.62
+    },
+    {
+     "texto": "sigue",
+     "inicio": 6.62,
+     "fin": 6.9
+    },
+    {
+     "texto": "en",
+     "inicio": 6.9,
+     "fin": 7.02
+    },
+    {
+     "texto": "espera,",
+     "inicio": 7.02,
+     "fin": 7.24
+    },
+    {
+     "texto": "con",
+     "inicio": 7.76,
+     "fin": 7.98
+    },
+    {
+     "texto": "esa",
+     "inicio": 7.98,
+     "fin": 8.18
+    },
+    {
+     "texto": "lucecita",
+     "inicio": 8.18,
+     "fin": 8.98
+    },
+    {
+     "texto": "prendida.",
+     "inicio": 8.98,
+     "fin": 9.48
+    }
+   ],
+   "inicio": 4.5,
+   "fin": 9.48
+  },
+  {
+   "texto": "Y esa espera consume luz las veinticuatro horas.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 9.96,
+     "fin": 10.18
+    },
+    {
+     "texto": "esa",
+     "inicio": 10.18,
+     "fin": 10.32
+    },
+    {
+     "texto": "espera",
+     "inicio": 10.32,
+     "fin": 10.64
+    },
+    {
+     "texto": "consume",
+     "inicio": 10.64,
+     "fin": 11.4
+    },
+    {
+     "texto": "luz",
+     "inicio": 11.4,
+     "fin": 11.74
+    },
+    {
+     "texto": "las",
+     "inicio": 11.74,
+     "fin": 12.06
+    },
+    {
+     "texto": "veinticuatro",
+     "inicio": 12.06,
+     "fin": 12.76
+    },
+    {
+     "texto": "horas.",
+     "inicio": 12.76,
+     "fin": 13.08
+    }
+   ],
+   "inicio": 9.96,
+   "fin": 13.08
+  },
+  {
+   "texto": "El Laboratorio Nacional Lawrence Berkeley, de Estados Unidos, lo estimó en mil novecientos noventa y ocho.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 13.68,
+     "fin": 13.84
+    },
+    {
+     "texto": "Laboratorio",
+     "inicio": 13.84,
+     "fin": 14.3
+    },
+    {
+     "texto": "Nacional",
+     "inicio": 14.3,
+     "fin": 14.56
+    },
+    {
+     "texto": "Lawrence",
+     "inicio": 14.56,
+     "fin": 15.06
+    },
+    {
+     "texto": "Berkeley,",
+     "inicio": 15.06,
+     "fin": 15.58
+    },
+    {
+     "texto": "de",
+     "inicio": 15.88,
+     "fin": 15.9
+    },
+    {
+     "texto": "Estados",
+     "inicio": 15.9,
+     "fin": 16.12
+    },
+    {
+     "texto": "Unidos,",
+     "inicio": 16.12,
+     "fin": 16.48
+    },
+    {
+     "texto": "lo",
+     "inicio": 16.88,
+     "fin": 16.96
+    },
+    {
+     "texto": "estimó",
+     "inicio": 16.96,
+     "fin": 17.28
+    },
+    {
+     "texto": "en",
+     "inicio": 17.28,
+     "fin": 17.4
+    },
+    {
+     "texto": "mil",
+     "inicio": 17.4,
+     "fin": 17.54
+    },
+    {
+     "texto": "novecientos",
+     "inicio": 17.54,
+     "fin": 18.1
+    },
+    {
+     "texto": "noventa",
+     "inicio": 18.1,
+     "fin": 18.42
+    },
+    {
+     "texto": "y",
+     "inicio": 18.42,
+     "fin": 18.52
+    },
+    {
+     "texto": "ocho.",
+     "inicio": 18.52,
+     "fin": 18.78
+    }
+   ],
+   "inicio": 13.68,
+   "fin": 18.78
+  },
+  {
+   "texto": "Calculó que la espera era cerca del cinco por ciento de toda la luz de las casas de allá.",
+   "palabras": [
+    {
+     "texto": "Calculó",
+     "inicio": 19.2,
+     "fin": 19.66
+    },
+    {
+     "texto": "que",
+     "inicio": 19.66,
+     "fin": 19.74
+    },
+    {
+     "texto": "la",
+     "inicio": 19.74,
+     "fin": 19.84
+    },
+    {
+     "texto": "espera",
+     "inicio": 19.84,
+     "fin": 20.08
+    },
+    {
+     "texto": "era",
+     "inicio": 20.08,
+     "fin": 20.3
+    },
+    {
+     "texto": "cerca",
+     "inicio": 20.3,
+     "fin": 20.56
+    },
+    {
+     "texto": "del",
+     "inicio": 20.56,
+     "fin": 20.82
+    },
+    {
+     "texto": "cinco",
+     "inicio": 20.82,
+     "fin": 21.16
+    },
+    {
+     "texto": "por",
+     "inicio": 21.16,
+     "fin": 21.4
+    },
+    {
+     "texto": "ciento",
+     "inicio": 21.4,
+     "fin": 21.62
+    },
+    {
+     "texto": "de",
+     "inicio": 21.62,
+     "fin": 21.82
+    },
+    {
+     "texto": "toda",
+     "inicio": 21.82,
+     "fin": 22.1
+    },
+    {
+     "texto": "la",
+     "inicio": 22.1,
+     "fin": 22.3
+    },
+    {
+     "texto": "luz",
+     "inicio": 22.3,
+     "fin": 22.46
+    },
+    {
+     "texto": "de",
+     "inicio": 22.46,
+     "fin": 22.56
+    },
+    {
+     "texto": "las",
+     "inicio": 22.56,
+     "fin": 22.68
+    },
+    {
+     "texto": "casas",
+     "inicio": 22.68,
+     "fin": 23.04
+    },
+    {
+     "texto": "de",
+     "inicio": 23.04,
+     "fin": 23.16
+    },
+    {
+     "texto": "allá.",
+     "inicio": 23.16,
+     "fin": 23.32
+    }
+   ],
+   "inicio": 19.2,
+   "fin": 23.32
+  },
+  {
+   "texto": "Y en una medición del dos mil, en diez casas de California, fue entre el cinco y el veintiséis por ciento.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 23.76,
+     "fin": 23.96
+    },
+    {
+     "texto": "en",
+     "inicio": 23.96,
+     "fin": 24.02
+    },
+    {
+     "texto": "una",
+     "inicio": 24.02,
+     "fin": 24.16
+    },
+    {
+     "texto": "medición",
+     "inicio": 24.16,
+     "fin": 24.52
+    },
+    {
+     "texto": "del",
+     "inicio": 24.52,
+     "fin": 24.64
+    },
+    {
+     "texto": "dos",
+     "inicio": 24.64,
+     "fin": 24.8
+    },
+    {
+     "texto": "mil,",
+     "inicio": 24.8,
+     "fin": 25.06
+    },
+    {
+     "texto": "en",
+     "inicio": 25.5,
+     "fin": 25.62
+    },
+    {
+     "texto": "diez",
+     "inicio": 25.62,
+     "fin": 25.76
+    },
+    {
+     "texto": "casas",
+     "inicio": 25.76,
+     "fin": 26.06
+    },
+    {
+     "texto": "de",
+     "inicio": 26.06,
+     "fin": 26.16
+    },
+    {
+     "texto": "California,",
+     "inicio": 26.16,
+     "fin": 26.6
+    },
+    {
+     "texto": "fue",
+     "inicio": 27.08,
+     "fin": 27.28
+    },
+    {
+     "texto": "entre",
+     "inicio": 27.28,
+     "fin": 27.56
+    },
+    {
+     "texto": "el",
+     "inicio": 27.56,
+     "fin": 27.74
+    },
+    {
+     "texto": "cinco",
+     "inicio": 27.74,
+     "fin": 28.06
+    },
+    {
+     "texto": "y",
+     "inicio": 28.06,
+     "fin": 28.24
+    },
+    {
+     "texto": "el",
+     "inicio": 28.24,
+     "fin": 28.34
+    },
+    {
+     "texto": "veintiséis",
+     "inicio": 28.34,
+     "fin": 28.88
+    },
+    {
+     "texto": "por",
+     "inicio": 28.88,
+     "fin": 29.08
+    },
+    {
+     "texto": "ciento.",
+     "inicio": 29.08,
+     "fin": 29.34
+    }
+   ],
+   "inicio": 23.76,
+   "fin": 29.34
+  },
+  {
+   "texto": "Ojo: son datos de Estados Unidos y de hace más de veinte años. Tu casa puede ser distinta.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 29.98,
+     "fin": 30.16
+    },
+    {
+     "texto": "son",
+     "inicio": 30.5,
+     "fin": 30.78
+    },
+    {
+     "texto": "datos",
+     "inicio": 30.78,
+     "fin": 31.02
+    },
+    {
+     "texto": "de",
+     "inicio": 31.02,
+     "fin": 31.12
+    },
+    {
+     "texto": "Estados",
+     "inicio": 31.12,
+     "fin": 31.3
+    },
+    {
+     "texto": "Unidos",
+     "inicio": 31.3,
+     "fin": 31.74
+    },
+    {
+     "texto": "y",
+     "inicio": 31.74,
+     "fin": 32.32
+    },
+    {
+     "texto": "de",
+     "inicio": 32.32,
+     "fin": 32.42
+    },
+    {
+     "texto": "hace",
+     "inicio": 32.42,
+     "fin": 32.52
+    },
+    {
+     "texto": "más",
+     "inicio": 32.52,
+     "fin": 32.68
+    },
+    {
+     "texto": "de",
+     "inicio": 32.68,
+     "fin": 32.82
+    },
+    {
+     "texto": "veinte",
+     "inicio": 32.82,
+     "fin": 33.16
+    },
+    {
+     "texto": "años.",
+     "inicio": 33.16,
+     "fin": 33.54
+    },
+    {
+     "texto": "Tu",
+     "inicio": 33.82,
+     "fin": 33.98
+    },
+    {
+     "texto": "casa",
+     "inicio": 33.98,
+     "fin": 34.24
+    },
+    {
+     "texto": "puede",
+     "inicio": 34.24,
+     "fin": 34.76
+    },
+    {
+     "texto": "ser",
+     "inicio": 34.76,
+     "fin": 34.92
+    },
+    {
+     "texto": "distinta.",
+     "inicio": 34.92,
+     "fin": 35.36
+    }
+   ],
+   "inicio": 29.98,
+   "fin": 35.36
+  },
+  {
+   "texto": "Hoy, buscá lo que tenga lucecita o reloj prendido y enchufalo a una zapatilla con tecla.",
+   "palabras": [
+    {
+     "texto": "Hoy,",
+     "inicio": 35.86,
+     "fin": 36.08
+    },
+    {
+     "texto": "buscá",
+     "inicio": 36.52,
+     "fin": 36.92
+    },
+    {
+     "texto": "lo",
+     "inicio": 36.92,
+     "fin": 37.04
+    },
+    {
+     "texto": "que",
+     "inicio": 37.04,
+     "fin": 37.14
+    },
+    {
+     "texto": "tenga",
+     "inicio": 37.14,
+     "fin": 37.46
+    },
+    {
+     "texto": "lucecita",
+     "inicio": 37.46,
+     "fin": 38.62
+    },
+    {
+     "texto": "o",
+     "inicio": 38.62,
+     "fin": 38.96
+    },
+    {
+     "texto": "reloj",
+     "inicio": 38.96,
+     "fin": 39.42
+    },
+    {
+     "texto": "prendido",
+     "inicio": 39.42,
+     "fin": 39.94
+    },
+    {
+     "texto": "y",
+     "inicio": 39.94,
+     "fin": 40.56
+    },
+    {
+     "texto": "enchufalo",
+     "inicio": 40.56,
+     "fin": 41.0
+    },
+    {
+     "texto": "a",
+     "inicio": 41.0,
+     "fin": 41.1
+    },
+    {
+     "texto": "una",
+     "inicio": 41.1,
+     "fin": 41.2
+    },
+    {
+     "texto": "zapatilla",
+     "inicio": 41.2,
+     "fin": 41.68
+    },
+    {
+     "texto": "con",
+     "inicio": 41.68,
+     "fin": 41.84
+    },
+    {
+     "texto": "tecla.",
+     "inicio": 41.84,
+     "fin": 42.14
+    }
+   ],
+   "inicio": 35.86,
+   "fin": 42.14
+  },
+  {
+   "texto": "Mandáselo al que deja todo enchufado.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 42.72,
+     "fin": 43.26
+    },
+    {
+     "texto": "al",
+     "inicio": 43.26,
+     "fin": 43.34
+    },
+    {
+     "texto": "que",
+     "inicio": 43.34,
+     "fin": 43.46
+    },
+    {
+     "texto": "deja",
+     "inicio": 43.46,
+     "fin": 43.68
+    },
+    {
+     "texto": "todo",
+     "inicio": 43.68,
+     "fin": 43.9
+    },
+    {
+     "texto": "enchufado.",
+     "inicio": 43.9,
+     "fin": 44.42
+    }
+   ],
+   "inicio": 42.72,
+   "fin": 44.42
+  }
+ ]
+}

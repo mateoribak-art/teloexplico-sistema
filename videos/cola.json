@@ -1479,7 +1479,7 @@
  {
   "slug": "040-consumo-fantasma",
   "tema": "Consumo en espera (standby): cuánta luz gastan los aparatos apagados (LBNL)",
-  "estado": "produccion",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -1500,6 +1500,16 @@
     "estado": "produccion",
     "cuando": "2026-11-06T03:29",
     "motivo": "texto corregido a 'estimó'; chequeo aprobado, falta voz, escenas y render"
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-06T09:00",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-06T09:13",
+    "motivo": "render sin Claude"
    }
   ]
  }

@@ -43,18 +43,18 @@ const k = (frame: number, pares: [number, number][]) => {
   return interpolate(frame, xs, ys, clamp);
 };
 
-const ANCHO = 46;
+const ANCHO = 62;
 const TOMAS: Toma[] = [
-  { f: 0, pos: [0, 2.6, 13], mira: [0, 1.9, 0], fov: ANCHO },
-  { f: E.espera, pos: [-0.5, 1.5, 7.5], mira: [0.0, 1.1, 0], fov: 36 },
-  { f: E.horas, pos: [-1.5, 1.8, 11], mira: [-1.0, 1.6, 0], fov: 40 },
-  { f: E.lab, pos: [0.3, 2.4, 13], mira: [0.3, 1.9, 0], fov: ANCHO },
-  { f: E.cinco, pos: [2.0, 2.0, 8.5], mira: [2.0, 1.7, 0], fov: 36 },
-  { f: E.diez, pos: [2.0, 2.0, 8.0], mira: [2.0, 1.7, 0], fov: 34 },
-  { f: E.ojo, pos: [0, 2.6, 13], mira: [0, 1.9, 0], fov: ANCHO },
-  { f: E.hoy, pos: [-1.4, 1.2, 8.5], mira: [-1.3, 0.9, 0.5], fov: 38 },
-  { f: E.cta, pos: [0, 2.6, 13], mira: [0, 1.9, 0], fov: ANCHO },
-  { f: DURACION, pos: [0, 2.6, 13], mira: [0, 1.9, 0], fov: ANCHO },
+  { f: 0, pos: [-1.5, 2.4, 13], mira: [-1.5, 1.8, 0], fov: ANCHO },
+  { f: E.espera, pos: [-1.5, 1.8, 9], mira: [-1.5, 1.2, 0], fov: 44 },
+  { f: E.horas, pos: [-1.5, 1.8, 12], mira: [-1.5, 1.5, 0], fov: 50 },
+  { f: E.lab, pos: [0.3, 2.4, 14], mira: [0.3, 1.8, 0], fov: ANCHO },
+  { f: E.cinco, pos: [2.0, 2.0, 9.5], mira: [2.0, 1.7, 0], fov: 40 },
+  { f: E.diez, pos: [1.0, 2.0, 11], mira: [1.0, 1.6, 0], fov: 48 },
+  { f: E.ojo, pos: [0.3, 2.4, 14], mira: [0.3, 1.8, 0], fov: ANCHO },
+  { f: E.hoy, pos: [-1.4, 1.4, 10], mira: [-1.4, 1.0, 0.5], fov: 44 },
+  { f: E.cta, pos: [0.3, 2.4, 14], mira: [0.3, 1.8, 0], fov: ANCHO },
+  { f: DURACION, pos: [0.3, 2.4, 14], mira: [0.3, 1.8, 0], fov: ANCHO },
 ];
 
 const estado = (frame: number): EstadoEspera => ({
@@ -131,11 +131,10 @@ California 2000 · <span style={{ color: ACENTO }}>5 % a 26 %</span>
   );
 };
 
-const TOMA_PORTADA: Toma[] = [{ f: 0, pos: [0, 2.4, 12], mira: [0, 1.8, 0], fov: 46 }];
 export const Portada040: React.FC = () => (
   <Portada arriba="tu tele apagada" grande="sigue gastando luz" sello="EN ESPERA" colorSello={C.azul} numero={40}>
     <Estudio fondo={false}>
-      <Camara tomas={TOMA_PORTADA} deriva={0} />
+      <Camara tomas={[{ f: 0, pos: [-1.5, 2.4, 12], mira: [-1.5, 1.8, 0], fov: 52 }]} deriva={0} />
       <Espera e={{ frame: 40, encendida: 0, led: 1, flujo: 1, casa: 1, cinco: 1, diez: 0, zapatilla: 0, cortado: 0 }} />
     </Estudio>
   </Portada>

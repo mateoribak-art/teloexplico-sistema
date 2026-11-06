@@ -1,0 +1,8 @@
+2026-11-06 09:13 Arranca la producción (5 listos en la cola, meta 6).
+- **`en-025-dog-hot-car`:** está en estado `render`. El chequeo quedó aprobado en el 2.º intento (Pediatrics 2005 y AVMA). Tiene voz, caption y meta, y `tlx tsc` pasa sin errores. Los cuadros que revisé se ven bien, aunque en ellos el perro lleva una barra negra encima de la cabeza que no identifiqué. `producir.py` lo renderiza y lo pasa a `listo` o `apartado` al terminar la corrida.
+- **Rescates:** no había videos apartados por "chequeo rechazado", así que no rescaté ninguno.
+- **Incompletos:** ninguno. Agregué la línea a `videos/en/produccion.log`. No marqué la idea como usada porque `ideas.md` ya la tenía marcada.
+Uso: 21 pasos · 32,546 tokens nuevos · 370,301 de caché · 2,252 escritos · equivale a US$ 0.19 de API
+2026-11-06 09:15 Render de en-025-dog-hot-car (sin Claude).
+2026-11-06 09:26 en-025-dog-hot-car: listo (render sin Claude)
+2026-11-06 09:26 Termina la producción (ok).
