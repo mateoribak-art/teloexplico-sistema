@@ -63,6 +63,8 @@ jobs:
       CLAVE_ESTADO: ${{ secrets.CLAVE_ESTADO }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main  # punta de main al empezar, no el commit de cuando se encoló (si no, el turno encolado no ve lo que publicó el anterior y publica doble)
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'

@@ -23,7 +23,7 @@ CUENTAS = {
         'voz': 'es-419-assistant-7',
         'idioma': 'es',
         # se suma al estilo de cada frase: sin esto Gemini tiende a apurarse (7 sílabas/s; posta va a 5,6)
-        'ritmo': ' Sin apurarte: ritmo pausado y natural, respirando entre frases.',
+        'ritmo': ' Sin apurarte: ritmo pausado y natural, respirando entre frases. Voz plena, clara y proyectada, con energía; nunca susurres ni bajes la voz como en un secreto.',
         'zona': 'America/Argentina/Buenos_Aires',
         'turnos': ((12, 30), (19, 30)),
         'segui': 'Seguí a @teloexplico.ar',
@@ -44,7 +44,7 @@ CUENTAS = {
         'panel': os.path.join(RAIZ, 'PANEL_en.html'),
         'voz': 'en-us-podcaster-5',
         'idioma': 'en',
-        'ritmo': ' Natural pace, like talking to a friend, short pauses between sentences.',
+        'ritmo': ' Natural pace, like talking to a friend, short pauses between sentences. Full, clear, projected voice with energy; never whisper or drop to a hushed tone.',
         # 27/10: mismos turnos que el español, en hora de Argentina, porque cron-job.org (el único disparo puntual)
         # lanza a las 12:31 y 19:31 de acá. En Nueva York cae 11:30/18:30 hasta el 1/11 y 10:30/17:30 después.
         'zona': 'America/Argentina/Buenos_Aires',
