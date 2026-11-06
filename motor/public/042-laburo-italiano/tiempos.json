@@ -1,0 +1,750 @@
+{
+ "duracion": 50.07,
+ "frases": [
+  {
+   "texto": "Decís laburo todos los días, y esa palabra no nació acá.",
+   "palabras": [
+    {
+     "texto": "Decís",
+     "inicio": 0.0,
+     "fin": 0.52
+    },
+    {
+     "texto": "laburo",
+     "inicio": 0.52,
+     "fin": 1.26
+    },
+    {
+     "texto": "todos",
+     "inicio": 1.26,
+     "fin": 1.74
+    },
+    {
+     "texto": "los",
+     "inicio": 1.74,
+     "fin": 1.9
+    },
+    {
+     "texto": "días,",
+     "inicio": 1.9,
+     "fin": 2.1
+    },
+    {
+     "texto": "y",
+     "inicio": 2.6,
+     "fin": 2.88
+    },
+    {
+     "texto": "esa",
+     "inicio": 2.88,
+     "fin": 3.06
+    },
+    {
+     "texto": "palabra",
+     "inicio": 3.06,
+     "fin": 3.36
+    },
+    {
+     "texto": "no",
+     "inicio": 3.36,
+     "fin": 3.76
+    },
+    {
+     "texto": "nació",
+     "inicio": 3.76,
+     "fin": 4.06
+    },
+    {
+     "texto": "acá.",
+     "inicio": 4.06,
+     "fin": 4.32
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.32
+  },
+  {
+   "texto": "Es italiana.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 4.88,
+     "fin": 4.98
+    },
+    {
+     "texto": "italiana.",
+     "inicio": 4.98,
+     "fin": 5.44
+    }
+   ],
+   "inicio": 4.88,
+   "fin": 5.44
+  },
+  {
+   "texto": "La Real Academia Española dice que laburar viene del italiano dialectal lavurare, que significa trabajar.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 5.94,
+     "fin": 6.08
+    },
+    {
+     "texto": "Real",
+     "inicio": 6.08,
+     "fin": 6.26
+    },
+    {
+     "texto": "Academia",
+     "inicio": 6.26,
+     "fin": 6.68
+    },
+    {
+     "texto": "Española",
+     "inicio": 6.68,
+     "fin": 7.18
+    },
+    {
+     "texto": "dice",
+     "inicio": 7.18,
+     "fin": 7.72
+    },
+    {
+     "texto": "que",
+     "inicio": 7.72,
+     "fin": 7.94
+    },
+    {
+     "texto": "laburar",
+     "inicio": 7.94,
+     "fin": 8.6
+    },
+    {
+     "texto": "viene",
+     "inicio": 8.6,
+     "fin": 9.14
+    },
+    {
+     "texto": "del",
+     "inicio": 9.14,
+     "fin": 9.38
+    },
+    {
+     "texto": "italiano",
+     "inicio": 9.38,
+     "fin": 9.78
+    },
+    {
+     "texto": "dialectal",
+     "inicio": 9.78,
+     "fin": 10.54
+    },
+    {
+     "texto": "lavurare,",
+     "inicio": 10.54,
+     "fin": 11.3
+    },
+    {
+     "texto": "que",
+     "inicio": 11.72,
+     "fin": 11.88
+    },
+    {
+     "texto": "significa",
+     "inicio": 11.88,
+     "fin": 12.26
+    },
+    {
+     "texto": "trabajar.",
+     "inicio": 12.26,
+     "fin": 12.78
+    }
+   ],
+   "inicio": 5.94,
+   "fin": 12.78
+  },
+  {
+   "texto": "Y lavurare viene del latín laborare, el mismo origen de la palabra labor.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 13.34,
+     "fin": 13.44
+    },
+    {
+     "texto": "lavurare",
+     "inicio": 13.44,
+     "fin": 13.96
+    },
+    {
+     "texto": "viene",
+     "inicio": 13.96,
+     "fin": 14.36
+    },
+    {
+     "texto": "del",
+     "inicio": 14.36,
+     "fin": 14.62
+    },
+    {
+     "texto": "latín",
+     "inicio": 14.62,
+     "fin": 14.96
+    },
+    {
+     "texto": "laborare,",
+     "inicio": 14.96,
+     "fin": 15.76
+    },
+    {
+     "texto": "el",
+     "inicio": 16.26,
+     "fin": 16.4
+    },
+    {
+     "texto": "mismo",
+     "inicio": 16.4,
+     "fin": 16.68
+    },
+    {
+     "texto": "origen",
+     "inicio": 16.68,
+     "fin": 17.08
+    },
+    {
+     "texto": "de",
+     "inicio": 17.08,
+     "fin": 17.18
+    },
+    {
+     "texto": "la",
+     "inicio": 17.18,
+     "fin": 17.3
+    },
+    {
+     "texto": "palabra",
+     "inicio": 17.3,
+     "fin": 17.58
+    },
+    {
+     "texto": "labor.",
+     "inicio": 17.58,
+     "fin": 17.86
+    }
+   ],
+   "inicio": 13.34,
+   "fin": 17.86
+  },
+  {
+   "texto": "La versión más aceptada es que llegó con los inmigrantes que bajaron de los barcos a fines del siglo diecinueve.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 18.34,
+     "fin": 18.56
+    },
+    {
+     "texto": "versión",
+     "inicio": 18.56,
+     "fin": 18.86
+    },
+    {
+     "texto": "más",
+     "inicio": 18.86,
+     "fin": 19.08
+    },
+    {
+     "texto": "aceptada",
+     "inicio": 19.08,
+     "fin": 19.66
+    },
+    {
+     "texto": "es",
+     "inicio": 19.66,
+     "fin": 19.98
+    },
+    {
+     "texto": "que",
+     "inicio": 19.98,
+     "fin": 20.08
+    },
+    {
+     "texto": "llegó",
+     "inicio": 20.08,
+     "fin": 20.32
+    },
+    {
+     "texto": "con",
+     "inicio": 20.32,
+     "fin": 20.52
+    },
+    {
+     "texto": "los",
+     "inicio": 20.52,
+     "fin": 20.62
+    },
+    {
+     "texto": "inmigrantes",
+     "inicio": 20.62,
+     "fin": 21.36
+    },
+    {
+     "texto": "que",
+     "inicio": 21.36,
+     "fin": 21.64
+    },
+    {
+     "texto": "bajaron",
+     "inicio": 21.64,
+     "fin": 21.94
+    },
+    {
+     "texto": "de",
+     "inicio": 21.94,
+     "fin": 22.06
+    },
+    {
+     "texto": "los",
+     "inicio": 22.06,
+     "fin": 22.16
+    },
+    {
+     "texto": "barcos",
+     "inicio": 22.16,
+     "fin": 22.56
+    },
+    {
+     "texto": "a",
+     "inicio": 22.56,
+     "fin": 22.8
+    },
+    {
+     "texto": "fines",
+     "inicio": 22.8,
+     "fin": 23.0
+    },
+    {
+     "texto": "del",
+     "inicio": 23.0,
+     "fin": 23.26
+    },
+    {
+     "texto": "siglo",
+     "inicio": 23.26,
+     "fin": 23.46
+    },
+    {
+     "texto": "diecinueve.",
+     "inicio": 23.46,
+     "fin": 24.06
+    }
+   ],
+   "inicio": 18.34,
+   "fin": 24.06
+  },
+  {
+   "texto": "Hablaban en sus dialectos, y según cuentan, la palabra se pegó en los conventillos y barrios populares de Buenos Aires.",
+   "palabras": [
+    {
+     "texto": "Hablaban",
+     "inicio": 24.4,
+     "fin": 24.88
+    },
+    {
+     "texto": "en",
+     "inicio": 24.88,
+     "fin": 25.06
+    },
+    {
+     "texto": "sus",
+     "inicio": 25.06,
+     "fin": 25.18
+    },
+    {
+     "texto": "dialectos,",
+     "inicio": 25.18,
+     "fin": 25.96
+    },
+    {
+     "texto": "y",
+     "inicio": 26.04,
+     "fin": 26.24
+    },
+    {
+     "texto": "según",
+     "inicio": 26.24,
+     "fin": 26.48
+    },
+    {
+     "texto": "cuentan,",
+     "inicio": 26.48,
+     "fin": 27.08
+    },
+    {
+     "texto": "la",
+     "inicio": 27.5,
+     "fin": 27.58
+    },
+    {
+     "texto": "palabra",
+     "inicio": 27.58,
+     "fin": 27.84
+    },
+    {
+     "texto": "se",
+     "inicio": 27.84,
+     "fin": 28.04
+    },
+    {
+     "texto": "pegó",
+     "inicio": 28.04,
+     "fin": 28.44
+    },
+    {
+     "texto": "en",
+     "inicio": 28.44,
+     "fin": 28.52
+    },
+    {
+     "texto": "los",
+     "inicio": 28.52,
+     "fin": 28.6
+    },
+    {
+     "texto": "conventillos",
+     "inicio": 28.6,
+     "fin": 29.32
+    },
+    {
+     "texto": "y",
+     "inicio": 29.32,
+     "fin": 29.5
+    },
+    {
+     "texto": "barrios",
+     "inicio": 29.5,
+     "fin": 29.74
+    },
+    {
+     "texto": "populares",
+     "inicio": 29.74,
+     "fin": 30.24
+    },
+    {
+     "texto": "de",
+     "inicio": 30.24,
+     "fin": 30.32
+    },
+    {
+     "texto": "Buenos",
+     "inicio": 30.32,
+     "fin": 30.5
+    },
+    {
+     "texto": "Aires.",
+     "inicio": 30.5,
+     "fin": 30.84
+    }
+   ],
+   "inicio": 24.4,
+   "fin": 30.84
+  },
+  {
+   "texto": "En España, en cambio, dicen currar, una palabra que viene del caló.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 31.46,
+     "fin": 31.56
+    },
+    {
+     "texto": "España,",
+     "inicio": 31.56,
+     "fin": 31.86
+    },
+    {
+     "texto": "en",
+     "inicio": 32.02,
+     "fin": 32.06
+    },
+    {
+     "texto": "cambio,",
+     "inicio": 32.06,
+     "fin": 32.28
+    },
+    {
+     "texto": "dicen",
+     "inicio": 32.42,
+     "fin": 32.6
+    },
+    {
+     "texto": "currar,",
+     "inicio": 32.6,
+     "fin": 33.14
+    },
+    {
+     "texto": "una",
+     "inicio": 33.62,
+     "fin": 33.78
+    },
+    {
+     "texto": "palabra",
+     "inicio": 33.78,
+     "fin": 34.06
+    },
+    {
+     "texto": "que",
+     "inicio": 34.06,
+     "fin": 34.22
+    },
+    {
+     "texto": "viene",
+     "inicio": 34.22,
+     "fin": 34.4
+    },
+    {
+     "texto": "del",
+     "inicio": 34.4,
+     "fin": 34.58
+    },
+    {
+     "texto": "caló.",
+     "inicio": 34.58,
+     "fin": 34.9
+    }
+   ],
+   "inicio": 31.46,
+   "fin": 34.9
+  },
+  {
+   "texto": "Ojo: de dónde sale cada palabra del lunfardo a veces se discute, pero esta tiene respaldo del diccionario.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 35.36,
+     "fin": 35.64
+    },
+    {
+     "texto": "de",
+     "inicio": 36.14,
+     "fin": 36.28
+    },
+    {
+     "texto": "dónde",
+     "inicio": 36.28,
+     "fin": 36.4
+    },
+    {
+     "texto": "sale",
+     "inicio": 36.4,
+     "fin": 36.74
+    },
+    {
+     "texto": "cada",
+     "inicio": 36.74,
+     "fin": 37.02
+    },
+    {
+     "texto": "palabra",
+     "inicio": 37.02,
+     "fin": 37.48
+    },
+    {
+     "texto": "del",
+     "inicio": 37.48,
+     "fin": 37.68
+    },
+    {
+     "texto": "lunfardo",
+     "inicio": 37.68,
+     "fin": 38.24
+    },
+    {
+     "texto": "a",
+     "inicio": 38.24,
+     "fin": 38.48
+    },
+    {
+     "texto": "veces",
+     "inicio": 38.48,
+     "fin": 38.68
+    },
+    {
+     "texto": "se",
+     "inicio": 38.68,
+     "fin": 38.92
+    },
+    {
+     "texto": "discute,",
+     "inicio": 38.92,
+     "fin": 39.38
+    },
+    {
+     "texto": "pero",
+     "inicio": 39.68,
+     "fin": 39.86
+    },
+    {
+     "texto": "esta",
+     "inicio": 39.86,
+     "fin": 40.02
+    },
+    {
+     "texto": "tiene",
+     "inicio": 40.02,
+     "fin": 40.26
+    },
+    {
+     "texto": "respaldo",
+     "inicio": 40.26,
+     "fin": 40.76
+    },
+    {
+     "texto": "del",
+     "inicio": 40.76,
+     "fin": 40.92
+    },
+    {
+     "texto": "diccionario.",
+     "inicio": 40.92,
+     "fin": 41.5
+    }
+   ],
+   "inicio": 35.36,
+   "fin": 41.5
+  },
+  {
+   "texto": "Probá hoy: la próxima vez que digas laburo, acordate de que estás usando una palabra italiana.",
+   "palabras": [
+    {
+     "texto": "Probá",
+     "inicio": 41.92,
+     "fin": 42.18
+    },
+    {
+     "texto": "hoy:",
+     "inicio": 42.18,
+     "fin": 42.4
+    },
+    {
+     "texto": "la",
+     "inicio": 42.78,
+     "fin": 42.96
+    },
+    {
+     "texto": "próxima",
+     "inicio": 42.96,
+     "fin": 43.24
+    },
+    {
+     "texto": "vez",
+     "inicio": 43.24,
+     "fin": 43.54
+    },
+    {
+     "texto": "que",
+     "inicio": 43.54,
+     "fin": 43.72
+    },
+    {
+     "texto": "digas",
+     "inicio": 43.72,
+     "fin": 44.02
+    },
+    {
+     "texto": "laburo,",
+     "inicio": 44.02,
+     "fin": 44.58
+    },
+    {
+     "texto": "acordate",
+     "inicio": 45.14,
+     "fin": 45.6
+    },
+    {
+     "texto": "de",
+     "inicio": 45.6,
+     "fin": 45.74
+    },
+    {
+     "texto": "que",
+     "inicio": 45.74,
+     "fin": 45.8
+    },
+    {
+     "texto": "estás",
+     "inicio": 45.8,
+     "fin": 45.96
+    },
+    {
+     "texto": "usando",
+     "inicio": 45.96,
+     "fin": 46.3
+    },
+    {
+     "texto": "una",
+     "inicio": 46.3,
+     "fin": 46.46
+    },
+    {
+     "texto": "palabra",
+     "inicio": 46.46,
+     "fin": 46.78
+    },
+    {
+     "texto": "italiana.",
+     "inicio": 46.78,
+     "fin": 47.42
+    }
+   ],
+   "inicio": 41.92,
+   "fin": 47.42
+  },
+  {
+   "texto": "Mandáselo al que dice laburo todo el día.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 47.96,
+     "fin": 48.44
+    },
+    {
+     "texto": "al",
+     "inicio": 48.44,
+     "fin": 48.5
+    },
+    {
+     "texto": "que",
+     "inicio": 48.5,
+     "fin": 48.62
+    },
+    {
+     "texto": "dice",
+     "inicio": 48.62,
+     "fin": 48.86
+    },
+    {
+     "texto": "laburo",
+     "inicio": 48.86,
+     "fin": 49.46
+    },
+    {
+     "texto": "todo",
+     "inicio": 49.46,
+     "fin": 49.66
+    },
+    {
+     "texto": "el",
+     "inicio": 49.66,
+     "fin": 49.8
+    },
+    {
+     "texto": "día.",
+     "inicio": 49.8,
+     "fin": 49.96
+    }
+   ],
+   "inicio": 47.96,
+   "fin": 49.96
+  }
+ ]
+}

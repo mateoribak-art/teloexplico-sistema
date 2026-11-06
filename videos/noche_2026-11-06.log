@@ -25,3 +25,11 @@ El render y el control dieron LISTO con 7 placas. La tapa tenía el título cort
 El único dato de los reels que dejé afuera fue el de los edificios (Empire State y Cristo Redentor), porque su chequeo es "probable". Anoté el resultado en `videos/produccion.log`.
 Uso: 25 pasos · 49,010 tokens nuevos · 590,077 de caché · 6,562 escritos · equivale a US$ 0.32 de API
 2026-11-06 14:08 Termina el carrusel (ok; quedan 2 listos).
+2026-11-06 18:07 Arranca la producción (16 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `042-laburo-italiano` (laburo viene del italiano *lavurare*, pilar argentina, serie argentina #5). El chequeo lo rechazó la primera vez y lo aprobó la segunda. La voz salió bien (135 de 135 palabras), `tsc` pasó y la cámara quedó corregida en la revisión visual. `producir.py` lo renderiza al terminar el turno.
+- **Apartados:** 005-granizo-calor sigue así, pero no por un chequeo rechazado, así que no lo rescaté. Ningún otro quedó apartado por "chequeo rechazado".
+- **Segundo video:** no lo produje, porque la cola ya tenía más de 10 listos. El audio dura 50 s, por encima del tope de 45 s.
+Uso: 21 pasos · 15,904 tokens nuevos · 1,143,438 de caché · 3,771 escritos · equivale a US$ 1.11 de API
+2026-11-06 18:15 Render de 042-laburo-italiano (sin Claude).
+2026-11-06 19:05 042-laburo-italiano: listo (render sin Claude)
+2026-11-06 19:05 Termina la producción (ok).

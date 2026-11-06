@@ -1544,5 +1544,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "042-laburo-italiano",
+  "tema": "¿De dónde viene la palabra laburo? Del italiano lavurare (RAE)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-06T18:08",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-06T18:08",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-06T18:15",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-06T19:05",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

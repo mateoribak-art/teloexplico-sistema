@@ -1,0 +1,24 @@
+{
+  "titulo": "¿De dónde viene la palabra laburo?",
+  "fondo": "oscuro",
+  "receta": "El acusado equivocado / palabra de todos los días",
+  "pilar": "argentina",
+  "destinatario": "se lo manda un nieto a su abuelo de apellido italiano, el que dice laburo todo el día, para decirle que sin saberlo habla en italiano",
+  "regla_guardable": "Laburo = lavurare, del italiano dialectal",
+  "fuentes": [
+    "Real Academia Española, Diccionario de la lengua española: entrada 'laburar' (del italiano dialectal lavurare, y este del latín laborare)",
+    "Billiken: nota sobre el origen de laburar y la inmigración europea de fines del siglo XIX"
+  ],
+  "frases": [
+    {"texto": "Decís laburo todos los días, y esa palabra no nació acá.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Es italiana.", "estilo": "Golpe, pausa corta."},
+    {"texto": "La Real Academia Española dice que laburar viene del italiano dialectal lavurare, que significa trabajar.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Y lavurare viene del latín laborare, el mismo origen de la palabra labor.", "estilo": "Claro, directo."},
+    {"texto": "La versión más aceptada es que llegó con los inmigrantes que bajaron de los barcos a fines del siglo diecinueve.", "estilo": "Contando una historia, con ritmo."},
+    {"texto": "Hablaban en sus dialectos, y según cuentan, la palabra se pegó en los conventillos y barrios populares de Buenos Aires.", "estilo": "Cómplice, con ritmo."},
+    {"texto": "En España, en cambio, dicen currar, una palabra que viene del caló.", "estilo": "Seco, con humor."},
+    {"texto": "Ojo: de dónde sale cada palabra del lunfardo a veces se discute, pero esta tiene respaldo del diccionario.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Probá hoy: la próxima vez que digas laburo, acordate de que estás usando una palabra italiana.", "estilo": "Práctico, amable."},
+    {"texto": "Mandáselo al que dice laburo todo el día.", "estilo": "Cómplice, con humor."}
+  ]
+}

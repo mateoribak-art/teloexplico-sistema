@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segundo chequeo. Las afirmaciones centrales (laburar del italiano dialectal lavurare, y este del latin laborare; currar del calo) estan en el DLE de la RAE. Las de origen historico (llegada con la inmigracion de fines del siglo XIX, difusion en conventillos) estan presentadas como version aceptada o con 'segun cuentan', y asi corresponde a su estado probable. No hay afirmaciones de salud, seguridad ni plata, ni cifras dudosas, ni falsas. Observacion menor, no bloqueante: 'estas hablando en italiano' es hiperbole humoristica (laburo es un italianismo en el espanol rioplatense, no es hablar italiano); si se quiere ser mas estricto, podria decir 'estas usando una palabra italiana'.",
+  "afirmaciones": [
+    {
+      "texto": "Decís laburo todos los días, y esa palabra no nació acá. / Es italiana.",
+      "fuente": "RAE, DLE, entrada 'laburar' (dle.rae.es/laburar): del italiano dialectal lavurare. Billiken: https://billiken.lat/interesante/sabias-que-la-palabra-laburar-proviene-del-italiano/",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La Real Academia Española dice que laburar viene del italiano dialectal lavurare, que significa trabajar.",
+      "fuente": "RAE, DLE, 'laburar' (dle.rae.es/laburar), consultada via buscador; el fetch directo dio 403. Coincide con Wiktionary y otras fuentes de etimologia.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y lavurare viene del latín laborare, el mismo origen de la palabra labor.",
+      "fuente": "RAE, DLE, 'laburar' (y este del latin laborare); 'labor' deriva del latin labor, -oris, de la misma familia que laborare.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La versión más aceptada es que llegó con los inmigrantes que bajaron de los barcos a fines del siglo diecinueve.",
+      "fuente": "Billiken (misma nota): llego a fines del siglo XIX con la gran corriente de inmigrantes que llegaron en barcos. Sin fuente academica primaria sobre la fecha de ingreso.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Hablaban en sus dialectos, y según cuentan, la palabra se pegó en los conventillos y barrios populares de Buenos Aires.",
+      "fuente": "Billiken asocia el lunfardo en general (no laburar en particular) con conventillos y barrios populares de Buenos Aires. Sin fuente primaria para laburar especificamente.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En España, en cambio, dicen currar, una palabra que viene del caló.",
+      "fuente": "RAE, DLE, 'currar' (dle.rae.es/currar): 'Del caló currar'; coloquial de Espana, 'trabajar'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: de dónde sale cada palabra del lunfardo a veces se discute, pero esta tiene respaldo del diccionario.",
+      "fuente": "Billiken, Lifeder y Las2orillas dan etimos algo distintos (lavoro, laburare), lo que confirma que se discute el detalle; el respaldo del DLE esta verificado.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Probá hoy: la próxima vez que digas laburo, acordate de que estás hablando en italiano.",
+      "fuente": "Sin fuente aplicable: recurso retorico. Estrictamente, laburo es un italianismo del espanol, no italiano.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'La versión más aceptada es que llegó con los inmigrantes de fines del siglo diecinueve y, según cuentan, se pegó en los conventillos y barrios populares'; 'en España dicen currar, del caló'; fuentes RAE (laburar y currar) y Billiken.",
+      "fuente": "Mismas que las frases equivalentes del guion (RAE DLE 'laburar' y 'currar'; Billiken).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}
