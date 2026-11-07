@@ -131,3 +131,15 @@ Los siete eran del video 026 (mediodía/hora corrida):
 La línea de resumen quedó en `videos/comentarios.log`. No hubo pedidos de temas, así que `videos/ideas.md` no cambió.
 Uso: 16 pasos · 34,434 tokens nuevos · 158,451 de caché · 5,753 escritos · equivale a US$ 0.01 de API
 2026-11-07 00:42 Termina la respuesta de comentarios (ok).
+2026-11-07 03:53 Hay 2 comentarios nuevos: arranca la respuesta.
+2026-11-07 Respondí 2 · salteé 0 · alerté 0. (026-mediodia-hora-corrida: marenzimonica respondida con la explicación del movimiento aparente por la rotación terrestre; davidblaiotta respondido con humor sobre el horario de almuerzo)
+2026-11-07 Termina la respuesta de comentarios (ok).
+Respondí 2, salteé 0, alerté 0.
+
+Los dos comentarios eran del video 026 (mediodía/hora corrida):
+- **marenzimonica** dijo que el sol no cruza el país, que rota la Tierra. Le respondí que es el movimiento aparente por la rotación. No lo traté como error del guion, porque el guion dice "el sol cruza el país" en sentido de movimiento aparente.
+- **davidblaiotta** dijo que almorzar a la una es tarde. Le respondí con humor, en línea con el remate del video.
+
+Dejé el resumen en `videos/comentarios.log`.
+Uso: 10 pasos · 18,779 tokens nuevos · 124,246 de caché · 2,345 escritos · equivale a US$ 0.01 de API
+2026-11-07 03:53 Termina la respuesta de comentarios (ok).

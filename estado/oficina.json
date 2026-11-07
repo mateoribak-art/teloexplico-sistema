@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T03:51",
+ "actualizado": "2026-11-07T03:53",
  "oficinas": [
   {
    "clave": "es",
@@ -407,21 +407,21 @@
      },
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
-     "cuando": "2026-11-07T00:42",
-     "hace": "hace 3 h",
+     "cuando": "2026-11-07T03:53",
+     "hace": "recién",
      "detalle": [
-      "06/11 19:17 Hay 2 comentarios nuevos: arranca la respuesta.",
-      "06/11 00:00 Respondí 1 · salteé 1 · alerté 0. (026-mediodia-hora-corrida: pedri.en.castellano, desacuerdo educado respondido con el dato de la hora oficial; horaciorodriguezmontero, chicana política salteada)",
-      "06/11 19:18 Termina la respuesta de comentarios (ok).",
-      "06/11 19:18 Termina la respuesta de comentarios (ok).",
       "07/11 00:41 Hay 7 comentarios nuevos: arranca la respuesta.",
       "07/11 00:00 Respondí 5 · salteé 1 · alerté 1. (026-mediodia-hora-corrida: saraelviragallardo, pablobaok, alfonsomoschen, jorsegui20 y nachojper respondidos; horaciorodriguezmontero salteado (chicana política); franparatore alertado a Mateo: afirma una votación sobre el huso horario que contradice la Ley 26.350)",
       "07/11 00:00 Termina la respuesta de comentarios (ok).",
-      "07/11 00:42 Termina la respuesta de comentarios (ok)."
+      "07/11 00:42 Termina la respuesta de comentarios (ok).",
+      "07/11 03:53 Hay 2 comentarios nuevos: arranca la respuesta.",
+      "07/11 00:00 Respondí 2 · salteé 0 · alerté 0. (026-mediodia-hora-corrida: marenzimonica respondida con la explicación del movimiento aparente por la rotación terrestre; davidblaiotta respondido con humor sobre el horario de almuerzo)",
+      "07/11 00:00 Termina la respuesta de comentarios (ok).",
+      "07/11 03:53 Termina la respuesta de comentarios (ok)."
      ],
      "tareas": [
       "4 alerta",
-      "38 respondido",
+      "40 respondido",
       "11 salteado",
       "⚠️ boninoernesto: 'Lo q dice es q hay q enfriar la comida afuera... las heladeras no se la banca mucho si metes comida cali",
       "⚠️ juan.pablo.pavoni: 'El calor después se condensa y forma hielo por más nofrost inverter...' — Sostiene que la comida cal",
@@ -480,7 +480,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-07T03:51",
+     "cuando": "2026-11-07T03:53",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -924,7 +924,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-07T03:51",
+     "cuando": "2026-11-07T03:53",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
