@@ -1,0 +1,24 @@
+{
+  "titulo": "Does turkey make you sleepy on Thanksgiving?",
+  "serie": "ciencia",
+  "fondo": "oscuro",
+  "receta": "error cotidiano + regla con número",
+  "pilar": "fandom",
+  "destinatario": "se lo manda alguien de la familia al tío que se duerme en el sillón después de la cena y le echa la culpa al pavo",
+  "regla_guardable": "Sleepy after Thanksgiving? Blame the carbs and the big plate, not the turkey.",
+  "fuentes": [
+    "Christopher Smith, assistant professor of nursing, UNC Charlotte (Nov 2024): turkey has no meaningfully higher tryptophan than chicken, beef, nuts or cheese; main cause is large amounts of carbohydrates; overeating and alcohol also contribute",
+    "LiveScience / WHYY / NPR: carbohydrates, overeating and alcohol as the likelier explanations"
+  ],
+  "frases": [
+    {"texto": "You blame the turkey for that Thanksgiving nap.", "estilo": "Dry, direct, with a half smile."},
+    {"texto": "But the turkey isn't the culprit.", "estilo": "Punchy."},
+    {"texto": "A nursing professor at UNC Charlotte says turkey has no meaningfully more tryptophan than chicken, beef, nuts, or cheese.", "estilo": "Informative, with authority."},
+    {"texto": "Tryptophan is the amino acid everyone says makes you drowsy.", "estilo": "Curious, light."},
+    {"texto": "He says the main cause is the mountain of carbs: stuffing, mashed potatoes, rolls, and desserts.", "estilo": "Building, a little playful."},
+    {"texto": "Overeating and alcohol pile on too.", "estilo": "Quick, matter of fact."},
+    {"texto": "Heads up: experts still debate how much each of these matters.", "estilo": "Calm, honest caveat."},
+    {"texto": "So try a walk after dinner before you blame the bird.", "estilo": "Practical, friendly."},
+    {"texto": "Send this to the uncle who falls asleep on the couch and blames the turkey.", "estilo": "Playful and funny."}
+  ]
+}

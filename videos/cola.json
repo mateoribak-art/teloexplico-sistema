@@ -1661,5 +1661,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "046-perro-no-comas",
+  "tema": "Alimentos que no le podés dar a un perro: chocolate, uvas, cebolla (ASPCA)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-07T12:51",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-07T12:51",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-07T13:00",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-07T13:27",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

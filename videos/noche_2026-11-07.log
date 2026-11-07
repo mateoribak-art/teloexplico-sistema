@@ -20,3 +20,13 @@ La tapa "Apple dice no" se cortaba en la grilla, así que la acorté a "Apple: n
 El log ya tiene la línea de hoy.
 Uso: 23 pasos · 45,284 tokens nuevos · 638,101 de caché · 4,470 escritos · equivale a US$ 0.29 de API
 2026-11-07 07:55 Termina el carrusel (ok; quedan 2 listos).
+2026-11-07 12:50 Arranca la producción (18 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `046-perro-no-comas` (chocolate, uvas y cebolla que no se le dan al perro; fuente ASPCA). Quedó en estado `render` y el publicador lo renderiza después. El chequeo de datos lo aprobó en el primer intento, la voz salió bien (43 s, 111 de 111 palabras) y `tlx tsc` pasa sin errores. Hice las 2 vueltas de revisión de cuadros; la última no mostró problemas graves, aunque en dos planos el cartel de prohibido pasa por detrás del subtítulo.
+- **Rescates:** no había ninguno. `040-consumo-fantasma` ya está en `listo`, y `005-granizo-calor` está apartado por otro motivo, no por chequeo rechazado.
+- **Segundo video:** no lo produje, porque la cola ya tiene unos 20 videos listos (el criterio era menos de 10). No hubo tema de actualidad en el radar.
+Uso: 60 pasos · 95,479 tokens nuevos · 2,538,338 de caché · 23,739 escritos · equivale a US$ 1.02 de API
+Permisos negados (1):
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/046-perro-no-comas && python3 -I - <<'E'\nimport json\nS=\"ASPCA, Peo
+2026-11-07 13:00 Render de 046-perro-no-comas (sin Claude).
+2026-11-07 13:27 046-perro-no-comas: listo (render sin Claude)
+2026-11-07 13:27 Termina la producción (ok).

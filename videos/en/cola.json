@@ -976,5 +976,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-028-turkey-sleepy",
+  "tema": "Does turkey make you sleepy? tryptophan myth (Thanksgiving; pillar fandom-lite)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-07T13:28",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-07T13:29",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-07T13:35",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-07T13:48",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

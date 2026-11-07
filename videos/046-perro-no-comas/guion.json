@@ -1,0 +1,22 @@
+{
+  "titulo": "Le das un cachito de tu plato al perro: chocolate, uvas y cebolla le hacen mal de verdad",
+  "fondo": "oscuro",
+  "receta": "El que lo hace mal / pilar mascotas",
+  "pilar": "mascotas",
+  "destinatario": "se lo manda alguien que tiene perro a su familiar o amigo que le da comida del plato al perro, para decirle que no le dé chocolate, uvas ni cebolla",
+  "regla_guardable": "Al perro nunca: chocolate, uvas y pasas, cebolla, ajo y cebollín.",
+  "fuentes": [
+    "ASPCA (Sociedad Estadounidense para la Prevención de la Crueldad hacia los Animales), People Foods to Avoid Feeding Your Pets"
+  ],
+  "frases": [
+    {"texto": "Le das un cachito de tu plato al perro y creés que no pasa nada.", "estilo": "Seco, directo, a cámara."},
+    {"texto": "Pero hay comidas nuestras que a él le hacen mal de verdad.", "estilo": "Contundente."},
+    {"texto": "La ASPCA, protectora de animales de Estados Unidos, tiene una lista de lo que no hay que darle.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Uno: chocolate. Cuanto más oscuro, más riesgo.", "estilo": "Claro y firme."},
+    {"texto": "Dos: uvas y pasas, que pueden dañarle los riñones.", "estilo": "Claro y firme."},
+    {"texto": "Tres: cebolla, ajo y cebollín, que dañan los glóbulos rojos y pueden causarle anemia.", "estilo": "Claro y firme."},
+    {"texto": "Ojo: el riesgo depende de cuánto comió. Si se comió algo de esto, llamá ya al veterinario.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Hoy, antes de darle algo de tu plato, acordate: chocolate, uvas, cebolla.", "estilo": "Práctico, amable."},
+    {"texto": "Mandáselo al que le da del plato.", "estilo": "Cómplice, con humor."}
+  ]
+}

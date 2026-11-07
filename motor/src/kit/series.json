@@ -182,6 +182,10 @@
     "045-una-sola-tabla": [
       "cocina",
       8
+    ],
+    "046-perro-no-comas": [
+      "casa",
+      9
     ]
   }
 }

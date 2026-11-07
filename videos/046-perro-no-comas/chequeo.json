@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de salud (chocolate, uvas/pasas, cebolla/ajo/cebollín, consulta al veterinario) están respaldadas por la página de la ASPCA citada. No hay cifras, plata ni anécdotas. Ninguna es probable, dudosa ni falsa. El matiz de dosis y la indicación de llamar al veterinario están en el guion y el caption. Nota: la búsqueda web devolvió la página oficial casi vacía; el texto se confirmó con la lectura directa de la página (citas literales) y fuentes secundarias coherentes.",
+  "afirmaciones": [
+    {
+      "texto": "Hay comidas nuestras que a un perro le hacen mal de verdad.",
+      "fuente": "ASPCA, People Foods to Avoid Feeding Your Pets (https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La ASPCA, protectora de animales de Estados Unidos, tiene una lista de lo que no hay que darle.",
+      "fuente": "ASPCA, People Foods to Avoid Feeding Your Pets (aspca.org). La ASPCA es una organización de protección animal de EE. UU.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Chocolate: cuanto más oscuro, más riesgo.",
+      "fuente": "ASPCA, People Foods to Avoid Feeding Your Pets: 'The darker (higher cacao percentage) the chocolate... the greater the risk for toxicity'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Uvas y pasas, que pueden dañarle los riñones.",
+      "fuente": "ASPCA, People Foods to Avoid Feeding Your Pets: la exposición a uvas/pasas 'can lead to kidney damage'. 'Pueden' es el matiz correcto.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Cebolla, ajo y cebollín, que dañan los glóbulos rojos y pueden causarle anemia.",
+      "fuente": "ASPCA, People Foods to Avoid Feeding Your Pets: 'red blood cell damage, which can lead to anemia'; el riesgo en perros depende de la cantidad. La frase 'Ojo: el riesgo depende de cuánto comió' cubre el matiz.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: el riesgo depende de cuánto comió.",
+      "fuente": "ASPCA, People Foods to Avoid Feeding Your Pets: pide anotar la cantidad ingerida; el riesgo depende de la cantidad.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si se comió algo de esto, llamá ya al veterinario.",
+      "fuente": "ASPCA, People Foods to Avoid Feeding Your Pets: 'note the amount ingested and contact your veterinarian' (también ASPCA Poison Control, (888) 426-4435).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Al perro nunca chocolate, uvas ni cebolla (regla guardable / caption).",
+      "fuente": "ASPCA, People Foods to Avoid Feeding Your Pets: resumen consistente de los tres puntos anteriores.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: tres de las más comunes (chocolate, uvas y pasas, cebolla/ajo/cebollín).",
+      "fuente": "ASPCA, People Foods to Avoid Feeding Your Pets: los tres figuran en la lista. 'Más comunes' es una valoración editorial leve, no una cifra, y no afecta la seguridad.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

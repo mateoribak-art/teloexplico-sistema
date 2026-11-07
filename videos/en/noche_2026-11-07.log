@@ -10,3 +10,12 @@ Uso: 42 pasos · 72,493 tokens nuevos · 1,374,414 de caché · 11,482 escritos 
 Decidí no producir ningún video de actualidad hoy. Ningún tema verificable de las últimas 48 h cumplió los criterios. Descarté tres candidatos: El Niño "más fuerte en una vida" (solo un titular, y ya hay un video en cola), tornados raros en Delaware y Long Island (regional y sin confirmar), y la inundación costera por "king tide" (regional y sin fuente oficial). Los anoté en `videos/en/radar.log`.
 Uso: 10 pasos · 15,292 tokens nuevos · 131,050 de caché · 1,413 escritos · equivale a US$ 0.11 de API
 2026-11-07 07:56 Termina el radar (ok).
+2026-11-07 13:27 Arranca la producción (5 listos en la cola, meta 6).
+Resumen:
+- **Listo para render:** `en-028-turkey-sleepy` (¿El pavo te da sueño?, serie ciencia #3, 3D nuevo `CenaPavo.tsx`). El chequeo rechazó la primera versión por "pie" y por credenciales sin respaldo. Lo corregí y aprobó en el segundo intento. La voz dura 36 s y `tsc` pasó. El render lo hace `producir.py`. Conviene publicarlo antes del 26/11 (Thanksgiving).
+- **Apartados:** no había videos de esta cuenta apartados por chequeo rechazado, así que no hubo nada que rescatar.
+- **Incompletos:** ninguno. Dos salvedades: no corrí `tlx serie textos`, así que el renglón de serie del caption puede ser el que escribí a mano, y en la hoja de cuadros solo revisé el encuadre, no el movimiento.
+Uso: 28 pasos · 19,765 tokens nuevos · 1,092,207 de caché · 6,298 escritos · equivale a US$ 1.07 de API
+2026-11-07 13:35 Render de en-028-turkey-sleepy (sin Claude).
+2026-11-07 13:48 en-028-turkey-sleepy: listo (render sin Claude)
+2026-11-07 13:48 Termina la producción (ok).

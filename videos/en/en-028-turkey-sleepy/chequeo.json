@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segundo chequeo. La atribución coincide con inside.charlotte.edu (22/11/2024, 'The truth about tryptophan and Thanksgiving turkey tiredness'): Christopher Smith, assistant professor of nursing, UNC Charlotte. La lista de carbohidratos (stuffing, mashed potatoes, rolls, desserts; la nota agrega candied yams) coincide y 'desserts' figura en la página. El título 'assistant professor of nursing' es correcto; el guion y el caption no usan 'pie' ni credenciales PhD/MSN/RN (corregido). Ninguna afirmación falsa. Los datos de salud (tryptophan, carbohidratos, sobrealimentación, alcohol, caminata) están verificados en la fuente. El único punto no cerrado (que los expertos discuten el peso de cada factor) está presentado como tal con el aviso 'Heads up'. Salvedad menor: la frase 'main cause is carbs' en la página es narración de la nota, no cita textual de Smith, pero va en su sección; se acepta como atribución a él. 'Sleep debt' figura solo en el campo fuentes del guion, no en las frases ni el caption, así que no afecta.",
+  "afirmaciones": [
+    {
+      "texto": "A nursing professor at UNC Charlotte says turkey has no meaningfully more tryptophan than chicken, beef, nuts, or cheese.",
+      "fuente": "UNC Charlotte, inside.charlotte.edu, 22/11/2024: https://inside.charlotte.edu/2024/11/22/the-truth-about-tryptophan-and-thanksgiving-turkey-tiredness/",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Tryptophan is the amino acid everyone says makes you drowsy.",
+      "fuente": "Misma nota de UNC Charlotte; LiveScience (https://www.livescience.com/32870-does-turkey-really-make-you-sleepy.html); es la creencia popular que desmienten",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "He says the main cause is the mountain of carbs: stuffing, mashed potatoes, rolls, and desserts. / caption: the main cause of the post-dinner slump is the large amount of carbs",
+      "fuente": "UNC Charlotte 22/11/2024: 'the main cause of drowsiness is the mass consumption of carbohydrates'; lista incluye stuffing, mashed potatoes, candied yams, rolls y desserts",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Overeating and alcohol pile on too. / Overeating and alcohol contribute too.",
+      "fuente": "UNC Charlotte 22/11/2024 (Smith los lista como factores); LiveScience; Cleveland Clinic (https://health.clevelandclinic.org/does-thanksgiving-dinner-make-you-tired)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: experts still debate how much each of these matters. / so there's no single magic culprit.",
+      "fuente": "Fuentes periodísticas (LiveScience, Cleveland Clinic, WHYY) enfatizan distinto: carbohidratos, cantidad de comida, alcohol; no hay estudio que fije el peso de cada uno. La nota de UNC presenta solo la vista de Smith.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "So try a walk after dinner before you blame the bird. / Try a walk after dinner",
+      "fuente": "UNC Charlotte 22/11/2024: Smith recomienda 'light exercise, like a 30-minute walk'. Consejo ligero, sin promesa de resultado ('try').",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sources: Christopher Smith, assistant professor of nursing, UNC Charlotte (2024)",
+      "fuente": "UNC Charlotte 22/11/2024; la nota lo lista como Christopher Smith, assistant professor of nursing (sin credenciales en el texto del video)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Titulo/regla: Sleepy after Thanksgiving? Blame the carbs and the big plate, not the turkey.",
+      "fuente": "UNC Charlotte 22/11/2024 (carbohidratos y sobrealimentación); Cleveland Clinic; LiveScience",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "You blame the turkey for that Thanksgiving nap. / But the turkey isn't the culprit.",
+      "fuente": "UNC Charlotte 22/11/2024: 'Eating turkey does not make you sleepy.'",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}
