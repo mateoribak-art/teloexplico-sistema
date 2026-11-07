@@ -793,7 +793,7 @@
  {
   "slug": "en-022-power-outage-fridge",
   "tema": "Power outage: keep the fridge shut (USDA: 4 hours; pillar kitchen/weather action)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -834,6 +834,11 @@
     "estado": "listo",
     "cuando": "2026-11-05T09:07",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-07T12:35",
+    "motivo": "https://www.instagram.com/reel/Dfcg_wxGTFS/"
    }
   ]
  },

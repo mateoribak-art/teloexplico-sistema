@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T07:56",
+ "actualizado": "2026-11-07T12:36",
  "oficinas": [
   {
    "clave": "es",
@@ -7,15 +7,20 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 511,
-   "listos": 19,
-   "dias": 9.5,
-   "proximo": "028-yerba-por-ano",
-   "publicados": 29,
+   "listos": 18,
+   "dias": 9.0,
+   "proximo": "029-cataratas-por-segundo",
+   "publicados": 30,
    "pausa": false,
    "pendientes": [
     "Facu (TikTok, YouTube y Telegram): En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram."
    ],
    "ultimas": [
+    {
+     "slug": "028-yerba-por-ano",
+     "link": "https://www.instagram.com/reel/Dfcgs3hDLS0/",
+     "cuando": "2026-11-07T15:33"
+    },
     {
      "slug": "027-bondi-de-brasil",
      "link": "https://www.instagram.com/reel/Dfar7KqCo9x/",
@@ -35,21 +40,9 @@
      "slug": "008-aire-en-17",
      "link": "https://www.instagram.com/reel/DfXXF1vkclo/",
      "cuando": "2026-11-05T15:32"
-    },
-    {
-     "slug": "014-celular-arroz",
-     "link": "https://www.instagram.com/reel/DfVi8vhDV_A/",
-     "cuando": "2026-11-04T22:37"
     }
    ],
    "linea": [
-    {
-     "slug": "028-yerba-por-ano",
-     "tema": "¿Cuánta yerba toma un argentino por año? Seis kilos por persona (INYM/MAGyP)",
-     "estado": "listo",
-     "cuando": "2026-11-02T20:42",
-     "motivo": "render sin Claude"
-    },
     {
      "slug": "029-cataratas-por-segundo",
      "tema": "¿Cuánta agua cae en las Cataratas del Iguazú por segundo? Una pileta olímpica en menos de dos segundos",
@@ -72,11 +65,11 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "026-mediodia-hora-corrida",
-     "tema": "¿A qué hora es el mediodía en Argentina? La hora corrida: el sol llega más tarde que el reloj",
-     "estado": "publicado",
-     "cuando": "2026-11-06T12:32",
-     "motivo": "https://www.instagram.com/reel/DfZ72TOCed2/"
+     "slug": "032-pelo-mojado-resfrio",
+     "tema": "¿Salir con el pelo mojado te resfría? Lo causan virus; estudio de Cardiff 2005",
+     "estado": "listo",
+     "cuando": "2026-11-03T23:05",
+     "motivo": "render sin Claude"
     },
     {
      "slug": "027-bondi-de-brasil",
@@ -84,6 +77,13 @@
      "estado": "publicado",
      "cuando": "2026-11-06T19:32",
      "motivo": "https://www.instagram.com/reel/Dfar7KqCo9x/"
+    },
+    {
+     "slug": "028-yerba-por-ano",
+     "tema": "¿Cuánta yerba toma un argentino por año? Seis kilos por persona (INYM/MAGyP)",
+     "estado": "publicado",
+     "cuando": "2026-11-07T12:33",
+     "motivo": "https://www.instagram.com/reel/Dfcgs3hDLS0/"
     }
    ],
    "empleados": [
@@ -104,7 +104,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-07T07:55",
-     "hace": "hace 1 min",
+     "hace": "hace 4 h",
      "detalle": [
       "Uso: 56 pasos · 90,588 tokens nuevos · 2,172,696 de caché · 19,650 escritos · equivale a US$ 0.95 de API",
       "- **Segundo video no producido:** la cola tenía más de 10 listos. El radar no se revisó, así que el último registro en `radar.log` es del 6/11.",
@@ -144,7 +144,7 @@
      "estado": "ok",
      "resumen": "Guía de referentes al día.",
      "cuando": "2026-11-05T15:28",
-     "hace": "hace 40 h",
+     "hace": "hace 45 h",
      "detalle": [
       "05/11 15:26 Arranca Vera (referentes).",
       "05/11 15:27 Reels bajados (código 0).",
@@ -173,7 +173,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y clima de la semana): sin resultados fechados de hoy verificables. Descartados: (a) alerta amarilla en 8-10 prov",
      "cuando": "2026-11-06T17:01",
-     "hace": "hace 14 h",
+     "hace": "hace 19 h",
      "detalle": [
       "04/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y clima/tendencias): solo resultados sin fecha verificable de hoy (julio 2026, noviembre 2025, ene-feb 2026). Descartados: (a) alertas de tormentas/granizo en 10-12 provincias (sin fecha ni año verificable; granizo ya tiene 005 y 024), (b) ola de calor de 40°C (sin fecha verificable; calor ya cubierto en 019/008), (c) ciclón/lluvias 48 h (sin fecha verificable; lluvia ya cubierta en 004/016). Sin tema verificable; sigue la cola normal.",
       "05/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias de clima): resultados sin fecha verificable de hoy. Descartados: (a) alerta amarilla por frente/lluvia en AMBA y 10 provincias \"hasta el 6 de nov\" (Cronista, sin fecha ni año verificable; lluvia y tormentas ya cubiertas en 004/016/018), (b) Super Niño 2026 (tema de fondo desde abril-agosto, no de hoy; ya está 016), (c) ola de calor 40°C (sin fecha). Sin tema verificable; sigue la cola normal.",
@@ -208,8 +208,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-07T07:54",
-     "hace": "hace 2 min",
+     "cuando": "2026-11-07T12:33",
+     "hace": "hace 3 min",
      "detalle": [
       "038-codigo-whatsapp: aprobado — Segunda pasada. Las dos correcciones quedaron respaldadas por fuente primaria de WhatsApp: la verificación en dos pasos pasó de PIN de 6 díg",
       "039-sol-nublado: aprobado — Segundo chequeo con lectura directa de las fuentes (OMS, hoja 'Ultraviolet radiation'; CDC, 'Skin cancer prevention'). Todas las afirmacione",
@@ -241,8 +241,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-07T07:54",
-     "hace": "hace 2 min",
+     "cuando": "2026-11-07T12:33",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -264,14 +264,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-07 07:54.",
-     "cuando": "2026-11-07T07:54",
-     "hace": "hace 2 min",
+     "resumen": "Último video terminado: 2026-11-07 12:33.",
+     "cuando": "2026-11-07T12:33",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "0b121b406461"
+     "firma": "d996f1774eb7"
     },
     {
      "id": "control",
@@ -288,14 +288,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "19 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-07T07:54",
-     "hace": "hace 2 min",
+     "resumen": "18 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-07T12:33",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "caf299d5329d"
+     "firma": "d243a5a5cb99"
     },
     {
      "id": "publicador",
@@ -312,27 +312,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: 027-bondi-de-brasil.",
-     "cuando": "2026-11-06T19:33",
-     "hace": "hace 12 h",
+     "resumen": "Último: 028-yerba-por-ano.",
+     "cuando": "2026-11-07T12:34",
+     "hace": "hace 2 min",
      "detalle": [
-      "06/11 12:32 026-mediodia-hora-corrida publicado: https://www.instagram.com/reel/DfZ72TOCed2/",
-      "06/11 12:33 026-mediodia-hora-corrida publicado en Facebook: https://www.facebook.com/reel/1001182309681917/",
-      "06/11 12:33 026-mediodia-hora-corrida falló TikTok: ^^^^^^^^",
-      "06/11 12:33 026-mediodia-hora-corrida https://youtube.com/shorts/eLLysz1eNVc | privacidad: public",
-      "06/11 12:33 026-mediodia-hora-corrida paquete para TikTok/YouTube enviado",
       "06/11 19:32 027-bondi-de-brasil publicado: https://www.instagram.com/reel/Dfar7KqCo9x/",
       "06/11 19:33 027-bondi-de-brasil publicado en Facebook: https://www.facebook.com/reel/1234510615570606/",
       "06/11 19:33 027-bondi-de-brasil falló TikTok: ^^^^^^^^",
       "06/11 19:33 027-bondi-de-brasil https://youtube.com/shorts/sWsq23mw6No | privacidad: public",
-      "06/11 19:33 027-bondi-de-brasil paquete para TikTok/YouTube enviado"
+      "06/11 19:33 027-bondi-de-brasil paquete para TikTok/YouTube enviado",
+      "07/11 12:33 028-yerba-por-ano publicado: https://www.instagram.com/reel/Dfcgs3hDLS0/",
+      "07/11 12:33 028-yerba-por-ano publicado en Facebook: https://www.facebook.com/reel/1755429928853718/",
+      "07/11 12:33 028-yerba-por-ano falló TikTok: ^^^^^^^^",
+      "07/11 12:34 028-yerba-por-ano https://youtube.com/shorts/EKu1OftpJuQ | privacidad: public",
+      "07/11 12:34 028-yerba-por-ano paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: 028-yerba-por-ano — ¿Cuánta yerba toma un argentino por año? Seis kilos por persona (INYM/MAGyP)"
+      "Próximo: 029-cataratas-por-segundo — ¿Cuánta agua cae en las Cataratas del Iguazú por segundo? Una pileta olímpica en menos de dos segundos"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "62b6b09ee9df"
+     "firma": "b4dec2426e31"
     },
     {
      "id": "redes",
@@ -350,22 +350,22 @@
      },
      "estado": "aviso",
      "resumen": "Necesita algo tuyo: En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram.",
-     "cuando": "2026-11-06T19:33",
-     "hace": "hace 12 h",
+     "cuando": "2026-11-07T12:34",
+     "hace": "hace 2 min",
      "detalle": [
-      "05/11 19:33 025-noquis-del-29 https://youtube.com/shorts/jrt7PFa_Ty4 | privacidad: public",
-      "05/11 19:34 025-noquis-del-29 paquete para TikTok/YouTube enviado",
-      "06/11 12:33 026-mediodia-hora-corrida falló TikTok: ^^^^^^^^",
       "06/11 12:33 026-mediodia-hora-corrida https://youtube.com/shorts/eLLysz1eNVc | privacidad: public",
       "06/11 12:33 026-mediodia-hora-corrida paquete para TikTok/YouTube enviado",
       "06/11 19:33 027-bondi-de-brasil falló TikTok: ^^^^^^^^",
       "06/11 19:33 027-bondi-de-brasil https://youtube.com/shorts/sWsq23mw6No | privacidad: public",
-      "06/11 19:33 027-bondi-de-brasil paquete para TikTok/YouTube enviado"
+      "06/11 19:33 027-bondi-de-brasil paquete para TikTok/YouTube enviado",
+      "07/11 12:33 028-yerba-por-ano falló TikTok: ^^^^^^^^",
+      "07/11 12:34 028-yerba-por-ano https://youtube.com/shorts/EKu1OftpJuQ | privacidad: public",
+      "07/11 12:34 028-yerba-por-ano paquete para TikTok/YouTube enviado"
      ],
      "tareas": [],
      "arreglo": "Si TikTok no recibió el borrador, el paquete igual llegó por Telegram: subilo a mano.",
      "solo": true,
-     "firma": "5812d894083b"
+     "firma": "722150a97000"
     },
     {
      "id": "carruseles",
@@ -381,7 +381,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-07T07:55",
-     "hace": "hace 1 min",
+     "hace": "hace 4 h",
      "detalle": [
       "2026-11-06 14:08 serie-clima-1: listo control OK",
       "2026-11-06 14:08 serie-clima-1: listo control OK",
@@ -415,7 +415,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-07T03:53",
-     "hace": "hace 4 h",
+     "hace": "hace 8 h",
      "detalle": [
       "07/11 00:41 Hay 7 comentarios nuevos: arranca la respuesta.",
       "07/11 00:00 Respondí 5 · salteé 1 · alerté 1. (026-mediodia-hora-corrida: saraelviragallardo, pablobaok, alfonsomoschen, jorsegui20 y nachojper respondidos; horaciorodriguezmontero salteado (chicana política); franparatore alertado a Mateo: afirma una votación sobre el huso horario que contradice la Ley 26.350)",
@@ -454,7 +454,7 @@
      "estado": "ok",
      "resumen": "07/11: 511 seguidores",
      "cuando": "2026-11-07T02:50",
-     "hace": "hace 5 h",
+     "hace": "hace 9 h",
      "detalle": [
       "04/11: 386 seguidores",
       "05/11: 400 seguidores",
@@ -487,7 +487,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-07T07:56",
+     "cuando": "2026-11-07T12:36",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -527,13 +527,18 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 5,
-   "listos": 6,
-   "dias": 3.0,
-   "proximo": "en-022-power-outage-fridge",
-   "publicados": 23,
+   "listos": 5,
+   "dias": 2.5,
+   "proximo": "en-023-package-text",
+   "publicados": 24,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "en-022-power-outage-fridge",
+     "link": "https://www.instagram.com/reel/Dfcg_wxGTFS/",
+     "cuando": "2026-11-07T15:35"
+    },
     {
      "slug": "en-022-ears-pop",
      "link": "https://www.instagram.com/reel/DfasFrnj6m6/",
@@ -553,21 +558,9 @@
      "slug": "en-012-thunder-count",
      "link": "https://www.instagram.com/reel/DfXXVeEketL/",
      "cuando": "2026-11-05T15:34"
-    },
-    {
-     "slug": "en-019-knuckle-crack",
-     "link": "https://www.instagram.com/reel/DfVjPs2jf3l/",
-     "cuando": "2026-11-04T22:40"
     }
    ],
    "linea": [
-    {
-     "slug": "en-022-power-outage-fridge",
-     "tema": "Power outage: keep the fridge shut (USDA: 4 hours; pillar kitchen/weather action)",
-     "estado": "listo",
-     "cuando": "2026-11-05T09:07",
-     "motivo": "render sin Claude"
-    },
     {
      "slug": "en-023-package-text",
      "tema": "Package text scam: don't tap, forward to 7726 (FTC; pillar phone scams)",
@@ -590,11 +583,11 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "en-021-other-line",
-     "tema": "Why does the other checkout line always seem faster? (adapted from 030)",
-     "estado": "publicado",
-     "cuando": "2026-11-06T12:34",
-     "motivo": "https://www.instagram.com/reel/DfZ8EffDZHV/"
+     "slug": "en-026-el-nino-winter",
+     "tema": "What El Niño means for your winter (NOAA CPC; adapted from 016)",
+     "estado": "listo",
+     "cuando": "2026-11-06T14:42",
+     "motivo": "render sin Claude"
     },
     {
      "slug": "en-022-ears-pop",
@@ -602,6 +595,13 @@
      "estado": "publicado",
      "cuando": "2026-11-06T19:33",
      "motivo": "https://www.instagram.com/reel/DfasFrnj6m6/"
+    },
+    {
+     "slug": "en-022-power-outage-fridge",
+     "tema": "Power outage: keep the fridge shut (USDA: 4 hours; pillar kitchen/weather action)",
+     "estado": "publicado",
+     "cuando": "2026-11-07T12:35",
+     "motivo": "https://www.instagram.com/reel/Dfcg_wxGTFS/"
     }
    ],
    "empleados": [
@@ -622,7 +622,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-07T07:56",
-     "hace": "recién",
+     "hace": "hace 4 h",
      "detalle": [
       "Uso: 42 pasos · 72,493 tokens nuevos · 1,374,414 de caché · 11,482 escritos · equivale a US$ 0.69 de API",
       "2026-11-07 00:02 Arranca la producción (5 listos en la cola, meta 6).",
@@ -660,7 +660,7 @@
      "estado": "ok",
      "resumen": "Undécima pasada del radar: la búsqueda solo devolvió pronósticos locales y titulares sin detalle. Descartados: (1) El Niño \"más fuerte en una vida\" (AccuWeather",
      "cuando": "2026-11-07T07:56",
-     "hace": "recién",
+     "hace": "hace 4 h",
      "detalle": [
       "05/11 00:00 Novena pasada del radar: la búsqueda solo devolvió pronósticos locales de TV (lluvia a mitad de semana, enfriada a fin de semana) y páginas sin fecha; nada verificable de las últimas 48 h. Descartados: (1) lluvia/enfriada de la semana en Sureste y Nordeste: regional, sin fuente oficial del día y sin gancho; (2) pronóstico de Thanksgiving (Farmers' Almanac): no es fuente oficial y falta lejos; (3) estudio \"pronóstico a 5 días = 1 día en los 80\": sin fecha confirmada. Sin tema nuevo.",
       "06/11 00:00 Décima pasada del radar: la búsqueda web no devolvió alertas del NWS ni noticias de las últimas 48 h (páginas sin fecha, de abril o de 2025). Descartados: (1) tornado watch en el norte de Georgia: página sin fecha, regional y sin fuente oficial confirmada; (2) superluna del 24/11: todavía lejos; (3) ciencia de la semana: nada de noviembre 2026 en los resúmenes. Sin tema nuevo.",
@@ -689,8 +689,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-07T00:40",
-     "hace": "hace 7 h",
+     "cuando": "2026-11-07T12:35",
+     "hace": "hace 1 min",
      "detalle": [
       "en-021-other-line: aprobado — Segundo chequeo con busqueda web. El unico bloqueo del primero (caption linea 1) esta resuelto: 'Your brain probably makes it feel that way'",
       "en-022-ears-pop: aprobado — Todas las afirmaciones de salud/seguridad quedan verificadas con fuentes de EE. UU. (Cleveland Clinic, MedlinePlus/NIH, FAA, PMC/NIH). No ha",
@@ -722,8 +722,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-11-07T00:40",
-     "hace": "hace 7 h",
+     "cuando": "2026-11-07T12:35",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -745,14 +745,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-07 00:40.",
-     "cuando": "2026-11-07T00:40",
-     "hace": "hace 7 h",
+     "resumen": "Último video terminado: 2026-11-07 12:35.",
+     "cuando": "2026-11-07T12:35",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "cecb65014923"
+     "firma": "067b6c422faf"
     },
     {
      "id": "control",
@@ -769,14 +769,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-07T00:40",
-     "hace": "hace 7 h",
+     "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-07T12:35",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "625440fe5990"
+     "firma": "bace1412aac6"
     },
     {
      "id": "publicador",
@@ -793,27 +793,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: en-022-ears-pop.",
-     "cuando": "2026-11-06T19:34",
-     "hace": "hace 12 h",
+     "resumen": "Último: en-022-power-outage-fridge.",
+     "cuando": "2026-11-07T12:36",
+     "hace": "recién",
      "detalle": [
-      "05/11 19:35 en-020-ac-sixty en la bandeja de TikTok",
-      "05/11 19:35 en-020-ac-sixty paquete para TikTok/YouTube enviado",
-      "06/11 12:34 en-021-other-line publicado: https://www.instagram.com/reel/DfZ8EffDZHV/",
-      "06/11 12:34 en-021-other-line publicado en Facebook: https://www.facebook.com/reel/1458941849659836/",
       "06/11 12:35 en-021-other-line en la bandeja de TikTok",
       "06/11 12:35 en-021-other-line paquete para TikTok/YouTube enviado",
       "06/11 19:33 en-022-ears-pop publicado: https://www.instagram.com/reel/DfasFrnj6m6/",
       "06/11 19:34 en-022-ears-pop publicado en Facebook: https://www.facebook.com/reel/1488056253188497/",
       "06/11 19:34 en-022-ears-pop en la bandeja de TikTok",
-      "06/11 19:34 en-022-ears-pop paquete para TikTok/YouTube enviado"
+      "06/11 19:34 en-022-ears-pop paquete para TikTok/YouTube enviado",
+      "07/11 12:35 en-022-power-outage-fridge publicado: https://www.instagram.com/reel/Dfcg_wxGTFS/",
+      "07/11 12:36 en-022-power-outage-fridge publicado en Facebook: https://www.facebook.com/reel/1675316500966658/",
+      "07/11 12:36 en-022-power-outage-fridge en la bandeja de TikTok",
+      "07/11 12:36 en-022-power-outage-fridge paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: en-022-power-outage-fridge — Power outage: keep the fridge shut (USDA: 4 hours; pillar kitchen/weather action)"
+      "Próximo: en-023-package-text — Package text scam: don't tap, forward to 7726 (FTC; pillar phone scams)"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "ba0001bdc1ae"
+     "firma": "58cc9ac18ac2"
     },
     {
      "id": "redes",
@@ -831,17 +831,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-06T19:34",
-     "hace": "hace 12 h",
+     "cuando": "2026-11-07T12:36",
+     "hace": "recién",
      "detalle": [
-      "05/11 12:35 en-012-thunder-count en la bandeja de TikTok",
-      "05/11 12:36 en-012-thunder-count paquete para TikTok/YouTube enviado",
       "05/11 19:35 en-020-ac-sixty en la bandeja de TikTok",
       "05/11 19:35 en-020-ac-sixty paquete para TikTok/YouTube enviado",
       "06/11 12:35 en-021-other-line en la bandeja de TikTok",
       "06/11 12:35 en-021-other-line paquete para TikTok/YouTube enviado",
       "06/11 19:34 en-022-ears-pop en la bandeja de TikTok",
-      "06/11 19:34 en-022-ears-pop paquete para TikTok/YouTube enviado"
+      "06/11 19:34 en-022-ears-pop paquete para TikTok/YouTube enviado",
+      "07/11 12:36 en-022-power-outage-fridge en la bandeja de TikTok",
+      "07/11 12:36 en-022-power-outage-fridge paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -902,7 +902,7 @@
      "estado": "ok",
      "resumen": "07/11: 5 seguidores",
      "cuando": "2026-11-07T02:50",
-     "hace": "hace 5 h",
+     "hace": "hace 9 h",
      "detalle": [
       "04/11: 3 seguidores",
       "05/11: 3 seguidores",
@@ -935,7 +935,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-07T07:56",
+     "cuando": "2026-11-07T12:36",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
