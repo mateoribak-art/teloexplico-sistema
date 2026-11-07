@@ -118,3 +118,16 @@ Respondí 1, salteé 1, alerté 0.
 La línea de resumen quedó en `videos/comentarios.log`.
 Uso: 11 pasos · 18,249 tokens nuevos · 158,203 de caché · 2,736 escritos · equivale a US$ 0.01 de API
 2026-11-06 19:18 Termina la respuesta de comentarios (ok).
+2026-11-07 00:41 Hay 7 comentarios nuevos: arranca la respuesta.
+2026-11-07 Respondí 5 · salteé 1 · alerté 1. (026-mediodia-hora-corrida: saraelviragallardo, pablobaok, alfonsomoschen, jorsegui20 y nachojper respondidos; horaciorodriguezmontero salteado (chicana política); franparatore alertado a Mateo: afirma una votación sobre el huso horario que contradice la Ley 26.350)
+2026-11-07 Termina la respuesta de comentarios (ok).
+Respondí 5 · salteé 1 · alerté 1.
+
+Los siete eran del video 026 (mediodía/hora corrida):
+- **Respondidos (5):** saraelviragallardo, pablobaok, alfonsomoschen (desacuerdo, con la Ley 26.350 como dato), jorsegui20 y nachojper (la pregunta sobre Nueva York o Río: contesté solo que es la hora oficial de Argentina, porque el guion no dice nada de esas ciudades).
+- **Salteado (1):** horaciorodriguezmontero, por la chicana política sobre Alfonsín.
+- **Alertado a Mateo (1):** franparatore dice que "votaron a favor del huso horario -4" el año pasado. Contradice el guion, así que no respondí en público. Hay que ver si existe esa votación y qué fuente la respalda.
+
+La línea de resumen quedó en `videos/comentarios.log`. No hubo pedidos de temas, así que `videos/ideas.md` no cambió.
+Uso: 16 pasos · 34,434 tokens nuevos · 158,451 de caché · 5,753 escritos · equivale a US$ 0.01 de API
+2026-11-07 00:42 Termina la respuesta de comentarios (ok).

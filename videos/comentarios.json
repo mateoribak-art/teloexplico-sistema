@@ -274,5 +274,47 @@
   "texto": "",
   "respuesta": "Entiendo el punto, pero el reloj no está mal: es la hora que eligió el país (UTC-3, Ley 26.350). Lo que sí pasa es que el sol va a su ritmo 🌞",
   "cuando": "2026-11-06T19:18"
+ },
+ "18075420395767542": {
+  "estado": "respondido",
+  "texto": "",
+  "respuesta": "¡Jaja, ustedes sí que van con el reloj! 😄 Gracias por sumarte.",
+  "cuando": "2026-11-07T00:42"
+ },
+ "18133560268775324": {
+  "estado": "respondido",
+  "texto": "",
+  "respuesta": "¡Exacto! Y en Mendoza el sol llega recién cerca de la 13:30. El reloj es el mismo, el sol va por su lado 🌞",
+  "cuando": "2026-11-07T00:42"
+ },
+ "17915675955519835": {
+  "estado": "respondido",
+  "texto": "",
+  "respuesta": "Entiendo la idea, pero la hora oficial la fija la ley: UTC−3 (Ley 26.350). Lo que cambia es el sol, que va por longitud.",
+  "cuando": "2026-11-07T00:42"
+ },
+ "18117144980584443": {
+  "estado": "respondido",
+  "texto": "",
+  "respuesta": "¡Jaja, cada casa con su horario! Lo que cambia es el reloj; el sol sigue su ritmo 😄",
+  "cuando": "2026-11-07T00:42"
+ },
+ "18346525864284228": {
+  "estado": "respondido",
+  "texto": "",
+  "respuesta": "Es la hora oficial de Argentina: UTC−3, por la Ley 26.350. No la de otro lugar 😉",
+  "cuando": "2026-11-07T00:42"
+ },
+ "18119131433582686": {
+  "estado": "salteado",
+  "texto": "Chicana política sobre un presidente; no respondemos en ese tema",
+  "respuesta": "",
+  "cuando": "2026-11-07T00:42"
+ },
+ "18126117880709598": {
+  "estado": "alerta",
+  "texto": "franparatore: 'el año pasado votaron a favor del huso horario -4' — afirma una votación que contradice el guion (hora oficial UTC−3 por Ley 26.350). Mirar si hubo una consulta real y qué fuente la respalda antes de responder.",
+  "respuesta": "",
+  "cuando": "2026-11-07T00:42"
  }
 }
