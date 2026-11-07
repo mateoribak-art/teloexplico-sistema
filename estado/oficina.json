@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T03:30",
+ "actualizado": "2026-11-07T03:51",
  "oficinas": [
   {
    "clave": "es",
@@ -308,7 +308,7 @@
      "estado": "ok",
      "resumen": "Último: 027-bondi-de-brasil.",
      "cuando": "2026-11-06T19:33",
-     "hace": "hace 7 h",
+     "hace": "hace 8 h",
      "detalle": [
       "06/11 12:32 026-mediodia-hora-corrida publicado: https://www.instagram.com/reel/DfZ72TOCed2/",
       "06/11 12:33 026-mediodia-hora-corrida publicado en Facebook: https://www.facebook.com/reel/1001182309681917/",
@@ -345,7 +345,7 @@
      "estado": "aviso",
      "resumen": "Necesita algo tuyo: En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram.",
      "cuando": "2026-11-06T19:33",
-     "hace": "hace 7 h",
+     "hace": "hace 8 h",
      "detalle": [
       "05/11 19:33 025-noquis-del-29 https://youtube.com/shorts/jrt7PFa_Ty4 | privacidad: public",
       "05/11 19:34 025-noquis-del-29 paquete para TikTok/YouTube enviado",
@@ -375,7 +375,7 @@
      "estado": "ok",
      "resumen": "1 listo(s) para las 16:00.",
      "cuando": "2026-11-06T20:36",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [
       "2026-11-04 16:33 heladera-parte-2: listo control OK",
       "2026-11-04 21:28 ventilador-pieza-vacia: publicado https://www.instagram.com/p/DfVvpPQDgh7/",
@@ -408,7 +408,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-07T00:42",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "06/11 19:17 Hay 2 comentarios nuevos: arranca la respuesta.",
       "06/11 00:00 Respondí 1 · salteé 1 · alerté 0. (026-mediodia-hora-corrida: pedri.en.castellano, desacuerdo educado respondido con el dato de la hora oficial; horaciorodriguezmontero, chicana política salteada)",
@@ -447,7 +447,7 @@
      "estado": "ok",
      "resumen": "07/11: 511 seguidores",
      "cuando": "2026-11-07T02:50",
-     "hace": "hace 40 min",
+     "hace": "hace 1 h",
      "detalle": [
       "04/11: 386 seguidores",
       "05/11: 400 seguidores",
@@ -480,7 +480,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-07T03:30",
+     "cuando": "2026-11-07T03:51",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -615,7 +615,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-07T00:40",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "Uso: 42 pasos · 72,493 tokens nuevos · 1,374,414 de caché · 11,482 escritos · equivale a US$ 0.69 de API",
       "2026-11-07 00:02 Arranca la producción (5 listos en la cola, meta 6).",
@@ -679,7 +679,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-07T00:40",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "en-021-other-line: aprobado — Segundo chequeo con busqueda web. El unico bloqueo del primero (caption linea 1) esta resuelto: 'Your brain probably makes it feel that way'",
       "en-022-ears-pop: aprobado — Todas las afirmaciones de salud/seguridad quedan verificadas con fuentes de EE. UU. (Cleveland Clinic, MedlinePlus/NIH, FAA, PMC/NIH). No ha",
@@ -712,7 +712,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-07T00:40",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -736,7 +736,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-07 00:40.",
      "cuando": "2026-11-07T00:40",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -760,7 +760,7 @@
      "estado": "ok",
      "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-07T00:40",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -784,7 +784,7 @@
      "estado": "ok",
      "resumen": "Último: en-022-ears-pop.",
      "cuando": "2026-11-06T19:34",
-     "hace": "hace 7 h",
+     "hace": "hace 8 h",
      "detalle": [
       "05/11 19:35 en-020-ac-sixty en la bandeja de TikTok",
       "05/11 19:35 en-020-ac-sixty paquete para TikTok/YouTube enviado",
@@ -821,7 +821,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-06T19:34",
-     "hace": "hace 7 h",
+     "hace": "hace 8 h",
      "detalle": [
       "05/11 12:35 en-012-thunder-count en la bandeja de TikTok",
       "05/11 12:36 en-012-thunder-count paquete para TikTok/YouTube enviado",
@@ -891,7 +891,7 @@
      "estado": "ok",
      "resumen": "07/11: 5 seguidores",
      "cuando": "2026-11-07T02:50",
-     "hace": "hace 40 min",
+     "hace": "hace 1 h",
      "detalle": [
       "04/11: 3 seguidores",
       "05/11: 3 seguidores",
@@ -924,7 +924,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-07T03:30",
+     "cuando": "2026-11-07T03:51",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
