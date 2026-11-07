@@ -125,3 +125,10 @@ Estoy cerrando el radar de hoy: ya anoté los candidatos descartados en `videos/
 Decisión: no produje video de actualidad. Las búsquedas no devolvieron nada con fecha verificable de hoy. Los candidatos eran la alerta amarilla por tormentas y granizo, la ola de calor de unos 40 °C en el norte y El Niño de octubre a diciembre. Los descarté porque no tienen fecha o año verificable, o porque el tema ya está cubierto (004, 016, 019, 024). La cola normal sigue como estaba.
 Uso: 10 pasos · 19,824 tokens nuevos · 134,454 de caché · 1,476 escritos · equivale a US$ 0.13 de API
 2026-11-06 17:01 Termina el radar (ok).
+2026-11-07 15:09 Arranca el radar.
+Decidí no producir ningún video de actualidad hoy (7/11). Ningún tema se pudo verificar como de hoy: la alerta de tormentas y granizo no tiene fecha ni año confirmados, y los demás resultados son de otros años o son política. Anoté los descartados en `videos/radar.log` y la cola sigue normal.
+
+Sources:
+- [c5n: alerta meteorológica por tormentas y granizo](https://www.c5n.com/sociedad/alerta-meteorologica-tormentas-y-granizo-buenos-aires-y-mas-65-localidades-argentina-n133832/amp)
+Uso: 11 pasos · 19,956 tokens nuevos · 166,603 de caché · 1,789 escritos · equivale a US$ 0.14 de API
+2026-11-07 15:10 Termina el radar (ok).

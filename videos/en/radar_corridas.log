@@ -61,3 +61,7 @@ Uso: 10 pasos · 14,183 tokens nuevos · 127,590 de caché · 1,506 escritos · 
 No produje ningún video. La búsqueda web no devolvió nada verificable de las últimas 48 h: el tornado watch del norte de Georgia salía en una página sin fecha, la superluna del 24/11 queda lejos y no había ciencia de noviembre. Anoté los tres candidatos descartados en `videos/en/radar.log`.
 Uso: 10 pasos · 14,555 tokens nuevos · 129,397 de caché · 1,246 escritos · equivale a US$ 0.11 de API
 2026-11-06 17:02 Termina el radar (ok).
+2026-11-07 15:10 Arranca el radar.
+No produje ningún video: la búsqueda web no devolvió nada verificable de las últimas 48 h. Descarté el frío o tormenta invernal del fin de semana (notas sin fecha ni fuente oficial del día), El Niño (ya está en cola como en-026) y la superluna del 24/11 (todavía lejos). Lo anoté en `videos/en/radar.log`.
+Uso: 8 pasos · 12,155 tokens nuevos · 123,429 de caché · 1,132 escritos · equivale a US$ 0.08 de API
+2026-11-07 15:10 Termina el radar (ok).
