@@ -1,0 +1,54 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de seguridad alimentaria quedan verificadas contra USDA FSIS (texto archivado: 'use one cutting board for fresh produce and a separate one for raw meat, poultry, and seafood'; 'bacteria on a cutting board used for raw meat, poultry, or seafood can contaminate food that requires no further cooking'; 'wash cutting boards with hot, soapy water after preparing each food item'; 'if cutting boards become worn or develop hard-to-clean grooves, replace them'). La atribución al Departamento de Agricultura es correcta en los tres puntos pedidos (tablas separadas, agua caliente y jabón, reemplazo por surcos). No hay cifras ni afirmaciones probables, dudosas o falsas. Salvedades menores sin impacto: la página vigente de fsis.usda.gov devolvió 403 y se verificó con copias archivadas (UNT web archive) y resúmenes de búsqueda, no con el texto vigente leído de forma directa; FSIS formula la separación como 'si es posible'; y FSIS pide lavar tras cada alimento en general, no solo si hay una sola tabla, cosa que el guion no contradice.",
+  "afirmaciones": [
+    {
+      "texto": "Cortás el pollo crudo y después el tomate, en la misma tabla. Error.",
+      "fuente": "USDA FSIS, 'Cutting Boards and Food Safety' (copia archivada: https://webarchive.library.unt.edu/web/20130217235322/http:/www.fsis.usda.gov/Fact_Sheets/Cutting_Boards_and_Food_Safety/index.asp): usar tablas separadas para crudo y producto fresco",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El Departamento de Agricultura de Estados Unidos (USDA FSIS en el caption) recomienda una tabla para la carne, el pollo y el pescado crudos, y otra para las verduras frescas.",
+      "fuente": "USDA FSIS, hoja 'Cutting Boards and Food Safety': 'use one cutting board for fresh produce and a separate one for raw meat, poultry, and seafood' (misma copia archivada; la página vigente dio 403)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La razón: la carne cruda puede dejar bacterias en la tabla.",
+      "fuente": "USDA FSIS, misma hoja y guía de contaminación cruzada ('Be Smart, Keep Foods Apart'); el guion usa 'puede', igual que la fuente",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y el tomate no pasa por el fuego. Lo que quedó en la tabla va directo a tu plato. (caption: lo que no se cocina se las lleva al plato)",
+      "fuente": "USDA FSIS: las bacterias de una tabla usada para carne, pollo o pescado crudos pueden contaminar alimentos que no requieren más cocción",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si tenés una sola, lavala con agua caliente y jabón entre un alimento y otro. Eso también lo recomienda el Departamento de Agricultura.",
+      "fuente": "USDA FSIS, FAQ del Hotline (https://webarchive.library.unt.edu/web/20120915191205/http:/www.fsis.usda.gov/Help/FAQS_Hotline_Cookware/index.asp): lavar las tablas con agua caliente y jabón después de preparar cada alimento",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y si está llena de surcos que no se pueden limpiar, cambiala. (caption: si tiene surcos difíciles de limpiar, cambiala)",
+      "fuente": "USDA FSIS: 'If cutting boards become worn or develop hard-to-clean grooves, replace them' (mismas copias archivadas)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes: USDA FSIS, 'Cutting Boards and Food Safety' y guía de contaminación cruzada (caption)",
+      "fuente": "Ambos documentos existen en FSIS / foodsafety.gov (copias archivadas UNT)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Hoy, ponele una cinta a la tabla del crudo; mandáselo al que corta todo en la misma tabla; Mitos de cocina #8 (consejo, llamada a la acción y numeración interna de la serie, no afirmaciones fácticas externas)",
+      "fuente": "No aplica; el consejo es coherente con la guía de FSIS de separar tablas",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

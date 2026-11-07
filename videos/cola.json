@@ -1629,5 +1629,32 @@
   ],
   "prioridad": "actualidad",
   "creado": "2026-11-06T22:16"
+ },
+ {
+  "slug": "045-una-sola-tabla",
+  "tema": "Una sola tabla para carne cruda y verduras: una para crudo, otra para lo que se come sin cocinar (USDA FSIS)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-07T07:35",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-07T07:35",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-07T07:40",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-07T07:54",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

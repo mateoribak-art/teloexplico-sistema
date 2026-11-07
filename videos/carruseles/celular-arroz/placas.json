@@ -1,0 +1,9 @@
+{"origen": ["014-celular-arroz"], "serie": "mitos de casa", "placas": [
+ {"tipo": "tapa", "arriba": "¿Celular mojado? ¿Lo metés en arroz?", "grande": "Apple: no", "promesa": "deslizá y guardalo"},
+ {"tipo": "paso", "etiqueta": "// el mito", "titulo": "La idea es que el arroz chupa la humedad", "cuerpo": "Suena lógico. Pero el soporte de Apple dice textual: no pongas el iPhone en una bolsa de arroz.", "fuente": "Apple Support"},
+ {"tipo": "paso", "etiqueta": "// por qué no", "titulo": "Pueden meterse partículas de arroz adentro", "cuerpo": "Y dañar el iPhone. Es el motivo que da Apple.", "fuente": "Apple Support"},
+ {"tipo": "paso", "etiqueta": "// paso 1 y 2", "titulo": "Sacalo del cargador y golpealo despacito", "cuerpo": "Desenchufá los cables. Golpealo contra la palma, con el conector hacia abajo, para que salga el agua.", "fuente": "Apple Support"},
+ {"tipo": "paso", "etiqueta": "// dónde secarlo", "titulo": "Dejalo en un lugar seco, con algo de aire", "cuerpo": "Sin secador y sin aire comprimido.", "fuente": "Apple Support"},
+ {"tipo": "paso", "etiqueta": "// paso 4", "titulo": "Esperá antes de cargarlo", "dato": "30 min", "colorDato": "azul", "cuerpo": "Mínimo. Si sigue la alerta, puede tardar hasta 24 horas en secarse.", "fuente": "Apple Support"},
+ {"tipo": "resumen", "titulo": "Celular mojado, en 4 reglas", "items": [[false, "Meterlo en arroz"], [true, "Desenchufarlo y golpearlo despacito"], [true, "Lugar seco, sin secador ni aire comprimido"], [true, "Esperar 30 minutos antes de cargarlo"]]},
+ {"tipo": "cierre", "texto": "Mandáselo a ese que ya tiene el arroz listo en la alacena", "serie": "mitos de casa"}]}

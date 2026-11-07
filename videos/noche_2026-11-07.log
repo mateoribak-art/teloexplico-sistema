@@ -1,0 +1,22 @@
+2026-11-07 07:34 Arranca la producción (18 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Cierro la corrida: el video quedó en `render` y el log está escrito.
+
+- **Listo para render:** `045-una-sola-tabla` (cocina, serie #8): una tabla para lo crudo y otra para lo que se come sin cocinar, según USDA FSIS. El chequeo lo aprobó en el primer intento. La voz salió con 137 de 137 palabras (45 s), `tsc` dio OK y hice 2 vueltas de cuadros. `producir.py` hace el render y el control al terminar el turno. Verifiqué la atribución a USDA contra copias archivadas de sus hojas, porque la página vigente dio 403.
+- **Apartados:** no había ninguno con "chequeo rechazado" para rescatar. `005-granizo-calor` sigue apartado, pero por otro motivo.
+- **Segundo video no producido:** la cola tenía más de 10 listos. El radar no se revisó, así que el último registro en `radar.log` es del 6/11.
+Uso: 56 pasos · 90,588 tokens nuevos · 2,172,696 de caché · 19,650 escritos · equivale a US$ 0.95 de API
+Permisos negados (1):
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/045-una-sola-tabla; python3 - <<'E'\nimport json\nA=\"USDA FSIS, hoja
+2026-11-07 07:40 Render de 045-una-sola-tabla (sin Claude).
+2026-11-07 07:54 045-una-sola-tabla: listo (render sin Claude)
+2026-11-07 07:54 Termina la producción (ok).
+2026-11-07 07:54 Arranca el carrusel (1 listos, meta 2).
+`celular-arroz`: quedó listo (8 placas, sale a las 16:00).
+
+Lo armé desde el reel `014-celular-arroz`. Lo publicaron el 4/11 y no tenía carrusel. Su chequeo está aprobado, con todas las afirmaciones verificadas por Apple Support.
+
+La tapa "Apple dice no" se cortaba en la grilla, así que la acorté a "Apple: no" y volví a renderizar. No volví a mirar `hoja.png` después de ese cambio, así que la tapa nueva no la vi.
+
+El log ya tiene la línea de hoy.
+Uso: 23 pasos · 45,284 tokens nuevos · 638,101 de caché · 4,470 escritos · equivale a US$ 0.29 de API
+2026-11-07 07:55 Termina el carrusel (ok; quedan 2 listos).

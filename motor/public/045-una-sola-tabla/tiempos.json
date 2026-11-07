@@ -1,0 +1,753 @@
+{
+ "duracion": 45.24,
+ "frases": [
+  {
+   "texto": "Cortás el pollo crudo y después el tomate, en la misma tabla. Error.",
+   "palabras": [
+    {
+     "texto": "Cortás",
+     "inicio": 0.0,
+     "fin": 0.38
+    },
+    {
+     "texto": "el",
+     "inicio": 0.38,
+     "fin": 0.52
+    },
+    {
+     "texto": "pollo",
+     "inicio": 0.52,
+     "fin": 0.68
+    },
+    {
+     "texto": "crudo",
+     "inicio": 0.68,
+     "fin": 1.06
+    },
+    {
+     "texto": "y",
+     "inicio": 1.06,
+     "fin": 1.62
+    },
+    {
+     "texto": "después",
+     "inicio": 1.62,
+     "fin": 1.98
+    },
+    {
+     "texto": "el",
+     "inicio": 1.98,
+     "fin": 2.2
+    },
+    {
+     "texto": "tomate,",
+     "inicio": 2.2,
+     "fin": 2.56
+    },
+    {
+     "texto": "en",
+     "inicio": 2.56,
+     "fin": 3.14
+    },
+    {
+     "texto": "la",
+     "inicio": 3.14,
+     "fin": 3.22
+    },
+    {
+     "texto": "misma",
+     "inicio": 3.22,
+     "fin": 3.4
+    },
+    {
+     "texto": "tabla.",
+     "inicio": 3.4,
+     "fin": 3.8
+    },
+    {
+     "texto": "Error.",
+     "inicio": 4.3,
+     "fin": 4.56
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.56
+  },
+  {
+   "texto": "El Departamento de Agricultura de Estados Unidos recomienda una tabla para la carne, el pollo y el pescado crudos, y otra para las verduras frescas.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 5.16,
+     "fin": 5.22
+    },
+    {
+     "texto": "Departamento",
+     "inicio": 5.22,
+     "fin": 5.7
+    },
+    {
+     "texto": "de",
+     "inicio": 5.7,
+     "fin": 5.84
+    },
+    {
+     "texto": "Agricultura",
+     "inicio": 5.84,
+     "fin": 6.4
+    },
+    {
+     "texto": "de",
+     "inicio": 6.4,
+     "fin": 6.62
+    },
+    {
+     "texto": "Estados",
+     "inicio": 6.62,
+     "fin": 6.84
+    },
+    {
+     "texto": "Unidos",
+     "inicio": 6.84,
+     "fin": 7.26
+    },
+    {
+     "texto": "recomienda",
+     "inicio": 7.26,
+     "fin": 8.14
+    },
+    {
+     "texto": "una",
+     "inicio": 8.14,
+     "fin": 8.54
+    },
+    {
+     "texto": "tabla",
+     "inicio": 8.54,
+     "fin": 8.86
+    },
+    {
+     "texto": "para",
+     "inicio": 8.86,
+     "fin": 9.02
+    },
+    {
+     "texto": "la",
+     "inicio": 9.02,
+     "fin": 9.18
+    },
+    {
+     "texto": "carne,",
+     "inicio": 9.18,
+     "fin": 9.44
+    },
+    {
+     "texto": "el",
+     "inicio": 9.78,
+     "fin": 9.9
+    },
+    {
+     "texto": "pollo",
+     "inicio": 9.9,
+     "fin": 10.22
+    },
+    {
+     "texto": "y",
+     "inicio": 10.22,
+     "fin": 10.38
+    },
+    {
+     "texto": "el",
+     "inicio": 10.38,
+     "fin": 10.48
+    },
+    {
+     "texto": "pescado",
+     "inicio": 10.48,
+     "fin": 10.8
+    },
+    {
+     "texto": "crudos,",
+     "inicio": 10.8,
+     "fin": 11.18
+    },
+    {
+     "texto": "y",
+     "inicio": 11.6,
+     "fin": 11.88
+    },
+    {
+     "texto": "otra",
+     "inicio": 11.88,
+     "fin": 12.1
+    },
+    {
+     "texto": "para",
+     "inicio": 12.1,
+     "fin": 12.32
+    },
+    {
+     "texto": "las",
+     "inicio": 12.32,
+     "fin": 12.44
+    },
+    {
+     "texto": "verduras",
+     "inicio": 12.44,
+     "fin": 12.74
+    },
+    {
+     "texto": "frescas.",
+     "inicio": 12.74,
+     "fin": 13.1
+    }
+   ],
+   "inicio": 5.16,
+   "fin": 13.1
+  },
+  {
+   "texto": "La razón: la carne cruda puede dejar bacterias en la tabla.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 13.62,
+     "fin": 13.74
+    },
+    {
+     "texto": "razón:",
+     "inicio": 13.74,
+     "fin": 13.94
+    },
+    {
+     "texto": "la",
+     "inicio": 14.58,
+     "fin": 14.68
+    },
+    {
+     "texto": "carne",
+     "inicio": 14.68,
+     "fin": 14.86
+    },
+    {
+     "texto": "cruda",
+     "inicio": 14.86,
+     "fin": 15.16
+    },
+    {
+     "texto": "puede",
+     "inicio": 15.16,
+     "fin": 15.58
+    },
+    {
+     "texto": "dejar",
+     "inicio": 15.58,
+     "fin": 15.8
+    },
+    {
+     "texto": "bacterias",
+     "inicio": 15.8,
+     "fin": 16.36
+    },
+    {
+     "texto": "en",
+     "inicio": 16.36,
+     "fin": 16.74
+    },
+    {
+     "texto": "la",
+     "inicio": 16.74,
+     "fin": 16.82
+    },
+    {
+     "texto": "tabla.",
+     "inicio": 16.82,
+     "fin": 17.1
+    }
+   ],
+   "inicio": 13.62,
+   "fin": 17.1
+  },
+  {
+   "texto": "Y el tomate no pasa por el fuego. Lo que quedó en la tabla va directo a tu plato.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 17.56,
+     "fin": 17.72
+    },
+    {
+     "texto": "el",
+     "inicio": 17.72,
+     "fin": 17.84
+    },
+    {
+     "texto": "tomate",
+     "inicio": 17.84,
+     "fin": 18.16
+    },
+    {
+     "texto": "no",
+     "inicio": 18.16,
+     "fin": 18.46
+    },
+    {
+     "texto": "pasa",
+     "inicio": 18.46,
+     "fin": 18.7
+    },
+    {
+     "texto": "por",
+     "inicio": 18.7,
+     "fin": 18.9
+    },
+    {
+     "texto": "el",
+     "inicio": 18.9,
+     "fin": 18.98
+    },
+    {
+     "texto": "fuego.",
+     "inicio": 18.98,
+     "fin": 19.18
+    },
+    {
+     "texto": "Lo",
+     "inicio": 19.72,
+     "fin": 19.88
+    },
+    {
+     "texto": "que",
+     "inicio": 19.88,
+     "fin": 20.0
+    },
+    {
+     "texto": "quedó",
+     "inicio": 20.0,
+     "fin": 20.22
+    },
+    {
+     "texto": "en",
+     "inicio": 20.22,
+     "fin": 20.28
+    },
+    {
+     "texto": "la",
+     "inicio": 20.28,
+     "fin": 20.36
+    },
+    {
+     "texto": "tabla",
+     "inicio": 20.36,
+     "fin": 20.72
+    },
+    {
+     "texto": "va",
+     "inicio": 20.72,
+     "fin": 21.2
+    },
+    {
+     "texto": "directo",
+     "inicio": 21.2,
+     "fin": 21.62
+    },
+    {
+     "texto": "a",
+     "inicio": 21.62,
+     "fin": 21.68
+    },
+    {
+     "texto": "tu",
+     "inicio": 21.68,
+     "fin": 21.74
+    },
+    {
+     "texto": "plato.",
+     "inicio": 21.74,
+     "fin": 21.98
+    }
+   ],
+   "inicio": 17.56,
+   "fin": 21.98
+  },
+  {
+   "texto": "Una tabla para lo crudo. Otra para lo que se come sin cocinar.",
+   "palabras": [
+    {
+     "texto": "Una",
+     "inicio": 22.48,
+     "fin": 22.64
+    },
+    {
+     "texto": "tabla",
+     "inicio": 22.64,
+     "fin": 22.88
+    },
+    {
+     "texto": "para",
+     "inicio": 22.88,
+     "fin": 23.04
+    },
+    {
+     "texto": "lo",
+     "inicio": 23.04,
+     "fin": 23.16
+    },
+    {
+     "texto": "crudo.",
+     "inicio": 23.16,
+     "fin": 23.42
+    },
+    {
+     "texto": "Otra",
+     "inicio": 23.76,
+     "fin": 24.16
+    },
+    {
+     "texto": "para",
+     "inicio": 24.16,
+     "fin": 24.52
+    },
+    {
+     "texto": "lo",
+     "inicio": 24.52,
+     "fin": 24.64
+    },
+    {
+     "texto": "que",
+     "inicio": 24.64,
+     "fin": 24.72
+    },
+    {
+     "texto": "se",
+     "inicio": 24.72,
+     "fin": 24.82
+    },
+    {
+     "texto": "come",
+     "inicio": 24.82,
+     "fin": 25.0
+    },
+    {
+     "texto": "sin",
+     "inicio": 25.0,
+     "fin": 25.24
+    },
+    {
+     "texto": "cocinar.",
+     "inicio": 25.24,
+     "fin": 25.58
+    }
+   ],
+   "inicio": 22.48,
+   "fin": 25.58
+  },
+  {
+   "texto": "Ojo: si tenés una sola, lavala con agua caliente y jabón entre un alimento y otro. Eso también lo recomienda el Departamento de Agricultura.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 26.04,
+     "fin": 26.4
+    },
+    {
+     "texto": "si",
+     "inicio": 26.9,
+     "fin": 26.98
+    },
+    {
+     "texto": "tenés",
+     "inicio": 26.98,
+     "fin": 27.36
+    },
+    {
+     "texto": "una",
+     "inicio": 27.36,
+     "fin": 27.6
+    },
+    {
+     "texto": "sola,",
+     "inicio": 27.6,
+     "fin": 27.96
+    },
+    {
+     "texto": "lavala",
+     "inicio": 28.54,
+     "fin": 29.06
+    },
+    {
+     "texto": "con",
+     "inicio": 29.06,
+     "fin": 29.24
+    },
+    {
+     "texto": "agua",
+     "inicio": 29.24,
+     "fin": 29.42
+    },
+    {
+     "texto": "caliente",
+     "inicio": 29.42,
+     "fin": 29.9
+    },
+    {
+     "texto": "y",
+     "inicio": 29.9,
+     "fin": 30.02
+    },
+    {
+     "texto": "jabón",
+     "inicio": 30.02,
+     "fin": 30.42
+    },
+    {
+     "texto": "entre",
+     "inicio": 30.42,
+     "fin": 30.72
+    },
+    {
+     "texto": "un",
+     "inicio": 30.72,
+     "fin": 30.9
+    },
+    {
+     "texto": "alimento",
+     "inicio": 30.9,
+     "fin": 31.26
+    },
+    {
+     "texto": "y",
+     "inicio": 31.26,
+     "fin": 31.44
+    },
+    {
+     "texto": "otro.",
+     "inicio": 31.44,
+     "fin": 31.62
+    },
+    {
+     "texto": "Eso",
+     "inicio": 32.18,
+     "fin": 32.34
+    },
+    {
+     "texto": "también",
+     "inicio": 32.34,
+     "fin": 32.72
+    },
+    {
+     "texto": "lo",
+     "inicio": 32.72,
+     "fin": 32.84
+    },
+    {
+     "texto": "recomienda",
+     "inicio": 32.84,
+     "fin": 33.36
+    },
+    {
+     "texto": "el",
+     "inicio": 33.36,
+     "fin": 33.46
+    },
+    {
+     "texto": "Departamento",
+     "inicio": 33.46,
+     "fin": 34.0
+    },
+    {
+     "texto": "de",
+     "inicio": 34.0,
+     "fin": 34.12
+    },
+    {
+     "texto": "Agricultura.",
+     "inicio": 34.12,
+     "fin": 34.64
+    }
+   ],
+   "inicio": 26.04,
+   "fin": 34.64
+  },
+  {
+   "texto": "Y si está llena de surcos que no se pueden limpiar, cambiala.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 35.26,
+     "fin": 35.32
+    },
+    {
+     "texto": "si",
+     "inicio": 35.32,
+     "fin": 35.48
+    },
+    {
+     "texto": "está",
+     "inicio": 35.48,
+     "fin": 35.72
+    },
+    {
+     "texto": "llena",
+     "inicio": 35.72,
+     "fin": 36.08
+    },
+    {
+     "texto": "de",
+     "inicio": 36.08,
+     "fin": 36.18
+    },
+    {
+     "texto": "surcos",
+     "inicio": 36.18,
+     "fin": 36.6
+    },
+    {
+     "texto": "que",
+     "inicio": 36.6,
+     "fin": 36.76
+    },
+    {
+     "texto": "no",
+     "inicio": 36.76,
+     "fin": 36.86
+    },
+    {
+     "texto": "se",
+     "inicio": 36.86,
+     "fin": 36.98
+    },
+    {
+     "texto": "pueden",
+     "inicio": 36.98,
+     "fin": 37.16
+    },
+    {
+     "texto": "limpiar,",
+     "inicio": 37.16,
+     "fin": 37.68
+    },
+    {
+     "texto": "cambiala.",
+     "inicio": 38.1,
+     "fin": 38.64
+    }
+   ],
+   "inicio": 35.26,
+   "fin": 38.64
+  },
+  {
+   "texto": "Hoy, ponele una cinta a la tabla del crudo, y listo.",
+   "palabras": [
+    {
+     "texto": "Hoy,",
+     "inicio": 39.14,
+     "fin": 39.34
+    },
+    {
+     "texto": "ponele",
+     "inicio": 39.84,
+     "fin": 40.16
+    },
+    {
+     "texto": "una",
+     "inicio": 40.16,
+     "fin": 40.32
+    },
+    {
+     "texto": "cinta",
+     "inicio": 40.32,
+     "fin": 40.82
+    },
+    {
+     "texto": "a",
+     "inicio": 40.82,
+     "fin": 41.14
+    },
+    {
+     "texto": "la",
+     "inicio": 41.14,
+     "fin": 41.2
+    },
+    {
+     "texto": "tabla",
+     "inicio": 41.2,
+     "fin": 41.5
+    },
+    {
+     "texto": "del",
+     "inicio": 41.5,
+     "fin": 41.62
+    },
+    {
+     "texto": "crudo,",
+     "inicio": 41.62,
+     "fin": 42.04
+    },
+    {
+     "texto": "y",
+     "inicio": 42.38,
+     "fin": 42.4
+    },
+    {
+     "texto": "listo.",
+     "inicio": 42.4,
+     "fin": 42.8
+    }
+   ],
+   "inicio": 39.14,
+   "fin": 42.8
+  },
+  {
+   "texto": "Mandáselo al que corta todo en la misma tabla.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 43.28,
+     "fin": 43.72
+    },
+    {
+     "texto": "al",
+     "inicio": 43.72,
+     "fin": 43.8
+    },
+    {
+     "texto": "que",
+     "inicio": 43.8,
+     "fin": 43.9
+    },
+    {
+     "texto": "corta",
+     "inicio": 43.9,
+     "fin": 44.22
+    },
+    {
+     "texto": "todo",
+     "inicio": 44.22,
+     "fin": 44.42
+    },
+    {
+     "texto": "en",
+     "inicio": 44.42,
+     "fin": 44.52
+    },
+    {
+     "texto": "la",
+     "inicio": 44.52,
+     "fin": 44.6
+    },
+    {
+     "texto": "misma",
+     "inicio": 44.6,
+     "fin": 44.76
+    },
+    {
+     "texto": "tabla.",
+     "inicio": 44.76,
+     "fin": 45.18
+    }
+   ],
+   "inicio": 43.28,
+   "fin": 45.18
+  }
+ ]
+}

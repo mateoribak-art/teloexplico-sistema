@@ -6,3 +6,7 @@ Uso: 42 pasos · 72,493 tokens nuevos · 1,374,414 de caché · 11,482 escritos 
 2026-11-07 00:07 Render de en-027-bleach-vinegar (sin Claude).
 2026-11-07 00:40 en-027-bleach-vinegar: listo (render sin Claude)
 2026-11-07 00:40 Termina la producción (ok).
+2026-11-07 07:55 Hay 6 videos listos: no hace falta producir hoy. Corre solo el radar de actualidad.
+Decidí no producir ningún video de actualidad hoy. Ningún tema verificable de las últimas 48 h cumplió los criterios. Descarté tres candidatos: El Niño "más fuerte en una vida" (solo un titular, y ya hay un video en cola), tornados raros en Delaware y Long Island (regional y sin confirmar), y la inundación costera por "king tide" (regional y sin fuente oficial). Los anoté en `videos/en/radar.log`.
+Uso: 10 pasos · 15,292 tokens nuevos · 131,050 de caché · 1,413 escritos · equivale a US$ 0.11 de API
+2026-11-07 07:56 Termina el radar (ok).

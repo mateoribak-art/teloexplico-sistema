@@ -221,5 +221,29 @@
     "motivo": "control OK"
    }
   ]
+ },
+ {
+  "clave": "celular-arroz",
+  "estado": "listo",
+  "origen": [
+   "014-celular-arroz"
+  ],
+  "historial": [
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-07T07:54",
+    "motivo": "números que no están en el chequeo de los reels de origen: 3 (etiqueta)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-07T07:55",
+    "motivo": "control OK"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-07T07:55",
+    "motivo": "control OK"
+   }
+  ]
  }
 ]

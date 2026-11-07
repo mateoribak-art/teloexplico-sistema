@@ -1,0 +1,22 @@
+{
+  "titulo": "Cortás el pollo crudo y después la ensalada en la misma tabla: una tabla para crudo y otra para lo que se come sin cocinar",
+  "fondo": "oscuro",
+  "receta": "El que lo hace mal / pilar cocina",
+  "pilar": "cocina",
+  "destinatario": "se lo manda alguien a su viejo, su pareja o su compañero de departamento, el que corta el pollo crudo y después el tomate en la misma tabla sin lavarla",
+  "regla_guardable": "Una tabla para lo crudo, otra para lo que se come sin cocinar.",
+  "fuentes": [
+    "USDA FSIS (Servicio de Inocuidad e Inspección de Alimentos, Departamento de Agricultura de Estados Unidos), hoja 'Cutting Boards and Food Safety' y guía de contaminación cruzada: una tabla para productos frescos y otra para carne, pollo y pescado crudos; si no es posible, lavar con agua caliente y jabón después de cada alimento; reemplazar tablas gastadas con surcos difíciles de limpiar."
+  ],
+  "frases": [
+    {"texto": "Cortás el pollo crudo y después el tomate, en la misma tabla. Error.", "estilo": "Seco, a cámara, con media sonrisa."},
+    {"texto": "El Departamento de Agricultura de Estados Unidos recomienda una tabla para la carne, el pollo y el pescado crudos, y otra para las verduras frescas.", "estilo": "Informativo, con autoridad."},
+    {"texto": "La razón: la carne cruda puede dejar bacterias en la tabla.", "estilo": "Contundente."},
+    {"texto": "Y el tomate no pasa por el fuego. Lo que quedó en la tabla va directo a tu plato.", "estilo": "Directo, con peso."},
+    {"texto": "Una tabla para lo crudo. Otra para lo que se come sin cocinar.", "estilo": "Claro y rítmico."},
+    {"texto": "Ojo: si tenés una sola, lavala con agua caliente y jabón entre un alimento y otro. Eso también lo recomienda el Departamento de Agricultura.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Y si está llena de surcos que no se pueden limpiar, cambiala.", "estilo": "Práctico, amable."},
+    {"texto": "Hoy, ponele una cinta a la tabla del crudo, y listo.", "estilo": "Práctico, amable."},
+    {"texto": "Mandáselo al que corta todo en la misma tabla.", "estilo": "Cómplice, con humor."}
+  ]
+}
