@@ -1,0 +1,758 @@
+{
+ "duracion": 50.78,
+ "frases": [
+  {
+   "texto": "Te llega un aviso: tu paquete está retenido, pagá una tasa para liberarlo. Y vos no esperabas nada.",
+   "palabras": [
+    {
+     "texto": "Te",
+     "inicio": 0.0,
+     "fin": 0.12
+    },
+    {
+     "texto": "llega",
+     "inicio": 0.12,
+     "fin": 0.28
+    },
+    {
+     "texto": "un",
+     "inicio": 0.28,
+     "fin": 0.42
+    },
+    {
+     "texto": "aviso:",
+     "inicio": 0.42,
+     "fin": 0.7
+    },
+    {
+     "texto": "tu",
+     "inicio": 1.26,
+     "fin": 1.38
+    },
+    {
+     "texto": "paquete",
+     "inicio": 1.38,
+     "fin": 1.76
+    },
+    {
+     "texto": "está",
+     "inicio": 1.76,
+     "fin": 2.04
+    },
+    {
+     "texto": "retenido,",
+     "inicio": 2.04,
+     "fin": 2.68
+    },
+    {
+     "texto": "pagá",
+     "inicio": 3.14,
+     "fin": 3.34
+    },
+    {
+     "texto": "una",
+     "inicio": 3.34,
+     "fin": 3.58
+    },
+    {
+     "texto": "tasa",
+     "inicio": 3.58,
+     "fin": 3.86
+    },
+    {
+     "texto": "para",
+     "inicio": 3.86,
+     "fin": 4.1
+    },
+    {
+     "texto": "liberarlo.",
+     "inicio": 4.1,
+     "fin": 4.64
+    },
+    {
+     "texto": "Y",
+     "inicio": 5.06,
+     "fin": 5.26
+    },
+    {
+     "texto": "vos",
+     "inicio": 5.26,
+     "fin": 5.34
+    },
+    {
+     "texto": "no",
+     "inicio": 5.34,
+     "fin": 5.44
+    },
+    {
+     "texto": "esperabas",
+     "inicio": 5.44,
+     "fin": 5.76
+    },
+    {
+     "texto": "nada.",
+     "inicio": 5.76,
+     "fin": 6.0
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 6.0
+  },
+  {
+   "texto": "Si te piden pagar por un link, es una estafa.",
+   "palabras": [
+    {
+     "texto": "Si",
+     "inicio": 6.58,
+     "fin": 6.76
+    },
+    {
+     "texto": "te",
+     "inicio": 6.76,
+     "fin": 6.88
+    },
+    {
+     "texto": "piden",
+     "inicio": 6.88,
+     "fin": 7.1
+    },
+    {
+     "texto": "pagar",
+     "inicio": 7.1,
+     "fin": 7.36
+    },
+    {
+     "texto": "por",
+     "inicio": 7.36,
+     "fin": 7.62
+    },
+    {
+     "texto": "un",
+     "inicio": 7.62,
+     "fin": 7.74
+    },
+    {
+     "texto": "link,",
+     "inicio": 7.74,
+     "fin": 8.08
+    },
+    {
+     "texto": "es",
+     "inicio": 8.42,
+     "fin": 8.68
+    },
+    {
+     "texto": "una",
+     "inicio": 8.68,
+     "fin": 8.96
+    },
+    {
+     "texto": "estafa.",
+     "inicio": 8.96,
+     "fin": 9.26
+    }
+   ],
+   "inicio": 6.58,
+   "fin": 9.26
+  },
+  {
+   "texto": "Una campaña así llevaba a una página que imita al Correo, con un formulario para cargar la tarjeta.",
+   "palabras": [
+    {
+     "texto": "Una",
+     "inicio": 9.82,
+     "fin": 10.0
+    },
+    {
+     "texto": "campaña",
+     "inicio": 10.0,
+     "fin": 10.5
+    },
+    {
+     "texto": "así",
+     "inicio": 10.5,
+     "fin": 10.76
+    },
+    {
+     "texto": "llevaba",
+     "inicio": 10.76,
+     "fin": 11.1
+    },
+    {
+     "texto": "a",
+     "inicio": 11.1,
+     "fin": 11.26
+    },
+    {
+     "texto": "una",
+     "inicio": 11.26,
+     "fin": 11.38
+    },
+    {
+     "texto": "página",
+     "inicio": 11.38,
+     "fin": 11.7
+    },
+    {
+     "texto": "que",
+     "inicio": 11.7,
+     "fin": 11.96
+    },
+    {
+     "texto": "imita",
+     "inicio": 11.96,
+     "fin": 12.26
+    },
+    {
+     "texto": "al",
+     "inicio": 12.26,
+     "fin": 12.42
+    },
+    {
+     "texto": "Correo,",
+     "inicio": 12.42,
+     "fin": 12.94
+    },
+    {
+     "texto": "con",
+     "inicio": 13.24,
+     "fin": 13.4
+    },
+    {
+     "texto": "un",
+     "inicio": 13.4,
+     "fin": 13.5
+    },
+    {
+     "texto": "formulario",
+     "inicio": 13.5,
+     "fin": 14.08
+    },
+    {
+     "texto": "para",
+     "inicio": 14.08,
+     "fin": 14.24
+    },
+    {
+     "texto": "cargar",
+     "inicio": 14.24,
+     "fin": 14.54
+    },
+    {
+     "texto": "la",
+     "inicio": 14.54,
+     "fin": 14.7
+    },
+    {
+     "texto": "tarjeta.",
+     "inicio": 14.7,
+     "fin": 15.22
+    }
+   ],
+   "inicio": 9.82,
+   "fin": 15.22
+  },
+  {
+   "texto": "WeLiveSecurity lo documentó en marzo de dos mil veintiséis: hasta aparece como anuncio dentro de Gmail, entre tus mails de verdad.",
+   "palabras": [
+    {
+     "texto": "WeLiveSecurity",
+     "inicio": 16.0,
+     "fin": 16.56
+    },
+    {
+     "texto": "lo",
+     "inicio": 16.56,
+     "fin": 16.98
+    },
+    {
+     "texto": "documentó",
+     "inicio": 16.98,
+     "fin": 17.46
+    },
+    {
+     "texto": "en",
+     "inicio": 17.46,
+     "fin": 17.58
+    },
+    {
+     "texto": "marzo",
+     "inicio": 17.58,
+     "fin": 17.96
+    },
+    {
+     "texto": "de",
+     "inicio": 17.96,
+     "fin": 18.08
+    },
+    {
+     "texto": "dos",
+     "inicio": 18.08,
+     "fin": 18.18
+    },
+    {
+     "texto": "mil",
+     "inicio": 18.18,
+     "fin": 18.34
+    },
+    {
+     "texto": "veintiséis:",
+     "inicio": 18.34,
+     "fin": 18.86
+    },
+    {
+     "texto": "hasta",
+     "inicio": 19.36,
+     "fin": 19.62
+    },
+    {
+     "texto": "aparece",
+     "inicio": 19.62,
+     "fin": 19.88
+    },
+    {
+     "texto": "como",
+     "inicio": 19.88,
+     "fin": 20.14
+    },
+    {
+     "texto": "anuncio",
+     "inicio": 20.14,
+     "fin": 20.5
+    },
+    {
+     "texto": "dentro",
+     "inicio": 20.5,
+     "fin": 20.74
+    },
+    {
+     "texto": "de",
+     "inicio": 20.74,
+     "fin": 20.96
+    },
+    {
+     "texto": "Gmail,",
+     "inicio": 20.96,
+     "fin": 21.28
+    },
+    {
+     "texto": "entre",
+     "inicio": 21.68,
+     "fin": 21.9
+    },
+    {
+     "texto": "tus",
+     "inicio": 21.9,
+     "fin": 22.08
+    },
+    {
+     "texto": "mails",
+     "inicio": 22.08,
+     "fin": 22.32
+    },
+    {
+     "texto": "de",
+     "inicio": 22.32,
+     "fin": 22.46
+    },
+    {
+     "texto": "verdad.",
+     "inicio": 22.46,
+     "fin": 22.74
+    }
+   ],
+   "inicio": 16.0,
+   "fin": 22.74
+  },
+  {
+   "texto": "Y buscar faltas de ortografía ya no alcanza: con inteligencia artificial, los textos salen impecables.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 23.26,
+     "fin": 23.4
+    },
+    {
+     "texto": "buscar",
+     "inicio": 23.4,
+     "fin": 23.7
+    },
+    {
+     "texto": "faltas",
+     "inicio": 23.7,
+     "fin": 24.16
+    },
+    {
+     "texto": "de",
+     "inicio": 24.16,
+     "fin": 24.22
+    },
+    {
+     "texto": "ortografía",
+     "inicio": 24.22,
+     "fin": 24.84
+    },
+    {
+     "texto": "ya",
+     "inicio": 24.84,
+     "fin": 25.26
+    },
+    {
+     "texto": "no",
+     "inicio": 25.26,
+     "fin": 25.38
+    },
+    {
+     "texto": "alcanza:",
+     "inicio": 25.38,
+     "fin": 25.8
+    },
+    {
+     "texto": "con",
+     "inicio": 26.22,
+     "fin": 26.42
+    },
+    {
+     "texto": "inteligencia",
+     "inicio": 26.42,
+     "fin": 26.92
+    },
+    {
+     "texto": "artificial,",
+     "inicio": 26.92,
+     "fin": 27.32
+    },
+    {
+     "texto": "los",
+     "inicio": 27.32,
+     "fin": 27.74
+    },
+    {
+     "texto": "textos",
+     "inicio": 27.74,
+     "fin": 28.16
+    },
+    {
+     "texto": "salen",
+     "inicio": 28.16,
+     "fin": 28.52
+    },
+    {
+     "texto": "impecables.",
+     "inicio": 28.52,
+     "fin": 29.16
+    }
+   ],
+   "inicio": 23.26,
+   "fin": 29.16
+  },
+  {
+   "texto": "Según Chequeado, Correo Argentino y FedEx nunca piden pagos ni datos personales por mensaje a cambio de un paquete.",
+   "palabras": [
+    {
+     "texto": "Según",
+     "inicio": 29.64,
+     "fin": 30.14
+    },
+    {
+     "texto": "Chequeado,",
+     "inicio": 30.14,
+     "fin": 30.66
+    },
+    {
+     "texto": "Correo",
+     "inicio": 31.1,
+     "fin": 31.34
+    },
+    {
+     "texto": "Argentino",
+     "inicio": 31.34,
+     "fin": 31.86
+    },
+    {
+     "texto": "y",
+     "inicio": 31.86,
+     "fin": 31.94
+    },
+    {
+     "texto": "FedEx",
+     "inicio": 31.94,
+     "fin": 32.36
+    },
+    {
+     "texto": "nunca",
+     "inicio": 32.36,
+     "fin": 32.88
+    },
+    {
+     "texto": "piden",
+     "inicio": 32.88,
+     "fin": 33.32
+    },
+    {
+     "texto": "pagos",
+     "inicio": 33.32,
+     "fin": 33.84
+    },
+    {
+     "texto": "ni",
+     "inicio": 33.84,
+     "fin": 34.08
+    },
+    {
+     "texto": "datos",
+     "inicio": 34.08,
+     "fin": 34.34
+    },
+    {
+     "texto": "personales",
+     "inicio": 34.34,
+     "fin": 35.02
+    },
+    {
+     "texto": "por",
+     "inicio": 35.02,
+     "fin": 35.14
+    },
+    {
+     "texto": "mensaje",
+     "inicio": 35.14,
+     "fin": 35.6
+    },
+    {
+     "texto": "a",
+     "inicio": 35.6,
+     "fin": 35.88
+    },
+    {
+     "texto": "cambio",
+     "inicio": 35.88,
+     "fin": 36.18
+    },
+    {
+     "texto": "de",
+     "inicio": 36.18,
+     "fin": 36.36
+    },
+    {
+     "texto": "un",
+     "inicio": 36.36,
+     "fin": 36.44
+    },
+    {
+     "texto": "paquete.",
+     "inicio": 36.44,
+     "fin": 36.82
+    }
+   ],
+   "inicio": 29.64,
+   "fin": 36.82
+  },
+  {
+   "texto": "Ojo: si sí esperás algo, entrá vos al sitio oficial escribiendo la dirección, no desde el link.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 37.3,
+     "fin": 37.62
+    },
+    {
+     "texto": "si",
+     "inicio": 37.98,
+     "fin": 38.08
+    },
+    {
+     "texto": "sí",
+     "inicio": 38.08,
+     "fin": 38.32
+    },
+    {
+     "texto": "esperás",
+     "inicio": 38.32,
+     "fin": 38.74
+    },
+    {
+     "texto": "algo,",
+     "inicio": 38.74,
+     "fin": 39.0
+    },
+    {
+     "texto": "entrá",
+     "inicio": 39.48,
+     "fin": 39.7
+    },
+    {
+     "texto": "vos",
+     "inicio": 39.7,
+     "fin": 39.9
+    },
+    {
+     "texto": "al",
+     "inicio": 39.9,
+     "fin": 40.1
+    },
+    {
+     "texto": "sitio",
+     "inicio": 40.1,
+     "fin": 40.34
+    },
+    {
+     "texto": "oficial",
+     "inicio": 40.34,
+     "fin": 40.78
+    },
+    {
+     "texto": "escribiendo",
+     "inicio": 40.78,
+     "fin": 41.44
+    },
+    {
+     "texto": "la",
+     "inicio": 41.44,
+     "fin": 41.58
+    },
+    {
+     "texto": "dirección,",
+     "inicio": 41.58,
+     "fin": 42.06
+    },
+    {
+     "texto": "no",
+     "inicio": 42.52,
+     "fin": 42.74
+    },
+    {
+     "texto": "desde",
+     "inicio": 42.74,
+     "fin": 42.88
+    },
+    {
+     "texto": "el",
+     "inicio": 42.88,
+     "fin": 43.08
+    },
+    {
+     "texto": "link.",
+     "inicio": 43.08,
+     "fin": 43.28
+    }
+   ],
+   "inicio": 37.3,
+   "fin": 43.28
+  },
+  {
+   "texto": "Para guardar: plata por mensaje para liberar un paquete, es señal de estafa.",
+   "palabras": [
+    {
+     "texto": "Para",
+     "inicio": 44.22,
+     "fin": 44.42
+    },
+    {
+     "texto": "guardar:",
+     "inicio": 44.42,
+     "fin": 44.86
+    },
+    {
+     "texto": "plata",
+     "inicio": 45.3,
+     "fin": 45.5
+    },
+    {
+     "texto": "por",
+     "inicio": 45.5,
+     "fin": 45.72
+    },
+    {
+     "texto": "mensaje",
+     "inicio": 45.72,
+     "fin": 46.16
+    },
+    {
+     "texto": "para",
+     "inicio": 46.16,
+     "fin": 46.4
+    },
+    {
+     "texto": "liberar",
+     "inicio": 46.4,
+     "fin": 46.8
+    },
+    {
+     "texto": "un",
+     "inicio": 46.8,
+     "fin": 46.88
+    },
+    {
+     "texto": "paquete,",
+     "inicio": 46.88,
+     "fin": 47.28
+    },
+    {
+     "texto": "es",
+     "inicio": 47.72,
+     "fin": 47.98
+    },
+    {
+     "texto": "señal",
+     "inicio": 47.98,
+     "fin": 48.34
+    },
+    {
+     "texto": "de",
+     "inicio": 48.34,
+     "fin": 48.44
+    },
+    {
+     "texto": "estafa.",
+     "inicio": 48.44,
+     "fin": 48.74
+    }
+   ],
+   "inicio": 44.22,
+   "fin": 48.74
+  },
+  {
+   "texto": "Mandáselo al que hace clic en todo.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 49.18,
+     "fin": 49.78
+    },
+    {
+     "texto": "al",
+     "inicio": 49.78,
+     "fin": 49.88
+    },
+    {
+     "texto": "que",
+     "inicio": 49.88,
+     "fin": 49.94
+    },
+    {
+     "texto": "hace",
+     "inicio": 49.94,
+     "fin": 50.08
+    },
+    {
+     "texto": "clic",
+     "inicio": 50.08,
+     "fin": 50.28
+    },
+    {
+     "texto": "en",
+     "inicio": 50.28,
+     "fin": 50.46
+    },
+    {
+     "texto": "todo.",
+     "inicio": 50.46,
+     "fin": 50.64
+    }
+   ],
+   "inicio": 49.18,
+   "fin": 50.64
+  }
+ ]
+}

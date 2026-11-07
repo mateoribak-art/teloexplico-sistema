@@ -1,0 +1,54 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segunda pasada con búsqueda web y lectura de las dos fuentes primarias. Todas las afirmaciones de seguridad y de plata quedan verificadas. La atribución de la página falsa a la campaña de WeLiveSecurity (31/3/2026) y la de Chequeado solo a Correo Argentino y FedEx (2/6/2025) coinciden con los textos. No hay afirmaciones falsas, dudosas ni probables sin matiz. Observación menor, que no bloquea: en el cuerpo de la nota de Chequeado la cita textual de Correo Argentino es sobre SMS ('nunca vamos a enviarte estos mensajes de texto'), y la frase general sobre pagos y datos personales está en el resumen de la nota, que nombra a ambas empresas. La frase dice 'según Chequeado', así que la atribución es correcta.",
+  "afirmaciones": [
+    {
+      "texto": "Te llega un aviso: tu paquete está retenido, pagá una tasa para liberarlo.",
+      "fuente": "WeLiveSecurity 31/3/2026 (mensaje alerta de envío retenido y exige 'tasa para liberar el envío'); Chequeado 2/6/2025 (mensajes de paquete retenido que piden ingresar a un enlace para pagar)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si te piden pagar por un link, es una estafa. / Para guardar: plata por mensaje para liberar un paquete, es señal de estafa.",
+      "fuente": "Chequeado 2/6/2025 (Correo Argentino y FedEx no piden pagos por mensaje); Correo Argentino (no solicita pagos por SMS ni redes); FedEx (pedido inesperado de dinero por un paquete es señal de alerta). La segunda frase está formulada como 'señal', con el matiz correcto.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Una campaña así llevaba a una página que imita al Correo, con un formulario para cargar la tarjeta.",
+      "fuente": "WeLiveSecurity, 31/3/2026: el sitio imita al Correo Argentino y la etapa final pide datos de tarjeta para un supuesto pago",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "WeLiveSecurity lo documentó en marzo de dos mil veintiséis: hasta aparece como anuncio dentro de Gmail, entre tus mails de verdad. / Aparecía como anuncio dentro de Gmail",
+      "fuente": "WeLiveSecurity, 31/3/2026: anuncios patrocinados que se mezclan con correos legítimos en Gmail (observado en Gmail para Android)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y buscar faltas de ortografía ya no alcanza: con inteligencia artificial, los textos salen impecables. / ya no se puede confiar en las faltas de ortografía porque la inteligencia artificial escribe bien",
+      "fuente": "WeLiveSecurity, 31/3/2026: las viejas reglas basadas en errores de redacción ya no sirven, el texto está bien redactado y el artículo lo atribuye a herramientas modernas, incluida la IA",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Según Chequeado, Correo Argentino y FedEx nunca piden pagos ni datos personales por mensaje a cambio de un paquete.",
+      "fuente": "Chequeado, 2/6/2025: resumen de la nota, 'nunca solicitan pagos o información personal a cambio de bienes en tránsito o en custodia mediante emails o mensajes', con FedEx y Correo Argentino citados desde sus sitios",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: si sí esperás algo, entrá vos al sitio oficial escribiendo la dirección, no desde el link. / Mandáselo al que hace clic en todo.",
+      "fuente": "Recomendación: Correo Argentino, Cronista y ESET (verificar el estado del envío en el sitio o la app oficial y no hacer clic en enlaces sospechosos). 'Mandáselo al que hace clic en todo' es una invitación, no una afirmación fáctica.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes: WeLiveSecurity (31/3/2026), Chequeado (2/6/2025).",
+      "fuente": "Fechas confirmadas en las páginas originales: 31 de marzo de 2026 y 2 de junio de 2025",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

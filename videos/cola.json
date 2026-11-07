@@ -1688,5 +1688,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "047-paquete-retenido",
+  "tema": "Estafa del paquete retenido: te piden pagar una tasa por link (WeLiveSecurity 2026, Chequeado)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-07T16:43",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-07T16:43",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-07T16:47",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-07T17:00",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

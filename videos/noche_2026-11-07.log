@@ -30,3 +30,15 @@ Permisos negados (1):
 2026-11-07 13:00 Render de 046-perro-no-comas (sin Claude).
 2026-11-07 13:27 046-perro-no-comas: listo (render sin Claude)
 2026-11-07 13:27 Termina la producción (ok).
+2026-11-07 16:41 Arranca la producción (19 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Producí un video nuevo: **047-paquete-retenido** (estafa del paquete retenido; pilar celular_estafas, serie argentina #8). Quedó en estado `render` y `producir.py` lo renderiza después. Rehice el 047 una vez: el primer chequeo lo rechazó y el segundo lo aprobó, con el matiz de que Chequeado habla solo de Correo Argentino y FedEx. La voz dura 50,8 s (138 palabras), más del tope de 45 s.
+- **Rescates:** no hubo. El único apartado es `005-granizo-calor`, que no cayó por chequeo rechazado.
+- **Segundo video:** no lo hice porque la cola ya tenía más de 10 listos.
+- **Revisión visual:** hice una sola vuelta de cuadros y corregí un choque entre la fila de mails y el cartel. No volví a mirar los cuadros después de ese arreglo; `tsc` da sin errores.
+- **Golpe de calor:** lo descarté como tema porque no pude abrir una fuente primaria (Ministerio de Salud, CDC) para el dato de salud.
+
+Todo quedó registrado en `videos/produccion.log`.
+Uso: 17 pasos · 13,362 tokens nuevos · 1,033,545 de caché · 6,212 escritos · equivale a US$ 1.12 de API
+2026-11-07 16:47 Render de 047-paquete-retenido (sin Claude).
+2026-11-07 17:00 047-paquete-retenido: listo (render sin Claude)
+2026-11-07 17:00 Termina la producción (ok).

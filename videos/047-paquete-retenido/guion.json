@@ -1,0 +1,23 @@
+{
+  "titulo": "Te llega un aviso de paquete retenido y te piden pagar una tasa por un link: es una estafa",
+  "fondo": "oscuro",
+  "receta": "El que lo hace mal / pilar celular_estafas",
+  "pilar": "celular_estafas",
+  "destinatario": "se lo manda una hija o un hermano a su mamá o a su amigo que hace clic en todo, para decirle que no pague la tasa de un paquete que ni esperaba",
+  "regla_guardable": "Si te piden plata por mensaje para liberar un paquete, es señal de estafa: entrá vos al sitio oficial, escribiendo la dirección.",
+  "fuentes": [
+    "WeLiveSecurity (ESET), 31 de marzo de 2026: anuncios falsos de Correo Argentino en Gmail",
+    "Chequeado, 2 de junio de 2025: mensajes de paquete retenido, cómo reconocerlos"
+  ],
+  "frases": [
+    {"texto": "Te llega un aviso: tu paquete está retenido, pagá una tasa para liberarlo. Y vos no esperabas nada.", "estilo": "Seco, directo, a cámara."},
+    {"texto": "Si te piden pagar por un link, es una estafa.", "estilo": "Contundente."},
+    {"texto": "Una campaña así llevaba a una página que imita al Correo, con un formulario para cargar la tarjeta.", "estilo": "Informativo, con ritmo."},
+    {"texto": "WeLiveSecurity lo documentó en marzo de dos mil veintiséis: hasta aparece como anuncio dentro de Gmail, entre tus mails de verdad.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Y buscar faltas de ortografía ya no alcanza: con inteligencia artificial, los textos salen impecables.", "estilo": "Serio, que pesa."},
+    {"texto": "Según Chequeado, Correo Argentino y FedEx nunca piden pagos ni datos personales por mensaje a cambio de un paquete.", "estilo": "Informativo, claro."},
+    {"texto": "Ojo: si sí esperás algo, entrá vos al sitio oficial escribiendo la dirección, no desde el link.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Para guardar: plata por mensaje para liberar un paquete, es señal de estafa.", "estilo": "Práctico, amable."},
+    {"texto": "Mandáselo al que hace clic en todo.", "estilo": "Cómplice, con humor."}
+  ]
+}
