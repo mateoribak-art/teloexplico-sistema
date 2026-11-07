@@ -202,7 +202,7 @@
  },
  {
   "clave": "serie-clima-1",
-  "estado": "listo",
+  "estado": "publicado",
   "origen": [
    "004-olor-a-lluvia",
    "018-rayo-trueno",
@@ -219,6 +219,11 @@
     "estado": "listo",
     "cuando": "2026-11-06T14:08",
     "motivo": "control OK"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-07T19:26",
+    "motivo": "https://www.instagram.com/p/DfdQIG8EzTc/"
    }
   ]
  },
