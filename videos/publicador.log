@@ -198,3 +198,14 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0x91 in position 1: invalid 
 2026-11-07 12:34 028-yerba-por-ano https://youtube.com/shorts/EKu1OftpJuQ | privacidad: public
 portada: ok
 2026-11-07 12:34 028-yerba-por-ano paquete para TikTok/YouTube enviado
+2026-11-07 19:33 029-cataratas-por-segundo publicado: https://www.instagram.com/reel/DfdQwhUlEv8/
+2026-11-07 19:33 029-cataratas-por-segundo publicado en Facebook: https://www.facebook.com/reel/1138772818651287/
+2026-11-07 19:33 029-cataratas-por-segundo falló TikTok: ^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+                 ^^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x91 in position 1: invalid start byte
+2026-11-07 19:33 029-cataratas-por-segundo https://youtube.com/shorts/9lrRWPdxdUs | privacidad: public
+portada: ok
+2026-11-07 19:33 029-cataratas-por-segundo paquete para TikTok/YouTube enviado

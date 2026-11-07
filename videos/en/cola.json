@@ -845,7 +845,7 @@
  {
   "slug": "en-023-package-text",
   "tema": "Package text scam: don't tap, forward to 7726 (FTC; pillar phone scams)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -866,6 +866,11 @@
     "estado": "listo",
     "cuando": "2026-11-05T09:19",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-07T19:34",
+    "motivo": "https://www.instagram.com/reel/DfdQ9nzGcv2/"
    }
   ]
  },
