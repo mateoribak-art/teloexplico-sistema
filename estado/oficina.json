@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T03:53",
+ "actualizado": "2026-11-07T04:19",
  "oficinas": [
   {
    "clave": "es",
@@ -104,7 +104,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-07T00:02",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "Uso: 15 pasos · 11,853 tokens nuevos · 738,100 de caché · 2,275 escritos · equivale a US$ 1.04 de API",
       "2026-11-06 22:16 Arranca la producción (17 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -167,7 +167,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y clima de la semana): sin resultados fechados de hoy verificables. Descartados: (a) alerta amarilla en 8-10 prov",
      "cuando": "2026-11-06T17:01",
-     "hace": "hace 10 h",
+     "hace": "hace 11 h",
      "detalle": [
       "04/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y clima/tendencias): solo resultados sin fecha verificable de hoy (julio 2026, noviembre 2025, ene-feb 2026). Descartados: (a) alertas de tormentas/granizo en 10-12 provincias (sin fecha ni año verificable; granizo ya tiene 005 y 024), (b) ola de calor de 40°C (sin fecha verificable; calor ya cubierto en 019/008), (c) ciclón/lluvias 48 h (sin fecha verificable; lluvia ya cubierta en 004/016). Sin tema verificable; sigue la cola normal.",
       "05/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias de clima): resultados sin fecha verificable de hoy. Descartados: (a) alerta amarilla por frente/lluvia en AMBA y 10 provincias \"hasta el 6 de nov\" (Cronista, sin fecha ni año verificable; lluvia y tormentas ya cubiertas en 004/016/018), (b) Super Niño 2026 (tema de fondo desde abril-agosto, no de hoy; ya está 016), (c) ola de calor 40°C (sin fecha). Sin tema verificable; sigue la cola normal.",
@@ -203,7 +203,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-07T00:02",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "037-perro-en-el-auto: aprobado — Todas las afirmaciones de salud, seguridad y cifras coinciden con McLaren, Null y Quinn (Pediatrics 2005;116:e109) y con la guía de la AVMA,",
       "038-codigo-whatsapp: aprobado — Segunda pasada. Las dos correcciones quedaron respaldadas por fuente primaria de WhatsApp: la verificación en dos pasos pasó de PIN de 6 díg",
@@ -236,7 +236,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-07T00:02",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -260,7 +260,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-07 00:02.",
      "cuando": "2026-11-07T00:02",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -284,7 +284,7 @@
      "estado": "ok",
      "resumen": "18 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-07T00:02",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -408,7 +408,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-07T03:53",
-     "hace": "recién",
+     "hace": "hace 26 min",
      "detalle": [
       "07/11 00:41 Hay 7 comentarios nuevos: arranca la respuesta.",
       "07/11 00:00 Respondí 5 · salteé 1 · alerté 1. (026-mediodia-hora-corrida: saraelviragallardo, pablobaok, alfonsomoschen, jorsegui20 y nachojper respondidos; horaciorodriguezmontero salteado (chicana política); franparatore alertado a Mateo: afirma una votación sobre el huso horario que contradice la Ley 26.350)",
@@ -480,7 +480,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-07T03:53",
+     "cuando": "2026-11-07T04:19",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -649,7 +649,7 @@
      "estado": "ok",
      "resumen": "Décima pasada del radar: la búsqueda web no devolvió alertas del NWS ni noticias de las últimas 48 h (páginas sin fecha, de abril o de 2025). Descartados: (1) t",
      "cuando": "2026-11-06T17:02",
-     "hace": "hace 10 h",
+     "hace": "hace 11 h",
      "detalle": [
       "04/11 00:00 Octava pasada del radar: la búsqueda web no devolvió nada verificable de las últimas 48 h (NWS sin fecha del día, notas sin fecha). Descartados: (1) nor'easter / inundaciones en California y Suroeste (AccuWeather): sin fecha ni fuente oficial del día; (2) récord de temperatura de noviembre en Denver / ríos atmosféricos (Guardian): sin fecha confirmada; (3) pronóstico de Thanksgiving: todavía lejos y sin gancho. Sin tema nuevo.",
       "05/11 00:00 Novena pasada del radar: la búsqueda solo devolvió pronósticos locales de TV (lluvia a mitad de semana, enfriada a fin de semana) y páginas sin fecha; nada verificable de las últimas 48 h. Descartados: (1) lluvia/enfriada de la semana en Sureste y Nordeste: regional, sin fuente oficial del día y sin gancho; (2) pronóstico de Thanksgiving (Farmers' Almanac): no es fuente oficial y falta lejos; (3) estudio \"pronóstico a 5 días = 1 día en los 80\": sin fecha confirmada. Sin tema nuevo.",
@@ -924,7 +924,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-07T03:53",
+     "cuando": "2026-11-07T04:19",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
