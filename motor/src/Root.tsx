@@ -49,6 +49,7 @@ import { DURACION as DUR_039, FPS as FPS_039, SolNublado3D, Portada039 } from ".
 import { DURACION as DUR_040, FPS as FPS_040, ConsumoFantasma3D, Portada040 } from "./videos/040-consumo-fantasma/Video";
 import { DURACION as DUR_042, FPS as FPS_042, LaburoItaliano3D, Portada042 } from "./videos/042-laburo-italiano/Video";
 import { DURACION as DUR_043, FPS as FPS_043, FeriadosVisita3D, Portada043 } from "./videos/043-feriados-visita/Video";
+import { DURACION as DUR_044, FPS as FPS_044, MisaFabricaAviones3D, Portada044 } from "./videos/044-misa-fabrica-aviones/Video";
 import { DURACION as DUR_041, FPS as FPS_041, CelularArroz041, Portada041 } from "./videos/041-celular-arroz-v2/Video";
 import { DURACION as DUR_023, FPS as FPS_023, PerrosColores023, Portada023 } from "./videos/023-perros-colores/Video";
 import { DURACION as DUR_024, FPS as FPS_024, GranizoCorto024, Portada024 } from "./videos/024-granizo-corto/Video";
@@ -77,6 +78,7 @@ import { DURACION as DUR_EN021,FPS as FPS_EN021, OtherLineEn021, PortadaEn021 } 
 import { DURACION as DUR_EN022, FPS as FPS_EN022, PowerOutageEn022, PortadaEn022 } from "./videos/en-022-power-outage-fridge/Video";
 import { DURACION as DUR_EN023, FPS as FPS_EN023, PackageTextEn023, PortadaEn023 } from "./videos/en-023-package-text/Video";
 import { DURACION as DUR_EN024, FPS as FPS_EN024, HeatIndexEn024, PortadaEn024 } from "./videos/en-024-heat-index/Video";
+import { DURACION as DUR_EN027, FPS as FPS_EN027, BleachVinegarEn027, PortadaEn027 } from "./videos/en-027-bleach-vinegar/Video";
 import { DURACION as DUR_EN025, FPS as FPS_EN025, DogHotCarEn025, PortadaEn025 } from "./videos/en-025-dog-hot-car/Video";
 import { DURACION as DUR_EN026, FPS as FPS_EN026, ElNinoWinterEn026, PortadaEn026 } from "./videos/en-026-el-nino-winter/Video";
 import { DURACION as DUR_EN001,FPS as FPS_EN001, PhoneRiceEn001, PortadaEn001 } from "./videos/en-001-phone-rice/Video";
@@ -136,6 +138,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p042-laburo-italiano" component={Portada042} width={ANCHO} height={ALTO} />
         <Composition id="h043-feriados-visita" component={FeriadosVisita3D} durationInFrames={DUR_043} fps={FPS_043} width={ANCHO} height={ALTO} />
         <Still id="p043-feriados-visita" component={Portada043} width={ANCHO} height={ALTO} />
+        <Composition id="h044-misa-fabrica-aviones" component={MisaFabricaAviones3D} durationInFrames={DUR_044} fps={FPS_044} width={ANCHO} height={ALTO} />
+        <Still id="p044-misa-fabrica-aviones" component={Portada044} width={ANCHO} height={ALTO} />
         <Composition id="h041-celular-arroz-v2" component={CelularArroz041} durationInFrames={DUR_041} fps={FPS_041} width={ANCHO} height={ALTO} />
         <Still id="p041-celular-arroz-v2" component={Portada041} width={ANCHO} height={ALTO} />
         <Composition id="h026-mediodia-hora-corrida" component={MediodiaHoraCorrida3D} durationInFrames={DUR_026} fps={FPS_026} width={ANCHO} height={ALTO} />
@@ -197,6 +201,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-025-dog-hot-car" component={PortadaEn025} width={ANCHO} height={ALTO} />
         <Composition id="hen-026-el-nino-winter" component={ElNinoWinterEn026} durationInFrames={DUR_EN026} fps={FPS_EN026} width={ANCHO} height={ALTO} />
         <Still id="pen-026-el-nino-winter" component={PortadaEn026} width={ANCHO} height={ALTO} />
+        <Composition id="hen-027-bleach-vinegar" component={BleachVinegarEn027} durationInFrames={DUR_EN027} fps={FPS_EN027} width={ANCHO} height={ALTO} />
+        <Still id="pen-027-bleach-vinegar" component={PortadaEn027} width={ANCHO} height={ALTO} />
       </Folder>
       <Folder name="carruseles">
         <Still id="carrusel" component={CarruselPlaca} width={ANCHO_C} height={ALTO_C} defaultProps={{ datos: { origen: [], placas: [{ tipo: "cierre", texto: "placa de prueba" }] }, i: 0 }} />

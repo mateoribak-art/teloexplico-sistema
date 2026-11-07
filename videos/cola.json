@@ -1600,5 +1600,34 @@
   ],
   "prioridad": "actualidad",
   "creado": "2026-11-06T19:25"
+ },
+ {
+  "slug": "044-misa-fabrica-aviones",
+  "tema": "La misa en Córdoba es en la Fábrica Argentina de Aviones: qué es ese lugar (fundada 1927, Pulqui I 1947)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-06T22:16",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-06T22:17",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-06T22:33",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-07T00:02",
+    "motivo": "render sin Claude"
+   }
+  ],
+  "prioridad": "actualidad",
+  "creado": "2026-11-06T22:16"
  }
 ]

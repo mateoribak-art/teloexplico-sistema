@@ -43,3 +43,11 @@ Permisos negados (1):
 2026-11-06 19:34 Render de 043-feriados-visita (sin Claude).
 2026-11-06 20:20 043-feriados-visita: listo (render sin Claude)
 2026-11-06 20:20 Termina la producción (ok).
+2026-11-06 22:16 Arranca la producción (17 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `044-misa-fabrica-aviones` (video 2 de la visita: la misa de Córdoba es en FAdeA; pilar argentina, serie argentina #7). El chequeo lo rechazó la primera vez porque la atribución al Boletín Oficial no se pudo confirmar. La cambié por "según el Ministerio de Defensa", que se verificó en su página oficial, y la segunda pasada lo aprobó. La voz sale 155/155 palabras y dura 52,7 s, por encima del tope de 45 s. `tsc` pasa y revisé los cuadros en dos vueltas. El render y el control los hace `producir.py` sin Claude. El estado ya está en `render`.
+- **Apartados:** solo `005-granizo-calor`, que no fue por chequeo rechazado, así que no hubo rescates.
+- **No hice un segundo video:** la cola tenía más de 10 listos, y el 044 era el video 2 de la visita pedido por Mateo. Con el 043, la visita queda con sus dos videos.
+Uso: 15 pasos · 11,853 tokens nuevos · 738,100 de caché · 2,275 escritos · equivale a US$ 1.04 de API
+2026-11-06 22:33 Render de 044-misa-fabrica-aviones (sin Claude).
+2026-11-07 00:02 044-misa-fabrica-aviones: listo (render sin Claude)
+2026-11-07 00:02 Termina la producción (ok).

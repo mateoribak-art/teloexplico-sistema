@@ -1,0 +1,26 @@
+{
+  "titulo": "Mixing bleach with vinegar so it cleans better makes a toxic gas",
+  "serie": "casa",
+  "fondo": "oscuro",
+  "receta": "el que lo hace mal / pilar casa",
+  "pilar": "casa",
+  "destinatario": "se lo manda alguien a su mamá o a su pareja, el que mezcla bleach con vinagre u otro limpiador 'para que limpie mejor', para decirle que pare",
+  "regla_guardable": "Bleach alone. Never mixed with vinegar, ammonia or any other cleaner.",
+  "fuentes": [
+    "CDC: Cleaning and Sanitizing with Bleach After an Emergency (stacks.cdc.gov/view/cdc/44192): 'Never mix bleach with ammonia or any other cleaner.'",
+    "CDC: Cleaning and Disinfecting with Bleach (cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html): follow the label, good ventilation",
+    "CDC MMWR (cdc.gov/mmwr/preview/mmwrhtml/00015111.htm): bleach + acid = chlorine gas; bleach + ammonia products = chloramines",
+    "Poison Control (poison.org/articles/vinegar-164, /chlorine-gas)"
+  ],
+  "frases": [
+    {"texto": "You mix bleach with vinegar so it cleans better.", "estilo": "Dry, direct, to the camera."},
+    {"texto": "What it actually makes is a gas.", "estilo": "Punchy."},
+    {"texto": "Vinegar is an acid, and bleach plus an acid releases chlorine gas.", "estilo": "Intriguing, clear."},
+    {"texto": "Some cleaners contain ammonia, so check the label. Mixed with bleach, that forms chloramines, another irritating gas.", "estilo": "Informative, serious."},
+    {"texto": "Chlorine gas can burn the eyes, nose and throat, and cause coughing.", "estilo": "Informative, calm."},
+    {"texto": "The CDC says it plainly: never mix bleach with ammonia or any other cleaner.", "estilo": "Informative, with authority."},
+    {"texto": "Heads up: the gas comes from the mixing. Use bleach alone, follow the label, and keep the air moving.", "estilo": "Calm, honest caveat."},
+    {"texto": "Today, one product at a time.", "estilo": "Practical, friendly."},
+    {"texto": "Send this to the friend who mixes everything so it cleans better.", "estilo": "Playful and funny."}
+  ]
+}

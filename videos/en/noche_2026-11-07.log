@@ -1,0 +1,8 @@
+2026-11-07 00:02 Arranca la producción (5 listos en la cola, meta 6).
+- **Listo para render:** `en-027-bleach-vinegar`, adaptado de 035 (bleach + vinegar/ammonia = gas, serie casa #6). El chequeo del subagente lo aprobó en el primer intento con fuentes del CDC y Poison Control. La voz salió de 38,9 s con 108 de 108 palabras, `tlx tsc` pasó y revisé la hoja de cuadros. Queda en estado `render`; lo renderiza `producir.py`, así que todavía no hay MP4 y no corrí `tlx control`.
+- **Rescate:** no había videos apartados por chequeo rechazado en esta cola, así que no rescaté ninguno.
+- **Radar:** no repetí la búsqueda de actualidad. Las últimas pasadas no habían encontrado tema y no hubo tiempo para otra; lo anoté en `videos/en/produccion.log`.
+Uso: 42 pasos · 72,493 tokens nuevos · 1,374,414 de caché · 11,482 escritos · equivale a US$ 0.69 de API
+2026-11-07 00:07 Render de en-027-bleach-vinegar (sin Claude).
+2026-11-07 00:40 en-027-bleach-vinegar: listo (render sin Claude)
+2026-11-07 00:40 Termina la producción (ok).

@@ -1,0 +1,850 @@
+{
+ "duracion": 52.66,
+ "frases": [
+  {
+   "texto": "La misa del martes en Córdoba no es en una plaza ni en una iglesia: es en una fábrica de aviones.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 0.0,
+     "fin": 0.16
+    },
+    {
+     "texto": "misa",
+     "inicio": 0.16,
+     "fin": 0.44
+    },
+    {
+     "texto": "del",
+     "inicio": 0.44,
+     "fin": 0.58
+    },
+    {
+     "texto": "martes",
+     "inicio": 0.58,
+     "fin": 0.92
+    },
+    {
+     "texto": "en",
+     "inicio": 0.92,
+     "fin": 1.08
+    },
+    {
+     "texto": "Córdoba",
+     "inicio": 1.08,
+     "fin": 1.48
+    },
+    {
+     "texto": "no",
+     "inicio": 1.48,
+     "fin": 2.02
+    },
+    {
+     "texto": "es",
+     "inicio": 2.02,
+     "fin": 2.16
+    },
+    {
+     "texto": "en",
+     "inicio": 2.16,
+     "fin": 2.3
+    },
+    {
+     "texto": "una",
+     "inicio": 2.3,
+     "fin": 2.46
+    },
+    {
+     "texto": "plaza",
+     "inicio": 2.46,
+     "fin": 2.92
+    },
+    {
+     "texto": "ni",
+     "inicio": 2.92,
+     "fin": 3.46
+    },
+    {
+     "texto": "en",
+     "inicio": 3.46,
+     "fin": 3.6
+    },
+    {
+     "texto": "una",
+     "inicio": 3.6,
+     "fin": 3.74
+    },
+    {
+     "texto": "iglesia:",
+     "inicio": 3.74,
+     "fin": 4.1
+    },
+    {
+     "texto": "es",
+     "inicio": 4.58,
+     "fin": 4.82
+    },
+    {
+     "texto": "en",
+     "inicio": 4.82,
+     "fin": 4.98
+    },
+    {
+     "texto": "una",
+     "inicio": 4.98,
+     "fin": 5.14
+    },
+    {
+     "texto": "fábrica",
+     "inicio": 5.14,
+     "fin": 5.68
+    },
+    {
+     "texto": "de",
+     "inicio": 5.68,
+     "fin": 5.84
+    },
+    {
+     "texto": "aviones.",
+     "inicio": 5.84,
+     "fin": 6.24
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 6.24
+  },
+  {
+   "texto": "Es el predio de la Fábrica Argentina de Aviones, FAdeA, y la misa es el martes diez de noviembre, a las diez de la mañana.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 6.78,
+     "fin": 7.08
+    },
+    {
+     "texto": "el",
+     "inicio": 7.08,
+     "fin": 7.24
+    },
+    {
+     "texto": "predio",
+     "inicio": 7.24,
+     "fin": 7.5
+    },
+    {
+     "texto": "de",
+     "inicio": 7.5,
+     "fin": 7.62
+    },
+    {
+     "texto": "la",
+     "inicio": 7.62,
+     "fin": 7.72
+    },
+    {
+     "texto": "Fábrica",
+     "inicio": 7.72,
+     "fin": 8.02
+    },
+    {
+     "texto": "Argentina",
+     "inicio": 8.02,
+     "fin": 8.42
+    },
+    {
+     "texto": "de",
+     "inicio": 8.42,
+     "fin": 8.62
+    },
+    {
+     "texto": "Aviones,",
+     "inicio": 8.62,
+     "fin": 8.9
+    },
+    {
+     "texto": "FAdeA,",
+     "inicio": 9.26,
+     "fin": 9.76
+    },
+    {
+     "texto": "y",
+     "inicio": 10.22,
+     "fin": 10.34
+    },
+    {
+     "texto": "la",
+     "inicio": 10.34,
+     "fin": 10.42
+    },
+    {
+     "texto": "misa",
+     "inicio": 10.42,
+     "fin": 10.66
+    },
+    {
+     "texto": "es",
+     "inicio": 10.66,
+     "fin": 10.78
+    },
+    {
+     "texto": "el",
+     "inicio": 10.78,
+     "fin": 10.9
+    },
+    {
+     "texto": "martes",
+     "inicio": 10.9,
+     "fin": 11.18
+    },
+    {
+     "texto": "diez",
+     "inicio": 11.18,
+     "fin": 11.36
+    },
+    {
+     "texto": "de",
+     "inicio": 11.36,
+     "fin": 11.5
+    },
+    {
+     "texto": "noviembre,",
+     "inicio": 11.5,
+     "fin": 12.0
+    },
+    {
+     "texto": "a",
+     "inicio": 12.18,
+     "fin": 12.34
+    },
+    {
+     "texto": "las",
+     "inicio": 12.34,
+     "fin": 12.44
+    },
+    {
+     "texto": "diez",
+     "inicio": 12.44,
+     "fin": 12.64
+    },
+    {
+     "texto": "de",
+     "inicio": 12.64,
+     "fin": 12.78
+    },
+    {
+     "texto": "la",
+     "inicio": 12.78,
+     "fin": 12.86
+    },
+    {
+     "texto": "mañana.",
+     "inicio": 12.86,
+     "fin": 13.12
+    }
+   ],
+   "inicio": 6.78,
+   "fin": 13.12
+  },
+  {
+   "texto": "Los medios hablan de cientos de miles de personas esperadas, y por eso hace falta un predio enorme.",
+   "palabras": [
+    {
+     "texto": "Los",
+     "inicio": 13.7,
+     "fin": 13.86
+    },
+    {
+     "texto": "medios",
+     "inicio": 13.86,
+     "fin": 14.1
+    },
+    {
+     "texto": "hablan",
+     "inicio": 14.1,
+     "fin": 14.44
+    },
+    {
+     "texto": "de",
+     "inicio": 14.44,
+     "fin": 14.64
+    },
+    {
+     "texto": "cientos",
+     "inicio": 14.64,
+     "fin": 15.06
+    },
+    {
+     "texto": "de",
+     "inicio": 15.06,
+     "fin": 15.26
+    },
+    {
+     "texto": "miles",
+     "inicio": 15.26,
+     "fin": 15.42
+    },
+    {
+     "texto": "de",
+     "inicio": 15.42,
+     "fin": 15.58
+    },
+    {
+     "texto": "personas",
+     "inicio": 15.58,
+     "fin": 15.88
+    },
+    {
+     "texto": "esperadas,",
+     "inicio": 15.88,
+     "fin": 16.54
+    },
+    {
+     "texto": "y",
+     "inicio": 16.9,
+     "fin": 17.12
+    },
+    {
+     "texto": "por",
+     "inicio": 17.12,
+     "fin": 17.26
+    },
+    {
+     "texto": "eso",
+     "inicio": 17.26,
+     "fin": 17.42
+    },
+    {
+     "texto": "hace",
+     "inicio": 17.42,
+     "fin": 17.6
+    },
+    {
+     "texto": "falta",
+     "inicio": 17.6,
+     "fin": 17.88
+    },
+    {
+     "texto": "un",
+     "inicio": 17.88,
+     "fin": 18.12
+    },
+    {
+     "texto": "predio",
+     "inicio": 18.12,
+     "fin": 18.52
+    },
+    {
+     "texto": "enorme.",
+     "inicio": 18.52,
+     "fin": 18.84
+    }
+   ],
+   "inicio": 13.7,
+   "fin": 18.84
+  },
+  {
+   "texto": "Pero, ¿qué es ese lugar?",
+   "palabras": [
+    {
+     "texto": "Pero,",
+     "inicio": 19.38,
+     "fin": 19.56
+    },
+    {
+     "texto": "¿qué",
+     "inicio": 19.64,
+     "fin": 19.74
+    },
+    {
+     "texto": "es",
+     "inicio": 19.74,
+     "fin": 19.88
+    },
+    {
+     "texto": "ese",
+     "inicio": 19.88,
+     "fin": 20.02
+    },
+    {
+     "texto": "lugar?",
+     "inicio": 20.02,
+     "fin": 20.22
+    }
+   ],
+   "inicio": 19.38,
+   "fin": 20.22
+  },
+  {
+   "texto": "La fábrica de Córdoba existe desde mil novecientos veintisiete, cuando nació como Fábrica Militar de Aviones.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 20.8,
+     "fin": 20.96
+    },
+    {
+     "texto": "fábrica",
+     "inicio": 20.96,
+     "fin": 21.28
+    },
+    {
+     "texto": "de",
+     "inicio": 21.28,
+     "fin": 21.42
+    },
+    {
+     "texto": "Córdoba",
+     "inicio": 21.42,
+     "fin": 21.74
+    },
+    {
+     "texto": "existe",
+     "inicio": 21.74,
+     "fin": 22.06
+    },
+    {
+     "texto": "desde",
+     "inicio": 22.06,
+     "fin": 22.32
+    },
+    {
+     "texto": "mil",
+     "inicio": 22.32,
+     "fin": 22.5
+    },
+    {
+     "texto": "novecientos",
+     "inicio": 22.5,
+     "fin": 23.02
+    },
+    {
+     "texto": "veintisiete,",
+     "inicio": 23.02,
+     "fin": 23.52
+    },
+    {
+     "texto": "cuando",
+     "inicio": 24.02,
+     "fin": 24.22
+    },
+    {
+     "texto": "nació",
+     "inicio": 24.22,
+     "fin": 24.46
+    },
+    {
+     "texto": "como",
+     "inicio": 24.46,
+     "fin": 24.7
+    },
+    {
+     "texto": "Fábrica",
+     "inicio": 24.7,
+     "fin": 25.12
+    },
+    {
+     "texto": "Militar",
+     "inicio": 25.12,
+     "fin": 25.52
+    },
+    {
+     "texto": "de",
+     "inicio": 25.52,
+     "fin": 25.68
+    },
+    {
+     "texto": "Aviones.",
+     "inicio": 25.68,
+     "fin": 26.0
+    }
+   ],
+   "inicio": 20.8,
+   "fin": 26.0
+  },
+  {
+   "texto": "Y de ahí salió el Pulqui Uno, que voló en mil novecientos cuarenta y siete.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 26.72,
+     "fin": 26.84
+    },
+    {
+     "texto": "de",
+     "inicio": 26.84,
+     "fin": 26.96
+    },
+    {
+     "texto": "ahí",
+     "inicio": 26.96,
+     "fin": 27.2
+    },
+    {
+     "texto": "salió",
+     "inicio": 27.2,
+     "fin": 27.64
+    },
+    {
+     "texto": "el",
+     "inicio": 27.64,
+     "fin": 27.88
+    },
+    {
+     "texto": "Pulqui",
+     "inicio": 27.88,
+     "fin": 28.38
+    },
+    {
+     "texto": "Uno,",
+     "inicio": 28.38,
+     "fin": 28.84
+    },
+    {
+     "texto": "que",
+     "inicio": 29.28,
+     "fin": 29.36
+    },
+    {
+     "texto": "voló",
+     "inicio": 29.36,
+     "fin": 29.68
+    },
+    {
+     "texto": "en",
+     "inicio": 29.68,
+     "fin": 29.96
+    },
+    {
+     "texto": "mil",
+     "inicio": 29.96,
+     "fin": 30.16
+    },
+    {
+     "texto": "novecientos",
+     "inicio": 30.16,
+     "fin": 30.78
+    },
+    {
+     "texto": "cuarenta",
+     "inicio": 30.78,
+     "fin": 31.16
+    },
+    {
+     "texto": "y",
+     "inicio": 31.16,
+     "fin": 31.26
+    },
+    {
+     "texto": "siete.",
+     "inicio": 31.26,
+     "fin": 31.58
+    }
+   ],
+   "inicio": 26.72,
+   "fin": 31.58
+  },
+  {
+   "texto": "Según el Ministerio de Defensa, fue el primer avión a reacción de su tipo fabricado en Latinoamérica.",
+   "palabras": [
+    {
+     "texto": "Según",
+     "inicio": 32.14,
+     "fin": 32.44
+    },
+    {
+     "texto": "el",
+     "inicio": 32.44,
+     "fin": 32.56
+    },
+    {
+     "texto": "Ministerio",
+     "inicio": 32.56,
+     "fin": 33.0
+    },
+    {
+     "texto": "de",
+     "inicio": 33.0,
+     "fin": 33.1
+    },
+    {
+     "texto": "Defensa,",
+     "inicio": 33.1,
+     "fin": 33.54
+    },
+    {
+     "texto": "fue",
+     "inicio": 34.1,
+     "fin": 34.12
+    },
+    {
+     "texto": "el",
+     "inicio": 34.12,
+     "fin": 34.26
+    },
+    {
+     "texto": "primer",
+     "inicio": 34.26,
+     "fin": 34.72
+    },
+    {
+     "texto": "avión",
+     "inicio": 34.72,
+     "fin": 35.08
+    },
+    {
+     "texto": "a",
+     "inicio": 35.08,
+     "fin": 35.18
+    },
+    {
+     "texto": "reacción",
+     "inicio": 35.18,
+     "fin": 35.64
+    },
+    {
+     "texto": "de",
+     "inicio": 35.64,
+     "fin": 35.82
+    },
+    {
+     "texto": "su",
+     "inicio": 35.82,
+     "fin": 35.96
+    },
+    {
+     "texto": "tipo",
+     "inicio": 35.96,
+     "fin": 36.22
+    },
+    {
+     "texto": "fabricado",
+     "inicio": 36.22,
+     "fin": 36.78
+    },
+    {
+     "texto": "en",
+     "inicio": 36.78,
+     "fin": 36.88
+    },
+    {
+     "texto": "Latinoamérica.",
+     "inicio": 36.88,
+     "fin": 37.56
+    }
+   ],
+   "inicio": 32.14,
+   "fin": 37.56
+  },
+  {
+   "texto": "Ojo: no te confundas, ese avión fue el Pulqui Uno; el Pulqui Dos fue otro modelo, más avanzado, y vino después.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 38.2,
+     "fin": 38.5
+    },
+    {
+     "texto": "no",
+     "inicio": 38.74,
+     "fin": 38.8
+    },
+    {
+     "texto": "te",
+     "inicio": 38.8,
+     "fin": 38.9
+    },
+    {
+     "texto": "confundas,",
+     "inicio": 38.9,
+     "fin": 39.44
+    },
+    {
+     "texto": "ese",
+     "inicio": 39.84,
+     "fin": 39.98
+    },
+    {
+     "texto": "avión",
+     "inicio": 39.98,
+     "fin": 40.18
+    },
+    {
+     "texto": "fue",
+     "inicio": 40.18,
+     "fin": 40.34
+    },
+    {
+     "texto": "el",
+     "inicio": 40.34,
+     "fin": 40.46
+    },
+    {
+     "texto": "Pulqui",
+     "inicio": 40.46,
+     "fin": 40.8
+    },
+    {
+     "texto": "Uno;",
+     "inicio": 40.8,
+     "fin": 41.24
+    },
+    {
+     "texto": "el",
+     "inicio": 41.8,
+     "fin": 41.92
+    },
+    {
+     "texto": "Pulqui",
+     "inicio": 41.92,
+     "fin": 42.18
+    },
+    {
+     "texto": "Dos",
+     "inicio": 42.18,
+     "fin": 42.4
+    },
+    {
+     "texto": "fue",
+     "inicio": 42.4,
+     "fin": 42.68
+    },
+    {
+     "texto": "otro",
+     "inicio": 42.68,
+     "fin": 42.96
+    },
+    {
+     "texto": "modelo,",
+     "inicio": 42.96,
+     "fin": 43.38
+    },
+    {
+     "texto": "más",
+     "inicio": 43.58,
+     "fin": 43.7
+    },
+    {
+     "texto": "avanzado,",
+     "inicio": 43.7,
+     "fin": 44.26
+    },
+    {
+     "texto": "y",
+     "inicio": 44.7,
+     "fin": 44.86
+    },
+    {
+     "texto": "vino",
+     "inicio": 44.86,
+     "fin": 45.0
+    },
+    {
+     "texto": "después.",
+     "inicio": 45.0,
+     "fin": 45.3
+    }
+   ],
+   "inicio": 38.2,
+   "fin": 45.3
+  },
+  {
+   "texto": "Anotalo: martes diez, diez de la mañana, FAdeA, Córdoba.",
+   "palabras": [
+    {
+     "texto": "Anotalo:",
+     "inicio": 45.9,
+     "fin": 46.3
+    },
+    {
+     "texto": "martes",
+     "inicio": 46.84,
+     "fin": 47.24
+    },
+    {
+     "texto": "diez,",
+     "inicio": 47.24,
+     "fin": 47.44
+    },
+    {
+     "texto": "diez",
+     "inicio": 48.08,
+     "fin": 48.26
+    },
+    {
+     "texto": "de",
+     "inicio": 48.26,
+     "fin": 48.38
+    },
+    {
+     "texto": "la",
+     "inicio": 48.38,
+     "fin": 48.44
+    },
+    {
+     "texto": "mañana,",
+     "inicio": 48.44,
+     "fin": 48.7
+    },
+    {
+     "texto": "FAdeA,",
+     "inicio": 49.34,
+     "fin": 49.96
+    },
+    {
+     "texto": "Córdoba.",
+     "inicio": 50.28,
+     "fin": 50.74
+    }
+   ],
+   "inicio": 45.9,
+   "fin": 50.74
+  },
+  {
+   "texto": "Mandáselo a ese cordobés que va a ir.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 51.22,
+     "fin": 51.72
+    },
+    {
+     "texto": "a",
+     "inicio": 51.72,
+     "fin": 51.8
+    },
+    {
+     "texto": "ese",
+     "inicio": 51.8,
+     "fin": 51.84
+    },
+    {
+     "texto": "cordobés",
+     "inicio": 51.84,
+     "fin": 52.24
+    },
+    {
+     "texto": "que",
+     "inicio": 52.24,
+     "fin": 52.34
+    },
+    {
+     "texto": "va",
+     "inicio": 52.34,
+     "fin": 52.46
+    },
+    {
+     "texto": "a",
+     "inicio": 52.46,
+     "fin": 52.56
+    },
+    {
+     "texto": "ir.",
+     "inicio": 52.56,
+     "fin": 52.58
+    }
+   ],
+   "inicio": 51.22,
+   "fin": 52.58
+  }
+ ]
+}

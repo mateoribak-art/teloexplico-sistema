@@ -1,0 +1,72 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones fácticas (tema de seguridad) están verificadas con fuente primaria de EE. UU. (CDC, MMWR, Poison Control). No hay cifras, ni afirmaciones probables/dudosas/falsas. Las atribuciones al CDC y a Poison Control coinciden con lo que dicen las fuentes. La cita 'never mix bleach with ammonia or any other cleaner' es textual del CDC (stacks.cdc.gov/view/cdc/44192, 2005). Nota menor, no bloqueante: la fuente CDC de esa cita es un documento archivado de 2005 (la página actual de cdc.gov dice 'Never mix household bleach with any other cleaners or disinfectants', mismo sentido, sin mencionar amoníaco); la frase la atribuye a 'the CDC' sin año, lo cual es correcto.",
+  "afirmaciones": [
+    {
+      "texto": "You mix bleach with vinegar so it cleans better. (gancho / premisa del error común)",
+      "fuente": "No es afirmación fáctica: describe el comportamiento que se corrige.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "What it actually makes is a gas. / Bleach + vinegar ... What you actually make is a gas.",
+      "fuente": "Poison Control, poison.org/articles/vinegar-164: 'The combination creates highly irritating chlorine gas.'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Vinegar is an acid, and bleach plus an acid releases chlorine gas.",
+      "fuente": "CDC MMWR (cdc.gov/mmwr/preview/mmwrhtml/00015111.htm): 'Mixing sodium hypochlorite (bleach) with an acid releases chlorine gas'. Poison Control (poison.org/articles/chlorine-gas) lista el vinagre como producto ácido doméstico.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Some cleaners contain ammonia, so check the label. Mixed with bleach, that forms chloramines, another irritating gas.",
+      "fuente": "CDC MMWR (mismo enlace): bleach + ammonia forma monocloramina y dicloramina, irritantes de mucosas y vías respiratorias. Poison Control (chlorine-gas): bleach + amoníaco produce gas cloramina. Nota: Poison Control aclara que es menos volátil y menos probable que cause toxicidad grave que el cloro, pero igual no debe mezclarse; la frase dice solo 'irritating', que es correcto y no exagera.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Chlorine gas can burn the eyes, nose and throat, and cause coughing.",
+      "fuente": "Poison Control (poison.org/articles/chlorine-gas): 'causes burning of the eyes, nose, and throat, as well as a cough.' CDC MMWR: irritación de ojos, nariz, garganta y tos.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The CDC says it plainly: never mix bleach with ammonia or any other cleaner. (frase y caption)",
+      "fuente": "CDC, 'Cleaning and Sanitizing with Bleach After an Emergency', stacks.cdc.gov/view/cdc/44192: 'Never mix bleach with ammonia or any other cleaner.' Corroborado en cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html: 'Never mix household bleach (or any disinfectants) with any other cleaners or disinfectants.'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: the gas comes from the mixing. Use bleach alone, follow the label, and keep the air moving.",
+      "fuente": "CDC (cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html): 'Follow the label directions on the bleach product' y 'Make sure you have good ventilation while using bleach products indoors'. El gas viene de la mezcla: CDC MMWR y Poison Control.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'the CDC and Poison Control say bleach mixed with an acid releases chlorine gas'",
+      "fuente": "CDC MMWR (00015111.htm) y Poison Control (poison.org/articles/chlorine-gas y vinegar-164): ambos lo dicen.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'With cleaners that contain ammonia, bleach forms chloramines, another irritating gas.'",
+      "fuente": "CDC MMWR y Poison Control (ver arriba).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Today, one product at a time. / Send this to the friend... / Home myths #6 / hashtags / pregunta del caption",
+      "fuente": "Llamados a la acción y consejo práctico derivado de la regla del CDC; sin afirmación fáctica adicional.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'Sources: CDC (Cleaning and Sanitizing with Bleach After an Emergency; Cleaning and Disinfecting with Bleach; MMWR); Poison Control (poison.org)'",
+      "fuente": "Las cinco fuentes existen y contienen lo atribuido (verificado por lectura directa).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

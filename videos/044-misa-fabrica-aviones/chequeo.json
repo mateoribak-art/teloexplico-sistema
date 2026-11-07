@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segunda pasada con búsqueda web y WebFetch. La atribución al Ministerio de Defensa existe: la página oficial argentina.gob.ar/defensa/gestion-cultural/monumentos/aeronave-pulqui-i dice que el Pulqui I fue 'el primer avión de este tipo en fabricarse en Latinoamérica' (y noveno en el mundo), con primer vuelo el 9 de agosto de 1947. La redacción 'según el Ministerio de Defensa, primer avión a reacción de su tipo fabricado en Latinoamérica' es fiel. Misa martes 10/11 a las 10 en FAdeA confirmada por Perfil Córdoba (misa 'poco antes de las 10') y Derecha Diario (10 de noviembre). Fundación 1927 como Fábrica Militar de Aviones confirmada por Ámbito. Pulqui II posterior y más avanzado confirmado. 'Cientos de miles' es estimación de medios (Cadena 3, Perfil 750 mil, otros 850 mil o más), presentada en la frase como 'los medios hablan de', sin cifra exacta. Notas no bloqueantes: el ranking mundial (octavo/noveno) varía según la fuente, pero el guion no lo menciona; en 1947 la entidad era el Instituto Aerotécnico, antecesor de la FMA, y el guion dice solo que la fábrica 'nació' como Fábrica Militar de Aviones en 1927 y que 'de ahí salió' el Pulqui I, lo cual es aceptable.",
+  "afirmaciones": [
+    {
+      "texto": "La misa del martes en Córdoba es en el predio de FAdeA, una fábrica de aviones, no en una plaza ni en una iglesia.",
+      "fuente": "Cadena 3 (nota 580579) y Perfil Córdoba: misa en el predio de FAdeA",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La misa es el martes 10 de noviembre a las 10 de la mañana.",
+      "fuente": "Perfil Córdoba ('misa en FAdeA a las 10 y papamóvil por el centro'; comienza poco antes de las 10); Derecha Diario (10 de noviembre); Perfil agenda confirmada",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Los medios hablan de cientos de miles de personas esperadas.",
+      "fuente": "Cadena 3 ('cientos de miles de fieles'); Perfil: predio para 750 mil / 850 mil; otras notas hasta 1 millón. Estimaciones de medios, no cifra oficial",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Por eso hace falta un predio enorme.",
+      "fuente": "Perfil: predio dividido en parcelas para 750-850 mil personas; inferencia razonable",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La fábrica de Córdoba existe desde 1927, cuando nació como Fábrica Militar de Aviones.",
+      "fuente": "Ámbito, 'Cumple 85 años la fábrica de aviones creada por Alvear' (creada el 10/10/1927)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "De ahí salió el Pulqui I, que voló en 1947.",
+      "fuente": "argentina.gob.ar/defensa (monumentos, Aeronave Pulqui I) y Fuerza Aérea: primer vuelo 9 de agosto de 1947; desarrollado en Córdoba por el Instituto Aerotécnico, antecesor de la FMA/FAdeA",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Según el Ministerio de Defensa, el Pulqui I fue el primer avión a reacción de su tipo fabricado en Latinoamérica.",
+      "fuente": "Ministerio de Defensa, https://www.argentina.gob.ar/defensa/gestion-cultural/monumentos/aeronave-pulqui-i : 'el primer avión de este tipo en fabricarse en Latinoamérica' y noveno en el mundo (abierta con WebFetch)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El Pulqui II fue otro modelo, más avanzado, y vino después.",
+      "fuente": "Billiken, LM Neuquén, Decreto 899/2015, Ministerio de Defensa: Pulqui II de ala en flecha, primer vuelo 16/06/1950",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: día y hora atribuidos a Cadena 3 y Perfil.",
+      "fuente": "Perfil da día y hora; Cadena 3 confirma lugar y visita. Atribución conjunta aceptable",
+      "estado": "probable",
+      "matiz_ok": true
+    }
+  ]
+}

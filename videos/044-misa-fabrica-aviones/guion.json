@@ -1,0 +1,26 @@
+{
+  "titulo": "La misa de Córdoba es en una fábrica de aviones",
+  "fondo": "oscuro",
+  "receta": "Argentina en datos / mapa que se transforma",
+  "pilar": "argentina",
+  "destinatario": "se lo manda un cordobés que va a ir a la misa a su amigo que cree que es en una plaza, para contarle dónde es y qué es ese lugar",
+  "regla_guardable": "Martes 10 de noviembre, 10 de la mañana, FAdeA, Córdoba",
+  "fuentes": [
+    "Cadena 3: El Papa León XIV dará una misa en FAdeA durante su visita a Córdoba",
+    "Perfil Córdoba: Papa León XIV en Córdoba, misa en FAdeA a las 10",
+    "Ministerio de Defensa de la Nación: Pulqui I, primer avión a reacción de su tipo fabricado en Latinoamérica",
+    "Ámbito: Cumple 85 años la fábrica de aviones creada en Córdoba (1927)"
+  ],
+  "frases": [
+    {"texto": "La misa del martes en Córdoba no es en una plaza ni en una iglesia: es en una fábrica de aviones.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Es el predio de la Fábrica Argentina de Aviones, FAdeA, y la misa es el martes diez de noviembre, a las diez de la mañana.", "estilo": "Claro, con energía."},
+    {"texto": "Los medios hablan de cientos de miles de personas esperadas, y por eso hace falta un predio enorme.", "estilo": "Informativo, con ritmo."},
+    {"texto": "Pero, ¿qué es ese lugar?", "estilo": "Con curiosidad, ritmo ágil."},
+    {"texto": "La fábrica de Córdoba existe desde mil novecientos veintisiete, cuando nació como Fábrica Militar de Aviones.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Y de ahí salió el Pulqui Uno, que voló en mil novecientos cuarenta y siete.", "estilo": "Con asombro contenido."},
+    {"texto": "Según el Ministerio de Defensa, fue el primer avión a reacción de su tipo fabricado en Latinoamérica.", "estilo": "Golpe seco, con orgullo."},
+    {"texto": "Ojo: no te confundas, ese avión fue el Pulqui Uno; el Pulqui Dos fue otro modelo, más avanzado, y vino después.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Anotalo: martes diez, diez de la mañana, FAdeA, Córdoba.", "estilo": "Práctico, amable."},
+    {"texto": "Mandáselo a ese cordobés que va a ir.", "estilo": "Cómplice, con humor."}
+  ]
+}

@@ -35,6 +35,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [ ] Does turkey make you sleepy? (tryptophan myth) — cerca de Thanksgiving
 
 ## Temas de EE. UU. — serie: casa (Home myths)
+- [usada → en-027-bleach-vinegar] Bleach + vinegar/ammonia = gas (CDC, Poison Control; adapted from 035)
 - [ ] Do chargers left plugged in waste electricity? (phantom load, DOE; plata: solo verificado)
 - [usada → en-010-thermostat-night] Does turning the thermostat down at night save money? (DOE: up to ~10 % a year with 7–10 °F for 8 h; plata: solo verificado)
 - [usada → en-009-ceiling-fan] Which way should your ceiling fan spin in winter? (DOE)
