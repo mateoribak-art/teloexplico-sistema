@@ -143,3 +143,16 @@ Los dos comentarios eran del video 026 (mediodía/hora corrida):
 Dejé el resumen en `videos/comentarios.log`.
 Uso: 10 pasos · 18,779 tokens nuevos · 124,246 de caché · 2,345 escritos · equivale a US$ 0.01 de API
 2026-11-07 03:53 Termina la respuesta de comentarios (ok).
+2026-11-07 18:02 Hay 18 comentarios nuevos: arranca la respuesta.
+2026-11-07 Respondí 16 · salteé 2 · alerté 0. (026-mediodia-hora-corrida: 14 respondidos, incluido alejandrokalfayan (hora oficial vs longitud, con Ley 26.350); 028-yerba-por-ano: 2 respondidos; salteados: aledelejos (vulgar, tema político de la hora) y un duplicado de fulanocris)
+2026-11-07 Termina la respuesta de comentarios (ok).
+Respondí 16, salteé 2 y alerté 0.
+
+Los 18 comentarios eran del 026 (mediodía/hora corrida, 16 de ellos) y del 028 (yerba, 2). Dos casos que conviene que mires:
+
+- **alejandrokalfayan** dice que por longitud a Argentina le correspondería UTC-4 y que el -3 es político. Le respondí dándole la razón en lo de la longitud y citando la Ley 26.350 (UTC-3 todo el año). No lo alerté porque el guion ya dice que la hora la eligió el país.
+- **Salteados:** aledelejos (lenguaje vulgar sobre el cambio de hora, tema político) y el segundo comentario de fulanocris, que repite el primero.
+
+La línea de resumen quedó en `videos/comentarios.log`. No hubo pedidos de temas, así que `videos/ideas.md` no cambió.
+Uso: 29 pasos · 43,190 tokens nuevos · 172,664 de caché · 10,351 escritos · equivale a US$ 0.02 de API
+2026-11-07 18:03 Termina la respuesta de comentarios (ok).
