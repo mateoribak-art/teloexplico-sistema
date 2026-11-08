@@ -1,0 +1,24 @@
+{
+  "titulo": "Salís a correr con treinta y cinco grados: qué es un golpe de calor y qué hacer mientras llega la ayuda",
+  "fondo": "oscuro",
+  "receta": "El que lo hace mal / pilar salud_simple",
+  "pilar": "salud_simple",
+  "destinatario": "se lo manda alguien a su amigo que sale a correr o a jugar a la pelota a la siesta con calor, para decirle cómo reconocer un golpe de calor",
+  "regla_guardable": "Confundido + piel caliente, roja y sin sudor = llamá a emergencias y enfrialo con agua fría.",
+  "fuentes": [
+    "NHS (Servicio Nacional de Salud del Reino Unido), Heat exhaustion and heatstroke",
+    "Ministerio de Salud de la Nación Argentina, guía 'Agotamiento por calor y golpe de calor en niños y jóvenes' (argentina.gob.ar/salud/glosario/golpedecalor)"
+  ],
+  "frases": [
+    {"texto": "Salís a correr con treinta y cinco grados y pensás: si me mareo, tomo agua y listo.", "estilo": "Seco, directo, a cámara."},
+    {"texto": "Pero hay un punto en que el agua sola no alcanza.", "estilo": "Contundente."},
+    {"texto": "El Ministerio de Salud de la Nación, en su guía para chicos y jóvenes, define el golpe de calor como cuando el cuerpo llega a cuarenta grados o más.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Y es una emergencia médica, dice el servicio de salud británico, el NHS.", "estilo": "Claro y firme."},
+    {"texto": "Según el NHS, las señales son: confusión, y la piel caliente, roja y sin sudor.", "estilo": "Claro y firme."},
+    {"texto": "Si ves eso, lo primero es llamar a emergencias.", "estilo": "Firme."},
+    {"texto": "Mientras llega la ayuda, el NHS recomienda enfriarlo: mojalo con agua fría o abanicalo.", "estilo": "Práctico, rápido."},
+    {"texto": "Ojo: esto no reemplaza a la ayuda médica. Llamá primero.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Guardate la regla: confundido y con la piel caliente y sin sudor, emergencias y agua fría.", "estilo": "Práctico, amable."},
+    {"texto": "Mandáselo al que sale a correr a la siesta.", "estilo": "Cómplice, con humor."}
+  ]
+}

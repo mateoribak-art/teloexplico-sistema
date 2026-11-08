@@ -19,3 +19,11 @@ Uso: 28 pasos · 19,765 tokens nuevos · 1,092,207 de caché · 6,298 escritos �
 2026-11-07 13:35 Render de en-028-turkey-sleepy (sin Claude).
 2026-11-07 13:48 en-028-turkey-sleepy: listo (render sin Claude)
 2026-11-07 13:48 Termina la producción (ok).
+2026-11-07 22:18 Arranca la producción (5 listos en la cola, meta 6).
+- **Listo para render:** `en-029-swim-after-eating` (adaptado de `002-corte-digestion`, serie Body myths #4, escena 3D nueva `Pileta.tsx`). Quedó en estado `render` y lo renderiza `producir.py`.
+- **Chequeo:** el primer chequeo lo rechazó: la cifra de alcohol del CDC estaba desactualizada, el origen Boy Scouts iba sin matiz y dos frases de salud no tenían fuente. Saqué la cifra, puse "often traced to" y acoté esas frases a lo que dice la Cruz Roja, y el segundo chequeo lo aprobó. Un punto quedó flojo: el subagente dejó la frase del side stitch como "probable", con "might", sin fuente primaria leída.
+- **Pendientes y límites:** la voz salió algo larga (48,8 s, 145 palabras). Después de revisar la hoja de cuadros recentré la cámara porque la pileta se cortaba a la derecha, y no volví a mirar cuadros después de ese ajuste. No había videos apartados por chequeo para rescatar y no quedó ninguno incompleto.
+Uso: 21 pasos · 14,648 tokens nuevos · 855,368 de caché · 7,467 escritos · equivale a US$ 1.07 de API
+2026-11-07 22:24 Render de en-029-swim-after-eating (sin Claude).
+2026-11-07 22:40 en-029-swim-after-eating: listo (render sin Claude)
+2026-11-07 22:40 Termina la producción (ok).

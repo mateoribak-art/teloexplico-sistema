@@ -1,0 +1,28 @@
+{
+  "titulo": "Do you really have to wait to swim after eating?",
+  "serie": "cuerpo",
+  "fondo": "oscuro",
+  "receta": "error cotidiano + regla con número",
+  "pilar": "salud_simple",
+  "destinatario": "se lo manda un adulto joven al padre o la madre que lo hacía esperar sentado en la toalla después del almuerzo",
+  "regla_guardable": "Swim after lunch if you feel up to it. The real pool risk is alcohol.",
+  "adaptado_de": "002-corte-digestion",
+  "fuentes": [
+    "American Red Cross Scientific Advisory Council (2011): no evidence that swimming after eating causes drowning",
+    "Scouting for Boys (1908): often cited as an early warning against bathing soon after meals (Mental Floss, WBUR; a historian disputes it)",
+    "CDC drowning risk factors (cdc.gov/drowning/risk-factors): alcohol linked to a large share of water-recreation deaths in teens and adults"
+  ],
+  "frases": [
+    {"texto": "You made your kids sit out the pool for thirty minutes after lunch.", "estilo": "Dry, direct, with a half smile."},
+    {"texto": "The evidence says otherwise.", "estilo": "Punchy."},
+    {"texto": "Researchers haven't found any digestion cramp that makes swimmers sink.", "estilo": "Firm, revealing something."},
+    {"texto": "The idea was that your blood rushes to your stomach and leaves your arms and legs empty.", "estilo": "Explaining clearly, a little ironic."},
+    {"texto": "But in the research the Red Cross reviewed, swimming after eating didn't hold swimmers back.", "estilo": "Calm, reassuring."},
+    {"texto": "The American Red Cross reviewed the research and found no evidence that swimming after eating causes drowning.", "estilo": "Emphatic, a strong fact."},
+    {"texto": "One early printed warning is often traced to a Boy Scouts handbook from nineteen oh eight.", "estilo": "Curious, conversational."},
+    {"texto": "Heads up: after a huge meal, you might get a side stitch.", "estilo": "Friendly warning."},
+    {"texto": "Annoying, but nothing the research ties to drowning.", "estilo": "Dry, reassuring."},
+    {"texto": "What does matter is alcohol. The CDC links it to a large share of teen and adult deaths around water.", "estilo": "Serious, firm, not dramatic."},
+    {"texto": "Send this to the friend whose parents made them wait on the towel.", "estilo": "Playful and funny."}
+  ]
+}

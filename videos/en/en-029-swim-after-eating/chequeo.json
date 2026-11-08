@@ -1,0 +1,110 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Revision independiente. Las frases de salud/seguridad quedan acotadas a lo que dice la Cruz Roja (nadar dentro de la hora posterior a comer no aumenta el riesgo de ahogamiento ni afecta el rendimiento; sin recomendacion de esperar). Ya no hay cifra de alcohol: la frase y el caption dicen 'a large share', coherente con el CDC vigente (cdc.gov/drowning/risk-factors: alcohol en 'up to 70%' de muertes asociadas a recreacion acuatica en adolescentes y adultos; 'large share' no contradice ni infla). El origen Boy Scouts es dudoso/discutido (WBUR: el historiador Ben Jordan dice que la redaccion citada por Snopes no esta en p.88 del manual de 1908, aunque una version mas suave aparece en p.223), pero la frase lo presenta con 'often traced to' y 'One early printed warning', matiz correcto para un origen. Limitaciones: la pagina de la Cruz Roja devolvio 403 al fetch directo; se confirmo su contenido por el resumen de busqueda (articulo del Scientific Advisory Council: sin efecto en rendimiento, nadar dentro de la hora no aumenta riesgo de ahogamiento) y por WBUR (la Cruz Roja publico un estudio en 1968 y otro importante en 2011). La literal 'no evidence' no se pudo leer en la pagina, pero equivale a lo que dice. El 'side stitch' se apoya en investigacion de Darren Morton (comida grande previa aumenta la probabilidad de flato al hacer ejercicio) y un ensayo danes piloto, no en la Cruz Roja; la frase lo marca con 'might' y lo separa del ahogamiento, por lo que se acepta como probable presentado como tal.",
+  "afirmaciones": [
+    {
+      "texto": "You made your kids sit out the pool for thirty minutes after lunch.",
+      "fuente": "Gancho/premisa dirigida al espectador, no afirmacion fáctica; la espera de 30 min es la regla popular que la Cruz Roja describe como creencia extendida en EE. UU.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The evidence says otherwise.",
+      "fuente": "American Red Cross Scientific Advisory Council, https://www.redcross.org/take-a-class/resources/articles/eating-before-swimming-myth (via resumen de busqueda; fetch directo 403): nadar dentro de la hora de comer no aumenta el riesgo de ahogamiento; ninguna organizacion grande recomienda esperar",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Researchers haven't found any digestion cramp that makes swimmers sink.",
+      "fuente": "American Red Cross (articulo del Scientific Advisory Council); WBUR https://www.wbur.org/onlyagame/2018/07/13/swimming-eating-cramp-myth (varios estudios, misma conclusion; sin casos documentados); ensayo danes (research.regionh.dk): sin ahogamientos ni calambres",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The idea was that your blood rushes to your stomach and leaves your arms and legs empty.",
+      "fuente": "Descripcion de la creencia popular (HowStuffWorks, Live Science, CBS8 Verify); se presenta como 'the idea was', no como fisiologia real",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "But in the research the Red Cross reviewed, swimming after eating didn't hold swimmers back.",
+      "fuente": "American Red Cross Scientific Advisory Council: 'eating before swimming had no effect on swimming performance' (via resumen de busqueda)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The American Red Cross reviewed the research and found no evidence that swimming after eating causes drowning.",
+      "fuente": "American Red Cross Scientific Advisory Council (articulo en redcross.org; WBUR: estudio de 1968 y revision mayor en 2011). La formula exacta 'no evidence' no se pudo leer por el 403, pero equivale a 'does not increase drowning risk' y a la conclusion del comite citada por fuentes secundarias",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "One early printed warning is often traced to a Boy Scouts handbook from nineteen oh eight.",
+      "fuente": "Scouting for Boys (1908), citado por Mental Floss, Snopes y WBUR; el historiador Ben Jordan (WBUR) discute la redaccion citada, aunque halla una version suave en p.223. Sin fuente primaria leida",
+      "estado": "dudosa",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: after a huge meal, you might get a side stitch.",
+      "fuente": "Investigacion de Darren Morton (Australia) sobre flato tras comida grande; ensayo danes de factibilidad (research.regionh.dk) con mas molestia al nadar enseguida. No esta en la pagina de la Cruz Roja. Sin fuente primaria leida directamente",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Annoying, but nothing the research ties to drowning.",
+      "fuente": "American Red Cross Scientific Advisory Council (efectos menores, sin aumento de riesgo de ahogamiento); ensayo danes: sin ahogamientos ni reanimaciones",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "What does matter is alcohol. The CDC links it to a large share of teen and adult deaths around water.",
+      "fuente": "CDC, https://www.cdc.gov/drowning/risk-factors/index.html: alcohol en 'up to 70% of deaths associated with water recreation'; 'nearly 1 in 4' visitas a urgencias por ahogamiento; 'about 1 in 5' muertes en botes. 'Large share' es coherente y sin cifra",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Send this to the friend whose parents made them wait on the towel.",
+      "fuente": "Llamado a la accion, no afirmacion fáctica",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ],
+  "caption": [
+    {
+      "texto": "Wait thirty minutes before swimming after lunch? The evidence says you don't have to.",
+      "fuente": "American Red Cross Scientific Advisory Council",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Researchers haven't found any \"digestion cramp\" that makes swimmers sink. The American Red Cross reviewed the research and found no evidence that swimming after eating causes drowning.",
+      "fuente": "Igual que las frases equivalentes del guion",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "One early printed warning is often traced to a Boy Scouts handbook from 1908.",
+      "fuente": "Igual que la frase del guion (WBUR, Mental Floss, Snopes; discutido por un historiador)",
+      "estado": "dudosa",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: after a huge meal you might get a side stitch. Annoying, but nothing the research ties to drowning.",
+      "fuente": "Igual que las frases equivalentes del guion",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "What does matter is alcohol: the CDC links it to a large share of teen and adult deaths around water.",
+      "fuente": "CDC cdc.gov/drowning/risk-factors (up to 70%); sin cifra en el texto",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sources: American Red Cross Scientific Advisory Council (2011), CDC",
+      "fuente": "WBUR confirma que la Cruz Roja publico una revision importante en 2011; el articulo actual de redcross.org es mas reciente (pagina fechada 2024), por lo que '(2011)' es aceptable pero no exhaustivo",
+      "estado": "probable",
+      "matiz_ok": true
+    }
+  ]
+}

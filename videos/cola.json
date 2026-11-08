@@ -1720,5 +1720,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "048-golpe-de-calor",
+  "tema": "Golpe de calor: señales (40 °C, confusión, piel caliente y seca) y qué hacer mientras llega la ayuda (Ministerio de Salud, NHS)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-07T21:57",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-07T21:57",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-07T22:03",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-07T22:16",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

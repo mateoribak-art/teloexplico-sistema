@@ -1,0 +1,78 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de salud estan verificadas contra fuente primaria y las atribuciones dicen lo que las fuentes dicen. La cifra de 40 C esta en la guia del Ministerio de Salud de la Nacion ('la temperatura del cuerpo alcanza los 40 C o mas'), que NO figura en el NHS, y el guion ya no se la atribuye al NHS. Las senales y que hacer estan en el NHS. Unico matiz menor, no bloqueante: el NHS dice que la piel 'might look red' (puede verse roja, mas dificil de ver en piel oscura); el guion lo presenta como senal sin el 'puede', aunque la guia argentina si dice 'piel roja caliente y seca'. Ninguna afirmacion falsa, dudosa ni sin fuente.",
+  "afirmaciones": [
+    {
+      "texto": "Salis a correr con treinta y cinco grados y pensas: si me mareo, tomo agua y listo. (escenario hipotetico, no afirmacion fáctica)",
+      "fuente": "No aplica (planteo de situacion cotidiana)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Hay un punto en que el agua sola no alcanza.",
+      "fuente": "NHS: si hay signos de golpe de calor se debe llamar al 999 y enfriar; no basta con tomar liquidos. https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El Ministerio de Salud de la Nacion, en su guia para chicos y jovenes, define el golpe de calor como cuando el cuerpo llega a cuarenta grados o mas.",
+      "fuente": "Ministerio de Salud de la Nacion, 'Agotamiento por calor y golpe de calor en ninos y jovenes': 'El golpe de calor es una forma grave de lesion por calor y la temperatura del cuerpo alcanza los 40 C o mas'. https://www.argentina.gob.ar/salud/glosario/golpedecalor",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y es una emergencia medica, dice el servicio de salud britanico, el NHS.",
+      "fuente": "NHS: 'Heatstroke is a medical emergency.' https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Segun el NHS, las senales son: confusion, y la piel caliente, roja y sin sudor.",
+      "fuente": "NHS: 'confusion', 'hot skin without sweating' y, en la seccion de 999, 'hot skin that's not sweating and might look red'. La guia argentina tambien lista 'piel roja caliente y seca' y confusion. Son senales entre otras (no lista exhaustiva).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si ves eso, lo primero es llamar a emergencias.",
+      "fuente": "NHS: llamar al 999; guia del Ministerio de Salud: 'Llamar inmediatamente a un servicio de emergencia'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mientras llega la ayuda, el NHS recomienda enfriarlo: mojalo con agua fria o abanicalo.",
+      "fuente": "NHS: 'Wrap the person in a cool, wet sheet, or fan them or sponge them down with cold water while you wait for help to arrive.' https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: esto no reemplaza a la ayuda medica. Llamá primero.",
+      "fuente": "NHS (llamar al 999 ante golpe de calor) y Ministerio de Salud (llamar a emergencias o trasladar al centro de salud).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Regla: confundido y con la piel caliente y sin sudor, emergencias y agua fria. (resumen guardable)",
+      "fuente": "Sintesis de NHS y guia del Ministerio de Salud de la Nacion; la regla omite 'roja', lo que es conservador.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'Segun el NHS (el servicio de salud britanico) es una emergencia medica y las senales son confusion y piel caliente, roja y sin sudor.' y 'Mientras llega la ayuda, el NHS recomienda enfriar a la persona: mojarla con agua fria o abanicarla.'",
+      "fuente": "NHS, Heat exhaustion and heatstroke (misma verificacion que el guion).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'El Ministerio de Salud de la Nacion, en su guia para chicos y jovenes, define el golpe de calor como cuando el cuerpo llega a 40 C o mas.'",
+      "fuente": "argentina.gob.ar/salud/glosario/golpedecalor (guia 'Agotamiento por calor y golpe de calor en ninos y jovenes').",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Fuentes: NHS 'Heat exhaustion and heatstroke'; Ministerio de Salud de la Nacion 'Agotamiento por calor y golpe de calor en ninos y jovenes' (argentina.gob.ar).",
+      "fuente": "Ambas paginas existen y tienen esos titulos/contenidos.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

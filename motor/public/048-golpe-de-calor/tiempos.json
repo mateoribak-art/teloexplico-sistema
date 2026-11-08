@@ -1,0 +1,790 @@
+{
+ "duracion": 51.59,
+ "frases": [
+  {
+   "texto": "Salís a correr con treinta y cinco grados y pensás: si me mareo, tomo agua y listo.",
+   "palabras": [
+    {
+     "texto": "Salís",
+     "inicio": 0.0,
+     "fin": 0.32
+    },
+    {
+     "texto": "a",
+     "inicio": 0.32,
+     "fin": 0.42
+    },
+    {
+     "texto": "correr",
+     "inicio": 0.42,
+     "fin": 0.64
+    },
+    {
+     "texto": "con",
+     "inicio": 0.64,
+     "fin": 0.88
+    },
+    {
+     "texto": "treinta",
+     "inicio": 0.88,
+     "fin": 1.26
+    },
+    {
+     "texto": "y",
+     "inicio": 1.26,
+     "fin": 1.34
+    },
+    {
+     "texto": "cinco",
+     "inicio": 1.34,
+     "fin": 1.58
+    },
+    {
+     "texto": "grados",
+     "inicio": 1.58,
+     "fin": 2.0
+    },
+    {
+     "texto": "y",
+     "inicio": 2.0,
+     "fin": 2.1
+    },
+    {
+     "texto": "pensás:",
+     "inicio": 2.1,
+     "fin": 2.46
+    },
+    {
+     "texto": "si",
+     "inicio": 2.9,
+     "fin": 3.14
+    },
+    {
+     "texto": "me",
+     "inicio": 3.14,
+     "fin": 3.26
+    },
+    {
+     "texto": "mareo,",
+     "inicio": 3.26,
+     "fin": 3.62
+    },
+    {
+     "texto": "tomo",
+     "inicio": 3.84,
+     "fin": 4.12
+    },
+    {
+     "texto": "agua",
+     "inicio": 4.12,
+     "fin": 4.28
+    },
+    {
+     "texto": "y",
+     "inicio": 4.28,
+     "fin": 4.42
+    },
+    {
+     "texto": "listo.",
+     "inicio": 4.42,
+     "fin": 4.74
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.74
+  },
+  {
+   "texto": "Pero hay un punto en que el agua sola no alcanza.",
+   "palabras": [
+    {
+     "texto": "Pero",
+     "inicio": 5.1,
+     "fin": 5.28
+    },
+    {
+     "texto": "hay",
+     "inicio": 5.28,
+     "fin": 5.4
+    },
+    {
+     "texto": "un",
+     "inicio": 5.4,
+     "fin": 5.54
+    },
+    {
+     "texto": "punto",
+     "inicio": 5.54,
+     "fin": 5.8
+    },
+    {
+     "texto": "en",
+     "inicio": 5.8,
+     "fin": 5.98
+    },
+    {
+     "texto": "que",
+     "inicio": 5.98,
+     "fin": 6.06
+    },
+    {
+     "texto": "el",
+     "inicio": 6.06,
+     "fin": 6.18
+    },
+    {
+     "texto": "agua",
+     "inicio": 6.18,
+     "fin": 6.3
+    },
+    {
+     "texto": "sola",
+     "inicio": 6.3,
+     "fin": 6.66
+    },
+    {
+     "texto": "no",
+     "inicio": 6.66,
+     "fin": 7.16
+    },
+    {
+     "texto": "alcanza.",
+     "inicio": 7.16,
+     "fin": 7.7
+    }
+   ],
+   "inicio": 5.1,
+   "fin": 7.7
+  },
+  {
+   "texto": "El Ministerio de Salud de la Nación, en su guía para chicos y jóvenes, define el golpe de calor como cuando el cuerpo llega a cuarenta grados o más.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 8.14,
+     "fin": 8.3
+    },
+    {
+     "texto": "Ministerio",
+     "inicio": 8.3,
+     "fin": 8.7
+    },
+    {
+     "texto": "de",
+     "inicio": 8.7,
+     "fin": 8.8
+    },
+    {
+     "texto": "Salud",
+     "inicio": 8.8,
+     "fin": 9.04
+    },
+    {
+     "texto": "de",
+     "inicio": 9.04,
+     "fin": 9.16
+    },
+    {
+     "texto": "la",
+     "inicio": 9.16,
+     "fin": 9.26
+    },
+    {
+     "texto": "Nación,",
+     "inicio": 9.26,
+     "fin": 9.58
+    },
+    {
+     "texto": "en",
+     "inicio": 9.86,
+     "fin": 9.96
+    },
+    {
+     "texto": "su",
+     "inicio": 9.96,
+     "fin": 10.1
+    },
+    {
+     "texto": "guía",
+     "inicio": 10.1,
+     "fin": 10.34
+    },
+    {
+     "texto": "para",
+     "inicio": 10.34,
+     "fin": 10.56
+    },
+    {
+     "texto": "chicos",
+     "inicio": 10.56,
+     "fin": 10.8
+    },
+    {
+     "texto": "y",
+     "inicio": 10.8,
+     "fin": 11.02
+    },
+    {
+     "texto": "jóvenes,",
+     "inicio": 11.02,
+     "fin": 11.3
+    },
+    {
+     "texto": "define",
+     "inicio": 11.94,
+     "fin": 12.2
+    },
+    {
+     "texto": "el",
+     "inicio": 12.2,
+     "fin": 12.4
+    },
+    {
+     "texto": "golpe",
+     "inicio": 12.4,
+     "fin": 12.62
+    },
+    {
+     "texto": "de",
+     "inicio": 12.62,
+     "fin": 12.8
+    },
+    {
+     "texto": "calor",
+     "inicio": 12.8,
+     "fin": 13.08
+    },
+    {
+     "texto": "como",
+     "inicio": 13.08,
+     "fin": 13.36
+    },
+    {
+     "texto": "cuando",
+     "inicio": 13.36,
+     "fin": 13.78
+    },
+    {
+     "texto": "el",
+     "inicio": 13.78,
+     "fin": 13.92
+    },
+    {
+     "texto": "cuerpo",
+     "inicio": 13.92,
+     "fin": 14.14
+    },
+    {
+     "texto": "llega",
+     "inicio": 14.14,
+     "fin": 14.56
+    },
+    {
+     "texto": "a",
+     "inicio": 14.56,
+     "fin": 14.7
+    },
+    {
+     "texto": "cuarenta",
+     "inicio": 14.7,
+     "fin": 15.24
+    },
+    {
+     "texto": "grados",
+     "inicio": 15.24,
+     "fin": 15.64
+    },
+    {
+     "texto": "o",
+     "inicio": 15.64,
+     "fin": 15.76
+    },
+    {
+     "texto": "más.",
+     "inicio": 15.76,
+     "fin": 15.98
+    }
+   ],
+   "inicio": 8.14,
+   "fin": 15.98
+  },
+  {
+   "texto": "Y es una emergencia médica, dice el servicio de salud británico, el NHS.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 16.46,
+     "fin": 16.64
+    },
+    {
+     "texto": "es",
+     "inicio": 16.64,
+     "fin": 16.78
+    },
+    {
+     "texto": "una",
+     "inicio": 16.78,
+     "fin": 16.9
+    },
+    {
+     "texto": "emergencia",
+     "inicio": 16.9,
+     "fin": 17.46
+    },
+    {
+     "texto": "médica,",
+     "inicio": 17.46,
+     "fin": 18.02
+    },
+    {
+     "texto": "dice",
+     "inicio": 18.34,
+     "fin": 18.66
+    },
+    {
+     "texto": "el",
+     "inicio": 18.66,
+     "fin": 18.82
+    },
+    {
+     "texto": "servicio",
+     "inicio": 18.82,
+     "fin": 19.12
+    },
+    {
+     "texto": "de",
+     "inicio": 19.12,
+     "fin": 19.3
+    },
+    {
+     "texto": "salud",
+     "inicio": 19.3,
+     "fin": 19.5
+    },
+    {
+     "texto": "británico,",
+     "inicio": 19.5,
+     "fin": 20.14
+    },
+    {
+     "texto": "el",
+     "inicio": 20.44,
+     "fin": 20.5
+    },
+    {
+     "texto": "NHS.",
+     "inicio": 20.5,
+     "fin": 20.78
+    }
+   ],
+   "inicio": 16.46,
+   "fin": 20.78
+  },
+  {
+   "texto": "Según el NHS, las señales son: confusión, y la piel caliente, roja y sin sudor.",
+   "palabras": [
+    {
+     "texto": "Según",
+     "inicio": 21.54,
+     "fin": 22.0
+    },
+    {
+     "texto": "el",
+     "inicio": 22.0,
+     "fin": 22.12
+    },
+    {
+     "texto": "NHS,",
+     "inicio": 22.12,
+     "fin": 22.52
+    },
+    {
+     "texto": "las",
+     "inicio": 23.08,
+     "fin": 23.28
+    },
+    {
+     "texto": "señales",
+     "inicio": 23.28,
+     "fin": 23.6
+    },
+    {
+     "texto": "son:",
+     "inicio": 23.6,
+     "fin": 23.86
+    },
+    {
+     "texto": "confusión,",
+     "inicio": 23.86,
+     "fin": 24.86
+    },
+    {
+     "texto": "y",
+     "inicio": 24.86,
+     "fin": 25.4
+    },
+    {
+     "texto": "la",
+     "inicio": 25.4,
+     "fin": 25.52
+    },
+    {
+     "texto": "piel",
+     "inicio": 25.52,
+     "fin": 25.68
+    },
+    {
+     "texto": "caliente,",
+     "inicio": 25.68,
+     "fin": 26.38
+    },
+    {
+     "texto": "roja",
+     "inicio": 26.88,
+     "fin": 27.16
+    },
+    {
+     "texto": "y",
+     "inicio": 27.16,
+     "fin": 27.54
+    },
+    {
+     "texto": "sin",
+     "inicio": 27.54,
+     "fin": 27.84
+    },
+    {
+     "texto": "sudor.",
+     "inicio": 27.84,
+     "fin": 28.24
+    }
+   ],
+   "inicio": 21.54,
+   "fin": 28.24
+  },
+  {
+   "texto": "Si ves eso, lo primero es llamar a emergencias.",
+   "palabras": [
+    {
+     "texto": "Si",
+     "inicio": 28.24,
+     "fin": 28.84
+    },
+    {
+     "texto": "ves",
+     "inicio": 28.84,
+     "fin": 29.02
+    },
+    {
+     "texto": "eso,",
+     "inicio": 29.02,
+     "fin": 29.34
+    },
+    {
+     "texto": "lo",
+     "inicio": 29.96,
+     "fin": 30.04
+    },
+    {
+     "texto": "primero",
+     "inicio": 30.04,
+     "fin": 30.36
+    },
+    {
+     "texto": "es",
+     "inicio": 30.36,
+     "fin": 30.58
+    },
+    {
+     "texto": "llamar",
+     "inicio": 30.58,
+     "fin": 30.88
+    },
+    {
+     "texto": "a",
+     "inicio": 30.88,
+     "fin": 30.92
+    },
+    {
+     "texto": "emergencias.",
+     "inicio": 30.92,
+     "fin": 31.52
+    }
+   ],
+   "inicio": 28.24,
+   "fin": 31.52
+  },
+  {
+   "texto": "Mientras llega la ayuda, el NHS recomienda enfriarlo: mojalo con agua fría o abanicalo.",
+   "palabras": [
+    {
+     "texto": "Mientras",
+     "inicio": 32.2,
+     "fin": 32.46
+    },
+    {
+     "texto": "llega",
+     "inicio": 32.46,
+     "fin": 32.7
+    },
+    {
+     "texto": "la",
+     "inicio": 32.7,
+     "fin": 32.86
+    },
+    {
+     "texto": "ayuda,",
+     "inicio": 32.86,
+     "fin": 33.14
+    },
+    {
+     "texto": "el",
+     "inicio": 33.78,
+     "fin": 33.92
+    },
+    {
+     "texto": "NHS",
+     "inicio": 33.92,
+     "fin": 34.26
+    },
+    {
+     "texto": "recomienda",
+     "inicio": 34.26,
+     "fin": 35.32
+    },
+    {
+     "texto": "enfriarlo:",
+     "inicio": 35.32,
+     "fin": 35.92
+    },
+    {
+     "texto": "mojalo",
+     "inicio": 36.42,
+     "fin": 36.82
+    },
+    {
+     "texto": "con",
+     "inicio": 36.82,
+     "fin": 37.0
+    },
+    {
+     "texto": "agua",
+     "inicio": 37.0,
+     "fin": 37.16
+    },
+    {
+     "texto": "fría",
+     "inicio": 37.16,
+     "fin": 37.58
+    },
+    {
+     "texto": "o",
+     "inicio": 37.58,
+     "fin": 38.16
+    },
+    {
+     "texto": "abanicalo.",
+     "inicio": 38.16,
+     "fin": 38.88
+    }
+   ],
+   "inicio": 32.2,
+   "fin": 38.88
+  },
+  {
+   "texto": "Ojo: esto no reemplaza a la ayuda médica. Llamá primero.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 39.36,
+     "fin": 39.62
+    },
+    {
+     "texto": "esto",
+     "inicio": 40.06,
+     "fin": 40.2
+    },
+    {
+     "texto": "no",
+     "inicio": 40.2,
+     "fin": 40.46
+    },
+    {
+     "texto": "reemplaza",
+     "inicio": 40.46,
+     "fin": 40.94
+    },
+    {
+     "texto": "a",
+     "inicio": 40.94,
+     "fin": 41.06
+    },
+    {
+     "texto": "la",
+     "inicio": 41.06,
+     "fin": 41.12
+    },
+    {
+     "texto": "ayuda",
+     "inicio": 41.12,
+     "fin": 41.3
+    },
+    {
+     "texto": "médica.",
+     "inicio": 41.3,
+     "fin": 41.78
+    },
+    {
+     "texto": "Llamá",
+     "inicio": 42.36,
+     "fin": 42.56
+    },
+    {
+     "texto": "primero.",
+     "inicio": 42.56,
+     "fin": 42.88
+    }
+   ],
+   "inicio": 39.36,
+   "fin": 42.88
+  },
+  {
+   "texto": "Guardate la regla: confundido y con la piel caliente y sin sudor, emergencias y agua fría.",
+   "palabras": [
+    {
+     "texto": "Guardate",
+     "inicio": 43.48,
+     "fin": 43.82
+    },
+    {
+     "texto": "la",
+     "inicio": 43.82,
+     "fin": 43.96
+    },
+    {
+     "texto": "regla:",
+     "inicio": 43.96,
+     "fin": 44.28
+    },
+    {
+     "texto": "confundido",
+     "inicio": 44.78,
+     "fin": 45.4
+    },
+    {
+     "texto": "y",
+     "inicio": 45.4,
+     "fin": 45.6
+    },
+    {
+     "texto": "con",
+     "inicio": 45.6,
+     "fin": 45.76
+    },
+    {
+     "texto": "la",
+     "inicio": 45.76,
+     "fin": 45.84
+    },
+    {
+     "texto": "piel",
+     "inicio": 45.84,
+     "fin": 46.0
+    },
+    {
+     "texto": "caliente",
+     "inicio": 46.0,
+     "fin": 46.46
+    },
+    {
+     "texto": "y",
+     "inicio": 46.46,
+     "fin": 46.64
+    },
+    {
+     "texto": "sin",
+     "inicio": 46.64,
+     "fin": 46.84
+    },
+    {
+     "texto": "sudor,",
+     "inicio": 46.84,
+     "fin": 47.22
+    },
+    {
+     "texto": "emergencias",
+     "inicio": 47.62,
+     "fin": 48.36
+    },
+    {
+     "texto": "y",
+     "inicio": 48.36,
+     "fin": 48.7
+    },
+    {
+     "texto": "agua",
+     "inicio": 48.7,
+     "fin": 48.86
+    },
+    {
+     "texto": "fría.",
+     "inicio": 48.86,
+     "fin": 49.24
+    }
+   ],
+   "inicio": 43.48,
+   "fin": 49.24
+  },
+  {
+   "texto": "Mandáselo al que sale a correr a la siesta.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 49.74,
+     "fin": 50.24
+    },
+    {
+     "texto": "al",
+     "inicio": 50.24,
+     "fin": 50.34
+    },
+    {
+     "texto": "que",
+     "inicio": 50.34,
+     "fin": 50.42
+    },
+    {
+     "texto": "sale",
+     "inicio": 50.42,
+     "fin": 50.6
+    },
+    {
+     "texto": "a",
+     "inicio": 50.6,
+     "fin": 50.72
+    },
+    {
+     "texto": "correr",
+     "inicio": 50.72,
+     "fin": 50.9
+    },
+    {
+     "texto": "a",
+     "inicio": 50.9,
+     "fin": 51.1
+    },
+    {
+     "texto": "la",
+     "inicio": 51.1,
+     "fin": 51.14
+    },
+    {
+     "texto": "siesta.",
+     "inicio": 51.14,
+     "fin": 51.46
+    }
+   ],
+   "inicio": 49.74,
+   "fin": 51.46
+  }
+ ]
+}

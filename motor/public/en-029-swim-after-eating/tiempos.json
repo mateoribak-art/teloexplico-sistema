@@ -1,0 +1,807 @@
+{
+ "duracion": 48.84,
+ "frases": [
+  {
+   "texto": "You made your kids sit out the pool for thirty minutes after lunch.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.48
+    },
+    {
+     "texto": "made",
+     "inicio": 0.48,
+     "fin": 0.74
+    },
+    {
+     "texto": "your",
+     "inicio": 0.74,
+     "fin": 0.92
+    },
+    {
+     "texto": "kids",
+     "inicio": 0.92,
+     "fin": 1.18
+    },
+    {
+     "texto": "sit",
+     "inicio": 1.18,
+     "fin": 1.56
+    },
+    {
+     "texto": "out",
+     "inicio": 1.56,
+     "fin": 1.7
+    },
+    {
+     "texto": "the",
+     "inicio": 1.7,
+     "fin": 1.84
+    },
+    {
+     "texto": "pool",
+     "inicio": 1.84,
+     "fin": 2.08
+    },
+    {
+     "texto": "for",
+     "inicio": 2.08,
+     "fin": 2.28
+    },
+    {
+     "texto": "thirty",
+     "inicio": 2.28,
+     "fin": 2.76
+    },
+    {
+     "texto": "minutes",
+     "inicio": 2.76,
+     "fin": 3.06
+    },
+    {
+     "texto": "after",
+     "inicio": 3.06,
+     "fin": 3.44
+    },
+    {
+     "texto": "lunch.",
+     "inicio": 3.44,
+     "fin": 3.78
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.78
+  },
+  {
+   "texto": "The evidence says otherwise.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 4.32,
+     "fin": 4.5
+    },
+    {
+     "texto": "evidence",
+     "inicio": 4.5,
+     "fin": 4.78
+    },
+    {
+     "texto": "says",
+     "inicio": 4.78,
+     "fin": 5.04
+    },
+    {
+     "texto": "otherwise.",
+     "inicio": 5.04,
+     "fin": 5.38
+    }
+   ],
+   "inicio": 4.32,
+   "fin": 5.38
+  },
+  {
+   "texto": "Researchers haven't found any digestion cramp that makes swimmers sink.",
+   "palabras": [
+    {
+     "texto": "Researchers",
+     "inicio": 6.08,
+     "fin": 6.44
+    },
+    {
+     "texto": "haven't",
+     "inicio": 6.44,
+     "fin": 6.96
+    },
+    {
+     "texto": "found",
+     "inicio": 6.96,
+     "fin": 7.2
+    },
+    {
+     "texto": "any",
+     "inicio": 7.2,
+     "fin": 7.5
+    },
+    {
+     "texto": "digestion",
+     "inicio": 7.5,
+     "fin": 8.3
+    },
+    {
+     "texto": "cramp",
+     "inicio": 8.3,
+     "fin": 9.08
+    },
+    {
+     "texto": "that",
+     "inicio": 9.08,
+     "fin": 9.28
+    },
+    {
+     "texto": "makes",
+     "inicio": 9.28,
+     "fin": 9.5
+    },
+    {
+     "texto": "swimmers",
+     "inicio": 9.5,
+     "fin": 9.88
+    },
+    {
+     "texto": "sink.",
+     "inicio": 9.88,
+     "fin": 10.28
+    }
+   ],
+   "inicio": 6.08,
+   "fin": 10.28
+  },
+  {
+   "texto": "The idea was that your blood rushes to your stomach and leaves your arms and legs empty.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 10.86,
+     "fin": 10.96
+    },
+    {
+     "texto": "idea",
+     "inicio": 10.96,
+     "fin": 11.3
+    },
+    {
+     "texto": "was",
+     "inicio": 11.3,
+     "fin": 11.56
+    },
+    {
+     "texto": "that",
+     "inicio": 11.56,
+     "fin": 11.76
+    },
+    {
+     "texto": "your",
+     "inicio": 11.76,
+     "fin": 11.94
+    },
+    {
+     "texto": "blood",
+     "inicio": 11.94,
+     "fin": 12.2
+    },
+    {
+     "texto": "rushes",
+     "inicio": 12.2,
+     "fin": 12.78
+    },
+    {
+     "texto": "to",
+     "inicio": 12.78,
+     "fin": 12.9
+    },
+    {
+     "texto": "your",
+     "inicio": 12.9,
+     "fin": 13.0
+    },
+    {
+     "texto": "stomach",
+     "inicio": 13.0,
+     "fin": 13.3
+    },
+    {
+     "texto": "and",
+     "inicio": 13.3,
+     "fin": 13.6
+    },
+    {
+     "texto": "leaves",
+     "inicio": 13.6,
+     "fin": 13.82
+    },
+    {
+     "texto": "your",
+     "inicio": 13.82,
+     "fin": 14.04
+    },
+    {
+     "texto": "arms",
+     "inicio": 14.04,
+     "fin": 14.34
+    },
+    {
+     "texto": "and",
+     "inicio": 14.34,
+     "fin": 14.52
+    },
+    {
+     "texto": "legs",
+     "inicio": 14.52,
+     "fin": 14.72
+    },
+    {
+     "texto": "empty.",
+     "inicio": 14.72,
+     "fin": 15.1
+    }
+   ],
+   "inicio": 10.86,
+   "fin": 15.1
+  },
+  {
+   "texto": "But in the research the Red Cross reviewed, swimming after eating didn't hold swimmers back.",
+   "palabras": [
+    {
+     "texto": "But",
+     "inicio": 15.58,
+     "fin": 15.76
+    },
+    {
+     "texto": "in",
+     "inicio": 15.76,
+     "fin": 15.96
+    },
+    {
+     "texto": "the",
+     "inicio": 15.96,
+     "fin": 16.06
+    },
+    {
+     "texto": "research",
+     "inicio": 16.06,
+     "fin": 16.42
+    },
+    {
+     "texto": "the",
+     "inicio": 16.42,
+     "fin": 16.68
+    },
+    {
+     "texto": "Red",
+     "inicio": 16.68,
+     "fin": 16.86
+    },
+    {
+     "texto": "Cross",
+     "inicio": 16.86,
+     "fin": 17.1
+    },
+    {
+     "texto": "reviewed,",
+     "inicio": 17.1,
+     "fin": 17.52
+    },
+    {
+     "texto": "swimming",
+     "inicio": 17.86,
+     "fin": 18.2
+    },
+    {
+     "texto": "after",
+     "inicio": 18.2,
+     "fin": 18.5
+    },
+    {
+     "texto": "eating",
+     "inicio": 18.5,
+     "fin": 18.8
+    },
+    {
+     "texto": "didn't",
+     "inicio": 18.8,
+     "fin": 19.48
+    },
+    {
+     "texto": "hold",
+     "inicio": 19.48,
+     "fin": 19.68
+    },
+    {
+     "texto": "swimmers",
+     "inicio": 19.68,
+     "fin": 20.04
+    },
+    {
+     "texto": "back.",
+     "inicio": 20.04,
+     "fin": 20.34
+    }
+   ],
+   "inicio": 15.58,
+   "fin": 20.34
+  },
+  {
+   "texto": "The American Red Cross reviewed the research and found no evidence that swimming after eating causes drowning.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 20.84,
+     "fin": 20.98
+    },
+    {
+     "texto": "American",
+     "inicio": 20.98,
+     "fin": 21.3
+    },
+    {
+     "texto": "Red",
+     "inicio": 21.3,
+     "fin": 21.58
+    },
+    {
+     "texto": "Cross",
+     "inicio": 21.58,
+     "fin": 21.94
+    },
+    {
+     "texto": "reviewed",
+     "inicio": 21.94,
+     "fin": 22.46
+    },
+    {
+     "texto": "the",
+     "inicio": 22.46,
+     "fin": 22.78
+    },
+    {
+     "texto": "research",
+     "inicio": 22.78,
+     "fin": 23.18
+    },
+    {
+     "texto": "and",
+     "inicio": 23.18,
+     "fin": 23.46
+    },
+    {
+     "texto": "found",
+     "inicio": 23.46,
+     "fin": 23.72
+    },
+    {
+     "texto": "no",
+     "inicio": 23.72,
+     "fin": 24.18
+    },
+    {
+     "texto": "evidence",
+     "inicio": 24.18,
+     "fin": 24.64
+    },
+    {
+     "texto": "that",
+     "inicio": 24.64,
+     "fin": 24.86
+    },
+    {
+     "texto": "swimming",
+     "inicio": 24.86,
+     "fin": 25.16
+    },
+    {
+     "texto": "after",
+     "inicio": 25.16,
+     "fin": 25.5
+    },
+    {
+     "texto": "eating",
+     "inicio": 25.5,
+     "fin": 25.82
+    },
+    {
+     "texto": "causes",
+     "inicio": 25.82,
+     "fin": 26.26
+    },
+    {
+     "texto": "drowning.",
+     "inicio": 26.26,
+     "fin": 26.62
+    }
+   ],
+   "inicio": 20.84,
+   "fin": 26.62
+  },
+  {
+   "texto": "One early printed warning is often traced to a Boy Scouts handbook from nineteen oh eight.",
+   "palabras": [
+    {
+     "texto": "One",
+     "inicio": 27.1,
+     "fin": 27.36
+    },
+    {
+     "texto": "early",
+     "inicio": 27.36,
+     "fin": 27.66
+    },
+    {
+     "texto": "printed",
+     "inicio": 27.66,
+     "fin": 28.14
+    },
+    {
+     "texto": "warning",
+     "inicio": 28.14,
+     "fin": 28.48
+    },
+    {
+     "texto": "is",
+     "inicio": 28.48,
+     "fin": 28.68
+    },
+    {
+     "texto": "often",
+     "inicio": 28.68,
+     "fin": 28.9
+    },
+    {
+     "texto": "traced",
+     "inicio": 28.9,
+     "fin": 29.22
+    },
+    {
+     "texto": "to",
+     "inicio": 29.22,
+     "fin": 29.34
+    },
+    {
+     "texto": "a",
+     "inicio": 29.34,
+     "fin": 29.46
+    },
+    {
+     "texto": "Boy",
+     "inicio": 29.46,
+     "fin": 29.66
+    },
+    {
+     "texto": "Scouts",
+     "inicio": 29.66,
+     "fin": 30.02
+    },
+    {
+     "texto": "handbook",
+     "inicio": 30.02,
+     "fin": 30.6
+    },
+    {
+     "texto": "from",
+     "inicio": 30.6,
+     "fin": 30.8
+    },
+    {
+     "texto": "nineteen",
+     "inicio": 30.8,
+     "fin": 31.04
+    },
+    {
+     "texto": "oh",
+     "inicio": 31.04,
+     "fin": 31.32
+    },
+    {
+     "texto": "eight.",
+     "inicio": 31.32,
+     "fin": 31.52
+    }
+   ],
+   "inicio": 27.1,
+   "fin": 31.52
+  },
+  {
+   "texto": "Heads up: after a huge meal, you might get a side stitch.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 31.98,
+     "fin": 32.18
+    },
+    {
+     "texto": "up:",
+     "inicio": 32.18,
+     "fin": 32.4
+    },
+    {
+     "texto": "after",
+     "inicio": 32.62,
+     "fin": 32.86
+    },
+    {
+     "texto": "a",
+     "inicio": 32.86,
+     "fin": 33.02
+    },
+    {
+     "texto": "huge",
+     "inicio": 33.02,
+     "fin": 33.16
+    },
+    {
+     "texto": "meal,",
+     "inicio": 33.16,
+     "fin": 33.46
+    },
+    {
+     "texto": "you",
+     "inicio": 33.6,
+     "fin": 33.68
+    },
+    {
+     "texto": "might",
+     "inicio": 33.68,
+     "fin": 33.84
+    },
+    {
+     "texto": "get",
+     "inicio": 33.84,
+     "fin": 34.0
+    },
+    {
+     "texto": "a",
+     "inicio": 34.0,
+     "fin": 34.14
+    },
+    {
+     "texto": "side",
+     "inicio": 34.14,
+     "fin": 34.32
+    },
+    {
+     "texto": "stitch.",
+     "inicio": 34.32,
+     "fin": 34.58
+    }
+   ],
+   "inicio": 31.98,
+   "fin": 34.58
+  },
+  {
+   "texto": "Annoying, but nothing the research ties to drowning.",
+   "palabras": [
+    {
+     "texto": "Annoying,",
+     "inicio": 35.2,
+     "fin": 35.7
+    },
+    {
+     "texto": "but",
+     "inicio": 35.84,
+     "fin": 35.92
+    },
+    {
+     "texto": "nothing",
+     "inicio": 35.92,
+     "fin": 36.38
+    },
+    {
+     "texto": "the",
+     "inicio": 36.38,
+     "fin": 36.62
+    },
+    {
+     "texto": "research",
+     "inicio": 36.62,
+     "fin": 36.84
+    },
+    {
+     "texto": "ties",
+     "inicio": 36.84,
+     "fin": 37.22
+    },
+    {
+     "texto": "to",
+     "inicio": 37.22,
+     "fin": 37.4
+    },
+    {
+     "texto": "drowning.",
+     "inicio": 37.4,
+     "fin": 37.64
+    }
+   ],
+   "inicio": 35.2,
+   "fin": 37.64
+  },
+  {
+   "texto": "What does matter is alcohol. The CDC links it to a large share of teen and adult deaths around water.",
+   "palabras": [
+    {
+     "texto": "What",
+     "inicio": 38.22,
+     "fin": 38.46
+    },
+    {
+     "texto": "does",
+     "inicio": 38.46,
+     "fin": 38.84
+    },
+    {
+     "texto": "matter",
+     "inicio": 38.84,
+     "fin": 39.18
+    },
+    {
+     "texto": "is",
+     "inicio": 39.18,
+     "fin": 39.44
+    },
+    {
+     "texto": "alcohol.",
+     "inicio": 39.44,
+     "fin": 39.9
+    },
+    {
+     "texto": "The",
+     "inicio": 40.56,
+     "fin": 40.64
+    },
+    {
+     "texto": "CDC",
+     "inicio": 40.64,
+     "fin": 41.08
+    },
+    {
+     "texto": "links",
+     "inicio": 41.08,
+     "fin": 41.5
+    },
+    {
+     "texto": "it",
+     "inicio": 41.5,
+     "fin": 41.68
+    },
+    {
+     "texto": "to",
+     "inicio": 41.68,
+     "fin": 41.78
+    },
+    {
+     "texto": "a",
+     "inicio": 41.78,
+     "fin": 41.9
+    },
+    {
+     "texto": "large",
+     "inicio": 41.9,
+     "fin": 42.22
+    },
+    {
+     "texto": "share",
+     "inicio": 42.22,
+     "fin": 42.54
+    },
+    {
+     "texto": "of",
+     "inicio": 42.54,
+     "fin": 42.66
+    },
+    {
+     "texto": "teen",
+     "inicio": 42.66,
+     "fin": 42.92
+    },
+    {
+     "texto": "and",
+     "inicio": 42.92,
+     "fin": 43.1
+    },
+    {
+     "texto": "adult",
+     "inicio": 43.1,
+     "fin": 43.38
+    },
+    {
+     "texto": "deaths",
+     "inicio": 43.38,
+     "fin": 43.72
+    },
+    {
+     "texto": "around",
+     "inicio": 43.72,
+     "fin": 43.98
+    },
+    {
+     "texto": "water.",
+     "inicio": 43.98,
+     "fin": 44.36
+    }
+   ],
+   "inicio": 38.22,
+   "fin": 44.36
+  },
+  {
+   "texto": "Send this to the friend whose parents made them wait on the towel.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 44.92,
+     "fin": 45.08
+    },
+    {
+     "texto": "this",
+     "inicio": 45.08,
+     "fin": 45.28
+    },
+    {
+     "texto": "to",
+     "inicio": 45.28,
+     "fin": 45.46
+    },
+    {
+     "texto": "the",
+     "inicio": 45.46,
+     "fin": 45.56
+    },
+    {
+     "texto": "friend",
+     "inicio": 45.56,
+     "fin": 45.84
+    },
+    {
+     "texto": "whose",
+     "inicio": 45.84,
+     "fin": 46.1
+    },
+    {
+     "texto": "parents",
+     "inicio": 46.1,
+     "fin": 46.54
+    },
+    {
+     "texto": "made",
+     "inicio": 46.54,
+     "fin": 46.86
+    },
+    {
+     "texto": "them",
+     "inicio": 46.86,
+     "fin": 47.06
+    },
+    {
+     "texto": "wait",
+     "inicio": 47.06,
+     "fin": 47.34
+    },
+    {
+     "texto": "on",
+     "inicio": 47.34,
+     "fin": 47.86
+    },
+    {
+     "texto": "the",
+     "inicio": 47.86,
+     "fin": 48.32
+    },
+    {
+     "texto": "towel.",
+     "inicio": 48.32,
+     "fin": 48.82
+    }
+   ],
+   "inicio": 44.92,
+   "fin": 48.82
+  }
+ ]
+}

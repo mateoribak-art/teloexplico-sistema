@@ -250,5 +250,34 @@
     "motivo": "control OK"
    }
   ]
+ },
+ {
+  "clave": "lavar-pollo",
+  "estado": "listo",
+  "origen": [
+   "012-lavar-pollo"
+  ],
+  "historial": [
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-07T22:17",
+    "motivo": "números que no están en el chequeo de los reels de origen: 6 (caption), 6 (dato), 6 (titulo)"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-07T22:17",
+    "motivo": "titulo demasiado largo (84 > 80): \"De quienes lavaron el pollo, a seis de c…\""
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-07T22:17",
+    "motivo": "control OK"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-07T22:18",
+    "motivo": "control OK"
+   }
+  ]
  }
 ]

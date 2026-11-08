@@ -1008,5 +1008,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-029-swim-after-eating",
+  "tema": "Do you have to wait to swim after eating? (Red Cross; adapted from 002)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-07T22:19",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-07T22:19",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-07T22:24",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-07T22:40",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

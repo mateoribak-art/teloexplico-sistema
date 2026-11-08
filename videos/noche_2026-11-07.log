@@ -42,3 +42,19 @@ Uso: 17 pasos · 13,362 tokens nuevos · 1,033,545 de caché · 6,212 escritos �
 2026-11-07 16:47 Render de 047-paquete-retenido (sin Claude).
 2026-11-07 17:00 047-paquete-retenido: listo (render sin Claude)
 2026-11-07 17:00 Termina la producción (ok).
+2026-11-07 21:56 Arranca la producción (19 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Ese pedido ya está hecho: el chequeo se aprobó en el 2.º intento, y quedaron la voz, el Video.tsx, el Root, el tsc y los cuadros. **048-golpe-de-calor** figura en `render` en la cola. No queda nada para hacer en esta corrida.
+
+- **Listo para render:** 048-golpe-de-calor. El render y el control los hace `producir.py`. La voz dura 51,6 s, más que el tope de 45.
+- **Apartado:** 005-granizo-calor sigue así por un motivo que no es el chequeo, así que no tocaba rescatarlo.
+- **Segundo video:** no se produjo porque la cola tiene 18 listos, más de los 10 que fijaba la regla.
+Uso: 2 pasos · 2,990 tokens nuevos · 216,384 de caché · 347 escritos · equivale a US$ 1.22 de API
+2026-11-07 22:03 Render de 048-golpe-de-calor (sin Claude).
+2026-11-07 22:16 048-golpe-de-calor: listo (render sin Claude)
+2026-11-07 22:16 Termina la producción (ok).
+2026-11-07 22:16 Arranca el carrusel (1 listos, meta 2).
+`lavar-pollo`: quedó listo. Son 9 placas, con origen en el reel 012-lavar-pollo.
+
+Los números salen del chequeo aprobado del reel: unas 300 personas, seis de cada diez con bacterias en la pileta y 74 °C. Corregí tres cosas hasta que el control lo dejó pasar: el "6" escrito en cifra, un título de 84 caracteres y el resumen que decía "3 reglas" con cuatro renglones. Miré la hoja una vez y no vi texto cortado ni pisado. La corrección del resumen la rendericé sin volver a mirar la hoja. El línea quedó anotada en `videos/produccion.log`.
+Uso: 28 pasos · 48,806 tokens nuevos · 835,615 de caché · 5,532 escritos · equivale a US$ 0.33 de API
+2026-11-07 22:18 Termina el carrusel (ok; quedan 2 listos).
