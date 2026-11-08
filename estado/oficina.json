@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T19:35",
+ "actualizado": "2026-11-07T21:47",
  "oficinas": [
   {
    "clave": "es",
@@ -104,7 +104,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-07T17:00",
-     "hace": "hace 2 h",
+     "hace": "hace 4 h",
      "detalle": [
       "Uso: 17 pasos · 13,362 tokens nuevos · 1,033,545 de caché · 6,212 escritos · equivale a US$ 1.12 de API",
       "2026-11-07 16:41 Arranca la producción (19 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -170,7 +170,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): sin resultados fechados de hoy verificables. Descartados: (a) alerta amarilla tormentas/granizo en",
      "cuando": "2026-11-07T15:10",
-     "hace": "hace 4 h",
+     "hace": "hace 6 h",
      "detalle": [
       "05/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias de clima): resultados sin fecha verificable de hoy. Descartados: (a) alerta amarilla por frente/lluvia en AMBA y 10 provincias \"hasta el 6 de nov\" (Cronista, sin fecha ni año verificable; lluvia y tormentas ya cubiertas en 004/016/018), (b) Super Niño 2026 (tema de fondo desde abril-agosto, no de hoy; ya está 016), (c) ola de calor 40°C (sin fecha). Sin tema verificable; sigue la cola normal.",
       "06/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y clima de la semana): sin resultados fechados de hoy verificables. Descartados: (a) alerta amarilla en 8-10 provincias \"hasta el 6 de nov\" (Cronista, sin año verificable; lluvia/granizo ya cubiertos en 004/016/024), (b) ola de calor ~40°C en el norte (sin fecha; calor ya en 019/008), (c) El Niño octubre-diciembre (ya está 016). Sin tema verificable; sigue la cola normal.",
@@ -206,7 +206,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-07T19:33",
-     "hace": "hace 2 min",
+     "hace": "hace 2 h",
      "detalle": [
       "040-consumo-fantasma: aprobado — Tercera pasada (técnico): se aplicó el arreglo sugerido por el segundo chequeo. Guion y caption ahora dicen que el laboratorio 'estimó' (no ",
       "041-celular-arroz-v2: aprobado — Se releyó la página de Apple Support 102643 (WebFetch, 2026-11-06) y se cotejó con cobertura de febrero de 2024 (PetaPixel, PopSci, Euronews",
@@ -239,7 +239,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-07T19:33",
-     "hace": "hace 2 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -263,7 +263,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-07 19:33.",
      "cuando": "2026-11-07T19:33",
-     "hace": "hace 2 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -287,7 +287,7 @@
      "estado": "ok",
      "resumen": "19 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-07T19:33",
-     "hace": "hace 2 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -311,7 +311,7 @@
      "estado": "ok",
      "resumen": "Último: 029-cataratas-por-segundo.",
      "cuando": "2026-11-07T19:33",
-     "hace": "hace 2 min",
+     "hace": "hace 2 h",
      "detalle": [
       "07/11 12:33 028-yerba-por-ano publicado: https://www.instagram.com/reel/Dfcgs3hDLS0/",
       "07/11 12:33 028-yerba-por-ano publicado en Facebook: https://www.facebook.com/reel/1755429928853718/",
@@ -348,7 +348,7 @@
      "estado": "aviso",
      "resumen": "Necesita algo tuyo: En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram.",
      "cuando": "2026-11-07T19:33",
-     "hace": "hace 2 min",
+     "hace": "hace 2 h",
      "detalle": [
       "06/11 19:33 027-bondi-de-brasil https://youtube.com/shorts/sWsq23mw6No | privacidad: public",
       "06/11 19:33 027-bondi-de-brasil paquete para TikTok/YouTube enviado",
@@ -378,7 +378,7 @@
      "estado": "ok",
      "resumen": "1 listo(s) para las 16:00.",
      "cuando": "2026-11-07T19:26",
-     "hace": "hace 9 min",
+     "hace": "hace 2 h",
      "detalle": [
       "2026-11-06 14:08 serie-clima-1: listo control OK",
       "2026-11-06 20:36 heladera-parte-2: publicado https://www.instagram.com/p/DfazSt3lzfw/",
@@ -411,7 +411,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-07T18:03",
-     "hace": "hace 1 h",
+     "hace": "hace 3 h",
      "detalle": [
       "07/11 03:53 Hay 2 comentarios nuevos: arranca la respuesta.",
       "07/11 00:00 Respondí 2 · salteé 0 · alerté 0. (026-mediodia-hora-corrida: marenzimonica respondida con la explicación del movimiento aparente por la rotación terrestre; davidblaiotta respondido con humor sobre el horario de almuerzo)",
@@ -450,7 +450,7 @@
      "estado": "ok",
      "resumen": "07/11: 511 seguidores",
      "cuando": "2026-11-07T02:50",
-     "hace": "hace 16 h",
+     "hace": "hace 18 h",
      "detalle": [
       "04/11: 386 seguidores",
       "05/11: 400 seguidores",
@@ -483,7 +483,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-07T19:35",
+     "cuando": "2026-11-07T21:47",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -618,7 +618,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-07T13:48",
-     "hace": "hace 5 h",
+     "hace": "hace 7 h",
      "detalle": [
       "Uso: 28 pasos · 19,765 tokens nuevos · 1,092,207 de caché · 6,298 escritos · equivale a US$ 1.07 de API",
       "2026-11-07 13:27 Arranca la producción (5 listos en la cola, meta 6).",
@@ -653,7 +653,7 @@
      "estado": "ok",
      "resumen": "Duodécima pasada del radar: la búsqueda (NWS fin de semana) solo devolvió páginas sin fecha o de 2025/marzo 2026; nada verificable de las últimas 48 h. Descarta",
      "cuando": "2026-11-07T15:10",
-     "hace": "hace 4 h",
+     "hace": "hace 6 h",
      "detalle": [
       "06/11 00:00 Décima pasada del radar: la búsqueda web no devolvió alertas del NWS ni noticias de las últimas 48 h (páginas sin fecha, de abril o de 2025). Descartados: (1) tornado watch en el norte de Georgia: página sin fecha, regional y sin fuente oficial confirmada; (2) superluna del 24/11: todavía lejos; (3) ciencia de la semana: nada de noviembre 2026 en los resúmenes. Sin tema nuevo.",
       "07/11 00:00 Undécima pasada del radar: la búsqueda solo devolvió pronósticos locales y titulares sin detalle. Descartados: (1) El Niño \"más fuerte en una vida\" (AccuWeather): solo titular, sin fuente oficial del día; y en-026-el-nino-winter ya está en cola; (2) tornados raros en Delaware/Long Island: evento regional, riesgo de daños/víctimas, sin confirmar; (3) inundación costera por \"king tide\" en Florida/California: regional, sin fecha ni fuente oficial confirmada. Sin tema nuevo.",
@@ -683,7 +683,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-07T19:34",
-     "hace": "hace 1 min",
+     "hace": "hace 2 h",
      "detalle": [
       "en-022-ears-pop: aprobado — Todas las afirmaciones de salud/seguridad quedan verificadas con fuentes de EE. UU. (Cleveland Clinic, MedlinePlus/NIH, FAA, PMC/NIH). No ha",
       "en-022-power-outage-fridge: aprobado — Segundo chequeo. Leida la pagina del CDC (cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html): 'If the doors stay closed, food wi",
@@ -716,7 +716,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-07T19:34",
-     "hace": "hace 1 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -740,7 +740,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-07 19:34.",
      "cuando": "2026-11-07T19:34",
-     "hace": "hace 1 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -764,7 +764,7 @@
      "estado": "ok",
      "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-07T19:34",
-     "hace": "hace 1 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -788,7 +788,7 @@
      "estado": "ok",
      "resumen": "Último: en-023-package-text.",
      "cuando": "2026-11-07T19:35",
-     "hace": "recién",
+     "hace": "hace 2 h",
      "detalle": [
       "06/11 19:34 en-022-ears-pop en la bandeja de TikTok",
       "06/11 19:34 en-022-ears-pop paquete para TikTok/YouTube enviado",
@@ -825,7 +825,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-07T19:35",
-     "hace": "recién",
+     "hace": "hace 2 h",
      "detalle": [
       "06/11 12:35 en-021-other-line en la bandeja de TikTok",
       "06/11 12:35 en-021-other-line paquete para TikTok/YouTube enviado",
@@ -860,7 +860,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:16",
-     "hace": "hace 4 días",
+     "hace": "hace 5 días",
      "detalle": [
       "01/11 18:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
@@ -895,7 +895,7 @@
      "estado": "ok",
      "resumen": "07/11: 5 seguidores",
      "cuando": "2026-11-07T02:50",
-     "hace": "hace 16 h",
+     "hace": "hace 18 h",
      "detalle": [
       "04/11: 3 seguidores",
       "05/11: 3 seguidores",
@@ -928,7 +928,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-07T19:35",
+     "cuando": "2026-11-07T21:47",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
