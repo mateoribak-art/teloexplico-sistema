@@ -1,0 +1,32 @@
+2026-11-08 17:06 Arranca la producción (20 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+no está instalado el comando claude
+2026-11-08 17:06 Termina la producción (Claude no terminó bien).
+2026-11-08 17:07 Arranca la producción (20 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+No pude producir ningún video: el permiso de Write fue denegado y no escribí nada del guion.
+
+**Qué pasó**
+- Las dos escrituras fallaron: `videos/049-vos-espanol-antiguo/guion.json` y `caption.txt`. Esta sesión corre en modo "don't ask", que bloquea Write aunque las reglas de la corrida lo permitan en `videos/**`. Sin escribir archivos no puedo seguir con chequeo, voz, escenas ni render, y no lo rodeé con Bash ni redirecciones porque sería saltar el permiso.
+- Lo único que dejé en disco fue la carpeta vacía `videos/049-vos-espanol-antiguo/`.
+- WebFetch también está denegado. Por eso no pude leer las páginas oficiales de NFPA y CPSC para el tema del alargue con la estufa. Ese es un tema de seguridad que exige fuente primaria con número, así que lo descarté.
+
+**Estado de la cola**
+- Hay 19 videos `listo`, así que no correspondía producir un segundo.
+- No hay ningún video apartado por "chequeo rechazado" para rescatar. El único apartado, `005-granizo-calor`, está apartado por otro motivo.
+
+**Qué hice antes de que se denegara**
+- Elegí el tema "¿Decir vos es hablar mal? Es español antiguo" (pilar argentina). Lo investigué con WebSearch y quedó como "probable", no verificado con fuente primaria: Lapesa dice que el tú sacó al vos de España hasta el siglo XVII, y la lingüista Bertolotti (BBC) explica por qué el vos sobrevivió en América.
+- Tengo escrito en la sesión el guion de 9 frases (unas 113 palabras) y el caption, listos para guardar. Los redacté en mi respuesta anterior y no los volví a mostrar acá.
+
+**Para retomar:** habilitá Write en `videos/**` y `motor/src/**` (y WebFetch, si querés temas de seguridad). Con eso sigo desde el chequeo con un subagente aparte.
+
+**Resumen final**
+1. Listos: ninguno nuevo. Apartados: ninguno nuevo; no hay rescates posibles.
+2. Incompleto: `049-vos-espanol-antiguo`, solo con la carpeta creada, por el permiso de Write denegado.
+3. No usé cuota de Gemini. No escribí en `produccion.log` por el mismo bloqueo.
+Uso: 26 pasos · 82,704 tokens nuevos · 1,246,479 de caché · 7,838 escritos · equivale a US$ 0.60 de API
+Permisos negados (4):
+  WebFetch: {"url": "https://www.nfpa.org/education-and-research/home-fire-safety/heating-equipment", "prompt": "Extraé textualmente (en inglés) cualquier pasaje 
+  WebFetch: {"url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Space-Heaters", "prompt": "Extraé textualmente (en inglés) cualquier pasaje so
+  Write: {"file_path": "C:\\Users\\Mateo\\teloexplico\\videos\\049-vos-espanol-antiguo\\guion.json", "content": "{\n  \"titulo\": \"¿Decir vos es hablar mal? E
+  Write: {"file_path": "C:\\Users\\Mateo\\teloexplico\\videos\\049-vos-espanol-antiguo\\caption.txt", "content": "🗣️ ¿Te dijeron que decir \"vos\" es hablar maIgnoring 19 permissions.allow entries from .claude/settings.json: this workspace has not been trusted. Run Claude Code interactively here once and accept the trust dialog, or set projects["C:/Users/Mateo/teloexplico"].hasTrustDialogAccepted: true in C:\Users\Mateo\.claude.json.
+2026-11-08 17:09 Termina la producción (ok).

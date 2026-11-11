@@ -1192,7 +1192,7 @@
  {
   "slug": "030-fila-del-super",
   "tema": "¿Por qué la otra fila del súper siempre avanza más rápido? Una fila única vs varias (teoría de colas)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1223,13 +1223,28 @@
     "estado": "listo",
     "cuando": "2026-11-03T15:48",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-08T17:09",
+    "motivo": "falta 030-fila-del-super.mp4"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-08T17:09",
+    "motivo": "restaurado: el publicador local apartó por falta de mp4 en la PC (estaban en el Release)"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-10T11:42",
+    "motivo": "https://www.instagram.com/reel/DfkJS5Fgays/"
    }
   ]
  },
  {
   "slug": "031-murcielago-ciego",
   "tema": "¿Los murciélagos son ciegos? No: ven, y muchos además usan ecolocalización",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1250,13 +1265,18 @@
     "estado": "listo",
     "cuando": "2026-11-03T14:33",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-10T12:32",
+    "motivo": "https://www.instagram.com/reel/DfkO9eIDP9K/"
    }
   ]
  },
  {
   "slug": "032-pelo-mojado-resfrio",
   "tema": "¿Salir con el pelo mojado te resfría? Lo causan virus; estudio de Cardiff 2005",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1277,6 +1297,11 @@
     "estado": "listo",
     "cuando": "2026-11-03T23:05",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-11T09:26",
+    "motivo": "https://www.instagram.com/reel/DfmeTtwjPsa/"
    }
   ]
  },
@@ -1445,7 +1470,7 @@
  {
   "slug": "038-codigo-whatsapp",
   "tema": "Estafa del código de WhatsApp: 'te lo mandé por error, pasámelo' (Centro de Ayuda de WhatsApp)",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -1466,6 +1491,21 @@
     "estado": "listo",
     "cuando": "2026-11-05T14:59",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-08T17:09",
+    "motivo": "falta 038-codigo-whatsapp.mp4"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-08T17:09",
+    "motivo": "restaurado: el publicador local apartó por falta de mp4 en la PC (estaban en el Release)"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-08T17:09",
+    "motivo": "falta 038-codigo-whatsapp.mp4"
    }
   ]
  },
@@ -1563,7 +1603,7 @@
  {
   "slug": "042-laburo-italiano",
   "tema": "¿De dónde viene la palabra laburo? Del italiano lavurare (RAE)",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -1584,13 +1624,28 @@
     "estado": "listo",
     "cuando": "2026-11-06T19:05",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-08T17:09",
+    "motivo": "falta 042-laburo-italiano.mp4"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-08T17:09",
+    "motivo": "restaurado: el publicador local apartó por falta de mp4 en la PC (estaban en el Release)"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-08T17:09",
+    "motivo": "falta 042-laburo-italiano.mp4"
    }
   ]
  },
  {
   "slug": "043-feriados-visita",
   "tema": "¿Qué días son feriado por la visita y dónde? 9 nacional, 10 CABA y Córdoba, 11 Buenos Aires (DNU 1103/2026)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1606,6 +1661,21 @@
     "estado": "listo",
     "cuando": "2026-11-06T20:20",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-08T17:09",
+    "motivo": "falta 043-feriados-visita.mp4"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-08T17:09",
+    "motivo": "restaurado: el publicador local apartó por falta de mp4 en la PC (estaban en el Release)"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-08T17:13",
+    "motivo": "https://www.instagram.com/reel/DffliAOnCoI/"
    }
   ],
   "prioridad": "actualidad",
@@ -1614,7 +1684,7 @@
  {
   "slug": "044-misa-fabrica-aviones",
   "tema": "La misa en Córdoba es en la Fábrica Argentina de Aviones: qué es ese lugar (fundada 1927, Pulqui I 1947)",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -1635,6 +1705,21 @@
     "estado": "listo",
     "cuando": "2026-11-07T00:02",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-08T17:09",
+    "motivo": "falta 044-misa-fabrica-aviones.mp4"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-08T17:09",
+    "motivo": "restaurado: el publicador local apartó por falta de mp4 en la PC (estaban en el Release)"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-10T11:41",
+    "motivo": "tema de actualidad vencido (más de 48 h)"
    }
   ],
   "prioridad": "actualidad",

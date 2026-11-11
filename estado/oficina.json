@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T22:40",
+ "actualizado": "2026-11-11T09:33",
  "oficinas": [
   {
    "clave": "es",
@@ -7,63 +7,42 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 511,
-   "listos": 20,
-   "dias": 10.0,
-   "proximo": "030-fila-del-super",
-   "publicados": 31,
+   "listos": 13,
+   "dias": 6.5,
+   "proximo": "033-gracias-en-el-mate",
+   "publicados": 35,
    "pausa": false,
    "pendientes": [
     "Facu (TikTok, YouTube y Telegram): En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram."
    ],
    "ultimas": [
     {
-     "slug": "029-cataratas-por-segundo",
-     "link": "https://www.instagram.com/reel/DfdQwhUlEv8/",
-     "cuando": "2026-11-07T22:32"
-    },
-    {
-     "slug": "028-yerba-por-ano",
-     "link": "https://www.instagram.com/reel/Dfcgs3hDLS0/",
-     "cuando": "2026-11-07T15:33"
-    },
-    {
-     "slug": "027-bondi-de-brasil",
-     "link": "https://www.instagram.com/reel/Dfar7KqCo9x/",
-     "cuando": "2026-11-06T22:32"
-    },
-    {
-     "slug": "026-mediodia-hora-corrida",
-     "link": "https://www.instagram.com/reel/DfZ72TOCed2/",
-     "cuando": "2026-11-06T15:32"
-    },
-    {
-     "slug": "025-noquis-del-29",
-     "link": "https://www.instagram.com/reel/DfYHN6FHAtL/",
-     "cuando": "2026-11-05T22:33"
-    }
-   ],
-   "linea": [
-    {
-     "slug": "030-fila-del-super",
-     "tema": "¿Por qué la otra fila del súper siempre avanza más rápido? Una fila única vs varias (teoría de colas)",
-     "estado": "listo",
-     "cuando": "2026-11-03T15:48",
-     "motivo": "render sin Claude"
+     "slug": "032-pelo-mojado-resfrio",
+     "link": "https://www.instagram.com/reel/DfmeTtwjPsa/",
+     "cuando": "2026-11-11T12:24"
     },
     {
      "slug": "031-murcielago-ciego",
-     "tema": "¿Los murciélagos son ciegos? No: ven, y muchos además usan ecolocalización",
-     "estado": "listo",
-     "cuando": "2026-11-03T14:33",
-     "motivo": "render sin Claude"
+     "link": "https://www.instagram.com/reel/DfkO9eIDP9K/",
+     "cuando": "2026-11-10T15:32"
     },
     {
-     "slug": "032-pelo-mojado-resfrio",
-     "tema": "¿Salir con el pelo mojado te resfría? Lo causan virus; estudio de Cardiff 2005",
-     "estado": "listo",
-     "cuando": "2026-11-03T23:05",
-     "motivo": "render sin Claude"
+     "slug": "030-fila-del-super",
+     "link": "https://www.instagram.com/reel/DfkJS5Fgays/",
+     "cuando": "2026-11-10T14:42"
     },
+    {
+     "slug": "043-feriados-visita",
+     "link": "https://www.instagram.com/reel/DffliAOnCoI/",
+     "cuando": "2026-11-08T20:13"
+    },
+    {
+     "slug": "029-cataratas-por-segundo",
+     "link": "https://www.instagram.com/reel/DfdQwhUlEv8/",
+     "cuando": "2026-11-07T22:32"
+    }
+   ],
+   "linea": [
     {
      "slug": "033-gracias-en-el-mate",
      "tema": "¿Por qué en la ronda de mate no se dice gracias? Gracias significa que no querés más",
@@ -72,18 +51,46 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "028-yerba-por-ano",
-     "tema": "¿Cuánta yerba toma un argentino por año? Seis kilos por persona (INYM/MAGyP)",
-     "estado": "publicado",
-     "cuando": "2026-11-07T12:33",
-     "motivo": "https://www.instagram.com/reel/Dfcgs3hDLS0/"
+     "slug": "034-subte-linea-a",
+     "tema": "¿La línea A del subte es la primera de Latinoamérica? Inaugurada en 1913, coches de madera hasta 2013",
+     "estado": "listo",
+     "cuando": "2026-11-04T15:05",
+     "motivo": "render sin Claude"
     },
     {
-     "slug": "029-cataratas-por-segundo",
-     "tema": "¿Cuánta agua cae en las Cataratas del Iguazú por segundo? Una pileta olímpica en menos de dos segundos",
+     "slug": "034-arroz-recalentado",
+     "tema": "Arroz recalentado: a la heladera en una hora, una sola vez (NHS, Bacillus cereus)",
+     "estado": "listo",
+     "cuando": "2026-11-04T16:32",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "035-lavandina-vinagre",
+     "tema": "Lavandina con vinagre o amoníaco: el gas tóxico (CDC)",
+     "estado": "listo",
+     "cuando": "2026-11-04T23:13",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "044-misa-fabrica-aviones",
+     "tema": "La misa en Córdoba es en la Fábrica Argentina de Aviones: qué es ese lugar (fundada 1927, Pulqui I 1947)",
+     "estado": "apartado",
+     "cuando": "2026-11-10T11:41",
+     "motivo": "tema de actualidad vencido (más de 48 h)"
+    },
+    {
+     "slug": "032-pelo-mojado-resfrio",
+     "tema": "¿Salir con el pelo mojado te resfría? Lo causan virus; estudio de Cardiff 2005",
      "estado": "publicado",
-     "cuando": "2026-11-07T19:33",
-     "motivo": "https://www.instagram.com/reel/DfdQwhUlEv8/"
+     "cuando": "2026-11-11T09:26",
+     "motivo": "https://www.instagram.com/reel/DfmeTtwjPsa/"
+    },
+    {
+     "slug": "043-feriados-visita",
+     "tema": "¿Qué días son feriado por la visita y dónde? 9 nacional, 10 CABA y Córdoba, 11 Buenos Aires (DNU 1103/2026)",
+     "estado": "publicado",
+     "cuando": "2026-11-08T17:13",
+     "motivo": "https://www.instagram.com/reel/DffliAOnCoI/"
     }
    ],
    "empleados": [
@@ -103,24 +110,24 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-07T22:18",
-     "hace": "hace 22 min",
+     "cuando": "2026-11-08T17:09",
+     "hace": "hace 2 días",
      "detalle": [
-      "Uso: 2 pasos · 2,990 tokens nuevos · 216,384 de caché · 347 escritos · equivale a US$ 1.22 de API",
-      "2026-11-07 21:56 Arranca la producción (19 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
-      "Ese pedido ya está hecho: el chequeo se aprobó en el 2.º intento, y quedaron la voz, el Video.tsx, el Root, el tsc y los cuadros. **048-golpe-de-calor** figura en `render` en la cola. No queda nada para hacer en esta corrida.",
-      "- **Listo para render:** 048-golpe-de-calor. El render y el control los hace `producir.py`. La voz dura 51,6 s, más que el tope de 45.",
-      "- **Apartado:** 005-granizo-calor sigue así por un motivo que no es el chequeo, así que no tocaba rescatarlo.",
-      "- **Segundo video:** no se produjo porque la cola tiene 18 listos, más de los 10 que fijaba la regla.",
-      "Uso: 2 pasos · 2,990 tokens nuevos · 216,384 de caché · 347 escritos · equivale a US$ 1.22 de API",
-      "2026-11-07 22:03 Render de 048-golpe-de-calor (sin Claude).",
-      "2026-11-07 22:16 048-golpe-de-calor: listo (render sin Claude)",
-      "2026-11-07 22:16 Termina la producción (ok).",
-      "2026-11-07 22:16 Arranca el carrusel (1 listos, meta 2).",
-      "`lavar-pollo`: quedó listo. Son 9 placas, con origen en el reel 012-lavar-pollo.",
-      "Los números salen del chequeo aprobado del reel: unas 300 personas, seis de cada diez con bacterias en la pileta y 74 °C. Corregí tres cosas hasta que el control lo dejó pasar: el \"6\" escrito en cifra, un título de 84 caracteres y el resume",
-      "Uso: 28 pasos · 48,806 tokens nuevos · 835,615 de caché · 5,532 escritos · equivale a US$ 0.33 de API",
-      "2026-11-07 22:18 Termina el carrusel (ok; quedan 2 listos)."
+      "Uso: 26 pasos · 82,704 tokens nuevos · 1,246,479 de caché · 7,838 escritos · equivale a US$ 0.60 de API",
+      "- Elegí el tema \"¿Decir vos es hablar mal? Es español antiguo\" (pilar argentina). Lo investigué con WebSearch y quedó como \"probable\", no verificado con fuente primaria: Lapesa dice que el tú sacó al vos de España hasta el siglo XVII, y la ",
+      "- Tengo escrito en la sesión el guion de 9 frases (unas 113 palabras) y el caption, listos para guardar. Los redacté en mi respuesta anterior y no los volví a mostrar acá.",
+      "**Para retomar:** habilitá Write en `videos/**` y `motor/src/**` (y WebFetch, si querés temas de seguridad). Con eso sigo desde el chequeo con un subagente aparte.",
+      "**Resumen final**",
+      "1. Listos: ninguno nuevo. Apartados: ninguno nuevo; no hay rescates posibles.",
+      "2. Incompleto: `049-vos-espanol-antiguo`, solo con la carpeta creada, por el permiso de Write denegado.",
+      "3. No usé cuota de Gemini. No escribí en `produccion.log` por el mismo bloqueo.",
+      "Uso: 26 pasos · 82,704 tokens nuevos · 1,246,479 de caché · 7,838 escritos · equivale a US$ 0.60 de API",
+      "Permisos negados (4):",
+      "  WebFetch: {\"url\": \"https://www.nfpa.org/education-and-research/home-fire-safety/heating-equipment\", \"prompt\": \"Extraé textualmente (en inglés) cualquier pasaje",
+      "  WebFetch: {\"url\": \"https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Space-Heaters\", \"prompt\": \"Extraé textualmente (en inglés) cualquier pasaje so",
+      "  Write: {\"file_path\": \"C:\\\\Users\\\\Mateo\\\\teloexplico\\\\videos\\\\049-vos-espanol-antiguo\\\\guion.json\", \"content\": \"{\\n  \\\"titulo\\\": \\\"¿Decir vos es hablar mal? E",
+      "  Write: {\"file_path\": \"C:\\\\Users\\\\Mateo\\\\teloexplico\\\\videos\\\\049-vos-espanol-antiguo\\\\caption.txt\", \"content\": \"🗣️ ¿Te dijeron que decir \\\"vos\\\" es hablar maIgnoring 19 permissions.allow entries from .claude/settings.json: this workspace ",
+      "2026-11-08 17:09 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -144,7 +151,7 @@
      "estado": "ok",
      "resumen": "Guía de referentes al día.",
      "cuando": "2026-11-05T15:28",
-     "hace": "hace 2 días",
+     "hace": "hace 5 días",
      "detalle": [
       "05/11 15:26 Arranca Vera (referentes).",
       "05/11 15:27 Reels bajados (código 0).",
@@ -173,7 +180,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): sin resultados fechados de hoy verificables. Descartados: (a) alerta amarilla tormentas/granizo en",
      "cuando": "2026-11-07T15:10",
-     "hace": "hace 7 h",
+     "hace": "hace 3 días",
      "detalle": [
       "05/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias de clima): resultados sin fecha verificable de hoy. Descartados: (a) alerta amarilla por frente/lluvia en AMBA y 10 provincias \"hasta el 6 de nov\" (Cronista, sin fecha ni año verificable; lluvia y tormentas ya cubiertas en 004/016/018), (b) Super Niño 2026 (tema de fondo desde abril-agosto, no de hoy; ya está 016), (c) ola de calor 40°C (sin fecha). Sin tema verificable; sigue la cola normal.",
       "06/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y clima de la semana): sin resultados fechados de hoy verificables. Descartados: (a) alerta amarilla en 8-10 provincias \"hasta el 6 de nov\" (Cronista, sin año verificable; lluvia/granizo ya cubiertos en 004/016/024), (b) ola de calor ~40°C en el norte (sin fecha; calor ya en 019/008), (c) El Niño octubre-diciembre (ya está 016). Sin tema verificable; sigue la cola normal.",
@@ -208,8 +215,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-07T22:16",
-     "hace": "hace 24 min",
+     "cuando": "2026-11-11T09:26",
+     "hace": "hace 7 min",
      "detalle": [
       "041-celular-arroz-v2: aprobado — Se releyó la página de Apple Support 102643 (WebFetch, 2026-11-06) y se cotejó con cobertura de febrero de 2024 (PetaPixel, PopSci, Euronews",
       "042-laburo-italiano: aprobado — Segundo chequeo. Las afirmaciones centrales (laburar del italiano dialectal lavurare, y este del latin laborare; currar del calo) estan en e",
@@ -241,8 +248,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-07T22:16",
-     "hace": "hace 24 min",
+     "cuando": "2026-11-11T09:26",
+     "hace": "hace 7 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -264,14 +271,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-07 22:16.",
-     "cuando": "2026-11-07T22:16",
-     "hace": "hace 24 min",
+     "resumen": "Último video terminado: 2026-11-11 09:26.",
+     "cuando": "2026-11-11T09:26",
+     "hace": "hace 7 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "80978955531a"
+     "firma": "f96fd90d046b"
     },
     {
      "id": "control",
@@ -288,14 +295,16 @@
       }
      },
      "estado": "ok",
-     "resumen": "20 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-07T22:16",
-     "hace": "hace 24 min",
+     "resumen": "Revisado por el técnico: El video del granizo (005) quedó vencido y apartado, y ya hay una versión corta lista para reemplazarlo; no cambié nada.",
+     "cuando": "2026-11-11T09:26",
+     "hace": "hace 7 min",
      "detalle": [],
-     "tareas": [],
+     "tareas": [
+      "044-misa-fabrica-aviones: tema de actualidad vencido (más de 48 h)"
+     ],
      "arreglo": null,
      "solo": false,
-     "firma": "3af221c38015"
+     "firma": "819ca40fd239"
     },
     {
      "id": "publicador",
@@ -312,27 +321,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: 029-cataratas-por-segundo.",
-     "cuando": "2026-11-07T19:33",
-     "hace": "hace 3 h",
+     "resumen": "Último: 032-pelo-mojado-resfrio.",
+     "cuando": "2026-11-11T09:26",
+     "hace": "hace 7 min",
      "detalle": [
-      "07/11 12:33 028-yerba-por-ano publicado: https://www.instagram.com/reel/Dfcgs3hDLS0/",
-      "07/11 12:33 028-yerba-por-ano publicado en Facebook: https://www.facebook.com/reel/1755429928853718/",
-      "07/11 12:33 028-yerba-por-ano falló TikTok: ^^^^^^^^",
-      "07/11 12:34 028-yerba-por-ano https://youtube.com/shorts/EKu1OftpJuQ | privacidad: public",
-      "07/11 12:34 028-yerba-por-ano paquete para TikTok/YouTube enviado",
-      "07/11 19:33 029-cataratas-por-segundo publicado: https://www.instagram.com/reel/DfdQwhUlEv8/",
-      "07/11 19:33 029-cataratas-por-segundo publicado en Facebook: https://www.facebook.com/reel/1138772818651287/",
-      "07/11 19:33 029-cataratas-por-segundo falló TikTok: ^^^^^^^^",
-      "07/11 19:33 029-cataratas-por-segundo https://youtube.com/shorts/9lrRWPdxdUs | privacidad: public",
-      "07/11 19:33 029-cataratas-por-segundo paquete para TikTok/YouTube enviado"
+      "10/11 11:44 030-fila-del-super paquete para TikTok/YouTube enviado",
+      "10/11 12:32 031-murcielago-ciego publicado: https://www.instagram.com/reel/DfkO9eIDP9K/",
+      "10/11 12:33 031-murcielago-ciego publicado en Facebook: https://www.facebook.com/reel/2212859396295621/",
+      "10/11 12:33 031-murcielago-ciego en la bandeja de TikTok",
+      "10/11 12:33 031-murcielago-ciego https://youtube.com/shorts/prGUeFjdT-I | privacidad: public",
+      "10/11 12:34 031-murcielago-ciego paquete para TikTok/YouTube enviado",
+      "11/11 09:26 032-pelo-mojado-resfrio publicado: https://www.instagram.com/reel/DfmeTtwjPsa/",
+      "11/11 09:26 032-pelo-mojado-resfrio falló Facebook: ",
+      "11/11 09:26 032-pelo-mojado-resfrio falló TikTok: ",
+      "11/11 09:26 032-pelo-mojado-resfrio falló YouTube: "
      ],
      "tareas": [
-      "Próximo: 030-fila-del-super — ¿Por qué la otra fila del súper siempre avanza más rápido? Una fila única vs varias (teoría de colas)"
+      "Próximo: 033-gracias-en-el-mate — ¿Por qué en la ronda de mate no se dice gracias? Gracias significa que no querés más"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "ff0d60ab3296"
+     "firma": "d0935c0d9301"
     },
     {
      "id": "redes",
@@ -350,22 +359,22 @@
      },
      "estado": "aviso",
      "resumen": "Necesita algo tuyo: En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram.",
-     "cuando": "2026-11-07T19:33",
-     "hace": "hace 3 h",
+     "cuando": "2026-11-11T09:26",
+     "hace": "hace 7 min",
      "detalle": [
-      "06/11 19:33 027-bondi-de-brasil https://youtube.com/shorts/sWsq23mw6No | privacidad: public",
-      "06/11 19:33 027-bondi-de-brasil paquete para TikTok/YouTube enviado",
-      "07/11 12:33 028-yerba-por-ano falló TikTok: ^^^^^^^^",
-      "07/11 12:34 028-yerba-por-ano https://youtube.com/shorts/EKu1OftpJuQ | privacidad: public",
-      "07/11 12:34 028-yerba-por-ano paquete para TikTok/YouTube enviado",
-      "07/11 19:33 029-cataratas-por-segundo falló TikTok: ^^^^^^^^",
-      "07/11 19:33 029-cataratas-por-segundo https://youtube.com/shorts/9lrRWPdxdUs | privacidad: public",
-      "07/11 19:33 029-cataratas-por-segundo paquete para TikTok/YouTube enviado"
+      "10/11 11:43 030-fila-del-super en la bandeja de TikTok",
+      "10/11 11:43 030-fila-del-super https://youtube.com/shorts/wdi6aECgkw0 | privacidad: public",
+      "10/11 11:44 030-fila-del-super paquete para TikTok/YouTube enviado",
+      "10/11 12:33 031-murcielago-ciego en la bandeja de TikTok",
+      "10/11 12:33 031-murcielago-ciego https://youtube.com/shorts/prGUeFjdT-I | privacidad: public",
+      "10/11 12:34 031-murcielago-ciego paquete para TikTok/YouTube enviado",
+      "11/11 09:26 032-pelo-mojado-resfrio falló TikTok: ",
+      "11/11 09:26 032-pelo-mojado-resfrio falló YouTube: "
      ],
      "tareas": [],
      "arreglo": "Si TikTok no recibió el borrador, el paquete igual llegó por Telegram: subilo a mano.",
      "solo": true,
-     "firma": "cb11fbf4ea93"
+     "firma": "e01fff7bc673"
     },
     {
      "id": "carruseles",
@@ -381,7 +390,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-07T22:18",
-     "hace": "hace 22 min",
+     "hace": "hace 3 días",
      "detalle": [
       "2026-11-07 07:55 celular-arroz: listo control OK",
       "2026-11-07 19:26 serie-clima-1: publicado https://www.instagram.com/p/DfdQIG8EzTc/",
@@ -415,7 +424,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-07T18:03",
-     "hace": "hace 4 h",
+     "hace": "hace 3 días",
      "detalle": [
       "07/11 03:53 Hay 2 comentarios nuevos: arranca la respuesta.",
       "07/11 00:00 Respondí 2 · salteé 0 · alerté 0. (026-mediodia-hora-corrida: marenzimonica respondida con la explicación del movimiento aparente por la rotación terrestre; davidblaiotta respondido con humor sobre el horario de almuerzo)",
@@ -451,10 +460,10 @@
        "modo": "resumen"
       }
      },
-     "estado": "ok",
-     "resumen": "07/11: 511 seguidores",
+     "estado": "aviso",
+     "resumen": "Las métricas tienen más de un día.",
      "cuando": "2026-11-07T02:50",
-     "hace": "hace 19 h",
+     "hace": "hace 4 días",
      "detalle": [
       "04/11: 386 seguidores",
       "05/11: 400 seguidores",
@@ -468,9 +477,9 @@
       "006-army-bomb: 8.425 vistas · 51 enviados · 523 ♥",
       "003-vuelta-carne: 4.249 vistas · 25 enviados · 93 ♥"
      ],
-     "arreglo": null,
+     "arreglo": "¿Vencido el token de Meta? Relanzá el resumen y mirá si falla.",
      "solo": false,
-     "firma": "6b8143249d30"
+     "firma": "1f01b26b7eea"
     },
     {
      "id": "vigilante",
@@ -485,15 +494,17 @@
        "modo": "vigilar"
       }
      },
-     "estado": "ok",
-     "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-07T22:40",
+     "estado": "aviso",
+     "resumen": "Video apartado: 044-misa-fabrica-aviones — tema de actualidad vencido (más de 48 h)",
+     "cuando": "2026-11-11T09:33",
      "hace": "recién",
-     "detalle": [],
+     "detalle": [
+      "⚠️ Video apartado: 044-misa-fabrica-aviones — tema de actualidad vencido (más de 48 h)"
+     ],
      "tareas": [],
      "arreglo": null,
-     "solo": false,
-     "firma": "cf3a22f5d39c"
+     "solo": true,
+     "firma": "c406bf30f21d"
     },
     {
      "id": "planb",
@@ -622,7 +633,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-07T22:40",
-     "hace": "recién",
+     "hace": "hace 3 días",
      "detalle": [
       "Uso: 21 pasos · 14,648 tokens nuevos · 855,368 de caché · 7,467 escritos · equivale a US$ 1.07 de API",
       "2026-11-07 22:18 Arranca la producción (5 listos en la cola, meta 6).",
@@ -656,7 +667,7 @@
      "estado": "ok",
      "resumen": "Duodécima pasada del radar: la búsqueda (NWS fin de semana) solo devolvió páginas sin fecha o de 2025/marzo 2026; nada verificable de las últimas 48 h. Descarta",
      "cuando": "2026-11-07T15:10",
-     "hace": "hace 7 h",
+     "hace": "hace 3 días",
      "detalle": [
       "06/11 00:00 Décima pasada del radar: la búsqueda web no devolvió alertas del NWS ni noticias de las últimas 48 h (páginas sin fecha, de abril o de 2025). Descartados: (1) tornado watch en el norte de Georgia: página sin fecha, regional y sin fuente oficial confirmada; (2) superluna del 24/11: todavía lejos; (3) ciencia de la semana: nada de noviembre 2026 en los resúmenes. Sin tema nuevo.",
       "07/11 00:00 Undécima pasada del radar: la búsqueda solo devolvió pronósticos locales y titulares sin detalle. Descartados: (1) El Niño \"más fuerte en una vida\" (AccuWeather): solo titular, sin fuente oficial del día; y en-026-el-nino-winter ya está en cola; (2) tornados raros en Delaware/Long Island: evento regional, riesgo de daños/víctimas, sin confirmar; (3) inundación costera por \"king tide\" en Florida/California: regional, sin fecha ni fuente oficial confirmada. Sin tema nuevo.",
@@ -686,7 +697,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-07T22:40",
-     "hace": "recién",
+     "hace": "hace 3 días",
      "detalle": [
       "en-022-power-outage-fridge: aprobado — Segundo chequeo. Leida la pagina del CDC (cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html): 'If the doors stay closed, food wi",
       "en-023-package-text: aprobado — Todas las afirmaciones fácticas salen de una única fuente primaria de EE. UU. (FTC Consumer Alert, abril 2025, consumer.ftc.gov) que la pági",
@@ -719,7 +730,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-07T22:40",
-     "hace": "recién",
+     "hace": "hace 3 días",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -743,7 +754,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-07 22:40.",
      "cuando": "2026-11-07T22:40",
-     "hace": "recién",
+     "hace": "hace 3 días",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -767,7 +778,7 @@
      "estado": "ok",
      "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-07T22:40",
-     "hace": "recién",
+     "hace": "hace 3 días",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -788,10 +799,10 @@
        "cuenta": "en"
       }
      },
-     "estado": "ok",
-     "resumen": "Último: en-023-package-text.",
+     "estado": "falla",
+     "resumen": "No salió la publicación del turno de las 19:30 (10/11).",
      "cuando": "2026-11-07T19:35",
-     "hace": "hace 3 h",
+     "hace": "hace 3 días",
      "detalle": [
       "06/11 19:34 en-022-ears-pop en la bandeja de TikTok",
       "06/11 19:34 en-022-ears-pop paquete para TikTok/YouTube enviado",
@@ -807,9 +818,9 @@
      "tareas": [
       "Próximo: en-024-heat-index — Why does it feel hotter than the thermometer? Heat index (adapted from 019, NWS)"
      ],
-     "arreglo": null,
+     "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
      "solo": false,
-     "firma": "e3a6819b7a43"
+     "firma": "51ade5edeec6"
     },
     {
      "id": "redes",
@@ -828,7 +839,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-07T19:35",
-     "hace": "hace 3 h",
+     "hace": "hace 3 días",
      "detalle": [
       "06/11 12:35 en-021-other-line en la bandeja de TikTok",
       "06/11 12:35 en-021-other-line paquete para TikTok/YouTube enviado",
@@ -863,7 +874,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:16",
-     "hace": "hace 5 días",
+     "hace": "hace 8 días",
      "detalle": [
       "01/11 18:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
@@ -895,10 +906,10 @@
        "modo": "resumen"
       }
      },
-     "estado": "ok",
-     "resumen": "07/11: 5 seguidores",
+     "estado": "aviso",
+     "resumen": "Las métricas tienen más de un día.",
      "cuando": "2026-11-07T02:50",
-     "hace": "hace 19 h",
+     "hace": "hace 4 días",
      "detalle": [
       "04/11: 3 seguidores",
       "05/11: 3 seguidores",
@@ -912,9 +923,9 @@
       "en-008-wash-chicken: 2.295 vistas · 4 enviados · 20 ♥",
       "en-006-five-second-rule: 2.255 vistas · 22 enviados · 52 ♥"
      ],
-     "arreglo": null,
+     "arreglo": "¿Vencido el token de Meta? Relanzá el resumen y mirá si falla.",
      "solo": false,
-     "firma": "062660431821"
+     "firma": "5264890a0965"
     },
     {
      "id": "vigilante",
@@ -929,15 +940,17 @@
        "modo": "vigilar"
       }
      },
-     "estado": "ok",
-     "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-07T22:40",
+     "estado": "falla",
+     "resumen": "No salió la publicación del turno de las 19:30 (10/11).",
+     "cuando": "2026-11-11T09:33",
      "hace": "recién",
-     "detalle": [],
+     "detalle": [
+      "❗ No salió la publicación del turno de las 19:30 (10/11)."
+     ],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "3e900f50565c"
+     "firma": "68195e39ac29"
     }
    ]
   }

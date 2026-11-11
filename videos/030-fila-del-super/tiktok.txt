@@ -1,0 +1,9 @@
+🛒 Parece que la otra fila siempre avanza más rápido. Y no es solo mala suerte.
+
+👇 Mandáselo al que se cambia de fila tres veces.
+
+Fuentes: origen de la teoría de colas: A. K. Erlang, 1909, Copenhague. Comparación de filas: modelo M/M/c vs c × M/M/1. Percepción: Qminder, D. Andrews (2015).
+
+📚 Matemática cotidiana #3 · Seguí a @teloexplico.ar para no perderte el #4.
+
+#datoscuriosos #matematica #supermercado #teoriadecolas #aprendeentiktok

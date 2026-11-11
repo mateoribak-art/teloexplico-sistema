@@ -154,7 +154,7 @@ MODELO_COMENTARIOS = 'haiku'
 
 def claude(pedido, log, minutos, modelo=MODELO_PRODUCIR):
     try:
-        r = subprocess.run(['claude', '-p', pedido, '--model', modelo, '--permission-mode', 'dontAsk', '--output-format', 'stream-json', '--verbose'],
+        r = subprocess.run([__import__('shutil').which('claude') or 'claude', '-p', pedido, '--model', modelo, '--permission-mode', 'dontAsk', '--output-format', 'stream-json', '--verbose'],
                            cwd=RAIZ, capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=minutos * 60)
         salida, codigo = resumir(r.stdout) + r.stderr, r.returncode
     except subprocess.TimeoutExpired as e:
