@@ -1308,7 +1308,7 @@
  {
   "slug": "033-gracias-en-el-mate",
   "tema": "¿Por qué en la ronda de mate no se dice gracias? Gracias significa que no querés más",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1329,13 +1329,18 @@
     "estado": "listo",
     "cuando": "2026-11-04T09:02",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-11T12:31",
+    "motivo": "https://www.instagram.com/reel/DfmzoSFFICK/"
    }
   ]
  },
  {
   "slug": "034-subte-linea-a",
   "tema": "¿La línea A del subte es la primera de Latinoamérica? Inaugurada en 1913, coches de madera hasta 2013",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1356,6 +1361,11 @@
     "estado": "listo",
     "cuando": "2026-11-04T15:05",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-11T19:30",
+    "motivo": "https://www.instagram.com/reel/Dfnjs50Ein-/"
    }
   ]
  },
