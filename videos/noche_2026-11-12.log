@@ -1,0 +1,22 @@
+﻿2026-11-12 09:25 Sincronización: sincronizado
+2026-11-12 09:25 Hay 11 videos listos: no hace falta producir hoy. Corre solo el radar de actualidad.
+Listo. El video de actualidad quedó producido y en cola de render.
+
+## Qué pasó
+
+**Radar:** hoy (12/11) hay señal fuerte de actualidad — es el **día más caluroso de la semana en el AMBA** (30–32 °C, primer calor fuerte de la temporada; fuentes del día: Perfil, Canal26, Infobae). Descarté lo demás y lo anoté en `radar.log`:
+- Alerta amarilla por tormentas/granizo en 6 provincias → no pega en CABA hoy y granizo/tormenta ya están cubiertos (005/024/018).
+- Leónidas (pico 17–18) y superluna (24) → buenas fechas cercanas pero no se viven hoy y caen fuera de la ventana de 48 h. **Las dejé flagueadas para producir ~15–16/11.**
+
+**Tema elegido — `049-primer-calor-aclimatacion`:** *¿Por qué el primer calor del año te pega más fuerte?* Ángulo propio con giro (receta "acusado equivocado"): **no es el clima, es tu cuerpo que todavía no está aclimatado** — el sudor es tu aire acondicionado y los primeros días arranca tarde y poco. Distinto del 048 (golpe de calor: síntomas) y del 019/008.
+
+**Producción completa:**
+- Guion de 9 frases / 127 palabras (~47 s), voseo rioplatense.
+- **Chequeo de datos aprobado** por subagente independiente: las 4 afirmaciones de salud verificadas contra NIOSH/CDC (incluido el "más de la mitad" de golpes de calor en los primeros días, que es conservador frente al 50–70 % oficial).
+- Voz generada (127/127 palabras).
+- Escena 3D nueva con objeto reusable `kit3d/objetos/PrimerCalor.tsx` (persona bajo el sol + termómetro corporal 37→40°, cuerpo rojo→azul según se aclimata, gotas de sudor como mecanismo). TSC limpio, hoja de cuadros revisada y aprobada en una vuelta.
+- Caption, meta, serie (`Mitos del cuerpo #6`) y `radar.log`/`produccion.log` actualizados.
+
+Quedó en estado **`render`** 🔥 — lo renderiza y controla la corrida nocturna (`producir.py`), sin publicar. No publiqué nada.
+
+2026-11-12 09:41 Termina el radar (código 0).

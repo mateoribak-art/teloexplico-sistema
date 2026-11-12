@@ -1,0 +1,24 @@
+{
+  "titulo": "¿Por qué el primer calor del año te pega más fuerte?",
+  "pilar": "salud_simple",
+  "receta": "acusado equivocado",
+  "fondo": "oscuro",
+  "destinatario": "se lo manda el que ayer sufrió el calor a su amigo runner que igual sale a correr al mediodía apenas llega el primer día lindo, para decirle: pará los primeros días que tu cuerpo todavía no está.",
+  "regla_guardable": "Los primeros días de calor pegan más fuerte: tu cuerpo tarda una o dos semanas en aclimatarse. Bajá un cambio.",
+  "fuentes": [
+    "NIOSH (Instituto Nacional de Seguridad y Salud Ocupacional de EE.UU.) – Aclimatación al calor y enfermedades por calor en trabajadores: 50–70 % de las muertes por calor en el trabajo ocurren en los primeros días",
+    "CDC – Heat Stress: Acclimatization (la aclimatación lleva de una a dos semanas de exposición gradual)",
+    "Meteored – 'El primer calor de la temporada pega más fuerte: por qué el cuerpo todavía no está aclimatado' (2026)"
+  ],
+  "frases": [
+    { "texto": "Treinta grados y estás muerto. En enero aguantás treinta y cinco sin drama.", "estilo": "Arranque cómplice, como quejándote con un amigo." },
+    { "texto": "No es el clima: es tu cuerpo, que todavía no se acostumbró.", "estilo": "Seco y contundente, el giro." },
+    { "texto": "Tu aire acondicionado es el sudor: transpirás, se evapora y te enfriás.", "estilo": "Didáctico, tranquilo." },
+    { "texto": "Los primeros días transpirás tarde y poco: te recalentás antes de refrescarte.", "estilo": "Explicando el problema, con un poco de intriga." },
+    { "texto": "Por eso, según el instituto de salud laboral de Estados Unidos, más de la mitad de los golpes de calor en el trabajo pasan en los primeros días.", "estilo": "Serio, dato fuerte, nombrando la fuente." },
+    { "texto": "En una o dos semanas el cuerpo aprende: transpira antes y con menos sal.", "estilo": "Alivio, se resuelve." },
+    { "texto": "Ojo: aclimatado o no, el calor extremo es peligroso igual.", "estilo": "Advertencia honesta, bajando el ritmo." },
+    { "texto": "Estos días bajá un cambio: sombra, agua y nada de correr al mediodía.", "estilo": "Consejo directo, para hacer hoy." },
+    { "texto": "Mandáselo al que sale a correr al sol el primer día de calor.", "estilo": "Cierre cómplice, con media sonrisa." }
+  ]
+}

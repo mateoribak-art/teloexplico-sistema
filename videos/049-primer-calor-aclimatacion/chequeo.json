@@ -1,0 +1,30 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Las cuatro afirmaciones factuales clave de salud estan verificadas contra fuentes primarias (NIOSH/CDC/OSHA y literatura de fisiologia del ejercicio). No hay afirmaciones falsas ni dudosas sin matiz. El dato de NIOSH se presenta como 'mas de la mitad', que es correcto y conservador frente al rango real 50-70% (no exagera). El guion incluye ademas el matiz honesto de que el calor extremo es peligroso aun estando aclimatado.",
+  "afirmaciones": [
+    {
+      "texto": "Tu aire acondicionado es el sudor: transpiras, se evapora y te enfrias (la evaporacion del sudor es el mecanismo principal de enfriamiento del cuerpo).",
+      "fuente": "Literatura de fisiologia de la termorregulacion: la evaporacion del sudor es el mecanismo dominante de disipacion de calor en humanos cuando sube la temperatura ambiente o durante el ejercicio, y el unico cuando el aire supera la temperatura de la piel (p. ej. Journals of the American Physiological Society, 'Recent advances in thermoregulation', 10.1152/advan.00126.2014; Wikipedia 'Human thermoregulation').",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Los primeros dias de calor transpiras tarde y poco, y perdes mas sal; tras aclimatarte transpiras antes, mas y con menos sal.",
+      "fuente": "NIOSH/CDC, Heat Stress - Acclimatization (cdc.gov/niosh/heat-stress/recommendations/acclimatization.html): 'Increased sweating efficiency (earlier onset of sweating, greater sweat production, and reduced electrolyte loss in sweat)'. Durante los primeros dias se pierde la mayor cantidad de sal en el sudor.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En una o dos semanas el cuerpo se aclimata (exposicion gradual).",
+      "fuente": "NIOSH/CDC, Heat Stress - Acclimatization: la aclimatacion ocurre a lo largo de un periodo de 7 a 14 dias de exposicion gradual al calor; OSHA, 'Protecting New Workers' (osha.gov/heat-exposure/protecting-new-workers).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Segun el instituto de salud laboral de EE.UU. (NIOSH), mas de la mitad de los golpes de calor en el trabajo ocurren en los primeros dias.",
+      "fuente": "OSHA/NIOSH: 50% a 70% de las muertes por calor en trabajadores al aire libre ocurren en los primeros dias de trabajo en ambiente caluroso (revision OSHA de fatalidades por calor; OSHA 'Protecting New Workers'; dato citado tambien en NIOSH/CDC). Casi la mitad ocurren el primer dia; mas del 70% en la primera semana.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

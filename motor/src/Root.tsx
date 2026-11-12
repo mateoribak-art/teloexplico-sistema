@@ -47,6 +47,7 @@ import { DURACION as DUR_048, FPS as FPS_048, GolpeDeCalor3D, Portada048 } from 
 import { DURACION as DUR_046, FPS as FPS_046, PerroNoComas3D, Portada046 } from "./videos/046-perro-no-comas/Video";
 import { DURACION as DUR_037,FPS as FPS_037, PerroEnElAuto3D, Portada037 } from "./videos/037-perro-en-el-auto/Video";
 import { DURACION as DUR_047, FPS as FPS_047, PaqueteRetenido3D, Portada047 } from "./videos/047-paquete-retenido/Video";
+import { DURACION as DUR_049, FPS as FPS_049, PrimerCalorAclimatacion3D, Portada049 } from "./videos/049-primer-calor-aclimatacion/Video";
 import { DURACION as DUR_038,FPS as FPS_038, CodigoWhatsapp3D, Portada038 } from "./videos/038-codigo-whatsapp/Video";
 import { DURACION as DUR_039, FPS as FPS_039, SolNublado3D, Portada039 } from "./videos/039-sol-nublado/Video";
 import { DURACION as DUR_040, FPS as FPS_040, ConsumoFantasma3D, Portada040 } from "./videos/040-consumo-fantasma/Video";
@@ -140,6 +141,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p048-golpe-de-calor" component={Portada048} width={ANCHO} height={ALTO} />
         <Composition id="h047-paquete-retenido" component={PaqueteRetenido3D} durationInFrames={DUR_047} fps={FPS_047} width={ANCHO} height={ALTO} />
         <Still id="p047-paquete-retenido" component={Portada047} width={ANCHO} height={ALTO} />
+        <Composition id="h049-primer-calor-aclimatacion" component={PrimerCalorAclimatacion3D} durationInFrames={DUR_049} fps={FPS_049} width={ANCHO} height={ALTO} />
+        <Still id="p049-primer-calor-aclimatacion" component={Portada049} width={ANCHO} height={ALTO} />
         <Composition id="h038-codigo-whatsapp"component={CodigoWhatsapp3D} durationInFrames={DUR_038} fps={FPS_038} width={ANCHO} height={ALTO} />
         <Still id="p038-codigo-whatsapp" component={Portada038} width={ANCHO} height={ALTO} />
         <Composition id="h039-sol-nublado" component={SolNublado3D} durationInFrames={DUR_039} fps={FPS_039} width={ANCHO} height={ALTO} />

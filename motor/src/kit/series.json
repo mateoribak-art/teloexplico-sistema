@@ -194,6 +194,10 @@
     "048-golpe-de-calor": [
       "cuerpo",
       5
+    ],
+    "049-primer-calor-aclimatacion": [
+      "cuerpo",
+      6
     ]
   }
 }

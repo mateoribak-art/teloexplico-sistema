@@ -1,0 +1,703 @@
+{
+ "duracion": 47.18,
+ "frases": [
+  {
+   "texto": "Treinta grados y estás muerto. En enero aguantás treinta y cinco sin drama.",
+   "palabras": [
+    {
+     "texto": "Treinta",
+     "inicio": 0.0,
+     "fin": 0.42
+    },
+    {
+     "texto": "grados",
+     "inicio": 0.42,
+     "fin": 1.14
+    },
+    {
+     "texto": "y",
+     "inicio": 1.14,
+     "fin": 1.5
+    },
+    {
+     "texto": "estás",
+     "inicio": 1.5,
+     "fin": 1.7
+    },
+    {
+     "texto": "muerto.",
+     "inicio": 1.7,
+     "fin": 2.22
+    },
+    {
+     "texto": "En",
+     "inicio": 2.74,
+     "fin": 2.9
+    },
+    {
+     "texto": "enero",
+     "inicio": 2.9,
+     "fin": 3.22
+    },
+    {
+     "texto": "aguantás",
+     "inicio": 3.22,
+     "fin": 3.74
+    },
+    {
+     "texto": "treinta",
+     "inicio": 3.74,
+     "fin": 4.2
+    },
+    {
+     "texto": "y",
+     "inicio": 4.2,
+     "fin": 4.34
+    },
+    {
+     "texto": "cinco",
+     "inicio": 4.34,
+     "fin": 4.6
+    },
+    {
+     "texto": "sin",
+     "inicio": 4.6,
+     "fin": 4.84
+    },
+    {
+     "texto": "drama.",
+     "inicio": 4.84,
+     "fin": 5.12
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 5.12
+  },
+  {
+   "texto": "No es el clima: es tu cuerpo, que todavía no se acostumbró.",
+   "palabras": [
+    {
+     "texto": "No",
+     "inicio": 5.58,
+     "fin": 5.7
+    },
+    {
+     "texto": "es",
+     "inicio": 5.7,
+     "fin": 5.82
+    },
+    {
+     "texto": "el",
+     "inicio": 5.82,
+     "fin": 5.94
+    },
+    {
+     "texto": "clima:",
+     "inicio": 5.94,
+     "fin": 6.26
+    },
+    {
+     "texto": "es",
+     "inicio": 6.58,
+     "fin": 6.82
+    },
+    {
+     "texto": "tu",
+     "inicio": 6.82,
+     "fin": 6.88
+    },
+    {
+     "texto": "cuerpo,",
+     "inicio": 6.88,
+     "fin": 7.2
+    },
+    {
+     "texto": "que",
+     "inicio": 7.56,
+     "fin": 7.72
+    },
+    {
+     "texto": "todavía",
+     "inicio": 7.72,
+     "fin": 8.02
+    },
+    {
+     "texto": "no",
+     "inicio": 8.02,
+     "fin": 8.14
+    },
+    {
+     "texto": "se",
+     "inicio": 8.14,
+     "fin": 8.22
+    },
+    {
+     "texto": "acostumbró.",
+     "inicio": 8.22,
+     "fin": 8.7
+    }
+   ],
+   "inicio": 5.58,
+   "fin": 8.7
+  },
+  {
+   "texto": "Tu aire acondicionado es el sudor: transpirás, se evapora y te enfriás.",
+   "palabras": [
+    {
+     "texto": "Tu",
+     "inicio": 9.16,
+     "fin": 9.32
+    },
+    {
+     "texto": "aire",
+     "inicio": 9.32,
+     "fin": 9.52
+    },
+    {
+     "texto": "acondicionado",
+     "inicio": 9.52,
+     "fin": 10.26
+    },
+    {
+     "texto": "es",
+     "inicio": 10.26,
+     "fin": 10.56
+    },
+    {
+     "texto": "el",
+     "inicio": 10.56,
+     "fin": 10.68
+    },
+    {
+     "texto": "sudor:",
+     "inicio": 10.68,
+     "fin": 11.06
+    },
+    {
+     "texto": "transpirás,",
+     "inicio": 11.48,
+     "fin": 12.08
+    },
+    {
+     "texto": "se",
+     "inicio": 12.38,
+     "fin": 12.52
+    },
+    {
+     "texto": "evapora",
+     "inicio": 12.52,
+     "fin": 12.92
+    },
+    {
+     "texto": "y",
+     "inicio": 12.92,
+     "fin": 13.42
+    },
+    {
+     "texto": "te",
+     "inicio": 13.42,
+     "fin": 13.54
+    },
+    {
+     "texto": "enfriás.",
+     "inicio": 13.54,
+     "fin": 13.94
+    }
+   ],
+   "inicio": 9.16,
+   "fin": 13.94
+  },
+  {
+   "texto": "Los primeros días transpirás tarde y poco: te recalentás antes de refrescarte.",
+   "palabras": [
+    {
+     "texto": "Los",
+     "inicio": 14.46,
+     "fin": 14.58
+    },
+    {
+     "texto": "primeros",
+     "inicio": 14.58,
+     "fin": 14.94
+    },
+    {
+     "texto": "días",
+     "inicio": 14.94,
+     "fin": 15.1
+    },
+    {
+     "texto": "transpirás",
+     "inicio": 15.1,
+     "fin": 15.88
+    },
+    {
+     "texto": "tarde",
+     "inicio": 15.88,
+     "fin": 16.24
+    },
+    {
+     "texto": "y",
+     "inicio": 16.24,
+     "fin": 16.64
+    },
+    {
+     "texto": "poco:",
+     "inicio": 16.64,
+     "fin": 16.9
+    },
+    {
+     "texto": "te",
+     "inicio": 17.34,
+     "fin": 17.52
+    },
+    {
+     "texto": "recalentás",
+     "inicio": 17.52,
+     "fin": 18.18
+    },
+    {
+     "texto": "antes",
+     "inicio": 18.18,
+     "fin": 18.52
+    },
+    {
+     "texto": "de",
+     "inicio": 18.52,
+     "fin": 18.66
+    },
+    {
+     "texto": "refrescarte.",
+     "inicio": 18.66,
+     "fin": 19.28
+    }
+   ],
+   "inicio": 14.46,
+   "fin": 19.28
+  },
+  {
+   "texto": "Por eso, según el instituto de salud laboral de Estados Unidos, más de la mitad de los golpes de calor en el trabajo pasan en los primeros días.",
+   "palabras": [
+    {
+     "texto": "Por",
+     "inicio": 19.76,
+     "fin": 19.92
+    },
+    {
+     "texto": "eso,",
+     "inicio": 19.92,
+     "fin": 20.18
+    },
+    {
+     "texto": "según",
+     "inicio": 20.5,
+     "fin": 20.8
+    },
+    {
+     "texto": "el",
+     "inicio": 20.8,
+     "fin": 20.98
+    },
+    {
+     "texto": "instituto",
+     "inicio": 20.98,
+     "fin": 21.42
+    },
+    {
+     "texto": "de",
+     "inicio": 21.42,
+     "fin": 21.56
+    },
+    {
+     "texto": "salud",
+     "inicio": 21.56,
+     "fin": 21.8
+    },
+    {
+     "texto": "laboral",
+     "inicio": 21.8,
+     "fin": 22.3
+    },
+    {
+     "texto": "de",
+     "inicio": 22.3,
+     "fin": 22.38
+    },
+    {
+     "texto": "Estados",
+     "inicio": 22.38,
+     "fin": 22.58
+    },
+    {
+     "texto": "Unidos,",
+     "inicio": 22.58,
+     "fin": 23.06
+    },
+    {
+     "texto": "más",
+     "inicio": 23.64,
+     "fin": 23.74
+    },
+    {
+     "texto": "de",
+     "inicio": 23.74,
+     "fin": 23.9
+    },
+    {
+     "texto": "la",
+     "inicio": 23.9,
+     "fin": 24.0
+    },
+    {
+     "texto": "mitad",
+     "inicio": 24.0,
+     "fin": 24.32
+    },
+    {
+     "texto": "de",
+     "inicio": 24.32,
+     "fin": 24.62
+    },
+    {
+     "texto": "los",
+     "inicio": 24.62,
+     "fin": 24.72
+    },
+    {
+     "texto": "golpes",
+     "inicio": 24.72,
+     "fin": 25.0
+    },
+    {
+     "texto": "de",
+     "inicio": 25.0,
+     "fin": 25.12
+    },
+    {
+     "texto": "calor",
+     "inicio": 25.12,
+     "fin": 25.34
+    },
+    {
+     "texto": "en",
+     "inicio": 25.34,
+     "fin": 25.5
+    },
+    {
+     "texto": "el",
+     "inicio": 25.5,
+     "fin": 25.6
+    },
+    {
+     "texto": "trabajo",
+     "inicio": 25.6,
+     "fin": 25.96
+    },
+    {
+     "texto": "pasan",
+     "inicio": 25.96,
+     "fin": 26.64
+    },
+    {
+     "texto": "en",
+     "inicio": 26.64,
+     "fin": 26.74
+    },
+    {
+     "texto": "los",
+     "inicio": 26.74,
+     "fin": 26.82
+    },
+    {
+     "texto": "primeros",
+     "inicio": 26.82,
+     "fin": 27.26
+    },
+    {
+     "texto": "días.",
+     "inicio": 27.26,
+     "fin": 27.44
+    }
+   ],
+   "inicio": 19.76,
+   "fin": 27.44
+  },
+  {
+   "texto": "En una o dos semanas el cuerpo aprende: transpira antes y con menos sal.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 27.44,
+     "fin": 28.12
+    },
+    {
+     "texto": "una",
+     "inicio": 28.12,
+     "fin": 28.34
+    },
+    {
+     "texto": "o",
+     "inicio": 28.34,
+     "fin": 28.46
+    },
+    {
+     "texto": "dos",
+     "inicio": 28.46,
+     "fin": 28.64
+    },
+    {
+     "texto": "semanas",
+     "inicio": 28.64,
+     "fin": 29.02
+    },
+    {
+     "texto": "el",
+     "inicio": 29.02,
+     "fin": 29.76
+    },
+    {
+     "texto": "cuerpo",
+     "inicio": 29.76,
+     "fin": 30.02
+    },
+    {
+     "texto": "aprende:",
+     "inicio": 30.02,
+     "fin": 30.66
+    },
+    {
+     "texto": "transpira",
+     "inicio": 31.08,
+     "fin": 31.54
+    },
+    {
+     "texto": "antes",
+     "inicio": 31.54,
+     "fin": 31.9
+    },
+    {
+     "texto": "y",
+     "inicio": 31.9,
+     "fin": 32.62
+    },
+    {
+     "texto": "con",
+     "inicio": 32.62,
+     "fin": 32.82
+    },
+    {
+     "texto": "menos",
+     "inicio": 32.82,
+     "fin": 33.04
+    },
+    {
+     "texto": "sal.",
+     "inicio": 33.04,
+     "fin": 33.34
+    }
+   ],
+   "inicio": 27.44,
+   "fin": 33.34
+  },
+  {
+   "texto": "Ojo: aclimatado o no, el calor extremo es peligroso igual.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 33.92,
+     "fin": 34.2
+    },
+    {
+     "texto": "aclimatado",
+     "inicio": 34.7,
+     "fin": 35.36
+    },
+    {
+     "texto": "o",
+     "inicio": 35.36,
+     "fin": 35.5
+    },
+    {
+     "texto": "no,",
+     "inicio": 35.5,
+     "fin": 35.64
+    },
+    {
+     "texto": "el",
+     "inicio": 36.24,
+     "fin": 36.32
+    },
+    {
+     "texto": "calor",
+     "inicio": 36.32,
+     "fin": 36.56
+    },
+    {
+     "texto": "extremo",
+     "inicio": 36.56,
+     "fin": 37.04
+    },
+    {
+     "texto": "es",
+     "inicio": 37.04,
+     "fin": 37.1
+    },
+    {
+     "texto": "peligroso",
+     "inicio": 37.1,
+     "fin": 37.58
+    },
+    {
+     "texto": "igual.",
+     "inicio": 37.58,
+     "fin": 37.8
+    }
+   ],
+   "inicio": 33.92,
+   "fin": 37.8
+  },
+  {
+   "texto": "Estos días bajá un cambio: sombra, agua y nada de correr al mediodía.",
+   "palabras": [
+    {
+     "texto": "Estos",
+     "inicio": 38.44,
+     "fin": 38.72
+    },
+    {
+     "texto": "días",
+     "inicio": 38.72,
+     "fin": 38.84
+    },
+    {
+     "texto": "bajá",
+     "inicio": 38.84,
+     "fin": 39.16
+    },
+    {
+     "texto": "un",
+     "inicio": 39.16,
+     "fin": 39.26
+    },
+    {
+     "texto": "cambio:",
+     "inicio": 39.26,
+     "fin": 39.62
+    },
+    {
+     "texto": "sombra,",
+     "inicio": 40.24,
+     "fin": 40.72
+    },
+    {
+     "texto": "agua",
+     "inicio": 41.14,
+     "fin": 41.52
+    },
+    {
+     "texto": "y",
+     "inicio": 41.52,
+     "fin": 42.22
+    },
+    {
+     "texto": "nada",
+     "inicio": 42.22,
+     "fin": 42.56
+    },
+    {
+     "texto": "de",
+     "inicio": 42.56,
+     "fin": 42.78
+    },
+    {
+     "texto": "correr",
+     "inicio": 42.78,
+     "fin": 43.0
+    },
+    {
+     "texto": "al",
+     "inicio": 43.0,
+     "fin": 43.2
+    },
+    {
+     "texto": "mediodía.",
+     "inicio": 43.2,
+     "fin": 43.7
+    }
+   ],
+   "inicio": 38.44,
+   "fin": 43.7
+  },
+  {
+   "texto": "Mandáselo al que sale a correr al sol el primer día de calor.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 44.28,
+     "fin": 44.84
+    },
+    {
+     "texto": "al",
+     "inicio": 44.84,
+     "fin": 44.92
+    },
+    {
+     "texto": "que",
+     "inicio": 44.92,
+     "fin": 45.04
+    },
+    {
+     "texto": "sale",
+     "inicio": 45.04,
+     "fin": 45.18
+    },
+    {
+     "texto": "a",
+     "inicio": 45.18,
+     "fin": 45.28
+    },
+    {
+     "texto": "correr",
+     "inicio": 45.28,
+     "fin": 45.52
+    },
+    {
+     "texto": "al",
+     "inicio": 45.52,
+     "fin": 45.74
+    },
+    {
+     "texto": "sol",
+     "inicio": 45.74,
+     "fin": 45.96
+    },
+    {
+     "texto": "el",
+     "inicio": 45.96,
+     "fin": 46.12
+    },
+    {
+     "texto": "primer",
+     "inicio": 46.12,
+     "fin": 46.42
+    },
+    {
+     "texto": "día",
+     "inicio": 46.42,
+     "fin": 46.64
+    },
+    {
+     "texto": "de",
+     "inicio": 46.64,
+     "fin": 46.78
+    },
+    {
+     "texto": "calor.",
+     "inicio": 46.78,
+     "fin": 47.04
+    }
+   ],
+   "inicio": 44.28,
+   "fin": 47.04
+  }
+ ]
+}
