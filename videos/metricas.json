@@ -59,6 +59,10 @@
   "2026-11-11": {
    "seguidores": 859,
    "posts": 48
+  },
+  "2026-11-13": {
+   "seguidores": 894,
+   "posts": 50
   }
  },
  "reels": {
@@ -67,16 +71,16 @@
    "publicado": "2026-10-24T18:46:20+0000",
    "duracion": 58.7,
    "ultimo": {
-    "views": 375,
-    "reach": 273,
+    "views": 376,
+    "reach": 275,
     "likes": 12,
     "comments": 0,
     "shares": 0,
     "saved": 1,
     "total_interactions": 14,
-    "ig_reels_avg_watch_time": 13914,
-    "ig_reels_video_view_total_time": 4202130,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 13875,
+    "ig_reels_video_view_total_time": 4204388,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18567516820079365": {
@@ -84,16 +88,16 @@
    "publicado": "2026-10-25T00:10:51+0000",
    "duracion": 66.7,
    "ultimo": {
-    "views": 8593,
-    "reach": 6972,
-    "likes": 548,
+    "views": 8601,
+    "reach": 6974,
+    "likes": 549,
     "comments": 0,
-    "shares": 54,
+    "shares": 55,
     "saved": 43,
-    "total_interactions": 673,
-    "ig_reels_avg_watch_time": 28527,
-    "ig_reels_video_view_total_time": 204656730,
-    "cuando": "2026-11-11T21:00"
+    "total_interactions": 675,
+    "ig_reels_avg_watch_time": 28516,
+    "ig_reels_video_view_total_time": 204774198,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18098154005560390": {
@@ -101,16 +105,16 @@
    "publicado": "2026-10-25T17:04:17+0000",
    "duracion": null,
    "ultimo": {
-    "views": 29579,
-    "reach": 20755,
-    "likes": 2885,
+    "views": 29737,
+    "reach": 20873,
+    "likes": 2921,
     "comments": 49,
-    "shares": 603,
-    "saved": 380,
-    "total_interactions": 4132,
-    "ig_reels_avg_watch_time": 37999,
-    "ig_reels_video_view_total_time": 833603222,
-    "cuando": "2026-11-11T21:00"
+    "shares": 608,
+    "saved": 383,
+    "total_interactions": 4178,
+    "ig_reels_avg_watch_time": 37983,
+    "ig_reels_video_view_total_time": 837986669,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18121053625743851": {
@@ -118,16 +122,16 @@
    "publicado": "2026-10-25T22:34:02+0000",
    "duracion": null,
    "ultimo": {
-    "views": 150765,
-    "reach": 109940,
-    "likes": 3023,
+    "views": 153380,
+    "reach": 111564,
+    "likes": 3119,
     "comments": 52,
-    "shares": 6294,
-    "saved": 1240,
-    "total_interactions": 10793,
-    "ig_reels_avg_watch_time": 22273,
-    "ig_reels_video_view_total_time": 2472630641,
-    "cuando": "2026-11-11T21:00"
+    "shares": 6530,
+    "saved": 1266,
+    "total_interactions": 11161,
+    "ig_reels_avg_watch_time": 22319,
+    "ig_reels_video_view_total_time": 2517444619,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18077279345737569": {
@@ -144,7 +148,7 @@
     "total_interactions": 33,
     "ig_reels_avg_watch_time": 16573,
     "ig_reels_video_view_total_time": 21578616,
-    "cuando": "2026-11-11T21:00"
+    "cuando": "2026-11-13T00:35"
    }
   },
   "17917671888263864": {
@@ -152,16 +156,16 @@
    "publicado": "2026-10-26T22:33:52+0000",
    "duracion": 48.7,
    "ultimo": {
-    "views": 4690,
-    "reach": 3931,
+    "views": 4705,
+    "reach": 3934,
     "likes": 99,
     "comments": 0,
     "shares": 29,
     "saved": 17,
     "total_interactions": 149,
-    "ig_reels_avg_watch_time": 20879,
-    "ig_reels_video_view_total_time": 81992672,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 20880,
+    "ig_reels_video_view_total_time": 82248025,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18185446939421653": {
@@ -178,7 +182,7 @@
     "total_interactions": 37,
     "ig_reels_avg_watch_time": 10147,
     "ig_reels_video_view_total_time": 10136867,
-    "cuando": "2026-11-11T21:00"
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18120901102950199": {
@@ -188,14 +192,14 @@
    "ultimo": {
     "views": 1544,
     "reach": 1285,
-    "likes": 29,
+    "likes": 28,
     "comments": 0,
     "shares": 0,
     "saved": 3,
-    "total_interactions": 33,
+    "total_interactions": 32,
     "ig_reels_avg_watch_time": 13825,
     "ig_reels_video_view_total_time": 17835457,
-    "cuando": "2026-11-11T21:00"
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18050682212811249": {
@@ -203,16 +207,16 @@
    "publicado": "2026-10-28T15:32:41+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1966,
+    "views": 1968,
     "reach": 1646,
     "likes": 69,
     "comments": 0,
     "shares": 3,
     "saved": 5,
     "total_interactions": 78,
-    "ig_reels_avg_watch_time": 17361,
-    "ig_reels_video_view_total_time": 29531267,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 17384,
+    "ig_reels_video_view_total_time": 29588891,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "17953956969308125": {
@@ -229,7 +233,7 @@
     "total_interactions": 37,
     "ig_reels_avg_watch_time": 13852,
     "ig_reels_video_view_total_time": 18673354,
-    "cuando": "2026-11-11T21:00"
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18145293574514320": {
@@ -237,16 +241,16 @@
    "publicado": "2026-10-29T15:32:49+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1954,
-    "reach": 1595,
+    "views": 1955,
+    "reach": 1597,
     "likes": 61,
     "comments": 0,
     "shares": 5,
     "saved": 6,
     "total_interactions": 73,
-    "ig_reels_avg_watch_time": 16330,
-    "ig_reels_video_view_total_time": 26210166,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 16321,
+    "ig_reels_video_view_total_time": 26212017,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18214360234363882": {
@@ -254,16 +258,16 @@
    "publicado": "2026-10-29T22:32:38+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1755,
-    "reach": 1448,
-    "likes": 53,
+    "views": 1760,
+    "reach": 1454,
+    "likes": 54,
     "comments": 0,
-    "shares": 16,
+    "shares": 17,
     "saved": 6,
-    "total_interactions": 75,
-    "ig_reels_avg_watch_time": 19910,
-    "ig_reels_video_view_total_time": 29089813,
-    "cuando": "2026-11-11T21:00"
+    "total_interactions": 77,
+    "ig_reels_avg_watch_time": 19897,
+    "ig_reels_video_view_total_time": 29170386,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18035719637665863": {
@@ -271,16 +275,16 @@
    "publicado": "2026-10-30T15:32:35+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1632,
-    "reach": 1408,
-    "likes": 36,
+    "views": 1637,
+    "reach": 1413,
+    "likes": 37,
     "comments": 0,
     "shares": 1,
     "saved": 1,
-    "total_interactions": 38,
-    "ig_reels_avg_watch_time": 16928,
-    "ig_reels_video_view_total_time": 23682889,
-    "cuando": "2026-11-11T21:00"
+    "total_interactions": 39,
+    "ig_reels_avg_watch_time": 16925,
+    "ig_reels_video_view_total_time": 23729097,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18116721320017091": {
@@ -288,16 +292,16 @@
    "publicado": "2026-10-30T22:32:44+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1410,
-    "reach": 1182,
+    "views": 1413,
+    "reach": 1184,
     "likes": 43,
     "comments": 0,
     "shares": 0,
     "saved": 2,
     "total_interactions": 45,
-    "ig_reels_avg_watch_time": 21667,
-    "ig_reels_video_view_total_time": 25697750,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 21633,
+    "ig_reels_video_view_total_time": 25700937,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18118451249277920": {
@@ -305,16 +309,16 @@
    "publicado": "2026-10-31T15:34:28+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1602,
+    "views": 1603,
     "reach": 1351,
     "likes": 50,
     "comments": 0,
     "shares": 2,
     "saved": 3,
     "total_interactions": 56,
-    "ig_reels_avg_watch_time": 14526,
-    "ig_reels_video_view_total_time": 19639642,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 14516,
+    "ig_reels_video_view_total_time": 19640607,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18147080644589869": {
@@ -322,16 +326,16 @@
    "publicado": "2026-10-31T22:32:37+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1329,
-    "reach": 1120,
+    "views": 1332,
+    "reach": 1122,
     "likes": 36,
     "comments": 0,
     "shares": 3,
     "saved": 3,
     "total_interactions": 42,
-    "ig_reels_avg_watch_time": 17287,
-    "ig_reels_video_view_total_time": 19189610,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 17261,
+    "ig_reels_video_view_total_time": 19194910,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "17927194380201313": {
@@ -339,16 +343,16 @@
    "publicado": "2026-11-01T15:32:27+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1397,
-    "reach": 1148,
+    "views": 1398,
+    "reach": 1150,
     "likes": 34,
     "comments": 0,
     "shares": 11,
     "saved": 3,
     "total_interactions": 49,
-    "ig_reels_avg_watch_time": 12305,
-    "ig_reels_video_view_total_time": 14459372,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 12296,
+    "ig_reels_video_view_total_time": 14461119,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18288943063288384": {
@@ -356,16 +360,16 @@
    "publicado": "2026-11-01T22:33:52+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1876,
-    "reach": 1593,
+    "views": 1887,
+    "reach": 1604,
     "likes": 42,
     "comments": 0,
-    "shares": 12,
+    "shares": 13,
     "saved": 7,
-    "total_interactions": 61,
-    "ig_reels_avg_watch_time": 18118,
-    "ig_reels_video_view_total_time": 28880144,
-    "cuando": "2026-11-11T21:00"
+    "total_interactions": 62,
+    "ig_reels_avg_watch_time": 18053,
+    "ig_reels_video_view_total_time": 28939495,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18074294612494886": {
@@ -373,16 +377,16 @@
    "publicado": "2026-11-02T15:32:51+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1498,
+    "views": 1500,
     "reach": 1277,
     "likes": 44,
     "comments": 0,
     "shares": 1,
     "saved": 2,
     "total_interactions": 47,
-    "ig_reels_avg_watch_time": 15039,
-    "ig_reels_video_view_total_time": 19295166,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 15018,
+    "ig_reels_video_view_total_time": 19298436,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18033250586681703": {
@@ -390,16 +394,16 @@
    "publicado": "2026-11-02T22:32:39+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1418,
-    "reach": 1245,
+    "views": 1437,
+    "reach": 1254,
     "likes": 55,
     "comments": 0,
     "shares": 17,
     "saved": 7,
     "total_interactions": 79,
-    "ig_reels_avg_watch_time": 19929,
-    "ig_reels_video_view_total_time": 24951387,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 20047,
+    "ig_reels_video_view_total_time": 25400135,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18135029626817551": {
@@ -407,16 +411,16 @@
    "publicado": "2026-11-03T15:32:53+0000",
    "duracion": null,
    "ultimo": {
-    "views": 294,
-    "reach": 244,
+    "views": 296,
+    "reach": 246,
     "likes": 4,
     "comments": 0,
     "shares": 0,
     "saved": 0,
     "total_interactions": 4,
-    "ig_reels_avg_watch_time": 10208,
-    "ig_reels_video_view_total_time": 2562392,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 10145,
+    "ig_reels_video_view_total_time": 2566876,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "17934074106419568": {
@@ -424,16 +428,16 @@
    "publicado": "2026-11-03T22:32:33+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1404,
-    "reach": 1131,
+    "views": 1405,
+    "reach": 1133,
     "likes": 64,
     "comments": 0,
     "shares": 9,
     "saved": 6,
     "total_interactions": 81,
-    "ig_reels_avg_watch_time": 14180,
-    "ig_reels_video_view_total_time": 16307582,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 14169,
+    "ig_reels_video_view_total_time": 16308764,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "17874288843641079": {
@@ -441,16 +445,16 @@
    "publicado": "2026-11-04T15:32:48+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1286,
-    "reach": 1136,
+    "views": 1288,
+    "reach": 1138,
     "likes": 21,
     "comments": 0,
     "shares": 1,
     "saved": 1,
     "total_interactions": 23,
-    "ig_reels_avg_watch_time": 11430,
-    "ig_reels_video_view_total_time": 12905470,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 11415,
+    "ig_reels_video_view_total_time": 12910965,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18116286815157448": {
@@ -475,16 +479,16 @@
    "publicado": "2026-11-04T22:37:54+0000",
    "duracion": null,
    "ultimo": {
-    "views": 263,
-    "reach": 209,
+    "views": 266,
+    "reach": 210,
     "likes": 5,
     "comments": 1,
     "shares": 2,
     "saved": 0,
     "total_interactions": 8,
-    "ig_reels_avg_watch_time": 19168,
-    "ig_reels_video_view_total_time": 4140400,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 18928,
+    "ig_reels_video_view_total_time": 4145408,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18119677843992939": {
@@ -492,16 +496,16 @@
    "publicado": "2026-11-05T15:32:54+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1732,
-    "reach": 1464,
+    "views": 1745,
+    "reach": 1474,
     "likes": 58,
     "comments": 0,
     "shares": 6,
     "saved": 3,
     "total_interactions": 71,
-    "ig_reels_avg_watch_time": 26574,
-    "ig_reels_video_view_total_time": 40845228,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 26484,
+    "ig_reels_video_view_total_time": 41024823,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18470535289136558": {
@@ -509,16 +513,16 @@
    "publicado": "2026-11-05T22:33:09+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1421,
-    "reach": 1240,
-    "likes": 47,
+    "views": 1424,
+    "reach": 1243,
+    "likes": 48,
     "comments": 0,
     "shares": 3,
     "saved": 2,
-    "total_interactions": 53,
-    "ig_reels_avg_watch_time": 13902,
-    "ig_reels_video_view_total_time": 17350310,
-    "cuando": "2026-11-11T21:00"
+    "total_interactions": 54,
+    "ig_reels_avg_watch_time": 13909,
+    "ig_reels_video_view_total_time": 17400892,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18128837206856343": {
@@ -526,16 +530,16 @@
    "publicado": "2026-11-06T15:32:36+0000",
    "duracion": null,
    "ultimo": {
-    "views": 133561,
-    "reach": 103355,
-    "likes": 2471,
-    "comments": 81,
-    "shares": 430,
-    "saved": 537,
-    "total_interactions": 3619,
-    "ig_reels_avg_watch_time": 23600,
-    "ig_reels_video_view_total_time": 2506612062,
-    "cuando": "2026-11-11T21:00"
+    "views": 137442,
+    "reach": 106164,
+    "likes": 2542,
+    "comments": 84,
+    "shares": 442,
+    "saved": 555,
+    "total_interactions": 3726,
+    "ig_reels_avg_watch_time": 23584,
+    "ig_reels_video_view_total_time": 2576727725,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18099786500418994": {
@@ -543,16 +547,16 @@
    "publicado": "2026-11-06T22:32:28+0000",
    "duracion": null,
    "ultimo": {
-    "views": 2074,
-    "reach": 1784,
+    "views": 2086,
+    "reach": 1794,
     "likes": 62,
     "comments": 0,
     "shares": 45,
     "saved": 11,
     "total_interactions": 121,
-    "ig_reels_avg_watch_time": 13949,
-    "ig_reels_video_view_total_time": 25485995,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 13922,
+    "ig_reels_video_view_total_time": 25616765,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18641125315041060": {
@@ -560,16 +564,16 @@
    "publicado": "2026-11-07T15:33:08+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1783,
-    "reach": 1470,
+    "views": 1792,
+    "reach": 1478,
     "likes": 35,
     "comments": 4,
     "shares": 1,
     "saved": 3,
     "total_interactions": 45,
-    "ig_reels_avg_watch_time": 14975,
-    "ig_reels_video_view_total_time": 22867923,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 14931,
+    "ig_reels_video_view_total_time": 22890669,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18129654163889947": {
@@ -577,16 +581,16 @@
    "publicado": "2026-11-07T22:32:52+0000",
    "duracion": null,
    "ultimo": {
-    "views": 1421,
-    "reach": 1258,
+    "views": 1425,
+    "reach": 1264,
     "likes": 29,
     "comments": 0,
     "shares": 0,
     "saved": 2,
     "total_interactions": 33,
-    "ig_reels_avg_watch_time": 13223,
-    "ig_reels_video_view_total_time": 16820303,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 13186,
+    "ig_reels_video_view_total_time": 16825738,
+    "cuando": "2026-11-13T00:35"
    }
   },
   "18153674338551612": {
@@ -599,16 +603,16 @@
    "publicado": "2026-11-10T14:42:17+0000",
    "duracion": 47.5,
    "ultimo": {
-    "views": 1335,
-    "reach": 1134,
+    "views": 1346,
+    "reach": 1141,
     "likes": 16,
     "comments": 0,
     "shares": 1,
     "saved": 0,
     "total_interactions": 17,
-    "ig_reels_avg_watch_time": 19450,
-    "ig_reels_video_view_total_time": 22134775,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 19340,
+    "ig_reels_video_view_total_time": 22163831,
+    "cuando": "2026-11-13T00:36"
    }
   },
   "18002413437030219": {
@@ -616,16 +620,16 @@
    "publicado": "2026-11-10T15:32:03+0000",
    "duracion": 39.6,
    "ultimo": {
-    "views": 1162,
-    "reach": 1039,
+    "views": 1173,
+    "reach": 1047,
     "likes": 24,
     "comments": 0,
     "shares": 4,
     "saved": 2,
     "total_interactions": 31,
-    "ig_reels_avg_watch_time": 13729,
-    "ig_reels_video_view_total_time": 14223390,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 13662,
+    "ig_reels_video_view_total_time": 14264122,
+    "cuando": "2026-11-13T00:36"
    }
   },
   "18220412245356182": {
@@ -633,16 +637,16 @@
    "publicado": "2026-11-11T12:24:17+0000",
    "duracion": 47.0,
    "ultimo": {
-    "views": 1279,
-    "reach": 1146,
-    "likes": 33,
+    "views": 1317,
+    "reach": 1177,
+    "likes": 35,
     "comments": 0,
     "shares": 5,
-    "saved": 3,
-    "total_interactions": 43,
-    "ig_reels_avg_watch_time": 11820,
-    "ig_reels_video_view_total_time": 13510544,
-    "cuando": "2026-11-11T21:00"
+    "saved": 4,
+    "total_interactions": 46,
+    "ig_reels_avg_watch_time": 11828,
+    "ig_reels_video_view_total_time": 13898059,
+    "cuando": "2026-11-13T00:36"
    }
   },
   "18115833086125629": {
@@ -650,16 +654,16 @@
    "publicado": "2026-11-11T15:30:55+0000",
    "duracion": 52.8,
    "ultimo": {
-    "views": 1293,
-    "reach": 1161,
+    "views": 1308,
+    "reach": 1173,
     "likes": 53,
     "comments": 0,
     "shares": 6,
     "saved": 4,
     "total_interactions": 63,
-    "ig_reels_avg_watch_time": 18497,
-    "ig_reels_video_view_total_time": 21364895,
-    "cuando": "2026-11-11T21:00"
+    "ig_reels_avg_watch_time": 18332,
+    "ig_reels_video_view_total_time": 21430913,
+    "cuando": "2026-11-13T00:36"
    }
   },
   "18097066262469436": {
@@ -667,16 +671,50 @@
    "publicado": "2026-11-11T22:30:44+0000",
    "duracion": 47.6,
    "ultimo": {
-    "views": 950,
-    "reach": 729,
-    "likes": 20,
+    "views": 1181,
+    "reach": 1068,
+    "likes": 26,
     "comments": 1,
     "shares": 0,
     "saved": 1,
-    "total_interactions": 22,
-    "ig_reels_avg_watch_time": 8072,
-    "ig_reels_video_view_total_time": 5860306,
-    "cuando": "2026-11-11T21:00"
+    "total_interactions": 30,
+    "ig_reels_avg_watch_time": 8593,
+    "ig_reels_video_view_total_time": 9161105,
+    "cuando": "2026-11-13T00:36"
+   }
+  },
+  "18115426268141693": {
+   "slug": "034-arroz-recalentado",
+   "publicado": "2026-11-12T15:31:04+0000",
+   "duracion": 52.4,
+   "ultimo": {
+    "views": 1749,
+    "reach": 1537,
+    "likes": 41,
+    "comments": 0,
+    "shares": 30,
+    "saved": 6,
+    "total_interactions": 77,
+    "ig_reels_avg_watch_time": 14432,
+    "ig_reels_video_view_total_time": 22154090,
+    "cuando": "2026-11-13T00:36"
+   }
+  },
+  "18102907139436858": {
+   "slug": "036-apagon-heladera",
+   "publicado": "2026-11-12T22:31:44+0000",
+   "duracion": 46.2,
+   "ultimo": {
+    "views": 154,
+    "reach": 127,
+    "likes": 2,
+    "comments": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 2,
+    "ig_reels_avg_watch_time": 13975,
+    "ig_reels_video_view_total_time": 1774944,
+    "cuando": "2026-11-13T00:36"
    }
   }
  },
@@ -694,15 +732,15 @@
     "total_interactions": 6,
     "profile_visits": 3,
     "follows": 0,
-    "cuando": "2026-11-11T21:00"
+    "cuando": "2026-11-13T00:36"
    }
   },
   "17876194278594788": {
    "clave": "heladera",
    "publicado": "2026-10-29T23:22:36+0000",
    "ultimo": {
-    "views": 81,
-    "reach": 31,
+    "views": 82,
+    "reach": 32,
     "likes": 1,
     "comments": 0,
     "shares": 0,
@@ -710,7 +748,7 @@
     "total_interactions": 2,
     "profile_visits": 0,
     "follows": 0,
-    "cuando": "2026-11-11T21:00"
+    "cuando": "2026-11-13T00:36"
    }
   },
   "18103727801035668": {
@@ -726,15 +764,15 @@
     "total_interactions": 0,
     "profile_visits": 0,
     "follows": 0,
-    "cuando": "2026-11-11T21:00"
+    "cuando": "2026-11-13T00:36"
    }
   },
   "18127227202920595": {
    "clave": "vuelta-carne",
    "publicado": "2026-10-31T22:02:48+0000",
    "ultimo": {
-    "views": 139,
-    "reach": 63,
+    "views": 142,
+    "reach": 65,
     "likes": 0,
     "comments": 0,
     "shares": 3,
@@ -742,15 +780,15 @@
     "total_interactions": 3,
     "profile_visits": 2,
     "follows": 0,
-    "cuando": "2026-11-11T21:00"
+    "cuando": "2026-11-13T00:36"
    }
   },
   "18101452910367596": {
    "clave": "descongelar-mesada",
    "publicado": "2026-11-03T01:25:33+0000",
    "ultimo": {
-    "views": 97,
-    "reach": 41,
+    "views": 101,
+    "reach": 44,
     "likes": 0,
     "comments": 0,
     "shares": 0,
@@ -758,15 +796,15 @@
     "total_interactions": 0,
     "profile_visits": 1,
     "follows": 0,
-    "cuando": "2026-11-11T21:00"
+    "cuando": "2026-11-13T00:36"
    }
   },
   "18139253917728351": {
    "clave": "refresca-tormenta",
    "publicado": "2026-11-03T23:46:47+0000",
    "ultimo": {
-    "views": 105,
-    "reach": 40,
+    "views": 108,
+    "reach": 41,
     "likes": 0,
     "comments": 0,
     "shares": 0,
@@ -774,15 +812,15 @@
     "total_interactions": 0,
     "profile_visits": 0,
     "follows": 0,
-    "cuando": "2026-11-11T21:00"
+    "cuando": "2026-11-13T00:36"
    }
   },
   "17873506044642429": {
    "clave": "ventilador-pieza-vacia",
    "publicado": "2026-11-05T00:28:20+0000",
    "ultimo": {
-    "views": 83,
-    "reach": 36,
+    "views": 88,
+    "reach": 39,
     "likes": 1,
     "comments": 0,
     "shares": 0,
@@ -790,15 +828,15 @@
     "total_interactions": 1,
     "profile_visits": 0,
     "follows": 0,
-    "cuando": "2026-11-11T21:00"
+    "cuando": "2026-11-13T00:36"
    }
   },
   "18574838629075916": {
    "clave": "perros-colores",
    "publicado": "2026-11-05T23:54:25+0000",
    "ultimo": {
-    "views": 81,
-    "reach": 26,
+    "views": 88,
+    "reach": 30,
     "likes": 0,
     "comments": 0,
     "shares": 0,
@@ -806,15 +844,15 @@
     "total_interactions": 0,
     "profile_visits": 0,
     "follows": 0,
-    "cuando": "2026-11-11T21:00"
+    "cuando": "2026-11-13T00:36"
    }
   },
   "17929282179431749": {
    "clave": "heladera-parte-2",
    "publicado": "2026-11-06T23:36:29+0000",
    "ultimo": {
-    "views": 152,
-    "reach": 66,
+    "views": 171,
+    "reach": 75,
     "likes": 2,
     "comments": 0,
     "shares": 7,
@@ -822,15 +860,15 @@
     "total_interactions": 11,
     "profile_visits": 0,
     "follows": 0,
-    "cuando": "2026-11-11T21:00"
+    "cuando": "2026-11-13T00:36"
    }
   },
   "18127620820928708": {
    "clave": "serie-clima-1",
    "publicado": "2026-11-07T22:26:53+0000",
    "ultimo": {
-    "views": 99,
-    "reach": 44,
+    "views": 109,
+    "reach": 50,
     "likes": 1,
     "comments": 0,
     "shares": 0,
@@ -838,7 +876,7 @@
     "total_interactions": 2,
     "profile_visits": 1,
     "follows": 1,
-    "cuando": "2026-11-11T21:00"
+    "cuando": "2026-11-13T00:36"
    }
   }
  }
