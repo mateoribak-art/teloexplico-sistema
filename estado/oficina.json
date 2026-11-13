@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T09:41",
+ "actualizado": "2026-11-13T00:30",
  "oficinas": [
   {
    "clave": "es",
@@ -7,15 +7,25 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 859,
-   "listos": 11,
-   "dias": 5.5,
-   "proximo": "034-arroz-recalentado",
-   "publicados": 37,
+   "listos": 9,
+   "dias": 4.5,
+   "proximo": "035-lavandina-vinagre",
+   "publicados": 39,
    "pausa": false,
    "pendientes": [
     "Facu (TikTok, YouTube y Telegram): En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram."
    ],
    "ultimas": [
+    {
+     "slug": "036-apagon-heladera",
+     "link": "https://www.instagram.com/reel/DfqIlLIgF7s/",
+     "cuando": "2026-11-12T22:31"
+    },
+    {
+     "slug": "034-arroz-recalentado",
+     "link": "https://www.instagram.com/reel/DfpYb13HENe/",
+     "cuando": "2026-11-12T15:31"
+    },
     {
      "slug": "034-subte-linea-a",
      "link": "https://www.instagram.com/reel/Dfnjs50Ein-/",
@@ -30,16 +40,6 @@
      "slug": "032-pelo-mojado-resfrio",
      "link": "https://www.instagram.com/reel/DfmeTtwjPsa/",
      "cuando": "2026-11-11T12:24"
-    },
-    {
-     "slug": "031-murcielago-ciego",
-     "link": "https://www.instagram.com/reel/DfkO9eIDP9K/",
-     "cuando": "2026-11-10T15:32"
-    },
-    {
-     "slug": "030-fila-del-super",
-     "link": "https://www.instagram.com/reel/DfkJS5Fgays/",
-     "cuando": "2026-11-10T14:42"
     }
    ],
    "linea": [
@@ -51,24 +51,10 @@
      "motivo": "escenas 3D listas"
     },
     {
-     "slug": "034-arroz-recalentado",
-     "tema": "Arroz recalentado: a la heladera en una hora, una sola vez (NHS, Bacillus cereus)",
-     "estado": "listo",
-     "cuando": "2026-11-04T16:32",
-     "motivo": "render sin Claude"
-    },
-    {
      "slug": "035-lavandina-vinagre",
      "tema": "Lavandina con vinagre o amoníaco: el gas tóxico (CDC)",
      "estado": "listo",
      "cuando": "2026-11-04T23:13",
-     "motivo": "render sin Claude"
-    },
-    {
-     "slug": "036-apagon-heladera",
-     "tema": "Apagón: cuánto aguanta la comida de la heladera cerrada (USDA, 4 horas)",
-     "estado": "listo",
-     "cuando": "2026-11-04T19:20",
      "motivo": "render sin Claude"
     },
     {
@@ -79,18 +65,25 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "044-misa-fabrica-aviones",
-     "tema": "La misa en Córdoba es en la Fábrica Argentina de Aviones: qué es ese lugar (fundada 1927, Pulqui I 1947)",
-     "estado": "apartado",
-     "cuando": "2026-11-10T11:41",
-     "motivo": "tema de actualidad vencido (más de 48 h)"
+     "slug": "039-sol-nublado",
+     "tema": "Protector solar con el cielo nublado: la radiación UV puede ser alta igual (OMS, CDC; índice UV 3 o más)",
+     "estado": "listo",
+     "cuando": "2026-11-05T19:38",
+     "motivo": "render sin Claude"
     },
     {
-     "slug": "034-subte-linea-a",
-     "tema": "¿La línea A del subte es la primera de Latinoamérica? Inaugurada en 1913, coches de madera hasta 2013",
+     "slug": "040-consumo-fantasma",
+     "tema": "Consumo en espera (standby): cuánta luz gastan los aparatos apagados (LBNL)",
+     "estado": "listo",
+     "cuando": "2026-11-06T09:13",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "036-apagon-heladera",
+     "tema": "Apagón: cuánto aguanta la comida de la heladera cerrada (USDA, 4 horas)",
      "estado": "publicado",
-     "cuando": "2026-11-11T19:30",
-     "motivo": "https://www.instagram.com/reel/Dfnjs50Ein-/"
+     "cuando": "2026-11-12T19:31",
+     "motivo": "https://www.instagram.com/reel/DfqIlLIgF7s/"
     },
     {
      "slug": "043-feriados-visita",
@@ -117,11 +110,9 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-12T09:41",
-     "hace": "recién",
+     "cuando": "2026-11-12T09:47",
+     "hace": "hace 14 h",
      "detalle": [
-      "Listo. El video de actualidad quedó producido y en cola de render.",
-      "## Qué pasó",
       "**Radar:** hoy (12/11) hay señal fuerte de actualidad — es el **día más caluroso de la semana en el AMBA** (30–32 °C, primer calor fuerte de la temporada; fuentes del día: Perfil, Canal26, Infobae). Descarté lo demás y lo anoté en `radar.lo",
       "- Alerta amarilla por tormentas/granizo en 6 provincias → no pega en CABA hoy y granizo/tormenta ya están cubiertos (005/024/018).",
       "- Leónidas (pico 17–18) y superluna (24) → buenas fechas cercanas pero no se viven hoy y caen fuera de la ventana de 48 h. **Las dejé flagueadas para producir ~15–16/11.**",
@@ -133,7 +124,9 @@
       "- Escena 3D nueva con objeto reusable `kit3d/objetos/PrimerCalor.tsx` (persona bajo el sol + termómetro corporal 37→40°, cuerpo rojo→azul según se aclimata, gotas de sudor como mecanismo). TSC limpio, hoja de cuadros revisada y aprobada en ",
       "- Caption, meta, serie (`Mitos del cuerpo #6`) y `radar.log`/`produccion.log` actualizados.",
       "Quedó en estado **`render`** 🔥 — lo renderiza y controla la corrida nocturna (`producir.py`), sin publicar. No publiqué nada.",
-      "2026-11-12 09:41 Termina el radar (código 0)."
+      "2026-11-12 09:41 Termina el radar (código 0).",
+      "2026-11-12 09:47 Sincronización: subido 049-primer-calor-aclimatacion.voz.wav",
+      "sincronizado"
      ],
      "tareas": [
       "049-primer-calor-aclimatacion — ¿Por qué el primer calor del año te pega más fuerte? Tu cuerpo todavía no está aclimatado (NIOSH)"
@@ -159,7 +152,7 @@
      "estado": "ok",
      "resumen": "Guía de referentes al día.",
      "cuando": "2026-11-05T15:28",
-     "hace": "hace 6 días",
+     "hace": "hace 7 días",
      "detalle": [
       "05/11 15:26 Arranca Vera (referentes).",
       "05/11 15:27 Reels bajados (código 0).",
@@ -188,7 +181,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsquedas web (alertas SMN + clima/tendencias/astronomía, todo fechado HOY 12-nov). HAY TEMA: primer calor fuerte de la temporada en AMBA (30-32",
      "cuando": "2026-11-12T09:41",
-     "hace": "recién",
+     "hace": "hace 14 h",
      "detalle": [
       "06/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y clima de la semana): sin resultados fechados de hoy verificables. Descartados: (a) alerta amarilla en 8-10 provincias \"hasta el 6 de nov\" (Cronista, sin año verificable; lluvia/granizo ya cubiertos en 004/016/024), (b) ola de calor ~40°C en el norte (sin fecha; calor ya en 019/008), (c) El Niño octubre-diciembre (ya está 016). Sin tema verificable; sigue la cola normal.",
       "07/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): sin resultados fechados de hoy verificables. Descartados: (a) alerta amarilla tormentas/granizo en BA y 65 localidades (c5n, sin año verificable; granizo ya tiene 005/024), (b) alertas en el norte \"jueves 7\" (es de otro año), (c) reforma laboral/CGT (política, no encaja). Sin tema verificable; sigue la cola normal.",
@@ -224,8 +217,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-11T19:30",
-     "hace": "hace 14 h",
+     "cuando": "2026-11-12T19:31",
+     "hace": "hace 4 h",
      "detalle": [
       "042-laburo-italiano: aprobado — Segundo chequeo. Las afirmaciones centrales (laburar del italiano dialectal lavurare, y este del latin laborare; currar del calo) estan en e",
       "043-feriados-visita: aprobado — Segunda revisión (6/11/2026). Las dos correcciones del primer chequeo están bien resueltas: 'dónde trabajes' coincide con lo que Chequeado r",
@@ -257,8 +250,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-11T19:30",
-     "hace": "hace 14 h",
+     "cuando": "2026-11-12T19:31",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -281,8 +274,8 @@
      },
      "estado": "trabajando",
      "resumen": "1 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
-     "cuando": "2026-11-11T19:30",
-     "hace": "hace 14 h",
+     "cuando": "2026-11-12T19:31",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [
       "049-primer-calor-aclimatacion"
@@ -306,16 +299,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Revisado por el técnico: El video del granizo (005) quedó vencido y apartado, y ya hay una versión corta lista para reemplazarlo; no cambié nada.",
-     "cuando": "2026-11-11T19:30",
-     "hace": "hace 14 h",
+     "resumen": "9 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-12T19:31",
+     "hace": "hace 4 h",
      "detalle": [],
-     "tareas": [
-      "044-misa-fabrica-aviones: tema de actualidad vencido (más de 48 h)"
-     ],
+     "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "819ca40fd239"
+     "firma": "91a3e95b574b"
     },
     {
      "id": "publicador",
@@ -332,27 +323,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: 034-subte-linea-a.",
-     "cuando": "2026-11-11T19:32",
-     "hace": "hace 14 h",
+     "resumen": "Último: 036-apagon-heladera.",
+     "cuando": "2026-11-12T19:34",
+     "hace": "hace 4 h",
      "detalle": [
-      "11/11 12:31 033-gracias-en-el-mate publicado: https://www.instagram.com/reel/DfmzoSFFICK/",
-      "11/11 12:31 033-gracias-en-el-mate publicado en Facebook: https://www.facebook.com/reel/2696410880875110/",
-      "11/11 12:32 033-gracias-en-el-mate en la bandeja de TikTok",
-      "11/11 12:32 033-gracias-en-el-mate https://youtube.com/shorts/5bKd88hd6is | privacidad: public",
-      "11/11 12:33 033-gracias-en-el-mate paquete para TikTok/YouTube enviado",
-      "11/11 19:30 034-subte-linea-a publicado: https://www.instagram.com/reel/Dfnjs50Ein-/",
-      "11/11 19:31 034-subte-linea-a publicado en Facebook: https://www.facebook.com/reel/3031248520394743/",
-      "11/11 19:31 034-subte-linea-a en la bandeja de TikTok",
-      "11/11 19:32 034-subte-linea-a https://youtube.com/shorts/stdqv2OoNbY | privacidad: public",
-      "11/11 19:32 034-subte-linea-a paquete para TikTok/YouTube enviado"
+      "12/11 12:31 034-arroz-recalentado publicado: https://www.instagram.com/reel/DfpYb13HENe/",
+      "12/11 12:32 034-arroz-recalentado publicado en Facebook: https://www.facebook.com/reel/2377763176410519/",
+      "12/11 12:32 034-arroz-recalentado en la bandeja de TikTok",
+      "12/11 12:32 034-arroz-recalentado https://youtube.com/shorts/cqECw1aSNpA | privacidad: public",
+      "12/11 12:33 034-arroz-recalentado paquete para TikTok/YouTube enviado",
+      "12/11 19:31 036-apagon-heladera publicado: https://www.instagram.com/reel/DfqIlLIgF7s/",
+      "12/11 19:32 036-apagon-heladera publicado en Facebook: https://www.facebook.com/reel/1447555755112406/",
+      "12/11 19:32 036-apagon-heladera en la bandeja de TikTok",
+      "12/11 19:33 036-apagon-heladera https://youtube.com/shorts/ATzHfKc3ZHo | privacidad: public",
+      "12/11 19:34 036-apagon-heladera paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: 034-arroz-recalentado — Arroz recalentado: a la heladera en una hora, una sola vez (NHS, Bacillus cereus)"
+      "Próximo: 035-lavandina-vinagre — Lavandina con vinagre o amoníaco: el gas tóxico (CDC)"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "78410f952d47"
+     "firma": "51738c6d3067"
     },
     {
      "id": "redes",
@@ -370,17 +361,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-11T19:32",
-     "hace": "hace 14 h",
+     "cuando": "2026-11-12T19:34",
+     "hace": "hace 4 h",
      "detalle": [
-      "11/11 09:26 032-pelo-mojado-resfrio falló TikTok: ",
-      "11/11 09:26 032-pelo-mojado-resfrio falló YouTube: ",
-      "11/11 12:32 033-gracias-en-el-mate en la bandeja de TikTok",
-      "11/11 12:32 033-gracias-en-el-mate https://youtube.com/shorts/5bKd88hd6is | privacidad: public",
-      "11/11 12:33 033-gracias-en-el-mate paquete para TikTok/YouTube enviado",
-      "11/11 19:31 034-subte-linea-a en la bandeja de TikTok",
       "11/11 19:32 034-subte-linea-a https://youtube.com/shorts/stdqv2OoNbY | privacidad: public",
-      "11/11 19:32 034-subte-linea-a paquete para TikTok/YouTube enviado"
+      "11/11 19:32 034-subte-linea-a paquete para TikTok/YouTube enviado",
+      "12/11 12:32 034-arroz-recalentado en la bandeja de TikTok",
+      "12/11 12:32 034-arroz-recalentado https://youtube.com/shorts/cqECw1aSNpA | privacidad: public",
+      "12/11 12:33 034-arroz-recalentado paquete para TikTok/YouTube enviado",
+      "12/11 19:32 036-apagon-heladera en la bandeja de TikTok",
+      "12/11 19:33 036-apagon-heladera https://youtube.com/shorts/ATzHfKc3ZHo | privacidad: public",
+      "12/11 19:34 036-apagon-heladera paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -403,7 +394,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-07T22:18",
-     "hace": "hace 4 días",
+     "hace": "hace 5 días",
      "detalle": [
       "2026-11-07 07:55 celular-arroz: listo control OK",
       "2026-11-07 19:26 serie-clima-1: publicado https://www.instagram.com/p/DfdQIG8EzTc/",
@@ -437,7 +428,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-07T18:03",
-     "hace": "hace 4 días",
+     "hace": "hace 5 días",
      "detalle": [
       "07/11 03:53 Hay 2 comentarios nuevos: arranca la respuesta.",
       "07/11 00:00 Respondí 2 · salteé 0 · alerté 0. (026-mediodia-hora-corrida: marenzimonica respondida con la explicación del movimiento aparente por la rotación terrestre; davidblaiotta respondido con humor sobre el horario de almuerzo)",
@@ -476,7 +467,7 @@
      "estado": "ok",
      "resumen": "11/11: 859 seguidores",
      "cuando": "2026-11-11T21:00",
-     "hace": "hace 12 h",
+     "hace": "hace 27 h",
      "detalle": [
       "05/11: 400 seguidores",
       "06/11: 425 seguidores",
@@ -509,7 +500,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-12T09:41",
+     "cuando": "2026-11-13T00:30",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -644,7 +635,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-07T22:40",
-     "hace": "hace 4 días",
+     "hace": "hace 5 días",
      "detalle": [
       "Uso: 21 pasos · 14,648 tokens nuevos · 855,368 de caché · 7,467 escritos · equivale a US$ 1.07 de API",
       "2026-11-07 22:18 Arranca la producción (5 listos en la cola, meta 6).",
@@ -678,7 +669,7 @@
      "estado": "ok",
      "resumen": "Duodécima pasada del radar: la búsqueda (NWS fin de semana) solo devolvió páginas sin fecha o de 2025/marzo 2026; nada verificable de las últimas 48 h. Descarta",
      "cuando": "2026-11-07T15:10",
-     "hace": "hace 4 días",
+     "hace": "hace 5 días",
      "detalle": [
       "06/11 00:00 Décima pasada del radar: la búsqueda web no devolvió alertas del NWS ni noticias de las últimas 48 h (páginas sin fecha, de abril o de 2025). Descartados: (1) tornado watch en el norte de Georgia: página sin fecha, regional y sin fuente oficial confirmada; (2) superluna del 24/11: todavía lejos; (3) ciencia de la semana: nada de noviembre 2026 en los resúmenes. Sin tema nuevo.",
       "07/11 00:00 Undécima pasada del radar: la búsqueda solo devolvió pronósticos locales y titulares sin detalle. Descartados: (1) El Niño \"más fuerte en una vida\" (AccuWeather): solo titular, sin fuente oficial del día; y en-026-el-nino-winter ya está en cola; (2) tornados raros en Delaware/Long Island: evento regional, riesgo de daños/víctimas, sin confirmar; (3) inundación costera por \"king tide\" en Florida/California: regional, sin fecha ni fuente oficial confirmada. Sin tema nuevo.",
@@ -708,7 +699,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-07T22:40",
-     "hace": "hace 4 días",
+     "hace": "hace 5 días",
      "detalle": [
       "en-022-power-outage-fridge: aprobado — Segundo chequeo. Leida la pagina del CDC (cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html): 'If the doors stay closed, food wi",
       "en-023-package-text: aprobado — Todas las afirmaciones fácticas salen de una única fuente primaria de EE. UU. (FTC Consumer Alert, abril 2025, consumer.ftc.gov) que la pági",
@@ -741,7 +732,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-07T22:40",
-     "hace": "hace 4 días",
+     "hace": "hace 5 días",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -765,7 +756,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-07 22:40.",
      "cuando": "2026-11-07T22:40",
-     "hace": "hace 4 días",
+     "hace": "hace 5 días",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -789,7 +780,7 @@
      "estado": "ok",
      "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-07T22:40",
-     "hace": "hace 4 días",
+     "hace": "hace 5 días",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -811,9 +802,9 @@
       }
      },
      "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 19:30 (11/11).",
+     "resumen": "No salió la publicación del turno de las 19:30 (12/11).",
      "cuando": "2026-11-07T19:35",
-     "hace": "hace 4 días",
+     "hace": "hace 5 días",
      "detalle": [
       "06/11 19:34 en-022-ears-pop en la bandeja de TikTok",
       "06/11 19:34 en-022-ears-pop paquete para TikTok/YouTube enviado",
@@ -831,7 +822,7 @@
      ],
      "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
      "solo": false,
-     "firma": "409c1eef1d80"
+     "firma": "23cbf275e8c1"
     },
     {
      "id": "redes",
@@ -850,7 +841,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-07T19:35",
-     "hace": "hace 4 días",
+     "hace": "hace 5 días",
      "detalle": [
       "06/11 12:35 en-021-other-line en la bandeja de TikTok",
       "06/11 12:35 en-021-other-line paquete para TikTok/YouTube enviado",
@@ -885,7 +876,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:16",
-     "hace": "hace 9 días",
+     "hace": "hace 10 días",
      "detalle": [
       "01/11 18:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
@@ -952,16 +943,16 @@
       }
      },
      "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 19:30 (11/11).",
-     "cuando": "2026-11-12T09:41",
+     "resumen": "No salió la publicación del turno de las 19:30 (12/11).",
+     "cuando": "2026-11-13T00:30",
      "hace": "recién",
      "detalle": [
-      "❗ No salió la publicación del turno de las 19:30 (11/11)."
+      "❗ No salió la publicación del turno de las 19:30 (12/11)."
      ],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "ff091a3363e8"
+     "firma": "ecc8302d3f62"
     }
    ]
   }
