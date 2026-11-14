@@ -1,0 +1,24 @@
+{
+  "titulo": "¿Por qué el viernes 13 da mala suerte? Para los argentinos el maldito es el martes 13",
+  "destinatario": "Se lo manda un argentino que hoy vio memes de viernes 13 a su amigo supersticioso, para avisarle que acá el día de mala suerte es el martes 13, no el viernes.",
+  "regla_guardable": "En Argentina el día de mala suerte no es el viernes 13: es el martes 13.",
+  "pilar": "argentina",
+  "receta": "el acusado equivocado",
+  "fondo": "oscuro",
+  "fuentes": [
+    "National Geographic Historia - 'Por qué el viernes 13 y el martes 13 son considerados de mala suerte'",
+    "La Nación - 'Martes 13: cuál es su significado y por qué se relaciona con la mala suerte' (2026)",
+    "Los Andes - 'Hoy es viernes 13, día de mala suerte: qué diferencia hay con el martes 13'",
+    "Cines Argentinos / LeerCine - estreno de 'Friday the 13th' (1980) en Argentina como 'Martes 13'"
+  ],
+  "frases": [
+    {"texto": "Hoy es viernes trece y andás esperando que algo salga mal. Pero ese miedo te lo vendió Hollywood.", "estilo": "Gancho en segunda persona, afirmado. Arranca cómplice y pega el golpe al final."},
+    {"texto": "En Estados Unidos el día de mala suerte es el viernes trece. Acá, es el martes trece.", "estilo": "Seco, contundente. El giro argentino."},
+    {"texto": "Fijate: la película de terror Viernes trece llegó a los cines de acá como Martes trece, para que diera más miedo.", "estilo": "Revelación, con una media sonrisa. El dato que nadie recuerda."},
+    {"texto": "El viernes de allá viene de la Última Cena, con Judas sentado de número trece.", "estilo": "Explicativo, tranquilo."},
+    {"texto": "El martes nuestro viene de Marte, el dios de la guerra que le da el nombre al día.", "estilo": "Explicativo, con intriga."},
+    {"texto": "Por eso el refrán viejo dice: martes trece, ni te cases ni te embarques.", "estilo": "Como citando un dicho de la abuela."},
+    {"texto": "Ojo: ningún estudio probó que ese día pasen más desgracias. Es pura superstición.", "estilo": "Honesto y claro, con firmeza."},
+    {"texto": "Así que hoy relajá, y mandáselo al que no quiso salir de la cama.", "estilo": "Cierre cómplice y gracioso."}
+  ]
+}

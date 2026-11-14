@@ -1,0 +1,711 @@
+{
+ "duracion": 46.72,
+ "frases": [
+  {
+   "texto": "Hoy es viernes trece y andás esperando que algo salga mal. Pero ese miedo te lo vendió Hollywood.",
+   "palabras": [
+    {
+     "texto": "Hoy",
+     "inicio": 0.0,
+     "fin": 0.2
+    },
+    {
+     "texto": "es",
+     "inicio": 0.2,
+     "fin": 0.32
+    },
+    {
+     "texto": "viernes",
+     "inicio": 0.32,
+     "fin": 0.66
+    },
+    {
+     "texto": "trece",
+     "inicio": 0.66,
+     "fin": 1.14
+    },
+    {
+     "texto": "y",
+     "inicio": 1.14,
+     "fin": 1.58
+    },
+    {
+     "texto": "andás",
+     "inicio": 1.58,
+     "fin": 1.92
+    },
+    {
+     "texto": "esperando",
+     "inicio": 1.92,
+     "fin": 2.28
+    },
+    {
+     "texto": "que",
+     "inicio": 2.28,
+     "fin": 2.58
+    },
+    {
+     "texto": "algo",
+     "inicio": 2.58,
+     "fin": 2.76
+    },
+    {
+     "texto": "salga",
+     "inicio": 2.76,
+     "fin": 3.1
+    },
+    {
+     "texto": "mal.",
+     "inicio": 3.1,
+     "fin": 3.34
+    },
+    {
+     "texto": "Pero",
+     "inicio": 3.74,
+     "fin": 3.94
+    },
+    {
+     "texto": "ese",
+     "inicio": 3.94,
+     "fin": 4.1
+    },
+    {
+     "texto": "miedo",
+     "inicio": 4.1,
+     "fin": 4.44
+    },
+    {
+     "texto": "te",
+     "inicio": 4.44,
+     "fin": 4.68
+    },
+    {
+     "texto": "lo",
+     "inicio": 4.68,
+     "fin": 4.8
+    },
+    {
+     "texto": "vendió",
+     "inicio": 4.8,
+     "fin": 5.04
+    },
+    {
+     "texto": "Hollywood.",
+     "inicio": 5.04,
+     "fin": 5.48
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 5.48
+  },
+  {
+   "texto": "En Estados Unidos el día de mala suerte es el viernes trece. Acá, es el martes trece.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 6.0,
+     "fin": 6.18
+    },
+    {
+     "texto": "Estados",
+     "inicio": 6.18,
+     "fin": 6.42
+    },
+    {
+     "texto": "Unidos",
+     "inicio": 6.42,
+     "fin": 6.86
+    },
+    {
+     "texto": "el",
+     "inicio": 6.86,
+     "fin": 7.28
+    },
+    {
+     "texto": "día",
+     "inicio": 7.28,
+     "fin": 7.46
+    },
+    {
+     "texto": "de",
+     "inicio": 7.46,
+     "fin": 7.6
+    },
+    {
+     "texto": "mala",
+     "inicio": 7.6,
+     "fin": 7.76
+    },
+    {
+     "texto": "suerte",
+     "inicio": 7.76,
+     "fin": 8.16
+    },
+    {
+     "texto": "es",
+     "inicio": 8.16,
+     "fin": 8.48
+    },
+    {
+     "texto": "el",
+     "inicio": 8.48,
+     "fin": 8.64
+    },
+    {
+     "texto": "viernes",
+     "inicio": 8.64,
+     "fin": 9.02
+    },
+    {
+     "texto": "trece.",
+     "inicio": 9.02,
+     "fin": 9.46
+    },
+    {
+     "texto": "Acá,",
+     "inicio": 9.86,
+     "fin": 10.18
+    },
+    {
+     "texto": "es",
+     "inicio": 10.68,
+     "fin": 10.72
+    },
+    {
+     "texto": "el",
+     "inicio": 10.72,
+     "fin": 10.86
+    },
+    {
+     "texto": "martes",
+     "inicio": 10.86,
+     "fin": 11.28
+    },
+    {
+     "texto": "trece.",
+     "inicio": 11.28,
+     "fin": 11.68
+    }
+   ],
+   "inicio": 6.0,
+   "fin": 11.68
+  },
+  {
+   "texto": "Fijate: la película de terror Viernes trece llegó a los cines de acá como Martes trece, para que diera más miedo.",
+   "palabras": [
+    {
+     "texto": "Fijate:",
+     "inicio": 12.18,
+     "fin": 12.5
+    },
+    {
+     "texto": "la",
+     "inicio": 12.98,
+     "fin": 13.1
+    },
+    {
+     "texto": "película",
+     "inicio": 13.1,
+     "fin": 13.36
+    },
+    {
+     "texto": "de",
+     "inicio": 13.36,
+     "fin": 13.62
+    },
+    {
+     "texto": "terror",
+     "inicio": 13.62,
+     "fin": 13.88
+    },
+    {
+     "texto": "Viernes",
+     "inicio": 13.88,
+     "fin": 14.54
+    },
+    {
+     "texto": "trece",
+     "inicio": 14.54,
+     "fin": 15.0
+    },
+    {
+     "texto": "llegó",
+     "inicio": 15.0,
+     "fin": 15.3
+    },
+    {
+     "texto": "a",
+     "inicio": 15.3,
+     "fin": 15.46
+    },
+    {
+     "texto": "los",
+     "inicio": 15.46,
+     "fin": 15.54
+    },
+    {
+     "texto": "cines",
+     "inicio": 15.54,
+     "fin": 15.76
+    },
+    {
+     "texto": "de",
+     "inicio": 15.76,
+     "fin": 15.92
+    },
+    {
+     "texto": "acá",
+     "inicio": 15.92,
+     "fin": 16.08
+    },
+    {
+     "texto": "como",
+     "inicio": 16.08,
+     "fin": 16.34
+    },
+    {
+     "texto": "Martes",
+     "inicio": 16.34,
+     "fin": 17.02
+    },
+    {
+     "texto": "trece,",
+     "inicio": 17.02,
+     "fin": 17.46
+    },
+    {
+     "texto": "para",
+     "inicio": 17.68,
+     "fin": 17.94
+    },
+    {
+     "texto": "que",
+     "inicio": 17.94,
+     "fin": 18.06
+    },
+    {
+     "texto": "diera",
+     "inicio": 18.06,
+     "fin": 18.22
+    },
+    {
+     "texto": "más",
+     "inicio": 18.22,
+     "fin": 18.42
+    },
+    {
+     "texto": "miedo.",
+     "inicio": 18.42,
+     "fin": 18.74
+    }
+   ],
+   "inicio": 12.18,
+   "fin": 18.74
+  },
+  {
+   "texto": "El viernes de allá viene de la Última Cena, con Judas sentado de número trece.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 19.24,
+     "fin": 19.4
+    },
+    {
+     "texto": "viernes",
+     "inicio": 19.4,
+     "fin": 19.7
+    },
+    {
+     "texto": "de",
+     "inicio": 19.7,
+     "fin": 19.86
+    },
+    {
+     "texto": "allá",
+     "inicio": 19.86,
+     "fin": 20.02
+    },
+    {
+     "texto": "viene",
+     "inicio": 20.02,
+     "fin": 20.34
+    },
+    {
+     "texto": "de",
+     "inicio": 20.34,
+     "fin": 20.58
+    },
+    {
+     "texto": "la",
+     "inicio": 20.58,
+     "fin": 20.7
+    },
+    {
+     "texto": "Última",
+     "inicio": 20.7,
+     "fin": 21.1
+    },
+    {
+     "texto": "Cena,",
+     "inicio": 21.1,
+     "fin": 21.44
+    },
+    {
+     "texto": "con",
+     "inicio": 21.86,
+     "fin": 22.06
+    },
+    {
+     "texto": "Judas",
+     "inicio": 22.06,
+     "fin": 22.3
+    },
+    {
+     "texto": "sentado",
+     "inicio": 22.3,
+     "fin": 22.88
+    },
+    {
+     "texto": "de",
+     "inicio": 22.88,
+     "fin": 23.1
+    },
+    {
+     "texto": "número",
+     "inicio": 23.1,
+     "fin": 23.38
+    },
+    {
+     "texto": "trece.",
+     "inicio": 23.38,
+     "fin": 23.92
+    }
+   ],
+   "inicio": 19.24,
+   "fin": 23.92
+  },
+  {
+   "texto": "El martes nuestro viene de Marte, el dios de la guerra que le da el nombre al día.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 24.96,
+     "fin": 24.96
+    },
+    {
+     "texto": "martes",
+     "inicio": 24.96,
+     "fin": 25.3
+    },
+    {
+     "texto": "nuestro",
+     "inicio": 25.3,
+     "fin": 25.7
+    },
+    {
+     "texto": "viene",
+     "inicio": 25.7,
+     "fin": 26.44
+    },
+    {
+     "texto": "de",
+     "inicio": 26.44,
+     "fin": 26.62
+    },
+    {
+     "texto": "Marte,",
+     "inicio": 26.62,
+     "fin": 27.12
+    },
+    {
+     "texto": "el",
+     "inicio": 27.56,
+     "fin": 27.72
+    },
+    {
+     "texto": "dios",
+     "inicio": 27.72,
+     "fin": 27.98
+    },
+    {
+     "texto": "de",
+     "inicio": 27.98,
+     "fin": 28.1
+    },
+    {
+     "texto": "la",
+     "inicio": 28.1,
+     "fin": 28.22
+    },
+    {
+     "texto": "guerra",
+     "inicio": 28.22,
+     "fin": 28.54
+    },
+    {
+     "texto": "que",
+     "inicio": 28.54,
+     "fin": 28.94
+    },
+    {
+     "texto": "le",
+     "inicio": 28.94,
+     "fin": 29.08
+    },
+    {
+     "texto": "da",
+     "inicio": 29.08,
+     "fin": 29.24
+    },
+    {
+     "texto": "el",
+     "inicio": 29.24,
+     "fin": 29.4
+    },
+    {
+     "texto": "nombre",
+     "inicio": 29.4,
+     "fin": 29.68
+    },
+    {
+     "texto": "al",
+     "inicio": 29.68,
+     "fin": 29.82
+    },
+    {
+     "texto": "día.",
+     "inicio": 29.82,
+     "fin": 30.02
+    }
+   ],
+   "inicio": 24.96,
+   "fin": 30.02
+  },
+  {
+   "texto": "Por eso el refrán viejo dice: martes trece, ni te cases ni te embarques.",
+   "palabras": [
+    {
+     "texto": "Por",
+     "inicio": 30.56,
+     "fin": 30.68
+    },
+    {
+     "texto": "eso",
+     "inicio": 30.68,
+     "fin": 30.96
+    },
+    {
+     "texto": "el",
+     "inicio": 30.96,
+     "fin": 31.42
+    },
+    {
+     "texto": "refrán",
+     "inicio": 31.42,
+     "fin": 31.78
+    },
+    {
+     "texto": "viejo",
+     "inicio": 31.78,
+     "fin": 32.04
+    },
+    {
+     "texto": "dice:",
+     "inicio": 32.04,
+     "fin": 32.3
+    },
+    {
+     "texto": "martes",
+     "inicio": 32.3,
+     "fin": 33.5
+    },
+    {
+     "texto": "trece,",
+     "inicio": 33.5,
+     "fin": 33.92
+    },
+    {
+     "texto": "ni",
+     "inicio": 34.48,
+     "fin": 34.6
+    },
+    {
+     "texto": "te",
+     "inicio": 34.6,
+     "fin": 34.72
+    },
+    {
+     "texto": "cases",
+     "inicio": 34.72,
+     "fin": 35.12
+    },
+    {
+     "texto": "ni",
+     "inicio": 35.12,
+     "fin": 35.72
+    },
+    {
+     "texto": "te",
+     "inicio": 35.72,
+     "fin": 35.86
+    },
+    {
+     "texto": "embarques.",
+     "inicio": 35.86,
+     "fin": 36.38
+    }
+   ],
+   "inicio": 30.56,
+   "fin": 36.38
+  },
+  {
+   "texto": "Ojo: ningún estudio probó que ese día pasen más desgracias. Es pura superstición.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 36.94,
+     "fin": 37.22
+    },
+    {
+     "texto": "ningún",
+     "inicio": 37.52,
+     "fin": 37.96
+    },
+    {
+     "texto": "estudio",
+     "inicio": 37.96,
+     "fin": 38.42
+    },
+    {
+     "texto": "probó",
+     "inicio": 38.42,
+     "fin": 38.86
+    },
+    {
+     "texto": "que",
+     "inicio": 38.86,
+     "fin": 38.96
+    },
+    {
+     "texto": "ese",
+     "inicio": 38.96,
+     "fin": 39.14
+    },
+    {
+     "texto": "día",
+     "inicio": 39.14,
+     "fin": 39.36
+    },
+    {
+     "texto": "pasen",
+     "inicio": 39.36,
+     "fin": 39.78
+    },
+    {
+     "texto": "más",
+     "inicio": 39.78,
+     "fin": 39.92
+    },
+    {
+     "texto": "desgracias.",
+     "inicio": 39.92,
+     "fin": 40.6
+    },
+    {
+     "texto": "Es",
+     "inicio": 40.96,
+     "fin": 41.06
+    },
+    {
+     "texto": "pura",
+     "inicio": 41.06,
+     "fin": 41.38
+    },
+    {
+     "texto": "superstición.",
+     "inicio": 41.38,
+     "fin": 42.02
+    }
+   ],
+   "inicio": 36.94,
+   "fin": 42.02
+  },
+  {
+   "texto": "Así que hoy relajá, y mandáselo al que no quiso salir de la cama.",
+   "palabras": [
+    {
+     "texto": "Así",
+     "inicio": 42.56,
+     "fin": 42.76
+    },
+    {
+     "texto": "que",
+     "inicio": 42.76,
+     "fin": 42.98
+    },
+    {
+     "texto": "hoy",
+     "inicio": 42.98,
+     "fin": 43.22
+    },
+    {
+     "texto": "relajá,",
+     "inicio": 43.22,
+     "fin": 44.08
+    },
+    {
+     "texto": "y",
+     "inicio": 44.56,
+     "fin": 44.62
+    },
+    {
+     "texto": "mandáselo",
+     "inicio": 44.62,
+     "fin": 45.16
+    },
+    {
+     "texto": "al",
+     "inicio": 45.16,
+     "fin": 45.28
+    },
+    {
+     "texto": "que",
+     "inicio": 45.28,
+     "fin": 45.42
+    },
+    {
+     "texto": "no",
+     "inicio": 45.42,
+     "fin": 45.56
+    },
+    {
+     "texto": "quiso",
+     "inicio": 45.56,
+     "fin": 45.84
+    },
+    {
+     "texto": "salir",
+     "inicio": 45.84,
+     "fin": 46.04
+    },
+    {
+     "texto": "de",
+     "inicio": 46.04,
+     "fin": 46.26
+    },
+    {
+     "texto": "la",
+     "inicio": 46.26,
+     "fin": 46.38
+    },
+    {
+     "texto": "cama.",
+     "inicio": 46.38,
+     "fin": 46.58
+    }
+   ],
+   "inicio": 42.56,
+   "fin": 46.58
+  }
+ ]
+}

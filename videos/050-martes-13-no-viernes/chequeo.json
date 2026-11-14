@@ -1,0 +1,48 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones del guion.json y del caption.txt son verificables (geografia de la supersticion, retitulado de la pelicula, inexistencia de estudio cientifico) o estan presentadas como version/creencia/refran cuando son origenes de supersticion. Ninguna es falsa ni presenta cifras duras. Nota de calidad: el caption incluye 'Italia' entre los paises del martes 13, pero el dia temido en Italia es el viernes 17 (venerdi 17), no el martes 13; la afirmacion queda como 'dudosa' con matiz NO correcto. No invalida el aprobado porque no es un hecho de salud/plata/seguridad y el nucleo (Argentina/Espana/Grecia vs anglosajon) es correcto, pero se recomienda a Mateo quitar 'Italia' del caption. El guion.json no tiene este problema (dice Argentina/Espana/Grecia).",
+  "afirmaciones": [
+    {
+      "texto": "En Estados Unidos/Inglaterra el dia de mala suerte es el viernes 13; en Argentina/Espana/Grecia/Latinoamerica es el martes 13.",
+      "fuente": "National Geographic / Cadena 3 Argentina (cadena3.com); RTVC Noticias; Conocedores.com; Vanguardia.mx. La diferencia geografica (anglosajon = viernes 13; hispanohablante, Espana y Grecia = martes 13) esta documentada.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La pelicula 'Friday the 13th' (1980) se estreno en Argentina/Latinoamerica como 'Martes 13'.",
+      "fuente": "Wikipedia (es/en) 'Friday the 13th (1980)'; IMDb release info (AKA Argentina/Chile 'Martes 13'); cineterror.fandom. Estreno en Argentina 30/10/1980 bajo el titulo 'Martes 13'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El viernes 13 anglosajon se asocia a la Ultima Cena (13 comensales, Judas) y al arresto de los Templarios un viernes.",
+      "fuente": "Wikipedia 'Friday the 13th'; EBSCO Research Starters; Aleteia. El arresto de los Templarios el viernes 13 de octubre de 1307 es un hecho historico real; su vinculo con la supersticion es un origen 'frecuentemente citado' pero discutido por historiadores (retrofit moderno).",
+      "estado": "dudosa",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El martes 13 se asocia a Marte, dios romano de la guerra, que da nombre al dia martes (dies Martis).",
+      "fuente": "RTVC Noticias; desdelafe.mx; horoscopoonline.com. Etimologia 'martes' < latin 'dies Martis' (dia de Marte) es correcta; la asociacion de Marte/guerra con la mala suerte es la version tradicional de la supersticion.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El refran 'martes 13, ni te cases ni te embarques'.",
+      "fuente": "desdelafe.mx; La Razon de Mexico; El Liberal (Argentina). Refran popular ampliamente documentado (version larga: 'ni te cases ni te embarques, ni de tu casa te apartes').",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "No hay ningun estudio cientifico que demuestre que ese dia pasen mas desgracias; es superstificion, no ciencia.",
+      "fuente": "Live Science; NBC News; estudio de Edgar Wunder (2003, Alemania); PMC (NCBI) 'Females do not have more injury road accidents on Friday the 13th'. Consenso cientifico: sin evidencia de mas accidentes/desgracias.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "(Solo en caption) '...en Argentina (y en Espana, Italia y Grecia), el dia embrujado es el martes 13.'",
+      "fuente": "Wikipedia 'Friday the 17th'; thelocal.it; italiani.it. En Italia el dia temido es el VIERNES 17 (venerdi 17), no el martes 13. La inclusion de 'Italia' en el grupo del martes 13 es incorrecta.",
+      "estado": "dudosa",
+      "matiz_ok": false
+    }
+  ]
+}

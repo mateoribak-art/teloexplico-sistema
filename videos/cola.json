@@ -1404,7 +1404,7 @@
  {
   "slug": "035-lavandina-vinagre",
   "tema": "Lavandina con vinagre o amoníaco: el gas tóxico (CDC)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1430,6 +1430,11 @@
     "estado": "listo",
     "cuando": "2026-11-04T23:13",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-13T12:31",
+    "motivo": "https://www.instagram.com/reel/Dfr9OsGEsts/"
    }
   ]
  },
@@ -1463,7 +1468,7 @@
  {
   "slug": "037-perro-en-el-auto",
   "tema": "Perro encerrado en el auto: cuánto sube la temperatura (Pediatrics 2005)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1484,6 +1489,11 @@
     "estado": "listo",
     "cuando": "2026-11-05T08:39",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-13T19:31",
+    "motivo": "https://www.instagram.com/reel/DfstWPCoW-5/"
    }
   ]
  },
@@ -1876,5 +1886,29 @@
   ],
   "prioridad": "actualidad",
   "creado": "2026-11-12T09:27"
+ },
+ {
+  "slug": "050-martes-13-no-viernes",
+  "tema": "¿Por qué el viernes 13 trae mala suerte? En Argentina el de mala suerte es el martes 13 (origen del mito)",
+  "estado": "render",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-13T09:40",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-13T09:40",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-13T10:04",
+    "motivo": "escenas 3D listas"
+   }
+  ],
+  "prioridad": "actualidad",
+  "creado": "2026-11-13T09:40"
  }
 ]
