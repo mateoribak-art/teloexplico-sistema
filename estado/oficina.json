@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T00:30",
+ "actualizado": "2026-11-14T06:00",
  "oficinas": [
   {
    "clave": "es",
@@ -118,7 +118,7 @@
      "estado": "ok",
      "resumen": "Hay 9 videos listos: no hace falta producir hoy. Corre solo el radar de actualidad.",
      "cuando": "2026-11-13T09:39",
-     "hace": "hace 14 h",
+     "hace": "hace 20 h",
      "detalle": [
       "2026-11-13 09:39 Hay 9 videos listos: no hace falta producir hoy. Corre solo el radar de actualidad."
      ],
@@ -176,7 +176,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. HAY TEMA: hoy es viernes 13. Giro propio verificado: en los países anglosajones el día de mala suerte es el viernes 13, pero en Argentina/España",
      "cuando": "2026-11-13T00:00",
-     "hace": "hace 24 h",
+     "hace": "hace 30 h",
      "detalle": [
       "07/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): sin resultados fechados de hoy verificables. Descartados: (a) alerta amarilla tormentas/granizo en BA y 65 localidades (c5n, sin año verificable; granizo ya tiene 005/024), (b) alertas en el norte \"jueves 7\" (es de otro año), (c) reforma laboral/CGT (política, no encaja). Sin tema verificable; sigue la cola normal.",
       "12/11 00:00 | Revisión radar. Búsquedas web (alertas SMN + clima/tendencias/astronomía, todo fechado HOY 12-nov). HAY TEMA: primer calor fuerte de la temporada en AMBA (30-32°C, día más caluroso de la semana; fuentes del día: Perfil, Canal26, Infobae, Examedia 12-nov). Ángulo propio con giro verificado: el primer calor del año pega más fuerte porque el cuerpo NO está aclimatado (NIOSH: 50-70% de muertes por calor en trabajadores ocurren en los primeros días; aclimatación tarda 1-2 semanas; meteored/tiempo.com). Distinto de 048-golpe-de-calor (síntomas/qué hacer) y de 019/008/009 (sensación térmica/aire/ventilador). ELEGIDO. Slug: 049-primer-calor-aclimatacion (--actualidad). Descartados: (a) alerta amarilla tormentas/granizo en 6 provincias (Salta, Jujuy, BA, Río Negro, La Pampa, Chubut) -> no pega en CABA hoy y granizo/tormenta/sensación térmica ya cubiertos (005/024/018/019); (b) Leónidas (pico 17-18 nov) y superluna de Castor (24 nov) -> fechas cercanas buenas pero NO se viven hoy y el pico cae fuera de la ventana de 48h; guardar para producir ~15-16 nov; (c) Marte-Júpiter / Venus máximo brillo -> nicho astronómico.",
@@ -214,7 +214,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-13T19:31",
-     "hace": "hace 4 h",
+     "hace": "hace 10 h",
      "detalle": [
       "043-feriados-visita: aprobado — Segunda revisión (6/11/2026). Las dos correcciones del primer chequeo están bien resueltas: 'dónde trabajes' coincide con lo que Chequeado r",
       "044-misa-fabrica-aviones: aprobado — Segunda pasada con búsqueda web y WebFetch. La atribución al Ministerio de Defensa existe: la página oficial argentina.gob.ar/defensa/gestio",
@@ -247,7 +247,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-13T19:31",
-     "hace": "hace 4 h",
+     "hace": "hace 10 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -271,7 +271,7 @@
      "estado": "trabajando",
      "resumen": "2 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
      "cuando": "2026-11-13T19:31",
-     "hace": "hace 4 h",
+     "hace": "hace 10 h",
      "detalle": [],
      "tareas": [
       "049-primer-calor-aclimatacion",
@@ -298,7 +298,7 @@
      "estado": "ok",
      "resumen": "7 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-13T19:31",
-     "hace": "hace 4 h",
+     "hace": "hace 10 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -322,7 +322,7 @@
      "estado": "ok",
      "resumen": "Último: 037-perro-en-el-auto.",
      "cuando": "2026-11-13T19:33",
-     "hace": "hace 4 h",
+     "hace": "hace 10 h",
      "detalle": [
       "13/11 12:31 035-lavandina-vinagre publicado: https://www.instagram.com/reel/Dfr9OsGEsts/",
       "13/11 12:31 035-lavandina-vinagre publicado en Facebook: https://www.facebook.com/reel/1078372201925568/",
@@ -359,7 +359,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-13T19:33",
-     "hace": "hace 4 h",
+     "hace": "hace 10 h",
      "detalle": [
       "12/11 19:33 036-apagon-heladera https://youtube.com/shorts/ATzHfKc3ZHo | privacidad: public",
       "12/11 19:34 036-apagon-heladera paquete para TikTok/YouTube enviado",
@@ -464,7 +464,7 @@
      "estado": "ok",
      "resumen": "13/11: 910 seguidores",
      "cuando": "2026-11-13T21:00",
-     "hace": "hace 3 h",
+     "hace": "hace 9 h",
      "detalle": [
       "06/11: 425 seguidores",
       "07/11: 511 seguidores",
@@ -497,7 +497,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-14T00:30",
+     "cuando": "2026-11-14T06:00",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -908,7 +908,7 @@
      "estado": "aviso",
      "resumen": "Las métricas tienen más de un día.",
      "cuando": "2026-11-07T02:50",
-     "hace": "hace 6 días",
+     "hace": "hace 7 días",
      "detalle": [
       "04/11: 3 seguidores",
       "05/11: 3 seguidores",
@@ -941,7 +941,7 @@
      },
      "estado": "falla",
      "resumen": "No salió la publicación del turno de las 19:30 (13/11).",
-     "cuando": "2026-11-14T00:30",
+     "cuando": "2026-11-14T06:00",
      "hace": "recién",
      "detalle": [
       "❗ No salió la publicación del turno de las 19:30 (13/11)."
