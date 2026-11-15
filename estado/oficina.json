@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T06:00",
+ "actualizado": "2026-11-15T00:30",
  "oficinas": [
   {
    "clave": "es",
@@ -7,15 +7,20 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 910,
-   "listos": 7,
-   "dias": 3.5,
-   "proximo": "039-sol-nublado",
-   "publicados": 41,
+   "listos": 6,
+   "dias": 3.0,
+   "proximo": "040-consumo-fantasma",
+   "publicados": 42,
    "pausa": false,
    "pendientes": [
     "Facu (TikTok, YouTube y Telegram): En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram."
    ],
    "ultimas": [
+    {
+     "slug": "039-sol-nublado",
+     "link": "https://www.instagram.com/reel/DfuiB7Qj6ua/",
+     "cuando": "2026-11-14T15:31"
+    },
     {
      "slug": "037-perro-en-el-auto",
      "link": "https://www.instagram.com/reel/DfstWPCoW-5/",
@@ -35,11 +40,6 @@
      "slug": "034-arroz-recalentado",
      "link": "https://www.instagram.com/reel/DfpYb13HENe/",
      "cuando": "2026-11-12T15:31"
-    },
-    {
-     "slug": "034-subte-linea-a",
-     "link": "https://www.instagram.com/reel/Dfnjs50Ein-/",
-     "cuando": "2026-11-11T22:30"
     }
    ],
    "linea": [
@@ -56,13 +56,6 @@
      "estado": "render",
      "cuando": "2026-11-13T10:04",
      "motivo": "escenas 3D listas"
-    },
-    {
-     "slug": "039-sol-nublado",
-     "tema": "Protector solar con el cielo nublado: la radiación UV puede ser alta igual (OMS, CDC; índice UV 3 o más)",
-     "estado": "listo",
-     "cuando": "2026-11-05T19:38",
-     "motivo": "render sin Claude"
     },
     {
      "slug": "040-consumo-fantasma",
@@ -86,11 +79,18 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "037-perro-en-el-auto",
-     "tema": "Perro encerrado en el auto: cuánto sube la temperatura (Pediatrics 2005)",
+     "slug": "046-perro-no-comas",
+     "tema": "Alimentos que no le podés dar a un perro: chocolate, uvas, cebolla (ASPCA)",
+     "estado": "listo",
+     "cuando": "2026-11-07T13:27",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "039-sol-nublado",
+     "tema": "Protector solar con el cielo nublado: la radiación UV puede ser alta igual (OMS, CDC; índice UV 3 o más)",
      "estado": "publicado",
-     "cuando": "2026-11-13T19:31",
-     "motivo": "https://www.instagram.com/reel/DfstWPCoW-5/"
+     "cuando": "2026-11-14T12:31",
+     "motivo": "https://www.instagram.com/reel/DfuiB7Qj6ua/"
     },
     {
      "slug": "043-feriados-visita",
@@ -118,7 +118,7 @@
      "estado": "ok",
      "resumen": "Hay 9 videos listos: no hace falta producir hoy. Corre solo el radar de actualidad.",
      "cuando": "2026-11-13T09:39",
-     "hace": "hace 20 h",
+     "hace": "hace 38 h",
      "detalle": [
       "2026-11-13 09:39 Hay 9 videos listos: no hace falta producir hoy. Corre solo el radar de actualidad."
      ],
@@ -147,7 +147,7 @@
      "estado": "ok",
      "resumen": "Guía de referentes al día.",
      "cuando": "2026-11-05T15:28",
-     "hace": "hace 8 días",
+     "hace": "hace 9 días",
      "detalle": [
       "05/11 15:26 Arranca Vera (referentes).",
       "05/11 15:27 Reels bajados (código 0).",
@@ -176,7 +176,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. HAY TEMA: hoy es viernes 13. Giro propio verificado: en los países anglosajones el día de mala suerte es el viernes 13, pero en Argentina/España",
      "cuando": "2026-11-13T00:00",
-     "hace": "hace 30 h",
+     "hace": "hace 2 días",
      "detalle": [
       "07/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): sin resultados fechados de hoy verificables. Descartados: (a) alerta amarilla tormentas/granizo en BA y 65 localidades (c5n, sin año verificable; granizo ya tiene 005/024), (b) alertas en el norte \"jueves 7\" (es de otro año), (c) reforma laboral/CGT (política, no encaja). Sin tema verificable; sigue la cola normal.",
       "12/11 00:00 | Revisión radar. Búsquedas web (alertas SMN + clima/tendencias/astronomía, todo fechado HOY 12-nov). HAY TEMA: primer calor fuerte de la temporada en AMBA (30-32°C, día más caluroso de la semana; fuentes del día: Perfil, Canal26, Infobae, Examedia 12-nov). Ángulo propio con giro verificado: el primer calor del año pega más fuerte porque el cuerpo NO está aclimatado (NIOSH: 50-70% de muertes por calor en trabajadores ocurren en los primeros días; aclimatación tarda 1-2 semanas; meteored/tiempo.com). Distinto de 048-golpe-de-calor (síntomas/qué hacer) y de 019/008/009 (sensación térmica/aire/ventilador). ELEGIDO. Slug: 049-primer-calor-aclimatacion (--actualidad). Descartados: (a) alerta amarilla tormentas/granizo en 6 provincias (Salta, Jujuy, BA, Río Negro, La Pampa, Chubut) -> no pega en CABA hoy y granizo/tormenta/sensación térmica ya cubiertos (005/024/018/019); (b) Leónidas (pico 17-18 nov) y superluna de Castor (24 nov) -> fechas cercanas buenas pero NO se viven hoy y el pico cae fuera de la ventana de 48h; guardar para producir ~15-16 nov; (c) Marte-Júpiter / Venus máximo brillo -> nicho astronómico.",
@@ -213,8 +213,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-13T19:31",
-     "hace": "hace 10 h",
+     "cuando": "2026-11-14T12:31",
+     "hace": "hace 11 h",
      "detalle": [
       "043-feriados-visita: aprobado — Segunda revisión (6/11/2026). Las dos correcciones del primer chequeo están bien resueltas: 'dónde trabajes' coincide con lo que Chequeado r",
       "044-misa-fabrica-aviones: aprobado — Segunda pasada con búsqueda web y WebFetch. La atribución al Ministerio de Defensa existe: la página oficial argentina.gob.ar/defensa/gestio",
@@ -246,8 +246,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-13T19:31",
-     "hace": "hace 10 h",
+     "cuando": "2026-11-14T12:31",
+     "hace": "hace 11 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -270,8 +270,8 @@
      },
      "estado": "trabajando",
      "resumen": "2 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
-     "cuando": "2026-11-13T19:31",
-     "hace": "hace 10 h",
+     "cuando": "2026-11-14T12:31",
+     "hace": "hace 11 h",
      "detalle": [],
      "tareas": [
       "049-primer-calor-aclimatacion",
@@ -296,14 +296,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "7 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-13T19:31",
-     "hace": "hace 10 h",
+     "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-14T12:31",
+     "hace": "hace 11 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "45f87c5c43e0"
+     "firma": "7c6db386edd3"
     },
     {
      "id": "publicador",
@@ -319,28 +319,28 @@
        "cuenta": "es"
       }
      },
-     "estado": "ok",
-     "resumen": "Último: 037-perro-en-el-auto.",
-     "cuando": "2026-11-13T19:33",
-     "hace": "hace 10 h",
+     "estado": "falla",
+     "resumen": "No salió la publicación del turno de las 19:30 (14/11).",
+     "cuando": "2026-11-14T20:11",
+     "hace": "hace 4 h",
      "detalle": [
-      "13/11 12:31 035-lavandina-vinagre publicado: https://www.instagram.com/reel/Dfr9OsGEsts/",
-      "13/11 12:31 035-lavandina-vinagre publicado en Facebook: https://www.facebook.com/reel/1078372201925568/",
-      "13/11 12:32 035-lavandina-vinagre en la bandeja de TikTok",
-      "13/11 12:32 035-lavandina-vinagre https://youtube.com/shorts/bWhR1u-sFb4 | privacidad: public",
-      "13/11 12:33 035-lavandina-vinagre paquete para TikTok/YouTube enviado",
-      "13/11 19:31 037-perro-en-el-auto publicado: https://www.instagram.com/reel/DfstWPCoW-5/",
       "13/11 19:32 037-perro-en-el-auto publicado en Facebook: https://www.facebook.com/reel/29238780389096044/",
       "13/11 19:32 037-perro-en-el-auto en la bandeja de TikTok",
       "13/11 19:32 037-perro-en-el-auto https://youtube.com/shorts/awADHE-Gy3A | privacidad: public",
-      "13/11 19:33 037-perro-en-el-auto paquete para TikTok/YouTube enviado"
+      "13/11 19:33 037-perro-en-el-auto paquete para TikTok/YouTube enviado",
+      "14/11 12:31 039-sol-nublado publicado: https://www.instagram.com/reel/DfuiB7Qj6ua/",
+      "14/11 12:31 039-sol-nublado publicado en Facebook: https://www.facebook.com/reel/1109900068528516/",
+      "14/11 12:32 039-sol-nublado en la bandeja de TikTok",
+      "14/11 12:32 039-sol-nublado https://youtube.com/shorts/1cEHWg4gW4A | privacidad: public",
+      "14/11 12:33 039-sol-nublado paquete para TikTok/YouTube enviado",
+      "14/11 20:11 040-consumo-fantasma ERROR al publicar: n312\\Lib\\http\\client.py\", line 331, in begin"
      ],
      "tareas": [
-      "Próximo: 039-sol-nublado — Protector solar con el cielo nublado: la radiación UV puede ser alta igual (OMS, CDC; índice UV 3 o más)"
+      "Próximo: 040-consumo-fantasma — Consumo en espera (standby): cuánta luz gastan los aparatos apagados (LBNL)"
      ],
-     "arreglo": null,
+     "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
      "solo": false,
-     "firma": "8118bbd09178"
+     "firma": "3ffa6b7a80a2"
     },
     {
      "id": "redes",
@@ -358,17 +358,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-13T19:33",
-     "hace": "hace 10 h",
+     "cuando": "2026-11-14T12:33",
+     "hace": "hace 11 h",
      "detalle": [
-      "12/11 19:33 036-apagon-heladera https://youtube.com/shorts/ATzHfKc3ZHo | privacidad: public",
-      "12/11 19:34 036-apagon-heladera paquete para TikTok/YouTube enviado",
-      "13/11 12:32 035-lavandina-vinagre en la bandeja de TikTok",
       "13/11 12:32 035-lavandina-vinagre https://youtube.com/shorts/bWhR1u-sFb4 | privacidad: public",
       "13/11 12:33 035-lavandina-vinagre paquete para TikTok/YouTube enviado",
       "13/11 19:32 037-perro-en-el-auto en la bandeja de TikTok",
       "13/11 19:32 037-perro-en-el-auto https://youtube.com/shorts/awADHE-Gy3A | privacidad: public",
-      "13/11 19:33 037-perro-en-el-auto paquete para TikTok/YouTube enviado"
+      "13/11 19:33 037-perro-en-el-auto paquete para TikTok/YouTube enviado",
+      "14/11 12:32 039-sol-nublado en la bandeja de TikTok",
+      "14/11 12:32 039-sol-nublado https://youtube.com/shorts/1cEHWg4gW4A | privacidad: public",
+      "14/11 12:33 039-sol-nublado paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -391,7 +391,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-07T22:18",
-     "hace": "hace 6 días",
+     "hace": "hace 7 días",
      "detalle": [
       "2026-11-07 07:55 celular-arroz: listo control OK",
       "2026-11-07 19:26 serie-clima-1: publicado https://www.instagram.com/p/DfdQIG8EzTc/",
@@ -425,7 +425,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-07T18:03",
-     "hace": "hace 6 días",
+     "hace": "hace 7 días",
      "detalle": [
       "07/11 03:53 Hay 2 comentarios nuevos: arranca la respuesta.",
       "07/11 00:00 Respondí 2 · salteé 0 · alerté 0. (026-mediodia-hora-corrida: marenzimonica respondida con la explicación del movimiento aparente por la rotación terrestre; davidblaiotta respondido con humor sobre el horario de almuerzo)",
@@ -464,7 +464,7 @@
      "estado": "ok",
      "resumen": "13/11: 910 seguidores",
      "cuando": "2026-11-13T21:00",
-     "hace": "hace 9 h",
+     "hace": "hace 27 h",
      "detalle": [
       "06/11: 425 seguidores",
       "07/11: 511 seguidores",
@@ -495,15 +495,17 @@
        "modo": "vigilar"
       }
      },
-     "estado": "ok",
-     "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-14T06:00",
+     "estado": "falla",
+     "resumen": "No salió la publicación del turno de las 19:30 (14/11).",
+     "cuando": "2026-11-15T00:30",
      "hace": "recién",
-     "detalle": [],
+     "detalle": [
+      "❗ No salió la publicación del turno de las 19:30 (14/11)."
+     ],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "cf3a22f5d39c"
+     "firma": "4ed4e2aceb02"
     },
     {
      "id": "planb",
@@ -632,7 +634,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-07T22:40",
-     "hace": "hace 6 días",
+     "hace": "hace 7 días",
      "detalle": [
       "Uso: 21 pasos · 14,648 tokens nuevos · 855,368 de caché · 7,467 escritos · equivale a US$ 1.07 de API",
       "2026-11-07 22:18 Arranca la producción (5 listos en la cola, meta 6).",
@@ -666,7 +668,7 @@
      "estado": "ok",
      "resumen": "Duodécima pasada del radar: la búsqueda (NWS fin de semana) solo devolvió páginas sin fecha o de 2025/marzo 2026; nada verificable de las últimas 48 h. Descarta",
      "cuando": "2026-11-07T15:10",
-     "hace": "hace 6 días",
+     "hace": "hace 7 días",
      "detalle": [
       "06/11 00:00 Décima pasada del radar: la búsqueda web no devolvió alertas del NWS ni noticias de las últimas 48 h (páginas sin fecha, de abril o de 2025). Descartados: (1) tornado watch en el norte de Georgia: página sin fecha, regional y sin fuente oficial confirmada; (2) superluna del 24/11: todavía lejos; (3) ciencia de la semana: nada de noviembre 2026 en los resúmenes. Sin tema nuevo.",
       "07/11 00:00 Undécima pasada del radar: la búsqueda solo devolvió pronósticos locales y titulares sin detalle. Descartados: (1) El Niño \"más fuerte en una vida\" (AccuWeather): solo titular, sin fuente oficial del día; y en-026-el-nino-winter ya está en cola; (2) tornados raros en Delaware/Long Island: evento regional, riesgo de daños/víctimas, sin confirmar; (3) inundación costera por \"king tide\" en Florida/California: regional, sin fecha ni fuente oficial confirmada. Sin tema nuevo.",
@@ -696,7 +698,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-07T22:40",
-     "hace": "hace 6 días",
+     "hace": "hace 7 días",
      "detalle": [
       "en-022-power-outage-fridge: aprobado — Segundo chequeo. Leida la pagina del CDC (cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html): 'If the doors stay closed, food wi",
       "en-023-package-text: aprobado — Todas las afirmaciones fácticas salen de una única fuente primaria de EE. UU. (FTC Consumer Alert, abril 2025, consumer.ftc.gov) que la pági",
@@ -729,7 +731,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-07T22:40",
-     "hace": "hace 6 días",
+     "hace": "hace 7 días",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -753,7 +755,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-07 22:40.",
      "cuando": "2026-11-07T22:40",
-     "hace": "hace 6 días",
+     "hace": "hace 7 días",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -777,7 +779,7 @@
      "estado": "ok",
      "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-07T22:40",
-     "hace": "hace 6 días",
+     "hace": "hace 7 días",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -799,9 +801,9 @@
       }
      },
      "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 19:30 (13/11).",
+     "resumen": "No salió la publicación del turno de las 19:30 (14/11).",
      "cuando": "2026-11-07T19:35",
-     "hace": "hace 6 días",
+     "hace": "hace 7 días",
      "detalle": [
       "06/11 19:34 en-022-ears-pop en la bandeja de TikTok",
       "06/11 19:34 en-022-ears-pop paquete para TikTok/YouTube enviado",
@@ -819,7 +821,7 @@
      ],
      "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
      "solo": false,
-     "firma": "8c088ba77774"
+     "firma": "6f67757ada70"
     },
     {
      "id": "redes",
@@ -838,7 +840,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-07T19:35",
-     "hace": "hace 6 días",
+     "hace": "hace 7 días",
      "detalle": [
       "06/11 12:35 en-021-other-line en la bandeja de TikTok",
       "06/11 12:35 en-021-other-line paquete para TikTok/YouTube enviado",
@@ -873,7 +875,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:16",
-     "hace": "hace 11 días",
+     "hace": "hace 12 días",
      "detalle": [
       "01/11 18:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
@@ -940,16 +942,16 @@
       }
      },
      "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 19:30 (13/11).",
-     "cuando": "2026-11-14T06:00",
+     "resumen": "No salió la publicación del turno de las 19:30 (14/11).",
+     "cuando": "2026-11-15T00:30",
      "hace": "recién",
      "detalle": [
-      "❗ No salió la publicación del turno de las 19:30 (13/11)."
+      "❗ No salió la publicación del turno de las 19:30 (14/11)."
      ],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "f621cc1f9d75"
+     "firma": "6a1dabed51a7"
     }
    ]
   }

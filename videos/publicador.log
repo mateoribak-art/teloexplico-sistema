@@ -275,3 +275,15 @@ portada: ok
 2026-11-13 19:32 037-perro-en-el-auto https://youtube.com/shorts/awADHE-Gy3A | privacidad: public
 portada: ok
 2026-11-13 19:33 037-perro-en-el-auto paquete para TikTok/YouTube enviado
+2026-11-14 12:31 039-sol-nublado publicado: https://www.instagram.com/reel/DfuiB7Qj6ua/
+2026-11-14 12:31 039-sol-nublado publicado en Facebook: https://www.facebook.com/reel/1109900068528516/
+2026-11-14 12:32 039-sol-nublado en la bandeja de TikTok
+2026-11-14 12:32 039-sol-nublado https://youtube.com/shorts/1cEHWg4gW4A | privacidad: public
+portada: ok
+2026-11-14 12:33 039-sol-nublado paquete para TikTok/YouTube enviado
+2026-11-14 20:11 040-consumo-fantasma ERROR al publicar: n312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mateo\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
