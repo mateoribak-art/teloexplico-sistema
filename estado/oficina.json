@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T17:10",
+ "actualizado": "2026-11-16T00:30",
  "oficinas": [
   {
    "clave": "es",
@@ -7,15 +7,20 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 910,
-   "listos": 6,
-   "dias": 3.0,
-   "proximo": "040-consumo-fantasma",
-   "publicados": 42,
+   "listos": 5,
+   "dias": 2.5,
+   "proximo": "041-celular-arroz-v2",
+   "publicados": 43,
    "pausa": false,
    "pendientes": [
     "Facu (TikTok, YouTube y Telegram): En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram."
    ],
    "ultimas": [
+    {
+     "slug": "040-consumo-fantasma",
+     "link": "https://www.instagram.com/reel/Dfx23nSFKOO/",
+     "cuando": "2026-11-15T22:30"
+    },
     {
      "slug": "039-sol-nublado",
      "link": "https://www.instagram.com/reel/DfuiB7Qj6ua/",
@@ -35,11 +40,6 @@
      "slug": "036-apagon-heladera",
      "link": "https://www.instagram.com/reel/DfqIlLIgF7s/",
      "cuando": "2026-11-12T22:31"
-    },
-    {
-     "slug": "034-arroz-recalentado",
-     "link": "https://www.instagram.com/reel/DfpYb13HENe/",
-     "cuando": "2026-11-12T15:31"
     }
    ],
    "linea": [
@@ -56,13 +56,6 @@
      "estado": "render",
      "cuando": "2026-11-13T10:04",
      "motivo": "escenas 3D listas"
-    },
-    {
-     "slug": "040-consumo-fantasma",
-     "tema": "Consumo en espera (standby): cuánta luz gastan los aparatos apagados (LBNL)",
-     "estado": "listo",
-     "cuando": "2026-11-06T09:13",
-     "motivo": "render sin Claude"
     },
     {
      "slug": "041-celular-arroz-v2",
@@ -86,11 +79,18 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "039-sol-nublado",
-     "tema": "Protector solar con el cielo nublado: la radiación UV puede ser alta igual (OMS, CDC; índice UV 3 o más)",
+     "slug": "047-paquete-retenido",
+     "tema": "Estafa del paquete retenido: te piden pagar una tasa por link (WeLiveSecurity 2026, Chequeado)",
+     "estado": "listo",
+     "cuando": "2026-11-07T17:00",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "040-consumo-fantasma",
+     "tema": "Consumo en espera (standby): cuánta luz gastan los aparatos apagados (LBNL)",
      "estado": "publicado",
-     "cuando": "2026-11-14T12:31",
-     "motivo": "https://www.instagram.com/reel/DfuiB7Qj6ua/"
+     "cuando": "2026-11-15T19:31",
+     "motivo": "https://www.instagram.com/reel/Dfx23nSFKOO/"
     },
     {
      "slug": "043-feriados-visita",
@@ -176,7 +176,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. HAY TEMA: hoy es viernes 13. Giro propio verificado: en los países anglosajones el día de mala suerte es el viernes 13, pero en Argentina/España",
      "cuando": "2026-11-13T00:00",
-     "hace": "hace 2 días",
+     "hace": "hace 3 días",
      "detalle": [
       "07/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): sin resultados fechados de hoy verificables. Descartados: (a) alerta amarilla tormentas/granizo en BA y 65 localidades (c5n, sin año verificable; granizo ya tiene 005/024), (b) alertas en el norte \"jueves 7\" (es de otro año), (c) reforma laboral/CGT (política, no encaja). Sin tema verificable; sigue la cola normal.",
       "12/11 00:00 | Revisión radar. Búsquedas web (alertas SMN + clima/tendencias/astronomía, todo fechado HOY 12-nov). HAY TEMA: primer calor fuerte de la temporada en AMBA (30-32°C, día más caluroso de la semana; fuentes del día: Perfil, Canal26, Infobae, Examedia 12-nov). Ángulo propio con giro verificado: el primer calor del año pega más fuerte porque el cuerpo NO está aclimatado (NIOSH: 50-70% de muertes por calor en trabajadores ocurren en los primeros días; aclimatación tarda 1-2 semanas; meteored/tiempo.com). Distinto de 048-golpe-de-calor (síntomas/qué hacer) y de 019/008/009 (sensación térmica/aire/ventilador). ELEGIDO. Slug: 049-primer-calor-aclimatacion (--actualidad). Descartados: (a) alerta amarilla tormentas/granizo en 6 provincias (Salta, Jujuy, BA, Río Negro, La Pampa, Chubut) -> no pega en CABA hoy y granizo/tormenta/sensación térmica ya cubiertos (005/024/018/019); (b) Leónidas (pico 17-18 nov) y superluna de Castor (24 nov) -> fechas cercanas buenas pero NO se viven hoy y el pico cae fuera de la ventana de 48h; guardar para producir ~15-16 nov; (c) Marte-Júpiter / Venus máximo brillo -> nicho astronómico.",
@@ -213,8 +213,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-14T12:31",
-     "hace": "hace 28 h",
+     "cuando": "2026-11-15T19:31",
+     "hace": "hace 4 h",
      "detalle": [
       "043-feriados-visita: aprobado — Segunda revisión (6/11/2026). Las dos correcciones del primer chequeo están bien resueltas: 'dónde trabajes' coincide con lo que Chequeado r",
       "044-misa-fabrica-aviones: aprobado — Segunda pasada con búsqueda web y WebFetch. La atribución al Ministerio de Defensa existe: la página oficial argentina.gob.ar/defensa/gestio",
@@ -246,8 +246,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-14T12:31",
-     "hace": "hace 28 h",
+     "cuando": "2026-11-15T19:31",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -270,8 +270,8 @@
      },
      "estado": "trabajando",
      "resumen": "2 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
-     "cuando": "2026-11-14T12:31",
-     "hace": "hace 28 h",
+     "cuando": "2026-11-15T19:31",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [
       "049-primer-calor-aclimatacion",
@@ -296,14 +296,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-14T12:31",
-     "hace": "hace 28 h",
+     "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-15T19:31",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "7c6db386edd3"
+     "firma": "ed651a2c8e2f"
     },
     {
      "id": "publicador",
@@ -319,28 +319,28 @@
        "cuenta": "es"
       }
      },
-     "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 12:30 (15/11).",
-     "cuando": "2026-11-14T20:11",
-     "hace": "hace 20 h",
+     "estado": "ok",
+     "resumen": "Último: 040-consumo-fantasma.",
+     "cuando": "2026-11-15T19:32",
+     "hace": "hace 4 h",
      "detalle": [
-      "13/11 19:32 037-perro-en-el-auto publicado en Facebook: https://www.facebook.com/reel/29238780389096044/",
-      "13/11 19:32 037-perro-en-el-auto en la bandeja de TikTok",
-      "13/11 19:32 037-perro-en-el-auto https://youtube.com/shorts/awADHE-Gy3A | privacidad: public",
-      "13/11 19:33 037-perro-en-el-auto paquete para TikTok/YouTube enviado",
-      "14/11 12:31 039-sol-nublado publicado: https://www.instagram.com/reel/DfuiB7Qj6ua/",
       "14/11 12:31 039-sol-nublado publicado en Facebook: https://www.facebook.com/reel/1109900068528516/",
       "14/11 12:32 039-sol-nublado en la bandeja de TikTok",
       "14/11 12:32 039-sol-nublado https://youtube.com/shorts/1cEHWg4gW4A | privacidad: public",
       "14/11 12:33 039-sol-nublado paquete para TikTok/YouTube enviado",
-      "14/11 20:11 040-consumo-fantasma ERROR al publicar: n312\\Lib\\http\\client.py\", line 331, in begin"
+      "14/11 20:11 040-consumo-fantasma ERROR al publicar: n312\\Lib\\http\\client.py\", line 331, in begin",
+      "15/11 19:31 040-consumo-fantasma publicado: https://www.instagram.com/reel/Dfx23nSFKOO/",
+      "15/11 19:31 040-consumo-fantasma publicado en Facebook: https://www.facebook.com/reel/4019081878387991/",
+      "15/11 19:32 040-consumo-fantasma en la bandeja de TikTok",
+      "15/11 19:32 040-consumo-fantasma https://youtube.com/shorts/-ihgpfG8JlA | privacidad: public",
+      "15/11 19:32 040-consumo-fantasma paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: 040-consumo-fantasma — Consumo en espera (standby): cuánta luz gastan los aparatos apagados (LBNL)"
+      "Próximo: 041-celular-arroz-v2 — REHACER celular mojado y arroz (Apple dice que no), guion corto sin susurro (pedido de Mateo 6/11)"
      ],
-     "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
+     "arreglo": null,
      "solo": false,
-     "firma": "292f7afa48fb"
+     "firma": "b561b8f0f996"
     },
     {
      "id": "redes",
@@ -358,17 +358,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-14T12:33",
-     "hace": "hace 28 h",
+     "cuando": "2026-11-15T19:32",
+     "hace": "hace 4 h",
      "detalle": [
-      "13/11 12:32 035-lavandina-vinagre https://youtube.com/shorts/bWhR1u-sFb4 | privacidad: public",
-      "13/11 12:33 035-lavandina-vinagre paquete para TikTok/YouTube enviado",
-      "13/11 19:32 037-perro-en-el-auto en la bandeja de TikTok",
       "13/11 19:32 037-perro-en-el-auto https://youtube.com/shorts/awADHE-Gy3A | privacidad: public",
       "13/11 19:33 037-perro-en-el-auto paquete para TikTok/YouTube enviado",
       "14/11 12:32 039-sol-nublado en la bandeja de TikTok",
       "14/11 12:32 039-sol-nublado https://youtube.com/shorts/1cEHWg4gW4A | privacidad: public",
-      "14/11 12:33 039-sol-nublado paquete para TikTok/YouTube enviado"
+      "14/11 12:33 039-sol-nublado paquete para TikTok/YouTube enviado",
+      "15/11 19:32 040-consumo-fantasma en la bandeja de TikTok",
+      "15/11 19:32 040-consumo-fantasma https://youtube.com/shorts/-ihgpfG8JlA | privacidad: public",
+      "15/11 19:32 040-consumo-fantasma paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -391,7 +391,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-07T22:18",
-     "hace": "hace 7 días",
+     "hace": "hace 8 días",
      "detalle": [
       "2026-11-07 07:55 celular-arroz: listo control OK",
       "2026-11-07 19:26 serie-clima-1: publicado https://www.instagram.com/p/DfdQIG8EzTc/",
@@ -425,7 +425,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-07T18:03",
-     "hace": "hace 7 días",
+     "hace": "hace 8 días",
      "detalle": [
       "07/11 03:53 Hay 2 comentarios nuevos: arranca la respuesta.",
       "07/11 00:00 Respondí 2 · salteé 0 · alerté 0. (026-mediodia-hora-corrida: marenzimonica respondida con la explicación del movimiento aparente por la rotación terrestre; davidblaiotta respondido con humor sobre el horario de almuerzo)",
@@ -464,7 +464,7 @@
      "estado": "aviso",
      "resumen": "Las métricas tienen más de un día.",
      "cuando": "2026-11-13T21:00",
-     "hace": "hace 44 h",
+     "hace": "hace 2 días",
      "detalle": [
       "06/11: 425 seguidores",
       "07/11: 511 seguidores",
@@ -495,17 +495,15 @@
        "modo": "vigilar"
       }
      },
-     "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 12:30 (15/11).",
-     "cuando": "2026-11-15T17:10",
+     "estado": "ok",
+     "resumen": "Todo en orden ✓",
+     "cuando": "2026-11-16T00:30",
      "hace": "recién",
-     "detalle": [
-      "❗ No salió la publicación del turno de las 12:30 (15/11)."
-     ],
+     "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "df5ed251a2b2"
+     "firma": "cf3a22f5d39c"
     },
     {
      "id": "planb",
@@ -634,7 +632,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-07T22:40",
-     "hace": "hace 7 días",
+     "hace": "hace 8 días",
      "detalle": [
       "Uso: 21 pasos · 14,648 tokens nuevos · 855,368 de caché · 7,467 escritos · equivale a US$ 1.07 de API",
       "2026-11-07 22:18 Arranca la producción (5 listos en la cola, meta 6).",
@@ -698,7 +696,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-07T22:40",
-     "hace": "hace 7 días",
+     "hace": "hace 8 días",
      "detalle": [
       "en-022-power-outage-fridge: aprobado — Segundo chequeo. Leida la pagina del CDC (cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html): 'If the doors stay closed, food wi",
       "en-023-package-text: aprobado — Todas las afirmaciones fácticas salen de una única fuente primaria de EE. UU. (FTC Consumer Alert, abril 2025, consumer.ftc.gov) que la pági",
@@ -731,7 +729,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-07T22:40",
-     "hace": "hace 7 días",
+     "hace": "hace 8 días",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -755,7 +753,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-07 22:40.",
      "cuando": "2026-11-07T22:40",
-     "hace": "hace 7 días",
+     "hace": "hace 8 días",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -779,7 +777,7 @@
      "estado": "ok",
      "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-07T22:40",
-     "hace": "hace 7 días",
+     "hace": "hace 8 días",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -801,9 +799,9 @@
       }
      },
      "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 12:30 (15/11).",
+     "resumen": "No salió la publicación del turno de las 19:30 (15/11).",
      "cuando": "2026-11-07T19:35",
-     "hace": "hace 7 días",
+     "hace": "hace 8 días",
      "detalle": [
       "06/11 19:34 en-022-ears-pop en la bandeja de TikTok",
       "06/11 19:34 en-022-ears-pop paquete para TikTok/YouTube enviado",
@@ -821,7 +819,7 @@
      ],
      "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
      "solo": false,
-     "firma": "e8af1f620234"
+     "firma": "2fdf248a9b09"
     },
     {
      "id": "redes",
@@ -840,7 +838,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-07T19:35",
-     "hace": "hace 7 días",
+     "hace": "hace 8 días",
      "detalle": [
       "06/11 12:35 en-021-other-line en la bandeja de TikTok",
       "06/11 12:35 en-021-other-line paquete para TikTok/YouTube enviado",
@@ -875,7 +873,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:16",
-     "hace": "hace 12 días",
+     "hace": "hace 13 días",
      "detalle": [
       "01/11 18:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
@@ -942,16 +940,16 @@
       }
      },
      "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 12:30 (15/11).",
-     "cuando": "2026-11-15T17:10",
+     "resumen": "No salió la publicación del turno de las 19:30 (15/11).",
+     "cuando": "2026-11-16T00:30",
      "hace": "recién",
      "detalle": [
-      "❗ No salió la publicación del turno de las 12:30 (15/11)."
+      "❗ No salió la publicación del turno de las 19:30 (15/11)."
      ],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "12b82f9132f1"
+     "firma": "71580e10c725"
     }
    ]
   }
