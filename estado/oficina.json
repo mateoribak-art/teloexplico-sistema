@@ -1,12 +1,12 @@
 {
- "actualizado": "2026-11-16T00:30",
+ "actualizado": "2026-11-16T06:00",
  "oficinas": [
   {
    "clave": "es",
    "usuario": "teloexplico.ar",
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
-   "seguidores": 910,
+   "seguidores": 946,
    "listos": 5,
    "dias": 2.5,
    "proximo": "041-celular-arroz-v2",
@@ -214,7 +214,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-15T19:31",
-     "hace": "hace 4 h",
+     "hace": "hace 10 h",
      "detalle": [
       "043-feriados-visita: aprobado — Segunda revisión (6/11/2026). Las dos correcciones del primer chequeo están bien resueltas: 'dónde trabajes' coincide con lo que Chequeado r",
       "044-misa-fabrica-aviones: aprobado — Segunda pasada con búsqueda web y WebFetch. La atribución al Ministerio de Defensa existe: la página oficial argentina.gob.ar/defensa/gestio",
@@ -247,7 +247,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-15T19:31",
-     "hace": "hace 4 h",
+     "hace": "hace 10 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -271,7 +271,7 @@
      "estado": "trabajando",
      "resumen": "2 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
      "cuando": "2026-11-15T19:31",
-     "hace": "hace 4 h",
+     "hace": "hace 10 h",
      "detalle": [],
      "tareas": [
       "049-primer-calor-aclimatacion",
@@ -298,7 +298,7 @@
      "estado": "ok",
      "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-15T19:31",
-     "hace": "hace 4 h",
+     "hace": "hace 10 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -322,7 +322,7 @@
      "estado": "ok",
      "resumen": "Último: 040-consumo-fantasma.",
      "cuando": "2026-11-15T19:32",
-     "hace": "hace 4 h",
+     "hace": "hace 10 h",
      "detalle": [
       "14/11 12:31 039-sol-nublado publicado en Facebook: https://www.facebook.com/reel/1109900068528516/",
       "14/11 12:32 039-sol-nublado en la bandeja de TikTok",
@@ -359,7 +359,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-15T19:32",
-     "hace": "hace 4 h",
+     "hace": "hace 10 h",
      "detalle": [
       "13/11 19:32 037-perro-en-el-auto https://youtube.com/shorts/awADHE-Gy3A | privacidad: public",
       "13/11 19:33 037-perro-en-el-auto paquete para TikTok/YouTube enviado",
@@ -461,26 +461,26 @@
        "modo": "resumen"
       }
      },
-     "estado": "aviso",
-     "resumen": "Las métricas tienen más de un día.",
-     "cuando": "2026-11-13T21:00",
-     "hace": "hace 2 días",
+     "estado": "ok",
+     "resumen": "16/11: 946 seguidores",
+     "cuando": "2026-11-16T00:36",
+     "hace": "hace 5 h",
      "detalle": [
-      "06/11: 425 seguidores",
       "07/11: 511 seguidores",
       "11/11: 859 seguidores",
-      "13/11: 910 seguidores"
+      "13/11: 910 seguidores",
+      "16/11: 946 seguidores"
      ],
      "tareas": [
-      "001-heladera: 154.165 vistas · 6598 enviados · 3147 ♥",
-      "026-mediodia-hora-corrida: 139.289 vistas · 451 enviados · 2571 ♥",
-      "007-bts-13-anios: 29.796 vistas · 608 enviados · 2933 ♥",
-      "006-army-bomb: 8.603 vistas · 55 enviados · 549 ♥",
-      "003-vuelta-carne: 4.707 vistas · 29 enviados · 99 ♥"
+      "001-heladera: 156.146 vistas · 6759 enviados · 3209 ♥",
+      "026-mediodia-hora-corrida: 145.415 vistas · 457 enviados · 2654 ♥",
+      "007-bts-13-anios: 29.868 vistas · 610 enviados · 2944 ♥",
+      "006-army-bomb: 8.613 vistas · 55 enviados · 550 ♥",
+      "003-vuelta-carne: 4.712 vistas · 29 enviados · 99 ♥"
      ],
-     "arreglo": "¿Vencido el token de Meta? Relanzá el resumen y mirá si falla.",
+     "arreglo": null,
      "solo": false,
-     "firma": "1f01b26b7eea"
+     "firma": "fa1a46b8e7ab"
     },
     {
      "id": "vigilante",
@@ -497,7 +497,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-16T00:30",
+     "cuando": "2026-11-16T06:00",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -908,7 +908,7 @@
      "estado": "aviso",
      "resumen": "Las métricas tienen más de un día.",
      "cuando": "2026-11-07T02:50",
-     "hace": "hace 8 días",
+     "hace": "hace 9 días",
      "detalle": [
       "04/11: 3 seguidores",
       "05/11: 3 seguidores",
@@ -941,7 +941,7 @@
      },
      "estado": "falla",
      "resumen": "No salió la publicación del turno de las 19:30 (15/11).",
-     "cuando": "2026-11-16T00:30",
+     "cuando": "2026-11-16T06:00",
      "hace": "recién",
      "detalle": [
       "❗ No salió la publicación del turno de las 19:30 (15/11)."
