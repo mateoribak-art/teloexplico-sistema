@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T00:34",
+ "actualizado": "2026-11-17T06:00",
  "oficinas": [
   {
    "clave": "es",
@@ -124,13 +124,14 @@
      },
      "estado": "aviso",
      "resumen": "Claude se quedó sin cuota: se reintenta sola en el próximo turno.",
-     "cuando": "2026-11-17T00:34",
-     "hace": "recién",
+     "cuando": "2026-11-17T00:37",
+     "hace": "hace 5 h",
      "detalle": [
       "2026-11-17 00:31 Arranca la producción (4 listos en la cola, meta 6).",
       "You've hit your session limit · resets 4:40am (America/Buenos_Aires)",
       "2026-11-17 00:34 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en la próxima corrida.",
-      "2026-11-17 00:34 Termina la producción (código 1)."
+      "2026-11-17 00:34 Termina la producción (código 1).",
+      "2026-11-17 00:37 Sincronización: sincronizado"
      ],
      "tareas": [
       "049-primer-calor-aclimatacion — ¿Por qué el primer calor del año te pega más fuerte? Tu cuerpo todavía no está aclimatado (NIOSH)",
@@ -225,7 +226,7 @@
      "estado": "ok",
      "resumen": "Aprobó 7 de los últimos 7 guiones.",
      "cuando": "2026-11-16T12:31",
-     "hace": "hace 12 h",
+     "hace": "hace 17 h",
      "detalle": [
       "044-misa-fabrica-aviones: aprobado — Segunda pasada con búsqueda web y WebFetch. La atribución al Ministerio de Defensa existe: la página oficial argentina.gob.ar/defensa/gestio",
       "045-una-sola-tabla: aprobado — Todas las afirmaciones de seguridad alimentaria quedan verificadas contra USDA FSIS (texto archivado: 'use one cutting board for fresh produ",
@@ -257,7 +258,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-16T12:31",
-     "hace": "hace 12 h",
+     "hace": "hace 17 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -281,7 +282,7 @@
      "estado": "trabajando",
      "resumen": "2 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
      "cuando": "2026-11-16T12:31",
-     "hace": "hace 12 h",
+     "hace": "hace 17 h",
      "detalle": [],
      "tareas": [
       "049-primer-calor-aclimatacion",
@@ -308,7 +309,7 @@
      "estado": "ok",
      "resumen": "4 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-16T12:31",
-     "hace": "hace 12 h",
+     "hace": "hace 17 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -332,7 +333,7 @@
      "estado": "falla",
      "resumen": "No salió la publicación del turno de las 19:30 (16/11).",
      "cuando": "2026-11-16T12:31",
-     "hace": "hace 12 h",
+     "hace": "hace 17 h",
      "detalle": [
       "14/11 12:32 039-sol-nublado en la bandeja de TikTok",
       "14/11 12:32 039-sol-nublado https://youtube.com/shorts/1cEHWg4gW4A | privacidad: public",
@@ -369,7 +370,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-15T19:32",
-     "hace": "hace 29 h",
+     "hace": "hace 34 h",
      "detalle": [
       "13/11 19:32 037-perro-en-el-auto https://youtube.com/shorts/awADHE-Gy3A | privacidad: public",
       "13/11 19:33 037-perro-en-el-auto paquete para TikTok/YouTube enviado",
@@ -474,7 +475,7 @@
      "estado": "ok",
      "resumen": "16/11: 946 seguidores",
      "cuando": "2026-11-16T00:36",
-     "hace": "hace 23 h",
+     "hace": "hace 29 h",
      "detalle": [
       "07/11: 511 seguidores",
       "11/11: 859 seguidores",
@@ -507,7 +508,7 @@
      },
      "estado": "falla",
      "resumen": "No salió la publicación del turno de las 19:30 (16/11).",
-     "cuando": "2026-11-17T00:34",
+     "cuando": "2026-11-17T06:00",
      "hace": "recién",
      "detalle": [
       "❗ No salió la publicación del turno de las 19:30 (16/11).",
@@ -921,7 +922,7 @@
      "estado": "aviso",
      "resumen": "Las métricas tienen más de un día.",
      "cuando": "2026-11-07T02:50",
-     "hace": "hace 9 días",
+     "hace": "hace 10 días",
      "detalle": [
       "04/11: 3 seguidores",
       "05/11: 3 seguidores",
@@ -954,7 +955,7 @@
      },
      "estado": "falla",
      "resumen": "No salió la publicación del turno de las 19:30 (16/11).",
-     "cuando": "2026-11-17T00:34",
+     "cuando": "2026-11-17T06:00",
      "hace": "recién",
      "detalle": [
       "❗ No salió la publicación del turno de las 19:30 (16/11)."
