@@ -1,0 +1,26 @@
+{
+  "titulo": "Lluvia de estrellas Leónidas: la estrella fugaz no es una estrella, es polvo de cometa",
+  "fondo": "oscuro",
+  "receta": "acusado equivocado (no es una estrella, es basura de un cometa)",
+  "pilar": "actualidad",
+  "serie": "ciencia",
+  "destinatario": "se lo manda el que esta madrugada sale a mirar el cielo, al amigo que dice 'mirá, cayó una estrella' y pide un deseo",
+  "regla_guardable": "esta madrugada, de dos y media a cinco, mirá al noreste: lo que ves no es una estrella, es polvo de cometa a 71 km/s",
+  "fuentes": [
+    "NASA Science - Meteors & Meteor Showers (ciencia de meteoros: polvo de cometa, se queman en la atmósfera)",
+    "NASA JPL / Space.com - Leonid meteor shower facts (tamaño: de grano de arena a arveja; velocidad 71 km/s; cometa Tempel-Tuttle, órbita de 33 años)",
+    "Natural History Museum (Londres) - Leonids 2026 (71 km/s, los más rápidos; pico madrugada 17-18 nov; ~15 por hora)"
+  ],
+  "frases": [
+    {"texto": "Esta madrugada caen estrellas fugaces. Y no vas a ver ninguna estrella.", "estilo": "Intriga, afirmado. Ritmo y una pausa antes de 'ninguna estrella'."},
+    {"texto": "Lo que se prende ahí arriba es basura de un cometa.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Son las Leónidas: la Tierra cruza el polvo que dejó un cometa.", "estilo": "Didáctico, tranquilo."},
+    {"texto": "Cada estrella fugaz es un granito: de un grano de arena a una arveja.", "estilo": "Revelación, bajando a algo chiquito."},
+    {"texto": "¿Por qué brilla tanto algo tan chico? No es por grande, es por rápido.", "estilo": "Pregunta y golpe. Marcá 'rápido'."},
+    {"texto": "Entra al aire a setenta y un kilómetros por segundo, raspa y se enciende.", "estilo": "Rápido, con energía."},
+    {"texto": "Se pone al rojo vivo y se desintegra allá arriba, sin tocar el piso.", "estilo": "Cerrando la idea, claro."},
+    {"texto": "De dos y media a cinco, mirá al noreste, lejos de las luces.", "estilo": "Consejo práctico, cómplice."},
+    {"texto": "Ojo: no es un diluvio; con cielo limpio, unas quince por hora.", "estilo": "Matiz honesto, bajando expectativa sin bajar el volumen."},
+    {"texto": "Mandáselo al que pide un deseo creyendo que le cae una estrella.", "estilo": "Cómplice, con humor."}
+  ]
+}
