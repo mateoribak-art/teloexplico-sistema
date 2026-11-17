@@ -1616,7 +1616,7 @@
  {
   "slug": "041-celular-arroz-v2",
   "tema": "REHACER celular mojado y arroz (Apple dice que no), guion corto sin susurro (pedido de Mateo 6/11)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1637,6 +1637,11 @@
     "estado": "listo",
     "cuando": "2026-11-06T14:06",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-16T12:31",
+    "motivo": "https://www.instagram.com/reel/DfzrpFUCoej/"
    }
   ]
  },
