@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T00:30",
+ "actualizado": "2026-11-18T06:00",
  "oficinas": [
   {
    "clave": "es",
@@ -118,7 +118,7 @@
      "estado": "falla",
      "resumen": "El último turno arrancó y nunca terminó (¿se cortó la máquina?).",
      "cuando": "2026-11-17T09:53",
-     "hace": "hace 14 h",
+     "hace": "hace 20 h",
      "detalle": [
       "2026-11-17 09:53 Arranca la producción (4 listos en la cola, meta 6)."
      ],
@@ -178,7 +178,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. HAY TEMA (ya en cola de una corrida previa): lluvia de estrellas Leónidas, pico madrugada 17-18 nov (NASA, Natural History Museum Londres). Ángu",
      "cuando": "2026-11-17T00:00",
-     "hace": "hace 24 h",
+     "hace": "hace 30 h",
      "detalle": [
       "12/11 00:00 | Revisión radar. Búsquedas web (alertas SMN + clima/tendencias/astronomía, todo fechado HOY 12-nov). HAY TEMA: primer calor fuerte de la temporada en AMBA (30-32°C, día más caluroso de la semana; fuentes del día: Perfil, Canal26, Infobae, Examedia 12-nov). Ángulo propio con giro verificado: el primer calor del año pega más fuerte porque el cuerpo NO está aclimatado (NIOSH: 50-70% de muertes por calor en trabajadores ocurren en los primeros días; aclimatación tarda 1-2 semanas; meteored/tiempo.com). Distinto de 048-golpe-de-calor (síntomas/qué hacer) y de 019/008/009 (sensación térmica/aire/ventilador). ELEGIDO. Slug: 049-primer-calor-aclimatacion (--actualidad). Descartados: (a) alerta amarilla tormentas/granizo en 6 provincias (Salta, Jujuy, BA, Río Negro, La Pampa, Chubut) -> no pega en CABA hoy y granizo/tormenta/sensación térmica ya cubiertos (005/024/018/019); (b) Leónidas (pico 17-18 nov) y superluna de Castor (24 nov) -> fechas cercanas buenas pero NO se viven hoy y el pico cae fuera de la ventana de 48h; guardar para producir ~15-16 nov; (c) Marte-Júpiter / Venus máximo brillo -> nicho astronómico.",
       "13/11 00:00 | Revisión radar. HAY TEMA: hoy es viernes 13. Giro propio verificado: en los países anglosajones el día de mala suerte es el viernes 13, pero en Argentina/España/Grecia es el MARTES 13; tan así que la peli \"Friday the 13th\" (1980) se estrenó acá como \"Martes 13\" (Wikipedia/IMDb). Orígenes: viernes 13 = Última Cena + Templarios; martes 13 = Marte, dios de la guerra. Fuentes del día: Los Andes, La Nación, National Geographic Historia. ELEGIDO. Slug: 050-martes-13-no-viernes (--actualidad, serie costumbres). Descartados: (a) alerta NARANJA por tormentas severas/granizo/ráfagas 90 km/h en BA oeste, Córdoba sur, La Pampa, Río Negro, Chubut (SMN hoy) -> AMBA queda afuera hoy y granizo/tormenta/refresca ya cubiertos (005/024/018); (b) Leónidas (pico 17-18 nov) -> todavía no se vive, guardar ~15-16 nov.",
@@ -217,7 +217,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-17T19:32",
-     "hace": "hace 4 h",
+     "hace": "hace 10 h",
      "detalle": [
       "045-una-sola-tabla: aprobado — Todas las afirmaciones de seguridad alimentaria quedan verificadas contra USDA FSIS (texto archivado: 'use one cutting board for fresh produ",
       "046-perro-no-comas: aprobado — Todas las afirmaciones de salud (chocolate, uvas/pasas, cebolla/ajo/cebollín, consulta al veterinario) están respaldadas por la página de la",
@@ -250,7 +250,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-17T19:32",
-     "hace": "hace 4 h",
+     "hace": "hace 10 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -274,7 +274,7 @@
      "estado": "trabajando",
      "resumen": "4 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
      "cuando": "2026-11-17T19:32",
-     "hace": "hace 4 h",
+     "hace": "hace 10 h",
      "detalle": [],
      "tareas": [
       "049-primer-calor-aclimatacion",
@@ -303,7 +303,7 @@
      "estado": "ok",
      "resumen": "2 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-17T19:32",
-     "hace": "hace 4 h",
+     "hace": "hace 10 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -327,7 +327,7 @@
      "estado": "ok",
      "resumen": "Último: 046-perro-no-comas.",
      "cuando": "2026-11-17T19:34",
-     "hace": "hace 4 h",
+     "hace": "hace 10 h",
      "detalle": [
       "17/11 12:31 045-una-sola-tabla publicado: https://www.instagram.com/reel/Df2QZqAgEVe/",
       "17/11 12:31 045-una-sola-tabla publicado en Facebook: https://www.facebook.com/reel/4269244040034662/",
@@ -364,7 +364,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-17T19:34",
-     "hace": "hace 4 h",
+     "hace": "hace 10 h",
      "detalle": [
       "15/11 19:32 040-consumo-fantasma https://youtube.com/shorts/-ihgpfG8JlA | privacidad: public",
       "15/11 19:32 040-consumo-fantasma paquete para TikTok/YouTube enviado",
@@ -469,7 +469,7 @@
      "estado": "ok",
      "resumen": "17/11: 981 seguidores",
      "cuando": "2026-11-17T21:00",
-     "hace": "hace 3 h",
+     "hace": "hace 9 h",
      "detalle": [
       "11/11: 859 seguidores",
       "13/11: 910 seguidores",
@@ -502,7 +502,7 @@
      },
      "estado": "falla",
      "resumen": "La producción nocturna (noche_2026-11-17.log) no terminó bien.",
-     "cuando": "2026-11-18T00:30",
+     "cuando": "2026-11-18T06:00",
      "hace": "recién",
      "detalle": [
       "⚠️ Quedan 2 videos listos: alcanza para 1 día(s).",
@@ -916,7 +916,7 @@
      "estado": "aviso",
      "resumen": "Las métricas tienen más de un día.",
      "cuando": "2026-11-07T02:50",
-     "hace": "hace 10 días",
+     "hace": "hace 11 días",
      "detalle": [
       "04/11: 3 seguidores",
       "05/11: 3 seguidores",
@@ -949,7 +949,7 @@
      },
      "estado": "falla",
      "resumen": "No salió la publicación del turno de las 19:30 (17/11).",
-     "cuando": "2026-11-18T00:30",
+     "cuando": "2026-11-18T06:00",
      "hace": "recién",
      "detalle": [
       "❗ No salió la publicación del turno de las 19:30 (17/11)."
