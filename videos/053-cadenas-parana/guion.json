@@ -1,0 +1,28 @@
+{
+  "titulo": "Día de la Soberanía: el día que cerramos un río con cadenas (Vuelta de Obligado, 1845)",
+  "destinatario": "se lo manda el que arranca el finde largo al amigo que cree que el 20 de noviembre es solo un día libre, para contarle qué se festeja de verdad",
+  "regla_guardable": "El 20 de noviembre es el Día de la Soberanía: en 1845 cruzaron el Paraná con tres cadenas para frenar a dos de las flotas más poderosas del mundo",
+  "pilar": "argentina",
+  "receta": "actualidad argentina: arranca el finde largo y nadie sabe qué se festeja; dato histórico que sorprende con imagen grande",
+  "fondo": "oscuro",
+  "serie": "argentina",
+  "fuentes": [
+    "Canal 26 (2/11/2026): tres cadenas sostenidas sobre 24 lanchones; el Paraná se angosta a unos 700 m en la Vuelta de Obligado",
+    "Infobae (20/11/2024): tres filas de cadenas, 20 cañones, 20 de noviembre de 1845, Confederación Argentina vs. Gran Bretaña y Francia",
+    "La Nación (20/11/2025): la barrera de cadenas en la Vuelta de Obligado",
+    "Wikipedia (es/en): Batalla de la Vuelta de Obligado, 20 de noviembre de 1845; la flota rompió las cadenas y pasó, pero el bloqueo fracasó y los tratados posteriores reconocieron la soberanía argentina sobre los ríos interiores",
+    "Ley 27.399 / Día de la Soberanía Nacional: se conmemora el 20 de noviembre"
+  ],
+  "frases": [
+    { "texto": "Tenés finde largo y no sabés bien qué se festeja.", "estilo": "Directo y cómplice, como arrancando una charla." },
+    { "texto": "Se festeja el día que cerramos un río con cadenas.", "estilo": "Seco y contundente, con media sonrisa." },
+    { "texto": "Mil ochocientos cuarenta y cinco: dos flotas poderosísimas quieren subir por el Paraná a la fuerza.", "estilo": "Narrador, armando la escena." },
+    { "texto": "En una curva cerca de San Pedro, el río se angosta a setecientos metros.", "estilo": "Mostrando el dato, con ritmo." },
+    { "texto": "Ahí cruzamos tres cadenas de hierro de orilla a orilla, colgadas de veinticuatro barcos.", "estilo": "Con asombro, subiendo la tensión." },
+    { "texto": "Y arriba de la barranca, veinte cañones esperando.", "estilo": "Golpe corto." },
+    { "texto": "Ojo: esa tarde rompieron las cadenas y pasaron igual.", "estilo": "Giro honesto, bajando un cambio." },
+    { "texto": "Pero les salió tan caro que terminaron reconociendo que el río era nuestro.", "estilo": "Orgulloso, cerrando la idea." },
+    { "texto": "Por eso cada veinte de noviembre es el Día de la Soberanía.", "estilo": "Afirmativo, claro." },
+    { "texto": "Mandáselo al que cree que es solo un día libre.", "estilo": "Cómplice, con humor." }
+  ]
+}

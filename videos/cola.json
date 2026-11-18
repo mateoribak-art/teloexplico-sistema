@@ -1981,5 +1981,29 @@
     "motivo": "escenas 3D listas"
    }
   ]
+ },
+ {
+  "slug": "053-cadenas-parana",
+  "tema": "Día de la Soberanía: por qué el 20/11 cruzaron el río Paraná con cadenas gigantes (Vuelta de Obligado, 1845)",
+  "estado": "render",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-18T09:21",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-18T09:21",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-18T09:35",
+    "motivo": "escenas 3D listas (actualidad: finde largo / Día de la Soberanía)"
+   }
+  ],
+  "prioridad": "actualidad",
+  "creado": "2026-11-18T09:21"
  }
 ]

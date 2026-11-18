@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones factuales del guion y el caption quedan verificadas contra fuentes primarias e institucionales (Wikipedia, argentina.gob.ar, cultura.gob.ar, Infobae, Canal 26, Ley 20.770 / Decreto 1584/2010). Los puntos clave se confirman: fecha 20 de noviembre de 1845; potencias Gran Bretaña y Francia; tres cadenas de orilla a orilla sostenidas sobre 24 lanchones/embarcaciones; el Paraná se angosta a ~700 m en la Vuelta de Obligado (curva cerca de San Pedro); los 20 cañones (Infobae usa 'tres filas de cadenas, 20 cañones'; otras fuentes dan cifras algo mayores según cómo se cuenten las baterías, pero el guion no inventa precisión); resultado táctico: la flota rompió/cortó las cadenas y pasó igual, dato que el guion presenta honestamente; y que con el tiempo los tratados (Arana-Southern 1849, Arana-Lepredour 1850) reconocieron la soberanía argentina sobre los ríos interiores. El 20 de noviembre es el Día de la Soberanía Nacional por Ley 20.770. No hay afirmaciones falsas; ninguna cifra queda en estado probable o dudoso; los matices tácticos están explicitados en el propio texto.",
+  "afirmaciones": [
+    {
+      "texto": "El 20 de noviembre se festeja el Día de la Soberanía Nacional en Argentina.",
+      "fuente": "Ley 20.770 (1974), argentina.gob.ar/normativa; Decreto 1584/2010; cultura.gob.ar",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En 1845 (20 de noviembre de 1845) ocurrió la Batalla de la Vuelta de Obligado en el río Paraná.",
+      "fuente": "Wikipedia (es) Batalla de la Vuelta de Obligado; argentina.gob.ar; Infobae (20/11/2024)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Dos de las flotas/potencias más poderosas del mundo quisieron subir por el Paraná a la fuerza: Gran Bretaña y Francia.",
+      "fuente": "Wikipedia (es); argentina.gob.ar; electoralmisiones.gov.ar (alianza anglo-francesa)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En una curva cerca de San Pedro el río se angosta a unos 700 metros.",
+      "fuente": "Canal 26 (02/11/2026 y 16/11/2026); Wikipedia (en) 'river is 700 meters wide'; lavozdelpueblo.com.ar",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Cruzaron tres cadenas de hierro de orilla a orilla, colgadas de veinticuatro barcos/lanchones.",
+      "fuente": "Canal 26 (2026); argentina.gob.ar (175 años del Combate); Wikipedia (es) 'tres gruesas cadenas sostenidas sobre 24 barcazas'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Arriba de la barranca había veinte cañones esperando.",
+      "fuente": "Infobae (20/11/2024) 'tres filas de cadenas, 20 cañones'; baterías en la barranca derecha confirmadas por Wikipedia (es) y argentina.gob.ar",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Esa tarde la flota rompió/cortó las cadenas y pasó igual (resultado táctico adverso).",
+      "fuente": "Wikipedia (es/en); Canal 26 (2026) 'la flota anglo-francesa consiguió cortar las cadenas y continuar su navegación'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Les salió tan caro que con el tiempo terminaron reconociendo por tratado que los ríos interiores eran argentinos.",
+      "fuente": "Wikipedia (es); ecured.cu (Tratado Arana-Southern 1849); Tratado Arana-Lepredour 1850; reconocimiento de soberanía sobre ríos interiores",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Por eso cada 20 de noviembre es el Día de la Soberanía (conmemora la Vuelta de Obligado).",
+      "fuente": "Ley 20.770; cultura.gob.ar; abc.gob.ar (Dirección General de Cultura y Educación)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

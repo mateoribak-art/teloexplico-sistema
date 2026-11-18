@@ -1,0 +1,10 @@
+﻿2026-11-18 09:18 Sincronización: sincronizado
+2026-11-18 09:18 Arranca la producción (2 listos en la cola, meta 6).
+Listo. Resumen de la corrida:
+
+**Resumen (3 líneas):**
+1. **Listo para render:** `053-cadenas-parana` — video de actualidad (arranca el finde largo y el viernes 20 es el Día de la Soberanía): la Vuelta de Obligado, cuando cruzaron el Paraná con tres cadenas sobre 24 lanchones para frenar a dos flotas; chequeo **aprobado** (9 afirmaciones verificadas), voz 42 s, escena 3D nueva `Obligado` revisada en 2 vueltas y marcada `render` (la rinde `producir.py` esta noche sin Claude).
+2. **Ninguno apartado ni incompleto** en esta corrida.
+3. **No produje un segundo video:** la cola ya tiene 7 terminados (2 en `listo` + 5 en `render`), ≥6, así que corté para cuidar la cuota de Gemini y de Claude.
+
+2026-11-18 09:36 Termina la producción (código 0).

@@ -1,0 +1,655 @@
+{
+ "duracion": 42.14,
+ "frases": [
+  {
+   "texto": "Tenés finde largo y no sabés bien qué se festeja.",
+   "palabras": [
+    {
+     "texto": "Tenés",
+     "inicio": 0.0,
+     "fin": 0.26
+    },
+    {
+     "texto": "finde",
+     "inicio": 0.26,
+     "fin": 0.42
+    },
+    {
+     "texto": "largo",
+     "inicio": 0.42,
+     "fin": 0.78
+    },
+    {
+     "texto": "y",
+     "inicio": 0.78,
+     "fin": 1.5
+    },
+    {
+     "texto": "no",
+     "inicio": 1.5,
+     "fin": 1.6
+    },
+    {
+     "texto": "sabés",
+     "inicio": 1.6,
+     "fin": 1.88
+    },
+    {
+     "texto": "bien",
+     "inicio": 1.88,
+     "fin": 2.02
+    },
+    {
+     "texto": "qué",
+     "inicio": 2.02,
+     "fin": 2.14
+    },
+    {
+     "texto": "se",
+     "inicio": 2.14,
+     "fin": 2.28
+    },
+    {
+     "texto": "festeja.",
+     "inicio": 2.28,
+     "fin": 2.68
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.68
+  },
+  {
+   "texto": "Se festeja el día que cerramos un río con cadenas.",
+   "palabras": [
+    {
+     "texto": "Se",
+     "inicio": 3.1,
+     "fin": 3.32
+    },
+    {
+     "texto": "festeja",
+     "inicio": 3.32,
+     "fin": 3.74
+    },
+    {
+     "texto": "el",
+     "inicio": 3.74,
+     "fin": 3.9
+    },
+    {
+     "texto": "día",
+     "inicio": 3.9,
+     "fin": 4.06
+    },
+    {
+     "texto": "que",
+     "inicio": 4.06,
+     "fin": 4.24
+    },
+    {
+     "texto": "cerramos",
+     "inicio": 4.24,
+     "fin": 4.62
+    },
+    {
+     "texto": "un",
+     "inicio": 4.62,
+     "fin": 4.88
+    },
+    {
+     "texto": "río",
+     "inicio": 4.88,
+     "fin": 5.16
+    },
+    {
+     "texto": "con",
+     "inicio": 5.16,
+     "fin": 5.4
+    },
+    {
+     "texto": "cadenas.",
+     "inicio": 5.4,
+     "fin": 5.94
+    }
+   ],
+   "inicio": 3.1,
+   "fin": 5.94
+  },
+  {
+   "texto": "Mil ochocientos cuarenta y cinco: dos flotas poderosísimas quieren subir por el Paraná a la fuerza.",
+   "palabras": [
+    {
+     "texto": "Mil",
+     "inicio": 6.56,
+     "fin": 6.76
+    },
+    {
+     "texto": "ochocientos",
+     "inicio": 6.76,
+     "fin": 7.3
+    },
+    {
+     "texto": "cuarenta",
+     "inicio": 7.3,
+     "fin": 7.64
+    },
+    {
+     "texto": "y",
+     "inicio": 7.64,
+     "fin": 7.74
+    },
+    {
+     "texto": "cinco:",
+     "inicio": 7.74,
+     "fin": 7.96
+    },
+    {
+     "texto": "dos",
+     "inicio": 8.44,
+     "fin": 8.7
+    },
+    {
+     "texto": "flotas",
+     "inicio": 8.7,
+     "fin": 9.06
+    },
+    {
+     "texto": "poderosísimas",
+     "inicio": 9.06,
+     "fin": 9.98
+    },
+    {
+     "texto": "quieren",
+     "inicio": 9.98,
+     "fin": 10.22
+    },
+    {
+     "texto": "subir",
+     "inicio": 10.22,
+     "fin": 10.56
+    },
+    {
+     "texto": "por",
+     "inicio": 10.56,
+     "fin": 10.84
+    },
+    {
+     "texto": "el",
+     "inicio": 10.84,
+     "fin": 10.96
+    },
+    {
+     "texto": "Paraná",
+     "inicio": 10.96,
+     "fin": 11.3
+    },
+    {
+     "texto": "a",
+     "inicio": 11.3,
+     "fin": 11.44
+    },
+    {
+     "texto": "la",
+     "inicio": 11.44,
+     "fin": 11.44
+    },
+    {
+     "texto": "fuerza.",
+     "inicio": 11.44,
+     "fin": 11.68
+    }
+   ],
+   "inicio": 6.56,
+   "fin": 11.68
+  },
+  {
+   "texto": "En una curva cerca de San Pedro, el río se angosta a setecientos metros.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 12.3,
+     "fin": 12.42
+    },
+    {
+     "texto": "una",
+     "inicio": 12.42,
+     "fin": 12.56
+    },
+    {
+     "texto": "curva",
+     "inicio": 12.56,
+     "fin": 12.92
+    },
+    {
+     "texto": "cerca",
+     "inicio": 12.92,
+     "fin": 13.14
+    },
+    {
+     "texto": "de",
+     "inicio": 13.14,
+     "fin": 13.3
+    },
+    {
+     "texto": "San",
+     "inicio": 13.3,
+     "fin": 13.44
+    },
+    {
+     "texto": "Pedro,",
+     "inicio": 13.44,
+     "fin": 13.66
+    },
+    {
+     "texto": "el",
+     "inicio": 14.1,
+     "fin": 14.42
+    },
+    {
+     "texto": "río",
+     "inicio": 14.42,
+     "fin": 14.66
+    },
+    {
+     "texto": "se",
+     "inicio": 14.66,
+     "fin": 14.84
+    },
+    {
+     "texto": "angosta",
+     "inicio": 14.84,
+     "fin": 15.16
+    },
+    {
+     "texto": "a",
+     "inicio": 15.16,
+     "fin": 15.34
+    },
+    {
+     "texto": "setecientos",
+     "inicio": 15.34,
+     "fin": 15.92
+    },
+    {
+     "texto": "metros.",
+     "inicio": 15.92,
+     "fin": 16.1
+    }
+   ],
+   "inicio": 12.3,
+   "fin": 16.1
+  },
+  {
+   "texto": "Ahí cruzamos tres cadenas de hierro de orilla a orilla, colgadas de veinticuatro barcos.",
+   "palabras": [
+    {
+     "texto": "Ahí",
+     "inicio": 16.7,
+     "fin": 16.98
+    },
+    {
+     "texto": "cruzamos",
+     "inicio": 16.98,
+     "fin": 17.54
+    },
+    {
+     "texto": "tres",
+     "inicio": 17.54,
+     "fin": 17.84
+    },
+    {
+     "texto": "cadenas",
+     "inicio": 17.84,
+     "fin": 18.24
+    },
+    {
+     "texto": "de",
+     "inicio": 18.24,
+     "fin": 18.4
+    },
+    {
+     "texto": "hierro",
+     "inicio": 18.4,
+     "fin": 18.84
+    },
+    {
+     "texto": "de",
+     "inicio": 18.84,
+     "fin": 19.16
+    },
+    {
+     "texto": "orilla",
+     "inicio": 19.16,
+     "fin": 19.58
+    },
+    {
+     "texto": "a",
+     "inicio": 19.58,
+     "fin": 19.94
+    },
+    {
+     "texto": "orilla,",
+     "inicio": 19.94,
+     "fin": 20.26
+    },
+    {
+     "texto": "colgadas",
+     "inicio": 20.62,
+     "fin": 21.06
+    },
+    {
+     "texto": "de",
+     "inicio": 21.06,
+     "fin": 21.28
+    },
+    {
+     "texto": "veinticuatro",
+     "inicio": 21.28,
+     "fin": 21.86
+    },
+    {
+     "texto": "barcos.",
+     "inicio": 21.86,
+     "fin": 22.2
+    }
+   ],
+   "inicio": 16.7,
+   "fin": 22.2
+  },
+  {
+   "texto": "Y arriba de la barranca, veinte cañones esperando.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 23.08,
+     "fin": 23.42
+    },
+    {
+     "texto": "arriba",
+     "inicio": 23.42,
+     "fin": 23.76
+    },
+    {
+     "texto": "de",
+     "inicio": 23.76,
+     "fin": 23.98
+    },
+    {
+     "texto": "la",
+     "inicio": 23.98,
+     "fin": 24.06
+    },
+    {
+     "texto": "barranca,",
+     "inicio": 24.06,
+     "fin": 24.6
+    },
+    {
+     "texto": "veinte",
+     "inicio": 25.28,
+     "fin": 25.7
+    },
+    {
+     "texto": "cañones",
+     "inicio": 25.7,
+     "fin": 26.16
+    },
+    {
+     "texto": "esperando.",
+     "inicio": 26.16,
+     "fin": 26.56
+    }
+   ],
+   "inicio": 23.08,
+   "fin": 26.56
+  },
+  {
+   "texto": "Ojo: esa tarde rompieron las cadenas y pasaron igual.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 26.56,
+     "fin": 27.48
+    },
+    {
+     "texto": "esa",
+     "inicio": 27.96,
+     "fin": 28.18
+    },
+    {
+     "texto": "tarde",
+     "inicio": 28.18,
+     "fin": 28.48
+    },
+    {
+     "texto": "rompieron",
+     "inicio": 28.48,
+     "fin": 29.06
+    },
+    {
+     "texto": "las",
+     "inicio": 29.06,
+     "fin": 29.22
+    },
+    {
+     "texto": "cadenas",
+     "inicio": 29.22,
+     "fin": 29.62
+    },
+    {
+     "texto": "y",
+     "inicio": 29.62,
+     "fin": 29.76
+    },
+    {
+     "texto": "pasaron",
+     "inicio": 29.76,
+     "fin": 30.16
+    },
+    {
+     "texto": "igual.",
+     "inicio": 30.16,
+     "fin": 30.38
+    }
+   ],
+   "inicio": 26.56,
+   "fin": 30.38
+  },
+  {
+   "texto": "Pero les salió tan caro que terminaron reconociendo que el río era nuestro.",
+   "palabras": [
+    {
+     "texto": "Pero",
+     "inicio": 30.96,
+     "fin": 31.12
+    },
+    {
+     "texto": "les",
+     "inicio": 31.12,
+     "fin": 31.28
+    },
+    {
+     "texto": "salió",
+     "inicio": 31.28,
+     "fin": 31.58
+    },
+    {
+     "texto": "tan",
+     "inicio": 31.58,
+     "fin": 32.02
+    },
+    {
+     "texto": "caro",
+     "inicio": 32.02,
+     "fin": 32.54
+    },
+    {
+     "texto": "que",
+     "inicio": 32.54,
+     "fin": 32.84
+    },
+    {
+     "texto": "terminaron",
+     "inicio": 32.84,
+     "fin": 33.36
+    },
+    {
+     "texto": "reconociendo",
+     "inicio": 33.36,
+     "fin": 34.04
+    },
+    {
+     "texto": "que",
+     "inicio": 34.04,
+     "fin": 34.34
+    },
+    {
+     "texto": "el",
+     "inicio": 34.34,
+     "fin": 34.48
+    },
+    {
+     "texto": "río",
+     "inicio": 34.48,
+     "fin": 34.78
+    },
+    {
+     "texto": "era",
+     "inicio": 34.78,
+     "fin": 35.02
+    },
+    {
+     "texto": "nuestro.",
+     "inicio": 35.02,
+     "fin": 35.42
+    }
+   ],
+   "inicio": 30.96,
+   "fin": 35.42
+  },
+  {
+   "texto": "Por eso cada veinte de noviembre es el Día de la Soberanía.",
+   "palabras": [
+    {
+     "texto": "Por",
+     "inicio": 35.98,
+     "fin": 36.1
+    },
+    {
+     "texto": "eso",
+     "inicio": 36.1,
+     "fin": 36.32
+    },
+    {
+     "texto": "cada",
+     "inicio": 36.32,
+     "fin": 36.52
+    },
+    {
+     "texto": "veinte",
+     "inicio": 36.52,
+     "fin": 36.92
+    },
+    {
+     "texto": "de",
+     "inicio": 36.92,
+     "fin": 37.06
+    },
+    {
+     "texto": "noviembre",
+     "inicio": 37.06,
+     "fin": 37.58
+    },
+    {
+     "texto": "es",
+     "inicio": 37.58,
+     "fin": 37.86
+    },
+    {
+     "texto": "el",
+     "inicio": 37.86,
+     "fin": 38.02
+    },
+    {
+     "texto": "Día",
+     "inicio": 38.02,
+     "fin": 38.26
+    },
+    {
+     "texto": "de",
+     "inicio": 38.26,
+     "fin": 38.34
+    },
+    {
+     "texto": "la",
+     "inicio": 38.34,
+     "fin": 38.46
+    },
+    {
+     "texto": "Soberanía.",
+     "inicio": 38.46,
+     "fin": 39.02
+    }
+   ],
+   "inicio": 35.98,
+   "fin": 39.02
+  },
+  {
+   "texto": "Mandáselo al que cree que es solo un día libre.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 40.08,
+     "fin": 40.56
+    },
+    {
+     "texto": "al",
+     "inicio": 40.56,
+     "fin": 40.6
+    },
+    {
+     "texto": "que",
+     "inicio": 40.6,
+     "fin": 40.72
+    },
+    {
+     "texto": "cree",
+     "inicio": 40.72,
+     "fin": 40.94
+    },
+    {
+     "texto": "que",
+     "inicio": 40.94,
+     "fin": 41.08
+    },
+    {
+     "texto": "es",
+     "inicio": 41.08,
+     "fin": 41.26
+    },
+    {
+     "texto": "solo",
+     "inicio": 41.26,
+     "fin": 41.38
+    },
+    {
+     "texto": "un",
+     "inicio": 41.38,
+     "fin": 41.56
+    },
+    {
+     "texto": "día",
+     "inicio": 41.56,
+     "fin": 41.7
+    },
+    {
+     "texto": "libre.",
+     "inicio": 41.7,
+     "fin": 41.98
+    }
+   ],
+   "inicio": 40.08,
+   "fin": 41.98
+  }
+ ]
+}
