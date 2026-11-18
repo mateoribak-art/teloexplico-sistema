@@ -1,0 +1,25 @@
+{
+  "titulo": "Qué no enchufar a una zapatilla: lo que calienta va directo a la pared",
+  "fondo": "oscuro",
+  "receta": "el que lo hace mal (enchufa lo que calienta a la zapatilla) + acusado inofensivo (la zapatilla sobrecargada)",
+  "pilar": "casa",
+  "serie": "casa",
+  "destinatario": "se lo manda el que vive solo, a su viejo o a su compañero de depto que tiene la pava eléctrica y el microondas colgados de la misma zapatilla atrás del mueble",
+  "regla_guardable": "lo que calienta va directo al enchufe de la pared, uno por toma: microondas, pava eléctrica, estufa, caloventor, aire, secador",
+  "fuentes": [
+    "NFPA (National Fire Protection Association) y CPSC (EE.UU.): no enchufar estufas ni electrodomésticos de alto consumo a zapatillas o alargues; van directo al tomacorriente",
+    "La Nación / Los Andes (bomberos, 2024): las zapatillas y alargues sobrecargados son una de las causas más comunes de incendios en la casa",
+    "IRAM / etiqueta de las zapatillas: la mayoría está marcada para 10 amperes (unos 2200 W en 220 V)"
+  ],
+  "frases": [
+    {"texto": "Tenés el microondas enchufado a una zapatilla. Es más peligroso de lo que parece.", "estilo": "Directo, afirmado. Voz plena y clara."},
+    {"texto": "Las zapatillas sobrecargadas son de las cosas que más incendios de casa provocan.", "estilo": "Seco y contundente."},
+    {"texto": "Lo que calienta tira muchísima corriente: microondas, pava, estufa, aire.", "estilo": "Didáctico, enumerando."},
+    {"texto": "La zapatilla se recalienta, el plástico se ablanda y puede prenderse fuego.", "estilo": "Claro, mostrando el mecanismo."},
+    {"texto": "La mayoría aguanta diez amperes: unos dos mil doscientos vatios, y nada más.", "estilo": "Dato firme, con el número."},
+    {"texto": "Un caloventor solo ya tira casi todo eso; sumale otra cosa y te pasaste.", "estilo": "Revelación, con energía."},
+    {"texto": "Por eso, lo que calienta va directo a la pared, uno por enchufe.", "estilo": "Consejo práctico, cómplice."},
+    {"texto": "Ojo: para el módem, la tele o los cargadores, la zapatilla está perfecta.", "estilo": "Matiz honesto, tranquilizando."},
+    {"texto": "Mandáselo al que tiene la pava y el microondas en la misma zapatilla.", "estilo": "Cómplice, con humor."}
+  ]
+}

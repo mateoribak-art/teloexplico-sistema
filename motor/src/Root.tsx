@@ -49,6 +49,8 @@ import { DURACION as DUR_037,FPS as FPS_037, PerroEnElAuto3D, Portada037 } from 
 import { DURACION as DUR_047, FPS as FPS_047, PaqueteRetenido3D, Portada047 } from "./videos/047-paquete-retenido/Video";
 import { DURACION as DUR_049, FPS as FPS_049, PrimerCalorAclimatacion3D, Portada049 } from "./videos/049-primer-calor-aclimatacion/Video";
 import { DURACION as DUR_050, FPS as FPS_050, Martes13NoViernes3D, Portada050 } from "./videos/050-martes-13-no-viernes/Video";
+import { DURACION as DUR_051, FPS as FPS_051, LeonidasGrano3D, Portada051 } from "./videos/051-leonidas-grano-arena/Video";
+import { DURACION as DUR_052, FPS as FPS_052, ZapatillaSobrecarga3D, Portada052 } from "./videos/052-zapatilla-sobrecarga/Video";
 import { DURACION as DUR_038,FPS as FPS_038, CodigoWhatsapp3D, Portada038 } from "./videos/038-codigo-whatsapp/Video";
 import { DURACION as DUR_039, FPS as FPS_039, SolNublado3D, Portada039 } from "./videos/039-sol-nublado/Video";
 import { DURACION as DUR_040, FPS as FPS_040, ConsumoFantasma3D, Portada040 } from "./videos/040-consumo-fantasma/Video";
@@ -146,6 +148,10 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p049-primer-calor-aclimatacion" component={Portada049} width={ANCHO} height={ALTO} />
         <Composition id="h050-martes-13-no-viernes" component={Martes13NoViernes3D} durationInFrames={DUR_050} fps={FPS_050} width={ANCHO} height={ALTO} />
         <Still id="p050-martes-13-no-viernes" component={Portada050} width={ANCHO} height={ALTO} />
+        <Composition id="h051-leonidas-grano-arena" component={LeonidasGrano3D} durationInFrames={DUR_051} fps={FPS_051} width={ANCHO} height={ALTO} />
+        <Still id="p051-leonidas-grano-arena" component={Portada051} width={ANCHO} height={ALTO} />
+        <Composition id="h052-zapatilla-sobrecarga" component={ZapatillaSobrecarga3D} durationInFrames={DUR_052} fps={FPS_052} width={ANCHO} height={ALTO} />
+        <Still id="p052-zapatilla-sobrecarga" component={Portada052} width={ANCHO} height={ALTO} />
         <Composition id="h038-codigo-whatsapp"component={CodigoWhatsapp3D} durationInFrames={DUR_038} fps={FPS_038} width={ANCHO} height={ALTO} />
         <Still id="p038-codigo-whatsapp" component={Portada038} width={ANCHO} height={ALTO} />
         <Composition id="h039-sol-nublado" component={SolNublado3D} durationInFrames={DUR_039} fps={FPS_039} width={ANCHO} height={ALTO} />

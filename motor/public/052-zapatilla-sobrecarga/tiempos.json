@@ -1,0 +1,643 @@
+{
+ "duracion": 47.38,
+ "frases": [
+  {
+   "texto": "Tenés el microondas enchufado a una zapatilla. Es más peligroso de lo que parece.",
+   "palabras": [
+    {
+     "texto": "Tenés",
+     "inicio": 0.0,
+     "fin": 0.26
+    },
+    {
+     "texto": "el",
+     "inicio": 0.26,
+     "fin": 0.38
+    },
+    {
+     "texto": "microondas",
+     "inicio": 0.38,
+     "fin": 0.92
+    },
+    {
+     "texto": "enchufado",
+     "inicio": 0.92,
+     "fin": 1.36
+    },
+    {
+     "texto": "a",
+     "inicio": 1.36,
+     "fin": 1.48
+    },
+    {
+     "texto": "una",
+     "inicio": 1.48,
+     "fin": 1.6
+    },
+    {
+     "texto": "zapatilla.",
+     "inicio": 1.6,
+     "fin": 2.14
+    },
+    {
+     "texto": "Es",
+     "inicio": 2.68,
+     "fin": 2.88
+    },
+    {
+     "texto": "más",
+     "inicio": 2.88,
+     "fin": 3.08
+    },
+    {
+     "texto": "peligroso",
+     "inicio": 3.08,
+     "fin": 3.68
+    },
+    {
+     "texto": "de",
+     "inicio": 3.68,
+     "fin": 3.78
+    },
+    {
+     "texto": "lo",
+     "inicio": 3.78,
+     "fin": 3.86
+    },
+    {
+     "texto": "que",
+     "inicio": 3.86,
+     "fin": 3.96
+    },
+    {
+     "texto": "parece.",
+     "inicio": 3.96,
+     "fin": 4.3
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.3
+  },
+  {
+   "texto": "Las zapatillas sobrecargadas son de las cosas que más incendios de casa provocan.",
+   "palabras": [
+    {
+     "texto": "Las",
+     "inicio": 4.86,
+     "fin": 5.04
+    },
+    {
+     "texto": "zapatillas",
+     "inicio": 5.04,
+     "fin": 5.5
+    },
+    {
+     "texto": "sobrecargadas",
+     "inicio": 5.5,
+     "fin": 6.22
+    },
+    {
+     "texto": "son",
+     "inicio": 6.22,
+     "fin": 6.44
+    },
+    {
+     "texto": "de",
+     "inicio": 6.44,
+     "fin": 6.52
+    },
+    {
+     "texto": "las",
+     "inicio": 6.52,
+     "fin": 6.64
+    },
+    {
+     "texto": "cosas",
+     "inicio": 6.64,
+     "fin": 6.88
+    },
+    {
+     "texto": "que",
+     "inicio": 6.88,
+     "fin": 7.12
+    },
+    {
+     "texto": "más",
+     "inicio": 7.12,
+     "fin": 7.46
+    },
+    {
+     "texto": "incendios",
+     "inicio": 7.46,
+     "fin": 7.94
+    },
+    {
+     "texto": "de",
+     "inicio": 7.94,
+     "fin": 8.06
+    },
+    {
+     "texto": "casa",
+     "inicio": 8.06,
+     "fin": 8.22
+    },
+    {
+     "texto": "provocan.",
+     "inicio": 8.22,
+     "fin": 8.82
+    }
+   ],
+   "inicio": 4.86,
+   "fin": 8.82
+  },
+  {
+   "texto": "Lo que calienta tira muchísima corriente: microondas, pava, estufa, aire.",
+   "palabras": [
+    {
+     "texto": "Lo",
+     "inicio": 9.22,
+     "fin": 9.48
+    },
+    {
+     "texto": "que",
+     "inicio": 9.48,
+     "fin": 9.62
+    },
+    {
+     "texto": "calienta",
+     "inicio": 9.62,
+     "fin": 10.16
+    },
+    {
+     "texto": "tira",
+     "inicio": 10.16,
+     "fin": 10.38
+    },
+    {
+     "texto": "muchísima",
+     "inicio": 10.38,
+     "fin": 11.06
+    },
+    {
+     "texto": "corriente:",
+     "inicio": 11.06,
+     "fin": 11.56
+    },
+    {
+     "texto": "microondas,",
+     "inicio": 12.28,
+     "fin": 12.96
+    },
+    {
+     "texto": "pava,",
+     "inicio": 13.3,
+     "fin": 13.68
+    },
+    {
+     "texto": "estufa,",
+     "inicio": 14.18,
+     "fin": 14.88
+    },
+    {
+     "texto": "aire.",
+     "inicio": 15.2,
+     "fin": 15.54
+    }
+   ],
+   "inicio": 9.22,
+   "fin": 15.54
+  },
+  {
+   "texto": "La zapatilla se recalienta, el plástico se ablanda y puede prenderse fuego.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 16.16,
+     "fin": 16.3
+    },
+    {
+     "texto": "zapatilla",
+     "inicio": 16.3,
+     "fin": 16.74
+    },
+    {
+     "texto": "se",
+     "inicio": 16.74,
+     "fin": 16.9
+    },
+    {
+     "texto": "recalienta,",
+     "inicio": 16.9,
+     "fin": 17.6
+    },
+    {
+     "texto": "el",
+     "inicio": 17.96,
+     "fin": 18.08
+    },
+    {
+     "texto": "plástico",
+     "inicio": 18.08,
+     "fin": 18.46
+    },
+    {
+     "texto": "se",
+     "inicio": 18.46,
+     "fin": 18.72
+    },
+    {
+     "texto": "ablanda",
+     "inicio": 18.72,
+     "fin": 19.28
+    },
+    {
+     "texto": "y",
+     "inicio": 19.28,
+     "fin": 19.72
+    },
+    {
+     "texto": "puede",
+     "inicio": 19.72,
+     "fin": 19.96
+    },
+    {
+     "texto": "prenderse",
+     "inicio": 19.96,
+     "fin": 20.32
+    },
+    {
+     "texto": "fuego.",
+     "inicio": 20.32,
+     "fin": 20.62
+    }
+   ],
+   "inicio": 16.16,
+   "fin": 20.62
+  },
+  {
+   "texto": "La mayoría aguanta diez amperes: unos dos mil doscientos vatios, y nada más.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 21.16,
+     "fin": 21.36
+    },
+    {
+     "texto": "mayoría",
+     "inicio": 21.36,
+     "fin": 21.7
+    },
+    {
+     "texto": "aguanta",
+     "inicio": 21.7,
+     "fin": 22.16
+    },
+    {
+     "texto": "diez",
+     "inicio": 22.16,
+     "fin": 22.4
+    },
+    {
+     "texto": "amperes:",
+     "inicio": 22.4,
+     "fin": 23.02
+    },
+    {
+     "texto": "unos",
+     "inicio": 23.48,
+     "fin": 23.8
+    },
+    {
+     "texto": "dos",
+     "inicio": 23.8,
+     "fin": 24.14
+    },
+    {
+     "texto": "mil",
+     "inicio": 24.14,
+     "fin": 24.34
+    },
+    {
+     "texto": "doscientos",
+     "inicio": 24.34,
+     "fin": 24.78
+    },
+    {
+     "texto": "vatios,",
+     "inicio": 24.78,
+     "fin": 25.16
+    },
+    {
+     "texto": "y",
+     "inicio": 25.16,
+     "fin": 25.7
+    },
+    {
+     "texto": "nada",
+     "inicio": 25.7,
+     "fin": 25.88
+    },
+    {
+     "texto": "más.",
+     "inicio": 25.88,
+     "fin": 26.16
+    }
+   ],
+   "inicio": 21.16,
+   "fin": 26.16
+  },
+  {
+   "texto": "Un caloventor solo ya tira casi todo eso; sumale otra cosa y te pasaste.",
+   "palabras": [
+    {
+     "texto": "Un",
+     "inicio": 26.16,
+     "fin": 26.78
+    },
+    {
+     "texto": "caloventor",
+     "inicio": 26.78,
+     "fin": 27.36
+    },
+    {
+     "texto": "solo",
+     "inicio": 27.36,
+     "fin": 27.76
+    },
+    {
+     "texto": "ya",
+     "inicio": 27.76,
+     "fin": 28.36
+    },
+    {
+     "texto": "tira",
+     "inicio": 28.36,
+     "fin": 28.6
+    },
+    {
+     "texto": "casi",
+     "inicio": 28.6,
+     "fin": 28.8
+    },
+    {
+     "texto": "todo",
+     "inicio": 28.8,
+     "fin": 29.18
+    },
+    {
+     "texto": "eso;",
+     "inicio": 29.18,
+     "fin": 29.5
+    },
+    {
+     "texto": "sumale",
+     "inicio": 30.08,
+     "fin": 30.48
+    },
+    {
+     "texto": "otra",
+     "inicio": 30.48,
+     "fin": 30.68
+    },
+    {
+     "texto": "cosa",
+     "inicio": 30.68,
+     "fin": 31.02
+    },
+    {
+     "texto": "y",
+     "inicio": 31.02,
+     "fin": 31.76
+    },
+    {
+     "texto": "te",
+     "inicio": 31.76,
+     "fin": 31.86
+    },
+    {
+     "texto": "pasaste.",
+     "inicio": 31.86,
+     "fin": 32.3
+    }
+   ],
+   "inicio": 26.16,
+   "fin": 32.3
+  },
+  {
+   "texto": "Por eso, lo que calienta va directo a la pared, uno por enchufe.",
+   "palabras": [
+    {
+     "texto": "Por",
+     "inicio": 32.78,
+     "fin": 32.94
+    },
+    {
+     "texto": "eso,",
+     "inicio": 32.94,
+     "fin": 33.18
+    },
+    {
+     "texto": "lo",
+     "inicio": 33.6,
+     "fin": 33.7
+    },
+    {
+     "texto": "que",
+     "inicio": 33.7,
+     "fin": 33.84
+    },
+    {
+     "texto": "calienta",
+     "inicio": 33.84,
+     "fin": 34.48
+    },
+    {
+     "texto": "va",
+     "inicio": 34.48,
+     "fin": 34.9
+    },
+    {
+     "texto": "directo",
+     "inicio": 34.9,
+     "fin": 35.44
+    },
+    {
+     "texto": "a",
+     "inicio": 35.44,
+     "fin": 35.48
+    },
+    {
+     "texto": "la",
+     "inicio": 35.48,
+     "fin": 35.58
+    },
+    {
+     "texto": "pared,",
+     "inicio": 35.58,
+     "fin": 35.92
+    },
+    {
+     "texto": "uno",
+     "inicio": 36.36,
+     "fin": 36.66
+    },
+    {
+     "texto": "por",
+     "inicio": 36.66,
+     "fin": 36.9
+    },
+    {
+     "texto": "enchufe.",
+     "inicio": 36.9,
+     "fin": 37.36
+    }
+   ],
+   "inicio": 32.78,
+   "fin": 37.36
+  },
+  {
+   "texto": "Ojo: para el módem, la tele o los cargadores, la zapatilla está perfecta.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 37.88,
+     "fin": 38.16
+    },
+    {
+     "texto": "para",
+     "inicio": 38.58,
+     "fin": 38.74
+    },
+    {
+     "texto": "el",
+     "inicio": 38.74,
+     "fin": 38.88
+    },
+    {
+     "texto": "módem,",
+     "inicio": 38.88,
+     "fin": 39.3
+    },
+    {
+     "texto": "la",
+     "inicio": 39.62,
+     "fin": 39.66
+    },
+    {
+     "texto": "tele",
+     "inicio": 39.66,
+     "fin": 40.08
+    },
+    {
+     "texto": "o",
+     "inicio": 40.08,
+     "fin": 40.34
+    },
+    {
+     "texto": "los",
+     "inicio": 40.34,
+     "fin": 40.48
+    },
+    {
+     "texto": "cargadores,",
+     "inicio": 40.48,
+     "fin": 41.02
+    },
+    {
+     "texto": "la",
+     "inicio": 41.62,
+     "fin": 41.7
+    },
+    {
+     "texto": "zapatilla",
+     "inicio": 41.7,
+     "fin": 42.16
+    },
+    {
+     "texto": "está",
+     "inicio": 42.16,
+     "fin": 42.34
+    },
+    {
+     "texto": "perfecta.",
+     "inicio": 42.34,
+     "fin": 43.14
+    }
+   ],
+   "inicio": 37.88,
+   "fin": 43.14
+  },
+  {
+   "texto": "Mandáselo al que tiene la pava y el microondas en la misma zapatilla.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 43.48,
+     "fin": 44.12
+    },
+    {
+     "texto": "al",
+     "inicio": 44.12,
+     "fin": 44.2
+    },
+    {
+     "texto": "que",
+     "inicio": 44.2,
+     "fin": 44.34
+    },
+    {
+     "texto": "tiene",
+     "inicio": 44.34,
+     "fin": 44.54
+    },
+    {
+     "texto": "la",
+     "inicio": 44.54,
+     "fin": 44.7
+    },
+    {
+     "texto": "pava",
+     "inicio": 44.7,
+     "fin": 45.06
+    },
+    {
+     "texto": "y",
+     "inicio": 45.06,
+     "fin": 45.22
+    },
+    {
+     "texto": "el",
+     "inicio": 45.22,
+     "fin": 45.32
+    },
+    {
+     "texto": "microondas",
+     "inicio": 45.32,
+     "fin": 46.0
+    },
+    {
+     "texto": "en",
+     "inicio": 46.0,
+     "fin": 46.26
+    },
+    {
+     "texto": "la",
+     "inicio": 46.26,
+     "fin": 46.38
+    },
+    {
+     "texto": "misma",
+     "inicio": 46.38,
+     "fin": 46.66
+    },
+    {
+     "texto": "zapatilla.",
+     "inicio": 46.66,
+     "fin": 47.26
+    }
+   ],
+   "inicio": 43.48,
+   "fin": 47.26
+  }
+ ]
+}

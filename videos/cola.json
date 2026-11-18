@@ -1773,7 +1773,7 @@
  {
   "slug": "045-una-sola-tabla",
   "tema": "Una sola tabla para carne cruda y verduras: una para crudo, otra para lo que se come sin cocinar (USDA FSIS)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1794,13 +1794,18 @@
     "estado": "listo",
     "cuando": "2026-11-07T07:54",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-17T12:31",
+    "motivo": "https://www.instagram.com/reel/Df2QZqAgEVe/"
    }
   ]
  },
  {
   "slug": "046-perro-no-comas",
   "tema": "Alimentos que no le podés dar a un perro: chocolate, uvas, cebolla (ASPCA)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1821,6 +1826,11 @@
     "estado": "listo",
     "cuando": "2026-11-07T13:27",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-17T19:32",
+    "motivo": "https://www.instagram.com/reel/Df3AnKmnMPI/"
    }
   ]
  },
@@ -1929,7 +1939,7 @@
  {
   "slug": "051-leonidas-grano-arena",
   "tema": "Lluvia de estrellas Leónidas: la estrella fugaz no es una estrella ni una roca gigante, es polvo de cometa del tamaño de un grano de arena que se enciende por la velocidad",
-  "estado": "produccion",
+  "estado": "render",
   "historial": [
    {
     "estado": "idea",
@@ -1940,9 +1950,36 @@
     "estado": "produccion",
     "cuando": "2026-11-17T00:32",
     "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-17T10:13",
+    "motivo": "escenas 3D listas"
    }
   ],
   "prioridad": "actualidad",
   "creado": "2026-11-17T00:32"
+ },
+ {
+  "slug": "052-zapatilla-sobrecarga",
+  "tema": "Qué electrodomésticos no enchufar a una zapatilla o alargue: los que calientan (microondas, pava, estufa, aire) van directo a la pared (NFPA, bomberos)",
+  "estado": "render",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-17T10:17",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-17T10:17",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-17T10:31",
+    "motivo": "escenas 3D listas"
+   }
+  ]
  }
 ]

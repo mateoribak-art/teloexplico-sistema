@@ -1,0 +1,725 @@
+{
+ "duracion": 44.85,
+ "frases": [
+  {
+   "texto": "Esta madrugada caen estrellas fugaces. Y no vas a ver ninguna estrella.",
+   "palabras": [
+    {
+     "texto": "Esta",
+     "inicio": 0.0,
+     "fin": 0.22
+    },
+    {
+     "texto": "madrugada",
+     "inicio": 0.22,
+     "fin": 0.88
+    },
+    {
+     "texto": "caen",
+     "inicio": 0.88,
+     "fin": 1.7
+    },
+    {
+     "texto": "estrellas",
+     "inicio": 1.7,
+     "fin": 2.24
+    },
+    {
+     "texto": "fugaces.",
+     "inicio": 2.24,
+     "fin": 2.82
+    },
+    {
+     "texto": "Y",
+     "inicio": 3.54,
+     "fin": 3.62
+    },
+    {
+     "texto": "no",
+     "inicio": 3.62,
+     "fin": 3.76
+    },
+    {
+     "texto": "vas",
+     "inicio": 3.76,
+     "fin": 3.92
+    },
+    {
+     "texto": "a",
+     "inicio": 3.92,
+     "fin": 4.02
+    },
+    {
+     "texto": "ver",
+     "inicio": 4.02,
+     "fin": 4.2
+    },
+    {
+     "texto": "ninguna",
+     "inicio": 4.2,
+     "fin": 4.66
+    },
+    {
+     "texto": "estrella.",
+     "inicio": 4.66,
+     "fin": 5.2
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 5.2
+  },
+  {
+   "texto": "Lo que se prende ahí arriba es basura de un cometa.",
+   "palabras": [
+    {
+     "texto": "Lo",
+     "inicio": 5.72,
+     "fin": 5.86
+    },
+    {
+     "texto": "que",
+     "inicio": 5.86,
+     "fin": 5.96
+    },
+    {
+     "texto": "se",
+     "inicio": 5.96,
+     "fin": 6.06
+    },
+    {
+     "texto": "prende",
+     "inicio": 6.06,
+     "fin": 6.36
+    },
+    {
+     "texto": "ahí",
+     "inicio": 6.36,
+     "fin": 6.48
+    },
+    {
+     "texto": "arriba",
+     "inicio": 6.48,
+     "fin": 6.86
+    },
+    {
+     "texto": "es",
+     "inicio": 6.86,
+     "fin": 7.5
+    },
+    {
+     "texto": "basura",
+     "inicio": 7.5,
+     "fin": 7.94
+    },
+    {
+     "texto": "de",
+     "inicio": 7.94,
+     "fin": 8.06
+    },
+    {
+     "texto": "un",
+     "inicio": 8.06,
+     "fin": 8.16
+    },
+    {
+     "texto": "cometa.",
+     "inicio": 8.16,
+     "fin": 8.5
+    }
+   ],
+   "inicio": 5.72,
+   "fin": 8.5
+  },
+  {
+   "texto": "Son las Leónidas: la Tierra cruza el polvo que dejó un cometa.",
+   "palabras": [
+    {
+     "texto": "Son",
+     "inicio": 9.0,
+     "fin": 9.2
+    },
+    {
+     "texto": "las",
+     "inicio": 9.2,
+     "fin": 9.36
+    },
+    {
+     "texto": "Leónidas:",
+     "inicio": 9.36,
+     "fin": 9.84
+    },
+    {
+     "texto": "la",
+     "inicio": 10.44,
+     "fin": 10.6
+    },
+    {
+     "texto": "Tierra",
+     "inicio": 10.6,
+     "fin": 10.92
+    },
+    {
+     "texto": "cruza",
+     "inicio": 10.92,
+     "fin": 11.34
+    },
+    {
+     "texto": "el",
+     "inicio": 11.34,
+     "fin": 11.48
+    },
+    {
+     "texto": "polvo",
+     "inicio": 11.48,
+     "fin": 11.8
+    },
+    {
+     "texto": "que",
+     "inicio": 11.8,
+     "fin": 11.96
+    },
+    {
+     "texto": "dejó",
+     "inicio": 11.96,
+     "fin": 12.22
+    },
+    {
+     "texto": "un",
+     "inicio": 12.22,
+     "fin": 12.28
+    },
+    {
+     "texto": "cometa.",
+     "inicio": 12.28,
+     "fin": 12.66
+    }
+   ],
+   "inicio": 9.0,
+   "fin": 12.66
+  },
+  {
+   "texto": "Cada estrella fugaz es un granito: de un grano de arena a una arveja.",
+   "palabras": [
+    {
+     "texto": "Cada",
+     "inicio": 13.1,
+     "fin": 13.3
+    },
+    {
+     "texto": "estrella",
+     "inicio": 13.3,
+     "fin": 13.74
+    },
+    {
+     "texto": "fugaz",
+     "inicio": 13.74,
+     "fin": 14.24
+    },
+    {
+     "texto": "es",
+     "inicio": 14.24,
+     "fin": 14.88
+    },
+    {
+     "texto": "un",
+     "inicio": 14.88,
+     "fin": 15.02
+    },
+    {
+     "texto": "granito:",
+     "inicio": 15.02,
+     "fin": 15.54
+    },
+    {
+     "texto": "de",
+     "inicio": 15.86,
+     "fin": 16.08
+    },
+    {
+     "texto": "un",
+     "inicio": 16.08,
+     "fin": 16.2
+    },
+    {
+     "texto": "grano",
+     "inicio": 16.2,
+     "fin": 16.46
+    },
+    {
+     "texto": "de",
+     "inicio": 16.46,
+     "fin": 16.62
+    },
+    {
+     "texto": "arena",
+     "inicio": 16.62,
+     "fin": 16.86
+    },
+    {
+     "texto": "a",
+     "inicio": 16.86,
+     "fin": 17.58
+    },
+    {
+     "texto": "una",
+     "inicio": 17.58,
+     "fin": 17.72
+    },
+    {
+     "texto": "arveja.",
+     "inicio": 17.72,
+     "fin": 18.1
+    }
+   ],
+   "inicio": 13.1,
+   "fin": 18.1
+  },
+  {
+   "texto": "¿Por qué brilla tanto algo tan chico? No es por grande, es por rápido.",
+   "palabras": [
+    {
+     "texto": "¿Por",
+     "inicio": 18.56,
+     "fin": 18.68
+    },
+    {
+     "texto": "qué",
+     "inicio": 18.68,
+     "fin": 18.86
+    },
+    {
+     "texto": "brilla",
+     "inicio": 18.86,
+     "fin": 19.18
+    },
+    {
+     "texto": "tanto",
+     "inicio": 19.18,
+     "fin": 19.66
+    },
+    {
+     "texto": "algo",
+     "inicio": 19.66,
+     "fin": 20.2
+    },
+    {
+     "texto": "tan",
+     "inicio": 20.2,
+     "fin": 20.48
+    },
+    {
+     "texto": "chico?",
+     "inicio": 20.48,
+     "fin": 20.8
+    },
+    {
+     "texto": "No",
+     "inicio": 21.26,
+     "fin": 21.5
+    },
+    {
+     "texto": "es",
+     "inicio": 21.5,
+     "fin": 21.62
+    },
+    {
+     "texto": "por",
+     "inicio": 21.62,
+     "fin": 21.76
+    },
+    {
+     "texto": "grande,",
+     "inicio": 21.76,
+     "fin": 22.1
+    },
+    {
+     "texto": "es",
+     "inicio": 22.66,
+     "fin": 22.78
+    },
+    {
+     "texto": "por",
+     "inicio": 22.78,
+     "fin": 22.92
+    },
+    {
+     "texto": "rápido.",
+     "inicio": 22.92,
+     "fin": 23.32
+    }
+   ],
+   "inicio": 18.56,
+   "fin": 23.32
+  },
+  {
+   "texto": "Entra a setenta y un kilómetros por segundo, aplasta el aire de adelante y se enciende.",
+   "palabras": [
+    {
+     "texto": "Entra",
+     "inicio": 23.9,
+     "fin": 24.22
+    },
+    {
+     "texto": "a",
+     "inicio": 24.22,
+     "fin": 24.32
+    },
+    {
+     "texto": "setenta",
+     "inicio": 24.32,
+     "fin": 24.74
+    },
+    {
+     "texto": "y",
+     "inicio": 24.74,
+     "fin": 24.9
+    },
+    {
+     "texto": "un",
+     "inicio": 24.9,
+     "fin": 25.0
+    },
+    {
+     "texto": "kilómetros",
+     "inicio": 25.0,
+     "fin": 25.54
+    },
+    {
+     "texto": "por",
+     "inicio": 25.54,
+     "fin": 25.7
+    },
+    {
+     "texto": "segundo,",
+     "inicio": 25.7,
+     "fin": 26.1
+    },
+    {
+     "texto": "aplasta",
+     "inicio": 26.5,
+     "fin": 27.08
+    },
+    {
+     "texto": "el",
+     "inicio": 27.08,
+     "fin": 27.2
+    },
+    {
+     "texto": "aire",
+     "inicio": 27.2,
+     "fin": 27.4
+    },
+    {
+     "texto": "de",
+     "inicio": 27.4,
+     "fin": 27.54
+    },
+    {
+     "texto": "adelante",
+     "inicio": 27.54,
+     "fin": 27.96
+    },
+    {
+     "texto": "y",
+     "inicio": 27.96,
+     "fin": 28.26
+    },
+    {
+     "texto": "se",
+     "inicio": 28.26,
+     "fin": 28.36
+    },
+    {
+     "texto": "enciende.",
+     "inicio": 28.36,
+     "fin": 28.78
+    }
+   ],
+   "inicio": 23.9,
+   "fin": 28.78
+  },
+  {
+   "texto": "Se pone al rojo vivo y se desintegra allá arriba, sin tocar el piso.",
+   "palabras": [
+    {
+     "texto": "Se",
+     "inicio": 29.22,
+     "fin": 29.4
+    },
+    {
+     "texto": "pone",
+     "inicio": 29.4,
+     "fin": 29.64
+    },
+    {
+     "texto": "al",
+     "inicio": 29.64,
+     "fin": 29.8
+    },
+    {
+     "texto": "rojo",
+     "inicio": 29.8,
+     "fin": 30.14
+    },
+    {
+     "texto": "vivo",
+     "inicio": 30.14,
+     "fin": 30.4
+    },
+    {
+     "texto": "y",
+     "inicio": 30.4,
+     "fin": 30.82
+    },
+    {
+     "texto": "se",
+     "inicio": 30.82,
+     "fin": 30.96
+    },
+    {
+     "texto": "desintegra",
+     "inicio": 30.96,
+     "fin": 31.54
+    },
+    {
+     "texto": "allá",
+     "inicio": 31.54,
+     "fin": 31.76
+    },
+    {
+     "texto": "arriba,",
+     "inicio": 31.76,
+     "fin": 32.16
+    },
+    {
+     "texto": "sin",
+     "inicio": 32.34,
+     "fin": 32.52
+    },
+    {
+     "texto": "tocar",
+     "inicio": 32.52,
+     "fin": 32.74
+    },
+    {
+     "texto": "el",
+     "inicio": 32.74,
+     "fin": 32.92
+    },
+    {
+     "texto": "piso.",
+     "inicio": 32.92,
+     "fin": 33.2
+    }
+   ],
+   "inicio": 29.22,
+   "fin": 33.2
+  },
+  {
+   "texto": "De dos y media a cinco, mirá al noreste, lejos de las luces.",
+   "palabras": [
+    {
+     "texto": "De",
+     "inicio": 33.74,
+     "fin": 33.82
+    },
+    {
+     "texto": "dos",
+     "inicio": 33.82,
+     "fin": 34.0
+    },
+    {
+     "texto": "y",
+     "inicio": 34.0,
+     "fin": 34.14
+    },
+    {
+     "texto": "media",
+     "inicio": 34.14,
+     "fin": 34.3
+    },
+    {
+     "texto": "a",
+     "inicio": 34.3,
+     "fin": 34.56
+    },
+    {
+     "texto": "cinco,",
+     "inicio": 34.56,
+     "fin": 34.8
+    },
+    {
+     "texto": "mirá",
+     "inicio": 35.14,
+     "fin": 35.32
+    },
+    {
+     "texto": "al",
+     "inicio": 35.32,
+     "fin": 35.38
+    },
+    {
+     "texto": "noreste,",
+     "inicio": 35.38,
+     "fin": 35.82
+    },
+    {
+     "texto": "lejos",
+     "inicio": 36.18,
+     "fin": 36.48
+    },
+    {
+     "texto": "de",
+     "inicio": 36.48,
+     "fin": 36.6
+    },
+    {
+     "texto": "las",
+     "inicio": 36.6,
+     "fin": 36.7
+    },
+    {
+     "texto": "luces.",
+     "inicio": 36.7,
+     "fin": 37.06
+    }
+   ],
+   "inicio": 33.74,
+   "fin": 37.06
+  },
+  {
+   "texto": "Ojo: no es un diluvio; con cielo limpio, unas quince por hora.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 37.54,
+     "fin": 37.8
+    },
+    {
+     "texto": "no",
+     "inicio": 38.08,
+     "fin": 38.22
+    },
+    {
+     "texto": "es",
+     "inicio": 38.22,
+     "fin": 38.38
+    },
+    {
+     "texto": "un",
+     "inicio": 38.38,
+     "fin": 38.5
+    },
+    {
+     "texto": "diluvio;",
+     "inicio": 38.5,
+     "fin": 39.02
+    },
+    {
+     "texto": "con",
+     "inicio": 39.34,
+     "fin": 39.52
+    },
+    {
+     "texto": "cielo",
+     "inicio": 39.52,
+     "fin": 39.74
+    },
+    {
+     "texto": "limpio,",
+     "inicio": 39.74,
+     "fin": 40.32
+    },
+    {
+     "texto": "unas",
+     "inicio": 40.44,
+     "fin": 40.68
+    },
+    {
+     "texto": "quince",
+     "inicio": 40.68,
+     "fin": 41.1
+    },
+    {
+     "texto": "por",
+     "inicio": 41.1,
+     "fin": 41.34
+    },
+    {
+     "texto": "hora.",
+     "inicio": 41.34,
+     "fin": 41.54
+    }
+   ],
+   "inicio": 37.54,
+   "fin": 41.54
+  },
+  {
+   "texto": "Mandáselo al que pide un deseo creyendo que le cae una estrella.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 42.04,
+     "fin": 42.48
+    },
+    {
+     "texto": "al",
+     "inicio": 42.48,
+     "fin": 42.56
+    },
+    {
+     "texto": "que",
+     "inicio": 42.56,
+     "fin": 42.68
+    },
+    {
+     "texto": "pide",
+     "inicio": 42.68,
+     "fin": 42.9
+    },
+    {
+     "texto": "un",
+     "inicio": 42.9,
+     "fin": 43.0
+    },
+    {
+     "texto": "deseo",
+     "inicio": 43.0,
+     "fin": 43.48
+    },
+    {
+     "texto": "creyendo",
+     "inicio": 43.48,
+     "fin": 43.8
+    },
+    {
+     "texto": "que",
+     "inicio": 43.8,
+     "fin": 43.94
+    },
+    {
+     "texto": "le",
+     "inicio": 43.94,
+     "fin": 44.04
+    },
+    {
+     "texto": "cae",
+     "inicio": 44.04,
+     "fin": 44.24
+    },
+    {
+     "texto": "una",
+     "inicio": 44.24,
+     "fin": 44.34
+    },
+    {
+     "texto": "estrella.",
+     "inicio": 44.34,
+     "fin": 44.74
+    }
+   ],
+   "inicio": 42.04,
+   "fin": 44.74
+  }
+ ]
+}
