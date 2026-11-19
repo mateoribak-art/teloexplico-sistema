@@ -1837,7 +1837,7 @@
  {
   "slug": "047-paquete-retenido",
   "tema": "Estafa del paquete retenido: te piden pagar una tasa por link (WeLiveSecurity 2026, Chequeado)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1858,13 +1858,18 @@
     "estado": "listo",
     "cuando": "2026-11-07T17:00",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-18T12:30",
+    "motivo": "https://www.instagram.com/reel/Df41MyEigAw/"
    }
   ]
  },
  {
   "slug": "048-golpe-de-calor",
   "tema": "Golpe de calor: señales (40 °C, confusión, piel caliente y seca) y qué hacer mientras llega la ayuda (Ministerio de Salud, NHS)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1885,6 +1890,11 @@
     "estado": "listo",
     "cuando": "2026-11-07T22:16",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-18T19:30",
+    "motivo": "https://www.instagram.com/reel/Df5lQt6jLYg/"
    }
   ]
  },
