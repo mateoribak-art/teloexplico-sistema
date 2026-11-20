@@ -75,8 +75,8 @@ if __name__ == '__main__':
             r = subprocess.run([PY, '-I', '-c', 'import sys; sys.path.insert(0, r"%s"); import cola; print(sum(v["estado"] == "listo" for v in cola.cargar()))' % H],
                                cwd=H, env=dict(os.environ, TLX_CUENTA=c), capture_output=True, text=True)
             n = int(r.stdout.strip() or 99)
-            if n <= 2:
-                escribir(f'[{c}] respaldo: quedan {n} listos, la notebook produce')
+            if n <= 1:
+                escribir(f'[{c}] respaldo: quedan {n} listos (la nube no llegó), la notebook produce')
                 correr(['producir.py', 'produccion'], c, 200)
                 sincronizar(f'Notebook: respaldo producción {c}')
             else:
