@@ -15,6 +15,7 @@ export type EstadoEspera = {
   p1: number;     // 0..1 primera postergación
   p2: number;     // 0..1 segunda postergación
   ant: number;    // 0..1 anuncio "2025" (tarjeta de lo prometido)
+  en?: boolean;   // rótulos en inglés
 };
 
 const ROJO = "#ff3a2e";
@@ -126,9 +127,9 @@ export const Espera13: React.FC<{ e: EstadoEspera }> = ({ e }) => {
           );
         })}
       </group>
-      <Bandera op={e.ant} y={2.0} txt="PROMETIDO: 2025" color={AMARILLO} />
-      <Bandera op={e.p1} y={1.25} txt="POSTERGADO → MAYO 2026" />
-      <Bandera op={e.p2} y={0.5} txt="POSTERGADO → NOV 2026" />
+      <Bandera op={e.ant} y={2.0} txt={e.en ? "PROMISED: 2025" : "PROMETIDO: 2025"} color={AMARILLO} />
+      <Bandera op={e.p1} y={1.25} txt={e.en ? "DELAYED → MAY 2026" : "POSTERGADO → MAYO 2026"} />
+      <Bandera op={e.p2} y={0.5} txt={e.en ? "DELAYED → NOV 2026" : "POSTERGADO → NOV 2026"} />
     </group>
   );
 };

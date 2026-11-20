@@ -53,7 +53,8 @@ import { DURACION as DUR_051, FPS as FPS_051, LeonidasGrano3D, Portada051 } from
 import { DURACION as DUR_052, FPS as FPS_052, ZapatillaSobrecarga3D, Portada052 } from "./videos/052-zapatilla-sobrecarga/Video";
 import { DURACION as DUR_053, FPS as FPS_053, CadenasParana3D, Portada053 } from "./videos/053-cadenas-parana/Video";
 import { DURACION as DUR_057, FPS as FPS_057, Ruta40Punta3D, Portada057 } from "./videos/057-ruta-40-de-punta-a-punta/Video";
-import { DURACION as DUR_056, FPS as FPS_056, GtaTreceAnios3D, Portada056 } from "./videos/056-gta-trece-anios/Video";
+import { DURACION as DUR_058, FPS as FPS_058, AguaMate3D, Portada058 } from "./videos/058-agua-del-mate/Video";
+import { DURACION as DUR_056,FPS as FPS_056, GtaTreceAnios3D, Portada056 } from "./videos/056-gta-trece-anios/Video";
 import { DURACION as DUR_055, FPS as FPS_055, GtaViceCityMiami3D, Portada055 } from "./videos/055-gta-vice-city-miami/Video";
 import { DURACION as DUR_054, FPS as FPS_054, GtaJuegosViolentos3D, Portada054 } from "./videos/054-gta-juegos-violentos/Video";
 import { DURACION as DUR_038,FPS as FPS_038, CodigoWhatsapp3D, Portada038 } from "./videos/038-codigo-whatsapp/Video";
@@ -98,6 +99,7 @@ import { DURACION as DUR_EN028, FPS as FPS_EN028, TurkeySleepyEn028, PortadaEn02
 import { DURACION as DUR_EN029, FPS as FPS_EN029, SwimAfterEatingEn029, PortadaEn029 } from "./videos/en-029-swim-after-eating/Video";
 import { DURACION as DUR_EN030, FPS as FPS_EN030, ViolentGamesEn030, PortadaEn030 } from "./videos/en-030-violent-games/Video";
 import { DURACION as DUR_EN031, FPS as FPS_EN031, GtaViceCityEn031, PortadaEn031 } from "./videos/en-031-gta-vice-city/Video";
+import { DURACION as DUR_EN032, FPS as FPS_EN032, GtaThirteenEn032, PortadaEn032 } from "./videos/en-032-gta-13-years/Video";
 import { DURACION as DUR_EN001,FPS as FPS_EN001, PhoneRiceEn001, PortadaEn001 } from "./videos/en-001-phone-rice/Video";
 
 // Cada video nuevo suma su <Composition> (id "hNNN-slug") y su <Still> de portada (id "pNNN-slug").
@@ -165,6 +167,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p054-gta-juegos-violentos" component={Portada054} width={ANCHO} height={ALTO} />
         <Composition id="h057-ruta-40-de-punta-a-punta" component={Ruta40Punta3D} durationInFrames={DUR_057} fps={FPS_057} width={ANCHO} height={ALTO} />
         <Still id="p057-ruta-40-de-punta-a-punta" component={Portada057} width={ANCHO} height={ALTO} />
+        <Composition id="h058-agua-del-mate" component={AguaMate3D} durationInFrames={DUR_058} fps={FPS_058} width={ANCHO} height={ALTO} />
+        <Still id="p058-agua-del-mate" component={Portada058} width={ANCHO} height={ALTO} />
         <Composition id="h056-gta-trece-anios"component={GtaTreceAnios3D} durationInFrames={DUR_056} fps={FPS_056} width={ANCHO} height={ALTO} />
         <Still id="p056-gta-trece-anios" component={Portada056} width={ANCHO} height={ALTO} />
         <Composition id="h055-gta-vice-city-miami"component={GtaViceCityMiami3D} durationInFrames={DUR_055} fps={FPS_055} width={ANCHO} height={ALTO} />
@@ -254,6 +258,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-030-violent-games" component={PortadaEn030} width={ANCHO} height={ALTO} />
         <Composition id="hen-031-gta-vice-city" component={GtaViceCityEn031} durationInFrames={DUR_EN031} fps={FPS_EN031} width={ANCHO} height={ALTO} />
         <Still id="pen-031-gta-vice-city" component={PortadaEn031} width={ANCHO} height={ALTO} />
+        <Composition id="hen-032-gta-13-years" component={GtaThirteenEn032} durationInFrames={DUR_EN032} fps={FPS_EN032} width={ANCHO} height={ALTO} />
+        <Still id="pen-032-gta-13-years" component={PortadaEn032} width={ANCHO} height={ALTO} />
       </Folder>
       <Folder name="carruseles">
         <Still id="carrusel" component={CarruselPlaca} width={ANCHO_C} height={ALTO_C} defaultProps={{ datos: { origen: [], placas: [{ tipo: "cierre", texto: "placa de prueba" }] }, i: 0 }} />

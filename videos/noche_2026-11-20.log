@@ -42,3 +42,15 @@ Uso: 13 pasos · 13,517 tokens nuevos · 1,082,815 de caché · 7,421 escritos �
 2026-11-20 15:12 Render de 057-ruta-40-de-punta-a-punta (sin Claude).
 2026-11-20 15:31 057-ruta-40-de-punta-a-punta: listo (render sin Claude)
 2026-11-20 15:31 Termina la producción (ok).
+2026-11-20 19:24 Arranca la producción (5 listos en la cola, meta 10).
+Un video listo para render; el segundo no lo produje.
+
+- **Listo para render:** `058-agua-del-mate`, que dice que el agua del mate va a 75–80 °C según el INYM y no hervida. Es un debate argentino con regla para guardar y la pregunta «¿amargo o con azúcar?». El primer chequeo lo rechazó por una frase sin fuente («no se puede tomar») y por un «nunca hervida» demasiado absoluto. Corregí y el segundo chequeo lo aprobó. Voz de 36,7 s (106 de 106 palabras), tsc sin errores y 2 vueltas de cuadros. `producir.py` lo renderiza esta noche.
+- **Apartados:** no rescaté ninguno. Los de «chequeo rechazado» ya habían agotado sus 2 intentos.
+- **Segundo video:** no lo produje, porque con el tema ya elegido y el tiempo del turno no alcanzó. Había menos de 10 listos en la cola, así que habría correspondido.
+
+Dato que quedó en el log: seguidores a ~+22 por día contra ~+95 por día necesarios (no lo medí de nuevo hoy).
+Uso: 24 pasos · 19,569 tokens nuevos · 1,545,860 de caché · 7,023 escritos · equivale a US$ 1.14 de API
+2026-11-20 19:30 Render de 058-agua-del-mate (sin Claude).
+2026-11-20 19:36 058-agua-del-mate: listo (render sin Claude)
+2026-11-20 19:36 Termina la producción (ok).

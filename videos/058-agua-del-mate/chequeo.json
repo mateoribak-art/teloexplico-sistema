@@ -1,0 +1,48 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "La única cifra (75 a 80 grados) y su atribución al INYM están confirmadas en una fuente primaria (notas del INYM en inym.org.ar). El efecto del agua hirviendo (amargo, gasta la yerba) está presentado como probable ('suele', 'según especialistas'), que es como lo respaldan las notas de prensa. No hay claims de salud, seguridad ni plata, y no hay afirmaciones falsas ni dudosas en cifras. Observación menor: el INYM sugiere ese rango para el agua más caliente, tras las primeras cebadas con agua tibia; la frase lo simplifica pero no lo distorsiona.",
+  "afirmaciones": [
+    {
+      "texto": "Si esperás a que la pava silbe para cebar el mate, el agua te quedó demasiado caliente. (guion y caption)",
+      "fuente": "Inferencia: la pava silba cuando el agua está cerca de hervir (~100 °C) y el INYM recomienda 75-80 °C (inym.org.ar/noticias/yerba-mate-argentina/78425-claves-para-preparar-un-buen-mate.html)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El agua del mate no tiene que hervir.",
+      "fuente": "INYM (inym.org.ar, 'Claves para preparar un buen mate'); La Nación (sommelier de yerba mate citando estudios propios y del INYM); Diario Uno, La Gaceta",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El Instituto Nacional de la Yerba Mate recomienda cebar con agua de 75 a 80 grados.",
+      "fuente": "INYM, inym.org.ar/noticias/yerba-mate-argentina/78425-claves-para-preparar-un-buen-mate.html (agua más caliente, a unos 75 a 80 °C, tras las primeras cebadas con agua tibia); también La Nación 2022 (nid24082022)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El agua hirviendo, que está a cien, suele dejar el mate amargo y gastar antes la yerba, según especialistas.",
+      "fuente": "Notas de prensa con especialistas (La Nación, Diario Uno, La Gaceta, Cronista); sin fuente primaria científica. El agua hierve a 100 °C a nivel del mar.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "No hace falta un termómetro; apagá la pava antes de que hierva, o esperá un ratito después de que silbe.",
+      "fuente": "Consejo práctico; Diario Uno y otras notas recomiendan dejar reposar unos segundos el agua hervida. Sin fuente primaria, no es un dato.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Guardate este número: 75 a 80 / Guardalo: 75 a 80 grados, mejor que no hierva.",
+      "fuente": "INYM (ver arriba)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes: INYM (inym.org.ar), notas de especialistas en prensa. (caption)",
+      "fuente": "inym.org.ar existe y publica la recomendación; la prensa citada es genérica pero coherente con lo dicho",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "titulo": "El agua del mate no tiene que hervir: 75 a 80 grados",
+  "destinatario": "se lo manda alguien que toma mate a su viejo o a su pareja que apaga la pava recién cuando silba, para decirle que el agua va más tibia",
+  "regla_guardable": "Agua para el mate: 75 a 80 grados, mejor que no hierva",
+  "interaccion": "guardar y comentar",
+  "pregunta_comentarios": "¿Tu mate es amargo o con azúcar?",
+  "pilar": "argentina",
+  "receta": "El que lo hace mal: un error cotidiano y la regla con número",
+  "fondo": "oscuro",
+  "serie": "costumbres",
+  "fuentes": [
+    "INYM (Instituto Nacional de la Yerba Mate): recomienda cebar con agua de 75 a 80 grados, empezando con agua más tibia (inym.org.ar)",
+    "Notas de especialistas en prensa (La Nación, Infobae): el agua hirviendo deja el mate amargo y gasta antes la yerba"
+  ],
+  "frases": [
+    { "texto": "Si esperás a que la pava silbe para cebar el mate, el agua te quedó demasiado caliente.", "estilo": "Directo y cómplice, afirmando." },
+    { "texto": "El agua del mate no tiene que hervir.", "estilo": "Seco y contundente." },
+    { "texto": "El Instituto Nacional de la Yerba Mate recomienda cebar con agua de setenta y cinco a ochenta grados.", "estilo": "Narrador claro, mostrando el dato." },
+    { "texto": "El agua hirviendo, que está a cien, suele dejar el mate amargo y gastar antes la yerba, según especialistas.", "estilo": "Explicativo, con ritmo." },
+    { "texto": "Ojo: no hace falta un termómetro.", "estilo": "Aclarando, tranquilo." },
+    { "texto": "Apagá la pava antes de que hierva, o esperá un ratito después de que silbe.", "estilo": "Práctico y amable." },
+    { "texto": "Guardate este número: setenta y cinco a ochenta.", "estilo": "Firme, cerrando la regla." },
+    { "texto": "¿Tu mate es amargo o con azúcar?", "estilo": "Pregunta abierta, curiosa." },
+    { "texto": "Mandáselo al que apaga la pava cuando silba.", "estilo": "Cómplice, con humor." }
+  ]
+}

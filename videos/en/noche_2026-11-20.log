@@ -25,3 +25,13 @@ Uso: 11 pasos · 8,668 tokens nuevos · 576,088 de caché · 2,047 escritos · e
 2026-11-20 15:34 Render de en-031-gta-vice-city (sin Claude).
 2026-11-20 15:42 en-031-gta-vice-city: listo (render sin Claude)
 2026-11-20 15:42 Termina la producción (ok).
+2026-11-20 19:36 Arranca la producción (7 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+**Listo para render:** `en-032-gta-13-years` (GTA 6, video 3 de 3, adaptado de `056-gta-trece-anios`). Quedó en estado `render` y lo renderiza `producir.py`. El primer chequeo rechazó el caption por decir "GTA 6 is out" sin fuente primaria; lo reescribí con "was set for" y el segundo chequeo lo aprobó. La voz dura 34,5 s, `tsc` pasó y revisé los cuadros.
+
+**Apartados e incompletos:** ninguno. No había videos apartados por chequeo para rescatar.
+
+**Interacción y log:** elegí `comentar` ("How old were you when GTA V came out?"). La línea del turno ya está en `videos/en/produccion.log`, y la idea quedó marcada como usada en `ideas.md`.
+Uso: 14 pasos · 8,274 tokens nuevos · 941,989 de caché · 2,496 escritos · equivale a US$ 1.10 de API
+2026-11-20 19:41 Render de en-032-gta-13-years (sin Claude).
+2026-11-20 19:48 en-032-gta-13-years: listo (render sin Claude)
+2026-11-20 19:48 Termina la producción (ok).

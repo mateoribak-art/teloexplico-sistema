@@ -1,0 +1,565 @@
+{
+ "duracion": 34.51,
+ "frases": [
+  {
+   "texto": "When GTA five came out, you might still have been in school.",
+   "palabras": [
+    {
+     "texto": "When",
+     "inicio": 0.0,
+     "fin": 0.16
+    },
+    {
+     "texto": "GTA",
+     "inicio": 0.16,
+     "fin": 0.48
+    },
+    {
+     "texto": "five",
+     "inicio": 0.48,
+     "fin": 0.96
+    },
+    {
+     "texto": "came",
+     "inicio": 0.96,
+     "fin": 1.34
+    },
+    {
+     "texto": "out,",
+     "inicio": 1.34,
+     "fin": 1.6
+    },
+    {
+     "texto": "you",
+     "inicio": 1.88,
+     "fin": 2.14
+    },
+    {
+     "texto": "might",
+     "inicio": 2.14,
+     "fin": 2.34
+    },
+    {
+     "texto": "still",
+     "inicio": 2.34,
+     "fin": 2.66
+    },
+    {
+     "texto": "have",
+     "inicio": 2.66,
+     "fin": 2.8
+    },
+    {
+     "texto": "been",
+     "inicio": 2.8,
+     "fin": 2.88
+    },
+    {
+     "texto": "in",
+     "inicio": 2.88,
+     "fin": 3.0
+    },
+    {
+     "texto": "school.",
+     "inicio": 3.0,
+     "fin": 3.2
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.2
+  },
+  {
+   "texto": "That was thirteen years ago.",
+   "palabras": [
+    {
+     "texto": "That",
+     "inicio": 3.78,
+     "fin": 3.9
+    },
+    {
+     "texto": "was",
+     "inicio": 3.9,
+     "fin": 4.06
+    },
+    {
+     "texto": "thirteen",
+     "inicio": 4.06,
+     "fin": 4.6
+    },
+    {
+     "texto": "years",
+     "inicio": 4.6,
+     "fin": 5.22
+    },
+    {
+     "texto": "ago.",
+     "inicio": 5.22,
+     "fin": 5.6
+    }
+   ],
+   "inicio": 3.78,
+   "fin": 5.6
+  },
+  {
+   "texto": "GTA five came out in twenty thirteen, and GTA six in November twenty twenty-six.",
+   "palabras": [
+    {
+     "texto": "GTA",
+     "inicio": 6.2,
+     "fin": 6.56
+    },
+    {
+     "texto": "five",
+     "inicio": 6.56,
+     "fin": 7.08
+    },
+    {
+     "texto": "came",
+     "inicio": 7.08,
+     "fin": 7.3
+    },
+    {
+     "texto": "out",
+     "inicio": 7.3,
+     "fin": 7.5
+    },
+    {
+     "texto": "in",
+     "inicio": 7.5,
+     "fin": 7.64
+    },
+    {
+     "texto": "twenty",
+     "inicio": 7.64,
+     "fin": 7.9
+    },
+    {
+     "texto": "thirteen,",
+     "inicio": 7.9,
+     "fin": 8.38
+    },
+    {
+     "texto": "and",
+     "inicio": 8.8,
+     "fin": 8.98
+    },
+    {
+     "texto": "GTA",
+     "inicio": 8.98,
+     "fin": 9.22
+    },
+    {
+     "texto": "six",
+     "inicio": 9.22,
+     "fin": 9.8
+    },
+    {
+     "texto": "in",
+     "inicio": 9.8,
+     "fin": 10.56
+    },
+    {
+     "texto": "November",
+     "inicio": 10.56,
+     "fin": 11.06
+    },
+    {
+     "texto": "twenty",
+     "inicio": 11.06,
+     "fin": 11.56
+    },
+    {
+     "texto": "twenty-six.",
+     "inicio": 11.56,
+     "fin": 12.1
+    }
+   ],
+   "inicio": 6.2,
+   "fin": 12.1
+  },
+  {
+   "texto": "And the wait got even longer.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 12.62,
+     "fin": 12.82
+    },
+    {
+     "texto": "the",
+     "inicio": 12.82,
+     "fin": 12.92
+    },
+    {
+     "texto": "wait",
+     "inicio": 12.92,
+     "fin": 13.06
+    },
+    {
+     "texto": "got",
+     "inicio": 13.06,
+     "fin": 13.28
+    },
+    {
+     "texto": "even",
+     "inicio": 13.28,
+     "fin": 13.48
+    },
+    {
+     "texto": "longer.",
+     "inicio": 13.48,
+     "fin": 13.8
+    }
+   ],
+   "inicio": 12.62,
+   "fin": 13.8
+  },
+  {
+   "texto": "Rockstar had announced it for twenty twenty-five.",
+   "palabras": [
+    {
+     "texto": "Rockstar",
+     "inicio": 14.54,
+     "fin": 14.86
+    },
+    {
+     "texto": "had",
+     "inicio": 14.86,
+     "fin": 15.08
+    },
+    {
+     "texto": "announced",
+     "inicio": 15.08,
+     "fin": 15.42
+    },
+    {
+     "texto": "it",
+     "inicio": 15.42,
+     "fin": 15.6
+    },
+    {
+     "texto": "for",
+     "inicio": 15.6,
+     "fin": 15.74
+    },
+    {
+     "texto": "twenty",
+     "inicio": 15.74,
+     "fin": 15.98
+    },
+    {
+     "texto": "twenty-five.",
+     "inicio": 15.98,
+     "fin": 16.46
+    }
+   ],
+   "inicio": 14.54,
+   "fin": 16.46
+  },
+  {
+   "texto": "In May twenty twenty-five, it moved to May twenty twenty-six.",
+   "palabras": [
+    {
+     "texto": "In",
+     "inicio": 16.98,
+     "fin": 17.1
+    },
+    {
+     "texto": "May",
+     "inicio": 17.1,
+     "fin": 17.34
+    },
+    {
+     "texto": "twenty",
+     "inicio": 17.34,
+     "fin": 17.7
+    },
+    {
+     "texto": "twenty-five,",
+     "inicio": 17.7,
+     "fin": 18.26
+    },
+    {
+     "texto": "it",
+     "inicio": 18.42,
+     "fin": 18.5
+    },
+    {
+     "texto": "moved",
+     "inicio": 18.5,
+     "fin": 18.82
+    },
+    {
+     "texto": "to",
+     "inicio": 18.82,
+     "fin": 19.06
+    },
+    {
+     "texto": "May",
+     "inicio": 19.06,
+     "fin": 19.22
+    },
+    {
+     "texto": "twenty",
+     "inicio": 19.22,
+     "fin": 19.54
+    },
+    {
+     "texto": "twenty-six.",
+     "inicio": 19.54,
+     "fin": 20.06
+    }
+   ],
+   "inicio": 16.98,
+   "fin": 20.06
+  },
+  {
+   "texto": "Then in November twenty twenty-five, it moved to this November. Two delays.",
+   "palabras": [
+    {
+     "texto": "Then",
+     "inicio": 20.52,
+     "fin": 20.82
+    },
+    {
+     "texto": "in",
+     "inicio": 20.82,
+     "fin": 21.08
+    },
+    {
+     "texto": "November",
+     "inicio": 21.08,
+     "fin": 21.46
+    },
+    {
+     "texto": "twenty",
+     "inicio": 21.46,
+     "fin": 21.84
+    },
+    {
+     "texto": "twenty-five,",
+     "inicio": 21.84,
+     "fin": 22.38
+    },
+    {
+     "texto": "it",
+     "inicio": 22.52,
+     "fin": 22.58
+    },
+    {
+     "texto": "moved",
+     "inicio": 22.58,
+     "fin": 22.78
+    },
+    {
+     "texto": "to",
+     "inicio": 22.78,
+     "fin": 22.98
+    },
+    {
+     "texto": "this",
+     "inicio": 22.98,
+     "fin": 23.16
+    },
+    {
+     "texto": "November.",
+     "inicio": 23.16,
+     "fin": 23.48
+    },
+    {
+     "texto": "Two",
+     "inicio": 23.98,
+     "fin": 24.18
+    },
+    {
+     "texto": "delays.",
+     "inicio": 24.18,
+     "fin": 24.46
+    }
+   ],
+   "inicio": 20.52,
+   "fin": 24.46
+  },
+  {
+   "texto": "Thirteen years and two months between one and the other.",
+   "palabras": [
+    {
+     "texto": "Thirteen",
+     "inicio": 25.14,
+     "fin": 25.62
+    },
+    {
+     "texto": "years",
+     "inicio": 25.62,
+     "fin": 26.02
+    },
+    {
+     "texto": "and",
+     "inicio": 26.02,
+     "fin": 26.32
+    },
+    {
+     "texto": "two",
+     "inicio": 26.32,
+     "fin": 26.6
+    },
+    {
+     "texto": "months",
+     "inicio": 26.6,
+     "fin": 26.92
+    },
+    {
+     "texto": "between",
+     "inicio": 26.92,
+     "fin": 27.26
+    },
+    {
+     "texto": "one",
+     "inicio": 27.26,
+     "fin": 27.5
+    },
+    {
+     "texto": "and",
+     "inicio": 27.5,
+     "fin": 27.62
+    },
+    {
+     "texto": "the",
+     "inicio": 27.62,
+     "fin": 27.74
+    },
+    {
+     "texto": "other.",
+     "inicio": 27.74,
+     "fin": 27.88
+    }
+   ],
+   "inicio": 25.14,
+   "fin": 27.88
+  },
+  {
+   "texto": "How old were you when GTA five came out?",
+   "palabras": [
+    {
+     "texto": "How",
+     "inicio": 28.42,
+     "fin": 28.86
+    },
+    {
+     "texto": "old",
+     "inicio": 28.86,
+     "fin": 29.06
+    },
+    {
+     "texto": "were",
+     "inicio": 29.06,
+     "fin": 29.2
+    },
+    {
+     "texto": "you",
+     "inicio": 29.2,
+     "fin": 29.46
+    },
+    {
+     "texto": "when",
+     "inicio": 29.46,
+     "fin": 29.86
+    },
+    {
+     "texto": "GTA",
+     "inicio": 29.86,
+     "fin": 30.12
+    },
+    {
+     "texto": "five",
+     "inicio": 30.12,
+     "fin": 30.52
+    },
+    {
+     "texto": "came",
+     "inicio": 30.52,
+     "fin": 30.72
+    },
+    {
+     "texto": "out?",
+     "inicio": 30.72,
+     "fin": 30.88
+    }
+   ],
+   "inicio": 28.42,
+   "fin": 30.88
+  },
+  {
+   "texto": "Send this to the friend who was already waiting when five came out.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 31.3,
+     "fin": 31.54
+    },
+    {
+     "texto": "this",
+     "inicio": 31.54,
+     "fin": 31.7
+    },
+    {
+     "texto": "to",
+     "inicio": 31.7,
+     "fin": 31.84
+    },
+    {
+     "texto": "the",
+     "inicio": 31.84,
+     "fin": 31.92
+    },
+    {
+     "texto": "friend",
+     "inicio": 31.92,
+     "fin": 32.14
+    },
+    {
+     "texto": "who",
+     "inicio": 32.14,
+     "fin": 32.34
+    },
+    {
+     "texto": "was",
+     "inicio": 32.34,
+     "fin": 32.44
+    },
+    {
+     "texto": "already",
+     "inicio": 32.44,
+     "fin": 32.9
+    },
+    {
+     "texto": "waiting",
+     "inicio": 32.9,
+     "fin": 33.4
+    },
+    {
+     "texto": "when",
+     "inicio": 33.4,
+     "fin": 33.78
+    },
+    {
+     "texto": "five",
+     "inicio": 33.78,
+     "fin": 34.02
+    },
+    {
+     "texto": "came",
+     "inicio": 34.02,
+     "fin": 34.24
+    },
+    {
+     "texto": "out.",
+     "inicio": 34.24,
+     "fin": 34.44
+    }
+   ],
+   "inicio": 31.3,
+   "fin": 34.44
+  }
+ ]
+}

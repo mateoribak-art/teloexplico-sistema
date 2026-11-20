@@ -1,0 +1,29 @@
+{
+  "titulo": "GTA 6: thirteen years since GTA V and two delays",
+  "destinatario": "a gamer who played GTA V as a kid sends it to the friend or sibling who waited with them, to say 'thirteen years, man'",
+  "regla_guardable": "GTA V: 9/17/2013. GTA 6: 11/19/2026. Thirteen years and two months apart; delayed twice (late 2025 to May 2026, then to November 2026)",
+  "interaccion": "comentar",
+  "pregunta_comentarios": "How old were you when GTA V came out?",
+  "pilar": "fandom",
+  "receta": "Your life on a grid: a timeline of years counted on screen, with dates and sources",
+  "fondo": "oscuro",
+  "serie": "sin serie (actualidad)",
+  "adaptado_de": "056-gta-trece-anios",
+  "fuentes": [
+    "Rockstar Games / Take-Two Interactive: GTA V released September 17, 2013 (PS3 and Xbox 360)",
+    "Rockstar Games / Take-Two: GTA 6 announced for 2025 (first trailer, December 2023); delayed in May 2025 to May 26, 2026 and in November 2025 to November 19, 2026",
+    "Rockstar Games (rockstargames.com/VI): GTA 6 available November 19, 2026 on PS5 and Xbox Series X|S"
+  ],
+  "frases": [
+    { "texto": "When GTA five came out, you might still have been in school.", "estilo": "Direct and complicit, like starting a chat." },
+    { "texto": "That was thirteen years ago.", "estilo": "Dry, with a half smile." },
+    { "texto": "GTA five came out in twenty thirteen, and GTA six in November twenty twenty-six.", "estilo": "Narrator, showing the fact." },
+    { "texto": "And the wait got even longer.", "estilo": "Short and punchy." },
+    { "texto": "Rockstar had announced it for twenty twenty-five.", "estilo": "Clear and firm, with rhythm." },
+    { "texto": "In May twenty twenty-five, it moved to May twenty twenty-six.", "estilo": "Clear, with rhythm." },
+    { "texto": "Then in November twenty twenty-five, it moved to this November. Two delays.", "estilo": "With a touch of irony." },
+    { "texto": "Thirteen years and two months between one and the other.", "estilo": "Emphatic, closing the count." },
+    { "texto": "How old were you when GTA five came out?", "estilo": "Open, curious question." },
+    { "texto": "Send this to the friend who was already waiting when five came out.", "estilo": "Complicit, with humor." }
+  ]
+}

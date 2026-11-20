@@ -1098,5 +1098,32 @@
   ],
   "prioridad": "actualidad",
   "creado": "2026-11-20T15:32"
+ },
+ {
+  "slug": "en-032-gta-13-years",
+  "tema": "GTA 6: 13 years since GTA V (2013) and two delays; How old were you?",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-20T19:37",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-20T19:37",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-20T19:41",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-20T19:48",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

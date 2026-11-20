@@ -1,0 +1,598 @@
+{
+ "duracion": 36.69,
+ "frases": [
+  {
+   "texto": "Si esperás a que la pava silbe para cebar el mate, el agua te quedó demasiado caliente.",
+   "palabras": [
+    {
+     "texto": "Si",
+     "inicio": 0.0,
+     "fin": 0.18
+    },
+    {
+     "texto": "esperás",
+     "inicio": 0.18,
+     "fin": 0.6
+    },
+    {
+     "texto": "a",
+     "inicio": 0.6,
+     "fin": 0.7
+    },
+    {
+     "texto": "que",
+     "inicio": 0.7,
+     "fin": 0.8
+    },
+    {
+     "texto": "la",
+     "inicio": 0.8,
+     "fin": 0.96
+    },
+    {
+     "texto": "pava",
+     "inicio": 0.96,
+     "fin": 1.16
+    },
+    {
+     "texto": "silbe",
+     "inicio": 1.16,
+     "fin": 1.7
+    },
+    {
+     "texto": "para",
+     "inicio": 1.7,
+     "fin": 1.96
+    },
+    {
+     "texto": "cebar",
+     "inicio": 1.96,
+     "fin": 2.24
+    },
+    {
+     "texto": "el",
+     "inicio": 2.24,
+     "fin": 2.4
+    },
+    {
+     "texto": "mate,",
+     "inicio": 2.4,
+     "fin": 2.6
+    },
+    {
+     "texto": "el",
+     "inicio": 3.24,
+     "fin": 3.44
+    },
+    {
+     "texto": "agua",
+     "inicio": 3.44,
+     "fin": 3.7
+    },
+    {
+     "texto": "te",
+     "inicio": 3.7,
+     "fin": 3.86
+    },
+    {
+     "texto": "quedó",
+     "inicio": 3.86,
+     "fin": 4.18
+    },
+    {
+     "texto": "demasiado",
+     "inicio": 4.18,
+     "fin": 4.66
+    },
+    {
+     "texto": "caliente.",
+     "inicio": 4.66,
+     "fin": 5.28
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 5.28
+  },
+  {
+   "texto": "El agua del mate no tiene que hervir.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 5.7,
+     "fin": 5.84
+    },
+    {
+     "texto": "agua",
+     "inicio": 5.84,
+     "fin": 6.02
+    },
+    {
+     "texto": "del",
+     "inicio": 6.02,
+     "fin": 6.2
+    },
+    {
+     "texto": "mate",
+     "inicio": 6.2,
+     "fin": 6.44
+    },
+    {
+     "texto": "no",
+     "inicio": 6.44,
+     "fin": 6.72
+    },
+    {
+     "texto": "tiene",
+     "inicio": 6.72,
+     "fin": 7.02
+    },
+    {
+     "texto": "que",
+     "inicio": 7.02,
+     "fin": 7.2
+    },
+    {
+     "texto": "hervir.",
+     "inicio": 7.2,
+     "fin": 7.44
+    }
+   ],
+   "inicio": 5.7,
+   "fin": 7.44
+  },
+  {
+   "texto": "El Instituto Nacional de la Yerba Mate recomienda cebar con agua de setenta y cinco a ochenta grados.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 8.24,
+     "fin": 8.58
+    },
+    {
+     "texto": "Instituto",
+     "inicio": 8.58,
+     "fin": 9.08
+    },
+    {
+     "texto": "Nacional",
+     "inicio": 9.08,
+     "fin": 9.5
+    },
+    {
+     "texto": "de",
+     "inicio": 9.5,
+     "fin": 9.74
+    },
+    {
+     "texto": "la",
+     "inicio": 9.74,
+     "fin": 9.86
+    },
+    {
+     "texto": "Yerba",
+     "inicio": 9.86,
+     "fin": 10.12
+    },
+    {
+     "texto": "Mate",
+     "inicio": 10.12,
+     "fin": 10.4
+    },
+    {
+     "texto": "recomienda",
+     "inicio": 10.4,
+     "fin": 11.16
+    },
+    {
+     "texto": "cebar",
+     "inicio": 11.16,
+     "fin": 11.5
+    },
+    {
+     "texto": "con",
+     "inicio": 11.5,
+     "fin": 11.7
+    },
+    {
+     "texto": "agua",
+     "inicio": 11.7,
+     "fin": 11.88
+    },
+    {
+     "texto": "de",
+     "inicio": 11.88,
+     "fin": 12.1
+    },
+    {
+     "texto": "setenta",
+     "inicio": 12.1,
+     "fin": 12.54
+    },
+    {
+     "texto": "y",
+     "inicio": 12.54,
+     "fin": 12.64
+    },
+    {
+     "texto": "cinco",
+     "inicio": 12.64,
+     "fin": 13.0
+    },
+    {
+     "texto": "a",
+     "inicio": 13.0,
+     "fin": 13.3
+    },
+    {
+     "texto": "ochenta",
+     "inicio": 13.3,
+     "fin": 13.66
+    },
+    {
+     "texto": "grados.",
+     "inicio": 13.66,
+     "fin": 14.24
+    }
+   ],
+   "inicio": 8.24,
+   "fin": 14.24
+  },
+  {
+   "texto": "El agua hirviendo, que está a cien, suele dejar el mate amargo y gastar antes la yerba, según especialistas.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 14.74,
+     "fin": 14.94
+    },
+    {
+     "texto": "agua",
+     "inicio": 14.94,
+     "fin": 15.06
+    },
+    {
+     "texto": "hirviendo,",
+     "inicio": 15.06,
+     "fin": 15.54
+    },
+    {
+     "texto": "que",
+     "inicio": 15.84,
+     "fin": 15.88
+    },
+    {
+     "texto": "está",
+     "inicio": 15.88,
+     "fin": 16.08
+    },
+    {
+     "texto": "a",
+     "inicio": 16.08,
+     "fin": 16.28
+    },
+    {
+     "texto": "cien,",
+     "inicio": 16.28,
+     "fin": 16.5
+    },
+    {
+     "texto": "suele",
+     "inicio": 17.04,
+     "fin": 17.3
+    },
+    {
+     "texto": "dejar",
+     "inicio": 17.3,
+     "fin": 17.56
+    },
+    {
+     "texto": "el",
+     "inicio": 17.56,
+     "fin": 17.74
+    },
+    {
+     "texto": "mate",
+     "inicio": 17.74,
+     "fin": 17.96
+    },
+    {
+     "texto": "amargo",
+     "inicio": 17.96,
+     "fin": 18.46
+    },
+    {
+     "texto": "y",
+     "inicio": 18.46,
+     "fin": 18.68
+    },
+    {
+     "texto": "gastar",
+     "inicio": 18.68,
+     "fin": 19.02
+    },
+    {
+     "texto": "antes",
+     "inicio": 19.02,
+     "fin": 19.24
+    },
+    {
+     "texto": "la",
+     "inicio": 19.24,
+     "fin": 19.4
+    },
+    {
+     "texto": "yerba,",
+     "inicio": 19.4,
+     "fin": 19.74
+    },
+    {
+     "texto": "según",
+     "inicio": 20.0,
+     "fin": 20.2
+    },
+    {
+     "texto": "especialistas.",
+     "inicio": 20.2,
+     "fin": 20.82
+    }
+   ],
+   "inicio": 14.74,
+   "fin": 20.82
+  },
+  {
+   "texto": "Ojo: no hace falta un termómetro.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 21.36,
+     "fin": 21.66
+    },
+    {
+     "texto": "no",
+     "inicio": 22.04,
+     "fin": 22.16
+    },
+    {
+     "texto": "hace",
+     "inicio": 22.16,
+     "fin": 22.3
+    },
+    {
+     "texto": "falta",
+     "inicio": 22.3,
+     "fin": 22.54
+    },
+    {
+     "texto": "un",
+     "inicio": 22.54,
+     "fin": 22.7
+    },
+    {
+     "texto": "termómetro.",
+     "inicio": 22.7,
+     "fin": 23.18
+    }
+   ],
+   "inicio": 21.36,
+   "fin": 23.18
+  },
+  {
+   "texto": "Apagá la pava antes de que hierva, o esperá un ratito después de que silbe.",
+   "palabras": [
+    {
+     "texto": "Apagá",
+     "inicio": 23.68,
+     "fin": 24.0
+    },
+    {
+     "texto": "la",
+     "inicio": 24.0,
+     "fin": 24.16
+    },
+    {
+     "texto": "pava",
+     "inicio": 24.16,
+     "fin": 24.42
+    },
+    {
+     "texto": "antes",
+     "inicio": 24.42,
+     "fin": 24.82
+    },
+    {
+     "texto": "de",
+     "inicio": 24.82,
+     "fin": 24.96
+    },
+    {
+     "texto": "que",
+     "inicio": 24.96,
+     "fin": 25.06
+    },
+    {
+     "texto": "hierva,",
+     "inicio": 25.06,
+     "fin": 25.46
+    },
+    {
+     "texto": "o",
+     "inicio": 25.8,
+     "fin": 26.04
+    },
+    {
+     "texto": "esperá",
+     "inicio": 26.04,
+     "fin": 26.36
+    },
+    {
+     "texto": "un",
+     "inicio": 26.36,
+     "fin": 26.46
+    },
+    {
+     "texto": "ratito",
+     "inicio": 26.46,
+     "fin": 26.88
+    },
+    {
+     "texto": "después",
+     "inicio": 26.88,
+     "fin": 27.16
+    },
+    {
+     "texto": "de",
+     "inicio": 27.16,
+     "fin": 27.32
+    },
+    {
+     "texto": "que",
+     "inicio": 27.32,
+     "fin": 27.42
+    },
+    {
+     "texto": "silbe.",
+     "inicio": 27.42,
+     "fin": 27.8
+    }
+   ],
+   "inicio": 23.68,
+   "fin": 27.8
+  },
+  {
+   "texto": "Guardate este número: setenta y cinco a ochenta.",
+   "palabras": [
+    {
+     "texto": "Guardate",
+     "inicio": 28.22,
+     "fin": 28.74
+    },
+    {
+     "texto": "este",
+     "inicio": 28.74,
+     "fin": 28.92
+    },
+    {
+     "texto": "número:",
+     "inicio": 28.92,
+     "fin": 29.22
+    },
+    {
+     "texto": "setenta",
+     "inicio": 29.7,
+     "fin": 30.24
+    },
+    {
+     "texto": "y",
+     "inicio": 30.24,
+     "fin": 30.34
+    },
+    {
+     "texto": "cinco",
+     "inicio": 30.34,
+     "fin": 30.62
+    },
+    {
+     "texto": "a",
+     "inicio": 30.62,
+     "fin": 31.08
+    },
+    {
+     "texto": "ochenta.",
+     "inicio": 31.08,
+     "fin": 31.52
+    }
+   ],
+   "inicio": 28.22,
+   "fin": 31.52
+  },
+  {
+   "texto": "¿Tu mate es amargo o con azúcar?",
+   "palabras": [
+    {
+     "texto": "¿Tu",
+     "inicio": 31.96,
+     "fin": 32.22
+    },
+    {
+     "texto": "mate",
+     "inicio": 32.22,
+     "fin": 32.44
+    },
+    {
+     "texto": "es",
+     "inicio": 32.44,
+     "fin": 32.66
+    },
+    {
+     "texto": "amargo",
+     "inicio": 32.66,
+     "fin": 33.1
+    },
+    {
+     "texto": "o",
+     "inicio": 33.1,
+     "fin": 33.52
+    },
+    {
+     "texto": "con",
+     "inicio": 33.52,
+     "fin": 33.7
+    },
+    {
+     "texto": "azúcar?",
+     "inicio": 33.7,
+     "fin": 34.06
+    }
+   ],
+   "inicio": 31.96,
+   "fin": 34.06
+  },
+  {
+   "texto": "Mandáselo al que apaga la pava cuando silba.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 34.56,
+     "fin": 35.1
+    },
+    {
+     "texto": "al",
+     "inicio": 35.1,
+     "fin": 35.22
+    },
+    {
+     "texto": "que",
+     "inicio": 35.22,
+     "fin": 35.34
+    },
+    {
+     "texto": "apaga",
+     "inicio": 35.34,
+     "fin": 35.64
+    },
+    {
+     "texto": "la",
+     "inicio": 35.64,
+     "fin": 35.74
+    },
+    {
+     "texto": "pava",
+     "inicio": 35.74,
+     "fin": 35.98
+    },
+    {
+     "texto": "cuando",
+     "inicio": 35.98,
+     "fin": 36.14
+    },
+    {
+     "texto": "silba.",
+     "inicio": 36.14,
+     "fin": 36.66
+    }
+   ],
+   "inicio": 34.56,
+   "fin": 36.66
+  }
+ ]
+}

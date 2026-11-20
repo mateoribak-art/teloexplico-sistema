@@ -1,0 +1,18 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segunda pasada con busqueda web. Todas las fechas verificadas: GTA V 17/9/2013, anuncio para 2025, retraso de mayo 2025 a 26/5/2026, retraso de noviembre 2025 a 19/11/2026, 13 anos y 2 meses. El caption ya no afirma que GTA 6 salio: dice 'was set for' / 'Rockstar set ... release for November 19, 2026', que es verificable y no depende de si el lanzamiento ocurrio. El guion tampoco afirma el lanzamiento. Nota menor (no bloquea, no es texto publicado): en guion.json, campo 'fuentes', la 3ra linea dice 'GTA 6 available November 19, 2026'; la disponibilidad real no pude confirmarla en fuente primaria, conviene leerla como 'release date set'. No afecta al video ni al caption.",
+  "afirmaciones": [
+    {"texto": "GTA V came out September 17, 2013 (guion f1-f3; caption)", "fuente": "Rockstar Games (fecha anunciada para 17/9/2013); Kotaku 'GTA V delayed to September 17'; Game Informer; Aftermath 'GTA V was released on September 17, 2013'; Wikipedia", "estado": "verified", "matiz_ok": true},
+    {"texto": "That was thirteen years ago / came out 13 years ago (guion f2; caption)", "fuente": "Calculo: 17/9/2013 a 20/11/2026 = 13 anos y 2 meses", "estado": "verified", "matiz_ok": true},
+    {"texto": "When GTA five came out, you might still have been in school (guion f1)", "fuente": "Conjetura sobre el espectador; 'might' la hedgea", "estado": "probable", "matiz_ok": true},
+    {"texto": "Rockstar had announced GTA 6 for 2025 (guion f5; caption)", "fuente": "Rockstar/Take-Two: trailer de dic. 2023 con ventana 2025 (fall 2025); VGC, PC Gamer, TechRadar describen el retraso desde 'fall 2025'", "estado": "verified", "matiz_ok": true},
+    {"texto": "May 2025: delayed to May 26, 2026 (guion f6; caption)", "fuente": "Rockstar statement 2/5/2025; PC Gamer, Kotaku, VGC, Tom's Guide, MPR News", "estado": "verified", "matiz_ok": true},
+    {"texto": "November 2025: delayed to November 19, 2026 (guion f7; caption)", "fuente": "Rockstar statement en X (nov. 2025) y Take-Two earnings; Variety, PC Gamer, TechRadar, Tom's Hardware, VGC, Windows Central", "estado": "verified", "matiz_ok": true},
+    {"texto": "Two delays (guion f7; caption)", "fuente": "VGC y TechRadar: segundo retraso (fall 2025 a mayo 2026 a noviembre 2026)", "estado": "verified", "matiz_ok": true},
+    {"texto": "GTA 6 was set for / Rockstar set its release for November 19, 2026 (caption l1 y p2; guion f3 'GTA six in November 2026')", "fuente": "Las mismas fuentes del retraso de nov. 2025; formulacion en pasado/fecha fijada, no afirma lanzamiento", "estado": "verified", "matiz_ok": true},
+    {"texto": "Thirteen years and two months between one and the other (guion f8; caption)", "fuente": "Calculo: 17/9/2013 a 19/11/2026 = 13 anos, 2 meses y 2 dias", "estado": "verified", "matiz_ok": true},
+    {"texto": "And it was supposed to be sooner / the wait got even longer (guion f4; caption)", "fuente": "Derivado de los dos retrasos verificados", "estado": "verified", "matiz_ok": true},
+    {"texto": "Fuentes citadas en el caption: Rockstar Games, Take-Two, Game Informer (fecha GTA V)", "fuente": "Game Informer lista GTA V y su fecha; Rockstar y Take-Two son emisores de los anuncios", "estado": "verified", "matiz_ok": true},
+    {"texto": "Preguntas y llamados a compartir (guion f9, f10; caption)", "fuente": "No son afirmaciones factuales", "estado": "verified", "matiz_ok": true}
+  ]
+}
