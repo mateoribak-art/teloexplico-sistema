@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T13:37",
+ "actualizado": "2026-11-20T13:46",
  "oficinas": [
   {
    "clave": "es",
@@ -7,20 +7,15 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 1013,
-   "listos": 0,
-   "dias": 0.0,
-   "proximo": null,
-   "publicados": 49,
+   "listos": 1,
+   "dias": 0.5,
+   "proximo": "052-zapatilla-sobrecarga",
+   "publicados": 48,
    "pausa": false,
    "pendientes": [
     "Facu (TikTok, YouTube y Telegram): En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram."
    ],
    "ultimas": [
-    {
-     "slug": "052-zapatilla-sobrecarga",
-     "link": "https://www.instagram.com/reel/Df-GCcfCE2T/",
-     "cuando": "2026-11-20T16:34"
-    },
     {
      "slug": "048-golpe-de-calor",
      "link": "https://www.instagram.com/reel/Df5lQt6jLYg/",
@@ -40,9 +35,21 @@
      "slug": "045-una-sola-tabla",
      "link": "https://www.instagram.com/reel/Df2QZqAgEVe/",
      "cuando": "2026-11-17T15:30"
+    },
+    {
+     "slug": "041-celular-arroz-v2",
+     "link": "https://www.instagram.com/reel/DfzrpFUCoej/",
+     "cuando": "2026-11-16T15:31"
     }
    ],
    "linea": [
+    {
+     "slug": "052-zapatilla-sobrecarga",
+     "tema": "Qué electrodomésticos no enchufar a una zapatilla o alargue: los que calientan (microondas, pava, estufa, aire) van directo a la pared (NFPA, bomberos)",
+     "estado": "listo",
+     "cuando": "2026-11-20T12:44",
+     "motivo": "render sin Claude"
+    },
     {
      "slug": "049-primer-calor-aclimatacion",
      "tema": "¿Por qué el primer calor del año te pega más fuerte? Tu cuerpo todavía no está aclimatado (NIOSH)",
@@ -72,18 +79,18 @@
      "motivo": "tema de actualidad vencido (más de 48 h)"
     },
     {
+     "slug": "047-paquete-retenido",
+     "tema": "Estafa del paquete retenido: te piden pagar una tasa por link (WeLiveSecurity 2026, Chequeado)",
+     "estado": "publicado",
+     "cuando": "2026-11-18T12:30",
+     "motivo": "https://www.instagram.com/reel/Df41MyEigAw/"
+    },
+    {
      "slug": "048-golpe-de-calor",
      "tema": "Golpe de calor: señales (40 °C, confusión, piel caliente y seca) y qué hacer mientras llega la ayuda (Ministerio de Salud, NHS)",
      "estado": "publicado",
      "cuando": "2026-11-18T19:30",
      "motivo": "https://www.instagram.com/reel/Df5lQt6jLYg/"
-    },
-    {
-     "slug": "052-zapatilla-sobrecarga",
-     "tema": "Qué electrodomésticos no enchufar a una zapatilla o alargue: los que calientan (microondas, pava, estufa, aire) van directo a la pared (NFPA, bomberos)",
-     "estado": "publicado",
-     "cuando": "2026-11-20T13:34",
-     "motivo": "https://www.instagram.com/reel/Df-GCcfCE2T/"
     }
    ],
    "empleados": [
@@ -104,7 +111,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-20T12:49",
-     "hace": "hace 48 min",
+     "hace": "hace 57 min",
      "detalle": [
       "2026-11-20 12:49 Arranca la producción (5 listos en la cola, meta 10).",
       "¿Qué necesitás que haga?",
@@ -200,8 +207,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-20T13:34",
-     "hace": "hace 3 min",
+     "cuando": "2026-11-20T12:44",
+     "hace": "hace 1 h",
      "detalle": [
       "046-perro-no-comas: aprobado — Todas las afirmaciones de salud (chocolate, uvas/pasas, cebolla/ajo/cebollín, consulta al veterinario) están respaldadas por la página de la",
       "047-paquete-retenido: aprobado — Segunda pasada con búsqueda web y lectura de las dos fuentes primarias. Todas las afirmaciones de seguridad y de plata quedan verificadas. L",
@@ -233,8 +240,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-20T13:34",
-     "hace": "hace 3 min",
+     "cuando": "2026-11-20T12:44",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -256,14 +263,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-20 13:34.",
-     "cuando": "2026-11-20T13:34",
-     "hace": "hace 3 min",
+     "resumen": "Último video terminado: 2026-11-20 12:44.",
+     "cuando": "2026-11-20T12:44",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "103a87be5350"
+     "firma": "9ae5575a5b51"
     },
     {
      "id": "control",
@@ -281,8 +288,8 @@
      },
      "estado": "aviso",
      "resumen": "Apartó 4 video(s) en las últimas 48 h.",
-     "cuando": "2026-11-20T13:34",
-     "hace": "hace 3 min",
+     "cuando": "2026-11-20T12:44",
+     "hace": "hace 1 h",
      "detalle": [],
      "tareas": [
       "049-primer-calor-aclimatacion: tema de actualidad vencido (más de 48 h)",
@@ -308,26 +315,28 @@
        "cuenta": "es"
       }
      },
-     "estado": "aviso",
-     "resumen": "No hay videos listos: el próximo turno no va a publicar nada.",
-     "cuando": "2026-11-20T13:35",
-     "hace": "hace 2 min",
+     "estado": "falla",
+     "resumen": "No salió la publicación del turno de las 12:30 (20/11).",
+     "cuando": "2026-11-20T12:30",
+     "hace": "hace 1 h",
      "detalle": [
+      "18/11 12:32 047-paquete-retenido https://youtube.com/shorts/2bDayee9JZ0 | privacidad: public",
+      "18/11 12:32 047-paquete-retenido paquete para TikTok/YouTube enviado",
+      "18/11 19:30 048-golpe-de-calor publicado: https://www.instagram.com/reel/Df5lQt6jLYg/",
+      "18/11 19:31 048-golpe-de-calor publicado en Facebook: https://www.facebook.com/reel/1622214999222284/",
+      "18/11 19:32 048-golpe-de-calor en la bandeja de TikTok",
       "18/11 19:32 048-golpe-de-calor https://youtube.com/shorts/cDQPgFirUTE | privacidad: public",
       "18/11 19:33 048-golpe-de-calor paquete para TikTok/YouTube enviado",
       "19/11 12:30 No hay videos listos en la cola.",
       "19/11 19:30 No hay videos listos en la cola.",
-      "20/11 12:30 No hay videos listos en la cola.",
-      "20/11 13:34 052-zapatilla-sobrecarga publicado: https://www.instagram.com/reel/Df-GCcfCE2T/",
-      "20/11 13:34 052-zapatilla-sobrecarga publicado en Facebook: https://www.facebook.com/reel/1628595105419701/",
-      "20/11 13:34 052-zapatilla-sobrecarga falló TikTok: ^^^^^^^^",
-      "20/11 13:35 052-zapatilla-sobrecarga https://youtube.com/shorts/6rgBJVZv4yo | privacidad: public",
-      "20/11 13:35 052-zapatilla-sobrecarga paquete para TikTok/YouTube enviado"
+      "20/11 12:30 No hay videos listos en la cola."
      ],
-     "tareas": [],
-     "arreglo": "Relanzá la producción para que haga uno.",
-     "solo": true,
-     "firma": "400c028835f9"
+     "tareas": [
+      "Próximo: 052-zapatilla-sobrecarga — Qué electrodomésticos no enchufar a una zapatilla o alargue: los que calientan (microondas, pava, estufa, aire) van directo a la pared (NFPA, bomberos)"
+     ],
+     "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
+     "solo": false,
+     "firma": "a9c7239ca653"
     },
     {
      "id": "redes",
@@ -343,24 +352,26 @@
        "cuenta": "es"
       }
      },
-     "estado": "aviso",
-     "resumen": "Necesita algo tuyo: En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram.",
-     "cuando": "2026-11-20T13:35",
-     "hace": "hace 2 min",
+     "estado": "ok",
+     "resumen": "Borrador en TikTok y paquete por Telegram al día.",
+     "cuando": "2026-11-18T19:33",
+     "hace": "hace 42 h",
      "detalle": [
+      "18/11 12:30 047-paquete-retenido publicado: https://www.instagram.com/reel/Df41MyEigAw/",
+      "18/11 12:31 047-paquete-retenido publicado en Facebook: https://www.facebook.com/reel/1605655408027259/",
+      "18/11 12:32 047-paquete-retenido en la bandeja de TikTok",
       "18/11 12:32 047-paquete-retenido https://youtube.com/shorts/2bDayee9JZ0 | privacidad: public",
       "18/11 12:32 047-paquete-retenido paquete para TikTok/YouTube enviado",
       "18/11 19:32 048-golpe-de-calor en la bandeja de TikTok",
       "18/11 19:32 048-golpe-de-calor https://youtube.com/shorts/cDQPgFirUTE | privacidad: public",
-      "18/11 19:33 048-golpe-de-calor paquete para TikTok/YouTube enviado",
-      "20/11 13:34 052-zapatilla-sobrecarga falló TikTok: ^^^^^^^^",
-      "20/11 13:35 052-zapatilla-sobrecarga https://youtube.com/shorts/6rgBJVZv4yo | privacidad: public",
-      "20/11 13:35 052-zapatilla-sobrecarga paquete para TikTok/YouTube enviado"
+      "18/11 19:33 048-golpe-de-calor paquete para TikTok/YouTube enviado"
      ],
-     "tareas": [],
-     "arreglo": "Si TikTok no recibió el borrador, el paquete igual llegó por Telegram: subilo a mano.",
-     "solo": true,
-     "firma": "d11c46912929"
+     "tareas": [
+      "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
+     ],
+     "arreglo": null,
+     "solo": false,
+     "firma": "30d12406c8e5"
     },
     {
      "id": "carruseles",
@@ -481,11 +492,12 @@
       }
      },
      "estado": "falla",
-     "resumen": "No hay ningún video listo en la cola: el próximo turno no va a publicar.",
-     "cuando": "2026-11-20T13:37",
+     "resumen": "No salió la publicación del turno de las 12:30 (20/11).",
+     "cuando": "2026-11-20T13:46",
      "hace": "recién",
      "detalle": [
-      "❗ No hay ningún video listo en la cola: el próximo turno no va a publicar.",
+      "❗ No salió la publicación del turno de las 12:30 (20/11).",
+      "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s).",
       "⚠️ Video apartado: 049-primer-calor-aclimatacion — tema de actualidad vencido (más de 48 h)",
       "⚠️ Video apartado: 050-martes-13-no-viernes — tema de actualidad vencido (más de 48 h)",
       "⚠️ Video apartado: 051-leonidas-grano-arena — tema de actualidad vencido (más de 48 h)",
@@ -494,7 +506,7 @@
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "737eb058f8cd"
+     "firma": "ad00ef9bf19a"
     },
     {
      "id": "planb",
@@ -528,18 +540,13 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 5,
-   "listos": 5,
-   "dias": 2.5,
-   "proximo": "en-025-dog-hot-car",
-   "publicados": 26,
+   "listos": 6,
+   "dias": 3.0,
+   "proximo": "en-024-heat-index",
+   "publicados": 25,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
-    {
-     "slug": "en-024-heat-index",
-     "link": "https://www.instagram.com/reel/Df-GPRlm9ZH/",
-     "cuando": "2026-11-20T16:35"
-    },
     {
      "slug": "en-023-package-text",
      "link": "https://www.instagram.com/reel/DfdQ9nzGcv2/",
@@ -559,9 +566,21 @@
      "slug": "en-021-other-line",
      "link": "https://www.instagram.com/reel/DfZ8EffDZHV/",
      "cuando": "2026-11-06T15:34"
+    },
+    {
+     "slug": "en-020-ac-sixty",
+     "link": "https://www.instagram.com/reel/DfYHZlID1jx/",
+     "cuando": "2026-11-05T22:34"
     }
    ],
    "linea": [
+    {
+     "slug": "en-024-heat-index",
+     "tema": "Why does it feel hotter than the thermometer? Heat index (adapted from 019, NWS)",
+     "estado": "listo",
+     "cuando": "2026-11-05T15:25",
+     "motivo": "render sin Claude"
+    },
     {
      "slug": "en-025-dog-hot-car",
      "tema": "Dog in the car for a minute with the window cracked (Pediatrics 2005; pillar pets)",
@@ -584,11 +603,11 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "en-028-turkey-sleepy",
-     "tema": "Does turkey make you sleepy? tryptophan myth (Thanksgiving; pillar fandom-lite)",
-     "estado": "listo",
-     "cuando": "2026-11-07T13:48",
-     "motivo": "render sin Claude"
+     "slug": "en-022-power-outage-fridge",
+     "tema": "Power outage: keep the fridge shut (USDA: 4 hours; pillar kitchen/weather action)",
+     "estado": "publicado",
+     "cuando": "2026-11-07T12:35",
+     "motivo": "https://www.instagram.com/reel/Dfcg_wxGTFS/"
     },
     {
      "slug": "en-023-package-text",
@@ -596,13 +615,6 @@
      "estado": "publicado",
      "cuando": "2026-11-07T19:34",
      "motivo": "https://www.instagram.com/reel/DfdQ9nzGcv2/"
-    },
-    {
-     "slug": "en-024-heat-index",
-     "tema": "Why does it feel hotter than the thermometer? Heat index (adapted from 019, NWS)",
-     "estado": "publicado",
-     "cuando": "2026-11-20T13:36",
-     "motivo": "https://www.instagram.com/reel/Df-GPRlm9ZH/"
     }
    ],
    "empleados": [
@@ -623,7 +635,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-20T12:50",
-     "hace": "hace 47 min",
+     "hace": "hace 56 min",
      "detalle": [
       "2026-11-20 12:50 Arranca la producción (6 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
       "¿En qué te ayudo? No veo una tarea todavía.",
@@ -681,8 +693,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-20T13:36",
-     "hace": "hace 1 min",
+     "cuando": "2026-11-07T22:40",
+     "hace": "hace 12 días",
      "detalle": [
       "en-022-power-outage-fridge: aprobado — Segundo chequeo. Leida la pagina del CDC (cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html): 'If the doors stay closed, food wi",
       "en-023-package-text: aprobado — Todas las afirmaciones fácticas salen de una única fuente primaria de EE. UU. (FTC Consumer Alert, abril 2025, consumer.ftc.gov) que la pági",
@@ -714,8 +726,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-11-20T13:36",
-     "hace": "hace 1 min",
+     "cuando": "2026-11-07T22:40",
+     "hace": "hace 12 días",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -737,14 +749,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-20 13:36.",
-     "cuando": "2026-11-20T13:36",
-     "hace": "hace 1 min",
+     "resumen": "Último video terminado: 2026-11-07 22:40.",
+     "cuando": "2026-11-07T22:40",
+     "hace": "hace 12 días",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "7ff4232fc67c"
+     "firma": "58a89a15dccb"
     },
     {
      "id": "control",
@@ -761,14 +773,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-20T13:36",
-     "hace": "hace 1 min",
+     "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-07T22:40",
+     "hace": "hace 12 días",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "bace1412aac6"
+     "firma": "625440fe5990"
     },
     {
      "id": "publicador",
@@ -784,28 +796,28 @@
        "cuenta": "en"
       }
      },
-     "estado": "ok",
-     "resumen": "Último: en-024-heat-index.",
-     "cuando": "2026-11-20T13:37",
-     "hace": "recién",
+     "estado": "falla",
+     "resumen": "No salió la publicación del turno de las 12:30 (20/11).",
+     "cuando": "2026-11-07T19:35",
+     "hace": "hace 12 días",
      "detalle": [
+      "06/11 19:34 en-022-ears-pop en la bandeja de TikTok",
+      "06/11 19:34 en-022-ears-pop paquete para TikTok/YouTube enviado",
+      "07/11 12:35 en-022-power-outage-fridge publicado: https://www.instagram.com/reel/Dfcg_wxGTFS/",
+      "07/11 12:36 en-022-power-outage-fridge publicado en Facebook: https://www.facebook.com/reel/1675316500966658/",
       "07/11 12:36 en-022-power-outage-fridge en la bandeja de TikTok",
       "07/11 12:36 en-022-power-outage-fridge paquete para TikTok/YouTube enviado",
       "07/11 19:34 en-023-package-text publicado: https://www.instagram.com/reel/DfdQ9nzGcv2/",
       "07/11 19:35 en-023-package-text publicado en Facebook: https://www.facebook.com/reel/1433630505544214/",
       "07/11 19:35 en-023-package-text en la bandeja de TikTok",
-      "07/11 19:35 en-023-package-text paquete para TikTok/YouTube enviado",
-      "20/11 13:36 en-024-heat-index publicado: https://www.instagram.com/reel/Df-GPRlm9ZH/",
-      "20/11 13:36 en-024-heat-index publicado en Facebook: https://www.facebook.com/reel/1440764394326288/",
-      "20/11 13:36 en-024-heat-index en la bandeja de TikTok",
-      "20/11 13:37 en-024-heat-index paquete para TikTok/YouTube enviado"
+      "07/11 19:35 en-023-package-text paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: en-025-dog-hot-car — Dog in the car for a minute with the window cracked (Pediatrics 2005; pillar pets)"
+      "Próximo: en-024-heat-index — Why does it feel hotter than the thermometer? Heat index (adapted from 019, NWS)"
      ],
-     "arreglo": null,
+     "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
      "solo": false,
-     "firma": "a86d4baf1060"
+     "firma": "4047b0370304"
     },
     {
      "id": "redes",
@@ -823,17 +835,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-20T13:37",
-     "hace": "recién",
+     "cuando": "2026-11-07T19:35",
+     "hace": "hace 12 días",
      "detalle": [
+      "06/11 12:35 en-021-other-line en la bandeja de TikTok",
+      "06/11 12:35 en-021-other-line paquete para TikTok/YouTube enviado",
       "06/11 19:34 en-022-ears-pop en la bandeja de TikTok",
       "06/11 19:34 en-022-ears-pop paquete para TikTok/YouTube enviado",
       "07/11 12:36 en-022-power-outage-fridge en la bandeja de TikTok",
       "07/11 12:36 en-022-power-outage-fridge paquete para TikTok/YouTube enviado",
       "07/11 19:35 en-023-package-text en la bandeja de TikTok",
-      "07/11 19:35 en-023-package-text paquete para TikTok/YouTube enviado",
-      "20/11 13:36 en-024-heat-index en la bandeja de TikTok",
-      "20/11 13:37 en-024-heat-index paquete para TikTok/YouTube enviado"
+      "07/11 19:35 en-023-package-text paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -925,15 +937,17 @@
        "modo": "vigilar"
       }
      },
-     "estado": "ok",
-     "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-20T13:37",
+     "estado": "falla",
+     "resumen": "No salió la publicación del turno de las 12:30 (20/11).",
+     "cuando": "2026-11-20T13:46",
      "hace": "recién",
-     "detalle": [],
+     "detalle": [
+      "❗ No salió la publicación del turno de las 12:30 (20/11)."
+     ],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "3e900f50565c"
+     "firma": "0f139a6ea90c"
     }
    ]
   }
