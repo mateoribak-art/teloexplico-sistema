@@ -450,20 +450,12 @@
   "id": "11201818-es-control",
   "creado": "2026-11-20T18:18",
   "empleado": "es/control",
-  "firma": "a42a94baf0b2",
-  "estado": "pedido",
+  "estado": "explicado",
   "auto": true,
   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Ramiro (Control de calidad) está en \"aviso\": Apartó 3 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\n049-primer-calor-aclimatacion: tema de actualidad vencido (más de 48 h)\n050-martes-13-no-viernes: tema de actualidad vencido (más de 48 h)\n051-leonidas-grano-arena: tema de actualidad vencido (más de 48 h)\n",
-  "actualizado": "2026-11-20T18:18"
- },
- {
-  "id": "11201818-en-analista",
-  "creado": "2026-11-20T18:18",
-  "empleado": "en/analista",
-  "firma": "5264890a0965",
-  "estado": "pedido",
-  "auto": true,
-  "problema": "En la oficina de Nueva York (@letmeexplain.us), Max (Métricas) está en \"aviso\": Las métricas tienen más de un día.\nLo que sugiere la oficina: ¿Vencido el token de Meta? Relanzá el resumen y mirá si falla.\nTareas:\nen-001-phone-rice: 4.128 vistas · 22 enviados · 52 ♥\nen-007-flip-steak: 3.384 vistas · 18 enviados · 36 ♥\nen-009-ceiling-fan: 3.058 vistas · 2 enviados · 40 ♥\nen-008-wash-chicken: 2.295 vistas · 4 enviados · 20 ♥\nen-006-five-second-rule: 2.255 vistas · 22 enviados · 52 ♥\nRegistro:\n04/11: 3 seguidores\n05/11: 3 seguidores\n06/11: 3 seguidores\n07/11: 5 seguidores",
-  "actualizado": "2026-11-20T18:18"
+  "firma": "a42a94baf0b2",
+  "actualizado": "2026-11-20T18:18",
+  "titulo": "Ramiro apartó 3 videos de actualidad que se pasaron de fecha; no cambié nada.",
+  "resumen": "La causa es una regla que funciona como debe. Los videos 049 (primer calor), 050 (martes 13) y 051 (Leónidas) eran de actualidad, y pasaron las 48 horas sin publicarse. La cola los apartó sola, para no sacar algo que ya quedó viejo. No hay error de código. Siguen apartados y no se publican. Los videos nuevos que están en \"listo\" (053 a 057) siguen su curso normal."
  }
 ]
