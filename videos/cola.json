@@ -1901,7 +1901,7 @@
  {
   "slug": "049-primer-calor-aclimatacion",
   "tema": "¿Por qué el primer calor del año te pega más fuerte? Tu cuerpo todavía no está aclimatado (NIOSH)",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -1922,6 +1922,11 @@
     "estado": "listo",
     "cuando": "2026-11-20T12:36",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-20T13:19",
+    "motivo": "tema de actualidad vencido (más de 48 h)"
    }
   ],
   "prioridad": "actualidad",
@@ -1930,7 +1935,7 @@
  {
   "slug": "050-martes-13-no-viernes",
   "tema": "¿Por qué el viernes 13 trae mala suerte? En Argentina el de mala suerte es el martes 13 (origen del mito)",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -1951,6 +1956,11 @@
     "estado": "listo",
     "cuando": "2026-11-20T12:39",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-20T13:19",
+    "motivo": "tema de actualidad vencido (más de 48 h)"
    }
   ],
   "prioridad": "actualidad",
@@ -1959,7 +1969,7 @@
  {
   "slug": "051-leonidas-grano-arena",
   "tema": "Lluvia de estrellas Leónidas: la estrella fugaz no es una estrella ni una roca gigante, es polvo de cometa del tamaño de un grano de arena que se enciende por la velocidad",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -1980,6 +1990,11 @@
     "estado": "listo",
     "cuando": "2026-11-20T12:41",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-20T13:19",
+    "motivo": "tema de actualidad vencido (más de 48 h)"
    }
   ],
   "prioridad": "actualidad",
@@ -2015,7 +2030,7 @@
  {
   "slug": "053-cadenas-parana",
   "tema": "Día de la Soberanía: por qué el 20/11 cruzaron el río Paraná con cadenas gigantes (Vuelta de Obligado, 1845)",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -2036,6 +2051,11 @@
     "estado": "listo",
     "cuando": "2026-11-20T12:47",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-20T13:19",
+    "motivo": "tema de actualidad vencido (más de 48 h)"
    }
   ],
   "prioridad": "actualidad",
