@@ -91,6 +91,7 @@ jobs:
         with:
           node-version: '22'
       - name: Motor de video (caché)
+        id: cache_motor
         if: steps.turno.outputs.trabajo == 'si'
         uses: actions/cache@v4
         with:
@@ -99,12 +100,17 @@ jobs:
       - name: Instalar herramientas
         if: steps.turno.outputs.trabajo == 'si'
         run: |
-          command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
-          sudo apt-get install -y -qq fonts-noto-color-emoji > /dev/null || true
-          [ -d motor/node_modules ] || (cd motor && npm ci --no-audit --no-fund)
-          (cd motor && npx remotion browser ensure)
-          pip install -q -r herramientas/nube/requirements.txt
-          npm install -g @anthropic-ai/claude-code > /dev/null
+          # 20/11: sin caché (GitHub la borra a los 7 días sin uso) se colgó 20 min sin decir nada: cada paso con marca, tope y reintento
+          echo "== ffmpeg"; command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+          echo "== emoji"; timeout 5m sudo apt-get install -y -qq fonts-noto-color-emoji > /dev/null || true
+          if [ ! -d motor/node_modules ]; then
+            echo "== npm ci (sin caché)"
+            (cd motor && (timeout 15m npm ci --no-audit --no-fund --loglevel=warn || (rm -rf node_modules && npm cache clean --force && timeout 15m npm ci --no-audit --no-fund --loglevel=warn)))
+          fi
+          echo "== navegador de Remotion"; (cd motor && (timeout 10m npx remotion browser ensure || timeout 10m npx remotion browser ensure))
+          echo "== python"; timeout 10m pip install -q -r herramientas/nube/requirements.txt
+          echo "== claude"; timeout 10m npm install -g @anthropic-ai/claude-code > /dev/null
+          echo "== listo"
           chmod +x herramientas/tlx
           python -I herramientas/sincronizar.py bajar-voces   # videos a medias: se sigue sin regenerar la voz
           # sin "confianza" en la carpeta, Claude ignora los permisos de .claude/settings.json y no puede usar las herramientas
@@ -116,6 +122,13 @@ jobs:
           d['hasCompletedOnboarding'] = True
           json.dump(d, open(p, 'w'))
           EOF
+      - name: Guardar la caché del motor ya (si el turno falla después, la próxima no instala de cero)
+        if: steps.turno.outputs.trabajo == 'si' && steps.cache_motor.outputs.cache-hit != 'true'
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: motor/node_modules
+          key: motor-${{ runner.os }}-${{ hashFiles('motor/package-lock.json') }}
       - name: Modelo de reconocimiento de voz (caché)
         if: steps.turno.outputs.trabajo == 'si'
         uses: actions/cache@v4
