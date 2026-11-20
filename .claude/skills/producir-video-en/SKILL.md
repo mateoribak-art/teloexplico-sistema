@@ -16,6 +16,13 @@ Vos sos el único freno: un dato falso publicado es peor que un día sin video.
 - **No hace falta poner la marca a mano**: el logo "let me explain", la burbuja roja, el resaltado celeste, "source:" y el cierre "follow @letmeexplain.us for #N" salen solos del slug (`motor/src/kit/cuenta.ts`).
 - Series: mismas claves y nombres en inglés: `cocina` Kitchen myths, `clima` Weather explained, `casa` Home myths, `cuerpo` Body myths, `ciencia` Everyday science, `mate` Everyday math, `pordentro` Inside look. `./herramientas/tlx serie asignar <slug> <clave>`.
 
+## FOLLOWER GOAL (11/20/2026, Mateo's request: the whole system works for this)
+Read `videos/en/objetivo.json` (goal: **1,000 followers by 12/31/2026**; base 5 on 11/7). This account gets views (~27K) but almost no follows: the problem is not reach, it's giving people a reason to follow. Every turn:
+- Check followers gained in the last 7 days in `videos/en/metricas.json` (`cuenta`) against the needed pace (`(goal - current) / days left`). When behind, pick the formats that already worked best here (phone-rice, flip-steak, five-second rule, ceiling fan: kitchen/home myths with a rule to save) and the Spanish hits adapted to the US (fridge leftovers, a two-sided everyday debate, fandom with a date).
+- **Reason to follow:** the final card and the last caption line state the account promise in one sentence ("Follow @letmeexplain.us: one thing you're doing wrong, every day"). Never a bare "follow me".
+- **Every video must work for people who don't follow us:** the hook makes sense without knowing who we are, the topic is for everyone, and "send this to…" names someone specific.
+- Log one line in `videos/en/produccion.log` with the week's pace vs the needed pace.
+
 ## ENGAGEMENT FILTER (11/20/2026, Mateo's request: overrides every other topic rule)
 Mateo doesn't want videos people scroll past: **every video must earn a SAVE or a COMMENT.** Our data (11/19): in Spanish only 3 of 46 reels got comments, all others 0; saves come from rules you need again later. In English the best ones (en-009 ceiling fan, en-014 birthday pairs, en-001 phone rice) still got under 5 saves+comments per 1,000 views, and many got 0.
 Before researching, write the `interaccion` field in `guion.json` with ONE (or both) of these, and drop the idea if you can't fill it without forcing it:

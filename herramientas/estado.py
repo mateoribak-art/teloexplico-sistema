@@ -135,6 +135,17 @@ def main(modo):
             if len(dias) >= 2:
                 dif = base['cuenta'][dias[-1]]['seguidores'] - base['cuenta'][dias[-2]]['seguidores']
                 seguidores += f' ({dif:+d} desde {dias[-2][8:]}/{dias[-2][5:7]})'
+            # objetivo de fin de año (20/11): cuánto falta y a qué ritmo hay que ir
+            ruta_obj = os.path.join(cuenta.ACTUAL['videos'], 'objetivo.json')
+            if os.path.exists(ruta_obj) and dias:
+                obj = json.load(open(ruta_obj, encoding='utf-8'))
+                ahora_seg = base['cuenta'][dias[-1]]['seguidores']
+                quedan_dias = max(1, (datetime.date.fromisoformat(obj['fecha']) - AHORA.date()).days)
+                ritmo = (obj['meta_seguidores'] - ahora_seg) / quedan_dias
+                semana = [x for x in dias if x >= (AHORA.date() - datetime.timedelta(days=7)).isoformat()]
+                real = (ahora_seg - base['cuenta'][semana[0]]['seguidores']) / max(1, (AHORA.date() - datetime.date.fromisoformat(semana[0])).days) if semana else 0
+                seguidores += (f"\n🎯 Meta {obj['meta_seguidores']} al {obj['fecha'][8:]}/{obj['fecha'][5:7]}: faltan {obj['meta_seguidores'] - ahora_seg}, "
+                               f"hay que sumar {ritmo:.0f} por día (esta semana: {real:.0f} por día) {'✅' if real >= ritmo else '⚠️'}")
             top = metricas.ranking(base)
             if top:
                 pt, slug, m, ver = top[0]
