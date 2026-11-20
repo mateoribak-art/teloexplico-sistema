@@ -49,6 +49,17 @@ if __name__ == '__main__':
         correr(['producir.py', 'comentarios'], 'es', 40)
         correr(['producir.py', 'comentarios'], 'en', 40)
         sincronizar('Notebook: comentarios')
+    elif modo == 'radar':  # temas del momento para las dos cuentas: si hay uno, se produce en el acto
+        correr(['producir.py', 'radar'], 'es', 100)
+        correr(['producir.py', 'radar'], 'en', 100)
+        sincronizar('Notebook: radar')
+    elif modo == 'vigilar':  # la oficina: vigilancia, estado de cada empleado y el técnico que arregla solo
+        correr(['estado.py', 'vigilar'], 'es', 10)
+        correr(['estado.py', 'vigilar'], 'en', 10)
+        correr(['oficina.py'], 'es', 5)
+        os.environ['TLX_LOCAL'] = 'si'
+        correr(['arreglar.py', 'revisar'], 'es', 100)
+        sincronizar('Notebook: oficina')
     elif modo == 'publicar':
         correr(['publicador.py'], 'es', 25)
         correr(['publicador.py'], 'en', 25)

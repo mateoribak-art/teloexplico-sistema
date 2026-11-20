@@ -114,6 +114,19 @@ def revisar():
                                   f"Lo que sugiere la oficina: {e['arreglo']}" if e.get('arreglo') else '',
                                   'Tareas:\n' + '\n'.join(e['tareas']) if e['tareas'] else '',
                                   'Registro:\n' + '\n'.join(e['detalle'][-10:]) if e['detalle'] else ''])
+            if os.environ.get('TLX_LOCAL') == 'si':
+                # en la notebook (GitHub Actions bloqueado desde 20/11/2026): el técnico trabaja acá mismo
+                env = dict(os.environ, ARREGLO_ID=id_, ARREGLO_EMPLEADO=f"{o['clave']}/{e['id']}", ARREGLO_PROBLEMA=problema[:6000], ARREGLO_AUTO='si')
+                try:
+                    r = subprocess.run([sys.executable, '-I', os.path.join(H, 'arreglar.py'), 'arreglar'], cwd=RAIZ, env=env,
+                                       capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=45 * 60)
+                except subprocess.TimeoutExpired:
+                    print('el técnico pasó los 45 min:', id_)
+                    hechas.add(f); hoy += 1
+                    continue
+                print('técnico (local):', id_, (r.stdout + r.stderr)[-300:])
+                hechas.add(f); hoy += 1
+                continue
             r = subprocess.run(['gh', 'workflow', 'run', 'arreglar.yml', '-f', 'accion=arreglar', '-f', f'id={id_}', '-f', f"empleado={o['clave']}/{e['id']}",
                                 '-f', f'problema={problema[:6000]}', '-f', 'auto=si'], cwd=RAIZ, capture_output=True, text=True)
             if r.returncode == 0:

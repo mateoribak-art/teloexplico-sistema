@@ -154,8 +154,9 @@ MODELO_COMENTARIOS = 'haiku'
 
 def claude(pedido, log, minutos, modelo=MODELO_PRODUCIR):
     try:
-        r = subprocess.run([__import__('shutil').which('claude') or 'claude', '-p', pedido, '--model', modelo, '--permission-mode', 'dontAsk', '--output-format', 'stream-json', '--verbose'],
-                           cwd=RAIZ, capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=minutos * 60)
+        # el pedido va por la entrada estándar: en Windows el atajo claude.cmd corta un argumento de varias líneas (20/11)
+        r = subprocess.run([__import__('shutil').which('claude') or 'claude', '-p', '--model', modelo, '--permission-mode', 'dontAsk', '--output-format', 'stream-json', '--verbose'],
+                           input=pedido, cwd=RAIZ, capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=minutos * 60)
         salida, codigo = resumir(r.stdout) + r.stderr, r.returncode
     except subprocess.TimeoutExpired as e:
         salida, codigo = f'{e.stdout or ""}\nCORTADO: pasó el tiempo máximo de {minutos} min', 124
