@@ -94,14 +94,20 @@ def guardar_token_tiktok():
     for c in cuenta.CUENTAS.values():
         plano = c['tiktok_token']
         marca = os.path.join(RAIZ, 'secretos', '.' + os.path.basename(plano).replace('.json', '.sha'))
-        if not (NUBE and os.path.exists(plano)):
+        if not os.path.exists(plano):
             continue
+        if not os.environ.get('CLAVE_ESTADO'):  # en la notebook (respaldo, 20/11): la misma clave de la nube, guardada en secretos/
+            ruta_clave = os.path.join(RAIZ, 'secretos', 'clave_estado.txt')
+            if not os.path.exists(ruta_clave):
+                continue
+            os.environ['CLAVE_ESTADO'] = open(ruta_clave, encoding='utf-8-sig').read().strip()
         actual = hashlib.sha256(open(plano, 'rb').read()).hexdigest()
         if os.path.exists(marca) and open(marca).read().strip() == actual:
             continue
         os.makedirs(os.path.join(RAIZ, 'estado'), exist_ok=True)
         correr('openssl', 'enc', '-aes-256-cbc', '-pbkdf2', '-salt', '-pass', 'env:CLAVE_ESTADO',
                '-in', plano, '-out', c['tiktok_cifrado'], check=True)
+        open(marca, 'w').write(actual)
         print(f"token de TikTok renovado (@{c['usuario']}): guardado cifrado")
 
 
