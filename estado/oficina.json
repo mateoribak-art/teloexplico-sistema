@@ -1,12 +1,12 @@
 {
- "actualizado": "2026-11-20T18:19",
+ "actualizado": "2026-11-20T18:20",
  "oficinas": [
   {
    "clave": "es",
    "usuario": "teloexplico.ar",
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
-   "seguidores": 1013,
+   "seguidores": 1023,
    "listos": 5,
    "dias": 2.5,
    "proximo": "053-cadenas-parana",
@@ -312,8 +312,8 @@
        "cuenta": "es"
       }
      },
-     "estado": "aviso",
-     "resumen": "Apartó 3 video(s) en las últimas 48 h.",
+     "estado": "ok",
+     "resumen": "Revisado por el técnico: Ramiro apartó 3 videos de actualidad que se pasaron de fecha; no cambié nada.",
      "cuando": "2026-11-20T15:31",
      "hace": "hace 2 h",
      "detalle": [],
@@ -322,7 +322,7 @@
       "050-martes-13-no-viernes: tema de actualidad vencido (más de 48 h)",
       "051-leonidas-grano-arena: tema de actualidad vencido (más de 48 h)"
      ],
-     "arreglo": "Revisalo: si está bien, pasalo a listo; si no, queda apartado.",
+     "arreglo": null,
      "solo": false,
      "firma": "a42a94baf0b2"
     },
@@ -481,25 +481,25 @@
       }
      },
      "estado": "ok",
-     "resumen": "19/11: 1013 seguidores",
-     "cuando": "2026-11-19T21:00",
-     "hace": "hace 21 h",
+     "resumen": "20/11: 1023 seguidores",
+     "cuando": "2026-11-20T18:20",
+     "hace": "recién",
      "detalle": [
-      "16/11: 946 seguidores",
       "17/11: 981 seguidores",
       "18/11: 993 seguidores",
-      "19/11: 1013 seguidores"
+      "19/11: 1013 seguidores",
+      "20/11: 1023 seguidores"
      ],
      "tareas": [
-      "001-heladera: 159.700 vistas · 7101 enviados · 3361 ♥",
-      "026-mediodia-hora-corrida: 151.812 vistas · 470 enviados · 2735 ♥",
-      "007-bts-13-anios: 30.132 vistas · 614 enviados · 2999 ♥",
+      "001-heladera: 160.619 vistas · 7215 enviados · 3394 ♥",
+      "026-mediodia-hora-corrida: 152.706 vistas · 474 enviados · 2748 ♥",
+      "007-bts-13-anios: 30.188 vistas · 614 enviados · 3008 ♥",
       "006-army-bomb: 8.630 vistas · 55 enviados · 551 ♥",
       "003-vuelta-carne: 4.724 vistas · 29 enviados · 99 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "784341563341"
+     "firma": "41e4193eba9c"
     },
     {
      "id": "vigilante",
@@ -516,7 +516,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 049-primer-calor-aclimatacion — tema de actualidad vencido (más de 48 h)",
-     "cuando": "2026-11-20T18:19",
+     "cuando": "2026-11-20T18:20",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 049-primer-calor-aclimatacion — tema de actualidad vencido (más de 48 h)",
@@ -931,25 +931,25 @@
       }
      },
      "estado": "ok",
-     "resumen": "Revisado por el técnico: Max (Métricas) estaba en aviso porque el resumen diario no corría; relancé el resumen a mano y todavía no terminó.",
-     "cuando": "2026-11-07T02:50",
-     "hace": "hace 13 días",
+     "resumen": "20/11: 5 seguidores",
+     "cuando": "2026-11-20T18:20",
+     "hace": "recién",
      "detalle": [
-      "04/11: 3 seguidores",
       "05/11: 3 seguidores",
       "06/11: 3 seguidores",
-      "07/11: 5 seguidores"
+      "07/11: 5 seguidores",
+      "20/11: 5 seguidores"
      ],
      "tareas": [
-      "en-001-phone-rice: 4.128 vistas · 22 enviados · 52 ♥",
-      "en-007-flip-steak: 3.384 vistas · 18 enviados · 36 ♥",
-      "en-009-ceiling-fan: 3.058 vistas · 2 enviados · 40 ♥",
-      "en-008-wash-chicken: 2.295 vistas · 4 enviados · 20 ♥",
-      "en-006-five-second-rule: 2.255 vistas · 22 enviados · 52 ♥"
+      "en-001-phone-rice: 4.133 vistas · 22 enviados · 52 ♥",
+      "en-007-flip-steak: 3.388 vistas · 18 enviados · 36 ♥",
+      "en-009-ceiling-fan: 3.080 vistas · 2 enviados · 40 ♥",
+      "en-008-wash-chicken: 2.300 vistas · 4 enviados · 20 ♥",
+      "en-006-five-second-rule: 2.258 vistas · 22 enviados · 52 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "5264890a0965"
+     "firma": "f7dd5cba1c5d"
     },
     {
      "id": "vigilante",
@@ -966,7 +966,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-20T18:19",
+     "cuando": "2026-11-20T18:20",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -1183,16 +1183,16 @@
    ]
   },
   {
-   "id": "11201818-en-analista",
+   "id": "11201818-es-control",
    "creado": "2026-11-20T18:18",
-   "empleado": "en/analista",
+   "empleado": "es/control",
    "estado": "explicado",
    "auto": true,
-   "problema": "En la oficina de Nueva York (@letmeexplain.us), Max (Métricas) está en \"aviso\": Las métricas tienen más de un día.\nLo que sugiere la oficina: ¿Vencido el token de Meta? Relanzá el resumen y mirá si falla.\nTareas:\nen-001-phone-rice: 4.128 vistas · 22 enviados · 52 ♥\nen-007-flip-steak: 3.384 vistas · 18 enviados · 36 ♥\nen-009-ceiling-fan: 3.058 vistas · 2 enviados · 40 ♥\nen-008-wash-chicken: 2.295 vistas · 4 enviados · 20 ♥\nen-006-five-second-rule: 2.255 vistas · 22 enviados · 52 ♥\nRegistro:\n04/11: 3 seguidores\n05/11: 3 seguidores\n06/11: 3 seguidores\n07/11: 5 seguidores",
-   "firma": "5264890a0965",
-   "actualizado": "2026-11-20T18:19",
-   "titulo": "Max (Métricas) estaba en aviso porque el resumen diario no corría; relancé el resumen a mano y todavía no terminó.",
-   "resumen": "Las métricas de Nueva York quedaron en el 7/11, igual que las de Buenos Aires, y el token de Meta no falló. El resumen diario solo corre si el interruptor `NUBE_ACTIVA` está en \"si\", y casi todas las corridas desde el 7/11 figuran como salteadas. La última corrida programada sí funcionó, así que el interruptor está prendido ahora. No toqué código ni reglas. Lancé el resumen a mano (corrida 44819267583). Cuando esto se escribió seguía en curso, así que no sé todavía si actualizó las métricas. Si falla, el flujo avisa solo. Si no, el resumen programado de las 21:05 lo hace de todas formas."
+   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Ramiro (Control de calidad) está en \"aviso\": Apartó 3 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\n049-primer-calor-aclimatacion: tema de actualidad vencido (más de 48 h)\n050-martes-13-no-viernes: tema de actualidad vencido (más de 48 h)\n051-leonidas-grano-arena: tema de actualidad vencido (más de 48 h)\n",
+   "firma": "a42a94baf0b2",
+   "actualizado": "2026-11-20T18:18",
+   "titulo": "Ramiro apartó 3 videos de actualidad que se pasaron de fecha; no cambié nada.",
+   "resumen": "La causa es una regla que funciona como debe. Los videos 049 (primer calor), 050 (martes 13) y 051 (Leónidas) eran de actualidad, y pasaron las 48 horas sin publicarse. La cola los apartó sola, para no sacar algo que ya quedó viejo. No hay error de código. Siguen apartados y no se publican. Los videos nuevos que están en \"listo\" (053 a 057) siguen su curso normal."
   }
  ]
 }
