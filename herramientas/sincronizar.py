@@ -105,7 +105,7 @@ def guardar_token_tiktok():
         if os.path.exists(marca) and open(marca).read().strip() == actual:
             continue
         os.makedirs(os.path.join(RAIZ, 'estado'), exist_ok=True)
-        correr('openssl', 'enc', '-aes-256-cbc', '-pbkdf2', '-salt', '-pass', 'env:CLAVE_ESTADO',
+        correr(__import__('shutil').which('openssl') or r'C:\Program Files\Git\usr\bin\openssl.exe', 'enc', '-aes-256-cbc', '-pbkdf2', '-salt', '-pass', 'env:CLAVE_ESTADO',
                '-in', plano, '-out', c['tiktok_cifrado'], check=True)
         open(marca, 'w').write(actual)
         print(f"token de TikTok renovado (@{c['usuario']}): guardado cifrado")
