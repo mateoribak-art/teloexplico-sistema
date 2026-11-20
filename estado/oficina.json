@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T18:26",
+ "actualizado": "2026-11-20T19:36",
  "oficinas": [
   {
    "clave": "es",
@@ -7,15 +7,20 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 1023,
-   "listos": 5,
-   "dias": 2.5,
-   "proximo": "053-cadenas-parana",
-   "publicados": 49,
+   "listos": 4,
+   "dias": 2.0,
+   "proximo": "054-gta-juegos-violentos",
+   "publicados": 50,
    "pausa": false,
    "pendientes": [
     "Facu (TikTok, YouTube y Telegram): En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram."
    ],
    "ultimas": [
+    {
+     "slug": "053-cadenas-parana",
+     "link": "https://www.instagram.com/reel/Df-vMwOACQX/",
+     "cuando": "2026-11-20T22:33"
+    },
     {
      "slug": "052-zapatilla-sobrecarga",
      "link": "https://www.instagram.com/reel/Df-GCcfCE2T/",
@@ -35,21 +40,9 @@
      "slug": "046-perro-no-comas",
      "link": "https://www.instagram.com/reel/Df3AnKmnMPI/",
      "cuando": "2026-11-17T22:31"
-    },
-    {
-     "slug": "045-una-sola-tabla",
-     "link": "https://www.instagram.com/reel/Df2QZqAgEVe/",
-     "cuando": "2026-11-17T15:30"
     }
    ],
    "linea": [
-    {
-     "slug": "053-cadenas-parana",
-     "tema": "Día de la Soberanía: por qué el 20/11 cruzaron el río Paraná con cadenas gigantes (Vuelta de Obligado, 1845)",
-     "estado": "listo",
-     "cuando": "2026-11-20T13:33",
-     "motivo": "rescatado: el Día de la Soberanía es hoy 20/11 (feriado el lunes 23)"
-    },
     {
      "slug": "054-gta-juegos-violentos",
      "tema": "¿Los videojuegos violentos te hacen violento? Lo que dice la APA (2020), ahora que salió el GTA 6 --actualidad",
@@ -69,6 +62,13 @@
      "tema": "GTA 6: trece años desde el GTA V y dos postergaciones --actualidad",
      "estado": "listo",
      "cuando": "2026-11-20T15:12",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "057-ruta-40-de-punta-a-punta",
+     "tema": "Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)",
+     "estado": "listo",
+     "cuando": "2026-11-20T15:31",
      "motivo": "render sin Claude"
     },
     {
@@ -93,18 +93,18 @@
      "motivo": "tema de actualidad vencido (más de 48 h)"
     },
     {
-     "slug": "048-golpe-de-calor",
-     "tema": "Golpe de calor: señales (40 °C, confusión, piel caliente y seca) y qué hacer mientras llega la ayuda (Ministerio de Salud, NHS)",
-     "estado": "publicado",
-     "cuando": "2026-11-18T19:30",
-     "motivo": "https://www.instagram.com/reel/Df5lQt6jLYg/"
-    },
-    {
      "slug": "052-zapatilla-sobrecarga",
      "tema": "Qué electrodomésticos no enchufar a una zapatilla o alargue: los que calientan (microondas, pava, estufa, aire) van directo a la pared (NFPA, bomberos)",
      "estado": "publicado",
      "cuando": "2026-11-20T13:34",
      "motivo": "https://www.instagram.com/reel/Df-GCcfCE2T/"
+    },
+    {
+     "slug": "053-cadenas-parana",
+     "tema": "Día de la Soberanía: por qué el 20/11 cruzaron el río Paraná con cadenas gigantes (Vuelta de Obligado, 1845)",
+     "estado": "publicado",
+     "cuando": "2026-11-20T19:33",
+     "motivo": "https://www.instagram.com/reel/Df-vMwOACQX/"
     }
    ],
    "empleados": [
@@ -125,7 +125,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-20T15:31",
-     "hace": "hace 2 h",
+     "hace": "hace 4 h",
      "detalle": [
       "Uso: 13 pasos · 13,517 tokens nuevos · 1,082,815 de caché · 7,421 escritos · equivale a US$ 1.70 de API",
       "- **056-gta-trece-anios** (tercer video del pedido de GTA 6): el chequeo, hecho por un subagente aparte, lo aprobó al primer intento. Dice que pasaron trece años y dos meses entre GTA V y GTA 6, con las dos postergaciones. Su interacción es",
@@ -194,7 +194,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsquedas web (SMN + noticias/tendencias del día). SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por tormentas y granizo ",
      "cuando": "2026-11-20T18:26",
-     "hace": "recién",
+     "hace": "hace 1 h",
      "detalle": [
       "17/11 00:00 | Revisión radar. HAY TEMA (ya en cola de una corrida previa): lluvia de estrellas Leónidas, pico madrugada 17-18 nov (NASA, Natural History Museum Londres). Ángulo propio verificado: la \"estrella fugaz\" no es una estrella ni una roca grande, es polvo de cometa (Tempel-Tuttle) del tamaño de un grano de arena que se enciende al entrar a 71 km/s. Slug 051-leonidas-grano-arena (--actualidad, serie ciencia): continué su producción (chequeo→voz→3D→render). Descartados: (a) alerta naranja/amarilla por tormentas severas y granizo en 17 provincias incl. CABA (SMN hoy) -> granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin ángulo nuevo; (b) vientos Zonda en Cuyo -> nicho regional.",
       "18/11 00:00 | Revision radar. HAY TEMA: arranca el finde largo y el viernes 20/11 es el Dia de la Soberania (feriado trasladado al lunes 23). Casi nadie sabe que se festeja -> angulo propio: la Vuelta de Obligado (1845), cerraron el rio Parana con tres cadenas sobre 24 lanchones para frenar a Gran Bretana y Francia; imagen grande y mandable. Verificado (Canal26 2026, Infobae 2024, La Nacion 2025, Wikipedia; Dia de la Soberania 20-nov). ELEGIDO. Slug 053-cadenas-parana (--actualidad, serie argentina). Descartados: (a) alerta naranja/amarilla por tormentas y granizo en 9-10 provincias (SMN hoy) -> AMBA afuera y granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin angulo nuevo; (b) ciclon/calor en BA por Super Nino -> clima ya cubierto (016/019/008/009), sin giro; (c) Leonidas -> ya en cola (051).",
@@ -233,8 +233,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-20T15:31",
-     "hace": "hace 2 h",
+     "cuando": "2026-11-20T19:33",
+     "hace": "hace 3 min",
      "detalle": [
       "050-martes-13-no-viernes: aprobado — Todas las afirmaciones del guion.json y del caption.txt son verificables (geografia de la supersticion, retitulado de la pelicula, inexisten",
       "051-leonidas-grano-arena: aprobado — Todas las afirmaciones factuales (velocidad 71 km/s, origen en el polvo del cometa 55P/Tempel-Tuttle, la Tierra cruza ese polvo, tamano de g",
@@ -266,8 +266,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-20T15:31",
-     "hace": "hace 2 h",
+     "cuando": "2026-11-20T19:33",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -289,14 +289,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-20 15:31.",
-     "cuando": "2026-11-20T15:31",
-     "hace": "hace 2 h",
+     "resumen": "Último video terminado: 2026-11-20 19:33.",
+     "cuando": "2026-11-20T19:33",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "3d2da3c22431"
+     "firma": "ad181c2e1738"
     },
     {
      "id": "control",
@@ -314,8 +314,8 @@
      },
      "estado": "aviso",
      "resumen": "Apartó 3 video(s) en las últimas 48 h.",
-     "cuando": "2026-11-20T15:31",
-     "hace": "hace 2 h",
+     "cuando": "2026-11-20T19:33",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [
       "049-primer-calor-aclimatacion: tema de actualidad vencido (más de 48 h)",
@@ -341,27 +341,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: 052-zapatilla-sobrecarga.",
-     "cuando": "2026-11-20T13:35",
-     "hace": "hace 4 h",
+     "resumen": "Último: 053-cadenas-parana.",
+     "cuando": "2026-11-20T19:34",
+     "hace": "hace 2 min",
      "detalle": [
-      "18/11 19:32 048-golpe-de-calor https://youtube.com/shorts/cDQPgFirUTE | privacidad: public",
-      "18/11 19:33 048-golpe-de-calor paquete para TikTok/YouTube enviado",
-      "19/11 12:30 No hay videos listos en la cola.",
-      "19/11 19:30 No hay videos listos en la cola.",
-      "20/11 12:30 No hay videos listos en la cola.",
       "20/11 13:34 052-zapatilla-sobrecarga publicado: https://www.instagram.com/reel/Df-GCcfCE2T/",
       "20/11 13:34 052-zapatilla-sobrecarga publicado en Facebook: https://www.facebook.com/reel/1628595105419701/",
       "20/11 13:34 052-zapatilla-sobrecarga falló TikTok: ^^^^^^^^",
       "20/11 13:35 052-zapatilla-sobrecarga https://youtube.com/shorts/6rgBJVZv4yo | privacidad: public",
-      "20/11 13:35 052-zapatilla-sobrecarga paquete para TikTok/YouTube enviado"
+      "20/11 13:35 052-zapatilla-sobrecarga paquete para TikTok/YouTube enviado",
+      "20/11 19:33 053-cadenas-parana publicado: https://www.instagram.com/reel/Df-vMwOACQX/",
+      "20/11 19:34 053-cadenas-parana publicado en Facebook: https://www.facebook.com/reel/1830925631569436/",
+      "20/11 19:34 053-cadenas-parana en la bandeja de TikTok",
+      "20/11 19:34 053-cadenas-parana https://youtube.com/shorts/GYLmYZ8uGk4 | privacidad: public",
+      "20/11 19:34 053-cadenas-parana paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: 053-cadenas-parana — Día de la Soberanía: por qué el 20/11 cruzaron el río Paraná con cadenas gigantes (Vuelta de Obligado, 1845)"
+      "Próximo: 054-gta-juegos-violentos — ¿Los videojuegos violentos te hacen violento? Lo que dice la APA (2020), ahora que salió el GTA 6 --actualidad"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "3ee85a192529"
+     "firma": "177211008ee2"
     },
     {
      "id": "redes",
@@ -377,24 +377,26 @@
        "cuenta": "es"
       }
      },
-     "estado": "aviso",
-     "resumen": "Necesita algo tuyo: En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram.",
-     "cuando": "2026-11-20T13:35",
-     "hace": "hace 4 h",
+     "estado": "ok",
+     "resumen": "Borrador en TikTok y paquete por Telegram al día.",
+     "cuando": "2026-11-20T19:34",
+     "hace": "hace 2 min",
      "detalle": [
-      "18/11 12:32 047-paquete-retenido https://youtube.com/shorts/2bDayee9JZ0 | privacidad: public",
-      "18/11 12:32 047-paquete-retenido paquete para TikTok/YouTube enviado",
-      "18/11 19:32 048-golpe-de-calor en la bandeja de TikTok",
       "18/11 19:32 048-golpe-de-calor https://youtube.com/shorts/cDQPgFirUTE | privacidad: public",
       "18/11 19:33 048-golpe-de-calor paquete para TikTok/YouTube enviado",
       "20/11 13:34 052-zapatilla-sobrecarga falló TikTok: ^^^^^^^^",
       "20/11 13:35 052-zapatilla-sobrecarga https://youtube.com/shorts/6rgBJVZv4yo | privacidad: public",
-      "20/11 13:35 052-zapatilla-sobrecarga paquete para TikTok/YouTube enviado"
+      "20/11 13:35 052-zapatilla-sobrecarga paquete para TikTok/YouTube enviado",
+      "20/11 19:34 053-cadenas-parana en la bandeja de TikTok",
+      "20/11 19:34 053-cadenas-parana https://youtube.com/shorts/GYLmYZ8uGk4 | privacidad: public",
+      "20/11 19:34 053-cadenas-parana paquete para TikTok/YouTube enviado"
      ],
-     "tareas": [],
-     "arreglo": "Si TikTok no recibió el borrador, el paquete igual llegó por Telegram: subilo a mano.",
-     "solo": true,
-     "firma": "d11c46912929"
+     "tareas": [
+      "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
+     ],
+     "arreglo": null,
+     "solo": false,
+     "firma": "30d12406c8e5"
     },
     {
      "id": "carruseles",
@@ -483,7 +485,7 @@
      "estado": "ok",
      "resumen": "20/11: 1023 seguidores",
      "cuando": "2026-11-20T18:20",
-     "hace": "hace 6 min",
+     "hace": "hace 1 h",
      "detalle": [
       "17/11: 981 seguidores",
       "18/11: 993 seguidores",
@@ -516,7 +518,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 049-primer-calor-aclimatacion — tema de actualidad vencido (más de 48 h)",
-     "cuando": "2026-11-20T18:26",
+     "cuando": "2026-11-20T19:36",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 049-primer-calor-aclimatacion — tema de actualidad vencido (más de 48 h)",
@@ -560,13 +562,18 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 5,
-   "listos": 7,
-   "dias": 3.5,
-   "proximo": "en-025-dog-hot-car",
-   "publicados": 26,
+   "listos": 6,
+   "dias": 3.0,
+   "proximo": "en-026-el-nino-winter",
+   "publicados": 27,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "en-025-dog-hot-car",
+     "link": "https://www.instagram.com/reel/Df-vaArnN_6/",
+     "cuando": "2026-11-20T22:35"
+    },
     {
      "slug": "en-024-heat-index",
      "link": "https://www.instagram.com/reel/Df-GPRlm9ZH/",
@@ -586,21 +593,9 @@
      "slug": "en-022-ears-pop",
      "link": "https://www.instagram.com/reel/DfasFrnj6m6/",
      "cuando": "2026-11-06T22:33"
-    },
-    {
-     "slug": "en-021-other-line",
-     "link": "https://www.instagram.com/reel/DfZ8EffDZHV/",
-     "cuando": "2026-11-06T15:34"
     }
    ],
    "linea": [
-    {
-     "slug": "en-025-dog-hot-car",
-     "tema": "Dog in the car for a minute with the window cracked (Pediatrics 2005; pillar pets)",
-     "estado": "listo",
-     "cuando": "2026-11-06T09:26",
-     "motivo": "render sin Claude"
-    },
     {
      "slug": "en-026-el-nino-winter",
      "tema": "What El Niño means for your winter (NOAA CPC; adapted from 016)",
@@ -623,11 +618,11 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "en-023-package-text",
-     "tema": "Package text scam: don't tap, forward to 7726 (FTC; pillar phone scams)",
-     "estado": "publicado",
-     "cuando": "2026-11-07T19:34",
-     "motivo": "https://www.instagram.com/reel/DfdQ9nzGcv2/"
+     "slug": "en-029-swim-after-eating",
+     "tema": "Do you have to wait to swim after eating? (Red Cross; adapted from 002)",
+     "estado": "listo",
+     "cuando": "2026-11-07T22:40",
+     "motivo": "render sin Claude"
     },
     {
      "slug": "en-024-heat-index",
@@ -635,6 +630,13 @@
      "estado": "publicado",
      "cuando": "2026-11-20T13:36",
      "motivo": "https://www.instagram.com/reel/Df-GPRlm9ZH/"
+    },
+    {
+     "slug": "en-025-dog-hot-car",
+     "tema": "Dog in the car for a minute with the window cracked (Pediatrics 2005; pillar pets)",
+     "estado": "publicado",
+     "cuando": "2026-11-20T19:35",
+     "motivo": "https://www.instagram.com/reel/Df-vaArnN_6/"
     }
    ],
    "empleados": [
@@ -655,7 +657,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-20T15:42",
-     "hace": "hace 2 h",
+     "hace": "hace 3 h",
      "detalle": [
       "Uso: 11 pasos · 8,668 tokens nuevos · 576,088 de caché · 2,047 escritos · equivale a US$ 0.72 de API",
       "2026-11-20 15:31 Arranca la producción (6 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
@@ -689,7 +691,7 @@
      "estado": "ok",
      "resumen": "Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2023/2024 y titulares sin gancho explicable. Descartados: (1) clima de Thanksgiving (",
      "cuando": "2026-11-20T18:26",
-     "hace": "recién",
+     "hace": "hace 1 h",
      "detalle": [
       "07/11 00:00 Undécima pasada del radar: la búsqueda solo devolvió pronósticos locales y titulares sin detalle. Descartados: (1) El Niño \"más fuerte en una vida\" (AccuWeather): solo titular, sin fuente oficial del día; y en-026-el-nino-winter ya está en cola; (2) tornados raros en Delaware/Long Island: evento regional, riesgo de daños/víctimas, sin confirmar; (3) inundación costera por \"king tide\" en Florida/California: regional, sin fecha ni fuente oficial confirmada. Sin tema nuevo.",
       "07/11 00:00 Duodécima pasada del radar: la búsqueda (NWS fin de semana) solo devolvió páginas sin fecha o de 2025/marzo 2026; nada verificable de las últimas 48 h. Descartados: (1) frío/tormenta invernal del fin de semana: notas sin fecha, sin fuente oficial del día; (2) El Niño: ya en cola (en-026); (3) superluna del 24/11: lejos. Sin tema nuevo.",
@@ -720,8 +722,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-20T15:42",
-     "hace": "hace 2 h",
+     "cuando": "2026-11-20T19:35",
+     "hace": "hace 1 min",
      "detalle": [
       "en-024-heat-index: aprobado — Todas las afirmaciones fácticas están respaldadas por fuentes primarias del NWS/NOAA, con unidades (°F) y cifras coincidentes (100°F: 15% HR",
       "en-025-dog-hot-car: aprobado — Segunda revision con busqueda web. Todas las cifras y unidades (F) del guion y del caption coinciden con fuentes de EE. UU.: Pediatrics 2005",
@@ -753,8 +755,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-11-20T15:42",
-     "hace": "hace 2 h",
+     "cuando": "2026-11-20T19:35",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -776,14 +778,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-20 15:42.",
-     "cuando": "2026-11-20T15:42",
-     "hace": "hace 2 h",
+     "resumen": "Último video terminado: 2026-11-20 19:35.",
+     "cuando": "2026-11-20T19:35",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "21f7740cc6fb"
+     "firma": "f521cd68cb50"
     },
     {
      "id": "control",
@@ -800,14 +802,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "7 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-20T15:42",
-     "hace": "hace 2 h",
+     "resumen": "6 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-20T19:35",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "b2b8cc0e5f64"
+     "firma": "625440fe5990"
     },
     {
      "id": "publicador",
@@ -824,27 +826,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: en-024-heat-index.",
-     "cuando": "2026-11-20T13:37",
-     "hace": "hace 4 h",
+     "resumen": "Último: en-025-dog-hot-car.",
+     "cuando": "2026-11-20T19:36",
+     "hace": "recién",
      "detalle": [
-      "07/11 12:36 en-022-power-outage-fridge en la bandeja de TikTok",
-      "07/11 12:36 en-022-power-outage-fridge paquete para TikTok/YouTube enviado",
-      "07/11 19:34 en-023-package-text publicado: https://www.instagram.com/reel/DfdQ9nzGcv2/",
-      "07/11 19:35 en-023-package-text publicado en Facebook: https://www.facebook.com/reel/1433630505544214/",
       "07/11 19:35 en-023-package-text en la bandeja de TikTok",
       "07/11 19:35 en-023-package-text paquete para TikTok/YouTube enviado",
       "20/11 13:36 en-024-heat-index publicado: https://www.instagram.com/reel/Df-GPRlm9ZH/",
       "20/11 13:36 en-024-heat-index publicado en Facebook: https://www.facebook.com/reel/1440764394326288/",
       "20/11 13:36 en-024-heat-index en la bandeja de TikTok",
-      "20/11 13:37 en-024-heat-index paquete para TikTok/YouTube enviado"
+      "20/11 13:37 en-024-heat-index paquete para TikTok/YouTube enviado",
+      "20/11 19:35 en-025-dog-hot-car publicado: https://www.instagram.com/reel/Df-vaArnN_6/",
+      "20/11 19:36 en-025-dog-hot-car publicado en Facebook: https://www.facebook.com/reel/40975074848757686/",
+      "20/11 19:36 en-025-dog-hot-car en la bandeja de TikTok",
+      "20/11 19:36 en-025-dog-hot-car paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: en-025-dog-hot-car — Dog in the car for a minute with the window cracked (Pediatrics 2005; pillar pets)"
+      "Próximo: en-026-el-nino-winter — What El Niño means for your winter (NOAA CPC; adapted from 016)"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "a86d4baf1060"
+     "firma": "5797c8755bec"
     },
     {
      "id": "redes",
@@ -862,17 +864,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-20T13:37",
-     "hace": "hace 4 h",
+     "cuando": "2026-11-20T19:36",
+     "hace": "recién",
      "detalle": [
-      "06/11 19:34 en-022-ears-pop en la bandeja de TikTok",
-      "06/11 19:34 en-022-ears-pop paquete para TikTok/YouTube enviado",
       "07/11 12:36 en-022-power-outage-fridge en la bandeja de TikTok",
       "07/11 12:36 en-022-power-outage-fridge paquete para TikTok/YouTube enviado",
       "07/11 19:35 en-023-package-text en la bandeja de TikTok",
       "07/11 19:35 en-023-package-text paquete para TikTok/YouTube enviado",
       "20/11 13:36 en-024-heat-index en la bandeja de TikTok",
-      "20/11 13:37 en-024-heat-index paquete para TikTok/YouTube enviado"
+      "20/11 13:37 en-024-heat-index paquete para TikTok/YouTube enviado",
+      "20/11 19:36 en-025-dog-hot-car en la bandeja de TikTok",
+      "20/11 19:36 en-025-dog-hot-car paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -933,7 +935,7 @@
      "estado": "ok",
      "resumen": "20/11: 5 seguidores",
      "cuando": "2026-11-20T18:20",
-     "hace": "hace 6 min",
+     "hace": "hace 1 h",
      "detalle": [
       "05/11: 3 seguidores",
       "06/11: 3 seguidores",
@@ -966,7 +968,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-20T18:26",
+     "cuando": "2026-11-20T19:36",
      "hace": "recién",
      "detalle": [],
      "tareas": [],

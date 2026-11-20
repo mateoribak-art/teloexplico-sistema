@@ -909,7 +909,7 @@
  {
   "slug": "en-025-dog-hot-car",
   "tema": "Dog in the car for a minute with the window cracked (Pediatrics 2005; pillar pets)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -930,6 +930,11 @@
     "estado": "listo",
     "cuando": "2026-11-06T09:26",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-20T19:35",
+    "motivo": "https://www.instagram.com/reel/Df-vaArnN_6/"
    }
   ]
  },
