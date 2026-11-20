@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T06:00",
+ "actualizado": "2026-11-20T12:48",
  "oficinas": [
   {
    "clave": "es",
@@ -7,9 +7,9 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 1013,
-   "listos": 0,
-   "dias": 0.0,
-   "proximo": null,
+   "listos": 5,
+   "dias": 2.5,
+   "proximo": "049-primer-calor-aclimatacion",
    "publicados": 48,
    "pausa": false,
    "pendientes": [
@@ -46,37 +46,30 @@
     {
      "slug": "049-primer-calor-aclimatacion",
      "tema": "¿Por qué el primer calor del año te pega más fuerte? Tu cuerpo todavía no está aclimatado (NIOSH)",
-     "estado": "render",
-     "cuando": "2026-11-12T09:40",
-     "motivo": "escenas 3D listas"
+     "estado": "listo",
+     "cuando": "2026-11-20T12:36",
+     "motivo": "render sin Claude"
     },
     {
      "slug": "050-martes-13-no-viernes",
      "tema": "¿Por qué el viernes 13 trae mala suerte? En Argentina el de mala suerte es el martes 13 (origen del mito)",
-     "estado": "render",
-     "cuando": "2026-11-13T10:04",
-     "motivo": "escenas 3D listas"
+     "estado": "listo",
+     "cuando": "2026-11-20T12:39",
+     "motivo": "render sin Claude"
     },
     {
      "slug": "051-leonidas-grano-arena",
      "tema": "Lluvia de estrellas Leónidas: la estrella fugaz no es una estrella ni una roca gigante, es polvo de cometa del tamaño de un grano de arena que se enciende por la velocidad",
-     "estado": "render",
-     "cuando": "2026-11-17T10:13",
-     "motivo": "escenas 3D listas"
+     "estado": "listo",
+     "cuando": "2026-11-20T12:41",
+     "motivo": "render sin Claude"
     },
     {
      "slug": "052-zapatilla-sobrecarga",
      "tema": "Qué electrodomésticos no enchufar a una zapatilla o alargue: los que calientan (microondas, pava, estufa, aire) van directo a la pared (NFPA, bomberos)",
-     "estado": "render",
-     "cuando": "2026-11-17T10:31",
-     "motivo": "escenas 3D listas"
-    },
-    {
-     "slug": "053-cadenas-parana",
-     "tema": "Día de la Soberanía: por qué el 20/11 cruzaron el río Paraná con cadenas gigantes (Vuelta de Obligado, 1845)",
-     "estado": "render",
-     "cuando": "2026-11-18T09:35",
-     "motivo": "escenas 3D listas (actualidad: finde largo / Día de la Soberanía)"
+     "estado": "listo",
+     "cuando": "2026-11-20T12:44",
+     "motivo": "render sin Claude"
     },
     {
      "slug": "047-paquete-retenido",
@@ -108,31 +101,27 @@
        "cuenta": "es"
       }
      },
-     "estado": "falla",
-     "resumen": "El último turno terminó mal.",
-     "cuando": "2026-11-18T09:55",
-     "hace": "hace 44 h",
+     "estado": "trabajando",
+     "resumen": "Turno en curso.",
+     "cuando": "2026-11-20T12:47",
+     "hace": "hace 1 min",
      "detalle": [
-      "2026-11-18 09:18 Arranca la producción (2 listos en la cola, meta 6).",
-      "Listo. Resumen de la corrida:",
-      "**Resumen (3 líneas):**",
-      "1. **Listo para render:** `053-cadenas-parana` — video de actualidad (arranca el finde largo y el viernes 20 es el Día de la Soberanía): la Vuelta de Obligado, cuando cruzaron el Paraná con tres cadenas sobre 24 lanchones para frenar a dos ",
-      "2. **Ninguno apartado ni incompleto** en esta corrida.",
-      "3. **No produje un segundo video:** la cola ya tiene 7 terminados (2 en `listo` + 5 en `render`), ≥6, así que corté para cuidar la cuota de Gemini y de Claude.",
-      "2026-11-18 09:36 Termina la producción (código 0).",
-      "2026-11-18 09:55 Sincronización: subido 053-cadenas-parana.voz.wav",
-      "sincronizado"
+      "2026-11-20 09:50 Arranca la producción (0 listos en la cola, meta 6).",
+      "2026-11-20 12:34 Render de 049-primer-calor-aclimatacion (sin Claude).",
+      "2026-11-20 12:36 049-primer-calor-aclimatacion: listo (render sin Claude)",
+      "2026-11-20 12:36 Render de 050-martes-13-no-viernes (sin Claude).",
+      "2026-11-20 12:39 050-martes-13-no-viernes: listo (render sin Claude)",
+      "2026-11-20 12:39 Render de 051-leonidas-grano-arena (sin Claude).",
+      "2026-11-20 12:41 051-leonidas-grano-arena: listo (render sin Claude)",
+      "2026-11-20 12:41 Render de 052-zapatilla-sobrecarga (sin Claude).",
+      "2026-11-20 12:44 052-zapatilla-sobrecarga: listo (render sin Claude)",
+      "2026-11-20 12:44 Render de 053-cadenas-parana (sin Claude).",
+      "2026-11-20 12:47 053-cadenas-parana: listo (render sin Claude)"
      ],
-     "tareas": [
-      "049-primer-calor-aclimatacion — ¿Por qué el primer calor del año te pega más fuerte? Tu cuerpo todavía no está aclimatado (NIOSH)",
-      "050-martes-13-no-viernes — ¿Por qué el viernes 13 trae mala suerte? En Argentina el de mala suerte es el martes 13 (origen del mito)",
-      "051-leonidas-grano-arena — Lluvia de estrellas Leónidas: la estrella fugaz no es una estrella ni una roca gigante, es polvo de cometa del tamaño de un grano de arena que se enciende por la velocidad",
-      "052-zapatilla-sobrecarga — Qué electrodomésticos no enchufar a una zapatilla o alargue: los que calientan (microondas, pava, estufa, aire) van directo a la pared (NFPA, bomberos)",
-      "053-cadenas-parana — Día de la Soberanía: por qué el 20/11 cruzaron el río Paraná con cadenas gigantes (Vuelta de Obligado, 1845)"
-     ],
-     "arreglo": "Mirá el detalle y relanzá el turno.",
+     "tareas": [],
+     "arreglo": null,
      "solo": false,
-     "firma": "a7b0cd1a651a"
+     "firma": "3628cf151b02"
     },
     {
      "id": "referentes",
@@ -178,13 +167,13 @@
       }
      },
      "estado": "ok",
-     "resumen": "Revision radar. HAY TEMA: arranca el finde largo y el viernes 20/11 es el Dia de la Soberania (feriado trasladado al lunes 23). Casi nadie sabe que se festeja -",
-     "cuando": "2026-11-18T00:00",
-     "hace": "hace 2 días",
+     "resumen": "Revisión radar. Búsquedas web (SMN + noticias/tendencias del día). SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por tormentas y granizo ",
+     "cuando": "2026-11-20T00:00",
+     "hace": "hace 12 h",
      "detalle": [
-      "13/11 00:00 | Revisión radar. HAY TEMA: hoy es viernes 13. Giro propio verificado: en los países anglosajones el día de mala suerte es el viernes 13, pero en Argentina/España/Grecia es el MARTES 13; tan así que la peli \"Friday the 13th\" (1980) se estrenó acá como \"Martes 13\" (Wikipedia/IMDb). Orígenes: viernes 13 = Última Cena + Templarios; martes 13 = Marte, dios de la guerra. Fuentes del día: Los Andes, La Nación, National Geographic Historia. ELEGIDO. Slug: 050-martes-13-no-viernes (--actualidad, serie costumbres). Descartados: (a) alerta NARANJA por tormentas severas/granizo/ráfagas 90 km/h en BA oeste, Córdoba sur, La Pampa, Río Negro, Chubut (SMN hoy) -> AMBA queda afuera hoy y granizo/tormenta/refresca ya cubiertos (005/024/018); (b) Leónidas (pico 17-18 nov) -> todavía no se vive, guardar ~15-16 nov.",
       "17/11 00:00 | Revisión radar. HAY TEMA (ya en cola de una corrida previa): lluvia de estrellas Leónidas, pico madrugada 17-18 nov (NASA, Natural History Museum Londres). Ángulo propio verificado: la \"estrella fugaz\" no es una estrella ni una roca grande, es polvo de cometa (Tempel-Tuttle) del tamaño de un grano de arena que se enciende al entrar a 71 km/s. Slug 051-leonidas-grano-arena (--actualidad, serie ciencia): continué su producción (chequeo→voz→3D→render). Descartados: (a) alerta naranja/amarilla por tormentas severas y granizo en 17 provincias incl. CABA (SMN hoy) -> granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin ángulo nuevo; (b) vientos Zonda en Cuyo -> nicho regional.",
-      "18/11 00:00 | Revision radar. HAY TEMA: arranca el finde largo y el viernes 20/11 es el Dia de la Soberania (feriado trasladado al lunes 23). Casi nadie sabe que se festeja -> angulo propio: la Vuelta de Obligado (1845), cerraron el rio Parana con tres cadenas sobre 24 lanchones para frenar a Gran Bretana y Francia; imagen grande y mandable. Verificado (Canal26 2026, Infobae 2024, La Nacion 2025, Wikipedia; Dia de la Soberania 20-nov). ELEGIDO. Slug 053-cadenas-parana (--actualidad, serie argentina). Descartados: (a) alerta naranja/amarilla por tormentas y granizo en 9-10 provincias (SMN hoy) -> AMBA afuera y granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin angulo nuevo; (b) ciclon/calor en BA por Super Nino -> clima ya cubierto (016/019/008/009), sin giro; (c) Leonidas -> ya en cola (051)."
+      "18/11 00:00 | Revision radar. HAY TEMA: arranca el finde largo y el viernes 20/11 es el Dia de la Soberania (feriado trasladado al lunes 23). Casi nadie sabe que se festeja -> angulo propio: la Vuelta de Obligado (1845), cerraron el rio Parana con tres cadenas sobre 24 lanchones para frenar a Gran Bretana y Francia; imagen grande y mandable. Verificado (Canal26 2026, Infobae 2024, La Nacion 2025, Wikipedia; Dia de la Soberania 20-nov). ELEGIDO. Slug 053-cadenas-parana (--actualidad, serie argentina). Descartados: (a) alerta naranja/amarilla por tormentas y granizo en 9-10 provincias (SMN hoy) -> AMBA afuera y granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin angulo nuevo; (b) ciclon/calor en BA por Super Nino -> clima ya cubierto (016/019/008/009), sin giro; (c) Leonidas -> ya en cola (051).",
+      "20/11 00:00 | Revisión radar. Búsquedas web (SMN + noticias/tendencias del día). SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por tormentas y granizo en 7-11 provincias incl. Buenos Aires (SMN hoy, La Nación/NA) -> granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin ángulo nuevo; (b) Día de la Soberanía 20/11 -> YA en cola (053-cadenas-parana, en render); (c) dólar/CCL, ley de patentes, ley discapacidad, Tesla en Argentina -> política/economía/empresa, no encajan. Sigue la cola normal."
      ],
      "tareas": [
       "🔥 004-olor-a-lluvia — ¿Por qué la tierra huele así cuando llueve?",
@@ -201,7 +190,7 @@
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "a9c491e0a264"
+     "firma": "a773a120cc9f"
     },
     {
      "id": "chequeo",
@@ -219,8 +208,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-18T19:30",
-     "hace": "hace 34 h",
+     "cuando": "2026-11-20T12:47",
+     "hace": "hace 1 min",
      "detalle": [
       "046-perro-no-comas: aprobado — Todas las afirmaciones de salud (chocolate, uvas/pasas, cebolla/ajo/cebollín, consulta al veterinario) están respaldadas por la página de la",
       "047-paquete-retenido: aprobado — Segunda pasada con búsqueda web y lectura de las dos fuentes primarias. Todas las afirmaciones de seguridad y de plata quedan verificadas. L",
@@ -252,8 +241,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-18T19:30",
-     "hace": "hace 34 h",
+     "cuando": "2026-11-20T12:47",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -274,21 +263,15 @@
        "cuenta": "es"
       }
      },
-     "estado": "trabajando",
-     "resumen": "5 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
-     "cuando": "2026-11-18T19:30",
-     "hace": "hace 34 h",
+     "estado": "ok",
+     "resumen": "Último video terminado: 2026-11-20 12:47.",
+     "cuando": "2026-11-20T12:47",
+     "hace": "hace 1 min",
      "detalle": [],
-     "tareas": [
-      "049-primer-calor-aclimatacion",
-      "050-martes-13-no-viernes",
-      "051-leonidas-grano-arena",
-      "052-zapatilla-sobrecarga",
-      "053-cadenas-parana"
-     ],
+     "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "3ab816dc09d1"
+     "firma": "7fcec20203c2"
     },
     {
      "id": "control",
@@ -305,14 +288,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "0 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-18T19:30",
-     "hace": "hace 34 h",
+     "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-20T12:47",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "568f9e68b76b"
+     "firma": "ed651a2c8e2f"
     },
     {
      "id": "publicador",
@@ -330,10 +313,9 @@
      },
      "estado": "falla",
      "resumen": "No salió la publicación del turno de las 19:30 (19/11).",
-     "cuando": "2026-11-19T19:30",
-     "hace": "hace 10 h",
+     "cuando": "2026-11-20T12:30",
+     "hace": "hace 18 min",
      "detalle": [
-      "18/11 12:32 047-paquete-retenido en la bandeja de TikTok",
       "18/11 12:32 047-paquete-retenido https://youtube.com/shorts/2bDayee9JZ0 | privacidad: public",
       "18/11 12:32 047-paquete-retenido paquete para TikTok/YouTube enviado",
       "18/11 19:30 048-golpe-de-calor publicado: https://www.instagram.com/reel/Df5lQt6jLYg/",
@@ -342,9 +324,12 @@
       "18/11 19:32 048-golpe-de-calor https://youtube.com/shorts/cDQPgFirUTE | privacidad: public",
       "18/11 19:33 048-golpe-de-calor paquete para TikTok/YouTube enviado",
       "19/11 12:30 No hay videos listos en la cola.",
-      "19/11 19:30 No hay videos listos en la cola."
+      "19/11 19:30 No hay videos listos en la cola.",
+      "20/11 12:30 No hay videos listos en la cola."
      ],
-     "tareas": [],
+     "tareas": [
+      "Próximo: 049-primer-calor-aclimatacion — ¿Por qué el primer calor del año te pega más fuerte? Tu cuerpo todavía no está aclimatado (NIOSH)"
+     ],
      "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
      "solo": false,
      "firma": "336bab91f38b"
@@ -366,7 +351,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-18T19:33",
-     "hace": "hace 34 h",
+     "hace": "hace 41 h",
      "detalle": [
       "18/11 12:30 047-paquete-retenido publicado: https://www.instagram.com/reel/Df41MyEigAw/",
       "18/11 12:31 047-paquete-retenido publicado en Facebook: https://www.facebook.com/reel/1605655408027259/",
@@ -471,7 +456,7 @@
      "estado": "ok",
      "resumen": "19/11: 1013 seguidores",
      "cuando": "2026-11-19T21:00",
-     "hace": "hace 9 h",
+     "hace": "hace 15 h",
      "detalle": [
       "16/11: 946 seguidores",
       "17/11: 981 seguidores",
@@ -504,11 +489,11 @@
      },
      "estado": "falla",
      "resumen": "No salió la publicación del turno de las 19:30 (19/11).",
-     "cuando": "2026-11-20T06:00",
+     "cuando": "2026-11-20T12:48",
      "hace": "recién",
      "detalle": [
       "❗ No salió la publicación del turno de las 19:30 (19/11).",
-      "❗ No hay ningún video listo en la cola: el próximo turno no va a publicar."
+      "❗ La producción nocturna (noche_2026-11-20.log) no terminó bien."
      ],
      "tareas": [],
      "arreglo": null,
@@ -951,7 +936,7 @@
      },
      "estado": "falla",
      "resumen": "No salió la publicación del turno de las 19:30 (19/11).",
-     "cuando": "2026-11-20T06:00",
+     "cuando": "2026-11-20T12:48",
      "hace": "recién",
      "detalle": [
       "❗ No salió la publicación del turno de las 19:30 (19/11)."
