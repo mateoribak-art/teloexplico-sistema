@@ -52,6 +52,8 @@ import { DURACION as DUR_050, FPS as FPS_050, Martes13NoViernes3D, Portada050 } 
 import { DURACION as DUR_051, FPS as FPS_051, LeonidasGrano3D, Portada051 } from "./videos/051-leonidas-grano-arena/Video";
 import { DURACION as DUR_052, FPS as FPS_052, ZapatillaSobrecarga3D, Portada052 } from "./videos/052-zapatilla-sobrecarga/Video";
 import { DURACION as DUR_053, FPS as FPS_053, CadenasParana3D, Portada053 } from "./videos/053-cadenas-parana/Video";
+import { DURACION as DUR_055, FPS as FPS_055, GtaViceCityMiami3D, Portada055 } from "./videos/055-gta-vice-city-miami/Video";
+import { DURACION as DUR_054, FPS as FPS_054, GtaJuegosViolentos3D, Portada054 } from "./videos/054-gta-juegos-violentos/Video";
 import { DURACION as DUR_038,FPS as FPS_038, CodigoWhatsapp3D, Portada038 } from "./videos/038-codigo-whatsapp/Video";
 import { DURACION as DUR_039, FPS as FPS_039, SolNublado3D, Portada039 } from "./videos/039-sol-nublado/Video";
 import { DURACION as DUR_040, FPS as FPS_040, ConsumoFantasma3D, Portada040 } from "./videos/040-consumo-fantasma/Video";
@@ -92,6 +94,7 @@ import { DURACION as DUR_EN025, FPS as FPS_EN025, DogHotCarEn025, PortadaEn025 }
 import { DURACION as DUR_EN026, FPS as FPS_EN026, ElNinoWinterEn026, PortadaEn026 } from "./videos/en-026-el-nino-winter/Video";
 import { DURACION as DUR_EN028, FPS as FPS_EN028, TurkeySleepyEn028, PortadaEn028 } from "./videos/en-028-turkey-sleepy/Video";
 import { DURACION as DUR_EN029, FPS as FPS_EN029, SwimAfterEatingEn029, PortadaEn029 } from "./videos/en-029-swim-after-eating/Video";
+import { DURACION as DUR_EN030, FPS as FPS_EN030, ViolentGamesEn030, PortadaEn030 } from "./videos/en-030-violent-games/Video";
 import { DURACION as DUR_EN001,FPS as FPS_EN001, PhoneRiceEn001, PortadaEn001 } from "./videos/en-001-phone-rice/Video";
 
 // Cada video nuevo suma su <Composition> (id "hNNN-slug") y su <Still> de portada (id "pNNN-slug").
@@ -155,6 +158,10 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p052-zapatilla-sobrecarga" component={Portada052} width={ANCHO} height={ALTO} />
         <Composition id="h053-cadenas-parana" component={CadenasParana3D} durationInFrames={DUR_053} fps={FPS_053} width={ANCHO} height={ALTO} />
         <Still id="p053-cadenas-parana" component={Portada053} width={ANCHO} height={ALTO} />
+        <Composition id="h054-gta-juegos-violentos" component={GtaJuegosViolentos3D} durationInFrames={DUR_054} fps={FPS_054} width={ANCHO} height={ALTO} />
+        <Still id="p054-gta-juegos-violentos" component={Portada054} width={ANCHO} height={ALTO} />
+        <Composition id="h055-gta-vice-city-miami" component={GtaViceCityMiami3D} durationInFrames={DUR_055} fps={FPS_055} width={ANCHO} height={ALTO} />
+        <Still id="p055-gta-vice-city-miami" component={Portada055} width={ANCHO} height={ALTO} />
         <Composition id="h038-codigo-whatsapp"component={CodigoWhatsapp3D} durationInFrames={DUR_038} fps={FPS_038} width={ANCHO} height={ALTO} />
         <Still id="p038-codigo-whatsapp" component={Portada038} width={ANCHO} height={ALTO} />
         <Composition id="h039-sol-nublado" component={SolNublado3D} durationInFrames={DUR_039} fps={FPS_039} width={ANCHO} height={ALTO} />
@@ -236,6 +243,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-028-turkey-sleepy" component={PortadaEn028} width={ANCHO} height={ALTO} />
         <Composition id="hen-029-swim-after-eating" component={SwimAfterEatingEn029} durationInFrames={DUR_EN029} fps={FPS_EN029} width={ANCHO} height={ALTO} />
         <Still id="pen-029-swim-after-eating" component={PortadaEn029} width={ANCHO} height={ALTO} />
+        <Composition id="hen-030-violent-games" component={ViolentGamesEn030} durationInFrames={DUR_EN030} fps={FPS_EN030} width={ANCHO} height={ALTO} />
+        <Still id="pen-030-violent-games" component={PortadaEn030} width={ANCHO} height={ALTO} />
       </Folder>
       <Folder name="carruseles">
         <Still id="carrusel" component={CarruselPlaca} width={ANCHO_C} height={ALTO_C} defaultProps={{ datos: { origen: [], placas: [{ tipo: "cierre", texto: "placa de prueba" }] }, i: 0 }} />

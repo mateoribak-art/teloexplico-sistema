@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones fácticas quedaron verificadas contra fuentes primarias o confiables: el comunicado de la APA del 3/3/2020 (apa.org) respalda la falta de evidencia causal, la asociación chica pero confiable con agresión leve (gritar, empujar) y la dificultad para extenderla a violencia grave; el lanzamiento del GTA 6 el 19/11/2026 en PS5 y Xbox Series X|S está confirmado por Infobae, Yahoo Noticias y la tienda de Rockstar. No hay afirmaciones probables, dudosas ni falsas, y no hay cifras sin respaldo. Matices correctos: la frase dice 'no hay evidencia suficiente' (no 'está probado que no causa') y conserva el giro honesto sobre la asociación chica. Observación menor: la fuente citada en el caption es El Sol; no pude abrir esa nota puntual, pero la fecha está respaldada por otras fuentes, así que conviene citar Infobae o Rockstar si se quiere una fuente comprobada.",
+  "afirmaciones": [
+    {
+      "texto": "Salió el GTA 6 (el GTA seis salió y alguien de tu casa dice que te quema la cabeza)",
+      "fuente": "Infobae 18/11/2026 (https://www.infobae.com/tecno/2026/11/18/gta-6-cuando-va-a-salir-oficialmente-y-a-que-hora/); Yahoo Noticias; Rockstar Games Store (https://store.rockstargames.com/es-419/game/buy-gta-vi); fecha 19/11/2026 en PS5 y Xbox Series X|S. La parte 'te quema la cabeza' es una opinión de un familiar, no un dato.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El lanzamiento fue el 19/11/2026 (fuente del caption: El Sol)",
+      "fuente": "Infobae (https://www.infobae.com/tecno/2026/11/17/a-que-hora-sale-gta-6-en-tu-pais-horarios-de-lanzamiento-para-ps5-y-xbox-series-xs/), Yahoo Noticias, Rockstar Report. No pude abrir la nota de El Sol.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mucha gente dice que los juegos violentos te vuelven violento (creencia popular)",
+      "fuente": "APA, comunicado 3/3/2020: la resolución de 2015 era citada por medios y políticos para vincular juegos con violencia (https://www.apa.org/news/press/releases/2020/03/violent-video-games-behavior)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En 2020, la Asociación Estadounidense de Psicología revisó la evidencia disponible",
+      "fuente": "APA, comunicado del 3/3/2020 'APA reaffirms position on violent video games and violent behavior': un grupo de trabajo revisó la literatura actual (https://www.apa.org/news/press/releases/2020/03/violent-video-games-behavior)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Concluyó que no hay evidencia científica suficiente para decir que los videojuegos violentos causan conducta violenta",
+      "fuente": "APA, comunicado 3/3/2020: 'insufficient scientific evidence to support a causal link between violent video games and violent behavior'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sí encontró una asociación chica (y confiable) con agresión leve, como gritar o empujar",
+      "fuente": "APA, informe del grupo de trabajo 2020, citado en el comunicado: 'small, reliable association between violent video game use and aggressive outcomes, such as yelling and pushing'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Aclaró que eso es difícil de extender a violencia grave",
+      "fuente": "APA, comunicado 3/3/2020: 'difficult to extend to more violent outcomes'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Comunicado del 3/3/2020 de la APA e informe del grupo de trabajo (sección Fuentes del caption)",
+      "fuente": "APA, https://www.apa.org/news/press/releases/2020/03/violent-video-games-behavior (fecha del comunicado 3/3/2020; resolución actualizada el 1/3/2020)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Los psicólogos dicen otra cosa (la APA, institución de psicólogos, sostiene que no hay evidencia causal suficiente)",
+      "fuente": "APA, comunicado 3/3/2020. La frase atribuye la postura a la APA y no a todos los psicólogos; el cuerpo del video lo aclara con la institución, año y matiz.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

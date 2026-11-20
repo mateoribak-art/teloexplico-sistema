@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones coinciden con la fuente primaria (comunicado APA del 3/3/2020, texto citado literalmente en apa.org) y la fecha de GTA 6 (19/11/2026, PS5 y Xbox Series X|S) esta confirmada por medios serios (NME, IBTimes) que citan a Rockstar. No hay cifras dudosas ni afirmaciones falsas, y los matices de la APA (vinculo pequeno con agresion leve, dificil de extender a violencia grave) estan en guion y caption. Nota menor: la caption cita Infobae para la fecha; no se pudo abrir la pagina de Rockstar directamente, pero la fecha esta respaldada por varios medios.",
+  "afirmaciones": [
+    {
+      "texto": "GTA six just came out (guion) / GTA 6 just came out (caption)",
+      "fuente": "Rockstar Games via NME (https://www.nme.com/guides/gta-6-release-date-xbox-ps5-pc-3553782) e IBTimes (https://www.ibtimes.co.uk/gta-6-release-date-pre-load-time-price-editions-platforms-confirmed-rockstar-1819557): lanzamiento 19/11/2026 en PS5 y Xbox Series X|S; hoy es 20/11/2026",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "somebody in your house already says it'll fry your brain",
+      "fuente": "sin fuente primaria: es el gancho anecdotico/humoristico, no una afirmacion factica sobre el mundo",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The science is shakier than that.",
+      "fuente": "APA 2020 (https://www.apa.org/news/press/releases/2020/03/violent-video-games-behavior): evidencia insuficiente para un vinculo causal",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "In twenty twenty, the American Psychological Association reviewed the evidence.",
+      "fuente": "APA, comunicado del 3/3/2020 'APA reaffirms position on violent video games and violent behavior' (resolucion del Consejo de Representantes con informe de un grupo de trabajo)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "It concluded there's insufficient scientific evidence to say violent video games cause violent behavior.",
+      "fuente": "APA, mismo comunicado: 'There is insufficient scientific evidence to support a causal link between violent video games and violent behavior'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "it did find a small link with mild aggression, like yelling or pushing (caption: small but reliable link)",
+      "fuente": "APA, comunicado e informe del grupo de trabajo: 'a small, reliable association between violent video game use and aggressive outcomes' ... 'such as yelling and pushing'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "And it said that's hard to extend to serious violence (caption: difficult to extend to more serious violence)",
+      "fuente": "APA, informe del grupo de trabajo: hallazgos 'difficult to extend to more violent outcomes'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Yelling at your screen when you lose is one thing. Real violence is another.",
+      "fuente": "cierre derivado de la distincion de la APA entre agresion leve y resultados violentos; no agrega dato nuevo",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption sources: APA press release 3/3/2020 and task force report; Infobae (GTA 6 release date, 11/19/2026)",
+      "fuente": "apa.org (fecha 3 de marzo de 2020 confirmada); fecha de GTA 6 confirmada por NME e IBTimes",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

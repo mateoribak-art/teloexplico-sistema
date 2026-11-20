@@ -1,0 +1,29 @@
+{
+  "titulo": "GTA 6: Vice City es una versión de Miami y Leonida de Florida; el puente que se reconoce",
+  "destinatario": "se lo manda el que estuvo en Miami (o sueña con ir) al amigo que ya está manejando por Vice City, para decirle que fije si alguna calle le suena",
+  "regla_guardable": "Sin regla: va por comentar y mandar",
+  "interaccion": "comentar",
+  "pregunta_comentarios": "¿Qué lugar de Miami reconociste?",
+  "pilar": "fandom",
+  "receta": "actualidad con comunidad: el juego del momento y un lugar real que muchos argentinos conocen",
+  "fondo": "oscuro",
+  "serie": "sin serie (actualidad)",
+  "fuentes": [
+    "Rockstar Games (sitio oficial de GTA VI): 'Vice City, USA. The darkest side of the sunniest place in America.'; estado de Leonida. No menciona Florida ni Miami.",
+    "Miami New Times: 'Interactive map: 20 Miami landmarks in GTA 6' (Venetian Causeway recreado en Vice City)",
+    "Axios Miami (5/12/2023): 'Every Miami landmark in Grand Theft Auto VI' (comparación del tráiler con lugares reales)",
+    "Infobae (17-18/11/2026): GTA 6 sale el 19/11/2026"
+  ],
+  "frases": [
+    { "texto": "Si alguna vez estuviste en Miami, el GTA seis te va a sonar conocido.", "estilo": "Directo y cómplice, como arrancando una charla." },
+    { "texto": "La ciudad del juego se llama Vice City y, según la prensa y entrevistas de Rockstar, está inspirada en Miami.", "estilo": "Afirmativo, con media sonrisa." },
+    { "texto": "Y el estado donde pasa, Leonida, está inspirado en Florida, según los medios.", "estilo": "Seguido, con ritmo." },
+    { "texto": "Periodistas de Miami compararon el tráiler con la ciudad real.", "estilo": "Narrador, mostrando el dato." },
+    { "texto": "Y según Miami New Times, el puente Venetian Causeway, que une Miami con Miami Beach, aparece recreado en el juego.", "estilo": "Con asombro, claro y firme." },
+    { "texto": "Ojo: hasta donde sabemos, Rockstar no confirmó qué lugares concretos son reales. Son comparaciones con el tráiler.", "estilo": "Giro honesto, bajando un cambio." },
+    { "texto": "Su sitio oficial presenta a Vice City como el lado más oscuro del lugar más soleado de América, sin nombrar Miami.", "estilo": "Tranquilo, citando." },
+    { "texto": "Si ya la manejaste, fijate si alguna calle te suena.", "estilo": "Cómplice, con humor." },
+    { "texto": "¿Qué lugar de Miami reconociste?", "estilo": "Pregunta abierta, curiosa." },
+    { "texto": "Mandáselo al que ya está manejando por Vice City.", "estilo": "Cómplice, con humor." }
+  ]
+}

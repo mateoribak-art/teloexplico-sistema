@@ -1,0 +1,29 @@
+{
+  "titulo": "Do violent video games make you violent? What the American Psychological Association said in 2020",
+  "destinatario": "a gamer sends it to the parent (or uncle) who says GTA is frying their brain, to show what psychologists actually concluded",
+  "regla_guardable": "APA 2020: insufficient scientific evidence that violent video games cause violent behavior; small link with mild aggression (yelling, pushing)",
+  "interaccion": "comentar",
+  "pregunta_comentarios": "What game did your parents try to take away from you?",
+  "pilar": "fandom",
+  "receta": "The wrong suspect: everyone blames the game, the psychology review says something else, with source, year and nuance",
+  "fondo": "oscuro",
+  "serie": "ciencia",
+  "adaptado_de": "054-gta-juegos-violentos",
+  "fuentes": [
+    "American Psychological Association (APA), press release 3/3/2020 'APA reaffirms position on violent video games and violent behavior': 'insufficient scientific evidence to support a causal link between violent video games and violent behavior'",
+    "APA, 2020 task force report: 'a small, reliable association between violent video game use and aggressive outcomes' (such as yelling and pushing), difficult to extend to more violent outcomes",
+    "Infobae, Rockstar Games Store: GTA 6 released 11/19/2026 on PS5 and Xbox Series X|S"
+  ],
+  "frases": [
+    { "texto": "GTA six just came out, and somebody in your house already says it'll fry your brain.", "estilo": "Direct and complicit, like starting a chat." },
+    { "texto": "That violent games turn you violent.", "estilo": "Dry, with a half smile." },
+    { "texto": "The science is shakier than that.", "estilo": "Short, punchy hit." },
+    { "texto": "In twenty twenty, the American Psychological Association reviewed the evidence.", "estilo": "Narrator, showing the fact." },
+    { "texto": "It concluded there's insufficient scientific evidence to say violent video games cause violent behavior.", "estilo": "Clear and firm, with rhythm." },
+    { "texto": "Heads up: it did find a small link with mild aggression, like yelling or pushing.", "estilo": "Honest turn, calm." },
+    { "texto": "And it said that's hard to extend to serious violence.", "estilo": "Clarifying, easy." },
+    { "texto": "Yelling at your screen when you lose is one thing. Real violence is another.", "estilo": "Complicit, with humor." },
+    { "texto": "What game did your parents try to take away from you?", "estilo": "Open, curious question." },
+    { "texto": "Send this to the parent who blames GTA for everything.", "estilo": "Complicit, with humor." }
+  ]
+}

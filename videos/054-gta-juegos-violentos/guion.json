@@ -1,0 +1,28 @@
+{
+  "titulo": "¿Los videojuegos violentos te hacen violento? Lo que dice la Asociación Estadounidense de Psicología (2020)",
+  "destinatario": "se lo manda un pibe que está jugando el GTA a su vieja (o a su tío) que dice que ese juego le quema la cabeza, para mostrarle lo que dicen los psicólogos",
+  "regla_guardable": "APA 2020: no hay evidencia científica suficiente para decir que los videojuegos violentos causan conducta violenta; sí hay una asociación chica con agresión leve (gritar, empujar)",
+  "interaccion": "comentar",
+  "pregunta_comentarios": "¿Cuál fue el juego que en tu casa te querían sacar?",
+  "pilar": "fandom",
+  "receta": "El acusado equivocado: todos culpan al juego, la psicología dice otra cosa, con fuente, año y matiz",
+  "fondo": "oscuro",
+  "serie": "ciencia",
+  "fuentes": [
+    "American Psychological Association (APA), comunicado 3/3/2020 'APA reaffirms position on violent video games and violent behavior': 'insufficient scientific evidence to support a causal link between violent video games and violent behavior'",
+    "APA, informe del grupo de trabajo 2020: 'a small, reliable association between violent video game use and aggressive outcomes' (como gritar y empujar), difícil de extender a resultados más violentos",
+    "El Sol (Argentina): GTA 6 sale el jueves 19/11/2026 en PS5 y Xbox Series X|S"
+  ],
+  "frases": [
+    { "texto": "Salió el GTA seis y alguien de tu casa ya dice que te quema la cabeza.", "estilo": "Directo y cómplice, como arrancando una charla." },
+    { "texto": "Que los juegos violentos te vuelven violento.", "estilo": "Seco, con media sonrisa." },
+    { "texto": "Los psicólogos dicen otra cosa.", "estilo": "Golpe corto y contundente." },
+    { "texto": "En dos mil veinte, la Asociación Estadounidense de Psicología revisó la evidencia disponible.", "estilo": "Narrador, mostrando el dato." },
+    { "texto": "Y concluyó que no hay evidencia científica suficiente para decir que los videojuegos violentos causan conducta violenta.", "estilo": "Claro y firme, con ritmo." },
+    { "texto": "Ojo: sí encontró una asociación chica con agresión leve, como gritar o empujar.", "estilo": "Giro honesto, bajando un cambio." },
+    { "texto": "Y aclaró que eso es difícil de extender a violencia grave.", "estilo": "Aclarando, tranquilo." },
+    { "texto": "Gritarle a la pantalla cuando perdés es una cosa. Violencia de verdad, otra.", "estilo": "Cómplice, con humor." },
+    { "texto": "¿Cuál fue el juego que en tu casa te querían sacar?", "estilo": "Pregunta abierta, curiosa." },
+    { "texto": "Mandáselo a tu vieja, la que dice que el GTA te quema la cabeza.", "estilo": "Cómplice, con humor." }
+  ]
+}

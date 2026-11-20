@@ -1,0 +1,635 @@
+{
+ "duracion": 38.7,
+ "frases": [
+  {
+   "texto": "GTA six just came out, and somebody in your house already says it'll fry your brain.",
+   "palabras": [
+    {
+     "texto": "GTA",
+     "inicio": 0.0,
+     "fin": 0.36
+    },
+    {
+     "texto": "six",
+     "inicio": 0.36,
+     "fin": 0.76
+    },
+    {
+     "texto": "just",
+     "inicio": 0.76,
+     "fin": 1.0
+    },
+    {
+     "texto": "came",
+     "inicio": 1.0,
+     "fin": 1.22
+    },
+    {
+     "texto": "out,",
+     "inicio": 1.22,
+     "fin": 1.46
+    },
+    {
+     "texto": "and",
+     "inicio": 1.88,
+     "fin": 2.04
+    },
+    {
+     "texto": "somebody",
+     "inicio": 2.04,
+     "fin": 2.5
+    },
+    {
+     "texto": "in",
+     "inicio": 2.5,
+     "fin": 2.74
+    },
+    {
+     "texto": "your",
+     "inicio": 2.74,
+     "fin": 2.88
+    },
+    {
+     "texto": "house",
+     "inicio": 2.88,
+     "fin": 3.22
+    },
+    {
+     "texto": "already",
+     "inicio": 3.22,
+     "fin": 3.74
+    },
+    {
+     "texto": "says",
+     "inicio": 3.74,
+     "fin": 4.12
+    },
+    {
+     "texto": "it'll",
+     "inicio": 4.12,
+     "fin": 4.54
+    },
+    {
+     "texto": "fry",
+     "inicio": 4.54,
+     "fin": 4.78
+    },
+    {
+     "texto": "your",
+     "inicio": 4.78,
+     "fin": 4.98
+    },
+    {
+     "texto": "brain.",
+     "inicio": 4.98,
+     "fin": 5.24
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 5.24
+  },
+  {
+   "texto": "That violent games turn you violent.",
+   "palabras": [
+    {
+     "texto": "That",
+     "inicio": 5.78,
+     "fin": 5.88
+    },
+    {
+     "texto": "violent",
+     "inicio": 5.88,
+     "fin": 6.16
+    },
+    {
+     "texto": "games",
+     "inicio": 6.16,
+     "fin": 6.54
+    },
+    {
+     "texto": "turn",
+     "inicio": 6.54,
+     "fin": 7.06
+    },
+    {
+     "texto": "you",
+     "inicio": 7.06,
+     "fin": 7.24
+    },
+    {
+     "texto": "violent.",
+     "inicio": 7.24,
+     "fin": 7.58
+    }
+   ],
+   "inicio": 5.78,
+   "fin": 7.58
+  },
+  {
+   "texto": "The science is shakier than that.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 8.16,
+     "fin": 8.26
+    },
+    {
+     "texto": "science",
+     "inicio": 8.26,
+     "fin": 8.48
+    },
+    {
+     "texto": "is",
+     "inicio": 8.48,
+     "fin": 8.72
+    },
+    {
+     "texto": "shakier",
+     "inicio": 8.72,
+     "fin": 9.08
+    },
+    {
+     "texto": "than",
+     "inicio": 9.08,
+     "fin": 9.24
+    },
+    {
+     "texto": "that.",
+     "inicio": 9.24,
+     "fin": 9.44
+    }
+   ],
+   "inicio": 8.16,
+   "fin": 9.44
+  },
+  {
+   "texto": "In twenty twenty, the American Psychological Association reviewed the evidence.",
+   "palabras": [
+    {
+     "texto": "In",
+     "inicio": 9.82,
+     "fin": 10.02
+    },
+    {
+     "texto": "twenty",
+     "inicio": 10.02,
+     "fin": 10.26
+    },
+    {
+     "texto": "twenty,",
+     "inicio": 10.26,
+     "fin": 10.62
+    },
+    {
+     "texto": "the",
+     "inicio": 10.92,
+     "fin": 11.08
+    },
+    {
+     "texto": "American",
+     "inicio": 11.08,
+     "fin": 11.38
+    },
+    {
+     "texto": "Psychological",
+     "inicio": 11.38,
+     "fin": 12.14
+    },
+    {
+     "texto": "Association",
+     "inicio": 12.14,
+     "fin": 12.7
+    },
+    {
+     "texto": "reviewed",
+     "inicio": 12.7,
+     "fin": 13.18
+    },
+    {
+     "texto": "the",
+     "inicio": 13.18,
+     "fin": 13.5
+    },
+    {
+     "texto": "evidence.",
+     "inicio": 13.5,
+     "fin": 13.84
+    }
+   ],
+   "inicio": 9.82,
+   "fin": 13.84
+  },
+  {
+   "texto": "It concluded there's insufficient scientific evidence to say violent video games cause violent behavior.",
+   "palabras": [
+    {
+     "texto": "It",
+     "inicio": 14.42,
+     "fin": 14.58
+    },
+    {
+     "texto": "concluded",
+     "inicio": 14.58,
+     "fin": 15.0
+    },
+    {
+     "texto": "there's",
+     "inicio": 15.0,
+     "fin": 15.64
+    },
+    {
+     "texto": "insufficient",
+     "inicio": 15.64,
+     "fin": 16.16
+    },
+    {
+     "texto": "scientific",
+     "inicio": 16.16,
+     "fin": 16.96
+    },
+    {
+     "texto": "evidence",
+     "inicio": 16.96,
+     "fin": 17.5
+    },
+    {
+     "texto": "to",
+     "inicio": 17.5,
+     "fin": 17.96
+    },
+    {
+     "texto": "say",
+     "inicio": 17.96,
+     "fin": 18.1
+    },
+    {
+     "texto": "violent",
+     "inicio": 18.1,
+     "fin": 18.56
+    },
+    {
+     "texto": "video",
+     "inicio": 18.56,
+     "fin": 18.84
+    },
+    {
+     "texto": "games",
+     "inicio": 18.84,
+     "fin": 19.24
+    },
+    {
+     "texto": "cause",
+     "inicio": 19.24,
+     "fin": 19.86
+    },
+    {
+     "texto": "violent",
+     "inicio": 19.86,
+     "fin": 20.32
+    },
+    {
+     "texto": "behavior.",
+     "inicio": 20.32,
+     "fin": 20.78
+    }
+   ],
+   "inicio": 14.42,
+   "fin": 20.78
+  },
+  {
+   "texto": "Heads up: it did find a small link with mild aggression, like yelling or pushing.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 21.3,
+     "fin": 21.54
+    },
+    {
+     "texto": "up:",
+     "inicio": 21.54,
+     "fin": 21.76
+    },
+    {
+     "texto": "it",
+     "inicio": 21.9,
+     "fin": 22.08
+    },
+    {
+     "texto": "did",
+     "inicio": 22.08,
+     "fin": 22.42
+    },
+    {
+     "texto": "find",
+     "inicio": 22.42,
+     "fin": 22.88
+    },
+    {
+     "texto": "a",
+     "inicio": 22.88,
+     "fin": 23.14
+    },
+    {
+     "texto": "small",
+     "inicio": 23.14,
+     "fin": 23.5
+    },
+    {
+     "texto": "link",
+     "inicio": 23.5,
+     "fin": 23.92
+    },
+    {
+     "texto": "with",
+     "inicio": 23.92,
+     "fin": 24.16
+    },
+    {
+     "texto": "mild",
+     "inicio": 24.16,
+     "fin": 24.56
+    },
+    {
+     "texto": "aggression,",
+     "inicio": 24.56,
+     "fin": 24.98
+    },
+    {
+     "texto": "like",
+     "inicio": 25.2,
+     "fin": 25.36
+    },
+    {
+     "texto": "yelling",
+     "inicio": 25.36,
+     "fin": 25.82
+    },
+    {
+     "texto": "or",
+     "inicio": 25.82,
+     "fin": 26.06
+    },
+    {
+     "texto": "pushing.",
+     "inicio": 26.06,
+     "fin": 26.32
+    }
+   ],
+   "inicio": 21.3,
+   "fin": 26.32
+  },
+  {
+   "texto": "And it said that's hard to extend to serious violence.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 26.8,
+     "fin": 27.02
+    },
+    {
+     "texto": "it",
+     "inicio": 27.02,
+     "fin": 27.24
+    },
+    {
+     "texto": "said",
+     "inicio": 27.24,
+     "fin": 27.42
+    },
+    {
+     "texto": "that's",
+     "inicio": 27.42,
+     "fin": 27.68
+    },
+    {
+     "texto": "hard",
+     "inicio": 27.68,
+     "fin": 27.94
+    },
+    {
+     "texto": "to",
+     "inicio": 27.94,
+     "fin": 28.1
+    },
+    {
+     "texto": "extend",
+     "inicio": 28.1,
+     "fin": 28.48
+    },
+    {
+     "texto": "to",
+     "inicio": 28.48,
+     "fin": 28.64
+    },
+    {
+     "texto": "serious",
+     "inicio": 28.64,
+     "fin": 28.9
+    },
+    {
+     "texto": "violence.",
+     "inicio": 28.9,
+     "fin": 29.38
+    }
+   ],
+   "inicio": 26.8,
+   "fin": 29.38
+  },
+  {
+   "texto": "Yelling at your screen when you lose is one thing. Real violence is another.",
+   "palabras": [
+    {
+     "texto": "Yelling",
+     "inicio": 30.02,
+     "fin": 30.28
+    },
+    {
+     "texto": "at",
+     "inicio": 30.28,
+     "fin": 30.4
+    },
+    {
+     "texto": "your",
+     "inicio": 30.4,
+     "fin": 30.5
+    },
+    {
+     "texto": "screen",
+     "inicio": 30.5,
+     "fin": 30.82
+    },
+    {
+     "texto": "when",
+     "inicio": 30.82,
+     "fin": 31.02
+    },
+    {
+     "texto": "you",
+     "inicio": 31.02,
+     "fin": 31.08
+    },
+    {
+     "texto": "lose",
+     "inicio": 31.08,
+     "fin": 31.36
+    },
+    {
+     "texto": "is",
+     "inicio": 31.36,
+     "fin": 31.54
+    },
+    {
+     "texto": "one",
+     "inicio": 31.54,
+     "fin": 31.72
+    },
+    {
+     "texto": "thing.",
+     "inicio": 31.72,
+     "fin": 31.92
+    },
+    {
+     "texto": "Real",
+     "inicio": 32.22,
+     "fin": 32.46
+    },
+    {
+     "texto": "violence",
+     "inicio": 32.46,
+     "fin": 32.84
+    },
+    {
+     "texto": "is",
+     "inicio": 32.84,
+     "fin": 33.08
+    },
+    {
+     "texto": "another.",
+     "inicio": 33.08,
+     "fin": 33.3
+    }
+   ],
+   "inicio": 30.02,
+   "fin": 33.3
+  },
+  {
+   "texto": "What game did your parents try to take away from you?",
+   "palabras": [
+    {
+     "texto": "What",
+     "inicio": 33.84,
+     "fin": 34.0
+    },
+    {
+     "texto": "game",
+     "inicio": 34.0,
+     "fin": 34.14
+    },
+    {
+     "texto": "did",
+     "inicio": 34.14,
+     "fin": 34.28
+    },
+    {
+     "texto": "your",
+     "inicio": 34.28,
+     "fin": 34.42
+    },
+    {
+     "texto": "parents",
+     "inicio": 34.42,
+     "fin": 34.68
+    },
+    {
+     "texto": "try",
+     "inicio": 34.68,
+     "fin": 34.92
+    },
+    {
+     "texto": "to",
+     "inicio": 34.92,
+     "fin": 35.02
+    },
+    {
+     "texto": "take",
+     "inicio": 35.02,
+     "fin": 35.18
+    },
+    {
+     "texto": "away",
+     "inicio": 35.18,
+     "fin": 35.38
+    },
+    {
+     "texto": "from",
+     "inicio": 35.38,
+     "fin": 35.54
+    },
+    {
+     "texto": "you?",
+     "inicio": 35.54,
+     "fin": 35.76
+    }
+   ],
+   "inicio": 33.84,
+   "fin": 35.76
+  },
+  {
+   "texto": "Send this to the parent who blames GTA for everything.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 36.26,
+     "fin": 36.42
+    },
+    {
+     "texto": "this",
+     "inicio": 36.42,
+     "fin": 36.64
+    },
+    {
+     "texto": "to",
+     "inicio": 36.64,
+     "fin": 36.78
+    },
+    {
+     "texto": "the",
+     "inicio": 36.78,
+     "fin": 36.88
+    },
+    {
+     "texto": "parent",
+     "inicio": 36.88,
+     "fin": 37.1
+    },
+    {
+     "texto": "who",
+     "inicio": 37.1,
+     "fin": 37.3
+    },
+    {
+     "texto": "blames",
+     "inicio": 37.3,
+     "fin": 37.6
+    },
+    {
+     "texto": "GTA",
+     "inicio": 37.6,
+     "fin": 37.94
+    },
+    {
+     "texto": "for",
+     "inicio": 37.94,
+     "fin": 38.28
+    },
+    {
+     "texto": "everything.",
+     "inicio": 38.28,
+     "fin": 38.52
+    }
+   ],
+   "inicio": 36.26,
+   "fin": 38.52
+  }
+ ]
+}

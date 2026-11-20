@@ -1,0 +1,675 @@
+{
+ "duracion": 44.41,
+ "frases": [
+  {
+   "texto": "Salió el GTA seis y alguien de tu casa ya dice que te quema la cabeza.",
+   "palabras": [
+    {
+     "texto": "Salió",
+     "inicio": 0.0,
+     "fin": 0.44
+    },
+    {
+     "texto": "el",
+     "inicio": 0.44,
+     "fin": 0.58
+    },
+    {
+     "texto": "GTA",
+     "inicio": 0.58,
+     "fin": 0.84
+    },
+    {
+     "texto": "seis",
+     "inicio": 0.84,
+     "fin": 1.34
+    },
+    {
+     "texto": "y",
+     "inicio": 1.34,
+     "fin": 2.08
+    },
+    {
+     "texto": "alguien",
+     "inicio": 2.08,
+     "fin": 2.32
+    },
+    {
+     "texto": "de",
+     "inicio": 2.32,
+     "fin": 2.46
+    },
+    {
+     "texto": "tu",
+     "inicio": 2.46,
+     "fin": 2.64
+    },
+    {
+     "texto": "casa",
+     "inicio": 2.64,
+     "fin": 2.82
+    },
+    {
+     "texto": "ya",
+     "inicio": 2.82,
+     "fin": 3.02
+    },
+    {
+     "texto": "dice",
+     "inicio": 3.02,
+     "fin": 3.22
+    },
+    {
+     "texto": "que",
+     "inicio": 3.22,
+     "fin": 3.36
+    },
+    {
+     "texto": "te",
+     "inicio": 3.36,
+     "fin": 3.46
+    },
+    {
+     "texto": "quema",
+     "inicio": 3.46,
+     "fin": 3.66
+    },
+    {
+     "texto": "la",
+     "inicio": 3.66,
+     "fin": 3.78
+    },
+    {
+     "texto": "cabeza.",
+     "inicio": 3.78,
+     "fin": 4.08
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.08
+  },
+  {
+   "texto": "Que los juegos violentos te vuelven violento.",
+   "palabras": [
+    {
+     "texto": "Que",
+     "inicio": 4.6,
+     "fin": 4.92
+    },
+    {
+     "texto": "los",
+     "inicio": 4.92,
+     "fin": 5.08
+    },
+    {
+     "texto": "juegos",
+     "inicio": 5.08,
+     "fin": 5.34
+    },
+    {
+     "texto": "violentos",
+     "inicio": 5.34,
+     "fin": 6.06
+    },
+    {
+     "texto": "te",
+     "inicio": 6.06,
+     "fin": 6.22
+    },
+    {
+     "texto": "vuelven",
+     "inicio": 6.22,
+     "fin": 6.54
+    },
+    {
+     "texto": "violento.",
+     "inicio": 6.54,
+     "fin": 7.22
+    }
+   ],
+   "inicio": 4.6,
+   "fin": 7.22
+  },
+  {
+   "texto": "Los psicólogos dicen otra cosa.",
+   "palabras": [
+    {
+     "texto": "Los",
+     "inicio": 7.54,
+     "fin": 7.72
+    },
+    {
+     "texto": "psicólogos",
+     "inicio": 7.72,
+     "fin": 8.3
+    },
+    {
+     "texto": "dicen",
+     "inicio": 8.3,
+     "fin": 8.48
+    },
+    {
+     "texto": "otra",
+     "inicio": 8.48,
+     "fin": 8.7
+    },
+    {
+     "texto": "cosa.",
+     "inicio": 8.7,
+     "fin": 8.96
+    }
+   ],
+   "inicio": 7.54,
+   "fin": 8.96
+  },
+  {
+   "texto": "En dos mil veinte, la Asociación Estadounidense de Psicología revisó la evidencia disponible.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 9.54,
+     "fin": 9.62
+    },
+    {
+     "texto": "dos",
+     "inicio": 9.62,
+     "fin": 9.74
+    },
+    {
+     "texto": "mil",
+     "inicio": 9.74,
+     "fin": 9.92
+    },
+    {
+     "texto": "veinte,",
+     "inicio": 9.92,
+     "fin": 10.28
+    },
+    {
+     "texto": "la",
+     "inicio": 10.88,
+     "fin": 10.96
+    },
+    {
+     "texto": "Asociación",
+     "inicio": 10.96,
+     "fin": 11.44
+    },
+    {
+     "texto": "Estadounidense",
+     "inicio": 11.44,
+     "fin": 12.14
+    },
+    {
+     "texto": "de",
+     "inicio": 12.14,
+     "fin": 12.28
+    },
+    {
+     "texto": "Psicología",
+     "inicio": 12.28,
+     "fin": 12.9
+    },
+    {
+     "texto": "revisó",
+     "inicio": 12.9,
+     "fin": 13.84
+    },
+    {
+     "texto": "la",
+     "inicio": 13.84,
+     "fin": 13.98
+    },
+    {
+     "texto": "evidencia",
+     "inicio": 13.98,
+     "fin": 14.38
+    },
+    {
+     "texto": "disponible.",
+     "inicio": 14.38,
+     "fin": 14.92
+    }
+   ],
+   "inicio": 9.54,
+   "fin": 14.92
+  },
+  {
+   "texto": "Y concluyó que no hay evidencia científica suficiente para decir que los videojuegos violentos causan conducta violenta.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 15.36,
+     "fin": 15.5
+    },
+    {
+     "texto": "concluyó",
+     "inicio": 15.5,
+     "fin": 15.92
+    },
+    {
+     "texto": "que",
+     "inicio": 15.92,
+     "fin": 16.02
+    },
+    {
+     "texto": "no",
+     "inicio": 16.02,
+     "fin": 16.24
+    },
+    {
+     "texto": "hay",
+     "inicio": 16.24,
+     "fin": 16.38
+    },
+    {
+     "texto": "evidencia",
+     "inicio": 16.38,
+     "fin": 16.8
+    },
+    {
+     "texto": "científica",
+     "inicio": 16.8,
+     "fin": 17.38
+    },
+    {
+     "texto": "suficiente",
+     "inicio": 17.38,
+     "fin": 17.96
+    },
+    {
+     "texto": "para",
+     "inicio": 17.96,
+     "fin": 18.64
+    },
+    {
+     "texto": "decir",
+     "inicio": 18.64,
+     "fin": 18.9
+    },
+    {
+     "texto": "que",
+     "inicio": 18.9,
+     "fin": 19.06
+    },
+    {
+     "texto": "los",
+     "inicio": 19.06,
+     "fin": 19.16
+    },
+    {
+     "texto": "videojuegos",
+     "inicio": 19.16,
+     "fin": 19.62
+    },
+    {
+     "texto": "violentos",
+     "inicio": 19.62,
+     "fin": 20.26
+    },
+    {
+     "texto": "causan",
+     "inicio": 20.26,
+     "fin": 20.88
+    },
+    {
+     "texto": "conducta",
+     "inicio": 20.88,
+     "fin": 21.38
+    },
+    {
+     "texto": "violenta.",
+     "inicio": 21.38,
+     "fin": 21.78
+    }
+   ],
+   "inicio": 15.36,
+   "fin": 21.78
+  },
+  {
+   "texto": "Ojo: sí encontró una asociación chica con agresión leve, como gritar o empujar.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 22.28,
+     "fin": 22.62
+    },
+    {
+     "texto": "sí",
+     "inicio": 23.02,
+     "fin": 23.36
+    },
+    {
+     "texto": "encontró",
+     "inicio": 23.36,
+     "fin": 23.9
+    },
+    {
+     "texto": "una",
+     "inicio": 23.9,
+     "fin": 24.04
+    },
+    {
+     "texto": "asociación",
+     "inicio": 24.04,
+     "fin": 24.58
+    },
+    {
+     "texto": "chica",
+     "inicio": 24.58,
+     "fin": 25.1
+    },
+    {
+     "texto": "con",
+     "inicio": 25.1,
+     "fin": 25.42
+    },
+    {
+     "texto": "agresión",
+     "inicio": 25.42,
+     "fin": 25.94
+    },
+    {
+     "texto": "leve,",
+     "inicio": 25.94,
+     "fin": 26.24
+    },
+    {
+     "texto": "como",
+     "inicio": 26.8,
+     "fin": 26.98
+    },
+    {
+     "texto": "gritar",
+     "inicio": 26.98,
+     "fin": 27.52
+    },
+    {
+     "texto": "o",
+     "inicio": 27.52,
+     "fin": 27.82
+    },
+    {
+     "texto": "empujar.",
+     "inicio": 27.82,
+     "fin": 28.38
+    }
+   ],
+   "inicio": 22.28,
+   "fin": 28.38
+  },
+  {
+   "texto": "Y aclaró que eso es difícil de extender a violencia grave.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 28.92,
+     "fin": 28.94
+    },
+    {
+     "texto": "aclaró",
+     "inicio": 28.94,
+     "fin": 29.3
+    },
+    {
+     "texto": "que",
+     "inicio": 29.3,
+     "fin": 29.42
+    },
+    {
+     "texto": "eso",
+     "inicio": 29.42,
+     "fin": 29.7
+    },
+    {
+     "texto": "es",
+     "inicio": 29.7,
+     "fin": 29.84
+    },
+    {
+     "texto": "difícil",
+     "inicio": 29.84,
+     "fin": 30.18
+    },
+    {
+     "texto": "de",
+     "inicio": 30.18,
+     "fin": 30.42
+    },
+    {
+     "texto": "extender",
+     "inicio": 30.42,
+     "fin": 30.86
+    },
+    {
+     "texto": "a",
+     "inicio": 30.86,
+     "fin": 31.02
+    },
+    {
+     "texto": "violencia",
+     "inicio": 31.02,
+     "fin": 31.72
+    },
+    {
+     "texto": "grave.",
+     "inicio": 31.72,
+     "fin": 32.08
+    }
+   ],
+   "inicio": 28.92,
+   "fin": 32.08
+  },
+  {
+   "texto": "Gritarle a la pantalla cuando perdés es una cosa. Violencia de verdad, otra.",
+   "palabras": [
+    {
+     "texto": "Gritarle",
+     "inicio": 32.7,
+     "fin": 33.18
+    },
+    {
+     "texto": "a",
+     "inicio": 33.18,
+     "fin": 33.26
+    },
+    {
+     "texto": "la",
+     "inicio": 33.26,
+     "fin": 33.32
+    },
+    {
+     "texto": "pantalla",
+     "inicio": 33.32,
+     "fin": 33.64
+    },
+    {
+     "texto": "cuando",
+     "inicio": 33.64,
+     "fin": 33.88
+    },
+    {
+     "texto": "perdés",
+     "inicio": 33.88,
+     "fin": 34.42
+    },
+    {
+     "texto": "es",
+     "inicio": 34.42,
+     "fin": 34.8
+    },
+    {
+     "texto": "una",
+     "inicio": 34.8,
+     "fin": 34.96
+    },
+    {
+     "texto": "cosa.",
+     "inicio": 34.96,
+     "fin": 35.24
+    },
+    {
+     "texto": "Violencia",
+     "inicio": 35.9,
+     "fin": 36.28
+    },
+    {
+     "texto": "de",
+     "inicio": 36.28,
+     "fin": 36.42
+    },
+    {
+     "texto": "verdad,",
+     "inicio": 36.42,
+     "fin": 36.62
+    },
+    {
+     "texto": "otra.",
+     "inicio": 37.24,
+     "fin": 37.72
+    }
+   ],
+   "inicio": 32.7,
+   "fin": 37.72
+  },
+  {
+   "texto": "¿Cuál fue el juego que en tu casa te querían sacar?",
+   "palabras": [
+    {
+     "texto": "¿Cuál",
+     "inicio": 38.2,
+     "fin": 38.38
+    },
+    {
+     "texto": "fue",
+     "inicio": 38.38,
+     "fin": 38.5
+    },
+    {
+     "texto": "el",
+     "inicio": 38.5,
+     "fin": 38.6
+    },
+    {
+     "texto": "juego",
+     "inicio": 38.6,
+     "fin": 38.84
+    },
+    {
+     "texto": "que",
+     "inicio": 38.84,
+     "fin": 39.0
+    },
+    {
+     "texto": "en",
+     "inicio": 39.0,
+     "fin": 39.08
+    },
+    {
+     "texto": "tu",
+     "inicio": 39.08,
+     "fin": 39.18
+    },
+    {
+     "texto": "casa",
+     "inicio": 39.18,
+     "fin": 39.34
+    },
+    {
+     "texto": "te",
+     "inicio": 39.34,
+     "fin": 39.52
+    },
+    {
+     "texto": "querían",
+     "inicio": 39.52,
+     "fin": 39.8
+    },
+    {
+     "texto": "sacar?",
+     "inicio": 39.8,
+     "fin": 40.02
+    }
+   ],
+   "inicio": 38.2,
+   "fin": 40.02
+  },
+  {
+   "texto": "Mandáselo a tu vieja, la que dice que el GTA te quema la cabeza.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 40.64,
+     "fin": 41.1
+    },
+    {
+     "texto": "a",
+     "inicio": 41.1,
+     "fin": 41.12
+    },
+    {
+     "texto": "tu",
+     "inicio": 41.12,
+     "fin": 41.22
+    },
+    {
+     "texto": "vieja,",
+     "inicio": 41.22,
+     "fin": 41.6
+    },
+    {
+     "texto": "la",
+     "inicio": 42.16,
+     "fin": 42.26
+    },
+    {
+     "texto": "que",
+     "inicio": 42.26,
+     "fin": 42.42
+    },
+    {
+     "texto": "dice",
+     "inicio": 42.42,
+     "fin": 42.62
+    },
+    {
+     "texto": "que",
+     "inicio": 42.62,
+     "fin": 42.8
+    },
+    {
+     "texto": "el",
+     "inicio": 42.8,
+     "fin": 43.04
+    },
+    {
+     "texto": "GTA",
+     "inicio": 43.04,
+     "fin": 43.38
+    },
+    {
+     "texto": "te",
+     "inicio": 43.38,
+     "fin": 43.64
+    },
+    {
+     "texto": "quema",
+     "inicio": 43.64,
+     "fin": 43.84
+    },
+    {
+     "texto": "la",
+     "inicio": 43.84,
+     "fin": 43.94
+    },
+    {
+     "texto": "cabeza.",
+     "inicio": 43.94,
+     "fin": 44.14
+    }
+   ],
+   "inicio": 40.64,
+   "fin": 44.14
+  }
+ ]
+}

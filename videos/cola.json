@@ -2071,5 +2071,59 @@
   "prioridad": "actualidad",
   "creado": "2026-11-18T09:21",
   "vence": "2026-11-23T23:59"
+ },
+ {
+  "slug": "054-gta-juegos-violentos",
+  "tema": "¿Los videojuegos violentos te hacen violento? Lo que dice la APA (2020), ahora que salió el GTA 6 --actualidad",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-20T13:51",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-20T13:51",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-20T13:57",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-20T14:12",
+    "motivo": "render sin Claude"
+   }
+  ]
+ },
+ {
+  "slug": "055-gta-vice-city-miami",
+  "tema": "GTA 6: Vice City y Leonida están inspirados en Miami y Florida; qué lugares reales se reconocen (según medios, no confirmado por Rockstar) --actualidad",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-20T13:58",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-20T13:58",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-20T14:02",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-20T14:23",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

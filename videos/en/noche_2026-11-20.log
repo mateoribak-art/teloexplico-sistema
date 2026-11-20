@@ -3,3 +3,17 @@
 
 (Veo cambios sin commitear en `videos/turno_local.log` y un `videos/en/noche_2026-11-20.log` nuevo, por si querés que haga algo con eso.)
 2026-11-20 12:50 Termina la producción (ok).
+2026-11-20 14:23 Arranca la producción (5 listos en la cola, meta 6).
+- **Listo para render:** `en-030-violent-games` (GTA 6 y juegos violentos, APA 2020) quedó en estado `render`; lo renderiza `producir.py` y no corrí el render ni el control.
+  - El chequeo salió aprobado a la primera, con todo verificado.
+  - La voz tiene 112 de 112 palabras y dura 38,7 s. `tsc` dio OK y los cuadros están revisados.
+  - La interacción elegida es `comentar`: "What game did your parents try to take away from you?".
+- **Cambio en el kit:** agregué un campo opcional `en` a `motor/src/kit3d/objetos/Joystick.tsx` para los rótulos en inglés. El video en español no cambia porque no lo usa.
+- **Pendientes y rescates:**
+  - En la cuenta en inglés no hay videos apartados por chequeo rechazado, así que no hubo nada que rescatar.
+  - Quedan los videos 2 y 3 de GTA 6 del pedido de Mateo, uno por turno.
+  - En el log anoté la meta de seguidores, pero no calculé el ritmo semanal contra `metricas.json`.
+Uso: 24 pasos · 16,760 tokens nuevos · 915,802 de caché · 4,659 escritos · equivale a US$ 0.74 de API
+2026-11-20 14:27 Render de en-030-violent-games (sin Claude).
+2026-11-20 14:36 en-030-violent-games: listo (render sin Claude)
+2026-11-20 14:36 Termina la producción (ok).

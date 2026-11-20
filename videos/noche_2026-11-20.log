@@ -13,3 +13,14 @@
 2026-11-20 12:49 Arranca la producción (5 listos en la cola, meta 10).
 ¿Qué necesitás que haga?
 2026-11-20 12:49 Termina la producción (ok).
+2026-11-20 13:50 Arranca la producción (1 listos en la cola, meta 10).
+Resumen de la corrida:
+- **Listos para render nocturno:** `054-gta-juegos-violentos` (chequeo aprobado en el 2.º intento, voz de 44 s) y `055-gta-vice-city-miami` (chequeo aprobado en el 2.º intento, voz de 51 s, algo larga). Ambos son del pedido de GTA 6, con interacción `comentar`, y quedaron en estado `render`. El render y el control los hace `producir.py`, así que todavía no están `listos` ni controlados.
+- **Rescate:** ningún video apartado por "chequeo rechazado" era reciente, así que no rescaté ninguno. Los apartados actuales (038, 042, 044, 049, 050, 051, 005) quedaron como estaban.
+- **Incompletos:** ninguno. Falta el video 3 del pedido GTA 6 para el próximo turno. Tampoco medí de nuevo el ritmo de seguidores en esta corrida.
+Uso: 12 pasos · 11,452 tokens nuevos · 884,421 de caché · 5,075 escritos · equivale a US$ 2.35 de API
+2026-11-20 14:02 Render de 054-gta-juegos-violentos (sin Claude).
+2026-11-20 14:12 054-gta-juegos-violentos: listo (render sin Claude)
+2026-11-20 14:12 Render de 055-gta-vice-city-miami (sin Claude).
+2026-11-20 14:23 055-gta-vice-city-miami: listo (render sin Claude)
+2026-11-20 14:23 Termina la producción (ok).

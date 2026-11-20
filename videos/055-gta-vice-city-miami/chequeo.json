@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Ninguna afirmación es falsa y no hay cifras, salud, seguridad ni plata. Las afirmaciones probables (Vice City inspirada en Miami, Leonida en Florida, Venetian Causeway recreado) están atribuidas a prensa, a entrevistas de Rockstar o a Miami New Times, y el guion aclara que Rockstar no confirmó lugares concretos. La cita del sitio oficial y la fecha de lanzamiento (19/11/2026) están verificadas. Tema de entretenimiento: la regla se cumple. Observaciones menores: la nota de fuentes del caption cita Infobae y Axios, que no pude abrir directamente (Axios devolvió 403; Infobae no apareció en la búsqueda), pero la fecha y la comparación del tráiler con lugares reales están respaldadas por otros medios y por el listado de Axios; son afirmaciones secundarias.",
+  "afirmaciones": [
+    {
+      "texto": "La ciudad del juego se llama Vice City.",
+      "fuente": "Sitio oficial de Rockstar (rockstargames.com/VI): 'Vice City, USA.'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Según la prensa y entrevistas de Rockstar, Vice City está inspirada en Miami.",
+      "fuente": "Múltiples medios (Miami New Times, WJLA, Yahoo, Destructoid, Escapist) y declaraciones de Rockstar (Aaron Garbut, investigación desde Miami hasta Key West; Rupert Humphries sobre Florida). El sitio oficial no nombra Miami.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El estado donde pasa se llama Leonida.",
+      "fuente": "Sitio oficial de Rockstar: 'the state of Leonida'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Leonida está inspirado en Florida, según los medios.",
+      "fuente": "WJLA, TweakTown, Escapist, Outlook Respawn (Rockstar describe Leonida como una versión exagerada/satírica basada en Florida). Rockstar no usa la palabra Florida en su sitio oficial.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Periodistas de Miami compararon el tráiler con la ciudad real.",
+      "fuente": "Axios Miami, 'Every Miami landmark in Grand Theft Auto VI' (5/12/2023, URL con fecha 2023/12/05); Miami New Times (varias notas).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Según Miami New Times, el puente Venetian Causeway, que une Miami con Miami Beach, aparece recreado en el juego.",
+      "fuente": "Miami New Times, 'Interactive map: 20 Miami landmarks in GTA 6 and where to find them'; Domus también lo menciona. El Venetian Causeway une Miami y Miami Beach (dato geográfico real).",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Hasta donde sabemos, Rockstar no confirmó qué lugares concretos son reales; son comparaciones con el tráiler.",
+      "fuente": "No se encontró confirmación de Rockstar de lugares puntuales; las fuentes tratan los cruces calle por calle como interpretación hasta que Rockstar confirme.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Su sitio oficial presenta a Vice City como 'el lado más oscuro del lugar más soleado de América', sin nombrar Miami.",
+      "fuente": "rockstargames.com/VI: 'The darkest side of the sunniest place in America.' La página no menciona Miami ni Florida (verificado al abrirla).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "GTA 6 salió el 19/11/2026 (se menciona como fecha de lanzamiento en la nota de fuentes y en la situación 'ya la manejaste').",
+      "fuente": "Take-Two/Rockstar (fecha confirmada), Vandal, Hipertextual, El Sol (Argentina: 'sale este jueves'); no pude abrir el artículo de Infobae citado.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}
