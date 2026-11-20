@@ -877,7 +877,7 @@
  {
   "slug": "en-024-heat-index",
   "tema": "Why does it feel hotter than the thermometer? Heat index (adapted from 019, NWS)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -898,6 +898,11 @@
     "estado": "listo",
     "cuando": "2026-11-05T15:25",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-20T13:36",
+    "motivo": "https://www.instagram.com/reel/Df-GPRlm9ZH/"
    }
   ]
  },

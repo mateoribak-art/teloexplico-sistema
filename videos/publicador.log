@@ -321,3 +321,14 @@ portada: ok
 2026-11-19 12:30 No hay videos listos en la cola.
 2026-11-19 19:30 No hay videos listos en la cola.
 2026-11-20 12:30 No hay videos listos en la cola.
+2026-11-20 13:34 052-zapatilla-sobrecarga publicado: https://www.instagram.com/reel/Df-GCcfCE2T/
+2026-11-20 13:34 052-zapatilla-sobrecarga publicado en Facebook: https://www.facebook.com/reel/1628595105419701/
+2026-11-20 13:34 052-zapatilla-sobrecarga falló TikTok: ^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+                 ^^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x91 in position 1: invalid start byte
+2026-11-20 13:35 052-zapatilla-sobrecarga https://youtube.com/shorts/6rgBJVZv4yo | privacidad: public
+portada: ok
+2026-11-20 13:35 052-zapatilla-sobrecarga paquete para TikTok/YouTube enviado

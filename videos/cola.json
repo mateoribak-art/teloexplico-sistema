@@ -2003,7 +2003,7 @@
  {
   "slug": "052-zapatilla-sobrecarga",
   "tema": "Qué electrodomésticos no enchufar a una zapatilla o alargue: los que calientan (microondas, pava, estufa, aire) van directo a la pared (NFPA, bomberos)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -2024,6 +2024,11 @@
     "estado": "listo",
     "cuando": "2026-11-20T12:44",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-20T13:34",
+    "motivo": "https://www.instagram.com/reel/Df-GCcfCE2T/"
    }
   ]
  },
