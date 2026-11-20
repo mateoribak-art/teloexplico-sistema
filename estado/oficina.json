@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T00:30",
+ "actualizado": "2026-11-20T06:00",
  "oficinas": [
   {
    "clave": "es",
@@ -111,7 +111,7 @@
      "estado": "falla",
      "resumen": "El último turno terminó mal.",
      "cuando": "2026-11-18T09:55",
-     "hace": "hace 38 h",
+     "hace": "hace 44 h",
      "detalle": [
       "2026-11-18 09:18 Arranca la producción (2 listos en la cola, meta 6).",
       "Listo. Resumen de la corrida:",
@@ -220,7 +220,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-18T19:30",
-     "hace": "hace 29 h",
+     "hace": "hace 34 h",
      "detalle": [
       "046-perro-no-comas: aprobado — Todas las afirmaciones de salud (chocolate, uvas/pasas, cebolla/ajo/cebollín, consulta al veterinario) están respaldadas por la página de la",
       "047-paquete-retenido: aprobado — Segunda pasada con búsqueda web y lectura de las dos fuentes primarias. Todas las afirmaciones de seguridad y de plata quedan verificadas. L",
@@ -253,7 +253,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-18T19:30",
-     "hace": "hace 29 h",
+     "hace": "hace 34 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -277,7 +277,7 @@
      "estado": "trabajando",
      "resumen": "5 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
      "cuando": "2026-11-18T19:30",
-     "hace": "hace 29 h",
+     "hace": "hace 34 h",
      "detalle": [],
      "tareas": [
       "049-primer-calor-aclimatacion",
@@ -307,7 +307,7 @@
      "estado": "ok",
      "resumen": "0 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-18T19:30",
-     "hace": "hace 29 h",
+     "hace": "hace 34 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -331,7 +331,7 @@
      "estado": "falla",
      "resumen": "No salió la publicación del turno de las 19:30 (19/11).",
      "cuando": "2026-11-19T19:30",
-     "hace": "hace 5 h",
+     "hace": "hace 10 h",
      "detalle": [
       "18/11 12:32 047-paquete-retenido en la bandeja de TikTok",
       "18/11 12:32 047-paquete-retenido https://youtube.com/shorts/2bDayee9JZ0 | privacidad: public",
@@ -366,7 +366,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-18T19:33",
-     "hace": "hace 28 h",
+     "hace": "hace 34 h",
      "detalle": [
       "18/11 12:30 047-paquete-retenido publicado: https://www.instagram.com/reel/Df41MyEigAw/",
       "18/11 12:31 047-paquete-retenido publicado en Facebook: https://www.facebook.com/reel/1605655408027259/",
@@ -471,7 +471,7 @@
      "estado": "ok",
      "resumen": "19/11: 1013 seguidores",
      "cuando": "2026-11-19T21:00",
-     "hace": "hace 3 h",
+     "hace": "hace 9 h",
      "detalle": [
       "16/11: 946 seguidores",
       "17/11: 981 seguidores",
@@ -504,7 +504,7 @@
      },
      "estado": "falla",
      "resumen": "No salió la publicación del turno de las 19:30 (19/11).",
-     "cuando": "2026-11-20T00:30",
+     "cuando": "2026-11-20T06:00",
      "hace": "recién",
      "detalle": [
       "❗ No salió la publicación del turno de las 19:30 (19/11).",
@@ -918,7 +918,7 @@
      "estado": "aviso",
      "resumen": "Las métricas tienen más de un día.",
      "cuando": "2026-11-07T02:50",
-     "hace": "hace 12 días",
+     "hace": "hace 13 días",
      "detalle": [
       "04/11: 3 seguidores",
       "05/11: 3 seguidores",
@@ -951,7 +951,7 @@
      },
      "estado": "falla",
      "resumen": "No salió la publicación del turno de las 19:30 (19/11).",
-     "cuando": "2026-11-20T00:30",
+     "cuando": "2026-11-20T06:00",
      "hace": "recién",
      "detalle": [
       "❗ No salió la publicación del turno de las 19:30 (19/11)."
