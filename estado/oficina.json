@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T15:43",
+ "actualizado": "2026-11-20T18:18",
  "oficinas": [
   {
    "clave": "es",
@@ -125,7 +125,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-20T15:31",
-     "hace": "hace 12 min",
+     "hace": "hace 2 h",
      "detalle": [
       "Uso: 13 pasos · 13,517 tokens nuevos · 1,082,815 de caché · 7,421 escritos · equivale a US$ 1.70 de API",
       "- **056-gta-trece-anios** (tercer video del pedido de GTA 6): el chequeo, hecho por un subagente aparte, lo aprobó al primer intento. Dice que pasaron trece años y dos meses entre GTA V y GTA 6, con las dos postergaciones. Su interacción es",
@@ -194,7 +194,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsquedas web (SMN + noticias/tendencias del día). SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por tormentas y granizo ",
      "cuando": "2026-11-20T00:00",
-     "hace": "hace 15 h",
+     "hace": "hace 18 h",
      "detalle": [
       "17/11 00:00 | Revisión radar. HAY TEMA (ya en cola de una corrida previa): lluvia de estrellas Leónidas, pico madrugada 17-18 nov (NASA, Natural History Museum Londres). Ángulo propio verificado: la \"estrella fugaz\" no es una estrella ni una roca grande, es polvo de cometa (Tempel-Tuttle) del tamaño de un grano de arena que se enciende al entrar a 71 km/s. Slug 051-leonidas-grano-arena (--actualidad, serie ciencia): continué su producción (chequeo→voz→3D→render). Descartados: (a) alerta naranja/amarilla por tormentas severas y granizo en 17 provincias incl. CABA (SMN hoy) -> granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin ángulo nuevo; (b) vientos Zonda en Cuyo -> nicho regional.",
       "18/11 00:00 | Revision radar. HAY TEMA: arranca el finde largo y el viernes 20/11 es el Dia de la Soberania (feriado trasladado al lunes 23). Casi nadie sabe que se festeja -> angulo propio: la Vuelta de Obligado (1845), cerraron el rio Parana con tres cadenas sobre 24 lanchones para frenar a Gran Bretana y Francia; imagen grande y mandable. Verificado (Canal26 2026, Infobae 2024, La Nacion 2025, Wikipedia; Dia de la Soberania 20-nov). ELEGIDO. Slug 053-cadenas-parana (--actualidad, serie argentina). Descartados: (a) alerta naranja/amarilla por tormentas y granizo en 9-10 provincias (SMN hoy) -> AMBA afuera y granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin angulo nuevo; (b) ciclon/calor en BA por Super Nino -> clima ya cubierto (016/019/008/009), sin giro; (c) Leonidas -> ya en cola (051).",
@@ -234,7 +234,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-20T15:31",
-     "hace": "hace 12 min",
+     "hace": "hace 2 h",
      "detalle": [
       "050-martes-13-no-viernes: aprobado — Todas las afirmaciones del guion.json y del caption.txt son verificables (geografia de la supersticion, retitulado de la pelicula, inexisten",
       "051-leonidas-grano-arena: aprobado — Todas las afirmaciones factuales (velocidad 71 km/s, origen en el polvo del cometa 55P/Tempel-Tuttle, la Tierra cruza ese polvo, tamano de g",
@@ -267,7 +267,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-20T15:31",
-     "hace": "hace 12 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -291,7 +291,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-20 15:31.",
      "cuando": "2026-11-20T15:31",
-     "hace": "hace 12 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -315,7 +315,7 @@
      "estado": "aviso",
      "resumen": "Apartó 3 video(s) en las últimas 48 h.",
      "cuando": "2026-11-20T15:31",
-     "hace": "hace 12 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [
       "049-primer-calor-aclimatacion: tema de actualidad vencido (más de 48 h)",
@@ -343,7 +343,7 @@
      "estado": "ok",
      "resumen": "Último: 052-zapatilla-sobrecarga.",
      "cuando": "2026-11-20T13:35",
-     "hace": "hace 2 h",
+     "hace": "hace 4 h",
      "detalle": [
       "18/11 19:32 048-golpe-de-calor https://youtube.com/shorts/cDQPgFirUTE | privacidad: public",
       "18/11 19:33 048-golpe-de-calor paquete para TikTok/YouTube enviado",
@@ -380,7 +380,7 @@
      "estado": "aviso",
      "resumen": "Necesita algo tuyo: En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram.",
      "cuando": "2026-11-20T13:35",
-     "hace": "hace 2 h",
+     "hace": "hace 4 h",
      "detalle": [
       "18/11 12:32 047-paquete-retenido https://youtube.com/shorts/2bDayee9JZ0 | privacidad: public",
       "18/11 12:32 047-paquete-retenido paquete para TikTok/YouTube enviado",
@@ -444,7 +444,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-07T18:03",
-     "hace": "hace 12 días",
+     "hace": "hace 13 días",
      "detalle": [
       "07/11 03:53 Hay 2 comentarios nuevos: arranca la respuesta.",
       "07/11 00:00 Respondí 2 · salteé 0 · alerté 0. (026-mediodia-hora-corrida: marenzimonica respondida con la explicación del movimiento aparente por la rotación terrestre; davidblaiotta respondido con humor sobre el horario de almuerzo)",
@@ -483,7 +483,7 @@
      "estado": "ok",
      "resumen": "19/11: 1013 seguidores",
      "cuando": "2026-11-19T21:00",
-     "hace": "hace 18 h",
+     "hace": "hace 21 h",
      "detalle": [
       "16/11: 946 seguidores",
       "17/11: 981 seguidores",
@@ -516,7 +516,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 049-primer-calor-aclimatacion — tema de actualidad vencido (más de 48 h)",
-     "cuando": "2026-11-20T15:43",
+     "cuando": "2026-11-20T18:18",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 049-primer-calor-aclimatacion — tema de actualidad vencido (más de 48 h)",
@@ -655,7 +655,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-20T15:42",
-     "hace": "hace 1 min",
+     "hace": "hace 2 h",
      "detalle": [
       "Uso: 11 pasos · 8,668 tokens nuevos · 576,088 de caché · 2,047 escritos · equivale a US$ 0.72 de API",
       "2026-11-20 15:31 Arranca la producción (6 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
@@ -721,7 +721,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-20T15:42",
-     "hace": "hace 1 min",
+     "hace": "hace 2 h",
      "detalle": [
       "en-024-heat-index: aprobado — Todas las afirmaciones fácticas están respaldadas por fuentes primarias del NWS/NOAA, con unidades (°F) y cifras coincidentes (100°F: 15% HR",
       "en-025-dog-hot-car: aprobado — Segunda revision con busqueda web. Todas las cifras y unidades (F) del guion y del caption coinciden con fuentes de EE. UU.: Pediatrics 2005",
@@ -754,7 +754,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-20T15:42",
-     "hace": "hace 1 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -778,7 +778,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-20 15:42.",
      "cuando": "2026-11-20T15:42",
-     "hace": "hace 1 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -802,7 +802,7 @@
      "estado": "ok",
      "resumen": "7 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-20T15:42",
-     "hace": "hace 1 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -826,7 +826,7 @@
      "estado": "ok",
      "resumen": "Último: en-024-heat-index.",
      "cuando": "2026-11-20T13:37",
-     "hace": "hace 2 h",
+     "hace": "hace 4 h",
      "detalle": [
       "07/11 12:36 en-022-power-outage-fridge en la bandeja de TikTok",
       "07/11 12:36 en-022-power-outage-fridge paquete para TikTok/YouTube enviado",
@@ -863,7 +863,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-20T13:37",
-     "hace": "hace 2 h",
+     "hace": "hace 4 h",
      "detalle": [
       "06/11 19:34 en-022-ears-pop en la bandeja de TikTok",
       "06/11 19:34 en-022-ears-pop paquete para TikTok/YouTube enviado",
@@ -966,7 +966,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-20T15:43",
+     "cuando": "2026-11-20T18:18",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -978,24 +978,6 @@
   }
  ],
  "arreglos": [
-  {
-   "id": "11010252-en-chequeo",
-   "creado": "2026-11-01T02:53",
-   "estado": "fallo",
-   "firma": null,
-   "titulo": "Claude no pudo trabajar ahora",
-   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
-   "actualizado": "2026-11-01T02:53"
-  },
-  {
-   "id": "11010345-en-chequeo",
-   "creado": "2026-11-01T03:45",
-   "estado": "fallo",
-   "firma": null,
-   "titulo": "Claude no pudo trabajar ahora",
-   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
-   "actualizado": "2026-11-01T03:45"
-  },
   {
    "id": "11010410-en-chequeo",
    "creado": "2026-11-01T04:11",
@@ -1190,6 +1172,26 @@
     "videos/040-consumo-fantasma/guion.json",
     "videos/cola.json"
    ]
+  },
+  {
+   "id": "11201818-es-control",
+   "creado": "2026-11-20T18:18",
+   "empleado": "es/control",
+   "firma": "a42a94baf0b2",
+   "estado": "pedido",
+   "auto": true,
+   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Ramiro (Control de calidad) está en \"aviso\": Apartó 3 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\n049-primer-calor-aclimatacion: tema de actualidad vencido (más de 48 h)\n050-martes-13-no-viernes: tema de actualidad vencido (más de 48 h)\n051-leonidas-grano-arena: tema de actualidad vencido (más de 48 h)\n",
+   "actualizado": "2026-11-20T18:18"
+  },
+  {
+   "id": "11201818-en-analista",
+   "creado": "2026-11-20T18:18",
+   "empleado": "en/analista",
+   "firma": "5264890a0965",
+   "estado": "pedido",
+   "auto": true,
+   "problema": "En la oficina de Nueva York (@letmeexplain.us), Max (Métricas) está en \"aviso\": Las métricas tienen más de un día.\nLo que sugiere la oficina: ¿Vencido el token de Meta? Relanzá el resumen y mirá si falla.\nTareas:\nen-001-phone-rice: 4.128 vistas · 22 enviados · 52 ♥\nen-007-flip-steak: 3.384 vistas · 18 enviados · 36 ♥\nen-009-ceiling-fan: 3.058 vistas · 2 enviados · 40 ♥\nen-008-wash-chicken: 2.295 vistas · 4 enviados · 20 ♥\nen-006-five-second-rule: 2.255 vistas · 22 enviados · 52 ♥\nRegistro:\n04/11: 3 seguidores\n05/11: 3 seguidores\n06/11: 3 seguidores\n07/11: 5 seguidores",
+   "actualizado": "2026-11-20T18:18"
   }
  ]
 }
