@@ -1,6 +1,6 @@
 # Cómo funciona @teloexplico.ar en automático
 
-> **Desde el 20/11/2026 todo corre en la NOTEBOOK.** GitHub Actions quedó bloqueado por facturación (minutos del repo privado agotados), así que `NUBE_ACTIVA` y `CLAUDE_EN_NUBE` siguen en `no`. Las tareas de Windows usan `herramientas/turno_local.py`: *Produccion nocturna* (00:30, 06:30 y 14:00) renderiza los 3D pendientes y produce para español y después para inglés; *Publicador* (12:30 y 19:30) publica las dos cuentas. La notebook tiene que estar prendida y enchufada en esos horarios. Log: `videos/turno_local.log`. Para volver a la nube: arreglar el pago en GitHub › Billing y poner las variables en `si` (y deshabilitar estas tareas).
+> **20/11/2026: el repo teloexplico-sistema pasó a PÚBLICO** para que GitHub Actions sea gratis (privado se quedaba sin minutos: ~8.200 por mes contra 2.000 gratis). Las claves siguen en los secretos cifrados; los tokens de TikTok van cifrados con AES-256. Respaldo en la notebook: `herramientas/turno_local.py` (produccion, radar, comentarios, vigilar, publicar) con las tareas de Windows *deshabilitadas*; si la nube vuelve a fallar, se apagan las variables y se habilitan esas tareas.
 
 ## Dónde corre (desde el 25/10/2026): en la nube de GitHub, no en la notebook
 Todo vive en el repo privado **github.com/mateoribak-art/teloexplico-sistema** y corre en GitHub Actions (pestaña *Actions*).
