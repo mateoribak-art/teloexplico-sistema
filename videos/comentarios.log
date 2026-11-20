@@ -156,3 +156,12 @@ Los 18 comentarios eran del 026 (mediodía/hora corrida, 16 de ellos) y del 028 
 La línea de resumen quedó en `videos/comentarios.log`. No hubo pedidos de temas, así que `videos/ideas.md` no cambió.
 Uso: 29 pasos · 43,190 tokens nuevos · 172,664 de caché · 10,351 escritos · equivale a US$ 0.02 de API
 2026-11-07 18:03 Termina la respuesta de comentarios (ok).
+2026-11-20 20:19 Hay 1 comentarios nuevos: arranca la respuesta.
+2026-11-20 Respondí 0 · salteé 0 · alerté 1. (034-subte-linea-a: __francoivann__ plantea que el apodo "Brujas" viene del fabricante "La Brugeoise", no de la ciudad; el guion dice "según cuentan" y no tiene fuente clara para el origen del apodo. Alertado a Mateo, no respondido en público.)
+2026-11-20 Termina la respuesta de comentarios (ok).
+Respondí 0 · salteé 0 · alerté 1.
+Respondí 0, salteé 0, alerté 1.
+
+Había un solo comentario pendiente, de `__francoivann__` en el video 034-subte-linea-a. Dice que el apodo "Brujas" viene del fabricante "La Brugeoise", no de la ciudad belga como dice el guion ("según cuentan"). Como plantea un origen distinto para un dato, no respondí en público: le avisé a Mateo con `tlx comentarios alerta` para que revise la fuente primero. La corrida quedó registrada en `videos/comentarios.log`.
+Uso: 9 pasos · 19,392 tokens nuevos · 158,500 de caché · 2,028 escritos · equivale a US$ 0.01 de API
+2026-11-20 20:19 Termina la respuesta de comentarios (ok).

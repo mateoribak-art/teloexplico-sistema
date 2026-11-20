@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T19:48",
+ "actualizado": "2026-11-20T20:19",
  "oficinas": [
   {
    "clave": "es",
@@ -7,15 +7,20 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 1023,
-   "listos": 6,
-   "dias": 3.0,
-   "proximo": "053-cadenas-parana",
-   "publicados": 49,
+   "listos": 5,
+   "dias": 2.5,
+   "proximo": "054-gta-juegos-violentos",
+   "publicados": 50,
    "pausa": false,
    "pendientes": [
     "Facu (TikTok, YouTube y Telegram): En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram."
    ],
    "ultimas": [
+    {
+     "slug": "053-cadenas-parana",
+     "link": "https://www.instagram.com/reel/Df-vMwOACQX/",
+     "cuando": "2026-11-20T22:33"
+    },
     {
      "slug": "052-zapatilla-sobrecarga",
      "link": "https://www.instagram.com/reel/Df-GCcfCE2T/",
@@ -35,21 +40,9 @@
      "slug": "046-perro-no-comas",
      "link": "https://www.instagram.com/reel/Df3AnKmnMPI/",
      "cuando": "2026-11-17T22:31"
-    },
-    {
-     "slug": "045-una-sola-tabla",
-     "link": "https://www.instagram.com/reel/Df2QZqAgEVe/",
-     "cuando": "2026-11-17T15:30"
     }
    ],
    "linea": [
-    {
-     "slug": "053-cadenas-parana",
-     "tema": "Día de la Soberanía: por qué el 20/11 cruzaron el río Paraná con cadenas gigantes (Vuelta de Obligado, 1845)",
-     "estado": "listo",
-     "cuando": "2026-11-20T13:33",
-     "motivo": "rescatado: el Día de la Soberanía es hoy 20/11 (feriado el lunes 23)"
-    },
     {
      "slug": "054-gta-juegos-violentos",
      "tema": "¿Los videojuegos violentos te hacen violento? Lo que dice la APA (2020), ahora que salió el GTA 6 --actualidad",
@@ -69,6 +62,13 @@
      "tema": "GTA 6: trece años desde el GTA V y dos postergaciones --actualidad",
      "estado": "listo",
      "cuando": "2026-11-20T15:12",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "057-ruta-40-de-punta-a-punta",
+     "tema": "Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)",
+     "estado": "listo",
+     "cuando": "2026-11-20T15:31",
      "motivo": "render sin Claude"
     },
     {
@@ -93,18 +93,18 @@
      "motivo": "tema de actualidad vencido (más de 48 h)"
     },
     {
-     "slug": "048-golpe-de-calor",
-     "tema": "Golpe de calor: señales (40 °C, confusión, piel caliente y seca) y qué hacer mientras llega la ayuda (Ministerio de Salud, NHS)",
-     "estado": "publicado",
-     "cuando": "2026-11-18T19:30",
-     "motivo": "https://www.instagram.com/reel/Df5lQt6jLYg/"
-    },
-    {
      "slug": "052-zapatilla-sobrecarga",
      "tema": "Qué electrodomésticos no enchufar a una zapatilla o alargue: los que calientan (microondas, pava, estufa, aire) van directo a la pared (NFPA, bomberos)",
      "estado": "publicado",
      "cuando": "2026-11-20T13:34",
      "motivo": "https://www.instagram.com/reel/Df-GCcfCE2T/"
+    },
+    {
+     "slug": "053-cadenas-parana",
+     "tema": "Día de la Soberanía: por qué el 20/11 cruzaron el río Paraná con cadenas gigantes (Vuelta de Obligado, 1845)",
+     "estado": "publicado",
+     "cuando": "2026-11-20T19:33",
+     "motivo": "https://www.instagram.com/reel/Df-vMwOACQX/"
     }
    ],
    "empleados": [
@@ -125,7 +125,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-20T19:36",
-     "hace": "hace 12 min",
+     "hace": "hace 43 min",
      "detalle": [
       "Uso: 24 pasos · 19,569 tokens nuevos · 1,545,860 de caché · 7,023 escritos · equivale a US$ 1.14 de API",
       "2026-11-20 19:24 Arranca la producción (5 listos en la cola, meta 10).",
@@ -230,7 +230,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-20T19:36",
-     "hace": "hace 12 min",
+     "hace": "hace 43 min",
      "detalle": [
       "051-leonidas-grano-arena: aprobado — Todas las afirmaciones factuales (velocidad 71 km/s, origen en el polvo del cometa 55P/Tempel-Tuttle, la Tierra cruza ese polvo, tamano de g",
       "052-zapatilla-sobrecarga: aprobado — Tema de seguridad (incendio eléctrico). Todas las afirmaciones de riesgo quedan verificadas con fuentes serias: NFPA y CPSC (EE.UU.) indican",
@@ -263,7 +263,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-20T19:36",
-     "hace": "hace 12 min",
+     "hace": "hace 43 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -287,7 +287,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-20 19:36.",
      "cuando": "2026-11-20T19:36",
-     "hace": "hace 12 min",
+     "hace": "hace 43 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -311,7 +311,7 @@
      "estado": "aviso",
      "resumen": "Apartó 3 video(s) en las últimas 48 h.",
      "cuando": "2026-11-20T19:36",
-     "hace": "hace 12 min",
+     "hace": "hace 43 min",
      "detalle": [],
      "tareas": [
       "049-primer-calor-aclimatacion: tema de actualidad vencido (más de 48 h)",
@@ -337,27 +337,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: 052-zapatilla-sobrecarga.",
-     "cuando": "2026-11-20T13:35",
-     "hace": "hace 6 h",
+     "resumen": "Último: 053-cadenas-parana.",
+     "cuando": "2026-11-20T19:34",
+     "hace": "hace 45 min",
      "detalle": [
-      "18/11 19:32 048-golpe-de-calor https://youtube.com/shorts/cDQPgFirUTE | privacidad: public",
-      "18/11 19:33 048-golpe-de-calor paquete para TikTok/YouTube enviado",
-      "19/11 12:30 No hay videos listos en la cola.",
-      "19/11 19:30 No hay videos listos en la cola.",
-      "20/11 12:30 No hay videos listos en la cola.",
       "20/11 13:34 052-zapatilla-sobrecarga publicado: https://www.instagram.com/reel/Df-GCcfCE2T/",
       "20/11 13:34 052-zapatilla-sobrecarga publicado en Facebook: https://www.facebook.com/reel/1628595105419701/",
       "20/11 13:34 052-zapatilla-sobrecarga falló TikTok: ^^^^^^^^",
       "20/11 13:35 052-zapatilla-sobrecarga https://youtube.com/shorts/6rgBJVZv4yo | privacidad: public",
-      "20/11 13:35 052-zapatilla-sobrecarga paquete para TikTok/YouTube enviado"
+      "20/11 13:35 052-zapatilla-sobrecarga paquete para TikTok/YouTube enviado",
+      "20/11 19:33 053-cadenas-parana publicado: https://www.instagram.com/reel/Df-vMwOACQX/",
+      "20/11 19:34 053-cadenas-parana publicado en Facebook: https://www.facebook.com/reel/1830925631569436/",
+      "20/11 19:34 053-cadenas-parana en la bandeja de TikTok",
+      "20/11 19:34 053-cadenas-parana https://youtube.com/shorts/GYLmYZ8uGk4 | privacidad: public",
+      "20/11 19:34 053-cadenas-parana paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: 053-cadenas-parana — Día de la Soberanía: por qué el 20/11 cruzaron el río Paraná con cadenas gigantes (Vuelta de Obligado, 1845)"
+      "Próximo: 054-gta-juegos-violentos — ¿Los videojuegos violentos te hacen violento? Lo que dice la APA (2020), ahora que salió el GTA 6 --actualidad"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "3ee85a192529"
+     "firma": "177211008ee2"
     },
     {
      "id": "redes",
@@ -373,24 +373,26 @@
        "cuenta": "es"
       }
      },
-     "estado": "aviso",
-     "resumen": "Necesita algo tuyo: En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram.",
-     "cuando": "2026-11-20T13:35",
-     "hace": "hace 6 h",
+     "estado": "ok",
+     "resumen": "Borrador en TikTok y paquete por Telegram al día.",
+     "cuando": "2026-11-20T19:34",
+     "hace": "hace 45 min",
      "detalle": [
-      "18/11 12:32 047-paquete-retenido https://youtube.com/shorts/2bDayee9JZ0 | privacidad: public",
-      "18/11 12:32 047-paquete-retenido paquete para TikTok/YouTube enviado",
-      "18/11 19:32 048-golpe-de-calor en la bandeja de TikTok",
       "18/11 19:32 048-golpe-de-calor https://youtube.com/shorts/cDQPgFirUTE | privacidad: public",
       "18/11 19:33 048-golpe-de-calor paquete para TikTok/YouTube enviado",
       "20/11 13:34 052-zapatilla-sobrecarga falló TikTok: ^^^^^^^^",
       "20/11 13:35 052-zapatilla-sobrecarga https://youtube.com/shorts/6rgBJVZv4yo | privacidad: public",
-      "20/11 13:35 052-zapatilla-sobrecarga paquete para TikTok/YouTube enviado"
+      "20/11 13:35 052-zapatilla-sobrecarga paquete para TikTok/YouTube enviado",
+      "20/11 19:34 053-cadenas-parana en la bandeja de TikTok",
+      "20/11 19:34 053-cadenas-parana https://youtube.com/shorts/GYLmYZ8uGk4 | privacidad: public",
+      "20/11 19:34 053-cadenas-parana paquete para TikTok/YouTube enviado"
      ],
-     "tareas": [],
-     "arreglo": "Si TikTok no recibió el borrador, el paquete igual llegó por Telegram: subilo a mano.",
-     "solo": true,
-     "firma": "d11c46912929"
+     "tareas": [
+      "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
+     ],
+     "arreglo": null,
+     "solo": false,
+     "firma": "30d12406c8e5"
     },
     {
      "id": "carruseles",
@@ -439,25 +441,25 @@
      },
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
-     "cuando": "2026-11-07T18:03",
-     "hace": "hace 13 días",
+     "cuando": "2026-11-20T20:19",
+     "hace": "recién",
      "detalle": [
-      "07/11 03:53 Hay 2 comentarios nuevos: arranca la respuesta.",
-      "07/11 00:00 Respondí 2 · salteé 0 · alerté 0. (026-mediodia-hora-corrida: marenzimonica respondida con la explicación del movimiento aparente por la rotación terrestre; davidblaiotta respondido con humor sobre el horario de almuerzo)",
-      "07/11 00:00 Termina la respuesta de comentarios (ok).",
-      "07/11 03:53 Termina la respuesta de comentarios (ok).",
       "07/11 18:02 Hay 18 comentarios nuevos: arranca la respuesta.",
       "07/11 00:00 Respondí 16 · salteé 2 · alerté 0. (026-mediodia-hora-corrida: 14 respondidos, incluido alejandrokalfayan (hora oficial vs longitud, con Ley 26.350); 028-yerba-por-ano: 2 respondidos; salteados: aledelejos (vulgar, tema político de la hora) y un duplicado de fulanocris)",
       "07/11 00:00 Termina la respuesta de comentarios (ok).",
-      "07/11 18:03 Termina la respuesta de comentarios (ok)."
+      "07/11 18:03 Termina la respuesta de comentarios (ok).",
+      "20/11 20:19 Hay 1 comentarios nuevos: arranca la respuesta.",
+      "20/11 00:00 Respondí 0 · salteé 0 · alerté 1. (034-subte-linea-a: __francoivann__ plantea que el apodo \"Brujas\" viene del fabricante \"La Brugeoise\", no de la ciudad; el guion dice \"según cuentan\" y no tiene fuente clara para el origen del apodo. Alertado a Mateo, no respondido en público.)",
+      "20/11 00:00 Termina la respuesta de comentarios (ok).",
+      "20/11 20:19 Termina la respuesta de comentarios (ok)."
      ],
      "tareas": [
-      "4 alerta",
+      "5 alerta",
       "56 respondido",
       "13 salteado",
-      "⚠️ boninoernesto: 'Lo q dice es q hay q enfriar la comida afuera... las heladeras no se la banca mucho si metes comida cali",
       "⚠️ juan.pablo.pavoni: 'El calor después se condensa y forma hielo por más nofrost inverter...' — Sostiene que la comida cal",
-      "⚠️ franparatore: 'el año pasado votaron a favor del huso horario -4' — afirma una votación que contradice el guion (hora of"
+      "⚠️ franparatore: 'el año pasado votaron a favor del huso horario -4' — afirma una votación que contradice el guion (hora of",
+      "⚠️ __francoivann__: Les dicen las brujas por qué eran del fabricante \"La Brugeoise\" que se pronuncia La Bru-yua — El guion "
      ],
      "arreglo": null,
      "solo": false,
@@ -512,7 +514,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 049-primer-calor-aclimatacion — tema de actualidad vencido (más de 48 h)",
-     "cuando": "2026-11-20T19:48",
+     "cuando": "2026-11-20T20:19",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 049-primer-calor-aclimatacion — tema de actualidad vencido (más de 48 h)",
@@ -556,13 +558,18 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 5,
-   "listos": 8,
-   "dias": 4.0,
-   "proximo": "en-025-dog-hot-car",
-   "publicados": 26,
+   "listos": 7,
+   "dias": 3.5,
+   "proximo": "en-026-el-nino-winter",
+   "publicados": 27,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "en-025-dog-hot-car",
+     "link": "https://www.instagram.com/reel/Df-vaArnN_6/",
+     "cuando": "2026-11-20T22:35"
+    },
     {
      "slug": "en-024-heat-index",
      "link": "https://www.instagram.com/reel/Df-GPRlm9ZH/",
@@ -582,21 +589,9 @@
      "slug": "en-022-ears-pop",
      "link": "https://www.instagram.com/reel/DfasFrnj6m6/",
      "cuando": "2026-11-06T22:33"
-    },
-    {
-     "slug": "en-021-other-line",
-     "link": "https://www.instagram.com/reel/DfZ8EffDZHV/",
-     "cuando": "2026-11-06T15:34"
     }
    ],
    "linea": [
-    {
-     "slug": "en-025-dog-hot-car",
-     "tema": "Dog in the car for a minute with the window cracked (Pediatrics 2005; pillar pets)",
-     "estado": "listo",
-     "cuando": "2026-11-06T09:26",
-     "motivo": "render sin Claude"
-    },
     {
      "slug": "en-026-el-nino-winter",
      "tema": "What El Niño means for your winter (NOAA CPC; adapted from 016)",
@@ -619,11 +614,11 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "en-023-package-text",
-     "tema": "Package text scam: don't tap, forward to 7726 (FTC; pillar phone scams)",
-     "estado": "publicado",
-     "cuando": "2026-11-07T19:34",
-     "motivo": "https://www.instagram.com/reel/DfdQ9nzGcv2/"
+     "slug": "en-029-swim-after-eating",
+     "tema": "Do you have to wait to swim after eating? (Red Cross; adapted from 002)",
+     "estado": "listo",
+     "cuando": "2026-11-07T22:40",
+     "motivo": "render sin Claude"
     },
     {
      "slug": "en-024-heat-index",
@@ -631,6 +626,13 @@
      "estado": "publicado",
      "cuando": "2026-11-20T13:36",
      "motivo": "https://www.instagram.com/reel/Df-GPRlm9ZH/"
+    },
+    {
+     "slug": "en-025-dog-hot-car",
+     "tema": "Dog in the car for a minute with the window cracked (Pediatrics 2005; pillar pets)",
+     "estado": "publicado",
+     "cuando": "2026-11-20T19:35",
+     "motivo": "https://www.instagram.com/reel/Df-vaArnN_6/"
     }
    ],
    "empleados": [
@@ -651,7 +653,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-20T19:48",
-     "hace": "recién",
+     "hace": "hace 31 min",
      "detalle": [
       "Uso: 14 pasos · 8,274 tokens nuevos · 941,989 de caché · 2,496 escritos · equivale a US$ 1.10 de API",
       "2026-11-20 19:36 Arranca la producción (7 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
@@ -717,7 +719,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-20T19:48",
-     "hace": "recién",
+     "hace": "hace 31 min",
      "detalle": [
       "en-025-dog-hot-car: aprobado — Segunda revision con busqueda web. Todas las cifras y unidades (F) del guion y del caption coinciden con fuentes de EE. UU.: Pediatrics 2005",
       "en-026-el-nino-winter: aprobado — Las cifras coinciden con la discusión ENSO del CPC del 8/10/2026 (la más reciente: la siguiente está programada para noviembre, después de h",
@@ -750,7 +752,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-20T19:48",
-     "hace": "recién",
+     "hace": "hace 31 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -774,7 +776,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-20 19:48.",
      "cuando": "2026-11-20T19:48",
-     "hace": "recién",
+     "hace": "hace 31 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -796,14 +798,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "8 videos listos, ninguno apartado en las últimas 48 h.",
+     "resumen": "7 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-20T19:48",
-     "hace": "recién",
+     "hace": "hace 31 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "e4e456394e42"
+     "firma": "b2b8cc0e5f64"
     },
     {
      "id": "publicador",
@@ -820,27 +822,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: en-024-heat-index.",
-     "cuando": "2026-11-20T13:37",
-     "hace": "hace 6 h",
+     "resumen": "Último: en-025-dog-hot-car.",
+     "cuando": "2026-11-20T19:36",
+     "hace": "hace 43 min",
      "detalle": [
-      "07/11 12:36 en-022-power-outage-fridge en la bandeja de TikTok",
-      "07/11 12:36 en-022-power-outage-fridge paquete para TikTok/YouTube enviado",
-      "07/11 19:34 en-023-package-text publicado: https://www.instagram.com/reel/DfdQ9nzGcv2/",
-      "07/11 19:35 en-023-package-text publicado en Facebook: https://www.facebook.com/reel/1433630505544214/",
       "07/11 19:35 en-023-package-text en la bandeja de TikTok",
       "07/11 19:35 en-023-package-text paquete para TikTok/YouTube enviado",
       "20/11 13:36 en-024-heat-index publicado: https://www.instagram.com/reel/Df-GPRlm9ZH/",
       "20/11 13:36 en-024-heat-index publicado en Facebook: https://www.facebook.com/reel/1440764394326288/",
       "20/11 13:36 en-024-heat-index en la bandeja de TikTok",
-      "20/11 13:37 en-024-heat-index paquete para TikTok/YouTube enviado"
+      "20/11 13:37 en-024-heat-index paquete para TikTok/YouTube enviado",
+      "20/11 19:35 en-025-dog-hot-car publicado: https://www.instagram.com/reel/Df-vaArnN_6/",
+      "20/11 19:36 en-025-dog-hot-car publicado en Facebook: https://www.facebook.com/reel/40975074848757686/",
+      "20/11 19:36 en-025-dog-hot-car en la bandeja de TikTok",
+      "20/11 19:36 en-025-dog-hot-car paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: en-025-dog-hot-car — Dog in the car for a minute with the window cracked (Pediatrics 2005; pillar pets)"
+      "Próximo: en-026-el-nino-winter — What El Niño means for your winter (NOAA CPC; adapted from 016)"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "a86d4baf1060"
+     "firma": "5797c8755bec"
     },
     {
      "id": "redes",
@@ -858,17 +860,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-20T13:37",
-     "hace": "hace 6 h",
+     "cuando": "2026-11-20T19:36",
+     "hace": "hace 43 min",
      "detalle": [
-      "06/11 19:34 en-022-ears-pop en la bandeja de TikTok",
-      "06/11 19:34 en-022-ears-pop paquete para TikTok/YouTube enviado",
       "07/11 12:36 en-022-power-outage-fridge en la bandeja de TikTok",
       "07/11 12:36 en-022-power-outage-fridge paquete para TikTok/YouTube enviado",
       "07/11 19:35 en-023-package-text en la bandeja de TikTok",
       "07/11 19:35 en-023-package-text paquete para TikTok/YouTube enviado",
       "20/11 13:36 en-024-heat-index en la bandeja de TikTok",
-      "20/11 13:37 en-024-heat-index paquete para TikTok/YouTube enviado"
+      "20/11 13:37 en-024-heat-index paquete para TikTok/YouTube enviado",
+      "20/11 19:36 en-025-dog-hot-car en la bandeja de TikTok",
+      "20/11 19:36 en-025-dog-hot-car paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -962,7 +964,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-20T19:48",
+     "cuando": "2026-11-20T20:19",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
