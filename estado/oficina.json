@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T18:20",
+ "actualizado": "2026-11-20T18:26",
  "oficinas": [
   {
    "clave": "es",
@@ -193,8 +193,8 @@
      },
      "estado": "ok",
      "resumen": "Revisión radar. Búsquedas web (SMN + noticias/tendencias del día). SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por tormentas y granizo ",
-     "cuando": "2026-11-20T00:00",
-     "hace": "hace 18 h",
+     "cuando": "2026-11-20T18:26",
+     "hace": "recién",
      "detalle": [
       "17/11 00:00 | Revisión radar. HAY TEMA (ya en cola de una corrida previa): lluvia de estrellas Leónidas, pico madrugada 17-18 nov (NASA, Natural History Museum Londres). Ángulo propio verificado: la \"estrella fugaz\" no es una estrella ni una roca grande, es polvo de cometa (Tempel-Tuttle) del tamaño de un grano de arena que se enciende al entrar a 71 km/s. Slug 051-leonidas-grano-arena (--actualidad, serie ciencia): continué su producción (chequeo→voz→3D→render). Descartados: (a) alerta naranja/amarilla por tormentas severas y granizo en 17 provincias incl. CABA (SMN hoy) -> granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin ángulo nuevo; (b) vientos Zonda en Cuyo -> nicho regional.",
       "18/11 00:00 | Revision radar. HAY TEMA: arranca el finde largo y el viernes 20/11 es el Dia de la Soberania (feriado trasladado al lunes 23). Casi nadie sabe que se festeja -> angulo propio: la Vuelta de Obligado (1845), cerraron el rio Parana con tres cadenas sobre 24 lanchones para frenar a Gran Bretana y Francia; imagen grande y mandable. Verificado (Canal26 2026, Infobae 2024, La Nacion 2025, Wikipedia; Dia de la Soberania 20-nov). ELEGIDO. Slug 053-cadenas-parana (--actualidad, serie argentina). Descartados: (a) alerta naranja/amarilla por tormentas y granizo en 9-10 provincias (SMN hoy) -> AMBA afuera y granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin angulo nuevo; (b) ciclon/calor en BA por Super Nino -> clima ya cubierto (016/019/008/009), sin giro; (c) Leonidas -> ya en cola (051).",
@@ -312,8 +312,8 @@
        "cuenta": "es"
       }
      },
-     "estado": "ok",
-     "resumen": "Revisado por el técnico: Ramiro apartó 3 videos de actualidad que se pasaron de fecha; no cambié nada.",
+     "estado": "aviso",
+     "resumen": "Apartó 3 video(s) en las últimas 48 h.",
      "cuando": "2026-11-20T15:31",
      "hace": "hace 2 h",
      "detalle": [],
@@ -322,7 +322,7 @@
       "050-martes-13-no-viernes: tema de actualidad vencido (más de 48 h)",
       "051-leonidas-grano-arena: tema de actualidad vencido (más de 48 h)"
      ],
-     "arreglo": null,
+     "arreglo": "Revisalo: si está bien, pasalo a listo; si no, queda apartado.",
      "solo": false,
      "firma": "a42a94baf0b2"
     },
@@ -483,7 +483,7 @@
      "estado": "ok",
      "resumen": "20/11: 1023 seguidores",
      "cuando": "2026-11-20T18:20",
-     "hace": "recién",
+     "hace": "hace 6 min",
      "detalle": [
       "17/11: 981 seguidores",
       "18/11: 993 seguidores",
@@ -516,7 +516,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 049-primer-calor-aclimatacion — tema de actualidad vencido (más de 48 h)",
-     "cuando": "2026-11-20T18:20",
+     "cuando": "2026-11-20T18:26",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 049-primer-calor-aclimatacion — tema de actualidad vencido (más de 48 h)",
@@ -687,13 +687,13 @@
       }
      },
      "estado": "ok",
-     "resumen": "Duodécima pasada del radar: la búsqueda (NWS fin de semana) solo devolvió páginas sin fecha o de 2025/marzo 2026; nada verificable de las últimas 48 h. Descarta",
-     "cuando": "2026-11-07T15:10",
-     "hace": "hace 13 días",
+     "resumen": "Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2023/2024 y titulares sin gancho explicable. Descartados: (1) clima de Thanksgiving (",
+     "cuando": "2026-11-20T18:26",
+     "hace": "recién",
      "detalle": [
-      "06/11 00:00 Décima pasada del radar: la búsqueda web no devolvió alertas del NWS ni noticias de las últimas 48 h (páginas sin fecha, de abril o de 2025). Descartados: (1) tornado watch en el norte de Georgia: página sin fecha, regional y sin fuente oficial confirmada; (2) superluna del 24/11: todavía lejos; (3) ciencia de la semana: nada de noviembre 2026 en los resúmenes. Sin tema nuevo.",
       "07/11 00:00 Undécima pasada del radar: la búsqueda solo devolvió pronósticos locales y titulares sin detalle. Descartados: (1) El Niño \"más fuerte en una vida\" (AccuWeather): solo titular, sin fuente oficial del día; y en-026-el-nino-winter ya está en cola; (2) tornados raros en Delaware/Long Island: evento regional, riesgo de daños/víctimas, sin confirmar; (3) inundación costera por \"king tide\" en Florida/California: regional, sin fecha ni fuente oficial confirmada. Sin tema nuevo.",
-      "07/11 00:00 Duodécima pasada del radar: la búsqueda (NWS fin de semana) solo devolvió páginas sin fecha o de 2025/marzo 2026; nada verificable de las últimas 48 h. Descartados: (1) frío/tormenta invernal del fin de semana: notas sin fecha, sin fuente oficial del día; (2) El Niño: ya en cola (en-026); (3) superluna del 24/11: lejos. Sin tema nuevo."
+      "07/11 00:00 Duodécima pasada del radar: la búsqueda (NWS fin de semana) solo devolvió páginas sin fecha o de 2025/marzo 2026; nada verificable de las últimas 48 h. Descartados: (1) frío/tormenta invernal del fin de semana: notas sin fecha, sin fuente oficial del día; (2) El Niño: ya en cola (en-026); (3) superluna del 24/11: lejos. Sin tema nuevo.",
+      "20/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2023/2024 y titulares sin gancho explicable. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 verificable; (2) Nvidia/Anthropic IPO/Russell Brand: negocios o chisme/delito, no explicables; (3) superluna del 24/11: lejos y sin ángulo de guardar/comentar. Sin tema nuevo."
      ],
      "tareas": [
       "🔥 en-002-dst-farmers — Is daylight saving time for farmers? (fall back Nov 1)",
@@ -702,7 +702,7 @@
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "623f6aa019c9"
+     "firma": "370370272c1a"
     },
     {
      "id": "chequeo",
@@ -933,7 +933,7 @@
      "estado": "ok",
      "resumen": "20/11: 5 seguidores",
      "cuando": "2026-11-20T18:20",
-     "hace": "recién",
+     "hace": "hace 6 min",
      "detalle": [
       "05/11: 3 seguidores",
       "06/11: 3 seguidores",
@@ -966,7 +966,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-20T18:20",
+     "cuando": "2026-11-20T18:26",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -1183,16 +1183,16 @@
    ]
   },
   {
-   "id": "11201818-es-control",
+   "id": "11201818-en-analista",
    "creado": "2026-11-20T18:18",
-   "empleado": "es/control",
+   "empleado": "en/analista",
    "estado": "explicado",
    "auto": true,
-   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Ramiro (Control de calidad) está en \"aviso\": Apartó 3 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\n049-primer-calor-aclimatacion: tema de actualidad vencido (más de 48 h)\n050-martes-13-no-viernes: tema de actualidad vencido (más de 48 h)\n051-leonidas-grano-arena: tema de actualidad vencido (más de 48 h)\n",
-   "firma": "a42a94baf0b2",
-   "actualizado": "2026-11-20T18:18",
-   "titulo": "Ramiro apartó 3 videos de actualidad que se pasaron de fecha; no cambié nada.",
-   "resumen": "La causa es una regla que funciona como debe. Los videos 049 (primer calor), 050 (martes 13) y 051 (Leónidas) eran de actualidad, y pasaron las 48 horas sin publicarse. La cola los apartó sola, para no sacar algo que ya quedó viejo. No hay error de código. Siguen apartados y no se publican. Los videos nuevos que están en \"listo\" (053 a 057) siguen su curso normal."
+   "problema": "En la oficina de Nueva York (@letmeexplain.us), Max (Métricas) está en \"aviso\": Las métricas tienen más de un día.\nLo que sugiere la oficina: ¿Vencido el token de Meta? Relanzá el resumen y mirá si falla.\nTareas:\nen-001-phone-rice: 4.128 vistas · 22 enviados · 52 ♥\nen-007-flip-steak: 3.384 vistas · 18 enviados · 36 ♥\nen-009-ceiling-fan: 3.058 vistas · 2 enviados · 40 ♥\nen-008-wash-chicken: 2.295 vistas · 4 enviados · 20 ♥\nen-006-five-second-rule: 2.255 vistas · 22 enviados · 52 ♥\nRegistro:\n04/11: 3 seguidores\n05/11: 3 seguidores\n06/11: 3 seguidores\n07/11: 5 seguidores",
+   "firma": "5264890a0965",
+   "actualizado": "2026-11-20T18:19",
+   "titulo": "Max (Métricas) estaba en aviso porque el resumen diario no corría; relancé el resumen a mano y todavía no terminó.",
+   "resumen": "Las métricas de Nueva York quedaron en el 7/11, igual que las de Buenos Aires, y el token de Meta no falló. El resumen diario solo corre si el interruptor `NUBE_ACTIVA` está en \"si\", y casi todas las corridas desde el 7/11 figuran como salteadas. La última corrida programada sí funcionó, así que el interruptor está prendido ahora. No toqué código ni reglas. Lancé el resumen a mano (corrida 44819267583). Cuando esto se escribió seguía en curso, así que no sé todavía si actualizó las métricas. Si falla, el flujo avisa solo. Si no, el resumen programado de las 21:05 lo hace de todas formas."
   }
  ]
 }

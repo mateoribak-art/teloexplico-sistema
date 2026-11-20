@@ -132,3 +132,16 @@ Sources:
 - [c5n: alerta meteorológica por tormentas y granizo](https://www.c5n.com/sociedad/alerta-meteorologica-tormentas-y-granizo-buenos-aires-y-mas-65-localidades-argentina-n133832/amp)
 Uso: 11 pasos · 19,956 tokens nuevos · 166,603 de caché · 1,789 escritos · equivale a US$ 0.14 de API
 2026-11-07 15:10 Termina el radar (ok).
+2026-11-20 18:25 Arranca el radar.
+Hoy no hay un tema de actualidad nuevo, así que no produje ningún video. Las búsquedas de esta corrida no sumaron nada distinto de lo que `videos/radar.log` ya tenía anotado para hoy (línea 13), y no agregué otra entrada.
+
+Descartados:
+- **Alerta por tormentas y lluvias fuertes (SMN):** granizo, tormenta, "refresca de golpe", olor a lluvia y El Niño ya tienen video (005, 024, 018, 004, 016) y no encontré un ángulo nuevo con giro. Además, varias notas que aparecieron en la búsqueda parecen de 2025 (jueves 20 de noviembre).
+- **Día de la Soberanía:** ya está en la cola como 053-cadenas-parana.
+- **Dólar, leyes y temas parecidos:** son política o economía y no encajan con los criterios.
+
+Decisión: no hay tema de actualidad nuevo hoy y sigue la cola normal, con 053 como el único tema del momento en curso.
+
+Fuentes consultadas: [Meteored](https://www.meteored.com.ar/noticias/prediccion/avanza-un-frente-frio-sobre-argentina-calor-10-c-por-encima-de-lo-normal-y-un-cierre-de-semana-con-tormentas-fuertes.html), [Perfil, pronóstico trimestral SMN](https://www.perfil.com/noticias/amp/nea/el-nino-el-smn-anticipo-lluvias-superiores-a-lo-normal-para-octubre-noviembre-y-diciembre-de-2026.phtml), [Canal26](https://www.canal26.com/clima/2026/11/18/a-que-hora-llueve-en-buenos-aires-este-miercoles-18-de-noviembre-segun-el-smn/).
+Uso: 8 pasos · 20,994 tokens nuevos · 79,214 de caché · 1,165 escritos · equivale a US$ 0.13 de API
+2026-11-20 18:26 Termina el radar (ok).

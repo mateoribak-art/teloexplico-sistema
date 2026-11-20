@@ -65,3 +65,12 @@ Uso: 10 pasos · 14,555 tokens nuevos · 129,397 de caché · 1,246 escritos · 
 No produje ningún video: la búsqueda web no devolvió nada verificable de las últimas 48 h. Descarté el frío o tormenta invernal del fin de semana (notas sin fecha ni fuente oficial del día), El Niño (ya está en cola como en-026) y la superluna del 24/11 (todavía lejos). Lo anoté en `videos/en/radar.log`.
 Uso: 8 pasos · 12,155 tokens nuevos · 123,429 de caché · 1,132 escritos · equivale a US$ 0.08 de API
 2026-11-07 15:10 Termina el radar (ok).
+2026-11-20 18:26 Arranca el radar.
+Decidí no producir nada hoy: ningún tema de actualidad cumple los criterios. Lo anoté en `videos/en/radar.log`.
+
+La búsqueda solo devolvió pronósticos de Thanksgiving de 2023 y 2024, sin ninguno de 2026 que pueda verificarse. Los candidatos que descarté:
+- **Clima de Thanksgiving (26/11):** falta un pronóstico oficial de 2026 verificable.
+- **Noticias de Nvidia, la salida a bolsa de Anthropic y Russell Brand:** son negocios o chisme y delito, y no se pueden explicar en un video.
+- **Superluna del 24/11:** está lejos y no tiene ángulo de guardar ni de comentar.
+Uso: 10 pasos · 16,188 tokens nuevos · 137,321 de caché · 1,438 escritos · equivale a US$ 0.12 de API
+2026-11-20 18:26 Termina el radar (ok).
