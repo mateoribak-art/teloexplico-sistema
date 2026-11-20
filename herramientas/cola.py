@@ -73,6 +73,8 @@ def agregar(slug, tema, estado='idea', actualidad=False):
 def vencido(v):
     if v.get('prioridad') != 'actualidad':
         return False
+    if v.get('vence'):  # fecha propia (un feriado, un evento con fecha): vale hasta ese día, no 48 h desde que se creó
+        return datetime.datetime.now() > datetime.datetime.fromisoformat(v['vence'])
     creado = datetime.datetime.fromisoformat(v.get('creado') or v['historial'][0]['cuando'])
     return datetime.datetime.now() - creado > datetime.timedelta(hours=VIGENCIA_ACTUALIDAD_H)
 

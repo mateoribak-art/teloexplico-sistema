@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T13:22",
+ "actualizado": "2026-11-20T13:31",
  "oficinas": [
   {
    "clave": "es",
@@ -7,9 +7,9 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 1013,
-   "listos": 5,
-   "dias": 2.5,
-   "proximo": "049-primer-calor-aclimatacion",
+   "listos": 1,
+   "dias": 0.5,
+   "proximo": "052-zapatilla-sobrecarga",
    "publicados": 48,
    "pausa": false,
    "pendientes": [
@@ -44,32 +44,39 @@
    ],
    "linea": [
     {
-     "slug": "049-primer-calor-aclimatacion",
-     "tema": "¿Por qué el primer calor del año te pega más fuerte? Tu cuerpo todavía no está aclimatado (NIOSH)",
-     "estado": "listo",
-     "cuando": "2026-11-20T12:36",
-     "motivo": "render sin Claude"
-    },
-    {
-     "slug": "050-martes-13-no-viernes",
-     "tema": "¿Por qué el viernes 13 trae mala suerte? En Argentina el de mala suerte es el martes 13 (origen del mito)",
-     "estado": "listo",
-     "cuando": "2026-11-20T12:39",
-     "motivo": "render sin Claude"
-    },
-    {
-     "slug": "051-leonidas-grano-arena",
-     "tema": "Lluvia de estrellas Leónidas: la estrella fugaz no es una estrella ni una roca gigante, es polvo de cometa del tamaño de un grano de arena que se enciende por la velocidad",
-     "estado": "listo",
-     "cuando": "2026-11-20T12:41",
-     "motivo": "render sin Claude"
-    },
-    {
      "slug": "052-zapatilla-sobrecarga",
      "tema": "Qué electrodomésticos no enchufar a una zapatilla o alargue: los que calientan (microondas, pava, estufa, aire) van directo a la pared (NFPA, bomberos)",
      "estado": "listo",
      "cuando": "2026-11-20T12:44",
      "motivo": "render sin Claude"
+    },
+    {
+     "slug": "049-primer-calor-aclimatacion",
+     "tema": "¿Por qué el primer calor del año te pega más fuerte? Tu cuerpo todavía no está aclimatado (NIOSH)",
+     "estado": "apartado",
+     "cuando": "2026-11-20T13:19",
+     "motivo": "tema de actualidad vencido (más de 48 h)"
+    },
+    {
+     "slug": "050-martes-13-no-viernes",
+     "tema": "¿Por qué el viernes 13 trae mala suerte? En Argentina el de mala suerte es el martes 13 (origen del mito)",
+     "estado": "apartado",
+     "cuando": "2026-11-20T13:19",
+     "motivo": "tema de actualidad vencido (más de 48 h)"
+    },
+    {
+     "slug": "051-leonidas-grano-arena",
+     "tema": "Lluvia de estrellas Leónidas: la estrella fugaz no es una estrella ni una roca gigante, es polvo de cometa del tamaño de un grano de arena que se enciende por la velocidad",
+     "estado": "apartado",
+     "cuando": "2026-11-20T13:19",
+     "motivo": "tema de actualidad vencido (más de 48 h)"
+    },
+    {
+     "slug": "053-cadenas-parana",
+     "tema": "Día de la Soberanía: por qué el 20/11 cruzaron el río Paraná con cadenas gigantes (Vuelta de Obligado, 1845)",
+     "estado": "apartado",
+     "cuando": "2026-11-20T13:19",
+     "motivo": "tema de actualidad vencido (más de 48 h)"
     },
     {
      "slug": "047-paquete-retenido",
@@ -104,7 +111,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-20T12:49",
-     "hace": "hace 33 min",
+     "hace": "hace 42 min",
      "detalle": [
       "2026-11-20 12:49 Arranca la producción (5 listos en la cola, meta 10).",
       "¿Qué necesitás que haga?",
@@ -200,8 +207,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-20T12:47",
-     "hace": "hace 35 min",
+     "cuando": "2026-11-20T12:44",
+     "hace": "hace 47 min",
      "detalle": [
       "046-perro-no-comas: aprobado — Todas las afirmaciones de salud (chocolate, uvas/pasas, cebolla/ajo/cebollín, consulta al veterinario) están respaldadas por la página de la",
       "047-paquete-retenido: aprobado — Segunda pasada con búsqueda web y lectura de las dos fuentes primarias. Todas las afirmaciones de seguridad y de plata quedan verificadas. L",
@@ -233,8 +240,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-20T12:47",
-     "hace": "hace 35 min",
+     "cuando": "2026-11-20T12:44",
+     "hace": "hace 47 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -256,14 +263,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-20 12:47.",
-     "cuando": "2026-11-20T12:47",
-     "hace": "hace 35 min",
+     "resumen": "Último video terminado: 2026-11-20 12:44.",
+     "cuando": "2026-11-20T12:44",
+     "hace": "hace 47 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "7fcec20203c2"
+     "firma": "9ae5575a5b51"
     },
     {
      "id": "control",
@@ -279,15 +286,20 @@
        "cuenta": "es"
       }
      },
-     "estado": "ok",
-     "resumen": "5 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-20T12:47",
-     "hace": "hace 35 min",
+     "estado": "aviso",
+     "resumen": "Apartó 4 video(s) en las últimas 48 h.",
+     "cuando": "2026-11-20T12:44",
+     "hace": "hace 47 min",
      "detalle": [],
-     "tareas": [],
-     "arreglo": null,
+     "tareas": [
+      "049-primer-calor-aclimatacion: tema de actualidad vencido (más de 48 h)",
+      "050-martes-13-no-viernes: tema de actualidad vencido (más de 48 h)",
+      "051-leonidas-grano-arena: tema de actualidad vencido (más de 48 h)",
+      "053-cadenas-parana: tema de actualidad vencido (más de 48 h)"
+     ],
+     "arreglo": "Revisalo: si está bien, pasalo a listo; si no, queda apartado.",
      "solo": false,
-     "firma": "ed651a2c8e2f"
+     "firma": "a41e897d942d"
     },
     {
      "id": "publicador",
@@ -304,9 +316,9 @@
       }
      },
      "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 19:30 (19/11).",
+     "resumen": "No salió la publicación del turno de las 12:30 (20/11).",
      "cuando": "2026-11-20T12:30",
-     "hace": "hace 52 min",
+     "hace": "hace 1 h",
      "detalle": [
       "18/11 12:32 047-paquete-retenido https://youtube.com/shorts/2bDayee9JZ0 | privacidad: public",
       "18/11 12:32 047-paquete-retenido paquete para TikTok/YouTube enviado",
@@ -320,11 +332,11 @@
       "20/11 12:30 No hay videos listos en la cola."
      ],
      "tareas": [
-      "Próximo: 049-primer-calor-aclimatacion — ¿Por qué el primer calor del año te pega más fuerte? Tu cuerpo todavía no está aclimatado (NIOSH)"
+      "Próximo: 052-zapatilla-sobrecarga — Qué electrodomésticos no enchufar a una zapatilla o alargue: los que calientan (microondas, pava, estufa, aire) van directo a la pared (NFPA, bomberos)"
      ],
      "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
      "solo": false,
-     "firma": "336bab91f38b"
+     "firma": "a9c7239ca653"
     },
     {
      "id": "redes",
@@ -480,16 +492,21 @@
       }
      },
      "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 19:30 (19/11).",
-     "cuando": "2026-11-20T13:22",
+     "resumen": "No salió la publicación del turno de las 12:30 (20/11).",
+     "cuando": "2026-11-20T13:31",
      "hace": "recién",
      "detalle": [
-      "❗ No salió la publicación del turno de las 19:30 (19/11)."
+      "❗ No salió la publicación del turno de las 12:30 (20/11).",
+      "⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s).",
+      "⚠️ Video apartado: 049-primer-calor-aclimatacion — tema de actualidad vencido (más de 48 h)",
+      "⚠️ Video apartado: 050-martes-13-no-viernes — tema de actualidad vencido (más de 48 h)",
+      "⚠️ Video apartado: 051-leonidas-grano-arena — tema de actualidad vencido (más de 48 h)",
+      "⚠️ Video apartado: 053-cadenas-parana — tema de actualidad vencido (más de 48 h)"
      ],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "667c1226a093"
+     "firma": "ad00ef9bf19a"
     },
     {
      "id": "planb",
@@ -618,7 +635,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-20T12:50",
-     "hace": "hace 32 min",
+     "hace": "hace 41 min",
      "detalle": [
       "2026-11-20 12:50 Arranca la producción (6 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
       "¿En qué te ayudo? No veo una tarea todavía.",
@@ -780,7 +797,7 @@
       }
      },
      "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 19:30 (19/11).",
+     "resumen": "No salió la publicación del turno de las 12:30 (20/11).",
      "cuando": "2026-11-07T19:35",
      "hace": "hace 12 días",
      "detalle": [
@@ -800,7 +817,7 @@
      ],
      "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
      "solo": false,
-     "firma": "c1b0ecab9eca"
+     "firma": "4047b0370304"
     },
     {
      "id": "redes",
@@ -921,16 +938,16 @@
       }
      },
      "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 19:30 (19/11).",
-     "cuando": "2026-11-20T13:22",
+     "resumen": "No salió la publicación del turno de las 12:30 (20/11).",
+     "cuando": "2026-11-20T13:31",
      "hace": "recién",
      "detalle": [
-      "❗ No salió la publicación del turno de las 19:30 (19/11)."
+      "❗ No salió la publicación del turno de las 12:30 (20/11)."
      ],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "c68bf676223a"
+     "firma": "0f139a6ea90c"
     }
    ]
   }

@@ -2030,7 +2030,7 @@
  {
   "slug": "053-cadenas-parana",
   "tema": "Día de la Soberanía: por qué el 20/11 cruzaron el río Paraná con cadenas gigantes (Vuelta de Obligado, 1845)",
-  "estado": "apartado",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -2056,9 +2056,15 @@
     "estado": "apartado",
     "cuando": "2026-11-20T13:19",
     "motivo": "tema de actualidad vencido (más de 48 h)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-20T13:33",
+    "motivo": "rescatado: el Día de la Soberanía es hoy 20/11 (feriado el lunes 23)"
    }
   ],
   "prioridad": "actualidad",
-  "creado": "2026-11-18T09:21"
+  "creado": "2026-11-18T09:21",
+  "vence": "2026-11-23T23:59"
  }
 ]

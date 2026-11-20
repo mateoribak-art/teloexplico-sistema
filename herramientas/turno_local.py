@@ -60,6 +60,27 @@ if __name__ == '__main__':
         os.environ['TLX_LOCAL'] = 'si'
         correr(['arreglar.py', 'revisar'], 'es', 100)
         sincronizar('Notebook: oficina')
+    elif modo == 'respaldo-publicar':
+        # red de seguridad con la nube activa: trae el estado y publica SOLO si el turno sigue sin cubrir
+        # (publicador.py mira publicados.json: si la nube ya publicó, no hace nada)
+        sincronizar('Notebook: respaldo antes de publicar')
+        correr(['publicador.py'], 'es', 25)
+        correr(['publicador.py'], 'en', 25)
+        sincronizar('Notebook: respaldo publicación')
+    elif modo == 'respaldo-produccion':
+        # si la cola de una cuenta está por vaciarse (la nube no produjo), la notebook produce
+        sincronizar('Notebook: respaldo antes de producir')
+        sys.path.insert(0, H)
+        for c in ('es', 'en'):
+            r = subprocess.run([PY, '-I', '-c', 'import sys; sys.path.insert(0, r"%s"); import cola; print(sum(v["estado"] == "listo" for v in cola.cargar()))' % H],
+                               cwd=H, env=dict(os.environ, TLX_CUENTA=c), capture_output=True, text=True)
+            n = int(r.stdout.strip() or 99)
+            if n <= 2:
+                escribir(f'[{c}] respaldo: quedan {n} listos, la notebook produce')
+                correr(['producir.py', 'produccion'], c, 200)
+                sincronizar(f'Notebook: respaldo producción {c}')
+            else:
+                escribir(f'[{c}] respaldo: {n} listos, no hace falta')
     elif modo == 'publicar':
         correr(['publicador.py'], 'es', 25)
         correr(['publicador.py'], 'en', 25)
