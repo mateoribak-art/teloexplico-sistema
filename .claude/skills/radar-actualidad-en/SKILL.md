@@ -8,6 +8,9 @@ description: Detectar el tema del momento en EE. UU. que @letmeexplain.us puede 
 Mismo criterio que el skill `radar-actualidad` (leelo: sección 2, "¿Sirve?", y la parte de no copiar el ángulo de otra cuenta). La fórmula: **algo que mucha gente en EE. UU. está viviendo hoy + una pregunta que todos se hacen + una respuesta que nadie les dio bien.**
 La corrida ya tiene `TLX_CUENTA=en`: `tlx cola` es la de esta cuenta.
 
+
+**Engagement filter (11/20, Mateo):** a trending topic is only picked if it has a SAVE angle (rule, list, what to do) or a COMMENT angle (a question everyone answers from their own life, a two-sided non-political debate, belonging). Pure news or fun facts are dropped even if trending. See "ENGAGEMENT FILTER" in producir-video-en.
+
 ## 1. Mirar qué está pasando (10 minutos, no más)
 Con WebSearch / WebFetch, en las últimas 48 h:
 - Clima: alertas y pronósticos del National Weather Service (weather.gov, spc.noaa.gov, nhc.noaa.gov): olas de calor o de frío, tormentas de nieve, huracanes, tornados, humo de incendios, la primera helada, auroras visibles en el norte.

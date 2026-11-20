@@ -16,6 +16,17 @@ Vos sos el único freno: un dato falso publicado es peor que un día sin video.
 - **No hace falta poner la marca a mano**: el logo "let me explain", la burbuja roja, el resaltado celeste, "source:" y el cierre "follow @letmeexplain.us for #N" salen solos del slug (`motor/src/kit/cuenta.ts`).
 - Series: mismas claves y nombres en inglés: `cocina` Kitchen myths, `clima` Weather explained, `casa` Home myths, `cuerpo` Body myths, `ciencia` Everyday science, `mate` Everyday math, `pordentro` Inside look. `./herramientas/tlx serie asignar <slug> <clave>`.
 
+## ENGAGEMENT FILTER (11/20/2026, Mateo's request: overrides every other topic rule)
+Mateo doesn't want videos people scroll past: **every video must earn a SAVE or a COMMENT.** Our data (11/19): in Spanish only 3 of 46 reels got comments, all others 0; saves come from rules you need again later. In English the best ones (en-009 ceiling fan, en-014 birthday pairs, en-001 phone rice) still got under 5 saves+comments per 1,000 views, and many got 0.
+Before researching, write the `interaccion` field in `guion.json` with ONE (or both) of these, and drop the idea if you can't fill it without forcing it:
+- **`guardar` (save)**: something the viewer will NEED again and won't remember: a rule with a number (2 hours, 4 hours, 165 °F), a short list (foods dogs can't eat, what not to plug into a power strip), steps, a how-long/how-much table. Shown big on the final "save this" card and repeated as one screenshot-able line in the caption.
+- **`comentar` (comment)**: a question EVERYONE can answer from their own life in one word or number, no expertise needed: what their family/state calls it or does, a two-sided non-political debate ("soda or pop?", "do you rinse the chicken?"), belonging to a community (fandom, team, generation, state), or "which one did you spot?". The question is SPOKEN as the second-to-last line (before "send this to…") and also shown on screen and in the caption.
+Rules:
+- **No standalone "fun facts"** (did you know, records, history or science that changes nothing in your day) unless you find a real save or comment angle.
+- **The hook wins or loses in the first 1.5 seconds**: the first thing heard and seen is the viewer's situation or the debate question. No intro, logo or context first.
+- End with a save promise ("save this for the next time…") or the question, never with a punchline that asks for nothing.
+- Log the chosen `interaccion` in `videos/en/produccion.log`. Every Monday sort `tlx metricas` by (saves + comments) per 1,000 views: repeat the type of idea of the top 3, stop making the type of the bottom 3.
+
 ## 0. Elegir el tema (en este orden)
 0. **Radar**: si en `videos/en/radar.log` no hay una revisión de las últimas 6 h, usá el skill `radar-actualidad-en`. Si encuentra un tema del momento en EE. UU., ese es el video.
 1. `tlx cola`: si hay uno en `produccion`, seguí con ese.

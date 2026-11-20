@@ -7,6 +7,9 @@ description: Detectar el tema del momento en Argentina que la cuenta @teloexplic
 
 El video que hizo explotar a @posta.explica (118 mil me gusta) fue "¿por qué llueve tanto? No es culpa de El Niño" en una semana de lluvia sin parar en Buenos Aires. La fórmula: **algo que todos están viviendo hoy + una pregunta que todos se hacen + una respuesta que nadie les dio bien**. Ese es el único tipo de tema que buscás acá.
 
+
+**Filtro de interacción (20/11, Mateo):** un tema del momento solo se elige si tiene un ángulo para GUARDAR (regla, lista, qué hacer) o para COMENTAR (pregunta que todos contestan desde su vida, debate de dos bandos sin política, pertenencia). Si es solo noticia o dato curioso, se descarta aunque sea tendencia. Ver "FILTRO DE INTERACCIÓN" en producir-video.
+
 ## 1. Mirar qué está pasando (10 minutos, no más)
 Con WebSearch / WebFetch, en las últimas 48 h:
 - Alertas y pronóstico del Servicio Meteorológico Nacional (smn.gob.ar): calor extremo, tormentas, granizo, viento zonda, niebla, humo, frío fuera de época.
