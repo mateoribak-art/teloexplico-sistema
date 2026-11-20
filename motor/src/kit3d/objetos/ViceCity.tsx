@@ -14,6 +14,7 @@ export type EstadoVice = {
   puente: number;   // 0..1 el puente se tiende
   rotulo: number;   // 0..1 cartel "Venetian Causeway"
   duda: number;     // 0..1 sello "¿confirmado por Rockstar? NO"
+  en?: boolean;     // textos en inglés
 };
 
 const ROSA = "#ff4fa3";
@@ -165,6 +166,7 @@ const Cartel: React.FC<{ pos: [number, number, number]; op: number; w: number; h
 };
 
 export const ViceCity: React.FC<{ e: EstadoVice }> = ({ e }) => {
+  const en = !!e.en;
   const tMiami = useMemo(
     () => placa(720, 300, ROSA, [{ t: "MIAMI", c: CIAN, s: 90 }, { t: "= VICE CITY", c: ROSA, s: 90 }]),
     [],
@@ -178,8 +180,11 @@ export const ViceCity: React.FC<{ e: EstadoVice }> = ({ e }) => {
     [],
   );
   const tDuda = useMemo(
-    () => placa(720, 360, ROJO, [{ t: "¿confirmado", c: "#ffffff", s: 70 }, { t: "por Rockstar?", c: "#ffffff", s: 70 }, { t: "NO", c: ROJO, s: 110 }]),
-    [],
+    () =>
+      en
+        ? placa(720, 360, ROJO, [{ t: "confirmed", c: "#ffffff", s: 70 }, { t: "by Rockstar?", c: "#ffffff", s: 70 }, { t: "NO", c: ROJO, s: 110 }])
+        : placa(720, 360, ROJO, [{ t: "¿confirmado", c: "#ffffff", s: 70 }, { t: "por Rockstar?", c: "#ffffff", s: 70 }, { t: "NO", c: ROJO, s: 110 }]),
+    [en],
   );
   return (
     <group>

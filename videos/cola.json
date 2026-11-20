@@ -2125,5 +2125,59 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "056-gta-trece-anios",
+  "tema": "GTA 6: trece años desde el GTA V y dos postergaciones --actualidad",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-20T14:58",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-20T14:58",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-20T15:02",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-20T15:12",
+    "motivo": "render sin Claude"
+   }
+  ]
+ },
+ {
+  "slug": "057-ruta-40-de-punta-a-punta",
+  "tema": "Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-20T15:03",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-20T15:03",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-20T15:06",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-20T15:31",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

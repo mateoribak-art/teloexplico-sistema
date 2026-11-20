@@ -1,0 +1,54 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las cifras y datos duros (más de 5.000 km, extremos, once provincias, ruta más larga) quedaron verificados con fuentes. La dispersión de la longitud (fuentes entre 5.080 y 5.224 km; Vialidad/Billiken/Canal 26 entre 5.117 y 5.194) ya está declarada en la frase con 'según la fuente', y el rango dicho (5.100 a 5.200) contiene las cifras más citadas. No hay afirmaciones falsas, dudosas ni probables en salud, seguridad o plata. Observación menor: el rango 5.100-5.200 deja afuera cifras sueltas (5.080 Río Negro, 5.224 señal/Wikivoyage), pero la frase dice 'según la fuente' y 'más de cinco mil' vale para todas.",
+  "afirmaciones": [
+    {
+      "texto": "Más de cinco mil kilómetros (guion y caption)",
+      "fuente": "Canal 26 (13/01/2026) 'Tiene más de 5.000 kilómetros...'; Billiken; Wikipedia 'National Route 40 (Argentina)'. Todas las cifras halladas (5.080 a 5.224) superan 5.000.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Va de La Quiaca, en Jujuy, hasta Cabo Vírgenes, en Santa Cruz",
+      "fuente": "Vialidad Nacional (Resolución 1.748/04, kilómetro cero trasladado a Cabo Vírgenes en 2004); Billiken; Wikipedia",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Cruza once provincias",
+      "fuente": "TodoJujuy y Billiken: Santa Cruz, Chubut, Río Negro, Neuquén, Mendoza, San Juan, La Rioja, Catamarca, Tucumán, Salta y Jujuy; Wikipedia; Canal 26",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Es la ruta más larga del país",
+      "fuente": "Billiken 'las rutas más largas de Argentina' (RN40 primera; RN3 segunda con unos 3.060 km); Wikipedia; Canal 26 (02/2026)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Según la fuente, el número exacto cambia un poco, entre cinco mil cien y cinco mil doscientos (caption: entre 5.100 y 5.200 km)",
+      "fuente": "Vialidad Nacional citada con 5.117 km; Billiken/Wikipedia/Canal 26 con 5.194 km; TodoJujuy 5.196 km; otras fuentes 5.080 y 5.224 km. La discrepancia es real y está explicitada.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Todos los años decís que este verano hacés la ruta cuarenta / Mandáselo al que dice que este verano hacen la cuarenta",
+      "fuente": "Planteo de gancho dirigido al espectador; no es afirmación fáctica verificable",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "No es una escapada de finde largo",
+      "fuente": "Inferencia directa de más de 5.000 km; sin fuente primaria necesaria",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes citadas: Vialidad Nacional, Billiken, Canal 26",
+      "fuente": "Las tres existen y dicen lo atribuido (Vialidad: extremos y cifra 5.117; Billiken y Canal 26: más de 5.000 km, once provincias)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

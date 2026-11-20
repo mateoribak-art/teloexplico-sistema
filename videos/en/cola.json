@@ -1064,5 +1064,34 @@
   ],
   "prioridad": "actualidad",
   "creado": "2026-11-20T14:23"
+ },
+ {
+  "slug": "en-031-gta-vice-city",
+  "tema": "GTA 6: Vice City = Miami? Which place did you spot? (adapted from 055)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-20T15:32",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-20T15:32",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-20T15:34",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-20T15:42",
+    "motivo": "render sin Claude"
+   }
+  ],
+  "prioridad": "actualidad",
+  "creado": "2026-11-20T15:32"
  }
 ]

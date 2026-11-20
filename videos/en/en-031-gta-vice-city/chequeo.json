@@ -1,0 +1,66 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Ninguna afirmación es falsa y no hay cifras, salud, seguridad ni plata. Lo verificado (nombre Vice City, estado de Leonida, cita del sitio oficial sin mención de Miami/Florida, lanzamiento 19/11/2026) esta respaldado por fuente primaria o cobertura de lanzamiento. Lo probable (Vice City inspirada en Miami, Leonida en Florida, Venetian Causeway recreado, Rockstar sin confirmar lugares concretos) esta presentado con atribucion ('according to the press and Rockstar interviews', 'according to media reports', 'according to Miami New Times', 'as far as we know ... trailer comparisons'). Nada dudoso. Observaciones menores: no pude abrir Axios ni Infobae directamente, pero Axios Miami (2023/12/05) aparece en resultados con el titulo citado y la fecha de lanzamiento esta confirmada por Kotaku, GamesRadar, NME, CBS News y Al Jazeera; el caption usa 'GTA 6' y el guion 'GTA six' (solo locucion). Reutiliza el chequeo aprobado de 055, verificado de nuevo con busqueda web.",
+  "afirmaciones": [
+    {
+      "texto": "If you've ever been to Miami, GTA six is going to look familiar.",
+      "fuente": "Miami New Times, 'Interactive map: 20 Miami landmarks in GTA 6 and where to find them'; Axios Miami 2023/12/05. Gancho que depende de las comparaciones del trailer.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The game's city is called Vice City.",
+      "fuente": "rockstargames.com/VI: 'Vice City, USA. The darkest side of the sunniest place in America.'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "According to the press and Rockstar interviews, Vice City is inspired by Miami.",
+      "fuente": "WJLA/Scripps ('Florida-inspired Vice City'), Outlook India (Aaron Garbut: investigacion desde Miami hasta Key West), CBS Austin, Miami New Times. El sitio oficial no nombra Miami.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The state where it all happens, Leonida, is inspired by Florida, according to media reports.",
+      "fuente": "Sitio oficial: 'the state of Leonida'. WJLA/Scripps, WSET, Outlook India: version satirica de Florida (Leonida Keys, Grassrivers). Rockstar no usa la palabra Florida en su sitio.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Reporters in Miami compared the trailer to the real city.",
+      "fuente": "Axios Miami, 'Every Miami landmark in Grand Theft Auto VI' (axios.com/local/miami/2023/12/05/gta-6-trailer-vice-city-landmarks); Miami New Times / Broward Palm Beach New Times.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "According to Miami New Times, the Venetian Causeway, the bridge linking Miami and Miami Beach, shows up recreated in the game.",
+      "fuente": "Miami New Times, miaminewtimes.com/arts/interactive-map-20-miami-landmarks-in-gta-6-and-where-to-find-them-22206001 (dice que 1000 Venetian Way y la Venetian Causeway estan recreadas en Vice City). Axios cita ecos de Venetian y MacArthur Causeway. La calzada une Miami y Miami Beach (dato geografico real). Basado en el trailer.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "As far as we know, Rockstar hasn't confirmed which specific places are real. These are trailer comparisons.",
+      "fuente": "Sin confirmacion de Rockstar hallada; las guias tratan los cruces calle por calle como interpretacion hasta que Rockstar confirme (WJLA: Rockstar no dijo que ciudades reales aparezcan por nombre).",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Its official site calls Vice City the darkest side of the sunniest place in America, without naming Miami.",
+      "fuente": "rockstargames.com/VI, abierta hoy: 'Vice City, USA. The darkest side of the sunniest place in America.'; la pagina no menciona Miami ni Florida.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "(Caption) GTA 6 release date 11/19/2026.",
+      "fuente": "Kotaku live coverage, GamesRadar release day coverage, Techloy, Al Jazeera (2026/11/18), CBS News. Infobae citado en el caption no se pudo abrir.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "If you've already played it, see if any street feels familiar. / Which place did you spot? / Send this to your friend from Florida.",
+      "fuente": "No son afirmaciones fácticas: invitaciones a la audiencia. Presuponen que el juego ya salió (verificado arriba).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

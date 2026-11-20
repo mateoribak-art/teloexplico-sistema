@@ -24,3 +24,21 @@ Uso: 12 pasos · 11,452 tokens nuevos · 884,421 de caché · 5,075 escritos · 
 2026-11-20 14:12 Render de 055-gta-vice-city-miami (sin Claude).
 2026-11-20 14:23 055-gta-vice-city-miami: listo (render sin Claude)
 2026-11-20 14:23 Termina la producción (ok).
+2026-11-20 14:57 Arranca la producción (3 listos en la cola, meta 10).
+Produje dos videos y quedaron en estado `render`; todavía no pasaron el control (de eso se ocupa `producir.py` al cierre del turno).
+
+- **056-gta-trece-anios** (tercer video del pedido de GTA 6): el chequeo, hecho por un subagente aparte, lo aprobó al primer intento. Dice que pasaron trece años y dos meses entre GTA V y GTA 6, con las dos postergaciones. Su interacción es `comentar` ("¿Cuántos años tenías cuando salió el GTA V?"), y la voz dura 36 s.
+- **057-ruta-40-de-punta-a-punta**: el chequeo también lo aprobó al primer intento. Muestra un mapa con la Ruta 40 (más de 5.000 km, once provincias, "según la fuente" entre 5.100 y 5.200 km). Su interacción es `comentar` ("¿Qué tramo de la ruta cuarenta ya hiciste?"), y la voz dura 31 s.
+- **Apartados:** ninguno era rescatable por "chequeo rechazado". Los que quedaron así ya habían tenido dos intentos, y los demás fueron apartados por otros motivos. Quedan sin cambios.
+
+**Pendientes y límites:**
+- En 057 la voz dice 86 palabras del guion y 101 oídas. Los tiempos por frase coinciden con el guion, pero si el control lo marca habrá que revisarlo.
+- La revisión visual de 056 y 057 se hizo con una sola vuelta de cuadros cada uno. En 056 queda un chip que pisa un poco los bloques en un cuadro.
+- El recorrido de la ruta en el mapa de 057 es esquemático, con puntos de paso aproximados.
+- No medí de nuevo el ritmo de seguidores: sigue en ~+22 por día contra ~+95 necesarios.
+Uso: 13 pasos · 13,517 tokens nuevos · 1,082,815 de caché · 7,421 escritos · equivale a US$ 1.70 de API
+2026-11-20 15:06 Render de 056-gta-trece-anios (sin Claude).
+2026-11-20 15:12 056-gta-trece-anios: listo (render sin Claude)
+2026-11-20 15:12 Render de 057-ruta-40-de-punta-a-punta (sin Claude).
+2026-11-20 15:31 057-ruta-40-de-punta-a-punta: listo (render sin Claude)
+2026-11-20 15:31 Termina la producción (ok).

@@ -1,0 +1,565 @@
+{
+ "duracion": 36.41,
+ "frases": [
+  {
+   "texto": "Cuando salió el GTA cinco, quizás todavía ibas a la escuela.",
+   "palabras": [
+    {
+     "texto": "Cuando",
+     "inicio": 0.0,
+     "fin": 0.18
+    },
+    {
+     "texto": "salió",
+     "inicio": 0.18,
+     "fin": 0.54
+    },
+    {
+     "texto": "el",
+     "inicio": 0.54,
+     "fin": 0.66
+    },
+    {
+     "texto": "GTA",
+     "inicio": 0.66,
+     "fin": 0.9
+    },
+    {
+     "texto": "cinco,",
+     "inicio": 0.9,
+     "fin": 1.4
+    },
+    {
+     "texto": "quizás",
+     "inicio": 2.02,
+     "fin": 2.34
+    },
+    {
+     "texto": "todavía",
+     "inicio": 2.34,
+     "fin": 2.72
+    },
+    {
+     "texto": "ibas",
+     "inicio": 2.72,
+     "fin": 3.42
+    },
+    {
+     "texto": "a",
+     "inicio": 3.42,
+     "fin": 3.56
+    },
+    {
+     "texto": "la",
+     "inicio": 3.56,
+     "fin": 3.58
+    },
+    {
+     "texto": "escuela.",
+     "inicio": 3.58,
+     "fin": 3.8
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.8
+  },
+  {
+   "texto": "Pasaron trece años.",
+   "palabras": [
+    {
+     "texto": "Pasaron",
+     "inicio": 5.04,
+     "fin": 5.54
+    },
+    {
+     "texto": "trece",
+     "inicio": 5.54,
+     "fin": 6.04
+    },
+    {
+     "texto": "años.",
+     "inicio": 6.04,
+     "fin": 6.46
+    }
+   ],
+   "inicio": 5.04,
+   "fin": 6.46
+  },
+  {
+   "texto": "El GTA cinco salió en dos mil trece, y el seis, en noviembre de dos mil veintiséis.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 7.46,
+     "fin": 7.68
+    },
+    {
+     "texto": "GTA",
+     "inicio": 7.68,
+     "fin": 7.94
+    },
+    {
+     "texto": "cinco",
+     "inicio": 7.94,
+     "fin": 8.3
+    },
+    {
+     "texto": "salió",
+     "inicio": 8.3,
+     "fin": 8.66
+    },
+    {
+     "texto": "en",
+     "inicio": 8.66,
+     "fin": 8.74
+    },
+    {
+     "texto": "dos",
+     "inicio": 8.74,
+     "fin": 8.84
+    },
+    {
+     "texto": "mil",
+     "inicio": 8.84,
+     "fin": 9.02
+    },
+    {
+     "texto": "trece,",
+     "inicio": 9.02,
+     "fin": 9.46
+    },
+    {
+     "texto": "y",
+     "inicio": 9.94,
+     "fin": 10.0
+    },
+    {
+     "texto": "el",
+     "inicio": 10.0,
+     "fin": 10.14
+    },
+    {
+     "texto": "seis,",
+     "inicio": 10.14,
+     "fin": 10.36
+    },
+    {
+     "texto": "en",
+     "inicio": 10.96,
+     "fin": 11.06
+    },
+    {
+     "texto": "noviembre",
+     "inicio": 11.06,
+     "fin": 11.58
+    },
+    {
+     "texto": "de",
+     "inicio": 11.58,
+     "fin": 11.74
+    },
+    {
+     "texto": "dos",
+     "inicio": 11.74,
+     "fin": 11.9
+    },
+    {
+     "texto": "mil",
+     "inicio": 11.9,
+     "fin": 12.04
+    },
+    {
+     "texto": "veintiséis.",
+     "inicio": 12.04,
+     "fin": 12.52
+    }
+   ],
+   "inicio": 7.46,
+   "fin": 12.52
+  },
+  {
+   "texto": "Y la espera fue todavía más larga.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 13.52,
+     "fin": 13.74
+    },
+    {
+     "texto": "la",
+     "inicio": 13.74,
+     "fin": 13.82
+    },
+    {
+     "texto": "espera",
+     "inicio": 13.82,
+     "fin": 14.0
+    },
+    {
+     "texto": "fue",
+     "inicio": 14.0,
+     "fin": 14.24
+    },
+    {
+     "texto": "todavía",
+     "inicio": 14.24,
+     "fin": 14.52
+    },
+    {
+     "texto": "más",
+     "inicio": 14.52,
+     "fin": 14.92
+    },
+    {
+     "texto": "larga.",
+     "inicio": 14.92,
+     "fin": 15.32
+    }
+   ],
+   "inicio": 13.52,
+   "fin": 15.32
+  },
+  {
+   "texto": "Rockstar lo había anunciado para dos mil veinticinco.",
+   "palabras": [
+    {
+     "texto": "Rockstar",
+     "inicio": 16.18,
+     "fin": 16.68
+    },
+    {
+     "texto": "lo",
+     "inicio": 16.68,
+     "fin": 16.94
+    },
+    {
+     "texto": "había",
+     "inicio": 16.94,
+     "fin": 17.08
+    },
+    {
+     "texto": "anunciado",
+     "inicio": 17.08,
+     "fin": 17.52
+    },
+    {
+     "texto": "para",
+     "inicio": 17.52,
+     "fin": 17.76
+    },
+    {
+     "texto": "dos",
+     "inicio": 17.76,
+     "fin": 17.96
+    },
+    {
+     "texto": "mil",
+     "inicio": 17.96,
+     "fin": 18.14
+    },
+    {
+     "texto": "veinticinco.",
+     "inicio": 18.14,
+     "fin": 18.84
+    }
+   ],
+   "inicio": 16.18,
+   "fin": 18.84
+  },
+  {
+   "texto": "En mayo de dos mil veinticinco lo pasó a mayo de dos mil veintiséis.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 19.38,
+     "fin": 19.5
+    },
+    {
+     "texto": "mayo",
+     "inicio": 19.5,
+     "fin": 19.78
+    },
+    {
+     "texto": "de",
+     "inicio": 19.78,
+     "fin": 19.96
+    },
+    {
+     "texto": "dos",
+     "inicio": 19.96,
+     "fin": 20.14
+    },
+    {
+     "texto": "mil",
+     "inicio": 20.14,
+     "fin": 20.24
+    },
+    {
+     "texto": "veinticinco",
+     "inicio": 20.24,
+     "fin": 20.9
+    },
+    {
+     "texto": "lo",
+     "inicio": 21.14,
+     "fin": 21.28
+    },
+    {
+     "texto": "pasó",
+     "inicio": 21.28,
+     "fin": 21.5
+    },
+    {
+     "texto": "a",
+     "inicio": 21.5,
+     "fin": 21.74
+    },
+    {
+     "texto": "mayo",
+     "inicio": 21.74,
+     "fin": 22.08
+    },
+    {
+     "texto": "de",
+     "inicio": 22.08,
+     "fin": 22.34
+    },
+    {
+     "texto": "dos",
+     "inicio": 22.34,
+     "fin": 22.5
+    },
+    {
+     "texto": "mil",
+     "inicio": 22.5,
+     "fin": 22.62
+    },
+    {
+     "texto": "veintiséis.",
+     "inicio": 22.62,
+     "fin": 23.12
+    }
+   ],
+   "inicio": 19.38,
+   "fin": 23.12
+  },
+  {
+   "texto": "Y en noviembre de dos mil veinticinco, a noviembre. Dos postergaciones.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 23.62,
+     "fin": 23.8
+    },
+    {
+     "texto": "en",
+     "inicio": 23.8,
+     "fin": 23.92
+    },
+    {
+     "texto": "noviembre",
+     "inicio": 23.92,
+     "fin": 24.42
+    },
+    {
+     "texto": "de",
+     "inicio": 24.42,
+     "fin": 24.54
+    },
+    {
+     "texto": "dos",
+     "inicio": 24.54,
+     "fin": 24.7
+    },
+    {
+     "texto": "mil",
+     "inicio": 24.7,
+     "fin": 24.78
+    },
+    {
+     "texto": "veinticinco,",
+     "inicio": 24.78,
+     "fin": 25.38
+    },
+    {
+     "texto": "a",
+     "inicio": 25.68,
+     "fin": 25.72
+    },
+    {
+     "texto": "noviembre.",
+     "inicio": 25.72,
+     "fin": 26.34
+    },
+    {
+     "texto": "Dos",
+     "inicio": 26.62,
+     "fin": 26.84
+    },
+    {
+     "texto": "postergaciones.",
+     "inicio": 26.84,
+     "fin": 27.52
+    }
+   ],
+   "inicio": 23.62,
+   "fin": 27.52
+  },
+  {
+   "texto": "Trece años y dos meses entre uno y otro.",
+   "palabras": [
+    {
+     "texto": "Trece",
+     "inicio": 27.52,
+     "fin": 28.54
+    },
+    {
+     "texto": "años",
+     "inicio": 28.54,
+     "fin": 28.84
+    },
+    {
+     "texto": "y",
+     "inicio": 28.84,
+     "fin": 29.26
+    },
+    {
+     "texto": "dos",
+     "inicio": 29.26,
+     "fin": 29.48
+    },
+    {
+     "texto": "meses",
+     "inicio": 29.48,
+     "fin": 29.88
+    },
+    {
+     "texto": "entre",
+     "inicio": 29.88,
+     "fin": 30.44
+    },
+    {
+     "texto": "uno",
+     "inicio": 30.44,
+     "fin": 30.7
+    },
+    {
+     "texto": "y",
+     "inicio": 30.7,
+     "fin": 30.82
+    },
+    {
+     "texto": "otro.",
+     "inicio": 30.82,
+     "fin": 31.02
+    }
+   ],
+   "inicio": 27.52,
+   "fin": 31.02
+  },
+  {
+   "texto": "¿Cuántos años tenías cuando salió el GTA cinco?",
+   "palabras": [
+    {
+     "texto": "¿Cuántos",
+     "inicio": 31.44,
+     "fin": 31.8
+    },
+    {
+     "texto": "años",
+     "inicio": 31.8,
+     "fin": 31.96
+    },
+    {
+     "texto": "tenías",
+     "inicio": 31.96,
+     "fin": 32.32
+    },
+    {
+     "texto": "cuando",
+     "inicio": 32.32,
+     "fin": 32.7
+    },
+    {
+     "texto": "salió",
+     "inicio": 32.7,
+     "fin": 33.06
+    },
+    {
+     "texto": "el",
+     "inicio": 33.06,
+     "fin": 33.14
+    },
+    {
+     "texto": "GTA",
+     "inicio": 33.14,
+     "fin": 33.34
+    },
+    {
+     "texto": "cinco?",
+     "inicio": 33.34,
+     "fin": 33.64
+    }
+   ],
+   "inicio": 31.44,
+   "fin": 33.64
+  },
+  {
+   "texto": "Mandáselo al que ya lo esperaba cuando salió el cinco.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 34.18,
+     "fin": 34.68
+    },
+    {
+     "texto": "al",
+     "inicio": 34.68,
+     "fin": 34.76
+    },
+    {
+     "texto": "que",
+     "inicio": 34.76,
+     "fin": 34.88
+    },
+    {
+     "texto": "ya",
+     "inicio": 34.88,
+     "fin": 35.06
+    },
+    {
+     "texto": "lo",
+     "inicio": 35.06,
+     "fin": 35.14
+    },
+    {
+     "texto": "esperaba",
+     "inicio": 35.14,
+     "fin": 35.5
+    },
+    {
+     "texto": "cuando",
+     "inicio": 35.5,
+     "fin": 35.68
+    },
+    {
+     "texto": "salió",
+     "inicio": 35.68,
+     "fin": 36.04
+    },
+    {
+     "texto": "el",
+     "inicio": 36.04,
+     "fin": 36.1
+    },
+    {
+     "texto": "cinco.",
+     "inicio": 36.1,
+     "fin": 36.28
+    }
+   ],
+   "inicio": 34.18,
+   "fin": 36.28
+  }
+ ]
+}

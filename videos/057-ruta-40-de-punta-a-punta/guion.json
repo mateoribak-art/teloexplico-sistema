@@ -1,0 +1,26 @@
+{
+  "titulo": "Ruta 40: más de cinco mil kilómetros y once provincias, de La Quiaca a Cabo Vírgenes",
+  "destinatario": "se lo manda alguien que está planeando 'este verano hacemos la cuarenta' a su amigo que lo repite todos los años, para decirle que ponga fecha",
+  "regla_guardable": "Ruta 40: más de 5.000 km (según la fuente entre 5.100 y 5.200), once provincias, de La Quiaca (Jujuy) a Cabo Vírgenes (Santa Cruz)",
+  "interaccion": "comentar",
+  "pregunta_comentarios": "¿Qué tramo de la ruta cuarenta ya hiciste?",
+  "pilar": "argentina",
+  "receta": "Argentina en datos: una imagen grande (el país atravesado por una línea) que se entiende en 2 s, con vos adentro",
+  "fondo": "oscuro",
+  "serie": "argentina",
+  "fuentes": [
+    "Vialidad Nacional: la Ruta Nacional 40 va de Cabo Vírgenes (Santa Cruz, kilómetro cero) a La Quiaca (Jujuy)",
+    "Billiken, Canal 26 (2026): más de 5.000 km, once provincias; cifras exactas entre 5.117 y 5.194 km según la fuente"
+  ],
+  "frases": [
+    { "texto": "Todos los años decís que este verano hacés la ruta cuarenta.", "estilo": "Directo y cómplice, como arrancando una charla." },
+    { "texto": "Pero ¿sabés cuánto es?", "estilo": "Con media sonrisa." },
+    { "texto": "Más de cinco mil kilómetros.", "estilo": "Golpe corto y contundente." },
+    { "texto": "Va de La Quiaca, en Jujuy, hasta Cabo Vírgenes, en Santa Cruz.", "estilo": "Narrador, mostrando el mapa." },
+    { "texto": "Cruza once provincias y es la ruta más larga del país.", "estilo": "Claro y firme, con ritmo." },
+    { "texto": "Ojo: según la fuente, el número exacto cambia un poco, entre cinco mil cien y cinco mil doscientos.", "estilo": "Giro honesto, tranquilo." },
+    { "texto": "No es una escapada de finde largo.", "estilo": "Cómplice, con humor." },
+    { "texto": "¿Qué tramo de la ruta cuarenta ya hiciste?", "estilo": "Pregunta abierta, curiosa." },
+    { "texto": "Mandáselo al que dice que este verano hacen la cuarenta.", "estilo": "Cómplice, con humor." }
+  ]
+}

@@ -17,3 +17,11 @@ Uso: 24 pasos · 16,760 tokens nuevos · 915,802 de caché · 4,659 escritos · 
 2026-11-20 14:27 Render de en-030-violent-games (sin Claude).
 2026-11-20 14:36 en-030-violent-games: listo (render sin Claude)
 2026-11-20 14:36 Termina la producción (ok).
+2026-11-20 15:31 Arranca la producción (6 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `en-031-gta-vice-city` (GTA 6, video 2 de 3, adaptado de 055 con la escena 3D de Vice City y los textos en inglés). Está en estado `render`, y `producir.py` lo renderiza. El chequeo lo aprobó en el primer intento (con atribuciones a la prensa y "as far as we know"). La voz dio 139 palabras, 48,8 s, algo larga. `tlx tsc` pasó y los cuadros están revisados.
+- **Apartados:** no había ninguno por "chequeo rechazado", así que no rescaté nada.
+- **Pendiente:** el video 3 de GTA 6 queda para el próximo turno. Falta medir el ritmo semanal de seguidores en detalle: lo dejé anotado en el log sin cifras.
+Uso: 11 pasos · 8,668 tokens nuevos · 576,088 de caché · 2,047 escritos · equivale a US$ 0.72 de API
+2026-11-20 15:34 Render de en-031-gta-vice-city (sin Claude).
+2026-11-20 15:42 en-031-gta-vice-city: listo (render sin Claude)
+2026-11-20 15:42 Termina la producción (ok).

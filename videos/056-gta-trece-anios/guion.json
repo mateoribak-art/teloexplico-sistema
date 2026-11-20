@@ -1,0 +1,28 @@
+{
+  "titulo": "GTA 6: trece años de espera desde el GTA V y dos postergaciones",
+  "destinatario": "se lo manda un pibe que jugó el GTA V de chico a su amigo o hermano que lo esperó con él, para decirle 'trece años, boludo'",
+  "regla_guardable": "GTA V salió el 17/9/2013; GTA 6 el 19/11/2026: trece años y dos meses. Se postergó dos veces: de 2025 a mayo de 2026, y de ahí a noviembre de 2026",
+  "interaccion": "comentar",
+  "pregunta_comentarios": "¿Cuántos años tenías cuando salió el GTA V?",
+  "pilar": "fandom",
+  "receta": "Tu vida en una grilla: una línea de tiempo de años que se cuenta a la vista, con fechas y fuente",
+  "fondo": "oscuro",
+  "serie": "costumbres",
+  "fuentes": [
+    "Rockstar Games / Take-Two Interactive: GTA V salió el 17 de septiembre de 2013 (PS3 y Xbox 360)",
+    "Rockstar Games / Take-Two: GTA 6 anunciado para 2025 (primer tráiler, diciembre de 2023); postergado en mayo de 2025 al 26 de mayo de 2026 y en noviembre de 2025 al 19 de noviembre de 2026",
+    "Wikipedia: Grand Theft Auto VI (lanzamiento 19/11/2026 en PS5 y Xbox Series X|S)"
+  ],
+  "frases": [
+    { "texto": "Cuando salió el GTA cinco, quizás todavía ibas a la escuela.", "estilo": "Directo y cómplice, como arrancando una charla." },
+    { "texto": "Pasaron trece años.", "estilo": "Seco, con media sonrisa." },
+    { "texto": "El GTA cinco salió en dos mil trece, y el seis, en noviembre de dos mil veintiséis.", "estilo": "Narrador, mostrando el dato." },
+    { "texto": "Y la espera fue todavía más larga.", "estilo": "Golpe corto y contundente." },
+    { "texto": "Rockstar lo había anunciado para dos mil veinticinco.", "estilo": "Claro y firme, con ritmo." },
+    { "texto": "En mayo de dos mil veinticinco lo pasó a mayo de dos mil veintiséis.", "estilo": "Claro, con ritmo." },
+    { "texto": "Y en noviembre de dos mil veinticinco, a noviembre. Dos postergaciones.", "estilo": "Con un toque de ironía." },
+    { "texto": "Trece años y dos meses entre uno y otro.", "estilo": "Contundente, cerrando la cuenta." },
+    { "texto": "¿Cuántos años tenías cuando salió el GTA cinco?", "estilo": "Pregunta abierta, curiosa." },
+    { "texto": "Mandáselo al que ya lo esperaba cuando salió el cinco.", "estilo": "Cómplice, con humor." }
+  ]
+}

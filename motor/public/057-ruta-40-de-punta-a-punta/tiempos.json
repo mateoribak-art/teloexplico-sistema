@@ -1,0 +1,498 @@
+{
+ "duracion": 31.17,
+ "frases": [
+  {
+   "texto": "Todos los años decís que este verano hacés la ruta cuarenta.",
+   "palabras": [
+    {
+     "texto": "Todos",
+     "inicio": 0.0,
+     "fin": 0.341
+    },
+    {
+     "texto": "los",
+     "inicio": 0.341,
+     "fin": 0.546
+    },
+    {
+     "texto": "años",
+     "inicio": 0.546,
+     "fin": 0.819
+    },
+    {
+     "texto": "decís",
+     "inicio": 0.819,
+     "fin": 1.16
+    },
+    {
+     "texto": "que",
+     "inicio": 1.16,
+     "fin": 1.42
+    },
+    {
+     "texto": "este",
+     "inicio": 1.42,
+     "fin": 1.68
+    },
+    {
+     "texto": "verano",
+     "inicio": 1.68,
+     "fin": 2.14
+    },
+    {
+     "texto": "hacés",
+     "inicio": 2.14,
+     "fin": 2.34
+    },
+    {
+     "texto": "la",
+     "inicio": 2.34,
+     "fin": 2.54
+    },
+    {
+     "texto": "ruta",
+     "inicio": 2.54,
+     "fin": 2.76
+    },
+    {
+     "texto": "cuarenta.",
+     "inicio": 2.76,
+     "fin": 3.34
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.34
+  },
+  {
+   "texto": "Pero ¿sabés cuánto es?",
+   "palabras": [
+    {
+     "texto": "Pero",
+     "inicio": 3.64,
+     "fin": 3.96
+    },
+    {
+     "texto": "¿sabés",
+     "inicio": 3.96,
+     "fin": 4.22
+    },
+    {
+     "texto": "cuánto",
+     "inicio": 4.22,
+     "fin": 4.54
+    },
+    {
+     "texto": "es?",
+     "inicio": 4.54,
+     "fin": 4.78
+    }
+   ],
+   "inicio": 3.64,
+   "fin": 4.78
+  },
+  {
+   "texto": "Más de cinco mil kilómetros.",
+   "palabras": [
+    {
+     "texto": "Más",
+     "inicio": 5.28,
+     "fin": 5.5
+    },
+    {
+     "texto": "de",
+     "inicio": 5.5,
+     "fin": 5.62
+    },
+    {
+     "texto": "cinco",
+     "inicio": 5.62,
+     "fin": 5.98
+    },
+    {
+     "texto": "mil",
+     "inicio": 5.98,
+     "fin": 6.48
+    },
+    {
+     "texto": "kilómetros.",
+     "inicio": 6.48,
+     "fin": 7.2
+    }
+   ],
+   "inicio": 5.28,
+   "fin": 7.2
+  },
+  {
+   "texto": "Va de La Quiaca, en Jujuy, hasta Cabo Vírgenes, en Santa Cruz.",
+   "palabras": [
+    {
+     "texto": "Va",
+     "inicio": 7.8,
+     "fin": 8.02
+    },
+    {
+     "texto": "de",
+     "inicio": 8.02,
+     "fin": 8.14
+    },
+    {
+     "texto": "La",
+     "inicio": 8.14,
+     "fin": 8.26
+    },
+    {
+     "texto": "Quiaca,",
+     "inicio": 8.26,
+     "fin": 8.7
+    },
+    {
+     "texto": "en",
+     "inicio": 9.02,
+     "fin": 9.1
+    },
+    {
+     "texto": "Jujuy,",
+     "inicio": 9.1,
+     "fin": 9.48
+    },
+    {
+     "texto": "hasta",
+     "inicio": 9.98,
+     "fin": 10.22
+    },
+    {
+     "texto": "Cabo",
+     "inicio": 10.22,
+     "fin": 10.64
+    },
+    {
+     "texto": "Vírgenes,",
+     "inicio": 10.64,
+     "fin": 11.08
+    },
+    {
+     "texto": "en",
+     "inicio": 11.26,
+     "fin": 11.3
+    },
+    {
+     "texto": "Santa",
+     "inicio": 11.3,
+     "fin": 11.46
+    },
+    {
+     "texto": "Cruz.",
+     "inicio": 11.46,
+     "fin": 11.8
+    }
+   ],
+   "inicio": 7.8,
+   "fin": 11.8
+  },
+  {
+   "texto": "Cruza once provincias y es la ruta más larga del país.",
+   "palabras": [
+    {
+     "texto": "Cruza",
+     "inicio": 12.24,
+     "fin": 12.74
+    },
+    {
+     "texto": "once",
+     "inicio": 12.74,
+     "fin": 13.3
+    },
+    {
+     "texto": "provincias",
+     "inicio": 13.3,
+     "fin": 14.08
+    },
+    {
+     "texto": "y",
+     "inicio": 14.08,
+     "fin": 14.54
+    },
+    {
+     "texto": "es",
+     "inicio": 14.54,
+     "fin": 14.64
+    },
+    {
+     "texto": "la",
+     "inicio": 14.64,
+     "fin": 14.72
+    },
+    {
+     "texto": "ruta",
+     "inicio": 14.72,
+     "fin": 14.96
+    },
+    {
+     "texto": "más",
+     "inicio": 14.96,
+     "fin": 15.26
+    },
+    {
+     "texto": "larga",
+     "inicio": 15.26,
+     "fin": 15.7
+    },
+    {
+     "texto": "del",
+     "inicio": 15.7,
+     "fin": 15.86
+    },
+    {
+     "texto": "país.",
+     "inicio": 15.86,
+     "fin": 16.12
+    }
+   ],
+   "inicio": 12.24,
+   "fin": 16.12
+  },
+  {
+   "texto": "Ojo: según la fuente, el número exacto cambia un poco, entre cinco mil cien y cinco mil doscientos.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 16.8,
+     "fin": 17.06
+    },
+    {
+     "texto": "según",
+     "inicio": 17.5,
+     "fin": 17.74
+    },
+    {
+     "texto": "la",
+     "inicio": 17.74,
+     "fin": 17.94
+    },
+    {
+     "texto": "fuente,",
+     "inicio": 17.94,
+     "fin": 18.28
+    },
+    {
+     "texto": "el",
+     "inicio": 18.56,
+     "fin": 18.58
+    },
+    {
+     "texto": "número",
+     "inicio": 18.58,
+     "fin": 18.78
+    },
+    {
+     "texto": "exacto",
+     "inicio": 18.78,
+     "fin": 19.34
+    },
+    {
+     "texto": "cambia",
+     "inicio": 19.34,
+     "fin": 19.64
+    },
+    {
+     "texto": "un",
+     "inicio": 19.64,
+     "fin": 19.74
+    },
+    {
+     "texto": "poco,",
+     "inicio": 19.74,
+     "fin": 20.0
+    },
+    {
+     "texto": "entre",
+     "inicio": 20.44,
+     "fin": 20.76
+    },
+    {
+     "texto": "cinco",
+     "inicio": 20.76,
+     "fin": 21.12
+    },
+    {
+     "texto": "mil",
+     "inicio": 21.12,
+     "fin": 21.38
+    },
+    {
+     "texto": "cien",
+     "inicio": 21.38,
+     "fin": 21.84
+    },
+    {
+     "texto": "y",
+     "inicio": 21.84,
+     "fin": 22.2
+    },
+    {
+     "texto": "cinco",
+     "inicio": 22.2,
+     "fin": 22.52
+    },
+    {
+     "texto": "mil",
+     "inicio": 22.52,
+     "fin": 22.72
+    },
+    {
+     "texto": "doscientos.",
+     "inicio": 22.72,
+     "fin": 23.44
+    }
+   ],
+   "inicio": 16.8,
+   "fin": 23.44
+  },
+  {
+   "texto": "No es una escapada de finde largo.",
+   "palabras": [
+    {
+     "texto": "No",
+     "inicio": 23.88,
+     "fin": 24.26
+    },
+    {
+     "texto": "es",
+     "inicio": 24.26,
+     "fin": 24.38
+    },
+    {
+     "texto": "una",
+     "inicio": 24.38,
+     "fin": 24.54
+    },
+    {
+     "texto": "escapada",
+     "inicio": 24.54,
+     "fin": 24.9
+    },
+    {
+     "texto": "de",
+     "inicio": 24.9,
+     "fin": 25.12
+    },
+    {
+     "texto": "finde",
+     "inicio": 25.12,
+     "fin": 25.26
+    },
+    {
+     "texto": "largo.",
+     "inicio": 25.26,
+     "fin": 25.56
+    }
+   ],
+   "inicio": 23.88,
+   "fin": 25.56
+  },
+  {
+   "texto": "¿Qué tramo de la ruta cuarenta ya hiciste?",
+   "palabras": [
+    {
+     "texto": "¿Qué",
+     "inicio": 26.06,
+     "fin": 26.26
+    },
+    {
+     "texto": "tramo",
+     "inicio": 26.26,
+     "fin": 26.64
+    },
+    {
+     "texto": "de",
+     "inicio": 26.64,
+     "fin": 26.7
+    },
+    {
+     "texto": "la",
+     "inicio": 26.7,
+     "fin": 26.8
+    },
+    {
+     "texto": "ruta",
+     "inicio": 26.8,
+     "fin": 27.02
+    },
+    {
+     "texto": "cuarenta",
+     "inicio": 27.02,
+     "fin": 27.52
+    },
+    {
+     "texto": "ya",
+     "inicio": 27.52,
+     "fin": 27.68
+    },
+    {
+     "texto": "hiciste?",
+     "inicio": 27.68,
+     "fin": 28.14
+    }
+   ],
+   "inicio": 26.06,
+   "fin": 28.14
+  },
+  {
+   "texto": "Mandáselo al que dice que este verano hacen la cuarenta.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 28.74,
+     "fin": 29.14
+    },
+    {
+     "texto": "al",
+     "inicio": 29.14,
+     "fin": 29.24
+    },
+    {
+     "texto": "que",
+     "inicio": 29.24,
+     "fin": 29.32
+    },
+    {
+     "texto": "dice",
+     "inicio": 29.32,
+     "fin": 29.54
+    },
+    {
+     "texto": "que",
+     "inicio": 29.54,
+     "fin": 29.74
+    },
+    {
+     "texto": "este",
+     "inicio": 29.74,
+     "fin": 29.9
+    },
+    {
+     "texto": "verano",
+     "inicio": 29.9,
+     "fin": 30.26
+    },
+    {
+     "texto": "hacen",
+     "inicio": 30.26,
+     "fin": 30.5
+    },
+    {
+     "texto": "la",
+     "inicio": 30.5,
+     "fin": 30.62
+    },
+    {
+     "texto": "cuarenta.",
+     "inicio": 30.62,
+     "fin": 31.12
+    }
+   ],
+   "inicio": 28.74,
+   "fin": 31.12
+  }
+ ]
+}

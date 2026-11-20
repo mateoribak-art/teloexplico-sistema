@@ -1,0 +1,78 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones fácticas (fechas de GTA V y GTA 6, anuncio para 2025, las dos postergaciones y la cuenta de trece años y dos meses) están verificadas con fuente; ninguna es probable, dudosa ni falsa, y ninguna frase de salud, seguridad o plata queda afuera de la regla. La salida del 19/11/2026 se confirmó en la página oficial de Rockstar ('Now Available', rockstargames.com/VI) y en un tracker secundario; el newswire original no se pudo abrir directamente. Cálculo: 17/9/2013 a 19/11/2026 = 13 años, 2 meses y 2 días.",
+  "afirmaciones": [
+    {
+      "texto": "Cuando salió el GTA cinco, quizás todavía ibas a la escuela.",
+      "fuente": "Sin fuente primaria necesaria: es una conjetura dirigida al espectador, ya presentada con 'quizás'. La fecha de salida de GTA V se verifica en la fila siguiente.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Pasaron trece años. (guion) / Pasaron trece años entre el GTA 5 y el GTA 6. Trece. (caption)",
+      "fuente": "Cálculo sobre fechas oficiales: GTA V 17/9/2013 (Game Informer, Gematsu, Rockstar) y GTA 6 19/11/2026 (rockstargames.com/VI); 13 años y 2 meses",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El GTA cinco salió en dos mil trece / El GTA V salió el 17 de septiembre de 2013 (PS3 y Xbox 360)",
+      "fuente": "https://gameinformer.com/product/grand-theft-auto-v ; https://www.gematsu.com/2013/01/grand-theft-auto-v-release-date-set ; https://thenextweb.com/news/grand-theft-auto-v-gets-september-17-release-date-on-xbox-360-and-playstation-3",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "y el seis, en noviembre de dos mil veintiséis. / El GTA 6 salió el 19 de noviembre de 2026",
+      "fuente": "https://www.rockstargames.com/VI (página 'Now Available', 19/11/2026, PS5 y Xbox Series X|S); https://rockstarreport.com/features/gta-6-release-date-tracker (lanzamiento mundial el 19/11/2026); fecha fijada por Rockstar el 6/11/2025 (https://www.gamesradar.com/games/grand-theft-auto/gta-6-delayed-6-more-months-as-rockstar-commits-to-november-2026-and-says-sorry)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y la espera fue todavía más larga.",
+      "fuente": "Se apoya en las dos postergaciones verificadas abajo: la espera superó la fecha originalmente anunciada (2025)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Rockstar lo había anunciado para dos mil veinticinco. / Rockstar lo había anunciado para 2025",
+      "fuente": "Primer tráiler 4/12/2023 con ventana 2025 (Rockstar / Take-Two); https://tracker.gg/gta6/release-date ; https://rockstarreport.com/features/gta-6-release-date-tracker (antes de mayo de 2025 se esperaba otoño de 2025)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En mayo de dos mil veinticinco lo pasó a mayo de dos mil veintiséis. / en mayo de 2025 lo pasó al 26 de mayo de 2026",
+      "fuente": "https://www.videogameschronicle.com/news/grand-theft-auto-6-has-been-delayed-to-2026/ ; https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-delayed-until-may-2026 ; https://www.techradar.com/gaming/grand-theft-auto-6-release-date-confirmed-but-its-been-delayed-heres-why (anunciado el 2/5/2025)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y en noviembre de dos mil veinticinco, a noviembre. / en noviembre de 2025 lo pasó al 19 de noviembre de 2026",
+      "fuente": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-delayed-6-more-months-as-rockstar-commits-to-november-2026-and-says-sorry ; https://www.pushsquare.com/news/2025/11/gta-6-delayed-again-pushed-back-to-november-2026 ; https://kotaku.com/gta-6-grand-theft-auto-vi-delayed-november-rockstar-games-2000641787 (anunciado el 6/11/2025 junto con resultados de Take-Two)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Dos postergaciones.",
+      "fuente": "Las dos anteriores (mayo 2025 y noviembre 2025); https://tracker.gg/gta6/release-date",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Trece años y dos meses entre uno y otro. / trece años y dos meses",
+      "fuente": "Cálculo: 17/9/2013 a 19/11/2026 = 13 años, 2 meses y 2 días (redondeo hacia abajo correcto)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mandáselo al que ya lo esperaba cuando salió el cinco. / ¿Cuántos años tenías cuando salió el GTA cinco?",
+      "fuente": "Llamado a la acción y pregunta; no contienen afirmaciones fácticas",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes: Rockstar Games, Take-Two Interactive, Wikipedia. (caption)",
+      "fuente": "Coinciden con las consultadas (Rockstar, Take-Two vía cobertura de resultados, Game Informer y prensa especializada); Wikipedia queda como fuente secundaria complementaria",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

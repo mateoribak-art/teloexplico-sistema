@@ -1,0 +1,770 @@
+{
+ "duracion": 48.81,
+ "frases": [
+  {
+   "texto": "If you've ever been to Miami, GTA six is going to look familiar.",
+   "palabras": [
+    {
+     "texto": "If",
+     "inicio": 0.0,
+     "fin": 0.16
+    },
+    {
+     "texto": "you've",
+     "inicio": 0.16,
+     "fin": 0.34
+    },
+    {
+     "texto": "ever",
+     "inicio": 0.34,
+     "fin": 0.48
+    },
+    {
+     "texto": "been",
+     "inicio": 0.48,
+     "fin": 0.7
+    },
+    {
+     "texto": "to",
+     "inicio": 0.7,
+     "fin": 0.88
+    },
+    {
+     "texto": "Miami,",
+     "inicio": 0.88,
+     "fin": 1.18
+    },
+    {
+     "texto": "GTA",
+     "inicio": 1.84,
+     "fin": 2.16
+    },
+    {
+     "texto": "six",
+     "inicio": 2.16,
+     "fin": 2.68
+    },
+    {
+     "texto": "is",
+     "inicio": 2.68,
+     "fin": 2.9
+    },
+    {
+     "texto": "going",
+     "inicio": 2.9,
+     "fin": 3.18
+    },
+    {
+     "texto": "to",
+     "inicio": 3.18,
+     "fin": 3.28
+    },
+    {
+     "texto": "look",
+     "inicio": 3.28,
+     "fin": 3.42
+    },
+    {
+     "texto": "familiar.",
+     "inicio": 3.42,
+     "fin": 3.84
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.84
+  },
+  {
+   "texto": "The game's city is called Vice City, and according to the press and Rockstar interviews, it's inspired by Miami.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 4.28,
+     "fin": 4.42
+    },
+    {
+     "texto": "game's",
+     "inicio": 4.42,
+     "fin": 4.84
+    },
+    {
+     "texto": "city",
+     "inicio": 4.84,
+     "fin": 5.06
+    },
+    {
+     "texto": "is",
+     "inicio": 5.06,
+     "fin": 5.46
+    },
+    {
+     "texto": "called",
+     "inicio": 5.46,
+     "fin": 5.72
+    },
+    {
+     "texto": "Vice",
+     "inicio": 5.72,
+     "fin": 6.2
+    },
+    {
+     "texto": "City,",
+     "inicio": 6.2,
+     "fin": 6.54
+    },
+    {
+     "texto": "and",
+     "inicio": 6.94,
+     "fin": 7.16
+    },
+    {
+     "texto": "according",
+     "inicio": 7.16,
+     "fin": 7.38
+    },
+    {
+     "texto": "to",
+     "inicio": 7.38,
+     "fin": 7.6
+    },
+    {
+     "texto": "the",
+     "inicio": 7.6,
+     "fin": 7.7
+    },
+    {
+     "texto": "press",
+     "inicio": 7.7,
+     "fin": 7.94
+    },
+    {
+     "texto": "and",
+     "inicio": 7.94,
+     "fin": 8.18
+    },
+    {
+     "texto": "Rockstar",
+     "inicio": 8.18,
+     "fin": 8.58
+    },
+    {
+     "texto": "interviews,",
+     "inicio": 8.58,
+     "fin": 8.96
+    },
+    {
+     "texto": "it's",
+     "inicio": 9.56,
+     "fin": 9.7
+    },
+    {
+     "texto": "inspired",
+     "inicio": 9.7,
+     "fin": 10.24
+    },
+    {
+     "texto": "by",
+     "inicio": 10.24,
+     "fin": 10.58
+    },
+    {
+     "texto": "Miami.",
+     "inicio": 10.58,
+     "fin": 10.94
+    }
+   ],
+   "inicio": 4.28,
+   "fin": 10.94
+  },
+  {
+   "texto": "And the state where it all happens, Leonida, is inspired by Florida, according to media reports.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 11.48,
+     "fin": 11.68
+    },
+    {
+     "texto": "the",
+     "inicio": 11.68,
+     "fin": 11.84
+    },
+    {
+     "texto": "state",
+     "inicio": 11.84,
+     "fin": 12.04
+    },
+    {
+     "texto": "where",
+     "inicio": 12.04,
+     "fin": 12.2
+    },
+    {
+     "texto": "it",
+     "inicio": 12.2,
+     "fin": 12.32
+    },
+    {
+     "texto": "all",
+     "inicio": 12.32,
+     "fin": 12.4
+    },
+    {
+     "texto": "happens,",
+     "inicio": 12.4,
+     "fin": 12.74
+    },
+    {
+     "texto": "Leonida,",
+     "inicio": 13.22,
+     "fin": 13.68
+    },
+    {
+     "texto": "is",
+     "inicio": 13.92,
+     "fin": 14.08
+    },
+    {
+     "texto": "inspired",
+     "inicio": 14.08,
+     "fin": 14.4
+    },
+    {
+     "texto": "by",
+     "inicio": 14.4,
+     "fin": 14.64
+    },
+    {
+     "texto": "Florida,",
+     "inicio": 14.64,
+     "fin": 15.02
+    },
+    {
+     "texto": "according",
+     "inicio": 15.34,
+     "fin": 15.58
+    },
+    {
+     "texto": "to",
+     "inicio": 15.58,
+     "fin": 15.78
+    },
+    {
+     "texto": "media",
+     "inicio": 15.78,
+     "fin": 15.98
+    },
+    {
+     "texto": "reports.",
+     "inicio": 15.98,
+     "fin": 16.38
+    }
+   ],
+   "inicio": 11.48,
+   "fin": 16.38
+  },
+  {
+   "texto": "Reporters in Miami compared the trailer to the real city.",
+   "palabras": [
+    {
+     "texto": "Reporters",
+     "inicio": 16.9,
+     "fin": 17.26
+    },
+    {
+     "texto": "in",
+     "inicio": 17.26,
+     "fin": 17.48
+    },
+    {
+     "texto": "Miami",
+     "inicio": 17.48,
+     "fin": 17.76
+    },
+    {
+     "texto": "compared",
+     "inicio": 17.76,
+     "fin": 18.16
+    },
+    {
+     "texto": "the",
+     "inicio": 18.16,
+     "fin": 18.44
+    },
+    {
+     "texto": "trailer",
+     "inicio": 18.44,
+     "fin": 18.76
+    },
+    {
+     "texto": "to",
+     "inicio": 18.76,
+     "fin": 18.96
+    },
+    {
+     "texto": "the",
+     "inicio": 18.96,
+     "fin": 19.1
+    },
+    {
+     "texto": "real",
+     "inicio": 19.1,
+     "fin": 19.4
+    },
+    {
+     "texto": "city.",
+     "inicio": 19.4,
+     "fin": 19.72
+    }
+   ],
+   "inicio": 16.9,
+   "fin": 19.72
+  },
+  {
+   "texto": "According to Miami New Times, the Venetian Causeway, the bridge linking Miami and Miami Beach, shows up recreated in the game.",
+   "palabras": [
+    {
+     "texto": "According",
+     "inicio": 20.16,
+     "fin": 20.42
+    },
+    {
+     "texto": "to",
+     "inicio": 20.42,
+     "fin": 20.6
+    },
+    {
+     "texto": "Miami",
+     "inicio": 20.6,
+     "fin": 20.82
+    },
+    {
+     "texto": "New",
+     "inicio": 20.82,
+     "fin": 21.04
+    },
+    {
+     "texto": "Times,",
+     "inicio": 21.04,
+     "fin": 21.4
+    },
+    {
+     "texto": "the",
+     "inicio": 21.84,
+     "fin": 21.96
+    },
+    {
+     "texto": "Venetian",
+     "inicio": 21.96,
+     "fin": 22.32
+    },
+    {
+     "texto": "Causeway,",
+     "inicio": 22.32,
+     "fin": 22.92
+    },
+    {
+     "texto": "the",
+     "inicio": 23.2,
+     "fin": 23.28
+    },
+    {
+     "texto": "bridge",
+     "inicio": 23.28,
+     "fin": 23.48
+    },
+    {
+     "texto": "linking",
+     "inicio": 23.48,
+     "fin": 23.82
+    },
+    {
+     "texto": "Miami",
+     "inicio": 23.82,
+     "fin": 24.26
+    },
+    {
+     "texto": "and",
+     "inicio": 24.26,
+     "fin": 24.52
+    },
+    {
+     "texto": "Miami",
+     "inicio": 24.52,
+     "fin": 24.8
+    },
+    {
+     "texto": "Beach,",
+     "inicio": 24.8,
+     "fin": 25.2
+    },
+    {
+     "texto": "shows",
+     "inicio": 25.56,
+     "fin": 25.78
+    },
+    {
+     "texto": "up",
+     "inicio": 25.78,
+     "fin": 26.02
+    },
+    {
+     "texto": "recreated",
+     "inicio": 26.02,
+     "fin": 26.58
+    },
+    {
+     "texto": "in",
+     "inicio": 26.58,
+     "fin": 26.84
+    },
+    {
+     "texto": "the",
+     "inicio": 26.84,
+     "fin": 26.92
+    },
+    {
+     "texto": "game.",
+     "inicio": 26.92,
+     "fin": 27.16
+    }
+   ],
+   "inicio": 20.16,
+   "fin": 27.16
+  },
+  {
+   "texto": "Heads up: as far as we know, Rockstar hasn't confirmed which specific places are real. These are trailer comparisons.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 27.16,
+     "fin": 27.88
+    },
+    {
+     "texto": "up:",
+     "inicio": 27.88,
+     "fin": 28.08
+    },
+    {
+     "texto": "as",
+     "inicio": 28.5,
+     "fin": 28.52
+    },
+    {
+     "texto": "far",
+     "inicio": 28.52,
+     "fin": 28.72
+    },
+    {
+     "texto": "as",
+     "inicio": 28.72,
+     "fin": 28.84
+    },
+    {
+     "texto": "we",
+     "inicio": 28.84,
+     "fin": 28.96
+    },
+    {
+     "texto": "know,",
+     "inicio": 28.96,
+     "fin": 29.22
+    },
+    {
+     "texto": "Rockstar",
+     "inicio": 29.38,
+     "fin": 29.76
+    },
+    {
+     "texto": "hasn't",
+     "inicio": 29.76,
+     "fin": 30.24
+    },
+    {
+     "texto": "confirmed",
+     "inicio": 30.24,
+     "fin": 30.7
+    },
+    {
+     "texto": "which",
+     "inicio": 30.7,
+     "fin": 31.04
+    },
+    {
+     "texto": "specific",
+     "inicio": 31.04,
+     "fin": 31.62
+    },
+    {
+     "texto": "places",
+     "inicio": 31.62,
+     "fin": 32.14
+    },
+    {
+     "texto": "are",
+     "inicio": 32.14,
+     "fin": 32.4
+    },
+    {
+     "texto": "real.",
+     "inicio": 32.4,
+     "fin": 32.66
+    },
+    {
+     "texto": "These",
+     "inicio": 33.12,
+     "fin": 33.34
+    },
+    {
+     "texto": "are",
+     "inicio": 33.34,
+     "fin": 33.6
+    },
+    {
+     "texto": "trailer",
+     "inicio": 33.6,
+     "fin": 34.22
+    },
+    {
+     "texto": "comparisons.",
+     "inicio": 34.22,
+     "fin": 34.76
+    }
+   ],
+   "inicio": 27.16,
+   "fin": 34.76
+  },
+  {
+   "texto": "Its official site calls Vice City the darkest side of the sunniest place in America, without naming Miami.",
+   "palabras": [
+    {
+     "texto": "Its",
+     "inicio": 35.44,
+     "fin": 35.58
+    },
+    {
+     "texto": "official",
+     "inicio": 35.58,
+     "fin": 35.86
+    },
+    {
+     "texto": "site",
+     "inicio": 35.86,
+     "fin": 36.16
+    },
+    {
+     "texto": "calls",
+     "inicio": 36.16,
+     "fin": 36.44
+    },
+    {
+     "texto": "Vice",
+     "inicio": 36.44,
+     "fin": 36.8
+    },
+    {
+     "texto": "City",
+     "inicio": 36.8,
+     "fin": 37.16
+    },
+    {
+     "texto": "the",
+     "inicio": 37.16,
+     "fin": 37.62
+    },
+    {
+     "texto": "darkest",
+     "inicio": 37.62,
+     "fin": 38.06
+    },
+    {
+     "texto": "side",
+     "inicio": 38.06,
+     "fin": 38.7
+    },
+    {
+     "texto": "of",
+     "inicio": 38.7,
+     "fin": 38.92
+    },
+    {
+     "texto": "the",
+     "inicio": 38.92,
+     "fin": 39.2
+    },
+    {
+     "texto": "sunniest",
+     "inicio": 39.2,
+     "fin": 39.56
+    },
+    {
+     "texto": "place",
+     "inicio": 39.56,
+     "fin": 39.94
+    },
+    {
+     "texto": "in",
+     "inicio": 39.94,
+     "fin": 40.24
+    },
+    {
+     "texto": "America,",
+     "inicio": 40.24,
+     "fin": 40.72
+    },
+    {
+     "texto": "without",
+     "inicio": 41.12,
+     "fin": 41.42
+    },
+    {
+     "texto": "naming",
+     "inicio": 41.42,
+     "fin": 41.74
+    },
+    {
+     "texto": "Miami.",
+     "inicio": 41.74,
+     "fin": 42.14
+    }
+   ],
+   "inicio": 35.44,
+   "fin": 42.14
+  },
+  {
+   "texto": "If you've already played it, see if any street feels familiar.",
+   "palabras": [
+    {
+     "texto": "If",
+     "inicio": 42.72,
+     "fin": 42.94
+    },
+    {
+     "texto": "you've",
+     "inicio": 42.94,
+     "fin": 43.16
+    },
+    {
+     "texto": "already",
+     "inicio": 43.16,
+     "fin": 43.28
+    },
+    {
+     "texto": "played",
+     "inicio": 43.28,
+     "fin": 43.56
+    },
+    {
+     "texto": "it,",
+     "inicio": 43.56,
+     "fin": 43.72
+    },
+    {
+     "texto": "see",
+     "inicio": 44.1,
+     "fin": 44.26
+    },
+    {
+     "texto": "if",
+     "inicio": 44.26,
+     "fin": 44.36
+    },
+    {
+     "texto": "any",
+     "inicio": 44.36,
+     "fin": 44.5
+    },
+    {
+     "texto": "street",
+     "inicio": 44.5,
+     "fin": 44.76
+    },
+    {
+     "texto": "feels",
+     "inicio": 44.76,
+     "fin": 45.04
+    },
+    {
+     "texto": "familiar.",
+     "inicio": 45.04,
+     "fin": 45.4
+    }
+   ],
+   "inicio": 42.72,
+   "fin": 45.4
+  },
+  {
+   "texto": "Which place did you spot?",
+   "palabras": [
+    {
+     "texto": "Which",
+     "inicio": 45.94,
+     "fin": 46.08
+    },
+    {
+     "texto": "place",
+     "inicio": 46.08,
+     "fin": 46.3
+    },
+    {
+     "texto": "did",
+     "inicio": 46.3,
+     "fin": 46.46
+    },
+    {
+     "texto": "you",
+     "inicio": 46.46,
+     "fin": 46.6
+    },
+    {
+     "texto": "spot?",
+     "inicio": 46.6,
+     "fin": 46.82
+    }
+   ],
+   "inicio": 45.94,
+   "fin": 46.82
+  },
+  {
+   "texto": "Send this to your friend from Florida.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 47.36,
+     "fin": 47.5
+    },
+    {
+     "texto": "this",
+     "inicio": 47.5,
+     "fin": 47.66
+    },
+    {
+     "texto": "to",
+     "inicio": 47.66,
+     "fin": 47.82
+    },
+    {
+     "texto": "your",
+     "inicio": 47.82,
+     "fin": 47.92
+    },
+    {
+     "texto": "friend",
+     "inicio": 47.92,
+     "fin": 48.18
+    },
+    {
+     "texto": "from",
+     "inicio": 48.18,
+     "fin": 48.34
+    },
+    {
+     "texto": "Florida.",
+     "inicio": 48.34,
+     "fin": 48.58
+    }
+   ],
+   "inicio": 47.36,
+   "fin": 48.58
+  }
+ ]
+}
