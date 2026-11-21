@@ -74,3 +74,12 @@ La búsqueda solo devolvió pronósticos de Thanksgiving de 2023 y 2024, sin nin
 - **Superluna del 24/11:** está lejos y no tiene ángulo de guardar ni de comentar.
 Uso: 10 pasos · 16,188 tokens nuevos · 137,321 de caché · 1,438 escritos · equivale a US$ 0.12 de API
 2026-11-20 18:26 Termina el radar (ok).
+2026-11-21 17:12 Arranca el radar.
+Decidí no producir ningún video hoy. La búsqueda web no devolvió nada verificable de las últimas 48 h: solo páginas de inviernos anteriores o índices sin fecha.
+
+Descarté estos tres candidatos y los anoté en `videos/en/radar.log`:
+- **Clima del fin de semana:** no hay alerta ni fuente oficial del día.
+- **Thanksgiving (26/11):** no hay un ángulo verificable hoy para que la gente lo guarde o lo comente.
+- **Superluna del 24/11:** tampoco tiene ese ángulo.
+Uso: 9 pasos · 13,673 tokens nuevos · 130,714 de caché · 1,345 escritos · equivale a US$ 0.10 de API
+2026-11-21 17:13 Termina el radar (ok).

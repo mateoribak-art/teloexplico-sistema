@@ -145,3 +145,14 @@ Decisión: no hay tema de actualidad nuevo hoy y sigue la cola normal, con 053 c
 Fuentes consultadas: [Meteored](https://www.meteored.com.ar/noticias/prediccion/avanza-un-frente-frio-sobre-argentina-calor-10-c-por-encima-de-lo-normal-y-un-cierre-de-semana-con-tormentas-fuertes.html), [Perfil, pronóstico trimestral SMN](https://www.perfil.com/noticias/amp/nea/el-nino-el-smn-anticipo-lluvias-superiores-a-lo-normal-para-octubre-noviembre-y-diciembre-de-2026.phtml), [Canal26](https://www.canal26.com/clima/2026/11/18/a-que-hora-llueve-en-buenos-aires-este-miercoles-18-de-noviembre-segun-el-smn/).
 Uso: 8 pasos · 20,994 tokens nuevos · 79,214 de caché · 1,165 escritos · equivale a US$ 0.13 de API
 2026-11-20 18:26 Termina el radar (ok).
+2026-11-21 17:12 Arranca el radar.
+Decidí no producir ningún video de actualidad hoy. No encontré un tema verificable de hoy, así que anoté los descartados en `videos/radar.log`.
+
+Descarté tres candidatos:
+- **Alerta por tormentas en 12 provincias:** es del 16 de noviembre, no de hoy, y granizo y tormenta ya están cubiertos en la cola.
+- **Superluna del 24 de noviembre:** todavía no se vive. La reviso de nuevo el 23 o el 24.
+- **Rosalía, Lollapalooza, fútbol y política:** no encajan en los criterios de la cuenta.
+
+Sigue la cola normal.
+Uso: 10 pasos · 22,550 tokens nuevos · 144,797 de caché · 1,578 escritos · equivale a US$ 0.14 de API
+2026-11-21 17:12 Termina el radar (ok).
