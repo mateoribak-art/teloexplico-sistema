@@ -6,16 +6,21 @@
    "usuario": "teloexplico.ar",
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
-   "seguidores": 1023,
-   "listos": 8,
-   "dias": 4.0,
-   "proximo": "049-primer-calor-aclimatacion",
-   "publicados": 50,
+   "seguidores": 1026,
+   "listos": 9,
+   "dias": 4.5,
+   "proximo": "050-martes-13-no-viernes",
+   "publicados": 51,
    "pausa": false,
    "pendientes": [
     "Facu (TikTok, YouTube y Telegram): En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram."
    ],
    "ultimas": [
+    {
+     "slug": "049-primer-calor-aclimatacion",
+     "link": "https://www.instagram.com/reel/DgAj2azj3Xw/",
+     "cuando": "2026-11-21T15:33"
+    },
     {
      "slug": "053-cadenas-parana",
      "link": "https://www.instagram.com/reel/Df-vMwOACQX/",
@@ -35,21 +40,9 @@
      "slug": "047-paquete-retenido",
      "link": "https://www.instagram.com/reel/Df41MyEigAw/",
      "cuando": "2026-11-18T15:30"
-    },
-    {
-     "slug": "046-perro-no-comas",
-     "link": "https://www.instagram.com/reel/Df3AnKmnMPI/",
-     "cuando": "2026-11-17T22:31"
     }
    ],
    "linea": [
-    {
-     "slug": "049-primer-calor-aclimatacion",
-     "tema": "¿Por qué el primer calor del año te pega más fuerte? Tu cuerpo todavía no está aclimatado (NIOSH)",
-     "estado": "listo",
-     "cuando": "2026-11-20T23:35",
-     "motivo": "vuelve a la cola: contenido que no vence"
-    },
     {
      "slug": "050-martes-13-no-viernes",
      "tema": "¿Por qué el viernes 13 trae mala suerte? En Argentina el de mala suerte es el martes 13 (origen del mito)",
@@ -69,6 +62,13 @@
      "tema": "GTA 6: Vice City y Leonida están inspirados en Miami y Florida; qué lugares reales se reconocen (según medios, no confirmado por Rockstar) --actualidad",
      "estado": "listo",
      "cuando": "2026-11-20T14:23",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "056-gta-trece-anios",
+     "tema": "GTA 6: trece años desde el GTA V y dos postergaciones --actualidad",
+     "estado": "listo",
+     "cuando": "2026-11-20T15:12",
      "motivo": "render sin Claude"
     },
     {
@@ -110,24 +110,20 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-21T00:16",
-     "hace": "hace 17 h",
+     "cuando": "2026-11-21T14:12",
+     "hace": "hace 3 h",
      "detalle": [
-      "Uso: 20 pasos · 28,987 tokens nuevos · 1,312,740 de caché · 7,994 escritos · equivale a US$ 1.22 de API",
-      "2026-11-20 23:51 Arranca la producción (7 listos en la cola, meta 10).",
-      "Quedó listo para render 1 video; el segundo no lo produje.",
-      "- **Listo para render:** `059-pibe-chango-guri` (¿pibe, chango o gurí?, serie costumbres #6). El chequeo lo rechazó la primera vez por la frase \"te miran raro\", que no tenía fuente. Lo corregí y lo aprobó en el segundo intento. La voz dura ",
-      "- **Apartados:** no rescaté ninguno. Los apartados (038, 042, 044, 051) están por falta de mp4 o por actualidad vencida, no por chequeo rechazado.",
-      "- **Incompleto:** el segundo video no lo produje, aunque la cola de listos está por debajo de 10. Lo decidí yo para no gastar más cuota; Gemini no se agotó.",
-      "Uso: 20 pasos · 28,987 tokens nuevos · 1,312,740 de caché · 7,994 escritos · equivale a US$ 1.22 de API",
-      "2026-11-20 23:57 Render de 059-pibe-chango-guri (sin Claude).",
-      "2026-11-21 00:15 059-pibe-chango-guri: listo (render sin Claude)",
-      "2026-11-21 00:15 Termina la producción (ok).",
-      "2026-11-21 00:15 Arranca el carrusel (1 listos, meta 2).",
-      "`arroz-recalentado`: listo (8 placas, origen `034-arroz-recalentado`, datos verificados del NHS).",
-      "La última pasada del render y el control dio LISTO. No volví a mirar `hoja.png` después de acortar la tapa a \"no sirve\", porque el skill pide mirarla una sola vez. La primera versión de la tapa (\"no se arregla\") se cortaba en el borde.",
-      "Uso: 27 pasos · 28,966 tokens nuevos · 546,711 de caché · 4,896 escritos · equivale a US$ 0.22 de API",
-      "2026-11-21 00:16 Termina el carrusel (ok; quedan 2 listos)."
+      "Uso: 20 pasos · 16,632 tokens nuevos · 1,259,080 de caché · 7,030 escritos · equivale a US$ 1.30 de API",
+      "2026-11-21 13:55 Arranca la producción (8 listos en la cola, meta 10).",
+      "Producí un solo video: `061-heladera-termometro` quedó en estado `render`. No lo rendericé: lo hace `producir.py` al terminar el turno, que además saca la portada, corre el control y lo pasa a `listo` o `apartado`.",
+      "- **Rescates:** no había nada para rescatar. Los apartados actuales (005, 038, 042, 044 y 051) no tenían el motivo \"chequeo rechazado\".",
+      "- **`061-heladera-termometro`:** el tema es \"¿tu heladera enfría bien?\" y la regla para guardar es heladera a cuatro grados o menos y freezer a dieciocho bajo cero. El chequeo rechazó el primer intento (un \"bajá de a poco\" sin fuente y \"la ",
+      "- **Segundo video:** no lo hice. La cola tiene 8 listos, menos de 10, así que correspondía otro, pero me quedé con uno solo en este turno.",
+      "El radar no encontró ningún tema del día verificable. Dejé anotados en `produccion.log` el radar, el ritmo de seguidores (unos 22 por día contra unos 95 que hacen falta) y la `interaccion` elegida, que es guardar más comentar.",
+      "Uso: 20 pasos · 16,632 tokens nuevos · 1,259,080 de caché · 7,030 escritos · equivale a US$ 1.30 de API",
+      "2026-11-21 14:01 Render de 061-heladera-termometro (sin Claude).",
+      "2026-11-21 14:12 061-heladera-termometro: listo (render sin Claude)",
+      "2026-11-21 14:12 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -178,13 +174,13 @@
       }
      },
      "estado": "ok",
-     "resumen": "Revisión radar. Búsquedas web (SMN + noticias/tendencias del día). SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por tormentas y granizo ",
-     "cuando": "2026-11-20T18:26",
-     "hace": "hace 23 h",
+     "resumen": "Revisión radar (segunda pasada). Dos búsquedas web (alertas SMN y tendencias): lo más reciente es del 16-nov. SIN tema nuevo verificable. Descartados: (a) alert",
+     "cuando": "2026-11-21T17:12",
+     "hace": "hace 15 min",
      "detalle": [
-      "17/11 00:00 | Revisión radar. HAY TEMA (ya en cola de una corrida previa): lluvia de estrellas Leónidas, pico madrugada 17-18 nov (NASA, Natural History Museum Londres). Ángulo propio verificado: la \"estrella fugaz\" no es una estrella ni una roca grande, es polvo de cometa (Tempel-Tuttle) del tamaño de un grano de arena que se enciende al entrar a 71 km/s. Slug 051-leonidas-grano-arena (--actualidad, serie ciencia): continué su producción (chequeo→voz→3D→render). Descartados: (a) alerta naranja/amarilla por tormentas severas y granizo en 17 provincias incl. CABA (SMN hoy) -> granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin ángulo nuevo; (b) vientos Zonda en Cuyo -> nicho regional.",
-      "18/11 00:00 | Revision radar. HAY TEMA: arranca el finde largo y el viernes 20/11 es el Dia de la Soberania (feriado trasladado al lunes 23). Casi nadie sabe que se festeja -> angulo propio: la Vuelta de Obligado (1845), cerraron el rio Parana con tres cadenas sobre 24 lanchones para frenar a Gran Bretana y Francia; imagen grande y mandable. Verificado (Canal26 2026, Infobae 2024, La Nacion 2025, Wikipedia; Dia de la Soberania 20-nov). ELEGIDO. Slug 053-cadenas-parana (--actualidad, serie argentina). Descartados: (a) alerta naranja/amarilla por tormentas y granizo en 9-10 provincias (SMN hoy) -> AMBA afuera y granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin angulo nuevo; (b) ciclon/calor en BA por Super Nino -> clima ya cubierto (016/019/008/009), sin giro; (c) Leonidas -> ya en cola (051).",
-      "20/11 00:00 | Revisión radar. Búsquedas web (SMN + noticias/tendencias del día). SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por tormentas y granizo en 7-11 provincias incl. Buenos Aires (SMN hoy, La Nación/NA) -> granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin ángulo nuevo; (b) Día de la Soberanía 20/11 -> YA en cola (053-cadenas-parana, en render); (c) dólar/CCL, ley de patentes, ley discapacidad, Tesla en Argentina -> política/economía/empresa, no encajan. Sigue la cola normal."
+      "20/11 00:00 | Revisión radar. Búsquedas web (SMN + noticias/tendencias del día). SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por tormentas y granizo en 7-11 provincias incl. Buenos Aires (SMN hoy, La Nación/NA) -> granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin ángulo nuevo; (b) Día de la Soberanía 20/11 -> YA en cola (053-cadenas-parana, en render); (c) dólar/CCL, ley de patentes, ley discapacidad, Tesla en Argentina -> política/economía/empresa, no encajan. Sigue la cola normal.",
+      "21/11 00:00 | Revisión radar (turno nube). Una búsqueda web (SMN fin de semana largo): solo resultados de otros años, nada verificable fechado de hoy. SIN tema nuevo; sigue la cola normal.",
+      "21/11 00:00 | Revisión radar (segunda pasada). Dos búsquedas web (alertas SMN y tendencias): lo más reciente es del 16-nov. SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por lluvias y tormentas en 12 provincias (Perfil 16-nov, no de hoy; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) superluna 24-nov -> todavía no se vive, reevaluar el 23-24; (c) Rosalía/Lollapalooza/fútbol/política -> espectáculos o política, no encajan. Sigue la cola normal."
      ],
      "tareas": [
       "🔥 004-olor-a-lluvia — ¿Por qué la tierra huele así cuando llueve?",
@@ -199,7 +195,7 @@
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "a773a120cc9f"
+     "firma": "955beb9840ec"
     },
     {
      "id": "chequeo",
@@ -217,17 +213,17 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-21T00:15",
-     "hace": "hace 17 h",
+     "cuando": "2026-11-21T14:12",
+     "hace": "hace 3 h",
      "detalle": [
-      "052-zapatilla-sobrecarga: aprobado — Tema de seguridad (incendio eléctrico). Todas las afirmaciones de riesgo quedan verificadas con fuentes serias: NFPA y CPSC (EE.UU.) indican",
-      "053-cadenas-parana: aprobado — Todas las afirmaciones factuales del guion y el caption quedan verificadas contra fuentes primarias e institucionales (Wikipedia, argentina.",
       "054-gta-juegos-violentos: aprobado — Todas las afirmaciones fácticas quedaron verificadas contra fuentes primarias o confiables: el comunicado de la APA del 3/3/2020 (apa.org) r",
       "055-gta-vice-city-miami: aprobado — Ninguna afirmación es falsa y no hay cifras, salud, seguridad ni plata. Las afirmaciones probables (Vice City inspirada en Miami, Leonida en",
       "056-gta-trece-anios: aprobado — Todas las afirmaciones fácticas (fechas de GTA V y GTA 6, anuncio para 2025, las dos postergaciones y la cuenta de trece años y dos meses) e",
       "057-ruta-40-de-punta-a-punta: aprobado — Todas las cifras y datos duros (más de 5.000 km, extremos, once provincias, ruta más larga) quedaron verificados con fuentes. La dispersión ",
       "058-agua-del-mate: aprobado — La única cifra (75 a 80 grados) y su atribución al INYM están confirmadas en una fuente primaria (notas del INYM en inym.org.ar). El efecto ",
-      "059-pibe-chango-guri: aprobado — Se revisaron todas las frases del guion y el caption contra Billiken y el DLE/DPD de la RAE. Todas las afirmaciones quedan verificadas o pre"
+      "059-pibe-chango-guri: aprobado — Se revisaron todas las frases del guion y el caption contra Billiken y el DLE/DPD de la RAE. Todas las afirmaciones quedan verificadas o pre",
+      "060-celular-carga-noche: aprobado — Todas las afirmaciones (salud/seguridad de la batería) están verificadas contra las dos páginas de Apple Soporte citadas y todas van atribui",
+      "061-heladera-termometro: aprobado — Todas las afirmaciones de salud/seguridad alimentaria quedaron verificadas contra fuentes primarias. FDA (Refrigerator Thermometers: Cold Fa"
      ],
      "tareas": [],
      "arreglo": null,
@@ -250,8 +246,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-21T00:15",
-     "hace": "hace 17 h",
+     "cuando": "2026-11-21T14:12",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -273,14 +269,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-21 00:15.",
-     "cuando": "2026-11-21T00:15",
-     "hace": "hace 17 h",
+     "resumen": "Último video terminado: 2026-11-21 14:12.",
+     "cuando": "2026-11-21T14:12",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "63fe4ed5120a"
+     "firma": "246048bfce2b"
     },
     {
      "id": "control",
@@ -298,8 +294,8 @@
      },
      "estado": "aviso",
      "resumen": "Apartó 1 video(s) en las últimas 48 h.",
-     "cuando": "2026-11-21T00:15",
-     "hace": "hace 17 h",
+     "cuando": "2026-11-21T14:12",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [
       "051-leonidas-grano-arena: tema de actualidad vencido (más de 48 h)"
@@ -322,28 +318,28 @@
        "cuenta": "es"
       }
      },
-     "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 12:30 (21/11).",
-     "cuando": "2026-11-20T19:34",
-     "hace": "hace 21 h",
+     "estado": "ok",
+     "resumen": "Último: 049-primer-calor-aclimatacion.",
+     "cuando": "2026-11-21T12:34",
+     "hace": "hace 4 h",
      "detalle": [
-      "20/11 13:34 052-zapatilla-sobrecarga publicado: https://www.instagram.com/reel/Df-GCcfCE2T/",
-      "20/11 13:34 052-zapatilla-sobrecarga publicado en Facebook: https://www.facebook.com/reel/1628595105419701/",
-      "20/11 13:34 052-zapatilla-sobrecarga falló TikTok: ^^^^^^^^",
-      "20/11 13:35 052-zapatilla-sobrecarga https://youtube.com/shorts/6rgBJVZv4yo | privacidad: public",
-      "20/11 13:35 052-zapatilla-sobrecarga paquete para TikTok/YouTube enviado",
       "20/11 19:33 053-cadenas-parana publicado: https://www.instagram.com/reel/Df-vMwOACQX/",
       "20/11 19:34 053-cadenas-parana publicado en Facebook: https://www.facebook.com/reel/1830925631569436/",
       "20/11 19:34 053-cadenas-parana en la bandeja de TikTok",
       "20/11 19:34 053-cadenas-parana https://youtube.com/shorts/GYLmYZ8uGk4 | privacidad: public",
-      "20/11 19:34 053-cadenas-parana paquete para TikTok/YouTube enviado"
+      "20/11 19:34 053-cadenas-parana paquete para TikTok/YouTube enviado",
+      "21/11 12:33 049-primer-calor-aclimatacion publicado: https://www.instagram.com/reel/DgAj2azj3Xw/",
+      "21/11 12:34 049-primer-calor-aclimatacion publicado en Facebook: https://www.facebook.com/reel/1182480261355106/",
+      "21/11 12:34 049-primer-calor-aclimatacion en la bandeja de TikTok",
+      "21/11 12:34 049-primer-calor-aclimatacion https://youtube.com/shorts/uNow4XMTG-U | privacidad: public",
+      "21/11 12:34 049-primer-calor-aclimatacion paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: 049-primer-calor-aclimatacion — ¿Por qué el primer calor del año te pega más fuerte? Tu cuerpo todavía no está aclimatado (NIOSH)"
+      "Próximo: 050-martes-13-no-viernes — ¿Por qué el viernes 13 trae mala suerte? En Argentina el de mala suerte es el martes 13 (origen del mito)"
      ],
-     "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
+     "arreglo": null,
      "solo": false,
-     "firma": "463274303f51"
+     "firma": "4ff51d67db01"
     },
     {
      "id": "redes",
@@ -361,17 +357,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-20T19:34",
-     "hace": "hace 21 h",
+     "cuando": "2026-11-21T12:34",
+     "hace": "hace 4 h",
      "detalle": [
-      "18/11 19:32 048-golpe-de-calor https://youtube.com/shorts/cDQPgFirUTE | privacidad: public",
-      "18/11 19:33 048-golpe-de-calor paquete para TikTok/YouTube enviado",
-      "20/11 13:34 052-zapatilla-sobrecarga falló TikTok: ^^^^^^^^",
       "20/11 13:35 052-zapatilla-sobrecarga https://youtube.com/shorts/6rgBJVZv4yo | privacidad: public",
       "20/11 13:35 052-zapatilla-sobrecarga paquete para TikTok/YouTube enviado",
       "20/11 19:34 053-cadenas-parana en la bandeja de TikTok",
       "20/11 19:34 053-cadenas-parana https://youtube.com/shorts/GYLmYZ8uGk4 | privacidad: public",
-      "20/11 19:34 053-cadenas-parana paquete para TikTok/YouTube enviado"
+      "20/11 19:34 053-cadenas-parana paquete para TikTok/YouTube enviado",
+      "21/11 12:34 049-primer-calor-aclimatacion en la bandeja de TikTok",
+      "21/11 12:34 049-primer-calor-aclimatacion https://youtube.com/shorts/uNow4XMTG-U | privacidad: public",
+      "21/11 12:34 049-primer-calor-aclimatacion paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -465,25 +461,25 @@
       }
      },
      "estado": "ok",
-     "resumen": "20/11: 1023 seguidores",
-     "cuando": "2026-11-20T18:20",
-     "hace": "hace 23 h",
+     "resumen": "21/11: 1026 seguidores",
+     "cuando": "2026-11-21T03:56",
+     "hace": "hace 13 h",
      "detalle": [
-      "17/11: 981 seguidores",
       "18/11: 993 seguidores",
       "19/11: 1013 seguidores",
-      "20/11: 1023 seguidores"
+      "20/11: 1023 seguidores",
+      "21/11: 1026 seguidores"
      ],
      "tareas": [
-      "001-heladera: 160.619 vistas · 7215 enviados · 3394 ♥",
-      "026-mediodia-hora-corrida: 152.706 vistas · 474 enviados · 2748 ♥",
-      "007-bts-13-anios: 30.188 vistas · 614 enviados · 3008 ♥",
+      "001-heladera: 160.969 vistas · 7240 enviados · 3414 ♥",
+      "026-mediodia-hora-corrida: 153.145 vistas · 475 enviados · 2755 ♥",
+      "007-bts-13-anios: 30.211 vistas · 614 enviados · 3010 ♥",
       "006-army-bomb: 8.630 vistas · 55 enviados · 551 ♥",
       "003-vuelta-carne: 4.724 vistas · 29 enviados · 99 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "41e4193eba9c"
+     "firma": "f1332a855b6a"
     },
     {
      "id": "vigilante",
@@ -498,17 +494,15 @@
        "modo": "vigilar"
       }
      },
-     "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 12:30 (21/11).",
+     "estado": "ok",
+     "resumen": "Todo en orden ✓",
      "cuando": "2026-11-21T17:27",
      "hace": "recién",
-     "detalle": [
-      "❗ No salió la publicación del turno de las 12:30 (21/11)."
-     ],
+     "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "ea8d00797bcb"
+     "firma": "cf3a22f5d39c"
     },
     {
      "id": "planb",
@@ -542,13 +536,18 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 5,
-   "listos": 8,
-   "dias": 4.0,
+   "listos": 9,
+   "dias": 4.5,
    "proximo": "en-026-el-nino-winter",
-   "publicados": 27,
+   "publicados": 28,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "en-028-turkey-sleepy",
+     "link": "https://www.instagram.com/reel/DgAkJOIFqvP/",
+     "cuando": "2026-11-21T15:35"
+    },
     {
      "slug": "en-025-dog-hot-car",
      "link": "https://www.instagram.com/reel/Df-vaArnN_6/",
@@ -568,11 +567,6 @@
      "slug": "en-022-power-outage-fridge",
      "link": "https://www.instagram.com/reel/Dfcg_wxGTFS/",
      "cuando": "2026-11-07T15:35"
-    },
-    {
-     "slug": "en-022-ears-pop",
-     "link": "https://www.instagram.com/reel/DfasFrnj6m6/",
-     "cuando": "2026-11-06T22:33"
     }
    ],
    "linea": [
@@ -591,13 +585,6 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "en-028-turkey-sleepy",
-     "tema": "Does turkey make you sleepy? tryptophan myth (Thanksgiving; pillar fandom-lite)",
-     "estado": "listo",
-     "cuando": "2026-11-07T13:48",
-     "motivo": "render sin Claude"
-    },
-    {
      "slug": "en-029-swim-after-eating",
      "tema": "Do you have to wait to swim after eating? (Red Cross; adapted from 002)",
      "estado": "listo",
@@ -605,11 +592,11 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "en-024-heat-index",
-     "tema": "Why does it feel hotter than the thermometer? Heat index (adapted from 019, NWS)",
-     "estado": "publicado",
-     "cuando": "2026-11-20T13:36",
-     "motivo": "https://www.instagram.com/reel/Df-GPRlm9ZH/"
+     "slug": "en-030-violent-games",
+     "tema": "Do violent video games make you violent? (APA 2020; GTA 6 just launched)",
+     "estado": "listo",
+     "cuando": "2026-11-20T14:36",
+     "motivo": "render sin Claude"
     },
     {
      "slug": "en-025-dog-hot-car",
@@ -617,6 +604,13 @@
      "estado": "publicado",
      "cuando": "2026-11-20T19:35",
      "motivo": "https://www.instagram.com/reel/Df-vaArnN_6/"
+    },
+    {
+     "slug": "en-028-turkey-sleepy",
+     "tema": "Does turkey make you sleepy? tryptophan myth (Thanksgiving; pillar fandom-lite)",
+     "estado": "publicado",
+     "cuando": "2026-11-21T12:35",
+     "motivo": "https://www.instagram.com/reel/DgAkJOIFqvP/"
     }
    ],
    "empleados": [
@@ -636,20 +630,18 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-21T00:29",
-     "hace": "hace 16 h",
+     "cuando": "2026-11-21T14:23",
+     "hace": "hace 3 h",
      "detalle": [
-      "Uso: 42 pasos · 71,559 tokens nuevos · 1,233,435 de caché · 12,242 escritos · equivale a US$ 0.75 de API",
-      "2026-11-21 00:16 Arranca la producción (7 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
-      "- **Listo (en estado `render`):** `en-033-turkey-thaw`, un video propio de la serie cocina sobre cómo descongelar el pavo de Thanksgiving (USDA: 24 h por cada 4–5 lb en la heladera, 30 min por lb en agua fría). El chequeo lo aprobó al prime",
-      "- **Interacción:** guardar la regla de las horas y los minutos, y comentar con la pregunta \"How many days ahead do you start thawing?\".",
-      "- **Apartados o incompletos:** ninguno. No había videos apartados por \"chequeo rechazado\" para rescatar.",
-      "Uso: 42 pasos · 71,559 tokens nuevos · 1,233,435 de caché · 12,242 escritos · equivale a US$ 0.75 de API",
-      "Permisos negados (1):",
-      "  Bash: {\"command\": \"cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-033-turkey-thaw; cat > chequeo.json <<'EOF'\\n{\\n  \\\"veredicto\\\"",
-      "2026-11-21 00:20 Render de en-033-turkey-thaw (sin Claude).",
-      "2026-11-21 00:29 en-033-turkey-thaw: listo (render sin Claude)",
-      "2026-11-21 00:29 Termina la producción (ok)."
+      "Uso: 38 pasos · 67,148 tokens nuevos · 1,140,649 de caché · 10,463 escritos · equivale a US$ 0.64 de API",
+      "2026-11-21 14:12 Arranca la producción (8 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
+      "- **Listo para render:** `en-035-turkey-stuffing` (cocina #11, el relleno del pavo tiene que llegar a 165 °F en el centro, para Thanksgiving el 26/11). El chequeo se aprobó en el primer intento con fuentes del USDA FSIS. La voz dura 34,9 s,",
+      "- **Chequeo con un límite:** las páginas de fsis.usda.gov devolvieron 403, así que el subagente verificó con los textos que citaban los resultados de búsqueda, no con las páginas completas.",
+      "- **Apartados:** no había videos apartados por chequeo rechazado, así que no hubo nada que rescatar. No quedó ninguno incompleto.",
+      "Uso: 38 pasos · 67,148 tokens nuevos · 1,140,649 de caché · 10,463 escritos · equivale a US$ 0.64 de API",
+      "2026-11-21 14:16 Render de en-035-turkey-stuffing (sin Claude).",
+      "2026-11-21 14:23 en-035-turkey-stuffing: listo (render sin Claude)",
+      "2026-11-21 14:23 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -671,13 +663,13 @@
       }
      },
      "estado": "ok",
-     "resumen": "Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2023/2024 y titulares sin gancho explicable. Descartados: (1) clima de Thanksgiving (",
-     "cuando": "2026-11-20T18:26",
-     "hace": "hace 23 h",
+     "resumen": "Pasada del radar: la búsqueda (NWS fin de semana, tendencias de Thanksgiving) solo devolvió páginas de inviernos anteriores o índices sin fecha; nada verificabl",
+     "cuando": "2026-11-21T17:13",
+     "hace": "hace 14 min",
      "detalle": [
-      "07/11 00:00 Undécima pasada del radar: la búsqueda solo devolvió pronósticos locales y titulares sin detalle. Descartados: (1) El Niño \"más fuerte en una vida\" (AccuWeather): solo titular, sin fuente oficial del día; y en-026-el-nino-winter ya está en cola; (2) tornados raros en Delaware/Long Island: evento regional, riesgo de daños/víctimas, sin confirmar; (3) inundación costera por \"king tide\" en Florida/California: regional, sin fecha ni fuente oficial confirmada. Sin tema nuevo.",
       "07/11 00:00 Duodécima pasada del radar: la búsqueda (NWS fin de semana) solo devolvió páginas sin fecha o de 2025/marzo 2026; nada verificable de las últimas 48 h. Descartados: (1) frío/tormenta invernal del fin de semana: notas sin fecha, sin fuente oficial del día; (2) El Niño: ya en cola (en-026); (3) superluna del 24/11: lejos. Sin tema nuevo.",
-      "20/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2023/2024 y titulares sin gancho explicable. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 verificable; (2) Nvidia/Anthropic IPO/Russell Brand: negocios o chisme/delito, no explicables; (3) superluna del 24/11: lejos y sin ángulo de guardar/comentar. Sin tema nuevo."
+      "20/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2023/2024 y titulares sin gancho explicable. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 verificable; (2) Nvidia/Anthropic IPO/Russell Brand: negocios o chisme/delito, no explicables; (3) superluna del 24/11: lejos y sin ángulo de guardar/comentar. Sin tema nuevo.",
+      "21/11 00:00 Pasada del radar: la búsqueda (NWS fin de semana, tendencias de Thanksgiving) solo devolvió páginas de inviernos anteriores o índices sin fecha; nada verificable de las últimas 48 h. Descartados: (1) clima del fin de semana: sin alerta ni fuente oficial del día; (2) Thanksgiving (26/11): sin ángulo de guardar/comentar verificable hoy; (3) superluna del 24/11: sin ángulo de guardar/comentar. Sin tema nuevo."
      ],
      "tareas": [
       "🔥 en-002-dst-farmers — Is daylight saving time for farmers? (fall back Nov 1)",
@@ -686,7 +678,7 @@
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "370370272c1a"
+     "firma": "a57e861de35a"
     },
     {
      "id": "chequeo",
@@ -704,17 +696,17 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-21T00:29",
-     "hace": "hace 16 h",
+     "cuando": "2026-11-21T14:23",
+     "hace": "hace 3 h",
      "detalle": [
-      "en-026-el-nino-winter: aprobado — Las cifras coinciden con la discusión ENSO del CPC del 8/10/2026 (la más reciente: la siguiente está programada para noviembre, después de h",
-      "en-027-bleach-vinegar: aprobado — Todas las afirmaciones fácticas (tema de seguridad) están verificadas con fuente primaria de EE. UU. (CDC, MMWR, Poison Control). No hay cif",
       "en-028-turkey-sleepy: aprobado — Segundo chequeo. La atribución coincide con inside.charlotte.edu (22/11/2024, 'The truth about tryptophan and Thanksgiving turkey tiredness'",
       "en-029-swim-after-eating: aprobado — Revision independiente. Las frases de salud/seguridad quedan acotadas a lo que dice la Cruz Roja (nadar dentro de la hora posterior a comer ",
       "en-030-violent-games: aprobado — Todas las afirmaciones coinciden con la fuente primaria (comunicado APA del 3/3/2020, texto citado literalmente en apa.org) y la fecha de GT",
       "en-031-gta-vice-city: aprobado — Ninguna afirmación es falsa y no hay cifras, salud, seguridad ni plata. Lo verificado (nombre Vice City, estado de Leonida, cita del sitio o",
       "en-032-gta-13-years: aprobado — Segunda pasada con busqueda web. Todas las fechas verificadas: GTA V 17/9/2013, anuncio para 2025, retraso de mayo 2025 a 26/5/2026, retraso",
-      "en-033-turkey-thaw: aprobado — Todas las afirmaciones de salud/seguridad alimentaria y cifras estan verificadas contra USDA FSIS (y paginas de extension universitaria que "
+      "en-033-turkey-thaw: aprobado — Todas las afirmaciones de salud/seguridad alimentaria y cifras estan verificadas contra USDA FSIS (y paginas de extension universitaria que ",
+      "en-034-alcohol-cook-off: aprobado — Segundo intento. La fila primaria del PDF de USDA Release 6 (retn06.pdf) sigue sin poder leerse: WebFetch devuelve el PDF comprimido (FlateD",
+      "en-035-turkey-stuffing: aprobado — Todas las afirmaciones fácticas (seguridad alimentaria) están respaldadas por USDA FSIS y las cifras/unidades coinciden (165 °F en el centro"
      ],
      "tareas": [],
      "arreglo": null,
@@ -737,8 +729,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-11-21T00:29",
-     "hace": "hace 16 h",
+     "cuando": "2026-11-21T14:23",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -760,14 +752,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-21 00:29.",
-     "cuando": "2026-11-21T00:29",
-     "hace": "hace 16 h",
+     "resumen": "Último video terminado: 2026-11-21 14:23.",
+     "cuando": "2026-11-21T14:23",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "d99ce63834bd"
+     "firma": "404e7bd84f69"
     },
     {
      "id": "control",
@@ -784,14 +776,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "8 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-21T00:29",
-     "hace": "hace 16 h",
+     "resumen": "9 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-21T14:23",
+     "hace": "hace 3 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "e4e456394e42"
+     "firma": "770611e2218b"
     },
     {
      "id": "publicador",
@@ -807,28 +799,28 @@
        "cuenta": "en"
       }
      },
-     "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 12:30 (21/11).",
-     "cuando": "2026-11-20T19:36",
-     "hace": "hace 21 h",
+     "estado": "ok",
+     "resumen": "Último: en-028-turkey-sleepy.",
+     "cuando": "2026-11-21T12:36",
+     "hace": "hace 4 h",
      "detalle": [
-      "07/11 19:35 en-023-package-text en la bandeja de TikTok",
-      "07/11 19:35 en-023-package-text paquete para TikTok/YouTube enviado",
-      "20/11 13:36 en-024-heat-index publicado: https://www.instagram.com/reel/Df-GPRlm9ZH/",
-      "20/11 13:36 en-024-heat-index publicado en Facebook: https://www.facebook.com/reel/1440764394326288/",
       "20/11 13:36 en-024-heat-index en la bandeja de TikTok",
       "20/11 13:37 en-024-heat-index paquete para TikTok/YouTube enviado",
       "20/11 19:35 en-025-dog-hot-car publicado: https://www.instagram.com/reel/Df-vaArnN_6/",
       "20/11 19:36 en-025-dog-hot-car publicado en Facebook: https://www.facebook.com/reel/40975074848757686/",
       "20/11 19:36 en-025-dog-hot-car en la bandeja de TikTok",
-      "20/11 19:36 en-025-dog-hot-car paquete para TikTok/YouTube enviado"
+      "20/11 19:36 en-025-dog-hot-car paquete para TikTok/YouTube enviado",
+      "21/11 12:35 en-028-turkey-sleepy publicado: https://www.instagram.com/reel/DgAkJOIFqvP/",
+      "21/11 12:36 en-028-turkey-sleepy publicado en Facebook: https://www.facebook.com/reel/1476893591235118/",
+      "21/11 12:36 en-028-turkey-sleepy en la bandeja de TikTok",
+      "21/11 12:36 en-028-turkey-sleepy paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "Próximo: en-026-el-nino-winter — What El Niño means for your winter (NOAA CPC; adapted from 016)"
      ],
-     "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
+     "arreglo": null,
      "solo": false,
-     "firma": "ffdb7eb97e8c"
+     "firma": "c031f94be8e7"
     },
     {
      "id": "redes",
@@ -846,17 +838,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-20T19:36",
-     "hace": "hace 21 h",
+     "cuando": "2026-11-21T12:36",
+     "hace": "hace 4 h",
      "detalle": [
-      "07/11 12:36 en-022-power-outage-fridge en la bandeja de TikTok",
-      "07/11 12:36 en-022-power-outage-fridge paquete para TikTok/YouTube enviado",
       "07/11 19:35 en-023-package-text en la bandeja de TikTok",
       "07/11 19:35 en-023-package-text paquete para TikTok/YouTube enviado",
       "20/11 13:36 en-024-heat-index en la bandeja de TikTok",
       "20/11 13:37 en-024-heat-index paquete para TikTok/YouTube enviado",
       "20/11 19:36 en-025-dog-hot-car en la bandeja de TikTok",
-      "20/11 19:36 en-025-dog-hot-car paquete para TikTok/YouTube enviado"
+      "20/11 19:36 en-025-dog-hot-car paquete para TikTok/YouTube enviado",
+      "21/11 12:36 en-028-turkey-sleepy en la bandeja de TikTok",
+      "21/11 12:36 en-028-turkey-sleepy paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -915,25 +907,25 @@
       }
      },
      "estado": "ok",
-     "resumen": "20/11: 5 seguidores",
-     "cuando": "2026-11-20T18:20",
-     "hace": "hace 23 h",
+     "resumen": "21/11: 5 seguidores",
+     "cuando": "2026-11-21T03:56",
+     "hace": "hace 13 h",
      "detalle": [
-      "05/11: 3 seguidores",
       "06/11: 3 seguidores",
       "07/11: 5 seguidores",
-      "20/11: 5 seguidores"
+      "20/11: 5 seguidores",
+      "21/11: 5 seguidores"
      ],
      "tareas": [
-      "en-001-phone-rice: 4.133 vistas · 22 enviados · 52 ♥",
+      "en-001-phone-rice: 4.134 vistas · 22 enviados · 52 ♥",
       "en-007-flip-steak: 3.388 vistas · 18 enviados · 36 ♥",
-      "en-009-ceiling-fan: 3.080 vistas · 2 enviados · 40 ♥",
+      "en-009-ceiling-fan: 3.082 vistas · 2 enviados · 40 ♥",
       "en-008-wash-chicken: 2.300 vistas · 4 enviados · 20 ♥",
       "en-006-five-second-rule: 2.258 vistas · 22 enviados · 52 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "f7dd5cba1c5d"
+     "firma": "eeb31bed229f"
     },
     {
      "id": "vigilante",
@@ -948,17 +940,15 @@
        "modo": "vigilar"
       }
      },
-     "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 12:30 (21/11).",
+     "estado": "ok",
+     "resumen": "Todo en orden ✓",
      "cuando": "2026-11-21T17:27",
      "hace": "recién",
-     "detalle": [
-      "❗ No salió la publicación del turno de las 12:30 (21/11)."
-     ],
+     "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "769f4c895088"
+     "firma": "3e900f50565c"
     }
    ]
   }
