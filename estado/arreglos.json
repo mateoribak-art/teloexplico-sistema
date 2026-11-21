@@ -457,5 +457,15 @@
   "actualizado": "2026-11-20T18:19",
   "titulo": "Max (Métricas) estaba en aviso porque el resumen diario no corría; relancé el resumen a mano y todavía no terminó.",
   "resumen": "Las métricas de Nueva York quedaron en el 7/11, igual que las de Buenos Aires, y el token de Meta no falló. El resumen diario solo corre si el interruptor `NUBE_ACTIVA` está en \"si\", y casi todas las corridas desde el 7/11 figuran como salteadas. La última corrida programada sí funcionó, así que el interruptor está prendido ahora. No toqué código ni reglas. Lancé el resumen a mano (corrida 44819267583). Cuando esto se escribió seguía en curso, así que no sé todavía si actualizó las métricas. Si falla, el flujo avisa solo. Si no, el resumen programado de las 21:05 lo hace de todas formas."
+ },
+ {
+  "id": "11202335-es-control",
+  "creado": "2026-11-20T23:35",
+  "empleado": "es/control",
+  "firma": "a42a94baf0b2",
+  "estado": "pedido",
+  "auto": true,
+  "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Ramiro (Control de calidad) está en \"aviso\": Apartó 3 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\n049-primer-calor-aclimatacion: tema de actualidad vencido (más de 48 h)\n050-martes-13-no-viernes: tema de actualidad vencido (más de 48 h)\n051-leonidas-grano-arena: tema de actualidad vencido (más de 48 h)\n",
+  "actualizado": "2026-11-20T23:35"
  }
 ]
