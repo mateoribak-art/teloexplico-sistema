@@ -229,7 +229,7 @@
  },
  {
   "clave": "celular-arroz",
-  "estado": "listo",
+  "estado": "publicado",
   "origen": [
    "014-celular-arroz"
   ],
@@ -248,6 +248,11 @@
     "estado": "listo",
     "cuando": "2026-11-07T07:55",
     "motivo": "control OK"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-20T21:29",
+    "motivo": "https://www.instagram.com/p/Df-8c53IFGq/"
    }
   ]
  },
