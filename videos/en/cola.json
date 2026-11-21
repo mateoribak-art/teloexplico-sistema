@@ -995,7 +995,7 @@
  {
   "slug": "en-028-turkey-sleepy",
   "tema": "Does turkey make you sleepy? tryptophan myth (Thanksgiving; pillar fandom-lite)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1016,6 +1016,11 @@
     "estado": "listo",
     "cuando": "2026-11-07T13:48",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-21T12:35",
+    "motivo": "https://www.instagram.com/reel/DgAkJOIFqvP/"
    }
   ]
  },

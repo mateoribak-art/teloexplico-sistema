@@ -1901,7 +1901,7 @@
  {
   "slug": "049-primer-calor-aclimatacion",
   "tema": "¿Por qué el primer calor del año te pega más fuerte? Tu cuerpo todavía no está aclimatado (NIOSH)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1937,6 +1937,11 @@
     "estado": "listo",
     "cuando": "2026-11-20T23:35",
     "motivo": "vuelve a la cola: contenido que no vence"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-21T12:33",
+    "motivo": "https://www.instagram.com/reel/DgAj2azj3Xw/"
    }
   ]
  },
