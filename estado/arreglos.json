@@ -462,10 +462,16 @@
   "id": "11202335-es-control",
   "creado": "2026-11-20T23:35",
   "empleado": "es/control",
-  "firma": "a42a94baf0b2",
-  "estado": "pedido",
+  "estado": "aplicado",
   "auto": true,
   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Ramiro (Control de calidad) está en \"aviso\": Apartó 3 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\n049-primer-calor-aclimatacion: tema de actualidad vencido (más de 48 h)\n050-martes-13-no-viernes: tema de actualidad vencido (más de 48 h)\n051-leonidas-grano-arena: tema de actualidad vencido (más de 48 h)\n",
-  "actualizado": "2026-11-20T23:35"
+  "firma": "a42a94baf0b2",
+  "actualizado": "2026-11-20T23:35",
+  "titulo": "Se apartaron 3 videos por vencimiento de las 48 h; recuperé 2 y dejé 1 apartado.",
+  "resumen": "La cola aparta sola los videos marcados \"de actualidad\" que pasan 48 h sin salir, y eso fue lo que pasó con los tres. Dos de ellos, el del primer calor (049) y el del martes 13 (050), tratan temas que no vencen, así que les saqué la marca de actualidad y los pasé a \"listo\". Van a salir en la cola normal. El de las Leónidas (051) quedó apartado, porque la lluvia de estrellas ya pasó y hoy no tiene sentido publicarlo. No cambié código ni reglas, porque el sistema funcionó como está diseñado.",
+  "commit": "53ebee5af8c4b54a94ef9afa4dd0f3900cc54c05",
+  "archivos": [
+   "videos/cola.json"
+  ]
  }
 ]

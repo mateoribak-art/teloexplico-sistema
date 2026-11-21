@@ -7,9 +7,9 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 1023,
-   "listos": 5,
-   "dias": 2.5,
-   "proximo": "054-gta-juegos-violentos",
+   "listos": 7,
+   "dias": 3.5,
+   "proximo": "049-primer-calor-aclimatacion",
    "publicados": 50,
    "pausa": false,
    "pendientes": [
@@ -44,6 +44,20 @@
    ],
    "linea": [
     {
+     "slug": "049-primer-calor-aclimatacion",
+     "tema": "¿Por qué el primer calor del año te pega más fuerte? Tu cuerpo todavía no está aclimatado (NIOSH)",
+     "estado": "listo",
+     "cuando": "2026-11-20T23:35",
+     "motivo": "vuelve a la cola: contenido que no vence"
+    },
+    {
+     "slug": "050-martes-13-no-viernes",
+     "tema": "¿Por qué el viernes 13 trae mala suerte? En Argentina el de mala suerte es el martes 13 (origen del mito)",
+     "estado": "listo",
+     "cuando": "2026-11-20T23:35",
+     "motivo": "vuelve a la cola: contenido que no vence"
+    },
+    {
      "slug": "054-gta-juegos-violentos",
      "tema": "¿Los videojuegos violentos te hacen violento? Lo que dice la APA (2020), ahora que salió el GTA 6 --actualidad",
      "estado": "listo",
@@ -56,34 +70,6 @@
      "estado": "listo",
      "cuando": "2026-11-20T14:23",
      "motivo": "render sin Claude"
-    },
-    {
-     "slug": "056-gta-trece-anios",
-     "tema": "GTA 6: trece años desde el GTA V y dos postergaciones --actualidad",
-     "estado": "listo",
-     "cuando": "2026-11-20T15:12",
-     "motivo": "render sin Claude"
-    },
-    {
-     "slug": "057-ruta-40-de-punta-a-punta",
-     "tema": "Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)",
-     "estado": "listo",
-     "cuando": "2026-11-20T15:31",
-     "motivo": "render sin Claude"
-    },
-    {
-     "slug": "049-primer-calor-aclimatacion",
-     "tema": "¿Por qué el primer calor del año te pega más fuerte? Tu cuerpo todavía no está aclimatado (NIOSH)",
-     "estado": "apartado",
-     "cuando": "2026-11-20T13:19",
-     "motivo": "tema de actualidad vencido (más de 48 h)"
-    },
-    {
-     "slug": "050-martes-13-no-viernes",
-     "tema": "¿Por qué el viernes 13 trae mala suerte? En Argentina el de mala suerte es el martes 13 (origen del mito)",
-     "estado": "apartado",
-     "cuando": "2026-11-20T13:19",
-     "motivo": "tema de actualidad vencido (más de 48 h)"
     },
     {
      "slug": "051-leonidas-grano-arena",
@@ -204,8 +190,6 @@
       "🔥 016-el-nino-clima — ¿Por qué este año llueve así? El Niño y el pronóstico oficial para el verano",
       "🔥 043-feriados-visita — ¿Qué días son feriado por la visita y dónde? 9 nacional, 10 CABA y Córdoba, 11 Buenos Aires (DNU 1103/2026)",
       "🔥 044-misa-fabrica-aviones — La misa en Córdoba es en la Fábrica Argentina de Aviones: qué es ese lugar (fundada 1927, Pulqui I 1947)",
-      "🔥 049-primer-calor-aclimatacion — ¿Por qué el primer calor del año te pega más fuerte? Tu cuerpo todavía no está aclimatado (NIOSH)",
-      "🔥 050-martes-13-no-viernes — ¿Por qué el viernes 13 trae mala suerte? En Argentina el de mala suerte es el martes 13 (origen del mito)",
       "🔥 051-leonidas-grano-arena — Lluvia de estrellas Leónidas: la estrella fugaz no es una estrella ni una roca gigante, es polvo de cometa del tamaño de un grano de arena que se enciende por la velocidad",
       "🔥 053-cadenas-parana — Día de la Soberanía: por qué el 20/11 cruzaron el río Paraná con cadenas gigantes (Vuelta de Obligado, 1845)"
      ],
@@ -229,8 +213,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-20T19:36",
-     "hace": "hace 3 h",
+     "cuando": "2026-11-20T23:35",
+     "hace": "recién",
      "detalle": [
       "051-leonidas-grano-arena: aprobado — Todas las afirmaciones factuales (velocidad 71 km/s, origen en el polvo del cometa 55P/Tempel-Tuttle, la Tierra cruza ese polvo, tamano de g",
       "052-zapatilla-sobrecarga: aprobado — Tema de seguridad (incendio eléctrico). Todas las afirmaciones de riesgo quedan verificadas con fuentes serias: NFPA y CPSC (EE.UU.) indican",
@@ -262,8 +246,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-20T19:36",
-     "hace": "hace 3 h",
+     "cuando": "2026-11-20T23:35",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -285,14 +269,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-20 19:36.",
-     "cuando": "2026-11-20T19:36",
-     "hace": "hace 3 h",
+     "resumen": "Último video terminado: 2026-11-20 23:35.",
+     "cuando": "2026-11-20T23:35",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "2f5e519bd34e"
+     "firma": "ec9e16de3942"
     },
     {
      "id": "control",
@@ -309,18 +293,16 @@
       }
      },
      "estado": "aviso",
-     "resumen": "Apartó 3 video(s) en las últimas 48 h.",
-     "cuando": "2026-11-20T19:36",
-     "hace": "hace 3 h",
+     "resumen": "Apartó 1 video(s) en las últimas 48 h.",
+     "cuando": "2026-11-20T23:35",
+     "hace": "recién",
      "detalle": [],
      "tareas": [
-      "049-primer-calor-aclimatacion: tema de actualidad vencido (más de 48 h)",
-      "050-martes-13-no-viernes: tema de actualidad vencido (más de 48 h)",
       "051-leonidas-grano-arena: tema de actualidad vencido (más de 48 h)"
      ],
      "arreglo": "Revisalo: si está bien, pasalo a listo; si no, queda apartado.",
      "solo": false,
-     "firma": "a42a94baf0b2"
+     "firma": "819ca40fd239"
     },
     {
      "id": "publicador",
@@ -353,7 +335,7 @@
       "20/11 19:34 053-cadenas-parana paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: 054-gta-juegos-violentos — ¿Los videojuegos violentos te hacen violento? Lo que dice la APA (2020), ahora que salió el GTA 6 --actualidad"
+      "Próximo: 049-primer-calor-aclimatacion — ¿Por qué el primer calor del año te pega más fuerte? Tu cuerpo todavía no está aclimatado (NIOSH)"
      ],
      "arreglo": null,
      "solo": false,
@@ -512,18 +494,16 @@
       }
      },
      "estado": "aviso",
-     "resumen": "Video apartado: 049-primer-calor-aclimatacion — tema de actualidad vencido (más de 48 h)",
+     "resumen": "Video apartado: 051-leonidas-grano-arena — tema de actualidad vencido (más de 48 h)",
      "cuando": "2026-11-20T23:35",
      "hace": "recién",
      "detalle": [
-      "⚠️ Video apartado: 049-primer-calor-aclimatacion — tema de actualidad vencido (más de 48 h)",
-      "⚠️ Video apartado: 050-martes-13-no-viernes — tema de actualidad vencido (más de 48 h)",
       "⚠️ Video apartado: 051-leonidas-grano-arena — tema de actualidad vencido (más de 48 h)"
      ],
      "tareas": [],
      "arreglo": null,
      "solo": true,
-     "firma": "4cf6058080da"
+     "firma": "c3f17d210896"
     },
     {
      "id": "planb",
@@ -1186,11 +1166,17 @@
    "id": "11202335-es-control",
    "creado": "2026-11-20T23:35",
    "empleado": "es/control",
-   "firma": "a42a94baf0b2",
-   "estado": "pedido",
+   "estado": "aplicado",
    "auto": true,
    "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Ramiro (Control de calidad) está en \"aviso\": Apartó 3 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\n049-primer-calor-aclimatacion: tema de actualidad vencido (más de 48 h)\n050-martes-13-no-viernes: tema de actualidad vencido (más de 48 h)\n051-leonidas-grano-arena: tema de actualidad vencido (más de 48 h)\n",
-   "actualizado": "2026-11-20T23:35"
+   "firma": "a42a94baf0b2",
+   "actualizado": "2026-11-20T23:35",
+   "titulo": "Se apartaron 3 videos por vencimiento de las 48 h; recuperé 2 y dejé 1 apartado.",
+   "resumen": "La cola aparta sola los videos marcados \"de actualidad\" que pasan 48 h sin salir, y eso fue lo que pasó con los tres. Dos de ellos, el del primer calor (049) y el del martes 13 (050), tratan temas que no vencen, así que les saqué la marca de actualidad y los pasé a \"listo\". Van a salir en la cola normal. El de las Leónidas (051) quedó apartado, porque la lluvia de estrellas ya pasó y hoy no tiene sentido publicarlo. No cambié código ni reglas, porque el sistema funcionó como está diseñado.",
+   "commit": "53ebee5af8c4b54a94ef9afa4dd0f3900cc54c05",
+   "archivos": [
+    "videos/cola.json"
+   ]
   }
  ]
 }
