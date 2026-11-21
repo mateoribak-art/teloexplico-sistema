@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones (salud/seguridad de la batería) están verificadas contra las dos páginas de Apple Soporte citadas y todas van atribuidas a Apple. No hay falsas, probables ni dudosas. Matices correctos: 'según Apple', 'cuando aprende tu rutina' (Apple dice 'en ciertas situaciones' para demorar pasado el 80 %), 'busca que esté llena' (Apple: 'aims to ensure'), límite al 80 % solo 'desde el iPhone 15'. Observación menor, no bloqueante: la regla guardable del guion.json menciona el límite de 80 % del iPhone 15 en adelante, correcto según Apple; la frase 2 ('sobrecargarse no se sobrecarga') está acotada al iPhone y respaldada por Apple (carga se reanuda si baja de 95 %, no afecta).",
+  "afirmaciones": [
+    {
+      "texto": "Dejar el celular cargando toda la noche: te dijeron que arruina la batería (premisa de mito popular, no presentada como dato)",
+      "fuente": "Planteo del mito; no se afirma como hecho. Apple Soporte 105105 lo desmiente en el iPhone",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En el iPhone, sobrecargarse no se sobrecarga.",
+      "fuente": "Apple Soporte 105105 (support.apple.com/105105): 'iPhone automatically stops charging when the battery is fully charged'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Apple explica que el iPhone deja de cargar solo cuando la batería está completa, y que es seguro dejarlo enchufado toda la noche.",
+      "fuente": "Apple Soporte 105105: 'iPhone automatically stops charging when the battery is fully charged, so it's safe to keep your iPhone connected to a charger overnight'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Según Apple, pasar muchas horas con la batería llena puede desgastarla más.",
+      "fuente": "Apple Soporte 105105: 'To improve your battery's lifespan, Optimized Battery Charging reduces the time that your iPhone spends fully charged'; 108055: 'designed to reduce the wear on your battery' al reducir el tiempo con carga completa. Atribuida a Apple (inferencia directa de su propia justificación)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La carga optimizada aprende tu rutina, demora la carga después del 80 % y busca que esté llena cuando lo desenchufás.",
+      "fuente": "Apple Soporte 108055: 'learn your daily charging routine'; 'delay charging past 80 percent in certain situations'; 'aims to ensure that your iPhone is still fully charged when unplugged'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Desde el iPhone 15, se puede limitar la carga al 80 %.",
+      "fuente": "Apple Soporte 108055: 'To change your charging option with iPhone 15 models and later'; 'choose a charge limit between 80 percent and 100 percent'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La carga optimizada ayuda a cuidar la batería.",
+      "fuente": "Apple Soporte 105105 y 108055: reduce el tiempo con carga completa para mejorar la vida útil / reducir el desgaste",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Fuentes Apple Soporte (support.apple.com/108055 y 105105).",
+      "fuente": "Ambas URLs existen y corresponden a los contenidos citados (108055: Charge Limit y Optimized Battery Charging; 105105: carga y mantenimiento de la batería)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mandáselo al que se levanta a desenchufar el celular a las tres de la mañana. (escenario de humor, no afirmación fáctica)",
+      "fuente": "No aplica: recurso narrativo/destinatario, no se presenta como dato",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "titulo": "¿Dejar el celular cargando toda la noche lo arruina? Lo que dice Apple",
+  "destinatario": "se lo manda una hija a su vieja que se levanta a desenchufar el celular a la madrugada, para decirle que puede dejarlo",
+  "regla_guardable": "Toda la noche enchufado no lo sobrecarga; activá la carga optimizada (o el límite de 80 % del iPhone 15 en adelante)",
+  "interaccion": "comentar y guardar",
+  "pregunta_comentarios": "¿Dormís con el celular cargando?",
+  "pilar": "celular_estafas",
+  "receta": "El que lo hace mal: el error cotidiano de alguien de tu familia y la regla",
+  "fondo": "oscuro",
+  "serie": "casa",
+  "fuentes": [
+    "Apple Soporte: Acerca de la carga optimizada de la batería en el iPhone (support.apple.com/108055)",
+    "Apple Soporte: Carga y mantenimiento de la batería del iPhone (support.apple.com/105105)"
+  ],
+  "frases": [
+    { "texto": "Dejás el celular cargando toda la noche y te dijeron que le arruinás la batería.", "estilo": "Directo y cómplice, afirmando." },
+    { "texto": "En el iPhone, sobrecargarse no se sobrecarga.", "estilo": "Seco y contundente." },
+    { "texto": "Apple explica que el iPhone deja de cargar solo cuando la batería está completa, y que es seguro dejarlo enchufado toda la noche.", "estilo": "Narrador claro, mostrando el dato." },
+    { "texto": "Según Apple, pasar muchas horas con la batería llena puede desgastarla más.", "estilo": "Explicativo, con ritmo." },
+    { "texto": "Por eso Apple trae la carga optimizada: cuando aprende tu rutina, demora la carga después del ochenta y busca que esté llena cuando lo desenchufás.", "estilo": "Claro, con interés." },
+    { "texto": "Y desde el iPhone quince, hasta se puede limitar la carga al ochenta por ciento.", "estilo": "Informativo, tranquilo." },
+    { "texto": "Guardate esto: la carga optimizada ayuda a cuidar la batería.", "estilo": "Firme, cerrando la regla." },
+    { "texto": "¿Dormís con el celular cargando?", "estilo": "Pregunta abierta, curiosa." },
+    { "texto": "Mandáselo al que se levanta a desenchufar el celular a las tres de la mañana.", "estilo": "Cómplice, con humor." }
+  ]
+}

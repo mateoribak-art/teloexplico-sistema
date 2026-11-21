@@ -19,7 +19,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [usada → en-008-wash-chicken (rehecha sin la frase no verificable; chequeo aprobado 29/10)] 012-lavar-pollo · Should you wash raw chicken? (USDA/CDC: no) — serie: cocina
 - [usada → en-011-thaw-counter] 015-descongelar-mesada · Can you thaw meat on the counter? (USDA: fridge, cold water, microwave) — serie: cocina
 - [usada → en-029-swim-after-eating] 002-corte-digestion · Wait 30 minutes after eating to swim? (en EE. UU. el mito es "30 minutes"; salud/seguridad: solo verificado, Red Cross) — serie: cuerpo
-- [ ] 009-ventilador-pieza-vacia · Does a fan cool the room? (turn it off when you leave; DOE) — serie: casa
+- [descartada 21/11: en-009-ceiling-fan ya dice "a fan cools people, not rooms, turn it off when you leave"; sería repetir] 009-ventilador-pieza-vacia · Does a fan cool the room? (turn it off when you leave; DOE) — serie: casa
 - [intentada → en-020-ac-sixty, apartado: la cita del DOE no se pudo verificar en la fuente primaria; reintentar solo con energy.gov legible] 008-aire-en-17 · Cranking the thermostat to 60 °F doesn't cool faster (DOE; en °F) — serie: casa
 - [usada → en-012-thunder-count] 018-rayo-trueno · How far away is the storm? Count seconds: 5 seconds ≈ 1 mile (NWS; "when thunder roars, go indoors") — serie: clima
 - [usada → en-024-heat-index] 019-sensacion-termica · Why "feels like" is higher than the temperature: heat index (NWS; en °F). En invierno el ángulo es el wind chill — serie: clima
@@ -33,7 +33,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 ## Temas de EE. UU. — serie: cocina (Kitchen myths)
 - [usada → en-006-five-second-rule] Is the 5-second rule real? (Rutgers study 2016: transfer can be instant; depends on food and surface)
 - [usada → en-013-searing-juices] Does searing meat "seal in the juices"? (myth)
-- [ ] Does alcohol fully cook off? (USDA retention table: it depends on time)
+- [usada → en-034-alcohol-cook-off] Does alcohol fully cook off? (USDA retention table: it depends on time)
 - [ ] Does adding oil to pasta water stop it from sticking?
 - [usada → en-033-turkey-thaw] Thanksgiving: how long does a frozen turkey take to thaw in the fridge? (USDA: ~24 h per 4–5 lb) — publicar antes del 26/11/2026
 - [usada → en-028-turkey-sleepy] Does turkey make you sleepy? (tryptophan myth) — cerca de Thanksgiving

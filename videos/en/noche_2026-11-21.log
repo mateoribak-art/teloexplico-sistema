@@ -8,3 +8,15 @@ Permisos negados (1):
 2026-11-21 00:20 Render de en-033-turkey-thaw (sin Claude).
 2026-11-21 00:29 en-033-turkey-thaw: listo (render sin Claude)
 2026-11-21 00:29 Termina la producción (ok).
+2026-11-21 08:48 Arranca la producción (8 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+Listo: `en-034-alcohol-cook-off` ("¿El alcohol se evapora al cocinar?", tabla de retención del USDA) quedó en estado `render`; `producir.py` lo renderiza y lo pasa a `listo`. Estado: 3D con la olla del kit, fondo oscuro, serie cocina #10. La voz salió de 47,7 s (algo larga) y `tlx tsc` dio OK. Revisé los cuadros y se ven bien.
+Interacción: guardar ("15 min = 40 %, 1 h = 25 %, 2,5 h = 5 %, flambé 75 %") y comentar ("Do you cook with wine? Yes or no?").
+Chequeo: el primer intento lo rechazó porque las cifras solo estaban en fuentes secundarias y "sauce" no figura en la fuente. Lo corregí y el segundo lo aprobó con fuentes institucionales (Idaho State, Colorado State, Exploratorium). **Ninguno de los dos intentos pudo leer la fila primaria del PDF del USDA.** Si querés exigir esa lectura literal por tratarse de seguridad, hay que revisar este video antes de que salga.
+No había videos apartados por "chequeo rechazado", así que no rescaté ninguno. Descarté adaptar `009-ventilador-pieza-vacia` porque `en-009-ceiling-fan` ya dice lo mismo. Ideas y `produccion.log` actualizados.
+Uso: 65 pasos · 95,241 tokens nuevos · 2,404,049 de caché · 18,941 escritos · equivale a US$ 1.30 de API
+Permisos negados (2):
+  Bash: {"command": "cd /tmp; mkdir -p ret; cp /home/runner/.claude/projects/-home-runner-work-teloexplico-sistema-teloexplico-sistema/31a1f277-75f2-4efe-974b
+  Bash: {"command": "mkdir -p /tmp/d1 && cd /tmp/d1 && curl -sL -m 60 -o r.pdf https://www.ars.usda.gov/ARSUserFiles/80400525/Data/retn/retn06.pdf; ls -la; fi
+2026-11-21 08:56 Render de en-034-alcohol-cook-off (sin Claude).
+2026-11-21 09:13 en-034-alcohol-cook-off: listo (render sin Claude)
+2026-11-21 09:13 Termina la producción (ok).

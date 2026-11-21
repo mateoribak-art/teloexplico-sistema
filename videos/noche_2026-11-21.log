@@ -1,0 +1,10 @@
+2026-11-21 08:35 Arranca la producción (8 listos en la cola, meta 10).
+2026-11-21 | 060-celular-carga-noche | render (3D listo para render nocturno) | Pilar celular, serie casa #11. interaccion=comentar y guardar ('¿Dormís con el celular cargando?' / carga optimizada). Chequeo rechazado en el 1.er intento (frases sin atribución a Apple, 'lo cuida' sobreafirmado) y aprobado en el 2.º. Voz 43,3 s, 127/127. Objeto nuevo kit3d/objetos/CargaNoche.tsx, tsc OK, 2 vueltas de cuadros (cámara recentrada). Seguidores: ~+22/día vs necesario ~+95/día (no medido de nuevo). Radar no revisado en esta corrida (última revisión 20/11). Sin apartados rescatables (038, 042, 044, 051 ya agotaron sus intentos o vencieron). Segundo video no producido: decisión mía para no gastar más cuota, no por Gemini.
+Resumen:
+- **Listo para render:** `060-celular-carga-noche` (celular cargando toda la noche, según Apple). El chequeo lo rechazó la 1.ª vez por falta de atribución a Apple y lo aprobó la 2.ª. Voz de 43,3 s, 127 de 127 palabras. `tlx tsc` sin errores y dos vueltas de cuadros. Interacción: comentar y guardar.
+- **Apartados:** ninguno para rescatar. 038, 042, 044 y 051 ya agotaron sus intentos o vencieron, y 005 quedó apartado por otro motivo.
+- **No hecho:** no produje un segundo video aunque quedaban menos de 10 listos y Gemini no se agotó. Lo decidí yo para no gastar más cuota. Tampoco corrí el radar de actualidad (la última revisión es del 20/11).
+Uso: 19 pasos · 18,662 tokens nuevos · 1,374,660 de caché · 3,484 escritos · equivale a US$ 1.20 de API
+2026-11-21 08:40 Render de 060-celular-carga-noche (sin Claude).
+2026-11-21 08:48 060-celular-carga-noche: listo (render sin Claude)
+2026-11-21 08:48 Termina la producción (ok).

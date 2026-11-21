@@ -2254,5 +2254,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "060-celular-carga-noche",
+  "tema": "¿Dejar el celular cargando toda la noche lo arruina? Apple: no se sobrecarga; carga optimizada y límite del 80 %",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-21T08:35",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-21T08:35",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-21T08:40",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-21T08:48",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

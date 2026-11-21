@@ -1,0 +1,81 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segundo intento. La fila primaria del PDF de USDA Release 6 (retn06.pdf) sigue sin poder leerse: WebFetch devuelve el PDF comprimido (FlateDecode), retn06.txt no trae las filas de alcohol en los primeros 300000 caracteres (el texto completo tiene 557859) y no hay lector de PDF en el entorno. Se cumple entonces la via alternativa: las cuatro cifras estan confirmadas por al menos dos fuentes institucionales independientes. (1) Idaho State University, Health Sciences (2019): tabla 'Time Cooked at Boiling Point of Alcohol (173 F)': 15 min 40%, 30 min 35%, 1 hora 25%, 2 horas 10%, 2.5 horas 5%, con la leyenda 'SOURCE: USDA Table of Nutrient Retention Factors, Release 6'. (2) Colorado State University, extension (Perryman, 2010): 'baked or simmered for 15 minutes, 40 percent remains'; 25% tras una hora; 5% tras dos horas y media; 'flamed dishes may contain as much as 75 percent' (esta nota no cita fuente). (3) Exploratorium, Science of Cooking: flambeado deja alrededor de 75% y horneado o a fuego lento 15 min deja alrededor de 40%. Ademas, Wikipedia reproduce la tabla (0.25 h 40%, 0.5 h 35%, 1 h 25%, 1.5 h 20%, 2 h 10%, 2.5 h 5%) citando a Augustin et al. 1992, y atribuye flameado 75% a la tabla USDA 2007; un resumen de MSSNY que cita Release 6 pag. 14 da 40% a 15 min y 35% a 30 min. PubMed 1556354 confirma que el articulo de Augustin existe (sin abstract). Todas las cifras coinciden entre fuentes y no hay contradicciones. El vocabulario corregido es fiel: 'a dish simmered ... with the alcohol stirred in' (el matiz 'alcohol mezclado' proviene de la descripcion de la fila en fuentes secundarias; ISU aclara que revolver reduce la retencion), 'estimates' en lugar de 'averages', 'dish' en lugar de 'sauce', y se aclara que son estimaciones que varian con la olla, el revuelto y la receta (ISU, CSU; Augustin observo un rango de 4% a 85% segun la fuente secundaria). La advertencia de seguridad (quien evita el alcohol por completo, que no use vino) es conservadora y no afirma nada falso. Limitacion declarada: no se leyo textualmente la fila primaria; la aprobacion se apoya en las fuentes institucionales independientes. Conviene mantener 'about' y 'estimates' tal como estan y no endurecer ninguna cifra.",
+  "afirmaciones": [
+    {
+      "texto": "You think the alcohol cooked off the second the wine hit the hot pan. (creencia popular, encuadre)",
+      "fuente": "Idaho State University (https://www.isu.edu/healthsciences/news/2019/alcohol-cooks-out-or-does-it) y Colorado State University Extension (https://newsmediarelations.colostate.edu/2010/12/15/perryman-nutrition-column-be-savvy-when-cooking-with-alcohol/) tratan la idea como mito comun; es encuadre, no afirmacion factual",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "It didn't.",
+      "fuente": "ISU, CSU Extension y Exploratorium: parte importante del alcohol queda tras cocinar (40% a 15 min, 75% en flambe)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The USDA's retention table says a dish simmered for fifteen minutes, with the alcohol stirred in, still holds about forty percent of the alcohol.",
+      "fuente": "ISU (cita USDA Table of Nutrient Retention Factors, Release 6): 15 min = 40%. CSU Extension: 'baked or simmered for 15 minutes, 40 percent'. Exploratorium: about 40 percent. Wikipedia: fila 'alcohol stirred into mixture', 0.25 h = 40% (Augustin 1992).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "After an hour, about twenty-five percent is still in there.",
+      "fuente": "ISU (Release 6): one hour = 25%. CSU Extension: 'Twenty five percent remains after one hour'. Wikipedia: 1.0 h = 25%.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "It takes around two and a half hours of cooking to get down to about five percent.",
+      "fuente": "ISU (Release 6): 2.5 horas = 5%. CSU Extension: 'only 5 percent remains after two-and-a-half hours'. Food Network y Wikipedia coinciden. ISU aclara que es cocinando al punto de ebullicion del alcohol (173 F).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "And if you flambé, the table says about seventy-five percent stays in the dish.",
+      "fuente": "Exploratorium: 'flambeing leave about 75 percent of the alcohol in the food'. CSU Extension: 'as much as 75 percent' (sin cita). Wikipedia atribuye flameado 75% a la tabla USDA 2007 y un documento que reproduce la tabla lo lista igual. Fila primaria no leida directamente.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: those are estimates, and they change with the pan, the stirring and the recipe. If someone at your table avoids alcohol completely, leave the wine out.",
+      "fuente": "ISU: otros ingredientes, tamano de la olla y revolver cambian la retencion. CSU Extension: ollas mas chicas retienen mas. Rango de Augustin 1992 de 4% a 85% (fuente secundaria). El consejo es una precaucion conservadora.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Save this for your next wine dish: fifteen minutes, forty percent. One hour, twenty-five. Two and a half hours, five.",
+      "fuente": "Repite las cifras anteriores (ISU, CSU Extension, Wikipedia). 'wine dish' no amplia el alcance mas alla de 'dish'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Do you cook with wine? Yes or no? / Send this to the friend who swears it all burns off.",
+      "fuente": "No factual (pregunta/CTA)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "interaccion.guardar: Alcohol left after simmering: 15 min about 40%, 1 hour about 25%, 2.5 hours about 5%; flambé about 75% (USDA retention table).",
+      "fuente": "Mismas cifras y fuentes. Sugerencia opcional: 'simmering or baking with the alcohol stirred in' para igualar la precision de la tabla.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "caption: The USDA's retention table says a dish simmered for 15 minutes, with the alcohol stirred in, still holds about 40% of the alcohol. After 1 hour: about 25%. After 2.5 hours: about 5%. If you flambé, the table says about 75%.",
+      "fuente": "Igual que el guion: ISU, CSU Extension, Exploratorium, Wikipedia.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "caption: Sources: USDA Agricultural Research Service, Table of Nutrient Retention Factors, Release 6 (2007); Augustin et al., Journal of the American Dietetic Association, 1992.",
+      "fuente": "Ambas existen: USDA ARS Release 6 (2007), incluido el catalogo de data.gov (26 factores de retencion: vitaminas, minerales y alcohol), y PubMed 1556354 (Augustin J, Augustin E, Cutrufelli RL, Hagen SR, Teitzel C. J Am Diet Assoc 1992;92(4):486-8).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ],
+  "versiones_sugeridas": {
+    "paso_previo": "Sin cambios obligatorios. Pendiente opcional: leer textualmente la fila 'alcohol flamed' y 'baked/simmered, alcohol stirred into mixture' en retn06.pdf (pag. 14) cuando haya un lector de PDF disponible."
+  }
+}

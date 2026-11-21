@@ -1152,5 +1152,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-034-alcohol-cook-off",
+  "tema": "Does alcohol fully cook off? (USDA retention table; own; kitchen)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-21T08:49",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-21T08:49",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-21T08:56",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-21T09:13",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

@@ -1,0 +1,703 @@
+{
+ "duracion": 43.28,
+ "frases": [
+  {
+   "texto": "Dejás el celular cargando toda la noche y te dijeron que le arruinás la batería.",
+   "palabras": [
+    {
+     "texto": "Dejás",
+     "inicio": 0.0,
+     "fin": 0.32
+    },
+    {
+     "texto": "el",
+     "inicio": 0.32,
+     "fin": 0.42
+    },
+    {
+     "texto": "celular",
+     "inicio": 0.42,
+     "fin": 0.74
+    },
+    {
+     "texto": "cargando",
+     "inicio": 0.74,
+     "fin": 1.22
+    },
+    {
+     "texto": "toda",
+     "inicio": 1.22,
+     "fin": 1.54
+    },
+    {
+     "texto": "la",
+     "inicio": 1.54,
+     "fin": 1.68
+    },
+    {
+     "texto": "noche",
+     "inicio": 1.68,
+     "fin": 1.96
+    },
+    {
+     "texto": "y",
+     "inicio": 1.96,
+     "fin": 2.54
+    },
+    {
+     "texto": "te",
+     "inicio": 2.54,
+     "fin": 2.66
+    },
+    {
+     "texto": "dijeron",
+     "inicio": 2.66,
+     "fin": 2.98
+    },
+    {
+     "texto": "que",
+     "inicio": 2.98,
+     "fin": 3.18
+    },
+    {
+     "texto": "le",
+     "inicio": 3.18,
+     "fin": 3.4
+    },
+    {
+     "texto": "arruinás",
+     "inicio": 3.4,
+     "fin": 3.76
+    },
+    {
+     "texto": "la",
+     "inicio": 3.76,
+     "fin": 3.86
+    },
+    {
+     "texto": "batería.",
+     "inicio": 3.86,
+     "fin": 4.34
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.34
+  },
+  {
+   "texto": "En el iPhone, sobrecargarse no se sobrecarga.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 4.82,
+     "fin": 4.98
+    },
+    {
+     "texto": "el",
+     "inicio": 4.98,
+     "fin": 5.08
+    },
+    {
+     "texto": "iPhone,",
+     "inicio": 5.08,
+     "fin": 5.44
+    },
+    {
+     "texto": "sobrecargarse",
+     "inicio": 5.86,
+     "fin": 6.72
+    },
+    {
+     "texto": "no",
+     "inicio": 6.72,
+     "fin": 7.4
+    },
+    {
+     "texto": "se",
+     "inicio": 7.4,
+     "fin": 7.52
+    },
+    {
+     "texto": "sobrecarga.",
+     "inicio": 7.52,
+     "fin": 8.14
+    }
+   ],
+   "inicio": 4.82,
+   "fin": 8.14
+  },
+  {
+   "texto": "Apple explica que el iPhone deja de cargar solo cuando la batería está completa, y que es seguro dejarlo enchufado toda la noche.",
+   "palabras": [
+    {
+     "texto": "Apple",
+     "inicio": 8.46,
+     "fin": 8.8
+    },
+    {
+     "texto": "explica",
+     "inicio": 8.8,
+     "fin": 9.22
+    },
+    {
+     "texto": "que",
+     "inicio": 9.22,
+     "fin": 9.4
+    },
+    {
+     "texto": "el",
+     "inicio": 9.4,
+     "fin": 9.52
+    },
+    {
+     "texto": "iPhone",
+     "inicio": 9.52,
+     "fin": 9.72
+    },
+    {
+     "texto": "deja",
+     "inicio": 9.72,
+     "fin": 10.0
+    },
+    {
+     "texto": "de",
+     "inicio": 10.0,
+     "fin": 10.14
+    },
+    {
+     "texto": "cargar",
+     "inicio": 10.14,
+     "fin": 10.4
+    },
+    {
+     "texto": "solo",
+     "inicio": 10.4,
+     "fin": 10.78
+    },
+    {
+     "texto": "cuando",
+     "inicio": 10.78,
+     "fin": 11.06
+    },
+    {
+     "texto": "la",
+     "inicio": 11.06,
+     "fin": 11.26
+    },
+    {
+     "texto": "batería",
+     "inicio": 11.26,
+     "fin": 11.6
+    },
+    {
+     "texto": "está",
+     "inicio": 11.6,
+     "fin": 11.72
+    },
+    {
+     "texto": "completa,",
+     "inicio": 11.72,
+     "fin": 12.14
+    },
+    {
+     "texto": "y",
+     "inicio": 12.78,
+     "fin": 12.82
+    },
+    {
+     "texto": "que",
+     "inicio": 12.82,
+     "fin": 12.94
+    },
+    {
+     "texto": "es",
+     "inicio": 12.94,
+     "fin": 13.12
+    },
+    {
+     "texto": "seguro",
+     "inicio": 13.12,
+     "fin": 13.4
+    },
+    {
+     "texto": "dejarlo",
+     "inicio": 13.4,
+     "fin": 13.86
+    },
+    {
+     "texto": "enchufado",
+     "inicio": 13.86,
+     "fin": 14.3
+    },
+    {
+     "texto": "toda",
+     "inicio": 14.3,
+     "fin": 14.62
+    },
+    {
+     "texto": "la",
+     "inicio": 14.62,
+     "fin": 14.76
+    },
+    {
+     "texto": "noche.",
+     "inicio": 14.76,
+     "fin": 15.02
+    }
+   ],
+   "inicio": 8.46,
+   "fin": 15.02
+  },
+  {
+   "texto": "Según Apple, pasar muchas horas con la batería llena puede desgastarla más.",
+   "palabras": [
+    {
+     "texto": "Según",
+     "inicio": 15.48,
+     "fin": 15.88
+    },
+    {
+     "texto": "Apple,",
+     "inicio": 15.88,
+     "fin": 16.2
+    },
+    {
+     "texto": "pasar",
+     "inicio": 16.5,
+     "fin": 16.64
+    },
+    {
+     "texto": "muchas",
+     "inicio": 16.64,
+     "fin": 16.9
+    },
+    {
+     "texto": "horas",
+     "inicio": 16.9,
+     "fin": 17.14
+    },
+    {
+     "texto": "con",
+     "inicio": 17.14,
+     "fin": 17.32
+    },
+    {
+     "texto": "la",
+     "inicio": 17.32,
+     "fin": 17.42
+    },
+    {
+     "texto": "batería",
+     "inicio": 17.42,
+     "fin": 17.8
+    },
+    {
+     "texto": "llena",
+     "inicio": 17.8,
+     "fin": 18.14
+    },
+    {
+     "texto": "puede",
+     "inicio": 18.14,
+     "fin": 18.56
+    },
+    {
+     "texto": "desgastarla",
+     "inicio": 18.56,
+     "fin": 19.1
+    },
+    {
+     "texto": "más.",
+     "inicio": 19.1,
+     "fin": 19.36
+    }
+   ],
+   "inicio": 15.48,
+   "fin": 19.36
+  },
+  {
+   "texto": "Por eso Apple trae la carga optimizada: cuando aprende tu rutina, demora la carga después del ochenta y busca que esté llena cuando lo desenchufás.",
+   "palabras": [
+    {
+     "texto": "Por",
+     "inicio": 19.88,
+     "fin": 20.04
+    },
+    {
+     "texto": "eso",
+     "inicio": 20.04,
+     "fin": 20.26
+    },
+    {
+     "texto": "Apple",
+     "inicio": 20.26,
+     "fin": 20.58
+    },
+    {
+     "texto": "trae",
+     "inicio": 20.58,
+     "fin": 20.92
+    },
+    {
+     "texto": "la",
+     "inicio": 20.92,
+     "fin": 21.02
+    },
+    {
+     "texto": "carga",
+     "inicio": 21.02,
+     "fin": 21.22
+    },
+    {
+     "texto": "optimizada:",
+     "inicio": 21.22,
+     "fin": 21.82
+    },
+    {
+     "texto": "cuando",
+     "inicio": 22.3,
+     "fin": 22.56
+    },
+    {
+     "texto": "aprende",
+     "inicio": 22.56,
+     "fin": 22.94
+    },
+    {
+     "texto": "tu",
+     "inicio": 22.94,
+     "fin": 23.04
+    },
+    {
+     "texto": "rutina,",
+     "inicio": 23.04,
+     "fin": 23.48
+    },
+    {
+     "texto": "demora",
+     "inicio": 23.84,
+     "fin": 24.22
+    },
+    {
+     "texto": "la",
+     "inicio": 24.22,
+     "fin": 24.38
+    },
+    {
+     "texto": "carga",
+     "inicio": 24.38,
+     "fin": 24.64
+    },
+    {
+     "texto": "después",
+     "inicio": 24.64,
+     "fin": 24.94
+    },
+    {
+     "texto": "del",
+     "inicio": 24.94,
+     "fin": 25.12
+    },
+    {
+     "texto": "ochenta",
+     "inicio": 25.12,
+     "fin": 25.52
+    },
+    {
+     "texto": "y",
+     "inicio": 25.52,
+     "fin": 26.08
+    },
+    {
+     "texto": "busca",
+     "inicio": 26.08,
+     "fin": 26.28
+    },
+    {
+     "texto": "que",
+     "inicio": 26.28,
+     "fin": 26.46
+    },
+    {
+     "texto": "esté",
+     "inicio": 26.46,
+     "fin": 26.6
+    },
+    {
+     "texto": "llena",
+     "inicio": 26.6,
+     "fin": 26.88
+    },
+    {
+     "texto": "cuando",
+     "inicio": 26.88,
+     "fin": 27.1
+    },
+    {
+     "texto": "lo",
+     "inicio": 27.1,
+     "fin": 27.3
+    },
+    {
+     "texto": "desenchufás.",
+     "inicio": 27.3,
+     "fin": 27.88
+    }
+   ],
+   "inicio": 19.88,
+   "fin": 27.88
+  },
+  {
+   "texto": "Y desde el iPhone quince, hasta se puede limitar la carga al ochenta por ciento.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 27.88,
+     "fin": 28.54
+    },
+    {
+     "texto": "desde",
+     "inicio": 28.54,
+     "fin": 28.74
+    },
+    {
+     "texto": "el",
+     "inicio": 28.74,
+     "fin": 28.92
+    },
+    {
+     "texto": "iPhone",
+     "inicio": 28.92,
+     "fin": 29.1
+    },
+    {
+     "texto": "quince,",
+     "inicio": 29.1,
+     "fin": 29.58
+    },
+    {
+     "texto": "hasta",
+     "inicio": 29.96,
+     "fin": 30.08
+    },
+    {
+     "texto": "se",
+     "inicio": 30.08,
+     "fin": 30.22
+    },
+    {
+     "texto": "puede",
+     "inicio": 30.22,
+     "fin": 30.4
+    },
+    {
+     "texto": "limitar",
+     "inicio": 30.4,
+     "fin": 30.8
+    },
+    {
+     "texto": "la",
+     "inicio": 30.8,
+     "fin": 30.98
+    },
+    {
+     "texto": "carga",
+     "inicio": 30.98,
+     "fin": 31.24
+    },
+    {
+     "texto": "al",
+     "inicio": 31.24,
+     "fin": 31.72
+    },
+    {
+     "texto": "ochenta",
+     "inicio": 31.72,
+     "fin": 32.08
+    },
+    {
+     "texto": "por",
+     "inicio": 32.08,
+     "fin": 32.3
+    },
+    {
+     "texto": "ciento.",
+     "inicio": 32.3,
+     "fin": 32.54
+    }
+   ],
+   "inicio": 27.88,
+   "fin": 32.54
+  },
+  {
+   "texto": "Guardate esto: la carga optimizada ayuda a cuidar la batería.",
+   "palabras": [
+    {
+     "texto": "Guardate",
+     "inicio": 33.12,
+     "fin": 33.5
+    },
+    {
+     "texto": "esto:",
+     "inicio": 33.5,
+     "fin": 33.74
+    },
+    {
+     "texto": "la",
+     "inicio": 34.3,
+     "fin": 34.4
+    },
+    {
+     "texto": "carga",
+     "inicio": 34.4,
+     "fin": 34.62
+    },
+    {
+     "texto": "optimizada",
+     "inicio": 34.62,
+     "fin": 35.32
+    },
+    {
+     "texto": "ayuda",
+     "inicio": 35.32,
+     "fin": 36.0
+    },
+    {
+     "texto": "a",
+     "inicio": 36.0,
+     "fin": 36.22
+    },
+    {
+     "texto": "cuidar",
+     "inicio": 36.22,
+     "fin": 36.58
+    },
+    {
+     "texto": "la",
+     "inicio": 36.58,
+     "fin": 36.66
+    },
+    {
+     "texto": "batería.",
+     "inicio": 36.66,
+     "fin": 37.14
+    }
+   ],
+   "inicio": 33.12,
+   "fin": 37.14
+  },
+  {
+   "texto": "¿Dormís con el celular cargando?",
+   "palabras": [
+    {
+     "texto": "¿Dormís",
+     "inicio": 37.64,
+     "fin": 37.86
+    },
+    {
+     "texto": "con",
+     "inicio": 37.86,
+     "fin": 38.02
+    },
+    {
+     "texto": "el",
+     "inicio": 38.02,
+     "fin": 38.12
+    },
+    {
+     "texto": "celular",
+     "inicio": 38.12,
+     "fin": 38.42
+    },
+    {
+     "texto": "cargando?",
+     "inicio": 38.42,
+     "fin": 38.9
+    }
+   ],
+   "inicio": 37.64,
+   "fin": 38.9
+  },
+  {
+   "texto": "Mandáselo al que se levanta a desenchufar el celular a las tres de la mañana.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 39.56,
+     "fin": 40.04
+    },
+    {
+     "texto": "al",
+     "inicio": 40.04,
+     "fin": 40.14
+    },
+    {
+     "texto": "que",
+     "inicio": 40.14,
+     "fin": 40.26
+    },
+    {
+     "texto": "se",
+     "inicio": 40.26,
+     "fin": 40.38
+    },
+    {
+     "texto": "levanta",
+     "inicio": 40.38,
+     "fin": 40.82
+    },
+    {
+     "texto": "a",
+     "inicio": 40.82,
+     "fin": 40.9
+    },
+    {
+     "texto": "desenchufar",
+     "inicio": 40.9,
+     "fin": 41.44
+    },
+    {
+     "texto": "el",
+     "inicio": 41.44,
+     "fin": 41.56
+    },
+    {
+     "texto": "celular",
+     "inicio": 41.56,
+     "fin": 41.92
+    },
+    {
+     "texto": "a",
+     "inicio": 41.92,
+     "fin": 42.32
+    },
+    {
+     "texto": "las",
+     "inicio": 42.32,
+     "fin": 42.44
+    },
+    {
+     "texto": "tres",
+     "inicio": 42.44,
+     "fin": 42.66
+    },
+    {
+     "texto": "de",
+     "inicio": 42.66,
+     "fin": 42.78
+    },
+    {
+     "texto": "la",
+     "inicio": 42.78,
+     "fin": 42.86
+    },
+    {
+     "texto": "mañana.",
+     "inicio": 42.86,
+     "fin": 43.1
+    }
+   ],
+   "inicio": 39.56,
+   "fin": 43.1
+  }
+ ]
+}

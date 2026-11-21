@@ -1,0 +1,815 @@
+{
+ "duracion": 47.67,
+ "frases": [
+  {
+   "texto": "You think the alcohol cooked off the second the wine hit the hot pan.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.32
+    },
+    {
+     "texto": "think",
+     "inicio": 0.32,
+     "fin": 0.64
+    },
+    {
+     "texto": "the",
+     "inicio": 0.64,
+     "fin": 0.84
+    },
+    {
+     "texto": "alcohol",
+     "inicio": 0.84,
+     "fin": 1.22
+    },
+    {
+     "texto": "cooked",
+     "inicio": 1.22,
+     "fin": 1.58
+    },
+    {
+     "texto": "off",
+     "inicio": 1.58,
+     "fin": 1.82
+    },
+    {
+     "texto": "the",
+     "inicio": 1.82,
+     "fin": 2.04
+    },
+    {
+     "texto": "second",
+     "inicio": 2.04,
+     "fin": 2.42
+    },
+    {
+     "texto": "the",
+     "inicio": 2.42,
+     "fin": 2.64
+    },
+    {
+     "texto": "wine",
+     "inicio": 2.64,
+     "fin": 2.84
+    },
+    {
+     "texto": "hit",
+     "inicio": 2.84,
+     "fin": 3.04
+    },
+    {
+     "texto": "the",
+     "inicio": 3.04,
+     "fin": 3.16
+    },
+    {
+     "texto": "hot",
+     "inicio": 3.16,
+     "fin": 3.3
+    },
+    {
+     "texto": "pan.",
+     "inicio": 3.3,
+     "fin": 3.56
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.56
+  },
+  {
+   "texto": "It didn't.",
+   "palabras": [
+    {
+     "texto": "It",
+     "inicio": 4.08,
+     "fin": 4.32
+    },
+    {
+     "texto": "didn't.",
+     "inicio": 4.32,
+     "fin": 4.76
+    }
+   ],
+   "inicio": 4.08,
+   "fin": 4.76
+  },
+  {
+   "texto": "The USDA's retention table says a dish simmered for fifteen minutes, with the alcohol stirred in, still holds about forty percent of the alcohol.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 5.24,
+     "fin": 5.4
+    },
+    {
+     "texto": "USDA's",
+     "inicio": 5.4,
+     "fin": 5.92
+    },
+    {
+     "texto": "retention",
+     "inicio": 5.92,
+     "fin": 6.22
+    },
+    {
+     "texto": "table",
+     "inicio": 6.22,
+     "fin": 6.66
+    },
+    {
+     "texto": "says",
+     "inicio": 6.66,
+     "fin": 6.92
+    },
+    {
+     "texto": "a",
+     "inicio": 6.92,
+     "fin": 7.1
+    },
+    {
+     "texto": "dish",
+     "inicio": 7.1,
+     "fin": 7.24
+    },
+    {
+     "texto": "simmered",
+     "inicio": 7.24,
+     "fin": 7.62
+    },
+    {
+     "texto": "for",
+     "inicio": 7.62,
+     "fin": 7.78
+    },
+    {
+     "texto": "fifteen",
+     "inicio": 7.78,
+     "fin": 8.2
+    },
+    {
+     "texto": "minutes,",
+     "inicio": 8.2,
+     "fin": 8.56
+    },
+    {
+     "texto": "with",
+     "inicio": 8.72,
+     "fin": 8.82
+    },
+    {
+     "texto": "the",
+     "inicio": 8.82,
+     "fin": 8.92
+    },
+    {
+     "texto": "alcohol",
+     "inicio": 8.92,
+     "fin": 9.14
+    },
+    {
+     "texto": "stirred",
+     "inicio": 9.14,
+     "fin": 9.48
+    },
+    {
+     "texto": "in,",
+     "inicio": 9.48,
+     "fin": 9.7
+    },
+    {
+     "texto": "still",
+     "inicio": 10.08,
+     "fin": 10.32
+    },
+    {
+     "texto": "holds",
+     "inicio": 10.32,
+     "fin": 10.6
+    },
+    {
+     "texto": "about",
+     "inicio": 10.6,
+     "fin": 10.82
+    },
+    {
+     "texto": "forty",
+     "inicio": 10.82,
+     "fin": 11.32
+    },
+    {
+     "texto": "percent",
+     "inicio": 11.32,
+     "fin": 11.66
+    },
+    {
+     "texto": "of",
+     "inicio": 11.66,
+     "fin": 11.74
+    },
+    {
+     "texto": "the",
+     "inicio": 11.74,
+     "fin": 11.82
+    },
+    {
+     "texto": "alcohol.",
+     "inicio": 11.82,
+     "fin": 12.06
+    }
+   ],
+   "inicio": 5.24,
+   "fin": 12.06
+  },
+  {
+   "texto": "After an hour, about twenty-five percent is still in there.",
+   "palabras": [
+    {
+     "texto": "After",
+     "inicio": 12.62,
+     "fin": 12.86
+    },
+    {
+     "texto": "an",
+     "inicio": 12.86,
+     "fin": 13.02
+    },
+    {
+     "texto": "hour,",
+     "inicio": 13.02,
+     "fin": 13.16
+    },
+    {
+     "texto": "about",
+     "inicio": 13.32,
+     "fin": 13.44
+    },
+    {
+     "texto": "twenty-five",
+     "inicio": 13.44,
+     "fin": 14.02
+    },
+    {
+     "texto": "percent",
+     "inicio": 14.02,
+     "fin": 14.32
+    },
+    {
+     "texto": "is",
+     "inicio": 14.32,
+     "fin": 14.44
+    },
+    {
+     "texto": "still",
+     "inicio": 14.44,
+     "fin": 14.62
+    },
+    {
+     "texto": "in",
+     "inicio": 14.62,
+     "fin": 14.76
+    },
+    {
+     "texto": "there.",
+     "inicio": 14.76,
+     "fin": 14.88
+    }
+   ],
+   "inicio": 12.62,
+   "fin": 14.88
+  },
+  {
+   "texto": "It takes around two and a half hours of cooking to get down to about five percent.",
+   "palabras": [
+    {
+     "texto": "It",
+     "inicio": 15.38,
+     "fin": 15.5
+    },
+    {
+     "texto": "takes",
+     "inicio": 15.5,
+     "fin": 15.72
+    },
+    {
+     "texto": "around",
+     "inicio": 15.72,
+     "fin": 15.98
+    },
+    {
+     "texto": "two",
+     "inicio": 15.98,
+     "fin": 16.36
+    },
+    {
+     "texto": "and",
+     "inicio": 16.36,
+     "fin": 16.5
+    },
+    {
+     "texto": "a",
+     "inicio": 16.5,
+     "fin": 16.58
+    },
+    {
+     "texto": "half",
+     "inicio": 16.58,
+     "fin": 16.84
+    },
+    {
+     "texto": "hours",
+     "inicio": 16.84,
+     "fin": 17.06
+    },
+    {
+     "texto": "of",
+     "inicio": 17.06,
+     "fin": 17.24
+    },
+    {
+     "texto": "cooking",
+     "inicio": 17.24,
+     "fin": 17.5
+    },
+    {
+     "texto": "to",
+     "inicio": 17.5,
+     "fin": 17.82
+    },
+    {
+     "texto": "get",
+     "inicio": 17.82,
+     "fin": 17.94
+    },
+    {
+     "texto": "down",
+     "inicio": 17.94,
+     "fin": 18.14
+    },
+    {
+     "texto": "to",
+     "inicio": 18.14,
+     "fin": 18.24
+    },
+    {
+     "texto": "about",
+     "inicio": 18.24,
+     "fin": 18.42
+    },
+    {
+     "texto": "five",
+     "inicio": 18.42,
+     "fin": 18.9
+    },
+    {
+     "texto": "percent.",
+     "inicio": 18.9,
+     "fin": 19.38
+    }
+   ],
+   "inicio": 15.38,
+   "fin": 19.38
+  },
+  {
+   "texto": "And if you flambé, the table says about seventy-five percent stays in the dish.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 19.78,
+     "fin": 20.04
+    },
+    {
+     "texto": "if",
+     "inicio": 20.04,
+     "fin": 20.2
+    },
+    {
+     "texto": "you",
+     "inicio": 20.2,
+     "fin": 20.3
+    },
+    {
+     "texto": "flambé,",
+     "inicio": 20.3,
+     "fin": 20.88
+    },
+    {
+     "texto": "the",
+     "inicio": 21.32,
+     "fin": 21.44
+    },
+    {
+     "texto": "table",
+     "inicio": 21.44,
+     "fin": 21.72
+    },
+    {
+     "texto": "says",
+     "inicio": 21.72,
+     "fin": 21.98
+    },
+    {
+     "texto": "about",
+     "inicio": 21.98,
+     "fin": 22.22
+    },
+    {
+     "texto": "seventy-five",
+     "inicio": 22.22,
+     "fin": 22.96
+    },
+    {
+     "texto": "percent",
+     "inicio": 22.96,
+     "fin": 23.36
+    },
+    {
+     "texto": "stays",
+     "inicio": 23.36,
+     "fin": 23.58
+    },
+    {
+     "texto": "in",
+     "inicio": 23.58,
+     "fin": 23.8
+    },
+    {
+     "texto": "the",
+     "inicio": 23.8,
+     "fin": 23.88
+    },
+    {
+     "texto": "dish.",
+     "inicio": 23.88,
+     "fin": 24.14
+    }
+   ],
+   "inicio": 19.78,
+   "fin": 24.14
+  },
+  {
+   "texto": "Heads up: those are estimates, and they change with the pan, the stirring and the recipe. If someone at your table avoids alcohol completely, leave the wine out.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 24.68,
+     "fin": 24.94
+    },
+    {
+     "texto": "up:",
+     "inicio": 24.94,
+     "fin": 25.12
+    },
+    {
+     "texto": "those",
+     "inicio": 25.64,
+     "fin": 25.8
+    },
+    {
+     "texto": "are",
+     "inicio": 25.8,
+     "fin": 25.96
+    },
+    {
+     "texto": "estimates,",
+     "inicio": 25.96,
+     "fin": 26.34
+    },
+    {
+     "texto": "and",
+     "inicio": 26.72,
+     "fin": 27.06
+    },
+    {
+     "texto": "they",
+     "inicio": 27.06,
+     "fin": 27.16
+    },
+    {
+     "texto": "change",
+     "inicio": 27.16,
+     "fin": 27.46
+    },
+    {
+     "texto": "with",
+     "inicio": 27.46,
+     "fin": 27.66
+    },
+    {
+     "texto": "the",
+     "inicio": 27.66,
+     "fin": 27.82
+    },
+    {
+     "texto": "pan,",
+     "inicio": 27.82,
+     "fin": 28.18
+    },
+    {
+     "texto": "the",
+     "inicio": 28.56,
+     "fin": 28.62
+    },
+    {
+     "texto": "stirring",
+     "inicio": 28.62,
+     "fin": 28.98
+    },
+    {
+     "texto": "and",
+     "inicio": 29.4,
+     "fin": 29.52
+    },
+    {
+     "texto": "the",
+     "inicio": 29.52,
+     "fin": 29.62
+    },
+    {
+     "texto": "recipe.",
+     "inicio": 29.62,
+     "fin": 29.98
+    },
+    {
+     "texto": "If",
+     "inicio": 30.5,
+     "fin": 30.58
+    },
+    {
+     "texto": "someone",
+     "inicio": 30.58,
+     "fin": 30.88
+    },
+    {
+     "texto": "at",
+     "inicio": 30.88,
+     "fin": 31.04
+    },
+    {
+     "texto": "your",
+     "inicio": 31.04,
+     "fin": 31.12
+    },
+    {
+     "texto": "table",
+     "inicio": 31.12,
+     "fin": 31.42
+    },
+    {
+     "texto": "avoids",
+     "inicio": 31.42,
+     "fin": 31.82
+    },
+    {
+     "texto": "alcohol",
+     "inicio": 31.82,
+     "fin": 32.16
+    },
+    {
+     "texto": "completely,",
+     "inicio": 32.16,
+     "fin": 32.76
+    },
+    {
+     "texto": "leave",
+     "inicio": 33.38,
+     "fin": 33.56
+    },
+    {
+     "texto": "the",
+     "inicio": 33.56,
+     "fin": 33.72
+    },
+    {
+     "texto": "wine",
+     "inicio": 33.72,
+     "fin": 33.94
+    },
+    {
+     "texto": "out.",
+     "inicio": 33.94,
+     "fin": 34.16
+    }
+   ],
+   "inicio": 24.68,
+   "fin": 34.16
+  },
+  {
+   "texto": "Save this for your next wine dish: fifteen minutes, forty percent. One hour, twenty-five. Two and a half hours, five.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 34.66,
+     "fin": 34.84
+    },
+    {
+     "texto": "this",
+     "inicio": 34.84,
+     "fin": 35.04
+    },
+    {
+     "texto": "for",
+     "inicio": 35.04,
+     "fin": 35.22
+    },
+    {
+     "texto": "your",
+     "inicio": 35.22,
+     "fin": 35.32
+    },
+    {
+     "texto": "next",
+     "inicio": 35.32,
+     "fin": 35.48
+    },
+    {
+     "texto": "wine",
+     "inicio": 35.48,
+     "fin": 35.78
+    },
+    {
+     "texto": "dish:",
+     "inicio": 35.78,
+     "fin": 36.02
+    },
+    {
+     "texto": "fifteen",
+     "inicio": 36.5,
+     "fin": 36.84
+    },
+    {
+     "texto": "minutes,",
+     "inicio": 36.84,
+     "fin": 37.1
+    },
+    {
+     "texto": "forty",
+     "inicio": 37.5,
+     "fin": 37.74
+    },
+    {
+     "texto": "percent.",
+     "inicio": 37.74,
+     "fin": 38.18
+    },
+    {
+     "texto": "One",
+     "inicio": 38.68,
+     "fin": 38.86
+    },
+    {
+     "texto": "hour,",
+     "inicio": 38.86,
+     "fin": 39.12
+    },
+    {
+     "texto": "twenty-five.",
+     "inicio": 39.54,
+     "fin": 40.08
+    },
+    {
+     "texto": "Two",
+     "inicio": 40.64,
+     "fin": 40.76
+    },
+    {
+     "texto": "and",
+     "inicio": 40.76,
+     "fin": 40.86
+    },
+    {
+     "texto": "a",
+     "inicio": 40.86,
+     "fin": 40.94
+    },
+    {
+     "texto": "half",
+     "inicio": 40.94,
+     "fin": 41.2
+    },
+    {
+     "texto": "hours,",
+     "inicio": 41.2,
+     "fin": 41.5
+    },
+    {
+     "texto": "five.",
+     "inicio": 41.9,
+     "fin": 42.18
+    }
+   ],
+   "inicio": 34.66,
+   "fin": 42.18
+  },
+  {
+   "texto": "Do you cook with wine? Yes or no?",
+   "palabras": [
+    {
+     "texto": "Do",
+     "inicio": 42.72,
+     "fin": 42.8
+    },
+    {
+     "texto": "you",
+     "inicio": 42.8,
+     "fin": 42.9
+    },
+    {
+     "texto": "cook",
+     "inicio": 42.9,
+     "fin": 43.04
+    },
+    {
+     "texto": "with",
+     "inicio": 43.04,
+     "fin": 43.2
+    },
+    {
+     "texto": "wine?",
+     "inicio": 43.2,
+     "fin": 43.46
+    },
+    {
+     "texto": "Yes",
+     "inicio": 43.88,
+     "fin": 44.02
+    },
+    {
+     "texto": "or",
+     "inicio": 44.02,
+     "fin": 44.22
+    },
+    {
+     "texto": "no?",
+     "inicio": 44.22,
+     "fin": 44.42
+    }
+   ],
+   "inicio": 42.72,
+   "fin": 44.42
+  },
+  {
+   "texto": "Send this to the friend who swears it all burns off.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 44.94,
+     "fin": 45.16
+    },
+    {
+     "texto": "this",
+     "inicio": 45.16,
+     "fin": 45.32
+    },
+    {
+     "texto": "to",
+     "inicio": 45.32,
+     "fin": 45.46
+    },
+    {
+     "texto": "the",
+     "inicio": 45.46,
+     "fin": 45.56
+    },
+    {
+     "texto": "friend",
+     "inicio": 45.56,
+     "fin": 45.8
+    },
+    {
+     "texto": "who",
+     "inicio": 45.8,
+     "fin": 45.98
+    },
+    {
+     "texto": "swears",
+     "inicio": 45.98,
+     "fin": 46.74
+    },
+    {
+     "texto": "it",
+     "inicio": 46.74,
+     "fin": 46.88
+    },
+    {
+     "texto": "all",
+     "inicio": 46.88,
+     "fin": 47.04
+    },
+    {
+     "texto": "burns",
+     "inicio": 47.04,
+     "fin": 47.3
+    },
+    {
+     "texto": "off.",
+     "inicio": 47.3,
+     "fin": 47.56
+    }
+   ],
+   "inicio": 44.94,
+   "fin": 47.56
+  }
+ ]
+}

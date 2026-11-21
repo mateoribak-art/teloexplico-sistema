@@ -1,0 +1,27 @@
+{
+  "titulo": "Does the alcohol really cook off?",
+  "pilar": "cocina",
+  "receta": "A vs B con contador (tabla de retención por tiempo)",
+  "fondo": "oscuro",
+  "destinatario": "Se lo manda alguien que cocina con vino a su amigo que dice 'se evapora todo' para mostrarle la tabla.",
+  "interaccion": {
+    "guardar": "Alcohol left after simmering: 15 min about 40%, 1 hour about 25%, 2.5 hours about 5%; flambé about 75% (USDA retention table).",
+    "comentar": "Do you cook with wine? Yes or no?"
+  },
+  "fuentes": [
+    "USDA Agricultural Research Service, Table of Nutrient Retention Factors, Release 6 (2007): alcohol retention after cooking",
+    "Augustin et al., Journal of the American Dietetic Association, 1992: Alcohol retention in food preparation"
+  ],
+  "frases": [
+    {"texto": "You think the alcohol cooked off the second the wine hit the hot pan.", "estilo": "Casual, a little teasing."},
+    {"texto": "It didn't.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "The USDA's retention table says a dish simmered for fifteen minutes, with the alcohol stirred in, still holds about forty percent of the alcohol.", "estilo": "Clear, matter of fact."},
+    {"texto": "After an hour, about twenty-five percent is still in there.", "estilo": "Explaining, steady."},
+    {"texto": "It takes around two and a half hours of cooking to get down to about five percent.", "estilo": "Curious, with a little surprise."},
+    {"texto": "And if you flambé, the table says about seventy-five percent stays in the dish.", "estilo": "Punchy, a bit amused."},
+    {"texto": "Heads up: those are estimates, and they change with the pan, the stirring and the recipe. If someone at your table avoids alcohol completely, leave the wine out.", "estilo": "Warm, honest, with the caveat."},
+    {"texto": "Save this for your next wine dish: fifteen minutes, forty percent. One hour, twenty-five. Two and a half hours, five.", "estilo": "Practical, friendly."},
+    {"texto": "Do you cook with wine? Yes or no?", "estilo": "Casual, inviting."},
+    {"texto": "Send this to the friend who swears it all burns off.", "estilo": "Playful, with humor."}
+  ]
+}
