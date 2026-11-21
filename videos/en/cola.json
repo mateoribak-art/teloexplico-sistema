@@ -1184,5 +1184,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-035-turkey-stuffing",
+  "tema": "Stuffing inside the turkey: 165 F at the center (USDA FSIS; Thanksgiving 11/26)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-21T14:12",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-21T14:13",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-21T14:15",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-21T14:23",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

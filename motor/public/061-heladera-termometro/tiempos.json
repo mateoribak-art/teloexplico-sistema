@@ -1,0 +1,720 @@
+{
+ "duracion": 41.27,
+ "frases": [
+  {
+   "texto": "Tu heladera te dice que está fría, y nunca la mediste.",
+   "palabras": [
+    {
+     "texto": "Tu",
+     "inicio": 0.0,
+     "fin": 0.12
+    },
+    {
+     "texto": "heladera",
+     "inicio": 0.12,
+     "fin": 0.44
+    },
+    {
+     "texto": "te",
+     "inicio": 0.44,
+     "fin": 0.6
+    },
+    {
+     "texto": "dice",
+     "inicio": 0.6,
+     "fin": 0.8
+    },
+    {
+     "texto": "que",
+     "inicio": 0.8,
+     "fin": 0.96
+    },
+    {
+     "texto": "está",
+     "inicio": 0.96,
+     "fin": 1.12
+    },
+    {
+     "texto": "fría,",
+     "inicio": 1.12,
+     "fin": 1.52
+    },
+    {
+     "texto": "y",
+     "inicio": 1.8,
+     "fin": 2.16
+    },
+    {
+     "texto": "nunca",
+     "inicio": 2.16,
+     "fin": 2.32
+    },
+    {
+     "texto": "la",
+     "inicio": 2.32,
+     "fin": 2.48
+    },
+    {
+     "texto": "mediste.",
+     "inicio": 2.48,
+     "fin": 2.86
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.86
+  },
+  {
+   "texto": "En muchas heladeras la perilla no marca grados. Sin termómetro, es una adivinanza.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 3.36,
+     "fin": 3.52
+    },
+    {
+     "texto": "muchas",
+     "inicio": 3.52,
+     "fin": 3.68
+    },
+    {
+     "texto": "heladeras",
+     "inicio": 3.68,
+     "fin": 4.12
+    },
+    {
+     "texto": "la",
+     "inicio": 4.12,
+     "fin": 4.26
+    },
+    {
+     "texto": "perilla",
+     "inicio": 4.26,
+     "fin": 4.58
+    },
+    {
+     "texto": "no",
+     "inicio": 4.58,
+     "fin": 4.84
+    },
+    {
+     "texto": "marca",
+     "inicio": 4.84,
+     "fin": 5.14
+    },
+    {
+     "texto": "grados.",
+     "inicio": 5.14,
+     "fin": 5.72
+    },
+    {
+     "texto": "Sin",
+     "inicio": 6.04,
+     "fin": 6.28
+    },
+    {
+     "texto": "termómetro,",
+     "inicio": 6.28,
+     "fin": 6.86
+    },
+    {
+     "texto": "es",
+     "inicio": 6.96,
+     "fin": 7.06
+    },
+    {
+     "texto": "una",
+     "inicio": 7.06,
+     "fin": 7.24
+    },
+    {
+     "texto": "adivinanza.",
+     "inicio": 7.24,
+     "fin": 7.86
+    }
+   ],
+   "inicio": 3.36,
+   "fin": 7.86
+  },
+  {
+   "texto": "El Departamento de Agricultura de Estados Unidos pide que la heladera no pase de cuatro grados.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 8.42,
+     "fin": 8.54
+    },
+    {
+     "texto": "Departamento",
+     "inicio": 8.54,
+     "fin": 8.96
+    },
+    {
+     "texto": "de",
+     "inicio": 8.96,
+     "fin": 9.1
+    },
+    {
+     "texto": "Agricultura",
+     "inicio": 9.1,
+     "fin": 9.6
+    },
+    {
+     "texto": "de",
+     "inicio": 9.6,
+     "fin": 9.74
+    },
+    {
+     "texto": "Estados",
+     "inicio": 9.74,
+     "fin": 9.94
+    },
+    {
+     "texto": "Unidos",
+     "inicio": 9.94,
+     "fin": 10.36
+    },
+    {
+     "texto": "pide",
+     "inicio": 10.36,
+     "fin": 10.84
+    },
+    {
+     "texto": "que",
+     "inicio": 10.84,
+     "fin": 10.98
+    },
+    {
+     "texto": "la",
+     "inicio": 10.98,
+     "fin": 11.14
+    },
+    {
+     "texto": "heladera",
+     "inicio": 11.14,
+     "fin": 11.54
+    },
+    {
+     "texto": "no",
+     "inicio": 11.54,
+     "fin": 11.76
+    },
+    {
+     "texto": "pase",
+     "inicio": 11.76,
+     "fin": 12.04
+    },
+    {
+     "texto": "de",
+     "inicio": 12.04,
+     "fin": 12.22
+    },
+    {
+     "texto": "cuatro",
+     "inicio": 12.22,
+     "fin": 12.54
+    },
+    {
+     "texto": "grados.",
+     "inicio": 12.54,
+     "fin": 13.16
+    }
+   ],
+   "inicio": 8.42,
+   "fin": 13.16
+  },
+  {
+   "texto": "Y el freezer, unos dieciocho bajo cero.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 13.48,
+     "fin": 13.7
+    },
+    {
+     "texto": "el",
+     "inicio": 13.7,
+     "fin": 13.78
+    },
+    {
+     "texto": "freezer,",
+     "inicio": 13.78,
+     "fin": 14.06
+    },
+    {
+     "texto": "unos",
+     "inicio": 14.4,
+     "fin": 14.62
+    },
+    {
+     "texto": "dieciocho",
+     "inicio": 14.62,
+     "fin": 15.1
+    },
+    {
+     "texto": "bajo",
+     "inicio": 15.1,
+     "fin": 15.26
+    },
+    {
+     "texto": "cero.",
+     "inicio": 15.26,
+     "fin": 15.56
+    }
+   ],
+   "inicio": 13.48,
+   "fin": 15.56
+  },
+  {
+   "texto": "La prueba: poné un termómetro adentro de un vaso con agua, en el medio de la heladera.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 16.46,
+     "fin": 16.74
+    },
+    {
+     "texto": "prueba:",
+     "inicio": 16.74,
+     "fin": 16.94
+    },
+    {
+     "texto": "poné",
+     "inicio": 17.4,
+     "fin": 17.66
+    },
+    {
+     "texto": "un",
+     "inicio": 17.66,
+     "fin": 17.74
+    },
+    {
+     "texto": "termómetro",
+     "inicio": 17.74,
+     "fin": 18.24
+    },
+    {
+     "texto": "adentro",
+     "inicio": 18.24,
+     "fin": 18.64
+    },
+    {
+     "texto": "de",
+     "inicio": 18.64,
+     "fin": 18.7
+    },
+    {
+     "texto": "un",
+     "inicio": 18.7,
+     "fin": 18.8
+    },
+    {
+     "texto": "vaso",
+     "inicio": 18.8,
+     "fin": 19.04
+    },
+    {
+     "texto": "con",
+     "inicio": 19.04,
+     "fin": 19.18
+    },
+    {
+     "texto": "agua,",
+     "inicio": 19.18,
+     "fin": 19.46
+    },
+    {
+     "texto": "en",
+     "inicio": 19.76,
+     "fin": 19.9
+    },
+    {
+     "texto": "el",
+     "inicio": 19.9,
+     "fin": 20.04
+    },
+    {
+     "texto": "medio",
+     "inicio": 20.04,
+     "fin": 20.3
+    },
+    {
+     "texto": "de",
+     "inicio": 20.3,
+     "fin": 20.48
+    },
+    {
+     "texto": "la",
+     "inicio": 20.48,
+     "fin": 20.62
+    },
+    {
+     "texto": "heladera.",
+     "inicio": 20.62,
+     "fin": 21.02
+    }
+   ],
+   "inicio": 16.46,
+   "fin": 21.02
+  },
+  {
+   "texto": "Esperá entre cinco y ocho horas y mirá cuánto marca.",
+   "palabras": [
+    {
+     "texto": "Esperá",
+     "inicio": 21.54,
+     "fin": 22.06
+    },
+    {
+     "texto": "entre",
+     "inicio": 22.06,
+     "fin": 22.32
+    },
+    {
+     "texto": "cinco",
+     "inicio": 22.32,
+     "fin": 22.76
+    },
+    {
+     "texto": "y",
+     "inicio": 22.76,
+     "fin": 23.0
+    },
+    {
+     "texto": "ocho",
+     "inicio": 23.0,
+     "fin": 23.28
+    },
+    {
+     "texto": "horas",
+     "inicio": 23.28,
+     "fin": 23.54
+    },
+    {
+     "texto": "y",
+     "inicio": 23.54,
+     "fin": 23.96
+    },
+    {
+     "texto": "mirá",
+     "inicio": 23.96,
+     "fin": 24.2
+    },
+    {
+     "texto": "cuánto",
+     "inicio": 24.2,
+     "fin": 24.48
+    },
+    {
+     "texto": "marca.",
+     "inicio": 24.48,
+     "fin": 24.74
+    }
+   ],
+   "inicio": 21.54,
+   "fin": 24.74
+  },
+  {
+   "texto": "Si marca más de cuatro, ajustá el control de la heladera y volvé a medir después de otras cinco a ocho horas.",
+   "palabras": [
+    {
+     "texto": "Si",
+     "inicio": 25.22,
+     "fin": 25.42
+    },
+    {
+     "texto": "marca",
+     "inicio": 25.42,
+     "fin": 25.6
+    },
+    {
+     "texto": "más",
+     "inicio": 25.6,
+     "fin": 25.82
+    },
+    {
+     "texto": "de",
+     "inicio": 25.82,
+     "fin": 25.9
+    },
+    {
+     "texto": "cuatro,",
+     "inicio": 25.9,
+     "fin": 26.24
+    },
+    {
+     "texto": "ajustá",
+     "inicio": 26.7,
+     "fin": 27.0
+    },
+    {
+     "texto": "el",
+     "inicio": 27.0,
+     "fin": 27.1
+    },
+    {
+     "texto": "control",
+     "inicio": 27.1,
+     "fin": 27.42
+    },
+    {
+     "texto": "de",
+     "inicio": 27.42,
+     "fin": 27.58
+    },
+    {
+     "texto": "la",
+     "inicio": 27.58,
+     "fin": 27.68
+    },
+    {
+     "texto": "heladera",
+     "inicio": 27.68,
+     "fin": 28.14
+    },
+    {
+     "texto": "y",
+     "inicio": 28.14,
+     "fin": 28.42
+    },
+    {
+     "texto": "volvé",
+     "inicio": 28.42,
+     "fin": 28.72
+    },
+    {
+     "texto": "a",
+     "inicio": 28.72,
+     "fin": 28.8
+    },
+    {
+     "texto": "medir",
+     "inicio": 28.8,
+     "fin": 29.12
+    },
+    {
+     "texto": "después",
+     "inicio": 29.12,
+     "fin": 29.38
+    },
+    {
+     "texto": "de",
+     "inicio": 29.38,
+     "fin": 29.58
+    },
+    {
+     "texto": "otras",
+     "inicio": 29.58,
+     "fin": 29.8
+    },
+    {
+     "texto": "cinco",
+     "inicio": 29.8,
+     "fin": 30.28
+    },
+    {
+     "texto": "a",
+     "inicio": 30.28,
+     "fin": 30.54
+    },
+    {
+     "texto": "ocho",
+     "inicio": 30.54,
+     "fin": 30.84
+    },
+    {
+     "texto": "horas.",
+     "inicio": 30.84,
+     "fin": 31.0
+    }
+   ],
+   "inicio": 25.22,
+   "fin": 31.0
+  },
+  {
+   "texto": "Ojo: no te quedes con lo que marca apenas lo ponés, esperá esas horas.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 31.46,
+     "fin": 31.86
+    },
+    {
+     "texto": "no",
+     "inicio": 32.2,
+     "fin": 32.38
+    },
+    {
+     "texto": "te",
+     "inicio": 32.38,
+     "fin": 32.5
+    },
+    {
+     "texto": "quedes",
+     "inicio": 32.5,
+     "fin": 32.76
+    },
+    {
+     "texto": "con",
+     "inicio": 32.76,
+     "fin": 32.86
+    },
+    {
+     "texto": "lo",
+     "inicio": 32.86,
+     "fin": 32.96
+    },
+    {
+     "texto": "que",
+     "inicio": 32.96,
+     "fin": 33.06
+    },
+    {
+     "texto": "marca",
+     "inicio": 33.06,
+     "fin": 33.26
+    },
+    {
+     "texto": "apenas",
+     "inicio": 33.26,
+     "fin": 33.52
+    },
+    {
+     "texto": "lo",
+     "inicio": 33.52,
+     "fin": 33.72
+    },
+    {
+     "texto": "ponés,",
+     "inicio": 33.72,
+     "fin": 34.04
+    },
+    {
+     "texto": "esperá",
+     "inicio": 34.5,
+     "fin": 34.86
+    },
+    {
+     "texto": "esas",
+     "inicio": 34.86,
+     "fin": 35.02
+    },
+    {
+     "texto": "horas.",
+     "inicio": 35.02,
+     "fin": 35.28
+    }
+   ],
+   "inicio": 31.46,
+   "fin": 35.28
+  },
+  {
+   "texto": "¿En cuántos grados la tenés vos? Contestá con un número.",
+   "palabras": [
+    {
+     "texto": "¿En",
+     "inicio": 35.84,
+     "fin": 36.0
+    },
+    {
+     "texto": "cuántos",
+     "inicio": 36.0,
+     "fin": 36.32
+    },
+    {
+     "texto": "grados",
+     "inicio": 36.32,
+     "fin": 36.62
+    },
+    {
+     "texto": "la",
+     "inicio": 36.62,
+     "fin": 36.72
+    },
+    {
+     "texto": "tenés",
+     "inicio": 36.72,
+     "fin": 36.94
+    },
+    {
+     "texto": "vos?",
+     "inicio": 36.94,
+     "fin": 37.08
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 37.58,
+     "fin": 37.98
+    },
+    {
+     "texto": "con",
+     "inicio": 37.98,
+     "fin": 38.12
+    },
+    {
+     "texto": "un",
+     "inicio": 38.12,
+     "fin": 38.24
+    },
+    {
+     "texto": "número.",
+     "inicio": 38.24,
+     "fin": 38.5
+    }
+   ],
+   "inicio": 35.84,
+   "fin": 38.5
+  },
+  {
+   "texto": "Mandáselo al que dice que su heladera enfría bien.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 39.0,
+     "fin": 39.52
+    },
+    {
+     "texto": "al",
+     "inicio": 39.52,
+     "fin": 39.58
+    },
+    {
+     "texto": "que",
+     "inicio": 39.58,
+     "fin": 39.7
+    },
+    {
+     "texto": "dice",
+     "inicio": 39.7,
+     "fin": 39.9
+    },
+    {
+     "texto": "que",
+     "inicio": 39.9,
+     "fin": 40.06
+    },
+    {
+     "texto": "su",
+     "inicio": 40.06,
+     "fin": 40.22
+    },
+    {
+     "texto": "heladera",
+     "inicio": 40.22,
+     "fin": 40.62
+    },
+    {
+     "texto": "enfría",
+     "inicio": 40.62,
+     "fin": 40.96
+    },
+    {
+     "texto": "bien.",
+     "inicio": 40.96,
+     "fin": 41.1
+    }
+   ],
+   "inicio": 39.0,
+   "fin": 41.1
+  }
+ ]
+}

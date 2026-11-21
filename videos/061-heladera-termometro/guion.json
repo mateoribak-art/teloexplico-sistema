@@ -1,0 +1,25 @@
+{
+  "titulo": "Tu heladera dice que está fría, pero nunca la mediste",
+  "fondo": "oscuro",
+  "receta": "Prueba de 3 pasos en casa / El que lo hace mal",
+  "pilar": "cocina",
+  "interaccion": ["guardar", "comentar"],
+  "destinatario": "se lo manda una hija al padre que dice que la heladera 'enfría bien' porque la perilla está en el máximo, para decirle que la mida",
+  "regla_guardable": "Heladera: cuatro grados o menos. Freezer: dieciocho bajo cero. Termómetro en un vaso de agua, cinco a ocho horas.",
+  "fuentes": [
+    "USDA (Departamento de Agricultura de EE. UU.), FSIS: Appliance Thermometers y Refrigeration and Food Safety",
+    "FDA (EE. UU.): Refrigerator Thermometers, Cold Facts About Food Safety (solo respalda 40 °F y 0 °F)"
+  ],
+  "frases": [
+    {"texto": "Tu heladera te dice que está fría, y nunca la mediste.", "estilo": "Seco, directo, a cámara."},
+    {"texto": "En muchas heladeras la perilla no marca grados. Sin termómetro, es una adivinanza.", "estilo": "Contundente."},
+    {"texto": "El Departamento de Agricultura de Estados Unidos pide que la heladera no pase de cuatro grados.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Y el freezer, unos dieciocho bajo cero.", "estilo": "Informativo."},
+    {"texto": "La prueba: poné un termómetro adentro de un vaso con agua, en el medio de la heladera.", "estilo": "Práctico, amable."},
+    {"texto": "Esperá entre cinco y ocho horas y mirá cuánto marca.", "estilo": "Práctico."},
+    {"texto": "Si marca más de cuatro, ajustá el control de la heladera y volvé a medir después de otras cinco a ocho horas.", "estilo": "Práctico, calmo."},
+    {"texto": "Ojo: no te quedes con lo que marca apenas lo ponés, esperá esas horas.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "¿En cuántos grados la tenés vos? Contestá con un número.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al que dice que su heladera enfría bien.", "estilo": "Cómplice, con humor."}
+  ]
+}

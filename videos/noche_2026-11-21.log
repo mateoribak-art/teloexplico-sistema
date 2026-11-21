@@ -8,3 +8,15 @@ Uso: 19 pasos · 18,662 tokens nuevos · 1,374,660 de caché · 3,484 escritos �
 2026-11-21 08:40 Render de 060-celular-carga-noche (sin Claude).
 2026-11-21 08:48 060-celular-carga-noche: listo (render sin Claude)
 2026-11-21 08:48 Termina la producción (ok).
+2026-11-21 13:55 Arranca la producción (8 listos en la cola, meta 10).
+Producí un solo video: `061-heladera-termometro` quedó en estado `render`. No lo rendericé: lo hace `producir.py` al terminar el turno, que además saca la portada, corre el control y lo pasa a `listo` o `apartado`.
+
+- **Rescates:** no había nada para rescatar. Los apartados actuales (005, 038, 042, 044 y 051) no tenían el motivo "chequeo rechazado".
+- **`061-heladera-termometro`:** el tema es "¿tu heladera enfría bien?" y la regla para guardar es heladera a cuatro grados o menos y freezer a dieciocho bajo cero. El chequeo rechazó el primer intento (un "bajá de a poco" sin fuente y "la perilla no marca grados" sin matiz) y aprobó el segundo con todo verificado en USDA FSIS y FDA. La voz dura 41 s y cuadró 129 de 129 palabras, y `tlx tsc` pasó sin errores. Revisé los cuadros en dos vueltas.
+- **Segundo video:** no lo hice. La cola tiene 8 listos, menos de 10, así que correspondía otro, pero me quedé con uno solo en este turno.
+
+El radar no encontró ningún tema del día verificable. Dejé anotados en `produccion.log` el radar, el ritmo de seguidores (unos 22 por día contra unos 95 que hacen falta) y la `interaccion` elegida, que es guardar más comentar.
+Uso: 20 pasos · 16,632 tokens nuevos · 1,259,080 de caché · 7,030 escritos · equivale a US$ 1.30 de API
+2026-11-21 14:01 Render de 061-heladera-termometro (sin Claude).
+2026-11-21 14:12 061-heladera-termometro: listo (render sin Claude)
+2026-11-21 14:12 Termina la producción (ok).

@@ -1,0 +1,641 @@
+{
+ "duracion": 34.86,
+ "frases": [
+  {
+   "texto": "You stuffed the turkey, and the turkey's done. The stuffing might not be.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "stuffed",
+     "inicio": 0.14,
+     "fin": 0.3
+    },
+    {
+     "texto": "the",
+     "inicio": 0.3,
+     "fin": 0.46
+    },
+    {
+     "texto": "turkey,",
+     "inicio": 0.46,
+     "fin": 0.72
+    },
+    {
+     "texto": "and",
+     "inicio": 0.72,
+     "fin": 1.26
+    },
+    {
+     "texto": "the",
+     "inicio": 1.26,
+     "fin": 1.4
+    },
+    {
+     "texto": "turkey's",
+     "inicio": 1.4,
+     "fin": 1.72
+    },
+    {
+     "texto": "done.",
+     "inicio": 1.72,
+     "fin": 1.88
+    },
+    {
+     "texto": "The",
+     "inicio": 2.32,
+     "fin": 2.44
+    },
+    {
+     "texto": "stuffing",
+     "inicio": 2.44,
+     "fin": 2.8
+    },
+    {
+     "texto": "might",
+     "inicio": 2.8,
+     "fin": 3.38
+    },
+    {
+     "texto": "not",
+     "inicio": 3.38,
+     "fin": 3.58
+    },
+    {
+     "texto": "be.",
+     "inicio": 3.58,
+     "fin": 3.74
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.74
+  },
+  {
+   "texto": "The USDA says stuffing cooked inside the bird has to reach one hundred sixty-five degrees at the center.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 4.2,
+     "fin": 4.3
+    },
+    {
+     "texto": "USDA",
+     "inicio": 4.3,
+     "fin": 4.6
+    },
+    {
+     "texto": "says",
+     "inicio": 4.6,
+     "fin": 5.06
+    },
+    {
+     "texto": "stuffing",
+     "inicio": 5.06,
+     "fin": 5.42
+    },
+    {
+     "texto": "cooked",
+     "inicio": 5.42,
+     "fin": 5.86
+    },
+    {
+     "texto": "inside",
+     "inicio": 5.86,
+     "fin": 6.28
+    },
+    {
+     "texto": "the",
+     "inicio": 6.28,
+     "fin": 6.48
+    },
+    {
+     "texto": "bird",
+     "inicio": 6.48,
+     "fin": 6.76
+    },
+    {
+     "texto": "has",
+     "inicio": 6.76,
+     "fin": 7.18
+    },
+    {
+     "texto": "to",
+     "inicio": 7.18,
+     "fin": 7.34
+    },
+    {
+     "texto": "reach",
+     "inicio": 7.34,
+     "fin": 7.48
+    },
+    {
+     "texto": "one",
+     "inicio": 7.48,
+     "fin": 7.66
+    },
+    {
+     "texto": "hundred",
+     "inicio": 7.66,
+     "fin": 7.92
+    },
+    {
+     "texto": "sixty-five",
+     "inicio": 7.92,
+     "fin": 8.46
+    },
+    {
+     "texto": "degrees",
+     "inicio": 8.46,
+     "fin": 8.78
+    },
+    {
+     "texto": "at",
+     "inicio": 8.78,
+     "fin": 9.04
+    },
+    {
+     "texto": "the",
+     "inicio": 9.04,
+     "fin": 9.16
+    },
+    {
+     "texto": "center.",
+     "inicio": 9.16,
+     "fin": 9.38
+    }
+   ],
+   "inicio": 4.2,
+   "fin": 9.38
+  },
+  {
+   "texto": "The thigh can read done while the middle of the stuffing is still behind.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 9.8,
+     "fin": 9.9
+    },
+    {
+     "texto": "thigh",
+     "inicio": 9.9,
+     "fin": 10.34
+    },
+    {
+     "texto": "can",
+     "inicio": 10.34,
+     "fin": 10.58
+    },
+    {
+     "texto": "read",
+     "inicio": 10.58,
+     "fin": 10.76
+    },
+    {
+     "texto": "done",
+     "inicio": 10.76,
+     "fin": 11.18
+    },
+    {
+     "texto": "while",
+     "inicio": 11.18,
+     "fin": 11.64
+    },
+    {
+     "texto": "the",
+     "inicio": 11.64,
+     "fin": 11.78
+    },
+    {
+     "texto": "middle",
+     "inicio": 11.78,
+     "fin": 12.02
+    },
+    {
+     "texto": "of",
+     "inicio": 12.02,
+     "fin": 12.14
+    },
+    {
+     "texto": "the",
+     "inicio": 12.14,
+     "fin": 12.2
+    },
+    {
+     "texto": "stuffing",
+     "inicio": 12.2,
+     "fin": 12.42
+    },
+    {
+     "texto": "is",
+     "inicio": 12.42,
+     "fin": 12.62
+    },
+    {
+     "texto": "still",
+     "inicio": 12.62,
+     "fin": 12.78
+    },
+    {
+     "texto": "behind.",
+     "inicio": 12.78,
+     "fin": 13.04
+    }
+   ],
+   "inicio": 9.8,
+   "fin": 13.04
+  },
+  {
+   "texto": "So stick a food thermometer right into the center of the stuffing.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 13.48,
+     "fin": 13.74
+    },
+    {
+     "texto": "stick",
+     "inicio": 13.74,
+     "fin": 14.18
+    },
+    {
+     "texto": "a",
+     "inicio": 14.18,
+     "fin": 14.34
+    },
+    {
+     "texto": "food",
+     "inicio": 14.34,
+     "fin": 14.44
+    },
+    {
+     "texto": "thermometer",
+     "inicio": 14.44,
+     "fin": 14.82
+    },
+    {
+     "texto": "right",
+     "inicio": 14.82,
+     "fin": 15.24
+    },
+    {
+     "texto": "into",
+     "inicio": 15.24,
+     "fin": 15.42
+    },
+    {
+     "texto": "the",
+     "inicio": 15.42,
+     "fin": 15.54
+    },
+    {
+     "texto": "center",
+     "inicio": 15.54,
+     "fin": 15.72
+    },
+    {
+     "texto": "of",
+     "inicio": 15.72,
+     "fin": 15.82
+    },
+    {
+     "texto": "the",
+     "inicio": 15.82,
+     "fin": 15.86
+    },
+    {
+     "texto": "stuffing.",
+     "inicio": 15.86,
+     "fin": 16.1
+    }
+   ],
+   "inicio": 13.48,
+   "fin": 16.1
+  },
+  {
+   "texto": "Don't pull it out before it hits one sixty-five. Keep cooking the turkey until it gets there.",
+   "palabras": [
+    {
+     "texto": "Don't",
+     "inicio": 16.66,
+     "fin": 16.9
+    },
+    {
+     "texto": "pull",
+     "inicio": 16.9,
+     "fin": 17.06
+    },
+    {
+     "texto": "it",
+     "inicio": 17.06,
+     "fin": 17.16
+    },
+    {
+     "texto": "out",
+     "inicio": 17.16,
+     "fin": 17.28
+    },
+    {
+     "texto": "before",
+     "inicio": 17.28,
+     "fin": 17.46
+    },
+    {
+     "texto": "it",
+     "inicio": 17.46,
+     "fin": 17.62
+    },
+    {
+     "texto": "hits",
+     "inicio": 17.62,
+     "fin": 17.74
+    },
+    {
+     "texto": "one",
+     "inicio": 17.74,
+     "fin": 17.9
+    },
+    {
+     "texto": "sixty-five.",
+     "inicio": 17.9,
+     "fin": 18.4
+    },
+    {
+     "texto": "Keep",
+     "inicio": 18.82,
+     "fin": 19.02
+    },
+    {
+     "texto": "cooking",
+     "inicio": 19.02,
+     "fin": 19.2
+    },
+    {
+     "texto": "the",
+     "inicio": 19.2,
+     "fin": 19.34
+    },
+    {
+     "texto": "turkey",
+     "inicio": 19.34,
+     "fin": 19.58
+    },
+    {
+     "texto": "until",
+     "inicio": 19.58,
+     "fin": 19.76
+    },
+    {
+     "texto": "it",
+     "inicio": 19.76,
+     "fin": 19.88
+    },
+    {
+     "texto": "gets",
+     "inicio": 19.88,
+     "fin": 19.98
+    },
+    {
+     "texto": "there.",
+     "inicio": 19.98,
+     "fin": 20.14
+    }
+   ],
+   "inicio": 16.66,
+   "fin": 20.14
+  },
+  {
+   "texto": "Heads up: for the safest, most even result, the USDA says to bake stuffing in a separate dish.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 20.6,
+     "fin": 20.84
+    },
+    {
+     "texto": "up:",
+     "inicio": 20.84,
+     "fin": 21.0
+    },
+    {
+     "texto": "for",
+     "inicio": 21.5,
+     "fin": 21.52
+    },
+    {
+     "texto": "the",
+     "inicio": 21.52,
+     "fin": 21.66
+    },
+    {
+     "texto": "safest,",
+     "inicio": 21.66,
+     "fin": 22.06
+    },
+    {
+     "texto": "most",
+     "inicio": 22.36,
+     "fin": 22.46
+    },
+    {
+     "texto": "even",
+     "inicio": 22.46,
+     "fin": 22.88
+    },
+    {
+     "texto": "result,",
+     "inicio": 22.88,
+     "fin": 23.26
+    },
+    {
+     "texto": "the",
+     "inicio": 23.8,
+     "fin": 23.98
+    },
+    {
+     "texto": "USDA",
+     "inicio": 23.98,
+     "fin": 24.46
+    },
+    {
+     "texto": "says",
+     "inicio": 24.46,
+     "fin": 24.88
+    },
+    {
+     "texto": "to",
+     "inicio": 24.88,
+     "fin": 25.08
+    },
+    {
+     "texto": "bake",
+     "inicio": 25.08,
+     "fin": 25.28
+    },
+    {
+     "texto": "stuffing",
+     "inicio": 25.28,
+     "fin": 25.66
+    },
+    {
+     "texto": "in",
+     "inicio": 25.66,
+     "fin": 26.0
+    },
+    {
+     "texto": "a",
+     "inicio": 26.0,
+     "fin": 26.1
+    },
+    {
+     "texto": "separate",
+     "inicio": 26.1,
+     "fin": 26.4
+    },
+    {
+     "texto": "dish.",
+     "inicio": 26.4,
+     "fin": 26.74
+    }
+   ],
+   "inicio": 20.6,
+   "fin": 26.74
+  },
+  {
+   "texto": "Stuffing or dressing? What do you call it?",
+   "palabras": [
+    {
+     "texto": "Stuffing",
+     "inicio": 27.26,
+     "fin": 27.66
+    },
+    {
+     "texto": "or",
+     "inicio": 27.66,
+     "fin": 28.06
+    },
+    {
+     "texto": "dressing?",
+     "inicio": 28.06,
+     "fin": 28.32
+    },
+    {
+     "texto": "What",
+     "inicio": 28.82,
+     "fin": 28.96
+    },
+    {
+     "texto": "do",
+     "inicio": 28.96,
+     "fin": 29.02
+    },
+    {
+     "texto": "you",
+     "inicio": 29.02,
+     "fin": 29.08
+    },
+    {
+     "texto": "call",
+     "inicio": 29.08,
+     "fin": 29.26
+    },
+    {
+     "texto": "it?",
+     "inicio": 29.26,
+     "fin": 29.38
+    }
+   ],
+   "inicio": 27.26,
+   "fin": 29.38
+  },
+  {
+   "texto": "Save this, then send it to the friend who stuffs the bird and trusts the timer.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 29.86,
+     "fin": 30.04
+    },
+    {
+     "texto": "this,",
+     "inicio": 30.04,
+     "fin": 30.42
+    },
+    {
+     "texto": "then",
+     "inicio": 31.04,
+     "fin": 31.24
+    },
+    {
+     "texto": "send",
+     "inicio": 31.24,
+     "fin": 31.66
+    },
+    {
+     "texto": "it",
+     "inicio": 31.66,
+     "fin": 31.78
+    },
+    {
+     "texto": "to",
+     "inicio": 31.78,
+     "fin": 31.9
+    },
+    {
+     "texto": "the",
+     "inicio": 31.9,
+     "fin": 32.0
+    },
+    {
+     "texto": "friend",
+     "inicio": 32.0,
+     "fin": 32.24
+    },
+    {
+     "texto": "who",
+     "inicio": 32.24,
+     "fin": 32.5
+    },
+    {
+     "texto": "stuffs",
+     "inicio": 32.5,
+     "fin": 32.98
+    },
+    {
+     "texto": "the",
+     "inicio": 32.98,
+     "fin": 33.24
+    },
+    {
+     "texto": "bird",
+     "inicio": 33.24,
+     "fin": 33.48
+    },
+    {
+     "texto": "and",
+     "inicio": 33.48,
+     "fin": 33.76
+    },
+    {
+     "texto": "trusts",
+     "inicio": 33.76,
+     "fin": 34.4
+    },
+    {
+     "texto": "the",
+     "inicio": 34.4,
+     "fin": 34.48
+    },
+    {
+     "texto": "timer.",
+     "inicio": 34.48,
+     "fin": 34.72
+    }
+   ],
+   "inicio": 29.86,
+   "fin": 34.72
+  }
+ ]
+}

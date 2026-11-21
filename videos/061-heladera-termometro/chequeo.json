@@ -1,0 +1,67 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de salud/seguridad alimentaria quedaron verificadas contra fuentes primarias. FDA (Refrigerator Thermometers: Cold Facts About Food Safety): heladera a 40 °F o menos, freezer a 0 °F, y 'few refrigerator controls show actual temperatures' (respalda 'en muchas heladeras la perilla no marca grados'). USDA FSIS (Appliance Thermometers, versiones archivadas y resultado de la página vigente; la página actual devolvió 403 al abrirla): termómetro en un vaso con agua en el medio de la heladera, esperar 5 a 8 horas, si no está en rango ajustar el control y volver a medir tras otras 5 a 8 horas. Conversiones: 40 °F = 4,4 °C (decir cuatro como tope es conservador), 0 °F = -17,8 °C ('unos dieciocho'). Se corrigieron los problemas del primer intento: ya no hay 'bajá de a poco', la perilla está matizada con 'en muchas heladeras', y la atribución separa USDA (prueba) de FDA (solo 40 °F y 0 °F). No hay afirmaciones falsas, dudosas ni probables en temas de seguridad. Pendiente menor: la página FSIS vigente no se pudo abrir (403); el texto de la prueba se confirmó en versiones archivadas oficiales de FSIS, sin contradicciones.",
+  "afirmaciones": [
+    {
+      "texto": "Tu heladera te dice que está fría, y nunca la mediste. (título/caption: 'pero nunca la mediste')",
+      "fuente": "sin fuente primaria (recurso retórico dirigido al espectador, no afirmación fáctica verificable)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En muchas heladeras la perilla no marca grados. Sin termómetro, es una adivinanza. (caption: 'En muchas, la perilla no marca grados.')",
+      "fuente": "FDA, Refrigerator Thermometers: Cold Facts About Food Safety (https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety): 'few refrigerator controls show actual temperatures'. Mismo sentido en USDA FSIS Appliance Thermometers.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El Departamento de Agricultura de Estados Unidos pide que la heladera no pase de cuatro grados. (caption: cuatro grados (40 °F))",
+      "fuente": "USDA FSIS (Appliance Thermometers; Refrigeration and Food Safety): heladera no más de 40 °F. FDA (URL arriba): 'keep its temperature at 40 °F or below'. 40 °F = 4,4 °C, cuatro como tope es conservador.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y el freezer, unos dieciocho bajo cero. (caption: unos dieciocho bajo cero (0 °F); regla guardable: dieciocho bajo cero)",
+      "fuente": "USDA FSIS Appliance Thermometers (freezer a 0 °F) y FDA ('the freezer should be at 0 °F'). 0 °F = -17,8 °C; 'unos' cubre el redondeo.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La prueba: poné un termómetro adentro de un vaso con agua, en el medio de la heladera. (caption: 'el USDA propone...')",
+      "fuente": "USDA FSIS Appliance Thermometers: 'placing a thermometer in a glass of water in the middle of the refrigerator' (https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/appliance-thermometers; versión archivada https://webarchive.library.unt.edu/web/20120915114626/http:/www.fsis.usda.gov/Fact_Sheets/Appliance_Thermometers/index.asp). Atribuida solo al USDA, correcto.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Esperá entre cinco y ocho horas y mirá cuánto marca.",
+      "fuente": "USDA FSIS Appliance Thermometers: esperar 5 a 8 horas.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si marca más de cuatro, ajustá el control de la heladera y volvé a medir después de otras cinco a ocho horas.",
+      "fuente": "USDA FSIS Appliance Thermometers: si está fuera de rango (38 a 40 °F), ajustar el control de temperatura y volver a medir tras 5 a 8 horas. Umbral 'más de cuatro' conservador frente a 40 °F (4,4 °C). Sin dirección de la perilla ni 'de a poco'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: no te quedes con lo que marca apenas lo ponés, esperá esas horas. (caption: 'Ojo: no te quedes con lo que marca apenas lo ponés.')",
+      "fuente": "USDA FSIS Appliance Thermometers: esperar 5 a 8 horas antes de leer; la frase es consecuencia directa de esa instrucción.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Regla guardable / caption: heladera cuatro grados o menos, freezer dieciocho bajo cero; termómetro en un vaso de agua, cinco a ocho horas.",
+      "fuente": "USDA FSIS Appliance Thermometers y FDA Cold Facts (filas anteriores).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes (caption): USDA FSIS (Appliance Thermometers, Refrigeration and Food Safety); las temperaturas de 40 °F y 0 °F también las respalda la FDA.",
+      "fuente": "Atribución correcta: la prueba del vaso y las 5 a 8 horas son de USDA FSIS; FDA Cold Facts respalda 40 °F y 0 °F (y que pocos controles muestran la temperatura real).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ],
+  "notas": "Las frases de pregunta y cierre ('¿En cuántos grados la tenés vos?', 'Mandáselo al que dice que su heladera enfría bien') y el texto de seguimiento de la cuenta no son afirmaciones fácticas. La página FSIS vigente devolvió 403 y el archivo de archive.org estaba limitado por tasa; el texto de la prueba se confirmó por resultados de búsqueda de las versiones archivadas oficiales (1999, 2004, 2008, 2012) y de la página vigente, sin contradicciones."
+}

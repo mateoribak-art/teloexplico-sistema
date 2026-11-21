@@ -1,0 +1,26 @@
+{
+  "titulo": "Stuffing inside the turkey: 165 degrees at the center",
+  "serie": "cocina",
+  "fondo": "cuaderno",
+  "receta": "regla con número para guardar + fecha (Thanksgiving 11/26/2026) + debate de dos bandos (stuffing or dressing)",
+  "pilar": "cocina",
+  "destinatario": "se lo manda quien cocina la cena a su tío o su suegra que rellena el pavo y lo saca cuando la pierna ya marca",
+  "regla_guardable": "Stuffing inside the bird: 165 °F at the center, check with a food thermometer. Or bake it in a separate dish.",
+  "interaccion": {
+    "guardar": "Stuffing inside the bird: 165 °F at the center, check with a food thermometer. Or bake it in a separate dish.",
+    "comentar": "Stuffing or dressing? What do you call it?"
+  },
+  "fuentes": [
+    "USDA FSIS: Stuffing and Food Safety / Turkey Basics: Stuffing (center of stuffing must reach 165 °F, use a food thermometer; do not remove stuffing before 165 °F, keep cooking the turkey until it gets there; for optimum safety and uniform doneness, cook stuffing outside the bird)"
+  ],
+  "frases": [
+    {"texto": "You stuffed the turkey, and the turkey's done. The stuffing might not be.", "estilo": "Dry, direct, with a half smile."},
+    {"texto": "The USDA says stuffing cooked inside the bird has to reach one hundred sixty-five degrees at the center.", "estilo": "Punchy, informative."},
+    {"texto": "The thigh can read done while the middle of the stuffing is still behind.", "estilo": "Matter of fact, a little surprised."},
+    {"texto": "So stick a food thermometer right into the center of the stuffing.", "estilo": "Practical, brisk."},
+    {"texto": "Don't pull it out before it hits one sixty-five. Keep cooking the turkey until it gets there.", "estilo": "Firm."},
+    {"texto": "Heads up: for the safest, most even result, the USDA says to bake stuffing in a separate dish.", "estilo": "Calm, honest caveat."},
+    {"texto": "Stuffing or dressing? What do you call it?", "estilo": "Curious, friendly."},
+    {"texto": "Save this, then send it to the friend who stuffs the bird and trusts the timer.", "estilo": "Playful and funny."}
+  ]
+}

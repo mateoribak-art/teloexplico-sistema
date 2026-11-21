@@ -238,6 +238,10 @@
     "060-celular-carga-noche": [
       "casa",
       11
+    ],
+    "061-heladera-termometro": [
+      "cocina",
+      9
     ]
   }
 }

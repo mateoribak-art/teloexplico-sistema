@@ -1,0 +1,54 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones fácticas (seguridad alimentaria) están respaldadas por USDA FSIS y las cifras/unidades coinciden (165 °F en el centro del relleno, termómetro de alimentos, cocinar el relleno aparte para máxima seguridad y cocción uniforme). Ninguna es probable, dudosa ni falsa, y las frases atribuyen correctamente al USDA. Nota: las páginas de FSIS devolvieron 403 al fetch directo; la verificación se hizo con los textos citados en los resultados de búsqueda de fsis.usda.gov (Turkey Basics: Stuffing, Stuffing and Food Safety, Kitchen Companion, Let's Talk Turkey), consistentes entre sí.",
+  "afirmaciones": [
+    {
+      "texto": "The turkey can be done while the stuffing isn't. (guion f1 / caption línea 1)",
+      "fuente": "USDA FSIS, Turkey Basics: Stuffing: aunque el pavo llegue a 165 °F, el relleno puede no haber alcanzado una temperatura suficiente para destruir bacterias. https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/turkey-basics-stuffing",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The USDA says stuffing cooked inside the bird has to reach one hundred sixty-five degrees at the center. / 165 °F at the center",
+      "fuente": "USDA FSIS, Stuffing and Food Safety y Turkey Basics: Stuffing (centro del relleno a 165 °F medido con termómetro). https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/stuffing-and-food-safety",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The thigh can read done while the middle of the stuffing is still behind.",
+      "fuente": "USDA FSIS, Turkey Basics: Stuffing: el pavo puede haber llegado a 165 °F en el muslo, ala y pechuga y el relleno no. Redacción 'can' coincide con 'may not have reached'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Stick a food thermometer right into the center of the stuffing. / the only way to know is a food thermometer",
+      "fuente": "USDA FSIS, Stuffing and Food Safety (uso de termómetro de alimentos en el centro del relleno; lenguaje estándar de FSIS de que el termómetro es la única forma de estar seguro).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Don't pull it out before it hits one sixty-five. Keep cooking the turkey until it gets there.",
+      "fuente": "USDA FSIS, Turkey Basics: Stuffing ('Do not remove the stuffing from the turkey before it reaches 165 °F') y Kitchen Companion ('continue to cook the whole, stuffed bird until the stuffing reaches 165 °F').",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "For the safest, most even result, the USDA says to bake stuffing in a separate dish. / caption: same",
+      "fuente": "USDA FSIS, Turkey Basics: Stuffing ('For optimum safety and uniform doneness, cook stuffing outside the bird'); Let's Talk Turkey (cocinar fuera del ave en una cazuela para cocción más pareja).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Stuffing or dressing? What do you call it? / Save this... / Send this to the friend who stuffs the bird and trusts the timer.",
+      "fuente": "No son afirmaciones fácticas (pregunta de interacción y llamado a la acción humorístico); no requieren fuente.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Sources: USDA Food Safety and Inspection Service (Stuffing and Food Safety; Turkey Basics: Stuffing).",
+      "fuente": "Ambas páginas existen en fsis.usda.gov y respaldan el contenido.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

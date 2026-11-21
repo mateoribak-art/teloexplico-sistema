@@ -20,3 +20,11 @@ Permisos negados (2):
 2026-11-21 08:56 Render de en-034-alcohol-cook-off (sin Claude).
 2026-11-21 09:13 en-034-alcohol-cook-off: listo (render sin Claude)
 2026-11-21 09:13 Termina la producción (ok).
+2026-11-21 14:12 Arranca la producción (8 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `en-035-turkey-stuffing` (cocina #11, el relleno del pavo tiene que llegar a 165 °F en el centro, para Thanksgiving el 26/11). El chequeo se aprobó en el primer intento con fuentes del USDA FSIS. La voz dura 34,9 s, `tsc` pasa y revisé los cuadros. Quedó en estado `render` para `producir.py`.
+- **Chequeo con un límite:** las páginas de fsis.usda.gov devolvieron 403, así que el subagente verificó con los textos que citaban los resultados de búsqueda, no con las páginas completas.
+- **Apartados:** no había videos apartados por chequeo rechazado, así que no hubo nada que rescatar. No quedó ninguno incompleto.
+Uso: 38 pasos · 67,148 tokens nuevos · 1,140,649 de caché · 10,463 escritos · equivale a US$ 0.64 de API
+2026-11-21 14:16 Render de en-035-turkey-stuffing (sin Claude).
+2026-11-21 14:23 en-035-turkey-stuffing: listo (render sin Claude)
+2026-11-21 14:23 Termina la producción (ok).
