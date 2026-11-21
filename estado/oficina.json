@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T04:39",
+ "actualizado": "2026-11-21T05:02",
  "oficinas": [
   {
    "clave": "es",
@@ -467,7 +467,7 @@
      "estado": "ok",
      "resumen": "21/11: 1026 seguidores",
      "cuando": "2026-11-21T03:56",
-     "hace": "hace 43 min",
+     "hace": "hace 1 h",
      "detalle": [
       "18/11: 993 seguidores",
       "19/11: 1013 seguidores",
@@ -500,7 +500,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 051-leonidas-grano-arena — tema de actualidad vencido (más de 48 h)",
-     "cuando": "2026-11-21T04:39",
+     "cuando": "2026-11-21T05:02",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 051-leonidas-grano-arena — tema de actualidad vencido (más de 48 h)"
@@ -917,7 +917,7 @@
      "estado": "ok",
      "resumen": "21/11: 5 seguidores",
      "cuando": "2026-11-21T03:56",
-     "hace": "hace 43 min",
+     "hace": "hace 1 h",
      "detalle": [
       "06/11: 3 seguidores",
       "07/11: 5 seguidores",
@@ -950,7 +950,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-21T04:39",
+     "cuando": "2026-11-21T05:02",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
