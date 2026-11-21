@@ -258,7 +258,7 @@
  },
  {
   "clave": "lavar-pollo",
-  "estado": "listo",
+  "estado": "publicado",
   "origen": [
    "012-lavar-pollo"
   ],
@@ -282,6 +282,11 @@
     "estado": "listo",
     "cuando": "2026-11-07T22:18",
     "motivo": "control OK"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-21T20:39",
+    "motivo": "https://www.instagram.com/p/DgBbg4nEpDd/"
    }
   ]
  },
