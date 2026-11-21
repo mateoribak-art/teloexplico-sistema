@@ -20,3 +20,6 @@ sincronizado
 2026-11-20 14:43 [es] publicador.py -> código 0 El turno de las 12:30 ya está cubierto: no se publica de nuevo.
 2026-11-20 14:43 [en] publicador.py -> código 0 El turno de las 12:30 ya está cubierto: no se publica de nuevo.
 2026-11-20 14:44 [es] sincronizar.py Notebook: respaldo publicación -> código 0 sincronizado
+2026-11-20 15:30 [es] sincronizar.py Notebook: respaldo antes de producir -> código 0 sincronizado
+2026-11-20 15:30 [es] respaldo: 3 listos, no hace falta
+2026-11-20 15:30 [en] respaldo: 6 listos, no hace falta
