@@ -1,0 +1,66 @@
+{
+  "veredicto": "rechazado",
+  "motivo": "Clemson (leída completa) NO dice que sean envases de un solo uso ni que no estén pensados para cocinar; solo dice que margarina, yogur y bowls de crema batida sin etiqueta microwave-safe pueden derretirse, deformarse o liberar químicos. 'Un solo uso' aparece en USDA FSIS (versión archivada, vía K-State; no pude abrir el texto original de FSIS ni la página vigente, da 403/vacía), y 'no están pensados para cocinar' es una inferencia propia, no una cita. En el guion y el caption la frase va pegada a la atribución a Clemson, así que parece de Clemson. Es una afirmación de seguridad, así que debe estar verificada y bien atribuida. Además, 'Si no lo dice, no lo uses' es demasiado amplio: Clemson lista vidrio y cerámica sin metal como seguros sin exigir etiqueta (el guion de por sí menciona vidrio como opción). Arreglo sugerido: atribuir 'un solo uso' a USDA/FSIS y confirmar su texto (o quitar la frase), eliminar 'no están pensados para cocinar' y acotar 'si no lo dice' a plásticos/potes.",
+  "afirmaciones": [
+    {
+      "texto": "La Universidad de Clemson, en Estados Unidos, dice que esos envases (pote de yogur o margarina) no se recomiendan para el microondas, salvo que digan que son aptos.",
+      "fuente": "Clemson HGIC, Microwave Food Safety (https://hgic.clemson.edu/factsheet/microwave-food-safety/): 'Containers such as margarine tubs, yogurt containers, or whipped topping bowls that are not labeled microwave-safe' figuran entre los no seguros.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Son envases de un solo uso, no están pensados para cocinar.",
+      "fuente": "Clemson NO lo dice (la página no menciona un solo uso). USDA FSIS, Cooking Safely in the Microwave (archivada 2011): 'margarine tubs, take-out containers, whipped topping bowls, and other one-time use containers' no deben usarse; confirmado solo de forma indirecta vía K-State (https://www.k-state.edu/news/you-asked-it/articles/2017/01/safe-containers-in-a-microwave.html) y resultados de búsqueda; texto original de FSIS no abierto. 'No están pensados para cocinar' no figura en ninguna fuente.",
+      "estado": "dudosa",
+      "matiz_ok": false
+    },
+    {
+      "texto": "Con el calor se pueden deformar o derretir.",
+      "fuente": "Clemson: 'These containers may melt, warp, or allow chemicals to migrate into food when heated.' También USDA FSIS archivada.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y pueden pasar sustancias químicas a la comida.",
+      "fuente": "Clemson (misma frase: 'allow chemicals to migrate into food'); USDA FSIS archivada.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La regla: calentá en un envase que diga apto para microondas.",
+      "fuente": "Clemson: 'Microwave-safe plastic containers labeled for microwave use'; además lista vidrio y cerámica sin metal como seguros. USDA FSIS: usar envases rotulados para microondas.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: si el envase dice apto para microondas, sí se puede. Si no lo dice, no lo uses.",
+      "fuente": "Clemson / USDA FSIS. La primera parte coincide; la segunda es demasiado general: vidrio o cerámica sin metal son seguros sin etiqueta según Clemson. Vale para potes y plásticos, no para todo envase.",
+      "estado": "probable",
+      "matiz_ok": false
+    },
+    {
+      "texto": "Caption: 'los potes de margarina y de yogur no se recomiendan para el microondas si no dicen que son aptos: pueden deformarse, derretirse y pasar sustancias químicas a la comida.'",
+      "fuente": "Clemson HGIC, Microwave Food Safety.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'Son envases de un solo uso, no están pensados para cocinar.' (ubicada dentro del párrafo atribuido a Clemson)",
+      "fuente": "Ver arriba: no está en Clemson; 'un solo uso' solo en USDA FSIS archivada; segunda mitad sin fuente.",
+      "estado": "dudosa",
+      "matiz_ok": false
+    },
+    {
+      "texto": "Caption: 'Usá un envase que diga apto para microondas.' / 'pote de yogur o margarina, no al microondas.'",
+      "fuente": "Clemson HGIC; USDA FSIS archivada. Nota: el 'no al microondas' absoluto omite el matiz de los potes rotulados aptos, que el caption sí aclara en el párrafo siguiente.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes: Universidad de Clemson, Home & Garden Information Center (Microwave Food Safety). / guion.fuentes cita además USDA FSIS (versiones archivadas; página vigente no accesible).",
+      "fuente": "Clemson existe y fue leída. La página vigente de FSIS dio 403 y los archivos de UNT vinieron vacíos; solo hay confirmación secundaria (K-State, WSU Extension) de que FSIS dice 'one-time use'.",
+      "estado": "probable",
+      "matiz_ok": false
+    }
+  ]
+}

@@ -1,0 +1,786 @@
+{
+ "duracion": 51.36,
+ "frases": [
+  {
+   "texto": "You unplug your phone charger every morning to save money.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.16
+    },
+    {
+     "texto": "unplug",
+     "inicio": 0.16,
+     "fin": 0.34
+    },
+    {
+     "texto": "your",
+     "inicio": 0.34,
+     "fin": 0.68
+    },
+    {
+     "texto": "phone",
+     "inicio": 0.68,
+     "fin": 0.9
+    },
+    {
+     "texto": "charger",
+     "inicio": 0.9,
+     "fin": 1.2
+    },
+    {
+     "texto": "every",
+     "inicio": 1.2,
+     "fin": 1.5
+    },
+    {
+     "texto": "morning",
+     "inicio": 1.5,
+     "fin": 1.84
+    },
+    {
+     "texto": "to",
+     "inicio": 1.84,
+     "fin": 2.04
+    },
+    {
+     "texto": "save",
+     "inicio": 2.04,
+     "fin": 2.18
+    },
+    {
+     "texto": "money.",
+     "inicio": 2.18,
+     "fin": 2.4
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.4
+  },
+  {
+   "texto": "Here's the math. Most products that draw standby power use less than half a watt, says Lawrence Berkeley National Laboratory.",
+   "palabras": [
+    {
+     "texto": "Here's",
+     "inicio": 2.82,
+     "fin": 3.06
+    },
+    {
+     "texto": "the",
+     "inicio": 3.06,
+     "fin": 3.16
+    },
+    {
+     "texto": "math.",
+     "inicio": 3.16,
+     "fin": 3.36
+    },
+    {
+     "texto": "Most",
+     "inicio": 3.82,
+     "fin": 3.98
+    },
+    {
+     "texto": "products",
+     "inicio": 3.98,
+     "fin": 4.36
+    },
+    {
+     "texto": "that",
+     "inicio": 4.36,
+     "fin": 4.58
+    },
+    {
+     "texto": "draw",
+     "inicio": 4.58,
+     "fin": 4.86
+    },
+    {
+     "texto": "standby",
+     "inicio": 4.86,
+     "fin": 5.18
+    },
+    {
+     "texto": "power",
+     "inicio": 5.18,
+     "fin": 5.68
+    },
+    {
+     "texto": "use",
+     "inicio": 5.68,
+     "fin": 6.06
+    },
+    {
+     "texto": "less",
+     "inicio": 6.06,
+     "fin": 6.6
+    },
+    {
+     "texto": "than",
+     "inicio": 6.6,
+     "fin": 6.8
+    },
+    {
+     "texto": "half",
+     "inicio": 6.8,
+     "fin": 7.14
+    },
+    {
+     "texto": "a",
+     "inicio": 7.14,
+     "fin": 7.24
+    },
+    {
+     "texto": "watt,",
+     "inicio": 7.24,
+     "fin": 7.52
+    },
+    {
+     "texto": "says",
+     "inicio": 7.76,
+     "fin": 7.94
+    },
+    {
+     "texto": "Lawrence",
+     "inicio": 7.94,
+     "fin": 8.34
+    },
+    {
+     "texto": "Berkeley",
+     "inicio": 8.34,
+     "fin": 8.72
+    },
+    {
+     "texto": "National",
+     "inicio": 8.72,
+     "fin": 9.2
+    },
+    {
+     "texto": "Laboratory.",
+     "inicio": 9.2,
+     "fin": 9.68
+    }
+   ],
+   "inicio": 2.82,
+   "fin": 9.68
+  },
+  {
+   "texto": "Even if a charger drew half a watt all year, that's about four kilowatt-hours. At the average U.S. rate, roughly seventy-six cents.",
+   "palabras": [
+    {
+     "texto": "Even",
+     "inicio": 10.26,
+     "fin": 10.46
+    },
+    {
+     "texto": "if",
+     "inicio": 10.46,
+     "fin": 10.6
+    },
+    {
+     "texto": "a",
+     "inicio": 10.6,
+     "fin": 10.72
+    },
+    {
+     "texto": "charger",
+     "inicio": 10.72,
+     "fin": 10.94
+    },
+    {
+     "texto": "drew",
+     "inicio": 10.94,
+     "fin": 11.28
+    },
+    {
+     "texto": "half",
+     "inicio": 11.28,
+     "fin": 11.64
+    },
+    {
+     "texto": "a",
+     "inicio": 11.64,
+     "fin": 11.74
+    },
+    {
+     "texto": "watt",
+     "inicio": 11.74,
+     "fin": 11.92
+    },
+    {
+     "texto": "all",
+     "inicio": 11.92,
+     "fin": 12.18
+    },
+    {
+     "texto": "year,",
+     "inicio": 12.18,
+     "fin": 12.58
+    },
+    {
+     "texto": "that's",
+     "inicio": 12.82,
+     "fin": 13.02
+    },
+    {
+     "texto": "about",
+     "inicio": 13.02,
+     "fin": 13.22
+    },
+    {
+     "texto": "four",
+     "inicio": 13.22,
+     "fin": 13.96
+    },
+    {
+     "texto": "kilowatt-hours.",
+     "inicio": 13.96,
+     "fin": 14.84
+    },
+    {
+     "texto": "At",
+     "inicio": 15.42,
+     "fin": 15.54
+    },
+    {
+     "texto": "the",
+     "inicio": 15.54,
+     "fin": 15.62
+    },
+    {
+     "texto": "average",
+     "inicio": 15.62,
+     "fin": 15.88
+    },
+    {
+     "texto": "U.S.",
+     "inicio": 15.88,
+     "fin": 16.26
+    },
+    {
+     "texto": "rate,",
+     "inicio": 16.26,
+     "fin": 16.5
+    },
+    {
+     "texto": "roughly",
+     "inicio": 16.94,
+     "fin": 17.22
+    },
+    {
+     "texto": "seventy-six",
+     "inicio": 17.22,
+     "fin": 18.22
+    },
+    {
+     "texto": "cents.",
+     "inicio": 18.22,
+     "fin": 18.52
+    }
+   ],
+   "inicio": 10.26,
+   "fin": 18.52
+  },
+  {
+   "texto": "So one charger is pennies. But the whole house adds up: Berkeley Lab estimates standby power is five to ten percent of home electricity.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 19.1,
+     "fin": 19.28
+    },
+    {
+     "texto": "one",
+     "inicio": 19.28,
+     "fin": 19.64
+    },
+    {
+     "texto": "charger",
+     "inicio": 19.64,
+     "fin": 19.96
+    },
+    {
+     "texto": "is",
+     "inicio": 19.96,
+     "fin": 20.28
+    },
+    {
+     "texto": "pennies.",
+     "inicio": 20.28,
+     "fin": 20.76
+    },
+    {
+     "texto": "But",
+     "inicio": 21.22,
+     "fin": 21.38
+    },
+    {
+     "texto": "the",
+     "inicio": 21.38,
+     "fin": 21.48
+    },
+    {
+     "texto": "whole",
+     "inicio": 21.48,
+     "fin": 21.64
+    },
+    {
+     "texto": "house",
+     "inicio": 21.64,
+     "fin": 22.1
+    },
+    {
+     "texto": "adds",
+     "inicio": 22.1,
+     "fin": 22.7
+    },
+    {
+     "texto": "up:",
+     "inicio": 22.7,
+     "fin": 22.92
+    },
+    {
+     "texto": "Berkeley",
+     "inicio": 23.48,
+     "fin": 23.7
+    },
+    {
+     "texto": "Lab",
+     "inicio": 23.7,
+     "fin": 23.98
+    },
+    {
+     "texto": "estimates",
+     "inicio": 23.98,
+     "fin": 24.28
+    },
+    {
+     "texto": "standby",
+     "inicio": 24.28,
+     "fin": 24.76
+    },
+    {
+     "texto": "power",
+     "inicio": 24.76,
+     "fin": 25.3
+    },
+    {
+     "texto": "is",
+     "inicio": 25.3,
+     "fin": 25.7
+    },
+    {
+     "texto": "five",
+     "inicio": 25.7,
+     "fin": 26.2
+    },
+    {
+     "texto": "to",
+     "inicio": 26.2,
+     "fin": 26.44
+    },
+    {
+     "texto": "ten",
+     "inicio": 26.44,
+     "fin": 26.62
+    },
+    {
+     "texto": "percent",
+     "inicio": 26.62,
+     "fin": 26.92
+    },
+    {
+     "texto": "of",
+     "inicio": 26.92,
+     "fin": 27.06
+    },
+    {
+     "texto": "home",
+     "inicio": 27.06,
+     "fin": 27.22
+    },
+    {
+     "texto": "electricity.",
+     "inicio": 27.22,
+     "fin": 27.66
+    }
+   ],
+   "inicio": 19.1,
+   "fin": 27.66
+  },
+  {
+   "texto": "So skip the single charger. Put the TV setup on one power strip, and switch it off, like the Energy Department suggests.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 28.3,
+     "fin": 28.46
+    },
+    {
+     "texto": "skip",
+     "inicio": 28.46,
+     "fin": 28.86
+    },
+    {
+     "texto": "the",
+     "inicio": 28.86,
+     "fin": 29.02
+    },
+    {
+     "texto": "single",
+     "inicio": 29.02,
+     "fin": 29.24
+    },
+    {
+     "texto": "charger.",
+     "inicio": 29.24,
+     "fin": 29.58
+    },
+    {
+     "texto": "Put",
+     "inicio": 30.2,
+     "fin": 30.3
+    },
+    {
+     "texto": "the",
+     "inicio": 30.3,
+     "fin": 30.44
+    },
+    {
+     "texto": "TV",
+     "inicio": 30.44,
+     "fin": 30.7
+    },
+    {
+     "texto": "setup",
+     "inicio": 30.7,
+     "fin": 31.04
+    },
+    {
+     "texto": "on",
+     "inicio": 31.04,
+     "fin": 31.28
+    },
+    {
+     "texto": "one",
+     "inicio": 31.28,
+     "fin": 31.5
+    },
+    {
+     "texto": "power",
+     "inicio": 31.5,
+     "fin": 31.8
+    },
+    {
+     "texto": "strip,",
+     "inicio": 31.8,
+     "fin": 32.06
+    },
+    {
+     "texto": "and",
+     "inicio": 32.26,
+     "fin": 32.3
+    },
+    {
+     "texto": "switch",
+     "inicio": 32.3,
+     "fin": 32.48
+    },
+    {
+     "texto": "it",
+     "inicio": 32.48,
+     "fin": 32.62
+    },
+    {
+     "texto": "off,",
+     "inicio": 32.62,
+     "fin": 32.82
+    },
+    {
+     "texto": "like",
+     "inicio": 33.3,
+     "fin": 33.48
+    },
+    {
+     "texto": "the",
+     "inicio": 33.48,
+     "fin": 33.64
+    },
+    {
+     "texto": "Energy",
+     "inicio": 33.64,
+     "fin": 33.86
+    },
+    {
+     "texto": "Department",
+     "inicio": 33.86,
+     "fin": 34.14
+    },
+    {
+     "texto": "suggests.",
+     "inicio": 34.14,
+     "fin": 34.52
+    }
+   ],
+   "inicio": 28.3,
+   "fin": 34.52
+  },
+  {
+   "texto": "Heads up: a cable DVR or console may need power to record or update, and your savings depend on your rate.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 35.24,
+     "fin": 35.48
+    },
+    {
+     "texto": "up:",
+     "inicio": 35.48,
+     "fin": 35.68
+    },
+    {
+     "texto": "a",
+     "inicio": 35.86,
+     "fin": 35.94
+    },
+    {
+     "texto": "cable",
+     "inicio": 35.94,
+     "fin": 36.32
+    },
+    {
+     "texto": "DVR",
+     "inicio": 36.32,
+     "fin": 37.08
+    },
+    {
+     "texto": "or",
+     "inicio": 37.08,
+     "fin": 37.3
+    },
+    {
+     "texto": "console",
+     "inicio": 37.3,
+     "fin": 37.8
+    },
+    {
+     "texto": "may",
+     "inicio": 37.8,
+     "fin": 38.38
+    },
+    {
+     "texto": "need",
+     "inicio": 38.38,
+     "fin": 38.64
+    },
+    {
+     "texto": "power",
+     "inicio": 38.64,
+     "fin": 39.02
+    },
+    {
+     "texto": "to",
+     "inicio": 39.02,
+     "fin": 39.28
+    },
+    {
+     "texto": "record",
+     "inicio": 39.28,
+     "fin": 39.8
+    },
+    {
+     "texto": "or",
+     "inicio": 39.8,
+     "fin": 40.04
+    },
+    {
+     "texto": "update,",
+     "inicio": 40.04,
+     "fin": 40.38
+    },
+    {
+     "texto": "and",
+     "inicio": 40.88,
+     "fin": 41.06
+    },
+    {
+     "texto": "your",
+     "inicio": 41.06,
+     "fin": 41.2
+    },
+    {
+     "texto": "savings",
+     "inicio": 41.2,
+     "fin": 41.58
+    },
+    {
+     "texto": "depend",
+     "inicio": 41.58,
+     "fin": 41.9
+    },
+    {
+     "texto": "on",
+     "inicio": 41.9,
+     "fin": 42.16
+    },
+    {
+     "texto": "your",
+     "inicio": 42.16,
+     "fin": 42.26
+    },
+    {
+     "texto": "rate.",
+     "inicio": 42.26,
+     "fin": 42.48
+    }
+   ],
+   "inicio": 35.24,
+   "fin": 42.48
+  },
+  {
+   "texto": "Do you unplug your chargers? Yes or no?",
+   "palabras": [
+    {
+     "texto": "Do",
+     "inicio": 43.04,
+     "fin": 43.1
+    },
+    {
+     "texto": "you",
+     "inicio": 43.1,
+     "fin": 43.24
+    },
+    {
+     "texto": "unplug",
+     "inicio": 43.24,
+     "fin": 43.48
+    },
+    {
+     "texto": "your",
+     "inicio": 43.48,
+     "fin": 43.76
+    },
+    {
+     "texto": "chargers?",
+     "inicio": 43.76,
+     "fin": 44.2
+    },
+    {
+     "texto": "Yes",
+     "inicio": 44.62,
+     "fin": 44.76
+    },
+    {
+     "texto": "or",
+     "inicio": 44.76,
+     "fin": 44.92
+    },
+    {
+     "texto": "no?",
+     "inicio": 44.92,
+     "fin": 45.1
+    }
+   ],
+   "inicio": 43.04,
+   "fin": 45.1
+  },
+  {
+   "texto": "Save this, then send it to the friend who unplugs every charger but leaves the TV on standby.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 45.58,
+     "fin": 45.84
+    },
+    {
+     "texto": "this,",
+     "inicio": 45.84,
+     "fin": 46.08
+    },
+    {
+     "texto": "then",
+     "inicio": 46.42,
+     "fin": 46.62
+    },
+    {
+     "texto": "send",
+     "inicio": 46.62,
+     "fin": 46.96
+    },
+    {
+     "texto": "it",
+     "inicio": 46.96,
+     "fin": 47.06
+    },
+    {
+     "texto": "to",
+     "inicio": 47.06,
+     "fin": 47.16
+    },
+    {
+     "texto": "the",
+     "inicio": 47.16,
+     "fin": 47.26
+    },
+    {
+     "texto": "friend",
+     "inicio": 47.26,
+     "fin": 47.56
+    },
+    {
+     "texto": "who",
+     "inicio": 47.56,
+     "fin": 47.78
+    },
+    {
+     "texto": "unplugs",
+     "inicio": 47.78,
+     "fin": 48.5
+    },
+    {
+     "texto": "every",
+     "inicio": 48.5,
+     "fin": 49.04
+    },
+    {
+     "texto": "charger",
+     "inicio": 49.04,
+     "fin": 49.5
+    },
+    {
+     "texto": "but",
+     "inicio": 49.5,
+     "fin": 49.76
+    },
+    {
+     "texto": "leaves",
+     "inicio": 49.76,
+     "fin": 50.02
+    },
+    {
+     "texto": "the",
+     "inicio": 50.02,
+     "fin": 50.2
+    },
+    {
+     "texto": "TV",
+     "inicio": 50.2,
+     "fin": 50.5
+    },
+    {
+     "texto": "on",
+     "inicio": 50.5,
+     "fin": 50.74
+    },
+    {
+     "texto": "standby.",
+     "inicio": 50.74,
+     "fin": 51.12
+    }
+   ],
+   "inicio": 45.58,
+   "fin": 51.12
+  }
+ ]
+}

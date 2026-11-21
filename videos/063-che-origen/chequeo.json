@@ -1,0 +1,72 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones tienen fuente o están presentadas como versión no confirmada. Las únicas 'dudosas' son los tres orígenes, que el guion y el caption ya marcan como versiones ('Una versión dice', 'Otra', 'ninguna está confirmada'). No hay falsas ni cifras inventadas. Reservas menores no bloqueantes: la cita de Kalinowski se apoya en BBC Mundo reproducida por terceros (Metro PR, 24horas.cl), no en un texto de la Academia; y la hipótesis valenciana es una versión de Rosenblat (de la interjección ce), así que 'interjección del valenciano' es una simplificación aceptable.",
+  "afirmaciones": [
+    {
+      "texto": "Decís che todos los días, y casi nadie sabe de dónde salió.",
+      "fuente": "Sin fuente primaria (afirmación general). Coherente con que la etimología es discutida según Billiken y la Academia Nacional de Letras de Uruguay.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El lingüista Santiago Kalinowski, de la Academia Argentina de Letras, dice que es una palabra muy antigua, pero con un origen inseguro.",
+      "fuente": "BBC Mundo, 'el che no es argentino' (reproducida por Metro PR, 2018, https://www.metro.pr/noticias/2018/11/14/de-donde-viene-la-palabra-che, y 24horas.cl): Kalinowski, director del Departamento de Investigaciones Lingüísticas y Filológicas de la AAL, habla de 'una etimología insegura' y 'una palabra muy antigua'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Una versión dice que viene del mapuche, donde che significa gente.",
+      "fuente": "Billiken (https://billiken.lat/interesante/che-cual-es-el-origen-de-la-palabra/); Lenz la defendió; Lexis PUCP (https://revistas.pucp.edu.pe/index.php/lexis/article/download/1487/1433). Rosenblat la descartó y Bertolotti no halló datos históricos que la sostengan.",
+      "estado": "dudosa",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Otra, que viene del guaraní, donde che quiere decir mi.",
+      "fuente": "Billiken; Lexis PUCP; defendida por Rona. En guaraní che es pronombre 'yo' y posesivo 'mi'. Sin pruebas concluyentes.",
+      "estado": "dudosa",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y otra, que viene de una interjección del valenciano.",
+      "fuente": "Billiken y BBC Mundo/Metro PR: interjección valenciana 'cé' o latín 'ce' (hipótesis de Rosenblat). No confirmada.",
+      "estado": "dudosa",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: ninguna está confirmada, así que no te quedes con una sola.",
+      "fuente": "Billiken, Lexis PUCP, Academia Nacional de Letras de Uruguay (https://www.gub.uy/ministerio-educacion-cultura/academia-nacional-letras/noticias/che-nuestro-amor-ch): ninguna hipótesis está comprobada.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Lo que sí se sabe es el uso: en Argentina, Paraguay y Uruguay se dice para llamar la atención de alguien o mostrar sorpresa.",
+      "fuente": "DLE (RAE), entrada 'che': interjección para llamar, detener o pedir atención a alguien, o para denotar asombro o sorpresa; uso en Argentina, Paraguay y Uruguay. Otras fuentes suman Bolivia, pero la frase sigue el DLE.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "¿Cuál versión te cierra más? Contestá con una palabra: mapuche, guaraní o valenciano.",
+      "fuente": "No aplica (pregunta de interacción). Presenta los orígenes como versiones.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Según Santiago Kalinowski, de la Academia Argentina de Letras, es una palabra muy antigua con un origen inseguro. Hay tres versiones: mapuche (che, 'gente'), guaraní (che, 'mi') o interjección del valenciano. Ninguna está confirmada.",
+      "fuente": "Igual que las frases 2 a 6.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Lo que sí se sabe es el uso: en Argentina, Paraguay y Uruguay se dice para llamar la atención de alguien o mostrar sorpresa.",
+      "fuente": "DLE (RAE).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Fuentes: Billiken; BBC Mundo (vía 24horas.cl); Academia Nacional de Letras de Uruguay.",
+      "fuente": "Billiken y la Academia Nacional de Letras de Uruguay existen y tratan el tema. BBC Mundo se confirmó vía la reproducción de Metro PR (no se abrió la copia de 24horas.cl).",
+      "estado": "probable",
+      "matiz_ok": true
+    }
+  ]
+}

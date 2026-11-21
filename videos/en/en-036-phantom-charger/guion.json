@@ -1,0 +1,28 @@
+{
+  "titulo": "Unplugging your phone charger saves pennies, not dollars",
+  "serie": "casa",
+  "fondo": "oscuro",
+  "receta": "error cotidiano con regla para guardar + pregunta de dos bandos (yes or no)",
+  "pilar": "plata_hogar",
+  "destinatario": "se lo manda quien paga la cuenta de luz a su amigo o pareja que desenchufa cada cargador pero deja la tele y la consola en standby",
+  "regla_guardable": "One idle charger: under a dollar a year. All standby power in a house: 5 to 10 percent of its electricity. Put the TV setup on one power strip and switch it off.",
+  "interaccion": {
+    "guardar": "One typical idle charger: about $0.76 a year at most (0.5 W). Standby power in a home: an estimated 5-10% of its electricity. TV setup on one power strip, switch it off.",
+    "comentar": "Do you unplug your chargers? Yes or no?"
+  },
+  "fuentes": [
+    "Lawrence Berkeley National Laboratory, Standby Power (standby.lbl.gov): standby power is 5-10% of residential electricity use; most products draw less than 0.5 watts; TVs, microwave ovens and air conditioners are examples of products that draw standby power",
+    "U.S. EIA: average U.S. residential electricity price 17.30 cents per kWh in 2025 (preliminary)",
+    "Own arithmetic: 0.5 W x 8,760 h = 4.38 kWh x $0.173 = about $0.76 a year"
+  ],
+  "frases": [
+    {"texto": "You unplug your phone charger every morning to save money.", "estilo": "Dry, direct, with a half smile."},
+    {"texto": "Here's the math. Most products that draw standby power use less than half a watt, says Lawrence Berkeley National Laboratory.", "estilo": "Matter of fact, informative."},
+    {"texto": "Even if a charger drew half a watt all year, that's about four kilowatt-hours. At the average U.S. rate, roughly seventy-six cents.", "estilo": "Punchy, a little surprised."},
+    {"texto": "So one charger is pennies. But the whole house adds up: Berkeley Lab estimates standby power is five to ten percent of home electricity.", "estilo": "Firm, clear."},
+    {"texto": "So skip the single charger. Put the TV setup on one power strip, and switch it off, like the Energy Department suggests.", "estilo": "Practical, brisk."},
+    {"texto": "Heads up: a cable DVR or console may need power to record or update, and your savings depend on your rate.", "estilo": "Calm, honest caveat."},
+    {"texto": "Do you unplug your chargers? Yes or no?", "estilo": "Curious, friendly."},
+    {"texto": "Save this, then send it to the friend who unplugs every charger but leaves the TV on standby.", "estilo": "Playful and funny."}
+  ]
+}

@@ -2313,5 +2313,54 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "062-pote-microondas",
+  "tema": "Calentar en el pote de yogur o margarina: no es para el microondas (USDA FSIS)",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-21T18:15",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-21T18:15",
+    "motivo": ""
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-21T18:18",
+    "motivo": "chequeo rechazado 2 veces: 'envases de un solo uso/no pensados para cocinar' sin fuente legible; 'si no lo dice no lo uses' demasiado general (vidrio/cerámica)"
+   }
+  ]
+ },
+ {
+  "slug": "063-che-origen",
+  "tema": "¿De dónde viene el 'che'? Origen incierto: tres versiones (mapuche, guaraní, valenciano)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-21T18:18",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-21T18:18",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-21T18:21",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-21T18:51",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

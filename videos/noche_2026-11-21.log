@@ -20,3 +20,11 @@ Uso: 20 pasos · 16,632 tokens nuevos · 1,259,080 de caché · 7,030 escritos �
 2026-11-21 14:01 Render de 061-heladera-termometro (sin Claude).
 2026-11-21 14:12 061-heladera-termometro: listo (render sin Claude)
 2026-11-21 14:12 Termina la producción (ok).
+2026-11-21 18:14 Arranca la producción (9 listos en la cola, meta 10).
+- **063-che-origen:** pasó a `render`, con el chequeo aprobado al primer intento. Dura 47 s, un poco sobre el tope. Tiene voz y escenas 3D con mapa, y `tsc` salió sin errores. Mirando los cuadros acorté un cartel que se salía de la pantalla. El render, la portada y el control los hace `producir.py`. Interacción: comentar ("¿mapuche, guaraní o valenciano?").
+- **062-pote-microondas:** quedó `apartado` porque el chequeo lo rechazó dos veces. "Envases de un solo uso" no tenía fuente legible y "si no lo dice, no lo uses" era demasiado general. Es rescatable atribuyendo todo solo a la Universidad de Clemson.
+- **Rescates:** no hice ninguno. 038, 042, 044 y 051 están apartados por otros motivos, no por chequeo rechazado. La cuota de Gemini no se agotó y todo quedó anotado en `videos/produccion.log`.
+Uso: 19 pasos · 19,687 tokens nuevos · 1,290,001 de caché · 7,300 escritos · equivale a US$ 1.57 de API
+2026-11-21 18:22 Render de 063-che-origen (sin Claude).
+2026-11-21 18:51 063-che-origen: listo (render sin Claude)
+2026-11-21 18:51 Termina la producción (ok).

@@ -1,0 +1,25 @@
+{
+  "titulo": "Decís che todos los días y nadie sabe de dónde salió",
+  "fondo": "oscuro",
+  "receta": "El acusado equivocado / costumbres",
+  "pilar": "argentina",
+  "interaccion": ["comentar"],
+  "destinatario": "se lo manda un argentino a un amigo extranjero (o a su abuelo) que no puede hablar sin decir che, para ver qué origen le cierra",
+  "regla_guardable": "Che: origen incierto, tres versiones (mapuche, guaraní, valenciano), ninguna confirmada.",
+  "fuentes": [
+    "Billiken: ¿De dónde viene el popular che argentino? (cita a la RAE y a lingüistas)",
+    "BBC Mundo: el che no es argentino (vía 24horas.cl)",
+    "Academia Nacional de Letras de Uruguay: Che, nuestro amor"
+  ],
+  "frases": [
+    {"texto": "Decís che todos los días, y casi nadie sabe de dónde salió.", "estilo": "Seco, directo, a cámara."},
+    {"texto": "El lingüista Santiago Kalinowski, de la Academia Argentina de Letras, dice que es una palabra muy antigua, pero con un origen inseguro.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Una versión dice que viene del mapuche, donde che significa gente.", "estilo": "Curioso, claro."},
+    {"texto": "Otra, que viene del guaraní, donde che quiere decir mi.", "estilo": "Curioso."},
+    {"texto": "Y otra, que viene de una interjección del valenciano.", "estilo": "Con media sonrisa."},
+    {"texto": "Ojo: ninguna está confirmada, así que no te quedes con una sola.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Lo que sí se sabe es el uso: en Argentina, Paraguay y Uruguay se dice para llamar la atención de alguien o mostrar sorpresa.", "estilo": "Informativo."},
+    {"texto": "¿Cuál versión te cierra más? Contestá con una palabra: mapuche, guaraní o valenciano.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al que no puede hablar sin decir che.", "estilo": "Cómplice, con humor."}
+  ]
+}

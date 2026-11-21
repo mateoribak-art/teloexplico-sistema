@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T17:27",
+ "actualizado": "2026-11-21T19:04",
  "oficinas": [
   {
    "clave": "es",
@@ -7,8 +7,8 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 1026,
-   "listos": 9,
-   "dias": 4.5,
+   "listos": 10,
+   "dias": 5.0,
    "proximo": "050-martes-13-no-viernes",
    "publicados": 51,
    "pausa": false,
@@ -79,6 +79,13 @@
      "motivo": "tema de actualidad vencido (más de 48 h)"
     },
     {
+     "slug": "062-pote-microondas",
+     "tema": "Calentar en el pote de yogur o margarina: no es para el microondas (USDA FSIS)",
+     "estado": "apartado",
+     "cuando": "2026-11-21T18:18",
+     "motivo": "chequeo rechazado 2 veces: 'envases de un solo uso/no pensados para cocinar' sin fuente legible; 'si no lo dice no lo uses' demasiado general (vidrio/cerámica)"
+    },
+    {
      "slug": "052-zapatilla-sobrecarga",
      "tema": "Qué electrodomésticos no enchufar a una zapatilla o alargue: los que calientan (microondas, pava, estufa, aire) van directo a la pared (NFPA, bomberos)",
      "estado": "publicado",
@@ -110,20 +117,18 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-21T14:12",
-     "hace": "hace 3 h",
+     "cuando": "2026-11-21T18:51",
+     "hace": "hace 13 min",
      "detalle": [
-      "Uso: 20 pasos · 16,632 tokens nuevos · 1,259,080 de caché · 7,030 escritos · equivale a US$ 1.30 de API",
-      "2026-11-21 13:55 Arranca la producción (8 listos en la cola, meta 10).",
-      "Producí un solo video: `061-heladera-termometro` quedó en estado `render`. No lo rendericé: lo hace `producir.py` al terminar el turno, que además saca la portada, corre el control y lo pasa a `listo` o `apartado`.",
-      "- **Rescates:** no había nada para rescatar. Los apartados actuales (005, 038, 042, 044 y 051) no tenían el motivo \"chequeo rechazado\".",
-      "- **`061-heladera-termometro`:** el tema es \"¿tu heladera enfría bien?\" y la regla para guardar es heladera a cuatro grados o menos y freezer a dieciocho bajo cero. El chequeo rechazó el primer intento (un \"bajá de a poco\" sin fuente y \"la ",
-      "- **Segundo video:** no lo hice. La cola tiene 8 listos, menos de 10, así que correspondía otro, pero me quedé con uno solo en este turno.",
-      "El radar no encontró ningún tema del día verificable. Dejé anotados en `produccion.log` el radar, el ritmo de seguidores (unos 22 por día contra unos 95 que hacen falta) y la `interaccion` elegida, que es guardar más comentar.",
-      "Uso: 20 pasos · 16,632 tokens nuevos · 1,259,080 de caché · 7,030 escritos · equivale a US$ 1.30 de API",
-      "2026-11-21 14:01 Render de 061-heladera-termometro (sin Claude).",
-      "2026-11-21 14:12 061-heladera-termometro: listo (render sin Claude)",
-      "2026-11-21 14:12 Termina la producción (ok)."
+      "Uso: 19 pasos · 19,687 tokens nuevos · 1,290,001 de caché · 7,300 escritos · equivale a US$ 1.57 de API",
+      "2026-11-21 18:14 Arranca la producción (9 listos en la cola, meta 10).",
+      "- **063-che-origen:** pasó a `render`, con el chequeo aprobado al primer intento. Dura 47 s, un poco sobre el tope. Tiene voz y escenas 3D con mapa, y `tsc` salió sin errores. Mirando los cuadros acorté un cartel que se salía de la pantalla",
+      "- **062-pote-microondas:** quedó `apartado` porque el chequeo lo rechazó dos veces. \"Envases de un solo uso\" no tenía fuente legible y \"si no lo dice, no lo uses\" era demasiado general. Es rescatable atribuyendo todo solo a la Universidad d",
+      "- **Rescates:** no hice ninguno. 038, 042, 044 y 051 están apartados por otros motivos, no por chequeo rechazado. La cuota de Gemini no se agotó y todo quedó anotado en `videos/produccion.log`.",
+      "Uso: 19 pasos · 19,687 tokens nuevos · 1,290,001 de caché · 7,300 escritos · equivale a US$ 1.57 de API",
+      "2026-11-21 18:22 Render de 063-che-origen (sin Claude).",
+      "2026-11-21 18:51 063-che-origen: listo (render sin Claude)",
+      "2026-11-21 18:51 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -176,7 +181,7 @@
      "estado": "ok",
      "resumen": "Revisión radar (segunda pasada). Dos búsquedas web (alertas SMN y tendencias): lo más reciente es del 16-nov. SIN tema nuevo verificable. Descartados: (a) alert",
      "cuando": "2026-11-21T17:12",
-     "hace": "hace 15 min",
+     "hace": "hace 1 h",
      "detalle": [
       "20/11 00:00 | Revisión radar. Búsquedas web (SMN + noticias/tendencias del día). SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por tormentas y granizo en 7-11 provincias incl. Buenos Aires (SMN hoy, La Nación/NA) -> granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin ángulo nuevo; (b) Día de la Soberanía 20/11 -> YA en cola (053-cadenas-parana, en render); (c) dólar/CCL, ley de patentes, ley discapacidad, Tesla en Argentina -> política/economía/empresa, no encajan. Sigue la cola normal.",
       "21/11 00:00 | Revisión radar (turno nube). Una búsqueda web (SMN fin de semana largo): solo resultados de otros años, nada verificable fechado de hoy. SIN tema nuevo; sigue la cola normal.",
@@ -211,24 +216,26 @@
        "cuenta": "es"
       }
      },
-     "estado": "ok",
-     "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-21T14:12",
-     "hace": "hace 3 h",
+     "estado": "aviso",
+     "resumen": "Frenó 1 video(s): 062-pote-microondas.",
+     "cuando": "2026-11-21T18:51",
+     "hace": "hace 13 min",
      "detalle": [
-      "054-gta-juegos-violentos: aprobado — Todas las afirmaciones fácticas quedaron verificadas contra fuentes primarias o confiables: el comunicado de la APA del 3/3/2020 (apa.org) r",
-      "055-gta-vice-city-miami: aprobado — Ninguna afirmación es falsa y no hay cifras, salud, seguridad ni plata. Las afirmaciones probables (Vice City inspirada en Miami, Leonida en",
       "056-gta-trece-anios: aprobado — Todas las afirmaciones fácticas (fechas de GTA V y GTA 6, anuncio para 2025, las dos postergaciones y la cuenta de trece años y dos meses) e",
       "057-ruta-40-de-punta-a-punta: aprobado — Todas las cifras y datos duros (más de 5.000 km, extremos, once provincias, ruta más larga) quedaron verificados con fuentes. La dispersión ",
       "058-agua-del-mate: aprobado — La única cifra (75 a 80 grados) y su atribución al INYM están confirmadas en una fuente primaria (notas del INYM en inym.org.ar). El efecto ",
       "059-pibe-chango-guri: aprobado — Se revisaron todas las frases del guion y el caption contra Billiken y el DLE/DPD de la RAE. Todas las afirmaciones quedan verificadas o pre",
       "060-celular-carga-noche: aprobado — Todas las afirmaciones (salud/seguridad de la batería) están verificadas contra las dos páginas de Apple Soporte citadas y todas van atribui",
-      "061-heladera-termometro: aprobado — Todas las afirmaciones de salud/seguridad alimentaria quedaron verificadas contra fuentes primarias. FDA (Refrigerator Thermometers: Cold Fa"
+      "061-heladera-termometro: aprobado — Todas las afirmaciones de salud/seguridad alimentaria quedaron verificadas contra fuentes primarias. FDA (Refrigerator Thermometers: Cold Fa",
+      "062-pote-microondas: rechazado — Clemson (leída completa) NO dice que sean envases de un solo uso ni que no estén pensados para cocinar; solo dice que margarina, yogur y bow",
+      "063-che-origen: aprobado — Todas las afirmaciones tienen fuente o están presentadas como versión no confirmada. Las únicas 'dudosas' son los tres orígenes, que el guio"
      ],
-     "tareas": [],
-     "arreglo": null,
+     "tareas": [
+      "062-pote-microondas: chequeo rechazado 2 veces: 'envases de un solo uso/no pensados para cocinar' sin fuente legible; 'si no lo dice no lo uses' demasiado general (vidrio/cerámica)"
+     ],
+     "arreglo": "Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.",
      "solo": false,
-     "firma": "f021dae776ff"
+     "firma": "02435199603d"
     },
     {
      "id": "voz",
@@ -246,8 +253,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-21T14:12",
-     "hace": "hace 3 h",
+     "cuando": "2026-11-21T18:51",
+     "hace": "hace 13 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -269,14 +276,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-21 14:12.",
-     "cuando": "2026-11-21T14:12",
-     "hace": "hace 3 h",
+     "resumen": "Último video terminado: 2026-11-21 18:51.",
+     "cuando": "2026-11-21T18:51",
+     "hace": "hace 13 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "246048bfce2b"
+     "firma": "cb8d7a0bcdf1"
     },
     {
      "id": "control",
@@ -294,8 +301,8 @@
      },
      "estado": "aviso",
      "resumen": "Apartó 1 video(s) en las últimas 48 h.",
-     "cuando": "2026-11-21T14:12",
-     "hace": "hace 3 h",
+     "cuando": "2026-11-21T18:51",
+     "hace": "hace 13 min",
      "detalle": [],
      "tareas": [
       "051-leonidas-grano-arena: tema de actualidad vencido (más de 48 h)"
@@ -321,7 +328,7 @@
      "estado": "ok",
      "resumen": "Último: 049-primer-calor-aclimatacion.",
      "cuando": "2026-11-21T12:34",
-     "hace": "hace 4 h",
+     "hace": "hace 6 h",
      "detalle": [
       "20/11 19:33 053-cadenas-parana publicado: https://www.instagram.com/reel/Df-vMwOACQX/",
       "20/11 19:34 053-cadenas-parana publicado en Facebook: https://www.facebook.com/reel/1830925631569436/",
@@ -358,7 +365,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-21T12:34",
-     "hace": "hace 4 h",
+     "hace": "hace 6 h",
      "detalle": [
       "20/11 13:35 052-zapatilla-sobrecarga https://youtube.com/shorts/6rgBJVZv4yo | privacidad: public",
       "20/11 13:35 052-zapatilla-sobrecarga paquete para TikTok/YouTube enviado",
@@ -390,7 +397,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-21T00:16",
-     "hace": "hace 17 h",
+     "hace": "hace 18 h",
      "detalle": [
       "2026-11-07 22:18 lavar-pollo: listo control OK",
       "2026-11-20 21:29 celular-arroz: publicado https://www.instagram.com/p/Df-8c53IFGq/",
@@ -424,7 +431,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-20T20:19",
-     "hace": "hace 21 h",
+     "hace": "hace 22 h",
      "detalle": [
       "07/11 18:02 Hay 18 comentarios nuevos: arranca la respuesta.",
       "07/11 00:00 Respondí 16 · salteé 2 · alerté 0. (026-mediodia-hora-corrida: 14 respondidos, incluido alejandrokalfayan (hora oficial vs longitud, con Ley 26.350); 028-yerba-por-ano: 2 respondidos; salteados: aledelejos (vulgar, tema político de la hora) y un duplicado de fulanocris)",
@@ -463,7 +470,7 @@
      "estado": "ok",
      "resumen": "21/11: 1026 seguidores",
      "cuando": "2026-11-21T03:56",
-     "hace": "hace 13 h",
+     "hace": "hace 15 h",
      "detalle": [
       "18/11: 993 seguidores",
       "19/11: 1013 seguidores",
@@ -494,15 +501,17 @@
        "modo": "vigilar"
       }
      },
-     "estado": "ok",
-     "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-21T17:27",
+     "estado": "aviso",
+     "resumen": "Video apartado: 062-pote-microondas — chequeo rechazado 2 veces: 'envases de un solo uso/no pensados para cocinar' sin fuente legible; 'si no lo dice no lo us",
+     "cuando": "2026-11-21T19:04",
      "hace": "recién",
-     "detalle": [],
+     "detalle": [
+      "⚠️ Video apartado: 062-pote-microondas — chequeo rechazado 2 veces: 'envases de un solo uso/no pensados para cocinar' sin fuente legible; 'si no lo dice no lo us"
+     ],
      "tareas": [],
      "arreglo": null,
-     "solo": false,
-     "firma": "cf3a22f5d39c"
+     "solo": true,
+     "firma": "d7bf22b7162c"
     },
     {
      "id": "planb",
@@ -536,8 +545,8 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 5,
-   "listos": 9,
-   "dias": 4.5,
+   "listos": 10,
+   "dias": 5.0,
    "proximo": "en-026-el-nino-winter",
    "publicados": 28,
    "pausa": false,
@@ -630,18 +639,18 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-21T14:23",
-     "hace": "hace 3 h",
+     "cuando": "2026-11-21T19:03",
+     "hace": "hace 1 min",
      "detalle": [
-      "Uso: 38 pasos · 67,148 tokens nuevos · 1,140,649 de caché · 10,463 escritos · equivale a US$ 0.64 de API",
-      "2026-11-21 14:12 Arranca la producción (8 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
-      "- **Listo para render:** `en-035-turkey-stuffing` (cocina #11, el relleno del pavo tiene que llegar a 165 °F en el centro, para Thanksgiving el 26/11). El chequeo se aprobó en el primer intento con fuentes del USDA FSIS. La voz dura 34,9 s,",
-      "- **Chequeo con un límite:** las páginas de fsis.usda.gov devolvieron 403, así que el subagente verificó con los textos que citaban los resultados de búsqueda, no con las páginas completas.",
-      "- **Apartados:** no había videos apartados por chequeo rechazado, así que no hubo nada que rescatar. No quedó ninguno incompleto.",
-      "Uso: 38 pasos · 67,148 tokens nuevos · 1,140,649 de caché · 10,463 escritos · equivale a US$ 0.64 de API",
-      "2026-11-21 14:16 Render de en-035-turkey-stuffing (sin Claude).",
-      "2026-11-21 14:23 en-035-turkey-stuffing: listo (render sin Claude)",
-      "2026-11-21 14:23 Termina la producción (ok)."
+      "Uso: 17 pasos · 13,562 tokens nuevos · 802,501 de caché · 6,377 escritos · equivale a US$ 1.01 de API",
+      "2026-11-21 18:51 Arranca la producción (9 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
+      "- **Listo para render:** `en-036-phantom-charger`, \"¿Desenchufar el cargador ahorra plata?\", serie casa #7. Está en estado `render` y lo renderiza `producir.py`. El chequeo lo aprobó en el 2.º intento. Voz de 51 s (larga), `tlx tsc` sin err",
+      "- **Apartados:** no había ninguno por \"chequeo rechazado\" para rescatar. En el 1.er intento el chequeo rechazó dos cosas: la cifra del cargador y el consejo de la regleta sin fuente. Las reescribí con el matiz que pidió el chequeo.",
+      "- **Incompletos:** ninguno. Tema de plata con fuentes LBNL, EIA y DOE. El DOE (`energy.gov`) dio 404 en mi consulta; el consejo de la regleta lo verificó el subagente en una guía en PDF del DOE.",
+      "Uso: 17 pasos · 13,562 tokens nuevos · 802,501 de caché · 6,377 escritos · equivale a US$ 1.01 de API",
+      "2026-11-21 18:57 Render de en-036-phantom-charger (sin Claude).",
+      "2026-11-21 19:03 en-036-phantom-charger: listo (render sin Claude)",
+      "2026-11-21 19:03 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -665,7 +674,7 @@
      "estado": "ok",
      "resumen": "Pasada del radar: la búsqueda (NWS fin de semana, tendencias de Thanksgiving) solo devolvió páginas de inviernos anteriores o índices sin fecha; nada verificabl",
      "cuando": "2026-11-21T17:13",
-     "hace": "hace 14 min",
+     "hace": "hace 1 h",
      "detalle": [
       "07/11 00:00 Duodécima pasada del radar: la búsqueda (NWS fin de semana) solo devolvió páginas sin fecha o de 2025/marzo 2026; nada verificable de las últimas 48 h. Descartados: (1) frío/tormenta invernal del fin de semana: notas sin fecha, sin fuente oficial del día; (2) El Niño: ya en cola (en-026); (3) superluna del 24/11: lejos. Sin tema nuevo.",
       "20/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2023/2024 y titulares sin gancho explicable. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 verificable; (2) Nvidia/Anthropic IPO/Russell Brand: negocios o chisme/delito, no explicables; (3) superluna del 24/11: lejos y sin ángulo de guardar/comentar. Sin tema nuevo.",
@@ -696,17 +705,17 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-21T14:23",
-     "hace": "hace 3 h",
+     "cuando": "2026-11-21T19:03",
+     "hace": "hace 1 min",
      "detalle": [
-      "en-028-turkey-sleepy: aprobado — Segundo chequeo. La atribución coincide con inside.charlotte.edu (22/11/2024, 'The truth about tryptophan and Thanksgiving turkey tiredness'",
       "en-029-swim-after-eating: aprobado — Revision independiente. Las frases de salud/seguridad quedan acotadas a lo que dice la Cruz Roja (nadar dentro de la hora posterior a comer ",
       "en-030-violent-games: aprobado — Todas las afirmaciones coinciden con la fuente primaria (comunicado APA del 3/3/2020, texto citado literalmente en apa.org) y la fecha de GT",
       "en-031-gta-vice-city: aprobado — Ninguna afirmación es falsa y no hay cifras, salud, seguridad ni plata. Lo verificado (nombre Vice City, estado de Leonida, cita del sitio o",
       "en-032-gta-13-years: aprobado — Segunda pasada con busqueda web. Todas las fechas verificadas: GTA V 17/9/2013, anuncio para 2025, retraso de mayo 2025 a 26/5/2026, retraso",
       "en-033-turkey-thaw: aprobado — Todas las afirmaciones de salud/seguridad alimentaria y cifras estan verificadas contra USDA FSIS (y paginas de extension universitaria que ",
       "en-034-alcohol-cook-off: aprobado — Segundo intento. La fila primaria del PDF de USDA Release 6 (retn06.pdf) sigue sin poder leerse: WebFetch devuelve el PDF comprimido (FlateD",
-      "en-035-turkey-stuffing: aprobado — Todas las afirmaciones fácticas (seguridad alimentaria) están respaldadas por USDA FSIS y las cifras/unidades coinciden (165 °F en el centro"
+      "en-035-turkey-stuffing: aprobado — Todas las afirmaciones fácticas (seguridad alimentaria) están respaldadas por USDA FSIS y las cifras/unidades coinciden (165 °F en el centro",
+      "en-036-phantom-charger: aprobado — Todas las cifras de plata verificadas en fuente primaria de EE. UU. (LBNL standby.lbl.gov: 5-10% y menos de 0,5 W; EIA Energy Explained/Elec"
      ],
      "tareas": [],
      "arreglo": null,
@@ -729,8 +738,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-11-21T14:23",
-     "hace": "hace 3 h",
+     "cuando": "2026-11-21T19:03",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -752,14 +761,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-21 14:23.",
-     "cuando": "2026-11-21T14:23",
-     "hace": "hace 3 h",
+     "resumen": "Último video terminado: 2026-11-21 19:03.",
+     "cuando": "2026-11-21T19:03",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "404e7bd84f69"
+     "firma": "116225e3f1b1"
     },
     {
      "id": "control",
@@ -776,14 +785,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "9 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-21T14:23",
-     "hace": "hace 3 h",
+     "resumen": "10 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-21T19:03",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "770611e2218b"
+     "firma": "7772330f5bdb"
     },
     {
      "id": "publicador",
@@ -802,7 +811,7 @@
      "estado": "ok",
      "resumen": "Último: en-028-turkey-sleepy.",
      "cuando": "2026-11-21T12:36",
-     "hace": "hace 4 h",
+     "hace": "hace 6 h",
      "detalle": [
       "20/11 13:36 en-024-heat-index en la bandeja de TikTok",
       "20/11 13:37 en-024-heat-index paquete para TikTok/YouTube enviado",
@@ -839,7 +848,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-21T12:36",
-     "hace": "hace 4 h",
+     "hace": "hace 6 h",
      "detalle": [
       "07/11 19:35 en-023-package-text en la bandeja de TikTok",
       "07/11 19:35 en-023-package-text paquete para TikTok/YouTube enviado",
@@ -909,7 +918,7 @@
      "estado": "ok",
      "resumen": "21/11: 5 seguidores",
      "cuando": "2026-11-21T03:56",
-     "hace": "hace 13 h",
+     "hace": "hace 15 h",
      "detalle": [
       "06/11: 3 seguidores",
       "07/11: 5 seguidores",
@@ -942,7 +951,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-21T17:27",
+     "cuando": "2026-11-21T19:04",
      "hace": "recién",
      "detalle": [],
      "tareas": [],

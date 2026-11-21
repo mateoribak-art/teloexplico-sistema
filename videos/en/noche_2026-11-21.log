@@ -28,3 +28,11 @@ Uso: 38 pasos · 67,148 tokens nuevos · 1,140,649 de caché · 10,463 escritos 
 2026-11-21 14:16 Render de en-035-turkey-stuffing (sin Claude).
 2026-11-21 14:23 en-035-turkey-stuffing: listo (render sin Claude)
 2026-11-21 14:23 Termina la producción (ok).
+2026-11-21 18:51 Arranca la producción (9 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `en-036-phantom-charger`, "¿Desenchufar el cargador ahorra plata?", serie casa #7. Está en estado `render` y lo renderiza `producir.py`. El chequeo lo aprobó en el 2.º intento. Voz de 51 s (larga), `tlx tsc` sin errores y cuadros revisados.
+- **Apartados:** no había ninguno por "chequeo rechazado" para rescatar. En el 1.er intento el chequeo rechazó dos cosas: la cifra del cargador y el consejo de la regleta sin fuente. Las reescribí con el matiz que pidió el chequeo.
+- **Incompletos:** ninguno. Tema de plata con fuentes LBNL, EIA y DOE. El DOE (`energy.gov`) dio 404 en mi consulta; el consejo de la regleta lo verificó el subagente en una guía en PDF del DOE.
+Uso: 17 pasos · 13,562 tokens nuevos · 802,501 de caché · 6,377 escritos · equivale a US$ 1.01 de API
+2026-11-21 18:57 Render de en-036-phantom-charger (sin Claude).
+2026-11-21 19:03 en-036-phantom-charger: listo (render sin Claude)
+2026-11-21 19:03 Termina la producción (ok).

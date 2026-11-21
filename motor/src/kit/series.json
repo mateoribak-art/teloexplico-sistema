@@ -242,6 +242,14 @@
     "061-heladera-termometro": [
       "cocina",
       9
+    ],
+    "062-pote-microondas": [
+      "casa",
+      12
+    ],
+    "063-che-origen": [
+      "costumbres",
+      7
     ]
   }
 }

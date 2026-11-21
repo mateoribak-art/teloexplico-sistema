@@ -1,0 +1,24 @@
+{
+  "titulo": "Calentás la comida en el pote del yogur y no es para el microondas",
+  "fondo": "oscuro",
+  "receta": "El que lo hace mal",
+  "pilar": "casa",
+  "interaccion": ["guardar", "comentar"],
+  "destinatario": "se lo manda un hijo a la madre que calienta el guiso en el pote de la margarina, para decirle que use un plato o un vidrio",
+  "regla_guardable": "Pote de yogur, margarina o comida para llevar: no al microondas. Vidrio, cerámica o envase que diga apto microondas.",
+  "fuentes": [
+    "Clemson Home & Garden Information Center (Universidad de Clemson): Microwave Food Safety",
+    "USDA FSIS, Cooking Safely in the Microwave Oven (versiones archivadas; página vigente no accesible)"
+  ],
+  "frases": [
+    {"texto": "Calentás el guiso en el pote del yogur o de la margarina, y ahí está el error.", "estilo": "Seco, directo, a cámara."},
+    {"texto": "La Universidad de Clemson, en Estados Unidos, dice que esos envases no se recomiendan para el microondas, salvo que digan que son aptos.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Son envases de un solo uso, no están pensados para cocinar.", "estilo": "Contundente."},
+    {"texto": "Con el calor se pueden deformar o derretir.", "estilo": "Informativo."},
+    {"texto": "Y pueden pasar sustancias químicas a la comida.", "estilo": "Serio, claro."},
+    {"texto": "La regla: calentá en un envase que diga apto para microondas.", "estilo": "Práctico, amable."},
+    {"texto": "Ojo: si el envase dice apto para microondas, sí se puede. Si no lo dice, no lo uses.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "¿En qué calentás vos? Contestá con una palabra: vidrio, plástico o pote.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al que calienta el guiso en el pote de la margarina.", "estilo": "Cómplice, con humor."}
+  ]
+}

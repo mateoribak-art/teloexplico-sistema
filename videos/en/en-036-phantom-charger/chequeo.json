@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las cifras de plata verificadas en fuente primaria de EE. UU. (LBNL standby.lbl.gov: 5-10% y menos de 0,5 W; EIA Energy Explained/Electric Power Monthly Tabla 5.3: 17,30 c/kWh residencial 2025 preliminar; guia Energy Saver del DOE: enchufar la electronica en regletas y apagarlas cuando no se usan). La cuenta 0,5 W x 8.760 h = 4,38 kWh x $0,173 = $0,758, o sea ~$0,76, es correcta y el guion la presenta como techo hipotetico ('Even if a charger drew half a watt all year'). El unico dato sin fuente primaria (que un DVR de cable o consola puede necesitar energia para grabar/actualizar) esta redactado como salvedad con 'may', sin cifra, y es de seguridad/plata solo en el sentido de advertir contra apagar de mas. Notas menores, no bloqueantes: 'about four kilowatt-hours' redondea 4,38 (el $0,76 sale de 4,38); 'at most' en el bloque de guardar es un techo hipotetico, ya que LBNL dice 'most products', no 'all'; el tope del DOE para el hogar tipico ($100 al ano) no se usa. Ninguna afirmacion falsa.",
+  "afirmaciones": [
+    {
+      "texto": "Most products that draw standby power use less than half a watt, says Lawrence Berkeley National Laboratory.",
+      "fuente": "LBNL Standby Power, https://standby.lbl.gov/ : 'Most products draw relatively little standby power - less than 0.5 watts - but they still add up.'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Even if a charger drew half a watt all year, that's about four kilowatt-hours.",
+      "fuente": "Aritmetica propia: 0,5 W x 8.760 h = 4.380 Wh = 4,38 kWh (redondeo a 'about four'). Condicional hipotetico, no afirma que un cargador consuma 0,5 W.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "At the average U.S. rate, roughly seventy-six cents. (caption: 17.3 c/kWh, EIA 2025, preliminary, roughly $0.76)",
+      "fuente": "EIA Energy Explained, https://www.eia.gov/energyexplained/electricity/prices-and-factors-affecting-prices.php (residencial 17,30 c/kWh en 2025; Electric Power Monthly Tabla 5.3, feb. 2026, preliminar). 4,38 kWh x $0,173 = $0,758.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "So one charger is pennies.",
+      "fuente": "Deriva del calculo anterior (menos de $1 al ano en el techo hipotetico); consistente con LBNL (<0,5 W).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Berkeley Lab estimates standby power is five to ten percent of home electricity.",
+      "fuente": "LBNL, https://standby.lbl.gov/ : 'Together these amount to 5-10% of residential electricity use.' Coincide el DOE (Energy Saver: 5% a 10% del uso residencial).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Put the TV setup on one power strip, and switch it off, like the Energy Department suggests.",
+      "fuente": "DOE Energy Saver guide (energy.gov/sites/prod/files/2022-08/energy-saver-guide-2022.pdf y energy_savers.pdf): 'Plug home electronics, such as TVs and DVD players, into power strips; turn the power strips off when the equipment is not in use.' TVs figuran entre los productos con standby segun LBNL.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: a cable DVR or console may need power to record or update, and your savings depend on your rate.",
+      "fuente": "sin fuente primaria consultada para DVR/consola; es funcionamiento general de esos equipos y esta formulado como salvedad con 'may'. 'Savings depend on your rate' es verdad por definicion (precio por kWh varia por servicio).",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: One typical idle charger = about $0.76 a year at most (0.5 W). Standby power in a home = an estimated 5-10% of its electricity.",
+      "fuente": "Ver filas anteriores (LBNL y EIA). 'Estimated' respeta que LBNL da una estimacion; 'at most (0.5 W)' es el techo hipotetico, aceptable porque LBNL dice que la mayoria de los productos esta por debajo de 0,5 W.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption sources line: Lawrence Berkeley National Laboratory (standby.lbl.gov); U.S. Energy Information Administration (2025 average residential price).",
+      "fuente": "Ambas fuentes verificadas arriba; la linea no cita al DOE, que respalda el consejo de la regleta (opcional agregarlo).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}
