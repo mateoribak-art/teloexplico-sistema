@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T19:18",
+ "actualizado": "2026-11-21T19:35",
  "oficinas": [
   {
    "clave": "es",
@@ -7,15 +7,20 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 1026,
-   "listos": 10,
-   "dias": 5.0,
-   "proximo": "050-martes-13-no-viernes",
-   "publicados": 51,
+   "listos": 9,
+   "dias": 4.5,
+   "proximo": "054-gta-juegos-violentos",
+   "publicados": 52,
    "pausa": false,
    "pendientes": [
     "Facu (TikTok, YouTube y Telegram): En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram."
    ],
    "ultimas": [
+    {
+     "slug": "050-martes-13-no-viernes",
+     "link": "https://www.instagram.com/reel/DgBT071FVl1/",
+     "cuando": "2026-11-21T22:32"
+    },
     {
      "slug": "049-primer-calor-aclimatacion",
      "link": "https://www.instagram.com/reel/DgAj2azj3Xw/",
@@ -35,21 +40,9 @@
      "slug": "048-golpe-de-calor",
      "link": "https://www.instagram.com/reel/Df5lQt6jLYg/",
      "cuando": "2026-11-18T22:30"
-    },
-    {
-     "slug": "047-paquete-retenido",
-     "link": "https://www.instagram.com/reel/Df41MyEigAw/",
-     "cuando": "2026-11-18T15:30"
     }
    ],
    "linea": [
-    {
-     "slug": "050-martes-13-no-viernes",
-     "tema": "¿Por qué el viernes 13 trae mala suerte? En Argentina el de mala suerte es el martes 13 (origen del mito)",
-     "estado": "listo",
-     "cuando": "2026-11-20T23:35",
-     "motivo": "vuelve a la cola: contenido que no vence"
-    },
     {
      "slug": "054-gta-juegos-violentos",
      "tema": "¿Los videojuegos violentos te hacen violento? Lo que dice la APA (2020), ahora que salió el GTA 6 --actualidad",
@@ -69,6 +62,13 @@
      "tema": "GTA 6: trece años desde el GTA V y dos postergaciones --actualidad",
      "estado": "listo",
      "cuando": "2026-11-20T15:12",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "057-ruta-40-de-punta-a-punta",
+     "tema": "Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)",
+     "estado": "listo",
+     "cuando": "2026-11-20T15:31",
      "motivo": "render sin Claude"
     },
     {
@@ -118,7 +118,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-21T18:51",
-     "hace": "hace 27 min",
+     "hace": "hace 44 min",
      "detalle": [
       "Uso: 19 pasos · 19,687 tokens nuevos · 1,290,001 de caché · 7,300 escritos · equivale a US$ 1.57 de API",
       "2026-11-21 18:14 Arranca la producción (9 listos en la cola, meta 10).",
@@ -218,8 +218,8 @@
      },
      "estado": "aviso",
      "resumen": "Frenó 1 video(s): 062-pote-microondas.",
-     "cuando": "2026-11-21T18:51",
-     "hace": "hace 27 min",
+     "cuando": "2026-11-21T19:32",
+     "hace": "hace 3 min",
      "detalle": [
       "056-gta-trece-anios: aprobado — Todas las afirmaciones fácticas (fechas de GTA V y GTA 6, anuncio para 2025, las dos postergaciones y la cuenta de trece años y dos meses) e",
       "057-ruta-40-de-punta-a-punta: aprobado — Todas las cifras y datos duros (más de 5.000 km, extremos, once provincias, ruta más larga) quedaron verificados con fuentes. La dispersión ",
@@ -253,8 +253,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-21T18:51",
-     "hace": "hace 27 min",
+     "cuando": "2026-11-21T19:32",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -276,14 +276,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-21 18:51.",
-     "cuando": "2026-11-21T18:51",
-     "hace": "hace 27 min",
+     "resumen": "Último video terminado: 2026-11-21 19:32.",
+     "cuando": "2026-11-21T19:32",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "cb8d7a0bcdf1"
+     "firma": "ec77966e0e28"
     },
     {
      "id": "control",
@@ -301,8 +301,8 @@
      },
      "estado": "aviso",
      "resumen": "Apartó 1 video(s) en las últimas 48 h.",
-     "cuando": "2026-11-21T18:51",
-     "hace": "hace 27 min",
+     "cuando": "2026-11-21T19:32",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [
       "051-leonidas-grano-arena: tema de actualidad vencido (más de 48 h)"
@@ -326,27 +326,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: 049-primer-calor-aclimatacion.",
-     "cuando": "2026-11-21T12:34",
-     "hace": "hace 6 h",
+     "resumen": "Último: 050-martes-13-no-viernes.",
+     "cuando": "2026-11-21T19:33",
+     "hace": "hace 2 min",
      "detalle": [
-      "20/11 19:33 053-cadenas-parana publicado: https://www.instagram.com/reel/Df-vMwOACQX/",
-      "20/11 19:34 053-cadenas-parana publicado en Facebook: https://www.facebook.com/reel/1830925631569436/",
-      "20/11 19:34 053-cadenas-parana en la bandeja de TikTok",
-      "20/11 19:34 053-cadenas-parana https://youtube.com/shorts/GYLmYZ8uGk4 | privacidad: public",
-      "20/11 19:34 053-cadenas-parana paquete para TikTok/YouTube enviado",
       "21/11 12:33 049-primer-calor-aclimatacion publicado: https://www.instagram.com/reel/DgAj2azj3Xw/",
       "21/11 12:34 049-primer-calor-aclimatacion publicado en Facebook: https://www.facebook.com/reel/1182480261355106/",
       "21/11 12:34 049-primer-calor-aclimatacion en la bandeja de TikTok",
       "21/11 12:34 049-primer-calor-aclimatacion https://youtube.com/shorts/uNow4XMTG-U | privacidad: public",
-      "21/11 12:34 049-primer-calor-aclimatacion paquete para TikTok/YouTube enviado"
+      "21/11 12:34 049-primer-calor-aclimatacion paquete para TikTok/YouTube enviado",
+      "21/11 19:32 050-martes-13-no-viernes publicado: https://www.instagram.com/reel/DgBT071FVl1/",
+      "21/11 19:33 050-martes-13-no-viernes publicado en Facebook: https://www.facebook.com/reel/1429436016923623/",
+      "21/11 19:33 050-martes-13-no-viernes en la bandeja de TikTok",
+      "21/11 19:33 050-martes-13-no-viernes https://youtube.com/shorts/0jMunXIVRzs | privacidad: public",
+      "21/11 19:33 050-martes-13-no-viernes paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: 050-martes-13-no-viernes — ¿Por qué el viernes 13 trae mala suerte? En Argentina el de mala suerte es el martes 13 (origen del mito)"
+      "Próximo: 054-gta-juegos-violentos — ¿Los videojuegos violentos te hacen violento? Lo que dice la APA (2020), ahora que salió el GTA 6 --actualidad"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "4ff51d67db01"
+     "firma": "eed80ab9f58b"
     },
     {
      "id": "redes",
@@ -364,17 +364,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-21T12:34",
-     "hace": "hace 6 h",
+     "cuando": "2026-11-21T19:33",
+     "hace": "hace 2 min",
      "detalle": [
-      "20/11 13:35 052-zapatilla-sobrecarga https://youtube.com/shorts/6rgBJVZv4yo | privacidad: public",
-      "20/11 13:35 052-zapatilla-sobrecarga paquete para TikTok/YouTube enviado",
-      "20/11 19:34 053-cadenas-parana en la bandeja de TikTok",
       "20/11 19:34 053-cadenas-parana https://youtube.com/shorts/GYLmYZ8uGk4 | privacidad: public",
       "20/11 19:34 053-cadenas-parana paquete para TikTok/YouTube enviado",
       "21/11 12:34 049-primer-calor-aclimatacion en la bandeja de TikTok",
       "21/11 12:34 049-primer-calor-aclimatacion https://youtube.com/shorts/uNow4XMTG-U | privacidad: public",
-      "21/11 12:34 049-primer-calor-aclimatacion paquete para TikTok/YouTube enviado"
+      "21/11 12:34 049-primer-calor-aclimatacion paquete para TikTok/YouTube enviado",
+      "21/11 19:33 050-martes-13-no-viernes en la bandeja de TikTok",
+      "21/11 19:33 050-martes-13-no-viernes https://youtube.com/shorts/0jMunXIVRzs | privacidad: public",
+      "21/11 19:33 050-martes-13-no-viernes paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -431,7 +431,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-20T20:19",
-     "hace": "hace 22 h",
+     "hace": "hace 23 h",
      "detalle": [
       "07/11 18:02 Hay 18 comentarios nuevos: arranca la respuesta.",
       "07/11 00:00 Respondí 16 · salteé 2 · alerté 0. (026-mediodia-hora-corrida: 14 respondidos, incluido alejandrokalfayan (hora oficial vs longitud, con Ley 26.350); 028-yerba-por-ano: 2 respondidos; salteados: aledelejos (vulgar, tema político de la hora) y un duplicado de fulanocris)",
@@ -503,7 +503,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 062-pote-microondas — chequeo rechazado 2 veces: 'envases de un solo uso/no pensados para cocinar' sin fuente legible; 'si no lo dice no lo us",
-     "cuando": "2026-11-21T19:18",
+     "cuando": "2026-11-21T19:35",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 062-pote-microondas — chequeo rechazado 2 veces: 'envases de un solo uso/no pensados para cocinar' sin fuente legible; 'si no lo dice no lo us"
@@ -545,13 +545,18 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 5,
-   "listos": 10,
-   "dias": 5.0,
+   "listos": 9,
+   "dias": 4.5,
    "proximo": "en-026-el-nino-winter",
-   "publicados": 28,
+   "publicados": 29,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "en-030-violent-games",
+     "link": "https://www.instagram.com/reel/DgBUD3Ckszu/",
+     "cuando": "2026-11-21T22:34"
+    },
     {
      "slug": "en-028-turkey-sleepy",
      "link": "https://www.instagram.com/reel/DgAkJOIFqvP/",
@@ -571,11 +576,6 @@
      "slug": "en-023-package-text",
      "link": "https://www.instagram.com/reel/DfdQ9nzGcv2/",
      "cuando": "2026-11-07T22:34"
-    },
-    {
-     "slug": "en-022-power-outage-fridge",
-     "link": "https://www.instagram.com/reel/Dfcg_wxGTFS/",
-     "cuando": "2026-11-07T15:35"
     }
    ],
    "linea": [
@@ -601,18 +601,11 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "en-030-violent-games",
-     "tema": "Do violent video games make you violent? (APA 2020; GTA 6 just launched)",
+     "slug": "en-031-gta-vice-city",
+     "tema": "GTA 6: Vice City = Miami? Which place did you spot? (adapted from 055)",
      "estado": "listo",
-     "cuando": "2026-11-20T14:36",
+     "cuando": "2026-11-20T15:42",
      "motivo": "render sin Claude"
-    },
-    {
-     "slug": "en-025-dog-hot-car",
-     "tema": "Dog in the car for a minute with the window cracked (Pediatrics 2005; pillar pets)",
-     "estado": "publicado",
-     "cuando": "2026-11-20T19:35",
-     "motivo": "https://www.instagram.com/reel/Df-vaArnN_6/"
     },
     {
      "slug": "en-028-turkey-sleepy",
@@ -620,6 +613,13 @@
      "estado": "publicado",
      "cuando": "2026-11-21T12:35",
      "motivo": "https://www.instagram.com/reel/DgAkJOIFqvP/"
+    },
+    {
+     "slug": "en-030-violent-games",
+     "tema": "Do violent video games make you violent? (APA 2020; GTA 6 just launched)",
+     "estado": "publicado",
+     "cuando": "2026-11-21T19:34",
+     "motivo": "https://www.instagram.com/reel/DgBUD3Ckszu/"
     }
    ],
    "empleados": [
@@ -640,7 +640,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-21T19:03",
-     "hace": "hace 15 min",
+     "hace": "hace 32 min",
      "detalle": [
       "Uso: 17 pasos · 13,562 tokens nuevos · 802,501 de caché · 6,377 escritos · equivale a US$ 1.01 de API",
       "2026-11-21 18:51 Arranca la producción (9 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
@@ -705,8 +705,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-21T19:03",
-     "hace": "hace 15 min",
+     "cuando": "2026-11-21T19:34",
+     "hace": "hace 1 min",
      "detalle": [
       "en-029-swim-after-eating: aprobado — Revision independiente. Las frases de salud/seguridad quedan acotadas a lo que dice la Cruz Roja (nadar dentro de la hora posterior a comer ",
       "en-030-violent-games: aprobado — Todas las afirmaciones coinciden con la fuente primaria (comunicado APA del 3/3/2020, texto citado literalmente en apa.org) y la fecha de GT",
@@ -738,8 +738,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-11-21T19:03",
-     "hace": "hace 15 min",
+     "cuando": "2026-11-21T19:34",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -761,14 +761,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-21 19:03.",
-     "cuando": "2026-11-21T19:03",
-     "hace": "hace 15 min",
+     "resumen": "Último video terminado: 2026-11-21 19:34.",
+     "cuando": "2026-11-21T19:34",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "116225e3f1b1"
+     "firma": "0cadfada713e"
     },
     {
      "id": "control",
@@ -785,14 +785,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "10 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-21T19:03",
-     "hace": "hace 15 min",
+     "resumen": "9 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-21T19:34",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "7772330f5bdb"
+     "firma": "770611e2218b"
     },
     {
      "id": "publicador",
@@ -809,27 +809,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: en-028-turkey-sleepy.",
-     "cuando": "2026-11-21T12:36",
-     "hace": "hace 6 h",
+     "resumen": "Último: en-030-violent-games.",
+     "cuando": "2026-11-21T19:35",
+     "hace": "recién",
      "detalle": [
-      "20/11 13:36 en-024-heat-index en la bandeja de TikTok",
-      "20/11 13:37 en-024-heat-index paquete para TikTok/YouTube enviado",
-      "20/11 19:35 en-025-dog-hot-car publicado: https://www.instagram.com/reel/Df-vaArnN_6/",
-      "20/11 19:36 en-025-dog-hot-car publicado en Facebook: https://www.facebook.com/reel/40975074848757686/",
       "20/11 19:36 en-025-dog-hot-car en la bandeja de TikTok",
       "20/11 19:36 en-025-dog-hot-car paquete para TikTok/YouTube enviado",
       "21/11 12:35 en-028-turkey-sleepy publicado: https://www.instagram.com/reel/DgAkJOIFqvP/",
       "21/11 12:36 en-028-turkey-sleepy publicado en Facebook: https://www.facebook.com/reel/1476893591235118/",
       "21/11 12:36 en-028-turkey-sleepy en la bandeja de TikTok",
-      "21/11 12:36 en-028-turkey-sleepy paquete para TikTok/YouTube enviado"
+      "21/11 12:36 en-028-turkey-sleepy paquete para TikTok/YouTube enviado",
+      "21/11 19:34 en-030-violent-games publicado: https://www.instagram.com/reel/DgBUD3Ckszu/",
+      "21/11 19:35 en-030-violent-games publicado en Facebook: https://www.facebook.com/reel/1106287898838594/",
+      "21/11 19:35 en-030-violent-games en la bandeja de TikTok",
+      "21/11 19:35 en-030-violent-games paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "Próximo: en-026-el-nino-winter — What El Niño means for your winter (NOAA CPC; adapted from 016)"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "c031f94be8e7"
+     "firma": "fad412fa9398"
     },
     {
      "id": "redes",
@@ -847,17 +847,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-21T12:36",
-     "hace": "hace 6 h",
+     "cuando": "2026-11-21T19:35",
+     "hace": "recién",
      "detalle": [
-      "07/11 19:35 en-023-package-text en la bandeja de TikTok",
-      "07/11 19:35 en-023-package-text paquete para TikTok/YouTube enviado",
       "20/11 13:36 en-024-heat-index en la bandeja de TikTok",
       "20/11 13:37 en-024-heat-index paquete para TikTok/YouTube enviado",
       "20/11 19:36 en-025-dog-hot-car en la bandeja de TikTok",
       "20/11 19:36 en-025-dog-hot-car paquete para TikTok/YouTube enviado",
       "21/11 12:36 en-028-turkey-sleepy en la bandeja de TikTok",
-      "21/11 12:36 en-028-turkey-sleepy paquete para TikTok/YouTube enviado"
+      "21/11 12:36 en-028-turkey-sleepy paquete para TikTok/YouTube enviado",
+      "21/11 19:35 en-030-violent-games en la bandeja de TikTok",
+      "21/11 19:35 en-030-violent-games paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -951,7 +951,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-21T19:18",
+     "cuando": "2026-11-21T19:35",
      "hace": "recién",
      "detalle": [],
      "tareas": [],

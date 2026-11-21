@@ -1054,7 +1054,7 @@
  {
   "slug": "en-030-violent-games",
   "tema": "Do violent video games make you violent? (APA 2020; GTA 6 just launched)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1070,6 +1070,11 @@
     "estado": "listo",
     "cuando": "2026-11-20T14:36",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-21T19:34",
+    "motivo": "https://www.instagram.com/reel/DgBUD3Ckszu/"
    }
   ],
   "prioridad": "actualidad",
