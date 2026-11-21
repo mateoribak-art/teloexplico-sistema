@@ -1901,7 +1901,7 @@
  {
   "slug": "049-primer-calor-aclimatacion",
   "tema": "¿Por qué el primer calor del año te pega más fuerte? Tu cuerpo todavía no está aclimatado (NIOSH)",
-  "estado": "apartado",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -1927,15 +1927,23 @@
     "estado": "apartado",
     "cuando": "2026-11-20T13:19",
     "motivo": "tema de actualidad vencido (más de 48 h)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-20T23:50",
+    "motivo": "el contenido no vence (aclimatación al calor): se saca de actualidad y vuelve a la cola"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-20T23:35",
+    "motivo": "vuelve a la cola: contenido que no vence"
    }
-  ],
-  "prioridad": "actualidad",
-  "creado": "2026-11-12T09:27"
+  ]
  },
  {
   "slug": "050-martes-13-no-viernes",
   "tema": "¿Por qué el viernes 13 trae mala suerte? En Argentina el de mala suerte es el martes 13 (origen del mito)",
-  "estado": "apartado",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -1961,10 +1969,18 @@
     "estado": "apartado",
     "cuando": "2026-11-20T13:19",
     "motivo": "tema de actualidad vencido (más de 48 h)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-20T23:50",
+    "motivo": "el mito del martes 13 no vence: se saca de actualidad y vuelve a la cola"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-20T23:35",
+    "motivo": "vuelve a la cola: contenido que no vence"
    }
-  ],
-  "prioridad": "actualidad",
-  "creado": "2026-11-13T09:40"
+  ]
  },
  {
   "slug": "051-leonidas-grano-arena",
