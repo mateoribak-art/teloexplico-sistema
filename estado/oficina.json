@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T03:56",
+ "actualizado": "2026-11-21T04:39",
  "oficinas": [
   {
    "clave": "es",
@@ -111,7 +111,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-21T00:16",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "Uso: 20 pasos · 28,987 tokens nuevos · 1,312,740 de caché · 7,994 escritos · equivale a US$ 1.22 de API",
       "2026-11-20 23:51 Arranca la producción (7 listos en la cola, meta 10).",
@@ -180,7 +180,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Búsquedas web (SMN + noticias/tendencias del día). SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por tormentas y granizo ",
      "cuando": "2026-11-20T18:26",
-     "hace": "hace 9 h",
+     "hace": "hace 10 h",
      "detalle": [
       "17/11 00:00 | Revisión radar. HAY TEMA (ya en cola de una corrida previa): lluvia de estrellas Leónidas, pico madrugada 17-18 nov (NASA, Natural History Museum Londres). Ángulo propio verificado: la \"estrella fugaz\" no es una estrella ni una roca grande, es polvo de cometa (Tempel-Tuttle) del tamaño de un grano de arena que se enciende al entrar a 71 km/s. Slug 051-leonidas-grano-arena (--actualidad, serie ciencia): continué su producción (chequeo→voz→3D→render). Descartados: (a) alerta naranja/amarilla por tormentas severas y granizo en 17 provincias incl. CABA (SMN hoy) -> granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin ángulo nuevo; (b) vientos Zonda en Cuyo -> nicho regional.",
       "18/11 00:00 | Revision radar. HAY TEMA: arranca el finde largo y el viernes 20/11 es el Dia de la Soberania (feriado trasladado al lunes 23). Casi nadie sabe que se festeja -> angulo propio: la Vuelta de Obligado (1845), cerraron el rio Parana con tres cadenas sobre 24 lanchones para frenar a Gran Bretana y Francia; imagen grande y mandable. Verificado (Canal26 2026, Infobae 2024, La Nacion 2025, Wikipedia; Dia de la Soberania 20-nov). ELEGIDO. Slug 053-cadenas-parana (--actualidad, serie argentina). Descartados: (a) alerta naranja/amarilla por tormentas y granizo en 9-10 provincias (SMN hoy) -> AMBA afuera y granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin angulo nuevo; (b) ciclon/calor en BA por Super Nino -> clima ya cubierto (016/019/008/009), sin giro; (c) Leonidas -> ya en cola (051).",
@@ -218,7 +218,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-21T00:15",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "052-zapatilla-sobrecarga: aprobado — Tema de seguridad (incendio eléctrico). Todas las afirmaciones de riesgo quedan verificadas con fuentes serias: NFPA y CPSC (EE.UU.) indican",
       "053-cadenas-parana: aprobado — Todas las afirmaciones factuales del guion y el caption quedan verificadas contra fuentes primarias e institucionales (Wikipedia, argentina.",
@@ -251,7 +251,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-21T00:15",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -275,7 +275,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-21 00:15.",
      "cuando": "2026-11-21T00:15",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -299,7 +299,7 @@
      "estado": "aviso",
      "resumen": "Apartó 1 video(s) en las últimas 48 h.",
      "cuando": "2026-11-21T00:15",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [
       "051-leonidas-grano-arena: tema de actualidad vencido (más de 48 h)"
@@ -325,7 +325,7 @@
      "estado": "ok",
      "resumen": "Último: 053-cadenas-parana.",
      "cuando": "2026-11-20T19:34",
-     "hace": "hace 8 h",
+     "hace": "hace 9 h",
      "detalle": [
       "20/11 13:34 052-zapatilla-sobrecarga publicado: https://www.instagram.com/reel/Df-GCcfCE2T/",
       "20/11 13:34 052-zapatilla-sobrecarga publicado en Facebook: https://www.facebook.com/reel/1628595105419701/",
@@ -362,7 +362,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-20T19:34",
-     "hace": "hace 8 h",
+     "hace": "hace 9 h",
      "detalle": [
       "18/11 19:32 048-golpe-de-calor https://youtube.com/shorts/cDQPgFirUTE | privacidad: public",
       "18/11 19:33 048-golpe-de-calor paquete para TikTok/YouTube enviado",
@@ -394,7 +394,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-21T00:16",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "2026-11-07 22:18 lavar-pollo: listo control OK",
       "2026-11-20 21:29 celular-arroz: publicado https://www.instagram.com/p/Df-8c53IFGq/",
@@ -428,7 +428,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-20T20:19",
-     "hace": "hace 7 h",
+     "hace": "hace 8 h",
      "detalle": [
       "07/11 18:02 Hay 18 comentarios nuevos: arranca la respuesta.",
       "07/11 00:00 Respondí 16 · salteé 2 · alerté 0. (026-mediodia-hora-corrida: 14 respondidos, incluido alejandrokalfayan (hora oficial vs longitud, con Ley 26.350); 028-yerba-por-ano: 2 respondidos; salteados: aledelejos (vulgar, tema político de la hora) y un duplicado de fulanocris)",
@@ -467,7 +467,7 @@
      "estado": "ok",
      "resumen": "21/11: 1026 seguidores",
      "cuando": "2026-11-21T03:56",
-     "hace": "recién",
+     "hace": "hace 43 min",
      "detalle": [
       "18/11: 993 seguidores",
       "19/11: 1013 seguidores",
@@ -500,7 +500,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 051-leonidas-grano-arena — tema de actualidad vencido (más de 48 h)",
-     "cuando": "2026-11-21T03:56",
+     "cuando": "2026-11-21T04:39",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 051-leonidas-grano-arena — tema de actualidad vencido (más de 48 h)"
@@ -637,7 +637,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-21T00:29",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "Uso: 42 pasos · 71,559 tokens nuevos · 1,233,435 de caché · 12,242 escritos · equivale a US$ 0.75 de API",
       "2026-11-21 00:16 Arranca la producción (7 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
@@ -673,7 +673,7 @@
      "estado": "ok",
      "resumen": "Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2023/2024 y titulares sin gancho explicable. Descartados: (1) clima de Thanksgiving (",
      "cuando": "2026-11-20T18:26",
-     "hace": "hace 9 h",
+     "hace": "hace 10 h",
      "detalle": [
       "07/11 00:00 Undécima pasada del radar: la búsqueda solo devolvió pronósticos locales y titulares sin detalle. Descartados: (1) El Niño \"más fuerte en una vida\" (AccuWeather): solo titular, sin fuente oficial del día; y en-026-el-nino-winter ya está en cola; (2) tornados raros en Delaware/Long Island: evento regional, riesgo de daños/víctimas, sin confirmar; (3) inundación costera por \"king tide\" en Florida/California: regional, sin fecha ni fuente oficial confirmada. Sin tema nuevo.",
       "07/11 00:00 Duodécima pasada del radar: la búsqueda (NWS fin de semana) solo devolvió páginas sin fecha o de 2025/marzo 2026; nada verificable de las últimas 48 h. Descartados: (1) frío/tormenta invernal del fin de semana: notas sin fecha, sin fuente oficial del día; (2) El Niño: ya en cola (en-026); (3) superluna del 24/11: lejos. Sin tema nuevo.",
@@ -705,7 +705,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-21T00:29",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "en-026-el-nino-winter: aprobado — Las cifras coinciden con la discusión ENSO del CPC del 8/10/2026 (la más reciente: la siguiente está programada para noviembre, después de h",
       "en-027-bleach-vinegar: aprobado — Todas las afirmaciones fácticas (tema de seguridad) están verificadas con fuente primaria de EE. UU. (CDC, MMWR, Poison Control). No hay cif",
@@ -738,7 +738,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-21T00:29",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -762,7 +762,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-21 00:29.",
      "cuando": "2026-11-21T00:29",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -786,7 +786,7 @@
      "estado": "ok",
      "resumen": "8 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-21T00:29",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -810,7 +810,7 @@
      "estado": "ok",
      "resumen": "Último: en-025-dog-hot-car.",
      "cuando": "2026-11-20T19:36",
-     "hace": "hace 8 h",
+     "hace": "hace 9 h",
      "detalle": [
       "07/11 19:35 en-023-package-text en la bandeja de TikTok",
       "07/11 19:35 en-023-package-text paquete para TikTok/YouTube enviado",
@@ -847,7 +847,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-20T19:36",
-     "hace": "hace 8 h",
+     "hace": "hace 9 h",
      "detalle": [
       "07/11 12:36 en-022-power-outage-fridge en la bandeja de TikTok",
       "07/11 12:36 en-022-power-outage-fridge paquete para TikTok/YouTube enviado",
@@ -917,7 +917,7 @@
      "estado": "ok",
      "resumen": "21/11: 5 seguidores",
      "cuando": "2026-11-21T03:56",
-     "hace": "recién",
+     "hace": "hace 43 min",
      "detalle": [
       "06/11: 3 seguidores",
       "07/11: 5 seguidores",
@@ -950,7 +950,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-21T03:56",
+     "cuando": "2026-11-21T04:39",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
