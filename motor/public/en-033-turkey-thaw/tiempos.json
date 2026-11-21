@@ -1,0 +1,653 @@
+{
+ "duracion": 37.71,
+ "frases": [
+  {
+   "texto": "Your Thanksgiving turkey is frozen solid, and dinner is days away.",
+   "palabras": [
+    {
+     "texto": "Your",
+     "inicio": 0.0,
+     "fin": 0.18
+    },
+    {
+     "texto": "Thanksgiving",
+     "inicio": 0.18,
+     "fin": 0.72
+    },
+    {
+     "texto": "turkey",
+     "inicio": 0.72,
+     "fin": 1.3
+    },
+    {
+     "texto": "is",
+     "inicio": 1.3,
+     "fin": 1.6
+    },
+    {
+     "texto": "frozen",
+     "inicio": 1.6,
+     "fin": 2.06
+    },
+    {
+     "texto": "solid,",
+     "inicio": 2.06,
+     "fin": 2.9
+    },
+    {
+     "texto": "and",
+     "inicio": 3.14,
+     "fin": 3.54
+    },
+    {
+     "texto": "dinner",
+     "inicio": 3.54,
+     "fin": 3.88
+    },
+    {
+     "texto": "is",
+     "inicio": 3.88,
+     "fin": 4.46
+    },
+    {
+     "texto": "days",
+     "inicio": 4.46,
+     "fin": 4.96
+    },
+    {
+     "texto": "away.",
+     "inicio": 4.96,
+     "fin": 5.4
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 5.4
+  },
+  {
+   "texto": "Don't leave it on the counter. The USDA says never thaw it there.",
+   "palabras": [
+    {
+     "texto": "Don't",
+     "inicio": 5.96,
+     "fin": 6.36
+    },
+    {
+     "texto": "leave",
+     "inicio": 6.36,
+     "fin": 6.8
+    },
+    {
+     "texto": "it",
+     "inicio": 6.8,
+     "fin": 6.92
+    },
+    {
+     "texto": "on",
+     "inicio": 6.92,
+     "fin": 7.02
+    },
+    {
+     "texto": "the",
+     "inicio": 7.02,
+     "fin": 7.12
+    },
+    {
+     "texto": "counter.",
+     "inicio": 7.12,
+     "fin": 7.34
+    },
+    {
+     "texto": "The",
+     "inicio": 7.78,
+     "fin": 7.88
+    },
+    {
+     "texto": "USDA",
+     "inicio": 7.88,
+     "fin": 8.22
+    },
+    {
+     "texto": "says",
+     "inicio": 8.22,
+     "fin": 8.66
+    },
+    {
+     "texto": "never",
+     "inicio": 8.66,
+     "fin": 9.18
+    },
+    {
+     "texto": "thaw",
+     "inicio": 9.18,
+     "fin": 9.52
+    },
+    {
+     "texto": "it",
+     "inicio": 9.52,
+     "fin": 9.62
+    },
+    {
+     "texto": "there.",
+     "inicio": 9.62,
+     "fin": 9.82
+    }
+   ],
+   "inicio": 5.96,
+   "fin": 9.82
+  },
+  {
+   "texto": "The safest way is the fridge: about twenty-four hours for every four to five pounds.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 10.24,
+     "fin": 10.42
+    },
+    {
+     "texto": "safest",
+     "inicio": 10.42,
+     "fin": 10.72
+    },
+    {
+     "texto": "way",
+     "inicio": 10.72,
+     "fin": 11.02
+    },
+    {
+     "texto": "is",
+     "inicio": 11.02,
+     "fin": 11.54
+    },
+    {
+     "texto": "the",
+     "inicio": 11.54,
+     "fin": 11.68
+    },
+    {
+     "texto": "fridge:",
+     "inicio": 11.68,
+     "fin": 11.9
+    },
+    {
+     "texto": "about",
+     "inicio": 12.38,
+     "fin": 12.52
+    },
+    {
+     "texto": "twenty-four",
+     "inicio": 12.52,
+     "fin": 13.06
+    },
+    {
+     "texto": "hours",
+     "inicio": 13.06,
+     "fin": 13.4
+    },
+    {
+     "texto": "for",
+     "inicio": 13.4,
+     "fin": 13.64
+    },
+    {
+     "texto": "every",
+     "inicio": 13.64,
+     "fin": 13.84
+    },
+    {
+     "texto": "four",
+     "inicio": 13.84,
+     "fin": 14.08
+    },
+    {
+     "texto": "to",
+     "inicio": 14.08,
+     "fin": 14.18
+    },
+    {
+     "texto": "five",
+     "inicio": 14.18,
+     "fin": 14.4
+    },
+    {
+     "texto": "pounds.",
+     "inicio": 14.4,
+     "fin": 14.64
+    }
+   ],
+   "inicio": 10.24,
+   "fin": 14.64
+  },
+  {
+   "texto": "So a sixteen-pound bird needs about three to four days.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 15.3,
+     "fin": 15.52
+    },
+    {
+     "texto": "a",
+     "inicio": 15.52,
+     "fin": 15.98
+    },
+    {
+     "texto": "sixteen-pound",
+     "inicio": 15.98,
+     "fin": 16.56
+    },
+    {
+     "texto": "bird",
+     "inicio": 16.56,
+     "fin": 16.88
+    },
+    {
+     "texto": "needs",
+     "inicio": 16.88,
+     "fin": 17.16
+    },
+    {
+     "texto": "about",
+     "inicio": 17.16,
+     "fin": 17.38
+    },
+    {
+     "texto": "three",
+     "inicio": 17.38,
+     "fin": 17.6
+    },
+    {
+     "texto": "to",
+     "inicio": 17.6,
+     "fin": 17.72
+    },
+    {
+     "texto": "four",
+     "inicio": 17.72,
+     "fin": 17.88
+    },
+    {
+     "texto": "days.",
+     "inicio": 17.88,
+     "fin": 18.06
+    }
+   ],
+   "inicio": 15.3,
+   "fin": 18.06
+  },
+  {
+   "texto": "Running late? Cold water works: keep it in its wrapper, allow thirty minutes per pound, and change the water every thirty minutes.",
+   "palabras": [
+    {
+     "texto": "Running",
+     "inicio": 18.64,
+     "fin": 18.82
+    },
+    {
+     "texto": "late?",
+     "inicio": 18.82,
+     "fin": 19.1
+    },
+    {
+     "texto": "Cold",
+     "inicio": 19.66,
+     "fin": 19.78
+    },
+    {
+     "texto": "water",
+     "inicio": 19.78,
+     "fin": 20.02
+    },
+    {
+     "texto": "works:",
+     "inicio": 20.02,
+     "fin": 20.36
+    },
+    {
+     "texto": "keep",
+     "inicio": 20.8,
+     "fin": 20.98
+    },
+    {
+     "texto": "it",
+     "inicio": 20.98,
+     "fin": 21.1
+    },
+    {
+     "texto": "in",
+     "inicio": 21.1,
+     "fin": 21.2
+    },
+    {
+     "texto": "its",
+     "inicio": 21.2,
+     "fin": 21.32
+    },
+    {
+     "texto": "wrapper,",
+     "inicio": 21.32,
+     "fin": 21.56
+    },
+    {
+     "texto": "allow",
+     "inicio": 22.0,
+     "fin": 22.22
+    },
+    {
+     "texto": "thirty",
+     "inicio": 22.22,
+     "fin": 22.6
+    },
+    {
+     "texto": "minutes",
+     "inicio": 22.6,
+     "fin": 22.86
+    },
+    {
+     "texto": "per",
+     "inicio": 22.86,
+     "fin": 23.08
+    },
+    {
+     "texto": "pound,",
+     "inicio": 23.08,
+     "fin": 23.34
+    },
+    {
+     "texto": "and",
+     "inicio": 23.58,
+     "fin": 23.86
+    },
+    {
+     "texto": "change",
+     "inicio": 23.86,
+     "fin": 24.12
+    },
+    {
+     "texto": "the",
+     "inicio": 24.12,
+     "fin": 24.32
+    },
+    {
+     "texto": "water",
+     "inicio": 24.32,
+     "fin": 24.56
+    },
+    {
+     "texto": "every",
+     "inicio": 24.56,
+     "fin": 25.04
+    },
+    {
+     "texto": "thirty",
+     "inicio": 25.04,
+     "fin": 25.3
+    },
+    {
+     "texto": "minutes.",
+     "inicio": 25.3,
+     "fin": 25.6
+    }
+   ],
+   "inicio": 18.64,
+   "fin": 25.6
+  },
+  {
+   "texto": "Cook it right after a cold-water thaw.",
+   "palabras": [
+    {
+     "texto": "Cook",
+     "inicio": 26.1,
+     "fin": 26.32
+    },
+    {
+     "texto": "it",
+     "inicio": 26.32,
+     "fin": 26.46
+    },
+    {
+     "texto": "right",
+     "inicio": 26.46,
+     "fin": 26.72
+    },
+    {
+     "texto": "after",
+     "inicio": 26.72,
+     "fin": 27.04
+    },
+    {
+     "texto": "a",
+     "inicio": 27.04,
+     "fin": 27.22
+    },
+    {
+     "texto": "cold-water",
+     "inicio": 27.22,
+     "fin": 27.64
+    },
+    {
+     "texto": "thaw.",
+     "inicio": 27.64,
+     "fin": 28.0
+    }
+   ],
+   "inicio": 26.1,
+   "fin": 28.0
+  },
+  {
+   "texto": "Heads up: you can also cook it from frozen, it just takes about fifty percent longer.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 28.44,
+     "fin": 28.72
+    },
+    {
+     "texto": "up:",
+     "inicio": 28.72,
+     "fin": 28.86
+    },
+    {
+     "texto": "you",
+     "inicio": 28.96,
+     "fin": 29.0
+    },
+    {
+     "texto": "can",
+     "inicio": 29.0,
+     "fin": 29.1
+    },
+    {
+     "texto": "also",
+     "inicio": 29.1,
+     "fin": 29.3
+    },
+    {
+     "texto": "cook",
+     "inicio": 29.3,
+     "fin": 29.54
+    },
+    {
+     "texto": "it",
+     "inicio": 29.54,
+     "fin": 29.64
+    },
+    {
+     "texto": "from",
+     "inicio": 29.64,
+     "fin": 29.78
+    },
+    {
+     "texto": "frozen,",
+     "inicio": 29.78,
+     "fin": 30.18
+    },
+    {
+     "texto": "it",
+     "inicio": 30.5,
+     "fin": 30.58
+    },
+    {
+     "texto": "just",
+     "inicio": 30.58,
+     "fin": 30.74
+    },
+    {
+     "texto": "takes",
+     "inicio": 30.74,
+     "fin": 31.0
+    },
+    {
+     "texto": "about",
+     "inicio": 31.0,
+     "fin": 31.18
+    },
+    {
+     "texto": "fifty",
+     "inicio": 31.18,
+     "fin": 31.42
+    },
+    {
+     "texto": "percent",
+     "inicio": 31.42,
+     "fin": 31.7
+    },
+    {
+     "texto": "longer.",
+     "inicio": 31.7,
+     "fin": 32.04
+    }
+   ],
+   "inicio": 28.44,
+   "fin": 32.04
+  },
+  {
+   "texto": "How many days ahead do you start thawing?",
+   "palabras": [
+    {
+     "texto": "How",
+     "inicio": 32.62,
+     "fin": 32.72
+    },
+    {
+     "texto": "many",
+     "inicio": 32.72,
+     "fin": 32.86
+    },
+    {
+     "texto": "days",
+     "inicio": 32.86,
+     "fin": 33.06
+    },
+    {
+     "texto": "ahead",
+     "inicio": 33.06,
+     "fin": 33.24
+    },
+    {
+     "texto": "do",
+     "inicio": 33.24,
+     "fin": 33.44
+    },
+    {
+     "texto": "you",
+     "inicio": 33.44,
+     "fin": 33.6
+    },
+    {
+     "texto": "start",
+     "inicio": 33.6,
+     "fin": 33.8
+    },
+    {
+     "texto": "thawing?",
+     "inicio": 33.8,
+     "fin": 34.26
+    }
+   ],
+   "inicio": 32.62,
+   "fin": 34.26
+  },
+  {
+   "texto": "Save this, then send it to the friend who thaws the turkey the morning of.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 34.64,
+     "fin": 34.84
+    },
+    {
+     "texto": "this,",
+     "inicio": 34.84,
+     "fin": 35.1
+    },
+    {
+     "texto": "then",
+     "inicio": 35.32,
+     "fin": 35.56
+    },
+    {
+     "texto": "send",
+     "inicio": 35.56,
+     "fin": 35.82
+    },
+    {
+     "texto": "it",
+     "inicio": 35.82,
+     "fin": 35.92
+    },
+    {
+     "texto": "to",
+     "inicio": 35.92,
+     "fin": 36.02
+    },
+    {
+     "texto": "the",
+     "inicio": 36.02,
+     "fin": 36.1
+    },
+    {
+     "texto": "friend",
+     "inicio": 36.1,
+     "fin": 36.28
+    },
+    {
+     "texto": "who",
+     "inicio": 36.28,
+     "fin": 36.44
+    },
+    {
+     "texto": "thaws",
+     "inicio": 36.44,
+     "fin": 36.7
+    },
+    {
+     "texto": "the",
+     "inicio": 36.7,
+     "fin": 36.84
+    },
+    {
+     "texto": "turkey",
+     "inicio": 36.84,
+     "fin": 37.1
+    },
+    {
+     "texto": "the",
+     "inicio": 37.1,
+     "fin": 37.2
+    },
+    {
+     "texto": "morning",
+     "inicio": 37.2,
+     "fin": 37.38
+    },
+    {
+     "texto": "of.",
+     "inicio": 37.38,
+     "fin": 37.64
+    }
+   ],
+   "inicio": 34.64,
+   "fin": 37.64
+  }
+ ]
+}

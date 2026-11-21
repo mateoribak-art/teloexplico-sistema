@@ -1,0 +1,10 @@
+2026-11-21 00:16 Arranca la producción (7 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo (en estado `render`):** `en-033-turkey-thaw`, un video propio de la serie cocina sobre cómo descongelar el pavo de Thanksgiving (USDA: 24 h por cada 4–5 lb en la heladera, 30 min por lb en agua fría). El chequeo lo aprobó al primer intento y la voz salió de 37,7 s. `tlx tsc` dio OK y revisé los cuadros. `producir.py` lo renderiza y lo pasa a `listo`; hay que publicarlo antes del 26/11.
+- **Interacción:** guardar la regla de las horas y los minutos, y comentar con la pregunta "How many days ahead do you start thawing?".
+- **Apartados o incompletos:** ninguno. No había videos apartados por "chequeo rechazado" para rescatar.
+Uso: 42 pasos · 71,559 tokens nuevos · 1,233,435 de caché · 12,242 escritos · equivale a US$ 0.75 de API
+Permisos negados (1):
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-033-turkey-thaw; cat > chequeo.json <<'EOF'\n{\n  \"veredicto\"
+2026-11-21 00:20 Render de en-033-turkey-thaw (sin Claude).
+2026-11-21 00:29 en-033-turkey-thaw: listo (render sin Claude)
+2026-11-21 00:29 Termina la producción (ok).

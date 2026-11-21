@@ -1,0 +1,9 @@
+{"origen": ["034-arroz-recalentado"], "serie": "mitos de cocina", "placas": [
+ {"tipo": "tapa", "arriba": "¿El arroz de la tarde se arregla recalentándolo?", "grande": "no sirve", "promesa": "deslizá y guardalo", "dibujo": [{"objeto": "Olla", "x": 330, "y": 1180, "s": 0.62}]},
+ {"tipo": "paso", "etiqueta": "// por qué importa", "titulo": "Recalentar no elimina las toxinas", "cuerpo": "Si el arroz queda afuera, las bacterias se multiplican y producen toxinas. Calentarlo de nuevo no las saca.", "fuente": "NHS"},
+ {"tipo": "paso", "etiqueta": "// el origen", "titulo": "Las esporas sobreviven a la cocción", "cuerpo": "El arroz crudo puede traer esporas de una bacteria. Esas esporas pueden sobrevivir a la cocción.", "fuente": "NHS · Food Standards Scotland"},
+ {"tipo": "paso", "etiqueta": "// el tiempo", "titulo": "Enfrialo dentro de la primera hora", "dato": "1 hora", "colorDato": "rojo", "cuerpo": "Después de cocinarlo, a la heladera lo antes posible: dentro de la primera hora.", "fuente": "NHS"},
+ {"tipo": "paso", "etiqueta": "// el plazo", "titulo": "Comelo dentro de las 24 horas", "dato": "24 horas", "colorDato": "azul", "cuerpo": "Guardado en la heladera, el arroz se come dentro de las veinticuatro horas.", "fuente": "NHS"},
+ {"tipo": "paso", "etiqueta": "// el recalentado", "titulo": "Recalentalo una sola vez", "dato": "1 vez", "colorDato": "verde", "cuerpo": "El problema no es el recalentado en sí, sino el tiempo que el arroz pasa afuera.", "fuente": "NHS"},
+ {"tipo": "resumen", "titulo": "Arroz que sobró: qué hacer", "items": [[true, "A la heladera dentro de la primera hora"], [true, "Comelo dentro de las 24 horas"], [true, "Recalentalo una sola vez"], [false, "Dejarlo toda la tarde en la mesada"]]},
+ {"tipo": "cierre", "texto": "Mandáselo al que deja la olla de arroz toda la tarde sobre la mesada.", "serie": "mitos de cocina"}]}

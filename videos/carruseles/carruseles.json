@@ -284,5 +284,34 @@
     "motivo": "control OK"
    }
   ]
+ },
+ {
+  "clave": "arroz-recalentado",
+  "estado": "listo",
+  "origen": [
+   "034-arroz-recalentado"
+  ],
+  "historial": [
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-21T00:15",
+    "motivo": "números que no están en el chequeo de los reels de origen: 2 (etiqueta), 3 (etiqueta), 3 (titulo)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-21T00:16",
+    "motivo": "control OK"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-21T00:16",
+    "motivo": "control OK"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-21T00:16",
+    "motivo": "control OK"
+   }
+  ]
  }
 ]

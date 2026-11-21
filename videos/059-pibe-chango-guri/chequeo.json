@@ -1,0 +1,78 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Se revisaron todas las frases del guion y el caption contra Billiken y el DLE/DPD de la RAE. Todas las afirmaciones quedan verificadas o presentadas con el matiz que les corresponde. No hay afirmaciones falsas ni dudosas, y no hay datos de salud, seguridad ni plata. La frase 1 (que antes se rechazó) ahora dice 'puede que le digan distinto', coherente con Billiken ('sobre todo en Buenos Aires, aunque ya se expandió a todo el país'). El matiz 'usos más comunes, no fronteras' está en el guion y en el caption. Notas: el DLE devolvió 403 al fetch directo, así que gurí y chango se confirmaron por el buscador. El DLE marca gurí como rural de Argentina y Uruguay, y la frase solo dice 'palabra de Argentina y Uruguay', lo cual es correcto. La etimología guaraní se atribuye a Billiken, porque el DLE consultado no la da.",
+  "afirmaciones": [
+    {
+      "texto": "Le decís pibe a un chico y en otra provincia puede que le digan distinto.",
+      "fuente": "Billiken, https://billiken.lat/mi-pais/palabras-argentinas-para-llamar-a-los-ninos/ (lista gurí, chango, pibe, guachín, bendi según la zona; pibe 'sobre todo en Buenos Aires')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Según dónde estés, un chico tiene otro nombre.",
+      "fuente": "Billiken, misma nota: distintas palabras según la región. Generalización suave, matizada después con 'usos más comunes, no fronteras'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En Buenos Aires, pibe.",
+      "fuente": "Billiken: pibe se usa 'sobre todo en Buenos Aires, aunque ya se expandió a todo el país'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En el norte, en Salta, Jujuy o Tucumán, chango.",
+      "fuente": "Billiken: 'Norte argentino, sobre todo en Salta, Jujuy, Tucumán y Santiago del Estero'. DLE (vía buscador): chango, 'niño, muchacho', Arg. y Bol.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En el Litoral, en Entre Ríos, Corrientes o Misiones, gurí.",
+      "fuente": "Billiken: gurí 'se usa en Entre Ríos, Corrientes, Misiones (y parte de Uruguay)'; nota sobre el origen: Litoral, especialmente Entre Ríos, Corrientes y Misiones.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Gurí viene del guaraní, según cuenta Billiken",
+      "fuente": "Billiken, https://billiken.lat/saber-mas/cual-es-el-origen-de-la-palabra-guri/ ('proviene del guaraní'). Bien atribuida a Billiken, porque el DLE no da la etimología en lo consultado.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "el diccionario de la Real Academia lo registra como palabra de Argentina y Uruguay",
+      "fuente": "DLE, https://dle.rae.es/gur%C3%AD (marcada rural de Argentina y Uruguay, 'niño, muchacho'); DPD, https://www.rae.es/dpd/gur%C3%AD. Confirmado por el buscador; el fetch directo dio 403.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: son usos más comunes en cada zona, no fronteras.",
+      "fuente": "Matiz propio, coherente con Billiken ('sobre todo', 'ya se expandió a todo el país').",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "CAPTION: En Buenos Aires se dice pibe. En el norte (Salta, Jujuy, Tucumán, Santiago del Estero) se dice chango. En el Litoral (Entre Ríos, Corrientes, Misiones) se dice gurí",
+      "fuente": "Billiken, nota de palabras argentinas para llamar a los niños. El matiz 'usos más comunes, no fronteras exactas' está en el párrafo siguiente del caption.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "CAPTION: una palabra que según Billiken viene del guaraní y que el diccionario de la RAE registra como de Argentina y Uruguay",
+      "fuente": "Billiken (origen guaraní) y DLE (Argentina y Uruguay), como arriba.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "CAPTION: pibe = Buenos Aires y todo el país",
+      "fuente": "Billiken: 'sobre todo en Buenos Aires, aunque ya se expandió a todo el país'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "CAPTION: Costumbres argentinas #6",
+      "fuente": "Dato interno: motor/src/kit/series.json asigna 059-pibe-chango-guri a costumbres, número 6.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

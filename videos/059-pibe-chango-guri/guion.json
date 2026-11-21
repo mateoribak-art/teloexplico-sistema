@@ -1,0 +1,27 @@
+{
+  "titulo": "Pibe, chango o gurí: cómo se le dice a un chico según dónde estés en Argentina",
+  "destinatario": "se lo manda un porteño a su amigo del norte o del Litoral para decirle que acá se dice pibe y que allá dicen otra cosa",
+  "regla_guardable": "Pibe: Buenos Aires y todo el país. Chango: norte (Salta, Jujuy, Tucumán, Santiago). Gurí: Litoral (Entre Ríos, Corrientes, Misiones).",
+  "interaccion": "comentar",
+  "pregunta_comentarios": "¿Cómo le decís vos a un chico en tu provincia?",
+  "pilar": "argentina",
+  "receta": "Argentina en datos: un mapa que se entiende en 2 s, con vos adentro",
+  "fondo": "oscuro",
+  "serie": "costumbres",
+  "fuentes": [
+    "Billiken: palabras argentinas para llamar a los niños (gurí: Entre Ríos, Corrientes, Misiones; chango: norte argentino; pibe: sobre todo Buenos Aires)",
+    "Diccionario de la lengua española (RAE): gurí, 'niño, muchacho', Argentina y Uruguay"
+  ],
+  "frases": [
+    { "texto": "Le decís pibe a un chico y en otra provincia puede que le digan distinto.", "estilo": "Directo y cómplice, con media sonrisa." },
+    { "texto": "Según dónde estés, un chico tiene otro nombre.", "estilo": "Golpe corto y contundente." },
+    { "texto": "En Buenos Aires, pibe.", "estilo": "Claro y con ritmo." },
+    { "texto": "En el norte, en Salta, Jujuy o Tucumán, chango.", "estilo": "Claro y con ritmo." },
+    { "texto": "En el Litoral, en Entre Ríos, Corrientes o Misiones, gurí.", "estilo": "Claro y con ritmo." },
+    { "texto": "Gurí viene del guaraní, según cuenta Billiken, y el diccionario de la Real Academia lo registra como palabra de Argentina y Uruguay.", "estilo": "Narrador, tranquilo y seguro." },
+    { "texto": "Ojo: son usos más comunes en cada zona, no fronteras.", "estilo": "Giro honesto, tranquilo." },
+    { "texto": "Guardalo para la próxima vez que no entiendas qué te dicen.", "estilo": "Cómplice, con humor." },
+    { "texto": "¿Cómo le decís vos a un chico en tu provincia?", "estilo": "Pregunta abierta, curiosa." },
+    { "texto": "Mandáselo al que dice chango y no pibe.", "estilo": "Cómplice, con humor." }
+  ]
+}

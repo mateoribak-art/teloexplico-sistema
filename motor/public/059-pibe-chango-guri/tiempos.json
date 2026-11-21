@@ -1,0 +1,610 @@
+{
+ "duracion": 37.53,
+ "frases": [
+  {
+   "texto": "Le decís pibe a un chico y en otra provincia puede que le digan distinto.",
+   "palabras": [
+    {
+     "texto": "Le",
+     "inicio": 0.0,
+     "fin": 0.18
+    },
+    {
+     "texto": "decís",
+     "inicio": 0.18,
+     "fin": 0.48
+    },
+    {
+     "texto": "pibe",
+     "inicio": 0.48,
+     "fin": 0.94
+    },
+    {
+     "texto": "a",
+     "inicio": 0.94,
+     "fin": 1.1
+    },
+    {
+     "texto": "un",
+     "inicio": 1.1,
+     "fin": 1.26
+    },
+    {
+     "texto": "chico",
+     "inicio": 1.26,
+     "fin": 1.6
+    },
+    {
+     "texto": "y",
+     "inicio": 1.6,
+     "fin": 1.94
+    },
+    {
+     "texto": "en",
+     "inicio": 1.94,
+     "fin": 2.04
+    },
+    {
+     "texto": "otra",
+     "inicio": 2.04,
+     "fin": 2.2
+    },
+    {
+     "texto": "provincia",
+     "inicio": 2.2,
+     "fin": 2.82
+    },
+    {
+     "texto": "puede",
+     "inicio": 2.82,
+     "fin": 3.04
+    },
+    {
+     "texto": "que",
+     "inicio": 3.04,
+     "fin": 3.22
+    },
+    {
+     "texto": "le",
+     "inicio": 3.22,
+     "fin": 3.32
+    },
+    {
+     "texto": "digan",
+     "inicio": 3.32,
+     "fin": 3.56
+    },
+    {
+     "texto": "distinto.",
+     "inicio": 3.56,
+     "fin": 4.04
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.04
+  },
+  {
+   "texto": "Según dónde estés, un chico tiene otro nombre.",
+   "palabras": [
+    {
+     "texto": "Según",
+     "inicio": 4.52,
+     "fin": 4.88
+    },
+    {
+     "texto": "dónde",
+     "inicio": 4.88,
+     "fin": 5.08
+    },
+    {
+     "texto": "estés,",
+     "inicio": 5.08,
+     "fin": 5.44
+    },
+    {
+     "texto": "un",
+     "inicio": 5.72,
+     "fin": 5.88
+    },
+    {
+     "texto": "chico",
+     "inicio": 5.88,
+     "fin": 6.14
+    },
+    {
+     "texto": "tiene",
+     "inicio": 6.14,
+     "fin": 6.3
+    },
+    {
+     "texto": "otro",
+     "inicio": 6.3,
+     "fin": 6.48
+    },
+    {
+     "texto": "nombre.",
+     "inicio": 6.48,
+     "fin": 6.78
+    }
+   ],
+   "inicio": 4.52,
+   "fin": 6.78
+  },
+  {
+   "texto": "En Buenos Aires, pibe.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 7.34,
+     "fin": 7.46
+    },
+    {
+     "texto": "Buenos",
+     "inicio": 7.46,
+     "fin": 7.62
+    },
+    {
+     "texto": "Aires,",
+     "inicio": 7.62,
+     "fin": 7.88
+    },
+    {
+     "texto": "pibe.",
+     "inicio": 8.12,
+     "fin": 8.5
+    }
+   ],
+   "inicio": 7.34,
+   "fin": 8.5
+  },
+  {
+   "texto": "En el norte, en Salta, Jujuy o Tucumán, chango.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 8.96,
+     "fin": 9.08
+    },
+    {
+     "texto": "el",
+     "inicio": 9.08,
+     "fin": 9.2
+    },
+    {
+     "texto": "norte,",
+     "inicio": 9.2,
+     "fin": 9.46
+    },
+    {
+     "texto": "en",
+     "inicio": 9.7,
+     "fin": 9.76
+    },
+    {
+     "texto": "Salta,",
+     "inicio": 9.76,
+     "fin": 10.16
+    },
+    {
+     "texto": "Jujuy",
+     "inicio": 10.32,
+     "fin": 10.58
+    },
+    {
+     "texto": "o",
+     "inicio": 10.58,
+     "fin": 10.74
+    },
+    {
+     "texto": "Tucumán,",
+     "inicio": 10.74,
+     "fin": 11.18
+    },
+    {
+     "texto": "chango.",
+     "inicio": 11.56,
+     "fin": 12.04
+    }
+   ],
+   "inicio": 8.96,
+   "fin": 12.04
+  },
+  {
+   "texto": "En el Litoral, en Entre Ríos, Corrientes o Misiones, gurí.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 12.44,
+     "fin": 12.6
+    },
+    {
+     "texto": "el",
+     "inicio": 12.6,
+     "fin": 12.72
+    },
+    {
+     "texto": "Litoral,",
+     "inicio": 12.72,
+     "fin": 13.2
+    },
+    {
+     "texto": "en",
+     "inicio": 13.36,
+     "fin": 13.42
+    },
+    {
+     "texto": "Entre",
+     "inicio": 13.42,
+     "fin": 13.62
+    },
+    {
+     "texto": "Ríos,",
+     "inicio": 13.62,
+     "fin": 14.04
+    },
+    {
+     "texto": "Corrientes",
+     "inicio": 14.26,
+     "fin": 14.82
+    },
+    {
+     "texto": "o",
+     "inicio": 14.82,
+     "fin": 15.12
+    },
+    {
+     "texto": "Misiones,",
+     "inicio": 15.12,
+     "fin": 15.74
+    },
+    {
+     "texto": "gurí.",
+     "inicio": 16.26,
+     "fin": 16.5
+    }
+   ],
+   "inicio": 12.44,
+   "fin": 16.5
+  },
+  {
+   "texto": "Gurí viene del guaraní, según cuenta Billiken, y el diccionario de la Real Academia lo registra como palabra de Argentina y Uruguay.",
+   "palabras": [
+    {
+     "texto": "Gurí",
+     "inicio": 16.88,
+     "fin": 17.36
+    },
+    {
+     "texto": "viene",
+     "inicio": 17.36,
+     "fin": 17.78
+    },
+    {
+     "texto": "del",
+     "inicio": 17.78,
+     "fin": 18.02
+    },
+    {
+     "texto": "guaraní,",
+     "inicio": 18.02,
+     "fin": 18.52
+    },
+    {
+     "texto": "según",
+     "inicio": 18.74,
+     "fin": 19.0
+    },
+    {
+     "texto": "cuenta",
+     "inicio": 19.0,
+     "fin": 19.36
+    },
+    {
+     "texto": "Billiken,",
+     "inicio": 19.36,
+     "fin": 19.84
+    },
+    {
+     "texto": "y",
+     "inicio": 20.22,
+     "fin": 20.54
+    },
+    {
+     "texto": "el",
+     "inicio": 20.54,
+     "fin": 20.66
+    },
+    {
+     "texto": "diccionario",
+     "inicio": 20.66,
+     "fin": 21.16
+    },
+    {
+     "texto": "de",
+     "inicio": 21.16,
+     "fin": 21.32
+    },
+    {
+     "texto": "la",
+     "inicio": 21.32,
+     "fin": 21.44
+    },
+    {
+     "texto": "Real",
+     "inicio": 21.44,
+     "fin": 21.66
+    },
+    {
+     "texto": "Academia",
+     "inicio": 21.66,
+     "fin": 22.22
+    },
+    {
+     "texto": "lo",
+     "inicio": 22.22,
+     "fin": 22.42
+    },
+    {
+     "texto": "registra",
+     "inicio": 22.42,
+     "fin": 22.86
+    },
+    {
+     "texto": "como",
+     "inicio": 22.86,
+     "fin": 23.08
+    },
+    {
+     "texto": "palabra",
+     "inicio": 23.08,
+     "fin": 23.44
+    },
+    {
+     "texto": "de",
+     "inicio": 23.44,
+     "fin": 23.66
+    },
+    {
+     "texto": "Argentina",
+     "inicio": 23.66,
+     "fin": 24.12
+    },
+    {
+     "texto": "y",
+     "inicio": 24.12,
+     "fin": 24.48
+    },
+    {
+     "texto": "Uruguay.",
+     "inicio": 24.48,
+     "fin": 24.92
+    }
+   ],
+   "inicio": 16.88,
+   "fin": 24.92
+  },
+  {
+   "texto": "Ojo: son usos más comunes en cada zona, no fronteras.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 25.36,
+     "fin": 25.7
+    },
+    {
+     "texto": "son",
+     "inicio": 26.12,
+     "fin": 26.26
+    },
+    {
+     "texto": "usos",
+     "inicio": 26.26,
+     "fin": 26.5
+    },
+    {
+     "texto": "más",
+     "inicio": 26.5,
+     "fin": 26.72
+    },
+    {
+     "texto": "comunes",
+     "inicio": 26.72,
+     "fin": 27.14
+    },
+    {
+     "texto": "en",
+     "inicio": 27.14,
+     "fin": 27.26
+    },
+    {
+     "texto": "cada",
+     "inicio": 27.26,
+     "fin": 27.4
+    },
+    {
+     "texto": "zona,",
+     "inicio": 27.4,
+     "fin": 27.72
+    },
+    {
+     "texto": "no",
+     "inicio": 28.14,
+     "fin": 28.26
+    },
+    {
+     "texto": "fronteras.",
+     "inicio": 28.26,
+     "fin": 28.82
+    }
+   ],
+   "inicio": 25.36,
+   "fin": 28.82
+  },
+  {
+   "texto": "Guardalo para la próxima vez que no entiendas qué te dicen.",
+   "palabras": [
+    {
+     "texto": "Guardalo",
+     "inicio": 29.26,
+     "fin": 29.68
+    },
+    {
+     "texto": "para",
+     "inicio": 29.68,
+     "fin": 29.88
+    },
+    {
+     "texto": "la",
+     "inicio": 29.88,
+     "fin": 30.0
+    },
+    {
+     "texto": "próxima",
+     "inicio": 30.0,
+     "fin": 30.26
+    },
+    {
+     "texto": "vez",
+     "inicio": 30.26,
+     "fin": 30.54
+    },
+    {
+     "texto": "que",
+     "inicio": 30.54,
+     "fin": 30.74
+    },
+    {
+     "texto": "no",
+     "inicio": 30.74,
+     "fin": 30.94
+    },
+    {
+     "texto": "entiendas",
+     "inicio": 30.94,
+     "fin": 31.54
+    },
+    {
+     "texto": "qué",
+     "inicio": 31.54,
+     "fin": 31.68
+    },
+    {
+     "texto": "te",
+     "inicio": 31.68,
+     "fin": 31.8
+    },
+    {
+     "texto": "dicen.",
+     "inicio": 31.8,
+     "fin": 32.12
+    }
+   ],
+   "inicio": 29.26,
+   "fin": 32.12
+  },
+  {
+   "texto": "¿Cómo le decís vos a un chico en tu provincia?",
+   "palabras": [
+    {
+     "texto": "¿Cómo",
+     "inicio": 32.58,
+     "fin": 32.82
+    },
+    {
+     "texto": "le",
+     "inicio": 32.82,
+     "fin": 32.96
+    },
+    {
+     "texto": "decís",
+     "inicio": 32.96,
+     "fin": 33.26
+    },
+    {
+     "texto": "vos",
+     "inicio": 33.26,
+     "fin": 33.42
+    },
+    {
+     "texto": "a",
+     "inicio": 33.42,
+     "fin": 33.58
+    },
+    {
+     "texto": "un",
+     "inicio": 33.58,
+     "fin": 33.7
+    },
+    {
+     "texto": "chico",
+     "inicio": 33.7,
+     "fin": 34.0
+    },
+    {
+     "texto": "en",
+     "inicio": 34.0,
+     "fin": 34.08
+    },
+    {
+     "texto": "tu",
+     "inicio": 34.08,
+     "fin": 34.16
+    },
+    {
+     "texto": "provincia?",
+     "inicio": 34.16,
+     "fin": 34.66
+    }
+   ],
+   "inicio": 32.58,
+   "fin": 34.66
+  },
+  {
+   "texto": "Mandáselo al que dice chango y no pibe.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 35.36,
+     "fin": 35.76
+    },
+    {
+     "texto": "al",
+     "inicio": 35.76,
+     "fin": 35.84
+    },
+    {
+     "texto": "que",
+     "inicio": 35.84,
+     "fin": 35.98
+    },
+    {
+     "texto": "dice",
+     "inicio": 35.98,
+     "fin": 36.22
+    },
+    {
+     "texto": "chango",
+     "inicio": 36.22,
+     "fin": 36.86
+    },
+    {
+     "texto": "y",
+     "inicio": 36.86,
+     "fin": 36.98
+    },
+    {
+     "texto": "no",
+     "inicio": 36.98,
+     "fin": 37.12
+    },
+    {
+     "texto": "pibe.",
+     "inicio": 37.12,
+     "fin": 37.44
+    }
+   ],
+   "inicio": 35.36,
+   "fin": 37.44
+  }
+ ]
+}

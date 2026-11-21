@@ -2227,5 +2227,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "059-pibe-chango-guri",
+  "tema": "¿Pibe, chango o gurí? Cómo se le dice a un chico según la zona de Argentina (Billiken, DLE)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-20T23:52",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-20T23:52",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-20T23:57",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-21T00:15",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

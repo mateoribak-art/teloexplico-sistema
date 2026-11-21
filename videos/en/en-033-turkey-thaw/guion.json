@@ -1,0 +1,27 @@
+{
+  "titulo": "How to thaw your Thanksgiving turkey",
+  "serie": "cocina",
+  "fondo": "oscuro",
+  "receta": "regla con número para guardar + fecha (Thanksgiving 11/26/2026)",
+  "pilar": "cocina",
+  "destinatario": "se lo manda quien cocina la cena a su amigo o primo que descongela el pavo la mañana del día",
+  "regla_guardable": "Fridge: 24 hours per 4-5 lb. Cold water: 30 min per lb, change the water every 30 min.",
+  "interaccion": {
+    "guardar": "Fridge: 24 hours per 4-5 lb. Cold water: 30 min per lb, change the water every 30 min.",
+    "comentar": "How many days ahead do you start thawing?"
+  },
+  "fuentes": [
+    "USDA FSIS: Let's Talk Turkey / Happy Thanksgiving / Turkey Basics: Safe Thawing (fridge ~24 h per 4-5 lb; cold water 30 min per lb, change water every 30 min, cook immediately; never thaw on the counter; frozen turkey can be cooked from frozen, ~50% longer)"
+  ],
+  "frases": [
+    {"texto": "Your Thanksgiving turkey is frozen solid, and dinner is days away.", "estilo": "Dry, direct, with a half smile."},
+    {"texto": "Don't leave it on the counter. The USDA says never thaw it there.", "estilo": "Punchy."},
+    {"texto": "The safest way is the fridge: about twenty-four hours for every four to five pounds.", "estilo": "Informative, clear."},
+    {"texto": "So a sixteen-pound bird needs about three to four days.", "estilo": "Matter of fact, a little surprised."},
+    {"texto": "Running late? Cold water works: keep it in its wrapper, allow thirty minutes per pound, and change the water every thirty minutes.", "estilo": "Practical, brisk."},
+    {"texto": "Cook it right after a cold-water thaw.", "estilo": "Firm."},
+    {"texto": "Heads up: you can also cook it from frozen, it just takes about fifty percent longer.", "estilo": "Calm, honest caveat."},
+    {"texto": "How many days ahead do you start thawing?", "estilo": "Curious, friendly."},
+    {"texto": "Save this, then send it to the friend who thaws the turkey the morning of.", "estilo": "Playful and funny."}
+  ]
+}

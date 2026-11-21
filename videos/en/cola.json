@@ -1125,5 +1125,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-033-turkey-thaw",
+  "tema": "How to thaw your Thanksgiving turkey (USDA: 24 h per 4-5 lb in the fridge)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-21T00:17",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-21T00:17",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-21T00:20",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-21T00:29",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]
