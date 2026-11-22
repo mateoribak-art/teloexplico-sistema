@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T14:30",
+ "actualizado": "2026-11-22T14:31",
  "oficinas": [
   {
    "clave": "es",
@@ -7,9 +7,9 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 1026,
-   "listos": 10,
-   "dias": 5.0,
-   "proximo": "054-gta-juegos-violentos",
+   "listos": 5,
+   "dias": 2.5,
+   "proximo": "059-pibe-chango-guri",
    "publicados": 52,
    "pausa": false,
    "pendientes": [
@@ -44,32 +44,67 @@
    ],
    "linea": [
     {
+     "slug": "059-pibe-chango-guri",
+     "tema": "¿Pibe, chango o gurí? Cómo se le dice a un chico según la zona de Argentina (Billiken, DLE)",
+     "estado": "listo",
+     "cuando": "2026-11-21T00:15",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "060-celular-carga-noche",
+     "tema": "¿Dejar el celular cargando toda la noche lo arruina? Apple: no se sobrecarga; carga optimizada y límite del 80 %",
+     "estado": "listo",
+     "cuando": "2026-11-21T08:48",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "061-heladera-termometro",
+     "tema": "¿Tu heladera enfría bien? Termómetro en un vaso de agua: 4 °C o menos (USDA FSIS)",
+     "estado": "listo",
+     "cuando": "2026-11-21T14:12",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "062-pote-microondas",
+     "tema": "Calentar en el pote de yogur o margarina: no es para el microondas (USDA FSIS)",
+     "estado": "listo",
+     "cuando": "2026-11-21T22:54",
+     "motivo": "render sin Claude"
+    },
+    {
      "slug": "054-gta-juegos-violentos",
      "tema": "¿Los videojuegos violentos te hacen violento? Lo que dice la APA (2020), ahora que salió el GTA 6 --actualidad",
-     "estado": "listo",
-     "cuando": "2026-11-20T14:12",
-     "motivo": "render sin Claude"
+     "estado": "apartado",
+     "cuando": "2026-11-22T14:31",
+     "motivo": "falta 054-gta-juegos-violentos.mp4"
     },
     {
      "slug": "055-gta-vice-city-miami",
      "tema": "GTA 6: Vice City y Leonida están inspirados en Miami y Florida; qué lugares reales se reconocen (según medios, no confirmado por Rockstar) --actualidad",
-     "estado": "listo",
-     "cuando": "2026-11-20T14:23",
-     "motivo": "render sin Claude"
+     "estado": "apartado",
+     "cuando": "2026-11-22T14:31",
+     "motivo": "falta 055-gta-vice-city-miami.mp4"
     },
     {
      "slug": "056-gta-trece-anios",
      "tema": "GTA 6: trece años desde el GTA V y dos postergaciones --actualidad",
-     "estado": "listo",
-     "cuando": "2026-11-20T15:12",
-     "motivo": "render sin Claude"
+     "estado": "apartado",
+     "cuando": "2026-11-22T14:31",
+     "motivo": "falta 056-gta-trece-anios.mp4"
     },
     {
      "slug": "057-ruta-40-de-punta-a-punta",
      "tema": "Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)",
-     "estado": "listo",
-     "cuando": "2026-11-20T15:31",
-     "motivo": "render sin Claude"
+     "estado": "apartado",
+     "cuando": "2026-11-22T14:31",
+     "motivo": "falta 057-ruta-40-de-punta-a-punta.mp4"
+    },
+    {
+     "slug": "058-agua-del-mate",
+     "tema": "¿El agua del mate tiene que hervir? No: 75 a 80 grados (INYM); hervida quema la yerba",
+     "estado": "apartado",
+     "cuando": "2026-11-22T14:31",
+     "motivo": "falta 058-agua-del-mate.mp4"
     },
     {
      "slug": "052-zapatilla-sobrecarga",
@@ -288,15 +323,21 @@
        "cuenta": "es"
       }
      },
-     "estado": "ok",
-     "resumen": "10 videos listos, ninguno apartado en las últimas 48 h.",
+     "estado": "aviso",
+     "resumen": "Apartó 5 video(s) en las últimas 48 h.",
      "cuando": "2026-11-21T22:54",
      "hace": "hace 15 h",
      "detalle": [],
-     "tareas": [],
-     "arreglo": null,
+     "tareas": [
+      "054-gta-juegos-violentos: falta 054-gta-juegos-violentos.mp4",
+      "055-gta-vice-city-miami: falta 055-gta-vice-city-miami.mp4",
+      "056-gta-trece-anios: falta 056-gta-trece-anios.mp4",
+      "057-ruta-40-de-punta-a-punta: falta 057-ruta-40-de-punta-a-punta.mp4",
+      "058-agua-del-mate: falta 058-agua-del-mate.mp4"
+     ],
+     "arreglo": "Revisalo: si está bien, pasalo a listo; si no, queda apartado.",
      "solo": false,
-     "firma": "a323c0fd04b1"
+     "firma": "25433d374c57"
     },
     {
      "id": "publicador",
@@ -314,22 +355,22 @@
      },
      "estado": "falla",
      "resumen": "No salió la publicación del turno de las 12:30 (22/11).",
-     "cuando": "2026-11-21T19:33",
-     "hace": "hace 18 h",
+     "cuando": "2026-11-22T14:31",
+     "hace": "recién",
      "detalle": [
-      "21/11 12:33 049-primer-calor-aclimatacion publicado: https://www.instagram.com/reel/DgAj2azj3Xw/",
-      "21/11 12:34 049-primer-calor-aclimatacion publicado en Facebook: https://www.facebook.com/reel/1182480261355106/",
-      "21/11 12:34 049-primer-calor-aclimatacion en la bandeja de TikTok",
-      "21/11 12:34 049-primer-calor-aclimatacion https://youtube.com/shorts/uNow4XMTG-U | privacidad: public",
-      "21/11 12:34 049-primer-calor-aclimatacion paquete para TikTok/YouTube enviado",
       "21/11 19:32 050-martes-13-no-viernes publicado: https://www.instagram.com/reel/DgBT071FVl1/",
       "21/11 19:33 050-martes-13-no-viernes publicado en Facebook: https://www.facebook.com/reel/1429436016923623/",
       "21/11 19:33 050-martes-13-no-viernes en la bandeja de TikTok",
       "21/11 19:33 050-martes-13-no-viernes https://youtube.com/shorts/0jMunXIVRzs | privacidad: public",
-      "21/11 19:33 050-martes-13-no-viernes paquete para TikTok/YouTube enviado"
+      "21/11 19:33 050-martes-13-no-viernes paquete para TikTok/YouTube enviado",
+      "22/11 14:31 054-gta-juegos-violentos apartado: falta 054-gta-juegos-violentos.mp4",
+      "22/11 14:31 055-gta-vice-city-miami apartado: falta 055-gta-vice-city-miami.mp4",
+      "22/11 14:31 056-gta-trece-anios apartado: falta 056-gta-trece-anios.mp4",
+      "22/11 14:31 057-ruta-40-de-punta-a-punta apartado: falta 057-ruta-40-de-punta-a-punta.mp4",
+      "22/11 14:31 058-agua-del-mate apartado: falta 058-agua-del-mate.mp4"
      ],
      "tareas": [
-      "Próximo: 054-gta-juegos-violentos — ¿Los videojuegos violentos te hacen violento? Lo que dice la APA (2020), ahora que salió el GTA 6 --actualidad"
+      "Próximo: 059-pibe-chango-guri — ¿Pibe, chango o gurí? Cómo se le dice a un chico según la zona de Argentina (Billiken, DLE)"
      ],
      "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
      "solo": false,
@@ -490,10 +531,16 @@
      },
      "estado": "falla",
      "resumen": "No salió la publicación del turno de las 12:30 (22/11).",
-     "cuando": "2026-11-22T14:30",
+     "cuando": "2026-11-22T14:31",
      "hace": "recién",
      "detalle": [
-      "❗ No salió la publicación del turno de las 12:30 (22/11)."
+      "❗ No salió la publicación del turno de las 12:30 (22/11).",
+      "⚠️ Video apartado: 054-gta-juegos-violentos — falta 054-gta-juegos-violentos.mp4",
+      "⚠️ Video apartado: 055-gta-vice-city-miami — falta 055-gta-vice-city-miami.mp4",
+      "⚠️ Video apartado: 056-gta-trece-anios — falta 056-gta-trece-anios.mp4",
+      "⚠️ Video apartado: 057-ruta-40-de-punta-a-punta — falta 057-ruta-40-de-punta-a-punta.mp4",
+      "⚠️ Video apartado: 058-agua-del-mate — falta 058-agua-del-mate.mp4",
+      "⚠️ Hubo avisos que no se pudieron mandar (¿sin internet?)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -532,9 +579,9 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 5,
-   "listos": 10,
-   "dias": 5.0,
-   "proximo": "en-026-el-nino-winter",
+   "listos": 5,
+   "dias": 2.5,
+   "proximo": "en-033-turkey-thaw",
    "publicados": 29,
    "pausa": false,
    "pendientes": [],
@@ -567,32 +614,67 @@
    ],
    "linea": [
     {
+     "slug": "en-033-turkey-thaw",
+     "tema": "How to thaw your Thanksgiving turkey (USDA: 24 h per 4-5 lb in the fridge)",
+     "estado": "listo",
+     "cuando": "2026-11-21T00:29",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "en-034-alcohol-cook-off",
+     "tema": "Does alcohol fully cook off? (USDA retention table; own; kitchen)",
+     "estado": "listo",
+     "cuando": "2026-11-21T09:13",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "en-035-turkey-stuffing",
+     "tema": "Stuffing inside the turkey: 165 F at the center (USDA FSIS; Thanksgiving 11/26)",
+     "estado": "listo",
+     "cuando": "2026-11-21T14:23",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "en-036-phantom-charger",
+     "tema": "Does unplugging your phone charger save money? (LBNL standby; own)",
+     "estado": "listo",
+     "cuando": "2026-11-21T19:03",
+     "motivo": "render sin Claude"
+    },
+    {
      "slug": "en-026-el-nino-winter",
      "tema": "What El Niño means for your winter (NOAA CPC; adapted from 016)",
-     "estado": "listo",
-     "cuando": "2026-11-06T14:42",
-     "motivo": "render sin Claude"
+     "estado": "apartado",
+     "cuando": "2026-11-22T14:31",
+     "motivo": "falta en-026-el-nino-winter.mp4"
     },
     {
      "slug": "en-027-bleach-vinegar",
      "tema": "Bleach + vinegar = chlorine gas (CDC, Poison Control; adapted from 035; pillar home safety)",
-     "estado": "listo",
-     "cuando": "2026-11-07T00:40",
-     "motivo": "render sin Claude"
+     "estado": "apartado",
+     "cuando": "2026-11-22T14:31",
+     "motivo": "falta en-027-bleach-vinegar.mp4"
     },
     {
      "slug": "en-029-swim-after-eating",
      "tema": "Do you have to wait to swim after eating? (Red Cross; adapted from 002)",
-     "estado": "listo",
-     "cuando": "2026-11-07T22:40",
-     "motivo": "render sin Claude"
+     "estado": "apartado",
+     "cuando": "2026-11-22T14:31",
+     "motivo": "falta en-029-swim-after-eating.mp4"
     },
     {
      "slug": "en-031-gta-vice-city",
      "tema": "GTA 6: Vice City = Miami? Which place did you spot? (adapted from 055)",
-     "estado": "listo",
-     "cuando": "2026-11-20T15:42",
-     "motivo": "render sin Claude"
+     "estado": "apartado",
+     "cuando": "2026-11-22T14:31",
+     "motivo": "falta en-031-gta-vice-city.mp4"
+    },
+    {
+     "slug": "en-032-gta-13-years",
+     "tema": "GTA 6: 13 years since GTA V (2013) and two delays; How old were you?",
+     "estado": "apartado",
+     "cuando": "2026-11-22T14:31",
+     "motivo": "falta en-032-gta-13-years.mp4"
     },
     {
      "slug": "en-028-turkey-sleepy",
@@ -774,15 +856,21 @@
        "cuenta": "en"
       }
      },
-     "estado": "ok",
-     "resumen": "10 videos listos, ninguno apartado en las últimas 48 h.",
+     "estado": "aviso",
+     "resumen": "Apartó 5 video(s) en las últimas 48 h.",
      "cuando": "2026-11-21T23:05",
      "hace": "hace 15 h",
      "detalle": [],
-     "tareas": [],
-     "arreglo": null,
+     "tareas": [
+      "en-026-el-nino-winter: falta en-026-el-nino-winter.mp4",
+      "en-027-bleach-vinegar: falta en-027-bleach-vinegar.mp4",
+      "en-029-swim-after-eating: falta en-029-swim-after-eating.mp4",
+      "en-031-gta-vice-city: falta en-031-gta-vice-city.mp4",
+      "en-032-gta-13-years: falta en-032-gta-13-years.mp4"
+     ],
+     "arreglo": "Revisalo: si está bien, pasalo a listo; si no, queda apartado.",
      "solo": false,
-     "firma": "7772330f5bdb"
+     "firma": "5c11971f2510"
     },
     {
      "id": "publicador",
@@ -800,22 +888,22 @@
      },
      "estado": "falla",
      "resumen": "No salió la publicación del turno de las 12:30 (22/11).",
-     "cuando": "2026-11-21T19:35",
-     "hace": "hace 18 h",
+     "cuando": "2026-11-22T14:31",
+     "hace": "recién",
      "detalle": [
-      "20/11 19:36 en-025-dog-hot-car en la bandeja de TikTok",
-      "20/11 19:36 en-025-dog-hot-car paquete para TikTok/YouTube enviado",
-      "21/11 12:35 en-028-turkey-sleepy publicado: https://www.instagram.com/reel/DgAkJOIFqvP/",
-      "21/11 12:36 en-028-turkey-sleepy publicado en Facebook: https://www.facebook.com/reel/1476893591235118/",
-      "21/11 12:36 en-028-turkey-sleepy en la bandeja de TikTok",
       "21/11 12:36 en-028-turkey-sleepy paquete para TikTok/YouTube enviado",
       "21/11 19:34 en-030-violent-games publicado: https://www.instagram.com/reel/DgBUD3Ckszu/",
       "21/11 19:35 en-030-violent-games publicado en Facebook: https://www.facebook.com/reel/1106287898838594/",
       "21/11 19:35 en-030-violent-games en la bandeja de TikTok",
-      "21/11 19:35 en-030-violent-games paquete para TikTok/YouTube enviado"
+      "21/11 19:35 en-030-violent-games paquete para TikTok/YouTube enviado",
+      "22/11 14:31 en-031-gta-vice-city apartado: falta en-031-gta-vice-city.mp4",
+      "22/11 14:31 en-026-el-nino-winter apartado: falta en-026-el-nino-winter.mp4",
+      "22/11 14:31 en-027-bleach-vinegar apartado: falta en-027-bleach-vinegar.mp4",
+      "22/11 14:31 en-029-swim-after-eating apartado: falta en-029-swim-after-eating.mp4",
+      "22/11 14:31 en-032-gta-13-years apartado: falta en-032-gta-13-years.mp4"
      ],
      "tareas": [
-      "Próximo: en-026-el-nino-winter — What El Niño means for your winter (NOAA CPC; adapted from 016)"
+      "Próximo: en-033-turkey-thaw — How to thaw your Thanksgiving turkey (USDA: 24 h per 4-5 lb in the fridge)"
      ],
      "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
      "solo": false,
@@ -941,10 +1029,15 @@
      },
      "estado": "falla",
      "resumen": "No salió la publicación del turno de las 12:30 (22/11).",
-     "cuando": "2026-11-22T14:30",
+     "cuando": "2026-11-22T14:31",
      "hace": "recién",
      "detalle": [
-      "❗ No salió la publicación del turno de las 12:30 (22/11)."
+      "❗ No salió la publicación del turno de las 12:30 (22/11).",
+      "⚠️ Video apartado: en-026-el-nino-winter — falta en-026-el-nino-winter.mp4",
+      "⚠️ Video apartado: en-027-bleach-vinegar — falta en-027-bleach-vinegar.mp4",
+      "⚠️ Video apartado: en-029-swim-after-eating — falta en-029-swim-after-eating.mp4",
+      "⚠️ Video apartado: en-031-gta-vice-city — falta en-031-gta-vice-city.mp4",
+      "⚠️ Video apartado: en-032-gta-13-years — falta en-032-gta-13-years.mp4"
      ],
      "tareas": [],
      "arreglo": null,

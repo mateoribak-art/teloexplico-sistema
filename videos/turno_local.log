@@ -41,3 +41,14 @@ sincronizado
 2026-11-22 03:45 [es] sincronizar.py Notebook: respaldo antes de producir -> cortado a los 15 min
 2026-11-22 03:45 [es] respaldo: 10 listos, no hace falta
 2026-11-22 03:45 [en] respaldo: 10 listos, no hace falta
+2026-11-22 14:31 [es] sincronizar.py Notebook: respaldo antes de publicar -> código 1 no se pudo leer el Release: error connecting to api.github.com
+check your internet connection or https://githubstatus.com
+no se pudo subir el estado al repo después de 5 intentos
+2026-11-22 14:31 [es] publicador.py -> código 0 -city-miami apartado: falta 055-gta-vice-city-miami.mp4
+2026-11-22 14:31 056-gta-trece-anios apartado: falta 056-gta-trece-anios.mp4
+2026-11-22 14:31 057-ruta-40-de-punta-a-punta apartado: falta 057-ruta-40-de-punta-a-punta.mp4
+2026-11-22 14:31 058-agua-del-mate apartado: falta 058-agua-del-mate.mp4
+2026-11-22 14:31 [en] publicador.py -> código 0 l-nino-winter apartado: falta en-026-el-nino-winter.mp4
+2026-11-22 14:31 en-027-bleach-vinegar apartado: falta en-027-bleach-vinegar.mp4
+2026-11-22 14:31 en-029-swim-after-eating apartado: falta en-029-swim-after-eating.mp4
+2026-11-22 14:31 en-032-gta-13-years apartado: falta en-032-gta-13-years.mp4

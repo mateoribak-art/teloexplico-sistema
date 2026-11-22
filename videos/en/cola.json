@@ -1037,7 +1037,7 @@
  {
   "slug": "en-029-swim-after-eating",
   "tema": "Do you have to wait to swim after eating? (Red Cross; adapted from 002)",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -1058,6 +1058,11 @@
     "estado": "listo",
     "cuando": "2026-11-07T22:40",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-22T14:31",
+    "motivo": "falta en-029-swim-after-eating.mp4"
    }
   ]
  },
@@ -1127,7 +1132,7 @@
  {
   "slug": "en-032-gta-13-years",
   "tema": "GTA 6: 13 years since GTA V (2013) and two delays; How old were you?",
-  "estado": "listo",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -1148,6 +1153,11 @@
     "estado": "listo",
     "cuando": "2026-11-20T19:48",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-22T14:31",
+    "motivo": "falta en-032-gta-13-years.mp4"
    }
   ]
  },
