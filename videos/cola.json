@@ -2441,5 +2441,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "066-billetes-animales",
+  "tema": "¿Por qué hay billetes con animales en vez de próceres? Familia Animales autóctonos (BCRA 2016): hornero, yaguareté, ballena, taruca, cóndor, guanaco",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-22T18:21",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-22T18:21",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-22T18:26",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-22T18:58",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

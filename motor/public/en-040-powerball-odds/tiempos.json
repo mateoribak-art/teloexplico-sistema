@@ -1,0 +1,693 @@
+{
+ "duracion": 40.97,
+ "frases": [
+  {
+   "texto": "You think a Powerball ticket is a long shot. It's much longer than that.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.12
+    },
+    {
+     "texto": "think",
+     "inicio": 0.12,
+     "fin": 0.22
+    },
+    {
+     "texto": "a",
+     "inicio": 0.22,
+     "fin": 0.34
+    },
+    {
+     "texto": "Powerball",
+     "inicio": 0.34,
+     "fin": 0.72
+    },
+    {
+     "texto": "ticket",
+     "inicio": 0.72,
+     "fin": 1.0
+    },
+    {
+     "texto": "is",
+     "inicio": 1.0,
+     "fin": 1.18
+    },
+    {
+     "texto": "a",
+     "inicio": 1.18,
+     "fin": 1.32
+    },
+    {
+     "texto": "long",
+     "inicio": 1.32,
+     "fin": 1.5
+    },
+    {
+     "texto": "shot.",
+     "inicio": 1.5,
+     "fin": 1.76
+    },
+    {
+     "texto": "It's",
+     "inicio": 2.3,
+     "fin": 2.56
+    },
+    {
+     "texto": "much",
+     "inicio": 2.56,
+     "fin": 3.3
+    },
+    {
+     "texto": "longer",
+     "inicio": 3.3,
+     "fin": 3.6
+    },
+    {
+     "texto": "than",
+     "inicio": 3.6,
+     "fin": 3.86
+    },
+    {
+     "texto": "that.",
+     "inicio": 3.86,
+     "fin": 4.04
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.04
+  },
+  {
+   "texto": "The odds of winning the jackpot are one in two hundred ninety-two million.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 4.48,
+     "fin": 4.64
+    },
+    {
+     "texto": "odds",
+     "inicio": 4.64,
+     "fin": 4.98
+    },
+    {
+     "texto": "of",
+     "inicio": 4.98,
+     "fin": 5.18
+    },
+    {
+     "texto": "winning",
+     "inicio": 5.18,
+     "fin": 5.38
+    },
+    {
+     "texto": "the",
+     "inicio": 5.38,
+     "fin": 5.56
+    },
+    {
+     "texto": "jackpot",
+     "inicio": 5.56,
+     "fin": 6.02
+    },
+    {
+     "texto": "are",
+     "inicio": 6.02,
+     "fin": 6.32
+    },
+    {
+     "texto": "one",
+     "inicio": 6.32,
+     "fin": 6.74
+    },
+    {
+     "texto": "in",
+     "inicio": 6.74,
+     "fin": 7.16
+    },
+    {
+     "texto": "two",
+     "inicio": 7.16,
+     "fin": 7.5
+    },
+    {
+     "texto": "hundred",
+     "inicio": 7.5,
+     "fin": 7.9
+    },
+    {
+     "texto": "ninety-two",
+     "inicio": 7.9,
+     "fin": 8.62
+    },
+    {
+     "texto": "million.",
+     "inicio": 8.62,
+     "fin": 9.16
+    }
+   ],
+   "inicio": 4.48,
+   "fin": 9.16
+  },
+  {
+   "texto": "Picture that many balls, and only one is gold. Your ticket picks one.",
+   "palabras": [
+    {
+     "texto": "Picture",
+     "inicio": 9.68,
+     "fin": 9.88
+    },
+    {
+     "texto": "that",
+     "inicio": 9.88,
+     "fin": 10.12
+    },
+    {
+     "texto": "many",
+     "inicio": 10.12,
+     "fin": 10.3
+    },
+    {
+     "texto": "balls,",
+     "inicio": 10.3,
+     "fin": 10.64
+    },
+    {
+     "texto": "and",
+     "inicio": 11.06,
+     "fin": 11.22
+    },
+    {
+     "texto": "only",
+     "inicio": 11.22,
+     "fin": 11.46
+    },
+    {
+     "texto": "one",
+     "inicio": 11.46,
+     "fin": 11.98
+    },
+    {
+     "texto": "is",
+     "inicio": 11.98,
+     "fin": 12.16
+    },
+    {
+     "texto": "gold.",
+     "inicio": 12.16,
+     "fin": 12.4
+    },
+    {
+     "texto": "Your",
+     "inicio": 13.04,
+     "fin": 13.18
+    },
+    {
+     "texto": "ticket",
+     "inicio": 13.18,
+     "fin": 13.58
+    },
+    {
+     "texto": "picks",
+     "inicio": 13.58,
+     "fin": 14.02
+    },
+    {
+     "texto": "one.",
+     "inicio": 14.02,
+     "fin": 14.34
+    }
+   ],
+   "inicio": 9.68,
+   "fin": 14.34
+  },
+  {
+   "texto": "And every combination has the same odds: your birthday, a quick pick, or one-two-three-four-five.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 14.8,
+     "fin": 14.96
+    },
+    {
+     "texto": "every",
+     "inicio": 14.96,
+     "fin": 15.32
+    },
+    {
+     "texto": "combination",
+     "inicio": 15.32,
+     "fin": 15.64
+    },
+    {
+     "texto": "has",
+     "inicio": 15.64,
+     "fin": 16.04
+    },
+    {
+     "texto": "the",
+     "inicio": 16.04,
+     "fin": 16.16
+    },
+    {
+     "texto": "same",
+     "inicio": 16.16,
+     "fin": 16.38
+    },
+    {
+     "texto": "odds:",
+     "inicio": 16.38,
+     "fin": 16.58
+    },
+    {
+     "texto": "your",
+     "inicio": 17.18,
+     "fin": 17.3
+    },
+    {
+     "texto": "birthday,",
+     "inicio": 17.3,
+     "fin": 17.78
+    },
+    {
+     "texto": "a",
+     "inicio": 18.06,
+     "fin": 18.14
+    },
+    {
+     "texto": "quick",
+     "inicio": 18.14,
+     "fin": 18.34
+    },
+    {
+     "texto": "pick,",
+     "inicio": 18.34,
+     "fin": 18.6
+    },
+    {
+     "texto": "or",
+     "inicio": 18.82,
+     "fin": 19.06
+    },
+    {
+     "texto": "one-two-three-four-five.",
+     "inicio": 19.06,
+     "fin": 20.4
+    }
+   ],
+   "inicio": 14.8,
+   "fin": 20.4
+  },
+  {
+   "texto": "The Powerball website says the odds of winning any prize at all are about one in twenty-five.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 20.9,
+     "fin": 21.02
+    },
+    {
+     "texto": "Powerball",
+     "inicio": 21.02,
+     "fin": 21.38
+    },
+    {
+     "texto": "website",
+     "inicio": 21.38,
+     "fin": 21.68
+    },
+    {
+     "texto": "says",
+     "inicio": 21.68,
+     "fin": 21.96
+    },
+    {
+     "texto": "the",
+     "inicio": 21.96,
+     "fin": 22.14
+    },
+    {
+     "texto": "odds",
+     "inicio": 22.14,
+     "fin": 22.3
+    },
+    {
+     "texto": "of",
+     "inicio": 22.3,
+     "fin": 22.46
+    },
+    {
+     "texto": "winning",
+     "inicio": 22.46,
+     "fin": 22.6
+    },
+    {
+     "texto": "any",
+     "inicio": 22.6,
+     "fin": 23.0
+    },
+    {
+     "texto": "prize",
+     "inicio": 23.0,
+     "fin": 23.3
+    },
+    {
+     "texto": "at",
+     "inicio": 23.3,
+     "fin": 23.48
+    },
+    {
+     "texto": "all",
+     "inicio": 23.48,
+     "fin": 23.68
+    },
+    {
+     "texto": "are",
+     "inicio": 23.68,
+     "fin": 23.9
+    },
+    {
+     "texto": "about",
+     "inicio": 23.9,
+     "fin": 24.1
+    },
+    {
+     "texto": "one",
+     "inicio": 24.1,
+     "fin": 24.48
+    },
+    {
+     "texto": "in",
+     "inicio": 24.48,
+     "fin": 24.62
+    },
+    {
+     "texto": "twenty-five.",
+     "inicio": 24.62,
+     "fin": 25.2
+    }
+   ],
+   "inicio": 20.9,
+   "fin": 25.2
+  },
+  {
+   "texto": "Heads up: those are the odds for one ticket in one drawing. Ten tickets means ten chances out of two hundred ninety-two million.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 25.2,
+     "fin": 25.98
+    },
+    {
+     "texto": "up:",
+     "inicio": 25.98,
+     "fin": 26.18
+    },
+    {
+     "texto": "those",
+     "inicio": 26.64,
+     "fin": 26.7
+    },
+    {
+     "texto": "are",
+     "inicio": 26.7,
+     "fin": 26.86
+    },
+    {
+     "texto": "the",
+     "inicio": 26.86,
+     "fin": 26.94
+    },
+    {
+     "texto": "odds",
+     "inicio": 26.94,
+     "fin": 27.3
+    },
+    {
+     "texto": "for",
+     "inicio": 27.3,
+     "fin": 27.72
+    },
+    {
+     "texto": "one",
+     "inicio": 27.72,
+     "fin": 28.2
+    },
+    {
+     "texto": "ticket",
+     "inicio": 28.2,
+     "fin": 28.6
+    },
+    {
+     "texto": "in",
+     "inicio": 28.6,
+     "fin": 28.98
+    },
+    {
+     "texto": "one",
+     "inicio": 28.98,
+     "fin": 29.28
+    },
+    {
+     "texto": "drawing.",
+     "inicio": 29.28,
+     "fin": 29.64
+    },
+    {
+     "texto": "Ten",
+     "inicio": 30.12,
+     "fin": 30.34
+    },
+    {
+     "texto": "tickets",
+     "inicio": 30.34,
+     "fin": 30.7
+    },
+    {
+     "texto": "means",
+     "inicio": 30.7,
+     "fin": 31.1
+    },
+    {
+     "texto": "ten",
+     "inicio": 31.1,
+     "fin": 31.58
+    },
+    {
+     "texto": "chances",
+     "inicio": 31.58,
+     "fin": 31.98
+    },
+    {
+     "texto": "out",
+     "inicio": 31.98,
+     "fin": 32.26
+    },
+    {
+     "texto": "of",
+     "inicio": 32.26,
+     "fin": 32.38
+    },
+    {
+     "texto": "two",
+     "inicio": 32.38,
+     "fin": 32.56
+    },
+    {
+     "texto": "hundred",
+     "inicio": 32.56,
+     "fin": 32.74
+    },
+    {
+     "texto": "ninety-two",
+     "inicio": 32.74,
+     "fin": 33.16
+    },
+    {
+     "texto": "million.",
+     "inicio": 33.16,
+     "fin": 33.38
+    }
+   ],
+   "inicio": 25.2,
+   "fin": 33.38
+  },
+  {
+   "texto": "Save this number for the next time the jackpot hits a billion.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 33.78,
+     "fin": 34.06
+    },
+    {
+     "texto": "this",
+     "inicio": 34.06,
+     "fin": 34.26
+    },
+    {
+     "texto": "number",
+     "inicio": 34.26,
+     "fin": 34.5
+    },
+    {
+     "texto": "for",
+     "inicio": 34.5,
+     "fin": 34.64
+    },
+    {
+     "texto": "the",
+     "inicio": 34.64,
+     "fin": 34.74
+    },
+    {
+     "texto": "next",
+     "inicio": 34.74,
+     "fin": 34.88
+    },
+    {
+     "texto": "time",
+     "inicio": 34.88,
+     "fin": 35.08
+    },
+    {
+     "texto": "the",
+     "inicio": 35.08,
+     "fin": 35.18
+    },
+    {
+     "texto": "jackpot",
+     "inicio": 35.18,
+     "fin": 35.6
+    },
+    {
+     "texto": "hits",
+     "inicio": 35.6,
+     "fin": 35.74
+    },
+    {
+     "texto": "a",
+     "inicio": 35.74,
+     "fin": 35.88
+    },
+    {
+     "texto": "billion.",
+     "inicio": 35.88,
+     "fin": 36.1
+    }
+   ],
+   "inicio": 33.78,
+   "fin": 36.1
+  },
+  {
+   "texto": "Do you ever buy a ticket? Yes or no?",
+   "palabras": [
+    {
+     "texto": "Do",
+     "inicio": 36.56,
+     "fin": 36.72
+    },
+    {
+     "texto": "you",
+     "inicio": 36.72,
+     "fin": 36.8
+    },
+    {
+     "texto": "ever",
+     "inicio": 36.8,
+     "fin": 36.92
+    },
+    {
+     "texto": "buy",
+     "inicio": 36.92,
+     "fin": 37.08
+    },
+    {
+     "texto": "a",
+     "inicio": 37.08,
+     "fin": 37.18
+    },
+    {
+     "texto": "ticket?",
+     "inicio": 37.18,
+     "fin": 37.36
+    },
+    {
+     "texto": "Yes",
+     "inicio": 37.8,
+     "fin": 38.0
+    },
+    {
+     "texto": "or",
+     "inicio": 38.0,
+     "fin": 38.16
+    },
+    {
+     "texto": "no?",
+     "inicio": 38.16,
+     "fin": 38.3
+    }
+   ],
+   "inicio": 36.56,
+   "fin": 38.3
+  },
+  {
+   "texto": "Send this to the friend who's already spending the jackpot.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 38.78,
+     "fin": 38.96
+    },
+    {
+     "texto": "this",
+     "inicio": 38.96,
+     "fin": 39.1
+    },
+    {
+     "texto": "to",
+     "inicio": 39.1,
+     "fin": 39.22
+    },
+    {
+     "texto": "the",
+     "inicio": 39.22,
+     "fin": 39.32
+    },
+    {
+     "texto": "friend",
+     "inicio": 39.32,
+     "fin": 39.52
+    },
+    {
+     "texto": "who's",
+     "inicio": 39.52,
+     "fin": 39.74
+    },
+    {
+     "texto": "already",
+     "inicio": 39.74,
+     "fin": 39.96
+    },
+    {
+     "texto": "spending",
+     "inicio": 39.96,
+     "fin": 40.26
+    },
+    {
+     "texto": "the",
+     "inicio": 40.26,
+     "fin": 40.46
+    },
+    {
+     "texto": "jackpot.",
+     "inicio": 40.46,
+     "fin": 40.84
+    }
+   ],
+   "inicio": 38.78,
+   "fin": 40.84
+  }
+ ]
+}

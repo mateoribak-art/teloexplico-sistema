@@ -17,3 +17,13 @@ Uso: 24 pasos · 17,803 tokens nuevos · 1,087,152 de caché · 5,317 escritos �
 2026-11-22 14:46 Render de en-039-polar-vortex (sin Claude).
 2026-11-22 15:07 en-039-polar-vortex: listo (render sin Claude)
 2026-11-22 15:07 Termina la producción (ok).
+2026-11-22 18:58 Arranca la producción (11 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `en-040-powerball-odds` (serie mate #3, sobre las probabilidades del Powerball). Quedó en estado `render` y lo renderiza `producir.py`. El chequeo en subagente aprobó en el primer intento, la voz salió bien (41 s), pasó `tlx tsc` y revisé los cuadros en una vuelta.
+- **Apartados:** no había ninguno con "chequeo rechazado", así que no rescaté nada. Radar sin tema nuevo.
+- **Pendiente:** el render y el control todavía no corrieron; los hace `producir.py` después de este turno. Subí `en-040` a la cola con `tlx cola agregar`; agregué `Bolillas.tsx` al kit 3D y registré las composiciones en `Root.tsx`.
+Uso: 37 pasos · 71,634 tokens nuevos · 1,184,676 de caché · 13,818 escritos · equivale a US$ 0.67 de API
+Permisos negados (1):
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-040-powerball-odds; cat > chequeo.json <<'EOF'\n{\n  \"veredict
+2026-11-22 19:03 Render de en-040-powerball-odds (sin Claude).
+2026-11-22 19:26 en-040-powerball-odds: listo (render sin Claude)
+2026-11-22 19:26 Termina la producción (ok).

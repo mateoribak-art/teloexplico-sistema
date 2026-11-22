@@ -15,3 +15,12 @@ Uso: 11 pasos · 8,216 tokens nuevos · 757,833 de caché · 1,907 escritos · e
 2026-11-22 14:22 Render de 065-voseo-vos-o-tu (sin Claude).
 2026-11-22 14:41 065-voseo-vos-o-tu: listo (render sin Claude)
 2026-11-22 14:41 Termina la producción (ok).
+2026-11-22 18:20 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **066-billetes-animales:** el guion, la voz y las escenas 3D están hechos y el chequeo salió aprobado. Quedó en estado `render`, y `producir.py` lo renderiza y lo controla al terminar el turno, así que todavía no está en `listo`. Dura 51 s, algo más del objetivo de 45. El tema son los billetes con animales en vez de próceres, serie `argentina`, con interacción `comentar` ("¿qué animal te tocó?") y `guardar` (lista de valor y animal).
+- **Apartados:** no rescaté ninguno. Los rechazos por chequeo (motivo "chequeo rechazado") ya habían tenido sus dos intentos. Los que siguen apartados (038, 042, 044, 051) no tienen ese motivo.
+- **Segundo video:** no lo produje. Hay 11 videos listos en la cola, más que el mínimo de 10. Tampoco medí los seguidores de los últimos 7 días contra el ritmo necesario, y la línea de `videos/produccion.log` lo deja anotado.
+- **Radar y cuota:** el radar de hoy no encontró ningún tema fechado de hoy, y la cuota de Gemini alcanzó para la voz.
+Uso: 19 pasos · 16,494 tokens nuevos · 1,198,024 de caché · 7,413 escritos · equivale a US$ 0.97 de API
+2026-11-22 18:26 Render de 066-billetes-animales (sin Claude).
+2026-11-22 18:58 066-billetes-animales: listo (render sin Claude)
+2026-11-22 18:58 Termina la producción (ok).

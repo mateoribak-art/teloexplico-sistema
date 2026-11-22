@@ -1,0 +1,27 @@
+{
+  "titulo": "The real odds of winning the Powerball",
+  "serie": "mate",
+  "fondo": "oscuro",
+  "receta": "numero grande que se entiende en 2 s + pregunta si o no",
+  "pilar": "argentina_equivalente_mate",
+  "destinatario": "se lo manda alguien que compra boletos cuando el premio sube a un amigo que ya esta gastando el premio en su cabeza",
+  "regla_guardable": "Powerball jackpot: 1 in 292.2 million. Any prize: about 1 in 25. Same odds for every combination.",
+  "interaccion": {
+    "guardar": "Jackpot 1 in 292.2 million. Any prize about 1 in 25. Every combination has the same odds.",
+    "comentar": "Do you ever buy a Powerball ticket? Yes or no?"
+  },
+  "fuentes": [
+    "Powerball.com, 'Prizes and Odds': jackpot odds 1 in 292,201,338 (5 of 69 white balls + 1 of 26 red Powerballs); overall odds of winning any prize 1 in 24.87"
+  ],
+  "frases": [
+    {"texto": "You think a Powerball ticket is a long shot. It's much longer than that.", "estilo": "Dry, direct, with a half smile."},
+    {"texto": "The odds of winning the jackpot are one in two hundred ninety-two million.", "estilo": "Matter of fact, then a beat of disbelief."},
+    {"texto": "Picture that many balls, and only one is gold. Your ticket picks one.", "estilo": "Curious, visual."},
+    {"texto": "And every combination has the same odds: your birthday, a quick pick, or one-two-three-four-five.", "estilo": "Clear, a little playful."},
+    {"texto": "The Powerball website says the odds of winning any prize at all are about one in twenty-five.", "estilo": "Clear, matter of fact."},
+    {"texto": "Heads up: those are the odds for one ticket in one drawing. Ten tickets means ten chances out of two hundred ninety-two million.", "estilo": "Calm, honest caveat."},
+    {"texto": "Save this number for the next time the jackpot hits a billion.", "estilo": "Friendly, a bit wry."},
+    {"texto": "Do you ever buy a ticket? Yes or no?", "estilo": "Curious, playful."},
+    {"texto": "Send this to the friend who's already spending the jackpot.", "estilo": "Playful and funny."}
+  ]
+}

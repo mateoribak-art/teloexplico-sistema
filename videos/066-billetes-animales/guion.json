@@ -1,0 +1,26 @@
+{
+  "titulo": "Tus billetes tienen animales en vez de próceres",
+  "fondo": "oscuro",
+  "receta": "Argentina en datos / mapa",
+  "pilar": "argentina",
+  "interaccion": ["comentar", "guardar"],
+  "destinatario": "se lo manda alguien que acaba de sacar un billete del bolsillo a su amigo que dice que la plata argentina no tiene nada lindo, para mostrarle qué animal le tocó",
+  "regla_guardable": "1000 hornero, 500 yaguareté, 200 ballena franca austral, 100 taruca, 50 cóndor, 20 guanaco.",
+  "fuentes": [
+    "BCRA: El BCRA presenta el documental Nueva familia de billetes: Animales autóctonos de Argentina (2017)",
+    "BCRA: noticias de puesta en circulación de los billetes de $20 (guanaco), $50 (cóndor andino), $100 (taruca) y $200",
+    "Boletín Oficial / Comunicación A 6001/2016 (billete de $500, yaguareté)"
+  ],
+  "frases": [
+    {"texto": "Mirá los billetes que tenés: algunos no tienen un prócer, tienen un animal.", "estilo": "Seco, directo, a cámara."},
+    {"texto": "Y no es casualidad.", "estilo": "Golpe contundente."},
+    {"texto": "En dos mil dieciséis el Banco Central empezó a lanzar una familia de seis billetes con animales autóctonos.", "estilo": "Informativo, claro."},
+    {"texto": "Mil pesos, un hornero. Quinientos, un yaguareté. Doscientos, una ballena franca austral.", "estilo": "Ritmo marcado, una por una."},
+    {"texto": "Cien, una taruca. Cincuenta, un cóndor. Veinte, un guanaco.", "estilo": "Ritmo marcado, una por una."},
+    {"texto": "Cada uno representa una región: el centro, el noreste, el noroeste, los Andes, la Patagonia y el mar.", "estilo": "Curioso."},
+    {"texto": "El Banco Central dijo que busca que todos los argentinos se sientan representados.", "estilo": "Con autoridad."},
+    {"texto": "Ojo: según el año, puede que alguno ya no te toque en la billetera.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Y a vos, ¿qué animal te tocó hoy? Contestá con uno.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al que dice que la plata no tiene nada lindo.", "estilo": "Cómplice, con humor."}
+  ]
+}

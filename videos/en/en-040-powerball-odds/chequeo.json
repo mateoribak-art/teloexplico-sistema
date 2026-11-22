@@ -1,0 +1,15 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Las cifras coinciden con la fuente primaria (Powerball.com, Prize chart: jackpot 1 en 292,201,338; cualquier premio 1 en 24.87 sobre una jugada de $2; tambien confirmado por la loteria de Dakota del Norte, miembro de MUSL, y por LotteryUSA). La matriz 5 de 69 + 1 de 26 da C(69,5)*26 = 292,201,338 (Wikipedia). No hay afirmaciones falsas, dudosas ni probables. Las frases sobre plata/probabilidades son todas verificadas y atribuidas a la web de Powerball donde corresponde. Observacion menor sin impacto: la pagina de Powerball consultada no publica la matriz, pero el calculo es aritmetica exacta.",
+  "afirmaciones": [
+    {"texto": "The odds of winning the jackpot are one in two hundred ninety-two million. / 1 in 292,201,338 / 292.2 million", "fuente": "Powerball.com, Prize chart (https://www.powerball.com/powerball-prize-chart): Grand Prize 1 in 292,201,338", "estado": "verificada", "matiz_ok": true},
+    {"texto": "The Powerball website says the odds of winning any prize at all are about one in twenty-five. / 1 in 24.87 / about 1 in 25", "fuente": "Powerball.com, Prize chart: overall odds 1 in 24.87 (jugada de $2); tambien lottery.nd.gov/games/powerball y LotteryUSA", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Picture that many balls, and only one is gold. Your ticket picks one.", "fuente": "Analogia ilustrativa de 1 combinacion ganadora entre 292,201,338 (aritmetica); no es afirmacion factual externa", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Every combination has the same odds: your birthday, a quick pick, or one-two-three-four-five.", "fuente": "Matematica del sorteo aleatorio: toda combinacion de 5 de 69 + 1 de 26 es igualmente probable (Powerball.com / MUSL)", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Those are the odds for one ticket in one drawing. Ten tickets means ten chances out of 292.2 million.", "fuente": "Aritmetica: 10 jugadas distintas = 10/292,201,338; Powerball.com, odds por jugada de $2", "estado": "verificada", "matiz_ok": true},
+    {"texto": "The Powerball website lists/says those odds (atribucion)", "fuente": "Powerball.com, Prize chart: confirmado que publica ambas cifras", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Save this number for the next time the jackpot hits a billion", "fuente": "Hipotetico/futuro; jackpots de mil millones o mas ya ocurrieron (2022, 2025), por lo que es plausible; no afirma un hecho puntual", "estado": "verificada", "matiz_ok": true},
+    {"texto": "It's much longer than that / way longer than you think", "fuente": "Opinion/enfasis retorico respaldada por la cifra 1 en 292 millones", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Sources: Powerball.com (Prizes and Odds)", "fuente": "Atribucion; la fuente existe y contiene las cifras", "estado": "verificada", "matiz_ok": true}
+  ]
+}

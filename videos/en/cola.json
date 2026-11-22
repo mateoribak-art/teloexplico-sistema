@@ -1329,5 +1329,27 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-040-powerball-odds",
+  "tema": "What are the real odds of winning the Powerball? (powerball.com; own; math)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-22T18:59",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-22T19:03",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-22T19:26",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]
