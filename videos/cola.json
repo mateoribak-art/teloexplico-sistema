@@ -2106,7 +2106,7 @@
  {
   "slug": "054-gta-juegos-violentos",
   "tema": "¿Los videojuegos violentos te hacen violento? Lo que dice la APA (2020), ahora que salió el GTA 6 --actualidad",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -2127,6 +2127,11 @@
     "estado": "listo",
     "cuando": "2026-11-20T14:12",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-22T12:33",
+    "motivo": "https://www.instagram.com/reel/DgDIo7Tm2kv/"
    }
   ]
  },
