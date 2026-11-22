@@ -1,0 +1,48 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de salud y cifras quedan verificadas contra fuente primaria. DeWeber 2011 (J Am Board Fam Med 24(2):169-174, PubMed 21383216): 215 respondientes de 50 a 89 años con radiografía de mano derecha en los 5 años previos; artrosis 18,1% en crujidores vs 21,5% en no crujidores (p=0,548); conclusión: el crujido habitual no parece factor de riesgo. Harvard Health dice que 'probablemente no aumenta el riesgo' (basado en varios estudios) y que el crujido crónico 'may lead to reduced grip strength'; 'podría reducir' y 'aunque no está comprobado' son fieles y llevan el matiz que corresponde. Nada es falso ni dudoso. Observación menor sin impacto: DeWeber es caso-control (comparó antecedente de crujido entre pacientes con y sin artrosis); 'compararon la artrosis' es una simplificación aceptable.",
+  "afirmaciones": [
+    {
+      "texto": "Te crujís los dedos y alguien de tu familia te dijo que te vas a arruinar las manos. / Que te va a dar artritis. Eso es lo que se dice.",
+      "fuente": "Creencia popular presentada como 'lo que se dice'; Harvard Health la trata como mito extendido. Sin cifra ni afirmación de salud propia.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En dos mil once, Kevin DeWeber y su equipo compararon la artrosis en radiografías de la mano derecha de doscientos quince adultos de cincuenta a ochenta y nueve años.",
+      "fuente": "PubMed 21383216; https://www.jabfm.org/content/24/2/169 (deWeber, Olszewski, Ortolano, J Am Board Fam Med 2011;24(2):169-174): caso-control, 215 respondientes, 50 a 89 años, radiografía de mano derecha.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Los que se crujían los dedos seguido no tenían más artrosis en la mano que los que no.",
+      "fuente": "Mismo estudio: artrosis 18,1% en crujidores vs 21,5% en no crujidores, p=0,548; el crujido habitual no es factor de riesgo.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Harvard Health, que resume varios estudios, dice lo mismo: probablemente no aumenta el riesgo. (caption: 'dice que probablemente no aumenta el riesgo')",
+      "fuente": "https://www.health.harvard.edu/pain/does-cracking-knuckles-cause-arthritis (redirige a harvardhealth.org): 'probably won't raise your risk for arthritis', basado en varios estudios que comparan crujidores y no crujidores.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Harvard cuenta que crujirse los dedos de forma crónica podría reducir la fuerza de agarre, aunque no está comprobado.",
+      "fuente": "Harvard Health, mismo artículo: 'Chronic knuckle-cracking may lead to reduced grip strength'. El condicional replica el 'may'; 'no está comprobado' es un hedge fiel (la asociación viene de un estudio observacional de 1990).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y si te duele o se te hincha, no lo midas con un video: andá al médico. (caption: 'Si te duele o se te hincha, consultá al médico.')",
+      "fuente": "Consejo de prudencia, no afirmación fáctica; coherente con la guía general de consultar ante dolor o hinchazón (Harvard Health menciona hinchazón y lesiones en reportes).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes: Harvard Health Publishing; DeWeber et al., 2011, Journal of the American Board of Family Medicine.",
+      "fuente": "Ambas referencias existen y coinciden con lo consultado (PubMed 21383216 y artículo de Harvard Health).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

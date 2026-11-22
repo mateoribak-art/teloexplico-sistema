@@ -1,0 +1,26 @@
+{
+  "titulo": "What is lake-effect snow?",
+  "serie": "clima",
+  "fondo": "oscuro",
+  "receta": "situación del que mira + mecanismo en mapa real (Great Lakes)",
+  "pilar": "clima_accion",
+  "destinatario": "se lo manda alguien de Buffalo/Michigan a su amigo de otro estado que cree que nieva igual en todos lados, para explicarle por qué acá sí",
+  "interaccion": {
+    "comentar": "So which are you today: snow or sun? (one word, everyone can answer from where they live)"
+  },
+  "fuentes": [
+    "National Weather Service, Winter Lake Effect Snow (weather.gov/safety/winter-lake-effect-snow): cold air, often from Canada, moves across the open waters of the Great Lakes; lake adds heat and moisture to the lowest layer of air; air rises, clouds merge into a narrow band producing 2 to 3 inches of snow per hour or more; snow can fall in one spot while sunshine is only a mile or two away",
+    "NWS Gaylord, Lake Effect Snow (weather.gov/apx/les): cold air over open Great Lakes water; lake-to-air temperature difference, fetch, elevation, shoreline orientation"
+  ],
+  "frases": [
+    {"texto": "Your town can be buried in snow while the next one over is sunny.", "estilo": "Intriguing, to the camera."},
+    {"texto": "That's lake-effect snow.", "estilo": "Punchy."},
+    {"texto": "Cold air, often from Canada, blows across the Great Lakes.", "estilo": "Brisk, clear."},
+    {"texto": "The open water is relatively warm, so it adds heat and moisture to the air.", "estilo": "Explanatory, steady."},
+    {"texto": "That air rises, and the clouds merge into a narrow band.", "estilo": "Clear, simple."},
+    {"texto": "The National Weather Service says one band can drop two to three inches of snow an hour, or more.", "estilo": "Informative, with authority."},
+    {"texto": "Heads up: it's so narrow that the sun can be shining a mile or two away.", "estilo": "Calm, honest caveat."},
+    {"texto": "So which are you today: snow or sun?", "estilo": "Playful, inviting."},
+    {"texto": "Send this to the friend who swears it's snowing everywhere.", "estilo": "Playful and funny."}
+  ]
+}

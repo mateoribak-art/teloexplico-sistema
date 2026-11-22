@@ -1,0 +1,11 @@
+2026-11-22 09:03 Arranca la producción (10 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+Quedó un solo video, y está incompleto: `en-038-lake-effect-snow` (serie clima #7, "What is lake-effect snow?") está en estado `render`. El render, la portada y el control todavía los tiene que correr `producir.py`.
+- **Listo hasta ahí:** el chequeo con subagente aprobó todo en el primer intento (fuente: NWS), la voz dura 33,6 s y `tlx tsc` pasó. Revisé los cuadros en una sola vuelta. El caption y `meta.json` están escritos, pero `meta.json` lleva un `portada_ms` de 5200 que puse a ojo y no probé.
+- **Por qué este tema:** no había videos apartados por chequeo para rescatar. La única adaptación pendiente era la pava eléctrica, que en EE. UU. casi no se usa, así que hice uno propio.
+- **Sin revisar a fondo:** en los cuadros, los lagos del mapa son manchas naranjas que no se ven como lagos. Lo dejé así sin pulir, y no corrí la pasada del radar.
+Uso: 42 pasos · 69,974 tokens nuevos · 1,247,342 de caché · 14,964 escritos · equivale a US$ 0.68 de API
+Permisos negados (1):
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-038-lake-effect-snow; cat > chequeo.json <<'EOF'\n{\n  \"veredi
+2026-11-22 09:07 Render de en-038-lake-effect-snow (sin Claude).
+2026-11-22 09:37 en-038-lake-effect-snow: listo (render sin Claude)
+2026-11-22 09:37 Termina la producción (ok).

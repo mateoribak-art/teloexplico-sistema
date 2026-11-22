@@ -1,0 +1,24 @@
+{
+  "titulo": "Te crujís los dedos y te dijeron que te va a dar artritis",
+  "fondo": "cuaderno",
+  "receta": "El que lo hace mal",
+  "pilar": "salud_simple",
+  "interaccion": ["comentar"],
+  "destinatario": "se lo manda el que se cruje los dedos a su madre o abuela que le dice 'te vas a arruinar las manos', para decirle que la ciencia no encontró esa relación",
+  "regla_guardable": "Crujirse los nudillos no se asocia a artritis en los estudios; si te duele o se hinchan, consultá.",
+  "fuentes": [
+    "Harvard Health Publishing: Does cracking knuckles cause arthritis?",
+    "DeWeber et al., 2011, Journal of the American Board of Family Medicine (215 adultos de 50 a 89 años)"
+  ],
+  "frases": [
+    {"texto": "Te crujís los dedos y alguien de tu familia te dijo que te vas a arruinar las manos.", "estilo": "Seco, directo, con media sonrisa."},
+    {"texto": "Que te va a dar artritis. Eso es lo que se dice.", "estilo": "Informativo."},
+    {"texto": "En dos mil once, Kevin DeWeber y su equipo compararon la artrosis en radiografías de la mano derecha de doscientos quince adultos de cincuenta a ochenta y nueve años.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Los que se crujían los dedos seguido no tenían más artrosis en la mano que los que no.", "estilo": "Seco y contundente."},
+    {"texto": "Harvard Health, que resume varios estudios, dice lo mismo: probablemente no aumenta el riesgo.", "estilo": "Claro, con autoridad."},
+    {"texto": "Ojo: Harvard cuenta que crujirse los dedos de forma crónica podría reducir la fuerza de agarre, aunque no está comprobado.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Y si te duele o se te hincha, no lo midas con un video: andá al médico.", "estilo": "Práctico, amable."},
+    {"texto": "¿Vos te crujís los dedos? Contestá sí o no.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al que te dice que te vas a arruinar las manos.", "estilo": "Cómplice, con humor."}
+  ]
+}

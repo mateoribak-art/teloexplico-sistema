@@ -56,7 +56,8 @@ import { DURACION as DUR_057, FPS as FPS_057, Ruta40Punta3D, Portada057 } from "
 import { DURACION as DUR_058, FPS as FPS_058, AguaMate3D, Portada058 } from "./videos/058-agua-del-mate/Video";
 import { DURACION as DUR_059, FPS as FPS_059, PibeChangoGuri3D, Portada059 } from "./videos/059-pibe-chango-guri/Video";
 import { DURACION as DUR_061, FPS as FPS_061, HeladeraTermometro3D, Portada061 } from "./videos/061-heladera-termometro/Video";
-import { DURACION as DUR_062, FPS as FPS_062, PoteMicroondas3D, Portada062 } from "./videos/062-pote-microondas/Video";
+import { DURACION as DUR_064, FPS as FPS_064, NudillosArtritis3D, Portada064 } from "./videos/064-nudillos-artritis/Video";
+import { DURACION as DUR_062,FPS as FPS_062, PoteMicroondas3D, Portada062 } from "./videos/062-pote-microondas/Video";
 import { DURACION as DUR_063, FPS as FPS_063, CheOrigen3D, Portada063 } from "./videos/063-che-origen/Video";
 import { DURACION as DUR_060,FPS as FPS_060, CargaNoche3D, Portada060 } from "./videos/060-celular-carga-noche/Video";
 import { DURACION as DUR_056,FPS as FPS_056, GtaTreceAnios3D, Portada056 } from "./videos/056-gta-trece-anios/Video";
@@ -104,7 +105,8 @@ import { DURACION as DUR_EN023, FPS as FPS_EN023, PackageTextEn023, PortadaEn023
 import { DURACION as DUR_EN024, FPS as FPS_EN024, HeatIndexEn024, PortadaEn024 } from "./videos/en-024-heat-index/Video";
 import { DURACION as DUR_EN027, FPS as FPS_EN027, BleachVinegarEn027, PortadaEn027 } from "./videos/en-027-bleach-vinegar/Video";
 import { DURACION as DUR_EN025, FPS as FPS_EN025, DogHotCarEn025, PortadaEn025 } from "./videos/en-025-dog-hot-car/Video";
-import { DURACION as DUR_EN026, FPS as FPS_EN026, ElNinoWinterEn026, PortadaEn026 } from "./videos/en-026-el-nino-winter/Video";
+import { DURACION as DUR_EN038, FPS as FPS_EN038, LakeEffectSnowEn038, PortadaEn038 } from "./videos/en-038-lake-effect-snow/Video";
+import { DURACION as DUR_EN026,FPS as FPS_EN026, ElNinoWinterEn026, PortadaEn026 } from "./videos/en-026-el-nino-winter/Video";
 import { DURACION as DUR_EN028, FPS as FPS_EN028, TurkeySleepyEn028, PortadaEn028 } from "./videos/en-028-turkey-sleepy/Video";
 import { DURACION as DUR_EN029, FPS as FPS_EN029, SwimAfterEatingEn029, PortadaEn029 } from "./videos/en-029-swim-after-eating/Video";
 import { DURACION as DUR_EN030, FPS as FPS_EN030, ViolentGamesEn030, PortadaEn030 } from "./videos/en-030-violent-games/Video";
@@ -189,6 +191,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p062-pote-microondas" component={Portada062} width={ANCHO} height={ALTO} />
         <Composition id="h063-che-origen" component={CheOrigen3D} durationInFrames={DUR_063} fps={FPS_063} width={ANCHO} height={ALTO} />
         <Still id="p063-che-origen" component={Portada063} width={ANCHO} height={ALTO} />
+        <Composition id="h064-nudillos-artritis" component={NudillosArtritis3D} durationInFrames={DUR_064} fps={FPS_064} width={ANCHO} height={ALTO} />
+        <Still id="p064-nudillos-artritis" component={Portada064} width={ANCHO} height={ALTO} />
         <Composition id="h056-gta-trece-anios"component={GtaTreceAnios3D} durationInFrames={DUR_056} fps={FPS_056} width={ANCHO} height={ALTO} />
         <Still id="p056-gta-trece-anios" component={Portada056} width={ANCHO} height={ALTO} />
         <Composition id="h055-gta-vice-city-miami"component={GtaViceCityMiami3D} durationInFrames={DUR_055} fps={FPS_055} width={ANCHO} height={ALTO} />
@@ -276,7 +280,9 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-024-heat-index" component={PortadaEn024} width={ANCHO} height={ALTO} />
         <Composition id="hen-025-dog-hot-car" component={DogHotCarEn025} durationInFrames={DUR_EN025} fps={FPS_EN025} width={ANCHO} height={ALTO} />
         <Still id="pen-025-dog-hot-car" component={PortadaEn025} width={ANCHO} height={ALTO} />
-        <Composition id="hen-026-el-nino-winter" component={ElNinoWinterEn026} durationInFrames={DUR_EN026} fps={FPS_EN026} width={ANCHO} height={ALTO} />
+        <Composition id="hen-038-lake-effect-snow" component={LakeEffectSnowEn038} durationInFrames={DUR_EN038} fps={FPS_EN038} width={ANCHO} height={ALTO} />
+        <Still id="pen-038-lake-effect-snow" component={PortadaEn038} width={ANCHO} height={ALTO} />
+        <Composition id="hen-026-el-nino-winter"component={ElNinoWinterEn026} durationInFrames={DUR_EN026} fps={FPS_EN026} width={ANCHO} height={ALTO} />
         <Still id="pen-026-el-nino-winter" component={PortadaEn026} width={ANCHO} height={ALTO} />
         <Composition id="hen-027-bleach-vinegar" component={BleachVinegarEn027} durationInFrames={DUR_EN027} fps={FPS_EN027} width={ANCHO} height={ALTO} />
         <Still id="pen-027-bleach-vinegar" component={PortadaEn027} width={ANCHO} height={ALTO} />

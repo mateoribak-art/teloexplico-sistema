@@ -49,7 +49,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 ## Temas de EE. UU. — serie: clima (Weather explained)
 - [usada → en-002-dst-farmers] Why do we "fall back"? What Daylight Saving Time actually does (cambio de hora: domingo 1/11/2026; NIST/DOT) — actualidad, antes del 1/11
 - [usada → en-016-too-cold-snow] Can it be too cold to snow? (NWS)
-- [ ] What is lake-effect snow? (NWS) — invierno
+- [usada → en-038-lake-effect-snow] What is lake-effect snow? (NWS) — invierno
 - [ ] Why do leaves change color in fall? (USDA Forest Service)
 - [ ] Why is the first frost a thing? / What's a "polar vortex"? (NOAA) — invierno
 

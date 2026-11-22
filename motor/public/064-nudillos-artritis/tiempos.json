@@ -1,0 +1,813 @@
+{
+ "duracion": 47.37,
+ "frases": [
+  {
+   "texto": "Te crujís los dedos y alguien de tu familia te dijo que te vas a arruinar las manos.",
+   "palabras": [
+    {
+     "texto": "Te",
+     "inicio": 0.12,
+     "fin": 0.12
+    },
+    {
+     "texto": "crujís",
+     "inicio": 0.12,
+     "fin": 0.44
+    },
+    {
+     "texto": "los",
+     "inicio": 0.44,
+     "fin": 0.62
+    },
+    {
+     "texto": "dedos",
+     "inicio": 0.62,
+     "fin": 1.1
+    },
+    {
+     "texto": "y",
+     "inicio": 1.1,
+     "fin": 1.38
+    },
+    {
+     "texto": "alguien",
+     "inicio": 1.38,
+     "fin": 1.68
+    },
+    {
+     "texto": "de",
+     "inicio": 1.68,
+     "fin": 1.84
+    },
+    {
+     "texto": "tu",
+     "inicio": 1.84,
+     "fin": 1.98
+    },
+    {
+     "texto": "familia",
+     "inicio": 1.98,
+     "fin": 2.3
+    },
+    {
+     "texto": "te",
+     "inicio": 2.3,
+     "fin": 2.5
+    },
+    {
+     "texto": "dijo",
+     "inicio": 2.5,
+     "fin": 2.7
+    },
+    {
+     "texto": "que",
+     "inicio": 2.7,
+     "fin": 2.86
+    },
+    {
+     "texto": "te",
+     "inicio": 2.86,
+     "fin": 2.98
+    },
+    {
+     "texto": "vas",
+     "inicio": 2.98,
+     "fin": 3.12
+    },
+    {
+     "texto": "a",
+     "inicio": 3.12,
+     "fin": 3.26
+    },
+    {
+     "texto": "arruinar",
+     "inicio": 3.26,
+     "fin": 3.62
+    },
+    {
+     "texto": "las",
+     "inicio": 3.62,
+     "fin": 3.84
+    },
+    {
+     "texto": "manos.",
+     "inicio": 3.84,
+     "fin": 4.14
+    }
+   ],
+   "inicio": 0.12,
+   "fin": 4.14
+  },
+  {
+   "texto": "Que te va a dar artritis. Eso es lo que se dice.",
+   "palabras": [
+    {
+     "texto": "Que",
+     "inicio": 4.68,
+     "fin": 4.86
+    },
+    {
+     "texto": "te",
+     "inicio": 4.86,
+     "fin": 4.98
+    },
+    {
+     "texto": "va",
+     "inicio": 4.98,
+     "fin": 5.12
+    },
+    {
+     "texto": "a",
+     "inicio": 5.12,
+     "fin": 5.2
+    },
+    {
+     "texto": "dar",
+     "inicio": 5.2,
+     "fin": 5.28
+    },
+    {
+     "texto": "artritis.",
+     "inicio": 5.28,
+     "fin": 5.74
+    },
+    {
+     "texto": "Eso",
+     "inicio": 6.4,
+     "fin": 6.64
+    },
+    {
+     "texto": "es",
+     "inicio": 6.64,
+     "fin": 6.74
+    },
+    {
+     "texto": "lo",
+     "inicio": 6.74,
+     "fin": 6.8
+    },
+    {
+     "texto": "que",
+     "inicio": 6.8,
+     "fin": 6.9
+    },
+    {
+     "texto": "se",
+     "inicio": 6.9,
+     "fin": 7.0
+    },
+    {
+     "texto": "dice.",
+     "inicio": 7.0,
+     "fin": 7.26
+    }
+   ],
+   "inicio": 4.68,
+   "fin": 7.26
+  },
+  {
+   "texto": "En dos mil once, Kevin DeWeber y su equipo compararon la artrosis en radiografías de la mano derecha de doscientos quince adultos de cincuenta a ochenta y nueve años.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 7.84,
+     "fin": 7.94
+    },
+    {
+     "texto": "dos",
+     "inicio": 7.94,
+     "fin": 8.06
+    },
+    {
+     "texto": "mil",
+     "inicio": 8.06,
+     "fin": 8.16
+    },
+    {
+     "texto": "once,",
+     "inicio": 8.16,
+     "fin": 8.46
+    },
+    {
+     "texto": "Kevin",
+     "inicio": 8.94,
+     "fin": 9.08
+    },
+    {
+     "texto": "DeWeber",
+     "inicio": 9.08,
+     "fin": 9.66
+    },
+    {
+     "texto": "y",
+     "inicio": 9.66,
+     "fin": 9.82
+    },
+    {
+     "texto": "su",
+     "inicio": 9.82,
+     "fin": 9.9
+    },
+    {
+     "texto": "equipo",
+     "inicio": 9.9,
+     "fin": 10.22
+    },
+    {
+     "texto": "compararon",
+     "inicio": 10.22,
+     "fin": 11.12
+    },
+    {
+     "texto": "la",
+     "inicio": 11.12,
+     "fin": 11.24
+    },
+    {
+     "texto": "artrosis",
+     "inicio": 11.24,
+     "fin": 11.72
+    },
+    {
+     "texto": "en",
+     "inicio": 11.72,
+     "fin": 11.9
+    },
+    {
+     "texto": "radiografías",
+     "inicio": 11.9,
+     "fin": 12.54
+    },
+    {
+     "texto": "de",
+     "inicio": 12.54,
+     "fin": 12.7
+    },
+    {
+     "texto": "la",
+     "inicio": 12.7,
+     "fin": 12.8
+    },
+    {
+     "texto": "mano",
+     "inicio": 12.8,
+     "fin": 12.96
+    },
+    {
+     "texto": "derecha",
+     "inicio": 12.96,
+     "fin": 13.4
+    },
+    {
+     "texto": "de",
+     "inicio": 13.4,
+     "fin": 13.54
+    },
+    {
+     "texto": "doscientos",
+     "inicio": 13.54,
+     "fin": 14.12
+    },
+    {
+     "texto": "quince",
+     "inicio": 14.12,
+     "fin": 14.46
+    },
+    {
+     "texto": "adultos",
+     "inicio": 14.46,
+     "fin": 14.98
+    },
+    {
+     "texto": "de",
+     "inicio": 14.98,
+     "fin": 15.42
+    },
+    {
+     "texto": "cincuenta",
+     "inicio": 15.42,
+     "fin": 15.96
+    },
+    {
+     "texto": "a",
+     "inicio": 15.96,
+     "fin": 16.01
+    },
+    {
+     "texto": "ochenta",
+     "inicio": 15.96,
+     "fin": 16.3
+    },
+    {
+     "texto": "y",
+     "inicio": 16.3,
+     "fin": 16.4
+    },
+    {
+     "texto": "nueve",
+     "inicio": 16.4,
+     "fin": 16.62
+    },
+    {
+     "texto": "años.",
+     "inicio": 16.62,
+     "fin": 16.96
+    }
+   ],
+   "inicio": 7.84,
+   "fin": 16.96
+  },
+  {
+   "texto": "Los que se crujían los dedos seguido no tenían más artrosis en la mano que los que no.",
+   "palabras": [
+    {
+     "texto": "Los",
+     "inicio": 17.5,
+     "fin": 17.7
+    },
+    {
+     "texto": "que",
+     "inicio": 17.7,
+     "fin": 17.8
+    },
+    {
+     "texto": "se",
+     "inicio": 17.8,
+     "fin": 17.92
+    },
+    {
+     "texto": "crujían",
+     "inicio": 17.92,
+     "fin": 18.28
+    },
+    {
+     "texto": "los",
+     "inicio": 18.28,
+     "fin": 18.42
+    },
+    {
+     "texto": "dedos",
+     "inicio": 18.42,
+     "fin": 18.68
+    },
+    {
+     "texto": "seguido",
+     "inicio": 18.68,
+     "fin": 19.1
+    },
+    {
+     "texto": "no",
+     "inicio": 19.1,
+     "fin": 19.62
+    },
+    {
+     "texto": "tenían",
+     "inicio": 19.62,
+     "fin": 19.96
+    },
+    {
+     "texto": "más",
+     "inicio": 19.96,
+     "fin": 20.1
+    },
+    {
+     "texto": "artrosis",
+     "inicio": 20.1,
+     "fin": 20.62
+    },
+    {
+     "texto": "en",
+     "inicio": 20.62,
+     "fin": 20.76
+    },
+    {
+     "texto": "la",
+     "inicio": 20.76,
+     "fin": 20.84
+    },
+    {
+     "texto": "mano",
+     "inicio": 20.84,
+     "fin": 21.06
+    },
+    {
+     "texto": "que",
+     "inicio": 21.06,
+     "fin": 21.16
+    },
+    {
+     "texto": "los",
+     "inicio": 21.16,
+     "fin": 21.26
+    },
+    {
+     "texto": "que",
+     "inicio": 21.26,
+     "fin": 21.38
+    },
+    {
+     "texto": "no.",
+     "inicio": 21.38,
+     "fin": 21.5
+    }
+   ],
+   "inicio": 17.5,
+   "fin": 21.5
+  },
+  {
+   "texto": "Harvard Health, que resume varios estudios, dice lo mismo: probablemente no aumenta el riesgo.",
+   "palabras": [
+    {
+     "texto": "Harvard",
+     "inicio": 22.24,
+     "fin": 22.64
+    },
+    {
+     "texto": "Health,",
+     "inicio": 22.64,
+     "fin": 23.06
+    },
+    {
+     "texto": "que",
+     "inicio": 23.26,
+     "fin": 23.5
+    },
+    {
+     "texto": "resume",
+     "inicio": 23.5,
+     "fin": 23.82
+    },
+    {
+     "texto": "varios",
+     "inicio": 23.82,
+     "fin": 24.14
+    },
+    {
+     "texto": "estudios,",
+     "inicio": 24.14,
+     "fin": 24.7
+    },
+    {
+     "texto": "dice",
+     "inicio": 24.86,
+     "fin": 24.98
+    },
+    {
+     "texto": "lo",
+     "inicio": 24.98,
+     "fin": 25.14
+    },
+    {
+     "texto": "mismo:",
+     "inicio": 25.14,
+     "fin": 25.36
+    },
+    {
+     "texto": "probablemente",
+     "inicio": 26.12,
+     "fin": 26.56
+    },
+    {
+     "texto": "no",
+     "inicio": 26.56,
+     "fin": 26.8
+    },
+    {
+     "texto": "aumenta",
+     "inicio": 26.8,
+     "fin": 27.24
+    },
+    {
+     "texto": "el",
+     "inicio": 27.24,
+     "fin": 27.3
+    },
+    {
+     "texto": "riesgo.",
+     "inicio": 27.3,
+     "fin": 27.64
+    }
+   ],
+   "inicio": 22.24,
+   "fin": 27.64
+  },
+  {
+   "texto": "Ojo: Harvard cuenta que crujirse los dedos de forma crónica podría reducir la fuerza de agarre, aunque no está comprobado.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 28.1,
+     "fin": 28.48
+    },
+    {
+     "texto": "Harvard",
+     "inicio": 28.96,
+     "fin": 29.34
+    },
+    {
+     "texto": "cuenta",
+     "inicio": 29.34,
+     "fin": 29.78
+    },
+    {
+     "texto": "que",
+     "inicio": 29.78,
+     "fin": 30.04
+    },
+    {
+     "texto": "crujirse",
+     "inicio": 30.04,
+     "fin": 30.62
+    },
+    {
+     "texto": "los",
+     "inicio": 30.62,
+     "fin": 30.8
+    },
+    {
+     "texto": "dedos",
+     "inicio": 30.8,
+     "fin": 31.22
+    },
+    {
+     "texto": "de",
+     "inicio": 31.22,
+     "fin": 31.42
+    },
+    {
+     "texto": "forma",
+     "inicio": 31.42,
+     "fin": 31.7
+    },
+    {
+     "texto": "crónica",
+     "inicio": 31.7,
+     "fin": 32.46
+    },
+    {
+     "texto": "podría",
+     "inicio": 32.46,
+     "fin": 33.24
+    },
+    {
+     "texto": "reducir",
+     "inicio": 33.24,
+     "fin": 33.82
+    },
+    {
+     "texto": "la",
+     "inicio": 33.82,
+     "fin": 33.96
+    },
+    {
+     "texto": "fuerza",
+     "inicio": 33.96,
+     "fin": 34.26
+    },
+    {
+     "texto": "de",
+     "inicio": 34.26,
+     "fin": 34.48
+    },
+    {
+     "texto": "agarre,",
+     "inicio": 34.48,
+     "fin": 34.88
+    },
+    {
+     "texto": "aunque",
+     "inicio": 35.38,
+     "fin": 35.66
+    },
+    {
+     "texto": "no",
+     "inicio": 35.66,
+     "fin": 35.86
+    },
+    {
+     "texto": "está",
+     "inicio": 35.86,
+     "fin": 36.0
+    },
+    {
+     "texto": "comprobado.",
+     "inicio": 36.0,
+     "fin": 36.6
+    }
+   ],
+   "inicio": 28.1,
+   "fin": 36.6
+  },
+  {
+   "texto": "Y si te duele o se te hincha, no lo midas con un video: andá al médico.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 37.1,
+     "fin": 37.18
+    },
+    {
+     "texto": "si",
+     "inicio": 37.18,
+     "fin": 37.3
+    },
+    {
+     "texto": "te",
+     "inicio": 37.3,
+     "fin": 37.46
+    },
+    {
+     "texto": "duele",
+     "inicio": 37.46,
+     "fin": 37.94
+    },
+    {
+     "texto": "o",
+     "inicio": 37.94,
+     "fin": 38.16
+    },
+    {
+     "texto": "se",
+     "inicio": 38.16,
+     "fin": 38.32
+    },
+    {
+     "texto": "te",
+     "inicio": 38.32,
+     "fin": 38.42
+    },
+    {
+     "texto": "hincha,",
+     "inicio": 38.42,
+     "fin": 38.82
+    },
+    {
+     "texto": "no",
+     "inicio": 39.4,
+     "fin": 39.5
+    },
+    {
+     "texto": "lo",
+     "inicio": 39.5,
+     "fin": 39.62
+    },
+    {
+     "texto": "midas",
+     "inicio": 39.62,
+     "fin": 39.88
+    },
+    {
+     "texto": "con",
+     "inicio": 39.88,
+     "fin": 40.0
+    },
+    {
+     "texto": "un",
+     "inicio": 40.0,
+     "fin": 40.08
+    },
+    {
+     "texto": "video:",
+     "inicio": 40.08,
+     "fin": 40.38
+    },
+    {
+     "texto": "andá",
+     "inicio": 40.92,
+     "fin": 41.18
+    },
+    {
+     "texto": "al",
+     "inicio": 41.18,
+     "fin": 41.26
+    },
+    {
+     "texto": "médico.",
+     "inicio": 41.26,
+     "fin": 41.52
+    }
+   ],
+   "inicio": 37.1,
+   "fin": 41.52
+  },
+  {
+   "texto": "¿Vos te crujís los dedos? Contestá sí o no.",
+   "palabras": [
+    {
+     "texto": "¿Vos",
+     "inicio": 42.2,
+     "fin": 42.32
+    },
+    {
+     "texto": "te",
+     "inicio": 42.32,
+     "fin": 42.44
+    },
+    {
+     "texto": "crujís",
+     "inicio": 42.44,
+     "fin": 42.72
+    },
+    {
+     "texto": "los",
+     "inicio": 42.72,
+     "fin": 42.84
+    },
+    {
+     "texto": "dedos?",
+     "inicio": 42.84,
+     "fin": 43.18
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 43.5,
+     "fin": 43.92
+    },
+    {
+     "texto": "sí",
+     "inicio": 43.92,
+     "fin": 44.06
+    },
+    {
+     "texto": "o",
+     "inicio": 44.06,
+     "fin": 44.18
+    },
+    {
+     "texto": "no.",
+     "inicio": 44.18,
+     "fin": 44.3
+    }
+   ],
+   "inicio": 42.2,
+   "fin": 44.3
+  },
+  {
+   "texto": "Mandáselo al que te dice que te vas a arruinar las manos.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 44.96,
+     "fin": 45.46
+    },
+    {
+     "texto": "al",
+     "inicio": 45.46,
+     "fin": 45.52
+    },
+    {
+     "texto": "que",
+     "inicio": 45.52,
+     "fin": 45.68
+    },
+    {
+     "texto": "te",
+     "inicio": 45.68,
+     "fin": 45.8
+    },
+    {
+     "texto": "dice",
+     "inicio": 45.8,
+     "fin": 46.0
+    },
+    {
+     "texto": "que",
+     "inicio": 46.0,
+     "fin": 46.14
+    },
+    {
+     "texto": "te",
+     "inicio": 46.14,
+     "fin": 46.26
+    },
+    {
+     "texto": "vas",
+     "inicio": 46.26,
+     "fin": 46.38
+    },
+    {
+     "texto": "a",
+     "inicio": 46.38,
+     "fin": 46.5
+    },
+    {
+     "texto": "arruinar",
+     "inicio": 46.5,
+     "fin": 46.78
+    },
+    {
+     "texto": "las",
+     "inicio": 46.78,
+     "fin": 46.94
+    },
+    {
+     "texto": "manos.",
+     "inicio": 46.94,
+     "fin": 47.18
+    }
+   ],
+   "inicio": 44.96,
+   "fin": 47.18
+  }
+ ]
+}

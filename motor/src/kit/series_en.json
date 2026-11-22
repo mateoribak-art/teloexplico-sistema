@@ -148,6 +148,10 @@
     "en-037-swallowed-gum": [
       "cuerpo",
       5
+    ],
+    "en-038-lake-effect-snow": [
+      "clima",
+      7
     ]
   }
 }

@@ -1,0 +1,9 @@
+2026-11-22 08:49 Arranca la producción (10 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Resumen:
+- **Listo para render:** `064-nudillos-artritis` (¿crujirse los dedos da artritis?, serie cuerpo). El chequeo lo rechazó la primera vez y lo aprobó la segunda, después de corregir el guion y el caption. La voz dura 47 s, algo más del tope. Las escenas 3D están hechas y `tlx tsc` salió sin errores. El render lo hace `producir.py` al terminar el turno.
+- **Rescates:** no hubo. Los apartados 038, 042, 044 y 051 no los apartó el chequeo (el log los marca por falta de mp4 o actualidad vencida), y 005 se apartó por otro motivo.
+- **Segundo video:** no lo produje porque la cola tenía 10 listos (hacen falta menos de 10). No hubo problema con la cuota de Gemini.
+Uso: 14 pasos · 12,701 tokens nuevos · 763,233 de caché · 5,678 escritos · equivale a US$ 0.98 de API
+2026-11-22 08:54 Render de 064-nudillos-artritis (sin Claude).
+2026-11-22 09:03 064-nudillos-artritis: listo (render sin Claude)
+2026-11-22 09:03 Termina la producción (ok).

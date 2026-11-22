@@ -2382,5 +2382,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "064-nudillos-artritis",
+  "tema": "¿Crujirse los nudillos da artritis? Harvard Health, DeWeber 2011",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-22T08:50",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-22T08:50",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-22T08:54",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-22T09:03",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]
