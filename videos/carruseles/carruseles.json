@@ -292,7 +292,7 @@
  },
  {
   "clave": "arroz-recalentado",
-  "estado": "listo",
+  "estado": "publicado",
   "origen": [
    "034-arroz-recalentado"
   ],
@@ -316,6 +316,11 @@
     "estado": "listo",
     "cuando": "2026-11-21T00:16",
     "motivo": "control OK"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-22T20:57",
+    "motivo": "https://www.instagram.com/p/DgECXQaDTSm/"
    }
   ]
  },
