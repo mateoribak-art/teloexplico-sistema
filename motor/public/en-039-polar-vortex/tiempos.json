@@ -1,0 +1,653 @@
+{
+ "duracion": 36.99,
+ "frases": [
+  {
+   "texto": "The \"polar vortex\" on the news isn't a storm coming for your town.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "\"polar",
+     "inicio": 0.14,
+     "fin": 0.52
+    },
+    {
+     "texto": "vortex\"",
+     "inicio": 0.52,
+     "fin": 0.9
+    },
+    {
+     "texto": "on",
+     "inicio": 0.9,
+     "fin": 1.18
+    },
+    {
+     "texto": "the",
+     "inicio": 1.18,
+     "fin": 1.28
+    },
+    {
+     "texto": "news",
+     "inicio": 1.28,
+     "fin": 1.5
+    },
+    {
+     "texto": "isn't",
+     "inicio": 1.5,
+     "fin": 1.94
+    },
+    {
+     "texto": "a",
+     "inicio": 1.94,
+     "fin": 2.06
+    },
+    {
+     "texto": "storm",
+     "inicio": 2.06,
+     "fin": 2.4
+    },
+    {
+     "texto": "coming",
+     "inicio": 2.4,
+     "fin": 2.72
+    },
+    {
+     "texto": "for",
+     "inicio": 2.72,
+     "fin": 2.9
+    },
+    {
+     "texto": "your",
+     "inicio": 2.9,
+     "fin": 3.02
+    },
+    {
+     "texto": "town.",
+     "inicio": 3.02,
+     "fin": 3.32
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.32
+  },
+  {
+   "texto": "It's a huge area of cold air circling each pole, all year.",
+   "palabras": [
+    {
+     "texto": "It's",
+     "inicio": 3.84,
+     "fin": 4.06
+    },
+    {
+     "texto": "a",
+     "inicio": 4.06,
+     "fin": 4.16
+    },
+    {
+     "texto": "huge",
+     "inicio": 4.16,
+     "fin": 4.42
+    },
+    {
+     "texto": "area",
+     "inicio": 4.42,
+     "fin": 4.78
+    },
+    {
+     "texto": "of",
+     "inicio": 4.78,
+     "fin": 5.0
+    },
+    {
+     "texto": "cold",
+     "inicio": 5.0,
+     "fin": 5.28
+    },
+    {
+     "texto": "air",
+     "inicio": 5.28,
+     "fin": 5.56
+    },
+    {
+     "texto": "circling",
+     "inicio": 5.56,
+     "fin": 6.1
+    },
+    {
+     "texto": "each",
+     "inicio": 6.1,
+     "fin": 6.34
+    },
+    {
+     "texto": "pole,",
+     "inicio": 6.34,
+     "fin": 6.64
+    },
+    {
+     "texto": "all",
+     "inicio": 6.8,
+     "fin": 6.94
+    },
+    {
+     "texto": "year.",
+     "inicio": 6.94,
+     "fin": 7.22
+    }
+   ],
+   "inicio": 3.84,
+   "fin": 7.22
+  },
+  {
+   "texto": "In winter it strengthens, and it helps keep the coldest air up north.",
+   "palabras": [
+    {
+     "texto": "In",
+     "inicio": 7.74,
+     "fin": 7.92
+    },
+    {
+     "texto": "winter",
+     "inicio": 7.92,
+     "fin": 8.16
+    },
+    {
+     "texto": "it",
+     "inicio": 8.16,
+     "fin": 8.4
+    },
+    {
+     "texto": "strengthens,",
+     "inicio": 8.4,
+     "fin": 8.96
+    },
+    {
+     "texto": "and",
+     "inicio": 9.28,
+     "fin": 9.44
+    },
+    {
+     "texto": "it",
+     "inicio": 9.44,
+     "fin": 9.56
+    },
+    {
+     "texto": "helps",
+     "inicio": 9.56,
+     "fin": 9.88
+    },
+    {
+     "texto": "keep",
+     "inicio": 9.88,
+     "fin": 10.06
+    },
+    {
+     "texto": "the",
+     "inicio": 10.06,
+     "fin": 10.2
+    },
+    {
+     "texto": "coldest",
+     "inicio": 10.2,
+     "fin": 10.62
+    },
+    {
+     "texto": "air",
+     "inicio": 10.62,
+     "fin": 10.84
+    },
+    {
+     "texto": "up",
+     "inicio": 10.84,
+     "fin": 11.0
+    },
+    {
+     "texto": "north.",
+     "inicio": 11.0,
+     "fin": 11.2
+    }
+   ],
+   "inicio": 7.74,
+   "fin": 11.2
+  },
+  {
+   "texto": "When it expands, cold air can get sent south on the jet stream.",
+   "palabras": [
+    {
+     "texto": "When",
+     "inicio": 11.82,
+     "fin": 11.96
+    },
+    {
+     "texto": "it",
+     "inicio": 11.96,
+     "fin": 12.08
+    },
+    {
+     "texto": "expands,",
+     "inicio": 12.08,
+     "fin": 12.42
+    },
+    {
+     "texto": "cold",
+     "inicio": 13.0,
+     "fin": 13.2
+    },
+    {
+     "texto": "air",
+     "inicio": 13.2,
+     "fin": 13.4
+    },
+    {
+     "texto": "can",
+     "inicio": 13.4,
+     "fin": 13.56
+    },
+    {
+     "texto": "get",
+     "inicio": 13.56,
+     "fin": 13.7
+    },
+    {
+     "texto": "sent",
+     "inicio": 13.7,
+     "fin": 13.92
+    },
+    {
+     "texto": "south",
+     "inicio": 13.92,
+     "fin": 14.28
+    },
+    {
+     "texto": "on",
+     "inicio": 14.28,
+     "fin": 14.44
+    },
+    {
+     "texto": "the",
+     "inicio": 14.44,
+     "fin": 14.54
+    },
+    {
+     "texto": "jet",
+     "inicio": 14.54,
+     "fin": 14.72
+    },
+    {
+     "texto": "stream.",
+     "inicio": 14.72,
+     "fin": 15.0
+    }
+   ],
+   "inicio": 11.82,
+   "fin": 15.0
+  },
+  {
+   "texto": "The National Weather Service says that's often tied to Arctic air outbreaks in the U.S.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 15.6,
+     "fin": 15.72
+    },
+    {
+     "texto": "National",
+     "inicio": 15.72,
+     "fin": 15.98
+    },
+    {
+     "texto": "Weather",
+     "inicio": 15.98,
+     "fin": 16.2
+    },
+    {
+     "texto": "Service",
+     "inicio": 16.2,
+     "fin": 16.54
+    },
+    {
+     "texto": "says",
+     "inicio": 16.54,
+     "fin": 16.84
+    },
+    {
+     "texto": "that's",
+     "inicio": 16.84,
+     "fin": 17.28
+    },
+    {
+     "texto": "often",
+     "inicio": 17.28,
+     "fin": 17.44
+    },
+    {
+     "texto": "tied",
+     "inicio": 17.44,
+     "fin": 17.74
+    },
+    {
+     "texto": "to",
+     "inicio": 17.74,
+     "fin": 17.84
+    },
+    {
+     "texto": "Arctic",
+     "inicio": 17.84,
+     "fin": 18.14
+    },
+    {
+     "texto": "air",
+     "inicio": 18.14,
+     "fin": 18.42
+    },
+    {
+     "texto": "outbreaks",
+     "inicio": 18.42,
+     "fin": 18.8
+    },
+    {
+     "texto": "in",
+     "inicio": 18.8,
+     "fin": 18.98
+    },
+    {
+     "texto": "the",
+     "inicio": 18.98,
+     "fin": 19.06
+    },
+    {
+     "texto": "U.S.",
+     "inicio": 19.06,
+     "fin": 19.46
+    }
+   ],
+   "inicio": 15.6,
+   "fin": 19.46
+  },
+  {
+   "texto": "Heads up: it's nothing new, and the real danger is just how cold it gets.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 20.04,
+     "fin": 20.28
+    },
+    {
+     "texto": "up:",
+     "inicio": 20.28,
+     "fin": 20.42
+    },
+    {
+     "texto": "it's",
+     "inicio": 20.88,
+     "fin": 21.1
+    },
+    {
+     "texto": "nothing",
+     "inicio": 21.1,
+     "fin": 21.46
+    },
+    {
+     "texto": "new,",
+     "inicio": 21.46,
+     "fin": 21.76
+    },
+    {
+     "texto": "and",
+     "inicio": 22.16,
+     "fin": 22.36
+    },
+    {
+     "texto": "the",
+     "inicio": 22.36,
+     "fin": 22.46
+    },
+    {
+     "texto": "real",
+     "inicio": 22.46,
+     "fin": 22.7
+    },
+    {
+     "texto": "danger",
+     "inicio": 22.7,
+     "fin": 22.98
+    },
+    {
+     "texto": "is",
+     "inicio": 22.98,
+     "fin": 23.24
+    },
+    {
+     "texto": "just",
+     "inicio": 23.24,
+     "fin": 23.44
+    },
+    {
+     "texto": "how",
+     "inicio": 23.44,
+     "fin": 23.56
+    },
+    {
+     "texto": "cold",
+     "inicio": 23.56,
+     "fin": 24.04
+    },
+    {
+     "texto": "it",
+     "inicio": 24.04,
+     "fin": 24.18
+    },
+    {
+     "texto": "gets.",
+     "inicio": 24.18,
+     "fin": 24.42
+    }
+   ],
+   "inicio": 20.04,
+   "fin": 24.42
+  },
+  {
+   "texto": "Check your forecast at weather.gov, and check your car's emergency kit each winter.",
+   "palabras": [
+    {
+     "texto": "Check",
+     "inicio": 24.96,
+     "fin": 25.14
+    },
+    {
+     "texto": "your",
+     "inicio": 25.14,
+     "fin": 25.3
+    },
+    {
+     "texto": "forecast",
+     "inicio": 25.3,
+     "fin": 25.7
+    },
+    {
+     "texto": "at",
+     "inicio": 25.7,
+     "fin": 25.96
+    },
+    {
+     "texto": "weather.gov,",
+     "inicio": 25.96,
+     "fin": 26.66
+    },
+    {
+     "texto": "and",
+     "inicio": 26.78,
+     "fin": 27.26
+    },
+    {
+     "texto": "check",
+     "inicio": 27.26,
+     "fin": 27.56
+    },
+    {
+     "texto": "your",
+     "inicio": 27.56,
+     "fin": 27.72
+    },
+    {
+     "texto": "car's",
+     "inicio": 27.72,
+     "fin": 28.0
+    },
+    {
+     "texto": "emergency",
+     "inicio": 28.0,
+     "fin": 28.34
+    },
+    {
+     "texto": "kit",
+     "inicio": 28.34,
+     "fin": 28.74
+    },
+    {
+     "texto": "each",
+     "inicio": 28.74,
+     "fin": 28.94
+    },
+    {
+     "texto": "winter.",
+     "inicio": 28.94,
+     "fin": 29.16
+    }
+   ],
+   "inicio": 24.96,
+   "fin": 29.16
+  },
+  {
+   "texto": "So what's the coldest it's ever gotten where you live?",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 29.16,
+     "fin": 29.8
+    },
+    {
+     "texto": "what's",
+     "inicio": 29.8,
+     "fin": 30.38
+    },
+    {
+     "texto": "the",
+     "inicio": 30.38,
+     "fin": 30.48
+    },
+    {
+     "texto": "coldest",
+     "inicio": 30.48,
+     "fin": 30.96
+    },
+    {
+     "texto": "it's",
+     "inicio": 30.96,
+     "fin": 31.18
+    },
+    {
+     "texto": "ever",
+     "inicio": 31.18,
+     "fin": 31.34
+    },
+    {
+     "texto": "gotten",
+     "inicio": 31.34,
+     "fin": 31.66
+    },
+    {
+     "texto": "where",
+     "inicio": 31.66,
+     "fin": 31.94
+    },
+    {
+     "texto": "you",
+     "inicio": 31.94,
+     "fin": 32.28
+    },
+    {
+     "texto": "live?",
+     "inicio": 32.28,
+     "fin": 32.66
+    }
+   ],
+   "inicio": 29.16,
+   "fin": 32.66
+  },
+  {
+   "texto": "Send this to the friend who says \"polar vortex\" when it's just chilly.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 33.16,
+     "fin": 33.38
+    },
+    {
+     "texto": "this",
+     "inicio": 33.38,
+     "fin": 33.62
+    },
+    {
+     "texto": "to",
+     "inicio": 33.62,
+     "fin": 33.8
+    },
+    {
+     "texto": "the",
+     "inicio": 33.8,
+     "fin": 33.92
+    },
+    {
+     "texto": "friend",
+     "inicio": 33.92,
+     "fin": 34.14
+    },
+    {
+     "texto": "who",
+     "inicio": 34.14,
+     "fin": 34.34
+    },
+    {
+     "texto": "says",
+     "inicio": 34.34,
+     "fin": 34.58
+    },
+    {
+     "texto": "\"polar",
+     "inicio": 34.58,
+     "fin": 35.36
+    },
+    {
+     "texto": "vortex\"",
+     "inicio": 35.36,
+     "fin": 35.82
+    },
+    {
+     "texto": "when",
+     "inicio": 35.82,
+     "fin": 36.1
+    },
+    {
+     "texto": "it's",
+     "inicio": 36.1,
+     "fin": 36.32
+    },
+    {
+     "texto": "just",
+     "inicio": 36.32,
+     "fin": 36.5
+    },
+    {
+     "texto": "chilly.",
+     "inicio": 36.5,
+     "fin": 36.82
+    }
+   ],
+   "inicio": 33.16,
+   "fin": 36.82
+  }
+ ]
+}

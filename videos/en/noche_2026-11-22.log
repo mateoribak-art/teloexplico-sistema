@@ -9,3 +9,11 @@ Permisos negados (1):
 2026-11-22 09:07 Render de en-038-lake-effect-snow (sin Claude).
 2026-11-22 09:37 en-038-lake-effect-snow: listo (render sin Claude)
 2026-11-22 09:37 Termina la producción (ok).
+2026-11-22 14:41 Arranca la producción (10 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `en-039-polar-vortex` (serie clima #8, 37 s). El chequeo lo aprobó al primer intento, con todo verificado contra el NWS. La voz salió bien (117 de 119 palabras), `tsc` pasa y revisé los cuadros en 2 vueltas. Queda en estado `render`; todavía no se renderizó, de eso se encarga `producir.py`.
+- **Apartados:** ninguno por chequeo rechazado, así que no hubo nada que rescatar. Los que figuran apartados fallaron por voz o render, o ya tuvieron sus 2 intentos.
+- **Descartado:** la idea de las luces prendidas o apagadas, porque no pude leer la fuente primaria del DOE y es un tema de plata. Quedó marcada en `ideas.md`.
+Uso: 24 pasos · 17,803 tokens nuevos · 1,087,152 de caché · 5,317 escritos · equivale a US$ 0.93 de API
+2026-11-22 14:46 Render de en-039-polar-vortex (sin Claude).
+2026-11-22 15:07 en-039-polar-vortex: listo (render sin Claude)
+2026-11-22 15:07 Termina la producción (ok).

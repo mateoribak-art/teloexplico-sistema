@@ -44,14 +44,15 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [usada → en-036-phantom-charger] Do chargers left plugged in waste electricity? (phantom load, DOE; plata: solo verificado)
 - [usada → en-010-thermostat-night] Does turning the thermostat down at night save money? (DOE: up to ~10 % a year with 7–10 °F for 8 h; plata: solo verificado)
 - [usada → en-009-ceiling-fan] Which way should your ceiling fan spin in winter? (DOE)
-- [ ] Does leaving the lights on use less power than switching them on and off? (DOE)
+- [descartada 22/11: página del DOE (energy.gov "when to turn off your lights") no legible, plata solo verificado] Does leaving the lights on use less power than switching them on and off? (DOE)
 
 ## Temas de EE. UU. — serie: clima (Weather explained)
 - [usada → en-002-dst-farmers] Why do we "fall back"? What Daylight Saving Time actually does (cambio de hora: domingo 1/11/2026; NIST/DOT) — actualidad, antes del 1/11
 - [usada → en-016-too-cold-snow] Can it be too cold to snow? (NWS)
 - [usada → en-038-lake-effect-snow] What is lake-effect snow? (NWS) — invierno
 - [ ] Why do leaves change color in fall? (USDA Forest Service)
-- [ ] Why is the first frost a thing? / What's a "polar vortex"? (NOAA) — invierno
+- [usada → en-039-polar-vortex] What's a "polar vortex"? (NWS) — invierno
+- [ ] Why is the first frost a thing? (NOAA) — invierno
 
 ## Temas de EE. UU. — serie: cuerpo (Body myths)
 - [usada → en-019-knuckle-crack] Does cracking your knuckles cause arthritis? (estudios)

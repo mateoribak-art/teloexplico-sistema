@@ -7,3 +7,11 @@ Uso: 14 pasos · 12,701 tokens nuevos · 763,233 de caché · 5,678 escritos · 
 2026-11-22 08:54 Render de 064-nudillos-artritis (sin Claude).
 2026-11-22 09:03 064-nudillos-artritis: listo (render sin Claude)
 2026-11-22 09:03 Termina la producción (ok).
+2026-11-22 14:17 Arranca la producción (10 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `065-voseo-vos-o-tu`, serie costumbres #8, con la pregunta "¿Vos o tú?" como interacción de comentario. El chequeo lo rechazó en el primer intento, porque "lo usa todo el mundo" iba más allá de lo que dice la RAE. Lo aprobó en el segundo, con la RAE como fuente, pero rae.es dio 403 y las citas salen de extractos de búsqueda. La voz dura 48 s (144 de 145 palabras oídas), algo sobre el tope. No renderizé el video: `producir.py` lo hace en el turno de render.
+- **Rescates:** no había ninguno posible. Los apartados 005, 038, 042, 044 y 051 no están ahí por chequeo rechazado.
+- **Segundo video no producido:** la cola ya tenía 10 listos, así que no se cumplía "menos de 10". No salté el radar por falta de tema: no lo revisé en esta corrida. La cuota de Gemini no se agotó.
+Uso: 11 pasos · 8,216 tokens nuevos · 757,833 de caché · 1,907 escritos · equivale a US$ 1.09 de API
+2026-11-22 14:22 Render de 065-voseo-vos-o-tu (sin Claude).
+2026-11-22 14:41 065-voseo-vos-o-tu: listo (render sin Claude)
+2026-11-22 14:41 Termina la producción (ok).

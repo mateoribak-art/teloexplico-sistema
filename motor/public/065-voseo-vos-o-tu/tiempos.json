@@ -1,0 +1,800 @@
+{
+ "duracion": 47.95,
+ "frases": [
+  {
+   "texto": "Decís vos todos los días, y alguna vez te corrigieron con el tú.",
+   "palabras": [
+    {
+     "texto": "Decís",
+     "inicio": 0.0,
+     "fin": 0.38
+    },
+    {
+     "texto": "vos",
+     "inicio": 0.38,
+     "fin": 0.52
+    },
+    {
+     "texto": "todos",
+     "inicio": 0.52,
+     "fin": 0.78
+    },
+    {
+     "texto": "los",
+     "inicio": 0.78,
+     "fin": 0.98
+    },
+    {
+     "texto": "días,",
+     "inicio": 0.98,
+     "fin": 1.26
+    },
+    {
+     "texto": "y",
+     "inicio": 1.88,
+     "fin": 2.06
+    },
+    {
+     "texto": "alguna",
+     "inicio": 2.06,
+     "fin": 2.26
+    },
+    {
+     "texto": "vez",
+     "inicio": 2.26,
+     "fin": 2.48
+    },
+    {
+     "texto": "te",
+     "inicio": 2.48,
+     "fin": 2.58
+    },
+    {
+     "texto": "corrigieron",
+     "inicio": 2.58,
+     "fin": 3.04
+    },
+    {
+     "texto": "con",
+     "inicio": 3.04,
+     "fin": 3.26
+    },
+    {
+     "texto": "el",
+     "inicio": 3.26,
+     "fin": 3.4
+    },
+    {
+     "texto": "tú.",
+     "inicio": 3.4,
+     "fin": 3.66
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.66
+  },
+  {
+   "texto": "Pero el vos no es un error: viene del español antiguo.",
+   "palabras": [
+    {
+     "texto": "Pero",
+     "inicio": 4.12,
+     "fin": 4.28
+    },
+    {
+     "texto": "el",
+     "inicio": 4.28,
+     "fin": 4.4
+    },
+    {
+     "texto": "vos",
+     "inicio": 4.4,
+     "fin": 4.54
+    },
+    {
+     "texto": "no",
+     "inicio": 4.54,
+     "fin": 4.8
+    },
+    {
+     "texto": "es",
+     "inicio": 4.8,
+     "fin": 4.96
+    },
+    {
+     "texto": "un",
+     "inicio": 4.96,
+     "fin": 5.08
+    },
+    {
+     "texto": "error:",
+     "inicio": 5.08,
+     "fin": 5.28
+    },
+    {
+     "texto": "viene",
+     "inicio": 5.82,
+     "fin": 6.08
+    },
+    {
+     "texto": "del",
+     "inicio": 6.08,
+     "fin": 6.26
+    },
+    {
+     "texto": "español",
+     "inicio": 6.26,
+     "fin": 6.52
+    },
+    {
+     "texto": "antiguo.",
+     "inicio": 6.52,
+     "fin": 7.1
+    }
+   ],
+   "inicio": 4.12,
+   "fin": 7.1
+  },
+  {
+   "texto": "En el español antiguo, el vos se usaba para tratar con respeto a una persona.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 7.54,
+     "fin": 7.68
+    },
+    {
+     "texto": "el",
+     "inicio": 7.68,
+     "fin": 7.76
+    },
+    {
+     "texto": "español",
+     "inicio": 7.76,
+     "fin": 8.0
+    },
+    {
+     "texto": "antiguo,",
+     "inicio": 8.0,
+     "fin": 8.66
+    },
+    {
+     "texto": "el",
+     "inicio": 8.8,
+     "fin": 8.9
+    },
+    {
+     "texto": "vos",
+     "inicio": 8.9,
+     "fin": 9.08
+    },
+    {
+     "texto": "se",
+     "inicio": 9.08,
+     "fin": 9.42
+    },
+    {
+     "texto": "usaba",
+     "inicio": 9.42,
+     "fin": 9.7
+    },
+    {
+     "texto": "para",
+     "inicio": 9.7,
+     "fin": 9.9
+    },
+    {
+     "texto": "tratar",
+     "inicio": 9.9,
+     "fin": 10.26
+    },
+    {
+     "texto": "con",
+     "inicio": 10.26,
+     "fin": 10.38
+    },
+    {
+     "texto": "respeto",
+     "inicio": 10.38,
+     "fin": 10.92
+    },
+    {
+     "texto": "a",
+     "inicio": 10.92,
+     "fin": 11.06
+    },
+    {
+     "texto": "una",
+     "inicio": 11.06,
+     "fin": 11.16
+    },
+    {
+     "texto": "persona.",
+     "inicio": 11.16,
+     "fin": 11.6
+    }
+   ],
+   "inicio": 7.54,
+   "fin": 11.6
+  },
+  {
+   "texto": "Según la Real Academia Española, en España el voseo casi desapareció entre los siglos diecisiete y principios del dieciocho.",
+   "palabras": [
+    {
+     "texto": "Según",
+     "inicio": 12.14,
+     "fin": 12.4
+    },
+    {
+     "texto": "la",
+     "inicio": 12.4,
+     "fin": 12.52
+    },
+    {
+     "texto": "Real",
+     "inicio": 12.52,
+     "fin": 12.7
+    },
+    {
+     "texto": "Academia",
+     "inicio": 12.7,
+     "fin": 13.1
+    },
+    {
+     "texto": "Española,",
+     "inicio": 13.1,
+     "fin": 13.62
+    },
+    {
+     "texto": "en",
+     "inicio": 13.96,
+     "fin": 14.02
+    },
+    {
+     "texto": "España",
+     "inicio": 14.02,
+     "fin": 14.32
+    },
+    {
+     "texto": "el",
+     "inicio": 14.32,
+     "fin": 14.56
+    },
+    {
+     "texto": "voseo",
+     "inicio": 14.56,
+     "fin": 14.92
+    },
+    {
+     "texto": "casi",
+     "inicio": 14.92,
+     "fin": 15.18
+    },
+    {
+     "texto": "desapareció",
+     "inicio": 15.18,
+     "fin": 15.86
+    },
+    {
+     "texto": "entre",
+     "inicio": 15.86,
+     "fin": 16.06
+    },
+    {
+     "texto": "los",
+     "inicio": 16.06,
+     "fin": 16.22
+    },
+    {
+     "texto": "siglos",
+     "inicio": 16.22,
+     "fin": 16.46
+    },
+    {
+     "texto": "diecisiete",
+     "inicio": 16.46,
+     "fin": 17.12
+    },
+    {
+     "texto": "y",
+     "inicio": 17.12,
+     "fin": 17.28
+    },
+    {
+     "texto": "principios",
+     "inicio": 17.28,
+     "fin": 17.74
+    },
+    {
+     "texto": "del",
+     "inicio": 17.74,
+     "fin": 17.92
+    },
+    {
+     "texto": "dieciocho.",
+     "inicio": 17.92,
+     "fin": 18.48
+    }
+   ],
+   "inicio": 12.14,
+   "fin": 18.48
+  },
+  {
+   "texto": "Pero en América quedó en varias zonas, y en Argentina, Uruguay y Paraguay se usa en todas las clases sociales.",
+   "palabras": [
+    {
+     "texto": "Pero",
+     "inicio": 18.86,
+     "fin": 19.12
+    },
+    {
+     "texto": "en",
+     "inicio": 19.12,
+     "fin": 19.22
+    },
+    {
+     "texto": "América",
+     "inicio": 19.22,
+     "fin": 19.56
+    },
+    {
+     "texto": "quedó",
+     "inicio": 19.56,
+     "fin": 19.92
+    },
+    {
+     "texto": "en",
+     "inicio": 19.92,
+     "fin": 20.02
+    },
+    {
+     "texto": "varias",
+     "inicio": 20.02,
+     "fin": 20.24
+    },
+    {
+     "texto": "zonas,",
+     "inicio": 20.24,
+     "fin": 20.66
+    },
+    {
+     "texto": "y",
+     "inicio": 21.0,
+     "fin": 21.14
+    },
+    {
+     "texto": "en",
+     "inicio": 21.14,
+     "fin": 21.24
+    },
+    {
+     "texto": "Argentina,",
+     "inicio": 21.24,
+     "fin": 21.6
+    },
+    {
+     "texto": "Uruguay",
+     "inicio": 21.92,
+     "fin": 22.34
+    },
+    {
+     "texto": "y",
+     "inicio": 22.34,
+     "fin": 22.5
+    },
+    {
+     "texto": "Paraguay",
+     "inicio": 22.5,
+     "fin": 22.92
+    },
+    {
+     "texto": "se",
+     "inicio": 22.92,
+     "fin": 23.2
+    },
+    {
+     "texto": "usa",
+     "inicio": 23.2,
+     "fin": 23.332
+    },
+    {
+     "texto": "en",
+     "inicio": 23.332,
+     "fin": 23.42
+    },
+    {
+     "texto": "todas",
+     "inicio": 23.42,
+     "fin": 23.72
+    },
+    {
+     "texto": "las",
+     "inicio": 23.72,
+     "fin": 23.94
+    },
+    {
+     "texto": "clases",
+     "inicio": 23.94,
+     "fin": 24.18
+    },
+    {
+     "texto": "sociales.",
+     "inicio": 24.18,
+     "fin": 24.58
+    }
+   ],
+   "inicio": 18.86,
+   "fin": 24.58
+  },
+  {
+   "texto": "La Academia dice que ahí se acepta sin reserva, sin importar la clase social.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 25.16,
+     "fin": 25.38
+    },
+    {
+     "texto": "Academia",
+     "inicio": 25.38,
+     "fin": 25.82
+    },
+    {
+     "texto": "dice",
+     "inicio": 25.82,
+     "fin": 26.12
+    },
+    {
+     "texto": "que",
+     "inicio": 26.12,
+     "fin": 26.32
+    },
+    {
+     "texto": "ahí",
+     "inicio": 26.32,
+     "fin": 26.52
+    },
+    {
+     "texto": "se",
+     "inicio": 26.52,
+     "fin": 26.68
+    },
+    {
+     "texto": "acepta",
+     "inicio": 26.68,
+     "fin": 27.1
+    },
+    {
+     "texto": "sin",
+     "inicio": 27.1,
+     "fin": 27.32
+    },
+    {
+     "texto": "reserva,",
+     "inicio": 27.32,
+     "fin": 28.14
+    },
+    {
+     "texto": "sin",
+     "inicio": 28.26,
+     "fin": 28.5
+    },
+    {
+     "texto": "importar",
+     "inicio": 28.5,
+     "fin": 28.98
+    },
+    {
+     "texto": "la",
+     "inicio": 28.98,
+     "fin": 29.06
+    },
+    {
+     "texto": "clase",
+     "inicio": 29.06,
+     "fin": 29.34
+    },
+    {
+     "texto": "social.",
+     "inicio": 29.34,
+     "fin": 29.7
+    }
+   ],
+   "inicio": 25.16,
+   "fin": 29.7
+  },
+  {
+   "texto": "Ojo: no es lo mismo en todos lados. En muchos países conviven el vos, el tú y el usted.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 30.28,
+     "fin": 30.56
+    },
+    {
+     "texto": "no",
+     "inicio": 30.84,
+     "fin": 31.0
+    },
+    {
+     "texto": "es",
+     "inicio": 31.0,
+     "fin": 31.12
+    },
+    {
+     "texto": "lo",
+     "inicio": 31.12,
+     "fin": 31.22
+    },
+    {
+     "texto": "mismo",
+     "inicio": 31.22,
+     "fin": 31.42
+    },
+    {
+     "texto": "en",
+     "inicio": 31.42,
+     "fin": 31.56
+    },
+    {
+     "texto": "todos",
+     "inicio": 31.56,
+     "fin": 31.7
+    },
+    {
+     "texto": "lados.",
+     "inicio": 31.7,
+     "fin": 32.06
+    },
+    {
+     "texto": "En",
+     "inicio": 32.64,
+     "fin": 32.78
+    },
+    {
+     "texto": "muchos",
+     "inicio": 32.78,
+     "fin": 32.98
+    },
+    {
+     "texto": "países",
+     "inicio": 32.98,
+     "fin": 33.42
+    },
+    {
+     "texto": "conviven",
+     "inicio": 33.42,
+     "fin": 33.9
+    },
+    {
+     "texto": "el",
+     "inicio": 33.9,
+     "fin": 34.1
+    },
+    {
+     "texto": "vos,",
+     "inicio": 34.1,
+     "fin": 34.3
+    },
+    {
+     "texto": "el",
+     "inicio": 34.76,
+     "fin": 34.86
+    },
+    {
+     "texto": "tú",
+     "inicio": 34.86,
+     "fin": 35.18
+    },
+    {
+     "texto": "y",
+     "inicio": 35.18,
+     "fin": 35.64
+    },
+    {
+     "texto": "el",
+     "inicio": 35.64,
+     "fin": 35.74
+    },
+    {
+     "texto": "usted.",
+     "inicio": 35.74,
+     "fin": 35.98
+    }
+   ],
+   "inicio": 30.28,
+   "fin": 35.98
+  },
+  {
+   "texto": "Así que la próxima vez que te digan que se dice tú, ya sabés qué contestar.",
+   "palabras": [
+    {
+     "texto": "Así",
+     "inicio": 36.7,
+     "fin": 36.94
+    },
+    {
+     "texto": "que",
+     "inicio": 36.94,
+     "fin": 37.16
+    },
+    {
+     "texto": "la",
+     "inicio": 37.16,
+     "fin": 37.48
+    },
+    {
+     "texto": "próxima",
+     "inicio": 37.48,
+     "fin": 37.78
+    },
+    {
+     "texto": "vez",
+     "inicio": 37.78,
+     "fin": 38.12
+    },
+    {
+     "texto": "que",
+     "inicio": 38.12,
+     "fin": 38.26
+    },
+    {
+     "texto": "te",
+     "inicio": 38.26,
+     "fin": 38.4
+    },
+    {
+     "texto": "digan",
+     "inicio": 38.4,
+     "fin": 38.72
+    },
+    {
+     "texto": "que",
+     "inicio": 38.72,
+     "fin": 38.84
+    },
+    {
+     "texto": "se",
+     "inicio": 38.84,
+     "fin": 39.0
+    },
+    {
+     "texto": "dice",
+     "inicio": 39.0,
+     "fin": 39.24
+    },
+    {
+     "texto": "tú,",
+     "inicio": 39.24,
+     "fin": 39.58
+    },
+    {
+     "texto": "ya",
+     "inicio": 40.08,
+     "fin": 40.16
+    },
+    {
+     "texto": "sabés",
+     "inicio": 40.16,
+     "fin": 40.44
+    },
+    {
+     "texto": "qué",
+     "inicio": 40.44,
+     "fin": 40.52
+    },
+    {
+     "texto": "contestar.",
+     "inicio": 40.52,
+     "fin": 41.04
+    }
+   ],
+   "inicio": 36.7,
+   "fin": 41.04
+  },
+  {
+   "texto": "Y vos, ¿decís vos o tú? Contestá con una palabra.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 42.1,
+     "fin": 42.18
+    },
+    {
+     "texto": "vos,",
+     "inicio": 42.18,
+     "fin": 42.4
+    },
+    {
+     "texto": "¿decís",
+     "inicio": 42.84,
+     "fin": 43.24
+    },
+    {
+     "texto": "vos",
+     "inicio": 43.24,
+     "fin": 43.5
+    },
+    {
+     "texto": "o",
+     "inicio": 43.5,
+     "fin": 44.04
+    },
+    {
+     "texto": "tú?",
+     "inicio": 44.04,
+     "fin": 44.22
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 44.76,
+     "fin": 45.14
+    },
+    {
+     "texto": "con",
+     "inicio": 45.14,
+     "fin": 45.26
+    },
+    {
+     "texto": "una",
+     "inicio": 45.26,
+     "fin": 45.4
+    },
+    {
+     "texto": "palabra.",
+     "inicio": 45.4,
+     "fin": 45.74
+    }
+   ],
+   "inicio": 42.1,
+   "fin": 45.74
+  },
+  {
+   "texto": "Mandáselo al que te corrige con el tú.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 46.32,
+     "fin": 46.8
+    },
+    {
+     "texto": "al",
+     "inicio": 46.8,
+     "fin": 46.86
+    },
+    {
+     "texto": "que",
+     "inicio": 46.86,
+     "fin": 46.98
+    },
+    {
+     "texto": "te",
+     "inicio": 46.98,
+     "fin": 47.1
+    },
+    {
+     "texto": "corrige",
+     "inicio": 47.1,
+     "fin": 47.44
+    },
+    {
+     "texto": "con",
+     "inicio": 47.44,
+     "fin": 47.6
+    },
+    {
+     "texto": "el",
+     "inicio": 47.6,
+     "fin": 47.72
+    },
+    {
+     "texto": "tú.",
+     "inicio": 47.72,
+     "fin": 47.88
+    }
+   ],
+   "inicio": 46.32,
+   "fin": 47.88
+  }
+ ]
+}

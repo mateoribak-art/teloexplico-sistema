@@ -152,6 +152,10 @@
     "en-038-lake-effect-snow": [
       "clima",
       7
+    ],
+    "en-039-polar-vortex": [
+      "clima",
+      8
     ]
   }
 }

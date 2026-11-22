@@ -1,0 +1,27 @@
+{
+  "titulo": "What is the polar vortex?",
+  "serie": "clima",
+  "fondo": "oscuro",
+  "receta": "situación del que mira (titular del noticiero) + mecanismo en mapa real",
+  "pilar": "clima_accion",
+  "destinatario": "se lo manda alguien del Midwest/Nordeste a su amigo que dice 'polar vortex' cada vez que hace frío, para explicarle qué es",
+  "interaccion": {
+    "comentar": "So what's the coldest it's ever gotten where you live? (a number, everyone can answer)",
+    "guardar": "Each winter: check your forecast at weather.gov and your car and home emergency kits (NWS)"
+  },
+  "fuentes": [
+    "National Weather Service, Cold / Polar Vortex (weather.gov/safety/cold-polar-vortex): 'a large area of low pressure and cold air surrounding both of the Earth's poles'; always exists near the poles, weakens in summer and strengthens in winter; polar vortexes are not something new; the vortex will expand, sending cold air southward with the jet stream; often associated with large outbreaks of Arctic air in the United States; the only danger to humans is how cold temperatures get; check forecast on weather.gov; check home and car emergency kits at the beginning of each winter season",
+    "NOAA Climate.gov, Understanding the Arctic polar vortex"
+  ],
+  "frases": [
+    {"texto": "The \"polar vortex\" on the news isn't a storm coming for your town.", "estilo": "Intriguing, to the camera."},
+    {"texto": "It's a huge area of cold air circling each pole, all year.", "estilo": "Clear, steady."},
+    {"texto": "In winter it strengthens, and it helps keep the coldest air up north.", "estilo": "Explanatory."},
+    {"texto": "When it expands, cold air can get sent south on the jet stream.", "estilo": "Brisk, building."},
+    {"texto": "The National Weather Service says that's often tied to Arctic air outbreaks in the U.S.", "estilo": "Informative, with authority."},
+    {"texto": "Heads up: it's nothing new, and the real danger is just how cold it gets.", "estilo": "Calm, honest caveat."},
+    {"texto": "Check your forecast at weather.gov, and check your car's emergency kit each winter.", "estilo": "Practical, friendly."},
+    {"texto": "So what's the coldest it's ever gotten where you live?", "estilo": "Playful, inviting."},
+    {"texto": "Send this to the friend who says \"polar vortex\" when it's just chilly.", "estilo": "Playful and funny."}
+  ]
+}

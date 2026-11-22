@@ -1,0 +1,84 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones fácticas tienen fuente (RAE: DPD 'voseo'/'vos', Buen uso del español 'el voseo', glosario RAE gtg/voseo, y bibliografía académica para el uso respetuoso histórico) y quedan verificadas. No hay afirmaciones falsas, ni dudosas, ni cifras sin respaldo. La versión anterior (rechazada por 'lo usa todo el mundo') ya no tiene esa generalización: ahora la frase está acotada a Argentina, Uruguay y Paraguay y atribuida a la RAE, y se aclara que en otros países conviven vos, tú y usted. Limitación: rae.es devolvió 403 al abrirlo directamente, así que el contenido de las páginas RAE se confirmó por los extractos de búsqueda y no por lectura directa de la página; la cita 'aceptadas sin reserva por todas las clases sociales' del DPD y 'desapareció casi por completo entre el XVII y comienzos del XVIII' aparecen en esos extractos. El tema no es de salud, seguridad ni plata.",
+  "afirmaciones": [
+    {
+      "texto": "Decís vos todos los días, y alguna vez te corrigieron con el tú.",
+      "fuente": "Sin fuente primaria: es una interpelación al espectador, no una afirmación factual general (el verbo 'decís' implica el voseo rioplatense).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Pero el vos no es un error: viene del español antiguo.",
+      "fuente": "RAE, Diccionario panhispánico de dudas, 'voseo' (https://www.rae.es/dpd/voseo); RAE, Buen uso del español, 'el voseo' (https://www.rae.es/buen-uso-español/el-voseo)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En el español antiguo, el vos se usaba para tratar con respeto a una persona.",
+      "fuente": "Calderón Campos / Lara Bermejo, historia de las fórmulas de tratamiento (https://digibug.ugr.es/handle/10481/90497; https://revistas.uca.es/index.php/pragma/article/download/8266/10247/47995); Diccionario de autoridades (1726-39) registra vos como tratamiento de respeto a personas de gran dignidad",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Según la Real Academia Española, en España el voseo casi desapareció entre los siglos diecisiete y principios del dieciocho.",
+      "fuente": "RAE, Buen uso del español, 'el voseo' (https://www.rae.es/buen-uso-español/el-voseo); RAE, DPD 'voseo'. Atribuida a la RAE y con 'casi' (subsiste el voseo reverencial).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Pero en América quedó en varias zonas, y en Argentina, Uruguay y Paraguay se usa en todas las clases sociales.",
+      "fuente": "RAE, DPD 'voseo' y 'vos' (https://www.rae.es/dpd/voseo; https://rae.es/dpd/vos): en Argentina, Paraguay y Uruguay el voseo es aceptado sin reserva por todas las clases sociales; glosario RAE (https://www.rae.es/gtg/voseo): documentado en casi toda América.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La Academia dice que ahí se acepta sin reserva, sin importar la clase social.",
+      "fuente": "RAE, DPD 'voseo' (https://www.rae.es/dpd/voseo): 'aceptadas sin reserva por todas las clases sociales'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: no es lo mismo en todos lados. En muchos países conviven el vos, el tú y el usted.",
+      "fuente": "RAE, glosario (https://www.rae.es/gtg/voseo) y Buen uso del español: en la mayoría de los países americanos coexisten vos, tú y usted.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Así que la próxima vez que te digan que se dice tú, ya sabés qué contestar.",
+      "fuente": "Sin fuente primaria: cierre retórico, sin afirmación factual propia.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y vos, ¿decís vos o tú? Contestá con una palabra. / Mandáselo al que te corrige con el tú.",
+      "fuente": "Sin fuente primaria: llamados a la acción, no afirmaciones.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Título: Decís vos, y en España casi nadie lo dice",
+      "fuente": "RAE, Buen uso del español, 'el voseo': el voseo casi desapareció del español europeo (solo subsiste el reverencial en contextos muy formales); 'casi' ya es el matiz.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'En América quedó en varias zonas, y en Argentina, Uruguay y Paraguay, según la RAE, se acepta sin reserva en todas las clases sociales.'",
+      "fuente": "RAE, DPD 'voseo' (https://www.rae.es/dpd/voseo)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'Fuentes: RAE, Diccionario panhispánico de dudas (voseo); RAE, Buen uso del español (el voseo).'",
+      "fuente": "Ambas fuentes existen: https://www.rae.es/dpd/voseo y https://www.rae.es/buen-uso-español/el-voseo",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "regla_guardable: 'El vos no es un error: la RAE lo acepta, y en Argentina, Uruguay y Paraguay lo usan todas las clases sociales.'",
+      "fuente": "RAE, DPD 'voseo' y 'vos'",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "titulo": "Decís vos, y en España casi nadie lo dice",
+  "fondo": "cuaderno",
+  "receta": "El acusado equivocado / costumbres",
+  "pilar": "argentina",
+  "interaccion": ["comentar"],
+  "destinatario": "se lo manda un argentino a un amigo español o mexicano que lo corrige con 'se dice tú', para mostrarle que el vos tiene siglos",
+  "regla_guardable": "El vos no es un error: la RAE lo acepta, y en Argentina, Uruguay y Paraguay lo usan todas las clases sociales.",
+  "fuentes": [
+    "RAE, Diccionario panhispánico de dudas: voseo",
+    "RAE, Buen uso del español: el voseo"
+  ],
+  "frases": [
+    {"texto": "Decís vos todos los días, y alguna vez te corrigieron con el tú.", "estilo": "Seco, directo, a cámara."},
+    {"texto": "Pero el vos no es un error: viene del español antiguo.", "estilo": "Golpe contundente."},
+    {"texto": "En el español antiguo, el vos se usaba para tratar con respeto a una persona.", "estilo": "Informativo, claro."},
+    {"texto": "Según la Real Academia Española, en España el voseo casi desapareció entre los siglos diecisiete y principios del dieciocho.", "estilo": "Con autoridad."},
+    {"texto": "Pero en América quedó en varias zonas, y en Argentina, Uruguay y Paraguay se usa en todas las clases sociales.", "estilo": "Curioso."},
+    {"texto": "La Academia dice que ahí se acepta sin reserva, sin importar la clase social.", "estilo": "Con media sonrisa."},
+    {"texto": "Ojo: no es lo mismo en todos lados. En muchos países conviven el vos, el tú y el usted.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Así que la próxima vez que te digan que se dice tú, ya sabés qué contestar.", "estilo": "Cómplice."},
+    {"texto": "Y vos, ¿decís vos o tú? Contestá con una palabra.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al que te corrige con el tú.", "estilo": "Cómplice, con humor."}
+  ]
+}

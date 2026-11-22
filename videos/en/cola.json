@@ -1302,5 +1302,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-039-polar-vortex",
+  "tema": "What is the polar vortex? (NWS; not a storm)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-22T14:43",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-22T14:43",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-22T14:46",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-22T15:07",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]
