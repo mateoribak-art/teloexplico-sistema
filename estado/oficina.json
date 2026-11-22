@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T03:35",
+ "actualizado": "2026-11-22T04:22",
  "oficinas": [
   {
    "clave": "es",
@@ -111,7 +111,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-21T22:55",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [
       "Uso: 33 pasos · 60,992 tokens nuevos · 961,552 de caché · 7,412 escritos · equivale a US$ 0.41 de API",
       "2026-11-21 22:37 Arranca la producción (9 listos en la cola, meta 10).",
@@ -179,7 +179,7 @@
      "estado": "ok",
      "resumen": "Revisión radar (segunda pasada). Dos búsquedas web (alertas SMN y tendencias): lo más reciente es del 16-nov. SIN tema nuevo verificable. Descartados: (a) alert",
      "cuando": "2026-11-21T17:12",
-     "hace": "hace 10 h",
+     "hace": "hace 11 h",
      "detalle": [
       "20/11 00:00 | Revisión radar. Búsquedas web (SMN + noticias/tendencias del día). SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por tormentas y granizo en 7-11 provincias incl. Buenos Aires (SMN hoy, La Nación/NA) -> granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin ángulo nuevo; (b) Día de la Soberanía 20/11 -> YA en cola (053-cadenas-parana, en render); (c) dólar/CCL, ley de patentes, ley discapacidad, Tesla en Argentina -> política/economía/empresa, no encajan. Sigue la cola normal.",
       "21/11 00:00 | Revisión radar (turno nube). Una búsqueda web (SMN fin de semana largo): solo resultados de otros años, nada verificable fechado de hoy. SIN tema nuevo; sigue la cola normal.",
@@ -217,7 +217,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-21T22:54",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [
       "056-gta-trece-anios: aprobado — Todas las afirmaciones fácticas (fechas de GTA V y GTA 6, anuncio para 2025, las dos postergaciones y la cuenta de trece años y dos meses) e",
       "057-ruta-40-de-punta-a-punta: aprobado — Todas las cifras y datos duros (más de 5.000 km, extremos, once provincias, ruta más larga) quedaron verificados con fuentes. La dispersión ",
@@ -250,7 +250,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-21T22:54",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -274,7 +274,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-21 22:54.",
      "cuando": "2026-11-21T22:54",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -298,7 +298,7 @@
      "estado": "aviso",
      "resumen": "Apartó 1 video(s) en las últimas 48 h.",
      "cuando": "2026-11-21T22:54",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [],
      "tareas": [
       "051-leonidas-grano-arena: tema de actualidad vencido (más de 48 h)"
@@ -393,7 +393,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-21T22:55",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [
       "2026-11-21 00:16 arroz-recalentado: listo control OK",
       "2026-11-21 00:16 arroz-recalentado: listo control OK",
@@ -427,7 +427,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-20T20:19",
-     "hace": "hace 31 h",
+     "hace": "hace 32 h",
      "detalle": [
       "07/11 18:02 Hay 18 comentarios nuevos: arranca la respuesta.",
       "07/11 00:00 Respondí 16 · salteé 2 · alerté 0. (026-mediodia-hora-corrida: 14 respondidos, incluido alejandrokalfayan (hora oficial vs longitud, con Ley 26.350); 028-yerba-por-ano: 2 respondidos; salteados: aledelejos (vulgar, tema político de la hora) y un duplicado de fulanocris)",
@@ -466,7 +466,7 @@
      "estado": "ok",
      "resumen": "22/11: 1034 seguidores",
      "cuando": "2026-11-22T03:34",
-     "hace": "hace 1 min",
+     "hace": "hace 48 min",
      "detalle": [
       "19/11: 1013 seguidores",
       "20/11: 1023 seguidores",
@@ -499,7 +499,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-22T03:35",
+     "cuando": "2026-11-22T04:22",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -634,7 +634,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-21T23:05",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [
       "Uso: 54 pasos · 76,619 tokens nuevos · 1,703,151 de caché · 16,430 escritos · equivale a US$ 0.93 de API",
       "2026-11-21 22:55 Arranca la producción (9 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
@@ -671,7 +671,7 @@
      "estado": "ok",
      "resumen": "Pasada del radar: la búsqueda (NWS fin de semana, tendencias de Thanksgiving) solo devolvió páginas de inviernos anteriores o índices sin fecha; nada verificabl",
      "cuando": "2026-11-21T17:13",
-     "hace": "hace 10 h",
+     "hace": "hace 11 h",
      "detalle": [
       "07/11 00:00 Duodécima pasada del radar: la búsqueda (NWS fin de semana) solo devolvió páginas sin fecha o de 2025/marzo 2026; nada verificable de las últimas 48 h. Descartados: (1) frío/tormenta invernal del fin de semana: notas sin fecha, sin fuente oficial del día; (2) El Niño: ya en cola (en-026); (3) superluna del 24/11: lejos. Sin tema nuevo.",
       "20/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2023/2024 y titulares sin gancho explicable. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 verificable; (2) Nvidia/Anthropic IPO/Russell Brand: negocios o chisme/delito, no explicables; (3) superluna del 24/11: lejos y sin ángulo de guardar/comentar. Sin tema nuevo.",
@@ -703,7 +703,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-21T23:05",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [
       "en-030-violent-games: aprobado — Todas las afirmaciones coinciden con la fuente primaria (comunicado APA del 3/3/2020, texto citado literalmente en apa.org) y la fecha de GT",
       "en-031-gta-vice-city: aprobado — Ninguna afirmación es falsa y no hay cifras, salud, seguridad ni plata. Lo verificado (nombre Vice City, estado de Leonida, cita del sitio o",
@@ -736,7 +736,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-21T23:05",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -760,7 +760,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-21 23:05.",
      "cuando": "2026-11-21T23:05",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -784,7 +784,7 @@
      "estado": "ok",
      "resumen": "10 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-21T23:05",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -915,7 +915,7 @@
      "estado": "ok",
      "resumen": "22/11: 5 seguidores",
      "cuando": "2026-11-22T03:35",
-     "hace": "recién",
+     "hace": "hace 47 min",
      "detalle": [
       "07/11: 5 seguidores",
       "20/11: 5 seguidores",
@@ -948,7 +948,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-22T03:35",
+     "cuando": "2026-11-22T04:22",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
