@@ -2138,7 +2138,7 @@
  {
   "slug": "055-gta-vice-city-miami",
   "tema": "GTA 6: Vice City y Leonida están inspirados en Miami y Florida; qué lugares reales se reconocen (según medios, no confirmado por Rockstar) --actualidad",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -2159,6 +2159,11 @@
     "estado": "listo",
     "cuando": "2026-11-20T14:23",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-22T19:32",
+    "motivo": "https://www.instagram.com/reel/DgD4q3qik2p/"
    }
   ]
  },
