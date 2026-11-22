@@ -10,5 +10,11 @@
   "texto": "sin texto (solo imagen, sticker o emoji)",
   "respuesta": "",
   "cuando": "2026-11-02T21:16"
+ },
+ "18154992445543263": {
+  "estado": "salteado",
+  "texto": "comentario sin texto (probablemente imagen, sticker o emoji)",
+  "respuesta": "",
+  "cuando": "2026-11-22T19:43"
  }
 }

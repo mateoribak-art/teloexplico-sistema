@@ -28,3 +28,15 @@ Respondí 1, salteé 1, alerté 0.
 El registro quedó en `videos/en/comentarios.log`.
 Uso: 14 pasos · 17,344 tokens nuevos · 207,867 de caché · 3,065 escritos · equivale a US$ 0.01 de API
 2026-11-02 21:16 Termina la respuesta de comentarios (ok).
+2026-11-22 19:42 Hay 1 comentarios nuevos: arranca la respuesta.
+2026-11-22 Resumen: respondí 0, salteé 1, alerté 0.
+Respondí 0, salteé 1, alerté 0.
+
+- **nik.kkls** (en-031-gta-vice-city): salteado porque llegó sin texto (probablemente imagen, sticker o emoji).
+
+El registro quedó en `videos/en/comentarios.log`.
+Había 1 comentario pendiente y lo salteé: en el video en-031-gta-vice-city, nik.kkls llegó sin texto (probablemente imagen, sticker o emoji), así que no había nada que responder con criterio.
+
+Resumen: respondí 0, salteé 1, alerté 0. Dejé la línea y el detalle en `videos/en/comentarios.log`.
+Uso: 8 pasos · 13,158 tokens nuevos · 123,061 de caché · 1,537 escritos · equivale a US$ 0.00 de API
+2026-11-22 19:43 Termina la respuesta de comentarios (ok).
