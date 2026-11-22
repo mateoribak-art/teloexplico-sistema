@@ -36,3 +36,14 @@ Uso: 17 pasos · 13,562 tokens nuevos · 802,501 de caché · 6,377 escritos · 
 2026-11-21 18:57 Render de en-036-phantom-charger (sin Claude).
 2026-11-21 19:03 en-036-phantom-charger: listo (render sin Claude)
 2026-11-21 19:03 Termina la producción (ok).
+2026-11-21 22:55 Arranca la producción (9 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `en-037-swallowed-gum`, "¿El chicle tragado se queda 7 años en el estómago?" (serie Body myths #5). Falta que `producir.py` lo renderice. El chequeo lo rechazó la primera vez porque el consejo de llamar al médico estaba atribuido a KidsHealth. Con las fuentes separadas (Cleveland Clinic y KidsHealth) se aprobó en el segundo intento. La voz dura 41 s, `tsc` no da errores y los cuadros están revisados después de corregir el encuadre.
+- **Apartados:** ninguno había por chequeo rechazado, así que no hubo nada que rescatar.
+- **Incompletos:** ninguno. Dejé anotado en `videos/en/produccion.log` el ritmo de seguidores sin medir en detalle y el radar sin tema.
+Uso: 54 pasos · 76,619 tokens nuevos · 1,703,151 de caché · 16,430 escritos · equivale a US$ 0.93 de API
+Permisos negados (2):
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-037-swallowed-gum; cat > chequeo.json <<'EOF'\n{\n  \"veredicto
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-037-swallowed-gum; cat > chequeo.json <<'EOF'\n{\n  \"veredicto
+2026-11-21 23:01 Render de en-037-swallowed-gum (sin Claude).
+2026-11-21 23:05 en-037-swallowed-gum: listo (render sin Claude)
+2026-11-21 23:05 Termina la producción (ok).

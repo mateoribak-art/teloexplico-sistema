@@ -1,0 +1,641 @@
+{
+ "duracion": 40.06,
+ "frases": [
+  {
+   "texto": "Calentás el guiso en el pote del yogur o de la margarina, y ahí está el error.",
+   "palabras": [
+    {
+     "texto": "Calentás",
+     "inicio": 0.0,
+     "fin": 0.4
+    },
+    {
+     "texto": "el",
+     "inicio": 0.4,
+     "fin": 0.58
+    },
+    {
+     "texto": "guiso",
+     "inicio": 0.58,
+     "fin": 0.86
+    },
+    {
+     "texto": "en",
+     "inicio": 0.86,
+     "fin": 1.14
+    },
+    {
+     "texto": "el",
+     "inicio": 1.14,
+     "fin": 1.28
+    },
+    {
+     "texto": "pote",
+     "inicio": 1.28,
+     "fin": 1.48
+    },
+    {
+     "texto": "del",
+     "inicio": 1.48,
+     "fin": 1.64
+    },
+    {
+     "texto": "yogur",
+     "inicio": 1.64,
+     "fin": 2.02
+    },
+    {
+     "texto": "o",
+     "inicio": 2.02,
+     "fin": 2.42
+    },
+    {
+     "texto": "de",
+     "inicio": 2.42,
+     "fin": 2.5
+    },
+    {
+     "texto": "la",
+     "inicio": 2.5,
+     "fin": 2.6
+    },
+    {
+     "texto": "margarina,",
+     "inicio": 2.6,
+     "fin": 3.1
+    },
+    {
+     "texto": "y",
+     "inicio": 3.54,
+     "fin": 3.74
+    },
+    {
+     "texto": "ahí",
+     "inicio": 3.74,
+     "fin": 3.9
+    },
+    {
+     "texto": "está",
+     "inicio": 3.9,
+     "fin": 4.12
+    },
+    {
+     "texto": "el",
+     "inicio": 4.12,
+     "fin": 4.22
+    },
+    {
+     "texto": "error.",
+     "inicio": 4.22,
+     "fin": 4.4
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.4
+  },
+  {
+   "texto": "La Universidad de Clemson, en Estados Unidos, dice que esos envases no se recomiendan para el microondas, salvo que digan que son aptos.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 5.26,
+     "fin": 5.5
+    },
+    {
+     "texto": "Universidad",
+     "inicio": 5.5,
+     "fin": 5.94
+    },
+    {
+     "texto": "de",
+     "inicio": 5.94,
+     "fin": 6.04
+    },
+    {
+     "texto": "Clemson,",
+     "inicio": 6.04,
+     "fin": 6.52
+    },
+    {
+     "texto": "en",
+     "inicio": 6.74,
+     "fin": 6.8
+    },
+    {
+     "texto": "Estados",
+     "inicio": 6.8,
+     "fin": 6.98
+    },
+    {
+     "texto": "Unidos,",
+     "inicio": 6.98,
+     "fin": 7.4
+    },
+    {
+     "texto": "dice",
+     "inicio": 8.02,
+     "fin": 8.2
+    },
+    {
+     "texto": "que",
+     "inicio": 8.2,
+     "fin": 8.36
+    },
+    {
+     "texto": "esos",
+     "inicio": 8.36,
+     "fin": 8.5
+    },
+    {
+     "texto": "envases",
+     "inicio": 8.5,
+     "fin": 8.84
+    },
+    {
+     "texto": "no",
+     "inicio": 8.84,
+     "fin": 9.26
+    },
+    {
+     "texto": "se",
+     "inicio": 9.26,
+     "fin": 9.4
+    },
+    {
+     "texto": "recomiendan",
+     "inicio": 9.4,
+     "fin": 9.92
+    },
+    {
+     "texto": "para",
+     "inicio": 9.92,
+     "fin": 10.08
+    },
+    {
+     "texto": "el",
+     "inicio": 10.08,
+     "fin": 10.18
+    },
+    {
+     "texto": "microondas,",
+     "inicio": 10.18,
+     "fin": 10.72
+    },
+    {
+     "texto": "salvo",
+     "inicio": 11.14,
+     "fin": 11.58
+    },
+    {
+     "texto": "que",
+     "inicio": 11.58,
+     "fin": 11.7
+    },
+    {
+     "texto": "digan",
+     "inicio": 11.7,
+     "fin": 11.94
+    },
+    {
+     "texto": "que",
+     "inicio": 11.94,
+     "fin": 12.04
+    },
+    {
+     "texto": "son",
+     "inicio": 12.04,
+     "fin": 12.2
+    },
+    {
+     "texto": "aptos.",
+     "inicio": 12.2,
+     "fin": 12.58
+    }
+   ],
+   "inicio": 5.26,
+   "fin": 12.58
+  },
+  {
+   "texto": "Con el calor se pueden deformar o derretir.",
+   "palabras": [
+    {
+     "texto": "Con",
+     "inicio": 12.96,
+     "fin": 13.16
+    },
+    {
+     "texto": "el",
+     "inicio": 13.16,
+     "fin": 13.26
+    },
+    {
+     "texto": "calor",
+     "inicio": 13.26,
+     "fin": 13.56
+    },
+    {
+     "texto": "se",
+     "inicio": 13.56,
+     "fin": 13.9
+    },
+    {
+     "texto": "pueden",
+     "inicio": 13.9,
+     "fin": 14.1
+    },
+    {
+     "texto": "deformar",
+     "inicio": 14.1,
+     "fin": 14.76
+    },
+    {
+     "texto": "o",
+     "inicio": 14.76,
+     "fin": 14.88
+    },
+    {
+     "texto": "derretir.",
+     "inicio": 14.88,
+     "fin": 15.4
+    }
+   ],
+   "inicio": 12.96,
+   "fin": 15.4
+  },
+  {
+   "texto": "Y pueden pasar sustancias químicas a la comida.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 15.74,
+     "fin": 16.08
+    },
+    {
+     "texto": "pueden",
+     "inicio": 16.08,
+     "fin": 16.56
+    },
+    {
+     "texto": "pasar",
+     "inicio": 16.56,
+     "fin": 16.78
+    },
+    {
+     "texto": "sustancias",
+     "inicio": 16.78,
+     "fin": 17.24
+    },
+    {
+     "texto": "químicas",
+     "inicio": 17.24,
+     "fin": 17.66
+    },
+    {
+     "texto": "a",
+     "inicio": 17.66,
+     "fin": 17.8
+    },
+    {
+     "texto": "la",
+     "inicio": 17.8,
+     "fin": 17.86
+    },
+    {
+     "texto": "comida.",
+     "inicio": 17.86,
+     "fin": 18.12
+    }
+   ],
+   "inicio": 15.74,
+   "fin": 18.12
+  },
+  {
+   "texto": "La regla: calentá en un envase que diga apto para microondas.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 18.74,
+     "fin": 18.82
+    },
+    {
+     "texto": "regla:",
+     "inicio": 18.82,
+     "fin": 19.12
+    },
+    {
+     "texto": "calentá",
+     "inicio": 19.62,
+     "fin": 19.96
+    },
+    {
+     "texto": "en",
+     "inicio": 19.96,
+     "fin": 20.04
+    },
+    {
+     "texto": "un",
+     "inicio": 20.04,
+     "fin": 20.1
+    },
+    {
+     "texto": "envase",
+     "inicio": 20.1,
+     "fin": 20.4
+    },
+    {
+     "texto": "que",
+     "inicio": 20.4,
+     "fin": 20.58
+    },
+    {
+     "texto": "diga",
+     "inicio": 20.58,
+     "fin": 20.9
+    },
+    {
+     "texto": "apto",
+     "inicio": 20.9,
+     "fin": 21.58
+    },
+    {
+     "texto": "para",
+     "inicio": 21.58,
+     "fin": 21.76
+    },
+    {
+     "texto": "microondas.",
+     "inicio": 21.76,
+     "fin": 22.38
+    }
+   ],
+   "inicio": 18.74,
+   "fin": 22.38
+  },
+  {
+   "texto": "Ojo: si el pote de plástico dice apto para microondas, sí se puede. Si no lo dice, pasalo a un plato o a un vidrio.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 22.86,
+     "fin": 23.12
+    },
+    {
+     "texto": "si",
+     "inicio": 23.6,
+     "fin": 23.8
+    },
+    {
+     "texto": "el",
+     "inicio": 23.8,
+     "fin": 23.9
+    },
+    {
+     "texto": "pote",
+     "inicio": 23.9,
+     "fin": 24.18
+    },
+    {
+     "texto": "de",
+     "inicio": 24.18,
+     "fin": 24.32
+    },
+    {
+     "texto": "plástico",
+     "inicio": 24.32,
+     "fin": 24.8
+    },
+    {
+     "texto": "dice",
+     "inicio": 24.8,
+     "fin": 25.08
+    },
+    {
+     "texto": "apto",
+     "inicio": 25.08,
+     "fin": 25.82
+    },
+    {
+     "texto": "para",
+     "inicio": 25.82,
+     "fin": 25.94
+    },
+    {
+     "texto": "microondas,",
+     "inicio": 25.94,
+     "fin": 26.56
+    },
+    {
+     "texto": "sí",
+     "inicio": 26.88,
+     "fin": 27.1
+    },
+    {
+     "texto": "se",
+     "inicio": 27.1,
+     "fin": 27.24
+    },
+    {
+     "texto": "puede.",
+     "inicio": 27.24,
+     "fin": 27.48
+    },
+    {
+     "texto": "Si",
+     "inicio": 28.04,
+     "fin": 28.18
+    },
+    {
+     "texto": "no",
+     "inicio": 28.18,
+     "fin": 28.4
+    },
+    {
+     "texto": "lo",
+     "inicio": 28.4,
+     "fin": 28.52
+    },
+    {
+     "texto": "dice,",
+     "inicio": 28.52,
+     "fin": 28.82
+    },
+    {
+     "texto": "pasalo",
+     "inicio": 29.16,
+     "fin": 29.56
+    },
+    {
+     "texto": "a",
+     "inicio": 29.56,
+     "fin": 29.68
+    },
+    {
+     "texto": "un",
+     "inicio": 29.68,
+     "fin": 29.68
+    },
+    {
+     "texto": "plato",
+     "inicio": 29.68,
+     "fin": 30.0
+    },
+    {
+     "texto": "o",
+     "inicio": 30.0,
+     "fin": 30.14
+    },
+    {
+     "texto": "a",
+     "inicio": 30.14,
+     "fin": 30.18
+    },
+    {
+     "texto": "un",
+     "inicio": 30.18,
+     "fin": 30.32
+    },
+    {
+     "texto": "vidrio.",
+     "inicio": 30.32,
+     "fin": 30.66
+    }
+   ],
+   "inicio": 22.86,
+   "fin": 30.66
+  },
+  {
+   "texto": "¿En qué calentás vos? Contestá con una palabra: vidrio, plástico o pote.",
+   "palabras": [
+    {
+     "texto": "¿En",
+     "inicio": 31.1,
+     "fin": 31.24
+    },
+    {
+     "texto": "qué",
+     "inicio": 31.24,
+     "fin": 31.32
+    },
+    {
+     "texto": "calentás",
+     "inicio": 31.32,
+     "fin": 31.72
+    },
+    {
+     "texto": "vos?",
+     "inicio": 31.72,
+     "fin": 31.84
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 32.34,
+     "fin": 32.7
+    },
+    {
+     "texto": "con",
+     "inicio": 32.7,
+     "fin": 32.82
+    },
+    {
+     "texto": "una",
+     "inicio": 32.82,
+     "fin": 32.96
+    },
+    {
+     "texto": "palabra:",
+     "inicio": 32.96,
+     "fin": 33.22
+    },
+    {
+     "texto": "vidrio,",
+     "inicio": 33.86,
+     "fin": 34.28
+    },
+    {
+     "texto": "plástico",
+     "inicio": 34.54,
+     "fin": 35.18
+    },
+    {
+     "texto": "o",
+     "inicio": 35.18,
+     "fin": 35.66
+    },
+    {
+     "texto": "pote.",
+     "inicio": 35.66,
+     "fin": 35.9
+    }
+   ],
+   "inicio": 31.1,
+   "fin": 35.9
+  },
+  {
+   "texto": "Mandáselo al que calienta el guiso en el pote de la margarina.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 36.44,
+     "fin": 36.98
+    },
+    {
+     "texto": "al",
+     "inicio": 36.98,
+     "fin": 37.04
+    },
+    {
+     "texto": "que",
+     "inicio": 37.04,
+     "fin": 37.16
+    },
+    {
+     "texto": "calienta",
+     "inicio": 37.16,
+     "fin": 37.62
+    },
+    {
+     "texto": "el",
+     "inicio": 37.62,
+     "fin": 37.7
+    },
+    {
+     "texto": "guiso",
+     "inicio": 37.7,
+     "fin": 37.98
+    },
+    {
+     "texto": "en",
+     "inicio": 37.98,
+     "fin": 38.1
+    },
+    {
+     "texto": "el",
+     "inicio": 38.1,
+     "fin": 38.2
+    },
+    {
+     "texto": "pote",
+     "inicio": 38.2,
+     "fin": 38.5
+    },
+    {
+     "texto": "de",
+     "inicio": 38.5,
+     "fin": 38.6
+    },
+    {
+     "texto": "la",
+     "inicio": 38.6,
+     "fin": 38.68
+    },
+    {
+     "texto": "margarina.",
+     "inicio": 38.68,
+     "fin": 39.22
+    }
+   ],
+   "inicio": 36.44,
+   "fin": 39.22
+  }
+ ]
+}

@@ -57,7 +57,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [usada → en-019-knuckle-crack] Does cracking your knuckles cause arthritis? (estudios)
 - [usada → en-017-heat-head] Do you lose most of your heat through your head? (myth)
 - [usada → en-004-sugar-hyper] Does sugar make kids hyper? (estudios doble ciego) — Halloween
-- [ ] Does swallowed gum stay in your stomach for 7 years?
+- [usada → en-037-swallowed-gum] Does swallowed gum stay in your stomach for 7 years?
 
 ## Temas de EE. UU. — serie: mate (Everyday math)
 - [ ] What are the real odds of winning the Powerball? (plata: solo verificado; nada de recomendar jugar)

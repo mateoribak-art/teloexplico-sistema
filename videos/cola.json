@@ -2322,7 +2322,7 @@
  {
   "slug": "062-pote-microondas",
   "tema": "Calentar en el pote de yogur o margarina: no es para el microondas (USDA FSIS)",
-  "estado": "produccion",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -2343,6 +2343,16 @@
     "estado": "produccion",
     "cuando": "2026-11-21T22:26",
     "motivo": "texto corregido y chequeo aprobado; falta voz y escenas"
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-21T22:40",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-21T22:54",
+    "motivo": "render sin Claude"
    }
   ]
  },

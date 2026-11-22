@@ -28,3 +28,17 @@ Uso: 19 pasos · 19,687 tokens nuevos · 1,290,001 de caché · 7,300 escritos �
 2026-11-21 18:22 Render de 063-che-origen (sin Claude).
 2026-11-21 18:51 063-che-origen: listo (render sin Claude)
 2026-11-21 18:51 Termina la producción (ok).
+2026-11-21 22:37 Arranca la producción (9 listos en la cola, meta 10).
+- **Listo para render:** `062-pote-microondas` (serie casa #12) está en estado `render`, con el chequeo aprobado (solo Clemson). La voz salió 116/116 y duró 40,1 s. El microondas 3D ya existía. Le arreglé el aro del pote, que se veía como una manija. `tsc` dio 0 errores y revisé 2 hojas de cuadros. `producir.py` lo renderiza.
+- **Apartados:** no rescaté ninguno. 038, 042, 044 y 051 no están apartados por chequeo rechazado, y 005 tampoco. 062 era el único rescatable y ya lo había rescatado el técnico.
+- **Incompleto / no producido:** no hice el segundo video. Hay 9 videos en `listo` en la cola, pero 062 estaba a medias y quedaba en `render` en este turno. Seguidores: ~+22/día contra ~+95/día necesarios (no lo medí de nuevo hoy).
+Uso: 33 pasos · 60,992 tokens nuevos · 961,552 de caché · 7,412 escritos · equivale a US$ 0.41 de API
+2026-11-21 22:40 Render de 062-pote-microondas (sin Claude).
+2026-11-21 22:54 062-pote-microondas: listo (render sin Claude)
+2026-11-21 22:54 Termina la producción (ok).
+2026-11-21 22:54 Arranca el carrusel (1 listos, meta 2).
+`bondi-de-brasil`: listo. Son 9 placas del reel 027-bondi-de-brasil, con el control en LISTO.
+
+Después de acortar la tapa a "es de Brasil" no volví a mirar la hoja de placas, así que no confirmé a ojo que ya no se corte.
+Uso: 18 pasos · 20,305 tokens nuevos · 320,243 de caché · 3,487 escritos · equivale a US$ 0.15 de API
+2026-11-21 22:55 Termina el carrusel (ok; quedan 2 listos).

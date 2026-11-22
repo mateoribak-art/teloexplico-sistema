@@ -44,7 +44,7 @@ const Recipiente: React.FC<{ deforma: number; frame: number }> = ({ deforma, fra
         <meshStandardMaterial color={d > 0.3 ? "#ffd7a8" : "#f4f1ea"} roughness={0.45} side={THREE.DoubleSide} />
       </mesh>
       {/* tapa/aro de color */}
-      <mesh position={[0, 0.64, 0]}>
+      <mesh position={[0, 0.64, 0]} rotation={[Math.PI / 2, 0, 0]}>
         <torusGeometry args={[0.74, 0.035, 10, 40]} />
         <meshStandardMaterial color="#e63e5a" roughness={0.4} />
       </mesh>

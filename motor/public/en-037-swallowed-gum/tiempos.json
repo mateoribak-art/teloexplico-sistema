@@ -1,0 +1,731 @@
+{
+ "duracion": 41.16,
+ "frases": [
+  {
+   "texto": "You swallowed a piece of gum once, and somebody told you it would sit in your stomach for seven years.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.18
+    },
+    {
+     "texto": "swallowed",
+     "inicio": 0.18,
+     "fin": 0.6
+    },
+    {
+     "texto": "a",
+     "inicio": 0.6,
+     "fin": 0.76
+    },
+    {
+     "texto": "piece",
+     "inicio": 0.76,
+     "fin": 0.88
+    },
+    {
+     "texto": "of",
+     "inicio": 0.88,
+     "fin": 1.0
+    },
+    {
+     "texto": "gum",
+     "inicio": 1.0,
+     "fin": 1.18
+    },
+    {
+     "texto": "once,",
+     "inicio": 1.18,
+     "fin": 1.46
+    },
+    {
+     "texto": "and",
+     "inicio": 2.06,
+     "fin": 2.12
+    },
+    {
+     "texto": "somebody",
+     "inicio": 2.12,
+     "fin": 2.44
+    },
+    {
+     "texto": "told",
+     "inicio": 2.44,
+     "fin": 2.74
+    },
+    {
+     "texto": "you",
+     "inicio": 2.74,
+     "fin": 2.92
+    },
+    {
+     "texto": "it",
+     "inicio": 2.92,
+     "fin": 3.06
+    },
+    {
+     "texto": "would",
+     "inicio": 3.06,
+     "fin": 3.14
+    },
+    {
+     "texto": "sit",
+     "inicio": 3.14,
+     "fin": 3.34
+    },
+    {
+     "texto": "in",
+     "inicio": 3.34,
+     "fin": 3.48
+    },
+    {
+     "texto": "your",
+     "inicio": 3.48,
+     "fin": 3.6
+    },
+    {
+     "texto": "stomach",
+     "inicio": 3.6,
+     "fin": 3.92
+    },
+    {
+     "texto": "for",
+     "inicio": 3.92,
+     "fin": 4.12
+    },
+    {
+     "texto": "seven",
+     "inicio": 4.12,
+     "fin": 4.44
+    },
+    {
+     "texto": "years.",
+     "inicio": 4.44,
+     "fin": 4.8
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.8
+  },
+  {
+   "texto": "That's a myth.",
+   "palabras": [
+    {
+     "texto": "That's",
+     "inicio": 5.36,
+     "fin": 5.6
+    },
+    {
+     "texto": "a",
+     "inicio": 5.6,
+     "fin": 5.7
+    },
+    {
+     "texto": "myth.",
+     "inicio": 5.7,
+     "fin": 5.88
+    }
+   ],
+   "inicio": 5.36,
+   "fin": 5.88
+  },
+  {
+   "texto": "Gum base can't be broken down by digestion, so it doesn't get digested at all. It just rides along.",
+   "palabras": [
+    {
+     "texto": "Gum",
+     "inicio": 6.38,
+     "fin": 6.5
+    },
+    {
+     "texto": "base",
+     "inicio": 6.5,
+     "fin": 6.72
+    },
+    {
+     "texto": "can't",
+     "inicio": 6.72,
+     "fin": 7.12
+    },
+    {
+     "texto": "be",
+     "inicio": 7.12,
+     "fin": 7.2
+    },
+    {
+     "texto": "broken",
+     "inicio": 7.2,
+     "fin": 7.44
+    },
+    {
+     "texto": "down",
+     "inicio": 7.44,
+     "fin": 7.76
+    },
+    {
+     "texto": "by",
+     "inicio": 7.76,
+     "fin": 7.94
+    },
+    {
+     "texto": "digestion,",
+     "inicio": 7.94,
+     "fin": 8.46
+    },
+    {
+     "texto": "so",
+     "inicio": 8.76,
+     "fin": 9.0
+    },
+    {
+     "texto": "it",
+     "inicio": 9.0,
+     "fin": 9.26
+    },
+    {
+     "texto": "doesn't",
+     "inicio": 9.26,
+     "fin": 9.46
+    },
+    {
+     "texto": "get",
+     "inicio": 9.46,
+     "fin": 9.56
+    },
+    {
+     "texto": "digested",
+     "inicio": 9.56,
+     "fin": 10.06
+    },
+    {
+     "texto": "at",
+     "inicio": 10.06,
+     "fin": 10.16
+    },
+    {
+     "texto": "all.",
+     "inicio": 10.16,
+     "fin": 10.42
+    },
+    {
+     "texto": "It",
+     "inicio": 10.94,
+     "fin": 11.02
+    },
+    {
+     "texto": "just",
+     "inicio": 11.02,
+     "fin": 11.18
+    },
+    {
+     "texto": "rides",
+     "inicio": 11.18,
+     "fin": 11.58
+    },
+    {
+     "texto": "along.",
+     "inicio": 11.58,
+     "fin": 12.0
+    }
+   ],
+   "inicio": 6.38,
+   "fin": 12.0
+  },
+  {
+   "texto": "Cleveland Clinic says it comes out whole, about forty hours later.",
+   "palabras": [
+    {
+     "texto": "Cleveland",
+     "inicio": 12.54,
+     "fin": 12.78
+    },
+    {
+     "texto": "Clinic",
+     "inicio": 12.78,
+     "fin": 13.1
+    },
+    {
+     "texto": "says",
+     "inicio": 13.1,
+     "fin": 13.32
+    },
+    {
+     "texto": "it",
+     "inicio": 13.32,
+     "fin": 13.48
+    },
+    {
+     "texto": "comes",
+     "inicio": 13.48,
+     "fin": 13.66
+    },
+    {
+     "texto": "out",
+     "inicio": 13.66,
+     "fin": 13.84
+    },
+    {
+     "texto": "whole,",
+     "inicio": 13.84,
+     "fin": 14.12
+    },
+    {
+     "texto": "about",
+     "inicio": 14.4,
+     "fin": 14.58
+    },
+    {
+     "texto": "forty",
+     "inicio": 14.58,
+     "fin": 15.02
+    },
+    {
+     "texto": "hours",
+     "inicio": 15.02,
+     "fin": 15.32
+    },
+    {
+     "texto": "later.",
+     "inicio": 15.32,
+     "fin": 15.62
+    }
+   ],
+   "inicio": 12.54,
+   "fin": 15.62
+  },
+  {
+   "texto": "Heads up: Cleveland Clinic warns that swallowing lots of gum, or doing it every day, can cause a blockage. KidsHealth says blockages from gum are rare. If you get belly pain or vomiting after swallowing a lot, call a doctor.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 16.14,
+     "fin": 16.32
+    },
+    {
+     "texto": "up:",
+     "inicio": 16.32,
+     "fin": 16.52
+    },
+    {
+     "texto": "Cleveland",
+     "inicio": 17.02,
+     "fin": 17.22
+    },
+    {
+     "texto": "Clinic",
+     "inicio": 17.22,
+     "fin": 17.58
+    },
+    {
+     "texto": "warns",
+     "inicio": 17.58,
+     "fin": 18.08
+    },
+    {
+     "texto": "that",
+     "inicio": 18.08,
+     "fin": 18.18
+    },
+    {
+     "texto": "swallowing",
+     "inicio": 18.18,
+     "fin": 18.7
+    },
+    {
+     "texto": "lots",
+     "inicio": 18.7,
+     "fin": 19.02
+    },
+    {
+     "texto": "of",
+     "inicio": 19.02,
+     "fin": 19.22
+    },
+    {
+     "texto": "gum,",
+     "inicio": 19.22,
+     "fin": 19.5
+    },
+    {
+     "texto": "or",
+     "inicio": 19.7,
+     "fin": 19.82
+    },
+    {
+     "texto": "doing",
+     "inicio": 19.82,
+     "fin": 20.02
+    },
+    {
+     "texto": "it",
+     "inicio": 20.02,
+     "fin": 20.18
+    },
+    {
+     "texto": "every",
+     "inicio": 20.18,
+     "fin": 20.34
+    },
+    {
+     "texto": "day,",
+     "inicio": 20.34,
+     "fin": 20.58
+    },
+    {
+     "texto": "can",
+     "inicio": 20.76,
+     "fin": 20.92
+    },
+    {
+     "texto": "cause",
+     "inicio": 20.92,
+     "fin": 21.24
+    },
+    {
+     "texto": "a",
+     "inicio": 21.24,
+     "fin": 21.38
+    },
+    {
+     "texto": "blockage.",
+     "inicio": 21.38,
+     "fin": 21.76
+    },
+    {
+     "texto": "KidsHealth",
+     "inicio": 22.4,
+     "fin": 22.86
+    },
+    {
+     "texto": "says",
+     "inicio": 22.86,
+     "fin": 23.12
+    },
+    {
+     "texto": "blockages",
+     "inicio": 23.12,
+     "fin": 23.6
+    },
+    {
+     "texto": "from",
+     "inicio": 23.6,
+     "fin": 23.8
+    },
+    {
+     "texto": "gum",
+     "inicio": 23.8,
+     "fin": 24.02
+    },
+    {
+     "texto": "are",
+     "inicio": 24.02,
+     "fin": 24.22
+    },
+    {
+     "texto": "rare.",
+     "inicio": 24.22,
+     "fin": 24.46
+    },
+    {
+     "texto": "If",
+     "inicio": 25.02,
+     "fin": 25.18
+    },
+    {
+     "texto": "you",
+     "inicio": 25.18,
+     "fin": 25.24
+    },
+    {
+     "texto": "get",
+     "inicio": 25.24,
+     "fin": 25.38
+    },
+    {
+     "texto": "belly",
+     "inicio": 25.38,
+     "fin": 25.92
+    },
+    {
+     "texto": "pain",
+     "inicio": 25.92,
+     "fin": 26.24
+    },
+    {
+     "texto": "or",
+     "inicio": 26.24,
+     "fin": 26.46
+    },
+    {
+     "texto": "vomiting",
+     "inicio": 26.46,
+     "fin": 26.82
+    },
+    {
+     "texto": "after",
+     "inicio": 26.82,
+     "fin": 27.16
+    },
+    {
+     "texto": "swallowing",
+     "inicio": 27.16,
+     "fin": 27.62
+    },
+    {
+     "texto": "a",
+     "inicio": 27.62,
+     "fin": 27.74
+    },
+    {
+     "texto": "lot,",
+     "inicio": 27.74,
+     "fin": 27.88
+    },
+    {
+     "texto": "call",
+     "inicio": 28.06,
+     "fin": 28.16
+    },
+    {
+     "texto": "a",
+     "inicio": 28.16,
+     "fin": 28.28
+    },
+    {
+     "texto": "doctor.",
+     "inicio": 28.28,
+     "fin": 28.52
+    }
+   ],
+   "inicio": 16.14,
+   "fin": 28.52
+  },
+  {
+   "texto": "So one swallowed piece? No panic. Just remind the kids to spit it out.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 28.52,
+     "fin": 29.22
+    },
+    {
+     "texto": "one",
+     "inicio": 29.22,
+     "fin": 29.96
+    },
+    {
+     "texto": "swallowed",
+     "inicio": 29.96,
+     "fin": 30.38
+    },
+    {
+     "texto": "piece?",
+     "inicio": 30.38,
+     "fin": 30.76
+    },
+    {
+     "texto": "No",
+     "inicio": 31.38,
+     "fin": 31.54
+    },
+    {
+     "texto": "panic.",
+     "inicio": 31.54,
+     "fin": 31.8
+    },
+    {
+     "texto": "Just",
+     "inicio": 32.24,
+     "fin": 32.36
+    },
+    {
+     "texto": "remind",
+     "inicio": 32.36,
+     "fin": 32.78
+    },
+    {
+     "texto": "the",
+     "inicio": 32.78,
+     "fin": 32.98
+    },
+    {
+     "texto": "kids",
+     "inicio": 32.98,
+     "fin": 33.2
+    },
+    {
+     "texto": "to",
+     "inicio": 33.2,
+     "fin": 33.4
+    },
+    {
+     "texto": "spit",
+     "inicio": 33.4,
+     "fin": 33.74
+    },
+    {
+     "texto": "it",
+     "inicio": 33.74,
+     "fin": 33.88
+    },
+    {
+     "texto": "out.",
+     "inicio": 33.88,
+     "fin": 34.1
+    }
+   ],
+   "inicio": 28.52,
+   "fin": 34.1
+  },
+  {
+   "texto": "What did your family tell you would happen if you swallowed gum?",
+   "palabras": [
+    {
+     "texto": "What",
+     "inicio": 34.54,
+     "fin": 34.78
+    },
+    {
+     "texto": "did",
+     "inicio": 34.78,
+     "fin": 34.94
+    },
+    {
+     "texto": "your",
+     "inicio": 34.94,
+     "fin": 35.06
+    },
+    {
+     "texto": "family",
+     "inicio": 35.06,
+     "fin": 35.3
+    },
+    {
+     "texto": "tell",
+     "inicio": 35.3,
+     "fin": 35.66
+    },
+    {
+     "texto": "you",
+     "inicio": 35.66,
+     "fin": 35.92
+    },
+    {
+     "texto": "would",
+     "inicio": 35.92,
+     "fin": 36.08
+    },
+    {
+     "texto": "happen",
+     "inicio": 36.08,
+     "fin": 36.34
+    },
+    {
+     "texto": "if",
+     "inicio": 36.34,
+     "fin": 36.5
+    },
+    {
+     "texto": "you",
+     "inicio": 36.5,
+     "fin": 36.64
+    },
+    {
+     "texto": "swallowed",
+     "inicio": 36.64,
+     "fin": 36.96
+    },
+    {
+     "texto": "gum?",
+     "inicio": 36.96,
+     "fin": 37.26
+    }
+   ],
+   "inicio": 34.54,
+   "fin": 37.26
+  },
+  {
+   "texto": "Save this, then send it to the friend who still believes in the seven-year rule.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 37.8,
+     "fin": 38.02
+    },
+    {
+     "texto": "this,",
+     "inicio": 38.02,
+     "fin": 38.28
+    },
+    {
+     "texto": "then",
+     "inicio": 38.5,
+     "fin": 38.7
+    },
+    {
+     "texto": "send",
+     "inicio": 38.7,
+     "fin": 38.86
+    },
+    {
+     "texto": "it",
+     "inicio": 38.86,
+     "fin": 38.98
+    },
+    {
+     "texto": "to",
+     "inicio": 38.98,
+     "fin": 39.06
+    },
+    {
+     "texto": "the",
+     "inicio": 39.06,
+     "fin": 39.16
+    },
+    {
+     "texto": "friend",
+     "inicio": 39.16,
+     "fin": 39.34
+    },
+    {
+     "texto": "who",
+     "inicio": 39.34,
+     "fin": 39.48
+    },
+    {
+     "texto": "still",
+     "inicio": 39.48,
+     "fin": 39.72
+    },
+    {
+     "texto": "believes",
+     "inicio": 39.72,
+     "fin": 40.0
+    },
+    {
+     "texto": "in",
+     "inicio": 40.0,
+     "fin": 40.22
+    },
+    {
+     "texto": "the",
+     "inicio": 40.22,
+     "fin": 40.3
+    },
+    {
+     "texto": "seven-year",
+     "inicio": 40.3,
+     "fin": 40.78
+    },
+    {
+     "texto": "rule.",
+     "inicio": 40.78,
+     "fin": 41.06
+    }
+   ],
+   "inicio": 37.8,
+   "fin": 41.06
+  }
+ ]
+}

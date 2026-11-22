@@ -1,0 +1,10 @@
+{"origen": ["027-bondi-de-brasil"], "serie": "costumbres argentinas", "placas": [
+ {"tipo": "tapa", "arriba": "¿Por qué le decimos bondi al colectivo?", "grande": "es de Brasil", "promesa": "deslizá y mandáselo"},
+ {"tipo": "paso", "etiqueta": "// por qué importa", "titulo": "Una palabra de todos los días con pasaporte", "dato": "bondi", "colorDato": "azul", "cuerpo": "Cada vez que decís bondi, usás una palabra que vino de Brasil. Y al principio no hablaba de colectivos."},
+ {"tipo": "paso", "etiqueta": "// el origen", "titulo": "Primero fue el tranvía", "dato": "bonde", "colorDato": "rojo", "cuerpo": "En Brasil le decían bonde al tranvía. De ahí sale bondi.", "fuente": "RAE · Billiken"},
+ {"tipo": "paso", "etiqueta": "// más atrás", "titulo": "Y bonde viene del inglés", "dato": "bond", "colorDato": "verde", "cuerpo": "Bond era la palabra que figuraba en los boletos del tranvía.", "fuente": "Billiken"},
+ {"tipo": "paso", "etiqueta": "// el registro", "titulo": "El diccionario la anotó como portuguesa", "dato": "Río", "colorDato": "tinta", "cuerpo": "El diccionario histórico de la RAE la registra primero como palabra portuguesa, en un texto de viaje a Río de Janeiro.", "fuente": "RAE · DHLE"},
+ {"tipo": "paso", "etiqueta": "// el viaje", "titulo": "Cruzó el río y cambió de vehículo", "dato": "tranvía", "colorDato": "azul", "cuerpo": "Según cuentan, llegó al Río de la Plata con los inmigrantes. De tranvía pasó a colectivo.", "fuente": "Billiken"},
+ {"tipo": "paso", "etiqueta": "// ojo", "titulo": "Hay otras versiones, pero esta gana", "dato": "la más", "colorDato": "rojo", "cuerpo": "Existen otras explicaciones del origen, pero la brasileña es la más aceptada.", "fuente": "Billiken"},
+ {"tipo": "resumen", "titulo": "Bondi, en 4 renglones", "items": [[true, "Viene de bonde, el tranvía en Brasil"], [true, "Bonde viene del inglés bond"], [true, "Primero se registró como portuguesa"], [false, "No nació hablando de colectivos"]]},
+ {"tipo": "cierre", "texto": "Mandáselo al que dice «el bondi» en vez de «el colectivo».", "serie": "costumbres argentinas"}]}

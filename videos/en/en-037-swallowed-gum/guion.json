@@ -1,0 +1,27 @@
+{
+  "titulo": "Swallowed gum does not stay in your stomach for seven years",
+  "serie": "cuerpo",
+  "fondo": "cuaderno",
+  "receta": "mito cotidiano con numero para guardar + pregunta de identidad familiar",
+  "pilar": "salud_simple",
+  "destinatario": "se lo manda un padre o madre a su hijo (o a su pareja) que cree que el chicle tragado se queda siete anos para tranquilizarlo",
+  "regla_guardable": "One swallowed piece of gum passes in about 40 hours, not seven years. Many pieces, or belly pain and vomiting: call a doctor.",
+  "interaccion": {
+    "guardar": "One swallowed piece: about 40 hours, not 7 years. Lots of gum, or belly pain/vomiting: call a doctor.",
+    "comentar": "What did your family tell you would happen if you swallowed gum?"
+  },
+  "fuentes": [
+    "Cleveland Clinic, 'What Happens When You Swallow Gum?': the seven-year idea is false; swallowed gum leaves the body in about 40 hours, whole, in stool; gum base can't be broken down by digestion; swallowing lots of gum or doing it every day can cause intestinal blockage",
+    "KidsHealth (Nemours), 'Swallowed Gum': the seven-year idea isn't true; swallowing a large mass or many small pieces in a short time can block the digestive tract in rare cases"
+  ],
+  "frases": [
+    {"texto": "You swallowed a piece of gum once, and somebody told you it would sit in your stomach for seven years.", "estilo": "Dry, direct, with a half smile."},
+    {"texto": "That's a myth.", "estilo": "Short and punchy."},
+    {"texto": "Gum base can't be broken down by digestion, so it doesn't get digested at all. It just rides along.", "estilo": "Matter of fact, curious."},
+    {"texto": "Cleveland Clinic says it comes out whole, about forty hours later.", "estilo": "Clear, a little surprised."},
+    {"texto": "Heads up: Cleveland Clinic warns that swallowing lots of gum, or doing it every day, can cause a blockage. KidsHealth says blockages from gum are rare. If you get belly pain or vomiting after swallowing a lot, call a doctor.", "estilo": "Calm, honest caveat."},
+    {"texto": "So one swallowed piece? No panic. Just remind the kids to spit it out.", "estilo": "Reassuring, friendly."},
+    {"texto": "What did your family tell you would happen if you swallowed gum?", "estilo": "Curious, playful."},
+    {"texto": "Save this, then send it to the friend who still believes in the seven-year rule.", "estilo": "Playful and funny."}
+  ]
+}

@@ -318,5 +318,24 @@
     "motivo": "control OK"
    }
   ]
+ },
+ {
+  "clave": "bondi-de-brasil",
+  "estado": "listo",
+  "origen": [
+   "027-bondi-de-brasil"
+  ],
+  "historial": [
+   {
+    "estado": "listo",
+    "cuando": "2026-11-21T22:55",
+    "motivo": "control OK"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-21T22:55",
+    "motivo": "control OK"
+   }
+  ]
  }
 ]
