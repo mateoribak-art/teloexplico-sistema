@@ -2170,7 +2170,7 @@
  {
   "slug": "056-gta-trece-anios",
   "tema": "GTA 6: trece años desde el GTA V y dos postergaciones --actualidad",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -2191,6 +2191,11 @@
     "estado": "listo",
     "cuando": "2026-11-20T15:12",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-23T12:42",
+    "motivo": "https://www.instagram.com/reel/DgFujyZjEuO/"
    }
   ]
  },

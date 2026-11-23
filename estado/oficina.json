@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T10:48",
+ "actualizado": "2026-11-23T12:46",
  "oficinas": [
   {
    "clave": "es",
@@ -7,15 +7,20 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 1045,
-   "listos": 13,
-   "dias": 6.5,
-   "proximo": "056-gta-trece-anios",
-   "publicados": 54,
+   "listos": 12,
+   "dias": 6.0,
+   "proximo": "057-ruta-40-de-punta-a-punta",
+   "publicados": 55,
    "pausa": false,
    "pendientes": [
     "Facu (TikTok, YouTube y Telegram): En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram."
    ],
    "ultimas": [
+    {
+     "slug": "056-gta-trece-anios",
+     "link": "https://www.instagram.com/reel/DgFujyZjEuO/",
+     "cuando": "2026-11-23T15:42"
+    },
     {
      "slug": "055-gta-vice-city-miami",
      "link": "https://www.instagram.com/reel/DgD4q3qik2p/",
@@ -35,21 +40,9 @@
      "slug": "049-primer-calor-aclimatacion",
      "link": "https://www.instagram.com/reel/DgAj2azj3Xw/",
      "cuando": "2026-11-21T15:33"
-    },
-    {
-     "slug": "053-cadenas-parana",
-     "link": "https://www.instagram.com/reel/Df-vMwOACQX/",
-     "cuando": "2026-11-20T22:33"
     }
    ],
    "linea": [
-    {
-     "slug": "056-gta-trece-anios",
-     "tema": "GTA 6: trece años desde el GTA V y dos postergaciones --actualidad",
-     "estado": "listo",
-     "cuando": "2026-11-20T15:12",
-     "motivo": "render sin Claude"
-    },
     {
      "slug": "057-ruta-40-de-punta-a-punta",
      "tema": "Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)",
@@ -72,11 +65,11 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "054-gta-juegos-violentos",
-     "tema": "¿Los videojuegos violentos te hacen violento? Lo que dice la APA (2020), ahora que salió el GTA 6 --actualidad",
-     "estado": "publicado",
-     "cuando": "2026-11-22T12:33",
-     "motivo": "https://www.instagram.com/reel/DgDIo7Tm2kv/"
+     "slug": "060-celular-carga-noche",
+     "tema": "¿Dejar el celular cargando toda la noche lo arruina? Apple: no se sobrecarga; carga optimizada y límite del 80 %",
+     "estado": "listo",
+     "cuando": "2026-11-21T08:48",
+     "motivo": "render sin Claude"
     },
     {
      "slug": "055-gta-vice-city-miami",
@@ -84,6 +77,13 @@
      "estado": "publicado",
      "cuando": "2026-11-22T19:32",
      "motivo": "https://www.instagram.com/reel/DgD4q3qik2p/"
+    },
+    {
+     "slug": "056-gta-trece-anios",
+     "tema": "GTA 6: trece años desde el GTA V y dos postergaciones --actualidad",
+     "estado": "publicado",
+     "cuando": "2026-11-23T12:42",
+     "motivo": "https://www.instagram.com/reel/DgFujyZjEuO/"
     }
    ],
    "empleados": [
@@ -104,7 +104,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-23T10:43",
-     "hace": "hace 5 min",
+     "hace": "hace 2 h",
      "detalle": [
       "Uso: 2 pasos · 2,351 tokens nuevos · 242,973 de caché · 463 escritos · equivale a US$ 1.18 de API",
       "2026-11-23 10:29 Arranca la producción (12 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -169,7 +169,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada fechado de hoy (lo más reciente es del 12-16 nov). SIN tema nuevo verificable. Descartados: (",
      "cuando": "2026-11-22T17:26",
-     "hace": "hace 17 h",
+     "hace": "hace 19 h",
      "detalle": [
       "21/11 00:00 | Revisión radar (turno nube). Una búsqueda web (SMN fin de semana largo): solo resultados de otros años, nada verificable fechado de hoy. SIN tema nuevo; sigue la cola normal.",
       "21/11 00:00 | Revisión radar (segunda pasada). Dos búsquedas web (alertas SMN y tendencias): lo más reciente es del 16-nov. SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por lluvias y tormentas en 12 provincias (Perfil 16-nov, no de hoy; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) superluna 24-nov -> todavía no se vive, reevaluar el 23-24; (c) Rosalía/Lollapalooza/fútbol/política -> espectáculos o política, no encajan. Sigue la cola normal.",
@@ -206,8 +206,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-23T10:43",
-     "hace": "hace 5 min",
+     "cuando": "2026-11-23T12:42",
+     "hace": "hace 4 min",
      "detalle": [
       "061-heladera-termometro: aprobado — Todas las afirmaciones de salud/seguridad alimentaria quedaron verificadas contra fuentes primarias. FDA (Refrigerator Thermometers: Cold Fa",
       "062-pote-microondas: aprobado — Tercera revisión (21/11): se sacó 'un solo uso / no están pensados para cocinar' (sin fuente legible) y se acotó la regla a potes de plástic",
@@ -239,8 +239,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-23T10:43",
-     "hace": "hace 5 min",
+     "cuando": "2026-11-23T12:42",
+     "hace": "hace 4 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -262,14 +262,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-23 10:43.",
-     "cuando": "2026-11-23T10:43",
-     "hace": "hace 5 min",
+     "resumen": "Último video terminado: 2026-11-23 12:42.",
+     "cuando": "2026-11-23T12:42",
+     "hace": "hace 4 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "ac2042e8138a"
+     "firma": "6d0e3394c4b5"
     },
     {
      "id": "control",
@@ -286,14 +286,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "13 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-23T10:43",
-     "hace": "hace 5 min",
+     "resumen": "12 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-23T12:42",
+     "hace": "hace 4 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "8c3ce0562254"
+     "firma": "7db9ff85dd57"
     },
     {
      "id": "publicador",
@@ -310,27 +310,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: 055-gta-vice-city-miami.",
-     "cuando": "2026-11-22T19:34",
-     "hace": "hace 15 h",
+     "resumen": "Último: 056-gta-trece-anios.",
+     "cuando": "2026-11-23T12:44",
+     "hace": "hace 2 min",
      "detalle": [
-      "22/11 12:33 054-gta-juegos-violentos publicado: https://www.instagram.com/reel/DgDIo7Tm2kv/",
-      "22/11 12:34 054-gta-juegos-violentos publicado en Facebook: https://www.facebook.com/reel/1823838082157212/",
-      "22/11 12:34 054-gta-juegos-violentos en la bandeja de TikTok",
-      "22/11 12:34 054-gta-juegos-violentos https://youtube.com/shorts/xCfiwSs6quQ | privacidad: public",
-      "22/11 12:34 054-gta-juegos-violentos paquete para TikTok/YouTube enviado",
       "22/11 19:32 055-gta-vice-city-miami publicado: https://www.instagram.com/reel/DgD4q3qik2p/",
       "22/11 19:33 055-gta-vice-city-miami publicado en Facebook: https://www.facebook.com/reel/2732796797177103/",
       "22/11 19:33 055-gta-vice-city-miami en la bandeja de TikTok",
       "22/11 19:34 055-gta-vice-city-miami https://youtube.com/shorts/4_EWH_XuwKY | privacidad: public",
-      "22/11 19:34 055-gta-vice-city-miami paquete para TikTok/YouTube enviado"
+      "22/11 19:34 055-gta-vice-city-miami paquete para TikTok/YouTube enviado",
+      "23/11 12:42 056-gta-trece-anios publicado: https://www.instagram.com/reel/DgFujyZjEuO/",
+      "23/11 12:43 056-gta-trece-anios publicado en Facebook: https://www.facebook.com/reel/994425037057117/",
+      "23/11 12:44 056-gta-trece-anios en la bandeja de TikTok",
+      "23/11 12:44 056-gta-trece-anios https://youtube.com/shorts/3PVmnd1__Ow | privacidad: public",
+      "23/11 12:44 056-gta-trece-anios paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: 056-gta-trece-anios — GTA 6: trece años desde el GTA V y dos postergaciones --actualidad"
+      "Próximo: 057-ruta-40-de-punta-a-punta — Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "c695ee44aa76"
+     "firma": "8175ccf215ba"
     },
     {
      "id": "redes",
@@ -348,17 +348,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-22T19:34",
-     "hace": "hace 15 h",
+     "cuando": "2026-11-23T12:44",
+     "hace": "hace 2 min",
      "detalle": [
-      "21/11 19:33 050-martes-13-no-viernes https://youtube.com/shorts/0jMunXIVRzs | privacidad: public",
-      "21/11 19:33 050-martes-13-no-viernes paquete para TikTok/YouTube enviado",
-      "22/11 12:34 054-gta-juegos-violentos en la bandeja de TikTok",
       "22/11 12:34 054-gta-juegos-violentos https://youtube.com/shorts/xCfiwSs6quQ | privacidad: public",
       "22/11 12:34 054-gta-juegos-violentos paquete para TikTok/YouTube enviado",
       "22/11 19:33 055-gta-vice-city-miami en la bandeja de TikTok",
       "22/11 19:34 055-gta-vice-city-miami https://youtube.com/shorts/4_EWH_XuwKY | privacidad: public",
-      "22/11 19:34 055-gta-vice-city-miami paquete para TikTok/YouTube enviado"
+      "22/11 19:34 055-gta-vice-city-miami paquete para TikTok/YouTube enviado",
+      "23/11 12:44 056-gta-trece-anios en la bandeja de TikTok",
+      "23/11 12:44 056-gta-trece-anios https://youtube.com/shorts/3PVmnd1__Ow | privacidad: public",
+      "23/11 12:44 056-gta-trece-anios paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -381,7 +381,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-22T23:22",
-     "hace": "hace 11 h",
+     "hace": "hace 13 h",
      "detalle": [
       "2026-11-21 00:16 arroz-recalentado: listo control OK",
       "2026-11-21 20:39 lavar-pollo: publicado https://www.instagram.com/p/DgBbg4nEpDd/",
@@ -454,7 +454,7 @@
      "estado": "ok",
      "resumen": "23/11: 1045 seguidores",
      "cuando": "2026-11-23T04:24",
-     "hace": "hace 6 h",
+     "hace": "hace 8 h",
      "detalle": [
       "20/11: 1023 seguidores",
       "21/11: 1026 seguidores",
@@ -487,7 +487,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-23T10:48",
+     "cuando": "2026-11-23T12:46",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -527,13 +527,18 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 5,
-   "listos": 12,
-   "dias": 6.0,
-   "proximo": "en-027-bleach-vinegar",
-   "publicados": 31,
+   "listos": 11,
+   "dias": 5.5,
+   "proximo": "en-029-swim-after-eating",
+   "publicados": 32,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "en-027-bleach-vinegar",
+     "link": "https://www.instagram.com/reel/DgFuyyQnKXi/",
+     "cuando": "2026-11-23T15:44"
+    },
     {
      "slug": "en-026-el-nino-winter",
      "link": "https://www.instagram.com/reel/DgD49YyD5q8/",
@@ -553,21 +558,9 @@
      "slug": "en-028-turkey-sleepy",
      "link": "https://www.instagram.com/reel/DgAkJOIFqvP/",
      "cuando": "2026-11-21T15:35"
-    },
-    {
-     "slug": "en-025-dog-hot-car",
-     "link": "https://www.instagram.com/reel/Df-vaArnN_6/",
-     "cuando": "2026-11-20T22:35"
     }
    ],
    "linea": [
-    {
-     "slug": "en-027-bleach-vinegar",
-     "tema": "Bleach + vinegar = chlorine gas (CDC, Poison Control; adapted from 035; pillar home safety)",
-     "estado": "listo",
-     "cuando": "2026-11-07T00:40",
-     "motivo": "render sin Claude"
-    },
     {
      "slug": "en-029-swim-after-eating",
      "tema": "Do you have to wait to swim after eating? (Red Cross; adapted from 002)",
@@ -587,6 +580,13 @@
      "tema": "How to thaw your Thanksgiving turkey (USDA: 24 h per 4-5 lb in the fridge)",
      "estado": "listo",
      "cuando": "2026-11-21T00:29",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "en-034-alcohol-cook-off",
+     "tema": "Does alcohol fully cook off? (USDA retention table; own; kitchen)",
+     "estado": "listo",
+     "cuando": "2026-11-21T09:13",
      "motivo": "render sin Claude"
     },
     {
@@ -629,7 +629,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-23T10:48",
-     "hace": "recién",
+     "hace": "hace 1 h",
      "detalle": [
       "Uso: 8 pasos · 5,142 tokens nuevos · 499,782 de caché · 3,286 escritos · equivale a US$ 1.07 de API",
       "2026-11-23 10:43 Arranca la producción (12 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
@@ -662,7 +662,7 @@
      "estado": "ok",
      "resumen": "Pasada del radar: la búsqueda (NWS fin de semana, tendencias de Thanksgiving) solo devolvió páginas de inviernos anteriores o índices sin fecha; nada verificabl",
      "cuando": "2026-11-22T17:26",
-     "hace": "hace 17 h",
+     "hace": "hace 19 h",
      "detalle": [
       "20/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2023/2024 y titulares sin gancho explicable. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 verificable; (2) Nvidia/Anthropic IPO/Russell Brand: negocios o chisme/delito, no explicables; (3) superluna del 24/11: lejos y sin ángulo de guardar/comentar. Sin tema nuevo.",
       "22/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2024/2025 y tendencias del 13–18/11; nada verificable de las últimas 48 h. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) CMA Awards / Robert Pattinson como Bond: entretenimiento/chisme, no explicable; (3) FAA ground stop del 13/11: viejo y sin ángulo de guardar/comentar. Sin tema nuevo.",
@@ -693,8 +693,8 @@
      },
      "estado": "aviso",
      "resumen": "Frenó 1 video(s): en-042-frozen-pipes.",
-     "cuando": "2026-11-22T23:35",
-     "hace": "hace 11 h",
+     "cuando": "2026-11-23T12:45",
+     "hace": "hace 1 min",
      "detalle": [
       "en-035-turkey-stuffing: aprobado — Todas las afirmaciones fácticas (seguridad alimentaria) están respaldadas por USDA FSIS y las cifras/unidades coinciden (165 °F en el centro",
       "en-036-phantom-charger: aprobado — Todas las cifras de plata verificadas en fuente primaria de EE. UU. (LBNL standby.lbl.gov: 5-10% y menos de 0,5 W; EIA Energy Explained/Elec",
@@ -728,8 +728,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-11-22T23:35",
-     "hace": "hace 11 h",
+     "cuando": "2026-11-23T12:45",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -751,14 +751,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-22 23:35.",
-     "cuando": "2026-11-22T23:35",
-     "hace": "hace 11 h",
+     "resumen": "Último video terminado: 2026-11-23 12:45.",
+     "cuando": "2026-11-23T12:45",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "7e3d4492a36f"
+     "firma": "449d57cac27a"
     },
     {
      "id": "control",
@@ -775,14 +775,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "12 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-22T23:35",
-     "hace": "hace 11 h",
+     "resumen": "11 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-23T12:45",
+     "hace": "hace 1 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "73ecdfc1fb09"
+     "firma": "53f2416ade77"
     },
     {
      "id": "publicador",
@@ -799,27 +799,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: en-026-el-nino-winter.",
-     "cuando": "2026-11-22T19:36",
-     "hace": "hace 15 h",
+     "resumen": "Último: en-027-bleach-vinegar.",
+     "cuando": "2026-11-23T12:46",
+     "hace": "recién",
      "detalle": [
-      "21/11 19:35 en-030-violent-games en la bandeja de TikTok",
-      "21/11 19:35 en-030-violent-games paquete para TikTok/YouTube enviado",
-      "22/11 12:35 en-031-gta-vice-city publicado: https://www.instagram.com/reel/DgDI4oxiZzX/",
-      "22/11 12:36 en-031-gta-vice-city publicado en Facebook: https://www.facebook.com/reel/1167589246233864/",
       "22/11 12:36 en-031-gta-vice-city en la bandeja de TikTok",
       "22/11 12:36 en-031-gta-vice-city paquete para TikTok/YouTube enviado",
       "22/11 19:35 en-026-el-nino-winter publicado: https://www.instagram.com/reel/DgD49YyD5q8/",
       "22/11 19:36 en-026-el-nino-winter publicado en Facebook: https://www.facebook.com/reel/1938058367279098/",
       "22/11 19:36 en-026-el-nino-winter en la bandeja de TikTok",
-      "22/11 19:36 en-026-el-nino-winter paquete para TikTok/YouTube enviado"
+      "22/11 19:36 en-026-el-nino-winter paquete para TikTok/YouTube enviado",
+      "23/11 12:45 en-027-bleach-vinegar publicado: https://www.instagram.com/reel/DgFuyyQnKXi/",
+      "23/11 12:45 en-027-bleach-vinegar publicado en Facebook: https://www.facebook.com/reel/1362470659185131/",
+      "23/11 12:45 en-027-bleach-vinegar en la bandeja de TikTok",
+      "23/11 12:46 en-027-bleach-vinegar paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: en-027-bleach-vinegar — Bleach + vinegar = chlorine gas (CDC, Poison Control; adapted from 035; pillar home safety)"
+      "Próximo: en-029-swim-after-eating — Do you have to wait to swim after eating? (Red Cross; adapted from 002)"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "398fb58e8cc7"
+     "firma": "69d2059d7449"
     },
     {
      "id": "redes",
@@ -837,17 +837,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-22T19:36",
-     "hace": "hace 15 h",
+     "cuando": "2026-11-23T12:46",
+     "hace": "recién",
      "detalle": [
-      "21/11 12:36 en-028-turkey-sleepy en la bandeja de TikTok",
-      "21/11 12:36 en-028-turkey-sleepy paquete para TikTok/YouTube enviado",
       "21/11 19:35 en-030-violent-games en la bandeja de TikTok",
       "21/11 19:35 en-030-violent-games paquete para TikTok/YouTube enviado",
       "22/11 12:36 en-031-gta-vice-city en la bandeja de TikTok",
       "22/11 12:36 en-031-gta-vice-city paquete para TikTok/YouTube enviado",
       "22/11 19:36 en-026-el-nino-winter en la bandeja de TikTok",
-      "22/11 19:36 en-026-el-nino-winter paquete para TikTok/YouTube enviado"
+      "22/11 19:36 en-026-el-nino-winter paquete para TikTok/YouTube enviado",
+      "23/11 12:45 en-027-bleach-vinegar en la bandeja de TikTok",
+      "23/11 12:46 en-027-bleach-vinegar paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -873,7 +873,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-22T19:43",
-     "hace": "hace 15 h",
+     "hace": "hace 17 h",
      "detalle": [
       "02/11 04:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "02/11 04:22 Termina la respuesta de comentarios (con problemas).",
@@ -908,7 +908,7 @@
      "estado": "ok",
      "resumen": "23/11: 5 seguidores",
      "cuando": "2026-11-23T04:25",
-     "hace": "hace 6 h",
+     "hace": "hace 8 h",
      "detalle": [
       "20/11: 5 seguidores",
       "21/11: 5 seguidores",
@@ -941,7 +941,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: en-042-frozen-pipes — chequeo rechazado 2 veces: los 55 F del NWS no estan en la pagina citada (solo en weather.gov/okx/winterpns7); texto ver",
-     "cuando": "2026-11-23T10:48",
+     "cuando": "2026-11-23T12:46",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: en-042-frozen-pipes — chequeo rechazado 2 veces: los 55 F del NWS no estan en la pagina citada (solo en weather.gov/okx/winterpns7); texto ver"

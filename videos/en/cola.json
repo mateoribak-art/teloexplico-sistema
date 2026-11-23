@@ -973,7 +973,7 @@
  {
   "slug": "en-027-bleach-vinegar",
   "tema": "Bleach + vinegar = chlorine gas (CDC, Poison Control; adapted from 035; pillar home safety)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -994,6 +994,11 @@
     "estado": "listo",
     "cuando": "2026-11-07T00:40",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-23T12:45",
+    "motivo": "https://www.instagram.com/reel/DgFuyyQnKXi/"
    }
   ]
  },
