@@ -64,5 +64,11 @@
   "mensaje": "en-032-gta-13-years no pasó el control y no se publica: falta en-032-gta-13-years.mp4",
   "prioridad": "default",
   "link": null
+ },
+ {
+  "titulo": "⚠️ Sincronización",
+  "mensaje": "notebook: no se pudo leer el Release: error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com | no se pudo subir el estado al repo después de 5 intentos",
+  "prioridad": "default",
+  "link": null
  }
 ]

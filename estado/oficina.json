@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T14:31",
+ "actualizado": "2026-11-23T14:30",
  "oficinas": [
   {
    "clave": "es",
@@ -139,7 +139,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-21T22:55",
-     "hace": "hace 15 h",
+     "hace": "hace 39 h",
      "detalle": [
       "Uso: 33 pasos · 60,992 tokens nuevos · 961,552 de caché · 7,412 escritos · equivale a US$ 0.41 de API",
       "2026-11-21 22:37 Arranca la producción (9 listos en la cola, meta 10).",
@@ -178,7 +178,7 @@
      "estado": "ok",
      "resumen": "Guía de referentes al día.",
      "cuando": "2026-11-05T15:28",
-     "hace": "hace 16 días",
+     "hace": "hace 17 días",
      "detalle": [
       "05/11 15:26 Arranca Vera (referentes).",
       "05/11 15:27 Reels bajados (código 0).",
@@ -207,7 +207,7 @@
      "estado": "ok",
      "resumen": "Revisión radar (segunda pasada). Dos búsquedas web (alertas SMN y tendencias): lo más reciente es del 16-nov. SIN tema nuevo verificable. Descartados: (a) alert",
      "cuando": "2026-11-21T17:12",
-     "hace": "hace 21 h",
+     "hace": "hace 45 h",
      "detalle": [
       "20/11 00:00 | Revisión radar. Búsquedas web (SMN + noticias/tendencias del día). SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por tormentas y granizo en 7-11 provincias incl. Buenos Aires (SMN hoy, La Nación/NA) -> granizo/tormenta/refresca/olor a lluvia ya cubiertos (005/024/018/004/016), sin ángulo nuevo; (b) Día de la Soberanía 20/11 -> YA en cola (053-cadenas-parana, en render); (c) dólar/CCL, ley de patentes, ley discapacidad, Tesla en Argentina -> política/economía/empresa, no encajan. Sigue la cola normal.",
       "21/11 00:00 | Revisión radar (turno nube). Una búsqueda web (SMN fin de semana largo): solo resultados de otros años, nada verificable fechado de hoy. SIN tema nuevo; sigue la cola normal.",
@@ -245,7 +245,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-21T22:54",
-     "hace": "hace 15 h",
+     "hace": "hace 39 h",
      "detalle": [
       "056-gta-trece-anios: aprobado — Todas las afirmaciones fácticas (fechas de GTA V y GTA 6, anuncio para 2025, las dos postergaciones y la cuenta de trece años y dos meses) e",
       "057-ruta-40-de-punta-a-punta: aprobado — Todas las cifras y datos duros (más de 5.000 km, extremos, once provincias, ruta más larga) quedaron verificados con fuentes. La dispersión ",
@@ -278,7 +278,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-21T22:54",
-     "hace": "hace 15 h",
+     "hace": "hace 39 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -302,7 +302,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-21 22:54.",
      "cuando": "2026-11-21T22:54",
-     "hace": "hace 15 h",
+     "hace": "hace 39 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -326,7 +326,7 @@
      "estado": "aviso",
      "resumen": "Apartó 5 video(s) en las últimas 48 h.",
      "cuando": "2026-11-21T22:54",
-     "hace": "hace 15 h",
+     "hace": "hace 39 h",
      "detalle": [],
      "tareas": [
       "054-gta-juegos-violentos: falta 054-gta-juegos-violentos.mp4",
@@ -354,9 +354,9 @@
       }
      },
      "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 12:30 (22/11).",
+     "resumen": "No salió la publicación del turno de las 12:30 (23/11).",
      "cuando": "2026-11-22T14:31",
-     "hace": "recién",
+     "hace": "hace 23 h",
      "detalle": [
       "21/11 19:32 050-martes-13-no-viernes publicado: https://www.instagram.com/reel/DgBT071FVl1/",
       "21/11 19:33 050-martes-13-no-viernes publicado en Facebook: https://www.facebook.com/reel/1429436016923623/",
@@ -374,7 +374,7 @@
      ],
      "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
      "solo": false,
-     "firma": "7bc919aed6c3"
+     "firma": "e06dc7ebf38b"
     },
     {
      "id": "redes",
@@ -393,7 +393,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-21T19:33",
-     "hace": "hace 18 h",
+     "hace": "hace 42 h",
      "detalle": [
       "20/11 19:34 053-cadenas-parana https://youtube.com/shorts/GYLmYZ8uGk4 | privacidad: public",
       "20/11 19:34 053-cadenas-parana paquete para TikTok/YouTube enviado",
@@ -425,7 +425,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-21T22:55",
-     "hace": "hace 15 h",
+     "hace": "hace 39 h",
      "detalle": [
       "2026-11-21 00:16 arroz-recalentado: listo control OK",
       "2026-11-21 00:16 arroz-recalentado: listo control OK",
@@ -459,7 +459,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-20T20:19",
-     "hace": "hace 42 h",
+     "hace": "hace 2 días",
      "detalle": [
       "07/11 18:02 Hay 18 comentarios nuevos: arranca la respuesta.",
       "07/11 00:00 Respondí 16 · salteé 2 · alerté 0. (026-mediodia-hora-corrida: 14 respondidos, incluido alejandrokalfayan (hora oficial vs longitud, con Ley 26.350); 028-yerba-por-ano: 2 respondidos; salteados: aledelejos (vulgar, tema político de la hora) y un duplicado de fulanocris)",
@@ -498,7 +498,7 @@
      "estado": "aviso",
      "resumen": "Las métricas tienen más de un día.",
      "cuando": "2026-11-21T03:56",
-     "hace": "hace 34 h",
+     "hace": "hace 2 días",
      "detalle": [
       "18/11: 993 seguidores",
       "19/11: 1013 seguidores",
@@ -530,11 +530,11 @@
       }
      },
      "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 12:30 (22/11).",
-     "cuando": "2026-11-22T14:31",
+     "resumen": "No salió la publicación del turno de las 12:30 (23/11).",
+     "cuando": "2026-11-23T14:30",
      "hace": "recién",
      "detalle": [
-      "❗ No salió la publicación del turno de las 12:30 (22/11).",
+      "❗ No salió la publicación del turno de las 12:30 (23/11).",
       "⚠️ Video apartado: 054-gta-juegos-violentos — falta 054-gta-juegos-violentos.mp4",
       "⚠️ Video apartado: 055-gta-vice-city-miami — falta 055-gta-vice-city-miami.mp4",
       "⚠️ Video apartado: 056-gta-trece-anios — falta 056-gta-trece-anios.mp4",
@@ -545,7 +545,7 @@
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "8fe7102c0c9c"
+     "firma": "10a30d9c0976"
     },
     {
      "id": "planb",
@@ -709,7 +709,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-21T23:05",
-     "hace": "hace 15 h",
+     "hace": "hace 39 h",
      "detalle": [
       "Uso: 54 pasos · 76,619 tokens nuevos · 1,703,151 de caché · 16,430 escritos · equivale a US$ 0.93 de API",
       "2026-11-21 22:55 Arranca la producción (9 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
@@ -746,7 +746,7 @@
      "estado": "ok",
      "resumen": "Pasada del radar: la búsqueda (NWS fin de semana, tendencias de Thanksgiving) solo devolvió páginas de inviernos anteriores o índices sin fecha; nada verificabl",
      "cuando": "2026-11-21T17:13",
-     "hace": "hace 21 h",
+     "hace": "hace 45 h",
      "detalle": [
       "07/11 00:00 Duodécima pasada del radar: la búsqueda (NWS fin de semana) solo devolvió páginas sin fecha o de 2025/marzo 2026; nada verificable de las últimas 48 h. Descartados: (1) frío/tormenta invernal del fin de semana: notas sin fecha, sin fuente oficial del día; (2) El Niño: ya en cola (en-026); (3) superluna del 24/11: lejos. Sin tema nuevo.",
       "20/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2023/2024 y titulares sin gancho explicable. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 verificable; (2) Nvidia/Anthropic IPO/Russell Brand: negocios o chisme/delito, no explicables; (3) superluna del 24/11: lejos y sin ángulo de guardar/comentar. Sin tema nuevo.",
@@ -778,7 +778,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-21T23:05",
-     "hace": "hace 15 h",
+     "hace": "hace 39 h",
      "detalle": [
       "en-030-violent-games: aprobado — Todas las afirmaciones coinciden con la fuente primaria (comunicado APA del 3/3/2020, texto citado literalmente en apa.org) y la fecha de GT",
       "en-031-gta-vice-city: aprobado — Ninguna afirmación es falsa y no hay cifras, salud, seguridad ni plata. Lo verificado (nombre Vice City, estado de Leonida, cita del sitio o",
@@ -811,7 +811,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-21T23:05",
-     "hace": "hace 15 h",
+     "hace": "hace 39 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -835,7 +835,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-21 23:05.",
      "cuando": "2026-11-21T23:05",
-     "hace": "hace 15 h",
+     "hace": "hace 39 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -859,7 +859,7 @@
      "estado": "aviso",
      "resumen": "Apartó 5 video(s) en las últimas 48 h.",
      "cuando": "2026-11-21T23:05",
-     "hace": "hace 15 h",
+     "hace": "hace 39 h",
      "detalle": [],
      "tareas": [
       "en-026-el-nino-winter: falta en-026-el-nino-winter.mp4",
@@ -887,9 +887,9 @@
       }
      },
      "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 12:30 (22/11).",
+     "resumen": "No salió la publicación del turno de las 12:30 (23/11).",
      "cuando": "2026-11-22T14:31",
-     "hace": "recién",
+     "hace": "hace 23 h",
      "detalle": [
       "21/11 12:36 en-028-turkey-sleepy paquete para TikTok/YouTube enviado",
       "21/11 19:34 en-030-violent-games publicado: https://www.instagram.com/reel/DgBUD3Ckszu/",
@@ -907,7 +907,7 @@
      ],
      "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
      "solo": false,
-     "firma": "d77e5ac65b65"
+     "firma": "98580e4bd072"
     },
     {
      "id": "redes",
@@ -926,7 +926,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-21T19:35",
-     "hace": "hace 18 h",
+     "hace": "hace 42 h",
      "detalle": [
       "20/11 13:36 en-024-heat-index en la bandeja de TikTok",
       "20/11 13:37 en-024-heat-index paquete para TikTok/YouTube enviado",
@@ -961,7 +961,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-02T21:16",
-     "hace": "hace 19 días",
+     "hace": "hace 20 días",
      "detalle": [
       "01/11 18:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "01/11 18:22 Termina la respuesta de comentarios (con problemas).",
@@ -996,7 +996,7 @@
      "estado": "ok",
      "resumen": "Revisado por el técnico: Max (Métricas) estaba en aviso porque el resumen diario no corría; relancé el resumen a mano y todavía no terminó.",
      "cuando": "2026-11-21T03:56",
-     "hace": "hace 34 h",
+     "hace": "hace 2 días",
      "detalle": [
       "06/11: 3 seguidores",
       "07/11: 5 seguidores",
@@ -1028,11 +1028,11 @@
       }
      },
      "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 12:30 (22/11).",
-     "cuando": "2026-11-22T14:31",
+     "resumen": "No salió la publicación del turno de las 12:30 (23/11).",
+     "cuando": "2026-11-23T14:30",
      "hace": "recién",
      "detalle": [
-      "❗ No salió la publicación del turno de las 12:30 (22/11).",
+      "❗ No salió la publicación del turno de las 12:30 (23/11).",
       "⚠️ Video apartado: en-026-el-nino-winter — falta en-026-el-nino-winter.mp4",
       "⚠️ Video apartado: en-027-bleach-vinegar — falta en-027-bleach-vinegar.mp4",
       "⚠️ Video apartado: en-029-swim-after-eating — falta en-029-swim-after-eating.mp4",
@@ -1042,7 +1042,7 @@
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "0a17015c7d4d"
+     "firma": "7ce5e7b50912"
     }
    ]
   }
