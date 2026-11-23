@@ -1,0 +1,27 @@
+{
+  "titulo": "La superluna no se ve gigante: la ilusión lo hace",
+  "fondo": "oscuro",
+  "receta": "El acusado equivocado / todos dicen X y en realidad es Y",
+  "pilar": "fandom",
+  "interaccion": ["comentar", "guardar"],
+  "destinatario": "se lo manda alguien que no cree en el cuento de la luna gigante a su amigo que siempre jura que la luna 'está enorme', para ganarle la discusión",
+  "regla_guardable": "Superluna = hasta 14 % más grande y 30 % más brillante (NASA); la luna enorme en el horizonte es una ilusión y pasa con cualquier luna llena.",
+  "pregunta_comentarios": "¿Vos la vas a mirar? Sí o no",
+  "actualidad": "Superluna del Castor, luna llena el martes 24/11/2026",
+  "fuentes": [
+    "NASA Science: Supermoons",
+    "Perfil: luna llena de noviembre 2026, superluna del Castor",
+    "Star Walk: superluna del Castor 2026"
+  ],
+  "frases": [
+    {"texto": "Esta semana hay superluna, y no la vas a ver gigante.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "La órbita de la Luna es un óvalo, y a veces pasa más cerca de la Tierra.", "estilo": "Claro, ritmo ágil."},
+    {"texto": "Si la luna llena coincide con ese punto cercano, le dicen superluna.", "estilo": "Explicativo, simple."},
+    {"texto": "La NASA dice que se ve hasta catorce por ciento más grande y treinta por ciento más brillante que la luna llena más lejana.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Eso, a simple vista, cuesta notarlo.", "estilo": "Golpe seco."},
+    {"texto": "Ojo: la luna enorme pegada al horizonte es una ilusión óptica, y pasa con cualquier luna llena.", "estilo": "Matiz honesto, firme."},
+    {"texto": "Sale el martes veinticuatro, de noche.", "estilo": "Cercano, directo."},
+    {"texto": "¿Vos la vas a mirar? Contestá con una palabra: sí o no.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al que va a jurar que la luna está enorme.", "estilo": "Cómplice, con humor."}
+  ]
+}

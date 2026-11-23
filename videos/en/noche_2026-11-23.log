@@ -1,0 +1,8 @@
+2026-11-23 10:43 Arranca la producción (12 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+No quedó ningún video nuevo listo: el único que produje, `en-042-frozen-pipes`, está apartado.
+
+- **Listo:** ninguno nuevo. Antes de empezar no había videos apartados por chequeo para rescatar ni videos en producción.
+- **Apartado:** `en-042-frozen-pipes` (serie casa, goteo de la llave y gabinetes abiertos para que no se congelen las cañerías). El chequeo lo rechazó dos veces. La primera fue por dos frases sin fuente, que corregí. La segunda fue porque los 55 °F que cita el guion solo aparecen en `weather.gov/okx/winterpns7`, no en la página que citaba el caption.
+- **Qué falta:** el texto hablado ya quedó verificado. Para rescatarlo hay que cambiar las fuentes en `guion.json` y `caption.txt`, como indica `version_verificada` en `chequeo.json`, y después generar la voz y correr `tlx tsc`. Dejé registrado el objeto 3D `Cano.tsx`, el `Video.tsx` y las entradas de `Root.tsx`, y anoté la idea en `ideas.md` y `produccion.log`.
+Uso: 8 pasos · 5,142 tokens nuevos · 499,782 de caché · 3,286 escritos · equivale a US$ 1.07 de API
+2026-11-23 10:48 Termina la producción (ok).

@@ -2500,5 +2500,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "068-superluna-no-tan-grande",
+  "tema": "Superluna del 24/11: se ve apenas más grande de lo normal (NASA: hasta 14 % más grande y 30 % más brillante que la luna llena más chica); la ilusión lunar hace el resto --actualidad",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-23T10:30",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-23T10:30",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-23T10:36",
+    "motivo": "escenas 3D listas (actualidad: superluna 24/11)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-23T10:43",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

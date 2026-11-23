@@ -1,0 +1,93 @@
+{
+  "veredicto": "rechazado",
+  "motivo": "Las dos frases sin fuente de la revision anterior ya estan corregidas, y todas las afirmaciones del guion son verdaderas y atribuidas a la institucion correcta. Queda un unico problema, de fidelidad de cita en un dato de seguridad: el caption cita como fuente weather.gov/okx/extremecoldpns, y en esa pagina los 55 F aparecen SOLO para cuando uno se va de casa ('Don't turn the heat down too much if you are going away. Leave the heat set to at least 55 degrees.'). Quien abra el link no encuentra 'keep the heat on, no lower than 55' como consejo general. La frase del guion SI es fiel al NWS, pero la fuente que sostiene ese contexto (pipes en paredes exteriores, en general, de noche) es otra pagina del NWS Nueva York: weather.gov/okx/winterpns7 ('To keep pipes from freezing along outside walls, make sure thermostat is set to no lower than 55 degrees, open cabinet doors, and let hot and cold water trickle at night from a faucet.'). Arreglo minimo: agregar esa URL a las fuentes del caption y de guion.json (campo 'fuentes'); con eso se aprueba sin tocar el texto hablado.",
+  "version_verificada": {
+    "caption_sources": "Sources: FEMA (fema.gov/blog/5-ways-safely-weather-storm); National Weather Service, New York (weather.gov/okx/winterpns7 and weather.gov/okx/extremecoldpns).",
+    "guion_fuentes": [
+      "FEMA: 5 Ways to Safely Weather the Storm (fema.gov/blog/5-ways-safely-weather-storm)",
+      "National Weather Service New York: weather.gov/okx/winterpns7 and weather.gov/okx/extremecoldpns"
+    ],
+    "nota": "El texto hablado y el del caption pueden quedar tal cual. Opcional: 'fifty-five degrees Fahrenheit' o dejar 55°F en pantalla (ya esta en el caption)."
+  },
+  "afirmaciones": [
+    {
+      "texto": "On a freezing night, the water in your pipes can freeze.",
+      "fuente": "NWS Nueva York https://www.weather.gov/okx/extremecoldpns ('Allow faucets to drip slowly to keep unheated pipes from freezing'; 'Insulate water supply lines that run through unheated areas'). Con 'can' es una posibilidad, no una promesa.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Here's one simple step: let a faucet drip.",
+      "fuente": "FEMA https://www.fema.gov/blog/5-ways-safely-weather-storm y NWS (okx/extremecoldpns, okx/winterpns7). Ya no dice 'cheap' ni 'fix'; 'one simple step' es descripcion, no promesa de resultado ni de costo.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "FEMA says a slow drip keeps water moving through the pipes, which reduces the chance of freezing.",
+      "fuente": "FEMA https://www.fema.gov/blog/5-ways-safely-weather-storm, cita textual: 'Allowing faucets to drip slowly keeps water moving through the pipes, reducing the chance of freezing.' La pagina no menciona gabinetes ni termostato, y el guion solo le atribuye el goteo.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The National Weather Service adds two more: open the cabinet doors under your sinks, so warmer air can reach the pipes.",
+      "fuente": "NWS Nueva York https://www.weather.gov/okx/extremecoldpns: 'Open kitchen and bathroom sink cabinets to allow warmer air to circulate around plumbing.' Tambien https://www.weather.gov/okx/winterpns7 ('open cabinet doors'). 'Two more' = gabinetes + calefaccion (frase siguiente).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "And keep the heat on, no lower than fifty-five degrees.",
+      "fuente": "NWS Nueva York https://www.weather.gov/okx/winterpns7: 'To keep pipes from freezing along outside walls, make sure thermostat is set to no lower than 55 degrees...' (consejo general, de noche). En https://www.weather.gov/okx/extremecoldpns el 55 F figura solo para cuando uno se va ('Leave the heat set to at least 55 degrees'). La atribucion al NWS es fiel; el contexto exacto varia segun la pagina, y la cita del caption debe incluir winterpns7. Unidad F (default en EE. UU.), cifra coincide. Es un piso, no una recomendacion de ahorro.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: this lowers the chance of freezing. It's not a guarantee.",
+      "fuente": "Consistente con FEMA ('reducing the chance of freezing'); 'not a guarantee' es un descargo, no una afirmacion factica.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Save this for the next freezing night: drip the faucet, open the cabinets, keep the heat on.",
+      "fuente": "Resumen de los tres pasos verificados arriba (FEMA / NWS winterpns7 y okx/extremecoldpns).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Do you drip your faucets when it freezes? Yes or no?",
+      "fuente": "Pregunta, sin afirmacion factica.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Send this to the friend who finds out about the pipes in the morning.",
+      "fuente": "Humor / llamado a la accion, sin afirmacion factica.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "CAPTION: On a freezing night, a slow drip can help your pipes",
+      "fuente": "FEMA (reduce la chance de congelamiento); 'can help' no promete garantia.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "CAPTION: FEMA says letting faucets drip slowly keeps water moving through the pipes, which reduces the chance of freezing. The National Weather Service adds: open the cabinet doors under your sinks so warmer air can reach the pipes, and keep the heat on, no lower than 55°F.",
+      "fuente": "FEMA (goteo) y NWS (gabinetes: okx/extremecoldpns; 55 F: okx/winterpns7). Texto fiel.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "CAPTION: Sources: FEMA (\"5 Ways to Safely Weather the Storm\"); National Weather Service (weather.gov/okx/extremecoldpns; extreme cold public service announcement).",
+      "fuente": "FEMA correcto. La URL del NWS existe y respalda goteo y gabinetes, pero NO respalda los 55 F como consejo general (solo 'si te vas'). Falta winterpns7.",
+      "estado": "probable",
+      "matiz_ok": false,
+      "sugerencia": "Sources: FEMA (fema.gov/blog/5-ways-safely-weather-storm); National Weather Service, New York (weather.gov/okx/winterpns7 and weather.gov/okx/extremecoldpns)."
+    },
+    {
+      "texto": "Titulo: How to help keep your pipes from freezing",
+      "fuente": "'help keep' no promete resultado; coherente con 'reducing the chance' (FEMA).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

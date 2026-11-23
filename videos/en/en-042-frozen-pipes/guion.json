@@ -1,0 +1,26 @@
+{
+  "titulo": "How to help keep your pipes from freezing",
+  "pilar": "casa",
+  "receta": "error cotidiano + regla para guardar (qué hacer la noche que baja de cero)",
+  "fondo": "oscuro",
+  "destinatario": "Se lo manda alguien a su amigo o a su papá que se olvida de todo hasta que la cañería ya se rompió.",
+  "interaccion": {
+    "guardar": "Freezing night: drip the faucet, open the cabinet doors under the sinks, keep the heat on (no lower than 55°F).",
+    "comentar": "Do you drip your faucets when it freezes? Yes or no?"
+  },
+  "fuentes": [
+    "FEMA: 5 Ways to Safely Weather the Storm",
+    "National Weather Service: extreme cold public service announcement"
+  ],
+  "frases": [
+    {"texto": "On a freezing night, the water in your pipes can freeze.", "estilo": "Casual, a little teasing."},
+    {"texto": "Here's one simple step: let a faucet drip.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "FEMA says a slow drip keeps water moving through the pipes, which reduces the chance of freezing.", "estilo": "Clear, matter of fact."},
+    {"texto": "The National Weather Service adds two more: open the cabinet doors under your sinks, so warmer air can reach the pipes.", "estilo": "Explaining, steady."},
+    {"texto": "And keep the heat on, no lower than fifty-five degrees.", "estilo": "Practical, friendly."},
+    {"texto": "Heads up: this lowers the chance of freezing. It's not a guarantee.", "estilo": "Warm, honest, with the caveat."},
+    {"texto": "Save this for the next freezing night: drip the faucet, open the cabinets, keep the heat on.", "estilo": "Practical, friendly."},
+    {"texto": "Do you drip your faucets when it freezes? Yes or no?", "estilo": "Casual, inviting."},
+    {"texto": "Send this to the friend who finds out about the pipes in the morning.", "estilo": "Playful, with humor."}
+  ]
+}

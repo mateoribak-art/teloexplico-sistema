@@ -1,0 +1,648 @@
+{
+ "duracion": 41.11,
+ "frases": [
+  {
+   "texto": "Esta semana hay superluna, y no la vas a ver gigante.",
+   "palabras": [
+    {
+     "texto": "Esta",
+     "inicio": 0.0,
+     "fin": 0.2
+    },
+    {
+     "texto": "semana",
+     "inicio": 0.2,
+     "fin": 0.56
+    },
+    {
+     "texto": "hay",
+     "inicio": 0.56,
+     "fin": 0.9
+    },
+    {
+     "texto": "superluna,",
+     "inicio": 0.9,
+     "fin": 1.54
+    },
+    {
+     "texto": "y",
+     "inicio": 2.04,
+     "fin": 2.26
+    },
+    {
+     "texto": "no",
+     "inicio": 2.26,
+     "fin": 2.52
+    },
+    {
+     "texto": "la",
+     "inicio": 2.52,
+     "fin": 2.68
+    },
+    {
+     "texto": "vas",
+     "inicio": 2.68,
+     "fin": 2.88
+    },
+    {
+     "texto": "a",
+     "inicio": 2.88,
+     "fin": 3.04
+    },
+    {
+     "texto": "ver",
+     "inicio": 3.04,
+     "fin": 3.16
+    },
+    {
+     "texto": "gigante.",
+     "inicio": 3.16,
+     "fin": 3.64
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.64
+  },
+  {
+   "texto": "La órbita de la Luna es un óvalo, y a veces pasa más cerca de la Tierra.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 4.16,
+     "fin": 4.34
+    },
+    {
+     "texto": "órbita",
+     "inicio": 4.34,
+     "fin": 4.7
+    },
+    {
+     "texto": "de",
+     "inicio": 4.7,
+     "fin": 4.82
+    },
+    {
+     "texto": "la",
+     "inicio": 4.82,
+     "fin": 4.92
+    },
+    {
+     "texto": "Luna",
+     "inicio": 4.92,
+     "fin": 5.12
+    },
+    {
+     "texto": "es",
+     "inicio": 5.12,
+     "fin": 5.54
+    },
+    {
+     "texto": "un",
+     "inicio": 5.54,
+     "fin": 5.7
+    },
+    {
+     "texto": "óvalo,",
+     "inicio": 5.7,
+     "fin": 6.2
+    },
+    {
+     "texto": "y",
+     "inicio": 6.44,
+     "fin": 6.66
+    },
+    {
+     "texto": "a",
+     "inicio": 6.66,
+     "fin": 6.78
+    },
+    {
+     "texto": "veces",
+     "inicio": 6.78,
+     "fin": 6.94
+    },
+    {
+     "texto": "pasa",
+     "inicio": 6.94,
+     "fin": 7.26
+    },
+    {
+     "texto": "más",
+     "inicio": 7.26,
+     "fin": 7.52
+    },
+    {
+     "texto": "cerca",
+     "inicio": 7.52,
+     "fin": 7.76
+    },
+    {
+     "texto": "de",
+     "inicio": 7.76,
+     "fin": 7.92
+    },
+    {
+     "texto": "la",
+     "inicio": 7.92,
+     "fin": 8.0
+    },
+    {
+     "texto": "Tierra.",
+     "inicio": 8.0,
+     "fin": 8.34
+    }
+   ],
+   "inicio": 4.16,
+   "fin": 8.34
+  },
+  {
+   "texto": "Si la luna llena coincide con ese punto cercano, le dicen superluna.",
+   "palabras": [
+    {
+     "texto": "Si",
+     "inicio": 8.88,
+     "fin": 9.04
+    },
+    {
+     "texto": "la",
+     "inicio": 9.04,
+     "fin": 9.16
+    },
+    {
+     "texto": "luna",
+     "inicio": 9.16,
+     "fin": 9.36
+    },
+    {
+     "texto": "llena",
+     "inicio": 9.36,
+     "fin": 9.62
+    },
+    {
+     "texto": "coincide",
+     "inicio": 9.62,
+     "fin": 10.16
+    },
+    {
+     "texto": "con",
+     "inicio": 10.16,
+     "fin": 10.34
+    },
+    {
+     "texto": "ese",
+     "inicio": 10.34,
+     "fin": 10.48
+    },
+    {
+     "texto": "punto",
+     "inicio": 10.48,
+     "fin": 10.74
+    },
+    {
+     "texto": "cercano,",
+     "inicio": 10.74,
+     "fin": 11.22
+    },
+    {
+     "texto": "le",
+     "inicio": 11.68,
+     "fin": 11.84
+    },
+    {
+     "texto": "dicen",
+     "inicio": 11.84,
+     "fin": 12.12
+    },
+    {
+     "texto": "superluna.",
+     "inicio": 12.12,
+     "fin": 12.88
+    }
+   ],
+   "inicio": 8.88,
+   "fin": 12.88
+  },
+  {
+   "texto": "La NASA dice que se ve hasta catorce por ciento más grande y treinta por ciento más brillante que la luna llena más lejana.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 13.34,
+     "fin": 13.54
+    },
+    {
+     "texto": "NASA",
+     "inicio": 13.54,
+     "fin": 13.72
+    },
+    {
+     "texto": "dice",
+     "inicio": 13.72,
+     "fin": 13.96
+    },
+    {
+     "texto": "que",
+     "inicio": 13.96,
+     "fin": 14.16
+    },
+    {
+     "texto": "se",
+     "inicio": 14.16,
+     "fin": 14.28
+    },
+    {
+     "texto": "ve",
+     "inicio": 14.28,
+     "fin": 14.44
+    },
+    {
+     "texto": "hasta",
+     "inicio": 14.44,
+     "fin": 14.7
+    },
+    {
+     "texto": "catorce",
+     "inicio": 14.7,
+     "fin": 15.42
+    },
+    {
+     "texto": "por",
+     "inicio": 15.42,
+     "fin": 15.6
+    },
+    {
+     "texto": "ciento",
+     "inicio": 15.6,
+     "fin": 15.8
+    },
+    {
+     "texto": "más",
+     "inicio": 15.8,
+     "fin": 16.06
+    },
+    {
+     "texto": "grande",
+     "inicio": 16.06,
+     "fin": 16.36
+    },
+    {
+     "texto": "y",
+     "inicio": 16.36,
+     "fin": 16.98
+    },
+    {
+     "texto": "treinta",
+     "inicio": 16.98,
+     "fin": 17.36
+    },
+    {
+     "texto": "por",
+     "inicio": 17.36,
+     "fin": 17.62
+    },
+    {
+     "texto": "ciento",
+     "inicio": 17.62,
+     "fin": 17.8
+    },
+    {
+     "texto": "más",
+     "inicio": 17.8,
+     "fin": 18.02
+    },
+    {
+     "texto": "brillante",
+     "inicio": 18.02,
+     "fin": 18.5
+    },
+    {
+     "texto": "que",
+     "inicio": 18.5,
+     "fin": 18.84
+    },
+    {
+     "texto": "la",
+     "inicio": 18.84,
+     "fin": 18.98
+    },
+    {
+     "texto": "luna",
+     "inicio": 18.98,
+     "fin": 19.18
+    },
+    {
+     "texto": "llena",
+     "inicio": 19.18,
+     "fin": 19.5
+    },
+    {
+     "texto": "más",
+     "inicio": 19.5,
+     "fin": 19.78
+    },
+    {
+     "texto": "lejana.",
+     "inicio": 19.78,
+     "fin": 20.14
+    }
+   ],
+   "inicio": 13.34,
+   "fin": 20.14
+  },
+  {
+   "texto": "Eso, a simple vista, cuesta notarlo.",
+   "palabras": [
+    {
+     "texto": "Eso,",
+     "inicio": 20.64,
+     "fin": 20.94
+    },
+    {
+     "texto": "a",
+     "inicio": 21.18,
+     "fin": 21.36
+    },
+    {
+     "texto": "simple",
+     "inicio": 21.36,
+     "fin": 21.6
+    },
+    {
+     "texto": "vista,",
+     "inicio": 21.6,
+     "fin": 21.94
+    },
+    {
+     "texto": "cuesta",
+     "inicio": 22.38,
+     "fin": 22.82
+    },
+    {
+     "texto": "notarlo.",
+     "inicio": 22.82,
+     "fin": 23.3
+    }
+   ],
+   "inicio": 20.64,
+   "fin": 23.3
+  },
+  {
+   "texto": "Ojo: la luna enorme pegada al horizonte es una ilusión óptica, y pasa con cualquier luna llena.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 23.78,
+     "fin": 24.02
+    },
+    {
+     "texto": "la",
+     "inicio": 24.82,
+     "fin": 25.0
+    },
+    {
+     "texto": "luna",
+     "inicio": 25.0,
+     "fin": 25.3
+    },
+    {
+     "texto": "enorme",
+     "inicio": 25.3,
+     "fin": 26.08
+    },
+    {
+     "texto": "pegada",
+     "inicio": 26.08,
+     "fin": 26.7
+    },
+    {
+     "texto": "al",
+     "inicio": 26.7,
+     "fin": 26.88
+    },
+    {
+     "texto": "horizonte",
+     "inicio": 26.88,
+     "fin": 27.42
+    },
+    {
+     "texto": "es",
+     "inicio": 27.42,
+     "fin": 28.12
+    },
+    {
+     "texto": "una",
+     "inicio": 28.12,
+     "fin": 28.32
+    },
+    {
+     "texto": "ilusión",
+     "inicio": 28.32,
+     "fin": 28.74
+    },
+    {
+     "texto": "óptica,",
+     "inicio": 28.74,
+     "fin": 29.12
+    },
+    {
+     "texto": "y",
+     "inicio": 29.46,
+     "fin": 29.68
+    },
+    {
+     "texto": "pasa",
+     "inicio": 29.68,
+     "fin": 29.9
+    },
+    {
+     "texto": "con",
+     "inicio": 29.9,
+     "fin": 30.14
+    },
+    {
+     "texto": "cualquier",
+     "inicio": 30.14,
+     "fin": 30.48
+    },
+    {
+     "texto": "luna",
+     "inicio": 30.48,
+     "fin": 30.92
+    },
+    {
+     "texto": "llena.",
+     "inicio": 30.92,
+     "fin": 31.24
+    }
+   ],
+   "inicio": 23.78,
+   "fin": 31.24
+  },
+  {
+   "texto": "Sale el martes veinticuatro, de noche.",
+   "palabras": [
+    {
+     "texto": "Sale",
+     "inicio": 31.76,
+     "fin": 31.9
+    },
+    {
+     "texto": "el",
+     "inicio": 31.9,
+     "fin": 32.04
+    },
+    {
+     "texto": "martes",
+     "inicio": 32.04,
+     "fin": 32.3
+    },
+    {
+     "texto": "veinticuatro,",
+     "inicio": 32.3,
+     "fin": 32.92
+    },
+    {
+     "texto": "de",
+     "inicio": 33.38,
+     "fin": 33.44
+    },
+    {
+     "texto": "noche.",
+     "inicio": 33.44,
+     "fin": 33.64
+    }
+   ],
+   "inicio": 31.76,
+   "fin": 33.64
+  },
+  {
+   "texto": "¿Vos la vas a mirar? Contestá con una palabra: sí o no.",
+   "palabras": [
+    {
+     "texto": "¿Vos",
+     "inicio": 34.24,
+     "fin": 34.38
+    },
+    {
+     "texto": "la",
+     "inicio": 34.38,
+     "fin": 34.48
+    },
+    {
+     "texto": "vas",
+     "inicio": 34.48,
+     "fin": 34.6
+    },
+    {
+     "texto": "a",
+     "inicio": 34.6,
+     "fin": 34.68
+    },
+    {
+     "texto": "mirar?",
+     "inicio": 34.68,
+     "fin": 34.94
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 35.38,
+     "fin": 35.72
+    },
+    {
+     "texto": "con",
+     "inicio": 35.72,
+     "fin": 35.86
+    },
+    {
+     "texto": "una",
+     "inicio": 35.86,
+     "fin": 35.98
+    },
+    {
+     "texto": "palabra:",
+     "inicio": 35.98,
+     "fin": 36.3
+    },
+    {
+     "texto": "sí",
+     "inicio": 36.88,
+     "fin": 37.08
+    },
+    {
+     "texto": "o",
+     "inicio": 37.08,
+     "fin": 37.66
+    },
+    {
+     "texto": "no.",
+     "inicio": 37.66,
+     "fin": 37.8
+    }
+   ],
+   "inicio": 34.24,
+   "fin": 37.8
+  },
+  {
+   "texto": "Mandáselo al que va a jurar que la luna está enorme.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 38.24,
+     "fin": 38.76
+    },
+    {
+     "texto": "al",
+     "inicio": 38.76,
+     "fin": 38.84
+    },
+    {
+     "texto": "que",
+     "inicio": 38.84,
+     "fin": 38.94
+    },
+    {
+     "texto": "va",
+     "inicio": 38.94,
+     "fin": 39.04
+    },
+    {
+     "texto": "a",
+     "inicio": 39.04,
+     "fin": 39.08
+    },
+    {
+     "texto": "jurar",
+     "inicio": 39.08,
+     "fin": 39.44
+    },
+    {
+     "texto": "que",
+     "inicio": 39.44,
+     "fin": 39.7
+    },
+    {
+     "texto": "la",
+     "inicio": 39.7,
+     "fin": 39.84
+    },
+    {
+     "texto": "luna",
+     "inicio": 39.84,
+     "fin": 40.08
+    },
+    {
+     "texto": "está",
+     "inicio": 40.08,
+     "fin": 40.28
+    },
+    {
+     "texto": "enorme.",
+     "inicio": 40.28,
+     "fin": 40.78
+    }
+   ],
+   "inicio": 38.24,
+   "fin": 40.78
+  }
+ ]
+}

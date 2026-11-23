@@ -1,0 +1,11 @@
+2026-11-23 10:29 Arranca la producción (12 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+`chequeo.json` es JSON válido y el veredicto es aprobado, así que `068-superluna-no-tan-grande` queda confirmado. Ya estaban hechos la voz (41,1 s, 116/116), `tsc` sin errores, los cuadros revisados en 2 vueltas y el caption con la sugerencia del chequeo aplicada. El video sigue en `render` y el render nocturno lo pasa a `listo`.
+
+Resumen:
+1. **Listo para render:** `068-superluna-no-tan-grande`, actualidad de la superluna del 24/11, serie ciencia #5.
+2. **Apartados:** no había ninguno por chequeo rechazado. 038, 042, 044 y 051 siguen apartados por falta de mp4 o por vencidos, y no los toqué.
+3. **Incompletos:** ninguno. No produje un segundo video porque la cola ya tenía 12 listos.
+Uso: 2 pasos · 2,351 tokens nuevos · 242,973 de caché · 463 escritos · equivale a US$ 1.18 de API
+2026-11-23 10:36 Render de 068-superluna-no-tan-grande (sin Claude).
+2026-11-23 10:43 068-superluna-no-tan-grande: listo (render sin Claude)
+2026-11-23 10:43 Termina la producción (ok).

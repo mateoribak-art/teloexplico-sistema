@@ -1383,5 +1383,27 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-042-frozen-pipes",
+  "tema": "Frozen pipes: drip the faucet, open cabinets (FEMA, NWS; own; home)",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-23T10:44",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-23T10:44",
+    "motivo": ""
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-23T10:47",
+    "motivo": "chequeo rechazado 2 veces: los 55 F del NWS no estan en la pagina citada (solo en weather.gov/okx/winterpns7); texto verificado, falta corregir fuentes"
+   }
+  ]
  }
 ]
