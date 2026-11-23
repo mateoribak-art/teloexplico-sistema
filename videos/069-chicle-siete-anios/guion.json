@@ -1,0 +1,25 @@
+{
+  "titulo": "Un chicle tragado no se queda siete años: sale en unas cuarenta horas",
+  "serie": "cuerpo",
+  "fondo": "oscuro",
+  "receta": "El acusado equivocado / todos dicen X y en realidad es Y (mito de la infancia)",
+  "pilar": "salud_simple",
+  "interaccion": ["comentar", "guardar"],
+  "destinatario": "se lo manda una madre o un padre a su hijo, o un amigo a otro que de chico se asustó con el cuento de los siete años, para decirle que era mentira",
+  "regla_guardable": "Un chicle tragado sale entero en unas cuarenta horas, no en siete años. Mucho chicle junto o todos los días puede tapar el intestino; con dolor de panza o vómitos, médico.",
+  "pregunta_comentarios": "¿Qué te decían en tu casa que pasaba si te tragabas un chicle?",
+  "fuentes": [
+    "Cleveland Clinic, 'What Happens When You Swallow Gum?': los siete años son falsos; el chicle tragado sale entero, unas 40 horas después; la base no se digiere; tragar mucho o todos los días puede causar bloqueo intestinal",
+    "KidsHealth (Nemours), 'Swallowed Gum': el mito de los siete años no es cierto; un bloque grande o muchas piezas en poco tiempo pueden bloquear el tubo digestivo, en casos raros"
+  ],
+  "frases": [
+    {"texto": "De chico te tragaste un chicle, y alguien te dijo que se quedaba siete años en la panza.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Es un mito.", "estilo": "Golpe seco."},
+    {"texto": "La base del chicle no se digiere: no se rompe, solo pasa de largo.", "estilo": "Explicativo, con curiosidad."},
+    {"texto": "La Cleveland Clinic dice que sale entero, unas cuarenta horas después.", "estilo": "Claro, un poco sorprendido."},
+    {"texto": "Ojo: la Cleveland Clinic avisa que tragar mucho chicle, o hacerlo todos los días, puede tapar el intestino. KidsHealth dice que es raro. Si después de tragar mucho hay dolor de panza o vómitos, andá al médico.", "estilo": "Matiz honesto, firme."},
+    {"texto": "Pero uno solo, de vez en cuando, no es para asustarse.", "estilo": "Tranquilizador, amable."},
+    {"texto": "¿Qué te decían en tu casa que pasaba si te tragabas un chicle? Contestá en un comentario.", "estilo": "Cercano, invitando."},
+    {"texto": "Guardalo y mandáselo al que todavía cree lo de los siete años.", "estilo": "Cómplice, con humor."}
+  ]
+}

@@ -1,0 +1,676 @@
+{
+ "duracion": 41.32,
+ "frases": [
+  {
+   "texto": "De chico te tragaste un chicle, y alguien te dijo que se quedaba siete años en la panza.",
+   "palabras": [
+    {
+     "texto": "De",
+     "inicio": 0.0,
+     "fin": 0.22
+    },
+    {
+     "texto": "chico",
+     "inicio": 0.22,
+     "fin": 0.52
+    },
+    {
+     "texto": "te",
+     "inicio": 0.52,
+     "fin": 0.78
+    },
+    {
+     "texto": "tragaste",
+     "inicio": 0.78,
+     "fin": 1.12
+    },
+    {
+     "texto": "un",
+     "inicio": 1.12,
+     "fin": 1.26
+    },
+    {
+     "texto": "chicle,",
+     "inicio": 1.26,
+     "fin": 1.54
+    },
+    {
+     "texto": "y",
+     "inicio": 2.1,
+     "fin": 2.18
+    },
+    {
+     "texto": "alguien",
+     "inicio": 2.18,
+     "fin": 2.34
+    },
+    {
+     "texto": "te",
+     "inicio": 2.34,
+     "fin": 2.52
+    },
+    {
+     "texto": "dijo",
+     "inicio": 2.52,
+     "fin": 2.76
+    },
+    {
+     "texto": "que",
+     "inicio": 2.76,
+     "fin": 2.98
+    },
+    {
+     "texto": "se",
+     "inicio": 2.98,
+     "fin": 3.1
+    },
+    {
+     "texto": "quedaba",
+     "inicio": 3.1,
+     "fin": 3.44
+    },
+    {
+     "texto": "siete",
+     "inicio": 3.44,
+     "fin": 3.9
+    },
+    {
+     "texto": "años",
+     "inicio": 3.9,
+     "fin": 4.24
+    },
+    {
+     "texto": "en",
+     "inicio": 4.24,
+     "fin": 4.46
+    },
+    {
+     "texto": "la",
+     "inicio": 4.46,
+     "fin": 4.58
+    },
+    {
+     "texto": "panza.",
+     "inicio": 4.58,
+     "fin": 4.92
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.92
+  },
+  {
+   "texto": "Es un mito.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 5.42,
+     "fin": 5.6
+    },
+    {
+     "texto": "un",
+     "inicio": 5.6,
+     "fin": 5.74
+    },
+    {
+     "texto": "mito.",
+     "inicio": 5.74,
+     "fin": 6.02
+    }
+   ],
+   "inicio": 5.42,
+   "fin": 6.02
+  },
+  {
+   "texto": "La base del chicle no se digiere: no se rompe, solo pasa de largo.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 6.48,
+     "fin": 6.58
+    },
+    {
+     "texto": "base",
+     "inicio": 6.58,
+     "fin": 6.76
+    },
+    {
+     "texto": "del",
+     "inicio": 6.76,
+     "fin": 6.88
+    },
+    {
+     "texto": "chicle",
+     "inicio": 6.88,
+     "fin": 7.16
+    },
+    {
+     "texto": "no",
+     "inicio": 7.16,
+     "fin": 7.42
+    },
+    {
+     "texto": "se",
+     "inicio": 7.42,
+     "fin": 7.56
+    },
+    {
+     "texto": "digiere:",
+     "inicio": 7.56,
+     "fin": 7.92
+    },
+    {
+     "texto": "no",
+     "inicio": 8.26,
+     "fin": 8.44
+    },
+    {
+     "texto": "se",
+     "inicio": 8.44,
+     "fin": 8.52
+    },
+    {
+     "texto": "rompe,",
+     "inicio": 8.52,
+     "fin": 8.94
+    },
+    {
+     "texto": "solo",
+     "inicio": 9.42,
+     "fin": 9.64
+    },
+    {
+     "texto": "pasa",
+     "inicio": 9.64,
+     "fin": 9.98
+    },
+    {
+     "texto": "de",
+     "inicio": 9.98,
+     "fin": 10.12
+    },
+    {
+     "texto": "largo.",
+     "inicio": 10.12,
+     "fin": 10.38
+    }
+   ],
+   "inicio": 6.48,
+   "fin": 10.38
+  },
+  {
+   "texto": "La Cleveland Clinic dice que sale entero, unas cuarenta horas después.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 10.98,
+     "fin": 11.08
+    },
+    {
+     "texto": "Cleveland",
+     "inicio": 11.08,
+     "fin": 11.36
+    },
+    {
+     "texto": "Clinic",
+     "inicio": 11.36,
+     "fin": 11.86
+    },
+    {
+     "texto": "dice",
+     "inicio": 11.86,
+     "fin": 12.28
+    },
+    {
+     "texto": "que",
+     "inicio": 12.28,
+     "fin": 12.44
+    },
+    {
+     "texto": "sale",
+     "inicio": 12.44,
+     "fin": 12.6
+    },
+    {
+     "texto": "entero,",
+     "inicio": 12.6,
+     "fin": 13.02
+    },
+    {
+     "texto": "unas",
+     "inicio": 13.48,
+     "fin": 13.7
+    },
+    {
+     "texto": "cuarenta",
+     "inicio": 13.7,
+     "fin": 14.18
+    },
+    {
+     "texto": "horas",
+     "inicio": 14.18,
+     "fin": 14.28
+    },
+    {
+     "texto": "después.",
+     "inicio": 14.28,
+     "fin": 14.54
+    }
+   ],
+   "inicio": 10.98,
+   "fin": 14.54
+  },
+  {
+   "texto": "Ojo: la Cleveland Clinic avisa que tragar mucho chicle, o hacerlo todos los días, puede tapar el intestino. KidsHealth dice que es raro. Si después de tragar mucho hay dolor de panza o vómitos, andá al médico.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 15.3,
+     "fin": 15.52
+    },
+    {
+     "texto": "la",
+     "inicio": 15.92,
+     "fin": 16.0
+    },
+    {
+     "texto": "Cleveland",
+     "inicio": 16.0,
+     "fin": 16.38
+    },
+    {
+     "texto": "Clinic",
+     "inicio": 16.38,
+     "fin": 16.76
+    },
+    {
+     "texto": "avisa",
+     "inicio": 16.76,
+     "fin": 17.12
+    },
+    {
+     "texto": "que",
+     "inicio": 17.12,
+     "fin": 17.24
+    },
+    {
+     "texto": "tragar",
+     "inicio": 17.24,
+     "fin": 17.5
+    },
+    {
+     "texto": "mucho",
+     "inicio": 17.5,
+     "fin": 17.8
+    },
+    {
+     "texto": "chicle,",
+     "inicio": 17.8,
+     "fin": 18.2
+    },
+    {
+     "texto": "o",
+     "inicio": 18.42,
+     "fin": 18.52
+    },
+    {
+     "texto": "hacerlo",
+     "inicio": 18.52,
+     "fin": 18.76
+    },
+    {
+     "texto": "todos",
+     "inicio": 18.76,
+     "fin": 19.16
+    },
+    {
+     "texto": "los",
+     "inicio": 19.16,
+     "fin": 19.26
+    },
+    {
+     "texto": "días,",
+     "inicio": 19.26,
+     "fin": 19.46
+    },
+    {
+     "texto": "puede",
+     "inicio": 19.98,
+     "fin": 20.26
+    },
+    {
+     "texto": "tapar",
+     "inicio": 20.26,
+     "fin": 20.58
+    },
+    {
+     "texto": "el",
+     "inicio": 20.58,
+     "fin": 20.7
+    },
+    {
+     "texto": "intestino.",
+     "inicio": 20.7,
+     "fin": 21.1
+    },
+    {
+     "texto": "KidsHealth",
+     "inicio": 21.78,
+     "fin": 22.3
+    },
+    {
+     "texto": "dice",
+     "inicio": 22.3,
+     "fin": 22.54
+    },
+    {
+     "texto": "que",
+     "inicio": 22.54,
+     "fin": 22.72
+    },
+    {
+     "texto": "es",
+     "inicio": 22.72,
+     "fin": 22.84
+    },
+    {
+     "texto": "raro.",
+     "inicio": 22.84,
+     "fin": 23.04
+    },
+    {
+     "texto": "Si",
+     "inicio": 23.52,
+     "fin": 23.64
+    },
+    {
+     "texto": "después",
+     "inicio": 23.64,
+     "fin": 23.9
+    },
+    {
+     "texto": "de",
+     "inicio": 23.9,
+     "fin": 24.04
+    },
+    {
+     "texto": "tragar",
+     "inicio": 24.04,
+     "fin": 24.32
+    },
+    {
+     "texto": "mucho",
+     "inicio": 24.32,
+     "fin": 24.72
+    },
+    {
+     "texto": "hay",
+     "inicio": 24.72,
+     "fin": 25.02
+    },
+    {
+     "texto": "dolor",
+     "inicio": 25.02,
+     "fin": 25.32
+    },
+    {
+     "texto": "de",
+     "inicio": 25.32,
+     "fin": 25.48
+    },
+    {
+     "texto": "panza",
+     "inicio": 25.48,
+     "fin": 25.92
+    },
+    {
+     "texto": "o",
+     "inicio": 25.92,
+     "fin": 26.1
+    },
+    {
+     "texto": "vómitos,",
+     "inicio": 26.1,
+     "fin": 26.66
+    },
+    {
+     "texto": "andá",
+     "inicio": 26.66,
+     "fin": 27.36
+    },
+    {
+     "texto": "al",
+     "inicio": 27.36,
+     "fin": 27.4
+    },
+    {
+     "texto": "médico.",
+     "inicio": 27.4,
+     "fin": 27.64
+    }
+   ],
+   "inicio": 15.3,
+   "fin": 27.64
+  },
+  {
+   "texto": "Pero uno solo, de vez en cuando, no es para asustarse.",
+   "palabras": [
+    {
+     "texto": "Pero",
+     "inicio": 28.32,
+     "fin": 28.36
+    },
+    {
+     "texto": "uno",
+     "inicio": 28.36,
+     "fin": 28.6
+    },
+    {
+     "texto": "solo,",
+     "inicio": 28.6,
+     "fin": 29.0
+    },
+    {
+     "texto": "de",
+     "inicio": 29.52,
+     "fin": 29.68
+    },
+    {
+     "texto": "vez",
+     "inicio": 29.68,
+     "fin": 29.84
+    },
+    {
+     "texto": "en",
+     "inicio": 29.84,
+     "fin": 30.02
+    },
+    {
+     "texto": "cuando,",
+     "inicio": 30.02,
+     "fin": 30.44
+    },
+    {
+     "texto": "no",
+     "inicio": 31.08,
+     "fin": 31.2
+    },
+    {
+     "texto": "es",
+     "inicio": 31.2,
+     "fin": 31.36
+    },
+    {
+     "texto": "para",
+     "inicio": 31.36,
+     "fin": 31.48
+    },
+    {
+     "texto": "asustarse.",
+     "inicio": 31.48,
+     "fin": 32.02
+    }
+   ],
+   "inicio": 28.32,
+   "fin": 32.02
+  },
+  {
+   "texto": "¿Qué te decían en tu casa que pasaba si te tragabas un chicle? Contestá en un comentario.",
+   "palabras": [
+    {
+     "texto": "¿Qué",
+     "inicio": 32.5,
+     "fin": 32.62
+    },
+    {
+     "texto": "te",
+     "inicio": 32.62,
+     "fin": 32.78
+    },
+    {
+     "texto": "decían",
+     "inicio": 32.78,
+     "fin": 33.14
+    },
+    {
+     "texto": "en",
+     "inicio": 33.14,
+     "fin": 33.28
+    },
+    {
+     "texto": "tu",
+     "inicio": 33.28,
+     "fin": 33.42
+    },
+    {
+     "texto": "casa",
+     "inicio": 33.42,
+     "fin": 33.66
+    },
+    {
+     "texto": "que",
+     "inicio": 33.66,
+     "fin": 33.84
+    },
+    {
+     "texto": "pasaba",
+     "inicio": 33.84,
+     "fin": 34.32
+    },
+    {
+     "texto": "si",
+     "inicio": 34.32,
+     "fin": 34.48
+    },
+    {
+     "texto": "te",
+     "inicio": 34.48,
+     "fin": 34.62
+    },
+    {
+     "texto": "tragabas",
+     "inicio": 34.62,
+     "fin": 35.04
+    },
+    {
+     "texto": "un",
+     "inicio": 35.04,
+     "fin": 35.16
+    },
+    {
+     "texto": "chicle?",
+     "inicio": 35.16,
+     "fin": 35.46
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 36.0,
+     "fin": 36.4
+    },
+    {
+     "texto": "en",
+     "inicio": 36.4,
+     "fin": 36.48
+    },
+    {
+     "texto": "un",
+     "inicio": 36.48,
+     "fin": 36.54
+    },
+    {
+     "texto": "comentario.",
+     "inicio": 36.54,
+     "fin": 37.08
+    }
+   ],
+   "inicio": 32.5,
+   "fin": 37.08
+  },
+  {
+   "texto": "Guardalo y mandáselo al que todavía cree lo de los siete años.",
+   "palabras": [
+    {
+     "texto": "Guardalo",
+     "inicio": 37.84,
+     "fin": 38.24
+    },
+    {
+     "texto": "y",
+     "inicio": 38.24,
+     "fin": 38.64
+    },
+    {
+     "texto": "mandáselo",
+     "inicio": 38.64,
+     "fin": 39.22
+    },
+    {
+     "texto": "al",
+     "inicio": 39.22,
+     "fin": 39.32
+    },
+    {
+     "texto": "que",
+     "inicio": 39.32,
+     "fin": 39.46
+    },
+    {
+     "texto": "todavía",
+     "inicio": 39.48,
+     "fin": 39.92
+    },
+    {
+     "texto": "cree",
+     "inicio": 39.92,
+     "fin": 40.2
+    },
+    {
+     "texto": "lo",
+     "inicio": 40.2,
+     "fin": 40.38
+    },
+    {
+     "texto": "de",
+     "inicio": 40.38,
+     "fin": 40.5
+    },
+    {
+     "texto": "los",
+     "inicio": 40.5,
+     "fin": 40.6
+    },
+    {
+     "texto": "siete",
+     "inicio": 40.6,
+     "fin": 40.8
+    },
+    {
+     "texto": "años.",
+     "inicio": 40.8,
+     "fin": 41.1
+    }
+   ],
+   "inicio": 37.84,
+   "fin": 41.1
+  }
+ ]
+}

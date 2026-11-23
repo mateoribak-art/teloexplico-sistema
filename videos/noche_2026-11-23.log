@@ -9,3 +9,13 @@ Uso: 2 pasos · 2,351 tokens nuevos · 242,973 de caché · 463 escritos · equi
 2026-11-23 10:36 Render de 068-superluna-no-tan-grande (sin Claude).
 2026-11-23 10:43 068-superluna-no-tan-grande: listo (render sin Claude)
 2026-11-23 10:43 Termina la producción (ok).
+2026-11-23 18:37 Arranca la producción (10 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **`069-chicle-siete-anios`** (¿un chicle tragado tarda siete años en salir? No, unas 40 horas) quedó en estado `render`, con escenas 3D, voz y caption listos. El render, la portada y el control los hace `producir.py` esta noche. El chequeo aprobó a la primera, con fuentes Cleveland Clinic y KidsHealth. La voz dura 41,3 s y coincide con el guion palabra por palabra (123 de 123).
+- **Cuadros sin revisar.** `tlx cuadros` falló porque el bundle de Remotion se rompe con `en-042-frozen-pipes`, un video de la cuenta en inglés que no tiene su `tiempos.json` local. No pude arreglarlo desde acá, porque no puedo escribir en `motor/public`. `Video.tsx` es una copia del `en-037-swallowed-gum`, que ya salió, y `tlx tsc` solo marca ese mismo error ajeno.
+- **Apartados y segundo video.** No había apartados por chequeo rechazado, así que no rescaté ninguno. Los apartados actuales (038, 042, 044, 051, 057, 058) están así por mp4 faltante o actualidad vencida. No produje un segundo video porque la cola ya tenía 10 listos. Corrí sin radar porque la superluna ya está en `068`. Anoté todo en `videos/produccion.log`.
+Uso: 9 pasos · 4,716 tokens nuevos · 770,044 de caché · 1,954 escritos · equivale a US$ 0.82 de API
+2026-11-23 18:39 Render de 069-chicle-siete-anios (sin Claude).
+2026-11-23 18:39 069-chicle-siete-anios: apartado (render/control: js:180:53)[39m
+[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/cli/dist/render.js:166:5)[39m
+[31m    at async cli (/)
+2026-11-23 18:39 Termina la producción (ok).

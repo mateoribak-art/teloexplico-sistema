@@ -1,0 +1,673 @@
+{
+ "duracion": 38.51,
+ "frases": [
+  {
+   "texto": "On a freezing night, the water in your pipes can freeze.",
+   "palabras": [
+    {
+     "texto": "On",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "a",
+     "inicio": 0.14,
+     "fin": 0.26
+    },
+    {
+     "texto": "freezing",
+     "inicio": 0.26,
+     "fin": 0.7
+    },
+    {
+     "texto": "night,",
+     "inicio": 0.7,
+     "fin": 1.12
+    },
+    {
+     "texto": "the",
+     "inicio": 1.42,
+     "fin": 1.58
+    },
+    {
+     "texto": "water",
+     "inicio": 1.58,
+     "fin": 1.88
+    },
+    {
+     "texto": "in",
+     "inicio": 1.88,
+     "fin": 2.06
+    },
+    {
+     "texto": "your",
+     "inicio": 2.06,
+     "fin": 2.18
+    },
+    {
+     "texto": "pipes",
+     "inicio": 2.18,
+     "fin": 2.56
+    },
+    {
+     "texto": "can",
+     "inicio": 2.56,
+     "fin": 3.04
+    },
+    {
+     "texto": "freeze.",
+     "inicio": 3.04,
+     "fin": 3.36
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.36
+  },
+  {
+   "texto": "Here's one simple step: let a faucet drip.",
+   "palabras": [
+    {
+     "texto": "Here's",
+     "inicio": 4.06,
+     "fin": 4.58
+    },
+    {
+     "texto": "one",
+     "inicio": 4.58,
+     "fin": 4.8
+    },
+    {
+     "texto": "simple",
+     "inicio": 4.8,
+     "fin": 5.28
+    },
+    {
+     "texto": "step:",
+     "inicio": 5.28,
+     "fin": 5.58
+    },
+    {
+     "texto": "let",
+     "inicio": 6.08,
+     "fin": 6.28
+    },
+    {
+     "texto": "a",
+     "inicio": 6.28,
+     "fin": 6.5
+    },
+    {
+     "texto": "faucet",
+     "inicio": 6.5,
+     "fin": 7.02
+    },
+    {
+     "texto": "drip.",
+     "inicio": 7.02,
+     "fin": 7.32
+    }
+   ],
+   "inicio": 4.06,
+   "fin": 7.32
+  },
+  {
+   "texto": "FEMA says a slow drip keeps water moving through the pipes, which reduces the chance of freezing.",
+   "palabras": [
+    {
+     "texto": "FEMA",
+     "inicio": 7.74,
+     "fin": 8.0
+    },
+    {
+     "texto": "says",
+     "inicio": 8.0,
+     "fin": 8.34
+    },
+    {
+     "texto": "a",
+     "inicio": 8.34,
+     "fin": 8.6
+    },
+    {
+     "texto": "slow",
+     "inicio": 8.6,
+     "fin": 8.88
+    },
+    {
+     "texto": "drip",
+     "inicio": 8.88,
+     "fin": 9.2
+    },
+    {
+     "texto": "keeps",
+     "inicio": 9.2,
+     "fin": 9.58
+    },
+    {
+     "texto": "water",
+     "inicio": 9.58,
+     "fin": 10.04
+    },
+    {
+     "texto": "moving",
+     "inicio": 10.04,
+     "fin": 10.48
+    },
+    {
+     "texto": "through",
+     "inicio": 10.48,
+     "fin": 10.8
+    },
+    {
+     "texto": "the",
+     "inicio": 10.8,
+     "fin": 10.92
+    },
+    {
+     "texto": "pipes,",
+     "inicio": 10.92,
+     "fin": 11.2
+    },
+    {
+     "texto": "which",
+     "inicio": 11.4,
+     "fin": 11.74
+    },
+    {
+     "texto": "reduces",
+     "inicio": 11.74,
+     "fin": 12.2
+    },
+    {
+     "texto": "the",
+     "inicio": 12.2,
+     "fin": 12.38
+    },
+    {
+     "texto": "chance",
+     "inicio": 12.38,
+     "fin": 12.58
+    },
+    {
+     "texto": "of",
+     "inicio": 12.58,
+     "fin": 12.68
+    },
+    {
+     "texto": "freezing.",
+     "inicio": 12.68,
+     "fin": 12.9
+    }
+   ],
+   "inicio": 7.74,
+   "fin": 12.9
+  },
+  {
+   "texto": "The National Weather Service adds two more: open the cabinet doors under your sinks, so warmer air can reach the pipes.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 13.42,
+     "fin": 13.5
+    },
+    {
+     "texto": "National",
+     "inicio": 13.5,
+     "fin": 13.74
+    },
+    {
+     "texto": "Weather",
+     "inicio": 13.74,
+     "fin": 14.0
+    },
+    {
+     "texto": "Service",
+     "inicio": 14.0,
+     "fin": 14.34
+    },
+    {
+     "texto": "adds",
+     "inicio": 14.34,
+     "fin": 14.6
+    },
+    {
+     "texto": "two",
+     "inicio": 14.6,
+     "fin": 14.86
+    },
+    {
+     "texto": "more:",
+     "inicio": 14.86,
+     "fin": 15.18
+    },
+    {
+     "texto": "open",
+     "inicio": 15.68,
+     "fin": 15.88
+    },
+    {
+     "texto": "the",
+     "inicio": 15.88,
+     "fin": 16.06
+    },
+    {
+     "texto": "cabinet",
+     "inicio": 16.06,
+     "fin": 16.38
+    },
+    {
+     "texto": "doors",
+     "inicio": 16.38,
+     "fin": 16.68
+    },
+    {
+     "texto": "under",
+     "inicio": 16.68,
+     "fin": 16.92
+    },
+    {
+     "texto": "your",
+     "inicio": 16.92,
+     "fin": 17.08
+    },
+    {
+     "texto": "sinks,",
+     "inicio": 17.08,
+     "fin": 17.38
+    },
+    {
+     "texto": "so",
+     "inicio": 17.64,
+     "fin": 17.86
+    },
+    {
+     "texto": "warmer",
+     "inicio": 17.86,
+     "fin": 18.22
+    },
+    {
+     "texto": "air",
+     "inicio": 18.22,
+     "fin": 18.54
+    },
+    {
+     "texto": "can",
+     "inicio": 18.54,
+     "fin": 18.74
+    },
+    {
+     "texto": "reach",
+     "inicio": 18.74,
+     "fin": 18.92
+    },
+    {
+     "texto": "the",
+     "inicio": 18.92,
+     "fin": 19.08
+    },
+    {
+     "texto": "pipes.",
+     "inicio": 19.08,
+     "fin": 19.32
+    }
+   ],
+   "inicio": 13.42,
+   "fin": 19.32
+  },
+  {
+   "texto": "And keep the heat on, no lower than fifty-five degrees.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 19.9,
+     "fin": 20.04
+    },
+    {
+     "texto": "keep",
+     "inicio": 20.04,
+     "fin": 20.28
+    },
+    {
+     "texto": "the",
+     "inicio": 20.28,
+     "fin": 20.44
+    },
+    {
+     "texto": "heat",
+     "inicio": 20.44,
+     "fin": 20.68
+    },
+    {
+     "texto": "on,",
+     "inicio": 20.68,
+     "fin": 20.9
+    },
+    {
+     "texto": "no",
+     "inicio": 21.22,
+     "fin": 21.4
+    },
+    {
+     "texto": "lower",
+     "inicio": 21.4,
+     "fin": 21.66
+    },
+    {
+     "texto": "than",
+     "inicio": 21.66,
+     "fin": 21.86
+    },
+    {
+     "texto": "fifty-five",
+     "inicio": 21.86,
+     "fin": 22.5
+    },
+    {
+     "texto": "degrees.",
+     "inicio": 22.5,
+     "fin": 22.74
+    }
+   ],
+   "inicio": 19.9,
+   "fin": 22.74
+  },
+  {
+   "texto": "Heads up: this lowers the chance of freezing. It's not a guarantee.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 23.38,
+     "fin": 23.62
+    },
+    {
+     "texto": "up:",
+     "inicio": 23.62,
+     "fin": 23.8
+    },
+    {
+     "texto": "this",
+     "inicio": 24.24,
+     "fin": 24.4
+    },
+    {
+     "texto": "lowers",
+     "inicio": 24.4,
+     "fin": 24.96
+    },
+    {
+     "texto": "the",
+     "inicio": 24.96,
+     "fin": 25.26
+    },
+    {
+     "texto": "chance",
+     "inicio": 25.26,
+     "fin": 25.54
+    },
+    {
+     "texto": "of",
+     "inicio": 25.54,
+     "fin": 25.74
+    },
+    {
+     "texto": "freezing.",
+     "inicio": 25.74,
+     "fin": 26.04
+    },
+    {
+     "texto": "It's",
+     "inicio": 26.32,
+     "fin": 26.36
+    },
+    {
+     "texto": "not",
+     "inicio": 26.36,
+     "fin": 26.6
+    },
+    {
+     "texto": "a",
+     "inicio": 26.6,
+     "fin": 26.72
+    },
+    {
+     "texto": "guarantee.",
+     "inicio": 26.72,
+     "fin": 27.06
+    }
+   ],
+   "inicio": 23.38,
+   "fin": 27.06
+  },
+  {
+   "texto": "Save this for the next freezing night: drip the faucet, open the cabinets, keep the heat on.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 27.62,
+     "fin": 27.8
+    },
+    {
+     "texto": "this",
+     "inicio": 27.8,
+     "fin": 28.0
+    },
+    {
+     "texto": "for",
+     "inicio": 28.0,
+     "fin": 28.18
+    },
+    {
+     "texto": "the",
+     "inicio": 28.18,
+     "fin": 28.26
+    },
+    {
+     "texto": "next",
+     "inicio": 28.26,
+     "fin": 28.42
+    },
+    {
+     "texto": "freezing",
+     "inicio": 28.42,
+     "fin": 28.66
+    },
+    {
+     "texto": "night:",
+     "inicio": 28.66,
+     "fin": 28.98
+    },
+    {
+     "texto": "drip",
+     "inicio": 29.46,
+     "fin": 29.6
+    },
+    {
+     "texto": "the",
+     "inicio": 29.6,
+     "fin": 29.74
+    },
+    {
+     "texto": "faucet,",
+     "inicio": 29.74,
+     "fin": 30.18
+    },
+    {
+     "texto": "open",
+     "inicio": 30.54,
+     "fin": 30.82
+    },
+    {
+     "texto": "the",
+     "inicio": 30.82,
+     "fin": 30.98
+    },
+    {
+     "texto": "cabinets,",
+     "inicio": 30.98,
+     "fin": 31.4
+    },
+    {
+     "texto": "keep",
+     "inicio": 31.86,
+     "fin": 32.02
+    },
+    {
+     "texto": "the",
+     "inicio": 32.02,
+     "fin": 32.2
+    },
+    {
+     "texto": "heat",
+     "inicio": 32.2,
+     "fin": 32.38
+    },
+    {
+     "texto": "on.",
+     "inicio": 32.38,
+     "fin": 32.58
+    }
+   ],
+   "inicio": 27.62,
+   "fin": 32.58
+  },
+  {
+   "texto": "Do you drip your faucets when it freezes? Yes or no?",
+   "palabras": [
+    {
+     "texto": "Do",
+     "inicio": 33.0,
+     "fin": 33.18
+    },
+    {
+     "texto": "you",
+     "inicio": 33.18,
+     "fin": 33.28
+    },
+    {
+     "texto": "drip",
+     "inicio": 33.28,
+     "fin": 33.48
+    },
+    {
+     "texto": "your",
+     "inicio": 33.48,
+     "fin": 33.6
+    },
+    {
+     "texto": "faucets",
+     "inicio": 33.6,
+     "fin": 34.04
+    },
+    {
+     "texto": "when",
+     "inicio": 34.04,
+     "fin": 34.18
+    },
+    {
+     "texto": "it",
+     "inicio": 34.18,
+     "fin": 34.26
+    },
+    {
+     "texto": "freezes?",
+     "inicio": 34.26,
+     "fin": 34.66
+    },
+    {
+     "texto": "Yes",
+     "inicio": 35.12,
+     "fin": 35.32
+    },
+    {
+     "texto": "or",
+     "inicio": 35.32,
+     "fin": 35.46
+    },
+    {
+     "texto": "no?",
+     "inicio": 35.46,
+     "fin": 35.58
+    }
+   ],
+   "inicio": 33.0,
+   "fin": 35.58
+  },
+  {
+   "texto": "Send this to the friend who finds out about the pipes in the morning.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 36.04,
+     "fin": 36.22
+    },
+    {
+     "texto": "this",
+     "inicio": 36.22,
+     "fin": 36.38
+    },
+    {
+     "texto": "to",
+     "inicio": 36.38,
+     "fin": 36.5
+    },
+    {
+     "texto": "the",
+     "inicio": 36.5,
+     "fin": 36.6
+    },
+    {
+     "texto": "friend",
+     "inicio": 36.6,
+     "fin": 36.8
+    },
+    {
+     "texto": "who",
+     "inicio": 36.8,
+     "fin": 36.92
+    },
+    {
+     "texto": "finds",
+     "inicio": 36.92,
+     "fin": 37.16
+    },
+    {
+     "texto": "out",
+     "inicio": 37.16,
+     "fin": 37.38
+    },
+    {
+     "texto": "about",
+     "inicio": 37.38,
+     "fin": 37.54
+    },
+    {
+     "texto": "the",
+     "inicio": 37.54,
+     "fin": 37.72
+    },
+    {
+     "texto": "pipes",
+     "inicio": 37.72,
+     "fin": 37.92
+    },
+    {
+     "texto": "in",
+     "inicio": 37.92,
+     "fin": 38.14
+    },
+    {
+     "texto": "the",
+     "inicio": 38.14,
+     "fin": 38.22
+    },
+    {
+     "texto": "morning.",
+     "inicio": 38.22,
+     "fin": 38.42
+    }
+   ],
+   "inicio": 36.04,
+   "fin": 38.42
+  }
+ ]
+}

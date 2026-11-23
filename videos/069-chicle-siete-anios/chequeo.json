@@ -1,0 +1,66 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones, incluidas las de salud, estan verificadas contra las paginas primarias. Atribuciones correctas: la Cleveland Clinic dice efectivamente que el chicle sale entero, unas 40 horas despues, y que tragar mucho o a diario puede causar bloqueo intestinal, con dolor abdominal o vomitos como senales para ir al medico. KidsHealth (Nemours) dice efectivamente que el mito de los siete anios no es cierto y que el bloqueo ocurre 'en casos raros' (no habla de las 40 horas ni de sintomas, y el guion no se lo atribuye). No hay afirmaciones dudosas ni falsas. Las 40 horas son aproximadas y la frase dice 'unas', matiz correcto.",
+  "afirmaciones": [
+    {
+      "texto": "De chico te tragaste un chicle, y alguien te dijo que se quedaba siete años en la panza. (planteo del mito, no una cifra propia)",
+      "fuente": "Cleveland Clinic https://health.clevelandclinic.org/what-happens-when-you-swallow-gum/ y KidsHealth https://kidshealth.org/en/parents/swallowed-gum.html describen el mito de los siete años",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Es un mito. (guion y caption)",
+      "fuente": "Cleveland Clinic: 'Gum doesn't stay in your stomach for seven years or even seven days'. KidsHealth: 'The myth about swallowed gum staying in the stomach for seven years isn't true.'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La base del chicle no se digiere: no se rompe, solo pasa de largo. / pasa de largo (caption)",
+      "fuente": "Cleveland Clinic: la base es nondigestible, el cuerpo no la descompone, 'it comes right out whole'. KidsHealth: el estomago no la rompe, el intestino la empuja",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La Cleveland Clinic dice que sale entero, unas cuarenta horas después. / Según la Cleveland Clinic, sale entero unas cuarenta horas después (caption)",
+      "fuente": "Cleveland Clinic: 'it comes right out whole' y 'it'll come out about 40 hours later in your stool'. Atribucion correcta (KidsHealth no da plazo y no se le atribuye)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "la Cleveland Clinic avisa que tragar mucho chicle, o hacerlo todos los días, puede tapar el intestino",
+      "fuente": "Cleveland Clinic: 'If you do this every day, or multiple times a day, it can cause an intestinal blockage'; tambien advierte por mucha cantidad en poco tiempo",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "KidsHealth dice que es raro",
+      "fuente": "KidsHealth (Nemours): 'In rare cases' una masa grande de chicle, o muchas piezas pequenas en poco tiempo, pueden bloquear el tubo digestivo",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si después de tragar mucho hay dolor de panza o vómitos, andá al médico. (guion y caption)",
+      "fuente": "Cleveland Clinic: buscar atencion si se trago mucho chicle y hay dolor abdominal, vomitos u otros sintomas de bloqueo. Se presenta como consejo general, no atribuido a KidsHealth (cuya pagina no trata sintomas)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Pero uno solo, de vez en cuando, no es para asustarse.",
+      "fuente": "Cleveland Clinic: 'Swallowing one piece of gum every now and then isn't likely to do any harm'. KidsHealth: 'swallowing an occasional piece of gum is harmless'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Guardalo: un chicle tragado = unas 40 horas, no siete años. (caption, sin atribucion explicita)",
+      "fuente": "Cleveland Clinic (mismo respaldo que las 40 horas); la caption cita la fuente en el parrafo anterior y en 'Fuentes'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes: Cleveland Clinic, KidsHealth (Nemours). (caption)",
+      "fuente": "Ambas paginas existen y respaldan todo lo atribuido",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

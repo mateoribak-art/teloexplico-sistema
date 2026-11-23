@@ -6,3 +6,13 @@ No quedó ningún video nuevo listo: el único que produje, `en-042-frozen-pipes
 - **Qué falta:** el texto hablado ya quedó verificado. Para rescatarlo hay que cambiar las fuentes en `guion.json` y `caption.txt`, como indica `version_verificada` en `chequeo.json`, y después generar la voz y correr `tlx tsc`. Dejé registrado el objeto 3D `Cano.tsx`, el `Video.tsx` y las entradas de `Root.tsx`, y anoté la idea en `ideas.md` y `produccion.log`.
 Uso: 8 pasos · 5,142 tokens nuevos · 499,782 de caché · 3,286 escritos · equivale a US$ 1.07 de API
 2026-11-23 10:48 Termina la producción (ok).
+2026-11-23 18:39 Arranca la producción (9 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+**Listo para render:** `en-042-frozen-pipes`. Era el único apartado por "chequeo rechazado". Agregué `weather.gov/okx/winterpns7` a las fuentes del caption y del guion, y un subagente aparte lo re-chequeó y lo aprobó. Hice la voz (38,5 s) y `tlx tsc` salió sin errores. Está en estado `render`, así que `producir.py` lo renderiza y controla.
+
+**Sin revisar:** no vi los cuadros. `tlx cuadros` falló porque `motor/.bundle-cuadros` es una carpeta vieja y no puedo borrarla con los permisos de esta corrida. Queda anotado en `videos/en/produccion.log`. Conviene mirar el render cuando salga.
+
+**Sigue apartado:** `en-029-swim-after-eating` y `en-032-gta-13-years`, por "falta el .mp4" (no por chequeo), así que no los toqué. No produje otro video nuevo: el rescate fue el video de este turno.
+Uso: 17 pasos · 24,809 tokens nuevos · 700,503 de caché · 2,718 escritos · equivale a US$ 0.47 de API
+2026-11-23 18:41 Render de en-042-frozen-pipes (sin Claude).
+2026-11-23 18:50 en-042-frozen-pipes: listo (render sin Claude)
+2026-11-23 18:50 Termina la producción (ok).

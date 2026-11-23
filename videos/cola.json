@@ -2542,5 +2542,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "069-chicle-siete-anios",
+  "tema": "¿Tragarte un chicle tarda siete años en salir? No: unas 40 horas (Cleveland Clinic, KidsHealth)",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-23T18:37",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-23T18:37",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-23T18:39",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-23T18:39",
+    "motivo": "render/control: js:180:53)\u001b[39m\n\u001b[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/cli/dist/render.js:166:5)\u001b[39m\n\u001b[31m    at async cli (/home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/cli/dist/index.js:121:13)\u001b[39m"
+   }
+  ]
  }
 ]

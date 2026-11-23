@@ -62,6 +62,7 @@ import { DURACION as DUR_065, FPS as FPS_065, VoseoVosOTu3D, Portada065 } from "
 import { DURACION as DUR_066, FPS as FPS_066, BilletesAnimales3D, Portada066 } from "./videos/066-billetes-animales/Video";
 import { DURACION as DUR_067, FPS as FPS_067, DulceDeLeche3D, Portada067 } from "./videos/067-dulce-de-leche-origen/Video";
 import { DURACION as DUR_068, FPS as FPS_068, Superluna3D, Portada068 } from "./videos/068-superluna-no-tan-grande/Video";
+import { DURACION as DUR_069, FPS as FPS_069, Chicle3D069, Portada069 } from "./videos/069-chicle-siete-anios/Video";
 import { DURACION as DUR_063, FPS as FPS_063, CheOrigen3D, Portada063 } from "./videos/063-che-origen/Video";
 import { DURACION as DUR_060,FPS as FPS_060, CargaNoche3D, Portada060 } from "./videos/060-celular-carga-noche/Video";
 import { DURACION as DUR_056,FPS as FPS_056, GtaTreceAnios3D, Portada056 } from "./videos/056-gta-trece-anios/Video";
@@ -207,6 +208,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p067-dulce-de-leche-origen" component={Portada067} width={ANCHO} height={ALTO} />
         <Composition id="h068-superluna-no-tan-grande" component={Superluna3D} durationInFrames={DUR_068} fps={FPS_068} width={ANCHO} height={ALTO} />
         <Still id="p068-superluna-no-tan-grande" component={Portada068} width={ANCHO} height={ALTO} />
+        <Composition id="h069-chicle-siete-anios" component={Chicle3D069} durationInFrames={DUR_069} fps={FPS_069} width={ANCHO} height={ALTO} />
+        <Still id="p069-chicle-siete-anios" component={Portada069} width={ANCHO} height={ALTO} />
         <Composition id="h064-nudillos-artritis" component={NudillosArtritis3D} durationInFrames={DUR_064} fps={FPS_064} width={ANCHO} height={ALTO} />
         <Still id="p064-nudillos-artritis" component={Portada064} width={ANCHO} height={ALTO} />
         <Composition id="h056-gta-trece-anios"component={GtaTreceAnios3D} durationInFrames={DUR_056} fps={FPS_056} width={ANCHO} height={ALTO} />
