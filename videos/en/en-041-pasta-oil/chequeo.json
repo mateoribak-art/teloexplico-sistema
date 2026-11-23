@@ -1,0 +1,14 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Las afirmaciones centrales (el aceite no evita que se pegue; hervor fuerte y revolver, sobre todo al inicio) estan textualmente en la pagina de America's Test Kitchen y la atribucion coincide. No hay afirmaciones de salud, seguridad ni plata. Las secundarias son generales, sin cifras ni anecdotas, y estan respaldadas por fuentes de cocina secundarias o son consejos inocuos.",
+  "afirmaciones": [
+    {"texto": "You pour oil in your pasta water so the noodles don't stick.", "fuente": "Planteo del mito (creencia comun, no afirmacion fáctica); es lo que ATK desmiente", "estado": "verificada", "matiz_ok": true},
+    {"texto": "That's a myth. / Oil in your pasta water won't stop it from sticking", "fuente": "America's Test Kitchen, 'Making Your Pasta Water Work for You' (https://www.americastestkitchen.com/articles/5284-making-your-pasta-water-work-for-you): \"please, don't put oil in the pasta cooking water; it does not help prevent the pasta from sticking to itself.\"", "estado": "verificada", "matiz_ok": true},
+    {"texto": "America's Test Kitchen says oil in the cooking water does not help the pasta from sticking to itself.", "fuente": "ATK, misma pagina; la atribucion coincide con el texto original", "estado": "verificada", "matiz_ok": true},
+    {"texto": "So what does? A hard boil, and stirring.", "fuente": "ATK: \"A good hard boil and proper stirring, especially at the start of cooking, are what prevent the pasta from sticking to itself as it cooks.\"", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Especially at the start of cooking...", "fuente": "ATK, misma frase: \"especially at the start of cooking\"", "estado": "verificada", "matiz_ok": true},
+    {"texto": "...when the noodles are fresh in the pot and want to clump together.", "fuente": "Explicacion general: el almidon superficial se libera al principio (Taste of Home, Tasting Table, Knorr; no es de ATK). Descripcion coloquial, sin cifras y sin atribuirse a ATK.", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Oil is still fine in a sauce or a skillet, it just isn't doing anything in the pot.", "fuente": "Consejo culinario general; ATK solo dice que el aceite no ayuda contra el pegado en el agua. 'Isn't doing anything' queda acotado por 'this is about sticking' en la misma frase, asi que no sobreextiende a ATK. Sin implicancia de salud o seguridad.", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Caption - Sources: America's Test Kitchen, 'Making Your Pasta Water Work for You'.", "fuente": "Titulo y URL de ATK confirmados", "estado": "verificada", "matiz_ok": true}
+  ]
+}

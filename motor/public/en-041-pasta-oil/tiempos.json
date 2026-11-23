@@ -1,0 +1,688 @@
+{
+ "duracion": 37.57,
+ "frases": [
+  {
+   "texto": "You pour oil in your pasta water so the noodles don't stick.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.26
+    },
+    {
+     "texto": "pour",
+     "inicio": 0.26,
+     "fin": 0.54
+    },
+    {
+     "texto": "oil",
+     "inicio": 0.54,
+     "fin": 1.04
+    },
+    {
+     "texto": "in",
+     "inicio": 1.04,
+     "fin": 1.32
+    },
+    {
+     "texto": "your",
+     "inicio": 1.32,
+     "fin": 1.44
+    },
+    {
+     "texto": "pasta",
+     "inicio": 1.44,
+     "fin": 1.76
+    },
+    {
+     "texto": "water",
+     "inicio": 1.76,
+     "fin": 2.08
+    },
+    {
+     "texto": "so",
+     "inicio": 2.08,
+     "fin": 2.3
+    },
+    {
+     "texto": "the",
+     "inicio": 2.3,
+     "fin": 2.44
+    },
+    {
+     "texto": "noodles",
+     "inicio": 2.44,
+     "fin": 2.64
+    },
+    {
+     "texto": "don't",
+     "inicio": 2.64,
+     "fin": 2.9
+    },
+    {
+     "texto": "stick.",
+     "inicio": 2.9,
+     "fin": 3.12
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.12
+  },
+  {
+   "texto": "That's a myth.",
+   "palabras": [
+    {
+     "texto": "That's",
+     "inicio": 3.56,
+     "fin": 3.92
+    },
+    {
+     "texto": "a",
+     "inicio": 3.92,
+     "fin": 3.98
+    },
+    {
+     "texto": "myth.",
+     "inicio": 3.98,
+     "fin": 4.16
+    }
+   ],
+   "inicio": 3.56,
+   "fin": 4.16
+  },
+  {
+   "texto": "America's Test Kitchen says oil in the cooking water does not help the pasta from sticking to itself.",
+   "palabras": [
+    {
+     "texto": "America's",
+     "inicio": 4.58,
+     "fin": 5.06
+    },
+    {
+     "texto": "Test",
+     "inicio": 5.06,
+     "fin": 5.18
+    },
+    {
+     "texto": "Kitchen",
+     "inicio": 5.18,
+     "fin": 5.44
+    },
+    {
+     "texto": "says",
+     "inicio": 5.44,
+     "fin": 5.82
+    },
+    {
+     "texto": "oil",
+     "inicio": 5.82,
+     "fin": 6.4
+    },
+    {
+     "texto": "in",
+     "inicio": 6.4,
+     "fin": 6.68
+    },
+    {
+     "texto": "the",
+     "inicio": 6.68,
+     "fin": 6.78
+    },
+    {
+     "texto": "cooking",
+     "inicio": 6.78,
+     "fin": 7.0
+    },
+    {
+     "texto": "water",
+     "inicio": 7.0,
+     "fin": 7.38
+    },
+    {
+     "texto": "does",
+     "inicio": 7.38,
+     "fin": 7.72
+    },
+    {
+     "texto": "not",
+     "inicio": 7.72,
+     "fin": 8.08
+    },
+    {
+     "texto": "help",
+     "inicio": 8.08,
+     "fin": 8.3
+    },
+    {
+     "texto": "the",
+     "inicio": 8.3,
+     "fin": 8.42
+    },
+    {
+     "texto": "pasta",
+     "inicio": 8.42,
+     "fin": 8.72
+    },
+    {
+     "texto": "from",
+     "inicio": 8.72,
+     "fin": 8.92
+    },
+    {
+     "texto": "sticking",
+     "inicio": 8.92,
+     "fin": 9.18
+    },
+    {
+     "texto": "to",
+     "inicio": 9.18,
+     "fin": 9.36
+    },
+    {
+     "texto": "itself.",
+     "inicio": 9.36,
+     "fin": 9.68
+    }
+   ],
+   "inicio": 4.58,
+   "fin": 9.68
+  },
+  {
+   "texto": "So what does? A hard boil, and stirring.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 10.08,
+     "fin": 10.32
+    },
+    {
+     "texto": "what",
+     "inicio": 10.32,
+     "fin": 10.5
+    },
+    {
+     "texto": "does?",
+     "inicio": 10.5,
+     "fin": 10.74
+    },
+    {
+     "texto": "A",
+     "inicio": 11.3,
+     "fin": 11.46
+    },
+    {
+     "texto": "hard",
+     "inicio": 11.46,
+     "fin": 11.7
+    },
+    {
+     "texto": "boil,",
+     "inicio": 11.7,
+     "fin": 11.92
+    },
+    {
+     "texto": "and",
+     "inicio": 12.18,
+     "fin": 12.24
+    },
+    {
+     "texto": "stirring.",
+     "inicio": 12.24,
+     "fin": 12.6
+    }
+   ],
+   "inicio": 10.08,
+   "fin": 12.6
+  },
+  {
+   "texto": "Especially at the start of cooking, when the noodles are fresh in the pot and want to clump together.",
+   "palabras": [
+    {
+     "texto": "Especially",
+     "inicio": 13.12,
+     "fin": 13.52
+    },
+    {
+     "texto": "at",
+     "inicio": 13.52,
+     "fin": 13.88
+    },
+    {
+     "texto": "the",
+     "inicio": 13.88,
+     "fin": 13.96
+    },
+    {
+     "texto": "start",
+     "inicio": 13.96,
+     "fin": 14.16
+    },
+    {
+     "texto": "of",
+     "inicio": 14.16,
+     "fin": 14.3
+    },
+    {
+     "texto": "cooking,",
+     "inicio": 14.3,
+     "fin": 14.5
+    },
+    {
+     "texto": "when",
+     "inicio": 14.62,
+     "fin": 14.7
+    },
+    {
+     "texto": "the",
+     "inicio": 14.7,
+     "fin": 14.8
+    },
+    {
+     "texto": "noodles",
+     "inicio": 14.8,
+     "fin": 15.04
+    },
+    {
+     "texto": "are",
+     "inicio": 15.04,
+     "fin": 15.36
+    },
+    {
+     "texto": "fresh",
+     "inicio": 15.36,
+     "fin": 15.74
+    },
+    {
+     "texto": "in",
+     "inicio": 15.74,
+     "fin": 15.92
+    },
+    {
+     "texto": "the",
+     "inicio": 15.92,
+     "fin": 16.0
+    },
+    {
+     "texto": "pot",
+     "inicio": 16.0,
+     "fin": 16.24
+    },
+    {
+     "texto": "and",
+     "inicio": 16.24,
+     "fin": 16.46
+    },
+    {
+     "texto": "want",
+     "inicio": 16.46,
+     "fin": 16.64
+    },
+    {
+     "texto": "to",
+     "inicio": 16.64,
+     "fin": 16.72
+    },
+    {
+     "texto": "clump",
+     "inicio": 16.72,
+     "fin": 16.88
+    },
+    {
+     "texto": "together.",
+     "inicio": 16.88,
+     "fin": 17.18
+    }
+   ],
+   "inicio": 13.12,
+   "fin": 17.18
+  },
+  {
+   "texto": "Heads up: this is about sticking. Oil is still fine in a sauce or a skillet, it just isn't doing anything in the pot.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 17.74,
+     "fin": 18.06
+    },
+    {
+     "texto": "up:",
+     "inicio": 18.06,
+     "fin": 18.26
+    },
+    {
+     "texto": "this",
+     "inicio": 18.62,
+     "fin": 18.76
+    },
+    {
+     "texto": "is",
+     "inicio": 18.76,
+     "fin": 18.9
+    },
+    {
+     "texto": "about",
+     "inicio": 18.9,
+     "fin": 19.12
+    },
+    {
+     "texto": "sticking.",
+     "inicio": 19.12,
+     "fin": 19.7
+    },
+    {
+     "texto": "Oil",
+     "inicio": 20.32,
+     "fin": 20.54
+    },
+    {
+     "texto": "is",
+     "inicio": 20.54,
+     "fin": 20.72
+    },
+    {
+     "texto": "still",
+     "inicio": 20.72,
+     "fin": 20.86
+    },
+    {
+     "texto": "fine",
+     "inicio": 20.86,
+     "fin": 21.26
+    },
+    {
+     "texto": "in",
+     "inicio": 21.26,
+     "fin": 21.48
+    },
+    {
+     "texto": "a",
+     "inicio": 21.48,
+     "fin": 21.58
+    },
+    {
+     "texto": "sauce",
+     "inicio": 21.58,
+     "fin": 21.9
+    },
+    {
+     "texto": "or",
+     "inicio": 21.9,
+     "fin": 22.18
+    },
+    {
+     "texto": "a",
+     "inicio": 22.18,
+     "fin": 22.34
+    },
+    {
+     "texto": "skillet,",
+     "inicio": 22.34,
+     "fin": 22.68
+    },
+    {
+     "texto": "it",
+     "inicio": 22.88,
+     "fin": 23.08
+    },
+    {
+     "texto": "just",
+     "inicio": 23.08,
+     "fin": 23.26
+    },
+    {
+     "texto": "isn't",
+     "inicio": 23.26,
+     "fin": 23.72
+    },
+    {
+     "texto": "doing",
+     "inicio": 23.72,
+     "fin": 23.9
+    },
+    {
+     "texto": "anything",
+     "inicio": 23.9,
+     "fin": 24.58
+    },
+    {
+     "texto": "in",
+     "inicio": 24.58,
+     "fin": 24.84
+    },
+    {
+     "texto": "the",
+     "inicio": 24.84,
+     "fin": 24.9
+    },
+    {
+     "texto": "pot.",
+     "inicio": 24.9,
+     "fin": 25.2
+    }
+   ],
+   "inicio": 17.74,
+   "fin": 25.2
+  },
+  {
+   "texto": "Save this for your next pasta night: no oil. Hard boil. Stir at the start.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 25.7,
+     "fin": 26.0
+    },
+    {
+     "texto": "this",
+     "inicio": 26.0,
+     "fin": 26.22
+    },
+    {
+     "texto": "for",
+     "inicio": 26.22,
+     "fin": 26.46
+    },
+    {
+     "texto": "your",
+     "inicio": 26.46,
+     "fin": 26.58
+    },
+    {
+     "texto": "next",
+     "inicio": 26.58,
+     "fin": 26.78
+    },
+    {
+     "texto": "pasta",
+     "inicio": 26.78,
+     "fin": 27.2
+    },
+    {
+     "texto": "night:",
+     "inicio": 27.2,
+     "fin": 27.46
+    },
+    {
+     "texto": "no",
+     "inicio": 27.46,
+     "fin": 28.2
+    },
+    {
+     "texto": "oil.",
+     "inicio": 28.2,
+     "fin": 28.66
+    },
+    {
+     "texto": "Hard",
+     "inicio": 29.14,
+     "fin": 29.62
+    },
+    {
+     "texto": "boil.",
+     "inicio": 29.62,
+     "fin": 29.92
+    },
+    {
+     "texto": "Stir",
+     "inicio": 30.6,
+     "fin": 30.88
+    },
+    {
+     "texto": "at",
+     "inicio": 30.88,
+     "fin": 31.04
+    },
+    {
+     "texto": "the",
+     "inicio": 31.04,
+     "fin": 31.12
+    },
+    {
+     "texto": "start.",
+     "inicio": 31.12,
+     "fin": 31.36
+    }
+   ],
+   "inicio": 25.7,
+   "fin": 31.36
+  },
+  {
+   "texto": "Do you put oil in your pasta water? Yes or no?",
+   "palabras": [
+    {
+     "texto": "Do",
+     "inicio": 31.86,
+     "fin": 31.94
+    },
+    {
+     "texto": "you",
+     "inicio": 31.94,
+     "fin": 32.04
+    },
+    {
+     "texto": "put",
+     "inicio": 32.04,
+     "fin": 32.16
+    },
+    {
+     "texto": "oil",
+     "inicio": 32.16,
+     "fin": 32.42
+    },
+    {
+     "texto": "in",
+     "inicio": 32.42,
+     "fin": 32.58
+    },
+    {
+     "texto": "your",
+     "inicio": 32.58,
+     "fin": 32.66
+    },
+    {
+     "texto": "pasta",
+     "inicio": 32.66,
+     "fin": 32.94
+    },
+    {
+     "texto": "water?",
+     "inicio": 32.94,
+     "fin": 33.24
+    },
+    {
+     "texto": "Yes",
+     "inicio": 33.6,
+     "fin": 33.7
+    },
+    {
+     "texto": "or",
+     "inicio": 33.7,
+     "fin": 33.84
+    },
+    {
+     "texto": "no?",
+     "inicio": 33.84,
+     "fin": 33.98
+    }
+   ],
+   "inicio": 31.86,
+   "fin": 33.98
+  },
+  {
+   "texto": "Send this to the person who has poured oil in the pot for years.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 34.4,
+     "fin": 34.64
+    },
+    {
+     "texto": "this",
+     "inicio": 34.64,
+     "fin": 34.82
+    },
+    {
+     "texto": "to",
+     "inicio": 34.82,
+     "fin": 34.94
+    },
+    {
+     "texto": "the",
+     "inicio": 34.94,
+     "fin": 35.04
+    },
+    {
+     "texto": "person",
+     "inicio": 35.04,
+     "fin": 35.28
+    },
+    {
+     "texto": "who",
+     "inicio": 35.28,
+     "fin": 35.5
+    },
+    {
+     "texto": "has",
+     "inicio": 35.5,
+     "fin": 35.6
+    },
+    {
+     "texto": "poured",
+     "inicio": 35.6,
+     "fin": 35.82
+    },
+    {
+     "texto": "oil",
+     "inicio": 35.82,
+     "fin": 36.2
+    },
+    {
+     "texto": "in",
+     "inicio": 36.2,
+     "fin": 36.42
+    },
+    {
+     "texto": "the",
+     "inicio": 36.42,
+     "fin": 36.5
+    },
+    {
+     "texto": "pot",
+     "inicio": 36.5,
+     "fin": 36.74
+    },
+    {
+     "texto": "for",
+     "inicio": 36.74,
+     "fin": 37.0
+    },
+    {
+     "texto": "years.",
+     "inicio": 37.0,
+     "fin": 37.32
+    }
+   ],
+   "inicio": 34.4,
+   "fin": 37.32
+  }
+ ]
+}

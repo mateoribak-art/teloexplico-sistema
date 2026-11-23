@@ -24,3 +24,20 @@ Uso: 19 pasos · 16,494 tokens nuevos · 1,198,024 de caché · 7,413 escritos �
 2026-11-22 18:26 Render de 066-billetes-animales (sin Claude).
 2026-11-22 18:58 066-billetes-animales: listo (render sin Claude)
 2026-11-22 18:58 Termina la producción (ok).
+2026-11-22 22:59 Arranca la producción (11 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Produje un solo video y lo dejé listo para el render nocturno.
+- **067-dulce-de-leche-origen:** quedó en estado `render`, con el chequeo aprobado en el segundo intento. La voz dura 44,5 s y las 126 palabras del guion se oyeron completas. `tsc` pasó sin errores y revisé una hoja de cuadros. Es un mapa 3D que muestra Cañuelas, Uruguay y Chile, y cierra con la pregunta "¿Cuchara o pan?".
+- **Rescates:** no había ninguno. Los apartados actuales (005, 038, 042, 044 y 051) no están por "chequeo rechazado".
+- **Segundo video:** no lo produje porque la cola ya tenía 11 listos.
+
+El primer chequeo rechazó dos frases absolutas sin matiz ("nadie pudo probarlo" y "los historiadores no se ponen de acuerdo"). Las reescribí como "su origen está discutido", con las cartas de 1814 atribuidas a Balmaceda.
+Uso: 17 pasos · 14,646 tokens nuevos · 872,302 de caché · 6,416 escritos · equivale a US$ 0.94 de API
+2026-11-22 23:04 Render de 067-dulce-de-leche-origen (sin Claude).
+2026-11-22 23:22 067-dulce-de-leche-origen: listo (render sin Claude)
+2026-11-22 23:22 Termina la producción (ok).
+2026-11-22 23:22 Arranca el carrusel (1 listos, meta 2).
+`perro-no-comas`: quedó listo, con 8 placas hechas desde el reel 046-perro-no-comas. La hoja de placas se ve bien, sin textos pisados ni cortados.
+
+Escribí la línea en `videos/produccion.log` con `echo >>` en vez de Edit, y no verifiqué que haya quedado.
+Uso: 18 pasos · 19,468 tokens nuevos · 275,717 de caché · 3,026 escritos · equivale a US$ 0.14 de API
+2026-11-22 23:22 Termina el carrusel (ok; quedan 2 listos).

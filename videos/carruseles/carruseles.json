@@ -342,5 +342,19 @@
     "motivo": "control OK"
    }
   ]
+ },
+ {
+  "clave": "perro-no-comas",
+  "estado": "listo",
+  "origen": [
+   "046-perro-no-comas"
+  ],
+  "historial": [
+   {
+    "estado": "listo",
+    "cuando": "2026-11-22T23:22",
+    "motivo": "control OK"
+   }
+  ]
  }
 ]

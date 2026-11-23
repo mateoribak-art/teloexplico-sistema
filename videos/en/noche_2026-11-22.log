@@ -27,3 +27,13 @@ Permisos negados (1):
 2026-11-22 19:03 Render de en-040-powerball-odds (sin Claude).
 2026-11-22 19:26 en-040-powerball-odds: listo (render sin Claude)
 2026-11-22 19:26 Termina la producción (ok).
+2026-11-22 23:22 Arranca la producción (11 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Incompleto, pendiente de render:** `en-041-pasta-oil` (serie cocina #12, "¿El aceite en el agua de la pasta evita que se pegue?") quedó en estado `render`. El render, la portada y el control todavía los tiene que correr `producir.py`. El chequeo en subagente aprobó al primer intento (America's Test Kitchen). Voz 37,6 s, `tsc` OK y cuadros revisados.
+- **Interacción:** guardar con la regla "no oil, hard boil, stir at the start", y comentar con "Do you put oil in your pasta water? Yes or no?".
+- **Rescates:** no había videos apartados por "chequeo rechazado", así que no se rescató ninguno. El radar ya tenía una pasada de hoy sin tema nuevo. Dejé anotado en `produccion.log` e `ideas.md`.
+Uso: 40 pasos · 67,359 tokens nuevos · 1,408,020 de caché · 10,656 escritos · equivale a US$ 0.67 de API
+Permisos negados (1):
+  Bash: {"command": "cat > /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-041-pasta-oil/chequeo.json <<'EOF'\n{\n  \"veredicto\": \"ap
+2026-11-22 23:26 Render de en-041-pasta-oil (sin Claude).
+2026-11-22 23:35 en-041-pasta-oil: listo (render sin Claude)
+2026-11-22 23:35 Termina la producción (ok).

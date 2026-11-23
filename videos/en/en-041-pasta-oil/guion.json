@@ -1,0 +1,25 @@
+{
+  "titulo": "Does oil in the pasta water stop sticking?",
+  "pilar": "cocina",
+  "receta": "mito + regla para guardar (qué sí evita que se pegue)",
+  "fondo": "oscuro",
+  "destinatario": "Se lo manda alguien que cocina pasta a su papá o mamá que siempre le echa un chorro de aceite al agua.",
+  "interaccion": {
+    "guardar": "Pasta not sticking: no oil. Hard boil + stir, especially at the start (America's Test Kitchen).",
+    "comentar": "Do you put oil in your pasta water? Yes or no?"
+  },
+  "fuentes": [
+    "America's Test Kitchen: Making Your Pasta Water Work for You"
+  ],
+  "frases": [
+    {"texto": "You pour oil in your pasta water so the noodles don't stick.", "estilo": "Casual, a little teasing."},
+    {"texto": "That's a myth.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "America's Test Kitchen says oil in the cooking water does not help the pasta from sticking to itself.", "estilo": "Clear, matter of fact."},
+    {"texto": "So what does? A hard boil, and stirring.", "estilo": "Explaining, steady."},
+    {"texto": "Especially at the start of cooking, when the noodles are fresh in the pot and want to clump together.", "estilo": "Curious, with a little surprise."},
+    {"texto": "Heads up: this is about sticking. Oil is still fine in a sauce or a skillet, it just isn't doing anything in the pot.", "estilo": "Warm, honest, with the caveat."},
+    {"texto": "Save this for your next pasta night: no oil. Hard boil. Stir at the start.", "estilo": "Practical, friendly."},
+    {"texto": "Do you put oil in your pasta water? Yes or no?", "estilo": "Casual, inviting."},
+    {"texto": "Send this to the person who has poured oil in the pot for years.", "estilo": "Playful, with humor."}
+  ]
+}

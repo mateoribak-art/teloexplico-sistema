@@ -1,0 +1,72 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segunda revision. Tema de historia/anecdota, sin salud, seguridad ni plata. La leyenda de 1829 esta presentada explicitamente como leyenda ('la historia mas contada', 'segun la leyenda', 'Ojo: es una leyenda, no un hecho comprobado'). Las cartas de 1814 se atribuyen a Balmaceda (no se afirman como hecho propio), y el origen se presenta como discutido. Uruguay y Chile reclaman: respaldado por fuentes periodisticas (Uruguay objeto en 2003 y pidio a UNESCO patrimonio rioplatense; Chile lo llama manjar y se atribuye invencion colonial). Ninguna afirmacion falsa. Observacion no bloqueante: el detalle exacto de las cartas (diputado de Tucuman pidiendo dulce de leche a un amigo de Cordoba) viene de medios, no del libro; el guion lo cita como 'registros... cartas de 1814 que cita Balmaceda', lo cual es fiel. Los reclamos de Chile son mas de nombre/atribucion colonial que una disputa diplomatica; 'tambien lo reclaman' es aceptable pero laxo.",
+  "afirmaciones": [
+    {
+      "texto": "Para vos el dulce de leche es argentino, y punto. (marco retorico; es opinion/gancho)",
+      "fuente": "No aplica (opinion del espectador, no afirmacion factica)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El origen del dulce de leche esta discutido.",
+      "fuente": "Billiken, versiones sobre su origen: https://billiken.lat/mi-pais/dulce-de-leche-cuales-son-las-versiones-sobre-su-origen-y-por-que-podria-no-ser-argentino/ ; La Nacion 11/10/2024: https://lanacion.com.ar/sociedad/dia-mundial-del-dulce-de-leche-por-que-se-celebra-hoy-y-como-nacio-este-manjar-nid11102024",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La historia mas contada dice que en 1829, en Canuelas, la cocinera de Rosas dejo la leche al fuego.",
+      "fuente": "La Nacion 11/10/2024; Diario de Cuyo; La Gaceta (version La Caledonia, Canuelas, 1829). Las fuentes difieren en el dia (24/6 u 11/10) pero coinciden en 1829 y Canuelas.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mientras tanto, Lavalle dormia la siesta en el catre de Rosas.",
+      "fuente": "Version popular de la leyenda recogida por medios (La Gaceta, Diario de Cuyo); sin fuente primaria",
+      "estado": "dudosa",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La leche se espeso, y segun la leyenda, nacio el dulce de leche.",
+      "fuente": "Idem; el guion lo marca como 'segun la leyenda'",
+      "estado": "dudosa",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Hay registros de dulces parecidos anteriores: cartas de 1814 que cita el historiador Daniel Balmaceda.",
+      "fuente": "Rio Negro, 'Daniel Balmaceda: El dulce de leche no es un invento argentino': https://www.rionegro.com.ar/?p=763802 ; Notife: https://www.notife.com/en-donde-nacio-realmente-el-dulce-de-leche . Medios reportan que Balmaceda cita cartas de 1814 (un diputado de Tucuman pidiendo dulce de leche a un amigo de Cordoba). Sin acceso al libro 'La comida en la historia argentina'.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Uruguay, Chile y otros paises tambien lo reclaman.",
+      "fuente": "Traveller.com.au (Uruguay objeto la declaracion de patrimonio de 2003 y pidio a UNESCO patrimonio rioplatense): https://www.traveller.com.au/traveller/inspiration/the-origins-of-dulce-de-leche-the-sweet-treat-that-caused-an-international-incident-20230313-h2agwj.html ; Prensa Mercosur: https://prensamercosur.org/2024/10/11/1478330-dia-mundial-dulce-de-leche-historia/ ; Chile ('manjar') y Paraguay segun Canal26/Notife. Hay fuente que dice que en 2003 AR y UY acordaron registrarlo como autoctono de ambos.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: la de Rosas y Lavalle es una leyenda, no un hecho comprobado.",
+      "fuente": "Balmaceda en Rio Negro/medios: 'lindas historias pero no son reales'; Billiken; La Nacion",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y vos, lo comes con cuchara o en pan? Mandaselo al uruguayo que dice que es de ellos. (CTA, sin afirmacion factica; 'dice que es de ellos' consistente con el reclamo uruguayo)",
+      "fuente": "No aplica (llamado a la accion); reclamo uruguayo en Traveller/Prensa Mercosur",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'en 1829, en Canuelas ... Se espeso y, segun la leyenda, nacio el dulce de leche' y 'cartas de 1814 que cita el historiador Daniel Balmaceda'",
+      "fuente": "Mismas fuentes que las frases correspondientes del guion; el caption replica el guion con el mismo matiz",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Fuentes citadas (La Nacion 2024; Billiken; Balmaceda segun medios)",
+      "fuente": "Verificadas como existentes: La Nacion 11/10/2024, Billiken, Rio Negro/Notife (Balmaceda)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

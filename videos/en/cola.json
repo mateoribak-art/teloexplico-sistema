@@ -1356,5 +1356,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-041-pasta-oil",
+  "tema": "Does oil in pasta water stop sticking? (ATK; own; kitchen)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-22T23:23",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-22T23:23",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-22T23:26",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-22T23:35",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

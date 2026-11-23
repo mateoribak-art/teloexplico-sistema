@@ -2473,5 +2473,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "067-dulce-de-leche-origen",
+  "tema": "¿El dulce de leche es argentino? Leyenda de Rosas y Lavalle (1829) y origen discutido con Uruguay y otros",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-22T23:00",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-22T23:00",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-22T23:03",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-22T23:22",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

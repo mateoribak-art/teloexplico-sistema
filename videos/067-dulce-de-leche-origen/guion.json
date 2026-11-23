@@ -1,0 +1,26 @@
+{
+  "titulo": "El dulce de leche argentino no tiene dueño seguro",
+  "fondo": "oscuro",
+  "receta": "El acusado equivocado / mito con origen discutido",
+  "pilar": "argentina",
+  "interaccion": ["comentar"],
+  "destinatario": "se lo manda un argentino que defiende el dulce de leche como orgullo nacional a su amigo uruguayo que dice que es de ellos, para ver quién se enoja primero",
+  "pregunta_comentarios": "¿Cuchara o pan?",
+  "fuentes": [
+    "La Nación, Día Mundial del Dulce de Leche (11/10/2024)",
+    "Billiken: Dulce de leche, versiones sobre su origen",
+    "Daniel Balmaceda, La comida en la historia argentina (según medios)",
+    "Prensa Mercosur / medios: reclamos de Uruguay y Chile"
+  ],
+  "frases": [
+    {"texto": "Para vos el dulce de leche es argentino, y punto.", "estilo": "Seco, directo, a cámara."},
+    {"texto": "Pero su origen está discutido.", "estilo": "Golpe contundente."},
+    {"texto": "La historia más contada dice que en mil ochocientos veintinueve, en Cañuelas, la cocinera de Rosas dejó la leche al fuego.", "estilo": "Informativo, ritmo de cuento."},
+    {"texto": "Mientras tanto, Lavalle dormía la siesta en el catre de Rosas.", "estilo": "Con humor, claro."},
+    {"texto": "La leche se espesó, y según la leyenda, nació el dulce de leche.", "estilo": "Cómplice."},
+    {"texto": "Pero el origen está discutido: hay registros de dulces parecidos anteriores, cartas de mil ochocientos catorce que cita el historiador Daniel Balmaceda, y Uruguay, Chile y otros países también lo reclaman.", "estilo": "Curioso, con autoridad."},
+    {"texto": "Ojo: la de Rosas y Lavalle es una leyenda, no un hecho comprobado.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Y vos, ¿lo comés con cuchara o en pan? Contestá con una palabra.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al uruguayo que dice que es de ellos.", "estilo": "Cómplice, con humor."}
+  ]
+}

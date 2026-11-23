@@ -1,0 +1,9 @@
+{"origen": ["046-perro-no-comas"], "serie": "mitos de casa", "placas": [
+ {"tipo": "tapa", "arriba": "Ese cachito de tu plato no es inocente", "grande": "no se lo des", "promesa": "deslizá y guardalo"},
+ {"tipo": "paso", "etiqueta": "// por qué importa", "titulo": "Hay comidas nuestras que le hacen mal de verdad", "cuerpo": "La ASPCA, protectora de animales de Estados Unidos, tiene una lista de lo que no hay que darle al perro.", "fuente": "ASPCA"},
+ {"tipo": "paso", "etiqueta": "// uno", "titulo": "Chocolate: cuanto más oscuro, más riesgo", "cuerpo": "Cuanto mayor es el porcentaje de cacao, mayor el riesgo de toxicidad para el perro.", "fuente": "ASPCA"},
+ {"tipo": "paso", "etiqueta": "// dos", "titulo": "Uvas y pasas pueden dañarle los riñones", "cuerpo": "Pueden provocarle daño renal. Ni una de regalo.", "fuente": "ASPCA"},
+ {"tipo": "paso", "etiqueta": "// tres", "titulo": "Cebolla, ajo y cebollín dañan los glóbulos rojos", "cuerpo": "Ese daño puede causarle anemia.", "fuente": "ASPCA"},
+ {"tipo": "paso", "etiqueta": "// ojo", "titulo": "El riesgo depende de cuánto comió", "cuerpo": "Si se comió algo de esto, llamá ya a tu veterinario y anotá la cantidad.", "fuente": "ASPCA"},
+ {"tipo": "resumen", "titulo": "Al perro nunca del plato", "items": [[false, "Chocolate (el más oscuro, peor)"], [false, "Uvas y pasas"], [false, "Cebolla, ajo y cebollín"], [true, "Si comió algo: veterinario ya"]]},
+ {"tipo": "cierre", "texto": "Mandáselo a ese que le da del plato al perro.", "serie": "mitos de casa"}]}
