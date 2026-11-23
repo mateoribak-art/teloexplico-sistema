@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T18:50",
+ "actualizado": "2026-11-23T19:13",
  "oficinas": [
   {
    "clave": "es",
@@ -125,7 +125,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-23T18:39",
-     "hace": "hace 11 min",
+     "hace": "hace 34 min",
      "detalle": [
       "Uso: 9 pasos · 4,716 tokens nuevos · 770,044 de caché · 1,954 escritos · equivale a US$ 0.82 de API",
       "2026-11-23 18:37 Arranca la producción (10 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -160,13 +160,14 @@
      },
      "estado": "ok",
      "resumen": "Guía de referentes al día.",
-     "cuando": "2026-11-05T15:28",
-     "hace": "hace 18 días",
+     "cuando": "2026-11-23T19:13",
+     "hace": "recién",
      "detalle": [
-      "05/11 15:26 Arranca Vera (referentes).",
-      "05/11 15:27 Reels bajados (código 0).",
-      "05/11 00:00 Vera: 8 reels nuevos mirados (27 bajados). Lección: lo que explota es un culpable equivocado de algo que todos viven en el país, con experto y fuente en pantalla, y lo claro anda si es un ambiente 3D con profundidad (no cuaderno).",
-      "05/11 15:28 Termina Vera (ok)."
+      "05/11 15:28 Termina Vera (ok).",
+      "23/11 19:11 Arranca Vera (referentes).",
+      "23/11 19:12 Reels bajados (código 0).",
+      "23/11 00:00 Vera: 6 reels nuevos mirados (27 bajados). Lección: \"creés X pero es Y\" con zoom al interior del objeto cotidiano, chapita con cifra y truco de 30 s (atom auto 3203x); quitada miravosarg, sumada ense_de_ciencia.",
+      "23/11 19:13 Termina Vera (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -513,7 +514,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 069-chicle-siete-anios — render/control: js:180:53)\u001b[39m\n\u001b[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/moto",
-     "cuando": "2026-11-23T18:50",
+     "cuando": "2026-11-23T19:13",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 069-chicle-siete-anios — render/control: js:180:53)\u001b[39m\n\u001b[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/moto"
@@ -664,7 +665,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-23T18:50",
-     "hace": "recién",
+     "hace": "hace 23 min",
      "detalle": [
       "Uso: 17 pasos · 24,809 tokens nuevos · 700,503 de caché · 2,718 escritos · equivale a US$ 0.47 de API",
       "2026-11-23 18:39 Arranca la producción (9 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
@@ -730,7 +731,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-23T18:50",
-     "hace": "recién",
+     "hace": "hace 23 min",
      "detalle": [
       "en-035-turkey-stuffing: aprobado — Todas las afirmaciones fácticas (seguridad alimentaria) están respaldadas por USDA FSIS y las cifras/unidades coinciden (165 °F en el centro",
       "en-036-phantom-charger: aprobado — Todas las cifras de plata verificadas en fuente primaria de EE. UU. (LBNL standby.lbl.gov: 5-10% y menos de 0,5 W; EIA Energy Explained/Elec",
@@ -763,7 +764,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-23T18:50",
-     "hace": "recién",
+     "hace": "hace 23 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -787,7 +788,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-23 18:50.",
      "cuando": "2026-11-23T18:50",
-     "hace": "recién",
+     "hace": "hace 23 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -811,7 +812,7 @@
      "estado": "aviso",
      "resumen": "Apartó 2 video(s) en las últimas 48 h.",
      "cuando": "2026-11-23T18:50",
-     "hace": "recién",
+     "hace": "hace 23 min",
      "detalle": [],
      "tareas": [
       "en-029-swim-after-eating: falta en-029-swim-after-eating.mp4",
@@ -978,7 +979,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-23T18:50",
+     "cuando": "2026-11-23T19:13",
      "hace": "recién",
      "detalle": [],
      "tareas": [],

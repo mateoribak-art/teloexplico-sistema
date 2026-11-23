@@ -1,8 +1,4 @@
 {
- "miravosarg": {
-  "nota": "mapas y tamaños de Argentina; su reel de comparar tamaños hizo 1,1 M",
-  "pais": "AR"
- },
  "spott.ar": {
   "nota": "matemática de estacionar en Palermo; 540 mil con 1.228 seguidores",
   "pais": "AR"
@@ -38,5 +34,9 @@
  "escuela.evo": {
   "nota": "negocios con stickers; avión que se repite",
   "pais": "LATAM"
+ },
+ "ense_de_ciencia": {
+  "nota": "",
+  "pais": ""
  }
 }

@@ -1,4 +1,11 @@
-# Aprendizajes de la competencia (Vera, actualizado 5/11/2026)
+# Aprendizajes de la competencia (Vera, actualizado 23/11/2026)
+
+**23/11: +6 hojas miradas (atom auto/galletas/ojeras, la_ciencia_dice, 1action1reaction pingüinos, posta "el de la derecha dobla"). Total 32.** Novedades:
+- **atom 3203x (613 mil ♥) con "¿Hay que calentar el auto?"**: es el mito cotidiano que todos hicieron ("lo dejo 5 minutos"), gancho = "le estás haciendo daño". Mismo molde en galletas (903x) y ojeras (548x): **"Creés X, y en realidad es Y" + una acción de 30 s o un truco casero** (cuchara fría, sacarlas antes). Visual: UN escenario ilustrado que hace zoom adentro (el motor, el azúcar, la piel) y vuelve afuera; chapitas con número ("0:30 y a manejar", "10 horas · siguen"), un medidor, un color de acento; cierre con íconos guardar/mandar/comentar sobre el último cuadro desenfocado. Estética 2D con degradé y volumen suave, escena cálida/nocturna, no papel.
+- **posta ley 24.449 art. 41** ("el de la derecha dobla"): vista cenital nocturna, artículo de la ley con una palabra tapada "???", cierra con chat de Rubén. Regla: **cita textual de la ley/norma con la palabra clave tapada** = tensión + fuente. Tema de tránsito argentino con consecuencia (quién tiene prioridad).
+- **1action1reaction pingüinos**: capítulos numerados "1 Solo / 2 Juntos / 3 La geometría / 4 Por turnos" con cifras (−40 °C, 74 %, 63 %) y barra; estructura en pasos numerados que se lee sin sonido.
+- **la_ciencia_dice** (8x, 330 mil ♥): estética papel/collage con corte anatómico, subtítulo con palabra clave en caja amarilla. Muestra que el estilo "papel" sí rinde si tiene capas y zoom al interior del cuerpo, no stickers sueltos.
+- Cuentas: se quitó `miravosarg` (no se podía leer); se sumó `ense_de_ciencia` (argentina, ciencia, a verificar si la API la lee).
 
 Estudio 30/10: 18 reels de 9 cuentas; 5/11: +8 reels nuevos (escuela.evo x3, atom sueños, nandomovie zombi, posta El Niño, 1bit1pixel granjero, porquetuperro peso). Total 26 reels. Base: los que más le ganaron a su propia mediana (ranking en `ranking.md`, hojas de 8 cuadros en `<cuenta>/`). Lo que no se ve en las hojas (audio, movimiento exacto) no está acá.
 Las cifras de "x" son veces la mediana de likes de esa cuenta: proyecto_atom 777x, nandomovie 317x, spott.ar 280x (con 1.228 seguidores), escuela.evo 141x, posta.explica 59x, 1action1reaction 41x, 1bit1pixel 39x.
@@ -43,10 +50,14 @@ Las cifras de "x" son veces la mediana de likes de esa cuenta: proyecto_atom 777
 8. **"Prueba de 3 pasos en casa"** (porquetuperro peso: "1 tocar, 2 arriba, 3 de lado", contador 2/3): checklist numerada con contador visible, el espectador hace cada prueba. Mezcla con receta 1. Serie: cuerpo/casa (ej. "¿tu heladera enfría bien? 3 pruebas con un billete").
 9. **"El negocio escondido en lo cotidiano"** (escuela.evo): un objeto/lugar de todos los días (kiosco, SUBE, cuotas sin interés, banco con mesa de espera) y el truco de negocio detrás, con año, monto y fuente en chapita. Serie: argentina/costumbres.
 
+10. **"Mito + zoom adentro"** (atom 3203x): "¿Hay que X? Le hacés daño" → un escenario cotidiano que hace zoom al interior (motor, azúcar, piel), chapita con cifra/contador, truco casero de 30 s, cierre con íconos guardar/mandar. Serie: ciencia/casa/cuerpo.
+11. **"La ley con la palabra tapada"** (posta art. 41): cita textual de la norma con "???", cenital de noche, cierre con chat. Serie: costumbres/argentina.
+12. **"Pasos numerados con barra"** (1action1reaction): capítulos 1–4 con etiqueta mono y cifras + barra de %. Serie: ciencia.
+
 **Autocrítica (30/10, ratificada 5/11):** nos faltan: fondo oscuro, capa de datos en pantalla, fuente con año y lugar en la escena, un reto o una cuenta que se resuelve a la vista, y un cierre que sea una pantalla de "mandáselo". El estilo "cuaderno pop" es otra estética, no es peor, pero hoy no compite en ese estante; probar versión oscura (ver regla en producir-video).
 
 ## Prohibido copiar
 Los temas exactos (embotellamiento fantasma, radar de tramo, mojarse corriendo, reto del marco de la puerta), frases, personajes ni el look reconocible de una cuenta. Si ya lo hicieron, otro ángulo.
 
 ## Cuentas seguidas
-Ver `cuentas.json`. Pendiente: `miravosarg` sigue sin leerse (Invalid user id, 5/11); buscar el usuario correcto o quitarla. Esta corrida no se sumaron cuentas nuevas (sin WebSearch); la próxima, buscar 1–2 argentinas. Sumar cuentas argentinas de datos y ciencia con reels que se mandan.
+Ver `cuentas.json`. `miravosarg` quitada (23/11). Sumada `ense_de_ciencia`; si la próxima corrida no se lee, quitarla. Seguir buscando 1–2 cuentas argentinas de datos/actualidad con reels que se mandan (la búsqueda web da poco: probar nombres concretos).
