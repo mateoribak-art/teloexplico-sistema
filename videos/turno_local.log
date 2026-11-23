@@ -63,3 +63,4 @@ combinado: videos/publicador.log
 sincronizado
 2026-11-23 14:31 [es] publicador.py -> código 0 El turno de las 12:30 ya está cubierto: no se publica de nuevo.
 2026-11-23 14:31 [en] publicador.py -> código 0 El turno de las 12:30 ya está cubierto: no se publica de nuevo.
+2026-11-23 14:31 [es] sincronizar.py Notebook: respaldo publicación -> código 0 sincronizado

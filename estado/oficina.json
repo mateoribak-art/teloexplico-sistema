@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T14:31",
+ "actualizado": "2026-11-23T15:30",
  "oficinas": [
   {
    "clave": "es",
@@ -118,7 +118,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-23T10:43",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "Uso: 2 pasos · 2,351 tokens nuevos · 242,973 de caché · 463 escritos · equivale a US$ 1.18 de API",
       "2026-11-23 10:29 Arranca la producción (12 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -154,7 +154,7 @@
      "estado": "ok",
      "resumen": "Guía de referentes al día.",
      "cuando": "2026-11-05T15:28",
-     "hace": "hace 17 días",
+     "hace": "hace 18 días",
      "detalle": [
       "05/11 15:26 Arranca Vera (referentes).",
       "05/11 15:27 Reels bajados (código 0).",
@@ -183,7 +183,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada fechado de hoy (lo más reciente es del 12-16 nov). SIN tema nuevo verificable. Descartados: (",
      "cuando": "2026-11-22T17:26",
-     "hace": "hace 21 h",
+     "hace": "hace 22 h",
      "detalle": [
       "21/11 00:00 | Revisión radar (turno nube). Una búsqueda web (SMN fin de semana largo): solo resultados de otros años, nada verificable fechado de hoy. SIN tema nuevo; sigue la cola normal.",
       "21/11 00:00 | Revisión radar (segunda pasada). Dos búsquedas web (alertas SMN y tendencias): lo más reciente es del 16-nov. SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por lluvias y tormentas en 12 provincias (Perfil 16-nov, no de hoy; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) superluna 24-nov -> todavía no se vive, reevaluar el 23-24; (c) Rosalía/Lollapalooza/fútbol/política -> espectáculos o política, no encajan. Sigue la cola normal.",
@@ -221,7 +221,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-23T12:42",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "061-heladera-termometro: aprobado — Todas las afirmaciones de salud/seguridad alimentaria quedaron verificadas contra fuentes primarias. FDA (Refrigerator Thermometers: Cold Fa",
       "062-pote-microondas: aprobado — Tercera revisión (21/11): se sacó 'un solo uso / no están pensados para cocinar' (sin fuente legible) y se acotó la regla a potes de plástic",
@@ -254,7 +254,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-23T12:42",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -278,7 +278,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-23 12:42.",
      "cuando": "2026-11-23T12:42",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -302,7 +302,7 @@
      "estado": "aviso",
      "resumen": "Apartó 2 video(s) en las últimas 48 h.",
      "cuando": "2026-11-23T12:42",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [
       "057-ruta-40-de-punta-a-punta: falta 057-ruta-40-de-punta-a-punta.mp4",
@@ -366,7 +366,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-23T12:44",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "22/11 12:34 054-gta-juegos-violentos https://youtube.com/shorts/xCfiwSs6quQ | privacidad: public",
       "22/11 12:34 054-gta-juegos-violentos paquete para TikTok/YouTube enviado",
@@ -398,7 +398,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-22T23:22",
-     "hace": "hace 15 h",
+     "hace": "hace 16 h",
      "detalle": [
       "2026-11-21 00:16 arroz-recalentado: listo control OK",
       "2026-11-21 20:39 lavar-pollo: publicado https://www.instagram.com/p/DgBbg4nEpDd/",
@@ -471,7 +471,7 @@
      "estado": "ok",
      "resumen": "23/11: 1045 seguidores",
      "cuando": "2026-11-23T04:24",
-     "hace": "hace 10 h",
+     "hace": "hace 11 h",
      "detalle": [
       "20/11: 1023 seguidores",
       "21/11: 1026 seguidores",
@@ -503,18 +503,16 @@
       }
      },
      "estado": "aviso",
-     "resumen": "Video apartado: 057-ruta-40-de-punta-a-punta — falta 057-ruta-40-de-punta-a-punta.mp4",
-     "cuando": "2026-11-23T14:31",
+     "resumen": "Hubo avisos que no se pudieron mandar (¿sin internet?).",
+     "cuando": "2026-11-23T15:30",
      "hace": "recién",
      "detalle": [
-      "⚠️ Video apartado: 057-ruta-40-de-punta-a-punta — falta 057-ruta-40-de-punta-a-punta.mp4",
-      "⚠️ Video apartado: 058-agua-del-mate — falta 058-agua-del-mate.mp4",
       "⚠️ Hubo avisos que no se pudieron mandar (¿sin internet?)."
      ],
      "tareas": [],
      "arreglo": null,
      "solo": true,
-     "firma": "c54529c702d8"
+     "firma": "94d436615a44"
     },
     {
      "id": "planb",
@@ -664,7 +662,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-23T10:48",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "Uso: 8 pasos · 5,142 tokens nuevos · 499,782 de caché · 3,286 escritos · equivale a US$ 1.07 de API",
       "2026-11-23 10:43 Arranca la producción (12 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
@@ -697,7 +695,7 @@
      "estado": "ok",
      "resumen": "Pasada del radar: la búsqueda (NWS fin de semana, tendencias de Thanksgiving) solo devolvió páginas de inviernos anteriores o índices sin fecha; nada verificabl",
      "cuando": "2026-11-22T17:26",
-     "hace": "hace 21 h",
+     "hace": "hace 22 h",
      "detalle": [
       "20/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2023/2024 y titulares sin gancho explicable. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 verificable; (2) Nvidia/Anthropic IPO/Russell Brand: negocios o chisme/delito, no explicables; (3) superluna del 24/11: lejos y sin ángulo de guardar/comentar. Sin tema nuevo.",
       "22/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2024/2025 y tendencias del 13–18/11; nada verificable de las últimas 48 h. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) CMA Awards / Robert Pattinson como Bond: entretenimiento/chisme, no explicable; (3) FAA ground stop del 13/11: viejo y sin ángulo de guardar/comentar. Sin tema nuevo.",
@@ -729,7 +727,7 @@
      "estado": "aviso",
      "resumen": "Frenó 1 video(s): en-042-frozen-pipes.",
      "cuando": "2026-11-23T12:45",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "en-035-turkey-stuffing: aprobado — Todas las afirmaciones fácticas (seguridad alimentaria) están respaldadas por USDA FSIS y las cifras/unidades coinciden (165 °F en el centro",
       "en-036-phantom-charger: aprobado — Todas las cifras de plata verificadas en fuente primaria de EE. UU. (LBNL standby.lbl.gov: 5-10% y menos de 0,5 W; EIA Energy Explained/Elec",
@@ -764,7 +762,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-23T12:45",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -788,7 +786,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-23 12:45.",
      "cuando": "2026-11-23T12:45",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -812,7 +810,7 @@
      "estado": "aviso",
      "resumen": "Apartó 2 video(s) en las últimas 48 h.",
      "cuando": "2026-11-23T12:45",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [
       "en-029-swim-after-eating: falta en-029-swim-after-eating.mp4",
@@ -876,7 +874,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-23T12:46",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "21/11 19:35 en-030-violent-games en la bandeja de TikTok",
       "21/11 19:35 en-030-violent-games paquete para TikTok/YouTube enviado",
@@ -911,7 +909,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-22T19:43",
-     "hace": "hace 18 h",
+     "hace": "hace 19 h",
      "detalle": [
       "02/11 04:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "02/11 04:22 Termina la respuesta de comentarios (con problemas).",
@@ -946,7 +944,7 @@
      "estado": "ok",
      "resumen": "23/11: 5 seguidores",
      "cuando": "2026-11-23T04:25",
-     "hace": "hace 10 h",
+     "hace": "hace 11 h",
      "detalle": [
       "20/11: 5 seguidores",
       "21/11: 5 seguidores",
@@ -978,18 +976,16 @@
       }
      },
      "estado": "aviso",
-     "resumen": "Video apartado: en-029-swim-after-eating — falta en-029-swim-after-eating.mp4",
-     "cuando": "2026-11-23T14:31",
+     "resumen": "Video apartado: en-042-frozen-pipes — chequeo rechazado 2 veces: los 55 F del NWS no estan en la pagina citada (solo en weather.gov/okx/winterpns7); texto ver",
+     "cuando": "2026-11-23T15:30",
      "hace": "recién",
      "detalle": [
-      "⚠️ Video apartado: en-029-swim-after-eating — falta en-029-swim-after-eating.mp4",
-      "⚠️ Video apartado: en-032-gta-13-years — falta en-032-gta-13-years.mp4",
       "⚠️ Video apartado: en-042-frozen-pipes — chequeo rechazado 2 veces: los 55 F del NWS no estan en la pagina citada (solo en weather.gov/okx/winterpns7); texto ver"
      ],
      "tareas": [],
      "arreglo": null,
      "solo": true,
-     "firma": "692733aafb49"
+     "firma": "74c9899f6a0d"
     }
    ]
   }
