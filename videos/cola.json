@@ -2202,7 +2202,7 @@
  {
   "slug": "057-ruta-40-de-punta-a-punta",
   "tema": "Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -2243,6 +2243,11 @@
     "estado": "listo",
     "cuando": "2026-11-23T23:56",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-24T12:32",
+    "motivo": "https://www.instagram.com/reel/DgISKG3iAS4/"
    }
   ]
  },

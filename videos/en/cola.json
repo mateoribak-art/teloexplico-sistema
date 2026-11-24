@@ -1037,7 +1037,7 @@
  {
   "slug": "en-029-swim-after-eating",
   "tema": "Do you have to wait to swim after eating? (Red Cross; adapted from 002)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1068,6 +1068,11 @@
     "estado": "listo",
     "cuando": "2026-11-23T22:05",
     "motivo": "revisado: el mp4 faltaba solo en la corrida del 22/11 (igual que en-031, en-026 y en-027, que ya salieron)"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-24T12:34",
+    "motivo": "https://www.instagram.com/reel/DgISYd8HBYw/"
    }
   ]
  },
