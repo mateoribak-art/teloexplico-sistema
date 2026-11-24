@@ -1037,7 +1037,7 @@
  {
   "slug": "en-029-swim-after-eating",
   "tema": "Do you have to wait to swim after eating? (Red Cross; adapted from 002)",
-  "estado": "apartado",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -1063,6 +1063,11 @@
     "estado": "apartado",
     "cuando": "2026-11-22T14:31",
     "motivo": "falta en-029-swim-after-eating.mp4"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-23T22:05",
+    "motivo": "revisado: el mp4 faltaba solo en la corrida del 22/11 (igual que en-031, en-026 y en-027, que ya salieron)"
    }
   ]
  },
@@ -1132,7 +1137,7 @@
  {
   "slug": "en-032-gta-13-years",
   "tema": "GTA 6: 13 years since GTA V (2013) and two delays; How old were you?",
-  "estado": "apartado",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -1158,6 +1163,11 @@
     "estado": "apartado",
     "cuando": "2026-11-22T14:31",
     "motivo": "falta en-032-gta-13-years.mp4"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-23T22:05",
+    "motivo": "revisado: el mp4 faltaba solo en la corrida del 22/11 (igual que en-031, en-026 y en-027, que ya salieron)"
    }
   ]
  },
