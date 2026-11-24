@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T19:35",
+ "actualizado": "2026-11-23T22:01",
  "oficinas": [
   {
    "clave": "es",
@@ -44,6 +44,13 @@
    ],
    "linea": [
     {
+     "slug": "069-chicle-siete-anios",
+     "tema": "¿Tragarte un chicle tarda siete años en salir? No: unas 40 horas (Cleveland Clinic, KidsHealth)",
+     "estado": "render",
+     "cuando": "2026-11-23T22:01",
+     "motivo": "reintento auto: apartado por render/control; se renderiza y controla de nuevo"
+    },
+    {
      "slug": "060-celular-carga-noche",
      "tema": "¿Dejar el celular cargando toda la noche lo arruina? Apple: no se sobrecarga; carga optimizada y límite del 80 %",
      "estado": "listo",
@@ -86,13 +93,6 @@
      "motivo": "falta 058-agua-del-mate.mp4"
     },
     {
-     "slug": "069-chicle-siete-anios",
-     "tema": "¿Tragarte un chicle tarda siete años en salir? No: unas 40 horas (Cleveland Clinic, KidsHealth)",
-     "estado": "apartado",
-     "cuando": "2026-11-23T18:39",
-     "motivo": "render/control: js:180:53)\u001b[39m\n\u001b[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/cli/dist/render"
-    },
-    {
      "slug": "056-gta-trece-anios",
      "tema": "GTA 6: trece años desde el GTA V y dos postergaciones --actualidad",
      "estado": "publicado",
@@ -125,7 +125,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-23T18:39",
-     "hace": "hace 56 min",
+     "hace": "hace 3 h",
      "detalle": [
       "Uso: 9 pasos · 4,716 tokens nuevos · 770,044 de caché · 1,954 escritos · equivale a US$ 0.82 de API",
       "2026-11-23 18:37 Arranca la producción (10 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -139,7 +139,9 @@
       "\u001b[31m    at async cli (/)",
       "2026-11-23 18:39 Termina la producción (ok)."
      ],
-     "tareas": [],
+     "tareas": [
+      "069-chicle-siete-anios — ¿Tragarte un chicle tarda siete años en salir? No: unas 40 horas (Cleveland Clinic, KidsHealth)"
+     ],
      "arreglo": null,
      "solo": false,
      "firma": "5e5a54942854"
@@ -161,7 +163,7 @@
      "estado": "ok",
      "resumen": "Guía de referentes al día.",
      "cuando": "2026-11-23T19:13",
-     "hace": "hace 22 min",
+     "hace": "hace 2 h",
      "detalle": [
       "05/11 15:28 Termina Vera (ok).",
       "23/11 19:11 Arranca Vera (referentes).",
@@ -191,7 +193,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada fechado de hoy (lo más reciente es del 12-16 nov). SIN tema nuevo verificable. Descartados: (",
      "cuando": "2026-11-22T17:26",
-     "hace": "hace 26 h",
+     "hace": "hace 28 h",
      "detalle": [
       "21/11 00:00 | Revisión radar (turno nube). Una búsqueda web (SMN fin de semana largo): solo resultados de otros años, nada verificable fechado de hoy. SIN tema nuevo; sigue la cola normal.",
       "21/11 00:00 | Revisión radar (segunda pasada). Dos búsquedas web (alertas SMN y tendencias): lo más reciente es del 16-nov. SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por lluvias y tormentas en 12 provincias (Perfil 16-nov, no de hoy; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) superluna 24-nov -> todavía no se vive, reevaluar el 23-24; (c) Rosalía/Lollapalooza/fútbol/política -> espectáculos o política, no encajan. Sigue la cola normal.",
@@ -229,7 +231,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-23T19:32",
-     "hace": "hace 3 min",
+     "hace": "hace 2 h",
      "detalle": [
       "062-pote-microondas: aprobado — Tercera revisión (21/11): se sacó 'un solo uso / no están pensados para cocinar' (sin fuente legible) y se acotó la regla a potes de plástic",
       "063-che-origen: aprobado — Todas las afirmaciones tienen fuente o están presentadas como versión no confirmada. Las únicas 'dudosas' son los tres orígenes, que el guio",
@@ -262,7 +264,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-23T19:32",
-     "hace": "hace 3 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -283,17 +285,17 @@
        "cuenta": "es"
       }
      },
-     "estado": "falla",
-     "resumen": "Falló el render de 069-chicle-siete-anios.",
+     "estado": "trabajando",
+     "resumen": "1 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
      "cuando": "2026-11-23T19:32",
-     "hace": "hace 3 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [
-      "069-chicle-siete-anios: render/control: js:180:53)\u001b[39m\n\u001b[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/cli/dist/render.js:166:5)\u001b[39m\n\u001b[31m    at async cli (/"
+      "069-chicle-siete-anios"
      ],
-     "arreglo": "Relanzá la producción: los videos en estado render se vuelven a renderizar solos.",
+     "arreglo": null,
      "solo": false,
-     "firma": "0bb0cd693622"
+     "firma": "26b16992f9f3"
     },
     {
      "id": "control",
@@ -312,7 +314,7 @@
      "estado": "aviso",
      "resumen": "Apartó 2 video(s) en las últimas 48 h.",
      "cuando": "2026-11-23T19:32",
-     "hace": "hace 3 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [
       "057-ruta-40-de-punta-a-punta: falta 057-ruta-40-de-punta-a-punta.mp4",
@@ -339,7 +341,7 @@
      "estado": "ok",
      "resumen": "Último: 059-pibe-chango-guri.",
      "cuando": "2026-11-23T19:33",
-     "hace": "hace 2 min",
+     "hace": "hace 2 h",
      "detalle": [
       "22/11 14:31 054-gta-juegos-violentos apartado: falta 054-gta-juegos-violentos.mp4",
       "22/11 14:31 055-gta-vice-city-miami apartado: falta 055-gta-vice-city-miami.mp4",
@@ -376,7 +378,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-23T19:33",
-     "hace": "hace 2 min",
+     "hace": "hace 2 h",
      "detalle": [
       "22/11 19:34 055-gta-vice-city-miami https://youtube.com/shorts/4_EWH_XuwKY | privacidad: public",
       "22/11 19:34 055-gta-vice-city-miami paquete para TikTok/YouTube enviado",
@@ -408,7 +410,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-22T23:22",
-     "hace": "hace 20 h",
+     "hace": "hace 22 h",
      "detalle": [
       "2026-11-21 00:16 arroz-recalentado: listo control OK",
       "2026-11-21 20:39 lavar-pollo: publicado https://www.instagram.com/p/DgBbg4nEpDd/",
@@ -442,7 +444,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-20T20:19",
-     "hace": "hace 2 días",
+     "hace": "hace 3 días",
      "detalle": [
       "07/11 18:02 Hay 18 comentarios nuevos: arranca la respuesta.",
       "07/11 00:00 Respondí 16 · salteé 2 · alerté 0. (026-mediodia-hora-corrida: 14 respondidos, incluido alejandrokalfayan (hora oficial vs longitud, con Ley 26.350); 028-yerba-por-ano: 2 respondidos; salteados: aledelejos (vulgar, tema político de la hora) y un duplicado de fulanocris)",
@@ -481,7 +483,7 @@
      "estado": "ok",
      "resumen": "23/11: 1045 seguidores",
      "cuando": "2026-11-23T04:24",
-     "hace": "hace 15 h",
+     "hace": "hace 17 h",
      "detalle": [
       "20/11: 1023 seguidores",
       "21/11: 1026 seguidores",
@@ -512,17 +514,15 @@
        "modo": "vigilar"
       }
      },
-     "estado": "aviso",
-     "resumen": "Video apartado: 069-chicle-siete-anios — render/control: js:180:53)\u001b[39m\n\u001b[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/moto",
-     "cuando": "2026-11-23T19:35",
+     "estado": "ok",
+     "resumen": "Todo en orden ✓",
+     "cuando": "2026-11-23T22:01",
      "hace": "recién",
-     "detalle": [
-      "⚠️ Video apartado: 069-chicle-siete-anios — render/control: js:180:53)\u001b[39m\n\u001b[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/moto"
-     ],
+     "detalle": [],
      "tareas": [],
      "arreglo": null,
-     "solo": true,
-     "firma": "15f79ea2c866"
+     "solo": false,
+     "firma": "cf3a22f5d39c"
     },
     {
      "id": "planb",
@@ -665,7 +665,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-23T18:50",
-     "hace": "hace 45 min",
+     "hace": "hace 3 h",
      "detalle": [
       "Uso: 17 pasos · 24,809 tokens nuevos · 700,503 de caché · 2,718 escritos · equivale a US$ 0.47 de API",
       "2026-11-23 18:39 Arranca la producción (9 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
@@ -699,7 +699,7 @@
      "estado": "ok",
      "resumen": "Pasada del radar: la búsqueda (NWS fin de semana, tendencias de Thanksgiving) solo devolvió páginas de inviernos anteriores o índices sin fecha; nada verificabl",
      "cuando": "2026-11-22T17:26",
-     "hace": "hace 26 h",
+     "hace": "hace 28 h",
      "detalle": [
       "20/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2023/2024 y titulares sin gancho explicable. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 verificable; (2) Nvidia/Anthropic IPO/Russell Brand: negocios o chisme/delito, no explicables; (3) superluna del 24/11: lejos y sin ángulo de guardar/comentar. Sin tema nuevo.",
       "22/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2024/2025 y tendencias del 13–18/11; nada verificable de las últimas 48 h. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) CMA Awards / Robert Pattinson como Bond: entretenimiento/chisme, no explicable; (3) FAA ground stop del 13/11: viejo y sin ángulo de guardar/comentar. Sin tema nuevo.",
@@ -731,7 +731,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-23T19:34",
-     "hace": "hace 1 min",
+     "hace": "hace 2 h",
      "detalle": [
       "en-035-turkey-stuffing: aprobado — Todas las afirmaciones fácticas (seguridad alimentaria) están respaldadas por USDA FSIS y las cifras/unidades coinciden (165 °F en el centro",
       "en-036-phantom-charger: aprobado — Todas las cifras de plata verificadas en fuente primaria de EE. UU. (LBNL standby.lbl.gov: 5-10% y menos de 0,5 W; EIA Energy Explained/Elec",
@@ -764,7 +764,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-23T19:34",
-     "hace": "hace 1 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -788,7 +788,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-23 19:34.",
      "cuando": "2026-11-23T19:34",
-     "hace": "hace 1 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -812,7 +812,7 @@
      "estado": "aviso",
      "resumen": "Apartó 2 video(s) en las últimas 48 h.",
      "cuando": "2026-11-23T19:34",
-     "hace": "hace 1 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [
       "en-029-swim-after-eating: falta en-029-swim-after-eating.mp4",
@@ -839,7 +839,7 @@
      "estado": "ok",
      "resumen": "Último: en-033-turkey-thaw.",
      "cuando": "2026-11-23T19:35",
-     "hace": "recién",
+     "hace": "hace 2 h",
      "detalle": [
       "23/11 12:46 en-027-bleach-vinegar paquete para TikTok/YouTube enviado",
       "22/11 14:31 en-031-gta-vice-city apartado: falta en-031-gta-vice-city.mp4",
@@ -876,7 +876,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-23T19:35",
-     "hace": "recién",
+     "hace": "hace 2 h",
      "detalle": [
       "22/11 12:36 en-031-gta-vice-city en la bandeja de TikTok",
       "22/11 12:36 en-031-gta-vice-city paquete para TikTok/YouTube enviado",
@@ -911,7 +911,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-22T19:43",
-     "hace": "hace 23 h",
+     "hace": "hace 26 h",
      "detalle": [
       "02/11 04:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "02/11 04:22 Termina la respuesta de comentarios (con problemas).",
@@ -946,7 +946,7 @@
      "estado": "ok",
      "resumen": "23/11: 5 seguidores",
      "cuando": "2026-11-23T04:25",
-     "hace": "hace 15 h",
+     "hace": "hace 17 h",
      "detalle": [
       "20/11: 5 seguidores",
       "21/11: 5 seguidores",
@@ -979,7 +979,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-23T19:35",
+     "cuando": "2026-11-23T22:01",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -991,24 +991,6 @@
   }
  ],
  "arreglos": [
-  {
-   "id": "11010439-en-chequeo",
-   "creado": "2026-11-01T04:40",
-   "estado": "fallo",
-   "firma": null,
-   "titulo": "Claude no pudo trabajar ahora",
-   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
-   "actualizado": "2026-11-01T04:40"
-  },
-  {
-   "id": "11011411-en-chequeo",
-   "creado": "2026-11-01T14:11",
-   "estado": "fallo",
-   "firma": null,
-   "titulo": "Claude no pudo trabajar ahora",
-   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
-   "actualizado": "2026-11-01T14:11"
-  },
   {
    "id": "11021750-en-vigilante",
    "creado": "2026-11-02T18:21",
@@ -1224,6 +1206,26 @@
     "videos/cola.json",
     "videos/produccion.log"
    ]
+  },
+  {
+   "id": "11232201-es-control",
+   "creado": "2026-11-23T22:01",
+   "empleado": "es/control",
+   "firma": "09edd90dcb53",
+   "estado": "pedido",
+   "auto": true,
+   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Ramiro (Control de calidad) está en \"aviso\": Apartó 2 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\n057-ruta-40-de-punta-a-punta: falta 057-ruta-40-de-punta-a-punta.mp4\n058-agua-del-mate: falta 058-agua-del-mate.mp4\n",
+   "actualizado": "2026-11-23T22:01"
+  },
+  {
+   "id": "11232201-en-control",
+   "creado": "2026-11-23T22:01",
+   "empleado": "en/control",
+   "firma": "29e3a85e9d1d",
+   "estado": "pedido",
+   "auto": true,
+   "problema": "En la oficina de Nueva York (@letmeexplain.us), Ben (Control de calidad) está en \"aviso\": Apartó 2 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\nen-029-swim-after-eating: falta en-029-swim-after-eating.mp4\nen-032-gta-13-years: falta en-032-gta-13-years.mp4\n",
+   "actualizado": "2026-11-23T22:01"
   }
  ]
 }

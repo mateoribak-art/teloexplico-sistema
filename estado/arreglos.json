@@ -1,25 +1,5 @@
 [
  {
-  "id": "manual-es-jefe",
-  "empleado": "es/jefe",
-  "firma": "ecd496c70df0",
-  "estado": "explicado",
-  "titulo": "Ya está corregido: un permiso negado no frena más el turno",
-  "resumen": "Claude intentaba editar archivos con un comando prohibido; lo hacía igual por el camino permitido, pero el turno quedaba como fallado y se salteaba el carrusel. Se corrigió en producir.py el 27/10: desde el próximo turno de producción vuelve a verde.",
-  "creado": "2026-10-27T15:01",
-  "actualizado": "2026-10-27T15:01"
- },
- {
-  "id": "manual-en-jefe",
-  "empleado": "en/jefe",
-  "firma": "323ed93883ba",
-  "estado": "explicado",
-  "titulo": "Ya está corregido: un permiso negado no frena más el turno",
-  "resumen": "Claude intentaba editar archivos con un comando prohibido; lo hacía igual por el camino permitido, pero el turno quedaba como fallado y se salteaba el carrusel. Se corrigió en producir.py el 27/10: desde el próximo turno de producción vuelve a verde.",
-  "creado": "2026-10-27T15:01",
-  "actualizado": "2026-10-27T15:01"
- },
- {
   "id": "mvr34znp-vigilante",
   "creado": "2026-10-27T16:36",
   "empleado": "en/vigilante",
@@ -482,5 +462,25 @@
    "videos/cola.json",
    "videos/produccion.log"
   ]
+ },
+ {
+  "id": "11232201-es-control",
+  "creado": "2026-11-23T22:01",
+  "empleado": "es/control",
+  "firma": "09edd90dcb53",
+  "estado": "pedido",
+  "auto": true,
+  "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Ramiro (Control de calidad) está en \"aviso\": Apartó 2 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\n057-ruta-40-de-punta-a-punta: falta 057-ruta-40-de-punta-a-punta.mp4\n058-agua-del-mate: falta 058-agua-del-mate.mp4\n",
+  "actualizado": "2026-11-23T22:01"
+ },
+ {
+  "id": "11232201-en-control",
+  "creado": "2026-11-23T22:01",
+  "empleado": "en/control",
+  "firma": "29e3a85e9d1d",
+  "estado": "pedido",
+  "auto": true,
+  "problema": "En la oficina de Nueva York (@letmeexplain.us), Ben (Control de calidad) está en \"aviso\": Apartó 2 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\nen-029-swim-after-eating: falta en-029-swim-after-eating.mp4\nen-032-gta-13-years: falta en-032-gta-13-years.mp4\n",
+  "actualizado": "2026-11-23T22:01"
  }
 ]
