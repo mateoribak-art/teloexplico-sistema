@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T14:40",
+ "actualizado": "2026-11-24T15:30",
  "oficinas": [
   {
    "clave": "es",
@@ -104,7 +104,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-24T11:29",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "Uso: 22 pasos · 17,538 tokens nuevos · 1,336,243 de caché · 7,014 escritos · equivale a US$ 1.21 de API",
       "2026-11-24 11:07 Arranca la producción (13 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -140,7 +140,7 @@
      "estado": "ok",
      "resumen": "Guía de referentes al día.",
      "cuando": "2026-11-23T19:13",
-     "hace": "hace 19 h",
+     "hace": "hace 20 h",
      "detalle": [
       "05/11 15:28 Termina Vera (ok).",
       "23/11 19:11 Arranca Vera (referentes).",
@@ -170,7 +170,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (lo más reciente es del 16-nov; el resto mezcla años). SIN tema nu",
      "cuando": "2026-11-23T22:07",
-     "hace": "hace 16 h",
+     "hace": "hace 17 h",
      "detalle": [
       "21/11 00:00 | Revisión radar (segunda pasada). Dos búsquedas web (alertas SMN y tendencias): lo más reciente es del 16-nov. SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por lluvias y tormentas en 12 provincias (Perfil 16-nov, no de hoy; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) superluna 24-nov -> todavía no se vive, reevaluar el 23-24; (c) Rosalía/Lollapalooza/fútbol/política -> espectáculos o política, no encajan. Sigue la cola normal.",
       "22/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada fechado de hoy (lo más reciente es del 12-16 nov). SIN tema nuevo verificable. Descartados: (a) alertas por tormentas/granizo en 15 provincias (Meteored, sin fecha verificable; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) superluna 24-nov -> todavía no se vive, reevaluar el 23-24; (c) dólar, consumo, política, IA -> economía/política, no encajan. Sigue la cola normal.",
@@ -382,7 +382,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-22T23:22",
-     "hace": "hace 39 h",
+     "hace": "hace 40 h",
      "detalle": [
       "2026-11-21 00:16 arroz-recalentado: listo control OK",
       "2026-11-21 20:39 lavar-pollo: publicado https://www.instagram.com/p/DgBbg4nEpDd/",
@@ -416,7 +416,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-24T07:43",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [
       "24/11 00:27 Hay 7 comentarios nuevos: arranca la respuesta.",
       "24/11 00:00 Respondí 5 · salteé 2 · alerté 0. (059-pibe-chango-guri: juanalberto44252, martintellechea2023, juanmamiglia, nicobondaruk y pachakuteq_91 respondidos; juannsavagnaa578 y robertoy2772 salteados por ser palabra suelta sin pregunta ni dato claro)",
@@ -455,7 +455,7 @@
      "estado": "ok",
      "resumen": "24/11: 1071 seguidores",
      "cuando": "2026-11-24T06:44",
-     "hace": "hace 7 h",
+     "hace": "hace 8 h",
      "detalle": [
       "21/11: 1026 seguidores",
       "22/11: 1034 seguidores",
@@ -488,7 +488,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-24T14:40",
+     "cuando": "2026-11-24T15:30",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -658,7 +658,7 @@
      "estado": "ok",
      "resumen": "Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2024/2025 y titulares del 10–18/11; nada verificable de las últimas 48 h. Descartados",
      "cuando": "2026-11-23T22:07",
-     "hace": "hace 16 h",
+     "hace": "hace 17 h",
      "detalle": [
       "22/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2024/2025 y tendencias del 13–18/11; nada verificable de las últimas 48 h. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) CMA Awards / Robert Pattinson como Bond: entretenimiento/chisme, no explicable; (3) FAA ground stop del 13/11: viejo y sin ángulo de guardar/comentar. Sin tema nuevo.",
       "21/11 00:00 Pasada del radar: la búsqueda (NWS fin de semana, tendencias de Thanksgiving) solo devolvió páginas de inviernos anteriores o índices sin fecha; nada verificable de las últimas 48 h. Descartados: (1) clima del fin de semana: sin alerta ni fuente oficial del día; (2) Thanksgiving (26/11): sin ángulo de guardar/comentar verificable hoy; (3) superluna del 24/11: sin ángulo de guardar/comentar. Sin tema nuevo.",
@@ -867,7 +867,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-22T19:43",
-     "hace": "hace 42 h",
+     "hace": "hace 43 h",
      "detalle": [
       "02/11 04:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "02/11 04:22 Termina la respuesta de comentarios (con problemas).",
@@ -902,7 +902,7 @@
      "estado": "ok",
      "resumen": "24/11: 5 seguidores",
      "cuando": "2026-11-24T06:44",
-     "hace": "hace 7 h",
+     "hace": "hace 8 h",
      "detalle": [
       "21/11: 5 seguidores",
       "22/11: 5 seguidores",
@@ -935,7 +935,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-24T14:40",
+     "cuando": "2026-11-24T15:30",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
