@@ -1,0 +1,815 @@
+{
+ "duracion": 49.67,
+ "frases": [
+  {
+   "texto": "Te dijeron que la Muralla China es lo único que se ve desde el espacio.",
+   "palabras": [
+    {
+     "texto": "Te",
+     "inicio": 0.0,
+     "fin": 0.12
+    },
+    {
+     "texto": "dijeron",
+     "inicio": 0.12,
+     "fin": 0.48
+    },
+    {
+     "texto": "que",
+     "inicio": 0.48,
+     "fin": 0.62
+    },
+    {
+     "texto": "la",
+     "inicio": 0.62,
+     "fin": 0.74
+    },
+    {
+     "texto": "Muralla",
+     "inicio": 0.74,
+     "fin": 1.2
+    },
+    {
+     "texto": "China",
+     "inicio": 1.2,
+     "fin": 1.7
+    },
+    {
+     "texto": "es",
+     "inicio": 1.7,
+     "fin": 2.18
+    },
+    {
+     "texto": "lo",
+     "inicio": 2.18,
+     "fin": 2.34
+    },
+    {
+     "texto": "único",
+     "inicio": 2.34,
+     "fin": 2.68
+    },
+    {
+     "texto": "que",
+     "inicio": 2.68,
+     "fin": 2.86
+    },
+    {
+     "texto": "se",
+     "inicio": 2.86,
+     "fin": 3.02
+    },
+    {
+     "texto": "ve",
+     "inicio": 3.02,
+     "fin": 3.14
+    },
+    {
+     "texto": "desde",
+     "inicio": 3.14,
+     "fin": 3.26
+    },
+    {
+     "texto": "el",
+     "inicio": 3.26,
+     "fin": 3.44
+    },
+    {
+     "texto": "espacio.",
+     "inicio": 3.44,
+     "fin": 3.8
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.8
+  },
+  {
+   "texto": "Es un mito.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 4.66,
+     "fin": 4.96
+    },
+    {
+     "texto": "un",
+     "inicio": 4.96,
+     "fin": 5.14
+    },
+    {
+     "texto": "mito.",
+     "inicio": 5.14,
+     "fin": 5.44
+    }
+   ],
+   "inicio": 4.66,
+   "fin": 5.44
+  },
+  {
+   "texto": "En dos mil tres, el astronauta chino Yang Liwei volvió del espacio y dijo que no la había visto.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 5.88,
+     "fin": 6.0
+    },
+    {
+     "texto": "dos",
+     "inicio": 6.0,
+     "fin": 6.14
+    },
+    {
+     "texto": "mil",
+     "inicio": 6.14,
+     "fin": 6.26
+    },
+    {
+     "texto": "tres,",
+     "inicio": 6.26,
+     "fin": 6.6
+    },
+    {
+     "texto": "el",
+     "inicio": 7.02,
+     "fin": 7.3
+    },
+    {
+     "texto": "astronauta",
+     "inicio": 7.3,
+     "fin": 7.74
+    },
+    {
+     "texto": "chino",
+     "inicio": 7.74,
+     "fin": 8.06
+    },
+    {
+     "texto": "Yang",
+     "inicio": 8.06,
+     "fin": 8.44
+    },
+    {
+     "texto": "Liwei",
+     "inicio": 8.44,
+     "fin": 8.94
+    },
+    {
+     "texto": "volvió",
+     "inicio": 8.94,
+     "fin": 9.62
+    },
+    {
+     "texto": "del",
+     "inicio": 9.62,
+     "fin": 9.74
+    },
+    {
+     "texto": "espacio",
+     "inicio": 9.74,
+     "fin": 10.14
+    },
+    {
+     "texto": "y",
+     "inicio": 10.14,
+     "fin": 10.54
+    },
+    {
+     "texto": "dijo",
+     "inicio": 10.54,
+     "fin": 10.76
+    },
+    {
+     "texto": "que",
+     "inicio": 10.76,
+     "fin": 10.88
+    },
+    {
+     "texto": "no",
+     "inicio": 10.88,
+     "fin": 11.0
+    },
+    {
+     "texto": "la",
+     "inicio": 11.0,
+     "fin": 11.1
+    },
+    {
+     "texto": "había",
+     "inicio": 11.1,
+     "fin": 11.22
+    },
+    {
+     "texto": "visto.",
+     "inicio": 11.22,
+     "fin": 11.56
+    }
+   ],
+   "inicio": 5.88,
+   "fin": 11.56
+  },
+  {
+   "texto": "La NASA explica que desde órbita baja, a simple vista, generalmente no se ve.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 12.14,
+     "fin": 12.32
+    },
+    {
+     "texto": "NASA",
+     "inicio": 12.32,
+     "fin": 12.48
+    },
+    {
+     "texto": "explica",
+     "inicio": 12.48,
+     "fin": 13.0
+    },
+    {
+     "texto": "que",
+     "inicio": 13.0,
+     "fin": 13.18
+    },
+    {
+     "texto": "desde",
+     "inicio": 13.18,
+     "fin": 13.42
+    },
+    {
+     "texto": "órbita",
+     "inicio": 13.42,
+     "fin": 13.86
+    },
+    {
+     "texto": "baja,",
+     "inicio": 13.86,
+     "fin": 14.16
+    },
+    {
+     "texto": "a",
+     "inicio": 14.6,
+     "fin": 14.7
+    },
+    {
+     "texto": "simple",
+     "inicio": 14.7,
+     "fin": 14.92
+    },
+    {
+     "texto": "vista,",
+     "inicio": 14.92,
+     "fin": 15.3
+    },
+    {
+     "texto": "generalmente",
+     "inicio": 15.7,
+     "fin": 16.32
+    },
+    {
+     "texto": "no",
+     "inicio": 16.32,
+     "fin": 16.54
+    },
+    {
+     "texto": "se",
+     "inicio": 16.54,
+     "fin": 16.72
+    },
+    {
+     "texto": "ve.",
+     "inicio": 16.72,
+     "fin": 16.88
+    }
+   ],
+   "inicio": 12.14,
+   "fin": 16.88
+  },
+  {
+   "texto": "La Estación Espacial Internacional vuela a unos cuatrocientos kilómetros de altura.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 17.28,
+     "fin": 17.5
+    },
+    {
+     "texto": "Estación",
+     "inicio": 17.5,
+     "fin": 17.74
+    },
+    {
+     "texto": "Espacial",
+     "inicio": 17.74,
+     "fin": 18.12
+    },
+    {
+     "texto": "Internacional",
+     "inicio": 18.12,
+     "fin": 18.86
+    },
+    {
+     "texto": "vuela",
+     "inicio": 18.86,
+     "fin": 19.36
+    },
+    {
+     "texto": "a",
+     "inicio": 19.36,
+     "fin": 19.5
+    },
+    {
+     "texto": "unos",
+     "inicio": 19.5,
+     "fin": 19.7
+    },
+    {
+     "texto": "cuatrocientos",
+     "inicio": 19.7,
+     "fin": 20.76
+    },
+    {
+     "texto": "kilómetros",
+     "inicio": 20.76,
+     "fin": 21.16
+    },
+    {
+     "texto": "de",
+     "inicio": 21.16,
+     "fin": 21.3
+    },
+    {
+     "texto": "altura.",
+     "inicio": 21.3,
+     "fin": 21.58
+    }
+   ],
+   "inicio": 17.28,
+   "fin": 21.58
+  },
+  {
+   "texto": "Es larguísima, pero su color se parece al del suelo que la rodea, así que cuesta distinguirla.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 22.14,
+     "fin": 22.26
+    },
+    {
+     "texto": "larguísima,",
+     "inicio": 22.26,
+     "fin": 23.04
+    },
+    {
+     "texto": "pero",
+     "inicio": 23.44,
+     "fin": 23.7
+    },
+    {
+     "texto": "su",
+     "inicio": 23.7,
+     "fin": 23.88
+    },
+    {
+     "texto": "color",
+     "inicio": 23.88,
+     "fin": 24.2
+    },
+    {
+     "texto": "se",
+     "inicio": 24.2,
+     "fin": 24.52
+    },
+    {
+     "texto": "parece",
+     "inicio": 24.52,
+     "fin": 24.78
+    },
+    {
+     "texto": "al",
+     "inicio": 24.78,
+     "fin": 25.0
+    },
+    {
+     "texto": "del",
+     "inicio": 25.0,
+     "fin": 25.16
+    },
+    {
+     "texto": "suelo",
+     "inicio": 25.16,
+     "fin": 25.54
+    },
+    {
+     "texto": "que",
+     "inicio": 25.54,
+     "fin": 25.68
+    },
+    {
+     "texto": "la",
+     "inicio": 25.68,
+     "fin": 25.8
+    },
+    {
+     "texto": "rodea,",
+     "inicio": 25.8,
+     "fin": 26.34
+    },
+    {
+     "texto": "así",
+     "inicio": 26.6,
+     "fin": 26.9
+    },
+    {
+     "texto": "que",
+     "inicio": 26.9,
+     "fin": 27.08
+    },
+    {
+     "texto": "cuesta",
+     "inicio": 27.08,
+     "fin": 27.62
+    },
+    {
+     "texto": "distinguirla.",
+     "inicio": 27.62,
+     "fin": 28.38
+    }
+   ],
+   "inicio": 22.14,
+   "fin": 28.38
+  },
+  {
+   "texto": "Ojo: en dos mil cuatro, el astronauta Leroy Chiao la fotografió desde la Estación con un teleobjetivo. Pero él mismo dijo que a simple vista no la había visto.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 28.96,
+     "fin": 29.14
+    },
+    {
+     "texto": "en",
+     "inicio": 29.68,
+     "fin": 29.76
+    },
+    {
+     "texto": "dos",
+     "inicio": 29.76,
+     "fin": 29.9
+    },
+    {
+     "texto": "mil",
+     "inicio": 29.9,
+     "fin": 30.02
+    },
+    {
+     "texto": "cuatro,",
+     "inicio": 30.02,
+     "fin": 30.38
+    },
+    {
+     "texto": "el",
+     "inicio": 30.9,
+     "fin": 31.06
+    },
+    {
+     "texto": "astronauta",
+     "inicio": 31.06,
+     "fin": 31.62
+    },
+    {
+     "texto": "Leroy",
+     "inicio": 31.62,
+     "fin": 32.06
+    },
+    {
+     "texto": "Chiao",
+     "inicio": 32.06,
+     "fin": 32.46
+    },
+    {
+     "texto": "la",
+     "inicio": 32.46,
+     "fin": 32.72
+    },
+    {
+     "texto": "fotografió",
+     "inicio": 32.72,
+     "fin": 33.32
+    },
+    {
+     "texto": "desde",
+     "inicio": 33.32,
+     "fin": 33.5
+    },
+    {
+     "texto": "la",
+     "inicio": 33.5,
+     "fin": 33.68
+    },
+    {
+     "texto": "Estación",
+     "inicio": 33.68,
+     "fin": 34.08
+    },
+    {
+     "texto": "con",
+     "inicio": 34.08,
+     "fin": 34.32
+    },
+    {
+     "texto": "un",
+     "inicio": 34.32,
+     "fin": 34.46
+    },
+    {
+     "texto": "teleobjetivo.",
+     "inicio": 34.46,
+     "fin": 35.18
+    },
+    {
+     "texto": "Pero",
+     "inicio": 35.66,
+     "fin": 35.78
+    },
+    {
+     "texto": "él",
+     "inicio": 35.78,
+     "fin": 35.92
+    },
+    {
+     "texto": "mismo",
+     "inicio": 35.92,
+     "fin": 36.14
+    },
+    {
+     "texto": "dijo",
+     "inicio": 36.14,
+     "fin": 36.42
+    },
+    {
+     "texto": "que",
+     "inicio": 36.42,
+     "fin": 36.6
+    },
+    {
+     "texto": "a",
+     "inicio": 36.6,
+     "fin": 36.72
+    },
+    {
+     "texto": "simple",
+     "inicio": 36.72,
+     "fin": 36.98
+    },
+    {
+     "texto": "vista",
+     "inicio": 36.98,
+     "fin": 37.34
+    },
+    {
+     "texto": "no",
+     "inicio": 37.34,
+     "fin": 38.16
+    },
+    {
+     "texto": "la",
+     "inicio": 38.16,
+     "fin": 38.26
+    },
+    {
+     "texto": "había",
+     "inicio": 38.26,
+     "fin": 38.46
+    },
+    {
+     "texto": "visto.",
+     "inicio": 38.46,
+     "fin": 38.78
+    }
+   ],
+   "inicio": 28.96,
+   "fin": 38.78
+  },
+  {
+   "texto": "La próxima vez que alguien te lo diga, contale lo de Yang Liwei.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 39.3,
+     "fin": 39.42
+    },
+    {
+     "texto": "próxima",
+     "inicio": 39.42,
+     "fin": 39.62
+    },
+    {
+     "texto": "vez",
+     "inicio": 39.62,
+     "fin": 39.9
+    },
+    {
+     "texto": "que",
+     "inicio": 39.9,
+     "fin": 40.04
+    },
+    {
+     "texto": "alguien",
+     "inicio": 40.04,
+     "fin": 40.22
+    },
+    {
+     "texto": "te",
+     "inicio": 40.22,
+     "fin": 40.38
+    },
+    {
+     "texto": "lo",
+     "inicio": 40.38,
+     "fin": 40.52
+    },
+    {
+     "texto": "diga,",
+     "inicio": 40.52,
+     "fin": 40.82
+    },
+    {
+     "texto": "contale",
+     "inicio": 41.24,
+     "fin": 41.74
+    },
+    {
+     "texto": "lo",
+     "inicio": 41.74,
+     "fin": 41.92
+    },
+    {
+     "texto": "de",
+     "inicio": 41.92,
+     "fin": 42.04
+    },
+    {
+     "texto": "Yang",
+     "inicio": 42.04,
+     "fin": 42.3
+    },
+    {
+     "texto": "Liwei.",
+     "inicio": 42.3,
+     "fin": 42.82
+    }
+   ],
+   "inicio": 39.3,
+   "fin": 42.82
+  },
+  {
+   "texto": "¿Quién te contó a vos lo de la Muralla China? Decímelo en un comentario.",
+   "palabras": [
+    {
+     "texto": "¿Quién",
+     "inicio": 43.32,
+     "fin": 43.46
+    },
+    {
+     "texto": "te",
+     "inicio": 43.46,
+     "fin": 43.54
+    },
+    {
+     "texto": "contó",
+     "inicio": 43.54,
+     "fin": 43.8
+    },
+    {
+     "texto": "a",
+     "inicio": 43.8,
+     "fin": 43.86
+    },
+    {
+     "texto": "vos",
+     "inicio": 43.86,
+     "fin": 43.94
+    },
+    {
+     "texto": "lo",
+     "inicio": 43.94,
+     "fin": 44.08
+    },
+    {
+     "texto": "de",
+     "inicio": 44.08,
+     "fin": 44.18
+    },
+    {
+     "texto": "la",
+     "inicio": 44.18,
+     "fin": 44.28
+    },
+    {
+     "texto": "Muralla",
+     "inicio": 44.28,
+     "fin": 44.56
+    },
+    {
+     "texto": "China?",
+     "inicio": 44.56,
+     "fin": 44.82
+    },
+    {
+     "texto": "Decímelo",
+     "inicio": 45.44,
+     "fin": 45.8
+    },
+    {
+     "texto": "en",
+     "inicio": 45.8,
+     "fin": 45.88
+    },
+    {
+     "texto": "un",
+     "inicio": 45.88,
+     "fin": 45.98
+    },
+    {
+     "texto": "comentario.",
+     "inicio": 45.98,
+     "fin": 46.48
+    }
+   ],
+   "inicio": 43.32,
+   "fin": 46.48
+  },
+  {
+   "texto": "Y mandáselo al que dice que la Muralla se ve desde el espacio.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 46.98,
+     "fin": 47.08
+    },
+    {
+     "texto": "mandáselo",
+     "inicio": 47.08,
+     "fin": 47.6
+    },
+    {
+     "texto": "al",
+     "inicio": 47.6,
+     "fin": 47.66
+    },
+    {
+     "texto": "que",
+     "inicio": 47.66,
+     "fin": 47.8
+    },
+    {
+     "texto": "dice",
+     "inicio": 47.8,
+     "fin": 48.0
+    },
+    {
+     "texto": "que",
+     "inicio": 48.0,
+     "fin": 48.14
+    },
+    {
+     "texto": "la",
+     "inicio": 48.14,
+     "fin": 48.24
+    },
+    {
+     "texto": "Muralla",
+     "inicio": 48.24,
+     "fin": 48.62
+    },
+    {
+     "texto": "se",
+     "inicio": 48.62,
+     "fin": 48.8
+    },
+    {
+     "texto": "ve",
+     "inicio": 48.8,
+     "fin": 48.92
+    },
+    {
+     "texto": "desde",
+     "inicio": 48.92,
+     "fin": 49.06
+    },
+    {
+     "texto": "el",
+     "inicio": 49.06,
+     "fin": 49.22
+    },
+    {
+     "texto": "espacio.",
+     "inicio": 49.22,
+     "fin": 49.46
+    }
+   ],
+   "inicio": 46.98,
+   "fin": 49.46
+  }
+ ]
+}

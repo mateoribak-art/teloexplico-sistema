@@ -1,0 +1,27 @@
+{
+  "titulo": "Your weather app says it feels like nineteen below. Your car doesn't feel that.",
+  "serie": "clima",
+  "fondo": "oscuro",
+  "receta": "regla con numero + debate de una palabra (real o feels-like)",
+  "pilar": "clima_accion",
+  "destinatario": "se lo manda alguien que sabe de clima a su amigo que dice que el auto o las canerias estan a 'diez bajo cero' por la sensacion termica",
+  "regla_guardable": "Wind chill is for people and animals. Pipes and cars only get as cold as the real air temperature.",
+  "interaccion": {
+    "guardar": "Wind chill = people and pets. Pipes and cars never go below the real air temperature. 0°F + 15 mph wind = -19°F wind chill; exposed skin can freeze in 30 minutes.",
+    "comentar": "Which do you check: the real temperature or the feels-like?"
+  },
+  "fuentes": [
+    "National Weather Service, Wind Chill Chart and Wind Chill Safety (weather.gov/safety/cold-wind-chill-chart): wind chill is how cold people and animals feel; it is based on heat loss from exposed skin; it does not make objects colder than the air temperature, only cools them faster; 0°F with 15 mph wind = -19°F wind chill; at -19°F wind chill exposed skin can freeze in 30 minutes; frostbite requires actual air temperature below freezing"
+  ],
+  "frases": [
+    {"texto": "Your weather app says it feels like nineteen below.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "Your pipes and your car don't feel that.", "estilo": "Dry and contundente, with a half smile."},
+    {"texto": "The National Weather Service says wind chill is how cold it feels to people and animals.", "estilo": "Informative, clear."},
+    {"texto": "Wind cools objects faster, but never below the actual air temperature.", "estilo": "Practical, confident."},
+    {"texto": "At zero degrees with a fifteen mile an hour wind, it feels like nineteen below. Exposed skin can freeze in thirty minutes.", "estilo": "Intrigued, like a reveal."},
+    {"texto": "Heads up: for you, that feels-like number is real. Cover up your skin.", "estilo": "Honest caveat, calm."},
+    {"texto": "Save this: wind chill is for people and pets. Pipes and cars only get as cold as the real temperature.", "estilo": "Practical, friendly."},
+    {"texto": "Which do you check: the real temperature or the feels-like?", "estilo": "Curious, playful."},
+    {"texto": "Send this to the friend who says the car is freezing because of the wind chill.", "estilo": "Playful and funny."}
+  ]
+}

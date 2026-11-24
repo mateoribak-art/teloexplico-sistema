@@ -1,0 +1,66 @@
+{
+  "veredicto": "rechazado",
+  "motivo": "Casi todo está verificado: 2 % del peso y 20 % de la energía son de MIT McGovern (Mila Halgren, 2024, textual: 'only two percent of our body weight, it devours 20 percent of our calories'), y la frase no atribuye esas cifras a Hopkins (que dice 3 %), así que no hay conflicto. El problema es la atribución de la frase 3 y del caption ('Neurólogos de la Universidad Johns Hopkins explican...'). El Hub de JHU (2014, 'Busting a brain myth: We really do use 100 percent of our brains') cita a UN solo neurólogo, Barry Gordon, que dice 'we use virtually every part of the brain, and the brain is active almost all the time' (dicho originalmente a Scientific American en 2008). El plural 'Neurólogos' infla la atribución a un consenso institucional que la fuente no enuncia, en un tema de salud donde solo vale lo verificado con su matiz exacto. Corrección sugerida: 'Un neurólogo de la Universidad Johns Hopkins, Barry Gordon, explica que usamos prácticamente todo el cerebro' (o 'Según un neurólogo de Johns Hopkins'). Nota: no se pudo abrir hub.jhu.edu (403); el contenido se confirmó por el extracto del buscador y por Scientific American, no por lectura directa del texto completo. Quitar el plural es suficiente para aprobar.",
+  "afirmaciones": [
+    {
+      "texto": "Te dijeron que usás solo el diez por ciento del cerebro. (frase 1; caption: 'No usás solo el diez por ciento')",
+      "fuente": "MIT McGovern Institute (2024) https://mcgovern.mit.edu/2024/01/26/do-we-use-only-10-percent-of-our-brain/ ; Scientific American; el mito está ampliamente documentado",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Es un mito. (frase 2; caption)",
+      "fuente": "MIT McGovern Institute (2024); JHU Hub 2014 https://hub.jhu.edu/2014/07/24/busting-a-brain-myth/ ; Scientific American https://www.scientificamerican.com/article/do-people-only-use-10-percent-of-their-brains/",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Neurólogos de la Universidad Johns Hopkins, en Estados Unidos, explican que usamos prácticamente todo el cerebro. (frase 3; caption)",
+      "fuente": "JHU Hub 2014-07-24, 'Busting a brain myth': Barry Gordon, profesor de neurología (Johns Hopkins): 'we use virtually every part of the brain, and the brain is active almost all the time'. Contenido confirmado vía extracto del buscador y Scientific American (hub.jhu.edu devolvió 403 al abrirlo)",
+      "estado": "verificada",
+      "matiz_ok": false
+    },
+    {
+      "texto": "No todo a la vez: según lo que hagas, se prenden unas zonas u otras. (frase 4; caption)",
+      "fuente": "Scientific American (narración: no todas las regiones disparan al mismo momento) y neuroimagen funcional en general; no es una cita de Gordon ni del Hub de JHU. Sin fuente primaria puntual en lo consultado; es consenso básico de neurociencia",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El cerebro pesa cerca del dos por ciento del cuerpo. (frase 5; caption '2 %')",
+      "fuente": "MIT McGovern Institute (2024), Mila Halgren: 'only two percent of our body weight'. Nota: el Hub de JHU dice 3 %; la frase dice 'cerca de' y no atribuye la cifra a Hopkins",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El cerebro gasta cerca del veinte por ciento de la energía. (frase 5; caption '20 %')",
+      "fuente": "MIT McGovern Institute (2024): 'it devours 20 percent of our calories'; JHU Hub 2014 también dice 20 % de la energía del cuerpo",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Esto no quiere decir que todas las neuronas disparen juntas ni que puedas pensar más rápido. (frase 6; caption)",
+      "fuente": "Sin fuente primaria puntual consultada; es una aclaración negativa coherente con Scientific American (no todas las regiones activas a la vez). Disparo sincrónico masivo de neuronas corresponde a crisis epilépticas (conocimiento general, no verificado en esta pasada)",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Usamos casi todo, en distintos momentos. (frase 7; regla_guardable; caption 'Guardalo')",
+      "fuente": "Resumen de Gordon (JHU Hub / Scientific American) y MIT McGovern ('All of our brain is constantly in use'); la formulación 'casi todo' es prudente",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si usáramos todo el cerebro tendríamos superpoderes. (frases 9; caption) - creencia popular que se menciona, no se afirma como cierta",
+      "fuente": "No aplica: se presenta como lo que dice otra persona (referencia a la película Lucy en el Hub de JHU)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes: Johns Hopkins (Hub), Scientific American, MIT McGovern Institute. (caption)",
+      "fuente": "Las tres existen y tratan el tema; JHU Hub https://hub.jhu.edu/2014/07/24/busting-a-brain-myth/, SciAm, MIT McGovern",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

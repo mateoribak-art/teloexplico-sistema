@@ -1,0 +1,28 @@
+{
+  "titulo": "La Muralla China no se ve a simple vista desde el espacio",
+  "serie": "ciencia",
+  "fondo": "oscuro",
+  "receta": "Mito + zoom afuera (el 'creés X, en realidad es Y' con la Tierra desde órbita)",
+  "pilar": "argentina",
+  "interaccion": ["comentar"],
+  "destinatario": "se lo manda alguien a su profe o a su tío que siempre dice 'la Muralla China es lo único que se ve desde el espacio' para decirle que no es así",
+  "regla_guardable": "Desde la Estación Espacial, a unos cuatrocientos kilómetros, la Muralla no se ve a simple vista.",
+  "pregunta_comentarios": "¿Quién te dijo a vos lo de la Muralla China?",
+  "fuentes": [
+    "NASA: 'Great Wall of China' / 'Looking for the Great Wall' (Observatorio de la Tierra): la Muralla es muy difícil o imposible de ver a simple vista desde órbita baja",
+    "Entrevista de CCTV a Yang Liwei (Shenzhou 5, 2003), reportada por Al Jazeera y China Daily: dijo que no la vio",
+    "Leroy Chiao (Expedición 10, 2004): fotografió la Muralla con teleobjetivo y dijo que a simple vista no la vio"
+  ],
+  "frases": [
+    {"texto": "Te dijeron que la Muralla China es lo único que se ve desde el espacio.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Es un mito.", "estilo": "Golpe seco."},
+    {"texto": "En dos mil tres, el astronauta chino Yang Liwei volvió del espacio y dijo que no la había visto.", "estilo": "Claro, un poco sorprendido."},
+    {"texto": "La NASA explica que desde órbita baja, a simple vista, generalmente no se ve.", "estilo": "Explicativo, con ritmo."},
+    {"texto": "La Estación Espacial Internacional vuela a unos cuatrocientos kilómetros de altura.", "estilo": "Con asombro, firme."},
+    {"texto": "Es larguísima, pero su color se parece al del suelo que la rodea, así que cuesta distinguirla.", "estilo": "Cómplice, con lógica."},
+    {"texto": "Ojo: en dos mil cuatro, el astronauta Leroy Chiao la fotografió desde la Estación con un teleobjetivo. Pero él mismo dijo que a simple vista no la había visto.", "estilo": "Matiz honesto, firme."},
+    {"texto": "La próxima vez que alguien te lo diga, contale lo de Yang Liwei.", "estilo": "Práctico, cercano."},
+    {"texto": "¿Quién te contó a vos lo de la Muralla China? Decímelo en un comentario.", "estilo": "Cercano, invitando."},
+    {"texto": "Y mandáselo al que dice que la Muralla se ve desde el espacio.", "estilo": "Cómplice, con humor."}
+  ]
+}

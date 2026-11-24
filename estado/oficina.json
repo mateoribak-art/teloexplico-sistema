@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T15:30",
+ "actualizado": "2026-11-24T18:20",
  "oficinas": [
   {
    "clave": "es",
@@ -7,8 +7,8 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 1071,
-   "listos": 13,
-   "dias": 6.5,
+   "listos": 14,
+   "dias": 7.0,
    "proximo": "058-agua-del-mate",
    "publicados": 57,
    "pausa": false,
@@ -72,6 +72,13 @@
      "motivo": "render sin Claude"
     },
     {
+     "slug": "072-diez-por-ciento-cerebro",
+     "tema": "¿Usamos solo el 10 % del cerebro? No: usamos casi todo, en distintos momentos (Queensland Brain Institute, Johns Hopkins, Scientific American)",
+     "estado": "apartado",
+     "cuando": "2026-11-24T17:21",
+     "motivo": "chequeo rechazado 2 veces: atribución en plural a 'neurólogos de Johns Hopkins' cuando la fuente es un solo neurólogo (Barry Gordon); sugerido: 'Un neurólogo de"
+    },
+    {
      "slug": "057-ruta-40-de-punta-a-punta",
      "tema": "Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)",
      "estado": "publicado",
@@ -103,20 +110,19 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-24T11:29",
-     "hace": "hace 4 h",
+     "cuando": "2026-11-24T17:58",
+     "hace": "hace 22 min",
      "detalle": [
-      "Uso: 22 pasos · 17,538 tokens nuevos · 1,336,243 de caché · 7,014 escritos · equivale a US$ 1.21 de API",
-      "2026-11-24 11:07 Arranca la producción (13 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
-      "Produje un video, `071-peces-memoria` (\"¿Los peces tienen memoria de tres segundos?\"), y lo dejé en estado `render`. Todavía no está en `listo`: el render, la portada y el control corren después de mi turno.",
-      "1. **Listo para render:** `071-peces-memoria`, serie ciencia #6 con fondo oscuro. El chequeo rechazó la primera versión por la frase de \"se acercan cuando te ven\", sin matiz. La corregí y aprobó en el segundo intento. La voz dura 50,4 s (14",
-      "2. **Apartados:** sin cambios. 038, 042, 044, 051 y 005 no estaban apartados por chequeo rechazado, así que no había nada para rescatar.",
-      "3. **Incompletos:** ninguno. No produje un segundo video porque la cola ya tenía 12 listos, y lo dejé anotado en `videos/produccion.log`.",
-      "Los seguidores van en unos 22 por día contra los 95 por día que hacen falta. No volví a medirlo en este turno.",
-      "Uso: 22 pasos · 17,538 tokens nuevos · 1,336,243 de caché · 7,014 escritos · equivale a US$ 1.21 de API",
-      "2026-11-24 11:12 Render de 071-peces-memoria (sin Claude).",
-      "2026-11-24 11:29 071-peces-memoria: listo (render sin Claude)",
-      "2026-11-24 11:29 Termina la producción (ok)."
+      "Uso: 28 pasos · 26,303 tokens nuevos · 1,905,257 de caché · 11,423 escritos · equivale a US$ 2.04 de API",
+      "2026-11-24 17:18 Arranca la producción (13 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
+      "Resumen:",
+      "- **Listo para render:** `073-muralla-desde-espacio` (la Muralla China no se ve a simple vista desde el espacio). Pasó el chequeo en el 2.º intento, tiene voz, escenas 3D y caption, y quedó en `render`. Todavía no está renderizado ni contro",
+      "- **Apartado:** `072-diez-por-ciento-cerebro` (el diez por ciento del cerebro). El chequeo lo rechazó dos veces porque atribuía en plural a \"neurólogos de Johns Hopkins\" lo que dice un solo neurólogo, Barry Gordon. La corrección está anotad",
+      "- **Rescates y cola:** no hubo rescates, porque los apartados actuales no son por chequeo rechazado. No produje un tercero porque la cola ya tenía 14 listos.",
+      "Uso: 28 pasos · 26,303 tokens nuevos · 1,905,257 de caché · 11,423 escritos · equivale a US$ 2.04 de API",
+      "2026-11-24 17:30 Render de 073-muralla-desde-espacio (sin Claude).",
+      "2026-11-24 17:58 073-muralla-desde-espacio: listo (render sin Claude)",
+      "2026-11-24 17:58 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -140,7 +146,7 @@
      "estado": "ok",
      "resumen": "Guía de referentes al día.",
      "cuando": "2026-11-23T19:13",
-     "hace": "hace 20 h",
+     "hace": "hace 23 h",
      "detalle": [
       "05/11 15:28 Termina Vera (ok).",
       "23/11 19:11 Arranca Vera (referentes).",
@@ -170,7 +176,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (lo más reciente es del 16-nov; el resto mezcla años). SIN tema nu",
      "cuando": "2026-11-23T22:07",
-     "hace": "hace 17 h",
+     "hace": "hace 20 h",
      "detalle": [
       "21/11 00:00 | Revisión radar (segunda pasada). Dos búsquedas web (alertas SMN y tendencias): lo más reciente es del 16-nov. SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por lluvias y tormentas en 12 provincias (Perfil 16-nov, no de hoy; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) superluna 24-nov -> todavía no se vive, reevaluar el 23-24; (c) Rosalía/Lollapalooza/fútbol/política -> espectáculos o política, no encajan. Sigue la cola normal.",
       "22/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada fechado de hoy (lo más reciente es del 12-16 nov). SIN tema nuevo verificable. Descartados: (a) alertas por tormentas/granizo en 15 provincias (Meteored, sin fecha verificable; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) superluna 24-nov -> todavía no se vive, reevaluar el 23-24; (c) dólar, consumo, política, IA -> economía/política, no encajan. Sigue la cola normal.",
@@ -205,24 +211,26 @@
        "cuenta": "es"
       }
      },
-     "estado": "ok",
-     "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-24T12:32",
-     "hace": "hace 2 h",
+     "estado": "aviso",
+     "resumen": "Frenó 1 video(s): 072-diez-por-ciento-cerebro.",
+     "cuando": "2026-11-24T17:58",
+     "hace": "hace 22 min",
      "detalle": [
-      "064-nudillos-artritis: aprobado — Todas las afirmaciones de salud y cifras quedan verificadas contra fuente primaria. DeWeber 2011 (J Am Board Fam Med 24(2):169-174, PubMed 2",
-      "065-voseo-vos-o-tu: aprobado — Todas las afirmaciones fácticas tienen fuente (RAE: DPD 'voseo'/'vos', Buen uso del español 'el voseo', glosario RAE gtg/voseo, y bibliograf",
       "066-billetes-animales: aprobado — Todas las cifras, valores, animales, regiones y la cita del BCRA coinciden con fuentes primarias del BCRA. Nota sobre fechas: el anuncio fue",
       "067-dulce-de-leche-origen: aprobado — Segunda revision. Tema de historia/anecdota, sin salud, seguridad ni plata. La leyenda de 1829 esta presentada explicitamente como leyenda (",
       "068-superluna-no-tan-grande: aprobado — Todas las afirmaciones quedaron verificadas o son simplificaciones correctas con el matiz adecuado. Los 14 % y 30 % son de NASA Science y la",
       "069-chicle-siete-anios: aprobado — Todas las afirmaciones, incluidas las de salud, estan verificadas contra las paginas primarias. Atribuciones correctas: la Cleveland Clinic ",
       "070-rayo-despues-lluvia: aprobado — Todas las afirmaciones de seguridad están verificadas contra NWS/NOAA (weather.gov, noaa.gov/jetstream). Ninguna es falsa, dudosa ni probabl",
-      "071-peces-memoria: aprobado — Todas las afirmaciones de salud/seguridad/plata: no hay ninguna (el consejo de darles de comer a la misma hora es una prueba inocua, no una "
+      "071-peces-memoria: aprobado — Todas las afirmaciones de salud/seguridad/plata: no hay ninguna (el consejo de darles de comer a la misma hora es una prueba inocua, no una ",
+      "072-diez-por-ciento-cerebro: rechazado — Casi todo está verificado: 2 % del peso y 20 % de la energía son de MIT McGovern (Mila Halgren, 2024, textual: 'only two percent of our body",
+      "073-muralla-desde-espacio: aprobado — Segunda revision. Todas las afirmaciones quedan verificadas o correctamente matizadas. Chiao: la frase aclara que uso teleobjetivo y que a s"
      ],
-     "tareas": [],
-     "arreglo": null,
+     "tareas": [
+      "072-diez-por-ciento-cerebro: chequeo rechazado 2 veces: atribución en plural a 'neurólogos de Johns Hopkins' cuando la fuente es un solo neurólogo (Barry Gordon); sugerido: 'Un neurólogo de"
+     ],
+     "arreglo": "Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.",
      "solo": false,
-     "firma": "f021dae776ff"
+     "firma": "99c2085f6213"
     },
     {
      "id": "voz",
@@ -240,8 +248,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-24T12:32",
-     "hace": "hace 2 h",
+     "cuando": "2026-11-24T17:58",
+     "hace": "hace 22 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -263,14 +271,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-24 12:32.",
-     "cuando": "2026-11-24T12:32",
-     "hace": "hace 2 h",
+     "resumen": "Último video terminado: 2026-11-24 17:58.",
+     "cuando": "2026-11-24T17:58",
+     "hace": "hace 22 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "d9fbe9fb1dc7"
+     "firma": "426eeed38931"
     },
     {
      "id": "control",
@@ -287,14 +295,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "13 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-24T12:32",
-     "hace": "hace 2 h",
+     "resumen": "14 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-24T17:58",
+     "hace": "hace 22 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "8c3ce0562254"
+     "firma": "405cc6f33c60"
     },
     {
      "id": "publicador",
@@ -313,7 +321,7 @@
      "estado": "ok",
      "resumen": "Último: 057-ruta-40-de-punta-a-punta.",
      "cuando": "2026-11-24T12:33",
-     "hace": "hace 2 h",
+     "hace": "hace 5 h",
      "detalle": [
       "23/11 19:32 059-pibe-chango-guri publicado: https://www.instagram.com/reel/DgGdcSJjJht/",
       "23/11 19:33 059-pibe-chango-guri publicado en Facebook: https://www.facebook.com/reel/1780123086431471/",
@@ -350,7 +358,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-24T12:33",
-     "hace": "hace 2 h",
+     "hace": "hace 5 h",
      "detalle": [
       "23/11 12:44 056-gta-trece-anios https://youtube.com/shorts/3PVmnd1__Ow | privacidad: public",
       "23/11 12:44 056-gta-trece-anios paquete para TikTok/YouTube enviado",
@@ -382,7 +390,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-22T23:22",
-     "hace": "hace 40 h",
+     "hace": "hace 42 h",
      "detalle": [
       "2026-11-21 00:16 arroz-recalentado: listo control OK",
       "2026-11-21 20:39 lavar-pollo: publicado https://www.instagram.com/p/DgBbg4nEpDd/",
@@ -416,7 +424,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-24T07:43",
-     "hace": "hace 7 h",
+     "hace": "hace 10 h",
      "detalle": [
       "24/11 00:27 Hay 7 comentarios nuevos: arranca la respuesta.",
       "24/11 00:00 Respondí 5 · salteé 2 · alerté 0. (059-pibe-chango-guri: juanalberto44252, martintellechea2023, juanmamiglia, nicobondaruk y pachakuteq_91 respondidos; juannsavagnaa578 y robertoy2772 salteados por ser palabra suelta sin pregunta ni dato claro)",
@@ -455,7 +463,7 @@
      "estado": "ok",
      "resumen": "24/11: 1071 seguidores",
      "cuando": "2026-11-24T06:44",
-     "hace": "hace 8 h",
+     "hace": "hace 11 h",
      "detalle": [
       "21/11: 1026 seguidores",
       "22/11: 1034 seguidores",
@@ -486,15 +494,17 @@
        "modo": "vigilar"
       }
      },
-     "estado": "ok",
-     "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-24T15:30",
+     "estado": "aviso",
+     "resumen": "Video apartado: 072-diez-por-ciento-cerebro — chequeo rechazado 2 veces: atribución en plural a 'neurólogos de Johns Hopkins' cuando la fuente es un solo neurólogo (B",
+     "cuando": "2026-11-24T18:20",
      "hace": "recién",
-     "detalle": [],
+     "detalle": [
+      "⚠️ Video apartado: 072-diez-por-ciento-cerebro — chequeo rechazado 2 veces: atribución en plural a 'neurólogos de Johns Hopkins' cuando la fuente es un solo neurólogo (B"
+     ],
      "tareas": [],
      "arreglo": null,
-     "solo": false,
-     "firma": "cf3a22f5d39c"
+     "solo": true,
+     "firma": "ddcb3e09e79f"
     },
     {
      "id": "planb",
@@ -528,8 +538,8 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 5,
-   "listos": 13,
-   "dias": 6.5,
+   "listos": 14,
+   "dias": 7.0,
    "proximo": "en-032-gta-13-years",
    "publicados": 34,
    "pausa": false,
@@ -622,19 +632,18 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-24T11:39",
-     "hace": "hace 3 h",
+     "cuando": "2026-11-24T18:20",
+     "hace": "recién",
      "detalle": [
-      "Uso: 14 pasos · 9,239 tokens nuevos · 898,668 de caché · 3,335 escritos · equivale a US$ 0.80 de API",
-      "2026-11-24 11:29 Arranca la producción (13 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
-      "Quedó 1 video listo para el render automático.",
-      "- **Listo:** `en-045-car-warmup` (\"¿Hay que calentar el auto en invierno?\", serie ciencia #5). El chequeo aprobó en el primer intento con fueleconomy.gov. La voz dura 44,5 s, `tlx tsc` dio sin errores y revisé los cuadros en una vuelta. Est",
-      "- **Rescates:** no había videos apartados por chequeo rechazado.",
-      "- **Apartados o incompletos:** ninguno. No corrí el radar en este turno (la última pasada fue el 23/11).",
-      "Uso: 14 pasos · 9,239 tokens nuevos · 898,668 de caché · 3,335 escritos · equivale a US$ 0.80 de API",
-      "2026-11-24 11:32 Render de en-045-car-warmup (sin Claude).",
-      "2026-11-24 11:39 en-045-car-warmup: listo (render sin Claude)",
-      "2026-11-24 11:39 Termina la producción (ok)."
+      "Uso: 13 pasos · 8,866 tokens nuevos · 635,023 de caché · 2,597 escritos · equivale a US$ 0.69 de API",
+      "2026-11-24 17:58 Arranca la producción (13 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
+      "- **Listo para render:** `en-046-wind-chill` (clima #9, 40.9 s). Pasó el chequeo en el primer intento, con todo verificado contra la página de sensación térmica del NWS. La voz salió 125/127 palabras, `tlx tsc` dio OK y los cuadros se revis",
+      "- **Rescates:** no había ningún video apartado por chequeo rechazado. `en-042-frozen-pipes` ya figura como `listo`.",
+      "- **Pendiente:** no corrí el radar de actualidad esta vez. La última pasada fue el 23/11 y no encontró tema.",
+      "Uso: 13 pasos · 8,866 tokens nuevos · 635,023 de caché · 2,597 escritos · equivale a US$ 0.69 de API",
+      "2026-11-24 18:02 Render de en-046-wind-chill (sin Claude).",
+      "2026-11-24 18:20 en-046-wind-chill: listo (render sin Claude)",
+      "2026-11-24 18:20 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -658,7 +667,7 @@
      "estado": "ok",
      "resumen": "Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2024/2025 y titulares del 10–18/11; nada verificable de las últimas 48 h. Descartados",
      "cuando": "2026-11-23T22:07",
-     "hace": "hace 17 h",
+     "hace": "hace 20 h",
      "detalle": [
       "22/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2024/2025 y tendencias del 13–18/11; nada verificable de las últimas 48 h. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) CMA Awards / Robert Pattinson como Bond: entretenimiento/chisme, no explicable; (3) FAA ground stop del 13/11: viejo y sin ángulo de guardar/comentar. Sin tema nuevo.",
       "21/11 00:00 Pasada del radar: la búsqueda (NWS fin de semana, tendencias de Thanksgiving) solo devolvió páginas de inviernos anteriores o índices sin fecha; nada verificable de las últimas 48 h. Descartados: (1) clima del fin de semana: sin alerta ni fuente oficial del día; (2) Thanksgiving (26/11): sin ángulo de guardar/comentar verificable hoy; (3) superluna del 24/11: sin ángulo de guardar/comentar. Sin tema nuevo.",
@@ -689,17 +698,17 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-24T12:34",
-     "hace": "hace 2 h",
+     "cuando": "2026-11-24T18:20",
+     "hace": "recién",
      "detalle": [
-      "en-038-lake-effect-snow: aprobado — Todas las afirmaciones fácticas coinciden con las páginas del NWS (weather.gov/safety/winter-lake-effect-snow y weather.gov/apx/les). Las un",
       "en-039-polar-vortex: aprobado — Todas las afirmaciones, incluidas las de seguridad (frío, forecast en weather.gov, kit de emergencia del auto), están respaldadas por la pág",
       "en-040-powerball-odds: aprobado — Las cifras coinciden con la fuente primaria (Powerball.com, Prize chart: jackpot 1 en 292,201,338; cualquier premio 1 en 24.87 sobre una jug",
       "en-041-pasta-oil: aprobado — Las afirmaciones centrales (el aceite no evita que se pegue; hervor fuerte y revolver, sobre todo al inicio) estan textualmente en la pagina",
       "en-042-frozen-pipes: aprobado — Todas las afirmaciones de seguridad quedan verificadas contra FEMA y NWS Nueva York; ninguna es falsa. La pagina weather.gov/okx/winterpns7 ",
       "en-043-coffee-math: aprobado — Todas las cuentas son correctas y se verificaron por recalculo: 5x365=1825, 5x260=1300, 1x365=365, y 260 = 52 semanas x 5 dias. No hay datos",
       "en-044-wet-hair: aprobado — Segunda pasada con fuentes primarias. Todas las afirmaciones de salud estan verificadas y ninguna es falsa. (1) CDC common-cold/about dice '",
-      "en-045-car-warmup: aprobado — Todas las afirmaciones fácticas coinciden con fueleconomy.gov/feg/coldweather.shtml (DOE/EPA), leído directamente. Cifras y unidades (0 mpg,"
+      "en-045-car-warmup: aprobado — Todas las afirmaciones fácticas coinciden con fueleconomy.gov/feg/coldweather.shtml (DOE/EPA), leído directamente. Cifras y unidades (0 mpg,",
+      "en-046-wind-chill: aprobado — Todas las afirmaciones coinciden con la pagina del NWS/NOAA (weather.gov/safety/cold-wind-chill-chart y weather.gov/safety/cold-faqs). Unida"
      ],
      "tareas": [],
      "arreglo": null,
@@ -722,8 +731,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-11-24T12:34",
-     "hace": "hace 2 h",
+     "cuando": "2026-11-24T18:20",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -745,14 +754,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-24 12:34.",
-     "cuando": "2026-11-24T12:34",
-     "hace": "hace 2 h",
+     "resumen": "Último video terminado: 2026-11-24 18:20.",
+     "cuando": "2026-11-24T18:20",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "1bc1fc847b32"
+     "firma": "751921648b0a"
     },
     {
      "id": "control",
@@ -769,14 +778,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "13 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-24T12:34",
-     "hace": "hace 2 h",
+     "resumen": "14 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-24T18:20",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "64991d1c0a1b"
+     "firma": "0da325d80ebc"
     },
     {
      "id": "publicador",
@@ -795,7 +804,7 @@
      "estado": "ok",
      "resumen": "Último: en-029-swim-after-eating.",
      "cuando": "2026-11-24T12:35",
-     "hace": "hace 2 h",
+     "hace": "hace 5 h",
      "detalle": [
       "22/11 14:31 en-029-swim-after-eating apartado: falta en-029-swim-after-eating.mp4",
       "22/11 14:31 en-032-gta-13-years apartado: falta en-032-gta-13-years.mp4",
@@ -832,7 +841,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-24T12:35",
-     "hace": "hace 2 h",
+     "hace": "hace 5 h",
      "detalle": [
       "22/11 19:36 en-026-el-nino-winter en la bandeja de TikTok",
       "22/11 19:36 en-026-el-nino-winter paquete para TikTok/YouTube enviado",
@@ -867,7 +876,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-22T19:43",
-     "hace": "hace 43 h",
+     "hace": "hace 46 h",
      "detalle": [
       "02/11 04:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "02/11 04:22 Termina la respuesta de comentarios (con problemas).",
@@ -902,7 +911,7 @@
      "estado": "ok",
      "resumen": "24/11: 5 seguidores",
      "cuando": "2026-11-24T06:44",
-     "hace": "hace 8 h",
+     "hace": "hace 11 h",
      "detalle": [
       "21/11: 5 seguidores",
       "22/11: 5 seguidores",
@@ -935,7 +944,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-24T15:30",
+     "cuando": "2026-11-24T18:20",
      "hace": "recién",
      "detalle": [],
      "tareas": [],

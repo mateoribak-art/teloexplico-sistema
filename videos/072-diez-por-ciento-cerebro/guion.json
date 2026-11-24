@@ -1,0 +1,27 @@
+{
+  "titulo": "No usamos solo el diez por ciento del cerebro: usamos casi todo, en distintos momentos",
+  "serie": "ciencia",
+  "fondo": "oscuro",
+  "receta": "Mito + zoom adentro (el 'creés X, en realidad es Y' con el cerebro)",
+  "pilar": "salud_simple",
+  "interaccion": ["comentar"],
+  "destinatario": "se lo manda alguien a su amigo que dice 'si usáramos el cien por ciento del cerebro tendríamos superpoderes' para decirle que ya lo usa casi todo",
+  "regla_guardable": "El mito dice diez por ciento; el cerebro pesa cerca del 2 % del cuerpo y gasta cerca del 20 % de la energía.",
+  "pregunta_comentarios": "¿Quién te dijo a vos lo del diez por ciento?",
+  "fuentes": [
+    "Johns Hopkins (Hub, 2014): 'Busting a brain myth', el neurólogo Barry Gordon",
+    "Scientific American: 'Do People Use Only 10 Percent of Their Brains?'",
+    "MIT McGovern Institute (2024): ¿usamos solo el 10 % del cerebro?; 2 % del peso y 20 % de la energía"
+  ],
+  "frases": [
+    {"texto": "Te dijeron que usás solo el diez por ciento del cerebro.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Es un mito.", "estilo": "Golpe seco."},
+    {"texto": "Neurólogos de la Universidad Johns Hopkins, en Estados Unidos, explican que usamos prácticamente todo el cerebro.", "estilo": "Claro, un poco sorprendido."},
+    {"texto": "No todo a la vez: según lo que hagas, se prenden unas zonas u otras.", "estilo": "Explicativo, con ritmo."},
+    {"texto": "Además, el cerebro pesa cerca del dos por ciento del cuerpo y gasta cerca del veinte por ciento de la energía.", "estilo": "Con asombro, firme."},
+    {"texto": "Ojo: esto no quiere decir que todas las neuronas disparen juntas ni que puedas pensar más rápido.", "estilo": "Matiz honesto, firme."},
+    {"texto": "La próxima vez que alguien te lo diga, contale que usamos casi todo, en distintos momentos.", "estilo": "Práctico, cercano."},
+    {"texto": "¿Quién te contó a vos lo del diez por ciento? Decímelo en un comentario.", "estilo": "Cercano, invitando."},
+    {"texto": "Y mandáselo al que dice que si usáramos todo el cerebro tendríamos superpoderes.", "estilo": "Cómplice, con humor."}
+  ]
+}

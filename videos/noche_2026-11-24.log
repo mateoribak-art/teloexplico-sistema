@@ -18,3 +18,12 @@ Uso: 22 pasos · 17,538 tokens nuevos · 1,336,243 de caché · 7,014 escritos �
 2026-11-24 11:12 Render de 071-peces-memoria (sin Claude).
 2026-11-24 11:29 071-peces-memoria: listo (render sin Claude)
 2026-11-24 11:29 Termina la producción (ok).
+2026-11-24 17:18 Arranca la producción (13 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Resumen:
+- **Listo para render:** `073-muralla-desde-espacio` (la Muralla China no se ve a simple vista desde el espacio). Pasó el chequeo en el 2.º intento, tiene voz, escenas 3D y caption, y quedó en `render`. Todavía no está renderizado ni controlado: eso lo hace el proceso nocturno. Su voz dura 49,7 s (148 palabras), por encima del tope de 45 s.
+- **Apartado:** `072-diez-por-ciento-cerebro` (el diez por ciento del cerebro). El chequeo lo rechazó dos veces porque atribuía en plural a "neurólogos de Johns Hopkins" lo que dice un solo neurólogo, Barry Gordon. La corrección está anotada en `produccion.log`, y el objeto `Cerebro.tsx` quedó sin usar.
+- **Rescates y cola:** no hubo rescates, porque los apartados actuales no son por chequeo rechazado. No produje un tercero porque la cola ya tenía 14 listos.
+Uso: 28 pasos · 26,303 tokens nuevos · 1,905,257 de caché · 11,423 escritos · equivale a US$ 2.04 de API
+2026-11-24 17:30 Render de 073-muralla-desde-espacio (sin Claude).
+2026-11-24 17:58 073-muralla-desde-espacio: listo (render sin Claude)
+2026-11-24 17:58 Termina la producción (ok).

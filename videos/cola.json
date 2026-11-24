@@ -2673,5 +2673,54 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "072-diez-por-ciento-cerebro",
+  "tema": "¿Usamos solo el 10 % del cerebro? No: usamos casi todo, en distintos momentos (Queensland Brain Institute, Johns Hopkins, Scientific American)",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-24T17:19",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-24T17:19",
+    "motivo": ""
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-24T17:21",
+    "motivo": "chequeo rechazado 2 veces: atribución en plural a 'neurólogos de Johns Hopkins' cuando la fuente es un solo neurólogo (Barry Gordon); sugerido: 'Un neurólogo de Johns Hopkins, Barry Gordon, explica…'"
+   }
+  ]
+ },
+ {
+  "slug": "073-muralla-desde-espacio",
+  "tema": "¿La Muralla China se ve desde el espacio? No a simple vista desde órbita baja (NASA; Yang Liwei 2003)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-24T17:21",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-24T17:21",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-24T17:30",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-24T17:58",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

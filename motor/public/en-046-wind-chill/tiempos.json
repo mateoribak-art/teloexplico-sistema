@@ -1,0 +1,693 @@
+{
+ "duracion": 40.94,
+ "frases": [
+  {
+   "texto": "Your weather app says it feels like nineteen below.",
+   "palabras": [
+    {
+     "texto": "Your",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "weather",
+     "inicio": 0.14,
+     "fin": 0.34
+    },
+    {
+     "texto": "app",
+     "inicio": 0.34,
+     "fin": 0.64
+    },
+    {
+     "texto": "says",
+     "inicio": 0.64,
+     "fin": 0.86
+    },
+    {
+     "texto": "it",
+     "inicio": 0.86,
+     "fin": 1.14
+    },
+    {
+     "texto": "feels",
+     "inicio": 1.14,
+     "fin": 1.68
+    },
+    {
+     "texto": "like",
+     "inicio": 1.68,
+     "fin": 2.1
+    },
+    {
+     "texto": "nineteen",
+     "inicio": 2.1,
+     "fin": 2.54
+    },
+    {
+     "texto": "below.",
+     "inicio": 2.54,
+     "fin": 2.9
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.9
+  },
+  {
+   "texto": "Your pipes and your car don't feel that.",
+   "palabras": [
+    {
+     "texto": "Your",
+     "inicio": 3.52,
+     "fin": 3.62
+    },
+    {
+     "texto": "pipes",
+     "inicio": 3.62,
+     "fin": 3.96
+    },
+    {
+     "texto": "and",
+     "inicio": 3.96,
+     "fin": 4.28
+    },
+    {
+     "texto": "your",
+     "inicio": 4.28,
+     "fin": 4.4
+    },
+    {
+     "texto": "car",
+     "inicio": 4.4,
+     "fin": 4.7
+    },
+    {
+     "texto": "don't",
+     "inicio": 4.7,
+     "fin": 4.96
+    },
+    {
+     "texto": "feel",
+     "inicio": 4.96,
+     "fin": 5.26
+    },
+    {
+     "texto": "that.",
+     "inicio": 5.26,
+     "fin": 5.54
+    }
+   ],
+   "inicio": 3.52,
+   "fin": 5.54
+  },
+  {
+   "texto": "The National Weather Service says wind chill is how cold it feels to people and animals.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 6.04,
+     "fin": 6.16
+    },
+    {
+     "texto": "National",
+     "inicio": 6.16,
+     "fin": 6.42
+    },
+    {
+     "texto": "Weather",
+     "inicio": 6.42,
+     "fin": 6.68
+    },
+    {
+     "texto": "Service",
+     "inicio": 6.68,
+     "fin": 6.98
+    },
+    {
+     "texto": "says",
+     "inicio": 6.98,
+     "fin": 7.26
+    },
+    {
+     "texto": "wind",
+     "inicio": 7.26,
+     "fin": 7.58
+    },
+    {
+     "texto": "chill",
+     "inicio": 7.58,
+     "fin": 7.8
+    },
+    {
+     "texto": "is",
+     "inicio": 7.8,
+     "fin": 8.02
+    },
+    {
+     "texto": "how",
+     "inicio": 8.02,
+     "fin": 8.32
+    },
+    {
+     "texto": "cold",
+     "inicio": 8.32,
+     "fin": 8.64
+    },
+    {
+     "texto": "it",
+     "inicio": 8.64,
+     "fin": 8.74
+    },
+    {
+     "texto": "feels",
+     "inicio": 8.74,
+     "fin": 9.14
+    },
+    {
+     "texto": "to",
+     "inicio": 9.14,
+     "fin": 9.36
+    },
+    {
+     "texto": "people",
+     "inicio": 9.36,
+     "fin": 9.66
+    },
+    {
+     "texto": "and",
+     "inicio": 9.66,
+     "fin": 9.88
+    },
+    {
+     "texto": "animals.",
+     "inicio": 9.88,
+     "fin": 10.26
+    }
+   ],
+   "inicio": 6.04,
+   "fin": 10.26
+  },
+  {
+   "texto": "Wind cools objects faster, but never below the actual air temperature.",
+   "palabras": [
+    {
+     "texto": "Wind",
+     "inicio": 10.78,
+     "fin": 11.06
+    },
+    {
+     "texto": "cools",
+     "inicio": 11.06,
+     "fin": 11.38
+    },
+    {
+     "texto": "objects",
+     "inicio": 11.38,
+     "fin": 11.74
+    },
+    {
+     "texto": "faster,",
+     "inicio": 11.74,
+     "fin": 12.3
+    },
+    {
+     "texto": "but",
+     "inicio": 12.4,
+     "fin": 12.58
+    },
+    {
+     "texto": "never",
+     "inicio": 12.58,
+     "fin": 13.08
+    },
+    {
+     "texto": "below",
+     "inicio": 13.08,
+     "fin": 13.36
+    },
+    {
+     "texto": "the",
+     "inicio": 13.36,
+     "fin": 13.52
+    },
+    {
+     "texto": "actual",
+     "inicio": 13.52,
+     "fin": 13.98
+    },
+    {
+     "texto": "air",
+     "inicio": 13.98,
+     "fin": 14.28
+    },
+    {
+     "texto": "temperature.",
+     "inicio": 14.28,
+     "fin": 14.68
+    }
+   ],
+   "inicio": 10.78,
+   "fin": 14.68
+  },
+  {
+   "texto": "At zero degrees with a fifteen mile an hour wind, it feels like nineteen below. Exposed skin can freeze in thirty minutes.",
+   "palabras": [
+    {
+     "texto": "At",
+     "inicio": 15.24,
+     "fin": 15.3
+    },
+    {
+     "texto": "zero",
+     "inicio": 15.3,
+     "fin": 15.6
+    },
+    {
+     "texto": "degrees",
+     "inicio": 15.6,
+     "fin": 15.98
+    },
+    {
+     "texto": "with",
+     "inicio": 15.98,
+     "fin": 16.36
+    },
+    {
+     "texto": "a",
+     "inicio": 16.36,
+     "fin": 16.48
+    },
+    {
+     "texto": "fifteen",
+     "inicio": 16.48,
+     "fin": 16.76
+    },
+    {
+     "texto": "mile",
+     "inicio": 16.76,
+     "fin": 17.06
+    },
+    {
+     "texto": "an",
+     "inicio": 17.06,
+     "fin": 17.24
+    },
+    {
+     "texto": "hour",
+     "inicio": 17.24,
+     "fin": 17.36
+    },
+    {
+     "texto": "wind,",
+     "inicio": 17.36,
+     "fin": 17.72
+    },
+    {
+     "texto": "it",
+     "inicio": 18.14,
+     "fin": 18.36
+    },
+    {
+     "texto": "feels",
+     "inicio": 18.36,
+     "fin": 18.78
+    },
+    {
+     "texto": "like",
+     "inicio": 18.78,
+     "fin": 19.08
+    },
+    {
+     "texto": "nineteen",
+     "inicio": 19.08,
+     "fin": 19.36
+    },
+    {
+     "texto": "below.",
+     "inicio": 19.36,
+     "fin": 19.68
+    },
+    {
+     "texto": "Exposed",
+     "inicio": 20.2,
+     "fin": 20.48
+    },
+    {
+     "texto": "skin",
+     "inicio": 20.48,
+     "fin": 20.72
+    },
+    {
+     "texto": "can",
+     "inicio": 20.72,
+     "fin": 20.92
+    },
+    {
+     "texto": "freeze",
+     "inicio": 20.92,
+     "fin": 21.26
+    },
+    {
+     "texto": "in",
+     "inicio": 21.26,
+     "fin": 21.46
+    },
+    {
+     "texto": "thirty",
+     "inicio": 21.46,
+     "fin": 21.66
+    },
+    {
+     "texto": "minutes.",
+     "inicio": 21.66,
+     "fin": 21.98
+    }
+   ],
+   "inicio": 15.24,
+   "fin": 21.98
+  },
+  {
+   "texto": "Heads up: for you, that feels-like number is real. Cover up your skin.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 22.5,
+     "fin": 22.78
+    },
+    {
+     "texto": "up:",
+     "inicio": 22.78,
+     "fin": 22.98
+    },
+    {
+     "texto": "for",
+     "inicio": 23.46,
+     "fin": 23.48
+    },
+    {
+     "texto": "you,",
+     "inicio": 23.48,
+     "fin": 23.74
+    },
+    {
+     "texto": "that",
+     "inicio": 24.2,
+     "fin": 24.32
+    },
+    {
+     "texto": "feels-like",
+     "inicio": 24.32,
+     "fin": 25.22
+    },
+    {
+     "texto": "number",
+     "inicio": 25.22,
+     "fin": 25.56
+    },
+    {
+     "texto": "is",
+     "inicio": 25.56,
+     "fin": 25.82
+    },
+    {
+     "texto": "real.",
+     "inicio": 25.82,
+     "fin": 26.14
+    },
+    {
+     "texto": "Cover",
+     "inicio": 26.56,
+     "fin": 26.86
+    },
+    {
+     "texto": "up",
+     "inicio": 26.86,
+     "fin": 27.04
+    },
+    {
+     "texto": "your",
+     "inicio": 27.04,
+     "fin": 27.16
+    },
+    {
+     "texto": "skin.",
+     "inicio": 27.16,
+     "fin": 27.34
+    }
+   ],
+   "inicio": 22.5,
+   "fin": 27.34
+  },
+  {
+   "texto": "Save this: wind chill is for people and pets. Pipes and cars only get as cold as the real temperature.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 27.92,
+     "fin": 28.08
+    },
+    {
+     "texto": "this:",
+     "inicio": 28.08,
+     "fin": 28.24
+    },
+    {
+     "texto": "wind",
+     "inicio": 28.82,
+     "fin": 29.06
+    },
+    {
+     "texto": "chill",
+     "inicio": 29.06,
+     "fin": 29.3
+    },
+    {
+     "texto": "is",
+     "inicio": 29.3,
+     "fin": 29.54
+    },
+    {
+     "texto": "for",
+     "inicio": 29.54,
+     "fin": 29.7
+    },
+    {
+     "texto": "people",
+     "inicio": 29.7,
+     "fin": 30.0
+    },
+    {
+     "texto": "and",
+     "inicio": 30.0,
+     "fin": 30.26
+    },
+    {
+     "texto": "pets.",
+     "inicio": 30.26,
+     "fin": 30.56
+    },
+    {
+     "texto": "Pipes",
+     "inicio": 31.1,
+     "fin": 31.44
+    },
+    {
+     "texto": "and",
+     "inicio": 31.44,
+     "fin": 31.54
+    },
+    {
+     "texto": "cars",
+     "inicio": 31.54,
+     "fin": 31.82
+    },
+    {
+     "texto": "only",
+     "inicio": 31.82,
+     "fin": 32.22
+    },
+    {
+     "texto": "get",
+     "inicio": 32.22,
+     "fin": 32.42
+    },
+    {
+     "texto": "as",
+     "inicio": 32.42,
+     "fin": 32.52
+    },
+    {
+     "texto": "cold",
+     "inicio": 32.52,
+     "fin": 32.8
+    },
+    {
+     "texto": "as",
+     "inicio": 32.8,
+     "fin": 33.02
+    },
+    {
+     "texto": "the",
+     "inicio": 33.02,
+     "fin": 33.14
+    },
+    {
+     "texto": "real",
+     "inicio": 33.14,
+     "fin": 33.34
+    },
+    {
+     "texto": "temperature.",
+     "inicio": 33.34,
+     "fin": 33.76
+    }
+   ],
+   "inicio": 27.92,
+   "fin": 33.76
+  },
+  {
+   "texto": "Which do you check: the real temperature or the feels-like?",
+   "palabras": [
+    {
+     "texto": "Which",
+     "inicio": 34.12,
+     "fin": 34.38
+    },
+    {
+     "texto": "do",
+     "inicio": 34.38,
+     "fin": 34.54
+    },
+    {
+     "texto": "you",
+     "inicio": 34.54,
+     "fin": 34.62
+    },
+    {
+     "texto": "check:",
+     "inicio": 34.62,
+     "fin": 34.84
+    },
+    {
+     "texto": "the",
+     "inicio": 35.28,
+     "fin": 35.36
+    },
+    {
+     "texto": "real",
+     "inicio": 35.36,
+     "fin": 35.52
+    },
+    {
+     "texto": "temperature",
+     "inicio": 35.52,
+     "fin": 35.96
+    },
+    {
+     "texto": "or",
+     "inicio": 35.96,
+     "fin": 36.32
+    },
+    {
+     "texto": "the",
+     "inicio": 36.32,
+     "fin": 36.48
+    },
+    {
+     "texto": "feels-like?",
+     "inicio": 36.48,
+     "fin": 36.94
+    }
+   ],
+   "inicio": 34.12,
+   "fin": 36.94
+  },
+  {
+   "texto": "Send this to the friend who says the car is freezing because of the wind chill.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 37.48,
+     "fin": 37.72
+    },
+    {
+     "texto": "this",
+     "inicio": 37.72,
+     "fin": 37.92
+    },
+    {
+     "texto": "to",
+     "inicio": 37.92,
+     "fin": 38.1
+    },
+    {
+     "texto": "the",
+     "inicio": 38.1,
+     "fin": 38.2
+    },
+    {
+     "texto": "friend",
+     "inicio": 38.2,
+     "fin": 38.36
+    },
+    {
+     "texto": "who",
+     "inicio": 38.36,
+     "fin": 38.52
+    },
+    {
+     "texto": "says",
+     "inicio": 38.52,
+     "fin": 38.7
+    },
+    {
+     "texto": "the",
+     "inicio": 38.7,
+     "fin": 38.92
+    },
+    {
+     "texto": "car",
+     "inicio": 38.92,
+     "fin": 39.14
+    },
+    {
+     "texto": "is",
+     "inicio": 39.14,
+     "fin": 39.32
+    },
+    {
+     "texto": "freezing",
+     "inicio": 39.32,
+     "fin": 39.9
+    },
+    {
+     "texto": "because",
+     "inicio": 39.9,
+     "fin": 40.24
+    },
+    {
+     "texto": "of",
+     "inicio": 40.24,
+     "fin": 40.4
+    },
+    {
+     "texto": "the",
+     "inicio": 40.4,
+     "fin": 40.48
+    },
+    {
+     "texto": "wind",
+     "inicio": 40.48,
+     "fin": 40.64
+    },
+    {
+     "texto": "chill.",
+     "inicio": 40.64,
+     "fin": 40.82
+    }
+   ],
+   "inicio": 37.48,
+   "fin": 40.82
+  }
+ ]
+}

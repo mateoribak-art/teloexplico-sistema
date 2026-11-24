@@ -24,3 +24,11 @@ Uso: 14 pasos · 9,239 tokens nuevos · 898,668 de caché · 3,335 escritos · e
 2026-11-24 11:32 Render de en-045-car-warmup (sin Claude).
 2026-11-24 11:39 en-045-car-warmup: listo (render sin Claude)
 2026-11-24 11:39 Termina la producción (ok).
+2026-11-24 17:58 Arranca la producción (13 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `en-046-wind-chill` (clima #9, 40.9 s). Pasó el chequeo en el primer intento, con todo verificado contra la página de sensación térmica del NWS. La voz salió 125/127 palabras, `tlx tsc` dio OK y los cuadros se revisaron en una vuelta. Quedó en estado `render` y lo renderiza `producir.py`. La interacción es guardar (el viento solo enfría la sensación en personas y mascotas) y comentar ("real temperature or feels-like?").
+- **Rescates:** no había ningún video apartado por chequeo rechazado. `en-042-frozen-pipes` ya figura como `listo`.
+- **Pendiente:** no corrí el radar de actualidad esta vez. La última pasada fue el 23/11 y no encontró tema.
+Uso: 13 pasos · 8,866 tokens nuevos · 635,023 de caché · 2,597 escritos · equivale a US$ 0.69 de API
+2026-11-24 18:02 Render de en-046-wind-chill (sin Claude).
+2026-11-24 18:20 en-046-wind-chill: listo (render sin Claude)
+2026-11-24 18:20 Termina la producción (ok).

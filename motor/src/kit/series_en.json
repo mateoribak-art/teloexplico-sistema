@@ -180,6 +180,10 @@
     "en-045-car-warmup": [
       "ciencia",
       5
+    ],
+    "en-046-wind-chill": [
+      "clima",
+      9
     ]
   }
 }
