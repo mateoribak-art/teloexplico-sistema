@@ -1,15 +1,5 @@
 [
  {
-  "id": "manual-en-jefe",
-  "empleado": "en/jefe",
-  "firma": "323ed93883ba",
-  "estado": "explicado",
-  "titulo": "Ya está corregido: un permiso negado no frena más el turno",
-  "resumen": "Claude intentaba editar archivos con un comando prohibido; lo hacía igual por el camino permitido, pero el turno quedaba como fallado y se salteaba el carrusel. Se corrigió en producir.py el 27/10: desde el próximo turno de producción vuelve a verde.",
-  "creado": "2026-10-27T15:01",
-  "actualizado": "2026-10-27T15:01"
- },
- {
   "id": "mvr34znp-vigilante",
   "creado": "2026-10-27T16:36",
   "empleado": "en/vigilante",
@@ -488,5 +478,15 @@
   "archivos": [
    "videos/en/cola.json"
   ]
+ },
+ {
+  "id": "11241822-es-chequeo",
+  "creado": "2026-11-24T18:22",
+  "empleado": "es/chequeo",
+  "firma": "99c2085f6213",
+  "estado": "pedido",
+  "auto": true,
+  "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Bea (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): 072-diez-por-ciento-cerebro.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\n072-diez-por-ciento-cerebro: chequeo rechazado 2 veces: atribución en plural a 'neurólogos de Johns Hopkins' cuando la fuente es un solo neurólogo (Barry Gordon); sugerido: 'Un neurólogo de\nRegistro:\n066-billetes-animales: aprobado — Todas las cifras, valores, animales, regiones y la cita del BCRA coinciden con fuentes primarias del BCRA. Nota sobre fechas: el anuncio fue\n067-dulce-de-leche-origen: aprobado — Segunda revision. Tema de historia/anecdota, sin salud, seguridad ni plata. La leyenda de 1829 esta presentada explicitamente como leyenda (\n068-superluna-no-tan-grande: aprobado — Todas las afirmaciones quedaron verificadas o son simplificaciones correctas con el matiz adecuado. Los 14 % y 30 % son de NASA Science y la\n069-chicle-siete-anios: aprobado — Todas las afirmaciones, incluidas las de salud, estan verificadas contra las paginas primarias. Atribuciones correctas: la Cleveland Clinic \n070-rayo-despues-lluvia: aprobado — Todas las afirmaciones de seguridad están verificadas contra NWS/NOAA (weather.gov, noaa.gov/jetstream). Ninguna es falsa, dudosa ni probabl\n071-peces-memoria: aprobado — Todas las afirmaciones de salud/seguridad/plata: no hay ninguna (el consejo de darles de comer a la misma hora es ",
+  "actualizado": "2026-11-24T18:22"
  }
 ]
