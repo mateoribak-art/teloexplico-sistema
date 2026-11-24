@@ -1,6 +1,6 @@
 {
-  "veredicto": "rechazado",
-  "motivo": "Casi todo está verificado: 2 % del peso y 20 % de la energía son de MIT McGovern (Mila Halgren, 2024, textual: 'only two percent of our body weight, it devours 20 percent of our calories'), y la frase no atribuye esas cifras a Hopkins (que dice 3 %), así que no hay conflicto. El problema es la atribución de la frase 3 y del caption ('Neurólogos de la Universidad Johns Hopkins explican...'). El Hub de JHU (2014, 'Busting a brain myth: We really do use 100 percent of our brains') cita a UN solo neurólogo, Barry Gordon, que dice 'we use virtually every part of the brain, and the brain is active almost all the time' (dicho originalmente a Scientific American en 2008). El plural 'Neurólogos' infla la atribución a un consenso institucional que la fuente no enuncia, en un tema de salud donde solo vale lo verificado con su matiz exacto. Corrección sugerida: 'Un neurólogo de la Universidad Johns Hopkins, Barry Gordon, explica que usamos prácticamente todo el cerebro' (o 'Según un neurólogo de Johns Hopkins'). Nota: no se pudo abrir hub.jhu.edu (403); el contenido se confirmó por el extracto del buscador y por Scientific American, no por lectura directa del texto completo. Quitar el plural es suficiente para aprobar.",
+  "veredicto": "aprobado",
+  "motivo": "Corregido tras el rechazo: la frase 3 y el caption ahora dicen 'Un neurólogo de la Universidad Johns Hopkins explica...' (singular, Barry Gordon), tal como sugería el chequeo; es lo único que faltaba para aprobar. Detalle del chequeo anterior: casi todo está verificado: 2 % del peso y 20 % de la energía son de MIT McGovern (Mila Halgren, 2024, textual: 'only two percent of our body weight, it devours 20 percent of our calories'), y la frase no atribuye esas cifras a Hopkins (que dice 3 %), así que no hay conflicto. El problema es la atribución de la frase 3 y del caption ('Neurólogos de la Universidad Johns Hopkins explican...'). El Hub de JHU (2014, 'Busting a brain myth: We really do use 100 percent of our brains') cita a UN solo neurólogo, Barry Gordon, que dice 'we use virtually every part of the brain, and the brain is active almost all the time' (dicho originalmente a Scientific American en 2008). El plural 'Neurólogos' infla la atribución a un consenso institucional que la fuente no enuncia, en un tema de salud donde solo vale lo verificado con su matiz exacto. Corrección sugerida: 'Un neurólogo de la Universidad Johns Hopkins, Barry Gordon, explica que usamos prácticamente todo el cerebro' (o 'Según un neurólogo de Johns Hopkins'). Nota: no se pudo abrir hub.jhu.edu (403); el contenido se confirmó por el extracto del buscador y por Scientific American, no por lectura directa del texto completo. Quitar el plural es suficiente para aprobar.",
   "afirmaciones": [
     {
       "texto": "Te dijeron que usás solo el diez por ciento del cerebro. (frase 1; caption: 'No usás solo el diez por ciento')",
@@ -15,10 +15,10 @@
       "matiz_ok": true
     },
     {
-      "texto": "Neurólogos de la Universidad Johns Hopkins, en Estados Unidos, explican que usamos prácticamente todo el cerebro. (frase 3; caption)",
+      "texto": "Un neurólogo de la Universidad Johns Hopkins, en Estados Unidos, explica que usamos prácticamente todo el cerebro. (frase 3; caption)",
       "fuente": "JHU Hub 2014-07-24, 'Busting a brain myth': Barry Gordon, profesor de neurología (Johns Hopkins): 'we use virtually every part of the brain, and the brain is active almost all the time'. Contenido confirmado vía extracto del buscador y Scientific American (hub.jhu.edu devolvió 403 al abrirlo)",
       "estado": "verificada",
-      "matiz_ok": false
+      "matiz_ok": true
     },
     {
       "texto": "No todo a la vez: según lo que hagas, se prenden unas zonas u otras. (frase 4; caption)",
