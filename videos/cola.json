@@ -2254,7 +2254,7 @@
  {
   "slug": "058-agua-del-mate",
   "tema": "¿El agua del mate tiene que hervir? No: 75 a 80 grados (INYM); hervida quema la yerba",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -2295,6 +2295,11 @@
     "estado": "listo",
     "cuando": "2026-11-24T00:00",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-24T19:32",
+    "motivo": "https://www.instagram.com/reel/DgJCQPnkWTn/"
    }
   ]
  },

@@ -1142,7 +1142,7 @@
  {
   "slug": "en-032-gta-13-years",
   "tema": "GTA 6: 13 years since GTA V (2013) and two delays; How old were you?",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1173,6 +1173,11 @@
     "estado": "listo",
     "cuando": "2026-11-23T22:05",
     "motivo": "revisado: el mp4 faltaba solo en la corrida del 22/11 (igual que en-031, en-026 y en-027, que ya salieron)"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-24T19:34",
+    "motivo": "https://www.instagram.com/reel/DgJCdOVFHmX/"
    }
   ]
  },
