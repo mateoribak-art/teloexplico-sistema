@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T18:22",
+ "actualizado": "2026-11-24T18:23",
  "oficinas": [
   {
    "clave": "es",
@@ -44,6 +44,13 @@
    ],
    "linea": [
     {
+     "slug": "072-diez-por-ciento-cerebro",
+     "tema": "¿Usamos solo el 10 % del cerebro? No: usamos casi todo, en distintos momentos (Queensland Brain Institute, Johns Hopkins, Scientific American)",
+     "estado": "produccion",
+     "cuando": "2026-11-24T18:23",
+     "motivo": "guion corregido (un neurólogo, Barry Gordon); falta voz, escenas y render"
+    },
+    {
      "slug": "058-agua-del-mate",
      "tema": "¿El agua del mate tiene que hervir? No: 75 a 80 grados (INYM); hervida quema la yerba",
      "estado": "listo",
@@ -70,13 +77,6 @@
      "estado": "listo",
      "cuando": "2026-11-21T22:54",
      "motivo": "render sin Claude"
-    },
-    {
-     "slug": "072-diez-por-ciento-cerebro",
-     "tema": "¿Usamos solo el 10 % del cerebro? No: usamos casi todo, en distintos momentos (Queensland Brain Institute, Johns Hopkins, Scientific American)",
-     "estado": "apartado",
-     "cuando": "2026-11-24T17:21",
-     "motivo": "chequeo rechazado 2 veces: atribución en plural a 'neurólogos de Johns Hopkins' cuando la fuente es un solo neurólogo (Barry Gordon); sugerido: 'Un neurólogo de"
     },
     {
      "slug": "057-ruta-40-de-punta-a-punta",
@@ -111,7 +111,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-24T17:58",
-     "hace": "hace 24 min",
+     "hace": "hace 25 min",
      "detalle": [
       "Uso: 28 pasos · 26,303 tokens nuevos · 1,905,257 de caché · 11,423 escritos · equivale a US$ 2.04 de API",
       "2026-11-24 17:18 Arranca la producción (13 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -211,10 +211,10 @@
        "cuenta": "es"
       }
      },
-     "estado": "aviso",
-     "resumen": "Frenó 1 video(s): 072-diez-por-ciento-cerebro.",
+     "estado": "ok",
+     "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-24T17:58",
-     "hace": "hace 24 min",
+     "hace": "hace 25 min",
      "detalle": [
       "066-billetes-animales: aprobado — Todas las cifras, valores, animales, regiones y la cita del BCRA coinciden con fuentes primarias del BCRA. Nota sobre fechas: el anuncio fue",
       "067-dulce-de-leche-origen: aprobado — Segunda revision. Tema de historia/anecdota, sin salud, seguridad ni plata. La leyenda de 1829 esta presentada explicitamente como leyenda (",
@@ -222,15 +222,13 @@
       "069-chicle-siete-anios: aprobado — Todas las afirmaciones, incluidas las de salud, estan verificadas contra las paginas primarias. Atribuciones correctas: la Cleveland Clinic ",
       "070-rayo-despues-lluvia: aprobado — Todas las afirmaciones de seguridad están verificadas contra NWS/NOAA (weather.gov, noaa.gov/jetstream). Ninguna es falsa, dudosa ni probabl",
       "071-peces-memoria: aprobado — Todas las afirmaciones de salud/seguridad/plata: no hay ninguna (el consejo de darles de comer a la misma hora es una prueba inocua, no una ",
-      "072-diez-por-ciento-cerebro: rechazado — Casi todo está verificado: 2 % del peso y 20 % de la energía son de MIT McGovern (Mila Halgren, 2024, textual: 'only two percent of our body",
+      "072-diez-por-ciento-cerebro: aprobado — Corregido tras el rechazo: la frase 3 y el caption ahora dicen 'Un neurólogo de la Universidad Johns Hopkins explica...' (singular, Barry Go",
       "073-muralla-desde-espacio: aprobado — Segunda revision. Todas las afirmaciones quedan verificadas o correctamente matizadas. Chiao: la frase aclara que uso teleobjetivo y que a s"
      ],
-     "tareas": [
-      "072-diez-por-ciento-cerebro: chequeo rechazado 2 veces: atribución en plural a 'neurólogos de Johns Hopkins' cuando la fuente es un solo neurólogo (Barry Gordon); sugerido: 'Un neurólogo de"
-     ],
-     "arreglo": "Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.",
+     "tareas": [],
+     "arreglo": null,
      "solo": false,
-     "firma": "99c2085f6213"
+     "firma": "f021dae776ff"
     },
     {
      "id": "voz",
@@ -249,7 +247,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-24T17:58",
-     "hace": "hace 24 min",
+     "hace": "hace 25 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -273,7 +271,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-24 17:58.",
      "cuando": "2026-11-24T17:58",
-     "hace": "hace 24 min",
+     "hace": "hace 25 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -297,7 +295,7 @@
      "estado": "ok",
      "resumen": "14 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-24T17:58",
-     "hace": "hace 24 min",
+     "hace": "hace 25 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -494,17 +492,15 @@
        "modo": "vigilar"
       }
      },
-     "estado": "aviso",
-     "resumen": "Video apartado: 072-diez-por-ciento-cerebro — chequeo rechazado 2 veces: atribución en plural a 'neurólogos de Johns Hopkins' cuando la fuente es un solo neurólogo (B",
-     "cuando": "2026-11-24T18:22",
+     "estado": "ok",
+     "resumen": "Todo en orden ✓",
+     "cuando": "2026-11-24T18:23",
      "hace": "recién",
-     "detalle": [
-      "⚠️ Video apartado: 072-diez-por-ciento-cerebro — chequeo rechazado 2 veces: atribución en plural a 'neurólogos de Johns Hopkins' cuando la fuente es un solo neurólogo (B"
-     ],
+     "detalle": [],
      "tareas": [],
      "arreglo": null,
-     "solo": true,
-     "firma": "ddcb3e09e79f"
+     "solo": false,
+     "firma": "cf3a22f5d39c"
     },
     {
      "id": "planb",
@@ -633,7 +629,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-24T18:20",
-     "hace": "hace 2 min",
+     "hace": "hace 3 min",
      "detalle": [
       "Uso: 13 pasos · 8,866 tokens nuevos · 635,023 de caché · 2,597 escritos · equivale a US$ 0.69 de API",
       "2026-11-24 17:58 Arranca la producción (13 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
@@ -699,7 +695,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-24T18:20",
-     "hace": "hace 2 min",
+     "hace": "hace 3 min",
      "detalle": [
       "en-039-polar-vortex: aprobado — Todas las afirmaciones, incluidas las de seguridad (frío, forecast en weather.gov, kit de emergencia del auto), están respaldadas por la pág",
       "en-040-powerball-odds: aprobado — Las cifras coinciden con la fuente primaria (Powerball.com, Prize chart: jackpot 1 en 292,201,338; cualquier premio 1 en 24.87 sobre una jug",
@@ -732,7 +728,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-24T18:20",
-     "hace": "hace 2 min",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -756,7 +752,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-24 18:20.",
      "cuando": "2026-11-24T18:20",
-     "hace": "hace 2 min",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -780,7 +776,7 @@
      "estado": "ok",
      "resumen": "14 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-24T18:20",
-     "hace": "hace 2 min",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -944,7 +940,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-24T18:22",
+     "cuando": "2026-11-24T18:23",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -1190,13 +1186,22 @@
   },
   {
    "id": "11241822-es-chequeo",
-   "creado": "2026-11-24T18:22",
+   "creado": "2026-11-24T18:23",
    "empleado": "es/chequeo",
-   "firma": "99c2085f6213",
-   "estado": "pedido",
+   "estado": "aplicado",
    "auto": true,
    "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Bea (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): 072-diez-por-ciento-cerebro.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\n072-diez-por-ciento-cerebro: chequeo rechazado 2 veces: atribución en plural a 'neurólogos de Johns Hopkins' cuando la fuente es un solo neurólogo (Barry Gordon); sugerido: 'Un neurólogo de\nRegistro:\n066-billetes-animales: aprobado — Todas las cifras, valores, animales, regiones y la cita del BCRA coinciden con fuentes primarias del BCRA. Nota sobre fechas: el anuncio fue\n067-dulce-de-leche-origen: aprobado — Segunda revision. Tema de historia/anecdota, sin salud, seguridad ni plata. La leyenda de 1829 esta presentada explicitamente como leyenda (\n068-superluna-no-tan-grande: aprobado — Todas las afirmaciones quedaron verificadas o son simplificaciones correctas con el matiz adecuado. Los 14 % y 30 % son de NASA Science y la\n069-chicle-siete-anios: aprobado — Todas las afirmaciones, incluidas las de salud, estan verificadas contra las paginas primarias. Atribuciones correctas: la Cleveland Clinic \n070-rayo-despues-lluvia: aprobado — Todas las afirmaciones de seguridad están verificadas contra NWS/NOAA (weather.gov, noaa.gov/jetstream). Ninguna es falsa, dudosa ni probabl\n071-peces-memoria: aprobado — Todas las afirmaciones de salud/seguridad/plata: no hay ninguna (el consejo de darles de comer a la misma hora es ",
-   "actualizado": "2026-11-24T18:22"
+   "firma": "99c2085f6213",
+   "actualizado": "2026-11-24T18:23",
+   "titulo": "Bea frenó el video 072 por decir \"neurólogos\" en plural; lo corregí y lo devolví a producción.",
+   "resumen": "La fuente de Johns Hopkins cita a un solo neurólogo (Barry Gordon), y el guion y el caption decían \"Neurólogos\" en plural. Cambié las dos frases a \"Un neurólogo de la Universidad Johns Hopkins explica…\", como sugería Bea, y dejé el chequeo como aprobado con esa corrección anotada. No volví a pasar el chequeo por Bea: ese cambio lo hice yo mismo. El video quedó en la cola en estado \"produccion\". Todavía le faltan la voz, las escenas y el render, así que en la próxima corrida de producción se arma y sale como los demás.",
+   "commit": "b9d383fd36acc24895af76da978abf461def3071",
+   "archivos": [
+    "videos/072-diez-por-ciento-cerebro/caption.txt",
+    "videos/072-diez-por-ciento-cerebro/chequeo.json",
+    "videos/072-diez-por-ciento-cerebro/guion.json",
+    "videos/cola.json"
+   ]
   }
  ]
 }

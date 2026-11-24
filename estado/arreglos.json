@@ -481,12 +481,21 @@
  },
  {
   "id": "11241822-es-chequeo",
-  "creado": "2026-11-24T18:22",
+  "creado": "2026-11-24T18:23",
   "empleado": "es/chequeo",
-  "firma": "99c2085f6213",
-  "estado": "pedido",
+  "estado": "aplicado",
   "auto": true,
   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Bea (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): 072-diez-por-ciento-cerebro.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\n072-diez-por-ciento-cerebro: chequeo rechazado 2 veces: atribución en plural a 'neurólogos de Johns Hopkins' cuando la fuente es un solo neurólogo (Barry Gordon); sugerido: 'Un neurólogo de\nRegistro:\n066-billetes-animales: aprobado — Todas las cifras, valores, animales, regiones y la cita del BCRA coinciden con fuentes primarias del BCRA. Nota sobre fechas: el anuncio fue\n067-dulce-de-leche-origen: aprobado — Segunda revision. Tema de historia/anecdota, sin salud, seguridad ni plata. La leyenda de 1829 esta presentada explicitamente como leyenda (\n068-superluna-no-tan-grande: aprobado — Todas las afirmaciones quedaron verificadas o son simplificaciones correctas con el matiz adecuado. Los 14 % y 30 % son de NASA Science y la\n069-chicle-siete-anios: aprobado — Todas las afirmaciones, incluidas las de salud, estan verificadas contra las paginas primarias. Atribuciones correctas: la Cleveland Clinic \n070-rayo-despues-lluvia: aprobado — Todas las afirmaciones de seguridad están verificadas contra NWS/NOAA (weather.gov, noaa.gov/jetstream). Ninguna es falsa, dudosa ni probabl\n071-peces-memoria: aprobado — Todas las afirmaciones de salud/seguridad/plata: no hay ninguna (el consejo de darles de comer a la misma hora es ",
-  "actualizado": "2026-11-24T18:22"
+  "firma": "99c2085f6213",
+  "actualizado": "2026-11-24T18:23",
+  "titulo": "Bea frenó el video 072 por decir \"neurólogos\" en plural; lo corregí y lo devolví a producción.",
+  "resumen": "La fuente de Johns Hopkins cita a un solo neurólogo (Barry Gordon), y el guion y el caption decían \"Neurólogos\" en plural. Cambié las dos frases a \"Un neurólogo de la Universidad Johns Hopkins explica…\", como sugería Bea, y dejé el chequeo como aprobado con esa corrección anotada. No volví a pasar el chequeo por Bea: ese cambio lo hice yo mismo. El video quedó en la cola en estado \"produccion\". Todavía le faltan la voz, las escenas y el render, así que en la próxima corrida de producción se arma y sale como los demás.",
+  "commit": "b9d383fd36acc24895af76da978abf461def3071",
+  "archivos": [
+   "videos/072-diez-por-ciento-cerebro/caption.txt",
+   "videos/072-diez-por-ciento-cerebro/chequeo.json",
+   "videos/072-diez-por-ciento-cerebro/guion.json",
+   "videos/cola.json"
+  ]
  }
 ]
