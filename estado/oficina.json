@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T03:30",
+ "actualizado": "2026-11-24T14:30",
  "oficinas": [
   {
    "clave": "es",
@@ -7,9 +7,9 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 1045,
-   "listos": 9,
-   "dias": 4.5,
-   "proximo": "060-celular-carga-noche",
+   "listos": 13,
+   "dias": 6.5,
+   "proximo": "057-ruta-40-de-punta-a-punta",
    "publicados": 56,
    "pausa": false,
    "pendientes": [
@@ -44,6 +44,20 @@
    ],
    "linea": [
     {
+     "slug": "057-ruta-40-de-punta-a-punta",
+     "tema": "Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)",
+     "estado": "listo",
+     "cuando": "2026-11-23T23:56",
+     "motivo": "render sin Claude"
+    },
+    {
+     "slug": "058-agua-del-mate",
+     "tema": "¿El agua del mate tiene que hervir? No: 75 a 80 grados (INYM); hervida quema la yerba",
+     "estado": "listo",
+     "cuando": "2026-11-24T00:00",
+     "motivo": "render sin Claude"
+    },
+    {
      "slug": "060-celular-carga-noche",
      "tema": "¿Dejar el celular cargando toda la noche lo arruina? Apple: no se sobrecarga; carga optimizada y límite del 80 %",
      "estado": "listo",
@@ -56,41 +70,6 @@
      "estado": "listo",
      "cuando": "2026-11-21T14:12",
      "motivo": "render sin Claude"
-    },
-    {
-     "slug": "062-pote-microondas",
-     "tema": "Calentar en el pote de yogur o margarina: no es para el microondas (USDA FSIS)",
-     "estado": "listo",
-     "cuando": "2026-11-21T22:54",
-     "motivo": "render sin Claude"
-    },
-    {
-     "slug": "063-che-origen",
-     "tema": "¿De dónde viene el 'che'? Origen incierto: tres versiones (mapuche, guaraní, valenciano)",
-     "estado": "listo",
-     "cuando": "2026-11-21T18:51",
-     "motivo": "render sin Claude"
-    },
-    {
-     "slug": "057-ruta-40-de-punta-a-punta",
-     "tema": "Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)",
-     "estado": "apartado",
-     "cuando": "2026-11-22T14:31",
-     "motivo": "falta 057-ruta-40-de-punta-a-punta.mp4"
-    },
-    {
-     "slug": "058-agua-del-mate",
-     "tema": "¿El agua del mate tiene que hervir? No: 75 a 80 grados (INYM); hervida quema la yerba",
-     "estado": "apartado",
-     "cuando": "2026-11-22T14:31",
-     "motivo": "falta 058-agua-del-mate.mp4"
-    },
-    {
-     "slug": "069-chicle-siete-anios",
-     "tema": "¿Tragarte un chicle tarda siete años en salir? No: unas 40 horas (Cleveland Clinic, KidsHealth)",
-     "estado": "apartado",
-     "cuando": "2026-11-23T18:39",
-     "motivo": "render/control: js:180:53)\u001b[39m\n\u001b[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/cli/dist/render"
     },
     {
      "slug": "056-gta-trece-anios",
@@ -124,20 +103,18 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-23T18:39",
-     "hace": "hace 8 h",
+     "cuando": "2026-11-24T03:01",
+     "hace": "hace 11 h",
      "detalle": [
-      "Uso: 9 pasos · 4,716 tokens nuevos · 770,044 de caché · 1,954 escritos · equivale a US$ 0.82 de API",
-      "2026-11-23 18:37 Arranca la producción (10 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
-      "- **`069-chicle-siete-anios`** (¿un chicle tragado tarda siete años en salir? No, unas 40 horas) quedó en estado `render`, con escenas 3D, voz y caption listos. El render, la portada y el control los hace `producir.py` esta noche. El cheque",
-      "- **Cuadros sin revisar.** `tlx cuadros` falló porque el bundle de Remotion se rompe con `en-042-frozen-pipes`, un video de la cuenta en inglés que no tiene su `tiempos.json` local. No pude arreglarlo desde acá, porque no puedo escribir en ",
-      "- **Apartados y segundo video.** No había apartados por chequeo rechazado, así que no rescaté ninguno. Los apartados actuales (038, 042, 044, 051, 057, 058) están así por mp4 faltante o actualidad vencida. No produje un segundo video porque",
-      "Uso: 9 pasos · 4,716 tokens nuevos · 770,044 de caché · 1,954 escritos · equivale a US$ 0.82 de API",
-      "2026-11-23 18:39 Render de 069-chicle-siete-anios (sin Claude).",
-      "2026-11-23 18:39 069-chicle-siete-anios: apartado (render/control: js:180:53)\u001b[39m",
-      "\u001b[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/cli/dist/render.js:166:5)\u001b[39m",
-      "\u001b[31m    at async cli (/)",
-      "2026-11-23 18:39 Termina la producción (ok)."
+      "Uso: 54 pasos · 112,150 tokens nuevos · 2,241,113 de caché · 22,563 escritos · equivale a US$ 1.15 de API",
+      "2026-11-24 02:50 Arranca la producción (12 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
+      "- **Listo para render:** `070-rayo-despues-lluvia`. El tema es qué hacer cuando para de llover: un rayo puede caer a más de 16 km de la lluvia, así que hay que esperar 30 minutos desde el último trueno (NWS/NOAA). El chequeo lo rechazó al p",
+      "- **Rescates:** no había ninguno. Los apartados (`005`, `038`, `042`, `044`, `051`) no quedaron por chequeo rechazado.",
+      "- **Segundo video:** no lo hice porque la cola tenía 12 videos listos, más de los 10 que pide la regla. Tampoco corrí el radar hoy (el último fue el 23/11).",
+      "Uso: 54 pasos · 112,150 tokens nuevos · 2,241,113 de caché · 22,563 escritos · equivale a US$ 1.15 de API",
+      "2026-11-24 02:56 Render de 070-rayo-despues-lluvia (sin Claude).",
+      "2026-11-24 03:01 070-rayo-despues-lluvia: listo (render sin Claude)",
+      "2026-11-24 03:01 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -161,7 +138,7 @@
      "estado": "ok",
      "resumen": "Guía de referentes al día.",
      "cuando": "2026-11-23T19:13",
-     "hace": "hace 8 h",
+     "hace": "hace 19 h",
      "detalle": [
       "05/11 15:28 Termina Vera (ok).",
       "23/11 19:11 Arranca Vera (referentes).",
@@ -189,13 +166,13 @@
       }
      },
      "estado": "ok",
-     "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada fechado de hoy (lo más reciente es del 12-16 nov). SIN tema nuevo verificable. Descartados: (",
-     "cuando": "2026-11-22T17:26",
-     "hace": "hace 34 h",
+     "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (lo más reciente es del 16-nov; el resto mezcla años). SIN tema nu",
+     "cuando": "2026-11-23T22:07",
+     "hace": "hace 16 h",
      "detalle": [
-      "21/11 00:00 | Revisión radar (turno nube). Una búsqueda web (SMN fin de semana largo): solo resultados de otros años, nada verificable fechado de hoy. SIN tema nuevo; sigue la cola normal.",
       "21/11 00:00 | Revisión radar (segunda pasada). Dos búsquedas web (alertas SMN y tendencias): lo más reciente es del 16-nov. SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por lluvias y tormentas en 12 provincias (Perfil 16-nov, no de hoy; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) superluna 24-nov -> todavía no se vive, reevaluar el 23-24; (c) Rosalía/Lollapalooza/fútbol/política -> espectáculos o política, no encajan. Sigue la cola normal.",
-      "22/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada fechado de hoy (lo más reciente es del 12-16 nov). SIN tema nuevo verificable. Descartados: (a) alertas por tormentas/granizo en 15 provincias (Meteored, sin fecha verificable; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) superluna 24-nov -> todavía no se vive, reevaluar el 23-24; (c) dólar, consumo, política, IA -> economía/política, no encajan. Sigue la cola normal."
+      "22/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada fechado de hoy (lo más reciente es del 12-16 nov). SIN tema nuevo verificable. Descartados: (a) alertas por tormentas/granizo en 15 provincias (Meteored, sin fecha verificable; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) superluna 24-nov -> todavía no se vive, reevaluar el 23-24; (c) dólar, consumo, política, IA -> economía/política, no encajan. Sigue la cola normal.",
+      "23/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (lo más reciente es del 16-nov; el resto mezcla años). SIN tema nuevo. Descartados: (a) calor del norte/viento norte y posibles tormentas del último finde de noviembre (Meteored, fechas poco claras; calor/tormenta/granizo ya cubiertos 019/048/049/005/024/018); (b) superluna 24-nov -> YA en cola (068-superluna-no-tan-grande, listo); (c) Día de la Soberanía/feriado -> ya hecho (053). Sigue la cola normal."
      ],
      "tareas": [
       "🔥 004-olor-a-lluvia — ¿Por qué la tierra huele así cuando llueve?",
@@ -210,7 +187,7 @@
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "fc5027e7a2e1"
+     "firma": "ea889493e933"
     },
     {
      "id": "chequeo",
@@ -228,17 +205,17 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-23T19:32",
-     "hace": "hace 7 h",
+     "cuando": "2026-11-24T03:01",
+     "hace": "hace 11 h",
      "detalle": [
-      "062-pote-microondas: aprobado — Tercera revisión (21/11): se sacó 'un solo uso / no están pensados para cocinar' (sin fuente legible) y se acotó la regla a potes de plástic",
       "063-che-origen: aprobado — Todas las afirmaciones tienen fuente o están presentadas como versión no confirmada. Las únicas 'dudosas' son los tres orígenes, que el guio",
       "064-nudillos-artritis: aprobado — Todas las afirmaciones de salud y cifras quedan verificadas contra fuente primaria. DeWeber 2011 (J Am Board Fam Med 24(2):169-174, PubMed 2",
       "065-voseo-vos-o-tu: aprobado — Todas las afirmaciones fácticas tienen fuente (RAE: DPD 'voseo'/'vos', Buen uso del español 'el voseo', glosario RAE gtg/voseo, y bibliograf",
       "066-billetes-animales: aprobado — Todas las cifras, valores, animales, regiones y la cita del BCRA coinciden con fuentes primarias del BCRA. Nota sobre fechas: el anuncio fue",
       "067-dulce-de-leche-origen: aprobado — Segunda revision. Tema de historia/anecdota, sin salud, seguridad ni plata. La leyenda de 1829 esta presentada explicitamente como leyenda (",
       "068-superluna-no-tan-grande: aprobado — Todas las afirmaciones quedaron verificadas o son simplificaciones correctas con el matiz adecuado. Los 14 % y 30 % son de NASA Science y la",
-      "069-chicle-siete-anios: aprobado — Todas las afirmaciones, incluidas las de salud, estan verificadas contra las paginas primarias. Atribuciones correctas: la Cleveland Clinic "
+      "069-chicle-siete-anios: aprobado — Todas las afirmaciones, incluidas las de salud, estan verificadas contra las paginas primarias. Atribuciones correctas: la Cleveland Clinic ",
+      "070-rayo-despues-lluvia: aprobado — Todas las afirmaciones de seguridad están verificadas contra NWS/NOAA (weather.gov, noaa.gov/jetstream). Ninguna es falsa, dudosa ni probabl"
      ],
      "tareas": [],
      "arreglo": null,
@@ -261,8 +238,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-23T19:32",
-     "hace": "hace 7 h",
+     "cuando": "2026-11-24T03:01",
+     "hace": "hace 11 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -283,17 +260,15 @@
        "cuenta": "es"
       }
      },
-     "estado": "falla",
-     "resumen": "Falló el render de 069-chicle-siete-anios.",
-     "cuando": "2026-11-23T19:32",
-     "hace": "hace 7 h",
+     "estado": "ok",
+     "resumen": "Último video terminado: 2026-11-24 03:01.",
+     "cuando": "2026-11-24T03:01",
+     "hace": "hace 11 h",
      "detalle": [],
-     "tareas": [
-      "069-chicle-siete-anios: render/control: js:180:53)\u001b[39m\n\u001b[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/cli/dist/render.js:166:5)\u001b[39m\n\u001b[31m    at async cli (/"
-     ],
-     "arreglo": "Relanzá la producción: los videos en estado render se vuelven a renderizar solos.",
+     "tareas": [],
+     "arreglo": null,
      "solo": false,
-     "firma": "0bb0cd693622"
+     "firma": "d3084d96c553"
     },
     {
      "id": "control",
@@ -309,18 +284,15 @@
        "cuenta": "es"
       }
      },
-     "estado": "aviso",
-     "resumen": "Apartó 2 video(s) en las últimas 48 h.",
-     "cuando": "2026-11-23T19:32",
-     "hace": "hace 7 h",
+     "estado": "ok",
+     "resumen": "13 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-24T03:01",
+     "hace": "hace 11 h",
      "detalle": [],
-     "tareas": [
-      "057-ruta-40-de-punta-a-punta: falta 057-ruta-40-de-punta-a-punta.mp4",
-      "058-agua-del-mate: falta 058-agua-del-mate.mp4"
-     ],
-     "arreglo": "Revisalo: si está bien, pasalo a listo; si no, queda apartado.",
+     "tareas": [],
+     "arreglo": null,
      "solo": false,
-     "firma": "09edd90dcb53"
+     "firma": "8c3ce0562254"
     },
     {
      "id": "publicador",
@@ -336,10 +308,10 @@
        "cuenta": "es"
       }
      },
-     "estado": "ok",
-     "resumen": "Último: 059-pibe-chango-guri.",
+     "estado": "falla",
+     "resumen": "No salió la publicación del turno de las 12:30 (24/11).",
      "cuando": "2026-11-23T19:33",
-     "hace": "hace 7 h",
+     "hace": "hace 18 h",
      "detalle": [
       "22/11 14:31 054-gta-juegos-violentos apartado: falta 054-gta-juegos-violentos.mp4",
       "22/11 14:31 055-gta-vice-city-miami apartado: falta 055-gta-vice-city-miami.mp4",
@@ -353,11 +325,11 @@
       "23/11 19:33 059-pibe-chango-guri paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: 060-celular-carga-noche — ¿Dejar el celular cargando toda la noche lo arruina? Apple: no se sobrecarga; carga optimizada y límite del 80 %"
+      "Próximo: 057-ruta-40-de-punta-a-punta — Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)"
      ],
-     "arreglo": null,
+     "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
      "solo": false,
-     "firma": "ada61d71ea9f"
+     "firma": "fa0da4312677"
     },
     {
      "id": "redes",
@@ -376,7 +348,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-23T19:33",
-     "hace": "hace 7 h",
+     "hace": "hace 18 h",
      "detalle": [
       "22/11 19:34 055-gta-vice-city-miami https://youtube.com/shorts/4_EWH_XuwKY | privacidad: public",
       "22/11 19:34 055-gta-vice-city-miami paquete para TikTok/YouTube enviado",
@@ -408,7 +380,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-22T23:22",
-     "hace": "hace 28 h",
+     "hace": "hace 39 h",
      "detalle": [
       "2026-11-21 00:16 arroz-recalentado: listo control OK",
       "2026-11-21 20:39 lavar-pollo: publicado https://www.instagram.com/p/DgBbg4nEpDd/",
@@ -441,22 +413,22 @@
      },
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
-     "cuando": "2026-11-20T20:19",
-     "hace": "hace 3 días",
+     "cuando": "2026-11-24T00:27",
+     "hace": "hace 14 h",
      "detalle": [
-      "07/11 18:02 Hay 18 comentarios nuevos: arranca la respuesta.",
-      "07/11 00:00 Respondí 16 · salteé 2 · alerté 0. (026-mediodia-hora-corrida: 14 respondidos, incluido alejandrokalfayan (hora oficial vs longitud, con Ley 26.350); 028-yerba-por-ano: 2 respondidos; salteados: aledelejos (vulgar, tema político de la hora) y un duplicado de fulanocris)",
-      "07/11 00:00 Termina la respuesta de comentarios (ok).",
-      "07/11 18:03 Termina la respuesta de comentarios (ok).",
       "20/11 20:19 Hay 1 comentarios nuevos: arranca la respuesta.",
       "20/11 00:00 Respondí 0 · salteé 0 · alerté 1. (034-subte-linea-a: __francoivann__ plantea que el apodo \"Brujas\" viene del fabricante \"La Brugeoise\", no de la ciudad; el guion dice \"según cuentan\" y no tiene fuente clara para el origen del apodo. Alertado a Mateo, no respondido en público.)",
       "20/11 00:00 Termina la respuesta de comentarios (ok).",
-      "20/11 20:19 Termina la respuesta de comentarios (ok)."
+      "20/11 20:19 Termina la respuesta de comentarios (ok).",
+      "24/11 00:27 Hay 7 comentarios nuevos: arranca la respuesta.",
+      "24/11 00:00 Respondí 5 · salteé 2 · alerté 0. (059-pibe-chango-guri: juanalberto44252, martintellechea2023, juanmamiglia, nicobondaruk y pachakuteq_91 respondidos; juannsavagnaa578 y robertoy2772 salteados por ser palabra suelta sin pregunta ni dato claro)",
+      "24/11 00:00 Termina la respuesta de comentarios (ok).",
+      "24/11 00:27 Termina la respuesta de comentarios (ok)."
      ],
      "tareas": [
       "5 alerta",
-      "56 respondido",
-      "13 salteado",
+      "61 respondido",
+      "15 salteado",
       "⚠️ juan.pablo.pavoni: 'El calor después se condensa y forma hielo por más nofrost inverter...' — Sostiene que la comida cal",
       "⚠️ franparatore: 'el año pasado votaron a favor del huso horario -4' — afirma una votación que contradice el guion (hora of",
       "⚠️ __francoivann__: Les dicen las brujas por qué eran del fabricante \"La Brugeoise\" que se pronuncia La Bru-yua — El guion "
@@ -478,10 +450,10 @@
        "modo": "resumen"
       }
      },
-     "estado": "ok",
-     "resumen": "23/11: 1045 seguidores",
+     "estado": "aviso",
+     "resumen": "Las métricas tienen más de un día.",
      "cuando": "2026-11-23T04:24",
-     "hace": "hace 23 h",
+     "hace": "hace 34 h",
      "detalle": [
       "20/11: 1023 seguidores",
       "21/11: 1026 seguidores",
@@ -495,9 +467,9 @@
       "006-army-bomb: 8.636 vistas · 55 enviados · 552 ♥",
       "003-vuelta-carne: 4.728 vistas · 31 enviados · 99 ♥"
      ],
-     "arreglo": null,
+     "arreglo": "¿Vencido el token de Meta? Relanzá el resumen y mirá si falla.",
      "solo": false,
-     "firma": "03a4f14ac5d1"
+     "firma": "1f01b26b7eea"
     },
     {
      "id": "vigilante",
@@ -512,17 +484,17 @@
        "modo": "vigilar"
       }
      },
-     "estado": "aviso",
-     "resumen": "Video apartado: 069-chicle-siete-anios — render/control: js:180:53)\u001b[39m\n\u001b[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/moto",
-     "cuando": "2026-11-24T03:30",
+     "estado": "falla",
+     "resumen": "No salió la publicación del turno de las 12:30 (24/11).",
+     "cuando": "2026-11-24T14:30",
      "hace": "recién",
      "detalle": [
-      "⚠️ Video apartado: 069-chicle-siete-anios — render/control: js:180:53)\u001b[39m\n\u001b[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/moto"
+      "❗ No salió la publicación del turno de las 12:30 (24/11)."
      ],
      "tareas": [],
      "arreglo": null,
-     "solo": true,
-     "firma": "15f79ea2c866"
+     "solo": false,
+     "firma": "94f23ad74459"
     },
     {
      "id": "planb",
@@ -556,9 +528,9 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 5,
-   "listos": 9,
-   "dias": 4.5,
-   "proximo": "en-034-alcohol-cook-off",
+   "listos": 13,
+   "dias": 6.5,
+   "proximo": "en-029-swim-after-eating",
    "publicados": 33,
    "pausa": false,
    "pendientes": [],
@@ -591,6 +563,20 @@
    ],
    "linea": [
     {
+     "slug": "en-029-swim-after-eating",
+     "tema": "Do you have to wait to swim after eating? (Red Cross; adapted from 002)",
+     "estado": "listo",
+     "cuando": "2026-11-23T22:05",
+     "motivo": "revisado: el mp4 faltaba solo en la corrida del 22/11 (igual que en-031, en-026 y en-027, que ya salieron)"
+    },
+    {
+     "slug": "en-032-gta-13-years",
+     "tema": "GTA 6: 13 years since GTA V (2013) and two delays; How old were you?",
+     "estado": "listo",
+     "cuando": "2026-11-23T22:05",
+     "motivo": "revisado: el mp4 faltaba solo en la corrida del 22/11 (igual que en-031, en-026 y en-027, que ya salieron)"
+    },
+    {
      "slug": "en-034-alcohol-cook-off",
      "tema": "Does alcohol fully cook off? (USDA retention table; own; kitchen)",
      "estado": "listo",
@@ -603,34 +589,6 @@
      "estado": "listo",
      "cuando": "2026-11-21T14:23",
      "motivo": "render sin Claude"
-    },
-    {
-     "slug": "en-036-phantom-charger",
-     "tema": "Does unplugging your phone charger save money? (LBNL standby; own)",
-     "estado": "listo",
-     "cuando": "2026-11-21T19:03",
-     "motivo": "render sin Claude"
-    },
-    {
-     "slug": "en-037-swallowed-gum",
-     "tema": "Does swallowed gum stay in your stomach for 7 years? (Cleveland Clinic, KidsHealth; own)",
-     "estado": "listo",
-     "cuando": "2026-11-21T23:05",
-     "motivo": "render sin Claude"
-    },
-    {
-     "slug": "en-029-swim-after-eating",
-     "tema": "Do you have to wait to swim after eating? (Red Cross; adapted from 002)",
-     "estado": "apartado",
-     "cuando": "2026-11-22T14:31",
-     "motivo": "falta en-029-swim-after-eating.mp4"
-    },
-    {
-     "slug": "en-032-gta-13-years",
-     "tema": "GTA 6: 13 years since GTA V (2013) and two delays; How old were you?",
-     "estado": "apartado",
-     "cuando": "2026-11-22T14:31",
-     "motivo": "falta en-032-gta-13-years.mp4"
     },
     {
      "slug": "en-031-gta-vice-city",
@@ -664,18 +622,18 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-23T18:50",
-     "hace": "hace 8 h",
+     "cuando": "2026-11-24T03:11",
+     "hace": "hace 11 h",
      "detalle": [
-      "Uso: 17 pasos · 24,809 tokens nuevos · 700,503 de caché · 2,718 escritos · equivale a US$ 0.47 de API",
-      "2026-11-23 18:39 Arranca la producción (9 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
-      "**Listo para render:** `en-042-frozen-pipes`. Era el único apartado por \"chequeo rechazado\". Agregué `weather.gov/okx/winterpns7` a las fuentes del caption y del guion, y un subagente aparte lo re-chequeó y lo aprobó. Hice la voz (38,5 s) y",
-      "**Sin revisar:** no vi los cuadros. `tlx cuadros` falló porque `motor/.bundle-cuadros` es una carpeta vieja y no puedo borrarla con los permisos de esta corrida. Queda anotado en `videos/en/produccion.log`. Conviene mirar el render cuando s",
-      "**Sigue apartado:** `en-029-swim-after-eating` y `en-032-gta-13-years`, por \"falta el .mp4\" (no por chequeo), así que no los toqué. No produje otro video nuevo: el rescate fue el video de este turno.",
-      "Uso: 17 pasos · 24,809 tokens nuevos · 700,503 de caché · 2,718 escritos · equivale a US$ 0.47 de API",
-      "2026-11-23 18:41 Render de en-042-frozen-pipes (sin Claude).",
-      "2026-11-23 18:50 en-042-frozen-pipes: listo (render sin Claude)",
-      "2026-11-23 18:50 Termina la producción (ok)."
+      "Uso: 17 pasos · 11,284 tokens nuevos · 1,069,096 de caché · 2,775 escritos · equivale a US$ 1.11 de API",
+      "2026-11-24 03:01 Arranca la producción (12 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
+      "- **Listo (en estado `render`):** `en-044-wet-hair`, adaptado de 032 (serie Body myths #6). Chequeo aprobado en el 2.º intento, voz de 43,9 s y tsc sin errores. Revisé los cuadros en una vuelta. `producir.py` lo renderiza.",
+      "- **Primer chequeo rechazado:** dijo que \"not wet hair\" no tenía fuente primaria y que el lavado de manos estaba mal atribuido. Los reescribí con la versión verificada (\"not on the CDC's list\", CDC higiene, Cardiff 2005 con su matiz).",
+      "- **Sin rescates:** no había videos apartados por chequeo al empezar. Tampoco hubo apartados ni incompletos en este turno.",
+      "Uso: 17 pasos · 11,284 tokens nuevos · 1,069,096 de caché · 2,775 escritos · equivale a US$ 1.11 de API",
+      "2026-11-24 03:06 Render de en-044-wet-hair (sin Claude).",
+      "2026-11-24 03:11 en-044-wet-hair: listo (render sin Claude)",
+      "2026-11-24 03:11 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -697,13 +655,13 @@
       }
      },
      "estado": "ok",
-     "resumen": "Pasada del radar: la búsqueda (NWS fin de semana, tendencias de Thanksgiving) solo devolvió páginas de inviernos anteriores o índices sin fecha; nada verificabl",
-     "cuando": "2026-11-22T17:26",
-     "hace": "hace 34 h",
+     "resumen": "Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2024/2025 y titulares del 10–18/11; nada verificable de las últimas 48 h. Descartados",
+     "cuando": "2026-11-23T22:07",
+     "hace": "hace 16 h",
      "detalle": [
-      "20/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2023/2024 y titulares sin gancho explicable. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 verificable; (2) Nvidia/Anthropic IPO/Russell Brand: negocios o chisme/delito, no explicables; (3) superluna del 24/11: lejos y sin ángulo de guardar/comentar. Sin tema nuevo.",
       "22/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2024/2025 y tendencias del 13–18/11; nada verificable de las últimas 48 h. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) CMA Awards / Robert Pattinson como Bond: entretenimiento/chisme, no explicable; (3) FAA ground stop del 13/11: viejo y sin ángulo de guardar/comentar. Sin tema nuevo.",
-      "21/11 00:00 Pasada del radar: la búsqueda (NWS fin de semana, tendencias de Thanksgiving) solo devolvió páginas de inviernos anteriores o índices sin fecha; nada verificable de las últimas 48 h. Descartados: (1) clima del fin de semana: sin alerta ni fuente oficial del día; (2) Thanksgiving (26/11): sin ángulo de guardar/comentar verificable hoy; (3) superluna del 24/11: sin ángulo de guardar/comentar. Sin tema nuevo."
+      "21/11 00:00 Pasada del radar: la búsqueda (NWS fin de semana, tendencias de Thanksgiving) solo devolvió páginas de inviernos anteriores o índices sin fecha; nada verificable de las últimas 48 h. Descartados: (1) clima del fin de semana: sin alerta ni fuente oficial del día; (2) Thanksgiving (26/11): sin ángulo de guardar/comentar verificable hoy; (3) superluna del 24/11: sin ángulo de guardar/comentar. Sin tema nuevo.",
+      "23/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2024/2025 y titulares del 10–18/11; nada verificable de las últimas 48 h. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) sarampión (5.412 casos al 12/11, CDC): salud, sin ángulo de guardar/comentar y sin fuente del día; (3) elecciones/Nvidia/policiales: política, negocios o delito. Sin tema nuevo."
      ],
      "tareas": [
       "🔥 en-002-dst-farmers — Is daylight saving time for farmers? (fall back Nov 1)",
@@ -712,7 +670,7 @@
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "a57e861de35a"
+     "firma": "19e90e43fe22"
     },
     {
      "id": "chequeo",
@@ -730,17 +688,17 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-23T19:34",
-     "hace": "hace 7 h",
+     "cuando": "2026-11-24T03:11",
+     "hace": "hace 11 h",
      "detalle": [
-      "en-035-turkey-stuffing: aprobado — Todas las afirmaciones fácticas (seguridad alimentaria) están respaldadas por USDA FSIS y las cifras/unidades coinciden (165 °F en el centro",
-      "en-036-phantom-charger: aprobado — Todas las cifras de plata verificadas en fuente primaria de EE. UU. (LBNL standby.lbl.gov: 5-10% y menos de 0,5 W; EIA Energy Explained/Elec",
       "en-037-swallowed-gum: aprobado — Segunda pasada con fuentes releidas (Cleveland Clinic y KidsHealth/Nemours). Todas las afirmaciones quedan verificadas y con atribucion exac",
       "en-038-lake-effect-snow: aprobado — Todas las afirmaciones fácticas coinciden con las páginas del NWS (weather.gov/safety/winter-lake-effect-snow y weather.gov/apx/les). Las un",
       "en-039-polar-vortex: aprobado — Todas las afirmaciones, incluidas las de seguridad (frío, forecast en weather.gov, kit de emergencia del auto), están respaldadas por la pág",
       "en-040-powerball-odds: aprobado — Las cifras coinciden con la fuente primaria (Powerball.com, Prize chart: jackpot 1 en 292,201,338; cualquier premio 1 en 24.87 sobre una jug",
       "en-041-pasta-oil: aprobado — Las afirmaciones centrales (el aceite no evita que se pegue; hervor fuerte y revolver, sobre todo al inicio) estan textualmente en la pagina",
-      "en-042-frozen-pipes: aprobado — Todas las afirmaciones de seguridad quedan verificadas contra FEMA y NWS Nueva York; ninguna es falsa. La pagina weather.gov/okx/winterpns7 "
+      "en-042-frozen-pipes: aprobado — Todas las afirmaciones de seguridad quedan verificadas contra FEMA y NWS Nueva York; ninguna es falsa. La pagina weather.gov/okx/winterpns7 ",
+      "en-043-coffee-math: aprobado — Todas las cuentas son correctas y se verificaron por recalculo: 5x365=1825, 5x260=1300, 1x365=365, y 260 = 52 semanas x 5 dias. No hay datos",
+      "en-044-wet-hair: aprobado — Segunda pasada con fuentes primarias. Todas las afirmaciones de salud estan verificadas y ninguna es falsa. (1) CDC common-cold/about dice '"
      ],
      "tareas": [],
      "arreglo": null,
@@ -763,8 +721,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-11-23T19:34",
-     "hace": "hace 7 h",
+     "cuando": "2026-11-24T03:11",
+     "hace": "hace 11 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -786,14 +744,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-23 19:34.",
-     "cuando": "2026-11-23T19:34",
-     "hace": "hace 7 h",
+     "resumen": "Último video terminado: 2026-11-24 03:11.",
+     "cuando": "2026-11-24T03:11",
+     "hace": "hace 11 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "d776be2b5216"
+     "firma": "dd0c39e9408d"
     },
     {
      "id": "control",
@@ -809,18 +767,15 @@
        "cuenta": "en"
       }
      },
-     "estado": "aviso",
-     "resumen": "Apartó 2 video(s) en las últimas 48 h.",
-     "cuando": "2026-11-23T19:34",
-     "hace": "hace 7 h",
+     "estado": "ok",
+     "resumen": "13 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-24T03:11",
+     "hace": "hace 11 h",
      "detalle": [],
-     "tareas": [
-      "en-029-swim-after-eating: falta en-029-swim-after-eating.mp4",
-      "en-032-gta-13-years: falta en-032-gta-13-years.mp4"
-     ],
-     "arreglo": "Revisalo: si está bien, pasalo a listo; si no, queda apartado.",
+     "tareas": [],
+     "arreglo": null,
      "solo": false,
-     "firma": "29e3a85e9d1d"
+     "firma": "64991d1c0a1b"
     },
     {
      "id": "publicador",
@@ -836,10 +791,10 @@
        "cuenta": "en"
       }
      },
-     "estado": "ok",
-     "resumen": "Último: en-033-turkey-thaw.",
+     "estado": "falla",
+     "resumen": "No salió la publicación del turno de las 12:30 (24/11).",
      "cuando": "2026-11-23T19:35",
-     "hace": "hace 7 h",
+     "hace": "hace 18 h",
      "detalle": [
       "23/11 12:46 en-027-bleach-vinegar paquete para TikTok/YouTube enviado",
       "22/11 14:31 en-031-gta-vice-city apartado: falta en-031-gta-vice-city.mp4",
@@ -853,11 +808,11 @@
       "23/11 19:35 en-033-turkey-thaw paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: en-034-alcohol-cook-off — Does alcohol fully cook off? (USDA retention table; own; kitchen)"
+      "Próximo: en-029-swim-after-eating — Do you have to wait to swim after eating? (Red Cross; adapted from 002)"
      ],
-     "arreglo": null,
+     "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
      "solo": false,
-     "firma": "5156a57a1db5"
+     "firma": "babdef21fa1f"
     },
     {
      "id": "redes",
@@ -876,7 +831,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-23T19:35",
-     "hace": "hace 7 h",
+     "hace": "hace 18 h",
      "detalle": [
       "22/11 12:36 en-031-gta-vice-city en la bandeja de TikTok",
       "22/11 12:36 en-031-gta-vice-city paquete para TikTok/YouTube enviado",
@@ -911,7 +866,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-22T19:43",
-     "hace": "hace 31 h",
+     "hace": "hace 42 h",
      "detalle": [
       "02/11 04:22 LIMITE CLAUDE: la suscripción no tiene cuota ahora. Se reintenta en el próximo turno.",
       "02/11 04:22 Termina la respuesta de comentarios (con problemas).",
@@ -944,9 +899,9 @@
       }
      },
      "estado": "ok",
-     "resumen": "23/11: 5 seguidores",
+     "resumen": "Revisado por el técnico: Max (Métricas) estaba en aviso porque el resumen diario no corría; relancé el resumen a mano y todavía no terminó.",
      "cuando": "2026-11-23T04:25",
-     "hace": "hace 23 h",
+     "hace": "hace 34 h",
      "detalle": [
       "20/11: 5 seguidores",
       "21/11: 5 seguidores",
@@ -962,7 +917,7 @@
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "ffceafb800cb"
+     "firma": "5264890a0965"
     },
     {
      "id": "vigilante",
@@ -977,29 +932,22 @@
        "modo": "vigilar"
       }
      },
-     "estado": "ok",
-     "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-24T03:30",
+     "estado": "falla",
+     "resumen": "No salió la publicación del turno de las 12:30 (24/11).",
+     "cuando": "2026-11-24T14:30",
      "hace": "recién",
-     "detalle": [],
+     "detalle": [
+      "❗ No salió la publicación del turno de las 12:30 (24/11)."
+     ],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "3e900f50565c"
+     "firma": "bb9743ac2886"
     }
    ]
   }
  ],
  "arreglos": [
-  {
-   "id": "11010439-en-chequeo",
-   "creado": "2026-11-01T04:40",
-   "estado": "fallo",
-   "firma": null,
-   "titulo": "Claude no pudo trabajar ahora",
-   "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
-   "actualizado": "2026-11-01T04:40"
-  },
   {
    "id": "11011411-en-chequeo",
    "creado": "2026-11-01T14:11",
@@ -1223,6 +1171,22 @@
     "videos/062-pote-microondas/guion.json",
     "videos/cola.json",
     "videos/produccion.log"
+   ]
+  },
+  {
+   "id": "11232201-en-control",
+   "creado": "2026-11-23T22:03",
+   "empleado": "en/control",
+   "estado": "aplicado",
+   "auto": true,
+   "problema": "En la oficina de Nueva York (@letmeexplain.us), Ben (Control de calidad) está en \"aviso\": Apartó 2 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\nen-029-swim-after-eating: falta en-029-swim-after-eating.mp4\nen-032-gta-13-years: falta en-032-gta-13-years.mp4\n",
+   "firma": "29e3a85e9d1d",
+   "actualizado": "2026-11-23T22:03",
+   "titulo": "Dos videos en inglés apartados por un archivo que no estaba en esa corrida; los devolví a \"listo\"",
+   "resumen": "Los videos `en-029-swim-after-eating` y `en-032-gta-13-years` pasaron el chequeo de datos. Quedaron apartados porque el publicador del 22/11 no encontró el .mp4 en ese momento. A otros tres videos les pasó lo mismo ese día (`en-031`, `en-026` y `en-027`). Ya salieron publicados después de volver a \"listo\". Hice lo mismo con estos dos y los dejé en \"listo\" en la cola de inglés. No pude confirmar que los .mp4 estén en el Release \"videos\", porque no tengo permiso para listarlo. Si siguen sin estar, el publicador los va a apartar otra vez con el mismo motivo, \"falta el .mp4\".",
+   "commit": "0167e8a2c98a0b3ec0fadf4828726ce3db759b8f",
+   "archivos": [
+    "videos/en/cola.json"
    ]
   }
  ]
