@@ -1,0 +1,603 @@
+{
+ "duracion": 34.4,
+ "frases": [
+  {
+   "texto": "Dejó de llover, el cielo se abre y salís a la pileta o a la cancha.",
+   "palabras": [
+    {
+     "texto": "Dejó",
+     "inicio": 0.0,
+     "fin": 0.32
+    },
+    {
+     "texto": "de",
+     "inicio": 0.32,
+     "fin": 0.44
+    },
+    {
+     "texto": "llover,",
+     "inicio": 0.44,
+     "fin": 0.74
+    },
+    {
+     "texto": "el",
+     "inicio": 1.18,
+     "fin": 1.3
+    },
+    {
+     "texto": "cielo",
+     "inicio": 1.3,
+     "fin": 1.54
+    },
+    {
+     "texto": "se",
+     "inicio": 1.54,
+     "fin": 1.74
+    },
+    {
+     "texto": "abre",
+     "inicio": 1.74,
+     "fin": 2.08
+    },
+    {
+     "texto": "y",
+     "inicio": 2.08,
+     "fin": 2.66
+    },
+    {
+     "texto": "salís",
+     "inicio": 2.66,
+     "fin": 2.96
+    },
+    {
+     "texto": "a",
+     "inicio": 2.96,
+     "fin": 3.06
+    },
+    {
+     "texto": "la",
+     "inicio": 3.06,
+     "fin": 3.16
+    },
+    {
+     "texto": "pileta",
+     "inicio": 3.16,
+     "fin": 3.58
+    },
+    {
+     "texto": "o",
+     "inicio": 3.58,
+     "fin": 3.74
+    },
+    {
+     "texto": "a",
+     "inicio": 3.74,
+     "fin": 3.78
+    },
+    {
+     "texto": "la",
+     "inicio": 3.78,
+     "fin": 3.84
+    },
+    {
+     "texto": "cancha.",
+     "inicio": 3.84,
+     "fin": 4.24
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.24
+  },
+  {
+   "texto": "Todavía te puede caer un rayo.",
+   "palabras": [
+    {
+     "texto": "Todavía",
+     "inicio": 4.7,
+     "fin": 5.08
+    },
+    {
+     "texto": "te",
+     "inicio": 5.08,
+     "fin": 5.24
+    },
+    {
+     "texto": "puede",
+     "inicio": 5.24,
+     "fin": 5.4
+    },
+    {
+     "texto": "caer",
+     "inicio": 5.4,
+     "fin": 5.66
+    },
+    {
+     "texto": "un",
+     "inicio": 5.66,
+     "fin": 5.76
+    },
+    {
+     "texto": "rayo.",
+     "inicio": 5.76,
+     "fin": 6.08
+    }
+   ],
+   "inicio": 4.7,
+   "fin": 6.08
+  },
+  {
+   "texto": "El Servicio Meteorológico de Estados Unidos dice que un rayo puede caer a más de dieciséis kilómetros de donde llueve.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 6.46,
+     "fin": 6.68
+    },
+    {
+     "texto": "Servicio",
+     "inicio": 6.68,
+     "fin": 6.98
+    },
+    {
+     "texto": "Meteorológico",
+     "inicio": 6.98,
+     "fin": 7.64
+    },
+    {
+     "texto": "de",
+     "inicio": 7.64,
+     "fin": 7.74
+    },
+    {
+     "texto": "Estados",
+     "inicio": 7.74,
+     "fin": 7.88
+    },
+    {
+     "texto": "Unidos",
+     "inicio": 7.88,
+     "fin": 8.32
+    },
+    {
+     "texto": "dice",
+     "inicio": 8.32,
+     "fin": 8.58
+    },
+    {
+     "texto": "que",
+     "inicio": 8.58,
+     "fin": 8.78
+    },
+    {
+     "texto": "un",
+     "inicio": 8.78,
+     "fin": 8.92
+    },
+    {
+     "texto": "rayo",
+     "inicio": 8.92,
+     "fin": 9.26
+    },
+    {
+     "texto": "puede",
+     "inicio": 9.26,
+     "fin": 9.46
+    },
+    {
+     "texto": "caer",
+     "inicio": 9.46,
+     "fin": 9.9
+    },
+    {
+     "texto": "a",
+     "inicio": 9.9,
+     "fin": 10.06
+    },
+    {
+     "texto": "más",
+     "inicio": 10.06,
+     "fin": 10.2
+    },
+    {
+     "texto": "de",
+     "inicio": 10.2,
+     "fin": 10.34
+    },
+    {
+     "texto": "dieciséis",
+     "inicio": 10.34,
+     "fin": 11.0
+    },
+    {
+     "texto": "kilómetros",
+     "inicio": 11.0,
+     "fin": 11.56
+    },
+    {
+     "texto": "de",
+     "inicio": 11.56,
+     "fin": 11.72
+    },
+    {
+     "texto": "donde",
+     "inicio": 11.72,
+     "fin": 11.86
+    },
+    {
+     "texto": "llueve.",
+     "inicio": 11.86,
+     "fin": 12.3
+    }
+   ],
+   "inicio": 6.46,
+   "fin": 12.3
+  },
+  {
+   "texto": "Si todavía escuchás un trueno, estás al alcance del rayo.",
+   "palabras": [
+    {
+     "texto": "Si",
+     "inicio": 12.8,
+     "fin": 13.0
+    },
+    {
+     "texto": "todavía",
+     "inicio": 13.0,
+     "fin": 13.36
+    },
+    {
+     "texto": "escuchás",
+     "inicio": 13.36,
+     "fin": 13.74
+    },
+    {
+     "texto": "un",
+     "inicio": 13.74,
+     "fin": 13.86
+    },
+    {
+     "texto": "trueno,",
+     "inicio": 13.86,
+     "fin": 14.14
+    },
+    {
+     "texto": "estás",
+     "inicio": 14.46,
+     "fin": 14.64
+    },
+    {
+     "texto": "al",
+     "inicio": 14.64,
+     "fin": 14.86
+    },
+    {
+     "texto": "alcance",
+     "inicio": 14.86,
+     "fin": 15.18
+    },
+    {
+     "texto": "del",
+     "inicio": 15.18,
+     "fin": 15.36
+    },
+    {
+     "texto": "rayo.",
+     "inicio": 15.36,
+     "fin": 15.76
+    }
+   ],
+   "inicio": 12.8,
+   "fin": 15.76
+  },
+  {
+   "texto": "La regla es simple: esperá treinta minutos desde el último trueno.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 16.16,
+     "fin": 16.28
+    },
+    {
+     "texto": "regla",
+     "inicio": 16.28,
+     "fin": 16.54
+    },
+    {
+     "texto": "es",
+     "inicio": 16.54,
+     "fin": 16.64
+    },
+    {
+     "texto": "simple:",
+     "inicio": 16.64,
+     "fin": 16.88
+    },
+    {
+     "texto": "esperá",
+     "inicio": 17.46,
+     "fin": 17.76
+    },
+    {
+     "texto": "treinta",
+     "inicio": 17.76,
+     "fin": 18.08
+    },
+    {
+     "texto": "minutos",
+     "inicio": 18.08,
+     "fin": 18.54
+    },
+    {
+     "texto": "desde",
+     "inicio": 18.54,
+     "fin": 18.9
+    },
+    {
+     "texto": "el",
+     "inicio": 18.9,
+     "fin": 19.04
+    },
+    {
+     "texto": "último",
+     "inicio": 19.04,
+     "fin": 19.24
+    },
+    {
+     "texto": "trueno.",
+     "inicio": 19.24,
+     "fin": 19.62
+    }
+   ],
+   "inicio": 16.16,
+   "fin": 19.62
+  },
+  {
+   "texto": "Ojo: si vuelve a tronar, la cuenta arranca de cero.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 20.14,
+     "fin": 20.44
+    },
+    {
+     "texto": "si",
+     "inicio": 20.94,
+     "fin": 21.18
+    },
+    {
+     "texto": "vuelve",
+     "inicio": 21.18,
+     "fin": 21.5
+    },
+    {
+     "texto": "a",
+     "inicio": 21.5,
+     "fin": 21.6
+    },
+    {
+     "texto": "tronar,",
+     "inicio": 21.6,
+     "fin": 22.0
+    },
+    {
+     "texto": "la",
+     "inicio": 22.36,
+     "fin": 22.54
+    },
+    {
+     "texto": "cuenta",
+     "inicio": 22.54,
+     "fin": 22.84
+    },
+    {
+     "texto": "arranca",
+     "inicio": 22.84,
+     "fin": 23.32
+    },
+    {
+     "texto": "de",
+     "inicio": 23.32,
+     "fin": 23.48
+    },
+    {
+     "texto": "cero.",
+     "inicio": 23.48,
+     "fin": 23.82
+    }
+   ],
+   "inicio": 20.14,
+   "fin": 23.82
+  },
+  {
+   "texto": "Poné una alarma de media hora y recién después salí.",
+   "palabras": [
+    {
+     "texto": "Poné",
+     "inicio": 24.26,
+     "fin": 24.52
+    },
+    {
+     "texto": "una",
+     "inicio": 24.52,
+     "fin": 24.66
+    },
+    {
+     "texto": "alarma",
+     "inicio": 24.66,
+     "fin": 24.96
+    },
+    {
+     "texto": "de",
+     "inicio": 24.96,
+     "fin": 25.08
+    },
+    {
+     "texto": "media",
+     "inicio": 25.08,
+     "fin": 25.26
+    },
+    {
+     "texto": "hora",
+     "inicio": 25.26,
+     "fin": 25.6
+    },
+    {
+     "texto": "y",
+     "inicio": 25.6,
+     "fin": 25.86
+    },
+    {
+     "texto": "recién",
+     "inicio": 25.86,
+     "fin": 26.2
+    },
+    {
+     "texto": "después",
+     "inicio": 26.2,
+     "fin": 26.36
+    },
+    {
+     "texto": "salí.",
+     "inicio": 26.36,
+     "fin": 26.74
+    }
+   ],
+   "inicio": 24.26,
+   "fin": 26.74
+  },
+  {
+   "texto": "¿Cuánto esperás vos cuando para de llover? Contestá en un comentario.",
+   "palabras": [
+    {
+     "texto": "¿Cuánto",
+     "inicio": 27.14,
+     "fin": 27.4
+    },
+    {
+     "texto": "esperás",
+     "inicio": 27.4,
+     "fin": 27.7
+    },
+    {
+     "texto": "vos",
+     "inicio": 27.7,
+     "fin": 27.9
+    },
+    {
+     "texto": "cuando",
+     "inicio": 27.9,
+     "fin": 28.32
+    },
+    {
+     "texto": "para",
+     "inicio": 28.32,
+     "fin": 28.5
+    },
+    {
+     "texto": "de",
+     "inicio": 28.5,
+     "fin": 28.68
+    },
+    {
+     "texto": "llover?",
+     "inicio": 28.68,
+     "fin": 28.9
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 29.4,
+     "fin": 29.8
+    },
+    {
+     "texto": "en",
+     "inicio": 29.8,
+     "fin": 29.9
+    },
+    {
+     "texto": "un",
+     "inicio": 29.9,
+     "fin": 29.96
+    },
+    {
+     "texto": "comentario.",
+     "inicio": 29.96,
+     "fin": 30.44
+    }
+   ],
+   "inicio": 27.14,
+   "fin": 30.44
+  },
+  {
+   "texto": "Guardalo y mandáselo al que sale a la cancha apenas deja de llover.",
+   "palabras": [
+    {
+     "texto": "Guardalo",
+     "inicio": 30.86,
+     "fin": 31.34
+    },
+    {
+     "texto": "y",
+     "inicio": 31.34,
+     "fin": 31.84
+    },
+    {
+     "texto": "mandáselo",
+     "inicio": 31.84,
+     "fin": 32.36
+    },
+    {
+     "texto": "al",
+     "inicio": 32.36,
+     "fin": 32.42
+    },
+    {
+     "texto": "que",
+     "inicio": 32.42,
+     "fin": 32.54
+    },
+    {
+     "texto": "sale",
+     "inicio": 32.54,
+     "fin": 32.72
+    },
+    {
+     "texto": "a",
+     "inicio": 32.72,
+     "fin": 32.86
+    },
+    {
+     "texto": "la",
+     "inicio": 32.86,
+     "fin": 32.92
+    },
+    {
+     "texto": "cancha",
+     "inicio": 32.92,
+     "fin": 33.28
+    },
+    {
+     "texto": "apenas",
+     "inicio": 33.28,
+     "fin": 33.64
+    },
+    {
+     "texto": "deja",
+     "inicio": 33.64,
+     "fin": 33.94
+    },
+    {
+     "texto": "de",
+     "inicio": 33.94,
+     "fin": 34.06
+    },
+    {
+     "texto": "llover.",
+     "inicio": 34.06,
+     "fin": 34.3
+    }
+   ],
+   "inicio": 30.86,
+   "fin": 34.3
+  }
+ ]
+}

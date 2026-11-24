@@ -1,0 +1,54 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de seguridad están verificadas contra NWS/NOAA (weather.gov, noaa.gov/jetstream). Ninguna es falsa, dudosa ni probable; no hace falta matiz. La cifra de dieciséis kilómetros se dice como 'más de', coherente con la fuente (más de 10 millas), y el tope de 25 millas del NWS Norman no se contradice.",
+  "afirmaciones": [
+    {
+      "texto": "Todavía te puede caer un rayo (después de que dejó de llover y el cielo se abre).",
+      "fuente": "NOAA JetStream, Lightning Safety (https://www.noaa.gov/jetstream/lightning-safety): el rayo puede caer a más de 10 millas de donde llueve; NWS: la mayoría de las personas alcanzadas están en zonas sin lluvia",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El Servicio Meteorológico de Estados Unidos dice que un rayo puede caer a más de dieciséis kilómetros de donde llueve.",
+      "fuente": "NOAA JetStream, Lightning Safety (https://www.noaa.gov/jetstream/lightning-safety): 'lightning can strike more than 10 miles away from the location of rainfall'. 10 millas = 16,09 km. Atribución al NWS/NOAA correcta (JetStream es el sitio educativo del NWS/NOAA).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si todavía escuchás un trueno, estás al alcance del rayo.",
+      "fuente": "NOAA JetStream: 'if you can hear thunder, that is your warning that you are within striking distance'; NWS (https://www.weather.gov/safety/lightning-safety-overview)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La regla es simple: esperá treinta minutos desde el último trueno.",
+      "fuente": "NWS Lightning Safety (https://www.weather.gov/safety/lightning-safety-overview), NWS Wakefield y CDC: esperar 30 minutos después del último trueno/rayo antes de volver afuera",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si vuelve a tronar, la cuenta arranca de cero.",
+      "fuente": "Consecuencia directa de la regla del NWS (30 minutos desde el último trueno): un trueno nuevo pasa a ser el último",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Poné una alarma de media hora y recién después salí.",
+      "fuente": "Consejo práctico derivado de la regla NWS de 30 minutos desde el último trueno (sin afirmación fáctica nueva)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Fuentes: National Weather Service / NOAA, Lightning Safety.",
+      "fuente": "weather.gov/safety/lightning-safety-overview y noaa.gov/jetstream/lightning-safety existen y respaldan lo citado",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Dejó de llover, el cielo se abre y salís a la pileta o a la cancha. (escenario)",
+      "fuente": "Sin afirmación fáctica; es el planteo de una situación cotidiana",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

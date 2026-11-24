@@ -1,0 +1,28 @@
+{
+  "titulo": "A cold comes from a virus. What about wet hair?",
+  "serie": "cuerpo",
+  "fondo": "oscuro",
+  "receta": "el que lo hace mal / experimento real (Cardiff 2005) + pregunta de identidad familiar",
+  "pilar": "salud_simple",
+  "destinatario": "se lo manda un hijo o hija a su mama, la que lo persigue con el secador, para contarle que el resfrio viene de un virus",
+  "regla_guardable": "A cold is a virus spread by droplets and surfaces. Washing your hands helps lower your risk.",
+  "interaccion": {
+    "guardar": "Cold = virus (200+). Spread by droplets and surfaces. Wash your hands.",
+    "comentar": "Did your mom ever chase you with a hair dryer? Yes or no?"
+  },
+  "fuentes": [
+    "CDC, Common Cold (cdc.gov/common-cold/about): more than 200 respiratory viruses can cause colds; spread by droplets and contaminated surfaces",
+    "CDC, Hygiene and Respiratory Viruses Prevention (cdc.gov/respiratory-viruses/prevention/hygiene.html)",
+    "Johnson C, Eccles R. Acute cooling of the feet and the onset of common cold symptoms. Family Practice 2005;22(6):608-613 (Cardiff University): 13 of 90 chilled vs 5 of 90 controls reported a cold within 4-5 days"
+  ],
+  "frases": [
+    {"texto": "What gives you a cold is a virus.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "Your mom's wet hair rule? It's not on the CDC's list of what causes a cold.", "estilo": "Playful, a little cheeky."},
+    {"texto": "The CDC says more than two hundred viruses can cause a cold.", "estilo": "Informative, clear."},
+    {"texto": "In two thousand five, researchers at Cardiff University chilled the feet of ninety volunteers. Thirteen said they had a cold a few days later. Of ninety who weren't chilled, five.", "estilo": "Intrigued, like an experiment."},
+    {"texto": "Heads up: they chilled feet, not hair, it was a small study, and it didn't measure viruses. So it doesn't show that wet hair gives you a cold, and it doesn't settle whether chilling matters.", "estilo": "Honest caveat, calm."},
+    {"texto": "Cold viruses spread through droplets and surfaces, and the CDC says washing your hands helps lower your risk.", "estilo": "Practical, friendly."},
+    {"texto": "Did your mom ever chase you with a hair dryer? Yes or no?", "estilo": "Curious, playful."},
+    {"texto": "Send this to the friend whose mom still chases them with a hair dryer.", "estilo": "Playful and funny."}
+  ]
+}

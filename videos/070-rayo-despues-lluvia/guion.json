@@ -1,0 +1,26 @@
+{
+  "titulo": "Que pare la lluvia no quiere decir que se fue el rayo: esperá treinta minutos desde el último trueno",
+  "serie": "clima",
+  "fondo": "oscuro",
+  "receta": "Mito + zoom adentro / regla con número (la tormenta que parece terminada)",
+  "pilar": "clima_accion",
+  "interaccion": ["guardar", "comentar"],
+  "destinatario": "se lo manda alguien que está en la cancha o en la pileta bajo un cielo que se abre, o una madre a su hijo, para decirle que no salga todavía aunque ya no llueva",
+  "regla_guardable": "Si escuchás un trueno, estás al alcance del rayo. Esperá treinta minutos desde el último trueno; si truena de nuevo, la cuenta arranca otra vez.",
+  "pregunta_comentarios": "¿Cuánto esperás vos cuando para de llover?",
+  "fuentes": [
+    "National Weather Service / NOAA, Lightning Safety: quedarse adentro al menos 30 minutos después del último trueno; si oís un trueno, estás dentro del alcance del rayo",
+    "NOAA JetStream, Lightning Safety: el rayo puede caer a más de 10 millas (unos 16 km) de donde llueve; NWS Norman cita hasta 25 millas. Se dice 'más de dieciséis kilómetros', sin tope"
+  ],
+  "frases": [
+    {"texto": "Dejó de llover, el cielo se abre y salís a la pileta o a la cancha.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Todavía te puede caer un rayo.", "estilo": "Golpe seco."},
+    {"texto": "El Servicio Meteorológico de Estados Unidos dice que un rayo puede caer a más de dieciséis kilómetros de donde llueve.", "estilo": "Claro, un poco sorprendido."},
+    {"texto": "Si todavía escuchás un trueno, estás al alcance del rayo.", "estilo": "Explicativo, firme."},
+    {"texto": "La regla es simple: esperá treinta minutos desde el último trueno.", "estilo": "Directo, con autoridad."},
+    {"texto": "Ojo: si vuelve a tronar, la cuenta arranca de cero.", "estilo": "Matiz honesto, firme."},
+    {"texto": "Poné una alarma de media hora y recién después salí.", "estilo": "Práctico, cercano."},
+    {"texto": "¿Cuánto esperás vos cuando para de llover? Contestá en un comentario.", "estilo": "Cercano, invitando."},
+    {"texto": "Guardalo y mandáselo al que sale a la cancha apenas deja de llover.", "estilo": "Cómplice, con humor."}
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segunda pasada con fuentes primarias. Todas las afirmaciones de salud estan verificadas y ninguna es falsa. (1) CDC common-cold/about dice 'More than 200 respiratory viruses can cause colds' y lista las causas (rinovirus, coronavirus, parainfluenza, adenovirus, enterovirus, metapneumovirus); no menciona pelo mojado, frio ni enfriamiento, asi que 'It's not on the CDC's list of what causes a cold' es literalmente cierto, y no engana porque la frase no dice que el pelo mojado este descartado y el guion agrega el matiz del estudio de Cardiff ('doesn't settle whether chilling matters'). (2) Cardiff: Johnson C, Eccles R, Family Practice 2005;22(6):608-613, Common Cold Centre, Cardiff University; 180 adultos aleatorizados (90/90); 13/90 enfriados vs 5/90 controles con resfrio en 4-5 dias (P=0.047). Las cifras del guion y del caption coinciden con el abstract; no se usan los 29%/9% de la prensa. 'Didn't measure viruses' es correcto (midio sintomas; los autores piden mas estudios sobre la relacion con la infeccion). (3) Lavado de manos: cdc.gov/respiratory-viruses/prevention/hygiene.html dice 'Practicing good hygiene is a core prevention strategy ... to lower your risks from respiratory illnesses' y recomienda 'washing or sanitizing your hands often'; 'Handwashing with soap removes germs from your hands, making them less likely to infect your respiratory system'. Atribuir al CDC 'washing your hands helps lower your risk' es una parafrasis fiel (la pagina enmarca 'higiene' como estrategia para reducir riesgo y el lavado como parte), sin garantia de proteccion. Nota menor: PubMed no cargo en la herramienta; el abstract se confirmo via OUP y la busqueda indexada de PubMed/Cardiff ORCA.",
+  "afirmaciones": [
+    {
+      "texto": "What gives you a cold is a virus.",
+      "fuente": "CDC, Common Cold: https://www.cdc.gov/common-cold/about/index.html (los resfrios los causan virus respiratorios)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Your mom's wet hair rule? It's not on the CDC's list of what causes a cold. (caption: Wet hair? It's not on the CDC's list.)",
+      "fuente": "https://www.cdc.gov/common-cold/about/index.html: lista solo virus; no menciona pelo mojado, frio ni enfriamiento. Afirma una ausencia en la lista, no que este descartado; el matiz lo aporta la frase siguiente sobre Cardiff.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The CDC says more than two hundred viruses can cause a cold.",
+      "fuente": "https://www.cdc.gov/common-cold/about/index.html: 'More than 200 respiratory viruses can cause colds.'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "In two thousand five, researchers at Cardiff University chilled the feet of ninety volunteers. Thirteen said they had a cold a few days later. Of ninety who weren't chilled, five.",
+      "fuente": "Johnson C, Eccles R. Family Practice 2005;22(6):608-613 (PMID 16286463; https://academic.oup.com/fampra/article/22/6/608/532043): 180 adultos sanos aleatorizados a enfriamiento de pies o procedimiento control; 13/90 vs 5/90 reportaron resfrio en 4-5 dias (P=0.047). Common Cold Centre, Cardiff University.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: they chilled feet, not hair, it was a small study, and it didn't measure viruses. So it doesn't show that wet hair gives you a cold, and it doesn't settle whether chilling matters.",
+      "fuente": "Mismo abstract (OUP/PubMed): se enfriaron los pies; 180 participantes ('small' es un juicio razonable); resultado = resfrio reportado/sintomas, sin medir infeccion viral; los autores piden mas estudios sobre la relacion sintomas-infeccion. Las conclusiones del guion son cautelosas y correctas.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Cold viruses spread through droplets and surfaces",
+      "fuente": "https://www.cdc.gov/common-cold/about/index.html: 'Most respiratory viruses are spread through droplets...' y contacto con superficie contaminada y luego ojos, nariz o boca.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "the CDC says washing your hands helps lower your risk.",
+      "fuente": "https://www.cdc.gov/respiratory-viruses/prevention/hygiene.html: 'Practicing good hygiene is a core prevention strategy ... to lower your risks from respiratory illnesses'; recomienda 'washing or sanitizing your hands often'; 'Handwashing with soap removes germs from your hands, making them less likely to infect your respiratory system'. Parafrasis fiel, sin prometer proteccion total.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sources: CDC (Common Cold; Hygiene and Respiratory Viruses Prevention); Johnson and Eccles, Cardiff University, Family Practice, 2005. (caption)",
+      "fuente": "Las tres fuentes existen y respaldan lo atribuido; atribucion correcta (el lavado de manos ahora se atribuye a la pagina de higiene, no a common-cold).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Did your mom ever chase you with a hair dryer? Yes or no? / Send this to the friend whose mom still chases them with a hair dryer.",
+      "fuente": "Pregunta y llamado a la accion; no son afirmaciones facticas.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

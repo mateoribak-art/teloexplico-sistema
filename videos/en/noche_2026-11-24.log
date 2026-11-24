@@ -6,3 +6,11 @@ Uso: 18 pasos · 12,881 tokens nuevos · 795,102 de caché · 5,406 escritos · 
 2026-11-24 00:03 Render de en-043-coffee-math (sin Claude).
 2026-11-24 00:09 en-043-coffee-math: listo (render sin Claude)
 2026-11-24 00:09 Termina la producción (ok).
+2026-11-24 03:01 Arranca la producción (12 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo (en estado `render`):** `en-044-wet-hair`, adaptado de 032 (serie Body myths #6). Chequeo aprobado en el 2.º intento, voz de 43,9 s y tsc sin errores. Revisé los cuadros en una vuelta. `producir.py` lo renderiza.
+- **Primer chequeo rechazado:** dijo que "not wet hair" no tenía fuente primaria y que el lavado de manos estaba mal atribuido. Los reescribí con la versión verificada ("not on the CDC's list", CDC higiene, Cardiff 2005 con su matiz).
+- **Sin rescates:** no había videos apartados por chequeo al empezar. Tampoco hubo apartados ni incompletos en este turno.
+Uso: 17 pasos · 11,284 tokens nuevos · 1,069,096 de caché · 2,775 escritos · equivale a US$ 1.11 de API
+2026-11-24 03:06 Render de en-044-wet-hair (sin Claude).
+2026-11-24 03:11 en-044-wet-hair: listo (render sin Claude)
+2026-11-24 03:11 Termina la producción (ok).

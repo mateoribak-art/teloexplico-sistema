@@ -2614,5 +2614,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "070-rayo-despues-lluvia",
+  "tema": "Dejó de llover y salís: el rayo puede caer hasta 16 km de la lluvia; esperá 30 minutos desde el último trueno (NWS/NOAA)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-24T02:51",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-24T02:51",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-24T02:56",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-24T03:01",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

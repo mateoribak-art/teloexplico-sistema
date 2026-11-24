@@ -1,0 +1,8 @@
+2026-11-24 02:50 Arranca la producción (12 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `070-rayo-despues-lluvia`. El tema es qué hacer cuando para de llover: un rayo puede caer a más de 16 km de la lluvia, así que hay que esperar 30 minutos desde el último trueno (NWS/NOAA). El chequeo lo rechazó al primer intento y lo aprobó al segundo. Rechazó "hasta 16 km", que daba falsa tranquilidad, y lo corregí a "más de 16 km". La voz sale de 34,4 s y las escenas 3D pasan `tsc`. Quedó en estado `render`; el render y el control los hace `producir.py` al terminar el turno.
+- **Rescates:** no había ninguno. Los apartados (`005`, `038`, `042`, `044`, `051`) no quedaron por chequeo rechazado.
+- **Segundo video:** no lo hice porque la cola tenía 12 videos listos, más de los 10 que pide la regla. Tampoco corrí el radar hoy (el último fue el 23/11).
+Uso: 54 pasos · 112,150 tokens nuevos · 2,241,113 de caché · 22,563 escritos · equivale a US$ 1.15 de API
+2026-11-24 02:56 Render de 070-rayo-despues-lluvia (sin Claude).
+2026-11-24 03:01 070-rayo-despues-lluvia: listo (render sin Claude)
+2026-11-24 03:01 Termina la producción (ok).

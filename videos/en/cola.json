@@ -1477,5 +1477,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-044-wet-hair",
+  "tema": "Does going outside with wet hair give you a cold? (adapted from 032; CDC, Cardiff 2005)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-24T03:01",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-24T03:01",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-24T03:06",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-24T03:11",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]
