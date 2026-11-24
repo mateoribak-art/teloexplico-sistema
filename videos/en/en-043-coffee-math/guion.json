@@ -1,0 +1,25 @@
+{
+  "titulo": "What a daily $5 coffee really costs in a year",
+  "pilar": "plata_hogar",
+  "receta": "cuenta simple con la plata de todos los días + regla para guardar (precio diario x 365)",
+  "fondo": "oscuro",
+  "destinatario": "Se lo manda alguien que lleva la cuenta de sus gastos a su amigo que compra un café todas las mañanas.",
+  "interaccion": {
+    "guardar": "Any daily price x 365 = yearly cost. $1 a day = $365 a year. $5 a day = $1,825.",
+    "comentar": "How many coffees do you buy in a week? Give me a number."
+  },
+  "fuentes": [
+    "Aritmética simple: 5 x 365 = 1,825; 5 x 260 = 1,300; 1 x 365 = 365"
+  ],
+  "frases": [
+    {"texto": "That five-dollar coffee you grab every morning? It's not five dollars.", "estilo": "Casual, a little teasing."},
+    {"texto": "It's eighteen hundred twenty-five dollars a year.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "Five dollars, times three hundred sixty-five days. That's the math.", "estilo": "Clear, matter of fact."},
+    {"texto": "Even on weekdays only, two hundred sixty days, it's thirteen hundred dollars.", "estilo": "Explaining, steady."},
+    {"texto": "Heads up: no lecture here. If it makes your day, it's worth it.", "estilo": "Warm, honest, with the caveat."},
+    {"texto": "The trick to save: any daily price, times three sixty-five. One dollar a day is three hundred sixty-five.", "estilo": "Practical, friendly."},
+    {"texto": "Save this for the next time you say, it's just a few bucks.", "estilo": "Practical, friendly."},
+    {"texto": "So how many coffees do you buy a week? Give me a number.", "estilo": "Casual, inviting."},
+    {"texto": "Send this to the friend whose coffee order has six modifiers.", "estilo": "Playful, with humor."}
+  ]
+}

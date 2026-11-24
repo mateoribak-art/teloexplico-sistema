@@ -1,0 +1,608 @@
+{
+ "duracion": 35.81,
+ "frases": [
+  {
+   "texto": "That five-dollar coffee you grab every morning? It's not five dollars.",
+   "palabras": [
+    {
+     "texto": "That",
+     "inicio": 0.0,
+     "fin": 0.18
+    },
+    {
+     "texto": "five-dollar",
+     "inicio": 0.18,
+     "fin": 0.88
+    },
+    {
+     "texto": "coffee",
+     "inicio": 0.88,
+     "fin": 1.24
+    },
+    {
+     "texto": "you",
+     "inicio": 1.24,
+     "fin": 1.42
+    },
+    {
+     "texto": "grab",
+     "inicio": 1.42,
+     "fin": 1.6
+    },
+    {
+     "texto": "every",
+     "inicio": 1.6,
+     "fin": 1.82
+    },
+    {
+     "texto": "morning?",
+     "inicio": 1.82,
+     "fin": 2.12
+    },
+    {
+     "texto": "It's",
+     "inicio": 2.68,
+     "fin": 2.78
+    },
+    {
+     "texto": "not",
+     "inicio": 2.78,
+     "fin": 2.94
+    },
+    {
+     "texto": "five",
+     "inicio": 2.94,
+     "fin": 3.18
+    },
+    {
+     "texto": "dollars.",
+     "inicio": 3.18,
+     "fin": 3.5
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.5
+  },
+  {
+   "texto": "It's eighteen hundred twenty-five dollars a year.",
+   "palabras": [
+    {
+     "texto": "It's",
+     "inicio": 4.06,
+     "fin": 4.3
+    },
+    {
+     "texto": "eighteen",
+     "inicio": 4.3,
+     "fin": 4.84
+    },
+    {
+     "texto": "hundred",
+     "inicio": 4.84,
+     "fin": 5.16
+    },
+    {
+     "texto": "twenty-five",
+     "inicio": 5.16,
+     "fin": 5.78
+    },
+    {
+     "texto": "dollars",
+     "inicio": 5.78,
+     "fin": 6.14
+    },
+    {
+     "texto": "a",
+     "inicio": 6.14,
+     "fin": 6.3
+    },
+    {
+     "texto": "year.",
+     "inicio": 6.3,
+     "fin": 6.56
+    }
+   ],
+   "inicio": 4.06,
+   "fin": 6.56
+  },
+  {
+   "texto": "Five dollars, times three hundred sixty-five days. That's the math.",
+   "palabras": [
+    {
+     "texto": "Five",
+     "inicio": 7.02,
+     "fin": 7.2
+    },
+    {
+     "texto": "dollars,",
+     "inicio": 7.2,
+     "fin": 7.54
+    },
+    {
+     "texto": "times",
+     "inicio": 7.84,
+     "fin": 8.2
+    },
+    {
+     "texto": "three",
+     "inicio": 8.2,
+     "fin": 8.6
+    },
+    {
+     "texto": "hundred",
+     "inicio": 8.6,
+     "fin": 8.84
+    },
+    {
+     "texto": "sixty-five",
+     "inicio": 8.84,
+     "fin": 9.36
+    },
+    {
+     "texto": "days.",
+     "inicio": 9.36,
+     "fin": 9.6
+    },
+    {
+     "texto": "That's",
+     "inicio": 10.02,
+     "fin": 10.4
+    },
+    {
+     "texto": "the",
+     "inicio": 10.4,
+     "fin": 10.5
+    },
+    {
+     "texto": "math.",
+     "inicio": 10.5,
+     "fin": 10.68
+    }
+   ],
+   "inicio": 7.02,
+   "fin": 10.68
+  },
+  {
+   "texto": "Even on weekdays only, two hundred sixty days, it's thirteen hundred dollars.",
+   "palabras": [
+    {
+     "texto": "Even",
+     "inicio": 11.08,
+     "fin": 11.32
+    },
+    {
+     "texto": "on",
+     "inicio": 11.32,
+     "fin": 11.46
+    },
+    {
+     "texto": "weekdays",
+     "inicio": 11.46,
+     "fin": 11.88
+    },
+    {
+     "texto": "only,",
+     "inicio": 11.88,
+     "fin": 12.18
+    },
+    {
+     "texto": "two",
+     "inicio": 12.54,
+     "fin": 12.66
+    },
+    {
+     "texto": "hundred",
+     "inicio": 12.66,
+     "fin": 12.88
+    },
+    {
+     "texto": "sixty",
+     "inicio": 12.88,
+     "fin": 13.16
+    },
+    {
+     "texto": "days,",
+     "inicio": 13.16,
+     "fin": 13.54
+    },
+    {
+     "texto": "it's",
+     "inicio": 14.08,
+     "fin": 14.2
+    },
+    {
+     "texto": "thirteen",
+     "inicio": 14.2,
+     "fin": 14.56
+    },
+    {
+     "texto": "hundred",
+     "inicio": 14.56,
+     "fin": 14.96
+    },
+    {
+     "texto": "dollars.",
+     "inicio": 14.96,
+     "fin": 15.38
+    }
+   ],
+   "inicio": 11.08,
+   "fin": 15.38
+  },
+  {
+   "texto": "Heads up: no lecture here. If it makes your day, it's worth it.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 15.92,
+     "fin": 16.08
+    },
+    {
+     "texto": "up:",
+     "inicio": 16.08,
+     "fin": 16.24
+    },
+    {
+     "texto": "no",
+     "inicio": 16.74,
+     "fin": 16.86
+    },
+    {
+     "texto": "lecture",
+     "inicio": 16.86,
+     "fin": 17.14
+    },
+    {
+     "texto": "here.",
+     "inicio": 17.14,
+     "fin": 17.38
+    },
+    {
+     "texto": "If",
+     "inicio": 17.88,
+     "fin": 18.0
+    },
+    {
+     "texto": "it",
+     "inicio": 18.0,
+     "fin": 18.1
+    },
+    {
+     "texto": "makes",
+     "inicio": 18.1,
+     "fin": 18.26
+    },
+    {
+     "texto": "your",
+     "inicio": 18.26,
+     "fin": 18.42
+    },
+    {
+     "texto": "day,",
+     "inicio": 18.42,
+     "fin": 18.6
+    },
+    {
+     "texto": "it's",
+     "inicio": 19.08,
+     "fin": 19.3
+    },
+    {
+     "texto": "worth",
+     "inicio": 19.3,
+     "fin": 19.44
+    },
+    {
+     "texto": "it.",
+     "inicio": 19.44,
+     "fin": 19.66
+    }
+   ],
+   "inicio": 15.92,
+   "fin": 19.66
+  },
+  {
+   "texto": "The trick to save: any daily price, times three sixty-five. One dollar a day is three hundred sixty-five.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 19.98,
+     "fin": 20.1
+    },
+    {
+     "texto": "trick",
+     "inicio": 20.1,
+     "fin": 20.32
+    },
+    {
+     "texto": "to",
+     "inicio": 20.32,
+     "fin": 20.42
+    },
+    {
+     "texto": "save:",
+     "inicio": 20.42,
+     "fin": 20.72
+    },
+    {
+     "texto": "any",
+     "inicio": 21.3,
+     "fin": 21.54
+    },
+    {
+     "texto": "daily",
+     "inicio": 21.54,
+     "fin": 21.78
+    },
+    {
+     "texto": "price,",
+     "inicio": 21.78,
+     "fin": 22.24
+    },
+    {
+     "texto": "times",
+     "inicio": 22.62,
+     "fin": 22.88
+    },
+    {
+     "texto": "three",
+     "inicio": 22.88,
+     "fin": 23.2
+    },
+    {
+     "texto": "sixty-five.",
+     "inicio": 23.2,
+     "fin": 23.82
+    },
+    {
+     "texto": "One",
+     "inicio": 24.34,
+     "fin": 24.54
+    },
+    {
+     "texto": "dollar",
+     "inicio": 24.54,
+     "fin": 24.78
+    },
+    {
+     "texto": "a",
+     "inicio": 24.78,
+     "fin": 24.98
+    },
+    {
+     "texto": "day",
+     "inicio": 24.98,
+     "fin": 25.12
+    },
+    {
+     "texto": "is",
+     "inicio": 25.12,
+     "fin": 25.42
+    },
+    {
+     "texto": "three",
+     "inicio": 25.42,
+     "fin": 25.8
+    },
+    {
+     "texto": "hundred",
+     "inicio": 25.8,
+     "fin": 26.2
+    },
+    {
+     "texto": "sixty-five.",
+     "inicio": 26.2,
+     "fin": 26.8
+    }
+   ],
+   "inicio": 19.98,
+   "fin": 26.8
+  },
+  {
+   "texto": "Save this for the next time you say, it's just a few bucks.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 27.16,
+     "fin": 27.48
+    },
+    {
+     "texto": "this",
+     "inicio": 27.48,
+     "fin": 27.64
+    },
+    {
+     "texto": "for",
+     "inicio": 27.64,
+     "fin": 27.78
+    },
+    {
+     "texto": "the",
+     "inicio": 27.78,
+     "fin": 27.88
+    },
+    {
+     "texto": "next",
+     "inicio": 27.88,
+     "fin": 28.02
+    },
+    {
+     "texto": "time",
+     "inicio": 28.02,
+     "fin": 28.2
+    },
+    {
+     "texto": "you",
+     "inicio": 28.2,
+     "fin": 28.34
+    },
+    {
+     "texto": "say,",
+     "inicio": 28.34,
+     "fin": 28.5
+    },
+    {
+     "texto": "it's",
+     "inicio": 28.64,
+     "fin": 28.9
+    },
+    {
+     "texto": "just",
+     "inicio": 28.9,
+     "fin": 29.06
+    },
+    {
+     "texto": "a",
+     "inicio": 29.06,
+     "fin": 29.18
+    },
+    {
+     "texto": "few",
+     "inicio": 29.18,
+     "fin": 29.3
+    },
+    {
+     "texto": "bucks.",
+     "inicio": 29.3,
+     "fin": 29.54
+    }
+   ],
+   "inicio": 27.16,
+   "fin": 29.54
+  },
+  {
+   "texto": "So how many coffees do you buy a week? Give me a number.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 30.14,
+     "fin": 30.28
+    },
+    {
+     "texto": "how",
+     "inicio": 30.28,
+     "fin": 30.6
+    },
+    {
+     "texto": "many",
+     "inicio": 30.6,
+     "fin": 30.74
+    },
+    {
+     "texto": "coffees",
+     "inicio": 30.74,
+     "fin": 31.16
+    },
+    {
+     "texto": "do",
+     "inicio": 31.16,
+     "fin": 31.3
+    },
+    {
+     "texto": "you",
+     "inicio": 31.3,
+     "fin": 31.4
+    },
+    {
+     "texto": "buy",
+     "inicio": 31.4,
+     "fin": 31.58
+    },
+    {
+     "texto": "a",
+     "inicio": 31.58,
+     "fin": 31.7
+    },
+    {
+     "texto": "week?",
+     "inicio": 31.7,
+     "fin": 31.86
+    },
+    {
+     "texto": "Give",
+     "inicio": 32.28,
+     "fin": 32.28
+    },
+    {
+     "texto": "me",
+     "inicio": 32.28,
+     "fin": 32.38
+    },
+    {
+     "texto": "a",
+     "inicio": 32.38,
+     "fin": 32.42
+    },
+    {
+     "texto": "number.",
+     "inicio": 32.42,
+     "fin": 32.6
+    }
+   ],
+   "inicio": 30.14,
+   "fin": 32.6
+  },
+  {
+   "texto": "Send this to the friend whose coffee order has six modifiers.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 33.1,
+     "fin": 33.32
+    },
+    {
+     "texto": "this",
+     "inicio": 33.32,
+     "fin": 33.46
+    },
+    {
+     "texto": "to",
+     "inicio": 33.46,
+     "fin": 33.6
+    },
+    {
+     "texto": "the",
+     "inicio": 33.6,
+     "fin": 33.7
+    },
+    {
+     "texto": "friend",
+     "inicio": 33.7,
+     "fin": 33.86
+    },
+    {
+     "texto": "whose",
+     "inicio": 33.86,
+     "fin": 34.02
+    },
+    {
+     "texto": "coffee",
+     "inicio": 34.02,
+     "fin": 34.32
+    },
+    {
+     "texto": "order",
+     "inicio": 34.32,
+     "fin": 34.58
+    },
+    {
+     "texto": "has",
+     "inicio": 34.58,
+     "fin": 34.78
+    },
+    {
+     "texto": "six",
+     "inicio": 34.78,
+     "fin": 35.12
+    },
+    {
+     "texto": "modifiers.",
+     "inicio": 35.12,
+     "fin": 35.62
+    }
+   ],
+   "inicio": 33.1,
+   "fin": 35.62
+  }
+ ]
+}

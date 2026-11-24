@@ -1,0 +1,8 @@
+2026-11-24 00:00 Arranca la producción (11 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `en-043-coffee-math` (cuánto suma un café de 5 dólares por día en un año; serie Everyday math #4). El chequeo lo aprobó en el primer intento, porque es pura aritmética. La voz dura 35,8 s, `tsc` da OK y los cuadros están revisados. Quedó en estado `render` y lo renderiza `producir.py`.
+- **Sin rescates:** no había videos apartados por chequeo. `en-042` ya figuraba como listo.
+- **Pendiente:** no corrí el radar en este turno. La última pasada es del 23/11 y no encontró tema.
+Uso: 18 pasos · 12,881 tokens nuevos · 795,102 de caché · 5,406 escritos · equivale a US$ 0.63 de API
+2026-11-24 00:03 Render de en-043-coffee-math (sin Claude).
+2026-11-24 00:09 en-043-coffee-math: listo (render sin Claude)
+2026-11-24 00:09 Termina la producción (ok).

@@ -1450,5 +1450,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-043-coffee-math",
+  "tema": "How much does a daily five dollar coffee add up to in a year",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-24T00:00",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-24T00:00",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-24T00:03",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-24T00:09",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

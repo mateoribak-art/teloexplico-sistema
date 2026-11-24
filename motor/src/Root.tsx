@@ -90,7 +90,8 @@ import { DURACION as DUR_EN008, FPS as FPS_EN008, WashChickenEn008, PortadaEn008
 import { DURACION as DUR_EN009, FPS as FPS_EN009, CeilingFanEn009, PortadaEn009 } from "./videos/en-009-ceiling-fan/Video";
 import { DURACION as DUR_EN010, FPS as FPS_EN010, ThermostatNightEn010, PortadaEn010 } from "./videos/en-010-thermostat-night/Video";
 import { DURACION as DUR_EN033, FPS as FPS_EN033, TurkeyThawEn033, PortadaEn033 } from "./videos/en-033-turkey-thaw/Video";
-import { DURACION as DUR_EN041, FPS as FPS_EN041, PastaOilEn041, PortadaEn041 } from "./videos/en-041-pasta-oil/Video";
+import { DURACION as DUR_EN043, FPS as FPS_EN043, CoffeeMathEn043, PortadaEn043 } from "./videos/en-043-coffee-math/Video";
+import { DURACION as DUR_EN041,FPS as FPS_EN041, PastaOilEn041, PortadaEn041 } from "./videos/en-041-pasta-oil/Video";
 import { DURACION as DUR_EN042, FPS as FPS_EN042, FrozenPipesEn042, PortadaEn042 } from "./videos/en-042-frozen-pipes/Video";
 import { DURACION as DUR_EN034, FPS as FPS_EN034, AlcoholEn034, PortadaEn034 } from "./videos/en-034-alcohol-cook-off/Video";
 import { DURACION as DUR_EN035, FPS as FPS_EN035, StuffingEn035, PortadaEn035 } from "./videos/en-035-turkey-stuffing/Video";
@@ -275,6 +276,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-041-pasta-oil" component={PortadaEn041} width={ANCHO} height={ALTO} />
         <Composition id="hen-042-frozen-pipes" component={FrozenPipesEn042} durationInFrames={DUR_EN042} fps={FPS_EN042} width={ANCHO} height={ALTO} />
         <Still id="pen-042-frozen-pipes" component={PortadaEn042} width={ANCHO} height={ALTO} />
+        <Composition id="hen-043-coffee-math" component={CoffeeMathEn043} durationInFrames={DUR_EN043} fps={FPS_EN043} width={ANCHO} height={ALTO} />
+        <Still id="pen-043-coffee-math" component={PortadaEn043} width={ANCHO} height={ALTO} />
         <Composition id="hen-012-thunder-count" component={ThunderCountEn012} durationInFrames={DUR_EN012} fps={FPS_EN012} width={ANCHO} height={ALTO} />
         <Still id="pen-012-thunder-count" component={PortadaEn012} width={ANCHO} height={ALTO} />
         <Composition id="hen-013-searing-juices" component={SearingJuicesEn013} durationInFrames={DUR_EN013} fps={FPS_EN013} width={ANCHO} height={ALTO} />

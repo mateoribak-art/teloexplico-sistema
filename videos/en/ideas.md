@@ -63,7 +63,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 
 ## Temas de EE. UU. — serie: mate (Everyday math)
 - [usada → en-040-powerball-odds] What are the real odds of winning the Powerball? (plata: solo verificado; nada de recomendar jugar)
-- [ ] How much does a daily $5 coffee add up to in a year? (cuenta simple, sin consejo financiero)
+- [usada → en-043-coffee-math] How much does a daily $5 coffee add up to in a year? (cuenta simple, sin consejo financiero)
 - [usada → en-021-other-line] Why the line next to you always seems faster (math of queues)
 
 ## Temas de EE. UU. — serie: ciencia (Everyday science)

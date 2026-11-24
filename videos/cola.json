@@ -2202,7 +2202,7 @@
  {
   "slug": "057-ruta-40-de-punta-a-punta",
   "tema": "Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)",
-  "estado": "produccion",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -2233,13 +2233,23 @@
     "estado": "produccion",
     "cuando": "2026-11-23T22:02",
     "motivo": "rehacer: el mp4 nunca llegó al Release; falta voz y render"
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-23T23:42",
+    "motivo": "escenas 3D listas, voz generada"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-23T23:56",
+    "motivo": "render sin Claude"
    }
   ]
  },
  {
   "slug": "058-agua-del-mate",
   "tema": "¿El agua del mate tiene que hervir? No: 75 a 80 grados (INYM); hervida quema la yerba",
-  "estado": "produccion",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -2270,6 +2280,16 @@
     "estado": "produccion",
     "cuando": "2026-11-23T22:02",
     "motivo": "rehacer: el mp4 nunca llegó al Release; falta voz y render"
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-23T23:42",
+    "motivo": "escenas 3D listas, voz generada"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-24T00:00",
+    "motivo": "render sin Claude"
    }
   ]
  },
@@ -2561,7 +2581,7 @@
  {
   "slug": "069-chicle-siete-anios",
   "tema": "¿Tragarte un chicle tarda siete años en salir? No: unas 40 horas (Cleveland Clinic, KidsHealth)",
-  "estado": "render",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -2587,6 +2607,11 @@
     "estado": "render",
     "cuando": "2026-11-23T22:01",
     "motivo": "reintento auto: apartado por render/control; se renderiza y controla de nuevo"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-23T23:41",
+    "motivo": "render sin Claude"
    }
   ]
  }

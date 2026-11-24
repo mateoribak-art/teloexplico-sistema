@@ -19,3 +19,17 @@ Uso: 9 pasos · 4,716 tokens nuevos · 770,044 de caché · 1,954 escritos · eq
 [31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/cli/dist/render.js:166:5)[39m
 [31m    at async cli (/)
 2026-11-23 18:39 Termina la producción (ok).
+2026-11-23 23:37 Arranca la producción (9 listos en la cola, meta 10).
+2026-11-23 23:37 Render de 069-chicle-siete-anios (sin Claude).
+2026-11-23 23:41 069-chicle-siete-anios: listo (render sin Claude)
+Este turno no produje ningún video nuevo. Dejé a medio camino a dos que estaban trabados en `produccion`.
+
+- **Listos para el render nocturno (estado `render`):** `057-ruta-40-de-punta-a-punta` y `058-agua-del-mate`. Los dos ya tenían el chequeo aprobado y las escenas hechas, y les faltaba la voz. La generé (31,0 s y 36,9 s) y `tlx tsc` pasa sin errores.
+- **Sin revisión de cuadros:** no revisé los cuadros de ninguno de los dos, porque el bundle de Remotion falla por `en-042-frozen-pipes`, que no tiene voz local. Eso lo marqué en `produccion.log`.
+- **Nada nuevo ni rescates:** la cola ya tenía 10 videos listos (060 a 069), así que no hice un segundo video. Tampoco hubo apartados por chequeo rechazado que rescatar.
+Uso: 21 pasos · 30,817 tokens nuevos · 463,776 de caché · 2,989 escritos · equivale a US$ 0.20 de API
+2026-11-23 23:42 Render de 057-ruta-40-de-punta-a-punta (sin Claude).
+2026-11-23 23:56 057-ruta-40-de-punta-a-punta: listo (render sin Claude)
+2026-11-23 23:56 Render de 058-agua-del-mate (sin Claude).
+2026-11-24 00:00 058-agua-del-mate: listo (render sin Claude)
+2026-11-24 00:00 Termina la producción (ok).

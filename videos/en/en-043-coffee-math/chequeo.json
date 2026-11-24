@@ -1,0 +1,66 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las cuentas son correctas y se verificaron por recalculo: 5x365=1825, 5x260=1300, 1x365=365, y 260 = 52 semanas x 5 dias. No hay datos externos (precios, estadisticas, estudios) que requieran fuente. Ninguna afirmacion es falsa. No hay consejo financiero personal: el guion dice explicitamente 'no lecture' y deja la decision al espectador. Notas menores no bloqueantes: (1) un anio tiene 365 dias (366 bisiesto) y entre 260 y 261 dias de semana, por lo que 260 es la aproximacion estandar 52x5; (2) el calculo supone precio fijo de $5 sin propina ni impuestos y sin feriados, lo cual es implicito en la premisa del ejemplo. Los hashtags (#mythbusting, #funfacts) son etiquetas de alcance, no afirmaciones.",
+  "afirmaciones": [
+    {
+      "texto": "That five-dollar coffee you grab every morning? It's not five dollars. (cuesta mas que 5 dolares al sumarlo en el anio)",
+      "fuente": "aritmetica / recurso retorico: el costo acumulado excede el precio unitario",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "It's eighteen hundred twenty-five dollars a year. ($5 x 365 = $1,825)",
+      "fuente": "aritmetica: 5 x 365 = 1825 (5x300=1500 + 5x65=325)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Five dollars, times three hundred sixty-five days. That's the math.",
+      "fuente": "aritmetica: un anio comun = 365 dias (en bisiesto serian 366; irrelevante para la premisa 'todos los dias')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Even on weekdays only, two hundred sixty days, it's thirteen hundred dollars. ($5 x 260 = $1,300)",
+      "fuente": "aritmetica: 52 semanas x 5 dias = 260; 5 x 260 = 1300. Nota: 365 = 52 semanas + 1 dia, asi que los dias de semana reales son 260 o 261 segun el anio; 260 es la convencion estandar y el guion no promete un conteo exacto de calendario",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: no lecture here. If it makes your day, it's worth it.",
+      "fuente": "opinion/encuadre editorial explicito; no es afirmacion factica ni consejo financiero personal (no dice que dejes de comprar ni que ahorres una suma)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Any daily price x 365 = yearly cost. One dollar a day is three hundred sixty-five.",
+      "fuente": "aritmetica: 1 x 365 = 365; la regla es general para cualquier gasto diario de monto fijo",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "$5 a day = $1,825 (frase de guardar en interaccion.guardar)",
+      "fuente": "aritmetica: 5 x 365 = 1825",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "That '$5 coffee' is really $1,825 a year (caption, primera linea)",
+      "fuente": "aritmetica: 5 x 365 = 1825; 'really' esta cubierto por la premisa de compra diaria",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Only on weekdays (260 days)? $5 x 260 = $1,300. (caption)",
+      "fuente": "aritmetica: 52 x 5 = 260; 5 x 260 = 1300",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Save this for the next time you say, it's just a few bucks. / Send this to the friend whose coffee order has six modifiers. / How many coffees do you buy a week? Give me a number.",
+      "fuente": "llamados a la accion y humor; sin contenido factico verificable ('six modifiers' es hiperbole jocosa, no estadistica)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}
