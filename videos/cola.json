@@ -2202,7 +2202,7 @@
  {
   "slug": "057-ruta-40-de-punta-a-punta",
   "tema": "Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)",
-  "estado": "apartado",
+  "estado": "produccion",
   "historial": [
    {
     "estado": "idea",
@@ -2228,13 +2228,18 @@
     "estado": "apartado",
     "cuando": "2026-11-22T14:31",
     "motivo": "falta 057-ruta-40-de-punta-a-punta.mp4"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-23T22:02",
+    "motivo": "rehacer: el mp4 nunca llegó al Release; falta voz y render"
    }
   ]
  },
  {
   "slug": "058-agua-del-mate",
   "tema": "¿El agua del mate tiene que hervir? No: 75 a 80 grados (INYM); hervida quema la yerba",
-  "estado": "apartado",
+  "estado": "produccion",
   "historial": [
    {
     "estado": "idea",
@@ -2260,6 +2265,11 @@
     "estado": "apartado",
     "cuando": "2026-11-22T14:31",
     "motivo": "falta 058-agua-del-mate.mp4"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-23T22:02",
+    "motivo": "rehacer: el mp4 nunca llegó al Release; falta voz y render"
    }
   ]
  },
