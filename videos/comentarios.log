@@ -174,3 +174,11 @@ Respondí 5 · salteé 2 · alerté 0.
 Los 7 comentarios eran del video 059 (pibe, chango o gurí). Respondí los que confirman el guion o suman un dato (Santiago del Estero con "chango", gurí en Entre Ríos, la mención de Río Grande do Sul y "crío" en Córdoba, y el "Mita'i" de Formosa y Paraguay). Salteé las dos palabras sueltas, "Wachin" y "Piscui", porque no tienen pregunta ni dato claro y no sé con seguridad qué significan. Dejé el resumen en `videos/comentarios.log`.
 Uso: 15 pasos · 23,056 tokens nuevos · 140,309 de caché · 4,186 escritos · equivale a US$ 0.01 de API
 2026-11-24 00:27 Termina la respuesta de comentarios (ok).
+2026-11-24 07:43 Hay 1 comentarios nuevos: arranca la respuesta.
+2026-11-24 Respondí 0 · salteé 0 · alerté 1. (059-pibe-chango-guri: javier_aquino_52 dice que gurí es palabra charrúa, no guaraní como dice el guion y Billiken. Alertado a Mateo, no respondido en público.)
+2026-11-24 Termina la respuesta de comentarios (ok).
+Respondí 0, salteé 0, alerté 1.
+
+Hubo un solo comentario pendiente, de `javier_aquino_52` en el video 059 (pibe, chango o gurí). Dice que "gurí" es palabra charrúa y no guaraní. Eso contradice el guion, que cita a Billiken y al diccionario de la RAE. Como cuestiona un dato, le mandé la alerta a Mateo con `tlx comentarios alerta` y no respondí en público. Conviene revisar la fuente antes de contestar. La corrida quedó registrada en `videos/comentarios.log`.
+Uso: 9 pasos · 20,424 tokens nuevos · 137,273 de caché · 1,777 escritos · equivale a US$ 0.01 de API
+2026-11-24 07:43 Termina la respuesta de comentarios (ok).

@@ -484,5 +484,11 @@
   "texto": "Palabra suelta sin pregunta ni dato claro; no se sabe qué quiere decir",
   "respuesta": "",
   "cuando": "2026-11-24T00:27"
+ },
+ "18117558992627906": {
+  "estado": "alerta",
+  "texto": "javier_aquino_52: Gurí es en charrua, por eso se usa en Entrerrios, Uruguay y partes dd Río Grande do sur — Contradice el guion, que dice que gurí viene del guaraní según Billiken. Revisar la fuente antes de responder.",
+  "respuesta": "",
+  "cuando": "2026-11-24T07:43"
  }
 }
