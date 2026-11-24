@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T22:03",
+ "actualizado": "2026-11-23T22:07",
  "oficinas": [
   {
    "clave": "es",
@@ -44,6 +44,27 @@
    ],
    "linea": [
     {
+     "slug": "057-ruta-40-de-punta-a-punta",
+     "tema": "Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)",
+     "estado": "produccion",
+     "cuando": "2026-11-23T22:02",
+     "motivo": "rehacer: el mp4 nunca llegó al Release; falta voz y render"
+    },
+    {
+     "slug": "058-agua-del-mate",
+     "tema": "¿El agua del mate tiene que hervir? No: 75 a 80 grados (INYM); hervida quema la yerba",
+     "estado": "produccion",
+     "cuando": "2026-11-23T22:02",
+     "motivo": "rehacer: el mp4 nunca llegó al Release; falta voz y render"
+    },
+    {
+     "slug": "069-chicle-siete-anios",
+     "tema": "¿Tragarte un chicle tarda siete años en salir? No: unas 40 horas (Cleveland Clinic, KidsHealth)",
+     "estado": "render",
+     "cuando": "2026-11-23T22:01",
+     "motivo": "reintento auto: apartado por render/control; se renderiza y controla de nuevo"
+    },
+    {
      "slug": "060-celular-carga-noche",
      "tema": "¿Dejar el celular cargando toda la noche lo arruina? Apple: no se sobrecarga; carga optimizada y límite del 80 %",
      "estado": "listo",
@@ -70,27 +91,6 @@
      "estado": "listo",
      "cuando": "2026-11-21T18:51",
      "motivo": "render sin Claude"
-    },
-    {
-     "slug": "057-ruta-40-de-punta-a-punta",
-     "tema": "Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)",
-     "estado": "apartado",
-     "cuando": "2026-11-22T14:31",
-     "motivo": "falta 057-ruta-40-de-punta-a-punta.mp4"
-    },
-    {
-     "slug": "058-agua-del-mate",
-     "tema": "¿El agua del mate tiene que hervir? No: 75 a 80 grados (INYM); hervida quema la yerba",
-     "estado": "apartado",
-     "cuando": "2026-11-22T14:31",
-     "motivo": "falta 058-agua-del-mate.mp4"
-    },
-    {
-     "slug": "069-chicle-siete-anios",
-     "tema": "¿Tragarte un chicle tarda siete años en salir? No: unas 40 horas (Cleveland Clinic, KidsHealth)",
-     "estado": "apartado",
-     "cuando": "2026-11-23T18:39",
-     "motivo": "render/control: js:180:53)\u001b[39m\n\u001b[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/cli/dist/render"
     },
     {
      "slug": "056-gta-trece-anios",
@@ -139,7 +139,9 @@
       "\u001b[31m    at async cli (/)",
       "2026-11-23 18:39 Termina la producción (ok)."
      ],
-     "tareas": [],
+     "tareas": [
+      "069-chicle-siete-anios — ¿Tragarte un chicle tarda siete años en salir? No: unas 40 horas (Cleveland Clinic, KidsHealth)"
+     ],
      "arreglo": null,
      "solo": false,
      "firma": "5e5a54942854"
@@ -189,13 +191,13 @@
       }
      },
      "estado": "ok",
-     "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada fechado de hoy (lo más reciente es del 12-16 nov). SIN tema nuevo verificable. Descartados: (",
-     "cuando": "2026-11-22T17:26",
-     "hace": "hace 28 h",
+     "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (lo más reciente es del 16-nov; el resto mezcla años). SIN tema nu",
+     "cuando": "2026-11-23T22:07",
+     "hace": "recién",
      "detalle": [
-      "21/11 00:00 | Revisión radar (turno nube). Una búsqueda web (SMN fin de semana largo): solo resultados de otros años, nada verificable fechado de hoy. SIN tema nuevo; sigue la cola normal.",
       "21/11 00:00 | Revisión radar (segunda pasada). Dos búsquedas web (alertas SMN y tendencias): lo más reciente es del 16-nov. SIN tema nuevo verificable. Descartados: (a) alerta naranja/amarilla por lluvias y tormentas en 12 provincias (Perfil 16-nov, no de hoy; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) superluna 24-nov -> todavía no se vive, reevaluar el 23-24; (c) Rosalía/Lollapalooza/fútbol/política -> espectáculos o política, no encajan. Sigue la cola normal.",
-      "22/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada fechado de hoy (lo más reciente es del 12-16 nov). SIN tema nuevo verificable. Descartados: (a) alertas por tormentas/granizo en 15 provincias (Meteored, sin fecha verificable; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) superluna 24-nov -> todavía no se vive, reevaluar el 23-24; (c) dólar, consumo, política, IA -> economía/política, no encajan. Sigue la cola normal."
+      "22/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada fechado de hoy (lo más reciente es del 12-16 nov). SIN tema nuevo verificable. Descartados: (a) alertas por tormentas/granizo en 15 provincias (Meteored, sin fecha verificable; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) superluna 24-nov -> todavía no se vive, reevaluar el 23-24; (c) dólar, consumo, política, IA -> economía/política, no encajan. Sigue la cola normal.",
+      "23/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (lo más reciente es del 16-nov; el resto mezcla años). SIN tema nuevo. Descartados: (a) calor del norte/viento norte y posibles tormentas del último finde de noviembre (Meteored, fechas poco claras; calor/tormenta/granizo ya cubiertos 019/048/049/005/024/018); (b) superluna 24-nov -> YA en cola (068-superluna-no-tan-grande, listo); (c) Día de la Soberanía/feriado -> ya hecho (053). Sigue la cola normal."
      ],
      "tareas": [
       "🔥 004-olor-a-lluvia — ¿Por qué la tierra huele así cuando llueve?",
@@ -210,7 +212,7 @@
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "fc5027e7a2e1"
+     "firma": "ea889493e933"
     },
     {
      "id": "chequeo",
@@ -283,17 +285,17 @@
        "cuenta": "es"
       }
      },
-     "estado": "falla",
-     "resumen": "Falló el render de 069-chicle-siete-anios.",
+     "estado": "trabajando",
+     "resumen": "1 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
      "cuando": "2026-11-23T19:32",
      "hace": "hace 2 h",
      "detalle": [],
      "tareas": [
-      "069-chicle-siete-anios: render/control: js:180:53)\u001b[39m\n\u001b[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/motor/node_modules/@remotion/cli/dist/render.js:166:5)\u001b[39m\n\u001b[31m    at async cli (/"
+      "069-chicle-siete-anios"
      ],
-     "arreglo": "Relanzá la producción: los videos en estado render se vuelven a renderizar solos.",
+     "arreglo": null,
      "solo": false,
-     "firma": "0bb0cd693622"
+     "firma": "26b16992f9f3"
     },
     {
      "id": "control",
@@ -309,18 +311,15 @@
        "cuenta": "es"
       }
      },
-     "estado": "aviso",
-     "resumen": "Apartó 2 video(s) en las últimas 48 h.",
+     "estado": "ok",
+     "resumen": "9 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-23T19:32",
      "hace": "hace 2 h",
      "detalle": [],
-     "tareas": [
-      "057-ruta-40-de-punta-a-punta: falta 057-ruta-40-de-punta-a-punta.mp4",
-      "058-agua-del-mate: falta 058-agua-del-mate.mp4"
-     ],
-     "arreglo": "Revisalo: si está bien, pasalo a listo; si no, queda apartado.",
+     "tareas": [],
+     "arreglo": null,
      "solo": false,
-     "firma": "09edd90dcb53"
+     "firma": "91a3e95b574b"
     },
     {
      "id": "publicador",
@@ -512,17 +511,15 @@
        "modo": "vigilar"
       }
      },
-     "estado": "aviso",
-     "resumen": "Video apartado: 069-chicle-siete-anios — render/control: js:180:53)\u001b[39m\n\u001b[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/moto",
-     "cuando": "2026-11-23T22:03",
+     "estado": "ok",
+     "resumen": "Todo en orden ✓",
+     "cuando": "2026-11-23T22:07",
      "hace": "recién",
-     "detalle": [
-      "⚠️ Video apartado: 069-chicle-siete-anios — render/control: js:180:53)\u001b[39m\n\u001b[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/moto"
-     ],
+     "detalle": [],
      "tareas": [],
      "arreglo": null,
-     "solo": true,
-     "firma": "15f79ea2c866"
+     "solo": false,
+     "firma": "cf3a22f5d39c"
     },
     {
      "id": "planb",
@@ -683,13 +680,13 @@
       }
      },
      "estado": "ok",
-     "resumen": "Pasada del radar: la búsqueda (NWS fin de semana, tendencias de Thanksgiving) solo devolvió páginas de inviernos anteriores o índices sin fecha; nada verificabl",
-     "cuando": "2026-11-22T17:26",
-     "hace": "hace 28 h",
+     "resumen": "Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2024/2025 y titulares del 10–18/11; nada verificable de las últimas 48 h. Descartados",
+     "cuando": "2026-11-23T22:07",
+     "hace": "recién",
      "detalle": [
-      "20/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2023/2024 y titulares sin gancho explicable. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 verificable; (2) Nvidia/Anthropic IPO/Russell Brand: negocios o chisme/delito, no explicables; (3) superluna del 24/11: lejos y sin ángulo de guardar/comentar. Sin tema nuevo.",
       "22/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2024/2025 y tendencias del 13–18/11; nada verificable de las últimas 48 h. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) CMA Awards / Robert Pattinson como Bond: entretenimiento/chisme, no explicable; (3) FAA ground stop del 13/11: viejo y sin ángulo de guardar/comentar. Sin tema nuevo.",
-      "21/11 00:00 Pasada del radar: la búsqueda (NWS fin de semana, tendencias de Thanksgiving) solo devolvió páginas de inviernos anteriores o índices sin fecha; nada verificable de las últimas 48 h. Descartados: (1) clima del fin de semana: sin alerta ni fuente oficial del día; (2) Thanksgiving (26/11): sin ángulo de guardar/comentar verificable hoy; (3) superluna del 24/11: sin ángulo de guardar/comentar. Sin tema nuevo."
+      "21/11 00:00 Pasada del radar: la búsqueda (NWS fin de semana, tendencias de Thanksgiving) solo devolvió páginas de inviernos anteriores o índices sin fecha; nada verificable de las últimas 48 h. Descartados: (1) clima del fin de semana: sin alerta ni fuente oficial del día; (2) Thanksgiving (26/11): sin ángulo de guardar/comentar verificable hoy; (3) superluna del 24/11: sin ángulo de guardar/comentar. Sin tema nuevo.",
+      "23/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2024/2025 y titulares del 10–18/11; nada verificable de las últimas 48 h. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) sarampión (5.412 casos al 12/11, CDC): salud, sin ángulo de guardar/comentar y sin fuente del día; (3) elecciones/Nvidia/policiales: política, negocios o delito. Sin tema nuevo."
      ],
      "tareas": [
       "🔥 en-002-dst-farmers — Is daylight saving time for farmers? (fall back Nov 1)",
@@ -698,7 +695,7 @@
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "a57e861de35a"
+     "firma": "19e90e43fe22"
     },
     {
      "id": "chequeo",
@@ -717,7 +714,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-23T22:05",
-     "hace": "recién",
+     "hace": "hace 2 min",
      "detalle": [
       "en-035-turkey-stuffing: aprobado — Todas las afirmaciones fácticas (seguridad alimentaria) están respaldadas por USDA FSIS y las cifras/unidades coinciden (165 °F en el centro",
       "en-036-phantom-charger: aprobado — Todas las cifras de plata verificadas en fuente primaria de EE. UU. (LBNL standby.lbl.gov: 5-10% y menos de 0,5 W; EIA Energy Explained/Elec",
@@ -750,7 +747,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-23T22:05",
-     "hace": "recién",
+     "hace": "hace 2 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -774,7 +771,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-23 22:05.",
      "cuando": "2026-11-23T22:05",
-     "hace": "recién",
+     "hace": "hace 2 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -798,7 +795,7 @@
      "estado": "ok",
      "resumen": "11 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-23T22:05",
-     "hace": "recién",
+     "hace": "hace 2 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -962,7 +959,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-23T22:03",
+     "cuando": "2026-11-23T22:07",
      "hace": "recién",
      "detalle": [],
      "tareas": [],

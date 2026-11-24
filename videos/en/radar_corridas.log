@@ -92,3 +92,12 @@ Decidí no producir ningún video hoy (22/11). La búsqueda no devolvió nada ve
 Las páginas de tendencias del día, como virlo.ai y Google Trends, no se pudieron leer. Solo vi los resúmenes de la búsqueda.
 Uso: 9 pasos · 15,207 tokens nuevos · 134,303 de caché · 1,430 escritos · equivale a US$ 0.11 de API
 2026-11-22 17:26 Termina el radar (ok).
+2026-11-23 22:07 Arranca el radar.
+No produje ningún video. La búsqueda no devolvió nada verificable de las últimas 48 h: solo pronósticos de Thanksgiving de 2024 y 2025 y titulares del 10 al 18 de noviembre.
+
+Descarté tres candidatos y los anoté en `videos/en/radar.log`:
+- **Clima de Thanksgiving (26/11):** no hay un pronóstico oficial de 2026 que se pueda confirmar.
+- **Sarampión (5.412 casos al 12/11, según el CDC):** es un tema de salud sin ángulo de guardar ni de comentar, y no tiene fuente del día.
+- **Elecciones, Nvidia y policiales:** son política, negocios y delito.
+Uso: 10 pasos · 16,373 tokens nuevos · 165,850 de caché · 1,812 escritos · equivale a US$ 0.12 de API
+2026-11-23 22:07 Termina el radar (ok).

@@ -162,3 +162,9 @@ Estoy cerrando la corrida del radar: ya anoté los candidatos descartados en `vi
 **Decisión:** hoy no hay tema de actualidad que cumpla todos los criterios, así que no produje ningún video. Las búsquedas no devolvieron nada fechado de hoy. Lo más reciente es del 12 al 16 de noviembre. Las alertas por tormentas y granizo ya están cubiertas en la cola (005, 024, 018, 004, 016). Dólar, consumo y política no encajan. La superluna del 24/11 todavía no se vive, así que la reviso el 23 o el 24. La cola normal sigue como estaba.
 Uso: 10 pasos · 23,477 tokens nuevos · 146,900 de caché · 1,515 escritos · equivale a US$ 0.15 de API
 2026-11-22 17:26 Termina el radar (ok).
+2026-11-23 22:06 Arranca el radar.
+Estoy cerrando el radar: ya anoté los candidatos descartados en `videos/radar.log`.
+
+**Decisión:** no hay tema de actualidad nuevo y verificable hoy (23/11). Lo más reciente que encontré es del 16/11. Descarté el calor y las tormentas del último finde de noviembre, porque las fechas no son claras y esos temas ya están cubiertos. La superluna del 24/11 ya está en cola como `068`, y el Día de la Soberanía ya salió como `053`. No produje ningún video y la cola normal sigue como estaba.
+Uso: 10 pasos · 23,069 tokens nuevos · 155,973 de caché · 1,558 escritos · equivale a US$ 0.15 de API
+2026-11-23 22:07 Termina el radar (ok).
