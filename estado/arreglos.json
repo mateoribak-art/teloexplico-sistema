@@ -474,19 +474,19 @@
   ]
  },
  {
-  "id": "11232201-es-control",
-  "creado": "2026-11-23T22:01",
-  "empleado": "es/control",
+  "id": "11232201-en-control",
+  "creado": "2026-11-23T22:03",
+  "empleado": "en/control",
   "estado": "aplicado",
   "auto": true,
-  "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Ramiro (Control de calidad) está en \"aviso\": Apartó 2 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\n057-ruta-40-de-punta-a-punta: falta 057-ruta-40-de-punta-a-punta.mp4\n058-agua-del-mate: falta 058-agua-del-mate.mp4\n",
-  "firma": "09edd90dcb53",
-  "actualizado": "2026-11-23T22:02",
-  "titulo": "Rehacer 057 y 058: sus videos nunca llegaron a la nube; los devolví a producción",
-  "resumen": "057 (Ruta 40) y 058 (agua del mate) se renderizaron el 20/11, pero sus archivos mp4 nunca se subieron al Release de GitHub, que es de donde el publicador los baja. Cuando les tocó el turno, el control no los encontró y los apartó. Los guiones, el chequeo de datos y las portadas están bien. Los pasé de \"apartado\" a \"producción\" para que la próxima corrida de producción les regenere la voz y los renderice de nuevo. Yo no pude hacerlo, porque en esta máquina no está instalado numpy y la voz no corre. Hay que ver que esa corrida los termine, porque no lo verifiqué.",
-  "commit": "f57fb19c55682a1302b673d1289673f9c0224125",
+  "problema": "En la oficina de Nueva York (@letmeexplain.us), Ben (Control de calidad) está en \"aviso\": Apartó 2 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\nen-029-swim-after-eating: falta en-029-swim-after-eating.mp4\nen-032-gta-13-years: falta en-032-gta-13-years.mp4\n",
+  "firma": "29e3a85e9d1d",
+  "actualizado": "2026-11-23T22:03",
+  "titulo": "Dos videos en inglés apartados por un archivo que no estaba en esa corrida; los devolví a \"listo\"",
+  "resumen": "Los videos `en-029-swim-after-eating` y `en-032-gta-13-years` pasaron el chequeo de datos. Quedaron apartados porque el publicador del 22/11 no encontró el .mp4 en ese momento. A otros tres videos les pasó lo mismo ese día (`en-031`, `en-026` y `en-027`). Ya salieron publicados después de volver a \"listo\". Hice lo mismo con estos dos y los dejé en \"listo\" en la cola de inglés. No pude confirmar que los .mp4 estén en el Release \"videos\", porque no tengo permiso para listarlo. Si siguen sin estar, el publicador los va a apartar otra vez con el mismo motivo, \"falta el .mp4\".",
+  "commit": "0167e8a2c98a0b3ec0fadf4828726ce3db759b8f",
   "archivos": [
-   "videos/cola.json"
+   "videos/en/cola.json"
   ]
  }
 ]

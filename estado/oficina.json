@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T22:02",
+ "actualizado": "2026-11-23T22:03",
  "oficinas": [
   {
    "clave": "es",
@@ -44,20 +44,6 @@
    ],
    "linea": [
     {
-     "slug": "057-ruta-40-de-punta-a-punta",
-     "tema": "Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)",
-     "estado": "produccion",
-     "cuando": "2026-11-23T22:02",
-     "motivo": "rehacer: el mp4 nunca llegó al Release; falta voz y render"
-    },
-    {
-     "slug": "058-agua-del-mate",
-     "tema": "¿El agua del mate tiene que hervir? No: 75 a 80 grados (INYM); hervida quema la yerba",
-     "estado": "produccion",
-     "cuando": "2026-11-23T22:02",
-     "motivo": "rehacer: el mp4 nunca llegó al Release; falta voz y render"
-    },
-    {
      "slug": "060-celular-carga-noche",
      "tema": "¿Dejar el celular cargando toda la noche lo arruina? Apple: no se sobrecarga; carga optimizada y límite del 80 %",
      "estado": "listo",
@@ -84,6 +70,20 @@
      "estado": "listo",
      "cuando": "2026-11-21T18:51",
      "motivo": "render sin Claude"
+    },
+    {
+     "slug": "057-ruta-40-de-punta-a-punta",
+     "tema": "Ruta 40 de punta a punta: más de 5.000 km, once provincias (Vialidad Nacional)",
+     "estado": "apartado",
+     "cuando": "2026-11-22T14:31",
+     "motivo": "falta 057-ruta-40-de-punta-a-punta.mp4"
+    },
+    {
+     "slug": "058-agua-del-mate",
+     "tema": "¿El agua del mate tiene que hervir? No: 75 a 80 grados (INYM); hervida quema la yerba",
+     "estado": "apartado",
+     "cuando": "2026-11-22T14:31",
+     "motivo": "falta 058-agua-del-mate.mp4"
     },
     {
      "slug": "069-chicle-siete-anios",
@@ -309,15 +309,18 @@
        "cuenta": "es"
       }
      },
-     "estado": "ok",
-     "resumen": "9 videos listos, ninguno apartado en las últimas 48 h.",
+     "estado": "aviso",
+     "resumen": "Apartó 2 video(s) en las últimas 48 h.",
      "cuando": "2026-11-23T19:32",
      "hace": "hace 2 h",
      "detalle": [],
-     "tareas": [],
-     "arreglo": null,
+     "tareas": [
+      "057-ruta-40-de-punta-a-punta: falta 057-ruta-40-de-punta-a-punta.mp4",
+      "058-agua-del-mate: falta 058-agua-del-mate.mp4"
+     ],
+     "arreglo": "Revisalo: si está bien, pasalo a listo; si no, queda apartado.",
      "solo": false,
-     "firma": "91a3e95b574b"
+     "firma": "09edd90dcb53"
     },
     {
      "id": "publicador",
@@ -511,7 +514,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 069-chicle-siete-anios — render/control: js:180:53)\u001b[39m\n\u001b[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/moto",
-     "cuando": "2026-11-23T22:02",
+     "cuando": "2026-11-23T22:03",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 069-chicle-siete-anios — render/control: js:180:53)\u001b[39m\n\u001b[31m    at async render (/home/runner/work/teloexplico-sistema/teloexplico-sistema/moto"
@@ -553,9 +556,9 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 5,
-   "listos": 9,
-   "dias": 4.5,
-   "proximo": "en-034-alcohol-cook-off",
+   "listos": 11,
+   "dias": 5.5,
+   "proximo": "en-029-swim-after-eating",
    "publicados": 33,
    "pausa": false,
    "pendientes": [],
@@ -588,6 +591,20 @@
    ],
    "linea": [
     {
+     "slug": "en-029-swim-after-eating",
+     "tema": "Do you have to wait to swim after eating? (Red Cross; adapted from 002)",
+     "estado": "listo",
+     "cuando": "2026-11-23T22:05",
+     "motivo": "revisado: el mp4 faltaba solo en la corrida del 22/11 (igual que en-031, en-026 y en-027, que ya salieron)"
+    },
+    {
+     "slug": "en-032-gta-13-years",
+     "tema": "GTA 6: 13 years since GTA V (2013) and two delays; How old were you?",
+     "estado": "listo",
+     "cuando": "2026-11-23T22:05",
+     "motivo": "revisado: el mp4 faltaba solo en la corrida del 22/11 (igual que en-031, en-026 y en-027, que ya salieron)"
+    },
+    {
      "slug": "en-034-alcohol-cook-off",
      "tema": "Does alcohol fully cook off? (USDA retention table; own; kitchen)",
      "estado": "listo",
@@ -600,34 +617,6 @@
      "estado": "listo",
      "cuando": "2026-11-21T14:23",
      "motivo": "render sin Claude"
-    },
-    {
-     "slug": "en-036-phantom-charger",
-     "tema": "Does unplugging your phone charger save money? (LBNL standby; own)",
-     "estado": "listo",
-     "cuando": "2026-11-21T19:03",
-     "motivo": "render sin Claude"
-    },
-    {
-     "slug": "en-037-swallowed-gum",
-     "tema": "Does swallowed gum stay in your stomach for 7 years? (Cleveland Clinic, KidsHealth; own)",
-     "estado": "listo",
-     "cuando": "2026-11-21T23:05",
-     "motivo": "render sin Claude"
-    },
-    {
-     "slug": "en-029-swim-after-eating",
-     "tema": "Do you have to wait to swim after eating? (Red Cross; adapted from 002)",
-     "estado": "apartado",
-     "cuando": "2026-11-22T14:31",
-     "motivo": "falta en-029-swim-after-eating.mp4"
-    },
-    {
-     "slug": "en-032-gta-13-years",
-     "tema": "GTA 6: 13 years since GTA V (2013) and two delays; How old were you?",
-     "estado": "apartado",
-     "cuando": "2026-11-22T14:31",
-     "motivo": "falta en-032-gta-13-years.mp4"
     },
     {
      "slug": "en-031-gta-vice-city",
@@ -727,8 +716,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-23T19:34",
-     "hace": "hace 2 h",
+     "cuando": "2026-11-23T22:05",
+     "hace": "recién",
      "detalle": [
       "en-035-turkey-stuffing: aprobado — Todas las afirmaciones fácticas (seguridad alimentaria) están respaldadas por USDA FSIS y las cifras/unidades coinciden (165 °F en el centro",
       "en-036-phantom-charger: aprobado — Todas las cifras de plata verificadas en fuente primaria de EE. UU. (LBNL standby.lbl.gov: 5-10% y menos de 0,5 W; EIA Energy Explained/Elec",
@@ -760,8 +749,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-11-23T19:34",
-     "hace": "hace 2 h",
+     "cuando": "2026-11-23T22:05",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -783,14 +772,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-23 19:34.",
-     "cuando": "2026-11-23T19:34",
-     "hace": "hace 2 h",
+     "resumen": "Último video terminado: 2026-11-23 22:05.",
+     "cuando": "2026-11-23T22:05",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "d776be2b5216"
+     "firma": "cb4b14d91ffb"
     },
     {
      "id": "control",
@@ -806,18 +795,15 @@
        "cuenta": "en"
       }
      },
-     "estado": "aviso",
-     "resumen": "Apartó 2 video(s) en las últimas 48 h.",
-     "cuando": "2026-11-23T19:34",
-     "hace": "hace 2 h",
+     "estado": "ok",
+     "resumen": "11 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-23T22:05",
+     "hace": "recién",
      "detalle": [],
-     "tareas": [
-      "en-029-swim-after-eating: falta en-029-swim-after-eating.mp4",
-      "en-032-gta-13-years: falta en-032-gta-13-years.mp4"
-     ],
-     "arreglo": "Revisalo: si está bien, pasalo a listo; si no, queda apartado.",
+     "tareas": [],
+     "arreglo": null,
      "solo": false,
-     "firma": "29e3a85e9d1d"
+     "firma": "53f2416ade77"
     },
     {
      "id": "publicador",
@@ -850,7 +836,7 @@
       "23/11 19:35 en-033-turkey-thaw paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: en-034-alcohol-cook-off — Does alcohol fully cook off? (USDA retention table; own; kitchen)"
+      "Próximo: en-029-swim-after-eating — Do you have to wait to swim after eating? (Red Cross; adapted from 002)"
      ],
      "arreglo": null,
      "solo": false,
@@ -976,7 +962,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-23T22:02",
+     "cuando": "2026-11-23T22:03",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -1214,19 +1200,19 @@
    ]
   },
   {
-   "id": "11232201-es-control",
-   "creado": "2026-11-23T22:01",
-   "empleado": "es/control",
+   "id": "11232201-en-control",
+   "creado": "2026-11-23T22:03",
+   "empleado": "en/control",
    "estado": "aplicado",
    "auto": true,
-   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Ramiro (Control de calidad) está en \"aviso\": Apartó 2 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\n057-ruta-40-de-punta-a-punta: falta 057-ruta-40-de-punta-a-punta.mp4\n058-agua-del-mate: falta 058-agua-del-mate.mp4\n",
-   "firma": "09edd90dcb53",
-   "actualizado": "2026-11-23T22:02",
-   "titulo": "Rehacer 057 y 058: sus videos nunca llegaron a la nube; los devolví a producción",
-   "resumen": "057 (Ruta 40) y 058 (agua del mate) se renderizaron el 20/11, pero sus archivos mp4 nunca se subieron al Release de GitHub, que es de donde el publicador los baja. Cuando les tocó el turno, el control no los encontró y los apartó. Los guiones, el chequeo de datos y las portadas están bien. Los pasé de \"apartado\" a \"producción\" para que la próxima corrida de producción les regenere la voz y los renderice de nuevo. Yo no pude hacerlo, porque en esta máquina no está instalado numpy y la voz no corre. Hay que ver que esa corrida los termine, porque no lo verifiqué.",
-   "commit": "f57fb19c55682a1302b673d1289673f9c0224125",
+   "problema": "En la oficina de Nueva York (@letmeexplain.us), Ben (Control de calidad) está en \"aviso\": Apartó 2 video(s) en las últimas 48 h.\nLo que sugiere la oficina: Revisalo: si está bien, pasalo a listo; si no, queda apartado.\nTareas:\nen-029-swim-after-eating: falta en-029-swim-after-eating.mp4\nen-032-gta-13-years: falta en-032-gta-13-years.mp4\n",
+   "firma": "29e3a85e9d1d",
+   "actualizado": "2026-11-23T22:03",
+   "titulo": "Dos videos en inglés apartados por un archivo que no estaba en esa corrida; los devolví a \"listo\"",
+   "resumen": "Los videos `en-029-swim-after-eating` y `en-032-gta-13-years` pasaron el chequeo de datos. Quedaron apartados porque el publicador del 22/11 no encontró el .mp4 en ese momento. A otros tres videos les pasó lo mismo ese día (`en-031`, `en-026` y `en-027`). Ya salieron publicados después de volver a \"listo\". Hice lo mismo con estos dos y los dejé en \"listo\" en la cola de inglés. No pude confirmar que los .mp4 estén en el Release \"videos\", porque no tengo permiso para listarlo. Si siguen sin estar, el publicador los va a apartar otra vez con el mismo motivo, \"falta el .mp4\".",
+   "commit": "0167e8a2c98a0b3ec0fadf4828726ce3db759b8f",
    "archivos": [
-    "videos/cola.json"
+    "videos/en/cola.json"
    ]
   }
  ]
