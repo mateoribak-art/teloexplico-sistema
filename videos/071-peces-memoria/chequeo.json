@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de salud/seguridad/plata: no hay ninguna (el consejo de darles de comer a la misma hora es una prueba inocua, no una afirmación de salud). Las afirmaciones centrales (mito de 3 segundos falso, goldfish recuerdan semanas/meses, atribución a Culum Brown y a Charles Sturt University, red y laberintos) están verificadas con fuente. Una afirmación anecdótica (dueños cuentan que se acercan) es 'probable' y la frase la presenta como relato de dueños, no como dato científico. Ninguna falsa. Nota menor no bloqueante: en CSU la fuente es Kevin Warburton (investigador adjunto), no un vocero institucional; la frase solo cita 'Charles Sturt University' en la caption como fuente, lo cual es correcto.",
+  "afirmaciones": [
+    {
+      "texto": "Los peces no tienen memoria de tres segundos / es un mito (frases 1-2, título, caption)",
+      "fuente": "Live Science, 'Do goldfish really have a 3-second memory?' https://www.livescience.com/goldfish-memory.html ; Charles Sturt University, 'Three second fish memory just rubbish' https://news.csu.edu.au/latest-news/science/three-second-fish-memory-just-rubbish",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Culum Brown, biólogo de la Universidad Macquarie, en Australia, dice que los peces dorados pueden recordar semanas, meses o más (frase 3, caption)",
+      "fuente": "Live Science https://www.livescience.com/goldfish-memory.html (Brown, Macquarie University: semanas, meses e incluso años)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Los entrenaron para escapar de una red y recorrer laberintos, y repitieron lo aprendido tiempo después (frase 4, caption)",
+      "fuente": "Live Science https://www.livescience.com/goldfish-memory.html (goldfish entrenados para salir de redes y recorrer laberintos, repiten semanas o meses después)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Los peces dorados pueden aprender a anticiparse a la hora de la comida (frase 5)",
+      "fuente": "Gee, Stephenson y Wright 1994, aprendizaje de discriminación temporal en goldfish (Univ. de Plymouth) https://researchportal.plymouth.ac.uk/en/publications/temporal-discrimination-learning-of-operant-feeding-in-goldfish-c/ (condición de laboratorio con palanca; el patrón dura pocos días sin comida)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Muchos dueños cuentan que se acercan cuando los ven (frase 5)",
+      "fuente": "sin fuente primaria (relato anecdótico de dueños; coherente con el estudio de Plymouth)",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Esto sale de estudios en peces dorados, y cada especie puede ser distinta (frase 6, caption)",
+      "fuente": "Live Science y CSU: la evidencia es sobre goldfish; CSU suma plateadas y carpas. El matiz es una limitación honesta, no una afirmación a verificar.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Los peces recuerdan qué presas comer durante meses (fuente listada en guion; caption cita a CSU)",
+      "fuente": "Charles Sturt University https://news.csu.edu.au/latest-news/science/three-second-fish-memory-just-rubbish (Kevin Warburton: retienen conocimiento sobre presas durante meses)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Probá darle de comer siempre a la misma hora y fijate si se te acerca antes (frase 7)",
+      "fuente": "Consejo práctico, no afirmación fáctica; inocuo (no implica sobrealimentar). Base: estudio de Plymouth de anticipación.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Frases 8-9 y pregunta de comentarios (invitaciones a comentar/compartir; 'el que dice que el pez se olvida en tres segundos')",
+      "fuente": "No contienen afirmaciones fácticas; el dicho popular existe (Live Science, CSU lo documentan)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

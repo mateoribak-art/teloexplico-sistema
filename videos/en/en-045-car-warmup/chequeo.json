@@ -1,0 +1,16 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones fácticas coinciden con fueleconomy.gov/feg/coldweather.shtml (DOE/EPA), leído directamente. Cifras y unidades (0 mpg, 30 segundos, ~15%, 20°F vs 77°F, ciudad, autos a nafta convencionales) correctas. No hay afirmaciones dudosas, probables ni falsas; todas son verificadas, incluidas las de plata/consumo. Observaciones menores no bloqueantes: (1) la fuente atribuye los 30 s a 'most manufacturers recommend', y el guion lo refleja en la frase 6; (2) 'check your owner's manual' es un consejo prudente, no una cifra de la fuente.",
+  "afirmaciones": [
+    {"texto": "You warm up your car every winter morning.", "fuente": "n/a (planteo retórico, no es dato)", "estado": "verificada", "matiz_ok": true},
+    {"texto": "The Department of Energy says that's backwards.", "fuente": "https://www.fueleconomy.gov/feg/coldweather.shtml (sitio oficial DOE/EPA): 'Warming up your vehicle before you start your trip lowers your fuel economy'; 'Minimize idling your car to warm it up.'", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Idling gets zero miles per gallon, and the engine warms up faster when you drive it.", "fuente": "fueleconomy.gov/feg/coldweather.shtml: 'idling gets 0 miles per gallon'; 'The engine will warm up faster being driven'. Respaldo: Argonne National Laboratory / DOE Energy Saver.", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Fueleconomy.gov says in winter, start driving gently after about thirty seconds.", "fuente": "fueleconomy.gov/feg/coldweather.shtml: 'Most manufacturers recommend driving off gently after about 30 seconds.'", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Cold hurts your mileage anyway. In city tests, gas cars got roughly fifteen percent fewer miles per gallon at twenty degrees than at seventy-seven.", "fuente": "fueleconomy.gov/feg/coldweather.shtml: 'a conventional gasoline car's gas mileage is roughly 15% lower at 20°F than it would be at 77°F' (city driving). Cifra y unidades coinciden.", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Heads up: that's what most manufacturers recommend, so check your owner's manual.", "fuente": "fueleconomy.gov/feg/coldweather.shtml: 'Most manufacturers recommend...'. La mención al manual del dueño es consejo, no afirmación de la fuente.", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Tomorrow morning: start the car, wait thirty seconds, drive off gently. Save this for the next cold snap.", "fuente": "fueleconomy.gov/feg/coldweather.shtml (30 s, drive off gently)", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Do you warm up your car in winter? Yes or no? / Send this to the friend who lets the car run ten minutes before leaving.", "fuente": "n/a (pregunta e invitación, sin afirmación fáctica)", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Caption: idling 0 mpg, about 30 seconds, roughly 15% fewer mpg at 20°F than 77°F, most manufacturers recommend", "fuente": "Idéntico al guion; misma fuente fueleconomy.gov/feg/coldweather.shtml", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Caption: Everyday science #5 / Follow so you don't miss #6", "fuente": "n/a (numeración interna de la serie)", "estado": "verificada", "matiz_ok": true}
+  ]
+}

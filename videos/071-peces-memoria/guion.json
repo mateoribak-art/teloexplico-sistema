@@ -1,0 +1,26 @@
+{
+  "titulo": "Los peces no tienen memoria de tres segundos: pueden recordar semanas o meses",
+  "serie": "ciencia",
+  "fondo": "oscuro",
+  "receta": "Mito + zoom adentro (el 'creés X, en realidad es Y' con la pecera)",
+  "pilar": "mascotas",
+  "interaccion": ["comentar"],
+  "destinatario": "se lo manda alguien con una pecera a su tío o a su compañero que dice 'el pez se olvida de todo en tres segundos' para decirle que está equivocado",
+  "regla_guardable": "El mito dice tres segundos; los peces dorados pueden recordar semanas o meses.",
+  "pregunta_comentarios": "¿Tenés un pez o tuviste uno? ¿Cómo se llama?",
+  "fuentes": [
+    "Culum Brown, biólogo de la Universidad Macquarie (Australia), citado por Live Science: los peces dorados recuerdan semanas, meses o más",
+    "Charles Sturt University (Australia), nota de prensa: la memoria de tres segundos de los peces es 'basura' y recuerdan qué presas comer durante meses"
+  ],
+  "frases": [
+    {"texto": "Tenés un pez en la pecera y creés que a los tres segundos se olvidó de todo.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Es un mito.", "estilo": "Golpe seco."},
+    {"texto": "Culum Brown, biólogo de la Universidad Macquarie, en Australia, dice que los peces dorados pueden recordar semanas, meses o más.", "estilo": "Claro, un poco sorprendido."},
+    {"texto": "Los entrenaron para escapar de una red y para recorrer laberintos, y repitieron lo aprendido tiempo después.", "estilo": "Explicativo, con ritmo."},
+    {"texto": "Los peces dorados pueden aprender a anticiparse a la hora de la comida, y muchos dueños cuentan que se acercan cuando los ven.", "estilo": "Cercano, con humor."},
+    {"texto": "Ojo: esto sale de estudios en peces dorados, y cada especie puede ser distinta.", "estilo": "Matiz honesto, firme."},
+    {"texto": "Si tenés una pecera, probá darle de comer siempre a la misma hora y fijate si se te acerca antes.", "estilo": "Práctico, cercano."},
+    {"texto": "¿Tenés o tuviste un pez? Contame en un comentario cómo se llamaba.", "estilo": "Cercano, invitando."},
+    {"texto": "Y mandáselo al que dice que el pez se olvida de todo en tres segundos.", "estilo": "Cómplice, con humor."}
+  ]
+}

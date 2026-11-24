@@ -1,0 +1,773 @@
+{
+ "duracion": 50.44,
+ "frases": [
+  {
+   "texto": "Tenés un pez en la pecera y creés que a los tres segundos se olvidó de todo.",
+   "palabras": [
+    {
+     "texto": "Tenés",
+     "inicio": 0.0,
+     "fin": 0.32
+    },
+    {
+     "texto": "un",
+     "inicio": 0.32,
+     "fin": 0.5
+    },
+    {
+     "texto": "pez",
+     "inicio": 0.5,
+     "fin": 0.74
+    },
+    {
+     "texto": "en",
+     "inicio": 0.74,
+     "fin": 0.82
+    },
+    {
+     "texto": "la",
+     "inicio": 0.82,
+     "fin": 0.9
+    },
+    {
+     "texto": "pecera",
+     "inicio": 0.9,
+     "fin": 1.26
+    },
+    {
+     "texto": "y",
+     "inicio": 1.26,
+     "fin": 1.96
+    },
+    {
+     "texto": "creés",
+     "inicio": 1.96,
+     "fin": 2.4
+    },
+    {
+     "texto": "que",
+     "inicio": 2.4,
+     "fin": 2.56
+    },
+    {
+     "texto": "a",
+     "inicio": 2.56,
+     "fin": 2.62
+    },
+    {
+     "texto": "los",
+     "inicio": 2.62,
+     "fin": 2.74
+    },
+    {
+     "texto": "tres",
+     "inicio": 2.74,
+     "fin": 3.06
+    },
+    {
+     "texto": "segundos",
+     "inicio": 3.06,
+     "fin": 3.54
+    },
+    {
+     "texto": "se",
+     "inicio": 3.54,
+     "fin": 4.22
+    },
+    {
+     "texto": "olvidó",
+     "inicio": 4.22,
+     "fin": 4.58
+    },
+    {
+     "texto": "de",
+     "inicio": 4.58,
+     "fin": 4.74
+    },
+    {
+     "texto": "todo.",
+     "inicio": 4.74,
+     "fin": 5.14
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 5.14
+  },
+  {
+   "texto": "Es un mito.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 5.64,
+     "fin": 5.76
+    },
+    {
+     "texto": "un",
+     "inicio": 5.76,
+     "fin": 5.92
+    },
+    {
+     "texto": "mito.",
+     "inicio": 5.92,
+     "fin": 6.18
+    }
+   ],
+   "inicio": 5.64,
+   "fin": 6.18
+  },
+  {
+   "texto": "Culum Brown, biólogo de la Universidad Macquarie, en Australia, dice que los peces dorados pueden recordar semanas, meses o más.",
+   "palabras": [
+    {
+     "texto": "Culum",
+     "inicio": 6.66,
+     "fin": 6.9
+    },
+    {
+     "texto": "Brown,",
+     "inicio": 6.9,
+     "fin": 7.32
+    },
+    {
+     "texto": "biólogo",
+     "inicio": 7.84,
+     "fin": 8.34
+    },
+    {
+     "texto": "de",
+     "inicio": 8.34,
+     "fin": 8.52
+    },
+    {
+     "texto": "la",
+     "inicio": 8.52,
+     "fin": 8.6
+    },
+    {
+     "texto": "Universidad",
+     "inicio": 8.6,
+     "fin": 9.2
+    },
+    {
+     "texto": "Macquarie,",
+     "inicio": 9.2,
+     "fin": 9.88
+    },
+    {
+     "texto": "en",
+     "inicio": 10.44,
+     "fin": 10.48
+    },
+    {
+     "texto": "Australia,",
+     "inicio": 10.48,
+     "fin": 10.88
+    },
+    {
+     "texto": "dice",
+     "inicio": 11.54,
+     "fin": 11.7
+    },
+    {
+     "texto": "que",
+     "inicio": 11.7,
+     "fin": 11.86
+    },
+    {
+     "texto": "los",
+     "inicio": 11.86,
+     "fin": 12.0
+    },
+    {
+     "texto": "peces",
+     "inicio": 12.0,
+     "fin": 12.28
+    },
+    {
+     "texto": "dorados",
+     "inicio": 12.28,
+     "fin": 12.74
+    },
+    {
+     "texto": "pueden",
+     "inicio": 12.74,
+     "fin": 13.28
+    },
+    {
+     "texto": "recordar",
+     "inicio": 13.28,
+     "fin": 13.86
+    },
+    {
+     "texto": "semanas,",
+     "inicio": 13.86,
+     "fin": 14.36
+    },
+    {
+     "texto": "meses",
+     "inicio": 14.86,
+     "fin": 15.3
+    },
+    {
+     "texto": "o",
+     "inicio": 15.3,
+     "fin": 15.92
+    },
+    {
+     "texto": "más.",
+     "inicio": 15.92,
+     "fin": 16.18
+    }
+   ],
+   "inicio": 6.66,
+   "fin": 16.18
+  },
+  {
+   "texto": "Los entrenaron para escapar de una red y para recorrer laberintos, y repitieron lo aprendido tiempo después.",
+   "palabras": [
+    {
+     "texto": "Los",
+     "inicio": 16.72,
+     "fin": 16.9
+    },
+    {
+     "texto": "entrenaron",
+     "inicio": 16.9,
+     "fin": 17.42
+    },
+    {
+     "texto": "para",
+     "inicio": 17.42,
+     "fin": 17.6
+    },
+    {
+     "texto": "escapar",
+     "inicio": 17.6,
+     "fin": 17.94
+    },
+    {
+     "texto": "de",
+     "inicio": 17.94,
+     "fin": 18.04
+    },
+    {
+     "texto": "una",
+     "inicio": 18.04,
+     "fin": 18.16
+    },
+    {
+     "texto": "red",
+     "inicio": 18.16,
+     "fin": 18.44
+    },
+    {
+     "texto": "y",
+     "inicio": 18.44,
+     "fin": 18.72
+    },
+    {
+     "texto": "para",
+     "inicio": 18.72,
+     "fin": 18.88
+    },
+    {
+     "texto": "recorrer",
+     "inicio": 18.88,
+     "fin": 19.34
+    },
+    {
+     "texto": "laberintos,",
+     "inicio": 19.34,
+     "fin": 20.02
+    },
+    {
+     "texto": "y",
+     "inicio": 20.36,
+     "fin": 20.6
+    },
+    {
+     "texto": "repitieron",
+     "inicio": 20.6,
+     "fin": 21.18
+    },
+    {
+     "texto": "lo",
+     "inicio": 21.18,
+     "fin": 21.32
+    },
+    {
+     "texto": "aprendido",
+     "inicio": 21.32,
+     "fin": 21.78
+    },
+    {
+     "texto": "tiempo",
+     "inicio": 21.78,
+     "fin": 22.16
+    },
+    {
+     "texto": "después.",
+     "inicio": 22.16,
+     "fin": 22.56
+    }
+   ],
+   "inicio": 16.72,
+   "fin": 22.56
+  },
+  {
+   "texto": "Los peces dorados pueden aprender a anticiparse a la hora de la comida, y muchos dueños cuentan que se acercan cuando los ven.",
+   "palabras": [
+    {
+     "texto": "Los",
+     "inicio": 23.12,
+     "fin": 23.3
+    },
+    {
+     "texto": "peces",
+     "inicio": 23.3,
+     "fin": 23.58
+    },
+    {
+     "texto": "dorados",
+     "inicio": 23.58,
+     "fin": 24.0
+    },
+    {
+     "texto": "pueden",
+     "inicio": 24.0,
+     "fin": 24.5
+    },
+    {
+     "texto": "aprender",
+     "inicio": 24.5,
+     "fin": 24.88
+    },
+    {
+     "texto": "a",
+     "inicio": 24.88,
+     "fin": 25.12
+    },
+    {
+     "texto": "anticiparse",
+     "inicio": 25.12,
+     "fin": 25.78
+    },
+    {
+     "texto": "a",
+     "inicio": 25.78,
+     "fin": 25.88
+    },
+    {
+     "texto": "la",
+     "inicio": 25.88,
+     "fin": 25.96
+    },
+    {
+     "texto": "hora",
+     "inicio": 25.96,
+     "fin": 26.14
+    },
+    {
+     "texto": "de",
+     "inicio": 26.14,
+     "fin": 26.26
+    },
+    {
+     "texto": "la",
+     "inicio": 26.26,
+     "fin": 26.36
+    },
+    {
+     "texto": "comida,",
+     "inicio": 26.36,
+     "fin": 26.64
+    },
+    {
+     "texto": "y",
+     "inicio": 27.26,
+     "fin": 27.38
+    },
+    {
+     "texto": "muchos",
+     "inicio": 27.38,
+     "fin": 27.6
+    },
+    {
+     "texto": "dueños",
+     "inicio": 27.6,
+     "fin": 28.08
+    },
+    {
+     "texto": "cuentan",
+     "inicio": 28.08,
+     "fin": 28.62
+    },
+    {
+     "texto": "que",
+     "inicio": 28.62,
+     "fin": 28.76
+    },
+    {
+     "texto": "se",
+     "inicio": 28.76,
+     "fin": 28.88
+    },
+    {
+     "texto": "acercan",
+     "inicio": 28.88,
+     "fin": 29.4
+    },
+    {
+     "texto": "cuando",
+     "inicio": 29.4,
+     "fin": 29.56
+    },
+    {
+     "texto": "los",
+     "inicio": 29.56,
+     "fin": 29.8
+    },
+    {
+     "texto": "ven.",
+     "inicio": 29.8,
+     "fin": 29.98
+    }
+   ],
+   "inicio": 23.12,
+   "fin": 29.98
+  },
+  {
+   "texto": "Ojo: esto sale de estudios en peces dorados, y cada especie puede ser distinta.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 30.54,
+     "fin": 30.8
+    },
+    {
+     "texto": "esto",
+     "inicio": 31.18,
+     "fin": 31.38
+    },
+    {
+     "texto": "sale",
+     "inicio": 31.38,
+     "fin": 31.6
+    },
+    {
+     "texto": "de",
+     "inicio": 31.6,
+     "fin": 31.72
+    },
+    {
+     "texto": "estudios",
+     "inicio": 31.72,
+     "fin": 32.18
+    },
+    {
+     "texto": "en",
+     "inicio": 32.18,
+     "fin": 32.36
+    },
+    {
+     "texto": "peces",
+     "inicio": 32.36,
+     "fin": 32.56
+    },
+    {
+     "texto": "dorados,",
+     "inicio": 32.56,
+     "fin": 33.02
+    },
+    {
+     "texto": "y",
+     "inicio": 33.64,
+     "fin": 33.68
+    },
+    {
+     "texto": "cada",
+     "inicio": 33.68,
+     "fin": 34.02
+    },
+    {
+     "texto": "especie",
+     "inicio": 34.02,
+     "fin": 34.48
+    },
+    {
+     "texto": "puede",
+     "inicio": 34.48,
+     "fin": 34.86
+    },
+    {
+     "texto": "ser",
+     "inicio": 34.86,
+     "fin": 35.04
+    },
+    {
+     "texto": "distinta.",
+     "inicio": 35.04,
+     "fin": 35.54
+    }
+   ],
+   "inicio": 30.54,
+   "fin": 35.54
+  },
+  {
+   "texto": "Si tenés una pecera, probá darle de comer siempre a la misma hora y fijate si se te acerca antes.",
+   "palabras": [
+    {
+     "texto": "Si",
+     "inicio": 36.04,
+     "fin": 36.2
+    },
+    {
+     "texto": "tenés",
+     "inicio": 36.2,
+     "fin": 36.46
+    },
+    {
+     "texto": "una",
+     "inicio": 36.46,
+     "fin": 36.6
+    },
+    {
+     "texto": "pecera,",
+     "inicio": 36.6,
+     "fin": 36.96
+    },
+    {
+     "texto": "probá",
+     "inicio": 37.36,
+     "fin": 37.58
+    },
+    {
+     "texto": "darle",
+     "inicio": 37.58,
+     "fin": 37.8
+    },
+    {
+     "texto": "de",
+     "inicio": 37.8,
+     "fin": 37.98
+    },
+    {
+     "texto": "comer",
+     "inicio": 37.98,
+     "fin": 38.16
+    },
+    {
+     "texto": "siempre",
+     "inicio": 38.16,
+     "fin": 38.6
+    },
+    {
+     "texto": "a",
+     "inicio": 38.6,
+     "fin": 38.88
+    },
+    {
+     "texto": "la",
+     "inicio": 38.88,
+     "fin": 38.92
+    },
+    {
+     "texto": "misma",
+     "inicio": 38.92,
+     "fin": 39.14
+    },
+    {
+     "texto": "hora",
+     "inicio": 39.14,
+     "fin": 39.5
+    },
+    {
+     "texto": "y",
+     "inicio": 39.5,
+     "fin": 40.18
+    },
+    {
+     "texto": "fijate",
+     "inicio": 40.18,
+     "fin": 40.6
+    },
+    {
+     "texto": "si",
+     "inicio": 40.6,
+     "fin": 40.96
+    },
+    {
+     "texto": "se",
+     "inicio": 40.96,
+     "fin": 41.1
+    },
+    {
+     "texto": "te",
+     "inicio": 41.1,
+     "fin": 41.18
+    },
+    {
+     "texto": "acerca",
+     "inicio": 41.18,
+     "fin": 41.4
+    },
+    {
+     "texto": "antes.",
+     "inicio": 41.4,
+     "fin": 41.8
+    }
+   ],
+   "inicio": 36.04,
+   "fin": 41.8
+  },
+  {
+   "texto": "¿Tenés o tuviste un pez? Contame en un comentario cómo se llamaba.",
+   "palabras": [
+    {
+     "texto": "¿Tenés",
+     "inicio": 42.38,
+     "fin": 42.72
+    },
+    {
+     "texto": "o",
+     "inicio": 42.72,
+     "fin": 43.14
+    },
+    {
+     "texto": "tuviste",
+     "inicio": 43.14,
+     "fin": 43.46
+    },
+    {
+     "texto": "un",
+     "inicio": 43.46,
+     "fin": 43.6
+    },
+    {
+     "texto": "pez?",
+     "inicio": 43.6,
+     "fin": 43.84
+    },
+    {
+     "texto": "Contame",
+     "inicio": 44.38,
+     "fin": 44.66
+    },
+    {
+     "texto": "en",
+     "inicio": 44.66,
+     "fin": 44.82
+    },
+    {
+     "texto": "un",
+     "inicio": 44.82,
+     "fin": 44.88
+    },
+    {
+     "texto": "comentario",
+     "inicio": 44.88,
+     "fin": 45.32
+    },
+    {
+     "texto": "cómo",
+     "inicio": 45.32,
+     "fin": 45.52
+    },
+    {
+     "texto": "se",
+     "inicio": 45.52,
+     "fin": 45.64
+    },
+    {
+     "texto": "llamaba.",
+     "inicio": 45.64,
+     "fin": 46.04
+    }
+   ],
+   "inicio": 42.38,
+   "fin": 46.04
+  },
+  {
+   "texto": "Y mandáselo al que dice que el pez se olvida de todo en tres segundos.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 46.76,
+     "fin": 46.92
+    },
+    {
+     "texto": "mandáselo",
+     "inicio": 46.92,
+     "fin": 47.46
+    },
+    {
+     "texto": "al",
+     "inicio": 47.46,
+     "fin": 47.56
+    },
+    {
+     "texto": "que",
+     "inicio": 47.56,
+     "fin": 47.64
+    },
+    {
+     "texto": "dice",
+     "inicio": 47.64,
+     "fin": 47.86
+    },
+    {
+     "texto": "que",
+     "inicio": 47.86,
+     "fin": 48.02
+    },
+    {
+     "texto": "el",
+     "inicio": 48.02,
+     "fin": 48.14
+    },
+    {
+     "texto": "pez",
+     "inicio": 48.14,
+     "fin": 48.44
+    },
+    {
+     "texto": "se",
+     "inicio": 48.44,
+     "fin": 48.6
+    },
+    {
+     "texto": "olvida",
+     "inicio": 48.6,
+     "fin": 48.88
+    },
+    {
+     "texto": "de",
+     "inicio": 48.88,
+     "fin": 49.06
+    },
+    {
+     "texto": "todo",
+     "inicio": 49.06,
+     "fin": 49.44
+    },
+    {
+     "texto": "en",
+     "inicio": 49.44,
+     "fin": 49.66
+    },
+    {
+     "texto": "tres",
+     "inicio": 49.66,
+     "fin": 49.82
+    },
+    {
+     "texto": "segundos.",
+     "inicio": 49.82,
+     "fin": 50.18
+    }
+   ],
+   "inicio": 46.76,
+   "fin": 50.18
+  }
+ ]
+}

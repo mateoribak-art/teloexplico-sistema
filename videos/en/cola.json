@@ -1504,5 +1504,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-045-car-warmup",
+  "tema": "Do you need to warm up your car in winter? (DOE fueleconomy.gov: 30 s)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-24T11:30",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-24T11:30",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-24T11:32",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-24T11:39",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

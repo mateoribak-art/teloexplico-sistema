@@ -2641,5 +2641,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "071-peces-memoria",
+  "tema": "¿Los peces tienen memoria de tres segundos? No: semanas o meses (Culum Brown, Macquarie)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-24T11:08",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-24T11:08",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-24T11:12",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-24T11:29",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

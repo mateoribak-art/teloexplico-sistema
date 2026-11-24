@@ -1,0 +1,27 @@
+{
+  "titulo": "You warm up your car every winter morning. Do you need to?",
+  "serie": "ciencia",
+  "fondo": "oscuro",
+  "receta": "el que lo hace mal / regla con numero (30 s) + debate si/no",
+  "pilar": "casa",
+  "destinatario": "se lo manda un hijo a su papa, el que deja el auto andando diez minutos antes de salir, para decirle que alcanza con treinta segundos",
+  "regla_guardable": "Winter: start the car, wait about 30 seconds, drive off gently.",
+  "interaccion": {
+    "guardar": "Winter: start, wait about 30 seconds, drive off gently. Idling = 0 mpg.",
+    "comentar": "Do you warm up your car in winter? Yes or no?"
+  },
+  "fuentes": [
+    "U.S. Department of Energy / EPA, fueleconomy.gov, Fuel Economy in Cold Weather (fueleconomy.gov/feg/coldweather.shtml): warming up the vehicle lowers fuel economy, idling gets 0 mpg; minimize idling; start moving after about 30 seconds and drive off gently; roughly 15% lower mpg at 20 F than at 77 F in city tests (conventional gasoline cars)"
+  ],
+  "frases": [
+    {"texto": "You warm up your car every winter morning.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "The Department of Energy says that's backwards.", "estilo": "Seco y contundente, with a half smile."},
+    {"texto": "Idling gets zero miles per gallon, and the engine warms up faster when you drive it.", "estilo": "Informative, clear."},
+    {"texto": "Fueleconomy.gov says in winter, start driving gently after about thirty seconds.", "estilo": "Practical, confident."},
+    {"texto": "Cold hurts your mileage anyway. In city tests, gas cars got roughly fifteen percent fewer miles per gallon at twenty degrees than at seventy-seven.", "estilo": "Intrigued, like a reveal."},
+    {"texto": "Heads up: that's what most manufacturers recommend, so check your owner's manual.", "estilo": "Honest caveat, calm."},
+    {"texto": "Tomorrow morning: start the car, wait thirty seconds, drive off gently. Save this for the next cold snap.", "estilo": "Practical, friendly."},
+    {"texto": "Do you warm up your car in winter? Yes or no?", "estilo": "Curious, playful."},
+    {"texto": "Send this to the friend who lets the car run ten minutes before leaving.", "estilo": "Playful and funny."}
+  ]
+}

@@ -6,3 +6,15 @@ Uso: 54 pasos · 112,150 tokens nuevos · 2,241,113 de caché · 22,563 escritos
 2026-11-24 02:56 Render de 070-rayo-despues-lluvia (sin Claude).
 2026-11-24 03:01 070-rayo-despues-lluvia: listo (render sin Claude)
 2026-11-24 03:01 Termina la producción (ok).
+2026-11-24 11:07 Arranca la producción (13 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Produje un video, `071-peces-memoria` ("¿Los peces tienen memoria de tres segundos?"), y lo dejé en estado `render`. Todavía no está en `listo`: el render, la portada y el control corren después de mi turno.
+
+1. **Listo para render:** `071-peces-memoria`, serie ciencia #6 con fondo oscuro. El chequeo rechazó la primera versión por la frase de "se acercan cuando te ven", sin matiz. La corregí y aprobó en el segundo intento. La voz dura 50,4 s (141 palabras), por encima del tope de 45 s. `tlx tsc` dio OK, hice dos vueltas de cuadros y el caption quedó escrito.
+2. **Apartados:** sin cambios. 038, 042, 044, 051 y 005 no estaban apartados por chequeo rechazado, así que no había nada para rescatar.
+3. **Incompletos:** ninguno. No produje un segundo video porque la cola ya tenía 12 listos, y lo dejé anotado en `videos/produccion.log`.
+
+Los seguidores van en unos 22 por día contra los 95 por día que hacen falta. No volví a medirlo en este turno.
+Uso: 22 pasos · 17,538 tokens nuevos · 1,336,243 de caché · 7,014 escritos · equivale a US$ 1.21 de API
+2026-11-24 11:12 Render de 071-peces-memoria (sin Claude).
+2026-11-24 11:29 071-peces-memoria: listo (render sin Claude)
+2026-11-24 11:29 Termina la producción (ok).

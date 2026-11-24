@@ -1,0 +1,673 @@
+{
+ "duracion": 44.53,
+ "frases": [
+  {
+   "texto": "You warm up your car every winter morning.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "warm",
+     "inicio": 0.14,
+     "fin": 0.34
+    },
+    {
+     "texto": "up",
+     "inicio": 0.34,
+     "fin": 0.54
+    },
+    {
+     "texto": "your",
+     "inicio": 0.54,
+     "fin": 0.66
+    },
+    {
+     "texto": "car",
+     "inicio": 0.66,
+     "fin": 0.92
+    },
+    {
+     "texto": "every",
+     "inicio": 0.92,
+     "fin": 1.5
+    },
+    {
+     "texto": "winter",
+     "inicio": 1.5,
+     "fin": 1.8
+    },
+    {
+     "texto": "morning.",
+     "inicio": 1.8,
+     "fin": 2.2
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.2
+  },
+  {
+   "texto": "The Department of Energy says that's backwards.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 2.84,
+     "fin": 2.96
+    },
+    {
+     "texto": "Department",
+     "inicio": 2.96,
+     "fin": 3.34
+    },
+    {
+     "texto": "of",
+     "inicio": 3.34,
+     "fin": 3.54
+    },
+    {
+     "texto": "Energy",
+     "inicio": 3.54,
+     "fin": 3.9
+    },
+    {
+     "texto": "says",
+     "inicio": 3.9,
+     "fin": 4.66
+    },
+    {
+     "texto": "that's",
+     "inicio": 4.66,
+     "fin": 4.98
+    },
+    {
+     "texto": "backwards.",
+     "inicio": 4.98,
+     "fin": 5.3
+    }
+   ],
+   "inicio": 2.84,
+   "fin": 5.3
+  },
+  {
+   "texto": "Idling gets zero miles per gallon, and the engine warms up faster when you drive it.",
+   "palabras": [
+    {
+     "texto": "Idling",
+     "inicio": 5.96,
+     "fin": 6.34
+    },
+    {
+     "texto": "gets",
+     "inicio": 6.34,
+     "fin": 6.8
+    },
+    {
+     "texto": "zero",
+     "inicio": 6.8,
+     "fin": 7.36
+    },
+    {
+     "texto": "miles",
+     "inicio": 7.36,
+     "fin": 7.72
+    },
+    {
+     "texto": "per",
+     "inicio": 7.72,
+     "fin": 7.98
+    },
+    {
+     "texto": "gallon,",
+     "inicio": 7.98,
+     "fin": 8.26
+    },
+    {
+     "texto": "and",
+     "inicio": 8.74,
+     "fin": 8.92
+    },
+    {
+     "texto": "the",
+     "inicio": 8.92,
+     "fin": 9.04
+    },
+    {
+     "texto": "engine",
+     "inicio": 9.04,
+     "fin": 9.24
+    },
+    {
+     "texto": "warms",
+     "inicio": 9.24,
+     "fin": 9.6
+    },
+    {
+     "texto": "up",
+     "inicio": 9.6,
+     "fin": 9.72
+    },
+    {
+     "texto": "faster",
+     "inicio": 9.72,
+     "fin": 10.14
+    },
+    {
+     "texto": "when",
+     "inicio": 10.14,
+     "fin": 10.4
+    },
+    {
+     "texto": "you",
+     "inicio": 10.4,
+     "fin": 10.5
+    },
+    {
+     "texto": "drive",
+     "inicio": 10.5,
+     "fin": 10.78
+    },
+    {
+     "texto": "it.",
+     "inicio": 10.78,
+     "fin": 10.94
+    }
+   ],
+   "inicio": 5.96,
+   "fin": 10.94
+  },
+  {
+   "texto": "Fueleconomy.gov says in winter, start driving gently after about thirty seconds.",
+   "palabras": [
+    {
+     "texto": "Fueleconomy.gov",
+     "inicio": 11.46,
+     "fin": 12.44
+    },
+    {
+     "texto": "says",
+     "inicio": 12.44,
+     "fin": 12.74
+    },
+    {
+     "texto": "in",
+     "inicio": 12.74,
+     "fin": 12.98
+    },
+    {
+     "texto": "winter,",
+     "inicio": 12.98,
+     "fin": 13.28
+    },
+    {
+     "texto": "start",
+     "inicio": 13.76,
+     "fin": 14.08
+    },
+    {
+     "texto": "driving",
+     "inicio": 14.08,
+     "fin": 14.42
+    },
+    {
+     "texto": "gently",
+     "inicio": 14.42,
+     "fin": 14.88
+    },
+    {
+     "texto": "after",
+     "inicio": 14.88,
+     "fin": 15.38
+    },
+    {
+     "texto": "about",
+     "inicio": 15.38,
+     "fin": 15.58
+    },
+    {
+     "texto": "thirty",
+     "inicio": 15.58,
+     "fin": 15.88
+    },
+    {
+     "texto": "seconds.",
+     "inicio": 15.88,
+     "fin": 16.26
+    }
+   ],
+   "inicio": 11.46,
+   "fin": 16.26
+  },
+  {
+   "texto": "Cold hurts your mileage anyway. In city tests, gas cars got roughly fifteen percent fewer miles per gallon at twenty degrees than at seventy-seven.",
+   "palabras": [
+    {
+     "texto": "Cold",
+     "inicio": 16.72,
+     "fin": 17.02
+    },
+    {
+     "texto": "hurts",
+     "inicio": 17.02,
+     "fin": 17.26
+    },
+    {
+     "texto": "your",
+     "inicio": 17.26,
+     "fin": 17.38
+    },
+    {
+     "texto": "mileage",
+     "inicio": 17.38,
+     "fin": 17.72
+    },
+    {
+     "texto": "anyway.",
+     "inicio": 17.72,
+     "fin": 18.0
+    },
+    {
+     "texto": "In",
+     "inicio": 18.64,
+     "fin": 18.74
+    },
+    {
+     "texto": "city",
+     "inicio": 18.74,
+     "fin": 18.94
+    },
+    {
+     "texto": "tests,",
+     "inicio": 18.94,
+     "fin": 19.4
+    },
+    {
+     "texto": "gas",
+     "inicio": 19.84,
+     "fin": 20.2
+    },
+    {
+     "texto": "cars",
+     "inicio": 20.2,
+     "fin": 20.54
+    },
+    {
+     "texto": "got",
+     "inicio": 20.54,
+     "fin": 20.74
+    },
+    {
+     "texto": "roughly",
+     "inicio": 20.74,
+     "fin": 21.0
+    },
+    {
+     "texto": "fifteen",
+     "inicio": 21.0,
+     "fin": 21.5
+    },
+    {
+     "texto": "percent",
+     "inicio": 21.5,
+     "fin": 22.1
+    },
+    {
+     "texto": "fewer",
+     "inicio": 22.1,
+     "fin": 22.34
+    },
+    {
+     "texto": "miles",
+     "inicio": 22.34,
+     "fin": 22.68
+    },
+    {
+     "texto": "per",
+     "inicio": 22.68,
+     "fin": 22.88
+    },
+    {
+     "texto": "gallon",
+     "inicio": 22.88,
+     "fin": 23.2
+    },
+    {
+     "texto": "at",
+     "inicio": 23.2,
+     "fin": 23.38
+    },
+    {
+     "texto": "twenty",
+     "inicio": 23.38,
+     "fin": 23.68
+    },
+    {
+     "texto": "degrees",
+     "inicio": 23.68,
+     "fin": 24.1
+    },
+    {
+     "texto": "than",
+     "inicio": 24.1,
+     "fin": 24.68
+    },
+    {
+     "texto": "at",
+     "inicio": 24.68,
+     "fin": 24.8
+    },
+    {
+     "texto": "seventy-seven.",
+     "inicio": 24.8,
+     "fin": 25.44
+    }
+   ],
+   "inicio": 16.72,
+   "fin": 25.44
+  },
+  {
+   "texto": "Heads up: that's what most manufacturers recommend, so check your owner's manual.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 25.44,
+     "fin": 26.22
+    },
+    {
+     "texto": "up:",
+     "inicio": 26.22,
+     "fin": 26.38
+    },
+    {
+     "texto": "that's",
+     "inicio": 26.88,
+     "fin": 27.12
+    },
+    {
+     "texto": "what",
+     "inicio": 27.12,
+     "fin": 27.22
+    },
+    {
+     "texto": "most",
+     "inicio": 27.22,
+     "fin": 27.56
+    },
+    {
+     "texto": "manufacturers",
+     "inicio": 27.56,
+     "fin": 28.34
+    },
+    {
+     "texto": "recommend,",
+     "inicio": 28.34,
+     "fin": 28.74
+    },
+    {
+     "texto": "so",
+     "inicio": 29.34,
+     "fin": 29.58
+    },
+    {
+     "texto": "check",
+     "inicio": 29.58,
+     "fin": 29.96
+    },
+    {
+     "texto": "your",
+     "inicio": 29.96,
+     "fin": 30.16
+    },
+    {
+     "texto": "owner's",
+     "inicio": 30.16,
+     "fin": 30.42
+    },
+    {
+     "texto": "manual.",
+     "inicio": 30.42,
+     "fin": 30.66
+    }
+   ],
+   "inicio": 25.44,
+   "fin": 30.66
+  },
+  {
+   "texto": "Tomorrow morning: start the car, wait thirty seconds, drive off gently. Save this for the next cold snap.",
+   "palabras": [
+    {
+     "texto": "Tomorrow",
+     "inicio": 31.18,
+     "fin": 31.4
+    },
+    {
+     "texto": "morning:",
+     "inicio": 31.4,
+     "fin": 31.76
+    },
+    {
+     "texto": "start",
+     "inicio": 32.14,
+     "fin": 32.4
+    },
+    {
+     "texto": "the",
+     "inicio": 32.4,
+     "fin": 32.56
+    },
+    {
+     "texto": "car,",
+     "inicio": 32.56,
+     "fin": 32.82
+    },
+    {
+     "texto": "wait",
+     "inicio": 33.2,
+     "fin": 33.44
+    },
+    {
+     "texto": "thirty",
+     "inicio": 33.44,
+     "fin": 33.86
+    },
+    {
+     "texto": "seconds,",
+     "inicio": 33.86,
+     "fin": 34.28
+    },
+    {
+     "texto": "drive",
+     "inicio": 34.84,
+     "fin": 35.02
+    },
+    {
+     "texto": "off",
+     "inicio": 35.02,
+     "fin": 35.22
+    },
+    {
+     "texto": "gently.",
+     "inicio": 35.22,
+     "fin": 35.48
+    },
+    {
+     "texto": "Save",
+     "inicio": 36.06,
+     "fin": 36.24
+    },
+    {
+     "texto": "this",
+     "inicio": 36.24,
+     "fin": 36.46
+    },
+    {
+     "texto": "for",
+     "inicio": 36.46,
+     "fin": 36.64
+    },
+    {
+     "texto": "the",
+     "inicio": 36.64,
+     "fin": 36.74
+    },
+    {
+     "texto": "next",
+     "inicio": 36.74,
+     "fin": 36.88
+    },
+    {
+     "texto": "cold",
+     "inicio": 36.88,
+     "fin": 37.12
+    },
+    {
+     "texto": "snap.",
+     "inicio": 37.12,
+     "fin": 37.34
+    }
+   ],
+   "inicio": 31.18,
+   "fin": 37.34
+  },
+  {
+   "texto": "Do you warm up your car in winter? Yes or no?",
+   "palabras": [
+    {
+     "texto": "Do",
+     "inicio": 37.96,
+     "fin": 38.08
+    },
+    {
+     "texto": "you",
+     "inicio": 38.08,
+     "fin": 38.28
+    },
+    {
+     "texto": "warm",
+     "inicio": 38.28,
+     "fin": 38.5
+    },
+    {
+     "texto": "up",
+     "inicio": 38.5,
+     "fin": 38.68
+    },
+    {
+     "texto": "your",
+     "inicio": 38.68,
+     "fin": 38.8
+    },
+    {
+     "texto": "car",
+     "inicio": 38.8,
+     "fin": 39.0
+    },
+    {
+     "texto": "in",
+     "inicio": 39.0,
+     "fin": 39.12
+    },
+    {
+     "texto": "winter?",
+     "inicio": 39.12,
+     "fin": 39.32
+    },
+    {
+     "texto": "Yes",
+     "inicio": 39.88,
+     "fin": 40.12
+    },
+    {
+     "texto": "or",
+     "inicio": 40.12,
+     "fin": 40.5
+    },
+    {
+     "texto": "no?",
+     "inicio": 40.5,
+     "fin": 40.68
+    }
+   ],
+   "inicio": 37.96,
+   "fin": 40.68
+  },
+  {
+   "texto": "Send this to the friend who lets the car run ten minutes before leaving.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 41.24,
+     "fin": 41.36
+    },
+    {
+     "texto": "this",
+     "inicio": 41.36,
+     "fin": 41.54
+    },
+    {
+     "texto": "to",
+     "inicio": 41.54,
+     "fin": 41.76
+    },
+    {
+     "texto": "the",
+     "inicio": 41.76,
+     "fin": 41.86
+    },
+    {
+     "texto": "friend",
+     "inicio": 41.86,
+     "fin": 42.08
+    },
+    {
+     "texto": "who",
+     "inicio": 42.08,
+     "fin": 42.34
+    },
+    {
+     "texto": "lets",
+     "inicio": 42.34,
+     "fin": 42.5
+    },
+    {
+     "texto": "the",
+     "inicio": 42.5,
+     "fin": 42.7
+    },
+    {
+     "texto": "car",
+     "inicio": 42.7,
+     "fin": 42.9
+    },
+    {
+     "texto": "run",
+     "inicio": 42.9,
+     "fin": 43.14
+    },
+    {
+     "texto": "ten",
+     "inicio": 43.14,
+     "fin": 43.48
+    },
+    {
+     "texto": "minutes",
+     "inicio": 43.48,
+     "fin": 43.82
+    },
+    {
+     "texto": "before",
+     "inicio": 43.82,
+     "fin": 44.12
+    },
+    {
+     "texto": "leaving.",
+     "inicio": 44.12,
+     "fin": 44.4
+    }
+   ],
+   "inicio": 41.24,
+   "fin": 44.4
+  }
+ ]
+}

@@ -14,3 +14,13 @@ Uso: 17 pasos · 11,284 tokens nuevos · 1,069,096 de caché · 2,775 escritos �
 2026-11-24 03:06 Render de en-044-wet-hair (sin Claude).
 2026-11-24 03:11 en-044-wet-hair: listo (render sin Claude)
 2026-11-24 03:11 Termina la producción (ok).
+2026-11-24 11:29 Arranca la producción (13 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+Quedó 1 video listo para el render automático.
+
+- **Listo:** `en-045-car-warmup` ("¿Hay que calentar el auto en invierno?", serie ciencia #5). El chequeo aprobó en el primer intento con fueleconomy.gov. La voz dura 44,5 s, `tlx tsc` dio sin errores y revisé los cuadros en una vuelta. Está en estado `render`, así que `producir.py` lo renderiza y corre el control. El render y el control todavía no corrieron.
+- **Rescates:** no había videos apartados por chequeo rechazado.
+- **Apartados o incompletos:** ninguno. No corrí el radar en este turno (la última pasada fue el 23/11).
+Uso: 14 pasos · 9,239 tokens nuevos · 898,668 de caché · 3,335 escritos · equivale a US$ 0.80 de API
+2026-11-24 11:32 Render de en-045-car-warmup (sin Claude).
+2026-11-24 11:39 en-045-car-warmup: listo (render sin Claude)
+2026-11-24 11:39 Termina la producción (ok).
