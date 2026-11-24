@@ -168,3 +168,13 @@ Estoy cerrando el radar: ya anoté los candidatos descartados en `videos/radar.l
 **Decisión:** no hay tema de actualidad nuevo y verificable hoy (23/11). Lo más reciente que encontré es del 16/11. Descarté el calor y las tormentas del último finde de noviembre, porque las fechas no son claras y esos temas ya están cubiertos. La superluna del 24/11 ya está en cola como `068`, y el Día de la Soberanía ya salió como `053`. No produje ningún video y la cola normal sigue como estaba.
 Uso: 10 pasos · 23,069 tokens nuevos · 155,973 de caché · 1,558 escritos · equivale a US$ 0.15 de API
 2026-11-23 22:07 Termina el radar (ok).
+2026-11-24 20:10 Arranca el radar.
+No produje ningún video: las dos búsquedas web no dieron ningún tema de actualidad verificable con fecha de hoy (24/11). Anoté los candidatos descartados en `videos/radar.log`:
+
+- **Alerta amarilla por tormentas en Tucumán:** no hay detalle de hoy, y tormenta y granizo ya están cubiertos en la cola.
+- **Calor, humedad y tormentas en el AMBA toda la semana:** la nota (Perfil/Meteored) no tiene fecha verificable, y el calor ya está cubierto.
+- **Superluna del 24/11:** ya está en la cola como `068-superluna-no-tan-grande`, en estado listo.
+
+La cola normal sigue.
+Uso: 10 pasos · 25,529 tokens nuevos · 155,996 de caché · 1,594 escritos · equivale a US$ 0.16 de API
+2026-11-24 20:11 Termina el radar (ok).
