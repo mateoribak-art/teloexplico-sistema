@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T17:31",
+ "actualizado": "2026-11-25T19:35",
  "oficinas": [
   {
    "clave": "es",
@@ -7,15 +7,20 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 1143,
-   "listos": 16,
-   "dias": 8.0,
-   "proximo": "061-heladera-termometro",
-   "publicados": 59,
+   "listos": 15,
+   "dias": 7.5,
+   "proximo": "062-pote-microondas",
+   "publicados": 60,
    "pausa": false,
    "pendientes": [
     "Facu (TikTok, YouTube y Telegram): En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram."
    ],
    "ultimas": [
+    {
+     "slug": "061-heladera-termometro",
+     "link": "https://www.instagram.com/reel/DgLnA6EhPoA/",
+     "cuando": "2026-11-25T22:32"
+    },
     {
      "slug": "060-celular-carga-noche",
      "link": "https://www.instagram.com/reel/DgK3C5Buw96/",
@@ -35,21 +40,9 @@
      "slug": "059-pibe-chango-guri",
      "link": "https://www.instagram.com/reel/DgGdcSJjJht/",
      "cuando": "2026-11-23T22:32"
-    },
-    {
-     "slug": "056-gta-trece-anios",
-     "link": "https://www.instagram.com/reel/DgFujyZjEuO/",
-     "cuando": "2026-11-23T15:42"
     }
    ],
    "linea": [
-    {
-     "slug": "061-heladera-termometro",
-     "tema": "¿Tu heladera enfría bien? Termómetro en un vaso de agua: 4 °C o menos (USDA FSIS)",
-     "estado": "listo",
-     "cuando": "2026-11-21T14:12",
-     "motivo": "render sin Claude"
-    },
     {
      "slug": "062-pote-microondas",
      "tema": "Calentar en el pote de yogur o margarina: no es para el microondas (USDA FSIS)",
@@ -72,11 +65,11 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "059-pibe-chango-guri",
-     "tema": "¿Pibe, chango o gurí? Cómo se le dice a un chico según la zona de Argentina (Billiken, DLE)",
-     "estado": "publicado",
-     "cuando": "2026-11-23T19:32",
-     "motivo": "https://www.instagram.com/reel/DgGdcSJjJht/"
+     "slug": "065-voseo-vos-o-tu",
+     "tema": "¿Por qué decimos vos y no tú? El voseo casi desapareció de España y quedó en el Río de la Plata (RAE)",
+     "estado": "listo",
+     "cuando": "2026-11-22T14:41",
+     "motivo": "render sin Claude"
     },
     {
      "slug": "060-celular-carga-noche",
@@ -84,6 +77,13 @@
      "estado": "publicado",
      "cuando": "2026-11-25T12:33",
      "motivo": "https://www.instagram.com/reel/DgK3C5Buw96/"
+    },
+    {
+     "slug": "061-heladera-termometro",
+     "tema": "¿Tu heladera enfría bien? Termómetro en un vaso de agua: 4 °C o menos (USDA FSIS)",
+     "estado": "publicado",
+     "cuando": "2026-11-25T19:32",
+     "motivo": "https://www.instagram.com/reel/DgLnA6EhPoA/"
     }
    ],
    "empleados": [
@@ -104,7 +104,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-25T16:45",
-     "hace": "hace 46 min",
+     "hace": "hace 2 h",
      "detalle": [
       "Uso: 49 pasos · 100,088 tokens nuevos · 2,364,305 de caché · 18,274 escritos · equivale a US$ 0.95 de API",
       "2026-11-25 16:30 Arranca la producción (15 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -139,7 +139,7 @@
      "estado": "ok",
      "resumen": "Guía de referentes al día.",
      "cuando": "2026-11-23T19:13",
-     "hace": "hace 46 h",
+     "hace": "hace 2 días",
      "detalle": [
       "05/11 15:28 Termina Vera (ok).",
       "23/11 19:11 Arranca Vera (referentes).",
@@ -169,7 +169,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de 2024/2025 o de México). SIN tema nuevo. Descartados",
      "cuando": "2026-11-24T20:11",
-     "hace": "hace 21 h",
+     "hace": "hace 23 h",
      "detalle": [
       "22/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada fechado de hoy (lo más reciente es del 12-16 nov). SIN tema nuevo verificable. Descartados: (a) alertas por tormentas/granizo en 15 provincias (Meteored, sin fecha verificable; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) superluna 24-nov -> todavía no se vive, reevaluar el 23-24; (c) dólar, consumo, política, IA -> economía/política, no encajan. Sigue la cola normal.",
       "23/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (lo más reciente es del 16-nov; el resto mezcla años). SIN tema nuevo. Descartados: (a) calor del norte/viento norte y posibles tormentas del último finde de noviembre (Meteored, fechas poco claras; calor/tormenta/granizo ya cubiertos 019/048/049/005/024/018); (b) superluna 24-nov -> YA en cola (068-superluna-no-tan-grande, listo); (c) Día de la Soberanía/feriado -> ya hecho (053). Sigue la cola normal.",
@@ -206,8 +206,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-25T16:45",
-     "hace": "hace 46 min",
+     "cuando": "2026-11-25T19:32",
+     "hace": "hace 3 min",
      "detalle": [
       "069-chicle-siete-anios: aprobado — Todas las afirmaciones, incluidas las de salud, estan verificadas contra las paginas primarias. Atribuciones correctas: la Cleveland Clinic ",
       "070-rayo-despues-lluvia: aprobado — Todas las afirmaciones de seguridad están verificadas contra NWS/NOAA (weather.gov, noaa.gov/jetstream). Ninguna es falsa, dudosa ni probabl",
@@ -239,8 +239,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-25T16:45",
-     "hace": "hace 46 min",
+     "cuando": "2026-11-25T19:32",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -262,14 +262,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-25 16:45.",
-     "cuando": "2026-11-25T16:45",
-     "hace": "hace 46 min",
+     "resumen": "Último video terminado: 2026-11-25 19:32.",
+     "cuando": "2026-11-25T19:32",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "bdcf60572f7b"
+     "firma": "af220596a87e"
     },
     {
      "id": "control",
@@ -286,14 +286,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "16 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-25T16:45",
-     "hace": "hace 46 min",
+     "resumen": "15 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-25T19:32",
+     "hace": "hace 3 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "23b2edd4d257"
+     "firma": "66a55489ad81"
     },
     {
      "id": "publicador",
@@ -310,27 +310,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: 060-celular-carga-noche.",
-     "cuando": "2026-11-25T12:34",
-     "hace": "hace 4 h",
+     "resumen": "Último: 061-heladera-termometro.",
+     "cuando": "2026-11-25T19:33",
+     "hace": "hace 2 min",
      "detalle": [
-      "24/11 19:32 058-agua-del-mate publicado: https://www.instagram.com/reel/DgJCQPnkWTn/",
-      "24/11 19:33 058-agua-del-mate publicado en Facebook: https://www.facebook.com/reel/1172208281930075/",
-      "24/11 19:33 058-agua-del-mate en la bandeja de TikTok",
-      "24/11 19:33 058-agua-del-mate https://youtube.com/shorts/v1ebBniWyHw | privacidad: public",
-      "24/11 19:33 058-agua-del-mate paquete para TikTok/YouTube enviado",
       "25/11 12:33 060-celular-carga-noche publicado: https://www.instagram.com/reel/DgK3C5Buw96/",
       "25/11 12:34 060-celular-carga-noche publicado en Facebook: https://www.facebook.com/reel/4449934785260823/",
       "25/11 12:34 060-celular-carga-noche en la bandeja de TikTok",
       "25/11 12:34 060-celular-carga-noche https://youtube.com/shorts/ynNaSW6qKRY | privacidad: public",
-      "25/11 12:34 060-celular-carga-noche paquete para TikTok/YouTube enviado"
+      "25/11 12:34 060-celular-carga-noche paquete para TikTok/YouTube enviado",
+      "25/11 19:32 061-heladera-termometro publicado: https://www.instagram.com/reel/DgLnA6EhPoA/",
+      "25/11 19:32 061-heladera-termometro publicado en Facebook: https://www.facebook.com/reel/1936658997298082/",
+      "25/11 19:33 061-heladera-termometro en la bandeja de TikTok",
+      "25/11 19:33 061-heladera-termometro https://youtube.com/shorts/8LFsYRV9gpk | privacidad: public",
+      "25/11 19:33 061-heladera-termometro paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: 061-heladera-termometro — ¿Tu heladera enfría bien? Termómetro en un vaso de agua: 4 °C o menos (USDA FSIS)"
+      "Próximo: 062-pote-microondas — Calentar en el pote de yogur o margarina: no es para el microondas (USDA FSIS)"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "c5e1cbdb831b"
+     "firma": "89b554f78926"
     },
     {
      "id": "redes",
@@ -348,17 +348,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-25T12:34",
-     "hace": "hace 4 h",
+     "cuando": "2026-11-25T19:33",
+     "hace": "hace 2 min",
      "detalle": [
-      "24/11 12:33 057-ruta-40-de-punta-a-punta https://youtube.com/shorts/g-zANMp8P2c | privacidad: public",
-      "24/11 12:33 057-ruta-40-de-punta-a-punta paquete para TikTok/YouTube enviado",
-      "24/11 19:33 058-agua-del-mate en la bandeja de TikTok",
       "24/11 19:33 058-agua-del-mate https://youtube.com/shorts/v1ebBniWyHw | privacidad: public",
       "24/11 19:33 058-agua-del-mate paquete para TikTok/YouTube enviado",
       "25/11 12:34 060-celular-carga-noche en la bandeja de TikTok",
       "25/11 12:34 060-celular-carga-noche https://youtube.com/shorts/ynNaSW6qKRY | privacidad: public",
-      "25/11 12:34 060-celular-carga-noche paquete para TikTok/YouTube enviado"
+      "25/11 12:34 060-celular-carga-noche paquete para TikTok/YouTube enviado",
+      "25/11 19:33 061-heladera-termometro en la bandeja de TikTok",
+      "25/11 19:33 061-heladera-termometro https://youtube.com/shorts/8LFsYRV9gpk | privacidad: public",
+      "25/11 19:33 061-heladera-termometro paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -381,7 +381,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-25T01:51",
-     "hace": "hace 15 h",
+     "hace": "hace 17 h",
      "detalle": [
       "2026-11-21 22:55 bondi-de-brasil: listo control OK",
       "2026-11-21 22:55 bondi-de-brasil: listo control OK",
@@ -415,7 +415,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-25T06:40",
-     "hace": "hace 10 h",
+     "hace": "hace 12 h",
      "detalle": [
       "24/11 22:31 Hay 48 comentarios nuevos: arranca la respuesta.",
       "24/11 00:00 Respondí 40 · salteé 7 · alerté 1. (059-pibe-chango-guri: 40 respondidos (acentos regionales, anécdotas, Córdoba, Misiones, Tucumán, Formosa, Chaco, Corrientes, etc.); salteados: 6 por risas, insultos, palabra ambigua y duplicado; 058-agua-del-mate: 1 salteado por provocación; alerta: mgrnine cuestiona que \"pibe\" sea niño y no adolescente)",
@@ -454,7 +454,7 @@
      "estado": "ok",
      "resumen": "25/11: 1143 seguidores",
      "cuando": "2026-11-25T05:19",
-     "hace": "hace 12 h",
+     "hace": "hace 14 h",
      "detalle": [
       "22/11: 1034 seguidores",
       "23/11: 1045 seguidores",
@@ -487,7 +487,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-25T17:31",
+     "cuando": "2026-11-25T19:35",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -527,13 +527,18 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 5,
-   "listos": 16,
-   "dias": 8.0,
-   "proximo": "en-035-turkey-stuffing",
-   "publicados": 36,
+   "listos": 15,
+   "dias": 7.5,
+   "proximo": "en-036-phantom-charger",
+   "publicados": 37,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "en-035-turkey-stuffing",
+     "link": "https://www.instagram.com/reel/DgLnTqYKG9j/",
+     "cuando": "2026-11-25T22:34"
+    },
     {
      "slug": "en-034-alcohol-cook-off",
      "link": "https://www.instagram.com/reel/DgK3UwMCt3q/",
@@ -553,21 +558,9 @@
      "slug": "en-033-turkey-thaw",
      "link": "https://www.instagram.com/reel/DgGdrJSHEjj/",
      "cuando": "2026-11-23T22:34"
-    },
-    {
-     "slug": "en-027-bleach-vinegar",
-     "link": "https://www.instagram.com/reel/DgFuyyQnKXi/",
-     "cuando": "2026-11-23T15:44"
     }
    ],
    "linea": [
-    {
-     "slug": "en-035-turkey-stuffing",
-     "tema": "Stuffing inside the turkey: 165 F at the center (USDA FSIS; Thanksgiving 11/26)",
-     "estado": "listo",
-     "cuando": "2026-11-21T14:23",
-     "motivo": "render sin Claude"
-    },
     {
      "slug": "en-036-phantom-charger",
      "tema": "Does unplugging your phone charger save money? (LBNL standby; own)",
@@ -590,11 +583,11 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "en-033-turkey-thaw",
-     "tema": "How to thaw your Thanksgiving turkey (USDA: 24 h per 4-5 lb in the fridge)",
-     "estado": "publicado",
-     "cuando": "2026-11-23T19:34",
-     "motivo": "https://www.instagram.com/reel/DgGdrJSHEjj/"
+     "slug": "en-039-polar-vortex",
+     "tema": "What is the polar vortex? (NWS; not a storm)",
+     "estado": "listo",
+     "cuando": "2026-11-22T15:07",
+     "motivo": "render sin Claude"
     },
     {
      "slug": "en-034-alcohol-cook-off",
@@ -602,6 +595,13 @@
      "estado": "publicado",
      "cuando": "2026-11-25T12:36",
      "motivo": "https://www.instagram.com/reel/DgK3UwMCt3q/"
+    },
+    {
+     "slug": "en-035-turkey-stuffing",
+     "tema": "Stuffing inside the turkey: 165 F at the center (USDA FSIS; Thanksgiving 11/26)",
+     "estado": "publicado",
+     "cuando": "2026-11-25T19:35",
+     "motivo": "https://www.instagram.com/reel/DgLnTqYKG9j/"
     }
    ],
    "empleados": [
@@ -622,7 +622,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-25T16:59",
-     "hace": "hace 32 min",
+     "hace": "hace 2 h",
      "detalle": [
       "Uso: 43 pasos · 71,177 tokens nuevos · 1,506,761 de caché · 14,189 escritos · equivale a US$ 0.75 de API",
       "2026-11-25 16:45 Arranca la producción (15 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
@@ -659,7 +659,7 @@
      "estado": "ok",
      "resumen": "Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2019/2023/2024 y tendencias virlo del 11–18/11 (GTA 6 ya cubierto en en-030/031/032);",
      "cuando": "2026-11-24T20:11",
-     "hace": "hace 21 h",
+     "hace": "hace 23 h",
      "detalle": [
       "21/11 00:00 Pasada del radar: la búsqueda (NWS fin de semana, tendencias de Thanksgiving) solo devolvió páginas de inviernos anteriores o índices sin fecha; nada verificable de las últimas 48 h. Descartados: (1) clima del fin de semana: sin alerta ni fuente oficial del día; (2) Thanksgiving (26/11): sin ángulo de guardar/comentar verificable hoy; (3) superluna del 24/11: sin ángulo de guardar/comentar. Sin tema nuevo.",
       "23/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2024/2025 y titulares del 10–18/11; nada verificable de las últimas 48 h. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) sarampión (5.412 casos al 12/11, CDC): salud, sin ángulo de guardar/comentar y sin fuente del día; (3) elecciones/Nvidia/policiales: política, negocios o delito. Sin tema nuevo.",
@@ -690,8 +690,8 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-25T16:59",
-     "hace": "hace 32 min",
+     "cuando": "2026-11-25T19:35",
+     "hace": "recién",
      "detalle": [
       "en-043-coffee-math: aprobado — Todas las cuentas son correctas y se verificaron por recalculo: 5x365=1825, 5x260=1300, 1x365=365, y 260 = 52 semanas x 5 dias. No hay datos",
       "en-044-wet-hair: aprobado — Segunda pasada con fuentes primarias. Todas las afirmaciones de salud estan verificadas y ninguna es falsa. (1) CDC common-cold/about dice '",
@@ -723,8 +723,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-11-25T16:59",
-     "hace": "hace 32 min",
+     "cuando": "2026-11-25T19:35",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -746,14 +746,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-25 16:59.",
-     "cuando": "2026-11-25T16:59",
-     "hace": "hace 32 min",
+     "resumen": "Último video terminado: 2026-11-25 19:35.",
+     "cuando": "2026-11-25T19:35",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "869215567b66"
+     "firma": "d977452582b0"
     },
     {
      "id": "control",
@@ -770,14 +770,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "16 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-25T16:59",
-     "hace": "hace 32 min",
+     "resumen": "15 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-25T19:35",
+     "hace": "recién",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "ea0519ae7417"
+     "firma": "a2e6679efcbd"
     },
     {
      "id": "publicador",
@@ -794,27 +794,27 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último: en-034-alcohol-cook-off.",
-     "cuando": "2026-11-25T12:37",
-     "hace": "hace 4 h",
+     "resumen": "Último: en-035-turkey-stuffing.",
+     "cuando": "2026-11-25T19:35",
+     "hace": "recién",
      "detalle": [
-      "24/11 12:35 en-029-swim-after-eating en la bandeja de TikTok",
-      "24/11 12:35 en-029-swim-after-eating paquete para TikTok/YouTube enviado",
-      "24/11 19:34 en-032-gta-13-years publicado: https://www.instagram.com/reel/DgJCdOVFHmX/",
-      "24/11 19:34 en-032-gta-13-years publicado en Facebook: https://www.facebook.com/reel/2578769702621533/",
       "24/11 19:35 en-032-gta-13-years en la bandeja de TikTok",
       "24/11 19:35 en-032-gta-13-years paquete para TikTok/YouTube enviado",
       "25/11 12:36 en-034-alcohol-cook-off publicado: https://www.instagram.com/reel/DgK3UwMCt3q/",
       "25/11 12:36 en-034-alcohol-cook-off publicado en Facebook: https://www.facebook.com/reel/1135121399237839/",
       "25/11 12:37 en-034-alcohol-cook-off en la bandeja de TikTok",
-      "25/11 12:37 en-034-alcohol-cook-off paquete para TikTok/YouTube enviado"
+      "25/11 12:37 en-034-alcohol-cook-off paquete para TikTok/YouTube enviado",
+      "25/11 19:35 en-035-turkey-stuffing publicado: https://www.instagram.com/reel/DgLnTqYKG9j/",
+      "25/11 19:35 en-035-turkey-stuffing publicado en Facebook: https://www.facebook.com/reel/2366202337475777/",
+      "25/11 19:35 en-035-turkey-stuffing en la bandeja de TikTok",
+      "25/11 19:35 en-035-turkey-stuffing paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: en-035-turkey-stuffing — Stuffing inside the turkey: 165 F at the center (USDA FSIS; Thanksgiving 11/26)"
+      "Próximo: en-036-phantom-charger — Does unplugging your phone charger save money? (LBNL standby; own)"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "8d6a403bbc4f"
+     "firma": "521d2cf14d70"
     },
     {
      "id": "redes",
@@ -832,17 +832,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-25T12:37",
-     "hace": "hace 4 h",
+     "cuando": "2026-11-25T19:35",
+     "hace": "recién",
      "detalle": [
-      "23/11 19:35 en-033-turkey-thaw en la bandeja de TikTok",
-      "23/11 19:35 en-033-turkey-thaw paquete para TikTok/YouTube enviado",
       "24/11 12:35 en-029-swim-after-eating en la bandeja de TikTok",
       "24/11 12:35 en-029-swim-after-eating paquete para TikTok/YouTube enviado",
       "24/11 19:35 en-032-gta-13-years en la bandeja de TikTok",
       "24/11 19:35 en-032-gta-13-years paquete para TikTok/YouTube enviado",
       "25/11 12:37 en-034-alcohol-cook-off en la bandeja de TikTok",
-      "25/11 12:37 en-034-alcohol-cook-off paquete para TikTok/YouTube enviado"
+      "25/11 12:37 en-034-alcohol-cook-off paquete para TikTok/YouTube enviado",
+      "25/11 19:35 en-035-turkey-stuffing en la bandeja de TikTok",
+      "25/11 19:35 en-035-turkey-stuffing paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -868,7 +868,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-24T22:33",
-     "hace": "hace 18 h",
+     "hace": "hace 21 h",
      "detalle": [
       "02/11 21:15 Resumen: respondí 1, salteé 1, alerté 0.",
       "02/11 21:16 Termina la respuesta de comentarios (ok).",
@@ -903,7 +903,7 @@
      "estado": "ok",
      "resumen": "25/11: 5 seguidores",
      "cuando": "2026-11-25T05:19",
-     "hace": "hace 12 h",
+     "hace": "hace 14 h",
      "detalle": [
       "22/11: 5 seguidores",
       "23/11: 5 seguidores",
@@ -936,7 +936,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-25T17:31",
+     "cuando": "2026-11-25T19:35",
      "hace": "recién",
      "detalle": [],
      "tareas": [],

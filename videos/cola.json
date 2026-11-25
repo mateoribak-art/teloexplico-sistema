@@ -2370,7 +2370,7 @@
  {
   "slug": "061-heladera-termometro",
   "tema": "¿Tu heladera enfría bien? Termómetro en un vaso de agua: 4 °C o menos (USDA FSIS)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -2391,6 +2391,11 @@
     "estado": "listo",
     "cuando": "2026-11-21T14:12",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-25T19:32",
+    "motivo": "https://www.instagram.com/reel/DgLnA6EhPoA/"
    }
   ]
  },
