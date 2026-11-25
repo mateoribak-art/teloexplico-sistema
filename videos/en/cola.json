@@ -1654,5 +1654,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-050-stacked-discounts",
+  "tema": "Do 20% off + extra 20% off equal 40% off? (Black Friday math; own)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-25T16:46",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-25T16:46",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-25T16:51",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-25T16:59",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

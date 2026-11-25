@@ -1,0 +1,54 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Las afirmaciones de plata y seguridad (autos modernos se manejan a los pocos segundos, la forma más rápida de calentar es manejar, el ralentí gasta entre un cuarto y medio galón por hora) están verificadas literalmente en FuelEconomy.gov (Fuel Economy Myths y Driving Habits) y la atribución al sitio del Departamento de Energía y la EPA es exacta. La conversión es correcta (0,25 gal = 0,95 L; 0,5 gal = 1,89 L, o sea 'entre uno y casi dos litros'). La única afirmación no textual de la fuente (auto muy viejo puede necesitar otra cosa) está presentada como posibilidad ('puede') y como matiz, no como cifra ni dato duro. No hay afirmaciones falsas ni dudosas.",
+  "afirmaciones": [
+    {
+      "texto": "Para un auto moderno, eso no hace falta (calentarlo cinco minutos parado).",
+      "fuente": "https://www.fueleconomy.gov/feg/myths.shtml: 'Modern vehicles can be driven within seconds of being started' y 'the quickest way to warm up a vehicle's engine is to drive it'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Según FuelEconomy.gov, el sitio del Departamento de Energía y la EPA de Estados Unidos, los autos modernos se pueden manejar a los pocos segundos de arrancar.",
+      "fuente": "https://www.fueleconomy.gov/feg/myths.shtml (sitio oficial del DOE y la EPA). Atribución exacta; el texto original agrega que no conviene exigir el motor hasta que llega a temperatura, lo cual el video cubre con 'manejá suave'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y dicen que la forma más rápida de calentar el motor es manejarlo.",
+      "fuente": "https://www.fueleconomy.gov/feg/myths.shtml: 'the quickest way to warm up a vehicle's engine is to drive it'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mientras tanto, el auto parado gasta combustible: entre un cuarto y medio galón por hora, o sea entre uno y casi dos litros.",
+      "fuente": "https://www.fueleconomy.gov/feg/myths.shtml y https://www.fueleconomy.gov/feg/driveHabits.jsp: 'Idling can use a quarter to a half gallon of fuel per hour, depending on engine size and AC use'. Conversión propia: 0,25 gal x 3,785 = 0,95 L; 0,5 gal x 3,785 = 1,89 L.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: eso es para autos modernos. Un auto muy viejo puede necesitar otra cosa.",
+      "fuente": "Sin fuente primaria en FuelEconomy.gov (la página no habla de autos muy viejos en este punto). Es un matiz razonable y de conocimiento general (motores con carburador), presentado como posibilidad con 'puede'.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Manejá suave los primeros minutos (caption: 'conviene manejar suave los primeros minutos').",
+      "fuente": "https://www.fueleconomy.gov/feg/myths.shtml: el motor no debe someterse a cargas pesadas hasta alcanzar la temperatura normal de funcionamiento.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Guardalo: arrancá, esperá unos segundos y salí tranquilo.",
+      "fuente": "Consecuencia directa de 'can be driven within seconds of being started' (FuelEconomy.gov, Fuel Economy Myths).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes: FuelEconomy.gov (Departamento de Energía y EPA de EE. UU.), Fuel Economy Myths (caption).",
+      "fuente": "https://www.fueleconomy.gov/feg/myths.shtml; sitio oficial administrado por el Departamento de Energía con la EPA. Título de la página correcto.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

@@ -19,3 +19,13 @@ Uso: 19 pasos · 18,799 tokens nuevos · 1,085,097 de caché · 6,534 escritos �
 2026-11-25 10:29 Render de 075-parabrisas-empanado (sin Claude).
 2026-11-25 10:54 075-parabrisas-empanado: listo (render sin Claude)
 2026-11-25 10:54 Termina la producción (ok).
+2026-11-25 16:30 Arranca la producción (15 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `076-calentar-el-auto` («¿Dejar el auto calentando?»). El chequeo lo aprobó al primer intento con FuelEconomy.gov (Departamento de Energía y EPA). La voz dura 46,5 s, pasa un poco el tope. Escenas 3D, `tsc` sin errores y dos vueltas de cuadros hechas. El render, la portada y el control los hace `producir.py` esta noche, así que todavía no se vio el mp4.
+- **Apartados:** `005`, `038`, `042`, `044` y `051` quedan apartados. Ninguno fue por "chequeo rechazado", así que no había nada que rescatar.
+- **Segundo video:** no lo produje, porque la cola ya tenía 15 listos, más de los 10 que pide la regla.
+
+Anoté el turno en `videos/produccion.log`, con el pilar `plata_hogar` y la interacción `guardar` y `comentar`.
+Uso: 49 pasos · 100,088 tokens nuevos · 2,364,305 de caché · 18,274 escritos · equivale a US$ 0.95 de API
+2026-11-25 16:36 Render de 076-calentar-el-auto (sin Claude).
+2026-11-25 16:45 076-calentar-el-auto: listo (render sin Claude)
+2026-11-25 16:45 Termina la producción (ok).

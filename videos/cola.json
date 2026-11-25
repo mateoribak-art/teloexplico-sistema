@@ -2801,5 +2801,27 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "076-calentar-el-auto",
+  "tema": "¿Hay que dejar calentar el motor del auto antes de salir? No: unos 30 segundos y a manejar (US DOE)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-25T16:31",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-25T16:35",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-25T16:45",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

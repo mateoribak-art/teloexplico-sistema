@@ -1,0 +1,23 @@
+{
+  "titulo": "Dejás el auto calentando antes de salir",
+  "fondo": "oscuro",
+  "receta": "Mito + zoom adentro",
+  "pilar": "plata_hogar",
+  "interaccion": ["guardar", "comentar"],
+  "destinatario": "se lo manda un hijo a su viejo que deja el auto calentando cinco minutos antes de salir",
+  "regla_guardable": "Un auto moderno se puede manejar a los pocos segundos de arrancar: la forma más rápida de calentarlo es manejarlo.",
+  "fuentes": [
+    "FuelEconomy.gov (Departamento de Energía y EPA de Estados Unidos): Fuel Economy Myths"
+  ],
+  "frases": [
+    {"texto": "Arrancás el auto y lo dejás calentando cinco minutos antes de salir.", "estilo": "Seco, directo, a cámara."},
+    {"texto": "Para un auto moderno, eso no hace falta.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "Según FuelEconomy.gov, el sitio del Departamento de Energía y la EPA de Estados Unidos, los autos modernos se pueden manejar a los pocos segundos de arrancar.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Y dicen que la forma más rápida de calentar el motor es manejarlo.", "estilo": "Claro, didáctico."},
+    {"texto": "Mientras tanto, el auto parado gasta combustible: entre un cuarto y medio galón por hora, o sea entre uno y casi dos litros.", "estilo": "Informativo, con un poco de sorpresa."},
+    {"texto": "Ojo: eso es para autos modernos. Un auto muy viejo puede necesitar otra cosa, y manejá suave los primeros minutos.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Guardalo: arrancá, esperá unos segundos y salí tranquilo.", "estilo": "Práctico, amable."},
+    {"texto": "¿Cuántos minutos lo dejás calentando vos? Contestá con un número.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al que deja el auto calentando.", "estilo": "Cómplice, con humor."}
+  ]
+}

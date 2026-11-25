@@ -1,0 +1,25 @@
+{
+  "titulo": "20% off plus an extra 20% off is not 40% off",
+  "pilar": "plata_hogar",
+  "receta": "cuenta simple con la plata de todos los días + regla para guardar (se multiplica lo que queda), con fecha: Black Friday 11/27",
+  "fondo": "oscuro",
+  "destinatario": "Se lo manda alguien que hace bien las cuentas a su amigo que dice que todo está 'casi a mitad de precio' en Black Friday.",
+  "interaccion": {
+    "guardar": "Stacked discounts multiply what's left: 20% off + 20% off = 0.8 x 0.8 = 64% of the price, so 36% off. A $100 item costs $64, not $60.",
+    "comentar": "What's the biggest discount you ever scored? Give me a percent."
+  },
+  "fuentes": [
+    "Aritmética simple: 100 x 0.8 = 80; 80 x 0.8 = 64; 100 - 64 = 36"
+  ],
+  "frases": [
+    {"texto": "Twenty percent off, plus an extra twenty percent off? That is not forty percent off.", "estilo": "Casual, a little teasing."},
+    {"texto": "It's thirty-six.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "Take a hundred-dollar jacket. The first twenty percent off leaves it at eighty dollars.", "estilo": "Clear, matter of fact."},
+    {"texto": "The extra twenty comes off the eighty, not the hundred. That's sixteen dollars, so you pay sixty-four.", "estilo": "Explaining, steady."},
+    {"texto": "Heads up: that's for deals that stack one after another. Some stores take the extra off the original price, so check the fine print.", "estilo": "Warm, honest, with the caveat."},
+    {"texto": "The trick to save: multiply what's left. Eighty percent times eighty percent is sixty-four percent.", "estilo": "Practical, friendly."},
+    {"texto": "Save this for Black Friday.", "estilo": "Practical, friendly."},
+    {"texto": "So what's the biggest discount you ever scored? Give me a percent.", "estilo": "Casual, inviting."},
+    {"texto": "Send this to the friend who says everything is basically half off.", "estilo": "Playful, with humor."}
+  ]
+}

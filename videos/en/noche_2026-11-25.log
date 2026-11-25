@@ -18,3 +18,15 @@ Permisos negados (1):
 2026-11-25 10:59 Render de en-049-space-heater (sin Claude).
 2026-11-25 11:11 en-049-space-heater: listo (render sin Claude)
 2026-11-25 11:11 Termina la producción (ok).
+2026-11-25 16:45 Arranca la producción (15 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `en-050-stacked-discounts` (el descuento doble de 20 % más 20 % es 36 %, no 40 %; serie Everyday math #5, pensado para Black Friday). El chequeo lo aprobó en el primer intento. La voz dura 39,9 s, `tlx tsc` pasó sin errores y revisé los cuadros en 2 vueltas. Queda en estado `render` y lo renderiza `producir.py`. No lo rendericé ni corrí `tlx control`.
+- **Rescate:** no había videos de esta cuenta apartados por chequeo, así que no hubo nada que rescatar. No hice la pasada del radar de hoy; la última es del 24/11 y estaba sin tema.
+- **Apartados o incompletos:** ninguno. La única adaptación pendiente, la pava eléctrica, no encaja en EE. UU., por eso el video es propio.
+
+El chequeo marcó la frase «some stores take the extra off the original price» como probable, sin fuente de una tienda concreta; la dejé con el matiz «some» y «check the fine print».
+Uso: 43 pasos · 71,177 tokens nuevos · 1,506,761 de caché · 14,189 escritos · equivale a US$ 0.75 de API
+Permisos negados (1):
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-050-stacked-discounts; cat > chequeo.json <<'EOF'\n{\n  \"vered
+2026-11-25 16:51 Render de en-050-stacked-discounts (sin Claude).
+2026-11-25 16:59 en-050-stacked-discounts: listo (render sin Claude)
+2026-11-25 16:59 Termina la producción (ok).

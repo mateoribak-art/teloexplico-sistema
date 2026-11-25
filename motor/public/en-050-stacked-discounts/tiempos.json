@@ -1,0 +1,648 @@
+{
+ "duracion": 39.87,
+ "frases": [
+  {
+   "texto": "Twenty percent off, plus an extra twenty percent off? That is not forty percent off.",
+   "palabras": [
+    {
+     "texto": "Twenty",
+     "inicio": 0.0,
+     "fin": 0.2
+    },
+    {
+     "texto": "percent",
+     "inicio": 0.2,
+     "fin": 0.56
+    },
+    {
+     "texto": "off,",
+     "inicio": 0.56,
+     "fin": 0.82
+    },
+    {
+     "texto": "plus",
+     "inicio": 0.96,
+     "fin": 1.18
+    },
+    {
+     "texto": "an",
+     "inicio": 1.18,
+     "fin": 1.38
+    },
+    {
+     "texto": "extra",
+     "inicio": 1.38,
+     "fin": 1.88
+    },
+    {
+     "texto": "twenty",
+     "inicio": 1.88,
+     "fin": 2.1
+    },
+    {
+     "texto": "percent",
+     "inicio": 2.1,
+     "fin": 2.42
+    },
+    {
+     "texto": "off?",
+     "inicio": 2.42,
+     "fin": 2.68
+    },
+    {
+     "texto": "That",
+     "inicio": 2.92,
+     "fin": 3.12
+    },
+    {
+     "texto": "is",
+     "inicio": 3.12,
+     "fin": 3.32
+    },
+    {
+     "texto": "not",
+     "inicio": 3.32,
+     "fin": 3.86
+    },
+    {
+     "texto": "forty",
+     "inicio": 3.86,
+     "fin": 4.3
+    },
+    {
+     "texto": "percent",
+     "inicio": 4.3,
+     "fin": 4.72
+    },
+    {
+     "texto": "off.",
+     "inicio": 4.72,
+     "fin": 5.0
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 5.0
+  },
+  {
+   "texto": "It's thirty-six.",
+   "palabras": [
+    {
+     "texto": "It's",
+     "inicio": 5.38,
+     "fin": 5.54
+    },
+    {
+     "texto": "thirty-six.",
+     "inicio": 5.54,
+     "fin": 5.94
+    }
+   ],
+   "inicio": 5.38,
+   "fin": 5.94
+  },
+  {
+   "texto": "Take a hundred-dollar jacket. The first twenty percent off leaves it at eighty dollars.",
+   "palabras": [
+    {
+     "texto": "Take",
+     "inicio": 6.56,
+     "fin": 7.04
+    },
+    {
+     "texto": "a",
+     "inicio": 7.04,
+     "fin": 7.2
+    },
+    {
+     "texto": "hundred-dollar",
+     "inicio": 7.2,
+     "fin": 7.58
+    },
+    {
+     "texto": "jacket.",
+     "inicio": 7.58,
+     "fin": 7.88
+    },
+    {
+     "texto": "The",
+     "inicio": 8.4,
+     "fin": 8.5
+    },
+    {
+     "texto": "first",
+     "inicio": 8.5,
+     "fin": 8.7
+    },
+    {
+     "texto": "twenty",
+     "inicio": 8.7,
+     "fin": 8.96
+    },
+    {
+     "texto": "percent",
+     "inicio": 8.96,
+     "fin": 9.32
+    },
+    {
+     "texto": "off",
+     "inicio": 9.32,
+     "fin": 9.5
+    },
+    {
+     "texto": "leaves",
+     "inicio": 9.5,
+     "fin": 9.74
+    },
+    {
+     "texto": "it",
+     "inicio": 9.74,
+     "fin": 9.92
+    },
+    {
+     "texto": "at",
+     "inicio": 9.92,
+     "fin": 10.02
+    },
+    {
+     "texto": "eighty",
+     "inicio": 10.02,
+     "fin": 10.3
+    },
+    {
+     "texto": "dollars.",
+     "inicio": 10.3,
+     "fin": 10.64
+    }
+   ],
+   "inicio": 6.56,
+   "fin": 10.64
+  },
+  {
+   "texto": "The extra twenty comes off the eighty, not the hundred. That's sixteen dollars, so you pay sixty-four.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 11.22,
+     "fin": 11.34
+    },
+    {
+     "texto": "extra",
+     "inicio": 11.34,
+     "fin": 11.58
+    },
+    {
+     "texto": "twenty",
+     "inicio": 11.58,
+     "fin": 11.94
+    },
+    {
+     "texto": "comes",
+     "inicio": 11.94,
+     "fin": 12.24
+    },
+    {
+     "texto": "off",
+     "inicio": 12.24,
+     "fin": 12.44
+    },
+    {
+     "texto": "the",
+     "inicio": 12.44,
+     "fin": 12.62
+    },
+    {
+     "texto": "eighty,",
+     "inicio": 12.62,
+     "fin": 12.88
+    },
+    {
+     "texto": "not",
+     "inicio": 13.28,
+     "fin": 13.54
+    },
+    {
+     "texto": "the",
+     "inicio": 13.54,
+     "fin": 13.72
+    },
+    {
+     "texto": "hundred.",
+     "inicio": 13.72,
+     "fin": 13.94
+    },
+    {
+     "texto": "That's",
+     "inicio": 14.36,
+     "fin": 14.56
+    },
+    {
+     "texto": "sixteen",
+     "inicio": 14.56,
+     "fin": 14.82
+    },
+    {
+     "texto": "dollars,",
+     "inicio": 14.82,
+     "fin": 15.22
+    },
+    {
+     "texto": "so",
+     "inicio": 15.46,
+     "fin": 15.64
+    },
+    {
+     "texto": "you",
+     "inicio": 15.64,
+     "fin": 15.72
+    },
+    {
+     "texto": "pay",
+     "inicio": 15.72,
+     "fin": 15.86
+    },
+    {
+     "texto": "sixty-four.",
+     "inicio": 15.86,
+     "fin": 16.38
+    }
+   ],
+   "inicio": 11.22,
+   "fin": 16.38
+  },
+  {
+   "texto": "Heads up: that's for deals that stack one after another. Some stores take the extra off the original price, so check the fine print.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 16.92,
+     "fin": 17.14
+    },
+    {
+     "texto": "up:",
+     "inicio": 17.14,
+     "fin": 17.26
+    },
+    {
+     "texto": "that's",
+     "inicio": 17.6,
+     "fin": 17.88
+    },
+    {
+     "texto": "for",
+     "inicio": 17.88,
+     "fin": 18.0
+    },
+    {
+     "texto": "deals",
+     "inicio": 18.0,
+     "fin": 18.18
+    },
+    {
+     "texto": "that",
+     "inicio": 18.18,
+     "fin": 18.42
+    },
+    {
+     "texto": "stack",
+     "inicio": 18.42,
+     "fin": 18.88
+    },
+    {
+     "texto": "one",
+     "inicio": 18.88,
+     "fin": 19.26
+    },
+    {
+     "texto": "after",
+     "inicio": 19.26,
+     "fin": 19.54
+    },
+    {
+     "texto": "another.",
+     "inicio": 19.54,
+     "fin": 19.8
+    },
+    {
+     "texto": "Some",
+     "inicio": 20.26,
+     "fin": 20.44
+    },
+    {
+     "texto": "stores",
+     "inicio": 20.44,
+     "fin": 20.62
+    },
+    {
+     "texto": "take",
+     "inicio": 20.62,
+     "fin": 20.88
+    },
+    {
+     "texto": "the",
+     "inicio": 20.88,
+     "fin": 21.0
+    },
+    {
+     "texto": "extra",
+     "inicio": 21.0,
+     "fin": 21.26
+    },
+    {
+     "texto": "off",
+     "inicio": 21.26,
+     "fin": 21.48
+    },
+    {
+     "texto": "the",
+     "inicio": 21.48,
+     "fin": 21.6
+    },
+    {
+     "texto": "original",
+     "inicio": 21.6,
+     "fin": 21.96
+    },
+    {
+     "texto": "price,",
+     "inicio": 21.96,
+     "fin": 22.38
+    },
+    {
+     "texto": "so",
+     "inicio": 22.5,
+     "fin": 22.76
+    },
+    {
+     "texto": "check",
+     "inicio": 22.76,
+     "fin": 23.18
+    },
+    {
+     "texto": "the",
+     "inicio": 23.18,
+     "fin": 23.32
+    },
+    {
+     "texto": "fine",
+     "inicio": 23.32,
+     "fin": 23.48
+    },
+    {
+     "texto": "print.",
+     "inicio": 23.48,
+     "fin": 23.66
+    }
+   ],
+   "inicio": 16.92,
+   "fin": 23.66
+  },
+  {
+   "texto": "The trick to save: multiply what's left. Eighty percent times eighty percent is sixty-four percent.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 24.14,
+     "fin": 24.3
+    },
+    {
+     "texto": "trick",
+     "inicio": 24.3,
+     "fin": 24.54
+    },
+    {
+     "texto": "to",
+     "inicio": 24.54,
+     "fin": 24.66
+    },
+    {
+     "texto": "save:",
+     "inicio": 24.66,
+     "fin": 24.88
+    },
+    {
+     "texto": "multiply",
+     "inicio": 25.66,
+     "fin": 26.14
+    },
+    {
+     "texto": "what's",
+     "inicio": 26.14,
+     "fin": 26.64
+    },
+    {
+     "texto": "left.",
+     "inicio": 26.64,
+     "fin": 26.94
+    },
+    {
+     "texto": "Eighty",
+     "inicio": 26.94,
+     "fin": 27.68
+    },
+    {
+     "texto": "percent",
+     "inicio": 27.68,
+     "fin": 28.12
+    },
+    {
+     "texto": "times",
+     "inicio": 28.12,
+     "fin": 28.5
+    },
+    {
+     "texto": "eighty",
+     "inicio": 28.5,
+     "fin": 28.78
+    },
+    {
+     "texto": "percent",
+     "inicio": 28.78,
+     "fin": 29.24
+    },
+    {
+     "texto": "is",
+     "inicio": 29.24,
+     "fin": 29.52
+    },
+    {
+     "texto": "sixty-four",
+     "inicio": 29.52,
+     "fin": 30.42
+    },
+    {
+     "texto": "percent.",
+     "inicio": 30.42,
+     "fin": 30.88
+    }
+   ],
+   "inicio": 24.14,
+   "fin": 30.88
+  },
+  {
+   "texto": "Save this for Black Friday.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 31.22,
+     "fin": 31.58
+    },
+    {
+     "texto": "this",
+     "inicio": 31.58,
+     "fin": 31.8
+    },
+    {
+     "texto": "for",
+     "inicio": 31.8,
+     "fin": 31.96
+    },
+    {
+     "texto": "Black",
+     "inicio": 31.96,
+     "fin": 32.18
+    },
+    {
+     "texto": "Friday.",
+     "inicio": 32.18,
+     "fin": 32.5
+    }
+   ],
+   "inicio": 31.22,
+   "fin": 32.5
+  },
+  {
+   "texto": "So what's the biggest discount you ever scored? Give me a percent.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 33.04,
+     "fin": 33.2
+    },
+    {
+     "texto": "what's",
+     "inicio": 33.2,
+     "fin": 33.64
+    },
+    {
+     "texto": "the",
+     "inicio": 33.64,
+     "fin": 33.76
+    },
+    {
+     "texto": "biggest",
+     "inicio": 33.76,
+     "fin": 34.06
+    },
+    {
+     "texto": "discount",
+     "inicio": 34.06,
+     "fin": 34.48
+    },
+    {
+     "texto": "you",
+     "inicio": 34.48,
+     "fin": 34.68
+    },
+    {
+     "texto": "ever",
+     "inicio": 34.68,
+     "fin": 34.86
+    },
+    {
+     "texto": "scored?",
+     "inicio": 34.86,
+     "fin": 35.1
+    },
+    {
+     "texto": "Give",
+     "inicio": 35.6,
+     "fin": 35.72
+    },
+    {
+     "texto": "me",
+     "inicio": 35.72,
+     "fin": 35.82
+    },
+    {
+     "texto": "a",
+     "inicio": 35.82,
+     "fin": 35.9
+    },
+    {
+     "texto": "percent.",
+     "inicio": 35.9,
+     "fin": 36.22
+    }
+   ],
+   "inicio": 33.04,
+   "fin": 36.22
+  },
+  {
+   "texto": "Send this to the friend who says everything is basically half off.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 36.64,
+     "fin": 36.88
+    },
+    {
+     "texto": "this",
+     "inicio": 36.88,
+     "fin": 37.04
+    },
+    {
+     "texto": "to",
+     "inicio": 37.04,
+     "fin": 37.18
+    },
+    {
+     "texto": "the",
+     "inicio": 37.18,
+     "fin": 37.28
+    },
+    {
+     "texto": "friend",
+     "inicio": 37.28,
+     "fin": 37.46
+    },
+    {
+     "texto": "who",
+     "inicio": 37.46,
+     "fin": 37.66
+    },
+    {
+     "texto": "says",
+     "inicio": 37.66,
+     "fin": 37.86
+    },
+    {
+     "texto": "everything",
+     "inicio": 37.86,
+     "fin": 38.42
+    },
+    {
+     "texto": "is",
+     "inicio": 38.42,
+     "fin": 38.92
+    },
+    {
+     "texto": "basically",
+     "inicio": 38.92,
+     "fin": 39.36
+    },
+    {
+     "texto": "half",
+     "inicio": 39.36,
+     "fin": 39.62
+    },
+    {
+     "texto": "off.",
+     "inicio": 39.62,
+     "fin": 39.8
+    }
+   ],
+   "inicio": 36.64,
+   "fin": 39.8
+  }
+ ]
+}

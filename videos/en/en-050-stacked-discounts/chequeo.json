@@ -1,0 +1,17 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Toda la plata es aritmetica verificada (100x0.8=80; 80x0.8=64; 20% de 80 = 16; 100-64=36; 0.8x0.8=0.64) y coincide con material de matematica comercial (Loyola Chicago N0095 Successive Discounts; eCampusOntario Business Financial Math 1.1 Discounts: x+y-xy/100 = 36). La salvedad 'Some stores take the extra off the original price' es razonable y esta suavizada con 'Some' y 'check the fine print': la practica en EE. UU. varia por tienda y oferta (Macy's aplica el extra sobre precios ya rebajados y no combina con otras ofertas; Shopify permite configurar combinaciones; hay plataformas con estrategia 'compare-at/precio original'). No se hallo un retailer estadounidense puntual que lo documente de forma explicita, por eso el estado es 'probable' y no 'verificada'; el matiz alcanza porque no dice que sea comun ni nombra tiendas. Ninguna afirmacion falsa.",
+  "afirmaciones": [
+    {"texto": "20% off plus an extra 20% off is not 40% off.", "fuente": "Aritmetica: 0.8 x 0.8 = 0.64, descuento total 36%. Respaldo: Loyola Chicago N0095 Successive Discounts; eCampusOntario Business Financial Math 1.1 Discounts.", "estado": "verificada", "matiz_ok": true},
+    {"texto": "It's thirty-six (percent).", "fuente": "Aritmetica: 100 - 64 = 36; formula x+y-xy/100 = 20+20-4 = 36.", "estado": "verificada", "matiz_ok": true},
+    {"texto": "A hundred-dollar jacket; the first twenty percent off leaves it at eighty dollars.", "fuente": "Aritmetica: 100 x 0.8 = 80.", "estado": "verificada", "matiz_ok": true},
+    {"texto": "The extra twenty comes off the eighty, not the hundred. That's sixteen dollars, so you pay sixty-four.", "fuente": "Aritmetica: 80 x 0.2 = 16; 80 - 16 = 64.", "estado": "verificada", "matiz_ok": true},
+    {"texto": "That's for deals that stack one after another.", "fuente": "Aritmetica / descuentos sucesivos (Loyola N0095). Shopify Help Center 'Combining discounts': el resultado depende de como se combinan.", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Some stores take the extra off the original price, so check the fine print.", "fuente": "Practica variable por tienda/plataforma: Shopify Help Center 'Combining discounts'; Macy's promotional details (extra % sobre precios ya rebajados, no combinable con otras ofertas); Alphalogic help (estrategia 'Compare-at Price' calcula contra el precio original). Sin retailer US puntual que lo documente de forma explicita.", "estado": "probable", "matiz_ok": true},
+    {"texto": "The trick: multiply what's left. 80% times 80% is 64%.", "fuente": "Aritmetica: 0.8 x 0.8 = 0.64.", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Save this for Black Friday.", "fuente": "Calendario: Thanksgiving 2026 es el 26/11, por lo que Black Friday es el 27/11/2026.", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Send this to the friend who says everything is basically half off.", "fuente": "Humor/opinion, no es afirmacion factica.", "estado": "verificada", "matiz_ok": true},
+    {"texto": "A $100 item costs $64, not $60 (campo guardar).", "fuente": "Aritmetica: 100 x 0.64 = 64; 40% daria 60.", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Caption: 'Everyday math #5 · Follow so you don't miss #6'.", "fuente": "Numeracion interna de la serie; no es afirmacion externa y no se puede verificar fuera del sistema.", "estado": "probable", "matiz_ok": true}
+  ]
+}

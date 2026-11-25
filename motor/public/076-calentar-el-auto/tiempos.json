@@ -1,0 +1,703 @@
+{
+ "duracion": 46.52,
+ "frases": [
+  {
+   "texto": "Arrancás el auto y lo dejás calentando cinco minutos antes de salir.",
+   "palabras": [
+    {
+     "texto": "Arrancás",
+     "inicio": 0.0,
+     "fin": 0.4
+    },
+    {
+     "texto": "el",
+     "inicio": 0.4,
+     "fin": 0.56
+    },
+    {
+     "texto": "auto",
+     "inicio": 0.56,
+     "fin": 0.84
+    },
+    {
+     "texto": "y",
+     "inicio": 0.84,
+     "fin": 1.18
+    },
+    {
+     "texto": "lo",
+     "inicio": 1.18,
+     "fin": 1.3
+    },
+    {
+     "texto": "dejás",
+     "inicio": 1.3,
+     "fin": 1.56
+    },
+    {
+     "texto": "calentando",
+     "inicio": 1.56,
+     "fin": 2.16
+    },
+    {
+     "texto": "cinco",
+     "inicio": 2.16,
+     "fin": 2.52
+    },
+    {
+     "texto": "minutos",
+     "inicio": 2.52,
+     "fin": 2.96
+    },
+    {
+     "texto": "antes",
+     "inicio": 2.96,
+     "fin": 3.26
+    },
+    {
+     "texto": "de",
+     "inicio": 3.26,
+     "fin": 3.4
+    },
+    {
+     "texto": "salir.",
+     "inicio": 3.4,
+     "fin": 3.62
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.62
+  },
+  {
+   "texto": "Para un auto moderno, eso no hace falta.",
+   "palabras": [
+    {
+     "texto": "Para",
+     "inicio": 4.18,
+     "fin": 4.32
+    },
+    {
+     "texto": "un",
+     "inicio": 4.32,
+     "fin": 4.44
+    },
+    {
+     "texto": "auto",
+     "inicio": 4.44,
+     "fin": 4.58
+    },
+    {
+     "texto": "moderno,",
+     "inicio": 4.58,
+     "fin": 5.12
+    },
+    {
+     "texto": "eso",
+     "inicio": 5.26,
+     "fin": 5.3
+    },
+    {
+     "texto": "no",
+     "inicio": 5.3,
+     "fin": 5.44
+    },
+    {
+     "texto": "hace",
+     "inicio": 5.44,
+     "fin": 5.56
+    },
+    {
+     "texto": "falta.",
+     "inicio": 5.56,
+     "fin": 5.82
+    }
+   ],
+   "inicio": 4.18,
+   "fin": 5.82
+  },
+  {
+   "texto": "Según FuelEconomy.gov, el sitio del Departamento de Energía y la EPA de Estados Unidos, los autos modernos se pueden manejar a los pocos segundos de arrancar.",
+   "palabras": [
+    {
+     "texto": "Según",
+     "inicio": 6.34,
+     "fin": 6.74
+    },
+    {
+     "texto": "FuelEconomy.gov,",
+     "inicio": 6.74,
+     "fin": 8.24
+    },
+    {
+     "texto": "el",
+     "inicio": 8.56,
+     "fin": 8.62
+    },
+    {
+     "texto": "sitio",
+     "inicio": 8.62,
+     "fin": 8.94
+    },
+    {
+     "texto": "del",
+     "inicio": 8.94,
+     "fin": 9.22
+    },
+    {
+     "texto": "Departamento",
+     "inicio": 9.22,
+     "fin": 9.74
+    },
+    {
+     "texto": "de",
+     "inicio": 9.74,
+     "fin": 9.92
+    },
+    {
+     "texto": "Energía",
+     "inicio": 9.92,
+     "fin": 10.38
+    },
+    {
+     "texto": "y",
+     "inicio": 10.38,
+     "fin": 10.58
+    },
+    {
+     "texto": "la",
+     "inicio": 10.58,
+     "fin": 10.72
+    },
+    {
+     "texto": "EPA",
+     "inicio": 10.72,
+     "fin": 11.02
+    },
+    {
+     "texto": "de",
+     "inicio": 11.02,
+     "fin": 11.34
+    },
+    {
+     "texto": "Estados",
+     "inicio": 11.34,
+     "fin": 11.56
+    },
+    {
+     "texto": "Unidos,",
+     "inicio": 11.56,
+     "fin": 11.96
+    },
+    {
+     "texto": "los",
+     "inicio": 12.54,
+     "fin": 12.64
+    },
+    {
+     "texto": "autos",
+     "inicio": 12.64,
+     "fin": 12.88
+    },
+    {
+     "texto": "modernos",
+     "inicio": 12.88,
+     "fin": 13.42
+    },
+    {
+     "texto": "se",
+     "inicio": 13.42,
+     "fin": 13.58
+    },
+    {
+     "texto": "pueden",
+     "inicio": 13.58,
+     "fin": 13.78
+    },
+    {
+     "texto": "manejar",
+     "inicio": 13.78,
+     "fin": 14.16
+    },
+    {
+     "texto": "a",
+     "inicio": 14.16,
+     "fin": 14.28
+    },
+    {
+     "texto": "los",
+     "inicio": 14.28,
+     "fin": 14.4
+    },
+    {
+     "texto": "pocos",
+     "inicio": 14.4,
+     "fin": 14.72
+    },
+    {
+     "texto": "segundos",
+     "inicio": 14.72,
+     "fin": 15.1
+    },
+    {
+     "texto": "de",
+     "inicio": 15.1,
+     "fin": 15.26
+    },
+    {
+     "texto": "arrancar.",
+     "inicio": 15.26,
+     "fin": 15.6
+    }
+   ],
+   "inicio": 6.34,
+   "fin": 15.6
+  },
+  {
+   "texto": "Y dicen que la forma más rápida de calentar el motor es manejarlo.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 16.04,
+     "fin": 16.22
+    },
+    {
+     "texto": "dicen",
+     "inicio": 16.22,
+     "fin": 16.42
+    },
+    {
+     "texto": "que",
+     "inicio": 16.42,
+     "fin": 16.56
+    },
+    {
+     "texto": "la",
+     "inicio": 16.56,
+     "fin": 16.68
+    },
+    {
+     "texto": "forma",
+     "inicio": 16.68,
+     "fin": 16.86
+    },
+    {
+     "texto": "más",
+     "inicio": 16.86,
+     "fin": 17.1
+    },
+    {
+     "texto": "rápida",
+     "inicio": 17.1,
+     "fin": 17.46
+    },
+    {
+     "texto": "de",
+     "inicio": 17.46,
+     "fin": 17.58
+    },
+    {
+     "texto": "calentar",
+     "inicio": 17.58,
+     "fin": 17.88
+    },
+    {
+     "texto": "el",
+     "inicio": 17.88,
+     "fin": 18.04
+    },
+    {
+     "texto": "motor",
+     "inicio": 18.04,
+     "fin": 18.3
+    },
+    {
+     "texto": "es",
+     "inicio": 18.3,
+     "fin": 18.7
+    },
+    {
+     "texto": "manejarlo.",
+     "inicio": 18.7,
+     "fin": 19.22
+    }
+   ],
+   "inicio": 16.04,
+   "fin": 19.22
+  },
+  {
+   "texto": "Mientras tanto, el auto parado gasta combustible: entre un cuarto y medio galón por hora, o sea entre uno y casi dos litros.",
+   "palabras": [
+    {
+     "texto": "Mientras",
+     "inicio": 19.66,
+     "fin": 19.94
+    },
+    {
+     "texto": "tanto,",
+     "inicio": 19.94,
+     "fin": 20.38
+    },
+    {
+     "texto": "el",
+     "inicio": 20.64,
+     "fin": 20.66
+    },
+    {
+     "texto": "auto",
+     "inicio": 20.66,
+     "fin": 20.84
+    },
+    {
+     "texto": "parado",
+     "inicio": 20.84,
+     "fin": 21.38
+    },
+    {
+     "texto": "gasta",
+     "inicio": 21.38,
+     "fin": 21.82
+    },
+    {
+     "texto": "combustible:",
+     "inicio": 21.82,
+     "fin": 22.44
+    },
+    {
+     "texto": "entre",
+     "inicio": 22.78,
+     "fin": 23.12
+    },
+    {
+     "texto": "un",
+     "inicio": 23.12,
+     "fin": 23.3
+    },
+    {
+     "texto": "cuarto",
+     "inicio": 23.3,
+     "fin": 23.6
+    },
+    {
+     "texto": "y",
+     "inicio": 23.6,
+     "fin": 23.94
+    },
+    {
+     "texto": "medio",
+     "inicio": 23.94,
+     "fin": 24.22
+    },
+    {
+     "texto": "galón",
+     "inicio": 24.22,
+     "fin": 24.58
+    },
+    {
+     "texto": "por",
+     "inicio": 24.58,
+     "fin": 24.74
+    },
+    {
+     "texto": "hora,",
+     "inicio": 24.74,
+     "fin": 24.94
+    },
+    {
+     "texto": "o",
+     "inicio": 25.38,
+     "fin": 25.46
+    },
+    {
+     "texto": "sea",
+     "inicio": 25.46,
+     "fin": 25.62
+    },
+    {
+     "texto": "entre",
+     "inicio": 25.62,
+     "fin": 25.88
+    },
+    {
+     "texto": "uno",
+     "inicio": 25.88,
+     "fin": 26.18
+    },
+    {
+     "texto": "y",
+     "inicio": 26.18,
+     "fin": 26.3
+    },
+    {
+     "texto": "casi",
+     "inicio": 26.3,
+     "fin": 26.48
+    },
+    {
+     "texto": "dos",
+     "inicio": 26.48,
+     "fin": 26.72
+    },
+    {
+     "texto": "litros.",
+     "inicio": 26.72,
+     "fin": 27.08
+    }
+   ],
+   "inicio": 19.66,
+   "fin": 27.08
+  },
+  {
+   "texto": "Ojo: eso es para autos modernos. Un auto muy viejo puede necesitar otra cosa, y manejá suave los primeros minutos.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 27.66,
+     "fin": 27.98
+    },
+    {
+     "texto": "eso",
+     "inicio": 28.52,
+     "fin": 28.8
+    },
+    {
+     "texto": "es",
+     "inicio": 28.8,
+     "fin": 29.2
+    },
+    {
+     "texto": "para",
+     "inicio": 29.2,
+     "fin": 29.38
+    },
+    {
+     "texto": "autos",
+     "inicio": 29.38,
+     "fin": 29.64
+    },
+    {
+     "texto": "modernos.",
+     "inicio": 29.64,
+     "fin": 30.26
+    },
+    {
+     "texto": "Un",
+     "inicio": 30.7,
+     "fin": 30.82
+    },
+    {
+     "texto": "auto",
+     "inicio": 30.82,
+     "fin": 31.06
+    },
+    {
+     "texto": "muy",
+     "inicio": 31.06,
+     "fin": 31.46
+    },
+    {
+     "texto": "viejo",
+     "inicio": 31.46,
+     "fin": 31.96
+    },
+    {
+     "texto": "puede",
+     "inicio": 31.96,
+     "fin": 32.42
+    },
+    {
+     "texto": "necesitar",
+     "inicio": 32.42,
+     "fin": 33.0
+    },
+    {
+     "texto": "otra",
+     "inicio": 33.0,
+     "fin": 33.2
+    },
+    {
+     "texto": "cosa,",
+     "inicio": 33.2,
+     "fin": 33.48
+    },
+    {
+     "texto": "y",
+     "inicio": 34.12,
+     "fin": 34.16
+    },
+    {
+     "texto": "manejá",
+     "inicio": 34.16,
+     "fin": 34.52
+    },
+    {
+     "texto": "suave",
+     "inicio": 34.52,
+     "fin": 34.84
+    },
+    {
+     "texto": "los",
+     "inicio": 34.84,
+     "fin": 35.02
+    },
+    {
+     "texto": "primeros",
+     "inicio": 35.02,
+     "fin": 35.36
+    },
+    {
+     "texto": "minutos.",
+     "inicio": 35.36,
+     "fin": 35.68
+    }
+   ],
+   "inicio": 27.66,
+   "fin": 35.68
+  },
+  {
+   "texto": "Guardalo: arrancá, esperá unos segundos y salí tranquilo.",
+   "palabras": [
+    {
+     "texto": "Guardalo:",
+     "inicio": 36.3,
+     "fin": 36.76
+    },
+    {
+     "texto": "arrancá,",
+     "inicio": 37.3,
+     "fin": 37.76
+    },
+    {
+     "texto": "esperá",
+     "inicio": 38.16,
+     "fin": 38.62
+    },
+    {
+     "texto": "unos",
+     "inicio": 38.62,
+     "fin": 38.72
+    },
+    {
+     "texto": "segundos",
+     "inicio": 38.72,
+     "fin": 39.1
+    },
+    {
+     "texto": "y",
+     "inicio": 39.1,
+     "fin": 39.8
+    },
+    {
+     "texto": "salí",
+     "inicio": 39.8,
+     "fin": 40.06
+    },
+    {
+     "texto": "tranquilo.",
+     "inicio": 40.06,
+     "fin": 40.46
+    }
+   ],
+   "inicio": 36.3,
+   "fin": 40.46
+  },
+  {
+   "texto": "¿Cuántos minutos lo dejás calentando vos? Contestá con un número.",
+   "palabras": [
+    {
+     "texto": "¿Cuántos",
+     "inicio": 40.94,
+     "fin": 41.24
+    },
+    {
+     "texto": "minutos",
+     "inicio": 41.24,
+     "fin": 41.5
+    },
+    {
+     "texto": "lo",
+     "inicio": 41.5,
+     "fin": 41.7
+    },
+    {
+     "texto": "dejás",
+     "inicio": 41.7,
+     "fin": 41.96
+    },
+    {
+     "texto": "calentando",
+     "inicio": 41.96,
+     "fin": 42.42
+    },
+    {
+     "texto": "vos?",
+     "inicio": 42.42,
+     "fin": 42.62
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 43.2,
+     "fin": 43.56
+    },
+    {
+     "texto": "con",
+     "inicio": 43.56,
+     "fin": 43.7
+    },
+    {
+     "texto": "un",
+     "inicio": 43.7,
+     "fin": 43.8
+    },
+    {
+     "texto": "número.",
+     "inicio": 43.8,
+     "fin": 44.06
+    }
+   ],
+   "inicio": 40.94,
+   "fin": 44.06
+  },
+  {
+   "texto": "Mandáselo al que deja el auto calentando.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 44.58,
+     "fin": 45.16
+    },
+    {
+     "texto": "al",
+     "inicio": 45.16,
+     "fin": 45.26
+    },
+    {
+     "texto": "que",
+     "inicio": 45.26,
+     "fin": 45.36
+    },
+    {
+     "texto": "deja",
+     "inicio": 45.36,
+     "fin": 45.6
+    },
+    {
+     "texto": "el",
+     "inicio": 45.6,
+     "fin": 45.7
+    },
+    {
+     "texto": "auto",
+     "inicio": 45.7,
+     "fin": 45.84
+    },
+    {
+     "texto": "calentando.",
+     "inicio": 45.84,
+     "fin": 46.4
+    }
+   ],
+   "inicio": 44.58,
+   "fin": 46.4
+  }
+ ]
+}
