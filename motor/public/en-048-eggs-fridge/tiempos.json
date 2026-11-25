@@ -1,0 +1,700 @@
+{
+ "duracion": 41.12,
+ "frases": [
+  {
+   "texto": "You keep your eggs on the counter, don't you?",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.16
+    },
+    {
+     "texto": "keep",
+     "inicio": 0.16,
+     "fin": 0.32
+    },
+    {
+     "texto": "your",
+     "inicio": 0.32,
+     "fin": 0.46
+    },
+    {
+     "texto": "eggs",
+     "inicio": 0.46,
+     "fin": 0.6
+    },
+    {
+     "texto": "on",
+     "inicio": 0.6,
+     "fin": 0.74
+    },
+    {
+     "texto": "the",
+     "inicio": 0.74,
+     "fin": 0.86
+    },
+    {
+     "texto": "counter,",
+     "inicio": 0.86,
+     "fin": 1.2
+    },
+    {
+     "texto": "don't",
+     "inicio": 1.34,
+     "fin": 1.48
+    },
+    {
+     "texto": "you?",
+     "inicio": 1.48,
+     "fin": 1.66
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 1.66
+  },
+  {
+   "texto": "Here in the U.S., that's backwards.",
+   "palabras": [
+    {
+     "texto": "Here",
+     "inicio": 2.16,
+     "fin": 2.34
+    },
+    {
+     "texto": "in",
+     "inicio": 2.34,
+     "fin": 2.44
+    },
+    {
+     "texto": "the",
+     "inicio": 2.44,
+     "fin": 2.52
+    },
+    {
+     "texto": "U.S.,",
+     "inicio": 2.52,
+     "fin": 2.9
+    },
+    {
+     "texto": "that's",
+     "inicio": 2.9,
+     "fin": 3.12
+    },
+    {
+     "texto": "backwards.",
+     "inicio": 3.12,
+     "fin": 3.56
+    }
+   ],
+   "inicio": 2.16,
+   "fin": 3.56
+  },
+  {
+   "texto": "The USDA's research service says U.S. producers wash and refrigerate their eggs.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 3.86,
+     "fin": 3.96
+    },
+    {
+     "texto": "USDA's",
+     "inicio": 3.96,
+     "fin": 4.54
+    },
+    {
+     "texto": "research",
+     "inicio": 4.54,
+     "fin": 4.78
+    },
+    {
+     "texto": "service",
+     "inicio": 4.78,
+     "fin": 5.18
+    },
+    {
+     "texto": "says",
+     "inicio": 5.18,
+     "fin": 5.44
+    },
+    {
+     "texto": "U.S.",
+     "inicio": 5.44,
+     "fin": 6.06
+    },
+    {
+     "texto": "producers",
+     "inicio": 6.16,
+     "fin": 6.34
+    },
+    {
+     "texto": "wash",
+     "inicio": 6.34,
+     "fin": 6.98
+    },
+    {
+     "texto": "and",
+     "inicio": 6.98,
+     "fin": 7.3
+    },
+    {
+     "texto": "refrigerate",
+     "inicio": 7.44,
+     "fin": 7.94
+    },
+    {
+     "texto": "their",
+     "inicio": 7.94,
+     "fin": 8.1
+    },
+    {
+     "texto": "eggs.",
+     "inicio": 8.1,
+     "fin": 8.34
+    }
+   ],
+   "inicio": 3.86,
+   "fin": 8.34
+  },
+  {
+   "texto": "And the shell's thin natural coating, the cuticle, dries and comes off.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 8.52,
+     "fin": 8.62
+    },
+    {
+     "texto": "the",
+     "inicio": 8.62,
+     "fin": 8.86
+    },
+    {
+     "texto": "shell's",
+     "inicio": 8.86,
+     "fin": 9.28
+    },
+    {
+     "texto": "thin",
+     "inicio": 9.28,
+     "fin": 9.64
+    },
+    {
+     "texto": "natural",
+     "inicio": 9.64,
+     "fin": 10.0
+    },
+    {
+     "texto": "coating,",
+     "inicio": 10.0,
+     "fin": 10.32
+    },
+    {
+     "texto": "the",
+     "inicio": 10.52,
+     "fin": 10.58
+    },
+    {
+     "texto": "cuticle,",
+     "inicio": 10.58,
+     "fin": 10.88
+    },
+    {
+     "texto": "dries",
+     "inicio": 11.04,
+     "fin": 11.44
+    },
+    {
+     "texto": "and",
+     "inicio": 11.44,
+     "fin": 11.76
+    },
+    {
+     "texto": "comes",
+     "inicio": 11.76,
+     "fin": 11.92
+    },
+    {
+     "texto": "off.",
+     "inicio": 11.92,
+     "fin": 12.18
+    }
+   ],
+   "inicio": 8.52,
+   "fin": 12.18
+  },
+  {
+   "texto": "A USDA study found egg quality stays high in the fridge, and drops fast without it.",
+   "palabras": [
+    {
+     "texto": "A",
+     "inicio": 12.68,
+     "fin": 12.78
+    },
+    {
+     "texto": "USDA",
+     "inicio": 12.78,
+     "fin": 13.12
+    },
+    {
+     "texto": "study",
+     "inicio": 13.12,
+     "fin": 13.46
+    },
+    {
+     "texto": "found",
+     "inicio": 13.46,
+     "fin": 13.74
+    },
+    {
+     "texto": "egg",
+     "inicio": 13.74,
+     "fin": 14.18
+    },
+    {
+     "texto": "quality",
+     "inicio": 14.18,
+     "fin": 14.38
+    },
+    {
+     "texto": "stays",
+     "inicio": 14.38,
+     "fin": 14.76
+    },
+    {
+     "texto": "high",
+     "inicio": 14.76,
+     "fin": 15.2
+    },
+    {
+     "texto": "in",
+     "inicio": 15.2,
+     "fin": 15.32
+    },
+    {
+     "texto": "the",
+     "inicio": 15.32,
+     "fin": 15.42
+    },
+    {
+     "texto": "fridge,",
+     "inicio": 15.42,
+     "fin": 15.7
+    },
+    {
+     "texto": "and",
+     "inicio": 15.96,
+     "fin": 16.24
+    },
+    {
+     "texto": "drops",
+     "inicio": 16.24,
+     "fin": 16.6
+    },
+    {
+     "texto": "fast",
+     "inicio": 16.6,
+     "fin": 17.26
+    },
+    {
+     "texto": "without",
+     "inicio": 17.26,
+     "fin": 17.68
+    },
+    {
+     "texto": "it.",
+     "inicio": 17.68,
+     "fin": 17.88
+    }
+   ],
+   "inicio": 12.68,
+   "fin": 17.88
+  },
+  {
+   "texto": "The FDA says keep them at forty degrees or below, in the original carton, and use them within three weeks for best quality.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 18.4,
+     "fin": 18.52
+    },
+    {
+     "texto": "FDA",
+     "inicio": 18.52,
+     "fin": 18.8
+    },
+    {
+     "texto": "says",
+     "inicio": 18.8,
+     "fin": 19.18
+    },
+    {
+     "texto": "keep",
+     "inicio": 19.18,
+     "fin": 19.48
+    },
+    {
+     "texto": "them",
+     "inicio": 19.48,
+     "fin": 19.7
+    },
+    {
+     "texto": "at",
+     "inicio": 19.7,
+     "fin": 19.88
+    },
+    {
+     "texto": "forty",
+     "inicio": 19.88,
+     "fin": 20.2
+    },
+    {
+     "texto": "degrees",
+     "inicio": 20.2,
+     "fin": 20.52
+    },
+    {
+     "texto": "or",
+     "inicio": 20.52,
+     "fin": 20.84
+    },
+    {
+     "texto": "below,",
+     "inicio": 20.84,
+     "fin": 21.12
+    },
+    {
+     "texto": "in",
+     "inicio": 21.42,
+     "fin": 21.56
+    },
+    {
+     "texto": "the",
+     "inicio": 21.56,
+     "fin": 21.7
+    },
+    {
+     "texto": "original",
+     "inicio": 21.7,
+     "fin": 22.04
+    },
+    {
+     "texto": "carton,",
+     "inicio": 22.04,
+     "fin": 22.6
+    },
+    {
+     "texto": "and",
+     "inicio": 22.92,
+     "fin": 23.06
+    },
+    {
+     "texto": "use",
+     "inicio": 23.06,
+     "fin": 23.3
+    },
+    {
+     "texto": "them",
+     "inicio": 23.3,
+     "fin": 23.5
+    },
+    {
+     "texto": "within",
+     "inicio": 23.5,
+     "fin": 23.72
+    },
+    {
+     "texto": "three",
+     "inicio": 23.72,
+     "fin": 24.1
+    },
+    {
+     "texto": "weeks",
+     "inicio": 24.1,
+     "fin": 24.4
+    },
+    {
+     "texto": "for",
+     "inicio": 24.4,
+     "fin": 24.58
+    },
+    {
+     "texto": "best",
+     "inicio": 24.58,
+     "fin": 24.78
+    },
+    {
+     "texto": "quality.",
+     "inicio": 24.78,
+     "fin": 25.12
+    }
+   ],
+   "inicio": 18.4,
+   "fin": 25.12
+  },
+  {
+   "texto": "Heads up: that's about eggs sold here. Other countries handle their eggs differently.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 25.6,
+     "fin": 25.86
+    },
+    {
+     "texto": "up:",
+     "inicio": 25.86,
+     "fin": 26.04
+    },
+    {
+     "texto": "that's",
+     "inicio": 26.3,
+     "fin": 26.6
+    },
+    {
+     "texto": "about",
+     "inicio": 26.6,
+     "fin": 26.74
+    },
+    {
+     "texto": "eggs",
+     "inicio": 26.74,
+     "fin": 27.08
+    },
+    {
+     "texto": "sold",
+     "inicio": 27.08,
+     "fin": 27.28
+    },
+    {
+     "texto": "here.",
+     "inicio": 27.28,
+     "fin": 27.72
+    },
+    {
+     "texto": "Other",
+     "inicio": 27.72,
+     "fin": 28.2
+    },
+    {
+     "texto": "countries",
+     "inicio": 28.2,
+     "fin": 28.56
+    },
+    {
+     "texto": "handle",
+     "inicio": 28.56,
+     "fin": 28.88
+    },
+    {
+     "texto": "their",
+     "inicio": 28.88,
+     "fin": 29.12
+    },
+    {
+     "texto": "eggs",
+     "inicio": 29.12,
+     "fin": 29.24
+    },
+    {
+     "texto": "differently.",
+     "inicio": 29.24,
+     "fin": 29.6
+    }
+   ],
+   "inicio": 25.6,
+   "fin": 29.6
+  },
+  {
+   "texto": "Save this: fridge. Forty degrees or below. Original carton. Three weeks.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 30.08,
+     "fin": 30.3
+    },
+    {
+     "texto": "this:",
+     "inicio": 30.3,
+     "fin": 30.56
+    },
+    {
+     "texto": "fridge.",
+     "inicio": 31.06,
+     "fin": 31.44
+    },
+    {
+     "texto": "Forty",
+     "inicio": 31.8,
+     "fin": 32.22
+    },
+    {
+     "texto": "degrees",
+     "inicio": 32.22,
+     "fin": 32.4
+    },
+    {
+     "texto": "or",
+     "inicio": 32.4,
+     "fin": 32.74
+    },
+    {
+     "texto": "below.",
+     "inicio": 32.74,
+     "fin": 33.02
+    },
+    {
+     "texto": "Original",
+     "inicio": 33.56,
+     "fin": 33.92
+    },
+    {
+     "texto": "carton.",
+     "inicio": 33.92,
+     "fin": 34.44
+    },
+    {
+     "texto": "Three",
+     "inicio": 34.88,
+     "fin": 35.08
+    },
+    {
+     "texto": "weeks.",
+     "inicio": 35.08,
+     "fin": 35.3
+    }
+   ],
+   "inicio": 30.08,
+   "fin": 35.3
+  },
+  {
+   "texto": "Where do you keep your eggs? Fridge or counter?",
+   "palabras": [
+    {
+     "texto": "Where",
+     "inicio": 35.92,
+     "fin": 36.08
+    },
+    {
+     "texto": "do",
+     "inicio": 36.08,
+     "fin": 36.2
+    },
+    {
+     "texto": "you",
+     "inicio": 36.2,
+     "fin": 36.28
+    },
+    {
+     "texto": "keep",
+     "inicio": 36.28,
+     "fin": 36.48
+    },
+    {
+     "texto": "your",
+     "inicio": 36.48,
+     "fin": 36.7
+    },
+    {
+     "texto": "eggs?",
+     "inicio": 36.7,
+     "fin": 36.94
+    },
+    {
+     "texto": "Fridge",
+     "inicio": 37.32,
+     "fin": 37.72
+    },
+    {
+     "texto": "or",
+     "inicio": 37.72,
+     "fin": 37.88
+    },
+    {
+     "texto": "counter?",
+     "inicio": 37.88,
+     "fin": 38.14
+    }
+   ],
+   "inicio": 35.92,
+   "fin": 38.14
+  },
+  {
+   "texto": "Send this to the friend whose eggs live in a bowl on the counter.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 38.7,
+     "fin": 38.8
+    },
+    {
+     "texto": "this",
+     "inicio": 38.8,
+     "fin": 38.94
+    },
+    {
+     "texto": "to",
+     "inicio": 38.94,
+     "fin": 39.08
+    },
+    {
+     "texto": "the",
+     "inicio": 39.08,
+     "fin": 39.18
+    },
+    {
+     "texto": "friend",
+     "inicio": 39.18,
+     "fin": 39.4
+    },
+    {
+     "texto": "whose",
+     "inicio": 39.4,
+     "fin": 39.6
+    },
+    {
+     "texto": "eggs",
+     "inicio": 39.6,
+     "fin": 39.82
+    },
+    {
+     "texto": "live",
+     "inicio": 39.82,
+     "fin": 40.04
+    },
+    {
+     "texto": "in",
+     "inicio": 40.04,
+     "fin": 40.14
+    },
+    {
+     "texto": "a",
+     "inicio": 40.14,
+     "fin": 40.24
+    },
+    {
+     "texto": "bowl",
+     "inicio": 40.24,
+     "fin": 40.46
+    },
+    {
+     "texto": "on",
+     "inicio": 40.46,
+     "fin": 40.64
+    },
+    {
+     "texto": "the",
+     "inicio": 40.64,
+     "fin": 40.74
+    },
+    {
+     "texto": "counter.",
+     "inicio": 40.74,
+     "fin": 40.96
+    }
+   ],
+   "inicio": 38.7,
+   "fin": 40.96
+  }
+ ]
+}

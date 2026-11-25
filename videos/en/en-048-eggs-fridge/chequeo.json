@@ -1,0 +1,16 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones fácticas están respaldadas por las dos páginas oficiales (USDA ARS y FDA), las unidades en °F coinciden (FDA: 40° F or below) y no hay cifras ni afirmaciones de salud sin fuente. Nota menor: la fuente dice que los huevos refrigerados seguían en Grado A tras 15 semanas (bajan de AA a A), así que 'quality stays high' es una paráfrasis aceptable pero no literal; opcional afinarla. La página del USDA no fecha el estudio (Poultry Science, vol. 97, n.° 2, Deana Jones et al.).",
+  "afirmaciones": [
+    {"texto": "Here in the U.S., that's backwards. (huevos en la mesada)", "fuente": "USDA ARS: 'every producer in the United States washes their eggs... After washing, all eggs must be stored at refrigerated temperatures'; FDA: store at 40° F or below", "estado": "verificada", "matiz_ok": true},
+    {"texto": "The USDA's research service says U.S. producers wash and refrigerate their eggs. / In the U.S., producers wash and refrigerate their eggs (USDA ARS)", "fuente": "https://scientificdiscoveries.ars.usda.gov/tellus/stories/articles/how-we-store-our-eggs-and-why", "estado": "verificada", "matiz_ok": true},
+    {"texto": "The shell's thin natural coating, the cuticle, dries and comes off.", "fuente": "USDA ARS, misma página: 'We know that the cuticle dries and comes off' (Jones); la degradación es natural tras la puesta, no efecto del lavado", "estado": "verificada", "matiz_ok": true},
+    {"texto": "A USDA study found egg quality stays high in the fridge, and drops fast without it.", "fuente": "USDA ARS: huevos refrigerados 'still Grade A quality after 15 weeks'; sin refrigerar (72 °F) 'declined rapidly', de AA a B en una semana (estudio en Poultry Science 97(2))", "estado": "verificada", "matiz_ok": true},
+    {"texto": "The FDA says keep them at forty degrees or below / 40°F or below", "fuente": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety: 'Store promptly in a clean refrigerator at a temperature of 40° F or below.'", "estado": "verificada", "matiz_ok": true},
+    {"texto": "...in the original carton, and use them within three weeks for best quality.", "fuente": "FDA, misma página: 'Store eggs in their original carton and use them within 3 weeks for best quality.'", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Heads up: that's about eggs sold here. Other countries handle their eggs differently.", "fuente": "USDA ARS: la página contrasta con prácticas europeas distintas (sin lavar ni refrigerar)", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Save this: fridge. Forty degrees or below. Original carton. Three weeks. / Your eggs belong in the fridge (caption)", "fuente": "FDA (mismas guías); '3 weeks' conserva el matiz 'best quality' en la frase anterior y en el caption", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Sources: USDA ARS 'How we store our eggs and why'; FDA 'What You Need to Know About Egg Safety'", "fuente": "Ambas páginas existen y respaldan lo atribuido", "estado": "verificada", "matiz_ok": true}
+  ],
+  "sugerencia_opcional": "Si se quiere máxima precisión: 'A USDA study found refrigerated eggs were still Grade A after 15 weeks, while unwashed eggs left at room temperature dropped to Grade B in a week.' (No requerido para aprobar.)"
+}

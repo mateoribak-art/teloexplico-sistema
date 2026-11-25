@@ -1,0 +1,24 @@
+{
+  "titulo": "Te dijeron que si te afeitás el pelo sale más grueso",
+  "fondo": "oscuro",
+  "receta": "Mito + zoom adentro",
+  "pilar": "salud_simple",
+  "interaccion": ["comentar"],
+  "destinatario": "se lo manda un pibe a su viejo que le dice que no se afeite el bigote porque después sale más grueso",
+  "regla_guardable": "Afeitarse no cambia el grosor, el color ni la velocidad del pelo.",
+  "fuentes": [
+    "Cleveland Clinic: Does shaving make hair thicker?",
+    "Mildred Trotter, 1928 (estudio sobre afeitado y crecimiento del pelo)"
+  ],
+  "frases": [
+    {"texto": "Te dijeron que si te afeitás, el pelo te sale más grueso.", "estilo": "Seco, directo, a cámara."},
+    {"texto": "Es al revés: afeitarte no cambia el pelo.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "La Clínica Cleveland, en Estados Unidos, explica que afeitarse no lo vuelve más grueso, más oscuro ni más rápido.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Ya en mil novecientos veintiocho, Mildred Trotter estudió el tema y no encontró ese efecto.", "estilo": "Informativo."},
+    {"texto": "Entonces, ¿por qué parece más grueso? Porque al afeitar, el pelo queda cortado parejo, y al salir se nota más áspero.", "estilo": "Claro, didáctico."},
+    {"texto": "Ojo: en la pubertad el pelo de la cara se engrosa solo, por las hormonas, y suele coincidir con las primeras afeitadas.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Así que afeitate o no, pero no por miedo a que salga más grueso.", "estilo": "Práctico, amable."},
+    {"texto": "¿A qué edad te afeitaste por primera vez? Contestá con un número.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al que dice que si te afeitás, sale más grueso.", "estilo": "Cómplice, con humor."}
+  ]
+}

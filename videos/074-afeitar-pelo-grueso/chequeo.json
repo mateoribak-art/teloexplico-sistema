@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones quedaron verificadas con fuente; la unica hipotesis (coincidencia de la pubertad con las primeras afeitadas) ya esta presentada con 'suele coincidir'. La atribucion a Cleveland Clinic se limita a la frase 3 (grueso/oscuro/rapido), que la pagina sostiene textualmente; no se le atribuye ni Trotter ni la pubertad. Trotter 1928 existe y no se le atribuye mas de lo que midio. Sin falsas, sin dudosas, nada de salud sin verificar. Sugerencia opcional (no bloqueante): en la frase 5, 'cortado parejo' podria decir 'cortado de golpe, con la punta roma'.",
+  "afirmaciones": [
+    {
+      "texto": "Si te afeitás, el pelo sale más grueso (planteado como mito que 'te dijeron')",
+      "fuente": "Cleveland Clinic, 'Does shaving make hair thicker?' (health.clevelandclinic.org/does-shaving-make-hair-thicker/) lo califica de mito; Mayo Clinic igual",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Afeitarte no cambia el pelo / no cambia el grosor, el color ni la velocidad del pelo (regla guardable y caption)",
+      "fuente": "Cleveland Clinic ('nothing you do will cause your hair to grow back thicker, darker or even faster'); Mayo Clinic (shaving doesn't change thickness, color or rate of growth); Lynfield y MacWilliams 1970, J Invest Dermatol",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La Clínica Cleveland, en Estados Unidos, explica que afeitarse no lo vuelve más grueso, más oscuro ni más rápido.",
+      "fuente": "Cleveland Clinic, pagina citada: dice 'thicker, darker or even faster'. La atribucion es correcta y se limita a este punto.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ya en mil novecientos veintiocho, Mildred Trotter estudió el tema y no encontró ese efecto.",
+      "fuente": "M. Trotter, 'Hair Growth and Shaving', The Anatomical Record 37(4):373-379, febrero 1928 (Wiley). Estudio chico (cuatro hombres segun resumenes secundarios); concluyo que no habia diferencias significativas en peso de pelo, ancho ni velocidad de crecimiento. Texto completo tras paywall: verificado por indices y resumenes (scilit, Which?, Becker WashU).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Parece más grueso porque al afeitar el pelo queda cortado parejo, y al salir se nota más áspero.",
+      "fuente": "Cleveland Clinic (se ven las bases mas gruesas y oscuras en vez de las puntas finas; el pelo recien cortado se siente rigido/pinchudo por bordes filosos) y Mayo Clinic (punta roma, puede sentirse aspero y verse mas oscuro/grueso un tiempo). Cleveland no usa 'cortado parejo'; la idea es la misma (corte romo).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En la pubertad el pelo de la cara se engrosa solo, por las hormonas.",
+      "fuente": "PMC9788837 (Effects of Hormones and Endocrine Disorders on Hair Growth); StatPearls 'Anatomy, Hair Follicle' NBK470321: los androgenos convierten el vello velloso de la barba en terminal en la pubertad.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "(El engrosamiento) suele coincidir con las primeras afeitadas.",
+      "fuente": "Scientific American, 'Fact or fiction: if you shave or wax your hair will come back thicker'; UT Austin Think Twice: el mito probablemente nace de esa coincidencia de edades. Explicacion plausible del origen, no medida.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Así que afeitate o no, pero no por miedo a que salga más grueso. (consejo derivado)",
+      "fuente": "Deriva de los puntos verificados anteriores",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'Fuentes: Cleveland Clinic; Mildred Trotter (1928).'",
+      "fuente": "Las fuentes existen; el listado agrupado no atribuye a Cleveland ni a Trotter el punto de la pubertad (esa frase no cita fuente).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

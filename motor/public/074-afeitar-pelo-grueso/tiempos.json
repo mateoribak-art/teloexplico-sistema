@@ -1,0 +1,738 @@
+{
+ "duracion": 45.23,
+ "frases": [
+  {
+   "texto": "Te dijeron que si te afeitás, el pelo te sale más grueso.",
+   "palabras": [
+    {
+     "texto": "Te",
+     "inicio": 0.0,
+     "fin": 0.1
+    },
+    {
+     "texto": "dijeron",
+     "inicio": 0.1,
+     "fin": 0.26
+    },
+    {
+     "texto": "que",
+     "inicio": 0.26,
+     "fin": 0.5
+    },
+    {
+     "texto": "si",
+     "inicio": 0.5,
+     "fin": 0.62
+    },
+    {
+     "texto": "te",
+     "inicio": 0.62,
+     "fin": 0.72
+    },
+    {
+     "texto": "afeitás,",
+     "inicio": 0.72,
+     "fin": 1.22
+    },
+    {
+     "texto": "el",
+     "inicio": 1.42,
+     "fin": 1.66
+    },
+    {
+     "texto": "pelo",
+     "inicio": 1.66,
+     "fin": 1.86
+    },
+    {
+     "texto": "te",
+     "inicio": 1.86,
+     "fin": 2.04
+    },
+    {
+     "texto": "sale",
+     "inicio": 2.04,
+     "fin": 2.22
+    },
+    {
+     "texto": "más",
+     "inicio": 2.22,
+     "fin": 2.38
+    },
+    {
+     "texto": "grueso.",
+     "inicio": 2.38,
+     "fin": 2.84
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.84
+  },
+  {
+   "texto": "Es al revés: afeitarte no cambia el pelo.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 3.24,
+     "fin": 3.48
+    },
+    {
+     "texto": "al",
+     "inicio": 3.48,
+     "fin": 3.6
+    },
+    {
+     "texto": "revés:",
+     "inicio": 3.6,
+     "fin": 3.96
+    },
+    {
+     "texto": "afeitarte",
+     "inicio": 4.56,
+     "fin": 5.04
+    },
+    {
+     "texto": "no",
+     "inicio": 5.04,
+     "fin": 5.26
+    },
+    {
+     "texto": "cambia",
+     "inicio": 5.26,
+     "fin": 5.64
+    },
+    {
+     "texto": "el",
+     "inicio": 5.64,
+     "fin": 5.76
+    },
+    {
+     "texto": "pelo.",
+     "inicio": 5.76,
+     "fin": 5.96
+    }
+   ],
+   "inicio": 3.24,
+   "fin": 5.96
+  },
+  {
+   "texto": "La Clínica Cleveland, en Estados Unidos, explica que afeitarse no lo vuelve más grueso, más oscuro ni más rápido.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 6.68,
+     "fin": 6.9
+    },
+    {
+     "texto": "Clínica",
+     "inicio": 6.9,
+     "fin": 7.28
+    },
+    {
+     "texto": "Cleveland,",
+     "inicio": 7.28,
+     "fin": 7.6
+    },
+    {
+     "texto": "en",
+     "inicio": 7.86,
+     "fin": 7.98
+    },
+    {
+     "texto": "Estados",
+     "inicio": 7.98,
+     "fin": 8.14
+    },
+    {
+     "texto": "Unidos,",
+     "inicio": 8.14,
+     "fin": 8.58
+    },
+    {
+     "texto": "explica",
+     "inicio": 8.94,
+     "fin": 9.38
+    },
+    {
+     "texto": "que",
+     "inicio": 9.38,
+     "fin": 9.52
+    },
+    {
+     "texto": "afeitarse",
+     "inicio": 9.52,
+     "fin": 10.06
+    },
+    {
+     "texto": "no",
+     "inicio": 10.06,
+     "fin": 10.24
+    },
+    {
+     "texto": "lo",
+     "inicio": 10.24,
+     "fin": 10.32
+    },
+    {
+     "texto": "vuelve",
+     "inicio": 10.32,
+     "fin": 10.58
+    },
+    {
+     "texto": "más",
+     "inicio": 10.58,
+     "fin": 10.76
+    },
+    {
+     "texto": "grueso,",
+     "inicio": 10.76,
+     "fin": 11.22
+    },
+    {
+     "texto": "más",
+     "inicio": 11.36,
+     "fin": 11.48
+    },
+    {
+     "texto": "oscuro",
+     "inicio": 11.48,
+     "fin": 11.94
+    },
+    {
+     "texto": "ni",
+     "inicio": 11.94,
+     "fin": 12.14
+    },
+    {
+     "texto": "más",
+     "inicio": 12.14,
+     "fin": 12.32
+    },
+    {
+     "texto": "rápido.",
+     "inicio": 12.32,
+     "fin": 12.64
+    }
+   ],
+   "inicio": 6.68,
+   "fin": 12.64
+  },
+  {
+   "texto": "Ya en mil novecientos veintiocho, Mildred Trotter estudió el tema y no encontró ese efecto.",
+   "palabras": [
+    {
+     "texto": "Ya",
+     "inicio": 13.38,
+     "fin": 13.62
+    },
+    {
+     "texto": "en",
+     "inicio": 13.62,
+     "fin": 13.72
+    },
+    {
+     "texto": "mil",
+     "inicio": 13.72,
+     "fin": 13.84
+    },
+    {
+     "texto": "novecientos",
+     "inicio": 13.84,
+     "fin": 14.28
+    },
+    {
+     "texto": "veintiocho,",
+     "inicio": 14.28,
+     "fin": 14.8
+    },
+    {
+     "texto": "Mildred",
+     "inicio": 15.18,
+     "fin": 15.48
+    },
+    {
+     "texto": "Trotter",
+     "inicio": 15.48,
+     "fin": 15.98
+    },
+    {
+     "texto": "estudió",
+     "inicio": 15.98,
+     "fin": 16.48
+    },
+    {
+     "texto": "el",
+     "inicio": 16.48,
+     "fin": 16.58
+    },
+    {
+     "texto": "tema",
+     "inicio": 16.58,
+     "fin": 16.84
+    },
+    {
+     "texto": "y",
+     "inicio": 16.84,
+     "fin": 16.98
+    },
+    {
+     "texto": "no",
+     "inicio": 16.98,
+     "fin": 17.12
+    },
+    {
+     "texto": "encontró",
+     "inicio": 17.12,
+     "fin": 17.44
+    },
+    {
+     "texto": "ese",
+     "inicio": 17.44,
+     "fin": 17.58
+    },
+    {
+     "texto": "efecto.",
+     "inicio": 17.58,
+     "fin": 17.86
+    }
+   ],
+   "inicio": 13.38,
+   "fin": 17.86
+  },
+  {
+   "texto": "Entonces, ¿por qué parece más grueso? Porque al afeitar, el pelo queda cortado parejo, y al salir se nota más áspero.",
+   "palabras": [
+    {
+     "texto": "Entonces,",
+     "inicio": 18.28,
+     "fin": 18.66
+    },
+    {
+     "texto": "¿por",
+     "inicio": 18.94,
+     "fin": 19.04
+    },
+    {
+     "texto": "qué",
+     "inicio": 19.04,
+     "fin": 19.18
+    },
+    {
+     "texto": "parece",
+     "inicio": 19.18,
+     "fin": 19.5
+    },
+    {
+     "texto": "más",
+     "inicio": 19.5,
+     "fin": 19.66
+    },
+    {
+     "texto": "grueso?",
+     "inicio": 19.66,
+     "fin": 20.1
+    },
+    {
+     "texto": "Porque",
+     "inicio": 20.58,
+     "fin": 20.88
+    },
+    {
+     "texto": "al",
+     "inicio": 20.88,
+     "fin": 21.0
+    },
+    {
+     "texto": "afeitar,",
+     "inicio": 21.0,
+     "fin": 21.42
+    },
+    {
+     "texto": "el",
+     "inicio": 21.72,
+     "fin": 21.76
+    },
+    {
+     "texto": "pelo",
+     "inicio": 21.76,
+     "fin": 21.94
+    },
+    {
+     "texto": "queda",
+     "inicio": 21.94,
+     "fin": 22.12
+    },
+    {
+     "texto": "cortado",
+     "inicio": 22.12,
+     "fin": 22.52
+    },
+    {
+     "texto": "parejo,",
+     "inicio": 22.52,
+     "fin": 22.92
+    },
+    {
+     "texto": "y",
+     "inicio": 23.06,
+     "fin": 23.46
+    },
+    {
+     "texto": "al",
+     "inicio": 23.46,
+     "fin": 23.56
+    },
+    {
+     "texto": "salir",
+     "inicio": 23.56,
+     "fin": 23.86
+    },
+    {
+     "texto": "se",
+     "inicio": 23.86,
+     "fin": 24.04
+    },
+    {
+     "texto": "nota",
+     "inicio": 24.04,
+     "fin": 24.2
+    },
+    {
+     "texto": "más",
+     "inicio": 24.2,
+     "fin": 24.42
+    },
+    {
+     "texto": "áspero.",
+     "inicio": 24.42,
+     "fin": 24.72
+    }
+   ],
+   "inicio": 18.28,
+   "fin": 24.72
+  },
+  {
+   "texto": "Ojo: en la pubertad el pelo de la cara se engrosa solo, por las hormonas, y suele coincidir con las primeras afeitadas.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 24.72,
+     "fin": 25.5
+    },
+    {
+     "texto": "en",
+     "inicio": 26.0,
+     "fin": 26.14
+    },
+    {
+     "texto": "la",
+     "inicio": 26.14,
+     "fin": 26.24
+    },
+    {
+     "texto": "pubertad",
+     "inicio": 26.24,
+     "fin": 26.86
+    },
+    {
+     "texto": "el",
+     "inicio": 27.18,
+     "fin": 27.24
+    },
+    {
+     "texto": "pelo",
+     "inicio": 27.24,
+     "fin": 27.44
+    },
+    {
+     "texto": "de",
+     "inicio": 27.44,
+     "fin": 27.6
+    },
+    {
+     "texto": "la",
+     "inicio": 27.6,
+     "fin": 27.72
+    },
+    {
+     "texto": "cara",
+     "inicio": 27.72,
+     "fin": 27.98
+    },
+    {
+     "texto": "se",
+     "inicio": 27.98,
+     "fin": 28.2
+    },
+    {
+     "texto": "engrosa",
+     "inicio": 28.2,
+     "fin": 28.58
+    },
+    {
+     "texto": "solo,",
+     "inicio": 28.58,
+     "fin": 28.98
+    },
+    {
+     "texto": "por",
+     "inicio": 29.32,
+     "fin": 29.56
+    },
+    {
+     "texto": "las",
+     "inicio": 29.56,
+     "fin": 29.72
+    },
+    {
+     "texto": "hormonas,",
+     "inicio": 29.72,
+     "fin": 30.24
+    },
+    {
+     "texto": "y",
+     "inicio": 30.82,
+     "fin": 30.94
+    },
+    {
+     "texto": "suele",
+     "inicio": 30.94,
+     "fin": 31.32
+    },
+    {
+     "texto": "coincidir",
+     "inicio": 31.32,
+     "fin": 31.9
+    },
+    {
+     "texto": "con",
+     "inicio": 31.9,
+     "fin": 32.12
+    },
+    {
+     "texto": "las",
+     "inicio": 32.12,
+     "fin": 32.26
+    },
+    {
+     "texto": "primeras",
+     "inicio": 32.26,
+     "fin": 32.64
+    },
+    {
+     "texto": "afeitadas.",
+     "inicio": 32.64,
+     "fin": 33.3
+    }
+   ],
+   "inicio": 24.72,
+   "fin": 33.3
+  },
+  {
+   "texto": "Así que afeitate o no, pero no por miedo a que salga más grueso.",
+   "palabras": [
+    {
+     "texto": "Así",
+     "inicio": 33.88,
+     "fin": 34.1
+    },
+    {
+     "texto": "que",
+     "inicio": 34.1,
+     "fin": 34.36
+    },
+    {
+     "texto": "afeitate",
+     "inicio": 34.36,
+     "fin": 35.58
+    },
+    {
+     "texto": "o",
+     "inicio": 35.58,
+     "fin": 35.94
+    },
+    {
+     "texto": "no,",
+     "inicio": 35.94,
+     "fin": 36.08
+    },
+    {
+     "texto": "pero",
+     "inicio": 36.52,
+     "fin": 36.72
+    },
+    {
+     "texto": "no",
+     "inicio": 36.72,
+     "fin": 36.88
+    },
+    {
+     "texto": "por",
+     "inicio": 36.88,
+     "fin": 37.08
+    },
+    {
+     "texto": "miedo",
+     "inicio": 37.08,
+     "fin": 37.34
+    },
+    {
+     "texto": "a",
+     "inicio": 37.34,
+     "fin": 37.52
+    },
+    {
+     "texto": "que",
+     "inicio": 37.52,
+     "fin": 37.62
+    },
+    {
+     "texto": "salga",
+     "inicio": 37.62,
+     "fin": 37.94
+    },
+    {
+     "texto": "más",
+     "inicio": 37.94,
+     "fin": 38.08
+    },
+    {
+     "texto": "grueso.",
+     "inicio": 38.08,
+     "fin": 38.5
+    }
+   ],
+   "inicio": 33.88,
+   "fin": 38.5
+  },
+  {
+   "texto": "¿A qué edad te afeitaste por primera vez? Contestá con un número.",
+   "palabras": [
+    {
+     "texto": "¿A",
+     "inicio": 38.98,
+     "fin": 39.08
+    },
+    {
+     "texto": "qué",
+     "inicio": 39.08,
+     "fin": 39.24
+    },
+    {
+     "texto": "edad",
+     "inicio": 39.24,
+     "fin": 39.42
+    },
+    {
+     "texto": "te",
+     "inicio": 39.42,
+     "fin": 39.6
+    },
+    {
+     "texto": "afeitaste",
+     "inicio": 39.6,
+     "fin": 40.04
+    },
+    {
+     "texto": "por",
+     "inicio": 40.04,
+     "fin": 40.22
+    },
+    {
+     "texto": "primera",
+     "inicio": 40.22,
+     "fin": 40.5
+    },
+    {
+     "texto": "vez?",
+     "inicio": 40.5,
+     "fin": 40.82
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 41.28,
+     "fin": 41.64
+    },
+    {
+     "texto": "con",
+     "inicio": 41.64,
+     "fin": 41.8
+    },
+    {
+     "texto": "un",
+     "inicio": 41.8,
+     "fin": 41.9
+    },
+    {
+     "texto": "número.",
+     "inicio": 41.9,
+     "fin": 42.16
+    }
+   ],
+   "inicio": 38.98,
+   "fin": 42.16
+  },
+  {
+   "texto": "Mandáselo al que dice que si te afeitás, sale más grueso.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 42.58,
+     "fin": 43.02
+    },
+    {
+     "texto": "al",
+     "inicio": 43.02,
+     "fin": 43.1
+    },
+    {
+     "texto": "que",
+     "inicio": 43.1,
+     "fin": 43.2
+    },
+    {
+     "texto": "dice",
+     "inicio": 43.2,
+     "fin": 43.4
+    },
+    {
+     "texto": "que",
+     "inicio": 43.4,
+     "fin": 43.58
+    },
+    {
+     "texto": "si",
+     "inicio": 43.58,
+     "fin": 43.68
+    },
+    {
+     "texto": "te",
+     "inicio": 43.68,
+     "fin": 43.82
+    },
+    {
+     "texto": "afeitás,",
+     "inicio": 43.82,
+     "fin": 44.26
+    },
+    {
+     "texto": "sale",
+     "inicio": 44.4,
+     "fin": 44.6
+    },
+    {
+     "texto": "más",
+     "inicio": 44.6,
+     "fin": 44.76
+    },
+    {
+     "texto": "grueso.",
+     "inicio": 44.76,
+     "fin": 45.16
+    }
+   ],
+   "inicio": 42.58,
+   "fin": 45.16
+  }
+ ]
+}

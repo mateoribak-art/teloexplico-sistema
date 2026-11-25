@@ -38,6 +38,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [usada → en-035-turkey-stuffing] Stuffing inside the turkey: 165 °F at the center (USDA FSIS; Thanksgiving)
 - [usada → en-041-pasta-oil] Does adding oil to pasta water stop it from sticking?
 - [usada → en-033-turkey-thaw] Thanksgiving: how long does a frozen turkey take to thaw in the fridge? (USDA: ~24 h per 4–5 lb) — publicar antes del 26/11/2026
+- [usada → en-048-eggs-fridge] Do eggs belong in the fridge? (USDA ARS, FDA 40 °F, 3 weeks)
 - [usada → en-028-turkey-sleepy] Does turkey make you sleepy? (tryptophan myth) — cerca de Thanksgiving
 
 ## Temas de EE. UU. — serie: casa (Home myths)

@@ -1595,5 +1595,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-048-eggs-fridge",
+  "tema": "Should eggs be in the fridge? (USDA ARS, FDA 40 F, 3 weeks; own; kitchen)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-25T01:55",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-25T01:55",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-25T02:00",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-25T02:13",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

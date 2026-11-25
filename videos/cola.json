@@ -2742,5 +2742,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "074-afeitar-pelo-grueso",
+  "tema": "¿Afeitarse hace que el pelo salga más grueso? No (Cleveland Clinic, Trotter 1928)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-25T01:37",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-25T01:37",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-25T01:43",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-25T01:51",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

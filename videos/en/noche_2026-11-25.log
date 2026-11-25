@@ -1,0 +1,10 @@
+2026-11-25 01:52 Arranca la producción (14 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `en-048-eggs-fridge` (¿los huevos van en la heladera? Cocina #13). El chequeo lo aprobó a la primera con fuentes del USDA ARS y la FDA. La voz dura 41 s, `tlx tsc` pasa y revisé los cuadros en 2 vueltas. Queda en estado `render` y lo renderiza `producir.py`; no lo renderizé yo.
+- **Apartados:** no había ninguno por "chequeo rechazado", así que no rescaté nada.
+- **Incompletos:** ninguno.
+Uso: 58 pasos · 90,262 tokens nuevos · 2,417,450 de caché · 19,900 escritos · equivale a US$ 0.96 de API
+Permisos negados (1):
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-048-eggs-fridge; cat > chequeo.json <<'EOF'\n{\n  \"veredicto\"
+2026-11-25 02:00 Render de en-048-eggs-fridge (sin Claude).
+2026-11-25 02:13 en-048-eggs-fridge: listo (render sin Claude)
+2026-11-25 02:13 Termina la producción (ok).

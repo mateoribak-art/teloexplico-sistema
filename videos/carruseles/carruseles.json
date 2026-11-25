@@ -361,5 +361,19 @@
     "motivo": "control OK"
    }
   ]
+ },
+ {
+  "clave": "apagon-heladera",
+  "estado": "listo",
+  "origen": [
+   "036-apagon-heladera"
+  ],
+  "historial": [
+   {
+    "estado": "listo",
+    "cuando": "2026-11-25T01:51",
+    "motivo": "control OK"
+   }
+  ]
  }
 ]

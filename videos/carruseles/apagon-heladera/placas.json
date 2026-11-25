@@ -1,0 +1,71 @@
+{
+ "origen": ["036-apagon-heladera"],
+ "serie": "mitos de casa",
+ "placas": [
+  {
+   "tipo": "tapa",
+   "arriba": "Se corta la luz: ¿abrís la heladera para ver si sigue fría?",
+   "grande": "no la abras",
+   "promesa": "deslizá y guardalo",
+   "dibujo": [
+    {"objeto": "Heladera", "x": 540, "y": 1180, "s": 0.62}
+   ]
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// por qué importa",
+   "titulo": "Cada vez que la abrís, se te escapa el frío",
+   "cuerpo": "Y sin luz, ese frío que te queda es lo único que cuida tu comida.",
+   "fuente": "USDA FSIS"
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// la regla",
+   "titulo": "Cerrada, la comida se mantiene segura hasta",
+   "dato": "4 horas",
+   "colorDato": "azul",
+   "cuerpo": "Es la cifra del Departamento de Agricultura de Estados Unidos.",
+   "fuente": "USDA FSIS · FoodSafety.gov"
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// pasado ese tiempo",
+   "titulo": "Lo perecedero se tira",
+   "cuerpo": "Carne, pollo, pescado, huevos y sobras. Ante la duda, tirala.",
+   "fuente": "FoodSafety.gov",
+   "dibujo": [
+    {"objeto": "Bife", "x": 540, "y": 1100, "s": 0.7}
+   ]
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// ojo",
+   "titulo": "No te guíes por cómo se ve o a qué huele",
+   "cuerpo": "Las bacterias que enferman no se ven, ni se huelen, ni se prueban.",
+   "fuente": "USDA FSIS"
+  },
+  {
+   "tipo": "paso",
+   "etiqueta": "// el matiz",
+   "titulo": "Las cuatro horas valen con la puerta cerrada",
+   "cuerpo": "Si la abriste mil veces, no hay garantía.",
+   "fuente": "USDA FSIS"
+  },
+  {
+   "tipo": "resumen",
+   "titulo": "Apagón: qué hacer con la heladera",
+   "items": [
+    [true, "Dejá la puerta cerrada"],
+    [true, "Anotá la hora en que se cortó la luz"],
+    [true, "Hasta 4 horas: comida segura"],
+    [false, "Abrirla a cada rato para chequear"],
+    [false, "Guiarte por el olor: ante la duda, tirala"]
+   ]
+  },
+  {
+   "tipo": "cierre",
+   "texto": "Mandáselo a ese que en cada apagón abre la heladera para ver si sigue fría",
+   "serie": "mitos de casa"
+  }
+ ]
+}
