@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T06:37",
+ "actualizado": "2026-11-25T06:40",
  "oficinas": [
   {
    "clave": "es",
@@ -418,22 +418,22 @@
      },
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
-     "cuando": "2026-11-24T22:33",
-     "hace": "hace 8 h",
+     "cuando": "2026-11-25T06:40",
+     "hace": "recién",
      "detalle": [
-      "24/11 07:43 Hay 1 comentarios nuevos: arranca la respuesta.",
-      "24/11 00:00 Respondí 0 · salteé 0 · alerté 1. (059-pibe-chango-guri: javier_aquino_52 dice que gurí es palabra charrúa, no guaraní como dice el guion y Billiken. Alertado a Mateo, no respondido en público.)",
-      "24/11 00:00 Termina la respuesta de comentarios (ok).",
-      "24/11 07:43 Termina la respuesta de comentarios (ok).",
       "24/11 22:31 Hay 48 comentarios nuevos: arranca la respuesta.",
       "24/11 00:00 Respondí 40 · salteé 7 · alerté 1. (059-pibe-chango-guri: 40 respondidos (acentos regionales, anécdotas, Córdoba, Misiones, Tucumán, Formosa, Chaco, Corrientes, etc.); salteados: 6 por risas, insultos, palabra ambigua y duplicado; 058-agua-del-mate: 1 salteado por provocación; alerta: mgrnine cuestiona que \"pibe\" sea niño y no adolescente)",
       "24/11 22:31 Termina la respuesta de comentarios (ok).",
-      "24/11 22:33 Termina la respuesta de comentarios (ok)."
+      "24/11 22:33 Termina la respuesta de comentarios (ok).",
+      "25/11 06:39 Hay 27 comentarios nuevos: arranca la respuesta.",
+      "25/11 06:40 Respondí 26 · salteé 1 · alerté 0. (059-pibe-chango-guri: 26 respondidos, variantes regionales y una pregunta sobre la Patagonia, anotada en ideas.md; salteado: ianmolinamercado, solo expresión y emojis)",
+      "25/11 06:40 Termina la respuesta de comentarios (ok).",
+      "25/11 06:40 Termina la respuesta de comentarios (ok)."
      ],
      "tareas": [
       "7 alerta",
-      "101 respondido",
-      "22 salteado",
+      "127 respondido",
+      "23 salteado",
       "⚠️ __francoivann__: Les dicen las brujas por qué eran del fabricante \"La Brugeoise\" que se pronuncia La Bru-yua — El guion ",
       "⚠️ javier_aquino_52: Gurí es en charrua, por eso se usa en Entrerrios, Uruguay y partes dd Río Grande do sur — Contradice e",
       "⚠️ mgrnine: Pibe no es sinónimo de niño. Es sinónimo de a lo sumo adolescente y joven adulto. Aunque lo usemos en otras oca"
@@ -491,7 +491,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-25T06:37",
+     "cuando": "2026-11-25T06:40",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -939,7 +939,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-25T06:37",
+     "cuando": "2026-11-25T06:40",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
