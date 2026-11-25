@@ -1,0 +1,42 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de seguridad contra incendios estan verificadas con fuentes primarias de EE. UU. (CPSC y USFA/FEMA), con atribuciones correctas a cada institucion y unidades en pies coincidentes. No hay afirmaciones probables, dudosas ni falsas. Preguntas, CTAs y la regla guardable son reformulaciones fieles de las fuentes.",
+  "afirmaciones": [
+    {
+      "texto": "Plugging a space heater into a power strip is a fire risk ('Don't. That's a fire risk.')",
+      "fuente": "CPSC OnSafety blog 'Your space heater needs space' (https://onsafety.cpsc.gov/blog/2017/01/13/your-space-heater-needs-space/): 'Do not use extension cords or power strips with space heaters, to reduce the risk of fires'. USFA tambien lo desaconseja.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The Consumer Product Safety Commission says: do not use extension cords or power strips with space heaters.",
+      "fuente": "CPSC OnSafety blog (URL arriba). Atribucion correcta a CPSC, cita textual.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The U.S. Fire Administration says plug it directly into a wall outlet.",
+      "fuente": "U.S. Fire Administration (FEMA), Space Heater Safety Tips pictograph (https://www.usfa.fema.gov/gallery/pictographs/pictograph41.html): 'Plug space heaters directly into wall outlets and never into an extension cord or power strip.' Atribucion correcta a USFA.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Keep it at least three feet from curtains, beds, sofas, clothes and papers. (caption: 3 feet)",
+      "fuente": "CPSC OnSafety blog: 'Keep material such as curtains, sofas, beds, clothes and papers at least three feet away from the front, sides and rear of the heater.' Unidad coincide (pies). La distancia es de CPSC; la pagina de USFA no la menciona y el guion no se la atribuye a USFA.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Never leave it on while it's unattended, or while you're sleeping. / off when you sleep",
+      "fuente": "CPSC OnSafety blog: 'Never leave the heater on while unattended, or while sleeping.'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption sources line: CPSC 'Your space heater needs space' (onsafety.cpsc.gov); USFA 'Space Heater Safety Tips' (usfa.fema.gov)",
+      "fuente": "Ambas paginas existen con esas instituciones y ese contenido (la de USFA es un pictograma de consejos).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

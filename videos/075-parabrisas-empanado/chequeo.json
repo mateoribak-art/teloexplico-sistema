@@ -1,0 +1,54 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segundo chequeo con busqueda web. Las correcciones de la ronda anterior se aplicaron: ya no hay cifra de tiempo ('a los dos segundos') y la frase de Mazda dice solo que con la recirculacion el vidrio se empaña mas facil, que figura en su manual. Todas las afirmaciones de seguridad (visibilidad al manejar), incluido el matiz del empañado por afuera con frio al maximo, estan verificadas en manuales de Mazda y Kia. No hay afirmaciones falsas, dudosas ni probables. Aclaracion: los textos de los manuales varian por modelo y año; las citas se comprobaron en Mazda MX-30 y Mazda3, y en Kia TK1 2026 y BD 2022.",
+  "afirmaciones": [
+    {
+      "texto": "Se te empaña el parabrisas y lo limpiás con la mano. Y vuelve a empañarse, porque la humedad sigue ahí.",
+      "fuente": "Situacion cotidiana. Que reaparezca mientras haya humedad adentro y el vidrio este frio: AAA (cluballiance.aaa.com/the-extra-mile/advice/car/defog-your-vehicles-windows) y Univ. de Illinois (van.physics.illinois.edu/qa/listing.php?id=1511). Sin cifra de tiempo.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El vidrio se empaña por la humedad que hay adentro del auto, que se pega al vidrio frío.",
+      "fuente": "Kia TK1 2026 (ownersmanual.kia.com/full_webhelp/TK1/2026/en_GB/topics/t00254.html): la humedad dentro de la cabina puede generar condensacion en el parabrisas. Univ. de Illinois (van.physics.illinois.edu/qa/listing.php?id=1511) y AAA: el vapor de agua condensa al tocar vidrio frio.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Los manuales de Mazda y de Kia dicen lo mismo: prendé el aire acondicionado, porque seca el aire.",
+      "fuente": "Mazda3 (owners-manual.mazda.com/gen/en/mazda3/mazda3_8gd7ee17h/contents/06010100.html): 'Use the air-conditioning system to defog the windows and dehumidify the air'. Mazda MX-30 (mazda.ca/en/digital-owners-manual/2023/mx-30/contents/06011204.html): en desempañar el A/C se enciende automaticamente. Kia TK1 2026 (t00254.html): aire exterior y A/C se seleccionan automaticamente; Kia SG2 2027 (ownersmanual.kia.com/full_webhelp/SG2/2027/en_US/topics/t00309.html): reducir la humedad con el A/C.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y sacá la recirculación: según Mazda, con esa tecla el vidrio se empaña más fácil.",
+      "fuente": "Mazda MX-30 (mazda.ca/en/digital-owners-manual/2023/mx-30/contents/06011204.html): el vidrio se empaña mas facilmente al 'Switching to recirculate mode'. Kia TK1 2026 refuerza: recirculacion con A/C apagado puede aumentar la humedad y la condensacion en el parabrisas.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: en un día húmedo y con el frío al máximo, el vidrio se empaña por afuera. Ahí poné una temperatura templada.",
+      "fuente": "Mazda MX-30 (06011204.html): desempañar con aire frio 'will cause the outside of the windshield to fog up'; indica temperatura caliente o templada. Kia BD 2022 (ownersmanual.kia.com/full_webhelp/BD/2022/en_GB/topics/chapter4_25.html): en clima extremadamente humedo con enfriamiento, el exterior del parabrisas se empaña con perdida de visibilidad. Matiz: Kia ademas sugiere bajar el ventilador.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Guardalo: aire acondicionado prendido y recirculación apagada.",
+      "fuente": "Sintesis de las fuentes anteriores: Mazda3, MX-30 y Kia TK1 2026 seleccionan aire exterior y A/C automaticamente al desempañar.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Mitos de casa #13 · Seguí para no perderte el #14. Fuentes: manuales del propietario de Mazda y de Kia.",
+      "fuente": "Numeracion confirmada en motor/src/kit/series.json (075-parabrisas-empanado = casa, 13). Los manuales de Mazda y Kia existen y dicen lo citado (ver arriba).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "¿Vos lo limpiás con la mano o con la manga? Mandáselo al que maneja con el vidrio empañado.",
+      "fuente": "Pregunta y llamado a la accion, sin contenido fáctico.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

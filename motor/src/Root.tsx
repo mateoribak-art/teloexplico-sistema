@@ -57,6 +57,7 @@ import { DURACION as DUR_058, FPS as FPS_058, AguaMate3D, Portada058 } from "./v
 import { DURACION as DUR_059, FPS as FPS_059, PibeChangoGuri3D, Portada059 } from "./videos/059-pibe-chango-guri/Video";
 import { DURACION as DUR_061, FPS as FPS_061, HeladeraTermometro3D, Portada061 } from "./videos/061-heladera-termometro/Video";
 import { DURACION as DUR_074, FPS as FPS_074, AfeitarPeloGrueso3D, Portada074 } from "./videos/074-afeitar-pelo-grueso/Video";
+import { DURACION as DUR_075, FPS as FPS_075, ParabrisasEmpanado3D, Portada075 } from "./videos/075-parabrisas-empanado/Video";
 import { DURACION as DUR_064,FPS as FPS_064, NudillosArtritis3D, Portada064 } from "./videos/064-nudillos-artritis/Video";
 import { DURACION as DUR_062,FPS as FPS_062, PoteMicroondas3D, Portada062 } from "./videos/062-pote-microondas/Video";
 import { DURACION as DUR_065, FPS as FPS_065, VoseoVosOTu3D, Portada065 } from "./videos/065-voseo-vos-o-tu/Video";
@@ -101,6 +102,7 @@ import { DURACION as DUR_EN045, FPS as FPS_EN045, CarWarmupEn045, PortadaEn045 }
 import { DURACION as DUR_EN046, FPS as FPS_EN046, WindChillEn046, PortadaEn046 } from "./videos/en-046-wind-chill/Video";
 import { DURACION as DUR_EN047, FPS as FPS_EN047, DogPeopleFoodEn047, PortadaEn047 } from "./videos/en-047-dog-people-food/Video";
 import { DURACION as DUR_EN048, FPS as FPS_EN048, EggsFridgeEn048, PortadaEn048 } from "./videos/en-048-eggs-fridge/Video";
+import { DURACION as DUR_EN049, FPS as FPS_EN049, SpaceHeaterEn049, PortadaEn049 } from "./videos/en-049-space-heater/Video";
 import { DURACION as DUR_EN041,FPS as FPS_EN041, PastaOilEn041, PortadaEn041 } from "./videos/en-041-pasta-oil/Video";
 import { DURACION as DUR_EN042, FPS as FPS_EN042, FrozenPipesEn042, PortadaEn042 } from "./videos/en-042-frozen-pipes/Video";
 import { DURACION as DUR_EN034, FPS as FPS_EN034, AlcoholEn034, PortadaEn034 } from "./videos/en-034-alcohol-cook-off/Video";
@@ -233,6 +235,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p064-nudillos-artritis" component={Portada064} width={ANCHO} height={ALTO} />
         <Composition id="h074-afeitar-pelo-grueso" component={AfeitarPeloGrueso3D} durationInFrames={DUR_074} fps={FPS_074} width={ANCHO} height={ALTO} />
         <Still id="p074-afeitar-pelo-grueso" component={Portada074} width={ANCHO} height={ALTO} />
+        <Composition id="h075-parabrisas-empanado" component={ParabrisasEmpanado3D} durationInFrames={DUR_075} fps={FPS_075} width={ANCHO} height={ALTO} />
+        <Still id="p075-parabrisas-empanado" component={Portada075} width={ANCHO} height={ALTO} />
         <Composition id="h056-gta-trece-anios"component={GtaTreceAnios3D} durationInFrames={DUR_056} fps={FPS_056} width={ANCHO} height={ALTO} />
         <Still id="p056-gta-trece-anios" component={Portada056} width={ANCHO} height={ALTO} />
         <Composition id="h055-gta-vice-city-miami"component={GtaViceCityMiami3D} durationInFrames={DUR_055} fps={FPS_055} width={ANCHO} height={ALTO} />
@@ -308,6 +312,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-047-dog-people-food" component={PortadaEn047} width={ANCHO} height={ALTO} />
         <Composition id="hen-048-eggs-fridge" component={EggsFridgeEn048} durationInFrames={DUR_EN048} fps={FPS_EN048} width={ANCHO} height={ALTO} />
         <Still id="pen-048-eggs-fridge" component={PortadaEn048} width={ANCHO} height={ALTO} />
+        <Composition id="hen-049-space-heater" component={SpaceHeaterEn049} durationInFrames={DUR_EN049} fps={FPS_EN049} width={ANCHO} height={ALTO} />
+        <Still id="pen-049-space-heater" component={PortadaEn049} width={ANCHO} height={ALTO} />
         <Composition id="hen-012-thunder-count" component={ThunderCountEn012} durationInFrames={DUR_EN012} fps={FPS_EN012} width={ANCHO} height={ALTO} />
         <Still id="pen-012-thunder-count" component={PortadaEn012} width={ANCHO} height={ALTO} />
         <Composition id="hen-013-searing-juices" component={SearingJuicesEn013} durationInFrames={DUR_EN013} fps={FPS_EN013} width={ANCHO} height={ALTO} />

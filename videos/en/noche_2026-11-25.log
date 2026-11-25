@@ -8,3 +8,13 @@ Permisos negados (1):
 2026-11-25 02:00 Render de en-048-eggs-fridge (sin Claude).
 2026-11-25 02:13 en-048-eggs-fridge: listo (render sin Claude)
 2026-11-25 02:13 Termina la producción (ok).
+2026-11-25 10:54 Arranca la producción (15 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo para renderizar:** `en-049-space-heater` (casa #10). El calefactor no va en una regleta: enchufe directo a la pared, 3 pies de distancia y apagado al dormir. El chequeo lo aprobó a la primera (fuentes: CPSC y USFA). La voz dura 34,8 s, `tsc` pasó y revisé los cuadros en una vuelta. Quedó en estado `render` y lo renderiza `producir.py`.
+- **Apartados:** no había ninguno para rescatar.
+- **Incompletos:** ninguno. No corrí el radar, porque la última pasada fue el 24/11 y no encontró tema. El ritmo de seguidores no lo medí en detalle: el log solo anota que hacen falta unos 23 por día.
+Uso: 54 pasos · 81,997 tokens nuevos · 1,945,713 de caché · 14,364 escritos · equivale a US$ 0.81 de API
+Permisos negados (1):
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-049-space-heater; python3 -I - <<'E'\nimport json\nC=\"CPSC OnS
+2026-11-25 10:59 Render de en-049-space-heater (sin Claude).
+2026-11-25 11:11 en-049-space-heater: listo (render sin Claude)
+2026-11-25 11:11 Termina la producción (ok).

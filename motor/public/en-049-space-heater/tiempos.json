@@ -1,0 +1,598 @@
+{
+ "duracion": 34.83,
+ "frases": [
+  {
+   "texto": "That space heater is plugged into a power strip.",
+   "palabras": [
+    {
+     "texto": "That",
+     "inicio": 0.0,
+     "fin": 0.12
+    },
+    {
+     "texto": "space",
+     "inicio": 0.12,
+     "fin": 0.32
+    },
+    {
+     "texto": "heater",
+     "inicio": 0.32,
+     "fin": 0.64
+    },
+    {
+     "texto": "is",
+     "inicio": 0.64,
+     "fin": 0.84
+    },
+    {
+     "texto": "plugged",
+     "inicio": 0.84,
+     "fin": 1.06
+    },
+    {
+     "texto": "into",
+     "inicio": 1.06,
+     "fin": 1.28
+    },
+    {
+     "texto": "a",
+     "inicio": 1.28,
+     "fin": 1.46
+    },
+    {
+     "texto": "power",
+     "inicio": 1.46,
+     "fin": 1.72
+    },
+    {
+     "texto": "strip.",
+     "inicio": 1.72,
+     "fin": 1.98
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 1.98
+  },
+  {
+   "texto": "Don't. That's a fire risk.",
+   "palabras": [
+    {
+     "texto": "Don't.",
+     "inicio": 2.54,
+     "fin": 2.88
+    },
+    {
+     "texto": "That's",
+     "inicio": 3.24,
+     "fin": 3.48
+    },
+    {
+     "texto": "a",
+     "inicio": 3.48,
+     "fin": 3.54
+    },
+    {
+     "texto": "fire",
+     "inicio": 3.54,
+     "fin": 3.76
+    },
+    {
+     "texto": "risk.",
+     "inicio": 3.76,
+     "fin": 4.08
+    }
+   ],
+   "inicio": 2.54,
+   "fin": 4.08
+  },
+  {
+   "texto": "The Consumer Product Safety Commission says: do not use extension cords or power strips with space heaters.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 4.62,
+     "fin": 4.74
+    },
+    {
+     "texto": "Consumer",
+     "inicio": 4.74,
+     "fin": 5.04
+    },
+    {
+     "texto": "Product",
+     "inicio": 5.04,
+     "fin": 5.4
+    },
+    {
+     "texto": "Safety",
+     "inicio": 5.4,
+     "fin": 5.64
+    },
+    {
+     "texto": "Commission",
+     "inicio": 5.64,
+     "fin": 5.94
+    },
+    {
+     "texto": "says:",
+     "inicio": 5.94,
+     "fin": 6.34
+    },
+    {
+     "texto": "do",
+     "inicio": 6.34,
+     "fin": 6.76
+    },
+    {
+     "texto": "not",
+     "inicio": 6.76,
+     "fin": 7.1
+    },
+    {
+     "texto": "use",
+     "inicio": 7.1,
+     "fin": 7.46
+    },
+    {
+     "texto": "extension",
+     "inicio": 7.46,
+     "fin": 7.84
+    },
+    {
+     "texto": "cords",
+     "inicio": 7.84,
+     "fin": 8.2
+    },
+    {
+     "texto": "or",
+     "inicio": 8.2,
+     "fin": 8.42
+    },
+    {
+     "texto": "power",
+     "inicio": 8.42,
+     "fin": 8.66
+    },
+    {
+     "texto": "strips",
+     "inicio": 8.66,
+     "fin": 8.96
+    },
+    {
+     "texto": "with",
+     "inicio": 8.96,
+     "fin": 9.22
+    },
+    {
+     "texto": "space",
+     "inicio": 9.22,
+     "fin": 9.4
+    },
+    {
+     "texto": "heaters.",
+     "inicio": 9.4,
+     "fin": 9.8
+    }
+   ],
+   "inicio": 4.62,
+   "fin": 9.8
+  },
+  {
+   "texto": "The U.S. Fire Administration says plug it directly into a wall outlet.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 10.36,
+     "fin": 10.42
+    },
+    {
+     "texto": "U.S.",
+     "inicio": 10.42,
+     "fin": 10.64
+    },
+    {
+     "texto": "Fire",
+     "inicio": 10.64,
+     "fin": 10.82
+    },
+    {
+     "texto": "Administration",
+     "inicio": 10.82,
+     "fin": 11.14
+    },
+    {
+     "texto": "says",
+     "inicio": 11.14,
+     "fin": 11.68
+    },
+    {
+     "texto": "plug",
+     "inicio": 11.68,
+     "fin": 11.92
+    },
+    {
+     "texto": "it",
+     "inicio": 11.92,
+     "fin": 12.02
+    },
+    {
+     "texto": "directly",
+     "inicio": 12.02,
+     "fin": 12.4
+    },
+    {
+     "texto": "into",
+     "inicio": 12.4,
+     "fin": 12.64
+    },
+    {
+     "texto": "a",
+     "inicio": 12.64,
+     "fin": 12.78
+    },
+    {
+     "texto": "wall",
+     "inicio": 12.78,
+     "fin": 13.06
+    },
+    {
+     "texto": "outlet.",
+     "inicio": 13.06,
+     "fin": 13.44
+    }
+   ],
+   "inicio": 10.36,
+   "fin": 13.44
+  },
+  {
+   "texto": "Keep it at least three feet from curtains, beds, sofas, clothes and papers.",
+   "palabras": [
+    {
+     "texto": "Keep",
+     "inicio": 13.88,
+     "fin": 14.1
+    },
+    {
+     "texto": "it",
+     "inicio": 14.1,
+     "fin": 14.2
+    },
+    {
+     "texto": "at",
+     "inicio": 14.2,
+     "fin": 14.3
+    },
+    {
+     "texto": "least",
+     "inicio": 14.3,
+     "fin": 14.44
+    },
+    {
+     "texto": "three",
+     "inicio": 14.44,
+     "fin": 14.82
+    },
+    {
+     "texto": "feet",
+     "inicio": 14.82,
+     "fin": 15.04
+    },
+    {
+     "texto": "from",
+     "inicio": 15.04,
+     "fin": 15.28
+    },
+    {
+     "texto": "curtains,",
+     "inicio": 15.28,
+     "fin": 15.62
+    },
+    {
+     "texto": "beds,",
+     "inicio": 15.96,
+     "fin": 16.18
+    },
+    {
+     "texto": "sofas,",
+     "inicio": 16.54,
+     "fin": 16.96
+    },
+    {
+     "texto": "clothes",
+     "inicio": 17.14,
+     "fin": 17.48
+    },
+    {
+     "texto": "and",
+     "inicio": 17.48,
+     "fin": 17.7
+    },
+    {
+     "texto": "papers.",
+     "inicio": 17.7,
+     "fin": 17.9
+    }
+   ],
+   "inicio": 13.88,
+   "fin": 17.9
+  },
+  {
+   "texto": "Heads up: never leave it on while it's unattended, or while you're sleeping.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 18.58,
+     "fin": 18.84
+    },
+    {
+     "texto": "up:",
+     "inicio": 18.84,
+     "fin": 19.02
+    },
+    {
+     "texto": "never",
+     "inicio": 19.52,
+     "fin": 19.88
+    },
+    {
+     "texto": "leave",
+     "inicio": 19.88,
+     "fin": 20.24
+    },
+    {
+     "texto": "it",
+     "inicio": 20.24,
+     "fin": 20.38
+    },
+    {
+     "texto": "on",
+     "inicio": 20.38,
+     "fin": 20.52
+    },
+    {
+     "texto": "while",
+     "inicio": 20.52,
+     "fin": 20.72
+    },
+    {
+     "texto": "it's",
+     "inicio": 20.72,
+     "fin": 20.92
+    },
+    {
+     "texto": "unattended,",
+     "inicio": 20.92,
+     "fin": 21.36
+    },
+    {
+     "texto": "or",
+     "inicio": 21.56,
+     "fin": 21.9
+    },
+    {
+     "texto": "while",
+     "inicio": 21.9,
+     "fin": 22.1
+    },
+    {
+     "texto": "you're",
+     "inicio": 22.1,
+     "fin": 22.24
+    },
+    {
+     "texto": "sleeping.",
+     "inicio": 22.24,
+     "fin": 22.54
+    }
+   ],
+   "inicio": 18.58,
+   "fin": 22.54
+  },
+  {
+   "texto": "Save this: wall outlet only, three feet of space, and off when you sleep.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 23.1,
+     "fin": 23.32
+    },
+    {
+     "texto": "this:",
+     "inicio": 23.32,
+     "fin": 23.52
+    },
+    {
+     "texto": "wall",
+     "inicio": 24.08,
+     "fin": 24.38
+    },
+    {
+     "texto": "outlet",
+     "inicio": 24.38,
+     "fin": 24.7
+    },
+    {
+     "texto": "only,",
+     "inicio": 24.7,
+     "fin": 25.0
+    },
+    {
+     "texto": "three",
+     "inicio": 25.42,
+     "fin": 25.8
+    },
+    {
+     "texto": "feet",
+     "inicio": 25.8,
+     "fin": 26.04
+    },
+    {
+     "texto": "of",
+     "inicio": 26.04,
+     "fin": 26.18
+    },
+    {
+     "texto": "space,",
+     "inicio": 26.18,
+     "fin": 26.54
+    },
+    {
+     "texto": "and",
+     "inicio": 26.94,
+     "fin": 27.12
+    },
+    {
+     "texto": "off",
+     "inicio": 27.12,
+     "fin": 27.48
+    },
+    {
+     "texto": "when",
+     "inicio": 27.48,
+     "fin": 27.68
+    },
+    {
+     "texto": "you",
+     "inicio": 27.68,
+     "fin": 27.78
+    },
+    {
+     "texto": "sleep.",
+     "inicio": 27.78,
+     "fin": 28.1
+    }
+   ],
+   "inicio": 23.1,
+   "fin": 28.1
+  },
+  {
+   "texto": "Do you run a space heater at home? Yes or no?",
+   "palabras": [
+    {
+     "texto": "Do",
+     "inicio": 28.1,
+     "fin": 28.72
+    },
+    {
+     "texto": "you",
+     "inicio": 28.72,
+     "fin": 28.84
+    },
+    {
+     "texto": "run",
+     "inicio": 28.84,
+     "fin": 29.06
+    },
+    {
+     "texto": "a",
+     "inicio": 29.06,
+     "fin": 29.18
+    },
+    {
+     "texto": "space",
+     "inicio": 29.18,
+     "fin": 29.32
+    },
+    {
+     "texto": "heater",
+     "inicio": 29.32,
+     "fin": 29.6
+    },
+    {
+     "texto": "at",
+     "inicio": 29.6,
+     "fin": 29.8
+    },
+    {
+     "texto": "home?",
+     "inicio": 29.8,
+     "fin": 29.98
+    },
+    {
+     "texto": "Yes",
+     "inicio": 30.56,
+     "fin": 30.68
+    },
+    {
+     "texto": "or",
+     "inicio": 30.68,
+     "fin": 30.84
+    },
+    {
+     "texto": "no?",
+     "inicio": 30.84,
+     "fin": 30.98
+    }
+   ],
+   "inicio": 28.1,
+   "fin": 30.98
+  },
+  {
+   "texto": "Send this to the friend who plugs everything into one power strip.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 31.44,
+     "fin": 31.8
+    },
+    {
+     "texto": "this",
+     "inicio": 31.8,
+     "fin": 31.98
+    },
+    {
+     "texto": "to",
+     "inicio": 31.98,
+     "fin": 32.14
+    },
+    {
+     "texto": "the",
+     "inicio": 32.14,
+     "fin": 32.24
+    },
+    {
+     "texto": "friend",
+     "inicio": 32.24,
+     "fin": 32.48
+    },
+    {
+     "texto": "who",
+     "inicio": 32.48,
+     "fin": 32.68
+    },
+    {
+     "texto": "plugs",
+     "inicio": 32.68,
+     "fin": 32.98
+    },
+    {
+     "texto": "everything",
+     "inicio": 32.98,
+     "fin": 33.6
+    },
+    {
+     "texto": "into",
+     "inicio": 33.6,
+     "fin": 33.98
+    },
+    {
+     "texto": "one",
+     "inicio": 33.98,
+     "fin": 34.18
+    },
+    {
+     "texto": "power",
+     "inicio": 34.18,
+     "fin": 34.44
+    },
+    {
+     "texto": "strip.",
+     "inicio": 34.44,
+     "fin": 34.68
+    }
+   ],
+   "inicio": 31.44,
+   "fin": 34.68
+  }
+ ]
+}

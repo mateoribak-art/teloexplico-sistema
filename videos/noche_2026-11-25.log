@@ -11,3 +11,11 @@ Uso: 30 pasos · 23,113 tokens nuevos · 1,426,927 de caché · 8,879 escritos �
 `apagon-heladera`: quedó listo (8 placas, origen 036-apagon-heladera, datos verificados de USDA FSIS y FoodSafety.gov).
 Uso: 25 pasos · 27,064 tokens nuevos · 467,242 de caché · 4,442 escritos · equivale a US$ 0.20 de API
 2026-11-25 01:52 Termina el carrusel (ok; quedan 2 listos).
+2026-11-25 10:21 Arranca la producción (15 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `075-parabrisas-empanado` (por qué se empaña el parabrisas; aire acondicionado prendido y recirculación apagada). Quedó en estado `render` y lo renderiza `producir.py`. El chequeo lo rechazó la primera vez (la cifra "dos segundos" no tenía fuente y la frase de Mazda sobre la humedad encerrada tampoco) y lo aprobó la segunda, después de corregir las dos frases. La voz dura 42,3 s, `tsc` no dio errores y revisé los cuadros dos veces; en algunos planos las teclas del tablero quedan cortadas en los bordes.
+- **Rescates:** no hubo. Los apartados 005, 038, 042, 044 y 051 no están por chequeo rechazado.
+- **Segundo video:** no lo produje, porque la cola ya tenía 15 listos (más de 10). El pedido de Mateo de GTA 6 ya estaba hecho con los videos 054 a 056, aunque sigue sin marcarse en `ideas.md`.
+Uso: 19 pasos · 18,799 tokens nuevos · 1,085,097 de caché · 6,534 escritos · equivale a US$ 1.23 de API
+2026-11-25 10:29 Render de 075-parabrisas-empanado (sin Claude).
+2026-11-25 10:54 075-parabrisas-empanado: listo (render sin Claude)
+2026-11-25 10:54 Termina la producción (ok).

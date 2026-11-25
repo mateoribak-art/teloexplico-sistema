@@ -1,0 +1,28 @@
+{
+  "titulo": "Your space heater doesn't belong on a power strip.",
+  "serie": "casa",
+  "fondo": "oscuro",
+  "receta": "regla con numero (3 feet) + pregunta de si/no; pilar home safety, invierno",
+  "pilar": "casa",
+  "destinatario": "se lo manda alguien que vive con un calefactor a su companero de cuarto que lo enchufa a la regleta de la compu",
+  "regla_guardable": "Space heater: wall outlet only, three feet from anything that burns, off when you sleep.",
+  "interaccion": {
+    "guardar": "Space heater: wall outlet only, never a power strip or extension cord; 3 feet from anything that can burn; never on while you sleep or leave.",
+    "comentar": "Do you run a space heater at home? Yes or no?"
+  },
+  "fuentes": [
+    "U.S. Consumer Product Safety Commission, OnSafety blog 'Your space heater needs space' (onsafety.cpsc.gov/blog/2017/01/13/your-space-heater-needs-space/): 'Do not use extension cords or power strips with space heaters, to reduce the risk of fires'; keep curtains, sofas, beds, clothes and papers at least three feet away; 'Never leave the heater on while unattended, or while sleeping.'",
+    "U.S. Fire Administration (FEMA), Space Heater Safety Tips pictograph (usfa.fema.gov/gallery/pictographs/pictograph41.html): 'Plug space heaters directly into wall outlets and never into an extension cord or power strip.'"
+  ],
+  "frases": [
+    {"texto": "That space heater is plugged into a power strip.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "Don't. That's a fire risk.", "estilo": "Dry and contundente."},
+    {"texto": "The Consumer Product Safety Commission says: do not use extension cords or power strips with space heaters.", "estilo": "Informative, clear."},
+    {"texto": "The U.S. Fire Administration says plug it directly into a wall outlet.", "estilo": "Practical, confident."},
+    {"texto": "Keep it at least three feet from curtains, beds, sofas, clothes and papers.", "estilo": "Intrigued, like a reveal."},
+    {"texto": "Heads up: never leave it on while it's unattended, or while you're sleeping.", "estilo": "Honest caveat, calm."},
+    {"texto": "Save this: wall outlet only, three feet of space, and off when you sleep.", "estilo": "Practical, friendly."},
+    {"texto": "Do you run a space heater at home? Yes or no?", "estilo": "Curious, playful."},
+    {"texto": "Send this to the friend who plugs everything into one power strip.", "estilo": "Playful and funny."}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "titulo": "Se te empaña el parabrisas y lo limpiás con la mano",
+  "fondo": "oscuro",
+  "receta": "Mito + zoom adentro",
+  "pilar": "casa",
+  "interaccion": ["guardar", "comentar"],
+  "destinatario": "se lo manda un hijo a su viejo que maneja limpiando el vidrio con la manga",
+  "regla_guardable": "Para desempañar: aire acondicionado prendido y recirculación apagada.",
+  "fuentes": [
+    "Manual del propietario Mazda: Windshield Defrosting and Defogging",
+    "Manual del propietario Kia: Defrosting/defogging the windshield"
+  ],
+  "frases": [
+    {"texto": "Se te empaña el parabrisas y lo limpiás con la mano.", "estilo": "Seco, directo, a cámara."},
+    {"texto": "Y vuelve a empañarse, porque la humedad sigue ahí.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "El vidrio se empaña por la humedad que hay adentro del auto, que se pega al vidrio frío.", "estilo": "Claro, didáctico."},
+    {"texto": "Los manuales de Mazda y de Kia dicen lo mismo: prendé el aire acondicionado, porque seca el aire.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Y sacá la recirculación: según Mazda, con esa tecla el vidrio se empaña más fácil.", "estilo": "Informativo."},
+    {"texto": "Ojo: en un día húmedo y con el frío al máximo, el vidrio se empaña por afuera. Ahí poné una temperatura templada.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Guardalo: aire acondicionado prendido y recirculación apagada.", "estilo": "Práctico, amable."},
+    {"texto": "¿Vos lo limpiás con la mano o con la manga? Contestá en una palabra.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al que maneja con el vidrio empañado.", "estilo": "Cómplice, con humor."}
+  ]
+}

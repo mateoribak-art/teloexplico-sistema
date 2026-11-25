@@ -1622,5 +1622,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-049-space-heater",
+  "tema": "Space heater into a power strip? CPSC: wall outlet only (casa; adapted visuals from 052)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-25T10:56",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-25T10:56",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-25T10:59",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-25T11:11",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

@@ -2769,5 +2769,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "075-parabrisas-empanado",
+  "tema": "¿Por qué se empaña el parabrisas? Aire acondicionado prendido y recirculación apagada (manuales Mazda y Kia)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-25T10:22",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-25T10:22",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-25T10:29",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-25T10:54",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

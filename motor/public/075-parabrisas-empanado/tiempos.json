@@ -1,0 +1,678 @@
+{
+ "duracion": 42.33,
+ "frases": [
+  {
+   "texto": "Se te empaña el parabrisas y lo limpiás con la mano.",
+   "palabras": [
+    {
+     "texto": "Se",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "te",
+     "inicio": 0.14,
+     "fin": 0.28
+    },
+    {
+     "texto": "empaña",
+     "inicio": 0.28,
+     "fin": 0.62
+    },
+    {
+     "texto": "el",
+     "inicio": 0.62,
+     "fin": 0.74
+    },
+    {
+     "texto": "parabrisas",
+     "inicio": 0.74,
+     "fin": 1.4
+    },
+    {
+     "texto": "y",
+     "inicio": 1.4,
+     "fin": 1.84
+    },
+    {
+     "texto": "lo",
+     "inicio": 1.84,
+     "fin": 1.92
+    },
+    {
+     "texto": "limpiás",
+     "inicio": 1.92,
+     "fin": 2.3
+    },
+    {
+     "texto": "con",
+     "inicio": 2.3,
+     "fin": 2.46
+    },
+    {
+     "texto": "la",
+     "inicio": 2.46,
+     "fin": 2.58
+    },
+    {
+     "texto": "mano.",
+     "inicio": 2.58,
+     "fin": 2.88
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.88
+  },
+  {
+   "texto": "Y vuelve a empañarse, porque la humedad sigue ahí.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 3.22,
+     "fin": 3.58
+    },
+    {
+     "texto": "vuelve",
+     "inicio": 3.58,
+     "fin": 3.82
+    },
+    {
+     "texto": "a",
+     "inicio": 3.82,
+     "fin": 3.96
+    },
+    {
+     "texto": "empañarse,",
+     "inicio": 3.96,
+     "fin": 4.34
+    },
+    {
+     "texto": "porque",
+     "inicio": 4.74,
+     "fin": 5.06
+    },
+    {
+     "texto": "la",
+     "inicio": 5.06,
+     "fin": 5.22
+    },
+    {
+     "texto": "humedad",
+     "inicio": 5.22,
+     "fin": 5.62
+    },
+    {
+     "texto": "sigue",
+     "inicio": 5.62,
+     "fin": 6.1
+    },
+    {
+     "texto": "ahí.",
+     "inicio": 6.1,
+     "fin": 6.36
+    }
+   ],
+   "inicio": 3.22,
+   "fin": 6.36
+  },
+  {
+   "texto": "El vidrio se empaña por la humedad que hay adentro del auto, que se pega al vidrio frío.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 7.28,
+     "fin": 7.5
+    },
+    {
+     "texto": "vidrio",
+     "inicio": 7.5,
+     "fin": 7.8
+    },
+    {
+     "texto": "se",
+     "inicio": 7.8,
+     "fin": 7.98
+    },
+    {
+     "texto": "empaña",
+     "inicio": 7.98,
+     "fin": 8.36
+    },
+    {
+     "texto": "por",
+     "inicio": 8.36,
+     "fin": 8.58
+    },
+    {
+     "texto": "la",
+     "inicio": 8.58,
+     "fin": 8.7
+    },
+    {
+     "texto": "humedad",
+     "inicio": 8.7,
+     "fin": 9.02
+    },
+    {
+     "texto": "que",
+     "inicio": 9.02,
+     "fin": 9.16
+    },
+    {
+     "texto": "hay",
+     "inicio": 9.16,
+     "fin": 9.32
+    },
+    {
+     "texto": "adentro",
+     "inicio": 9.32,
+     "fin": 9.8
+    },
+    {
+     "texto": "del",
+     "inicio": 9.8,
+     "fin": 9.96
+    },
+    {
+     "texto": "auto,",
+     "inicio": 9.96,
+     "fin": 10.24
+    },
+    {
+     "texto": "que",
+     "inicio": 10.44,
+     "fin": 10.52
+    },
+    {
+     "texto": "se",
+     "inicio": 10.52,
+     "fin": 10.62
+    },
+    {
+     "texto": "pega",
+     "inicio": 10.62,
+     "fin": 10.84
+    },
+    {
+     "texto": "al",
+     "inicio": 10.84,
+     "fin": 11.0
+    },
+    {
+     "texto": "vidrio",
+     "inicio": 11.0,
+     "fin": 11.26
+    },
+    {
+     "texto": "frío.",
+     "inicio": 11.26,
+     "fin": 11.58
+    }
+   ],
+   "inicio": 7.28,
+   "fin": 11.58
+  },
+  {
+   "texto": "Los manuales de Mazda y de Kia dicen lo mismo: prendé el aire acondicionado, porque seca el aire.",
+   "palabras": [
+    {
+     "texto": "Los",
+     "inicio": 12.38,
+     "fin": 12.48
+    },
+    {
+     "texto": "manuales",
+     "inicio": 12.48,
+     "fin": 12.84
+    },
+    {
+     "texto": "de",
+     "inicio": 12.84,
+     "fin": 12.94
+    },
+    {
+     "texto": "Mazda",
+     "inicio": 12.94,
+     "fin": 13.26
+    },
+    {
+     "texto": "y",
+     "inicio": 13.26,
+     "fin": 13.36
+    },
+    {
+     "texto": "de",
+     "inicio": 13.36,
+     "fin": 13.46
+    },
+    {
+     "texto": "Kia",
+     "inicio": 13.46,
+     "fin": 13.7
+    },
+    {
+     "texto": "dicen",
+     "inicio": 13.7,
+     "fin": 14.06
+    },
+    {
+     "texto": "lo",
+     "inicio": 14.06,
+     "fin": 14.22
+    },
+    {
+     "texto": "mismo:",
+     "inicio": 14.22,
+     "fin": 14.46
+    },
+    {
+     "texto": "prendé",
+     "inicio": 15.04,
+     "fin": 15.36
+    },
+    {
+     "texto": "el",
+     "inicio": 15.36,
+     "fin": 15.48
+    },
+    {
+     "texto": "aire",
+     "inicio": 15.48,
+     "fin": 15.6
+    },
+    {
+     "texto": "acondicionado,",
+     "inicio": 15.6,
+     "fin": 16.3
+    },
+    {
+     "texto": "porque",
+     "inicio": 16.5,
+     "fin": 16.72
+    },
+    {
+     "texto": "seca",
+     "inicio": 16.72,
+     "fin": 16.98
+    },
+    {
+     "texto": "el",
+     "inicio": 16.98,
+     "fin": 17.08
+    },
+    {
+     "texto": "aire.",
+     "inicio": 17.08,
+     "fin": 17.26
+    }
+   ],
+   "inicio": 12.38,
+   "fin": 17.26
+  },
+  {
+   "texto": "Y sacá la recirculación: según Mazda, con esa tecla el vidrio se empaña más fácil.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 17.7,
+     "fin": 17.84
+    },
+    {
+     "texto": "sacá",
+     "inicio": 17.84,
+     "fin": 18.14
+    },
+    {
+     "texto": "la",
+     "inicio": 18.14,
+     "fin": 18.24
+    },
+    {
+     "texto": "recirculación:",
+     "inicio": 18.24,
+     "fin": 18.98
+    },
+    {
+     "texto": "según",
+     "inicio": 19.48,
+     "fin": 19.78
+    },
+    {
+     "texto": "Mazda,",
+     "inicio": 19.78,
+     "fin": 20.12
+    },
+    {
+     "texto": "con",
+     "inicio": 20.38,
+     "fin": 20.44
+    },
+    {
+     "texto": "esa",
+     "inicio": 20.44,
+     "fin": 20.6
+    },
+    {
+     "texto": "tecla",
+     "inicio": 20.6,
+     "fin": 20.9
+    },
+    {
+     "texto": "el",
+     "inicio": 20.9,
+     "fin": 21.02
+    },
+    {
+     "texto": "vidrio",
+     "inicio": 21.02,
+     "fin": 21.28
+    },
+    {
+     "texto": "se",
+     "inicio": 21.28,
+     "fin": 21.44
+    },
+    {
+     "texto": "empaña",
+     "inicio": 21.44,
+     "fin": 21.8
+    },
+    {
+     "texto": "más",
+     "inicio": 21.8,
+     "fin": 22.0
+    },
+    {
+     "texto": "fácil.",
+     "inicio": 22.0,
+     "fin": 22.34
+    }
+   ],
+   "inicio": 17.7,
+   "fin": 22.34
+  },
+  {
+   "texto": "Ojo: en un día húmedo y con el frío al máximo, el vidrio se empaña por afuera. Ahí poné una temperatura templada.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 22.94,
+     "fin": 23.28
+    },
+    {
+     "texto": "en",
+     "inicio": 23.8,
+     "fin": 23.94
+    },
+    {
+     "texto": "un",
+     "inicio": 23.94,
+     "fin": 24.06
+    },
+    {
+     "texto": "día",
+     "inicio": 24.06,
+     "fin": 24.22
+    },
+    {
+     "texto": "húmedo",
+     "inicio": 24.22,
+     "fin": 24.9
+    },
+    {
+     "texto": "y",
+     "inicio": 24.9,
+     "fin": 25.14
+    },
+    {
+     "texto": "con",
+     "inicio": 25.14,
+     "fin": 25.26
+    },
+    {
+     "texto": "el",
+     "inicio": 25.26,
+     "fin": 25.38
+    },
+    {
+     "texto": "frío",
+     "inicio": 25.38,
+     "fin": 25.58
+    },
+    {
+     "texto": "al",
+     "inicio": 25.58,
+     "fin": 25.7
+    },
+    {
+     "texto": "máximo,",
+     "inicio": 25.7,
+     "fin": 26.08
+    },
+    {
+     "texto": "el",
+     "inicio": 26.7,
+     "fin": 26.78
+    },
+    {
+     "texto": "vidrio",
+     "inicio": 26.78,
+     "fin": 27.02
+    },
+    {
+     "texto": "se",
+     "inicio": 27.02,
+     "fin": 27.18
+    },
+    {
+     "texto": "empaña",
+     "inicio": 27.18,
+     "fin": 27.54
+    },
+    {
+     "texto": "por",
+     "inicio": 27.54,
+     "fin": 27.72
+    },
+    {
+     "texto": "afuera.",
+     "inicio": 27.72,
+     "fin": 28.22
+    },
+    {
+     "texto": "Ahí",
+     "inicio": 28.22,
+     "fin": 28.98
+    },
+    {
+     "texto": "poné",
+     "inicio": 28.98,
+     "fin": 29.48
+    },
+    {
+     "texto": "una",
+     "inicio": 29.48,
+     "fin": 29.64
+    },
+    {
+     "texto": "temperatura",
+     "inicio": 29.64,
+     "fin": 30.16
+    },
+    {
+     "texto": "templada.",
+     "inicio": 30.16,
+     "fin": 30.82
+    }
+   ],
+   "inicio": 22.94,
+   "fin": 30.82
+  },
+  {
+   "texto": "Guardalo: aire acondicionado prendido y recirculación apagada.",
+   "palabras": [
+    {
+     "texto": "Guardalo:",
+     "inicio": 31.28,
+     "fin": 31.76
+    },
+    {
+     "texto": "aire",
+     "inicio": 32.32,
+     "fin": 32.52
+    },
+    {
+     "texto": "acondicionado",
+     "inicio": 32.52,
+     "fin": 33.1
+    },
+    {
+     "texto": "prendido",
+     "inicio": 33.1,
+     "fin": 33.72
+    },
+    {
+     "texto": "y",
+     "inicio": 33.72,
+     "fin": 34.12
+    },
+    {
+     "texto": "recirculación",
+     "inicio": 34.12,
+     "fin": 34.88
+    },
+    {
+     "texto": "apagada.",
+     "inicio": 34.88,
+     "fin": 35.38
+    }
+   ],
+   "inicio": 31.28,
+   "fin": 35.38
+  },
+  {
+   "texto": "¿Vos lo limpiás con la mano o con la manga? Contestá en una palabra.",
+   "palabras": [
+    {
+     "texto": "¿Vos",
+     "inicio": 35.88,
+     "fin": 36.14
+    },
+    {
+     "texto": "lo",
+     "inicio": 36.14,
+     "fin": 36.4
+    },
+    {
+     "texto": "limpiás",
+     "inicio": 36.4,
+     "fin": 36.74
+    },
+    {
+     "texto": "con",
+     "inicio": 36.74,
+     "fin": 36.88
+    },
+    {
+     "texto": "la",
+     "inicio": 36.88,
+     "fin": 37.02
+    },
+    {
+     "texto": "mano",
+     "inicio": 37.02,
+     "fin": 37.3
+    },
+    {
+     "texto": "o",
+     "inicio": 37.3,
+     "fin": 37.64
+    },
+    {
+     "texto": "con",
+     "inicio": 37.64,
+     "fin": 37.76
+    },
+    {
+     "texto": "la",
+     "inicio": 37.76,
+     "fin": 37.86
+    },
+    {
+     "texto": "manga?",
+     "inicio": 37.86,
+     "fin": 38.1
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 38.66,
+     "fin": 39.08
+    },
+    {
+     "texto": "en",
+     "inicio": 39.08,
+     "fin": 39.16
+    },
+    {
+     "texto": "una",
+     "inicio": 39.16,
+     "fin": 39.28
+    },
+    {
+     "texto": "palabra.",
+     "inicio": 39.28,
+     "fin": 39.58
+    }
+   ],
+   "inicio": 35.88,
+   "fin": 39.58
+  },
+  {
+   "texto": "Mandáselo al que maneja con el vidrio empañado.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 40.14,
+     "fin": 40.72
+    },
+    {
+     "texto": "al",
+     "inicio": 40.72,
+     "fin": 40.8
+    },
+    {
+     "texto": "que",
+     "inicio": 40.8,
+     "fin": 40.9
+    },
+    {
+     "texto": "maneja",
+     "inicio": 40.9,
+     "fin": 41.24
+    },
+    {
+     "texto": "con",
+     "inicio": 41.24,
+     "fin": 41.38
+    },
+    {
+     "texto": "el",
+     "inicio": 41.38,
+     "fin": 41.48
+    },
+    {
+     "texto": "vidrio",
+     "inicio": 41.48,
+     "fin": 41.74
+    },
+    {
+     "texto": "empañado.",
+     "inicio": 41.74,
+     "fin": 42.24
+    }
+   ],
+   "inicio": 40.14,
+   "fin": 42.24
+  }
+ ]
+}
