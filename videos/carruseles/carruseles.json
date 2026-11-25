@@ -326,7 +326,7 @@
  },
  {
   "clave": "bondi-de-brasil",
-  "estado": "listo",
+  "estado": "publicado",
   "origen": [
    "027-bondi-de-brasil"
   ],
@@ -340,6 +340,11 @@
     "estado": "listo",
     "cuando": "2026-11-21T22:55",
     "motivo": "control OK"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-24T23:52",
+    "motivo": "https://www.instagram.com/p/DgJf-5YjSnU/"
    }
   ]
  },
