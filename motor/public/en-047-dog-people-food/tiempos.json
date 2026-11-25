@@ -1,0 +1,695 @@
+{
+ "duracion": 39.33,
+ "frases": [
+  {
+   "texto": "You slip your dog a bite off your plate and figure it's fine.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.16
+    },
+    {
+     "texto": "slip",
+     "inicio": 0.16,
+     "fin": 0.42
+    },
+    {
+     "texto": "your",
+     "inicio": 0.42,
+     "fin": 0.6
+    },
+    {
+     "texto": "dog",
+     "inicio": 0.6,
+     "fin": 0.82
+    },
+    {
+     "texto": "a",
+     "inicio": 0.82,
+     "fin": 0.98
+    },
+    {
+     "texto": "bite",
+     "inicio": 0.98,
+     "fin": 1.12
+    },
+    {
+     "texto": "off",
+     "inicio": 1.12,
+     "fin": 1.26
+    },
+    {
+     "texto": "your",
+     "inicio": 1.26,
+     "fin": 1.4
+    },
+    {
+     "texto": "plate",
+     "inicio": 1.4,
+     "fin": 1.72
+    },
+    {
+     "texto": "and",
+     "inicio": 1.72,
+     "fin": 1.88
+    },
+    {
+     "texto": "figure",
+     "inicio": 1.88,
+     "fin": 2.12
+    },
+    {
+     "texto": "it's",
+     "inicio": 2.12,
+     "fin": 2.48
+    },
+    {
+     "texto": "fine.",
+     "inicio": 2.48,
+     "fin": 2.74
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.74
+  },
+  {
+   "texto": "But some of our food really can hurt them.",
+   "palabras": [
+    {
+     "texto": "But",
+     "inicio": 3.3,
+     "fin": 3.44
+    },
+    {
+     "texto": "some",
+     "inicio": 3.44,
+     "fin": 3.68
+    },
+    {
+     "texto": "of",
+     "inicio": 3.68,
+     "fin": 3.78
+    },
+    {
+     "texto": "our",
+     "inicio": 3.78,
+     "fin": 3.9
+    },
+    {
+     "texto": "food",
+     "inicio": 3.9,
+     "fin": 4.14
+    },
+    {
+     "texto": "really",
+     "inicio": 4.14,
+     "fin": 4.5
+    },
+    {
+     "texto": "can",
+     "inicio": 4.5,
+     "fin": 4.78
+    },
+    {
+     "texto": "hurt",
+     "inicio": 4.78,
+     "fin": 5.0
+    },
+    {
+     "texto": "them.",
+     "inicio": 5.0,
+     "fin": 5.2
+    }
+   ],
+   "inicio": 3.3,
+   "fin": 5.2
+  },
+  {
+   "texto": "The ASPCA, the animal welfare group, keeps a list of what not to feed your pets.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 5.64,
+     "fin": 5.7
+    },
+    {
+     "texto": "ASPCA,",
+     "inicio": 5.7,
+     "fin": 6.68
+    },
+    {
+     "texto": "the",
+     "inicio": 6.8,
+     "fin": 6.88
+    },
+    {
+     "texto": "animal",
+     "inicio": 6.88,
+     "fin": 7.08
+    },
+    {
+     "texto": "welfare",
+     "inicio": 7.08,
+     "fin": 7.4
+    },
+    {
+     "texto": "group,",
+     "inicio": 7.4,
+     "fin": 7.74
+    },
+    {
+     "texto": "keeps",
+     "inicio": 8.16,
+     "fin": 8.34
+    },
+    {
+     "texto": "a",
+     "inicio": 8.34,
+     "fin": 8.58
+    },
+    {
+     "texto": "list",
+     "inicio": 8.58,
+     "fin": 8.82
+    },
+    {
+     "texto": "of",
+     "inicio": 8.82,
+     "fin": 9.0
+    },
+    {
+     "texto": "what",
+     "inicio": 9.0,
+     "fin": 9.16
+    },
+    {
+     "texto": "not",
+     "inicio": 9.16,
+     "fin": 9.48
+    },
+    {
+     "texto": "to",
+     "inicio": 9.48,
+     "fin": 9.68
+    },
+    {
+     "texto": "feed",
+     "inicio": 9.68,
+     "fin": 9.88
+    },
+    {
+     "texto": "your",
+     "inicio": 9.88,
+     "fin": 10.06
+    },
+    {
+     "texto": "pets.",
+     "inicio": 10.06,
+     "fin": 10.28
+    }
+   ],
+   "inicio": 5.64,
+   "fin": 10.28
+  },
+  {
+   "texto": "One: chocolate. The darker it is, the bigger the risk.",
+   "palabras": [
+    {
+     "texto": "One:",
+     "inicio": 10.9,
+     "fin": 11.1
+    },
+    {
+     "texto": "chocolate.",
+     "inicio": 11.56,
+     "fin": 11.76
+    },
+    {
+     "texto": "The",
+     "inicio": 12.3,
+     "fin": 12.4
+    },
+    {
+     "texto": "darker",
+     "inicio": 12.4,
+     "fin": 12.62
+    },
+    {
+     "texto": "it",
+     "inicio": 12.62,
+     "fin": 12.76
+    },
+    {
+     "texto": "is,",
+     "inicio": 12.76,
+     "fin": 12.96
+    },
+    {
+     "texto": "the",
+     "inicio": 13.04,
+     "fin": 13.08
+    },
+    {
+     "texto": "bigger",
+     "inicio": 13.08,
+     "fin": 13.22
+    },
+    {
+     "texto": "the",
+     "inicio": 13.22,
+     "fin": 13.36
+    },
+    {
+     "texto": "risk.",
+     "inicio": 13.36,
+     "fin": 13.58
+    }
+   ],
+   "inicio": 10.9,
+   "fin": 13.58
+  },
+  {
+   "texto": "Two: grapes and raisins, which can cause kidney damage.",
+   "palabras": [
+    {
+     "texto": "Two:",
+     "inicio": 14.0,
+     "fin": 14.3
+    },
+    {
+     "texto": "grapes",
+     "inicio": 14.76,
+     "fin": 14.86
+    },
+    {
+     "texto": "and",
+     "inicio": 14.86,
+     "fin": 15.04
+    },
+    {
+     "texto": "raisins,",
+     "inicio": 15.04,
+     "fin": 15.32
+    },
+    {
+     "texto": "which",
+     "inicio": 15.64,
+     "fin": 15.88
+    },
+    {
+     "texto": "can",
+     "inicio": 15.88,
+     "fin": 16.1
+    },
+    {
+     "texto": "cause",
+     "inicio": 16.1,
+     "fin": 16.34
+    },
+    {
+     "texto": "kidney",
+     "inicio": 16.34,
+     "fin": 16.58
+    },
+    {
+     "texto": "damage.",
+     "inicio": 16.58,
+     "fin": 16.86
+    }
+   ],
+   "inicio": 14.0,
+   "fin": 16.86
+  },
+  {
+   "texto": "Three: onions, garlic, and chives, which can damage red blood cells and lead to anemia.",
+   "palabras": [
+    {
+     "texto": "Three:",
+     "inicio": 17.4,
+     "fin": 17.68
+    },
+    {
+     "texto": "onions,",
+     "inicio": 18.16,
+     "fin": 18.48
+    },
+    {
+     "texto": "garlic,",
+     "inicio": 18.84,
+     "fin": 19.16
+    },
+    {
+     "texto": "and",
+     "inicio": 19.36,
+     "fin": 19.42
+    },
+    {
+     "texto": "chives,",
+     "inicio": 19.42,
+     "fin": 19.82
+    },
+    {
+     "texto": "which",
+     "inicio": 19.96,
+     "fin": 20.08
+    },
+    {
+     "texto": "can",
+     "inicio": 20.08,
+     "fin": 20.28
+    },
+    {
+     "texto": "damage",
+     "inicio": 20.28,
+     "fin": 20.56
+    },
+    {
+     "texto": "red",
+     "inicio": 20.56,
+     "fin": 20.9
+    },
+    {
+     "texto": "blood",
+     "inicio": 20.9,
+     "fin": 21.14
+    },
+    {
+     "texto": "cells",
+     "inicio": 21.14,
+     "fin": 21.5
+    },
+    {
+     "texto": "and",
+     "inicio": 21.5,
+     "fin": 21.76
+    },
+    {
+     "texto": "lead",
+     "inicio": 21.76,
+     "fin": 21.96
+    },
+    {
+     "texto": "to",
+     "inicio": 21.96,
+     "fin": 22.1
+    },
+    {
+     "texto": "anemia.",
+     "inicio": 22.1,
+     "fin": 22.46
+    }
+   ],
+   "inicio": 17.4,
+   "fin": 22.46
+  },
+  {
+   "texto": "Heads up: the risk depends on how much they ate. If your dog got into any of these, call your vet.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 22.94,
+     "fin": 23.22
+    },
+    {
+     "texto": "up:",
+     "inicio": 23.22,
+     "fin": 23.4
+    },
+    {
+     "texto": "the",
+     "inicio": 23.54,
+     "fin": 23.6
+    },
+    {
+     "texto": "risk",
+     "inicio": 23.6,
+     "fin": 23.94
+    },
+    {
+     "texto": "depends",
+     "inicio": 23.94,
+     "fin": 24.28
+    },
+    {
+     "texto": "on",
+     "inicio": 24.28,
+     "fin": 24.72
+    },
+    {
+     "texto": "how",
+     "inicio": 24.72,
+     "fin": 24.98
+    },
+    {
+     "texto": "much",
+     "inicio": 24.98,
+     "fin": 25.18
+    },
+    {
+     "texto": "they",
+     "inicio": 25.18,
+     "fin": 25.42
+    },
+    {
+     "texto": "ate.",
+     "inicio": 25.42,
+     "fin": 25.68
+    },
+    {
+     "texto": "If",
+     "inicio": 26.06,
+     "fin": 26.18
+    },
+    {
+     "texto": "your",
+     "inicio": 26.18,
+     "fin": 26.28
+    },
+    {
+     "texto": "dog",
+     "inicio": 26.28,
+     "fin": 26.44
+    },
+    {
+     "texto": "got",
+     "inicio": 26.44,
+     "fin": 26.62
+    },
+    {
+     "texto": "into",
+     "inicio": 26.62,
+     "fin": 26.84
+    },
+    {
+     "texto": "any",
+     "inicio": 26.84,
+     "fin": 27.08
+    },
+    {
+     "texto": "of",
+     "inicio": 27.08,
+     "fin": 27.2
+    },
+    {
+     "texto": "these,",
+     "inicio": 27.2,
+     "fin": 27.52
+    },
+    {
+     "texto": "call",
+     "inicio": 27.72,
+     "fin": 27.9
+    },
+    {
+     "texto": "your",
+     "inicio": 27.9,
+     "fin": 28.04
+    },
+    {
+     "texto": "vet.",
+     "inicio": 28.04,
+     "fin": 28.24
+    }
+   ],
+   "inicio": 22.94,
+   "fin": 28.24
+  },
+  {
+   "texto": "Save this: chocolate, grapes, onions. Never off your plate.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 28.7,
+     "fin": 28.9
+    },
+    {
+     "texto": "this:",
+     "inicio": 28.9,
+     "fin": 29.14
+    },
+    {
+     "texto": "chocolate,",
+     "inicio": 29.48,
+     "fin": 29.82
+    },
+    {
+     "texto": "grapes,",
+     "inicio": 30.16,
+     "fin": 30.4
+    },
+    {
+     "texto": "onions.",
+     "inicio": 30.74,
+     "fin": 31.12
+    },
+    {
+     "texto": "Never",
+     "inicio": 31.64,
+     "fin": 31.92
+    },
+    {
+     "texto": "off",
+     "inicio": 31.92,
+     "fin": 32.2
+    },
+    {
+     "texto": "your",
+     "inicio": 32.2,
+     "fin": 32.32
+    },
+    {
+     "texto": "plate.",
+     "inicio": 32.32,
+     "fin": 32.56
+    }
+   ],
+   "inicio": 28.7,
+   "fin": 32.56
+  },
+  {
+   "texto": "What's the weirdest thing your dog ever tried to eat?",
+   "palabras": [
+    {
+     "texto": "What's",
+     "inicio": 32.98,
+     "fin": 33.18
+    },
+    {
+     "texto": "the",
+     "inicio": 33.18,
+     "fin": 33.34
+    },
+    {
+     "texto": "weirdest",
+     "inicio": 33.34,
+     "fin": 33.76
+    },
+    {
+     "texto": "thing",
+     "inicio": 33.76,
+     "fin": 34.24
+    },
+    {
+     "texto": "your",
+     "inicio": 34.24,
+     "fin": 34.4
+    },
+    {
+     "texto": "dog",
+     "inicio": 34.4,
+     "fin": 34.64
+    },
+    {
+     "texto": "ever",
+     "inicio": 34.64,
+     "fin": 35.08
+    },
+    {
+     "texto": "tried",
+     "inicio": 35.08,
+     "fin": 35.38
+    },
+    {
+     "texto": "to",
+     "inicio": 35.38,
+     "fin": 35.5
+    },
+    {
+     "texto": "eat?",
+     "inicio": 35.5,
+     "fin": 35.7
+    }
+   ],
+   "inicio": 32.98,
+   "fin": 35.7
+  },
+  {
+   "texto": "Send this to the person who feeds the dog under the table.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 36.16,
+     "fin": 36.5
+    },
+    {
+     "texto": "this",
+     "inicio": 36.5,
+     "fin": 36.86
+    },
+    {
+     "texto": "to",
+     "inicio": 36.86,
+     "fin": 37.08
+    },
+    {
+     "texto": "the",
+     "inicio": 37.08,
+     "fin": 37.16
+    },
+    {
+     "texto": "person",
+     "inicio": 37.16,
+     "fin": 37.44
+    },
+    {
+     "texto": "who",
+     "inicio": 37.44,
+     "fin": 37.68
+    },
+    {
+     "texto": "feeds",
+     "inicio": 37.68,
+     "fin": 38.02
+    },
+    {
+     "texto": "the",
+     "inicio": 38.02,
+     "fin": 38.24
+    },
+    {
+     "texto": "dog",
+     "inicio": 38.24,
+     "fin": 38.48
+    },
+    {
+     "texto": "under",
+     "inicio": 38.48,
+     "fin": 38.82
+    },
+    {
+     "texto": "the",
+     "inicio": 38.82,
+     "fin": 38.98
+    },
+    {
+     "texto": "table.",
+     "inicio": 38.98,
+     "fin": 39.22
+    }
+   ],
+   "inicio": 36.16,
+   "fin": 39.22
+  }
+ ]
+}

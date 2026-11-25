@@ -1,0 +1,28 @@
+{
+  "titulo": "You slip your dog a bite off your plate. Some of it can really hurt them.",
+  "serie": "casa",
+  "fondo": "oscuro",
+  "receta": "el que lo hace mal / lista corta para guardar + pregunta de comunidad",
+  "pilar": "mascotas",
+  "destinatario": "se lo manda alguien con perro a su pareja o a su abuelo, el que le pasa comida del plato al perro, para decirle que ni chocolate, ni uvas, ni cebolla",
+  "regla_guardable": "Never for dogs: chocolate, grapes and raisins, onions, garlic and chives.",
+  "interaccion": {
+    "guardar": "Never for dogs: chocolate, grapes and raisins, onions, garlic, chives.",
+    "comentar": "What's the weirdest thing your dog ever tried to eat?"
+  },
+  "fuentes": [
+    "ASPCA, People Foods to Avoid Feeding Your Pets (aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets)"
+  ],
+  "frases": [
+    {"texto": "You slip your dog a bite off your plate and figure it's fine.", "estilo": "Dry and direct, with a half smile."},
+    {"texto": "But some of our food really can hurt them.", "estilo": "Punchy."},
+    {"texto": "The ASPCA, the animal welfare group, keeps a list of what not to feed your pets.", "estilo": "Informative, with authority."},
+    {"texto": "One: chocolate. The darker it is, the bigger the risk.", "estilo": "Clear and firm."},
+    {"texto": "Two: grapes and raisins, which can cause kidney damage.", "estilo": "Clear and firm."},
+    {"texto": "Three: onions, garlic, and chives, which can damage red blood cells and lead to anemia.", "estilo": "Clear and firm."},
+    {"texto": "Heads up: the risk depends on how much they ate. If your dog got into any of these, call your vet.", "estilo": "Honest caveat, calm."},
+    {"texto": "Save this: chocolate, grapes, onions. Never off your plate.", "estilo": "Practical, friendly."},
+    {"texto": "What's the weirdest thing your dog ever tried to eat?", "estilo": "Curious, playful."},
+    {"texto": "Send this to the person who feeds the dog under the table.", "estilo": "Playful and funny."}
+  ]
+}

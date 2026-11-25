@@ -2682,7 +2682,7 @@
  {
   "slug": "072-diez-por-ciento-cerebro",
   "tema": "¿Usamos solo el 10 % del cerebro? No: usamos casi todo, en distintos momentos (Queensland Brain Institute, Johns Hopkins, Scientific American)",
-  "estado": "produccion",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -2703,6 +2703,16 @@
     "estado": "produccion",
     "cuando": "2026-11-24T18:23",
     "motivo": "guion corregido (un neurólogo, Barry Gordon); falta voz, escenas y render"
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-24T21:12",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-24T21:18",
+    "motivo": "render sin Claude"
    }
   ]
  },

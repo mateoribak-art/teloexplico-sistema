@@ -1,0 +1,15 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de salud/seguridad están verificadas contra la página citada de la ASPCA (People Foods to Avoid Feeding Your Pets) y coinciden con Pet Poison Helpline, VCA, Cornell y Merck Vet Manual. No hay cifras. La atribución a la ASPCA es correcta: la página tiene chocolate (más oscuro = más riesgo), uvas/pasas (daño renal), cebolla/ajo/cebollín (daño de glóbulos rojos que puede llevar a anemia, según la cantidad) y el consejo de contactar al veterinario o al control de intoxicaciones. Sin afirmaciones probables, dudosas ni falsas.",
+  "afirmaciones": [
+    {"texto": "Some of our food really can hurt them (people food can hurt dogs).", "fuente": "ASPCA, aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets", "estado": "verificada", "matiz_ok": true},
+    {"texto": "The ASPCA, the animal welfare group, keeps a list of what not to feed your pets.", "fuente": "ASPCA, página citada (lista de alimentos humanos a evitar)", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Chocolate: the darker it is, the bigger the risk.", "fuente": "ASPCA: 'The darker (higher cacao percentage) the chocolate... the greater the risk for toxicity'; también Pet Poison Helpline y VCA", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Grapes and raisins can cause kidney damage.", "fuente": "ASPCA: 'exposure to grapes/raisins can lead to kidney damage'; Cornell, Merck Vet Manual", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Onions, garlic, and chives can damage red blood cells and lead to anemia.", "fuente": "ASPCA: 'red blood cell damage, which can lead to anemia'; Merck Vet Manual (Heinz body anemia)", "estado": "verificada", "matiz_ok": true},
+    {"texto": "The risk depends on how much they ate.", "fuente": "ASPCA ('depending on the amount ingested'); Pet Poison Helpline", "estado": "verificada", "matiz_ok": true},
+    {"texto": "If your dog got into any of these, call your vet.", "fuente": "ASPCA: contactar al veterinario o al control de intoxicaciones, (888) 426-4435", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Caption: 'The ASPCA keeps a list of people foods to avoid feeding pets. Three on it...' y 'Sources: ASPCA, People Foods to Avoid Feeding Your Pets'", "fuente": "ASPCA, página citada", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Save this: chocolate, grapes, onions. Never off your plate. / never for dogs: chocolate, grapes and raisins, onions, garlic, chives.", "fuente": "ASPCA, página citada (consejo práctico coherente con la lista)", "estado": "verificada", "matiz_ok": true}
+  ]
+}

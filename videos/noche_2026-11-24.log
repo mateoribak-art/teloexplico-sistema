@@ -27,3 +27,11 @@ Uso: 28 pasos · 26,303 tokens nuevos · 1,905,257 de caché · 11,423 escritos 
 2026-11-24 17:30 Render de 073-muralla-desde-espacio (sin Claude).
 2026-11-24 17:58 073-muralla-desde-espacio: listo (render sin Claude)
 2026-11-24 17:58 Termina la producción (ok).
+2026-11-24 21:10 Arranca la producción (13 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **En render:** `072-diez-por-ciento-cerebro`. Tenía el chequeo aprobado desde la corrección a "un neurólogo de Johns Hopkins". Faltaban la voz (42,7 s, 127 de 127 palabras oídas) y las escenas 3D. Pasó `tsc`, revisé los cuadros dos veces y quedó marcado en `render`. No lo rendericé yo: el render y el control los hace `producir.py` al terminar el turno.
+- **Rescate de apartados:** no había ninguno para rescatar. Los de chequeo rechazado ya habían fallado dos veces, y los apartados 005, 038, 042, 044 y 051 no están ahí por ese motivo, así que siguen apartados.
+- **Segundo video:** no lo produje, porque la cola ya tiene más de 10 listos (060 a 071 y 073). Quedó anotado en `videos/produccion.log`.
+Uso: 37 pasos · 58,853 tokens nuevos · 988,574 de caché · 9,069 escritos · equivale a US$ 0.42 de API
+2026-11-24 21:12 Render de 072-diez-por-ciento-cerebro (sin Claude).
+2026-11-24 21:18 072-diez-por-ciento-cerebro: listo (render sin Claude)
+2026-11-24 21:18 Termina la producción (ok).

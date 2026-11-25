@@ -1,0 +1,703 @@
+{
+ "duracion": 42.72,
+ "frases": [
+  {
+   "texto": "Te dijeron que usás solo el diez por ciento del cerebro.",
+   "palabras": [
+    {
+     "texto": "Te",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "dijeron",
+     "inicio": 0.14,
+     "fin": 0.5
+    },
+    {
+     "texto": "que",
+     "inicio": 0.5,
+     "fin": 0.64
+    },
+    {
+     "texto": "usás",
+     "inicio": 0.64,
+     "fin": 0.88
+    },
+    {
+     "texto": "solo",
+     "inicio": 0.88,
+     "fin": 1.12
+    },
+    {
+     "texto": "el",
+     "inicio": 1.12,
+     "fin": 1.3
+    },
+    {
+     "texto": "diez",
+     "inicio": 1.3,
+     "fin": 1.54
+    },
+    {
+     "texto": "por",
+     "inicio": 1.54,
+     "fin": 1.78
+    },
+    {
+     "texto": "ciento",
+     "inicio": 1.78,
+     "fin": 2.0
+    },
+    {
+     "texto": "del",
+     "inicio": 2.0,
+     "fin": 2.22
+    },
+    {
+     "texto": "cerebro.",
+     "inicio": 2.22,
+     "fin": 2.68
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.68
+  },
+  {
+   "texto": "Es un mito.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 3.06,
+     "fin": 3.3
+    },
+    {
+     "texto": "un",
+     "inicio": 3.3,
+     "fin": 3.46
+    },
+    {
+     "texto": "mito.",
+     "inicio": 3.46,
+     "fin": 3.78
+    }
+   ],
+   "inicio": 3.06,
+   "fin": 3.78
+  },
+  {
+   "texto": "Un neurólogo de la Universidad Johns Hopkins, en Estados Unidos, explica que usamos prácticamente todo el cerebro.",
+   "palabras": [
+    {
+     "texto": "Un",
+     "inicio": 4.38,
+     "fin": 4.68
+    },
+    {
+     "texto": "neurólogo",
+     "inicio": 4.68,
+     "fin": 5.12
+    },
+    {
+     "texto": "de",
+     "inicio": 5.12,
+     "fin": 5.26
+    },
+    {
+     "texto": "la",
+     "inicio": 5.26,
+     "fin": 5.32
+    },
+    {
+     "texto": "Universidad",
+     "inicio": 5.32,
+     "fin": 5.86
+    },
+    {
+     "texto": "Johns",
+     "inicio": 5.86,
+     "fin": 6.18
+    },
+    {
+     "texto": "Hopkins,",
+     "inicio": 6.18,
+     "fin": 6.62
+    },
+    {
+     "texto": "en",
+     "inicio": 6.98,
+     "fin": 7.0
+    },
+    {
+     "texto": "Estados",
+     "inicio": 7.0,
+     "fin": 7.18
+    },
+    {
+     "texto": "Unidos,",
+     "inicio": 7.18,
+     "fin": 7.64
+    },
+    {
+     "texto": "explica",
+     "inicio": 8.1,
+     "fin": 8.54
+    },
+    {
+     "texto": "que",
+     "inicio": 8.54,
+     "fin": 8.68
+    },
+    {
+     "texto": "usamos",
+     "inicio": 8.68,
+     "fin": 8.96
+    },
+    {
+     "texto": "prácticamente",
+     "inicio": 8.96,
+     "fin": 9.72
+    },
+    {
+     "texto": "todo",
+     "inicio": 10.14,
+     "fin": 10.42
+    },
+    {
+     "texto": "el",
+     "inicio": 10.42,
+     "fin": 10.7
+    },
+    {
+     "texto": "cerebro.",
+     "inicio": 10.7,
+     "fin": 11.2
+    }
+   ],
+   "inicio": 4.38,
+   "fin": 11.2
+  },
+  {
+   "texto": "No todo a la vez: según lo que hagas, se prenden unas zonas u otras.",
+   "palabras": [
+    {
+     "texto": "No",
+     "inicio": 11.56,
+     "fin": 11.78
+    },
+    {
+     "texto": "todo",
+     "inicio": 11.78,
+     "fin": 11.92
+    },
+    {
+     "texto": "a",
+     "inicio": 11.92,
+     "fin": 12.08
+    },
+    {
+     "texto": "la",
+     "inicio": 12.08,
+     "fin": 12.08
+    },
+    {
+     "texto": "vez:",
+     "inicio": 12.08,
+     "fin": 12.32
+    },
+    {
+     "texto": "según",
+     "inicio": 12.84,
+     "fin": 13.08
+    },
+    {
+     "texto": "lo",
+     "inicio": 13.08,
+     "fin": 13.2
+    },
+    {
+     "texto": "que",
+     "inicio": 13.2,
+     "fin": 13.34
+    },
+    {
+     "texto": "hagas,",
+     "inicio": 13.34,
+     "fin": 13.7
+    },
+    {
+     "texto": "se",
+     "inicio": 13.92,
+     "fin": 14.08
+    },
+    {
+     "texto": "prenden",
+     "inicio": 14.08,
+     "fin": 14.38
+    },
+    {
+     "texto": "unas",
+     "inicio": 14.38,
+     "fin": 14.6
+    },
+    {
+     "texto": "zonas",
+     "inicio": 14.6,
+     "fin": 14.96
+    },
+    {
+     "texto": "u",
+     "inicio": 14.96,
+     "fin": 15.32
+    },
+    {
+     "texto": "otras.",
+     "inicio": 15.32,
+     "fin": 15.58
+    }
+   ],
+   "inicio": 11.56,
+   "fin": 15.58
+  },
+  {
+   "texto": "Además, el cerebro pesa cerca del dos por ciento del cuerpo y gasta cerca del veinte por ciento de la energía.",
+   "palabras": [
+    {
+     "texto": "Además,",
+     "inicio": 16.18,
+     "fin": 16.52
+    },
+    {
+     "texto": "el",
+     "inicio": 17.18,
+     "fin": 17.26
+    },
+    {
+     "texto": "cerebro",
+     "inicio": 17.26,
+     "fin": 17.62
+    },
+    {
+     "texto": "pesa",
+     "inicio": 17.62,
+     "fin": 17.94
+    },
+    {
+     "texto": "cerca",
+     "inicio": 17.94,
+     "fin": 18.18
+    },
+    {
+     "texto": "del",
+     "inicio": 18.18,
+     "fin": 18.46
+    },
+    {
+     "texto": "dos",
+     "inicio": 18.46,
+     "fin": 18.7
+    },
+    {
+     "texto": "por",
+     "inicio": 18.7,
+     "fin": 18.9
+    },
+    {
+     "texto": "ciento",
+     "inicio": 18.9,
+     "fin": 19.16
+    },
+    {
+     "texto": "del",
+     "inicio": 19.16,
+     "fin": 19.34
+    },
+    {
+     "texto": "cuerpo",
+     "inicio": 19.34,
+     "fin": 19.66
+    },
+    {
+     "texto": "y",
+     "inicio": 19.66,
+     "fin": 20.36
+    },
+    {
+     "texto": "gasta",
+     "inicio": 20.36,
+     "fin": 20.58
+    },
+    {
+     "texto": "cerca",
+     "inicio": 20.58,
+     "fin": 20.88
+    },
+    {
+     "texto": "del",
+     "inicio": 20.88,
+     "fin": 21.18
+    },
+    {
+     "texto": "veinte",
+     "inicio": 21.18,
+     "fin": 21.5
+    },
+    {
+     "texto": "por",
+     "inicio": 21.5,
+     "fin": 21.72
+    },
+    {
+     "texto": "ciento",
+     "inicio": 21.72,
+     "fin": 21.94
+    },
+    {
+     "texto": "de",
+     "inicio": 21.94,
+     "fin": 22.14
+    },
+    {
+     "texto": "la",
+     "inicio": 22.14,
+     "fin": 22.22
+    },
+    {
+     "texto": "energía.",
+     "inicio": 22.22,
+     "fin": 22.54
+    }
+   ],
+   "inicio": 16.18,
+   "fin": 22.54
+  },
+  {
+   "texto": "Ojo: esto no quiere decir que todas las neuronas disparen juntas ni que puedas pensar más rápido.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 23.12,
+     "fin": 23.38
+    },
+    {
+     "texto": "esto",
+     "inicio": 23.9,
+     "fin": 24.16
+    },
+    {
+     "texto": "no",
+     "inicio": 24.16,
+     "fin": 24.46
+    },
+    {
+     "texto": "quiere",
+     "inicio": 24.46,
+     "fin": 24.74
+    },
+    {
+     "texto": "decir",
+     "inicio": 24.74,
+     "fin": 25.1
+    },
+    {
+     "texto": "que",
+     "inicio": 25.1,
+     "fin": 25.28
+    },
+    {
+     "texto": "todas",
+     "inicio": 25.28,
+     "fin": 25.6
+    },
+    {
+     "texto": "las",
+     "inicio": 25.6,
+     "fin": 25.84
+    },
+    {
+     "texto": "neuronas",
+     "inicio": 25.84,
+     "fin": 26.24
+    },
+    {
+     "texto": "disparen",
+     "inicio": 26.24,
+     "fin": 26.54
+    },
+    {
+     "texto": "juntas",
+     "inicio": 26.54,
+     "fin": 27.16
+    },
+    {
+     "texto": "ni",
+     "inicio": 27.16,
+     "fin": 27.54
+    },
+    {
+     "texto": "que",
+     "inicio": 27.54,
+     "fin": 27.68
+    },
+    {
+     "texto": "puedas",
+     "inicio": 27.68,
+     "fin": 28.04
+    },
+    {
+     "texto": "pensar",
+     "inicio": 28.04,
+     "fin": 28.24
+    },
+    {
+     "texto": "más",
+     "inicio": 28.24,
+     "fin": 28.44
+    },
+    {
+     "texto": "rápido.",
+     "inicio": 28.44,
+     "fin": 28.76
+    }
+   ],
+   "inicio": 23.12,
+   "fin": 28.76
+  },
+  {
+   "texto": "La próxima vez que alguien te lo diga, contale que usamos casi todo, en distintos momentos.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 29.32,
+     "fin": 29.46
+    },
+    {
+     "texto": "próxima",
+     "inicio": 29.46,
+     "fin": 29.72
+    },
+    {
+     "texto": "vez",
+     "inicio": 29.72,
+     "fin": 30.02
+    },
+    {
+     "texto": "que",
+     "inicio": 30.02,
+     "fin": 30.18
+    },
+    {
+     "texto": "alguien",
+     "inicio": 30.18,
+     "fin": 30.38
+    },
+    {
+     "texto": "te",
+     "inicio": 30.38,
+     "fin": 30.56
+    },
+    {
+     "texto": "lo",
+     "inicio": 30.56,
+     "fin": 30.68
+    },
+    {
+     "texto": "diga,",
+     "inicio": 30.68,
+     "fin": 31.18
+    },
+    {
+     "texto": "contale",
+     "inicio": 31.42,
+     "fin": 31.76
+    },
+    {
+     "texto": "que",
+     "inicio": 31.76,
+     "fin": 31.9
+    },
+    {
+     "texto": "usamos",
+     "inicio": 31.9,
+     "fin": 32.2
+    },
+    {
+     "texto": "casi",
+     "inicio": 32.2,
+     "fin": 32.5
+    },
+    {
+     "texto": "todo,",
+     "inicio": 32.5,
+     "fin": 33.0
+    },
+    {
+     "texto": "en",
+     "inicio": 33.0,
+     "fin": 33.54
+    },
+    {
+     "texto": "distintos",
+     "inicio": 33.54,
+     "fin": 33.78
+    },
+    {
+     "texto": "momentos.",
+     "inicio": 33.78,
+     "fin": 34.32
+    }
+   ],
+   "inicio": 29.32,
+   "fin": 34.32
+  },
+  {
+   "texto": "¿Quién te contó a vos lo del diez por ciento? Decímelo en un comentario.",
+   "palabras": [
+    {
+     "texto": "¿Quién",
+     "inicio": 34.88,
+     "fin": 35.1
+    },
+    {
+     "texto": "te",
+     "inicio": 35.1,
+     "fin": 35.14
+    },
+    {
+     "texto": "contó",
+     "inicio": 35.14,
+     "fin": 35.5
+    },
+    {
+     "texto": "a",
+     "inicio": 35.5,
+     "fin": 35.54
+    },
+    {
+     "texto": "vos",
+     "inicio": 35.54,
+     "fin": 35.64
+    },
+    {
+     "texto": "lo",
+     "inicio": 35.64,
+     "fin": 35.78
+    },
+    {
+     "texto": "del",
+     "inicio": 35.78,
+     "fin": 35.92
+    },
+    {
+     "texto": "diez",
+     "inicio": 35.92,
+     "fin": 36.06
+    },
+    {
+     "texto": "por",
+     "inicio": 36.06,
+     "fin": 36.26
+    },
+    {
+     "texto": "ciento?",
+     "inicio": 36.26,
+     "fin": 36.48
+    },
+    {
+     "texto": "Decímelo",
+     "inicio": 36.98,
+     "fin": 37.38
+    },
+    {
+     "texto": "en",
+     "inicio": 37.38,
+     "fin": 37.46
+    },
+    {
+     "texto": "un",
+     "inicio": 37.46,
+     "fin": 37.54
+    },
+    {
+     "texto": "comentario.",
+     "inicio": 37.54,
+     "fin": 38.04
+    }
+   ],
+   "inicio": 34.88,
+   "fin": 38.04
+  },
+  {
+   "texto": "Y mandáselo al que dice que si usáramos todo el cerebro tendríamos superpoderes.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 38.52,
+     "fin": 38.7
+    },
+    {
+     "texto": "mandáselo",
+     "inicio": 38.7,
+     "fin": 39.34
+    },
+    {
+     "texto": "al",
+     "inicio": 39.34,
+     "fin": 39.42
+    },
+    {
+     "texto": "que",
+     "inicio": 39.42,
+     "fin": 39.56
+    },
+    {
+     "texto": "dice",
+     "inicio": 39.56,
+     "fin": 39.78
+    },
+    {
+     "texto": "que",
+     "inicio": 39.78,
+     "fin": 39.92
+    },
+    {
+     "texto": "si",
+     "inicio": 39.92,
+     "fin": 40.04
+    },
+    {
+     "texto": "usáramos",
+     "inicio": 40.04,
+     "fin": 40.42
+    },
+    {
+     "texto": "todo",
+     "inicio": 40.42,
+     "fin": 40.62
+    },
+    {
+     "texto": "el",
+     "inicio": 40.62,
+     "fin": 40.76
+    },
+    {
+     "texto": "cerebro",
+     "inicio": 40.76,
+     "fin": 41.18
+    },
+    {
+     "texto": "tendríamos",
+     "inicio": 41.56,
+     "fin": 41.86
+    },
+    {
+     "texto": "superpoderes.",
+     "inicio": 41.86,
+     "fin": 42.52
+    }
+   ],
+   "inicio": 38.52,
+   "fin": 42.52
+  }
+ ]
+}

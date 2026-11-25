@@ -1568,5 +1568,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-047-dog-people-food",
+  "tema": "Which people foods are dangerous for dogs? (ASPCA; adapted from 046; pets)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-24T21:18",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-24T21:18",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-24T21:20",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-24T21:28",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

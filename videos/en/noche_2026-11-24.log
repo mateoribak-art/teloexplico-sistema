@@ -32,3 +32,11 @@ Uso: 13 pasos · 8,866 tokens nuevos · 635,023 de caché · 2,597 escritos · e
 2026-11-24 18:02 Render de en-046-wind-chill (sin Claude).
 2026-11-24 18:20 en-046-wind-chill: listo (render sin Claude)
 2026-11-24 18:20 Termina la producción (ok).
+2026-11-24 21:18 Arranca la producción (13 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `en-047-dog-people-food` (adaptado de `046-perro-no-comas`, serie Home myths #9, 3D). Es la lista de la ASPCA de lo que no se le da al perro: chocolate, uvas y pasas, y cebolla, ajo y cebollín. El chequeo aparte lo aprobó en el primer intento. La voz sale con 124 de 124 palabras (39,3 s), `tlx tsc` pasó sin errores y revisé los cuadros en una vuelta (arreglé el subtítulo "1::"). Quedó en estado `render` y lo renderiza `producir.py`; todavía no se renderizó ni se corrió el control.
+- **Apartados:** no había ninguno para rescatar; `en-042-frozen-pipes` ya estaba rescatado.
+- **Incompletos:** ninguno. La cola queda con unos 14 listos. Registré el turno en `videos/en/produccion.log` y marqué la idea en `ideas.md`.
+Uso: 17 pasos · 12,250 tokens nuevos · 980,582 de caché · 2,618 escritos · equivale a US$ 0.75 de API
+2026-11-24 21:20 Render de en-047-dog-people-food (sin Claude).
+2026-11-24 21:28 en-047-dog-people-food: listo (render sin Claude)
+2026-11-24 21:28 Termina la producción (ok).
