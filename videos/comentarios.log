@@ -182,3 +182,14 @@ Respondí 0, salteé 0, alerté 1.
 Hubo un solo comentario pendiente, de `javier_aquino_52` en el video 059 (pibe, chango o gurí). Dice que "gurí" es palabra charrúa y no guaraní. Eso contradice el guion, que cita a Billiken y al diccionario de la RAE. Como cuestiona un dato, le mandé la alerta a Mateo con `tlx comentarios alerta` y no respondí en público. Conviene revisar la fuente antes de contestar. La corrida quedó registrada en `videos/comentarios.log`.
 Uso: 9 pasos · 20,424 tokens nuevos · 137,273 de caché · 1,777 escritos · equivale a US$ 0.01 de API
 2026-11-24 07:43 Termina la respuesta de comentarios (ok).
+2026-11-24 22:31 Hay 48 comentarios nuevos: arranca la respuesta.
+2026-11-24 Respondí 40 · salteé 7 · alerté 1. (059-pibe-chango-guri: 40 respondidos (acentos regionales, anécdotas, Córdoba, Misiones, Tucumán, Formosa, Chaco, Corrientes, etc.); salteados: 6 por risas, insultos, palabra ambigua y duplicado; 058-agua-del-mate: 1 salteado por provocación; alerta: mgrnine cuestiona que "pibe" sea niño y no adolescente)
+2026-11-24 22:31 Termina la respuesta de comentarios (ok).
+Respondí 40 · salteé 7 · alerté 1.
+Respondí 40 · salteé 7 · alerté 1.
+
+Casi todos eran del video 059 (pibe, chango o gurí); uno era del 058 (agua del mate) y lo salteé por la provocación. La alerta es de **mgrnine**: dice que "pibe" significa adolescente o joven y no niño, lo que pone en duda una parte del guion. Conviene revisar la fuente antes de contestarle.
+
+El resumen quedó en `videos/comentarios.log`. No hubo pedidos de temas, así que `videos/ideas.md` no cambió.
+Uso: 57 pasos · 57,467 tokens nuevos · 248,279 de caché · 18,476 escritos · equivale a US$ 0.02 de API
+2026-11-24 22:33 Termina la respuesta de comentarios (ok).
