@@ -111,3 +111,12 @@ No produje ningún video hoy (24/11). La búsqueda solo devolvió pronósticos d
 El pavo y el relleno de Thanksgiving ya están en la cola (en-033 y en-035).
 Uso: 12 pasos · 20,214 tokens nuevos · 175,281 de caché · 1,620 escritos · equivale a US$ 0.14 de API
 2026-11-24 20:11 Termina el radar (ok).
+2026-11-25 19:39 Arranca el radar.
+No produje ningún video. La búsqueda solo devolvió notas de Thanksgiving de 2024 y 2025, y nada verificable de 2026. Descarté tres candidatos:
+- **Clima de viaje de Thanksgiving:** no hay pronóstico oficial de 2026 confirmado.
+- **Black Friday:** ya está cubierto en en-050.
+- **Pavo, relleno y descongelado:** ya están en la cola (en-028, en-033 y en-035).
+
+Lo anoté en `videos/en/radar.log`.
+Uso: 9 pasos · 16,019 tokens nuevos · 165,837 de caché · 1,354 escritos · equivale a US$ 0.11 de API
+2026-11-25 19:40 Termina el radar (ok).

@@ -178,3 +178,16 @@ No produje ningún video: las dos búsquedas web no dieron ningún tema de actua
 La cola normal sigue.
 Uso: 10 pasos · 25,529 tokens nuevos · 155,996 de caché · 1,594 escritos · equivale a US$ 0.16 de API
 2026-11-24 20:11 Termina el radar (ok).
+2026-11-25 19:39 Arranca el radar.
+No encontré ningún tema de actualidad que sirva hoy, así que no produje video y la cola sigue normal.
+
+Las dos búsquedas no devolvieron nada de Argentina fechado hoy. Salieron resultados de México y notas de economía sin fecha clara. Descarté estos candidatos:
+- **Tormentas y calor en AMBA:** no hay fuente argentina de hoy, y el tema ya está cubierto en los videos 019, 048, 049, 005, 024 y 018.
+- **Superluna:** ya está en la cola como 068.
+- **Inflación, dólar, consumo y Torneo Clausura:** son economía y deportes, y no encajan con la cuenta.
+
+Anoté todo en `videos/radar.log`. La línea la agregué con `echo >>` en vez de Edit, porque Edit falló y no verifiqué que haya quedado bien escrita.
+
+Decisión: sin tema de actualidad hoy, no se produce nada y sigue la cola normal.
+Uso: 10 pasos · 24,607 tokens nuevos · 150,590 de caché · 1,454 escritos · equivale a US$ 0.15 de API
+2026-11-25 19:39 Termina el radar (ok).
