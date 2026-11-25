@@ -1216,7 +1216,7 @@
  {
   "slug": "en-034-alcohol-cook-off",
   "tema": "Does alcohol fully cook off? (USDA retention table; own; kitchen)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1237,6 +1237,11 @@
     "estado": "listo",
     "cuando": "2026-11-21T09:13",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-25T12:36",
+    "motivo": "https://www.instagram.com/reel/DgK3UwMCt3q/"
    }
   ]
  },
