@@ -1312,7 +1312,7 @@
  {
   "slug": "en-037-swallowed-gum",
   "tema": "Does swallowed gum stay in your stomach for 7 years? (Cleveland Clinic, KidsHealth; own)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1333,6 +1333,11 @@
     "estado": "listo",
     "cuando": "2026-11-21T23:05",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-26T19:35",
+    "motivo": "https://www.instagram.com/reel/DgOMHhIBmjz/"
    }
   ]
  },

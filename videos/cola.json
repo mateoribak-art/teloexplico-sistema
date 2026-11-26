@@ -2444,7 +2444,7 @@
  {
   "slug": "063-che-origen",
   "tema": "¿De dónde viene el 'che'? Origen incierto: tres versiones (mapuche, guaraní, valenciano)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -2465,6 +2465,11 @@
     "estado": "listo",
     "cuando": "2026-11-21T18:51",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-26T19:32",
+    "motivo": "https://www.instagram.com/reel/DgOLyv7BweJ/"
    }
   ]
  },
