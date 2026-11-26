@@ -120,3 +120,12 @@ No produje ningún video. La búsqueda solo devolvió notas de Thanksgiving de 2
 Lo anoté en `videos/en/radar.log`.
 Uso: 9 pasos · 16,019 tokens nuevos · 165,837 de caché · 1,354 escritos · equivale a US$ 0.11 de API
 2026-11-25 19:40 Termina el radar (ok).
+2026-11-26 19:30 Arranca el radar.
+Decisión: no produje ningún video. La búsqueda no encontró ningún tema de EE. UU. de las últimas 48 horas que se pueda verificar con una fuente oficial del día. Anoté los candidatos descartados en `videos/en/radar.log`.
+
+Los descarté así:
+- **Clima de Thanksgiving en el Nordeste:** es regional y no hay ningún boletín del NWS de esta semana.
+- **Tendencias (GTA 6, CMA Awards, Hunger Games):** GTA 6 ya está cubierto en en-030, en-031 y en-032, y lo demás es entretenimiento.
+- **Almanaque del Granjero y pago del SSI:** el almanaque no es fuente oficial, y el SSI es plata sin datos verificados.
+Uso: 11 pasos · 18,538 tokens nuevos · 165,927 de caché · 1,579 escritos · equivale a US$ 0.13 de API
+2026-11-26 19:30 Termina el radar (ok).

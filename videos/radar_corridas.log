@@ -191,3 +191,10 @@ Anoté todo en `videos/radar.log`. La línea la agregué con `echo >>` en vez de
 Decisión: sin tema de actualidad hoy, no se produce nada y sigue la cola normal.
 Uso: 10 pasos · 24,607 tokens nuevos · 150,590 de caché · 1,454 escritos · equivale a US$ 0.15 de API
 2026-11-25 19:39 Termina el radar (ok).
+2026-11-26 19:29 Arranca el radar.
+Decidí no producir ningún video de actualidad hoy (26/11). No encontré ningún tema fechado de hoy que se pueda verificar. Anoté los descartados en `videos/radar.log`:
+- **Alertas de tormenta, granizo y calor:** las notas son de 2024 y 2025, y esos temas ya están cubiertos en la cola.
+- **PASO en el Senado, INDEC y CEDEAR de Anthropic:** son política y economía.
+- **Mundial Sub 17:** es deportes y no tiene un "¿por qué…?".
+Uso: 10 pasos · 25,273 tokens nuevos · 156,009 de caché · 1,496 escritos · equivale a US$ 0.16 de API
+2026-11-26 19:30 Termina el radar (ok).
