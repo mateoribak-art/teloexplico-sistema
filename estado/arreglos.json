@@ -1,17 +1,5 @@
 [
  {
-  "id": "mvr34znp-vigilante",
-  "creado": "2026-10-27T16:36",
-  "empleado": "en/vigilante",
-  "estado": "explicado",
-  "auto": false,
-  "problema": "En la oficina de Nueva York (@letmeexplain.us), Walt (Vigilancia) está en \"ojo\": Quedan 1 videos listos: alcanza para 0.5 día(s).\nRegistro:\n⚠️ Quedan 1 videos listos: alcanza para 0.5 día(s).\n\nRevisalo en C:\\Users\\Mateo\\teloexplico (sistema de teloexplico / letmeexplain) y arreglalo.",
-  "firma": "d68cc7d78ae0",
-  "actualizado": "2026-10-27T16:36",
-  "titulo": "Walt avisó que quedaba 1 video en inglés; no cambié nada porque la cuenta recién arrancó.",
-  "resumen": "La cuenta de Nueva York (@letmeexplain.us) empezó hoy. El primer video ya se publicó y el segundo (el del cambio de hora) quedó listo, y por eso el stock es 1. No hay ningún error de código ni de reglas. La producción automática en inglés va a ir sumando videos en sus próximas corridas (la meta es 6 listos). Ojo: el video del cambio de hora dice \"this Sunday\", así que tiene que salir antes del sábado 31/10."
- },
- {
   "id": "mvrah53o-vigilante",
   "creado": "2026-10-27T20:01",
   "empleado": "es/vigilante",
@@ -497,5 +485,15 @@
    "videos/072-diez-por-ciento-cerebro/guion.json",
    "videos/cola.json"
   ]
+ },
+ {
+  "id": "11260505-es-chequeo",
+  "creado": "2026-11-26T05:05",
+  "empleado": "es/chequeo",
+  "firma": "5257f8c96a1a",
+  "estado": "pedido",
+  "auto": true,
+  "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Bea (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): 078-piedra-papel-tijera.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\n078-piedra-papel-tijera: chequeo rechazado 2 veces (dirección piedra→papel→tijera del que pierde no verificable; paper ambiguo, MIT TR dice una cosa y el paper horario otra). Rescate: s\nRegistro:\n072-diez-por-ciento-cerebro: aprobado — Corregido tras el rechazo: la frase 3 y el caption ahora dicen 'Un neurólogo de la Universidad Johns Hopkins explica...' (singular, Barry Go\n073-muralla-desde-espacio: aprobado — Segunda revision. Todas las afirmaciones quedan verificadas o correctamente matizadas. Chiao: la frase aclara que uso teleobjetivo y que a s\n074-afeitar-pelo-grueso: aprobado — Todas las afirmaciones quedaron verificadas con fuente; la unica hipotesis (coincidencia de la pubertad con las primeras afeitadas) ya esta \n075-parabrisas-empanado: aprobado — Segundo chequeo con busqueda web. Las correcciones de la ronda anterior se aplicaron: ya no hay cifra de tiempo ('a los dos segundos') y la \n076-calentar-el-auto: aprobado — Las afirmaciones de plata y seguridad (autos modernos se manejan a los pocos segundos, la forma más rápida de calentar es manejar, el ralent\n077-apellidos-gonzalez: aprobado — Todas las cifras y la atribución coinciden con las fuentes: La Nación (6/8/2022) y Aire de Santa Fe reproducen el inf",
+  "actualizado": "2026-11-26T05:05"
  }
 ]
