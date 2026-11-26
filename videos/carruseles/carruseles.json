@@ -350,7 +350,7 @@
  },
  {
   "clave": "perro-no-comas",
-  "estado": "listo",
+  "estado": "publicado",
   "origen": [
    "046-perro-no-comas"
   ],
@@ -359,6 +359,11 @@
     "estado": "listo",
     "cuando": "2026-11-22T23:22",
     "motivo": "control OK"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-25T23:00",
+    "motivo": "https://www.instagram.com/p/DgL-6LvjaJd/"
    }
   ]
  },
