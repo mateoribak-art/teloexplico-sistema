@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T06:12",
+ "actualizado": "2026-11-26T06:15",
  "oficinas": [
   {
    "clave": "es",
@@ -425,25 +425,25 @@
      },
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
-     "cuando": "2026-11-25T22:08",
-     "hace": "hace 8 h",
+     "cuando": "2026-11-26T06:15",
+     "hace": "recién",
      "detalle": [
-      "25/11 06:39 Hay 27 comentarios nuevos: arranca la respuesta.",
-      "25/11 06:40 Respondí 26 · salteé 1 · alerté 0. (059-pibe-chango-guri: 26 respondidos, variantes regionales y una pregunta sobre la Patagonia, anotada en ideas.md; salteado: ianmolinamercado, solo expresión y emojis)",
-      "25/11 06:40 Termina la respuesta de comentarios (ok).",
-      "25/11 06:40 Termina la respuesta de comentarios (ok).",
       "25/11 22:07 Hay 35 comentarios nuevos: arranca la respuesta.",
       "25/11 00:00 Respondí 23 · salteé 11 · alerté 1. (059-pibe-chango-guri: 23 respondidos (variantes regionales, anécdotas y mitái/gurisadas); salteados: 11 por palabra suelta, insulto leve o texto ambiguo; alerta: la_yong.lixx corrige \"En Buenos Aires se dice pibe\" (ciudad vs provincia), no respondido en público.)",
       "25/11 00:00 Respondí 23 · salteé 11 · alerté 1.",
-      "25/11 22:08 Termina la respuesta de comentarios (ok)."
+      "25/11 22:08 Termina la respuesta de comentarios (ok).",
+      "26/11 06:14 Hay 5 comentarios nuevos: arranca la respuesta.",
+      "26/11 00:00 Respondí 4 · salteé 0 · alerté 1. (059-pibe-chango-guri: eddie_sando_, ezeq.uielomararaujo1992, enlacecelulares2 y jona.prnch respondidos; alerta: patricia.mura critica que Formosa no aparece en el mapa.)",
+      "26/11 00:00 Respondí 4 · salteé 0 · alerté 1.",
+      "26/11 06:15 Termina la respuesta de comentarios (ok)."
      ],
      "tareas": [
-      "8 alerta",
-      "150 respondido",
+      "9 alerta",
+      "154 respondido",
       "34 salteado",
-      "⚠️ javier_aquino_52: Gurí es en charrua, por eso se usa en Entrerrios, Uruguay y partes dd Río Grande do sur — Contradice e",
       "⚠️ mgrnine: Pibe no es sinónimo de niño. Es sinónimo de a lo sumo adolescente y joven adulto. Aunque lo usemos en otras oca",
-      "⚠️ la_yong.lixx: 'Provincia de Buenos aires ❌ ciudad de buenos aires ✅' — corrige el guion que dice 'En Buenos Aires se dic"
+      "⚠️ la_yong.lixx: 'Provincia de Buenos aires ❌ ciudad de buenos aires ✅' — corrige el guion que dice 'En Buenos Aires se dic",
+      "⚠️ patricia.mura: En tu vos no existe Formosa — critica que el mapa del video omite Formosa. No es un dato erróneo, pero co"
      ],
      "arreglo": null,
      "solo": false,
@@ -498,7 +498,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-26T06:12",
+     "cuando": "2026-11-26T06:15",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -944,7 +944,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-26T06:12",
+     "cuando": "2026-11-26T06:15",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
