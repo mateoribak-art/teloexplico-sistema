@@ -1,12 +1,12 @@
 {
- "actualizado": "2026-11-26T05:05",
+ "actualizado": "2026-11-26T05:50",
  "oficinas": [
   {
    "clave": "es",
    "usuario": "teloexplico.ar",
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
-   "seguidores": 1143,
+   "seguidores": 1175,
    "listos": 17,
    "dias": 8.5,
    "proximo": "062-pote-microondas",
@@ -111,7 +111,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-26T01:07",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "Uso: 21 pasos · 17,196 tokens nuevos · 1,697,147 de caché · 5,441 escritos · equivale a US$ 2.41 de API",
       "2026-11-26 00:48 Arranca la producción (16 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -180,7 +180,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de México o economía sin fecha clara). SIN tema nuevo.",
      "cuando": "2026-11-25T19:39",
-     "hace": "hace 9 h",
+     "hace": "hace 10 h",
      "detalle": [
       "23/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (lo más reciente es del 16-nov; el resto mezcla años). SIN tema nuevo. Descartados: (a) calor del norte/viento norte y posibles tormentas del último finde de noviembre (Meteored, fechas poco claras; calor/tormenta/granizo ya cubiertos 019/048/049/005/024/018); (b) superluna 24-nov -> YA en cola (068-superluna-no-tan-grande, listo); (c) Día de la Soberanía/feriado -> ya hecho (053). Sigue la cola normal.",
       "24/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de 2024/2025 o de México). SIN tema nuevo. Descartados: (a) alerta amarilla por tormentas en Tucumán (sin detalle de hoy; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) calor/humedad/tormentas en AMBA \"toda la semana\" (Perfil/Meteored, sin fecha verificable; calor ya cubierto 019/048/049); (c) superluna 24-nov -> YA en cola (068, listo). Sigue la cola normal.",
@@ -218,7 +218,7 @@
      "estado": "ok",
      "resumen": "Aprobó 7 de los últimos 8 guiones.",
      "cuando": "2026-11-26T01:06",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "072-diez-por-ciento-cerebro: aprobado — Corregido tras el rechazo: la frase 3 y el caption ahora dicen 'Un neurólogo de la Universidad Johns Hopkins explica...' (singular, Barry Go",
       "073-muralla-desde-espacio: aprobado — Segunda revision. Todas las afirmaciones quedan verificadas o correctamente matizadas. Chiao: la frase aclara que uso teleobjetivo y que a s",
@@ -251,7 +251,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-26T01:06",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -275,7 +275,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-26 01:06.",
      "cuando": "2026-11-26T01:06",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -299,7 +299,7 @@
      "estado": "ok",
      "resumen": "17 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-26T01:06",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -323,7 +323,7 @@
      "estado": "ok",
      "resumen": "Último: 061-heladera-termometro.",
      "cuando": "2026-11-25T19:33",
-     "hace": "hace 9 h",
+     "hace": "hace 10 h",
      "detalle": [
       "25/11 12:33 060-celular-carga-noche publicado: https://www.instagram.com/reel/DgK3C5Buw96/",
       "25/11 12:34 060-celular-carga-noche publicado en Facebook: https://www.facebook.com/reel/4449934785260823/",
@@ -360,7 +360,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-25T19:33",
-     "hace": "hace 9 h",
+     "hace": "hace 10 h",
      "detalle": [
       "24/11 19:33 058-agua-del-mate https://youtube.com/shorts/v1ebBniWyHw | privacidad: public",
       "24/11 19:33 058-agua-del-mate paquete para TikTok/YouTube enviado",
@@ -392,7 +392,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-26T01:07",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "2026-11-22 23:22 perro-no-comas: listo control OK",
       "2026-11-24 23:52 bondi-de-brasil: publicado https://www.instagram.com/p/DgJf-5YjSnU/",
@@ -426,7 +426,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-25T22:08",
-     "hace": "hace 6 h",
+     "hace": "hace 7 h",
      "detalle": [
       "25/11 06:39 Hay 27 comentarios nuevos: arranca la respuesta.",
       "25/11 06:40 Respondí 26 · salteé 1 · alerté 0. (059-pibe-chango-guri: 26 respondidos, variantes regionales y una pregunta sobre la Patagonia, anotada en ideas.md; salteado: ianmolinamercado, solo expresión y emojis)",
@@ -463,25 +463,25 @@
       }
      },
      "estado": "ok",
-     "resumen": "25/11: 1143 seguidores",
-     "cuando": "2026-11-25T05:19",
-     "hace": "hace 23 h",
+     "resumen": "26/11: 1175 seguidores",
+     "cuando": "2026-11-26T05:04",
+     "hace": "hace 46 min",
      "detalle": [
-      "22/11: 1034 seguidores",
       "23/11: 1045 seguidores",
       "24/11: 1071 seguidores",
-      "25/11: 1143 seguidores"
+      "25/11: 1143 seguidores",
+      "26/11: 1175 seguidores"
      ],
      "tareas": [
-      "001-heladera: 163.681 vistas · 7438 enviados · 3501 ♥",
-      "026-mediodia-hora-corrida: 157.242 vistas · 490 enviados · 2812 ♥",
-      "059-pibe-chango-guri: 54.223 vistas · 250 enviados · 3376 ♥",
-      "007-bts-13-anios: 30.485 vistas · 617 enviados · 3055 ♥",
-      "006-army-bomb: 8.641 vistas · 55 enviados · 551 ♥"
+      "001-heladera: 164.305 vistas · 7493 enviados · 3519 ♥",
+      "026-mediodia-hora-corrida: 158.138 vistas · 493 enviados · 2837 ♥",
+      "059-pibe-chango-guri: 61.577 vistas · 349 enviados · 3984 ♥",
+      "007-bts-13-anios: 30.515 vistas · 617 enviados · 3061 ♥",
+      "006-army-bomb: 8.642 vistas · 55 enviados · 552 ♥"
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "5d1ced3ea100"
+     "firma": "92b4b30da79f"
     },
     {
      "id": "vigilante",
@@ -498,7 +498,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-26T05:05",
+     "cuando": "2026-11-26T05:50",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -633,7 +633,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-26T01:19",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "Uso: 14 pasos · 10,146 tokens nuevos · 858,973 de caché · 3,281 escritos · equivale a US$ 1.02 de API",
       "2026-11-26 01:07 Arranca la producción (16 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
@@ -667,7 +667,7 @@
      "estado": "ok",
      "resumen": "Pasada del radar: la búsqueda (clima de viaje de Thanksgiving) solo devolvió notas de 2024/2025; nada verificable de 2026. Descartados: (1) tormentas/clima de v",
      "cuando": "2026-11-25T19:40",
-     "hace": "hace 9 h",
+     "hace": "hace 10 h",
      "detalle": [
       "23/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2024/2025 y titulares del 10–18/11; nada verificable de las últimas 48 h. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) sarampión (5.412 casos al 12/11, CDC): salud, sin ángulo de guardar/comentar y sin fuente del día; (3) elecciones/Nvidia/policiales: política, negocios o delito. Sin tema nuevo.",
       "24/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2019/2023/2024 y tendencias virlo del 11–18/11 (GTA 6 ya cubierto en en-030/031/032); nada verificable de las últimas 48 h. Descartados: (1) clima de viaje de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) superluna/luna llena del 24/11: sin ángulo de guardar/comentar; (3) tendencias de TikTok (Hunger Games, Pattinson Bond, Earthshot): entretenimiento/chisme. Pavo y relleno ya en cola (en-033, en-035). Sin tema nuevo.",
@@ -699,7 +699,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-26T01:19",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [
       "en-045-car-warmup: aprobado — Todas las afirmaciones fácticas coinciden con fueleconomy.gov/feg/coldweather.shtml (DOE/EPA), leído directamente. Cifras y unidades (0 mpg,",
       "en-046-wind-chill: aprobado — Todas las afirmaciones coinciden con la pagina del NWS/NOAA (weather.gov/safety/cold-wind-chill-chart y weather.gov/safety/cold-faqs). Unida",
@@ -732,7 +732,7 @@
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-26T01:19",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -756,7 +756,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-26 01:19.",
      "cuando": "2026-11-26T01:19",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -780,7 +780,7 @@
      "estado": "ok",
      "resumen": "17 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-26T01:19",
-     "hace": "hace 3 h",
+     "hace": "hace 4 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -804,7 +804,7 @@
      "estado": "ok",
      "resumen": "Último: en-035-turkey-stuffing.",
      "cuando": "2026-11-25T19:35",
-     "hace": "hace 9 h",
+     "hace": "hace 10 h",
      "detalle": [
       "24/11 19:35 en-032-gta-13-years en la bandeja de TikTok",
       "24/11 19:35 en-032-gta-13-years paquete para TikTok/YouTube enviado",
@@ -841,7 +841,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-25T19:35",
-     "hace": "hace 9 h",
+     "hace": "hace 10 h",
      "detalle": [
       "24/11 12:35 en-029-swim-after-eating en la bandeja de TikTok",
       "24/11 12:35 en-029-swim-after-eating paquete para TikTok/YouTube enviado",
@@ -876,7 +876,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-24T22:33",
-     "hace": "hace 30 h",
+     "hace": "hace 31 h",
      "detalle": [
       "02/11 21:15 Resumen: respondí 1, salteé 1, alerté 0.",
       "02/11 21:16 Termina la respuesta de comentarios (ok).",
@@ -909,17 +909,17 @@
       }
      },
      "estado": "ok",
-     "resumen": "25/11: 5 seguidores",
-     "cuando": "2026-11-25T05:19",
-     "hace": "hace 23 h",
+     "resumen": "26/11: 5 seguidores",
+     "cuando": "2026-11-26T05:05",
+     "hace": "hace 45 min",
      "detalle": [
-      "22/11: 5 seguidores",
       "23/11: 5 seguidores",
       "24/11: 5 seguidores",
-      "25/11: 5 seguidores"
+      "25/11: 5 seguidores",
+      "26/11: 5 seguidores"
      ],
      "tareas": [
-      "en-001-phone-rice: 4.137 vistas · 22 enviados · 52 ♥",
+      "en-001-phone-rice: 4.138 vistas · 22 enviados · 52 ♥",
       "en-007-flip-steak: 3.388 vistas · 18 enviados · 36 ♥",
       "en-009-ceiling-fan: 3.086 vistas · 2 enviados · 40 ♥",
       "en-008-wash-chicken: 2.301 vistas · 4 enviados · 20 ♥",
@@ -927,7 +927,7 @@
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "dc4c3311ee5a"
+     "firma": "99ad5570d596"
     },
     {
      "id": "vigilante",
@@ -944,7 +944,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-26T05:05",
+     "cuando": "2026-11-26T05:50",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
