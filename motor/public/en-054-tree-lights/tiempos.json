@@ -1,0 +1,573 @@
+{
+ "duracion": 33.66,
+ "frases": [
+  {
+   "texto": "Your Christmas tree lights stay on all night.",
+   "palabras": [
+    {
+     "texto": "Your",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "Christmas",
+     "inicio": 0.14,
+     "fin": 0.44
+    },
+    {
+     "texto": "tree",
+     "inicio": 0.44,
+     "fin": 0.76
+    },
+    {
+     "texto": "lights",
+     "inicio": 0.76,
+     "fin": 1.0
+    },
+    {
+     "texto": "stay",
+     "inicio": 1.0,
+     "fin": 1.32
+    },
+    {
+     "texto": "on",
+     "inicio": 1.32,
+     "fin": 1.58
+    },
+    {
+     "texto": "all",
+     "inicio": 1.58,
+     "fin": 1.86
+    },
+    {
+     "texto": "night.",
+     "inicio": 1.86,
+     "fin": 2.14
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.14
+  },
+  {
+   "texto": "Don't. Here's why.",
+   "palabras": [
+    {
+     "texto": "Don't.",
+     "inicio": 2.5,
+     "fin": 2.88
+    },
+    {
+     "texto": "Here's",
+     "inicio": 3.34,
+     "fin": 3.6
+    },
+    {
+     "texto": "why.",
+     "inicio": 3.6,
+     "fin": 3.8
+    }
+   ],
+   "inicio": 2.5,
+   "fin": 3.8
+  },
+  {
+   "texto": "The National Institute of Standards and Technology tested two trees. The dry one caught fire. The watered one didn't.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 4.46,
+     "fin": 4.46
+    },
+    {
+     "texto": "National",
+     "inicio": 4.46,
+     "fin": 4.8
+    },
+    {
+     "texto": "Institute",
+     "inicio": 4.8,
+     "fin": 5.38
+    },
+    {
+     "texto": "of",
+     "inicio": 5.38,
+     "fin": 5.62
+    },
+    {
+     "texto": "Standards",
+     "inicio": 5.62,
+     "fin": 5.98
+    },
+    {
+     "texto": "and",
+     "inicio": 5.98,
+     "fin": 6.24
+    },
+    {
+     "texto": "Technology",
+     "inicio": 6.24,
+     "fin": 6.78
+    },
+    {
+     "texto": "tested",
+     "inicio": 6.78,
+     "fin": 7.22
+    },
+    {
+     "texto": "two",
+     "inicio": 7.22,
+     "fin": 7.58
+    },
+    {
+     "texto": "trees.",
+     "inicio": 7.58,
+     "fin": 8.06
+    },
+    {
+     "texto": "The",
+     "inicio": 8.5,
+     "fin": 8.6
+    },
+    {
+     "texto": "dry",
+     "inicio": 8.6,
+     "fin": 8.82
+    },
+    {
+     "texto": "one",
+     "inicio": 8.82,
+     "fin": 9.0
+    },
+    {
+     "texto": "caught",
+     "inicio": 9.0,
+     "fin": 9.4
+    },
+    {
+     "texto": "fire.",
+     "inicio": 9.4,
+     "fin": 9.7
+    },
+    {
+     "texto": "The",
+     "inicio": 10.2,
+     "fin": 10.26
+    },
+    {
+     "texto": "watered",
+     "inicio": 10.26,
+     "fin": 10.64
+    },
+    {
+     "texto": "one",
+     "inicio": 10.64,
+     "fin": 10.78
+    },
+    {
+     "texto": "didn't.",
+     "inicio": 10.78,
+     "fin": 11.42
+    }
+   ],
+   "inicio": 4.46,
+   "fin": 11.42
+  },
+  {
+   "texto": "So check the water in the stand every day.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 11.84,
+     "fin": 12.04
+    },
+    {
+     "texto": "check",
+     "inicio": 12.04,
+     "fin": 12.48
+    },
+    {
+     "texto": "the",
+     "inicio": 12.48,
+     "fin": 12.64
+    },
+    {
+     "texto": "water",
+     "inicio": 12.64,
+     "fin": 12.88
+    },
+    {
+     "texto": "in",
+     "inicio": 12.88,
+     "fin": 13.1
+    },
+    {
+     "texto": "the",
+     "inicio": 13.1,
+     "fin": 13.2
+    },
+    {
+     "texto": "stand",
+     "inicio": 13.2,
+     "fin": 13.5
+    },
+    {
+     "texto": "every",
+     "inicio": 13.5,
+     "fin": 13.9
+    },
+    {
+     "texto": "day.",
+     "inicio": 13.9,
+     "fin": 14.18
+    }
+   ],
+   "inicio": 11.84,
+   "fin": 14.18
+  },
+  {
+   "texto": "And always turn the tree lights off before you leave home or go to bed.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 14.6,
+     "fin": 14.76
+    },
+    {
+     "texto": "always",
+     "inicio": 14.76,
+     "fin": 15.12
+    },
+    {
+     "texto": "turn",
+     "inicio": 15.12,
+     "fin": 15.58
+    },
+    {
+     "texto": "the",
+     "inicio": 15.58,
+     "fin": 15.76
+    },
+    {
+     "texto": "tree",
+     "inicio": 15.76,
+     "fin": 15.98
+    },
+    {
+     "texto": "lights",
+     "inicio": 15.98,
+     "fin": 16.2
+    },
+    {
+     "texto": "off",
+     "inicio": 16.2,
+     "fin": 16.6
+    },
+    {
+     "texto": "before",
+     "inicio": 16.6,
+     "fin": 16.96
+    },
+    {
+     "texto": "you",
+     "inicio": 16.96,
+     "fin": 17.12
+    },
+    {
+     "texto": "leave",
+     "inicio": 17.12,
+     "fin": 17.3
+    },
+    {
+     "texto": "home",
+     "inicio": 17.3,
+     "fin": 17.62
+    },
+    {
+     "texto": "or",
+     "inicio": 17.62,
+     "fin": 18.18
+    },
+    {
+     "texto": "go",
+     "inicio": 18.18,
+     "fin": 18.36
+    },
+    {
+     "texto": "to",
+     "inicio": 18.36,
+     "fin": 18.44
+    },
+    {
+     "texto": "bed.",
+     "inicio": 18.44,
+     "fin": 18.6
+    }
+   ],
+   "inicio": 14.6,
+   "fin": 18.6
+  },
+  {
+   "texto": "Heads up: only use lights with the label of a recognized testing lab.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 19.1,
+     "fin": 19.44
+    },
+    {
+     "texto": "up:",
+     "inicio": 19.44,
+     "fin": 19.66
+    },
+    {
+     "texto": "only",
+     "inicio": 19.88,
+     "fin": 20.2
+    },
+    {
+     "texto": "use",
+     "inicio": 20.2,
+     "fin": 20.48
+    },
+    {
+     "texto": "lights",
+     "inicio": 20.48,
+     "fin": 20.76
+    },
+    {
+     "texto": "with",
+     "inicio": 20.76,
+     "fin": 20.96
+    },
+    {
+     "texto": "the",
+     "inicio": 20.96,
+     "fin": 21.12
+    },
+    {
+     "texto": "label",
+     "inicio": 21.12,
+     "fin": 21.38
+    },
+    {
+     "texto": "of",
+     "inicio": 21.38,
+     "fin": 21.62
+    },
+    {
+     "texto": "a",
+     "inicio": 21.62,
+     "fin": 21.72
+    },
+    {
+     "texto": "recognized",
+     "inicio": 21.72,
+     "fin": 22.14
+    },
+    {
+     "texto": "testing",
+     "inicio": 22.14,
+     "fin": 22.76
+    },
+    {
+     "texto": "lab.",
+     "inicio": 22.76,
+     "fin": 23.02
+    }
+   ],
+   "inicio": 19.1,
+   "fin": 23.02
+  },
+  {
+   "texto": "Save this: water daily, and lights off when you leave or sleep.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 23.56,
+     "fin": 23.76
+    },
+    {
+     "texto": "this:",
+     "inicio": 23.76,
+     "fin": 24.0
+    },
+    {
+     "texto": "water",
+     "inicio": 24.52,
+     "fin": 24.8
+    },
+    {
+     "texto": "daily,",
+     "inicio": 24.8,
+     "fin": 25.24
+    },
+    {
+     "texto": "and",
+     "inicio": 25.46,
+     "fin": 25.64
+    },
+    {
+     "texto": "lights",
+     "inicio": 25.64,
+     "fin": 25.86
+    },
+    {
+     "texto": "off",
+     "inicio": 25.86,
+     "fin": 26.36
+    },
+    {
+     "texto": "when",
+     "inicio": 26.36,
+     "fin": 26.66
+    },
+    {
+     "texto": "you",
+     "inicio": 26.66,
+     "fin": 26.8
+    },
+    {
+     "texto": "leave",
+     "inicio": 26.8,
+     "fin": 27.08
+    },
+    {
+     "texto": "or",
+     "inicio": 27.08,
+     "fin": 27.32
+    },
+    {
+     "texto": "sleep.",
+     "inicio": 27.32,
+     "fin": 27.66
+    }
+   ],
+   "inicio": 23.56,
+   "fin": 27.66
+  },
+  {
+   "texto": "Does your tree stay lit all night? Yes or no?",
+   "palabras": [
+    {
+     "texto": "Does",
+     "inicio": 27.66,
+     "fin": 28.22
+    },
+    {
+     "texto": "your",
+     "inicio": 28.22,
+     "fin": 28.42
+    },
+    {
+     "texto": "tree",
+     "inicio": 28.42,
+     "fin": 28.72
+    },
+    {
+     "texto": "stay",
+     "inicio": 28.72,
+     "fin": 28.88
+    },
+    {
+     "texto": "lit",
+     "inicio": 28.88,
+     "fin": 29.12
+    },
+    {
+     "texto": "all",
+     "inicio": 29.12,
+     "fin": 29.42
+    },
+    {
+     "texto": "night?",
+     "inicio": 29.42,
+     "fin": 29.68
+    },
+    {
+     "texto": "Yes",
+     "inicio": 30.0,
+     "fin": 30.1
+    },
+    {
+     "texto": "or",
+     "inicio": 30.1,
+     "fin": 30.38
+    },
+    {
+     "texto": "no?",
+     "inicio": 30.38,
+     "fin": 30.6
+    }
+   ],
+   "inicio": 27.66,
+   "fin": 30.6
+  },
+  {
+   "texto": "Send this to the friend who never turns the tree lights off.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 31.18,
+     "fin": 31.32
+    },
+    {
+     "texto": "this",
+     "inicio": 31.32,
+     "fin": 31.46
+    },
+    {
+     "texto": "to",
+     "inicio": 31.46,
+     "fin": 31.64
+    },
+    {
+     "texto": "the",
+     "inicio": 31.64,
+     "fin": 31.74
+    },
+    {
+     "texto": "friend",
+     "inicio": 31.74,
+     "fin": 31.94
+    },
+    {
+     "texto": "who",
+     "inicio": 31.94,
+     "fin": 32.12
+    },
+    {
+     "texto": "never",
+     "inicio": 32.12,
+     "fin": 32.42
+    },
+    {
+     "texto": "turns",
+     "inicio": 32.42,
+     "fin": 32.9
+    },
+    {
+     "texto": "the",
+     "inicio": 32.9,
+     "fin": 33.0
+    },
+    {
+     "texto": "tree",
+     "inicio": 33.0,
+     "fin": 33.2
+    },
+    {
+     "texto": "lights",
+     "inicio": 33.2,
+     "fin": 33.38
+    },
+    {
+     "texto": "off.",
+     "inicio": 33.38,
+     "fin": 33.6
+    }
+   ],
+   "inicio": 31.18,
+   "fin": 33.6
+  }
+ ]
+}

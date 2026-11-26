@@ -1,0 +1,78 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones fácticas están verificadas con fuente primaria (Resolución 164/2025 de Jefatura de Gabinete, argentina.gob.ar, Ley 27.399 art. 7) o con la fuente que el propio guion cita (Chequeado). No hay afirmaciones probables, dudosas ni falsas. El tema de plata/laboral (qué implica no laborable) está verificado y la frase ya lleva el matiz de que en el privado decide cada empresa; el cierre pide confirmar con la empresa. Nota: el instrumento es una resolución, no un decreto; el guion y el caption no dicen 'decreto', así que no hay error. Sábado 5 y domingo 27 de diciembre de 2026 caen sábado y domingo, y el 25 es viernes (consistente con Chequeado y con el calendario: 7/12 es lunes por la resolución).",
+  "afirmaciones": [
+    {
+      "texto": "Diciembre trae un finde de cuatro días, pero ojo con el lunes.",
+      "fuente": "Chequeado (fin de semana largo sáb 5 a mar 8 de diciembre): https://chequeado.com/el-explicador/feriados-2026-que-dias-no-se-trabaja-y-cuales-son-los-fines-de-semana-largos-en-la-argentina/",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El martes ocho de diciembre es feriado nacional: el de la Inmaculada Concepción.",
+      "fuente": "Chequeado (feriado inamovible, martes 8/12/2026); argentina.gob.ar/jefatura/feriados-nacionales-2026",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El lunes siete es día no laborable con fines turísticos.",
+      "fuente": "Resolución 164/2025 JGM, art. 1 (BO 26/12/2025): https://www.argentina.gob.ar/normativa/nacional/421799/texto",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sábado, domingo, lunes y martes: cuatro días seguidos.",
+      "fuente": "Chequeado: fin de semana largo de 4 días del sábado 5 al martes 8 de diciembre. Para quien tenga libre el lunes (la frase siguiente y la 8 lo aclaran).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Pero no laborable no es lo mismo que feriado.",
+      "fuente": "Chequeado; La Nación (feriado o día no laborable, principal diferencia); en no laborable trabajado no corresponde pago doble",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "En el sector público se suspenden las actividades, y en el privado cada empresa decide si trabajás.",
+      "fuente": "Chequeado (mismo texto: el sector público suspende actividades; en el privado cada empresa decide); coincide con notas de prensa sobre la Ley 27.399. La resolución en sí no detalla público/privado.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y después viene Navidad: viernes veinticinco, otro finde largo, de tres días.",
+      "fuente": "Chequeado (Navidad feriado inamovible, viernes 25/12/2026; fin de semana largo vie 25 a dom 27). Día de la semana confirmado por calendario: 1/1/2026 es jueves, 25/12 es viernes.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Según Chequeado, ese es el calendario de diciembre. Ojo: confirmá con tu empresa antes de reservar.",
+      "fuente": "Atribución verificada: nota de Chequeado 'Feriados 2026, qué días no se trabaja y cuáles son los fines de semana largos en la Argentina' contiene el calendario de diciembre.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: El martes 8 de diciembre es feriado nacional (Inmaculada Concepción). El lunes 7 es día no laborable con fines turísticos: finde largo del sábado 5 al martes 8.",
+      "fuente": "Resolución 164/2025 y Chequeado (ver arriba)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: No laborable no es lo mismo que feriado: en el sector público se suspenden las actividades, y en el privado cada empresa decide si trabajás.",
+      "fuente": "Chequeado",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Después viene Navidad: viernes 25, otro finde largo de tres días (25 al 27).",
+      "fuente": "Chequeado",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: Fuentes: Chequeado, Feriados 2026. / Costumbres argentinas #10 (etiqueta interna de serie, no afirmación fáctica externa).",
+      "fuente": "https://chequeado.com/el-explicador/feriados-2026-que-dias-no-se-trabaja-y-cuales-son-los-fines-de-semana-largos-en-la-argentina/",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

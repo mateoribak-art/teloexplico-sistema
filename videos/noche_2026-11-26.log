@@ -21,3 +21,16 @@ Uso: 20 pasos · 15,289 tokens nuevos · 872,068 de caché · 3,261 escritos · 
 2026-11-26 10:04 Render de 078-piedra-papel-tijera (sin Claude).
 2026-11-26 10:09 078-piedra-papel-tijera: listo (render sin Claude)
 2026-11-26 10:09 Termina la producción (ok).
+2026-11-26 16:13 Arranca la producción (17 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Dejé producido 1 video, `080-finde-largo-diciembre`, en estado `render`. El render, el control y el pase a `listo` los hace `producir.py` esta noche.
+- **080-finde-largo-diciembre:** finde largo de diciembre 2026. El lunes 7 es no laborable turístico, el martes 8 es feriado y Navidad cae viernes 25. El chequeo aprobó al primer intento con fuentes. La voz dura 45,7 s, `tsc` pasó y revisé los cuadros en 2 vueltas. Es serie costumbres #10 y la interacción es guardar y comentar.
+- **Rescates:** no había ninguno. Los apartados 005, 038, 042, 044 y 051 no son por chequeo rechazado, y 078 y 079 ya los había rescatado una corrida anterior.
+- **Segundo video:** no lo produje, porque la cola ya tiene 17 listos, más que el umbral de 10.
+
+No hice revisión de radar nueva en esta corrida (la última es del 25/11); lo anoté en `produccion.log`.
+Uso: 53 pasos · 106,195 tokens nuevos · 2,550,239 de caché · 17,955 escritos · equivale a US$ 1.04 de API
+Permisos negados (1):
+  Bash: {"command": "for d in 2026-12-05 2026-12-07 2026-12-08 2026-12-25 2026-12-27; do date -d $d '+%F %A'; done"}
+2026-11-26 16:18 Render de 080-finde-largo-diciembre (sin Claude).
+2026-11-26 16:22 080-finde-largo-diciembre: listo (render sin Claude)
+2026-11-26 16:22 Termina la producción (ok).

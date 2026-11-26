@@ -1,0 +1,27 @@
+{
+  "titulo": "Your Christmas tree lights shouldn't stay on all night.",
+  "serie": "casa",
+  "fondo": "oscuro",
+  "receta": "regla con numero/lista corta + pregunta de si/no; pilar home safety, diciembre",
+  "pilar": "casa",
+  "destinatario": "se lo manda alguien que ya puso el arbol a su familiar que lo deja prendido toda la noche",
+  "regla_guardable": "Tree: water in the stand every day, lights off before you leave or go to bed.",
+  "interaccion": {
+    "guardar": "Christmas tree: check the water in the stand daily; lights off before leaving home or going to bed; lights with a testing-lab label.",
+    "comentar": "Does your tree stay lit all night? Yes or no?"
+  },
+  "fuentes": [
+    "NIST (National Institute of Standards and Technology), Holiday Fire Safety (nist.gov/fire/holiday-fire-safety): 'Always turn off tree lights before leaving home or going to bed.' 'Always keep the tree well-watered. Make sure to check the water level in the stand daily.' 'Only use decorative lights that have the label of a recognized testing laboratory.' In NIST's test the dry tree caught fire and the watered tree did not ignite."
+  ],
+  "frases": [
+    {"texto": "Your Christmas tree lights stay on all night.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "Don't. Here's why.", "estilo": "Dry and contundente."},
+    {"texto": "The National Institute of Standards and Technology tested two trees. The dry one caught fire. The watered one didn't.", "estilo": "Informative, clear, a little suspense."},
+    {"texto": "So check the water in the stand every day.", "estilo": "Practical, confident."},
+    {"texto": "And always turn the tree lights off before you leave home or go to bed.", "estilo": "Practical, friendly."},
+    {"texto": "Heads up: only use lights with the label of a recognized testing lab.", "estilo": "Honest caveat, calm."},
+    {"texto": "Save this: water daily, and lights off when you leave or sleep.", "estilo": "Practical, friendly."},
+    {"texto": "Does your tree stay lit all night? Yes or no?", "estilo": "Curious, playful."},
+    {"texto": "Send this to the friend who never turns the tree lights off.", "estilo": "Playful and funny."}
+  ]
+}

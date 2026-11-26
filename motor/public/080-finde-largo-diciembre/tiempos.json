@@ -1,0 +1,650 @@
+{
+ "duracion": 45.66,
+ "frases": [
+  {
+   "texto": "Diciembre trae un finde de cuatro días, pero ojo con el lunes.",
+   "palabras": [
+    {
+     "texto": "Diciembre",
+     "inicio": 0.0,
+     "fin": 0.56
+    },
+    {
+     "texto": "trae",
+     "inicio": 0.56,
+     "fin": 0.88
+    },
+    {
+     "texto": "un",
+     "inicio": 0.88,
+     "fin": 1.02
+    },
+    {
+     "texto": "finde",
+     "inicio": 1.02,
+     "fin": 1.3
+    },
+    {
+     "texto": "de",
+     "inicio": 1.3,
+     "fin": 1.48
+    },
+    {
+     "texto": "cuatro",
+     "inicio": 1.48,
+     "fin": 1.8
+    },
+    {
+     "texto": "días,",
+     "inicio": 1.8,
+     "fin": 2.2
+    },
+    {
+     "texto": "pero",
+     "inicio": 2.62,
+     "fin": 2.96
+    },
+    {
+     "texto": "ojo",
+     "inicio": 2.96,
+     "fin": 3.78
+    },
+    {
+     "texto": "con",
+     "inicio": 3.78,
+     "fin": 4.0
+    },
+    {
+     "texto": "el",
+     "inicio": 4.0,
+     "fin": 4.12
+    },
+    {
+     "texto": "lunes.",
+     "inicio": 4.12,
+     "fin": 4.4
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.4
+  },
+  {
+   "texto": "El martes ocho de diciembre es feriado nacional: el de la Inmaculada Concepción.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 5.12,
+     "fin": 5.28
+    },
+    {
+     "texto": "martes",
+     "inicio": 5.28,
+     "fin": 5.66
+    },
+    {
+     "texto": "ocho",
+     "inicio": 5.66,
+     "fin": 6.12
+    },
+    {
+     "texto": "de",
+     "inicio": 6.12,
+     "fin": 6.24
+    },
+    {
+     "texto": "diciembre",
+     "inicio": 6.24,
+     "fin": 6.68
+    },
+    {
+     "texto": "es",
+     "inicio": 6.68,
+     "fin": 6.9
+    },
+    {
+     "texto": "feriado",
+     "inicio": 6.9,
+     "fin": 7.14
+    },
+    {
+     "texto": "nacional:",
+     "inicio": 7.14,
+     "fin": 7.5
+    },
+    {
+     "texto": "el",
+     "inicio": 8.16,
+     "fin": 8.24
+    },
+    {
+     "texto": "de",
+     "inicio": 8.24,
+     "fin": 8.34
+    },
+    {
+     "texto": "la",
+     "inicio": 8.34,
+     "fin": 8.44
+    },
+    {
+     "texto": "Inmaculada",
+     "inicio": 8.44,
+     "fin": 9.0
+    },
+    {
+     "texto": "Concepción.",
+     "inicio": 9.0,
+     "fin": 9.62
+    }
+   ],
+   "inicio": 5.12,
+   "fin": 9.62
+  },
+  {
+   "texto": "El lunes siete es día no laborable con fines turísticos.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 10.16,
+     "fin": 10.28
+    },
+    {
+     "texto": "lunes",
+     "inicio": 10.28,
+     "fin": 10.48
+    },
+    {
+     "texto": "siete",
+     "inicio": 10.48,
+     "fin": 10.88
+    },
+    {
+     "texto": "es",
+     "inicio": 10.88,
+     "fin": 11.22
+    },
+    {
+     "texto": "día",
+     "inicio": 11.22,
+     "fin": 11.38
+    },
+    {
+     "texto": "no",
+     "inicio": 11.38,
+     "fin": 11.74
+    },
+    {
+     "texto": "laborable",
+     "inicio": 11.74,
+     "fin": 12.26
+    },
+    {
+     "texto": "con",
+     "inicio": 12.26,
+     "fin": 12.46
+    },
+    {
+     "texto": "fines",
+     "inicio": 12.46,
+     "fin": 12.7
+    },
+    {
+     "texto": "turísticos.",
+     "inicio": 12.7,
+     "fin": 13.24
+    }
+   ],
+   "inicio": 10.16,
+   "fin": 13.24
+  },
+  {
+   "texto": "Sábado, domingo, lunes y martes: cuatro días seguidos.",
+   "palabras": [
+    {
+     "texto": "Sábado,",
+     "inicio": 13.74,
+     "fin": 14.32
+    },
+    {
+     "texto": "domingo,",
+     "inicio": 14.68,
+     "fin": 15.12
+    },
+    {
+     "texto": "lunes",
+     "inicio": 15.68,
+     "fin": 15.88
+    },
+    {
+     "texto": "y",
+     "inicio": 15.88,
+     "fin": 16.44
+    },
+    {
+     "texto": "martes:",
+     "inicio": 16.44,
+     "fin": 16.94
+    },
+    {
+     "texto": "cuatro",
+     "inicio": 17.46,
+     "fin": 17.72
+    },
+    {
+     "texto": "días",
+     "inicio": 17.72,
+     "fin": 17.94
+    },
+    {
+     "texto": "seguidos.",
+     "inicio": 17.94,
+     "fin": 18.44
+    }
+   ],
+   "inicio": 13.74,
+   "fin": 18.44
+  },
+  {
+   "texto": "Pero no laborable no es lo mismo que feriado.",
+   "palabras": [
+    {
+     "texto": "Pero",
+     "inicio": 18.96,
+     "fin": 19.26
+    },
+    {
+     "texto": "no",
+     "inicio": 19.26,
+     "fin": 19.9
+    },
+    {
+     "texto": "laborable",
+     "inicio": 19.9,
+     "fin": 20.4
+    },
+    {
+     "texto": "no",
+     "inicio": 20.4,
+     "fin": 20.7
+    },
+    {
+     "texto": "es",
+     "inicio": 20.7,
+     "fin": 20.84
+    },
+    {
+     "texto": "lo",
+     "inicio": 20.84,
+     "fin": 20.94
+    },
+    {
+     "texto": "mismo",
+     "inicio": 20.94,
+     "fin": 21.14
+    },
+    {
+     "texto": "que",
+     "inicio": 21.14,
+     "fin": 21.3
+    },
+    {
+     "texto": "feriado.",
+     "inicio": 21.3,
+     "fin": 21.7
+    }
+   ],
+   "inicio": 18.96,
+   "fin": 21.7
+  },
+  {
+   "texto": "En el sector público se suspenden las actividades, y en el privado cada empresa decide si trabajás.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 22.14,
+     "fin": 22.28
+    },
+    {
+     "texto": "el",
+     "inicio": 22.28,
+     "fin": 22.38
+    },
+    {
+     "texto": "sector",
+     "inicio": 22.38,
+     "fin": 22.62
+    },
+    {
+     "texto": "público",
+     "inicio": 22.62,
+     "fin": 23.02
+    },
+    {
+     "texto": "se",
+     "inicio": 23.02,
+     "fin": 23.5
+    },
+    {
+     "texto": "suspenden",
+     "inicio": 23.5,
+     "fin": 24.0
+    },
+    {
+     "texto": "las",
+     "inicio": 24.0,
+     "fin": 24.2
+    },
+    {
+     "texto": "actividades,",
+     "inicio": 24.2,
+     "fin": 24.8
+    },
+    {
+     "texto": "y",
+     "inicio": 25.2,
+     "fin": 25.52
+    },
+    {
+     "texto": "en",
+     "inicio": 25.52,
+     "fin": 25.6
+    },
+    {
+     "texto": "el",
+     "inicio": 25.6,
+     "fin": 25.68
+    },
+    {
+     "texto": "privado",
+     "inicio": 25.68,
+     "fin": 26.12
+    },
+    {
+     "texto": "cada",
+     "inicio": 26.12,
+     "fin": 26.5
+    },
+    {
+     "texto": "empresa",
+     "inicio": 26.5,
+     "fin": 26.96
+    },
+    {
+     "texto": "decide",
+     "inicio": 26.96,
+     "fin": 27.34
+    },
+    {
+     "texto": "si",
+     "inicio": 27.34,
+     "fin": 27.56
+    },
+    {
+     "texto": "trabajás.",
+     "inicio": 27.56,
+     "fin": 28.06
+    }
+   ],
+   "inicio": 22.14,
+   "fin": 28.06
+  },
+  {
+   "texto": "Y después viene Navidad: viernes veinticinco, otro finde largo, de tres días.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 28.46,
+     "fin": 28.64
+    },
+    {
+     "texto": "después",
+     "inicio": 28.64,
+     "fin": 28.86
+    },
+    {
+     "texto": "viene",
+     "inicio": 28.86,
+     "fin": 29.2
+    },
+    {
+     "texto": "Navidad:",
+     "inicio": 29.2,
+     "fin": 29.6
+    },
+    {
+     "texto": "viernes",
+     "inicio": 30.08,
+     "fin": 30.4
+    },
+    {
+     "texto": "veinticinco,",
+     "inicio": 30.4,
+     "fin": 31.04
+    },
+    {
+     "texto": "otro",
+     "inicio": 31.52,
+     "fin": 31.72
+    },
+    {
+     "texto": "finde",
+     "inicio": 31.72,
+     "fin": 31.96
+    },
+    {
+     "texto": "largo,",
+     "inicio": 31.96,
+     "fin": 32.28
+    },
+    {
+     "texto": "de",
+     "inicio": 32.82,
+     "fin": 32.92
+    },
+    {
+     "texto": "tres",
+     "inicio": 32.92,
+     "fin": 33.14
+    },
+    {
+     "texto": "días.",
+     "inicio": 33.14,
+     "fin": 33.4
+    }
+   ],
+   "inicio": 28.46,
+   "fin": 33.4
+  },
+  {
+   "texto": "Según Chequeado, ese es el calendario de diciembre. Ojo: confirmá con tu empresa antes de reservar.",
+   "palabras": [
+    {
+     "texto": "Según",
+     "inicio": 33.94,
+     "fin": 34.3
+    },
+    {
+     "texto": "Chequeado,",
+     "inicio": 34.3,
+     "fin": 34.7
+    },
+    {
+     "texto": "ese",
+     "inicio": 35.0,
+     "fin": 35.18
+    },
+    {
+     "texto": "es",
+     "inicio": 35.18,
+     "fin": 35.38
+    },
+    {
+     "texto": "el",
+     "inicio": 35.38,
+     "fin": 35.48
+    },
+    {
+     "texto": "calendario",
+     "inicio": 35.48,
+     "fin": 35.96
+    },
+    {
+     "texto": "de",
+     "inicio": 35.96,
+     "fin": 36.08
+    },
+    {
+     "texto": "diciembre.",
+     "inicio": 36.08,
+     "fin": 36.52
+    },
+    {
+     "texto": "Ojo:",
+     "inicio": 37.02,
+     "fin": 37.26
+    },
+    {
+     "texto": "confirmá",
+     "inicio": 37.7,
+     "fin": 38.2
+    },
+    {
+     "texto": "con",
+     "inicio": 38.2,
+     "fin": 38.34
+    },
+    {
+     "texto": "tu",
+     "inicio": 38.34,
+     "fin": 38.46
+    },
+    {
+     "texto": "empresa",
+     "inicio": 38.46,
+     "fin": 38.8
+    },
+    {
+     "texto": "antes",
+     "inicio": 38.8,
+     "fin": 39.26
+    },
+    {
+     "texto": "de",
+     "inicio": 39.26,
+     "fin": 39.42
+    },
+    {
+     "texto": "reservar.",
+     "inicio": 39.42,
+     "fin": 39.9
+    }
+   ],
+   "inicio": 33.94,
+   "fin": 39.9
+  },
+  {
+   "texto": "Contame: ¿te vas de escapada o te quedás en casa?",
+   "palabras": [
+    {
+     "texto": "Contame:",
+     "inicio": 40.32,
+     "fin": 40.7
+    },
+    {
+     "texto": "¿te",
+     "inicio": 41.16,
+     "fin": 41.24
+    },
+    {
+     "texto": "vas",
+     "inicio": 41.24,
+     "fin": 41.38
+    },
+    {
+     "texto": "de",
+     "inicio": 41.38,
+     "fin": 41.48
+    },
+    {
+     "texto": "escapada",
+     "inicio": 41.48,
+     "fin": 41.86
+    },
+    {
+     "texto": "o",
+     "inicio": 41.86,
+     "fin": 42.52
+    },
+    {
+     "texto": "te",
+     "inicio": 42.52,
+     "fin": 42.68
+    },
+    {
+     "texto": "quedás",
+     "inicio": 42.68,
+     "fin": 42.94
+    },
+    {
+     "texto": "en",
+     "inicio": 42.94,
+     "fin": 43.04
+    },
+    {
+     "texto": "casa?",
+     "inicio": 43.04,
+     "fin": 43.22
+    }
+   ],
+   "inicio": 40.32,
+   "fin": 43.22
+  },
+  {
+   "texto": "Mandáselo al que ya está armando la escapada.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 43.82,
+     "fin": 44.36
+    },
+    {
+     "texto": "al",
+     "inicio": 44.36,
+     "fin": 44.44
+    },
+    {
+     "texto": "que",
+     "inicio": 44.44,
+     "fin": 44.5
+    },
+    {
+     "texto": "ya",
+     "inicio": 44.5,
+     "fin": 44.64
+    },
+    {
+     "texto": "está",
+     "inicio": 44.64,
+     "fin": 44.78
+    },
+    {
+     "texto": "armando",
+     "inicio": 44.78,
+     "fin": 45.08
+    },
+    {
+     "texto": "la",
+     "inicio": 45.08,
+     "fin": 45.18
+    },
+    {
+     "texto": "escapada.",
+     "inicio": 45.18,
+     "fin": 45.56
+    }
+   ],
+   "inicio": 43.82,
+   "fin": 45.56
+  }
+ ]
+}

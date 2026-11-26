@@ -1772,5 +1772,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-054-tree-lights",
+  "tema": "Christmas tree lights: off when leaving/sleeping, water daily (NIST; own; casa)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-26T16:22",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-26T16:22",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-26T16:25",
+    "motivo": "3D scenes ready"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-26T16:31",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

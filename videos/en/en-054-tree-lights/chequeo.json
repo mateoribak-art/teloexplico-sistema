@@ -1,0 +1,42 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones (salud/seguridad) coinciden textualmente con la página de NIST Holiday Fire Safety y con el informe NIST TN 2131. Ninguna es dudosa, probable ni falsa; no hay cifras. Las frases de CTA/pregunta no son afirmaciones fácticas.",
+  "afirmaciones": [
+    {
+      "texto": "The National Institute of Standards and Technology tested two trees. The dry one caught fire. The watered one didn't. (también caption: 'NIST tested two Christmas trees: the dry one caught fire, the watered one didn't ignite.')",
+      "fuente": "NIST, Holiday Fire Safety (https://www.nist.gov/fire/holiday-fire-safety) y 'Why you should water your Christmas tree' (https://www.nist.gov/fire/holiday-fire-safety/why-you-should-water-your-christmas-tree); informe NIST Technical Note 2131 (https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2131.pdf): un árbol seco y uno regado, misma fuente de ignición, el seco se incendió y el regado no se encendió.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "So check the water in the stand every day. / NIST's advice: keep the tree well-watered and check the water level in the stand every day",
+      "fuente": "NIST Holiday Fire Safety: 'Always keep the tree well-watered. Make sure to check the water level in the stand daily.'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "And always turn the tree lights off before you leave home or go to bed. / always turn off tree lights before leaving home or going to bed",
+      "fuente": "NIST Holiday Fire Safety: 'Always turn off tree lights before leaving home or going to bed.'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: only use lights with the label of a recognized testing lab. / only use decorative lights with the label of a recognized testing laboratory",
+      "fuente": "NIST Holiday Fire Safety: 'Only use decorative lights that have the label of a recognized testing laboratory.'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Save this: water daily, and lights off when you leave or sleep. / Source: NIST, Holiday Fire Safety",
+      "fuente": "Resumen de los consejos anteriores; atribución a NIST correcta (nist.gov/fire/holiday-fire-safety).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Your Christmas tree lights stay on all night. / Don't. Here's why. (gancho/consejo, sin afirmación fáctica propia; el 'Don't' está respaldado por el consejo de NIST)",
+      "fuente": "NIST Holiday Fire Safety (consejo de apagar antes de dormir)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

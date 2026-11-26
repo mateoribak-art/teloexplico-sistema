@@ -2934,5 +2934,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "080-finde-largo-diciembre",
+  "tema": "Finde largo de diciembre: sáb 5 a mar 8 (lunes 7 no laborable turístico, martes 8 feriado) y Navidad viernes 25 (Chequeado)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-26T16:14",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-26T16:14",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-26T16:18",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-26T16:22",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

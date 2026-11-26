@@ -14,3 +14,13 @@ Uso: 13 pasos · 9,126 tokens nuevos · 737,164 de caché · 2,444 escritos · e
 2026-11-26 10:14 Render de en-053-first-frost (sin Claude).
 2026-11-26 10:23 en-053-first-frost: listo (render sin Claude)
 2026-11-26 10:23 Termina la producción (ok).
+2026-11-26 16:22 Arranca la producción (17 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+Quedó en estado `render` **en-054-tree-lights**: luces del árbol de Navidad, serie Home myths #11, propio. `producir.py` hace el render, la portada y el control al final del turno.
+- **Listo:** el chequeo con subagente aparte lo aprobó a la primera, con todo verificado contra NIST. La voz salió de 33,7 s con 101 de 101 palabras, `tlx tsc` pasó sin errores y revisé los cuadros en dos vueltas.
+- **Apartados:** ninguno, así que no hubo nada que rescatar al empezar.
+- **Incompleto, sin rescatar:** no repetí el radar de actualidad, porque la última pasada era del 25/11.
+- **Interacción:** guardar es "water daily, lights off when you leave or sleep", y comentar es "Does your tree stay lit all night? Yes or no?".
+Uso: 48 pasos · 78,814 tokens nuevos · 1,796,331 de caché · 15,087 escritos · equivale a US$ 0.76 de API
+2026-11-26 16:25 Render de en-054-tree-lights (sin Claude).
+2026-11-26 16:31 en-054-tree-lights: listo (render sin Claude)
+2026-11-26 16:31 Termina la producción (ok).

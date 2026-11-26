@@ -83,6 +83,7 @@ import { DURACION as DUR_039, FPS as FPS_039, SolNublado3D, Portada039 } from ".
 import { DURACION as DUR_040, FPS as FPS_040, ConsumoFantasma3D, Portada040 } from "./videos/040-consumo-fantasma/Video";
 import { DURACION as DUR_042, FPS as FPS_042, LaburoItaliano3D, Portada042 } from "./videos/042-laburo-italiano/Video";
 import { DURACION as DUR_043, FPS as FPS_043, FeriadosVisita3D, Portada043 } from "./videos/043-feriados-visita/Video";
+import { DURACION as DUR_080, FPS as FPS_080, FindeLargoDic3D, Portada080 } from "./videos/080-finde-largo-diciembre/Video";
 import { DURACION as DUR_045, FPS as FPS_045, UnaSolaTabla3D, Portada045 } from "./videos/045-una-sola-tabla/Video";
 import { DURACION as DUR_044, FPS as FPS_044, MisaFabricaAviones3D, Portada044 } from "./videos/044-misa-fabrica-aviones/Video";
 import { DURACION as DUR_041, FPS as FPS_041, CelularArroz041, Portada041 } from "./videos/041-celular-arroz-v2/Video";
@@ -111,6 +112,7 @@ import { DURACION as DUR_EN047, FPS as FPS_EN047, DogPeopleFoodEn047, PortadaEn0
 import { DURACION as DUR_EN048, FPS as FPS_EN048, EggsFridgeEn048, PortadaEn048 } from "./videos/en-048-eggs-fridge/Video";
 import { DURACION as DUR_EN052, FPS as FPS_EN052, CloudySunscreenEn052, PortadaEn052 } from "./videos/en-052-cloudy-sunscreen/Video";
 import { DURACION as DUR_EN049,FPS as FPS_EN049, SpaceHeaterEn049, PortadaEn049 } from "./videos/en-049-space-heater/Video";
+import { DURACION as DUR_EN054, FPS as FPS_EN054, TreeLightsEn054, PortadaEn054 } from "./videos/en-054-tree-lights/Video";
 import { DURACION as DUR_EN041,FPS as FPS_EN041, PastaOilEn041, PortadaEn041 } from "./videos/en-041-pasta-oil/Video";
 import { DURACION as DUR_EN042, FPS as FPS_EN042, FrozenPipesEn042, PortadaEn042 } from "./videos/en-042-frozen-pipes/Video";
 import { DURACION as DUR_EN034, FPS as FPS_EN034, AlcoholEn034, PortadaEn034 } from "./videos/en-034-alcohol-cook-off/Video";
@@ -269,6 +271,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p042-laburo-italiano" component={Portada042} width={ANCHO} height={ALTO} />
         <Composition id="h043-feriados-visita" component={FeriadosVisita3D} durationInFrames={DUR_043} fps={FPS_043} width={ANCHO} height={ALTO} />
         <Still id="p043-feriados-visita" component={Portada043} width={ANCHO} height={ALTO} />
+        <Composition id="h080-finde-largo-diciembre" component={FindeLargoDic3D} durationInFrames={DUR_080} fps={FPS_080} width={ANCHO} height={ALTO} />
+        <Still id="p080-finde-largo-diciembre" component={Portada080} width={ANCHO} height={ALTO} />
         <Composition id="h044-misa-fabrica-aviones" component={MisaFabricaAviones3D} durationInFrames={DUR_044} fps={FPS_044} width={ANCHO} height={ALTO} />
         <Still id="p044-misa-fabrica-aviones" component={Portada044} width={ANCHO} height={ALTO} />
         <Composition id="h041-celular-arroz-v2" component={CelularArroz041} durationInFrames={DUR_041} fps={FPS_041} width={ANCHO} height={ALTO} />
@@ -338,6 +342,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-048-eggs-fridge" component={PortadaEn048} width={ANCHO} height={ALTO} />
         <Composition id="hen-049-space-heater" component={SpaceHeaterEn049} durationInFrames={DUR_EN049} fps={FPS_EN049} width={ANCHO} height={ALTO} />
         <Still id="pen-049-space-heater" component={PortadaEn049} width={ANCHO} height={ALTO} />
+        <Composition id="hen-054-tree-lights" component={TreeLightsEn054} durationInFrames={DUR_EN054} fps={FPS_EN054} width={ANCHO} height={ALTO} />
+        <Still id="pen-054-tree-lights" component={PortadaEn054} width={ANCHO} height={ALTO} />
         <Composition id="hen-012-thunder-count" component={ThunderCountEn012} durationInFrames={DUR_EN012} fps={FPS_EN012} width={ANCHO} height={ALTO} />
         <Still id="pen-012-thunder-count" component={PortadaEn012} width={ANCHO} height={ALTO} />
         <Composition id="hen-013-searing-juices" component={SearingJuicesEn013} durationInFrames={DUR_EN013} fps={FPS_EN013} width={ANCHO} height={ALTO} />

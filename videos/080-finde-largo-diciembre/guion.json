@@ -1,0 +1,24 @@
+{
+  "titulo": "El finde de cuatro días de diciembre: qué es feriado y qué no",
+  "fondo": "oscuro",
+  "receta": "Argentina en datos / calendario que se enciende",
+  "pilar": "argentina",
+  "interaccion": ["guardar", "comentar"],
+  "destinatario": "se lo manda una amiga a otra que ya está armando la escapada, para decirle que el lunes siete no es feriado y que confirme con su empresa",
+  "regla_guardable": "Sáb 5 a mar 8 de diciembre (lunes 7 no laborable, martes 8 feriado) y Navidad: vie 25 a dom 27",
+  "fuentes": [
+    "Chequeado: Feriados 2026, qué días no se trabaja y cuáles son los fines de semana largos en la Argentina"
+  ],
+  "frases": [
+    {"texto": "Diciembre trae un finde de cuatro días, pero ojo con el lunes.", "estilo": "Seco y contundente, con media sonrisa."},
+    {"texto": "El martes ocho de diciembre es feriado nacional: el de la Inmaculada Concepción.", "estilo": "Claro, con energía."},
+    {"texto": "El lunes siete es día no laborable con fines turísticos.", "estilo": "Claro, con energía."},
+    {"texto": "Sábado, domingo, lunes y martes: cuatro días seguidos.", "estilo": "Con ritmo, entusiasmo."},
+    {"texto": "Pero no laborable no es lo mismo que feriado.", "estilo": "Golpe seco, con humor."},
+    {"texto": "En el sector público se suspenden las actividades, y en el privado cada empresa decide si trabajás.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Y después viene Navidad: viernes veinticinco, otro finde largo, de tres días.", "estilo": "Claro, con energía."},
+    {"texto": "Según Chequeado, ese es el calendario de diciembre. Ojo: confirmá con tu empresa antes de reservar.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "Contame: ¿te vas de escapada o te quedás en casa?", "estilo": "Cómplice, con curiosidad."},
+    {"texto": "Mandáselo al que ya está armando la escapada.", "estilo": "Cómplice, con humor."}
+  ]
+}
