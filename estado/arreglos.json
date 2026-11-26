@@ -490,10 +490,18 @@
   "id": "11260505-es-chequeo",
   "creado": "2026-11-26T05:05",
   "empleado": "es/chequeo",
-  "firma": "5257f8c96a1a",
-  "estado": "pedido",
+  "estado": "aplicado",
   "auto": true,
   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Bea (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): 078-piedra-papel-tijera.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\n078-piedra-papel-tijera: chequeo rechazado 2 veces (dirección piedra→papel→tijera del que pierde no verificable; paper ambiguo, MIT TR dice una cosa y el paper horario otra). Rescate: s\nRegistro:\n072-diez-por-ciento-cerebro: aprobado — Corregido tras el rechazo: la frase 3 y el caption ahora dicen 'Un neurólogo de la Universidad Johns Hopkins explica...' (singular, Barry Go\n073-muralla-desde-espacio: aprobado — Segunda revision. Todas las afirmaciones quedan verificadas o correctamente matizadas. Chiao: la frase aclara que uso teleobjetivo y que a s\n074-afeitar-pelo-grueso: aprobado — Todas las afirmaciones quedaron verificadas con fuente; la unica hipotesis (coincidencia de la pubertad con las primeras afeitadas) ya esta \n075-parabrisas-empanado: aprobado — Segundo chequeo con busqueda web. Las correcciones de la ronda anterior se aplicaron: ya no hay cifra de tiempo ('a los dos segundos') y la \n076-calentar-el-auto: aprobado — Las afirmaciones de plata y seguridad (autos modernos se manejan a los pocos segundos, la forma más rápida de calentar es manejar, el ralent\n077-apellidos-gonzalez: aprobado — Todas las cifras y la atribución coinciden con las fuentes: La Nación (6/8/2022) y Aire de Santa Fe reproducen el inf",
-  "actualizado": "2026-11-26T05:05"
+  "firma": "5257f8c96a1a",
+  "actualizado": "2026-11-26T05:05",
+  "titulo": "Rescaté el video de piedra, papel o tijera: saqué el dato que Bea no podía verificar y lo devolví a producción.",
+  "resumen": "Bea lo frenó dos veces porque la dirección en que cambia el que pierde (piedra→papel→tijera) no coincide entre el paper y la prensa. Saqué esa parte del guion, de la regla para guardar y del caption. Ahora dice solo que \"el que pierde tiende a cambiar de jugada\", que sí está verificado. Lo pasé de \"apartado\" a \"produccion\" en la cola. No rehice escenas, voz ni render: la próxima corrida de producción tiene que hacerlos y pasar el chequeo de datos de nuevo antes de que salga.",
+  "commit": "0e93970c7bdc456a131fe534584286d90664a876",
+  "archivos": [
+   "videos/078-piedra-papel-tijera/caption.txt",
+   "videos/078-piedra-papel-tijera/guion.json",
+   "videos/cola.json"
+  ]
  }
 ]
