@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T14:45",
+ "actualizado": "2026-11-26T15:30",
  "oficinas": [
   {
    "clave": "es",
@@ -104,7 +104,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-26T10:09",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [
       "Uso: 20 pasos · 15,289 tokens nuevos · 872,068 de caché · 3,261 escritos · equivale a US$ 0.70 de API",
       "2026-11-26 10:00 Arranca la producción (17 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -381,7 +381,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-26T01:07",
-     "hace": "hace 13 h",
+     "hace": "hace 14 h",
      "detalle": [
       "2026-11-22 23:22 perro-no-comas: listo control OK",
       "2026-11-24 23:52 bondi-de-brasil: publicado https://www.instagram.com/p/DgJf-5YjSnU/",
@@ -415,7 +415,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-26T06:15",
-     "hace": "hace 8 h",
+     "hace": "hace 9 h",
      "detalle": [
       "25/11 22:07 Hay 35 comentarios nuevos: arranca la respuesta.",
       "25/11 00:00 Respondí 23 · salteé 11 · alerté 1. (059-pibe-chango-guri: 23 respondidos (variantes regionales, anécdotas y mitái/gurisadas); salteados: 11 por palabra suelta, insulto leve o texto ambiguo; alerta: la_yong.lixx corrige \"En Buenos Aires se dice pibe\" (ciudad vs provincia), no respondido en público.)",
@@ -454,7 +454,7 @@
      "estado": "ok",
      "resumen": "26/11: 1175 seguidores",
      "cuando": "2026-11-26T05:04",
-     "hace": "hace 9 h",
+     "hace": "hace 10 h",
      "detalle": [
       "23/11: 1045 seguidores",
       "24/11: 1071 seguidores",
@@ -487,7 +487,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-26T14:45",
+     "cuando": "2026-11-26T15:30",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -622,7 +622,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-26T10:23",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [
       "Uso: 13 pasos · 9,126 tokens nuevos · 737,164 de caché · 2,444 escritos · equivale a US$ 0.97 de API",
       "2026-11-26 10:09 Arranca la producción (17 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
@@ -900,7 +900,7 @@
      "estado": "ok",
      "resumen": "26/11: 5 seguidores",
      "cuando": "2026-11-26T05:05",
-     "hace": "hace 9 h",
+     "hace": "hace 10 h",
      "detalle": [
       "23/11: 5 seguidores",
       "24/11: 5 seguidores",
@@ -933,7 +933,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-26T14:45",
+     "cuando": "2026-11-26T15:30",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
