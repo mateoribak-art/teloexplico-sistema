@@ -1,6 +1,6 @@
 ✊✋✌️ Perdés en el piedra, papel o tijera y creés que es mala suerte, pero esos jugadores no jugaban al azar: seguían un patrón.
 
-En 2014, investigadores de la Universidad de Zhejiang (China) hicieron jugar a cientos de estudiantes, en grupos, trescientas rondas cada grupo. El patrón: el que gana tiende a repetir la jugada, y el que pierde tiende a cambiar, muchas veces en orden: de piedra a papel y de papel a tijera.
+En 2014, investigadores de la Universidad de Zhejiang (China) hicieron jugar a cientos de estudiantes, en grupos, trescientas rondas cada grupo. El patrón: el que gana tiende a repetir la jugada, y el que pierde tiende a cambiar de jugada.
 
 O sea: si tu rival acaba de ganar con piedra, jugale papel.
 
