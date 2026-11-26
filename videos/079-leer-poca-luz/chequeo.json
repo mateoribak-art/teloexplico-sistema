@@ -1,0 +1,42 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Se leyó el texto primario de ambas fuentes. Harvard Health (5 truths about protecting your eyes, 12/02/2021): 'Dim lighting will not damage your eyesight or eye health. However, it will tire your eyes out more quickly.' Prevent Blindness (Common Eye Myths): mito 'Reading in dim light can damage your eyes' / hecho 'Reading in dim light can cause eye strain, but it will not hurt your eyes permanently.' Ambas atribuciones son exactas y la de Johns Hopkins ya no figura en guion ni caption. Todas las afirmaciones de salud están verificadas, ninguna es falsa, y no hay afirmaciones probables/dudosas presentadas como firmes. Observación menor: el consejo de consultar al oftalmólogo no está en esas dos páginas, pero lo respalda la AAO (si los síntomas de fatiga persisten, un oftalmólogo puede ayudar) y Mayo Clinic.",
+  "afirmaciones": [
+    {
+      "texto": "Leer con poca luz te cansa pero no te arruina la vista.",
+      "fuente": "Harvard Health Publishing, '5 truths about protecting your eyes' (https://www.health.harvard.edu/staying-healthy/5-truths-about-protecting-your-eyes, redirige a harvardhealth.org); Prevent Blindness, 'Common Eye Myths' (https://preventblindness.org/?p=22442); AAO vía CBS News",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Según Harvard Health, con poca luz los ojos se cansan más rápido, pero no se dañan.",
+      "fuente": "Harvard Health, '5 truths about protecting your eyes', 12/02/2021: 'Dim lighting will not damage your eyesight or eye health. However, it will tire your eyes out more quickly.'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La organización Prevent Blindness dice lo mismo: leer con poca luz puede cansar la vista, pero no te lastima los ojos de forma permanente.",
+      "fuente": "Prevent Blindness, 'Common Eye Myths' (https://preventblindness.org/?p=22442): 'Reading in dim light can cause eye strain, but it will not hurt your eyes permanently.' Cita exacta; 'puede cansar' y 'de forma permanente' reproducen el matiz original.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si querés leer más cómodo, prendé una luz y listo.",
+      "fuente": "Harvard Health (misma nota): recomienda una luz de lectura apuntando directo a la página. Consejo coherente con que la poca luz fatiga más rápido.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si la vista te molesta seguido, consultá a un oftalmólogo.",
+      "fuente": "American Academy of Ophthalmology, página de eye strain (aao.org/eye-health/diseases/eye-strain-list); Mayo Clinic, Eyestrain: si las molestias no mejoran con autocuidado, consultar a un especialista.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes citadas: Harvard Health Publishing '5 truths about protecting your eyes'; Prevent Blindness, mitos sobre la vista.",
+      "fuente": "Ambas páginas existen y contienen lo atribuido (verificado en texto primario). No hay mención a Johns Hopkins.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

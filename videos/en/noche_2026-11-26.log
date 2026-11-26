@@ -1,0 +1,8 @@
+2026-11-26 01:07 Arranca la producción (16 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `en-052-cloudy-sunscreen` (protector solar en días nublados, serie Body myths #7). El chequeo lo rechazó la primera vez, por una frase sobre nubes gruesas y "light haze" que no tenía fuente. La reemplacé por la versión verificada y el segundo chequeo lo aprobó con fuentes de la AAD y la EPA. La voz dura 44,6 s y `tsc` pasó. Revisé los cuadros en una vuelta y quedó en estado `render`. Ahora lo renderiza `producir.py`.
+- **Apartados:** no había ninguno por "chequeo rechazado", así que no hubo nada que rescatar. `en-042` ya estaba en `listo`.
+- **Radar:** no lo repetí. La última pasada fue el 25/11 y no encontró tema. Lo anoté en `videos/en/produccion.log`, junto con la `interaccion` elegida (guardar y comentar).
+Uso: 14 pasos · 10,146 tokens nuevos · 858,973 de caché · 3,281 escritos · equivale a US$ 1.02 de API
+2026-11-26 01:11 Render de en-052-cloudy-sunscreen (sin Claude).
+2026-11-26 01:19 en-052-cloudy-sunscreen: listo (render sin Claude)
+2026-11-26 01:19 Termina la producción (ok).

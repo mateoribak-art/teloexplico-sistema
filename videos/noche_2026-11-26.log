@@ -1,0 +1,14 @@
+2026-11-26 00:48 Arranca la producción (16 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `079-leer-poca-luz`. Es sobre si leer con poca luz arruina la vista, con Harvard Health y Prevent Blindness como fuentes, y la voz dura 41 s. El primer y el segundo chequeo lo rechazaron porque la cita a Johns Hopkins no se pudo confirmar. Con esa fuente sacada, el tercer chequeo lo aprobó. Tiene `tsc` limpio y dos vueltas de cuadros, y quedó en estado `render`.
+- **Apartado:** `078-piedra-papel-tijera`. Falló dos chequeos porque la dirección piedra→papel→tijera del que pierde no se pudo verificar. Se puede rescatar dejando solo "el que pierde tiende a cambiar". Vacié su `Video.tsx` para que `tsc` no falle.
+- **Sin rescates ni segundo video:** los apartados anteriores (005, 038, 042, 044, 051) no eran por chequeo rechazado. No produje un segundo video porque la cola ya tenía 16 listos.
+Uso: 21 pasos · 17,196 tokens nuevos · 1,697,147 de caché · 5,441 escritos · equivale a US$ 2.41 de API
+2026-11-26 00:59 Render de 079-leer-poca-luz (sin Claude).
+2026-11-26 01:06 079-leer-poca-luz: listo (render sin Claude)
+2026-11-26 01:06 Termina la producción (ok).
+2026-11-26 01:06 Arranca el carrusel (1 listos, meta 2).
+`pibe-chango-guri`: quedó listo. Son 8 placas, salidas del reel 059 (chequeo aprobado, el de más compartidos que no tenía carrusel). Lo agregué a `videos/produccion.log`.
+
+Después de la primera vuelta, el texto de la tapa se cortaba. Lo acorté a «depende» y rendericé de nuevo, y el control dio LISTO. No volví a mirar `hoja.png` después de ese cambio.
+Uso: 19 pasos · 21,120 tokens nuevos · 290,931 de caché · 3,286 escritos · equivale a US$ 0.15 de API
+2026-11-26 01:07 Termina el carrusel (ok; quedan 2 listos).

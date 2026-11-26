@@ -1,0 +1,24 @@
+{
+  "titulo": "¿Leer con poca luz te arruina la vista?",
+  "fondo": "oscuro",
+  "receta": "Mito + zoom adentro",
+  "pilar": "salud_simple",
+  "interaccion": ["comentar", "guardar"],
+  "destinatario": "se lo manda un pibe a su mamá, la de 'apagá esa luz que te arruinás la vista', para decirle que solo se cansa",
+  "regla_guardable": "Poca luz cansa los ojos pero no los daña: prendé una luz y listo.",
+  "fuentes": [
+    "Harvard Health Publishing, '5 truths about protecting your eyes'",
+    "Prevent Blindness, mitos sobre la vista (leer con poca luz)"
+  ],
+  "frases": [
+    {"texto": "Leés en la cama con poca luz y alguien te dijo que te vas a arruinar la vista.", "estilo": "Seco, directo, con media sonrisa."},
+    {"texto": "Es al revés: te cansa, pero no te la arruina.", "estilo": "Seco y contundente."},
+    {"texto": "Según Harvard Health, con poca luz los ojos se cansan más rápido, pero no se dañan.", "estilo": "Informativo, con autoridad."},
+    {"texto": "La organización Prevent Blindness dice lo mismo: leer con poca luz puede cansar la vista, pero no te lastima los ojos de forma permanente.", "estilo": "Claro, didáctico."},
+    {"texto": "O sea: con poca luz los ojos se cansan más rápido, pero no se dañan.", "estilo": "Con sorpresa."},
+    {"texto": "Si querés leer más cómodo, prendé una luz y listo.", "estilo": "Claro, práctico."},
+    {"texto": "Ojo: si la vista te molesta seguido, consultá a un oftalmólogo.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "¿Quién te retaba en tu casa cuando leías sin luz? Contestá con una palabra.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al que te apaga la luz cuando leés.", "estilo": "Cómplice, con humor."}
+  ]
+}

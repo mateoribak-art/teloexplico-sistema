@@ -1713,5 +1713,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-052-cloudy-sunscreen",
+  "tema": "Do you need sunscreen on cloudy days? (AAD: up to 80% UV through clouds; own; body)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-26T01:08",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-26T01:08",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-26T01:11",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-26T01:19",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

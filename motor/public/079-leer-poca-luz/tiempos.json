@@ -1,0 +1,703 @@
+{
+ "duracion": 41.0,
+ "frases": [
+  {
+   "texto": "Leés en la cama con poca luz y alguien te dijo que te vas a arruinar la vista.",
+   "palabras": [
+    {
+     "texto": "Leés",
+     "inicio": 0.0,
+     "fin": 0.32
+    },
+    {
+     "texto": "en",
+     "inicio": 0.32,
+     "fin": 0.46
+    },
+    {
+     "texto": "la",
+     "inicio": 0.46,
+     "fin": 0.54
+    },
+    {
+     "texto": "cama",
+     "inicio": 0.54,
+     "fin": 0.76
+    },
+    {
+     "texto": "con",
+     "inicio": 0.76,
+     "fin": 0.98
+    },
+    {
+     "texto": "poca",
+     "inicio": 0.98,
+     "fin": 1.16
+    },
+    {
+     "texto": "luz",
+     "inicio": 1.16,
+     "fin": 1.38
+    },
+    {
+     "texto": "y",
+     "inicio": 1.38,
+     "fin": 2.06
+    },
+    {
+     "texto": "alguien",
+     "inicio": 2.06,
+     "fin": 2.26
+    },
+    {
+     "texto": "te",
+     "inicio": 2.26,
+     "fin": 2.5
+    },
+    {
+     "texto": "dijo",
+     "inicio": 2.5,
+     "fin": 2.7
+    },
+    {
+     "texto": "que",
+     "inicio": 2.7,
+     "fin": 2.86
+    },
+    {
+     "texto": "te",
+     "inicio": 2.86,
+     "fin": 2.98
+    },
+    {
+     "texto": "vas",
+     "inicio": 2.98,
+     "fin": 3.14
+    },
+    {
+     "texto": "a",
+     "inicio": 3.14,
+     "fin": 3.3
+    },
+    {
+     "texto": "arruinar",
+     "inicio": 3.3,
+     "fin": 3.68
+    },
+    {
+     "texto": "la",
+     "inicio": 3.68,
+     "fin": 3.92
+    },
+    {
+     "texto": "vista.",
+     "inicio": 3.92,
+     "fin": 4.2
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.2
+  },
+  {
+   "texto": "Es al revés: te cansa, pero no te la arruina.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 4.74,
+     "fin": 4.92
+    },
+    {
+     "texto": "al",
+     "inicio": 4.92,
+     "fin": 5.1
+    },
+    {
+     "texto": "revés:",
+     "inicio": 5.1,
+     "fin": 5.56
+    },
+    {
+     "texto": "te",
+     "inicio": 5.96,
+     "fin": 6.22
+    },
+    {
+     "texto": "cansa,",
+     "inicio": 6.22,
+     "fin": 6.58
+    },
+    {
+     "texto": "pero",
+     "inicio": 7.08,
+     "fin": 7.24
+    },
+    {
+     "texto": "no",
+     "inicio": 7.24,
+     "fin": 7.44
+    },
+    {
+     "texto": "te",
+     "inicio": 7.44,
+     "fin": 7.56
+    },
+    {
+     "texto": "la",
+     "inicio": 7.56,
+     "fin": 7.68
+    },
+    {
+     "texto": "arruina.",
+     "inicio": 7.68,
+     "fin": 8.0
+    }
+   ],
+   "inicio": 4.74,
+   "fin": 8.0
+  },
+  {
+   "texto": "Según Harvard Health, con poca luz los ojos se cansan más rápido, pero no se dañan.",
+   "palabras": [
+    {
+     "texto": "Según",
+     "inicio": 8.78,
+     "fin": 9.08
+    },
+    {
+     "texto": "Harvard",
+     "inicio": 9.08,
+     "fin": 9.4
+    },
+    {
+     "texto": "Health,",
+     "inicio": 9.4,
+     "fin": 9.86
+    },
+    {
+     "texto": "con",
+     "inicio": 10.3,
+     "fin": 10.44
+    },
+    {
+     "texto": "poca",
+     "inicio": 10.44,
+     "fin": 10.68
+    },
+    {
+     "texto": "luz",
+     "inicio": 10.68,
+     "fin": 10.9
+    },
+    {
+     "texto": "los",
+     "inicio": 10.9,
+     "fin": 11.54
+    },
+    {
+     "texto": "ojos",
+     "inicio": 11.54,
+     "fin": 11.76
+    },
+    {
+     "texto": "se",
+     "inicio": 11.76,
+     "fin": 11.94
+    },
+    {
+     "texto": "cansan",
+     "inicio": 11.94,
+     "fin": 12.22
+    },
+    {
+     "texto": "más",
+     "inicio": 12.22,
+     "fin": 12.4
+    },
+    {
+     "texto": "rápido,",
+     "inicio": 12.4,
+     "fin": 12.74
+    },
+    {
+     "texto": "pero",
+     "inicio": 13.22,
+     "fin": 13.44
+    },
+    {
+     "texto": "no",
+     "inicio": 13.44,
+     "fin": 13.56
+    },
+    {
+     "texto": "se",
+     "inicio": 13.56,
+     "fin": 13.7
+    },
+    {
+     "texto": "dañan.",
+     "inicio": 13.7,
+     "fin": 14.08
+    }
+   ],
+   "inicio": 8.78,
+   "fin": 14.08
+  },
+  {
+   "texto": "La organización Prevent Blindness dice lo mismo: leer con poca luz puede cansar la vista, pero no te lastima los ojos de forma permanente.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 14.5,
+     "fin": 14.7
+    },
+    {
+     "texto": "organización",
+     "inicio": 14.7,
+     "fin": 15.2
+    },
+    {
+     "texto": "Prevent",
+     "inicio": 15.2,
+     "fin": 15.58
+    },
+    {
+     "texto": "Blindness",
+     "inicio": 15.58,
+     "fin": 16.1
+    },
+    {
+     "texto": "dice",
+     "inicio": 16.1,
+     "fin": 16.32
+    },
+    {
+     "texto": "lo",
+     "inicio": 16.32,
+     "fin": 16.48
+    },
+    {
+     "texto": "mismo:",
+     "inicio": 16.48,
+     "fin": 16.7
+    },
+    {
+     "texto": "leer",
+     "inicio": 17.3,
+     "fin": 17.42
+    },
+    {
+     "texto": "con",
+     "inicio": 17.42,
+     "fin": 17.62
+    },
+    {
+     "texto": "poca",
+     "inicio": 17.62,
+     "fin": 17.86
+    },
+    {
+     "texto": "luz",
+     "inicio": 17.86,
+     "fin": 18.06
+    },
+    {
+     "texto": "puede",
+     "inicio": 18.06,
+     "fin": 18.38
+    },
+    {
+     "texto": "cansar",
+     "inicio": 18.38,
+     "fin": 18.74
+    },
+    {
+     "texto": "la",
+     "inicio": 18.74,
+     "fin": 18.84
+    },
+    {
+     "texto": "vista,",
+     "inicio": 18.84,
+     "fin": 19.1
+    },
+    {
+     "texto": "pero",
+     "inicio": 19.32,
+     "fin": 19.58
+    },
+    {
+     "texto": "no",
+     "inicio": 19.58,
+     "fin": 19.76
+    },
+    {
+     "texto": "te",
+     "inicio": 19.76,
+     "fin": 19.92
+    },
+    {
+     "texto": "lastima",
+     "inicio": 19.92,
+     "fin": 20.28
+    },
+    {
+     "texto": "los",
+     "inicio": 20.28,
+     "fin": 20.42
+    },
+    {
+     "texto": "ojos",
+     "inicio": 20.42,
+     "fin": 20.78
+    },
+    {
+     "texto": "de",
+     "inicio": 20.78,
+     "fin": 21.04
+    },
+    {
+     "texto": "forma",
+     "inicio": 21.04,
+     "fin": 21.26
+    },
+    {
+     "texto": "permanente.",
+     "inicio": 21.26,
+     "fin": 21.88
+    }
+   ],
+   "inicio": 14.5,
+   "fin": 21.88
+  },
+  {
+   "texto": "O sea: con poca luz los ojos se cansan más rápido, pero no se dañan.",
+   "palabras": [
+    {
+     "texto": "O",
+     "inicio": 22.32,
+     "fin": 22.48
+    },
+    {
+     "texto": "sea:",
+     "inicio": 22.48,
+     "fin": 22.7
+    },
+    {
+     "texto": "con",
+     "inicio": 23.22,
+     "fin": 23.36
+    },
+    {
+     "texto": "poca",
+     "inicio": 23.36,
+     "fin": 23.58
+    },
+    {
+     "texto": "luz",
+     "inicio": 23.58,
+     "fin": 23.82
+    },
+    {
+     "texto": "los",
+     "inicio": 23.82,
+     "fin": 24.3
+    },
+    {
+     "texto": "ojos",
+     "inicio": 24.3,
+     "fin": 24.52
+    },
+    {
+     "texto": "se",
+     "inicio": 24.52,
+     "fin": 24.7
+    },
+    {
+     "texto": "cansan",
+     "inicio": 24.7,
+     "fin": 24.94
+    },
+    {
+     "texto": "más",
+     "inicio": 24.94,
+     "fin": 25.14
+    },
+    {
+     "texto": "rápido,",
+     "inicio": 25.14,
+     "fin": 25.42
+    },
+    {
+     "texto": "pero",
+     "inicio": 25.8,
+     "fin": 25.88
+    },
+    {
+     "texto": "no",
+     "inicio": 25.88,
+     "fin": 26.1
+    },
+    {
+     "texto": "se",
+     "inicio": 26.1,
+     "fin": 26.28
+    },
+    {
+     "texto": "dañan.",
+     "inicio": 26.28,
+     "fin": 26.64
+    }
+   ],
+   "inicio": 22.32,
+   "fin": 26.64
+  },
+  {
+   "texto": "Si querés leer más cómodo, prendé una luz y listo.",
+   "palabras": [
+    {
+     "texto": "Si",
+     "inicio": 27.06,
+     "fin": 27.2
+    },
+    {
+     "texto": "querés",
+     "inicio": 27.2,
+     "fin": 27.44
+    },
+    {
+     "texto": "leer",
+     "inicio": 27.44,
+     "fin": 27.58
+    },
+    {
+     "texto": "más",
+     "inicio": 27.58,
+     "fin": 27.8
+    },
+    {
+     "texto": "cómodo,",
+     "inicio": 27.8,
+     "fin": 28.3
+    },
+    {
+     "texto": "prendé",
+     "inicio": 28.48,
+     "fin": 28.8
+    },
+    {
+     "texto": "una",
+     "inicio": 28.8,
+     "fin": 28.92
+    },
+    {
+     "texto": "luz",
+     "inicio": 28.92,
+     "fin": 29.16
+    },
+    {
+     "texto": "y",
+     "inicio": 29.16,
+     "fin": 29.5
+    },
+    {
+     "texto": "listo.",
+     "inicio": 29.5,
+     "fin": 30.1
+    }
+   ],
+   "inicio": 27.06,
+   "fin": 30.1
+  },
+  {
+   "texto": "Ojo: si la vista te molesta seguido, consultá a un oftalmólogo.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 30.38,
+     "fin": 30.62
+    },
+    {
+     "texto": "si",
+     "inicio": 31.06,
+     "fin": 31.2
+    },
+    {
+     "texto": "la",
+     "inicio": 31.2,
+     "fin": 31.32
+    },
+    {
+     "texto": "vista",
+     "inicio": 31.32,
+     "fin": 31.5
+    },
+    {
+     "texto": "te",
+     "inicio": 31.5,
+     "fin": 31.64
+    },
+    {
+     "texto": "molesta",
+     "inicio": 31.64,
+     "fin": 31.98
+    },
+    {
+     "texto": "seguido,",
+     "inicio": 31.98,
+     "fin": 32.46
+    },
+    {
+     "texto": "consultá",
+     "inicio": 32.86,
+     "fin": 33.34
+    },
+    {
+     "texto": "a",
+     "inicio": 33.34,
+     "fin": 33.38
+    },
+    {
+     "texto": "un",
+     "inicio": 33.38,
+     "fin": 33.46
+    },
+    {
+     "texto": "oftalmólogo.",
+     "inicio": 33.46,
+     "fin": 34.02
+    }
+   ],
+   "inicio": 30.38,
+   "fin": 34.02
+  },
+  {
+   "texto": "¿Quién te retaba en tu casa cuando leías sin luz? Contestá con una palabra.",
+   "palabras": [
+    {
+     "texto": "¿Quién",
+     "inicio": 34.56,
+     "fin": 34.78
+    },
+    {
+     "texto": "te",
+     "inicio": 34.78,
+     "fin": 34.88
+    },
+    {
+     "texto": "retaba",
+     "inicio": 34.88,
+     "fin": 35.26
+    },
+    {
+     "texto": "en",
+     "inicio": 35.26,
+     "fin": 35.36
+    },
+    {
+     "texto": "tu",
+     "inicio": 35.36,
+     "fin": 35.46
+    },
+    {
+     "texto": "casa",
+     "inicio": 35.46,
+     "fin": 35.7
+    },
+    {
+     "texto": "cuando",
+     "inicio": 35.7,
+     "fin": 35.98
+    },
+    {
+     "texto": "leías",
+     "inicio": 35.98,
+     "fin": 36.42
+    },
+    {
+     "texto": "sin",
+     "inicio": 36.42,
+     "fin": 36.64
+    },
+    {
+     "texto": "luz?",
+     "inicio": 36.64,
+     "fin": 36.82
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 37.46,
+     "fin": 37.84
+    },
+    {
+     "texto": "con",
+     "inicio": 37.84,
+     "fin": 38.0
+    },
+    {
+     "texto": "una",
+     "inicio": 38.0,
+     "fin": 38.24
+    },
+    {
+     "texto": "palabra.",
+     "inicio": 38.24,
+     "fin": 38.56
+    }
+   ],
+   "inicio": 34.56,
+   "fin": 38.56
+  },
+  {
+   "texto": "Mandáselo al que te apaga la luz cuando leés.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 39.1,
+     "fin": 39.56
+    },
+    {
+     "texto": "al",
+     "inicio": 39.56,
+     "fin": 39.62
+    },
+    {
+     "texto": "que",
+     "inicio": 39.62,
+     "fin": 39.74
+    },
+    {
+     "texto": "te",
+     "inicio": 39.74,
+     "fin": 39.88
+    },
+    {
+     "texto": "apaga",
+     "inicio": 39.88,
+     "fin": 40.14
+    },
+    {
+     "texto": "la",
+     "inicio": 40.14,
+     "fin": 40.24
+    },
+    {
+     "texto": "luz",
+     "inicio": 40.24,
+     "fin": 40.38
+    },
+    {
+     "texto": "cuando",
+     "inicio": 40.38,
+     "fin": 40.54
+    },
+    {
+     "texto": "leés.",
+     "inicio": 40.54,
+     "fin": 40.92
+    }
+   ],
+   "inicio": 39.1,
+   "fin": 40.92
+  }
+ ]
+}

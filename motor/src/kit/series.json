@@ -306,6 +306,14 @@
     "077-apellidos-gonzalez": [
       "argentina",
       12
+    ],
+    "078-piedra-papel-tijera": [
+      "mate",
+      5
+    ],
+    "079-leer-poca-luz": [
+      "cuerpo",
+      10
     ]
   }
 }

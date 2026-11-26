@@ -59,6 +59,7 @@ import { DURACION as DUR_061, FPS as FPS_061, HeladeraTermometro3D, Portada061 }
 import { DURACION as DUR_074, FPS as FPS_074, AfeitarPeloGrueso3D, Portada074 } from "./videos/074-afeitar-pelo-grueso/Video";
 import { DURACION as DUR_076, FPS as FPS_076, CalentarElAuto3D, Portada076 } from "./videos/076-calentar-el-auto/Video";
 import { DURACION as DUR_077, FPS as FPS_077, ApellidosGonzalez3D, Portada077 } from "./videos/077-apellidos-gonzalez/Video";
+import { DURACION as DUR_079, FPS as FPS_079, LeerPocaLuz3D, Portada079 } from "./videos/079-leer-poca-luz/Video";
 import { DURACION as DUR_075, FPS as FPS_075, ParabrisasEmpanado3D, Portada075 } from "./videos/075-parabrisas-empanado/Video";
 import { DURACION as DUR_064,FPS as FPS_064, NudillosArtritis3D, Portada064 } from "./videos/064-nudillos-artritis/Video";
 import { DURACION as DUR_062,FPS as FPS_062, PoteMicroondas3D, Portada062 } from "./videos/062-pote-microondas/Video";
@@ -106,7 +107,8 @@ import { DURACION as DUR_EN045, FPS as FPS_EN045, CarWarmupEn045, PortadaEn045 }
 import { DURACION as DUR_EN046, FPS as FPS_EN046, WindChillEn046, PortadaEn046 } from "./videos/en-046-wind-chill/Video";
 import { DURACION as DUR_EN047, FPS as FPS_EN047, DogPeopleFoodEn047, PortadaEn047 } from "./videos/en-047-dog-people-food/Video";
 import { DURACION as DUR_EN048, FPS as FPS_EN048, EggsFridgeEn048, PortadaEn048 } from "./videos/en-048-eggs-fridge/Video";
-import { DURACION as DUR_EN049, FPS as FPS_EN049, SpaceHeaterEn049, PortadaEn049 } from "./videos/en-049-space-heater/Video";
+import { DURACION as DUR_EN052, FPS as FPS_EN052, CloudySunscreenEn052, PortadaEn052 } from "./videos/en-052-cloudy-sunscreen/Video";
+import { DURACION as DUR_EN049,FPS as FPS_EN049, SpaceHeaterEn049, PortadaEn049 } from "./videos/en-049-space-heater/Video";
 import { DURACION as DUR_EN041,FPS as FPS_EN041, PastaOilEn041, PortadaEn041 } from "./videos/en-041-pasta-oil/Video";
 import { DURACION as DUR_EN042, FPS as FPS_EN042, FrozenPipesEn042, PortadaEn042 } from "./videos/en-042-frozen-pipes/Video";
 import { DURACION as DUR_EN034, FPS as FPS_EN034, AlcoholEn034, PortadaEn034 } from "./videos/en-034-alcohol-cook-off/Video";
@@ -245,6 +247,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p076-calentar-el-auto" component={Portada076} width={ANCHO} height={ALTO} />
         <Composition id="h077-apellidos-gonzalez" component={ApellidosGonzalez3D} durationInFrames={DUR_077} fps={FPS_077} width={ANCHO} height={ALTO} />
         <Still id="p077-apellidos-gonzalez" component={Portada077} width={ANCHO} height={ALTO} />
+        <Composition id="h079-leer-poca-luz" component={LeerPocaLuz3D} durationInFrames={DUR_079} fps={FPS_079} width={ANCHO} height={ALTO} />
+        <Still id="p079-leer-poca-luz" component={Portada079} width={ANCHO} height={ALTO} />
         <Composition id="h056-gta-trece-anios"component={GtaTreceAnios3D} durationInFrames={DUR_056} fps={FPS_056} width={ANCHO} height={ALTO} />
         <Still id="p056-gta-trece-anios" component={Portada056} width={ANCHO} height={ALTO} />
         <Composition id="h055-gta-vice-city-miami"component={GtaViceCityMiami3D} durationInFrames={DUR_055} fps={FPS_055} width={ANCHO} height={ALTO} />
@@ -320,6 +324,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-045-car-warmup" component={PortadaEn045} width={ANCHO} height={ALTO} />
         <Composition id="hen-046-wind-chill" component={WindChillEn046} durationInFrames={DUR_EN046} fps={FPS_EN046} width={ANCHO} height={ALTO} />
         <Still id="pen-046-wind-chill" component={PortadaEn046} width={ANCHO} height={ALTO} />
+        <Composition id="hen-052-cloudy-sunscreen" component={CloudySunscreenEn052} durationInFrames={DUR_EN052} fps={FPS_EN052} width={ANCHO} height={ALTO} />
+        <Still id="pen-052-cloudy-sunscreen" component={PortadaEn052} width={ANCHO} height={ALTO} />
         <Composition id="hen-047-dog-people-food" component={DogPeopleFoodEn047} durationInFrames={DUR_EN047} fps={FPS_EN047} width={ANCHO} height={ALTO} />
         <Still id="pen-047-dog-people-food" component={PortadaEn047} width={ANCHO} height={ALTO} />
         <Composition id="hen-048-eggs-fridge" component={EggsFridgeEn048} durationInFrames={DUR_EN048} fps={FPS_EN048} width={ANCHO} height={ALTO} />

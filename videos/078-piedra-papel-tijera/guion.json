@@ -1,0 +1,24 @@
+{
+  "titulo": "El truco para no perder en el piedra, papel o tijera",
+  "fondo": "oscuro",
+  "receta": "Mito + zoom adentro / Experimento real",
+  "pilar": "argentina",
+  "interaccion": ["comentar", "guardar"],
+  "destinatario": "se lo manda un hermano al hermano que siempre le gana en el piedra, papel o tijera para decirle que ya sabe su patrón",
+  "regla_guardable": "Si tu rival ganó, tiende a repetir: jugale lo que le gana a su jugada. Si perdió, tiende a pasar de piedra a papel y de papel a tijera.",
+  "fuentes": [
+    "Wang, Xu y Zhou, Universidad de Zhejiang (China), 'Social cycling and conditional responses in the Rock-Paper-Scissors game', Scientific Reports 4:5830, 2014 (doi 10.1038/srep05830)",
+    "MIT Technology Review, 30/4/2014; Phys.org, 2/5/2014"
+  ],
+  "frases": [
+    {"texto": "Perdés en el piedra, papel o tijera y creés que es mala suerte.", "estilo": "Seco, directo, con media sonrisa."},
+    {"texto": "Pero esos jugadores no jugaban al azar: seguían un patrón.", "estilo": "Seco y contundente."},
+    {"texto": "En dos mil catorce, investigadores de la Universidad de Zhejiang, en China, hicieron jugar a cientos de estudiantes, en grupos, trescientas rondas cada grupo.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Y vieron un patrón: el que gana tiende a repetir la misma jugada.", "estilo": "Claro, didáctico."},
+    {"texto": "Y el que pierde tiende a cambiar, y muchas veces en orden: de piedra a papel, y de papel a tijera.", "estilo": "Con sorpresa."},
+    {"texto": "O sea: si tu rival acaba de ganar con piedra, jugale papel.", "estilo": "Claro, didáctico."},
+    {"texto": "Ojo: es una tendencia medida en grupos de estudiantes en un laboratorio. No es una garantía.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "¿Qué jugás vos primero? Contestá con una palabra.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al que siempre juega piedra.", "estilo": "Cómplice, con humor."}
+  ]
+}

@@ -2855,5 +2855,64 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "078-piedra-papel-tijera",
+  "tema": "Piedra, papel o tijera: el que gana repite, el que pierde cambia en orden (Universidad de Zhejiang, 2014)",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-26T00:49",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-26T00:49",
+    "motivo": ""
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-26T00:52",
+    "motivo": "chequeo rechazado 2 veces (dirección piedra→papel→tijera del que pierde no verificable; paper ambiguo, MIT TR dice una cosa y el paper horario otra). Rescate: sacar la secuencia y dejar 'el que pierde tiende a cambiar'"
+   }
+  ]
+ },
+ {
+  "slug": "079-leer-poca-luz",
+  "tema": "¿Leer con poca luz arruina la vista? Cansa pero no daña (Harvard Health, Johns Hopkins)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-26T00:52",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-26T00:52",
+    "motivo": ""
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-26T00:55",
+    "motivo": "chequeo rechazado 2 veces (cita a Johns Hopkins 'sin daño permanente' no verificable: página 403). Rescate: sacar Hopkins de frase 4, caption y fuentes; dejar Harvard Health (verificada) + AAO/Prevent Blindness"
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-26T00:55",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-26T00:59",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-26T01:06",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

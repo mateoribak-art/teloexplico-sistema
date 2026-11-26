@@ -1,0 +1,9 @@
+{"origen": ["059-pibe-chango-guri"], "serie": "costumbres argentinas", "placas": [
+ {"tipo": "tapa", "arriba": "¿Pibe, chango o gurí?", "grande": "depende", "promesa": "deslizá y guardalo"},
+ {"tipo": "paso", "etiqueta": "// el mapa", "titulo": "Un chico, varios nombres según la zona", "cuerpo": "Le decís pibe a un chico y en otra provincia puede que le digan distinto. Acá va el mapa rápido.", "fuente": "Billiken"},
+ {"tipo": "paso", "etiqueta": "// Buenos Aires", "titulo": "En Buenos Aires, pibe", "dato": "pibe", "colorDato": "azul", "cuerpo": "Se usa sobre todo en Buenos Aires, aunque ya se expandió a todo el país.", "fuente": "Billiken"},
+ {"tipo": "paso", "etiqueta": "// el norte", "titulo": "En el norte, chango", "dato": "chango", "colorDato": "rojo", "cuerpo": "Salta, Jujuy, Tucumán y Santiago del Estero. La RAE lo define como niño, muchacho.", "fuente": "Billiken y RAE"},
+ {"tipo": "paso", "etiqueta": "// el Litoral", "titulo": "En el Litoral, gurí", "dato": "gurí", "colorDato": "verde", "cuerpo": "Entre Ríos, Corrientes y Misiones. Según Billiken viene del guaraní; la RAE lo registra como de Argentina y Uruguay.", "fuente": "Billiken y RAE"},
+ {"tipo": "paso", "etiqueta": "// ojo", "titulo": "Son usos más comunes, no fronteras", "cuerpo": "Cada palabra predomina en su zona, pero nadie te va a frenar en una frontera imaginaria.", "fuente": "Billiken"},
+ {"tipo": "resumen", "titulo": "Cómo le dicen a un chico", "items": [[true, "Pibe: Buenos Aires y todo el país"], [true, "Chango: el norte"], [true, "Gurí: el Litoral"], [false, "No son fronteras exactas"]]},
+ {"tipo": "cierre", "texto": "Mandáselo al que dice chango y no pibe.", "serie": "costumbres argentinas"}]}

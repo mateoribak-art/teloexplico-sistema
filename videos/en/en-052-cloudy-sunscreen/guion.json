@@ -1,0 +1,28 @@
+{
+  "titulo": "You skip sunscreen when it's cloudy. Should you?",
+  "serie": "cuerpo",
+  "fondo": "oscuro",
+  "receta": "el que lo hace mal / regla con numero (SPF 30, 2 horas) + debate",
+  "pilar": "salud_simple",
+  "destinatario": "se lo manda una hija a su mama, la que dice que no hace falta protector si esta nublado, para decirle que hasta el 80 % de los rayos pasa",
+  "regla_guardable": "Cloudy or not: SPF 30 or higher, broad-spectrum, water-resistant, reapply every two hours.",
+  "interaccion": {
+    "guardar": "SPF 30+, broad-spectrum, water-resistant, reapply every 2 hours.",
+    "comentar": "Do you wear sunscreen on cloudy days? Yes or no?"
+  },
+  "fuentes": [
+    "American Academy of Dermatology (aad.org/news/survey-shows-sun-protection-lacking-in-winter): even on cloudy days, up to 80 percent of the sun's harmful UV rays can penetrate the clouds; broad-spectrum, water-resistant sunscreen SPF 30 or higher on all skin not covered by clothing; reapply every two hours or after sweating; snow reflects the sun's damaging rays",
+    "U.S. EPA, UV and sun safety (SunWise): UV can't be seen or felt; clouds block some UV, thicker clouds more, but you can still burn on a cloudy day"
+  ],
+  "frases": [
+    {"texto": "You skip sunscreen when it's cloudy.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "Dermatologists say that's a mistake.", "estilo": "Firm and clear."},
+    {"texto": "The American Academy of Dermatology says even on cloudy days, up to eighty percent of the sun's harmful UV rays can get through the clouds.", "estilo": "Informative, a little surprised."},
+    {"texto": "You can't feel UV. Heat and brightness aren't the same thing, so a gray sky feels safe when it isn't.", "estilo": "Intrigued, like a reveal."},
+    {"texto": "Same in winter: the academy says snow reflects the sun's rays too.", "estilo": "Practical, confident."},
+    {"texto": "Heads up: clouds do block some UV, and thicker clouds block more. But the EPA says UV can still burn you on a cloudy day.", "estilo": "Honest caveat, calm."},
+    {"texto": "The rule to save: SPF thirty or higher, broad-spectrum, water-resistant, and reapply every two hours.", "estilo": "Practical, friendly."},
+    {"texto": "Do you wear sunscreen on cloudy days? Yes or no?", "estilo": "Curious, playful."},
+    {"texto": "Send this to the friend who says it's cloudy, I'm fine.", "estilo": "Playful and funny."}
+  ]
+}

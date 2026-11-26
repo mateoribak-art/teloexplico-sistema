@@ -380,5 +380,24 @@
     "motivo": "control OK"
    }
   ]
+ },
+ {
+  "clave": "pibe-chango-guri",
+  "estado": "listo",
+  "origen": [
+   "059-pibe-chango-guri"
+  ],
+  "historial": [
+   {
+    "estado": "listo",
+    "cuando": "2026-11-26T01:07",
+    "motivo": "control OK"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-26T01:07",
+    "motivo": "control OK"
+   }
+  ]
  }
 ]

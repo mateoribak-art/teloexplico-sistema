@@ -1,0 +1,713 @@
+{
+ "duracion": 44.58,
+ "frases": [
+  {
+   "texto": "You skip sunscreen when it's cloudy.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.12
+    },
+    {
+     "texto": "skip",
+     "inicio": 0.12,
+     "fin": 0.34
+    },
+    {
+     "texto": "sunscreen",
+     "inicio": 0.34,
+     "fin": 0.72
+    },
+    {
+     "texto": "when",
+     "inicio": 0.72,
+     "fin": 1.0
+    },
+    {
+     "texto": "it's",
+     "inicio": 1.0,
+     "fin": 1.14
+    },
+    {
+     "texto": "cloudy.",
+     "inicio": 1.14,
+     "fin": 1.38
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 1.38
+  },
+  {
+   "texto": "Dermatologists say that's a mistake.",
+   "palabras": [
+    {
+     "texto": "Dermatologists",
+     "inicio": 1.96,
+     "fin": 2.54
+    },
+    {
+     "texto": "say",
+     "inicio": 2.54,
+     "fin": 2.86
+    },
+    {
+     "texto": "that's",
+     "inicio": 2.86,
+     "fin": 3.32
+    },
+    {
+     "texto": "a",
+     "inicio": 3.32,
+     "fin": 3.42
+    },
+    {
+     "texto": "mistake.",
+     "inicio": 3.42,
+     "fin": 3.74
+    }
+   ],
+   "inicio": 1.96,
+   "fin": 3.74
+  },
+  {
+   "texto": "The American Academy of Dermatology says even on cloudy days, up to eighty percent of the sun's harmful UV rays can get through the clouds.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 4.36,
+     "fin": 4.5
+    },
+    {
+     "texto": "American",
+     "inicio": 4.5,
+     "fin": 4.8
+    },
+    {
+     "texto": "Academy",
+     "inicio": 4.8,
+     "fin": 5.2
+    },
+    {
+     "texto": "of",
+     "inicio": 5.2,
+     "fin": 5.42
+    },
+    {
+     "texto": "Dermatology",
+     "inicio": 5.42,
+     "fin": 6.0
+    },
+    {
+     "texto": "says",
+     "inicio": 6.0,
+     "fin": 6.28
+    },
+    {
+     "texto": "even",
+     "inicio": 6.28,
+     "fin": 6.7
+    },
+    {
+     "texto": "on",
+     "inicio": 6.7,
+     "fin": 6.88
+    },
+    {
+     "texto": "cloudy",
+     "inicio": 6.88,
+     "fin": 7.18
+    },
+    {
+     "texto": "days,",
+     "inicio": 7.18,
+     "fin": 7.6
+    },
+    {
+     "texto": "up",
+     "inicio": 7.76,
+     "fin": 7.84
+    },
+    {
+     "texto": "to",
+     "inicio": 7.84,
+     "fin": 7.96
+    },
+    {
+     "texto": "eighty",
+     "inicio": 7.96,
+     "fin": 8.34
+    },
+    {
+     "texto": "percent",
+     "inicio": 8.34,
+     "fin": 8.78
+    },
+    {
+     "texto": "of",
+     "inicio": 8.78,
+     "fin": 8.9
+    },
+    {
+     "texto": "the",
+     "inicio": 8.9,
+     "fin": 8.98
+    },
+    {
+     "texto": "sun's",
+     "inicio": 8.98,
+     "fin": 9.3
+    },
+    {
+     "texto": "harmful",
+     "inicio": 9.3,
+     "fin": 9.62
+    },
+    {
+     "texto": "UV",
+     "inicio": 9.62,
+     "fin": 10.02
+    },
+    {
+     "texto": "rays",
+     "inicio": 10.02,
+     "fin": 10.46
+    },
+    {
+     "texto": "can",
+     "inicio": 10.46,
+     "fin": 10.66
+    },
+    {
+     "texto": "get",
+     "inicio": 10.66,
+     "fin": 10.84
+    },
+    {
+     "texto": "through",
+     "inicio": 10.84,
+     "fin": 10.98
+    },
+    {
+     "texto": "the",
+     "inicio": 10.98,
+     "fin": 11.1
+    },
+    {
+     "texto": "clouds.",
+     "inicio": 11.1,
+     "fin": 11.4
+    }
+   ],
+   "inicio": 4.36,
+   "fin": 11.4
+  },
+  {
+   "texto": "You can't feel UV. Heat and brightness aren't the same thing, so a gray sky feels safe when it isn't.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 11.98,
+     "fin": 12.1
+    },
+    {
+     "texto": "can't",
+     "inicio": 12.1,
+     "fin": 12.32
+    },
+    {
+     "texto": "feel",
+     "inicio": 12.32,
+     "fin": 12.64
+    },
+    {
+     "texto": "UV.",
+     "inicio": 12.64,
+     "fin": 13.06
+    },
+    {
+     "texto": "Heat",
+     "inicio": 13.7,
+     "fin": 14.0
+    },
+    {
+     "texto": "and",
+     "inicio": 14.0,
+     "fin": 14.26
+    },
+    {
+     "texto": "brightness",
+     "inicio": 14.26,
+     "fin": 14.82
+    },
+    {
+     "texto": "aren't",
+     "inicio": 14.82,
+     "fin": 15.14
+    },
+    {
+     "texto": "the",
+     "inicio": 15.14,
+     "fin": 15.24
+    },
+    {
+     "texto": "same",
+     "inicio": 15.24,
+     "fin": 15.42
+    },
+    {
+     "texto": "thing,",
+     "inicio": 15.42,
+     "fin": 15.7
+    },
+    {
+     "texto": "so",
+     "inicio": 15.88,
+     "fin": 16.12
+    },
+    {
+     "texto": "a",
+     "inicio": 16.12,
+     "fin": 16.46
+    },
+    {
+     "texto": "gray",
+     "inicio": 16.46,
+     "fin": 16.64
+    },
+    {
+     "texto": "sky",
+     "inicio": 16.64,
+     "fin": 16.96
+    },
+    {
+     "texto": "feels",
+     "inicio": 16.96,
+     "fin": 17.34
+    },
+    {
+     "texto": "safe",
+     "inicio": 17.34,
+     "fin": 17.84
+    },
+    {
+     "texto": "when",
+     "inicio": 17.84,
+     "fin": 18.02
+    },
+    {
+     "texto": "it",
+     "inicio": 18.02,
+     "fin": 18.14
+    },
+    {
+     "texto": "isn't.",
+     "inicio": 18.14,
+     "fin": 18.54
+    }
+   ],
+   "inicio": 11.98,
+   "fin": 18.54
+  },
+  {
+   "texto": "Same in winter: the academy says snow reflects the sun's rays too.",
+   "palabras": [
+    {
+     "texto": "Same",
+     "inicio": 19.02,
+     "fin": 19.22
+    },
+    {
+     "texto": "in",
+     "inicio": 19.22,
+     "fin": 19.34
+    },
+    {
+     "texto": "winter:",
+     "inicio": 19.34,
+     "fin": 19.6
+    },
+    {
+     "texto": "the",
+     "inicio": 19.98,
+     "fin": 20.08
+    },
+    {
+     "texto": "academy",
+     "inicio": 20.08,
+     "fin": 20.32
+    },
+    {
+     "texto": "says",
+     "inicio": 20.32,
+     "fin": 20.64
+    },
+    {
+     "texto": "snow",
+     "inicio": 20.64,
+     "fin": 20.98
+    },
+    {
+     "texto": "reflects",
+     "inicio": 20.98,
+     "fin": 21.36
+    },
+    {
+     "texto": "the",
+     "inicio": 21.36,
+     "fin": 21.58
+    },
+    {
+     "texto": "sun's",
+     "inicio": 21.58,
+     "fin": 21.92
+    },
+    {
+     "texto": "rays",
+     "inicio": 21.92,
+     "fin": 22.12
+    },
+    {
+     "texto": "too.",
+     "inicio": 22.12,
+     "fin": 22.38
+    }
+   ],
+   "inicio": 19.02,
+   "fin": 22.38
+  },
+  {
+   "texto": "Heads up: clouds do block some UV, and thicker clouds block more. But the EPA says UV can still burn you on a cloudy day.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 22.84,
+     "fin": 23.06
+    },
+    {
+     "texto": "up:",
+     "inicio": 23.06,
+     "fin": 23.24
+    },
+    {
+     "texto": "clouds",
+     "inicio": 23.48,
+     "fin": 23.88
+    },
+    {
+     "texto": "do",
+     "inicio": 23.88,
+     "fin": 24.22
+    },
+    {
+     "texto": "block",
+     "inicio": 24.22,
+     "fin": 24.62
+    },
+    {
+     "texto": "some",
+     "inicio": 24.62,
+     "fin": 24.92
+    },
+    {
+     "texto": "UV,",
+     "inicio": 24.92,
+     "fin": 25.24
+    },
+    {
+     "texto": "and",
+     "inicio": 25.6,
+     "fin": 25.8
+    },
+    {
+     "texto": "thicker",
+     "inicio": 25.8,
+     "fin": 26.16
+    },
+    {
+     "texto": "clouds",
+     "inicio": 26.16,
+     "fin": 26.54
+    },
+    {
+     "texto": "block",
+     "inicio": 26.54,
+     "fin": 26.84
+    },
+    {
+     "texto": "more.",
+     "inicio": 26.84,
+     "fin": 27.22
+    },
+    {
+     "texto": "But",
+     "inicio": 27.64,
+     "fin": 27.84
+    },
+    {
+     "texto": "the",
+     "inicio": 27.84,
+     "fin": 27.94
+    },
+    {
+     "texto": "EPA",
+     "inicio": 27.94,
+     "fin": 28.2
+    },
+    {
+     "texto": "says",
+     "inicio": 28.2,
+     "fin": 28.54
+    },
+    {
+     "texto": "UV",
+     "inicio": 28.54,
+     "fin": 28.86
+    },
+    {
+     "texto": "can",
+     "inicio": 28.86,
+     "fin": 29.12
+    },
+    {
+     "texto": "still",
+     "inicio": 29.12,
+     "fin": 29.7
+    },
+    {
+     "texto": "burn",
+     "inicio": 29.7,
+     "fin": 30.12
+    },
+    {
+     "texto": "you",
+     "inicio": 30.12,
+     "fin": 30.34
+    },
+    {
+     "texto": "on",
+     "inicio": 30.34,
+     "fin": 30.52
+    },
+    {
+     "texto": "a",
+     "inicio": 30.52,
+     "fin": 30.62
+    },
+    {
+     "texto": "cloudy",
+     "inicio": 30.62,
+     "fin": 30.8
+    },
+    {
+     "texto": "day.",
+     "inicio": 30.8,
+     "fin": 31.1
+    }
+   ],
+   "inicio": 22.84,
+   "fin": 31.1
+  },
+  {
+   "texto": "The rule to save: SPF thirty or higher, broad-spectrum, water-resistant, and reapply every two hours.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 31.6,
+     "fin": 31.64
+    },
+    {
+     "texto": "rule",
+     "inicio": 31.64,
+     "fin": 31.84
+    },
+    {
+     "texto": "to",
+     "inicio": 31.84,
+     "fin": 31.98
+    },
+    {
+     "texto": "save:",
+     "inicio": 31.98,
+     "fin": 32.24
+    },
+    {
+     "texto": "SPF",
+     "inicio": 32.7,
+     "fin": 33.18
+    },
+    {
+     "texto": "thirty",
+     "inicio": 33.18,
+     "fin": 33.48
+    },
+    {
+     "texto": "or",
+     "inicio": 33.48,
+     "fin": 33.62
+    },
+    {
+     "texto": "higher,",
+     "inicio": 33.62,
+     "fin": 33.86
+    },
+    {
+     "texto": "broad-spectrum,",
+     "inicio": 34.28,
+     "fin": 35.127
+    },
+    {
+     "texto": "water-resistant,",
+     "inicio": 35.127,
+     "fin": 36.04
+    },
+    {
+     "texto": "and",
+     "inicio": 36.48,
+     "fin": 36.56
+    },
+    {
+     "texto": "reapply",
+     "inicio": 36.56,
+     "fin": 37.04
+    },
+    {
+     "texto": "every",
+     "inicio": 37.04,
+     "fin": 37.34
+    },
+    {
+     "texto": "two",
+     "inicio": 37.34,
+     "fin": 37.56
+    },
+    {
+     "texto": "hours.",
+     "inicio": 37.56,
+     "fin": 37.8
+    }
+   ],
+   "inicio": 31.6,
+   "fin": 37.8
+  },
+  {
+   "texto": "Do you wear sunscreen on cloudy days? Yes or no?",
+   "palabras": [
+    {
+     "texto": "Do",
+     "inicio": 38.42,
+     "fin": 38.46
+    },
+    {
+     "texto": "you",
+     "inicio": 38.46,
+     "fin": 38.54
+    },
+    {
+     "texto": "wear",
+     "inicio": 38.54,
+     "fin": 38.64
+    },
+    {
+     "texto": "sunscreen",
+     "inicio": 38.64,
+     "fin": 38.9
+    },
+    {
+     "texto": "on",
+     "inicio": 38.9,
+     "fin": 39.2
+    },
+    {
+     "texto": "cloudy",
+     "inicio": 39.2,
+     "fin": 39.44
+    },
+    {
+     "texto": "days?",
+     "inicio": 39.44,
+     "fin": 39.7
+    },
+    {
+     "texto": "Yes",
+     "inicio": 40.18,
+     "fin": 40.32
+    },
+    {
+     "texto": "or",
+     "inicio": 40.32,
+     "fin": 40.76
+    },
+    {
+     "texto": "no?",
+     "inicio": 40.76,
+     "fin": 40.94
+    }
+   ],
+   "inicio": 38.42,
+   "fin": 40.94
+  },
+  {
+   "texto": "Send this to the friend who says it's cloudy, I'm fine.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 41.42,
+     "fin": 41.64
+    },
+    {
+     "texto": "this",
+     "inicio": 41.64,
+     "fin": 41.82
+    },
+    {
+     "texto": "to",
+     "inicio": 41.82,
+     "fin": 42.02
+    },
+    {
+     "texto": "the",
+     "inicio": 42.02,
+     "fin": 42.12
+    },
+    {
+     "texto": "friend",
+     "inicio": 42.12,
+     "fin": 42.32
+    },
+    {
+     "texto": "who",
+     "inicio": 42.32,
+     "fin": 42.5
+    },
+    {
+     "texto": "says",
+     "inicio": 42.5,
+     "fin": 42.7
+    },
+    {
+     "texto": "it's",
+     "inicio": 42.7,
+     "fin": 43.36
+    },
+    {
+     "texto": "cloudy,",
+     "inicio": 43.36,
+     "fin": 43.66
+    },
+    {
+     "texto": "I'm",
+     "inicio": 44.06,
+     "fin": 44.14
+    },
+    {
+     "texto": "fine.",
+     "inicio": 44.14,
+     "fin": 44.38
+    }
+   ],
+   "inicio": 41.42,
+   "fin": 44.38
+  }
+ ]
+}

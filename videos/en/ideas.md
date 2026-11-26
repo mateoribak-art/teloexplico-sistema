@@ -61,6 +61,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [intentada → en-042-frozen-pipes, apartado 23/11: chequeo rechazado 2 veces solo por la cita de los 55 °F; rescatar cambiando las fuentes a weather.gov/okx/winterpns7 + okx/extremecoldpns + FEMA (ver chequeo.json, version_verificada)] Frozen pipes: drip the faucet, open cabinets, heat no lower than 55 °F (casa)
 
 ## Temas de EE. UU. — serie: cuerpo (Body myths)
+- [usada → en-052-cloudy-sunscreen] Sunscreen on cloudy days? (AAD: up to 80 % of UV through clouds; EPA)
 - [usada → en-019-knuckle-crack] Does cracking your knuckles cause arthritis? (estudios)
 - [usada → en-017-heat-head] Do you lose most of your heat through your head? (myth)
 - [usada → en-004-sugar-hyper] Does sugar make kids hyper? (estudios doble ciego) — Halloween
