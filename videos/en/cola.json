@@ -1280,7 +1280,7 @@
  {
   "slug": "en-036-phantom-charger",
   "tema": "Does unplugging your phone charger save money? (LBNL standby; own)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1301,6 +1301,11 @@
     "estado": "listo",
     "cuando": "2026-11-21T19:03",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-26T12:34",
+    "motivo": "https://www.instagram.com/reel/DgNb-ZPy8dA/"
    }
   ]
  },
