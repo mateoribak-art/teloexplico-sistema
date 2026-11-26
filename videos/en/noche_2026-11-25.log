@@ -30,3 +30,11 @@ Permisos negados (1):
 2026-11-25 16:51 Render de en-050-stacked-discounts (sin Claude).
 2026-11-25 16:59 en-050-stacked-discounts: listo (render sin Claude)
 2026-11-25 16:59 Termina la producción (ok).
+2026-11-25 21:03 Arranca la producción (15 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `en-051-reheated-rice`, adaptado de 034 con fuentes de EE. UU. (USDA y el informe de los CDC de 1994). Un subagente aparte aprobó el chequeo de datos en el primer intento. Voz de 50 s (algo larga), tsc sin errores y cuadros revisados. Lo renderiza `producir.py`.
+- **Apartados por chequeo rechazado:** no había ninguno para rescatar. `en-042-frozen-pipes` ya estaba rescatado y figura como listo.
+- **Incompletos:** ninguno. El único ajuste fue pasar "outbreaks" a singular en el guion y el caption, porque el informe de los CDC describe un solo brote.
+Uso: 13 pasos · 9,722 tokens nuevos · 591,977 de caché · 2,826 escritos · equivale a US$ 0.87 de API
+2026-11-25 21:07 Render de en-051-reheated-rice (sin Claude).
+2026-11-25 21:17 en-051-reheated-rice: listo (render sin Claude)
+2026-11-25 21:17 Termina la producción (ok).

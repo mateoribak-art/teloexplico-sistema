@@ -2828,5 +2828,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "077-apellidos-gonzalez",
+  "tema": "¿Uno de cada diez argentinos tiene uno de solo diez apellidos? González, Rodríguez, Gómez (Dirección Nacional de Población / Renaper)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-25T20:50",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-25T20:50",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-25T20:54",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-25T21:03",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

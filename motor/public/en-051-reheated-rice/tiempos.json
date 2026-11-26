@@ -1,0 +1,798 @@
+{
+ "duracion": 50.4,
+ "frases": [
+  {
+   "texto": "You left the pot of rice on the counter all afternoon, and tonight you're reheating it.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.1
+    },
+    {
+     "texto": "left",
+     "inicio": 0.1,
+     "fin": 0.3
+    },
+    {
+     "texto": "the",
+     "inicio": 0.3,
+     "fin": 0.48
+    },
+    {
+     "texto": "pot",
+     "inicio": 0.48,
+     "fin": 0.68
+    },
+    {
+     "texto": "of",
+     "inicio": 0.68,
+     "fin": 0.78
+    },
+    {
+     "texto": "rice",
+     "inicio": 0.78,
+     "fin": 1.0
+    },
+    {
+     "texto": "on",
+     "inicio": 1.0,
+     "fin": 1.24
+    },
+    {
+     "texto": "the",
+     "inicio": 1.24,
+     "fin": 1.38
+    },
+    {
+     "texto": "counter",
+     "inicio": 1.38,
+     "fin": 1.6
+    },
+    {
+     "texto": "all",
+     "inicio": 1.6,
+     "fin": 1.84
+    },
+    {
+     "texto": "afternoon,",
+     "inicio": 1.84,
+     "fin": 2.26
+    },
+    {
+     "texto": "and",
+     "inicio": 2.86,
+     "fin": 3.02
+    },
+    {
+     "texto": "tonight",
+     "inicio": 3.02,
+     "fin": 3.42
+    },
+    {
+     "texto": "you're",
+     "inicio": 3.42,
+     "fin": 4.22
+    },
+    {
+     "texto": "reheating",
+     "inicio": 4.22,
+     "fin": 4.68
+    },
+    {
+     "texto": "it.",
+     "inicio": 4.68,
+     "fin": 4.88
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.88
+  },
+  {
+   "texto": "Reheating doesn't fix that.",
+   "palabras": [
+    {
+     "texto": "Reheating",
+     "inicio": 5.3,
+     "fin": 5.72
+    },
+    {
+     "texto": "doesn't",
+     "inicio": 5.72,
+     "fin": 6.08
+    },
+    {
+     "texto": "fix",
+     "inicio": 6.08,
+     "fin": 6.26
+    },
+    {
+     "texto": "that.",
+     "inicio": 6.26,
+     "fin": 6.54
+    }
+   ],
+   "inicio": 5.3,
+   "fin": 6.54
+  },
+  {
+   "texto": "Raw rice can carry bacterial spores, and those spores can survive cooking.",
+   "palabras": [
+    {
+     "texto": "Raw",
+     "inicio": 7.02,
+     "fin": 7.2
+    },
+    {
+     "texto": "rice",
+     "inicio": 7.2,
+     "fin": 7.52
+    },
+    {
+     "texto": "can",
+     "inicio": 7.52,
+     "fin": 7.72
+    },
+    {
+     "texto": "carry",
+     "inicio": 7.72,
+     "fin": 8.02
+    },
+    {
+     "texto": "bacterial",
+     "inicio": 8.02,
+     "fin": 8.42
+    },
+    {
+     "texto": "spores,",
+     "inicio": 8.42,
+     "fin": 9.06
+    },
+    {
+     "texto": "and",
+     "inicio": 9.44,
+     "fin": 9.56
+    },
+    {
+     "texto": "those",
+     "inicio": 9.56,
+     "fin": 9.72
+    },
+    {
+     "texto": "spores",
+     "inicio": 9.72,
+     "fin": 10.16
+    },
+    {
+     "texto": "can",
+     "inicio": 10.16,
+     "fin": 10.42
+    },
+    {
+     "texto": "survive",
+     "inicio": 10.42,
+     "fin": 10.72
+    },
+    {
+     "texto": "cooking.",
+     "inicio": 10.72,
+     "fin": 11.08
+    }
+   ],
+   "inicio": 7.02,
+   "fin": 11.08
+  },
+  {
+   "texto": "If the rice sits out, the bacteria can multiply and make a toxin that reheating may not destroy. A CDC report traced an outbreak to fried rice held that way.",
+   "palabras": [
+    {
+     "texto": "If",
+     "inicio": 11.64,
+     "fin": 11.72
+    },
+    {
+     "texto": "the",
+     "inicio": 11.72,
+     "fin": 11.82
+    },
+    {
+     "texto": "rice",
+     "inicio": 11.82,
+     "fin": 12.0
+    },
+    {
+     "texto": "sits",
+     "inicio": 12.0,
+     "fin": 12.2
+    },
+    {
+     "texto": "out,",
+     "inicio": 12.2,
+     "fin": 12.52
+    },
+    {
+     "texto": "the",
+     "inicio": 12.88,
+     "fin": 12.94
+    },
+    {
+     "texto": "bacteria",
+     "inicio": 12.94,
+     "fin": 13.36
+    },
+    {
+     "texto": "can",
+     "inicio": 13.36,
+     "fin": 13.64
+    },
+    {
+     "texto": "multiply",
+     "inicio": 13.64,
+     "fin": 14.16
+    },
+    {
+     "texto": "and",
+     "inicio": 14.16,
+     "fin": 14.66
+    },
+    {
+     "texto": "make",
+     "inicio": 14.66,
+     "fin": 14.82
+    },
+    {
+     "texto": "a",
+     "inicio": 14.82,
+     "fin": 14.96
+    },
+    {
+     "texto": "toxin",
+     "inicio": 14.96,
+     "fin": 15.44
+    },
+    {
+     "texto": "that",
+     "inicio": 15.44,
+     "fin": 15.62
+    },
+    {
+     "texto": "reheating",
+     "inicio": 15.62,
+     "fin": 16.2
+    },
+    {
+     "texto": "may",
+     "inicio": 16.2,
+     "fin": 16.52
+    },
+    {
+     "texto": "not",
+     "inicio": 16.52,
+     "fin": 16.8
+    },
+    {
+     "texto": "destroy.",
+     "inicio": 16.8,
+     "fin": 17.24
+    },
+    {
+     "texto": "A",
+     "inicio": 17.74,
+     "fin": 17.86
+    },
+    {
+     "texto": "CDC",
+     "inicio": 17.86,
+     "fin": 18.08
+    },
+    {
+     "texto": "report",
+     "inicio": 18.08,
+     "fin": 18.52
+    },
+    {
+     "texto": "traced",
+     "inicio": 18.52,
+     "fin": 18.94
+    },
+    {
+     "texto": "an",
+     "inicio": 18.94,
+     "fin": 19.1
+    },
+    {
+     "texto": "outbreak",
+     "inicio": 19.1,
+     "fin": 19.4
+    },
+    {
+     "texto": "to",
+     "inicio": 19.4,
+     "fin": 19.62
+    },
+    {
+     "texto": "fried",
+     "inicio": 19.62,
+     "fin": 19.84
+    },
+    {
+     "texto": "rice",
+     "inicio": 19.84,
+     "fin": 20.22
+    },
+    {
+     "texto": "held",
+     "inicio": 20.22,
+     "fin": 20.48
+    },
+    {
+     "texto": "that",
+     "inicio": 20.48,
+     "fin": 20.7
+    },
+    {
+     "texto": "way.",
+     "inicio": 20.7,
+     "fin": 20.88
+    }
+   ],
+   "inicio": 11.64,
+   "fin": 20.88
+  },
+  {
+   "texto": "The USDA says refrigerate leftovers within two hours, or within one hour if it's over ninety degrees.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 21.3,
+     "fin": 21.42
+    },
+    {
+     "texto": "USDA",
+     "inicio": 21.42,
+     "fin": 21.8
+    },
+    {
+     "texto": "says",
+     "inicio": 21.8,
+     "fin": 22.22
+    },
+    {
+     "texto": "refrigerate",
+     "inicio": 22.22,
+     "fin": 23.18
+    },
+    {
+     "texto": "leftovers",
+     "inicio": 23.18,
+     "fin": 23.62
+    },
+    {
+     "texto": "within",
+     "inicio": 23.62,
+     "fin": 24.04
+    },
+    {
+     "texto": "two",
+     "inicio": 24.04,
+     "fin": 24.54
+    },
+    {
+     "texto": "hours,",
+     "inicio": 24.54,
+     "fin": 25.04
+    },
+    {
+     "texto": "or",
+     "inicio": 25.44,
+     "fin": 25.68
+    },
+    {
+     "texto": "within",
+     "inicio": 25.68,
+     "fin": 25.92
+    },
+    {
+     "texto": "one",
+     "inicio": 25.92,
+     "fin": 26.2
+    },
+    {
+     "texto": "hour",
+     "inicio": 26.2,
+     "fin": 26.46
+    },
+    {
+     "texto": "if",
+     "inicio": 26.46,
+     "fin": 26.66
+    },
+    {
+     "texto": "it's",
+     "inicio": 26.66,
+     "fin": 26.8
+    },
+    {
+     "texto": "over",
+     "inicio": 26.8,
+     "fin": 26.96
+    },
+    {
+     "texto": "ninety",
+     "inicio": 26.96,
+     "fin": 27.26
+    },
+    {
+     "texto": "degrees.",
+     "inicio": 27.26,
+     "fin": 27.52
+    }
+   ],
+   "inicio": 21.3,
+   "fin": 27.52
+  },
+  {
+   "texto": "Then eat them within three to four days, and reheat to one sixty-five. Save this: two hours, three to four days, one sixty-five.",
+   "palabras": [
+    {
+     "texto": "Then",
+     "inicio": 27.52,
+     "fin": 28.4
+    },
+    {
+     "texto": "eat",
+     "inicio": 28.4,
+     "fin": 28.7
+    },
+    {
+     "texto": "them",
+     "inicio": 28.7,
+     "fin": 28.9
+    },
+    {
+     "texto": "within",
+     "inicio": 28.9,
+     "fin": 29.14
+    },
+    {
+     "texto": "three",
+     "inicio": 29.14,
+     "fin": 29.48
+    },
+    {
+     "texto": "to",
+     "inicio": 29.48,
+     "fin": 29.6
+    },
+    {
+     "texto": "four",
+     "inicio": 29.6,
+     "fin": 29.8
+    },
+    {
+     "texto": "days,",
+     "inicio": 29.8,
+     "fin": 30.08
+    },
+    {
+     "texto": "and",
+     "inicio": 30.48,
+     "fin": 30.58
+    },
+    {
+     "texto": "reheat",
+     "inicio": 30.58,
+     "fin": 31.14
+    },
+    {
+     "texto": "to",
+     "inicio": 31.14,
+     "fin": 31.32
+    },
+    {
+     "texto": "one",
+     "inicio": 31.32,
+     "fin": 31.64
+    },
+    {
+     "texto": "sixty-five.",
+     "inicio": 31.64,
+     "fin": 32.42
+    },
+    {
+     "texto": "Save",
+     "inicio": 33.08,
+     "fin": 33.28
+    },
+    {
+     "texto": "this:",
+     "inicio": 33.28,
+     "fin": 33.52
+    },
+    {
+     "texto": "two",
+     "inicio": 33.9,
+     "fin": 34.1
+    },
+    {
+     "texto": "hours,",
+     "inicio": 34.1,
+     "fin": 34.42
+    },
+    {
+     "texto": "three",
+     "inicio": 34.8,
+     "fin": 35.02
+    },
+    {
+     "texto": "to",
+     "inicio": 35.02,
+     "fin": 35.1
+    },
+    {
+     "texto": "four",
+     "inicio": 35.1,
+     "fin": 35.3
+    },
+    {
+     "texto": "days,",
+     "inicio": 35.3,
+     "fin": 35.6
+    },
+    {
+     "texto": "one",
+     "inicio": 35.92,
+     "fin": 36.2
+    },
+    {
+     "texto": "sixty-five.",
+     "inicio": 36.2,
+     "fin": 36.86
+    }
+   ],
+   "inicio": 27.52,
+   "fin": 36.86
+  },
+  {
+   "texto": "Heads up: reheating isn't the problem. The time the rice spent sitting out is.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 37.36,
+     "fin": 37.56
+    },
+    {
+     "texto": "up:",
+     "inicio": 37.56,
+     "fin": 37.74
+    },
+    {
+     "texto": "reheating",
+     "inicio": 38.22,
+     "fin": 38.58
+    },
+    {
+     "texto": "isn't",
+     "inicio": 38.58,
+     "fin": 38.82
+    },
+    {
+     "texto": "the",
+     "inicio": 38.82,
+     "fin": 38.94
+    },
+    {
+     "texto": "problem.",
+     "inicio": 38.94,
+     "fin": 39.26
+    },
+    {
+     "texto": "The",
+     "inicio": 39.72,
+     "fin": 39.8
+    },
+    {
+     "texto": "time",
+     "inicio": 39.8,
+     "fin": 40.1
+    },
+    {
+     "texto": "the",
+     "inicio": 40.1,
+     "fin": 40.26
+    },
+    {
+     "texto": "rice",
+     "inicio": 40.26,
+     "fin": 40.54
+    },
+    {
+     "texto": "spent",
+     "inicio": 40.54,
+     "fin": 40.9
+    },
+    {
+     "texto": "sitting",
+     "inicio": 40.9,
+     "fin": 41.22
+    },
+    {
+     "texto": "out",
+     "inicio": 41.22,
+     "fin": 41.58
+    },
+    {
+     "texto": "is.",
+     "inicio": 41.58,
+     "fin": 41.98
+    }
+   ],
+   "inicio": 37.36,
+   "fin": 41.98
+  },
+  {
+   "texto": "So be honest: how many hours does your rice sit out? Give me a number.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 42.64,
+     "fin": 42.78
+    },
+    {
+     "texto": "be",
+     "inicio": 42.78,
+     "fin": 42.92
+    },
+    {
+     "texto": "honest:",
+     "inicio": 42.92,
+     "fin": 43.16
+    },
+    {
+     "texto": "how",
+     "inicio": 43.72,
+     "fin": 43.88
+    },
+    {
+     "texto": "many",
+     "inicio": 43.88,
+     "fin": 44.04
+    },
+    {
+     "texto": "hours",
+     "inicio": 44.04,
+     "fin": 44.32
+    },
+    {
+     "texto": "does",
+     "inicio": 44.32,
+     "fin": 44.56
+    },
+    {
+     "texto": "your",
+     "inicio": 44.56,
+     "fin": 44.74
+    },
+    {
+     "texto": "rice",
+     "inicio": 44.74,
+     "fin": 45.08
+    },
+    {
+     "texto": "sit",
+     "inicio": 45.08,
+     "fin": 45.58
+    },
+    {
+     "texto": "out?",
+     "inicio": 45.58,
+     "fin": 45.8
+    },
+    {
+     "texto": "Give",
+     "inicio": 46.34,
+     "fin": 46.44
+    },
+    {
+     "texto": "me",
+     "inicio": 46.44,
+     "fin": 46.56
+    },
+    {
+     "texto": "a",
+     "inicio": 46.56,
+     "fin": 46.64
+    },
+    {
+     "texto": "number.",
+     "inicio": 46.64,
+     "fin": 46.82
+    }
+   ],
+   "inicio": 42.64,
+   "fin": 46.82
+  },
+  {
+   "texto": "Send this to the friend who leaves the rice pot on the counter all afternoon.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 47.42,
+     "fin": 47.56
+    },
+    {
+     "texto": "this",
+     "inicio": 47.56,
+     "fin": 47.68
+    },
+    {
+     "texto": "to",
+     "inicio": 47.68,
+     "fin": 47.82
+    },
+    {
+     "texto": "the",
+     "inicio": 47.82,
+     "fin": 47.92
+    },
+    {
+     "texto": "friend",
+     "inicio": 47.92,
+     "fin": 48.12
+    },
+    {
+     "texto": "who",
+     "inicio": 48.12,
+     "fin": 48.28
+    },
+    {
+     "texto": "leaves",
+     "inicio": 48.28,
+     "fin": 48.44
+    },
+    {
+     "texto": "the",
+     "inicio": 48.44,
+     "fin": 48.62
+    },
+    {
+     "texto": "rice",
+     "inicio": 48.62,
+     "fin": 48.82
+    },
+    {
+     "texto": "pot",
+     "inicio": 48.82,
+     "fin": 49.08
+    },
+    {
+     "texto": "on",
+     "inicio": 49.08,
+     "fin": 49.2
+    },
+    {
+     "texto": "the",
+     "inicio": 49.2,
+     "fin": 49.3
+    },
+    {
+     "texto": "counter",
+     "inicio": 49.3,
+     "fin": 49.54
+    },
+    {
+     "texto": "all",
+     "inicio": 49.54,
+     "fin": 49.8
+    },
+    {
+     "texto": "afternoon.",
+     "inicio": 49.8,
+     "fin": 50.18
+    }
+   ],
+   "inicio": 47.42,
+   "fin": 50.18
+  }
+ ]
+}

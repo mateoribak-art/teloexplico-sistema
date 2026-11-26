@@ -29,6 +29,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [usada → en-026-el-nino-winter] 016-el-nino-clima · El Niño / La Niña: what it means for your winter in the U.S. (NOAA CPC: verificar el estado ENSO ACTUAL) — serie: clima
 - [ ] 020-pava-se-corta (3D) · Why does an electric kettle switch itself off? (las pavas eléctricas son menos comunes en EE. UU.: evaluar; si el gancho no funciona allá, descartar) — serie: pordentro
 - [usada → en-047-dog-people-food] 046-perro-no-comas · Foods dogs can't eat (ASPCA) — serie: casa
+- [usada → en-051-reheated-rice] 034-arroz-recalentado · Reheating rice left out doesn't fix it (USDA 2 h rule, CDC MMWR 1994) — serie: cocina
 - No adaptar: 006 y 007 (BTS en Argentina), 005 (apartado), 010/011/013 (sin video o chequeo rechazado).
 
 ## Temas de EE. UU. — serie: cocina (Kitchen myths)

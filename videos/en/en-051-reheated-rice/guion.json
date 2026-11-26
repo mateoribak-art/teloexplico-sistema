@@ -1,0 +1,26 @@
+{
+  "titulo": "Reheating rice that sat out all afternoon doesn't fix it",
+  "pilar": "cocina",
+  "receta": "El que lo hace mal / pilar cocina; adaptado de 034-arroz-recalentado",
+  "fondo": "oscuro",
+  "destinatario": "Se lo manda alguien que cocina a su roommate o su papá, el que deja la olla de arroz toda la tarde en la mesada, para decirle que recalentarlo de noche no lo arregla.",
+  "interaccion": {
+    "guardar": "Leftovers: fridge within 2 hours (1 hour if it's over 90 F), eat within 3-4 days, reheat to 165 F.",
+    "comentar": "How many hours does your rice usually sit out? Give me a number."
+  },
+  "fuentes": [
+    "USDA FSIS: Leftovers and Food Safety (fsis.usda.gov)",
+    "CDC MMWR 1994: Bacillus cereus food poisoning associated with fried rice at two child day care centers, Virginia, 1993"
+  ],
+  "frases": [
+    {"texto": "You left the pot of rice on the counter all afternoon, and tonight you're reheating it.", "estilo": "Dry, direct, to the camera."},
+    {"texto": "Reheating doesn't fix that.", "estilo": "Punchy."},
+    {"texto": "Raw rice can carry bacterial spores, and those spores can survive cooking.", "estilo": "Intriguing, steady pace."},
+    {"texto": "If the rice sits out, the bacteria can multiply and make a toxin that reheating may not destroy. A CDC report traced an outbreak to fried rice held that way.", "estilo": "Informative, serious."},
+    {"texto": "The USDA says refrigerate leftovers within two hours, or within one hour if it's over ninety degrees.", "estilo": "Informative, with authority."},
+    {"texto": "Then eat them within three to four days, and reheat to one sixty-five. Save this: two hours, three to four days, one sixty-five.", "estilo": "Practical, clear."},
+    {"texto": "Heads up: reheating isn't the problem. The time the rice spent sitting out is.", "estilo": "Calm, honest."},
+    {"texto": "So be honest: how many hours does your rice sit out? Give me a number.", "estilo": "Casual, inviting."},
+    {"texto": "Send this to the friend who leaves the rice pot on the counter all afternoon.", "estilo": "Playful, with humor."}
+  ]
+}

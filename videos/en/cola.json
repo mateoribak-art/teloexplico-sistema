@@ -1686,5 +1686,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-051-reheated-rice",
+  "tema": "Does reheating rice left out fix it? (adapted from 034; USDA 2-hour rule, CDC MMWR)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-25T21:04",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-25T21:04",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-25T21:07",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-25T21:17",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

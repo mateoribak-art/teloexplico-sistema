@@ -1,0 +1,733 @@
+{
+ "duracion": 49.04,
+ "frases": [
+  {
+   "texto": "Todos conocés a un González. No es casualidad.",
+   "palabras": [
+    {
+     "texto": "Todos",
+     "inicio": 0.0,
+     "fin": 0.18
+    },
+    {
+     "texto": "conocés",
+     "inicio": 0.18,
+     "fin": 0.58
+    },
+    {
+     "texto": "a",
+     "inicio": 0.58,
+     "fin": 0.7
+    },
+    {
+     "texto": "un",
+     "inicio": 0.7,
+     "fin": 0.78
+    },
+    {
+     "texto": "González.",
+     "inicio": 0.78,
+     "fin": 1.2
+    },
+    {
+     "texto": "No",
+     "inicio": 1.8,
+     "fin": 1.98
+    },
+    {
+     "texto": "es",
+     "inicio": 1.98,
+     "fin": 2.1
+    },
+    {
+     "texto": "casualidad.",
+     "inicio": 2.1,
+     "fin": 2.56
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.56
+  },
+  {
+   "texto": "Uno de cada diez argentinos tiene uno de solo diez apellidos.",
+   "palabras": [
+    {
+     "texto": "Uno",
+     "inicio": 3.04,
+     "fin": 3.28
+    },
+    {
+     "texto": "de",
+     "inicio": 3.28,
+     "fin": 3.48
+    },
+    {
+     "texto": "cada",
+     "inicio": 3.48,
+     "fin": 3.66
+    },
+    {
+     "texto": "diez",
+     "inicio": 3.66,
+     "fin": 3.86
+    },
+    {
+     "texto": "argentinos",
+     "inicio": 3.86,
+     "fin": 4.46
+    },
+    {
+     "texto": "tiene",
+     "inicio": 4.46,
+     "fin": 4.72
+    },
+    {
+     "texto": "uno",
+     "inicio": 4.72,
+     "fin": 5.08
+    },
+    {
+     "texto": "de",
+     "inicio": 5.08,
+     "fin": 5.42
+    },
+    {
+     "texto": "solo",
+     "inicio": 5.42,
+     "fin": 5.62
+    },
+    {
+     "texto": "diez",
+     "inicio": 5.62,
+     "fin": 5.94
+    },
+    {
+     "texto": "apellidos.",
+     "inicio": 5.94,
+     "fin": 6.46
+    }
+   ],
+   "inicio": 3.04,
+   "fin": 6.46
+  },
+  {
+   "texto": "Según la Dirección Nacional de Población, con datos del Renaper de diciembre de dos mil veintiuno, los diez apellidos más comunes juntan el diez coma cuatro por ciento de la gente.",
+   "palabras": [
+    {
+     "texto": "Según",
+     "inicio": 7.02,
+     "fin": 7.42
+    },
+    {
+     "texto": "la",
+     "inicio": 7.42,
+     "fin": 7.52
+    },
+    {
+     "texto": "Dirección",
+     "inicio": 7.52,
+     "fin": 7.88
+    },
+    {
+     "texto": "Nacional",
+     "inicio": 7.88,
+     "fin": 8.24
+    },
+    {
+     "texto": "de",
+     "inicio": 8.24,
+     "fin": 8.38
+    },
+    {
+     "texto": "Población,",
+     "inicio": 8.38,
+     "fin": 8.78
+    },
+    {
+     "texto": "con",
+     "inicio": 9.28,
+     "fin": 9.38
+    },
+    {
+     "texto": "datos",
+     "inicio": 9.38,
+     "fin": 9.56
+    },
+    {
+     "texto": "del",
+     "inicio": 9.56,
+     "fin": 9.8
+    },
+    {
+     "texto": "Renaper",
+     "inicio": 9.8,
+     "fin": 10.16
+    },
+    {
+     "texto": "de",
+     "inicio": 10.16,
+     "fin": 10.52
+    },
+    {
+     "texto": "diciembre",
+     "inicio": 10.52,
+     "fin": 11.1
+    },
+    {
+     "texto": "de",
+     "inicio": 11.1,
+     "fin": 11.28
+    },
+    {
+     "texto": "dos",
+     "inicio": 11.28,
+     "fin": 11.4
+    },
+    {
+     "texto": "mil",
+     "inicio": 11.4,
+     "fin": 11.54
+    },
+    {
+     "texto": "veintiuno,",
+     "inicio": 11.54,
+     "fin": 11.98
+    },
+    {
+     "texto": "los",
+     "inicio": 12.58,
+     "fin": 12.7
+    },
+    {
+     "texto": "diez",
+     "inicio": 12.7,
+     "fin": 12.88
+    },
+    {
+     "texto": "apellidos",
+     "inicio": 12.88,
+     "fin": 13.34
+    },
+    {
+     "texto": "más",
+     "inicio": 13.34,
+     "fin": 13.62
+    },
+    {
+     "texto": "comunes",
+     "inicio": 13.62,
+     "fin": 14.22
+    },
+    {
+     "texto": "juntan",
+     "inicio": 14.22,
+     "fin": 14.58
+    },
+    {
+     "texto": "el",
+     "inicio": 14.58,
+     "fin": 14.74
+    },
+    {
+     "texto": "diez",
+     "inicio": 14.74,
+     "fin": 14.94
+    },
+    {
+     "texto": "coma",
+     "inicio": 14.94,
+     "fin": 15.2
+    },
+    {
+     "texto": "cuatro",
+     "inicio": 15.2,
+     "fin": 15.5
+    },
+    {
+     "texto": "por",
+     "inicio": 15.5,
+     "fin": 15.7
+    },
+    {
+     "texto": "ciento",
+     "inicio": 15.7,
+     "fin": 15.86
+    },
+    {
+     "texto": "de",
+     "inicio": 15.86,
+     "fin": 16.02
+    },
+    {
+     "texto": "la",
+     "inicio": 16.02,
+     "fin": 16.12
+    },
+    {
+     "texto": "gente.",
+     "inicio": 16.12,
+     "fin": 16.36
+    }
+   ],
+   "inicio": 7.02,
+   "fin": 16.36
+  },
+  {
+   "texto": "Y los tres primeros son González, Rodríguez y Gómez, en ese orden.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 16.92,
+     "fin": 17.06
+    },
+    {
+     "texto": "los",
+     "inicio": 17.06,
+     "fin": 17.2
+    },
+    {
+     "texto": "tres",
+     "inicio": 17.2,
+     "fin": 17.34
+    },
+    {
+     "texto": "primeros",
+     "inicio": 17.34,
+     "fin": 17.76
+    },
+    {
+     "texto": "son",
+     "inicio": 17.76,
+     "fin": 17.92
+    },
+    {
+     "texto": "González,",
+     "inicio": 17.92,
+     "fin": 18.56
+    },
+    {
+     "texto": "Rodríguez",
+     "inicio": 19.06,
+     "fin": 19.64
+    },
+    {
+     "texto": "y",
+     "inicio": 19.64,
+     "fin": 19.9
+    },
+    {
+     "texto": "Gómez,",
+     "inicio": 19.9,
+     "fin": 20.2
+    },
+    {
+     "texto": "en",
+     "inicio": 20.56,
+     "fin": 20.74
+    },
+    {
+     "texto": "ese",
+     "inicio": 20.74,
+     "fin": 20.9
+    },
+    {
+     "texto": "orden.",
+     "inicio": 20.9,
+     "fin": 21.12
+    }
+   ],
+   "inicio": 16.92,
+   "fin": 21.12
+  },
+  {
+   "texto": "Sin embargo, en el país hay trescientos cuarenta y ocho mil apellidos distintos.",
+   "palabras": [
+    {
+     "texto": "Sin",
+     "inicio": 21.68,
+     "fin": 21.86
+    },
+    {
+     "texto": "embargo,",
+     "inicio": 21.86,
+     "fin": 22.1
+    },
+    {
+     "texto": "en",
+     "inicio": 22.54,
+     "fin": 22.64
+    },
+    {
+     "texto": "el",
+     "inicio": 22.64,
+     "fin": 22.76
+    },
+    {
+     "texto": "país",
+     "inicio": 22.76,
+     "fin": 22.96
+    },
+    {
+     "texto": "hay",
+     "inicio": 22.96,
+     "fin": 23.2
+    },
+    {
+     "texto": "trescientos",
+     "inicio": 23.2,
+     "fin": 23.9
+    },
+    {
+     "texto": "cuarenta",
+     "inicio": 23.9,
+     "fin": 24.26
+    },
+    {
+     "texto": "y",
+     "inicio": 24.26,
+     "fin": 24.36
+    },
+    {
+     "texto": "ocho",
+     "inicio": 24.36,
+     "fin": 24.5
+    },
+    {
+     "texto": "mil",
+     "inicio": 24.5,
+     "fin": 24.68
+    },
+    {
+     "texto": "apellidos",
+     "inicio": 24.68,
+     "fin": 25.12
+    },
+    {
+     "texto": "distintos.",
+     "inicio": 25.12,
+     "fin": 25.44
+    }
+   ],
+   "inicio": 21.68,
+   "fin": 25.44
+  },
+  {
+   "texto": "O sea: unos pocos apellidos los lleva muchísima gente, y hay un montón que casi nadie tiene.",
+   "palabras": [
+    {
+     "texto": "O",
+     "inicio": 26.1,
+     "fin": 26.32
+    },
+    {
+     "texto": "sea:",
+     "inicio": 26.32,
+     "fin": 26.58
+    },
+    {
+     "texto": "unos",
+     "inicio": 26.58,
+     "fin": 27.28
+    },
+    {
+     "texto": "pocos",
+     "inicio": 27.28,
+     "fin": 27.86
+    },
+    {
+     "texto": "apellidos",
+     "inicio": 27.86,
+     "fin": 28.4
+    },
+    {
+     "texto": "los",
+     "inicio": 28.4,
+     "fin": 28.86
+    },
+    {
+     "texto": "lleva",
+     "inicio": 28.86,
+     "fin": 29.12
+    },
+    {
+     "texto": "muchísima",
+     "inicio": 29.12,
+     "fin": 30.26
+    },
+    {
+     "texto": "gente,",
+     "inicio": 30.26,
+     "fin": 30.62
+    },
+    {
+     "texto": "y",
+     "inicio": 31.04,
+     "fin": 31.28
+    },
+    {
+     "texto": "hay",
+     "inicio": 31.28,
+     "fin": 31.38
+    },
+    {
+     "texto": "un",
+     "inicio": 31.38,
+     "fin": 31.52
+    },
+    {
+     "texto": "montón",
+     "inicio": 31.52,
+     "fin": 31.88
+    },
+    {
+     "texto": "que",
+     "inicio": 31.88,
+     "fin": 32.4
+    },
+    {
+     "texto": "casi",
+     "inicio": 32.4,
+     "fin": 32.64
+    },
+    {
+     "texto": "nadie",
+     "inicio": 32.64,
+     "fin": 33.0
+    },
+    {
+     "texto": "tiene.",
+     "inicio": 33.0,
+     "fin": 33.42
+    }
+   ],
+   "inicio": 26.1,
+   "fin": 33.42
+  },
+  {
+   "texto": "Ojo: es el recuento de personas vivas con documento que viven en el país, y el orden de los puestos del cuatro al diez cambia según la fuente.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 33.88,
+     "fin": 34.24
+    },
+    {
+     "texto": "es",
+     "inicio": 34.76,
+     "fin": 34.9
+    },
+    {
+     "texto": "el",
+     "inicio": 34.9,
+     "fin": 35.02
+    },
+    {
+     "texto": "recuento",
+     "inicio": 35.02,
+     "fin": 35.38
+    },
+    {
+     "texto": "de",
+     "inicio": 35.38,
+     "fin": 35.54
+    },
+    {
+     "texto": "personas",
+     "inicio": 35.54,
+     "fin": 35.98
+    },
+    {
+     "texto": "vivas",
+     "inicio": 35.98,
+     "fin": 36.82
+    },
+    {
+     "texto": "con",
+     "inicio": 36.82,
+     "fin": 37.1
+    },
+    {
+     "texto": "documento",
+     "inicio": 37.1,
+     "fin": 37.92
+    },
+    {
+     "texto": "que",
+     "inicio": 37.92,
+     "fin": 38.18
+    },
+    {
+     "texto": "viven",
+     "inicio": 38.18,
+     "fin": 38.56
+    },
+    {
+     "texto": "en",
+     "inicio": 38.56,
+     "fin": 38.66
+    },
+    {
+     "texto": "el",
+     "inicio": 38.66,
+     "fin": 38.8
+    },
+    {
+     "texto": "país,",
+     "inicio": 38.8,
+     "fin": 39.0
+    },
+    {
+     "texto": "y",
+     "inicio": 39.48,
+     "fin": 39.86
+    },
+    {
+     "texto": "el",
+     "inicio": 39.86,
+     "fin": 39.96
+    },
+    {
+     "texto": "orden",
+     "inicio": 39.96,
+     "fin": 40.16
+    },
+    {
+     "texto": "de",
+     "inicio": 40.16,
+     "fin": 40.3
+    },
+    {
+     "texto": "los",
+     "inicio": 40.3,
+     "fin": 40.4
+    },
+    {
+     "texto": "puestos",
+     "inicio": 40.4,
+     "fin": 41.0
+    },
+    {
+     "texto": "del",
+     "inicio": 41.0,
+     "fin": 41.28
+    },
+    {
+     "texto": "cuatro",
+     "inicio": 41.28,
+     "fin": 41.68
+    },
+    {
+     "texto": "al",
+     "inicio": 41.68,
+     "fin": 41.96
+    },
+    {
+     "texto": "diez",
+     "inicio": 41.96,
+     "fin": 42.2
+    },
+    {
+     "texto": "cambia",
+     "inicio": 42.2,
+     "fin": 42.98
+    },
+    {
+     "texto": "según",
+     "inicio": 42.98,
+     "fin": 43.18
+    },
+    {
+     "texto": "la",
+     "inicio": 43.18,
+     "fin": 43.38
+    },
+    {
+     "texto": "fuente.",
+     "inicio": 43.38,
+     "fin": 43.72
+    }
+   ],
+   "inicio": 33.88,
+   "fin": 43.72
+  },
+  {
+   "texto": "¿Cuántos González conocés vos? Contestá con un número.",
+   "palabras": [
+    {
+     "texto": "¿Cuántos",
+     "inicio": 44.22,
+     "fin": 44.5
+    },
+    {
+     "texto": "González",
+     "inicio": 44.5,
+     "fin": 44.84
+    },
+    {
+     "texto": "conocés",
+     "inicio": 44.84,
+     "fin": 45.22
+    },
+    {
+     "texto": "vos?",
+     "inicio": 45.22,
+     "fin": 45.4
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 45.96,
+     "fin": 46.36
+    },
+    {
+     "texto": "con",
+     "inicio": 46.36,
+     "fin": 46.48
+    },
+    {
+     "texto": "un",
+     "inicio": 46.48,
+     "fin": 46.56
+    },
+    {
+     "texto": "número.",
+     "inicio": 46.56,
+     "fin": 46.84
+    }
+   ],
+   "inicio": 44.22,
+   "fin": 46.84
+  },
+  {
+   "texto": "Mandáselo al González del grupo.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 47.32,
+     "fin": 47.88
+    },
+    {
+     "texto": "al",
+     "inicio": 47.88,
+     "fin": 48.0
+    },
+    {
+     "texto": "González",
+     "inicio": 48.0,
+     "fin": 48.5
+    },
+    {
+     "texto": "del",
+     "inicio": 48.5,
+     "fin": 48.66
+    },
+    {
+     "texto": "grupo.",
+     "inicio": 48.66,
+     "fin": 48.84
+    }
+   ],
+   "inicio": 47.32,
+   "fin": 48.84
+  }
+ ]
+}

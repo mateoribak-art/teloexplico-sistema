@@ -29,3 +29,14 @@ Uso: 49 pasos · 100,088 tokens nuevos · 2,364,305 de caché · 18,274 escritos
 2026-11-25 16:36 Render de 076-calentar-el-auto (sin Claude).
 2026-11-25 16:45 076-calentar-el-auto: listo (render sin Claude)
 2026-11-25 16:45 Termina la producción (ok).
+2026-11-25 20:49 Arranca la producción (15 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Resumen:
+- **Incompleto, pendiente de render:** `077-apellidos-gonzalez` (uno de cada diez argentinos tiene uno de solo diez apellidos; Dirección Nacional de Población con datos del Renaper). Chequeo aprobado al primer intento, voz de 49 s, escenas 3D revisadas y estado `render`. El render y el control los hace `producir.py` después de este turno.
+- **Apartados:** 005, 038, 042, 044 y 051 siguen apartados. Ninguno es por "chequeo rechazado" (tema vencido o falta de mp4), así que no había nada que rescatar.
+- **Segundo video:** no lo produje porque ya había 15 listos (el tope es 10). La voz del 077 quedó en 49 s y 133 palabras, por encima del límite de 45 s y 120 palabras. No la regeneré para no gastar otro pedido de Gemini.
+Uso: 55 pasos · 107,832 tokens nuevos · 2,352,883 de caché · 16,707 escritos · equivale a US$ 1.04 de API
+Permisos negados (1):
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/077-apellidos-gonzalez; cat > chequeo.json <<'EOF'\n{\n  \"veredicto\
+2026-11-25 20:54 Render de 077-apellidos-gonzalez (sin Claude).
+2026-11-25 21:03 077-apellidos-gonzalez: listo (render sin Claude)
+2026-11-25 21:03 Termina la producción (ok).

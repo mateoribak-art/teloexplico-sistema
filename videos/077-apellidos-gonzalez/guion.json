@@ -1,0 +1,24 @@
+{
+  "titulo": "Uno de cada diez argentinos tiene uno de solo diez apellidos",
+  "fondo": "cuaderno",
+  "receta": "Argentina en datos / Tu vida en una grilla",
+  "pilar": "argentina",
+  "interaccion": ["comentar"],
+  "destinatario": "se lo manda un amigo al González del grupo para decirle que en el país hay un montón de iguales a él",
+  "regla_guardable": "Los diez apellidos más comunes juntan el 10,4 % de la gente; el más común es González.",
+  "fuentes": [
+    "Dirección Nacional de Población (Ministerio del Interior), informe 'Distribución geográfica de apellidos en Argentina', datos del Renaper a diciembre de 2021",
+    "La Nación, 6/8/2022; La Voz de San Justo, 7/8/2022"
+  ],
+  "frases": [
+    {"texto": "Todos conocés a un González. No es casualidad.", "estilo": "Seco, directo, con media sonrisa."},
+    {"texto": "Uno de cada diez argentinos tiene uno de solo diez apellidos.", "estilo": "Seco y contundente."},
+    {"texto": "Según la Dirección Nacional de Población, con datos del Renaper de diciembre de dos mil veintiuno, los diez apellidos más comunes juntan el diez coma cuatro por ciento de la gente.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Y los tres primeros son González, Rodríguez y Gómez, en ese orden.", "estilo": "Claro, didáctico."},
+    {"texto": "Sin embargo, en el país hay trescientos cuarenta y ocho mil apellidos distintos.", "estilo": "Con sorpresa."},
+    {"texto": "O sea: unos pocos apellidos los lleva muchísima gente, y hay un montón que casi nadie tiene.", "estilo": "Claro, didáctico."},
+    {"texto": "Ojo: es el recuento de personas vivas con documento que viven en el país, y el orden de los puestos del cuatro al diez cambia según la fuente.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "¿Cuántos González conocés vos? Contestá con un número.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al González del grupo.", "estilo": "Cómplice, con humor."}
+  ]
+}

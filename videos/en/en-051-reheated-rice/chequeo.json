@@ -1,0 +1,66 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las cifras de seguridad alimentaria (2 h / 1 h si >90 °F, 3-4 días, 165 °F) coinciden con USDA FSIS en las mismas unidades (°F, horas, días). La afirmación sobre esporas y toxina coincide con el MMWR 1994 (Virginia 1993) y está formulada con matiz ('can', 'may not'). Sin afirmaciones falsas ni dudosas. Observación menor no bloqueante: el MMWR describe un brote en dos guarderías (arroz frito enfriado a temperatura ambiente y sin refrigerar, servido sin recalentar); 'outbreaks' en plural se apoya en que el informe dice que el arroz frito es una causa principal de intoxicación emética por B. cereus en EE. UU., pero 'a CDC report traced an outbreak to fried rice held that way' sería más preciso. Nota: la página de FSIS devolvió 403 al fetch directo; las cifras se confirmaron por resultados de búsqueda de varias páginas y PDF de fsis.usda.gov que concuerdan.",
+  "afirmaciones": [
+    {
+      "texto": "Raw rice can carry bacterial spores, and those spores can survive cooking.",
+      "fuente": "CDC MMWR 43(10), 18 mar 1994, nota editorial: 'B. cereus is frequently present in uncooked rice, and heat-resistant spores may survive cooking.' https://www.cdc.gov/mmwr/preview/mmwrhtml/00025744.htm",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "If the rice sits out, the bacteria can multiply and make a toxin that reheating may not destroy.",
+      "fuente": "CDC MMWR 1994: si el arroz cocido queda a temperatura ambiente, el organismo se multiplica y produce una toxina que 'can survive brief heating, such as stir frying'. Refuerzo: UF/IFAS EDIS FS269 (toxina emética estable hasta 250 °F / 121 °C; calentar solo hasta que humee no la inactiva).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The CDC has traced outbreaks to fried rice held that way.",
+      "fuente": "CDC MMWR 1994: brote Virginia 1993, 14 de 48 (29%) que comieron arroz frito con pollo enfermaron vs 0 de 16 que no; B. cereus >10^6/g en el arroz sobrante; arroz cocido la noche anterior, enfriado a temperatura ambiente, sin refrigeración hasta el almuerzo. El informe dice además que el arroz frito es una causa principal de intoxicación emética por B. cereus en EE. UU.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The USDA says refrigerate leftovers within two hours, or within one hour if it's over ninety degrees. (caption: 2 hours / 1 hour if over 90°F)",
+      "fuente": "USDA FSIS, Leftovers and Food Safety: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety (2 horas; 1 hora si supera 90 °F). Unidades coinciden.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Then eat them within three to four days. (caption: 3 to 4 days)",
+      "fuente": "USDA FSIS, Leftovers and Food Safety: sobras refrigeradas 3 a 4 días. Unidades coinciden.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Reheat to one sixty-five. (caption: 165°F)",
+      "fuente": "USDA FSIS, Leftovers and Food Safety: recalentar sobras a 165 °F medido con termómetro. Unidades coinciden (°F).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: reheating isn't the problem. The time the rice spent sitting out is.",
+      "fuente": "Inferencia directa de CDC MMWR 1994 y USDA FSIS (el riesgo es el tiempo a temperatura ambiente; la toxina emética sobrevive al calentamiento). UF/IFAS FS269 coincide.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Reheating doesn't fix that. / That rice you left out all afternoon? Reheating it tonight doesn't fix it.",
+      "fuente": "Mismas fuentes. El gancho es más tajante que 'may not destroy', pero el cuerpo del guion da el matiz, y una tarde entera supera de lejos 2 h / 1 h de USDA.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "How many hours does your rice usually sit out? Give me a number. / Send this to the friend...",
+      "fuente": "No es afirmación fáctica (llamado a la acción).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sources: USDA FSIS, 'Leftovers and Food Safety'; CDC MMWR, 'Bacillus cereus Food Poisoning Associated with Fried Rice at Two Child Day Care Centers, Virginia, 1993.'",
+      "fuente": "Ambos títulos existen y coinciden con las fuentes consultadas (MMWR Vol. 43 No. 10, pp. 177-178, 18 mar 1994).",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}
