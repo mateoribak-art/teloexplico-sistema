@@ -1,0 +1,690 @@
+{
+ "duracion": 45.93,
+ "frases": [
+  {
+   "texto": "The forecast says thirty-six degrees tonight, so your plants are fine.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 0.0,
+     "fin": 0.08
+    },
+    {
+     "texto": "forecast",
+     "inicio": 0.08,
+     "fin": 0.44
+    },
+    {
+     "texto": "says",
+     "inicio": 0.44,
+     "fin": 1.08
+    },
+    {
+     "texto": "thirty-six",
+     "inicio": 1.08,
+     "fin": 1.82
+    },
+    {
+     "texto": "degrees",
+     "inicio": 1.82,
+     "fin": 2.24
+    },
+    {
+     "texto": "tonight,",
+     "inicio": 2.24,
+     "fin": 2.58
+    },
+    {
+     "texto": "so",
+     "inicio": 2.92,
+     "fin": 3.16
+    },
+    {
+     "texto": "your",
+     "inicio": 3.16,
+     "fin": 3.6
+    },
+    {
+     "texto": "plants",
+     "inicio": 3.6,
+     "fin": 3.86
+    },
+    {
+     "texto": "are",
+     "inicio": 3.86,
+     "fin": 4.0
+    },
+    {
+     "texto": "fine.",
+     "inicio": 4.0,
+     "fin": 4.28
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.28
+  },
+  {
+   "texto": "Not so fast.",
+   "palabras": [
+    {
+     "texto": "Not",
+     "inicio": 4.76,
+     "fin": 5.02
+    },
+    {
+     "texto": "so",
+     "inicio": 5.02,
+     "fin": 5.18
+    },
+    {
+     "texto": "fast.",
+     "inicio": 5.18,
+     "fin": 5.42
+    }
+   ],
+   "inicio": 4.76,
+   "fin": 5.42
+  },
+  {
+   "texto": "Many National Weather Service offices issue a frost advisory when lows are forecast between thirty-three and thirty-six degrees on clear, calm nights.",
+   "palabras": [
+    {
+     "texto": "Many",
+     "inicio": 6.0,
+     "fin": 6.26
+    },
+    {
+     "texto": "National",
+     "inicio": 6.26,
+     "fin": 6.76
+    },
+    {
+     "texto": "Weather",
+     "inicio": 6.76,
+     "fin": 6.98
+    },
+    {
+     "texto": "Service",
+     "inicio": 6.98,
+     "fin": 7.34
+    },
+    {
+     "texto": "offices",
+     "inicio": 7.34,
+     "fin": 7.8
+    },
+    {
+     "texto": "issue",
+     "inicio": 7.8,
+     "fin": 8.38
+    },
+    {
+     "texto": "a",
+     "inicio": 8.38,
+     "fin": 8.62
+    },
+    {
+     "texto": "frost",
+     "inicio": 8.62,
+     "fin": 8.96
+    },
+    {
+     "texto": "advisory",
+     "inicio": 8.96,
+     "fin": 9.64
+    },
+    {
+     "texto": "when",
+     "inicio": 9.64,
+     "fin": 10.18
+    },
+    {
+     "texto": "lows",
+     "inicio": 10.18,
+     "fin": 10.66
+    },
+    {
+     "texto": "are",
+     "inicio": 10.66,
+     "fin": 10.82
+    },
+    {
+     "texto": "forecast",
+     "inicio": 10.82,
+     "fin": 11.14
+    },
+    {
+     "texto": "between",
+     "inicio": 11.14,
+     "fin": 11.78
+    },
+    {
+     "texto": "thirty-three",
+     "inicio": 11.78,
+     "fin": 12.66
+    },
+    {
+     "texto": "and",
+     "inicio": 12.66,
+     "fin": 13.04
+    },
+    {
+     "texto": "thirty-six",
+     "inicio": 13.04,
+     "fin": 13.58
+    },
+    {
+     "texto": "degrees",
+     "inicio": 13.58,
+     "fin": 13.9
+    },
+    {
+     "texto": "on",
+     "inicio": 13.9,
+     "fin": 14.48
+    },
+    {
+     "texto": "clear,",
+     "inicio": 14.48,
+     "fin": 14.96
+    },
+    {
+     "texto": "calm",
+     "inicio": 15.24,
+     "fin": 15.42
+    },
+    {
+     "texto": "nights.",
+     "inicio": 15.42,
+     "fin": 15.76
+    }
+   ],
+   "inicio": 6.0,
+   "fin": 15.76
+  },
+  {
+   "texto": "The air near the ground can be colder than the thermometer reading.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 16.34,
+     "fin": 16.46
+    },
+    {
+     "texto": "air",
+     "inicio": 16.46,
+     "fin": 16.68
+    },
+    {
+     "texto": "near",
+     "inicio": 16.68,
+     "fin": 16.86
+    },
+    {
+     "texto": "the",
+     "inicio": 16.86,
+     "fin": 17.02
+    },
+    {
+     "texto": "ground",
+     "inicio": 17.02,
+     "fin": 17.42
+    },
+    {
+     "texto": "can",
+     "inicio": 17.42,
+     "fin": 17.8
+    },
+    {
+     "texto": "be",
+     "inicio": 17.8,
+     "fin": 17.96
+    },
+    {
+     "texto": "colder",
+     "inicio": 17.96,
+     "fin": 18.32
+    },
+    {
+     "texto": "than",
+     "inicio": 18.32,
+     "fin": 18.54
+    },
+    {
+     "texto": "the",
+     "inicio": 18.54,
+     "fin": 18.68
+    },
+    {
+     "texto": "thermometer",
+     "inicio": 18.68,
+     "fin": 19.1
+    },
+    {
+     "texto": "reading.",
+     "inicio": 19.1,
+     "fin": 19.4
+    }
+   ],
+   "inicio": 16.34,
+   "fin": 19.4
+  },
+  {
+   "texto": "So frost can form even when the forecast is above freezing.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 19.88,
+     "fin": 20.04
+    },
+    {
+     "texto": "frost",
+     "inicio": 20.04,
+     "fin": 20.4
+    },
+    {
+     "texto": "can",
+     "inicio": 20.4,
+     "fin": 20.68
+    },
+    {
+     "texto": "form",
+     "inicio": 20.68,
+     "fin": 21.02
+    },
+    {
+     "texto": "even",
+     "inicio": 21.02,
+     "fin": 21.46
+    },
+    {
+     "texto": "when",
+     "inicio": 21.46,
+     "fin": 21.64
+    },
+    {
+     "texto": "the",
+     "inicio": 21.64,
+     "fin": 21.74
+    },
+    {
+     "texto": "forecast",
+     "inicio": 21.74,
+     "fin": 22.12
+    },
+    {
+     "texto": "is",
+     "inicio": 22.12,
+     "fin": 22.44
+    },
+    {
+     "texto": "above",
+     "inicio": 22.44,
+     "fin": 22.76
+    },
+    {
+     "texto": "freezing.",
+     "inicio": 22.76,
+     "fin": 23.2
+    }
+   ],
+   "inicio": 19.88,
+   "fin": 23.2
+  },
+  {
+   "texto": "Garden experts say to cover tender plants with a bedsheet before sunset, or bring them inside.",
+   "palabras": [
+    {
+     "texto": "Garden",
+     "inicio": 23.64,
+     "fin": 24.04
+    },
+    {
+     "texto": "experts",
+     "inicio": 24.04,
+     "fin": 24.38
+    },
+    {
+     "texto": "say",
+     "inicio": 24.38,
+     "fin": 24.8
+    },
+    {
+     "texto": "to",
+     "inicio": 24.8,
+     "fin": 25.04
+    },
+    {
+     "texto": "cover",
+     "inicio": 25.04,
+     "fin": 25.4
+    },
+    {
+     "texto": "tender",
+     "inicio": 25.4,
+     "fin": 25.8
+    },
+    {
+     "texto": "plants",
+     "inicio": 25.8,
+     "fin": 26.22
+    },
+    {
+     "texto": "with",
+     "inicio": 26.22,
+     "fin": 26.44
+    },
+    {
+     "texto": "a",
+     "inicio": 26.44,
+     "fin": 26.58
+    },
+    {
+     "texto": "bedsheet",
+     "inicio": 26.58,
+     "fin": 27.14
+    },
+    {
+     "texto": "before",
+     "inicio": 27.14,
+     "fin": 27.36
+    },
+    {
+     "texto": "sunset,",
+     "inicio": 27.36,
+     "fin": 27.88
+    },
+    {
+     "texto": "or",
+     "inicio": 28.4,
+     "fin": 28.58
+    },
+    {
+     "texto": "bring",
+     "inicio": 28.58,
+     "fin": 28.78
+    },
+    {
+     "texto": "them",
+     "inicio": 28.78,
+     "fin": 28.92
+    },
+    {
+     "texto": "inside.",
+     "inicio": 28.92,
+     "fin": 29.16
+    }
+   ],
+   "inicio": 23.64,
+   "fin": 29.16
+  },
+  {
+   "texto": "Heads up: hardy, established plants usually handle frost fine. It's the tender ones at risk.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 29.74,
+     "fin": 29.92
+    },
+    {
+     "texto": "up:",
+     "inicio": 29.92,
+     "fin": 30.08
+    },
+    {
+     "texto": "hardy,",
+     "inicio": 30.42,
+     "fin": 30.88
+    },
+    {
+     "texto": "established",
+     "inicio": 30.96,
+     "fin": 31.5
+    },
+    {
+     "texto": "plants",
+     "inicio": 31.5,
+     "fin": 31.96
+    },
+    {
+     "texto": "usually",
+     "inicio": 31.96,
+     "fin": 32.44
+    },
+    {
+     "texto": "handle",
+     "inicio": 32.44,
+     "fin": 32.8
+    },
+    {
+     "texto": "frost",
+     "inicio": 32.8,
+     "fin": 33.1
+    },
+    {
+     "texto": "fine.",
+     "inicio": 33.1,
+     "fin": 33.46
+    },
+    {
+     "texto": "It's",
+     "inicio": 33.96,
+     "fin": 34.16
+    },
+    {
+     "texto": "the",
+     "inicio": 34.16,
+     "fin": 34.3
+    },
+    {
+     "texto": "tender",
+     "inicio": 34.3,
+     "fin": 34.62
+    },
+    {
+     "texto": "ones",
+     "inicio": 34.62,
+     "fin": 34.88
+    },
+    {
+     "texto": "at",
+     "inicio": 34.88,
+     "fin": 35.06
+    },
+    {
+     "texto": "risk.",
+     "inicio": 35.06,
+     "fin": 35.3
+    }
+   ],
+   "inicio": 29.74,
+   "fin": 35.3
+  },
+  {
+   "texto": "Save this: forecast low of thirty-six or less, cover them before sunset.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 35.86,
+     "fin": 36.06
+    },
+    {
+     "texto": "this:",
+     "inicio": 36.06,
+     "fin": 36.32
+    },
+    {
+     "texto": "forecast",
+     "inicio": 36.68,
+     "fin": 37.08
+    },
+    {
+     "texto": "low",
+     "inicio": 37.08,
+     "fin": 37.62
+    },
+    {
+     "texto": "of",
+     "inicio": 37.62,
+     "fin": 37.92
+    },
+    {
+     "texto": "thirty-six",
+     "inicio": 37.92,
+     "fin": 38.54
+    },
+    {
+     "texto": "or",
+     "inicio": 38.54,
+     "fin": 38.7
+    },
+    {
+     "texto": "less,",
+     "inicio": 38.7,
+     "fin": 38.96
+    },
+    {
+     "texto": "cover",
+     "inicio": 39.46,
+     "fin": 39.7
+    },
+    {
+     "texto": "them",
+     "inicio": 39.7,
+     "fin": 39.9
+    },
+    {
+     "texto": "before",
+     "inicio": 39.9,
+     "fin": 40.1
+    },
+    {
+     "texto": "sunset.",
+     "inicio": 40.1,
+     "fin": 40.54
+    }
+   ],
+   "inicio": 35.86,
+   "fin": 40.54
+  },
+  {
+   "texto": "Do you cover your plants or risk it?",
+   "palabras": [
+    {
+     "texto": "Do",
+     "inicio": 41.08,
+     "fin": 41.16
+    },
+    {
+     "texto": "you",
+     "inicio": 41.16,
+     "fin": 41.28
+    },
+    {
+     "texto": "cover",
+     "inicio": 41.28,
+     "fin": 41.5
+    },
+    {
+     "texto": "your",
+     "inicio": 41.5,
+     "fin": 41.64
+    },
+    {
+     "texto": "plants",
+     "inicio": 41.64,
+     "fin": 41.92
+    },
+    {
+     "texto": "or",
+     "inicio": 41.92,
+     "fin": 42.34
+    },
+    {
+     "texto": "risk",
+     "inicio": 42.34,
+     "fin": 42.56
+    },
+    {
+     "texto": "it?",
+     "inicio": 42.56,
+     "fin": 42.7
+    }
+   ],
+   "inicio": 41.08,
+   "fin": 42.7
+  },
+  {
+   "texto": "Send this to the friend who leaves their basil outside until it's dead.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 43.22,
+     "fin": 43.32
+    },
+    {
+     "texto": "this",
+     "inicio": 43.32,
+     "fin": 43.44
+    },
+    {
+     "texto": "to",
+     "inicio": 43.44,
+     "fin": 43.6
+    },
+    {
+     "texto": "the",
+     "inicio": 43.6,
+     "fin": 43.7
+    },
+    {
+     "texto": "friend",
+     "inicio": 43.7,
+     "fin": 43.88
+    },
+    {
+     "texto": "who",
+     "inicio": 43.88,
+     "fin": 44.06
+    },
+    {
+     "texto": "leaves",
+     "inicio": 44.06,
+     "fin": 44.28
+    },
+    {
+     "texto": "their",
+     "inicio": 44.28,
+     "fin": 44.48
+    },
+    {
+     "texto": "basil",
+     "inicio": 44.48,
+     "fin": 44.72
+    },
+    {
+     "texto": "outside",
+     "inicio": 44.72,
+     "fin": 45.18
+    },
+    {
+     "texto": "until",
+     "inicio": 45.18,
+     "fin": 45.44
+    },
+    {
+     "texto": "it's",
+     "inicio": 45.44,
+     "fin": 45.7
+    },
+    {
+     "texto": "dead.",
+     "inicio": 45.7,
+     "fin": 45.82
+    }
+   ],
+   "inicio": 43.22,
+   "fin": 45.82
+  }
+ ]
+}

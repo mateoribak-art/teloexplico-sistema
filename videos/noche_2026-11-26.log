@@ -12,3 +12,12 @@ Uso: 21 pasos · 17,196 tokens nuevos · 1,697,147 de caché · 5,441 escritos �
 Después de la primera vuelta, el texto de la tapa se cortaba. Lo acorté a «depende» y rendericé de nuevo, y el control dio LISTO. No volví a mirar `hoja.png` después de ese cambio.
 Uso: 19 pasos · 21,120 tokens nuevos · 290,931 de caché · 3,286 escritos · equivale a US$ 0.15 de API
 2026-11-26 01:07 Termina el carrusel (ok; quedan 2 listos).
+2026-11-26 10:00 Arranca la producción (17 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `078-piedra-papel-tijera`. Era el apartado por chequeo rechazado. Saqué la secuencia piedra→papel→tijera del guion y del caption, y el chequeo quedó aprobado. Voz de 42,9 s, 114 de 114 palabras. Armé las escenas 3D, `tsc` pasó sin errores y revisé los cuadros en 2 vueltas. Después de la última vuelta moví la cámara una vez más y no volví a mirar los cuadros. Pasa a render de noche.
+- **No producí un segundo video:** la cola tenía 17 listos, más de los 10 del umbral.
+- **Siguen apartados:** 038, 042, 044, 051 y 005. Ninguno es por chequeo rechazado, así que no los rescaté.
+- **Pendiente:** `078` sigue en estado `render`. El render, el control y el pase a `listo` los hace `producir.py`.
+Uso: 20 pasos · 15,289 tokens nuevos · 872,068 de caché · 3,261 escritos · equivale a US$ 0.70 de API
+2026-11-26 10:04 Render de 078-piedra-papel-tijera (sin Claude).
+2026-11-26 10:09 078-piedra-papel-tijera: listo (render sin Claude)
+2026-11-26 10:09 Termina la producción (ok).

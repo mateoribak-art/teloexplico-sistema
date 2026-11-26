@@ -1740,5 +1740,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-053-first-frost",
+  "tema": "Frost can form with a forecast low of 36F: cover plants (NWS; own; clima)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-26T10:10",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-26T10:10",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-26T10:13",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-26T10:23",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

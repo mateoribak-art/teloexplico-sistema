@@ -1,0 +1,638 @@
+{
+ "duracion": 42.88,
+ "frases": [
+  {
+   "texto": "Perdés en el piedra, papel o tijera y creés que es mala suerte.",
+   "palabras": [
+    {
+     "texto": "Perdés",
+     "inicio": 0.0,
+     "fin": 0.3
+    },
+    {
+     "texto": "en",
+     "inicio": 0.3,
+     "fin": 0.48
+    },
+    {
+     "texto": "el",
+     "inicio": 0.48,
+     "fin": 0.6
+    },
+    {
+     "texto": "piedra,",
+     "inicio": 0.6,
+     "fin": 0.98
+    },
+    {
+     "texto": "papel",
+     "inicio": 1.06,
+     "fin": 1.26
+    },
+    {
+     "texto": "o",
+     "inicio": 1.26,
+     "fin": 1.4
+    },
+    {
+     "texto": "tijera",
+     "inicio": 1.4,
+     "fin": 1.78
+    },
+    {
+     "texto": "y",
+     "inicio": 1.78,
+     "fin": 2.46
+    },
+    {
+     "texto": "creés",
+     "inicio": 2.46,
+     "fin": 2.76
+    },
+    {
+     "texto": "que",
+     "inicio": 2.76,
+     "fin": 2.86
+    },
+    {
+     "texto": "es",
+     "inicio": 2.86,
+     "fin": 3.02
+    },
+    {
+     "texto": "mala",
+     "inicio": 3.02,
+     "fin": 3.14
+    },
+    {
+     "texto": "suerte.",
+     "inicio": 3.14,
+     "fin": 3.58
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.58
+  },
+  {
+   "texto": "Pero los jugadores de un estudio no jugaban al azar: seguían un patrón.",
+   "palabras": [
+    {
+     "texto": "Pero",
+     "inicio": 3.86,
+     "fin": 4.3
+    },
+    {
+     "texto": "los",
+     "inicio": 4.3,
+     "fin": 4.48
+    },
+    {
+     "texto": "jugadores",
+     "inicio": 4.48,
+     "fin": 4.86
+    },
+    {
+     "texto": "de",
+     "inicio": 4.86,
+     "fin": 5.04
+    },
+    {
+     "texto": "un",
+     "inicio": 5.04,
+     "fin": 5.12
+    },
+    {
+     "texto": "estudio",
+     "inicio": 5.12,
+     "fin": 5.5
+    },
+    {
+     "texto": "no",
+     "inicio": 5.5,
+     "fin": 6.26
+    },
+    {
+     "texto": "jugaban",
+     "inicio": 6.26,
+     "fin": 6.72
+    },
+    {
+     "texto": "al",
+     "inicio": 6.72,
+     "fin": 6.9
+    },
+    {
+     "texto": "azar:",
+     "inicio": 6.9,
+     "fin": 7.18
+    },
+    {
+     "texto": "seguían",
+     "inicio": 7.72,
+     "fin": 8.1
+    },
+    {
+     "texto": "un",
+     "inicio": 8.1,
+     "fin": 8.26
+    },
+    {
+     "texto": "patrón.",
+     "inicio": 8.26,
+     "fin": 8.64
+    }
+   ],
+   "inicio": 3.86,
+   "fin": 8.64
+  },
+  {
+   "texto": "En dos mil catorce, investigadores de la Universidad de Zhejiang, en China, hicieron jugar a cientos de estudiantes, en grupos, trescientas rondas cada grupo.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 9.18,
+     "fin": 9.26
+    },
+    {
+     "texto": "dos",
+     "inicio": 9.26,
+     "fin": 9.38
+    },
+    {
+     "texto": "mil",
+     "inicio": 9.38,
+     "fin": 9.52
+    },
+    {
+     "texto": "catorce,",
+     "inicio": 9.52,
+     "fin": 10.08
+    },
+    {
+     "texto": "investigadores",
+     "inicio": 10.34,
+     "fin": 11.04
+    },
+    {
+     "texto": "de",
+     "inicio": 11.04,
+     "fin": 11.36
+    },
+    {
+     "texto": "la",
+     "inicio": 11.36,
+     "fin": 11.44
+    },
+    {
+     "texto": "Universidad",
+     "inicio": 11.44,
+     "fin": 12.04
+    },
+    {
+     "texto": "de",
+     "inicio": 12.04,
+     "fin": 12.16
+    },
+    {
+     "texto": "Zhejiang,",
+     "inicio": 12.16,
+     "fin": 12.62
+    },
+    {
+     "texto": "en",
+     "inicio": 12.94,
+     "fin": 13.06
+    },
+    {
+     "texto": "China,",
+     "inicio": 13.06,
+     "fin": 13.34
+    },
+    {
+     "texto": "hicieron",
+     "inicio": 13.9,
+     "fin": 14.2
+    },
+    {
+     "texto": "jugar",
+     "inicio": 14.2,
+     "fin": 14.48
+    },
+    {
+     "texto": "a",
+     "inicio": 14.48,
+     "fin": 14.64
+    },
+    {
+     "texto": "cientos",
+     "inicio": 14.64,
+     "fin": 14.92
+    },
+    {
+     "texto": "de",
+     "inicio": 14.92,
+     "fin": 15.08
+    },
+    {
+     "texto": "estudiantes,",
+     "inicio": 15.08,
+     "fin": 15.6
+    },
+    {
+     "texto": "en",
+     "inicio": 15.96,
+     "fin": 16.08
+    },
+    {
+     "texto": "grupos,",
+     "inicio": 16.08,
+     "fin": 16.34
+    },
+    {
+     "texto": "trescientas",
+     "inicio": 16.96,
+     "fin": 17.66
+    },
+    {
+     "texto": "rondas",
+     "inicio": 17.66,
+     "fin": 18.06
+    },
+    {
+     "texto": "cada",
+     "inicio": 18.06,
+     "fin": 18.32
+    },
+    {
+     "texto": "grupo.",
+     "inicio": 18.32,
+     "fin": 18.7
+    }
+   ],
+   "inicio": 9.18,
+   "fin": 18.7
+  },
+  {
+   "texto": "Y vieron un patrón: el que gana tiende a repetir la misma jugada.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 19.24,
+     "fin": 19.42
+    },
+    {
+     "texto": "vieron",
+     "inicio": 19.42,
+     "fin": 19.66
+    },
+    {
+     "texto": "un",
+     "inicio": 19.66,
+     "fin": 19.84
+    },
+    {
+     "texto": "patrón:",
+     "inicio": 19.84,
+     "fin": 20.22
+    },
+    {
+     "texto": "el",
+     "inicio": 20.7,
+     "fin": 20.86
+    },
+    {
+     "texto": "que",
+     "inicio": 20.86,
+     "fin": 21.02
+    },
+    {
+     "texto": "gana",
+     "inicio": 21.02,
+     "fin": 21.32
+    },
+    {
+     "texto": "tiende",
+     "inicio": 21.32,
+     "fin": 22.12
+    },
+    {
+     "texto": "a",
+     "inicio": 22.12,
+     "fin": 22.24
+    },
+    {
+     "texto": "repetir",
+     "inicio": 22.24,
+     "fin": 22.68
+    },
+    {
+     "texto": "la",
+     "inicio": 22.68,
+     "fin": 22.84
+    },
+    {
+     "texto": "misma",
+     "inicio": 22.84,
+     "fin": 23.06
+    },
+    {
+     "texto": "jugada.",
+     "inicio": 23.06,
+     "fin": 23.52
+    }
+   ],
+   "inicio": 19.24,
+   "fin": 23.52
+  },
+  {
+   "texto": "Y el que pierde tiende a cambiar de jugada.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 24.02,
+     "fin": 24.22
+    },
+    {
+     "texto": "el",
+     "inicio": 24.22,
+     "fin": 24.34
+    },
+    {
+     "texto": "que",
+     "inicio": 24.34,
+     "fin": 24.44
+    },
+    {
+     "texto": "pierde",
+     "inicio": 24.44,
+     "fin": 24.94
+    },
+    {
+     "texto": "tiende",
+     "inicio": 24.94,
+     "fin": 25.66
+    },
+    {
+     "texto": "a",
+     "inicio": 25.66,
+     "fin": 25.78
+    },
+    {
+     "texto": "cambiar",
+     "inicio": 25.78,
+     "fin": 26.22
+    },
+    {
+     "texto": "de",
+     "inicio": 26.22,
+     "fin": 26.48
+    },
+    {
+     "texto": "jugada.",
+     "inicio": 26.48,
+     "fin": 26.9
+    }
+   ],
+   "inicio": 24.02,
+   "fin": 26.9
+  },
+  {
+   "texto": "O sea: si tu rival acaba de ganar con piedra, jugale papel.",
+   "palabras": [
+    {
+     "texto": "O",
+     "inicio": 27.28,
+     "fin": 27.52
+    },
+    {
+     "texto": "sea:",
+     "inicio": 27.52,
+     "fin": 27.74
+    },
+    {
+     "texto": "si",
+     "inicio": 28.26,
+     "fin": 28.44
+    },
+    {
+     "texto": "tu",
+     "inicio": 28.44,
+     "fin": 28.58
+    },
+    {
+     "texto": "rival",
+     "inicio": 28.58,
+     "fin": 28.86
+    },
+    {
+     "texto": "acaba",
+     "inicio": 28.86,
+     "fin": 29.44
+    },
+    {
+     "texto": "de",
+     "inicio": 29.44,
+     "fin": 29.66
+    },
+    {
+     "texto": "ganar",
+     "inicio": 29.66,
+     "fin": 29.96
+    },
+    {
+     "texto": "con",
+     "inicio": 29.96,
+     "fin": 30.08
+    },
+    {
+     "texto": "piedra,",
+     "inicio": 30.08,
+     "fin": 30.56
+    },
+    {
+     "texto": "jugale",
+     "inicio": 30.92,
+     "fin": 31.34
+    },
+    {
+     "texto": "papel.",
+     "inicio": 31.34,
+     "fin": 31.56
+    }
+   ],
+   "inicio": 27.28,
+   "fin": 31.56
+  },
+  {
+   "texto": "Ojo: es una tendencia medida en grupos de estudiantes en un laboratorio. No es una garantía.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 32.22,
+     "fin": 32.52
+    },
+    {
+     "texto": "es",
+     "inicio": 33.0,
+     "fin": 33.14
+    },
+    {
+     "texto": "una",
+     "inicio": 33.14,
+     "fin": 33.3
+    },
+    {
+     "texto": "tendencia",
+     "inicio": 33.3,
+     "fin": 33.9
+    },
+    {
+     "texto": "medida",
+     "inicio": 33.9,
+     "fin": 34.22
+    },
+    {
+     "texto": "en",
+     "inicio": 34.22,
+     "fin": 34.52
+    },
+    {
+     "texto": "grupos",
+     "inicio": 34.52,
+     "fin": 34.72
+    },
+    {
+     "texto": "de",
+     "inicio": 34.72,
+     "fin": 34.92
+    },
+    {
+     "texto": "estudiantes",
+     "inicio": 34.92,
+     "fin": 35.44
+    },
+    {
+     "texto": "en",
+     "inicio": 35.44,
+     "fin": 35.64
+    },
+    {
+     "texto": "un",
+     "inicio": 35.64,
+     "fin": 35.74
+    },
+    {
+     "texto": "laboratorio.",
+     "inicio": 35.74,
+     "fin": 36.34
+    },
+    {
+     "texto": "No",
+     "inicio": 36.76,
+     "fin": 36.96
+    },
+    {
+     "texto": "es",
+     "inicio": 36.96,
+     "fin": 37.06
+    },
+    {
+     "texto": "una",
+     "inicio": 37.06,
+     "fin": 37.18
+    },
+    {
+     "texto": "garantía.",
+     "inicio": 37.18,
+     "fin": 37.7
+    }
+   ],
+   "inicio": 32.22,
+   "fin": 37.7
+  },
+  {
+   "texto": "¿Qué jugás vos primero? Contestá con una palabra.",
+   "palabras": [
+    {
+     "texto": "¿Qué",
+     "inicio": 38.16,
+     "fin": 38.28
+    },
+    {
+     "texto": "jugás",
+     "inicio": 38.28,
+     "fin": 38.62
+    },
+    {
+     "texto": "vos",
+     "inicio": 38.62,
+     "fin": 38.74
+    },
+    {
+     "texto": "primero?",
+     "inicio": 38.74,
+     "fin": 39.02
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 39.56,
+     "fin": 39.94
+    },
+    {
+     "texto": "con",
+     "inicio": 39.94,
+     "fin": 40.12
+    },
+    {
+     "texto": "una",
+     "inicio": 40.12,
+     "fin": 40.26
+    },
+    {
+     "texto": "palabra.",
+     "inicio": 40.26,
+     "fin": 40.58
+    }
+   ],
+   "inicio": 38.16,
+   "fin": 40.58
+  },
+  {
+   "texto": "Mandáselo al que siempre juega piedra.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 41.08,
+     "fin": 41.68
+    },
+    {
+     "texto": "al",
+     "inicio": 41.68,
+     "fin": 41.74
+    },
+    {
+     "texto": "que",
+     "inicio": 41.74,
+     "fin": 41.86
+    },
+    {
+     "texto": "siempre",
+     "inicio": 41.86,
+     "fin": 42.12
+    },
+    {
+     "texto": "juega",
+     "inicio": 42.12,
+     "fin": 42.44
+    },
+    {
+     "texto": "piedra.",
+     "inicio": 42.44,
+     "fin": 42.82
+    }
+   ],
+   "inicio": 41.08,
+   "fin": 42.82
+  }
+ ]
+}

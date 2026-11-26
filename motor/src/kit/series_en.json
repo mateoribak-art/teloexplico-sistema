@@ -208,6 +208,10 @@
     "en-052-cloudy-sunscreen": [
       "cuerpo",
       7
+    ],
+    "en-053-first-frost": [
+      "clima",
+      10
     ]
   }
 }

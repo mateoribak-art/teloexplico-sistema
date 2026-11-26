@@ -2859,7 +2859,7 @@
  {
   "slug": "078-piedra-papel-tijera",
   "tema": "Piedra, papel o tijera: el que gana repite, el que pierde cambia en orden (Universidad de Zhejiang, 2014)",
-  "estado": "produccion",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -2880,6 +2880,16 @@
     "estado": "produccion",
     "cuando": "2026-11-26T05:05",
     "motivo": "Rescate: se quitó la dirección piedra→papel→tijera (no verificable); queda 'el que pierde tiende a cambiar'. Rehacer escenas, voz y render; chequeo de datos de nuevo."
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-26T10:04",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-26T10:09",
+    "motivo": "render sin Claude"
    }
   ]
  },

@@ -1,0 +1,30 @@
+{
+  "titulo": "Forecast says 36°F tonight, so your plants are fine? Not so fast.",
+  "serie": "clima",
+  "fondo": "oscuro",
+  "receta": "regla con numero + debate de una palabra (cover or risk it)",
+  "pilar": "clima_accion",
+  "destinatario": "se lo manda alguien que tiene huerta o plantas a su amigo que deja la albahaca afuera hasta que se muere",
+  "regla_guardable": "Forecast low of 36°F or less: cover tender plants with a sheet before sunset, or bring them inside.",
+  "interaccion": {
+    "guardar": "Low of 36°F or less: cover tender plants before sunset (bedsheet) or bring them inside.",
+    "comentar": "Do you cover your plants or risk it?"
+  },
+  "fuentes": [
+    "NWS Raleigh, Frost/Freeze maps (weather.gov/rah/FrostFreezemaps): frost advisory with forecast lows of 33-36°F and good radiational cooling; offices vary slightly",
+    "NWS Tallahassee, Frost and Freeze info (weather.gov/tae/frost_and_freeze_info): frost can form at or near ground level while observed air temperatures are slightly above freezing",
+    "University of Illinois Extension, Penn State Extension, University of Minnesota Extension: cover tender plants with an old sheet or light blanket the afternoon before, or move potted plants indoors"
+  ],
+  "frases": [
+    {"texto": "The forecast says thirty-six degrees tonight, so your plants are fine.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "Not so fast.", "estilo": "Dry and contundente."},
+    {"texto": "Many National Weather Service offices issue a frost advisory when lows are forecast between thirty-three and thirty-six degrees on clear, calm nights.", "estilo": "Informative, clear."},
+    {"texto": "The air near the ground can be colder than the thermometer reading.", "estilo": "Practical, confident."},
+    {"texto": "So frost can form even when the forecast is above freezing.", "estilo": "Intrigued, like a reveal."},
+    {"texto": "Garden experts say to cover tender plants with a bedsheet before sunset, or bring them inside.", "estilo": "Practical, friendly."},
+    {"texto": "Heads up: hardy, established plants usually handle frost fine. It's the tender ones at risk.", "estilo": "Honest caveat, calm."},
+    {"texto": "Save this: forecast low of thirty-six or less, cover them before sunset.", "estilo": "Practical, friendly."},
+    {"texto": "Do you cover your plants or risk it?", "estilo": "Curious, playful."},
+    {"texto": "Send this to the friend who leaves their basil outside until it's dead.", "estilo": "Playful and funny."}
+  ]
+}

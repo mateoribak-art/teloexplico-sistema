@@ -6,3 +6,11 @@ Uso: 14 pasos · 10,146 tokens nuevos · 858,973 de caché · 3,281 escritos · 
 2026-11-26 01:11 Render de en-052-cloudy-sunscreen (sin Claude).
 2026-11-26 01:19 en-052-cloudy-sunscreen: listo (render sin Claude)
 2026-11-26 01:19 Termina la producción (ok).
+2026-11-26 10:09 Arranca la producción (17 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `en-053-first-frost` (clima #10, 45.9 s, escena 3D nueva `Planta.tsx`), en estado `render`. `producir.py` lo renderiza. El primer chequeo lo rechazó (umbral del NWS generalizado y consejo de la sábana mal atribuido). Corregí el guion y el segundo chequeo lo aprobó.
+- **Apartados:** no había ninguno por rechazo del chequeo, así que no hubo nada que rescatar.
+- **Pendiente:** no corrí el radar de actualidad, aunque la última pasada era del 25/11. Tampoco medí los seguidores de la semana contra el ritmo necesario. El log lo dice así.
+Uso: 13 pasos · 9,126 tokens nuevos · 737,164 de caché · 2,444 escritos · equivale a US$ 0.97 de API
+2026-11-26 10:14 Render de en-053-first-frost (sin Claude).
+2026-11-26 10:23 en-053-first-frost: listo (render sin Claude)
+2026-11-26 10:23 Termina la producción (ok).

@@ -56,7 +56,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [usada → en-038-lake-effect-snow] What is lake-effect snow? (NWS) — invierno
 - [ ] Why do leaves change color in fall? (USDA Forest Service)
 - [usada → en-039-polar-vortex] What's a "polar vortex"? (NWS) — invierno
-- [ ] Why is the first frost a thing? (NOAA) — invierno
+- [usada → en-053-first-frost] Why is the first frost a thing? (NOAA) — invierno
 - [usada → en-046-wind-chill] Wind chill is for people and animals; pipes and cars never go below the real air temperature (NWS)
 - [intentada → en-042-frozen-pipes, apartado 23/11: chequeo rechazado 2 veces solo por la cita de los 55 °F; rescatar cambiando las fuentes a weather.gov/okx/winterpns7 + okx/extremecoldpns + FEMA (ver chequeo.json, version_verificada)] Frozen pipes: drip the faucet, open cabinets, heat no lower than 55 °F (casa)
 
