@@ -1,17 +1,5 @@
 [
  {
-  "id": "mvrah53o-vigilante",
-  "creado": "2026-10-27T20:01",
-  "empleado": "es/vigilante",
-  "estado": "explicado",
-  "auto": false,
-  "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Don Héctor (Vigilancia) está en \"ojo\": Video apartado: 005-granizo-calor — tema de actualidad vencido (más de 48 h)\nRegistro:\n⚠️ Video apartado: 005-granizo-calor — tema de actualidad vencido (más de 48 h)\n\nRevisalo en C:\\Users\\Mateo\\teloexplico (sistema de teloexplico / letmeexplain) y arreglalo.",
-  "firma": "5a5898561f4f",
-  "actualizado": "2026-10-27T20:01",
-  "titulo": "El video del granizo se apartó solo por vencido; no cambié nada.",
-  "resumen": "El video 005-granizo-calor era un tema del momento, y esos tienen 48 horas para salir. Pasó el plazo (se había frenado antes por un falso rechazo del control de voz, que ya se corrigió), así que el sistema lo apartó solo para no publicar algo viejo. Es el comportamiento esperado, no un error de código. Además, el video ya no tiene su .mp4. Los demás videos listos siguen saliendo normalmente en cada turno."
- },
- {
   "id": "mvrbwmc3-carruseles",
   "creado": "2026-10-27T20:41",
   "estado": "fallo",
@@ -503,5 +491,15 @@
    "videos/078-piedra-papel-tijera/guion.json",
    "videos/cola.json"
   ]
+ },
+ {
+  "id": "11271703-es-chequeo",
+  "creado": "2026-11-27T17:03",
+  "empleado": "es/chequeo",
+  "firma": "ad28e2c1b430",
+  "estado": "pedido",
+  "auto": true,
+  "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Bea (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): 083-luz-prendida-apagada.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\n083-luz-prendida-apagada: descartada: sin fuente primaria accesible (energy.gov 404), tema de plata\nRegistro:\n077-apellidos-gonzalez: aprobado — Todas las cifras y la atribución coinciden con las fuentes: La Nación (6/8/2022) y Aire de Santa Fe reproducen el informe 'Distribución geog\n078-piedra-papel-tijera: aprobado — La version actual ya no incluye la secuencia de cambio del que pierde (piedra->papel->tijera), que era el unico punto no verificable por con\n079-leer-poca-luz: aprobado — Se leyó el texto primario de ambas fuentes. Harvard Health (5 truths about protecting your eyes, 12/02/2021): 'Dim lighting will not damage \n080-finde-largo-diciembre: aprobado — Todas las afirmaciones fácticas están verificadas con fuente primaria (Resolución 164/2025 de Jefatura de Gabinete, argentina.gob.ar, Ley 27\n081-dos-litros-agua: aprobado — Segundo chequeo independiente con fuentes web. Todas las afirmaciones de salud quedan verificadas y el guion y el caption ya incluyen los ma\n082-microondas-vitaminas: aprobado — Todas las afirmaciones de salud y nutrición están verificadas contra las dos páginas de Harvard Health (leídas en harvardhealth.org): la not\n083-brindis-copas: aprobado — Todas las afirmaciones tienen sustento en",
+  "actualizado": "2026-11-27T17:03"
  }
 ]
