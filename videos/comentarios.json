@@ -1180,5 +1180,53 @@
   "texto": "",
   "respuesta": "¡Mita'i, buenísimo! Es el nene en guaraní 😄",
   "cuando": "2026-11-26T06:15"
+ },
+ "17899705722415349": {
+  "estado": "respondido",
+  "texto": "",
+  "respuesta": "¡Aguante Entre Ríos! 🙌 Ahí el gurí se escucha todo el día.",
+  "cuando": "2026-11-26T22:08"
+ },
+ "18038423663668466": {
+  "estado": "respondido",
+  "texto": "",
+  "respuesta": "¡Pibe! El clásico de Buenos Aires 🙌 ¿Y en tu barrio cómo le dicen?",
+  "cuando": "2026-11-26T22:08"
+ },
+ "18147867865589054": {
+  "estado": "respondido",
+  "texto": "",
+  "respuesta": "¡Gurí de Entre Ríos, clarísimo! Gracias por pasar por acá 🙌",
+  "cuando": "2026-11-26T22:08"
+ },
+ "18096789524188751": {
+  "estado": "respondido",
+  "texto": "",
+  "respuesta": "Jaja, cada casa tiene su forma de llamar a los pibes 😂",
+  "cuando": "2026-11-26T22:08"
+ },
+ "18100443188410067": {
+  "estado": "salteado",
+  "texto": "Comentario ambiguo con posible insulto político ('fachaaa'); no respondemos en público.",
+  "respuesta": "",
+  "cuando": "2026-11-26T22:08"
+ },
+ "18136363705688722": {
+  "estado": "salteado",
+  "texto": "Saludo vulgar sin relación con el tema.",
+  "respuesta": "",
+  "cuando": "2026-11-26T22:08"
+ },
+ "18002131806048013": {
+  "estado": "respondido",
+  "texto": "",
+  "respuesta": "¡Mita'í, qué buen dato! Formosa lo tiene clarito 🙌",
+  "cuando": "2026-11-26T22:08"
+ },
+ "18098071235673437": {
+  "estado": "respondido",
+  "texto": "",
+  "respuesta": "Jaja, en el Litoral se escucha todos los días 😂 Guardalo para la próxima.",
+  "cuando": "2026-11-26T22:08"
  }
 }

@@ -226,3 +226,16 @@ Agregué el resumen a `videos/comentarios.log`. No hubo pedidos de temas, así q
 Resumen: respondiste 4, salteaste 0, alertaste 1.
 Uso: 13 pasos · 25,514 tokens nuevos · 145,302 de caché · 4,430 escritos · equivale a US$ 0.01 de API
 2026-11-26 06:15 Termina la respuesta de comentarios (ok).
+2026-11-26 22:08 Hay 8 comentarios nuevos: arranca la respuesta.
+2026-11-26 Respondí 6 · salteé 2 · alerté 0. (059-pibe-chango-guri: zarchi_arts, flaviaalons, silviaelenaperuzzo, vale_priv294, _leo._.nardo_ y yonathan_g92 respondidos; salteados: patricionicolaszarate (posible insulto político "fachaaa") y mat_reus73 (saludo vulgar sin relación con el tema))
+2026-11-26 22:09 Termina la respuesta de comentarios (ok).
+Respondí 6 · salteé 2 · alerté 0.
+Respondí 6, salteé 2, alerté 0.
+
+Los 8 comentarios eran del video 059 (pibe, chango o gurí):
+- **Respondidos:** zarchi_arts, flaviaalons, silviaelenaperuzzo, vale_priv294, _leo._.nardo_ y yonathan_g92.
+- **Salteados:** patricionicolaszarate ("fachaaa", posible insulto político) y mat_reus73 (saludo vulgar sin relación con el tema).
+
+La línea de resumen quedó en `videos/comentarios.log`.
+Uso: 16 pasos · 26,624 tokens nuevos · 163,324 de caché · 4,416 escritos · equivale a US$ 0.01 de API
+2026-11-26 22:08 Termina la respuesta de comentarios (ok).
