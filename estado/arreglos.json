@@ -496,10 +496,12 @@
   "id": "11271703-es-chequeo",
   "creado": "2026-11-27T17:03",
   "empleado": "es/chequeo",
-  "firma": "ad28e2c1b430",
-  "estado": "pedido",
+  "estado": "explicado",
   "auto": true,
   "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Bea (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): 083-luz-prendida-apagada.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\n083-luz-prendida-apagada: descartada: sin fuente primaria accesible (energy.gov 404), tema de plata\nRegistro:\n077-apellidos-gonzalez: aprobado — Todas las cifras y la atribución coinciden con las fuentes: La Nación (6/8/2022) y Aire de Santa Fe reproducen el informe 'Distribución geog\n078-piedra-papel-tijera: aprobado — La version actual ya no incluye la secuencia de cambio del que pierde (piedra->papel->tijera), que era el unico punto no verificable por con\n079-leer-poca-luz: aprobado — Se leyó el texto primario de ambas fuentes. Harvard Health (5 truths about protecting your eyes, 12/02/2021): 'Dim lighting will not damage \n080-finde-largo-diciembre: aprobado — Todas las afirmaciones fácticas están verificadas con fuente primaria (Resolución 164/2025 de Jefatura de Gabinete, argentina.gob.ar, Ley 27\n081-dos-litros-agua: aprobado — Segundo chequeo independiente con fuentes web. Todas las afirmaciones de salud quedan verificadas y el guion y el caption ya incluyen los ma\n082-microondas-vitaminas: aprobado — Todas las afirmaciones de salud y nutrición están verificadas contra las dos páginas de Harvard Health (leídas en harvardhealth.org): la not\n083-brindis-copas: aprobado — Todas las afirmaciones tienen sustento en",
-  "actualizado": "2026-11-27T17:03"
+  "firma": "ad28e2c1b430",
+  "actualizado": "2026-11-27T17:03",
+  "titulo": "Bea frenó el video de la luz prendida/apagada y está bien que lo haya hecho; no cambié nada.",
+  "resumen": "El video 083-luz-prendida-apagada no tenía una fuente primaria accesible: la página de energy.gov daba 404, y el tema toca el gasto de plata. Bea lo descartó y quedó \"apartado\" en la cola. Ya hay otro video, 083-brindis-copas, aprobado y en estado \"listo\", que ocupa su lugar y sigue su camino normal. Si más adelante se quiere rescatar el tema de la luz, hace falta otra fuente confiable que se pueda abrir. Por ahora no hace falta hacer nada."
  }
 ]

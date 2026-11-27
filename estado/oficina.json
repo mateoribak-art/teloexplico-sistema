@@ -210,8 +210,8 @@
        "cuenta": "es"
       }
      },
-     "estado": "aviso",
-     "resumen": "Frenó 1 video(s): 083-luz-prendida-apagada.",
+     "estado": "ok",
+     "resumen": "Revisado por el técnico: Bea frenó el video de la luz prendida/apagada y está bien que lo haya hecho; no cambié nada.",
      "cuando": "2026-11-27T16:32",
      "hace": "hace 31 min",
      "detalle": [
@@ -226,7 +226,7 @@
      "tareas": [
       "083-luz-prendida-apagada: descartada: sin fuente primaria accesible (energy.gov 404), tema de plata"
      ],
-     "arreglo": "Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.",
+     "arreglo": null,
      "solo": false,
      "firma": "ad28e2c1b430"
     },
@@ -571,13 +571,6 @@
    ],
    "linea": [
     {
-     "slug": "en-057-tip-math",
-     "tema": "How to figure a 20% tip in your head (arithmetic; own; everyday math)",
-     "estado": "render",
-     "cuando": "2026-11-27T17:03",
-     "motivo": "reintento auto: apartado por render/control; se renderiza y controla de nuevo"
-    },
-    {
      "slug": "en-039-polar-vortex",
      "tema": "What is the polar vortex? (NWS; not a storm)",
      "estado": "listo",
@@ -604,6 +597,13 @@
      "estado": "listo",
      "cuando": "2026-11-23T18:50",
      "motivo": "render sin Claude"
+    },
+    {
+     "slug": "en-057-tip-math",
+     "tema": "How to figure a 20% tip in your head (arithmetic; own; everyday math)",
+     "estado": "apartado",
+     "cuando": "2026-11-27T10:36",
+     "motivo": "render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So "
     },
     {
      "slug": "en-037-swallowed-gum",
@@ -651,9 +651,7 @@
       "2026-11-27 16:50 en-058-refreeze-meat: listo (render sin Claude)",
       "2026-11-27 16:50 Termina la producción (ok)."
      ],
-     "tareas": [
-      "en-057-tip-math — How to figure a 20% tip in your head (arithmetic; own; everyday math)"
-     ],
+     "tareas": [],
      "arreglo": null,
      "solo": false,
      "firma": "8b534caf15af"
@@ -737,15 +735,17 @@
        "cuenta": "en"
       }
      },
-     "estado": "ok",
-     "resumen": "Voz en-us-podcaster-5 sin problemas.",
+     "estado": "aviso",
+     "resumen": "La voz no coincidió con el guion en en-057-tip-math.",
      "cuando": "2026-11-27T16:50",
      "hace": "hace 13 min",
      "detalle": [],
-     "tareas": [],
-     "arreglo": null,
+     "tareas": [
+      "en-057-tip-math: render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So "
+     ],
+     "arreglo": "Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.",
      "solo": false,
-     "firma": "c766d204df67"
+     "firma": "373a19e66255"
     },
     {
      "id": "animador",
@@ -761,17 +761,17 @@
        "cuenta": "en"
       }
      },
-     "estado": "trabajando",
-     "resumen": "1 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
+     "estado": "falla",
+     "resumen": "Falló el render de en-057-tip-math.",
      "cuando": "2026-11-27T16:50",
      "hace": "hace 13 min",
      "detalle": [],
      "tareas": [
-      "en-057-tip-math"
+      "en-057-tip-math: render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So what do you usually tip? Give me a perce"
      ],
-     "arreglo": null,
+     "arreglo": "Relanzá la producción: los videos en estado render se vuelven a renderizar solos.",
      "solo": false,
-     "firma": "d622e976d504"
+     "firma": "6ae93522c609"
     },
     {
      "id": "control",
@@ -952,15 +952,17 @@
        "modo": "vigilar"
       }
      },
-     "estado": "ok",
-     "resumen": "Todo en orden ✓",
+     "estado": "aviso",
+     "resumen": "Video apartado: en-057-tip-math — render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this f",
      "cuando": "2026-11-27T17:03",
      "hace": "recién",
-     "detalle": [],
+     "detalle": [
+      "⚠️ Video apartado: en-057-tip-math — render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this f"
+     ],
      "tareas": [],
      "arreglo": null,
-     "solo": false,
-     "firma": "3e900f50565c"
+     "solo": true,
+     "firma": "e84ec22cb8b7"
     }
    ]
   }
@@ -1209,11 +1211,13 @@
    "id": "11271703-es-chequeo",
    "creado": "2026-11-27T17:03",
    "empleado": "es/chequeo",
-   "firma": "ad28e2c1b430",
-   "estado": "pedido",
+   "estado": "explicado",
    "auto": true,
    "problema": "En la oficina de Buenos Aires (@teloexplico.ar), Bea (Chequeo de datos) está en \"aviso\": Frenó 1 video(s): 083-luz-prendida-apagada.\nLo que sugiere la oficina: Está bien que frene lo dudoso. Si querés rescatarlo, dejale un pedido a la jefa con otro ángulo.\nTareas:\n083-luz-prendida-apagada: descartada: sin fuente primaria accesible (energy.gov 404), tema de plata\nRegistro:\n077-apellidos-gonzalez: aprobado — Todas las cifras y la atribución coinciden con las fuentes: La Nación (6/8/2022) y Aire de Santa Fe reproducen el informe 'Distribución geog\n078-piedra-papel-tijera: aprobado — La version actual ya no incluye la secuencia de cambio del que pierde (piedra->papel->tijera), que era el unico punto no verificable por con\n079-leer-poca-luz: aprobado — Se leyó el texto primario de ambas fuentes. Harvard Health (5 truths about protecting your eyes, 12/02/2021): 'Dim lighting will not damage \n080-finde-largo-diciembre: aprobado — Todas las afirmaciones fácticas están verificadas con fuente primaria (Resolución 164/2025 de Jefatura de Gabinete, argentina.gob.ar, Ley 27\n081-dos-litros-agua: aprobado — Segundo chequeo independiente con fuentes web. Todas las afirmaciones de salud quedan verificadas y el guion y el caption ya incluyen los ma\n082-microondas-vitaminas: aprobado — Todas las afirmaciones de salud y nutrición están verificadas contra las dos páginas de Harvard Health (leídas en harvardhealth.org): la not\n083-brindis-copas: aprobado — Todas las afirmaciones tienen sustento en",
-   "actualizado": "2026-11-27T17:03"
+   "firma": "ad28e2c1b430",
+   "actualizado": "2026-11-27T17:03",
+   "titulo": "Bea frenó el video de la luz prendida/apagada y está bien que lo haya hecho; no cambié nada.",
+   "resumen": "El video 083-luz-prendida-apagada no tenía una fuente primaria accesible: la página de energy.gov daba 404, y el tema toca el gasto de plata. Bea lo descartó y quedó \"apartado\" en la cola. Ya hay otro video, 083-brindis-copas, aprobado y en estado \"listo\", que ocupa su lugar y sigue su camino normal. Si más adelante se quiere rescatar el tema de la luz, hace falta otra fuente confiable que se pueda abrir. Por ahora no hace falta hacer nada."
   }
  ]
 }
