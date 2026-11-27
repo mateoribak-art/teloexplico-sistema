@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T05:59",
+ "actualizado": "2026-11-27T06:29",
  "oficinas": [
   {
    "clave": "es",
@@ -104,7 +104,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-27T01:10",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [
       "Uso: 25 pasos · 19,506 tokens nuevos · 1,221,922 de caché · 7,700 escritos · equivale a US$ 1.21 de API",
       "2026-11-27 00:48 Arranca la producción (17 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -210,7 +210,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-27T01:09",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [
       "074-afeitar-pelo-grueso: aprobado — Todas las afirmaciones quedaron verificadas con fuente; la unica hipotesis (coincidencia de la pubertad con las primeras afeitadas) ya esta ",
       "075-parabrisas-empanado: aprobado — Segundo chequeo con busqueda web. Las correcciones de la ronda anterior se aplicaron: ya no hay cifra de tiempo ('a los dos segundos') y la ",
@@ -243,7 +243,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-27T01:09",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -267,7 +267,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-27 01:09.",
      "cuando": "2026-11-27T01:09",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -291,7 +291,7 @@
      "estado": "ok",
      "resumen": "18 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-27T01:09",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -384,7 +384,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-27T01:10",
-     "hace": "hace 4 h",
+     "hace": "hace 5 h",
      "detalle": [
       "2026-11-25 23:00 perro-no-comas: publicado https://www.instagram.com/p/DgL-6LvjaJd/",
       "2026-11-26 01:07 pibe-chango-guri: listo control OK",
@@ -418,7 +418,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-26T22:08",
-     "hace": "hace 7 h",
+     "hace": "hace 8 h",
      "detalle": [
       "26/11 06:14 Hay 5 comentarios nuevos: arranca la respuesta.",
       "26/11 00:00 Respondí 4 · salteé 0 · alerté 1. (059-pibe-chango-guri: eddie_sando_, ezeq.uielomararaujo1992, enlacecelulares2 y jona.prnch respondidos; alerta: patricia.mura critica que Formosa no aparece en el mapa.)",
@@ -457,7 +457,7 @@
      "estado": "ok",
      "resumen": "27/11: 1192 seguidores",
      "cuando": "2026-11-27T05:13",
-     "hace": "hace 46 min",
+     "hace": "hace 1 h",
      "detalle": [
       "24/11: 1071 seguidores",
       "25/11: 1143 seguidores",
@@ -490,7 +490,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-27T05:59",
+     "cuando": "2026-11-27T06:29",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -870,7 +870,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-26T22:09",
-     "hace": "hace 7 h",
+     "hace": "hace 8 h",
      "detalle": [
       "22/11 00:00 Resumen: respondí 0, salteé 1, alerté 0.",
       "22/11 19:43 Termina la respuesta de comentarios (ok).",
@@ -905,7 +905,7 @@
      "estado": "ok",
      "resumen": "27/11: 5 seguidores",
      "cuando": "2026-11-27T05:13",
-     "hace": "hace 46 min",
+     "hace": "hace 1 h",
      "detalle": [
       "24/11: 5 seguidores",
       "25/11: 5 seguidores",
@@ -938,7 +938,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-27T05:59",
+     "cuando": "2026-11-27T06:29",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
