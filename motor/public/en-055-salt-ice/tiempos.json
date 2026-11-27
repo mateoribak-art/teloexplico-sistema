@@ -1,0 +1,573 @@
+{
+ "duracion": 34.81,
+ "frases": [
+  {
+   "texto": "You throw rock salt on your icy steps, and the ice just sits there.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.08
+    },
+    {
+     "texto": "throw",
+     "inicio": 0.08,
+     "fin": 0.22
+    },
+    {
+     "texto": "rock",
+     "inicio": 0.22,
+     "fin": 0.6
+    },
+    {
+     "texto": "salt",
+     "inicio": 0.6,
+     "fin": 0.84
+    },
+    {
+     "texto": "on",
+     "inicio": 0.84,
+     "fin": 1.12
+    },
+    {
+     "texto": "your",
+     "inicio": 1.12,
+     "fin": 1.24
+    },
+    {
+     "texto": "icy",
+     "inicio": 1.24,
+     "fin": 1.54
+    },
+    {
+     "texto": "steps,",
+     "inicio": 1.54,
+     "fin": 1.94
+    },
+    {
+     "texto": "and",
+     "inicio": 2.24,
+     "fin": 2.68
+    },
+    {
+     "texto": "the",
+     "inicio": 2.68,
+     "fin": 2.76
+    },
+    {
+     "texto": "ice",
+     "inicio": 2.76,
+     "fin": 2.92
+    },
+    {
+     "texto": "just",
+     "inicio": 2.92,
+     "fin": 3.2
+    },
+    {
+     "texto": "sits",
+     "inicio": 3.2,
+     "fin": 3.7
+    },
+    {
+     "texto": "there.",
+     "inicio": 3.7,
+     "fin": 3.98
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.98
+  },
+  {
+   "texto": "That's because salt has a limit.",
+   "palabras": [
+    {
+     "texto": "That's",
+     "inicio": 4.4,
+     "fin": 4.62
+    },
+    {
+     "texto": "because",
+     "inicio": 4.62,
+     "fin": 4.76
+    },
+    {
+     "texto": "salt",
+     "inicio": 4.76,
+     "fin": 5.08
+    },
+    {
+     "texto": "has",
+     "inicio": 5.08,
+     "fin": 5.28
+    },
+    {
+     "texto": "a",
+     "inicio": 5.28,
+     "fin": 5.42
+    },
+    {
+     "texto": "limit.",
+     "inicio": 5.42,
+     "fin": 5.62
+    }
+   ],
+   "inicio": 4.4,
+   "fin": 5.62
+  },
+  {
+   "texto": "Rock salt works down to about fifteen degrees Fahrenheit. Below that, it works very slowly and barely melts any ice.",
+   "palabras": [
+    {
+     "texto": "Rock",
+     "inicio": 6.18,
+     "fin": 6.34
+    },
+    {
+     "texto": "salt",
+     "inicio": 6.34,
+     "fin": 6.56
+    },
+    {
+     "texto": "works",
+     "inicio": 6.56,
+     "fin": 6.84
+    },
+    {
+     "texto": "down",
+     "inicio": 6.84,
+     "fin": 7.14
+    },
+    {
+     "texto": "to",
+     "inicio": 7.14,
+     "fin": 7.32
+    },
+    {
+     "texto": "about",
+     "inicio": 7.32,
+     "fin": 7.58
+    },
+    {
+     "texto": "fifteen",
+     "inicio": 7.58,
+     "fin": 8.06
+    },
+    {
+     "texto": "degrees",
+     "inicio": 8.06,
+     "fin": 8.5
+    },
+    {
+     "texto": "Fahrenheit.",
+     "inicio": 8.5,
+     "fin": 8.8
+    },
+    {
+     "texto": "Below",
+     "inicio": 9.58,
+     "fin": 9.68
+    },
+    {
+     "texto": "that,",
+     "inicio": 9.68,
+     "fin": 9.98
+    },
+    {
+     "texto": "it",
+     "inicio": 10.42,
+     "fin": 10.6
+    },
+    {
+     "texto": "works",
+     "inicio": 10.6,
+     "fin": 10.82
+    },
+    {
+     "texto": "very",
+     "inicio": 10.82,
+     "fin": 11.38
+    },
+    {
+     "texto": "slowly",
+     "inicio": 11.38,
+     "fin": 11.76
+    },
+    {
+     "texto": "and",
+     "inicio": 11.76,
+     "fin": 12.06
+    },
+    {
+     "texto": "barely",
+     "inicio": 12.06,
+     "fin": 12.38
+    },
+    {
+     "texto": "melts",
+     "inicio": 12.38,
+     "fin": 12.7
+    },
+    {
+     "texto": "any",
+     "inicio": 12.7,
+     "fin": 12.94
+    },
+    {
+     "texto": "ice.",
+     "inicio": 12.94,
+     "fin": 13.22
+    }
+   ],
+   "inicio": 6.18,
+   "fin": 13.22
+  },
+  {
+   "texto": "And that's the pavement temperature, not the air temperature.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 13.7,
+     "fin": 13.84
+    },
+    {
+     "texto": "that's",
+     "inicio": 13.84,
+     "fin": 14.06
+    },
+    {
+     "texto": "the",
+     "inicio": 14.06,
+     "fin": 14.14
+    },
+    {
+     "texto": "pavement",
+     "inicio": 14.14,
+     "fin": 14.48
+    },
+    {
+     "texto": "temperature,",
+     "inicio": 14.48,
+     "fin": 15.02
+    },
+    {
+     "texto": "not",
+     "inicio": 15.12,
+     "fin": 15.22
+    },
+    {
+     "texto": "the",
+     "inicio": 15.22,
+     "fin": 15.38
+    },
+    {
+     "texto": "air",
+     "inicio": 15.38,
+     "fin": 15.5
+    },
+    {
+     "texto": "temperature.",
+     "inicio": 15.5,
+     "fin": 15.84
+    }
+   ],
+   "inicio": 13.7,
+   "fin": 15.84
+  },
+  {
+   "texto": "Below about minus six, it stops working altogether.",
+   "palabras": [
+    {
+     "texto": "Below",
+     "inicio": 16.36,
+     "fin": 16.54
+    },
+    {
+     "texto": "about",
+     "inicio": 16.54,
+     "fin": 16.78
+    },
+    {
+     "texto": "minus",
+     "inicio": 16.78,
+     "fin": 17.02
+    },
+    {
+     "texto": "six,",
+     "inicio": 17.02,
+     "fin": 17.38
+    },
+    {
+     "texto": "it",
+     "inicio": 17.86,
+     "fin": 18.08
+    },
+    {
+     "texto": "stops",
+     "inicio": 18.08,
+     "fin": 18.28
+    },
+    {
+     "texto": "working",
+     "inicio": 18.28,
+     "fin": 18.54
+    },
+    {
+     "texto": "altogether.",
+     "inicio": 18.54,
+     "fin": 18.88
+    }
+   ],
+   "inicio": 16.36,
+   "fin": 18.88
+  },
+  {
+   "texto": "Heads up: use deicer selectively and sparingly.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 19.54,
+     "fin": 19.8
+    },
+    {
+     "texto": "up:",
+     "inicio": 19.8,
+     "fin": 19.96
+    },
+    {
+     "texto": "use",
+     "inicio": 20.46,
+     "fin": 20.72
+    },
+    {
+     "texto": "deicer",
+     "inicio": 20.72,
+     "fin": 21.26
+    },
+    {
+     "texto": "selectively",
+     "inicio": 21.26,
+     "fin": 22.14
+    },
+    {
+     "texto": "and",
+     "inicio": 22.14,
+     "fin": 22.38
+    },
+    {
+     "texto": "sparingly.",
+     "inicio": 22.38,
+     "fin": 22.96
+    }
+   ],
+   "inicio": 19.54,
+   "fin": 22.96
+  },
+  {
+   "texto": "Save this: rock salt works down to about fifteen degrees on the pavement.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 23.34,
+     "fin": 23.52
+    },
+    {
+     "texto": "this:",
+     "inicio": 23.52,
+     "fin": 23.7
+    },
+    {
+     "texto": "rock",
+     "inicio": 24.14,
+     "fin": 24.36
+    },
+    {
+     "texto": "salt",
+     "inicio": 24.36,
+     "fin": 24.64
+    },
+    {
+     "texto": "works",
+     "inicio": 24.64,
+     "fin": 24.94
+    },
+    {
+     "texto": "down",
+     "inicio": 24.94,
+     "fin": 25.22
+    },
+    {
+     "texto": "to",
+     "inicio": 25.22,
+     "fin": 25.4
+    },
+    {
+     "texto": "about",
+     "inicio": 25.4,
+     "fin": 25.74
+    },
+    {
+     "texto": "fifteen",
+     "inicio": 25.74,
+     "fin": 26.38
+    },
+    {
+     "texto": "degrees",
+     "inicio": 26.38,
+     "fin": 26.74
+    },
+    {
+     "texto": "on",
+     "inicio": 26.74,
+     "fin": 27.04
+    },
+    {
+     "texto": "the",
+     "inicio": 27.04,
+     "fin": 27.14
+    },
+    {
+     "texto": "pavement.",
+     "inicio": 27.14,
+     "fin": 27.42
+    }
+   ],
+   "inicio": 23.34,
+   "fin": 27.42
+  },
+  {
+   "texto": "Do you salt before the snow or after? Before or after?",
+   "palabras": [
+    {
+     "texto": "Do",
+     "inicio": 27.42,
+     "fin": 28.0
+    },
+    {
+     "texto": "you",
+     "inicio": 28.0,
+     "fin": 28.1
+    },
+    {
+     "texto": "salt",
+     "inicio": 28.1,
+     "fin": 28.38
+    },
+    {
+     "texto": "before",
+     "inicio": 28.38,
+     "fin": 28.86
+    },
+    {
+     "texto": "the",
+     "inicio": 28.86,
+     "fin": 29.12
+    },
+    {
+     "texto": "snow",
+     "inicio": 29.12,
+     "fin": 29.38
+    },
+    {
+     "texto": "or",
+     "inicio": 29.38,
+     "fin": 29.84
+    },
+    {
+     "texto": "after?",
+     "inicio": 29.84,
+     "fin": 30.24
+    },
+    {
+     "texto": "Before",
+     "inicio": 30.78,
+     "fin": 30.94
+    },
+    {
+     "texto": "or",
+     "inicio": 30.94,
+     "fin": 31.42
+    },
+    {
+     "texto": "after?",
+     "inicio": 31.42,
+     "fin": 31.8
+    }
+   ],
+   "inicio": 27.42,
+   "fin": 31.8
+  },
+  {
+   "texto": "Send this to the neighbor who dumps a whole bag on the driveway.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 32.3,
+     "fin": 32.44
+    },
+    {
+     "texto": "this",
+     "inicio": 32.44,
+     "fin": 32.6
+    },
+    {
+     "texto": "to",
+     "inicio": 32.6,
+     "fin": 32.74
+    },
+    {
+     "texto": "the",
+     "inicio": 32.74,
+     "fin": 32.86
+    },
+    {
+     "texto": "neighbor",
+     "inicio": 32.86,
+     "fin": 33.04
+    },
+    {
+     "texto": "who",
+     "inicio": 33.04,
+     "fin": 33.26
+    },
+    {
+     "texto": "dumps",
+     "inicio": 33.26,
+     "fin": 33.58
+    },
+    {
+     "texto": "a",
+     "inicio": 33.58,
+     "fin": 33.6
+    },
+    {
+     "texto": "whole",
+     "inicio": 33.6,
+     "fin": 33.78
+    },
+    {
+     "texto": "bag",
+     "inicio": 33.78,
+     "fin": 34.12
+    },
+    {
+     "texto": "on",
+     "inicio": 34.12,
+     "fin": 34.32
+    },
+    {
+     "texto": "the",
+     "inicio": 34.32,
+     "fin": 34.4
+    },
+    {
+     "texto": "driveway.",
+     "inicio": 34.4,
+     "fin": 34.58
+    }
+   ],
+   "inicio": 32.3,
+   "fin": 34.58
+  }
+ ]
+}

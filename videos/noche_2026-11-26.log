@@ -34,3 +34,16 @@ Permisos negados (1):
 2026-11-26 16:18 Render de 080-finde-largo-diciembre (sin Claude).
 2026-11-26 16:22 080-finde-largo-diciembre: listo (render sin Claude)
 2026-11-26 16:22 Termina la producción (ok).
+2026-11-26 21:05 Arranca la producción (17 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Esta corrida ya no tiene nada que producir. No tomé ningún video.
+
+- **Producidos hoy:** `080-finde-largo-diciembre` y `079-leer-poca-luz` ya salieron en corridas anteriores de esta fecha. `078-piedra-papel-tijera` también se rescató y figura como `listo`.
+- **Rescates:** no queda ningún video apartado por "chequeo rechazado". Los apartados `005`, `038`, `042`, `044` y `051` lo están por otros motivos, como un mp4 faltante o actualidad vencida.
+- **Segundo video:** la cola tiene 17 videos listos, más que el umbral de 10, así que no corresponde producir otro.
+
+**Resumen:**
+1. Listos: la cola tiene 17 videos (064 a 080), incluidos `080-finde-largo-diciembre`, `079-leer-poca-luz` y `078-piedra-papel-tijera` (rescatado).
+2. Apartados: `005`, `038`, `042`, `044` y `051`, ninguno por chequeo rechazado, así que no hay nada que rescatar.
+3. Incompletos: ninguno. No escribí nada en `videos/produccion.log` porque esta corrida no produjo nada.
+Uso: 8 pasos · 44,413 tokens nuevos · 159,214 de caché · 1,168 escritos · equivale a US$ 0.21 de API
+2026-11-26 21:06 Termina la producción (ok).

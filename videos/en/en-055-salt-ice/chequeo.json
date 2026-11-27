@@ -1,0 +1,32 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las cifras clave (15°F practico, temperatura del pavimento y no del aire, -6°F eutectico, uso selectivo y moderado) estan en una fuente primaria estadounidense (Univ. de Minnesota LTAP, SmartWinterSalt) y coinciden en °F. No hay afirmaciones dudosas ni falsas. Sobre -6°F: UMN dice 'below -6°F (the eutectic temperature), it will not work at all'; Cargill y la agencia de control de contaminacion de Minnesota (MPCA) confirman que -6°F es el eutectico del NaCl (limite quimico o de laboratorio). El limite practico es mas alto: Cargill da 15-20°F para carreteras. La frase ya ordena bien las cifras (15°F practico, luego -6°F 'stops altogether'). Sugerencias menores, no bloqueantes: en la voz decir 'minus six degrees' para fijar la unidad; en el caption, 'It's too cold for it' presenta una causa probable como unica, y se puede matizar con 'often because it's too cold'.",
+  "cifra_menos_seis": {
+    "sostienen_menos_6F": [
+      "UMN LTAP SmartWinterSalt (https://mnltap.umn.edu/guides/smartwintersalt/homeowners/pavement/deicing-use): bajo -6°F, eutectico, no funciona",
+      "Cargill (https://www.cargill.com/at-what-temperature-does-rock-salt-stop-working): eutectico -6°F, derrite hielo hasta ahi en teoria",
+      "MPCA Stormwater manual (https://stormwater.pca.state.mn.us/How_salt_works_and_overview_of_deicing_chemicals): NaCl 23% se congela a -21°C (-6°F)"
+    ],
+    "dan_otra_cifra": [
+      "Cargill FAQ de ice melters: la sal de roca funciona hasta 5°F",
+      "Cargill (articulo) y deicing de carreteras: limite practico 15-20°F",
+      "Vendedores comerciales (ej. Ninja Deicer): 15-20°F"
+    ],
+    "lectura": "-6°F es el limite quimico; el practico es 15°F o mas. La frase del guion no los mezcla."
+  },
+  "afirmaciones": [
+    {"texto": "You throw rock salt on your icy steps, and the ice just sits there.", "fuente": "Escena ilustrativa, sin cifra; consistente con UMN (muy lenta bajo 15°F)", "estado": "verificada", "matiz_ok": true},
+    {"texto": "That's because salt has a limit.", "fuente": "UMN LTAP SmartWinterSalt (temperatura minima practica de derretimiento)", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Rock salt works down to about fifteen degrees Fahrenheit.", "fuente": "UMN LTAP: 'Rock salt, for example, is effective down to about 15°F'; Cargill: practico 15-20°F", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Below that, it works very slowly and barely melts any ice.", "fuente": "UMN LTAP: 'it will work very slowly and will not melt much ice'", "estado": "verificada", "matiz_ok": true},
+    {"texto": "And that's the pavement temperature, not the air temperature.", "fuente": "UMN LTAP: 'based on pavement temperature - not air temperature'", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Below about minus six, it stops working altogether.", "fuente": "UMN LTAP ('below -6°F (the eutectic temperature), it will not work at all'); Cargill y MPCA confirman el eutectico -6°F", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Heads up: use deicer selectively and sparingly.", "fuente": "UMN LTAP: 'use them selectively and sparingly'", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Save this: rock salt works down to about fifteen degrees on the pavement.", "fuente": "UMN LTAP", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Do you salt before the snow or after? Before or after?", "fuente": "Pregunta, sin afirmacion factica", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Send this to the neighbor who dumps a whole bag on the driveway.", "fuente": "Llamado a la accion, sin afirmacion factica", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Caption: Salt on your icy steps and nothing happens? It's too cold for it.", "fuente": "UMN LTAP: bajo 15°F de pavimento la sal funciona muy lento. La causa se presenta como unica.", "estado": "probable", "matiz_ok": false},
+    {"texto": "Caption: Rock salt is effective down to about 15°F. Below that it works very slowly and won't melt much ice, and below about -6°F it stops working altogether. And that's the pavement temperature, not the air temperature.", "fuente": "UMN LTAP; Cargill https://www.cargill.com/at-what-temperature-does-rock-salt-stop-working", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Caption: Weather explained #11 / Follow @letmeexplain.us so you don't miss #12.", "fuente": "Dato interno de la serie, no es afirmacion externa", "estado": "verificada", "matiz_ok": true}
+  ]
+}

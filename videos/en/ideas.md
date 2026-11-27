@@ -56,6 +56,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [usada → en-016-too-cold-snow] Can it be too cold to snow? (NWS)
 - [usada → en-038-lake-effect-snow] What is lake-effect snow? (NWS) — invierno
 - [ ] Why do leaves change color in fall? (USDA Forest Service)
+- [usada → en-055-salt-ice] Rock salt stops working in deep cold: ~15 °F pavement (UMN LTAP)
 - [usada → en-039-polar-vortex] What's a "polar vortex"? (NWS) — invierno
 - [usada → en-053-first-frost] Why is the first frost a thing? (NOAA) — invierno
 - [usada → en-046-wind-chill] Wind chill is for people and animals; pipes and cars never go below the real air temperature (NWS)

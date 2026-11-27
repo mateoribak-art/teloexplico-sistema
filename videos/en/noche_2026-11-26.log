@@ -24,3 +24,14 @@ Uso: 48 pasos · 78,814 tokens nuevos · 1,796,331 de caché · 15,087 escritos 
 2026-11-26 16:25 Render de en-054-tree-lights (sin Claude).
 2026-11-26 16:31 en-054-tree-lights: listo (render sin Claude)
 2026-11-26 16:31 Termina la producción (ok).
+2026-11-26 21:06 Arranca la producción (17 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `en-055-salt-ice` (la sal de roca deja de funcionar bajo unos 15 °F de pavimento, serie clima #11). El chequeo lo aprobó al primer intento con la fuente de la Universidad de Minnesota. La voz salió bien (34,8 s) y `tsc` pasó. Está en estado `render`, así que `producir.py` lo renderiza después de este turno.
+- **Interacción:** guardar la regla de los 15 °F y comentar "¿salás antes de la nevada o después?".
+- **Apartados:** no había ninguno por chequeo rechazado, así que no rescaté nada. `en-042-frozen-pipes` ya figura como `listo`. Quedan 17 videos listos en la cola.
+- **Incompletos:** ninguno. Las adaptaciones de español se agotaron, por eso el video es propio.
+Uso: 55 pasos · 84,833 tokens nuevos · 1,625,503 de caché · 16,716 escritos · equivale a US$ 0.84 de API
+Permisos negados (1):
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-055-salt-ice; python3 - <<'E'\nimport json\nU=\"https://mnltap.
+2026-11-26 21:11 Render de en-055-salt-ice (sin Claude).
+2026-11-26 21:17 en-055-salt-ice: listo (render sin Claude)
+2026-11-26 21:17 Termina la producción (ok).

@@ -113,6 +113,7 @@ import { DURACION as DUR_EN048, FPS as FPS_EN048, EggsFridgeEn048, PortadaEn048 
 import { DURACION as DUR_EN052, FPS as FPS_EN052, CloudySunscreenEn052, PortadaEn052 } from "./videos/en-052-cloudy-sunscreen/Video";
 import { DURACION as DUR_EN049,FPS as FPS_EN049, SpaceHeaterEn049, PortadaEn049 } from "./videos/en-049-space-heater/Video";
 import { DURACION as DUR_EN054, FPS as FPS_EN054, TreeLightsEn054, PortadaEn054 } from "./videos/en-054-tree-lights/Video";
+import { DURACION as DUR_EN055, FPS as FPS_EN055, SaltIceEn055, PortadaEn055 } from "./videos/en-055-salt-ice/Video";
 import { DURACION as DUR_EN041,FPS as FPS_EN041, PastaOilEn041, PortadaEn041 } from "./videos/en-041-pasta-oil/Video";
 import { DURACION as DUR_EN042, FPS as FPS_EN042, FrozenPipesEn042, PortadaEn042 } from "./videos/en-042-frozen-pipes/Video";
 import { DURACION as DUR_EN034, FPS as FPS_EN034, AlcoholEn034, PortadaEn034 } from "./videos/en-034-alcohol-cook-off/Video";
@@ -344,6 +345,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-049-space-heater" component={PortadaEn049} width={ANCHO} height={ALTO} />
         <Composition id="hen-054-tree-lights" component={TreeLightsEn054} durationInFrames={DUR_EN054} fps={FPS_EN054} width={ANCHO} height={ALTO} />
         <Still id="pen-054-tree-lights" component={PortadaEn054} width={ANCHO} height={ALTO} />
+        <Composition id="hen-055-salt-ice" component={SaltIceEn055} durationInFrames={DUR_EN055} fps={FPS_EN055} width={ANCHO} height={ALTO} />
+        <Still id="pen-055-salt-ice" component={PortadaEn055} width={ANCHO} height={ALTO} />
         <Composition id="hen-012-thunder-count" component={ThunderCountEn012} durationInFrames={DUR_EN012} fps={FPS_EN012} width={ANCHO} height={ALTO} />
         <Still id="pen-012-thunder-count" component={PortadaEn012} width={ANCHO} height={ALTO} />
         <Composition id="hen-013-searing-juices" component={SearingJuicesEn013} durationInFrames={DUR_EN013} fps={FPS_EN013} width={ANCHO} height={ALTO} />

@@ -1804,5 +1804,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-055-salt-ice",
+  "tema": "Does rock salt melt ice at any temperature? (UMN LTAP: ~15 F pavement; own; clima)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-26T21:06",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-26T21:07",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-26T21:10",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-26T21:17",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

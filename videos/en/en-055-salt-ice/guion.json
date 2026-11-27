@@ -1,0 +1,27 @@
+{
+  "titulo": "Rock salt stops working when it gets too cold.",
+  "serie": "clima",
+  "fondo": "oscuro",
+  "receta": "regla con numero + pregunta de dos bandas; pilar clima_accion, invierno",
+  "pilar": "clima_accion",
+  "destinatario": "se lo manda alguien que ya palo su vereda a su vecino que tira media bolsa de sal en la entrada y sigue helada",
+  "regla_guardable": "Rock salt works down to about 15 F (pavement temperature). Below that it barely melts ice.",
+  "interaccion": {
+    "guardar": "Rock salt: effective down to about 15°F on the pavement; below that it works very slowly; below about -6°F it stops.",
+    "comentar": "Do you salt before the snow or after? Before or after?"
+  },
+  "fuentes": [
+    "University of Minnesota LTAP, SmartWinterSalt, Homeowners: Deicing use (mnltap.umn.edu/guides/smartwintersalt/homeowners/pavement/deicing-use): 'Rock salt, for example, is effective down to about 15°F. Below 15°F, it will work very slowly and will not melt much ice.' Deicers have a minimum practical melting temperature based on pavement temperature, not air temperature. Use deicers selectively and sparingly. Rock salt stops working below about -6°F (Cargill: eutectic about -6°F)."
+  ],
+  "frases": [
+    {"texto": "You throw rock salt on your icy steps, and the ice just sits there.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "That's because salt has a limit.", "estilo": "Dry and contundente."},
+    {"texto": "Rock salt works down to about fifteen degrees Fahrenheit. Below that, it works very slowly and barely melts any ice.", "estilo": "Informative, clear, a little suspense."},
+    {"texto": "And that's the pavement temperature, not the air temperature.", "estilo": "Practical, confident."},
+    {"texto": "Below about minus six, it stops working altogether.", "estilo": "Matter of fact."},
+    {"texto": "Heads up: use deicer selectively and sparingly.", "estilo": "Honest caveat, calm."},
+    {"texto": "Save this: rock salt works down to about fifteen degrees on the pavement.", "estilo": "Practical, friendly."},
+    {"texto": "Do you salt before the snow or after? Before or after?", "estilo": "Curious, playful."},
+    {"texto": "Send this to the neighbor who dumps a whole bag on the driveway.", "estilo": "Playful and funny."}
+  ]
+}
