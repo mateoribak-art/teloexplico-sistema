@@ -1,0 +1,25 @@
+{
+  "titulo": "¿Hay que tomar dos litros de agua por día?",
+  "fondo": "oscuro",
+  "receta": "Mito + zoom adentro",
+  "pilar": "salud_simple",
+  "interaccion": ["comentar", "guardar"],
+  "destinatario": "se lo manda alguien al que anda con el botellón de dos litros a todos lados, para decirle que no hace falta forzarse",
+  "regla_guardable": "No hay una cifra mágica: el pis amarillo claro es la guía; si es oscuro, tomá más.",
+  "fuentes": [
+    "National Academies of Sciences (Institute of Medicine), Dietary Reference Intakes for Water, 2004",
+    "NHS, Water, drinks and hydration"
+  ],
+  "frases": [
+    {"texto": "Andás con la botella de dos litros a todos lados porque te dijeron que hay que tomarlos sí o sí.", "estilo": "Seco, directo, con media sonrisa."},
+    {"texto": "Es al revés: no hay una cifra mágica igual para todos.", "estilo": "Seco y contundente."},
+    {"texto": "Las Academias Nacionales de Estados Unidos, en dos mil cuatro, fijaron una ingesta adecuada de agua total para adultos sanos, calculada con lo que toma la gente en promedio.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Unos dos litros y siete las mujeres, y tres litros y siete los hombres.", "estilo": "Claro, con sorpresa."},
+    {"texto": "Pero ojo: ese número cuenta todo. Agua, té, café, mate y también la que viene en la comida.", "estilo": "Claro, didáctico."},
+    {"texto": "Alrededor de un quinto viene de la comida. O sea que no son dos litros de botella.", "estilo": "Con sorpresa."},
+    {"texto": "El truco para guardar: fijate que el pis sea amarillo claro. Si es oscuro, tomá más.", "estilo": "Claro, práctico."},
+    {"texto": "Ojo: con calor, ejercicio o enfermedad necesitás más, y si sos mayor, la sed puede avisar tarde.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "¿Cuántos litros tomás vos por día? Contestá con un número.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al que anda con el botellón a todos lados.", "estilo": "Cómplice, con humor."}
+  ]
+}

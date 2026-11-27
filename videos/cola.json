@@ -2966,5 +2966,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "081-dos-litros-agua",
+  "tema": "¿Hay que tomar dos litros de agua por día? No hay una cifra única; la ingesta total incluye la comida (NASEM 2004)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-27T00:49",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-27T00:49",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-27T00:54",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-27T01:09",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

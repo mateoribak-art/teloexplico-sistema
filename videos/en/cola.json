@@ -1831,5 +1831,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-056-smoke-alarm",
+  "tema": "Do smoke alarms expire? Replace every 10 years from the manufacture date (NFPA; own; home safety)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-27T01:11",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-27T01:11",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-27T01:17",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-27T01:31",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

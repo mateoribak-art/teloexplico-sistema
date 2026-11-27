@@ -1,0 +1,12 @@
+2026-11-27 00:48 Arranca la producción (17 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `081-dos-litros-agua` (¿hay que tomar dos litros de agua por día?). El chequeo lo rechazó la primera vez y lo aprobó la segunda, después de corregir las cifras y los matices de salud. La voz sale de 58 s, algo por encima del tope de 45 s. Las escenas 3D están hechas y `tsc` pasa. Quedó en estado `render`, que lo hace `producir.py`.
+- **Rescates:** ninguno. 005, 038, 042, 044 y 051 siguen apartados y no por un chequeo rechazado, así que no había nada que rescatar.
+- **Segundo video no producido:** la cola ya tenía 17 listos, más de los 10 que pide la regla. Tampoco corrí el radar de actualidad esta noche; el último, del 26/11, no encontró tema.
+Uso: 25 pasos · 19,506 tokens nuevos · 1,221,922 de caché · 7,700 escritos · equivale a US$ 1.21 de API
+2026-11-27 00:54 Render de 081-dos-litros-agua (sin Claude).
+2026-11-27 01:09 081-dos-litros-agua: listo (render sin Claude)
+2026-11-27 01:09 Termina la producción (ok).
+2026-11-27 01:09 Arranca el carrusel (1 listos, meta 2).
+`una-sola-tabla`: quedó listo. Salió del reel `045-una-sola-tabla` (publicado el 17/11, chequeo aprobado) y tiene 7 placas, sin cifras, con USDA FSIS como única fuente. Después de acortar el texto de la tapa, que se cortaba, volví a correr `./herramientas/tlx carrusel una-sola-tabla` y salió LISTO. No volví a mirar `hoja.png` con esa versión.
+Uso: 25 pasos · 24,252 tokens nuevos · 418,411 de caché · 4,239 escritos · equivale a US$ 0.18 de API
+2026-11-27 01:10 Termina el carrusel (ok; quedan 2 listos).

@@ -1,0 +1,8 @@
+{"origen": ["045-una-sola-tabla"], "serie": "mitos de cocina", "placas": [
+ {"tipo": "tapa", "arriba": "¿cortás el pollo crudo y después el tomate?", "grande": "dos tablas", "promesa": "deslizá y guardalo"},
+ {"tipo": "paso", "etiqueta": "// por qué importa", "titulo": "La carne cruda puede dejar bacterias en la tabla", "cuerpo": "Y el tomate no pasa por el fuego: lo que quedó en la tabla va directo a tu plato.", "fuente": "USDA FSIS"},
+ {"tipo": "paso", "etiqueta": "// la regla", "titulo": "Una tabla para lo crudo, otra para lo fresco", "cuerpo": "Carne, pollo y pescado crudos por un lado. Verduras frescas por el otro.", "fuente": "USDA FSIS"},
+ {"tipo": "paso", "etiqueta": "// si tenés una sola", "titulo": "Lavala con agua caliente y jabón entre un alimento y otro", "cuerpo": "Cada vez que cambiás de alimento, lavada de por medio.", "fuente": "USDA FSIS"},
+ {"tipo": "paso", "etiqueta": "// ojo", "titulo": "Si está llena de surcos difíciles de limpiar, cambiala", "cuerpo": "Una tabla gastada también hay que reemplazarla.", "fuente": "USDA FSIS"},
+ {"tipo": "resumen", "titulo": "La tabla, en 4 reglas", "items": [[true, "Una tabla para crudo, otra para verduras"], [true, "Si tenés una sola: agua caliente y jabón"], [true, "Tabla con surcos difíciles: cambiala"], [false, "Pollo crudo y tomate en la misma tabla"]]},
+ {"tipo": "cierre", "texto": "Mandáselo a ese que corta el pollo y el tomate en la misma tabla", "serie": "mitos de cocina"}]}

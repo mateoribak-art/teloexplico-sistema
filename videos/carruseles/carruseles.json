@@ -404,5 +404,24 @@
     "motivo": "control OK"
    }
   ]
+ },
+ {
+  "clave": "una-sola-tabla",
+  "estado": "listo",
+  "origen": [
+   "045-una-sola-tabla"
+  ],
+  "historial": [
+   {
+    "estado": "listo",
+    "cuando": "2026-11-27T01:10",
+    "motivo": "control OK"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-27T01:10",
+    "motivo": "control OK"
+   }
+  ]
  }
 ]

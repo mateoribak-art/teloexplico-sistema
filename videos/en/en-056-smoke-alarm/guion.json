@@ -1,0 +1,29 @@
+{
+  "titulo": "Your smoke alarm has an expiration date.",
+  "serie": "casa",
+  "fondo": "oscuro",
+  "receta": "regla con numero + pregunta de numero; pilar home safety, invierno",
+  "pilar": "casa",
+  "destinatario": "se lo manda alguien que acaba de revisar su alarma a un familiar que nunca miro la fecha",
+  "regla_guardable": "Smoke alarm: test it monthly, replace it 10 years after the date printed on the back.",
+  "interaccion": {
+    "guardar": "Test monthly. Replace 10 years after the manufacture date on the back.",
+    "comentar": "How old is your smoke alarm? Give me a number."
+  },
+  "fuentes": [
+    "NFPA (National Fire Protection Association), smoke alarm safety: test alarms monthly; replace smoke alarms at least every 10 years from the date of manufacture printed on the alarm (not the purchase date).",
+    "USFA/FEMA and CPSC smoke alarm guidance (same 10-year and monthly-test rules)."
+  ],
+  "frases": [
+    {"texto": "The smoke alarm on your ceiling might be expired.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "Yes, they expire.", "estilo": "Dry and contundente."},
+    {"texto": "The National Fire Protection Association says to replace smoke alarms at least every ten years.", "estilo": "Informative, clear, a little suspense."},
+    {"texto": "And the ten years start on the date printed on the back, not the day you bought it.", "estilo": "Practical, confident."},
+    {"texto": "So check the back of yours.", "estilo": "Practical, friendly."},
+    {"texto": "Also, press the test button once a month.", "estilo": "Practical, friendly."},
+    {"texto": "Heads up: a chirp usually means the battery is low, so swap it. If it keeps chirping, or it's a sealed ten-year alarm, replace the whole alarm.", "estilo": "Honest caveat, calm."},
+    {"texto": "Save this: test it monthly, and replace it ten years after the date on the back.", "estilo": "Practical, friendly."},
+    {"texto": "How old is your smoke alarm? Give me a number.", "estilo": "Curious, playful."},
+    {"texto": "Send this to the friend who has never checked the date on their alarm.", "estilo": "Playful and funny."}
+  ]
+}

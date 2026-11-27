@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segundo chequeo independiente con fuentes web. Todas las afirmaciones de salud quedan verificadas y el guion y el caption ya incluyen los matices pedidos: 'ingesta adecuada', 'unos', 'calculada con lo que toma la gente en promedio', 'alrededor de un quinto' de la comida, 'pis amarillo claro / si es oscuro tomá más' y 'si sos mayor, la sed puede avisar tarde'. Solo la creencia popular inicial ('te dijeron que hay que tomarlos') es probable, y la frase la presenta como algo que 'te dijeron', no como hecho de salud. Ninguna falsa. Observación menor opcional: el comunicado de las Academias habla de ingesta promedio y el capítulo del informe de mediana de NHANES III; 'en promedio' es aceptable en lenguaje coloquial.",
+  "afirmaciones": [
+    {
+      "texto": "Te dijeron que hay que tomar dos litros sí o sí (creencia popular)",
+      "fuente": "NHS, Water, drinks and hydration (nhs.uk): recomienda 6 a 8 vasos de fluidos 'solo como guía', no dos litros obligatorios. El origen de la creencia no tiene fuente primaria.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "No hay una cifra mágica igual para todos",
+      "fuente": "National Academies, comunicado de febrero 2004 y DRI Water (nationalacademies.org/read/10925): las necesidades suben con actividad física y calor; el valor es una ingesta adecuada, no un requerimiento. NHS: 6 a 8 vasos 'solo como guía'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Las Academias Nacionales de EE. UU., en 2004, fijaron una ingesta adecuada de agua total para adultos sanos, calculada con lo que toma la gente en promedio",
+      "fuente": "National Academies / Institute of Medicine, Dietary Reference Intakes for Water, Potassium, Sodium, Chloride and Sulfate (comunicado de febrero 2004; libro catalogado 2005). AI basada en la ingesta de agua total de encuestas de EE. UU. (NHANES III); el informe habla de mediana y el comunicado de promedio.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Unos dos litros y siete las mujeres, y tres litros y siete los hombres",
+      "fuente": "National Academies, DRI Water 2004: AI de agua total de 2,7 L/día mujeres y 3,7 L/día hombres adultos. El informe la ancla en adultos de 19 a 30 años; el comunicado la describe para adultos. La frase ya lleva 'unos' y viene después de 'ingesta adecuada'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ese número cuenta todo: agua, té, café, mate y también la que viene en la comida",
+      "fuente": "National Academies 2004: agua total incluye agua potable, bebidas (también con cafeína) y la humedad de los alimentos. El mate no se nombra, pero entra como bebida.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Alrededor de un quinto viene de la comida; no son dos litros de botella",
+      "fuente": "National Academies, comunicado 2004: cerca del 80 % viene de agua y bebidas y cerca del 20 % de los alimentos.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fijate que el pis sea amarillo claro. Si es oscuro, tomá más",
+      "fuente": "NHS, Water, drinks and hydration: tomar lo suficiente para que el pis sea 'a clear pale yellow colour'. NHS Dehydration (nhs.uk/conditions/dehydration): pis amarillo oscuro es síntoma de deshidratación y se aconseja tomar líquidos para mantenerlo claro. Es guía orientativa.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Con calor, ejercicio o enfermedad necesitás más",
+      "fuente": "National Academies 2004: más agua para personas muy activas o en climas calurosos. NHS Water, drinks and hydration: más líquidos con calor, actividad prolongada y enfermedad.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Si sos mayor, la sed puede avisar tarde",
+      "fuente": "NHS Dehydration: los adultos mayores tienen mayor riesgo y pueden no notar cuánto toman. Cleveland Clinic (health.clevelandclinic.org, deshidratación en mayores) y AARP: la respuesta de sed baja con la edad, sobre todo después de los 80. Redactado con 'puede', correcto.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

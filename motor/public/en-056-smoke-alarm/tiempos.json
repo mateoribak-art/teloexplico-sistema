@@ -1,0 +1,705 @@
+{
+ "duracion": 38.4,
+ "frases": [
+  {
+   "texto": "The smoke alarm on your ceiling might be expired.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 0.0,
+     "fin": 0.16
+    },
+    {
+     "texto": "smoke",
+     "inicio": 0.16,
+     "fin": 0.36
+    },
+    {
+     "texto": "alarm",
+     "inicio": 0.36,
+     "fin": 0.78
+    },
+    {
+     "texto": "on",
+     "inicio": 0.78,
+     "fin": 1.08
+    },
+    {
+     "texto": "your",
+     "inicio": 1.08,
+     "fin": 1.24
+    },
+    {
+     "texto": "ceiling",
+     "inicio": 1.24,
+     "fin": 1.64
+    },
+    {
+     "texto": "might",
+     "inicio": 1.64,
+     "fin": 2.38
+    },
+    {
+     "texto": "be",
+     "inicio": 2.38,
+     "fin": 2.6
+    },
+    {
+     "texto": "expired.",
+     "inicio": 2.6,
+     "fin": 3.14
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.14
+  },
+  {
+   "texto": "Yes, they expire.",
+   "palabras": [
+    {
+     "texto": "Yes,",
+     "inicio": 3.76,
+     "fin": 4.08
+    },
+    {
+     "texto": "they",
+     "inicio": 4.54,
+     "fin": 4.7
+    },
+    {
+     "texto": "expire.",
+     "inicio": 4.7,
+     "fin": 5.14
+    }
+   ],
+   "inicio": 3.76,
+   "fin": 5.14
+  },
+  {
+   "texto": "The National Fire Protection Association says to replace smoke alarms at least every ten years.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 5.68,
+     "fin": 5.76
+    },
+    {
+     "texto": "National",
+     "inicio": 5.76,
+     "fin": 6.06
+    },
+    {
+     "texto": "Fire",
+     "inicio": 6.06,
+     "fin": 6.4
+    },
+    {
+     "texto": "Protection",
+     "inicio": 6.4,
+     "fin": 6.86
+    },
+    {
+     "texto": "Association",
+     "inicio": 6.86,
+     "fin": 7.46
+    },
+    {
+     "texto": "says",
+     "inicio": 7.46,
+     "fin": 7.84
+    },
+    {
+     "texto": "to",
+     "inicio": 7.84,
+     "fin": 8.02
+    },
+    {
+     "texto": "replace",
+     "inicio": 8.02,
+     "fin": 8.34
+    },
+    {
+     "texto": "smoke",
+     "inicio": 8.34,
+     "fin": 8.62
+    },
+    {
+     "texto": "alarms",
+     "inicio": 8.62,
+     "fin": 8.96
+    },
+    {
+     "texto": "at",
+     "inicio": 8.96,
+     "fin": 9.14
+    },
+    {
+     "texto": "least",
+     "inicio": 9.14,
+     "fin": 9.4
+    },
+    {
+     "texto": "every",
+     "inicio": 9.4,
+     "fin": 9.82
+    },
+    {
+     "texto": "ten",
+     "inicio": 9.82,
+     "fin": 10.1
+    },
+    {
+     "texto": "years.",
+     "inicio": 10.1,
+     "fin": 10.38
+    }
+   ],
+   "inicio": 5.68,
+   "fin": 10.38
+  },
+  {
+   "texto": "And the ten years start on the date printed on the back, not the day you bought it.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 10.96,
+     "fin": 11.16
+    },
+    {
+     "texto": "the",
+     "inicio": 11.16,
+     "fin": 11.34
+    },
+    {
+     "texto": "ten",
+     "inicio": 11.34,
+     "fin": 11.54
+    },
+    {
+     "texto": "years",
+     "inicio": 11.54,
+     "fin": 11.72
+    },
+    {
+     "texto": "start",
+     "inicio": 11.72,
+     "fin": 12.06
+    },
+    {
+     "texto": "on",
+     "inicio": 12.06,
+     "fin": 12.3
+    },
+    {
+     "texto": "the",
+     "inicio": 12.3,
+     "fin": 12.4
+    },
+    {
+     "texto": "date",
+     "inicio": 12.4,
+     "fin": 12.54
+    },
+    {
+     "texto": "printed",
+     "inicio": 12.54,
+     "fin": 12.84
+    },
+    {
+     "texto": "on",
+     "inicio": 12.84,
+     "fin": 13.06
+    },
+    {
+     "texto": "the",
+     "inicio": 13.06,
+     "fin": 13.14
+    },
+    {
+     "texto": "back,",
+     "inicio": 13.14,
+     "fin": 13.4
+    },
+    {
+     "texto": "not",
+     "inicio": 13.72,
+     "fin": 13.92
+    },
+    {
+     "texto": "the",
+     "inicio": 13.92,
+     "fin": 14.06
+    },
+    {
+     "texto": "day",
+     "inicio": 14.06,
+     "fin": 14.18
+    },
+    {
+     "texto": "you",
+     "inicio": 14.18,
+     "fin": 14.28
+    },
+    {
+     "texto": "bought",
+     "inicio": 14.28,
+     "fin": 14.44
+    },
+    {
+     "texto": "it.",
+     "inicio": 14.44,
+     "fin": 14.58
+    }
+   ],
+   "inicio": 10.96,
+   "fin": 14.58
+  },
+  {
+   "texto": "So check the back of yours.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 14.98,
+     "fin": 15.24
+    },
+    {
+     "texto": "check",
+     "inicio": 15.24,
+     "fin": 15.56
+    },
+    {
+     "texto": "the",
+     "inicio": 15.56,
+     "fin": 15.7
+    },
+    {
+     "texto": "back",
+     "inicio": 15.7,
+     "fin": 15.88
+    },
+    {
+     "texto": "of",
+     "inicio": 15.88,
+     "fin": 16.02
+    },
+    {
+     "texto": "yours.",
+     "inicio": 16.02,
+     "fin": 16.18
+    }
+   ],
+   "inicio": 14.98,
+   "fin": 16.18
+  },
+  {
+   "texto": "Also, press the test button once a month.",
+   "palabras": [
+    {
+     "texto": "Also,",
+     "inicio": 16.76,
+     "fin": 17.08
+    },
+    {
+     "texto": "press",
+     "inicio": 17.32,
+     "fin": 17.54
+    },
+    {
+     "texto": "the",
+     "inicio": 17.54,
+     "fin": 17.78
+    },
+    {
+     "texto": "test",
+     "inicio": 17.78,
+     "fin": 18.04
+    },
+    {
+     "texto": "button",
+     "inicio": 18.04,
+     "fin": 18.34
+    },
+    {
+     "texto": "once",
+     "inicio": 18.34,
+     "fin": 18.84
+    },
+    {
+     "texto": "a",
+     "inicio": 18.84,
+     "fin": 19.06
+    },
+    {
+     "texto": "month.",
+     "inicio": 19.06,
+     "fin": 19.24
+    }
+   ],
+   "inicio": 16.76,
+   "fin": 19.24
+  },
+  {
+   "texto": "Heads up: a chirp usually means the battery is low, so swap it. If it keeps chirping, or it's a sealed ten-year alarm, replace the whole alarm.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 19.64,
+     "fin": 19.84
+    },
+    {
+     "texto": "up:",
+     "inicio": 19.84,
+     "fin": 19.98
+    },
+    {
+     "texto": "a",
+     "inicio": 20.06,
+     "fin": 20.14
+    },
+    {
+     "texto": "chirp",
+     "inicio": 20.14,
+     "fin": 20.6
+    },
+    {
+     "texto": "usually",
+     "inicio": 20.6,
+     "fin": 20.96
+    },
+    {
+     "texto": "means",
+     "inicio": 20.96,
+     "fin": 21.24
+    },
+    {
+     "texto": "the",
+     "inicio": 21.24,
+     "fin": 21.42
+    },
+    {
+     "texto": "battery",
+     "inicio": 21.42,
+     "fin": 21.68
+    },
+    {
+     "texto": "is",
+     "inicio": 21.68,
+     "fin": 21.9
+    },
+    {
+     "texto": "low,",
+     "inicio": 21.9,
+     "fin": 22.12
+    },
+    {
+     "texto": "so",
+     "inicio": 22.34,
+     "fin": 22.46
+    },
+    {
+     "texto": "swap",
+     "inicio": 22.46,
+     "fin": 22.74
+    },
+    {
+     "texto": "it.",
+     "inicio": 22.74,
+     "fin": 22.94
+    },
+    {
+     "texto": "If",
+     "inicio": 23.3,
+     "fin": 23.4
+    },
+    {
+     "texto": "it",
+     "inicio": 23.4,
+     "fin": 23.52
+    },
+    {
+     "texto": "keeps",
+     "inicio": 23.52,
+     "fin": 23.72
+    },
+    {
+     "texto": "chirping,",
+     "inicio": 23.72,
+     "fin": 24.1
+    },
+    {
+     "texto": "or",
+     "inicio": 24.3,
+     "fin": 24.48
+    },
+    {
+     "texto": "it's",
+     "inicio": 24.48,
+     "fin": 24.62
+    },
+    {
+     "texto": "a",
+     "inicio": 24.62,
+     "fin": 24.74
+    },
+    {
+     "texto": "sealed",
+     "inicio": 24.74,
+     "fin": 24.98
+    },
+    {
+     "texto": "ten-year",
+     "inicio": 24.98,
+     "fin": 25.5
+    },
+    {
+     "texto": "alarm,",
+     "inicio": 25.5,
+     "fin": 25.88
+    },
+    {
+     "texto": "replace",
+     "inicio": 26.26,
+     "fin": 26.52
+    },
+    {
+     "texto": "the",
+     "inicio": 26.52,
+     "fin": 26.76
+    },
+    {
+     "texto": "whole",
+     "inicio": 26.76,
+     "fin": 26.92
+    },
+    {
+     "texto": "alarm.",
+     "inicio": 26.92,
+     "fin": 27.24
+    }
+   ],
+   "inicio": 19.64,
+   "fin": 27.24
+  },
+  {
+   "texto": "Save this: test it monthly, and replace it ten years after the date on the back.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 27.24,
+     "fin": 27.94
+    },
+    {
+     "texto": "this:",
+     "inicio": 27.94,
+     "fin": 28.2
+    },
+    {
+     "texto": "test",
+     "inicio": 28.64,
+     "fin": 28.86
+    },
+    {
+     "texto": "it",
+     "inicio": 28.86,
+     "fin": 29.0
+    },
+    {
+     "texto": "monthly,",
+     "inicio": 29.0,
+     "fin": 29.28
+    },
+    {
+     "texto": "and",
+     "inicio": 29.74,
+     "fin": 29.82
+    },
+    {
+     "texto": "replace",
+     "inicio": 29.82,
+     "fin": 30.1
+    },
+    {
+     "texto": "it",
+     "inicio": 30.1,
+     "fin": 30.34
+    },
+    {
+     "texto": "ten",
+     "inicio": 30.34,
+     "fin": 30.7
+    },
+    {
+     "texto": "years",
+     "inicio": 30.7,
+     "fin": 30.98
+    },
+    {
+     "texto": "after",
+     "inicio": 30.98,
+     "fin": 31.36
+    },
+    {
+     "texto": "the",
+     "inicio": 31.36,
+     "fin": 31.52
+    },
+    {
+     "texto": "date",
+     "inicio": 31.52,
+     "fin": 31.74
+    },
+    {
+     "texto": "on",
+     "inicio": 31.74,
+     "fin": 31.92
+    },
+    {
+     "texto": "the",
+     "inicio": 31.92,
+     "fin": 32.02
+    },
+    {
+     "texto": "back.",
+     "inicio": 32.02,
+     "fin": 32.22
+    }
+   ],
+   "inicio": 27.24,
+   "fin": 32.22
+  },
+  {
+   "texto": "How old is your smoke alarm? Give me a number.",
+   "palabras": [
+    {
+     "texto": "How",
+     "inicio": 32.72,
+     "fin": 32.96
+    },
+    {
+     "texto": "old",
+     "inicio": 32.96,
+     "fin": 33.1
+    },
+    {
+     "texto": "is",
+     "inicio": 33.1,
+     "fin": 33.22
+    },
+    {
+     "texto": "your",
+     "inicio": 33.22,
+     "fin": 33.32
+    },
+    {
+     "texto": "smoke",
+     "inicio": 33.32,
+     "fin": 33.54
+    },
+    {
+     "texto": "alarm?",
+     "inicio": 33.54,
+     "fin": 33.82
+    },
+    {
+     "texto": "Give",
+     "inicio": 34.22,
+     "fin": 34.28
+    },
+    {
+     "texto": "me",
+     "inicio": 34.28,
+     "fin": 34.4
+    },
+    {
+     "texto": "a",
+     "inicio": 34.4,
+     "fin": 34.46
+    },
+    {
+     "texto": "number.",
+     "inicio": 34.46,
+     "fin": 34.64
+    }
+   ],
+   "inicio": 32.72,
+   "fin": 34.64
+  },
+  {
+   "texto": "Send this to the friend who has never checked the date on their alarm.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 35.22,
+     "fin": 35.36
+    },
+    {
+     "texto": "this",
+     "inicio": 35.36,
+     "fin": 35.54
+    },
+    {
+     "texto": "to",
+     "inicio": 35.54,
+     "fin": 35.7
+    },
+    {
+     "texto": "the",
+     "inicio": 35.7,
+     "fin": 35.82
+    },
+    {
+     "texto": "friend",
+     "inicio": 35.82,
+     "fin": 36.06
+    },
+    {
+     "texto": "who",
+     "inicio": 36.06,
+     "fin": 36.52
+    },
+    {
+     "texto": "has",
+     "inicio": 36.52,
+     "fin": 36.68
+    },
+    {
+     "texto": "never",
+     "inicio": 36.68,
+     "fin": 37.06
+    },
+    {
+     "texto": "checked",
+     "inicio": 37.06,
+     "fin": 37.36
+    },
+    {
+     "texto": "the",
+     "inicio": 37.36,
+     "fin": 37.54
+    },
+    {
+     "texto": "date",
+     "inicio": 37.54,
+     "fin": 37.72
+    },
+    {
+     "texto": "on",
+     "inicio": 37.72,
+     "fin": 37.88
+    },
+    {
+     "texto": "their",
+     "inicio": 37.88,
+     "fin": 38.0
+    },
+    {
+     "texto": "alarm.",
+     "inicio": 38.0,
+     "fin": 38.24
+    }
+   ],
+   "inicio": 35.22,
+   "fin": 38.24
+  }
+ ]
+}

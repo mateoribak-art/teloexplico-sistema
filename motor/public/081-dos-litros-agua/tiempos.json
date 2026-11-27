@@ -1,0 +1,885 @@
+{
+ "duracion": 58.1,
+ "frases": [
+  {
+   "texto": "Andás con la botella de dos litros a todos lados porque te dijeron que hay que tomarlos sí o sí.",
+   "palabras": [
+    {
+     "texto": "Andás",
+     "inicio": 0.0,
+     "fin": 0.22
+    },
+    {
+     "texto": "con",
+     "inicio": 0.22,
+     "fin": 0.4
+    },
+    {
+     "texto": "la",
+     "inicio": 0.4,
+     "fin": 0.52
+    },
+    {
+     "texto": "botella",
+     "inicio": 0.52,
+     "fin": 0.9
+    },
+    {
+     "texto": "de",
+     "inicio": 0.9,
+     "fin": 1.04
+    },
+    {
+     "texto": "dos",
+     "inicio": 1.04,
+     "fin": 1.2
+    },
+    {
+     "texto": "litros",
+     "inicio": 1.2,
+     "fin": 1.58
+    },
+    {
+     "texto": "a",
+     "inicio": 1.58,
+     "fin": 1.76
+    },
+    {
+     "texto": "todos",
+     "inicio": 1.76,
+     "fin": 2.02
+    },
+    {
+     "texto": "lados",
+     "inicio": 2.02,
+     "fin": 2.32
+    },
+    {
+     "texto": "porque",
+     "inicio": 2.32,
+     "fin": 2.86
+    },
+    {
+     "texto": "te",
+     "inicio": 2.86,
+     "fin": 3.06
+    },
+    {
+     "texto": "dijeron",
+     "inicio": 3.06,
+     "fin": 3.44
+    },
+    {
+     "texto": "que",
+     "inicio": 3.44,
+     "fin": 3.58
+    },
+    {
+     "texto": "hay",
+     "inicio": 3.58,
+     "fin": 3.64
+    },
+    {
+     "texto": "que",
+     "inicio": 3.64,
+     "fin": 3.74
+    },
+    {
+     "texto": "tomarlos",
+     "inicio": 3.74,
+     "fin": 4.12
+    },
+    {
+     "texto": "sí",
+     "inicio": 4.12,
+     "fin": 4.56
+    },
+    {
+     "texto": "o",
+     "inicio": 4.56,
+     "fin": 4.66
+    },
+    {
+     "texto": "sí.",
+     "inicio": 4.66,
+     "fin": 4.86
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 4.86
+  },
+  {
+   "texto": "Es al revés: no hay una cifra mágica igual para todos.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 5.26,
+     "fin": 5.48
+    },
+    {
+     "texto": "al",
+     "inicio": 5.48,
+     "fin": 5.64
+    },
+    {
+     "texto": "revés:",
+     "inicio": 5.64,
+     "fin": 6.08
+    },
+    {
+     "texto": "no",
+     "inicio": 6.62,
+     "fin": 6.74
+    },
+    {
+     "texto": "hay",
+     "inicio": 6.74,
+     "fin": 6.86
+    },
+    {
+     "texto": "una",
+     "inicio": 6.86,
+     "fin": 7.0
+    },
+    {
+     "texto": "cifra",
+     "inicio": 7.0,
+     "fin": 7.38
+    },
+    {
+     "texto": "mágica",
+     "inicio": 7.38,
+     "fin": 7.98
+    },
+    {
+     "texto": "igual",
+     "inicio": 7.98,
+     "fin": 8.36
+    },
+    {
+     "texto": "para",
+     "inicio": 8.36,
+     "fin": 8.58
+    },
+    {
+     "texto": "todos.",
+     "inicio": 8.58,
+     "fin": 8.92
+    }
+   ],
+   "inicio": 5.26,
+   "fin": 8.92
+  },
+  {
+   "texto": "Las Academias Nacionales de Estados Unidos, en dos mil cuatro, fijaron una ingesta adecuada de agua total para adultos sanos, calculada con lo que toma la gente en promedio.",
+   "palabras": [
+    {
+     "texto": "Las",
+     "inicio": 9.56,
+     "fin": 9.74
+    },
+    {
+     "texto": "Academias",
+     "inicio": 9.74,
+     "fin": 10.18
+    },
+    {
+     "texto": "Nacionales",
+     "inicio": 10.18,
+     "fin": 10.7
+    },
+    {
+     "texto": "de",
+     "inicio": 10.7,
+     "fin": 10.78
+    },
+    {
+     "texto": "Estados",
+     "inicio": 10.78,
+     "fin": 10.96
+    },
+    {
+     "texto": "Unidos,",
+     "inicio": 10.96,
+     "fin": 11.42
+    },
+    {
+     "texto": "en",
+     "inicio": 11.74,
+     "fin": 11.94
+    },
+    {
+     "texto": "dos",
+     "inicio": 11.94,
+     "fin": 12.04
+    },
+    {
+     "texto": "mil",
+     "inicio": 12.04,
+     "fin": 12.18
+    },
+    {
+     "texto": "cuatro,",
+     "inicio": 12.18,
+     "fin": 12.5
+    },
+    {
+     "texto": "fijaron",
+     "inicio": 12.66,
+     "fin": 12.94
+    },
+    {
+     "texto": "una",
+     "inicio": 12.94,
+     "fin": 13.14
+    },
+    {
+     "texto": "ingesta",
+     "inicio": 13.14,
+     "fin": 13.44
+    },
+    {
+     "texto": "adecuada",
+     "inicio": 13.44,
+     "fin": 13.96
+    },
+    {
+     "texto": "de",
+     "inicio": 13.96,
+     "fin": 14.14
+    },
+    {
+     "texto": "agua",
+     "inicio": 14.14,
+     "fin": 14.3
+    },
+    {
+     "texto": "total",
+     "inicio": 14.3,
+     "fin": 14.78
+    },
+    {
+     "texto": "para",
+     "inicio": 14.78,
+     "fin": 15.06
+    },
+    {
+     "texto": "adultos",
+     "inicio": 15.06,
+     "fin": 15.44
+    },
+    {
+     "texto": "sanos,",
+     "inicio": 15.44,
+     "fin": 15.9
+    },
+    {
+     "texto": "calculada",
+     "inicio": 16.14,
+     "fin": 16.76
+    },
+    {
+     "texto": "con",
+     "inicio": 16.76,
+     "fin": 16.96
+    },
+    {
+     "texto": "lo",
+     "inicio": 16.96,
+     "fin": 17.06
+    },
+    {
+     "texto": "que",
+     "inicio": 17.06,
+     "fin": 17.16
+    },
+    {
+     "texto": "toma",
+     "inicio": 17.16,
+     "fin": 17.36
+    },
+    {
+     "texto": "la",
+     "inicio": 17.36,
+     "fin": 17.46
+    },
+    {
+     "texto": "gente",
+     "inicio": 17.46,
+     "fin": 17.68
+    },
+    {
+     "texto": "en",
+     "inicio": 17.68,
+     "fin": 17.8
+    },
+    {
+     "texto": "promedio.",
+     "inicio": 17.8,
+     "fin": 18.3
+    }
+   ],
+   "inicio": 9.56,
+   "fin": 18.3
+  },
+  {
+   "texto": "Unos dos litros y siete las mujeres, y tres litros y siete los hombres.",
+   "palabras": [
+    {
+     "texto": "Unos",
+     "inicio": 18.76,
+     "fin": 19.14
+    },
+    {
+     "texto": "dos",
+     "inicio": 19.14,
+     "fin": 19.4
+    },
+    {
+     "texto": "litros",
+     "inicio": 19.4,
+     "fin": 19.74
+    },
+    {
+     "texto": "y",
+     "inicio": 19.74,
+     "fin": 19.88
+    },
+    {
+     "texto": "siete",
+     "inicio": 19.88,
+     "fin": 20.16
+    },
+    {
+     "texto": "las",
+     "inicio": 20.16,
+     "fin": 20.34
+    },
+    {
+     "texto": "mujeres,",
+     "inicio": 20.34,
+     "fin": 20.66
+    },
+    {
+     "texto": "y",
+     "inicio": 21.26,
+     "fin": 21.32
+    },
+    {
+     "texto": "tres",
+     "inicio": 21.32,
+     "fin": 21.62
+    },
+    {
+     "texto": "litros",
+     "inicio": 21.62,
+     "fin": 21.96
+    },
+    {
+     "texto": "y",
+     "inicio": 21.96,
+     "fin": 22.12
+    },
+    {
+     "texto": "siete",
+     "inicio": 22.12,
+     "fin": 22.36
+    },
+    {
+     "texto": "los",
+     "inicio": 22.36,
+     "fin": 22.52
+    },
+    {
+     "texto": "hombres.",
+     "inicio": 22.52,
+     "fin": 22.82
+    }
+   ],
+   "inicio": 18.76,
+   "fin": 22.82
+  },
+  {
+   "texto": "Pero ojo: ese número cuenta todo. Agua, té, café, mate y también la que viene en la comida.",
+   "palabras": [
+    {
+     "texto": "Pero",
+     "inicio": 22.82,
+     "fin": 23.56
+    },
+    {
+     "texto": "ojo:",
+     "inicio": 23.56,
+     "fin": 24.16
+    },
+    {
+     "texto": "ese",
+     "inicio": 24.68,
+     "fin": 24.84
+    },
+    {
+     "texto": "número",
+     "inicio": 24.84,
+     "fin": 25.1
+    },
+    {
+     "texto": "cuenta",
+     "inicio": 25.1,
+     "fin": 25.46
+    },
+    {
+     "texto": "todo.",
+     "inicio": 25.46,
+     "fin": 25.88
+    },
+    {
+     "texto": "Agua,",
+     "inicio": 26.44,
+     "fin": 26.92
+    },
+    {
+     "texto": "té,",
+     "inicio": 27.36,
+     "fin": 27.48
+    },
+    {
+     "texto": "café,",
+     "inicio": 27.94,
+     "fin": 28.24
+    },
+    {
+     "texto": "mate",
+     "inicio": 28.98,
+     "fin": 29.3
+    },
+    {
+     "texto": "y",
+     "inicio": 29.3,
+     "fin": 30.04
+    },
+    {
+     "texto": "también",
+     "inicio": 30.04,
+     "fin": 30.36
+    },
+    {
+     "texto": "la",
+     "inicio": 30.36,
+     "fin": 30.48
+    },
+    {
+     "texto": "que",
+     "inicio": 30.48,
+     "fin": 30.56
+    },
+    {
+     "texto": "viene",
+     "inicio": 30.56,
+     "fin": 30.72
+    },
+    {
+     "texto": "en",
+     "inicio": 30.72,
+     "fin": 30.86
+    },
+    {
+     "texto": "la",
+     "inicio": 30.86,
+     "fin": 30.92
+    },
+    {
+     "texto": "comida.",
+     "inicio": 30.92,
+     "fin": 31.18
+    }
+   ],
+   "inicio": 22.82,
+   "fin": 31.18
+  },
+  {
+   "texto": "Alrededor de un quinto viene de la comida. O sea que no son dos litros de botella.",
+   "palabras": [
+    {
+     "texto": "Alrededor",
+     "inicio": 31.78,
+     "fin": 32.34
+    },
+    {
+     "texto": "de",
+     "inicio": 32.34,
+     "fin": 32.5
+    },
+    {
+     "texto": "un",
+     "inicio": 32.5,
+     "fin": 32.68
+    },
+    {
+     "texto": "quinto",
+     "inicio": 32.68,
+     "fin": 33.2
+    },
+    {
+     "texto": "viene",
+     "inicio": 33.2,
+     "fin": 33.66
+    },
+    {
+     "texto": "de",
+     "inicio": 33.66,
+     "fin": 33.84
+    },
+    {
+     "texto": "la",
+     "inicio": 33.84,
+     "fin": 33.94
+    },
+    {
+     "texto": "comida.",
+     "inicio": 33.94,
+     "fin": 34.34
+    },
+    {
+     "texto": "O",
+     "inicio": 34.8,
+     "fin": 34.92
+    },
+    {
+     "texto": "sea",
+     "inicio": 34.92,
+     "fin": 35.06
+    },
+    {
+     "texto": "que",
+     "inicio": 35.06,
+     "fin": 35.22
+    },
+    {
+     "texto": "no",
+     "inicio": 35.22,
+     "fin": 35.38
+    },
+    {
+     "texto": "son",
+     "inicio": 35.38,
+     "fin": 35.64
+    },
+    {
+     "texto": "dos",
+     "inicio": 35.64,
+     "fin": 35.88
+    },
+    {
+     "texto": "litros",
+     "inicio": 35.88,
+     "fin": 36.22
+    },
+    {
+     "texto": "de",
+     "inicio": 36.22,
+     "fin": 36.34
+    },
+    {
+     "texto": "botella.",
+     "inicio": 36.34,
+     "fin": 36.74
+    }
+   ],
+   "inicio": 31.78,
+   "fin": 36.74
+  },
+  {
+   "texto": "El truco para guardar: fijate que el pis sea amarillo claro. Si es oscuro, tomá más.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 37.16,
+     "fin": 37.38
+    },
+    {
+     "texto": "truco",
+     "inicio": 37.38,
+     "fin": 37.58
+    },
+    {
+     "texto": "para",
+     "inicio": 37.58,
+     "fin": 37.8
+    },
+    {
+     "texto": "guardar:",
+     "inicio": 37.8,
+     "fin": 38.18
+    },
+    {
+     "texto": "fijate",
+     "inicio": 38.7,
+     "fin": 39.08
+    },
+    {
+     "texto": "que",
+     "inicio": 39.08,
+     "fin": 39.4
+    },
+    {
+     "texto": "el",
+     "inicio": 39.4,
+     "fin": 39.54
+    },
+    {
+     "texto": "pis",
+     "inicio": 39.54,
+     "fin": 39.74
+    },
+    {
+     "texto": "sea",
+     "inicio": 39.74,
+     "fin": 40.1
+    },
+    {
+     "texto": "amarillo",
+     "inicio": 40.1,
+     "fin": 40.58
+    },
+    {
+     "texto": "claro.",
+     "inicio": 40.58,
+     "fin": 40.98
+    },
+    {
+     "texto": "Si",
+     "inicio": 41.5,
+     "fin": 41.68
+    },
+    {
+     "texto": "es",
+     "inicio": 41.68,
+     "fin": 41.78
+    },
+    {
+     "texto": "oscuro,",
+     "inicio": 41.78,
+     "fin": 42.12
+    },
+    {
+     "texto": "tomá",
+     "inicio": 42.58,
+     "fin": 42.8
+    },
+    {
+     "texto": "más.",
+     "inicio": 42.8,
+     "fin": 43.08
+    }
+   ],
+   "inicio": 37.16,
+   "fin": 43.08
+  },
+  {
+   "texto": "Ojo: con calor, ejercicio o enfermedad necesitás más, y si sos mayor, la sed puede avisar tarde.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 43.58,
+     "fin": 43.84
+    },
+    {
+     "texto": "con",
+     "inicio": 44.32,
+     "fin": 44.5
+    },
+    {
+     "texto": "calor,",
+     "inicio": 44.5,
+     "fin": 44.88
+    },
+    {
+     "texto": "ejercicio",
+     "inicio": 45.32,
+     "fin": 46.02
+    },
+    {
+     "texto": "o",
+     "inicio": 46.02,
+     "fin": 46.36
+    },
+    {
+     "texto": "enfermedad",
+     "inicio": 46.36,
+     "fin": 47.08
+    },
+    {
+     "texto": "necesitás",
+     "inicio": 47.08,
+     "fin": 47.8
+    },
+    {
+     "texto": "más,",
+     "inicio": 47.8,
+     "fin": 47.98
+    },
+    {
+     "texto": "y",
+     "inicio": 48.5,
+     "fin": 48.96
+    },
+    {
+     "texto": "si",
+     "inicio": 48.96,
+     "fin": 49.02
+    },
+    {
+     "texto": "sos",
+     "inicio": 49.02,
+     "fin": 49.2
+    },
+    {
+     "texto": "mayor,",
+     "inicio": 49.2,
+     "fin": 49.52
+    },
+    {
+     "texto": "la",
+     "inicio": 50.04,
+     "fin": 50.08
+    },
+    {
+     "texto": "sed",
+     "inicio": 50.08,
+     "fin": 50.3
+    },
+    {
+     "texto": "puede",
+     "inicio": 50.3,
+     "fin": 50.66
+    },
+    {
+     "texto": "avisar",
+     "inicio": 50.66,
+     "fin": 51.06
+    },
+    {
+     "texto": "tarde.",
+     "inicio": 51.06,
+     "fin": 51.34
+    }
+   ],
+   "inicio": 43.58,
+   "fin": 51.34
+  },
+  {
+   "texto": "¿Cuántos litros tomás vos por día? Contestá con un número.",
+   "palabras": [
+    {
+     "texto": "¿Cuántos",
+     "inicio": 51.34,
+     "fin": 52.16
+    },
+    {
+     "texto": "litros",
+     "inicio": 52.16,
+     "fin": 52.46
+    },
+    {
+     "texto": "tomás",
+     "inicio": 52.46,
+     "fin": 52.76
+    },
+    {
+     "texto": "vos",
+     "inicio": 52.76,
+     "fin": 52.9
+    },
+    {
+     "texto": "por",
+     "inicio": 52.9,
+     "fin": 53.14
+    },
+    {
+     "texto": "día?",
+     "inicio": 53.14,
+     "fin": 53.36
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 53.9,
+     "fin": 54.34
+    },
+    {
+     "texto": "con",
+     "inicio": 54.34,
+     "fin": 54.54
+    },
+    {
+     "texto": "un",
+     "inicio": 54.54,
+     "fin": 54.64
+    },
+    {
+     "texto": "número.",
+     "inicio": 54.64,
+     "fin": 54.96
+    }
+   ],
+   "inicio": 51.34,
+   "fin": 54.96
+  },
+  {
+   "texto": "Mandáselo al que anda con el botellón a todos lados.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 55.76,
+     "fin": 56.22
+    },
+    {
+     "texto": "al",
+     "inicio": 56.22,
+     "fin": 56.34
+    },
+    {
+     "texto": "que",
+     "inicio": 56.34,
+     "fin": 56.46
+    },
+    {
+     "texto": "anda",
+     "inicio": 56.46,
+     "fin": 56.6
+    },
+    {
+     "texto": "con",
+     "inicio": 56.6,
+     "fin": 56.76
+    },
+    {
+     "texto": "el",
+     "inicio": 56.76,
+     "fin": 56.88
+    },
+    {
+     "texto": "botellón",
+     "inicio": 56.88,
+     "fin": 57.34
+    },
+    {
+     "texto": "a",
+     "inicio": 57.34,
+     "fin": 57.42
+    },
+    {
+     "texto": "todos",
+     "inicio": 57.42,
+     "fin": 57.58
+    },
+    {
+     "texto": "lados.",
+     "inicio": 57.58,
+     "fin": 57.84
+    }
+   ],
+   "inicio": 55.76,
+   "fin": 57.84
+  }
+ ]
+}

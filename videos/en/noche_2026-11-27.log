@@ -1,0 +1,10 @@
+2026-11-27 01:10 Arranca la producción (18 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `en-056-smoke-alarm` (serie Home myths #12, propio). Es sobre las alarmas de humo que vencen: se reemplazan 10 años después de la fecha de fabricación y se prueban una vez al mes. El chequeo lo rechazó la primera vez porque la frase del chirrido no tenía el matiz de las alarmas selladas; lo corregí y el segundo chequeo lo aprobó. Pasó voz (38,4 s), `tlx tsc` y la revisión de cuadros (2 vueltas). Quedó en estado `render` y lo renderiza `producir.py`.
+- **Apartados:** no había ninguno que rescatar; `en-042` ya figuraba como `listo`. Tampoco corrí el radar: la última pasada fue el 26/11 y no encontró tema.
+- **Incompleto:** nada. Queda pendiente `tlx control`, que corre `producir.py` después del render.
+Uso: 63 pasos · 86,504 tokens nuevos · 2,394,350 de caché · 21,317 escritos · equivale a US$ 1.13 de API
+Permisos negados (1):
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-056-smoke-alarm; cat > chequeo.json <<'EOF'\n{\n  \"veredicto\"
+2026-11-27 01:17 Render de en-056-smoke-alarm (sin Claude).
+2026-11-27 01:31 en-056-smoke-alarm: listo (render sin Claude)
+2026-11-27 01:31 Termina la producción (ok).

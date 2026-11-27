@@ -61,6 +61,7 @@ import { DURACION as DUR_076, FPS as FPS_076, CalentarElAuto3D, Portada076 } fro
 import { DURACION as DUR_077, FPS as FPS_077, ApellidosGonzalez3D, Portada077 } from "./videos/077-apellidos-gonzalez/Video";
 import { DURACION as DUR_078, FPS as FPS_078, PiedraPapelTijera3D, Portada078 } from "./videos/078-piedra-papel-tijera/Video";
 import { DURACION as DUR_079,FPS as FPS_079, LeerPocaLuz3D, Portada079 } from "./videos/079-leer-poca-luz/Video";
+import { DURACION as DUR_081, FPS as FPS_081, DosLitrosAgua3D, Portada081 } from "./videos/081-dos-litros-agua/Video";
 import { DURACION as DUR_075, FPS as FPS_075, ParabrisasEmpanado3D, Portada075 } from "./videos/075-parabrisas-empanado/Video";
 import { DURACION as DUR_064,FPS as FPS_064, NudillosArtritis3D, Portada064 } from "./videos/064-nudillos-artritis/Video";
 import { DURACION as DUR_062,FPS as FPS_062, PoteMicroondas3D, Portada062 } from "./videos/062-pote-microondas/Video";
@@ -112,7 +113,8 @@ import { DURACION as DUR_EN047, FPS as FPS_EN047, DogPeopleFoodEn047, PortadaEn0
 import { DURACION as DUR_EN048, FPS as FPS_EN048, EggsFridgeEn048, PortadaEn048 } from "./videos/en-048-eggs-fridge/Video";
 import { DURACION as DUR_EN052, FPS as FPS_EN052, CloudySunscreenEn052, PortadaEn052 } from "./videos/en-052-cloudy-sunscreen/Video";
 import { DURACION as DUR_EN049,FPS as FPS_EN049, SpaceHeaterEn049, PortadaEn049 } from "./videos/en-049-space-heater/Video";
-import { DURACION as DUR_EN054, FPS as FPS_EN054, TreeLightsEn054, PortadaEn054 } from "./videos/en-054-tree-lights/Video";
+import { DURACION as DUR_EN056, FPS as FPS_EN056, SmokeAlarmEn056, PortadaEn056 } from "./videos/en-056-smoke-alarm/Video";
+import { DURACION as DUR_EN054,FPS as FPS_EN054, TreeLightsEn054, PortadaEn054 } from "./videos/en-054-tree-lights/Video";
 import { DURACION as DUR_EN055, FPS as FPS_EN055, SaltIceEn055, PortadaEn055 } from "./videos/en-055-salt-ice/Video";
 import { DURACION as DUR_EN041,FPS as FPS_EN041, PastaOilEn041, PortadaEn041 } from "./videos/en-041-pasta-oil/Video";
 import { DURACION as DUR_EN042, FPS as FPS_EN042, FrozenPipesEn042, PortadaEn042 } from "./videos/en-042-frozen-pipes/Video";
@@ -256,6 +258,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p078-piedra-papel-tijera" component={Portada078} width={ANCHO} height={ALTO} />
         <Composition id="h079-leer-poca-luz"component={LeerPocaLuz3D} durationInFrames={DUR_079} fps={FPS_079} width={ANCHO} height={ALTO} />
         <Still id="p079-leer-poca-luz" component={Portada079} width={ANCHO} height={ALTO} />
+        <Composition id="h081-dos-litros-agua" component={DosLitrosAgua3D} durationInFrames={DUR_081} fps={FPS_081} width={ANCHO} height={ALTO} />
+        <Still id="p081-dos-litros-agua" component={Portada081} width={ANCHO} height={ALTO} />
         <Composition id="h056-gta-trece-anios"component={GtaTreceAnios3D} durationInFrames={DUR_056} fps={FPS_056} width={ANCHO} height={ALTO} />
         <Still id="p056-gta-trece-anios" component={Portada056} width={ANCHO} height={ALTO} />
         <Composition id="h055-gta-vice-city-miami"component={GtaViceCityMiami3D} durationInFrames={DUR_055} fps={FPS_055} width={ANCHO} height={ALTO} />
@@ -347,6 +351,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-054-tree-lights" component={PortadaEn054} width={ANCHO} height={ALTO} />
         <Composition id="hen-055-salt-ice" component={SaltIceEn055} durationInFrames={DUR_EN055} fps={FPS_EN055} width={ANCHO} height={ALTO} />
         <Still id="pen-055-salt-ice" component={PortadaEn055} width={ANCHO} height={ALTO} />
+        <Composition id="hen-056-smoke-alarm" component={SmokeAlarmEn056} durationInFrames={DUR_EN056} fps={FPS_EN056} width={ANCHO} height={ALTO} />
+        <Still id="pen-056-smoke-alarm" component={PortadaEn056} width={ANCHO} height={ALTO} />
         <Composition id="hen-012-thunder-count" component={ThunderCountEn012} durationInFrames={DUR_EN012} fps={FPS_EN012} width={ANCHO} height={ALTO} />
         <Still id="pen-012-thunder-count" component={PortadaEn012} width={ANCHO} height={ALTO} />
         <Composition id="hen-013-searing-juices" component={SearingJuicesEn013} durationInFrames={DUR_EN013} fps={FPS_EN013} width={ANCHO} height={ALTO} />
