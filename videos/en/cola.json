@@ -1344,7 +1344,7 @@
  {
   "slug": "en-038-lake-effect-snow",
   "tema": "What is lake-effect snow? (NWS; Great Lakes)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1365,6 +1365,11 @@
     "estado": "listo",
     "cuando": "2026-11-22T09:37",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-27T12:35",
+    "motivo": "https://www.instagram.com/reel/DgQA3IrNooN/"
    }
   ]
  },

@@ -2476,7 +2476,7 @@
  {
   "slug": "064-nudillos-artritis",
   "tema": "¿Crujirse los nudillos da artritis? Harvard Health, DeWeber 2011",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -2497,6 +2497,11 @@
     "estado": "listo",
     "cuando": "2026-11-22T09:03",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-27T12:32",
+    "motivo": "https://www.instagram.com/reel/DgQAjm-F-G8/"
    }
   ]
  },
