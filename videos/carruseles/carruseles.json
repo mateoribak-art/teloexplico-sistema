@@ -369,7 +369,7 @@
  },
  {
   "clave": "apagon-heladera",
-  "estado": "listo",
+  "estado": "publicado",
   "origen": [
    "036-apagon-heladera"
   ],
@@ -378,6 +378,11 @@
     "estado": "listo",
     "cuando": "2026-11-25T01:51",
     "motivo": "control OK"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-26T23:00",
+    "motivo": "https://www.instagram.com/p/DgOjqOfDQQ2/"
    }
   ]
  },
