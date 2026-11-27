@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones tienen sustento en la nota de BBC News Mundo (autora Analía Llorente, republicada por 24horas.cl el 31/12/2022). Las atribuciones (BBC Mundo, Joaquín Hidalgo) son comprobables. No hay cifras, salud, seguridad ni plata. Las afirmaciones probables/dudosas (origen alemán, Carlos V 1527) están presentadas como teoría o versión ('vendría', 'según la teoría más divulgada', 'habría llegado', 'son versiones'). Ninguna falsa. Observaciones menores no bloqueantes: (1) 'nadie lo sabe' es más tajante que la nota ('no se sabe exactamente'), pero lo suaviza la frase 3 de la narración; (2) 'llegó con soldados' simplifica: la nota dice que llegó al español por el italiano y que 'dicen' que los soldados brindaron con esa frase tras el saqueo de Roma; queda cubierto por el encuadre de teoría y por el cierre 'son versiones'; (3) la nota traduce la frase como 'yo te lo ofrezco o traigo', consistente con 'algo como te lo ofrezco'.",
+  "afirmaciones": [
+    {
+      "texto": "En Navidad vas a chocar la copa, y nadie te explicó por qué.",
+      "fuente": "Gancho retórico, no es afirmación fáctica verificable; la costumbre de brindar en Navidad es de uso común (BBC Mundo describe el brindis de fin de año).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y la verdad es que nadie lo sabe. / Spoiler: nadie lo sabe.",
+      "fuente": "BBC News Mundo, Analía Llorente (24horas.cl, 31/12/2022): 'No se sabe exactamente cuál es el origen de esta tradición... una práctica social muy difícil de rastrear'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "BBC Mundo cuenta que el origen de chocar las copas no se sabe con exactitud.",
+      "fuente": "https://www.24horas.cl/internacional/noticias-bbc/4-curiosidades-sobre-el-brindis-y-como-lo-hacemos-en-america-latina-espana (BBC News Mundo, Analía Llorente). Cita textual coincidente.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La versión más famosa dice que era para mezclar los líquidos y evitar el veneno, pero la propia nota la llama infundada.",
+      "fuente": "Misma nota BBC Mundo: la teoría del veneno (mezclar líquidos para contaminar todas las copas) es 'infundada'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "La palabra brindis, en cambio, vendría del alemán, algo como te lo ofrezco.",
+      "fuente": "BBC Mundo: raíz germánica, 'ich brind dir's', traducida 'yo te lo ofrezco o traigo'; corroborado como etimología popular por Cronista y Billiken, sin documentación primaria.",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Según la teoría más divulgada, llegó con soldados de Carlos Quinto, en mil quinientos veintisiete. / habría llegado con soldados de Carlos Quinto en 1527.",
+      "fuente": "BBC Mundo: llegó al español vía el italiano en el siglo XVI; 'dicen que los soldados celebraron su triunfo alzando sus copas' tras el saqueo de Roma de 1527 por tropas de Carlos V. El saqueo de Roma (6/5/1527) es hecho histórico; la anécdota del brindis no tiene fuente primaria.",
+      "estado": "dudosa",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Y mirar a los ojos tiene su explicación: el periodista Joaquín Hidalgo dice que es un acto de confianza.",
+      "fuente": "BBC Mundo: Joaquín Hidalgo, periodista argentino especializado en vinos (Vinómanos): 'rubricar un acto de confianza mirando a los ojos del otro'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: nada de esto está documentado, son versiones.",
+      "fuente": "Consistente con BBC Mundo (origen difícil de rastrear, versiones con 'dicen') y con la búsqueda web: sin documentación primaria de la anécdota de 1527.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Fuentes: BBC Mundo (4 curiosidades sobre el brindis) / fuentes del guion.",
+      "fuente": "Título y medio coinciden con la nota original.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

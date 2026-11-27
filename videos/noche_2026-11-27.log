@@ -18,3 +18,11 @@ Uso: 25 pasos · 21,986 tokens nuevos · 1,621,873 de caché · 8,685 escritos �
 2026-11-27 10:02 Render de 082-microondas-vitaminas (sin Claude).
 2026-11-27 10:25 082-microondas-vitaminas: listo (render sin Claude)
 2026-11-27 10:25 Termina la producción (ok).
+2026-11-27 16:08 Arranca la producción (18 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `083-brindis-copas` (¿por qué chocamos las copas al brindar?, serie costumbres #11). Chequeo aprobado al primer intento (BBC Mundo; el origen se presenta como versiones), voz de 46,8 s, `tsc` OK y 2 vueltas de cuadros. Está en estado `render`, que lo hace `producir.py`.
+- **Apartado:** `083-luz-prendida-apagada`, que descarté yo (no fue un chequeo rechazado): es un tema de plata y no pude traer la página oficial del DOE (daba 404). No hay rescates: 005, 038, 042, 044 y 051 siguen apartados por motivos que no son el chequeo.
+- **Incompleto / no producido:** no hice un segundo video porque la cola ya tenía 18 listos, más de los 10 que pide la regla. Tampoco corrí el radar hoy; el de ayer no encontró tema.
+Uso: 26 pasos · 30,245 tokens nuevos · 1,720,266 de caché · 11,305 escritos · equivale a US$ 1.12 de API
+2026-11-27 16:15 Render de 083-brindis-copas (sin Claude).
+2026-11-27 16:32 083-brindis-copas: listo (render sin Claude)
+2026-11-27 16:32 Termina la producción (ok).

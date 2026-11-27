@@ -1890,5 +1890,32 @@
     "motivo": "render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So what do you usually tip? Give me a percent, send this to the friend who pulls out a calculator at dinner.\nPROBLEMAS:\n- la voz no coincide con el guion (87%)"
    }
   ]
+ },
+ {
+  "slug": "en-058-refreeze-meat",
+  "tema": "Can you refreeze thawed meat? (USDA FSIS; own; kitchen)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-27T16:32",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-27T16:32",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-27T16:36",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-27T16:50",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

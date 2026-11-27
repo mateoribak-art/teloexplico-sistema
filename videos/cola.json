@@ -3025,5 +3025,49 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "083-luz-prendida-apagada",
+  "tema": "¿Gasta más prender la luz que dejarla prendida? No: apagá al salir (DOE)",
+  "estado": "apartado",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-27T16:08",
+    "motivo": ""
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-27T16:09",
+    "motivo": "descartada: sin fuente primaria accesible (energy.gov 404), tema de plata"
+   }
+  ]
+ },
+ {
+  "slug": "083-brindis-copas",
+  "tema": "¿Por qué se chocan las copas al brindar? Nadie sabe: versiones y costumbres (BBC Mundo)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-27T16:09",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-27T16:09",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-27T16:14",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-27T16:32",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

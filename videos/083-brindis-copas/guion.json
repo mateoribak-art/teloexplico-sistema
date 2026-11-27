@@ -1,0 +1,24 @@
+{
+  "titulo": "¿Por qué chocamos las copas al brindar?",
+  "fondo": "oscuro",
+  "receta": "Mito + zoom adentro",
+  "pilar": "argentina",
+  "interaccion": ["comentar"],
+  "destinatario": "se lo manda uno que ya prepara el brindis de Navidad a otro que brinda mirando el celular, para decirle que mire a los ojos",
+  "regla_guardable": "Sin cifra: origen incierto; costumbre de brindar mirando a los ojos.",
+  "fuentes": [
+    "BBC Mundo, 4 curiosidades sobre el brindis y cómo lo hacemos en América Latina y España"
+  ],
+  "frases": [
+    {"texto": "En Navidad vas a chocar la copa, y nadie te explicó por qué.", "estilo": "Seco, directo, con media sonrisa."},
+    {"texto": "Y la verdad es que nadie lo sabe.", "estilo": "Seco y contundente."},
+    {"texto": "BBC Mundo cuenta que el origen de chocar las copas no se sabe con exactitud.", "estilo": "Informativo, con autoridad."},
+    {"texto": "La versión más famosa dice que era para mezclar los líquidos y evitar el veneno, pero la propia nota la llama infundada.", "estilo": "Con sorpresa."},
+    {"texto": "La palabra brindis, en cambio, vendría del alemán, algo como te lo ofrezco.", "estilo": "Claro, didáctico."},
+    {"texto": "Según la teoría más divulgada, llegó con soldados de Carlos Quinto, en mil quinientos veintisiete.", "estilo": "Claro, con ritmo."},
+    {"texto": "Y mirar a los ojos tiene su explicación: el periodista Joaquín Hidalgo dice que es un acto de confianza.", "estilo": "Cercano."},
+    {"texto": "Ojo: nada de esto está documentado, son versiones.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "¿Vos mirás a los ojos al brindar? Contestá sí o no.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al que brinda mirando el celular.", "estilo": "Cómplice, con humor."}
+  ]
+}

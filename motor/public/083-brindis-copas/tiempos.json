@@ -1,0 +1,730 @@
+{
+ "duracion": 46.75,
+ "frases": [
+  {
+   "texto": "En Navidad vas a chocar la copa, y nadie te explicó por qué.",
+   "palabras": [
+    {
+     "texto": "En",
+     "inicio": 0.0,
+     "fin": 0.14
+    },
+    {
+     "texto": "Navidad",
+     "inicio": 0.14,
+     "fin": 0.5
+    },
+    {
+     "texto": "vas",
+     "inicio": 0.5,
+     "fin": 0.8
+    },
+    {
+     "texto": "a",
+     "inicio": 0.8,
+     "fin": 0.92
+    },
+    {
+     "texto": "chocar",
+     "inicio": 0.92,
+     "fin": 1.16
+    },
+    {
+     "texto": "la",
+     "inicio": 1.16,
+     "fin": 1.4
+    },
+    {
+     "texto": "copa,",
+     "inicio": 1.4,
+     "fin": 1.78
+    },
+    {
+     "texto": "y",
+     "inicio": 2.1,
+     "fin": 2.44
+    },
+    {
+     "texto": "nadie",
+     "inicio": 2.44,
+     "fin": 2.72
+    },
+    {
+     "texto": "te",
+     "inicio": 2.72,
+     "fin": 2.9
+    },
+    {
+     "texto": "explicó",
+     "inicio": 2.9,
+     "fin": 3.3
+    },
+    {
+     "texto": "por",
+     "inicio": 3.3,
+     "fin": 3.46
+    },
+    {
+     "texto": "qué.",
+     "inicio": 3.46,
+     "fin": 3.62
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.62
+  },
+  {
+   "texto": "Y la verdad es que nadie lo sabe.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 4.08,
+     "fin": 4.26
+    },
+    {
+     "texto": "la",
+     "inicio": 4.26,
+     "fin": 4.36
+    },
+    {
+     "texto": "verdad",
+     "inicio": 4.36,
+     "fin": 4.52
+    },
+    {
+     "texto": "es",
+     "inicio": 4.52,
+     "fin": 4.72
+    },
+    {
+     "texto": "que",
+     "inicio": 4.72,
+     "fin": 4.86
+    },
+    {
+     "texto": "nadie",
+     "inicio": 4.86,
+     "fin": 5.14
+    },
+    {
+     "texto": "lo",
+     "inicio": 5.14,
+     "fin": 5.36
+    },
+    {
+     "texto": "sabe.",
+     "inicio": 5.36,
+     "fin": 5.64
+    }
+   ],
+   "inicio": 4.08,
+   "fin": 5.64
+  },
+  {
+   "texto": "BBC Mundo cuenta que el origen de chocar las copas no se sabe con exactitud.",
+   "palabras": [
+    {
+     "texto": "BBC",
+     "inicio": 6.12,
+     "fin": 6.52
+    },
+    {
+     "texto": "Mundo",
+     "inicio": 6.52,
+     "fin": 6.8
+    },
+    {
+     "texto": "cuenta",
+     "inicio": 6.8,
+     "fin": 7.12
+    },
+    {
+     "texto": "que",
+     "inicio": 7.12,
+     "fin": 7.4
+    },
+    {
+     "texto": "el",
+     "inicio": 7.4,
+     "fin": 7.52
+    },
+    {
+     "texto": "origen",
+     "inicio": 7.52,
+     "fin": 7.86
+    },
+    {
+     "texto": "de",
+     "inicio": 7.86,
+     "fin": 7.98
+    },
+    {
+     "texto": "chocar",
+     "inicio": 7.98,
+     "fin": 8.32
+    },
+    {
+     "texto": "las",
+     "inicio": 8.32,
+     "fin": 8.52
+    },
+    {
+     "texto": "copas",
+     "inicio": 8.52,
+     "fin": 8.96
+    },
+    {
+     "texto": "no",
+     "inicio": 8.96,
+     "fin": 9.46
+    },
+    {
+     "texto": "se",
+     "inicio": 9.46,
+     "fin": 9.62
+    },
+    {
+     "texto": "sabe",
+     "inicio": 9.62,
+     "fin": 9.84
+    },
+    {
+     "texto": "con",
+     "inicio": 9.84,
+     "fin": 10.02
+    },
+    {
+     "texto": "exactitud.",
+     "inicio": 10.02,
+     "fin": 10.58
+    }
+   ],
+   "inicio": 6.12,
+   "fin": 10.58
+  },
+  {
+   "texto": "La versión más famosa dice que era para mezclar los líquidos y evitar el veneno, pero la propia nota la llama infundada.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 11.06,
+     "fin": 11.38
+    },
+    {
+     "texto": "versión",
+     "inicio": 11.38,
+     "fin": 11.62
+    },
+    {
+     "texto": "más",
+     "inicio": 11.62,
+     "fin": 11.78
+    },
+    {
+     "texto": "famosa",
+     "inicio": 11.78,
+     "fin": 12.2
+    },
+    {
+     "texto": "dice",
+     "inicio": 12.2,
+     "fin": 12.46
+    },
+    {
+     "texto": "que",
+     "inicio": 12.46,
+     "fin": 12.64
+    },
+    {
+     "texto": "era",
+     "inicio": 12.64,
+     "fin": 12.78
+    },
+    {
+     "texto": "para",
+     "inicio": 12.78,
+     "fin": 13.0
+    },
+    {
+     "texto": "mezclar",
+     "inicio": 13.0,
+     "fin": 13.5
+    },
+    {
+     "texto": "los",
+     "inicio": 13.5,
+     "fin": 13.66
+    },
+    {
+     "texto": "líquidos",
+     "inicio": 13.66,
+     "fin": 14.12
+    },
+    {
+     "texto": "y",
+     "inicio": 14.12,
+     "fin": 14.4
+    },
+    {
+     "texto": "evitar",
+     "inicio": 14.4,
+     "fin": 14.72
+    },
+    {
+     "texto": "el",
+     "inicio": 14.72,
+     "fin": 14.86
+    },
+    {
+     "texto": "veneno,",
+     "inicio": 14.86,
+     "fin": 15.24
+    },
+    {
+     "texto": "pero",
+     "inicio": 15.62,
+     "fin": 15.9
+    },
+    {
+     "texto": "la",
+     "inicio": 15.9,
+     "fin": 16.2
+    },
+    {
+     "texto": "propia",
+     "inicio": 16.2,
+     "fin": 16.42
+    },
+    {
+     "texto": "nota",
+     "inicio": 16.42,
+     "fin": 16.74
+    },
+    {
+     "texto": "la",
+     "inicio": 16.74,
+     "fin": 16.96
+    },
+    {
+     "texto": "llama",
+     "inicio": 16.96,
+     "fin": 17.22
+    },
+    {
+     "texto": "infundada.",
+     "inicio": 17.22,
+     "fin": 18.12
+    }
+   ],
+   "inicio": 11.06,
+   "fin": 18.12
+  },
+  {
+   "texto": "La palabra brindis, en cambio, vendría del alemán, algo como te lo ofrezco.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 18.66,
+     "fin": 18.78
+    },
+    {
+     "texto": "palabra",
+     "inicio": 18.78,
+     "fin": 19.06
+    },
+    {
+     "texto": "brindis,",
+     "inicio": 19.06,
+     "fin": 19.8
+    },
+    {
+     "texto": "en",
+     "inicio": 19.92,
+     "fin": 20.02
+    },
+    {
+     "texto": "cambio,",
+     "inicio": 20.02,
+     "fin": 20.32
+    },
+    {
+     "texto": "vendría",
+     "inicio": 20.64,
+     "fin": 20.96
+    },
+    {
+     "texto": "del",
+     "inicio": 20.96,
+     "fin": 21.16
+    },
+    {
+     "texto": "alemán,",
+     "inicio": 21.16,
+     "fin": 21.58
+    },
+    {
+     "texto": "algo",
+     "inicio": 22.1,
+     "fin": 22.28
+    },
+    {
+     "texto": "como",
+     "inicio": 22.28,
+     "fin": 22.58
+    },
+    {
+     "texto": "te",
+     "inicio": 22.58,
+     "fin": 22.98
+    },
+    {
+     "texto": "lo",
+     "inicio": 22.98,
+     "fin": 23.14
+    },
+    {
+     "texto": "ofrezco.",
+     "inicio": 23.14,
+     "fin": 23.58
+    }
+   ],
+   "inicio": 18.66,
+   "fin": 23.58
+  },
+  {
+   "texto": "Según la teoría más divulgada, llegó con soldados de Carlos Quinto, en mil quinientos veintisiete.",
+   "palabras": [
+    {
+     "texto": "Según",
+     "inicio": 24.02,
+     "fin": 24.42
+    },
+    {
+     "texto": "la",
+     "inicio": 24.42,
+     "fin": 24.56
+    },
+    {
+     "texto": "teoría",
+     "inicio": 24.56,
+     "fin": 24.94
+    },
+    {
+     "texto": "más",
+     "inicio": 24.94,
+     "fin": 25.36
+    },
+    {
+     "texto": "divulgada,",
+     "inicio": 25.36,
+     "fin": 25.96
+    },
+    {
+     "texto": "llegó",
+     "inicio": 26.34,
+     "fin": 26.6
+    },
+    {
+     "texto": "con",
+     "inicio": 26.6,
+     "fin": 26.88
+    },
+    {
+     "texto": "soldados",
+     "inicio": 26.88,
+     "fin": 27.32
+    },
+    {
+     "texto": "de",
+     "inicio": 27.32,
+     "fin": 27.5
+    },
+    {
+     "texto": "Carlos",
+     "inicio": 27.5,
+     "fin": 27.78
+    },
+    {
+     "texto": "Quinto,",
+     "inicio": 27.78,
+     "fin": 28.36
+    },
+    {
+     "texto": "en",
+     "inicio": 28.7,
+     "fin": 28.82
+    },
+    {
+     "texto": "mil",
+     "inicio": 28.82,
+     "fin": 29.0
+    },
+    {
+     "texto": "quinientos",
+     "inicio": 29.0,
+     "fin": 29.58
+    },
+    {
+     "texto": "veintisiete.",
+     "inicio": 29.58,
+     "fin": 30.3
+    }
+   ],
+   "inicio": 24.02,
+   "fin": 30.3
+  },
+  {
+   "texto": "Y mirar a los ojos tiene su explicación: el periodista Joaquín Hidalgo dice que es un acto de confianza.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 30.82,
+     "fin": 30.96
+    },
+    {
+     "texto": "mirar",
+     "inicio": 30.96,
+     "fin": 31.32
+    },
+    {
+     "texto": "a",
+     "inicio": 31.32,
+     "fin": 31.38
+    },
+    {
+     "texto": "los",
+     "inicio": 31.38,
+     "fin": 31.54
+    },
+    {
+     "texto": "ojos",
+     "inicio": 31.54,
+     "fin": 31.82
+    },
+    {
+     "texto": "tiene",
+     "inicio": 31.82,
+     "fin": 32.28
+    },
+    {
+     "texto": "su",
+     "inicio": 32.28,
+     "fin": 32.48
+    },
+    {
+     "texto": "explicación:",
+     "inicio": 32.48,
+     "fin": 33.04
+    },
+    {
+     "texto": "el",
+     "inicio": 33.54,
+     "fin": 33.74
+    },
+    {
+     "texto": "periodista",
+     "inicio": 33.74,
+     "fin": 34.26
+    },
+    {
+     "texto": "Joaquín",
+     "inicio": 34.26,
+     "fin": 34.74
+    },
+    {
+     "texto": "Hidalgo",
+     "inicio": 34.74,
+     "fin": 35.18
+    },
+    {
+     "texto": "dice",
+     "inicio": 35.18,
+     "fin": 35.58
+    },
+    {
+     "texto": "que",
+     "inicio": 35.58,
+     "fin": 35.76
+    },
+    {
+     "texto": "es",
+     "inicio": 35.76,
+     "fin": 35.88
+    },
+    {
+     "texto": "un",
+     "inicio": 35.88,
+     "fin": 36.02
+    },
+    {
+     "texto": "acto",
+     "inicio": 36.02,
+     "fin": 36.34
+    },
+    {
+     "texto": "de",
+     "inicio": 36.34,
+     "fin": 36.4
+    },
+    {
+     "texto": "confianza.",
+     "inicio": 36.4,
+     "fin": 37.12
+    }
+   ],
+   "inicio": 30.82,
+   "fin": 37.12
+  },
+  {
+   "texto": "Ojo: nada de esto está documentado, son versiones.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 37.56,
+     "fin": 37.86
+    },
+    {
+     "texto": "nada",
+     "inicio": 38.16,
+     "fin": 38.48
+    },
+    {
+     "texto": "de",
+     "inicio": 38.48,
+     "fin": 38.76
+    },
+    {
+     "texto": "esto",
+     "inicio": 38.76,
+     "fin": 38.92
+    },
+    {
+     "texto": "está",
+     "inicio": 38.92,
+     "fin": 39.08
+    },
+    {
+     "texto": "documentado,",
+     "inicio": 39.08,
+     "fin": 39.76
+    },
+    {
+     "texto": "son",
+     "inicio": 40.04,
+     "fin": 40.14
+    },
+    {
+     "texto": "versiones.",
+     "inicio": 40.14,
+     "fin": 40.84
+    }
+   ],
+   "inicio": 37.56,
+   "fin": 40.84
+  },
+  {
+   "texto": "¿Vos mirás a los ojos al brindar? Contestá sí o no.",
+   "palabras": [
+    {
+     "texto": "¿Vos",
+     "inicio": 41.32,
+     "fin": 41.54
+    },
+    {
+     "texto": "mirás",
+     "inicio": 41.54,
+     "fin": 41.88
+    },
+    {
+     "texto": "a",
+     "inicio": 41.88,
+     "fin": 41.94
+    },
+    {
+     "texto": "los",
+     "inicio": 41.94,
+     "fin": 42.02
+    },
+    {
+     "texto": "ojos",
+     "inicio": 42.02,
+     "fin": 42.24
+    },
+    {
+     "texto": "al",
+     "inicio": 42.24,
+     "fin": 42.44
+    },
+    {
+     "texto": "brindar?",
+     "inicio": 42.44,
+     "fin": 42.84
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 43.24,
+     "fin": 43.76
+    },
+    {
+     "texto": "sí",
+     "inicio": 43.76,
+     "fin": 44.02
+    },
+    {
+     "texto": "o",
+     "inicio": 44.02,
+     "fin": 44.12
+    },
+    {
+     "texto": "no.",
+     "inicio": 44.12,
+     "fin": 44.26
+    }
+   ],
+   "inicio": 41.32,
+   "fin": 44.26
+  },
+  {
+   "texto": "Mandáselo al que brinda mirando el celular.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 44.78,
+     "fin": 45.34
+    },
+    {
+     "texto": "al",
+     "inicio": 45.34,
+     "fin": 45.42
+    },
+    {
+     "texto": "que",
+     "inicio": 45.42,
+     "fin": 45.52
+    },
+    {
+     "texto": "brinda",
+     "inicio": 45.52,
+     "fin": 45.84
+    },
+    {
+     "texto": "mirando",
+     "inicio": 45.84,
+     "fin": 46.18
+    },
+    {
+     "texto": "el",
+     "inicio": 46.18,
+     "fin": 46.28
+    },
+    {
+     "texto": "celular.",
+     "inicio": 46.28,
+     "fin": 46.56
+    }
+   ],
+   "inicio": 44.78,
+   "fin": 46.56
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de seguridad alimentaria coinciden con USDA FSIS (Freezing and Food Safety; The Big Thaw): heladera = se puede recongelar crudo (con pérdida de calidad por humedad); agua fría o microondas = cocinar antes de recongelar; más de 2 horas afuera (1 hora si hace más de 90 °F) = no recongelar. No hay cifras dudosas ni falsas. Las páginas fsis.usda.gov devolvieron 403 al fetch directo; el texto se confirmó con las versiones archivadas de FSIS (webarchive.library.unt.edu: Freezing_and_Food_Safety.pdf, Big_Thaw.pdf), fragmentos de búsqueda de FSIS y Penn State Extension (que cita FSIS). Observación opcional, no bloqueante: la frase de las 2 horas omite la variante de 1 hora por encima de 90 °F; no es falsa, pero un matiz posible sería 'more than two hours (one hour if it's hot out, above 90°F)'. Si se quiere versión más completa: 'And if it sat out more than two hours (one hour above 90°F), don't refreeze it. Toss it.'",
+  "afirmaciones": [
+    {
+      "texto": "Thawed in the fridge? The USDA says it's safe to refreeze it raw.",
+      "fuente": "USDA FSIS, Freezing and Food Safety: 'Food thawed in the refrigerator is safe to refreeze without cooking, although there may be a loss of quality due to the moisture lost through thawing.' (archivo FSIS en webarchive.library.unt.edu; también Penn State Extension citando FSIS)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Thawed in cold water or the microwave? Cook it first, then freeze it.",
+      "fuente": "USDA FSIS, The Big Thaw / Freezing and Food Safety: alimentos descongelados en agua fría o microondas deben cocinarse antes de recongelar (archivo FSIS Big_Thaw.pdf; Penn State Extension citando FSIS)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "And if it sat out more than two hours, don't refreeze it. Toss it.",
+      "fuente": "USDA FSIS, Freezing and Food Safety / regla de las 2 horas (1 hora si supera 90 °F) en publicaciones FSIS (Leftovers and Food Safety, How Temperatures Affect Food); Penn State Extension citando FSIS. 'Toss it' = descartar, consistente con la guía FSIS.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: refrozen meat can come out a little drier, because it loses moisture as it thaws.",
+      "fuente": "USDA FSIS, Freezing and Food Safety: 'loss of quality due to the moisture lost through thawing'; Penn State Extension: moisture loss. 'Can ... a little drier' es una lectura razonable y ya está en potencial.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "You can. It depends on how you thawed it. (y caption: 'You can usually freeze it again')",
+      "fuente": "USDA FSIS, Freezing and Food Safety (la seguridad depende del método de descongelado); el 'usually' del caption cubre el caso de más de 2 horas.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: 'Sources: USDA FSIS, \"Freezing and Food Safety\".' y resumen del caption (heladera sin cocinar; agua fría o microondas cocinar primero; más de dos horas no recongelar)",
+      "fuente": "USDA FSIS, Freezing and Food Safety (fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety); la atribución es correcta. La parte de agua fría/microondas está textual en The Big Thaw de FSIS, publicación hermana.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

@@ -1,0 +1,591 @@
+{
+ "duracion": 30.07,
+ "frases": [
+  {
+   "texto": "You thawed too much chicken, and now you're wondering if you can freeze it again.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.05
+    },
+    {
+     "texto": "thawed",
+     "inicio": 0.0,
+     "fin": 0.4
+    },
+    {
+     "texto": "too",
+     "inicio": 0.4,
+     "fin": 0.56
+    },
+    {
+     "texto": "much",
+     "inicio": 0.56,
+     "fin": 0.78
+    },
+    {
+     "texto": "chicken,",
+     "inicio": 0.78,
+     "fin": 1.14
+    },
+    {
+     "texto": "and",
+     "inicio": 1.36,
+     "fin": 1.48
+    },
+    {
+     "texto": "now",
+     "inicio": 1.48,
+     "fin": 1.94
+    },
+    {
+     "texto": "you're",
+     "inicio": 1.94,
+     "fin": 2.08
+    },
+    {
+     "texto": "wondering",
+     "inicio": 2.08,
+     "fin": 2.34
+    },
+    {
+     "texto": "if",
+     "inicio": 2.34,
+     "fin": 2.54
+    },
+    {
+     "texto": "you",
+     "inicio": 2.54,
+     "fin": 2.62
+    },
+    {
+     "texto": "can",
+     "inicio": 2.62,
+     "fin": 2.7
+    },
+    {
+     "texto": "freeze",
+     "inicio": 2.76,
+     "fin": 2.9
+    },
+    {
+     "texto": "it",
+     "inicio": 2.9,
+     "fin": 3.04
+    },
+    {
+     "texto": "again.",
+     "inicio": 3.04,
+     "fin": 3.22
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.22
+  },
+  {
+   "texto": "You can. It depends on how you thawed it.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 3.72,
+     "fin": 3.88
+    },
+    {
+     "texto": "can.",
+     "inicio": 3.88,
+     "fin": 4.08
+    },
+    {
+     "texto": "It",
+     "inicio": 4.64,
+     "fin": 4.76
+    },
+    {
+     "texto": "depends",
+     "inicio": 4.76,
+     "fin": 4.94
+    },
+    {
+     "texto": "on",
+     "inicio": 4.94,
+     "fin": 5.12
+    },
+    {
+     "texto": "how",
+     "inicio": 5.12,
+     "fin": 5.4
+    },
+    {
+     "texto": "you",
+     "inicio": 5.4,
+     "fin": 5.64
+    },
+    {
+     "texto": "thawed",
+     "inicio": 5.64,
+     "fin": 5.9
+    },
+    {
+     "texto": "it.",
+     "inicio": 5.9,
+     "fin": 6.02
+    }
+   ],
+   "inicio": 3.72,
+   "fin": 6.02
+  },
+  {
+   "texto": "Thawed in the fridge? The USDA says it's safe to refreeze it raw.",
+   "palabras": [
+    {
+     "texto": "Thawed",
+     "inicio": 6.44,
+     "fin": 6.6
+    },
+    {
+     "texto": "in",
+     "inicio": 6.6,
+     "fin": 6.74
+    },
+    {
+     "texto": "the",
+     "inicio": 6.74,
+     "fin": 6.84
+    },
+    {
+     "texto": "fridge?",
+     "inicio": 6.84,
+     "fin": 7.06
+    },
+    {
+     "texto": "The",
+     "inicio": 7.64,
+     "fin": 7.78
+    },
+    {
+     "texto": "USDA",
+     "inicio": 7.78,
+     "fin": 8.14
+    },
+    {
+     "texto": "says",
+     "inicio": 8.14,
+     "fin": 8.46
+    },
+    {
+     "texto": "it's",
+     "inicio": 8.46,
+     "fin": 8.7
+    },
+    {
+     "texto": "safe",
+     "inicio": 8.7,
+     "fin": 8.9
+    },
+    {
+     "texto": "to",
+     "inicio": 8.9,
+     "fin": 9.1
+    },
+    {
+     "texto": "refreeze",
+     "inicio": 9.1,
+     "fin": 9.58
+    },
+    {
+     "texto": "it",
+     "inicio": 9.58,
+     "fin": 9.68
+    },
+    {
+     "texto": "raw.",
+     "inicio": 9.68,
+     "fin": 9.92
+    }
+   ],
+   "inicio": 6.44,
+   "fin": 9.92
+  },
+  {
+   "texto": "Thawed in cold water or the microwave? Cook it first, then freeze it.",
+   "palabras": [
+    {
+     "texto": "Thawed",
+     "inicio": 10.48,
+     "fin": 10.64
+    },
+    {
+     "texto": "in",
+     "inicio": 10.64,
+     "fin": 10.78
+    },
+    {
+     "texto": "cold",
+     "inicio": 10.78,
+     "fin": 10.94
+    },
+    {
+     "texto": "water",
+     "inicio": 10.94,
+     "fin": 11.3
+    },
+    {
+     "texto": "or",
+     "inicio": 11.3,
+     "fin": 11.5
+    },
+    {
+     "texto": "the",
+     "inicio": 11.5,
+     "fin": 11.6
+    },
+    {
+     "texto": "microwave?",
+     "inicio": 11.6,
+     "fin": 11.88
+    },
+    {
+     "texto": "Cook",
+     "inicio": 12.44,
+     "fin": 12.64
+    },
+    {
+     "texto": "it",
+     "inicio": 12.64,
+     "fin": 12.76
+    },
+    {
+     "texto": "first,",
+     "inicio": 12.76,
+     "fin": 12.92
+    },
+    {
+     "texto": "then",
+     "inicio": 13.48,
+     "fin": 13.66
+    },
+    {
+     "texto": "freeze",
+     "inicio": 13.66,
+     "fin": 13.86
+    },
+    {
+     "texto": "it.",
+     "inicio": 13.86,
+     "fin": 14.06
+    }
+   ],
+   "inicio": 10.48,
+   "fin": 14.06
+  },
+  {
+   "texto": "And if it sat out more than two hours, don't refreeze it. Toss it.",
+   "palabras": [
+    {
+     "texto": "And",
+     "inicio": 14.46,
+     "fin": 14.58
+    },
+    {
+     "texto": "if",
+     "inicio": 14.58,
+     "fin": 14.68
+    },
+    {
+     "texto": "it",
+     "inicio": 14.68,
+     "fin": 14.76
+    },
+    {
+     "texto": "sat",
+     "inicio": 14.76,
+     "fin": 15.0
+    },
+    {
+     "texto": "out",
+     "inicio": 15.0,
+     "fin": 15.22
+    },
+    {
+     "texto": "more",
+     "inicio": 15.22,
+     "fin": 15.5
+    },
+    {
+     "texto": "than",
+     "inicio": 15.5,
+     "fin": 15.68
+    },
+    {
+     "texto": "two",
+     "inicio": 15.68,
+     "fin": 15.86
+    },
+    {
+     "texto": "hours,",
+     "inicio": 15.86,
+     "fin": 16.16
+    },
+    {
+     "texto": "don't",
+     "inicio": 16.68,
+     "fin": 16.96
+    },
+    {
+     "texto": "refreeze",
+     "inicio": 16.96,
+     "fin": 17.32
+    },
+    {
+     "texto": "it.",
+     "inicio": 17.32,
+     "fin": 17.48
+    },
+    {
+     "texto": "Toss",
+     "inicio": 17.92,
+     "fin": 18.12
+    },
+    {
+     "texto": "it.",
+     "inicio": 18.12,
+     "fin": 18.3
+    }
+   ],
+   "inicio": 14.46,
+   "fin": 18.3
+  },
+  {
+   "texto": "Heads up: refrozen meat can come out a little drier, because it loses moisture as it thaws.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 18.74,
+     "fin": 18.92
+    },
+    {
+     "texto": "up:",
+     "inicio": 18.92,
+     "fin": 19.1
+    },
+    {
+     "texto": "refrozen",
+     "inicio": 19.36,
+     "fin": 19.78
+    },
+    {
+     "texto": "meat",
+     "inicio": 19.78,
+     "fin": 19.96
+    },
+    {
+     "texto": "can",
+     "inicio": 19.96,
+     "fin": 20.3
+    },
+    {
+     "texto": "come",
+     "inicio": 20.3,
+     "fin": 20.56
+    },
+    {
+     "texto": "out",
+     "inicio": 20.56,
+     "fin": 20.68
+    },
+    {
+     "texto": "a",
+     "inicio": 20.68,
+     "fin": 20.76
+    },
+    {
+     "texto": "little",
+     "inicio": 20.76,
+     "fin": 20.88
+    },
+    {
+     "texto": "drier,",
+     "inicio": 20.88,
+     "fin": 21.36
+    },
+    {
+     "texto": "because",
+     "inicio": 21.38,
+     "fin": 21.62
+    },
+    {
+     "texto": "it",
+     "inicio": 21.62,
+     "fin": 21.88
+    },
+    {
+     "texto": "loses",
+     "inicio": 21.88,
+     "fin": 22.28
+    },
+    {
+     "texto": "moisture",
+     "inicio": 22.28,
+     "fin": 22.72
+    },
+    {
+     "texto": "as",
+     "inicio": 22.72,
+     "fin": 22.96
+    },
+    {
+     "texto": "it",
+     "inicio": 22.96,
+     "fin": 23.06
+    },
+    {
+     "texto": "thaws.",
+     "inicio": 23.06,
+     "fin": 23.26
+    }
+   ],
+   "inicio": 18.74,
+   "fin": 23.26
+  },
+  {
+   "texto": "Extra thawed meat: do you refreeze it or cook it?",
+   "palabras": [
+    {
+     "texto": "Extra",
+     "inicio": 23.86,
+     "fin": 24.12
+    },
+    {
+     "texto": "thawed",
+     "inicio": 24.12,
+     "fin": 24.44
+    },
+    {
+     "texto": "meat:",
+     "inicio": 24.44,
+     "fin": 24.56
+    },
+    {
+     "texto": "do",
+     "inicio": 25.06,
+     "fin": 25.18
+    },
+    {
+     "texto": "you",
+     "inicio": 25.18,
+     "fin": 25.24
+    },
+    {
+     "texto": "refreeze",
+     "inicio": 25.24,
+     "fin": 25.66
+    },
+    {
+     "texto": "it",
+     "inicio": 25.66,
+     "fin": 25.8
+    },
+    {
+     "texto": "or",
+     "inicio": 25.8,
+     "fin": 25.98
+    },
+    {
+     "texto": "cook",
+     "inicio": 25.98,
+     "fin": 26.16
+    },
+    {
+     "texto": "it?",
+     "inicio": 26.16,
+     "fin": 26.28
+    }
+   ],
+   "inicio": 23.86,
+   "fin": 26.28
+  },
+  {
+   "texto": "Save this, then send it to the friend who thaws the whole bag every time.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 26.74,
+     "fin": 26.92
+    },
+    {
+     "texto": "this,",
+     "inicio": 26.92,
+     "fin": 27.1
+    },
+    {
+     "texto": "then",
+     "inicio": 27.3,
+     "fin": 27.44
+    },
+    {
+     "texto": "send",
+     "inicio": 27.44,
+     "fin": 27.68
+    },
+    {
+     "texto": "it",
+     "inicio": 27.68,
+     "fin": 27.8
+    },
+    {
+     "texto": "to",
+     "inicio": 27.8,
+     "fin": 27.9
+    },
+    {
+     "texto": "the",
+     "inicio": 27.9,
+     "fin": 28.02
+    },
+    {
+     "texto": "friend",
+     "inicio": 28.02,
+     "fin": 28.18
+    },
+    {
+     "texto": "who",
+     "inicio": 28.18,
+     "fin": 28.36
+    },
+    {
+     "texto": "thaws",
+     "inicio": 28.36,
+     "fin": 28.64
+    },
+    {
+     "texto": "the",
+     "inicio": 28.64,
+     "fin": 28.82
+    },
+    {
+     "texto": "whole",
+     "inicio": 28.82,
+     "fin": 29.12
+    },
+    {
+     "texto": "bag",
+     "inicio": 29.12,
+     "fin": 29.44
+    },
+    {
+     "texto": "every",
+     "inicio": 29.44,
+     "fin": 29.74
+    },
+    {
+     "texto": "time.",
+     "inicio": 29.74,
+     "fin": 29.96
+    }
+   ],
+   "inicio": 26.74,
+   "fin": 29.96
+  }
+ ]
+}

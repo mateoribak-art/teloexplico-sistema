@@ -16,3 +16,12 @@ Uso: 47 pasos · 70,977 tokens nuevos · 1,449,193 de caché · 13,704 escritos 
 2026-11-27 10:30 Render de en-057-tip-math (sin Claude).
 2026-11-27 10:36 en-057-tip-math: apartado (render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So what do you usually tip? Give me a perce)
 2026-11-27 10:36 Termina la producción (ok).
+2026-11-27 16:32 Arranca la producción (18 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+Resumen:
+- **Listo para render:** `en-058-refreeze-meat`, sobre si se puede volver a congelar carne descongelada (USDA). El chequeo lo aprobó al primer intento, la voz salió bien (105 de 106 palabras), `tsc` pasó y los cuadros se ven bien. Quedó en estado `render` y lo renderiza `producir.py`.
+- **Apartado, sin rescatar:** `en-057-tip-math`. No fue por el chequeo (lo aprobó) sino porque la voz coincidía solo 87 % con el guion, así que no entraba en el rescate pedido. Lo dejé como estaba.
+- **Límite del chequeo:** las páginas actuales de fsis.usda.gov dieron 403. El subagente verificó con copias archivadas de FSIS y con Penn State Extension. El chequeo sugería agregar "una hora si pasa de 90 °F" en la frase de las dos horas; no lo apliqué, porque lo dejó como opcional.
+Uso: 13 pasos · 9,779 tokens nuevos · 677,782 de caché · 2,518 escritos · equivale a US$ 0.77 de API
+2026-11-27 16:36 Render de en-058-refreeze-meat (sin Claude).
+2026-11-27 16:50 en-058-refreeze-meat: listo (render sin Claude)
+2026-11-27 16:50 Termina la producción (ok).

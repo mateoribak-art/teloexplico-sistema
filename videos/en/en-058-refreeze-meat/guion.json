@@ -1,0 +1,26 @@
+{
+  "titulo": "Can you refreeze thawed meat?",
+  "serie": "cocina",
+  "fondo": "oscuro",
+  "receta": "regla con número para guardar (dependiendo del método de descongelado)",
+  "pilar": "cocina",
+  "destinatario": "se lo manda quien cocina para uno a su amigo que descongela la bolsa entera cada vez y no sabe qué hacer con lo que sobra",
+  "regla_guardable": "Thawed in the fridge: refreeze raw. Thawed in cold water or microwave: cook first. Out over 2 hours: toss it.",
+  "interaccion": {
+    "guardar": "Thawed in the fridge: refreeze raw. Cold water or microwave: cook first. Out over 2 hours: toss it.",
+    "comentar": "Extra thawed meat: do you refreeze it or cook it?"
+  },
+  "fuentes": [
+    "USDA FSIS: Freezing and Food Safety (food thawed in the refrigerator can be refrozen without cooking, with some quality loss from moisture; food thawed in cold water or the microwave should be cooked before refreezing; do not refreeze food left out of the refrigerator more than 2 hours, 1 hour above 90 F)"
+  ],
+  "frases": [
+    {"texto": "You thawed too much chicken, and now you're wondering if you can freeze it again.", "estilo": "Dry, direct, with a half smile."},
+    {"texto": "You can. It depends on how you thawed it.", "estilo": "Punchy."},
+    {"texto": "Thawed in the fridge? The USDA says it's safe to refreeze it raw.", "estilo": "Informative, clear."},
+    {"texto": "Thawed in cold water or the microwave? Cook it first, then freeze it.", "estilo": "Practical, brisk."},
+    {"texto": "And if it sat out more than two hours, don't refreeze it. Toss it.", "estilo": "Firm."},
+    {"texto": "Heads up: refrozen meat can come out a little drier, because it loses moisture as it thaws.", "estilo": "Calm, honest caveat."},
+    {"texto": "Extra thawed meat: do you refreeze it or cook it?", "estilo": "Curious, friendly."},
+    {"texto": "Save this, then send it to the friend who thaws the whole bag every time.", "estilo": "Playful and funny."}
+  ]
+}
