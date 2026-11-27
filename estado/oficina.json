@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T21:30",
+ "actualizado": "2026-11-26T21:33",
  "oficinas": [
   {
    "clave": "es",
@@ -9,13 +9,18 @@
    "seguidores": 1175,
    "listos": 17,
    "dias": 8.5,
-   "proximo": "063-che-origen",
-   "publicados": 61,
+   "proximo": "064-nudillos-artritis",
+   "publicados": 62,
    "pausa": false,
    "pendientes": [
     "Facu (TikTok, YouTube y Telegram): En la notebook, borrá el archivo `estado\\tiktok_token.enc`. Después autorizá de nuevo @teloexplico.ar en TikTok con el flujo de siempre (`python -I herramientas\\publicar_tiktok.py autorizar`, abrir el link, iniciar sesión y pegar la URL con `codigo <url>`). Por último corré `herramientas\\nube\\cargar_secretos.cmd` para guardar la llave nueva y subí los cambios. Mientras tanto, subí a mano a TikTok el video de ñoquis y los que lleguen por Telegram."
    ],
    "ultimas": [
+    {
+     "slug": "063-che-origen",
+     "link": "https://www.instagram.com/reel/DgOLyv7BweJ/",
+     "cuando": "2026-11-26T22:32"
+    },
     {
      "slug": "062-pote-microondas",
      "link": "https://www.instagram.com/reel/DgNbvOfhPrg/",
@@ -35,21 +40,9 @@
      "slug": "058-agua-del-mate",
      "link": "https://www.instagram.com/reel/DgJCQPnkWTn/",
      "cuando": "2026-11-24T22:32"
-    },
-    {
-     "slug": "057-ruta-40-de-punta-a-punta",
-     "link": "https://www.instagram.com/reel/DgISKG3iAS4/",
-     "cuando": "2026-11-24T15:32"
     }
    ],
    "linea": [
-    {
-     "slug": "063-che-origen",
-     "tema": "¿De dónde viene el 'che'? Origen incierto: tres versiones (mapuche, guaraní, valenciano)",
-     "estado": "listo",
-     "cuando": "2026-11-21T18:51",
-     "motivo": "render sin Claude"
-    },
     {
      "slug": "064-nudillos-artritis",
      "tema": "¿Crujirse los nudillos da artritis? Harvard Health, DeWeber 2011",
@@ -72,11 +65,11 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "061-heladera-termometro",
-     "tema": "¿Tu heladera enfría bien? Termómetro en un vaso de agua: 4 °C o menos (USDA FSIS)",
-     "estado": "publicado",
-     "cuando": "2026-11-25T19:32",
-     "motivo": "https://www.instagram.com/reel/DgLnA6EhPoA/"
+     "slug": "067-dulce-de-leche-origen",
+     "tema": "¿El dulce de leche es argentino? Leyenda de Rosas y Lavalle (1829) y origen discutido con Uruguay y otros",
+     "estado": "listo",
+     "cuando": "2026-11-22T23:22",
+     "motivo": "render sin Claude"
     },
     {
      "slug": "062-pote-microondas",
@@ -84,6 +77,13 @@
      "estado": "publicado",
      "cuando": "2026-11-26T12:32",
      "motivo": "https://www.instagram.com/reel/DgNbvOfhPrg/"
+    },
+    {
+     "slug": "063-che-origen",
+     "tema": "¿De dónde viene el 'che'? Origen incierto: tres versiones (mapuche, guaraní, valenciano)",
+     "estado": "publicado",
+     "cuando": "2026-11-26T19:32",
+     "motivo": "https://www.instagram.com/reel/DgOLyv7BweJ/"
     }
    ],
    "empleados": [
@@ -103,19 +103,21 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-26T10:09",
-     "hace": "hace 11 h",
+     "cuando": "2026-11-26T21:06",
+     "hace": "hace 27 min",
      "detalle": [
-      "Uso: 20 pasos · 15,289 tokens nuevos · 872,068 de caché · 3,261 escritos · equivale a US$ 0.70 de API",
-      "2026-11-26 10:00 Arranca la producción (17 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
-      "- **Listo para render:** `078-piedra-papel-tijera`. Era el apartado por chequeo rechazado. Saqué la secuencia piedra→papel→tijera del guion y del caption, y el chequeo quedó aprobado. Voz de 42,9 s, 114 de 114 palabras. Armé las escenas 3D,",
-      "- **No producí un segundo video:** la cola tenía 17 listos, más de los 10 del umbral.",
-      "- **Siguen apartados:** 038, 042, 044, 051 y 005. Ninguno es por chequeo rechazado, así que no los rescaté.",
-      "- **Pendiente:** `078` sigue en estado `render`. El render, el control y el pase a `listo` los hace `producir.py`.",
-      "Uso: 20 pasos · 15,289 tokens nuevos · 872,068 de caché · 3,261 escritos · equivale a US$ 0.70 de API",
-      "2026-11-26 10:04 Render de 078-piedra-papel-tijera (sin Claude).",
-      "2026-11-26 10:09 078-piedra-papel-tijera: listo (render sin Claude)",
-      "2026-11-26 10:09 Termina la producción (ok)."
+      "Uso: 8 pasos · 44,413 tokens nuevos · 159,214 de caché · 1,168 escritos · equivale a US$ 0.21 de API",
+      "2026-11-26 21:05 Arranca la producción (17 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
+      "Esta corrida ya no tiene nada que producir. No tomé ningún video.",
+      "- **Producidos hoy:** `080-finde-largo-diciembre` y `079-leer-poca-luz` ya salieron en corridas anteriores de esta fecha. `078-piedra-papel-tijera` también se rescató y figura como `listo`.",
+      "- **Rescates:** no queda ningún video apartado por \"chequeo rechazado\". Los apartados `005`, `038`, `042`, `044` y `051` lo están por otros motivos, como un mp4 faltante o actualidad vencida.",
+      "- **Segundo video:** la cola tiene 17 videos listos, más que el umbral de 10, así que no corresponde producir otro.",
+      "**Resumen:**",
+      "1. Listos: la cola tiene 17 videos (064 a 080), incluidos `080-finde-largo-diciembre`, `079-leer-poca-luz` y `078-piedra-papel-tijera` (rescatado).",
+      "2. Apartados: `005`, `038`, `042`, `044` y `051`, ninguno por chequeo rechazado, así que no hay nada que rescatar.",
+      "3. Incompletos: ninguno. No escribí nada en `videos/produccion.log` porque esta corrida no produjo nada.",
+      "Uso: 8 pasos · 44,413 tokens nuevos · 159,214 de caché · 1,168 escritos · equivale a US$ 0.21 de API",
+      "2026-11-26 21:06 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -167,13 +169,13 @@
       }
      },
      "estado": "ok",
-     "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de México o economía sin fecha clara). SIN tema nuevo.",
-     "cuando": "2026-11-25T19:39",
-     "hace": "hace 25 h",
+     "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de 2024/2025 o de hace una semana). SIN tema nuevo. De",
+     "cuando": "2026-11-26T19:30",
+     "hace": "hace 2 h",
      "detalle": [
-      "23/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (lo más reciente es del 16-nov; el resto mezcla años). SIN tema nuevo. Descartados: (a) calor del norte/viento norte y posibles tormentas del último finde de noviembre (Meteored, fechas poco claras; calor/tormenta/granizo ya cubiertos 019/048/049/005/024/018); (b) superluna 24-nov -> YA en cola (068-superluna-no-tan-grande, listo); (c) Día de la Soberanía/feriado -> ya hecho (053). Sigue la cola normal.",
       "24/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de 2024/2025 o de México). SIN tema nuevo. Descartados: (a) alerta amarilla por tormentas en Tucumán (sin detalle de hoy; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) calor/humedad/tormentas en AMBA \"toda la semana\" (Perfil/Meteored, sin fecha verificable; calor ya cubierto 019/048/049); (c) superluna 24-nov -> YA en cola (068, listo). Sigue la cola normal.",
-      "25/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de México o economía sin fecha clara). SIN tema nuevo. Descartados: (a) alertas de tormenta/calor en AMBA (sin fuente argentina fechada de hoy; ya cubiertos 019/048/049/005/024/018); (b) superluna -> ya en cola (068); (c) inflación, dólar, consumo, Torneo Clausura -> economía/deportes, no encajan. Sigue la cola normal."
+      "25/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de México o economía sin fecha clara). SIN tema nuevo. Descartados: (a) alertas de tormenta/calor en AMBA (sin fuente argentina fechada de hoy; ya cubiertos 019/048/049/005/024/018); (b) superluna -> ya en cola (068); (c) inflación, dólar, consumo, Torneo Clausura -> economía/deportes, no encajan. Sigue la cola normal.",
+      "26/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de 2024/2025 o de hace una semana). SIN tema nuevo. Descartados: (a) alertas de tormenta/granizo/calor (notas del 26-nov de 2024 y 2025, sin fuente de hoy; ya cubiertos 005/024/018/004/019/048/049); (b) suspensión de las PASO en el Senado, INDEC, CEDEAR de Anthropic -> política/economía, no encajan; (c) Mundial Sub 17 -> deportes, sin \"¿por qué?\". Sigue la cola normal."
      ],
      "tareas": [
       "🔥 004-olor-a-lluvia — ¿Por qué la tierra huele así cuando llueve?",
@@ -188,7 +190,7 @@
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "354cc9b8f7a2"
+     "firma": "c496ce673f2a"
     },
     {
      "id": "chequeo",
@@ -206,17 +208,17 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-26T12:32",
-     "hace": "hace 8 h",
+     "cuando": "2026-11-26T19:32",
+     "hace": "hace 2 h",
      "detalle": [
-      "072-diez-por-ciento-cerebro: aprobado — Corregido tras el rechazo: la frase 3 y el caption ahora dicen 'Un neurólogo de la Universidad Johns Hopkins explica...' (singular, Barry Go",
       "073-muralla-desde-espacio: aprobado — Segunda revision. Todas las afirmaciones quedan verificadas o correctamente matizadas. Chiao: la frase aclara que uso teleobjetivo y que a s",
       "074-afeitar-pelo-grueso: aprobado — Todas las afirmaciones quedaron verificadas con fuente; la unica hipotesis (coincidencia de la pubertad con las primeras afeitadas) ya esta ",
       "075-parabrisas-empanado: aprobado — Segundo chequeo con busqueda web. Las correcciones de la ronda anterior se aplicaron: ya no hay cifra de tiempo ('a los dos segundos') y la ",
       "076-calentar-el-auto: aprobado — Las afirmaciones de plata y seguridad (autos modernos se manejan a los pocos segundos, la forma más rápida de calentar es manejar, el ralent",
       "077-apellidos-gonzalez: aprobado — Todas las cifras y la atribución coinciden con las fuentes: La Nación (6/8/2022) y Aire de Santa Fe reproducen el informe 'Distribución geog",
       "078-piedra-papel-tijera: aprobado — La version actual ya no incluye la secuencia de cambio del que pierde (piedra->papel->tijera), que era el unico punto no verificable por con",
-      "079-leer-poca-luz: aprobado — Se leyó el texto primario de ambas fuentes. Harvard Health (5 truths about protecting your eyes, 12/02/2021): 'Dim lighting will not damage "
+      "079-leer-poca-luz: aprobado — Se leyó el texto primario de ambas fuentes. Harvard Health (5 truths about protecting your eyes, 12/02/2021): 'Dim lighting will not damage ",
+      "080-finde-largo-diciembre: aprobado — Todas las afirmaciones fácticas están verificadas con fuente primaria (Resolución 164/2025 de Jefatura de Gabinete, argentina.gob.ar, Ley 27"
      ],
      "tareas": [],
      "arreglo": null,
@@ -239,8 +241,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-26T12:32",
-     "hace": "hace 8 h",
+     "cuando": "2026-11-26T19:32",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -262,14 +264,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-26 12:32.",
-     "cuando": "2026-11-26T12:32",
-     "hace": "hace 8 h",
+     "resumen": "Último video terminado: 2026-11-26 19:32.",
+     "cuando": "2026-11-26T19:32",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "e3db506c78d4"
+     "firma": "2dd47a05cf3e"
     },
     {
      "id": "control",
@@ -287,8 +289,8 @@
      },
      "estado": "ok",
      "resumen": "17 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-26T12:32",
-     "hace": "hace 8 h",
+     "cuando": "2026-11-26T19:32",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -309,28 +311,28 @@
        "cuenta": "es"
       }
      },
-     "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 19:30 (26/11).",
-     "cuando": "2026-11-26T12:33",
-     "hace": "hace 8 h",
+     "estado": "ok",
+     "resumen": "Último: 063-che-origen.",
+     "cuando": "2026-11-26T19:33",
+     "hace": "hace 2 h",
      "detalle": [
-      "25/11 19:32 061-heladera-termometro publicado: https://www.instagram.com/reel/DgLnA6EhPoA/",
-      "25/11 19:32 061-heladera-termometro publicado en Facebook: https://www.facebook.com/reel/1936658997298082/",
-      "25/11 19:33 061-heladera-termometro en la bandeja de TikTok",
-      "25/11 19:33 061-heladera-termometro https://youtube.com/shorts/8LFsYRV9gpk | privacidad: public",
-      "25/11 19:33 061-heladera-termometro paquete para TikTok/YouTube enviado",
       "26/11 12:32 062-pote-microondas publicado: https://www.instagram.com/reel/DgNbvOfhPrg/",
       "26/11 12:33 062-pote-microondas publicado en Facebook: https://www.facebook.com/reel/1153727584283015/",
       "26/11 12:33 062-pote-microondas en la bandeja de TikTok",
       "26/11 12:33 062-pote-microondas https://youtube.com/shorts/FsVdakMuBA4 | privacidad: public",
-      "26/11 12:33 062-pote-microondas paquete para TikTok/YouTube enviado"
+      "26/11 12:33 062-pote-microondas paquete para TikTok/YouTube enviado",
+      "26/11 19:32 063-che-origen publicado: https://www.instagram.com/reel/DgOLyv7BweJ/",
+      "26/11 19:33 063-che-origen publicado en Facebook: https://www.facebook.com/reel/2030930881644849/",
+      "26/11 19:33 063-che-origen en la bandeja de TikTok",
+      "26/11 19:33 063-che-origen https://youtube.com/shorts/4Xpf2NlRHwk | privacidad: public",
+      "26/11 19:33 063-che-origen paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: 063-che-origen — ¿De dónde viene el 'che'? Origen incierto: tres versiones (mapuche, guaraní, valenciano)"
+      "Próximo: 064-nudillos-artritis — ¿Crujirse los nudillos da artritis? Harvard Health, DeWeber 2011"
      ],
-     "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
+     "arreglo": null,
      "solo": false,
-     "firma": "158f65c864a5"
+     "firma": "220ab930cc18"
     },
     {
      "id": "redes",
@@ -348,17 +350,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-26T12:33",
-     "hace": "hace 8 h",
+     "cuando": "2026-11-26T19:33",
+     "hace": "hace 2 h",
      "detalle": [
-      "25/11 12:34 060-celular-carga-noche https://youtube.com/shorts/ynNaSW6qKRY | privacidad: public",
-      "25/11 12:34 060-celular-carga-noche paquete para TikTok/YouTube enviado",
-      "25/11 19:33 061-heladera-termometro en la bandeja de TikTok",
       "25/11 19:33 061-heladera-termometro https://youtube.com/shorts/8LFsYRV9gpk | privacidad: public",
       "25/11 19:33 061-heladera-termometro paquete para TikTok/YouTube enviado",
       "26/11 12:33 062-pote-microondas en la bandeja de TikTok",
       "26/11 12:33 062-pote-microondas https://youtube.com/shorts/FsVdakMuBA4 | privacidad: public",
-      "26/11 12:33 062-pote-microondas paquete para TikTok/YouTube enviado"
+      "26/11 12:33 062-pote-microondas paquete para TikTok/YouTube enviado",
+      "26/11 19:33 063-che-origen en la bandeja de TikTok",
+      "26/11 19:33 063-che-origen https://youtube.com/shorts/4Xpf2NlRHwk | privacidad: public",
+      "26/11 19:33 063-che-origen paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -485,17 +487,15 @@
        "modo": "vigilar"
       }
      },
-     "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 19:30 (26/11).",
-     "cuando": "2026-11-26T21:30",
+     "estado": "ok",
+     "resumen": "Todo en orden ✓",
+     "cuando": "2026-11-26T21:33",
      "hace": "recién",
-     "detalle": [
-      "❗ No salió la publicación del turno de las 19:30 (26/11)."
-     ],
+     "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "efca19166baf"
+     "firma": "cf3a22f5d39c"
     },
     {
      "id": "planb",
@@ -529,13 +529,18 @@
    "ciudad": "Nueva York",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 5,
-   "listos": 17,
-   "dias": 8.5,
-   "proximo": "en-037-swallowed-gum",
-   "publicados": 38,
+   "listos": 18,
+   "dias": 9.0,
+   "proximo": "en-038-lake-effect-snow",
+   "publicados": 39,
    "pausa": false,
    "pendientes": [],
    "ultimas": [
+    {
+     "slug": "en-037-swallowed-gum",
+     "link": "https://www.instagram.com/reel/DgOMHhIBmjz/",
+     "cuando": "2026-11-26T22:34"
+    },
     {
      "slug": "en-036-phantom-charger",
      "link": "https://www.instagram.com/reel/DgNb-ZPy8dA/",
@@ -555,21 +560,9 @@
      "slug": "en-032-gta-13-years",
      "link": "https://www.instagram.com/reel/DgJCdOVFHmX/",
      "cuando": "2026-11-24T22:34"
-    },
-    {
-     "slug": "en-029-swim-after-eating",
-     "link": "https://www.instagram.com/reel/DgISYd8HBYw/",
-     "cuando": "2026-11-24T15:34"
     }
    ],
    "linea": [
-    {
-     "slug": "en-037-swallowed-gum",
-     "tema": "Does swallowed gum stay in your stomach for 7 years? (Cleveland Clinic, KidsHealth; own)",
-     "estado": "listo",
-     "cuando": "2026-11-21T23:05",
-     "motivo": "render sin Claude"
-    },
     {
      "slug": "en-038-lake-effect-snow",
      "tema": "What is lake-effect snow? (NWS; Great Lakes)",
@@ -592,11 +585,11 @@
      "motivo": "render sin Claude"
     },
     {
-     "slug": "en-035-turkey-stuffing",
-     "tema": "Stuffing inside the turkey: 165 F at the center (USDA FSIS; Thanksgiving 11/26)",
-     "estado": "publicado",
-     "cuando": "2026-11-25T19:35",
-     "motivo": "https://www.instagram.com/reel/DgLnTqYKG9j/"
+     "slug": "en-041-pasta-oil",
+     "tema": "Does oil in pasta water stop sticking? (ATK; own; kitchen)",
+     "estado": "listo",
+     "cuando": "2026-11-22T23:35",
+     "motivo": "render sin Claude"
     },
     {
      "slug": "en-036-phantom-charger",
@@ -604,6 +597,13 @@
      "estado": "publicado",
      "cuando": "2026-11-26T12:34",
      "motivo": "https://www.instagram.com/reel/DgNb-ZPy8dA/"
+    },
+    {
+     "slug": "en-037-swallowed-gum",
+     "tema": "Does swallowed gum stay in your stomach for 7 years? (Cleveland Clinic, KidsHealth; own)",
+     "estado": "publicado",
+     "cuando": "2026-11-26T19:35",
+     "motivo": "https://www.instagram.com/reel/DgOMHhIBmjz/"
     }
    ],
    "empleados": [
@@ -623,18 +623,21 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-26T10:23",
-     "hace": "hace 11 h",
+     "cuando": "2026-11-26T21:17",
+     "hace": "hace 16 min",
      "detalle": [
-      "Uso: 13 pasos · 9,126 tokens nuevos · 737,164 de caché · 2,444 escritos · equivale a US$ 0.97 de API",
-      "2026-11-26 10:09 Arranca la producción (17 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
-      "- **Listo para render:** `en-053-first-frost` (clima #10, 45.9 s, escena 3D nueva `Planta.tsx`), en estado `render`. `producir.py` lo renderiza. El primer chequeo lo rechazó (umbral del NWS generalizado y consejo de la sábana mal atribuido)",
-      "- **Apartados:** no había ninguno por rechazo del chequeo, así que no hubo nada que rescatar.",
-      "- **Pendiente:** no corrí el radar de actualidad, aunque la última pasada era del 25/11. Tampoco medí los seguidores de la semana contra el ritmo necesario. El log lo dice así.",
-      "Uso: 13 pasos · 9,126 tokens nuevos · 737,164 de caché · 2,444 escritos · equivale a US$ 0.97 de API",
-      "2026-11-26 10:14 Render de en-053-first-frost (sin Claude).",
-      "2026-11-26 10:23 en-053-first-frost: listo (render sin Claude)",
-      "2026-11-26 10:23 Termina la producción (ok)."
+      "Uso: 55 pasos · 84,833 tokens nuevos · 1,625,503 de caché · 16,716 escritos · equivale a US$ 0.84 de API",
+      "2026-11-26 21:06 Arranca la producción (17 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
+      "- **Listo para render:** `en-055-salt-ice` (la sal de roca deja de funcionar bajo unos 15 °F de pavimento, serie clima #11). El chequeo lo aprobó al primer intento con la fuente de la Universidad de Minnesota. La voz salió bien (34,8 s) y `",
+      "- **Interacción:** guardar la regla de los 15 °F y comentar \"¿salás antes de la nevada o después?\".",
+      "- **Apartados:** no había ninguno por chequeo rechazado, así que no rescaté nada. `en-042-frozen-pipes` ya figura como `listo`. Quedan 17 videos listos en la cola.",
+      "- **Incompletos:** ninguno. Las adaptaciones de español se agotaron, por eso el video es propio.",
+      "Uso: 55 pasos · 84,833 tokens nuevos · 1,625,503 de caché · 16,716 escritos · equivale a US$ 0.84 de API",
+      "Permisos negados (1):",
+      "  Bash: {\"command\": \"cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-055-salt-ice; python3 - <<'E'\\nimport json\\nU=\\\"https://mnltap.",
+      "2026-11-26 21:11 Render de en-055-salt-ice (sin Claude).",
+      "2026-11-26 21:17 en-055-salt-ice: listo (render sin Claude)",
+      "2026-11-26 21:17 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -656,13 +659,13 @@
       }
      },
      "estado": "ok",
-     "resumen": "Pasada del radar: la búsqueda (clima de viaje de Thanksgiving) solo devolvió notas de 2024/2025; nada verificable de 2026. Descartados: (1) tormentas/clima de v",
-     "cuando": "2026-11-25T19:40",
-     "hace": "hace 25 h",
+     "resumen": "Pasada del radar (Thanksgiving): la búsqueda solo devolvió notas del Thanksgiving 2025, un artículo de Gizmodo del 18/11 (nieve posible en el interior del Norde",
+     "cuando": "2026-11-26T19:30",
+     "hace": "hace 2 h",
      "detalle": [
-      "23/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2024/2025 y titulares del 10–18/11; nada verificable de las últimas 48 h. Descartados: (1) clima de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) sarampión (5.412 casos al 12/11, CDC): salud, sin ángulo de guardar/comentar y sin fuente del día; (3) elecciones/Nvidia/policiales: política, negocios o delito. Sin tema nuevo.",
       "24/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2019/2023/2024 y tendencias virlo del 11–18/11 (GTA 6 ya cubierto en en-030/031/032); nada verificable de las últimas 48 h. Descartados: (1) clima de viaje de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) superluna/luna llena del 24/11: sin ángulo de guardar/comentar; (3) tendencias de TikTok (Hunger Games, Pattinson Bond, Earthshot): entretenimiento/chisme. Pavo y relleno ya en cola (en-033, en-035). Sin tema nuevo.",
-      "25/11 00:00 Pasada del radar: la búsqueda (clima de viaje de Thanksgiving) solo devolvió notas de 2024/2025; nada verificable de 2026. Descartados: (1) tormentas/clima de viaje de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) Black Friday: ya cubierto (en-050); (3) pavo, relleno, descongelado: ya en cola (en-028, 033, 035). Sin tema nuevo."
+      "25/11 00:00 Pasada del radar: la búsqueda (clima de viaje de Thanksgiving) solo devolvió notas de 2024/2025; nada verificable de 2026. Descartados: (1) tormentas/clima de viaje de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) Black Friday: ya cubierto (en-050); (3) pavo, relleno, descongelado: ya en cola (en-028, 033, 035). Sin tema nuevo.",
+      "26/11 00:00 Pasada del radar (Thanksgiving): la búsqueda solo devolvió notas del Thanksgiving 2025, un artículo de Gizmodo del 18/11 (nieve posible en el interior del Nordeste, tormenta lluviosa en la costa Este) y tendencias del 18–19/11; ningún boletín del NWS de esta semana. Descartados: (1) clima de Thanksgiving/fin de semana en el Nordeste: regional, sin fuente oficial del día confirmada; (2) tendencias (GTA 6, CMA Awards, Hunger Games): GTA ya cubierto (en-030/031/032), el resto es entretenimiento; (3) Almanaque del Granjero / pago SSI de noviembre: no es fuente oficial / es política y plata sin datos verificados. Pavo ya cubierto (en-028, 033, 035). Sin tema nuevo."
      ],
      "tareas": [
       "🔥 en-002-dst-farmers — Is daylight saving time for farmers? (fall back Nov 1)",
@@ -671,7 +674,7 @@
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "bb7398975d2b"
+     "firma": "271f5894d589"
     },
     {
      "id": "chequeo",
@@ -689,17 +692,17 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-26T12:34",
-     "hace": "hace 8 h",
+     "cuando": "2026-11-26T21:17",
+     "hace": "hace 16 min",
      "detalle": [
-      "en-046-wind-chill: aprobado — Todas las afirmaciones coinciden con la pagina del NWS/NOAA (weather.gov/safety/cold-wind-chill-chart y weather.gov/safety/cold-faqs). Unida",
-      "en-047-dog-people-food: aprobado — Todas las afirmaciones de salud/seguridad están verificadas contra la página citada de la ASPCA (People Foods to Avoid Feeding Your Pets) y ",
       "en-048-eggs-fridge: aprobado — Todas las afirmaciones fácticas están respaldadas por las dos páginas oficiales (USDA ARS y FDA), las unidades en °F coinciden (FDA: 40° F o",
       "en-049-space-heater: aprobado — Todas las afirmaciones de seguridad contra incendios estan verificadas con fuentes primarias de EE. UU. (CPSC y USFA/FEMA), con atribuciones",
       "en-050-stacked-discounts: aprobado — Toda la plata es aritmetica verificada (100x0.8=80; 80x0.8=64; 20% de 80 = 16; 100-64=36; 0.8x0.8=0.64) y coincide con material de matematic",
       "en-051-reheated-rice: aprobado — Todas las cifras de seguridad alimentaria (2 h / 1 h si >90 °F, 3-4 días, 165 °F) coinciden con USDA FSIS en las mismas unidades (°F, horas,",
       "en-052-cloudy-sunscreen: aprobado — Re-chequeo contra fuentes primarias de EE. UU. La frase rechazada antes ('thick overcast vs light haze') ya no esta: la frase 6 y el caption",
-      "en-053-first-frost: aprobado — Se releyeron las fuentes con búsqueda web. Las cifras (33-36°F) están confirmadas por NWS Raleigh, Tallahassee, Greenville-Spartanburg y Oma"
+      "en-053-first-frost: aprobado — Se releyeron las fuentes con búsqueda web. Las cifras (33-36°F) están confirmadas por NWS Raleigh, Tallahassee, Greenville-Spartanburg y Oma",
+      "en-054-tree-lights: aprobado — Todas las afirmaciones (salud/seguridad) coinciden textualmente con la página de NIST Holiday Fire Safety y con el informe NIST TN 2131. Nin",
+      "en-055-salt-ice: aprobado — Todas las cifras clave (15°F practico, temperatura del pavimento y no del aire, -6°F eutectico, uso selectivo y moderado) estan en una fuent"
      ],
      "tareas": [],
      "arreglo": null,
@@ -722,8 +725,8 @@
      },
      "estado": "ok",
      "resumen": "Voz en-us-podcaster-5 sin problemas.",
-     "cuando": "2026-11-26T12:34",
-     "hace": "hace 8 h",
+     "cuando": "2026-11-26T21:17",
+     "hace": "hace 16 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -745,14 +748,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-26 12:34.",
-     "cuando": "2026-11-26T12:34",
-     "hace": "hace 8 h",
+     "resumen": "Último video terminado: 2026-11-26 21:17.",
+     "cuando": "2026-11-26T21:17",
+     "hace": "hace 16 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "55c46cb85875"
+     "firma": "eee8a84a5695"
     },
     {
      "id": "control",
@@ -769,14 +772,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "17 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-26T12:34",
-     "hace": "hace 8 h",
+     "resumen": "18 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-26T21:17",
+     "hace": "hace 16 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "0331dc72ccc9"
+     "firma": "765e016e59a7"
     },
     {
      "id": "publicador",
@@ -792,28 +795,28 @@
        "cuenta": "en"
       }
      },
-     "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 19:30 (26/11).",
-     "cuando": "2026-11-26T12:36",
-     "hace": "hace 8 h",
+     "estado": "ok",
+     "resumen": "Último: en-037-swallowed-gum.",
+     "cuando": "2026-11-26T19:36",
+     "hace": "hace 1 h",
      "detalle": [
-      "25/11 12:37 en-034-alcohol-cook-off en la bandeja de TikTok",
-      "25/11 12:37 en-034-alcohol-cook-off paquete para TikTok/YouTube enviado",
-      "25/11 19:35 en-035-turkey-stuffing publicado: https://www.instagram.com/reel/DgLnTqYKG9j/",
-      "25/11 19:35 en-035-turkey-stuffing publicado en Facebook: https://www.facebook.com/reel/2366202337475777/",
       "25/11 19:35 en-035-turkey-stuffing en la bandeja de TikTok",
       "25/11 19:35 en-035-turkey-stuffing paquete para TikTok/YouTube enviado",
       "26/11 12:34 en-036-phantom-charger publicado: https://www.instagram.com/reel/DgNb-ZPy8dA/",
       "26/11 12:35 en-036-phantom-charger publicado en Facebook: https://www.facebook.com/reel/1677862303849598/",
       "26/11 12:36 en-036-phantom-charger en la bandeja de TikTok",
-      "26/11 12:36 en-036-phantom-charger paquete para TikTok/YouTube enviado"
+      "26/11 12:36 en-036-phantom-charger paquete para TikTok/YouTube enviado",
+      "26/11 19:35 en-037-swallowed-gum publicado: https://www.instagram.com/reel/DgOMHhIBmjz/",
+      "26/11 19:35 en-037-swallowed-gum publicado en Facebook: https://www.facebook.com/reel/1647969450161209/",
+      "26/11 19:36 en-037-swallowed-gum en la bandeja de TikTok",
+      "26/11 19:36 en-037-swallowed-gum paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
-      "Próximo: en-037-swallowed-gum — Does swallowed gum stay in your stomach for 7 years? (Cleveland Clinic, KidsHealth; own)"
+      "Próximo: en-038-lake-effect-snow — What is lake-effect snow? (NWS; Great Lakes)"
      ],
-     "arreglo": "Relanzá la publicación: cubre el turno que falta (no publica doble).",
+     "arreglo": null,
      "solo": false,
-     "firma": "565fb518db7a"
+     "firma": "4bcb6f6b09af"
     },
     {
      "id": "redes",
@@ -831,17 +834,17 @@
      },
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
-     "cuando": "2026-11-26T12:36",
-     "hace": "hace 8 h",
+     "cuando": "2026-11-26T19:36",
+     "hace": "hace 1 h",
      "detalle": [
-      "24/11 19:35 en-032-gta-13-years en la bandeja de TikTok",
-      "24/11 19:35 en-032-gta-13-years paquete para TikTok/YouTube enviado",
       "25/11 12:37 en-034-alcohol-cook-off en la bandeja de TikTok",
       "25/11 12:37 en-034-alcohol-cook-off paquete para TikTok/YouTube enviado",
       "25/11 19:35 en-035-turkey-stuffing en la bandeja de TikTok",
       "25/11 19:35 en-035-turkey-stuffing paquete para TikTok/YouTube enviado",
       "26/11 12:36 en-036-phantom-charger en la bandeja de TikTok",
-      "26/11 12:36 en-036-phantom-charger paquete para TikTok/YouTube enviado"
+      "26/11 12:36 en-036-phantom-charger paquete para TikTok/YouTube enviado",
+      "26/11 19:36 en-037-swallowed-gum en la bandeja de TikTok",
+      "26/11 19:36 en-037-swallowed-gum paquete para TikTok/YouTube enviado"
      ],
      "tareas": [
       "TikTok: la publicación la confirmás vos desde la bandeja (la API no permite publicar directo sin auditoría)."
@@ -867,7 +870,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-24T22:33",
-     "hace": "hace 46 h",
+     "hace": "hace 47 h",
      "detalle": [
       "02/11 21:15 Resumen: respondí 1, salteé 1, alerté 0.",
       "02/11 21:16 Termina la respuesta de comentarios (ok).",
@@ -933,17 +936,15 @@
        "modo": "vigilar"
       }
      },
-     "estado": "falla",
-     "resumen": "No salió la publicación del turno de las 19:30 (26/11).",
-     "cuando": "2026-11-26T21:30",
+     "estado": "ok",
+     "resumen": "Todo en orden ✓",
+     "cuando": "2026-11-26T21:33",
      "hace": "recién",
-     "detalle": [
-      "❗ No salió la publicación del turno de las 19:30 (26/11)."
-     ],
+     "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "2744fd8da98e"
+     "firma": "3e900f50565c"
     }
    ]
   }
