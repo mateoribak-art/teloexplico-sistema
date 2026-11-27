@@ -1376,7 +1376,7 @@
  {
   "slug": "en-039-polar-vortex",
   "tema": "What is the polar vortex? (NWS; not a storm)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1397,6 +1397,11 @@
     "estado": "listo",
     "cuando": "2026-11-22T15:07",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-27T19:35",
+    "motivo": "https://www.instagram.com/reel/DgQw6VrhoJe/"
    }
   ]
  },

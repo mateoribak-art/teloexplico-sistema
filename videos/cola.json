@@ -2508,7 +2508,7 @@
  {
   "slug": "065-voseo-vos-o-tu",
   "tema": "¿Por qué decimos vos y no tú? El voseo casi desapareció de España y quedó en el Río de la Plata (RAE)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -2529,6 +2529,11 @@
     "estado": "listo",
     "cuando": "2026-11-22T14:41",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-27T19:33",
+    "motivo": "https://www.instagram.com/reel/DgQwrZUshLw/"
    }
   ]
  },
