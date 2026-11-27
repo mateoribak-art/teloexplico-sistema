@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T06:29",
+ "actualizado": "2026-11-27T06:30",
  "oficinas": [
   {
    "clave": "es",
@@ -172,7 +172,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de 2024/2025 o de hace una semana). SIN tema nuevo. De",
      "cuando": "2026-11-26T19:30",
-     "hace": "hace 10 h",
+     "hace": "hace 11 h",
      "detalle": [
       "24/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de 2024/2025 o de México). SIN tema nuevo. Descartados: (a) alerta amarilla por tormentas en Tucumán (sin detalle de hoy; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) calor/humedad/tormentas en AMBA \"toda la semana\" (Perfil/Meteored, sin fecha verificable; calor ya cubierto 019/048/049); (c) superluna 24-nov -> YA en cola (068, listo). Sigue la cola normal.",
       "25/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de México o economía sin fecha clara). SIN tema nuevo. Descartados: (a) alertas de tormenta/calor en AMBA (sin fuente argentina fechada de hoy; ya cubiertos 019/048/049/005/024/018); (b) superluna -> ya en cola (068); (c) inflación, dólar, consumo, Torneo Clausura -> economía/deportes, no encajan. Sigue la cola normal.",
@@ -417,21 +417,21 @@
      },
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
-     "cuando": "2026-11-26T22:08",
-     "hace": "hace 8 h",
+     "cuando": "2026-11-27T06:30",
+     "hace": "recién",
      "detalle": [
-      "26/11 06:14 Hay 5 comentarios nuevos: arranca la respuesta.",
-      "26/11 00:00 Respondí 4 · salteé 0 · alerté 1. (059-pibe-chango-guri: eddie_sando_, ezeq.uielomararaujo1992, enlacecelulares2 y jona.prnch respondidos; alerta: patricia.mura critica que Formosa no aparece en el mapa.)",
-      "26/11 00:00 Respondí 4 · salteé 0 · alerté 1.",
-      "26/11 06:15 Termina la respuesta de comentarios (ok).",
       "26/11 22:08 Hay 8 comentarios nuevos: arranca la respuesta.",
       "26/11 00:00 Respondí 6 · salteé 2 · alerté 0. (059-pibe-chango-guri: zarchi_arts, flaviaalons, silviaelenaperuzzo, vale_priv294, _leo._.nardo_ y yonathan_g92 respondidos; salteados: patricionicolaszarate (posible insulto político \"fachaaa\") y mat_reus73 (saludo vulgar sin relación con el tema))",
       "26/11 22:09 Termina la respuesta de comentarios (ok).",
-      "26/11 22:08 Termina la respuesta de comentarios (ok)."
+      "26/11 22:08 Termina la respuesta de comentarios (ok).",
+      "27/11 06:30 Hay 3 comentarios nuevos: arranca la respuesta.",
+      "27/11 00:00 Respondí 3 · salteé 0 · alerté 0. (059-pibe-chango-guri: trsfredy (pregunta sobre \"wawa\", fuera del guion, respondido con \"lo anoto\"), perfildoisrael (gurí en el sur de Brasil, respondido con la RAE como dato), floranahi0222 (changuito y chinita en La Rioja, aporte respondido))",
+      "27/11 00:00 Termina la respuesta de comentarios (ok).",
+      "27/11 06:30 Termina la respuesta de comentarios (ok)."
      ],
      "tareas": [
       "9 alerta",
-      "160 respondido",
+      "163 respondido",
       "36 salteado",
       "⚠️ mgrnine: Pibe no es sinónimo de niño. Es sinónimo de a lo sumo adolescente y joven adulto. Aunque lo usemos en otras oca",
       "⚠️ la_yong.lixx: 'Provincia de Buenos aires ❌ ciudad de buenos aires ✅' — corrige el guion que dice 'En Buenos Aires se dic",
@@ -490,7 +490,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-27T06:29",
+     "cuando": "2026-11-27T06:30",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -661,7 +661,7 @@
      "estado": "ok",
      "resumen": "Pasada del radar (Thanksgiving): la búsqueda solo devolvió notas del Thanksgiving 2025, un artículo de Gizmodo del 18/11 (nieve posible en el interior del Norde",
      "cuando": "2026-11-26T19:30",
-     "hace": "hace 10 h",
+     "hace": "hace 11 h",
      "detalle": [
       "24/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2019/2023/2024 y tendencias virlo del 11–18/11 (GTA 6 ya cubierto en en-030/031/032); nada verificable de las últimas 48 h. Descartados: (1) clima de viaje de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) superluna/luna llena del 24/11: sin ángulo de guardar/comentar; (3) tendencias de TikTok (Hunger Games, Pattinson Bond, Earthshot): entretenimiento/chisme. Pavo y relleno ya en cola (en-033, en-035). Sin tema nuevo.",
       "25/11 00:00 Pasada del radar: la búsqueda (clima de viaje de Thanksgiving) solo devolvió notas de 2024/2025; nada verificable de 2026. Descartados: (1) tormentas/clima de viaje de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) Black Friday: ya cubierto (en-050); (3) pavo, relleno, descongelado: ya en cola (en-028, 033, 035). Sin tema nuevo.",
@@ -938,7 +938,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-27T06:29",
+     "cuando": "2026-11-27T06:30",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
