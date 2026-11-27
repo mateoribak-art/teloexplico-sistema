@@ -129,3 +129,7 @@ Los descarté así:
 - **Almanaque del Granjero y pago del SSI:** el almanaque no es fuente oficial, y el SSI es plata sin datos verificados.
 Uso: 11 pasos · 18,538 tokens nuevos · 165,927 de caché · 1,579 escritos · equivale a US$ 0.13 de API
 2026-11-26 19:30 Termina el radar (ok).
+2026-11-27 19:13 Arranca el radar.
+No produje ningún video: no encontré un tema del momento que cumpla los criterios. Las búsquedas solo devolvieron notas de 2025 y tendencias de mediados de noviembre. Descarté el clima de Black Friday y del fin de semana (sin pronóstico oficial de 2026), las tendencias de CMA Awards, Nvidia/Anthropic y GTA VI (entretenimiento y negocios, y GTA ya está cubierto) y Black Friday (ya cubierto en en-050). Lo anoté en `videos/en/radar.log`.
+Uso: 8 pasos · 15,560 tokens nuevos · 108,117 de caché · 967 escritos · equivale a US$ 0.11 de API
+2026-11-27 19:13 Termina el radar (ok).

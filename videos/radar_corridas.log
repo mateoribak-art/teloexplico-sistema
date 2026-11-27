@@ -198,3 +198,16 @@ Decidí no producir ningún video de actualidad hoy (26/11). No encontré ningú
 - **Mundial Sub 17:** es deportes y no tiene un "¿por qué…?".
 Uso: 10 pasos · 25,273 tokens nuevos · 156,009 de caché · 1,496 escritos · equivale a US$ 0.16 de API
 2026-11-26 19:30 Termina el radar (ok).
+2026-11-27 19:13 Arranca el radar.
+Terminé el radar de hoy (27/11): no encontré ningún tema del momento que cumpla todos los criterios, así que no produje ningún video.
+
+Dos búsquedas me devolvieron casi solo notas de 2025. El 27/11/2025 fue jueves y hoy es viernes, así que no coinciden. Descarté tres candidatos:
+- **Alertas de tormenta y calor:** las notas son de 2025 o no tienen año verificable, y el tema ya está cubierto en los videos 005, 024, 018, 004, 019, 048 y 049.
+- **Black Friday:** solo hay una fuente de 2026, un comparador de precios que no es periodístico. Es un tema de plata y no encontré ningún dato oficial de hoy para chequear.
+- **Fin de semana frío y lluvioso:** la nota es de 2025.
+
+Lo dejé anotado en `videos/radar.log`.
+
+**Decisión:** sin tema de actualidad verificable hoy; sigue la cola normal.
+Uso: 10 pasos · 27,447 tokens nuevos · 160,904 de caché · 1,989 escritos · equivale a US$ 0.17 de API
+2026-11-27 19:13 Termina el radar (ok).

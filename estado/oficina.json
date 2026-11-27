@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T17:03",
+ "actualizado": "2026-11-27T19:13",
  "oficinas": [
   {
    "clave": "es",
@@ -111,7 +111,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-27T16:32",
-     "hace": "hace 31 min",
+     "hace": "hace 2 h",
      "detalle": [
       "Uso: 26 pasos · 30,245 tokens nuevos · 1,720,266 de caché · 11,305 escritos · equivale a US$ 1.12 de API",
       "2026-11-27 16:08 Arranca la producción (18 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -145,7 +145,7 @@
      "estado": "ok",
      "resumen": "Guía de referentes al día.",
      "cuando": "2026-11-23T19:13",
-     "hace": "hace 3 días",
+     "hace": "hace 4 días",
      "detalle": [
       "05/11 15:28 Termina Vera (ok).",
       "23/11 19:11 Arranca Vera (referentes).",
@@ -173,13 +173,13 @@
       }
      },
      "estado": "ok",
-     "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de 2024/2025 o de hace una semana). SIN tema nuevo. De",
-     "cuando": "2026-11-26T19:30",
-     "hace": "hace 21 h",
+     "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): casi todo es de 2025 (el 27/11/2025 fue jueves, no coincide). SIN tema nuevo verificable. Descarta",
+     "cuando": "2026-11-27T19:13",
+     "hace": "recién",
      "detalle": [
-      "24/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de 2024/2025 o de México). SIN tema nuevo. Descartados: (a) alerta amarilla por tormentas en Tucumán (sin detalle de hoy; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) calor/humedad/tormentas en AMBA \"toda la semana\" (Perfil/Meteored, sin fecha verificable; calor ya cubierto 019/048/049); (c) superluna 24-nov -> YA en cola (068, listo). Sigue la cola normal.",
       "25/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de México o economía sin fecha clara). SIN tema nuevo. Descartados: (a) alertas de tormenta/calor en AMBA (sin fuente argentina fechada de hoy; ya cubiertos 019/048/049/005/024/018); (b) superluna -> ya en cola (068); (c) inflación, dólar, consumo, Torneo Clausura -> economía/deportes, no encajan. Sigue la cola normal.",
-      "26/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de 2024/2025 o de hace una semana). SIN tema nuevo. Descartados: (a) alertas de tormenta/granizo/calor (notas del 26-nov de 2024 y 2025, sin fuente de hoy; ya cubiertos 005/024/018/004/019/048/049); (b) suspensión de las PASO en el Senado, INDEC, CEDEAR de Anthropic -> política/economía, no encajan; (c) Mundial Sub 17 -> deportes, sin \"¿por qué?\". Sigue la cola normal."
+      "26/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de 2024/2025 o de hace una semana). SIN tema nuevo. Descartados: (a) alertas de tormenta/granizo/calor (notas del 26-nov de 2024 y 2025, sin fuente de hoy; ya cubiertos 005/024/018/004/019/048/049); (b) suspensión de las PASO en el Senado, INDEC, CEDEAR de Anthropic -> política/economía, no encajan; (c) Mundial Sub 17 -> deportes, sin \"¿por qué?\". Sigue la cola normal.",
+      "27/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): casi todo es de 2025 (el 27/11/2025 fue jueves, no coincide). SIN tema nuevo verificable. Descartados: (a) alertas de tormenta/calor del 27-nov (notas de 2025 o sin año verificable; ya cubiertos 005/024/018/004/019/048/049); (b) Black Friday (viernes 27, solo una fuente no periodística para 2026, es consumo/plata y no hay dato oficial de hoy para chequear; reevaluar con fuente de Defensa del Consumidor si aparece); (c) fin de semana con frío y lluvias (La Nación, es de 2025). Sigue la cola normal."
      ],
      "tareas": [
       "🔥 004-olor-a-lluvia — ¿Por qué la tierra huele así cuando llueve?",
@@ -194,7 +194,7 @@
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "c496ce673f2a"
+     "firma": "300ff26e911f"
     },
     {
      "id": "chequeo",
@@ -213,7 +213,7 @@
      "estado": "ok",
      "resumen": "Revisado por el técnico: Bea frenó el video de la luz prendida/apagada y está bien que lo haya hecho; no cambié nada.",
      "cuando": "2026-11-27T16:32",
-     "hace": "hace 31 min",
+     "hace": "hace 2 h",
      "detalle": [
       "077-apellidos-gonzalez: aprobado — Todas las cifras y la atribución coinciden con las fuentes: La Nación (6/8/2022) y Aire de Santa Fe reproducen el informe 'Distribución geog",
       "078-piedra-papel-tijera: aprobado — La version actual ya no incluye la secuencia de cambio del que pierde (piedra->papel->tijera), que era el unico punto no verificable por con",
@@ -247,7 +247,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-27T16:32",
-     "hace": "hace 31 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -271,7 +271,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-27 16:32.",
      "cuando": "2026-11-27T16:32",
-     "hace": "hace 31 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -295,7 +295,7 @@
      "estado": "ok",
      "resumen": "19 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-27T16:32",
-     "hace": "hace 31 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -319,7 +319,7 @@
      "estado": "ok",
      "resumen": "Último: 064-nudillos-artritis.",
      "cuando": "2026-11-27T12:34",
-     "hace": "hace 4 h",
+     "hace": "hace 6 h",
      "detalle": [
       "26/11 19:32 063-che-origen publicado: https://www.instagram.com/reel/DgOLyv7BweJ/",
       "26/11 19:33 063-che-origen publicado en Facebook: https://www.facebook.com/reel/2030930881644849/",
@@ -356,7 +356,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-27T12:34",
-     "hace": "hace 4 h",
+     "hace": "hace 6 h",
      "detalle": [
       "26/11 12:33 062-pote-microondas https://youtube.com/shorts/FsVdakMuBA4 | privacidad: public",
       "26/11 12:33 062-pote-microondas paquete para TikTok/YouTube enviado",
@@ -388,7 +388,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-27T01:10",
-     "hace": "hace 15 h",
+     "hace": "hace 18 h",
      "detalle": [
       "2026-11-25 23:00 perro-no-comas: publicado https://www.instagram.com/p/DgL-6LvjaJd/",
       "2026-11-26 01:07 pibe-chango-guri: listo control OK",
@@ -422,7 +422,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-27T06:30",
-     "hace": "hace 10 h",
+     "hace": "hace 12 h",
      "detalle": [
       "26/11 22:08 Hay 8 comentarios nuevos: arranca la respuesta.",
       "26/11 00:00 Respondí 6 · salteé 2 · alerté 0. (059-pibe-chango-guri: zarchi_arts, flaviaalons, silviaelenaperuzzo, vale_priv294, _leo._.nardo_ y yonathan_g92 respondidos; salteados: patricionicolaszarate (posible insulto político \"fachaaa\") y mat_reus73 (saludo vulgar sin relación con el tema))",
@@ -461,7 +461,7 @@
      "estado": "ok",
      "resumen": "27/11: 1192 seguidores",
      "cuando": "2026-11-27T05:13",
-     "hace": "hace 11 h",
+     "hace": "hace 14 h",
      "detalle": [
       "24/11: 1071 seguidores",
       "25/11: 1143 seguidores",
@@ -494,7 +494,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 083-luz-prendida-apagada — descartada: sin fuente primaria accesible (energy.gov 404), tema de plata",
-     "cuando": "2026-11-27T17:03",
+     "cuando": "2026-11-27T19:13",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 083-luz-prendida-apagada — descartada: sin fuente primaria accesible (energy.gov 404), tema de plata"
@@ -571,6 +571,13 @@
    ],
    "linea": [
     {
+     "slug": "en-057-tip-math",
+     "tema": "How to figure a 20% tip in your head (arithmetic; own; everyday math)",
+     "estado": "render",
+     "cuando": "2026-11-27T17:03",
+     "motivo": "reintento auto: apartado por render/control; se renderiza y controla de nuevo"
+    },
+    {
      "slug": "en-039-polar-vortex",
      "tema": "What is the polar vortex? (NWS; not a storm)",
      "estado": "listo",
@@ -597,13 +604,6 @@
      "estado": "listo",
      "cuando": "2026-11-23T18:50",
      "motivo": "render sin Claude"
-    },
-    {
-     "slug": "en-057-tip-math",
-     "tema": "How to figure a 20% tip in your head (arithmetic; own; everyday math)",
-     "estado": "apartado",
-     "cuando": "2026-11-27T10:36",
-     "motivo": "render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So "
     },
     {
      "slug": "en-037-swallowed-gum",
@@ -638,7 +638,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-27T16:50",
-     "hace": "hace 13 min",
+     "hace": "hace 2 h",
      "detalle": [
       "Uso: 13 pasos · 9,779 tokens nuevos · 677,782 de caché · 2,518 escritos · equivale a US$ 0.77 de API",
       "2026-11-27 16:32 Arranca la producción (18 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
@@ -651,7 +651,9 @@
       "2026-11-27 16:50 en-058-refreeze-meat: listo (render sin Claude)",
       "2026-11-27 16:50 Termina la producción (ok)."
      ],
-     "tareas": [],
+     "tareas": [
+      "en-057-tip-math — How to figure a 20% tip in your head (arithmetic; own; everyday math)"
+     ],
      "arreglo": null,
      "solo": false,
      "firma": "8b534caf15af"
@@ -671,13 +673,13 @@
       }
      },
      "estado": "ok",
-     "resumen": "Pasada del radar (Thanksgiving): la búsqueda solo devolvió notas del Thanksgiving 2025, un artículo de Gizmodo del 18/11 (nieve posible en el interior del Norde",
-     "cuando": "2026-11-26T19:30",
-     "hace": "hace 21 h",
+     "resumen": "Pasada del radar (Black Friday): la búsqueda solo devolvió pronósticos de Black Friday/viaje de 2025 y tendencias del 13–19/11; nada verificable de 2026. Descar",
+     "cuando": "2026-11-27T19:13",
+     "hace": "recién",
      "detalle": [
-      "24/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2019/2023/2024 y tendencias virlo del 11–18/11 (GTA 6 ya cubierto en en-030/031/032); nada verificable de las últimas 48 h. Descartados: (1) clima de viaje de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) superluna/luna llena del 24/11: sin ángulo de guardar/comentar; (3) tendencias de TikTok (Hunger Games, Pattinson Bond, Earthshot): entretenimiento/chisme. Pavo y relleno ya en cola (en-033, en-035). Sin tema nuevo.",
       "25/11 00:00 Pasada del radar: la búsqueda (clima de viaje de Thanksgiving) solo devolvió notas de 2024/2025; nada verificable de 2026. Descartados: (1) tormentas/clima de viaje de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) Black Friday: ya cubierto (en-050); (3) pavo, relleno, descongelado: ya en cola (en-028, 033, 035). Sin tema nuevo.",
-      "26/11 00:00 Pasada del radar (Thanksgiving): la búsqueda solo devolvió notas del Thanksgiving 2025, un artículo de Gizmodo del 18/11 (nieve posible en el interior del Nordeste, tormenta lluviosa en la costa Este) y tendencias del 18–19/11; ningún boletín del NWS de esta semana. Descartados: (1) clima de Thanksgiving/fin de semana en el Nordeste: regional, sin fuente oficial del día confirmada; (2) tendencias (GTA 6, CMA Awards, Hunger Games): GTA ya cubierto (en-030/031/032), el resto es entretenimiento; (3) Almanaque del Granjero / pago SSI de noviembre: no es fuente oficial / es política y plata sin datos verificados. Pavo ya cubierto (en-028, 033, 035). Sin tema nuevo."
+      "26/11 00:00 Pasada del radar (Thanksgiving): la búsqueda solo devolvió notas del Thanksgiving 2025, un artículo de Gizmodo del 18/11 (nieve posible en el interior del Nordeste, tormenta lluviosa en la costa Este) y tendencias del 18–19/11; ningún boletín del NWS de esta semana. Descartados: (1) clima de Thanksgiving/fin de semana en el Nordeste: regional, sin fuente oficial del día confirmada; (2) tendencias (GTA 6, CMA Awards, Hunger Games): GTA ya cubierto (en-030/031/032), el resto es entretenimiento; (3) Almanaque del Granjero / pago SSI de noviembre: no es fuente oficial / es política y plata sin datos verificados. Pavo ya cubierto (en-028, 033, 035). Sin tema nuevo.",
+      "27/11 00:00 Pasada del radar (Black Friday): la búsqueda solo devolvió pronósticos de Black Friday/viaje de 2025 y tendencias del 13–19/11; nada verificable de 2026. Descartados: (1) clima de Black Friday/fin de semana: sin pronóstico oficial 2026 confirmado (las notas son de 2025); (2) tendencias (CMA Awards, Nvidia/Anthropic, GTA VI): entretenimiento/negocios, GTA ya cubierto; (3) Black Friday: ya cubierto (en-050). Sin tema nuevo."
      ],
      "tareas": [
       "🔥 en-002-dst-farmers — Is daylight saving time for farmers? (fall back Nov 1)",
@@ -686,7 +688,7 @@
      ],
      "arreglo": null,
      "solo": false,
-     "firma": "271f5894d589"
+     "firma": "a2135c7b3f60"
     },
     {
      "id": "chequeo",
@@ -705,7 +707,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-27T16:50",
-     "hace": "hace 13 min",
+     "hace": "hace 2 h",
      "detalle": [
       "en-051-reheated-rice: aprobado — Todas las cifras de seguridad alimentaria (2 h / 1 h si >90 °F, 3-4 días, 165 °F) coinciden con USDA FSIS en las mismas unidades (°F, horas,",
       "en-052-cloudy-sunscreen: aprobado — Re-chequeo contra fuentes primarias de EE. UU. La frase rechazada antes ('thick overcast vs light haze') ya no esta: la frase 6 y el caption",
@@ -735,17 +737,15 @@
        "cuenta": "en"
       }
      },
-     "estado": "aviso",
-     "resumen": "La voz no coincidió con el guion en en-057-tip-math.",
+     "estado": "ok",
+     "resumen": "Voz en-us-podcaster-5 sin problemas.",
      "cuando": "2026-11-27T16:50",
-     "hace": "hace 13 min",
+     "hace": "hace 2 h",
      "detalle": [],
-     "tareas": [
-      "en-057-tip-math: render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So "
-     ],
-     "arreglo": "Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.",
+     "tareas": [],
+     "arreglo": null,
      "solo": false,
-     "firma": "373a19e66255"
+     "firma": "c766d204df67"
     },
     {
      "id": "animador",
@@ -761,17 +761,17 @@
        "cuenta": "en"
       }
      },
-     "estado": "falla",
-     "resumen": "Falló el render de en-057-tip-math.",
+     "estado": "trabajando",
+     "resumen": "1 video(s) esperando render 3D (~20 min cada uno, sin Claude).",
      "cuando": "2026-11-27T16:50",
-     "hace": "hace 13 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [
-      "en-057-tip-math: render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So what do you usually tip? Give me a perce"
+      "en-057-tip-math"
      ],
-     "arreglo": "Relanzá la producción: los videos en estado render se vuelven a renderizar solos.",
+     "arreglo": null,
      "solo": false,
-     "firma": "6ae93522c609"
+     "firma": "d622e976d504"
     },
     {
      "id": "control",
@@ -790,7 +790,7 @@
      "estado": "ok",
      "resumen": "19 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-27T16:50",
-     "hace": "hace 13 min",
+     "hace": "hace 2 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -814,7 +814,7 @@
      "estado": "ok",
      "resumen": "Último: en-038-lake-effect-snow.",
      "cuando": "2026-11-27T12:36",
-     "hace": "hace 4 h",
+     "hace": "hace 6 h",
      "detalle": [
       "26/11 12:36 en-036-phantom-charger en la bandeja de TikTok",
       "26/11 12:36 en-036-phantom-charger paquete para TikTok/YouTube enviado",
@@ -851,7 +851,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-27T12:36",
-     "hace": "hace 4 h",
+     "hace": "hace 6 h",
      "detalle": [
       "25/11 19:35 en-035-turkey-stuffing en la bandeja de TikTok",
       "25/11 19:35 en-035-turkey-stuffing paquete para TikTok/YouTube enviado",
@@ -886,7 +886,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-26T22:09",
-     "hace": "hace 18 h",
+     "hace": "hace 21 h",
      "detalle": [
       "22/11 00:00 Resumen: respondí 0, salteé 1, alerté 0.",
       "22/11 19:43 Termina la respuesta de comentarios (ok).",
@@ -921,7 +921,7 @@
      "estado": "ok",
      "resumen": "27/11: 5 seguidores",
      "cuando": "2026-11-27T05:13",
-     "hace": "hace 11 h",
+     "hace": "hace 14 h",
      "detalle": [
       "24/11: 5 seguidores",
       "25/11: 5 seguidores",
@@ -952,17 +952,15 @@
        "modo": "vigilar"
       }
      },
-     "estado": "aviso",
-     "resumen": "Video apartado: en-057-tip-math — render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this f",
-     "cuando": "2026-11-27T17:03",
+     "estado": "ok",
+     "resumen": "Todo en orden ✓",
+     "cuando": "2026-11-27T19:13",
      "hace": "recién",
-     "detalle": [
-      "⚠️ Video apartado: en-057-tip-math — render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this f"
-     ],
+     "detalle": [],
      "tareas": [],
      "arreglo": null,
-     "solo": true,
-     "firma": "e84ec22cb8b7"
+     "solo": false,
+     "firma": "3e900f50565c"
     }
    ]
   }
