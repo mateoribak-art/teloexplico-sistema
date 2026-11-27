@@ -1,0 +1,765 @@
+{
+ "duracion": 47.34,
+ "frases": [
+  {
+   "texto": "Hervís la verdura porque te dijeron que el microondas le saca las vitaminas.",
+   "palabras": [
+    {
+     "texto": "Hervís",
+     "inicio": 0.0,
+     "fin": 0.32
+    },
+    {
+     "texto": "la",
+     "inicio": 0.32,
+     "fin": 0.4
+    },
+    {
+     "texto": "verdura",
+     "inicio": 0.4,
+     "fin": 0.88
+    },
+    {
+     "texto": "porque",
+     "inicio": 0.88,
+     "fin": 1.18
+    },
+    {
+     "texto": "te",
+     "inicio": 1.18,
+     "fin": 1.36
+    },
+    {
+     "texto": "dijeron",
+     "inicio": 1.36,
+     "fin": 1.8
+    },
+    {
+     "texto": "que",
+     "inicio": 1.8,
+     "fin": 1.96
+    },
+    {
+     "texto": "el",
+     "inicio": 1.96,
+     "fin": 2.18
+    },
+    {
+     "texto": "microondas",
+     "inicio": 2.18,
+     "fin": 2.74
+    },
+    {
+     "texto": "le",
+     "inicio": 2.74,
+     "fin": 2.88
+    },
+    {
+     "texto": "saca",
+     "inicio": 2.88,
+     "fin": 3.14
+    },
+    {
+     "texto": "las",
+     "inicio": 3.14,
+     "fin": 3.28
+    },
+    {
+     "texto": "vitaminas.",
+     "inicio": 3.28,
+     "fin": 3.92
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.92
+  },
+  {
+   "texto": "Es casi al revés.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 4.26,
+     "fin": 4.54
+    },
+    {
+     "texto": "casi",
+     "inicio": 4.54,
+     "fin": 4.72
+    },
+    {
+     "texto": "al",
+     "inicio": 4.72,
+     "fin": 4.94
+    },
+    {
+     "texto": "revés.",
+     "inicio": 4.94,
+     "fin": 5.3
+    }
+   ],
+   "inicio": 4.26,
+   "fin": 5.3
+  },
+  {
+   "texto": "Harvard Health, en dos mil diecinueve, explicó que el microondas es de las formas de cocinar que menos dañan los nutrientes.",
+   "palabras": [
+    {
+     "texto": "Harvard",
+     "inicio": 6.14,
+     "fin": 6.62
+    },
+    {
+     "texto": "Health,",
+     "inicio": 6.62,
+     "fin": 7.06
+    },
+    {
+     "texto": "en",
+     "inicio": 7.24,
+     "fin": 7.56
+    },
+    {
+     "texto": "dos",
+     "inicio": 7.56,
+     "fin": 7.66
+    },
+    {
+     "texto": "mil",
+     "inicio": 7.66,
+     "fin": 7.78
+    },
+    {
+     "texto": "diecinueve,",
+     "inicio": 7.78,
+     "fin": 8.28
+    },
+    {
+     "texto": "explicó",
+     "inicio": 8.68,
+     "fin": 9.18
+    },
+    {
+     "texto": "que",
+     "inicio": 9.18,
+     "fin": 9.32
+    },
+    {
+     "texto": "el",
+     "inicio": 9.32,
+     "fin": 9.44
+    },
+    {
+     "texto": "microondas",
+     "inicio": 9.44,
+     "fin": 10.06
+    },
+    {
+     "texto": "es",
+     "inicio": 10.06,
+     "fin": 10.52
+    },
+    {
+     "texto": "de",
+     "inicio": 10.52,
+     "fin": 10.62
+    },
+    {
+     "texto": "las",
+     "inicio": 10.62,
+     "fin": 10.72
+    },
+    {
+     "texto": "formas",
+     "inicio": 10.72,
+     "fin": 10.98
+    },
+    {
+     "texto": "de",
+     "inicio": 10.98,
+     "fin": 11.14
+    },
+    {
+     "texto": "cocinar",
+     "inicio": 11.14,
+     "fin": 11.5
+    },
+    {
+     "texto": "que",
+     "inicio": 11.5,
+     "fin": 11.8
+    },
+    {
+     "texto": "menos",
+     "inicio": 11.8,
+     "fin": 12.26
+    },
+    {
+     "texto": "dañan",
+     "inicio": 12.26,
+     "fin": 12.68
+    },
+    {
+     "texto": "los",
+     "inicio": 12.68,
+     "fin": 12.82
+    },
+    {
+     "texto": "nutrientes.",
+     "inicio": 12.82,
+     "fin": 13.3
+    }
+   ],
+   "inicio": 6.14,
+   "fin": 13.3
+  },
+  {
+   "texto": "Cuanto más tiempo se cocina algo, más nutrientes se rompen, y el microondas tarda menos.",
+   "palabras": [
+    {
+     "texto": "Cuanto",
+     "inicio": 14.16,
+     "fin": 14.52
+    },
+    {
+     "texto": "más",
+     "inicio": 14.52,
+     "fin": 14.74
+    },
+    {
+     "texto": "tiempo",
+     "inicio": 14.74,
+     "fin": 15.0
+    },
+    {
+     "texto": "se",
+     "inicio": 15.0,
+     "fin": 15.22
+    },
+    {
+     "texto": "cocina",
+     "inicio": 15.22,
+     "fin": 15.54
+    },
+    {
+     "texto": "algo,",
+     "inicio": 15.54,
+     "fin": 15.88
+    },
+    {
+     "texto": "más",
+     "inicio": 16.26,
+     "fin": 16.42
+    },
+    {
+     "texto": "nutrientes",
+     "inicio": 16.42,
+     "fin": 16.86
+    },
+    {
+     "texto": "se",
+     "inicio": 16.86,
+     "fin": 17.0
+    },
+    {
+     "texto": "rompen,",
+     "inicio": 17.0,
+     "fin": 17.34
+    },
+    {
+     "texto": "y",
+     "inicio": 17.86,
+     "fin": 18.0
+    },
+    {
+     "texto": "el",
+     "inicio": 18.0,
+     "fin": 18.1
+    },
+    {
+     "texto": "microondas",
+     "inicio": 18.1,
+     "fin": 18.64
+    },
+    {
+     "texto": "tarda",
+     "inicio": 18.64,
+     "fin": 19.1
+    },
+    {
+     "texto": "menos.",
+     "inicio": 19.1,
+     "fin": 19.38
+    }
+   ],
+   "inicio": 14.16,
+   "fin": 19.38
+  },
+  {
+   "texto": "Al hervir, parte de los nutrientes se escapa al agua de la olla, y esa agua después la tirás.",
+   "palabras": [
+    {
+     "texto": "Al",
+     "inicio": 20.26,
+     "fin": 20.54
+    },
+    {
+     "texto": "hervir,",
+     "inicio": 20.54,
+     "fin": 20.82
+    },
+    {
+     "texto": "parte",
+     "inicio": 21.28,
+     "fin": 21.62
+    },
+    {
+     "texto": "de",
+     "inicio": 21.62,
+     "fin": 21.76
+    },
+    {
+     "texto": "los",
+     "inicio": 21.76,
+     "fin": 21.86
+    },
+    {
+     "texto": "nutrientes",
+     "inicio": 21.86,
+     "fin": 22.36
+    },
+    {
+     "texto": "se",
+     "inicio": 22.36,
+     "fin": 22.66
+    },
+    {
+     "texto": "escapa",
+     "inicio": 22.66,
+     "fin": 22.94
+    },
+    {
+     "texto": "al",
+     "inicio": 22.94,
+     "fin": 23.1
+    },
+    {
+     "texto": "agua",
+     "inicio": 23.1,
+     "fin": 23.28
+    },
+    {
+     "texto": "de",
+     "inicio": 23.28,
+     "fin": 23.4
+    },
+    {
+     "texto": "la",
+     "inicio": 23.4,
+     "fin": 23.5
+    },
+    {
+     "texto": "olla,",
+     "inicio": 23.5,
+     "fin": 23.7
+    },
+    {
+     "texto": "y",
+     "inicio": 24.18,
+     "fin": 24.44
+    },
+    {
+     "texto": "esa",
+     "inicio": 24.44,
+     "fin": 24.62
+    },
+    {
+     "texto": "agua",
+     "inicio": 24.62,
+     "fin": 24.94
+    },
+    {
+     "texto": "después",
+     "inicio": 24.94,
+     "fin": 25.24
+    },
+    {
+     "texto": "la",
+     "inicio": 25.24,
+     "fin": 25.44
+    },
+    {
+     "texto": "tirás.",
+     "inicio": 25.44,
+     "fin": 25.74
+    }
+   ],
+   "inicio": 20.26,
+   "fin": 25.74
+  },
+  {
+   "texto": "Y con la vitamina C, Harvard dice que el microondas la conserva mejor.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 26.18,
+     "fin": 26.38
+    },
+    {
+     "texto": "con",
+     "inicio": 26.38,
+     "fin": 26.58
+    },
+    {
+     "texto": "la",
+     "inicio": 26.58,
+     "fin": 26.72
+    },
+    {
+     "texto": "vitamina",
+     "inicio": 26.72,
+     "fin": 27.08
+    },
+    {
+     "texto": "C,",
+     "inicio": 27.08,
+     "fin": 27.32
+    },
+    {
+     "texto": "Harvard",
+     "inicio": 27.76,
+     "fin": 28.04
+    },
+    {
+     "texto": "dice",
+     "inicio": 28.04,
+     "fin": 28.42
+    },
+    {
+     "texto": "que",
+     "inicio": 28.42,
+     "fin": 28.64
+    },
+    {
+     "texto": "el",
+     "inicio": 28.64,
+     "fin": 28.78
+    },
+    {
+     "texto": "microondas",
+     "inicio": 28.78,
+     "fin": 29.36
+    },
+    {
+     "texto": "la",
+     "inicio": 29.36,
+     "fin": 29.48
+    },
+    {
+     "texto": "conserva",
+     "inicio": 29.48,
+     "fin": 29.96
+    },
+    {
+     "texto": "mejor.",
+     "inicio": 29.96,
+     "fin": 30.22
+    }
+   ],
+   "inicio": 26.18,
+   "fin": 30.22
+  },
+  {
+   "texto": "El truco para guardar: verdura con un chorrito de agua y pocos minutos. Se cocina al vapor desde adentro.",
+   "palabras": [
+    {
+     "texto": "El",
+     "inicio": 30.84,
+     "fin": 30.94
+    },
+    {
+     "texto": "truco",
+     "inicio": 30.94,
+     "fin": 31.2
+    },
+    {
+     "texto": "para",
+     "inicio": 31.2,
+     "fin": 31.36
+    },
+    {
+     "texto": "guardar:",
+     "inicio": 31.36,
+     "fin": 31.8
+    },
+    {
+     "texto": "verdura",
+     "inicio": 32.14,
+     "fin": 32.66
+    },
+    {
+     "texto": "con",
+     "inicio": 32.66,
+     "fin": 32.9
+    },
+    {
+     "texto": "un",
+     "inicio": 32.9,
+     "fin": 33.06
+    },
+    {
+     "texto": "chorrito",
+     "inicio": 33.06,
+     "fin": 33.34
+    },
+    {
+     "texto": "de",
+     "inicio": 33.34,
+     "fin": 33.5
+    },
+    {
+     "texto": "agua",
+     "inicio": 33.5,
+     "fin": 33.76
+    },
+    {
+     "texto": "y",
+     "inicio": 33.76,
+     "fin": 33.96
+    },
+    {
+     "texto": "pocos",
+     "inicio": 33.96,
+     "fin": 34.22
+    },
+    {
+     "texto": "minutos.",
+     "inicio": 34.22,
+     "fin": 34.52
+    },
+    {
+     "texto": "Se",
+     "inicio": 35.06,
+     "fin": 35.28
+    },
+    {
+     "texto": "cocina",
+     "inicio": 35.28,
+     "fin": 35.6
+    },
+    {
+     "texto": "al",
+     "inicio": 35.6,
+     "fin": 35.68
+    },
+    {
+     "texto": "vapor",
+     "inicio": 35.68,
+     "fin": 35.88
+    },
+    {
+     "texto": "desde",
+     "inicio": 35.88,
+     "fin": 36.1
+    },
+    {
+     "texto": "adentro.",
+     "inicio": 36.1,
+     "fin": 36.6
+    }
+   ],
+   "inicio": 30.84,
+   "fin": 36.6
+  },
+  {
+   "texto": "Ojo: cocinar de cualquier forma siempre rompe algo de nutrientes.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 37.06,
+     "fin": 37.32
+    },
+    {
+     "texto": "cocinar",
+     "inicio": 37.64,
+     "fin": 38.02
+    },
+    {
+     "texto": "de",
+     "inicio": 38.02,
+     "fin": 38.16
+    },
+    {
+     "texto": "cualquier",
+     "inicio": 38.16,
+     "fin": 38.4
+    },
+    {
+     "texto": "forma",
+     "inicio": 38.4,
+     "fin": 39.02
+    },
+    {
+     "texto": "siempre",
+     "inicio": 39.02,
+     "fin": 39.44
+    },
+    {
+     "texto": "rompe",
+     "inicio": 39.44,
+     "fin": 39.88
+    },
+    {
+     "texto": "algo",
+     "inicio": 39.88,
+     "fin": 40.06
+    },
+    {
+     "texto": "de",
+     "inicio": 40.06,
+     "fin": 40.14
+    },
+    {
+     "texto": "nutrientes.",
+     "inicio": 40.14,
+     "fin": 40.62
+    }
+   ],
+   "inicio": 37.06,
+   "fin": 40.62
+  },
+  {
+   "texto": "¿Qué es lo que más calentás vos en el microondas? Contestá con una palabra.",
+   "palabras": [
+    {
+     "texto": "¿Qué",
+     "inicio": 41.22,
+     "fin": 41.34
+    },
+    {
+     "texto": "es",
+     "inicio": 41.34,
+     "fin": 41.46
+    },
+    {
+     "texto": "lo",
+     "inicio": 41.46,
+     "fin": 41.54
+    },
+    {
+     "texto": "que",
+     "inicio": 41.54,
+     "fin": 41.64
+    },
+    {
+     "texto": "más",
+     "inicio": 41.64,
+     "fin": 41.76
+    },
+    {
+     "texto": "calentás",
+     "inicio": 41.76,
+     "fin": 42.18
+    },
+    {
+     "texto": "vos",
+     "inicio": 42.18,
+     "fin": 42.32
+    },
+    {
+     "texto": "en",
+     "inicio": 42.32,
+     "fin": 42.48
+    },
+    {
+     "texto": "el",
+     "inicio": 42.48,
+     "fin": 42.54
+    },
+    {
+     "texto": "microondas?",
+     "inicio": 42.54,
+     "fin": 43.06
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 43.42,
+     "fin": 43.78
+    },
+    {
+     "texto": "con",
+     "inicio": 43.78,
+     "fin": 43.96
+    },
+    {
+     "texto": "una",
+     "inicio": 43.96,
+     "fin": 44.1
+    },
+    {
+     "texto": "palabra.",
+     "inicio": 44.1,
+     "fin": 44.36
+    }
+   ],
+   "inicio": 41.22,
+   "fin": 44.36
+  },
+  {
+   "texto": "Mandáselo al que hierve la verdura hasta que se deshace.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 44.9,
+     "fin": 45.42
+    },
+    {
+     "texto": "al",
+     "inicio": 45.42,
+     "fin": 45.52
+    },
+    {
+     "texto": "que",
+     "inicio": 45.52,
+     "fin": 45.64
+    },
+    {
+     "texto": "hierve",
+     "inicio": 45.64,
+     "fin": 46.0
+    },
+    {
+     "texto": "la",
+     "inicio": 46.0,
+     "fin": 46.1
+    },
+    {
+     "texto": "verdura",
+     "inicio": 46.1,
+     "fin": 46.44
+    },
+    {
+     "texto": "hasta",
+     "inicio": 46.44,
+     "fin": 46.6
+    },
+    {
+     "texto": "que",
+     "inicio": 46.6,
+     "fin": 46.74
+    },
+    {
+     "texto": "se",
+     "inicio": 46.74,
+     "fin": 46.88
+    },
+    {
+     "texto": "deshace.",
+     "inicio": 46.88,
+     "fin": 47.24
+    }
+   ],
+   "inicio": 44.9,
+   "fin": 47.24
+  }
+ ]
+}

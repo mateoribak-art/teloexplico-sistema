@@ -2993,5 +2993,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "082-microondas-vitaminas",
+  "tema": "¿El microondas le saca los nutrientes a la comida? Harvard Health: de las formas que menos los dañan; hervir pierde más",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-27T09:57",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-27T09:57",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-27T10:02",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-27T10:25",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

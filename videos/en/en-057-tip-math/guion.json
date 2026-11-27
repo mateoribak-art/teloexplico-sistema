@@ -1,0 +1,25 @@
+{
+  "titulo": "Figure a 20% tip in your head: slide the decimal, then double",
+  "pilar": "plata_hogar",
+  "receta": "cuenta simple con la plata de todos los días + regla para guardar (mover la coma y duplicar)",
+  "fondo": "oscuro",
+  "destinatario": "Se lo manda alguien que hace la cuenta de la propina de cabeza a su amigo que saca la calculadora en la mesa.",
+  "interaccion": {
+    "guardar": "20% tip: slide the decimal one spot left (10%), then double it. 15%: 10% plus half of it.",
+    "comentar": "What do you usually tip? Give me a percent."
+  },
+  "fuentes": [
+    "Aritmética simple: 50 x 0.10 = 5; 5 x 2 = 10; 5 + 2.50 = 7.50"
+  ],
+  "frases": [
+    {"texto": "You pull out your phone to figure out the tip. You don't need to.", "estilo": "Casual, a little teasing."},
+    {"texto": "Here's the shortcut.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "Say the bill is fifty dollars. Slide the decimal one spot left. That's ten percent: five dollars.", "estilo": "Clear, matter of fact."},
+    {"texto": "Now double it. Ten dollars. That's twenty percent.", "estilo": "Explaining, steady."},
+    {"texto": "Want fifteen? Take the ten percent and add half of it. Five plus two fifty is seven fifty.", "estilo": "Practical, friendly."},
+    {"texto": "Heads up: some restaurants already add a service charge, so check the bill first.", "estilo": "Warm, honest, with the caveat."},
+    {"texto": "Save this for the next time the check shows up.", "estilo": "Practical, friendly."},
+    {"texto": "So what do you usually tip? Give me a percent.", "estilo": "Casual, inviting."},
+    {"texto": "Send this to the friend who pulls out a calculator at dinner.", "estilo": "Playful, with humor."}
+  ]
+}

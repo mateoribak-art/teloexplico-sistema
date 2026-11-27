@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T06:30",
+ "actualizado": "2026-11-27T10:36",
  "oficinas": [
   {
    "clave": "es",
@@ -7,8 +7,8 @@
    "ciudad": "Buenos Aires",
    "zona": "America/Argentina/Buenos_Aires",
    "seguidores": 1192,
-   "listos": 18,
-   "dias": 9.0,
+   "listos": 19,
+   "dias": 9.5,
    "proximo": "064-nudillos-artritis",
    "publicados": 62,
    "pausa": false,
@@ -103,22 +103,18 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-27T01:10",
-     "hace": "hace 5 h",
+     "cuando": "2026-11-27T10:25",
+     "hace": "hace 11 min",
      "detalle": [
-      "Uso: 25 pasos · 19,506 tokens nuevos · 1,221,922 de caché · 7,700 escritos · equivale a US$ 1.21 de API",
-      "2026-11-27 00:48 Arranca la producción (17 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
-      "- **Listo para render:** `081-dos-litros-agua` (¿hay que tomar dos litros de agua por día?). El chequeo lo rechazó la primera vez y lo aprobó la segunda, después de corregir las cifras y los matices de salud. La voz sale de 58 s, algo por e",
-      "- **Rescates:** ninguno. 005, 038, 042, 044 y 051 siguen apartados y no por un chequeo rechazado, así que no había nada que rescatar.",
-      "- **Segundo video no producido:** la cola ya tenía 17 listos, más de los 10 que pide la regla. Tampoco corrí el radar de actualidad esta noche; el último, del 26/11, no encontró tema.",
-      "Uso: 25 pasos · 19,506 tokens nuevos · 1,221,922 de caché · 7,700 escritos · equivale a US$ 1.21 de API",
-      "2026-11-27 00:54 Render de 081-dos-litros-agua (sin Claude).",
-      "2026-11-27 01:09 081-dos-litros-agua: listo (render sin Claude)",
-      "2026-11-27 01:09 Termina la producción (ok).",
-      "2026-11-27 01:09 Arranca el carrusel (1 listos, meta 2).",
-      "`una-sola-tabla`: quedó listo. Salió del reel `045-una-sola-tabla` (publicado el 17/11, chequeo aprobado) y tiene 7 placas, sin cifras, con USDA FSIS como única fuente. Después de acortar el texto de la tapa, que se cortaba, volví a correr ",
-      "Uso: 25 pasos · 24,252 tokens nuevos · 418,411 de caché · 4,239 escritos · equivale a US$ 0.18 de API",
-      "2026-11-27 01:10 Termina el carrusel (ok; quedan 2 listos)."
+      "Uso: 25 pasos · 21,986 tokens nuevos · 1,621,873 de caché · 8,685 escritos · equivale a US$ 1.17 de API",
+      "2026-11-27 09:56 Arranca la producción (18 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
+      "- **Listo para render:** `082-microondas-vitaminas`, el mito del microondas y las vitaminas (serie cocina #10). El chequeo lo aprobó al primer intento con Harvard Health 2019 y 2021. La voz dura 47,3 s con 138 palabras de 138, algo sobre el",
+      "- **Sin rescates:** 005, 038, 042, 044 y 051 están apartados por otros motivos, no por chequeo rechazado.",
+      "- **Segundo video no producido:** la cola tenía 18 listos, más de los 10 que justifican otro. Radar sin tema nuevo hoy.",
+      "Uso: 25 pasos · 21,986 tokens nuevos · 1,621,873 de caché · 8,685 escritos · equivale a US$ 1.17 de API",
+      "2026-11-27 10:02 Render de 082-microondas-vitaminas (sin Claude).",
+      "2026-11-27 10:25 082-microondas-vitaminas: listo (render sin Claude)",
+      "2026-11-27 10:25 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -172,7 +168,7 @@
      "estado": "ok",
      "resumen": "Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de 2024/2025 o de hace una semana). SIN tema nuevo. De",
      "cuando": "2026-11-26T19:30",
-     "hace": "hace 11 h",
+     "hace": "hace 15 h",
      "detalle": [
       "24/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de 2024/2025 o de México). SIN tema nuevo. Descartados: (a) alerta amarilla por tormentas en Tucumán (sin detalle de hoy; tormenta/granizo ya cubiertos 005/024/018/004/016); (b) calor/humedad/tormentas en AMBA \"toda la semana\" (Perfil/Meteored, sin fecha verificable; calor ya cubierto 019/048/049); (c) superluna 24-nov -> YA en cola (068, listo). Sigue la cola normal.",
       "25/11 00:00 | Revisión radar. Dos búsquedas web (alertas SMN y tendencias): nada verificable fechado de hoy (resultados de México o economía sin fecha clara). SIN tema nuevo. Descartados: (a) alertas de tormenta/calor en AMBA (sin fuente argentina fechada de hoy; ya cubiertos 019/048/049/005/024/018); (b) superluna -> ya en cola (068); (c) inflación, dólar, consumo, Torneo Clausura -> economía/deportes, no encajan. Sigue la cola normal.",
@@ -209,17 +205,17 @@
      },
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
-     "cuando": "2026-11-27T01:09",
-     "hace": "hace 5 h",
+     "cuando": "2026-11-27T10:25",
+     "hace": "hace 11 min",
      "detalle": [
-      "074-afeitar-pelo-grueso: aprobado — Todas las afirmaciones quedaron verificadas con fuente; la unica hipotesis (coincidencia de la pubertad con las primeras afeitadas) ya esta ",
       "075-parabrisas-empanado: aprobado — Segundo chequeo con busqueda web. Las correcciones de la ronda anterior se aplicaron: ya no hay cifra de tiempo ('a los dos segundos') y la ",
       "076-calentar-el-auto: aprobado — Las afirmaciones de plata y seguridad (autos modernos se manejan a los pocos segundos, la forma más rápida de calentar es manejar, el ralent",
       "077-apellidos-gonzalez: aprobado — Todas las cifras y la atribución coinciden con las fuentes: La Nación (6/8/2022) y Aire de Santa Fe reproducen el informe 'Distribución geog",
       "078-piedra-papel-tijera: aprobado — La version actual ya no incluye la secuencia de cambio del que pierde (piedra->papel->tijera), que era el unico punto no verificable por con",
       "079-leer-poca-luz: aprobado — Se leyó el texto primario de ambas fuentes. Harvard Health (5 truths about protecting your eyes, 12/02/2021): 'Dim lighting will not damage ",
       "080-finde-largo-diciembre: aprobado — Todas las afirmaciones fácticas están verificadas con fuente primaria (Resolución 164/2025 de Jefatura de Gabinete, argentina.gob.ar, Ley 27",
-      "081-dos-litros-agua: aprobado — Segundo chequeo independiente con fuentes web. Todas las afirmaciones de salud quedan verificadas y el guion y el caption ya incluyen los ma"
+      "081-dos-litros-agua: aprobado — Segundo chequeo independiente con fuentes web. Todas las afirmaciones de salud quedan verificadas y el guion y el caption ya incluyen los ma",
+      "082-microondas-vitaminas: aprobado — Todas las afirmaciones de salud y nutrición están verificadas contra las dos páginas de Harvard Health (leídas en harvardhealth.org): la not"
      ],
      "tareas": [],
      "arreglo": null,
@@ -242,8 +238,8 @@
      },
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
-     "cuando": "2026-11-27T01:09",
-     "hace": "hace 5 h",
+     "cuando": "2026-11-27T10:25",
+     "hace": "hace 11 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -265,14 +261,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-27 01:09.",
-     "cuando": "2026-11-27T01:09",
-     "hace": "hace 5 h",
+     "resumen": "Último video terminado: 2026-11-27 10:25.",
+     "cuando": "2026-11-27T10:25",
+     "hace": "hace 11 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "14bd0a53ea16"
+     "firma": "c3ea397bdae9"
     },
     {
      "id": "control",
@@ -289,14 +285,14 @@
       }
      },
      "estado": "ok",
-     "resumen": "18 videos listos, ninguno apartado en las últimas 48 h.",
-     "cuando": "2026-11-27T01:09",
-     "hace": "hace 5 h",
+     "resumen": "19 videos listos, ninguno apartado en las últimas 48 h.",
+     "cuando": "2026-11-27T10:25",
+     "hace": "hace 11 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
      "solo": false,
-     "firma": "d243a5a5cb99"
+     "firma": "caf299d5329d"
     },
     {
      "id": "publicador",
@@ -315,7 +311,7 @@
      "estado": "ok",
      "resumen": "Último: 063-che-origen.",
      "cuando": "2026-11-26T19:33",
-     "hace": "hace 10 h",
+     "hace": "hace 15 h",
      "detalle": [
       "26/11 12:32 062-pote-microondas publicado: https://www.instagram.com/reel/DgNbvOfhPrg/",
       "26/11 12:33 062-pote-microondas publicado en Facebook: https://www.facebook.com/reel/1153727584283015/",
@@ -352,7 +348,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-26T19:33",
-     "hace": "hace 10 h",
+     "hace": "hace 15 h",
      "detalle": [
       "25/11 19:33 061-heladera-termometro https://youtube.com/shorts/8LFsYRV9gpk | privacidad: public",
       "25/11 19:33 061-heladera-termometro paquete para TikTok/YouTube enviado",
@@ -384,7 +380,7 @@
      "estado": "ok",
      "resumen": "2 listo(s) para las 16:00.",
      "cuando": "2026-11-27T01:10",
-     "hace": "hace 5 h",
+     "hace": "hace 9 h",
      "detalle": [
       "2026-11-25 23:00 perro-no-comas: publicado https://www.instagram.com/p/DgL-6LvjaJd/",
       "2026-11-26 01:07 pibe-chango-guri: listo control OK",
@@ -418,7 +414,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-27T06:30",
-     "hace": "recién",
+     "hace": "hace 4 h",
      "detalle": [
       "26/11 22:08 Hay 8 comentarios nuevos: arranca la respuesta.",
       "26/11 00:00 Respondí 6 · salteé 2 · alerté 0. (059-pibe-chango-guri: zarchi_arts, flaviaalons, silviaelenaperuzzo, vale_priv294, _leo._.nardo_ y yonathan_g92 respondidos; salteados: patricionicolaszarate (posible insulto político \"fachaaa\") y mat_reus73 (saludo vulgar sin relación con el tema))",
@@ -457,7 +453,7 @@
      "estado": "ok",
      "resumen": "27/11: 1192 seguidores",
      "cuando": "2026-11-27T05:13",
-     "hace": "hace 1 h",
+     "hace": "hace 5 h",
      "detalle": [
       "24/11: 1071 seguidores",
       "25/11: 1143 seguidores",
@@ -490,7 +486,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-27T06:30",
+     "cuando": "2026-11-27T10:36",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
@@ -593,6 +589,13 @@
      "motivo": "render sin Claude"
     },
     {
+     "slug": "en-057-tip-math",
+     "tema": "How to figure a 20% tip in your head (arithmetic; own; everyday math)",
+     "estado": "apartado",
+     "cuando": "2026-11-27T10:36",
+     "motivo": "render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So "
+    },
+    {
      "slug": "en-036-phantom-charger",
      "tema": "Does unplugging your phone charger save money? (LBNL standby; own)",
      "estado": "publicado",
@@ -624,20 +627,18 @@
      },
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
-     "cuando": "2026-11-27T01:31",
-     "hace": "hace 4 h",
+     "cuando": "2026-11-27T10:36",
+     "hace": "recién",
      "detalle": [
-      "Uso: 63 pasos · 86,504 tokens nuevos · 2,394,350 de caché · 21,317 escritos · equivale a US$ 1.13 de API",
-      "2026-11-27 01:10 Arranca la producción (18 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
-      "- **Listo para render:** `en-056-smoke-alarm` (serie Home myths #12, propio). Es sobre las alarmas de humo que vencen: se reemplazan 10 años después de la fecha de fabricación y se prueban una vez al mes. El chequeo lo rechazó la primera ve",
-      "- **Apartados:** no había ninguno que rescatar; `en-042` ya figuraba como `listo`. Tampoco corrí el radar: la última pasada fue el 26/11 y no encontró tema.",
-      "- **Incompleto:** nada. Queda pendiente `tlx control`, que corre `producir.py` después del render.",
-      "Uso: 63 pasos · 86,504 tokens nuevos · 2,394,350 de caché · 21,317 escritos · equivale a US$ 1.13 de API",
-      "Permisos negados (1):",
-      "  Bash: {\"command\": \"cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-056-smoke-alarm; cat > chequeo.json <<'EOF'\\n{\\n  \\\"veredicto\\\"",
-      "2026-11-27 01:17 Render de en-056-smoke-alarm (sin Claude).",
-      "2026-11-27 01:31 en-056-smoke-alarm: listo (render sin Claude)",
-      "2026-11-27 01:31 Termina la producción (ok)."
+      "Uso: 47 pasos · 70,977 tokens nuevos · 1,449,193 de caché · 13,704 escritos · equivale a US$ 0.68 de API",
+      "2026-11-27 10:25 Arranca la producción (19 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
+      "- **Listo para render:** `en-057-tip-math` (serie Everyday math #6, el truco de la propina: correr la coma = 10 %, duplicar = 20 %). El chequeo con subagente lo aprobó a la primera. La voz salió bien (32,7 s, 106 palabras) y `tlx tsc` pasó.",
+      "- **Rescates:** no había videos apartados por chequeo rechazado, así que no rescaté ninguno.",
+      "- **Pendiente:** el radar no se repitió (la última pasada fue el 26/11 y no encontró tema). Los cuadros se revisaron en dos vueltas. Dejé `portada_ms` en 7000 sin ajustarlo al momento del golpe, así que conviene mirar la portada.",
+      "Uso: 47 pasos · 70,977 tokens nuevos · 1,449,193 de caché · 13,704 escritos · equivale a US$ 0.68 de API",
+      "2026-11-27 10:30 Render de en-057-tip-math (sin Claude).",
+      "2026-11-27 10:36 en-057-tip-math: apartado (render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So what do you usually tip? Give me a p",
+      "2026-11-27 10:36 Termina la producción (ok)."
      ],
      "tareas": [],
      "arreglo": null,
@@ -661,7 +662,7 @@
      "estado": "ok",
      "resumen": "Pasada del radar (Thanksgiving): la búsqueda solo devolvió notas del Thanksgiving 2025, un artículo de Gizmodo del 18/11 (nieve posible en el interior del Norde",
      "cuando": "2026-11-26T19:30",
-     "hace": "hace 11 h",
+     "hace": "hace 15 h",
      "detalle": [
       "24/11 00:00 Pasada del radar: la búsqueda solo devolvió pronósticos de Thanksgiving de 2019/2023/2024 y tendencias virlo del 11–18/11 (GTA 6 ya cubierto en en-030/031/032); nada verificable de las últimas 48 h. Descartados: (1) clima de viaje de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) superluna/luna llena del 24/11: sin ángulo de guardar/comentar; (3) tendencias de TikTok (Hunger Games, Pattinson Bond, Earthshot): entretenimiento/chisme. Pavo y relleno ya en cola (en-033, en-035). Sin tema nuevo.",
       "25/11 00:00 Pasada del radar: la búsqueda (clima de viaje de Thanksgiving) solo devolvió notas de 2024/2025; nada verificable de 2026. Descartados: (1) tormentas/clima de viaje de Thanksgiving (26/11): sin pronóstico oficial 2026 confirmado; (2) Black Friday: ya cubierto (en-050); (3) pavo, relleno, descongelado: ya en cola (en-028, 033, 035). Sin tema nuevo.",
@@ -693,16 +694,16 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-27T01:31",
-     "hace": "hace 4 h",
+     "hace": "hace 9 h",
      "detalle": [
-      "en-049-space-heater: aprobado — Todas las afirmaciones de seguridad contra incendios estan verificadas con fuentes primarias de EE. UU. (CPSC y USFA/FEMA), con atribuciones",
       "en-050-stacked-discounts: aprobado — Toda la plata es aritmetica verificada (100x0.8=80; 80x0.8=64; 20% de 80 = 16; 100-64=36; 0.8x0.8=0.64) y coincide con material de matematic",
       "en-051-reheated-rice: aprobado — Todas las cifras de seguridad alimentaria (2 h / 1 h si >90 °F, 3-4 días, 165 °F) coinciden con USDA FSIS en las mismas unidades (°F, horas,",
       "en-052-cloudy-sunscreen: aprobado — Re-chequeo contra fuentes primarias de EE. UU. La frase rechazada antes ('thick overcast vs light haze') ya no esta: la frase 6 y el caption",
       "en-053-first-frost: aprobado — Se releyeron las fuentes con búsqueda web. Las cifras (33-36°F) están confirmadas por NWS Raleigh, Tallahassee, Greenville-Spartanburg y Oma",
       "en-054-tree-lights: aprobado — Todas las afirmaciones (salud/seguridad) coinciden textualmente con la página de NIST Holiday Fire Safety y con el informe NIST TN 2131. Nin",
       "en-055-salt-ice: aprobado — Todas las cifras clave (15°F practico, temperatura del pavimento y no del aire, -6°F eutectico, uso selectivo y moderado) estan en una fuent",
-      "en-056-smoke-alarm: aprobado — 2.a revision con busqueda web. Se corrigieron los dos puntos del rechazo anterior: la frase 7 y el caption ahora incluyen el matiz del chirr"
+      "en-056-smoke-alarm: aprobado — 2.a revision con busqueda web. Se corrigieron los dos puntos del rechazo anterior: la frase 7 y el caption ahora incluyen el matiz del chirr",
+      "en-057-tip-math: aprobado — Todas las afirmaciones son aritmética verificable o un hecho de EE. UU. confirmado por el IRS (cargos de servicio incluidos en la cuenta). N"
      ],
      "tareas": [],
      "arreglo": null,
@@ -723,15 +724,17 @@
        "cuenta": "en"
       }
      },
-     "estado": "ok",
-     "resumen": "Voz en-us-podcaster-5 sin problemas.",
+     "estado": "aviso",
+     "resumen": "La voz no coincidió con el guion en en-057-tip-math.",
      "cuando": "2026-11-27T01:31",
-     "hace": "hace 4 h",
+     "hace": "hace 9 h",
      "detalle": [],
-     "tareas": [],
-     "arreglo": null,
+     "tareas": [
+      "en-057-tip-math: render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So "
+     ],
+     "arreglo": "Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.",
      "solo": false,
-     "firma": "c766d204df67"
+     "firma": "373a19e66255"
     },
     {
      "id": "animador",
@@ -747,15 +750,17 @@
        "cuenta": "en"
       }
      },
-     "estado": "ok",
-     "resumen": "Último video terminado: 2026-11-27 01:31.",
+     "estado": "falla",
+     "resumen": "Falló el render de en-057-tip-math.",
      "cuando": "2026-11-27T01:31",
-     "hace": "hace 4 h",
+     "hace": "hace 9 h",
      "detalle": [],
-     "tareas": [],
-     "arreglo": null,
+     "tareas": [
+      "en-057-tip-math: render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So what do you usually tip? Give me a perce"
+     ],
+     "arreglo": "Relanzá la producción: los videos en estado render se vuelven a renderizar solos.",
      "solo": false,
-     "firma": "21a8a7a41ba6"
+     "firma": "6ae93522c609"
     },
     {
      "id": "control",
@@ -774,7 +779,7 @@
      "estado": "ok",
      "resumen": "19 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-27T01:31",
-     "hace": "hace 4 h",
+     "hace": "hace 9 h",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -798,7 +803,7 @@
      "estado": "ok",
      "resumen": "Último: en-037-swallowed-gum.",
      "cuando": "2026-11-26T19:36",
-     "hace": "hace 10 h",
+     "hace": "hace 15 h",
      "detalle": [
       "25/11 19:35 en-035-turkey-stuffing en la bandeja de TikTok",
       "25/11 19:35 en-035-turkey-stuffing paquete para TikTok/YouTube enviado",
@@ -835,7 +840,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-26T19:36",
-     "hace": "hace 10 h",
+     "hace": "hace 15 h",
      "detalle": [
       "25/11 12:37 en-034-alcohol-cook-off en la bandeja de TikTok",
       "25/11 12:37 en-034-alcohol-cook-off paquete para TikTok/YouTube enviado",
@@ -870,7 +875,7 @@
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
      "cuando": "2026-11-26T22:09",
-     "hace": "hace 8 h",
+     "hace": "hace 12 h",
      "detalle": [
       "22/11 00:00 Resumen: respondí 0, salteé 1, alerté 0.",
       "22/11 19:43 Termina la respuesta de comentarios (ok).",
@@ -905,7 +910,7 @@
      "estado": "ok",
      "resumen": "27/11: 5 seguidores",
      "cuando": "2026-11-27T05:13",
-     "hace": "hace 1 h",
+     "hace": "hace 5 h",
      "detalle": [
       "24/11: 5 seguidores",
       "25/11: 5 seguidores",
@@ -936,15 +941,17 @@
        "modo": "vigilar"
       }
      },
-     "estado": "ok",
-     "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-27T06:30",
+     "estado": "aviso",
+     "resumen": "Video apartado: en-057-tip-math — render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this f",
+     "cuando": "2026-11-27T10:36",
      "hace": "recién",
-     "detalle": [],
+     "detalle": [
+      "⚠️ Video apartado: en-057-tip-math — render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this f"
+     ],
      "tareas": [],
      "arreglo": null,
-     "solo": false,
-     "firma": "3e900f50565c"
+     "solo": true,
+     "firma": "e84ec22cb8b7"
     }
    ]
   }

@@ -65,6 +65,7 @@ import { DURACION as DUR_081, FPS as FPS_081, DosLitrosAgua3D, Portada081 } from
 import { DURACION as DUR_075, FPS as FPS_075, ParabrisasEmpanado3D, Portada075 } from "./videos/075-parabrisas-empanado/Video";
 import { DURACION as DUR_064,FPS as FPS_064, NudillosArtritis3D, Portada064 } from "./videos/064-nudillos-artritis/Video";
 import { DURACION as DUR_062,FPS as FPS_062, PoteMicroondas3D, Portada062 } from "./videos/062-pote-microondas/Video";
+import { DURACION as DUR_082, FPS as FPS_082, MicroondasVitaminas3D, Portada082 } from "./videos/082-microondas-vitaminas/Video";
 import { DURACION as DUR_065, FPS as FPS_065, VoseoVosOTu3D, Portada065 } from "./videos/065-voseo-vos-o-tu/Video";
 import { DURACION as DUR_066, FPS as FPS_066, BilletesAnimales3D, Portada066 } from "./videos/066-billetes-animales/Video";
 import { DURACION as DUR_067, FPS as FPS_067, DulceDeLeche3D, Portada067 } from "./videos/067-dulce-de-leche-origen/Video";
@@ -114,6 +115,7 @@ import { DURACION as DUR_EN048, FPS as FPS_EN048, EggsFridgeEn048, PortadaEn048 
 import { DURACION as DUR_EN052, FPS as FPS_EN052, CloudySunscreenEn052, PortadaEn052 } from "./videos/en-052-cloudy-sunscreen/Video";
 import { DURACION as DUR_EN049,FPS as FPS_EN049, SpaceHeaterEn049, PortadaEn049 } from "./videos/en-049-space-heater/Video";
 import { DURACION as DUR_EN056, FPS as FPS_EN056, SmokeAlarmEn056, PortadaEn056 } from "./videos/en-056-smoke-alarm/Video";
+import { DURACION as DUR_EN057, FPS as FPS_EN057, TipMathEn057, PortadaEn057 } from "./videos/en-057-tip-math/Video";
 import { DURACION as DUR_EN054,FPS as FPS_EN054, TreeLightsEn054, PortadaEn054 } from "./videos/en-054-tree-lights/Video";
 import { DURACION as DUR_EN055, FPS as FPS_EN055, SaltIceEn055, PortadaEn055 } from "./videos/en-055-salt-ice/Video";
 import { DURACION as DUR_EN041,FPS as FPS_EN041, PastaOilEn041, PortadaEn041 } from "./videos/en-041-pasta-oil/Video";
@@ -224,6 +226,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p061-heladera-termometro" component={Portada061} width={ANCHO} height={ALTO} />
         <Composition id="h062-pote-microondas" component={PoteMicroondas3D} durationInFrames={DUR_062} fps={FPS_062} width={ANCHO} height={ALTO} />
         <Still id="p062-pote-microondas" component={Portada062} width={ANCHO} height={ALTO} />
+        <Composition id="h082-microondas-vitaminas" component={MicroondasVitaminas3D} durationInFrames={DUR_082} fps={FPS_082} width={ANCHO} height={ALTO} />
+        <Still id="p082-microondas-vitaminas" component={Portada082} width={ANCHO} height={ALTO} />
         <Composition id="h063-che-origen" component={CheOrigen3D} durationInFrames={DUR_063} fps={FPS_063} width={ANCHO} height={ALTO} />
         <Still id="p063-che-origen" component={Portada063} width={ANCHO} height={ALTO} />
         <Composition id="h065-voseo-vos-o-tu" component={VoseoVosOTu3D} durationInFrames={DUR_065} fps={FPS_065} width={ANCHO} height={ALTO} />
@@ -353,6 +357,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-055-salt-ice" component={PortadaEn055} width={ANCHO} height={ALTO} />
         <Composition id="hen-056-smoke-alarm" component={SmokeAlarmEn056} durationInFrames={DUR_EN056} fps={FPS_EN056} width={ANCHO} height={ALTO} />
         <Still id="pen-056-smoke-alarm" component={PortadaEn056} width={ANCHO} height={ALTO} />
+        <Composition id="hen-057-tip-math" component={TipMathEn057} durationInFrames={DUR_EN057} fps={FPS_EN057} width={ANCHO} height={ALTO} />
+        <Still id="pen-057-tip-math" component={PortadaEn057} width={ANCHO} height={ALTO} />
         <Composition id="hen-012-thunder-count" component={ThunderCountEn012} durationInFrames={DUR_EN012} fps={FPS_EN012} width={ANCHO} height={ALTO} />
         <Still id="pen-012-thunder-count" component={PortadaEn012} width={ANCHO} height={ALTO} />
         <Composition id="hen-013-searing-juices" component={SearingJuicesEn013} durationInFrames={DUR_EN013} fps={FPS_EN013} width={ANCHO} height={ALTO} />

@@ -1,0 +1,598 @@
+{
+ "duracion": 32.74,
+ "frases": [
+  {
+   "texto": "You pull out your phone to figure out the tip. You don't need to.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.38
+    },
+    {
+     "texto": "pull",
+     "inicio": 0.38,
+     "fin": 0.6
+    },
+    {
+     "texto": "out",
+     "inicio": 0.6,
+     "fin": 0.72
+    },
+    {
+     "texto": "your",
+     "inicio": 0.72,
+     "fin": 0.86
+    },
+    {
+     "texto": "phone",
+     "inicio": 0.86,
+     "fin": 1.12
+    },
+    {
+     "texto": "to",
+     "inicio": 1.12,
+     "fin": 1.26
+    },
+    {
+     "texto": "figure",
+     "inicio": 1.38,
+     "fin": 1.46
+    },
+    {
+     "texto": "out",
+     "inicio": 1.46,
+     "fin": 1.64
+    },
+    {
+     "texto": "the",
+     "inicio": 1.64,
+     "fin": 1.76
+    },
+    {
+     "texto": "tip.",
+     "inicio": 1.76,
+     "fin": 1.96
+    },
+    {
+     "texto": "You",
+     "inicio": 2.36,
+     "fin": 2.56
+    },
+    {
+     "texto": "don't",
+     "inicio": 2.56,
+     "fin": 2.68
+    },
+    {
+     "texto": "need",
+     "inicio": 2.68,
+     "fin": 2.86
+    },
+    {
+     "texto": "to.",
+     "inicio": 2.86,
+     "fin": 3.02
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.02
+  },
+  {
+   "texto": "Here's the shortcut.",
+   "palabras": [
+    {
+     "texto": "Here's",
+     "inicio": 3.44,
+     "fin": 3.74
+    },
+    {
+     "texto": "the",
+     "inicio": 3.74,
+     "fin": 3.84
+    },
+    {
+     "texto": "shortcut.",
+     "inicio": 3.84,
+     "fin": 4.08
+    }
+   ],
+   "inicio": 3.44,
+   "fin": 4.08
+  },
+  {
+   "texto": "Say the bill is fifty dollars. Slide the decimal one spot left. That's ten percent: five dollars.",
+   "palabras": [
+    {
+     "texto": "Say",
+     "inicio": 4.64,
+     "fin": 4.8
+    },
+    {
+     "texto": "the",
+     "inicio": 4.8,
+     "fin": 4.92
+    },
+    {
+     "texto": "bill",
+     "inicio": 4.92,
+     "fin": 5.06
+    },
+    {
+     "texto": "is",
+     "inicio": 5.06,
+     "fin": 5.36
+    },
+    {
+     "texto": "fifty",
+     "inicio": 5.36,
+     "fin": 5.64
+    },
+    {
+     "texto": "dollars.",
+     "inicio": 5.64,
+     "fin": 5.96
+    },
+    {
+     "texto": "Slide",
+     "inicio": 6.6,
+     "fin": 6.86
+    },
+    {
+     "texto": "the",
+     "inicio": 6.86,
+     "fin": 7.08
+    },
+    {
+     "texto": "decimal",
+     "inicio": 7.08,
+     "fin": 7.46
+    },
+    {
+     "texto": "one",
+     "inicio": 7.46,
+     "fin": 7.84
+    },
+    {
+     "texto": "spot",
+     "inicio": 7.84,
+     "fin": 8.08
+    },
+    {
+     "texto": "left.",
+     "inicio": 8.08,
+     "fin": 8.42
+    },
+    {
+     "texto": "That's",
+     "inicio": 8.9,
+     "fin": 9.14
+    },
+    {
+     "texto": "ten",
+     "inicio": 9.14,
+     "fin": 9.32
+    },
+    {
+     "texto": "percent:",
+     "inicio": 9.32,
+     "fin": 9.62
+    },
+    {
+     "texto": "five",
+     "inicio": 10.08,
+     "fin": 10.22
+    },
+    {
+     "texto": "dollars.",
+     "inicio": 10.22,
+     "fin": 10.48
+    }
+   ],
+   "inicio": 4.64,
+   "fin": 10.48
+  },
+  {
+   "texto": "Now double it. Ten dollars. That's twenty percent.",
+   "palabras": [
+    {
+     "texto": "Now",
+     "inicio": 11.16,
+     "fin": 11.24
+    },
+    {
+     "texto": "double",
+     "inicio": 11.24,
+     "fin": 11.44
+    },
+    {
+     "texto": "it.",
+     "inicio": 11.44,
+     "fin": 11.62
+    },
+    {
+     "texto": "Ten",
+     "inicio": 12.08,
+     "fin": 12.2
+    },
+    {
+     "texto": "dollars.",
+     "inicio": 12.2,
+     "fin": 12.48
+    },
+    {
+     "texto": "That's",
+     "inicio": 13.04,
+     "fin": 13.28
+    },
+    {
+     "texto": "twenty",
+     "inicio": 13.28,
+     "fin": 13.46
+    },
+    {
+     "texto": "percent.",
+     "inicio": 13.46,
+     "fin": 13.72
+    }
+   ],
+   "inicio": 11.16,
+   "fin": 13.72
+  },
+  {
+   "texto": "Want fifteen? Take the ten percent and add half of it. Five plus two fifty is seven fifty.",
+   "palabras": [
+    {
+     "texto": "Want",
+     "inicio": 14.18,
+     "fin": 14.3
+    },
+    {
+     "texto": "fifteen?",
+     "inicio": 14.3,
+     "fin": 14.66
+    },
+    {
+     "texto": "Take",
+     "inicio": 15.18,
+     "fin": 15.32
+    },
+    {
+     "texto": "the",
+     "inicio": 15.32,
+     "fin": 15.48
+    },
+    {
+     "texto": "ten",
+     "inicio": 15.48,
+     "fin": 15.74
+    },
+    {
+     "texto": "percent",
+     "inicio": 15.74,
+     "fin": 16.12
+    },
+    {
+     "texto": "and",
+     "inicio": 16.12,
+     "fin": 16.4
+    },
+    {
+     "texto": "add",
+     "inicio": 16.4,
+     "fin": 16.62
+    },
+    {
+     "texto": "half",
+     "inicio": 16.62,
+     "fin": 16.92
+    },
+    {
+     "texto": "of",
+     "inicio": 16.92,
+     "fin": 17.06
+    },
+    {
+     "texto": "it.",
+     "inicio": 17.06,
+     "fin": 17.16
+    },
+    {
+     "texto": "Five",
+     "inicio": 17.58,
+     "fin": 17.78
+    },
+    {
+     "texto": "plus",
+     "inicio": 17.78,
+     "fin": 18.08
+    },
+    {
+     "texto": "two",
+     "inicio": 18.08,
+     "fin": 18.32
+    },
+    {
+     "texto": "fifty",
+     "inicio": 18.32,
+     "fin": 18.58
+    },
+    {
+     "texto": "is",
+     "inicio": 18.58,
+     "fin": 19.02
+    },
+    {
+     "texto": "seven",
+     "inicio": 19.02,
+     "fin": 19.36
+    },
+    {
+     "texto": "fifty.",
+     "inicio": 19.36,
+     "fin": 19.66
+    }
+   ],
+   "inicio": 14.18,
+   "fin": 19.66
+  },
+  {
+   "texto": "Heads up: some restaurants already add a service charge, so check the bill first.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 20.16,
+     "fin": 20.42
+    },
+    {
+     "texto": "up:",
+     "inicio": 20.42,
+     "fin": 20.6
+    },
+    {
+     "texto": "some",
+     "inicio": 20.82,
+     "fin": 20.96
+    },
+    {
+     "texto": "restaurants",
+     "inicio": 20.96,
+     "fin": 21.36
+    },
+    {
+     "texto": "already",
+     "inicio": 21.36,
+     "fin": 21.96
+    },
+    {
+     "texto": "add",
+     "inicio": 21.96,
+     "fin": 22.4
+    },
+    {
+     "texto": "a",
+     "inicio": 22.4,
+     "fin": 22.56
+    },
+    {
+     "texto": "service",
+     "inicio": 22.56,
+     "fin": 22.8
+    },
+    {
+     "texto": "charge,",
+     "inicio": 22.8,
+     "fin": 23.18
+    },
+    {
+     "texto": "so",
+     "inicio": 23.4,
+     "fin": 23.5
+    },
+    {
+     "texto": "check",
+     "inicio": 23.5,
+     "fin": 23.7
+    },
+    {
+     "texto": "the",
+     "inicio": 23.7,
+     "fin": 23.82
+    },
+    {
+     "texto": "bill",
+     "inicio": 23.82,
+     "fin": 23.98
+    },
+    {
+     "texto": "first.",
+     "inicio": 23.98,
+     "fin": 24.22
+    }
+   ],
+   "inicio": 20.16,
+   "fin": 24.22
+  },
+  {
+   "texto": "Save this for the next time the check shows up.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 24.86,
+     "fin": 25.04
+    },
+    {
+     "texto": "this",
+     "inicio": 25.04,
+     "fin": 25.24
+    },
+    {
+     "texto": "for",
+     "inicio": 25.24,
+     "fin": 25.46
+    },
+    {
+     "texto": "the",
+     "inicio": 25.46,
+     "fin": 25.54
+    },
+    {
+     "texto": "next",
+     "inicio": 25.54,
+     "fin": 25.66
+    },
+    {
+     "texto": "time",
+     "inicio": 25.66,
+     "fin": 25.86
+    },
+    {
+     "texto": "the",
+     "inicio": 25.86,
+     "fin": 25.96
+    },
+    {
+     "texto": "check",
+     "inicio": 25.96,
+     "fin": 26.12
+    },
+    {
+     "texto": "shows",
+     "inicio": 26.12,
+     "fin": 26.36
+    },
+    {
+     "texto": "up.",
+     "inicio": 26.36,
+     "fin": 26.54
+    }
+   ],
+   "inicio": 24.86,
+   "fin": 26.54
+  },
+  {
+   "texto": "So what do you usually tip? Give me a percent.",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 27.08,
+     "fin": 27.32
+    },
+    {
+     "texto": "what",
+     "inicio": 27.32,
+     "fin": 27.74
+    },
+    {
+     "texto": "do",
+     "inicio": 27.74,
+     "fin": 27.84
+    },
+    {
+     "texto": "you",
+     "inicio": 27.84,
+     "fin": 28.04
+    },
+    {
+     "texto": "usually",
+     "inicio": 28.04,
+     "fin": 28.36
+    },
+    {
+     "texto": "tip?",
+     "inicio": 28.36,
+     "fin": 28.78
+    },
+    {
+     "texto": "Give",
+     "inicio": 29.12,
+     "fin": 29.16
+    },
+    {
+     "texto": "me",
+     "inicio": 29.16,
+     "fin": 29.26
+    },
+    {
+     "texto": "a",
+     "inicio": 29.26,
+     "fin": 29.34
+    },
+    {
+     "texto": "percent.",
+     "inicio": 29.34,
+     "fin": 29.62
+    }
+   ],
+   "inicio": 27.08,
+   "fin": 29.62
+  },
+  {
+   "texto": "Send this to the friend who pulls out a calculator at dinner.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 30.1,
+     "fin": 30.36
+    },
+    {
+     "texto": "this",
+     "inicio": 30.36,
+     "fin": 30.52
+    },
+    {
+     "texto": "to",
+     "inicio": 30.52,
+     "fin": 30.66
+    },
+    {
+     "texto": "the",
+     "inicio": 30.66,
+     "fin": 30.76
+    },
+    {
+     "texto": "friend",
+     "inicio": 30.76,
+     "fin": 30.98
+    },
+    {
+     "texto": "who",
+     "inicio": 30.98,
+     "fin": 31.16
+    },
+    {
+     "texto": "pulls",
+     "inicio": 31.16,
+     "fin": 31.44
+    },
+    {
+     "texto": "out",
+     "inicio": 31.44,
+     "fin": 31.62
+    },
+    {
+     "texto": "a",
+     "inicio": 31.62,
+     "fin": 31.72
+    },
+    {
+     "texto": "calculator",
+     "inicio": 31.72,
+     "fin": 32.1
+    },
+    {
+     "texto": "at",
+     "inicio": 32.1,
+     "fin": 32.42
+    },
+    {
+     "texto": "dinner.",
+     "inicio": 32.42,
+     "fin": 32.6
+    }
+   ],
+   "inicio": 30.1,
+   "fin": 32.6
+  }
+ ]
+}

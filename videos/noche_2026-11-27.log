@@ -10,3 +10,11 @@ Uso: 25 pasos · 19,506 tokens nuevos · 1,221,922 de caché · 7,700 escritos �
 `una-sola-tabla`: quedó listo. Salió del reel `045-una-sola-tabla` (publicado el 17/11, chequeo aprobado) y tiene 7 placas, sin cifras, con USDA FSIS como única fuente. Después de acortar el texto de la tapa, que se cortaba, volví a correr `./herramientas/tlx carrusel una-sola-tabla` y salió LISTO. No volví a mirar `hoja.png` con esa versión.
 Uso: 25 pasos · 24,252 tokens nuevos · 418,411 de caché · 4,239 escritos · equivale a US$ 0.18 de API
 2026-11-27 01:10 Termina el carrusel (ok; quedan 2 listos).
+2026-11-27 09:56 Arranca la producción (18 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `082-microondas-vitaminas`, el mito del microondas y las vitaminas (serie cocina #10). El chequeo lo aprobó al primer intento con Harvard Health 2019 y 2021. La voz dura 47,3 s con 138 palabras de 138, algo sobre el tope. `tlx tsc` pasó, la hoja de cuadros quedó en dos vueltas y el estado es `render`. No lo rendericé: de eso se encarga `producir.py` al terminar el turno.
+- **Sin rescates:** 005, 038, 042, 044 y 051 están apartados por otros motivos, no por chequeo rechazado.
+- **Segundo video no producido:** la cola tenía 18 listos, más de los 10 que justifican otro. Radar sin tema nuevo hoy.
+Uso: 25 pasos · 21,986 tokens nuevos · 1,621,873 de caché · 8,685 escritos · equivale a US$ 1.17 de API
+2026-11-27 10:02 Render de 082-microondas-vitaminas (sin Claude).
+2026-11-27 10:25 082-microondas-vitaminas: listo (render sin Claude)
+2026-11-27 10:25 Termina la producción (ok).

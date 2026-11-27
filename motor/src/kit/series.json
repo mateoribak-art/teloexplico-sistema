@@ -322,6 +322,10 @@
     "081-dos-litros-agua": [
       "cuerpo",
       11
+    ],
+    "082-microondas-vitaminas": [
+      "cocina",
+      10
     ]
   }
 }

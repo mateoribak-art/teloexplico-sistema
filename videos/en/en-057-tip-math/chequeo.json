@@ -1,0 +1,12 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones son aritmética verificable o un hecho de EE. UU. confirmado por el IRS (cargos de servicio incluidos en la cuenta). No hay cifras externas, anécdotas ni orígenes. Cifras y unidades coinciden (50 x 0.10 = 5; 5 x 2 = 10; 5 + 2.50 = 7.50). Ninguna afirmación falsa, dudosa o probable; el matiz del cargo de servicio ya está en el guion y el caption.",
+  "afirmaciones": [
+    {"texto": "Slide the decimal one spot left on a $50 bill: that's 10%, $5", "fuente": "Aritmética (50 x 0.10 = 5); método coincide con Quick and Dirty Tips (https://quickanddirtytips.com/?p=58175) y Business Insider", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Double it: $10 is 20%", "fuente": "Aritmética (5 x 2 = 10 = 20% de 50)", "estado": "verificada", "matiz_ok": true},
+    {"texto": "15% = 10% plus half of it; $5 + $2.50 = $7.50", "fuente": "Aritmética (15% de 50 = 7.50); método en Quick and Dirty Tips / Dummies (https://www.dummies.com/education/math/calculating-a-standard-15-percent-tip)", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Some restaurants already add a service charge to the bill, so check it before you tip", "fuente": "IRS Tax Topic 761 y Rev. Rul. 2012-18 (https://www.irs.gov/taxtopics/tc761): cargos automáticos para grupos grandes son 'service charges' incluidos en la cuenta; dicho como 'some', sin cifra", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Stop typing the tip into your phone / you don't need to (pull out your phone)", "fuente": "Enmarcado de tono/humor, no afirmación fáctica; el atajo mental se verifica por aritmética", "estado": "verificada", "matiz_ok": true},
+    {"texto": "Sources line: simple arithmetic (50 x 0.10 = 5; 5 x 2 = 10; 5 + 2.50 = 7.50)", "fuente": "Aritmética propia, revisada", "estado": "verificada", "matiz_ok": true}
+  ]
+}

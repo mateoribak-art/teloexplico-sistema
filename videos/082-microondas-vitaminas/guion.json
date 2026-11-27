@@ -1,0 +1,25 @@
+{
+  "titulo": "¿El microondas le saca las vitaminas a la comida?",
+  "fondo": "cuaderno",
+  "receta": "Mito + zoom adentro",
+  "pilar": "cocina",
+  "interaccion": ["comentar", "guardar"],
+  "destinatario": "se lo manda un hijo a su vieja que hierve la verdura hasta deshacerla porque el microondas 'mata las vitaminas', para decirle que hervir pierde más",
+  "regla_guardable": "Verdura: poca agua y pocos minutos en el microondas; hervida en mucha agua, parte de las vitaminas se va al agua.",
+  "fuentes": [
+    "Harvard Health Publishing, Ask the doctor: Microwave's impact on food (Komaroff, 2019)",
+    "Harvard Health Publishing, Microwave cooking and nutrition (2021)"
+  ],
+  "frases": [
+    {"texto": "Hervís la verdura porque te dijeron que el microondas le saca las vitaminas.", "estilo": "Seco, directo, con media sonrisa."},
+    {"texto": "Es casi al revés.", "estilo": "Seco y contundente."},
+    {"texto": "Harvard Health, en dos mil diecinueve, explicó que el microondas es de las formas de cocinar que menos dañan los nutrientes.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Cuanto más tiempo se cocina algo, más nutrientes se rompen, y el microondas tarda menos.", "estilo": "Claro, didáctico."},
+    {"texto": "Al hervir, parte de los nutrientes se escapa al agua de la olla, y esa agua después la tirás.", "estilo": "Con sorpresa."},
+    {"texto": "Y con la vitamina C, Harvard dice que el microondas la conserva mejor.", "estilo": "Claro, con sorpresa."},
+    {"texto": "El truco para guardar: verdura con un chorrito de agua y pocos minutos. Se cocina al vapor desde adentro.", "estilo": "Claro, práctico."},
+    {"texto": "Ojo: cocinar de cualquier forma siempre rompe algo de nutrientes.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "¿Qué es lo que más calentás vos en el microondas? Contestá con una palabra.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al que hierve la verdura hasta que se deshace.", "estilo": "Cómplice, con humor."}
+  ]
+}
