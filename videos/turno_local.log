@@ -113,3 +113,7 @@ sincronizado
 2026-11-27 03:45 [es] sincronizar.py Notebook: respaldo antes de producir -> cortado a los 15 min
 2026-11-27 03:45 [es] respaldo: 18 listos, no hace falta
 2026-11-27 03:45 [en] respaldo: 19 listos, no hace falta
+2026-11-27 14:30 [es] sincronizar.py Notebook: respaldo antes de publicar -> código 0 combinado: estado/oficina.json
+sincronizado
+2026-11-27 14:30 [es] publicador.py -> código 0 El turno de las 12:30 ya está cubierto: no se publica de nuevo.
+2026-11-27 14:30 [en] publicador.py -> código 0 El turno de las 12:30 ya está cubierto: no se publica de nuevo.
