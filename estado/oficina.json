@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T21:14",
+ "actualizado": "2026-11-27T21:41",
  "oficinas": [
   {
    "clave": "es",
@@ -111,7 +111,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-27T21:00",
-     "hace": "hace 14 min",
+     "hace": "hace 41 min",
      "detalle": [
       "Uso: 18 pasos · 14,366 tokens nuevos · 1,123,385 de caché · 2,598 escritos · equivale a US$ 1.19 de API",
       "2026-11-27 20:46 Arranca la producción (18 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).",
@@ -214,7 +214,7 @@
      "estado": "ok",
      "resumen": "Revisado por el técnico: Bea frenó el video de la luz prendida/apagada y está bien que lo haya hecho; no cambié nada.",
      "cuando": "2026-11-27T21:00",
-     "hace": "hace 14 min",
+     "hace": "hace 41 min",
      "detalle": [
       "078-piedra-papel-tijera: aprobado — La version actual ya no incluye la secuencia de cambio del que pierde (piedra->papel->tijera), que era el unico punto no verificable por con",
       "079-leer-poca-luz: aprobado — Se leyó el texto primario de ambas fuentes. Harvard Health (5 truths about protecting your eyes, 12/02/2021): 'Dim lighting will not damage ",
@@ -248,7 +248,7 @@
      "estado": "ok",
      "resumen": "Voz es-419-assistant-7 sin problemas.",
      "cuando": "2026-11-27T21:00",
-     "hace": "hace 14 min",
+     "hace": "hace 41 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -272,7 +272,7 @@
      "estado": "ok",
      "resumen": "Último video terminado: 2026-11-27 21:00.",
      "cuando": "2026-11-27T21:00",
-     "hace": "hace 14 min",
+     "hace": "hace 41 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -296,7 +296,7 @@
      "estado": "ok",
      "resumen": "19 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-27T21:00",
-     "hace": "hace 14 min",
+     "hace": "hace 41 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -320,7 +320,7 @@
      "estado": "ok",
      "resumen": "Último: 065-voseo-vos-o-tu.",
      "cuando": "2026-11-27T19:34",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "27/11 12:32 064-nudillos-artritis publicado: https://www.instagram.com/reel/DgQAjm-F-G8/",
       "27/11 12:33 064-nudillos-artritis publicado en Facebook: https://www.facebook.com/reel/2586968778469620/",
@@ -357,7 +357,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-27T19:34",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "26/11 19:33 063-che-origen https://youtube.com/shorts/4Xpf2NlRHwk | privacidad: public",
       "26/11 19:33 063-che-origen paquete para TikTok/YouTube enviado",
@@ -422,25 +422,25 @@
      },
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
-     "cuando": "2026-11-27T06:30",
-     "hace": "hace 14 h",
+     "cuando": "2026-11-27T21:41",
+     "hace": "recién",
      "detalle": [
-      "26/11 22:08 Hay 8 comentarios nuevos: arranca la respuesta.",
-      "26/11 00:00 Respondí 6 · salteé 2 · alerté 0. (059-pibe-chango-guri: zarchi_arts, flaviaalons, silviaelenaperuzzo, vale_priv294, _leo._.nardo_ y yonathan_g92 respondidos; salteados: patricionicolaszarate (posible insulto político \"fachaaa\") y mat_reus73 (saludo vulgar sin relación con el tema))",
-      "26/11 22:09 Termina la respuesta de comentarios (ok).",
-      "26/11 22:08 Termina la respuesta de comentarios (ok).",
-      "27/11 06:30 Hay 3 comentarios nuevos: arranca la respuesta.",
       "27/11 00:00 Respondí 3 · salteé 0 · alerté 0. (059-pibe-chango-guri: trsfredy (pregunta sobre \"wawa\", fuera del guion, respondido con \"lo anoto\"), perfildoisrael (gurí en el sur de Brasil, respondido con la RAE como dato), floranahi0222 (changuito y chinita en La Rioja, aporte respondido))",
       "27/11 00:00 Termina la respuesta de comentarios (ok).",
-      "27/11 06:30 Termina la respuesta de comentarios (ok)."
+      "27/11 06:30 Termina la respuesta de comentarios (ok).",
+      "27/11 21:40 Hay 9 comentarios nuevos: arranca la respuesta.",
+      "27/11 00:00 Respondí 8 · salteé 0 · alerté 1. (059-pibe-chango-guri: mj_celx, juansi.ramos13, antonela._gomez6340, f.m.m_444 (Santa Fe: \"lo anoto\", sumado a ideas.md), guillecnd, gloriabeatriz376; 065-voseo-vos-o-tu: eunice.tonks, gxrmn_2026; alerta: _ingridlopez__ dice que en Corrientes no se usa gurí, contradice el guion, no respondido en público.)",
+      "27/11 00:00 Respondí 8, salteé 0, alerté 1.",
+      "27/11 00:00 Termina la respuesta de comentarios (ok).",
+      "27/11 21:41 Termina la respuesta de comentarios (ok)."
      ],
      "tareas": [
-      "9 alerta",
-      "163 respondido",
+      "10 alerta",
+      "171 respondido",
       "36 salteado",
-      "⚠️ mgrnine: Pibe no es sinónimo de niño. Es sinónimo de a lo sumo adolescente y joven adulto. Aunque lo usemos en otras oca",
       "⚠️ la_yong.lixx: 'Provincia de Buenos aires ❌ ciudad de buenos aires ✅' — corrige el guion que dice 'En Buenos Aires se dic",
-      "⚠️ patricia.mura: En tu vos no existe Formosa — critica que el mapa del video omite Formosa. No es un dato erróneo, pero co"
+      "⚠️ patricia.mura: En tu vos no existe Formosa — critica que el mapa del video omite Formosa. No es un dato erróneo, pero co",
+      "⚠️ _ingridlopez__: dice que en Corrientes nunca se dijo gurí y que se escucha más pibe o mitai, lo que contradice el guion "
      ],
      "arreglo": null,
      "solo": false,
@@ -495,7 +495,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 083-luz-prendida-apagada — descartada: sin fuente primaria accesible (energy.gov 404), tema de plata",
-     "cuando": "2026-11-27T21:14",
+     "cuando": "2026-11-27T21:41",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 083-luz-prendida-apagada — descartada: sin fuente primaria accesible (energy.gov 404), tema de plata"
@@ -639,7 +639,7 @@
      "estado": "ok",
      "resumen": "Último turno sin problemas.",
      "cuando": "2026-11-27T21:14",
-     "hace": "recién",
+     "hace": "hace 27 min",
      "detalle": [
       "Uso: 52 pasos · 77,584 tokens nuevos · 1,953,563 de caché · 17,365 escritos · equivale a US$ 0.85 de API",
       "2026-11-27 21:00 Arranca la producción (18 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).",
@@ -709,7 +709,7 @@
      "estado": "ok",
      "resumen": "Aprobó 8 de los últimos 8 guiones.",
      "cuando": "2026-11-27T21:14",
-     "hace": "recién",
+     "hace": "hace 27 min",
      "detalle": [
       "en-052-cloudy-sunscreen: aprobado — Re-chequeo contra fuentes primarias de EE. UU. La frase rechazada antes ('thick overcast vs light haze') ya no esta: la frase 6 y el caption",
       "en-053-first-frost: aprobado — Se releyeron las fuentes con búsqueda web. Las cifras (33-36°F) están confirmadas por NWS Raleigh, Tallahassee, Greenville-Spartanburg y Oma",
@@ -742,7 +742,7 @@
      "estado": "aviso",
      "resumen": "La voz no coincidió con el guion en en-057-tip-math.",
      "cuando": "2026-11-27T21:14",
-     "hace": "recién",
+     "hace": "hace 27 min",
      "detalle": [],
      "tareas": [
       "en-057-tip-math: render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So "
@@ -768,7 +768,7 @@
      "estado": "falla",
      "resumen": "Falló el render de en-057-tip-math.",
      "cuando": "2026-11-27T21:14",
-     "hace": "recién",
+     "hace": "hace 27 min",
      "detalle": [],
      "tareas": [
       "en-057-tip-math: render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So what do you usually tip? Give me a perce"
@@ -794,7 +794,7 @@
      "estado": "ok",
      "resumen": "19 videos listos, ninguno apartado en las últimas 48 h.",
      "cuando": "2026-11-27T21:14",
-     "hace": "recién",
+     "hace": "hace 27 min",
      "detalle": [],
      "tareas": [],
      "arreglo": null,
@@ -818,7 +818,7 @@
      "estado": "ok",
      "resumen": "Último: en-039-polar-vortex.",
      "cuando": "2026-11-27T19:36",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "26/11 19:36 en-037-swallowed-gum en la bandeja de TikTok",
       "26/11 19:36 en-037-swallowed-gum paquete para TikTok/YouTube enviado",
@@ -855,7 +855,7 @@
      "estado": "ok",
      "resumen": "Borrador en TikTok y paquete por Telegram al día.",
      "cuando": "2026-11-27T19:36",
-     "hace": "hace 1 h",
+     "hace": "hace 2 h",
      "detalle": [
       "26/11 12:36 en-036-phantom-charger en la bandeja de TikTok",
       "26/11 12:36 en-036-phantom-charger paquete para TikTok/YouTube enviado",
@@ -958,7 +958,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: en-057-tip-math — render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this f",
-     "cuando": "2026-11-27T21:14",
+     "cuando": "2026-11-27T21:41",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: en-057-tip-math — render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this f"
