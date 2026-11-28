@@ -1872,7 +1872,7 @@
  {
   "slug": "en-057-tip-math",
   "tema": "How to figure a 20% tip in your head (arithmetic; own; everyday math)",
-  "estado": "apartado",
+  "estado": "render",
   "historial": [
    {
     "estado": "idea",
@@ -1903,6 +1903,11 @@
     "estado": "apartado",
     "cuando": "2026-11-27T21:04",
     "motivo": "render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So what do you usually tip? Give me a percent, send this to the friend who pulls out a calculator at dinner.\nPROBLEMAS:\n- la voz no coincide con el guion (87%)"
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-28T03:30",
+    "motivo": "tecnico: el control de voz en ingles ya ignora numeros y unidades ($5, 20%, 2.50); se controla de nuevo"
    }
   ]
  },

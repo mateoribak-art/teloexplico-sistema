@@ -34,11 +34,18 @@ def loudness(video):
 def voz_coincide(slug, video):
     import numpy as np, wave, tempfile
     from faster_whisper import WhisperModel
-    from numeros import a_cifras
+    from numeros import a_cifras, UNIDADES_EN, MULT_EN
     idioma = cuenta.para(slug)['idioma']
     guion = json.load(open(os.path.join(cuenta.carpeta(slug), 'guion.json'), encoding='utf-8'))
     # whisper escribe "2013" donde el guion dice "dos mil trece": se pasan los números a cifras antes de comparar
-    esperado = ''.join(norm(w) for f in guion['frases'] for w in a_cifras(f['texto'], idioma=idioma).split())
+    # en inglés whisper escribe "$5", "20%", "2.50" donde el guion dice "five dollars", "twenty percent", "two fifty" (en-057, 27/11: 87 %
+    # con la voz bien): los números y sus unidades no se comparan, de ningún lado
+    def sin_numeros(palabras):
+        if idioma != 'en':
+            return palabras
+        sueltas = set(UNIDADES_EN) | set(MULT_EN) | {'hundred', 'dollar', 'dollars', 'cent', 'cents', 'percent', 'and'}
+        return [w for w in palabras if not re.search(r'\d', w) and re.sub(r'[^a-z]', '', w.lower()) not in sueltas]
+    esperado = ''.join(norm(w) for f in guion['frases'] for w in sin_numeros(a_cifras(f['texto'], idioma=idioma).split()))
     tmp = os.path.join(tempfile.gettempdir(), f'control_{slug}.wav')
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', video, '-ac', '1', '-ar', '16000', tmp], check=True)
     w = wave.open(tmp)
@@ -52,7 +59,7 @@ def voz_coincide(slug, video):
     def oir(**extra):
         segs, _ = modelo.transcribe(audio, language=idioma, **extra)
         segs = list(segs)
-        return segs, ''.join(norm(x) for s in segs for x in a_cifras(s.text, idioma=idioma).split())
+        return segs, ''.join(norm(x) for s in segs for x in sin_numeros(a_cifras(s.text, idioma=idioma).split()))
 
     segs, oido = oir(initial_prompt=texto)
     # whisper a veces se "come" la última frase de un audio largo aunque se oiga (en-009, 28/10: 91 %): si no alcanza, otra pasada
