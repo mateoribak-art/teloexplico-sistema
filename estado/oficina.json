@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-28T05:42",
+ "actualizado": "2026-11-28T05:43",
  "oficinas": [
   {
    "clave": "es",
@@ -427,22 +427,22 @@
      },
      "estado": "ok",
      "resumen": "Termina la respuesta de comentarios (ok).",
-     "cuando": "2026-11-27T21:41",
-     "hace": "hace 8 h",
+     "cuando": "2026-11-28T05:43",
+     "hace": "recién",
      "detalle": [
-      "27/11 00:00 Respondí 3 · salteé 0 · alerté 0. (059-pibe-chango-guri: trsfredy (pregunta sobre \"wawa\", fuera del guion, respondido con \"lo anoto\"), perfildoisrael (gurí en el sur de Brasil, respondido con la RAE como dato), floranahi0222 (changuito y chinita en La Rioja, aporte respondido))",
-      "27/11 00:00 Termina la respuesta de comentarios (ok).",
-      "27/11 06:30 Termina la respuesta de comentarios (ok).",
-      "27/11 21:40 Hay 9 comentarios nuevos: arranca la respuesta.",
       "27/11 00:00 Respondí 8 · salteé 0 · alerté 1. (059-pibe-chango-guri: mj_celx, juansi.ramos13, antonela._gomez6340, f.m.m_444 (Santa Fe: \"lo anoto\", sumado a ideas.md), guillecnd, gloriabeatriz376; 065-voseo-vos-o-tu: eunice.tonks, gxrmn_2026; alerta: _ingridlopez__ dice que en Corrientes no se usa gurí, contradice el guion, no respondido en público.)",
       "27/11 00:00 Respondí 8, salteé 0, alerté 1.",
       "27/11 00:00 Termina la respuesta de comentarios (ok).",
-      "27/11 21:41 Termina la respuesta de comentarios (ok)."
+      "27/11 21:41 Termina la respuesta de comentarios (ok).",
+      "28/11 05:43 Hay 1 comentarios nuevos: arranca la respuesta.",
+      "28/11 00:00 Respondí 0 · salteé 1 · alerté 0. (059-pibe-chango-guri: roomi_molina, solo \"changooo\", reacción de una palabra sin pregunta ni aporte; salteado.)",
+      "28/11 05:43 Termina la respuesta de comentarios (ok).",
+      "28/11 05:43 Termina la respuesta de comentarios (ok)."
      ],
      "tareas": [
       "10 alerta",
       "171 respondido",
-      "36 salteado",
+      "37 salteado",
       "⚠️ la_yong.lixx: 'Provincia de Buenos aires ❌ ciudad de buenos aires ✅' — corrige el guion que dice 'En Buenos Aires se dic",
       "⚠️ patricia.mura: En tu vos no existe Formosa — critica que el mapa del video omite Formosa. No es un dato erróneo, pero co",
       "⚠️ _ingridlopez__: dice que en Corrientes nunca se dijo gurí y que se escucha más pibe o mitai, lo que contradice el guion "
@@ -500,7 +500,7 @@
      },
      "estado": "aviso",
      "resumen": "Video apartado: 083-luz-prendida-apagada — descartada: sin fuente primaria accesible (energy.gov 404), tema de plata",
-     "cuando": "2026-11-28T05:42",
+     "cuando": "2026-11-28T05:43",
      "hace": "recién",
      "detalle": [
       "⚠️ Video apartado: 083-luz-prendida-apagada — descartada: sin fuente primaria accesible (energy.gov 404), tema de plata"
@@ -950,7 +950,7 @@
      },
      "estado": "ok",
      "resumen": "Todo en orden ✓",
-     "cuando": "2026-11-28T05:42",
+     "cuando": "2026-11-28T05:43",
      "hace": "recién",
      "detalle": [],
      "tareas": [],
