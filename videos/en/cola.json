@@ -1408,7 +1408,7 @@
  {
   "slug": "en-040-powerball-odds",
   "tema": "What are the real odds of winning the Powerball? (powerball.com; own; math)",
-  "estado": "listo",
+  "estado": "publicado",
   "historial": [
    {
     "estado": "idea",
@@ -1424,6 +1424,11 @@
     "estado": "listo",
     "cuando": "2026-11-22T19:26",
     "motivo": "render sin Claude"
+   },
+   {
+    "estado": "publicado",
+    "cuando": "2026-11-28T12:36",
+    "motivo": "https://www.instagram.com/reel/DgSltpFAEDJ/"
    }
   ]
  },
