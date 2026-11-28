@@ -1,0 +1,16 @@
+2026-11-28 00:34 Arranca la producción (19 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Produje un solo video, `085-fideos-pared`, y quedó en estado `render`. El render y el control los hace el proceso nocturno, así que todavía no está en `listo`.
+
+- **`085-fideos-pared`:** «¿Tirar un fideo contra la pared sirve para saber si está listo?». El chequeo lo rechazó la primera vez (atribuía el dato a Serious Eats, que no se pudo confirmar, y el caption tenía una frase de seguridad sin fuente). Se corrigió y lo aprobó en el segundo intento, con Jeanette Donnarumma (The Rachael Ray Show) y Barilla como fuentes. La voz dura 44,8 s y `tlx tsc` no da errores. Revisé los cuadros en dos vueltas, una sola serie de ajustes visuales.
+- **Rescates:** no había ninguno posible. Ningún apartado venía de un chequeo rechazado: 005, 038, 042, 044 y 051 se apartaron por otros motivos, y 083 se descartó por falta de fuente primaria.
+- **Segundo video:** no lo produje porque la cola ya tiene unos 19 listos, más de los 10 de umbral. Dejé anotado en `videos/produccion.log` el turno, la interacción elegida (`comentar` y `guardar`) y el ritmo de seguidores (~+22/día contra ~+95/día necesarios, sin medir de nuevo).
+Uso: 69 pasos · 111,886 tokens nuevos · 2,962,011 de caché · 20,046 escritos · equivale a US$ 1.30 de API
+Permisos negados (1):
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/085-fideos-pared; cat > chequeo.json <<'EOF'\n{\n  \"veredicto\": \"r
+2026-11-28 00:42 Render de 085-fideos-pared (sin Claude).
+2026-11-28 00:53 085-fideos-pared: listo (render sin Claude)
+2026-11-28 00:53 Termina la producción (ok).
+2026-11-28 00:53 Arranca el carrusel (1 listos, meta 2).
+`serie-cuerpo-1` — listo. Es una recopilación de "Mitos del cuerpo" con 4 reels publicados (002, 013, 032, 064), 7 placas, y salió listo tras corregir un primer rechazo.
+Uso: 25 pasos · 33,875 tokens nuevos · 485,576 de caché · 4,675 escritos · equivale a US$ 0.23 de API
+2026-11-28 00:54 Termina el carrusel (ok; quedan 2 listos).

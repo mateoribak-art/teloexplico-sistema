@@ -3101,5 +3101,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "085-fideos-pared",
+  "tema": "¿Tirar un fideo contra la pared sirve para saber si está listo? No: se pega igual (Serious Eats, Barilla)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-28T00:34",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-28T00:34",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-28T00:42",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-28T00:53",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

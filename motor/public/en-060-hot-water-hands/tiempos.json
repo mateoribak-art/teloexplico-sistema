@@ -1,0 +1,653 @@
+{
+ "duracion": 38.35,
+ "frases": [
+  {
+   "texto": "You crank the water to hot so it kills the germs on your hands.",
+   "palabras": [
+    {
+     "texto": "You",
+     "inicio": 0.0,
+     "fin": 0.32
+    },
+    {
+     "texto": "crank",
+     "inicio": 0.32,
+     "fin": 0.66
+    },
+    {
+     "texto": "the",
+     "inicio": 0.66,
+     "fin": 0.86
+    },
+    {
+     "texto": "water",
+     "inicio": 0.86,
+     "fin": 1.04
+    },
+    {
+     "texto": "to",
+     "inicio": 1.04,
+     "fin": 1.2
+    },
+    {
+     "texto": "hot",
+     "inicio": 1.2,
+     "fin": 1.46
+    },
+    {
+     "texto": "so",
+     "inicio": 1.46,
+     "fin": 1.7
+    },
+    {
+     "texto": "it",
+     "inicio": 1.7,
+     "fin": 1.86
+    },
+    {
+     "texto": "kills",
+     "inicio": 1.86,
+     "fin": 2.12
+    },
+    {
+     "texto": "the",
+     "inicio": 2.12,
+     "fin": 2.38
+    },
+    {
+     "texto": "germs",
+     "inicio": 2.38,
+     "fin": 2.62
+    },
+    {
+     "texto": "on",
+     "inicio": 2.62,
+     "fin": 2.8
+    },
+    {
+     "texto": "your",
+     "inicio": 2.8,
+     "fin": 2.9
+    },
+    {
+     "texto": "hands.",
+     "inicio": 2.9,
+     "fin": 3.14
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.14
+  },
+  {
+   "texto": "It doesn't work that way.",
+   "palabras": [
+    {
+     "texto": "It",
+     "inicio": 3.76,
+     "fin": 4.32
+    },
+    {
+     "texto": "doesn't",
+     "inicio": 4.32,
+     "fin": 4.64
+    },
+    {
+     "texto": "work",
+     "inicio": 4.64,
+     "fin": 4.8
+    },
+    {
+     "texto": "that",
+     "inicio": 4.8,
+     "fin": 5.02
+    },
+    {
+     "texto": "way.",
+     "inicio": 5.02,
+     "fin": 5.24
+    }
+   ],
+   "inicio": 3.76,
+   "fin": 5.24
+  },
+  {
+   "texto": "The CDC says the temperature of the water doesn't change how many germs come off.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 5.78,
+     "fin": 5.88
+    },
+    {
+     "texto": "CDC",
+     "inicio": 5.88,
+     "fin": 6.26
+    },
+    {
+     "texto": "says",
+     "inicio": 6.26,
+     "fin": 6.68
+    },
+    {
+     "texto": "the",
+     "inicio": 6.68,
+     "fin": 6.88
+    },
+    {
+     "texto": "temperature",
+     "inicio": 6.88,
+     "fin": 7.24
+    },
+    {
+     "texto": "of",
+     "inicio": 7.24,
+     "fin": 7.4
+    },
+    {
+     "texto": "the",
+     "inicio": 7.4,
+     "fin": 7.44
+    },
+    {
+     "texto": "water",
+     "inicio": 7.44,
+     "fin": 7.7
+    },
+    {
+     "texto": "doesn't",
+     "inicio": 7.7,
+     "fin": 8.22
+    },
+    {
+     "texto": "change",
+     "inicio": 8.22,
+     "fin": 8.52
+    },
+    {
+     "texto": "how",
+     "inicio": 8.52,
+     "fin": 8.76
+    },
+    {
+     "texto": "many",
+     "inicio": 8.76,
+     "fin": 8.88
+    },
+    {
+     "texto": "germs",
+     "inicio": 8.88,
+     "fin": 9.18
+    },
+    {
+     "texto": "come",
+     "inicio": 9.18,
+     "fin": 9.4
+    },
+    {
+     "texto": "off.",
+     "inicio": 9.4,
+     "fin": 9.6
+    }
+   ],
+   "inicio": 5.78,
+   "fin": 9.6
+  },
+  {
+   "texto": "A Rutgers study in twenty seventeen tested water from sixty to one hundred degrees. No meaningful difference in germ removal.",
+   "palabras": [
+    {
+     "texto": "A",
+     "inicio": 10.06,
+     "fin": 10.14
+    },
+    {
+     "texto": "Rutgers",
+     "inicio": 10.14,
+     "fin": 10.48
+    },
+    {
+     "texto": "study",
+     "inicio": 10.48,
+     "fin": 10.78
+    },
+    {
+     "texto": "in",
+     "inicio": 10.78,
+     "fin": 10.96
+    },
+    {
+     "texto": "twenty",
+     "inicio": 10.96,
+     "fin": 11.18
+    },
+    {
+     "texto": "seventeen",
+     "inicio": 11.18,
+     "fin": 11.52
+    },
+    {
+     "texto": "tested",
+     "inicio": 11.52,
+     "fin": 12.04
+    },
+    {
+     "texto": "water",
+     "inicio": 12.04,
+     "fin": 12.38
+    },
+    {
+     "texto": "from",
+     "inicio": 12.38,
+     "fin": 12.7
+    },
+    {
+     "texto": "sixty",
+     "inicio": 12.7,
+     "fin": 13.2
+    },
+    {
+     "texto": "to",
+     "inicio": 13.2,
+     "fin": 13.72
+    },
+    {
+     "texto": "one",
+     "inicio": 13.72,
+     "fin": 13.94
+    },
+    {
+     "texto": "hundred",
+     "inicio": 13.94,
+     "fin": 14.18
+    },
+    {
+     "texto": "degrees.",
+     "inicio": 14.18,
+     "fin": 14.52
+    },
+    {
+     "texto": "No",
+     "inicio": 15.2,
+     "fin": 15.36
+    },
+    {
+     "texto": "meaningful",
+     "inicio": 15.36,
+     "fin": 15.6
+    },
+    {
+     "texto": "difference",
+     "inicio": 15.6,
+     "fin": 16.04
+    },
+    {
+     "texto": "in",
+     "inicio": 16.04,
+     "fin": 16.22
+    },
+    {
+     "texto": "germ",
+     "inicio": 16.22,
+     "fin": 16.38
+    },
+    {
+     "texto": "removal.",
+     "inicio": 16.38,
+     "fin": 16.68
+    }
+   ],
+   "inicio": 10.06,
+   "fin": 16.68
+  },
+  {
+   "texto": "What does the work is soap and scrubbing. Wet, soap, scrub for twenty seconds, rinse, dry.",
+   "palabras": [
+    {
+     "texto": "What",
+     "inicio": 17.24,
+     "fin": 17.42
+    },
+    {
+     "texto": "does",
+     "inicio": 17.42,
+     "fin": 17.74
+    },
+    {
+     "texto": "the",
+     "inicio": 17.74,
+     "fin": 17.92
+    },
+    {
+     "texto": "work",
+     "inicio": 17.92,
+     "fin": 18.16
+    },
+    {
+     "texto": "is",
+     "inicio": 18.16,
+     "fin": 18.58
+    },
+    {
+     "texto": "soap",
+     "inicio": 18.58,
+     "fin": 18.98
+    },
+    {
+     "texto": "and",
+     "inicio": 18.98,
+     "fin": 19.24
+    },
+    {
+     "texto": "scrubbing.",
+     "inicio": 19.24,
+     "fin": 19.78
+    },
+    {
+     "texto": "Wet,",
+     "inicio": 20.36,
+     "fin": 20.52
+    },
+    {
+     "texto": "soap,",
+     "inicio": 20.96,
+     "fin": 21.24
+    },
+    {
+     "texto": "scrub",
+     "inicio": 21.66,
+     "fin": 21.84
+    },
+    {
+     "texto": "for",
+     "inicio": 21.84,
+     "fin": 22.04
+    },
+    {
+     "texto": "twenty",
+     "inicio": 22.04,
+     "fin": 22.24
+    },
+    {
+     "texto": "seconds,",
+     "inicio": 22.24,
+     "fin": 22.52
+    },
+    {
+     "texto": "rinse,",
+     "inicio": 23.08,
+     "fin": 23.26
+    },
+    {
+     "texto": "dry.",
+     "inicio": 23.76,
+     "fin": 24.04
+    }
+   ],
+   "inicio": 17.24,
+   "fin": 24.04
+  },
+  {
+   "texto": "Heads up: hotter water can irritate your skin, so use whatever feels comfortable.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 24.52,
+     "fin": 24.9
+    },
+    {
+     "texto": "up:",
+     "inicio": 24.9,
+     "fin": 25.1
+    },
+    {
+     "texto": "hotter",
+     "inicio": 25.38,
+     "fin": 25.76
+    },
+    {
+     "texto": "water",
+     "inicio": 25.76,
+     "fin": 26.1
+    },
+    {
+     "texto": "can",
+     "inicio": 26.1,
+     "fin": 26.42
+    },
+    {
+     "texto": "irritate",
+     "inicio": 26.42,
+     "fin": 26.92
+    },
+    {
+     "texto": "your",
+     "inicio": 26.92,
+     "fin": 27.02
+    },
+    {
+     "texto": "skin,",
+     "inicio": 27.02,
+     "fin": 27.3
+    },
+    {
+     "texto": "so",
+     "inicio": 27.46,
+     "fin": 27.6
+    },
+    {
+     "texto": "use",
+     "inicio": 27.6,
+     "fin": 27.98
+    },
+    {
+     "texto": "whatever",
+     "inicio": 27.98,
+     "fin": 28.24
+    },
+    {
+     "texto": "feels",
+     "inicio": 28.24,
+     "fin": 28.54
+    },
+    {
+     "texto": "comfortable.",
+     "inicio": 28.54,
+     "fin": 28.94
+    }
+   ],
+   "inicio": 24.52,
+   "fin": 28.94
+  },
+  {
+   "texto": "Save this for the next time you're at the sink.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 28.94,
+     "fin": 29.68
+    },
+    {
+     "texto": "this",
+     "inicio": 29.68,
+     "fin": 29.96
+    },
+    {
+     "texto": "for",
+     "inicio": 29.96,
+     "fin": 30.14
+    },
+    {
+     "texto": "the",
+     "inicio": 30.14,
+     "fin": 30.22
+    },
+    {
+     "texto": "next",
+     "inicio": 30.22,
+     "fin": 30.38
+    },
+    {
+     "texto": "time",
+     "inicio": 30.38,
+     "fin": 30.58
+    },
+    {
+     "texto": "you're",
+     "inicio": 30.58,
+     "fin": 30.74
+    },
+    {
+     "texto": "at",
+     "inicio": 30.74,
+     "fin": 30.84
+    },
+    {
+     "texto": "the",
+     "inicio": 30.84,
+     "fin": 30.94
+    },
+    {
+     "texto": "sink.",
+     "inicio": 30.94,
+     "fin": 31.12
+    }
+   ],
+   "inicio": 28.94,
+   "fin": 31.12
+  },
+  {
+   "texto": "So what song do you hum to time twenty seconds?",
+   "palabras": [
+    {
+     "texto": "So",
+     "inicio": 31.5,
+     "fin": 31.82
+    },
+    {
+     "texto": "what",
+     "inicio": 31.82,
+     "fin": 32.28
+    },
+    {
+     "texto": "song",
+     "inicio": 32.28,
+     "fin": 32.58
+    },
+    {
+     "texto": "do",
+     "inicio": 32.58,
+     "fin": 32.78
+    },
+    {
+     "texto": "you",
+     "inicio": 32.78,
+     "fin": 32.92
+    },
+    {
+     "texto": "hum",
+     "inicio": 32.92,
+     "fin": 33.14
+    },
+    {
+     "texto": "to",
+     "inicio": 33.14,
+     "fin": 33.32
+    },
+    {
+     "texto": "time",
+     "inicio": 33.32,
+     "fin": 33.68
+    },
+    {
+     "texto": "twenty",
+     "inicio": 33.68,
+     "fin": 34.12
+    },
+    {
+     "texto": "seconds?",
+     "inicio": 34.12,
+     "fin": 34.42
+    }
+   ],
+   "inicio": 31.5,
+   "fin": 34.42
+  },
+  {
+   "texto": "Send this to the friend who rinses for two seconds and calls it clean.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 35.04,
+     "fin": 35.2
+    },
+    {
+     "texto": "this",
+     "inicio": 35.2,
+     "fin": 35.4
+    },
+    {
+     "texto": "to",
+     "inicio": 35.4,
+     "fin": 35.56
+    },
+    {
+     "texto": "the",
+     "inicio": 35.56,
+     "fin": 35.64
+    },
+    {
+     "texto": "friend",
+     "inicio": 35.64,
+     "fin": 35.84
+    },
+    {
+     "texto": "who",
+     "inicio": 35.84,
+     "fin": 36.06
+    },
+    {
+     "texto": "rinses",
+     "inicio": 36.06,
+     "fin": 36.54
+    },
+    {
+     "texto": "for",
+     "inicio": 36.54,
+     "fin": 36.72
+    },
+    {
+     "texto": "two",
+     "inicio": 36.72,
+     "fin": 36.94
+    },
+    {
+     "texto": "seconds",
+     "inicio": 36.94,
+     "fin": 37.26
+    },
+    {
+     "texto": "and",
+     "inicio": 37.26,
+     "fin": 37.62
+    },
+    {
+     "texto": "calls",
+     "inicio": 37.62,
+     "fin": 37.9
+    },
+    {
+     "texto": "it",
+     "inicio": 37.9,
+     "fin": 38.04
+    },
+    {
+     "texto": "clean.",
+     "inicio": 38.04,
+     "fin": 38.2
+    }
+   ],
+   "inicio": 35.04,
+   "fin": 38.2
+  }
+ ]
+}

@@ -71,6 +71,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [usada → en-017-heat-head] Do you lose most of your heat through your head? (myth)
 - [usada → en-004-sugar-hyper] Does sugar make kids hyper? (estudios doble ciego) — Halloween
 - [usada → en-037-swallowed-gum] Does swallowed gum stay in your stomach for 7 years?
+- [usada → en-060-hot-water-hands] Does hot water wash your hands cleaner? (CDC; Rutgers 2017)
 - [usada → en-044-wet-hair] Does going out with wet hair give you a cold? (adaptado de 032; CDC, Cardiff 2005)
 
 ## Temas de EE. UU. — serie: mate (Everyday math)

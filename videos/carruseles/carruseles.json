@@ -428,5 +428,27 @@
     "motivo": "control OK"
    }
   ]
+ },
+ {
+  "clave": "serie-cuerpo-1",
+  "estado": "listo",
+  "origen": [
+   "002-corte-digestion",
+   "013-alcohol-calor",
+   "032-pelo-mojado-resfrio",
+   "064-nudillos-artritis"
+  ],
+  "historial": [
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-28T00:53",
+    "motivo": "dato demasiado largo (12 > 10): \"es sensación…\"; números que no están en el chequeo de los reels de origen: 1 (etiqueta)"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-28T00:54",
+    "motivo": "control OK"
+   }
+  ]
  }
 ]

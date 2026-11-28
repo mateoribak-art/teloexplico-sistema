@@ -1872,7 +1872,7 @@
  {
   "slug": "en-057-tip-math",
   "tema": "How to figure a 20% tip in your head (arithmetic; own; everyday math)",
-  "estado": "render",
+  "estado": "listo",
   "historial": [
    {
     "estado": "idea",
@@ -1908,6 +1908,11 @@
     "estado": "render",
     "cuando": "2026-11-28T03:30",
     "motivo": "tecnico: el control de voz en ingles ya ignora numeros y unidades ($5, 20%, 2.50); se controla de nuevo"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-28T00:58",
+    "motivo": "render sin Claude"
    }
   ]
  },
@@ -1961,6 +1966,33 @@
    {
     "estado": "listo",
     "cuando": "2026-11-27T21:14",
+    "motivo": "render sin Claude"
+   }
+  ]
+ },
+ {
+  "slug": "en-060-hot-water-hands",
+  "tema": "Does hot water wash your hands cleaner? (CDC: temperature doesn't matter; 20 seconds with soap)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-28T00:59",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-28T00:59",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-28T01:03",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-28T01:08",
     "motivo": "render sin Claude"
    }
   ]

@@ -1,0 +1,26 @@
+{
+  "titulo": "Does hot water wash your hands cleaner? (CDC: temperature doesn't matter; soap and 20 seconds do)",
+  "pilar": "salud_simple",
+  "receta": "error cotidiano con regla para guardar (pasos y 20 segundos) + pregunta de una palabra",
+  "fondo": "oscuro",
+  "destinatario": "Se lo manda alguien que se lava las manos con agua fría a su amigo que cree que hay que hacerlo con agua hirviendo.",
+  "interaccion": {
+    "guardar": "Wet, soap, scrub for 20 seconds, rinse, dry. Water temperature doesn't matter.",
+    "comentar": "What song do you hum to time twenty seconds?"
+  },
+  "fuentes": [
+    "CDC, Handwashing: Clean Hands Save Lives (water temperature, 20 seconds, five steps)",
+    "Jensen et al., Rutgers University, Journal of Food Protection, 2017"
+  ],
+  "frases": [
+    {"texto": "You crank the water to hot so it kills the germs on your hands.", "estilo": "Casual, a little teasing."},
+    {"texto": "It doesn't work that way.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "The CDC says the temperature of the water doesn't change how many germs come off.", "estilo": "Clear, matter of fact."},
+    {"texto": "A Rutgers study in twenty seventeen tested water from sixty to one hundred degrees. No meaningful difference in germ removal.", "estilo": "Explaining, steady."},
+    {"texto": "What does the work is soap and scrubbing. Wet, soap, scrub for twenty seconds, rinse, dry.", "estilo": "Practical, friendly."},
+    {"texto": "Heads up: hotter water can irritate your skin, so use whatever feels comfortable.", "estilo": "Warm, honest, with the caveat."},
+    {"texto": "Save this for the next time you're at the sink.", "estilo": "Practical, friendly."},
+    {"texto": "So what song do you hum to time twenty seconds?", "estilo": "Casual, inviting."},
+    {"texto": "Send this to the friend who rinses for two seconds and calls it clean.", "estilo": "Playful, with humor."}
+  ]
+}

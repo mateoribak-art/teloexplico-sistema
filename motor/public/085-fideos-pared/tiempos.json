@@ -1,0 +1,735 @@
+{
+ "duracion": 44.77,
+ "frases": [
+  {
+   "texto": "Tirás un fideo contra la pared para saber si está listo.",
+   "palabras": [
+    {
+     "texto": "Tirás",
+     "inicio": 0.0,
+     "fin": 0.24
+    },
+    {
+     "texto": "un",
+     "inicio": 0.24,
+     "fin": 0.38
+    },
+    {
+     "texto": "fideo",
+     "inicio": 0.38,
+     "fin": 0.7
+    },
+    {
+     "texto": "contra",
+     "inicio": 0.7,
+     "fin": 1.12
+    },
+    {
+     "texto": "la",
+     "inicio": 1.12,
+     "fin": 1.28
+    },
+    {
+     "texto": "pared",
+     "inicio": 1.28,
+     "fin": 1.58
+    },
+    {
+     "texto": "para",
+     "inicio": 1.58,
+     "fin": 1.86
+    },
+    {
+     "texto": "saber",
+     "inicio": 1.86,
+     "fin": 2.14
+    },
+    {
+     "texto": "si",
+     "inicio": 2.14,
+     "fin": 2.26
+    },
+    {
+     "texto": "está",
+     "inicio": 2.26,
+     "fin": 2.4
+    },
+    {
+     "texto": "listo.",
+     "inicio": 2.4,
+     "fin": 2.84
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.84
+  },
+  {
+   "texto": "Y la pared no te dice nada.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 3.08,
+     "fin": 3.48
+    },
+    {
+     "texto": "la",
+     "inicio": 3.48,
+     "fin": 3.62
+    },
+    {
+     "texto": "pared",
+     "inicio": 3.62,
+     "fin": 3.88
+    },
+    {
+     "texto": "no",
+     "inicio": 3.88,
+     "fin": 4.04
+    },
+    {
+     "texto": "te",
+     "inicio": 4.04,
+     "fin": 4.16
+    },
+    {
+     "texto": "dice",
+     "inicio": 4.16,
+     "fin": 4.38
+    },
+    {
+     "texto": "nada.",
+     "inicio": 4.38,
+     "fin": 4.76
+    }
+   ],
+   "inicio": 3.08,
+   "fin": 4.76
+  },
+  {
+   "texto": "Un fideo hervido tiene almidón en la superficie, y eso lo vuelve pegajoso, esté listo o no.",
+   "palabras": [
+    {
+     "texto": "Un",
+     "inicio": 5.3,
+     "fin": 5.48
+    },
+    {
+     "texto": "fideo",
+     "inicio": 5.48,
+     "fin": 5.74
+    },
+    {
+     "texto": "hervido",
+     "inicio": 5.74,
+     "fin": 6.14
+    },
+    {
+     "texto": "tiene",
+     "inicio": 6.14,
+     "fin": 6.58
+    },
+    {
+     "texto": "almidón",
+     "inicio": 6.58,
+     "fin": 7.04
+    },
+    {
+     "texto": "en",
+     "inicio": 7.04,
+     "fin": 7.18
+    },
+    {
+     "texto": "la",
+     "inicio": 7.18,
+     "fin": 7.26
+    },
+    {
+     "texto": "superficie,",
+     "inicio": 7.26,
+     "fin": 7.88
+    },
+    {
+     "texto": "y",
+     "inicio": 8.12,
+     "fin": 8.32
+    },
+    {
+     "texto": "eso",
+     "inicio": 8.32,
+     "fin": 8.52
+    },
+    {
+     "texto": "lo",
+     "inicio": 8.52,
+     "fin": 8.78
+    },
+    {
+     "texto": "vuelve",
+     "inicio": 8.78,
+     "fin": 9.04
+    },
+    {
+     "texto": "pegajoso,",
+     "inicio": 9.04,
+     "fin": 9.58
+    },
+    {
+     "texto": "esté",
+     "inicio": 9.94,
+     "fin": 10.14
+    },
+    {
+     "texto": "listo",
+     "inicio": 10.14,
+     "fin": 10.52
+    },
+    {
+     "texto": "o",
+     "inicio": 10.52,
+     "fin": 10.62
+    },
+    {
+     "texto": "no.",
+     "inicio": 10.62,
+     "fin": 10.76
+    }
+   ],
+   "inicio": 5.3,
+   "fin": 10.76
+  },
+  {
+   "texto": "Según Jeanette Donnarumma, productora culinaria de un programa de cocina de Estados Unidos, se pega esté poco cocido, a punto o pasado.",
+   "palabras": [
+    {
+     "texto": "Según",
+     "inicio": 11.24,
+     "fin": 11.6
+    },
+    {
+     "texto": "Jeanette",
+     "inicio": 11.6,
+     "fin": 12.02
+    },
+    {
+     "texto": "Donnarumma,",
+     "inicio": 12.02,
+     "fin": 12.54
+    },
+    {
+     "texto": "productora",
+     "inicio": 12.86,
+     "fin": 13.2
+    },
+    {
+     "texto": "culinaria",
+     "inicio": 13.2,
+     "fin": 13.72
+    },
+    {
+     "texto": "de",
+     "inicio": 13.72,
+     "fin": 13.82
+    },
+    {
+     "texto": "un",
+     "inicio": 13.82,
+     "fin": 13.9
+    },
+    {
+     "texto": "programa",
+     "inicio": 13.9,
+     "fin": 14.16
+    },
+    {
+     "texto": "de",
+     "inicio": 14.16,
+     "fin": 14.36
+    },
+    {
+     "texto": "cocina",
+     "inicio": 14.36,
+     "fin": 14.72
+    },
+    {
+     "texto": "de",
+     "inicio": 14.72,
+     "fin": 14.8
+    },
+    {
+     "texto": "Estados",
+     "inicio": 14.8,
+     "fin": 15.02
+    },
+    {
+     "texto": "Unidos,",
+     "inicio": 15.02,
+     "fin": 15.4
+    },
+    {
+     "texto": "se",
+     "inicio": 15.78,
+     "fin": 15.98
+    },
+    {
+     "texto": "pega",
+     "inicio": 15.98,
+     "fin": 16.22
+    },
+    {
+     "texto": "esté",
+     "inicio": 16.22,
+     "fin": 16.54
+    },
+    {
+     "texto": "poco",
+     "inicio": 16.54,
+     "fin": 16.96
+    },
+    {
+     "texto": "cocido,",
+     "inicio": 16.96,
+     "fin": 17.44
+    },
+    {
+     "texto": "a",
+     "inicio": 17.7,
+     "fin": 17.98
+    },
+    {
+     "texto": "punto",
+     "inicio": 17.98,
+     "fin": 18.22
+    },
+    {
+     "texto": "o",
+     "inicio": 18.22,
+     "fin": 18.74
+    },
+    {
+     "texto": "pasado.",
+     "inicio": 18.74,
+     "fin": 19.08
+    }
+   ],
+   "inicio": 11.24,
+   "fin": 19.08
+  },
+  {
+   "texto": "O sea que el fideo pegado no te dice si está al dente.",
+   "palabras": [
+    {
+     "texto": "O",
+     "inicio": 19.6,
+     "fin": 19.76
+    },
+    {
+     "texto": "sea",
+     "inicio": 19.76,
+     "fin": 19.94
+    },
+    {
+     "texto": "que",
+     "inicio": 19.94,
+     "fin": 20.14
+    },
+    {
+     "texto": "el",
+     "inicio": 20.14,
+     "fin": 20.26
+    },
+    {
+     "texto": "fideo",
+     "inicio": 20.26,
+     "fin": 20.5
+    },
+    {
+     "texto": "pegado",
+     "inicio": 20.5,
+     "fin": 20.96
+    },
+    {
+     "texto": "no",
+     "inicio": 20.96,
+     "fin": 21.4
+    },
+    {
+     "texto": "te",
+     "inicio": 21.4,
+     "fin": 21.52
+    },
+    {
+     "texto": "dice",
+     "inicio": 21.52,
+     "fin": 21.8
+    },
+    {
+     "texto": "si",
+     "inicio": 21.8,
+     "fin": 22.0
+    },
+    {
+     "texto": "está",
+     "inicio": 22.0,
+     "fin": 22.16
+    },
+    {
+     "texto": "al",
+     "inicio": 22.16,
+     "fin": 22.34
+    },
+    {
+     "texto": "dente.",
+     "inicio": 22.34,
+     "fin": 22.52
+    }
+   ],
+   "inicio": 19.6,
+   "fin": 22.52
+  },
+  {
+   "texto": "La fábrica de pasta Barilla recomienda otra cosa: morder un fideo.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 23.1,
+     "fin": 23.3
+    },
+    {
+     "texto": "fábrica",
+     "inicio": 23.3,
+     "fin": 23.7
+    },
+    {
+     "texto": "de",
+     "inicio": 23.7,
+     "fin": 23.86
+    },
+    {
+     "texto": "pasta",
+     "inicio": 23.86,
+     "fin": 24.08
+    },
+    {
+     "texto": "Barilla",
+     "inicio": 24.08,
+     "fin": 24.56
+    },
+    {
+     "texto": "recomienda",
+     "inicio": 24.56,
+     "fin": 25.4
+    },
+    {
+     "texto": "otra",
+     "inicio": 25.4,
+     "fin": 25.62
+    },
+    {
+     "texto": "cosa:",
+     "inicio": 25.62,
+     "fin": 25.96
+    },
+    {
+     "texto": "morder",
+     "inicio": 26.52,
+     "fin": 26.86
+    },
+    {
+     "texto": "un",
+     "inicio": 26.86,
+     "fin": 27.04
+    },
+    {
+     "texto": "fideo.",
+     "inicio": 27.04,
+     "fin": 27.4
+    }
+   ],
+   "inicio": 23.1,
+   "fin": 27.4
+  },
+  {
+   "texto": "Sacá uno con la cuchara, esperá que se enfríe un poco y probalo. Tiene que estar firme, pero tierno.",
+   "palabras": [
+    {
+     "texto": "Sacá",
+     "inicio": 27.4,
+     "fin": 28.18
+    },
+    {
+     "texto": "uno",
+     "inicio": 28.18,
+     "fin": 28.44
+    },
+    {
+     "texto": "con",
+     "inicio": 28.44,
+     "fin": 28.6
+    },
+    {
+     "texto": "la",
+     "inicio": 28.6,
+     "fin": 28.7
+    },
+    {
+     "texto": "cuchara,",
+     "inicio": 28.7,
+     "fin": 29.12
+    },
+    {
+     "texto": "esperá",
+     "inicio": 29.44,
+     "fin": 29.7
+    },
+    {
+     "texto": "que",
+     "inicio": 29.7,
+     "fin": 29.9
+    },
+    {
+     "texto": "se",
+     "inicio": 29.9,
+     "fin": 30.02
+    },
+    {
+     "texto": "enfríe",
+     "inicio": 30.02,
+     "fin": 30.34
+    },
+    {
+     "texto": "un",
+     "inicio": 30.34,
+     "fin": 30.42
+    },
+    {
+     "texto": "poco",
+     "inicio": 30.42,
+     "fin": 30.72
+    },
+    {
+     "texto": "y",
+     "inicio": 30.72,
+     "fin": 31.36
+    },
+    {
+     "texto": "probalo.",
+     "inicio": 31.36,
+     "fin": 31.8
+    },
+    {
+     "texto": "Tiene",
+     "inicio": 32.18,
+     "fin": 32.42
+    },
+    {
+     "texto": "que",
+     "inicio": 32.42,
+     "fin": 32.52
+    },
+    {
+     "texto": "estar",
+     "inicio": 32.52,
+     "fin": 32.68
+    },
+    {
+     "texto": "firme,",
+     "inicio": 32.68,
+     "fin": 33.06
+    },
+    {
+     "texto": "pero",
+     "inicio": 33.38,
+     "fin": 33.56
+    },
+    {
+     "texto": "tierno.",
+     "inicio": 33.56,
+     "fin": 33.9
+    }
+   ],
+   "inicio": 27.4,
+   "fin": 33.9
+  },
+  {
+   "texto": "Guardalo: para saber si están listos, se prueba uno, no se tira.",
+   "palabras": [
+    {
+     "texto": "Guardalo:",
+     "inicio": 34.5,
+     "fin": 34.88
+    },
+    {
+     "texto": "para",
+     "inicio": 35.36,
+     "fin": 35.54
+    },
+    {
+     "texto": "saber",
+     "inicio": 35.54,
+     "fin": 35.78
+    },
+    {
+     "texto": "si",
+     "inicio": 35.78,
+     "fin": 35.96
+    },
+    {
+     "texto": "están",
+     "inicio": 35.96,
+     "fin": 36.12
+    },
+    {
+     "texto": "listos,",
+     "inicio": 36.12,
+     "fin": 36.64
+    },
+    {
+     "texto": "se",
+     "inicio": 36.78,
+     "fin": 36.88
+    },
+    {
+     "texto": "prueba",
+     "inicio": 36.88,
+     "fin": 37.18
+    },
+    {
+     "texto": "uno,",
+     "inicio": 37.18,
+     "fin": 37.56
+    },
+    {
+     "texto": "no",
+     "inicio": 37.94,
+     "fin": 38.06
+    },
+    {
+     "texto": "se",
+     "inicio": 38.06,
+     "fin": 38.22
+    },
+    {
+     "texto": "tira.",
+     "inicio": 38.22,
+     "fin": 38.5
+    }
+   ],
+   "inicio": 34.5,
+   "fin": 38.5
+  },
+  {
+   "texto": "¿Vos los tirás contra la pared? Contestá sí o no.",
+   "palabras": [
+    {
+     "texto": "¿Vos",
+     "inicio": 39.08,
+     "fin": 39.22
+    },
+    {
+     "texto": "los",
+     "inicio": 39.22,
+     "fin": 39.36
+    },
+    {
+     "texto": "tirás",
+     "inicio": 39.36,
+     "fin": 39.62
+    },
+    {
+     "texto": "contra",
+     "inicio": 39.62,
+     "fin": 39.8
+    },
+    {
+     "texto": "la",
+     "inicio": 39.8,
+     "fin": 39.94
+    },
+    {
+     "texto": "pared?",
+     "inicio": 39.94,
+     "fin": 40.22
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 40.74,
+     "fin": 41.22
+    },
+    {
+     "texto": "sí",
+     "inicio": 41.22,
+     "fin": 41.52
+    },
+    {
+     "texto": "o",
+     "inicio": 41.52,
+     "fin": 41.76
+    },
+    {
+     "texto": "no.",
+     "inicio": 41.76,
+     "fin": 41.92
+    }
+   ],
+   "inicio": 39.08,
+   "fin": 41.92
+  },
+  {
+   "texto": "Mandáselo al que tiene la pared de la cocina manchada.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 42.38,
+     "fin": 42.9
+    },
+    {
+     "texto": "al",
+     "inicio": 42.9,
+     "fin": 42.98
+    },
+    {
+     "texto": "que",
+     "inicio": 42.98,
+     "fin": 43.1
+    },
+    {
+     "texto": "tiene",
+     "inicio": 43.1,
+     "fin": 43.28
+    },
+    {
+     "texto": "la",
+     "inicio": 43.28,
+     "fin": 43.44
+    },
+    {
+     "texto": "pared",
+     "inicio": 43.44,
+     "fin": 43.7
+    },
+    {
+     "texto": "de",
+     "inicio": 43.7,
+     "fin": 43.82
+    },
+    {
+     "texto": "la",
+     "inicio": 43.82,
+     "fin": 43.9
+    },
+    {
+     "texto": "cocina",
+     "inicio": 43.9,
+     "fin": 44.2
+    },
+    {
+     "texto": "manchada.",
+     "inicio": 44.2,
+     "fin": 44.66
+    }
+   ],
+   "inicio": 42.38,
+   "fin": 44.66
+  }
+ ]
+}

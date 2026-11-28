@@ -1,0 +1,48 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Segundo chequeo independiente con busqueda web. Todas las afirmaciones del guion y del caption coinciden con las fuentes: CDC (la temperatura del agua 'does not appear to affect germ removal'; 'warmer water may cause more skin irritation'; frotar 'at least 20 seconds'; cinco pasos mojar+jabon, enjabonar, restregar, enjuagar, secar) y Rutgers 2017 (60, 79 y 100 grados, en Fahrenheit; Journal of Food Protection 80(6):1022-1031; primer autor Dane A. Jensen con Schaffner como autor senior). La atribucion corregida 'Jensen et al.' es correcta y 'No meaningful difference in germ removal' respeta el hallazgo. Unidades en °F coinciden con la fuente. Matiz menor: el CDC dice 'does not appear to affect' (cautela) y el guion lo afirma sin ese 'appear'; es una simplificacion aceptable. Ninguna afirmacion falsa; el consejo de salud (agua comoda, piel) esta respaldado.",
+  "afirmaciones": [
+    {
+      "texto": "You crank the water to hot so it kills the germs on your hands. (premisa del mito)",
+      "fuente": "Presentada como creencia comun, no como hecho; el CDC indica que la temperatura no parece afectar la remocion de germenes.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "The CDC says the temperature of the water doesn't change how many germs come off.",
+      "fuente": "CDC Handwashing Facts (https://www.cdc.gov/clean-hands/data-research/facts-stats/index.html): 'The temperature of the water does not appear to affect germ removal'. CDC About (https://www.cdc.gov/clean-hands/about/index.html): agua 'warm or cold'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "A Rutgers study in twenty seventeen tested water from sixty to one hundred degrees. No meaningful difference in germ removal. (caption: 60 to 100 °F)",
+      "fuente": "Rutgers (https://www.rutgers.edu/news/handwashing-cool-water-effective-hot-removing-germs), 30 mayo 2017: 60, 79 y 100 grados, 21 voluntarios; Jensen et al., J Food Prot 2017, 80(6):1022-1031: la temperatura no afecto la remocion de bacterias. Escala Fahrenheit (la nota no imprime la unidad, pero el contexto FDA de 100 °F lo confirma).",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "What does the work is soap and scrubbing. Wet, soap, scrub for twenty seconds, rinse, dry. (caption: Wet, soap, scrub for 20 seconds, rinse, dry)",
+      "fuente": "CDC About (https://www.cdc.gov/clean-hands/about/index.html): mojar y poner jabon; enjabonar; 'Scrub your hands for at least 20 seconds'; enjuagar; secar. Cinco pasos.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Heads up: hotter water can irritate your skin, so use whatever feels comfortable.",
+      "fuente": "CDC Handwashing Facts: 'warmer water may cause more skin irritation'. 'Can' respeta el 'may'. Schaffner (Rutgers) propone agua 'comfortable or warm'.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Sources: CDC (Handwashing: Clean Hands Save Lives); Jensen et al., Rutgers University, Journal of Food Protection, 2017.",
+      "fuente": "Paper: Jensen DA, ..., Schaffner DW; J Food Prot 2017;80(6):1022-1031 (titulo 'Quantifying the Effects of Water Temperature, Soap Volume, Lather Time, and Antimicrobial Soap as Variables in the Removal of Escherichia coli ATCC 11229 from Hands'). Atribucion, universidad, revista y ano correctos.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Frases de interaccion y humor (Save this..., what song do you hum..., send this to the friend who rinses for two seconds)",
+      "fuente": "No son afirmaciones fácticas; el CDC mismo sugiere tararear una cancion para medir 20 segundos.",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

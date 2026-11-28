@@ -1,0 +1,10 @@
+2026-11-28 00:54 Arranca la producción (19 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+2026-11-28 00:54 Render de en-057-tip-math (sin Claude).
+2026-11-28 00:58 en-057-tip-math: listo (render sin Claude)
+- **Listo para render:** `en-060-hot-water-hands` (serie cuerpo #8, ¿el agua caliente lava más limpio? No: CDC y Rutgers 2017). Está en estado `render` y lo renderiza `producir.py`. El chequeo lo rechazó la 1.ª vez solo por atribuir mal el estudio (Jensen et al., no Schaffner) y lo aprobó la 2.ª, ya corregido. Voz 38 s, `tsc` sin errores, cuadros revisados en 2 vueltas.
+- **Apartados:** no había ninguno rechazado por chequeo para rescatar. `en-057-tip-math` figura apartado en el log solo por la voz, así que no entraba en el rescate; el log de la noche lo muestra ya renderizado y listo.
+- **Incompletos:** ninguno. Dejé anotadas la `interaccion` y la nota de seguidores en `videos/en/produccion.log`. El ritmo semanal de seguidores no lo medí en detalle.
+Uso: 20 pasos · 15,682 tokens nuevos · 1,068,100 de caché · 4,116 escritos · equivale a US$ 1.00 de API
+2026-11-28 01:03 Render de en-060-hot-water-hands (sin Claude).
+2026-11-28 01:08 en-060-hot-water-hands: listo (render sin Claude)
+2026-11-28 01:08 Termina la producción (ok).

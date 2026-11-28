@@ -67,6 +67,7 @@ import { DURACION as DUR_064,FPS as FPS_064, NudillosArtritis3D, Portada064 } fr
 import { DURACION as DUR_062,FPS as FPS_062, PoteMicroondas3D, Portada062 } from "./videos/062-pote-microondas/Video";
 import { DURACION as DUR_082, FPS as FPS_082, MicroondasVitaminas3D, Portada082 } from "./videos/082-microondas-vitaminas/Video";
 import { DURACION as DUR_083, FPS as FPS_083, BrindisCopas3D, Portada083 } from "./videos/083-brindis-copas/Video";
+import { DURACION as DUR_085, FPS as FPS_085, FideosPared3D, Portada085 } from "./videos/085-fideos-pared/Video";
 import { DURACION as DUR_084, FPS as FPS_084, FloreroDengue3D, Portada084 } from "./videos/084-florero-dengue/Video";
 import { DURACION as DUR_065, FPS as FPS_065, VoseoVosOTu3D, Portada065 } from "./videos/065-voseo-vos-o-tu/Video";
 import { DURACION as DUR_066, FPS as FPS_066, BilletesAnimales3D, Portada066 } from "./videos/066-billetes-animales/Video";
@@ -106,6 +107,7 @@ import { DURACION as DUR_EN009, FPS as FPS_EN009, CeilingFanEn009, PortadaEn009 
 import { DURACION as DUR_EN010, FPS as FPS_EN010, ThermostatNightEn010, PortadaEn010 } from "./videos/en-010-thermostat-night/Video";
 import { DURACION as DUR_EN033, FPS as FPS_EN033, TurkeyThawEn033, PortadaEn033 } from "./videos/en-033-turkey-thaw/Video";
 import { DURACION as DUR_EN059, FPS as FPS_EN059, GeneratorEn059, PortadaEn059 } from "./videos/en-059-generator-garage/Video";
+import { DURACION as DUR_EN060, FPS as FPS_EN060, HotWaterEn060, PortadaEn060 } from "./videos/en-060-hot-water-hands/Video";
 import { DURACION as DUR_EN058,FPS as FPS_EN058, RefreezeEn058, PortadaEn058 } from "./videos/en-058-refreeze-meat/Video";
 import { DURACION as DUR_EN043, FPS as FPS_EN043, CoffeeMathEn043, PortadaEn043 } from "./videos/en-043-coffee-math/Video";
 import { DURACION as DUR_EN050, FPS as FPS_EN050, StackedDiscountsEn050, PortadaEn050 } from "./videos/en-050-stacked-discounts/Video";
@@ -272,6 +274,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="p079-leer-poca-luz" component={Portada079} width={ANCHO} height={ALTO} />
         <Composition id="h081-dos-litros-agua" component={DosLitrosAgua3D} durationInFrames={DUR_081} fps={FPS_081} width={ANCHO} height={ALTO} />
         <Still id="p081-dos-litros-agua" component={Portada081} width={ANCHO} height={ALTO} />
+        <Composition id="h085-fideos-pared" component={FideosPared3D} durationInFrames={DUR_085} fps={FPS_085} width={ANCHO} height={ALTO} />
+        <Still id="p085-fideos-pared" component={Portada085} width={ANCHO} height={ALTO} />
         <Composition id="h056-gta-trece-anios"component={GtaTreceAnios3D} durationInFrames={DUR_056} fps={FPS_056} width={ANCHO} height={ALTO} />
         <Still id="p056-gta-trece-anios" component={Portada056} width={ANCHO} height={ALTO} />
         <Composition id="h055-gta-vice-city-miami"component={GtaViceCityMiami3D} durationInFrames={DUR_055} fps={FPS_055} width={ANCHO} height={ALTO} />
@@ -329,6 +333,8 @@ export const RemotionRoot: React.FC = () => {
         <Still id="pen-058-refreeze-meat" component={PortadaEn058} width={ANCHO} height={ALTO} />
         <Composition id="hen-059-generator-garage" component={GeneratorEn059} durationInFrames={DUR_EN059} fps={FPS_EN059} width={ANCHO} height={ALTO} />
         <Still id="pen-059-generator-garage" component={PortadaEn059} width={ANCHO} height={ALTO} />
+        <Composition id="hen-060-hot-water-hands" component={HotWaterEn060} durationInFrames={DUR_EN060} fps={FPS_EN060} width={ANCHO} height={ALTO} />
+        <Still id="pen-060-hot-water-hands" component={PortadaEn060} width={ANCHO} height={ALTO} />
         <Composition id="hen-034-alcohol-cook-off" component={AlcoholEn034} durationInFrames={DUR_EN034} fps={FPS_EN034} width={ANCHO} height={ALTO} />
         <Still id="pen-034-alcohol-cook-off" component={PortadaEn034} width={ANCHO} height={ALTO} />
         <Composition id="hen-035-turkey-stuffing" component={StuffingEn035} durationInFrames={DUR_EN035} fps={FPS_EN035} width={ANCHO} height={ALTO} />

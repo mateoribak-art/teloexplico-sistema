@@ -1,0 +1,25 @@
+{
+  "titulo": "¿Tirar un fideo contra la pared sirve para saber si está listo?",
+  "fondo": "oscuro",
+  "receta": "Mito + zoom adentro",
+  "pilar": "cocina",
+  "interaccion": ["comentar", "guardar"],
+  "destinatario": "se lo manda alguien al que tira los fideos contra la pared de la cocina, para decirle que mejor pruebe uno",
+  "regla_guardable": "Para saber si los fideos están listos: sacá uno, cortalo y probalo. La pared no avisa nada.",
+  "fuentes": [
+    "The Rachael Ray Show (Jeanette Donnarumma): la pasta hervida se pega a la pared esté cruda, a punto o pasada; la única forma segura es probarla",
+    "Barilla: el punto al dente se controla mordiendo un fideo"
+  ],
+  "frases": [
+    {"texto": "Tirás un fideo contra la pared para saber si está listo.", "estilo": "Seco, directo, con media sonrisa."},
+    {"texto": "Y la pared no te dice nada.", "estilo": "Seco y contundente."},
+    {"texto": "Un fideo hervido tiene almidón en la superficie, y eso lo vuelve pegajoso, esté listo o no.", "estilo": "Claro, didáctico."},
+    {"texto": "Según Jeanette Donnarumma, productora culinaria de un programa de cocina de Estados Unidos, se pega esté poco cocido, a punto o pasado.", "estilo": "Informativo, con autoridad."},
+    {"texto": "O sea que el fideo pegado no te dice si está al dente.", "estilo": "Con sorpresa."},
+    {"texto": "La fábrica de pasta Barilla recomienda otra cosa: morder un fideo.", "estilo": "Claro, práctico."},
+    {"texto": "Sacá uno con la cuchara, esperá que se enfríe un poco y probalo. Tiene que estar firme, pero tierno.", "estilo": "Claro, práctico."},
+    {"texto": "Guardalo: para saber si están listos, se prueba uno, no se tira.", "estilo": "Cercano, firme."},
+    {"texto": "¿Vos los tirás contra la pared? Contestá sí o no.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al que tiene la pared de la cocina manchada.", "estilo": "Cómplice, con humor."}
+  ]
+}
