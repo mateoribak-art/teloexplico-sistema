@@ -1,5 +1,14 @@
 [
  {
+  "id": "mvrgow9v-control",
+  "creado": "2026-10-27T22:54",
+  "estado": "fallo",
+  "firma": null,
+  "titulo": "Claude no pudo trabajar ahora",
+  "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
+  "actualizado": "2026-10-27T22:54"
+ },
+ {
   "id": "10272324-es-control",
   "creado": "2026-10-27T23:25",
   "estado": "fallo",
@@ -490,20 +499,17 @@
   "id": "11280022-en-voz",
   "creado": "2026-11-28T00:22",
   "empleado": "en/voz",
-  "firma": "373a19e66255",
-  "estado": "pedido",
+  "estado": "aplicado",
   "auto": true,
   "problema": "En la oficina de Nueva York (@letmeexplain.us), Leo (Locutor) está en \"aviso\": La voz no coincidió con el guion en en-057-tip-math.\nLo que sugiere la oficina: Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.\nTareas:\nen-057-tip-math: render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So \n",
-  "actualizado": "2026-11-28T00:22"
- },
- {
-  "id": "11280022-en-animador",
-  "creado": "2026-11-28T00:22",
-  "empleado": "en/animador",
-  "firma": "6ae93522c609",
-  "estado": "pedido",
-  "auto": true,
-  "problema": "En la oficina de Nueva York (@letmeexplain.us), Ava (Animación y render) está en \"falla\": Falló el render de en-057-tip-math.\nLo que sugiere la oficina: Relanzá la producción: los videos en estado render se vuelven a renderizar solos.\nTareas:\nen-057-tip-math: render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So what do you usually tip? Give me a perce\n",
-  "actualizado": "2026-11-28T00:22"
+  "firma": "373a19e66255",
+  "actualizado": "2026-11-28T00:23",
+  "titulo": "El control de voz rechazaba en-057-tip-math sin motivo; corregí el control y lo mandé a rehacer.",
+  "resumen": "La voz estaba bien. El control comparaba el texto de Whisper con el guion, y en las cuentas de propinas Whisper escribe \"$5\", \"20%\" y \"2.50\" donde el guion dice \"five dollars\", \"twenty percent\" y \"two fifty\". Por eso daba 87 % las dos veces. Cambié `herramientas/control.py` para que en inglés los números y sus unidades no cuenten en esa comparación. Volví el video a \"render\" en la cola en inglés. La próxima corrida lo renderiza y lo controla de nuevo, y si pasa queda \"listo\" y se publica con el ritmo normal.\nSolo pude leer el código y no correr el control: acá faltan las librerías de voz y el video no está en el repo. Si falla otra vez, el motivo va a aparecer en la cola.",
+  "commit": "85dc108a668008020fbaa4c33695fcf107434854",
+  "archivos": [
+   "herramientas/control.py",
+   "videos/en/cola.json"
+  ]
  }
 ]
