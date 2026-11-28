@@ -1,23 +1,5 @@
 [
  {
-  "id": "mvrbwmc3-carruseles",
-  "creado": "2026-10-27T20:41",
-  "estado": "fallo",
-  "firma": null,
-  "titulo": "Claude no pudo trabajar ahora",
-  "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
-  "actualizado": "2026-10-27T20:41"
- },
- {
-  "id": "mvrgow9v-control",
-  "creado": "2026-10-27T22:54",
-  "estado": "fallo",
-  "firma": null,
-  "titulo": "Claude no pudo trabajar ahora",
-  "resumen": "Claude se quedó sin cuota o no respondió. Se vuelve a intentar solo más tarde.",
-  "actualizado": "2026-10-27T22:54"
- },
- {
   "id": "10272324-es-control",
   "creado": "2026-10-27T23:25",
   "estado": "fallo",
@@ -503,5 +485,25 @@
   "actualizado": "2026-11-27T17:03",
   "titulo": "Bea frenó el video de la luz prendida/apagada y está bien que lo haya hecho; no cambié nada.",
   "resumen": "El video 083-luz-prendida-apagada no tenía una fuente primaria accesible: la página de energy.gov daba 404, y el tema toca el gasto de plata. Bea lo descartó y quedó \"apartado\" en la cola. Ya hay otro video, 083-brindis-copas, aprobado y en estado \"listo\", que ocupa su lugar y sigue su camino normal. Si más adelante se quiere rescatar el tema de la luz, hace falta otra fuente confiable que se pueda abrir. Por ahora no hace falta hacer nada."
+ },
+ {
+  "id": "11280022-en-voz",
+  "creado": "2026-11-28T00:22",
+  "empleado": "en/voz",
+  "firma": "373a19e66255",
+  "estado": "pedido",
+  "auto": true,
+  "problema": "En la oficina de Nueva York (@letmeexplain.us), Leo (Locutor) está en \"aviso\": La voz no coincidió con el guion en en-057-tip-math.\nLo que sugiere la oficina: Suele ser un falso rechazo del control (91–92 %). Si lo querés publicar igual, pasalo a listo.\nTareas:\nen-057-tip-math: render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So \n",
+  "actualizado": "2026-11-28T00:22"
+ },
+ {
+  "id": "11280022-en-animador",
+  "creado": "2026-11-28T00:22",
+  "empleado": "en/animador",
+  "firma": "6ae93522c609",
+  "estado": "pedido",
+  "auto": true,
+  "problema": "En la oficina de Nueva York (@letmeexplain.us), Ava (Animación y render) está en \"falla\": Falló el render de en-057-tip-math.\nLo que sugiere la oficina: Relanzá la producción: los videos en estado render se vuelven a renderizar solos.\nTareas:\nen-057-tip-math: render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So what do you usually tip? Give me a perce\n",
+  "actualizado": "2026-11-28T00:22"
  }
 ]
