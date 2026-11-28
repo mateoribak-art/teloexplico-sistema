@@ -1,0 +1,710 @@
+{
+ "duracion": 39.41,
+ "frases": [
+  {
+   "texto": "Your phone says forty percent, then it just dies in the cold.",
+   "palabras": [
+    {
+     "texto": "Your",
+     "inicio": 0.0,
+     "fin": 0.16
+    },
+    {
+     "texto": "phone",
+     "inicio": 0.16,
+     "fin": 0.42
+    },
+    {
+     "texto": "says",
+     "inicio": 0.42,
+     "fin": 0.64
+    },
+    {
+     "texto": "forty",
+     "inicio": 0.64,
+     "fin": 1.04
+    },
+    {
+     "texto": "percent,",
+     "inicio": 1.04,
+     "fin": 1.54
+    },
+    {
+     "texto": "then",
+     "inicio": 1.9,
+     "fin": 2.16
+    },
+    {
+     "texto": "it",
+     "inicio": 2.16,
+     "fin": 2.44
+    },
+    {
+     "texto": "just",
+     "inicio": 2.44,
+     "fin": 2.64
+    },
+    {
+     "texto": "dies",
+     "inicio": 2.64,
+     "fin": 3.4
+    },
+    {
+     "texto": "in",
+     "inicio": 3.4,
+     "fin": 3.62
+    },
+    {
+     "texto": "the",
+     "inicio": 3.62,
+     "fin": 3.7
+    },
+    {
+     "texto": "cold.",
+     "inicio": 3.7,
+     "fin": 3.98
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.98
+  },
+  {
+   "texto": "The cold can do that.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 4.4,
+     "fin": 4.56
+    },
+    {
+     "texto": "cold",
+     "inicio": 4.56,
+     "fin": 4.78
+    },
+    {
+     "texto": "can",
+     "inicio": 4.78,
+     "fin": 4.96
+    },
+    {
+     "texto": "do",
+     "inicio": 4.96,
+     "fin": 5.06
+    },
+    {
+     "texto": "that.",
+     "inicio": 5.06,
+     "fin": 5.26
+    }
+   ],
+   "inicio": 4.4,
+   "fin": 5.26
+  },
+  {
+   "texto": "Apple says iPhones are designed for temperatures between thirty-two and ninety-five degrees Fahrenheit.",
+   "palabras": [
+    {
+     "texto": "Apple",
+     "inicio": 6.04,
+     "fin": 6.36
+    },
+    {
+     "texto": "says",
+     "inicio": 6.36,
+     "fin": 6.58
+    },
+    {
+     "texto": "iPhones",
+     "inicio": 6.58,
+     "fin": 7.06
+    },
+    {
+     "texto": "are",
+     "inicio": 7.06,
+     "fin": 7.28
+    },
+    {
+     "texto": "designed",
+     "inicio": 7.28,
+     "fin": 7.58
+    },
+    {
+     "texto": "for",
+     "inicio": 7.58,
+     "fin": 7.78
+    },
+    {
+     "texto": "temperatures",
+     "inicio": 7.78,
+     "fin": 8.18
+    },
+    {
+     "texto": "between",
+     "inicio": 8.18,
+     "fin": 8.5
+    },
+    {
+     "texto": "thirty-two",
+     "inicio": 8.5,
+     "fin": 9.38
+    },
+    {
+     "texto": "and",
+     "inicio": 9.38,
+     "fin": 9.62
+    },
+    {
+     "texto": "ninety-five",
+     "inicio": 9.62,
+     "fin": 10.36
+    },
+    {
+     "texto": "degrees",
+     "inicio": 10.36,
+     "fin": 10.6
+    },
+    {
+     "texto": "Fahrenheit.",
+     "inicio": 10.6,
+     "fin": 11.08
+    }
+   ],
+   "inicio": 6.04,
+   "fin": 11.08
+  },
+  {
+   "texto": "In very cold conditions, the battery life can get temporarily shorter, and the phone could shut itself off.",
+   "palabras": [
+    {
+     "texto": "In",
+     "inicio": 11.6,
+     "fin": 11.8
+    },
+    {
+     "texto": "very",
+     "inicio": 11.8,
+     "fin": 11.98
+    },
+    {
+     "texto": "cold",
+     "inicio": 11.98,
+     "fin": 12.18
+    },
+    {
+     "texto": "conditions,",
+     "inicio": 12.18,
+     "fin": 12.64
+    },
+    {
+     "texto": "the",
+     "inicio": 12.64,
+     "fin": 13.0
+    },
+    {
+     "texto": "battery",
+     "inicio": 13.0,
+     "fin": 13.28
+    },
+    {
+     "texto": "life",
+     "inicio": 13.28,
+     "fin": 13.52
+    },
+    {
+     "texto": "can",
+     "inicio": 13.52,
+     "fin": 13.72
+    },
+    {
+     "texto": "get",
+     "inicio": 13.72,
+     "fin": 13.86
+    },
+    {
+     "texto": "temporarily",
+     "inicio": 13.86,
+     "fin": 14.54
+    },
+    {
+     "texto": "shorter,",
+     "inicio": 14.54,
+     "fin": 15.0
+    },
+    {
+     "texto": "and",
+     "inicio": 15.24,
+     "fin": 15.32
+    },
+    {
+     "texto": "the",
+     "inicio": 15.32,
+     "fin": 15.46
+    },
+    {
+     "texto": "phone",
+     "inicio": 15.46,
+     "fin": 15.7
+    },
+    {
+     "texto": "could",
+     "inicio": 15.7,
+     "fin": 15.92
+    },
+    {
+     "texto": "shut",
+     "inicio": 15.92,
+     "fin": 16.16
+    },
+    {
+     "texto": "itself",
+     "inicio": 16.16,
+     "fin": 16.38
+    },
+    {
+     "texto": "off.",
+     "inicio": 16.38,
+     "fin": 16.74
+    }
+   ],
+   "inicio": 11.6,
+   "fin": 16.74
+  },
+  {
+   "texto": "It might also stop charging.",
+   "palabras": [
+    {
+     "texto": "It",
+     "inicio": 17.18,
+     "fin": 17.28
+    },
+    {
+     "texto": "might",
+     "inicio": 17.28,
+     "fin": 17.36
+    },
+    {
+     "texto": "also",
+     "inicio": 17.36,
+     "fin": 17.58
+    },
+    {
+     "texto": "stop",
+     "inicio": 17.58,
+     "fin": 17.78
+    },
+    {
+     "texto": "charging.",
+     "inicio": 17.78,
+     "fin": 18.18
+    }
+   ],
+   "inicio": 17.18,
+   "fin": 18.18
+  },
+  {
+   "texto": "The good news: Apple says battery life returns to normal when the phone gets back to higher temperatures.",
+   "palabras": [
+    {
+     "texto": "The",
+     "inicio": 18.72,
+     "fin": 18.78
+    },
+    {
+     "texto": "good",
+     "inicio": 18.78,
+     "fin": 18.98
+    },
+    {
+     "texto": "news:",
+     "inicio": 18.98,
+     "fin": 19.18
+    },
+    {
+     "texto": "Apple",
+     "inicio": 19.7,
+     "fin": 20.0
+    },
+    {
+     "texto": "says",
+     "inicio": 20.0,
+     "fin": 20.24
+    },
+    {
+     "texto": "battery",
+     "inicio": 20.24,
+     "fin": 20.58
+    },
+    {
+     "texto": "life",
+     "inicio": 20.58,
+     "fin": 20.9
+    },
+    {
+     "texto": "returns",
+     "inicio": 20.9,
+     "fin": 21.22
+    },
+    {
+     "texto": "to",
+     "inicio": 21.22,
+     "fin": 21.5
+    },
+    {
+     "texto": "normal",
+     "inicio": 21.5,
+     "fin": 21.8
+    },
+    {
+     "texto": "when",
+     "inicio": 21.8,
+     "fin": 22.06
+    },
+    {
+     "texto": "the",
+     "inicio": 22.06,
+     "fin": 22.2
+    },
+    {
+     "texto": "phone",
+     "inicio": 22.2,
+     "fin": 22.44
+    },
+    {
+     "texto": "gets",
+     "inicio": 22.44,
+     "fin": 22.64
+    },
+    {
+     "texto": "back",
+     "inicio": 22.64,
+     "fin": 22.9
+    },
+    {
+     "texto": "to",
+     "inicio": 22.9,
+     "fin": 23.04
+    },
+    {
+     "texto": "higher",
+     "inicio": 23.04,
+     "fin": 23.28
+    },
+    {
+     "texto": "temperatures.",
+     "inicio": 23.28,
+     "fin": 23.86
+    }
+   ],
+   "inicio": 18.72,
+   "fin": 23.86
+  },
+  {
+   "texto": "Heads up: Apple also says not to leave your phone in a parked car, where the temperature can go outside that range.",
+   "palabras": [
+    {
+     "texto": "Heads",
+     "inicio": 24.4,
+     "fin": 24.68
+    },
+    {
+     "texto": "up:",
+     "inicio": 24.68,
+     "fin": 24.8
+    },
+    {
+     "texto": "Apple",
+     "inicio": 25.26,
+     "fin": 25.48
+    },
+    {
+     "texto": "also",
+     "inicio": 25.48,
+     "fin": 25.78
+    },
+    {
+     "texto": "says",
+     "inicio": 25.78,
+     "fin": 26.16
+    },
+    {
+     "texto": "not",
+     "inicio": 26.16,
+     "fin": 26.48
+    },
+    {
+     "texto": "to",
+     "inicio": 26.48,
+     "fin": 26.66
+    },
+    {
+     "texto": "leave",
+     "inicio": 26.66,
+     "fin": 26.82
+    },
+    {
+     "texto": "your",
+     "inicio": 26.82,
+     "fin": 27.02
+    },
+    {
+     "texto": "phone",
+     "inicio": 27.02,
+     "fin": 27.28
+    },
+    {
+     "texto": "in",
+     "inicio": 27.28,
+     "fin": 27.4
+    },
+    {
+     "texto": "a",
+     "inicio": 27.4,
+     "fin": 27.5
+    },
+    {
+     "texto": "parked",
+     "inicio": 27.5,
+     "fin": 27.76
+    },
+    {
+     "texto": "car,",
+     "inicio": 27.76,
+     "fin": 28.2
+    },
+    {
+     "texto": "where",
+     "inicio": 28.2,
+     "fin": 28.66
+    },
+    {
+     "texto": "the",
+     "inicio": 28.66,
+     "fin": 28.82
+    },
+    {
+     "texto": "temperature",
+     "inicio": 28.82,
+     "fin": 29.18
+    },
+    {
+     "texto": "can",
+     "inicio": 29.18,
+     "fin": 29.46
+    },
+    {
+     "texto": "go",
+     "inicio": 29.46,
+     "fin": 29.62
+    },
+    {
+     "texto": "outside",
+     "inicio": 29.62,
+     "fin": 29.9
+    },
+    {
+     "texto": "that",
+     "inicio": 29.9,
+     "fin": 30.2
+    },
+    {
+     "texto": "range.",
+     "inicio": 30.2,
+     "fin": 30.46
+    }
+   ],
+   "inicio": 24.4,
+   "fin": 30.46
+  },
+  {
+   "texto": "Save this for the next cold day.",
+   "palabras": [
+    {
+     "texto": "Save",
+     "inicio": 30.98,
+     "fin": 31.22
+    },
+    {
+     "texto": "this",
+     "inicio": 31.22,
+     "fin": 31.42
+    },
+    {
+     "texto": "for",
+     "inicio": 31.42,
+     "fin": 31.58
+    },
+    {
+     "texto": "the",
+     "inicio": 31.58,
+     "fin": 31.68
+    },
+    {
+     "texto": "next",
+     "inicio": 31.68,
+     "fin": 31.82
+    },
+    {
+     "texto": "cold",
+     "inicio": 31.82,
+     "fin": 32.04
+    },
+    {
+     "texto": "day.",
+     "inicio": 32.04,
+     "fin": 32.26
+    }
+   ],
+   "inicio": 30.98,
+   "fin": 32.26
+  },
+  {
+   "texto": "What percent was your phone at the last time it died in the cold?",
+   "palabras": [
+    {
+     "texto": "What",
+     "inicio": 32.82,
+     "fin": 32.96
+    },
+    {
+     "texto": "percent",
+     "inicio": 32.96,
+     "fin": 33.28
+    },
+    {
+     "texto": "was",
+     "inicio": 33.28,
+     "fin": 33.46
+    },
+    {
+     "texto": "your",
+     "inicio": 33.46,
+     "fin": 33.68
+    },
+    {
+     "texto": "phone",
+     "inicio": 33.68,
+     "fin": 33.94
+    },
+    {
+     "texto": "at",
+     "inicio": 33.94,
+     "fin": 34.12
+    },
+    {
+     "texto": "the",
+     "inicio": 34.12,
+     "fin": 34.3
+    },
+    {
+     "texto": "last",
+     "inicio": 34.3,
+     "fin": 34.5
+    },
+    {
+     "texto": "time",
+     "inicio": 34.5,
+     "fin": 34.7
+    },
+    {
+     "texto": "it",
+     "inicio": 34.7,
+     "fin": 34.8
+    },
+    {
+     "texto": "died",
+     "inicio": 34.8,
+     "fin": 35.04
+    },
+    {
+     "texto": "in",
+     "inicio": 35.04,
+     "fin": 35.22
+    },
+    {
+     "texto": "the",
+     "inicio": 35.22,
+     "fin": 35.3
+    },
+    {
+     "texto": "cold?",
+     "inicio": 35.3,
+     "fin": 35.5
+    }
+   ],
+   "inicio": 32.82,
+   "fin": 35.5
+  },
+  {
+   "texto": "Send this to the friend whose phone always dies at the worst moment.",
+   "palabras": [
+    {
+     "texto": "Send",
+     "inicio": 36.04,
+     "fin": 36.26
+    },
+    {
+     "texto": "this",
+     "inicio": 36.26,
+     "fin": 36.42
+    },
+    {
+     "texto": "to",
+     "inicio": 36.42,
+     "fin": 36.56
+    },
+    {
+     "texto": "the",
+     "inicio": 36.56,
+     "fin": 36.64
+    },
+    {
+     "texto": "friend",
+     "inicio": 36.64,
+     "fin": 36.9
+    },
+    {
+     "texto": "whose",
+     "inicio": 36.9,
+     "fin": 37.06
+    },
+    {
+     "texto": "phone",
+     "inicio": 37.06,
+     "fin": 37.28
+    },
+    {
+     "texto": "always",
+     "inicio": 37.28,
+     "fin": 37.84
+    },
+    {
+     "texto": "dies",
+     "inicio": 37.84,
+     "fin": 38.22
+    },
+    {
+     "texto": "at",
+     "inicio": 38.22,
+     "fin": 38.5
+    },
+    {
+     "texto": "the",
+     "inicio": 38.5,
+     "fin": 38.62
+    },
+    {
+     "texto": "worst",
+     "inicio": 38.62,
+     "fin": 38.9
+    },
+    {
+     "texto": "moment.",
+     "inicio": 38.9,
+     "fin": 39.24
+    }
+   ],
+   "inicio": 36.04,
+   "fin": 39.24
+  }
+ ]
+}

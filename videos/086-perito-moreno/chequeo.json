@@ -1,0 +1,72 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Las cifras clave (0,34 m/año 2000-2019 y 5,5 m/año 2019-2024) figuran en el resumen del propio paper (registro DLR elib.dlr.de/218638) como descenso de la superficie del hielo en el frente (frontal surface lowering), junto con aceleración y retroceso del glaciar. Las demás afirmaciones tienen respaldo en el paper, el comunicado de FAU y el artículo de Glasser. No hay temas de salud, seguridad ni plata, ninguna afirmación falsa ni dudosa, y no hay anécdotas. Limitación: no pude abrir el texto completo (nature.com pide login, el PDF de DLR salió ilegible); las cifras se confirmaron en el resumen del repositorio DLR y en el resumen de Nature Asia. Sugerencia opcional, no obligatoria: decir 'en promedio' para los 5,5 m (Nature: 'promedio de hasta 5,5 m/año hacia el frente').",
+  "afirmaciones": [
+    {
+      "texto": "Te enseñaron que el Perito Moreno es el glaciar que no se derrite. (guion y caption)",
+      "fuente": "Encuadre retórico; la base es que fue considerado estable: resumen del paper (elib.dlr.de/218638) y Glasser, aber.ac.uk/en/news/archive/2025/08/title-282694-en.html",
+      "estado": "probable",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ya no es así. / Lo que cambió es que ya no está quieto.",
+      "fuente": "Resumen del paper: aceleración y retroceso recientes (elib.dlr.de/218638); Glasser: 'fase de retroceso muy rápido y probablemente irreversible'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Durante décadas fue de los pocos glaciares estables de la Patagonia.",
+      "fuente": "Resumen del paper ('long considered stable', elib.dlr.de/218638); Glasser en aber.ac.uk ('one of Patagonia's few stable glaciers')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Un estudio de investigadores de Alemania y Argentina, publicado en dos mil veinticinco",
+      "fuente": "Koch et al., Commun. Earth Environ. 6:572, agosto 2025, DOI 10.1038/s43247-025-02515-7; autores de FAU Erlangen y DLR (Alemania) y Skvarca y Ruiz (Argentina); aber.ac.uk lo atribuye a un equipo de Alemania y Argentina",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "midió cuánto baja la superficie del hielo en el frente",
+      "fuente": "Resumen del paper: 'frontal surface lowering' (elib.dlr.de/218638); Nature Asia natureasia.com/ja-jp/research/highlight/15307",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Entre 2000 y 2019: 0,34 m/año (34 cm por año)",
+      "fuente": "Resumen del paper en elib.dlr.de/218638 ('0.34 m/a (2000-2019)'); Nature Asia; Noticias Ambientales",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Entre 2019 y 2024: 5,5 m/año",
+      "fuente": "Resumen del paper en elib.dlr.de/218638; Nature Asia; búsqueda indica que el paper dice 'promedio de hasta 5,5 m/año' hacia el frente y FAU da 5,5 a 6,5",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Son unas dieciséis veces más rápido",
+      "fuente": "Cálculo 5,5/0,34 = 16,2; Nature Asia ('más de 16 veces'); comunicado FAU ('unas 16 veces')",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "el glaciar además se mueve más rápido y retrocede",
+      "fuente": "Resumen del paper: 'alongside glacier acceleration and retreat' (elib.dlr.de/218638)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Ojo: sigue ahí y sigue siendo enorme.",
+      "fuente": "Glasser en aber.ac.uk y cobertura del paper: el glaciar sigue existiendo y es de gran tamaño (unos 30 km de largo); el paper habla de retroceso, no de desaparición",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Caption: revista Communications Earth & Environment; Fuentes: Koch et al. 2025; Universidad de Aberystwyth, 2025",
+      "fuente": "nature.com/articles/s43247-025-02515-7; aber.ac.uk/en/news/archive/2025/08/title-282694-en.html (artículo de Glasser, republicado de The Conversation; la página no indica su afiliación)",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

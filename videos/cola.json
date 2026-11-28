@@ -3128,5 +3128,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "086-perito-moreno",
+  "tema": "¿El Perito Moreno es un glaciar estable? Era de los pocos; ahora retrocede (Koch et al. 2025, Communications Earth & Environment)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-28T09:11",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-28T09:11",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-28T09:16",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-28T09:34",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

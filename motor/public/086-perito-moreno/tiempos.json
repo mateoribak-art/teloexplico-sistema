@@ -1,0 +1,740 @@
+{
+ "duracion": 44.46,
+ "frases": [
+  {
+   "texto": "Te enseñaron que el Perito Moreno es el glaciar que no se derrite.",
+   "palabras": [
+    {
+     "texto": "Te",
+     "inicio": 0.0,
+     "fin": 0.08
+    },
+    {
+     "texto": "enseñaron",
+     "inicio": 0.08,
+     "fin": 0.48
+    },
+    {
+     "texto": "que",
+     "inicio": 0.48,
+     "fin": 0.66
+    },
+    {
+     "texto": "el",
+     "inicio": 0.66,
+     "fin": 0.8
+    },
+    {
+     "texto": "Perito",
+     "inicio": 0.8,
+     "fin": 1.08
+    },
+    {
+     "texto": "Moreno",
+     "inicio": 1.08,
+     "fin": 1.48
+    },
+    {
+     "texto": "es",
+     "inicio": 1.48,
+     "fin": 1.66
+    },
+    {
+     "texto": "el",
+     "inicio": 1.66,
+     "fin": 1.8
+    },
+    {
+     "texto": "glaciar",
+     "inicio": 1.8,
+     "fin": 2.2
+    },
+    {
+     "texto": "que",
+     "inicio": 2.2,
+     "fin": 2.42
+    },
+    {
+     "texto": "no",
+     "inicio": 2.42,
+     "fin": 2.66
+    },
+    {
+     "texto": "se",
+     "inicio": 2.66,
+     "fin": 2.84
+    },
+    {
+     "texto": "derrite.",
+     "inicio": 2.84,
+     "fin": 3.22
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 3.22
+  },
+  {
+   "texto": "Ya no es así.",
+   "palabras": [
+    {
+     "texto": "Ya",
+     "inicio": 3.82,
+     "fin": 4.2
+    },
+    {
+     "texto": "no",
+     "inicio": 4.2,
+     "fin": 4.32
+    },
+    {
+     "texto": "es",
+     "inicio": 4.32,
+     "fin": 4.46
+    },
+    {
+     "texto": "así.",
+     "inicio": 4.46,
+     "fin": 4.68
+    }
+   ],
+   "inicio": 3.82,
+   "fin": 4.68
+  },
+  {
+   "texto": "Durante décadas fue de los pocos glaciares estables de la Patagonia.",
+   "palabras": [
+    {
+     "texto": "Durante",
+     "inicio": 5.2,
+     "fin": 5.54
+    },
+    {
+     "texto": "décadas",
+     "inicio": 5.54,
+     "fin": 5.92
+    },
+    {
+     "texto": "fue",
+     "inicio": 5.92,
+     "fin": 6.28
+    },
+    {
+     "texto": "de",
+     "inicio": 6.28,
+     "fin": 6.4
+    },
+    {
+     "texto": "los",
+     "inicio": 6.4,
+     "fin": 6.5
+    },
+    {
+     "texto": "pocos",
+     "inicio": 6.5,
+     "fin": 6.82
+    },
+    {
+     "texto": "glaciares",
+     "inicio": 6.82,
+     "fin": 7.26
+    },
+    {
+     "texto": "estables",
+     "inicio": 7.26,
+     "fin": 7.62
+    },
+    {
+     "texto": "de",
+     "inicio": 7.62,
+     "fin": 7.76
+    },
+    {
+     "texto": "la",
+     "inicio": 7.76,
+     "fin": 7.86
+    },
+    {
+     "texto": "Patagonia.",
+     "inicio": 7.86,
+     "fin": 8.42
+    }
+   ],
+   "inicio": 5.2,
+   "fin": 8.42
+  },
+  {
+   "texto": "Un estudio de investigadores de Alemania y Argentina, publicado en dos mil veinticinco, midió cuánto baja la superficie del hielo en el frente.",
+   "palabras": [
+    {
+     "texto": "Un",
+     "inicio": 8.88,
+     "fin": 9.02
+    },
+    {
+     "texto": "estudio",
+     "inicio": 9.02,
+     "fin": 9.26
+    },
+    {
+     "texto": "de",
+     "inicio": 9.26,
+     "fin": 9.5
+    },
+    {
+     "texto": "investigadores",
+     "inicio": 9.5,
+     "fin": 10.1
+    },
+    {
+     "texto": "de",
+     "inicio": 10.1,
+     "fin": 10.28
+    },
+    {
+     "texto": "Alemania",
+     "inicio": 10.28,
+     "fin": 10.68
+    },
+    {
+     "texto": "y",
+     "inicio": 10.68,
+     "fin": 10.9
+    },
+    {
+     "texto": "Argentina,",
+     "inicio": 10.9,
+     "fin": 11.26
+    },
+    {
+     "texto": "publicado",
+     "inicio": 11.68,
+     "fin": 12.1
+    },
+    {
+     "texto": "en",
+     "inicio": 12.1,
+     "fin": 12.24
+    },
+    {
+     "texto": "dos",
+     "inicio": 12.24,
+     "fin": 12.34
+    },
+    {
+     "texto": "mil",
+     "inicio": 12.34,
+     "fin": 12.48
+    },
+    {
+     "texto": "veinticinco,",
+     "inicio": 12.48,
+     "fin": 13.04
+    },
+    {
+     "texto": "midió",
+     "inicio": 13.58,
+     "fin": 13.9
+    },
+    {
+     "texto": "cuánto",
+     "inicio": 13.9,
+     "fin": 14.44
+    },
+    {
+     "texto": "baja",
+     "inicio": 14.44,
+     "fin": 14.62
+    },
+    {
+     "texto": "la",
+     "inicio": 14.62,
+     "fin": 14.76
+    },
+    {
+     "texto": "superficie",
+     "inicio": 14.76,
+     "fin": 15.28
+    },
+    {
+     "texto": "del",
+     "inicio": 15.28,
+     "fin": 15.46
+    },
+    {
+     "texto": "hielo",
+     "inicio": 15.46,
+     "fin": 15.72
+    },
+    {
+     "texto": "en",
+     "inicio": 15.72,
+     "fin": 15.82
+    },
+    {
+     "texto": "el",
+     "inicio": 15.82,
+     "fin": 15.92
+    },
+    {
+     "texto": "frente.",
+     "inicio": 15.92,
+     "fin": 16.2
+    }
+   ],
+   "inicio": 8.88,
+   "fin": 16.2
+  },
+  {
+   "texto": "Entre el dos mil y el dos mil diecinueve: treinta y cuatro centímetros por año.",
+   "palabras": [
+    {
+     "texto": "Entre",
+     "inicio": 16.76,
+     "fin": 17.0
+    },
+    {
+     "texto": "el",
+     "inicio": 17.0,
+     "fin": 17.18
+    },
+    {
+     "texto": "dos",
+     "inicio": 17.18,
+     "fin": 17.3
+    },
+    {
+     "texto": "mil",
+     "inicio": 17.3,
+     "fin": 17.52
+    },
+    {
+     "texto": "y",
+     "inicio": 17.52,
+     "fin": 17.68
+    },
+    {
+     "texto": "el",
+     "inicio": 17.68,
+     "fin": 17.76
+    },
+    {
+     "texto": "dos",
+     "inicio": 17.76,
+     "fin": 17.86
+    },
+    {
+     "texto": "mil",
+     "inicio": 17.86,
+     "fin": 17.98
+    },
+    {
+     "texto": "diecinueve:",
+     "inicio": 17.98,
+     "fin": 18.48
+    },
+    {
+     "texto": "treinta",
+     "inicio": 18.98,
+     "fin": 19.24
+    },
+    {
+     "texto": "y",
+     "inicio": 19.24,
+     "fin": 19.34
+    },
+    {
+     "texto": "cuatro",
+     "inicio": 19.34,
+     "fin": 19.58
+    },
+    {
+     "texto": "centímetros",
+     "inicio": 19.58,
+     "fin": 20.26
+    },
+    {
+     "texto": "por",
+     "inicio": 20.26,
+     "fin": 20.52
+    },
+    {
+     "texto": "año.",
+     "inicio": 20.52,
+     "fin": 20.72
+    }
+   ],
+   "inicio": 16.76,
+   "fin": 20.72
+  },
+  {
+   "texto": "Entre dos mil diecinueve y dos mil veinticuatro: cinco metros y medio por año.",
+   "palabras": [
+    {
+     "texto": "Entre",
+     "inicio": 21.12,
+     "fin": 21.44
+    },
+    {
+     "texto": "dos",
+     "inicio": 21.44,
+     "fin": 21.66
+    },
+    {
+     "texto": "mil",
+     "inicio": 21.66,
+     "fin": 21.84
+    },
+    {
+     "texto": "diecinueve",
+     "inicio": 21.84,
+     "fin": 22.52
+    },
+    {
+     "texto": "y",
+     "inicio": 22.52,
+     "fin": 22.78
+    },
+    {
+     "texto": "dos",
+     "inicio": 22.78,
+     "fin": 22.94
+    },
+    {
+     "texto": "mil",
+     "inicio": 22.94,
+     "fin": 23.14
+    },
+    {
+     "texto": "veinticuatro:",
+     "inicio": 23.14,
+     "fin": 23.96
+    },
+    {
+     "texto": "cinco",
+     "inicio": 24.64,
+     "fin": 24.94
+    },
+    {
+     "texto": "metros",
+     "inicio": 24.94,
+     "fin": 25.3
+    },
+    {
+     "texto": "y",
+     "inicio": 25.3,
+     "fin": 25.54
+    },
+    {
+     "texto": "medio",
+     "inicio": 25.54,
+     "fin": 25.76
+    },
+    {
+     "texto": "por",
+     "inicio": 25.76,
+     "fin": 26.02
+    },
+    {
+     "texto": "año.",
+     "inicio": 26.02,
+     "fin": 26.36
+    }
+   ],
+   "inicio": 21.12,
+   "fin": 26.36
+  },
+  {
+   "texto": "Son unas dieciséis veces más rápido, y el glaciar además se mueve más rápido y retrocede.",
+   "palabras": [
+    {
+     "texto": "Son",
+     "inicio": 26.94,
+     "fin": 27.18
+    },
+    {
+     "texto": "unas",
+     "inicio": 27.18,
+     "fin": 27.4
+    },
+    {
+     "texto": "dieciséis",
+     "inicio": 27.4,
+     "fin": 27.9
+    },
+    {
+     "texto": "veces",
+     "inicio": 27.9,
+     "fin": 28.14
+    },
+    {
+     "texto": "más",
+     "inicio": 28.14,
+     "fin": 28.36
+    },
+    {
+     "texto": "rápido,",
+     "inicio": 28.36,
+     "fin": 28.7
+    },
+    {
+     "texto": "y",
+     "inicio": 29.18,
+     "fin": 29.4
+    },
+    {
+     "texto": "el",
+     "inicio": 29.4,
+     "fin": 29.5
+    },
+    {
+     "texto": "glaciar",
+     "inicio": 29.5,
+     "fin": 29.9
+    },
+    {
+     "texto": "además",
+     "inicio": 29.9,
+     "fin": 30.18
+    },
+    {
+     "texto": "se",
+     "inicio": 30.18,
+     "fin": 30.64
+    },
+    {
+     "texto": "mueve",
+     "inicio": 30.64,
+     "fin": 30.92
+    },
+    {
+     "texto": "más",
+     "inicio": 30.92,
+     "fin": 31.04
+    },
+    {
+     "texto": "rápido",
+     "inicio": 31.04,
+     "fin": 31.4
+    },
+    {
+     "texto": "y",
+     "inicio": 31.4,
+     "fin": 31.82
+    },
+    {
+     "texto": "retrocede.",
+     "inicio": 31.82,
+     "fin": 32.44
+    }
+   ],
+   "inicio": 26.94,
+   "fin": 32.44
+  },
+  {
+   "texto": "Ojo: sigue ahí y sigue siendo enorme. Lo que cambió es que ya no está quieto.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 33.04,
+     "fin": 33.3
+    },
+    {
+     "texto": "sigue",
+     "inicio": 33.5,
+     "fin": 33.84
+    },
+    {
+     "texto": "ahí",
+     "inicio": 33.84,
+     "fin": 34.2
+    },
+    {
+     "texto": "y",
+     "inicio": 34.2,
+     "fin": 34.62
+    },
+    {
+     "texto": "sigue",
+     "inicio": 34.62,
+     "fin": 34.88
+    },
+    {
+     "texto": "siendo",
+     "inicio": 34.88,
+     "fin": 35.14
+    },
+    {
+     "texto": "enorme.",
+     "inicio": 35.14,
+     "fin": 35.5
+    },
+    {
+     "texto": "Lo",
+     "inicio": 36.14,
+     "fin": 36.22
+    },
+    {
+     "texto": "que",
+     "inicio": 36.22,
+     "fin": 36.32
+    },
+    {
+     "texto": "cambió",
+     "inicio": 36.32,
+     "fin": 36.66
+    },
+    {
+     "texto": "es",
+     "inicio": 36.66,
+     "fin": 36.78
+    },
+    {
+     "texto": "que",
+     "inicio": 36.78,
+     "fin": 36.98
+    },
+    {
+     "texto": "ya",
+     "inicio": 36.98,
+     "fin": 37.46
+    },
+    {
+     "texto": "no",
+     "inicio": 37.46,
+     "fin": 37.56
+    },
+    {
+     "texto": "está",
+     "inicio": 37.56,
+     "fin": 37.74
+    },
+    {
+     "texto": "quieto.",
+     "inicio": 37.74,
+     "fin": 38.26
+    }
+   ],
+   "inicio": 33.04,
+   "fin": 38.26
+  },
+  {
+   "texto": "¿Qué año lo viste vos? Contestá con el año.",
+   "palabras": [
+    {
+     "texto": "¿Qué",
+     "inicio": 38.72,
+     "fin": 38.82
+    },
+    {
+     "texto": "año",
+     "inicio": 38.82,
+     "fin": 39.02
+    },
+    {
+     "texto": "lo",
+     "inicio": 39.02,
+     "fin": 39.16
+    },
+    {
+     "texto": "viste",
+     "inicio": 39.16,
+     "fin": 39.36
+    },
+    {
+     "texto": "vos?",
+     "inicio": 39.36,
+     "fin": 39.54
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 40.12,
+     "fin": 40.48
+    },
+    {
+     "texto": "con",
+     "inicio": 40.48,
+     "fin": 40.62
+    },
+    {
+     "texto": "el",
+     "inicio": 40.62,
+     "fin": 40.74
+    },
+    {
+     "texto": "año.",
+     "inicio": 40.74,
+     "fin": 40.94
+    }
+   ],
+   "inicio": 38.72,
+   "fin": 40.94
+  },
+  {
+   "texto": "Mandáselo al que dice que el Perito Moreno va a estar siempre.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 41.56,
+     "fin": 42.08
+    },
+    {
+     "texto": "al",
+     "inicio": 42.08,
+     "fin": 42.14
+    },
+    {
+     "texto": "que",
+     "inicio": 42.14,
+     "fin": 42.3
+    },
+    {
+     "texto": "dice",
+     "inicio": 42.3,
+     "fin": 42.56
+    },
+    {
+     "texto": "que",
+     "inicio": 42.56,
+     "fin": 42.74
+    },
+    {
+     "texto": "el",
+     "inicio": 42.74,
+     "fin": 42.86
+    },
+    {
+     "texto": "Perito",
+     "inicio": 42.86,
+     "fin": 43.18
+    },
+    {
+     "texto": "Moreno",
+     "inicio": 43.18,
+     "fin": 43.54
+    },
+    {
+     "texto": "va",
+     "inicio": 43.54,
+     "fin": 43.66
+    },
+    {
+     "texto": "a",
+     "inicio": 43.66,
+     "fin": 43.74
+    },
+    {
+     "texto": "estar",
+     "inicio": 43.74,
+     "fin": 43.86
+    },
+    {
+     "texto": "siempre.",
+     "inicio": 43.86,
+     "fin": 44.32
+    }
+   ],
+   "inicio": 41.56,
+   "fin": 44.32
+  }
+ ]
+}

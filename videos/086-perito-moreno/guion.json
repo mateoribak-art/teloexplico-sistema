@@ -1,0 +1,25 @@
+{
+  "titulo": "El Perito Moreno ya no es el glaciar que no se derretía",
+  "fondo": "oscuro",
+  "receta": "Argentina en datos + experimento real con fuente en pantalla",
+  "pilar": "argentina",
+  "interaccion": ["comentar"],
+  "destinatario": "se lo manda uno que fue de chico al Perito Moreno a otro que dice 'algún día voy' para decirle que ya no es el mismo glaciar",
+  "regla_guardable": "Frente del glaciar: bajaba 0,34 metros por año (2000-2019) y pasó a 5,5 metros por año (2019-2024).",
+  "fuentes": [
+    "Koch et al. 2025, The state and fate of Glaciar Perito Moreno, Patagonia, Communications Earth & Environment",
+    "Universidad de Aberystwyth (Neil Glasser), 2025"
+  ],
+  "frases": [
+    {"texto": "Te enseñaron que el Perito Moreno es el glaciar que no se derrite.", "estilo": "Seco, directo, con media sonrisa."},
+    {"texto": "Ya no es así.", "estilo": "Seco y contundente."},
+    {"texto": "Durante décadas fue de los pocos glaciares estables de la Patagonia.", "estilo": "Claro, con ritmo."},
+    {"texto": "Un estudio de investigadores de Alemania y Argentina, publicado en dos mil veinticinco, midió cuánto baja la superficie del hielo en el frente.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Entre el dos mil y el dos mil diecinueve: treinta y cuatro centímetros por año.", "estilo": "Claro, didáctico."},
+    {"texto": "Entre dos mil diecinueve y dos mil veinticuatro: cinco metros y medio por año.", "estilo": "Con sorpresa."},
+    {"texto": "Son unas dieciséis veces más rápido, y el glaciar además se mueve más rápido y retrocede.", "estilo": "Contundente, con ritmo."},
+    {"texto": "Ojo: sigue ahí y sigue siendo enorme. Lo que cambió es que ya no está quieto.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "¿Qué año lo viste vos? Contestá con el año.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al que dice que el Perito Moreno va a estar siempre.", "estilo": "Cómplice, con humor."}
+  ]
+}

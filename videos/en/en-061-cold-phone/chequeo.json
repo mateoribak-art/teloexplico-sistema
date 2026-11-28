@@ -1,0 +1,48 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones fácticas (salud/seguridad incluidas) coinciden con la página de Apple Support 'If your iPhone or iPad gets too hot or too cold' (https://support.apple.com/en-us/ht201678) y están atribuidas a Apple con el matiz correcto (might/could, temporarily). Unidades °F confirmadas: 0-35 °C = 32-95 °F. No hay afirmaciones falsas, dudosas ni sin fuente. Nota menor sin impacto: 'dies at 40%' es la premisa gancho (experiencia cotidiana), no una afirmación de dato; el guion no promete explicar el mecanismo.",
+  "afirmaciones": [
+    {
+      "texto": "Apple says iPhones are designed for temperatures between 32 and 95 °F (guion: thirty-two and ninety-five degrees Fahrenheit; guardable: 32 to 95 F)",
+      "fuente": "Apple Support, https://support.apple.com/en-us/ht201678: 'between 0º and 35º C (32º to 95º F)'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "In very cold conditions, battery life can get temporarily shorter and the phone could shut itself off",
+      "fuente": "Apple Support, ht201678: 'might temporarily shorten battery life and could cause your device to turn off'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "It might also stop charging",
+      "fuente": "Apple Support, ht201678: 'might not charge or could stop charging'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Apple says battery life returns to normal when the phone gets back to higher temperatures",
+      "fuente": "Apple Support, ht201678: 'Battery life will return to normal when you bring your device back to higher ambient temperatures'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Apple also says not to leave your phone in a parked car, where the temperature can go outside that range",
+      "fuente": "Apple Support, ht201678: 'Don't leave your device in a car, because temperatures in parked cars can exceed this range'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Regla guardable: 'iPhones are designed for 32 to 95 F. Too cold: battery life can get shorter and it can shut off. Warm it up and battery life returns to normal.' / caption: 'very cold = shorter battery life or shutoff · warm back up = back to normal'",
+      "fuente": "Apple Support, ht201678 (resumen de los puntos anteriores)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Atribución y fuente citada: 'Apple Support (If your iPhone or iPad gets too hot or too cold)'",
+      "fuente": "Título de la página ht201678, confirmado",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

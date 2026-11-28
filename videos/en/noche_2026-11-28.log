@@ -8,3 +8,13 @@ Uso: 20 pasos · 15,682 tokens nuevos · 1,068,100 de caché · 4,116 escritos �
 2026-11-28 01:03 Render de en-060-hot-water-hands (sin Claude).
 2026-11-28 01:08 en-060-hot-water-hands: listo (render sin Claude)
 2026-11-28 01:08 Termina la producción (ok).
+2026-11-28 09:34 Arranca la producción (21 listos en la cola, meta 6; hay un pedido de Mateo sin hacer).
+**Listo:** `en-061-cold-phone` (celular y frío; fuente: Apple Support) quedó en estado `render` y lo renderiza `producir.py`. El chequeo lo rechazó la primera vez y lo aprobó en el segundo intento, después de sacar tres frases sin respaldo de Apple. La voz, el `tsc` y la revisión de cuadros salieron bien.
+**Apartados:** ninguno por chequeo para rescatar. En el log figura `en-057-tip-math` apartado por voz, pero en `tlx cola` ya figura `listo`.
+**Incompleto:** nada. El radar no encontró un tema de actualidad con fecha, así que el video es propio. En los cuadros finales el celular queda algo descentrado en un plano, pero se ve bien.
+Uso: 60 pasos · 86,691 tokens nuevos · 2,104,692 de caché · 20,136 escritos · equivale a US$ 0.97 de API
+Permisos negados (1):
+  Bash: {"command": "cd /home/runner/work/teloexplico-sistema/teloexplico-sistema/videos/en/en-061-cold-phone; cat > chequeo.json <<'EOF'\n{\n  \"veredicto\":
+2026-11-28 09:40 Render de en-061-cold-phone (sin Claude).
+2026-11-28 09:48 en-061-cold-phone: listo (render sin Claude)
+2026-11-28 09:48 Termina la producción (ok).

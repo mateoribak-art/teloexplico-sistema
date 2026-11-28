@@ -1996,5 +1996,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "en-061-cold-phone",
+  "tema": "Why does your phone die in the cold? (Apple: 32-95 F; own; ciencia)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-28T09:35",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-28T09:35",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-28T09:40",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-28T09:48",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

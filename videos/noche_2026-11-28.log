@@ -14,3 +14,16 @@ Permisos negados (1):
 `serie-cuerpo-1` — listo. Es una recopilación de "Mitos del cuerpo" con 4 reels publicados (002, 013, 032, 064), 7 placas, y salió listo tras corregir un primer rechazo.
 Uso: 25 pasos · 33,875 tokens nuevos · 485,576 de caché · 4,675 escritos · equivale a US$ 0.23 de API
 2026-11-28 00:54 Termina el carrusel (ok; quedan 2 listos).
+2026-11-28 09:09 Arranca la producción (20 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+Quedó listo para render `086-perito-moreno`; el render y el control los hace el proceso nocturno, así que todavía no está en `listo`. El video explica que el Perito Moreno era de los pocos glaciares estables de la Patagonia y que hoy retrocede (Koch y otros, 2025). Lo producí con voz de 44,5 s y escenas 3D, y el chequeo lo aprobó al primer intento.
+
+- **Rescates:** no hubo ninguno posible. Los apartados 005, 038, 042, 044, 051 y 083-luz no están así por "chequeo rechazado" (faltaba el mp4, venció la actualidad o se descartó por falta de fuente).
+- **Qué dice el video:** el descenso de la superficie del hielo en el frente pasó de 0,34 m/año (2000–2019) a 5,5 m/año (2019–2024), unas 16 veces más rápido. La pregunta para comentar es "¿Qué año lo viste vos?". El chequeo no pudo abrir el texto completo del estudio; confirmó las cifras en el resumen del repositorio DLR y en resúmenes secundarios.
+- **Segundo video:** no lo produje porque había 20 listos en la cola, contra el umbral de 10.
+- **Visual:** las escenas pasaron `tlx tsc` sin errores y quedaron tras dos vueltas de revisión de cuadros.
+
+Dejé anotado el turno en `videos/produccion.log`, con el ritmo de seguidores (~+22/día contra ~+95/día necesarios, sin medir de nuevo).
+Uso: 24 pasos · 21,333 tokens nuevos · 1,413,059 de caché · 8,756 escritos · equivale a US$ 1.18 de API
+2026-11-28 09:16 Render de 086-perito-moreno (sin Claude).
+2026-11-28 09:34 086-perito-moreno: listo (render sin Claude)
+2026-11-28 09:34 Termina la producción (ok).

@@ -84,6 +84,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 ## Temas de EE. UU. — serie: ciencia (Everyday science)
 - [usada → en-025-dog-hot-car] Dog in the car for a minute with the window cracked (Pediatrics 2005, pillar pets)
 - [usada → en-045-car-warmup] Do you need to warm up your car in winter? (fueleconomy.gov: ~30 s)
+- [usada → en-061-cold-phone] Why does your phone die in the cold? (Apple Support: 32–95 °F)
 - [ ] Does hot water freeze faster than cold? (Mpemba effect: evidence is mixed → "scientists still argue")
 - [ ] Why is the sky blue but sunsets orange?
 - [usada → en-022-ears-pop] Why do your ears pop on a plane?

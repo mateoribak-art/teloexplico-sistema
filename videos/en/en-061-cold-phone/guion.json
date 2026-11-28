@@ -1,0 +1,26 @@
+{
+  "titulo": "Why does your phone die at 40% in the cold? (Apple: designed for 32 to 95 F; battery recovers when warmed)",
+  "pilar": "celular",
+  "receta": "error cotidiano con regla para guardar (rango de temperatura) + pregunta de una palabra",
+  "fondo": "oscuro",
+  "destinatario": "Se lo manda alguien cuyo celular se apagó en la fila del recital a su amigo que dice que la batería está rota.",
+  "interaccion": {
+    "guardar": "iPhones are designed for 32 to 95 F. Too cold: battery life can get shorter and it can shut off. Warm it up and battery life returns to normal.",
+    "comentar": "What percent was your phone at when it last died in the cold?"
+  },
+  "fuentes": [
+    "Apple Support, If your iPhone or iPad gets too hot or too cold"
+  ],
+  "frases": [
+    {"texto": "Your phone says forty percent, then it just dies in the cold.", "estilo": "Casual, a little teasing."},
+    {"texto": "The cold can do that.", "estilo": "Dry and punchy, with a half smile."},
+    {"texto": "Apple says iPhones are designed for temperatures between thirty-two and ninety-five degrees Fahrenheit.", "estilo": "Clear, matter of fact."},
+    {"texto": "In very cold conditions, the battery life can get temporarily shorter, and the phone could shut itself off.", "estilo": "Explaining, steady."},
+    {"texto": "It might also stop charging.", "estilo": "Explaining, steady."},
+    {"texto": "The good news: Apple says battery life returns to normal when the phone gets back to higher temperatures.", "estilo": "Relieved, friendly."},
+    {"texto": "Heads up: Apple also says not to leave your phone in a parked car, where the temperature can go outside that range.", "estilo": "Warm, honest, with the caveat."},
+    {"texto": "Save this for the next cold day.", "estilo": "Practical, friendly."},
+    {"texto": "What percent was your phone at the last time it died in the cold?", "estilo": "Casual, inviting."},
+    {"texto": "Send this to the friend whose phone always dies at the worst moment.", "estilo": "Playful, with humor."}
+  ]
+}
