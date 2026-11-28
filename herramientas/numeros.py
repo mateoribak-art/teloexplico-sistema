@@ -65,6 +65,12 @@ def _a_cifras_en(texto, minimo):
     salida, i = [], 0
     while i < len(palabras):
         w = palabras[i].lower()
+        # precio dicho "two fifty" / "seven fifty" = 2.50 / 7.50 (whisper escribe 250 / 750), no 52 / 57
+        if (1 <= UNIDADES_EN.get(w, 0) <= 9 and i + 2 < len(palabras) and palabras[i + 1] == ' '
+                and UNIDADES_EN.get(palabras[i + 2].lower(), 0) >= 20 and UNIDADES_EN[palabras[i + 2].lower()] % 10 == 0):
+            salida.append(f'{UNIDADES_EN[w]}{UNIDADES_EN[palabras[i + 2].lower()]}')
+            i += 3
+            continue
         if w in UNIDADES_EN or w in MULT_EN or (w == 'hundred' and i == 0):
             total, actual, j, fin = 0, 0, i, i
             while j < len(palabras):
