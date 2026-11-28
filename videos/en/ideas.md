@@ -44,6 +44,7 @@ El skill `producir-video-en` alterna: un video **adaptado** de Te lo explico, un
 - [usada → en-028-turkey-sleepy] Does turkey make you sleepy? (tryptophan myth) — cerca de Thanksgiving
 
 ## Temas de EE. UU. — serie: casa (Home myths)
+- [usada → en-059-generator-garage] Portable generator: outside only, 20 feet from the house, never in the garage even with the door open (CPSC; own)
 - [usada → en-056-smoke-alarm] Smoke alarms expire: replace 10 years after the manufacture date, test monthly (NFPA; own)
 - [usada → en-054-tree-lights] Christmas tree lights: off when leaving/sleeping, water the tree daily (NIST; own)
 - [usada → en-049-space-heater] Space heater on a power strip? CPSC/USFA: wall outlet only, 3 ft clearance, never while sleeping

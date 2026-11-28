@@ -1872,7 +1872,7 @@
  {
   "slug": "en-057-tip-math",
   "tema": "How to figure a 20% tip in your head (arithmetic; own; everyday math)",
-  "estado": "render",
+  "estado": "apartado",
   "historial": [
    {
     "estado": "idea",
@@ -1898,6 +1898,11 @@
     "estado": "render",
     "cuando": "2026-11-27T17:03",
     "motivo": "reintento auto: apartado por render/control; se renderiza y controla de nuevo"
+   },
+   {
+    "estado": "apartado",
+    "cuando": "2026-11-27T21:04",
+    "motivo": "render/control: 50 is 750. Heads up, some restaurants already add a service charge. So check the bill first. Save this for the next time the check shows up. So what do you usually tip? Give me a percent, send this to the friend who pulls out a calculator at dinner.\nPROBLEMAS:\n- la voz no coincide con el guion (87%)"
    }
   ]
  },
@@ -1924,6 +1929,33 @@
    {
     "estado": "listo",
     "cuando": "2026-11-27T16:50",
+    "motivo": "render sin Claude"
+   }
+  ]
+ },
+ {
+  "slug": "en-059-generator-garage",
+  "tema": "Generator in the garage with the door open? CPSC: outside only, 20 feet away (own; home safety)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-27T21:05",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-27T21:05",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-27T21:09",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-27T21:14",
     "motivo": "render sin Claude"
    }
   ]

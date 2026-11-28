@@ -26,3 +26,12 @@ Uso: 26 pasos · 30,245 tokens nuevos · 1,720,266 de caché · 11,305 escritos 
 2026-11-27 16:15 Render de 083-brindis-copas (sin Claude).
 2026-11-27 16:32 083-brindis-copas: listo (render sin Claude)
 2026-11-27 16:32 Termina la producción (ok).
+2026-11-27 20:46 Arranca la producción (18 listos en la cola, meta 10; hay un pedido de Mateo sin hacer).
+- **Listo para render:** `084-florero-dengue`, sobre el agua del florero y el dengue (serie casa #15). El chequeo lo rechazó la primera vez y lo aprobó la segunda, después de agregar "pueden resistir" a la frase de los huevos. La voz dura 40 s, `tsc` pasa y quedó en estado `render`, que lo hace `producir.py`.
+- **Rescates:** ninguno. 005, 038, 042, 044 y 051 siguen apartados por motivos que no son un chequeo rechazado. 083-luz-prendida-apagada también está apartado, pero fue descartado por falta de fuente oficial.
+- **Segundo video no producido:** la cola ya tiene 18 listos, más de los 10 que pide la regla. Descarté el Perito Moreno como tema porque las cifras recientes de retroceso y rupturas son contradictorias entre fuentes.
+- **Sin hacer:** no corrí el radar de actualidad ni medí el ritmo de seguidores contra el necesario.
+Uso: 18 pasos · 14,366 tokens nuevos · 1,123,385 de caché · 2,598 escritos · equivale a US$ 1.19 de API
+2026-11-27 20:52 Render de 084-florero-dengue (sin Claude).
+2026-11-27 21:00 084-florero-dengue: listo (render sin Claude)
+2026-11-27 21:00 Termina la producción (ok).

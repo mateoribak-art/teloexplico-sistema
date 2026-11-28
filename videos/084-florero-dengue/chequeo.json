@@ -1,0 +1,60 @@
+{
+  "veredicto": "aprobado",
+  "motivo": "Todas las afirmaciones de salud verificadas contra las dos páginas oficiales y las atribuciones coinciden: la cita de cepillar paredes es de Nación (argentina.gob.ar); 'más de un año secos' y 'renovar cada tres días' son de Salud PBA (gba.gob.ar). La frase 4 ya lleva el condicional 'pueden resistir'. Ninguna falsa ni dudosa. Nota menor: la regla 'cada tres días' es de PBA (Nación dice 'cada 2/3 días' para plantas en agua); el caption lo atribuye bien a Salud PBA y el guion no la atribuye a nadie.",
+  "afirmaciones": [
+    {
+      "texto": "Los huevos del mosquito del dengue quedan pegados a la pared (del recipiente).",
+      "fuente": "argentina.gob.ar/como-prevenir-el-dengue: cepillar o frotar las paredes internas es fundamental para desprender los huevos adheridos al recipiente",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El Ministerio de Salud de la Nación pide cepillar las paredes (internas) cuando cambiás el agua.",
+      "fuente": "argentina.gob.ar/como-prevenir-el-dengue (bajo Ministerio de Salud): 'cepillar las paredes internas de los floreros' y 'Cepillar, limpiar y cambiar el agua de bebederos de animales'",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Según Salud de la provincia de Buenos Aires, los huevos pueden resistir más de un año secos.",
+      "fuente": "gba.gob.ar/saludprovincia/noticias/salud_insta_reforzar_el_descacharrado_...: 'Sus huevos pueden resistir las condiciones ambientales secas durante más de un año' (voz de la cartera sanitaria bonaerense). La página de Nación solo dice que resisten sequía, sin plazo, por lo que la atribución a PBA es la correcta.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El agua de floreros y bebederos se renueva cada tres días (Salud PBA).",
+      "fuente": "gba.gob.ar: 'El agua de bebederos de animales y de floreros en el interior y exterior de la casa deben ser renovados cada tres días'. Nación indica 'cada 2/3 días aproximadamente' para plantas en agua, consistente.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Lo que no uses y junte agua de lluvia, tirarlo.",
+      "fuente": "gba.gob.ar: 'Descartar todos los objetos inservibles que puedan acumular agua de lluvia'; argentina.gob.ar también recomienda dar vuelta, cubrir o resguardar objetos al exterior",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Tirar el agua no alcanza; hay que frotar la pared.",
+      "fuente": "argentina.gob.ar: 'Cepillar o frotar las paredes internas del recipiente es fundamental' (porque los huevos quedan adheridos)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Es al revés: cambiar el agua no basta para que deje de criar mosquitos (los huevos quedan).",
+      "fuente": "argentina.gob.ar (huevos adheridos, cepillar es fundamental). Es encuadre retórico del mito, sin cifras; no se afirma que cambiar el agua sea inútil, sino insuficiente.",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "El mosquito del dengue (Aedes aegypti) es el que pone esos huevos en floreros.",
+      "fuente": "argentina.gob.ar/como-prevenir-el-dengue (dengue transmitido por el mosquito que se cría en recipientes con agua dentro y fuera de la casa)",
+      "estado": "verificada",
+      "matiz_ok": true
+    },
+    {
+      "texto": "Esto es prevención, no un tratamiento.",
+      "fuente": "argentina.gob.ar/como-prevenir-el-dengue: el contenido es de prevención (eliminar criaderos); aclaración honesta, no afirma nada de tratamiento",
+      "estado": "verificada",
+      "matiz_ok": true
+    }
+  ]
+}

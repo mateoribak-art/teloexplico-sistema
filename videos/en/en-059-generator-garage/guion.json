@@ -1,0 +1,27 @@
+{
+  "titulo": "Running a generator in the garage with the door open?",
+  "serie": "casa",
+  "fondo": "oscuro",
+  "receta": "regla con número para guardar (20 pies) + error cotidiano de seguridad",
+  "pilar": "casa",
+  "destinatario": "se lo manda quien vivió un apagón a su papá o vecino que enciende el generador en el garage con la puerta abierta",
+  "regla_guardable": "Generator: outside only, at least 20 feet from the house. Never in the garage, even with the door open.",
+  "interaccion": {
+    "guardar": "Generator: outside only, at least 20 feet from the house. Never in the garage, even with the door open.",
+    "comentar": "Have you ever lost power for more than a day? How long?"
+  },
+  "fuentes": [
+    "CPSC (Consumer Product Safety Commission), winter weather safety tips: never operate a portable generator inside a home, garage, basement, crawlspace, shed or other enclosed space; opening doors or windows will not provide enough ventilation to prevent lethal levels of carbon monoxide; operate outside only, at least 20 feet away from the house"
+  ],
+  "frases": [
+    {"texto": "The power's out, so you run the generator in the garage with the door open.", "estilo": "Dry, direct, with a half smile."},
+    {"texto": "That's not safe.", "estilo": "Punchy."},
+    {"texto": "The Consumer Product Safety Commission says an open door or window won't give you enough ventilation to stop carbon monoxide from building up to deadly levels.", "estilo": "Informative, clear, serious."},
+    {"texto": "You can't see it or smell it, so you won't know it's there.", "estilo": "Firm."},
+    {"texto": "Its rule is simple: generators go outside only, at least twenty feet from the house.", "estilo": "Brisk, practical."},
+    {"texto": "Not on the porch, and not in the carport. Those are too close.", "estilo": "Firm."},
+    {"texto": "Save this for the next big storm.", "estilo": "Friendly."},
+    {"texto": "Have you ever lost power for more than a day? Tell me how long.", "estilo": "Curious, friendly."},
+    {"texto": "Send this to the friend who already owns a generator.", "estilo": "Playful and funny."}
+  ]
+}

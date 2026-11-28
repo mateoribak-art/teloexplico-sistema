@@ -1,0 +1,25 @@
+{
+  "titulo": "Cambiás el agua del florero y el mosquito sigue ahí",
+  "fondo": "oscuro",
+  "receta": "Mito + zoom adentro",
+  "pilar": "casa",
+  "interaccion": ["guardar", "comentar"],
+  "destinatario": "se lo manda una hija a su vieja que cambia el agua del florero pero nunca lo frota, para decirle que cepille la pared",
+  "regla_guardable": "Florero y bebedero: cepillar las paredes y renovar el agua cada tres días.",
+  "fuentes": [
+    "Ministerio de Salud de la Nación, Cómo prevenir el dengue (argentina.gob.ar)",
+    "Ministerio de Salud de la provincia de Buenos Aires, descacharrado (gba.gob.ar)"
+  ],
+  "frases": [
+    {"texto": "Cambiás el agua del florero y creés que ya no cría mosquitos.", "estilo": "Seco, directo, con media sonrisa."},
+    {"texto": "Es al revés: los huevos del mosquito del dengue quedan pegados a la pared.", "estilo": "Seco y contundente."},
+    {"texto": "Por eso el Ministerio de Salud de la Nación pide cepillar las paredes cuando cambiás el agua.", "estilo": "Informativo, con autoridad."},
+    {"texto": "Y aguantan sin agua: la provincia de Buenos Aires dice que pueden resistir más de un año secos.", "estilo": "Con sorpresa."},
+    {"texto": "Tirar el agua no alcanza. Hay que frotar la pared.", "estilo": "Claro, firme."},
+    {"texto": "La regla para guardar: el agua de floreros y bebederos se renueva cada tres días.", "estilo": "Claro, con ritmo."},
+    {"texto": "Y todo lo que no uses y junte agua de lluvia, mejor tirarlo.", "estilo": "Cercano."},
+    {"texto": "Ojo: esto es prevención, no un tratamiento.", "estilo": "Matiz honesto, calmo."},
+    {"texto": "¿Cuándo fue la última vez que frotaste el florero? Contestá hoy o nunca.", "estilo": "Cercano, invitando."},
+    {"texto": "Mandáselo al que tiene el florero con el agua verde.", "estilo": "Cómplice, con humor."}
+  ]
+}

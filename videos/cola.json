@@ -3074,5 +3074,32 @@
     "motivo": "render sin Claude"
    }
   ]
+ },
+ {
+  "slug": "084-florero-dengue",
+  "tema": "Cambiar el agua del florero no alcanza: los huevos del mosquito del dengue quedan pegados a la pared; cepillar y renovar cada tres días (Ministerio de Salud, Salud PBA)",
+  "estado": "listo",
+  "historial": [
+   {
+    "estado": "idea",
+    "cuando": "2026-11-27T20:47",
+    "motivo": ""
+   },
+   {
+    "estado": "produccion",
+    "cuando": "2026-11-27T20:47",
+    "motivo": ""
+   },
+   {
+    "estado": "render",
+    "cuando": "2026-11-27T20:51",
+    "motivo": "escenas 3D listas"
+   },
+   {
+    "estado": "listo",
+    "cuando": "2026-11-27T21:00",
+    "motivo": "render sin Claude"
+   }
+  ]
  }
 ]

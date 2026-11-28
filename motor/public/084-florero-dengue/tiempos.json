@@ -1,0 +1,720 @@
+{
+ "duracion": 40.07,
+ "frases": [
+  {
+   "texto": "Cambiás el agua del florero y creés que ya no cría mosquitos.",
+   "palabras": [
+    {
+     "texto": "Cambiás",
+     "inicio": 0.0,
+     "fin": 0.28
+    },
+    {
+     "texto": "el",
+     "inicio": 0.28,
+     "fin": 0.4
+    },
+    {
+     "texto": "agua",
+     "inicio": 0.4,
+     "fin": 0.54
+    },
+    {
+     "texto": "del",
+     "inicio": 0.54,
+     "fin": 0.72
+    },
+    {
+     "texto": "florero",
+     "inicio": 0.72,
+     "fin": 1.14
+    },
+    {
+     "texto": "y",
+     "inicio": 1.14,
+     "fin": 1.32
+    },
+    {
+     "texto": "creés",
+     "inicio": 1.32,
+     "fin": 1.6
+    },
+    {
+     "texto": "que",
+     "inicio": 1.6,
+     "fin": 1.72
+    },
+    {
+     "texto": "ya",
+     "inicio": 1.72,
+     "fin": 1.86
+    },
+    {
+     "texto": "no",
+     "inicio": 1.86,
+     "fin": 1.98
+    },
+    {
+     "texto": "cría",
+     "inicio": 1.98,
+     "fin": 2.22
+    },
+    {
+     "texto": "mosquitos.",
+     "inicio": 2.22,
+     "fin": 2.72
+    }
+   ],
+   "inicio": 0.0,
+   "fin": 2.72
+  },
+  {
+   "texto": "Es al revés: los huevos del mosquito del dengue quedan pegados a la pared.",
+   "palabras": [
+    {
+     "texto": "Es",
+     "inicio": 3.28,
+     "fin": 3.46
+    },
+    {
+     "texto": "al",
+     "inicio": 3.46,
+     "fin": 3.58
+    },
+    {
+     "texto": "revés:",
+     "inicio": 3.58,
+     "fin": 3.88
+    },
+    {
+     "texto": "los",
+     "inicio": 4.36,
+     "fin": 4.46
+    },
+    {
+     "texto": "huevos",
+     "inicio": 4.46,
+     "fin": 4.74
+    },
+    {
+     "texto": "del",
+     "inicio": 4.74,
+     "fin": 4.88
+    },
+    {
+     "texto": "mosquito",
+     "inicio": 4.88,
+     "fin": 5.14
+    },
+    {
+     "texto": "del",
+     "inicio": 5.14,
+     "fin": 5.4
+    },
+    {
+     "texto": "dengue",
+     "inicio": 5.4,
+     "fin": 5.7
+    },
+    {
+     "texto": "quedan",
+     "inicio": 5.7,
+     "fin": 6.06
+    },
+    {
+     "texto": "pegados",
+     "inicio": 6.06,
+     "fin": 6.44
+    },
+    {
+     "texto": "a",
+     "inicio": 6.44,
+     "fin": 6.6
+    },
+    {
+     "texto": "la",
+     "inicio": 6.6,
+     "fin": 6.66
+    },
+    {
+     "texto": "pared.",
+     "inicio": 6.66,
+     "fin": 6.86
+    }
+   ],
+   "inicio": 3.28,
+   "fin": 6.86
+  },
+  {
+   "texto": "Por eso el Ministerio de Salud de la Nación pide cepillar las paredes cuando cambiás el agua.",
+   "palabras": [
+    {
+     "texto": "Por",
+     "inicio": 7.3,
+     "fin": 7.5
+    },
+    {
+     "texto": "eso",
+     "inicio": 7.5,
+     "fin": 7.66
+    },
+    {
+     "texto": "el",
+     "inicio": 7.66,
+     "fin": 7.84
+    },
+    {
+     "texto": "Ministerio",
+     "inicio": 7.84,
+     "fin": 8.2
+    },
+    {
+     "texto": "de",
+     "inicio": 8.2,
+     "fin": 8.34
+    },
+    {
+     "texto": "Salud",
+     "inicio": 8.34,
+     "fin": 8.58
+    },
+    {
+     "texto": "de",
+     "inicio": 8.58,
+     "fin": 8.7
+    },
+    {
+     "texto": "la",
+     "inicio": 8.7,
+     "fin": 8.78
+    },
+    {
+     "texto": "Nación",
+     "inicio": 8.78,
+     "fin": 9.06
+    },
+    {
+     "texto": "pide",
+     "inicio": 9.06,
+     "fin": 9.74
+    },
+    {
+     "texto": "cepillar",
+     "inicio": 9.74,
+     "fin": 10.32
+    },
+    {
+     "texto": "las",
+     "inicio": 10.32,
+     "fin": 10.5
+    },
+    {
+     "texto": "paredes",
+     "inicio": 10.5,
+     "fin": 10.94
+    },
+    {
+     "texto": "cuando",
+     "inicio": 10.94,
+     "fin": 11.12
+    },
+    {
+     "texto": "cambiás",
+     "inicio": 11.12,
+     "fin": 11.52
+    },
+    {
+     "texto": "el",
+     "inicio": 11.52,
+     "fin": 11.64
+    },
+    {
+     "texto": "agua.",
+     "inicio": 11.64,
+     "fin": 11.84
+    }
+   ],
+   "inicio": 7.3,
+   "fin": 11.84
+  },
+  {
+   "texto": "Y aguantan sin agua: la provincia de Buenos Aires dice que pueden resistir más de un año secos.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 12.4,
+     "fin": 12.5
+    },
+    {
+     "texto": "aguantan",
+     "inicio": 12.5,
+     "fin": 12.94
+    },
+    {
+     "texto": "sin",
+     "inicio": 12.94,
+     "fin": 13.12
+    },
+    {
+     "texto": "agua:",
+     "inicio": 13.12,
+     "fin": 13.34
+    },
+    {
+     "texto": "la",
+     "inicio": 13.9,
+     "fin": 13.98
+    },
+    {
+     "texto": "provincia",
+     "inicio": 13.98,
+     "fin": 14.32
+    },
+    {
+     "texto": "de",
+     "inicio": 14.32,
+     "fin": 14.44
+    },
+    {
+     "texto": "Buenos",
+     "inicio": 14.44,
+     "fin": 14.58
+    },
+    {
+     "texto": "Aires",
+     "inicio": 14.58,
+     "fin": 14.82
+    },
+    {
+     "texto": "dice",
+     "inicio": 14.82,
+     "fin": 15.02
+    },
+    {
+     "texto": "que",
+     "inicio": 15.02,
+     "fin": 15.18
+    },
+    {
+     "texto": "pueden",
+     "inicio": 15.18,
+     "fin": 15.42
+    },
+    {
+     "texto": "resistir",
+     "inicio": 15.42,
+     "fin": 15.9
+    },
+    {
+     "texto": "más",
+     "inicio": 15.9,
+     "fin": 16.08
+    },
+    {
+     "texto": "de",
+     "inicio": 16.08,
+     "fin": 16.2
+    },
+    {
+     "texto": "un",
+     "inicio": 16.2,
+     "fin": 16.28
+    },
+    {
+     "texto": "año",
+     "inicio": 16.28,
+     "fin": 16.48
+    },
+    {
+     "texto": "secos.",
+     "inicio": 16.48,
+     "fin": 17.06
+    }
+   ],
+   "inicio": 12.4,
+   "fin": 17.06
+  },
+  {
+   "texto": "Tirar el agua no alcanza. Hay que frotar la pared.",
+   "palabras": [
+    {
+     "texto": "Tirar",
+     "inicio": 17.52,
+     "fin": 17.8
+    },
+    {
+     "texto": "el",
+     "inicio": 17.8,
+     "fin": 17.9
+    },
+    {
+     "texto": "agua",
+     "inicio": 17.9,
+     "fin": 18.12
+    },
+    {
+     "texto": "no",
+     "inicio": 18.12,
+     "fin": 18.48
+    },
+    {
+     "texto": "alcanza.",
+     "inicio": 18.48,
+     "fin": 18.98
+    },
+    {
+     "texto": "Hay",
+     "inicio": 19.42,
+     "fin": 19.5
+    },
+    {
+     "texto": "que",
+     "inicio": 19.5,
+     "fin": 19.58
+    },
+    {
+     "texto": "frotar",
+     "inicio": 19.58,
+     "fin": 19.92
+    },
+    {
+     "texto": "la",
+     "inicio": 19.92,
+     "fin": 20.04
+    },
+    {
+     "texto": "pared.",
+     "inicio": 20.04,
+     "fin": 20.22
+    }
+   ],
+   "inicio": 17.52,
+   "fin": 20.22
+  },
+  {
+   "texto": "La regla para guardar: el agua de floreros y bebederos se renueva cada tres días.",
+   "palabras": [
+    {
+     "texto": "La",
+     "inicio": 20.74,
+     "fin": 20.9
+    },
+    {
+     "texto": "regla",
+     "inicio": 20.9,
+     "fin": 21.24
+    },
+    {
+     "texto": "para",
+     "inicio": 21.24,
+     "fin": 21.42
+    },
+    {
+     "texto": "guardar:",
+     "inicio": 21.42,
+     "fin": 21.86
+    },
+    {
+     "texto": "el",
+     "inicio": 22.34,
+     "fin": 22.48
+    },
+    {
+     "texto": "agua",
+     "inicio": 22.48,
+     "fin": 22.64
+    },
+    {
+     "texto": "de",
+     "inicio": 22.64,
+     "fin": 22.82
+    },
+    {
+     "texto": "floreros",
+     "inicio": 22.82,
+     "fin": 23.26
+    },
+    {
+     "texto": "y",
+     "inicio": 23.26,
+     "fin": 23.44
+    },
+    {
+     "texto": "bebederos",
+     "inicio": 23.44,
+     "fin": 23.9
+    },
+    {
+     "texto": "se",
+     "inicio": 23.9,
+     "fin": 24.3
+    },
+    {
+     "texto": "renueva",
+     "inicio": 24.3,
+     "fin": 24.68
+    },
+    {
+     "texto": "cada",
+     "inicio": 24.68,
+     "fin": 24.88
+    },
+    {
+     "texto": "tres",
+     "inicio": 24.88,
+     "fin": 25.24
+    },
+    {
+     "texto": "días.",
+     "inicio": 25.24,
+     "fin": 25.54
+    }
+   ],
+   "inicio": 20.74,
+   "fin": 25.54
+  },
+  {
+   "texto": "Y todo lo que no uses y junte agua de lluvia, mejor tirarlo.",
+   "palabras": [
+    {
+     "texto": "Y",
+     "inicio": 25.54,
+     "fin": 26.28
+    },
+    {
+     "texto": "todo",
+     "inicio": 26.28,
+     "fin": 26.56
+    },
+    {
+     "texto": "lo",
+     "inicio": 26.56,
+     "fin": 26.78
+    },
+    {
+     "texto": "que",
+     "inicio": 26.78,
+     "fin": 26.88
+    },
+    {
+     "texto": "no",
+     "inicio": 26.88,
+     "fin": 27.02
+    },
+    {
+     "texto": "uses",
+     "inicio": 27.02,
+     "fin": 27.26
+    },
+    {
+     "texto": "y",
+     "inicio": 27.26,
+     "fin": 27.48
+    },
+    {
+     "texto": "junte",
+     "inicio": 27.48,
+     "fin": 27.82
+    },
+    {
+     "texto": "agua",
+     "inicio": 27.82,
+     "fin": 28.06
+    },
+    {
+     "texto": "de",
+     "inicio": 28.06,
+     "fin": 28.22
+    },
+    {
+     "texto": "lluvia,",
+     "inicio": 28.22,
+     "fin": 28.62
+    },
+    {
+     "texto": "mejor",
+     "inicio": 28.84,
+     "fin": 29.04
+    },
+    {
+     "texto": "tirarlo.",
+     "inicio": 29.04,
+     "fin": 29.58
+    }
+   ],
+   "inicio": 25.54,
+   "fin": 29.58
+  },
+  {
+   "texto": "Ojo: esto es prevención, no un tratamiento.",
+   "palabras": [
+    {
+     "texto": "Ojo:",
+     "inicio": 30.08,
+     "fin": 30.38
+    },
+    {
+     "texto": "esto",
+     "inicio": 30.74,
+     "fin": 30.96
+    },
+    {
+     "texto": "es",
+     "inicio": 30.96,
+     "fin": 31.1
+    },
+    {
+     "texto": "prevención,",
+     "inicio": 31.1,
+     "fin": 32.08
+    },
+    {
+     "texto": "no",
+     "inicio": 32.46,
+     "fin": 32.64
+    },
+    {
+     "texto": "un",
+     "inicio": 32.64,
+     "fin": 32.7
+    },
+    {
+     "texto": "tratamiento.",
+     "inicio": 32.7,
+     "fin": 33.2
+    }
+   ],
+   "inicio": 30.08,
+   "fin": 33.2
+  },
+  {
+   "texto": "¿Cuándo fue la última vez que frotaste el florero? Contestá hoy o nunca.",
+   "palabras": [
+    {
+     "texto": "¿Cuándo",
+     "inicio": 33.74,
+     "fin": 34.0
+    },
+    {
+     "texto": "fue",
+     "inicio": 34.0,
+     "fin": 34.12
+    },
+    {
+     "texto": "la",
+     "inicio": 34.12,
+     "fin": 34.24
+    },
+    {
+     "texto": "última",
+     "inicio": 34.24,
+     "fin": 34.44
+    },
+    {
+     "texto": "vez",
+     "inicio": 34.44,
+     "fin": 34.66
+    },
+    {
+     "texto": "que",
+     "inicio": 34.66,
+     "fin": 34.78
+    },
+    {
+     "texto": "frotaste",
+     "inicio": 34.78,
+     "fin": 35.16
+    },
+    {
+     "texto": "el",
+     "inicio": 35.16,
+     "fin": 35.24
+    },
+    {
+     "texto": "florero?",
+     "inicio": 35.24,
+     "fin": 35.66
+    },
+    {
+     "texto": "Contestá",
+     "inicio": 36.12,
+     "fin": 36.5
+    },
+    {
+     "texto": "hoy",
+     "inicio": 36.5,
+     "fin": 36.74
+    },
+    {
+     "texto": "o",
+     "inicio": 36.74,
+     "fin": 37.04
+    },
+    {
+     "texto": "nunca.",
+     "inicio": 37.04,
+     "fin": 37.34
+    }
+   ],
+   "inicio": 33.74,
+   "fin": 37.34
+  },
+  {
+   "texto": "Mandáselo al que tiene el florero con el agua verde.",
+   "palabras": [
+    {
+     "texto": "Mandáselo",
+     "inicio": 37.94,
+     "fin": 38.42
+    },
+    {
+     "texto": "al",
+     "inicio": 38.42,
+     "fin": 38.44
+    },
+    {
+     "texto": "que",
+     "inicio": 38.44,
+     "fin": 38.56
+    },
+    {
+     "texto": "tiene",
+     "inicio": 38.56,
+     "fin": 38.72
+    },
+    {
+     "texto": "el",
+     "inicio": 38.72,
+     "fin": 38.84
+    },
+    {
+     "texto": "florero",
+     "inicio": 38.84,
+     "fin": 39.2
+    },
+    {
+     "texto": "con",
+     "inicio": 39.2,
+     "fin": 39.36
+    },
+    {
+     "texto": "el",
+     "inicio": 39.36,
+     "fin": 39.46
+    },
+    {
+     "texto": "agua",
+     "inicio": 39.46,
+     "fin": 39.62
+    },
+    {
+     "texto": "verde.",
+     "inicio": 39.62,
+     "fin": 39.92
+    }
+   ],
+   "inicio": 37.94,
+   "fin": 39.92
+  }
+ ]
+}
